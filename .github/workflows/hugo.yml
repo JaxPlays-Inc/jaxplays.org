@@ -73,3 +73,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+      - name: Send Pushover Notification
+        if: success()  # This ensures the step only runs if the previous steps were successful
+        uses: umahmood/pushover-actions@main
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+        with:
+          status: ${{ job.status }}
+          title: 'Deployment Notification'
+          message: 'Your Hugo site has been successfully deployed to GitHub Pages.'
