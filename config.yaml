@@ -8,3 +8,8 @@ permalinks:
   shows: "/:section/:filename/"
   theatres: "/:section/:filename/"
   venues: "/:section/:filename/"
+
+
+params:
+  background_color_class: "bg-black"
+  light_text_color_class: "gray"
