@@ -7,18 +7,18 @@
   
     <figure class="db mw8 center">
       <img src="{{ .Params.featured_image }}" alt="{{ with .Params.featured_image_alt }}{{ . }}{{ else }}{{ .Title }}{{ end }}">
-      {{ if or .Params.featured_image_caption .Params.featured_image_credit }}
-      <figcaption class="flex pa1-ns pa3-m pa3 justify-center {{ .Site.Params.light_text_color_class }}">
+      {{ if or .Params.featured_image_caption .Params.featured_image_attr }}
+      <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ .Site.Params.light_text_color_class }}">
         {{ with .Params.featured_image_caption }}
         {{ . }}
         {{ end }}
-        {{ if and .Params.featured_image_caption .Params.featured_image_credit }}  |  {{ end }}
-        {{ with .Params.featured_image_credit }}
+        {{ if and .Params.featured_image_caption .Params.featured_image_attr }}  |  {{ end }}
+        {{ with .Params.featured_image_attr }}
         (📷 {{ . }})
         {{ end }}
       </figcaption>
       {{ end }}
-    </figure>
+    </figure>    
 
   </header>
 

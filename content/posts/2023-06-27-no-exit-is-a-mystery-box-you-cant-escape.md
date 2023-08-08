@@ -7,7 +7,7 @@ date: 2023-06-27T23:45:00-04:00
 published: true
 categories: Reviews
 featured_image: /media/photos/2023_No_Exit_6.webp
-featured_image_credit: Ray Hollister
+featured_image_attr: Ray Hollister
 featured_image_alt:  Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to right)
 featured_image_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to right)
 author: Ray Hollister
@@ -25,9 +25,7 @@ However, the illusion fades quickly with the arrival of Stefan Renaud, impeccabl
 
 Adding to the tumult, Kathryn Kuhn’s Inez slinks onto the stage, a compelling mix of strength and villainy. Just as tensions peak between her and Renaud, Kate McManus’s Estelle enters, a picture of uptight elegance with a balletic grace that hides deeper turbulence.
 
-| ![Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)](/media/photos/2023_No_Exit_3.webp) |
-|:--:| 
-| *Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)* |
+{{< figure src="/media/photos/2023_No_Exit_3.webp" alt="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" caption="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" attr="Ray Hollister" >}}
 
 The sound design in *No Exit* is immersive and nuanced, enhancing the cinematic feel of the play. Each music cue was carefully orchestrated, enveloping the audience in the characters' eerie reality. This attention to sonic detail made the overall experience much more tactile and emotional. 
 
@@ -39,9 +37,7 @@ The second act digs deeper into the psyche of the characters. As the trio grappl
 
 Kathryn Kuhn, in the role of Inez, presents a captivating mix of strength and potential menace. Her character exacerbates Renaud's tension leaving the audience wondering — for a brief moment — if, perhaps, she isn't there to be tortured at all. Kuhn’s Inez is fascinatingly repellent. Her predatory advances towards Estelle and dominant presence on stage embody the perfect amount of discomfort and intrigue.
 
-| ![Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)](/media/photos/2023_No_Exit_4.webp) |
-|:--:| 
-| *Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)* |
+{{< figure src="/media/photos/2023_No_Exit_4.webp" alt="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" caption="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" attr="Ray Hollister">}}
 
 Kate McManus as Estelle presents an intriguing performance, marked by an elegant façade. Beneath the polished exterior, she conveys a truly indifferent inhumanity, not born out of apathy, but stemming from a deep-rooted self-centeredness. McManus skillfully captures this complex character, maintaining Estelle's outward poise while subtly exposing the character's core incapability of genuine empathy.
 
