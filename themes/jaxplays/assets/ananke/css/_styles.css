@@ -12,7 +12,7 @@
 
 .jaxplayslogo {
 	letter-spacing: 0.055em;
-	background-image: url("/media/JaxPlaysLogo.svg");
+	background-image: url("/JaxPlaysLogo.svg");
 	background-repeat: no-repeat;
 	background-position: left center; /* Adjust the position as needed */
 }
