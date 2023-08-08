@@ -1,0 +1,10 @@
+baseURL: 'https://hugo.jaxplays.com'
+languageCode: 'en-us'
+title: 'JaxPlays'
+theme: 'jaxplays'
+permalinks:
+  people: "/:section/:filename/"
+  productions: "/:section/:filename/"
+  shows: "/:section/:filename/"
+  theatres: "/:section/:filename/"
+  venues: "/:section/:filename/"

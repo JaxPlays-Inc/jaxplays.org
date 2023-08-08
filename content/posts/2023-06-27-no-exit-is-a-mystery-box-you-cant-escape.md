@@ -6,7 +6,7 @@ layout: posts
 date: 2023-06-27T23:45:00-04:00
 published: true
 categories: Reviews
-image: 2023_No_Exit_6.webp
+featured_image: /media/photos/2023_No_Exit_6.webp
 image_credit: Ray Hollister
 image_alt: 
 image_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to right)
