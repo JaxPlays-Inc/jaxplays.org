@@ -13,6 +13,8 @@ permalinks:
 
 
 params:
+  recent_posts_number: 3
+  recent_copy: Latest News & Reviews
   mainSections: 
     - "news"
     - "reviews"
