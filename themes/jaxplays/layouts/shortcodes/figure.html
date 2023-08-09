@@ -1,17 +1,12 @@
-<!-- image -->
-<figure class="db mw8 center {{ with .Get "class" }}{{ . }}{{ end }}">
-  {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
-    <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }} />
-    {{ if .Get "link" }}</a>{{ end }}
-    {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
-      <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ .Site.Params.light_text_color_class }} f5">
-        {{ if or (.Get "caption") (.Get "attr") }}
-        {{ .Get "caption" }}
-        {{ if .Get "attr" }}
-          {{ with .Get "attrlink" }}<a href="{{ . }}"> | (📷 {{ .Get "attr" }})</a>{{ else }} | (📷 {{ .Get "attr" }}){{ end }}
-        {{ end }}
-        {{ end }}
-      </figcaption>
-  {{ end }}
-</figure>
-<!-- image -->
+<!-- layouts/shortcodes/figure.html -->
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+{{ $attr := .Get "attr" }}
+{{ $class := .Get "class" }}
+{{ $link := .Get "link" }}
+{{ $title := .Get "title" }}
+{{ $attrlink := .Get "attrlink" }}
+{{ $light_text_color_class := .Site.Params.light_text_color_class }}
+
+{{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "class" $class "link" $link "title" $title "attrlink" $attrlink "light_text_color_class" $light_text_color_class) }}

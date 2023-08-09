@@ -4,21 +4,13 @@
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
     </div>
-  
-    <figure class="db mw8 center">
-      <img src="{{ .Params.featured_image }}" alt="{{ with .Params.featured_image_alt }}{{ . }}{{ else }}{{ .Title }}{{ end }}">
-      {{ if or .Params.featured_image_caption .Params.featured_image_attr }}
-      <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ .Site.Params.light_text_color_class }}">
-        {{ with .Params.featured_image_caption }}
-        {{ . }}
-        {{ end }}
-        {{ if and .Params.featured_image_caption .Params.featured_image_attr }}  |  {{ end }}
-        {{ with .Params.featured_image_attr }}
-        (📷 {{ . }})
-        {{ end }}
-      </figcaption>
-      {{ end }}
-    </figure>    
+
+    {{ $src := .Params.featured_image }}
+    {{ $alt := cond (isset .Params "featured_image_alt") .Params.featured_image_alt .Title }}
+    {{ $caption := .Params.featured_image_caption }}
+    {{ $attr := .Params.featured_image_attr }}
+    {{ $light_text_color_class := .Site.Params.light_text_color_class }}
+    {{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "light_text_color_class" $light_text_color_class) }}
 
   </header>
 
