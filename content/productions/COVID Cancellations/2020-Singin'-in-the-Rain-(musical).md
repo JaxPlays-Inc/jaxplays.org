@@ -8,12 +8,11 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: Singin' in the Rain (musical) - wiki
-  Theatre: The Alhambra Theatre & Dining
-  Music: Nacio Herb Brown - wiki
-  Lyrics: Arthur Freed - wiki
-  Book: Adolph Green - wiki, Betty Comden - wiki
+Title: Singin' in the Rain (musical) - wiki
+Theatre: The Alhambra Theatre & Dining
+Music: Nacio Herb Brown - wiki
+Lyrics: Arthur Freed - wiki
+Book: Adolph Green - wiki, Betty Comden - wiki
 showtimes: 
   - 2020-03-26 11:00:00
   - 2020-03-26 18:00:00

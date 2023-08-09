@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   A Student: Mary Collins
   Another Student: Arthur Milam

@@ -9,9 +9,8 @@ image_credit:
 image_alt:
 image_caption: Poster for 'Les Misérables' at Theatre Jacksonville 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Valjean: Justin Murphy
   Javert: Peter Jackson

@@ -12,12 +12,11 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: The Piano Lesson - wiki
-  Theatre: Players by the Sea
-  Writer: August Wilson - wiki
-  Genre: Drama
-  Website: https://web.ovationtix.com/trs/cal/34877?sitePreference=normal
+Title: The Piano Lesson - wiki
+Theatre: Players by the Sea
+Writer: August Wilson - wiki
+Genre: Drama
+Website: https://web.ovationtix.com/trs/cal/34877?sitePreference=normal
 showtimes: 
   - 2022-06-03 20:00:00
   - 2022-06-04 20:00:00

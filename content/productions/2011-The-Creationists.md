@@ -8,14 +8,13 @@ opening_date: 2011-02-18
 closing_date: 2011-02-26
 image:
 category:
-details:
-  Theatre: Players by the Sea
-  Venue: Grace Darling Studio Theatre
-  Title: The Creationists
-  Playwright: Joshua Kreis McTiernan
-  Setting: Here and Now, Now and Then
-  Subject: Based on the story by Jeremy Kreis McTiernan and Joshua Kreis McTiernan
-  Premiere: 2011-02-18
+Theatre: Players by the Sea
+Venue: Grace Darling Studio Theatre
+Title: The Creationists
+Playwright: Joshua Kreis McTiernan
+Setting: Here and Now, Now and Then
+Subject: Based on the story by Jeremy Kreis McTiernan and Joshua Kreis McTiernan
+Premiere: 2011-02-18
 showtimes: 
   - 2011-02-18 20:00:00
   - 2011-02-19 20:00:00

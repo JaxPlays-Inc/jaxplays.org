@@ -6,8 +6,7 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Theatre: Orange Park Community Theatre
+Theatre: Orange Park Community Theatre
 showtimes: 
 cast:
 crew:

@@ -10,14 +10,13 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: Company (musical) - wiki
-  Theatre: Orange Park Community Theatre
-  Venue: Orange Park Community Theatre
-  Music: Stephen Sondheim - wiki
-  Lyrics: Stephen Sondheim
-  Book: George Furth - wiki
-  Website: https://www.opct.info
+Title: Company (musical) - wiki
+Theatre: Orange Park Community Theatre
+Venue: Orange Park Community Theatre
+Music: Stephen Sondheim - wiki
+Lyrics: Stephen Sondheim
+Book: George Furth - wiki
+Website: https://www.opct.info
 showtimes: 
   - 2020-02-07 20:00:00
   - 2020-02-08 20:00:00

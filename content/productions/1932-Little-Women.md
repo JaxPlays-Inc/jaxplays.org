@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Amy: Agatha Smith
   Hannah Mullett: Anne C. Lalor

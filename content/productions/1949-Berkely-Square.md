@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Kate Pettigrew: Bronwen Heath
   Major Clinton: C.A. Gillis, Jr.

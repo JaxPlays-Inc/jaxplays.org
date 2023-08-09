@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Alex Benson: Katherine Bessent
   Buck Buchanon: Drummond Paul, Jr.

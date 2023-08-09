@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Accomplice No. 1: Elmo Lehman
   Accomplice No. 2: John Salzer

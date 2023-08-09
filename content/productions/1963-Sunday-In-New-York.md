@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Adam Taylor: Art Logan
   Eileen Taylor: Sabina Meyer

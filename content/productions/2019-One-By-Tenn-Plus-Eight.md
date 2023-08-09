@@ -12,11 +12,10 @@ image_caption:
 category: play
 image: 2019_OneBy_Tenn_Plus_Eight.webp
 playbill: 2019_One_By_Tenn_Plus_Eight.pdf
-details:
-  Title: "One by Tenn Plus Eight: Short Stories For the Stage"
-  Theatre: Actors Collective
-  Venue: ABET - All Beaches Experimental Theatre
-  Writers: Adam Nathaniel Davis, Karen Konzen, Cameron J. Pfahler, Elaine Smith, Kelby Siddons, Nathan Sanders, Olivia Gowan, Tennessee Williams
+Title: "One by Tenn Plus Eight: Short Stories For the Stage"
+Theatre: Actors Collective
+Venue: ABET - All Beaches Experimental Theatre
+Writers: Adam Nathaniel Davis, Karen Konzen, Cameron J. Pfahler, Elaine Smith, Kelby Siddons, Nathan Sanders, Olivia Gowan, Tennessee Williams
 showtimes: 
   - 2019-06-28 20:00:00
   - 2019-06-29 20:00:00

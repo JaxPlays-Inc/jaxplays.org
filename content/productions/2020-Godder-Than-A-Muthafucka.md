@@ -9,11 +9,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Godder Than A Muthafucka
-  Venue: 1904 Music Hall
-  Writer: Ebony Payne-English - wiki
-  Website: http://www.ebonypayneenglish.com/
+Title: Godder Than A Muthafucka
+Venue: 1904 Music Hall
+Writer: Ebony Payne-English - wiki
+Website: http://www.ebonypayneenglish.com/
 showtimes: 
   - 2020-02-23 19:00:00
 cast:

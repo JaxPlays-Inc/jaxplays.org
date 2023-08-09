@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Playwright: Alice Gerstenberg
+Theatre: Theatre Jacksonville
+Playwright: Alice Gerstenberg
 cast:
   Sheila: Anne Emmeline Overstreet
   Narcissa: Maye Elizabeth Mackinnon

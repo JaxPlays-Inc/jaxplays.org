@@ -9,10 +9,9 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Playwright: George Kelly - wiki
-  Premiere: 1922
+Theatre: Theatre Jacksonville
+Playwright: George Kelly - wiki
+Premiere: 1922
 cast:
   Mr. Huxley Hossefrosse: Bart Nason
   Mrs. Clara Shepard: Birsa Shepard

@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   A Debutante: Elise Clarke
   A Dowager: Ola Don Etter

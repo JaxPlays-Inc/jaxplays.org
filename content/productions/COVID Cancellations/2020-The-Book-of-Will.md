@@ -8,13 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: The Book of Will
-  Theatre: Amelia Community Theatre
-  Venue: ACT Main Stage
-  Writer: Lauren Gunderson - wiki
-  Genre: Comedy
-  Website: https://www.ameliacommunitytheatre.org/Performances/The-Book-of-Will
+Title: The Book of Will
+Theatre: Amelia Community Theatre
+Venue: ACT Main Stage
+Writer: Lauren Gunderson - wiki
+Genre: Comedy
+Website: https://www.ameliacommunitytheatre.org/Performances/The-Book-of-Will
 showtimes: 
   - 2020-03-27 20:00:00
   - 2020-03-28 20:00:00

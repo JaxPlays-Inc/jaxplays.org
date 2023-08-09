@@ -9,13 +9,12 @@ image_alt:
 image_caption:
 category: play
 image: 2022_The_Great_Gatsby.jpg
-details:
-  Title: The Great Gatsby - wiki
-  Theatre: The Island Theater
-  Writer: F. Scott Fitzgerald - wiki
-  Adapter: Simon Levy - wiki
-  Genre: Tragedy
-  Website: 
+Title: The Great Gatsby - wiki
+Theatre: The Island Theater
+Writer: F. Scott Fitzgerald - wiki
+Adapter: Simon Levy - wiki
+Genre: Tragedy
+Website: 
 showtimes: 
   - 2022-04-22 19:30:00
   - 2022-04-23 19:30:00

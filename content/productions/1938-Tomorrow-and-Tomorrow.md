@@ -9,10 +9,9 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
-  Playwright: Philip Barry
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
+Playwright: Philip Barry
 cast:
   Christian Redman: Larry Lovett
   Ella: Susan McRae

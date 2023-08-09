@@ -9,9 +9,8 @@ image_caption: Poster of 2023 production of Oleanna
 image_credit: Limelight Theatre
 playbill: 
 category: 
-details:
-  Theatre: Limelight Theatre
-  Venue: Koger-Gamache Studio Theatre
+Theatre: Limelight Theatre
+Venue: Koger-Gamache Studio Theatre
 showtimes:
   - 2023-01-12 19:30:00
   - 2023-01-13 19:30:00

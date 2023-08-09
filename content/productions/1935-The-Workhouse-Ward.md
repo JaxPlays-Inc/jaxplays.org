@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Mike McInerney: Eugene LeaMond
   Mrs. Nora Donohoe: Lindsey Gilfillan

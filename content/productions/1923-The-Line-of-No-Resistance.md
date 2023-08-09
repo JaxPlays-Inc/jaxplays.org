@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Jean Robertson: Hazel L'Engle
   George Robertson: J. B. Lucy

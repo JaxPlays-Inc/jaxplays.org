@@ -9,9 +9,8 @@ image_caption: Poster of 2023 production of Over the River and Through the Woods
 image_credit: Limelight Theatre
 playbill: 
 category: 
-details:
-  Theatre: Limelight Theatre
-  Venue: Koger-Gamache Studio Theatre
+Theatre: Limelight Theatre
+Venue: Koger-Gamache Studio Theatre
 showtimes:
   - 2023-04-06 19:30:00
   - 2023-04-07 19:30:00

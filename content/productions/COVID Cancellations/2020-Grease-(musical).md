@@ -8,11 +8,10 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Theatre: The Alhambra Theatre & Dining
-  Music: Jim Jacobs - wiki, Warren Casey - wiki
-  Lyrics: Jim Jacobs, Warren Casey
-  Book: Jim Jacobs, Warren Casey
+Theatre: The Alhambra Theatre & Dining
+Music: Jim Jacobs - wiki, Warren Casey - wiki
+Lyrics: Jim Jacobs, Warren Casey
+Book: Jim Jacobs, Warren Casey
 showtimes: 
   - 2020-04-30 11:00:00
   - 2020-04-30 18:00:00

@@ -9,13 +9,12 @@ image_credit: Limelight Theatre
 image_alt:
 image_caption: Poster for 2022 production of Dial M For Murder
 category: play
-details: 
-  Title: Dial M For Murder - wiki
-  Theatre: Limelight Theatre
-  Venue: Koger-Gamache Studio Theatre
-  Genre: Crime thriller
-  Playwright: Frederick Knott - wiki
-  Website: https://limelight-theatre.org/season30/
+Title: Dial M For Murder - wiki
+Theatre: Limelight Theatre
+Venue: Koger-Gamache Studio Theatre
+Genre: Crime thriller
+Playwright: Frederick Knott - wiki
+Website: https://limelight-theatre.org/season30/
 showtimes: 
   - 2022-06-23 19:30:00
   - 2022-06-24 19:30:00

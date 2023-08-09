@@ -11,12 +11,11 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Lessons We Were Never Taught
-  Venue: BABS' LAB
-  Writer: Nikesha Elise Williams
-  Genre: One-woman show - wiki
-  Website: http://www.newwrites.com/lessons
+Title: Lessons We Were Never Taught
+Venue: BABS' LAB
+Writer: Nikesha Elise Williams
+Genre: One-woman show - wiki
+Website: http://www.newwrites.com/lessons
 showtimes: 
   - 2020-03-05 20:00:00
   - 2020-03-06 20:00:00

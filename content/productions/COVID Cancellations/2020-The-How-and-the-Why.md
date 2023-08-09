@@ -8,13 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: The How and the Why - wiki
-  Theatre: Actors Collective
-  Venue: Museum of Science & History
-  Writer: Sarah Treem - wiki
-  Series: "The Secret of Life: A Science Play Series"
-  Website: http://www.actorscollective.com/the-secret-of-life/
+Title: The How and the Why - wiki
+Theatre: Actors Collective
+Venue: Museum of Science & History
+Writer: Sarah Treem - wiki
+Series: "The Secret of Life: A Science Play Series"
+Website: http://www.actorscollective.com/the-secret-of-life/
 showtimes: 
   - 2020-06-12 19:30:00
   - 2020-06-13 19:30:00

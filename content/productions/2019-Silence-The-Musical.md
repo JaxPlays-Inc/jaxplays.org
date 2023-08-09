@@ -11,13 +11,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: Silence! The Musical
-  Theatre: The 5 & Dime
-  Music: Jon and Al Kaplan - wiki
-  Lyrics: Jon and Al Kaplan
-  Book: Hunter Bell - wiki
-  Website: https://www.the5anddime.org/silence-the-musical
+Title: Silence! The Musical
+Theatre: The 5 & Dime
+Music: Jon and Al Kaplan - wiki
+Lyrics: Jon and Al Kaplan
+Book: Hunter Bell - wiki
+Website: https://www.the5anddime.org/silence-the-musical
 showtimes: 
   - 2019-09-20 20:00:00
   - 2019-09-21 20:00:00

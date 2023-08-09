@@ -12,11 +12,10 @@ image_credit: Theatre Jacksonville
 image_alt: 
 image_caption: Graphic for Ragtime 
 category: musical
-details:
-  Title: Ragtime (musical) - wiki
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
-  Website: https://www.theatrejax.com/season102
+Title: Ragtime (musical) - wiki
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
+Website: https://www.theatrejax.com/season102
 showtimes: 
   - 2022-06-10 19:30:00
   - 2022-06-11 19:30:00

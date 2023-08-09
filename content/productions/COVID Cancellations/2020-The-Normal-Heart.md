@@ -8,12 +8,11 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: The Normal Heart - wiki
-  Theatre: The 5 & Dime
-  Writer: Larry Kramer - wiki
-  Setting: New York City, New York, United States
-  Subject: The rise of the HIV/AIDS crisis in New York City
+Title: The Normal Heart - wiki
+Theatre: The 5 & Dime
+Writer: Larry Kramer - wiki
+Setting: New York City, New York, United States
+Subject: The rise of the HIV/AIDS crisis in New York City
 showtimes: 
   - 2020-11-06 20:00:00
   - 2020-11-07 20:00:00

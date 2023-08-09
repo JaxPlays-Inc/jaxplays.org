@@ -9,13 +9,12 @@ image_caption: Graphic of Beauty and the Beast at the Alhambra
 image_credit: Alhambra Theatre & Dining
 playbill: 
 category: musicals
-details:
-  Theatre: The Alhambra Theatre & Dining
-  Venue: Alhambra Theatre
-  Music: Alan Menken - wiki
-  Book: Linda Woolverton - wiki
-  Lyrics: Howard Ashman, Tim Rice
-  Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays
+Theatre: The Alhambra Theatre & Dining
+Venue: Alhambra Theatre
+Music: Alan Menken - wiki
+Book: Linda Woolverton - wiki
+Lyrics: Howard Ashman, Tim Rice
+Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays
 showtimes:
   - 2023-06-08 17:30:00
   - 2023-06-09 17:30:00

@@ -8,10 +8,9 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Theatre: The Alhambra Theatre & Dining
-  Writer: Billy Van Zandt - wiki
-  Genre: Farce, Comedy
+Theatre: The Alhambra Theatre & Dining
+Writer: Billy Van Zandt - wiki
+Genre: Farce, Comedy
 showtimes: 
   - 2020-09-24 11:00:00
   - 2020-09-24 18:00:00

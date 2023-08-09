@@ -9,11 +9,10 @@ image_caption: "Poster for Choir Boy at Players by the Sea"
 image_credit: "Players by the Sea"
 playbill: 
 category: 
-details:
-  Theatre: Players by the Sea
-  Venue: Grace Darling Studio Theatre
-  Playwright: Tarell Alvin McCraney
-  Website: https://playersbythesea.org/choir-boy
+Theatre: Players by the Sea
+Venue: Grace Darling Studio Theatre
+Playwright: Tarell Alvin McCraney
+Website: https://playersbythesea.org/choir-boy
 showtimes: 
   - 2023-05-12 20:00:00
   - 2023-05-13 20:00:00

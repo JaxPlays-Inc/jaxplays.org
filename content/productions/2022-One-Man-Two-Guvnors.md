@@ -9,14 +9,13 @@ image_credit: Amelia Community Theatre
 image_alt: 
 image_caption: Poster of 2022 production of One Man, Two Guvnors
 category: play
-details:
-  Title: One Man, Two Guvnors - wiki
-  Theatre: Amelia Community Theatre
-  Venue: ACT Main Stage
-  Writer: Richard Bean - wiki
-  Genre: Comedy
-  Setting: 1963 Brighton, England
-  Website: https://www.ameliacommunitytheatre.org/Performances/One-Man%2C-Two-Guvnors
+Title: One Man, Two Guvnors - wiki
+Theatre: Amelia Community Theatre
+Venue: ACT Main Stage
+Writer: Richard Bean - wiki
+Genre: Comedy
+Setting: 1963 Brighton, England
+Website: https://www.ameliacommunitytheatre.org/Performances/One-Man%2C-Two-Guvnors
 showtimes: 
   - 2022-08-12 19:30:00
   - 2022-08-13 19:30:00

@@ -12,12 +12,11 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Lysistrata
-  Theatre: The 5 & Dime
-  Writer: Aristophanes - wiki
-  Genre: Comedy
-  Website: https://www.the5anddime.org/lysistrata
+Title: Lysistrata
+Theatre: The 5 & Dime
+Writer: Aristophanes - wiki
+Genre: Comedy
+Website: https://www.the5anddime.org/lysistrata
 showtimes: 
   - 2020-02-21 20:00:00
   - 2020-02-22 20:00:00

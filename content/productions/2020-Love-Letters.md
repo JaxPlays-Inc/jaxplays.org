@@ -11,11 +11,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Love Letters (play) - wiki
-  Theatre: The Alhambra Theatre & Dining
-  Writer: A. R. Gurney - wiki
-  Website: https://www.alhambrajax.com/show/love-letters/
+Title: Love Letters (play) - wiki
+Theatre: The Alhambra Theatre & Dining
+Writer: A. R. Gurney - wiki
+Website: https://www.alhambrajax.com/show/love-letters/
 showtimes: 
   - 2020-01-09 18:00:00
   - 2020-01-10 18:00:00

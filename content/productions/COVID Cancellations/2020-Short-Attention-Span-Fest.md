@@ -6,8 +6,7 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Theatre: The 5 & Dime
+Theatre: The 5 & Dime
 showtimes: 
   - 2020-07-10 20:00:00
   - 2020-07-11 20:00:00

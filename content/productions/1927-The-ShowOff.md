@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Aubrey Piper: E.S. Beauchamp-Nobbs
   Amy Fisher: Fannie Mae Snyder

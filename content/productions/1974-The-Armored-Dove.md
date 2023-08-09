@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Brigadier General Samuel Hawks, U.S.A.F.: Bill Harriman
   Colonel Snivley, U.S.A.F.: Jim Knize

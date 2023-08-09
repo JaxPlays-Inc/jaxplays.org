@@ -11,13 +11,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Love Quest
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
-  Writer: Mary Maguire, Steven McGraw
-  Genre: Romantic comedy
-  Website: https://www.theatrejax.com/love-quest
+Title: Love Quest
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
+Writer: Mary Maguire, Steven McGraw
+Genre: Romantic comedy
+Website: https://www.theatrejax.com/love-quest
 showtimes: 
   - 2020-02-21 20:00:00
   - 2020-02-22 20:00:00

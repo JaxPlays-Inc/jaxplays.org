@@ -9,13 +9,12 @@ image_caption: Poster for 'No Exit'
 image_credit: Brunet-García Advertising
 playbill: 
 category: 
-details:
-  Theatre: Lumen Repertory Theatre
-  Venue: Swisher Theater
-  Based on: _Huis Clos_ by Jean Paul Sartre
-  Adapted by: Brian Niece*
-  Website: https://www.lumenrep.org/shows/noexit
-  Tickets: https://noexit.eventbrite.com/
+Theatre: Lumen Repertory Theatre
+Venue: Swisher Theater
+Based on: _Huis Clos_ by Jean Paul Sartre
+Adapted by: Brian Niece*
+Website: https://www.lumenrep.org/shows/noexit
+Tickets: https://noexit.eventbrite.com/
 showtimes:
   - 2023-07-28 19:30:00
   - 2023-07-29 19:30:00

@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Playwright: F.W. Armbuster
+Theatre: Theatre Jacksonville
+Playwright: F.W. Armbuster
 cast:
   SHE: Adamae Armbruster
   HE: Richard Grether

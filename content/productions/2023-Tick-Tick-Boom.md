@@ -9,10 +9,9 @@ image_caption: Poster for 'Tick, Tick... Boom!'
 image_credit: The 5 & Dime
 playbill: 
 category: 
-details:
-  Theatre: The 5 & Dime
-  Venue: The Florida Ballet
-  Website: https://www.the5anddime.org/tick-tick-boom
+Theatre: The 5 & Dime
+Venue: The Florida Ballet
+Website: https://www.the5anddime.org/tick-tick-boom
 showtimes:
   - 2023-08-11 20:00:00
   - 2023-08-12 20:00:00

@@ -11,14 +11,13 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Two Trains Running - wiki
-  Theatre: Players by the Sea
-  Writer: August Wilson - wiki
-  Series: The Pittsburgh Cycle - wiki
-  Genre: Drama
-  Setting: The Hill District of Pittsburgh, 1969
-  Subject: The uncertain future promised by the Civil Rights Movement of the 1960s
+Title: Two Trains Running - wiki
+Theatre: Players by the Sea
+Writer: August Wilson - wiki
+Series: The Pittsburgh Cycle - wiki
+Genre: Drama
+Setting: The Hill District of Pittsburgh, 1969
+Subject: The uncertain future promised by the Civil Rights Movement of the 1960s
 showtimes: 
   - 2020-03-13 20:00:00
   - 2020-03-14 20:00:00

@@ -9,10 +9,9 @@ image_caption: Poster for 2023 production of The Diviners
 image_credit: Limelight Theatre
 playbill: 
 category: 
-details:
-  Theatre: Limelight Theatre
-  Venue: Matuza Mainstage
-  Playwright: Jim Leonard. Jr.
+Theatre: Limelight Theatre
+Venue: Matuza Mainstage
+Playwright: Jim Leonard. Jr.
 showtimes: 
   - 2023-02-23 19:30:00
   - 2023-02-24 19:30:00

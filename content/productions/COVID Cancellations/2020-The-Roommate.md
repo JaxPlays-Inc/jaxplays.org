@@ -8,11 +8,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Theatre: Limelight Theatre
-  Writer: Jen Silverman - wiki
-  Genre: Dramatic Comedy
-  Website: https://limelight-theatre.org/shows/
+Theatre: Limelight Theatre
+Writer: Jen Silverman - wiki
+Genre: Dramatic Comedy
+Website: https://limelight-theatre.org/shows/
 showtimes: 
   - 2020-02-20 19:30:00
   - 2020-02-21 19:30:00

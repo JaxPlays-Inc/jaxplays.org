@@ -9,11 +9,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Messiah on the Frigidaire
-  Theatre: Limelight Theatre
-  Writer: John Culbertson
-  Website: https://web.archive.org/web/20220523165531/https://limelight-theatre.org/messiah-on-the-frigidaire/
+Title: Messiah on the Frigidaire
+Theatre: Limelight Theatre
+Writer: John Culbertson
+Website: https://web.archive.org/web/20220523165531/https://limelight-theatre.org/messiah-on-the-frigidaire/
 showtimes: 
   - 2022-04-01 19:30:00
   - 2022-04-02 19:30:00

@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: play
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Ruby: Miranda Lawson
   Henry: Joseph Walz

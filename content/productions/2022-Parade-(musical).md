@@ -11,14 +11,13 @@ image_credit: Limelight Theatre
 image_alt:
 image_caption: Poster of 2022 production of Parade
 category: musical
-details:
-  Title: Parade (musical) - wiki
-  Theatre: Limelight Theatre
-  Venue: Matuza Mainstage
-  Music: Jason Robert Brown - wiki
-  Lyrics: Jason Robert Brown
-  Book: Alfred Uhry - wiki
-  Basis: Historical events in Atlanta in 1913
+Title: Parade (musical) - wiki
+Theatre: Limelight Theatre
+Venue: Matuza Mainstage
+Music: Jason Robert Brown - wiki
+Lyrics: Jason Robert Brown
+Book: Alfred Uhry - wiki
+Basis: Historical events in Atlanta in 1913
 showtimes: 
   - 2022-08-04 19:30:00
   - 2022-08-05 19:30:00

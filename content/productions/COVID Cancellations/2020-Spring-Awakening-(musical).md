@@ -8,14 +8,13 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: Spring Awakening (musical) - wiki
-  Theatre: Players by the Sea
-  Music: Duncan Sheik - wiki
-  Lyrics: Steven Sater - wiki
-  Book: Steven Sater - wiki
-  Basis: Spring Awakening (play) by Frank Wedekind
-  Setting: Late 19th-century Germany
+Title: Spring Awakening (musical) - wiki
+Theatre: Players by the Sea
+Music: Duncan Sheik - wiki
+Lyrics: Steven Sater - wiki
+Book: Steven Sater - wiki
+Basis: Spring Awakening (play) by Frank Wedekind
+Setting: Late 19th-century Germany
 showtimes: 
   - 2020-04-24 20:00:00
   - 2020-04-25 20:00:00

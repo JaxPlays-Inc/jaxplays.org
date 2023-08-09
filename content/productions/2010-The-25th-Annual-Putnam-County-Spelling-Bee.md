@@ -6,13 +6,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical comedy
-details:
-  Title: The 25th Annual Putnam County Spelling Bee - wiki
-  Theatre: ABET - All Beaches Experimental Theatre
-  Music: William Finn - wiki
-  Lyrics: William Finn
-  Book: Rachel Sheinkin
-  Basis: C-R-E-P-U-S-C-U-L-E by Rebecca Feldman
+Title: The 25th Annual Putnam County Spelling Bee - wiki
+Theatre: ABET - All Beaches Experimental Theatre
+Music: William Finn - wiki
+Lyrics: William Finn
+Book: Rachel Sheinkin
+Basis: C-R-E-P-U-S-C-U-L-E by Rebecca Feldman
 cast:
 crew:
   Director: Michael Lipp

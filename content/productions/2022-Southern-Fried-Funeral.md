@@ -11,13 +11,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Southern Fried Funeral
-  Theatre: St. Marys Little Theatre
-  Venue: Theatre by the Trax
-  Writer: Osborne & Eppler
-  Genre: Comedy/Drama
-  Website: https://our.show/southernfriedfuneral
+Title: Southern Fried Funeral
+Theatre: St. Marys Little Theatre
+Venue: Theatre by the Trax
+Writer: Osborne & Eppler
+Genre: Comedy/Drama
+Website: https://our.show/southernfriedfuneral
 showtimes: 
   - 2022-05-13 19:00:00
   - 2022-05-14 19:00:00

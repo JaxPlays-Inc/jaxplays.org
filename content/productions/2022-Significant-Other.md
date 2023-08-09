@@ -9,12 +9,11 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Significant Other
-  Theatre: The 5 & Dime
-  Venue: BABS' LAB
-  Writer: Joshua Harmon (playwright) - wiki
-  Website: https://www.the5anddime.org/significant-other
+Title: Significant Other
+Theatre: The 5 & Dime
+Venue: BABS' LAB
+Writer: Joshua Harmon (playwright) - wiki
+Website: https://www.the5anddime.org/significant-other
 showtimes: 
   - 2022-04-21 20:00:00
   - 2022-04-22 20:00:00

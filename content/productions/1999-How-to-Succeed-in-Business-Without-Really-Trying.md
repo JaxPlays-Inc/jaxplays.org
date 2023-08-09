@@ -11,9 +11,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   J. Pierrepont Finch: Ben Byrd
   Mr. Gatch: Dave Gowan

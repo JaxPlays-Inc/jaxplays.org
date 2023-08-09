@@ -8,9 +8,8 @@ image_caption: Photo of the playbill
 image_credit: Kimberly Whitfield
 playbill: 1999_Jesus_Christ_Superstar.pdf
 category: musicals
-details:
-  Theatre: Omega Theatre Productions
-  Venue: Florida Theatre
+Theatre: Omega Theatre Productions
+Venue: Florida Theatre
 cast:
   Judas Iscariot: James Beeks
   Jesus: Justin Murphy

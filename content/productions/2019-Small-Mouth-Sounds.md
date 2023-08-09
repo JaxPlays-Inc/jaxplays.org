@@ -11,11 +11,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Small Mouth Sounds
-  Theatre: The 5 & Dime
-  Writer: Bess Wohl - wiki
-  Website: https://www.the5anddime.org/small-mouth-sounds
+Title: Small Mouth Sounds
+Theatre: The 5 & Dime
+Writer: Bess Wohl - wiki
+Website: https://www.the5anddime.org/small-mouth-sounds
 showtimes: 
   - 2019-04-19 20:00:00
   - 2019-04-20 20:00:00

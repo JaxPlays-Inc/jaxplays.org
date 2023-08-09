@@ -11,9 +11,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Charlie Brown: Michael Lipp
   Lucy Van Pelt: Shinnerrie Jackson

@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Ronald Derbyshire: Charles Luckie
   Janke Canon: Drummond Paul, Jr.

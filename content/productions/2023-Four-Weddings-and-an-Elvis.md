@@ -9,9 +9,8 @@ image_caption: Poster of 2023 production of Four Weddings and an Elvis
 image_credit: Theatre Jacksonville
 playbill: 2023_Four_Weddings_and_an_Elvis.pdf
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 showtimes:
   - 2023-04-21 19:30:00
   - 2023-04-22 19:30:00

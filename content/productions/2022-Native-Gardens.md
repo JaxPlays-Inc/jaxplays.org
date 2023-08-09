@@ -9,13 +9,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Native Gardens
-  Theatre: The 5 & Dime
-  Venue: The Florida Ballet
-  Writer: Karen Zacarias - wiki
-  Genre: Comedy - wiki
-  Website: https://www.the5anddime.org/native-gardens
+Title: Native Gardens
+Theatre: The 5 & Dime
+Venue: The Florida Ballet
+Writer: Karen Zacarias - wiki
+Genre: Comedy - wiki
+Website: https://www.the5anddime.org/native-gardens
 showtimes: 
   - 2022-06-16 20:00:00
   - 2022-06-17 20:00:00

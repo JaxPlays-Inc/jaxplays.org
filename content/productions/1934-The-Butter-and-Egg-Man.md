@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   A.J. Patterson: Allen Moreland
   Fannie Lehman: Charlotte Bowden Perry

@@ -9,10 +9,9 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: The 5 & Dime
-  Venue: The Florida Ballet
-  Website: https://www.the5anddime.org/clydes
+Theatre: The 5 & Dime
+Venue: The Florida Ballet
+Website: https://www.the5anddime.org/clydes
 showtimes: 
   - 2023-06-09 20:00:00
   - 2023-06-10 20:00:00

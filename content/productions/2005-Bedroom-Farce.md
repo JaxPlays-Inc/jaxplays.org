@@ -8,10 +8,9 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Bedroom Farce (play) - wiki
-  Theatre: Limelight Theatre
-  Playwright: Alan Ayckbourn - wiki
+Title: Bedroom Farce (play) - wiki
+Theatre: Limelight Theatre
+Playwright: Alan Ayckbourn - wiki
 cast:
   Delia:
   Ernest:

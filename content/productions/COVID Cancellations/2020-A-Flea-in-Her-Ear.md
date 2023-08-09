@@ -8,11 +8,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: A Flea in Her Ear - wiki
-  Theatre: Limelight Theatre
-  Writer: Georges Feydeau - wiki
-  Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
+Title: A Flea in Her Ear - wiki
+Theatre: Limelight Theatre
+Writer: Georges Feydeau - wiki
+Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes: 
   - 2020-03-19 19:30:00
   - 2020-03-20 19:30:00

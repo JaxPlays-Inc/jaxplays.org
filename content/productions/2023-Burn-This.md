@@ -9,11 +9,10 @@ image_caption: Josh Andrews, graphic design Jon Scherf
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: ABET - All Beaches Experimental Theatre
-  Venue: Grace Darling Studio Theatre
-  Playwright: Lanford Wilson
-  Website: https://www.eventbrite.com/e/burn-this-tickets-365696406797
+Theatre: ABET - All Beaches Experimental Theatre
+Venue: Grace Darling Studio Theatre
+Playwright: Lanford Wilson
+Website: https://www.eventbrite.com/e/burn-this-tickets-365696406797
 showtimes:
   - 2023-06-16 19:30:00
   - 2023-06-17 19:30:00

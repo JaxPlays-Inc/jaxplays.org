@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Mr. Innocent: Mr. J. B. Lucy
   Mrs. Annabell Wells: Elizabeth Palmer Tyler

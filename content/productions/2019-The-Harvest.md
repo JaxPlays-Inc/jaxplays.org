@@ -9,11 +9,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: The Harvest
-  Theatre: The 5 & Dime
-  Writer: Samuel D. Hunter - wiki
-  Website: https://www.the5anddime.org/the-harvest
+Title: The Harvest
+Theatre: The 5 & Dime
+Writer: Samuel D. Hunter - wiki
+Website: https://www.the5anddime.org/the-harvest
 showtimes: 
   - 2019-11-08 20:00:00
   - 2019-11-09 20:00:00

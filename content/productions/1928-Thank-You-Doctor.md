@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category: comedy
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Denny Cort: Charles Murchison
   Dr. Gurney: George Parkhill

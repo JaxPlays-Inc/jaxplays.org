@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Dr. Jeremiah 'Jerry' Mears: Kenny Logsdon
   Hugo Taney: Lenny Thiesen

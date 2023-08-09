@@ -9,10 +9,9 @@ image_caption: Poster of Private Lives
 image_credit: Theatre Jacksonville
 playbill: 2022_Private_Lives.pdf
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
-  Playwright: Noël Coward - wiki
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
+Playwright: Noël Coward - wiki
 showtimes:
   - 2022-09-16 19:30:00
   - 2022-09-17 19:30:00

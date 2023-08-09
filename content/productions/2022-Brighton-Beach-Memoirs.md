@@ -9,12 +9,11 @@ image_alt:
 image_caption:
 category: play
 image: 2022_Brighton_Beach_Memoirs.jpg
-details:
-  Title: Brighton Beach Memoirs - wiki
-  Theatre: Orange Park Community Theatre
-  Writer: Neil Simon - wiki
-  Genre: Comedy
-  Website: https://web.archive.org/web/20220124230813/https://www.opct.info/52nd-season
+Title: Brighton Beach Memoirs - wiki
+Theatre: Orange Park Community Theatre
+Writer: Neil Simon - wiki
+Genre: Comedy
+Website: https://web.archive.org/web/20220124230813/https://www.opct.info/52nd-season
 showtimes: 
   - 2022-04-01 20:00:00
   - 2022-04-02 20:00:00

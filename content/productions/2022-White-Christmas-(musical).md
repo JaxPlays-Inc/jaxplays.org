@@ -9,13 +9,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Theatre: The Alhambra Theatre & Dining
-  Music: Irving Berlin - wiki
-  Lyrics: Irving Berlin
-  Book: David Ives - wiki, and Paul Blake
-  Basis: White Christmas (film) by the same composer
-  Website: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=396&code=JaxPlays
+Theatre: The Alhambra Theatre & Dining
+Music: Irving Berlin - wiki
+Lyrics: Irving Berlin
+Book: David Ives - wiki, and Paul Blake
+Basis: White Christmas (film) by the same composer
+Website: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=396&code=JaxPlays
 showtimes: 
   - 2022-11-17 18:00:00
   - 2022-11-19 12:00:00

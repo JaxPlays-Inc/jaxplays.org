@@ -11,13 +11,12 @@ image_credit: ABET
 image_alt:
 image_caption: Poster of 2022 production of Snoopy! The Musical
 category: musical
-details:
-  Theatre: ABET - All Beaches Experimental Theatre
-  Music: Larry Grossman (composer) - wiki
-  Lyrics: Hal Hackady - wiki
-  Book: Warren Lockhart, Arthur Whitelaw, Michael Grace
-  Basis: Charles M. Schulz's comic strip Peanuts
-  Website: https://www.eventbrite.com/e/snoopy-the-musical-directed-by-cathy-dooley-tickets-169204024793
+Theatre: ABET - All Beaches Experimental Theatre
+Music: Larry Grossman (composer) - wiki
+Lyrics: Hal Hackady - wiki
+Book: Warren Lockhart, Arthur Whitelaw, Michael Grace
+Basis: Charles M. Schulz's comic strip Peanuts
+Website: https://www.eventbrite.com/e/snoopy-the-musical-directed-by-cathy-dooley-tickets-169204024793
 showtimes: 
   - 2022-07-22 19:30:00
   - 2022-07-23 14:00:00

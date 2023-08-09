@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Metropolitan Park
+Theatre: Theatre Jacksonville
+Venue: Metropolitan Park
 cast:
   Justice Shallow: Michael O'Connell
   Abraham Slender: Jerry Emmett Owen

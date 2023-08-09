@@ -9,14 +9,13 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Name: Kinky Boots
-  Theatre: Players by the Sea
-  Music: Cyndi Lauper - wiki
-  Lyrics: Cyndi Lauper
-  Book: Harvey Fierstein - wiki
-  Basis: Kinky_Boots_(film) - wiki
-  Website: https://web.ovationtix.com/trs/pr/1094753
+Name: Kinky Boots
+Theatre: Players by the Sea
+Music: Cyndi Lauper - wiki
+Lyrics: Cyndi Lauper
+Book: Harvey Fierstein - wiki
+Basis: Kinky_Boots_(film) - wiki
+Website: https://web.ovationtix.com/trs/pr/1094753
 showtimes: 
   - 2022-07-15 20:00:00
   - 2022-07-16 20:00:00

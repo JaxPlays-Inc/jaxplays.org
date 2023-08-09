@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: musicals
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Boy/Jojo: Mitchell Wohl
   Cat in the Hat: Robert Pelaia

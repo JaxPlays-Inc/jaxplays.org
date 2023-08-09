@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Dolly Doyle: Fannie Mae Snyder
   Bert La Motte: Harry Lewis

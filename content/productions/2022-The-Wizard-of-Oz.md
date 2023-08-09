@@ -9,10 +9,9 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: The Wizard of Oz
-  Theatre: The Alhambra Theatre & Dining
-  Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=393
+Title: The Wizard of Oz
+Theatre: The Alhambra Theatre & Dining
+Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=393
 showtimes: 
   - 2022-06-16 12:00:00
   - 2022-06-16 17:30:00

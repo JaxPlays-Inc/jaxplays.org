@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   The Hero of Santa Maria: James Merryweather Hines
   Bernard P. Foss: Fred Mullikin

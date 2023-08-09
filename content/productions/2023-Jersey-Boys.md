@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: The Alhambra Theatre & Dining
-  Venue: Alhambra Theatre
+Theatre: The Alhambra Theatre & Dining
+Venue: Alhambra Theatre
 cast:
   Tommy DeVito: Matt Michael
   Frankie Valli: Nick Anastasia

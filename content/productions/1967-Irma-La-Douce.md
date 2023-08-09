@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Irma-La-Douce - a Poule: Jeanne Solomon Berdet
   Nestor-Le-Fripe - a Law Student: Bill Bronson

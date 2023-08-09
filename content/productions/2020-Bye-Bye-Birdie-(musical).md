@@ -9,14 +9,13 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: Bye Bye Birdie - wiki
-  Theatre: Christ Episcopal Church
-  Music: Charles Strouse - wiki
-  Lyrics: Lee Adams - wiki
-  Book: Michael Stewart (playwright) - wiki
-  Basis: N/A
-  Website: https://www.christepiscopalchurch.org/event/bye-bye-birdie/
+Title: Bye Bye Birdie - wiki
+Theatre: Christ Episcopal Church
+Music: Charles Strouse - wiki
+Lyrics: Lee Adams - wiki
+Book: Michael Stewart (playwright) - wiki
+Basis: N/A
+Website: https://www.christepiscopalchurch.org/event/bye-bye-birdie/
 showtimes: 
   - 2020-02-27 19:00:00
   - 2020-02-28 19:00:00

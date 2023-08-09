@@ -9,9 +9,8 @@ image_caption:
 image_credit:
 playbill: 
 category: musicals
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Sarah Brown: Jennifer Thomas Medure
   Sky Masterson: Storm Browne

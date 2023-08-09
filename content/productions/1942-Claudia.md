@@ -10,9 +10,8 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Jerry Seymoure: E.S. Beauchamp-Nobbs
   Mrs. Brown: Edythe Guernsey

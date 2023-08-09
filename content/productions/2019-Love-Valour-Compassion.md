@@ -11,11 +11,10 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Love! Valour! Compassion!
-  Theatre: The 5 & Dime
-  Writer: Terrence McNally - wiki
-  Website: https://www.the5anddime.org/love-valour-compassion
+Title: Love! Valour! Compassion!
+Theatre: The 5 & Dime
+Writer: Terrence McNally - wiki
+Website: https://www.the5anddime.org/love-valour-compassion
 showtimes: 
   - 2019-10-18 20:00:00
   - 2019-10-19 20:00:00

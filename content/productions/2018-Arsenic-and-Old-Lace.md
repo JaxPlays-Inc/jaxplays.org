@@ -9,9 +9,8 @@ image_caption: Poster for Arsenic and Old Lace
 image_credit: Theatre Jacksonville
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 showtimes:
   - 2018-09-14 20:00:00
   - 2018-09-15 20:00:00

@@ -9,9 +9,8 @@ image_caption: Poster of Pippin
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Pippin.pdf
 category: musicals
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
 cast:
   Leading Player: Ilana Marshall
   Pippin: Ron Shreve

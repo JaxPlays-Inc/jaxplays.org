@@ -8,13 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Bus Stop (play) - wiki
-  Theatre: Limelight Theatre
-  Writer: William Inge - wiki
-  Genre: Drama
-  Setting: A diner in rural Kansas during a snow storm
-  Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
+Title: Bus Stop (play) - wiki
+Theatre: Limelight Theatre
+Writer: William Inge - wiki
+Genre: Drama
+Setting: A diner in rural Kansas during a snow storm
+Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes: 
   - 2020-06-25 19:30:00
   - 2020-06-26 19:30:00

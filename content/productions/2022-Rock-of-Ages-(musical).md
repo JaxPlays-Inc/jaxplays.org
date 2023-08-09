@@ -9,13 +9,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-details:
-  Title: Rock of Ages (musical) - wiki
-  Theatre: The Alhambra Theatre & Dining
-  Music: Various
-  Lyrics: Various
-  Book: Chris D'Arienzo
-  Website: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=391
+Title: Rock of Ages (musical) - wiki
+Theatre: The Alhambra Theatre & Dining
+Music: Various
+Lyrics: Various
+Book: Chris D'Arienzo
+Website: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=391
 showtimes: 
   - 2022-03-24 00:00:00
   - 2022-03-24 18:00:00

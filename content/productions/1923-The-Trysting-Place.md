@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill:
 category:
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Bertha Snyder: Jessie Briggs
   Charles W. Crooke, Jr.: Rupert Smith

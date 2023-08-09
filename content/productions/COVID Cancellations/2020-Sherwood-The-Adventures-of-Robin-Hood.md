@@ -8,12 +8,11 @@ image_credit:
 image_alt:
 image_caption:
 category: comedy
-details:
-  Theatre: ABET - All Beaches Experimental Theatre
-  Setting: Sherwood Forest & Nottinghamshire England
-  Writer: Ken Ludwig - wiki
-  Genre: Comedy
-  Website: http://www.abettheatre.com/
+Theatre: ABET - All Beaches Experimental Theatre
+Setting: Sherwood Forest & Nottinghamshire England
+Writer: Ken Ludwig - wiki
+Genre: Comedy
+Website: http://www.abettheatre.com/
 showtimes: 
   - 2020-05-08 20:00:00
   - 2020-05-09 20:00:00

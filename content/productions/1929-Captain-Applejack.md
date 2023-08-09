@@ -9,8 +9,7 @@ image_caption:
 image_credit:
 playbill: 
 category: 
-details:
-  Theatre: Theatre Jacksonville
+Theatre: Theatre Jacksonville
 cast:
   Ambrose Applejohn: E.S. Beauchamp-Nobbs
   Anna Valeska: Marguerite Chiasson

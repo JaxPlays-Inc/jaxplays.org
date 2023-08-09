@@ -8,13 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-details:
-  Title: Detroit (play) - wiki
-  Theatre: The 5 & Dime
-  Writer: Lisa D'Amour - wiki
-  Genre: Comedy - wiki, Drama - wiki
-  Setting: Detroit, Michigan
-  Website: https://www.the5anddime.org/detroit
+Title: Detroit (play) - wiki
+Theatre: The 5 & Dime
+Writer: Lisa D'Amour - wiki
+Genre: Comedy - wiki, Drama - wiki
+Setting: Detroit, Michigan
+Website: https://www.the5anddime.org/detroit
 showtimes: 
   - 2020-06-12 20:00:00
   - 2020-06-13 20:00:00

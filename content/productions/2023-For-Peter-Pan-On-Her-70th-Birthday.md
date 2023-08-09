@@ -9,11 +9,10 @@ image_caption: Poster for 'For Peter Pan On Her 70th Birthday'
 image_credit: The 5 & Dime
 playbill: 
 category: 
-details:
-  Theatre: The 5 & Dime
-  Venue: The Florida Ballet
-  Playwright: Sarah Ruhl
-  Website: https://www.the5anddime.org/for-peter-pan
+Theatre: The 5 & Dime
+Venue: The Florida Ballet
+Playwright: Sarah Ruhl
+Website: https://www.the5anddime.org/for-peter-pan
 showtimes:
   - 2023-09-15 20:00:00
   - 2023-09-16 20:00:00

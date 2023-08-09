@@ -9,10 +9,9 @@ image_caption: Poster of Last Train to Nibroc
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Last_Train_to_Nibroc.pdf
 category: 
-details:
-  Theatre: Theatre Jacksonville
-  Venue: Little Theatre
-  Playwright: Arlene Hutton
+Theatre: Theatre Jacksonville
+Venue: Little Theatre
+Playwright: Arlene Hutton
 showtimes:
   - 2023-01-13 19:30:00
   - 2023-01-14 19:30:00

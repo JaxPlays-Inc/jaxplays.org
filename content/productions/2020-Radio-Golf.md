@@ -11,14 +11,13 @@ image_credit:
 image_alt:
 image_caption:
 category: drama
-details:
-  Title: Radio Golf - wiki
-  Theatre: ABET - All Beaches Experimental Theatre
-  Writer: August Wilson - wiki
-  Genre: Drama
-  Setting: The Hill District of Pittsburgh, 1997
-  Subject: A powerful African-American politician runs for the highest office of his career
-  Website: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
+Title: Radio Golf - wiki
+Theatre: ABET - All Beaches Experimental Theatre
+Writer: August Wilson - wiki
+Genre: Drama
+Setting: The Hill District of Pittsburgh, 1997
+Subject: A powerful African-American politician runs for the highest office of his career
+Website: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
 showtimes: 
   - 2020-01-31 20:00:00
   - 2020-02-01 20:00:00
