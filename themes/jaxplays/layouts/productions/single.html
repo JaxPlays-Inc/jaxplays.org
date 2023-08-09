@@ -1,27 +1,40 @@
 {{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
-      <header>
-        <h1 class="f1 mb0" >
-          {{ .Title }}
-        </h1>
-        <h2 class="fw4 ttu">
-          {{ with .Params.year }}{{ . }}{{ end }}
-          {{ if and .Params.year .Params.theatre }}&#8226;{{ end }}
-          {{ .Params.theatre }}
-        </h2>        
-      </header>
-      <!-- add a div that shows the featured image if it is in the frontmatter. -->
-      {{ with .Params.featured_image }}
-        <div class="w-100">
-          <img src="/media/posters/{{ . }}" class="w4" />
-        </div>
-      {{ end }}
+<div class="flex-l mt2 mw8 center">
+  <article class="center cf pv5 ph3 ph4-ns mw7">
+    <header>
+      <h1 class="f3 f1-l f1-m mb0">
+        {{ .Title }}
+      </h1>
+      <h2 class="fw4 f3-ns f5 ttu">
+        {{ with .Params.year }}{{ . }}{{ end }}
+        {{ if and .Params.year .Params.theatre }}&#8226;{{ end }}
+        {{ .Params.theatre }}
+      </h2>
+    </header>
 
-      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "dark-gray" }}">
-        {{ .Content }}
-      </div>
-    </article>
-  </div>
+    {{ with .Params.featured_image }}
+    <div class="w-100">
+      <img src="/media/posters/{{ . }}" class="w4" />
+    </div>
+    {{ end }}
+
+    <div class="nested-copy-line-height lh-copy f4-ns f5 mb5 nested-links {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Details</h3>
+      {{ with .Params.year }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Year</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div></div>{{ end }}
+      {{ with .Params.theatre }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div></div>{{ end }}
+      {{ with .Params.venue }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div></div>{{ end }}
+      {{ with .Params.website }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver"></div><div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Production Website</a></div></div>{{ end }}
+    </div>
+
+    {{ with .Content }}
+    <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+      {{ . }}
+      {{ . }}
+    </div>
+    {{ end }}
+
+  </article>
+</div>
 {{ end }}
