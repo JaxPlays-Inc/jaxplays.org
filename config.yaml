@@ -3,6 +3,7 @@ languageCode: 'en-us'
 title: 'JaxPlays'
 theme: 'jaxplays'
 permalinks:
+  news: "/news/:year/:month/:day/:slug/"
   people: "/:section/:filename/"
   productions: "/:section/:filename/"
   shows: "/:section/:filename/"
