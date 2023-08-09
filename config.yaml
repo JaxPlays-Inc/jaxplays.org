@@ -3,7 +3,8 @@ languageCode: 'en-us'
 title: 'JaxPlays'
 theme: 'jaxplays'
 permalinks:
-  news: "/news/:year/:month/:day/:slug/"
+  news: "/:section/:year/:month/:day/:slug/"
+  reviews: "/:section/:year/:month/:day/:slug/"
   people: "/:section/:filename/"
   productions: "/:section/:filename/"
   shows: "/:section/:filename/"
@@ -12,5 +13,8 @@ permalinks:
 
 
 params:
+  mainSections: 
+    - "news"
+    - "reviews"
   background_color_class: "bg-black"
   light_text_color_class: "gray"
