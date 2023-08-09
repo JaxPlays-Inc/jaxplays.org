@@ -4,7 +4,7 @@ year: 1950
 opening_date: 1950-01-13
 closing_date: 1950-01-21
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

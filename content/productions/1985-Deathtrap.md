@@ -2,7 +2,7 @@
 title: Deathtrap
 year: 1985
 layout: productions
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

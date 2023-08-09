@@ -4,7 +4,7 @@ year: 1971
 opening_date: 1971-05-21
 closing_date: 1971-06-05
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

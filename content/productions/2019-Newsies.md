@@ -2,7 +2,7 @@
 layout: productions
 title: Newsies
 year: 2019
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

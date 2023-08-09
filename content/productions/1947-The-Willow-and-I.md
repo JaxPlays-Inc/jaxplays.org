@@ -4,7 +4,7 @@ year: 1947
 opening_date: 1947-11-28
 closing_date: 1947-12-05
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

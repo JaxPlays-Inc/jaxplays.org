@@ -2,7 +2,7 @@
 layout: productions
 title: Peter Pan
 year: 2012
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

@@ -4,7 +4,7 @@ title: Radium Girls
 year: 2022
 opening_date: 2022-06-10
 closing_date: 2022-06-25
-image: 2022_Radium_Girls.webp
+featured_image: 2022_Radium_Girls.webp
 image_credit: Amelia Community Theatre
 image_alt: 
 image_caption: Poster of 2022 production of Radium Girls

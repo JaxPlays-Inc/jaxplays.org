@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-07-28
 closing_date: 2023-08-12
 layout: productions
-image: 2023_No_Exit.gif
+featured_image: 2023_No_Exit.gif
 image_caption: Poster for 'No Exit'
 image_credit: Brunet-García Advertising
 playbill: 

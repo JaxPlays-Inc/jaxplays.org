@@ -4,7 +4,7 @@ year: 2006
 opening_date: 2006-06-09
 closing_date: 2006-06-24
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

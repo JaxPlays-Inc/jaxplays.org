@@ -4,7 +4,7 @@ year: 1970
 opening_date: 1970-02-02
 closing_date: 1970-02-28
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

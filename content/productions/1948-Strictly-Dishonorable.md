@@ -4,7 +4,7 @@ year: 1948
 opening_date: 1948-01-16
 closing_date: 1948-01-23
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

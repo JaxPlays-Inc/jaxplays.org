@@ -4,7 +4,7 @@ title: Dinner with Booker T.
 year: 2020
 opening_date: 2020-02-08
 closing_date: 2020-02-08
-image: 2020_Dinner_with_Booker_T.jpg
+featured_image: 2020_Dinner_with_Booker_T.jpg
 image_credit: 
 image_alt:
 image_caption:

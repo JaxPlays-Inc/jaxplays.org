@@ -1,4 +1,4 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7">
@@ -12,6 +12,13 @@
           {{ .Params.theatre }}
         </h2>        
       </header>
+      <!-- add a div that shows the featured image if it is in the frontmatter. -->
+      {{ with .Params.featured_image }}
+        <div class="w-100">
+          <img src="/media/posters/{{ . }}" class="w4" />
+        </div>
+      {{ end }}
+
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "dark-gray" }}">
         {{ .Content }}
       </div>

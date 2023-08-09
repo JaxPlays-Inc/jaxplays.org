@@ -4,7 +4,7 @@ year: 1984
 opening_date: 1984-04-06
 closing_date: 1984-04-21
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

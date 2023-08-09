@@ -4,7 +4,7 @@ year: 1972
 opening_date: 1972-03-10
 closing_date: 1972-03-25
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

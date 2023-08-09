@@ -4,7 +4,7 @@ year: 1987
 opening_date: 1987-10-09
 closing_date: 1987-10-24
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

@@ -4,7 +4,7 @@ year: 1957
 opening_date: 1957-01-16
 closing_date: 1957-01-26
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

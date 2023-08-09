@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-06-09
 closing_date: 2023-06-18
 layout: productions
-image: 2023_The_Prom.jpg
+featured_image: 2023_The_Prom.jpg
 image_caption: Poster for The Prom (2023)
 image_credit: Greenlight Theatre Company
 playbill: 

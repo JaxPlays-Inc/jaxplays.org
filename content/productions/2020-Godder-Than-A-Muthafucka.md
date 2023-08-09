@@ -4,7 +4,7 @@ title: Godder Than A Muthafucka
 year: 2020
 opening_date: 2020-02-23
 closing_date: 2020-02-23
-image: 2020_Godder_Than_A_Muthafucka.jpg
+featured_image: 2020_Godder_Than_A_Muthafucka.jpg
 image_credit: 
 image_alt:
 image_caption:

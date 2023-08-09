@@ -4,7 +4,7 @@ year: 1930
 opening_date: 1930-04-15
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

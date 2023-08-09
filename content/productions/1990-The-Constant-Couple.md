@@ -4,7 +4,7 @@ year: 1990
 opening_date: 1990-03-30
 closing_date: 1990-04-14
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

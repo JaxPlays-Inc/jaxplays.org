@@ -2,7 +2,7 @@
 layout: productions
 title: Bad Habits
 year: 1994
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

@@ -4,7 +4,7 @@ year: 1960
 opening_date: 1960-10-07
 closing_date: 1960-10-15
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

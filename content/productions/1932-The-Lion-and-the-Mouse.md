@@ -4,7 +4,7 @@ year: 1932
 opening_date: 1932-02-23
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

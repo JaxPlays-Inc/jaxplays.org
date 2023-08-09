@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-05-12
 closing_date: 2023-06-04
 layout: productions
-image: 2023_Choir_Boy.png
+featured_image: 2023_Choir_Boy.png
 image_caption: "Poster for Choir Boy at Players by the Sea"
 image_credit: "Players by the Sea"
 playbill: 

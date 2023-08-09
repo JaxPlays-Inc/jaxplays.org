@@ -2,7 +2,7 @@
 layout: productions
 title: Round and Round the Garden
 year: 1987
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

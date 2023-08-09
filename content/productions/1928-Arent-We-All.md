@@ -4,7 +4,7 @@ year: 1928
 opening_date: 1928-11-08
 closing_date: 1928-11-09
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

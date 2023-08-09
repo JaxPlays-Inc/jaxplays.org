@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-09-21
 closing_date: 2023-10-01
 layout: productions
-image: 2023_The_Diary_of_Anne_Frank.jpeg
+featured_image: 2023_The_Diary_of_Anne_Frank.jpeg
 image_caption: Poster for The Diary of Anne Frank
 image_credit: Theatre Jacksonville
 playbill: 

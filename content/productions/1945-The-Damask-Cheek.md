@@ -4,7 +4,7 @@ year: 1945
 opening_date: 1945-04-20
 closing_date: 1945-04-28
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

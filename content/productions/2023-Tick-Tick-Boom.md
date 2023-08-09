@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-08-11
 closing_date: 2023-08-19
 layout: productions
-image: 2023_Tik_Tik_Boom.webp
+featured_image: 2023_Tik_Tik_Boom.webp
 image_caption: Poster for 'Tick, Tick... Boom!'
 image_credit: The 5 & Dime
 playbill: 

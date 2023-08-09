@@ -4,7 +4,7 @@ year: 1983
 opening_date: 1983-12-02
 closing_date: 1983-12-17
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

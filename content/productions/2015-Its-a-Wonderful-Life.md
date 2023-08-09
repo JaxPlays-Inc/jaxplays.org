@@ -5,7 +5,7 @@ year: 2015
 opening_date: 2015-12-24
 closing_date: 2015-12-24
 redirect_from: 2015_It's_a_Wonderful_Life
-image: 2015_It's_a_Wonderful_Life.jpeg
+featured_image: 2015_It's_a_Wonderful_Life.jpeg
 image_credit: 
 image_alt:
 image_caption:

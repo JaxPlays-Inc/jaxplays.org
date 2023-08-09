@@ -10,7 +10,7 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-image: 2019_OneBy_Tenn_Plus_Eight.webp
+featured_image: 2019_OneBy_Tenn_Plus_Eight.webp
 playbill: 2019_One_By_Tenn_Plus_Eight.pdf
 Title: "One by Tenn Plus Eight: Short Stories For the Stage"
 Theatre: Actors Collective

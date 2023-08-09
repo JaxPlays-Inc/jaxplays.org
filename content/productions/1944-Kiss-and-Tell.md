@@ -4,7 +4,7 @@ year: 1944
 opening_date: 1944-10-20
 closing_date: 1944-10-27
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

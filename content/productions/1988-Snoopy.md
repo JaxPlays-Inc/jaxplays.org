@@ -2,7 +2,7 @@
 layout: productions
 title: Snoopy
 year: 1988
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

@@ -4,7 +4,7 @@ title: Romeo & Juliet
 year: 2020
 opening_date: 2020-02-20
 closing_date: 2020-02-23
-image: 2020_Romeo+Juliet.jpeg
+featured_image: 2020_Romeo+Juliet.jpeg
 image_credit: Players by the Sea
 image_alt: Poster for 2020 production of Romeo + Juliet
 image_caption: Poster for 2020 production of Romeo + Juliet

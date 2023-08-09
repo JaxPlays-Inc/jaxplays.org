@@ -2,7 +2,7 @@
 title: The Rainmaker
 year: 1986
 layout: productions
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 Playwright: N. Richard Nash - wiki

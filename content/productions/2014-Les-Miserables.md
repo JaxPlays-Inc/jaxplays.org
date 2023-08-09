@@ -4,7 +4,7 @@ title: Les Misérables
 year: 2014
 opening_date: 2014-06-06
 closing_date: 2014-06-21
-image: 2014_Les_Miserables.webp
+featured_image: 2014_Les_Miserables.webp
 image_credit: 
 image_alt:
 image_caption: Poster for 'Les Misérables' at Theatre Jacksonville 

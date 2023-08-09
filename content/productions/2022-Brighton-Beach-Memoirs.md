@@ -8,7 +8,7 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-image: 2022_Brighton_Beach_Memoirs.jpg
+featured_image: 2022_Brighton_Beach_Memoirs.jpg
 Title: Brighton Beach Memoirs - wiki
 Theatre: Orange Park Community Theatre
 Writer: Neil Simon - wiki

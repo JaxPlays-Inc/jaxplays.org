@@ -2,7 +2,7 @@
 layout: productions
 title: The Importance of Being Earnest
 year: 2009
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

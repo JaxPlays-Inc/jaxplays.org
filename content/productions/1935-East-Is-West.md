@@ -4,7 +4,7 @@ year: 1935
 opening_date: 1935-01-29
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

@@ -4,7 +4,7 @@ year: 1954
 opening_date: 1954-06-02
 closing_date: 1954-06-12
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

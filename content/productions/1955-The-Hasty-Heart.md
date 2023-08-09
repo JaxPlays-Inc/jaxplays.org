@@ -4,7 +4,7 @@ year: 1955
 opening_date: 1955-01-19
 closing_date: 1955-01-29
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

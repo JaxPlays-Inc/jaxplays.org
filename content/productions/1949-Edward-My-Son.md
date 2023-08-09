@@ -4,7 +4,7 @@ year: 1949
 opening_date: 1949-11-25
 closing_date: 1949-12-03
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

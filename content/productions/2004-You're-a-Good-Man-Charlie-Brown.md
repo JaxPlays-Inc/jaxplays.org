@@ -6,7 +6,7 @@ year: 2004
 opening_date: 2004-06-11
 closing_date: 2004-06-26
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

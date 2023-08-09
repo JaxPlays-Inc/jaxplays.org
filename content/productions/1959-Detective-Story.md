@@ -4,7 +4,7 @@ year: 1959
 opening_date: 1959-04-08
 closing_date: 1959-04-18
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

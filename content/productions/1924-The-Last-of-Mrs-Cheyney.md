@@ -4,7 +4,7 @@ year: 1924
 opening_date: 
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

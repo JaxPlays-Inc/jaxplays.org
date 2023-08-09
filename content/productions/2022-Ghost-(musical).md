@@ -10,7 +10,7 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-image: 2022_Ghost_(musical).jpg
+featured_image: 2022_Ghost_(musical).jpg
 Title: Ghost (musical)
 Theatre: The Alhambra Theatre & Dining
 Music: Dave Stewart - wiki, Glen Ballard - wiki

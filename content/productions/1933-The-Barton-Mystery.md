@@ -4,7 +4,7 @@ year: 1933
 opening_date: 1933-12-12
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

@@ -4,7 +4,7 @@ year: 2001
 opening_date: 2001-11-02
 closing_date: 2001-11-17
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

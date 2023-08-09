@@ -6,7 +6,7 @@ redirect_from:
 year: 2020
 opening_date: 2020-03-05
 closing_date: 2020-03-08
-image: 2020_Lessons_We_Were_Never_Taught.jpg
+featured_image: 2020_Lessons_We_Were_Never_Taught.jpg
 image_credit: 
 image_alt:
 image_caption:

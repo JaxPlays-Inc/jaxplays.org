@@ -4,7 +4,7 @@ year: 1931
 opening_date: 1931-12-15
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

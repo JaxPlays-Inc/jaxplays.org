@@ -4,7 +4,7 @@ year: 1966
 opening_date: 1966-09-30
 closing_date: 1966-10-14
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

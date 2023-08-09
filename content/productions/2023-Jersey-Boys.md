@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-04-27
 closing_date: 2023-06-04
 layout: productions
-image: 
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

@@ -4,7 +4,7 @@ year: 1926
 opening_date: 1926-04-13
 closing_date: 1926-04-14
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

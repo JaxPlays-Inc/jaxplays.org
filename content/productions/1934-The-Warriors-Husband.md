@@ -4,7 +4,7 @@ year: 1934
 opening_date: 1934-12-04
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

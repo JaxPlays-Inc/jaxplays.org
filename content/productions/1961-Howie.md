@@ -4,7 +4,7 @@ year: 1961
 opening_date: 1961-05-26
 closing_date: 1961-06-03
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

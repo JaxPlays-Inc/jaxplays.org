@@ -6,7 +6,7 @@ redirect_from:
 year: 2020
 opening_date: 2020-01-31
 closing_date: 2020-02-16
-image:
+featured_image: 
 image_credit:
 image_alt:
 image_caption:

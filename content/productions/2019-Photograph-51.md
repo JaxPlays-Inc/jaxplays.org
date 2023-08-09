@@ -8,7 +8,7 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-image: 
+featured_image: 
 playbill: 
 Title: Photograph 51 (play) - wiki
 Theatre: Actors Collective

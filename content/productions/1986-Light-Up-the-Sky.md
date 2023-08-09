@@ -4,7 +4,7 @@ year: 1986
 opening_date: 1986-01-24
 closing_date: 1986-02-08
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

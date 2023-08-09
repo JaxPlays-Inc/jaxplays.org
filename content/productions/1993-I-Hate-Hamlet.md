@@ -4,7 +4,7 @@ year: 1993
 opening_date: 1993-11-05
 closing_date: 1993-11-20
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

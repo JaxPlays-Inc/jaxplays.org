@@ -2,7 +2,7 @@
 layout: productions
 title: The Owl and the Pussycat
 year: 1992
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

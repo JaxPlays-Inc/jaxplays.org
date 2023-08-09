@@ -4,7 +4,7 @@ year: 1967
 opening_date: 1967-07-20
 closing_date: 1967-07-29
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

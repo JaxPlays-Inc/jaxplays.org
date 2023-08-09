@@ -4,7 +4,7 @@ year: 1925
 opening_date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

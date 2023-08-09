@@ -4,7 +4,7 @@ year: 2022
 opening_date: 2022-10-06
 closing_date: 2022-10-30
 layout: productions
-image: 2022_Big_Fish.jpeg
+featured_image: 2022_Big_Fish.jpeg
 image_caption: Poster of 2022 production of Big Fish
 image_credit: Limelight Theatre
 playbill: 

@@ -4,7 +4,7 @@ year: 1982
 opening_date: 1982-10-01
 closing_date: 1982-10-16
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

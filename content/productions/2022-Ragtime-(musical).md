@@ -7,7 +7,7 @@ redirect_from:
 year: 2022
 opening_date: 2022-06-10
 closing_date: 2022-06-26
-image: 2022_Ragtime.webp
+featured_image: 2022_Ragtime.webp
 image_credit: Theatre Jacksonville
 image_alt: 
 image_caption: Graphic for Ragtime 

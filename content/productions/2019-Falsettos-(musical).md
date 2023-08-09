@@ -6,7 +6,7 @@ title: Falsettos
 year: 2019
 opening_date: 2019-06-14
 closing_date: 2019-06-30
-image: 2019_Falsettos_(musical).webp
+featured_image: 2019_Falsettos_(musical).webp
 image_credit: 
 image_alt:
 image_caption:

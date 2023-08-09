@@ -4,7 +4,7 @@ year: 1981
 opening_date: 1981-11-27
 closing_date: 1981-12-12
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

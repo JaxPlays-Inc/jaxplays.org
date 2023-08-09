@@ -4,7 +4,7 @@ year: 1978
 opening_date: 1978-05-05
 closing_date: 1978-05-20
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

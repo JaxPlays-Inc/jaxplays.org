@@ -2,7 +2,7 @@
 layout: productions
 title: Noises Off
 year: 2018
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

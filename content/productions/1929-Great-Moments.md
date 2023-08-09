@@ -4,7 +4,7 @@ year: 1929
 opening_date: 1929-05-15
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

@@ -4,7 +4,7 @@ year: 1963
 opening_date: 1963-11-15
 closing_date: 1963-11-23
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

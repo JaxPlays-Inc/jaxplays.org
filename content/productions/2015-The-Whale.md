@@ -6,7 +6,7 @@ title: The Whale
 year: 2015
 opening_date: 2015-11-13
 closing_date: 2015-11-22
-image:
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

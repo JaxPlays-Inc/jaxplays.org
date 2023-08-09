@@ -4,7 +4,7 @@ year: 2003
 opening_date: 2003-11-07
 closing_date: 2003-11-22
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

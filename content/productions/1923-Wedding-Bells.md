@@ -4,7 +4,7 @@ year: 1923
 opening_date: 1923-12-21
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

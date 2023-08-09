@@ -4,7 +4,7 @@ year: 1994
 opening_date: 1994-03-18
 closing_date: 1994-04-02
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

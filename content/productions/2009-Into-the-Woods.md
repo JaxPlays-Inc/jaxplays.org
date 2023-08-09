@@ -4,7 +4,7 @@ redirect_from:
   - /productions/2009_Into_the_Woods
 title: Into the Woods
 year: 2009
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

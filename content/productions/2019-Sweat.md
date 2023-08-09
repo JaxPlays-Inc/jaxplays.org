@@ -4,7 +4,7 @@ title: Sweat
 year: 2019
 opening_date: 2019-08-02
 closing_date: 2019-08-18
-image: 2019_Sweat.webp
+featured_image: 2019_Sweat.webp
 image_credit: 
 image_alt:
 image_caption:

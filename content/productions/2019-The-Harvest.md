@@ -4,7 +4,7 @@ title: The Harvest
 year: 2019
 opening_date: 2019-11-08
 closing_date: 2019-11-24
-image: 2019_The_Harvest.webp
+featured_image: 2019_The_Harvest.webp
 image_credit: 
 image_alt:
 image_caption:

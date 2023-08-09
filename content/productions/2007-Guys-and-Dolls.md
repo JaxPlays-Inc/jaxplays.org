@@ -4,7 +4,7 @@ year: 2007
 opening_date: 2007-06-08
 closing_date: 2007-06-23
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

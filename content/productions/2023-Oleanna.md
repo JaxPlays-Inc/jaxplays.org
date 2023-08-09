@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-01-13
 closing_date: 2023-01-29
 layout: productions
-image: 2023_Oleana.jpeg
+featured_image: 2023_Oleana.jpeg
 image_caption: Poster of 2023 production of Oleanna
 image_credit: Limelight Theatre
 playbill: 

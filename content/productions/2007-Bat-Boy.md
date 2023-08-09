@@ -2,7 +2,7 @@
 layout: productions
 title: Bat Boy
 year: 2007
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

@@ -4,7 +4,7 @@ year: 1927
 opening_date: 1927-11-22
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

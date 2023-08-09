@@ -4,7 +4,7 @@ year: 1938
 opening_date: 1938-12-06
 closing_date: 1938-12-09
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

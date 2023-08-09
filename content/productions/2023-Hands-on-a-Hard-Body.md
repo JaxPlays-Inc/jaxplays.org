@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-08-11
 closing_date: 2023-09-03
 layout: productions
-image: 2023_Hands_on_a_Hard_Body.webp
+featured_image: 2023_Hands_on_a_Hard_Body.webp
 image_caption: Poster for Hands on a Hard Body
 image_credit: Limelight Theatre
 playbill: 

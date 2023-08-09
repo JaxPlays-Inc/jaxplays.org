@@ -4,7 +4,7 @@ year: 1989
 opening_date: 1989-10-06
 closing_date: 1989-10-21
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

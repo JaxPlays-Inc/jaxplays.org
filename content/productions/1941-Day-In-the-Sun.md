@@ -4,7 +4,7 @@ year: 1941
 opening_date: 1941-02-11
 closing_date: 1941-02-14
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

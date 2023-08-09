@@ -2,7 +2,7 @@
 layout: productions
 title: The Grapes of Wrath
 year: 2000
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

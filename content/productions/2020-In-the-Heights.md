@@ -6,7 +6,7 @@ redirect_from:
 year: 2020
 opening_date: 2020-01-17
 closing_date: 2020-01-25
-image: 2020_In_the_Heights.jpg
+featured_image: 2020_In_the_Heights.jpg
 image_credit: 
 image_alt:
 image_caption:

@@ -4,7 +4,7 @@ year: 1942
 opening_date: 1942-03-24
 closing_date: 1942-03-27
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

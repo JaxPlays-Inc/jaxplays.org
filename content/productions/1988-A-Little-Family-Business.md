@@ -4,7 +4,7 @@ year: 1988
 opening_date: 1988-05-13
 closing_date: 1988-05-28
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

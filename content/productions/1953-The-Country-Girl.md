@@ -4,7 +4,7 @@ year: 1953
 opening_date: 1953-05-27
 closing_date: 1953-06-06
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

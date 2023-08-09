@@ -5,7 +5,7 @@ month: 03
 opening_date: 1944-03-01
 closing_date:
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

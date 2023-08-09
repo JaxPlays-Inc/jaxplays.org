@@ -2,7 +2,7 @@
 layout: productions
 title: The Light in the Piazza
 year: 2016
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

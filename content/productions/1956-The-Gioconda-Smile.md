@@ -4,7 +4,7 @@ year: 1956
 opening_date: 1956-02-01
 closing_date: 1956-02-11
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

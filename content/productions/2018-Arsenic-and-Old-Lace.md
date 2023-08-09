@@ -4,7 +4,7 @@ year: 2018
 opening_date: 2018-09-14
 closing_date: 2018-09-30
 layout: productions
-image: 2018_Arsenic_and_Old_Lace.jpeg
+featured_image: 2018_Arsenic_and_Old_Lace.jpeg
 image_caption: Poster for Arsenic and Old Lace
 image_credit: Theatre Jacksonville
 playbill: 

@@ -6,7 +6,7 @@ redirect_from:
 year: 2022
 opening_date: 2022-05-20
 closing_date: 2022-06-05
-image: 2022_The_Shawshank_Redemption.jpeg
+featured_image: 2022_The_Shawshank_Redemption.jpeg
 image_credit: ABET
 image_alt:
 image_caption: Poster of 2022 production of The Shawshank Redemption

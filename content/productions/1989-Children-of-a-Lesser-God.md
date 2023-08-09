@@ -2,7 +2,7 @@
 layout: productions
 title: Children of a Lesser God
 year: 1989
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

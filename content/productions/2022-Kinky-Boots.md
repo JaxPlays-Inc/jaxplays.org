@@ -4,7 +4,7 @@ title: Kinky Boots
 year: 2022
 opening_date: 2022-07-15
 closing_date: 2022-08-07
-image: 2022_Kinky_Boots.jpeg
+featured_image: 2022_Kinky_Boots.jpeg
 image_credit: 
 image_alt:
 image_caption:

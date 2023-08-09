@@ -4,7 +4,7 @@ year: 1977
 opening_date: 1977-11-25
 closing_date: 1977-12-10
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

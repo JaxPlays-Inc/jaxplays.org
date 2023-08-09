@@ -3,7 +3,7 @@ title: Jesus Christ Superstar
 redirect_from: /1999_Jesus_Christ_Superstar
 year: 1999
 layout: productions
-image: 1999_Jesus_Christ_Superstar.jpg
+featured_image: 1999_Jesus_Christ_Superstar.jpg
 image_caption: Photo of the playbill
 image_credit: Kimberly Whitfield
 playbill: 1999_Jesus_Christ_Superstar.pdf

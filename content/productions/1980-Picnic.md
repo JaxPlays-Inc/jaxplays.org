@@ -4,7 +4,7 @@ year: 1980
 opening_date: 1980-01-25
 closing_date: 1980-02-09
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

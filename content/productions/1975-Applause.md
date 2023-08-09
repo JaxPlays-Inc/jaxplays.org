@@ -4,7 +4,7 @@ year: 1975
 opening_date: 1975-10-10
 closing_date: 1975-10-25
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

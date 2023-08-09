@@ -4,7 +4,7 @@ year: 1976
 opening_date: 1976-03-12
 closing_date: 1976-03-27
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

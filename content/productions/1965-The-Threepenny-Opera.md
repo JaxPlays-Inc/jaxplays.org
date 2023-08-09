@@ -4,7 +4,7 @@ year: 1965
 opening_date: 1965-05-14
 closing_date: 1965-05-22
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

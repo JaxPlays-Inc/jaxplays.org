@@ -4,7 +4,7 @@ year: 1939
 opening_date: 1939-01-17
 closing_date: 1939-01-20
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

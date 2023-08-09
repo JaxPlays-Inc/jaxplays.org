@@ -7,7 +7,7 @@ redirect_from:
 year: 2020
 opening_date: 2020-01-24
 closing_date: 2020-02-15
-image: 2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum.jpg
+featured_image: 2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum.jpg
 image_credit: 
 image_alt:
 image_caption:

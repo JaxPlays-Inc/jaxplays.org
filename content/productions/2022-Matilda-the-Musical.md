@@ -8,7 +8,7 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-image: 2022_Matilda_(musical).png
+featured_image: 2022_Matilda_(musical).png
 Title: Matilda the Musical - wiki
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage

@@ -6,7 +6,7 @@ redirect_from:
 year: 2020
 opening_date: 2020-03-13
 closing_date: 2020-03-29
-image: 2020_Two_Trains_Running.png
+featured_image: 2020_Two_Trains_Running.png
 image_credit: 
 image_alt:
 image_caption:

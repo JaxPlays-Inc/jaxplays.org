@@ -4,7 +4,7 @@ year: 1940
 opening_date: 1940-07-30
 closing_date: 1940-08-02
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

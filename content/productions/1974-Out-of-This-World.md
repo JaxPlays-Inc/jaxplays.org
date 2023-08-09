@@ -4,7 +4,7 @@ year: 1974
 opening_date: 1974-10-11
 closing_date: 1974-10-26
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

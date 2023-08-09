@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-03-10
 closing_date: 2023-03-26
 layout: productions
-image: 2023_Doubt.jpeg
+featured_image: 2023_Doubt.jpeg
 image_caption: Poster of Doubt
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Doubt.pdf

@@ -7,7 +7,7 @@ redirect_from:
 year: 2022
 opening_date: 2022-06-03
 closing_date: 2022-06-19
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

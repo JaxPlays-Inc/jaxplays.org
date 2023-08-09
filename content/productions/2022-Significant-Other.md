@@ -4,7 +4,7 @@ title: Significant Other
 year: 2022
 opening_date: 2022-04-21
 closing_date: 2022-04-23
-image: 2022_Significant_Other.jpg
+featured_image: 2022_Significant_Other.jpg
 image_credit: 
 image_alt:
 image_caption:

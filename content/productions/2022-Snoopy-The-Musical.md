@@ -6,7 +6,7 @@ redirect_from:
 year: 2022
 opening_date: 2022-07-22
 closing_date: 2022-07-31
-image: 2022_Snoopy_the_Musical.jpg
+featured_image: 2022_Snoopy_the_Musical.jpg
 image_credit: ABET
 image_alt:
 image_caption: Poster of 2022 production of Snoopy! The Musical

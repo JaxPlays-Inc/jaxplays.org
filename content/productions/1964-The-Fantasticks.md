@@ -4,7 +4,7 @@ year: 1964
 opening_date: 1964-05-29
 closing_date: 1964-06-06
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

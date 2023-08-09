@@ -4,7 +4,7 @@ year: 1968
 opening_date: 1968-11-15
 closing_date: 1968-11-23
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

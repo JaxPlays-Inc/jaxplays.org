@@ -4,7 +4,7 @@ year: 1985
 opening_date: 1985-05-10
 closing_date: 1985-05-25
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

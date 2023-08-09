@@ -8,7 +8,7 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-image: 2022_The_Great_Gatsby.jpg
+featured_image: 2022_The_Great_Gatsby.jpg
 Title: The Great Gatsby - wiki
 Theatre: The Island Theater
 Writer: F. Scott Fitzgerald - wiki

@@ -4,7 +4,7 @@ year: 1951
 opening_date: 1951-01-19
 closing_date: 1951-01-27
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

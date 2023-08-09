@@ -2,7 +2,7 @@
 layout: productions
 title: Wait Until Dark
 year: 1990
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

@@ -4,7 +4,7 @@ year: 2005
 opening_date: 2005-09-04
 closing_date: 2005-10-08
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

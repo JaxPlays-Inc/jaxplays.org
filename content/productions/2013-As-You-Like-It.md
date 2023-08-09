@@ -4,7 +4,7 @@ year: 2013
 opening_date: 2013-08-23
 closing_date: 2013-09-08
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

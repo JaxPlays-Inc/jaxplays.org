@@ -4,7 +4,7 @@ year: 1996
 opening_date: 1996-11-08
 closing_date: 1996-11-24
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

@@ -4,7 +4,7 @@ title: Messiah on the Frigidaire
 year: 2022
 opening_date: 2022-04-01
 closing_date: 2022-04-24
-image: 2022_Messiah_on_the_Frigidaire.jpeg
+featured_image: 2022_Messiah_on_the_Frigidaire.jpeg
 image_credit: 
 image_alt:
 image_caption:

@@ -4,7 +4,7 @@ year: 1921
 opening_date: 1921-11-08
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

@@ -4,7 +4,7 @@ year: 1973
 opening_date: 1973-07-20
 closing_date: 1973-07-28
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

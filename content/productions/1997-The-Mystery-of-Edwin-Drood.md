@@ -4,7 +4,7 @@ year: 1997
 opening_date: 1997-06-06
 closing_date: 1997-06-22
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

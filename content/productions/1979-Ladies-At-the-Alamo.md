@@ -4,7 +4,7 @@ year: 1979
 opening_date: 1979-12-14
 closing_date: 1979-12-22
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

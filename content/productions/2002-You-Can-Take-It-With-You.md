@@ -4,7 +4,7 @@ year: 2002
 opening_date: 2002-03-08
 closing_date: 2002-03-23
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

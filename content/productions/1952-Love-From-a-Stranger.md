@@ -4,7 +4,7 @@ year: 1952
 opening_date: 1952-01-18
 closing_date: 1952-01-26
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

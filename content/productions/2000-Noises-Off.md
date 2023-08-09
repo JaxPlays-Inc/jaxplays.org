@@ -4,7 +4,7 @@ year: 2000
 opening_date: 2000-11-01
 closing_date: 
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

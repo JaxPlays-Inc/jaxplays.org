@@ -4,7 +4,7 @@ year: 1969
 opening_date: 1969-09-26
 closing_date: 1969-10-04
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

@@ -6,7 +6,7 @@ redirect_from:
 year: 2022
 opening_date: 2022-06-03
 closing_date: 2022-06-19
-image: 2022_Freaky_Friday.jpg
+featured_image: 2022_Freaky_Friday.jpg
 image_credit: 
 image_alt:
 image_caption:

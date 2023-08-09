@@ -4,7 +4,7 @@ year: 2022
 opening_date: 2022-09-16
 closing_date: 2022-10-02
 layout: productions
-image: 2022_Private_Lives.jpeg
+featured_image: 2022_Private_Lives.jpeg
 image_caption: Poster of Private Lives
 image_credit: Theatre Jacksonville
 playbill: 2022_Private_Lives.pdf

@@ -4,7 +4,7 @@ year: 1995
 opening_date: 1995-09-14
 closing_date: 1995-09-23
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

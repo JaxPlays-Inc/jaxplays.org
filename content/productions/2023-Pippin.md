@@ -4,7 +4,7 @@ year: 2023
 opening_date: 2023-06-09
 closing_date: 2023-06-25
 layout: productions
-image: 2023_Pippin.jpeg
+featured_image: 2023_Pippin.jpeg
 image_caption: Poster of Pippin
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Pippin.pdf

@@ -2,7 +2,7 @@
 layout: productions
 title: The Dining Room
 year: 1988
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

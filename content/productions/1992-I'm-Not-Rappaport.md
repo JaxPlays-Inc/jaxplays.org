@@ -4,7 +4,7 @@ year: 1992
 opening_date: 1992-02-21
 closing_date: 1992-02-29
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

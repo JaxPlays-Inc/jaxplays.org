@@ -4,7 +4,7 @@ title: Dial M For Murder
 year: 2022
 opening_date: 2022-06-23
 closing_date: 2022-07-17
-image: 2022_Dial_M_For_Murder.jpeg
+featured_image: 2022_Dial_M_For_Murder.jpeg
 image_credit: Limelight Theatre
 image_alt:
 image_caption: Poster for 2022 production of Dial M For Murder

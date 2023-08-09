@@ -4,7 +4,7 @@ year: 1998
 opening_date: 1998-01-16
 closing_date: 1998-01-31
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

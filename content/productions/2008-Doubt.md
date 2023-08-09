@@ -2,7 +2,7 @@
 layout: productions
 title: Doubt
 year: 2008
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

@@ -2,7 +2,7 @@
 layout: productions
 title: Coastal Disturbances
 year: 1989
-image: 
+featured_image: 
 image_credit: 
 image_alt:
 image_caption:

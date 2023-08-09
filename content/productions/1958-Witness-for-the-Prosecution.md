@@ -4,7 +4,7 @@ year: 1958
 opening_date: 1958-01-08
 closing_date: 1958-01-18
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

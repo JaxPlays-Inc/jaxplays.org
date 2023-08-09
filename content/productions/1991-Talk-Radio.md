@@ -2,7 +2,7 @@
 layout: productions
 title: Talk Radio
 year: 1991
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

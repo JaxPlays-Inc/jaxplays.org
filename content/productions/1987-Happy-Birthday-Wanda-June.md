@@ -2,7 +2,7 @@
 layout: productions
 title: Happy Birthday, Wanda June
 year: 1987
-image:
+featured_image: 
 category:
 Theatre: Players by the Sea
 cast:

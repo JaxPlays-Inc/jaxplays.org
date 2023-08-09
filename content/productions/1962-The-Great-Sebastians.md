@@ -4,7 +4,7 @@ year: 1962
 opening_date: 1962-02-23
 closing_date: 1962-03-03
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:

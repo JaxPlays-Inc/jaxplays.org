@@ -4,7 +4,7 @@ year: 1946
 opening_date: 1946-03-15
 closing_date: 1946-03-16
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill: 

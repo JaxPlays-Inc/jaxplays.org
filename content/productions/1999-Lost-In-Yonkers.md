@@ -4,7 +4,7 @@ year: 1999
 opening_date: 1999-04-23
 closing_date: 1999-05-08
 layout: productions
-image:
+featured_image: 
 image_caption:
 image_credit:
 playbill:
