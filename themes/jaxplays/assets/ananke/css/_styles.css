@@ -18,8 +18,13 @@
 }
 
 a.jaxplayslogo {
-	background-size: 2rem; /* Adjust the size as needed */
-	padding-left: 2.5rem; /* Adjust padding to give space for the logo */
+	background-size: 2rem; 
+	padding-left: 2.5rem; 
+}
+
+h1 a.jaxplayslogo {
+  background-size: 5rem;
+  padding-left: 5.5rem; 
 }
 
 @media screen and (min-width: 60em) {
@@ -29,10 +34,7 @@ a.jaxplayslogo {
 	}
 }
 
-h1 a.jaxplayslogo {
-  background-size: 4rem; /* Adjust the size as needed */
-  padding-left: 5rem; /* Adjust padding to give space for the logo */
-}
+
 
 #TableOfContents ul li {
 	margin-bottom: 1em;
