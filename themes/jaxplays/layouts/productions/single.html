@@ -3,9 +3,14 @@
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <header>
-        <h1 class="f1">
+        <h1 class="f1 mb0" >
           {{ .Title }}
         </h1>
+        <h2 class="fw4 ttu">
+          {{ with .Params.year }}{{ . }}{{ end }}
+          {{ if and .Params.year .Params.details.Theatre }}&#8226;{{ end }}
+          {{ with .Params.details }}{{ .Theatre }}{{ end }}
+        </h2>                
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "dark-gray" }}">
         {{ .Content }}
