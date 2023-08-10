@@ -1,13 +1,16 @@
-<nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-between-l justify-center items-center center">
-    <a href="{{ .Site.Home.RelPermalink }}" class="f2 f3-l fw7 hover-near-white no-underline white dib ttu jaxplayslogo">
+<nav class="pv3 ph3 ph4-ns mw9 center" role="navigation">
+  <div class="navmenu flex justify-between-l items-center">
+    <div class="menu-btn flex flex-m dn-l">
+      <div class="db">☰</div>
+    </div>
+    <a href="{{ .Site.Home.RelPermalink }}" class="f2 f3-l fw7 hover-near-white no-underline white flex ttu jaxplayslogo">
       {{ with .Site.Params.site_logo }}
         <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
     </a>
-    <div class="flex-l items-center db-l dn ">
+    <div class="flex-l items-center db-l dn">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
@@ -23,4 +26,25 @@
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>
+   <!-- Menu links for tablet and mobile -->
+   <div class="nav-links dn dn-m dn-l w-100-m flex-column">
+    {{ range .Site.Menus.main }}
+    <a class="link hover-white white-90 no-underline f5 pa3 pl2 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+      {{ .Name }}
+    </a>
+    {{ end }}
+    {{ partialCached "social-follow.html" . }}
+  </div>
+  <!-- JavaScript to handle menu toggle -->
+  <script>
+    var navLinks = document.querySelector('.nav-links');
+    document.querySelector('.menu-btn').addEventListener('click', function() {
+      if (window.innerWidth < 960 && navLinks.style.display === 'none') {
+        navLinks.style.display = 'flex';
+      } else {
+        navLinks.style.display = 'none';
+      }
+    });
+  </script>
+
 </nav>

@@ -73,3 +73,16 @@ h1 a.jaxplayslogo {
 .nested-links a {
 	overflow-wrap: break-word;
 }
+
+.menu-btn {
+  flex: 1;
+  color: white;
+  font-size: 2.2em;
+}
+
+@media (max-width: 60em) {
+	.navmenu::after {
+		flex: 1;
+		content: '';
+	}
+}
