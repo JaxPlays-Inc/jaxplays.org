@@ -7,8 +7,8 @@
         {{ .Title }}
       </h1>
       <h2 class="fw4 f3-ns f5 ttu">
-        {{ with .Params.year }}{{ . }}{{ end }}
-        {{ if and .Params.year .Params.theatre }}&#8226;{{ end }}
+        {{ with .Params.date }}{{ dateFormat "2006" . }}{{ end }}
+        {{ if and .Params.date .Params.theatre }}&#8226;{{ end }}
         {{ .Params.theatre }}
       </h2>
     </header>
