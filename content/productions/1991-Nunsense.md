@@ -1,7 +1,6 @@
 ---
 title: Nunsense
-year: 1991
-opening_date: 
+date: 1991
 closing_date: 
 layout: productions
 featured_image: 

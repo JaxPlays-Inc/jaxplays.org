@@ -1,7 +1,6 @@
 ---
 title: Studio Night - Impersonation II
-year: 1926
-opening_date: 
+date: 1926
 closing_date:
 layout: productions
 featured_image: 

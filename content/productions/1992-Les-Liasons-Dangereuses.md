@@ -1,7 +1,6 @@
 ---
 title: Les Liasons Dangereuses
-year: 1992
-opening_date: 
+date: 1992
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Major Barbara (Reading)
-year: 1927
-opening_date: 
+date: 1927
 closing_date: 
 layout: productions
 featured_image: 

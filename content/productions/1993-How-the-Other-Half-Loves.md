@@ -1,7 +1,6 @@
 ---
 title: How the Other Half Loves
-year: 1993
-opening_date: 
+date: 1993
 closing_date: 
 layout: productions
 featured_image: 

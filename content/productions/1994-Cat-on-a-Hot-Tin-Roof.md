@@ -1,7 +1,6 @@
 ---
 title: Cat on a Hot Tin Roof
-year: 1994
-opening_date: 
+date: 1994
 closing_date: 
 layout: productions
 featured_image: 
