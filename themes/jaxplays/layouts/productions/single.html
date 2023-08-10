@@ -22,9 +22,9 @@
     <div class="nested-copy-line-height lh-copy f4-ns f5 mb5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Details</h3>
       {{ with .Params.year }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Year</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div></div>{{ end }}
-      {{ with .Params.theatre }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="">{{ . }}</a></div></div>{{ end }}
-      {{ with .Params.venue }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div></div>{{ end }}
-      {{ with .Params.website }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver"></div><div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Production Website</a></div></div>{{ end }}
+      {{ with .Params.theatre }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/theatres/{{ . | urlize }}">{{ . }}</a></div></div>{{ end }}
+      {{ with .Params.venue }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div><div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/venues/{{ . | urlize }}">{{ . }}</a></div></div>{{ end }}
+      {{ with .Params.website }}<div class="flex"><div class="w-25 b pa3-ns pa2 bb bw1 b--silver"></div><div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Official Website</a></div></div>{{ end }}
     </div>
 
     {{ with .Content }}
