@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: The Curious Savage
-year: 1994
+date: 1994
 featured_image: 
 category:
 Theatre: Players by the Sea

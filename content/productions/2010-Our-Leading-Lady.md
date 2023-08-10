@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Our Leading Lady
-year: 2010
+date: 2010
 featured_image: 
 image_credit: 
 image_alt:

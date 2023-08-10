@@ -1,7 +1,7 @@
 ---
 title: Jesus Christ Superstar
 redirect_from: /1999_Jesus_Christ_Superstar
-year: 1999
+date: 1999
 layout: productions
 featured_image: 1999_Jesus_Christ_Superstar.jpg
 image_caption: Photo of the playbill

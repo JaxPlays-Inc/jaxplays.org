@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Time Stands Still
-year: 2015
+date: 2015
 featured_image: 
 image_credit: 
 image_alt:

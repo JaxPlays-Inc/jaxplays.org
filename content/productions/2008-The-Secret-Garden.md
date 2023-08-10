@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: The Secret Garden
-year: 2008
+date: 2008
 featured_image: 
 image_credit: 
 image_alt:

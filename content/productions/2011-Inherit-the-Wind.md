@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Inherit the Wind
-year: 2011
+date: 2011
 featured_image: 
 image_credit: 
 image_alt:

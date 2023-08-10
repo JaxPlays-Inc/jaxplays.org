@@ -3,7 +3,7 @@ layout: productions
 redirect_from:
   - /productions/2013_Tea_and_Sympathy
 title: Tea and Sympathy
-year: 2013
+date: 2013
 featured_image: 
 image_credit: 
 image_alt:

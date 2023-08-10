@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Mass Appeal
-year: 1987
+date: 1987
 featured_image: 
 category:
 Theatre: Players by the Sea

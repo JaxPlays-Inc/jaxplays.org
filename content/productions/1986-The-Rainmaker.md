@@ -1,6 +1,6 @@
 ---
 title: The Rainmaker
-year: 1986
+date: 1986
 layout: productions
 featured_image: 
 category:

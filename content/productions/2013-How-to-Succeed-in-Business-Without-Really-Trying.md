@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: How to Succeed in Business Without Really Trying
-year: 2013
+date: 2013
 featured_image: 
 image_credit: 
 image_alt:

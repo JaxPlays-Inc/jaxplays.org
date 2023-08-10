@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: The Real Inspector Hound
-year: 1988
+date: 1988
 featured_image: 
 image_credit: 
 image_alt:

@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: "The Eight: Reindeer Monologues"
-year: 2011
+date: 2011
 featured_image: 
 image_credit: 
 image_alt:

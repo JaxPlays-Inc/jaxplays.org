@@ -3,7 +3,7 @@ layout: productions
 redirect_from:
   - /productions/1991_Godspell
 title: Godspell
-year: 1991
+date: 1991
 featured_image: 
 category:
 Theatre: Players by the Sea

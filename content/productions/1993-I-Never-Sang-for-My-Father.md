@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: I Never Sang for My Father
-year: 1993
+date: 1993
 featured_image: 
 category:
 Theatre: Players by the Sea

@@ -1,6 +1,6 @@
 ---
 title: Deathtrap
-year: 1985
+date: 1985
 layout: productions
 featured_image: 
 category:

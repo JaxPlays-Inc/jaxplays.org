@@ -3,7 +3,7 @@ layout: productions
 redirect_from:
   - /productions/2017_Grey_Gardens
 title: Grey Gardens
-year: 2017
+date: 2017
 featured_image: 
 image_credit: 
 image_alt:
