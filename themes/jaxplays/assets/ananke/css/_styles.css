@@ -10,6 +10,15 @@
 	--jaxplays-white: #fff;
 }
 
+a {
+	color: var(--jaxplays-red);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .jaxplayslogo {
 	letter-spacing: 0.055em;
 	background-image: url("/JaxPlaysLogo.svg");
@@ -18,13 +27,13 @@
 }
 
 a.jaxplayslogo {
-	background-size: 2rem; 
-	padding-left: 2.5rem; 
+	background-size: 2rem;
+	padding-left: 2.5rem;
 }
 
 h1 a.jaxplayslogo {
-  background-size: 5rem;
-  padding-left: 5.5rem; 
+	background-size: 5rem;
+	padding-left: 5.5rem;
 }
 
 .sectionline:after {
@@ -37,13 +46,11 @@ h1 a.jaxplayslogo {
 }
 
 @media screen and (min-width: 60em) {
-		a.jaxplayslogo {
+	a.jaxplayslogo {
 		background-size: 1.5rem; /* Adjust the size as needed */
 		padding-left: 1.75rem; /* Adjust padding to give space for the logo */
 	}
 }
-
-
 
 #TableOfContents ul li {
 	margin-bottom: 1em;
