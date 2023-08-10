@@ -10,12 +10,12 @@
 	--jaxplays-white: #fff;
 }
 
-a {
+a, .nested-links a {
 	color: var(--jaxplays-red);
 	text-decoration: none;
 }
 
-a:hover {
+a:hover, .nested-links a:hover {
 	text-decoration: underline;
 }
 
@@ -29,6 +29,10 @@ a:hover {
 a.jaxplayslogo {
 	background-size: 2rem;
 	padding-left: 2.5rem;
+}
+
+a.jaxplayslogo, a.jaxplayslogo:hover, a.jaxplayslogo:visited {
+	text-decoration: none;
 }
 
 h1 a.jaxplayslogo {
