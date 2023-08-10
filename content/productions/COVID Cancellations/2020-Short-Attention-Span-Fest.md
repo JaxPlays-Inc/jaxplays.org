@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Short Attention Span Fest
-year: 2020
+date: 2020
 image_credit: 
 image_alt:
 image_caption:

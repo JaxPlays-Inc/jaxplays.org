@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Little Women (musical)
-year: 2020
+date: 2020
 featured_image: 
 image_credit: 
 image_alt:

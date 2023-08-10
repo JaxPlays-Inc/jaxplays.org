@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: A Doll's House, Part 2
-year: 2020
+date: 2020
 image_credit:
 image_alt:
 image_caption:

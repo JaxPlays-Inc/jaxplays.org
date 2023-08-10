@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: The How and the Why
-year: 2020
+date: 2020
 image_credit: 
 image_alt:
 image_caption:
