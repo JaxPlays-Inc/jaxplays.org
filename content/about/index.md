@@ -1,7 +1,6 @@
 ---
 title: About JaxPlays
 layout: page
-menu: main
 ---
 <h1>{{ page.title }}</h1>
 

@@ -24,3 +24,15 @@ params:
   - name: facebook
     url: https://www.facebook.com/JaxPlaysWiki/
     label: Facebook
+
+menu:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: About
+    pageRef: /about
+    weight: 20
+  - name: Productions
+    pageRef: /productions
+    weight: 30
