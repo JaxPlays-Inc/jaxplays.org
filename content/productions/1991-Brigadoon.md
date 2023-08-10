@@ -1,7 +1,6 @@
 ---
 title: Brigadoon
-year: 1991
-opening_date: 1991-06-14
+date: 1991-06-14
 closing_date: 1991-06-23
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Gold In the Hills (Studio)
-year: 1954
-opening_date: 1954-03-24
+date: 1954-03-24
 closing_date: 1954-04-03
 layout: productions
 featured_image: 

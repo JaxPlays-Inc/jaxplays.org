@@ -1,7 +1,6 @@
 ---
 title: Dracula
-year: 1985
-opening_date: 1985-11-29
+date: 1985-11-29
 closing_date: 1985-12-14
 layout: productions
 featured_image: 

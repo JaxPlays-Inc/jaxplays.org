@@ -1,7 +1,6 @@
 ---
 title: Gypsy
-year: 1963
-opening_date: 1963-11-15
+date: 1963-11-15
 closing_date: 1963-11-23
 layout: productions
 featured_image: 

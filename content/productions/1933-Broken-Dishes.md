@@ -1,7 +1,6 @@
 ---
 title: Broken Dishes
-year: 1933
-opening_date: 1933-01-10
+date: 1933-01-10
 closing_date: 
 layout: productions
 featured_image: 

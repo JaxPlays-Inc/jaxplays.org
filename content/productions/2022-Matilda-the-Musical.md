@@ -1,8 +1,7 @@
 ---
 layout: productions
 title: Matilda the Musical
-year: 2022
-opening_date: 2022-04-14
+date: 2022-04-14
 closing_date: 2022-05-01
 image_credit: 
 image_alt:

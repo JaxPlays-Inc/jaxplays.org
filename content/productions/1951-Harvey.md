@@ -1,7 +1,6 @@
 ---
 title: Harvey
-year: 1951
-opening_date: 1951-05-25
+date: 1951-05-25
 closing_date: 1951-06-02
 layout: productions
 featured_image: 

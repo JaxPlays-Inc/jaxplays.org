@@ -1,7 +1,6 @@
 ---
 title: On the Hiring Line
-year: 1929
-opening_date: 1929-01-08
+date: 1929-01-08
 closing_date: 1929-01-09
 layout: productions
 featured_image: 

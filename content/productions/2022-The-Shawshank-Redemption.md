@@ -3,8 +3,7 @@ layout: productions
 title: The Shawshank Redemption
 redirect_from:
   - /productions/2022_The_Shawshank_Redemption
-year: 2022
-opening_date: 2022-05-20
+date: 2022-05-20
 closing_date: 2022-06-05
 featured_image: 2022_The_Shawshank_Redemption.jpeg
 image_credit: ABET

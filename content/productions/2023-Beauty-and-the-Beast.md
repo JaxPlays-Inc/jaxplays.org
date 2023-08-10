@@ -1,7 +1,6 @@
 ---
 title: Beauty and the Beast
-year: 2023
-opening_date: 2023-06-08
+date: 2023-06-08
 closing_date: 2023-07-30
 layout: productions
 featured_image: 2023_Beauty_and_the_Beast.jpeg

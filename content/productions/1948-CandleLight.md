@@ -1,7 +1,6 @@
 ---
 title: Candle-Light
-year: 1948
-opening_date: 1948-04-09
+date: 1948-04-09
 closing_date: 1948-04-16
 layout: productions
 featured_image: 

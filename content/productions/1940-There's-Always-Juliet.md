@@ -1,7 +1,6 @@
 ---
 title: There's Always Juliet
-year: 1940
-opening_date: 1940-04-16
+date: 1940-04-16
 closing_date: 1940-04-19
 layout: productions
 featured_image: 

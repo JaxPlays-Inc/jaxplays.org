@@ -1,7 +1,6 @@
 ---
 title: Guest In the House
-year: 1949
-opening_date: 1949-01-14
+date: 1949-01-14
 closing_date: 1949-01-21
 layout: productions
 featured_image: 

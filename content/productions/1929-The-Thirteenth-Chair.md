@@ -1,7 +1,6 @@
 ---
 title: The Thirteenth Chair
-year: 1929
-opening_date: 1929-02-14
+date: 1929-02-14
 closing_date: 1929-02-15
 layout: productions
 featured_image: 

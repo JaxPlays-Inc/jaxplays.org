@@ -1,7 +1,6 @@
 ---
 title: The Mystery of Edwin Drood
-year: 1997
-opening_date: 1997-06-06
+date: 1997-06-06
 closing_date: 1997-06-22
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Watch the Birdie
-year: 1970
-opening_date: 1970-05-22
+date: 1970-05-22
 closing_date: 1970-05-30
 layout: productions
 featured_image: 

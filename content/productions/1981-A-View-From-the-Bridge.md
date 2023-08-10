@@ -1,7 +1,6 @@
 ---
 title: A View From the Bridge
-year: 1981
-opening_date: 1981-11-27
+date: 1981-11-27
 closing_date: 1981-12-12
 layout: productions
 featured_image: 

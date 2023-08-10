@@ -1,7 +1,6 @@
 ---
 title: Me and Thee
-year: 1972
-opening_date: 1972-04-28
+date: 1972-04-28
 closing_date: 1972-05-13
 layout: productions
 featured_image: 

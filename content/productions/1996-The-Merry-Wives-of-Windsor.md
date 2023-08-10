@@ -1,7 +1,6 @@
 ---
 title: The Merry Wives of Windsor
-year: 1996
-opening_date: 1996-09-13
+date: 1996-09-13
 closing_date: 1996-09-22
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Tomorrow and Tomorrow
-year: 1938
-opening_date: 1938-02-15
+date: 1938-02-15
 closing_date: 1938-02-17
 layout: productions
 featured_image: 

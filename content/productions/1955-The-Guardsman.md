@@ -1,7 +1,6 @@
 ---
 title: The Guardsman
-year: 1955
-opening_date: 1955-12-07
+date: 1955-12-07
 closing_date: 1955-12-17
 layout: productions
 featured_image: 

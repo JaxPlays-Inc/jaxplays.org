@@ -1,7 +1,6 @@
 ---
 title: The Impossible Years
-year: 1970
-opening_date: 1970-04-10
+date: 1970-04-10
 closing_date: 1970-04-18
 layout: productions
 featured_image: 

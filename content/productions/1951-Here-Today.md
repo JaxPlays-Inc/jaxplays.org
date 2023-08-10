@@ -1,7 +1,6 @@
 ---
 title: Here Today
-year: 1951
-opening_date: 1951-10-05
+date: 1951-10-05
 closing_date: 1951-10-13
 layout: productions
 featured_image: 

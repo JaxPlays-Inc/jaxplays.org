@@ -1,7 +1,6 @@
 ---
 title: First Lady
-year: 1939
-opening_date: 1939-02-07
+date: 1939-02-07
 closing_date: 1939-02-10
 layout: productions
 featured_image: 

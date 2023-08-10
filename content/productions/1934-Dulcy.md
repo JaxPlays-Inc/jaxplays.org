@@ -1,7 +1,6 @@
 ---
 title: Dulcy
-year: 1934
-opening_date: 1934-04-24
+date: 1934-04-24
 closing_date: 
 layout: productions
 featured_image: 

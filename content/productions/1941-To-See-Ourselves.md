@@ -1,7 +1,6 @@
 ---
 title: To See Ourselves
-year: 1941
-opening_date: 1941-05-27
+date: 1941-05-27
 closing_date: 1941-05-30
 layout: productions
 featured_image: 

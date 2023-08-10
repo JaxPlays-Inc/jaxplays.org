@@ -1,7 +1,6 @@
 ---
 title: The Lion In Winter
-year: 1987
-opening_date: 1987-12-04
+date: 1987-12-04
 closing_date: 1987-12-19
 layout: productions
 featured_image: 

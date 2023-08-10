@@ -3,8 +3,7 @@ layout: productions
 redirect_from:
   - /productions/2019_Love_Valour_Compassion
 title: Love! Valour! Compassion!
-year: 2019
-opening_date: 2019-10-18
+date: 2019-10-18
 closing_date: 2019-10-20
 featured_image: 
 image_credit: 

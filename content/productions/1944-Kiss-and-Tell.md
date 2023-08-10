@@ -1,7 +1,6 @@
 ---
 title: Kiss and Tell
-year: 1944
-opening_date: 1944-10-20
+date: 1944-10-20
 closing_date: 1944-10-27
 layout: productions
 featured_image: 

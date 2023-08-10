@@ -1,7 +1,6 @@
 ---
 title: The Hasty Heart
-year: 1955
-opening_date: 1955-01-19
+date: 1955-01-19
 closing_date: 1955-01-29
 layout: productions
 featured_image: 

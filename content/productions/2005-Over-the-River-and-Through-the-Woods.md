@@ -1,7 +1,6 @@
 ---
 title: Over the River and Through the Woods
-year: 2005
-opening_date: 2005-03-04
+date: 2005-03-04
 closing_date: 2005-03-19
 layout: productions
 featured_image: 

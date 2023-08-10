@@ -1,8 +1,7 @@
 ---
 title: Claudia
-year: 1942
 month: 11
-opening_date: 1942-11-01
+date: 1942-11-01
 closing_date: 
 layout: productions
 featured_image: 

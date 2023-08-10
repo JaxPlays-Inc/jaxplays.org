@@ -1,7 +1,6 @@
 ---
 title: Stage Door
-year: 1938
-opening_date: 1938-10-25
+date: 1938-10-25
 closing_date: 1938-10-28
 layout: productions
 featured_image: 

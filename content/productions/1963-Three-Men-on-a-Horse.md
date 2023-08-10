@@ -1,7 +1,6 @@
 ---
 title: Three Men on a Horse
-year: 1963
-opening_date: 1963-09-27
+date: 1963-09-27
 closing_date: 1963-10-05
 layout: productions
 featured_image: 

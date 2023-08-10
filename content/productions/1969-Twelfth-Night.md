@@ -1,7 +1,6 @@
 ---
 title: Twelfth Night
-year: 1969
-opening_date: 1969-01-10
+date: 1969-01-10
 closing_date: 1969-01-18
 layout: productions
 featured_image: 

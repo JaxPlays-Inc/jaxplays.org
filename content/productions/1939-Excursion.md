@@ -1,7 +1,6 @@
 ---
 title: Excursion
-year: 1939
-opening_date: 1939-05-02
+date: 1939-05-02
 closing_date: 1939-05-05
 layout: productions
 featured_image: 

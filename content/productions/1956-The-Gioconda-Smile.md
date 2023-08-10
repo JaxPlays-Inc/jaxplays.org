@@ -1,7 +1,6 @@
 ---
 title: The Gioconda Smile
-year: 1956
-opening_date: 1956-02-01
+date: 1956-02-01
 closing_date: 1956-02-11
 layout: productions
 featured_image: 

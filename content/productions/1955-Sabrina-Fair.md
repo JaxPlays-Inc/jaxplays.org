@@ -1,7 +1,6 @@
 ---
 title: Sabrina Fair
-year: 1955
-opening_date: 1955-06-01
+date: 1955-06-01
 closing_date: 1955-06-11
 layout: productions
 featured_image: 

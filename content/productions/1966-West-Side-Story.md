@@ -1,7 +1,6 @@
 ---
 title: West Side Story
-year: 1966
-opening_date: 1966-02-26
+date: 1966-02-26
 closing_date: 1966-03-05
 layout: productions
 featured_image: 

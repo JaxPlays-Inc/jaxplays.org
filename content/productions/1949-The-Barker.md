@@ -1,7 +1,6 @@
 ---
 title: The Barker
-year: 1949
-opening_date: 1949-05-20
+date: 1949-05-20
 closing_date: 1949-05-27
 layout: productions
 featured_image: 

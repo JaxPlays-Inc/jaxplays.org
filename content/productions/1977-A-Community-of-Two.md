@@ -1,7 +1,6 @@
 ---
 title: A Community of Two
-year: 1977
-opening_date: 1977-11-25
+date: 1977-11-25
 closing_date: 1977-12-10
 layout: productions
 featured_image: 

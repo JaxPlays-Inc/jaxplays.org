@@ -1,7 +1,6 @@
 ---
 title: The Curious Savage
-year: 1951
-opening_date: 1951-11-16
+date: 1951-11-16
 closing_date: 1951-11-24
 layout: productions
 featured_image: 

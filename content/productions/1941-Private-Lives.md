@@ -1,7 +1,6 @@
 ---
 title: Private Lives
-year: 1941
-opening_date: 1941-05-13
+date: 1941-05-13
 closing_date: 1941-05-16
 layout: productions
 featured_image: 

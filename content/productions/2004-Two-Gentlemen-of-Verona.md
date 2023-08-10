@@ -1,7 +1,6 @@
 ---
 title: Two Gentlemen of Verona
-year: 2004
-opening_date: 2004-09-17
+date: 2004-09-17
 closing_date: 2004-10-03
 layout: productions
 featured_image: 

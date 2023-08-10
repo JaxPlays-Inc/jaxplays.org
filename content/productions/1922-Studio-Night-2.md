@@ -1,7 +1,6 @@
 ---
 title: Studio Night #2
-year: 1922
-opening_date: 
+date: 1922
 closing_date: 
 layout: productions
 featured_image: 

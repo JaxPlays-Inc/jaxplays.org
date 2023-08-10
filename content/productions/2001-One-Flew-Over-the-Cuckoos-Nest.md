@@ -1,7 +1,6 @@
 ---
 title: One Flew Over the Cuckoo's Nest
-year: 2001
-opening_date: 2001-03-01
+date: 2001-03-01
 closing_date:
 layout: productions
 featured_image: 

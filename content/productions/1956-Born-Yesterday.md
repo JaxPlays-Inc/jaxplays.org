@@ -1,7 +1,6 @@
 ---
 title: Born Yesterday
-year: 1956
-opening_date: 1956-09-05
+date: 1956-09-05
 closing_date: 1956-09-15
 layout: productions
 featured_image: 

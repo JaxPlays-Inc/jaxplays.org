@@ -1,7 +1,6 @@
 ---
 title: The Triumph of Medicine 
-year: 1926
-opening_date: 1926-04-13
+date: 1926-04-13
 closing_date: 1926-04-14
 layout: productions
 featured_image: 

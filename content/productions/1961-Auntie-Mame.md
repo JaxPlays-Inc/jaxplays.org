@@ -1,7 +1,6 @@
 ---
 title: Auntie Mame
-year: 1961
-opening_date: 1961-11-24
+date: 1961-11-24
 closing_date: 1961-12-02
 layout: productions
 featured_image: 

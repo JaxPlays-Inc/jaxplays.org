@@ -1,7 +1,6 @@
 ---
 title: The Pot Boiler
-year: 1923
-opening_date: 1923-12-16
+date: 1923-12-16
 closing_date: 
 layout: productions
 featured_image: 

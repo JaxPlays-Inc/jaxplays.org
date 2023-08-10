@@ -1,7 +1,6 @@
 ---
 title: As You Like It
-year: 2013
-opening_date: 2013-08-23
+date: 2013-08-23
 closing_date: 2013-09-08
 layout: productions
 featured_image: 

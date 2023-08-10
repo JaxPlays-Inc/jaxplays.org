@@ -2,8 +2,7 @@
 title: A Funny Thing Happened on the Way To the Forum
 redirect_from:
   - /productions/1999_A_Funny_Thing_Happened_on_the_Way_to_the_Forum
-year: 2000
-opening_date: 2000-06-09
+date: 2000-06-09
 closing_date: 2000-07-01
 layout: productions
 featured_image: 

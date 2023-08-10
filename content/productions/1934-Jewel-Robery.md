@@ -1,7 +1,6 @@
 ---
 title: Jewel Robery
-year: 1934
-opening_date: 1934-04-10
+date: 1934-04-10
 closing_date: 
 layout: productions
 featured_image: 

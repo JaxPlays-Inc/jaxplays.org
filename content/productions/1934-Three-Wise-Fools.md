@@ -1,7 +1,6 @@
 ---
 title: Three Wise Fools
-year: 1934
-opening_date: 1934-11-20
+date: 1934-11-20
 closing_date: 
 layout: productions
 featured_image: 

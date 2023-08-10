@@ -1,7 +1,6 @@
 ---
 title: The Great Sebastians
-year: 1962
-opening_date: 1962-02-23
+date: 1962-02-23
 closing_date: 1962-03-03
 layout: productions
 featured_image: 

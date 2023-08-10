@@ -1,7 +1,6 @@
 ---
 title: Double Door
-year: 1939
-opening_date: 1939-04-11
+date: 1939-04-11
 closing_date: 1939-04-14
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Berkely Square
-year: 1949
-opening_date: 1949-04-08
+date: 1949-04-08
 closing_date: 1949-04-15
 layout: productions
 featured_image: 

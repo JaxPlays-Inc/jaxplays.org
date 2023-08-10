@@ -1,7 +1,6 @@
 ---
 title: Look Homeward Angel
-year: 1988
-opening_date: 1988-09-02
+date: 1988-09-02
 closing_date: 1988-09-17
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Stardust
-year: 1947
-opening_date: 1947-04-11
+date: 1947-04-11
 closing_date: 1947-04-18
 layout: productions
 featured_image: 

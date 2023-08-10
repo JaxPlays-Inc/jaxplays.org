@@ -1,7 +1,6 @@
 ---
 title: The Last of Mrs. Cheyney
-year: 1931
-opening_date: 1931-04-24
+date: 1931-04-24
 closing_date: 1931-04-25
 layout: productions
 featured_image: 

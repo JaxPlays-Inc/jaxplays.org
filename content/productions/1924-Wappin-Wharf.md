@@ -1,7 +1,6 @@
 ---
 title: Wappin'  Wharf
-year: 1924
-opening_date: 1924-11-25
+date: 1924-11-25
 closing_date: 
 layout: productions
 featured_image: 

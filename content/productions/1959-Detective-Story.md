@@ -1,7 +1,6 @@
 ---
 title: Detective Story
-year: 1959
-opening_date: 1959-04-08
+date: 1959-04-08
 closing_date: 1959-04-18
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Tartuffe
-year: 1966
-opening_date: 1966-04-08
+date: 1966-04-08
 closing_date: 1966-04-16
 layout: productions
 featured_image: 

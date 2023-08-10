@@ -1,7 +1,6 @@
 ---
 title: Enter Laughing
-year: 1966
-opening_date: 1966-09-30
+date: 1966-09-30
 closing_date: 1966-10-14
 layout: productions
 featured_image: 

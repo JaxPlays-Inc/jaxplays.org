@@ -1,7 +1,6 @@
 ---
 title: The Paisley Convertible
-year: 1968
-opening_date: 1968-09-20
+date: 1968-09-20
 closing_date: 1968-09-28
 layout: productions
 featured_image: 

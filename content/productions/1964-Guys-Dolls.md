@@ -1,7 +1,6 @@
 ---
 title: Guys & Dolls
-year: 1964
-opening_date: 1964-11-13
+date: 1964-11-13
 closing_date: 1964-11-21
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Women
-year: 1968
-opening_date: 1968-04-05
+date: 1968-04-05
 closing_date: 1968-04-20
 layout: productions
 featured_image: 

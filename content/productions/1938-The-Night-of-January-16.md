@@ -1,7 +1,6 @@
 ---
 title: The Night of January 16
-year: 1938
-opening_date: 1938-03-15
+date: 1938-03-15
 closing_date: 1938-03-17
 layout: productions
 featured_image: 

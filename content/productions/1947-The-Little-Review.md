@@ -1,7 +1,6 @@
 ---
 title: The Little Review
-year: 1947
-opening_date: 1947-04-25
+date: 1947-04-25
 closing_date: 1947-04-27
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Enter Madame
-year: 1931
-opening_date: 1931-02-24
+date: 1931-02-24
 closing_date: 
 layout: productions
 featured_image: 

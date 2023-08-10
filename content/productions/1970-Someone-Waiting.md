@@ -1,7 +1,6 @@
 ---
 title: Someone Waiting
-year: 1970
-opening_date: 1970-11-20
+date: 1970-11-20
 closing_date: 1970-12-05
 layout: productions
 featured_image: 

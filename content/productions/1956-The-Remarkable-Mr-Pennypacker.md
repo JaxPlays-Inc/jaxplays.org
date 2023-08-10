@@ -1,7 +1,6 @@
 ---
 title: The Remarkable Mr. Pennypacker
-year: 1956
-opening_date: 1956-03-14
+date: 1956-03-14
 closing_date: 1956-03-24
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Pippin
-year: 2001
-opening_date: 2001-06-01
+date: 2001-06-01
 closing_date: 2001-07-31
 layout: productions
 featured_image: 

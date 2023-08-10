@@ -1,7 +1,6 @@
 ---
 title: Biloxi Blues
-year: 1991
-opening_date: 1991-02-22
+date: 1991-02-22
 closing_date: 1991-03-02
 layout: productions
 featured_image: 

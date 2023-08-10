@@ -1,7 +1,6 @@
 ---
 title: Steel Magnolias
-year: 1991
-opening_date: 1991-03-22
+date: 1991-03-22
 closing_date: 1991-04-06
 layout: productions
 featured_image: 

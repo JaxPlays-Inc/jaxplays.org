@@ -1,7 +1,6 @@
 ---
 title: Anastasia
-year: 1958
-opening_date: 1958-02-26
+date: 1958-02-26
 closing_date: 1958-03-08
 layout: productions
 featured_image: 

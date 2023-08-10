@@ -1,7 +1,6 @@
 ---
 title: The Little Foxes
-year: 1948
-opening_date: 1948-11-26
+date: 1948-11-26
 closing_date: 1948-12-03
 layout: productions
 featured_image: 

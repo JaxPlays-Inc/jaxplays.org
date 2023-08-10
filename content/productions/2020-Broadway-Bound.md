@@ -3,8 +3,7 @@ layout: productions
 title: Broadway Bound!
 redirect_from:
   - /productions/2020_Broadway_Bound
-year: 2020
-opening_date: 2020-01-24
+date: 2020-01-24
 closing_date: 2020-01-26
 featured_image: 2020_Broadway_Bound.png
 image_credit: 

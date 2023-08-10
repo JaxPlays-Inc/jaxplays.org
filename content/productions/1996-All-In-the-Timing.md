@@ -1,7 +1,6 @@
 ---
 title: All In the Timing
-year: 1996
-opening_date: 1996-04-19
+date: 1996-04-19
 closing_date: 1996-05-05
 layout: productions
 featured_image: 

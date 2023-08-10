@@ -1,7 +1,6 @@
 ---
 title: Wonderful Town
-year: 1968
-opening_date: 1968-11-15
+date: 1968-11-15
 closing_date: 1968-11-23
 layout: productions
 featured_image: 

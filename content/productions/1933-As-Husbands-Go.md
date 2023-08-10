@@ -1,7 +1,6 @@
 ---
 title: As Husbands Go
-year: 1933
-opening_date: 1933-11-14
+date: 1933-11-14
 closing_date: 
 layout: productions
 featured_image: 

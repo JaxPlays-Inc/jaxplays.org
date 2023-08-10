@@ -1,7 +1,6 @@
 ---
 title: Happy Birthday
-year: 1959
-opening_date: 1959-10-02
+date: 1959-10-02
 closing_date: 1959-10-10
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Clarence
-year: 1929
-opening_date: 1929-02-25
+date: 1929-02-25
 closing_date: 
 layout: productions
 featured_image: 

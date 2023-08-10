@@ -1,7 +1,6 @@
 ---
 title: The Damask Cheek
-year: 1945
-opening_date: 1945-04-20
+date: 1945-04-20
 closing_date: 1945-04-28
 layout: productions
 featured_image: 

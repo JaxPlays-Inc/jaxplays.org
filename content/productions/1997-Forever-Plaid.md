@@ -1,7 +1,6 @@
 ---
 title: Forever Plaid
-year: 1997
-opening_date: 1997-11-08
+date: 1997-11-08
 closing_date: 1997-11-23
 layout: productions
 featured_image: 

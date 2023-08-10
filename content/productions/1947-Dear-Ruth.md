@@ -1,7 +1,6 @@
 ---
 title: Dear Ruth
-year: 1947
-opening_date: 1947-10-17
+date: 1947-10-17
 closing_date: 1947-10-24
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Suppressed Desires
-year: 1926
-opening_date: 1926-02-16
+date: 1926-02-16
 closing_date: 
 layout: productions
 featured_image: 

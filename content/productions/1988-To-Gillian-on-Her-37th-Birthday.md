@@ -1,7 +1,6 @@
 ---
 title: To Gillian on Her 37th Birthday
-year: 1988
-opening_date: 1988-03-18
+date: 1988-03-18
 closing_date: 1988-04-02
 layout: productions
 featured_image: 

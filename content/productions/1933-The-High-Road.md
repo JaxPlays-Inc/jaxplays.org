@@ -1,7 +1,6 @@
 ---
 title: The High Road
-year: 1933
-opening_date: 1933-05-09
+date: 1933-05-09
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Glass Menagerie
-year: 2001
-opening_date: 2001-11-02
+date: 2001-11-02
 closing_date: 2001-11-17
 layout: productions
 featured_image: 

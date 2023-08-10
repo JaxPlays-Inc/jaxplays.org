@@ -1,7 +1,6 @@
 ---
 title: Working
-year: 1999
-opening_date: 1999-11-05
+date: 1999-11-05
 closing_date: 1999-11-20
 layout: productions
 featured_image: 

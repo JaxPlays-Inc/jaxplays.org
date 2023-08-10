@@ -1,7 +1,6 @@
 ---
 title: The Subject Was Roses
-year: 1973
-opening_date: 1973-07-20
+date: 1973-07-20
 closing_date: 1973-07-28
 layout: productions
 featured_image: 

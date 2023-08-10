@@ -1,7 +1,6 @@
 ---
 title: Strictly Dishonorable
-year: 1948
-opening_date: 1948-01-16
+date: 1948-01-16
 closing_date: 1948-01-23
 layout: productions
 featured_image: 

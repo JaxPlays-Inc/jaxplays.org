@@ -1,7 +1,6 @@
 ---
 title: Separate Tables
-year: 1962
-opening_date: 1962-04-06
+date: 1962-04-06
 closing_date: 1962-04-14
 layout: productions
 featured_image: 

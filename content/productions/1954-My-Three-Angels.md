@@ -1,7 +1,6 @@
 ---
 title: My Three Angels
-year: 1954
-opening_date: 1954-06-02
+date: 1954-06-02
 closing_date: 1954-06-12
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Lion In Winter
-year: 1970
-opening_date: 1970-02-02
+date: 1970-02-02
 closing_date: 1970-02-28
 layout: productions
 featured_image: 

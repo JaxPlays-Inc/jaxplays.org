@@ -1,7 +1,6 @@
 ---
 title: Post Road
-year: 1936
-opening_date: 1936-11-17
+date: 1936-11-17
 closing_date: 
 layout: productions
 featured_image: 

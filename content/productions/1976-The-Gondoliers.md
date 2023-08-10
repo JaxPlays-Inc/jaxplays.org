@@ -1,7 +1,6 @@
 ---
 title: The Gondoliers
-year: 1976
-opening_date: 1976-05-07
+date: 1976-05-07
 closing_date: 1976-05-22
 layout: productions
 featured_image: 

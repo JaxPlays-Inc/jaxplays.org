@@ -1,7 +1,6 @@
 ---
 title: First Lady
-year: 1952
-opening_date: 1952-10-01
+date: 1952-10-01
 closing_date: 1952-10-11
 layout: productions
 featured_image: 

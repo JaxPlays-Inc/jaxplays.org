@@ -1,7 +1,6 @@
 ---
 title: Dinny and the Witches
-year: 1968
-opening_date: 1968-01-12
+date: 1968-01-12
 closing_date: 1968-01-27
 layout: productions
 featured_image: 

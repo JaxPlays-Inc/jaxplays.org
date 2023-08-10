@@ -1,8 +1,7 @@
 ---
 title: On Borrowed Time
-year: 1944
 month: 02
-opening_date: 1944-02-01
+date: 1944-02-01
 closing_date: 
 layout: productions
 featured_image: 

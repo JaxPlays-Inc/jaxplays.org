@@ -1,7 +1,6 @@
 ---
 title: Gentlemen Prefer Blondes
-year: 1971
-opening_date: 1971-04-08
+date: 1971-04-08
 closing_date: 1971-04-24
 layout: productions
 featured_image: 

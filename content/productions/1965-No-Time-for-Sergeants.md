@@ -1,7 +1,6 @@
 ---
 title: No Time for Sergeants
-year: 1965
-opening_date: 1965-04-02
+date: 1965-04-02
 closing_date: 1965-04-10
 layout: productions
 featured_image: 

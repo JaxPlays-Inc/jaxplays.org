@@ -1,7 +1,6 @@
 ---
 title: Goodbye, But It Doesn't Go Away
-year: 1961
-opening_date: 1961-01-13
+date: 1961-01-13
 closing_date: 1961-01-21
 layout: productions
 featured_image: 

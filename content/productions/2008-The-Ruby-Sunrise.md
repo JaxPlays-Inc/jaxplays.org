@@ -1,7 +1,6 @@
 ---
 title: The Ruby Sunrise
-year: 2008
-opening_date: 2008-02-29
+date: 2008-02-29
 closing_date: 2008-03-15
 layout: productions
 featured_image: 

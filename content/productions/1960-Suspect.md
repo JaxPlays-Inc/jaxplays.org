@@ -1,7 +1,6 @@
 ---
 title: Suspect
-year: 1960
-opening_date: 1960-01-15
+date: 1960-01-15
 closing_date: 1960-01-23
 layout: productions
 featured_image: 

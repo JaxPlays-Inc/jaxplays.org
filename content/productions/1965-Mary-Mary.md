@@ -1,7 +1,6 @@
 ---
 title: Mary, Mary
-year: 1965
-opening_date: 1965-09-24
+date: 1965-09-24
 closing_date: 1965-10-02
 layout: productions
 featured_image: 

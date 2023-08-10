@@ -1,7 +1,6 @@
 ---
 title: Trilby
-year: 1928
-opening_date: 1928-10-18
+date: 1928-10-18
 closing_date: 
 layout: productions
 featured_image: 

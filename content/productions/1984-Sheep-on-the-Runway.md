@@ -1,7 +1,6 @@
 ---
 title: Sheep on the Runway
-year: 1984
-opening_date: 1984-01-27
+date: 1984-01-27
 closing_date: 1984-02-11
 layout: productions
 featured_image: 

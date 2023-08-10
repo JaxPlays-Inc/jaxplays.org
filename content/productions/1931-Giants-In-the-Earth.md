@@ -1,7 +1,6 @@
 ---
 title: Giants In the Earth
-year: 1931
-opening_date: 1931-03-17
+date: 1931-03-17
 closing_date: 
 layout: productions
 featured_image: 

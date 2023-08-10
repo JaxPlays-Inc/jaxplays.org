@@ -1,7 +1,6 @@
 ---
 title: Tons of Money
-year: 1928
-opening_date: 1928-04-24
+date: 1928-04-24
 closing_date: 1928-04-25
 layout: productions
 featured_image: 

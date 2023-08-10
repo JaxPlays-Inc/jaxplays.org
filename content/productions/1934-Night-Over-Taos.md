@@ -1,7 +1,6 @@
 ---
 title: Night Over Taos
-year: 1934
-opening_date: 1934-03-27
+date: 1934-03-27
 closing_date: 
 layout: productions
 featured_image: 

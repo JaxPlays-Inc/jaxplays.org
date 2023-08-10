@@ -1,7 +1,6 @@
 ---
 title: On Golden Pond
-year: 1983
-opening_date: 1983-03-11
+date: 1983-03-11
 closing_date: 1983-03-26
 layout: productions
 featured_image: 

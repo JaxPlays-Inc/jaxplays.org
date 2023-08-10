@@ -1,7 +1,6 @@
 ---
 title: Chicago
-year: 1984
-opening_date: 1984-10-05
+date: 1984-10-05
 closing_date: 1984-10-20
 layout: productions
 featured_image: 

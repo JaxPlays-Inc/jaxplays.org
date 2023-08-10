@@ -1,7 +1,6 @@
 ---
 title: Deathtrap
-year: 1984
-opening_date: 1984-04-06
+date: 1984-04-06
 closing_date: 1984-04-21
 layout: productions
 featured_image: 

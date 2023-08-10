@@ -1,7 +1,6 @@
 ---
 title: Call Me Madam
-year: 1968
-opening_date: 1968-07-18
+date: 1968-07-18
 closing_date: 1968-07-27
 layout: productions
 featured_image: 

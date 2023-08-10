@@ -1,7 +1,6 @@
 ---
 title: The Tavern
-year: 1947
-opening_date: 1947-01-17
+date: 1947-01-17
 closing_date: 1947-01-24
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Squall
-year: 1934
-opening_date: 1934-12-20
+date: 1934-12-20
 closing_date: 
 layout: productions
 featured_image: 

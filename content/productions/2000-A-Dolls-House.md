@@ -1,7 +1,6 @@
 ---
 title: A Doll's House
-year: 2000
-opening_date: 2000-01-14
+date: 2000-01-14
 closing_date: 2000-01-29
 layout: productions
 featured_image: 

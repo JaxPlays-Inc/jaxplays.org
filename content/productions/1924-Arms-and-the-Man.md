@@ -1,7 +1,6 @@
 ---
 title: Arms and the Man
-year: 1924
-opening_date: 
+date: 1924
 closing_date: 
 layout: productions
 featured_image: 

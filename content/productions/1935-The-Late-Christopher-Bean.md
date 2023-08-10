@@ -1,7 +1,6 @@
 ---
 title: The Late Christopher Bean
-year: 1935
-opening_date: 1935-11-11
+date: 1935-11-11
 closing_date:
 layout: productions
 featured_image: 

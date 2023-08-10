@@ -1,7 +1,6 @@
 ---
 title: Laura
-year: 1952
-opening_date: 1952-11-12
+date: 1952-11-12
 closing_date: 1952-11-22
 layout: productions
 featured_image: 

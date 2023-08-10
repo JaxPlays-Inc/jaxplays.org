@@ -1,7 +1,6 @@
 ---
 title: The Show-Off
-year: 1927
-opening_date: 1927-11-22
+date: 1927-11-22
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Servant In the House
-year: 1927
-opening_date: 1927-03-15
+date: 1927-03-15
 closing_date: 1927-03-16
 layout: productions
 featured_image: 

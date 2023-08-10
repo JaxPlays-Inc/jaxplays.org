@@ -1,7 +1,6 @@
 ---
 title: Kindling
-year: 1932
-opening_date: 1932-03-29
+date: 1932-03-29
 closing_date: 
 layout: productions
 featured_image: 

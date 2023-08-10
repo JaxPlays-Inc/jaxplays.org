@@ -1,7 +1,6 @@
 ---
 title: The Bees and the Flowers
-year: 1950
-opening_date: 1950-01-13
+date: 1950-01-13
 closing_date: 1950-01-21
 layout: productions
 featured_image: 

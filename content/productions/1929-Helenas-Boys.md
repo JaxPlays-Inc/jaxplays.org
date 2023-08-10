@@ -1,7 +1,6 @@
 ---
 title: Helena's Boys
-year: 1929
-opening_date: 1929-11-12
+date: 1929-11-12
 closing_date: 
 layout: productions
 featured_image: 

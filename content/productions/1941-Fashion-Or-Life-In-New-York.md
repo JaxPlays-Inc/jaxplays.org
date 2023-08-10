@@ -1,7 +1,6 @@
 ---
 title: Fashion Or Life In New York
-year: 1941
-opening_date: 1941-03-11
+date: 1941-03-11
 closing_date: 1941-03-14
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Holiday
-year: 1937
-opening_date: 1937-03-10
+date: 1937-03-10
 closing_date: 
 layout: productions
 featured_image: 

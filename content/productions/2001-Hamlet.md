@@ -1,7 +1,6 @@
 ---
 title: Hamlet
-year: 2001
-opening_date: 2001-09-01
+date: 2001-09-01
 closing_date:
 layout: productions
 featured_image: 

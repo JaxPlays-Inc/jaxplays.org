@@ -1,7 +1,6 @@
 ---
 title: The Taming of the Shrew
-year: 1997
-opening_date: 1997-09-01
+date: 1997-09-01
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Shadow Box
-year: 1985
-opening_date: 1985-01-25
+date: 1985-01-25
 closing_date: 1985-02-09
 layout: productions
 featured_image: 

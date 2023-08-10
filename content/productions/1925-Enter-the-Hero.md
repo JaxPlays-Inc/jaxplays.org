@@ -1,7 +1,6 @@
 ---
 title: Enter the Hero
-year: 1925
-opening_date: 1925-02-24
+date: 1925-02-24
 closing_date:
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Blythe Spirit
-year: 1945
-opening_date: 1945-10-19
+date: 1945-10-19
 closing_date: 1945-10-26
 layout: productions
 featured_image: 

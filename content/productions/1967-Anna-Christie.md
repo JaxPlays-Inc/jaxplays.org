@@ -1,7 +1,6 @@
 ---
 title: Anna Christie
-year: 1967
-opening_date: 1967-01-21
+date: 1967-01-21
 closing_date: 1967-01-28
 layout: productions
 featured_image: 

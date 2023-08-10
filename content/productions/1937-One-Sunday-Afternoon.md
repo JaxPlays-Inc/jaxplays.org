@@ -1,7 +1,6 @@
 ---
 title: One Sunday Afternoon
-year: 1937
-opening_date: 1937-02-09
+date: 1937-02-09
 closing_date: 
 layout: productions
 featured_image: 

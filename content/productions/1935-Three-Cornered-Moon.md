@@ -1,7 +1,6 @@
 ---
 title: Three-Cornered Moon
-year: 1935
-opening_date: 1935-04-16
+date: 1935-04-16
 closing_date: 
 layout: productions
 featured_image: 

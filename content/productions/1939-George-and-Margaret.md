@@ -1,7 +1,6 @@
 ---
 title: George and Margaret
-year: 1939
-opening_date: 1939-03-21
+date: 1939-03-21
 closing_date: 1939-03-24
 layout: productions
 featured_image: 

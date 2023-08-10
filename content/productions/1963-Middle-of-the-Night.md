@@ -1,7 +1,6 @@
 ---
 title: Middle of the Night
-year: 1963
-opening_date: 1963-01-10
+date: 1963-01-10
 closing_date: 1963-01-19
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The House of Blue Leaves
-year: 1989
-opening_date: 1989-01-03
+date: 1989-01-03
 closing_date: 1989-01-18
 layout: productions
 featured_image: 

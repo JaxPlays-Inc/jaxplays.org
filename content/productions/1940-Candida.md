@@ -1,7 +1,6 @@
 ---
 title: Candida
-year: 1940
-opening_date: 1940-05-07
+date: 1940-05-07
 closing_date: 1940-05-10
 layout: productions
 featured_image: 

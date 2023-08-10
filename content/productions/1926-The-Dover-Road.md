@@ -1,7 +1,6 @@
 ---
 title: The Dover Road
-year: 1926
-opening_date: 1926-12-16
+date: 1926-12-16
 closing_date: 1926-12-17
 layout: productions
 featured_image: 

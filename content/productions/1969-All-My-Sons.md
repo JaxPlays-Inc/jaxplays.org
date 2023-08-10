@@ -1,7 +1,6 @@
 ---
 title: All My Sons
-year: 1969
-opening_date: 1969-02-21
+date: 1969-02-21
 closing_date: 1969-03-01
 layout: productions
 featured_image: 

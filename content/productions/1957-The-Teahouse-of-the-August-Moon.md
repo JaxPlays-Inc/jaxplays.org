@@ -1,7 +1,6 @@
 ---
 title: The Teahouse of the August Moon
-year: 1957
-opening_date: 1957-09-25
+date: 1957-09-25
 closing_date: 1957-10-05
 layout: productions
 featured_image: 

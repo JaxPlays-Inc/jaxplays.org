@@ -1,7 +1,6 @@
 ---
 title: The Littlest Rebel
-year: 1936
-opening_date: 1936-02-04
+date: 1936-02-04
 closing_date: 
 layout: productions
 featured_image: 

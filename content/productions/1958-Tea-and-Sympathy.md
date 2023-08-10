@@ -1,7 +1,6 @@
 ---
 title: Tea and Sympathy
-year: 1958
-opening_date: 1958-11-12
+date: 1958-11-12
 closing_date: 1958-11-22
 layout: productions
 featured_image: 

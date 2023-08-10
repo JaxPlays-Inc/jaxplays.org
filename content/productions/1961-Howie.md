@@ -1,7 +1,6 @@
 ---
 title: Howie
-year: 1961
-opening_date: 1961-05-26
+date: 1961-05-26
 closing_date: 1961-06-03
 layout: productions
 featured_image: 

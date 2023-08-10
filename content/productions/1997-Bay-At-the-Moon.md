@@ -1,7 +1,6 @@
 ---
 title: Bay At the Moon
-year: 1997
-opening_date: 1997-01-17
+date: 1997-01-17
 closing_date: 1997-02-02
 layout: productions
 featured_image: 

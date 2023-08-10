@@ -1,7 +1,6 @@
 ---
 title: Night Must Fall
-year: 1965
-opening_date: 1965-01-08
+date: 1965-01-08
 closing_date: 1965-01-16
 layout: productions
 featured_image: 

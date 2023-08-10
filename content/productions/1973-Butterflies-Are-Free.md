@@ -1,7 +1,6 @@
 ---
 title: Butterflies Are Free
-year: 1973
-opening_date: 1973-05-04
+date: 1973-05-04
 closing_date: 1973-05-19
 layout: productions
 featured_image: 

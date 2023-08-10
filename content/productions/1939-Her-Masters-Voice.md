@@ -1,7 +1,6 @@
 ---
 title: Her Master's Voice
-year: 1939
-opening_date: 1939-01-17
+date: 1939-01-17
 closing_date: 1939-01-20
 layout: productions
 featured_image: 

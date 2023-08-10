@@ -1,7 +1,6 @@
 ---
 title: Lost Horizon
-year: 1951
-opening_date: 1951-04-13
+date: 1951-04-13
 closing_date: 1951-04-21
 layout: productions
 featured_image: 

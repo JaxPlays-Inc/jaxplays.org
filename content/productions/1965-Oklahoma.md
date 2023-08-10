@@ -1,7 +1,6 @@
 ---
 title: Oklahoma
-year: 1965
-opening_date: 1965-07-15
+date: 1965-07-15
 closing_date: 1965-07-30
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Room Service
-year: 1949
-opening_date: 1949-02-25
+date: 1949-02-25
 closing_date: 1949-03-04
 layout: productions
 featured_image: 

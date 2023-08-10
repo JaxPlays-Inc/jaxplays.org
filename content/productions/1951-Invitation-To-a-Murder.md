@@ -1,7 +1,6 @@
 ---
 title: Invitation To a Murder
-year: 1951
-opening_date: 1951-03-02
+date: 1951-03-02
 closing_date: 1951-03-10
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Arsenic and Old Lace
-year: 1979
-opening_date: 1979-05-11
+date: 1979-05-11
 closing_date: 1979-05-26
 layout: productions
 featured_image: 

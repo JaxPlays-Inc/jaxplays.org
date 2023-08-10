@@ -1,7 +1,6 @@
 ---
 title: Much Ado About Nothing
-year: 1995
-opening_date: 1995-09-14
+date: 1995-09-14
 closing_date: 1995-09-23
 layout: productions
 featured_image: 

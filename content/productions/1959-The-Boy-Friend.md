@@ -1,7 +1,6 @@
 ---
 title: The Boy Friend
-year: 1959
-opening_date: 1959-11-20
+date: 1959-11-20
 closing_date: 1959-11-28
 layout: productions
 featured_image: 

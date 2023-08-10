@@ -3,8 +3,7 @@ layout: productions
 title: Small Mouth Sounds
 redirect_from:
   - /productions/2019_Small_Mouth_Sounds
-year: 2019
-opening_date: 2019-04-19
+date: 2019-04-19
 closing_date: 2019-05-05
 featured_image: 2019_Small_Mouth_Sounds.webp
 image_credit: 

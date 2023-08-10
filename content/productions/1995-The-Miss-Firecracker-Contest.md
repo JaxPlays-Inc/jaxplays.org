@@ -1,7 +1,6 @@
 ---
 title: The Miss Firecracker Contest
-year: 1995
-opening_date: 1995-11-03
+date: 1995-11-03
 closing_date: 1995-11-19
 layout: productions
 featured_image: 

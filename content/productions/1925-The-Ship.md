@@ -1,7 +1,6 @@
 ---
 title: The Ship
-year: 1925
-opening_date: 1925-12-15
+date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions
 featured_image: 

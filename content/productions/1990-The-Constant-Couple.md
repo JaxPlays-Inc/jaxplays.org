@@ -1,7 +1,6 @@
 ---
 title: The Constant Couple
-year: 1990
-opening_date: 1990-03-30
+date: 1990-03-30
 closing_date: 1990-04-14
 layout: productions
 featured_image: 

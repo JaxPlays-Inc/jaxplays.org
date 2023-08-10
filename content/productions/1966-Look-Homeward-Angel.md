@@ -1,7 +1,6 @@
 ---
 title: Look Homeward, Angel
-year: 1966
-opening_date: 1966-05-20
+date: 1966-05-20
 closing_date: 1966-05-28
 layout: productions
 featured_image: 

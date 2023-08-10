@@ -1,7 +1,6 @@
 ---
 title: Much Ado About Nothing
-year: 2006
-opening_date: 2006-09-15
+date: 2006-09-15
 closing_date: 2006-10-07
 layout: productions
 featured_image: 

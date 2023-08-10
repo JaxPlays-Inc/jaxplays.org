@@ -1,7 +1,6 @@
 ---
 title: Where But In America
-year: 1929
-opening_date: 1929-05-15
+date: 1929-05-15
 closing_date: 
 layout: productions
 featured_image: 

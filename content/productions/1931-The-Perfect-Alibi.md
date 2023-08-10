@@ -1,7 +1,6 @@
 ---
 title: The Perfect Alibi
-year: 1931
-opening_date: 1931-01-13
+date: 1931-01-13
 closing_date: 
 layout: productions
 featured_image: 

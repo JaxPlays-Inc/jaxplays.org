@@ -1,7 +1,6 @@
 ---
 title: State of the Union
-year: 1946
-opening_date: 1946-10-18
+date: 1946-10-18
 closing_date: 1946-10-25
 layout: productions
 featured_image: 

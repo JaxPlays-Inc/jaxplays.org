@@ -1,7 +1,6 @@
 ---
 title: High Ground
-year: 1954
-opening_date: 1954-10-27
+date: 1954-10-27
 closing_date: 1954-11-06
 layout: productions
 featured_image: 

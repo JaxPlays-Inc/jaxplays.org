@@ -1,7 +1,6 @@
 ---
 title: Personal Appearance
-year: 1938
-opening_date: 1938-05-10
+date: 1938-05-10
 closing_date: 1938-05-12
 layout: productions
 featured_image: 

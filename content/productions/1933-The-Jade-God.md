@@ -1,7 +1,6 @@
 ---
 title: The Jade God
-year: 1933
-opening_date: 1933-02-14
+date: 1933-02-14
 closing_date: 
 layout: productions
 featured_image: 

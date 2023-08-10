@@ -1,7 +1,6 @@
 ---
 title: The Man of Destiny
-year: 1924
-opening_date: 1924-02-25
+date: 1924-02-25
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Angel Street
-year: 1978
-opening_date: 1978-03-17
+date: 1978-03-17
 closing_date: 1978-04-01
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: My Sister Eileen
-year: 1980
-opening_date: 1980-05-02
+date: 1980-05-02
 closing_date: 1980-05-07
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Carousel
-year: 1970
-opening_date: 1970-10-08
+date: 1970-10-08
 closing_date: 1970-10-24
 layout: productions
 featured_image: 

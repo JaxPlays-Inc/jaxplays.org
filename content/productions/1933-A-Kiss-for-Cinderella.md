@@ -1,7 +1,6 @@
 ---
 title: A Kiss for Cinderella
-year: 1933
-opening_date: 1933-05-03
+date: 1933-05-03
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Flattering Word
-year: 1929
-opening_date: 1929-01-22
+date: 1929-01-22
 closing_date: 
 layout: productions
 featured_image: 

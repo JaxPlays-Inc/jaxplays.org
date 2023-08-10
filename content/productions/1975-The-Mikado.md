@@ -1,7 +1,6 @@
 ---
 title: The Mikado
-year: 1975
-opening_date: 1975-03-21
+date: 1975-03-21
 closing_date: 1975-04-05
 layout: productions
 featured_image: 

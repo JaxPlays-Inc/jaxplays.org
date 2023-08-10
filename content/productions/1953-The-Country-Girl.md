@@ -1,7 +1,6 @@
 ---
 title: The Country Girl
-year: 1953
-opening_date: 1953-05-27
+date: 1953-05-27
 closing_date: 1953-06-06
 layout: productions
 featured_image: 

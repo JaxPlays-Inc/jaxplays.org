@@ -1,7 +1,6 @@
 ---
 title: Third Best Sport
-year: 1960
-opening_date: 1960-02-26
+date: 1960-02-26
 closing_date: 1960-03-05
 layout: productions
 featured_image: 

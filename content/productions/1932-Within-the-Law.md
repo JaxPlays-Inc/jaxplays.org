@@ -1,7 +1,6 @@
 ---
 title: Within the Law
-year: 1932
-opening_date: 1932-04-29
+date: 1932-04-29
 closing_date: 
 layout: productions
 featured_image: 

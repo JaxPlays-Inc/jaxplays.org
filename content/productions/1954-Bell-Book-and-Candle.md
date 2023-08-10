@@ -1,7 +1,6 @@
 ---
 title: Bell, Book, and Candle
-year: 1954
-opening_date: 1954-01-13
+date: 1954-01-13
 closing_date: 1954-01-23
 layout: productions
 featured_image: 

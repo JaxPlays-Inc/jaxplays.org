@@ -1,7 +1,6 @@
 ---
 title: Accent on Youth
-year: 1937
-opening_date: 1937-01-12
+date: 1937-01-12
 closing_date: 
 layout: productions
 featured_image: 

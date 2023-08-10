@@ -1,7 +1,6 @@
 ---
 title: Paint Your Wagon
-year: 1992
-opening_date: 1992-06-04
+date: 1992-06-04
 closing_date: 1992-06-14
 layout: productions
 featured_image: 

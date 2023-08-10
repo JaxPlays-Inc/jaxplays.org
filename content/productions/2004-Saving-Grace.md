@@ -1,7 +1,6 @@
 ---
 title: Saving Grace
-year: 2004
-opening_date: 2004-03-05
+date: 2004-03-05
 closing_date: 2004-03-20
 layout: productions
 featured_image: 

@@ -3,8 +3,7 @@ layout: productions
 title: The Young Man from Atlanta
 redirect_from:
   - /productions/2020_The_Young_Man_from_Atlanta
-year: 2020
-opening_date: 2020-01-16
+date: 2020-01-16
 closing_date: 2020-02-09
 featured_image: 
 image_credit: 

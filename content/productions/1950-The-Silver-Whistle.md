@@ -1,7 +1,6 @@
 ---
 title: The Silver Whistle
-year: 1950
-opening_date: 1950-05-19
+date: 1950-05-19
 closing_date: 1950-05-27
 layout: productions
 featured_image: 

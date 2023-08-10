@@ -1,7 +1,6 @@
 ---
 title: A Touch of the Poet
-year: 1989
-opening_date: 1989-12-01
+date: 1989-12-01
 closing_date: 1989-12-16
 layout: productions
 featured_image: 

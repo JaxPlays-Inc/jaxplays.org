@@ -1,7 +1,6 @@
 ---
 title: She Loves Me
-year: 2002
-opening_date: 2002-06-14
+date: 2002-06-14
 closing_date: 2002-06-29
 layout: productions
 featured_image: 

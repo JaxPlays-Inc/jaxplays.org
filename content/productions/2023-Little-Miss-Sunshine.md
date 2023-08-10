@@ -1,7 +1,6 @@
 ---
 title: Little Miss Sunshine
-year: 2023
-opening_date: 2023-05-12
+date: 2023-05-12
 closing_date: 2023-06-04
 layout: productions
 featured_image: 2023_Little_Miss_Sunshine.jpeg

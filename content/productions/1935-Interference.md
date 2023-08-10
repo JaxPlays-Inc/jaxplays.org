@@ -1,7 +1,6 @@
 ---
 title: Interference
-year: 1935
-opening_date: 1935-05-21
+date: 1935-05-21
 closing_date: 
 layout: productions
 featured_image: 

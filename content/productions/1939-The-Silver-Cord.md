@@ -1,7 +1,6 @@
 ---
 title: The Silver Cord
-year: 1939
-opening_date: 1939-12-05
+date: 1939-12-05
 closing_date: 1939-12-08
 layout: productions
 featured_image: 

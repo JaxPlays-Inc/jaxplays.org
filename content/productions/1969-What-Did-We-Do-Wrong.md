@@ -1,7 +1,6 @@
 ---
 title: What Did We Do Wrong
-year: 1969
-opening_date: 1969-09-26
+date: 1969-09-26
 closing_date: 1969-10-04
 layout: productions
 featured_image: 

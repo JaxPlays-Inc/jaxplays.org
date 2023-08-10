@@ -1,7 +1,6 @@
 ---
 title: Bedroom Farce
-year: 1990
-opening_date: 1990-01-26
+date: 1990-01-26
 closing_date: 1990-02-10
 layout: productions
 featured_image: 

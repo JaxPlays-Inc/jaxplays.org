@@ -1,7 +1,6 @@
 ---
 title: The Voice of the Turtle
-year: 1971
-opening_date: 1971-01-08
+date: 1971-01-08
 closing_date: 1971-01-23
 layout: productions
 featured_image: 

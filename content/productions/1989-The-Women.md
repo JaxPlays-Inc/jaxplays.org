@@ -1,7 +1,6 @@
 ---
 title: The Women
-year: 1989
-opening_date: 1989-05-19
+date: 1989-05-19
 closing_date: 1989-06-03
 layout: productions
 featured_image: 

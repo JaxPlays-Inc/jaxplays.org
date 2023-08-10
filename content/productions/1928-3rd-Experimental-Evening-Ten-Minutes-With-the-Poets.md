@@ -1,7 +1,6 @@
 ---
 title: 3rd Experimental Evening - Ten Minutes With the Poets
-year: 1928
-opening_date: 1928-02-07
+date: 1928-02-07
 closing_date: 
 layout: productions
 featured_image: 

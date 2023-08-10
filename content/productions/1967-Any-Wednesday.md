@@ -1,7 +1,6 @@
 ---
 title: Any Wednesday
-year: 1967
-opening_date: 1967-09-29
+date: 1967-09-29
 closing_date: 1967-10-14
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Icebound
-year: 1934
-opening_date: 1934-03-13
+date: 1934-03-13
 closing_date: 
 layout: productions
 featured_image: 

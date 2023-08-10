@@ -1,7 +1,6 @@
 ---
 title: Beyond the Horizon
-year: 1941
-opening_date: 1941-04-08
+date: 1941-04-08
 closing_date: 1941-04-11
 layout: productions
 featured_image: 

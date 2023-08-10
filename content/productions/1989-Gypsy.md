@@ -1,7 +1,6 @@
 ---
 title: Gypsy
-year: 1989
-opening_date: 1989-10-06
+date: 1989-10-06
 closing_date: 1989-10-21
 layout: productions
 featured_image: 

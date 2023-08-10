@@ -1,7 +1,6 @@
 ---
 title: Cat on a Hot Tin Roof
-year: 1971
-opening_date: 1971-01-14
+date: 1971-01-14
 closing_date: 1971-01-29
 layout: productions
 featured_image: 

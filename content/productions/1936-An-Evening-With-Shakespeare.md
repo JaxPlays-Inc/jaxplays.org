@@ -1,7 +1,6 @@
 ---
 title: An Evening With Shakespeare
-year: 1936
-opening_date: 1936-05-12
+date: 1936-05-12
 closing_date: 
 layout: productions
 featured_image: 

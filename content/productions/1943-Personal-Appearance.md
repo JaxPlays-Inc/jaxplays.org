@@ -1,8 +1,7 @@
 ---
 title: Personal Appearance
-year: 1943
 month: 10
-opening_date: 1943-10-01
+date: 1943-10-01
 closing_date:
 layout: productions
 featured_image: 

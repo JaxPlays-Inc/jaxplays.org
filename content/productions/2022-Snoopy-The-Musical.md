@@ -3,8 +3,7 @@ layout: productions
 title: Snoopy! The Musical
 redirect_from:
   - /productions/2022_Snoopy_The_Musical
-year: 2022
-opening_date: 2022-07-22
+date: 2022-07-22
 closing_date: 2022-07-31
 featured_image: 2022_Snoopy_the_Musical.jpg
 image_credit: ABET

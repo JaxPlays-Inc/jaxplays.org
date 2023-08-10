@@ -1,7 +1,6 @@
 ---
 title: The Shop At Sly Corner
-year: 1959
-opening_date: 1959-01-14
+date: 1959-01-14
 closing_date: 1959-01-24
 layout: productions
 featured_image: 

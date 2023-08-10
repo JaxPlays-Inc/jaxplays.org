@@ -1,7 +1,6 @@
 ---
 title: Side By Side By Sondheim
-year: 1984
-opening_date: 1984-05-11
+date: 1984-05-11
 closing_date: 1984-05-26
 layout: productions
 featured_image: 

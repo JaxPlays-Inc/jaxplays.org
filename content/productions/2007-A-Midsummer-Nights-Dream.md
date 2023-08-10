@@ -1,7 +1,6 @@
 ---
 title: A Midsummer Night's Dream
-year: 2007
-opening_date: 2007-09-14
+date: 2007-09-14
 closing_date: 2007-10-06
 layout: productions
 featured_image: 

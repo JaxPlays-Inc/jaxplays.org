@@ -1,7 +1,6 @@
 ---
 title: Light Up the Sky
-year: 1949
-opening_date: 1949-10-14
+date: 1949-10-14
 closing_date: 1949-10-22
 layout: productions
 featured_image: 

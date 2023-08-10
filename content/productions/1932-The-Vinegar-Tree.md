@@ -1,7 +1,6 @@
 ---
 title: The Vinegar Tree
-year: 1932
-opening_date: 1932-11-15
+date: 1932-11-15
 closing_date: 
 layout: productions
 featured_image: 

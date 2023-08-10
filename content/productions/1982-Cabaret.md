@@ -1,7 +1,6 @@
 ---
 title: Cabaret
-year: 1982
-opening_date: 1982-10-01
+date: 1982-10-01
 closing_date: 1982-10-16
 layout: productions
 featured_image: 

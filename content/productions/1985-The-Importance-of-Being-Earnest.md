@@ -1,7 +1,6 @@
 ---
 title: The Importance of Being Earnest
-year: 1985
-opening_date: 1985-10-10
+date: 1985-10-10
 closing_date: 1985-10-25
 layout: productions
 featured_image: 

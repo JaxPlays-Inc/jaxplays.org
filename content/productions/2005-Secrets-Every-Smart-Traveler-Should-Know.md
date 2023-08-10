@@ -1,7 +1,6 @@
 ---
 title: Secrets Every Smart Traveler Should Know
-year: 2005
-opening_date: 2005-11-04
+date: 2005-11-04
 closing_date: 2005-11-19
 layout: productions
 featured_image: 

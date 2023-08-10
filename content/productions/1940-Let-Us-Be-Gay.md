@@ -1,7 +1,6 @@
 ---
 title: Let Us Be Gay
-year: 1940
-opening_date: 1940-10-08
+date: 1940-10-08
 closing_date: 1940-10-11
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Desert Song
-year: 1980
-opening_date: 1980-10-10
+date: 1980-10-10
 closing_date: 1980-10-25
 layout: productions
 featured_image: 

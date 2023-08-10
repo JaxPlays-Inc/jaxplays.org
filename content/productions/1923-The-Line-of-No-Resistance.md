@@ -1,7 +1,6 @@
 ---
 title: The Line of No Resistance
-year: 1923
-opening_date: 1923-11-24
+date: 1923-11-24
 closing_date: 
 layout: productions
 featured_image: 

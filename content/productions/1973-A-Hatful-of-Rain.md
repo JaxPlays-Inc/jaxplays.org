@@ -1,7 +1,6 @@
 ---
 title: A Hatful of Rain
-year: 1973
-opening_date: 1973-01-19
+date: 1973-01-19
 closing_date: 1973-02-03
 layout: productions
 featured_image: 

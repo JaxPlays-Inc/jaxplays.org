@@ -3,8 +3,7 @@ layout: productions
 title: Lessons We Were Never Taught
 redirect_from:
   - /productions/2020_Lessons_We_Were_Never_Taught
-year: 2020
-opening_date: 2020-03-05
+date: 2020-03-05
 closing_date: 2020-03-08
 featured_image: 2020_Lessons_We_Were_Never_Taught.jpg
 image_credit: 

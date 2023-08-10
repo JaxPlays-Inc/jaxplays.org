@@ -1,7 +1,6 @@
 ---
 title: The Trial of Mary Dugan
-year: 1931
-opening_date: 1931-11-10
+date: 1931-11-10
 closing_date: 
 layout: productions
 featured_image: 

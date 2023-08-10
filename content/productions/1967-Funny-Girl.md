@@ -1,7 +1,6 @@
 ---
 title: Funny Girl
-year: 1967
-opening_date: 1967-11-24
+date: 1967-11-24
 closing_date: 1967-12-09
 layout: productions
 featured_image: 

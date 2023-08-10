@@ -1,7 +1,6 @@
 ---
 title: Cabaret
-year: 1984
-opening_date: 1984-07-06
+date: 1984-07-06
 closing_date: 1984-07-28
 layout: productions
 featured_image: 

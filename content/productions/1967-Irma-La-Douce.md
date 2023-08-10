@@ -1,7 +1,6 @@
 ---
 title: Irma La Douce
-year: 1967
-opening_date: 1967-05-19
+date: 1967-05-19
 closing_date: 1967-06-10
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Goose Hangs High
-year: 1927
-opening_date: 1927-12-20
+date: 1927-12-20
 closing_date: 
 layout: productions
 featured_image: 

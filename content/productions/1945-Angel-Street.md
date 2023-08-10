@@ -1,7 +1,6 @@
 ---
 title: Angel Street
-year: 1945
-opening_date: 1945-03-02
+date: 1945-03-02
 closing_date: 1945-03-11
 layout: productions
 featured_image: 

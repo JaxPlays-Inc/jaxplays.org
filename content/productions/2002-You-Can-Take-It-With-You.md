@@ -1,7 +1,6 @@
 ---
 title: You Can't Take It With You
-year: 2002
-opening_date: 2002-03-08
+date: 2002-03-08
 closing_date: 2002-03-23
 layout: productions
 featured_image: 

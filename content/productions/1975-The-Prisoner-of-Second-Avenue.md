@@ -1,7 +1,6 @@
 ---
 title: The Prisoner of Second Avenue
-year: 1975
-opening_date: 1975-11-28
+date: 1975-11-28
 closing_date: 1975-12-13
 layout: productions
 featured_image: 

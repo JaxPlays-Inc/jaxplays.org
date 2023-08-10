@@ -1,8 +1,7 @@
 ---
 layout: productions
 title: Photograph 51
-year: 2019
-opening_date: 2019-01-25
+date: 2019-01-25
 closing_date: 2019-01-26
 image_credit: 
 image_alt:

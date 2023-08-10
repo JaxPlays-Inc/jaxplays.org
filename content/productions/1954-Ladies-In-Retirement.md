@@ -1,7 +1,6 @@
 ---
 title: Ladies in Retirement
-year: 1954
-opening_date: 1954-04-21
+date: 1954-04-21
 closing_date: 1954-05-01
 layout: productions
 featured_image: 

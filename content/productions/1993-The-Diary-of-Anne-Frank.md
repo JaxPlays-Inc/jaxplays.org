@@ -1,7 +1,6 @@
 ---
 title: The Diary of Anne Frank
-year: 1993
-opening_date: 1993-02-19
+date: 1993-02-19
 closing_date: 1993-02-27
 layout: productions
 featured_image: 

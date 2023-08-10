@@ -1,7 +1,6 @@
 ---
 title: Into the Woods
-year: 1996
-opening_date: 1996-06-07
+date: 1996-06-07
 closing_date: 1996-06-23
 layout: productions
 featured_image: 

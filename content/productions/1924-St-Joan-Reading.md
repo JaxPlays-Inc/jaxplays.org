@@ -1,7 +1,6 @@
 ---
 title: St. Joan (Reading)
-year: 1924
-opening_date: 1924-11-13
+date: 1924-11-13
 closing_date: 
 layout: productions
 featured_image: 

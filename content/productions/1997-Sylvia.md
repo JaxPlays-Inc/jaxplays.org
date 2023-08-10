@@ -1,7 +1,6 @@
 ---
 title: Sylvia
-year: 1997
-opening_date: 1997-04-18
+date: 1997-04-18
 closing_date: 1997-05-04
 layout: productions
 featured_image: 

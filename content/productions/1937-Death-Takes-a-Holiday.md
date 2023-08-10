@@ -1,7 +1,6 @@
 ---
 title: Death Takes a Holiday
-year: 1937
-opening_date: 1937-05-25
+date: 1937-05-25
 closing_date: 
 layout: productions
 featured_image: 

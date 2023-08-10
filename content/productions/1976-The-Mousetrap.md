@@ -1,7 +1,6 @@
 ---
 title: The Mousetrap
-year: 1976
-opening_date: 1976-03-12
+date: 1976-03-12
 closing_date: 1976-03-27
 layout: productions
 featured_image: 

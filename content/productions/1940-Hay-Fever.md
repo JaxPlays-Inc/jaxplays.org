@@ -1,7 +1,6 @@
 ---
 title: Hay Fever
-year: 1940
-opening_date: 1940-03-05
+date: 1940-03-05
 closing_date: 1940-03-08
 layout: productions
 featured_image: 

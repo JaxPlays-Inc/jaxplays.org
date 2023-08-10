@@ -1,7 +1,6 @@
 ---
 title: The Little Foxes
-year: 2001
-opening_date: 2001-01-01
+date: 2001-01-01
 closing_date: 
 layout: productions
 featured_image: 

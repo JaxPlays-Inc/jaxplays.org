@@ -1,7 +1,6 @@
 ---
 title: Doonsbury
-year: 1988
-opening_date: 1988-10-07
+date: 1988-10-07
 closing_date: 1988-10-22
 layout: productions
 featured_image: 

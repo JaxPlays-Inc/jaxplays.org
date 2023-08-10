@@ -1,7 +1,6 @@
 ---
 title: Blithe Spirit
-year: 1995
-opening_date: 1995-03-03
+date: 1995-03-03
 closing_date: 1995-03-18
 layout: productions
 featured_image: 

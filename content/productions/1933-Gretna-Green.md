@@ -1,7 +1,6 @@
 ---
 title: Gretna Green
-year: 1933
-opening_date: 1933-04-18
+date: 1933-04-18
 closing_date: 
 layout: productions
 featured_image: 

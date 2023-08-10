@@ -1,8 +1,7 @@
 ---
 title: Our Town
-year: 1943
 month: 03
-opening_date: 1943-03-01
+date: 1943-03-01
 closing_date:
 layout: productions
 featured_image: 

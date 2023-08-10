@@ -1,8 +1,7 @@
 ---
 title: My Sister Eileen
-year: 1943
 month: 01
-opening_date: 1943-01-01
+date: 1943-01-01
 closing_date: 
 layout: productions
 featured_image: 

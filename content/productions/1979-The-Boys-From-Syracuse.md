@@ -1,7 +1,6 @@
 ---
 title: The Boys From Syracuse
-year: 1979
-opening_date: 1979-10-05
+date: 1979-10-05
 closing_date: 1979-10-20
 layout: productions
 featured_image: 

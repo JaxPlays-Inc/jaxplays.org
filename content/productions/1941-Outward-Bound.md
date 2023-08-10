@@ -1,7 +1,6 @@
 ---
 title: Outward Bound
-year: 1941
-opening_date: 1941-12-09
+date: 1941-12-09
 closing_date: 1941-12-12
 layout: productions
 featured_image: 

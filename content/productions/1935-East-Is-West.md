@@ -1,7 +1,6 @@
 ---
 title: East Is West
-year: 1935
-opening_date: 1935-01-29
+date: 1935-01-29
 closing_date: 
 layout: productions
 featured_image: 

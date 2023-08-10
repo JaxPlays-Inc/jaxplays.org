@@ -1,7 +1,6 @@
 ---
 title: Aren't We All
-year: 1928
-opening_date: 1928-11-08
+date: 1928-11-08
 closing_date: 1928-11-09
 layout: productions
 featured_image: 

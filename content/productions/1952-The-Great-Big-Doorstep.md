@@ -1,7 +1,6 @@
 ---
 title: The Great Big Doorstep
-year: 1952
-opening_date: 1952-02-29
+date: 1952-02-29
 closing_date: 1952-03-08
 layout: productions
 featured_image: 

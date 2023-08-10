@@ -1,7 +1,6 @@
 ---
 title: The Sound of Music
-year: 1969
-opening_date: 1969-11-14
+date: 1969-11-14
 closing_date: 1969-11-29
 layout: productions
 featured_image: 

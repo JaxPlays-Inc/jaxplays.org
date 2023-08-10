@@ -1,7 +1,6 @@
 ---
 title: Mrs. Bumpstead-Leigh
-year: 1930
-opening_date: 1930-02-11
+date: 1930-02-11
 closing_date: 
 layout: productions
 featured_image: 

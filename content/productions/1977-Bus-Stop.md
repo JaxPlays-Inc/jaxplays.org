@@ -1,7 +1,6 @@
 ---
 title: Bus Stop
-year: 1977
-opening_date: 1977-01-21
+date: 1977-01-21
 closing_date: 1977-02-05
 layout: productions
 featured_image: 

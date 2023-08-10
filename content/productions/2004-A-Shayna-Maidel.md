@@ -1,7 +1,6 @@
 ---
 title: A Shayna Maidel
-year: 2004
-opening_date: 2004-04-23
+date: 2004-04-23
 closing_date: 2004-05-08
 layout: productions
 featured_image: 

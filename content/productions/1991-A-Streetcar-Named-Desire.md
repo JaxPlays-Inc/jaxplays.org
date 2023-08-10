@@ -1,7 +1,6 @@
 ---
 title: A Streetcar Named Desire
-year: 1991
-opening_date: 1991-01-25
+date: 1991-01-25
 closing_date: 1991-02-09
 layout: productions
 featured_image: 

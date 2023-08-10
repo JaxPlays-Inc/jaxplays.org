@@ -1,7 +1,6 @@
 ---
 title: Bernardine
-year: 1955
-opening_date: 1955-03-09
+date: 1955-03-09
 closing_date: 1955-03-19
 layout: productions
 featured_image: 

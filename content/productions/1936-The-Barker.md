@@ -1,7 +1,6 @@
 ---
 title: The Barker
-year: 1936
-opening_date: 1936-12-08
+date: 1936-12-08
 closing_date: 
 layout: productions
 featured_image: 

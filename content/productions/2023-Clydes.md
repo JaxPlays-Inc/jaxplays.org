@@ -1,7 +1,6 @@
 ---
 title: Clyde's
-year: 2023
-opening_date: 2023-06-09
+date: 2023-06-09
 closing_date: 2023-06-17
 layout: productions
 featured_image: 2023_Clydes.png

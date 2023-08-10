@@ -1,7 +1,6 @@
 ---
 title: Over the Tavern
-year: 2006
-opening_date: 2006-11-03
+date: 2006-11-03
 closing_date: 2006-11-16
 layout: productions
 featured_image: 

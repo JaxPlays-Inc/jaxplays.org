@@ -1,7 +1,6 @@
 ---
 title: The Best Little Whorehouse In Texas
-year: 1987
-opening_date: 1987-10-09
+date: 1987-10-09
 closing_date: 1987-10-24
 layout: productions
 featured_image: 

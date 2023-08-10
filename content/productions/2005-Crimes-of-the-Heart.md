@@ -1,7 +1,6 @@
 ---
 title: Crimes of the Heart
-year: 2005
-opening_date: 2005-01-14
+date: 2005-01-14
 closing_date: 2005-01-29
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Portrait In Black
-year: 1950
-opening_date: 1950-04-14
+date: 1950-04-14
 closing_date: 1950-04-22
 layout: productions
 featured_image: 

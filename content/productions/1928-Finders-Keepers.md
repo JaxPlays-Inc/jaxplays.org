@@ -1,7 +1,6 @@
 ---
 title: Finders Keepers
-year: 1928
-opening_date: 1928-01-20
+date: 1928-01-20
 closing_date: 
 layout: productions
 featured_image: 

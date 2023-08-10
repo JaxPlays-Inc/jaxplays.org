@@ -1,7 +1,6 @@
 ---
 title: Who's Afraid of Virginia Woolf?
-year: 1982
-opening_date: 1982-11-26
+date: 1982-11-26
 closing_date: 1982-12-11
 layout: productions
 featured_image: 

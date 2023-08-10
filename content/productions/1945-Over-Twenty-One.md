@@ -1,7 +1,6 @@
 ---
 title: Over Twenty-One
-year: 1945
-opening_date: 1945-01-25
+date: 1945-01-25
 closing_date: 1945-02-03
 layout: productions
 featured_image: 

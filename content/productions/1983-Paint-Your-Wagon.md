@@ -1,7 +1,6 @@
 ---
 title: Paint Your Wagon
-year: 1983
-opening_date: 1983-03-13
+date: 1983-03-13
 closing_date: 1983-03-28
 layout: productions
 featured_image: 

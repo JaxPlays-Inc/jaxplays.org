@@ -1,7 +1,6 @@
 ---
 title: The Trysting Place
-year: 1923
-opening_date: 1923-01-30
+date: 1923-01-30
 closing_date: 
 layout: productions
 featured_image: 

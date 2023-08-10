@@ -1,7 +1,6 @@
 ---
 title: The Imaginary Invalid
-year: 1981
-opening_date: 1981-01-16
+date: 1981-01-16
 closing_date: 1981-01-31
 layout: productions
 featured_image: 

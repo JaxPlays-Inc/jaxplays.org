@@ -1,7 +1,6 @@
 ---
 title: The Man Who Came To Dinner
-year: 1941
-opening_date: 1941-10-14
+date: 1941-10-14
 closing_date: 1941-10-17
 layout: productions
 featured_image: 

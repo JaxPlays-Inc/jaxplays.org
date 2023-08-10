@@ -1,7 +1,6 @@
 ---
 title: The Threepenny Opera
-year: 1965
-opening_date: 1965-05-14
+date: 1965-05-14
 closing_date: 1965-05-22
 layout: productions
 featured_image: 

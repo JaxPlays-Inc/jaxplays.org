@@ -1,7 +1,6 @@
 ---
 title: Applause
-year: 1975
-opening_date: 1975-10-10
+date: 1975-10-10
 closing_date: 1975-10-25
 layout: productions
 featured_image: 

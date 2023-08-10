@@ -1,7 +1,6 @@
 ---
 title: The Crucible
-year: 1954
-opening_date: 1954-03-03
+date: 1954-03-03
 closing_date: 1954-03-13
 layout: productions
 featured_image: 

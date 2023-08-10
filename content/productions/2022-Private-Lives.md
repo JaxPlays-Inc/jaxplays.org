@@ -1,7 +1,6 @@
 ---
 title: Private Lives
-year: 2022
-opening_date: 2022-09-16
+date: 2022-09-16
 closing_date: 2022-10-02
 layout: productions
 featured_image: 2022_Private_Lives.jpeg

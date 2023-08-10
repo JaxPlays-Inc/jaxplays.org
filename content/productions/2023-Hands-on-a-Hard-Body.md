@@ -1,7 +1,6 @@
 ---
 title: Hands on a Hard Body
-year: 2023
-opening_date: 2023-08-11
+date: 2023-08-11
 closing_date: 2023-09-03
 layout: productions
 featured_image: 2023_Hands_on_a_Hard_Body.webp

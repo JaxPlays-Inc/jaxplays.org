@@ -1,7 +1,6 @@
 ---
 title: Day In the Sun
-year: 1941
-opening_date: 1941-02-11
+date: 1941-02-11
 closing_date: 1941-02-14
 layout: productions
 featured_image: 

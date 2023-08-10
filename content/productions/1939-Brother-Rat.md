@@ -1,7 +1,6 @@
 ---
 title: Brother Rat
-year: 1939
-opening_date: 1939-11-14
+date: 1939-11-14
 closing_date: 1939-11-17
 layout: productions
 featured_image: 

@@ -1,8 +1,7 @@
 ---
 layout: productions
 title: Bye Bye Birdie
-year: 2020
-opening_date: 2020-02-27
+date: 2020-02-27
 closing_date: 2020-03-07
 featured_image: 2020_Bye_Bye_Birdie_(musical).jpg
 image_credit: 

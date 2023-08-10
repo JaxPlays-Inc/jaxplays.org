@@ -1,7 +1,6 @@
 ---
 title: Make a Million
-year: 1960
-opening_date: 1960-10-07
+date: 1960-10-07
 closing_date: 1960-10-15
 layout: productions
 featured_image: 

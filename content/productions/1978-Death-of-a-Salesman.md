@@ -1,7 +1,6 @@
 ---
 title: Death of a Salesman
-year: 1978
-opening_date: 1978-01-20
+date: 1978-01-20
 closing_date: 1978-02-04
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Guys & Dolls
-year: 1981
-opening_date: 1981-10-02
+date: 1981-10-02
 closing_date: 1981-10-17
 layout: productions
 featured_image: 

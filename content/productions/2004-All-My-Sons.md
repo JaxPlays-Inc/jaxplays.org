@@ -1,7 +1,6 @@
 ---
 title: All My Sons
-year: 2004
-opening_date: 2004-11-02
+date: 2004-11-02
 closing_date: 2004-11-20
 layout: productions
 featured_image: 

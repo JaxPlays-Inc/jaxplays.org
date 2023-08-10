@@ -1,7 +1,6 @@
 ---
 title: Man of La Mancha
-year: 1990
-opening_date: 1990-06-15
+date: 1990-06-15
 closing_date: 1990-06-24
 layout: productions
 featured_image: 

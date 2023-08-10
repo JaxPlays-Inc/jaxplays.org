@@ -1,7 +1,6 @@
 ---
 title: The Bad Man
-year: 1930
-opening_date: 1930-01-14
+date: 1930-01-14
 closing_date: 
 layout: productions
 featured_image: 

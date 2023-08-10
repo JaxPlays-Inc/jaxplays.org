@@ -1,7 +1,6 @@
 ---
 title: In the Next Room
-year: 1929
-opening_date: 1929-12-10
+date: 1929-12-10
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Riders To the Sea
-year: 1928
-opening_date: 1928-03-20
+date: 1928-03-20
 closing_date: 
 layout: productions
 featured_image: 

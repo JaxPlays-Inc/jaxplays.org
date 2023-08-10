@@ -1,7 +1,6 @@
 ---
 title: The Tender Trap
-year: 1971
-opening_date: 1971-05-21
+date: 1971-05-21
 closing_date: 1971-06-05
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Bishop Misbehaves
-year: 1937
-opening_date: 1937-04-13
+date: 1937-04-13
 closing_date: 1937-04-14
 layout: productions
 featured_image: 

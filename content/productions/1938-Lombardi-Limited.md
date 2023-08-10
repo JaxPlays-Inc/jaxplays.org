@@ -1,7 +1,6 @@
 ---
 title: Lombardi, Limited
-year: 1938
-opening_date: 1938-11-15
+date: 1938-11-15
 closing_date: 1938-11-18
 layout: productions
 featured_image: 

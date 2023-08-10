@@ -1,7 +1,6 @@
 ---
 title: Dearly Departed
-year: 2008
-opening_date: 2008-01-11
+date: 2008-01-11
 closing_date: 2008-01-26
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: A Streetcar Named Desire
-year: 1958
-opening_date: 1958-04-09
+date: 1958-04-09
 closing_date: 1958-04-19
 layout: productions
 featured_image: 

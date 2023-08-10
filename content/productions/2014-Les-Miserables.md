@@ -1,8 +1,7 @@
 ---
 layout: productions
 title: Les Misérables
-year: 2014
-opening_date: 2014-06-06
+date: 2014-06-06
 closing_date: 2014-06-21
 featured_image: 2014_Les_Miserables.webp
 image_credit: 

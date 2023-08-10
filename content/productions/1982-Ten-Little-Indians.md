@@ -1,7 +1,6 @@
 ---
 title: Ten Little Indians
-year: 1982
-opening_date: 1982-03-12
+date: 1982-03-12
 closing_date: 1982-03-27
 layout: productions
 featured_image: 

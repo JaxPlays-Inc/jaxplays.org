@@ -1,7 +1,6 @@
 ---
 title: This Thing Called Love
-year: 1933
-opening_date: 1933-03-14
+date: 1933-03-14
 closing_date: 
 layout: productions
 featured_image: 

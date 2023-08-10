@@ -1,7 +1,6 @@
 ---
 title: Overtones
-year: 1921
-opening_date: 1921-11-08
+date: 1921-11-08
 closing_date: 
 layout: productions
 featured_image: 

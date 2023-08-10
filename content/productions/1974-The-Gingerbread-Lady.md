@@ -1,7 +1,6 @@
 ---
 title: The Gingerbread Lady
-year: 1974
-opening_date: 1974-01-25
+date: 1974-01-25
 closing_date: 1974-02-09
 layout: productions
 featured_image: 

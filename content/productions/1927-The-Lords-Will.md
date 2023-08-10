@@ -1,7 +1,6 @@
 ---
 title: The Lord's Will
-year: 1927
-opening_date: 1927-01-18
+date: 1927-01-18
 closing_date: 1927-01-19
 layout: productions
 featured_image: 

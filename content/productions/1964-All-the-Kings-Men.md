@@ -1,7 +1,6 @@
 ---
 title: All the King's Men
-year: 1964
-opening_date: 1964-04-17
+date: 1964-04-17
 closing_date: 1964-04-25
 layout: productions
 featured_image: 

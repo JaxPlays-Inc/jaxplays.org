@@ -1,7 +1,6 @@
 ---
 title: Visit to a Small Planet
-year: 1958
-opening_date: 1958-10-01
+date: 1958-10-01
 closing_date: 1958-10-11
 layout: productions
 featured_image: 

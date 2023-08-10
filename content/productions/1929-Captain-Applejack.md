@@ -1,7 +1,6 @@
 ---
 title: Captain Applejack
-year: 1929
-opening_date: 1929-04-09
+date: 1929-04-09
 closing_date: 1929-04-11
 layout: productions
 featured_image: 

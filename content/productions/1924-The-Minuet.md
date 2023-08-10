@@ -1,7 +1,6 @@
 ---
 title: The Minuet
-year: 1924
-opening_date: 1924-04-28
+date: 1924-04-28
 closing_date: 
 layout: productions
 featured_image: 

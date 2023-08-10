@@ -1,7 +1,6 @@
 ---
 title: Spider's Web
-year: 1961
-opening_date: 1961-04-14
+date: 1961-04-14
 closing_date: 1961-04-22
 layout: productions
 featured_image: 

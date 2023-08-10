@@ -1,7 +1,6 @@
 ---
 title: The Philadelphia Story
-year: 1946
-opening_date: 1946-01-18
+date: 1946-01-18
 closing_date: 1946-01-25
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Taming of the Shrew
-year: 1964
-opening_date: 1964-02-28
+date: 1964-02-28
 closing_date: 1964-03-07
 layout: productions
 featured_image: 

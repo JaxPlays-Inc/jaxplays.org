@@ -1,7 +1,6 @@
 ---
 title: How He Lied To Her Husband
-year: 1926
-opening_date: 1926-11-16
+date: 1926-11-16
 closing_date: 1926-11-17
 layout: productions
 featured_image: 

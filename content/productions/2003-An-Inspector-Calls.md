@@ -1,7 +1,6 @@
 ---
 title: An Inspector Calls
-year: 2003
-opening_date: 2003-01-17
+date: 2003-01-17
 closing_date: 2003-02-01
 layout: productions
 featured_image: 

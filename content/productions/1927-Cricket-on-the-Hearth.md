@@ -1,7 +1,6 @@
 ---
 title: Cricket on the Hearth
-year: 1927
-opening_date: 1927-12-23
+date: 1927-12-23
 closing_date: 
 layout: productions
 featured_image: 

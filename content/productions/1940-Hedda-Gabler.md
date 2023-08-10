@@ -1,7 +1,6 @@
 ---
 title: Hedda Gabler
-year: 1940
-opening_date: 1940-03-26
+date: 1940-03-26
 closing_date: 1940-03-29
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Pack of Lies
-year: 2007
-opening_date: 2007-03-02
+date: 2007-03-02
 closing_date: 2007-03-17
 layout: productions
 featured_image: 

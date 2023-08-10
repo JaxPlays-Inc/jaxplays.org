@@ -1,7 +1,6 @@
 ---
 title: Spinning Into Butter
-year: 2003
-opening_date: 2003-04-25
+date: 2003-04-25
 closing_date: 2003-05-10
 layout: productions
 featured_image: 

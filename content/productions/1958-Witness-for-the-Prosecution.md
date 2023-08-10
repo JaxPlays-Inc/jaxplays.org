@@ -1,7 +1,6 @@
 ---
 title: Witness for the Prosecution
-year: 1958
-opening_date: 1958-01-08
+date: 1958-01-08
 closing_date: 1958-01-18
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Delicate Smell of White
-year: 1974
-opening_date: 1974-06-20
+date: 1974-06-20
 closing_date: 1974-06-29
 layout: productions
 featured_image: 

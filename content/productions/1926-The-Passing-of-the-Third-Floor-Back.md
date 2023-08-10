@@ -1,7 +1,6 @@
 ---
 title: The Passing of the Third Floor Back
-year: 1926
-opening_date: 1926-12-23
+date: 1926-12-23
 closing_date: 
 layout: productions
 featured_image: 

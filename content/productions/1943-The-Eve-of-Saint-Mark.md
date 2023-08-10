@@ -1,8 +1,7 @@
 ---
 title: The Eve of Saint Mark
-year: 1943
 month: 02
-opening_date: 1943-02-01
+date: 1943-02-01
 closing_date: 
 layout: productions
 featured_image: 

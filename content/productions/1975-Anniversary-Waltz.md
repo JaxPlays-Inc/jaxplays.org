@@ -1,7 +1,6 @@
 ---
 title: Anniversary Waltz
-year: 1975
-opening_date: 1975-05-09
+date: 1975-05-09
 closing_date: 1975-05-24
 layout: productions
 featured_image: 

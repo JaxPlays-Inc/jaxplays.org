@@ -1,7 +1,6 @@
 ---
 title: Oh, Men! Oh, Women!
-year: 1955
-opening_date: 1955-09-14
+date: 1955-09-14
 closing_date: 1955-09-24
 layout: productions
 featured_image: 

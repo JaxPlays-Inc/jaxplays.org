@@ -1,7 +1,6 @@
 ---
 title: The Front Page
-year: 1996
-opening_date: 1996-01-12
+date: 1996-01-12
 closing_date: 1996-01-28
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Admirable Chrichton
-year: 1937
-opening_date: 1937-03-30
+date: 1937-03-30
 closing_date: 
 layout: productions
 featured_image: 

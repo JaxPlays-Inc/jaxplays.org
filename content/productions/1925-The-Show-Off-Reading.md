@@ -1,7 +1,6 @@
 ---
 title: The Show Off (Reading)
-year: 1925
-opening_date: 
+date: 1925
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Company
-year: 1977
-opening_date: 1977-10-07
+date: 1977-10-07
 closing_date: 1977-10-22
 layout: productions
 featured_image: 

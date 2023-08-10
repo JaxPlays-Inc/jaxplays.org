@@ -1,7 +1,6 @@
 ---
 title: First Night
-year: 1932
-opening_date: 1932-12-20
+date: 1932-12-20
 closing_date:
 layout: productions
 featured_image: 

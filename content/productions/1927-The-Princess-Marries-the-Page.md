@@ -1,7 +1,6 @@
 ---
 title: The Princess Marries the Page
-year: 1927
-opening_date: 1927-02-08
+date: 1927-02-08
 closing_date: 1927-02-09
 layout: productions
 featured_image: 

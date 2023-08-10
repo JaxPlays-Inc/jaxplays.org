@@ -1,7 +1,6 @@
 ---
 title: Prelude to a Kiss
-year: 1995
-opening_date: 1995-04-21
+date: 1995-04-21
 closing_date: 1995-05-06
 layout: productions
 featured_image: 

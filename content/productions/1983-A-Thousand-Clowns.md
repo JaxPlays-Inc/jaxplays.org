@@ -1,7 +1,6 @@
 ---
 title: A Thousand Clowns
-year: 1983
-opening_date: 1983-01-21
+date: 1983-01-21
 closing_date: 1983-02-05
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Wedding Bells
-year: 1923
-opening_date: 1923-12-21
+date: 1923-12-21
 closing_date: 
 layout: productions
 featured_image: 

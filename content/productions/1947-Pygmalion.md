@@ -1,7 +1,6 @@
 ---
 title: Pygmalion
-year: 1947
-opening_date: 1947-05-23
+date: 1947-05-23
 closing_date: 1947-05-30
 layout: productions
 featured_image: 

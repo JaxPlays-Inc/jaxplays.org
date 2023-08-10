@@ -1,7 +1,6 @@
 ---
 title: Collected Stories
-year: 2002
-opening_date: 2002-04-26
+date: 2002-04-26
 closing_date: 2002-05-11
 layout: productions
 featured_image: 

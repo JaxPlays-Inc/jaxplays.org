@@ -1,7 +1,6 @@
 ---
 title: Goodbye My Fancy
-year: 1951
-opening_date: 1951-01-19
+date: 1951-01-19
 closing_date: 1951-01-27
 layout: productions
 featured_image: 

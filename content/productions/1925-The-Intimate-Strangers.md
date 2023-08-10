@@ -1,7 +1,6 @@
 ---
 title: The Intimate Strangers
-year: 1925
-opening_date: 1925-01-27
+date: 1925-01-27
 closing_date: 
 layout: productions
 featured_image: 

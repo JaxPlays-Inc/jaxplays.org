@@ -1,7 +1,6 @@
 ---
 title: Caroline (Reading)
-year: 1928
-opening_date: 1928-04-03
+date: 1928-04-03
 closing_date: 
 layout: productions
 featured_image: 

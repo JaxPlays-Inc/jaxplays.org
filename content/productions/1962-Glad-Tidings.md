@@ -1,7 +1,6 @@
 ---
 title: Glad Tidings
-year: 1962
-opening_date: 1962-05-25
+date: 1962-05-25
 closing_date: 1962-06-02
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Moon Over the Brewery
-year: 2007 
-opening_date: 2007-11-02
+date: 2007-11-02
 closing_date: 2007-11-17
 layout: productions
 featured_image: 

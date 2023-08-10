@@ -1,7 +1,6 @@
 ---
 title: Night Must Fall
-year: 1938
-opening_date: 1938-12-06
+date: 1938-12-06
 closing_date: 1938-12-09
 layout: productions
 featured_image: 

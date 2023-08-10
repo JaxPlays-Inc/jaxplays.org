@@ -1,7 +1,6 @@
 ---
 title: Mister Roberts
-year: 1953
-opening_date: 1953-11-18
+date: 1953-11-18
 closing_date: 1953-11-28
 layout: productions
 featured_image: 

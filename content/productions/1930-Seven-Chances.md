@@ -1,7 +1,6 @@
 ---
 title: Seven Chances
-year: 1930
-opening_date: 1930-03-11
+date: 1930-03-11
 closing_date:
 layout: productions
 featured_image: 

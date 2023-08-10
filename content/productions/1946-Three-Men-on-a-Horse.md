@@ -1,7 +1,6 @@
 ---
 title: Three Men on a Horse
-year: 1946
-opening_date: 1946-03-01
+date: 1946-03-01
 closing_date: 1946-03-08
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Crimes of the Heart
-year: 1985
-opening_date: 1985-03-15
+date: 1985-03-15
 closing_date: 1985-03-30
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Moon Over Buffalo
-year: 1998
-opening_date: 1998-04-17
+date: 1998-04-17
 closing_date: 1998-05-02
 layout: productions
 featured_image: 

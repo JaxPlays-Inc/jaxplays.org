@@ -1,7 +1,6 @@
 ---
 title: The Girls In 509
-year: 1960
-opening_date: 1960-05-20
+date: 1960-05-20
 closing_date: 1960-05-28
 layout: productions
 featured_image: 

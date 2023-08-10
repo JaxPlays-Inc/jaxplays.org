@@ -1,7 +1,6 @@
 ---
 title: Strange Bedfellows
-year: 1950
-opening_date: 1950-11-17
+date: 1950-11-17
 closing_date: 1950-11-25
 layout: productions
 featured_image: 

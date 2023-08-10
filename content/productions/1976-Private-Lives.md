@@ -1,7 +1,6 @@
 ---
 title: Private Lives
-year: 1976
-opening_date: 1976-01-23
+date: 1976-01-23
 closing_date: 1976-02-07
 layout: productions
 featured_image: 

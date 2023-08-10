@@ -1,7 +1,6 @@
 ---
 title: Macbeth
-year: 2003
-opening_date: 2003-09-19
+date: 2003-09-19
 closing_date: 2003-10-05
 layout: productions
 featured_image: 

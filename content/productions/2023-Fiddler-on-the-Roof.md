@@ -1,7 +1,6 @@
 ---
 title: Fiddler on the Roof
-year: 2023
-opening_date: 2023-08-03
+date: 2023-08-03
 closing_date: 2023-09-17
 layout: productions
 featured_image: 2023_Fiddler_on_the_Roof.webp

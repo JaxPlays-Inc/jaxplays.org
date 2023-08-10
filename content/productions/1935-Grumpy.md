@@ -1,7 +1,6 @@
 ---
 title: Grumpy
-year: 1935
-opening_date: 1935-06-06
+date: 1935-06-06
 closing_date:
 layout: productions
 featured_image: 

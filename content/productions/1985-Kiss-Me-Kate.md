@@ -1,7 +1,6 @@
 ---
 title: Kiss Me Kate
-year: 1985
-opening_date: 1985-10-11
+date: 1985-10-11
 closing_date: 1985-10-26
 layout: productions
 featured_image: 

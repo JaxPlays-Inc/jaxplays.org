@@ -1,7 +1,6 @@
 ---
 title: The Moon Is Blue
-year: 1954
-opening_date: 1954-12-01
+date: 1954-12-01
 closing_date: 1954-12-11
 layout: productions
 featured_image: 

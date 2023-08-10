@@ -1,7 +1,6 @@
 ---
 title: Social Security
-year: 1990
-opening_date: 1990-05-25
+date: 1990-05-25
 closing_date: 1990-06-09
 layout: productions
 featured_image: 

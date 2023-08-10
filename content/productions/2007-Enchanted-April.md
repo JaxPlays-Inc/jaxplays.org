@@ -1,7 +1,6 @@
 ---
 title: Enchanted April
-year: 2007
-opening_date: 2007-04-20
+date: 2007-04-20
 closing_date: 2007-05-05
 layout: productions
 featured_image: 

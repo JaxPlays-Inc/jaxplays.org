@@ -1,7 +1,6 @@
 ---
 title: The Barton Mystery
-year: 1933
-opening_date: 1933-12-12
+date: 1933-12-12
 closing_date: 
 layout: productions
 featured_image: 

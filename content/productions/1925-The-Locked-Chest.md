@@ -1,7 +1,6 @@
 ---
 title: The Locked Chest
-year: 1925
-opening_date: 1925-11-17
+date: 1925-11-17
 closing_date: 
 layout: productions
 featured_image: 

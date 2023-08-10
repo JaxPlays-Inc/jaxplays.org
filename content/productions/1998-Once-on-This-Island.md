@@ -1,7 +1,6 @@
 ---
 title: Once on This Island
-year: 1998
-opening_date: 1998-11-06
+date: 1998-11-06
 closing_date: 1998-11-21
 layout: productions
 featured_image: 

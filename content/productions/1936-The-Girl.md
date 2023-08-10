@@ -1,7 +1,6 @@
 ---
 title: The Girl
-year: 1936
-opening_date: 1936-03-03
+date: 1936-03-03
 closing_date: 
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Skylark
-year: 1942
-opening_date: 1942-03-24
+date: 1942-03-24
 closing_date: 1942-03-27
 layout: productions
 featured_image: 

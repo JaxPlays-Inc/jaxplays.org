@@ -1,7 +1,6 @@
 ---
 title: Passers By
-year: 1930
-opening_date: 1930-11-13
+date: 1930-11-13
 closing_date: 
 layout: productions
 featured_image: 

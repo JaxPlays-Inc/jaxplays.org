@@ -1,7 +1,6 @@
 ---
 title: Yes, My Darling Daughter
-year: 1939
-opening_date: 1939-08-08
+date: 1939-08-08
 closing_date: 1939-08-11
 layout: productions
 featured_image: 

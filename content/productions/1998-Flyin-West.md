@@ -1,7 +1,6 @@
 ---
 title: Flyin West
-year: 1998
-opening_date: 1998-03-06
+date: 1998-03-06
 closing_date: 1998-03-21
 layout: productions
 featured_image: 

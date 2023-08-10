@@ -1,7 +1,6 @@
 ---
 title: Out of This World
-year: 1974
-opening_date: 1974-10-11
+date: 1974-10-11
 closing_date: 1974-10-26
 layout: productions
 featured_image: 

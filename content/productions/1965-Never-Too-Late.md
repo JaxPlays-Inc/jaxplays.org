@@ -1,7 +1,6 @@
 ---
 title: Never Too Late
-year: 1965
-opening_date: 1965-11-12
+date: 1965-11-12
 closing_date: 1965-11-20
 layout: productions
 featured_image: 

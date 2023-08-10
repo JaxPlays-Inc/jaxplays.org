@@ -1,7 +1,6 @@
 ---
 title: The Desperate Hours
-year: 1956
-opening_date: 1956-06-06
+date: 1956-06-06
 closing_date: 1956-06-16
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Das Barbecu
-year: 2002
-opening_date: 2002-11-01
+date: 2002-11-01
 closing_date: 2002-11-16
 layout: productions
 featured_image: 

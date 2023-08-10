@@ -1,7 +1,6 @@
 ---
 title: After Wimpole Street
-year: 1940
-opening_date: 1940-07-30
+date: 1940-07-30
 closing_date: 1940-08-02
 layout: productions
 featured_image: 

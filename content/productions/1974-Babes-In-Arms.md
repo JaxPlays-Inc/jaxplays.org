@@ -1,7 +1,6 @@
 ---
 title: Babes In Arms
-year: 1974
-opening_date: 1974-03-22
+date: 1974-03-22
 closing_date: 1974-04-06
 layout: productions
 featured_image: 

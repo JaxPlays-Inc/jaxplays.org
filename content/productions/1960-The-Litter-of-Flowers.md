@@ -1,7 +1,6 @@
 ---
 title: The Litter of Flowers
-year: 1960
-opening_date: 1960-04-01
+date: 1960-04-01
 closing_date: 1960-04-09
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Fantasticks
-year: 1987
-opening_date: 1987-05-15
+date: 1987-05-15
 closing_date: 1987-05-30
 layout: productions
 featured_image: 

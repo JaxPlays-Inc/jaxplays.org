@@ -1,7 +1,6 @@
 ---
 title: The Good Times Are Killing Me
-year: 1994
-opening_date: 1994-03-18
+date: 1994-03-18
 closing_date: 1994-04-02
 layout: productions
 featured_image: 

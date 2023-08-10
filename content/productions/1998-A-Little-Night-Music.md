@@ -1,7 +1,6 @@
 ---
 title: A Little Night Music
-year: 1998
-opening_date: 1998-06-05
+date: 1998-06-05
 closing_date: 1998-06-20
 layout: productions
 featured_image: 

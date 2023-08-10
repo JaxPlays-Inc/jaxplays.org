@@ -1,7 +1,6 @@
 ---
 title: A Successful Calamity
-year: 1934
-opening_date: 1934-05-15
+date: 1934-05-15
 closing_date: 
 layout: productions
 featured_image: 

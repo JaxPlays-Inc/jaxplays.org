@@ -1,7 +1,6 @@
 ---
 title: The Butter and Egg Man
-year: 1934
-opening_date: 1934-02-13
+date: 1934-02-13
 closing_date: 
 layout: productions
 featured_image: 

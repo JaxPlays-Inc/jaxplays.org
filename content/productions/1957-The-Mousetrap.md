@@ -1,7 +1,6 @@
 ---
 title: The Mousetrap
-year: 1957
-opening_date: 1957-01-16
+date: 1957-01-16
 closing_date: 1957-01-26
 layout: productions
 featured_image: 

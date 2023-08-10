@@ -1,7 +1,6 @@
 ---
 title: Murder Once Removed
-year: 1980
-opening_date: 1980-03-14
+date: 1980-03-14
 closing_date: 1980-03-29
 layout: productions
 featured_image: 

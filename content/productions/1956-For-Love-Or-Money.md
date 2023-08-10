@@ -1,7 +1,6 @@
 ---
 title: For Love Or Money
-year: 1956
-opening_date: 1956-04-25
+date: 1956-04-25
 closing_date: 1956-05-05
 layout: productions
 featured_image: 

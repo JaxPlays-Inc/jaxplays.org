@@ -1,7 +1,6 @@
 ---
 title: They're Playing Our Song
-year: 1990
-opening_date: 1990-09-21
+date: 1990-09-21
 closing_date: 1990-10-06
 layout: productions
 featured_image: 

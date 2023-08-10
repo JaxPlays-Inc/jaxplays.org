@@ -1,7 +1,6 @@
 ---
 title: Leading Ladies
-year: 2007
-opening_date: 2007-01-12
+date: 2007-01-12
 closing_date: 2007-01-27
 layout: productions
 featured_image: 

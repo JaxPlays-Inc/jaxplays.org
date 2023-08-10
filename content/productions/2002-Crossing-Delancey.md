@@ -1,7 +1,6 @@
 ---
 title: Crossing Delancey
-year: 2002
-opening_date: 2002-01-18
+date: 2002-01-18
 closing_date: 2002-02-02
 layout: productions
 featured_image: 

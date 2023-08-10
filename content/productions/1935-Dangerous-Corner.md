@@ -1,7 +1,6 @@
 ---
 title: Dangerous Corner
-year: 1935
-opening_date: 1935-03-12
+date: 1935-03-12
 closing_date:
 layout: productions
 featured_image: 

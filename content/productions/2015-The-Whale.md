@@ -3,8 +3,7 @@ layout: productions
 redirect_from:
   - /productions/2015_The_Whale
 title: The Whale
-year: 2015
-opening_date: 2015-11-13
+date: 2015-11-13
 closing_date: 2015-11-22
 featured_image: 
 image_credit: 

@@ -1,7 +1,6 @@
 ---
 title: Phipps
-year: 1935
-opening_date: 1935-12-10
+date: 1935-12-10
 closing_date: 
 layout: productions
 featured_image: 

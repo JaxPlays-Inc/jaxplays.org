@@ -1,7 +1,6 @@
 ---
 title: Barefoot In the Park
-year: 1967
-opening_date: 1967-04-14
+date: 1967-04-14
 closing_date: 1967-04-29
 layout: productions
 featured_image: 

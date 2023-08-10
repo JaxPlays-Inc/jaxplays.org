@@ -1,7 +1,6 @@
 ---
 title: For Distinguished Service
-year: 1924
-opening_date: 1924-04-12
+date: 1924-04-12
 closing_date: 
 layout: productions
 featured_image: 

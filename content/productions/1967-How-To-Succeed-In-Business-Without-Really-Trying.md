@@ -1,7 +1,6 @@
 ---
 title: How To Succeed In Business Without Really Trying
-year: 1967
-opening_date: 1967-07-20
+date: 1967-07-20
 closing_date: 1967-07-29
 layout: productions
 featured_image: 

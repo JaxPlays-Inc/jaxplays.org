@@ -1,7 +1,6 @@
 ---
 title: Counsel Retained
-year: 1930
-opening_date: 1930-04-15
+date: 1930-04-15
 closing_date: 
 layout: productions
 featured_image: 

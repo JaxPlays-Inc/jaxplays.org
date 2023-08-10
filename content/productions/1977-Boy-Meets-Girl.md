@@ -1,7 +1,6 @@
 ---
 title: Boy Meets Girl
-year: 1977
-opening_date: 1977-03-18
+date: 1977-03-18
 closing_date: 1977-04-02
 layout: productions
 featured_image: 

@@ -2,8 +2,7 @@
 title: Dancing At Lughnasa
 redirect_from:
   - /productions/1996_Dancing_at_Lughnasa
-year: 1996
-opening_date: 1996-03-01
+date: 1996-03-01
 closing_date: 1996-03-17
 layout: productions
 featured_image: 

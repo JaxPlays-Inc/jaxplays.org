@@ -1,7 +1,6 @@
 ---
 title: Counsellor-At-Law
-year: 1948
-opening_date: 1948-02-27
+date: 1948-02-27
 closing_date: 1948-03-05
 layout: productions
 featured_image: 

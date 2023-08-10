@@ -1,7 +1,6 @@
 ---
 title: Anything Goes
-year: 1973
-opening_date: 1973-03-16
+date: 1973-03-16
 closing_date: 1973-03-31
 layout: productions
 featured_image: 

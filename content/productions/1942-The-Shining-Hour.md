@@ -1,7 +1,6 @@
 ---
 title: The Shining Hour
-year: 1942
-opening_date: 1942-04-21
+date: 1942-04-21
 closing_date: 1942-04-24
 layout: productions
 featured_image: 

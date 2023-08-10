@@ -1,7 +1,6 @@
 ---
 title: Light Up the Sky
-year: 1986
-opening_date: 1986-01-24
+date: 1986-01-24
 closing_date: 1986-02-08
 layout: productions
 featured_image: 

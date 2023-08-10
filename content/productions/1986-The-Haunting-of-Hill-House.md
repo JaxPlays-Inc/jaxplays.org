@@ -1,7 +1,6 @@
 ---
 title: The Haunting of Hill House
-year: 1986
-opening_date: 1986-11-28
+date: 1986-11-28
 closing_date: 1986-12-13
 layout: productions
 featured_image: 

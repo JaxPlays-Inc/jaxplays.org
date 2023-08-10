@@ -1,7 +1,6 @@
 ---
 title: A Wonderful Woman
-year: 1937
-opening_date: 1937-02-27
+date: 1937-02-27
 closing_date: 
 layout: productions
 featured_image: 

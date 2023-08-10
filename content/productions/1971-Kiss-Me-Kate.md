@@ -1,7 +1,6 @@
 ---
 title: Kiss Me Kate
-year: 1971
-opening_date: 1971-10-08
+date: 1971-10-08
 closing_date: 1971-10-23
 layout: productions
 featured_image: 

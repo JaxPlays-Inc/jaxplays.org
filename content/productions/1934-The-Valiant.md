@@ -1,7 +1,6 @@
 ---
 title: The Valiant
-year: 1934
-opening_date: 1934-01-09
+date: 1934-01-09
 closing_date: 
 layout: productions
 featured_image: 

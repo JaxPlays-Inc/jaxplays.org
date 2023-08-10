@@ -1,7 +1,6 @@
 ---
 title: The Drums of Oude
-year: 1932
-opening_date: 1932-02-09
+date: 1932-02-09
 closing_date: 
 layout: productions
 featured_image: 

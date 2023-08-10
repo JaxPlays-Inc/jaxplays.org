@@ -1,7 +1,6 @@
 ---
 title: Done To Death
-year: 1988
-opening_date: 1988-01-22
+date: 1988-01-22
 closing_date: 1988-02-06
 layout: productions
 featured_image: 

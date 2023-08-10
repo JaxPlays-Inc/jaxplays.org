@@ -1,7 +1,6 @@
 ---
 title: If (Reading)
-year: 1925
-opening_date: 1925-02-10
+date: 1925-02-10
 closing_date: 
 layout: productions
 featured_image: 

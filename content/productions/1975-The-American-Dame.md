@@ -1,7 +1,6 @@
 ---
 title: The American Dame
-year: 1975
-opening_date: 1975-01-24
+date: 1975-01-24
 closing_date: 1975-02-08
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Hot L Baltimore
-year: 2016
-opening_date: 2016-12-09
+date: 2016-12-09
 closing_date: 2016-12-10
 layout: productions
 featured_image: 2016_The_Hot_L_Baltimore.webp

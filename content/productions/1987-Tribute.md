@@ -1,7 +1,6 @@
 ---
 title: Tribute
-year: 1987
-opening_date: 1987-01-23
+date: 1987-01-23
 closing_date: 1987-02-07
 layout: productions
 featured_image: 

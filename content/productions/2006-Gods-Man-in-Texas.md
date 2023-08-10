@@ -1,7 +1,6 @@
 ---
 title: God's Man In Texas
-year: 2006
-opening_date: 2006-11-13
+date: 2006-11-13
 closing_date: 2006-01-28
 layout: productions
 featured_image: 

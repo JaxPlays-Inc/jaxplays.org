@@ -1,7 +1,6 @@
 ---
 title: Beast on the Moon
-year: 1999
-opening_date: 1999-01-15
+date: 1999-01-15
 closing_date: 1999-01-30
 layout: productions
 featured_image: 

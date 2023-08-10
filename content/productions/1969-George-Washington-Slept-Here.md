@@ -1,7 +1,6 @@
 ---
 title: George Washington Slept Here
-year: 1969
-opening_date: 1969-04-11
+date: 1969-04-11
 closing_date: 1969-04-19
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: The Rainmaker
-year: 1955
-opening_date: 1955-10-26
+date: 1955-10-26
 closing_date: 1955-11-05
 layout: productions
 featured_image: 

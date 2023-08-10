@@ -1,7 +1,6 @@
 ---
 title: The Runner Stumbles
-year: 1983
-opening_date: 1983-12-02
+date: 1983-12-02
 closing_date: 1983-12-17
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: What a Life
-year: 1940
-opening_date: 1940-11-05
+date: 1940-11-05
 closing_date: 1940-11-08
 layout: productions
 featured_image: 

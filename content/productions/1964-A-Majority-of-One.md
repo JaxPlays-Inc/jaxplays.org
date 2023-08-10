@@ -1,7 +1,6 @@
 ---
 title: A Majority of One
-year: 1964
-opening_date: 1964-09-25
+date: 1964-09-25
 closing_date: 1964-10-03
 layout: productions
 featured_image: 

@@ -1,7 +1,6 @@
 ---
 title: Take Her, She's Mine
-year: 1964
-opening_date: 1964-01-10
+date: 1964-01-10
 closing_date: 1964-01-18
 layout: productions
 featured_image: 

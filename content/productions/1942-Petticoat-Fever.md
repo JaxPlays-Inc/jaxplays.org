@@ -1,7 +1,6 @@
 ---
 title: Petticoat Fever
-year: 1942
-opening_date: 1942-02-24
+date: 1942-02-24
 closing_date: 1942-02-27
 layout: productions
 featured_image: 

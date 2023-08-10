@@ -1,7 +1,6 @@
 ---
 title: Critic's Choice
-year: 1962
-opening_date: 1962-09-27
+date: 1962-09-27
 closing_date: 1962-10-06
 layout: productions
 featured_image: 

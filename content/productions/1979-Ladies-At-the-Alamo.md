@@ -1,7 +1,6 @@
 ---
 title: Ladies At the Alamo
-year: 1979
-opening_date: 1979-12-14
+date: 1979-12-14
 closing_date: 1979-12-22
 layout: productions
 featured_image: 
