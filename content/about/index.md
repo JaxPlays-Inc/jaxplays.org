@@ -1,6 +1,7 @@
 ---
 title: About JaxPlays
 layout: page
+menu: main
 ---
 <h1>{{ page.title }}</h1>
 
@@ -16,9 +17,8 @@ JaxPlays' mission is to preserve the history, promote the present and propel the
 
 JaxPlays' vision is to build a comprehensive repository of information about every live theatre performance that has happened in Northeast Florida including:
  - cast and crew lists, 
- - descriptions, 
- - reviews, and 
- - upcoming audition announcements.
+ - descriptions, and 
+ - reviews
 
 Our ultimate goal is to expand beyond a mere repository of historical data, and become a hub for all things related to the thriving theatre scene in the region. 
 
@@ -31,8 +31,6 @@ JaxPlays is currently owned and operated by [Ray Hollister](https://rayhollister
 We welcome and value your input and expertise to help make JaxPlays a comprehensive and reliable resource for all things related to live theatre in Northeast Florida.
 
 If you have any questions, comments or complaints, please visit my website and feel free to contact me on any of the platforms listed or email jaxplayswiki@gmail.com.
-
-{% include git-wiki/components/copyrights/copyrights.html %}
 
 **Disclaimer:** JaxPlays leverages the capabilities of OpenAI's ChatGPT for drafting articles and processing data. However, the human touch remains essential to us. Each piece is thoroughly reviewed, edited, and revised by our author to ensure it aligns with our standards and voice. We, at JaxPlays, take full responsibility for the content published on our platform.
 

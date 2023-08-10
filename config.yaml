@@ -20,3 +20,7 @@ params:
     - "reviews"
   background_color_class: "bg-black"
   light_text_color_class: "gray"
+  jaxplays_socials:
+  - name: facebook
+    url: https://www.facebook.com/JaxPlaysWiki/
+    label: Facebook
