@@ -48,6 +48,13 @@ cast:
   Chris Alvaro: Cameron Hodges
 crew:
   Director: Lee Hamby
+  Assistant Director: Cathy O'Brien 
+  Technical Director: Tyler Hammond 
+  Musical Director: Ben Beck 
+  Stage Manager: Sophie Willis 
+  Choreographer: Jocelyn Geronimo 
+  Costumes: Catherine Dooley 
+  Lighting: Carl Liberatore 
 orchestra:
 external_links:
 ---
