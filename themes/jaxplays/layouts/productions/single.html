@@ -1,7 +1,7 @@
 {{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
 {{ define "main" }}
-<div class="flex-l mt2 mw8 center">
-  <article class="center cf pv5 ph3 ph4-ns mw8">
+<div class="flex-l mt0 mw8 center">
+  <article class="center cf pv4 ph3 ph4-ns mw8">
     <header>
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
@@ -17,7 +17,10 @@
     {{ if or .Params.featured_image .Params.tickets }}
     <div class="w-100 flex">
       {{ with .Params.featured_image }}
+      <!-- put the featured image in a link to open in a lightbox -->
+      <a href="/media/posters/{{ . }}" data-lightbox="image-1" data-title="{{ . }}">
       <img src="/media/posters/{{ . }}" class="w5-l w4" />
+      </a>
       {{ end }}
       <!-- If date and closing_date are both filed out -->
       {{ if and .Params.date .Params.closing_date }}
@@ -28,7 +31,6 @@
           {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="dim h4 w-20 w4-ns pa0 ma3 mt0 tickets"></a>{{ end }}
         {{ end }}
       {{ end }}
-
     </div>
     {{ end}}
 
@@ -46,9 +48,19 @@
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/venues/{{ . | urlize }}">{{ . }}</a></div>
       </div>{{ end }}
+      <!-- if date and closing_date  -->
+      {{ if and .Params.date .Params.closing_date }}
+        <div class="flex">
+          <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
+          {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+          {{ $closingDate := time .Params.closing_date }}
+          <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> {{ $startDate.Format "Monday, January 2, 2006" }} — <br/>{{ $closingDate.Format "Monday, January 2, 2006" }}</div>
+        </div>
+      {{ end }}
+
       {{ with .Params.website }}<div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver"></div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Official Website</a></div>
+        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Official Production Website</a></div>
       </div>{{ end }}
     </div>
 
