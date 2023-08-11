@@ -10,7 +10,7 @@ playbill:
 category: musicals
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1428&code=jaxplays
+Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1428&code=jaxplays
 cast:
   Teveye: Tod Booth
   Golde: Lisa Valdini Booth

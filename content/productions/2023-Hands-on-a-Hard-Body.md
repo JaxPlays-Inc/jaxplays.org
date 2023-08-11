@@ -13,6 +13,8 @@ Venue: Matuza Mainstage
 Book: Doug Wright
 Lyrics: Amanda Green
 Music: Trey Anastasio and Amanda Green
+Tickets: https://ci.ovationtix.com/34666?_gl=1*18d70jm*_ga*NDM1NTI4MTIwLjE2ODk5NjU0NjQ.*_ga_1T723BH96L*MTY5MTcyNTk1Ny4yLjEuMTY5MTcyNTk3MC40Ny4wLjA.
+Website: https://www.limelight-theatre.org/shows/hands-on-a-hardbody
 showtimes:
   - 2023-08-10 19:30:00
   - 2023-08-11 19:30:00
@@ -47,13 +49,19 @@ cast:
   Chris Alvaro: Cameron Hodges
 crew:
   Director: Lee Hamby
-  Assistant Director: Cathy O'Brien 
-  Technical Director: Tyler Hammond 
-  Musical Director: Ben Beck 
-  Stage Manager: Sophie Willis 
-  Choreographer: Jocelyn Geronimo 
-  Costumes: Catherine Dooley 
-  Lighting: Carl Liberatore 
+  Assistant Director: Cathy O'Brien
+  Music Director: Ben Beck
+  Stage Manager: Sophie Willis
+  Costumes: Cathy Dooley
+  Lighting: Carl Liberatore
+  Sound Design: Bradley Cooper
+  Sound Board: Franchesca Bellavista
+  Technical Director/Set Design: Tyler Hammond
+  Assistant Stage Manager: Evan Hayes
+  Choreographer: Jocelyn Geronimo
+  Light Board Operator: Ashley Taylor
+  Shop Foreman: Dom Grasso
+  Scenic Artist: Nancy Grasso
 orchestra:
 external_links:
 ---
