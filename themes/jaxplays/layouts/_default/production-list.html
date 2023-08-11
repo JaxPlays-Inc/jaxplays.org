@@ -2,12 +2,24 @@
 <article class="bb b--black-10 ">
   <div class="db pa3 no-underline dark-gray">
     <div class="flex flex-column flex-row-ns">
-      {{ if $featured_image }}
+      {{ if or $featured_image .Params.tickets }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         <div class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
           <a href="{{.RelPermalink}}" class="db grow">
             <img src="/media/posters/{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
           </a>
+        
+          <!-- If date and closing_date are both filed out -->
+          <div>
+          {{ if and .Params.tickets .Params.date .Params.closing_date }}
+          <!-- If closing_date is in the future -->
+          {{ $closingDate := time .Params.closing_date }}
+          {{ $now := now.Format "2006-01-02" | time }}
+          {{ if ge $closingDate $now }}
+            {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="dim db h3-ns w3-ns h3 w-20 pa0 mt2 tickets"></a>{{ end }}
+          {{ end }}
+          {{ end }}
+          </div>
         </div>
       {{ end }}
       <div class="blah w-100{{ if $featured_image }} w-60-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
