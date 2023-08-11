@@ -14,7 +14,7 @@ Music: Frank Wildhorn - wiki
 Lyrics: Don Black (lyricist) - wiki
 Book: Ivan Menchell
 Basis: "The lives of [Bonnie and Clyde](https://en.wikipedia.org/wiki/Bonnie_and_Clyde)"
-Website: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
+Tickets: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
 showtimes: 
   - 2022-03-18 19:30:00
   - 2022-03-19 19:30:00

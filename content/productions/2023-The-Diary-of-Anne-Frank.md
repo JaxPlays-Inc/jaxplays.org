@@ -10,7 +10,7 @@ playbill:
 category: 
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
-Website: https://ci.ovationtix.com/34919
+Tickets: https://ci.ovationtix.com/34919
 showtimes:
   - 2023-09-21 19:30:00
   - 2023-09-22 19:30:00

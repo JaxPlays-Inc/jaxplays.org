@@ -14,7 +14,7 @@ Theatre: ABET - All Beaches Experimental Theatre
 Writer: Dave Johns, Owen O'Neill
 Genre: Crime Fiction
 Setting: Shawshank State Penitentiary
-Website: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439?aff=erelexpmlt
+Tickets: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439?aff=erelexpmlt
 showtimes: 
   - 2022-05-20 19:30:00
   - 2022-05-21 19:30:00

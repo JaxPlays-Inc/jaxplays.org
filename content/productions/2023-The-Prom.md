@@ -13,7 +13,7 @@ Venue: Grace Darling Studio Theatre
 Music: Matthew Sklar - wiki
 Lyrics: Chad Beguelin - wiki
 Book: Bob Martin & Chad Beguelin
-Website: https://www.eventbrite.com/o/greenlight-theatre-company-50485732523
+Tickets: https://www.eventbrite.com/o/greenlight-theatre-company-50485732523
 showtimes:
   - 2023-06-09 19:00:00
   - 2023-06-10 19:00:00

@@ -16,7 +16,7 @@ Music: Dave Stewart - wiki, Glen Ballard - wiki
 Lyrics: Dave Stewart, Glen Ballard, Bruce Joel Rubin - wiki
 Book: Bruce Joel Rubin
 Basis: The film Ghost by Bruce Joel Rubin
-Website: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=395
+Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=395
 showtimes: 
   - 2022-09-29 12:00:00
   - 2022-09-29 17:30:00

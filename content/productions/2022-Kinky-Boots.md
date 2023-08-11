@@ -14,7 +14,7 @@ Music: Cyndi Lauper - wiki
 Lyrics: Cyndi Lauper
 Book: Harvey Fierstein - wiki
 Basis: Kinky_Boots_(film) - wiki
-Website: https://web.ovationtix.com/trs/pr/1094753
+Tickets: https://web.ovationtix.com/trs/pr/1094753
 showtimes: 
   - 2022-07-15 20:00:00
   - 2022-07-16 20:00:00

@@ -15,7 +15,7 @@ Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 Writer: Osborne & Eppler
 Genre: Comedy/Drama
-Website: https://our.show/southernfriedfuneral
+Tickets: https://our.show/southernfriedfuneral
 showtimes: 
   - 2022-05-13 19:00:00
   - 2022-05-14 19:00:00

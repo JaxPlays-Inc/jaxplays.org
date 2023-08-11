@@ -9,7 +9,7 @@ image_alt:
 image_caption:
 category: musical
 Theatre: The Alhambra Theatre & Dining
-Website: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=394
+Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=394
 showtimes: 
   - 2022-08-11 12:00:00
   - 2022-08-11 18:00:00
