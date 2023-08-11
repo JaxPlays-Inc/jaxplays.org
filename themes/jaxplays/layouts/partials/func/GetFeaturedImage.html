@@ -22,7 +22,7 @@
 {{ with .Params.featured_image }}
   {{/* This is the default case, the image lives in the static directory.
     In which case we'll use the static dir */}}
-  {{ $linkToCover = trim . "/" | absURL }}
+  {{ $linkToCover = trim . "/" }}
   {{/* If we find a Page Resource matching the exact value, we use it instead. */}}
   {{ with $.Resources.GetMatch . }}
     {{ $linkToCover = .RelPermalink }}
