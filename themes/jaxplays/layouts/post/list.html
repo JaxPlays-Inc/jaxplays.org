@@ -7,6 +7,7 @@
       {{ .Content }}
     </section>
     <aside class="flex-ns flex-wrap justify-around mt5">
+      {{ $paginator := .Paginate .Pages 12 }}
       {{ range .Paginator.Pages }}
         <div class="relative w-100 w-30-l mb4 bg-white">
           {{ .Render "summary" }}
