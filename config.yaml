@@ -33,6 +33,15 @@ menu:
   - name: About
     pageRef: /about
     weight: 20
+  - name: People
+    pageRef: /people
+    weight: 30
   - name: Productions
     pageRef: /productions
-    weight: 30
+    weight: 40
+  - name: Theatres
+    pageRef: /theatres
+    weight: 50
+  - name: Venues
+    pageRef: /venues
+    weight: 60
