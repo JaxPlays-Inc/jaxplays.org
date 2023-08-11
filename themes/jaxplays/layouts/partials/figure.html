@@ -1,8 +1,8 @@
 <!-- layouts/partials/figure.html -->
 <figure class="db mw8 center {{ with .class }}{{ . }}{{ end }}">
-  {{ with .link }}<a href="{{ . }}">{{ end }}
+  <a href="{{ .src }}">
     <img src="{{ .src }}" {{ if or .alt .caption }}alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}"{{ end }} />
-    {{ if .link }}</a>{{ end }}
+    </a>
     {{ if or (or .title .caption) .attr }}
       <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ .light_text_color_class }} f5">
         {{ if or .caption .attr }}
