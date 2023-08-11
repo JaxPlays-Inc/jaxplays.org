@@ -72,6 +72,22 @@
         </div>
       {{ end }}
 
+      <!-- If showtimes exist -->
+      {{ if .Params.showtimes }}
+        <div class="flex flex-wrap">
+          <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Showtimes</div>
+          <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+            {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
+              {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
+              <div class="flex mb2">
+                <div class="w-75 w-50-ns bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div> <!-- Date column -->
+                <div class="w-25 w-50-ns bb bw.5 b--light-silver">{{ $showtime.Format "3:04 p.m." }}</div> <!-- Time column -->
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+
       {{ with .Params.website }}<div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Official Production Website</a></div>
