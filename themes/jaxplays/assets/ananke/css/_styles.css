@@ -26,6 +26,12 @@ a:hover, .nested-links a:hover {
 	background-position: left center; /* Adjust the position as needed */
 }
 
+.tickets {
+	background-image: url("/tickets.svg");
+	background-repeat: no-repeat;
+	background-position: top; 
+}
+
 a.jaxplayslogo {
 	background-size: 2rem;
 	padding-left: 2.5rem;
