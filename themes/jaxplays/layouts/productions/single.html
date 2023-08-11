@@ -44,10 +44,24 @@
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/theatres/{{ . | urlize }}">{{ . }}</a></div>
       </div>{{ end }}
-      {{ with .Params.venue }}<div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/venues/{{ . | urlize }}">{{ . }}</a></div>
-      </div>{{ end }}
+      {{ $currentPage := . }} <!-- Capture the current page context -->
+      {{ with .Params.venue }}
+        <div class="flex">
+          <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div>
+          <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+            <a href="/venues/{{ . | urlize }}">{{ . }}</a>
+            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" (. | urlize)) }} <!-- Use the captured page context -->
+            {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
+              <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+              <ul class="map_links list mv1 pl0">
+                <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+                <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE "%0A" "%20" }}">Apple Maps</a></li>
+              </ul>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}      
+      
       <!-- if date and closing_date  -->
       {{ if and .Params.date .Params.closing_date }}
         <div class="flex">

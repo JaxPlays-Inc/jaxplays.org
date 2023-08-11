@@ -10,12 +10,11 @@ image: The_Five_And_Dime.jpeg
 image_credit:
 image_alt:
 image_caption:
-details:
-  Founded: 2017
-  Closed: 2020
-  Address: |
-    112 E Adams Street
-    Jacksonville, FL 32202
+Founded: 2017
+Closed: 2020
+Address: |
+  112 E Adams Street
+  Jacksonville, FL 32202
 external_links:
   Staging Change at The 5 & Dime Theatre - Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/
   Jacksonville's 5 & Dime theater group names director, ponders where and when next shows will be: https://www.jacksonville.com/story/entertainment/theater/2021/02/02/jacksonvilles-5-dime-theater-group-names-director-ponders-shows/4337544001/
