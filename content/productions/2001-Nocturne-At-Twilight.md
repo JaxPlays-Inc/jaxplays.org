@@ -17,9 +17,10 @@ cast:
   Virginia: Robyn Neal
   Mary: Erin Maas
   The Stranger: Matt Hemphill
-  Ernest understudy: Tyler Patton
-  Nettie understudy: Erin Maas
-  Sweet Ruth understudy: Malane CoBourne
+understudies: 
+  Ernest: Tyler Patton
+  Nettie: Erin Maas
+  Sweet Ruth: Malane CoBourne
 crew:
   Artistic Director: Ian Mairs
   Set Design: Timothy Kline
