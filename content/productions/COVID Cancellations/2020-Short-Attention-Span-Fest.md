@@ -1,4 +1,6 @@
 ---
+published: false
+cancelled: COVID-19
 layout: productions
 title: Short Attention Span Fest
 date: 2020
