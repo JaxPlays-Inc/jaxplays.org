@@ -75,8 +75,11 @@
       <!-- If showtimes exist -->
       {{ if .Params.showtimes }}
         <div class="flex flex-wrap">
-          <div class="w-25-ns w-100 b pa3-ns pa2 bb-ns bw1 b--silver">Showtimes</div>
-          <div class="w-75-ns w-100 pa3-ns pa2 bb bw1 b--silver">
+          <div class="w-25-ns w-100 b pa3-ns pa2 bb bw1 b--silver">
+            <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle">Showtimes</a>
+          </div>
+          <div class="w-75-ns w-100 pa3-ns pa2 bb bw1 b--silver dn" id="showtimes-hidden-section"></div>
+          <div class="w-75-ns w-100 pa3-ns pa2 bb bw1 b--silver" id="showtimes-section">
             {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
               {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
               <div class="flex mb2 space-between">
@@ -86,6 +89,21 @@
             {{ end }}
           </div>
         </div>
+        <script>
+          function toggleShowtimes() {
+            var section = document.getElementById('showtimes-section');
+            var hidden_section = document.getElementById('showtimes-hidden-section');
+            if (section.style.display === '' || section.style.display === 'block') {
+              section.style.display = 'none';
+              hidden_section.style.display = 'block';
+              document.getElementById('showtimes-toggle').innerHTML = 'Showtimes...';
+            } else {
+              section.style.display = 'block';
+              hidden_section.style.display = 'none';
+              document.getElementById('showtimes-toggle').innerHTML = 'Showtimes';
+            }
+          }
+        </script>
       {{ end }}
 
       {{ with .Params.website }}<div class="flex">
