@@ -26,8 +26,8 @@ showtimes:
 - 2020-06-26 20:00:00
 - 2020-06-27 20:00:00
 - 2020-06-28 15:00:00
-cast: TBA
-crew: TBA
+cast:
+crew:
 external_links:
   On Stage | opct: https://www.opct.info/
 ---

@@ -24,7 +24,7 @@ showtimes:
 - 2020-03-06 19:00:00
 - 2020-03-07 15:00:00
 - 2020-03-07 19:00:00
-cast: TBA
+cast:
 crew:
 - Director: Lee Hamby
 - Musical Director: Tim Root
