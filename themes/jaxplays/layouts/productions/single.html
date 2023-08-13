@@ -94,51 +94,85 @@
       </div>{{ end }}
     </div>
 
-<!-- If cast exists -->
-{{ if .Params.cast }}
-<div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
-  {{ range .Params.cast }} <!-- Iterate over the cast array -->
-    {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $character }}</div> <!-- Character name -->
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-          {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
-            {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
-              <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }} <!-- Separate by commas -->
-            {{ end }}
-          {{ else }}
-            <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
-          {{ end }}
-        </div>
-      </div>
+    <!-- If cast exists -->
+    {{ if .Params.cast }}
+    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
+      {{ range .Params.cast }} <!-- Iterate over the cast array -->
+        {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
+          <div class="flex">
+            <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $character }}</div> <!-- Character name -->
+            <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+              {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
+                {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
+                  <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }} <!-- Separate by commas -->
+                {{ end }}
+              {{ else }}
+                <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
     {{ end }}
-  {{ end }}
-</div>
-{{ end }}
 
-<!-- If crew exists -->
-{{ if .Params.crew }}
-<div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
-  {{ range .Params.crew }} <!-- Iterate over the crew array -->
-    {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $role }}</div> <!-- Role -->
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-          {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
-            {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
-              <a href="/people/{{ $p | urlize }}">{{ $p }}</a>{{ if ne $idx (sub (len $person) 1) }}, {{ end }} <!-- Separate by commas -->
-            {{ end }}
-          {{ else }}
-            <a href="/people/{{ $person | urlize }}">{{ $person }}</a> <!-- Single person's name with URLized link -->
-          {{ end }}
-        </div>
-      </div>
+    <!-- If crew exists -->
+    {{ if .Params.crew }}
+    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
+      {{ range .Params.crew }} <!-- Iterate over the crew array -->
+        {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
+          <div class="flex">
+            <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $role }}</div> <!-- Role -->
+            <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+              {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
+                {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
+                  <a href="/people/{{ $p | urlize }}">{{ $p }}</a>{{ if ne $idx (sub (len $person) 1) }}, {{ end }} <!-- Separate by commas -->
+                {{ end }}
+              {{ else }}
+                <a href="/people/{{ $person | urlize }}">{{ $person }}</a> <!-- Single person's name with URLized link -->
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
     {{ end }}
-  {{ end }}
-</div>
-{{ end }}
+
+    <!-- If understudies exists -->
+    {{ if .Params.understudies }}
+    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">Understudies</h3>
+      {{ range .Params.understudies }} <!-- Iterate over the understudies array -->
+        {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
+          <div class="flex">
+            <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $character }}</div> <!-- Character name -->
+            <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+              <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Actor name with URLized link -->
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- If orchestra exists -->
+    {{ if .Params.orchestra }}
+    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">Orchestra</h3>
+      {{ range .Params.orchestra }} <!-- Iterate over the orchestra array -->
+        {{ range $instrument, $musician := . }} <!-- Iterate over key-value pairs -->
+          <div class="flex">
+            <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $instrument }}</div> <!-- Instrument name -->
+            <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+              <a href="/people/{{ $musician | urlize }}">{{ $musician }}</a> <!-- Musician's name with URLized link -->
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
 
     {{ with .Content }}
     <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
