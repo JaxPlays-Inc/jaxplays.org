@@ -3,69 +3,69 @@ layout: productions
 title: Ragtime
 cancelled: COVID-19
 redirect_from:
-  - /productions/2022_Ragtime_(musical)
+- /productions/2022_Ragtime_(musical)
 date: 2022-06-10
 closing_date: 2022-06-26
 featured_image: 2022_Ragtime.webp
 image_credit: Theatre Jacksonville
-image_alt: 
-image_caption: Graphic for Ragtime 
+image_alt:
+image_caption: Graphic for Ragtime
 category: musical
 Title: Ragtime (musical) - wiki
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 Website: https://www.theatrejax.com/season102
-showtimes: 
-  - 2022-06-10 19:30:00
-  - 2022-06-11 19:30:00
-  - 2022-06-16 19:30:00
-  - 2022-06-17 19:30:00
-  - 2022-06-18 19:30:00
-  - 2022-06-19 14:00:00
-  - 2022-06-23 19:30:00
-  - 2022-06-24 19:30:00
-  - 2022-06-25 19:30:00
-  - 2022-06-26 14:00:00
+showtimes:
+- 2022-06-10 19:30:00
+- 2022-06-11 19:30:00
+- 2022-06-16 19:30:00
+- 2022-06-17 19:30:00
+- 2022-06-18 19:30:00
+- 2022-06-19 14:00:00
+- 2022-06-23 19:30:00
+- 2022-06-24 19:30:00
+- 2022-06-25 19:30:00
+- 2022-06-26 14:00:00
 cast:
-  Mother: Jennifer Hudson
-  Edgar: Reed Krueger
-  Father: Blake Michael Osner
-  Brother: Jeremy Ferri
-  Grandfather: Mark Rubens
-  Coalhouse: Phillip Williams
-  Sarah: Taylor Mobley
-  Sarah’s Friend: Hecate Smith
-  Booker T.: James Wright
-  Tateh: Erik DeCicco
-  Little Girl: Teagan Carpenter
-  Willie Conklin: Laura Mauldin
-  Emma Goldman: Leanne Gullo
-  Harry Houdini: Zachary Pickett
-  Henry Ford/Charles S. Whitman: Mike Skaff
-  Henry Ford: Julie Harrington
-  Harry K. Thaw: Evan Bowen
-  Stanford White/Admiral Peary: Chris Turner
-  J.P. Morgan: Ryan Feeney
-  Henson: Phedre J. Delinois
-  Ensemble:
-    - Melody Choate
-    - Kat DeCicco
-    - Natalie Ealum
-    - Noah Hall
-    - Ayana LeAndre
-    - Dalaiah Simeon
-    - Phedre J. Delinois
-    - Julia Blasi
-    - Evan Bowen
-    - Adele Vespa
-    - Aly Blakewell
-    - Colin Davis
-    - Ayanna Le Andre
-    - Aaron Fantacone
+- Mother: Jennifer Hudson
+- Edgar: Reed Krueger
+- Father: Blake Michael Osner
+- Brother: Jeremy Ferri
+- Grandfather: Mark Rubens
+- Coalhouse: Phillip Williams
+- Sarah: Taylor Mobley
+- "Sarah\u2019s Friend": Hecate Smith
+- Booker T.: James Wright
+- Tateh: Erik DeCicco
+- Little Girl: Teagan Carpenter
+- Willie Conklin: Laura Mauldin
+- Emma Goldman: Leanne Gullo
+- Harry Houdini: Zachary Pickett
+- Henry Ford/Charles S. Whitman: Mike Skaff
+- Henry Ford: Julie Harrington
+- Harry K. Thaw: Evan Bowen
+- Stanford White/Admiral Peary: Chris Turner
+- J.P. Morgan: Ryan Feeney
+- Henson: Phedre J. Delinois
+- Ensemble:
+  - Melody Choate
+  - Kat DeCicco
+  - Natalie Ealum
+  - Noah Hall
+  - Ayana LeAndre
+  - Dalaiah Simeon
+  - Phedre J. Delinois
+  - Julia Blasi
+  - Evan Bowen
+  - Adele Vespa
+  - Aly Blakewell
+  - Colin Davis
+  - Ayanna Le Andre
+  - Aaron Fantacone
 crew:
-  Director: Curtis J. Williams
-  Choreographer: Curtis J. Williams
-  Music Director: Aaron DeCicco
+- Director: Curtis J. Williams
+- Choreographer: Curtis J. Williams
+- Music Director: Aaron DeCicco
 external_links:
 ---
 This much-anticipated production of _Ragtime_ at Theatre Jacksonville was unfortunately cancelled due to a rapid outbreak of COVID-19 among the cast and crew. Despite implementing rigorous safety measures, the virus infiltrated this tight-knit theatre community, making it impossible for the large cast to gather safely for rehearsals.

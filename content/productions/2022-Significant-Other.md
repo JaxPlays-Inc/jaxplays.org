@@ -4,7 +4,7 @@ title: Significant Other
 date: 2022-04-21
 closing_date: 2022-04-23
 featured_image: 2022_Significant_Other.jpg
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -13,22 +13,22 @@ Theatre: The 5 & Dime
 Venue: BABS' LAB
 Writer: Joshua Harmon (playwright) - wiki
 Website: https://www.the5anddime.org/significant-other
-showtimes: 
-  - 2022-04-21 20:00:00
-  - 2022-04-22 20:00:00
-  - 2022-04-23 20:00:00
+showtimes:
+- 2022-04-21 20:00:00
+- 2022-04-22 20:00:00
+- 2022-04-23 20:00:00
 cast:
-  Cast: 
-    - Bradley Akers
-    - Lindsay Curry
-    - Kasi Walters
-    - Danielle Glenn
-    - Brooks Anne Meierdierks
-    - Christopher Watson
-    - Daniel Austin
-    - Cynthia Riegler
+- Cast:
+  - Bradley Akers
+  - Lindsay Curry
+  - Kasi Walters
+  - Danielle Glenn
+  - Brooks Anne Meierdierks
+  - Christopher Watson
+  - Daniel Austin
+  - Cynthia Riegler
 crew:
-  Director: Barbara Colaciello
+- Director: Barbara Colaciello
 external_links:
   SIGNIFICANT OTHER | The 5 & Dime: https://www.the5anddime.org/significant-other
 ---

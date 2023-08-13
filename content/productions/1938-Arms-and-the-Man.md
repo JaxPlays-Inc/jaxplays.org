@@ -3,33 +3,33 @@ title: Arms and the Man
 date: 1938-04-12
 closing_date: 1938-04-14
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
-playbill: 
-category: 
+playbill:
+category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:
-  An Officer: William Blois, Jr.
-  Catherine: Fay Beckett
-  Luca: Justine Rehnborg Case
-  Major Petkoff: William Frazier
-  Major Sergius Saranoff: Paul Delgado
-  Nicola: Everett Dwight
-  Raina: Mary Keen
-  The Man: Charles A. Luckie
+- An Officer: William Blois, Jr.
+- Catherine: Fay Beckett
+- Luca: Justine Rehnborg Case
+- Major Petkoff: William Frazier
+- Major Sergius Saranoff: Paul Delgado
+- Nicola: Everett Dwight
+- Raina: Mary Keen
+- The Man: Charles A. Luckie
 crew:
-  Director: Huron L. Blyden
-  Earl DeFlorin: Earl DeFlorin
-  Props: Mary Noel Preston
-  Staging:
-    - Stokes Perry
-  Staging Assistant:
-    - Grace Martin
-    - Mary Courtney
-    - Paul Haile
-    - Sally Dwight
+- Director: Huron L. Blyden
+- Earl DeFlorin: Earl DeFlorin
+- Props: Mary Noel Preston
+- Staging:
+  - Stokes Perry
+- Staging Assistant:
+  - Grace Martin
+  - Mary Courtney
+  - Paul Haile
+  - Sally Dwight
 orchestra:
 external_links:
 ---

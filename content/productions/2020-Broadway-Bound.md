@@ -2,38 +2,38 @@
 layout: productions
 title: Broadway Bound!
 redirect_from:
-  - /productions/2020_Broadway_Bound
+- /productions/2020_Broadway_Bound
 date: 2020-01-24
 closing_date: 2020-01-26
 featured_image: 2020_Broadway_Bound.png
-image_credit: 
-image_alt: "The 5 & Dime Live! Cabaret Series: Broadway Bound!"
-image_caption: 
-category: 
+image_credit:
+image_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
+image_caption:
+category:
 Title: Broadway Bound!
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/broadway-bound
-showtimes: 
-  - 2020-01-24 20:00:00
-  - 2020-01-25 20:00:00
-  - 2020-01-26 14:00:00
+showtimes:
+- 2020-01-24 20:00:00
+- 2020-01-25 20:00:00
+- 2020-01-26 14:00:00
 cast:
-  Performers: 
-    - Christian Savin
-    - Kaylee Hendree
-    - Ari Walz
-    - Alayna Martus
-    - Jack Niemczyk
-    - Alex Furlong
-    - Sarah Stepp
-    - Tess Therrien
-    - Nick Nasta
-    - Tatum Matthews
-    - Michael Llerandi
-  Pianist: Ben Beck
+- Performers:
+  - Christian Savin
+  - Kaylee Hendree
+  - Ari Walz
+  - Alayna Martus
+  - Jack Niemczyk
+  - Alex Furlong
+  - Sarah Stepp
+  - Tess Therrien
+  - Nick Nasta
+  - Tatum Matthews
+  - Michael Llerandi
+- Pianist: Ben Beck
 crew:
-  Director: Lee Hamby
-  Stage Manager: Cameron Sparks
+- Director: Lee Hamby
+- Stage Manager: Cameron Sparks
 external_links:
   BROADWAY BOUND | The 5 & Dime: https://www.the5anddime.org/broadway-bound
 ---

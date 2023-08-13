@@ -12,7 +12,7 @@ Playwright: N. Richard Nash - wiki
 Setting: West rural town, Depression-era America
 cast:
 crew:
-  Director: Michael Lipp
+- Director: Michael Lipp
 external_links:
 ---
 

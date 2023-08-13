@@ -2,11 +2,11 @@
 layout: productions
 title: Silence! The Musical
 redirect_from:
-  - /productions/2019_Silence_The_Musical
+- /productions/2019_Silence_The_Musical
 date: 2019-09-20
 closing_date: 2019-10-05
 featured_image: 2019_Silence_The_Musical.webp
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: musical
@@ -16,44 +16,44 @@ Music: Jon and Al Kaplan - wiki
 Lyrics: Jon and Al Kaplan
 Book: Hunter Bell - wiki
 Website: https://www.the5anddime.org/silence-the-musical
-showtimes: 
-  - 2019-09-20 20:00:00
-  - 2019-09-21 20:00:00
-  - 2019-09-23 20:00:00
-  - 2019-09-26 20:00:00
-  - 2019-09-27 20:00:00
-  - 2019-09-28 20:00:00
-  - 2019-09-28 23:00:00
-  - 2019-10-02 20:00:00
-  - 2019-10-03 20:00:00
-  - 2019-10-04 20:00:00
-  - 2019-10-05 20:00:00
-  - 2019-10-05 23:00:00
+showtimes:
+- 2019-09-20 20:00:00
+- 2019-09-21 20:00:00
+- 2019-09-23 20:00:00
+- 2019-09-26 20:00:00
+- 2019-09-27 20:00:00
+- 2019-09-28 20:00:00
+- 2019-09-28 23:00:00
+- 2019-10-02 20:00:00
+- 2019-10-03 20:00:00
+- 2019-10-04 20:00:00
+- 2019-10-05 20:00:00
+- 2019-10-05 23:00:00
 cast:
-  Clarice Starling: Joanna Yeakel
-  Dr. Hannibal Lecter: Thomas Nightingale
-  Jame Gumb/Buffalo Bill: Gary Baker
-  Catherine Baker Martin: Jennifer O'Brien
-  Jack Crawford: Sam Cobean
-  Ardelia Mapp: Sade Crosby
-  Dr. Frederick Chilton: Richie Rosado
-  Papa Starling: Sam Cobean
-  Senator Ruth Martin: Jack Niemczyk
-  The Lambs: 
-    - Ethan Fisher
-    - Jacob Pickering
-    - Shauna Clark
-    - Jennifer O'Brien
-    - Sam Cobean
-    - Sade Crosby
-    - Richie Rosado
-    - Jack Niemczyk
+- Clarice Starling: Joanna Yeakel
+- Dr. Hannibal Lecter: Thomas Nightingale
+- Jame Gumb/Buffalo Bill: Gary Baker
+- Catherine Baker Martin: Jennifer O'Brien
+- Jack Crawford: Sam Cobean
+- Ardelia Mapp: Sade Crosby
+- Dr. Frederick Chilton: Richie Rosado
+- Papa Starling: Sam Cobean
+- Senator Ruth Martin: Jack Niemczyk
+- The Lambs:
+  - Ethan Fisher
+  - Jacob Pickering
+  - Shauna Clark
+  - Jennifer O'Brien
+  - Sam Cobean
+  - Sade Crosby
+  - Richie Rosado
+  - Jack Niemczyk
 crew:
-  Director: Lee Hamby
-  Assistant Director: Josh Andrews
-  Music Director: Ben Beck
-  Choreographer: Niki Stokes
-  Stage Manager: Katie Cress
+- Director: Lee Hamby
+- Assistant Director: Josh Andrews
+- Music Director: Ben Beck
+- Choreographer: Niki Stokes
+- Stage Manager: Katie Cress
 external_links:
   The 5 & Dime: https://www.the5anddime.org/silence-the-musical
 ---

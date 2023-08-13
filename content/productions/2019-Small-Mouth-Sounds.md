@@ -2,11 +2,11 @@
 layout: productions
 title: Small Mouth Sounds
 redirect_from:
-  - /productions/2019_Small_Mouth_Sounds
+- /productions/2019_Small_Mouth_Sounds
 date: 2019-04-19
 closing_date: 2019-05-05
 featured_image: 2019_Small_Mouth_Sounds.webp
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -14,27 +14,27 @@ Title: Small Mouth Sounds
 Theatre: The 5 & Dime
 Writer: Bess Wohl - wiki
 Website: https://www.the5anddime.org/small-mouth-sounds
-showtimes: 
-  - 2019-04-19 20:00:00
-  - 2019-04-20 20:00:00
-  - 2019-04-22 20:00:00
-  - 2019-04-26 20:00:00
-  - 2019-04-27 20:00:00
-  - 2019-04-28 14:00:00
-  - 2019-05-03 20:00:00
-  - 2019-05-04 20:00:00
-  - 2019-05-05 14:00:00
+showtimes:
+- 2019-04-19 20:00:00
+- 2019-04-20 20:00:00
+- 2019-04-22 20:00:00
+- 2019-04-26 20:00:00
+- 2019-04-27 20:00:00
+- 2019-04-28 14:00:00
+- 2019-05-03 20:00:00
+- 2019-05-04 20:00:00
+- 2019-05-05 14:00:00
 cast:
-  Performers: 
-    - Christopher Watson
-    - Katie Johnston
-    - Richie Rosado
-    - Zonetta Thomas
-    - Cynthia Riegler
-    - Mike Roberts
-    - Lyra Hall
+- Performers:
+  - Christopher Watson
+  - Katie Johnston
+  - Richie Rosado
+  - Zonetta Thomas
+  - Cynthia Riegler
+  - Mike Roberts
+  - Lyra Hall
 crew:
-  Director: Daniel N. Austin
+- Director: Daniel N. Austin
 external_links:
   SMALL MOUTH SOUNDS: https://www.the5anddime.org/small-mouth-sounds
 ---

@@ -1,12 +1,12 @@
 ---
 layout: productions
 redirect_from:
-  - /productions/2019_Love_Valour_Compassion
+- /productions/2019_Love_Valour_Compassion
 title: Love! Valour! Compassion!
 date: 2019-10-18
 closing_date: 2019-10-20
-featured_image: 
-image_credit: 
+featured_image:
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -14,20 +14,20 @@ Title: Love! Valour! Compassion!
 Theatre: The 5 & Dime
 Writer: Terrence McNally - wiki
 Website: https://www.the5anddime.org/love-valour-compassion
-showtimes: 
-  - 2019-10-18 20:00:00
-  - 2019-10-19 20:00:00
-  - 2019-10-20 14:00:00
+showtimes:
+- 2019-10-18 20:00:00
+- 2019-10-19 20:00:00
+- 2019-10-20 14:00:00
 cast:
-  John Jeckyll/James Jeckyll: Mike Beaman
-  Perry Sellars: Joshua Taylor
-  Buzz Hauser: Josh Waller
-  Gregory Mitchell: Blake Osner
-  Bobby: Brian Matthews
-  Arthur Pape: Christopher Watson
-  Ramon Fornos: Abrien Nelson
+- John Jeckyll/James Jeckyll: Mike Beaman
+- Perry Sellars: Joshua Taylor
+- Buzz Hauser: Josh Waller
+- Gregory Mitchell: Blake Osner
+- Bobby: Brian Matthews
+- Arthur Pape: Christopher Watson
+- Ramon Fornos: Abrien Nelson
 crew:
-  Director: Joe Kemper
+- Director: Joe Kemper
 external_links:
   The 5 & Dime: https://www.the5anddime.org/love-valour-compassion
 ---

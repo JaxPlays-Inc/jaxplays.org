@@ -5,7 +5,7 @@ layout: productions
 title: Matilda the Musical
 date: 2020
 featured_image: 2020_Matilda_the_Musical.png
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: musical
@@ -17,61 +17,61 @@ Lyrics: Tim Minchin
 Book: Dennis Kelly - wiki
 Basis: Matilda by Roald Dahl
 Website: https://www.theatrejax.com/this-season
-showtimes: 
-  - 2020-06-05 20:00:00
-  - 2020-06-06 20:00:00
-  - 2020-06-11 19:30:00
-  - 2020-06-12 20:00:00
-  - 2020-06-13 20:00:00
-  - 2020-06-14 14:00:00
-  - 2020-06-18 19:30:00
-  - 2020-06-19 20:00:00
-  - 2020-06-20 20:00:00
-  - 2020-06-21 14:00:00
+showtimes:
+- 2020-06-05 20:00:00
+- 2020-06-06 20:00:00
+- 2020-06-11 19:30:00
+- 2020-06-12 20:00:00
+- 2020-06-13 20:00:00
+- 2020-06-14 14:00:00
+- 2020-06-18 19:30:00
+- 2020-06-19 20:00:00
+- 2020-06-20 20:00:00
+- 2020-06-21 14:00:00
 cast:
-  Matilda: Ava Billings
-  Michael: AJ Coots
-  Lavender: Amara Powell
-  Bruce: Aaron Gibson
-  Amanda: Abigail Douglas
-  Nigel: Cason Barnes
-  Eric: Drew Fitzgerald
-  Alice: Scarlett Bradley
-  Hortensia: Clara Barnes
-  Tommy: Kevin Wright
-  Agatha Trunchbull: Ma Bones
-  Miss Honey: Sara Beth Gerard
-  Mr. Wormwood: Dave Alan Thomas
-  Mrs Wormwood: Jocelyn Geronimo
-  Mrs Phelps: Brenda Chapman
-  The Escapologist: Nikolas Wendorf
-  The Acrobat: Theresa Pazanowski
-  Children’s Entertainer: Rod Leigh
-  Ensemble: 
-    - Oliver Carson
-    - Ava Chung
-    - Ella Escamilla
-    - Sophia Goral
-    - Olivia Harris
-    - Brooke Little
-    - Bianca Pontello
-    - Davis Roberts
-    - Isabelle Rose
-    - Maya Soriano
-    - Reagan Thomas
-    - Alyssa Billings
-    - Nick Dunkenstein
-    - Felecia Ewing
-    - Ricky Fields
-    - Brittany Harmon
-    - Tai McClendon
-    - Janaira Perez
-    - Michael Porter
-    - Kiana Soriano
+- Matilda: Ava Billings
+- Michael: AJ Coots
+- Lavender: Amara Powell
+- Bruce: Aaron Gibson
+- Amanda: Abigail Douglas
+- Nigel: Cason Barnes
+- Eric: Drew Fitzgerald
+- Alice: Scarlett Bradley
+- Hortensia: Clara Barnes
+- Tommy: Kevin Wright
+- Agatha Trunchbull: Ma Bones
+- Miss Honey: Sara Beth Gerard
+- Mr. Wormwood: Dave Alan Thomas
+- Mrs Wormwood: Jocelyn Geronimo
+- Mrs Phelps: Brenda Chapman
+- The Escapologist: Nikolas Wendorf
+- The Acrobat: Theresa Pazanowski
+- "Children\u2019s Entertainer": Rod Leigh
+- Ensemble:
+  - Oliver Carson
+  - Ava Chung
+  - Ella Escamilla
+  - Sophia Goral
+  - Olivia Harris
+  - Brooke Little
+  - Bianca Pontello
+  - Davis Roberts
+  - Isabelle Rose
+  - Maya Soriano
+  - Reagan Thomas
+  - Alyssa Billings
+  - Nick Dunkenstein
+  - Felecia Ewing
+  - Ricky Fields
+  - Brittany Harmon
+  - Tai McClendon
+  - Janaira Perez
+  - Michael Porter
+  - Kiana Soriano
 crew:
-  Director: Ron Shreve
-  Musical Director: Aaron DeCicco
-  Choreograper: Curtis J. Williams
+- Director: Ron Shreve
+- Musical Director: Aaron DeCicco
+- Choreograper: Curtis J. Williams
 external_links:
   THIS SEASON: https://www.theatrejax.com/this-season
 ---

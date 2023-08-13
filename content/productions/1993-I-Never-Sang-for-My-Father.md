@@ -2,12 +2,12 @@
 layout: productions
 title: I Never Sang for My Father
 date: 1993
-featured_image: 
+featured_image:
 category:
 Theatre: Players by the Sea
 cast:
-  Gene Garrison: Michael Lipp
+- Gene Garrison: Michael Lipp
 crew:
-  Director: Michael Lipp
+- Director: Michael Lipp
 external_links:
 ---

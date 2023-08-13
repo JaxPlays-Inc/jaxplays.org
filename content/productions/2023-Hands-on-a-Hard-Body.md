@@ -6,7 +6,7 @@ layout: productions
 featured_image: 2023_Hands_on_a_Hard_Body.webp
 image_caption: Poster for Hands on a Hard Body
 image_credit: Limelight Theatre
-playbill: 
+playbill:
 category: musical
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
@@ -16,52 +16,52 @@ Music: Trey Anastasio and Amanda Green
 Tickets: https://ci.ovationtix.com/34666?_gl=1*18d70jm*_ga*NDM1NTI4MTIwLjE2ODk5NjU0NjQ.*_ga_1T723BH96L*MTY5MTcyNTk1Ny4yLjEuMTY5MTcyNTk3MC40Ny4wLjA.
 Website: https://www.limelight-theatre.org/shows/hands-on-a-hardbody
 showtimes:
-  - 2023-08-10 19:30:00
-  - 2023-08-11 19:30:00
-  - 2023-08-12 19:30:00
-  - 2023-08-13 14:00:00
-  - 2023-08-15 19:30:00
-  - 2023-08-17 19:30:00
-  - 2023-08-18 19:30:00
-  - 2023-08-19 19:30:00
-  - 2023-08-24 19:30:00
-  - 2023-08-25 19:30:00
-  - 2023-08-26 19:30:00
-  - 2023-08-31 19:30:00
-  - 2023-09-01 19:30:00
-  - 2023-09-02 19:30:00
-  - 2023-09-03 14:00:00
+- 2023-08-10 19:30:00
+- 2023-08-11 19:30:00
+- 2023-08-12 19:30:00
+- 2023-08-13 14:00:00
+- 2023-08-15 19:30:00
+- 2023-08-17 19:30:00
+- 2023-08-18 19:30:00
+- 2023-08-19 19:30:00
+- 2023-08-24 19:30:00
+- 2023-08-25 19:30:00
+- 2023-08-26 19:30:00
+- 2023-08-31 19:30:00
+- 2023-09-01 19:30:00
+- 2023-09-02 19:30:00
+- 2023-09-03 14:00:00
 cast:
-  Don Curtis: Burt Keirstead
-  Frank Nugent: Cameron Kirkland
-  Kelly Magnum: Keegan McGee
-  JD Drew: Blake Osner
-  Norma Valverde: Renee Riso
-  Janis Curtis: Sherry Rosen
-  Benny Perkins: Bo Strange
-  Cindy Barnes: Kelly Brown
-  Heather Stovall: Isabella Casillas
-  Ronald McCowan: Phedre Delinois
-  Greg Whilhote: Logan Everson
-  Jesus Pena: Jose Fuentes
-  Mike Ferris: Jalen Hardy
-  Virginia Drew: Helena Helms
-  Chris Alvaro: Cameron Hodges
+- Don Curtis: Burt Keirstead
+- Frank Nugent: Cameron Kirkland
+- Kelly Magnum: Keegan McGee
+- JD Drew: Blake Osner
+- Norma Valverde: Renee Riso
+- Janis Curtis: Sherry Rosen
+- Benny Perkins: Bo Strange
+- Cindy Barnes: Kelly Brown
+- Heather Stovall: Isabella Casillas
+- Ronald McCowan: Phedre Delinois
+- Greg Whilhote: Logan Everson
+- Jesus Pena: Jose Fuentes
+- Mike Ferris: Jalen Hardy
+- Virginia Drew: Helena Helms
+- Chris Alvaro: Cameron Hodges
 crew:
-  Director: Lee Hamby
-  Assistant Director: Cathy O'Brien
-  Music Director: Ben Beck
-  Stage Manager: Sophie Willis
-  Costumes: Cathy Dooley
-  Lighting: Carl Liberatore
-  Sound Design: Bradley Cooper
-  Sound Board: Franchesca Bellavista
-  Technical Director/Set Design: Tyler Hammond
-  Assistant Stage Manager: Evan Hayes
-  Choreographer: Jocelyn Geronimo
-  Light Board Operator: Ashley Taylor
-  Shop Foreman: Dom Grasso
-  Scenic Artist: Nancy Grasso
+- Director: Lee Hamby
+- Assistant Director: Cathy O'Brien
+- Music Director: Ben Beck
+- Stage Manager: Sophie Willis
+- Costumes: Cathy Dooley
+- Lighting: Carl Liberatore
+- Sound Design: Bradley Cooper
+- Sound Board: Franchesca Bellavista
+- Technical Director/Set Design: Tyler Hammond
+- Assistant Stage Manager: Evan Hayes
+- Choreographer: Jocelyn Geronimo
+- Light Board Operator: Ashley Taylor
+- Shop Foreman: Dom Grasso
+- Scenic Artist: Nancy Grasso
 orchestra:
 external_links:
 ---

@@ -1,28 +1,28 @@
 ---
 title: A Wonderful Woman
 date: 1937-02-27
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
-playbill: 
-category: 
+playbill:
+category:
 Theatre: Theatre Jacksonville
 cast:
-  Cora: Betty Germaine
-  Tony: Birt Byrd
-  The Individual: Kenneth Dent
-  Steve: William DeHoff
+- Cora: Betty Germaine
+- Tony: Birt Byrd
+- The Individual: Kenneth Dent
+- Steve: William DeHoff
 crew:
-  Director: Slocum Ball
-  Scenery: Billy Dishinger
-  Lighting: Cliffard Lowe
-  Props:
-    - Frances Coleman
-    - Mrs. Holden Blackwell
-  Prompter: Grace Seagraves
-  Publicity: Helen Gray
+- Director: Slocum Ball
+- Scenery: Billy Dishinger
+- Lighting: Cliffard Lowe
+- Props:
+  - Frances Coleman
+  - Mrs. Holden Blackwell
+- Prompter: Grace Seagraves
+- Publicity: Helen Gray
 orchestra:
 external_links:
 ---

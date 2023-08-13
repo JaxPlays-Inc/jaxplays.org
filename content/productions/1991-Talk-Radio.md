@@ -2,11 +2,11 @@
 layout: productions
 title: Talk Radio
 date: 1991
-featured_image: 
+featured_image:
 category:
 Theatre: Players by the Sea
 cast:
 crew:
-  Director: Michael Lipp
+- Director: Michael Lipp
 external_links:
 ---

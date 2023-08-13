@@ -4,7 +4,7 @@ title: Dinner with Booker T.
 date: 2020-02-08
 closing_date: 2020-02-08
 featured_image: 2020_Dinner_with_Booker_T.jpg
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -14,11 +14,11 @@ Venue: Worsham Hall, Episcopal Church of the Good Shepherd
 Writer: Darryl Reuben Hall
 Genre: One-man show - wiki
 Tickets: https://stageaurora.ticketleap.com/
-showtimes: 
-  - 2020-02-08 18:30:00
+showtimes:
+- 2020-02-08 18:30:00
 cast:
-  Booker T. Washington, et al.: Darryl Reuben Hall
-crew: 
+- Booker T. Washington, et al.: Darryl Reuben Hall
+crew:
 external_links:
   Stage Aurora Theatrical Company, Inc.: https://stageaurora.ticketleap.com/
 ---

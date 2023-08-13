@@ -2,7 +2,7 @@
 layout: productions
 title: The Shawshank Redemption
 redirect_from:
-  - /productions/2022_The_Shawshank_Redemption
+- /productions/2022_The_Shawshank_Redemption
 date: 2022-05-20
 closing_date: 2022-06-05
 featured_image: 2022_The_Shawshank_Redemption.jpeg
@@ -15,33 +15,33 @@ Writer: Dave Johns, Owen O'Neill
 Genre: Crime Fiction
 Setting: Shawshank State Penitentiary
 Tickets: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439?aff=erelexpmlt
-showtimes: 
-  - 2022-05-20 19:30:00
-  - 2022-05-21 19:30:00
-  - 2022-05-22 14:00:00
-  - 2022-05-27 19:30:00
-  - 2022-05-28 19:30:00
-  - 2022-05-29 14:00:00
-  - 2022-06-03 19:30:00
-  - 2022-06-04 19:30:00
-  - 2022-06-05 14:00:00
+showtimes:
+- 2022-05-20 19:30:00
+- 2022-05-21 19:30:00
+- 2022-05-22 14:00:00
+- 2022-05-27 19:30:00
+- 2022-05-28 19:30:00
+- 2022-05-29 14:00:00
+- 2022-06-03 19:30:00
+- 2022-06-04 19:30:00
+- 2022-06-05 14:00:00
 cast:
-  Andy Dufresne: James Bilderback
-  Red: David Girard
-  Warden Stammas: Bill Ratliff
-  Hadley: Matt King
-  Bogs: Josh Rutgers
-  Brooksie: Kevin Roberts
-  Entwistle: Ben Jaeger
-  Rooster: Christopher Watson
-  Dawkins: Jan Peter Buksar
-  Tommy: Hays Jacobs
-  Rico: Eric Hollenbeck
-  Pinky: J. Lacy Roberts
+- Andy Dufresne: James Bilderback
+- Red: David Girard
+- Warden Stammas: Bill Ratliff
+- Hadley: Matt King
+- Bogs: Josh Rutgers
+- Brooksie: Kevin Roberts
+- Entwistle: Ben Jaeger
+- Rooster: Christopher Watson
+- Dawkins: Jan Peter Buksar
+- Tommy: Hays Jacobs
+- Rico: Eric Hollenbeck
+- Pinky: J. Lacy Roberts
 crew:
-  Director: Tracy Anne Olin
-  Stage Manager: Lora Cristl
-  Fight Choreographer: Kristen Oliver
+- Director: Tracy Anne Olin
+- Stage Manager: Lora Cristl
+- Fight Choreographer: Kristen Oliver
 external_links:
   The Shawshank Redemption: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439
 ---

@@ -2,12 +2,12 @@
 title: The Rainmaker
 date: 1986
 layout: productions
-featured_image: 
+featured_image:
 category:
 Theatre: Players by the Sea
 Playwright: N. Richard Nash - wiki
 cast:
-  Noah: Michael Lipp
+- Noah: Michael Lipp
 crew:
 external_links:
 ---

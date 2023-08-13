@@ -3,25 +3,25 @@ title: Sauce for the Emperor
 date: 1924-02-25
 closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Donor: Carl Bohenberger
-  Io: Charles Cruikshank
-  Tritor: Charles Johnston
-  Octavia: Lucile Westerfield
-  Paula: Martha Brotherton
-  Adora: Olive Rosenquist
-  Tricanthus: Robert Barker
-  Macronius: Robert L. Hutchinson
-  Nero: Wade Morrow
+- Donor: Carl Bohenberger
+- Io: Charles Cruikshank
+- Tritor: Charles Johnston
+- Octavia: Lucile Westerfield
+- Paula: Martha Brotherton
+- Adora: Olive Rosenquist
+- Tricanthus: Robert Barker
+- Macronius: Robert L. Hutchinson
+- Nero: Wade Morrow
 crew:
-  Director: Harrison Gibbs Prentice
-  Stage Setting: Mrs. Strawn Perry
+- Director: Harrison Gibbs Prentice
+- Stage Setting: Mrs. Strawn Perry
 orchestra:
 external_links:
 ---

@@ -1,41 +1,41 @@
 ---
 title: How the Other Half Loves
 date: 1993
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
-playbill: 
-category: 
+playbill:
+category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:
-  Fiona: Allison Stinson
-  Frank: Redgie Gutshall
-  Teresa: Debrah Jordan-Chaille
-  Bob: Dennis James
-  Mary: Holly Hunsicker
-  William: Dave Saelens
+- Fiona: Allison Stinson
+- Frank: Redgie Gutshall
+- Teresa: Debrah Jordan-Chaille
+- Bob: Dennis James
+- Mary: Holly Hunsicker
+- William: Dave Saelens
 crew:
-  Artistic Director: Donna Zell
-  Technical Director: Bradley Manley
-  Production Design: 
-    - Johnny Pettegrew
-    - Bradley Manley
-  Stage Manager: Karl Rogers
-  Set Construction: 
-    - Bradley Manley
-    - Geoff Will
-  Costume Coordinator: Sherrie Bethune
-  Properties Master: Earl Lehkamp
-  Props: 
-    - Mike Pilver
-    - Jim Dudley
-    - Kevin F. Roberts
-  Lighting Design: Bradley Manley
-  Light Board Operator: Gloria Pepe
-  Sound Operator: Karl Rogers
+- Artistic Director: Donna Zell
+- Technical Director: Bradley Manley
+- Production Design:
+  - Johnny Pettegrew
+  - Bradley Manley
+- Stage Manager: Karl Rogers
+- Set Construction:
+  - Bradley Manley
+  - Geoff Will
+- Costume Coordinator: Sherrie Bethune
+- Properties Master: Earl Lehkamp
+- Props:
+  - Mike Pilver
+  - Jim Dudley
+  - Kevin F. Roberts
+- Lighting Design: Bradley Manley
+- Light Board Operator: Gloria Pepe
+- Sound Operator: Karl Rogers
 orchestra:
 external_links:
 ---

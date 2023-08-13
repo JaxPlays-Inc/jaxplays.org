@@ -4,30 +4,30 @@ cancelled: COVID-19
 layout: productions
 title: Photograph 51
 date: 2020
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
-featured_image: 
+featured_image:
 playbill: 2020_photograph_51.pdf
 Title: Photograph 51 (play) - wiki
 Theatre: Actors Collective
 Venue: Museum of Science & History
 Writer: Anna Ziegler (playwright) - wiki
-Series: "The Secret of Life: A Science Play Series"
-showtimes: 
-  - 2020-03-13 19:30:00
-  - 2020-03-14 19:30:00
-  - 2020-03-15 16:00:00
+Series: 'The Secret of Life: A Science Play Series'
+showtimes:
+- 2020-03-13 19:30:00
+- 2020-03-14 19:30:00
+- 2020-03-15 16:00:00
 cast:
-  Rosalind Franklin: Karen Konzen
-  Maurice Wilkins: Christopher Watson
-  James Watson: Rich Pintello
-  Francis Crick: Christopher P. Farrell
-  Raymond Gosling: Joshua Taylor
-  Donald Caspar: Mitchell Wohl
+- Rosalind Franklin: Karen Konzen
+- Maurice Wilkins: Christopher Watson
+- James Watson: Rich Pintello
+- Francis Crick: Christopher P. Farrell
+- Raymond Gosling: Joshua Taylor
+- Donald Caspar: Mitchell Wohl
 crew:
-  Director: Caryl Butterley
+- Director: Caryl Butterley
 external_links:
   Actors Collective - Photograph 51: http://www.actorscollective.com/photograph-51/
 --- 

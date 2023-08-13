@@ -1,34 +1,34 @@
 ---
 title: Clarence
 date: 1929-02-25
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Clarence: Henry Curtis
-  Mr. Wheeler: Isaac Peiser
-  Mrs. Wheeler: Amy Cavanagh
-  Mrs. Martin: Anne C. Lalor
-  Hubert Stem: Carl Cesery
-  Dinwiddie: Carl Harris
-  Della: Edith Pullen
-  Bobby Wheeler: Karst Connell
-  Violet Pinney: Louise Twitty
-  Cora Wheeler: Nell Killinger
+- Clarence: Henry Curtis
+- Mr. Wheeler: Isaac Peiser
+- Mrs. Wheeler: Amy Cavanagh
+- Mrs. Martin: Anne C. Lalor
+- Hubert Stem: Carl Cesery
+- Dinwiddie: Carl Harris
+- Della: Edith Pullen
+- Bobby Wheeler: Karst Connell
+- Violet Pinney: Louise Twitty
+- Cora Wheeler: Nell Killinger
 crew:
-  Director:
-    - Karst Connell
-    - Margaret Pumpelly
-    - Marie M. Graves
-  Staging: 
-    - Anne C. Lalor
-    - Basil Walker
-    - Margaret Pumpelly
-  Props: John Richard Grether 
+- Director:
+  - Karst Connell
+  - Margaret Pumpelly
+  - Marie M. Graves
+- Staging:
+  - Anne C. Lalor
+  - Basil Walker
+  - Margaret Pumpelly
+- Props: John Richard Grether
 external_links:
 ---

@@ -1,37 +1,36 @@
 ---
 title: Finders Keepers
 date: 1928-01-20
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Mrs. Hampton: Fay Beckett
-  Mr. Alldred: George W. Simmons
-  Mrs. Alldred: Marguerite Chiasson
-  Prologue: Jean Marie Graves
+- Mrs. Hampton: Fay Beckett
+- Mr. Alldred: George W. Simmons
+- Mrs. Alldred: Marguerite Chiasson
+- Prologue: Jean Marie Graves
 crew:
-  Director: Paul Stuart Buchanan
-  Lighting: J.W. Elred
-  Scenery: 
-    - Anne C. Lalor
-    - Irene Von Osthoff
-  Stage Assistant:
-    - Birsa Shepard
-    - Cecil Batchelder
-    - Charles W. Crooke
-    - Karl Bardin
-    - Leo Finney
-    - Morris Diamond
-    - Mrs. Calvin Wells
-
-  Props: 
-    - Mrs. O.Z. Tyler
-    - Mrs. Thomas L. Snowden
+- Director: Paul Stuart Buchanan
+- Lighting: J.W. Elred
+- Scenery:
+  - Anne C. Lalor
+  - Irene Von Osthoff
+- Stage Assistant:
+  - Birsa Shepard
+  - Cecil Batchelder
+  - Charles W. Crooke
+  - Karl Bardin
+  - Leo Finney
+  - Morris Diamond
+  - Mrs. Calvin Wells
+- Props:
+  - Mrs. O.Z. Tyler
+  - Mrs. Thomas L. Snowden
 orchestra:
 external_links:
 ---

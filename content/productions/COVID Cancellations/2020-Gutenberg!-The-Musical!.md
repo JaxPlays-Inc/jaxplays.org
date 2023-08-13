@@ -4,7 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Gutenberg! The Musical!
 date: 2020
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: musical
@@ -12,22 +12,22 @@ Theatre: The 5 & Dime
 Music: Scott Brown (writer) - wiki, Anthony King (writer) - wiki
 Lyrics: Scott Brown, Anthony King
 Book: Scott Brown, Anthony King
-showtimes: 
-  - 2020-04-17 20:00:00
-  - 2020-04-18 20:00:00
-  - 2020-04-20 20:00:00
-  - 2020-04-24 20:00:00
-  - 2020-04-25 20:00:00
-  - 2020-04-26 14:00:00
-  - 2020-05-01 20:00:00
-  - 2020-05-02 20:00:00
-  - 2020-05-03 14:00:00
+showtimes:
+- 2020-04-17 20:00:00
+- 2020-04-18 20:00:00
+- 2020-04-20 20:00:00
+- 2020-04-24 20:00:00
+- 2020-04-25 20:00:00
+- 2020-04-26 14:00:00
+- 2020-05-01 20:00:00
+- 2020-05-02 20:00:00
+- 2020-05-03 14:00:00
 cast:
-  Bud Davenport: Ethan Fisher
-  Doug Simon: Cole Marshall
+- Bud Davenport: Ethan Fisher
+- Doug Simon: Cole Marshall
 crew:
-  Director: Michael Lipp
-  Musical Director: Erin Barnes
+- Director: Michael Lipp
+- Musical Director: Erin Barnes
 external_links:
   Gutenberg! The Musical! | The 5 & Dime: https://www.the5anddime.org/gutenberg-the-musical
 ---

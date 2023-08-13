@@ -1,21 +1,21 @@
 ---
 title: Will O' the Wisp
 date: 1936-03-03
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
-playbill: 
-category: 
+playbill:
+category:
 Theatre: Theatre Jacksonville
 cast:
-  The White-Faced Girl: Helen Anders
-  The Irish Maid: June Stoy
-  The Poet's Wife: Kathleen Godshalk
-  The Country Woman: Louise Bowden
+- The White-Faced Girl: Helen Anders
+- The Irish Maid: June Stoy
+- The Poet's Wife: Kathleen Godshalk
+- The Country Woman: Louise Bowden
 crew:
-  Director: Marion Hendry
-  Props: Marion Hendry
-  Staging: Frances Blackwell
+- Director: Marion Hendry
+- Props: Marion Hendry
+- Staging: Frances Blackwell
 ---

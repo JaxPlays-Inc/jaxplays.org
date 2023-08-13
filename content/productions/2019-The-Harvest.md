@@ -4,7 +4,7 @@ title: The Harvest
 date: 2019-11-08
 closing_date: 2019-11-24
 featured_image: 2019_The_Harvest.webp
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -12,26 +12,26 @@ Title: The Harvest
 Theatre: The 5 & Dime
 Writer: Samuel D. Hunter - wiki
 Website: https://www.the5anddime.org/the-harvest
-showtimes: 
-  - 2019-11-08 20:00:00
-  - 2019-11-09 20:00:00
-  - 2019-11-11 20:00:00
-  - 2019-11-15 20:00:00
-  - 2019-11-16 20:00:00
-  - 2019-11-17 14:00:00
-  - 2019-11-22 20:00:00
-  - 2019-11-23 20:00:00
-  - 2019-11-24 14:00:00
+showtimes:
+- 2019-11-08 20:00:00
+- 2019-11-09 20:00:00
+- 2019-11-11 20:00:00
+- 2019-11-15 20:00:00
+- 2019-11-16 20:00:00
+- 2019-11-17 14:00:00
+- 2019-11-22 20:00:00
+- 2019-11-23 20:00:00
+- 2019-11-24 14:00:00
 cast:
-  Josh: Silas Langner
-  Tom: Mitchell Wohl
-  Ada: Kristen Walsh
-  Michaela: Jaclyn Cole
-  Denise: Mary Schubert
-  Marcus: Ethan Fisher
-  Pastor Chuck: Bob Pritchard
+- Josh: Silas Langner
+- Tom: Mitchell Wohl
+- Ada: Kristen Walsh
+- Michaela: Jaclyn Cole
+- Denise: Mary Schubert
+- Marcus: Ethan Fisher
+- Pastor Chuck: Bob Pritchard
 crew:
-  Director: Bradley Akers
+- Director: Bradley Akers
 external_links:
   THE HARVEST: https://www.the5anddime.org/the-harvest
 ---

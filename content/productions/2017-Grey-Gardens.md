@@ -1,19 +1,19 @@
 ---
 layout: productions
 redirect_from:
-  - /productions/2017_Grey_Gardens
+- /productions/2017_Grey_Gardens
 title: Grey Gardens
 date: 2017
-featured_image: 
-image_credit: 
+featured_image:
+image_credit:
 image_alt:
 image_caption:
-category: 
+category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:
- Gould: Michael Lipp
+- Gould: Michael Lipp
 crew:
-  Director: Michael Lipp
+- Director: Michael Lipp
 external_links:
 ---

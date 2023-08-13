@@ -6,35 +6,35 @@ layout: productions
 featured_image: 2023_Tik_Tik_Boom.webp
 image_caption: Poster for 'Tick, Tick... Boom!'
 image_credit: The 5 & Dime
-playbill: 
-category: 
+playbill:
+category:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 Tickets: https://www.the5anddime.org/tick-tick-boom
 showtimes:
-  - 2023-08-11 20:00:00
-  - 2023-08-12 20:00:00
-  - 2023-08-13 14:00:00
-  - 2023-08-13 20:00:00
-  - 2023-08-14 20:00:00
-  - 2023-08-17 20:00:00
-  - 2023-08-18 20:00:00
-  - 2023-08-19 14:00:00
-  - 2023-08-19 20:00:00
+- 2023-08-11 20:00:00
+- 2023-08-12 20:00:00
+- 2023-08-13 14:00:00
+- 2023-08-13 20:00:00
+- 2023-08-14 20:00:00
+- 2023-08-17 20:00:00
+- 2023-08-18 20:00:00
+- 2023-08-19 14:00:00
+- 2023-08-19 20:00:00
 cast:
-  Jonathan: Bradley Akers
-  Michael: Zach Rivera
-  Susan: Shauna Clark
+- Jonathan: Bradley Akers
+- Michael: Zach Rivera
+- Susan: Shauna Clark
 crew:
-  Director: Will Davis
-  Music Director: Anthony Felton
-  Stage Manager: Christine Phillips
-  Production Manager: Sam Hannigan 
-  Costume Designer: Sam Hannigan
-  Scenic Designer: Bradley Akers
-  Lighting Designer: Gabe Barnert
-  Sound Designer: Gabe Barnert
-  Props Designer: Katie Cress
+- Director: Will Davis
+- Music Director: Anthony Felton
+- Stage Manager: Christine Phillips
+- Production Manager: Sam Hannigan
+- Costume Designer: Sam Hannigan
+- Scenic Designer: Bradley Akers
+- Lighting Designer: Gabe Barnert
+- Sound Designer: Gabe Barnert
+- Props Designer: Katie Cress
 orchestra:
 external_links:
 ---

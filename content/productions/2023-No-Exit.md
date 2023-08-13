@@ -5,9 +5,9 @@ closing_date: 2023-08-12
 layout: productions
 featured_image: 2023_No_Exit.gif
 image_caption: Poster for 'No Exit'
-image_credit: Brunet-García Advertising
-playbill: 
-category: 
+image_credit: "Brunet-Garc\xEDa Advertising"
+playbill:
+category:
 Theatre: Lumen Repertory Theatre
 Venue: Swisher Theater
 Based on: _Huis Clos_ by Jean Paul Sartre
@@ -15,52 +15,54 @@ Adapted by: Brian Niece*
 Website: https://www.lumenrep.org/shows/noexit
 Tickets: https://noexit.eventbrite.com/
 showtimes:
-  - 2023-07-28 19:30:00
-  - 2023-07-29 19:30:00
-  - 2023-08-04 19:30:00
-  - 2023-08-05 19:30:00
-  - 2023-08-06 14:00:00
-  - 2023-08-11 19:30:00
-  - 2023-08-12 19:30:00
+- 2023-07-28 19:30:00
+- 2023-07-29 19:30:00
+- 2023-08-04 19:30:00
+- 2023-08-05 19:30:00
+- 2023-08-06 14:00:00
+- 2023-08-11 19:30:00
+- 2023-08-12 19:30:00
 cast:
-  Valet: Josh Andrews
-  Renaud: Jeff Drushal*
-  Estelle: Kate McManus
-  Inez: Kathryn Kuhn
+- Valet: Josh Andrews
+- Renaud: Jeff Drushal*
+- Estelle: Kate McManus
+- Inez: Kathryn Kuhn
 crew:
-  Director: Brian Niece*
-  Stage Manager: Kristin Livingston
-  Dramaturg: Brian Fullford
-  Set Design: Daniel Dungan
-  Lighting Design: Mike Livingston
-  Production Design: Claire Cimino
-  Sound Design: Brian Niece*
-  Master Carpenter: Tyler Hammond
+- Director: Brian Niece*
+- Stage Manager: Kristin Livingston
+- Dramaturg: Brian Fullford
+- Set Design: Daniel Dungan
+- Lighting Design: Mike Livingston
+- Production Design: Claire Cimino
+- Sound Design: Brian Niece*
+- Master Carpenter: Tyler Hammond
 photos:
-  - photo: 2023_No_Exit_1.webp
-    photo_credit: Ray Hollister
-    photo_alt: Kathryn Kuhn, Kate McManus, Josh Andrews and Jeff Drushal
-    photo_caption: Kathryn Kuhn, Kate McManus, Josh Andrews and Jeff Drushal (left to right)
-  - photo: 2023_No_Exit_2.webp
-    photo_credit: Ray Hollister
-    photo_alt: Kate McManus, Kathryn Kuhn and Jeff Drushal
-    photo_caption: Kate McManus, Kathryn Kuhn and Jeff Drushal (left to right)
-  - photo: 2023_No_Exit_3.webp
-    photo_credit: Ray Hollister
-    photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
-    photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
-  - photo: 2023_No_Exit_4.webp
-    photo_credit: Ray Hollister
-    photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
-    photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
-  - photo: 2023_No_Exit_5.webp
-    photo_credit: Ray Hollister
-    photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
-    photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
-  - photo: 2023_No_Exit_6.webp
-    photo_credit: Ray Hollister
-    photo_alt: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal
-    photo_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to right)
+- photo: 2023_No_Exit_1.webp
+  photo_credit: Ray Hollister
+  photo_alt: Kathryn Kuhn, Kate McManus, Josh Andrews and Jeff Drushal
+  photo_caption: Kathryn Kuhn, Kate McManus, Josh Andrews and Jeff Drushal (left to
+    right)
+- photo: 2023_No_Exit_2.webp
+  photo_credit: Ray Hollister
+  photo_alt: Kate McManus, Kathryn Kuhn and Jeff Drushal
+  photo_caption: Kate McManus, Kathryn Kuhn and Jeff Drushal (left to right)
+- photo: 2023_No_Exit_3.webp
+  photo_credit: Ray Hollister
+  photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
+  photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
+- photo: 2023_No_Exit_4.webp
+  photo_credit: Ray Hollister
+  photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
+  photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
+- photo: 2023_No_Exit_5.webp
+  photo_credit: Ray Hollister
+  photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
+  photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
+- photo: 2023_No_Exit_6.webp
+  photo_credit: Ray Hollister
+  photo_alt: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal
+  photo_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to
+    right)
 ---
 Step into the captivating world of No Exit, a thought-provoking and illuminating take on the timeless existential tale. This extraordinary production invites you to explore the depths of the human psyche as three recently deceased guests find themselves unexpectedly gathered in a single room within the depths of hell. But this is no ordinary room; it is a place where the true nature of existence is exposed, where the veil of pretense is stripped away, and where the souls of these co-residents must confront their own inner demons.
 

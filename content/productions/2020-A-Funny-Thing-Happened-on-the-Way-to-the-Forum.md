@@ -2,12 +2,12 @@
 layout: productions
 title: A Funny Thing Happened on the Way to the Forum
 redirect_from:
-  - /wiki/A_Funny_Thing_Happened_on_the_Way_to_the_Forum_(2020)
-  - /productions/2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum
+- /wiki/A_Funny_Thing_Happened_on_the_Way_to_the_Forum_(2020)
+- /productions/2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum
 date: 2020-01-24
 closing_date: 2020-02-15
 featured_image: 2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum.jpg
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: musical
@@ -18,51 +18,51 @@ Music: Stephen Sondheim - wiki
 Lyrics: Stephen Sondheim
 Book: Burt Shevelove - wiki, Larry Gelbart - wiki
 Website: https://www.playersbythesea.org/forum
-showtimes: 
-  - 2020-01-24 20:00:00
-  - 2020-01-25 20:00:00
-  - 2020-01-30 20:00:00
-  - 2020-02-01 20:00:00
-  - 2020-02-02 14:00:00
-  - 2020-02-06 20:00:00
-  - 2020-02-07 20:00:00
-  - 2020-02-08 20:00:00
-  - 2020-02-09 14:00:00
-  - 2020-02-12 20:00:00
-  - 2020-02-13 20:00:00
-  - 2020-02-14 20:00:00
-  - 2020-02-15 20:00:00
+showtimes:
+- 2020-01-24 20:00:00
+- 2020-01-25 20:00:00
+- 2020-01-30 20:00:00
+- 2020-02-01 20:00:00
+- 2020-02-02 14:00:00
+- 2020-02-06 20:00:00
+- 2020-02-07 20:00:00
+- 2020-02-08 20:00:00
+- 2020-02-09 14:00:00
+- 2020-02-12 20:00:00
+- 2020-02-13 20:00:00
+- 2020-02-14 20:00:00
+- 2020-02-15 20:00:00
 cast:
-  Pseudolus: Al Emerick
-  Hero: Billy Speed
-  Philia: Julie Harrington
-  Hysterium: Paepaeala Pimienta
-  Senex: Allen LaMontagne
-  Domina: Amy Allen Farmer
-  Marcus Lycus: Christopher Humphries
-  Miles Gloriosus: Jimmy Alexander
-  Erronius: Jim Warren
-  Gymnasia: Chelsea Black
-  The Geminae:  
-    - Shauna Clark
-    - Anna Fleece
-  Vibrata: Kimberly Cooper York
-  Tintinabula: Amanda Jackson
-  Panacea: Charity Zappone
-  The Proteans: 
-    - Jake McGraw
-    - Chinua Richardson
-    - Kris Stam
+- Pseudolus: Al Emerick
+- Hero: Billy Speed
+- Philia: Julie Harrington
+- Hysterium: Paepaeala Pimienta
+- Senex: Allen LaMontagne
+- Domina: Amy Allen Farmer
+- Marcus Lycus: Christopher Humphries
+- Miles Gloriosus: Jimmy Alexander
+- Erronius: Jim Warren
+- Gymnasia: Chelsea Black
+- The Geminae:
+  - Shauna Clark
+  - Anna Fleece
+- Vibrata: Kimberly Cooper York
+- Tintinabula: Amanda Jackson
+- Panacea: Charity Zappone
+- The Proteans:
+  - Jake McGraw
+  - Chinua Richardson
+  - Kris Stam
 crew:
-  Director: Michael Lipp
-  Music Director: Andrew Phoenix
-  Vocal Director: Tina Wilson
-  Choreographer: Stephanie Riner
-  Stage Manager: Cassie Neiss
-  Audio Technician: Destiny Golden
-  Producers: 
-    - Tyvin McSwain
-    - Toni Diamond-Bingham
+- Director: Michael Lipp
+- Music Director: Andrew Phoenix
+- Vocal Director: Tina Wilson
+- Choreographer: Stephanie Riner
+- Stage Manager: Cassie Neiss
+- Audio Technician: Destiny Golden
+- Producers:
+  - Tyvin McSwain
+  - Toni Diamond-Bingham
 external_links:
   A Funny Thing Happened on the Way to the Forum - Players by the Sea: https://www.playersbythesea.org/forum
   A Funny Thing Happened On The Way To The Forum' at Players by the Sea - The Jacksonville BUZZ: https://iwantabuzz.com/arts/arts-in-the-know/a-funny-thing-happened-on-the-way-to-the-forum/

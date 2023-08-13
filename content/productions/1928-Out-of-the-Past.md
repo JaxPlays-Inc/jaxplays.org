@@ -1,21 +1,21 @@
 ---
 title: Out of the Past
 date: 1928-12-19
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Christine Dearing: Anita Long
-  Douglas Haygood: Sambo
-  Philip Devlin: Edward Long
-  Sarah W. Haskell: Julia Long
-  Mrs. Allen: Pasquelina deVoe
+- Christine Dearing: Anita Long
+- Douglas Haygood: Sambo
+- Philip Devlin: Edward Long
+- Sarah W. Haskell: Julia Long
+- Mrs. Allen: Pasquelina deVoe
 crew:
-  Playwright: Gertrude F. Jacobi
+- Playwright: Gertrude F. Jacobi
 external_links:
 ---

@@ -2,11 +2,11 @@
 layout: productions
 title: Love Quest
 redirect_from:
-  - /productions/2020_Love_Quest
+- /productions/2020_Love_Quest
 date: 2020-02-21
 closing_date: 2020-03-08
 featured_image: 2020_Love_Quest.webp
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -16,26 +16,26 @@ Venue: Little Theatre
 Writer: Mary Maguire, Steven McGraw
 Genre: Romantic comedy
 Website: https://www.theatrejax.com/love-quest
-showtimes: 
-  - 2020-02-21 20:00:00
-  - 2020-02-22 20:00:00
-  - 2020-02-27 19:30:00
-  - 2020-02-28 20:00:00
-  - 2020-02-29 20:00:00
-  - 2020-03-01 14:00:00
-  - 2020-03-05 19:30:00
-  - 2020-03-06 20:00:00
-  - 2020-03-07 20:00:00
-  - 2020-03-08 14:00:00
+showtimes:
+- 2020-02-21 20:00:00
+- 2020-02-22 20:00:00
+- 2020-02-27 19:30:00
+- 2020-02-28 20:00:00
+- 2020-02-29 20:00:00
+- 2020-03-01 14:00:00
+- 2020-03-05 19:30:00
+- 2020-03-06 20:00:00
+- 2020-03-07 20:00:00
+- 2020-03-08 14:00:00
 cast:
-  Kate: Sarah Boone
-  Brook: Sara Beth Gerard
-  Hal: John Glover
-  Megan: Anna Hobbs
-  Everyman: Jas Abramowitz
-  Bové: Rich Pintello
+- Kate: Sarah Boone
+- Brook: Sara Beth Gerard
+- Hal: John Glover
+- Megan: Anna Hobbs
+- Everyman: Jas Abramowitz
+- "Bov\xE9": Rich Pintello
 crew:
-  Director: Michelle Svenson Kindy
+- Director: Michelle Svenson Kindy
 external_links:
   Love Quest, Theatre Jacksonville: https://www.theatrejax.com/love-quest
   Theatre Jacksonville | Love Quest: https://lovequest.club/theatre-jacksonville

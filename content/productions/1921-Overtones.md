@@ -1,24 +1,24 @@
 ---
 title: Overtones
 date: 1921-11-08
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Maggie: Birsa Shepard
-  Harriet: Elaine I. Minick
-  Hetty: Grace E. Haase
-  Margaret: Jessie McGriff
+- Maggie: Birsa Shepard
+- Harriet: Elaine I. Minick
+- Hetty: Grace E. Haase
+- Margaret: Jessie McGriff
 crew:
-  Director: Tracy L'Engle
-  Props: John A. Cunningham
-  Stage Decoration:
-    - Katherine Wilson
-    - Mrs. Strawn Perry
+- Director: Tracy L'Engle
+- Props: John A. Cunningham
+- Stage Decoration:
+  - Katherine Wilson
+  - Mrs. Strawn Perry
 external_links:
 ---

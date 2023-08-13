@@ -4,7 +4,7 @@ title: Sweat
 date: 2019-08-02
 closing_date: 2019-08-18
 featured_image: 2019_Sweat.webp
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -12,29 +12,29 @@ Title: Sweat
 Theatre: The 5 & Dime
 Writer: Lynn Nottage - wiki
 Website: https://www.the5anddime.org/sweat
-showtimes: 
-  - 2019-08-02 20:00:00
-  - 2019-08-03 20:00:00
-  - 2019-08-05 20:00:00
-  - 2019-08-09 20:00:00
-  - 2019-08-10 20:00:00
-  - 2019-08-11 14:00:00
-  - 2019-08-16 20:00:00
-  - 2019-08-17 20:00:00
-  - 2019-08-18 14:00:00
+showtimes:
+- 2019-08-02 20:00:00
+- 2019-08-03 20:00:00
+- 2019-08-05 20:00:00
+- 2019-08-09 20:00:00
+- 2019-08-10 20:00:00
+- 2019-08-11 14:00:00
+- 2019-08-16 20:00:00
+- 2019-08-17 20:00:00
+- 2019-08-18 14:00:00
 cast:
-  Performers: 
-    - Antoinette Johnson
-    - Erin Barnes
-    - Rashaud Sessoms
-    - Jas Abramowitz
-    - Kat McLeod
-    - Sean Clinkscales
-    - Jaron Wallace
-    - David Girard
-    - Richie Rosado
+- Performers:
+  - Antoinette Johnson
+  - Erin Barnes
+  - Rashaud Sessoms
+  - Jas Abramowitz
+  - Kat McLeod
+  - Sean Clinkscales
+  - Jaron Wallace
+  - David Girard
+  - Richie Rosado
 crew:
-  Director: Lindsay Curry
+- Director: Lindsay Curry
 external_links:
   SWEAT: https://www.the5anddime.org/sweat
 ---

@@ -1,20 +1,20 @@
 ---
 title: For Distinguished Service
 date: 1924-04-12
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Miss Katherine Burton: Dorothy Toomer
-  Mrs. "Jim" Harding: Helen Mullikin
-  Mary: Priscilla Toomer
+- Miss Katherine Burton: Dorothy Toomer
+- Mrs. "Jim" Harding: Helen Mullikin
+- Mary: Priscilla Toomer
 crew:
-  Director: Harrison Gibbs Prentice
-  Scene and Properties: Mrs. Lee Guest
+- Director: Harrison Gibbs Prentice
+- Scene and Properties: Mrs. Lee Guest
 external_links:
 ---

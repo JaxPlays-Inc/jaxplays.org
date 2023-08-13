@@ -2,11 +2,11 @@
 layout: productions
 title: Lessons We Were Never Taught
 redirect_from:
-  - /productions/2020_Lessons_We_Were_Never_Taught
+- /productions/2020_Lessons_We_Were_Never_Taught
 date: 2020-03-05
 closing_date: 2020-03-08
 featured_image: 2020_Lessons_We_Were_Never_Taught.jpg
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -15,15 +15,15 @@ Venue: BABS' LAB
 Writer: Nikesha Elise Williams
 Genre: One-woman show - wiki
 Website: http://www.newwrites.com/lessons
-showtimes: 
-  - 2020-03-05 20:00:00
-  - 2020-03-06 20:00:00
-  - 2020-03-07 20:00:00
-  - 2020-03-08 14:00:00
+showtimes:
+- 2020-03-05 20:00:00
+- 2020-03-06 20:00:00
+- 2020-03-07 20:00:00
+- 2020-03-08 14:00:00
 cast:
-  Herself: Nikesha Elise Williams
+- Herself: Nikesha Elise Williams
 crew:
-  Director: Barbara Colaciello
+- Director: Barbara Colaciello
 external_links:
   Finding Her Voice - Folio Weekly: http://folioweekly.com/stories/finding-her-voice,22187
 ---

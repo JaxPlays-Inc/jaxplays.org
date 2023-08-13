@@ -6,26 +6,26 @@ layout: productions
 featured_image: 2023_Burn_This.jpeg
 image_caption: Josh Andrews, graphic design Jon Scherf
 image_credit:
-playbill: 
-category: 
+playbill:
+category:
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 Playwright: Lanford Wilson
 Tickets: https://www.eventbrite.com/e/burn-this-tickets-365696406797
 showtimes:
-  - 2023-06-16 19:30:00
-  - 2023-06-17 19:30:00
-  - 2023-06-18 14:00:00
-  - 2023-06-23 19:30:00
-  - 2023-06-24 19:30:00
-  - 2023-06-25 14:00:00
+- 2023-06-16 19:30:00
+- 2023-06-17 19:30:00
+- 2023-06-18 14:00:00
+- 2023-06-23 19:30:00
+- 2023-06-24 19:30:00
+- 2023-06-25 14:00:00
 cast:
-  Pale: Tyler Hammond
-  Burton: Jason King
-  Anna: Danielle Dobies
-  Larry: Phedre Delinois
+- Pale: Tyler Hammond
+- Burton: Jason King
+- Anna: Danielle Dobies
+- Larry: Phedre Delinois
 crew:
-  Director: Josh Andrews
+- Director: Josh Andrews
 orchestra:
 external_links:
 ---

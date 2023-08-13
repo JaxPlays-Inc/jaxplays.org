@@ -2,11 +2,11 @@
 layout: productions
 title: You're a Good Man, Charlie Brown
 date: 1986
-featured_image: 
+featured_image:
 category:
 Theatre: Players by the Sea
 cast:
 crew:
-  Director: Michael Lipp
+- Director: Michael Lipp
 external_links:
 ---

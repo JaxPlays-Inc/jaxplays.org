@@ -1,25 +1,25 @@
 ---
 title: The Show Off (Reading)
 date: 1925
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Rogers: Charles McKinnon
-  Aubrey Piper: Dr. Lynwood Evans
-  Father: John A. Hall
-  Gill: Lorenzo Baldwin
-  Frank Hylan: Lucien Boggs
-  Mother: Margaret Somerville
-  Clara: Mrs. Charles T. Paxon
-  Amy: Mrs. Francis M. Holt
-  Joe: R. Swinnerton
+- Rogers: Charles McKinnon
+- Aubrey Piper: Dr. Lynwood Evans
+- Father: John A. Hall
+- Gill: Lorenzo Baldwin
+- Frank Hylan: Lucien Boggs
+- Mother: Margaret Somerville
+- Clara: Mrs. Charles T. Paxon
+- Amy: Mrs. Francis M. Holt
+- Joe: R. Swinnerton
 crew:
-  Stage Directions: Mrs. Fred Mullikin
+- Stage Directions: Mrs. Fred Mullikin
 external_links:
 ---

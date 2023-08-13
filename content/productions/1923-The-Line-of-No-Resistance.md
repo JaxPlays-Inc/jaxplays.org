@@ -1,20 +1,20 @@
 ---
 title: The Line of No Resistance
 date: 1923-11-24
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Jean Robertson: Hazel L'Engle
-  George Robertson: J. B. Lucy
-  Ethel Quenton: Laurine Goffin
+- Jean Robertson: Hazel L'Engle
+- George Robertson: J. B. Lucy
+- Ethel Quenton: Laurine Goffin
 crew:
-  Director: Harrison Gibbs Prentice
-  Scene Arrangement: Mrs. Alfred C. Ulmer
+- Director: Harrison Gibbs Prentice
+- Scene Arrangement: Mrs. Alfred C. Ulmer
 external_links:
 ---

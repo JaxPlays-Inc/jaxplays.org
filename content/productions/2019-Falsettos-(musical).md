@@ -1,12 +1,12 @@
 ---
 layout: productions
 redirect_from:
-  - /productions/2019_Falsettos_(musical)
+- /productions/2019_Falsettos_(musical)
 title: Falsettos
 date: 2019-06-14
 closing_date: 2019-06-30
 featured_image: 2019_Falsettos_(musical).webp
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: musical
@@ -16,30 +16,30 @@ Writer: William Finn - wiki, James Lapine - wiki
 Music: William Finn
 Lyrics: William Finn
 Website: https://www.the5anddime.org/falsettos
-showtimes: 
-  - 2019-06-14 20:00:00
-  - 2019-06-15 20:00:00
-  - 2019-06-16 14:00:00
-  - 2019-06-17 20:00:00
-  - 2019-06-20 20:00:00
-  - 2019-06-21 20:00:00
-  - 2019-06-22 20:00:00
-  - 2019-06-23 14:00:00
-  - 2019-06-27 20:00:00
-  - 2019-06-28 20:00:00
-  - 2019-06-29 20:00:00
-  - 2019-06-30 14:00:00
+showtimes:
+- 2019-06-14 20:00:00
+- 2019-06-15 20:00:00
+- 2019-06-16 14:00:00
+- 2019-06-17 20:00:00
+- 2019-06-20 20:00:00
+- 2019-06-21 20:00:00
+- 2019-06-22 20:00:00
+- 2019-06-23 14:00:00
+- 2019-06-27 20:00:00
+- 2019-06-28 20:00:00
+- 2019-06-29 20:00:00
+- 2019-06-30 14:00:00
 cast:
-  Performers: 
-    - Josh Waller
-    - David Medina
-    - Cole Marshall
-    - Katie Swider McCloskey
-    - Kacy Hope
-    - Julie Harrington
-    - Cason Barnes
+- Performers:
+  - Josh Waller
+  - David Medina
+  - Cole Marshall
+  - Katie Swider McCloskey
+  - Kacy Hope
+  - Julie Harrington
+  - Cason Barnes
 crew:
-  Director: Ron Shreve
+- Director: Ron Shreve
 external_links:
   FALSETTOS: https://www.the5anddime.org/falsettos
 ---

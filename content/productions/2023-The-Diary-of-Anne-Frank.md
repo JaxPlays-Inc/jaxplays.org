@@ -6,34 +6,34 @@ layout: productions
 featured_image: 2023_The_Diary_of_Anne_Frank.jpeg
 image_caption: Poster for The Diary of Anne Frank
 image_credit: Theatre Jacksonville
-playbill: 
-category: 
+playbill:
+category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 Tickets: https://ci.ovationtix.com/34919
 showtimes:
-  - 2023-09-21 19:30:00
-  - 2023-09-22 19:30:00
-  - 2023-09-23 14:00:00
-  - 2023-09-23 19:30:00
-  - 2023-09-28 19:30:00
-  - 2023-09-29 19:30:00
-  - 2023-09-30 14:00:00
-  - 2023-09-30 19:30:00
-  - 2023-10-01 14:00:00
+- 2023-09-21 19:30:00
+- 2023-09-22 19:30:00
+- 2023-09-23 14:00:00
+- 2023-09-23 19:30:00
+- 2023-09-28 19:30:00
+- 2023-09-29 19:30:00
+- 2023-09-30 14:00:00
+- 2023-09-30 19:30:00
+- 2023-10-01 14:00:00
 cast:
-  Mr. Frank: Jas Abromowitz
-  Miep: Isabella Puskas
-  Mrs. Van Daan: Evie Day
-  Mr. Van Daan: Evan Gould           
-  Peter Van Daan: Jacob Dinkel
-  Mrs. Frank: Cecilia Cristol
-  Margot Frank: Zoe Carpenter
-  Anne Frank: Audrey Rivera       
-  Mr. Kraler: Daniel Locke          
-  Mr. Dussel: Michael Skaff         
+- Mr. Frank: Jas Abromowitz
+- Miep: Isabella Puskas
+- Mrs. Van Daan: Evie Day
+- Mr. Van Daan: Evan Gould
+- Peter Van Daan: Jacob Dinkel
+- Mrs. Frank: Cecilia Cristol
+- Margot Frank: Zoe Carpenter
+- Anne Frank: Audrey Rivera
+- Mr. Kraler: Daniel Locke
+- Mr. Dussel: Michael Skaff
 crew:
-  Director: Jason Collins
+- Director: Jason Collins
 orchestra:
 external_links:
 ---

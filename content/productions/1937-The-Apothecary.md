@@ -1,27 +1,27 @@
 ---
 title: The Apothecary
 date: 1937-02-27
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
-playbill: 
-category: 
+playbill:
+category:
 Theatre: Theatre Jacksonville
 cast:
-  Pierrette: Margaret Hunter
-  Pierrot: Will Shapiro
-  Punchinello: Wolcott Prior
+- Pierrette: Margaret Hunter
+- Pierrot: Will Shapiro
+- Punchinello: Wolcott Prior
 crew:
-  Scenery: Billy Dishinger
-  Lighting: Cliffard Lowe
-  Props:
-    - Frances Coleman
-    - Mrs. Holden Blackwell
-  Prompter: Grace Seagraves
-  Publicity: Helen Gray
-  Director: Douglas Haygood
+- Scenery: Billy Dishinger
+- Lighting: Cliffard Lowe
+- Props:
+  - Frances Coleman
+  - Mrs. Holden Blackwell
+- Prompter: Grace Seagraves
+- Publicity: Helen Gray
+- Director: Douglas Haygood
 orchestra:
 external_links:
 ---

@@ -2,11 +2,11 @@
 layout: productions
 title: The Young Man from Atlanta
 redirect_from:
-  - /productions/2020_The_Young_Man_from_Atlanta
+- /productions/2020_The_Young_Man_from_Atlanta
 date: 2020-01-16
 closing_date: 2020-02-09
-featured_image: 
-image_credit: 
+featured_image:
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -15,41 +15,42 @@ Theatre: Limelight Theatre
 Writer: Horton Foote - wiki
 Genre: Drama - wiki
 Setting: Spring 1950. Houston Texas
-Subject: Two parents attempt to cope with the death and homosexuality of their only son
+Subject: Two parents attempt to cope with the death and homosexuality of their only
+  son
 Website: https://limelight-theatre.org/shows/
-showtimes: 
-  - 2020-01-16 19:30:00
-  - 2020-01-17 19:30:00
-  - 2020-01-18 19:30:00
-  - 2020-01-19 14:00:00
-  - 2020-01-21 19:30:00
-  - 2020-01-21 19:30:00
-  - 2020-01-23 19:30:00
-  - 2020-01-25 19:30:00
-  - 2020-01-26 14:00:00
-  - 2020-01-30 19:30:00
-  - 2020-01-31 19:30:00
-  - 2020-02-01 19:30:00
-  - 2020-02-02 14:00:00
-  - 2020-02-06 19:30:00
-  - 2020-02-07 19:30:00
-  - 2020-02-07 19:30:00
-  - 2020-02-08 19:30:00
-  - 2020-02-09 14:00:00
+showtimes:
+- 2020-01-16 19:30:00
+- 2020-01-17 19:30:00
+- 2020-01-18 19:30:00
+- 2020-01-19 14:00:00
+- 2020-01-21 19:30:00
+- 2020-01-21 19:30:00
+- 2020-01-23 19:30:00
+- 2020-01-25 19:30:00
+- 2020-01-26 14:00:00
+- 2020-01-30 19:30:00
+- 2020-01-31 19:30:00
+- 2020-02-01 19:30:00
+- 2020-02-02 14:00:00
+- 2020-02-06 19:30:00
+- 2020-02-07 19:30:00
+- 2020-02-07 19:30:00
+- 2020-02-08 19:30:00
+- 2020-02-09 14:00:00
 cast:
-  Will Kidder: Bob Pritchard
-  Lily Dale Kidder: Vanessa Warner
-  Pete Davenport: Brad Cooper
-  Miss Lacey: Suzanna Reed
-  Clara: Jillianne Tamillo
-  Etta Doris: Meredith Wolfe
-  Tom Jackson: Burt Keirstead
-  Carson: Kyle Reeves
-  Ted Cleveland, Jr.: 
-    - Matthew Whaley
-    - Michael Beaman
+- Will Kidder: Bob Pritchard
+- Lily Dale Kidder: Vanessa Warner
+- Pete Davenport: Brad Cooper
+- Miss Lacey: Suzanna Reed
+- Clara: Jillianne Tamillo
+- Etta Doris: Meredith Wolfe
+- Tom Jackson: Burt Keirstead
+- Carson: Kyle Reeves
+- Ted Cleveland, Jr.:
+  - Matthew Whaley
+  - Michael Beaman
 crew:
-  Director: Mike Beaman
+- Director: Mike Beaman
 external_links:
   Shows | Limelight Theatre: https://limelight-theatre.org/shows/
   Buy Tickets: https://web.ovationtix.com/trs/pr/1010740

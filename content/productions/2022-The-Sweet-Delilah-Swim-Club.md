@@ -2,11 +2,11 @@
 layout: productions
 title: The Sweet Delilah Swim Club
 redirect_from:
-  - /productions/2022_The_Sweet_Delilah_Swim_Club
+- /productions/2022_The_Sweet_Delilah_Swim_Club
 date: 2022-04-22
 closing_date: 2022-05-08
 featured_image: 2022_The_Sweet_Delilah_Swim_Club.jpg
-image_credit: 
+image_credit:
 image_alt:
 image_caption:
 category: play
@@ -16,28 +16,28 @@ Venue: Little Theatre
 Writer: Jessie Jones, Nicholas Hope, Jamie Wooten
 Genre: Comedy, Drama
 Website: https://www.theatrejax.com/season102
-showtimes: 
-  - 2022-04-22 19:30:00
-  - 2022-04-23 19:30:00
-  - 2022-04-28 19:30:00
-  - 2022-04-29 19:30:00
-  - 2022-04-30 19:30:00
-  - 2022-05-01 14:00:00
-  - 2022-05-05 19:30:00
-  - 2022-05-06 19:30:00
-  - 2022-05-07 19:30:00
-  - 2022-05-08 14:00:00
+showtimes:
+- 2022-04-22 19:30:00
+- 2022-04-23 19:30:00
+- 2022-04-28 19:30:00
+- 2022-04-29 19:30:00
+- 2022-04-30 19:30:00
+- 2022-05-01 14:00:00
+- 2022-05-05 19:30:00
+- 2022-05-06 19:30:00
+- 2022-05-07 19:30:00
+- 2022-05-08 14:00:00
 cast:
-  Dinah: Beth Butler Lambert
-  Jeri Neal: Sommer Farhat
-  Lexie: Zonnetta Marie
-  Sheree: Sandy Spurney
-  Vernadette: Gloria Ware
+- Dinah: Beth Butler Lambert
+- Jeri Neal: Sommer Farhat
+- Lexie: Zonnetta Marie
+- Sheree: Sandy Spurney
+- Vernadette: Gloria Ware
 crew:
-  Director: Amy Love
-  Stage Manager: Natalie Brown
-  Set Designer: Ben Girvin
-  Costume Designer: Joy Smith
+- Director: Amy Love
+- Stage Manager: Natalie Brown
+- Set Designer: Ben Girvin
+- Costume Designer: Joy Smith
 external_links:
   theatre-jacksonville: https://www.theatrejax.com/onstage
 ---

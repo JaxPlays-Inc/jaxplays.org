@@ -1,23 +1,23 @@
 ---
 title: In the Dark
 date: 1923-11-24
-closing_date: 
+closing_date:
 layout: productions
-featured_image: 
+featured_image:
 image_caption:
 image_credit:
 playbill:
 category:
 Theatre: Theatre Jacksonville
 cast:
-  Mrs. Mason: Birsa Shepard
-  Gracie: Carolina De Montigne
-  Ashfield: Ted Silber
-  Doctor Herrick: William T. Cowles, Jr.
+- Mrs. Mason: Birsa Shepard
+- Gracie: Carolina De Montigne
+- Ashfield: Ted Silber
+- Doctor Herrick: William T. Cowles, Jr.
 crew:
-  Director: Harrison Gibbs Prentice
-  Scene Arrangement: 
-    - Mrs. Jas. D. Pasco
-    - Mrs. Julian Gammon
+- Director: Harrison Gibbs Prentice
+- Scene Arrangement:
+  - Mrs. Jas. D. Pasco
+  - Mrs. Julian Gammon
 external_links:
 ---
