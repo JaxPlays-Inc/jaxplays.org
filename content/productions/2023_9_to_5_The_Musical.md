@@ -38,7 +38,16 @@ cast:
 - Kathy/Candy Striper: Jennifer Jaress
 - Margaret: Joan Averett
 - Doctor/Russell Tinsworthy: Ron Price
-- Ensemble: Oscar Acosta, Joan Averett, Billy Hulsey, Jennifer Jaress, Jimmy Kalista, Martha McDowell, Elliot Miller, Peggy Strickland, Menla Hulsey
+- Ensemble:
+  - Oscar Acosta
+  - Joan Averett
+  - Billy Hulsey
+  - Jennifer Jaress
+  - Jimmy Kalista
+  - Martha McDowell
+  - Elliot Miller
+  - Peggy Strickland
+  - Menla Hulsey
 crew:
 - Director: Stephen Carver
 - Music Director: Devin Clevenger
