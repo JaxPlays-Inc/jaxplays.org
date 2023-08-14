@@ -11,6 +11,57 @@ category: musicals
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1428&code=jaxplays
+showtimes:
+- 2023-08-03 18:00:00
+- 2023-08-04 18:00:00
+- 2023-08-05 12:00:00
+- 2023-08-05 18:00:00
+- 2023-08-06 12:00:00
+- 2023-08-06 18:00:00
+- 2023-08-08 18:00:00
+- 2023-08-09 18:00:00
+- 2023-08-10 18:00:00
+- 2023-08-11 18:00:00
+- 2023-08-12 12:00:00
+- 2023-08-12 18:00:00
+- 2023-08-13 12:00:00
+- 2023-08-13 18:00:00
+- 2023-08-15 18:00:00
+- 2023-08-16 18:00:00
+- 2023-08-17 18:00:00
+- 2023-08-18 18:00:00
+- 2023-08-19 12:00:00
+- 2023-08-19 18:00:00
+- 2023-08-20 12:00:00
+- 2023-08-20 18:00:00
+- 2023-08-22 18:00:00
+- 2023-08-23 18:00:00
+- 2023-08-24 18:00:00
+- 2023-08-25 18:00:00
+- 2023-08-26 12:00:00
+- 2023-08-26 18:00:00
+- 2023-08-27 12:00:00
+- 2023-08-27 18:00:00
+- 2023-08-29 18:00:00
+- 2023-08-30 18:00:00
+- 2023-08-31 18:00:00
+- 2023-09-01 18:00:00
+- 2023-09-02 12:00:00
+- 2023-09-02 18:00:00
+- 2023-09-03 12:00:00
+- 2023-09-03 18:00:00
+- 2023-09-05 18:00:00
+- 2023-09-06 18:00:00
+- 2023-09-07 18:00:00
+- 2023-09-08 18:00:00
+- 2023-09-09 12:00:00
+- 2023-09-09 18:00:00
+- 2023-09-10 12:00:00
+- 2023-09-10 18:00:00
+- 2023-09-12 18:00:00
+- 2023-09-13 18:00:00
+- 2023-09-14 18:00:00
+- 2023-09-15 18:00:00
 cast:
 - Teveye: Tod Booth
 - Golde: Lisa Valdini Booth
@@ -64,3 +115,4 @@ crew:
 orchestra:
 external_links:
 ---
+“Fiddler on the Roof” is a classic Broadway musical that takes place in the small Jewish village of Anatevka, Russia, in the early 20th century. The story primarily follows Tevye, a poor milkman, as he strives to maintain his family’s Jewish traditions amidst the swirling winds of societal change. Tevye grapples with the strong-willed actions of his three eldest daughters—Tzeitel, Hodel, and Chava—who each choose their own husbands in ways that challenge age-old customs. Their choices and Tevye’s reactions reflect the struggle between tradition and progress. Meanwhile, the looming threat of anti-Jewish sentiment and violence adds another layer of tension to the narrative. The show features iconic songs like “Tradition,” “Matchmaker, Matchmaker,” “If I Were A Rich Man,” and “Sunrise, Sunset,” which have become fixtures in the canon of American musical theatre. Since its premiere on Broadway in 1964, “Fiddler on the Roof,” with its evocative themes and memorable music, has seen multiple revivals and remains a beloved staple in the world of theatre.
