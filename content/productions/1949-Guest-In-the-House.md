@@ -54,6 +54,6 @@ crew:
   - Jane Porter
   - Louise Elkins
 understudies:
-orchestra: None
+orchestra:
 external_links:
 ---
