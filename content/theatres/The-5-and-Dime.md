@@ -35,6 +35,6 @@ Despite the challenges, The 5 & Dime has continued to thrive, producing over 40 
 
 Through its commitment to supporting and showcasing talented artists, The 5 & Dime has made a lasting impact on the Jacksonville arts community, and its founders' bold question of "Why not us?" has been answered with resounding success.
 
-{% include youtubePlayer.html id="jZh-1X7dFvI" %}
+{{< youtube jZh-1X7dFvI >}}
 
 <!-- https://www.abouttheartists.com/production_companies/13527-the-5-and-dime-theatre-co-jacksonville-fl -->

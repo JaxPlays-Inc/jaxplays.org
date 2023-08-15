@@ -21,5 +21,4 @@ details:
     Phone: 	985-502-2253
 external_links:
 ---
-
-{% include youtubePlayer.html id="Hm7L7q1L40Y" %}
+{{< youtube Hm7L7q1L40Y >}}

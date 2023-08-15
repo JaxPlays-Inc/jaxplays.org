@@ -121,4 +121,4 @@ external_links:
 
 "The Alhambra is known for the quality of the musical theatre talent it attracts to Jacksonville, and the “How to Succeed” cast is among the best to grace the stage at the nation’s oldest continuously operating dinner theatre." — [Review: Alhambra show succeeds at skewering corporate world - The Ponte Vedra Recorder](https://pontevedrarecorder.com/stories/review-alhambra-show-succeeds-at-skewering-corporate-world,10583)
 
-{% include youtubePlayer.html id="MGA5rPz3Uho" %}
+{{< youtube MGA5rPz3Uho >}}

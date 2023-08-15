@@ -30,6 +30,9 @@ a:hover, .nested-links a:hover {
 	background-image: url("/tickets.svg");
 	background-repeat: no-repeat;
 	background-position: top; 
+	display: flex;
+	min-width: 80px;
+	min-height: 48px;
 }
 
 a.jaxplayslogo {
@@ -55,12 +58,25 @@ h1 a.jaxplayslogo {
 	margin: 1rem 0;
 }
 
+@media screen and (min-width: 30em) {
+	.tickets {
+		min-width: 100px;
+		min-height: 60px;
+	}
+}
+
 @media screen and (min-width: 60em) {
 	a.jaxplayslogo {
 		background-size: 1.5rem; /* Adjust the size as needed */
 		padding-left: 1.75rem; /* Adjust padding to give space for the logo */
 	}
+	.tickets {
+		min-width: 100px;
+		min-height: 60px;
+	}
 }
+
+
 
 #TableOfContents ul li {
 	margin-bottom: 1em;

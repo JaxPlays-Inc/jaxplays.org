@@ -45,3 +45,8 @@ menu:
   - name: Venues
     pageRef: /venues
     weight: 60
+
+taxonomies:
+  category: categories
+  tag: tags
+  genre: genres

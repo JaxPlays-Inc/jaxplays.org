@@ -7,7 +7,9 @@ featured_image: 2023_The_Savannah_Sipping_Society.png
 image_caption:
 image_credit:
 playbill:
-category: comedy
+genres: 
+- Comedy
+- Play
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa

@@ -73,4 +73,4 @@ external_links:
 
 "Expertly directed by Michael Lipp," this production of Forum is "light, fast-paced, witty and irreverent." — [A Funny Thing Happened on the Way to the Forum - IwantaBuzz](https://iwantabuzz.com/arts/arts-in-the-know/a-funny-thing-happened-on-the-way-to-the-forum-3/)
 
-{% include youtubePlayer.html id="jU6fVoh428s" %}
+{{< youtube jU6fVoh428s >}}

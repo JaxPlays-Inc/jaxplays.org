@@ -12,27 +12,53 @@
         {{ .Params.theatre }}
       </h2>
     </header>
-    
 
-    {{ if or .Params.featured_image .Params.tickets }}
-    <div class="w-100 flex">
-      {{ with .Params.featured_image }}
-      <!-- put the featured image in a link to open in a lightbox -->
-      <a href="/media/posters/{{ . }}" data-lightbox="image-1" data-title="{{ . }}">
-      <img src="/media/posters/{{ . }}" class="w5-l w4" />
-      </a>
-      {{ end }}
-      <!-- If date and closing_date are both filed out -->
-      {{ if and .Params.date .Params.closing_date }}
-        <!-- If closing_date is in the future -->
-        {{ $closingDate := time .Params.closing_date }}
-        {{ $now := now.Format "2006-01-02" | time }}
-        {{ if ge $closingDate $now }}
-          {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="dim h4 w-20 w4-ns pa0 ma3 mt0 tickets"></a>{{ end }}
-        {{ end }}
+    
+    
+    {{ if or .Params.featured_image .Params.genres }}
+    <div class="flex">
+      <!-- Featured Image Section -->
+      {{ if .Params.featured_image }}
+        <div class="w-40 w-25-l flex">
+          {{ with .Params.featured_image }}
+            <!-- put the featured image in a link to open in a lightbox -->
+            <a href="/media/posters/{{ . }}" data-lightbox="image-1" data-title="{{ . }}">
+              <img src="/media/posters/{{ . }}" class="w5-ns w-100" />
+            </a>
+          {{ end }}
+        </div>
+      {{ end}}
+    
+      <!-- Genres and Tickets Section -->
+      {{ if or .Params.genres (and .Params.date .Params.closing_date) }}
+        <div class="w-60 w-75-l ml2 flex flex-column items-start justify-start">
+          <!-- Genres -->
+          {{ if .Params.genres }}
+            <div class="flex flex-wrap">
+              {{ range .Params.genres }}
+                <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mv2 mh1 h2 dib black bg-yellow">{{ . }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+          
+          <!-- Tickets -->
+          <!-- If date and closing_date are both filed out -->
+          {{ if and .Params.date .Params.closing_date }}
+            <!-- If closing_date is in the future -->
+            {{ $closingDate := time .Params.closing_date }}
+            {{ $now := now.Format "2006-01-02" | time }}
+            {{ if ge $closingDate $now }}
+              {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
+            {{ end }}
+          {{ end }}
+    
+          
+        </div>
       {{ end }}
     </div>
-    {{ end}}
+    {{ end }}
+    
+
 
     <div class="nested-copy-line-height lh-copy f4-ns f5 mb5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Details</h3>
@@ -108,7 +134,7 @@
 
       {{ with .Params.website }}<div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Official Production Website</a></div>
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}">Official Production Webpage</a></div>
       </div>{{ end }}
     </div>
 

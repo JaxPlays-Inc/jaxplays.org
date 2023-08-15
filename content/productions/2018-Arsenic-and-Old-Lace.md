@@ -41,4 +41,4 @@ crew:
 orchestra:
 external_links:
 ---
-{% include youtubePlayer.html id="FLojbqedU10" %}
+{{< youtube FLojbqedU10 >}}

@@ -7,7 +7,10 @@ featured_image: 2023_The_Prom.jpg
 image_caption: Poster for The Prom (2023)
 image_credit: Greenlight Theatre Company
 playbill:
-category:
+Genres:
+- Musical
+- Comedy
+- Drama
 Theatre: Greenlight Theatre Company
 Venue: Grace Darling Studio Theatre
 Music: Matthew Sklar - wiki
