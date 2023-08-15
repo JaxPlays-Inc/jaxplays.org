@@ -94,39 +94,39 @@
           <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
           {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
           {{ $closingDate := time .Params.closing_date }}
-          <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> {{ $startDate.Format "Monday, January 2, 2006" }} — <br/>{{ $closingDate.Format "Monday, January 2, 2006" }}</div>
+          <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> {{ $startDate.Format "Monday, January 2, 2006" }} — <br/>{{ $closingDate.Format "Monday, January 2, 2006" }}
+            <!-- set cta variable in go to tap  -->
+            <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap here to see all showtimes...</a>
+            <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here to see all showtimes...</a>
+          </div>
         </div>
       {{ end }}
 
       <!-- If showtimes exist -->
       {{ if .Params.showtimes }}
-      <div class="flex flex-wrap">
-        <div class="w-25-ns w-100 b pa3-ns pa2 bb bw1 b--silver">
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle">Showtimes...</a>
-        </div>
-        <div class="w-75-ns w-100 pa3-ns pa2 bb bw1 b--silver" id="showtimes-hidden-section"></div>
-        <div class="w-75-ns w-100 pa3-ns pa2 bb bw1 b--silver dn" id="showtimes-section">
-          {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
-            {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
-            <div class="flex mb2 space-between">
-              <div class="w-75 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div> <!-- Date column -->
-              <div class="w-25 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "3:04 p.m." }}</div> <!-- Time column -->
-            </div>
-          {{ end }}
+      <div id="showtimes-section" class="dn">
+        <div class="flex flex-wrap  bb bw1 b--silver">
+          <div class="w-25-ns w-100 b pa3-ns pa2">
+            Showtimes
+          </div>
+          <div class="w-75-ns w-100 pa3-ns pa2">
+            {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
+              {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
+              <div class="flex mb2 space-between">
+                <div class="w-75 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div> <!-- Date column -->
+                <div class="w-25 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "3:04 p.m." }}</div> <!-- Time column -->
+              </div>
+            {{ end }}
+          </div>
         </div>
       </div>
       <script>
         function toggleShowtimes() {
           var section = document.getElementById('showtimes-section');
-          var hidden_section = document.getElementById('showtimes-hidden-section');
           if (section.style.display === 'none' || section.style.display === '') {
             section.style.display = 'block';
-            hidden_section.style.display = 'none';
-            document.getElementById('showtimes-toggle').innerHTML = 'Showtimes';
           } else {
             section.style.display = 'none';
-            hidden_section.style.display = 'block';
-            document.getElementById('showtimes-toggle').innerHTML = 'Showtimes...';
           }
         }
       </script>
