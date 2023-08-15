@@ -1,4 +1,4 @@
-.dark-mode, .dark-mode * {
+.dark-mode, .dark-mode *:not(#dark-mode-icon)  {
   background-color: #000;
   color: #fff;
 }
@@ -17,18 +17,18 @@
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url('/css/sun-icon.svg');
+  background-image: url('/css/moon-icon.svg');
   background-size: contain;
   background-repeat: no-repeat;
   filter: invert(1);
 }
 
 body.dark-mode #dark-mode-icon {
-  background-image: url('/css/moon.svg');
+  background-image: url('/css/sun-icon.svg');
   filter: invert(1);
   }
 
-  .dark-mode .pagination li a span {
-    background-color: #fff;
-    color: #000;
-  }
+.dark-mode .pagination li a span {
+  background-color: #fff;
+  color: #000;
+}
