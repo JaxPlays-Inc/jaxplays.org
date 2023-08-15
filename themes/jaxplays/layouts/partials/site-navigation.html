@@ -39,10 +39,10 @@
   <script>
     var navLinks = document.querySelector('.nav-links');
     document.querySelector('.menu-btn').addEventListener('click', function() {
-      if (window.innerWidth < 960 && navLinks.style.display === 'none') {
-        navLinks.style.display = 'flex';
-      } else {
+      if (window.innerWidth < 960 && navLinks.style.display === 'flex') {
         navLinks.style.display = 'none';
+      } else {
+        navLinks.style.display = 'flex';
       }
     });
   </script>
