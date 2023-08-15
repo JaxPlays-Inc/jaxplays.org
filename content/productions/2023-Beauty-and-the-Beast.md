@@ -14,6 +14,10 @@ Music: Alan Menken - wiki
 Book: Linda Woolverton - wiki
 Lyrics: Howard Ashman, Tim Rice
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays
+Genres:
+- Musical
+- Fantasy
+- Romance
 showtimes:
 - 2023-06-08 17:30:00
 - 2023-06-09 17:30:00

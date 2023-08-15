@@ -7,7 +7,10 @@ featured_image: 2023_Last_Train_to_Nibroc.jpeg
 image_caption: Poster of Last Train to Nibroc
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Last_Train_to_Nibroc.pdf
-category:
+Genres:
+- Play
+- Drama
+- Romance
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 Playwright: Arlene Hutton

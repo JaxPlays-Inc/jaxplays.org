@@ -7,7 +7,11 @@ featured_image: 2023_The_Diary_of_Anne_Frank.jpeg
 image_caption: Poster for The Diary of Anne Frank
 image_credit: Theatre Jacksonville
 playbill:
-category:
+Genres:
+- Play
+- Drama
+- Biographical
+- Historical
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 Tickets: https://ci.ovationtix.com/34919

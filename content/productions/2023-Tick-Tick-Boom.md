@@ -8,8 +8,8 @@ image_caption: Poster for 'Tick, Tick... Boom!'
 image_credit: The 5 & Dime
 playbill:
 genres: 
-- Biography
 - Musical
+- Biography
 - Comedy
 - Drama
 Theatre: The 5 & Dime

@@ -7,9 +7,12 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category:
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
+Genres:
+- Musical
+- Biography
+- Drama
 cast:
 - Tommy DeVito: Matt Michael
 - Frankie Valli: Nick Anastasia

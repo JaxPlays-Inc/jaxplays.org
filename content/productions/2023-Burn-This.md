@@ -7,7 +7,10 @@ featured_image: 2023_Burn_This.jpeg
 image_caption: Josh Andrews, graphic design Jon Scherf
 image_credit:
 playbill:
-category:
+Genres:
+- Play
+- Drama
+- Romance
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 Playwright: Lanford Wilson

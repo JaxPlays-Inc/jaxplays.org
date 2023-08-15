@@ -7,15 +7,18 @@ featured_image: 2023_Doubt.jpeg
 image_caption: Poster of Doubt
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Doubt.pdf
-category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
+Genres:
+- Play
+- Drama
+- Mystery
+playwright: John Patrick Shanley
 cast:
 - Father Brendan Flynn: Jas Abramowitz
 - Sr. Aloysius Beauvier: Simone Aden
 - Mrs. Muller: Zonnetta Marie
 - Sr. James: Mallory Wintz
-playwright: John Patrick Shanley
 crew:
 - Director: Bradley Akers
 - Production Manager: Michelle Kindy

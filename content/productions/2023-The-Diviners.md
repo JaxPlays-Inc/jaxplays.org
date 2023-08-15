@@ -10,6 +10,9 @@ playbill:
 category:
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
+Genres: 
+- Play
+- Drama
 Playwright: Jim Leonard. Jr.
 showtimes:
 - 2023-02-23 19:30:00

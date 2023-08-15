@@ -8,8 +8,8 @@ image_caption:
 image_credit:
 playbill:
 genres: 
-- Comedy
 - Play
+- Comedy
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa

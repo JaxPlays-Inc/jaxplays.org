@@ -11,6 +11,12 @@ category:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 Website: https://www.the5anddime.org/clydes
+Playwright: Lynn Nottage
+Genres:
+- Play
+- Drama
+- Comedy
+- Dramedy
 showtimes:
 - 2023-06-09 20:00:00
 - 2023-06-10 20:00:00

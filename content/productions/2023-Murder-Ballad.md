@@ -7,7 +7,11 @@ featured_image: 2023_Murder_Ballad.webp
 featured_image_caption: Poster for 'Murder Ballad'
 featured_image_attr: Jonathan Scherf
 playbill: 2023_Murder_Ballad.pdf
-category:
+Genres:
+- Musical
+- Thriller
+- Sung-through
+- Rock opera
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 Tickets: https://www.eventbrite.com/e/murder-ballad-a-musical-tickets-362827395507

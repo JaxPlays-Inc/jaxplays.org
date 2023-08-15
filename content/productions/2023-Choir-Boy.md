@@ -7,7 +7,10 @@ featured_image: 2023_Choir_Boy.png
 image_caption: Poster for Choir Boy at Players by the Sea
 image_credit: Players by the Sea
 playbill:
-category:
+Genres:
+- Musical
+- Drama
+- Coming-of-Age Story
 Theatre: Players by the Sea
 Venue: Grace Darling Studio Theatre
 Playwright: Tarell Alvin McCraney

@@ -7,7 +7,9 @@ featured_image: 2023_Hands_on_a_Hard_Body.webp
 image_caption: Poster for Hands on a Hard Body
 image_credit: Limelight Theatre
 playbill:
-category: musical
+Genres:
+- Musical
+- Drama
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 Book: Doug Wright

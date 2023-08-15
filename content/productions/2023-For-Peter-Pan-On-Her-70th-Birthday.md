@@ -7,7 +7,10 @@ featured_image: 2023_For_Peter_Pan_On_Her_70th_Birthday.webp
 image_caption: Poster for 'For Peter Pan On Her 70th Birthday'
 image_credit: The 5 & Dime
 playbill:
-category:
+Genres:
+- Play
+- Drama
+- Fantasy
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 Playwright: Sarah Ruhl

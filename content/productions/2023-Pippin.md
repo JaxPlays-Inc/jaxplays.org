@@ -7,7 +7,10 @@ featured_image: 2023_Pippin.jpeg
 image_caption: Poster of Pippin
 image_credit: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Pippin.pdf
-category: musicals
+Genres:
+- Musical
+- Comedy
+- Drama
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

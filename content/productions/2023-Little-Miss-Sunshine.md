@@ -7,7 +7,10 @@ featured_image: 2023_Little_Miss_Sunshine.jpeg
 image_caption: 2023 Little Miss Sunshine Poster
 image_credit: Limelight Theatre
 playbill:
-category: musicals
+genres:
+- Musical
+- Comedy
+- Drama
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 Book: James Lapine

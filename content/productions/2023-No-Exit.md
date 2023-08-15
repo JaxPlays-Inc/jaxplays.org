@@ -7,7 +7,11 @@ featured_image: 2023_No_Exit.gif
 image_caption: Poster for 'No Exit'
 image_credit: "Brunet-Garc\xEDa Advertising"
 playbill:
-category:
+genres:
+- Play
+- Drama
+- Existentialism
+- Dark comedy
 Theatre: Lumen Repertory Theatre
 Venue: Swisher Theater
 Based on: _Huis Clos_ by Jean Paul Sartre

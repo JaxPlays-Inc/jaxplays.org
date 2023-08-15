@@ -7,7 +7,10 @@ featured_image: 2023_Four_Weddings_and_an_Elvis.jpeg
 image_caption: Poster of 2023 production of Four Weddings and an Elvis
 image_credit: Theatre Jacksonville
 playbill: 2023_Four_Weddings_and_an_Elvis.pdf
-category:
+Genres:
+- Play
+- Comedy
+- Romance
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 showtimes:

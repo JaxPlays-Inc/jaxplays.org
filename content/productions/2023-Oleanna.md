@@ -7,7 +7,9 @@ featured_image: 2023_Oleana.jpeg
 image_caption: Poster of 2023 production of Oleanna
 image_credit: Limelight Theatre
 playbill:
-category:
+Genres:
+- Play
+- Drama
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
 showtimes:

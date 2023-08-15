@@ -7,7 +7,12 @@ featured_image: 2023_Fiddler_on_the_Roof.webp
 image_caption: Graphic of Fiddler on the Roof at the Alhambra
 image_credit: Alhambra Theatre & Dining
 playbill:
-category: musicals
+Genres:
+- Musical
+- Drama
+- Historical Fiction
+- Comedy
+- Romance
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1428&code=jaxplays
