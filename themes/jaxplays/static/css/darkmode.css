@@ -6,6 +6,7 @@
 }
 
 .dark-mode,
+.dark-mode .black,
 .dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span) {
 	color: #fff;
 }
