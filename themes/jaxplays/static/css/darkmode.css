@@ -1,34 +1,53 @@
-.dark-mode, .dark-mode *:not(#dark-mode-icon)  {
-  background-color: #000;
-  color: #fff;
+.dark-mode,
+.dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(
+		:is(div.bg-white, div.bg-white *)
+	) {
+	background-color: #000;
 }
 
-.dark-mode a {
-  color: var(--jaxplays-gold);
+.dark-mode,
+.dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span) {
+	color: #fff;
+}
+
+.dark-mode a:not(.jaxplayslogo):not(.link):not(.pagination a):not(footer a) {
+	color: var(--jaxplays-gold);
+}
+
+.dark-mode a.bg-light-gray {
+	background-color: #333;
+}
+
+.dark-mode a.bg-light-gray:hover {
+	background-color: #444;
+}
+
+.dark-mode div.bg-white {
+	background-color: #333;
 }
 
 #dark-mode-toggle {
-  border: none;
-  background: none;
-  cursor: pointer;
+	border: none;
+	background: none;
+	cursor: pointer;
 }
 
 #dark-mode-icon {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-image: url('/css/moon-icon.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  filter: invert(1);
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url("/css/moon-icon.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: invert(1);
 }
 
 body.dark-mode #dark-mode-icon {
-  background-image: url('/css/sun-icon.svg');
-  filter: invert(1);
-  }
+	background-image: url("/css/sun-icon.svg");
+	filter: invert(1);
+}
 
 .dark-mode .pagination li a span {
-  background-color: #fff;
-  color: #000;
+	background-color: #fff;
+	color: #000;
 }

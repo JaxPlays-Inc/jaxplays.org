@@ -10,12 +10,14 @@
 	--jaxplays-white: #fff;
 }
 
-a, .nested-links a {
+a,
+.nested-links a {
 	color: var(--jaxplays-red);
 	text-decoration: none;
 }
 
-a:hover, .nested-links a:hover {
+a:hover:not(.no-underline):not(.link),
+.nested-links a:hover:not(.link) {
 	text-decoration: underline;
 }
 
@@ -29,7 +31,7 @@ a:hover, .nested-links a:hover {
 .tickets {
 	background-image: url("/tickets.svg");
 	background-repeat: no-repeat;
-	background-position: top; 
+	background-position: top;
 	display: flex;
 	min-width: 80px;
 	min-height: 48px;
@@ -40,7 +42,9 @@ a.jaxplayslogo {
 	padding-left: 2.5rem;
 }
 
-a.jaxplayslogo, a.jaxplayslogo:hover, a.jaxplayslogo:visited {
+a.jaxplayslogo,
+a.jaxplayslogo:hover,
+a.jaxplayslogo:visited {
 	text-decoration: none;
 }
 
@@ -76,8 +80,6 @@ h1 a.jaxplayslogo {
 	}
 }
 
-
-
 #TableOfContents ul li {
 	margin-bottom: 1em;
 }
@@ -97,14 +99,14 @@ h1 a.jaxplayslogo {
 }
 
 .menu-btn {
-  flex: 1;
-  color: white;
-  font-size: 2.2em;
+	flex: 1;
+	color: white;
+	font-size: 2.2em;
 }
 
 @media (max-width: 60em) {
 	.navmenu::after {
 		flex: 1;
-		content: '';
+		content: "";
 	}
 }
