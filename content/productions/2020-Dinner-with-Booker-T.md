@@ -12,7 +12,9 @@ Theatre: Stage Aurora
 Venue: Worsham Hall, Episcopal Church of the Good Shepherd
 show_details:
 - Writer: Darryl Reuben Hall
-Genre: One-man show - wiki
+Genres: 
+- Play
+- One-man show
 Tickets: https://stageaurora.ticketleap.com/
 showtimes:
 - 2020-02-08 18:30:00

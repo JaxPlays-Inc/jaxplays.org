@@ -14,7 +14,11 @@ category: play
 Theatre: The 5 & Dime
 show_details:
 - Writer: Aristophanes - wiki
-Genre: Comedy
+Genres: 
+- Play
+- Comedy
+- Satire
+- Ancient Greek Theatre
 Website: https://www.the5anddime.org/lysistrata
 showtimes:
 - 2020-02-21 20:00:00

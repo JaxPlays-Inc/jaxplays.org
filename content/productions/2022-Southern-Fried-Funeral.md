@@ -16,7 +16,11 @@ show_details:
 - Writer: 
   - J. Dietz Osborne
   - Nate Eppler
-Genre: Comedy/Drama
+Genres:
+- Play
+- Comedy
+- Drama
+- Southern Drama
 Tickets: https://our.show/southernfriedfuneral
 showtimes:
 - 2022-05-13 19:00:00

@@ -16,7 +16,9 @@ show_details:
 - Writer: 
   - Mary Maguire
   - Steven McGraw
-Genre: Romantic comedy
+Genres: 
+- Play
+- Romantic comedy
 Website: https://www.theatrejax.com/love-quest
 showtimes:
 - 2020-02-21 20:00:00

@@ -14,7 +14,11 @@ category: play
 Theatre: Players by the Sea
 show_details:
 - Writer: August Wilson - wiki
-Genre: Drama
+Genres: 
+- Play
+- Drama
+- African American Literature
+- Historical Fiction
 Tickets: https://web.ovationtix.com/trs/cal/34877?sitePreference=normal
 showtimes:
 - 2022-06-03 20:00:00

@@ -12,7 +12,11 @@ Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:
 - Writer: Lauren Gunderson - wiki
-Genre: Comedy
+Genres: 
+- Play
+- Comedy
+- Drama
+- Historical Fiction
 Website: https://www.ameliacommunitytheatre.org/Performances/The-Book-of-Will
 showtimes:
 - 2020-03-27 20:00:00

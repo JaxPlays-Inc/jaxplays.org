@@ -11,7 +11,9 @@ image_alt:
 image_caption:
 category: play
 Theatre: Phase Eight Theater Company
-Genre: Romantic Comedy
+Genres: 
+- Play
+- Romantic Comedy
 show_details:
 - Writer: Kelby Siddons
 Venue: Museum of Contemporary Art Jacksonville

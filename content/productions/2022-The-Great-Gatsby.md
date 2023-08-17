@@ -12,7 +12,13 @@ Theatre: The Island Theater
 show_details:
 - Writer: F. Scott Fitzgerald - wiki
 - Adapter: Simon Levy - wiki
-Genre: Tragedy
+Genres:
+- Play
+- Literary Fiction
+- Classic Literature
+- Historical Fiction
+- Tragedy
+- Romance
 Website:
 showtimes:
 - 2022-04-22 19:30:00

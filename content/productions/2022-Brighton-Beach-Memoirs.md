@@ -11,7 +11,11 @@ featured_image: 2022_Brighton_Beach_Memoirs.jpg
 Theatre: Orange Park Community Theatre
 show_details:
 - Writer: Neil Simon - wiki
-Genre: Comedy
+Genres: 
+- Play
+- Comedy
+- Drama
+- Coming-of-Age
 Website: https://web.archive.org/web/20220124230813/https://www.opct.info/52nd-season
 showtimes:
 - 2022-04-01 20:00:00

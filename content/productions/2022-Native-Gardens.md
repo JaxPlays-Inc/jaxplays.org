@@ -12,7 +12,9 @@ Theatre: The 5 & Dime
 Venue: The Florida Ballet
 show_details:
 - Writer: Karen Zacarias - wiki
-Genre: Comedy - wiki
+Genres: 
+- Play
+- Comedy
 Website: https://www.the5anddime.org/native-gardens
 showtimes:
 - 2022-06-16 20:00:00

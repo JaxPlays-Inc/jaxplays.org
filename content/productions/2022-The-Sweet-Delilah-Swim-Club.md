@@ -18,7 +18,10 @@ show_details:
   - Nicholas Hope
   - Jamie Wooten
 - Website: https://www.joneshopewooten.com/delilah.htm
-Genre: Comedy, Drama
+Genres: 
+- Play
+- Comedy
+- Drama
 Website: https://www.theatrejax.com/season102
 showtimes:
 - 2022-04-22 19:30:00

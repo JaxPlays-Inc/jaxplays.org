@@ -10,7 +10,7 @@ image_alt:
 image_caption:
 category: comedy
 Theatre: ABET - All Beaches Experimental Theatre
-Genre: 
+Genres: 
 - Play
 - Comedy
 show_details:

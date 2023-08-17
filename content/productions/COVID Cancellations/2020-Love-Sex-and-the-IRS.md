@@ -3,7 +3,8 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Love, Sex and the I.R.S.
-date: 2020
+date: 2020-09-24
+closing_date: 2020-10-18
 image_credit:
 image_alt:
 image_caption:
@@ -11,7 +12,10 @@ category: play
 Theatre: The Alhambra Theatre & Dining
 show_details:
 - Writer: Billy Van Zandt - wiki
-Genre: Farce, Comedy
+Genres: 
+- Play
+- Farce
+- Comedy
 showtimes:
 - 2020-09-24 11:00:00
 - 2020-09-24 18:00:00

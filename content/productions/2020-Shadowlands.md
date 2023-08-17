@@ -16,7 +16,9 @@ show_details:
 - Writer: William Nicholson - wiki
 - Subject: Biographical
 - Wikipedia: Shadowlands (play) - wiki
-Genre: Drama
+Genres: 
+- Play
+- Drama
 showtimes:
 - 2020-01-10 20:00:00
 - 2020-01-11 20:00:00

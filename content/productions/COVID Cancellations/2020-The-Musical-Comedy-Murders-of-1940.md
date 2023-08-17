@@ -12,7 +12,11 @@ Theatre: Players by the Sea
 show_details:
 - Writer: John Bishop - wiki
 - Wikipedia: The Musical Comedy Murders of 1940 - wiki
-Genre: Comedy
+Genres: 
+- Musical
+- Comedy
+- Mystery
+- Thriller
 showtimes:
 - 2020-06-12 20:00:00
 - 2020-06-13 20:00:00

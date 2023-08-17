@@ -13,7 +13,9 @@ category: play
 Venue: BABS' LAB
 show_details:
 - Writer: Nikesha Elise Williams
-Genre: One-woman show - wiki
+Genres: 
+- Play
+- One-woman show
 Website: http://www.newwrites.com/lessons
 showtimes:
 - 2020-03-05 20:00:00
