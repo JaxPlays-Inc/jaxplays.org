@@ -8,7 +8,7 @@ category: musicals
 show_details: 
 - Music: Andrew Lloyd Webber - wiki
 - Lyrics: Tim Rice - wiki
-- Premiere: 12 October 1971
+- Premiere: 1971-10-12
 - Theatre: Mark Hellinger Theatre - wiki
 - Website: https://www.jesuschristsuperstar.com
 ---

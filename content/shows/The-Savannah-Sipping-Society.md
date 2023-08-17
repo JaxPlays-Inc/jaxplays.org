@@ -8,8 +8,8 @@ genres:
 - Comedy
 show_details: 
 - Playwright: Jessie Jones, Nicholas Hope, Jamie Wooten
-- Premiere: 
-- Theatre: 
+- Premiere: 2016-02-11
+- Theatre: Sylvia Beard Theatre, Buford, Georgia
 - Basis: 
 - Website: https://www.joneshopewooten.com/savannah.htm
 ---

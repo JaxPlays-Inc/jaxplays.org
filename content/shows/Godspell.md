@@ -9,7 +9,7 @@ show_details:
 - Music: Stephen Schwartz - wiki
 - Lyrics: Stephen Schwartz
 - Book: John-Michael Tebelak - wiki
-- Premiere: May 17, 1971
+- Premiere: 1971-05-17
 - Theatre: La MaMa Experimental Theatre Club
 - Basis: Gospel of Saint Matthew
 - Website:
