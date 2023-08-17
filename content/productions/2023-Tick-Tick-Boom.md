@@ -19,9 +19,7 @@ Tickets: https://www.eventbrite.com/e/tick-tickboom-tickets-661662539467?aff=jax
 show_details: 
 - Book: Jonathan Larson - wiki
 - Music: Jonathan Larson - wiki
-- Lyrics: 
-  - Jonathan Larson - wiki
-  - Bob Hope - wiki
+- Lyrics: Jonathan Larson - wiki
 showtimes:
 - 2023-08-11 20:00:00
 - 2023-08-12 20:00:00
