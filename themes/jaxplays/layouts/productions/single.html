@@ -169,38 +169,43 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      
+
       {{ if $showDetails }}
         {{ range $showDetail := $showDetails }}
           {{ range $key, $value := $showDetail }}
-            <div class="flex">
-              <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $key }}</div>
-              <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-                {{ if (eq (printf "%T" $value) "[]interface {}") }}
-                  {{ range $idx, $val := $value }}
-                    {{ if strings.HasSuffix $val " - wiki" }}
-                      {{ $val := $val | replaceRE " - wiki" "" }}
+            {{ if $value }}
+              <div class="flex">
+                <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $key }}</div>
+                <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+                  {{ if (eq (printf "%T" $value) "[]interface {}") }}
+                    {{ range $idx, $val := $value }}
+                      {{ if $val }}
+                        {{ if strings.HasSuffix $val " - wiki" }}
+                          {{ $val := $val | replaceRE " - wiki" "" }}
+                          {{ $valurl := $val | replaceRE " " "_" }}
+                          <a href="https://en.wikipedia.org/wiki/{{ $valurl }}" target="_blank">{{ $val }}</a>
+                        {{ else }}
+                          {{ $val }}
+                        {{ end }}
+                        {{ if ne $idx (sub (len $value) 1) }}, {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  {{ else }}
+                    {{ if strings.HasSuffix $value " - wiki" }}
+                      {{ $val := $value | replaceRE " - wiki" "" }}
                       {{ $valurl := $val | replaceRE " " "_" }}
                       <a href="https://en.wikipedia.org/wiki/{{ $valurl }}" target="_blank">{{ $val }}</a>
                     {{ else }}
-                      {{ $val }}
+                      {{ $value }}
                     {{ end }}
-                    {{ if ne $idx (sub (len $value) 1) }}, {{ end }}
                   {{ end }}
-                {{ else }}
-                  {{ if strings.HasSuffix $value " - wiki" }}
-                    {{ $val := $value | replaceRE " - wiki" "" }}
-                    {{ $valurl := $val | replaceRE " " "_" }}
-                    <a href="https://en.wikipedia.org/wiki/{{ $valurl }}" target="_blank">{{ $val }}</a>
-                  {{ else }}
-                    {{ $value }}
-                  {{ end }}
-                {{ end }}
+                </div>
               </div>
-            </div>
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
+
 
     </div>
 
