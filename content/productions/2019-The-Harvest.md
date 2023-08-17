@@ -7,7 +7,8 @@ featured_image: 2019_The_Harvest.webp
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: The 5 & Dime
 show_details:
 - Writer: Samuel D. Hunter - wiki

@@ -5,7 +5,6 @@ redirect_from:
 title: Godspell
 date: 1991
 featured_image:
-category:
 Theatre: Players by the Sea
 cast:
 crew:

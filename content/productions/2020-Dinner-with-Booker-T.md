@@ -7,7 +7,6 @@ featured_image: 2020_Dinner_with_Booker_T.jpg
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Stage Aurora
 Venue: Worsham Hall, Episcopal Church of the Good Shepherd
 show_details:

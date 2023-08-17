@@ -7,7 +7,10 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category: play
+Genres: 
+- Play
+- Comedy
+- Romance
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

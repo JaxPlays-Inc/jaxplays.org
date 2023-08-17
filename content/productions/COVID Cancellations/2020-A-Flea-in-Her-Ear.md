@@ -7,7 +7,8 @@ date: 2020
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Limelight Theatre
 show_details:
 - Writer: Georges Feydeau - wiki

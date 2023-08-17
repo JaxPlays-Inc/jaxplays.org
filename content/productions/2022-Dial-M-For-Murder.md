@@ -7,7 +7,6 @@ featured_image: 2022_Dial_M_For_Murder.jpeg
 image_credit: Limelight Theatre
 image_alt:
 image_caption: Poster for 2022 production of Dial M For Murder
-category: play
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
 Genres: 

@@ -5,7 +5,8 @@ date: 1992
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Orange Park Community Theatre
 showtimes:
 cast:

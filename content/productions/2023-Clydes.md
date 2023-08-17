@@ -7,7 +7,6 @@ featured_image: 2023_Clydes.png
 image_caption:
 image_credit:
 playbill:
-category:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 Website: https://www.the5anddime.org/clydes

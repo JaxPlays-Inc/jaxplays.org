@@ -7,7 +7,6 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category:
 show_details:
 - Playwright: Birsa Shepard
 Theatre: Theatre Jacksonville

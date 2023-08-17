@@ -9,7 +9,8 @@ featured_image: 2019_Small_Mouth_Sounds.webp
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: The 5 & Dime
 show_details:
 - Writer: Bess Wohl - wiki

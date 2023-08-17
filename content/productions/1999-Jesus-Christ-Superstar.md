@@ -7,7 +7,6 @@ featured_image: 1999_Jesus_Christ_Superstar.jpg
 image_caption: Photo of the playbill
 image_credit: Kimberly Whitfield
 playbill: 1999_Jesus_Christ_Superstar.pdf
-category: musicals
 Theatre: Omega Theatre Productions
 Venue: Florida Theatre
 genres:

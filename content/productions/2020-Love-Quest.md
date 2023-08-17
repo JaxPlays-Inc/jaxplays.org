@@ -9,7 +9,6 @@ featured_image: 2020_Love_Quest.webp
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:

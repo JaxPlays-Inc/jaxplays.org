@@ -6,7 +6,8 @@ closing_date: 2019-01-26
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 featured_image:
 playbill:
 Theatre: Actors Collective

@@ -9,7 +9,6 @@ featured_image: 2022_The_Sweet_Delilah_Swim_Club.jpg
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:

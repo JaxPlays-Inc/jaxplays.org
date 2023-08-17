@@ -7,7 +7,6 @@ featured_image: 2018_Arsenic_and_Old_Lace.jpeg
 image_caption: Poster for Arsenic and Old Lace
 image_credit: Theatre Jacksonville
 playbill:
-category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 showtimes:

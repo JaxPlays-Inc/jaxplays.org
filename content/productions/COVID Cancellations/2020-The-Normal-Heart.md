@@ -8,7 +8,8 @@ closing_date: 2020-11-22
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: The 5 & Dime
 show_details:
 - Writer: Larry Kramer - wiki

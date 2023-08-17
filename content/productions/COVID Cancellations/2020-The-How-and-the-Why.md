@@ -7,7 +7,8 @@ date: 2020
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Actors Collective
 Venue: Museum of Science & History
 show_details:

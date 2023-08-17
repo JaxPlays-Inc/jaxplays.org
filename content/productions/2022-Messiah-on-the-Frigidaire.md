@@ -7,7 +7,8 @@ featured_image: 2022_Messiah_on_the_Frigidaire.jpeg
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Limelight Theatre
 Website: https://web.archive.org/web/20220523165531/https://limelight-theatre.org/messiah-on-the-frigidaire/
 show_details:

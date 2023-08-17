@@ -7,7 +7,8 @@ date: 2005
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Limelight Theatre
 show_details:
 - Playwright: Alan Ayckbourn - wiki

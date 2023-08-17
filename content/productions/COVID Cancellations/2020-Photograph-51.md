@@ -7,7 +7,8 @@ date: 2020
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 featured_image:
 playbill: 2020_photograph_51.pdf
 Theatre: Actors Collective

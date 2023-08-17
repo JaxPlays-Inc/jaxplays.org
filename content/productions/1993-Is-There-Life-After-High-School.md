@@ -6,7 +6,8 @@ featured_image:
 image_credit:
 image_alt:
 image_caption:
-category: musical
+Genres: 
+- Musical
 Theatre: Players by the Sea
 cast:
 - Ensemble: Michael Lipp

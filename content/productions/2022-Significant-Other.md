@@ -7,7 +7,8 @@ featured_image: 2022_Significant_Other.jpg
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: The 5 & Dime
 Venue: BABS' LAB
 show_details:

@@ -7,9 +7,6 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category:
-Theatre: Theatre Jacksonville
-cast:
 - Bill Walker:
   - Burton Barrs
 - Charles Lomax: Charles Murchison

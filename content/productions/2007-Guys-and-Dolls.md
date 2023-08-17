@@ -7,7 +7,8 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category: musicals
+Genres:
+- Musical
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

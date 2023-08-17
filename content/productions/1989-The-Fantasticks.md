@@ -5,7 +5,6 @@ redirect_from:
 title: The Fantasticks
 date: 1989
 featured_image:
-category:
 Theatre: Players by the Sea
 cast:
 crew:

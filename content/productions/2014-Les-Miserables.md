@@ -7,7 +7,6 @@ featured_image: 2014_Les_Miserables.webp
 image_credit:
 image_alt:
 image_caption: "Poster for 'Les Mis\xE9rables' at Theatre Jacksonville"
-category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

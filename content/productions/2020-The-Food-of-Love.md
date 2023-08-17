@@ -9,7 +9,6 @@ featured_image: 2020_The_Food_of_Love.png
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Phase Eight Theater Company
 Genres: 
 - Play

@@ -9,7 +9,6 @@ featured_image: 2022_Southern_Fried_Funeral.jpeg
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 show_details:

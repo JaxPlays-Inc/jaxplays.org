@@ -9,7 +9,8 @@ featured_image:
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: The Alhambra Theatre & Dining
 show_details:
 - Writer: A. R. Gurney - wiki

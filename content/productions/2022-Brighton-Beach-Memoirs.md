@@ -6,7 +6,6 @@ closing_date: 2022-04-10
 image_credit:
 image_alt:
 image_caption:
-category: play
 featured_image: 2022_Brighton_Beach_Memoirs.jpg
 Theatre: Orange Park Community Theatre
 show_details:

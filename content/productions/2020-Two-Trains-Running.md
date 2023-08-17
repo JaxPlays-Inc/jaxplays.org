@@ -9,7 +9,6 @@ featured_image: 2020_Two_Trains_Running.png
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Players by the Sea
 Genres: 
 - Play

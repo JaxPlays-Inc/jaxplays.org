@@ -6,7 +6,6 @@ closing_date: 2022-05-01
 image_credit:
 image_alt:
 image_caption:
-category: play
 featured_image: 2022_The_Great_Gatsby.jpg
 Theatre: The Island Theater
 show_details:

@@ -5,7 +5,6 @@ redirect_from:
 title: The Subject Was Roses
 date: 1990
 featured_image:
-category:
 Theatre: Players by the Sea
 cast:
 crew:

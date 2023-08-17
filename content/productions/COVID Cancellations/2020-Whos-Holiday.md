@@ -8,7 +8,6 @@ closing_date: 2020-12-13
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: The 5 & Dime
 Genres: 
 - Play

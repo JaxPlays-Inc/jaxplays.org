@@ -7,7 +7,6 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category:
 Theatre: Theatre Jacksonville
 cast:
 - Aubrey Henry Maitland Allington: E.S. Beauchamp-Nobbs

@@ -8,7 +8,6 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category: musicals
 Theatre: Omega Theatre Productions
 Venue: CrossRoad Church
 cast:

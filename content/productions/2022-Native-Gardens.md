@@ -7,7 +7,6 @@ featured_image: 2022_Native_Gardens.jpg
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 show_details:

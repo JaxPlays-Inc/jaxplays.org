@@ -7,7 +7,8 @@ featured_image: 2020_Godder_Than_A_Muthafucka.jpg
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Venue: 1904 Music Hall
 Wrshow_details:
 - Writer: Ebony Payne-English - wiki

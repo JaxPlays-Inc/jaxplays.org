@@ -5,7 +5,6 @@ date: 2007
 image_credit:
 image_alt:
 image_caption:
-category:
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:
 - Playwright: N. Richard Nash - wiki

@@ -7,7 +7,6 @@ featured_image: 2023_Beauty_and_the_Beast.jpeg
 image_caption: Graphic of Beauty and the Beast at the Alhambra
 image_credit: Alhambra Theatre & Dining
 playbill:
-category: musicals
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 show_details:

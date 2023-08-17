@@ -8,7 +8,6 @@ closing_date: 2020-10-18
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: The Alhambra Theatre & Dining
 show_details:
 - Writer: Billy Van Zandt - wiki

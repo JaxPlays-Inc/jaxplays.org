@@ -7,7 +7,6 @@ featured_image: 2022_Big_Fish.jpeg
 image_caption: Poster of 2022 production of Big Fish
 image_credit: Limelight Theatre
 playbill:
-category:
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 showtimes:

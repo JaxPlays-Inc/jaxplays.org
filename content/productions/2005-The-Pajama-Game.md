@@ -9,7 +9,6 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

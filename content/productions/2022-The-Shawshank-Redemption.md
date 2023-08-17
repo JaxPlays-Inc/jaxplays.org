@@ -9,7 +9,6 @@ featured_image: 2022_The_Shawshank_Redemption.jpeg
 image_credit: ABET
 image_alt:
 image_caption: Poster of 2022 production of The Shawshank Redemption
-category: play
 Theatre: ABET - All Beaches Experimental Theatre
 Genres: 
 - Play

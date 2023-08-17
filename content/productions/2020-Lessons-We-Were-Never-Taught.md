@@ -9,7 +9,6 @@ featured_image: 2020_Lessons_We_Were_Never_Taught.jpg
 image_credit:
 image_alt:
 image_caption:
-category: play
 Venue: BABS' LAB
 show_details:
 - Writer: Nikesha Elise Williams

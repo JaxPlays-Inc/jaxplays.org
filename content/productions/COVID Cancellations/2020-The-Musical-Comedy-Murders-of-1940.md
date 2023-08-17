@@ -7,7 +7,6 @@ date: 2020-06-12
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Players by the Sea
 show_details:
 - Writer: John Bishop - wiki

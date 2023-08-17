@@ -10,7 +10,6 @@ featured_image:
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Players by the Sea
 show_details:
 - Writer: August Wilson - wiki

@@ -7,7 +7,6 @@ date: 2020-06-25
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Limelight Theatre
 Genres: 
 - Play

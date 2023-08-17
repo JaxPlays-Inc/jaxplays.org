@@ -5,7 +5,6 @@ redirect_from:
 title: Once Upon a Mattress
 date: 1987
 featured_image:
-category:
 Theatre: Players by the Sea
 show_details:
 - Music: Mary Rogers - wiki

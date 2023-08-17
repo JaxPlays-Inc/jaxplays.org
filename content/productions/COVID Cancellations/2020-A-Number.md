@@ -8,7 +8,8 @@ closing_date: 2020-09-13
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Actors Collective
 Venue: Museum of Science & History
 Website: http://www.actorscollective.com/the-secret-of-life/

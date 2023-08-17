@@ -7,7 +7,6 @@ featured_image: 2020_Romeo+Juliet.jpeg
 image_credit: Players by the Sea
 image_alt: Poster for 2020 production of Romeo + Juliet
 image_caption: Poster for 2020 production of Romeo + Juliet
-category: play
 Genres: 
 - Play
 - Tragedy

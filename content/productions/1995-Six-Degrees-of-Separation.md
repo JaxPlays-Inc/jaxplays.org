@@ -5,7 +5,6 @@ redirect_from:
 title: Six Degrees of Separation
 date: 1995
 featured_image:
-category:
 Theatre: Players by the Sea
 cast:
 crew:

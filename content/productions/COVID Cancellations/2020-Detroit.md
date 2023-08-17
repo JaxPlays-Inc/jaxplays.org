@@ -7,7 +7,6 @@ date: 2020
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: The 5 & Dime
 Genres: 
 - Play

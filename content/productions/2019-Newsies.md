@@ -6,7 +6,6 @@ featured_image:
 image_credit:
 image_alt:
 image_caption:
-category:
 Theatre: FSCJ Summer Musical Theatre Experience
 cast:
 crew:

@@ -7,7 +7,6 @@ date: 2020-04-17
 image_credit:
 image_alt:
 image_caption:
-category: play
 Theatre: Orange Park Community Theatre
 Genres: 
 - Play

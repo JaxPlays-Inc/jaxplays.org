@@ -8,7 +8,8 @@ closing_date: 2019-07-07
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 featured_image: 2019_OneBy_Tenn_Plus_Eight.webp
 playbill: 2019_One_By_Tenn_Plus_Eight.pdf
 Theatre: Actors Collective

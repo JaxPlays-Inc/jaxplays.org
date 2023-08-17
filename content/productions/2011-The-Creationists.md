@@ -6,7 +6,6 @@ title: The Creationists
 date: 2011-02-18
 closing_date: 2011-02-26
 featured_image:
-category:
 Theatre: Players by the Sea
 Venue: Grace Darling Studio Theatre
 show_details:

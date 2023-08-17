@@ -7,7 +7,8 @@ date: 2020
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:

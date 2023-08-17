@@ -7,7 +7,9 @@ featured_image:
 image_caption:
 image_credit:
 playbill:
-category: comedy
+Genres: 
+- Play
+- Comedy
 Theatre: Theatre Jacksonville
 cast:
 - Denny Cort: Charles Murchison

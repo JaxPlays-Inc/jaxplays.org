@@ -7,7 +7,8 @@ date: 2020
 image_credit:
 image_alt:
 image_caption:
-category: play
+Genres: 
+- Play
 Theatre: Phase Eight Theater Company
 Venue: Cummer Museum of Art and Garden - wiki
 Website: http://www.phaseeight.org/striking-up.html
