@@ -198,6 +198,9 @@
                         {{ $val := $value | replaceRE " - wiki" "" }}
                         {{ $valurl := $val | replaceRE " " "_" }}
                         <a href="https://en.wikipedia.org/wiki/{{ $valurl }}" target="_blank">{{ $val }}</a>
+                      {{ else if (findRE `^\d{4}-\d{2}-\d{2}$` $value) }}
+                        {{ $value = $value | dateFormat "January 6, 2006" }}
+                        {{ $value }}
                       {{ else }}
                         {{ $value }}
                       {{ end }}
