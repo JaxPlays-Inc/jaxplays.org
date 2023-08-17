@@ -158,6 +158,37 @@
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}" target="_blank">Official web page</a></div>
       </div>{{ end }}
+      
+      <!-- Show Details -->
+      {{ $showDetails := .Params.show_details }}
+
+      {{ if not $showDetails }}
+        {{ range where .Site.Pages "Type" "shows" }}
+          {{ if eq .Title $.Title }}
+            {{ $showDetails = .Params.show_details }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
+      {{ if $showDetails }}
+        {{ range $showDetail := $showDetails }}
+          {{ range $key, $value := $showDetail }}
+            <div class="flex">
+              <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $key }}</div>
+              <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+                {{ if (eq (printf "%T" $value) "[]interface {}") }}
+                  {{ range $idx, $val := $value }}
+                    {{ $val }}{{ if ne $idx (sub (len $value) 1) }}, {{ end }}
+                  {{ end }}
+                {{ else }}
+                  {{ $value }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}  
+
     </div>
 
     <!-- If cast exists -->
