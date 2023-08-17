@@ -10,6 +10,12 @@ playbill: 1999_Jesus_Christ_Superstar.pdf
 category: musicals
 Theatre: Omega Theatre Productions
 Venue: Florida Theatre
+genres:
+- Musical
+- Sung-Through
+- Rock Opera
+- Drama
+- Passion Play
 cast:
 - Judas Iscariot: James Beeks
 - Jesus: Justin Murphy
