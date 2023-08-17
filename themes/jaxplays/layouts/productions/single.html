@@ -12,60 +12,68 @@
         {{ .Params.theatre }}
       </h2>
     </header>
-    
+
     {{ $featuredImage := .Params.featured_image }}
     {{ $featuredImageCaption := .Params.featured_image_caption }}
     {{ $featuredImageAttr := .Params.featured_image_attr }}
-    
+    {{ $genres := .Params.genres }}
+
     {{ if not $featuredImage }}
-      {{ range where .Site.Pages "Type" "shows" }}
-        {{ if eq .Title $.Title }}
-          {{ $featuredImage = .Params.featured_image }}
-          {{ $featuredImageCaption = .Params.featured_image_caption }}
-          {{ $featuredImageAttr = .Params.featured_image_attr }}
-        {{ end }}
-      {{ end }}
+    {{ range where .Site.Pages "Type" "shows" }}
+    {{ if eq .Title $.Title }}
+    {{ $featuredImage = .Params.featured_image }}
+    {{ $featuredImageCaption = .Params.featured_image_caption }}
+    {{ $featuredImageAttr = .Params.featured_image_attr }}
     {{ end }}
-    
-    {{ if or $featuredImage .Params.genres }}
-      <div class="flex">
-        <!-- Featured Image Section -->
-        {{ if $featuredImage }}
-        <div class="w-40 w-25-l flex">
-          <a href="/media/posters/{{ $featuredImage }}" data-lightbox="image-1" data-title="{{ $featuredImageCaption }}">
-            <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" />
-          </a>
-        </div>
-        {{ end }}
-    
-        <!-- Genres and Tickets Section -->
-        {{ if or .Params.genres (and .Params.date .Params.closing_date) }}
-        <div class="w-60 w-75-l ml2 flex flex-column items-start justify-start">
-          <!-- Genres -->
-          {{ if .Params.genres }}
-          <div class="flex flex-wrap">
-            {{ range .Params.genres }}
-            <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mv2 mh1 h2 dib black bg-yellow">{{ . }}</a>
-            {{ end }}
-          </div>
-          {{ end }}
-    
-          <!-- Tickets -->
-          <!-- If date and closing_date are both filed out -->
-          {{ if and .Params.date .Params.closing_date }}
-          <!-- If closing_date is in the future -->
-          {{ $closingDate := time .Params.closing_date }}
-          {{ $now := now.Format "2006-01-02" | time }}
-          {{ if ge $closingDate $now }}
-          {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
-          {{ end }}
-          {{ end }}
-    
-        </div>
-        {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if not $genres }}
+    {{ range where .Site.Pages "Type" "shows" }}
+    {{ if eq .Title $.Title }}
+    {{ $genres = .Params.genres }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if or $featuredImage $genres }}
+    <div class="flex">
+      <!-- Featured Image Section -->
+      {{ if $featuredImage }}
+      <div class="w-40 w-25-l flex">
+        <a href="/media/posters/{{ $featuredImage }}" data-lightbox="image-1" data-title="{{ $featuredImageCaption }}">
+          <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" />
+        </a>
       </div>
+      {{ end }}
+
+      <!-- Genres and Tickets Section -->
+      {{ if or $genres (and .Params.date .Params.closing_date) }}
+      <div class="w-60 w-75-l ml2 flex flex-column items-start justify-start">
+        <!-- Genres -->
+        {{ if $genres }}
+        <div class="flex flex-wrap">
+          {{ range $genres }}
+          <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mv2 mh1 h2 dib black bg-yellow">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <!-- Tickets -->
+        <!-- If date and closing_date are both filed out -->
+        {{ if and .Params.date .Params.closing_date }}
+        <!-- If closing_date is in the future -->
+        {{ $closingDate := time .Params.closing_date }}
+        {{ $now := now.Format "2006-01-02" | time }}
+        {{ if ge $closingDate $now }}
+        {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
+        {{ end }}
+        {{ end }}
+
+      </div>
+      {{ end }}
+    </div>
     {{ end }}
-    
 
     <div class="nested-copy-line-height lh-copy f4-ns f5 mb5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Details</h3>
@@ -79,34 +87,39 @@
       </div>{{ end }}
       {{ $currentPage := . }} <!-- Capture the current page context -->
       {{ with .Params.venue }}
-        <div class="flex">
-          <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div>
-          <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-            <a href="/venues/{{ . | urlize }}">{{ . }}</a>
-            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" (. | urlize)) }} <!-- Use the captured page context -->
-            {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
-              <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-              <ul class="map_links list mv1 pl0">
-                <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-                <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE "%0A" "%20" }}">Apple Maps</a></li>
-              </ul>
-            {{ end }}
-          </div>
+      <div class="flex">
+        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Venue</div>
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+          <a href="/venues/{{ . | urlize }}">{{ . }}</a>
+          {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" (. | urlize)) }}
+          <!-- Use the captured page context -->
+          {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
+          <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+          <ul class="map_links list mv1 pl0">
+            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple
+                Maps</a></li>
+          </ul>
+          {{ end }}
         </div>
-      {{ end }}      
-      
+      </div>
+      {{ end }}
+
       <!-- if date and closing_date  -->
       {{ if and .Params.date .Params.closing_date }}
-        <div class="flex">
-          <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
-          {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
-          {{ $closingDate := time .Params.closing_date }}
-          <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> {{ $startDate.Format "Monday, January 2, 2006" }} — <br/>{{ $closingDate.Format "Monday, January 2, 2006" }}
-            <!-- set cta variable in go to tap  -->
-            <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap here to see all showtimes...</a>
-            <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here to see all showtimes...</a>
-          </div>
+      <div class="flex">
+        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
+        {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+        {{ $closingDate := time .Params.closing_date }}
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> {{ $startDate.Format "Monday, January 2, 2006" }} — <br />{{
+          $closingDate.Format "Monday, January 2, 2006" }}
+          <!-- set cta variable in go to tap  -->
+          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap
+            here to see all showtimes...</a>
+          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here
+            to see all showtimes...</a>
         </div>
+      </div>
       {{ end }}
 
       <!-- If showtimes exist -->
@@ -118,11 +131,13 @@
           </div>
           <div class="w-75-ns w-100 pa3-ns pa2">
             {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
-              {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
-              <div class="flex mb2 space-between">
-                <div class="w-75 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div> <!-- Date column -->
-                <div class="w-25 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "3:04 p.m." }}</div> <!-- Time column -->
-              </div>
+            {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
+            <div class="flex mb2 space-between">
+              <div class="w-75 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div>
+              <!-- Date column -->
+              <div class="w-25 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "3:04 p.m." }}</div>
+              <!-- Time column -->
+            </div>
             {{ end }}
           </div>
         </div>
@@ -141,29 +156,30 @@
 
       {{ with .Params.website }}<div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}" target="_blank" >Official web page</a></div>
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}" target="_blank">Official web page</a></div>
       </div>{{ end }}
     </div>
 
     <!-- If cast exists -->
     {{ if .Params.cast }}
     <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
+      <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
       {{ range .Params.cast }} <!-- Iterate over the cast array -->
-        {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
-          <div class="flex bb bw1 b--silver f5 f4-ns">
-            <div class="b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
-              <div class="pa3-ns pa2 w-50 w-70-l">
-              {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
-                {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
-                  <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }} <!-- Separate by commas -->
-                {{ end }}
-              {{ else }}
-                <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
-              {{ end }}
-              </div>
-          </div>
-        {{ end }}
+      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
+        <div class="pa3-ns pa2 w-50 w-70-l">
+          {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
+          {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
+          <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }}
+          <!-- Separate by commas -->
+          {{ end }}
+          {{ else }}
+          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
     {{ end }}
@@ -171,22 +187,23 @@
     <!-- If crew exists -->
     {{ if .Params.crew }}
     <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
+      <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
       {{ range .Params.crew }} <!-- Iterate over the crew array -->
-        {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
-        <div class="flex bb bw1 b--silver f5 f4-ns">
-            <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $role }}</div> <!-- Role -->
-              <div class="w-75 pa3-ns pa2 w-50 w-70-l">
-              {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
-                {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
-                  <a href="/people/{{ $p | urlize }}">{{ $p }}</a>{{ if ne $idx (sub (len $person) 1) }}, {{ end }} <!-- Separate by commas -->
-                {{ end }}
-              {{ else }}
-                <a href="/people/{{ $person | urlize }}">{{ $person }}</a> <!-- Single person's name with URLized link -->
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
+      {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $role }}</div> <!-- Role -->
+        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
+          {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
+          {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
+          <a href="/people/{{ $p | urlize }}">{{ $p }}</a>{{ if ne $idx (sub (len $person) 1) }}, {{ end }}
+          <!-- Separate by commas -->
+          {{ end }}
+          {{ else }}
+          <a href="/people/{{ $person | urlize }}">{{ $person }}</a> <!-- Single person's name with URLized link -->
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
     {{ end }}
@@ -194,16 +211,16 @@
     <!-- If understudies exists -->
     {{ if .Params.understudies }}
     <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">Understudies</h3>
+      <h3 class="f3 mt4 mb3 sectionline">Understudies</h3>
       {{ range .Params.understudies }} <!-- Iterate over the understudies array -->
-        {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
-        <div class="flex bb bw1 b--silver f5 f4-ns">
-          <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
-            <div class="w-75 pa3-ns pa2 w-50 w-70-l">
-              <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Actor name with URLized link -->
-            </div>
-          </div>
-        {{ end }}
+      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
+        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
+          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Actor name with URLized link -->
+        </div>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
     {{ end }}
@@ -211,16 +228,16 @@
     <!-- If orchestra exists -->
     {{ if .Params.orchestra }}
     <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">Orchestra</h3>
+      <h3 class="f3 mt4 mb3 sectionline">Orchestra</h3>
       {{ range .Params.orchestra }} <!-- Iterate over the orchestra array -->
-        {{ range $instrument, $musician := . }} <!-- Iterate over key-value pairs -->
-        <div class="flex bb bw1 b--silver f5 f4-ns">
-          <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $instrument }}</div> <!-- Instrument name -->
-            <div class="w-75 pa3-ns pa2 w-50 w-70-l">
-              <a href="/people/{{ $musician | urlize }}">{{ $musician }}</a> <!-- Musician's name with URLized link -->
-            </div>
-          </div>
-        {{ end }}
+      {{ range $instrument, $musician := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $instrument }}</div> <!-- Instrument name -->
+        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
+          <a href="/people/{{ $musician | urlize }}">{{ $musician }}</a> <!-- Musician's name with URLized link -->
+        </div>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
     {{ end }}

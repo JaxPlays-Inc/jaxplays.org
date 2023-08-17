@@ -5,12 +5,12 @@ featured_image: Jesus_Christ_Superstar.png
 featured_image_caption: Cover art for the album Jesus Christ Superstar
 featured_image_attr:
 category: musicals
-details: 
-    Music: Andrew Lloyd Webber - wiki
-    Lyrics: Tim Rice - wiki
-    Premiere: 12 October 1971
-    Theatre: Mark Hellinger Theatre - wiki
-    Website: https://www.jesuschristsuperstar.com
+show_details: 
+- Music: Andrew Lloyd Webber - wiki
+- Lyrics: Tim Rice - wiki
+- Premiere: 12 October 1971
+- Theatre: Mark Hellinger Theatre - wiki
+- Website: https://www.jesuschristsuperstar.com
 ---
 "Jesus Christ Superstar" is a groundbreaking and iconic sung-through rock opera that debuted in the early 1970s, with music by Andrew Lloyd Webber and lyrics by Tim Rice. This audacious musical takes a unique approach to the story of Jesus Christ, focusing on the final week of his life and portraying it through a contemporary lens. The narrative pivots around the complex relationships between Jesus, Judas Iscariot, and Mary Magdalene, while also reflecting on the societal and political tensions of the time.
 

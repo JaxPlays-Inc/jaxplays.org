@@ -3,17 +3,11 @@ layout: productions
 title: Bye Bye Birdie
 date: 2020-02-27
 closing_date: 2020-03-07
-featured_image: 2020_Bye_Bye_Birdie_(musical).jpg
+featured_image: 2020_Bye_Bye_Birdie.webp
 image_credit:
 image_alt:
 image_caption:
-category: musical
-Title: Bye Bye Birdie - wiki
 Theatre: Christ Episcopal Church
-Music: Charles Strouse - wiki
-Lyrics: Lee Adams - wiki
-Book: Michael Stewart (playwright) - wiki
-Basis: N/A
 Website: https://www.christepiscopalchurch.org/event/bye-bye-birdie/
 showtimes:
 - 2020-02-27 19:00:00
@@ -25,6 +19,18 @@ showtimes:
 - 2020-03-07 15:00:00
 - 2020-03-07 19:00:00
 cast:
+- Harvey Johnson: Nick Nasta
+- Ursula Merkle: Caragh Zeigler
+- Randolph MacAfee: Casey Carroll
+- Kim MacAfee: Josie Frein
+- Gloria Rasputin: Kacey Roache
+- Rosie Alvarez: Sophia Rose Loveday
+- Mr. MacAfee: Michael Itkoff
+- Mrs. MacAfee: Karyn Carroll
+- Hugo Peabody: Jake Nuttall
+- Conrad Birdie: Bradley Fisher
+- Mae Peterson: Darellee Naccarato
+- Albert Peterson: Joe Kemper
 crew:
 - Director: Lee Hamby
 - Musical Director: Tim Root

@@ -5,14 +5,14 @@ featured_image: Ragtime.webp
 featured_image_caption: Cover art for the album Ragtime
 featured_image_attr:
 category: musicals
-details: 
-    Music: Stephen Flaherty - wiki
-    Lyrics: Lynn Ahrens - wiki
-    Book: Terrence McNally - wiki
-    Premiere: 1996-12-08
-    Theatre: Ford Centre for the Performing Arts, Toronto
-    Basis: Ragtime (novel) - wiki
-    Website: 
+show_details: 
+- Music: Stephen Flaherty - wiki
+- Lyrics: Lynn Ahrens - wiki
+- Book: Terrence McNally - wiki
+- Premiere: 1996-12-08
+- Theatre: Ford Centre for the Performing Arts, Toronto
+- Basis: Ragtime (novel) - wiki
+- Website: 
 ---
 "Ragtime" is a powerful and sweeping musical based on the novel of the same name by E.L. Doctorow, with a book by Terrence McNally. Set in the early 20th century, the story weaves together the lives of three distinct groups of characters: an upper-class white family, an African American couple, and a Jewish immigrant father and his daughter. Against the backdrop of historical events and social upheaval, including racial tensions and the struggle for women's rights, their lives become intertwined as they navigate the rapidly changing American landscape.
 

@@ -5,14 +5,14 @@ featured_image: Godspell.jpeg
 featured_image_caption: Cover art for the album Godspell (1971 Off-Broadway Cast)
 featured_image_attr:
 category: musicals
-details: 
-    Music: Stephen Schwartz - wiki
-    Lyrics: Stephen Schwartz
-    Book: John-Michael Tebelak - wiki
-    Premiere: May 17, 1971
-    Theatre: La MaMa Experimental Theatre Club
-    Basis: Gospel of Saint Matthew
-    Website:
+show_details: 
+- Music: Stephen Schwartz - wiki
+- Lyrics: Stephen Schwartz
+- Book: John-Michael Tebelak - wiki
+- Premiere: May 17, 1971
+- Theatre: La MaMa Experimental Theatre Club
+- Basis: Gospel of Saint Matthew
+- Website:
 ---
 "Godspell" is a renowned musical composed by Stephen Schwartz with the book by John-Michael Tebelak. First premiered in 1971, the show features a series of parables primarily based on the Gospel of Matthew, interspersed with a variety of modern music set primarily to lyrics from traditional hymns.
 
