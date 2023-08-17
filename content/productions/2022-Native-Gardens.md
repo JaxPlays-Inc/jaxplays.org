@@ -8,7 +8,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Native Gardens
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 show_details:

@@ -10,7 +10,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Love! Valour! Compassion!
 Theatre: The 5 & Dime
 show_details:
 - Writer: Terrence McNally - wiki

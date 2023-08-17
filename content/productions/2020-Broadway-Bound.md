@@ -10,7 +10,6 @@ image_credit:
 image_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
 image_caption:
 category:
-Title: Broadway Bound!
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/broadway-bound
 showtimes:

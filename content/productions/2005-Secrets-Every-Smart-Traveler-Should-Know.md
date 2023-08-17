@@ -11,19 +11,16 @@ category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:
-- cast:
+- Cast:
   - Carole V. Banks
   - Staci Cobb
   - Christine DuMars
   - Blake Osner
   - Karl Rogers
 crew:
-- Title: Person
-- Piano: Ellen Milligan
-- Bass: Larry Nader
 - Artistic Director/Choreographer: Jean Tait
-- Musical Director: Ellen Milligan
 - Technical Director: Jeffery L. Wagoner
+- Musical Director: Ellen Milligan
 - Scenic Design: Kelly J. Wagoner
 - Lighting Design: Jeffery L. Wagoner
 - Costume Design: Audrey Wagner
@@ -47,5 +44,7 @@ crew:
   - Gloria Pepe
   - Ashly Potter
 orchestra:
+- Piano: Ellen Milligan
+- Bass: Larry Nader
 external_links:
 ---

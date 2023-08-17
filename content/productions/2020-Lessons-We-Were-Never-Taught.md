@@ -10,7 +10,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Lessons We Were Never Taught
 Venue: BABS' LAB
 show_details:
 - Writer: Nikesha Elise Williams

@@ -14,7 +14,6 @@ Genres:
 - Romance
 - Shakespeare
 - Comedy
-Title: Romeo & Juliet
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 show_details:

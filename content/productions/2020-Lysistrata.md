@@ -11,7 +11,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Lysistrata
 Theatre: The 5 & Dime
 show_details:
 - Writer: Aristophanes - wiki

@@ -10,7 +10,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: The Food of Love
 Theatre: Phase Eight Theater Company
 Genre: Romantic Comedy
 show_details:

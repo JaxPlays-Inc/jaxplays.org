@@ -3,15 +3,15 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: The Musical Comedy Murders of 1940
-date: 2020
+date: 2020-06-12
 image_credit:
 image_alt:
 image_caption:
 category: play
-Title: The Musical Comedy Murders of 1940 - wiki
 Theatre: Players by the Sea
 show_details:
 - Writer: John Bishop - wiki
+- Wikipedia: The Musical Comedy Murders of 1940 - wiki
 Genre: Comedy
 showtimes:
 - 2020-06-12 20:00:00

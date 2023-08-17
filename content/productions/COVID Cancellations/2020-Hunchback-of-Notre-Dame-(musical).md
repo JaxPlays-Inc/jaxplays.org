@@ -8,13 +8,17 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: The Hunchback of Notre Dame - wiki
 Theatre: Players by the Sea
 show_details:
 - Music: Alan Menken - wiki
 - Lyrics: Stephen Schwartz - wiki
 - Book: Peter Parnell - wiki
-- Basis: The Hunchback of Notre-Dame - wiki, Victor Hugo - wiki, The Hunchback of Notre Dame (1996 film) - wiki, Walt Disney Animation Studios - wiki
+- Basis: 
+  - The Hunchback of Notre-Dame - wiki
+  - Victor Hugo - wiki
+  - The Hunchback of Notre Dame (1996 film) - wiki
+  - Walt Disney Animation Studios - wiki
+- Wikipedia: The Hunchback of Notre Dame - wiki
 showtimes:
 - 2020-07-17 20:00:00
 - 2020-07-18 20:00:00

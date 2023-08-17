@@ -8,7 +8,6 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: The Wizard of Oz
 Theatre: The Alhambra Theatre & Dining
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=393
 showtimes:

@@ -10,7 +10,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: The Sweet Delilah Swim Club
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:

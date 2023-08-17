@@ -8,12 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: Rock of Ages (musical) - wiki
 Theatre: The 5 & Dime
 show_details:
 - Book: Chris D'Arienzo
 - Music: Various
 - Lyrics: Various
+- Wikipedia: Rock of Ages (musical) - wiki
 showtimes:
 - 2020-09-18 20:00:00
 - 2020-09-19 20:00:00

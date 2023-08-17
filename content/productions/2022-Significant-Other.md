@@ -8,7 +8,6 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Significant Other
 Theatre: The 5 & Dime
 Venue: BABS' LAB
 show_details:

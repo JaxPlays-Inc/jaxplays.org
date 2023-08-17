@@ -31,7 +31,6 @@ cast:
 - Seamstress: Mandy Swift
 - Widow: Tracy Olin
 crew:
-- Title: Person
 - Executive Director: Sarah Boone
 - Artistic Director: Jason Chimonides
 - Scenic Design: Kelly J. Wagoner

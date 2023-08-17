@@ -3,12 +3,12 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: A Number
-date: 2020
+date: 2020-09-11
+closing_date: 2020-09-13
 image_credit:
 image_alt:
 image_caption:
 category: play
-Title: A Number - wiki
 Theatre: Actors Collective
 Venue: Museum of Science & History
 Website: http://www.actorscollective.com/the-secret-of-life/
@@ -16,6 +16,7 @@ show_details:
 - Writer: Caryl Churchill - wiki
 - Series: 'The Secret of Life: A Science Play Series'
 - Subject: Human cloning and identity
+- Wikipedia: A Number - wiki
 showtimes:
 - 2020-09-11 19:30:00
 - 2020-09-12 19:30:00

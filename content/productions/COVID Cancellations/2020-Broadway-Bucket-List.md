@@ -8,7 +8,6 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: Broadway Bucket List
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/broadway-bucket-list
 showtimes:

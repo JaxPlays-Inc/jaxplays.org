@@ -8,12 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: The Music Man - wiki
 Theatre: The Alhambra Theatre & Dining
 show_details:
 - Music: Meredith Willson - wiki
 - Lyrics: Meredith Willson
 - Book: Meredith Willson, Franklin Lacey - wiki
+- Wikipedia: The Music Man - wiki
 showtimes:
 - 2020-08-06 11:00:00
 - 2020-08-06 18:00:00
