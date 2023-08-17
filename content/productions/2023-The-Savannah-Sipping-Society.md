@@ -3,13 +3,10 @@ title: The Savannah Sipping Society
 date: 2023-05-05
 closing_date: 2023-05-14
 layout: productions
-featured_image: 2023_The_Savannah_Sipping_Society.png
-image_caption:
-image_credit:
+featured_image:
+featured_image_caption:
+featured_image_attr:
 playbill:
-genres: 
-- Play
-- Comedy
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa

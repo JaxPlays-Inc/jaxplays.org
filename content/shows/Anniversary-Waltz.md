@@ -1,9 +1,9 @@
 ---
 title: Anniversary Waltz
 layout: shows
-image: 
-image_caption: 
-image_credit:
+featured_image: 
+featured_image_caption: 
+featured_image_attr:
 category: comedy
 details: 
     Playwright: Jerome Chodorov and Joseph Fields

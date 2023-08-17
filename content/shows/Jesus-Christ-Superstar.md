@@ -1,9 +1,9 @@
 ---
 title: Jesus Christ Superstar
 layout: shows
-image: Jesus_Christ_Superstar.png
-image_caption: Cover art for the album Jesus Christ Superstar
-image_credit:
+featured_image: Jesus_Christ_Superstar.png
+featured_image_caption: Cover art for the album Jesus Christ Superstar
+featured_image_attr:
 category: musicals
 details: 
     Music: Andrew Lloyd Webber - wiki

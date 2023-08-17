@@ -1,9 +1,9 @@
 ---
 title: Over the River and Through the Woods
 layout: shows
-image: 
-image_caption: 
-image_credit:
+featured_image: 
+featured_image_caption: 
+featured_image_attr:
 category: play, comedy
 details: 
     Playwright: Joe DiPietro - wiki

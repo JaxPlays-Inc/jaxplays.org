@@ -1,9 +1,9 @@
 ---
 title: Arsenic and Old Lace
 layout: shows
-image: Arsenic_and_Old_Lace.jpeg
-image_caption: Front cover and spine of the first edition printing of Arsenic and Old Lace
-image_credit: Facsimile Dust Jackets, LLC
+featured_image: Arsenic_and_Old_Lace.jpeg
+featured_image_caption: Front cover and spine of the first edition printing of Arsenic and Old Lace
+featured_image_attr: Facsimile Dust Jackets, LLC
 category: play
 details: 
     Playwright: Joseph Kesselring

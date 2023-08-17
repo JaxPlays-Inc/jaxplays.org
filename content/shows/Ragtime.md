@@ -1,9 +1,9 @@
 ---
 title: Ragtime 
 layout: shows
-image: Ragtime.webp
-image_caption: Cover art for the album Ragtime
-image_credit:
+featured_image: Ragtime.webp
+featured_image_caption: Cover art for the album Ragtime
+featured_image_attr:
 category: musicals
 details: 
     Music: Stephen Flaherty - wiki

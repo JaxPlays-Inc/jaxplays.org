@@ -1,9 +1,9 @@
 ---
 title: Jersey Boys
 layout: shows
-image: Jersey_Boys.jpeg
-image_caption: Playbill cover for Jersey Boys on opening night at the August Wilson Theatre on Broadway (2005)
-image_credit: Playbill
+featured_image: Jersey_Boys.jpeg
+featured_image_caption: Playbill cover for Jersey Boys on opening night at the August Wilson Theatre on Broadway (2005)
+featured_image_attr: Playbill
 category: musicals
 details: 
     Music: Bob Gaudio - wiki

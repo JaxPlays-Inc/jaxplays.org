@@ -1,9 +1,9 @@
 ---
 title: Fiddler on the Roof
 layout: shows
-image: Fiddler_on_the_Roof.jpg
-image_caption: Playbill from the original Broadway production of Fiddler on the Roof
-image_credit: Playbill
+featured_image: Fiddler_on_the_Roof.jpg
+featured_image_caption: Playbill from the original Broadway production of Fiddler on the Roof
+featured_image_attr: Playbill
 category: musicals
 details: 
     Music: Jerry Bock - wiki
