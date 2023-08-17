@@ -13,7 +13,8 @@ Genres:
 - Coming-of-Age Story
 Theatre: Players by the Sea
 Venue: Grace Darling Studio Theatre
-Playwright: Tarell Alvin McCraney
+show_details:
+- Playwright: Tarell Alvin McCraney
 Website: https://playersbythesea.org/choir-boy
 showtimes:
 - 2023-05-12 20:00:00

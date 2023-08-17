@@ -5,7 +5,7 @@ featured_image: Arsenic_and_Old_Lace.jpeg
 featured_image_caption: Front cover and spine of the first edition printing of Arsenic and Old Lace
 featured_image_attr: Facsimile Dust Jackets, LLC
 category: play
-show_details: 
+show_details:
 - Playwright: Joseph Kesselring
 - Premiere: 1941-01-10
 - Theatre: Fulton Theatre, Broadway

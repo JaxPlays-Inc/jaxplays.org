@@ -3,16 +3,19 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Night of January 16th
-date: 2020
+date: 2020-04-17
 image_credit:
 image_alt:
 image_caption:
 category: play
 Title: Night of January 16th - wiki
 Theatre: Orange Park Community Theatre
-Writer: Ayn Rand - wiki
-Genre: Courtroom drama
-Setting: A courtroom in New York City
+Genres: 
+- Play
+- Courtroom drama
+show_details:
+- Writer: Ayn Rand - wiki
+- Setting: A courtroom in New York City
 Website: https://www.opct.info
 showtimes:
 - 2020-04-17 20:00:00

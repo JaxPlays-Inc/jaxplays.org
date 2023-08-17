@@ -5,7 +5,7 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 category: comedy
-show_details: 
+show_details:
 - Playwright: Jerome Chodorov and Joseph Fields
 - Genre: Comedy
 - Premiere: 1954-04-07

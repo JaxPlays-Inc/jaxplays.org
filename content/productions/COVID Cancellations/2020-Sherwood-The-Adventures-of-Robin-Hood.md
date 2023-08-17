@@ -3,15 +3,19 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: 'Sherwood: The Adventures of Robin Hood'
-date: 2020
+date: 2020-05-08
+closing_date: 2020-05-24
 image_credit:
 image_alt:
 image_caption:
 category: comedy
 Theatre: ABET - All Beaches Experimental Theatre
-Setting: Sherwood Forest & Nottinghamshire England
-Writer: Ken Ludwig - wiki
-Genre: Comedy
+Genre: 
+- Play
+- Comedy
+show_details:
+- Writer: Ken Ludwig - wiki
+- Setting: Sherwood Forest & Nottinghamshire England
 Website: http://www.abettheatre.com/
 showtimes:
 - 2020-05-08 20:00:00

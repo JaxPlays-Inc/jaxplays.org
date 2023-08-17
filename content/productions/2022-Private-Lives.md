@@ -10,7 +10,8 @@ playbill: 2022_Private_Lives.pdf
 category:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
-Playwright: "No\xEBl Coward - wiki"
+show_details:
+- Playwright: "No\xEBl Coward - wiki"
 showtimes:
 - 2022-09-16 19:30:00
 - 2022-09-17 19:30:00

@@ -14,8 +14,9 @@ genres:
 - Dark comedy
 Theatre: Lumen Repertory Theatre
 Venue: Swisher Theater
-Based on: _Huis Clos_ by Jean Paul Sartre
-Adapted by: Brian Niece*
+show_details:
+- Based on: _Huis Clos_ by Jean Paul Sartre
+- Adapted by: Brian Niece*
 Website: https://www.lumenrep.org/shows/noexit
 Tickets: https://noexit.eventbrite.com/
 showtimes:

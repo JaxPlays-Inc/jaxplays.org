@@ -8,9 +8,9 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Sweat
 Theatre: The 5 & Dime
-Writer: Lynn Nottage - wiki
+show_details:
+- Writer: Lynn Nottage - wiki
 Website: https://www.the5anddime.org/sweat
 showtimes:
 - 2019-08-02 20:00:00

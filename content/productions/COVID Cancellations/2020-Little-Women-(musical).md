@@ -9,12 +9,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: Little Women (musical) - wiki
 Theatre: Limelight Theatre
-Music: Jason Howland - wiki
-Lyrics: Mindi Dickstein - wiki
-Book: Allan Knee - wiki
-Basis: Little Women - wiki, Louisa May Alcott - wiki
+show_details:
+- Music: Jason Howland - wiki
+- Lyrics: Mindi Dickstein - wiki
+- Book: Allan Knee - wiki
+- Basis: Little Women - wiki, Louisa May Alcott - wiki
 Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes:
 - 2020-05-07 19:30:00

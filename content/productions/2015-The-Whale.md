@@ -10,9 +10,9 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: The Whale
 Theatre: The 5 & Dime
-Writer: Samuel D. Hunter - wiki
+show_details:
+- Writer: Samuel D. Hunter - wiki
 Website: https://www.the5anddime.org
 showtimes:
 - 2015-11-13 20:00:00

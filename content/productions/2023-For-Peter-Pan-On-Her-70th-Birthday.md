@@ -13,7 +13,8 @@ Genres:
 - Fantasy
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
-Playwright: Sarah Ruhl
+show_details:
+- Playwright: Sarah Ruhl
 Website: https://www.the5anddime.org/for-peter-pan
 showtimes:
 - 2023-09-15 20:00:00

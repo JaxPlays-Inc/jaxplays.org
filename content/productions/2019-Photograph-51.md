@@ -12,8 +12,9 @@ playbill:
 Title: Photograph 51 (play) - wiki
 Theatre: Actors Collective
 Venue: Museum of Science & History
-Writer: Anna Ziegler (playwright) - wiki
-Series: 'The Secret of Life: A Science Play Series'
+show_details:
+- Writer: Anna Ziegler (playwright) - wiki
+- Series: 'The Secret of Life: A Science Play Series'
 Website: http://www.actorscollective.com/photograph-51/
 showtimes:
 - 2019-01-25 19:30:00

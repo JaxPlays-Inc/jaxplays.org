@@ -10,9 +10,10 @@ playbill:
 category: musicals
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-Music: Alan Menken - wiki
-Book: Linda Woolverton - wiki
-Lyrics: Howard Ashman, Tim Rice
+show_details:
+- Music: Alan Menken - wiki
+- Book: Linda Woolverton - wiki
+- Lyrics: Howard Ashman, Tim Rice
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays
 Genres:
 - Musical

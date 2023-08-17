@@ -10,10 +10,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: Southern Fried Funeral
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
-Writer: Osborne & Eppler
+show_details:
+- Writer: 
+  - J. Dietz Osborne
+  - Nate Eppler
 Genre: Comedy/Drama
 Tickets: https://our.show/southernfriedfuneral
 showtimes:

@@ -11,10 +11,11 @@ category: play
 Title: A Number - wiki
 Theatre: Actors Collective
 Venue: Museum of Science & History
-Writer: Caryl Churchill - wiki
-Series: 'The Secret of Life: A Science Play Series'
-Subject: Human cloning and identity
 Website: http://www.actorscollective.com/the-secret-of-life/
+show_details:
+- Writer: Caryl Churchill - wiki
+- Series: 'The Secret of Life: A Science Play Series'
+- Subject: Human cloning and identity
 showtimes:
 - 2020-09-11 19:30:00
 - 2020-09-12 19:30:00

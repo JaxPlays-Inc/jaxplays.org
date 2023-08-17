@@ -11,9 +11,14 @@ image_alt:
 image_caption: Poster of 2022 production of The Shawshank Redemption
 category: play
 Theatre: ABET - All Beaches Experimental Theatre
-Writer: Dave Johns, Owen O'Neill
-Genre: Crime Fiction
-Setting: Shawshank State Penitentiary
+Genres: 
+- Play
+- Crime Fiction
+show_details:
+- Writer: 
+  - Dave Johns
+  - Owen O'Neill
+- Setting: Shawshank State Penitentiary
 Tickets: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439?aff=erelexpmlt
 showtimes:
 - 2022-05-20 19:30:00

@@ -10,10 +10,11 @@ image_caption:
 category: musical
 Title: Cinderella (Rodgers and Hammerstein musical) - wiki
 Theatre: The Alhambra Theatre & Dining
-Music: Richard Rodgers - wiki
-Lyrics: Oscar Hammerstein II - wiki
-Book: Oscar Hammerstein II
-Basis: Charles Perraults Cinderella
+show_details:
+- Music: Richard Rodgers - wiki
+- Lyrics: Oscar Hammerstein II - wiki
+- Book: Oscar Hammerstein II
+- Basis: Charles Perraults Cinderella
 Website: https://www.alhambrajax.com/show/cinderella/
 showtimes:
 - 2020-06-11 11:00:00

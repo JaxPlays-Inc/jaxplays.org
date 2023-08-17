@@ -9,8 +9,9 @@ image_alt:
 image_caption:
 category: musical
 Theatre: The 5 & Dime
-Music: Cole Porter - wiki
-Lyrics: Cole Porter
+show_details:
+- Music: Cole Porter - wiki
+- Lyrics: Cole Porter
 showtimes:
 - 2020-10-16 20:00:00
 - 2020-10-17 20:00:00

@@ -12,11 +12,14 @@ image_caption:
 category: musical
 Title: In the Heights - wiki
 Theatre: Jacksonville University
-Venue: Swisher Theater
-Venue 2: Nathan H. Wilson Center for the Arts
-Music/Lyrics: Lin-Manuel Miranda - wiki
-Book: "Quiara Alegr\xEDa Hudes - wiki"
-Setting: Washington Heights, Manhattan
+Venue: 
+- Swisher Theater
+- Nathan H. Wilson Center for the Arts
+show_details:
+- Music: Lin-Manuel Miranda - wiki
+- Lyrics: Lin-Manuel Miranda
+- Book: "Quiara Alegr\xEDa Hudes - wiki"
+- Setting: Washington Heights, Manhattan
 showtimes:
 - 2020-01-17 19:30:00
 - 2020-01-18 19:30:00

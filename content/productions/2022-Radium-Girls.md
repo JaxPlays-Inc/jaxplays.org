@@ -7,13 +7,14 @@ featured_image: 2022_Radium_Girls.webp
 image_credit: Amelia Community Theatre
 image_alt:
 image_caption: Poster of 2022 production of Radium Girls
-category: play
-Title: Radium Girls
+Genres: 
+- Play
+- Drama
 Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
-Writer: D.W. Gregory
-Genre: Drama
-Setting: U.S. Radium Corporation
+show_details:
+- Venue: ACT Main Stage
+- Writer: D.W. Gregory
+- Setting: U.S. Radium Corporation
 Website: https://www.ameliacommunitytheatre.org/Performances/Radium-Girls
 showtimes:
 - 2022-06-10 19:30:00

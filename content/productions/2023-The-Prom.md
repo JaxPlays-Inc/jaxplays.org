@@ -13,9 +13,10 @@ Genres:
 - Drama
 Theatre: Greenlight Theatre Company
 Venue: Grace Darling Studio Theatre
-Music: Matthew Sklar - wiki
-Lyrics: Chad Beguelin - wiki
-Book: Bob Martin & Chad Beguelin
+show_details:
+- Music: Matthew Sklar - wiki
+- Lyrics: Chad Beguelin - wiki
+- Book: Bob Martin & Chad Beguelin
 Tickets: https://www.eventbrite.com/o/greenlight-theatre-company-50485732523
 showtimes:
 - 2023-06-09 19:00:00

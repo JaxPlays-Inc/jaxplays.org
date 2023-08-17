@@ -13,7 +13,8 @@ Genres:
 - Romance
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
-Playwright: Lanford Wilson
+show_details:
+- Playwright: Lanford Wilson
 Tickets: https://www.eventbrite.com/e/burn-this-tickets-365696406797
 showtimes:
 - 2023-06-16 19:30:00

@@ -8,10 +8,10 @@ image_alt:
 image_caption:
 category: play
 featured_image: 2022_The_Great_Gatsby.jpg
-Title: The Great Gatsby - wiki
 Theatre: The Island Theater
-Writer: F. Scott Fitzgerald - wiki
-Adapter: Simon Levy - wiki
+show_details:
+- Writer: F. Scott Fitzgerald - wiki
+- Adapter: Simon Levy - wiki
 Genre: Tragedy
 Website:
 showtimes:

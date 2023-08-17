@@ -9,14 +9,14 @@ featured_image:
 image_credit:
 image_alt:
 image_caption:
-category: play
-Title: The Young Man from Atlanta - wiki
+Genres: 
+- Play
+- Drama
 Theatre: Limelight Theatre
-Writer: Horton Foote - wiki
-Genre: Drama - wiki
-Setting: Spring 1950. Houston Texas
-Subject: Two parents attempt to cope with the death and homosexuality of their only
-  son
+show_details: 
+- Writer: Horton Foote - wiki
+- Setting: Spring 1950. Houston Texas
+- Subject: Two parents attempt to cope with the death and homosexuality of their only son
 Website: https://limelight-theatre.org/shows/
 showtimes:
 - 2020-01-16 19:30:00

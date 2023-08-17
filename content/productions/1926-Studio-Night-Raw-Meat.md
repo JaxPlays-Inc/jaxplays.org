@@ -8,6 +8,8 @@ image_caption:
 image_credit:
 playbill:
 category:
+show_details:
+- Playwright: Birsa Shepard
 Theatre: Theatre Jacksonville
 cast:
 - Jimmie: Bishop McCauley
@@ -17,7 +19,6 @@ cast:
 - Gibbons: J.H. Pratt
 - Melissa: Martha Brotherton
 crew:
-- Playwright: Birsa Shepard
 orchestra:
 external_links:
 ---

@@ -12,10 +12,11 @@ category: musical
 Title: Matilda the Musical
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
-Music: Tim Minchin - wiki
-Lyrics: Tim Minchin
-Book: Dennis Kelly - wiki
-Basis: Matilda by Roald Dahl
+show_details:
+- Music: Tim Minchin - wiki
+- Lyrics: Tim Minchin
+- Book: Dennis Kelly - wiki
+- Basis: Matilda by Roald Dahl
 Website: https://www.theatrejax.com/this-season
 showtimes:
 - 2020-06-05 20:00:00

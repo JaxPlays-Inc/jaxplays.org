@@ -8,10 +8,11 @@ image_caption:
 category: musical
 Title: Violet (musical) - wiki
 Theatre: ABET - All Beaches Experimental Theatre
-Music: Jeanine Tesori - wiki
-Lyrics: Brian Crawley
-Book: Brian Crawley
-Basis: The Ugliest Pilgrim by Doris Betts
+show_details:
+- Music: Jeanine Tesori - wiki
+- Lyrics: Brian Crawley
+- Book: Brian Crawley
+- Basis: The Ugliest Pilgrim by Doris Betts
 cast:
 crew:
 - Director: Michael Lipp

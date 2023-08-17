@@ -6,10 +6,10 @@ image_credit:
 image_alt:
 image_caption:
 category:
-Title: The Rainmaker (play) - wiki
 Theatre: ABET - All Beaches Experimental Theatre
-Playwright: N. Richard Nash - wiki
-Setting: West rural town, Depression-era America
+show_details:
+- Playwright: N. Richard Nash - wiki
+- Setting: West rural town, Depression-era America
 cast:
 crew:
 - Director: Michael Lipp

@@ -11,11 +11,18 @@ image_caption:
 category: play
 featured_image: 2019_OneBy_Tenn_Plus_Eight.webp
 playbill: 2019_One_By_Tenn_Plus_Eight.pdf
-Title: 'One by Tenn Plus Eight: Short Stories For the Stage'
 Theatre: Actors Collective
 Venue: ABET - All Beaches Experimental Theatre
-Writers: Adam Nathaniel Davis, Karen Konzen, Cameron J. Pfahler, Elaine Smith, Kelby
-  Siddons, Nathan Sanders, Olivia Gowan, Tennessee Williams
+show_details:
+- Writer: 
+  - Adam Nathaniel Davis
+  - Karen Konzen
+  - Cameron J. Pfahler
+  - Elaine Smith
+  - Kelby Siddons
+  - Nathan Sanders
+  - Olivia Gowan
+  - Tennessee Williams
 showtimes:
 - 2019-06-28 20:00:00
 - 2019-06-29 20:00:00
@@ -24,14 +31,33 @@ showtimes:
 - 2019-07-06 20:00:00
 - 2019-07-07 14:00:00
 cast:
-Ten Minute Life: Jason Collins - Milan Alley
-Self Care: Milan Alley Kristen Walsh
-Spare Change: Rich Pintello Jason Collins
-Sweet Jesus!: Brooks Anne Meierdierks Christopher Watson
-Social Inquisition: Brooks Anne Meierdierks Christopher Watson Jason Collins Kristen
-  Walsh Milan Alley Rich Pintello
-Roots in the Wind: Kristen Walsh Brooks Anne Meierdierks Jason Collins Rich Pintello
-Talk to Me Like the Rain and Let Me Listen: Milan Alley Christopher Watson
+- Ten Minute Life: 
+  - Jason Collins
+  - Milan Alley
+- Self Care: 
+  - Milan Alley
+  - Kristen Walsh
+- Spare Change: 
+  - Rich Pintello
+  - Jason Collins
+- Sweet Jesus!: 
+  - Brooks Anne Meierdierks
+  - Christopher Watson
+- Social Inquisition: 
+  - Brooks Anne Meierdierks
+  - Christopher Watson
+  - Jason Collins
+  - Kristen Walsh
+  - Milan Alley
+  - Rich Pintello
+- Roots in the Wind: 
+  - Kristen Walsh Brooks 
+  - Anne Meierdierks 
+  - Jason Collins
+  - Rich Pintello
+- Talk to Me Like the Rain and Let Me Listen: 
+  - Milan Alley
+  - Christopher Watson
 crew:
 - Director: Caryl Butterley
 - Stage Manager: Mara Grigg

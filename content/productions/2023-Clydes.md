@@ -11,7 +11,8 @@ category:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 Website: https://www.the5anddime.org/clydes
-Playwright: Lynn Nottage
+show_details:
+- Playwright: Lynn Nottage
 Genres:
 - Play
 - Drama

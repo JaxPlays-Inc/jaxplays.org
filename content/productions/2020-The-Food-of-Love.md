@@ -12,8 +12,9 @@ image_caption:
 category: play
 Title: The Food of Love
 Theatre: Phase Eight Theater Company
-Writer: Kelby Siddons
 Genre: Romantic Comedy
+show_details:
+- Writer: Kelby Siddons
 Venue: Museum of Contemporary Art Jacksonville
 Website: http://www.phaseeight.org/2020-season.html
 showtimes:

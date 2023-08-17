@@ -8,13 +8,16 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Name: How to Succeed in Business Without Really Trying (musical) - wiki
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-Music: Frank Loesser - wiki
-Lyrics: Frank Loesser
-Book: Abe Burrows - wiki, Jack Weinstock - wiki, Willie Gilbert - wiki
-Basis: How to Succeed in Business Without Really Trying by Shepherd Mead
+show_details:
+- Music: Frank Loesser - wiki
+- Lyrics: Frank Loesser
+- Book: 
+  - Abe Burrows - wiki
+  - Jack Weinstock - wiki
+  - Willie Gilbert - wiki
+- Basis: How to Succeed in Business Without Really Trying by Shepherd Mead
 Website: https://www.alhambrajax.com/show/how-to-succeed-in-business-without-really-trying/
 showtimes:
 - 2020-02-20 11:00:00

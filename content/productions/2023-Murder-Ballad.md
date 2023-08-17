@@ -15,6 +15,12 @@ Genres:
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 Tickets: https://www.eventbrite.com/e/murder-ballad-a-musical-tickets-362827395507
+show_details: 
+- Book: Julia Jordan - wiki
+- Music: Juliana Nash
+- Lyrics: 
+  - Julia Jordan
+  - Juliana Nash
 showtimes:
 - 2023-08-11 19:30:00
 - 2023-08-12 19:30:00

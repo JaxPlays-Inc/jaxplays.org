@@ -5,7 +5,7 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 category: play, comedy
-show_details: 
+show_details:
 - Playwright: Joe DiPietro - wiki
 - Premiere: 1994-04
 - Theatre: Belmot Italian American Playhouse, Bronx, New York

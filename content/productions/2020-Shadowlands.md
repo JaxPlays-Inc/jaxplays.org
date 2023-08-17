@@ -13,9 +13,10 @@ category: play
 Title: Shadowlands (play) - wiki
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
-Writer: William Nicholson - wiki
+show_details:
+- Writer: William Nicholson - wiki
+- Subject: Biographical
 Genre: Drama
-Subject: Biographical
 showtimes:
 - 2020-01-10 20:00:00
 - 2020-01-11 20:00:00

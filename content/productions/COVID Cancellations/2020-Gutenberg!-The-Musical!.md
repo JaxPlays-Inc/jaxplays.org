@@ -9,9 +9,12 @@ image_alt:
 image_caption:
 category: musical
 Theatre: The 5 & Dime
-Music: Scott Brown (writer) - wiki, Anthony King (writer) - wiki
-Lyrics: Scott Brown, Anthony King
-Book: Scott Brown, Anthony King
+show_details:
+- Music:
+  - Scott Brown (writer) - wiki
+  - Anthony King (writer) - wiki
+- Lyrics: Scott Brown, Anthony King
+- Book: Scott Brown, Anthony King
 showtimes:
 - 2020-04-17 20:00:00
 - 2020-04-18 20:00:00

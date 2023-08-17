@@ -10,12 +10,12 @@ image_caption:
 category: musical
 Title: A Wonderful Life (musical) - wiki
 Theatre: The Alhambra Theatre & Dining
-Music: Joe Raposo - wiki
-Lyrics: Sheldon Harnick - wiki
-Book: Sheldon Harnick
-Basis: Based on the 1946 film, It's a Wonderful Life produced and directed by Frank
-  Capra.
-Setting: Bedford Falls
+show_details:
+- Music: Joe Raposo - wiki
+- Lyrics: Sheldon Harnick - wiki
+- Book: Sheldon Harnick
+- Basis: Based on the 1946 film, It's a Wonderful Life produced and directed by Frank Capra.
+- Setting: Bedford Falls
 Website: https://www.alhambrajax.com/show/a-wonderful-life/
 showtimes:
 - 2020-11-25 18:00:00

@@ -10,10 +10,10 @@ image_alt:
 image_caption:
 category: musical
 Theatre: Players by the Sea
-Title: Parade_(musical) - wiki
-Music: Jason Robert Brown - wiki
-Lyrics: Jason Robert Brown
-Book: Alfred Uhry
+show_details:
+- Music: Jason Robert Brown - wiki
+- Lyrics: Jason Robert Brown
+- Book: Alfred Uhry
 cast:
 - Young Soldier: Stephen Michael Johns
 - Aide:

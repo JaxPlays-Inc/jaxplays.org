@@ -10,12 +10,12 @@ image_alt:
 image_caption:
 category: musical
 featured_image: 2022_Ghost_(musical).jpg
-Title: Ghost (musical)
 Theatre: The Alhambra Theatre & Dining
-Music: Dave Stewart - wiki, Glen Ballard - wiki
-Lyrics: Dave Stewart, Glen Ballard, Bruce Joel Rubin - wiki
-Book: Bruce Joel Rubin
-Basis: The film Ghost by Bruce Joel Rubin
+show_details:
+- Music: Dave Stewart - wiki, Glen Ballard - wiki
+- Lyrics: Dave Stewart, Glen Ballard, Bruce Joel Rubin - wiki
+- Book: Bruce Joel Rubin
+- Basis: The film Ghost by Bruce Joel Rubin
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=395
 showtimes:
 - 2022-09-29 12:00:00

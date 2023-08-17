@@ -8,11 +8,11 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: Ruthless! - wiki
 Theatre: Players by the Sea
-Music: Marvin Laird - wiki
-Lyrics: Joel Paley - wiki
-Book: Joel Paley
+show_details:
+- Music: Marvin Laird - wiki
+- Lyrics: Joel Paley - wiki
+- Book: Joel Paley
 Tickets: https://web.ovationtix.com/trs/pr/1026219
 showtimes:
 - 2022-04-22 20:00:00

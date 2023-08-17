@@ -8,13 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: A Doll's House, Part 2 - wiki
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
-Writer: Lucas Hnath - wiki
-Setting: The home of the Helmer family in an unspecified Norwegian town or city, circa
-  1879.
-Subject: A Doll's House - wiki
+show_details:
+- Writer: Lucas Hnath - wiki
+- Setting: The home of the Helmer family in an unspecified Norwegian town or city, circa 1879
+- Subject: A Doll's House - wiki
 Website: https://www.ameliacommunitytheatre.org/Performances/Dolls-House-Part-2
 showtimes:
 - 2020-03-06 20:00:00

@@ -11,9 +11,9 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: The Piano Lesson - wiki
 Theatre: Players by the Sea
-Writer: August Wilson - wiki
+show_details:
+- Writer: August Wilson - wiki
 Genre: Drama
 Tickets: https://web.ovationtix.com/trs/cal/34877?sitePreference=normal
 showtimes:

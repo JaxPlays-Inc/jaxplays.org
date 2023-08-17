@@ -11,7 +11,6 @@ image_credit: Theatre Jacksonville
 image_alt:
 image_caption: Graphic for Ragtime
 category: musical
-Title: Ragtime (musical) - wiki
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 Website: https://www.theatrejax.com/season102

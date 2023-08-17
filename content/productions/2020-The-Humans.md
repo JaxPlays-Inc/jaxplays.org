@@ -10,12 +10,12 @@ image_credit:
 image_alt:
 image_caption:
 category: play
-Title: The Humans (play) - wiki
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
-Writer: Stephen Karam - wiki
-Setting: An apartment in lower Manhattan
-Subject: Family
+show_details:
+- Writer: Stephen Karam - wiki
+- Setting: An apartment in lower Manhattan
+- Subject: Family
 Website: https://www.ameliacommunitytheatre.org/Performances/The-Humans-
 showtimes:
 - 2020-01-31 20:00:00

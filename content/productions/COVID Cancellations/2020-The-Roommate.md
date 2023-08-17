@@ -9,7 +9,8 @@ image_alt:
 image_caption:
 category: play
 Theatre: Limelight Theatre
-Writer: Jen Silverman - wiki
+show_details:
+- Writer: Jen Silverman - wiki
 Genre: Dramatic Comedy
 Website: https://limelight-theatre.org/shows/
 showtimes:

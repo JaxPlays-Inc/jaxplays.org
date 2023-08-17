@@ -1,20 +1,22 @@
 ---
+title: Falsettos
 layout: productions
 redirect_from:
 - /productions/2019_Falsettos_(musical)
-title: Falsettos
 date: 2019-06-14
 closing_date: 2019-06-30
-featured_image: 2019_Falsettos_(musical).webp
+featured_image: 2019_Falsettos.webp
 image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: Falsettos - wiki
 Theatre: The 5 & Dime
-Writer: William Finn - wiki, James Lapine - wiki
-Music: William Finn
-Lyrics: William Finn
+show_details:
+- Writer: 
+  - William Finn - wiki
+  - James Lapine - wiki
+- Music: William Finn
+- Lyrics: William Finn
 Website: https://www.the5anddime.org/falsettos
 showtimes:
 - 2019-06-14 20:00:00

@@ -10,10 +10,11 @@ image_caption:
 category: musical
 Name: Footloose
 Theatre: The Alhambra Theatre & Dining
-Music: Tom Snow - wiki
-Lyrics: Dean Pitchford - wiki
-Book: Dean Pitchford, Walter Bobbie - wiki
-Basis: Footloose
+show_details:
+- Music: Tom Snow - wiki
+- Lyrics: Dean Pitchford - wiki
+- Book: Dean Pitchford, Walter Bobbie - wiki
+- Basis: Footloose
 Website: https://www.alhambrajax.com/show/footloose/
 showtimes:
 - 2020-10-22 11:00:00

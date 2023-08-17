@@ -4,16 +4,15 @@ title: Bonnie & Clyde (musical)
 date: 2022-03-18
 closing_date: 2022-04-03
 featured_image: 2022_Bonnie_Clyde_Musical.jpeg
-image_credit: ABET
-image_alt:
-image_caption: Poster of 2022 production of Bonnie & Clyde
+featured_image_attr: ABET
+featured_image_caption: Poster of 2022 production of Bonnie & Clyde
 category: musical
-Title: Bonnie & Clyde (musical) - wiki
 Theatre: ABET - All Beaches Experimental Theatre
-Music: Frank Wildhorn - wiki
-Lyrics: Don Black (lyricist) - wiki
-Book: Ivan Menchell
-Basis: The lives of [Bonnie and Clyde](https://en.wikipedia.org/wiki/Bonnie_and_Clyde)
+show_details:
+- Music: Frank Wildhorn - wiki
+- Lyrics: Don Black (lyricist) - wiki
+- Book: Ivan Menchell
+- Basis: The lives of [Bonnie and Clyde](https://en.wikipedia.org/wiki/Bonnie_and_Clyde)
 Tickets: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
 showtimes:
 - 2022-03-18 19:30:00

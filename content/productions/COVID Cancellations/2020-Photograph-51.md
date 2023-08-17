@@ -10,11 +10,11 @@ image_caption:
 category: play
 featured_image:
 playbill: 2020_photograph_51.pdf
-Title: Photograph 51 (play) - wiki
 Theatre: Actors Collective
 Venue: Museum of Science & History
-Writer: Anna Ziegler (playwright) - wiki
-Series: 'The Secret of Life: A Science Play Series'
+show_details:
+- Writer: Anna Ziegler (playwright) - wiki
+- Series: 'The Secret of Life: A Science Play Series'
 showtimes:
 - 2020-03-13 19:30:00
 - 2020-03-14 19:30:00

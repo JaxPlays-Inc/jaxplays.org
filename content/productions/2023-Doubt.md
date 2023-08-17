@@ -13,7 +13,8 @@ Genres:
 - Play
 - Drama
 - Mystery
-playwright: John Patrick Shanley
+show_details:
+- Playwright: John Patrick Shanley
 cast:
 - Father Brendan Flynn: Jas Abramowitz
 - Sr. Aloysius Beauvier: Simone Aden

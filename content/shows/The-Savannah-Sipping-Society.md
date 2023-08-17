@@ -6,7 +6,7 @@ featured_image_attr: Jones Hope Wooten
 genres: 
 - Play
 - Comedy
-show_details: 
+show_details:
 - Playwright: Jessie Jones, Nicholas Hope, Jamie Wooten
 - Premiere: 2016-02-11
 - Theatre: Sylvia Beard Theatre, Buford, Georgia

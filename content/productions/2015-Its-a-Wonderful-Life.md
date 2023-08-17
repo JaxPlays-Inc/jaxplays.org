@@ -8,14 +8,20 @@ featured_image: 2015_It's_a_Wonderful_Life.jpeg
 image_credit:
 image_alt:
 image_caption:
-category: radio drama
+Genres: 
+- Play
+- Holiday
+- Comedy
+- Drama
+- Christmas
+- Radio play
+- Fantasy
+- Supernatural
 Theatre: WJCT Radio Theater
-Writer: Tony Palermo
-Genre: Christmas fantasy drama
-Setting: Bedford Falls (It's a Wonderful Life) - wiki
-Basis: Based on the 1946 film It's A Wonderful Life, produced and directed by Frank
-  Capra.
-Original Language: English
+show_details:
+- Writer: Tony Palermo
+- Setting: Bedford Falls (It's a Wonderful Life) - wiki
+- Basis: Based on the 1946 film It's A Wonderful Life, produced and directed by Frank Capra.
 cast:
 - George Bailey: David McMahon
 - Clarence: Andrew Cardy

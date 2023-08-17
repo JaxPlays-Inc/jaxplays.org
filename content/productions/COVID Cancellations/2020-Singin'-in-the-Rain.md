@@ -8,12 +8,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: Singin' in the Rain (musical) - wiki
 Theatre: Orange Park Community Theatre
-Music: Nacio Herb Brown - wiki
-Lyrics: Arthur Freed - wiki
-Book: Adolph Green, Betty Comden
-Basis: Singin' in the Rain by Adolph Green, Betty Comden
+show_details:
+- Music: Nacio Herb Brown - wiki
+- Lyrics: Arthur Freed - wiki
+- Book: Adolph Green, Betty Comden
+- Basis: Singin' in the Rain by Adolph Green, Betty Comden
 Website: https://www.opct.info/
 showtimes:
 - 2020-06-12 20:00:00

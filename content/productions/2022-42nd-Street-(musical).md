@@ -10,13 +10,16 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: 42nd Street (musical) - wiki
-Theatre: The Alhambra Theatre & Dining
-Music: Harry Warren - wiki
-Lyrics: Al Dubin - wiki, Johnny Mercer - wiki
-Book: Michael Stewart - wiki, Mark Bramble - wiki
-Basis: 42nd Street by Bradford Ropes, 42nd Street (film) by Rian James, James Seymour,
-  and Whitney Bolton
+show_details:
+- Theatre: The Alhambra Theatre & Dining
+- Music: Harry Warren - wiki
+- Lyrics: 
+  - Al Dubin - wiki
+  - Johnny Mercer - wiki
+- Book: 
+  - Michael Stewart - wiki
+  - Mark Bramble - wiki
+- Basis: 42nd Street by Bradford Ropes, 42nd Street (film) by Rian James, James Seymour, and Whitney Bolton
 Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=392
 showtimes:
 - 2022-05-12 12:00:00

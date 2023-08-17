@@ -11,12 +11,12 @@ image_credit:
 image_alt:
 image_caption:
 category: musical
-Title: A Funny Thing Happened on the Way to the Forum - wiki
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
-Music: Stephen Sondheim - wiki
-Lyrics: Stephen Sondheim
-Book: Burt Shevelove - wiki, Larry Gelbart - wiki
+show_details:
+- Music: Stephen Sondheim - wiki
+- Lyrics: Stephen Sondheim
+- Book: Burt Shevelove - wiki, Larry Gelbart - wiki
 Website: https://www.playersbythesea.org/forum
 showtimes:
 - 2020-01-24 20:00:00

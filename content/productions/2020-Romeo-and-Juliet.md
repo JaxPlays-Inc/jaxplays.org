@@ -8,13 +8,19 @@ image_credit: Players by the Sea
 image_alt: Poster for 2020 production of Romeo + Juliet
 image_caption: Poster for 2020 production of Romeo + Juliet
 category: play
+Genres: 
+- Play
+- Tragedy
+- Romance
+- Shakespeare
+- Comedy
 Title: Romeo & Juliet
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
-Writer: William Shakespeare - wiki
-Series: First Quarto - wiki
-Genre: Shakespearean tragedy - wiki
-Setting: Verona - wiki, 16th century
+show_details:
+- Writer: William Shakespeare - wiki
+- Series: First Quarto - wiki
+- Setting: Verona - wiki, 16th century
 showtimes:
 - 2020-02-20 20:00:00
 - 2020-02-21 20:00:00

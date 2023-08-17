@@ -13,7 +13,8 @@ Genres:
 - Romance
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
-Playwright: Arlene Hutton
+show_details:
+- Playwright: Arlene Hutton
 showtimes:
 - 2023-01-13 19:30:00
 - 2023-01-14 19:30:00

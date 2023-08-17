@@ -9,7 +9,8 @@ image_credit: Phase Eight Theater Company
 playbill:
 category:
 Theatre: Phase Eight Theater Company
-Playwright: Landford Wilson
+show_details:
+- Playwright: Landford Wilson
 showtimes:
 - 2016-12-09 20:00:00
 - 2016-12-10 20:00:00

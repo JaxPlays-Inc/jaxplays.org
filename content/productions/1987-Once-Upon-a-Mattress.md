@@ -7,9 +7,10 @@ date: 1987
 featured_image:
 category:
 Theatre: Players by the Sea
-Music: Mary Rogers - wiki
-Lyrics: Marshall Barer - wiki
-Book: Jay Thompson, Marshall Barer, Dean Fuller
+show_details:
+- Music: Mary Rogers - wiki
+- Lyrics: Marshall Barer - wiki
+- Book: Jay Thompson, Marshall Barer, Dean Fuller
 cast:
 - Dauntless: Michael Lipp
 crew:
