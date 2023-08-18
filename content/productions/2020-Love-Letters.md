@@ -5,10 +5,6 @@ redirect_from:
 - /productions/2020_Love_Letters
 date: 2020-01-09
 closing_date: 2020-02-08
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: The Alhambra Theatre & Dining

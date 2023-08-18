@@ -5,10 +5,6 @@ redirect_from:
 - /productions/2020_Shadowlands
 date: 2020-01-10
 closing_date: 2020-01-26
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:

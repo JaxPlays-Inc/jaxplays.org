@@ -4,10 +4,6 @@ redirect_from:
 - /productions/2013_Tea_and_Sympathy
 title: Tea and Sympathy
 date: 2013
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

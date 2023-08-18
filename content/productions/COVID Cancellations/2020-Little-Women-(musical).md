@@ -3,12 +3,10 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Little Women (musical)
-date: 2020
-featured_image:
-image_credit:
-image_alt:
-image_caption:
-category: musical
+date: 2020-05-07
+closing_date: 2020-06-07
+Genres:
+- Musical
 Theatre: Limelight Theatre
 show_details:
 - Music: Jason Howland - wiki

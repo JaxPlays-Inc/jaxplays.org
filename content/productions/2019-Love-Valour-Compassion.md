@@ -5,10 +5,6 @@ redirect_from:
 title: Love! Valour! Compassion!
 date: 2019-10-18
 closing_date: 2019-10-20
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: The 5 & Dime

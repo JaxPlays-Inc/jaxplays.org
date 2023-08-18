@@ -5,10 +5,6 @@ redirect_from:
 title: The Whale
 date: 2015-11-13
 closing_date: 2015-11-22
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: The 5 & Dime

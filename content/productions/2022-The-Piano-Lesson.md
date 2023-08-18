@@ -6,10 +6,6 @@ redirect_from:
 - /productions/2022_The_Piano_Lesson
 date: 2022-06-03
 closing_date: 2022-06-19
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 Theatre: Players by the Sea
 show_details:
 - Writer: August Wilson - wiki

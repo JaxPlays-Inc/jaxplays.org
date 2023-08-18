@@ -5,10 +5,6 @@ redirect_from:
 - /productions/2020_Radio_Golf
 date: 2020-01-31
 closing_date: 2020-02-16
-featured_image:
-image_credit:
-image_alt:
-image_caption:
 category: drama
 
 Theatre: ABET - All Beaches Experimental Theatre
