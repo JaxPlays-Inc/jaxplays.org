@@ -9,7 +9,6 @@ featured_image: 2020_In_the_Heights.jpg
 image_credit:
 image_alt:
 image_caption:
-category: musical
 Theatre: Jacksonville University
 Venue: 
 - Swisher Theater
