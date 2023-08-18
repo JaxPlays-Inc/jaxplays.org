@@ -3,9 +3,6 @@ title: Tomorrow and Tomorrow
 date: 1938-02-15
 closing_date: 1938-02-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

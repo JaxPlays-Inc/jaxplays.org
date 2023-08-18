@@ -3,9 +3,6 @@ title: West Side Story
 date: 1966-02-26
 closing_date: 1966-03-05
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

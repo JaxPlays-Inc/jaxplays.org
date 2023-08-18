@@ -3,9 +3,6 @@ title: An Evening With Shakespeare
 date: 1936-05-12
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

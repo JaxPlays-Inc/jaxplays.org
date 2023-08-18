@@ -3,9 +3,6 @@ title: First Lady
 date: 1952-10-01
 closing_date: 1952-10-11
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

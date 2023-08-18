@@ -3,9 +3,6 @@ title: Butterflies Are Free
 date: 1973-05-04
 closing_date: 1973-05-19
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

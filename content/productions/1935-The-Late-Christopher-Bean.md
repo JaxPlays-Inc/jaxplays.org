@@ -3,9 +3,6 @@ title: The Late Christopher Bean
 date: 1935-11-11
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

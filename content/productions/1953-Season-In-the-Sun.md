@@ -3,9 +3,6 @@ title: Season In the Sun
 date: 1953-02-25
 closing_date: 1953-03-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Cricket on the Hearth
 date: 1927-12-23
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

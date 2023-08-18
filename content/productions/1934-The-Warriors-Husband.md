@@ -3,9 +3,6 @@ title: The Warrior's Husband
 date: 1934-12-04
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

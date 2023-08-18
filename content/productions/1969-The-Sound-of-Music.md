@@ -3,9 +3,6 @@ title: The Sound of Music
 date: 1969-11-14
 closing_date: 1969-11-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

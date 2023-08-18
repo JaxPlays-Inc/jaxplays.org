@@ -3,11 +3,11 @@ layout: productions
 title: Matilda the Musical
 date: 2022-04-14
 closing_date: 2022-05-01
-image_credit:
-image_alt:
-image_caption:
 category: musical
 featured_image: 2022_Matilda_(musical).png
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:

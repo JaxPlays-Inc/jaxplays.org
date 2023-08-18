@@ -3,9 +3,6 @@ title: Mister Roberts
 date: 1953-11-18
 closing_date: 1953-11-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Dinny and the Witches
 date: 1968-01-12
 closing_date: 1968-01-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

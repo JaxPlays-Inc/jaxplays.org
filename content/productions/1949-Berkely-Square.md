@@ -3,9 +3,6 @@ title: Berkely Square
 date: 1949-04-08
 closing_date: 1949-04-15
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

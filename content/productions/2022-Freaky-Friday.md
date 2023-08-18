@@ -6,9 +6,9 @@ redirect_from:
 date: 2022-06-03
 closing_date: 2022-06-19
 featured_image: 2022_Freaky_Friday.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: Orange Park Community Theatre
 show_details:

@@ -3,9 +3,6 @@ title: The Second Time Around
 date: 1981-05-01
 closing_date: 1981-05-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

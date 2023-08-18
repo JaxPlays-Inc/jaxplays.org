@@ -3,9 +3,6 @@ title: Fashion Or Life In New York
 date: 1941-03-11
 closing_date: 1941-03-14
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

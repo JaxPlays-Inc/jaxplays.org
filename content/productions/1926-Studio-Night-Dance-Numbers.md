@@ -3,9 +3,6 @@ title: Studio Night - Dance Numbers
 date: 1926
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

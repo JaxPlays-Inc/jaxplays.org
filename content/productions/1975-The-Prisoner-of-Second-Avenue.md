@@ -3,9 +3,6 @@ title: The Prisoner of Second Avenue
 date: 1975-11-28
 closing_date: 1975-12-13
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

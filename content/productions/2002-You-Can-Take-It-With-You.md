@@ -3,9 +3,6 @@ title: You Can't Take It With You
 date: 2002-03-08
 closing_date: 2002-03-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

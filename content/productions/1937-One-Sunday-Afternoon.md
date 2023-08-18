@@ -3,9 +3,6 @@ title: One Sunday Afternoon
 date: 1937-02-09
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

@@ -3,9 +3,6 @@ title: Brigadoon
 date: 1978-10-06
 closing_date: 1978-10-21
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: The Show-Off
 date: 1927-11-22
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

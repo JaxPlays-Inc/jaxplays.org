@@ -3,9 +3,6 @@ title: Hay Fever
 date: 1940-03-05
 closing_date: 1940-03-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

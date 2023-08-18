@@ -3,9 +3,6 @@ title: The Passing of the Third Floor Back
 date: 1926-12-23
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

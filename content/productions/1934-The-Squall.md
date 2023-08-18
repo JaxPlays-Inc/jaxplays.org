@@ -3,9 +3,6 @@ title: The Squall
 date: 1934-12-20
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

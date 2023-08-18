@@ -3,9 +3,6 @@ title: Come Blow Your Horn
 date: 1963-05-30
 closing_date: 1963-06-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

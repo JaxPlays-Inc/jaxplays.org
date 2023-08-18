@@ -4,9 +4,6 @@ cancelled: COVID-19
 layout: productions
 title: Detroit
 date: 2020
-image_credit:
-image_alt:
-image_caption:
 Theatre: The 5 & Dime
 Genres: 
 - Play

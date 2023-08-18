@@ -3,9 +3,6 @@ title: St. Joan (Reading)
 date: 1924-11-13
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

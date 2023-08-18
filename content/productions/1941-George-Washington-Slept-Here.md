@@ -3,9 +3,6 @@ title: George Washington Slept Here
 date: 1941-11-11
 closing_date: 1941-11-14
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

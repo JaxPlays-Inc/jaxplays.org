@@ -3,9 +3,6 @@ title: Wappin'  Wharf
 date: 1924-11-25
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

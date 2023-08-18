@@ -3,9 +3,6 @@ title: A Community of Two
 date: 1977-11-25
 closing_date: 1977-12-10
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Joan of Lorraine
 date: 1952-04-18
 closing_date: 1952-04-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

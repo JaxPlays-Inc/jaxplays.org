@@ -3,9 +3,6 @@ title: Private Lives
 date: 1976-01-23
 closing_date: 1976-02-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

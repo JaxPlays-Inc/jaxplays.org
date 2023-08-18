@@ -3,9 +3,6 @@ title: The Triumph of Medicine
 date: 1926-04-13
 closing_date: 1926-04-14
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 cast:
 - Mariette: Aline Chase

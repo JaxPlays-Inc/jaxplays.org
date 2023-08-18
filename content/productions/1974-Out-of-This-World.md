@@ -3,9 +3,6 @@ title: Out of This World
 date: 1974-10-11
 closing_date: 1974-10-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

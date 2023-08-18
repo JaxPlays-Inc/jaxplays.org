@@ -3,9 +3,6 @@ title: Chicago
 date: 1984-10-05
 closing_date: 1984-10-20
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: The Sunshine Boys
 date: 1978-11-24
 closing_date: 1978-12-09
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

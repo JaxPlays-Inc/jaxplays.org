@@ -3,9 +3,6 @@ title: The Last of Mrs. Cheyney
 date: 1931-04-24
 closing_date: 1931-04-25
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

@@ -6,9 +6,9 @@ redirect_from:
 date: 2020-02-13
 closing_date: 2020-02-14
 featured_image: 2020_The_Food_of_Love.png
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Phase Eight Theater Company
 Genres: 
 - Play

@@ -3,9 +3,6 @@ title: Clarence
 date: 1929-02-25
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

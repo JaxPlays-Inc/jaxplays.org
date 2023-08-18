@@ -4,9 +4,9 @@ title: Grumpy Old Men
 date: 2022-08-11
 closing_date: 2022-09-18
 featured_image: 2022_Grumpy_Old_Men.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: The Alhambra Theatre & Dining
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=394

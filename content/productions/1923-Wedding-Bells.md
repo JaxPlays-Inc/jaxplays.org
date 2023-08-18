@@ -3,9 +3,6 @@ title: Wedding Bells
 date: 1923-12-21
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

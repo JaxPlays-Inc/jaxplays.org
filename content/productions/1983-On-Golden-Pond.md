@@ -3,9 +3,6 @@ title: On Golden Pond
 date: 1983-03-11
 closing_date: 1983-03-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

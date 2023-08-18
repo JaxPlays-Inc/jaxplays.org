@@ -3,9 +3,6 @@ title: Saved
 date: 1927-02-08
 closing_date: 1927-02-09
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

@@ -3,9 +3,6 @@ title: The Opera Matinee
 date: 1930-04-15
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 show_details:

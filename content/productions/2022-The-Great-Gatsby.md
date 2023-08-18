@@ -3,10 +3,10 @@ layout: productions
 title: The Great Gatsby
 date: 2022-04-22
 closing_date: 2022-05-01
-image_credit:
-image_alt:
-image_caption:
 featured_image: 2022_The_Great_Gatsby.jpg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: The Island Theater
 show_details:
 - Writer: F. Scott Fitzgerald - wiki

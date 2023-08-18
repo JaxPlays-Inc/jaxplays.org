@@ -3,9 +3,6 @@ title: The Hasty Heart
 date: 1955-01-19
 closing_date: 1955-01-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

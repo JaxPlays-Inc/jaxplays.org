@@ -3,9 +3,6 @@ title: Once Upon a Mattress
 date: 2003-06-13
 closing_date: 2003-06-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

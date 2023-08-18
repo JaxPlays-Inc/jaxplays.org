@@ -3,9 +3,6 @@ title: A Streetcar Named Desire
 date: 1991-01-25
 closing_date: 1991-02-09
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

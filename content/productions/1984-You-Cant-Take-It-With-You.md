@@ -3,9 +3,6 @@ title: You Can't Take It With You
 date: 1984-11-23
 closing_date: 1984-12-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

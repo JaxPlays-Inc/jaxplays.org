@@ -3,9 +3,6 @@ title: Seven Chances
 date: 1930-03-11
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

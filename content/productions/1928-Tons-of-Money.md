@@ -3,9 +3,6 @@ title: Tons of Money
 date: 1928-04-24
 closing_date: 1928-04-25
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

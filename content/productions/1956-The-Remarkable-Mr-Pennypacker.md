@@ -3,9 +3,6 @@ title: The Remarkable Mr. Pennypacker
 date: 1956-03-14
 closing_date: 1956-03-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

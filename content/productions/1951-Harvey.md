@@ -3,9 +3,6 @@ title: Harvey
 date: 1951-05-25
 closing_date: 1951-06-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

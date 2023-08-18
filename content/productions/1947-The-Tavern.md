@@ -3,9 +3,6 @@ title: The Tavern
 date: 1947-01-17
 closing_date: 1947-01-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

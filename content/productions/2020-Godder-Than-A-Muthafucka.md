@@ -4,9 +4,9 @@ title: Godder Than A Muthafucka
 date: 2020-02-23
 closing_date: 2020-02-23
 featured_image: 2020_Godder_Than_A_Muthafucka.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Genres: 
 - Play
 Venue: 1904 Music Hall

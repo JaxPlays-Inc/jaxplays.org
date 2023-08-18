@@ -3,9 +3,6 @@ title: Honor Bright
 date: 1938-02-01
 closing_date: 1938-02-03
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

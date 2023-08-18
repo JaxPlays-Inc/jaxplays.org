@@ -3,9 +3,6 @@ title: Spring Dance
 date: 1938-04-26
 closing_date: 1938-04-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

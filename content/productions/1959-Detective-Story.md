@@ -3,9 +3,6 @@ title: Detective Story
 date: 1959-04-08
 closing_date: 1959-04-18
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: The Diary of Anne Frank
 date: 1968-05-17
 closing_date: 1968-06-01
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

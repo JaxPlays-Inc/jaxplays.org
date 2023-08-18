@@ -3,9 +3,6 @@ title: A Midsummer Night's Dream
 date: 2007-09-14
 closing_date: 2007-10-06
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Gentlemen Prefer Blondes
 date: 1971-04-08
 closing_date: 1971-04-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

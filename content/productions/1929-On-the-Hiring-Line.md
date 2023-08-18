@@ -3,9 +3,6 @@ title: On the Hiring Line
 date: 1929-01-08
 closing_date: 1929-01-09
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

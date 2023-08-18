@@ -5,9 +5,6 @@ layout: productions
 title: The Roommate
 date: 2020-02-20
 closing_date: 2020-03-08
-image_credit:
-image_alt:
-image_caption:
 Theatre: Limelight Theatre
 show_details:
 - Writer: Jen Silverman - wiki

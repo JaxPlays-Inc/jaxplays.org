@@ -3,9 +3,6 @@ title: Make a Million
 date: 1960-10-07
 closing_date: 1960-10-15
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

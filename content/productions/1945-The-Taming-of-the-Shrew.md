@@ -3,9 +3,6 @@ title: The Taming of the Shrew
 date: 1945-05-25
 closing_date: 1945-06-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

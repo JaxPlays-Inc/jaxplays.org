@@ -6,9 +6,9 @@ redirect_from:
 date: 2020-03-13
 closing_date: 2020-03-29
 featured_image: 2020_Two_Trains_Running.png
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Players by the Sea
 Genres: 
 - Play

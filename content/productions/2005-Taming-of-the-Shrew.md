@@ -3,9 +3,6 @@ title: Taming of the Shrew
 date: 2005-09-04
 closing_date: 2005-10-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

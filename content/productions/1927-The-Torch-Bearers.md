@@ -3,9 +3,6 @@ title: The Torch Bearers
 date: 1927-04-19
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 show_details:

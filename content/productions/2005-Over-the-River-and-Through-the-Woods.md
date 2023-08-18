@@ -3,9 +3,6 @@ title: Over the River and Through the Woods
 date: 2005-03-04
 closing_date: 2005-03-19
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

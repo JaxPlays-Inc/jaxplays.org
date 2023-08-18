@@ -3,9 +3,6 @@ title: Jersey Boys
 date: 2023-04-27
 closing_date: 2023-06-04
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: The Alhambra Theatre & Dining
 Venue: Alhambra Theatre

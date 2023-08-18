@@ -3,9 +3,6 @@ title: Leading Ladies
 date: 2007-01-12
 closing_date: 2007-01-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

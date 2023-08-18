@@ -3,9 +3,6 @@ title: Kindling
 date: 1932-03-29
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 crew:

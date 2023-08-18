@@ -3,9 +3,6 @@ title: Crimes of the Heart
 date: 2005-01-14
 closing_date: 2005-01-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

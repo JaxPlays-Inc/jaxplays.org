@@ -5,9 +5,6 @@ layout: productions
 title: The Book of Will
 date: 2020-03-27
 closing_date: 2020-04-10
-image_credit:
-image_alt:
-image_caption:
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:

@@ -3,9 +3,6 @@ title: Bell, Book, and Candle
 date: 1954-01-13
 closing_date: 1954-01-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Night Must Fall
 date: 1965-01-08
 closing_date: 1965-01-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

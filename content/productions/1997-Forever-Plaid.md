@@ -3,9 +3,6 @@ title: Forever Plaid
 date: 1997-11-08
 closing_date: 1997-11-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

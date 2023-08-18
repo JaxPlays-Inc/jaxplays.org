@@ -3,9 +3,6 @@ title: High Ground
 date: 1954-10-27
 closing_date: 1954-11-06
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

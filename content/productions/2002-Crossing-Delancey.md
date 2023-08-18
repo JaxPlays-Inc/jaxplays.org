@@ -3,9 +3,6 @@ title: Crossing Delancey
 date: 2002-01-18
 closing_date: 2002-02-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

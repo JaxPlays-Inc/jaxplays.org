@@ -3,9 +3,6 @@ title: Paint Your Wagon
 date: 1992-06-04
 closing_date: 1992-06-14
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

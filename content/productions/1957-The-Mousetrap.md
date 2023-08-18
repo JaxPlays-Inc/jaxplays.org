@@ -3,9 +3,6 @@ title: The Mousetrap
 date: 1957-01-16
 closing_date: 1957-01-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -5,15 +5,15 @@ redirect_from:
 title: One by Tenn Plus Eight
 date: 2019-06-28
 closing_date: 2019-07-07
-image_credit:
-image_alt:
-image_caption:
-Genres: 
-- Play
 featured_image: 2019_OneBy_Tenn_Plus_Eight.webp
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 playbill: 2019_One_By_Tenn_Plus_Eight.pdf
 Theatre: Actors Collective
 Venue: ABET - All Beaches Experimental Theatre
+Genres: 
+- Play
 show_details:
 - Writer: 
   - Adam Nathaniel Davis

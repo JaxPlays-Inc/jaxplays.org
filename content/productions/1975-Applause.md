@@ -3,9 +3,6 @@ title: Applause
 date: 1975-10-10
 closing_date: 1975-10-25
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

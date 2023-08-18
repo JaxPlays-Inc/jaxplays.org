@@ -3,9 +3,6 @@ title: Pack of Lies
 date: 2007-03-02
 closing_date: 2007-03-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

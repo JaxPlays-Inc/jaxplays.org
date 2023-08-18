@@ -3,9 +3,6 @@ title: Nocturne At Twilight
 date: 2001-04-01
 closing_date: 2001-05-31
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

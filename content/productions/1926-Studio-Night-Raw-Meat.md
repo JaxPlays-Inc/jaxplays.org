@@ -3,9 +3,6 @@ title: Studio Night - Raw Meat
 date: 1926
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 show_details:
 - Playwright: Birsa Shepard

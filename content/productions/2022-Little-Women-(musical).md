@@ -6,9 +6,9 @@ redirect_from:
 date: 2022-05-12
 closing_date: 2022-05-29
 featured_image: 2020_Little_Women.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: Limelight Theatre
 show_details:

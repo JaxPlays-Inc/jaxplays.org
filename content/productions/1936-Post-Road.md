@@ -3,9 +3,6 @@ title: Post Road
 date: 1936-11-17
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

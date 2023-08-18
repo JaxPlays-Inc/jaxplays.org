@@ -3,9 +3,6 @@ title: Moon Over Buffalo
 date: 1998-04-17
 closing_date: 1998-05-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

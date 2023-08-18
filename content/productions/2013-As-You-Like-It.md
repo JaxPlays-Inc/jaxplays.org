@@ -3,9 +3,6 @@ title: As You Like It
 date: 2013-08-23
 closing_date: 2013-09-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -4,9 +4,9 @@ title: Sweat
 date: 2019-08-02
 closing_date: 2019-08-18
 featured_image: 2019_Sweat.webp
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Genres: 
 - Play
 Theatre: The 5 & Dime

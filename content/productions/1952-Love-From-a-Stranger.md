@@ -3,9 +3,6 @@ title: Love From a Stranger
 date: 1952-01-18
 closing_date: 1952-01-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

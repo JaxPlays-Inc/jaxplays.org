@@ -3,9 +3,6 @@ title: The Best Little Whorehouse In Texas
 date: 1987-10-09
 closing_date: 1987-10-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

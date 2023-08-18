@@ -3,9 +3,6 @@ title: The Man Who Came Back
 date: 1928-12-04
 closing_date: 1928-12-05
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

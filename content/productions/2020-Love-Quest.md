@@ -6,9 +6,9 @@ redirect_from:
 date: 2020-02-21
 closing_date: 2020-03-08
 featured_image: 2020_Love_Quest.webp
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:

@@ -3,9 +3,6 @@ title: Spider's Web
 date: 1961-04-14
 closing_date: 1961-04-22
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

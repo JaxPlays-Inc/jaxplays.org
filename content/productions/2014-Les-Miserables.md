@@ -4,9 +4,9 @@ title: "Les Mis\xE9rables"
 date: 2014-06-06
 closing_date: 2014-06-21
 featured_image: 2014_Les_Miserables.webp
-image_credit:
-image_alt:
-image_caption: "Poster for 'Les Mis\xE9rables' at Theatre Jacksonville"
+featured_image_attr:
+featured_image_alt:
+featured_image_caption: "Poster for 'Les Mis\xE9rables' at Theatre Jacksonville"
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

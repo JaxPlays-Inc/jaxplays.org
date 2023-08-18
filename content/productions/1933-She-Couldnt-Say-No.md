@@ -3,9 +3,6 @@ title: She Couldn't Say No
 date: 1933-11-28
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

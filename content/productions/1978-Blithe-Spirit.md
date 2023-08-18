@@ -3,9 +3,6 @@ title: Blithe Spirit
 date: 1978-05-05
 closing_date: 1978-05-20
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

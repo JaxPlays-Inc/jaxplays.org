@@ -3,9 +3,6 @@ title: The Boys Next Door
 date: 2005-04-22
 closing_date: 2005-05-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

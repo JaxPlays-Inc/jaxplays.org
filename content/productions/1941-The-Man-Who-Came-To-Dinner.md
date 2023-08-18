@@ -3,9 +3,6 @@ title: The Man Who Came To Dinner
 date: 1941-10-14
 closing_date: 1941-10-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

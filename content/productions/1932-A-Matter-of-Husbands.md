@@ -3,9 +3,6 @@ title: A Matter of Husbands
 date: 1932-02-09
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

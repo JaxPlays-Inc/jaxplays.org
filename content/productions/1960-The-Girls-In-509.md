@@ -3,9 +3,6 @@ title: The Girls In 509
 date: 1960-05-20
 closing_date: 1960-05-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

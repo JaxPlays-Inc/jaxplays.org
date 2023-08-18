@@ -3,9 +3,6 @@ title: The Children's Hour
 date: 1970-01-09
 closing_date: 1970-01-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

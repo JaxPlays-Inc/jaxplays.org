@@ -5,11 +5,11 @@ redirect_from:
 - /productions/2022_Ghost_(musical)
 date: 2022-09-29
 closing_date: 2022-11-06
-image_credit:
-image_alt:
-image_caption:
 category: musical
 featured_image: 2022_Ghost_(musical).jpg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: The Alhambra Theatre & Dining
 show_details:
 - Music: Dave Stewart - wiki, Glen Ballard - wiki

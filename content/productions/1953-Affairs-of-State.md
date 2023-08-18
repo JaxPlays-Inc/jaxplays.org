@@ -3,9 +3,6 @@ title: Affairs of State
 date: 1953-09-30
 closing_date: 1953-10-10
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

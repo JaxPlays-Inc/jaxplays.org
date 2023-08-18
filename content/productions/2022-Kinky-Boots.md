@@ -4,9 +4,9 @@ title: Kinky Boots
 date: 2022-07-15
 closing_date: 2022-08-07
 featured_image: 2022_Kinky_Boots.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: Players by the Sea
 show_details:

@@ -3,9 +3,6 @@ title: In the Next Room
 date: 1929-12-10
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

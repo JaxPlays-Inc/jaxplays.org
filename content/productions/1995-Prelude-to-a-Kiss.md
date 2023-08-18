@@ -3,9 +3,6 @@ title: Prelude to a Kiss
 date: 1995-04-21
 closing_date: 1995-05-06
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

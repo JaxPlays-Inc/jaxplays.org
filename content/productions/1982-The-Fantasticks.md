@@ -3,9 +3,6 @@ title: The Fantasticks
 date: 1982-04-30
 closing_date: 1982-05-15
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

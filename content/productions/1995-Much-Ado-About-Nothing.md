@@ -3,9 +3,6 @@ title: Much Ado About Nothing
 date: 1995-09-14
 closing_date: 1995-09-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Metropolitan Park

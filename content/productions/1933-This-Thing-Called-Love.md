@@ -3,9 +3,6 @@ title: This Thing Called Love
 date: 1933-03-14
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

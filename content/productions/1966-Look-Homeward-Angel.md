@@ -3,9 +3,6 @@ title: Look Homeward, Angel
 date: 1966-05-20
 closing_date: 1966-05-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

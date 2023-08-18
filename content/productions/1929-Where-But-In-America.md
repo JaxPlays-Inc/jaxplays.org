@@ -3,9 +3,6 @@ title: Where But In America
 date: 1929-05-15
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

@@ -6,9 +6,9 @@ redirect_from:
 date: 2020-03-05
 closing_date: 2020-03-08
 featured_image: 2020_Lessons_We_Were_Never_Taught.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Venue: BABS' LAB
 show_details:
 - Writer: Nikesha Elise Williams

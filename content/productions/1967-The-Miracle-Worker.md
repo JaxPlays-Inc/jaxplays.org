@@ -3,9 +3,6 @@ title: The Miracle Worker
 date: 1967-02-24
 closing_date: 1967-03-04
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

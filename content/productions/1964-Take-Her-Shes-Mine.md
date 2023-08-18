@@ -3,9 +3,6 @@ title: Take Her, She's Mine
 date: 1964-01-10
 closing_date: 1964-01-18
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Light Up the Sky
 date: 1986-01-24
 closing_date: 1986-02-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

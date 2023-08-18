@@ -3,9 +3,6 @@ title: The Desperate Hours
 date: 1956-06-06
 closing_date: 1956-06-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

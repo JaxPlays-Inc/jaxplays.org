@@ -3,9 +3,6 @@ title: Biloxi Blues
 date: 1991-02-22
 closing_date: 1991-03-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Little Mary Sunshine
 date: 1962-11-22
 closing_date: 1962-12-01
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

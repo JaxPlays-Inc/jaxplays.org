@@ -3,9 +3,6 @@ title: The Girl
 date: 1931-04-14
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

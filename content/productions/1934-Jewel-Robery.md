@@ -3,9 +3,6 @@ title: Jewel Robery
 date: 1934-04-10
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

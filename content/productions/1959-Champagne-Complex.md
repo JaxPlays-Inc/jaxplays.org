@@ -3,9 +3,6 @@ title: Champagne Complex
 date: 1959-02-25
 closing_date: 1959-03-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

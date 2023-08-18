@@ -4,9 +4,6 @@ cancelled: COVID-19
 layout: productions
 title: Night of January 16th
 date: 2020-04-17
-image_credit:
-image_alt:
-image_caption:
 Theatre: Orange Park Community Theatre
 Genres: 
 - Play

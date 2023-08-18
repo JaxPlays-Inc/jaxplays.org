@@ -3,9 +3,6 @@ title: A Midsummer Night's Dream
 date: 1998-09-18
 closing_date: 1998-09-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

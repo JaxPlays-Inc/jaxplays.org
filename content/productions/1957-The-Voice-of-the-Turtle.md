@@ -3,9 +3,6 @@ title: The Voice of the Turtle
 date: 1957-11-13
 closing_date: 1957-11-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: The Trial of Mary Dugan
 date: 1931-11-10
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

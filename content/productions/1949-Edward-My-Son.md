@@ -3,9 +3,6 @@ title: Edward, My Son
 date: 1949-11-25
 closing_date: 1949-12-03
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

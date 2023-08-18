@@ -5,9 +5,6 @@ layout: productions
 title: The Normal Heart
 date: 2020-11-06
 closing_date: 2020-11-22
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: The 5 & Dime

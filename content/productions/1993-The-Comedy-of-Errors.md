@@ -3,9 +3,6 @@ title: The Comedy of Errors
 date: 1993-01-01
 closing_date: 1993-12-31
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

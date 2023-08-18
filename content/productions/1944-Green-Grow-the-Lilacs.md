@@ -3,9 +3,6 @@ title: Green Grow the Lilacs
 date: 1944-12-01
 closing_date: 1944-12-10
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

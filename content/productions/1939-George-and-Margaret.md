@@ -3,9 +3,6 @@ title: George and Margaret
 date: 1939-03-21
 closing_date: 1939-03-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

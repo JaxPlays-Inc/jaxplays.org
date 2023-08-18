@@ -3,9 +3,6 @@ title: The Boor
 date: 1924-04-12
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 cast:
 - Gregori Stepanovitch Smirnov:

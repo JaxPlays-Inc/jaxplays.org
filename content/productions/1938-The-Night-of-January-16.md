@@ -3,9 +3,6 @@ title: The Night of January 16
 date: 1938-03-15
 closing_date: 1938-03-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -5,9 +5,9 @@ date: 2015-12-24
 closing_date: 2015-12-24
 redirect_from: 2015_It's_a_Wonderful_Life
 featured_image: 2015_It's_a_Wonderful_Life.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Genres: 
 - Play
 - Holiday

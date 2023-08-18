@@ -3,9 +3,6 @@ title: A Doll's House
 date: 2000-01-14
 closing_date: 2000-01-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

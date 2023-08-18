@@ -3,9 +3,6 @@ title: Middle of the Night
 date: 1963-01-10
 closing_date: 1963-01-19
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

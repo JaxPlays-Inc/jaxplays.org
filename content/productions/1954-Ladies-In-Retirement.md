@@ -3,9 +3,6 @@ title: Ladies in Retirement
 date: 1954-04-21
 closing_date: 1954-05-01
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

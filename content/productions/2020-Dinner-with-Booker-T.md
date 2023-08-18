@@ -4,9 +4,9 @@ title: Dinner with Booker T.
 date: 2020-02-08
 closing_date: 2020-02-08
 featured_image: 2020_Dinner_with_Booker_T.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Stage Aurora
 Venue: Worsham Hall, Episcopal Church of the Good Shepherd
 show_details:

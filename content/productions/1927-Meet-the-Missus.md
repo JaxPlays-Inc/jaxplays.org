@@ -3,9 +3,6 @@ title: Meet the Missus
 date: 1927-01-18
 closing_date: 1927-01-19
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

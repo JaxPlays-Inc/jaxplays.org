@@ -3,9 +3,6 @@ title: George Washington Slept Here
 date: 1969-04-11
 closing_date: 1969-04-19
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

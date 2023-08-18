@@ -3,9 +3,6 @@ title: Sunday In New York
 date: 1963-02-21
 closing_date: 1963-03-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

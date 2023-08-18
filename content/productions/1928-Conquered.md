@@ -3,9 +3,6 @@ title: Conquered
 date: 1928-01-20
 closing_date: 1928-01-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

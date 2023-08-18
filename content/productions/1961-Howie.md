@@ -3,9 +3,6 @@ title: Howie
 date: 1961-05-26
 closing_date: 1961-06-03
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: A Little Night Music
 date: 1998-06-05
 closing_date: 1998-06-20
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

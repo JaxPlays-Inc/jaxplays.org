@@ -3,9 +3,6 @@ title: The Ship
 date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

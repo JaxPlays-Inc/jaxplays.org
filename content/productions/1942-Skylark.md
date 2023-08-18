@@ -3,9 +3,6 @@ title: Skylark
 date: 1942-03-24
 closing_date: 1942-03-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

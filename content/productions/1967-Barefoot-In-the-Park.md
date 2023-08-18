@@ -3,9 +3,6 @@ title: Barefoot In the Park
 date: 1967-04-14
 closing_date: 1967-04-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

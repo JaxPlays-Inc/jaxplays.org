@@ -3,9 +3,6 @@ title: The Mystery of Edwin Drood
 date: 1997-06-06
 closing_date: 1997-06-22
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Pygmalion
 date: 1947-05-23
 closing_date: 1947-05-30
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

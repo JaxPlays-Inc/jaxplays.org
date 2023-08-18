@@ -3,9 +3,6 @@ title: Laura
 date: 1952-11-12
 closing_date: 1952-11-22
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

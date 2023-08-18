@@ -3,9 +3,6 @@ title: Uncle Harry
 date: 1947-02-28
 closing_date: 1947-03-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

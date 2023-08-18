@@ -3,9 +3,6 @@ title: The Matchmaker
 date: 1961-09-29
 closing_date: 1961-10-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

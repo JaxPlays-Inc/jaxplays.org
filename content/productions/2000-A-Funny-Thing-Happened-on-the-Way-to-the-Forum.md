@@ -5,9 +5,6 @@ redirect_from:
 date: 2000-06-09
 closing_date: 2000-07-01
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

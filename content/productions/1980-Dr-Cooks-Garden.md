@@ -3,9 +3,6 @@ title: Dr. Cook's Garden
 date: 1980-11-21
 closing_date: 1980-12-06
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -4,9 +4,9 @@ title: Native Gardens
 date: 2022-06-16
 closing_date: 2022-06-19
 featured_image: 2022_Native_Gardens.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 show_details:

@@ -3,9 +3,6 @@ title: Dorinda Dares
 date: 1926-01-26
 closing_date: 1926-01-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

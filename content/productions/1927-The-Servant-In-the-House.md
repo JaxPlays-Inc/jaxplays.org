@@ -3,9 +3,6 @@ title: The Servant In the House
 date: 1927-03-15
 closing_date: 1927-03-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

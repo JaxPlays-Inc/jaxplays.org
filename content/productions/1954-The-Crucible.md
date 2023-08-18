@@ -3,9 +3,6 @@ title: The Crucible
 date: 1954-03-03
 closing_date: 1954-03-13
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

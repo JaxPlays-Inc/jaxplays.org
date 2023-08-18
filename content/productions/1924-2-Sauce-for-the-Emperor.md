@@ -3,9 +3,6 @@ title: Sauce for the Emperor
 date: 1924-02-25
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

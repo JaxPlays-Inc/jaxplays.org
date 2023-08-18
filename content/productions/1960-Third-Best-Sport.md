@@ -3,9 +3,6 @@ title: Third Best Sport
 date: 1960-02-26
 closing_date: 1960-03-05
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

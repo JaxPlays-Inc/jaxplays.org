@@ -3,9 +3,6 @@ title: The Three Gifts
 date: 1924-04-28
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

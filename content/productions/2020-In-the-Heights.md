@@ -6,9 +6,9 @@ redirect_from:
 date: 2020-01-17
 closing_date: 2020-01-25
 featured_image: 2020_In_the_Heights.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Jacksonville University
 Venue: 
 - Swisher Theater

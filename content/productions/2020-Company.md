@@ -5,9 +5,6 @@ redirect_from:
 - /productions/2020_Company
 date: 2020-02-07
 closing_date: 2020-02-23
-image_credit:
-image_alt:
-image_caption:
 category: musical
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre

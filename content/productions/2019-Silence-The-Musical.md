@@ -6,9 +6,9 @@ redirect_from:
 date: 2019-09-20
 closing_date: 2019-10-05
 featured_image: 2019_Silence_The_Musical.webp
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: The 5 & Dime
 show_details:

@@ -3,9 +3,6 @@ title: Guys and Dolls
 date: 2007-06-08
 closing_date: 2007-06-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Genres:
 - Musical

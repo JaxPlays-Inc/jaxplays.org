@@ -3,9 +3,6 @@ title: Witness for the Prosecution
 date: 1958-01-08
 closing_date: 1958-01-18
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

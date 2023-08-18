@@ -3,9 +3,6 @@ title: The Gazebo
 date: 1968-02-23
 closing_date: 1968-03-09
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

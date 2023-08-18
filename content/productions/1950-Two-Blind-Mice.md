@@ -3,9 +3,6 @@ title: Two Blind Mice
 date: 1950-02-24
 closing_date: 1950-03-04
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

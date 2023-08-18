@@ -3,9 +3,6 @@ title: Anniversary Waltz
 date: 1975-05-09
 closing_date: 1975-05-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

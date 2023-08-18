@@ -3,9 +3,6 @@ title: The Jade God
 date: 1933-02-14
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

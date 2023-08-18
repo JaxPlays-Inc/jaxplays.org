@@ -3,9 +3,6 @@ title: A Bell for Adano
 date: 1945-11-30
 closing_date: 1945-12-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

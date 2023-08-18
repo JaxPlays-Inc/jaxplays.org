@@ -3,9 +3,6 @@ title: Pippin
 date: 1985-05-10
 closing_date: 1985-05-25
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Day In the Sun
 date: 1941-02-11
 closing_date: 1941-02-14
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

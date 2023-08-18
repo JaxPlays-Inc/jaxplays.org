@@ -3,9 +3,6 @@ title: Giants In the Earth
 date: 1931-03-17
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

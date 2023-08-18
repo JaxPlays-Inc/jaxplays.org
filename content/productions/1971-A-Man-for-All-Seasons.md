@@ -3,9 +3,6 @@ title: A Man for All Seasons
 date: 1971-02-19
 closing_date: 1971-03-06
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

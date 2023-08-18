@@ -3,9 +3,6 @@ title: The Lion In Winter
 date: 1970-02-02
 closing_date: 1970-02-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

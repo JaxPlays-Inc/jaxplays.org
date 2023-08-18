@@ -3,9 +3,6 @@ title: A Thousand Clowns
 date: 1983-01-21
 closing_date: 1983-02-05
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

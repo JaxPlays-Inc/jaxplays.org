@@ -3,9 +3,6 @@ title: As You Like It
 date: 1994
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Metropolitan Park

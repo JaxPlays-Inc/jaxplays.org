@@ -3,9 +3,6 @@ title: The Merry Wives of Windsor
 date: 1996-09-13
 closing_date: 1996-09-22
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Metropolitan Park

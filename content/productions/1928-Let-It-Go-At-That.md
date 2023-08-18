@@ -3,9 +3,6 @@ title: Let It Go At That!
 date: 1928-12-19
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

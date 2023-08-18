@@ -3,9 +3,6 @@ title: The Barton Mystery
 date: 1933-12-12
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

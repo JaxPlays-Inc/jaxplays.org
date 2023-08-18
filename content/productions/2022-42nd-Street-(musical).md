@@ -6,9 +6,9 @@ redirect_from:
 date: 2022-05-12
 closing_date: 2022-06-12
 featured_image: 2022_42nd_Street.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 show_details:
 - Theatre: The Alhambra Theatre & Dining

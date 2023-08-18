@@ -3,9 +3,6 @@ title: The High Road
 date: 1933-05-09
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

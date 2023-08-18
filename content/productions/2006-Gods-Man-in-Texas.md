@@ -3,9 +3,6 @@ title: God's Man In Texas
 date: 2006-11-13
 closing_date: 2006-01-28
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

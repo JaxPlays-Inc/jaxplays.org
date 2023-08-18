@@ -4,9 +4,6 @@ cancelled: COVID-19
 layout: productions
 title: Short Attention Span Fest
 date: 2020
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: The 5 & Dime

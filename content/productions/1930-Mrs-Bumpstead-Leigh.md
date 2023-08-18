@@ -3,9 +3,6 @@ title: Mrs. Bumpstead-Leigh
 date: 1930-02-11
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

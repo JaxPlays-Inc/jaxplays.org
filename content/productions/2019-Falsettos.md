@@ -6,9 +6,9 @@ redirect_from:
 date: 2019-06-14
 closing_date: 2019-06-30
 featured_image: 2019_Falsettos.webp
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: The 5 & Dime
 show_details:

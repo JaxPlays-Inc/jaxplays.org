@@ -3,9 +3,6 @@ title: Beast on the Moon
 date: 1999-01-15
 closing_date: 1999-01-30
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

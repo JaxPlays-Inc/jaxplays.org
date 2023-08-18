@@ -3,9 +3,6 @@ title: A Streetcar Named Desire
 date: 1958-04-09
 closing_date: 1958-04-19
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

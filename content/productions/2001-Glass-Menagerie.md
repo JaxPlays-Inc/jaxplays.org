@@ -3,9 +3,6 @@ title: Glass Menagerie
 date: 2001-11-02
 closing_date: 2001-11-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

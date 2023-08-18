@@ -3,9 +3,6 @@ title: Saving Grace
 date: 2004-03-05
 closing_date: 2004-03-20
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

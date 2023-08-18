@@ -3,9 +3,6 @@ title: Dracula
 date: 1985-11-29
 closing_date: 1985-12-14
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

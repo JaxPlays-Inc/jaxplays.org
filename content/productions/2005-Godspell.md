@@ -4,9 +4,6 @@ redirect_from:
 - /productions/2005_Godspell
 date: 2005
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Omega Theatre Productions
 Venue: CrossRoad Church

@@ -3,9 +3,6 @@ title: The Mikado
 date: 1975-03-21
 closing_date: 1975-04-05
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

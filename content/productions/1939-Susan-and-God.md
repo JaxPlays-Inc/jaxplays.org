@@ -3,9 +3,6 @@ title: Susan and God
 date: 1939-10-24
 closing_date: 1939-10-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

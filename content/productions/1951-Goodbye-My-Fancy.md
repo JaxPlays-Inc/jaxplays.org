@@ -3,9 +3,6 @@ title: Goodbye My Fancy
 date: 1951-01-19
 closing_date: 1951-01-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

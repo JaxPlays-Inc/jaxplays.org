@@ -5,9 +5,6 @@ redirect_from:
 date: 1996-03-01
 closing_date: 1996-03-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: Wake Up, Darling
 date: 1977-05-06
 closing_date: 1977-05-21
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

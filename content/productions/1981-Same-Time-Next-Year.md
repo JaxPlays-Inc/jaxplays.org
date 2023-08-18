@@ -3,9 +3,6 @@ title: Same Time, Next Year
 date: 1981-06-18
 closing_date: 1981-06-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

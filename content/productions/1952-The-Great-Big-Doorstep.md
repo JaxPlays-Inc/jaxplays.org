@@ -3,9 +3,6 @@ title: The Great Big Doorstep
 date: 1952-02-29
 closing_date: 1952-03-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

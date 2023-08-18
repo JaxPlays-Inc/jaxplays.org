@@ -3,9 +3,6 @@ title: A Touch of the Poet
 date: 1989-12-01
 closing_date: 1989-12-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

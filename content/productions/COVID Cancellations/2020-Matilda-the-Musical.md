@@ -5,9 +5,9 @@ layout: productions
 title: Matilda the Musical
 date: 2020
 featured_image: 2020_Matilda_the_Musical.png
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

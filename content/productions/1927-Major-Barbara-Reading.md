@@ -3,9 +3,6 @@ title: Major Barbara (Reading)
 date: 1927
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 - Bill Walker:
   - Burton Barrs

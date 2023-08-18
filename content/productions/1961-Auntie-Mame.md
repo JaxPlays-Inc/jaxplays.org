@@ -3,9 +3,6 @@ title: Auntie Mame
 date: 1961-11-24
 closing_date: 1961-12-02
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

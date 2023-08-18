@@ -5,9 +5,6 @@ layout: productions
 title: Singin in the Rain
 date: 2020-06-12
 closing_date: 2020-06-28
-image_credit:
-image_alt:
-image_caption:
 category: musical
 Theatre: Orange Park Community Theatre
 show_details:

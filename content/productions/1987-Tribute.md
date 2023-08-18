@@ -3,9 +3,6 @@ title: Tribute
 date: 1987-01-23
 closing_date: 1987-02-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

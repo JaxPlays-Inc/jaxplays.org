@@ -3,9 +3,6 @@ title: Sweet Charity
 date: 1986-05-09
 closing_date: 1986-05-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

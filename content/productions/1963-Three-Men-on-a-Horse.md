@@ -3,9 +3,6 @@ title: Three Men on a Horse
 date: 1963-09-27
 closing_date: 1963-10-05
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

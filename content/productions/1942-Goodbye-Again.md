@@ -3,9 +3,6 @@ title: Goodbye Again
 date: 1942-05-26
 closing_date: 1942-05-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

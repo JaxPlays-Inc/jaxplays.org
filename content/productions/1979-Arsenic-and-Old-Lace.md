@@ -3,9 +3,6 @@ title: Arsenic and Old Lace
 date: 1979-05-11
 closing_date: 1979-05-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

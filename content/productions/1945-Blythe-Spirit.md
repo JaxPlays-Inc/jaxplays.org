@@ -3,9 +3,6 @@ title: Blythe Spirit
 date: 1945-10-19
 closing_date: 1945-10-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

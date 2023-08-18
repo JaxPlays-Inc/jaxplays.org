@@ -3,9 +3,6 @@ title: Tartuffe
 date: 1966-04-08
 closing_date: 1966-04-16
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

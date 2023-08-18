@@ -3,9 +3,6 @@ title: Once on This Island
 date: 1998-11-06
 closing_date: 1998-11-21
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

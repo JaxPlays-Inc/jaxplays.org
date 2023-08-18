@@ -3,9 +3,6 @@ title: The Little Review
 date: 1947-04-25
 closing_date: 1947-04-27
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

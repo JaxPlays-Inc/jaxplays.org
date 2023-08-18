@@ -3,9 +3,6 @@ title: The Most Happy Fella
 date: 1966-11-25
 closing_date: 1966-12-17
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

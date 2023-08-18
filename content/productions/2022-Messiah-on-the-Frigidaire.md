@@ -4,9 +4,9 @@ title: Messiah on the Frigidaire
 date: 2022-04-01
 closing_date: 2022-04-24
 featured_image: 2022_Messiah_on_the_Frigidaire.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Genres: 
 - Play
 Theatre: Limelight Theatre

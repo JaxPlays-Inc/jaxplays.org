@@ -3,9 +3,6 @@ title: State of the Union
 date: 1946-10-18
 closing_date: 1946-10-25
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

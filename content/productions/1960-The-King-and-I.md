@@ -3,9 +3,6 @@ title: The King and I
 date: 1960-11-18
 closing_date: 1960-11-26
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

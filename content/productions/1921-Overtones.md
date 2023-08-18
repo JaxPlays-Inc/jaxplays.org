@@ -3,9 +3,7 @@ title: Overtones
 date: 1921-11-08
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
+
 playbill:
 Theatre: Theatre Jacksonville
 cast:

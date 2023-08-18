@@ -2,9 +2,6 @@
 layout: productions
 title: One Wild Night
 date: 1992
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: Orange Park Community Theatre

@@ -5,9 +5,6 @@ layout: productions
 title: A Number
 date: 2020-09-11
 closing_date: 2020-09-13
-image_credit:
-image_alt:
-image_caption:
 Genres: 
 - Play
 Theatre: Actors Collective

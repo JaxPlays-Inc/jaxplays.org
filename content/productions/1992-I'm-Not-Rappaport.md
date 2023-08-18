@@ -3,9 +3,6 @@ title: I'm Not Rappaport
 date: 1992-02-21
 closing_date: 1992-02-29
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

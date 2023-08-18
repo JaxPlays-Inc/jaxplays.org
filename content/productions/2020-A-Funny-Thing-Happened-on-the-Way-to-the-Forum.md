@@ -7,9 +7,9 @@ redirect_from:
 date: 2020-01-24
 closing_date: 2020-02-15
 featured_image: 2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 category: musical
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre

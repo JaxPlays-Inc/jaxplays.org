@@ -3,9 +3,6 @@ title: The Taming of the Shrew
 date: 1964-02-28
 closing_date: 1964-03-07
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

@@ -3,9 +3,6 @@ title: A Shayna Maidel
 date: 2004-04-23
 closing_date: 2004-05-08
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

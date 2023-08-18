@@ -3,9 +3,6 @@ title: Let's Be Civilized
 date: 1936-03-24
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

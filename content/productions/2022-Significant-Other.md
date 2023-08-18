@@ -4,9 +4,9 @@ title: Significant Other
 date: 2022-04-21
 closing_date: 2022-04-23
 featured_image: 2022_Significant_Other.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Genres: 
 - Play
 Theatre: The 5 & Dime

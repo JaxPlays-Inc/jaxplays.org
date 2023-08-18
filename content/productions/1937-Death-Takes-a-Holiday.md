@@ -3,9 +3,6 @@ title: Death Takes a Holiday
 date: 1937-05-25
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 cast:

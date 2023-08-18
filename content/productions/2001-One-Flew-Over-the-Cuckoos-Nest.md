@@ -3,9 +3,6 @@ title: One Flew Over the Cuckoo's Nest
 date: 2001-03-01
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

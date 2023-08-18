@@ -3,9 +3,6 @@ title: 3rd Experimental Evening - Romeo and Juliet
 date: 1928-02-07
 closing_date:
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 crew:

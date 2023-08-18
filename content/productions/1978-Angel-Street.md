@@ -3,9 +3,6 @@ title: Angel Street
 date: 1978-03-17
 closing_date: 1978-04-01
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

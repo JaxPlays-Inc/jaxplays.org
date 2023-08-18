@@ -3,9 +3,6 @@ title: Kiss Me Kate
 date: 1971-10-08
 closing_date: 1971-10-23
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

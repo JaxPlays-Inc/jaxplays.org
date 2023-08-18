@@ -5,9 +5,6 @@ layout: productions
 title: 'Sherwood: The Adventures of Robin Hood'
 date: 2020-05-08
 closing_date: 2020-05-24
-image_credit:
-image_alt:
-image_caption:
 category: comedy
 Theatre: ABET - All Beaches Experimental Theatre
 Genres: 

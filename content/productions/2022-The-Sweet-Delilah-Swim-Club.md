@@ -6,9 +6,9 @@ redirect_from:
 date: 2022-04-22
 closing_date: 2022-05-08
 featured_image: 2022_The_Sweet_Delilah_Swim_Club.jpg
-image_credit:
-image_alt:
-image_caption:
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:

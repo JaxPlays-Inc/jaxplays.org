@@ -3,9 +3,6 @@ title: The Curious Savage
 date: 1951-11-16
 closing_date: 1951-11-24
 layout: productions
-featured_image:
-image_caption:
-image_credit:
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
