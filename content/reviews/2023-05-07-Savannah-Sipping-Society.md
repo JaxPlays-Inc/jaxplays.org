@@ -12,6 +12,7 @@ featured_image_caption: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theres
 featured_image_attr: Ray Hollister
 author: Ray Hollister
 excerpt_separator: <!--more-->
+production: 2023 The Savannah Sipping Society
 ---
 This weekend, the [St. Marys Little Theatre](/theatres/st-marys-little-theatre) came alive with the vibrant performance of [*The Savannah Sipping Society*](/productions/2023-the-savannah-sipping-society/). The play, a heartwarming comedy, revolves around four Southern women who, through unexpected circumstances, form a bond that transcends their individual struggles and differences.
 <!--more-->

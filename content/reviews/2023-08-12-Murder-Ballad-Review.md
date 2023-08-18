@@ -10,6 +10,7 @@ featured_image_caption: "Murder Ballad cast: Chris Berry, Julia Blasi, Erin Barn
 author: Ray Hollister
 description: Journey into the heart of passion and tragedy with ABET's "Murder Ballad." Secure a front row seat for the full experience.
 excerpt_separator: <!--more-->
+production: 2023 Murder Ballad
 ---
 [*Murder Ballad*](/productions/2023-murder-ballad/), staged by [ABET - All Beaches Experimental Theatre](/theatres/abet-all-beaches-experimental-theatre/), delves into the tangled web of a love triangle between Sara, her husband Michael, and her old flame, Tom. Sara's journey from reckless youth to the security of married life, and then back to the excitement of rekindled romance, leads to the unraveling of personal boundaries and morals. As the story unfolds, Tom's relentless pursuit of Sara, coupled with her confusion of love and obsession, leads them into a dangerous dance filled with passion, betrayal, and ultimately, murder.
 <!--more-->

@@ -75,7 +75,7 @@
     </div>
     {{ end }}
 
-    <div class="nested-copy-line-height lh-copy f4-ns f5 mb5 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4-ns f5 mb4 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Details</h3>
       {{ with .Params.year }}<div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Year</div>
@@ -85,39 +85,39 @@
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/theatres/{{ . | urlize }}">{{ . }}</a></div>
       </div>{{ end }}
-      
+
       <!-- Venues -->
       {{ $currentPage := . }} <!-- Capture the current page context -->
       {{ $venues := .Params.venue }} <!-- Get the venue(s) -->
-      
+
       {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-        {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+      {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
       {{ end }}
-      
+
       {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
-      {{ $venueurl := $venue | urlize  | replaceRE "\\." "" }} <!-- URLize the venue name -->
-        <div class="flex">
-          <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">
-            {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-              {{ printf "Venue %d" (add $index 1) }} <!-- Print "Venue 2", "Venue 3", etc. -->
-            {{ else }}
-              Venue
-            {{ end }}
-          </div>
-          <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-            <a href="/venues/{{ $venueurl }}">{{ $venue }}</a>
-            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-            <!-- Use the captured page context -->
-            {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
-            <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-            <ul class="map_links list mv1 pl0">
-              <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-              <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
-            </ul>
-            {{ end }}
-          </div>
+      {{ $venueurl := $venue | urlize | replaceRE "\\." "" }} <!-- URLize the venue name -->
+      <div class="flex">
+        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">
+          {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
+          {{ printf "Venue %d" (add $index 1) }} <!-- Print "Venue 2", "Venue 3", etc. -->
+          {{ else }}
+          Venue
+          {{ end }}
         </div>
-      {{ end }}      
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+          <a href="/venues/{{ $venueurl }}">{{ $venue }}</a>
+          {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
+          <!-- Use the captured page context -->
+          {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
+          <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+          <ul class="map_links list mv1 pl0">
+            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+          </ul>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
 
 
       <!-- if date and closing_date  -->
@@ -173,69 +173,69 @@
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}" target="_blank">Official web page</a></div>
       </div>{{ end }}
-      
+
       <!-- Show Details -->
       {{ $showDetails := .Params.show_details }}
 
       {{ if not $showDetails }}
-        {{ range where .Site.Pages "Type" "shows" }}
-          {{ if eq .Title $.Title }}
-            {{ $showDetails = .Params.show_details }}
-          {{ end }}
-        {{ end }}
+      {{ range where .Site.Pages "Type" "shows" }}
+      {{ if eq .Title $.Title }}
+      {{ $showDetails = .Params.show_details }}
       {{ end }}
-      
+      {{ end }}
+      {{ end }}
+
       {{ if $showDetails }}
-        {{ range $showDetail := $showDetails }}
-          {{ range $key, $value := $showDetail }}
-            {{ if $value }}
-              <div class="flex">
-                <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $key }}</div>
-                <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-                  {{ if or (eq $key "Website") (eq $key "website") }}
-                    <a href="{{ $value }}" target="_blank" class="i">{{ $.Title }}</a>
-                  {{ else }}
-                    {{ if (eq (printf "%T" $value) "[]interface {}") }}
-                      {{ $result := slice }}
-                      {{ range $idx, $val := $value }}
-                        {{ if $val }}
-                          {{ if strings.HasSuffix $val " - wiki" }}
-                            {{ $val := $val | replaceRE " - wiki" "" }}
-                            {{ $valurl := $val | replaceRE " " "_" }}
-                            {{ $result = $result | append (printf "<a href='https://en.wikipedia.org/wiki/%s' target='_blank'>%s</a>" $valurl $val) }}
-                          {{ else }}
-                            {{ $result = $result | append $val }}
-                          {{ end }}
-                        {{ end }}
-                      {{ end }}
-                      {{ delimit $result ", " | safeHTML }}
-                    {{ else }}
-                      {{ if strings.HasSuffix $value " - wiki" }}
-                        {{ $val := $value | replaceRE " - wiki" "" }}
-                        {{ $valurl := $val | replaceRE " " "_" }}
-                        <a href="https://en.wikipedia.org/wiki/{{ $valurl }}" target="_blank">{{ $val }}</a>
-                      {{ else if (findRE `^\d{4}-\d{2}-\d{2}$` $value) }}
-                        {{ $value = $value | dateFormat "January 6, 2006" }}
-                        {{ $value }}
-                      {{ else }}
-                        {{ $value }}
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-                </div>
-              </div>
-            {{ end }}
+      {{ range $showDetail := $showDetails }}
+      {{ range $key, $value := $showDetail }}
+      {{ if $value }}
+      <div class="flex">
+        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $key }}</div>
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+          {{ if or (eq $key "Website") (eq $key "website") }}
+          <a href="{{ $value }}" target="_blank" class="i">{{ $.Title }}</a>
+          {{ else }}
+          {{ if (eq (printf "%T" $value) "[]interface {}") }}
+          {{ $result := slice }}
+          {{ range $idx, $val := $value }}
+          {{ if $val }}
+          {{ if strings.HasSuffix $val " - wiki" }}
+          {{ $val := $val | replaceRE " - wiki" "" }}
+          {{ $valurl := $val | replaceRE " " "_" }}
+          {{ $result = $result | append (printf "<a href='https://en.wikipedia.org/wiki/%s' target='_blank'>%s</a>" $valurl $val) }}
+          {{ else }}
+          {{ $result = $result | append $val }}
           {{ end }}
-        {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ delimit $result ", " | safeHTML }}
+          {{ else }}
+          {{ if strings.HasSuffix $value " - wiki" }}
+          {{ $val := $value | replaceRE " - wiki" "" }}
+          {{ $valurl := $val | replaceRE " " "_" }}
+          <a href="https://en.wikipedia.org/wiki/{{ $valurl }}" target="_blank">{{ $val }}</a>
+          {{ else if (findRE `^\d{4}-\d{2}-\d{2}$` $value) }}
+          {{ $value = $value | dateFormat "January 6, 2006" }}
+          {{ $value }}
+          {{ else }}
+          {{ $value }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
       {{ end }}
-      
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
 
 
     </div>
 
     <!-- If cast exists -->
     {{ if .Params.cast }}
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
       {{ range .Params.cast }} <!-- Iterate over the cast array -->
       {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
@@ -259,7 +259,7 @@
 
     <!-- If crew exists -->
     {{ if .Params.crew }}
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
       {{ range .Params.crew }} <!-- Iterate over the crew array -->
       {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
@@ -283,7 +283,7 @@
 
     <!-- If understudies exists -->
     {{ if .Params.understudies }}
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Understudies</h3>
       {{ range .Params.understudies }} <!-- Iterate over the understudies array -->
       {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
@@ -300,7 +300,7 @@
 
     <!-- If orchestra exists -->
     {{ if .Params.orchestra }}
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Orchestra</h3>
       {{ range .Params.orchestra }} <!-- Iterate over the orchestra array -->
       {{ range $instrument, $musician := . }} <!-- Iterate over key-value pairs -->
@@ -321,6 +321,34 @@
       {{ . }}
     </div>
     {{ end }}
+
+<!-- Reviews -->
+{{ $filename := .File.BaseFileName | replaceRE "-" " "}}
+{{ $filename }}
+{{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
+{{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
+
+{{ if or $relatedReviews .Params.reviews }}
+  <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+    <h3 class="f3 mt4 mb3 sectionline">Related Reviews</h3>
+    {{ range $relatedReviews }}
+    <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
+      {{ $summary := .Summary | plainify | safeHTML }}
+      <span class="db">{{ $summary }}</span>
+      <a href="{{ .Permalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>        
+    {{ end }}
+
+    {{ if .Params.reviews }}
+      {{ range .Params.reviews }} <!-- Iterate over the crew array -->
+      {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $reviewURL  }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
+      {{ end }}
+      {{ end }}
+    {{ end }}
+    
+{{ end }}
+
+
 
   </article>
 </div>

@@ -14,6 +14,7 @@ featured_image_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drusha
 author: Ray Hollister
 description: Explore Lumen Repertory Theatre's riveting adaptation of Sartre's hellscape. Stellar performances, immersive design.
 excerpt_separator: <!--more-->
+production: 2023 No Exit
 ---
 [*No Exit*](/productions/2023-no-exit/), an adaptation of Jean-Paul Sartre's "Huis clos," by [Lumen Repertory Theatre](/theatres/lumen-repertory-theatre/), is a disconcerting mystery box that traps you in its intrigue. This remarkable performance beckons you to delve into the human mind's darkest corners as three newly departed souls are abruptly gathered in a solitary room.
 <!--more-->
