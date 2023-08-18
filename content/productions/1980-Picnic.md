@@ -39,6 +39,5 @@ crew:
   - Bebe Schroder
   - Jeanne Turney
 orchestra:
-external_links:
 ---
 

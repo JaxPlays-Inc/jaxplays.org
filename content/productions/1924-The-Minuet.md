@@ -15,5 +15,4 @@ crew:
 - Stage Setting Assistant: Mrs. Henry L. Richmond
 understudies:
 orchestra:
-external_links:
 ---

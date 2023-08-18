@@ -7,5 +7,4 @@ Theatre: Players by the Sea
 cast:
 - Sheriff Reynolds: Michael Lipp
 crew:
-external_links:
 ---

@@ -78,5 +78,4 @@ crew:
   - Paul Galloway
   - Merline Galloway
   - Robey Robson
-external_links:
 ---

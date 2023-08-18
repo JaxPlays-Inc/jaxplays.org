@@ -41,5 +41,4 @@ crew:
   - Jack Dreher
   - Debbie Dreher
 orchestra:
-external_links:
 ---

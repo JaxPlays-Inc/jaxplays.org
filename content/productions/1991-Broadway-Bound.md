@@ -31,5 +31,4 @@ crew:
 - Sound Operator: Gloria Pepe
 - Costume Coordinator: Dotty Barringer
 orchestra:
-external_links:
 ---

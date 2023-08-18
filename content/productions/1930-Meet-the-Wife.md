@@ -22,5 +22,4 @@ crew:
 - Costumes: Will Louis
 understudies:
 orchestra:
-external_links:
 ---

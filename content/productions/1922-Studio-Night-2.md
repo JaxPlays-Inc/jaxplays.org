@@ -23,5 +23,4 @@ crew:
 - Stage Setting:
   - Mr. Charles Tharp
   - Mrs. Charles Tharp
-external_links:
 ---

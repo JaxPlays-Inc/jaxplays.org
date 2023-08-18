@@ -24,6 +24,5 @@ crew:
   - Rudy Baacke
 - Director: Huron L. Blyden
 orchestra:
-external_links:
 ---
 

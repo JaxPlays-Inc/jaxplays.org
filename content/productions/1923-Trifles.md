@@ -13,5 +13,4 @@ cast:
 - Miz Peters: Maria May
 crew:
 - Director: Birsa Shepard
-external_links:
 ---

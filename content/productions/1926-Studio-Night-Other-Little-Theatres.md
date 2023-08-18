@@ -7,5 +7,4 @@ playbill:
 Theatre: Theatre Jacksonville
 cast:
 - Speaker: Mrs. E.R. Hoyt
-external_links:
 ---

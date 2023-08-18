@@ -87,5 +87,4 @@ crew:
   - Gert Berman
   - Esta Rosenson
   - Betty Hodge
-external_links:
 ---

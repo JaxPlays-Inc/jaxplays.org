@@ -59,5 +59,4 @@ crew:
   - Joe Sloan
   - Mary Kilpatrick
   - Chris Michel Chiasson
-external_links:
 ---

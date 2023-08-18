@@ -34,5 +34,4 @@ crew:
   - Pol Delgado
   - Vincent Bisno
 orchestra:
-external_links:
 ---

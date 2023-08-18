@@ -72,5 +72,4 @@ crew:
 - Wardrobe Chairman: Nina Branch
 - Wardrobe Co-ordinator: Mrs. H.R. Bingham
 orchestra:
-external_links:
 ---

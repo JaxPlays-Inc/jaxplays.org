@@ -72,5 +72,4 @@ crew:
 - Sound: Dottie Wells
 - Program Design: Richard Lyons
 orchestra:
-external_links:
 ---

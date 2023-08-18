@@ -42,5 +42,4 @@ crew:
   - Mike Lewis
   - Mark Thomas
 orchestra:
-external_links:
 ---

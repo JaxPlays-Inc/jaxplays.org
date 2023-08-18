@@ -48,5 +48,4 @@ crew:
   - Marge Rocca
   - Chuck Wilson
   - Jim Leonard
-external_links:
 ---

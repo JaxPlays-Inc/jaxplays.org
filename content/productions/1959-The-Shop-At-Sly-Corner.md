@@ -70,5 +70,4 @@ crew:
   - Susan Massey
   - Felix Jacobs
 orchestra:
-external_links:
 ---

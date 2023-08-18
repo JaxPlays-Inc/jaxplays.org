@@ -72,5 +72,4 @@ crew:
   - Dave Adams
   - Norman Howard
 orchestra:
-external_links:
 ---

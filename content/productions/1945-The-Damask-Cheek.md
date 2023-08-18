@@ -45,5 +45,4 @@ crew:
 - Technical Director: Henry Kurth
 - Wardrobe: Louise Tennent
 orchestra:
-external_links:
 ---

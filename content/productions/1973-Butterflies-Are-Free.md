@@ -37,5 +37,4 @@ crew:
   - Gert Berman
   - Esta Rosenson
   - Pat Somers
-external_links:
 ---

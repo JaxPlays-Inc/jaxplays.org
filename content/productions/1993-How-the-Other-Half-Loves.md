@@ -33,5 +33,4 @@ crew:
 - Light Board Operator: Gloria Pepe
 - Sound Operator: Karl Rogers
 orchestra:
-external_links:
 ---

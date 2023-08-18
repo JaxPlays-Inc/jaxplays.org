@@ -25,5 +25,4 @@ crew:
 - Props:
   - Dick Grether
   - Dore' Beauchamp-Nobbs
-external_links:
 ---

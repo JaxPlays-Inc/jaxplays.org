@@ -55,5 +55,4 @@ crew:
 - Costume Mistress: Kristina Bushman
 - Artistic Director: Valerie Anthony
 orchestra:
-external_links:
 ---

@@ -81,5 +81,4 @@ crew:
 - Wardrobe Chairman: Millie Barnert
 - Wardrobe Coordinator: Becky Rogers
 orchestra:
-external_links:
 ---

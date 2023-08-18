@@ -61,5 +61,4 @@ crew:
 - Set Design: Michael Cisney
 - Stage Manager: Emil Hanna
 orchestra:
-external_links:
 ---

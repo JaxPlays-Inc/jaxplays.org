@@ -27,5 +27,4 @@ crew:
 - Staging and Props: Anne C. Lalor
 understudies:
 orchestra:
-external_links:
 ---

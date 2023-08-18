@@ -29,5 +29,4 @@ crew:
 - Props: Laurine Goffin
 understudies:
 orchestra:
-external_links:
 ---

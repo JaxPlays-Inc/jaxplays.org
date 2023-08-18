@@ -15,5 +15,4 @@ crew:
 - Stage Setting and props: June Ruggles
 understudies:
 orchestra:
-external_links:
 ---

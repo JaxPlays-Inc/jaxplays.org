@@ -122,5 +122,4 @@ orchestra:
   - Cindy Murphy
   - Jimmy Gutteridge
   - Bill Price
-external_links:
 ---

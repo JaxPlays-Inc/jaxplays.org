@@ -51,5 +51,4 @@ crew:
   - Shirley Cooke
   - Wilma Hacker
 orchestra:
-external_links:
 ---

@@ -28,5 +28,4 @@ crew:
   - Mrs. O.Z. Tyler
   - Mrs. Thomas L. Snowden
 orchestra:
-external_links:
 ---

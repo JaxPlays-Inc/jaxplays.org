@@ -31,5 +31,4 @@ crew:
 - Props: Mrs. H. Ward Preston
 - Lighting: Roy Hill
 orchestra:
-external_links:
 ---

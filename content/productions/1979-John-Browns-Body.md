@@ -47,5 +47,4 @@ crew:
 - Director: Robert Knowles
 - Musical Director: Rosalind MacEnulty
 - Technical Director: Tom Heffernan
-external_links:
 ---

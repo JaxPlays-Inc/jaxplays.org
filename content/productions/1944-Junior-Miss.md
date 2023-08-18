@@ -55,5 +55,4 @@ crew:
   - Van Norman
 - Program Advertising: William Schosser
 orchestra:
-external_links:
 ---

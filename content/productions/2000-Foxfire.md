@@ -34,5 +34,4 @@ crew:
   - Claudia Wright
 - Graphic Design: Melissa Russell
 orchestra:
-external_links:
 ---

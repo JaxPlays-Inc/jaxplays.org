@@ -19,5 +19,4 @@ crew:
 understudies:
 orchestra:
 props:
-external_links:
 ---

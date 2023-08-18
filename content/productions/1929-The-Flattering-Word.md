@@ -18,5 +18,4 @@ crew:
   - Mrs. E.R. Hoyt
 understudies:
 orchestra:
-external_links:
 ---

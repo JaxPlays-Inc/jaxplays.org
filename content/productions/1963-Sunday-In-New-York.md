@@ -54,5 +54,4 @@ crew:
   - Pete House
   - Joanne House
 - Costumes: Frank Ridge
-external_links:
 ---

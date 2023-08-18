@@ -26,5 +26,4 @@ crew:
 - Props: Helen Mullikin
 understudies:
 orchestra:
-external_links:
 ---

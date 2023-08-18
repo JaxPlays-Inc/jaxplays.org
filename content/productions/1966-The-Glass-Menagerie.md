@@ -45,5 +45,4 @@ crew:
   - Tootsie Backer
   - Hal Nearhoof
   - Peter Bradford
-external_links:
 ---

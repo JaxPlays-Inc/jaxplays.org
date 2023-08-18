@@ -84,5 +84,4 @@ crew:
 - Wardrobe Chairman: Dorothy Whitson
 - Wardrobe Co-ordinator: Mrs. H.R. Bingham
 orchestra:
-external_links:
 ---

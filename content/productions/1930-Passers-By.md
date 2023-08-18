@@ -22,5 +22,4 @@ crew:
   - Maurguerite Chiasson
 understudies:
 orchestra:
-external_links:
 ---

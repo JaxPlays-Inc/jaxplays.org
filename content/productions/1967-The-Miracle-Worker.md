@@ -69,5 +69,4 @@ crew:
   - David Witten
   - Paul Galloway
 - Jean Goodman: Jean Goodman.
-external_links:
 ---

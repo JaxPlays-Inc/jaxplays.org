@@ -11,5 +11,4 @@ cast:
   - Tom K. Scauff, Jr.
 understudies:
 orchestra:
-external_links:
 ---

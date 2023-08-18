@@ -47,5 +47,4 @@ crew:
 orchestra:
 - Piano: Rosalind MacEnulty
 - Drums: John Wolters
-external_links:
 ---

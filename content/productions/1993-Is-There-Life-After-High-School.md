@@ -9,5 +9,4 @@ cast:
 - Ensemble: Michael Lipp
 crew:
 - Director: Michael Lipp
-external_links:
 ---

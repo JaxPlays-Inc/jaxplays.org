@@ -20,5 +20,4 @@ cast:
 - Fourth Number: Elizabeth Allen
 crew:
 orchestra:
-external_links:
 ---

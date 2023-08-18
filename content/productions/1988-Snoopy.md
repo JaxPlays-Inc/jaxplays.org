@@ -8,5 +8,4 @@ cast:
 - Charlie Brown: Michael Lipp
 crew:
 - Director: Michael Lipp
-external_links:
 ---

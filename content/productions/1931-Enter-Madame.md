@@ -27,5 +27,4 @@ crew:
   - Zoa Wand
   - Drummond Paul, Jr.
 orchestra:
-external_links:
 ---

@@ -42,6 +42,5 @@ crew:
   - Claudia Lewis
   - Joe Ryan
 orchestra:
-external_links:
 ---
 

@@ -53,5 +53,4 @@ crew:
   - Shirley Cooke
 - Cast Photos: Dick Kerekes
 orchestra:
-external_links:
 ---

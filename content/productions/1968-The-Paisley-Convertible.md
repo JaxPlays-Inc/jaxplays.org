@@ -44,5 +44,4 @@ crew:
   - Lois Navarre
   - Richard Laurence Baron
 - Make-up: John Walker
-external_links:
 ---

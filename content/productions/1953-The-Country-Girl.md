@@ -68,5 +68,4 @@ crew:
 - Sound and Music: Rose Forney
 - Stage Manager: Hobson Blackmon
 orchestra:
-external_links:
 ---

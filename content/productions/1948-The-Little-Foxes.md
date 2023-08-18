@@ -52,5 +52,4 @@ crew:
 - Lighting controls: Mickey Mills
 understudies:
 orchestra:
-external_links:
 ---

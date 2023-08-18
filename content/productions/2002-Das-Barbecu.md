@@ -51,5 +51,4 @@ crew:
   - Dorothy Deane
 - Photography: Sarah Boone
 orchestra:
-external_links:
 ---

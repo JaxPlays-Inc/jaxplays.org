@@ -38,5 +38,4 @@ crew:
   - Lauren Murray
   - Hal Nearhoof
 - About the Cast notes: Jean Goodman
-external_links:
 ---

@@ -123,5 +123,4 @@ crew:
   - Lauren Murray
 - Who's Who Program Notes: Jocelyn Brown
 orchestra:
-external_links:
 ---

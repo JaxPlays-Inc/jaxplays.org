@@ -96,5 +96,4 @@ orchestra:
   - Don Williams
   - Elliott Baker
   - Clifford Goodman
-external_links:
 ---

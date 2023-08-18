@@ -17,5 +17,4 @@ crew:
 - Stage Decoration:
   - Katherine Wilson
   - Mrs. Strawn Perry
-external_links:
 ---

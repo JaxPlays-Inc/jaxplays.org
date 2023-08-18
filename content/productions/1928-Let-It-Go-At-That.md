@@ -17,5 +17,4 @@ crew:
 - Setting: Anne C. Lalor
 - Staging: Birsa Shepard
 orchestra:
-external_links:
 ---

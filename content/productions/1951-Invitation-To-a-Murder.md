@@ -71,5 +71,4 @@ crew:
   - Mary Sober
 - Wardrobe Chairman: Margaret Fairweather
 orchestra:
-external_links:
 ---

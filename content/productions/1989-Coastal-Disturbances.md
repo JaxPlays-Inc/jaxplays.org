@@ -6,5 +6,4 @@ Theatre: Jacksonville Actors Theatre
 cast:
 crew:
 - Director: Michael Lipp
-external_links:
 ---

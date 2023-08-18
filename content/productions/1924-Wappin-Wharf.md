@@ -23,5 +23,4 @@ crew:
 - Director: Mrs. William Macklin
 understudies:
 orchestra:
-external_links:
 ---

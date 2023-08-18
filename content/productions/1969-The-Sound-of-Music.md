@@ -117,5 +117,4 @@ crew:
   - Ann Dubow
   - Gert Berman
   - Annette Grauer
-external_links:
 ---

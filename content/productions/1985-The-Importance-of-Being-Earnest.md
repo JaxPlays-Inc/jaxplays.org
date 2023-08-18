@@ -55,6 +55,5 @@ crew:
   - Mark Thomas
   - Larry Usoff
 orchestra:
-external_links:
 ---
 

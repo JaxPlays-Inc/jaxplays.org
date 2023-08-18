@@ -58,5 +58,4 @@ crew:
   - Barbara Stillson
   - Esta Tkac
 orchestra:
-external_links:
 ---

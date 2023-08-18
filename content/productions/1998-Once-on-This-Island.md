@@ -62,6 +62,5 @@ orchestra:
 - Flute: Clint Weinberg
 - Bass: Paul Creel
 - Keyboards: Brian Meissenburg
-external_links:
 ---
 

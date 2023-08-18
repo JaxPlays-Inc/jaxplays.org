@@ -19,5 +19,4 @@ crew:
   - Carl Cesery
   - Martin S. Fabian
   - Ralph Cooper
-external_links:
 ---

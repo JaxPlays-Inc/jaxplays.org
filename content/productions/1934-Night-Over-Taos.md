@@ -56,6 +56,5 @@ crew:
   - Robert Tracy
   - Frances Blackwell
 orchestra:
-external_links:
 ---
 

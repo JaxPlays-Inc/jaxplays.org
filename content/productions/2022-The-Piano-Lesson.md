@@ -29,5 +29,4 @@ showtimes:
 - 2022-06-19 14:00:00
 cast:
 crew:
-external_links:
 ---

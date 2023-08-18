@@ -16,5 +16,4 @@ crew:
 - Scene Painting: Harrison Gibbs Prentice
 understudies:
 orchestra:
-external_links:
 ---

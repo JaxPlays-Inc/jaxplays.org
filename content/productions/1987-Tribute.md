@@ -34,6 +34,5 @@ crew:
   - Don Peterson
   - Mark Thill
 orchestra:
-external_links:
 ---
 

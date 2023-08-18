@@ -134,6 +134,5 @@ crew:
   - Marcia Senen
 - Guest Announcer: Dennis James
 orchestra:
-external_links:
 ---
 

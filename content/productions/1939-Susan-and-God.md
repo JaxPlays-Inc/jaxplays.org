@@ -51,5 +51,4 @@ crew:
 - Props: Eleanor Edwards
 - Stage Manager: Alex Pillsbury
 orchestra:
-external_links:
 ---

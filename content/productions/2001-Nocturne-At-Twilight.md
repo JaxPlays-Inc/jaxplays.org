@@ -40,5 +40,4 @@ crew:
   - Deon Young
   - Sarah Overton
 orchestra:
-external_links:
 ---

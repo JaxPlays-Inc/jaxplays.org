@@ -45,5 +45,4 @@ crew:
   - Ann Dubow
   - Gert Berman
   - Esta Rosenson
-external_links:
 ---

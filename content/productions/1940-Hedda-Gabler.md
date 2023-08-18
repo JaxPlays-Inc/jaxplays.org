@@ -28,6 +28,5 @@ crew:
 - Make-up: Stanley Morrell
 - Technical Director: Mary Courtney
 orchestra:
-external_links:
 ---
 

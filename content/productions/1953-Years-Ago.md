@@ -61,6 +61,5 @@ crew:
 - Setting and Technical Direction: George A. Ramsey, Jr.
 - Wardrobe Chairman: Mrs. H.R. Bingham
 orchestra:
-external_links:
 ---
 

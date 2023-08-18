@@ -51,6 +51,5 @@ crew:
 - Wardrobe Mistress: Louise Tennant, Sr.
 - Entre Act Music: Janell Knight
 orchestra:
-external_links:
 ---
 

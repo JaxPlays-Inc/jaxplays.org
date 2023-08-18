@@ -100,5 +100,4 @@ crew:
 - Sound: Gretchen Hannon
 - Program Cover: Richard Lyons
 orchestra:
-external_links:
 ---

@@ -96,6 +96,5 @@ crew:
   - Cindy Lube
   - Mike Lewis
 orchestra:
-external_links:
 ---
 

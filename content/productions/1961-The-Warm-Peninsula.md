@@ -57,5 +57,4 @@ crew:
   - Glenn H. Logan
   - Virginia Popwell
   - Wade Popwell
-external_links:
 ---

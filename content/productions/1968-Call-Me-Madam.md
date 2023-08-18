@@ -93,5 +93,4 @@ orchestra:
 - Piano: Rosalind McCall
 - Organ: Scott McCall
 - Percussion: Jack Mattison
-external_links:
 ---

@@ -20,5 +20,4 @@ crew:
 - Lighting: Martha Race
 understudies:
 orchestra:
-external_links:
 ---

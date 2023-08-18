@@ -54,5 +54,4 @@ crew:
   - Jim Pieretti
   - Mark Stater
 orchestra:
-external_links:
 ---

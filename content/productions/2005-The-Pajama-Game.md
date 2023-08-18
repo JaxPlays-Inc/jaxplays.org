@@ -76,5 +76,4 @@ orchestra:
 - Flute: Peggy Holland
 - Percussion: Kevin Perryman
 - Clarinet/Saxophone: Matthew Zettlemoyer
-external_links:
 ---

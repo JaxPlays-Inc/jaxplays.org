@@ -26,5 +26,4 @@ crew:
 - Props: Mrs. O.Z. Tyler
 - Prop Assistant: Mrs. Thomas L. Snowden
 orchestra:
-external_links:
 ---

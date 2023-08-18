@@ -13,5 +13,4 @@ show_details:
 cast:
 - Dauntless: Michael Lipp
 crew:
-external_links:
 ---

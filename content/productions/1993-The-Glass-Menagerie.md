@@ -48,5 +48,4 @@ crew:
   - Nestor Gil
   - Monica Rowland
 orchestra:
-external_links:
 ---

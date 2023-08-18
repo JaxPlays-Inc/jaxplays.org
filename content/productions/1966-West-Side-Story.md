@@ -105,5 +105,4 @@ orchestra:
   - Karl Higginbotham
   - Robert Hook
   - Joe Bragg
-external_links:
 ---

@@ -115,5 +115,4 @@ crew:
   - Carolyn Courreges
 - Program Design: Robert I. Brooks
 orchestra:
-external_links:
 ---

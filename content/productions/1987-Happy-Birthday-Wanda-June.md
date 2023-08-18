@@ -7,5 +7,4 @@ Theatre: Players by the Sea
 cast:
 - Woodly: Michael Lipp
 crew:
-external_links:
 ---

@@ -38,5 +38,4 @@ crew:
 - Sound Board Operator: Michelle Simkulet
 - Set Construction: Kelly J. Wagoner
 orchestra:
-external_links:
 ---

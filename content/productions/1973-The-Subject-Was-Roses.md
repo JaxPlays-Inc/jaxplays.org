@@ -37,5 +37,4 @@ crew:
   - Jennifer Stoudemire
   - Tom Young
 orchestra:
-external_links:
 ---

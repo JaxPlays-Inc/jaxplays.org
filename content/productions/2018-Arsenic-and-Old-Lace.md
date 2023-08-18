@@ -38,6 +38,5 @@ cast:
 crew:
 - Director: Joe Kemper
 orchestra:
-external_links:
 ---
 {{< youtube FLojbqedU10 >}}

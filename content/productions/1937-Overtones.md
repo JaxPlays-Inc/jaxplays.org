@@ -20,5 +20,4 @@ crew:
 - Publicity: Helen Gray
 - Director: Evelyn B. Cox
 orchestra:
-external_links:
 ---

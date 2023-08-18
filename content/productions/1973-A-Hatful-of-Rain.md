@@ -45,5 +45,4 @@ crew:
   - Gert Berman
   - Pat Somers
 orchestra:
-external_links:
 ---

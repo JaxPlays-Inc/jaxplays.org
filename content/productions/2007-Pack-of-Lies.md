@@ -44,5 +44,4 @@ crew:
   - Gloria Pepe
   - Terence Wolfe
 orchestra:
-external_links:
 ---

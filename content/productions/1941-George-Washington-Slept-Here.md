@@ -56,5 +56,4 @@ crew:
   - W.J. Fouraker, Jr.
 - Stage Manager: William Brenner
 orchestra:
-external_links:
 ---

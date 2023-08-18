@@ -15,5 +15,4 @@ crew:
 - Scene and Properties: Mrs. Lee Guest
 understudies:
 orchestra:
-external_links:
 ---

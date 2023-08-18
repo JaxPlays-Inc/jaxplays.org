@@ -39,5 +39,4 @@ crew:
   - Gloria Pepe
   - Claudia Wright
 - Assistant Technical Director: James Wright
-external_links:
 ---

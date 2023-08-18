@@ -38,7 +38,6 @@ showtimes:
 cast:
 crew:
 - Director: Bradley Akers
-external_links:
 ---
   
 

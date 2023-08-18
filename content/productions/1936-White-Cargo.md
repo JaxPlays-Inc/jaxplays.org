@@ -24,6 +24,5 @@ crew:
 - Staging: Mary Courtney
 - Props: Mrs. George R. Mason
 orchestra:
-external_links:
 ---
 

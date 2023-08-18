@@ -44,5 +44,4 @@ crew:
 - About the Cast notes: Jean Goodman
 understudies:
 orchestra:
-external_links:
 ---

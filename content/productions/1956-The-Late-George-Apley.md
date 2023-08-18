@@ -86,5 +86,4 @@ crew:
   - James Bibb
   - Norman Rickard
 orchestra:
-external_links:
 ---

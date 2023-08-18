@@ -43,5 +43,4 @@ crew:
 - Props: Mary Rowland
 - Costumes: Will Louis
 orchestra:
-external_links:
 ---

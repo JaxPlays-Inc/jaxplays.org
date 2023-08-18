@@ -23,5 +23,4 @@ crew:
 - Props: Lillian Allderdice
 understudies:
 orchestra:
-external_links:
 ---

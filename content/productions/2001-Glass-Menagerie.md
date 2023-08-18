@@ -31,5 +31,4 @@ crew:
   - Kelly J. Wagoner
   - Jeffery L. Wagoner
 orchestra:
-external_links:
 ---

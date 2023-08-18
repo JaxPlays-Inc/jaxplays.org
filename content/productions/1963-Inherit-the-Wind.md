@@ -98,5 +98,4 @@ crew:
   - A.J. Marshall
   - Pete House
   - Joanne House
-external_links:
 ---

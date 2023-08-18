@@ -55,6 +55,5 @@ crew:
   - Steve Stamps
 - Poster Design & Cover Art: Tom Schiffanella
 orchestra:
-external_links:
 ---
 

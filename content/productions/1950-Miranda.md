@@ -65,5 +65,4 @@ crew:
   - Mrs. R.P. Grooms
 - Wardrobe Chairman: Eula Mae Snow
 orchestra:
-external_links:
 ---

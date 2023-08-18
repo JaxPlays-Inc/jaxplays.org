@@ -17,5 +17,4 @@ crew:
 - Stage Decoration/Props:
   - Mrs. Lee Guest
   - Mrs. Louis Rivas
-external_links:
 ---

@@ -64,5 +64,4 @@ crew:
   - Brandi Van Cleef
   - Bryan James
 orchestra:
-external_links:
 ---

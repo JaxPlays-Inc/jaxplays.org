@@ -99,5 +99,4 @@ orchestra:
 - Bass: Jared May
 - Percussionist: Richard Gown
 - Piano: Laura Peden
-external_links:
 ---

@@ -63,5 +63,4 @@ crew:
   - Rhianna Hurt
 - Photography: Sarah Boone
 orchestra:
-external_links:
 ---

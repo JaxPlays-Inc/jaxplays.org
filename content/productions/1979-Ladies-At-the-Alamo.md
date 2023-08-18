@@ -28,5 +28,4 @@ crew:
 - Box Office: Barbara Stillson
 - House Manager: Valerie Hall
 orchestra:
-external_links:
 ---

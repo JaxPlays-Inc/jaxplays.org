@@ -40,6 +40,5 @@ crew:
   - Polly Clendenning
 - Curtain: George Herbertson
 orchestra:
-external_links:
 ---
 

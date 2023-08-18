@@ -81,6 +81,5 @@ crew:
   - Larry Zell
   - Esther Barnes
 orchestra:
-external_links:
 ---
 

@@ -3,7 +3,8 @@ layout: productions
 redirect_from:
 - /productions/2010_Parade_(musical)
 title: Parade
-date: 2010
+date: 2010-07-16
+closing_date: 2010-07-31
 category: musical
 Theatre: Players by the Sea
 show_details:
@@ -44,7 +45,4 @@ cast:
 - Ensemble:
 crew:
 - Director: Michael Lipp
-external_links:
 ---
-## Dates
-July 16, 2010 - July 31st, 2010

@@ -32,6 +32,5 @@ crew:
 - Props: Eleonor Edwards
 - Technical Director: Mary Courtney
 orchestra:
-external_links:
 ---
 

@@ -50,5 +50,4 @@ crew:
 - Costumes: Judy Lysaght
 - Volunteer Coordinator: Lovell Maclean
 orchestra:
-external_links:
 ---

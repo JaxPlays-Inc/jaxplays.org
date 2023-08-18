@@ -78,5 +78,4 @@ crew:
 - Second Hairdresser: Alice Robertson
 - Technical Director: Margaret Pumpelly
 orchestra:
-external_links:
 ---

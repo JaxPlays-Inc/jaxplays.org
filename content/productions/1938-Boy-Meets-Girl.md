@@ -37,5 +37,4 @@ crew:
 - Director: Huron L. Blyden
 - Props: Mrs. H.W. Preston
 orchestra:
-external_links:
 ---

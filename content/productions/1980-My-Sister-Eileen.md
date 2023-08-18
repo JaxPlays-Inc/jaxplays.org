@@ -71,5 +71,4 @@ crew:
   - Sabina Meyer
   - Pat Somers
 orchestra:
-external_links:
 ---

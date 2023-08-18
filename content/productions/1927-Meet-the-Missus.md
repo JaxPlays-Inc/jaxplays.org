@@ -16,5 +16,4 @@ crew:
   - L.B. Pratt
   - Martha Race
 - Props: Mrs. A.S. Peatross
-external_links:
 ---

@@ -99,5 +99,4 @@ crew:
   - Sam Watson
   - Deltoiya Goodman
 orchestra:
-external_links:
 ---

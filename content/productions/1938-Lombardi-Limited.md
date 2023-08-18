@@ -47,6 +47,5 @@ crew:
   - Mrs. Fred Pumpelly
   - P.G. Camp
 orchestra:
-external_links:
 ---
 

@@ -26,5 +26,4 @@ crew:
   - Basil Walker
   - Margaret Pumpelly
 - Props: John Richard Grether
-external_links:
 ---

@@ -18,5 +18,4 @@ crew:
 - Make-up: Sarah Payne Cawthorn
 understudies:
 orchestra:
-external_links:
 ---

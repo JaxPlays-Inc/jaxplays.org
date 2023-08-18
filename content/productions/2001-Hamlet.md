@@ -110,5 +110,4 @@ crew:
   - Beka Vaughan
   - Andra Smith
 orchestra:
-external_links:
 ---

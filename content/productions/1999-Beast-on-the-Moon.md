@@ -51,5 +51,4 @@ crew:
 - Hair and Make-Up: Bruce Barrett Musser
 - Graphic Design: Melissa Russell
 orchestra:
-external_links:
 ---

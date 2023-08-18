@@ -53,6 +53,5 @@ crew:
   - Mary Knight
   - Van Norman
 orchestra:
-external_links:
 ---
 

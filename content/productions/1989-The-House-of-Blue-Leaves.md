@@ -53,5 +53,4 @@ crew:
 - Properties: Renee Wendt Oka
 - Poster Design: Tom Schiffanella
 orchestra:
-external_links:
 ---

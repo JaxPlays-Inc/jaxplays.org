@@ -17,5 +17,4 @@ cast:
 - Joe: R. Swinnerton
 crew:
 - Stage Directions: Mrs. Fred Mullikin
-external_links:
 ---

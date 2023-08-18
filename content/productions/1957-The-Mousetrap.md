@@ -66,6 +66,5 @@ crew:
   - Mel Barnert
   - Fritz Ashworth
 orchestra:
-external_links:
 ---
 

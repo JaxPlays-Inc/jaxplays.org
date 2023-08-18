@@ -57,5 +57,4 @@ crew:
   - Emily Cabrera
   - Eric Lauder
 orchestra:
-external_links:
 ---

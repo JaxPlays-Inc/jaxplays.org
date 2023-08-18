@@ -133,5 +133,4 @@ crew:
 - Stage Manager: Marvin Edwards
 - Technical Adviser: George Ramsey
 orchestra:
-external_links:
 ---

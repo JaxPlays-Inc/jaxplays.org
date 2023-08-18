@@ -67,6 +67,5 @@ crew:
 - Choreographer: Jimmy Aquino
 orchestra:
 - Percussion: Chris S. Kellermeyer
-external_links:
 ---
 

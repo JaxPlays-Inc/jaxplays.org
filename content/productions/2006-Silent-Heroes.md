@@ -36,5 +36,4 @@ crew:
   - Gloria Pepe
   - John Pope
 orchestra:
-external_links:
 ---

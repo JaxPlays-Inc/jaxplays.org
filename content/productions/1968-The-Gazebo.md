@@ -50,5 +50,4 @@ crew:
   - Edith Gooding
   - Debbie Meade
 - About the Cast Notes: Terry McIntire
-external_links:
 ---

@@ -30,5 +30,4 @@ crew:
 - Sound Operator: Gloria Pepe
 - Hair and Make-up: Florence Le Furr
 orchestra:
-external_links:
 ---

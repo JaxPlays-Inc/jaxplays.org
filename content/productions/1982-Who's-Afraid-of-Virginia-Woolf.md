@@ -39,6 +39,5 @@ crew:
   - David Stillson
 - Costume Coordinator: Gert Berman
 orchestra:
-external_links:
 ---
 

@@ -14,5 +14,4 @@ crew:
 - Director: Marjory Brash
 - Stage Setting: Dick Grether
 orchestra:
-external_links:
 ---

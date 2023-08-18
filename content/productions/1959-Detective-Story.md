@@ -93,5 +93,4 @@ crew:
   - Mike McDermott
   - Sylvester Scotti
 orchestra:
-external_links:
 ---

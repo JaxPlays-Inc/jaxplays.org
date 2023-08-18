@@ -41,6 +41,5 @@ crew:
   - Pat Somers
   - Barbara Stillson
 orchestra:
-external_links:
 ---
 

@@ -25,5 +25,4 @@ crew:
 - Props: Mrs. R.R. Killinger
 understudies:
 orchestra:
-external_links:
 ---

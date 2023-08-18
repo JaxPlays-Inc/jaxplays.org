@@ -19,5 +19,4 @@ crew:
 - Staging: Irene Von Osthoff
 understudies:
 orchestra:
-external_links:
 ---

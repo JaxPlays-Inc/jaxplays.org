@@ -50,6 +50,5 @@ crew:
 - Hair and Make-up: Bruce Musser
 - Playbill Cover Art: Gerald Charm
 orchestra:
-external_links:
 ---
 

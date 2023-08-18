@@ -48,6 +48,5 @@ crew:
   - Marty Gribbin
   - Warren Kirby
 orchestra:
-external_links:
 ---
 

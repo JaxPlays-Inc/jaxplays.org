@@ -58,5 +58,4 @@ crew:
 - Poster and Program Art: Gerald Charm
 - Volunteer Coordinator: Lovelle MacLean
 orchestra:
-external_links:
 ---

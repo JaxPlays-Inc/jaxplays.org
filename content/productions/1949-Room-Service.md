@@ -55,5 +55,4 @@ crew:
 - Curtain: Harvard Eubanks, Jr.
 understudies:
 orchestra:
-external_links:
 ---

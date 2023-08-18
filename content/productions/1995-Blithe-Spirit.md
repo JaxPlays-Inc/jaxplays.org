@@ -45,5 +45,4 @@ crew:
   - Jennice Gibson
   - Joe Schwarz
 orchestra:
-external_links:
 ---

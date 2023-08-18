@@ -45,5 +45,4 @@ crew:
   - Martin Sack
   - Roy Hill
 orchestra:
-external_links:
 ---

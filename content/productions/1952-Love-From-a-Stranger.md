@@ -54,5 +54,4 @@ crew:
   - Helen Giles
   - Edythe Price
 orchestra:
-external_links:
 ---

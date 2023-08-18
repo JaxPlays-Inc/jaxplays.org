@@ -45,5 +45,4 @@ orchestra:
 - Piano & Band Leader: Laura Peden
 - Percussionist: Phil Marino
 - Guitar: Stephen Flakus
-external_links:
 ---

@@ -44,6 +44,5 @@ crew:
 - Staging: Ronald Kennard
 - Properties: Nell Killinger
 orchestra:
-external_links:
 ---
 

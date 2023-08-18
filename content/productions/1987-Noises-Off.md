@@ -50,6 +50,5 @@ crew:
   - Bruce Wylie
 - Marque: Tom Hehn
 orchestra:
-external_links:
 ---
 

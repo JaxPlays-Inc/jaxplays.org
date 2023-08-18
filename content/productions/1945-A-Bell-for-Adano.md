@@ -82,5 +82,4 @@ crew:
   - Sarah McRae
   - Tina Busk
 orchestra:
-external_links:
 ---

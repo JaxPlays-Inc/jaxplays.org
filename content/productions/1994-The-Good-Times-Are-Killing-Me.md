@@ -41,6 +41,5 @@ crew:
 - Costumes: Barbara Davis
 - Properties Mistress: Barbara Davis
 - Properties Crew: John Quering
-external_links:
 ---
 

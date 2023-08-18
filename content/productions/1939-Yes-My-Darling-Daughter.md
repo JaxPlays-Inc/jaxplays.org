@@ -24,5 +24,4 @@ crew:
 - Electrician: Wallace G. Ferry
 understudies:
 orchestra:
-external_links:
 ---

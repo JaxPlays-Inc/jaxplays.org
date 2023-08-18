@@ -39,5 +39,4 @@ crew:
 - Sound Operator: Karl Rogers
 - Make-up: Sylvie
 orchestra:
-external_links:
 ---

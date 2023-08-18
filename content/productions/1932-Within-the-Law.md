@@ -30,5 +30,4 @@ crew:
 - Director: F.W. Armbuster
 understudies:
 orchestra:
-external_links:
 ---

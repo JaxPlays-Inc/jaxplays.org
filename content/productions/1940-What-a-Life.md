@@ -62,5 +62,4 @@ crew:
   - Margaret Chitty
   - Dolly Ann Fisk
 orchestra:
-external_links:
 ---

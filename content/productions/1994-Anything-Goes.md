@@ -83,5 +83,4 @@ orchestra:
 - Piano: Ellen Milligan
 - Drums: Mark R. O'Brien
 - Bass: Lonnie Rowell
-external_links:
 ---

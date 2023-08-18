@@ -42,5 +42,4 @@ crew:
   - Paula Collier
   - Gloria Pepe
 orchestra:
-external_links:
 ---

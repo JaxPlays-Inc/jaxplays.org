@@ -16,5 +16,4 @@ cast:
 crew:
 - Director: Harrison Gibbs Prentice
 - Scene Arrangement: Mrs. Lee Guest
-external_links:
 ---

@@ -134,5 +134,4 @@ orchestra:
 - Organ: Rosalind McCall
 - Piano: Edward Richard
 - Percussion: James Glenn
-external_links:
 ---

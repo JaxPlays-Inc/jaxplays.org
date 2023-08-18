@@ -67,5 +67,4 @@ crew:
   - Claire Zundell
   - Sandy Gordon
   - Chris Chiasson
-external_links:
 ---

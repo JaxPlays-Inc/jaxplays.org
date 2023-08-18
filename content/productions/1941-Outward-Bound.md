@@ -46,5 +46,4 @@ crew:
   - Stokes Perry
 - Stage Manager: Alfred Seitner
 orchestra:
-external_links:
 ---

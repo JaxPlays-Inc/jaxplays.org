@@ -57,6 +57,5 @@ crew:
 - Stage Manager: Velma Henning
 - Wardrobe: Ruth Lawtion
 orchestra:
-external_links:
 ---
 

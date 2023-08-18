@@ -81,5 +81,4 @@ orchestra:
 - Musician:
   - Scott McCall
   - Mary Witthoff
-external_links:
 ---

@@ -63,5 +63,4 @@ crew:
   - Greg Odenwald
   - Mark Stater
 orchestra:
-external_links:
 ---

@@ -69,6 +69,5 @@ crew:
 - Dance Captain: Norma C. Forgue
 - Pamela Jackson: Pamela Jackson
 orchestra:
-external_links:
 ---
 

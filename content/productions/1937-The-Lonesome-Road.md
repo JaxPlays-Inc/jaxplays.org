@@ -20,6 +20,5 @@ crew:
 - Publicity: Helen Gray
 - Director: Mildred Perry
 orchestra:
-external_links:
 ---
 

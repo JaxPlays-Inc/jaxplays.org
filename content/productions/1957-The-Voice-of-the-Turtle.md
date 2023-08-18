@@ -66,5 +66,4 @@ crew:
   - Felix Jacobs
   - Bob Kornegay
 orchestra:
-external_links:
 ---

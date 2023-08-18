@@ -50,6 +50,5 @@ crew:
   - Kristen Heffernan
 - Cast Photos: Dick Kerekes
 orchestra:
-external_links:
 ---
 

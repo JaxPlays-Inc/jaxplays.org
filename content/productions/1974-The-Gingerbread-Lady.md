@@ -36,5 +36,4 @@ crew:
   - Ann Dubow
   - Gert Berman
   - Pat Somers
-external_links:
 ---

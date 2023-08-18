@@ -90,5 +90,4 @@ crew:
   - Diana Schuh
   - Elizabeth Bell
   - Al Koebrick
-external_links:
 ---

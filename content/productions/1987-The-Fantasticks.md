@@ -37,6 +37,5 @@ crew:
   - Gloria Pepe
   - Don Peterson
 orchestra:
-external_links:
 ---
 

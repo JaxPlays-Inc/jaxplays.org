@@ -26,5 +26,4 @@ cast:
 crew:
 - Director: Paul Stuart Buchanan
 orchestra:
-external_links:
 ---

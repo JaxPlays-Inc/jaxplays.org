@@ -38,5 +38,4 @@ crew:
   - Gloria Pepe
   - Peter van Vliet
   - Kelly J. Wagoner
-external_links:
 ---

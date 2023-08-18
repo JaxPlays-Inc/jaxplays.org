@@ -51,5 +51,4 @@ crew:
   - William Schosser
 - Box Office: Mrs. Elizabeth Hulett
 orchestra:
-external_links:
 ---

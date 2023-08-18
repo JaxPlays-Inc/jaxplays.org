@@ -18,5 +18,4 @@ cast:
 - Vixen: Staci Cobb
 crew:
 - Director: Michael Lipp
-external_links:
 ---

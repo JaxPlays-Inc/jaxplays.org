@@ -101,5 +101,4 @@ orchestra:
 - Percussion: Sean Hendrix
 - Keyboards: Oscar Perez
 - Harp: Cathy Braswell
-external_links:
 ---

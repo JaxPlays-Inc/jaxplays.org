@@ -66,5 +66,4 @@ crew:
 - Production Assistant: L.B. Peterson
 - Running Crew: Tom McCall
 orchestra:
-external_links:
 ---

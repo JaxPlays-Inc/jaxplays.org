@@ -15,5 +15,4 @@ cast:
 crew:
 orchestra:
 understudies:
-external_links:
 ---

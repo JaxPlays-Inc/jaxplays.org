@@ -61,6 +61,5 @@ crew:
 - Setting and Technical Direction: George A. Ramsey
 - Stage Manager: Shirley Cadle
 orchestra:
-external_links:
 ---
 

@@ -63,5 +63,4 @@ orchestra:
 - Piano/Conductor: Laura Peden
 - Keyboards: Brooke Kovalenko
 - Percussionist: Sean Taunton
-external_links:
 ---

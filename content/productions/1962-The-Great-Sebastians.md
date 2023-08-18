@@ -64,5 +64,4 @@ crew:
   - Pete House
   - Joanne House
   - Robert Krell
-external_links:
 ---

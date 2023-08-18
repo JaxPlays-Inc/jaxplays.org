@@ -42,6 +42,5 @@ crew:
 - Wardrobe: Louise Tennant
 - Program Advertising: William Schosser
 orchestra:
-external_links:
 ---
 

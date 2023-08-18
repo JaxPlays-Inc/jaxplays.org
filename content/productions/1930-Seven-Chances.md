@@ -27,5 +27,4 @@ crew:
   - Winifred Snowden
 - Ralph Denby: Eugene LeaMond
 orchestra:
-external_links:
 ---

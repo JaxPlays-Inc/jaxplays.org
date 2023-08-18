@@ -27,5 +27,4 @@ crew:
   - Walter A. Houmer
 understudies:
 orchestra:
-external_links:
 ---

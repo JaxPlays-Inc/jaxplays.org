@@ -37,5 +37,4 @@ crew:
   - Katie Raven
   - Sara Jo Weir
 orchestra:
-external_links:
 ---

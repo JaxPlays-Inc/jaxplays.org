@@ -20,5 +20,4 @@ crew:
 - Prompter: Grace Seagraves
 - Publicity: Helen Gray
 orchestra:
-external_links:
 ---

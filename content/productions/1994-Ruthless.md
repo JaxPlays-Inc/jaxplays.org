@@ -53,5 +53,4 @@ crew:
 orchestra:
 - Piano: Ellen Milligan
 - Percussion: David Morgan
-external_links:
 ---

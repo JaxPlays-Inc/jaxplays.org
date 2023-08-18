@@ -43,5 +43,4 @@ crew:
 - Sound Board Operator: Tim Driscoll
 - Graphic Design: Scott Taylor
 orchestra:
-external_links:
 ---

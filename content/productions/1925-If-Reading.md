@@ -25,5 +25,4 @@ crew:
 - Director:
   - E.R. Hoyt
   - Mrs. E.R. Hoyt
-external_links:
 ---

@@ -95,5 +95,4 @@ crew:
 - Setting and Technical Direction: George A. Ramsey, Jr.
 - Sound Effects and Music: George Sanchez
 orchestra:
-external_links:
 ---

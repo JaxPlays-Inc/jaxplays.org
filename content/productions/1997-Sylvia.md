@@ -29,5 +29,4 @@ crew:
   - Kim Counts
 - Volunteer Coordinator: Lovelle MacLean
 orchestra:
-external_links:
 ---

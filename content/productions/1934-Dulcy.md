@@ -25,5 +25,4 @@ crew:
   - Mrs. Douglas Haygood
 understudies:
 orchestra:
-external_links:
 ---

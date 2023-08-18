@@ -9,5 +9,4 @@ Venue: Little Theatre
 cast:
 crew:
 - Director: Michael Lipp
-external_links:
 ---

@@ -79,5 +79,4 @@ crew:
   - Joe Ferri
 understudies:
 orchestra:
-external_links:
 ---

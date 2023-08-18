@@ -53,5 +53,4 @@ crew:
   - David Whitfield
   - Paul Whitfield
   - Vivienne Winemiller
-external_links:
 ---

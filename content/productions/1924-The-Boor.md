@@ -14,5 +14,4 @@ cast:
 crew:
 - Director: Harrison Gibbs Prentice
 - Scene and Properties: Mrs. E.R. Hoyt
-external_links:
 ---

@@ -22,5 +22,4 @@ crew:
 - Props:
   - Fay Beckett
   - Marguerite Chiasson
-external_links:
 ---

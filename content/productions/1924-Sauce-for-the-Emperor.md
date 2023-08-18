@@ -19,5 +19,4 @@ crew:
 - Director: Harrison Gibbs Prentice
 - Stage Setting: Mrs. Strawn Perry
 orchestra:
-external_links:
 ---

@@ -52,5 +52,4 @@ crew:
   - Ray Williams
   - William Pearce
 orchestra:
-external_links:
 ---

@@ -45,5 +45,4 @@ crew:
   - Ann Dubow
   - Gert Berman
 - Cast Notes: Carolyn Courreges
-external_links:
 ---

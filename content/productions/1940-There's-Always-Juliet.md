@@ -25,6 +25,5 @@ crew:
 - Production Manager: Mary Courtney
 - Props: Flonnie Anders
 orchestra:
-external_links:
 ---
 

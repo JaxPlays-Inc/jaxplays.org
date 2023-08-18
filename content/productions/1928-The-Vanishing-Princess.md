@@ -14,5 +14,4 @@ crew:
 - Staging: F.W. Armbuster
 understudies:
 orchestra:
-external_links:
 ---

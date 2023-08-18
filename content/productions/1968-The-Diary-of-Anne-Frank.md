@@ -54,5 +54,4 @@ crew:
   - Nancy Kaye
   - Betty Lou Burket
   - Willie Franklin
-external_links:
 ---

@@ -52,5 +52,4 @@ crew:
   - Peggy Miller
   - Pete House
   - Joanne House
-external_links:
 ---

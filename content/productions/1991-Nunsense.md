@@ -28,5 +28,4 @@ crew:
 - Properties: Beth Harvey
 - Stage Manager: Karl Rogers
 orchestra:
-external_links:
 ---

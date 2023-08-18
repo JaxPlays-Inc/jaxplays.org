@@ -29,5 +29,4 @@ crew:
 - Electrical Effects: Roy Hill
 - Props: Mrs. Herbert Swisher
 orchestra:
-external_links:
 ---

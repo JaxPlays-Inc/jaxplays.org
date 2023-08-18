@@ -57,6 +57,5 @@ crew:
   - Eileen Quattlebaum
 - Wardrobe Chairman: Terry Heitzler
 orchestra:
-external_links:
 ---
 

@@ -42,6 +42,5 @@ crew:
 - Photography: D.P. Caldwell
 lights: Alex Pillsbury
 orchestra:
-external_links:
 ---
 

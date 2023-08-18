@@ -26,5 +26,4 @@ crew:
   - Mrs. Francis M. Holt
 understudies:
 orchestra:
-external_links:
 ---

@@ -33,6 +33,5 @@ crew:
 - Staging:
   - P.G. Camp
 orchestra:
-external_links:
 ---
 

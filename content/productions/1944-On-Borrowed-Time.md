@@ -48,5 +48,4 @@ crew:
   - William Schosser
 - Workman: Alvin Register, Jr.
 orchestra:
-external_links:
 ---

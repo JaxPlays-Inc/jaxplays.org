@@ -28,5 +28,4 @@ crew:
 - Director:
   - Elizabeth V. Long
   - Mrs. H.L. Richmond
-external_links:
 ---

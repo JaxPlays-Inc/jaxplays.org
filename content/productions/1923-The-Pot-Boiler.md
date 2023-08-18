@@ -23,5 +23,4 @@ crew:
 - Second Stage Hand: Wm. Rodeheaver
 understudies:
 orchestra:
-external_links:
 ---

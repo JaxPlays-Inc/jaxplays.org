@@ -91,5 +91,4 @@ crew:
 - Producer: Sue Moore
 - Rehearsal Accompianist: Melissa Moon
 orchestra:
-external_links:
 ---

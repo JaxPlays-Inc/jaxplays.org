@@ -55,5 +55,4 @@ crew:
   - Mark Rubens
   - Daniella Zayas
 orchestra:
-external_links:
 ---

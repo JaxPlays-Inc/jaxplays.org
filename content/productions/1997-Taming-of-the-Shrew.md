@@ -82,5 +82,4 @@ crew:
 - Box Office Services: Cherrie Stratton
 - Project Coordinator: Robert Arleigh White
 orchestra:
-external_links:
 ---

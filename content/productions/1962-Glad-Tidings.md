@@ -45,5 +45,4 @@ crew:
   - Pete House
 understudies:
 orchestra:
-external_links:
 ---

@@ -19,5 +19,4 @@ crew:
 - Props: Mrs. A.S. Peatross
 orchestra:
 understudies:
-external_links:
 ---

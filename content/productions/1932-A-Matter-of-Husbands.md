@@ -18,5 +18,4 @@ crew:
   - Winston Fowler
 - Staging Assistant:
   - Roy Richardson
-external_links:
 ---

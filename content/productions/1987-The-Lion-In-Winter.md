@@ -54,6 +54,5 @@ crew:
   - Eileen Davis
   - Shyla Marshall
 orchestra:
-external_links:
 ---
 

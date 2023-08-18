@@ -24,5 +24,4 @@ crew:
   - Strawn Perry
 understudies:
 orchestra:
-external_links:
 ---

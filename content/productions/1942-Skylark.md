@@ -38,6 +38,5 @@ crew:
   - Roberta Arrowsmith
 - Stage Manager: Al Seitner
 orchestra:
-external_links:
 ---
 

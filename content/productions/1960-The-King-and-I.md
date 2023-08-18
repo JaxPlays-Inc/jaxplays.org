@@ -163,5 +163,4 @@ crew:
   - Mrs. Helen Cochran
   - Dave Adams
 orchestra:
-external_links:
 ---

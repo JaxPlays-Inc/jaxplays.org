@@ -124,5 +124,4 @@ orchestra:
   - Jean Smith
   - John Glass
   - Karl Knoche, Jr.
-external_links:
 ---

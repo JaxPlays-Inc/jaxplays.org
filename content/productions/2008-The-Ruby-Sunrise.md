@@ -63,5 +63,4 @@ crew:
   - Stephen Brazile
   - Phillip Grow
   - Chris Stone
-external_links:
 ---

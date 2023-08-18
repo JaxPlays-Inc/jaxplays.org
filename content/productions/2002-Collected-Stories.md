@@ -40,5 +40,4 @@ crew:
   - Barbara Wells
   - Deon Young
 orchestra:
-external_links:
 ---

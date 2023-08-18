@@ -46,5 +46,4 @@ crew:
   - Frank Berman
   - Gwyda Agnew
 orchestra:
-external_links:
 ---

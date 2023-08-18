@@ -23,5 +23,4 @@ crew:
 - Stage Setting Assistant:
   - Clara Johnson
   - Gordon McCauley
-external_links:
 ---

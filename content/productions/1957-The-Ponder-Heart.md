@@ -123,6 +123,5 @@ crew:
   - Florence Somack
   - Rozelle Cohen
 orchestra:
-external_links:
 ---
 

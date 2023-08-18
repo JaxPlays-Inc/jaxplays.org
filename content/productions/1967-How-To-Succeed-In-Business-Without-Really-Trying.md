@@ -83,5 +83,4 @@ crew:
   - Hal Nearhoof
   - Jack Broughton
   - Andy Liliskis
-external_links:
 ---

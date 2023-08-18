@@ -32,5 +32,4 @@ crew:
   - Robert Krell
 understudies:
 orchestra:
-external_links:
 ---

@@ -36,6 +36,5 @@ crew:
   - William Schosser
 - Stage Manager: Robert Blackburn
 orchestra:
-external_links:
 ---
 

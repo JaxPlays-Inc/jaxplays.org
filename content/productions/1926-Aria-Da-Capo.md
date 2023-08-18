@@ -19,5 +19,4 @@ crew:
 - Costumes and Props Assistant: Gertrude F. Jacobi
 understudies:
 orchestra:
-external_links:
 ---

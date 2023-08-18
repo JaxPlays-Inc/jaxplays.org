@@ -30,5 +30,4 @@ crew:
 - Stage Manager: Arthur Bunch
 understudies:
 orchestra:
-external_links:
 ---

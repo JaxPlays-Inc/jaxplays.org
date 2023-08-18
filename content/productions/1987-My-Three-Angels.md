@@ -45,6 +45,5 @@ crew:
   - John Durante
   - Gloria Pepe
 orchestra:
-external_links:
 ---
 

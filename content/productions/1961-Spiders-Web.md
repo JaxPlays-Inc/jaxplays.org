@@ -64,5 +64,4 @@ crew:
   - Don Simmons
   - Charles Brock
   - Jack Evans
-external_links:
 ---

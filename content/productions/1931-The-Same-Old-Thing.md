@@ -19,5 +19,4 @@ crew:
 - Grips: Joseph McCants
 understudies:
 orchestra:
-external_links:
 ---

@@ -16,5 +16,4 @@ crew:
   - Cecil Batchelder
   - E.S. Beauchamp-Nobbs
 - Stage Setting: Dick Grether
-external_links:
 ---

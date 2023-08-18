@@ -28,5 +28,4 @@ crew:
 - Prop Assistant: Mary Courtney
 - Props: Mrs. H. Ward Preston
 orchestra:
-external_links:
 ---

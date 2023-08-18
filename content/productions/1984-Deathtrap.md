@@ -32,5 +32,4 @@ crew:
   - Pam Jackson
   - Marti Carson
 orchestra:
-external_links:
 ---

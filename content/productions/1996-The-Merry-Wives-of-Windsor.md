@@ -83,5 +83,4 @@ crew:
   - Sandy Meyers
   - Lisa Braren
 orchestra:
-external_links:
 ---

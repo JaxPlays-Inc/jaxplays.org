@@ -9,5 +9,4 @@ cast:
 - Performer: E.S. Beauchamp-Nobbs
 crew:
 orchestra:
-external_links:
 ---

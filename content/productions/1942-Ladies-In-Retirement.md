@@ -50,5 +50,4 @@ crew:
 - Costumes: Mrs. A.M. Lupfer
 - Props: Mrs. L.D. Behner
 orchestra:
-external_links:
 ---

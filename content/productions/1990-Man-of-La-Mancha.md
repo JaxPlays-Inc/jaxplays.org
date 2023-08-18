@@ -51,5 +51,4 @@ crew:
 - Assistant Stage Manager: Rick Whiterford
 - Property Assistant: Jessica Mondoki
 orchestra:
-external_links:
 ---

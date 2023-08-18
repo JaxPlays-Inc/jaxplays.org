@@ -19,5 +19,4 @@ crew:
 - Costumes: Isabel Williams
 understudies:
 orchestra:
-external_links:
 ---

@@ -63,5 +63,4 @@ crew:
   - Jason Edwards
   - Carl Scrieber
 orchestra:
-external_links:
 ---

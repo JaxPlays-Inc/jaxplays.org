@@ -71,5 +71,4 @@ crew:
   - Jean Wilfrid (Properties)
 understudies:
 orchestra:
-external_links:
 ---

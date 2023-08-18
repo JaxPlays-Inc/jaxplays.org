@@ -18,5 +18,4 @@ crew:
 - Props: Mrs. Abner Withee
 understudies:
 orchestra:
-external_links:
 ---

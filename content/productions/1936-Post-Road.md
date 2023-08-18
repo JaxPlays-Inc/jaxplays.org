@@ -33,6 +33,5 @@ crew:
   - Stokes Perry
 - Electrical Effects: Rudy Baacke
 orchestra:
-external_links:
 ---
 

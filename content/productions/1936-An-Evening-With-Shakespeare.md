@@ -38,6 +38,5 @@ crew:
   - J.H. Pratt
   - Mary Courtney
 orchestra:
-external_links:
 ---
 

@@ -9,5 +9,4 @@ show_details:
 cast:
 - Noah: Michael Lipp
 crew:
-external_links:
 ---

@@ -36,6 +36,5 @@ crew:
   - Gerri Turbow
   - Jack Newsom
 orchestra:
-external_links:
 ---
 

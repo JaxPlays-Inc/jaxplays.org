@@ -52,5 +52,4 @@ crew:
   - George Ballis
 - Sound Recording: Gretchen Hannon
 - Program Cover: Richard Lyons
-external_links:
 ---

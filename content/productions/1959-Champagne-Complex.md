@@ -69,5 +69,4 @@ crew:
   - Malcolm Argo
   - Bob Kornegay
 orchestra:
-external_links:
 ---

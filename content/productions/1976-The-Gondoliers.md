@@ -89,6 +89,5 @@ crew:
 - Publicity: Madge Bruner
 - Cast Notes: Sabina Meyer
 orchestra:
-external_links:
 ---
 

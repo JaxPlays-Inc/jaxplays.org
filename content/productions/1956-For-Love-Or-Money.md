@@ -74,6 +74,5 @@ crew:
   - Liz Whitman
   - Louise Peairs
 orchestra:
-external_links:
 ---
 

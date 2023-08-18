@@ -28,5 +28,4 @@ crew:
   - Anne Emmeline Overstreet
   - Elizabeth Penfield
   - Mrs. O.Z. Tyler
-external_links:
 ---

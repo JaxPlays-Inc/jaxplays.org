@@ -36,5 +36,4 @@ crew:
 - Staging: Robert Tracy
 understudies:
 orchestra:
-external_links:
 ---

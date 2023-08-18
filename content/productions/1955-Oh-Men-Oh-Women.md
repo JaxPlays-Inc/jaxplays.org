@@ -107,6 +107,5 @@ crew:
   - George Lawhead
 - Wardrobe Chairman: Margaret Burt
 orchestra:
-external_links:
 ---
 

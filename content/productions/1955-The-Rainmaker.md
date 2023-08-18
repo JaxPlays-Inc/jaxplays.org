@@ -75,6 +75,5 @@ crew:
   - Elaine Barnert
   - Liz Whiteman
 orchestra:
-external_links:
 ---
 

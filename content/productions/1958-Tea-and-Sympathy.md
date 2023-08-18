@@ -81,5 +81,4 @@ crew:
   - Bill Schill
   - Gladys Brown
 orchestra:
-external_links:
 ---

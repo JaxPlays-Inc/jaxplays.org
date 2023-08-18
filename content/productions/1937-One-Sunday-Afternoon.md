@@ -33,6 +33,5 @@ crew:
 - Director: Margaret Pumpelly
 - Props: Maxine Swisher
 orchestra:
-external_links:
 ---
 

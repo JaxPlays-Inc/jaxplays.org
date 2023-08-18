@@ -37,6 +37,5 @@ crew:
   - Monroe Lipton
   - Patty Hulett
 orchestra:
-external_links:
 ---
 

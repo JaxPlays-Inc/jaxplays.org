@@ -42,5 +42,4 @@ crew:
 - Volunteer Coordinator: Lovelle MacLean
 - Playbill: Julia Preston
 orchestra:
-external_links:
 ---

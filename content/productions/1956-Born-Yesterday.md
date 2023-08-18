@@ -100,5 +100,4 @@ crew:
   - Marion Conner
   - Fritz Ashworth
 orchestra:
-external_links:
 ---

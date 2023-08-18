@@ -44,6 +44,5 @@ crew:
   - A.J. Walker
   - Bob Walker
 orchestra:
-external_links:
 ---
 

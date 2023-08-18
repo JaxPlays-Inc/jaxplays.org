@@ -34,5 +34,4 @@ crew:
   - Jon Brenan
   - Carole Ficheria
 orchestra:
-external_links:
 ---

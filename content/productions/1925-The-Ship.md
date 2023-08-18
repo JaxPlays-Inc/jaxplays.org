@@ -26,5 +26,4 @@ crew:
 - Director: Tracy L'Engle
 understudies:
 orchestra:
-external_links:
 ---

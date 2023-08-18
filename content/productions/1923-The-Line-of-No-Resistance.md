@@ -12,5 +12,4 @@ cast:
 crew:
 - Director: Harrison Gibbs Prentice
 - Scene Arrangement: Mrs. Alfred C. Ulmer
-external_links:
 ---

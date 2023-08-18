@@ -46,5 +46,4 @@ crew:
   - William Schosser
 - Stage Manager: Bob Carter
 orchestra:
-external_links:
 ---

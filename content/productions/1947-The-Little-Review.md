@@ -118,5 +118,4 @@ orchestra:
   - Bessie Rhodes
   - Emma Walker Haydon
   - Jean Smith
-external_links:
 ---

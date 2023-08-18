@@ -34,5 +34,4 @@ crew:
 - Director: Paul Stuart Buchanan
 understudies:
 orchestra:
-external_links:
 ---

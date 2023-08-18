@@ -16,5 +16,4 @@ crew:
 - Director: J. Douglas Haygood
 understudies:
 orchestra:
-external_links:
 ---

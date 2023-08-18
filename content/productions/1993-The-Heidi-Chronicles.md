@@ -48,5 +48,4 @@ crew:
   - Robyn Borland
   - Toni McDonald
 orchestra:
-external_links:
 ---

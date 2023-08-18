@@ -21,5 +21,4 @@ crew:
   - Mrs. M. Moss
 understudies:
 orchestra:
-external_links:
 ---

@@ -75,5 +75,4 @@ orchestra:
   - Bill Racca
   - Camp Kirkland
   - James Gutteridge
-external_links:
 ---

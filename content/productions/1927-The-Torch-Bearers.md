@@ -40,5 +40,4 @@ crew:
   - Mrs. Grace
 understudies:
 orchestra:
-external_links:
 ---

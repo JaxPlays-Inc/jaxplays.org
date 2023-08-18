@@ -142,7 +142,6 @@ crew:
   - Sarah Brace
   - Kolby James
 orchestra:
-external_links:
 ---
 "Beauty and the Beast" is a musical based on the Disney animated film of the same name. It tells the timeless story of Belle, a young woman who finds herself drawn to the mysterious Beast, a prince trapped in the form of a hideous creature. As Belle gets to know the Beast and his enchanted household, including talking household items and furniture, she discovers the true beauty lies within.
 

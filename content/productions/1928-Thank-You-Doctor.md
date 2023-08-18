@@ -24,5 +24,4 @@ crew:
   - Ray Halle
 understudies:
 orchestra:
-external_links:
 ---

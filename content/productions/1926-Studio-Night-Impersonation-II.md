@@ -8,5 +8,4 @@ cast:
 - Performer: Elizabeth Palmer Tyler
 crew:
 orchestra:
-external_links:
 ---

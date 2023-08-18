@@ -69,5 +69,4 @@ crew:
   - Jay Harder
   - Jocelyn Brown
   - Laurel Barton
-external_links:
 ---

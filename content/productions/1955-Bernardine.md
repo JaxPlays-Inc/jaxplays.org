@@ -85,6 +85,5 @@ crew:
   - Mariam Akra
 - Wardrobe Chairman: Amelia Houston
 orchestra:
-external_links:
 ---
 

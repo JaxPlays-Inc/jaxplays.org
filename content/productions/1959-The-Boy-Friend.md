@@ -111,5 +111,4 @@ crew:
   - Marie Logan
   - David Boyer
   - Mrs. David Boyer
-external_links:
 ---

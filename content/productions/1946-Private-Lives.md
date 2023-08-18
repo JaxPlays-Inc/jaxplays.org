@@ -20,6 +20,5 @@ crew:
 - Properties: Mary Garcia
 - Stage Sets: Duke LeBrun
 orchestra:
-external_links:
 ---
 

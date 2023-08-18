@@ -68,7 +68,6 @@ crew:
 - Shop Foreman: Dom Grasso
 - Scenic Artist: Nancy Grasso
 orchestra:
-external_links:
 ---
 "Hands on a Hard Body" is based on the 1997 documentary film of the same name by S.R. Bindler. The musical opened on Broadway in 2013.
 

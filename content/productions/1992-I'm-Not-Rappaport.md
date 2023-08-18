@@ -41,5 +41,4 @@ crew:
   - Maria Negron
   - M.J. Tretchell
 orchestra:
-external_links:
 ---

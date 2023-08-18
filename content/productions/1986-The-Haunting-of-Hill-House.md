@@ -39,5 +39,4 @@ crew:
   - Craig Kassen
 - Marque: Tom Hehn
 orchestra:
-external_links:
 ---

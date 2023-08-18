@@ -27,5 +27,4 @@ crew:
 - Props: Marguerite Chiasson
 understudies:
 orchestra:
-external_links:
 ---

@@ -51,5 +51,4 @@ crew:
 - Props: Eleonor Edwards
 - Stage Manager: Jesse Hoagland
 orchestra:
-external_links:
 ---

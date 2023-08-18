@@ -14,5 +14,4 @@ crew:
 - Director: Harrison Gibbs Prentice
 - Stage Setting: Mrs. Lynwood Jeffries
 orchestra:
-external_links:
 ---

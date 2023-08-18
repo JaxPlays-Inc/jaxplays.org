@@ -19,5 +19,4 @@ crew:
 - Props and Costumes: Gertrude F. Jacobi
 understudies:
 orchestra:
-external_links:
 ---

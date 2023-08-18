@@ -62,5 +62,4 @@ orchestra:
 - Percussionist: Phil Marino
 - Guitar: Stephen Flakus
 - Bass: Bruce Fleming
-external_links:
 ---

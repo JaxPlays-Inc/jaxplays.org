@@ -22,5 +22,4 @@ crew:
 - Props: Mrs. A.S. Peatross
 understudies:
 orchestra:
-external_links:
 ---

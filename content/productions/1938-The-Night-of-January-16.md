@@ -36,5 +36,4 @@ crew:
   - Mary Courtney
   - Stokes Perry
 orchestra:
-external_links:
 ---

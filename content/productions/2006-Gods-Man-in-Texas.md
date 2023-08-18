@@ -31,5 +31,4 @@ crew:
   - Tim Allen
   - Jeffery L. Wagoner
 orchestra:
-external_links:
 ---

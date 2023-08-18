@@ -36,6 +36,5 @@ crew:
   - Raymond C. Winstead
 - Beer: Mary Bowen
 orchestra:
-external_links:
 ---
 

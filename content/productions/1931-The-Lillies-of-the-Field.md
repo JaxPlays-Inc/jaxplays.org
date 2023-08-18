@@ -24,5 +24,4 @@ crew:
   - Mary Wilcox Rowland
 understudies:
 orchestra:
-external_links:
 ---

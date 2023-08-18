@@ -79,5 +79,4 @@ crew:
 - Stage Manager: Budd Porter
 - Wardrobe Chairman: Ophelia Bingham
 orchestra:
-external_links:
 ---

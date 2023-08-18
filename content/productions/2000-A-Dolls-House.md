@@ -52,5 +52,4 @@ crew:
   - Melissa Russell
   - Robert Arleigh White
 orchestra:
-external_links:
 ---

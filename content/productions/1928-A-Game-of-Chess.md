@@ -17,5 +17,4 @@ crew:
   - Mrs. C.J. Williams, Jr.
   - Ray Halle
 - Set Design: Irene Von Osthoff
-external_links:
 ---

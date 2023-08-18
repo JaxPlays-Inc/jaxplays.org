@@ -51,5 +51,4 @@ crew:
   - Louise Elkins
 understudies:
 orchestra:
-external_links:
 ---

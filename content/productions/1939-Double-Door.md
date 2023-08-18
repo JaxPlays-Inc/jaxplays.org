@@ -31,5 +31,4 @@ crew:
   - Paul Kruse
   - Vincent Bisno
 orchestra:
-external_links:
 ---

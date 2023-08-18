@@ -66,5 +66,4 @@ crew:
   - Ernest Goldsmith
   - Jill Bergman
   - John Skye
-external_links:
 ---

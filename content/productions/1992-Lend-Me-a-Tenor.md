@@ -41,5 +41,4 @@ crew:
   - Bob White
 - Hair and Make-up: Bruce Musser
 orchestra:
-external_links:
 ---

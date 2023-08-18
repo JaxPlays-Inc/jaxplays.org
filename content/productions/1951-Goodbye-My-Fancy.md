@@ -77,5 +77,4 @@ crew:
   - Laurel Barton
   - Ann Welch
 orchestra:
-external_links:
 ---

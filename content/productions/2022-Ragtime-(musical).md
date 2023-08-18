@@ -65,7 +65,6 @@ crew:
 - Director: Curtis J. Williams
 - Choreographer: Curtis J. Williams
 - Music Director: Aaron DeCicco
-external_links:
 ---
 This much-anticipated production of _Ragtime_ at Theatre Jacksonville was unfortunately cancelled due to a rapid outbreak of COVID-19 among the cast and crew. Despite implementing rigorous safety measures, the virus infiltrated this tight-knit theatre community, making it impossible for the large cast to gather safely for rehearsals.
 

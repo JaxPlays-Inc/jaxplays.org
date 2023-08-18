@@ -57,5 +57,4 @@ crew:
   - Esta Tkac
   - Martha Wynne
 orchestra:
-external_links:
 ---

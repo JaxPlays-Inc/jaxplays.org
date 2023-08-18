@@ -45,6 +45,5 @@ crew:
   - Myerreah Ellis
   - Robert Paul
 orchestra:
-external_links:
 ---
 

@@ -66,6 +66,5 @@ crew:
   - Polly Clendinning
 - Wardrobe Chairman: Eula Mae Snow
 orchestra:
-external_links:
 ---
 

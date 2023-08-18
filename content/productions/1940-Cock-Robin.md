@@ -40,5 +40,4 @@ crew:
 - Director: Marian Hendry
 - Electrician: Walter Edwards
 orchestra:
-external_links:
 ---

@@ -23,5 +23,4 @@ crew:
 - Props: Beatrice Peiser
 - Director: Birsa Shepard
 - Stage Manager: Charles DePencier
-external_links:
 ---

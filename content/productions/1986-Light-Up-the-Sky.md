@@ -46,6 +46,5 @@ crew:
   - Chris Dowling
 - Box Office: Imelda Baker
 orchestra:
-external_links:
 ---
 

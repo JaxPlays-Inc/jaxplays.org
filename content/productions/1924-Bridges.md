@@ -12,5 +12,4 @@ cast:
 crew:
 - Director: Harrison Gibbs Prentice
 - Stage Setting: Rosalyn Anthony
-external_links:
 ---

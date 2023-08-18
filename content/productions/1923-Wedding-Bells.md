@@ -22,5 +22,4 @@ crew:
 - Scene Setting:
   - Mrs. Fred Mullikin
   - Mrs. Jno. F. Porter
-external_links:
 ---

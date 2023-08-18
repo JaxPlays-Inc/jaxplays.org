@@ -36,5 +36,4 @@ crew:
   - Leilani Tillis
 - Lighting Design: Dennis Ginder
 orchestra:
-external_links:
 ---

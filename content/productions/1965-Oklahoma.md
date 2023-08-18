@@ -102,5 +102,4 @@ orchestra:
   - Don Thompson
   - Bill Pape
   - Ken Jones
-external_links:
 ---

@@ -92,5 +92,4 @@ crew:
 - Box Office:
   - Ann Dubow
   - Gert Berman
-external_links:
 ---

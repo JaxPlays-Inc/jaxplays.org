@@ -53,5 +53,4 @@ crew:
   - Louise Tennent Sr.
   - Zan Platte
 orchestra:
-external_links:
 ---

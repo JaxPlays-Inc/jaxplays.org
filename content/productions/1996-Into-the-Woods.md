@@ -91,5 +91,4 @@ orchestra:
 - Clarinet: Valerie Mayfield
 - Flute: Stephanie Nunez
 - Violin: Augi Lye
-external_links:
 ---

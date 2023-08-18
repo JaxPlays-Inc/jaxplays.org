@@ -75,5 +75,4 @@ crew:
 - Props: Elsie Behner
 orchestra:
 - Organist: Ida Mae Odom
-external_links:
 ---

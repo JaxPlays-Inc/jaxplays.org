@@ -89,5 +89,4 @@ crew:
   - Dorothy Quint
   - Florence Somack
 orchestra:
-external_links:
 ---

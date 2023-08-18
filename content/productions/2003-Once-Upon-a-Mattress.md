@@ -85,5 +85,4 @@ orchestra:
 - Violin: Paul Hulsberg
 - Guitar: Alex Litt
 - Bass: Aaron Kline
-external_links:
 ---

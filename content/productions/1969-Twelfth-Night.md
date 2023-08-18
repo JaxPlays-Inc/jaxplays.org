@@ -70,5 +70,4 @@ crew:
 - Publicity:
   - Rosa Harlan
   - L.A. Hanson
-external_links:
 ---

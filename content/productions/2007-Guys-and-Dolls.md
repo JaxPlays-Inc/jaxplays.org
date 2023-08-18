@@ -76,5 +76,4 @@ orchestra:
 - Brass: Edward Letendre
 - Bass: Kevin Paysinger
 - Percussion: Sione Tamaseu
-external_links:
 ---

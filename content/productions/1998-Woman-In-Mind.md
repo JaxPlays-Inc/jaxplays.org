@@ -38,5 +38,4 @@ crew:
 - Volunteer Coordinator: Lovelle MacLean
 - Graphic Support: Alan Abraham
 orchestra:
-external_links:
 ---

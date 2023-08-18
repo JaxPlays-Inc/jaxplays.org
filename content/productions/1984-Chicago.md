@@ -86,6 +86,5 @@ crew:
   - Marilin States
   - J. Dean
 orchestra:
-external_links:
 ---
 

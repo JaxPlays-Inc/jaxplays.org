@@ -27,5 +27,4 @@ crew:
   - Herbert Swisher
   - Mrs. Fred Pumpelly
 orchestra:
-external_links:
 ---

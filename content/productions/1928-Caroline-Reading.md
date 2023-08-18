@@ -21,5 +21,4 @@ crew:
   - Tom Cashen
 understudies:
 orchestra:
-external_links:
 ---

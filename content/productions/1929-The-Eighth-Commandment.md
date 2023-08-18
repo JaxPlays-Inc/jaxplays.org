@@ -19,5 +19,4 @@ crew:
 - Stage Manager: Martin S. Fabian
 understudies:
 orchestra:
-external_links:
 ---

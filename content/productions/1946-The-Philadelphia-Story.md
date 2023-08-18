@@ -73,5 +73,4 @@ crew:
   - Sarah McRae
   - Virgina Smith
 orchestra:
-external_links:
 ---

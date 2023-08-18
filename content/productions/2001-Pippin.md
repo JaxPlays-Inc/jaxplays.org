@@ -61,5 +61,4 @@ crew:
   - Mary Swanson
   - Tony Allegretti
 orchestra:
-external_links:
 ---

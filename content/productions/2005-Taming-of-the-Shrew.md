@@ -60,5 +60,4 @@ crew:
 - Costume Crew: Sarah Kate Braddy
 - Photography: Sarah Boone
 orchestra:
-external_links:
 ---

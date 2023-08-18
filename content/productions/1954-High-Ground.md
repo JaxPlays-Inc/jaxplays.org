@@ -89,6 +89,5 @@ crew:
   - Pat Williams
 - Wardrobe Chairman: Ty Thebaut
 orchestra:
-external_links:
 ---
 

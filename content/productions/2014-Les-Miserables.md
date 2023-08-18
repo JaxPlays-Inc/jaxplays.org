@@ -59,6 +59,5 @@ crew:
 - Director: Michael Lipp
 - Musical Director: Kimberly Beasley
 - Choreography: Curtis J. Williams
-external_links:
 ---
 

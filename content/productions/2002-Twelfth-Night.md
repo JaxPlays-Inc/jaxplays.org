@@ -74,5 +74,4 @@ crew:
   - Andra Smith
   - Beka Vaughn
 orchestra:
-external_links:
 ---

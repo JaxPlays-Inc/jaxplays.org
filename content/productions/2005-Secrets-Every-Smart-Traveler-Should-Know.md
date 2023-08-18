@@ -42,5 +42,4 @@ crew:
 orchestra:
 - Piano: Ellen Milligan
 - Bass: Larry Nader
-external_links:
 ---

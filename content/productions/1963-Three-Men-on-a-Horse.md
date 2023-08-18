@@ -61,5 +61,4 @@ crew:
   - Dixon Turner
   - Riley Granger
 - Program Cover: Richard Lyons
-external_links:
 ---

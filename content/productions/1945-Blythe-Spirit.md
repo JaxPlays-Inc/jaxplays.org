@@ -68,5 +68,4 @@ crew:
   - Roberta Cameron
   - Zan Platte
 orchestra:
-external_links:
 ---

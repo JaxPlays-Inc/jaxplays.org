@@ -45,5 +45,4 @@ crew:
 - Hair, Wigs, and Make-up: Bruce Musser
 - Volunteer Coordinator: Lovelle MacLean
 orchestra:
-external_links:
 ---

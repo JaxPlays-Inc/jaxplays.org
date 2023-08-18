@@ -29,5 +29,4 @@ crew:
 - Props: Amy Cavanagh
 understudies:
 orchestra:
-external_links:
 ---

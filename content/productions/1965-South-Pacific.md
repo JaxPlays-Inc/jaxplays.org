@@ -90,5 +90,4 @@ crew:
   - Annette Grauer
   - Darby Nelson
 orchestra:
-external_links:
 ---

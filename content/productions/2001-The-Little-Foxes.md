@@ -45,5 +45,4 @@ crew:
   - Claudia Wright
   - Deon Young
 - Stage Carpenter: James Pitts
-external_links:
 ---

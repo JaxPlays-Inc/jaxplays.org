@@ -64,6 +64,5 @@ crew:
   - Ruth Cleveland
   - Wilhelmina Holland
 orchestra:
-external_links:
 ---
 

@@ -33,5 +33,4 @@ crew:
   - Ken Moody
 - Publicity: Diane Somerville
 - Box Office: Ann Dubow
-external_links:
 ---

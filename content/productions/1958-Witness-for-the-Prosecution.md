@@ -102,5 +102,4 @@ crew:
   - Malcolm Argo
   - Grace Trudeau
 orchestra:
-external_links:
 ---

@@ -58,6 +58,5 @@ crew:
   - Sabina Meyer
   - Gerri Turbow
 orchestra:
-external_links:
 ---
 

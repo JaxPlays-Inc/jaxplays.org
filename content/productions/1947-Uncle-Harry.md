@@ -72,5 +72,4 @@ crew:
 - Stage Manager: Nina Branch
 - Wardrobe: Edna Stegner
 orchestra:
-external_links:
 ---

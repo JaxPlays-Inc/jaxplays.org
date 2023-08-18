@@ -42,5 +42,4 @@ crew:
 - Sound Designer: Bradley Cooper
 - Board Operator: Desiree Bracewell
 orchestra:
-external_links:
 ---

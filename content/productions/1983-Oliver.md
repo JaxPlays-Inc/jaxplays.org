@@ -110,6 +110,5 @@ crew:
   - Ann Pridgen
   - Diana Varton
 orchestra:
-external_links:
 ---
 

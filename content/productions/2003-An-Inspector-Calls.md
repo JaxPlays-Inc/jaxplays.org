@@ -35,5 +35,4 @@ crew:
   - Jason Henley
   - Sara Henley
 orchestra:
-external_links:
 ---

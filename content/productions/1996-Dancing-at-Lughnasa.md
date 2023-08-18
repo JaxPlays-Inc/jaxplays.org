@@ -47,5 +47,4 @@ crew:
 - Kites:
   - John Wikstrom
   - Elizabeth Wickstrom
-external_links:
 ---

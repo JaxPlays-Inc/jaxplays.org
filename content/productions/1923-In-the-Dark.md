@@ -15,5 +15,4 @@ crew:
 - Scene Arrangement:
   - Mrs. Jas. D. Pasco
   - Mrs. Julian Gammon
-external_links:
 ---

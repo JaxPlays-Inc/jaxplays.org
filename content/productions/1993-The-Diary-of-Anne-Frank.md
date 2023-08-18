@@ -47,5 +47,4 @@ crew:
   - Mike Turner
   - Travis Hemmingway
 orchestra:
-external_links:
 ---

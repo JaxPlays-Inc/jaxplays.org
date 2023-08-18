@@ -90,5 +90,4 @@ crew:
 - Director of Parks and Recreation: Laura D'Alisera
 - Metropolitan Parks Manager: Earl Simms
 - Executive Director: Robert Arleigh White
-external_links:
 ---

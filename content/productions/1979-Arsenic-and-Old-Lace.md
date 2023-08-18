@@ -53,6 +53,5 @@ crew:
   - Pat Somers
   - Esther Tkac
 orchestra:
-external_links:
 ---
 

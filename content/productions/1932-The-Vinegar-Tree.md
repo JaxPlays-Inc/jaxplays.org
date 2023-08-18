@@ -19,5 +19,4 @@ crew:
 - Scenery: Ronald Kennard
 understudies:
 orchestra:
-external_links:
 ---

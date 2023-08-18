@@ -14,5 +14,4 @@ crew:
 - Staging: Anne C. Lalor
 understudies:
 orchestra:
-external_links:
 ---

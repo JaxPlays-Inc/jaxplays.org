@@ -18,5 +18,4 @@ crew:
 - Setting:
   - Anne C. Lalor
   - Mrs. E.R. Hoyt
-external_links:
 ---

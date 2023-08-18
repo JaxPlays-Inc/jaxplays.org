@@ -65,5 +65,4 @@ crew:
   - Vonnie Patton
 - Wardrobe Chairman: Janelle Gilmer
 orchestra:
-external_links:
 ---

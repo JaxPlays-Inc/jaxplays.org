@@ -69,5 +69,4 @@ crew:
 - Wardrobe Co-ordinator: Jewett Ashley
 - Wardrobe Mistress: Edythe Price
 orchestra:
-external_links:
 ---

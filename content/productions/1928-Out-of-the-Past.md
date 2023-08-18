@@ -13,5 +13,4 @@ cast:
 - Sarah W. Haskell: Julia Long
 - Mrs. Allen: Pasquelina deVoe
 crew:
-external_links:
 ---

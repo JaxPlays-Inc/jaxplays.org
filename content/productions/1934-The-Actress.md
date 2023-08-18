@@ -15,5 +15,4 @@ crew:
 - Assistant Director: E.S. Beauchamp-Nobbs
 understudies:
 orchestra:
-external_links:
 ---

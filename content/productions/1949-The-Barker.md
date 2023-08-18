@@ -74,5 +74,4 @@ orchestra:
 - String Bass: Beverly Hunt
 - Spanish Guitar: Bill Fields
 - Accordian: Jack Long
-external_links:
 ---

@@ -32,5 +32,4 @@ crew:
 - Light Board Operator: Gloria Pepe
 - Stage Manager: Gloria Pepe
 orchestra:
-external_links:
 ---

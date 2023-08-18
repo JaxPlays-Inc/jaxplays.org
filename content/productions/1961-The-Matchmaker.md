@@ -134,5 +134,4 @@ crew:
   - Tom Bruce
   - Bob Middleton
 - Program Cover: Bob Krell
-external_links:
 ---

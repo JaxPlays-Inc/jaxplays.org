@@ -49,5 +49,4 @@ crew:
   - Betty Dettamore
   - Robert Arleigh White
 orchestra:
-external_links:
 ---

@@ -7,5 +7,4 @@ Theatre: Players by the Sea
 cast:
 - Carlino: Michael Lipp
 crew:
-external_links:
 ---

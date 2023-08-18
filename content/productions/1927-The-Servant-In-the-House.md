@@ -26,5 +26,4 @@ crew:
 - Cushion Design and Construction: Monserrat Carles
 understudies:
 orchestra:
-external_links:
 ---

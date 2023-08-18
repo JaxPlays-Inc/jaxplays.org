@@ -90,5 +90,4 @@ orchestra:
 - Flute: Clint Weinberg
 - Piano: Laura Peden
 - Violin: Brian Griffin
-external_links:
 ---

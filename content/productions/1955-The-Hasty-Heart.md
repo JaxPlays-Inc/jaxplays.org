@@ -80,5 +80,4 @@ crew:
   - Madelon Geisenhof
 - Wardrobe Chairman: Virginia Gomel
 orchestra:
-external_links:
 ---

@@ -56,5 +56,4 @@ crew:
   - Cathy Logan
   - Pete House
   - Joanne House
-external_links:
 ---

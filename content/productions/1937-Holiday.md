@@ -31,5 +31,4 @@ crew:
   - Martin S. Fabian
 - Director: Huron L. Blyden
 orchestra:
-external_links:
 ---

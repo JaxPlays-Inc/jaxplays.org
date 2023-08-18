@@ -10,5 +10,4 @@ cast:
 - Narrator/Mysterious Man: Michael Lipp
 crew:
 - Director: Michael Lipp
-external_links:
 ---

@@ -22,5 +22,4 @@ crew:
 - Director: Mrs. Fred G. Pumpelly
 understudies:
 orchestra:
-external_links:
 ---

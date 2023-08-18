@@ -71,5 +71,4 @@ crew:
   - Helen List
 - Wardrobe Chairman: Eula Mae Snow
 orchestra:
-external_links:
 ---

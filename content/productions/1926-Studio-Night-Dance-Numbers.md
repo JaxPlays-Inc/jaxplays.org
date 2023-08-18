@@ -9,5 +9,4 @@ cast:
 - Performer: Elizabeth Trabue
 crew:
 orchestra:
-external_links:
 ---

@@ -11,5 +11,4 @@ cast:
 - The Woman: Winifred Snowden
 crew:
 - Producer: Winifred Snowden
-external_links:
 ---

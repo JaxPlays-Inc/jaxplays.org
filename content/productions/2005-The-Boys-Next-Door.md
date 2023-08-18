@@ -47,5 +47,4 @@ crew:
   - Peter van Vliet
 - Choreographer: Nikki Stokes
 orchestra:
-external_links:
 ---

@@ -103,5 +103,4 @@ crew:
 - Rehearsal Pianist: Bob Dauer
 - Monday Night Pianist: Andrew Clarke
 orchestra:
-external_links:
 ---

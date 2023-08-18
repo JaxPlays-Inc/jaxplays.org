@@ -29,5 +29,4 @@ crew:
 - Set Design: R.H.H. Blackwell
 - Props: Maxine Swisher
 orchestra:
-external_links:
 ---

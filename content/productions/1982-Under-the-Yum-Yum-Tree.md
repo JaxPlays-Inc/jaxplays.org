@@ -43,5 +43,4 @@ crew:
   - Pat Somers
 - Program Design: Robert I. Brooks
 orchestra:
-external_links:
 ---

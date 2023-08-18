@@ -70,5 +70,4 @@ crew:
   - Ann Dubow
   - Gert Berman
 orchestra:
-external_links:
 ---

@@ -70,6 +70,5 @@ crew:
 - Stage Manager: Thelma (T.J.) House
 - Wardrobe Mistress: Evelyn Bell
 orchestra:
-external_links:
 ---
 

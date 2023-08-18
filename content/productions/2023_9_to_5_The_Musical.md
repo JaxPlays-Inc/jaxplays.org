@@ -107,7 +107,6 @@ crew:
   - Karen Bowden
   - Elizabeth Dion
 orchestra:
-external_links:
 ---
 *9 to 5: The Musical* is a lively and engaging stage production that brings the humorous and empowering story of three working women to life. Set in the corporate world of the late 1970s, the musical follows the journey of Violet Newstead, Judy Bernly, and Doralee Rhodes as they navigate the challenges and frustrations of their male-dominated workplace.
 

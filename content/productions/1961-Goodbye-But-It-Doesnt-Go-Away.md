@@ -58,5 +58,4 @@ crew:
   - Del Popwell
   - Harry A. Schneider
 orchestra:
-external_links:
 ---

@@ -35,5 +35,4 @@ crew:
 - Marquee Sign: Patrick Brodus
 - Cast Notes: Sheila Hughes
 orchestra:
-external_links:
 ---

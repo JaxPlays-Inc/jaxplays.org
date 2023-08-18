@@ -38,5 +38,4 @@ crew:
 - Program Cover Art and Graphics Support: Melissa Russell
 - Volunteer Coordinator: Lovelle MacLean
 orchestra:
-external_links:
 ---

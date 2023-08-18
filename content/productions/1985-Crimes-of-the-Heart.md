@@ -33,6 +33,5 @@ crew:
   - Dawn Roske
   - Mike Lewis
 orchestra:
-external_links:
 ---
 

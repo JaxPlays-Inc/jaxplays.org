@@ -31,5 +31,4 @@ cast:
 - Cab Driver: Mitchell Wohl
 crew:
 orchestra:
-external_links:
 ---

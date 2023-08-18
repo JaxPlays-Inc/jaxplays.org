@@ -18,5 +18,4 @@ crew:
 - Director: Jeannette Grether Borum
 understudies:
 orchestra:
-external_links:
 ---

@@ -68,5 +68,4 @@ crew:
 - Set Crew: Mark Inman
 - Production Stage Manager: Kevin F. Roberts
 orchestra:
-external_links:
 ---

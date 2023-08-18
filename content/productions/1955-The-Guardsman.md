@@ -90,5 +90,4 @@ crew:
   - George Ramsey, Jr.
   - Frank Ridge
 orchestra:
-external_links:
 ---

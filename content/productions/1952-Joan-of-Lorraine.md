@@ -70,5 +70,4 @@ crew:
   - Margaret Fairweather
 - Wardrobe Chairman: Eula Mae Snow
 orchestra:
-external_links:
 ---

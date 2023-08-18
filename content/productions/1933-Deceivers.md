@@ -11,5 +11,4 @@ cast:
 crew:
 - Director: Gertrude F. Jacobi
 - Staging: Drummond Paul, Jr.
-external_links:
 ---

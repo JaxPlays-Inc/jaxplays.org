@@ -39,5 +39,4 @@ crew:
   - Carl Vorwerk
   - Kelly J. Wagoner
 orchestra:
-external_links:
 ---

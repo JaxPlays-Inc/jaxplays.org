@@ -65,5 +65,4 @@ crew:
 - Wardrobe Coordinator: Madelon Geisenhof
 - Wardrobe Mistress: Eula Mae Snow
 orchestra:
-external_links:
 ---

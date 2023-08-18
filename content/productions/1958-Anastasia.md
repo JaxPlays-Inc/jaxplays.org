@@ -88,6 +88,5 @@ crew:
   - Gary Safford
   - Michael Wysocki
 orchestra:
-external_links:
 ---
 

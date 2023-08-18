@@ -34,6 +34,5 @@ crew:
   - Eleonor Edwards
   - Flonnie Anders
 orchestra:
-external_links:
 ---
 

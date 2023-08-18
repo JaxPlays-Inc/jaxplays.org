@@ -18,5 +18,4 @@ crew:
 - Director: Birsa Shepard
 - Stage and Lights: Martha Race
 - Music: Mrs. Rowland Marshall
-external_links:
 ---

@@ -59,5 +59,4 @@ crew:
   - Van Norman
 - Master of Ceremonies: William Schosser
 - Program Advertising: William Schosser
-external_links:
 ---

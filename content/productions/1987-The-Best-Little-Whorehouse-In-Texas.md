@@ -76,6 +76,5 @@ crew:
   - Bruce Wylie
   - Stacy Yaple
 orchestra:
-external_links:
 ---
 

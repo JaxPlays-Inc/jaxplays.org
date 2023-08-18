@@ -94,5 +94,4 @@ crew:
   - Mary Kilpatrick
   - Mrs. David Boyer
 orchestra:
-external_links:
 ---

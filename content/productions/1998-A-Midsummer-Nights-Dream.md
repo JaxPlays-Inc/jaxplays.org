@@ -94,5 +94,4 @@ crew:
 - Volunteer Coordinator: Lovelle MacLean
 - Box Office Services: Cherri Stratton
 - Project Coordinator: Robert Arleigh White
-external_links:
 ---

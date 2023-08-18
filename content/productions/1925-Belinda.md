@@ -23,6 +23,5 @@ crew:
   - Kathryn Wever
   - Merrydelle Hoyt
 - Props: Mrs. Strawn Perry
-external_links:
 ---
 

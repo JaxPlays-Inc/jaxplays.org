@@ -27,6 +27,5 @@ cast:
 - Pablo: Marcos Miranda
 crew:
 - Director: Zach Rivera
-external_links:
 ---
 "Pablo, a high-powered lawyer, and doctoral candidate Tania, his very pregnant wife, are realizing the American dream when they purchase a house next door to community stalwarts Virginia and Frank. But a disagreement over a long-standing fence line soon spirals into an all-out war of taste, class, privilege, and entitlement. Fighting a different type of border war, the neighbors challenge the traditional ideas of compromise and neighborly behavior. The hilarious results guarantee no one comes out smelling like a rose." — [NATIVE GARDENS - The 5 & Dime](https://www.the5anddime.org/native-gardens)

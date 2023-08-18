@@ -58,5 +58,4 @@ crew:
   - Eric Gaynon
   - Paul Anello
 orchestra:
-external_links:
 ---

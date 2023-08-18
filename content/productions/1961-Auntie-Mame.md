@@ -132,5 +132,4 @@ crew:
   - Glen Logan
 - Auntie Mame's Dresser: Elaine Pfeffer
 orchestra:
-external_links:
 ---

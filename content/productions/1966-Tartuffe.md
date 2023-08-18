@@ -62,5 +62,4 @@ crew:
 - Music Suggestions: Rosalind MacEnulty
 understudies:
 orchestra:
-external_links:
 ---

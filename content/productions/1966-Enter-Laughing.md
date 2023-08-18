@@ -62,5 +62,4 @@ crew:
   - Charles Vance
   - Al Gimbel
 - Gallery: Bill Aust
-external_links:
 ---

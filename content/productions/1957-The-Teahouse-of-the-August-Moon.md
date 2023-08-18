@@ -118,5 +118,4 @@ crew:
   - Garfield McPherson
   - Bob Kornegay
 orchestra:
-external_links:
 ---

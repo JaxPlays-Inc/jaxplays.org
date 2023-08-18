@@ -41,5 +41,4 @@ crew:
 - Hospitality: Shyla Henderson
 - Program Cover Art: Hal D. Henderson
 orchestra:
-external_links:
 ---

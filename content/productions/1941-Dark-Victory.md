@@ -36,5 +36,4 @@ crew:
   - Pol Delgado
 - Props: Kay Godshalk
 orchestra:
-external_links:
 ---

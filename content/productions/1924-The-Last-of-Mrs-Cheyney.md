@@ -19,5 +19,4 @@ crew:
 - Stage Setting: Birsa Shepard
 - Stage Business: Judge Barton Barrs
 - Director: Mrs. Burton Barrs
-external_links:
 ---

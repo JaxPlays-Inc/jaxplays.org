@@ -82,5 +82,4 @@ orchestra:
 - Percussion: Phil Marino
 - Clarinet: Allina Southerland
 - Flute: Jennifer Stokes
-external_links:
 ---

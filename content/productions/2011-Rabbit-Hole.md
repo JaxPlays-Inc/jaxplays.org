@@ -7,5 +7,4 @@ Venue: Little Theatre
 cast:
 - Howie: Michael Lipp
 crew:
-external_links:
 ---

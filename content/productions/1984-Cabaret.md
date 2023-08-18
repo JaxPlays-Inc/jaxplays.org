@@ -92,5 +92,4 @@ crew:
   - Claudia Lewis
   - Valerie Howard
 orchestra:
-external_links:
 ---

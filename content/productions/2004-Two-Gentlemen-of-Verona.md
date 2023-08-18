@@ -74,5 +74,4 @@ crew:
   - Katy Bilderback
   - Sarah Kate Braddy
 - Photography: Sarah Boone
-external_links:
 ---

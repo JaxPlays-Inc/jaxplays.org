@@ -93,6 +93,5 @@ crew:
   - Mollie Duke
 - Wardrobe Coordinator: Louise Peairs
 orchestra:
-external_links:
 ---
 

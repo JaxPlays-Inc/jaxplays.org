@@ -29,5 +29,4 @@ crew:
   - Margaret Pumpelly
   - Mary Courtney
 orchestra:
-external_links:
 ---

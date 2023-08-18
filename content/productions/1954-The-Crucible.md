@@ -83,5 +83,4 @@ crew:
 - Setting and Technical Direction: George A. Ramsey, Jr.
 - Stage Manager: Hobson Blackmon
 orchestra:
-external_links:
 ---

@@ -40,5 +40,4 @@ crew:
   - Brett Tarleton
   - Bruce Wylie
 orchestra:
-external_links:
 ---

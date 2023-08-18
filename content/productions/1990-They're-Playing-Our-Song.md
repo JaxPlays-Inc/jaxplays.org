@@ -50,5 +50,4 @@ crew:
 - Costumes: Trish Calhoun
 - Sound Design: Robert Arleigh White
 orchestra:
-external_links:
 ---

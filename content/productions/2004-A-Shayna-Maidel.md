@@ -51,5 +51,4 @@ crew:
 - Dance Consultant: Robin Morris
 - Hair and Make-up Design: Tracy Olin
 orchestra:
-external_links:
 ---

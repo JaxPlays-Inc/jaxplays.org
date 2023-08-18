@@ -20,5 +20,4 @@ orchestra:
 - Cello: Marguerite Johnson
 - Violin: Vivian Edwards Meyers
 - Saxophone: Mrs. G.P. Boutwell
-external_links:
 ---

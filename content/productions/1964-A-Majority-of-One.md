@@ -73,5 +73,4 @@ crew:
   - Abbey Fink
 - Sound: David Howard
 - Program Cover: Richard Lyons
-external_links:
 ---

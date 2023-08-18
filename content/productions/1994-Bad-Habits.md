@@ -8,5 +8,4 @@ cast:
 - Harry: Michael Lipp
 - Blum: Michael Lipp
 crew:
-external_links:
 ---

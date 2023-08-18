@@ -56,5 +56,4 @@ crew:
   - Peggy Miller
   - Gladys Dale
   - Chuck Wells
-external_links:
 ---

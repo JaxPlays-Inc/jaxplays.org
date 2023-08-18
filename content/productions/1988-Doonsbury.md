@@ -63,6 +63,5 @@ crew:
   - Jeanne Schapper
 - Volunteer Coordinator: Calvin LaSear
 orchestra:
-external_links:
 ---
 

@@ -42,5 +42,4 @@ crew:
 - Program Cover Art and Graphics Support: Alan Abraham
 - Volunteer Coordinator: Lovelle MacLean
 orchestra:
-external_links:
 ---

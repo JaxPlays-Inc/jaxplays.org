@@ -54,5 +54,4 @@ crew:
   - Dorothy Duggan
   - Louise Tennant
 orchestra:
-external_links:
 ---

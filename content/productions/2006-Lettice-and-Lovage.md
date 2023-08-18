@@ -50,5 +50,4 @@ crew:
   - Matthew Calise
   - Greg Odenwald
 orchestra:
-external_links:
 ---

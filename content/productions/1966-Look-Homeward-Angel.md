@@ -72,5 +72,4 @@ crew:
   - Norman Howard
   - Dave Thomas
   - Alice Dill
-external_links:
 ---

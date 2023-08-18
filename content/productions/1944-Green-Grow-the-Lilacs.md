@@ -65,6 +65,5 @@ orchestra:
 - Musical Direction: Edwin Kittell
 - Accordionist: Jack Long
 - Fiddler: E.F. Schnoebelen
-external_links:
 ---
 

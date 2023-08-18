@@ -48,6 +48,5 @@ crew:
 - Stage Manager: Jesse Hoagland
 - Technical Director: Alex Pillsbury
 orchestra:
-external_links:
 ---
 

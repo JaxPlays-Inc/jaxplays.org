@@ -116,5 +116,4 @@ crew:
   - Mary Lloyd
 - Wardrobe Chairman: Sue Henderson
 orchestra:
-external_links:
 ---

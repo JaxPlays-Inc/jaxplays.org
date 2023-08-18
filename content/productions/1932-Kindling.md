@@ -19,5 +19,4 @@ cast:
 - Alice: Sara Clark
 - Rafferty: Sidney Clark
 - Heinrich Schultz: Stokes Perry
-external_links:
 ---

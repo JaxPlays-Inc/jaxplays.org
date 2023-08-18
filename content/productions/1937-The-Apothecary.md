@@ -19,5 +19,4 @@ crew:
 - Publicity: Helen Gray
 - Director: Douglas Haygood
 orchestra:
-external_links:
 ---

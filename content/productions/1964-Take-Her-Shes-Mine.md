@@ -61,5 +61,4 @@ crew:
   - Ed Clarmont
   - Connie Ambler
   - Tim McManus
-external_links:
 ---

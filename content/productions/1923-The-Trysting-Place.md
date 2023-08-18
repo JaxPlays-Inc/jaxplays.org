@@ -19,5 +19,4 @@ crew:
   - Mrs. F.L. Mullikin
 understudies:
 orchestra:
-external_links:
 ---

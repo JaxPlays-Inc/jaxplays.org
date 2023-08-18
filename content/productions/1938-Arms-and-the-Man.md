@@ -27,6 +27,5 @@ crew:
   - Paul Haile
   - Sally Dwight
 orchestra:
-external_links:
 ---
 

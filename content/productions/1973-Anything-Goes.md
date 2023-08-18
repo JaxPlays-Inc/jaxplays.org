@@ -89,5 +89,4 @@ crew:
   - Ann Dubow
 - Cast Notes: Sabina Meyer
 orchestra:
-external_links:
 ---

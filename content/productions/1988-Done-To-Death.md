@@ -50,6 +50,5 @@ crew:
   - David Stillson
   - Mark Thomas
 orchestra:
-external_links:
 ---
 

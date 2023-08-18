@@ -57,5 +57,4 @@ crew:
   - Su Hawkins
 - Curtain: L.J. Gift
 orchestra:
-external_links:
 ---

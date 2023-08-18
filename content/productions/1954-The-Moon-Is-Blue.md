@@ -80,5 +80,4 @@ crew:
 - Wardrobe Chairman: Marion Foster
 - Wardrobe Co-ordinator: Becky Rogers
 orchestra:
-external_links:
 ---

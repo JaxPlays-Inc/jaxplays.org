@@ -129,5 +129,4 @@ crew:
   - Annette Grauer
 - Cast Notes: Doug Thomas
 - House Manager: Doug Thomas
-external_links:
 ---

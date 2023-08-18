@@ -30,5 +30,4 @@ crew:
   - Mirvin Ramsdell
 understudies:
 orchestra:
-external_links:
 ---

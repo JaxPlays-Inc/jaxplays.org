@@ -75,5 +75,4 @@ crew:
 - Drop Construction and Styling: Jeanine Stites
 - Hair and Make-up Design: Tracy Olin
 orchestra:
-external_links:
 ---

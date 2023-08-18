@@ -71,6 +71,5 @@ crew:
   - Mattie Godwin
 - Wardrobe Chairman: Elva Stein
 orchestra:
-external_links:
 ---
 

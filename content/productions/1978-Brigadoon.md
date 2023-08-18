@@ -74,5 +74,4 @@ crew:
   - Nancy Kaye
 - Publicity: Diane Somerville
 - Box Office: Barbara Stillson
-external_links:
 ---

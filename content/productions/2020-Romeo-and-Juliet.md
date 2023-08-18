@@ -52,6 +52,5 @@ crew:
 - Director: Amy Canning Love
 - Assistant Director: Ashley Jones
 - Violence and Intimacy Designer: Kate Busselle
-external_links:
 ---
 The timeless Shakespearean classic is presented by an all-female cast.

@@ -32,5 +32,4 @@ crew:
   - Charlotte Bowden Perry
 understudies:
 orchestra:
-external_links:
 ---

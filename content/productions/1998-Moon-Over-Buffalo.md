@@ -38,5 +38,4 @@ crew:
   - Alan Abraham
   - Kim Counts
 orchestra:
-external_links:
 ---

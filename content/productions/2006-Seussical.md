@@ -104,5 +104,4 @@ orchestra:
   - Sean Tarleton
 - Drums: Tony Steve
 - Percussion: Jonah Pierre
-external_links:
 ---

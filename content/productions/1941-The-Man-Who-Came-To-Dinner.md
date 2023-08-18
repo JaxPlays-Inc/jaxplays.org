@@ -76,5 +76,4 @@ crew:
   - Stokes Perry
 - Stage Manager: Jessie Hoagland
 orchestra:
-external_links:
 ---

@@ -16,5 +16,4 @@ cast:
 - Melissa: Martha Brotherton
 crew:
 orchestra:
-external_links:
 ---

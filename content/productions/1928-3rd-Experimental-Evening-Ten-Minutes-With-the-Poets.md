@@ -7,5 +7,4 @@ playbill:
 Theatre: Theatre Jacksonville
 crew:
 - Performer: Paul Stuart Buchanan
-external_links:
 ---

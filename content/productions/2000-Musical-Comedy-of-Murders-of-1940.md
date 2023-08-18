@@ -54,5 +54,4 @@ crew:
 - Lighting Technician: Gloria Pepe
 - Hair and Make-up Design: Bruce Barrett Musser
 orchestra:
-external_links:
 ---

@@ -87,5 +87,4 @@ crew:
   - R.H. Nelson
 understudies:
 orchestra:
-external_links:
 ---

@@ -36,6 +36,5 @@ crew:
 - Lighting: Earl DeFlorin
 - Director: Justine Case
 orchestra:
-external_links:
 ---
 

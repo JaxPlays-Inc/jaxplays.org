@@ -23,6 +23,5 @@ crew:
   - Charlotte Bowden Perry
   - Grace Hilditch Holt
 orchestra:
-external_links:
 ---
 

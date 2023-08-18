@@ -46,6 +46,5 @@ crew:
   - Pat Powell
   - Pat Somers
 orchestra:
-external_links:
 ---
 

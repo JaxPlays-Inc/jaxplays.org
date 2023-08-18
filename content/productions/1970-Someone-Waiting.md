@@ -45,5 +45,4 @@ crew:
   - Diane Somerville
 - Box Office: Ann Dubow
 orchestra:
-external_links:
 ---

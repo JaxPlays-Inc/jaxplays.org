@@ -25,5 +25,4 @@ crew:
 understudies:
 orchestra:
 - Flute Player: Milner Brittain
-external_links:
 ---

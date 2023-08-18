@@ -14,5 +14,4 @@ crew:
 - Staging: Drummond Paul, Jr.
 understudies:
 orchestra:
-external_links:
 ---

@@ -84,5 +84,4 @@ crew:
   - Polly Clendening
   - Jean Rabin
 orchestra:
-external_links:
 ---

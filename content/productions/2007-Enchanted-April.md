@@ -54,5 +54,4 @@ crew:
   - Abigail Saenz
   - Mark Stater
 orchestra:
-external_links:
 ---

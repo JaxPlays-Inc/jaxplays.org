@@ -63,6 +63,5 @@ crew:
   - Elmo Lehman
   - Irma Stockwell
   - Jesse Hoagland
-external_links:
 ---
 

@@ -84,5 +84,4 @@ crew:
   - Pat Somers
   - Esta Tkac
 orchestra:
-external_links:
 ---

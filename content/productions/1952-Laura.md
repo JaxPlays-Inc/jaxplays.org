@@ -51,6 +51,5 @@ crew:
 - Stage Manager: Larry Zell
 - Wardrobe Chairman: Ophelia Bingham
 orchestra:
-external_links:
 ---
 

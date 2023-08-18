@@ -69,5 +69,4 @@ crew:
   - Sue Marie Black
   - Jack Broughton
   - Ernie Evans
-external_links:
 ---

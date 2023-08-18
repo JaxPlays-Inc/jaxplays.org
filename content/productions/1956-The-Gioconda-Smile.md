@@ -69,5 +69,4 @@ crew:
   - Liz Whiteman
 - Wardrobe Chairman: Leone Thurston
 orchestra:
-external_links:
 ---

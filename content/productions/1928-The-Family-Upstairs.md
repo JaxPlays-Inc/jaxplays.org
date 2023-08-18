@@ -25,5 +25,4 @@ crew:
   - Mrs. Thomas L. Snowden
 understudies:
 orchestra:
-external_links:
 ---

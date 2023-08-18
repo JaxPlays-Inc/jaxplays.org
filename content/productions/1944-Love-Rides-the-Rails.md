@@ -66,5 +66,4 @@ crew:
 - Box Office: Elizabeth Hulett
 orchestra:
 - Piano: William Pearce
-external_links:
 ---

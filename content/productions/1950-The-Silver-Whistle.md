@@ -65,5 +65,4 @@ crew:
   - Su Hawkins
 - Wardrobe Coordinator: Jewett Ashley
 orchestra:
-external_links:
 ---

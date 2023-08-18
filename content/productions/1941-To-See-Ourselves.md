@@ -34,5 +34,4 @@ crew:
   - Stanley Morrell
 understudies:
 orchestra:
-external_links:
 ---

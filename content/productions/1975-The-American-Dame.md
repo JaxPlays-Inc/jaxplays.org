@@ -36,6 +36,5 @@ crew:
   - David Stillson
   - Dwight Stillson
 orchestra:
-external_links:
 ---
 

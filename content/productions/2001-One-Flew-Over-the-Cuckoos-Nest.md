@@ -53,5 +53,4 @@ crew:
   - Claudia Wright
   - Deon Young
 - House Technician: Deon Young
-external_links:
 ---

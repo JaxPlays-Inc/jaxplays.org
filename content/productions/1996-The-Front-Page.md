@@ -53,5 +53,4 @@ crew:
 - Volunteer Coordinator: Lovelle MacLean
 - Poster and Program Art:
 orchestra:
-external_links:
 ---

@@ -55,5 +55,4 @@ crew:
 - Curtain: Fred Lovejoy
 understudies:
 orchestra:
-external_links:
 ---

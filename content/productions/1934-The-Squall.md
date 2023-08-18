@@ -22,5 +22,4 @@ crew:
 - Director: Winston Fowler
 understudies:
 orchestra:
-external_links:
 ---

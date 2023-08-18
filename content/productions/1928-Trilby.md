@@ -36,5 +36,4 @@ crew:
   - Irene Von Osthoff
 orchestra:
 understudies:
-external_links:
 ---

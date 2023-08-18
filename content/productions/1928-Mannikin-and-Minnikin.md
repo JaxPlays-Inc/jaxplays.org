@@ -16,5 +16,4 @@ crew:
   - Margaret Fairlie
   - Mrs. C.J. Williams, Jr.
   - Ray Halle
-external_links:
 ---

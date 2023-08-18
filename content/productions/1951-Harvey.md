@@ -60,5 +60,4 @@ crew:
   - Edythe Price
 - Wardrobe Chairman: Eula Mae Snow
 orchestra:
-external_links:
 ---

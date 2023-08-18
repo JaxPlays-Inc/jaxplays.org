@@ -36,6 +36,5 @@ crew:
 - Backstage Crew: Teresa Lexmuller
 - Hair and Make-up Design: Tracy Olin
 orchestra:
-external_links:
 ---
 

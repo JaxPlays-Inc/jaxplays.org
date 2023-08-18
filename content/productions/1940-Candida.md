@@ -23,5 +23,4 @@ crew:
 - Stage Manager: Walter Edwards
 orchestra:
 understudies:
-external_links:
 ---

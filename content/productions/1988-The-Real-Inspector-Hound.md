@@ -6,5 +6,4 @@ Theatre: Jacksonville Actors Theatre
 cast:
 - Inspector Hound: Michael Lipp
 crew:
-external_links:
 ---

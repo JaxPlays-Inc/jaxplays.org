@@ -77,5 +77,4 @@ crew:
   - Esta Rosenson
   - Pat Somers
 orchestra:
-external_links:
 ---

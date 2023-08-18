@@ -81,5 +81,4 @@ crew:
   - Leah Swisher
   - Phyllis Bruen
 orchestra:
-external_links:
 ---

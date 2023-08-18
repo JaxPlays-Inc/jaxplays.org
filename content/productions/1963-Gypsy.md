@@ -147,5 +147,4 @@ crew:
   - Phil Meunier
 understudies:
 orchestra:
-external_links:
 ---

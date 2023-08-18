@@ -44,5 +44,4 @@ crew:
 - Director: Margaret Pumpelly
 understudies:
 orchestra:
-external_links:
 ---

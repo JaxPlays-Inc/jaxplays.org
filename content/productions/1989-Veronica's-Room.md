@@ -36,5 +36,4 @@ crew:
 - Stunt Coordinator: Casey Stetson
 - Art Exhibit: Ken Munro
 orchestra:
-external_links:
 ---

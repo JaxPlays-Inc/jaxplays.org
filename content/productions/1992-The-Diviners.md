@@ -60,5 +60,4 @@ crew:
   - Robert Hall
 - Stage Manager: F. Lee Byrne
 orchestra:
-external_links:
 ---

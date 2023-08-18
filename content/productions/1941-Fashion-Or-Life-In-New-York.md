@@ -55,5 +55,4 @@ crew:
   - Mr. Crowley
   - Mrs. Killbride
 orchestra:
-external_links:
 ---

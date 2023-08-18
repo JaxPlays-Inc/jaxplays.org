@@ -67,5 +67,4 @@ crew:
   - David Stillson
 - Poster Design: Tom Schiffanella
 orchestra:
-external_links:
 ---

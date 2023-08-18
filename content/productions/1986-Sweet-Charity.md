@@ -66,6 +66,5 @@ crew:
   - Patrick M. James
   - Galen Toole
 orchestra:
-external_links:
 ---
 

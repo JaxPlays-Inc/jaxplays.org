@@ -50,6 +50,5 @@ crew:
   - Bob Walker
   - Bruce Wylie
 orchestra:
-external_links:
 ---
 

@@ -34,5 +34,4 @@ crew:
   - Gladys Dale
   - Beverly Fink
   - Dale Shuck
-external_links:
 ---

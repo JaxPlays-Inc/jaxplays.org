@@ -52,5 +52,4 @@ crew:
   - Su Hawkins
 understudies:
 orchestra:
-external_links:
 ---

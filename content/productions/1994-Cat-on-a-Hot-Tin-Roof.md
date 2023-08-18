@@ -42,5 +42,4 @@ crew:
 - Hair and Make-up: Bruce Musser
 - Stage Manager: Gloria Pepe
 orchestra:
-external_links:
 ---

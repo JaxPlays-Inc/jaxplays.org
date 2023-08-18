@@ -80,5 +80,4 @@ crew:
   - Gerda Bower
   - Lois Davidson
 orchestra:
-external_links:
 ---

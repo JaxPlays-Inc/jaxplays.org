@@ -48,6 +48,5 @@ crew:
   - Anne I. Wilson
   - Mary Louise Fagg
 orchestra:
-external_links:
 ---
 

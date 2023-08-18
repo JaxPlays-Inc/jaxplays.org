@@ -9,5 +9,4 @@ cast:
 - Performer: Don Ferrandou
 crew:
 orchestra:
-external_links:
 ---

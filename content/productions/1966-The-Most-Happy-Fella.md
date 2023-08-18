@@ -145,5 +145,4 @@ orchestra:
   - Claude Graham
   - Harry Brewer
   - Roger Lynn
-external_links:
 ---

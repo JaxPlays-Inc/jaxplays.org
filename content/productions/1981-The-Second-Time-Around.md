@@ -40,5 +40,4 @@ crew:
   - Pat Somers
 - Membership: Jack Masters
 orchestra:
-external_links:
 ---

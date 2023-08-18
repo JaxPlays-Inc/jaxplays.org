@@ -77,5 +77,4 @@ crew:
   - Elva Mae Rozman
   - Norman Howard
 orchestra:
-external_links:
 ---

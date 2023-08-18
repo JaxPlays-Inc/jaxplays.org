@@ -27,5 +27,4 @@ crew:
 - Director: F.W. Armbuster
 - Staging: Anne C. Lalor
 - Costumes: Will Louis
-external_links:
 ---

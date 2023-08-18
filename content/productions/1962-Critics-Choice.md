@@ -55,5 +55,4 @@ crew:
   - Pete House
   - Joanne House
   - D.E. Wimer
-external_links:
 ---

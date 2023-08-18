@@ -78,6 +78,5 @@ crew:
 - Assistant Costume Designer: Kol Dreibrodt
 - Properties: Taylor Anderson
 - Scenic Charge Artist: Nancy Grasso
-external_links:
 ---
 "In 1913, Leo Frank, a Brooklyn-raised Jew living in Georgia, is put on trial for the murder of thirteen-year-old Mary Phagan, a factory worker under his employ. Already guilty in the eyes of everyone around him, a sensationalist publisher and a janitor’s false testimony seal Leo’s fate. His only defenders are a governor with a conscience and, eventually, his assimilated Southern wife who finds the strength and love to become his greatest champion." — [Season 30 - Limelight Theatre](https://limelight-theatre.org/season30/)

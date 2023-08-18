@@ -84,6 +84,5 @@ crew:
   - Fred Raggett, Jr.
   - Shirley Ewing
 orchestra:
-external_links:
 ---
 

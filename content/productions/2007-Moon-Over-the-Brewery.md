@@ -40,5 +40,4 @@ crew:
   - Gloria Pepe
   - Mark Stater
   - Juan Unzueta
-external_links:
 ---

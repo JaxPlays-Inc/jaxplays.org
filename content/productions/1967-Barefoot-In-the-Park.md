@@ -43,5 +43,4 @@ crew:
   - Charles Vance
 - About the Cast notes: Jean Goodman
 - Photograph of Mr. Ballis: Judith Gefter
-external_links:
 ---

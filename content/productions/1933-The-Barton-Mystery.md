@@ -20,5 +20,4 @@ crew:
 - Director: Charles F. Hopkins, Jr.
 understudies:
 orchestra:
-external_links:
 ---

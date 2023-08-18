@@ -27,5 +27,4 @@ crew:
   - Mrs. Burton Barrs
 understudies:
 orchestra:
-external_links:
 ---

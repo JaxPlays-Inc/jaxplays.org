@@ -45,5 +45,4 @@ crew:
 - Box Office Services: Cherri Stratton
 - Educational Resources: Noble Lee Lester
 orchestra:
-external_links:
 ---

@@ -68,5 +68,4 @@ crew:
 - Stage Manager: Frank Ridge
 - Book-Holder: Louise Freeman
 orchestra:
-external_links:
 ---

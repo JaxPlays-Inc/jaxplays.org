@@ -97,5 +97,4 @@ crew:
 - Cast Notes: George Spelvin
 understudies:
 orchestra:
-external_links:
 ---

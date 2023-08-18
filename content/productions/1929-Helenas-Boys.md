@@ -22,5 +22,4 @@ crew:
 - Props:
   - Mrs. Vernon L. Brown
   - Theresa Mead
-external_links:
 ---
