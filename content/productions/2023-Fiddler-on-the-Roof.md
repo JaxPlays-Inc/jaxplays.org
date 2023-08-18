@@ -4,8 +4,8 @@ date: 2023-08-03
 closing_date: 2023-09-17
 layout: productions
 featured_image: 2023_Fiddler_on_the_Roof.webp
-image_caption: Graphic of Fiddler on the Roof at the Alhambra
-image_credit: Alhambra Theatre & Dining
+featured_image_caption: Graphic of Fiddler on the Roof at the Alhambra
+featured_image_attr: Alhambra Theatre & Dining
 playbill:
 Genres:
 - Musical

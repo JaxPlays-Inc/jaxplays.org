@@ -6,9 +6,9 @@ redirect_from:
 date: 2022-07-22
 closing_date: 2022-07-31
 featured_image: 2022_Snoopy_the_Musical.jpg
-image_credit: ABET
-image_alt:
-image_caption: Poster of 2022 production of Snoopy! The Musical
+featured_image_attr: ABET
+featured_image_alt:
+featured_image_caption: Poster of 2022 production of Snoopy! The Musical
 category: musical
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:

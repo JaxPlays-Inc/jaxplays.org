@@ -4,8 +4,8 @@ date: 2022-09-16
 closing_date: 2022-10-02
 layout: productions
 featured_image: 2022_Private_Lives.jpeg
-image_caption: Poster of Private Lives
-image_credit: Theatre Jacksonville
+featured_image_caption: Poster of Private Lives
+featured_image_attr: Theatre Jacksonville
 playbill: 2022_Private_Lives.pdf
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

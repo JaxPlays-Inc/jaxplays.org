@@ -5,8 +5,6 @@ layout: productions
 title: Who's Holiday
 date: 2020-12-04
 closing_date: 2020-12-13
-image_alt:
-image_caption:
 Theatre: The 5 & Dime
 Genres: 
 - Play

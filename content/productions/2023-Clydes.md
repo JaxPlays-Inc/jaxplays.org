@@ -4,8 +4,8 @@ date: 2023-06-09
 closing_date: 2023-06-17
 layout: productions
 featured_image: 2023_Clydes.png
-image_caption:
-image_credit:
+featured_image_caption:
+featured_image_attr:
 playbill:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet

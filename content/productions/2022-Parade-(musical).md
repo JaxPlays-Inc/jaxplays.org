@@ -6,9 +6,9 @@ redirect_from:
 date: 2022-08-04
 closing_date: 2022-09-04
 featured_image: 2022_Parade.jpeg
-image_credit: Limelight Theatre
-image_alt:
-image_caption: Poster of 2022 production of Parade
+featured_image_attr: Limelight Theatre
+featured_image_alt:
+featured_image_caption: Poster of 2022 production of Parade
 category: musical
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage

@@ -4,8 +4,8 @@ date: 2023-04-07
 closing_date: 2023-04-30
 layout: productions
 featured_image: 2023_Over_the_River_and_Through_the_Woods.jpg
-image_caption: Poster of 2023 production of Over the River and Through the Woods
-image_credit: Limelight Theatre
+featured_image_caption: Poster of 2023 production of Over the River and Through the Woods
+featured_image_attr: Limelight Theatre
 playbill:
 genres:
 - Play

@@ -7,9 +7,9 @@ redirect_from:
 date: 2022-06-10
 closing_date: 2022-06-26
 featured_image: 2022_Ragtime.webp
-image_credit: Theatre Jacksonville
-image_alt:
-image_caption: Graphic for Ragtime
+featured_image_attr: Theatre Jacksonville
+featured_image_alt:
+featured_image_caption: Graphic for Ragtime
 category: musical
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

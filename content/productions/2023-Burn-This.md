@@ -4,8 +4,8 @@ date: 2023-06-16
 closing_date: 2023-06-25
 layout: productions
 featured_image: 2023_Burn_This.jpeg
-image_caption: Josh Andrews, graphic design Jon Scherf
-image_credit:
+featured_image_caption: Josh Andrews, graphic design Jon Scherf
+featured_image_attr:
 playbill:
 Genres:
 - Play

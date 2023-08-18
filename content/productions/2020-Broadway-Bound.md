@@ -6,9 +6,9 @@ redirect_from:
 date: 2020-01-24
 closing_date: 2020-01-26
 featured_image: 2020_Broadway_Bound.png
-image_credit:
-image_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
-image_caption:
+featured_image_attr:
+featured_image_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
+featured_image_caption:
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/broadway-bound
 showtimes:

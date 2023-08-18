@@ -4,9 +4,9 @@ title: One Man, Two Guvnors
 date: 2022-08-12
 closing_date: 2022-08-27
 featured_image: 2022_One_Man_Two_Guvnors.webp
-image_credit: Amelia Community Theatre
-image_alt:
-image_caption: Poster of 2022 production of One Man, Two Guvnors
+featured_image_attr: Amelia Community Theatre
+featured_image_alt:
+featured_image_caption: Poster of 2022 production of One Man, Two Guvnors
 Genres: 
 - Play
 - Comedy

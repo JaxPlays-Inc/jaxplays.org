@@ -4,8 +4,8 @@ date: 2023-05-12
 closing_date: 2023-06-04
 layout: productions
 featured_image: 2023_Little_Miss_Sunshine.jpeg
-image_caption: 2023 Little Miss Sunshine Poster
-image_credit: Limelight Theatre
+featured_image_caption: 2023 Little Miss Sunshine Poster
+featured_image_attr: Limelight Theatre
 playbill:
 genres:
 - Musical

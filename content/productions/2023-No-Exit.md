@@ -4,8 +4,8 @@ date: 2023-07-28
 closing_date: 2023-08-12
 layout: productions
 featured_image: 2023_No_Exit.gif
-image_caption: Poster for 'No Exit'
-image_credit: "Brunet-Garc\xEDa Advertising"
+featured_image_caption: Poster for 'No Exit'
+featured_image_attr: "Brunet-Garc\xEDa Advertising"
 playbill:
 genres:
 - Play

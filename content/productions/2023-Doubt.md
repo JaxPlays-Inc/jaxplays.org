@@ -4,8 +4,8 @@ date: 2023-03-10
 closing_date: 2023-03-26
 layout: productions
 featured_image: 2023_Doubt.jpeg
-image_caption: Poster of Doubt
-image_credit: Theatre Jacksonville/Green Onion Creative LLC
+featured_image_caption: Poster of Doubt
+featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Doubt.pdf
 Theatre: Theatre Jacksonville
 Venue: Little Theatre

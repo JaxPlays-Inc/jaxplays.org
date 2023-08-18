@@ -4,9 +4,9 @@ title: Radium Girls
 date: 2022-06-10
 closing_date: 2022-06-25
 featured_image: 2022_Radium_Girls.webp
-image_credit: Amelia Community Theatre
-image_alt:
-image_caption: Poster of 2022 production of Radium Girls
+featured_image_attr: Amelia Community Theatre
+featured_image_alt:
+featured_image_caption: Poster of 2022 production of Radium Girls
 Genres: 
 - Play
 - Drama

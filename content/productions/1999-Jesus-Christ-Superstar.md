@@ -4,8 +4,8 @@ redirect_from: /1999_Jesus_Christ_Superstar
 date: 1999
 layout: productions
 featured_image: 1999_Jesus_Christ_Superstar.jpg
-image_caption: Photo of the playbill
-image_credit: Kimberly Whitfield
+featured_image_caption: Photo of the playbill
+featured_image_attr: Kimberly Whitfield
 playbill: 1999_Jesus_Christ_Superstar.pdf
 Theatre: Omega Theatre Productions
 Venue: Florida Theatre

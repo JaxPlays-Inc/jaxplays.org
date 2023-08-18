@@ -4,8 +4,8 @@ date: 2023-02-24
 closing_date: 2023-03-19
 layout: productions
 featured_image: 2023_The_Diviners.jpeg
-image_caption: Poster for 2023 production of The Diviners
-image_credit: Limelight Theatre
+featured_image_caption: Poster for 2023 production of The Diviners
+featured_image_attr: Limelight Theatre
 playbill:
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
