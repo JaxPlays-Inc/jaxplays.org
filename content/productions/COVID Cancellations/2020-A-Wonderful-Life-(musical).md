@@ -56,6 +56,4 @@ showtimes:
 - 2020-12-23 18:00:00
 - 2020-12-24 11:00:00
 - 2020-12-24 18:00:00
-external_links:
-  A Wonderful Life: https://www.alhambrajax.com/show/a-wonderful-life/
 ---

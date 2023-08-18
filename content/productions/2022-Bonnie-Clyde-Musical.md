@@ -51,8 +51,7 @@ crew:
 - Music Director: Erin Barnes
 - Stage Manager: Kim Mecca
 - Production Manager: Lee Hamby
-external_links:
-  Bonnie & Clyde the musical - Eventbrite: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
-  ABET shoots straight for the heart with 'Bonnie and Clyde the Musical': /wiki/media/news/2022_Bonnie_Clyde_Musical_Beaches_Leader.jpeg
+Reviews:
+- ABET shoots straight for the heart with 'Bonnie and Clyde the Musical' | The Beaches Leader: /media/news/2022_Bonnie_Clyde_Musical_Beaches_Leader.jpeg
 ---
 "America's most notorious lovers and bank robbers take the country by storm in this sexy and compelling adventure. At the height of the Great Depression, Bonnie Parker and Clyde Barrow went from two small-town nobodies in West Texas to America's most renowned folk heroes and Texas law enforcement's worst nightmares. Fearless, shameless and alluring, Bonnie & Clyde, is the electrifying story of love, adventure and crime that captured the attention of an entire country." — [Bonnie & Clyde the musical - Eventbrite](https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297)

@@ -39,6 +39,6 @@ cast:
 crew:
 - Director: Laura Rippel
 orchestra:
-external_links:
-  '''As You Like It'' On Stage At Theatre Jax': https://news.wjct.org/arts-culture/2013-08-31/as-you-like-it-on-stage-at-theatre-jax
+Press:
+- "'As You Like It' On Stage At Theatre Jax": https://news.wjct.org/arts-culture/2013-08-31/as-you-like-it-on-stage-at-theatre-jax
 ---

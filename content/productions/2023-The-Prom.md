@@ -64,8 +64,8 @@ understudies:
 - Mrs. Greene: Lisa Fleming
 crew:
 orchestra:
-external_links:
-  '"The Prom" musical begins next week': https://www.news4jax.com/video/morning-show/2023/06/03/the-prom-musical-begins-next-week/
+Press:
+- "'The Prom' musical begins next week": https://www.news4jax.com/video/morning-show/2023/06/03/the-prom-musical-begins-next-week/
 ---
 "The Prom" tells the story of a high school student in Indiana who wants to take her girlfriend to the prom. When the school board cancels the prom rather than allow two girls to attend together, a group of fading Broadway actors hears about the situation and sees an opportunity to drum up some positive press for themselves. They descend upon the small town, with often hilarious and heartwarming results.
 

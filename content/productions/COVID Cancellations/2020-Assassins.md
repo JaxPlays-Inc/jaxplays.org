@@ -28,6 +28,4 @@ showtimes:
 cast:
 crew:
 - Director: Lee Hamby
-external_links:
-  Assassins | The 5 & Dime: https://www.the5anddime.org/assassins
 ---

@@ -42,7 +42,5 @@ cast:
 - Carl:
 crew:
 - Director: Michael Lipp
-external_links:
-  Shows - Limelight Theatre: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 ---
   

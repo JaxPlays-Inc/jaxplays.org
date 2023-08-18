@@ -12,6 +12,8 @@ Genres:
 - Comedy
 show_details: 
 - Writer: Matthew Lombardo
+Website:
+  WHO'S HOLIDAY | The 5 & Dime: https://www.the5anddime.org/whos-holiday
 showtimes:
 - 2020-12-04 20:00:00
 - 2020-12-05 20:00:00
@@ -22,6 +24,4 @@ showtimes:
 - 2020-12-13 14:00:00
 cast:
 crew:
-external_links:
-  WHO'S HOLIDAY | The 5 & Dime: https://www.the5anddime.org/whos-holiday
 ---

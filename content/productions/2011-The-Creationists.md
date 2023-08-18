@@ -13,6 +13,7 @@ show_details:
 - Setting: Here and Now, Now and Then
 - Subject: Based on the story by Jeremy Kreis McTiernan and Joshua Kreis McTiernan
 - Premiere: 2011-02-18
+- Website: https://mctiernanjoshua.wixsite.com/home/fulllengthplays
 showtimes:
 - 2011-02-18 20:00:00
 - 2011-02-19 20:00:00
@@ -66,8 +67,7 @@ photos:
     Walton, Tyler Christian Ramirez, Cameron Lee Henderson, Brian Fullford, Philip
     Harville, Chris Robertson, Jane Cassingham, Pablo J. Milla, Bradley Akers, Lindsay
     Michelle'
-external_links:
-  '''The Creationists'' comedy opens Friday at Players by the Sea - News - The Florida Times-Union - Jacksonville, FL': https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
-  '''The Creationists'' - Folio Weekly': https://folioweekly.com/2011/02/24/2839/
-  Joshua McTiernan Plays: https://mctiernanjoshua.wixsite.com/home/fulllengthplays
+Reviews:
+- "'The Creationists' comedy opens Friday at Players by the Sea - News - The Florida Times-Union - Jacksonville, FL": https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
+- "'The Creationists' - Folio Weekly": https://folioweekly.com/2011/02/24/2839/
 ---

@@ -94,10 +94,10 @@ showtimes:
 - 2015-12-25 21:00:00
 - 2015-12-25 22:00:00
 - 2015-12-25 23:00:00
-external_links:
-  WJCT's It's A Wonderful Life Cast Party: https://wjct.smugmug.com/WJCTs-Its-A-Wonderful-Life/
-  The WJCT 'It's A Wonderful Life' Behind-The-Scenes Production Podcast Thing: https://news.wjct.org/programs/wjct-its-wonderful-life-behind-scenes-production-podcast-thing
-  Tony Palermo: https://www.ruyasonic.com/tpalermo.htm
+Press:
+- WJCT's It's A Wonderful Life Cast Party: https://wjct.smugmug.com/WJCTs-Its-A-Wonderful-Life/
+- The WJCT 'It's A Wonderful Life' Behind-The-Scenes Production Podcast Thing: https://news.wjct.org/programs/wjct-its-wonderful-life-behind-scenes-production-podcast-thing
+- Tony Palermo: https://www.ruyasonic.com/tpalermo.htm
 ---
 
 Based on the 1946 film, It's a Wonderful Life, produced and directed by Frank Capra. Each actor's part was recorded separately and then the best takes were edited together for the final production. The recording was broadcast every hour for 24 hours on Christmas Day December 25, 2015 on WJCT 89.9 FM in Jacksonville, Florida.

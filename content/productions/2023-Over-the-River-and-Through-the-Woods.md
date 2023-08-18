@@ -13,6 +13,7 @@ genres:
 - Drama
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
+Website: https://web.archive.org/web/20230518172532/https://www.limelight-theatre.org/shows/over-the-river-and-through-the-woods
 showtimes:
 - 2023-04-06 19:30:00
 - 2023-04-07 19:30:00
@@ -55,7 +56,5 @@ crew:
 - Sound Designer: Bradley Cooper
 - Board Operator: Hannah McCowan
 orchestra:
-external_links:
-  Over the River and Through the Woods - Limelight Theatre: https://web.archive.org/web/20230518172532/https://www.limelight-theatre.org/shows/over-the-river-and-through-the-woods
 ---
 

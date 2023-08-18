@@ -13,7 +13,5 @@ showtimes:
 - 2020-05-17 14:00:00
 cast:
 crew:
-external_links:
-  Broadway Bucket List | The 5 & Dime: https://www.the5anddime.org/broadway-bucket-list
 ---
 Join 'The 5 & Dime' for an evening of some of Northeast Florida's most talented performers singing songs from their dream Broadway roles.

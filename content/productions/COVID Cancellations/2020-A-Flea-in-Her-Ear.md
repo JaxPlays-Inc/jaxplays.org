@@ -30,6 +30,4 @@ showtimes:
 cast:
 crew:
 - Director: Jason Collins
-external_links:
-  Shows - Limelight Theatre: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 --- 
