@@ -12,6 +12,7 @@ featured_image_caption:
 playbill: 2019_One_By_Tenn_Plus_Eight.pdf
 Theatre: Actors Collective
 Venue: ABET - All Beaches Experimental Theatre
+Website: http://www.actorscollective.com/one-by-tenn-plus-eight/
 Genres: 
 - Play
 show_details:
@@ -66,8 +67,6 @@ crew:
 - Sound Design: Caryl Butterley
 - Light Operator: Jasper Darnell
 - Sound Operator: Jasper Darnell
-external_links:
-  Actors Collective - One by Tenn Plus Eight: http://www.actorscollective.com/one-by-tenn-plus-eight/
 ---
 
 The Actors Collective collaborated with ABET to exhibit a series of theatrical performances, comprising of Tennessee Williams' "Talk To Me Like The Rain and Let Me Listen" alongside new original works by playwrights from the region.

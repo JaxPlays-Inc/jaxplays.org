@@ -11,6 +11,7 @@ Theatre: The 5 & Dime
 show_details:
 - Writer: Samuel D. Hunter - wiki
 Website: https://www.the5anddime.org
+Tickets: https://www.eventbrite.com/e/the-whale-tickets-19043435428
 showtimes:
 - 2015-11-13 20:00:00
 - 2015-11-14 20:00:00
@@ -33,7 +34,5 @@ crew:
   - Pat Gorman
 - Set Design: Tom Fallon
 - Lighting Design: Jim Wiggins
-external_links:
-  The Whale Tickets: https://www.eventbrite.com/e/the-whale-tickets-19043435428
 ---
 "At six hundred pounds, Charlie has hidden himself away in his small apartment. Isolated and hungering for redemption, he desperately tries to reconnect with his estranged teenage daughter before it’s too late. As he eats his way into oblivion, his life intersects with a lonely nurse and a mysterious young Mormon missionary, all of whom seek grace and human connection – and discover that beauty and kindness come in unexpected forms." - [The 5 & Dime Theatre Co. - Posts](https://www.facebook.com/The5andDime/posts/1076410805710848)

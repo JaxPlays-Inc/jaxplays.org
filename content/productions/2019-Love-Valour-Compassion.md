@@ -25,7 +25,5 @@ cast:
 - Ramon Fornos: Abrien Nelson
 crew:
 - Director: Joe Kemper
-external_links:
-  The 5 & Dime: https://www.the5anddime.org/love-valour-compassion
 ---
 "A group of eight gay New Yorkers - including Buzz Hauser, an HIV-positive Broadway musical enthusiast; John Jeckyll, a dry-witted British composer; and Gregory Mitchell, a prominent Broadway choreographer - spend three summer weekends together at an opulent lakeside estate in upstate New York. The mood is everything you’d expect it to be... until the days slowly progress and secrets begin to surface, causing the already complex relationships within the group to ebb and flow like the tides of the water outside. This Tony and Drama Desk Award-winning play perfectly encapsulates the zeitgeist of early 90’s Gay America, with plenty of poignancy, camp, and nudity to boot. It’s like Steel Magnolias - but instead of a wedding, you get a full dress rehearsal of Swan Lake in drag!" — [LOVE! VALOUR! COMPASSION! - The 5 & Dime](https://www.the5anddime.org/love-valour-compassion)
