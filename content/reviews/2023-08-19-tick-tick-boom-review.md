@@ -1,5 +1,7 @@
 ---
 title: "The 5 & Dime's 'Tick, Tick... Boom!' – An Intimate Masterpiece Capturing the Essence of the Artistic Struggle"
+aliases: 
+- /news/2023/08/19/tick-tick-boom-review/
 date: 2023-08-19T13:38:13.736Z
 featured_image: /media/photos/2023_Tick_Tick_Boom_00.jpeg
 featured_image_attr: Mike Kitaif
