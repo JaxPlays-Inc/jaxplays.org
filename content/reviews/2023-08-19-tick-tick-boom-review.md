@@ -1,5 +1,5 @@
 ---
-title: Tick, Tick, Boom! Review
+title: "The 5 & Dime's 'Tick, Tick... Boom!' – An Intimate Masterpiece Capturing the Essence of Artistic Struggle"
 description: ""
 date: 2023-08-19T13:38:13.736Z
 preview: ""
@@ -23,7 +23,7 @@ In roles demanding constant character-switching, Shauna and Zach astonish with t
 
 Zach, in his portrayal of Michael, brings an embodiment of warmth, encouragement, and sometimes irksome mentorship. His performance not only drew us in but fostered a deep affection for his character. The emotional arc of his story is profoundly moving and heart-wrenching.
 
-The small size of the space, rather than diminishing the experience, elevates it. It feels like sitting at the chef's table in a Michelin star restaurant, creating an atmosphere of intimacy and vulnerability without a hint of awkwardness. Audience interactions are delightful, hilarious and feel oddly real and natural, creating a unique sense of realism and warmth uncommon in live theatrical experiences. Even smaller moments are riveting, like when Bradley's subtle reactions during Karessa's solo evoke the tenderness of a groom watching his bride walk down the aisle.
+The small size of the space, rather than diminishing the experience, elevates it. It feels like sitting at the chef's table in a Michelin star restaurant, creating an atmosphere of intimacy and vulnerability without a hint of awkwardness. Audience interactions are delightful, hilarious and feel oddly real and natural, creating a unique sense of realism and warmth uncommon in live theatrical experiences. Even smaller moments are riveting, like Bradley's nuanced reactions during Shauna's solo as Karessa, eliciting the same mixture of nervousness, excitement, and joy that a groom exudes as his bride approaches the altar.
 
 The balance between emotion and melody is perfect, telling the story through music without losing the essence of the narrative. Bradley, Shauna and Zach's expert use of vocal dynamics within the intimate surroundings created an emotional rollercoaster, drawing the audience into their characters' intense battles with life-altering decisions and dilemmas.
 
