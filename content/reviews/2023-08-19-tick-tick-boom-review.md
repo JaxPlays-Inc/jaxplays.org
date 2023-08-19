@@ -1,5 +1,5 @@
 ---
-title: "The 5 & Dime's 'Tick, Tick... Boom!' – An Intimate Masterpiece Capturing the Essence of Artistic Struggle"
+title: "The 5 & Dime's 'Tick, Tick... Boom!' – An Intimate Masterpiece Capturing the Essence of the Artistic Struggle"
 description: ""
 date: 2023-08-19T13:38:13.736Z
 preview: ""
