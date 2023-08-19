@@ -17,7 +17,7 @@ The abstract set is reminiscent of a 90s Bohemian New York apartment, complete w
 
 The musical opens with Bradley Akers as Jon, on the brink of turning 30, working a day job at a diner and feeling the pressure to make it big before his next birthday. He's grappling with his creative passion, the commercial expectations of the entertainment industry, and his own internal "tick, tick" of time running out.
 
-Jon's best friend, Michael (Zach Rivera), has given up acting for a lucrative career in marketing, and Jon's girlfriend, Susan, (Shauna Bloom) is a dancer who's considering leaving the city. Both characters serve as reflections of the alternative paths Jon could take, heightening his anxiety and self-doubt.
+Jon's best friend, Michael (Zach Rivera), has given up acting for a lucrative career in marketing, and Jon's girlfriend, Susan, (Shauna Clark) is a dancer who's considering leaving the city. Both characters serve as reflections of the alternative paths Jon could take, heightening his anxiety and self-doubt.
 
 Throughout the musical, Jon reflects on his life's choices, his relationships, and his unfulfilled dreams.
 
