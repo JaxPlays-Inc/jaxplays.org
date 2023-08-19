@@ -17,7 +17,7 @@ Jon's best friend, Michael (Zach Rivera), has given up acting for a lucrative ca
 
 Throughout the musical, Jon reflects on his life's choices, his relationships, and his unfulfilled dreams.
 
-Bradley's performance elevates the role, capturing Jon's fears and hopes with a realism that transcends the stage, making the character's emotions palpable and genuine. It feels like listening to a friend share a personal story rather than watching a play. His connection with Jonathan Larson's character is so profound that it felt like listening to Larson himself sharing a story at [*Untold Stories*](https://news.wjct.org/podcast/untold-stories).
+Bradley's performance elevates the role, capturing Jon's fears and hopes with a realism that transcends the stage, making the character's emotions palpable and genuine. His connection with Jonathan Larson's character is so profound that it felt like listening to Larson himself sharing an personal anecdote at [*Untold Stories*](https://news.wjct.org/podcast/untold-stories). The connection is so deep, it's like being in a friend's living room, absorbed in a story, rather than sitting in a theater watching a play.
 
 In roles demanding constant character-switching, Shauna and Zach astonish with their seamless transformations. Shauna's very posture narrates a tale, and her transitions, most notably from Susan to Karessa Johnson, are breathtaking and riveting, a display worthy of master classes.
 
