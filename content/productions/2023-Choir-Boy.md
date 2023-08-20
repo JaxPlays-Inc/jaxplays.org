@@ -46,39 +46,39 @@ crew:
 - Choreography: Arias West
 photos:
 - photo: 2023_Choir_Boy_00.jpeg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_1.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_2.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_3.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_4.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_5.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_6.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_7.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 - photo: 2023_Choir_Boy_8.jpg
-  photo_credit: Players by the Sea
+  photo_attr: Players by the Sea
   photo_alt:
   photo_caption:
 ---

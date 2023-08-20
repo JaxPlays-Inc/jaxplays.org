@@ -48,125 +48,125 @@ crew:
 orchestra:
 photos:
 - photo: 2023_Savannah_Sipping_Society_00.jpg
-  photo_credit: Gloria Hurley
+  photo_attr: Gloria Hurley
   photo_alt: 'Cast of The Savannah Sipping Society during rehearsal: Tammy Bradley,
     Danya Zimbauer, Theresa Stanley, Tori Ann Smith (left to right)'
   photo_caption: 'Cast of The Savannah Sipping Society during rehearsal: Tammy Bradley,
     Danya Zimbauer, Theresa Stanley, Tori Ann Smith (left to right)'
 - photo: 2023_Savannah_Sipping_Society_01.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: 'Cast of The Savannah Sipping Society: Theresa Stanley, Tammy Bradley
     and Danya Zimbauer (left to right)'
   photo_caption: 'Cast of The Savannah Sipping Society: Theresa Stanley, Tammy Bradley
     and Danya Zimbauer (left to right)'
 - photo: 2023_Savannah_Sipping_Society_02.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tammy Bradley and Theresa Stanley (left to right)
   photo_caption: Danya Zimbauer, Tammy Bradley and Theresa Stanley (left to right)
 - photo: 2023_Savannah_Sipping_Society_03.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Tammy Bradley
   photo_caption: Tammy Bradley
 - photo: 2023_Savannah_Sipping_Society_04.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Theresa Stanley and Tammy Bradley (left to right)
   photo_caption: Danya Zimbauer, Theresa Stanley and Tammy Bradley (left to right)
 - photo: 2023_Savannah_Sipping_Society_05.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tammy Bradley, Tori Ann Smith and Theresa Stanley and
     (left to right)
   photo_caption: Danya Zimbauer, Tammy Bradley, Tori Ann Smith and Theresa Stanley
     and (left to right)
 - photo: 2023_Savannah_Sipping_Society_06.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Theresa Stanley
   photo_caption: Theresa Stanley
 - photo: 2023_Savannah_Sipping_Society_07.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley (left
     to right)
   photo_caption: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_08.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tammy Bradley, Tori Ann Smith and Theresa Stanley (left
     to right)
   photo_caption: Danya Zimbauer, Tammy Bradley, Tori Ann Smith and Theresa Stanley
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_09.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Tori Ann Smith
   photo_caption: Tori Ann Smith
 - photo: 2023_Savannah_Sipping_Society_10.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Susan Langenbahn
   photo_caption: Susan Langenbahn
 - photo: 2023_Savannah_Sipping_Society_11.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tori Ann Smith, Theresa Stanley, Tammy Bradley and Susan
     Langenbahn (left to right)
   photo_caption: Danya Zimbauer, Tori Ann Smith, Theresa Stanley, Tammy Bradley and
     Susan Langenbahn (left to right)
 - photo: 2023_Savannah_Sipping_Society_12.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tori Ann Smith and Theresa Stanley (left to right)
   photo_caption: Danya Zimbauer, Tori Ann Smith and Theresa Stanley (left to right)
 - photo: 2023_Savannah_Sipping_Society_13.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Tori Ann Smith, Theresa Stanley and Tammy Bradley (left
     to right)
   photo_caption: Danya Zimbauer, Tori Ann Smith, Theresa Stanley and Tammy Bradley
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_14.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Tammy Bradley, Danya Zimbauer, Tori Ann Smith, and Theresa Stanlet (left
     to right)
   photo_caption: Tammy Bradley, Danya Zimbauer, Tori Ann Smith, and Theresa Stanlet
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_15.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Tammy Bradley, Danya Zimbauer, Tori Ann Smith, and Theresa Stanley (left
     to right)
   photo_caption: Tammy Bradley, Danya Zimbauer, Tori Ann Smith, and Theresa Stanley
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_16.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Theresa Stanley
   photo_caption: Theresa Stanley
 - photo: 2023_Savannah_Sipping_Society_17.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Theresa Stanley, Tori Ann Smith, Tammy Bradley and Danya Zimbauer (left
     to right)
   photo_caption: Theresa Stanley, Tori Ann Smith, Tammy Bradley and Danya Zimbauer
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_18.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Theresa Stanley, Tammy Bradley and Tori Ann Smith (left
     to right)
   photo_caption: Danya Zimbauer, Theresa Stanley, Tammy Bradley and Tori Ann Smith
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_19.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Theresa Stanley and Tammy Bradley (left to right)
   photo_caption: Danya Zimbauer, Theresa Stanley and Tammy Bradley (left to right)
 - photo: 2023_Savannah_Sipping_Society_20.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Theresa Stanley, Tammy Bradley and Tori Ann Smith (left
     to right)
   photo_caption: Danya Zimbauer, Theresa Stanley, Tammy Bradley and Tori Ann Smith
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_21.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Theresa Stanley, Tammy Bradley and Tori Ann Smith (left
     to right)
   photo_caption: Danya Zimbauer, Theresa Stanley, Tammy Bradley and Tori Ann Smith
     (left to right)
 - photo: 2023_Savannah_Sipping_Society_22.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Susan Langenbahn
   photo_caption: Susan Langenbahn
 - photo: 2023_Savannah_Sipping_Society_23.jpg
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Danya Zimbauer, Theresa Stanley, Tammy Bradley, Tori Ann Smith and Susan
     Langenbahn (left to right)
   photo_caption: Danya Zimbauer, Theresa Stanley, Tammy Bradley, Tori Ann Smith and

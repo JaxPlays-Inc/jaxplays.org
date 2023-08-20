@@ -43,28 +43,28 @@ crew:
 - Master Carpenter: Tyler Hammond
 photos:
 - photo: 2023_No_Exit_1.webp
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Kathryn Kuhn, Kate McManus, Josh Andrews and Jeff Drushal
   photo_caption: Kathryn Kuhn, Kate McManus, Josh Andrews and Jeff Drushal (left to
     right)
 - photo: 2023_No_Exit_2.webp
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Kate McManus, Kathryn Kuhn and Jeff Drushal
   photo_caption: Kate McManus, Kathryn Kuhn and Jeff Drushal (left to right)
 - photo: 2023_No_Exit_3.webp
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
   photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
 - photo: 2023_No_Exit_4.webp
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
   photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
 - photo: 2023_No_Exit_5.webp
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Kathryn Kuhn, Kate McManus and Jeff Drushal
   photo_caption: Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)
 - photo: 2023_No_Exit_6.webp
-  photo_credit: Ray Hollister
+  photo_attr: Ray Hollister
   photo_alt: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal
   photo_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to
     right)

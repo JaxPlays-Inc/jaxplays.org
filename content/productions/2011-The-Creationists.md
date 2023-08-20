@@ -53,15 +53,15 @@ crew:
   - Pablo J. Milla
 photos:
 - photo: 2011_The_Creationists_1.jpeg
-  photo_credit: Pablo Milla
+  photo_attr: Pablo Milla
   photo_alt: Cast and Crew of The Creationists
   photo_caption: Cast and Crew of The Creationists
 - photo: 2011_The_Creationists_2.jpeg
-  photo_credit: Pablo Milla
+  photo_attr: Pablo Milla
   photo_alt: Cast and Crew of The Creationists
   photo_caption: Cast and Crew of The Creationists
 - photo: 2011_The_Creationists_3.jpeg
-  photo_credit: Pablo Milla
+  photo_attr: Pablo Milla
   photo_alt: Cast and Crew of The Creationists
   photo_caption: 'Left to right: Ray Hollister, Tori Richmond-Davies, J''royce Denard
     Walton, Tyler Christian Ramirez, Cameron Lee Henderson, Brian Fullford, Philip

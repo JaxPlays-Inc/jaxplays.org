@@ -22,7 +22,7 @@ cast:
 - Ensemble:
 photos:
 - photo: 2005_Godspell_1.jpeg
-  photo_credit:
+  photo_attr:
   photo_alt:
   photo_caption: Lisa Knoepfel, Joshua Kreis McTiernan, Ray Hollister, Sheila Diaz
     and Scott Giddens (left to right)
