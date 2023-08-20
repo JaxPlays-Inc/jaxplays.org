@@ -68,6 +68,6 @@ photos:
     Harville, Chris Robertson, Jane Cassingham, Pablo J. Milla, Bradley Akers, Lindsay
     Michelle'
 Reviews:
-- "'The Creationists' comedy opens Friday at Players by the Sea - News - The Florida Times-Union - Jacksonville, FL": https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
-- "'The Creationists' - Folio Weekly": https://folioweekly.com/2011/02/24/2839/
+- "'The Creationists' comedy opens Friday at Players by the Sea | The Florida Times-Union": https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
+- "'The Creationists' | Folio Weekly": https://folioweekly.com/2011/02/24/2839/
 ---
