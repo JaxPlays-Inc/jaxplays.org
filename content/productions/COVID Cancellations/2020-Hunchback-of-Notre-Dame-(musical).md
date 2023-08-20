@@ -6,6 +6,7 @@ title: The Hunchback of Notre Dame (musical)
 date: 2020
 category: musical
 Theatre: Players by the Sea
+Website: https://www.playersbythesea.org/hunchback-of-notre-dame
 show_details:
 - Music: Alan Menken - wiki
 - Lyrics: Stephen Schwartz - wiki
@@ -34,6 +35,5 @@ showtimes:
 crew:
 - Director: Joe Kemper
 - Producer: Tyvin McSwain
-external_links:
-  THE HUNCHBACK OF NOTRE DAME | Players by the Sea: https://www.playersbythesea.org/hunchback-of-notre-dame
+
 ---

@@ -13,6 +13,5 @@ details:
   LinkedIn: 
   IBDB: 
   IMDb: 
-external_links:
 Equity: true
 ---

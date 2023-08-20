@@ -64,7 +64,5 @@ showtimes:
 - 2022-11-05 17:30:00
 - 2022-11-06 12:00:00
 - 2022-11-06 17:30:00
-external_links:
-  Alhambra Theatre & Dining: https://www.alhambrajax.com/tickets/
 ---
 "This musical, based on the hit-movie, follows Sam and Molly, a young couple with their whole life ahead of them. When Sam dies suddenly, he finds himself trapped between the land of the living and the dead, not willing to let Molly go." — [Tickets - Alhambra Theatre & Dining](https://www.alhambrajax.com/tickets/)

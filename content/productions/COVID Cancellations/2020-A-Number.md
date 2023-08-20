@@ -26,8 +26,6 @@ cast:
 - Michael Black:
 crew:
 - Director: Caryl Butterley
-external_links:
-A Number - wikipedia: https://en.wikipedia.org/wiki/A_Number
 ---
 
 "Set in a world in which human cloning is a reality, A Number explores the ethics of cloning, the fragility of personal identity and the conflicting claims of nature and nurture. A beguiling psychological thriller that blends scientific speculation with a stunning portrait of the relationship between fathers and sons."<ref>http://www.actorscollective.com/the-secret-of-life/ ''Actors Collective''</ref>

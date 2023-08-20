@@ -35,8 +35,6 @@ cast:
 - Merry Men: Chinua Richardson, Ryan Sadler, Amy Tillotson, Elisa Varnedoe
 crew:
 - Director: Tom Fallon
-external_links:
-  'AUDITION NOTICE: Sherwood': http://www.abettheatre.com/2019/12/31/audition-notice-sherwood/
 ---
 "Ken Ludwig's Sherwood: The Adventures of Robin Hood" is a play that retells the classic tale of Robin Hood and his Merry Men as they fight against the corrupt Sheriff of Nottingham and Prince John to restore justice to the land. It features action-packed scenes, colorful characters, and lighthearted humor.
   

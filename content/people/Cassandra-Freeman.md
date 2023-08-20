@@ -17,5 +17,4 @@ details:
   LinkedIn: 
   IBDB: 
   IMDb: Cassandra Freeman | nm1904386
-external_links:
 ---

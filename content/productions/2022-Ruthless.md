@@ -14,6 +14,7 @@ show_details:
 - Lyrics: Joel Paley - wiki
 - Book: Joel Paley
 Tickets: https://web.ovationtix.com/trs/pr/1026219
+Website: https://www.playersbythesea.org/dancenation
 showtimes:
 - 2022-04-22 20:00:00
 - 2022-04-23 20:00:00
@@ -47,7 +48,5 @@ crew:
 - Music Director: Meachum Lamar Clarke
 - Choreographer: Joshua Blackswan Abbott
 - Costume Designer: Tonya Thomas
-external_links:
-  Dance Nation: https://www.playersbythesea.org/dancenation
 ---
 "Tina Denmark is a pretty, charming and diabolical eight-year-old girl who "was born to entertain." With the encouragement of slick and overbearing potential agent Sylvia St. Croix, Tina will do anything to play the lead in her school play, and we mean anything." — [Dance Nation](https://www.playersbythesea.org/dancenation)

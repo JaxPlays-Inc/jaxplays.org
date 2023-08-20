@@ -44,7 +44,5 @@ crew:
 - Stage Manager: Natalie Brown
 - Set Designer: Ben Girvin
 - Costume Designer: Joy Smith
-external_links:
-  theatre-jacksonville: https://www.theatrejax.com/onstage
 ---
 "Five Southern women, who met years ago on their college swim team, set aside a long weekend every August to recharge their friendships. Free from husbands, kids, and jobs, they meet at the same beach cottage, the Sweet Delilah on North Carolina’s Outer Banks to catch up, laugh and meddle in each other’s lives. This touching play focuses on four of those weekends spanning a period of thirty-three years. When fate throws a wrench into one of their lives, they rally ‘round with the strength and love that takes this comedy in a poignant and surprising direction." - [ON STAGE - theatre-jacksonville](https://www.theatrejax.com/onstage)

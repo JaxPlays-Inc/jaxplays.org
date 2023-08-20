@@ -115,8 +115,6 @@ crew:
 - Properties: Patti Eyler
 - Wardrobe Crew: Shanise DeSisso
 - Stage Crew: Andrew Phoenix
-external_links:
-  Alhambra How to Succeed in Business Without Really Trying: https://www.alhambrajax.com/show/how-to-succeed-in-business-without-really-trying/
 ---
 \* This production was ended early due to the COVID-19 pandemic. The last performance was on March 15, 2020.
 

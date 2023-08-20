@@ -6,6 +6,7 @@ title: Grease (musical)
 date: 2020
 category: musical
 Theatre: The Alhambra Theatre & Dining
+Website: https://www.alhambrajax.com/show/grease/
 show_details:
 - Music:
   - Jim Jacobs - wiki
@@ -64,6 +65,4 @@ showtimes:
 - 2020-06-06 18:00:00
 - 2020-06-07 12:00:00
 - 2020-06-07 18:00:00
-external_links:
-  "Alhambra Grease \u266B - Alhambra": https://www.alhambrajax.com/show/grease/
 ---

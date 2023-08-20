@@ -6,6 +6,7 @@ title: The Music Man
 date: 2020
 category: musical
 Theatre: The Alhambra Theatre & Dining
+Website: https://www.alhambrajax.com/show/the-music-man/
 show_details:
 - Music: Meredith Willson - wiki
 - Lyrics: Meredith Willson
@@ -59,6 +60,4 @@ showtimes:
 - 2020-09-12 18:00:00
 - 2020-09-13 12:00:00
 - 2020-09-13 18:00:00
-external_links:
-  "Alhambra The Music Man \u266B": https://www.alhambrajax.com/show/the-music-man/
 ---

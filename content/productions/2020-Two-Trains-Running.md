@@ -13,6 +13,7 @@ Theatre: Players by the Sea
 Genres: 
 - Play
 - Drama
+Website: https://www.playersbythesea.org/two-trains-running
 show_details:
 - Writer: August Wilson - wiki
 - Series: The Pittsburgh Cycle - wiki
@@ -51,8 +52,6 @@ crew:
 - Lighting Designer: Daniel Dungan
 - Sound Designer: Brian Niece
 - Prop Manager: Claire Cimino
-external_links:
-  TWO TRAINS RUNNING | Players by the Sea: https://www.playersbythesea.org/two-trains-running
 ---
 
 \* This show was unfortunately cut short by the COVID-19 pandemic. The last production day was March 15, 2020.

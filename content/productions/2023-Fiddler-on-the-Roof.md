@@ -118,8 +118,7 @@ crew:
   - Sarah Brace
 - Stage Crew: Kolby James
 orchestra:
-external_links:
-reviews: 
+Reviews: 
 - "Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
 - "Alhambra’s ‘Fiddler’ worth the 25-year wait | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/alhambras-fiddler-worth-the-25-year-wait,60216
 - "FIDDLER hits all the right notes at the Alhambra | Folio Weekly": https://folioweekly.com/2023/08/07/fiddler-hits-all-the-right-notes-at-the-alhambra/

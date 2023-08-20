@@ -36,7 +36,5 @@ crew:
 - Musical Director: Tim Root
 - Choreographer: Niki Stokes
 - Costumes: Amy Dewberry Hancock
-external_links:
-  Bye Bye Birdie - Christ Episcopal Church: https://www.christepiscopalchurch.org/event/bye-bye-birdie/
 ---
 "New York–based songwriter Albert Peterson finds himself in trouble when his client, teen idol Conrad Birdie, is drafted into the Army. This leaves his heavily indebted firm in jeopardy. Albert’s secretary, Rose “Rosie” Alvarez, comes up with a last-ditch publicity stunt to have Conrad Birdie record and perform a song before he is sent overseas." — [Bye Bye Birdie - Christ Episcopal Church](https://www.christepiscopalchurch.org/event/bye-bye-birdie/)

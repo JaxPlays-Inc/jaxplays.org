@@ -46,7 +46,6 @@ crew:
   - Jeff Seal
 - Ticketmaster: Leslie Sanders
 orchestra:
-external_links:
 photos:
 - photo: 2023_Savannah_Sipping_Society_00.jpg
   photo_credit: Gloria Hurley

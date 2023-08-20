@@ -6,6 +6,7 @@ title: Singin' in the Rain
 date: 2020
 category: musical
 Theatre: The Alhambra Theatre & Dining
+Website: https://www.alhambrajax.com/show/singin-in-the-rain/
 show_details:
 - Music: Nacio Herb Brown - wiki
 - Lyrics: Arthur Freed - wiki
@@ -51,6 +52,4 @@ showtimes:
 - 2020-04-25 18:00:00
 - 2020-04-26 12:00:00
 - 2020-04-26 18:00:00
-external_links:
-  "Singin\u2019 in the Rain \u266B - Alhambra": https://www.alhambrajax.com/show/singin-in-the-rain/
 ---

@@ -67,6 +67,4 @@ showtimes:
 - 2020-07-25 17:30:00
 - 2020-07-26 12:00:00
 - 2020-07-26 17:30:00
-external_links:
-  "Alhambra Cinderella \u266B": https://www.alhambrajax.com/show/cinderella/
 ---

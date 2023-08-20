@@ -36,7 +36,5 @@ cast:
   - Richie Rosado
 crew:
 - Director: Lindsay Curry
-external_links:
-  SWEAT: https://www.the5anddime.org/sweat
 ---
 "In this Northeast Florida premiere, playwright Lynn Nottage explores one of the poorest cities in America - Reading, Pennsylvania. This Pulitzer Prize-winning drama follows a group of down-and-out factory workers as they struggle to keep their present lives in balance, ignorant of the financial devastation looming in their near future. Based on Nottage’s extensive research and interviews with residents of Reading, Sweat is both a topical reflection of the present and a poignant dissection of the outcome of America’s second great economic depression. It deftly paints a picture of a once thriving American community brought to their knees by corporate greed and political apathy, and leaves in its wake a stern cautionary tale for the rest of our nation." — [SWEAT - The 5 & Dime](https://www.the5anddime.org/sweat)

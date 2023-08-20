@@ -70,9 +70,7 @@ crew:
   - Anna Fleece
   - Olivia Montalbano
   - Ainslee Nipper
-external_links:
-  "'In the Heights' by Jacksonville University\u2019s Department of Theatre is a Dancing Delight": https://web.archive.org/web/20221202035859/https://folioweekly.com/2020/01/22/in-the-heights-jacksonville-university-department-of-theatre/
-  JU - Performing Arts Series: https://www.ju.edu/cfa/cfa-events.php
-  FSCJ - Fine Arts Calendar: https://www.fscj.edu/docs/default-source/wilson-center/fine-arts-calendar.pdf?sfvrsn=4
+Press:
+- "'In the Heights' by Jacksonville University\u2019s Department of Theatre is a Dancing Delight": https://web.archive.org/web/20221202035859/https://folioweekly.com/2020/01/22/in-the-heights-jacksonville-university-department-of-theatre/
 ---
 The first three showings of this production were held at the Swisher Theater at Jacksonville University, and the second three showings were held at the in the Studio Theatre at Nathan H. Wilson Center for the Arts, FSCJ South Campus.

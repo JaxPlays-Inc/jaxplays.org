@@ -64,7 +64,5 @@ crew:
 - Sound Engineer: Linnay Bennett
 - Properties: Patti Eyler
 - Wardrobe Supervisor: Kelly Wolfe
-external_links:
-  Alhambra Love Letters: https://www.alhambrajax.com/show/love-letters/
 ---
 "Love Letters" is a play written by A.R. Gurney, presented by The Alhambra Theatre & Dining.

@@ -34,7 +34,5 @@ cast:
 - Richard: Cody Dobbs
 crew:
 - Director: Ron Kurtz
-external_links:
-  The Humans - Amelia Community Theatre: https://www.ameliacommunitytheatre.org/Performances/The-Humans-
 ---
 Winner of the 2016 Tony Award for Best Play! A family breaks with their Thanksgiving traditions as they travel to New York to celebrate with their daughter. The change in plans leads to secrets being exposed in a deeply moving and humorous story about need and love.

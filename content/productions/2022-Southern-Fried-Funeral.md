@@ -52,7 +52,5 @@ crew:
 - Technical Director: Garrett Holt
 - Costume Manager: Nancy Galvin
 - Sound Director: Tim Holt
-external_links:
-  "Southern Fried Funeral \u2013 St. Marys Little Theatre": https://www.stmaryslittletheatre.com/collections/box-office
 ---
 "Southern Fried Funeral is a wonderfully witty play that is fairly redolent of magnolia blossoms and a pot liquor seasoned by family rivalries and long-held regrets and recriminations. In short, it's just like walking into your mama's house again (if you're southern), the memories washing over you like so much Delta-borne humidity, to pick up a tall glass all sweaty from the melting ice inside the sweetened tea. If you were not born in the south by the grace of God, you will find this rollicking show proving that the south (just as you thought) is different--funny different. Very funny-different! Laughter throughout." — [St. Marys Little Theatre](https://web.archive.org/web/20220512150615/https://www.stmaryslittletheatre.com/collections/box-office)

@@ -33,6 +33,4 @@ cast:
 - Robyn: Hazel Robinson
 crew:
 - Director: Shelli Long
-external_links:
-  Shows | Limelight Theatre: https://limelight-theatre.org/shows/
 ---  

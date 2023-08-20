@@ -6,6 +6,7 @@ title: Gutenberg! The Musical!
 date: 2020
 category: musical
 Theatre: The 5 & Dime
+Website: https://www.the5anddime.org/gutenberg-the-musical
 show_details:
 - Music:
   - Scott Brown (writer) - wiki
@@ -28,7 +29,5 @@ cast:
 crew:
 - Director: Michael Lipp
 - Musical Director: Erin Barnes
-external_links:
-  Gutenberg! The Musical! | The 5 & Dime: https://www.the5anddime.org/gutenberg-the-musical
 ---
 “In this two-man musical spoof, a pair of aspiring playwrights perform a backers’ audition for their new project - a big, splashy musical about printing press inventor Johannes Gutenberg. With an unending supply of enthusiasm, Bud and Doug sing all the songs and play all of the roles themselves, wearing hats with the characters' names on them and frequently switching said hats to indicate different characters.” — [Gutenberg! The Musical! - The 5 & Dime](https://www.the5anddime.org/gutenberg-the-musical)

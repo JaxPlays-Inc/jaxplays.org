@@ -25,8 +25,8 @@ cast:
 - Herself: Nikesha Elise Williams
 crew:
 - Director: Barbara Colaciello
-external_links:
-  Finding Her Voice - Folio Weekly: http://folioweekly.com/stories/finding-her-voice,22187
+Press:
+- Finding Her Voice | Folio Weekly: https://web.archive.org/web/20200509011010/http://folioweekly.com/stories/finding-her-voice,22187
 ---
 Written and performed by Nikesha Elise Williams, and directed by Barbara Colaciello, this one-woman show will use poetic exploration to delve deep into topics on life, on love, and on healing. 
 

@@ -30,7 +30,5 @@ cast:
   - Cynthia Riegler
 crew:
 - Director: Barbara Colaciello
-external_links:
-  SIGNIFICANT OTHER | The 5 & Dime: https://www.the5anddime.org/significant-other
 ---
 "Jordan Berman would love to be in love, but that’s easier said than done. So until he meets Mr. Right, he wards off lonely nights with his trio of close girlfriends. But as singles’ nights turn into bachelorette parties, Jordan discovers that the only thing harder than finding love is supporting the loved ones around you when they do." — [SIGNIFICANT OTHER - The 5 & Dime](https://www.the5anddime.org/significant-other)

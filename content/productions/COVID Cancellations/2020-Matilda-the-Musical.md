@@ -73,7 +73,5 @@ crew:
 - Director: Ron Shreve
 - Musical Director: Aaron DeCicco
 - Choreograper: Curtis J. Williams
-external_links:
-  THIS SEASON: https://www.theatrejax.com/this-season
 ---
 Matilda is a little girl with astonishing wit, intelligence and psychokinetic powers. She’s unloved by her cruel parents but impresses her schoolteacher, the highly lovable Miss Honey. Over the course of her first term at school, Matilda and Miss Honey have a profound effect on each other’s lives, as Miss Honey begins not only to recognize but also appreciate Matilda’s extraordinary personality." — [THIS SEASON - Theatre Jacksonville](https://www.theatrejax.com/this-season)

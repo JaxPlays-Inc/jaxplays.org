@@ -15,6 +15,7 @@ show_details:
 - Book: Harvey Fierstein - wiki
 - Basis: Kinky_Boots_(film) - wiki
 Tickets: https://web.ovationtix.com/trs/pr/1094753
+Website: https://web.archive.org/web/20220603173118/https://www.playersbythesea.org/dancenation
 showtimes:
 - 2022-07-15 20:00:00
 - 2022-07-16 20:00:00
@@ -57,7 +58,5 @@ crew:
 - Director: Joe Kemper
 - Music Director: Curtis Powell
 - Choreographer: Christopher Milligan
-external_links:
-  Players by the Sea: https://web.archive.org/web/20220603173118/https://www.playersbythesea.org/dancenation
 ---
 Based on the 2005 British film Kinky Boots, written by Geoff Deane and Tim Firth and mostly inspired by true events, the musical tells the story of Charlie Price. Having inherited a shoe factory from his father, Charlie forms an unlikely partnership with cabaret performer and drag queen Lola to produce a line of high-heeled boots and save the business. In the process, Charlie and Lola discover that they are not so different after all. — [Players by the Sea](https://web.archive.org/web/20220603173118/https://www.playersbythesea.org/dancenation)

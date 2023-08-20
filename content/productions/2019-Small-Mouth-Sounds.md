@@ -36,7 +36,5 @@ cast:
   - Lyra Hall
 crew:
 - Director: Daniel N. Austin
-external_links:
-  SMALL MOUTH SOUNDS: https://www.the5anddime.org/small-mouth-sounds
 ---
 "In the overwhelming quiet of the woods, six wildly disparate urbanites embark on a weeklong silent retreat in search of life balance… but they soon find that staying quiet doesn’t necessarily bring inner peace. Under the eye of an unseen guru, these strangers confront internal demons both profound and absurd as their vows of silence collide with the achingly human need to connect. Filled with awkward and insightful humor, Small Mouth Sounds is a unique and compassionate new play that asks how we address life’s biggest questions when words fail us. This acclaimed new comedy from Drama Desk Award–winning playwright Bess Wohl is a wickedly sharp look at mindfulness and the wellness industry. It teaches us that silence can indeed be golden… but also funny, frustrating, erotic, comforting, and profoundly passive-aggressive." — [SMALL MOUTH SOUNDS - The 5 & Dime](https://www.the5anddime.org/small-mouth-sounds)

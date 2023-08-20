@@ -63,8 +63,6 @@ crew:
   - Susan Cathcart
   - Karen Lahey
   - Jodi Moore
-external_links:
-  Radio Golf - ABET | All Beaches Experimental Theatre: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
 ---
 
 "The story of a man and a community at the crossroads. What is the price of success and what must be done to achieve it? What is the cost of progress and what is lost along the way? The great August Wilson’s final story in his epic 10-play cycle of the African American experience in the 20th Century." — [Radio Golf - ABET All Beaches Experimental Theatre](https://www.abettheatre.com/2019-2020-season-28/radio-golf/)

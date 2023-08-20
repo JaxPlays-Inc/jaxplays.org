@@ -33,8 +33,6 @@ cast:
 - Pastor Chuck: Bob Pritchard
 crew:
 - Director: Bradley Akers
-external_links:
-  THE HARVEST: https://www.the5anddime.org/the-harvest
 ---
 In the basement of a small evangelical church in southeastern Idaho, a group of young missionaries is preparing to go to the Middle East. One of them – a young man who has recently lost his father – has bought a one-way ticket. But his plans are complicated when his estranged sister returns home and makes it her mission to keep him there. What follows is a deftly nuanced piece of theatre that New York Magazine called “Passionate and funny and daring […] marvelously theatrical in a way that most serious plays about faith are not.”
 

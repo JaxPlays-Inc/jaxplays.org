@@ -6,6 +6,7 @@ title: Love, Sex and the I.R.S.
 date: 2020-09-24
 closing_date: 2020-10-18
 Theatre: The Alhambra Theatre & Dining
+Website: https://www.alhambrajax.com/show/love-sex-and-the-irs/
 show_details:
 - Writer: Billy Van Zandt - wiki
 Genres: 
@@ -44,6 +45,4 @@ showtimes:
 - 2020-10-17 18:00:00
 - 2020-10-18 12:00:00
 - 2020-10-18 18:00:00
-external_links:
-  Love, Sex and the I.R.S.: https://www.alhambrajax.com/show/love-sex-and-the-irs/
 ---

@@ -37,7 +37,5 @@ cast:
 crew:
 - Director: Cathy Dooley
 - Musical Director: Erin Barnes
-external_links:
-  Cast list announcement on Facebook: https://www.facebook.com/ABETtheatre/posts/406431654815701
 ---
 "Snoopy is the sequel to You’re a Good Man Charlie Brown and focuses on the life of the world’s most famous beagle. Atop his kennel, Snoopy surveys the skies, scene of his triumph as a First World War flying ace. Modestly he considers his genius. Stoically he accepts that his brilliance in nearly every field of endeavour will forever go unremarked by humankind. The show contains over 15 toe-tapping tunes performed by Charlie Brown, Lucy, Sally, Linus, Peppermint Patty, Woodstock and one loveable beagle." — [Announcing Our 2021-2022 Season \| ABET - All Beaches Experimental Theatre](https://www.abettheatre.com/2021/09/01/announcing-our-2021-2022-season/)

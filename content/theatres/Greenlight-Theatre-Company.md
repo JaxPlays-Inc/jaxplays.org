@@ -19,6 +19,5 @@ details:
     LinkedIn: 
     YouTube: greenlighttheatrecompany5603
     Phone: 	985-502-2253
-external_links:
 ---
 {{< youtube Hm7L7q1L40Y >}}

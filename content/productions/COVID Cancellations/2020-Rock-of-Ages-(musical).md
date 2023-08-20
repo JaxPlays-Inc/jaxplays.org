@@ -6,6 +6,7 @@ title: Rock of Ages (musical)
 date: 2020
 category: musical
 Theatre: The 5 & Dime
+Website: https://www.the5anddime.org/rock-of-ages
 show_details:
 - Book: Chris D'Arienzo
 - Music: Various
@@ -26,6 +27,4 @@ showtimes:
 - 2020-10-10 20:00:00
 crew:
 - Director: Niki Stokes
-external_links:
-  ROCK OF AGES | The 5 & Dime: https://www.the5anddime.org/rock-of-ages
 ---

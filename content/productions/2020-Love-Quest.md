@@ -39,8 +39,5 @@ cast:
 - "Bov\xE9": Rich Pintello
 crew:
 - Director: Michelle Svenson Kindy
-external_links:
-  Love Quest, Theatre Jacksonville: https://www.theatrejax.com/love-quest
-  Theatre Jacksonville | Love Quest: https://lovequest.club/theatre-jacksonville
 ---
 "It is a different type of comedy that was a lot of fun ... as evidenced by the laughter of the almost full-house audience on opening night." — [LOVE QUEST at THEATRE JACKSONVILLE - EU Jacksonville Newspaper](https://eujacksonville.com/2020/02/27/love-quest-at-theatre-jacksonville/)

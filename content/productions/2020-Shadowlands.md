@@ -7,6 +7,7 @@ date: 2020-01-10
 closing_date: 2020-01-26
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
+Website: https://www.theatrejax.com/shadowlands
 show_details:
 - Writer: William Nicholson - wiki
 - Subject: Biographical
@@ -37,6 +38,4 @@ cast:
 - Dr. Maurice Oakley: Matt King
 crew:
 - Director: Gary Webber
-external_links:
-  Shadowlands, Theatre Jacksonville: https://www.theatrejax.com/shadowlands
 ---

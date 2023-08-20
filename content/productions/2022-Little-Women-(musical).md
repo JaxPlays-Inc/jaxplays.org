@@ -57,7 +57,5 @@ crew:
 - Music Director: Shelli Long
 - Choreographer: Saraevelyn Bergin
 - Stage Manager: Saraevelyn Bergin
-external_links:
-  Little Women | Limelight Theatre: https://web.archive.org/web/20220523175154/https://limelight-theatre.org/little-women/
 ---
 "Based on Louisa May Alcott’s American classic, this Civil War story of love and family stands the test of time. Produced nationally and internationally, Little Women, has been praised by critics for its ambition in adapting such a well-known story for the stage. This timeless, captivating story is brought to life in this glorious musical filled with personal discovery, heartache, hope and everlasting love." — [Little Women - Limelight Theatre](https://web.archive.org/web/20220523175154/https://limelight-theatre.org/little-women/)

@@ -22,5 +22,4 @@ details:
   IBDB: Daniel Breaker | daniel-breaker-412638
   IMDb: Daniel Breaker | nm1683726
   Wikipedia: Daniel Breaker | Daniel_Breaker
-external_links:
 ---

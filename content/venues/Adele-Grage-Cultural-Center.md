@@ -15,5 +15,4 @@ Twitter:
 Instagram: 
 LinkedIn: 
 Phone: 	1-904-247-5828
-external_links:
 ---

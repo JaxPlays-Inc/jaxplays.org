@@ -26,6 +26,4 @@ showtimes:
 - 2020-06-28 15:00:00
 cast:
 crew:
-external_links:
-  On Stage | opct: https://www.opct.info/
 ---

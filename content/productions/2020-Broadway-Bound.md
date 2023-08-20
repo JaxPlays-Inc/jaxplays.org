@@ -32,8 +32,6 @@ cast:
 crew:
 - Director: Lee Hamby
 - Stage Manager: Cameron Sparks
-external_links:
-  BROADWAY BOUND | The 5 & Dime: https://www.the5anddime.org/broadway-bound
 ---
 'Broadway Bound!' is a night of cabaret performances by some of Northeast Florida's rising stars in college, middle and high school.
 

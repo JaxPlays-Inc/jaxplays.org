@@ -44,7 +44,6 @@ crew:
 - Sound Design: China Richardson
 - Music Dirction: Tina Wilson
 - Choreography: Arias West
-external_links:
 photos:
 - photo: 2023_Choir_Boy_00.jpeg
   photo_credit: Players by the Sea

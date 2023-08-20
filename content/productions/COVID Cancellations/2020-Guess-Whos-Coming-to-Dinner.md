@@ -22,6 +22,4 @@ showtimes:
 - 2020-05-01 20:00:00
 - 2020-05-02 20:00:00
 - 2020-05-03 14:00:00
-external_links:
-  THIS SEASON | Theatre Jacksonville: https://www.theatrejax.com/this-season
 ---

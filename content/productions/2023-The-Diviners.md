@@ -9,6 +9,7 @@ featured_image_attr: Limelight Theatre
 playbill:
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
+Website: https://web.archive.org/web/20230518165957/https://www.limelight-theatre.org/shows/the-diviners
 Genres: 
 - Play
 - Drama
@@ -58,6 +59,4 @@ crew:
 - Light Board Operator: Desiree Bracewell
 - Sound Board Operator: Ashley Taylor
 orchestra:
-external_links:
-  The Diviners - Limelight Theatre: https://web.archive.org/web/20230518165957/https://www.limelight-theatre.org/shows/the-diviners
 ---

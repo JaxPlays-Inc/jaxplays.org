@@ -69,7 +69,5 @@ cast:
 - Judy Haynes:
 - General Waverly:
 crew:
-external_links:
-  Tickets - Alhambra Theatre & Dining: https://www.alhambrajax.com/tickets/
 ---
 "When two WWII GI’s discover the secret their General has been keeping from his family, they use their musical talents to help him out. Don’t miss this Christmas Classic!" — [Tickets - Alhambra Theatre & Dining](https://www.alhambrajax.com/tickets/)

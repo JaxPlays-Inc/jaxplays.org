@@ -56,7 +56,5 @@ showtimes:
 - 2022-07-23 12:00:00
 - 2022-07-23 17:30:00
 - 2022-07-24 12:00:00
-external_links:
-  Tickets - Alhambra Theatre & Dining: https://www.alhambrajax.com/tickets/
 ---
 "Sweet Dorothy Gale goes on a fantastic journey in a magical land. With the help of some new friends, can our young heroine escape the wicked witch and find her way home? Based on the books by L. Frank Baum, this musical is fun for the whole family." — [Tickets - Alhambra Theatre & Dining](https://www.alhambrajax.com/tickets/)

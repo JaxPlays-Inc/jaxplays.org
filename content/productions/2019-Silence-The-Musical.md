@@ -54,7 +54,5 @@ crew:
 - Music Director: Ben Beck
 - Choreographer: Niki Stokes
 - Stage Manager: Katie Cress
-external_links:
-  The 5 & Dime: https://www.the5anddime.org/silence-the-musical
 ---
 "In this musical adaptation of one of the American Film Institute’s 100 Greatest Films of All Time, rookie FBI agent Clarice Starling matches wits with a brilliant but insane cannibal named Dr. Hannibal Lecter in order to catch the serial killer known as Buffalo Bill. But in stark contrast to the original film’s heavy psychological tone, this laugh-out-loud, naughty satire is only interested in devouring your funny bone. Employing a singing chorus of floppy-eared lambs to narrate the action throughout as Buffalo Bill gleefully dances a hoedown while kidnapping hapless Catherine Martin, this irreverent (and definitely NOT FOR CHILDREN OR THE FAINT OF HEART) musical takes you on a whirlwind ride with Agent Starling as she faces her own demons and races the clock to unlock Lecter’s clues before another innocent girl is killed and skinned - but with plenty of time for an impromptu torch song or two along the way!" — [SILENCE! THE MUSICAL - The 5 & Dime](https://www.the5anddime.org/silence-the-musical)

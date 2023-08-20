@@ -42,6 +42,4 @@ cast:
 - Larry "Guts" Regan:
 - Roberta Van Rensselaer:
 crew:
-external_links:
-  On Stage | opct: https://www.opct.info
 ---

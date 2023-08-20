@@ -26,6 +26,4 @@ showtimes:
 cast:
 crew:
 - Director: Brian Niece
-external_links:
-  DETROIT | The 5 & Dime: https://www.the5anddime.org/detroit
 ---

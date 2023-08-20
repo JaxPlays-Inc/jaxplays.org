@@ -55,6 +55,4 @@ showtimes:
 - 2020-11-22 18:00:00
 cast:
 crew:
-external_links:
-  "Alhambra Footloose \u266B": https://www.alhambrajax.com/show/footloose/
 ---

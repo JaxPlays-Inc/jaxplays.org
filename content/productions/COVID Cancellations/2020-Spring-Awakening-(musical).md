@@ -6,6 +6,7 @@ title: Spring Awakening (musical)
 date: 2020
 category: musical
 Theatre: Players by the Sea
+Website: https://www.playersbythesea.org/spring-awakening
 show_details:
 - Music: Duncan Sheik - wiki
 - Lyrics: Steven Sater - wiki
@@ -33,6 +34,4 @@ crew:
 - Producers:
   - Kristopher Jackson
   - Gayle Featheringill
-external_links:
-  SPRING AWAKENING | Players by the Sea: https://www.playersbythesea.org/spring-awakening
 ---

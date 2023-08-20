@@ -60,7 +60,5 @@ cast:
   - Allison Williams
   - Lila Zaccaro
 crew:
-external_links:
-  Matilda the Musical - Amelia Community Theatre: https://www.ameliacommunitytheatre.org/Performances/Roald-Dahl%E2%80%99s-Matilda-The-Musical
 ---
 "Roald Dahl's Matilda The Musical" is a Tony Award-winning stage adaptation of the beloved children's book by Roald Dahl. The musical tells the story of a young girl named Matilda Wormwood, who is a gifted but mistreated child with extraordinary powers of telekinesis. Despite facing a series of challenges, including her neglectful parents and the tyrannical headmistress Miss Trunchbull, Matilda perseveres and discovers the true value of friendship, courage, and standing up for what's right. With an energetic and catchy score by Tim Minchin and a whimsical and magical set design, "Roald Dahl's Matilda The Musical" is a joyous celebration of childhood imagination and the power of individuality. The show has received critical acclaim for its witty script, dynamic choreography, and heartwarming message, making it a must-see for audiences of all ages.

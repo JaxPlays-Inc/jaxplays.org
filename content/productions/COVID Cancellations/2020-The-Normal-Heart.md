@@ -8,6 +8,7 @@ closing_date: 2020-11-22
 Genres: 
 - Play
 Theatre: The 5 & Dime
+Website: https://www.the5anddime.org/the-normal-heart
 show_details:
 - Writer: Larry Kramer - wiki
 - Setting: New York City, New York, United States
@@ -26,6 +27,4 @@ showtimes:
 cast:
 crew:
 - Director: Bradley Akers
-external_links:
-  THE NORMAL HEART | The 5 & Dime: https://www.the5anddime.org/the-normal-heart
 ---
