@@ -365,14 +365,15 @@
       {{ if .Params.photos }}
       <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+      <div class="flex flex-wrap">
         {{ range .Params.photos }}
         {{ $altText := .photo_alt | default $.Title }}
-        <figure class="photo">
+        <figure class="w-40-l">
           <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery"
             data-title="{{ .photo_caption }}{{ if and .photo_caption .photo_attr }} | {{ end }}{{ .photo_attr }}"><img
               src="{{ printf "/media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
           {{ if or .photo_caption .photo_attr }}
-          <figcaption>
+          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
             {{ with .photo_caption }}
             {{ . }}
             {{ end }}
@@ -384,6 +385,7 @@
           {{ end }}
         </figure>
         {{ end }}
+        </div>
       </div>
       {{ end }}
 
