@@ -368,7 +368,7 @@
       <div class="flex flex-wrap">
         {{ range .Params.photos }}
         {{ $altText := .photo_alt | default $.Title }}
-        <figure class="w-40-l">
+        <figure class="w-40-l center">
           <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery"
             data-title="{{ .photo_caption }}{{ if and .photo_caption .photo_attr }} | {{ end }}{{ .photo_attr }}"><img
               src="{{ printf "/media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
