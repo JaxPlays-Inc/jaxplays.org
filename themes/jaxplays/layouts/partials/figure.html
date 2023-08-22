@@ -1,6 +1,6 @@
 <!-- layouts/partials/figure.html -->
 <figure class="db mw8 center {{ with .class }}{{ . }}{{ end }}">
-  <a href="{{ .src }}">
+  <a href="{{ .src }}" data-lightbox="gallery" data-alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}" data-title="{{ with .caption }}{{ . }}{{ end }}{{ if .attr }}{{ with .attrlink }}<a href='{{ . }}''> | (📷 {{ .attr }})</a>{{ else }} | (📷 {{ .attr }}){{ end }}{{ end }}">
     <img src="{{ .src }}" {{ if or .alt .caption }}alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}"{{ end }} />
     </a>
     {{ if or (or .title .caption) .attr }}

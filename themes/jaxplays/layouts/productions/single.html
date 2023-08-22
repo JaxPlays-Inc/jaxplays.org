@@ -369,8 +369,7 @@
         {{ range .Params.photos }}
         {{ $altText := .photo_alt | default $.Title }}
         <figure class="w-40-l center">
-          <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery"
-            data-title="{{ .photo_caption }}{{ if and .photo_caption .photo_attr }} | {{ end }}{{ .photo_attr }}"><img
+          <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
               src="{{ printf "/media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
           {{ if or .photo_caption .photo_attr }}
           <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
