@@ -83,7 +83,7 @@ jobs:
           PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
         with:
           status: ${{ job.status }}
-          title: 'Deployment Notification'
+          title: 'Success! Deployment Complete'
           message: 'Your update to jaxplays.org has been successfully deployed to GitHub Pages.'
 
       - name: Send Pushover Failure Notification
@@ -94,5 +94,5 @@ jobs:
           PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
         with:
           status: ${{ job.status }}
-          title: 'Deployment Failed'
+          title: 'Failed. Deployment Incomplete'
           message: 'Your update to jaxplays.org has failed to deploy to GitHub Pages. Check the logs for details.'
