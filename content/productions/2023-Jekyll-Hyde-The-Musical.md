@@ -3,13 +3,22 @@ title: "Jekyll & Hyde: The Musical"
 date: 2023-10-13
 closing_date: 2023-10-22
 layout: productions
-featured_image:
-featured_image_caption:
-featured_image_attr:
+featured_image: 2023-Jekyll-Hyde-The-Musical.webp
+featured_image_caption: "Poster for Jekyll & Hyde: The Musical by St. Marys Little Theatre"
+featured_image_attr: "St. Marys Little Theatre"
 playbill:
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/64ad92cac4a06a0e416321ec
+Genres:
+- Musical
+- Drama
+- Thriller
+- Horror
+- Suspense
+- Mystery
+- Romance
+- Tragedy
 showtimes:
 - 2023-10-13 19:00:00
 - 2023-10-14 19:00:00
