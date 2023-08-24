@@ -18,28 +18,30 @@
     {{ $featuredImageAttr := .Params.featured_image_attr }}
     {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
     {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
-
+    
     {{ if or $featuredImage .Content }}
     <div class="flex flex-column flex-row-ns">
       <!-- Featured Image Section -->
+      {{ $imagePath := "/media/default/people_headshot.webp" }} <!-- Default image path -->
       {{ if $featuredImage }}
+        {{ $imagePath = printf "/media/headshots/%s" $featuredImage }} <!-- Concatenate path if featured image exists -->
+      {{ end }}
       <div class="w-100 w-40-ns w-25-l flex">
-        <a href="/media/headshots/{{ $featuredImage }}" data-lightbox="image-1" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-          <img src="/media/headshots/{{ $featuredImage }}" class="w5-ns w-100"  alt="{{ $featuredImagealt }}" />
+        <a href="{{ $imagePath }}" data-lightbox="image-1" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img src="{{ $imagePath }}" class="w5-ns w-100"  alt="{{ $featuredImagealt }}" />
         </a>
       </div>
-      {{ end }}
-
+    
       {{ with .Content }}
       <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
         <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
           {{ . }}
         </div>
-        
       </div>
       {{ end }}
     </div>
     {{ end }}
+    
 
     <!-- Hugo Credits Section -->
 
@@ -65,7 +67,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      
+    
       <!-- Display the productions with the person's name in the credits -->
       {{ if $productionsWithPerson }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
@@ -79,13 +81,15 @@
                   {{ $featuredImage = .Params.featured_image }}
                 {{ end }}
               {{ end }}
-              {{ with $featuredImage }}
+              {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+              {{ if $featuredImage }}
+                {{ $imagePath = printf "/media/posters/%s" $featuredImage }} <!-- Concatenate path if featured image exists -->
+              {{ end }}
               <div class="w-10">
                 <a href="{{ $details.production.Permalink }}">
-                  <img src="/media/posters/{{ . }}" alt="{{ $details.production.Title }}" class="w-100"/>
+                  <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100"/>
                 </a>
               </div>
-              {{ end }}
               <div class="w-75 pl3">
                 <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
                 {{ range $index, $credit := $details.credits }}
@@ -99,10 +103,9 @@
       {{ end }}
     {{ end }}
     
+        
     <!-- END Hugo Credits Section -->
-    
-
-
+  
     <!-- If cast exists -->
     {{ if .Params.cast }}
     <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
