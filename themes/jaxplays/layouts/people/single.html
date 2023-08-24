@@ -113,34 +113,15 @@
 
     <!-- END Hugo Credits Section -->
 
-    <!-- If cast exists -->
-    {{ if .Params.cast }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Cast Credits</h3>
-      {{ range .Params.cast }} <!-- Iterate over the cast array -->
-      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
-        <div class="pa3-ns pa2 w-50 w-70-l">
-          {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
-          {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
-          <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }}
-          <!-- Separate by commas -->
-          {{ end }}
-          {{ else }}
-          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-
     <!-- Reviews -->
-    {{ $filename := .File.BaseFileName | replaceRE "-" " "}}
-    {{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
-    {{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
+    {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
+    {{ $relatedReviews := slice }}
+
+    {{ range where site.RegularPages "Type" "reviews" }}
+      {{ if in .Params.cast $personName }}
+        {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object -->
+      {{ end }}
+    {{ end }}
 
     {{ if or $relatedReviews .Params.reviews }}
     <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
@@ -154,55 +135,56 @@
       {{ end }}
 
       {{ if .Params.reviews }}
-      {{ range .Params.reviews }} <!-- Iterate over the crew array -->
+      {{ range .Params.reviews }} <!-- Iterate over the reviews array -->
       {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
-      <h4><a href="{{ $reviewURL  }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
+      <h4><a href="{{ $reviewURL }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
       {{ end }}
       {{ end }}
       {{ end }}
 
+    </div>
+    {{ end }}
+
+    <!-- Press -->
+    {{ if .Params.press }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+
+      {{ range .Params.press }} <!-- Iterate over the crew array -->
+      {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+      {{ end }}
+      {{ end }}
       {{ end }}
 
-      <!-- Press -->
-      {{ if .Params.press }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">Press</h3>
-
-        {{ range .Params.press }} <!-- Iterate over the crew array -->
-        {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
-        <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-
-        <!-- Photos -->
-        {{ if .Params.photos }}
-        <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
-          }}">
-          <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-          <div class="flex flex-wrap">
-            {{ range .Params.photos }}
-            {{ $altText := .photo_alt | default $.Title }}
-            <figure class="w-40-l center">
-              <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
-                data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-                  src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
-              {{ if or .photo_caption .photo_attr }}
-              <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
-                {{ with .photo_caption }}
-                {{ . }}
-                {{ end }}
-                {{ if and .photo_caption .photo_attr }} | {{ end }}
-                {{ with .photo_attr }}
-                (📷 {{ . }})
-                {{ end }}
-              </figcaption>
+      <!-- Photos -->
+      {{ if .Params.photos }}
+      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
+        }}">
+        <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+        <div class="flex flex-wrap">
+          {{ range .Params.photos }}
+          {{ $altText := .photo_alt | default $.Title }}
+          <figure class="w-40-l center">
+            <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+              data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+                src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+            {{ if or .photo_caption .photo_attr }}
+            <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+              {{ with .photo_caption }}
+              {{ . }}
               {{ end }}
-            </figure>
+              {{ if and .photo_caption .photo_attr }} | {{ end }}
+              {{ with .photo_attr }}
+              (📷 {{ . }})
+              {{ end }}
+            </figcaption>
             {{ end }}
-          </div>
+          </figure>
+          {{ end }}
         </div>
-        {{ end }}
+      </div>
+      {{ end }}
 
   </article>
 </div>

@@ -10,6 +10,10 @@ featured_image_alt: Bradley Akers as Jon in The Five & Dime's 'Tick, Tick... Boo
 description: "The 5 & Dime's rendition of 'Tick, Tick... Boom!' is an intimate masterpiece of theatre. Join the emotional rollercoaster in this review."
 author: Ray Hollister
 production: 2023 Tick Tick Boom
+cast: 
+- Bradley Akers
+- Zach Rivera
+- Shauna Clark
 ---
 In a beautifully intimate and vulnerable display that strikes a chord with the creative soul, [The 5 & Dime](/theatres/the-5-and-dime/)'s rendition of *[Tick, Tick... Boom!](/productions/2023-tick-tick-boom/)* at [The Florida Ballet](/venues/the-florida-ballet/) weaves ambition, ingenuity and a hint of despair into a rich tapestry of performance. From Jonathan Larson, the acclaimed composer and playwright best known for his groundbreaking musical *[Rent](https://en.wikipedia.org/wiki/Rent_(musical))*, this semi-autobiographical work springs to life with vibrant performances and inspired direction.
 
