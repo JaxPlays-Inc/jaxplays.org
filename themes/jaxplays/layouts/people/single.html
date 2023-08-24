@@ -48,17 +48,20 @@
     <!-- Loop through the different credit types -->
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-      <!-- Search for productions where the person's name is in the credits -->
-      {{ $productionsWithPerson := slice }}
+      {{ $productionsWithPerson := dict }}
       {{ range where site.Pages "Type" "productions" }}
-        {{ $production := . }} <!-- Capture the current production page -->
+        {{ $production := . }}
         {{ with index .Params $creditType }}
+          {{ $credits := slice }}
           {{ range . }}
             {{ range $character, $actor := . }}
               {{ if or (eq $actor $personName) (in $actor $personName) }}
-                {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "character" $character) }}
+                {{ $credits = $credits | append $character }}
               {{ end }}
             {{ end }}
+          {{ end }}
+          {{ if $credits }}
+            {{ $productionsWithPerson = merge $productionsWithPerson (dict $production.Permalink (dict "production" $production "credits" $credits)) }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -66,30 +69,31 @@
       <!-- Display the productions with the person's name in the credits -->
       {{ if $productionsWithPerson }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3> <!-- Convert to human-readable form -->
-        {{ range $productionsWithPerson }}
-        <div class="flex bb bw1 b--silver f5 f4-ns">
-          <div class="b pa3-ns pa2 w-100 flex">
-            {{ $production := .production }}
-            {{ $featuredImage := $production.Params.featured_image }} <!-- Get production's featured image -->
-            {{ if not $featuredImage }} <!-- If no production's featured image, look for show's featured image -->
-              {{ with (site.GetPage "page" (printf "/shows/%s" ($production.Title | urlize))) }}
-                {{ $featuredImage = .Params.featured_image }}
+        <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
+        {{ range $permalink, $details := $productionsWithPerson }}
+          <div class="flex bb bw1 b--silver f5 f4-ns">
+            <div class="b pa3-ns pa2 w-100 flex">
+              {{ $featuredImage := $details.production.Params.featured_image }}
+              {{ if not $featuredImage }}
+                {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+                  {{ $featuredImage = .Params.featured_image }}
+                {{ end }}
               {{ end }}
-            {{ end }}
-            {{ with $featuredImage }} <!-- Display the image if found -->
-            <div class="w-10">
-              <a href="{{ $production.Permalink }}">
-                <img src="/media/posters/{{ . }}" alt="{{ $production.Title }}" class="w-100"/>
-              </a>
-            </div>
-            {{ end }}
-            <div class="w-90 pl3">
-              <a href="{{ $production.Permalink }}">{{ $production.Title }}</a>
-              <br>{{ .character }} <!-- Display character or title -->
+              {{ with $featuredImage }}
+              <div class="w-10">
+                <a href="{{ $details.production.Permalink }}">
+                  <img src="/media/posters/{{ . }}" alt="{{ $details.production.Title }}" class="w-100"/>
+                </a>
+              </div>
+              {{ end }}
+              <div class="w-75 pl3">
+                <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
+                {{ range $index, $credit := $details.credits }}
+                  {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
+                {{ end }}
+              </div>
             </div>
           </div>
-        </div>
         {{ end }}
       </div>
       {{ end }}
