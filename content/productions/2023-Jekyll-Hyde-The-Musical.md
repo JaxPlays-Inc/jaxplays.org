@@ -6,6 +6,7 @@ layout: productions
 featured_image: 2023_Jekyll_Hyde_The_Musical.webp
 featured_image_caption: "Poster for Jekyll & Hyde: The Musical by St. Marys Little Theatre"
 featured_image_attr: "St. Marys Little Theatre"
+description: "'Jekyll & Hyde: The Musical' reveals a haunting tale of love, madness, and duality. An unforgettable, thrilling experience."
 playbill:
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
@@ -82,3 +83,4 @@ understudies:
 - Lucy: Heike Priest
 - Emma: Heather Davis
 ---
+Explore the complex duality of human nature with "Jekyll & Hyde: The Musical." This intriguing production delves into a world of love, morality, and madness, brought to life with remarkable performances and unforgettable melodies. The transformation of Dr. Jekyll into Mr. Hyde offers a mesmerizing depiction of internal conflict, making it a timeless masterpiece that resonates with audiences across generations. Experience the gripping allure of this renowned musical.
