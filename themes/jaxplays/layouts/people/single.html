@@ -38,88 +38,94 @@
       {{ end }}
     </header>
 
-    <!-- Hugo Credits Section -->
+    <!-- Credits Section -->
 
     {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
+    {{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
+    {{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
 
     <!-- Loop through the different credit types -->
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-    {{ $productionsWithPerson := slice }}
-    {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
-    {{ $production := . }}
-    {{ with index .Params $creditType }}
-    {{ $credits := slice }}
-    {{ range . }}
-    {{ range $character, $actor := . }}
-    {{ if or (eq $actor $personName) (in $actor $personName) }}
-    {{ $credits = $credits | append $character }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ if $credits }}
-    {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-
-    <!-- Display the productions with the person's name in the credits -->
-    {{ if $productionsWithPerson }}
-    <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
-      {{ range $details := $productionsWithPerson }}
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
-          <!-- Left Section -->
-          <div class="w-25 w-10-l">
-            {{ $featuredImage := $details.production.Params.featured_image }}
-            {{ if not $featuredImage }}
-            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
-            {{ $featuredImage = .Params.featured_image }}
-            {{ end }}
-            {{ end }}
-            {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-            {{ if $featuredImage }}
-            {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
-            <!-- Concatenate path if featured image exists -->
-            {{ end }}
-            <a href="{{ $details.production.Permalink }}">
-              <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
-            </a>
-          </div>
-          <!-- Right Section -->
-          <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
-            <!-- Left Section of Right Section -->
-            <div class="b w-100 w-50-l">
-              <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
-              {{ range $index, $credit := $details.credits }}
-              {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
+      {{ $productionsWithPerson := slice }}
+      {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
+        {{ $production := . }}
+        {{ with index .Params $creditType }}
+          {{ $credits := slice }}
+          {{ range . }}
+            {{ range $character, $actor := . }}
+              {{ range $name := $personNames }} <!-- Looping through all the person's names -->
+                {{ if eq $actor $name }}
+                  {{ $credits = $credits | append $character }}
+                {{ end }}
               {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ if $credits }}
+            {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      <!-- Display the productions with the person's name in the credits -->
+      {{ if $productionsWithPerson }}
+      <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
+        {{ range $details := $productionsWithPerson }}
+        <div class="flex bb bw1 b--silver f5 f4-ns">
+          <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
+            <!-- Left Section -->
+            <div class="w-25 w-10-l">
+              {{ $featuredImage := $details.production.Params.featured_image }}
+              {{ if not $featuredImage }}
+              {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+              {{ $featuredImage = .Params.featured_image }}
+              {{ end }}
+              {{ end }}
+              {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+              {{ if $featuredImage }}
+              {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+              <!-- Concatenate path if featured image exists -->
+              {{ end }}
+              <a href="{{ $details.production.Permalink }}">
+                <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
+              </a>
             </div>
-            <!-- Right Section of Right Section -->
-            <div class="w-100 w-50-l tr-l">
-              <!-- Added flex flex-column justify-center -->
-              <div>{{ $details.production.Date.Format "January 2006" }}</div>
-              <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
-              <div>{{ $details.production.Params.Venue }}</div>
+            <!-- Right Section -->
+            <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
+              <!-- Left Section of Right Section -->
+              <div class="b w-100 w-50-l">
+                <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
+                {{ range $index, $credit := $details.credits }}
+                {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
+                {{ end }}
+              </div>
+              <!-- Right Section of Right Section -->
+              <div class="w-100 w-50-l tr-l">
+                <!-- Added flex flex-column justify-center -->
+                <div>{{ $details.production.Date.Format "January 2006" }}</div>
+                <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
+                <div>{{ $details.production.Params.Venue }}</div>
+              </div>
             </div>
           </div>
         </div>
+        {{ end }}
       </div>
       {{ end }}
-    </div>
-    {{ end }}
-    {{ end }}
+      {{ end }}
 
-    <!-- END Hugo Credits Section -->
+    <!-- END Credits Section -->
 
     <!-- Reviews -->
-    {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
     {{ $relatedReviews := slice }}
-
     {{ range where site.RegularPages "Type" "reviews" }}
-      {{ if in .Params.cast $personName }}
-        {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object -->
+      {{ $review := . }} <!-- Store the current review in a variable -->
+      {{ range $name := $personNames }} <!-- Looping through all the person's names -->
+        {{ if in $review.Params.cast $name }}
+          {{ $relatedReviews = $relatedReviews | append $review }} <!-- Appending the entire review object if a name is found in cast list -->
+          {{ break }} <!-- Break the inner loop if a match is found, to avoid duplicate appending -->
+        {{ end }}
       {{ end }}
     {{ end }}
 
