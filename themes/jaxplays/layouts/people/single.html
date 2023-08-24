@@ -66,34 +66,42 @@
           {{ end }}
         {{ end }}
       {{ end }}
-
+    
       <!-- Display the productions with the person's name in the credits -->
       {{ if $productionsWithPerson }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
         {{ range $details := $productionsWithPerson }}
           <div class="flex bb bw1 b--silver f5 f4-ns">
-            <div class="b pa3-ns pa2 w-100 flex">
-              {{ $featuredImage := $details.production.Params.featured_image }}
-              {{ if not $featuredImage }}
-                {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
-                  {{ $featuredImage = .Params.featured_image }}
-                {{ end }}
-              {{ end }}
-              {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-              {{ if $featuredImage }}
-                {{ $imagePath = printf "/media/posters/%s" $featuredImage }} <!-- Concatenate path if featured image exists -->
-              {{ end }}
+            <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
+              <!-- Left Section -->
               <div class="w-25 w-10-ns">
+                {{ $featuredImage := $details.production.Params.featured_image }}
+                {{ if not $featuredImage }}
+                  {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+                    {{ $featuredImage = .Params.featured_image }}
+                  {{ end }}
+                {{ end }}
+                {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+                {{ if $featuredImage }}
+                  {{ $imagePath = printf "/media/posters/%s" $featuredImage }} <!-- Concatenate path if featured image exists -->
+                {{ end }}
                 <a href="{{ $details.production.Permalink }}">
                   <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100"/>
                 </a>
               </div>
-              <div class="w-75 w-90-ns pl3">
+              <!-- Middle Section -->
+              <div class="b w-75 w-60-ns pl3">
                 <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
                 {{ range $index, $credit := $details.credits }}
                   {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
                 {{ end }}
+              </div>
+              <!-- Right Section -->
+              <div class="w-100 w-30-ns pl3 flex flex-column justify-center tr"> <!-- Added justify-center -->
+                <div>{{ $details.production.Date.Format "January 2006" }}</div>
+                <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
+                <div>{{ $details.production.Params.Venue }}</div>
               </div>
             </div>
           </div>
@@ -101,6 +109,8 @@
       </div>
       {{ end }}
     {{ end }}
+    
+
         
     <!-- END Hugo Credits Section -->
   

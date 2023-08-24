@@ -66,6 +66,10 @@ h1 a.jaxplayslogo {
 	margin-top: 0;
 }
 
+.credits .overflow-hidden.nowrap {
+	text-overflow: ellipsis;
+}
+
 @media screen and (min-width: 30em) {
 	.tickets {
 		min-width: 100px;
