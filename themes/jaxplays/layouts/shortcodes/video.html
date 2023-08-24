@@ -1,0 +1,24 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+{{ $attr := .Get "attr" }}
+{{ $class := .Get "class" }}
+{{ $link := .Get "link" }}
+{{ $title := .Get "title" }}
+{{ $attrlink := .Get "attrlink" }}
+{{ $light_text_color_class := .Site.Params.light_text_color_class }}
+
+<figure> 
+<video src="{{ $src }}" controls width="100%" autoplay loop muted>
+</video>
+{{ if or (or $title $caption) $attr }}
+      <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ $light_text_color_class }} f5">
+        {{ if or $caption $attr }}
+        {{ $caption }}
+        {{ if $attr }}
+          {{ with $attrlink }} | ( 📷&nbsp;<a href="{{ . }}" target="_blank"> {{ $attr }}</a>){{ else }} | (📷 {{ $attr }}){{ end }}
+        {{ end }}
+        {{ end }}
+      </figcaption>
+  {{ end }}
+</figure>

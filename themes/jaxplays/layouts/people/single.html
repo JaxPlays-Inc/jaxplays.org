@@ -3,44 +3,40 @@
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
     <header>
-      <h1 class="f3 f2-l f1-m mb0">
+      <h1 class="f3 f2-l f1-m tc tl-ns ">
         {{ .Title }}
       </h1>
-      <h2 class="fw4 f3-ns f5 ttu">
-        {{ with .Params.date }}{{ dateFormat "2006" . }}{{ end }}
-        {{ if and .Params.date .Params.theatre }}&#8226;{{ end }}
-        {{ .Params.theatre }}
-      </h2>
-    </header>
+      {{ $featuredImage := .Params.featured_image }}
+      {{ $featuredImageCaption := .Params.featured_image_caption }}
+      {{ $featuredImageAttr := .Params.featured_image_attr }}
+      {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+      {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
 
-    {{ $featuredImage := .Params.featured_image }}
-    {{ $featuredImageCaption := .Params.featured_image_caption }}
-    {{ $featuredImageAttr := .Params.featured_image_attr }}
-    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
-    
-    {{ if or $featuredImage .Content }}
-    <div class="flex flex-column flex-row-ns">
-      <!-- Featured Image Section -->
-      {{ $imagePath := "/media/default/people_headshot.webp" }} <!-- Default image path -->
-      {{ if $featuredImage }}
-        {{ $imagePath = printf "/media/headshots/%s" $featuredImage }} <!-- Concatenate path if featured image exists -->
-      {{ end }}
-      <div class="w-100 w-40-ns w-25-l flex">
-        <a href="{{ $imagePath }}" data-lightbox="image-1" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-          <img src="{{ $imagePath }}" class="w5-ns w-100"  alt="{{ $featuredImagealt }}" />
-        </a>
-      </div>
-    
-      {{ with .Content }}
-      <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
-        <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-          {{ . }}
+      {{ if or $featuredImage .Content }}
+      <div class="flex flex-column flex-row-ns">
+        <!-- Featured Image Section -->
+        {{ $imagePath := "/media/default/people_headshot.webp" }} <!-- Default image path -->
+        {{ if $featuredImage }}
+        {{ $imagePath = printf "/media/headshots/%s" $featuredImage }}
+        <!-- Concatenate path if featured image exists -->
+        {{ end }}
+        <div class="w-75 w-40-m w-25-l flex center">
+          <a href="{{ $imagePath }}" data-lightbox="image-1"
+            data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+            <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+          </a>
         </div>
+
+        {{ with .Content }}
+        <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+          <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+            {{ . }}
+          </div>
+        </div>
+        {{ end }}
       </div>
       {{ end }}
-    </div>
-    {{ end }}
+    </header>
 
     <!-- Hugo Credits Section -->
 
@@ -49,71 +45,74 @@
     <!-- Loop through the different credit types -->
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-      {{ $productionsWithPerson := slice }}
-      {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
-        {{ $production := . }}
-        {{ with index .Params $creditType }}
-          {{ $credits := slice }}
-          {{ range . }}
-            {{ range $character, $actor := . }}
-              {{ if or (eq $actor $personName) (in $actor $personName) }}
-                {{ $credits = $credits | append $character }}
-              {{ end }}
+    {{ $productionsWithPerson := slice }}
+    {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
+    {{ $production := . }}
+    {{ with index .Params $creditType }}
+    {{ $credits := slice }}
+    {{ range . }}
+    {{ range $character, $actor := . }}
+    {{ if or (eq $actor $personName) (in $actor $personName) }}
+    {{ $credits = $credits | append $character }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ if $credits }}
+    {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    <!-- Display the productions with the person's name in the credits -->
+    {{ if $productionsWithPerson }}
+    <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
+      {{ range $details := $productionsWithPerson }}
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
+          <!-- Left Section -->
+          <div class="w-25 w-10-l">
+            {{ $featuredImage := $details.production.Params.featured_image }}
+            {{ if not $featuredImage }}
+            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+            {{ $featuredImage = .Params.featured_image }}
             {{ end }}
-          {{ end }}
-          {{ if $credits }}
-            {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    
-      <!-- Display the productions with the person's name in the credits -->
-      {{ if $productionsWithPerson }}
-      <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
-        {{ range $details := $productionsWithPerson }}
-          <div class="flex bb bw1 b--silver f5 f4-ns">
-            <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
-              <!-- Left Section -->
-              <div class="w-25 w-10-ns">
-                {{ $featuredImage := $details.production.Params.featured_image }}
-                {{ if not $featuredImage }}
-                  {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
-                    {{ $featuredImage = .Params.featured_image }}
-                  {{ end }}
-                {{ end }}
-                {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-                {{ if $featuredImage }}
-                  {{ $imagePath = printf "/media/posters/%s" $featuredImage }} <!-- Concatenate path if featured image exists -->
-                {{ end }}
-                <a href="{{ $details.production.Permalink }}">
-                  <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100"/>
-                </a>
-              </div>
-              <!-- Middle Section -->
-              <div class="b w-75 w-60-ns pl3">
-                <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
-                {{ range $index, $credit := $details.credits }}
-                  {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
-                {{ end }}
-              </div>
-              <!-- Right Section -->
-              <div class="w-100 w-30-ns pl3 flex flex-column justify-center tr"> <!-- Added justify-center -->
-                <div>{{ $details.production.Date.Format "January 2006" }}</div>
-                <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
-                <div>{{ $details.production.Params.Venue }}</div>
-              </div>
+            {{ end }}
+            {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+            {{ if $featuredImage }}
+            {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+            <!-- Concatenate path if featured image exists -->
+            {{ end }}
+            <a href="{{ $details.production.Permalink }}">
+              <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
+            </a>
+          </div>
+          <!-- Right Section -->
+          <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
+            <!-- Left Section of Right Section -->
+            <div class="b w-100 w-50-l">
+              <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
+              {{ range $index, $credit := $details.credits }}
+              {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
+              {{ end }}
+            </div>
+            <!-- Right Section of Right Section -->
+            <div class="w-100 w-50-l tr-l">
+              <!-- Added flex flex-column justify-center -->
+              <div>{{ $details.production.Date.Format "January 2006" }}</div>
+              <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
+              <div>{{ $details.production.Params.Venue }}</div>
             </div>
           </div>
-        {{ end }}
+        </div>
       </div>
       {{ end }}
+    </div>
     {{ end }}
-    
+    {{ end }}
 
-        
     <!-- END Hugo Credits Section -->
-  
+
     <!-- If cast exists -->
     {{ if .Params.cast }}
     <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
@@ -150,7 +149,8 @@
       <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
       {{ $summary := .Summary | plainify | safeHTML }}
       <span class="db">{{ $summary }}</span>
-      <a href="{{ .Permalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      <a href="{{ .Permalink }}"
+        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       {{ end }}
 
       {{ if .Params.reviews }}
@@ -175,32 +175,34 @@
         {{ end }}
         {{ end }}
 
-      <!-- Photos -->
-      {{ if .Params.photos }}
-      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-      <div class="flex flex-wrap">
-        {{ range .Params.photos }}
-        {{ $altText := .photo_alt | default $.Title }}
-        <figure class="w-40-l center">
-          <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-              src="{{ printf "/media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
-          {{ if or .photo_caption .photo_attr }}
-          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
-            {{ with .photo_caption }}
-            {{ . }}
+        <!-- Photos -->
+        {{ if .Params.photos }}
+        <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
+          }}">
+          <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+          <div class="flex flex-wrap">
+            {{ range .Params.photos }}
+            {{ $altText := .photo_alt | default $.Title }}
+            <figure class="w-40-l center">
+              <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+                data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+                  src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+              {{ if or .photo_caption .photo_attr }}
+              <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+                {{ with .photo_caption }}
+                {{ . }}
+                {{ end }}
+                {{ if and .photo_caption .photo_attr }} | {{ end }}
+                {{ with .photo_attr }}
+                (📷 {{ . }})
+                {{ end }}
+              </figcaption>
+              {{ end }}
+            </figure>
             {{ end }}
-            {{ if and .photo_caption .photo_attr }} | {{ end }}
-            {{ with .photo_attr }}
-            (📷 {{ . }})
-            {{ end }}
-          </figcaption>
-          {{ end }}
-        </figure>
-        {{ end }}
+          </div>
         </div>
-      </div>
-      {{ end }}
+        {{ end }}
 
   </article>
 </div>
