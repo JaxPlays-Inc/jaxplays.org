@@ -6,10 +6,10 @@ redirect_from:
 other_names: 
  - Paddy Heusinger
 layout: people
-image: 
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: 
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook:

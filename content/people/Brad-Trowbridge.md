@@ -1,10 +1,10 @@
 ---
 title: Brad Trowbridge
 layout: people
-image: 
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: 
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 birth_info:
   birth_name:
   birth_date: 

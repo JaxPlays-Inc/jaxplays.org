@@ -1,10 +1,10 @@
 ---
 title: Josh Andrews
 layout: people
-image: Josh_Andrews.webp 
-image_credit: Josh Andrews
-image_alt: 
-image_caption: 
+featured_image: Josh_Andrews.webp 
+featured_image_attr: Josh Andrews
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook:

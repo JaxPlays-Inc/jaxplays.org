@@ -1,0 +1,192 @@
+{{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
+{{ define "main" }}
+<div class="flex-l mt0 w-100 mw8 center">
+  <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
+    <header>
+      <h1 class="f3 f2-l f1-m mb0">
+        {{ .Title }}
+      </h1>
+      <h2 class="fw4 f3-ns f5 ttu">
+        {{ with .Params.date }}{{ dateFormat "2006" . }}{{ end }}
+        {{ if and .Params.date .Params.theatre }}&#8226;{{ end }}
+        {{ .Params.theatre }}
+      </h2>
+    </header>
+
+    {{ $featuredImage := .Params.featured_image }}
+    {{ $featuredImageCaption := .Params.featured_image_caption }}
+    {{ $featuredImageAttr := .Params.featured_image_attr }}
+    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
+
+    {{ if or $featuredImage .Content }}
+    <div class="flex flex-column flex-row-ns">
+      <!-- Featured Image Section -->
+      {{ if $featuredImage }}
+      <div class="w-100 w-40-ns w-25-l flex">
+        <a href="/media/headshots/{{ $featuredImage }}" data-lightbox="image-1" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img src="/media/headshots/{{ $featuredImage }}" class="w5-ns w-100"  alt="{{ $featuredImagealt }}" />
+        </a>
+      </div>
+      {{ end }}
+
+      {{ with .Content }}
+      <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+        <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          {{ . }}
+        </div>
+        
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- If cast exists -->
+    {{ if .Params.cast }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
+      {{ range .Params.cast }} <!-- Iterate over the cast array -->
+      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
+        <div class="pa3-ns pa2 w-50 w-70-l">
+          {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
+          {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
+          <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }}
+          <!-- Separate by commas -->
+          {{ end }}
+          {{ else }}
+          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- If crew exists -->
+    {{ if .Params.crew }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
+      {{ range .Params.crew }} <!-- Iterate over the crew array -->
+      {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $role }}</div> <!-- Role -->
+        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
+          {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
+          {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
+          <a href="/people/{{ $p | urlize }}">{{ $p }}</a>{{ if ne $idx (sub (len $person) 1) }}, {{ end }}
+          <!-- Separate by commas -->
+          {{ end }}
+          {{ else }}
+          <a href="/people/{{ $person | urlize }}">{{ $person }}</a> <!-- Single person's name with URLized link -->
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- If understudies exists -->
+    {{ if .Params.understudies }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Understudies</h3>
+      {{ range .Params.understudies }} <!-- Iterate over the understudies array -->
+      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
+        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
+          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Actor name with URLized link -->
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- If orchestra exists -->
+    {{ if .Params.orchestra }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Orchestra</h3>
+      {{ range .Params.orchestra }} <!-- Iterate over the orchestra array -->
+      {{ range $instrument, $musician := . }} <!-- Iterate over key-value pairs -->
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $instrument }}</div> <!-- Instrument name -->
+        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
+          <a href="/people/{{ $musician | urlize }}">{{ $musician }}</a> <!-- Musician's name with URLized link -->
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Reviews -->
+    {{ $filename := .File.BaseFileName | replaceRE "-" " "}}
+    {{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
+    {{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
+
+    {{ if or $relatedReviews .Params.reviews }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
+      {{ range $relatedReviews }}
+      <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
+      {{ $summary := .Summary | plainify | safeHTML }}
+      <span class="db">{{ $summary }}</span>
+      <a href="{{ .Permalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      {{ end }}
+
+      {{ if .Params.reviews }}
+      {{ range .Params.reviews }} <!-- Iterate over the crew array -->
+      {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $reviewURL  }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ end }}
+
+      <!-- Press -->
+      {{ if .Params.press }}
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+
+        {{ range .Params.press }} <!-- Iterate over the crew array -->
+        {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
+        <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+
+      <!-- Photos -->
+      {{ if .Params.photos }}
+      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+      <div class="flex flex-wrap">
+        {{ range .Params.photos }}
+        {{ $altText := .photo_alt | default $.Title }}
+        <figure class="w-40-l center">
+          <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+              src="{{ printf "/media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+          {{ if or .photo_caption .photo_attr }}
+          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+            {{ with .photo_caption }}
+            {{ . }}
+            {{ end }}
+            {{ if and .photo_caption .photo_attr }} | {{ end }}
+            {{ with .photo_attr }}
+            (📷 {{ . }})
+            {{ end }}
+          </figcaption>
+          {{ end }}
+        </figure>
+        {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+  </article>
+</div>
+{{ end }}

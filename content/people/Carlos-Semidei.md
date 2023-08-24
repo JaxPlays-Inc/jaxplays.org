@@ -4,10 +4,10 @@ other_names:
   - Carlos Julian Semidéi
   - Carlos Semidéi
 layout: people
-image: Carlos_Semidei.webp
-image_credit: 
-image_alt: Headshot of Carlos Semidei
-image_caption: 
+featured_image: Carlos_Semidei.webp
+featured_image_attr: 
+featured_image_alt: Headshot of Carlos Semidei
+featured_image_caption: 
 birth_info:
   birth_name: Carlos Julian Semidéi
   birth_date: 1957-11-25

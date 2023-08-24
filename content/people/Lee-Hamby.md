@@ -1,10 +1,10 @@
 ---
 title: Lee Hamby
 layout: people
-image: Lee_Hamby.jpeg
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: Lee_Hamby.jpeg
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: https://leehamby.weebly.com
   Facebook:

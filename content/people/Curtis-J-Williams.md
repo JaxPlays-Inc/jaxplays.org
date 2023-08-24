@@ -1,10 +1,10 @@
 ---
 title: Curtis J. Williams
 layout: people
-image: Curtis_J_Williams.webp
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: Curtis_J_Williams.webp
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook: Curtis J. Williams | cjwilliams82

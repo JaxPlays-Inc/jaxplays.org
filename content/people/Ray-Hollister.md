@@ -5,10 +5,10 @@ redirect_from:
 other_names: 
  - Rayburn Hollister
 layout: people
-image: Ray_Hollister.jpg
-image_credit: Ray Hollister
-image_alt: Ray Hollister in 2018 standing in front of the Town Square Theater in the Magic Kingdom at Walt Disney World.
-image_caption: Ray Hollister in 2018 standing in front of the Town Square Theater in the Magic Kingdom at Walt Disney World.
+featured_image: Ray_Hollister.jpg
+featured_image_attr: Ray Hollister
+featured_image_alt: Ray Hollister in 2018 standing in front of the Town Square Theater in the Magic Kingdom at Walt Disney World.
+featured_image_caption: Ray Hollister in 2018 standing in front of the Town Square Theater in the Magic Kingdom at Walt Disney World.
 birth_info:
   birth_name: Rayburn Hollister III
   birth_date: 1980-12-07

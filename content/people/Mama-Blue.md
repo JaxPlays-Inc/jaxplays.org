@@ -7,10 +7,10 @@ other_names:
  - Sarah Sanders
  - Sarah E. Sanders
 layout: people
-image: 
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: 
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: https://www.mamabluesings.com
   Facebook: 1mamablue

@@ -5,10 +5,10 @@ redirect_from:
 other_names:
   - Daniel Owen Dungan
 layout: people
-image: Daniel_Dungan.webp
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: Daniel_Dungan.webp
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook:

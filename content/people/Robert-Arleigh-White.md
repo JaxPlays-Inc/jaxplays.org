@@ -1,10 +1,10 @@
 ---
 title: Robert Arleigh White
 layout: people
-image: Robert_Arleigh_White.jpeg
-image_credit: 
-image_alt: 
-image_caption: Robert Arleigh White's Facebook profile picture
+featured_image: Robert_Arleigh_White.jpeg
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: Robert Arleigh White's Facebook profile picture
 details:
   Website: 
   Facebook: Robert Arleigh White | robertarleigh

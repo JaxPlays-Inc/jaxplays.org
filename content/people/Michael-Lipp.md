@@ -6,10 +6,10 @@ redirect_from:
   - /people/Michael_Lipp
   - /index.php?title=Michael_Lipp&oldid=2885
 layout: people
-image: Michael_Lipp.jpg
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: Michael_Lipp.jpg
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 birth_info:
   birth_name:
   birth_date: 1961-01-03

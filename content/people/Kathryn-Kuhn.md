@@ -1,10 +1,10 @@
 ---
 title: Kathryn Kuhn
 layout: people
-image: Kathryn_Kuhn.webp
-image_credit: Josh Andrews
-image_alt: 
-image_caption: 
+featured_image: Kathryn_Kuhn.webp
+featured_image_attr: Josh Andrews
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook:

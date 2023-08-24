@@ -5,10 +5,10 @@ other_names:
 redirect_from:
   - /Erin_Balazs_Barnes/
 layout: people
-image: Erin_Barnes.jpeg
-image_credit: 
-image_alt: 
-image_caption: 
+featured_image: Erin_Barnes.jpeg
+featured_image_attr: 
+featured_image_alt: 
+featured_image_caption: 
 details:
   Facebook: 
   Twitter: 

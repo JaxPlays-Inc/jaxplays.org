@@ -1,10 +1,10 @@
 ---
 title: 	Jeff Drushal
 layout: people
-image: Jeff_Drushal.webp
-image_credit: Josh Andrews
-image_alt: 
-image_caption: 
+featured_image: Jeff_Drushal.webp
+featured_image_attr: Josh Andrews
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook:

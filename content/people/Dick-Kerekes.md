@@ -7,10 +7,10 @@ other_names:
   - The Watch-Hound
   - Watch Hound
 layout: people
-image: Dick_Kerekes.jpg
-image_credit: Kerekes' Facebook profile
-image_alt: 
-image_caption: 
+featured_image: Dick_Kerekes.jpg
+featured_image_attr: Kerekes' Facebook profile
+featured_image_alt: 
+featured_image_caption: 
 details:
   Website: 
   Facebook: Dick Kerekes | dick.kerekes
