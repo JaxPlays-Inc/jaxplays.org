@@ -1,15 +1,20 @@
 {{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
 {{ define "main" }}
 <div class="flex-l mt0 mw8 center">
-  <article class="center cf pv4 ph3 ph4-ns mw8">
+  <article class="center cf pv4 ph3 ph4-ns mw8 w-100">
     <header>
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
       </h1>
       <h2 class="fw4 f3-ns f5 ttu">
-        {{ with .Params.date }}{{ dateFormat "2006" . }}{{ end }}
+        {{ $unixDate := .Params.date.Unix }}
+        {{ if eq (printf "%d" $unixDate | len) 4 }} <!-- Check if the Unix timestamp is only four digits -->
+          {{ $unixDate }}
+        {{ else }}
+          {{ with .Params.date }}{{ dateFormat "2006" . }}{{ end }}
+        {{ end }}        
         {{ if and .Params.date .Params.theatre }}&#8226;{{ end }}
-        {{ .Params.theatre }}
+        {{ with .Params.theatre }}{{ . }}{{ end }}
       </h2>
     </header>
 
