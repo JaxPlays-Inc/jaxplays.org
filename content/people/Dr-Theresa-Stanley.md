@@ -1,6 +1,6 @@
 ---
 title: Dr. Theresa Stanley
-redirect_from:
+aliases: 
   - /people/theresa-stanley
 other_names: 
   - Theresa Stanley

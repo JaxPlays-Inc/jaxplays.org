@@ -1,6 +1,6 @@
 ---
 title: Ray Hollister
-redirect_from:
+aliases: 
   - /people/rayburn-hollister
 other_names: 
  - Rayburn Hollister

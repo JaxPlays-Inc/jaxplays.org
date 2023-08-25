@@ -1,6 +1,6 @@
 ---
 title: Dick Kerekes
-redirect_from:
+aliases: 
   - /people/watch-hound
   - /people/the-watch-hound
 other_names:

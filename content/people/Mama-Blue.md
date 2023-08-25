@@ -1,6 +1,6 @@
 ---
 title: Mama Blue
-redirect_from:
+aliases: 
   - /people/sarah-sanders
   - /people/sarah-e-sanders
 other_names: 

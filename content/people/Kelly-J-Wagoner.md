@@ -1,6 +1,6 @@
 ---
 title: Kelly J. Wagoner
-redirect_from:
+aliases: 
   - /people/kelly-wagoner
 other_names: 
   - Kelly Wagoner

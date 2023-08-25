@@ -1,6 +1,6 @@
 ---
 title: Dr. Lee Beger
-redirect_from:
+aliases: 
   - /people/dr-lee-s-beger
   - /people/lee-stewart-beger
 other_names:

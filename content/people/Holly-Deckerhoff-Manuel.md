@@ -1,6 +1,6 @@
 ---
 title: Holly Deckerhoff Manuel
-redirect_from:
+aliases: 
   - /people/holly-deckerhoff
 other_names:
   - Holly Deckerhoff

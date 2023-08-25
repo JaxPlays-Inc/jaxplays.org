@@ -1,6 +1,6 @@
 ---
 title: James T. Justis
-redirect_from:
+aliases: 
   - /people/james-delisco-beeks
   - /people/delisco
   - /people/james-d-beeks

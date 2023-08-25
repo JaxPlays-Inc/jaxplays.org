@@ -1,6 +1,6 @@
 ---
 title: Daniel Dungan
-redirect_from:
+aliases: 
   - /people/daniel-owen-dungan
 other_names:
   - Daniel Owen Dungan

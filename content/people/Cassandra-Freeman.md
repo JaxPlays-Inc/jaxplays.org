@@ -1,6 +1,6 @@
 ---
 title: Cassandra Freeman
-redirect_from: 
+aliases:  
   - /people/cassie-freeman
 other_names: 
   - Cassie Freeman

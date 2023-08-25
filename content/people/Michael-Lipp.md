@@ -1,10 +1,5 @@
 ---
 title: Michael Lipp
-redirect_from:
-  - /wiki/Michael_Lipp
-  - /Michael_Lipp
-  - /people/Michael_Lipp
-  - /index.php?title=Michael_Lipp&oldid=2885
 layout: people
 featured_image: Michael_Lipp.jpg
 featured_image_attr: 

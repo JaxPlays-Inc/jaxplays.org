@@ -1,6 +1,6 @@
 ---
 title: Joshua Kreis McTiernan
-redirect_from: 
+aliases:  
   - /people/joshua-mctiernan
 layout: people
 image:

@@ -1,6 +1,6 @@
 ---
 title: Joy Smith
-redirect_from:
+aliases: 
   - /people/joy-ann-smith
 other_names:
   - Joy Ann Smith

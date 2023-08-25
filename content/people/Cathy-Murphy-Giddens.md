@@ -1,6 +1,6 @@
 ---
 title: Cathy Murphy Giddens
-redirect_from:
+aliases: 
   - /people/cathy-murphy
   - /people/cathy-t-murphy
   - /people/cathy-giddens-murphy

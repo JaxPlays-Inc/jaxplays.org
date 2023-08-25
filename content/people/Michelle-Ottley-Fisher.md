@@ -1,6 +1,6 @@
 ---
 title: Michelle Ottley-Fisher
-redirect_from:
+aliases: 
   - /people/michelle-ottley
   - /people/michelle-j-ottley
 other_names: 

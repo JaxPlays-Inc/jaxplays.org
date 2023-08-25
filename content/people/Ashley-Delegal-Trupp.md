@@ -1,6 +1,6 @@
 ---
 title: Ashley Delegal Trupp
-redirect_from:
+aliases: 
   - /people/ashley-delegal
   - /people/ashley-blake-delegal
 other_names: 

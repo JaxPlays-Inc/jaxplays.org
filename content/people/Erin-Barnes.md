@@ -2,8 +2,8 @@
 title: Erin Barnes
 other_names: 
   - Erin Balazs Barnes
-redirect_from:
-  - /Erin_Balazs_Barnes/
+aliases: 
+  - /people/erin-balazs-barnes/
 layout: people
 featured_image: Erin_Barnes.jpeg
 featured_image_attr: 

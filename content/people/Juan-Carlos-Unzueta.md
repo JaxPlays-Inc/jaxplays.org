@@ -1,6 +1,6 @@
 ---
 title: Juan Carlos Unzueta
-redirect_from:
+aliases: 
   - /people/juan-unzueta
 other_names:
   - Juan Unzueta

@@ -1,6 +1,6 @@
 ---
 title: Daniel Breaker
-redirect_from: 
+aliases:  
   - /people/daniel-eric-breaker
 other_names:
   - Daniel Eric Breaker
