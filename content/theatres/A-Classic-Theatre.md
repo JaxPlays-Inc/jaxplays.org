@@ -3,10 +3,10 @@ title: A Classic Theatre
 layout: theatres
 category: theatres
 active: true
-image: A_Classic_Theatre.png
-image_credit:
-image_alt:
-image_caption:
+featured_image: A_Classic_Theatre.png
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 2005-05-01
     Address: |

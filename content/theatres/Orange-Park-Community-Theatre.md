@@ -2,10 +2,10 @@
 title: Orange Park Community Theatre
 layout: theatres
 active: true
-image: Orange_Park_Community_Theatre.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: Orange_Park_Community_Theatre.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 
     Address: |

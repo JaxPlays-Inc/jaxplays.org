@@ -2,10 +2,10 @@
 title: St. Marys Little Theatre
 layout: theatres
 active: true
-image: St_Marys_Little_Theatre.webp
-image_credit:
-image_alt:
-image_caption:
+featured_image: St_Marys_Little_Theatre.webp
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 
     Address: |

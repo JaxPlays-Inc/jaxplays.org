@@ -3,10 +3,10 @@ title: Lumen Repertory Theatre
 layout: theatres
 category: theatres
 active: true
-image: Lumen_Repertory_Theatre.gif
-image_credit:
-image_alt:
-image_caption:
+featured_image: Lumen_Repertory_Theatre.gif
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 2022-08-01
     Address:

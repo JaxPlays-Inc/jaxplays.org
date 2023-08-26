@@ -2,10 +2,10 @@
 title: Phase Eight Theater Company
 layout: theatres
 active: false
-image: Phase_Eight_Theater_Company.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: Phase_Eight_Theater_Company.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 2017
     Closed: 2021

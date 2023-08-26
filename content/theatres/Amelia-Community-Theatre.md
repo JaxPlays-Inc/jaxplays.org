@@ -2,10 +2,10 @@
 title: Amelia Community Theatre
 layout: theatres
 active: true
-image: Amelia_Community_Theatre.png
-image_credit:
-image_alt:
-image_caption:
+featured_image: Amelia_Community_Theatre.png
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 1981
     Address: |

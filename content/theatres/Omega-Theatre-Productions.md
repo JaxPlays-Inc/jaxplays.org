@@ -2,10 +2,10 @@
 title: Omega Theatre Productions
 layout: theatres
 active: false
-image: 
-image_credit:
-image_alt:
-image_caption:
+featured_image: 
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
   Founded: 1999
   Closed: 2006

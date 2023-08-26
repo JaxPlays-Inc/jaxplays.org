@@ -2,10 +2,10 @@
 title: Actors Collective
 layout: theatres
 active: false
-image: Actors_Collective.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: Actors_Collective.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 2018
     Address: 

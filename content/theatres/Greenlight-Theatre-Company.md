@@ -3,10 +3,10 @@ title: Greenlight Theatre Company
 layout: theatres
 category: theatres
 active: true
-image: Greenlight_Theatre_Company.jpeg
-image_credit: Greenlight Theatre Company
-image_alt: Greenlight Theatre Company Logo
-image_caption: Greenlight Theatre Company Logo
+featured_image: Greenlight_Theatre_Company.jpeg
+featured_image_attr: Greenlight Theatre Company
+featured_image_alt: Greenlight Theatre Company Logo
+featured_image_caption: Greenlight Theatre Company Logo
 details:
     Founded: 2021
     Address: |

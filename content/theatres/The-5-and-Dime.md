@@ -7,10 +7,10 @@ redirect_from:
   - /theatres/thefiveanddime
 layout: theatres
 active: true
-image: The_Five_And_Dime.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: The_Five_And_Dime.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
   Founded: 2011
   disbanded:

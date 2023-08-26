@@ -2,10 +2,10 @@
 title: Limelight Theatre
 layout: theatres
 active: true
-image: Limelight_Theatre.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: Limelight_Theatre.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 1992
     Address: |

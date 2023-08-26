@@ -2,10 +2,10 @@
 title: Players by the Sea
 layout: theatres
 active: true
-image: Players_by_the_Sea.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: Players_by_the_Sea.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 details:
     Founded: 1966
     Address: |
