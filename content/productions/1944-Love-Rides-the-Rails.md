@@ -1,7 +1,7 @@
 ---
 title: Love Rides the Rails
 month: 3
-date: 1944-03-01
+date: 1944-03
 closing_date:
 layout: productions
 playbill:

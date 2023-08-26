@@ -1,7 +1,7 @@
 ---
 title: The Eve of Saint Mark
 month: 2
-date: 1943-02-01
+date: 1943-02
 closing_date:
 layout: productions
 playbill:

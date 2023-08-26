@@ -1,7 +1,7 @@
 ---
 title: Knickerbocker Holiday
 month: 5
-date: 1948-05-01
+date: 1948-05
 closing_date:
 layout: productions
 playbill:

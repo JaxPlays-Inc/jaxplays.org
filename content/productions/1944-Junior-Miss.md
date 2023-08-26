@@ -1,7 +1,7 @@
 ---
 title: Junior Miss
 month: 1
-date: 1944-01-01
+date: 1944-01
 closing_date:
 layout: productions
 playbill:

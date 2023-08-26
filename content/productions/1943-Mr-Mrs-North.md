@@ -1,7 +1,7 @@
 ---
 title: Mr. and Mrs. North
 month: 4
-date: 1943-04-01
+date: 1943-04
 closing_date:
 layout: productions
 playbill:

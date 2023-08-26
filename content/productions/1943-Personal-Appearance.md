@@ -1,7 +1,7 @@
 ---
 title: Personal Appearance
 month: 10
-date: 1943-10-01
+date: 1943-10
 closing_date:
 layout: productions
 playbill:

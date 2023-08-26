@@ -1,7 +1,7 @@
 ---
 title: Our Town
 month: 3
-date: 1943-03-01
+date: 1943-03
 closing_date:
 layout: productions
 playbill:

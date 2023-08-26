@@ -1,7 +1,7 @@
 ---
 title: My Sister Eileen
 month: 1
-date: 1943-01-01
+date: 1943-01
 closing_date:
 layout: productions
 playbill:

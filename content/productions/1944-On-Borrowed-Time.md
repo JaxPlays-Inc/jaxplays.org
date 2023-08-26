@@ -1,7 +1,7 @@
 ---
 title: On Borrowed Time
 month: 2
-date: 1944-02-01
+date: 1944-02
 closing_date:
 layout: productions
 playbill:
