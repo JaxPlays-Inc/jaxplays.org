@@ -104,14 +104,16 @@
               <div class="w-100 w-50-l tr-l">
                 <!-- Added flex flex-column justify-center -->
                 <div>
-                  {{ $unixDate := $details.production.Date.Unix }}
-                  {{ if eq (printf "%d" $unixDate | len) 4 }} <!-- Check if the Unix timestamp is only four digits -->
-                    {{ $unixDate }}
+                  {{ $date := $details.production.Date }}
+                  {{ $isApprox := $details.production.Params.approx_date }}
+                  {{ if eq $isApprox "year" }}
+                    {{ $date.Year }}
+                  {{ else if eq $isApprox "month" }}
+                    {{ $date.Format "January 2006" | replaceRE "( \\d+)$" "" }}
                   {{ else }}
-                    {{ $details.production.Date.Format "January 2006" }}
+                    {{ $date.Format "January 2006" }}
                   {{ end }}
                 </div>
-                
                 <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
                 <div>{{ $details.production.Params.Venue }}</div>
               </div>
