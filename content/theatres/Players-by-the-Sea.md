@@ -6,18 +6,17 @@ featured_image: Players_by_the_Sea.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-details:
-    Founded: 1966
-    Address: |
-      106 N 6th St
-      Jacksonville Beach, FL 32250
-    Website: https://playersbythesea.org
-    Facebook: playersbytheseatheatre
-    Twitter: Playersbythesea
-    Instagram: playersbythesea
-    LinkedIn: players-by-the-sea-theater
-    Phone: 	
-    Artistic Director: Jereme Raickett
+Founded: 1966
+Address: |
+  106 N 6th St
+  Jacksonville Beach, FL 32250
+Website: https://playersbythesea.org
+Socials: 
+  Facebook: playersbytheseatheatre
+  Twitter: Playersbythesea
+  Instagram: playersbythesea
+  LinkedIn: players-by-the-sea-theater
+Artistic Director: Jereme Raickett
 ---
 Players by the Sea is a non-profit theater located in Jacksonville Beach, Florida. It was founded in 1966 and has been providing live theater performances to the local community for over five decades. The [John McManus Mainstage Theatre](/venues/john-mcmanus-mainstage-theatre) has a seating capacity of 150 and the [Grace Darling Studio Theatre](/venues/grace-darling-studio-theatre) seats 80. 
 

@@ -1,0 +1,38 @@
+{{ with .Params.Socials }}
+  <div class="social-media-links ananke-socials mt3 pl0-l pl2">
+    {{ range $name, $handle := . }}
+      {{ $rel := "noopener" }}
+      {{ $url := "" }}
+      {{ $lowerName := lower $name }}
+      {{ if eq $lowerName "facebook" }}
+        {{ $url = printf "https://www.facebook.com/%s" $handle }}
+      {{ else if eq $lowerName "instagram" }}
+        {{ $url = printf "https://www.instagram.com/%s" $handle }}
+      {{ else if eq $lowerName "youtube" }}
+        {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
+      {{ else if eq $lowerName "linkedin" }}
+        {{ $url = printf "https://www.linkedin.com/in/%s" $handle }}
+      {{ else if eq $lowerName "tiktok" }}
+        {{ $url = printf "https://www.tiktok.com/@%s" $handle }}
+      {{ else if eq $lowerName "twitter" }}
+        {{ $url = printf "https://twitter.com/%s" $handle }}
+      {{ else if eq $lowerName "medium" }}
+        {{ $url = printf "https://medium.com/@%s" $handle }}
+      {{ else if eq $lowerName "mastodon" }}
+        {{ $url = $handle }}
+      {{ else }}
+        {{ $url = $handle }}
+      {{ end }}
+      
+      {{ $icon := partial "func/socials/GetServiceIcon" $name }}
+
+      <a href="{{ $url }}" target="_blank" rel="{{ $rel }}" class="{{ $name | lower }} ananke-social-link link-transition stackoverflow link dib z-999 pt0 mr1" title="{{ $name }} link" aria-label="follow on {{ $name }}——Opens in a new window">
+        {{ with $icon }}
+          <span class="icon">{{ . }}</span>
+        {{ else }}
+          {{ $name }}
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

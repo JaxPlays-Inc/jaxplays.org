@@ -16,6 +16,7 @@ Venue: The Florida Ballet
 show_details:
 - Playwright: Sarah Ruhl
 Website: https://www.the5anddime.org/for-peter-pan
+Tickets: https://www.eventbrite.com/e/for-peter-pan-on-her-70th-birthday-tickets-679715145297
 showtimes:
 - 2023-09-15 20:00:00
 - 2023-09-16 20:00:00

@@ -11,20 +11,20 @@ featured_image: The_Five_And_Dime.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-details:
-  Founded: 2011
-  disbanded:
-  Address: |
-    PO Box 2011
-    Jacksonville, FL 32203
-  Managing Artistic Director: Bradley Akers
-  facebook: The5andDime
-  instagram: the5anddime
+description: The 5 & Dime tells stories that engage, inspire, entertain, and challenge audiences, nurturing a rich artistic culture in Jacksonville.
+Founded: 2011
+Address: |
+  PO Box 2011
+  Jacksonville, FL 32203
+Managing Artistic Director: Bradley Akers
+Socials:
+  Facebook: The5andDime
+  Instagram: the5anddime
   YouTube: MakingChangeInJax
-  Website: https://www.the5anddime.org
+Website: https://www.the5anddime.org
 Press:
-- Staging Change at The 5 & Dime Theatre - Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/
-- Jacksonville's 5 & Dime theater group names director, ponders where and when next shows will be: https://www.jacksonville.com/story/entertainment/theater/2021/02/02/jacksonvilles-5-dime-theater-group-names-director-ponders-shows/4337544001/
+- Staging Change at The 5 & Dime Theatre | Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/
+- Jacksonville's 5 & Dime theater group names director, ponders where and when next shows will be | Florida Times-Union: https://www.jacksonville.com/story/entertainment/theater/2021/02/02/jacksonvilles-5-dime-theater-group-names-director-ponders-shows/4337544001/
 ---
 
 In 2011, a group of artists and friends in Jacksonville, Florida came together with a bold vision: to make a difference in the city's cultural arts community. With that goal in mind, they founded The 5 & Dime, a theatre company that would offer opportunities for artists of all disciplines to showcase their talents in a supportive environment. The founding members, including Caryl Butterley, Evan Gould, Judy Gould, Staci Cobb Grant, Lee Hamby, Craig Leavitt, Zeina Salame, Josh Taylor, and Josh Waller, started with a simple question: "Why not us?"

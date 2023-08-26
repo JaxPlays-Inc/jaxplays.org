@@ -6,17 +6,16 @@ featured_image: Theatre_Jacksonville.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-details:
-  Founded: 1919
-  Address: |
-    2032 San Marco Blvd
-    Jacksonville, FL 32207
-  Website: https://www.theatrejax.com
+Founded: 1919
+Address: |
+  2032 San Marco Blvd
+  Jacksonville, FL 32207
+Website: https://www.theatrejax.com
+Socials:
   Facebook: TheatreJacksonville
   Twitter: TheatreJax
   Instagram: theatrejacksonville
-  LinkedIn:
-  Phone: 1-904-396-4425
+Phone: 1-904-396-4425
 ---
 Theatre Jacksonville, located in Jacksonville, Florida (Duval County), is a community theater that holds the title of the oldest continuously-operating community theater in Florida and one of the oldest in the United States. Its venue, also referred to as the Little Theatre, was recognized as a historic site and added to the National Register of Historic Places in 1991.
 

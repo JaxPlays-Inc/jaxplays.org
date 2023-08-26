@@ -7,15 +7,13 @@ featured_image: Lumen_Repertory_Theatre.gif
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-details:
-    Founded: 2022-08-01
-    Address:
-    Website: https://www.lumenrep.org
-    Facebook: lumenrep
-    Twitter: 
-    Instagram: lumenrep
-    LinkedIn: 
-    Phone:
+Founded: 2022-08-01
+Address:
+Website: https://www.lumenrep.org
+Socials: 
+  Facebook: lumenrep
+  Instagram: lumenrep
+Phone:
 ---
 Lumen Repertory Theatre is a renowned theatre experience in Northeast Florida, known for their bold and professional productions that bring life to empty spaces. As a resident, regional, and repertory theatre company, they collaborate with a core team of talented professionals, alongside various disciplines and organizations, to extend their impact beyond a single location. Lumen Rep believes in exceptional quality, bold choices, and the subversive nature of great art. Through performance, they illuminate empty spaces within our community and challenge societal norms. Their mission is to collaborate with established and emerging professionals, contributing to the cultural fabric of the region.
 
