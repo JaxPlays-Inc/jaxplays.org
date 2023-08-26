@@ -1,7 +1,8 @@
 ---
 title: The Male Animal
 month: 11
-date: 1943-11
+date: 1943-11-01
+approx_date: month
 closing_date:
 layout: productions
 playbill:

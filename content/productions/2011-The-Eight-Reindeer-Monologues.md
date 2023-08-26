@@ -1,7 +1,8 @@
 ---
 layout: productions
 title: 'The Eight: Reindeer Monologues'
-date: 2011
+date: 2011-12-31
+approx_date: year
 Genres: 
 - Play
 Theatre: The 5 & Dime

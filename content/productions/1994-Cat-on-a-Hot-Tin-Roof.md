@@ -1,6 +1,7 @@
 ---
 title: Cat on a Hot Tin Roof
-date: 1994
+date: 1994-12-31
+approx_date: year
 closing_date:
 layout: productions
 playbill:

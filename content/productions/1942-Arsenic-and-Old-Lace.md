@@ -1,7 +1,8 @@
 ---
 title: Arsenic and Old Lace
 month: 10
-date: 1942-10
+date: 1942-10-01
+approx_date: month
 closing_date:
 layout: productions
 playbill:

@@ -1,7 +1,8 @@
 ---
 layout: productions
 title: Violet
-date: 2019
+date: 2019-12-31
+approx_date: year
 category: musical
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:

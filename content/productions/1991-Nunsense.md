@@ -1,6 +1,7 @@
 ---
 title: Nunsense
-date: 1991
+date: 1991-12-31
+approx_date: year
 closing_date:
 layout: productions
 playbill:

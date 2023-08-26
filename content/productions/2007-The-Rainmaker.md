@@ -1,7 +1,8 @@
 ---
 layout: productions
 title: The Rainmaker
-date: 2007
+date: 2007-12-31
+approx_date: year
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:
 - Playwright: N. Richard Nash - wiki

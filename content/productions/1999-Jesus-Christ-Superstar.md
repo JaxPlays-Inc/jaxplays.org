@@ -1,7 +1,7 @@
 ---
 title: Jesus Christ Superstar
 redirect_from: /1999_Jesus_Christ_Superstar
-date: 1999
+date: 1999-08-19
 layout: productions
 featured_image: 1999_Jesus_Christ_Superstar.jpg
 featured_image_caption: Photo of the playbill
@@ -125,6 +125,6 @@ orchestra:
 - Cello: Ron Coleman
 - Percussion: Greg Isabelle
 Press:
-- Patton, Charlie. "Both sides of the curtain Rock opera marks Justin Murphy's professional leap to actor, producer." The Florida Times-Union, City ed., sec. Lifestyle, 13 Aug. 1999, pp. E-1: /media/news-Both_sides_of_the_curtain_Rock_opera_marks_Justin__Florida_Times-Union_The_Jacksonville_FL___August_13_1999__pE-1.pdf
+- Patton, Charlie. "Both sides of the curtain Rock opera marks Justin Murphy's professional leap to actor, producer." The Florida Times-Union, City ed., sec. Lifestyle, 13 Aug. 1999, pp. E-1: /media/news/Both_sides_of_the_curtain_Rock_opera_marks_Justin__Florida_Times-Union_The_Jacksonville_FL___August_13_1999__pE-1.pdf
 - Ross, Jacqueline. "Singer finds approval in the footlights." The Florida Times-Union, City ed., sec. Lifestyle, 13 Aug. 1999, pp. E-1.: /media/news/Singer_finds_approval_in_the_footlights__Florida_Times-Union_The_Jacksonville_FL___August_13_1999__pE-1.pdf
 ---

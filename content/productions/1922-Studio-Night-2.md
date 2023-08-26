@@ -1,6 +1,7 @@
 ---
 title: Studio Night
-date: 1922
+date: 1922-12-31
+approx_date: year
 closing_date:
 layout: productions
 playbill:

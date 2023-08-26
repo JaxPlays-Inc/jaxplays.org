@@ -1,6 +1,7 @@
 ---
 title: Arms and the Man
-date: 1924
+date: 1924-12-31
+approx_date: year
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Foreigner
-date: 1992
+date: 1992-12-31
+approx_date: year
 closing_date:
 layout: productions
 playbill:
