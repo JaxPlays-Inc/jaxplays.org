@@ -1,6 +1,5 @@
 ---
 title: Personal Appearance
-month: 10
 date: 1943-10-01
 approx_date: month
 closing_date:

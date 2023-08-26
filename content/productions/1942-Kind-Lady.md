@@ -1,6 +1,5 @@
 ---
 title: Kind Lady
-month: 11
 date: 1942-11-01
 approx_date: month
 closing_date:

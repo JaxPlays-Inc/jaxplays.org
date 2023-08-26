@@ -1,6 +1,5 @@
 ---
 title: On Borrowed Time
-month: 2
 date: 1944-02-01
 approx_date: month
 closing_date:
