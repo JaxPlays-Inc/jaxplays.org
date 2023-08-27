@@ -19,16 +19,20 @@
     </header>
 
     {{ $featuredImage := .Params.featured_image }}
+    {{ $featuredImageAlt := .Params.featured_image_alt }}
     {{ $featuredImageCaption := .Params.featured_image_caption }}
     {{ $featuredImageAttr := .Params.featured_image_attr }}
+    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
     {{ $genres := .Params.genres }}
 
     {{ if not $featuredImage }}
     {{ range where .Site.Pages "Type" "shows" }}
     {{ if eq .Title $.Title }}
     {{ $featuredImage = .Params.featured_image }}
+    {{ $featuredImageAlt := .Params.featured_image_alt }}
     {{ $featuredImageCaption = .Params.featured_image_caption }}
     {{ $featuredImageAttr = .Params.featured_image_attr }}
+    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
     {{ end }}
     {{ end }}
     {{ end }}
@@ -46,9 +50,8 @@
       <!-- Featured Image Section -->
       {{ if $featuredImage }}
       <div class="w-40 w-25-l flex">
-        <a href="/media/posters/{{ $featuredImage }}" data-lightbox="image-1" data-title="{{ $featuredImageCaption }}">
-          <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" />
-        </a>
+        <a href="/media/posters/{{ $featuredImage }}" data-lightbox="gallery" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" /></a>
       </div>
       {{ end }}
 
