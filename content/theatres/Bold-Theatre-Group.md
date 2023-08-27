@@ -9,6 +9,8 @@ featured_image_caption:
 Founded: 2015
 disbanded: 2018
 Website: https://web.archive.org/web/20180312040411/http://boldtheatre.com/
+Socials:
+  Twitter: boldtheatre
 Press:
 - "A BOLD NEW STAGE | Folio Weekly": https://web.archive.org/web/20151126133919/https://folioweekly.com/A-BOLD-NEW-STAGE,14113
 - "Arts Notes: Bold Theatre Group plans to pay actors | Florida Times-Union": https://www.jacksonville.com/entertainment/arts/2015-07-16/story/arts-notes-bold-theatre-group-plans-pay-actors?page=1()
