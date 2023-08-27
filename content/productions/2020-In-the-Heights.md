@@ -9,7 +9,7 @@ featured_image: 2020_In_the_Heights.jpg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Jacksonville University
+Theatre: Jacksonville University - Stein College
 Venue: 
 - Swisher Theater
 - Nathan H. Wilson Center for the Arts

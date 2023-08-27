@@ -43,8 +43,12 @@
             {{ $description | safeHTML }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read more</a>
             
           </div>
-          
           {{ end }}
+          <div class="flex flex-row nested-copy-line-height lh-copy f4 mt2 {{ $.Param "text_color" | default "dark-gray" }}">
+          {{ if .Params.website }}{{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}<a href="{{ .Params.website }}" target="_blank" class="link flex">{{ $website }}</a>{{ end }}
+          {{ if and .Params.website .Params.phone }}&nbsp;|&nbsp;{{ end }}
+          {{ if .Params.phone }}<a href="tel:{{ .Params.phone }}" class="link flex">{{ .Params.phone }}</a>{{ end }}
+          </div>
         </div>
       </div>
       {{ end }}
