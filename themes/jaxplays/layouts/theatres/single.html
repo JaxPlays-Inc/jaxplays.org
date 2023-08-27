@@ -13,8 +13,8 @@
       {{ $contentLength := len .Content }}
       {{ $description := .Params.description }}
       {{ if not $description }}
-        {{ if gt $contentLength 230 }}
-          {{ $description = printf "%s..." (substr .Content 0 230) }}
+        {{ if gt $contentLength 275 }}
+          {{ $description = printf "%s..." (substr .Content 0 275) }}
         {{ else }}
           {{ $description = substr .Content 0 $contentLength }}
         {{ end }}
@@ -40,8 +40,10 @@
         <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
           {{ if $description }}
           <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
-            {{ $description | safeHTML }}
+            {{ $description | safeHTML }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read more</a>
+            
           </div>
+          
           {{ end }}
         </div>
       </div>
@@ -95,7 +97,15 @@
                   {{ $date.Format "January 2006" }}
                 {{ end }}
               </div>
-              <div>{{ $production.Params.Venue }}</div>
+              <div>
+                {{ $venues := $production.Params.Venue }} <!-- Get the venue(s) -->
+                {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
+                  {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+                {{ end }}
+                {{ range $index, $venue := $venues }} <!-- Loop through the venue values -->
+                  {{ $venue }}{{ if ne (add $index 1) (len $venues) }}<br />{{ end }}
+                {{ end }}
+              </div>
             </div>
           </div>
         </div>
@@ -140,7 +150,7 @@
 
     <!-- Content "About" -->
     {{ if .Content }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">About {{ .Title }}</h3>
       {{ .Content }}
     </div>

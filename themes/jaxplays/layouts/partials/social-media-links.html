@@ -26,7 +26,7 @@
       
       {{ $icon := partial "func/socials/GetServiceIcon" $name }}
 
-      <a href="{{ $url }}" target="_blank" rel="{{ $rel }}" class="{{ $name | lower }} ananke-social-link link-transition stackoverflow link dib z-999 pt0 mr1" title="{{ $name }} link" aria-label="follow on {{ $name }}——Opens in a new window">
+      <a href="{{ $url }}" target="_blank" rel="{{ $rel }}" class="{{ $name | lower }} ananke-social-link link-transition stackoverflow link dib z-999 pt0 mr3 mt3 mt1-ns mr1-ns" title="{{ $name }} link" aria-label="follow on {{ $name }}——Opens in a new window">
         {{ with $icon }}
           <span class="icon">{{ . }}</span>
         {{ else }}
