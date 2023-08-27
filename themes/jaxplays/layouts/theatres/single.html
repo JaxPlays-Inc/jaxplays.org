@@ -73,10 +73,16 @@
         <div class="pa3-ns pa2 w-100 flex items-center">
           <!-- Left Section -->
           <div class="w-25 w-10-l">
-            {{ $featuredImage := $production.Params.featured_image }}
-            {{ $imagePath := "/media/default/production_poster.webp" }}
+            {{ $featuredImage := $production.Params.featured_image }}  <!-- Fixed this line -->
+            {{ if not $featuredImage }}
+            {{ with (site.GetPage "page" (printf "/shows/%s" ($production.Title | urlize))) }}
+            {{ $featuredImage = .Params.featured_image }}
+            {{ end }}
+            {{ end }}
+            {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
             {{ if $featuredImage }}
-              {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+            {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+            <!-- Concatenate path if featured image exists -->
             {{ end }}
             <a href="{{ $production.Permalink }}">
               <img src="{{ $imagePath }}" alt="{{ $production.Title }}" class="w-100" />
