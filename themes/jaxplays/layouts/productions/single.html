@@ -38,11 +38,11 @@
     {{ end }}
 
     {{ if not $genres }}
-    {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
-    {{ $genres = .Params.genres }}
-    {{ end }}
-    {{ end }}
+      {{ range where .Site.Pages "Type" "shows" }}
+        {{ if eq .Title $.Title }}
+        {{ $genres = .Params.genres }}
+        {{ end }}
+      {{ end }}
     {{ end }}
 
     {{ if or $featuredImage $genres }}
@@ -57,7 +57,7 @@
 
       <!-- Genres and Tickets Section -->
       {{ if or $genres (and .Params.date .Params.closing_date) }}
-      <div class="w-60 w-75-l ml2 flex flex-column items-start justify-start">
+      <div class="w-60 w-75-l ml3 flex flex-column items-start justify-start">
         <!-- Genres -->
         {{ if $genres }}
         <div class="flex flex-wrap">
@@ -73,9 +73,16 @@
         <!-- If closing_date is in the future -->
         {{ $closingDate := time .Params.closing_date }}
         {{ $now := now.Format "2006-01-02" | time }}
-        {{ if ge $closingDate $now }}
-        {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
+          {{ if ge $closingDate $now }}
+          {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
+          {{ end }}
         {{ end }}
+
+        <!-- Description -->
+        {{ with .Params.description }}  
+        <div class="nested-copy-line-height lh-copy f4 mt3 {{ $.Param " text_color" | default "dark-gray" }}">
+          {{ . | markdownify }}
+        </div>
         {{ end }}
 
       </div>

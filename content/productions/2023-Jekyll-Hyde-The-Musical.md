@@ -6,7 +6,7 @@ layout: productions
 featured_image: 2023_Jekyll_Hyde_The_Musical.webp
 featured_image_caption: "Poster for Jekyll & Hyde: The Musical by St. Marys Little Theatre"
 featured_image_attr: "St. Marys Little Theatre"
-description: "'Jekyll & Hyde: The Musical' reveals a haunting tale of love, madness, and duality. An unforgettable, thrilling experience."
+description: "*Jekyll & Hyde: The Musical* reveals a haunting tale of love, madness, and duality. An unforgettable, thrilling experience."
 playbill:
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax

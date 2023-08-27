@@ -19,6 +19,14 @@ show_details:
 - Book: "Quiara Alegr\xEDa Hudes - wiki"
 - Setting: Washington Heights, Manhattan
 - Wikipedia: In the Heights - wiki
+Genres:
+- Musical
+- Drama
+- Comedy
+- Romance
+- Hip Hop
+- Latin
+Description: "*In the Heights* unveils the aspirations and struggles of Washington Heights, challenging traditional musical storytelling with its authenticity."
 showtimes:
 - 2020-01-17 19:30:00
 - 2020-01-18 19:30:00
@@ -73,4 +81,6 @@ crew:
 Press:
 - "'In the Heights' by Jacksonville University\u2019s Department of Theatre is a Dancing Delight": https://web.archive.org/web/20221202035859/https://folioweekly.com/2020/01/22/in-the-heights-jacksonville-university-department-of-theatre/
 ---
+*In the Heights* provides an intimate look into the lives, aspirations, and struggles of the residents of Washington Heights, a predominantly Latino neighborhood in New York City. Unlike conventional musicals that often romanticize or oversimplify their subjects, this production digs deep, presenting a rich tapestry of authentic experiences. The show seamlessly blends diverse musical genres, from hip-hop to salsa, creating a dynamic atmosphere that feels both fresh and familiar. By challenging the norms of musical storytelling, *"*In the Heights*"* invites audiences to engage with complex characters and real-world issues, making it a groundbreaking and resonant work.
+
 The first three showings of this production were held at the Swisher Theater at Jacksonville University, and the second three showings were held at the in the Studio Theatre at Nathan H. Wilson Center for the Arts, FSCJ South Campus.
