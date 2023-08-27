@@ -11,6 +11,7 @@ author: Ray Hollister
 description: Journey into the heart of passion and tragedy with ABET's "Murder Ballad." Secure a front row seat for the full experience.
 excerpt_separator: <!--more-->
 production: 2023 Murder Ballad
+Theatre: ABET - All Beaches Experimental Theatre
 cast: 
 - Erin Barnes
 - Chris Robertson 

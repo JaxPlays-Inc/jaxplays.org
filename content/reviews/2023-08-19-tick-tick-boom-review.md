@@ -10,6 +10,7 @@ featured_image_alt: Bradley Akers as Jon in The Five & Dime's 'Tick, Tick... Boo
 description: "The 5 & Dime's rendition of 'Tick, Tick... Boom!' is an intimate masterpiece of theatre. Join the emotional rollercoaster in this review."
 author: Ray Hollister
 production: 2023 Tick Tick Boom
+Theatre: The 5 & Dime
 cast: 
 - Bradley Akers
 - Zach Rivera

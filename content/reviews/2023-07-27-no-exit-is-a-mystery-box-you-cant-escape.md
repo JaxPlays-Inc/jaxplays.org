@@ -15,6 +15,7 @@ author: Ray Hollister
 description: Explore Lumen Repertory Theatre's riveting adaptation of Sartre's hellscape. Stellar performances, immersive design.
 excerpt_separator: <!--more-->
 production: 2023 No Exit
+Theatre: Lumen Repertory Theatre
 cast: 
 - Josh Andrews
 - Jeff Drushal
