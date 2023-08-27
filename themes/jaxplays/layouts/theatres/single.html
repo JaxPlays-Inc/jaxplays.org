@@ -2,7 +2,6 @@
 {{ define "main" }}
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
-    <header>
       <h1 class="f3 f2-l f1-m tc tl-ns ">
         {{ .Title }}
       </h1>
@@ -29,27 +28,24 @@
         {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
         <!-- Concatenate path if featured image exists -->
         {{ end }}
-        <div class="w-75 w-40-m w-25-l flex center">
+        <div class="w-75 w-40-m w-25-l flex-column center">
           <a href="{{ $imagePath }}" data-lightbox="image-1"
             data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
             <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
           </a>
-        </div>
-    
+          {{ if .Params.Socials }}
+          {{ partial "social-media-links.html" . }}
+          {{ end }}
+        </div>    
         <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
           {{ if $description }}
           <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
             {{ $description | safeHTML }}
           </div>
           {{ end }}
-          {{ if .Params.Socials }}
-          {{ partial "social-media-links.html" . }}
-          {{ end }}
         </div>
       </div>
       {{ end }}
-    </header>
-    
 
     <!-- Theatre Productions Section -->
 

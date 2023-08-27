@@ -4,13 +4,54 @@
   color: #BABABA;
   fill: currentColor;
 }
+
 .ananke-socials a .icon svg{
-  width: 32px;
-  height: 32px;
+  width: 3rem;
+  height: 3rem;
 }
 .ananke-socials a:hover {
   color: rgb(107, 114, 128);
 }
+
+.ananke-socials a.facebook {
+	color: #3b5998;
+}
+
+.ananke-socials a.instagram, .ananke-socials a.threads { 
+	color: #c32aa3;
+	color: radial-gradient(circle at -10% 130%, #fdf497 5%, #fdf497 5%, #fd5949 25%, #d6249f 40%, #285AEB 90%);
+}
+
+.ananke-socials a.linkedin {
+	color: #0077B5;
+}
+
+.ananke-socials a.twitter {
+	color: #1da1f2;
+}
+
+.ananke-socials a.youtube {
+	color: #ff0000;
+}
+
+.ananke-socials a.yelp {
+	color: rgb(211, 35, 35)
+}
+
+.ananke-socials a.tiktok {
+	color: #000;
+}
+
+header .ananke-socials a, 
+footer .ananke-socials a {
+  fill: #fff;
+}
+
+header .ananke-socials a .icon svg, footer .ananke-socials a .icon svg{
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
 .new-window {
   opacity: 0;
   display: inline-block;
