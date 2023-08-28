@@ -8,6 +8,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 Theatre: The Island Theater
+Venue: The Island Theater
 show_details:
 - Writer: F. Scott Fitzgerald - wiki
 - Adapter: Simon Levy - wiki

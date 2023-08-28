@@ -9,6 +9,8 @@ featured_image_alt:
 featured_image_caption:
 Genres: 
 - Play
+- Performance Art
+- Social Commentary
 Venue: 1904 Music Hall
 Wrshow_details:
 - Writer: Ebony Payne-English - wiki

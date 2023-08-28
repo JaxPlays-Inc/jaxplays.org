@@ -62,22 +62,29 @@
       </div>
       {{ end }}
 
-    <!-- Theatre Productions Section -->
+    <!-- Venue Productions Section -->
 
-    {{ $theatreName := .Title }} <!-- Assuming the page title is the theatre's name -->
-    {{ $productionsWithTheatre := slice }}
+    {{ $venueName := .Title }} <!-- Assuming the page title is the venue's name -->
+    {{ $productionsWithVenue := slice }}
 
     {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
-      {{ if eq .Params.Theatre $theatreName }}
-        {{ $productionsWithTheatre = $productionsWithTheatre | append . }}
+      {{ $currentProduction := . }}
+      {{ $venues := .Params.Venue }}
+      {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
+        {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+      {{ end }}
+      {{ range $venues }} <!-- This should now be safe -->
+        {{ if eq . $venueName }}
+          {{ $productionsWithVenue = $productionsWithVenue | append $currentProduction }}
+        {{ end }}
       {{ end }}
     {{ end }}
-
-    <!-- Display the productions with the theatre's name -->
-    {{ if $productionsWithTheatre }}
+  
+    <!-- Display the productions with the venues's name -->
+    {{ if $productionsWithVenue }}
     <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Productions</h3>
-      {{ range $production := $productionsWithTheatre }}
+      {{ range $production := $productionsWithVenue }}
       <div class="flex bb bw1 b--silver f5 f4-ns">
         <div class="pa3-ns pa2 w-100 flex items-center">
           <!-- Left Section -->
@@ -117,12 +124,9 @@
                 {{ end }}
               </div>
               <div>
-                {{ $venues := $production.Params.Venue }} <!-- Get the venue(s) -->
-                {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-                  {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
-                {{ end }}
-                {{ range $index, $venue := $venues }} <!-- Loop through the venue values -->
-                  {{ $venue }}{{ if ne (add $index 1) (len $venues) }}<br />{{ end }}
+                {{ $theatre := $production.Params.Theatre }} <!-- Get the theatre(s) -->
+                {{ if $theatre }}
+                  {{ $theatre }}
                 {{ end }}
               </div>
             </div>
@@ -133,7 +137,7 @@
     </div>
     {{ end }}
 
-    <!-- END Theatre Productions Section -->
+    <!-- END Venue Productions Section -->
 
     <!-- Content "About" -->
     {{ if .Content }}
@@ -144,12 +148,12 @@
     {{ end }}
 
     <!-- Reviews -->
-    {{ $theatreName := .Title }} <!-- Assuming the page title is the theatre's name -->
+    {{ $venueName := .Title }} <!-- Assuming the page title is the venue's name -->
     {{ $relatedReviews := slice }}
 
     {{ range where site.RegularPages "Type" "reviews" }}
-      {{ if eq .Params.Theatre $theatreName }}
-        {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object if the theatre name is found -->
+      {{ if eq .Params.Venue $venueName }}
+        {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object if the venue name is found -->
       {{ end }}
     {{ end }}
 
