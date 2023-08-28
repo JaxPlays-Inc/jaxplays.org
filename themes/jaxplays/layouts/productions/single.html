@@ -128,6 +128,7 @@
           <ul class="map_links list mv1 pl0">
             <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
             <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+            <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
           </ul>
           {{ end }}
         </div>
