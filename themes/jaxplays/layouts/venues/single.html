@@ -3,7 +3,7 @@
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
       <h1 class="f3 f2-l f1-m tc tl-ns ">
-        {{ .Title }}
+        {{ $.Title }}
       </h1>
       {{ $featuredImage := .Params.featured_image }}
       {{ $featuredImageCaption := .Params.featured_image_caption }}
@@ -37,7 +37,7 @@
           {{ partial "social-media-links.html" . }}
           {{ end }}
         </div>    
-        <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+        <div class="w-100 w-60-m w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
           {{ if $description }}
           <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
             {{ $description | safeHTML }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read more</a>
@@ -62,9 +62,30 @@
       </div>
       {{ end }}
 
+      <!-- Venue address and map -->
+      <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">Location</h3>
+        <!-- Venue Address Section -->
+        <div class="w-75 w-40-m w-25-l flex-column">
+        <!-- Use the captured page context -->
+        {{ with .Params.Address }} <!-- Access the 'Address' parameter -->
+        <span class="b">{{ $.Title }}</span>
+        <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+        <ul class="map_links list mv1 pl0">
+          <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+          <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+          <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
+        </ul>
+        {{ end }}
+        </div>
+        <!-- Venue Map Section -->
+        <div class="w-100 w-60-m w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+
+        </div>
+      </div>
+
     <!-- Venue Productions Section -->
 
-    {{ $venueName := .Title }} <!-- Assuming the page title is the venue's name -->
     {{ $productionsWithVenue := slice }}
 
     {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
@@ -74,7 +95,7 @@
         {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
       {{ end }}
       {{ range $venues }} <!-- This should now be safe -->
-        {{ if eq . $venueName }}
+        {{ if eq . $.Title }}
           {{ $productionsWithVenue = $productionsWithVenue | append $currentProduction }}
         {{ end }}
       {{ end }}
@@ -148,11 +169,10 @@
     {{ end }}
 
     <!-- Reviews -->
-    {{ $venueName := .Title }} <!-- Assuming the page title is the venue's name -->
     {{ $relatedReviews := slice }}
 
     {{ range where site.RegularPages "Type" "reviews" }}
-      {{ if eq .Params.Venue $venueName }}
+      {{ if eq .Params.Venue $.Title }}
         {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object if the venue name is found -->
       {{ end }}
     {{ end }}
