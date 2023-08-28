@@ -1,18 +1,16 @@
 ---
 title: Theatre by the Trax
 layout: venues
-image: 
-image_credit:
-image_alt:
-image_caption:
+featured_image: 
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Founded: 
 Address: |
   1000 Osborne Street
   St. Marys, GA
 Website: 
-Facebook: StMarysLittleTheatre
-Twitter: 
-Instagram: 
-LinkedIn: 
+Socials:
+  Facebook: StMarysLittleTheatre
 Phone: 1-954-290-9873
 ---

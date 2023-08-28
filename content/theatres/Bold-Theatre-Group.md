@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption:
 Founded: 2015
 disbanded: 2018
-Website: https://web.archive.org/web/20180312040411/http://boldtheatre.com/
+Website: http://boldtheatre.com
 Socials:
   Twitter: boldtheatre
 Press:
@@ -20,3 +20,5 @@ Founded in 2015 by [Daniel Austin](/people/daniel-austin) and [Ron Shreve](/peop
 Austin, a San Diego native, and Shreve, originally from Hawaii, bring a unique blend of civic engagement and artistic direction to the group. Both are University of Florida Theatre program graduates and have extensive experience in various roles in the theater community, from directing to acting.
 
 Their debut show, Circle Mirror Transformation, showcased their commitment to innovative storytelling and actor development. The production was not just a performance but an exploration of the art of theater itself, involving theater games and ensemble exercises that connected to the characters and the storyline.
+
+Archived website: [boldtheatre.com](https://web.archive.org/web/20180312040411/http://boldtheatre.com/)

@@ -2,20 +2,21 @@
 title: The Florida Ballet
 redirect_from: 
 layout: venues
-image: The_Florida_Ballet.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: The_Florida_Ballet.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Founded: 2019
 Closed:
 Address: |
   10131 Atlantic Boulevard
   Jacksonville, FL 32225
 website: https://floridaballet.org
-facebook: flballet
-twitter: flballet
-instagram: flballet
-YouTube: floridaballet3599
+Socials:
+  facebook: flballet
+  twitter: flballet
+  instagram: flballet
+  YouTube: floridaballet3599
 Press: 
 - The Florida Ballet is moving to Arlington: https://www.jaxdailyrecord.com/news/2019/jul/31/the-florida-ballet-is-moving-to-arlington/
 ---

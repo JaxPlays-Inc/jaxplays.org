@@ -1,16 +1,16 @@
 ---
 title: Florida Theatre
 layout: venues
-image: Florida_Theatre.png
+featured_image: Florida_Theatre.png
 Founded: 1927
 disbanded:
 Address: |
   128 E Forsyth St #300
   Jacksonville, FL 32202
-facebook: FloridaTheatre
-Twitter: FloridaTheatre
-instagram: floridatheatre
-LinkedIn: 
+Socials:
+  Facebook: FloridaTheatre
+  Twitter: FloridaTheatre
+  Instagram: floridatheatre
 Website: https://www.floridatheatre.com
 Press:
 - "The Florida Theatre was nominated for Theatre of the Year by the Academy of Country Music": https://news.yahoo.com/florida-theatre-nominated-theatre-academy-175258165.html

@@ -13,8 +13,8 @@
       {{ $contentLength := len .Content }}
       {{ $description := .Params.description }}
       {{ if not $description }}
-        {{ if gt $contentLength 350 }}
-          {{ $description = printf "%s..." (substr .Content 0 350) | plainify}}
+        {{ if gt $contentLength 275 }}
+          {{ $description = printf "%s..." (substr .Content 0 275) }}
         {{ else }}
           {{ $description = substr .Content 0 $contentLength }}
         {{ end }}
@@ -40,7 +40,7 @@
         <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
           {{ if $description }}
           <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
-            {{ $description }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read all</a>
+            {{ $description | safeHTML }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read more</a>
             
           </div>
           {{ end }}
@@ -58,7 +58,6 @@
             {{ end }}
           </div>
           {{ end }}
-          
         </div>
       </div>
       {{ end }}

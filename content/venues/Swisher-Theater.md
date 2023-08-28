@@ -1,19 +1,15 @@
 ---
 title: Swisher Theater
 layout: venues
-image: Swisher_Theater.jpeg
-image_credit: ju.edu
-image_alt:
-image_caption: 
+featured_image: Swisher_Theater.jpeg
+featured_image_attr: ju.edu
+featured_image_alt:
+featured_image_caption: 
 Founded: 
 disbanded:
 Address: |
   2800 University Blvd N
   Jacksonville, FL 32211
-facebook: 
-Twitter: 
-instagram: 
-LinkedIn: 
 Website: https://www.ju.edu/cfa/
 Press:
 - "We made Jacksonville University’s Swisher Theatre shine again. - Haskell": https://web.archive.org/web/20230430200827/https://www.haskell.com/projects/swisher-theatre-renovations/

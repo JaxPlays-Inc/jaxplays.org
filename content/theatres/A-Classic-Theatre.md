@@ -12,7 +12,7 @@ Address: |
     PO Box 1122
     99 King St
     St. Augustine, FL 32084
-Website: https://www.aclassictheatre.org/
+Website: https://www.aclassictheatre.org
 Socials: 
   Facebook: AClassicTheatre
   Instagram: 	aclassictheatre

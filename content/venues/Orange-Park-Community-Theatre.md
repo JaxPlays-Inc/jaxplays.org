@@ -1,18 +1,19 @@
 ---
 title: Orange Park Community Theatre
 layout: venues
-image: Orange_Park_Community_Theatre.jpeg
-image_credit:
-image_alt:
-image_caption:
+featured_image: Orange_Park_Community_Theatre.jpeg
+featured_image_attr:
+featured_image_alt:
+featured_image_caption:
 Founded: 
 Address: |
-    2900 Moody Ave
-    Orange Park, FL 32073
+  2900 Moody Ave
+  Orange Park, FL 32073
 Website: https://www.opct.info
-Facebook: opctheatre
-Twitter: OPCT
-Instagram: Opctheatre
+Socials:
+  Facebook: opctheatre
+  Twitter: OPCT
+  Instagram: Opctheatre
 LinkedIn: 
 Phone: 1-904-276-2599
 Artistic Director: 
