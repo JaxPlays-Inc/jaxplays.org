@@ -11,6 +11,8 @@ Socials:
   Facebook: FloridaTheatre
   Twitter: FloridaTheatre
   Instagram: floridatheatre
+Latitude: 30.32652459314227
+Longitude: -81.65574692883557
 Website: https://www.floridatheatre.com
 Press:
 - "The Florida Theatre was nominated for Theatre of the Year by the Academy of Country Music": https://news.yahoo.com/florida-theatre-nominated-theatre-academy-175258165.html

@@ -9,6 +9,8 @@ Founded: 2017-10-26
 Address: |
   1860 Town Hall Circle Suite 54
   Fleming Island, FL 32003
+Latitude: 30.084529638460072
+Longitude: -81.71449273803097
 Website: https://www.theislandtheater.com
 Socials:
   Facebook: theislandtheater

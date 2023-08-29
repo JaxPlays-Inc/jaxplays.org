@@ -1,0 +1,49 @@
+<!-- Include Leaflet CSS and JS -->
+<link rel="stylesheet" href="/leaflet/leaflet.css" />
+<script src="/leaflet/leaflet.js"></script>
+
+<link rel="stylesheet" href="/leaflet/extramarkers/css/leaflet.extra-markers.min.css">
+<script src="/leaflet/extramarkers/js/leaflet.extra-markers.min.js"></script>
+
+<link href="/leaflet/extramarkers/css/fontawesome.css" rel="stylesheet">
+
+<!-- Initialize Map -->
+<div id="mapid" style="height: 400px; width: 100%;"></div>
+<script>
+    // Default coordinates
+    var defaultLat = 30.324757872416303;
+    var defaultLng = -81.6598879925539;
+
+    // Check if Latitude and Longitude parameters are set in the partial
+    var lat = {{ .Params.Latitude }};
+    var lng = {{ .Params.Longitude }};
+
+    // Venue name from Parameters
+    var popupContent = "<b>{{ .Params.Title }}</b></br>";
+    popupContent += "{{ .Params.Address | replaceRE "\\n" "<br>" | safeHTML }}";
+
+    // Initialize map
+    var mymap = L.map('mapid').setView([lat, lng], 15);
+
+    // Stadia_StamenToner Layer
+    var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
+        minZoom: 0,
+        maxZoom: 17,
+        attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        ext: 'png'
+    }).addTo(mymap);
+
+    // Creates a red marker with the coffee icon
+    var redMarker = L.ExtraMarkers.icon({
+      icon: 'fa-theater-masks',
+      markerColor: 'yellow',
+      shape: 'circle',
+      prefix: 'fas'
+    });
+
+    // Add a marker with a popup displaying the venue name
+    var marker = L.marker([lat, lng], {icon: redMarker}).bindPopup(popupContent).addTo(mymap);
+    marker.openPopup();
+
+
+</script>

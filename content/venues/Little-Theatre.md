@@ -9,6 +9,8 @@ Founded: 1938
 Address: |
   2032 San Marco Blvd
   Jacksonville, FL 32207
+Latitude: 30.303578917656996
+Longitude: -81.65339072883557
 Website: https://www.theatrejax.com
 Socials:
   Facebook: TheatreJacksonville

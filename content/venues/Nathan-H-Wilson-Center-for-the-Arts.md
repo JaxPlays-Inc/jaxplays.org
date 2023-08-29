@@ -9,6 +9,8 @@ Founded:
 Address: |
     11901 Beach Blvd
     Jacksonville, FL 32246
+Latitude: 30.29008090465963
+Longitude: -81.51068393074928
 Website: https://www.fscj.edu/campuses/south-campus/wilson-center
 Phone: 1-904-646-2300
 ---

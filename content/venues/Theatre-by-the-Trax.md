@@ -9,6 +9,8 @@ Founded:
 Address: |
   1000 Osborne Street
   St. Marys, GA
+Latitude: 30.735118982593065
+Longitude: -81.54476339877564
 Website: 
 Socials:
   Facebook: StMarysLittleTheatre

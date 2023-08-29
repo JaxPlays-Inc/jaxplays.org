@@ -2,115 +2,123 @@
 {{ define "main" }}
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
-      <h1 class="f3 f2-l f1-m tc tl-ns ">
-        {{ $.Title }}
-      </h1>
-      {{ $featuredImage := .Params.featured_image }}
-      {{ $featuredImageCaption := .Params.featured_image_caption }}
-      {{ $featuredImageAttr := .Params.featured_image_attr }}
-      {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-      {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
-      {{ $contentLength := len .Content }}
-      {{ $description := .Params.description }}
-      {{ if not $description }}
-        {{ if gt $contentLength 275 }}
-          {{ $description = printf "%s..." (substr .Content 0 275) }}
-        {{ else }}
-          {{ $description = substr .Content 0 $contentLength }}
-        {{ end }}
-      {{ end }}
+    <h1 class="f3 f2-l f1-m tc tl-ns ">
+      {{ $.Title }}
+    </h1>
+    {{ $featuredImage := .Params.featured_image }}
+    {{ $featuredImageCaption := .Params.featured_image_caption }}
+    {{ $featuredImageAttr := .Params.featured_image_attr }}
+    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
+    {{ $contentLength := len .Content }}
+    {{ $description := .Params.description }}
+    {{ if not $description }}
+    {{ if gt $contentLength 275 }}
+    {{ $description = printf "%s..." (substr .Content 0 275) }}
+    {{ else }}
+    {{ $description = substr .Content 0 $contentLength }}
+    {{ end }}
+    {{ end }}
 
-      {{ if or $featuredImage $description }}
-      <div class="flex flex-column flex-row-ns">
-        <!-- Featured Image Section -->
-        {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-        {{ if $featuredImage }}
-        {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
-        <!-- Concatenate path if featured image exists -->
+    {{ if or $featuredImage $description }}
+    <div class="flex flex-column flex-row-ns">
+      <!-- Featured Image Section -->
+      {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+      {{ if $featuredImage }}
+      {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
+      <!-- Concatenate path if featured image exists -->
+      {{ end }}
+      <div class="w-75 w-40-m w-25-l flex-column center">
+        <a href="{{ $imagePath }}" data-lightbox="image-1"
+          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+        </a>
+        {{ if .Params.Socials }}
+        {{ partial "social-media-links.html" . }}
         {{ end }}
-        <div class="w-75 w-40-m w-25-l flex-column center">
-          <a href="{{ $imagePath }}" data-lightbox="image-1"
-            data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-            <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
-          </a>
-          {{ if .Params.Socials }}
-          {{ partial "social-media-links.html" . }}
+      </div>
+      <div class="w-100 w-60-m w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+        {{ if $description }}
+        <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          {{ $description | safeHTML }} <a href="#about"
+            class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read
+            more</a>
+
+        </div>
+        {{ end }}
+        {{ if or .Params.website .Params.phone }}
+        <div class="flex flex-row flex-wrap nested-copy-line-height lh-copy f4 mt2 {{ $.Param " text_color" |
+          default "dark-gray" }}">
+          {{ if .Params.website }}
+          {{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}
+          <a href="{{ .Params.website }}" target="_blank" class="link db nowrap">{{ $website }}</a>
           {{ end }}
-        </div>    
-        <div class="w-100 w-60-m w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
-          {{ if $description }}
-          <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
-            {{ $description | safeHTML }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read more</a>
-            
-          </div>
+          {{ if and .Params.website .Params.phone }}
+          <span class="nowrap">&nbsp;•&nbsp;</span>
           {{ end }}
-          {{ if or .Params.website .Params.phone }}
-          <div class="flex flex-row flex-wrap nested-copy-line-height lh-copy f4 mt2 {{ $.Param "text_color" | default "dark-gray" }}">
-            {{ if .Params.website }}
-            {{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}
-            <a href="{{ .Params.website }}" target="_blank" class="link db nowrap">{{ $website }}</a>
-            {{ end }}
-            {{ if and .Params.website .Params.phone }}
-            <span class="nowrap">&nbsp;•&nbsp;</span>
-            {{ end }}
-            {{ if .Params.phone }}
-            <a href="tel:{{ .Params.phone }}" class="link db nowrap">{{ .Params.phone }}</a>
-            {{ end }}
-          </div>
+          {{ if .Params.phone }}
+          <a href="tel:{{ .Params.phone }}" class="link db nowrap">{{ .Params.phone }}</a>
           {{ end }}
         </div>
-      </div>
-      {{ end }}
-
-      <!-- Venue address and map -->
-      <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">Location</h3>
-        <!-- Venue Address Section -->
-        <div class="w-75 w-40-m w-25-l flex-column">
-        <!-- Use the captured page context -->
-        {{ with .Params.Address }} <!-- Access the 'Address' parameter -->
-        <span class="b">{{ $.Title }}</span>
-        <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-        <ul class="map_links list mv1 pl0">
-          <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-          <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
-          <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
-        </ul>
         {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <!-- Venue address and map -->
+    <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Location</h3>
+      <!-- Venue Address Section -->
+      <div class="flex flex-column flex-row-ns">
+        <div class="w-75 w-40-m w-25-l flex-column">
+          <!-- Use the captured page context -->
+          {{ with .Params.Address }} <!-- Access the 'Address' parameter -->
+          <span class="b">{{ $.Title }}</span>
+          <br />{{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+          <ul class="map_links list mv1 pl0">
+            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+            <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a>
+            </li>
+          </ul>
+          {{ end }}
         </div>
         <!-- Venue Map Section -->
         <div class="w-100 w-60-m w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
-
+          {{ if and .Params.Latitude .Params.Longitude }}
+           {{ partial "leaflet.html" . }}
+          {{ end }}
         </div>
       </div>
-
+    </div>
+    
     <!-- Venue Productions Section -->
 
     {{ $productionsWithVenue := slice }}
 
     {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
-      {{ $currentProduction := . }}
-      {{ $venues := .Params.Venue }}
-      {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-        {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
-      {{ end }}
-      {{ range $venues }} <!-- This should now be safe -->
-        {{ if eq . $.Title }}
-          {{ $productionsWithVenue = $productionsWithVenue | append $currentProduction }}
-        {{ end }}
-      {{ end }}
+    {{ $currentProduction := . }}
+    {{ $venues := .Params.Venue }}
+    {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
+    {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
     {{ end }}
-  
+    {{ range $venues }} <!-- This should now be safe -->
+    {{ if eq . $.Title }}
+    {{ $productionsWithVenue = $productionsWithVenue | append $currentProduction }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
     <!-- Display the productions with the venues's name -->
     {{ if $productionsWithVenue }}
-    <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+    <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Productions</h3>
       {{ range $production := $productionsWithVenue }}
       <div class="flex bb bw1 b--silver f5 f4-ns">
         <div class="pa3-ns pa2 w-100 flex items-center">
           <!-- Left Section -->
           <div class="w-25 w-10-l">
-            {{ $featuredImage := $production.Params.featured_image }}  <!-- Fixed this line -->
+            {{ $featuredImage := $production.Params.featured_image }} <!-- Fixed this line -->
             {{ if not $featuredImage }}
             {{ with (site.GetPage "page" (printf "/shows/%s" ($production.Title | urlize))) }}
             {{ $featuredImage = .Params.featured_image }}
@@ -137,17 +145,17 @@
                 {{ $date := $production.Date }}
                 {{ $isApprox := $production.Params.approx_date }}
                 {{ if eq $isApprox "year" }}
-                  {{ $date.Year }}
+                {{ $date.Year }}
                 {{ else if eq $isApprox "month" }}
-                  {{ $date.Format "January 2006" | replaceRE "( \\d+)$" "" }}
+                {{ $date.Format "January 2006" | replaceRE "( \\d+)$" "" }}
                 {{ else }}
-                  {{ $date.Format "January 2006" }}
+                {{ $date.Format "January 2006" }}
                 {{ end }}
               </div>
               <div>
                 {{ $theatre := $production.Params.Theatre }} <!-- Get the theatre(s) -->
                 {{ if $theatre }}
-                  {{ $theatre }}
+                {{ $theatre }}
                 {{ end }}
               </div>
             </div>
@@ -172,13 +180,14 @@
     {{ $relatedReviews := slice }}
 
     {{ range where site.RegularPages "Type" "reviews" }}
-      {{ if eq .Params.Venue $.Title }}
-        {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object if the venue name is found -->
-      {{ end }}
+    {{ if eq .Params.Venue $.Title }}
+    {{ $relatedReviews = $relatedReviews | append . }}
+    <!-- Appending the entire review object if the venue name is found -->
+    {{ end }}
     {{ end }}
 
     {{ if or $relatedReviews .Params.reviews }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
       {{ range $relatedReviews }}
       <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
@@ -198,7 +207,6 @@
 
     </div>
     {{ end }}
-
     <!-- Press -->
     {{ if .Params.press }}
     <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
@@ -212,35 +220,34 @@
     </div>
     {{ end }}
 
-      <!-- Photos -->
-      {{ if .Params.photos }}
-      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
-        }}">
-        <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-        <div class="flex flex-wrap">
-          {{ range .Params.photos }}
-          {{ $altText := .photo_alt | default $.Title }}
-          <figure class="w-40-l center">
-            <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
-              data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-                src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
-            {{ if or .photo_caption .photo_attr }}
-            <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
-              {{ with .photo_caption }}
-              {{ . }}
-              {{ end }}
-              {{ if and .photo_caption .photo_attr }} | {{ end }}
-              {{ with .photo_attr }}
-              (📷 {{ . }})
-              {{ end }}
-            </figcaption>
+    <!-- Photos -->
+    {{ if .Params.photos }}
+    <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+      <div class="flex flex-wrap">
+        {{ range .Params.photos }}
+        {{ $altText := .photo_alt | default $.Title }}
+        <figure class="w-40-l center">
+          <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+            data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+              src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+          {{ if or .photo_caption .photo_attr }}
+          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+            {{ with .photo_caption }}
+            {{ . }}
             {{ end }}
-          </figure>
+            {{ if and .photo_caption .photo_attr }} | {{ end }}
+            {{ with .photo_attr }}
+            (📷 {{ . }})
+            {{ end }}
+          </figcaption>
           {{ end }}
-        </div>
+        </figure>
+        {{ end }}
       </div>
-      {{ end }}
-
+    </div>
+    {{ end }}
   </article>
 </div>
 {{ end }}
+

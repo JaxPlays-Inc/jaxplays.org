@@ -19,6 +19,8 @@ Socials:
   Facebook: The5andDime
   Instagram: the5anddime
   YouTube: MakingChangeInJax
+Latitude: 30.327248399999004
+Longitude: -81.65596330000109
 Website: https://www.the5anddime.org
 Press:
 - Staging Change at The 5 & Dime Theatre - Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/

@@ -7,6 +7,8 @@ disbanded:
 Address: |
   19 Ocean Street
   Jacksonville, FL 32202
+Latitude: 30.32645613192674
+Longitude: -81.65645212963213
 Socials:
   Facebook: 1904MusicHall
   Twitter: 1904musichall

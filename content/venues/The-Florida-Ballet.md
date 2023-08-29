@@ -11,6 +11,8 @@ Closed:
 Address: |
   10131 Atlantic Boulevard
   Jacksonville, FL 32225
+Latitude: 30.323365791249966
+Longitude: -81.53734261779111
 website: https://floridaballet.org
 Socials:
   facebook: flballet

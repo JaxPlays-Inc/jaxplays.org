@@ -9,6 +9,8 @@ Founded: 2010
 Address: |
   207 Cedar St
   Fernandina Beach, FL 32034
+Latitude: 30.668147665327616
+Longitude: -81.46408832883559
 Website: https://www.ameliacommunitytheatre.org
 Socials:
   Facebook: ameliacommunitytheatre

@@ -13,7 +13,8 @@ disbanded:
 Address: |
   603 King St
   Jacksonville, FL 3220
-Artistict Director: Barbara Colaciello
+Latitude: 30.320116304047385
+Longitude: -81.69668125767116
 Socials: 
   Facebook: BABSLABatCoRK 
   Instagram: babslabatcork

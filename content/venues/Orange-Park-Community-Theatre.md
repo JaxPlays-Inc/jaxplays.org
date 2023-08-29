@@ -9,6 +9,8 @@ Founded:
 Address: |
   2900 Moody Ave
   Orange Park, FL 32073
+Latitude: 30.146393239515557
+Longitude: -81.75301263248379
 Website: https://www.opct.info
 Socials:
   Facebook: opctheatre

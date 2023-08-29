@@ -9,6 +9,8 @@ Founded: 2001
 Address: |
   11 Old Mission Ave
   St. Augustine, FL 32084
+Latitude: 29.903854867372296
+Longitude: -81.31853212945953
 Website: https://limelight-theatre.org
 Socials:
   Facebook: limelight.theatre

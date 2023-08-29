@@ -9,6 +9,8 @@ Founded: 1967
 Address: |
   12000 Beach Blvd
   Jacksonville, FL 32246
+Latitude: 30.286329524205854
+Longitude: -81.50152420428535
 Website: https://www.alhambrajax.com
 Socials:
   Facebook: alhambratheatreanddining

@@ -9,6 +9,8 @@ Founded:
 Address: |
     544 Atlantic Blvd
     Neptune Beach, Florida 32266
+Latitude: 30.323145198390346
+Longitude: -81.4016867177911
 Socials:
     Facebook: ABETtheatre
     Twitter: ABETtheatre

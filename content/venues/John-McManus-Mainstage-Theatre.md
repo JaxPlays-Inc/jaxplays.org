@@ -9,6 +9,8 @@ Founded: 1966
 Address: |
   106 N 6th St
   Jacksonville Beach, FL 32250
+Latitude: 30.288816571430768
+Longitude: -81.39571501841732
 Website: https://playersbythesea.org
 Socials:
   Facebook: playersbytheseatheatre

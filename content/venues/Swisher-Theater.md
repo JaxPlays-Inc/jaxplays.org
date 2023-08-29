@@ -10,6 +10,8 @@ disbanded:
 Address: |
   2800 University Blvd N
   Jacksonville, FL 32211
+Latitude: 30.351120359208913
+Longitude: -81.60375812164072
 Website: https://www.ju.edu/cfa
 Press:
 - "We made Jacksonville University’s Swisher Theatre shine again. - Haskell": https://web.archive.org/web/20230430200827/https://www.haskell.com/projects/swisher-theatre-renovations/
