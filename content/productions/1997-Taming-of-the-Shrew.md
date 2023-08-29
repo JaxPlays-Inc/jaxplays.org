@@ -26,7 +26,7 @@ cast:
   - Evan Eger
   - Lauren Jones
 - Widow: Tracy Gookin
-- Townsperson, Juggler, & Fire Eater:
+- Townsperson, Juggler & Fire Eater:
   - JoAnne Dyson
   - Cassie Freeman
   - Matt Thompson

@@ -53,12 +53,20 @@
             {{ $credits := slice }}
             {{ range . }}
               {{ range $character, $actor := . }}
-                {{ range $name := $personNames }} <!-- Looping through all the person's names -->
-                  {{ if eq $actor $name }}
+              {{ $actorSlice := slice }}
+              {{ if eq (printf "%T" $actor) "string" }}
+                {{ $actorSlice = slice $actor }}
+              {{ else }}
+                {{ $actorSlice = $actor }}
+              {{ end }}
+              {{ range $name := $personNames }} <!-- Looping through all the person's names -->
+                {{ range $actorName := $actorSlice }}
+                  {{ if eq $actorName $name }}
                     {{ $credits = $credits | append $character }}
                   {{ end }}
                 {{ end }}
               {{ end }}
+            {{ end }}           
             {{ end }}
             {{ if $credits }}
               {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
