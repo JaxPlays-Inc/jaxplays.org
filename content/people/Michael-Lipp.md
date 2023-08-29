@@ -9,12 +9,6 @@ birth_info:
   birth_name:
   birth_date: 1961-01-03
   birth_place: New Haven, CT
-details:
-  Website: https://www.mrlipp.com
-  Facebook:
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  Year Active: 1985-Present
+Website: https://www.mrlipp.com
 ---
 Michael Lipp has directed or performed in about 90 productions for nearly all of the Jacksonville area's community and educational companies.

@@ -18,6 +18,12 @@
         {{ $url = printf "https://twitter.com/%s" $handle }}
       {{ else if eq $lowerName "medium" }}
         {{ $url = printf "https://medium.com/@%s" $handle }}
+      {{ else if eq $lowerName "imdb" }}
+        {{ $url = printf "https://www.imdb.com/name/%s" $handle }}
+      {{ else if eq $lowerName "ibdb" }}
+        {{ $url = printf "https://www.ibdb.com/broadway-cast-staff/%s" $handle }}
+      {{ else if eq $lowerName "wikipedia" }}
+        {{ $url = printf "https://en.wikipedia.org/wiki/%s" $handle }}
       {{ else if eq $lowerName "mastodon" }}
         {{ $url = $handle }}
       {{ else }}

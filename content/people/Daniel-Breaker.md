@@ -13,12 +13,8 @@ birth_info:
   birth_name: 
   birth_date: 1980-06-02
   birth_place: Manhattan, Kansas
-details:
-  Website: 
-  Facebook:
-  Twitter: 
+Socials:
   Instagram: danielbreaker | danielbreaker
-  LinkedIn: 
   IBDB: Daniel Breaker | daniel-breaker-412638
   IMDb: Daniel Breaker | nm1683726
   Wikipedia: Daniel Breaker | Daniel_Breaker

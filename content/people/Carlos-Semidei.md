@@ -11,13 +11,7 @@ featured_image_caption:
 birth_info:
   birth_name: Carlos Julian Semidéi
   birth_date: 1957-11-25
-details:
-  Website: 
-  Facebook:
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
+Socials:
   IMDb: Carlos Semidei | nm10324765
 ---
 Carlos Julian Semidéi is a versatile stage actor, acclaimed for a range of compelling roles in theatre productions. Born in 1957, Carlos made his acting debut in 2018 at Phase 8 Theatre and has since excelled in numerous roles, recently captivating audiences as Timothy Price in _The Night I Died at the Palace Theatre_ and Sheriff Buster in _Misery_.

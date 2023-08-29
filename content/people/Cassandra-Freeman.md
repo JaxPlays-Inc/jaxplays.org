@@ -9,12 +9,8 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-details:
-  Website: https://linktr.ee/cassandra.freeman6
-  Facebook:
-  Twitter: 
+Socials:
   Instagram: cassiedamsel
-  LinkedIn: 
-  IBDB: 
   IMDb: Cassandra Freeman | nm1904386
+Website: https://linktr.ee/cassandra.freeman6
 ---

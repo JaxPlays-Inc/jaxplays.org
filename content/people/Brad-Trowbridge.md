@@ -10,12 +10,5 @@ birth_info:
   birth_date: 
   death_date: 
   birth_place: 
-details:
-  Website: 
-  Facebook:
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  Year Active: 
 ---
 

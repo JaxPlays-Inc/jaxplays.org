@@ -18,11 +18,6 @@ featured_image_caption:
 birth_info:
   birth_name: James Beeks
 details:
-  Website: 
-  Facebook:
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
   IBDB: James T. Justis | james-t-justis-532383
   IMDb: James Delisco Beeks | nm1950470
 Press:

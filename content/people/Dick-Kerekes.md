@@ -11,14 +11,8 @@ featured_image: Dick_Kerekes.jpg
 featured_image_attr: Kerekes' Facebook profile
 featured_image_alt: 
 featured_image_caption: 
-details:
-  Website: 
+Socials:
   Facebook: Dick Kerekes | dick.kerekes
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: 
 Press:
 - "The Amazing (but humble) Watch Hound - EU": https://folioweekly.com/2015/09/06/smooch-the-pooch-celebrating-35-years-of-the-amazing-but-humble-watch-hound/
 ---

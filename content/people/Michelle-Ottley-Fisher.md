@@ -11,12 +11,6 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-details:
-  Website:
-  Facebook:
-  Twitter:
-  Instagram: 
+Socials:
   LinkedIn: Michelle Ottley-Fisher | michelle-ottley-fisher-19ab9632
-  IBDB: 
-  IMDb: 
 ---

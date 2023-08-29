@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.imdb_st0{fill:#F5C518;}
+</style>
+<path class="imdb_st0" d="M256,0L256,0c141.4,0,256,114.6,256,256v0c0,141.4-114.6,256-256,256h0C114.6,512,0,397.4,0,256v0
+	C0,114.6,114.6,0,256,0z"/>
+<path d="M104,328V184H64v144H104z M189,184l-9,67l-5-36l-5-31h-50v144h34v-95l14,95h25l13-97v97h34V184H189z M256,328V184h62
+	c15,0,26,11,26,25v94c0,14-11,25-26,25H256z M303,210l-9-1v94c5,0,9-1,10-3c2-2,2-8,2-18v-56v-12L303,210z M419,220h3
+	c14,0,26,11,26,25v58c0,14-12,25-26,25h-3c-8,0-16-4-21-11l-2,9h-36V184h38v46C403,224,411,220,419,220z M411,290v-34l-1-11
+	c-1-2-4-3-6-3s-5,1-6,3v57c1,2,4,3,6,3s6-1,6-3L411,290z"/>
+</svg>
