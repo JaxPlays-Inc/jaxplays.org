@@ -4,7 +4,12 @@ layout: shows
 featured_image: Fiddler_on_the_Roof.jpg
 featured_image_caption: Playbill from the original Broadway production of Fiddler on the Roof
 featured_image_attr: Playbill
-category: musicals
+Genres:
+- Musical
+- Drama
+- Historical Fiction
+- Comedy
+- Romance
 show_details: 
 - Music: Jerry Bock - wiki
 - Lyrics: Sheldon Harnick - wiki

@@ -110,14 +110,23 @@
         {{ if or $genres (and .Params.date .Params.closing_date) }}
         <div class="flex flex-column items-start justify-start">
           <!-- Genres -->
-          {{ if $genres }}
-          <div class="flex flex-wrap">
-            {{ range $genres }}
-            <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mb2 mr2 h2 dib black bg-yellow f6">{{ . }}</a>
+          {{ $genres := .Params.Genres }}
+          {{ if not $genres }}
+            {{ range where .Site.Pages "Type" "shows" }}
+              {{ if eq .Title $.Title }}
+                {{ $genres = .Params.Genres }}
+              {{ end }}
             {{ end }}
-
-          </div>
           {{ end }}
+
+          {{ if $genres }}
+            <div class="flex flex-wrap">
+              {{ range $genres }}
+              <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mb2 mr2 h2 dib black bg-yellow f6">{{ . }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+
           <!-- Tickets -->
           <!-- If date and closing_date are both filed out -->
           {{ if and .Params.date .Params.closing_date }}

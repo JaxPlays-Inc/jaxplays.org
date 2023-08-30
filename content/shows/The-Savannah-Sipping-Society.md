@@ -3,9 +3,10 @@ title: The Savannah Sipping Society
 featured_image: The_Savannah_Sipping_Society.png
 featured_image_caption: Logo for the The Savannah Sipping Society
 featured_image_attr: Jones Hope Wooten
-genres: 
+Genres: 
 - Play
 - Comedy
+- Drama
 show_details:
 - Playwright: Jessie Jones, Nicholas Hope, Jamie Wooten
 - Premiere: 2016-02-11

@@ -10,10 +10,6 @@ playbill:
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa
-Genres: 
-- Play
-- Comedy
-- Drama
 Description: "In *The Savannah Sipping Society*, four Southern women navigate life's curveballs, love, and, of course, happy hour. It's a hilarious, heartwarming romp where the tea is sweet, but the comebacks are sweeter."
 showtimes:
 - 2023-05-05 19:00:00
