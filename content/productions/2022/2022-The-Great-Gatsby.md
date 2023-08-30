@@ -12,6 +12,7 @@ Venue: The Island Theater
 show_details:
 - Writer: F. Scott Fitzgerald - wiki
 - Adapter: Simon Levy - wiki
+Description: "*The Great Gatsby*, adapted by Simon Levy, brings F. Scott Fitzgerald's classic American novel to the stage in a tale of doomed love, unfulfilled aspirations, and the American Dream gone awry, all set against the jazz-infused backdrop of the Roaring '20s."
 Genres:
 - Play
 - Literary Fiction
@@ -55,3 +56,4 @@ crew:
 - Choreography: Abigail Stansberry
 - Costumes: Abigail Stansberry
 ---
+In the heat of the Roaring Twenties, Nick Carraway moves to Long Island and finds himself entangled in a complex web of relationships anchored by the enigmatic millionaire Jay Gatsby and his obsession with the elusive Daisy Buchanan. As Nick becomes a conduit for Gatsby's dream, he witnesses the destructive power of ambition and the downfall of those who hold their illusions too closely. Gatsby's opulent life unravels as he grapples with identity, wealth, and love, culminating in a tragic chain of events that leaves all characters irrevocably changed. The play captures the glitter as well as the gloom of an era that danced its way into disillusionment.

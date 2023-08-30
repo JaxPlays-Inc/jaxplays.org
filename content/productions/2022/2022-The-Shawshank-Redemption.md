@@ -13,6 +13,7 @@ Theatre: ABET - All Beaches Experimental Theatre
 Genres: 
 - Play
 - Crime Fiction
+Description: "A gripping drama that follows banker Andy Dufresne, wrongfully convicted for murder, as he navigates life in Shawshank Prison. Over the years, he forms an unlikely friendship with fellow inmate Red and quietly hatches a daring escape plan, all while imparting hope to those around him."
 show_details:
 - Writer: 
   - Dave Johns
