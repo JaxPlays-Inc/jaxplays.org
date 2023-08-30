@@ -47,4 +47,4 @@ crew:
 - Stage Manager: Lora Cristl
 - Fight Choreographer: Kristen Oliver
 ---
-"When Andy Dufresne is convicted of murder and sentenced to life in the notorious Shawshank prison, he must find a way to keep himself and his hope alive by using his wits and forging friendships. Based on the novella by Stephen King. The Shawshank Redemption brings the story of resilience made famous by the acclaimed film to the stage." — [The Shawshank Redemption by ABET- All Beaches Experimental Theatre](https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439)
+"When Andy Dufresne is convicted of murder and sentenced to life in the notorious Shawshank prison, he must find a way to keep himself and his hope alive by using his wits and forging friendships. Based on the novella by Stephen King. *The Shawshank Redemption* brings the story of resilience made famous by the acclaimed film to the stage." — [The Shawshank Redemption by ABET- All Beaches Experimental Theatre](https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439)

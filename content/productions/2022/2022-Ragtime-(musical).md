@@ -66,9 +66,9 @@ crew:
 - Choreographer: Curtis J. Williams
 - Music Director: Aaron DeCicco
 ---
-This much-anticipated production of _Ragtime_ at Theatre Jacksonville was unfortunately cancelled due to a rapid outbreak of COVID-19 among the cast and crew. Despite implementing rigorous safety measures, the virus infiltrated this tight-knit theatre community, making it impossible for the large cast to gather safely for rehearsals.
+This much-anticipated production of *Ragtime* at Theatre Jacksonville was unfortunately cancelled due to a rapid outbreak of COVID-19 among the cast and crew. Despite implementing rigorous safety measures, the virus infiltrated this tight-knit theatre community, making it impossible for the large cast to gather safely for rehearsals.
 
-In the midst of this health crisis, the _Ragtime_ production faced a persistent hurdle — a perpetually resetting countdown for quarantine periods. With every positive test result, each affected cast and crew member would start a new five-day quarantine period. This continual cycle proved to be a formidable challenge for the entire production.
+In the midst of this health crisis, the *Ragtime* production faced a persistent hurdle — a perpetually resetting countdown for quarantine periods. With every positive test result, each affected cast and crew member would start a new five-day quarantine period. This continual cycle proved to be a formidable challenge for the entire production.
 
 The director, Curtis J. Williams, found himself in a continuous state of adaptation and quick decision-making, trying to keep the production afloat. His days were filled with efforts to find suitable stand-ins for roles constantly becoming vacant due to the fluctuating availability of his original cast members.
 
@@ -76,4 +76,4 @@ This became a Sisyphean task, as no sooner would a replacement be found, another
 
 The cancellation was a significant disappointment for everyone involved, from the performers to the dedicated audience members.
 
-Amid the challenges, director Curtis J. Williams was proud of an important milestone in Theatre Jacksonville's history: the first casting of openly trans and non-binary people in a production. Stemming from a heartrending conversation with a potential cast member, Williams ensured increased representation in "Ragtime". He said, "It broke my heart that someone I know that well would even have to ask that question." Committed to the theatre as a space of inclusivity, he welcomed three individuals who identified as trans or non-binary, underlining his ethos: "If you have talent, come join us, 'cause we're a family... There is no reason for anybody to feel less than because of how you identify."
+Amid the challenges, director Curtis J. Williams was proud of an important milestone in Theatre Jacksonville's history: the first casting of openly trans and non-binary people in a production. Stemming from a heartrending conversation with a potential cast member, Williams ensured increased representation in *Ragtime*. He said, "It broke my heart that someone I know that well would even have to ask that question." Committed to the theatre as a space of inclusivity, he welcomed three individuals who identified as trans or non-binary, underlining his ethos: "If you have talent, come join us, 'cause we're a family... There is no reason for anybody to feel less than because of how you identify."

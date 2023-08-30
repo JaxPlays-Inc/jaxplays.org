@@ -82,4 +82,4 @@ crew:
 - Producer: Tori Tompkins
 - Sets: Bob Quick
 ---
-"Freaky Friday" is a musical based on the classic story by Mary Rodgers. With music by Tom Kitt, lyrics by Brian Yorkey, and book by Bridget Carpenter, it tells the story of a mother and daughter who magically switch bodies and have to learn to see the world from each other's perspective. The musical will be performed at Orange Park Community Theatre in 2022. — [Orange Park Community Theatre](https://www.opct.info/52nd-season)
+*Freaky Friday* is a musical based on the classic story by Mary Rodgers. With music by Tom Kitt, lyrics by Brian Yorkey, and book by Bridget Carpenter, it tells the story of a mother and daughter who magically switch bodies and have to learn to see the world from each other's perspective. The musical will be performed at Orange Park Community Theatre in 2022. — [Orange Park Community Theatre](https://www.opct.info/52nd-season)

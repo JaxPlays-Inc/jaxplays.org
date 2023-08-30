@@ -14,6 +14,7 @@ Genres:
 - Play
 - Comedy
 - Drama
+Description: "In *The Savannah Sipping Society*, four Southern women navigate life's curveballs, love, and, of course, happy hour. It's a hilarious, heartwarming romp where the tea is sweet, but the comebacks are sweeter."
 showtimes:
 - 2023-05-05 19:00:00
 - 2023-05-06 19:00:00
@@ -176,4 +177,3 @@ photos:
   photo_caption: Danya Zimbauer, Theresa Stanley, Tammy Bradley, Tori Ann Smith and
     Susan Langenbahn (left to right)
 ---
-In *The Savannah Sipping Society*, four Southern women navigate life's curveballs, love, and, of course, happy hour. It's a hilarious, heartwarming romp where the tea is sweet, but the comebacks are sweeter.

@@ -12,10 +12,11 @@ genres:
 - Drama
 - Existentialism
 - Dark comedy
+Description: "*No Exit* is a psychological drama that delves into the eternal torment of three souls trapped in a windowless room. Written by Jean-Paul Sartre, the play explores themes of existential despair and the human condition, encapsulated in the famous line, \"Hell is other people.\""
 Theatre: Lumen Repertory Theatre
 Venue: Swisher Theater
 show_details:
-- Based on: _Huis Clos_ by Jean Paul Sartre
+- Based on: Huis Clos by Jean Paul Sartre
 - Adapted by: Brian Niece*
 Website: https://www.lumenrep.org/shows/noexit
 Tickets: https://noexit.eventbrite.com/

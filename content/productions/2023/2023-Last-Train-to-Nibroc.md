@@ -42,4 +42,4 @@ crew:
 - Projection Board Operator: Ryan Feeney
 - Sound Board Operator: Isabella Cross
 ---
-"Last Train to Nibroc" is a captivating play written by Arlene Hutton. Set in the 1940s, the story follows the journey of two young people, May and Raleigh, who meet on a cross-country train from Los Angeles to their hometown of Nibroc, Kentucky. As they engage in heartfelt conversations and share their dreams, hopes, and disappointments, a tender and unlikely romance blossoms between them. 
+*Last Train to Nibroc* is a captivating play written by Arlene Hutton. Set in the 1940s, the story follows the journey of two young people, May and Raleigh, who meet on a cross-country train from Los Angeles to their hometown of Nibroc, Kentucky. As they engage in heartfelt conversations and share their dreams, hopes, and disappointments, a tender and unlikely romance blossoms between them. 
