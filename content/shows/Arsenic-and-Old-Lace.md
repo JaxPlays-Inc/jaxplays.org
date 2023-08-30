@@ -4,13 +4,17 @@ layout: shows
 featured_image: Arsenic_and_Old_Lace.jpeg
 featured_image_caption: Front cover and spine of the first edition printing of Arsenic and Old Lace
 featured_image_attr: Facsimile Dust Jackets, LLC
-category: play
+Description: "A dark comedy that unveils the zany world of the Brewster family, where two sweet old aunts take to poisoning lonely bachelors."
+Genres: 
+- Play
+- Comedy
+- Farce
+- Dark Comedy
 show_details:
 - Playwright: Joseph Kesselring
 - Premiere: 1941-01-10
 - Theatre: Fulton Theatre, Broadway
 - Basis: 
-- Genre: Dark comedy
 - Website: 
 ---
 *Arsenic and Old Lace* is a classic comedic play that combines farce, dark humor, and a touch of murder mystery. Set in the 1940s, the story revolves around the eccentric Brewster family. Mortimer Brewster, a theater critic, discovers that his charming, elderly aunts, Abby and Martha, have a peculiar habit of poisoning lonely old men as an act of charity. To complicate matters, Mortimer's brother Teddy believes he is Theodore Roosevelt and graves in the basement are the Panama Canal.

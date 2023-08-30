@@ -13,7 +13,7 @@ featured_image_alt: Photograph of the cast of 'Circle Mirror Transformation' wit
 featured_image_caption: Photograph of the cast of 'Circle Mirror Transformation' with Chul Hyun Ahn's 'Tunnel' (left to right) Katherine Herndon, David Gile, Katie McCloskey, Jason Collins, Barbara Colaciello
 featured_image_attr: Thomas Hager
 featured_image_attr_link: 
-Description: Circle Mirror Transformation is a riveting ensemble drama set in a Vermont community class. Using theater games as a lens, it uncovers the raw, complex layers of human emotion and connection, blending humor and heartbreak in a compelling narrative.
+Description: "*Circle Mirror Transformation* is a riveting ensemble drama set in a Vermont community class. Using theater games as a lens, it uncovers the raw, complex layers of human emotion and connection, blending humor and heartbreak in a compelling narrative."
 playbill:
 genres: 
 - Play
@@ -69,4 +69,4 @@ Photos:
   photo_alt: Katie McCloskey
   photo_caption: Katie McCloskey
 ---
-Circle Mirror Transformation is a captivating ensemble piece that turns a seemingly mundane community drama class into a riveting exploration of human vulnerability and connection. Set in a small Vermont town, the play uses the backdrop of theater games to peel back the layers of its characters, each a puzzle unto themselves. As the weeks unfold, laughter and awkward silences give way to startling confessions and transformative moments. It's a raw, often humorous, and deeply empathetic look at the complexities of human emotion, making the audience question what it truly means to "act" and to "be."
+*Circle Mirror Transformation* is a captivating ensemble piece that turns a seemingly mundane community drama class into a riveting exploration of human vulnerability and connection. Set in a small Vermont town, the play uses the backdrop of theater games to peel back the layers of its characters, each a puzzle unto themselves. As the weeks unfold, laughter and awkward silences give way to startling confessions and transformative moments. It's a raw, often humorous, and deeply empathetic look at the complexities of human emotion, making the audience question what it truly means to "act" and to "be."

@@ -27,5 +27,5 @@ cast:
 crew:
 - Director: Caryl Butterley
 ---
-"A riveting and moving portrait of Rosalind Franklin, one of the great female scientists of the twentieth century, and the often overlooked role she played in the discovery of the double helix. Photograph 51 masterfully weaves the thriller-like twists and tension in the race to discover the structure of DNA with lyrical moments of awe and scientific wonder, while revealing the unsung achievements of this trail-blazing, fiercely independent woman." — [Photograph 51 - Actors Collective](http://www.actorscollective.com/photograph-51/)
+"A riveting and moving portrait of Rosalind Franklin, one of the great female scientists of the twentieth century, and the often overlooked role she played in the discovery of the double helix. *Photograph 51* masterfully weaves the thriller-like twists and tension in the race to discover the structure of DNA with lyrical moments of awe and scientific wonder, while revealing the unsung achievements of this trail-blazing, fiercely independent woman." — [Photograph 51 - Actors Collective](http://www.actorscollective.com/photograph-51/)
 
