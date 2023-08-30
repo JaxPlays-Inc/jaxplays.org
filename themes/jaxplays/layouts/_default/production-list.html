@@ -57,20 +57,26 @@
       {{ $closingDate.Format "Monday, January 2, 2006" }}</div>
     {{ else if .Params.date }}
     {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
-    <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "Monday, January 2, 2006" }}</div>
-  {{ end }}
+    {{ $approx_date := .Params.approx_date }}
+      {{ if $approx_date = "year" }}
+      <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "2006" }}</div>
+      {{ else if $approx_date = "month" }}
+      <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "January 2006" }}</div>
+      {{ else }}
+      <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "Monday, January 2, 2006" }}</div>
+      {{ end }}
+    {{ end }}
     </div>
 
     <div class="flex flex-column flex-row-ns">
-      {{ if or $featuredImage .Params.tickets }}
-          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+        {{ if $featuredImage }}
         <div class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
           <a href="{{.RelPermalink}}" class="db grow">
             <img src="/media/posters/{{ $featuredImage }}" class="img" alt="image from {{ .Title }}">
           </a>
         </div>
-      {{ end }}
-      <div class="w-100{{ if $featuredImage }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
+        {{ end }}
+      <div class="w-100 {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}">
       <!-- Genres and Tickets Section -->
       {{ if or $genres (and .Params.date .Params.closing_date) }}
       <div class="flex flex-column items-start justify-start">

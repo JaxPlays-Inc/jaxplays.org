@@ -25,7 +25,6 @@ Genres:
 - Comedy
 - Romance
 - Hip Hop
-- Latin
 Description: "*In the Heights* unveils the aspirations and struggles of Washington Heights, challenging traditional musical storytelling with its authenticity."
 showtimes:
 - 2020-01-17 19:30:00
