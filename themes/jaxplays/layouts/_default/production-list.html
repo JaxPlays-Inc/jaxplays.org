@@ -8,8 +8,10 @@
   {{ $featuredImageAlt := "Default production poster image" }}
   {{ range where .Site.Pages "Type" "shows" }}
     {{ if eq .Title $.Title }}
-      {{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
-      {{ $featuredImageAlt := .Params.featured_image_alt }}
+        {{ if .Params.featured_image }}
+        {{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
+        {{ $featuredImageAlt := .Params.featured_image_alt }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ else }}

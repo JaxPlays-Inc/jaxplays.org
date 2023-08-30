@@ -14,5 +14,4 @@ cast:
 crew:
 - Director: Michael Lipp
 ---
-
-"The 25th Annual Putnam County Spelling Bee" is a Tony Award-winning musical that follows the journey of six quirky middle school students as they compete in a fictional spelling bee in Putnam County, New York. The musical explores the complexities of adolescence through a hilarious and heartwarming combination of music, comedy, and drama. The show also features audience participation, with four audience members invited on stage to participate in the spelling bee alongside the characters.
+*The 25th Annual Putnam County Spelling Bee* is a Tony Award-winning musical that follows the journey of six quirky middle school students as they compete in a fictional spelling bee in Putnam County, New York. The musical explores the complexities of adolescence through a hilarious and heartwarming combination of music, comedy, and drama. The show also features audience participation, with four audience members invited on stage to participate in the spelling bee alongside the characters.
