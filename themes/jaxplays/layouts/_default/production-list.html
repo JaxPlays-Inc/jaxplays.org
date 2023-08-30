@@ -3,13 +3,19 @@
 {{ $genres := .Params.genres }}
 
 {{ if not $featuredImage }}
-{{ range where .Site.Pages "Type" "shows" }}
-{{ if eq .Title $.Title }}
-{{ $featuredImage = .Params.featured_image }}
-{{ $featuredImageAlt := .Params.featured_image_alt }}
+  {{ $defaultImage := "/media/default/production_poster.webp" }} <!-- Set default image path -->
+  {{ $featuredImage = $defaultImage }} <!-- Use default image as the initial value -->
+  {{ $featuredImageAlt := "Default production poster image" }}
+  {{ range where .Site.Pages "Type" "shows" }}
+    {{ if eq .Title $.Title }}
+      {{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
+      {{ $featuredImageAlt := .Params.featured_image_alt }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $featuredImage = printf "/media/posters/%s" $featuredImage }}
 {{ end }}
-{{ end }}
-{{ end }}
+
 
 {{ $contentLength := len .Content }}
 {{ $description := .Params.description }}
@@ -72,7 +78,7 @@
         {{ if $featuredImage }}
         <div class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
           <a href="{{.RelPermalink}}" class="db grow">
-            <img src="/media/posters/{{ $featuredImage }}" class="img" alt="image from {{ .Title }}">
+            <img src="{{ $featuredImage }}" class="img" alt="image from {{ .Title }}">
           </a>
         </div>
         {{ end }}
