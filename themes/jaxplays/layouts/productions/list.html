@@ -15,5 +15,34 @@
       {{ end }}
     </aside>
     {{ template "_internal/pagination.html" . }}
+
+    <script>
+      document.addEventListener("keydown", function(event) {
+      
+        if (event.metaKey) {
+          let nextUrlElement = document.querySelector('a[aria-label="Next"]');
+          let prevUrlElement = document.querySelector('a[aria-label="Previous"]');
+      
+          let nextUrl = nextUrlElement ? nextUrlElement.getAttribute("href") : null;
+          let prevUrl = prevUrlElement ? prevUrlElement.getAttribute("href") : null;
+      
+          console.log("Event code:", event.code);  // Debugging line
+      
+          switch (event.code) {
+            case "ArrowRight":
+              if (nextUrl) {
+                window.location.href = nextUrl;  // Next page
+              }
+              break;
+            case "ArrowLeft":
+              if (prevUrl) {
+                window.location.href = prevUrl;  // Previous page
+              }
+              break;
+          }
+        }
+      });       
+    </script>
+    
   </article>
 {{ end }}
