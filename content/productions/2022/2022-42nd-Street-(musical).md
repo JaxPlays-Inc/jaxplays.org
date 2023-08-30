@@ -10,8 +10,10 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
+Theatre: The Alhambra Theatre & Dining
+Venue: Alhambra Theatre
 show_details:
-- Theatre: The Alhambra Theatre & Dining
+- 
 - Music: Harry Warren - wiki
 - Lyrics: 
   - Al Dubin - wiki
