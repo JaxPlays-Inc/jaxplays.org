@@ -3,19 +3,19 @@
 {{ $genres := .Params.genres }}
 
 {{ if not $featuredImage }}
-  {{ $defaultImage := "/media/default/production_poster.webp" }} <!-- Set default image path -->
-  {{ $featuredImage = $defaultImage }} <!-- Use default image as the initial value -->
-  {{ $featuredImageAlt := "Default production poster image" }}
-  {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
-        {{ if .Params.featured_image }}
-        {{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
-        {{ $featuredImageAlt := .Params.featured_image_alt }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+{{ $defaultImage := "/media/default/production_poster.webp" }} <!-- Set default image path -->
+{{ $featuredImage = $defaultImage }} <!-- Use default image as the initial value -->
+{{ $featuredImageAlt := "Default production poster image" }}
+{{ range where .Site.Pages "Type" "shows" }}
+{{ if eq .Title $.Title }}
+{{ if .Params.featured_image }}
+{{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
+{{ $featuredImageAlt := .Params.featured_image_alt }}
+{{ end }}
+{{ end }}
+{{ end }}
 {{ else }}
-  {{ $featuredImage = printf "/media/posters/%s" $featuredImage }}
+{{ $featuredImage = printf "/media/posters/%s" $featuredImage }}
 {{ end }}
 
 {{ $contentLength := len .Content }}
@@ -23,67 +23,69 @@
 {{ $showContent := "" }}
 
 {{ if not $description }}
-  {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
-      {{ $description = .Params.description }}
-      {{ $showContent = .Content }}
-    {{ end }}
-  {{ end }}
+{{ range where .Site.Pages "Type" "shows" }}
+{{ if eq .Title $.Title }}
+{{ $description = .Params.description }}
+{{ $showContent = .Content }}
+{{ end }}
+{{ end }}
 {{ end }}
 
 {{ if not $description }}
-  {{ if gt $contentLength 0 }}
-    {{ if gt $contentLength 275 }}
-      {{ $description = printf "%s..." (substr .Content 0 275) }}
-    {{ else }}
-      {{ $description = substr .Content 0 $contentLength }}
-    {{ end }}
-  {{ else if gt (len $showContent) 0 }}
-    {{ if gt (len $showContent) 275 }}
-      {{ $description = printf "%s..." (substr $showContent 0 275) }}
-    {{ else }}
-      {{ $description = substr $showContent 0 (len $showContent) }}
-    {{ end }}
-  {{ end }}
+{{ if gt $contentLength 0 }}
+{{ if gt $contentLength 275 }}
+{{ $description = printf "%s..." (substr .Content 0 275) }}
 {{ else }}
-  {{ $description = $description | markdownify | safeHTML }}
+{{ $description = substr .Content 0 $contentLength }}
+{{ end }}
+{{ else if gt (len $showContent) 0 }}
+{{ if gt (len $showContent) 275 }}
+{{ $description = printf "%s..." (substr $showContent 0 275) }}
+{{ else }}
+{{ $description = substr $showContent 0 (len $showContent) }}
+{{ end }}
+{{ end }}
+{{ else }}
+{{ $description = $description | markdownify | safeHTML }}
 {{ end }}
 
 <article class="bb b--black-10 ">
-  <div class="db pa3 no-underline dark-gray">    
-      <h1 class="f3 fw7 avenir mt0 lh-title">
+  <div class="db pa3 no-underline dark-gray">
+    <h1 class="f3 fw7 avenir mt0 lh-title">
       <a href="{{.RelPermalink}}" class="color-inherit dim link">
         {{ .Title }}
-        </a>
+      </a>
     </h1>
     <div class="flex flex-column flex-row-m flex-row-l">
-    {{ $venues := .Params.venue }} <!-- Get the venue(s) -->
+      {{ $venues := .Params.venue }} <!-- Get the venue(s) -->
 
-    {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-    {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
-    {{ end }}
+      {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
+      {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+      {{ end }}
 
-    {{ if or .Params.theatre .Params.venue }}
+      {{ if or .Params.theatre .Params.venue }}
       <h4 class="w-100 w-60-l mt0">
-      {{ with .Params.theatre }}{{ . }}{{ end }}
-      <br />{{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
-      {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-       {{ $venue }}<br />
-          {{ else }}
-          {{ $venue }}
-          {{ end }}
+        {{ with .Params.theatre }}{{ . }}{{ end }}
+        <br />{{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
+        {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
+        {{ $venue }}<br />
+        {{ else }}
+        {{ $venue }}
+        {{ end }}
         {{ end }}
       </h4>
-    {{ end }}
-    {{ if and .Params.date .Params.closing_date }}
-    {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
-    {{ $closingDate := time .Params.closing_date }}
-    <div class="w-100 mb3 tr-ns w-50-l fw7"> {{ $startDate.Format "Monday, January 2, 2006" }} <span class="dn-ns dib"> — </span><br/>
-     <span class="dn dib-ns"> — </span>
-      {{ $closingDate.Format "Monday, January 2, 2006" }}</div>
-    {{ else if .Params.date }}
-    {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
-    {{ $approx_date := .Params.approx_date }}
+      {{ end }}
+      {{ if and .Params.date .Params.closing_date }}
+      {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+      {{ $closingDate := time .Params.closing_date }}
+      <div class="w-100 w-50-l mb3 tr-ns fw7"> {{ $startDate.Format "Monday, January 2, 2006" }} <span
+          class="dn-ns dib"> — </span><br />
+        <span class="dn dib-ns"> — </span>
+        {{ $closingDate.Format "Monday, January 2, 2006" }}
+      </div>
+      {{ else if .Params.date }}
+      {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+      {{ $approx_date := .Params.approx_date }}
       {{ if $approx_date = "year" }}
       <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "2006" }}</div>
       {{ else if $approx_date = "month" }}
@@ -91,51 +93,63 @@
       {{ else }}
       <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "Monday, January 2, 2006" }}</div>
       {{ end }}
-    {{ end }}
+      {{ end }}
     </div>
 
-    <div class="flex flex-column flex-row-ns">
-        {{ if $featuredImage }}
-        <div class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
-          <a href="{{.RelPermalink}}" class="db grow">
-            <img src="{{ $featuredImage }}" class="img" alt="image from {{ .Title }}">
-          </a>
-        </div>
-        {{ end }}
-      <div class="w-100 {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}">
-      <!-- Genres and Tickets Section -->
-      {{ if or $genres (and .Params.date .Params.closing_date) }}
-      <div class="flex flex-column items-start justify-start">
-        <!-- Genres -->
-        {{ if $genres }}
-        <div class="flex flex-wrap">
-          {{ range $genres }}
-          <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mv2 mh1 h2 dib black bg-yellow">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end }}
+    <div class="flex flex-row">
+      {{ if $featuredImage }}
+      <div class="w-40 pr3 mb2 mb0-ns">
+        <a href="{{.RelPermalink}}" class="db grow">
+          <img src="{{ $featuredImage }}" class="img" alt="image from {{ .Title }}">
+        </a>
+      </div>
+      {{ end }}
 
-        <!-- Tickets -->
-        <!-- If date and closing_date are both filed out -->
-        {{ if and .Params.date .Params.closing_date }}
-        <!-- If closing_date is in the future -->
-        {{ $closingDate := time .Params.closing_date }}
-        {{ $now := now.Format "2006-01-02" | time }}
+      <div class="w-60">
+        <!-- Genres and Tickets Section -->
+        {{ if or $genres (and .Params.date .Params.closing_date) }}
+        <div class="flex flex-column items-start justify-start">
+          <!-- Genres -->
+          {{ if $genres }}
+          <div class="flex flex-wrap">
+            {{ range $genres }}
+            <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mb2 mr2 h2 dib black bg-yellow f6">{{ . }}</a>
+            {{ end }}
+
+          </div>
+          {{ end }}
+          <!-- Tickets -->
+          <!-- If date and closing_date are both filed out -->
+          {{ if and .Params.date .Params.closing_date }}
+          <!-- If closing_date is in the future -->
+          {{ $closingDate := time .Params.closing_date }}
+          {{ $now := now.Format "2006-01-02" | time }}
           {{ if ge $closingDate $now }}
           {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
           {{ end }}
-        {{ end }}
-        {{ end }}
+          {{ end }}
+          {{ end }}
 
-        <!-- Description -->
-        {{ if $description }}
-        <div class="nested-copy-line-height lh-copy f4 mt0 {{ $.Param " text_color" | default "dark-gray" }}">
-          {{ $description | safeHTML }}
+          <!-- Tablet and Desktop Description -->
+          {{ if $description }}
+          <div class="description dn db-ns nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" | default "dark-gray"
+            }}">
+            {{ $description | safeHTML }}
+            <a href="{{.RelPermalink}}"
+              class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{
+              $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+          </div>
+          {{ end }}
         </div>
-          <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-        {{ end }}
       </div>
-      
     </div>
-  </div>
+    {{ if $description }}
+      <div class="description dn-ns db nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" | default "dark-gray"
+        }}">
+        {{ $description | safeHTML }}
+        <a href="{{.RelPermalink}}"
+          class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{
+          $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+      </div>
+    {{ end }}
 </article>

@@ -1,48 +1,50 @@
 {{ define "main" }}
 {{/*
-  This template is the same as the default and is here to demonstrate that if you have a content directory called "post" you can create a layouts directory, just for that section.
-   */}}
-  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-      {{ .Content }}
-    </section>
-    <aside class="flex-ns flex-wrap justify-around mt5">
-      {{ $paginator := .Paginate .Pages 24 }}
-      {{ range .Paginator.Pages }}
-        <div class="fl w-100 w-45-l pa2 mb4 bg-white">
-          {{ .Render "production-list" }}
-        </div>
-      {{ end }}
-    </aside>
-    {{ template "_internal/pagination.html" . }}
+This template is the same as the default and is here to demonstrate that if you have a content directory called "post"
+you can create a layouts directory, just for that section.
+*/}}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" |
+    default "mid-gray" }}">
+    {{ .Content }}
+  </section>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ $paginator := .Paginate .Pages 24 }}
+    {{ range .Paginator.Pages }}
+    <div class="fl w-100 w-45-l pa2 mb4 bg-white">
+      {{ .Render "production-list" }}
+    </div>
+    {{ end }}
+  </aside>
+  {{ template "_internal/pagination.html" . }}
 
-    <script>
-      document.addEventListener("keydown", function(event) {
-      
-        if (event.metaKey) {
-          let nextUrlElement = document.querySelector('a[aria-label="Next"]');
-          let prevUrlElement = document.querySelector('a[aria-label="Previous"]');
-      
-          let nextUrl = nextUrlElement ? nextUrlElement.getAttribute("href") : null;
-          let prevUrl = prevUrlElement ? prevUrlElement.getAttribute("href") : null;
-      
-          console.log("Event code:", event.code);  // Debugging line
-      
-          switch (event.code) {
-            case "ArrowRight":
-              if (nextUrl) {
-                window.location.href = nextUrl;  // Next page
-              }
-              break;
-            case "ArrowLeft":
-              if (prevUrl) {
-                window.location.href = prevUrl;  // Previous page
-              }
-              break;
-          }
+  <script>
+    document.addEventListener("keydown", function (event) {
+
+      if (event.metaKey) {
+        let nextUrlElement = document.querySelector('a[aria-label="Next"]');
+        let prevUrlElement = document.querySelector('a[aria-label="Previous"]');
+
+        let nextUrl = nextUrlElement ? nextUrlElement.getAttribute("href") : null;
+        let prevUrl = prevUrlElement ? prevUrlElement.getAttribute("href") : null;
+
+        console.log("Event code:", event.code);  // Debugging line
+
+        switch (event.code) {
+          case "ArrowRight":
+            if (nextUrl) {
+              window.location.href = nextUrl;  // Next page
+            }
+            break;
+          case "ArrowLeft":
+            if (prevUrl) {
+              window.location.href = prevUrl;  // Previous page
+            }
+            break;
         }
-      });       
-    </script>
-    
-  </article>
+      }
+    });       
+  </script>
+
+</article>
 {{ end }}

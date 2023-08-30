@@ -16,8 +16,6 @@ Genres:
 - Drama
 - Thriller
 - Horror
-- Suspense
-- Mystery
 - Romance
 - Tragedy
 showtimes:
