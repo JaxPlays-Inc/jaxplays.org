@@ -10,7 +10,6 @@ featured_image: 2022_Ragtime.webp
 featured_image_attr: Theatre Jacksonville
 featured_image_alt:
 featured_image_caption: Graphic for Ragtime
-category: musical
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 Website: https://www.theatrejax.com/season102
