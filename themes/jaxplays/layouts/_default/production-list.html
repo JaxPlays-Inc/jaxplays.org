@@ -16,14 +16,32 @@
   {{ $featuredImage = printf "/media/posters/%s" $featuredImage }}
 {{ end }}
 
-
 {{ $contentLength := len .Content }}
 {{ $description := .Params.description }}
+{{ $showContent := "" }}
+
 {{ if not $description }}
-  {{ if gt $contentLength 275 }}
-  {{ $description = printf "%s..." (substr .Content 0 275) }}
-  {{ else }}
-  {{ $description = substr .Content 0 $contentLength }}
+  {{ range where .Site.Pages "Type" "shows" }}
+    {{ if eq .Title $.Title }}
+      {{ $description = .Params.description }}
+      {{ $showContent = .Content }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $description }}
+  {{ if gt $contentLength 0 }}
+    {{ if gt $contentLength 275 }}
+      {{ $description = printf "%s..." (substr .Content 0 275) }}
+    {{ else }}
+      {{ $description = substr .Content 0 $contentLength }}
+    {{ end }}
+  {{ else if gt (len $showContent) 0 }}
+    {{ if gt (len $showContent) 275 }}
+      {{ $description = printf "%s..." (substr $showContent 0 275) }}
+    {{ else }}
+      {{ $description = substr $showContent 0 (len $showContent) }}
+    {{ end }}
   {{ end }}
 {{ else }}
   {{ $description = $description | markdownify | safeHTML }}

@@ -83,4 +83,4 @@ understudies:
 - Lucy: Heike Priest
 - Emma: Heather Davis
 ---
-Explore the complex duality of human nature with "Jekyll & Hyde: The Musical." This intriguing production delves into a world of love, morality, and madness, brought to life with remarkable performances and unforgettable melodies. The transformation of Dr. Jekyll into Mr. Hyde offers a mesmerizing depiction of internal conflict, making it a timeless masterpiece that resonates with audiences across generations. Experience the gripping allure of this renowned musical.
+Explore the complex duality of human nature with *Jekyll & Hyde: The Musical.* This intriguing production delves into a world of love, morality, and madness, brought to life with remarkable performances and unforgettable melodies. The transformation of Dr. Jekyll into Mr. Hyde offers a mesmerizing depiction of internal conflict, making it a timeless masterpiece that resonates with audiences across generations. Experience the gripping allure of this renowned musical.

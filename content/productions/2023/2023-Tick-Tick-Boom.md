@@ -46,6 +46,6 @@ crew:
 - Props Designer: Katie Cress
 orchestra:
 ---
-"Tick, Tick... Boom!" is a dynamic musical written by Jonathan Larson, the creator of the renowned Broadway show "Rent." Set in New York City in the 1990s, the story revolves around Jon, an aspiring composer who faces the pressures of turning thirty while chasing his dreams in the competitive world of musical theater. Through Jon's personal journey, the musical delves into themes of ambition, creativity, and the struggle to find one's voice. With energetic rock-infused music and heartfelt lyrics, "Tick, Tick... Boom!" offers an engaging and introspective exploration of the sacrifices and triumphs experienced by artists in pursuit of their passions.
+*Tick, Tick... Boom!* is a dynamic musical written by Jonathan Larson, the creator of the renowned Broadway show *Rent*. Set in New York City in the 1990s, the story revolves around Jon, an aspiring composer who faces the pressures of turning thirty while chasing his dreams in the competitive world of musical theater. Through Jon's personal journey, the musical delves into themes of ambition, creativity, and the struggle to find one's voice. With energetic rock-infused music and heartfelt lyrics, *Tick, Tick... Boom!* offers an engaging and introspective exploration of the sacrifices and triumphs experienced by artists in pursuit of their passions.
 
 {{< youtube a9ehCRbrLIA >}}

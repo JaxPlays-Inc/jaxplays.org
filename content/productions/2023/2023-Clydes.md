@@ -46,4 +46,4 @@ crew:
 - Sound Designer: Erik Anderson
 orchestra:
 ---
-Clyde's is a powerful play by the Pulitzer Prize-winning playwright Lynn Nottage. Set in a truck stop sandwich shop named Clyde's, the narrative follows a group of previously incarcerated individuals struggling to navigate their second chances in life. Nottage's characters are the 'sandwich artists,' who seek a fresh start under the watchful eye of their brusque, tough-loving boss, Clyde. The play explores themes of redemption, resilience, and the human capacity to reinvent oneself in the face of societal and personal challenges. 
+*Clyde's* is a powerful play by the Pulitzer Prize-winning playwright Lynn Nottage. Set in a truck stop sandwich shop named Clyde's, the narrative follows a group of previously incarcerated individuals struggling to navigate their second chances in life. Nottage's characters are the 'sandwich artists,' who seek a fresh start under the watchful eye of their brusque, tough-loving boss, Clyde. The play explores themes of redemption, resilience, and the human capacity to reinvent oneself in the face of societal and personal challenges. 
