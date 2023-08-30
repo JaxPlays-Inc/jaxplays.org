@@ -33,6 +33,6 @@ crew:
 - Director: Lee Hamby
 - Stage Manager: Cameron Sparks
 ---
-'Broadway Bound!' is a night of cabaret performances by some of Northeast Florida's rising stars in college, middle and high school.
+*Broadway Bound!* is a night of cabaret performances by some of Northeast Florida's rising stars in college, middle and high school.
 
 'Duval County: land of football, cubicles, … and culture? Northeast Florida certainly gets its share of flak for being an incubator of mediocrity, but buried amongst those strip malls and town centers are some seriously impressive emerging artists. Aided by our world-renowned educational institutions and an army of tireless educators, the next generation of musical theatre superstars are being molded right under our very noses. Join The 5 & Dime as we celebrate these future Broadway stunners in an evening of cabaret dedicated solely to them – The Broadway Bound!' — [BROADWAY BOUND - The 5 & Dime](https://www.the5anddime.org/broadway-bound)

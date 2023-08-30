@@ -65,4 +65,4 @@ crew:
 - Properties: Patti Eyler
 - Wardrobe Supervisor: Kelly Wolfe
 ---
-"Love Letters" is a play written by A.R. Gurney, presented by The Alhambra Theatre & Dining.
+*Love Letters* is a play written by A.R. Gurney, presented by The Alhambra Theatre & Dining.
