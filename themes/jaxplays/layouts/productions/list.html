@@ -9,7 +9,7 @@
     <aside class="flex-ns flex-wrap justify-around mt5">
       {{ $paginator := .Paginate .Pages 24 }}
       {{ range .Paginator.Pages }}
-        <div class="relative w-100 w-30-l mb4 bg-white">
+        <div class="fl w-100 w-45-l pa2 mb4 bg-white">
           {{ .Render "production-list" }}
         </div>
       {{ end }}

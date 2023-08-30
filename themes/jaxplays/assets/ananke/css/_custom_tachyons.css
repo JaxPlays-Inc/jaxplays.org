@@ -1,0 +1,5 @@
+@media screen and (min-width:60em) {
+  .w-45-l {
+    width: 45%;
+  }
+}

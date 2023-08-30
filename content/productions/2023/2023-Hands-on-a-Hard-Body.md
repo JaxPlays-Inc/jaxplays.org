@@ -69,7 +69,7 @@ crew:
 - Scenic Artist: Nancy Grasso
 orchestra:
 ---
-"Hands on a Hard Body" is based on the 1997 documentary film of the same name by S.R. Bindler. The musical opened on Broadway in 2013.
+*Hands on a Hard Body* is based on the 1997 documentary film of the same name by S.R. Bindler. The musical opened on Broadway in 2013.
 
 The story revolves around a real-life competition held annually by a car dealership in Longview, Texas. The contest, which is both bizarre and highly competitive, is simple: the person who can keep their hand on a brand-new truck the longest, without leaning on it or squatting, wins the vehicle. The competitors come from all walks of life, each with their own reasons for joining the grueling contest. The contestants, along with their family members, friends, and the dealership staff, create an ensemble cast that tells a distinctly American story of endurance, competition, and personal struggle.
 

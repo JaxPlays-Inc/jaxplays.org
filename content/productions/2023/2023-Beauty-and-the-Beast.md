@@ -143,7 +143,7 @@ crew:
   - Kolby James
 orchestra:
 ---
-"Beauty and the Beast" is a musical based on the Disney animated film of the same name. It tells the timeless story of Belle, a young woman who finds herself drawn to the mysterious Beast, a prince trapped in the form of a hideous creature. As Belle gets to know the Beast and his enchanted household, including talking household items and furniture, she discovers the true beauty lies within.
+*Beauty and the Beast* is a musical based on the Disney animated film of the same name. It tells the timeless story of Belle, a young woman who finds herself drawn to the mysterious Beast, a prince trapped in the form of a hideous creature. As Belle gets to know the Beast and his enchanted household, including talking household items and furniture, she discovers the true beauty lies within.
 
 The musical features a captivating score by Alan Menken, with lyrics by Howard Ashman and Tim Rice. It includes beloved songs such as "Be Our Guest," "Belle," and the enchanting title song, "Beauty and the Beast."
 

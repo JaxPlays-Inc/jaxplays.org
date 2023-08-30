@@ -11,6 +11,7 @@ Genres:
 - Musical
 - Drama
 - Coming-of-Age Story
+Description: "*Choir Boy* delves into the lives of a talented group of young black men at an elite prep school, grappling with identity, sexuality, and ambition. All set to the beat of soul-stirring gospel music."
 Theatre: Players by the Sea
 Venue: Grace Darling Studio Theatre
 show_details:
