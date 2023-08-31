@@ -1,0 +1,66 @@
+{{ define "main" }}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <h1 class="f3 f2-l f1-m mb0">Shows in the Jacksonville area</h1>
+  {{ $allProductions := where .Site.Pages "Type" "productions" }}
+  {{ $allShows := where .Site.Pages "Type" "shows" }}
+  {{ $showCountMap := dict }}
+  
+  {{ range $allProductions }}
+    {{ $showTitle := .Title }}
+    {{ $count := index $showCountMap $showTitle }}
+    {{ if $count }}
+      {{ $showCountMap = merge $showCountMap (dict $showTitle (add $count 1)) }}
+    {{ else }}
+      {{ $showCountMap = merge $showCountMap (dict $showTitle 1) }}
+    {{ end }}
+  {{ end }}
+
+  {{ $showCountSlice := slice }}
+  {{ range $key, $value := $showCountMap }}
+    {{ $showCountSlice = $showCountSlice | append (dict "title" $key "count" $value) }}
+  {{ end }}
+
+  {{ $sortedShows := sort $showCountSlice "title" "asc" }}
+  {{ $sortedShows = sort $sortedShows "count" "desc" }}
+
+  {{ $currentCount := 0 }}
+  {{ range $entry := $sortedShows }}
+    {{ $count := index $entry "count" }}
+    {{ if ne $count $currentCount }}
+      {{ $currentCount = $count }}
+      <h3>{{ $currentCount }} {{ if eq $currentCount 1 }}Production{{ else }}Productions{{ end }}</h3>
+    {{ end }}
+    <p>
+      {{ $showTitle := index $entry "title" }}
+      {{ $showExists := false }}
+      {{ $showLink := "" }}
+      {{ range $allShows }}
+        {{ if eq .Title $showTitle }}
+          {{ $showExists = true }}
+          {{ $showLink = .RelPermalink }}
+        {{ end }}
+      {{ end }}
+      {{ if $showExists }}
+        <a class="fw7" href="{{ $showLink }}">{{ $showTitle }}</a>
+      {{ else }}
+        {{ $showTitle }} {{ if gt $count 1 }}- NO SHOW{{ end }}
+      {{ end }}
+      {{ if gt $count 1 }}
+      <ul>
+        {{ range $allProductions }}
+          {{ if eq .Title $showTitle }}
+            <li><a href="{{ .RelPermalink }}">{{ .Date.Format "2006" }} - {{ .Params.Theatre }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ else }}
+      {{ range $allProductions }}
+          {{ if eq .Title $showTitle }}
+             - <a href="{{ .RelPermalink }}">{{ .Date.Format "2006" }} - {{ .Params.Theatre }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </p>
+  {{ end }}
+</article>
+{{ end }}

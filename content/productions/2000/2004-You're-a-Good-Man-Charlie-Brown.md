@@ -1,5 +1,5 @@
 ---
-title: You're a Good Man Charlie Brown
+title: You're a Good Man, Charlie Brown
 redirect_from:
 - /productions/2004_You're_a_Good_Man_Charlie_Brown
 date: 2004-06-11
