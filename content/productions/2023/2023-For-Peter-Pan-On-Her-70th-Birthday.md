@@ -37,6 +37,11 @@ cast:
 crew:
 - Director: Mike Beaman
 - Stage Manager: Bethany Powell
+- Production Manager: Sam Hannigan
+- Scenic, Projection & Lighting Designer: Bradley Akers
+- Costume Designer: Tracy Olin
+- Props Designer: Elizabeth Rivera
+- Sound Designer: Erik Anderson
 ---
 *For Peter Pan On Her 70th Birthday* is a captivating and thought-provoking play by Sarah Ruhl. Set on the occasion of Ann's 70th birthday, the story takes audiences on a journey through the complexities of aging, family dynamics, and the enduring power of imagination. As Ann and her siblings gather to honor their late father, they embark on a poignant exploration of their own mortality and the wistful longing for the carefree days of youth. Through a perfect blend of nostalgia, humor, and heartfelt emotion, Ruhl's play challenges us to confront our own fears and desires, while reminding us of the transformative magic that lies within our imagination. *For Peter Pan On Her 70th Birthday* is an enchanting and deeply resonant theatrical experience that invites us to rekindle the spirit of childhood and embrace the beauty and wisdom that comes with growing older.
 
