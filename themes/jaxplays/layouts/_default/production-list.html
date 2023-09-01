@@ -64,16 +64,20 @@
       {{ end }}
 
       {{ if or .Params.theatre .Params.venue }}
-      <h4 class="w-100 w-60-l mt0">
-        {{ with .Params.theatre }}{{ . }}{{ end }}
-        <br />{{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
-        {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-        {{ $venue }}<br />
-        {{ else }}
-        {{ $venue }}
+      <div class="w-100 w-60-l mt0">
+        {{ with .Params.theatre }}<h4 class="mv0 f4">{{ . }}</h4>{{ end }}
+        {{ with $venues }} 
+          <h4 class="mt1">
+            {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
+            {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
+            {{ $venue }}<br />
+            {{ else }}
+            {{ $venue }}
+            {{ end }}
+            {{ end }}
+          </h4>
         {{ end }}
-        {{ end }}
-      </h4>
+      </div>
       {{ end }}
       {{ if and .Params.date .Params.closing_date }}
       {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->

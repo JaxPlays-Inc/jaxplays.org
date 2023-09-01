@@ -1,21 +1,82 @@
 {{ define "main" }}
-{{/*
-This template is the same as the default and is here to demonstrate that if you have a content directory called "post"
-you can create a layouts directory, just for that section.
-*/}}
+
 <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
   <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" |
     default "mid-gray" }}">
     {{ .Content }}
   </section>
+  <!-- Other Productions with Paginator -->
+  {{ $paginator := .Paginate (where .Pages "Type" "productions") 24 }}
+
+  <!-- Show the "Currently On Stage" section only on the first page -->
+  {{ if not $paginator.HasPrev }}
+    <h3 class="f2 mt0 mb2 sectionline">Currently On Stage</h3>
+    <aside class="flex-ns flex-wrap justify-around mt5">
+      {{ $currentDate := now.Format "2006-01-02" }}
+      {{ range where .Site.Pages "Type" "productions" }}
+        {{ $startDate := "" }}
+        {{ $endDate := "" }}
+        {{ with .Params.date }}
+          {{ $startDate = time . | time.Format "2006-01-02" }}
+        {{ end }}
+        {{ with .Params.closing_date }}
+          {{ $endDate = time . | time.Format "2006-01-02" }}
+        {{ end }}
+        {{ if and $startDate $endDate }}
+          {{ if and (le $startDate $currentDate) (ge $endDate $currentDate) }}
+            <div class="fl w-100 w-45-l pa2 mb4 bg-white">
+              {{ .Render "production-list" }}
+            </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </aside>
+  {{ end }}
+
+  <!-- Show the "Coming Soon" section only on the first page -->
+  {{ if not $paginator.HasPrev }}
+  <h3 class="f2 mt0 mb2 sectionline">Coming Soon!</h3>
   <aside class="flex-ns flex-wrap justify-around mt5">
-    {{ $paginator := .Paginate .Pages 24 }}
-    {{ range .Paginator.Pages }}
-    <div class="fl w-100 w-45-l pa2 mb4 bg-white">
-      {{ .Render "production-list" }}
-    </div>
+    {{ $currentDate := now.Format "2006-01-02" }}
+    {{ $comingSoonProductions := slice }}
+    {{ range where .Site.Pages "Type" "productions" }}
+      {{ $startDate := "" }}
+      {{ with .Params.date }}
+        {{ $startDate = time . | time.Format "2006-01-02" }}
+      {{ end }}
+      {{ if and $startDate (ge $startDate $currentDate) }}
+        {{ $comingSoonProductions = $comingSoonProductions | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $sortedComingSoon := sort $comingSoonProductions "Params.date" "asc" }}
+    {{ range $sortedComingSoon }}
+      <div class="fl w-100 w-45-l pa2 mb4 bg-white">
+        {{ .Render "production-list" }}
+      </div>
     {{ end }}
   </aside>
+  {{ end }}
+
+  <h3 class="f2 mt0 mb2 sectionline">Previous Productions</h3>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ $currentDate := now.Format "2006-01-02" }}
+    {{ range $paginator.Pages }}
+      {{ $startDate := "" }}
+      {{ $endDate := "" }}
+      {{ with .Params.date }}
+        {{ $startDate = time . | time.Format "2006-01-02" }}
+      {{ end }}
+      {{ with .Params.closing_date }}
+        {{ $endDate = time . | time.Format "2006-01-02" }}
+      {{ end }}
+      {{ if or (not $endDate) (lt $endDate $currentDate) }}
+        <div class="fl w-100 w-45-l pa2 mb4 bg-white">
+          {{ .Render "production-list" }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </aside>
+
   {{ template "_internal/pagination.html" . }}
 
   <script>
