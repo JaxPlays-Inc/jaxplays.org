@@ -4,7 +4,10 @@ layout: shows
 featured_image: Ragtime.webp
 featured_image_caption: Cover art for the album Ragtime
 featured_image_attr:
-category: musicals
+Genres:
+- Musical
+- Drama
+- Historical
 show_details: 
 - Music: Stephen Flaherty - wiki
 - Lyrics: Lynn Ahrens - wiki

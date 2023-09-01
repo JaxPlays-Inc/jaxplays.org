@@ -123,7 +123,21 @@
                     {{ end }}
                   </div>
                   <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
-                  <div>{{ $details.production.Params.Venue }}</div>
+                  <div>
+                    <!-- Venues -->
+                    {{ $venues := $details.production.Params.Venue }} <!-- Get the venue(s) -->
+                    {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
+                    {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+                    {{ end }}
+                    {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
+                      {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
+                      {{ $venue }}<br />
+                      {{ else }}
+                      {{ $venue }}
+                      {{ end }}
+                    {{ end }}
+                  </div>
+
                 </div>
               </div>
             </div>

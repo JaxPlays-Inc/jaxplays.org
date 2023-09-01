@@ -114,7 +114,7 @@
         <div class="description dn db-ns nested-copy-line-height lh-copy f4 mt0 {{ $.Param " text_color" | default "dark-gray"
           }}">
           {{ $description | safeHTML }}
-          <a href="{{.RelPermalink}}"
+          <a href="#synopsis"
             class="ba b--moon-gray bg-light-gray br2 color-inherit dib f5 hover-bg-moon-gray link mt2 ph2 pv1">{{
             $.Param "read_more_copy" | default (i18n "readMore") }}</a>
         </div>
@@ -127,7 +127,7 @@
       <div class="description dn-ns db nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" | default "dark-gray"
         }}">
         {{ $description | safeHTML }}
-        <a href="{{.RelPermalink}}"
+        <a href="#synopsis"
           class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{
           $.Param "read_more_copy" | default (i18n "readMore") }}</a>
       </div>
@@ -396,20 +396,18 @@
       {{ end }}
     {{ end }}
 
-    {{ if and .Content $showSynopsis }}
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-      {{ $showSynopsis }}
-    </div>
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
-      {{ .Content }}
-    </div>
-    {{ else if $showSynopsis }}
-    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-      {{ $showSynopsis }}
-    </div>
+    {{ if or .Content $showSynopsis }}
+      <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+      {{ if and .Content $showSynopsis }}
+        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+        {{ $showSynopsis }}
+        <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
+        {{ .Content }}
+      {{ else if $showSynopsis }}
+        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+        {{ $showSynopsis }}
+      {{ end }}
+      </div>
     {{ end }}
 
     <!-- Reviews -->
