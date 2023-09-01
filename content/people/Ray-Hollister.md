@@ -13,12 +13,12 @@ birth_info:
   birth_name: Rayburn Hollister III
   birth_date: 1980-12-07
   birth_place: Scranton, Pennsylvania
-Website: https://rayhollister.com
 Socials:
   Facebook: rayhollister
   Twitter: rayhollister
   Instagram: rayhollister
-  LinkedIn: rayhollister  
+  LinkedIn: rayhollister
+  Website: https://rayhollister.com 
 ---
 Ray Hollister is a singer, actor, director, light board operator, and sound board operator. 
 

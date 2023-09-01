@@ -7,5 +7,6 @@ image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Website: https://mctiernanjoshua.wixsite.com/home
+Socials:
+  Website: https://mctiernanjoshua.wixsite.com/home
 ---

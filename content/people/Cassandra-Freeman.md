@@ -12,5 +12,5 @@ featured_image_caption:
 Socials:
   Instagram: cassiedamsel
   IMDb: Cassandra Freeman | nm1904386
-Website: https://linktr.ee/cassandra.freeman6
+  Website: https://linktr.ee/cassandra.freeman6
 ---
