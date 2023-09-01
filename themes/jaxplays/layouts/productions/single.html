@@ -389,10 +389,26 @@
     </div>
     {{ end }}
 
-    {{ with .Content }}
+    {{ $showSynopsis := "" }}
+    {{ range where .Site.Pages "Type" "shows" }}
+      {{ if eq .Title $.Title }}
+        {{ $showSynopsis = .Content }}
+      {{ end }}
+    {{ end }}
+
+    {{ if and .Content $showSynopsis }}
     <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-      {{ . }}
+      {{ $showSynopsis }}
+    </div>
+    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
+      {{ .Content }}
+    </div>
+    {{ else if $showSynopsis }}
+    <div class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+      {{ $showSynopsis }}
     </div>
     {{ end }}
 
@@ -423,16 +439,17 @@
 
       <!-- Press -->
       {{ if .Params.press }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+        <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">Press</h3>
 
-        {{ range .Params.press }} <!-- Iterate over the crew array -->
-        {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
-        <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-
+          {{ range .Params.press }} <!-- Iterate over the crew array -->
+          {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
+          <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+          {{ end }}
+          {{ end }}
+        </div>    
+      {{ end }}
+      
       <!-- Photos -->
       {{ if .Params.photos }}
       <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
