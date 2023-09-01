@@ -161,26 +161,37 @@ function executeSearch(term) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const searchIcon = document.getElementById("search-icon"); // Assuming your magnifying lens icon has the ID "search-icon"
+  const searchIcon = document.getElementById("search-icon");
+  const mobileSearchIcon = document.getElementById("mobile-search-icon"); // Add this line for the mobile search icon
 
+  // Event listener for desktop search icon
   searchIcon.addEventListener("click", function(event) {
-    event.preventDefault();
+    toggleSearch(event);
+  });
 
+  // Event listener for mobile search icon
+  mobileSearchIcon.addEventListener("click", function(event) { // Add this event listener for mobile
+    toggleSearch(event);
+  });
+
+  function toggleSearch(event) {
+    event.preventDefault();
+  
     // Load json search index if first time invoking search
     if (firstRun) {
-      loadSearch(); // loads our json data and builds fuse.js search index
-      firstRun = false; // let's never do this again
+      loadSearch();
+      firstRun = false;
     }
 
     // Toggle display of search box
-    const searchBox = document.getElementById("fastSearch"); // Assuming your search bar has the ID "fastSearch"
+    const searchBox = document.getElementById("fastSearch");
     if (searchBox.style.display === "flex") {
       searchBox.style.display = "none";
-      searchVisible = false; // Your existing variable
+      searchVisible = false;
     } else {
       searchBox.style.display = "flex";
-      searchVisible = true; // Your existing variable
-      document.getElementById("searchInput").focus(); // put focus in input box so you can just start typing
+      searchVisible = true;
+      document.getElementById("searchInput").focus();
     }
-  });
+  }
 });

@@ -1,7 +1,7 @@
 <nav class="pv3 ph3 ph4-ns mw9 center" role="navigation">
   <div class="navmenu flex justify-between-l items-center">
     <div class="menu-btn flex flex-m dn-l">
-      <img src="{{ "images/menu_search_combo_icon.svg" | relURL }}" alt="Search Menu" class="w2 h2">
+      <img id="mobile-search-icon" src="{{ "images/menu_search_combo_icon.svg" | relURL }}" alt="Search Menu" class="w2 h2">
     </div>
     <a href="{{ .Site.Home.RelPermalink }}" class="f2 f3-l fw7 hover-near-white no-underline white flex ttu jaxplayslogo">
       {{ with .Site.Params.site_logo }}
