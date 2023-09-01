@@ -80,7 +80,7 @@
     <div class="flex">
       <!-- Featured Image Section -->
       {{ if $featuredImage }}
-      <div class="w-40 w-25-l flex">
+      <div class="w-40 w-25-l flex mb2 mb0-ns">
         <a href="/media/posters/{{ $featuredImage }}" data-lightbox="gallery" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
           <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" /></a>
       </div>
