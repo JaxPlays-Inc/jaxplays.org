@@ -4,11 +4,6 @@
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
     </div>
-    <div id="fastSearch">
-      <input id="searchInput" tabindex="0">
-      <ul id="searchResults">
-      </ul>
-    </div>
     {{ $src := .Params.featured_image }}
     {{ $alt := cond (isset .Params "featured_image_alt") .Params.featured_image_alt .Title }}
     {{ $caption := .Params.featured_image_caption }}
@@ -20,11 +15,6 @@
   <header>
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
-    </div>
-    <div id="fastSearch">
-      <input id="searchInput" tabindex="0">
-      <ul id="searchResults">
-      </ul>
     </div>
   </header>
 {{ end }}

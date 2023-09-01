@@ -40,6 +40,11 @@
     {{ end }}
     {{ partialCached "social-follow.html" . }}
   </div>
+  <div id="fastSearch">
+    <input id="searchInput" tabindex="0">
+    <ul id="searchResults">
+    </ul>
+  </div>
   <!-- JavaScript to handle menu toggle -->
   <script>
     var navLinks = document.querySelector('.nav-links');
