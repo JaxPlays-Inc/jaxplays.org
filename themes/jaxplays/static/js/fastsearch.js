@@ -173,13 +173,13 @@ document.addEventListener("DOMContentLoaded", function() {
       firstRun = false; // let's never do this again
     }
 
-    // Toggle visibility of search box
+    // Toggle display of search box
     const searchBox = document.getElementById("fastSearch"); // Assuming your search bar has the ID "fastSearch"
-    if (searchBox.style.visibility === "visible") {
-      searchBox.style.visibility = "hidden";
+    if (searchBox.style.display === "flex") {
+      searchBox.style.display = "none";
       searchVisible = false; // Your existing variable
     } else {
-      searchBox.style.visibility = "visible";
+      searchBox.style.display = "flex";
       searchVisible = true; // Your existing variable
       document.getElementById("searchInput").focus(); // put focus in input box so you can just start typing
     }

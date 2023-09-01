@@ -1,4 +1,4 @@
-<nav class="pv3 ph3 ph4-ns mw9 center" role="navigation">
+<nav class="pt3 ph3 ph4-ns mw9 center" role="navigation">
   <div class="navmenu flex justify-between-l items-center">
     <div class="menu-btn flex flex-m dn-l">
       <div class="db">☰</div>
@@ -31,6 +31,11 @@
     </div>
     </div>
   </div>
+  <div id="fastSearch">
+    <input id="searchInput" tabindex="0">
+    <ul id="searchResults">
+    </ul>
+  </div>
    <!-- Menu links for tablet and mobile -->
    <div class="nav-links dn dn-m dn-l w-100-m flex-column">
     {{ range .Site.Menus.main }}
@@ -40,11 +45,7 @@
     {{ end }}
     {{ partialCached "social-follow.html" . }}
   </div>
-  <div id="fastSearch">
-    <input id="searchInput" tabindex="0">
-    <ul id="searchResults">
-    </ul>
-  </div>
+
   <!-- JavaScript to handle menu toggle -->
   <script>
     var navLinks = document.querySelector('.nav-links');
