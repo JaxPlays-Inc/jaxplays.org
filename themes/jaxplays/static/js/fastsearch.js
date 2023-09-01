@@ -15,29 +15,28 @@ document.addEventListener('keydown', function(event) {
   // CMD-/ to show / hide Search
   if (event.metaKey && event.key === '/') {
       // Load json search index if first time invoking search
-      // Means we don't load json unless searches are going to happen; keep user payload small unless needed
       if(firstRun) {
-        loadSearch(); // loads our json data and builds fuse.js search index
-        firstRun = false; // let's never do this again
+        loadSearch();
+        firstRun = false;
       }
       
-      // Toggle visibility of search box
-      if (!searchVisible) {
-        document.getElementById("fastSearch").style.visibility = "visible"; // show search box
-        document.getElementById("searchInput").focus(); // put focus in input box so you can just start typing
-        searchVisible = true; // search visible
-      }
-      else {
-        document.getElementById("fastSearch").style.visibility = "hidden"; // hide search box
-        document.activeElement.blur(); // remove focus from search box 
-        searchVisible = false; // search not visible
+      // Toggle display of search box
+      const searchBox = document.getElementById("fastSearch");
+      if (searchBox.style.display === "flex") {
+        searchBox.style.display = "none";
+        document.activeElement.blur();
+        searchVisible = false;
+      } else {
+        searchBox.style.display = "flex";
+        document.getElementById("searchInput").focus();
+        searchVisible = true;
       }
   }
 
   // Allow ESC (27) to close search box
   if (event.key == 'Escape') {
     if (searchVisible) {
-      document.getElementById("fastSearch").style.visibility = "hidden";
+      document.getElementById("fastSearch").style.display = "none";
       document.activeElement.blur();
       searchVisible = false;
     }
