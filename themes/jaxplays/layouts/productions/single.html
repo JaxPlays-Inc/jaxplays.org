@@ -406,6 +406,9 @@
       {{ else if $showSynopsis }}
         <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
         {{ $showSynopsis }}
+      {{ else }}
+        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+        {{ .Content }}
       {{ end }}
       </div>
     {{ end }}

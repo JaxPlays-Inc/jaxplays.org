@@ -12,6 +12,7 @@ Genres:
 - Drama
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
+Description: "Battle of wills, humor, and heart: Contestants go the extra mile, with their hands glued to a pickup truck, for the American dream. Who will drive away the winner?"
 show_details:
 - Book: Doug Wright
 - Lyrics: Amanda Green
