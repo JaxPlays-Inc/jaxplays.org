@@ -4,27 +4,31 @@
 
 #fastSearch {
 	visibility: hidden;
-	position: absolute;
+	/* position: absolute;
 	right: 0px;
-	top: 0px;
-	display: inline-block;
-	width: 300px;
+	top: 0px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: #000;
 }
 
 #fastSearch input {
 	padding: 4px 10px;
-	width: 100%;
-	height: 31px;
-	font-size: 1.6em;
-	color: #aaa;
-	font-weight: bold;
-	background-color: #000;
-	border-radius: 3px 3px 0px 0px;
+	width: 90%;
+	max-width: 400px;
+	height: 2rem;
+	font-size: 2rem;
+	color: #000;
+	background-color: #fff;
+	border-radius: 0;
 	border: none;
 	outline: none;
-	text-align: left;
+	text-align: center;
 	display: inline-block;
 }
+
 
 #searchResults li {
 	list-style: none;
@@ -34,7 +38,7 @@
 }
 
 #searchResults li .title {
-	font-size: 1.1em;
+	font-size: 1.2rem;
 	margin-bottom: 10px;
 	display: inline-block;
 }
@@ -42,13 +46,18 @@
 #searchResults {
 	visibility: inherit;
 	display: inline-block;
-	width: 320px;
+	width: 100%;
+	max-width: 400px;
+	padding-inline-start: 0;
 }
 
 #searchResults a {
 	text-decoration: none !important;
 	padding: 10px;
 	display: inline-block;
+	width: 100%;
+	max-width: 400px;
+	color: #fff;
 }
 
 #searchResults a:hover,
@@ -56,6 +65,11 @@ a:focus {
 	outline: 0;
 	background-color: #666;
 	color: #fff;
+}
+
+#search-icon img {
+	width: 1.9rem;
+	height: 1.9rem
 }
 
 /* END Style for Search */

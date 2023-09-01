@@ -4,20 +4,27 @@
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
     </div>
-
+    <div id="fastSearch">
+      <input id="searchInput" tabindex="0">
+      <ul id="searchResults">
+      </ul>
+    </div>
     {{ $src := .Params.featured_image }}
     {{ $alt := cond (isset .Params "featured_image_alt") .Params.featured_image_alt .Title }}
     {{ $caption := .Params.featured_image_caption }}
     {{ $attr := .Params.featured_image_attr }}
     {{ $light_text_color_class := .Site.Params.light_text_color_class }}
     {{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "light_text_color_class" $light_text_color_class) }}
-
   </header>
-
 {{ else }}
   <header>
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
+    </div>
+    <div id="fastSearch">
+      <input id="searchInput" tabindex="0">
+      <ul id="searchResults">
+      </ul>
     </div>
   </header>
 {{ end }}

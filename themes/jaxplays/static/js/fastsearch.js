@@ -160,3 +160,28 @@ function executeSearch(term) {
     last = list.lastChild.firstElementChild;
   }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const searchIcon = document.getElementById("search-icon"); // Assuming your magnifying lens icon has the ID "search-icon"
+
+  searchIcon.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    // Load json search index if first time invoking search
+    if (firstRun) {
+      loadSearch(); // loads our json data and builds fuse.js search index
+      firstRun = false; // let's never do this again
+    }
+
+    // Toggle visibility of search box
+    const searchBox = document.getElementById("fastSearch"); // Assuming your search bar has the ID "fastSearch"
+    if (searchBox.style.visibility === "visible") {
+      searchBox.style.visibility = "hidden";
+      searchVisible = false; // Your existing variable
+    } else {
+      searchBox.style.visibility = "visible";
+      searchVisible = true; // Your existing variable
+      document.getElementById("searchInput").focus(); // put focus in input box so you can just start typing
+    }
+  });
+});
