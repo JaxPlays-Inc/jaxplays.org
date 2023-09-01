@@ -17,6 +17,7 @@ cast:
 - Chris Robertson 
 - Chris Berry
 - Julia Blasi
+Correction: A previous version of this article erroneously stated that Jonathan Larson was involved in the conception of Murder Ballad. Julia Jordan, who created *Murder Ballad*, is a Jonathan Larson Award winner. The article has been updated to reflect the correct information. We regret the error.
 ---
 [*Murder Ballad*](/productions/2023-murder-ballad/), staged by [ABET - All Beaches Experimental Theatre](/theatres/abet-all-beaches-experimental-theatre/), delves into the tangled web of a love triangle between Sara, her husband Michael, and her old flame, Tom. Sara's journey from reckless youth to the security of married life, and then back to the excitement of rekindled romance, leads to the unraveling of personal boundaries and morals. As the story unfolds, Tom's relentless pursuit of Sara, coupled with her confusion of love and obsession, leads them into a dangerous dance filled with passion, betrayal, and ultimately, murder.
 <!--more-->
@@ -41,9 +42,3 @@ The climax, laden with suspense, brings the destructive love affair to a head, c
 Erin Barnes wears many hats in *Murder Ballad*, portraying the Narrator while also leading the band as the musical director and keyboardist. The band's performance is noteworthy, featuring a musical score with a dynamic blend of rock ballads and pop songs underscored by forceful piano and electric guitar leads. The bassist, Mamie Lue Catalina, stands out with her exceptionally mesmerizing performance. Regrettably, the blend of canned music with live performance creates a disappointing effect, evoking an unwelcome comparison to Muzak. The guitar is frustratingly muted, and the vocal mix only muddles the issue further. The overall energy of the band feels restrained, with only the keyboards clearly resonating in the audience. Staging a rock musical in a studio theater presents challenges, and while critiquing from a distance is effortless, the decision not to mic the actors—thus hindering the band from playing at full volume—seems a missed opportunity that takes away from what could have been a more immersive auditory experience.
 
 Overall, *Murder Ballad* leaves a strong impression with its gripping storytelling and passionate musical execution. Despite some audio challenges, the musicians and vocalists provide a compelling performance that enhances the drama of the love triangle at the story's core. Arriving early to secure a seat near the front will enhance your experience, allowing you to best appreciate the intricate details of both the band's music and the vocalists' performances. From the nuanced portrayals of complex characters to the vibrant musical score, ABET's *Murder Ballad* offers a theatre experience that is memorable and engaging. Don't miss a chance to witness this thrilling dance of love, betrayal, and murder – it's a killer show.
-
-[*Murder Ballad*](/productions/2023-murder-ballad/) runs August 11 through August 27 in the [Grace Darling Studio Theatre](/venues/grace-darling-studio-theatre) at [Players by the Sea](/theatres/players-by-the-sea).
-
-For more information, full cast and crew credits, and links to tickets, visit the [*Murder Ballad*](/productions/2023-murder-ballad/) page here on JaxPlays. 
-
-**Correction:** A previous version of this article erroneously stated that Jonathan Larson was involved in the conception of Murder Ballad. Julia Jordan, who created Murder Ballad, is a Jonathan Larson Award winner. The article has been updated to reflect the correct information. We regret the error.

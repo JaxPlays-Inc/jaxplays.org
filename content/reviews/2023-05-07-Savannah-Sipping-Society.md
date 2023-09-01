@@ -35,5 +35,3 @@ Tammy Bradley, as MarlaFaye Mosley, endeared herself to the audience with her ca
 In a brief yet unforgettable performance, Susan Langenbahn brought Grandmother Covington to life with impeccable comic timing and a delightful stage presence. Langenbahn's portrayal was nothing short of hilarious, leaving the audience wanting more.
 
 *The Savannah Sipping Society* at St. Marys Little Theatre was a testament to the power of friendship, resilience and laughter. The ensemble cast delivered an exceptional performance that left the audience not only entertained but also craving a cocktail to toast to the sisterhood portrayed on stage. Don't miss this delightful, hilarious show that will lift your spirits and leave you with a warm feeling in your heart.
-
-For more photos, the complete cast list and crew list and the link to buy tickets, visit [*The Savannah Sipping Society*](/productions/2023-the-savannah-sipping-society/) page on JaxPlays. 

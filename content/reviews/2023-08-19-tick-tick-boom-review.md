@@ -40,6 +40,3 @@ With impeccable performances, innovative staging, and a masterful balance betwee
 
 If you already have plans tonight, cancel them so you can go see “Tick, Tick, Boom!” before it's gone. 
 
-*[Tick, Tick... Boom!](/productions/2023-tick-tick-boom/)* final performance is tonight, Saturday, August 19th at The Florida Ballet. 
-
-For more information, full cast and crew credits, and links to tickets, visit the *[Tick, Tick... Boom!](/productions/2023-tick-tick-boom/)* page here on JaxPlays.

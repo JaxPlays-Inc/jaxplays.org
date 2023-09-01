@@ -1,0 +1,21 @@
+<!-- This partial auto generates a production details section for a review page. -->
+<!-- It is called by the single.html template if the page is in the "review" section. -->
+{{ $productionName := .Params.production | replaceRE " " "-" }}
+{{ $productionPages := where .Site.RegularPages "Section" "eq" "productions" }}
+{{ $matchingProduction := where $productionPages ".File.BaseFileName" "eq" $productionName }}
+
+{{ with index $matchingProduction 0 }}
+  {{ $title := .Title }}
+  {{ $theatre := .Params.theatre }}
+  {{ $venue := .Params.venue }}
+  {{ $date := .Params.date }}
+  {{ $closing_date := .Params.closing_date }}
+  {{ $url := .Permalink }}
+
+  <!-- Now you can use these variables in your template -->
+  {{ $date := dateFormat "Monday, January 2" .Params.date }}
+  {{ $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
+  <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $date }} through {{ $closing_date }} at the {{ $venue }}.</p>
+  <p>For more information, full cast and crew credits, and links to tickets, visit the <a class="i" href="{{ $url }}">{{ $title }}</a> page here on JaxPlays.
+  </p>
+{{ end }}
