@@ -1,0 +1,6 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- $allowedSections := slice "people" "productions" "theatres" "venues" "news" "reviews" -}}
+{{- range where .Site.RegularPages "Section" "in" (slice "people" "productions" "theatres" "venues" "news" "reviews") -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "permalink" .Permalink "section" (.Section | title) "tags" .Params.tags "categories" .Params.categories "summary" (.Summary | markdownify | htmlUnescape | plainify) "date" .Date) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

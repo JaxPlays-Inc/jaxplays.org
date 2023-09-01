@@ -48,6 +48,11 @@
     <main class="pb4" role="main">
       {{ block "main" . }}{{ end }}
     </main>
+    <div id="fastSearch">
+      <input id="searchInput" tabindex="0">
+      <ul id="searchResults">
+      </ul>
+    </div>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
     
     <script type="text/javascript" src="/lightbox2/src/js/lightbox.js"></script>
@@ -55,5 +60,7 @@
 
     <script type="text/javascript" src="/js/darkmode.js"></script>
     <link rel="stylesheet" href="/css/darkmode.css">
+    <script src="/js/fuse.js"></script> <!-- download and copy over fuse.js file from fusejs.io -->
+    <script src="/js/fastsearch.js"></script>
   </body>
 </html>

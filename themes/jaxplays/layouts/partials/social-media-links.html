@@ -8,6 +8,8 @@
         {{ $url = printf "https://www.facebook.com/%s" $handle }}
       {{ else if eq $lowerName "instagram" }}
         {{ $url = printf "https://www.instagram.com/%s" $handle }}
+      {{ else if eq $lowerName "threads" }}
+        {{ $url = printf "https://www.threads.net/@%s" $handle }}
       {{ else if eq $lowerName "youtube" }}
         {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
       {{ else if eq $lowerName "linkedin" }}

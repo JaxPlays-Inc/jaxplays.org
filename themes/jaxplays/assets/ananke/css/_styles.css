@@ -25,7 +25,8 @@ a:hover:not(.no-underline):not(.link),
 	letter-spacing: 0.055em;
 	background-image: url("/JaxPlaysLogo.svg");
 	background-repeat: no-repeat;
-	background-position: left center; /* Adjust the position as needed */
+	background-position: left center;
+	/* Adjust the position as needed */
 }
 
 .tickets {
@@ -83,9 +84,12 @@ h1 a.jaxplayslogo {
 
 @media screen and (min-width: 60em) {
 	a.jaxplayslogo {
-		background-size: 1.5rem; /* Adjust the size as needed */
-		padding-left: 1.75rem; /* Adjust padding to give space for the logo */
+		background-size: 1.5rem;
+		/* Adjust the size as needed */
+		padding-left: 1.75rem;
+		/* Adjust padding to give space for the logo */
 	}
+
 	.tickets {
 		min-width: 100px;
 		min-height: 60px;

@@ -14,6 +14,7 @@ birth_info:
   birth_date: 1980-12-07
   birth_place: Scranton, Pennsylvania
 Socials:
+  Threads: rayhollister
   Facebook: rayhollister
   Twitter: rayhollister
   Instagram: rayhollister

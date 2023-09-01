@@ -49,3 +49,9 @@ taxonomies:
   category: categories
   tag: tags
   genre: genres
+
+outputs:
+  home: 
+    - HTML
+    - RSS
+    - JSON
