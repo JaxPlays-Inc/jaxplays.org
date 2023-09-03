@@ -17,7 +17,7 @@ Venue: Black Box Studio Theatre
 Website: 
 Tickets: 
 show_details: 
-- Playwright: Steve Martin
+- Playwright: Steve Martin - wiki
 Description: A fantastical evening at a Parisian bar in 1904, where a young Picasso and Einstein engage in a battle of wits and ideas. A comedic romp through art, science, and the imagination.
 showtimes:
 - 2007-10-24 19:30:00

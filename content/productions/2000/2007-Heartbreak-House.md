@@ -2,18 +2,23 @@
 title: Heartbreak House
 date: 2007-10-11
 closing_date: 2007-10-21
-featured_image: 
+featured_image: 2007-Heartbreak-House.webp
 featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image_caption: Playbill cover for *Heartbreak House*
+featured_image_attr: Selin Ozguzer
 featured_image_attr_link: 
 playbill:
-genres: 
+genres:
+- Drama
+- Satire
+- Political Comedy
 Theatre: Jacksonville University - Stein College
 Venue: Swisher Theater
 Website: 
 Tickets: 
 show_details: 
+- Playwright: George Bernard Shaw - wiki
+Description: A satirical plunge into the absurdities of love and politics, set against the backdrop of impending doom.
 showtimes:
 - 2007-10-11 19:30:00
 - 2007-10-12 19:30:00
@@ -151,3 +156,4 @@ orchestra:
 - Additional Music: Scott Watkins
 - Flute Musician: Melissa Voshell
 ---
+In George Bernard Shaw's Heartbreak House, a gathering of British socialites navigate romantic entanglements and political dilemmas as World War I looms on the horizon. Hesione Hushabye hosts a motley crew of characters in her country home, including her estranged husband and a naive young woman eager for love. As the evening unfolds, these eccentric personalities grapple with their ideals, their relationships, and the harsh reality of a world on the brink of chaos.
