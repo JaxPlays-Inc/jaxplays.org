@@ -73,15 +73,17 @@
         {{ $creditArray = $creditArray | append $entry }}
       {{ end }}
       {{ $sortedArray := sort $creditArray "count" "desc" }}
+      {{ $lineCount := 0 }}
       {{ range $entry := $sortedArray }}
+        {{ $lineCount = add $lineCount 1 }}
         <div>
           {{ $count := index $entry "count" }}
           {{ $name := index $entry "name" }}
           {{ $urlName := $name | urlize }}
           {{ with site.GetPage (print "/people/" $urlName) }}
-            {{ $count }} - <a href="{{ .Permalink }}" target="_blank">{{ $name }}</a>
+            {{ $lineCount }}. <a href="{{ .Permalink }}" target="_blank">{{ $name }} - {{ $count }}</a>
           {{ else }}
-            {{ $count }} - {{ $name }}
+            {{ $lineCount }}. {{ $name }} - {{ $count }}
           {{ end }}
         </div>
       {{ end }}
