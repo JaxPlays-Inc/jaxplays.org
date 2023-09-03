@@ -6,7 +6,7 @@
     <!-- Cast and Crew Section -->
     <section class="nested-copy-line-height lh-copy f4">
       <h2>Cast and Crew</h2>
-      {{ $.Scratch.Add "allMap" (dict) }}
+      {{ $.Scratch.Set "allMap" (dict) }}
       {{ range where site.Pages "Type" "productions" }}
         {{/* Process cast */}}
         {{ range .Params.cast }}
@@ -74,7 +74,16 @@
       {{ end }}
       {{ $sortedArray := sort $creditArray "count" "desc" }}
       {{ range $entry := $sortedArray }}
-        <div>{{ index $entry "count" }} - {{ index $entry "name" }}</div>
+        <div>
+          {{ $count := index $entry "count" }}
+          {{ $name := index $entry "name" }}
+          {{ $urlName := $name | urlize }}
+          {{ with site.GetPage (print "/people/" $urlName) }}
+            {{ $count }} - <a href="{{ .Permalink }}" target="_blank">{{ $name }}</a>
+          {{ else }}
+            {{ $count }} - {{ $name }}
+          {{ end }}
+        </div>
       {{ end }}
     </section>
   </article>
