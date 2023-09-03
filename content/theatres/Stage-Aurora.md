@@ -16,5 +16,5 @@ Socials:
   Twitter: stageaurorath
   Instagram: aurorastage
   LinkedIn: stage-aurora-theatrical-co
-Website: https://www.stageaurora.org
+  Website: https://www.stageaurora.org
 ---

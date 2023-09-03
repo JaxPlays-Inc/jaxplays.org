@@ -10,11 +10,11 @@ Founded: 1967
 Address: |
   12000 Beach Blvd
   Jacksonville, FL 32246
-Website: https://www.alhambrajax.com
 Socials:
   Facebook: alhambratheatreanddining
   Twitter: alhambrajax
   Instagram: alhambrajax
+  Website: https://www.alhambrajax.com
 phone: 904-641-1212
 Press:
 - "Dinner and a Show: The History of Alhambra Theatre": https://web.archive.org/web/20230430215950/https://thecoastal.com/culture/history-alhambra-theatre-dining/amp/

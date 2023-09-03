@@ -10,9 +10,9 @@ Founded: 2017-10-26
 Address: |
     1860 Town Hall Circle Suite 54
     Fleming Island, FL 32003
-Website: https://www.theislandtheater.com
 Socials: 
   Facebook: theislandtheater
   Instagram: theislandtheater
+  Website: https://www.theislandtheater.com
 Phone: 1-904-254-1455
 ---

@@ -10,11 +10,11 @@ Founded:
 Address: |
     2900 Moody Ave
     Orange Park, FL 32073
-Website: https://www.opct.info
 Socials: 
   Facebook: opctheatre
   Twitter: OPCT
   Instagram: Opctheatre
+  Website: https://www.opct.info
 Phone: 1-904-276-2599
 Artistic Director: 
 ---

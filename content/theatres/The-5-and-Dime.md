@@ -21,7 +21,7 @@ Socials:
   Facebook: The5andDime
   Instagram: the5anddime
   YouTube: MakingChangeInJax
-Website: https://www.the5anddime.org
+  Website: https://www.the5anddime.org
 Press:
 - Staging Change at The 5 & Dime Theatre | Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/
 - Jacksonville's 5 & Dime theater group names director, ponders where and when next shows will be | Florida Times-Union: https://www.jacksonville.com/story/entertainment/theater/2021/02/02/jacksonvilles-5-dime-theater-group-names-director-ponders-shows/4337544001/

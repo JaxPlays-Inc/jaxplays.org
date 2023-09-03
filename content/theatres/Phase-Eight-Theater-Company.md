@@ -8,18 +8,11 @@ featured_image_alt:
 featured_image_caption:
 Founded: 2017
 Closed: 2021
-Website: http://www.phaseeight.org
 Socials: 
   Facebook: PhaseEightTheaterCompany
   Twitter: Phase8Theater
   Instagram: 	Phase8Theater
-Artistic Director: JaMario Stills
-Associate Artistic Director: Kelby Siddons
-Directing Chair: Jack Permenter
-Publicity Chair: Kristen Walsh
-Production Chairs: Preston Johnston, Arianna Rodriguez
-Head of Digital Communications: Cher Davis
-Board Members: Jane Condon, Carol Grimes, Will Messer
+  Website: https://web.archive.org/web/20201127054855/http://www.phaseeight.org/
 ---
-
+Operating from 2017 to 2021 in Jacksonville, Florida, Phase Eight Theater Company carved out a distinct niche as a boundary-pushing and socially progressive ensemble. Founded by Juilliard Drama graduate JaMario Stills, the group was housed in WJCT Studios and partnered with the Museum of Contemporary Art, Jacksonville. Over its four-year run, Phase Eight presented a diverse repertoire, from classics like *Love's Labour's Lost* to original works by local playwrights. While its physical stage is now dark, the impact of its avant-garde and multimedia explorations leaves a lasting imprint on Florida's cultural landscape.
 

@@ -52,6 +52,11 @@
   fill: #2c2561;
 }
 
+.ananke-socials a.website {
+  color: #000;
+  fill: #000;
+}
+
 header .ananke-socials a, 
 footer .ananke-socials a {
   fill: #fff;

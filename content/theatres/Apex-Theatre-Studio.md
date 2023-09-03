@@ -10,11 +10,10 @@ Founded: 2013
 Address: |
     425 West Town Place, Unit 112
     St. Augustine, FL 32092
-Website: http://www.apextheatrejax.com
 Socials:
   Facebook: apextheatrejax
   Twitter: apextheatrejax
   Instagram: apextheatrejax
+  Website: http://www.apextheatrejax.com
 Phone: 
-Artistic Director: Ian Mairs
 ---

@@ -13,6 +13,6 @@ Address: |
   Jacksonville, FL 32211
 Socials:
   Facebook: justeincollege
-Website: https://ju.edu/steincollege
+  Website: https://ju.edu/steincollege
 ---
 Jacksonville University's Linda Berry Stein College of Fine Arts & Humanities stands as a center of excellence in arts and humanities, enriching Northeast Florida for over six decades. With a faculty of distinguished artists and scholars, the college fosters a dynamic learning environment where arts and humanities intersect. Known for award-winning theatre, dance, and music, as well as intellectual events like the Fiat Lux Film Festival and philosophy slams, the Stein College is a hub for creative and scholarly pursuits.
