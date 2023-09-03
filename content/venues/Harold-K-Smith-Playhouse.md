@@ -2,6 +2,8 @@
 title: Harold K. Smith Playhouse
 aliases: 
   - /venues/little-theatre/
+venue_aliases:
+  - Little Theatre
 layout: venues
 featured_image: Theatre_Jacksonville.webp
 featured_image_attr:

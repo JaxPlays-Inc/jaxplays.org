@@ -102,20 +102,31 @@
 
     <!-- Venue Productions Section -->
 
+      <!-- Prepare an empty slice to hold productions with this venue -->
     {{ $productionsWithVenue := slice }}
+    
+    <!-- Capture the venue title and aliases -->
+    {{ $venueTitle := .Title }}
+    {{ $venueAliases := .Params.venue_aliases }}
 
+    <!-- Loop through all productions and check their venues -->
     {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
     {{ $currentProduction := . }}
-    {{ $venues := .Params.Venue }}
-    {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-    {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+    {{ $productionVenues := .Params.Venue }}
+    
+    <!-- Normalize single venues into a slice for consistency -->
+    {{ if eq (printf "%T" $productionVenues) "string" }}
+      {{ $productionVenues = slice $productionVenues }}
     {{ end }}
-    {{ range $venues }} <!-- This should now be safe -->
-    {{ if eq . $.Title }}
-    {{ $productionsWithVenue = $productionsWithVenue | append $currentProduction }}
+    
+    <!-- Loop through each venue in the production's venues -->
+    {{ range $productionVenues }}
+      <!-- Check if this venue matches the current venue or any of its aliases -->
+      {{ if or (eq . $venueTitle) (in $venueAliases .) }}
+        {{ $productionsWithVenue = $productionsWithVenue | append $currentProduction }}
+      {{ end }}
     {{ end }}
-    {{ end }}
-    {{ end }}
+  {{ end }}
 
     <!-- Display the productions with the venues's name -->
     {{ if $productionsWithVenue }}
