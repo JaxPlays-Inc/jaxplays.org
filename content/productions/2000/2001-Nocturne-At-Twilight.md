@@ -5,7 +5,7 @@ closing_date: 2001-05-31
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Ernest: Jonathan Clem
 - Sweet Ruth: Talia K. Davis

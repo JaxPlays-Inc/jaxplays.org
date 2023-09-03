@@ -5,7 +5,7 @@ closing_date: 2005-05-07
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Arnold Wiggins: Mike Carlson
 - Lucien P. Smith: Wander Auguste

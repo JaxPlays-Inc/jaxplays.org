@@ -4,7 +4,7 @@ title: Rabbit Hole
 date: 2011-12-31
 approx_date: year
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Howie: Michael Lipp
 crew:

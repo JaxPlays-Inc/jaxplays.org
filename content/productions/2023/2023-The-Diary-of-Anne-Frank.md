@@ -13,7 +13,7 @@ Genres:
 - Biographical
 - Historical
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 Tickets: https://ci.ovationtix.com/34919
 Description: "*Diary of Anne Frank* is a poignant play that illuminates the resilience and hopes of Anne Frank, a young Jewish girl hiding from the Nazis during World War II. Through her diary entries, the drama delves into the human capacity for courage amid unimaginable adversity."
 showtimes:

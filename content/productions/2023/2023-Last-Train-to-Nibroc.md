@@ -12,7 +12,7 @@ Genres:
 - Drama
 - Romance
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 show_details:
 - Playwright: Arlene Hutton
 showtimes:

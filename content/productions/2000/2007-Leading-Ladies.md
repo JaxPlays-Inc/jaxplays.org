@@ -5,7 +5,7 @@ closing_date: 2007-01-27
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Meg Snider: Tracy Olin
 - Duncan Wooley: Roger Lowe

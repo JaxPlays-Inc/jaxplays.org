@@ -5,7 +5,7 @@ closing_date:
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Addie: Toni Philips
 - Cal: Kenneth E. Walker

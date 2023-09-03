@@ -7,7 +7,7 @@ date: 2020
 Genres: 
 - Play
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 show_details:
 - Writer: Todd Kreidler
 Subject: Based on the 1967 film "Guess Who's Coming to Dinner" by William Rose

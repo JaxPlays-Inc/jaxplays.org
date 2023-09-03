@@ -5,7 +5,7 @@ closing_date: 2005-03-19
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Nick Cristano: Michael Smithgall
 - Frank Gianelli: Russ Kirk

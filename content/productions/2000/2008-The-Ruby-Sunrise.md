@@ -7,7 +7,7 @@ playbill:
 Genres: 
 - Play
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Ruby: Miranda Lawson
 - Henry: Joseph Walz

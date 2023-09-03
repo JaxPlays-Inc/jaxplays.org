@@ -5,7 +5,7 @@ closing_date: 2001-07-31
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Pippin: Josh Goltiao
 - Fastrada: Amy Szkody

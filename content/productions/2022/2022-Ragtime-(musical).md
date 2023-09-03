@@ -11,7 +11,7 @@ featured_image_attr: Theatre Jacksonville
 featured_image_alt:
 featured_image_caption: Graphic for Ragtime
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 Website: https://www.theatrejax.com/season102
 showtimes:
 - 2022-06-10 19:30:00

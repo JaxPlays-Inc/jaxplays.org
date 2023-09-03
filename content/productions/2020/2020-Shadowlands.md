@@ -6,7 +6,7 @@ redirect_from:
 date: 2020-01-10
 closing_date: 2020-01-26
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 Website: https://www.theatrejax.com/shadowlands
 show_details:
 - Writer: William Nicholson - wiki

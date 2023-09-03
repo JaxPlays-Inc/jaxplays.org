@@ -5,7 +5,7 @@ closing_date: 2005-10-08
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Lucentio: Co'Relous Bryant
 - Tranio: Josh Waller

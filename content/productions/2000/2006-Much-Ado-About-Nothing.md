@@ -5,7 +5,7 @@ closing_date: 2006-10-07
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Don Pedro: Jack Wallace
 - Dona Joan: Tracy Olin

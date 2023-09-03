@@ -5,7 +5,7 @@ closing_date: 2003-06-28
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Minstrel: Lee Hamby
 - Prince: Sam Willis

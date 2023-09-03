@@ -10,7 +10,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 show_details:
 - Writer: 
   - Jessie Jones

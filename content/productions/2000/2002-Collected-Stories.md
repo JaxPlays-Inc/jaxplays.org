@@ -5,7 +5,7 @@ closing_date: 2002-05-11
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Ruth Steiner: Jan Granger Wickstrom
 - Lisa Morrison: Mandy Leigh Proctor

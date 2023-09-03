@@ -7,7 +7,7 @@ closing_date: 2004-06-26
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Charlie Brown: Michael Lipp
 - Lucy Van Pelt: Shinnerrie Jackson

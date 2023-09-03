@@ -5,7 +5,7 @@ closing_date: 2008-01-26
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Bud Turpin: Fred Gatlin
 - Raynelle Turpin: Shelly Higgins Hughes

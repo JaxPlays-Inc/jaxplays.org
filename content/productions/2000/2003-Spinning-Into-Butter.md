@@ -5,7 +5,7 @@ closing_date: 2003-05-10
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Sarah Daniels: Sarah Boone
 - Patrick Chibas: Juan Unzueta

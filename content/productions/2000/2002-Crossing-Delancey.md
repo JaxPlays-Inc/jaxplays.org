@@ -5,7 +5,7 @@ closing_date: 2002-02-02
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Isabelle: Patricia Harmon
 - Bubbie: Gayle Featheringill

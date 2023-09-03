@@ -10,7 +10,7 @@ featured_image_alt:
 featured_image_caption:
 category: musical
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K Smith Playhouse
 show_details:
 - Music: Tim Minchin - wiki
 - Lyrics: Tim Minchin

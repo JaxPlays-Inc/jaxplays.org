@@ -8,7 +8,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption: "Poster for 'Les Mis\xE9rables' at Theatre Jacksonville"
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Valjean: Justin Murphy
 - Javert: Peter Jackson

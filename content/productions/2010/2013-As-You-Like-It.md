@@ -5,7 +5,7 @@ closing_date: 2013-09-08
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 showtimes:
 - 2013-08-23 19:30:00
 - 2013-08-24 20:00:00

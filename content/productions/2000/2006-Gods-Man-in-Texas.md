@@ -5,7 +5,7 @@ closing_date: 2006-01-28
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Dr. Jeremiah 'Jerry' Mears: Kenny Logsdon
 - Hugo Taney: Lenny Thiesen

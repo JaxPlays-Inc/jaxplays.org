@@ -5,7 +5,7 @@ closing_date: 2004-10-03
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Valentine: Carl Baum
 - Proteus: Garry Burgoyne

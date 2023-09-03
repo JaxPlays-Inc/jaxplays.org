@@ -12,7 +12,7 @@ Genres:
 - Comedy
 - Romance
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 showtimes:
 - 2023-04-21 19:30:00
 - 2023-04-22 19:30:00

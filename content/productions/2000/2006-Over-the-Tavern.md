@@ -5,7 +5,7 @@ closing_date: 2006-11-16
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Sister Clarissa: Gayle Featheringill
 - Chet Pazinski: David Sacks

@@ -9,7 +9,7 @@ Genres:
 - Comedy
 - Romance
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Viola: Mandy Leigh Proctor
 - Olivia: Sandra S. Spurney

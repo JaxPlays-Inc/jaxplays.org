@@ -5,7 +5,7 @@ closing_date: 2006-05-06
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Lettice Douffet: Amy Johnson O'Connor
 - Charlotte (Lotte) Schoen: Caroline Lee

@@ -7,7 +7,7 @@ playbill:
 Genres:
 - Musical
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Boy/Jojo: Mitchell Wohl
 - Cat in the Hat: Robert Pelaia

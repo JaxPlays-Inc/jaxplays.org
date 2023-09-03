@@ -7,7 +7,7 @@ closing_date: 2005-06-25
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Hines: Juan Unzueta
 - Poopsie: Laura Adkison

@@ -5,7 +5,7 @@ closing_date: 2002-11-16
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Actor One: Jenny McCombes
 - Actor Two: Amy Szkody

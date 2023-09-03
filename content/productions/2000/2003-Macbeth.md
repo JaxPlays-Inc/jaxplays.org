@@ -5,7 +5,7 @@ closing_date: 2003-10-05
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - First Witch: Sandra S. Spurney
 - Second Witch: Tracy Olin

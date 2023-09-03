@@ -5,7 +5,7 @@ closing_date: 2007-05-05
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Lotty Wilton: Alexis Robbins
 - Mellersh Wilton: Daniel Owen Dungan

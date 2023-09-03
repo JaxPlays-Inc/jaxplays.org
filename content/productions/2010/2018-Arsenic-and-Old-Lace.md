@@ -8,7 +8,7 @@ featured_image_caption: Poster for Arsenic and Old Lace
 featured_image_attr: Theatre Jacksonville
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 showtimes:
 - 2018-09-14 20:00:00
 - 2018-09-15 20:00:00

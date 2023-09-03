@@ -8,7 +8,7 @@ featured_image_caption: Poster of Doubt
 featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
 playbill: 2023_Doubt.pdf
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 Genres:
 - Play
 - Drama

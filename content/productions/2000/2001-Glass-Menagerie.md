@@ -5,7 +5,7 @@ closing_date: 2001-11-17
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Amanda Wingfield: Simone Aden-Reid
 - Tom Wingfield: T.R. Lowe, Jr

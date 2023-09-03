@@ -5,7 +5,7 @@ closing_date: 2003-02-01
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Arthur Birling: Mark Wright
 - Gerald Croft: Carl Baum

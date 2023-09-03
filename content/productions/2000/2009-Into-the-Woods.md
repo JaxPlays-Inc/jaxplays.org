@@ -6,7 +6,7 @@ title: Into the Woods
 date: 2009-12-31
 approx_date: year
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Narrator/Mysterious Man: Michael Lipp
 crew:

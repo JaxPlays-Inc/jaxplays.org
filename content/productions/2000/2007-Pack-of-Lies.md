@@ -5,7 +5,7 @@ closing_date: 2007-03-17
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Bob Jackson: Geoffrey King
 - Barbara Jackson: Dawn Button

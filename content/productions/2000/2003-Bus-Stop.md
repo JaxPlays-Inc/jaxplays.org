@@ -5,7 +5,7 @@ closing_date: 2003-11-22
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Elma Duckworth: Kara Barger
 - Grace Hoylard: Erin Silas

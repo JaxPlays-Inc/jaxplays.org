@@ -5,7 +5,8 @@
 	background-color: #000;
 }
 
-.dark-mode, .dark-mode .blindlink,
+.dark-mode, 
+.dark-mode .blindlink, .dark-mode .blindlink:hover, .dark-mode .blindlink:active, .dark-mode .blindlink:visited,  
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
 .dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span) {
 	color: #fff;

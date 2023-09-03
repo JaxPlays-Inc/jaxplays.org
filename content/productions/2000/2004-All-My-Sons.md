@@ -5,7 +5,7 @@ closing_date: 2004-11-20
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Joe Keller: Roger Lowe
 - Kate Keller: Holly Gutshall

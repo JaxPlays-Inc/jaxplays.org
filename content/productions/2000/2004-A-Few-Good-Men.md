@@ -5,7 +5,7 @@ closing_date: 2004-01-31
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Lance Cpl. Harold W. Dawson: Amir Abdullah
 - PFC Louden Downey: Gerald Liles

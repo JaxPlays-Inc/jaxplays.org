@@ -4,7 +4,7 @@ title: The God Game
 date: 2017-12-31
 approx_date: year
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 crew:
 - Director: Michael Lipp

@@ -5,7 +5,7 @@ closing_date:
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Dotty Otley: Simone Aden-Reid
 - Lloyd Dallas: David Sacks

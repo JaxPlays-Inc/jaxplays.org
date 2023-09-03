@@ -7,7 +7,7 @@ playbill:
 Genres:
 - Musical
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Sarah Brown: Jennifer Thomas Medure
 - Sky Masterson: Storm Browne

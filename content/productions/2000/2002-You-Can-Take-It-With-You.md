@@ -5,7 +5,7 @@ closing_date: 2002-03-23
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Penelope Sycamore: Sandra S. Spurney
 - Essie: Katie Heard

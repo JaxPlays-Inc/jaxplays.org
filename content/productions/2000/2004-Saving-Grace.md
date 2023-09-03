@@ -5,7 +5,7 @@ closing_date: 2004-03-20
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Grace Larkin: Jennifer Knight
 - Walter Chepple: Mark Wright

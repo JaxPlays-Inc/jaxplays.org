@@ -5,7 +5,7 @@ closing_date: 2002-06-29
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Arpad laszlo: Joseph L. Chancey
 - Ladislav Sipos: Robert Chylinski

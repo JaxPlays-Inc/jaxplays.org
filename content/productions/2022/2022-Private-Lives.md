@@ -8,7 +8,7 @@ featured_image_caption: Poster of Private Lives
 featured_image_attr: Theatre Jacksonville
 playbill: 2022_Private_Lives.pdf
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 show_details:
 - Playwright: "No\xEBl Coward - wiki"
 showtimes:

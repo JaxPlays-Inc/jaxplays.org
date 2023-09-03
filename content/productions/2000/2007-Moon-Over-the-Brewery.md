@@ -5,7 +5,7 @@ closing_date: 2007-11-17
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Amanda Waslyk: Lucie Roberts
 - Randolph: Geoffrey King

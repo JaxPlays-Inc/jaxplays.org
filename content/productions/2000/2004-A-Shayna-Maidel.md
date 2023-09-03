@@ -5,7 +5,7 @@ closing_date: 2004-05-08
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Rose Weiss: Jessica Palombo
 - Mordechai Weiss: Archie Cogollos

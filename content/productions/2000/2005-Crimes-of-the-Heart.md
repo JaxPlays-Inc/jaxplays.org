@@ -5,7 +5,7 @@ closing_date: 2005-01-29
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Lenny Macgrath: Amy Noel Johnson
 - Chick Boyle: Shelly Higgins Hughes

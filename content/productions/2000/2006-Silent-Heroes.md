@@ -5,7 +5,7 @@ closing_date: 2006-03-18
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
-Venue: Little Theatre
+venue: Harold K. Smith Playhouse
 cast:
 - Director: Amy Johnson O'Connor
 - June: Dawn Button
