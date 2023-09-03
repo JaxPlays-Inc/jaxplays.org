@@ -1,0 +1,80 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+    <h1>All Cast, Crew, Understudies, and Orchestra</h1>
+
+    <!-- Cast and Crew Section -->
+    <section class="nested-copy-line-height lh-copy f4">
+      <h2>Cast and Crew</h2>
+      {{ $.Scratch.Add "allMap" (dict) }}
+      {{ range where site.Pages "Type" "productions" }}
+        {{/* Process cast */}}
+        {{ range .Params.cast }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{/* Process crew */}}
+        {{ range .Params.crew }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{/* Process understudies */}}
+        {{ range .Params.understudies }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{/* Process orchestra */}}
+        {{ range .Params.orchestra }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
+      {{ $allMap := $.Scratch.Get "allMap" }}
+      {{ $keys := slice }}
+      {{ range $key, $val := $allMap }}
+        {{ $keys = $keys | append $key }}
+      {{ end }}
+      {{ $sortedKeys := sort $keys }}
+      {{ range $key := $sortedKeys }}
+        <div>{{ index $allMap $key }} - {{ $key }}</div>
+      {{ end }}
+    </section>
+  </article>
+{{ end }}
