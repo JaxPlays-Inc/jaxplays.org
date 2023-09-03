@@ -13,8 +13,11 @@ Website: https://web.archive.org/web/20230518165957/https://www.limelight-theatr
 Genres: 
 - Play
 - Drama
+- Coming-of-age
+- Historical
 show_details:
 - Playwright: Jim Leonard. Jr.
+Description: Set in the depths of the Great Depression, The Diviners explores the magical bond between a troubled young boy and a disillusioned preacher, seeking salvation in a parched, rural town.
 showtimes:
 - 2023-02-23 19:30:00
 - 2023-02-24 19:30:00
@@ -60,3 +63,4 @@ crew:
 - Sound Board Operator: Ashley Taylor
 orchestra:
 ---
+Buddy Layman, a mentally challenged boy with a fear of water, has a gift for divining water locations. When disillusioned preacher C.C. Showers comes to town, the two form an unlikely friendship. Showers promises to build a church but gets tangled in the town's expectations and his own redemption journey. As the town leans on miracles and Buddy begins to trust again, a heartbreaking calamity forces everyone to confront their own notions of faith and redemption.

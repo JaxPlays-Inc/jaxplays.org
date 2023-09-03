@@ -15,6 +15,7 @@ Genres:
 - Mystery
 show_details:
 - Playwright: John Patrick Shanley
+Description: In a 1960s Bronx Catholic school, Sister Aloysius wages a moral crusade against the charismatic Father Flynn. But in her quest for truth, doubt takes center stage.
 cast:
 - Father Brendan Flynn: Jas Abramowitz
 - Sr. Aloysius Beauvier: Simone Aden
@@ -36,3 +37,4 @@ crew:
 - Board Operator: Ryan Feeney
 - Assistant Stage Manager: David Fisher
 ---
+Sister Aloysius, a stern and traditional school principal, suspects the friendly Father Flynn of improper conduct with one of the male students. Enlisting the help of Sister James, a young and naive teacher, Aloysius embarks on a mission to expose Flynn. Yet, as new evidence comes to light, certainty wavers, making room for moral ambiguity. Who is the sinner and who is the saint? In this riveting drama, it's hard to tell, but doubt will linger long after the curtain closes.

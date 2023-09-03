@@ -11,6 +11,7 @@ Genres:
 - Play
 - Comedy
 - Romance
+Description: "In a kitschy Vegas wedding chapel, four wildly different couples seek an Elvis-impersonating minister for quick 'I do's. Yet, love proves to be the ultimate gamble."
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 showtimes:
@@ -56,3 +57,4 @@ crew:
   - Daniella Zayas
 orchestra:
 ---
+Sandy, the four-times-divorced chapel owner, has seen her share of matrimonies. From runaway brides to secret agents, her clients are a motley crew with one thing in common: the search for unconventional love. As Sandy navigates these wacky nuptials with Marvin, her Elvis-impersonating minister, each wedding takes an unexpected turn. When it's Sandy's turn for a surprise romance, will love finally be in the cards for her?
