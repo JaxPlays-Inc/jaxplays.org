@@ -67,13 +67,14 @@
       {{ end }}
       
       {{ $allMap := $.Scratch.Get "allMap" }}
-      {{ $keys := slice }}
+      {{ $creditArray := slice }}
       {{ range $key, $val := $allMap }}
-        {{ $keys = $keys | append $key }}
+        {{ $entry := dict "name" $key "count" $val }}
+        {{ $creditArray = $creditArray | append $entry }}
       {{ end }}
-      {{ $sortedKeys := sort $keys }}
-      {{ range $key := $sortedKeys }}
-        <div>{{ index $allMap $key }} - {{ $key }}</div>
+      {{ $sortedArray := sort $creditArray "count" "desc" }}
+      {{ range $entry := $sortedArray }}
+        <div>{{ index $entry "count" }} - {{ index $entry "name" }}</div>
       {{ end }}
     </section>
   </article>
