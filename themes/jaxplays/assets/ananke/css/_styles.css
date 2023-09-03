@@ -16,6 +16,12 @@ a,
 	text-decoration: none;
 }
 
+a.blindlink, a.blindlink:hover, a.blindlink:visited {
+	text-decoration: none;
+	transition: none;
+	color: #333;
+}
+
 a:hover:not(.no-underline):not(.link),
 .nested-links a:hover:not(.link) {
 	text-decoration: underline;

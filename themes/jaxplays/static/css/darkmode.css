@@ -5,13 +5,13 @@
 	background-color: #000;
 }
 
-.dark-mode,
+.dark-mode, .dark-mode .blindlink,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
 .dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span) {
 	color: #fff;
 }
 
-.dark-mode a:not(.jaxplayslogo):not(.link):not(.pagination a):not(footer a) {
+.dark-mode a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a) {
 	color: var(--jaxplays-gold);
 }
 

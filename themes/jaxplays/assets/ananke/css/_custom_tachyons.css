@@ -3,3 +3,8 @@
     width: 45%;
   }
 }
+@media screen and (min-width:60em) {
+.w-45-ns {
+  width: 45%;
+}
+}
