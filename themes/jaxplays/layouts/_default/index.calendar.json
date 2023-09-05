@@ -2,8 +2,9 @@
 {{- range where .Site.Pages "Type" "productions" -}}
   {{- $title := .Title -}}
   {{- $theatre := .Params.Theatre -}}
+  {{- $url := .Permalink -}}
   {{- range .Params.showtimes -}}
-    {{- $events = $events | append (dict "title" $title "start" . "theatre" $theatre) -}}
+    {{- $events = $events | append (dict "title" $title "start" . "theatre" $theatre "url" $url) -}}
   {{- end -}}
 {{- end -}}
 {{- $events | jsonify -}}

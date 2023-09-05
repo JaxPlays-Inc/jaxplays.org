@@ -6,12 +6,17 @@
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'listDay',
+          height: "calc(100vh - 144px - 32px - 32px - 55px - 64px)",
+          initialView: 'listWeek',
           events: '/calendar.json', // link to the generated JSON file
+          slotMaxTime: '22:00:00',
+          slotMinTime: '11:00:00',
+          nowIndicator: true,
+          expandRows: true,
           headerToolbar: {
-            left: 'prev,next',
+            left: 'prev,next today',
             center: 'title',
-            right: 'dayGridYear,dayGridMonth,timeGridWeek,listDay' // user can switch between them
+            right: 'dayGridYear,dayGridMonth,timeGridWeek,listWeek' // user can switch between them
           }
         });
         calendar.render();
