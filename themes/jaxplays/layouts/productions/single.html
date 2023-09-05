@@ -156,14 +156,15 @@
       {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
       {{ $venueurl := $venue | urlize | replaceRE "\\." "" }} <!-- URLize the venue name -->
       <div class="flex flex-column flex-row-ns">
-        <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver">
-          <div class="b mb2">
+        <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
+          <div class="w-25 w-100-ns b mb2">
           {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
           {{ printf "Venue %d" (add $index 1) }} <!-- Print "Venue 2", "Venue 3", etc. -->
           {{ else }}
           Venue
           {{ end }}
         </div>
+        <div class="w-75 w-100-ns ph1 ph0-ns">
           <a class="b" href="/venues/{{ $venueurl }}">{{ $venue }}</a>
           {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
           <!-- Use the captured page context -->
@@ -176,6 +177,7 @@
           </ul>
           {{ end }}
         </div>
+      </div>
         <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">
           <!-- Venue Map Section -->
           <div class="w-100 pv3 pv0-ns flex flex-column items-start justify-start">
