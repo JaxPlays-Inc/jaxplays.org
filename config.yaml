@@ -12,6 +12,7 @@ permalinks:
   venues: "/:section/:filename/"
 
 params:
+  description: JaxPlays is your go-to source for all live theatre productions in Jacksonville, Florida and all of Northeast Florida and Southeast Georgia.
   recent_posts_number: 3
   recent_copy: Latest News & Reviews
   mainSections: 
