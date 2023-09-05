@@ -6,22 +6,37 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-{{- with $.Params.images -}}
-{{- range first 6 . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+{{ $imageFolder := "" }}
+{{- if eq .Type "productions" -}}
+  {{ $imageFolder = "/media/posters/" }}
+{{- else if eq .Type "shows" -}}
+  {{ $imageFolder = "/media/posters/" }}
+{{- else if eq .Type "people" -}}
+  {{ $imageFolder = "/media/headshots/" }}
+{{- else if eq .Type "theatres" -}}
+  {{ $imageFolder = "/media/logos/" }}
+{{- else if eq .Type "venues" -}}
+  {{ $imageFolder = "/media/logos/" }}
 {{- else -}}
-{{- $images := $.Resources.ByType "image" -}}
-{{- $featured := $images.GetMatch "*feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-{{- with $featured -}}
-<meta property="og:image" content="{{ $featured.Permalink }}"/>
-{{- else -}}
-{{- with $.Site.Params.images }}
-    <meta property="og:image" content="{{ index . 0 | absURL }}"/>
-{{ else }}
-    <!-- Default image if no other image is set -->
-    <meta property="og:image" content="/media/default/JaxPlays_Facebook_Default_Preview.webp"/>
-{{ end }}
+  {{ $imageFolder = "" }}
 {{- end -}}
+
+{{- with $.Params.featured_image -}}
+    <meta property="og:image" content="{{ $imageFolder }}{{ . }}" />
+{{- else -}}
+    {{- $images := $.Resources.ByType "image" -}}
+    {{- $featured := $images.GetMatch "*feature*" -}}
+    {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+    {{- with $featured -}}
+        <meta property="og:image" content="{{ $featured.Permalink }}"/>
+    {{- else -}}
+        {{- with $.Site.Params.images }}
+            <meta property="og:image" content="{{ index . 0 | absURL }}"/>
+        {{ else }}
+            <!-- Default image if no other image is set -->
+            <meta property="og:image" content="/media/default/JaxPlays_Facebook_Default_Preview.webp"/>
+        {{ end }}
+    {{- end -}}
 {{- end -}}
 
 {{- if .IsPage }}
