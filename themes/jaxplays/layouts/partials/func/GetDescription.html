@@ -1,0 +1,23 @@
+{{/* layouts/partials/func/GetDescription.html */}}
+
+{{ $.Scratch.Set "finalDescription" "" }}
+{{ with .Description }}
+  {{ $.Scratch.Set "finalDescription" . }}
+{{ else }}
+  {{ if eq .Type "productions" }}
+  {{ $showPage := .Site.GetPage "page" (printf "/shows/%s" (.Title | urlize)) }}
+    {{ with $showPage }}
+      {{ $.Scratch.Set "finalDescription" $showPage.Description }}
+    {{ else }}
+      {{ $.Scratch.Set "finalDescription" .Summary }}
+    {{ end }}
+  {{ else }}
+    {{ if .IsPage }}
+      {{ $.Scratch.Set "finalDescription" .Summary }}
+    {{ else }}
+      {{ with .Site.Params.description }}
+        {{ $.Scratch.Set "finalDescription" . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
