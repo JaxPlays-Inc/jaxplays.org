@@ -1,6 +1,6 @@
 .dark-mode,
-.dark-mode *:not(#dark-mode-icon):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(
-		:is(div.bg-white, div.bg-white *)
+.dark-mode *:not(#dark-mode-icon):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(
+		:is(div.bg-white, div.bg-white *, #lightbox *)
 	) {
 	background-color: #000;
 }
