@@ -86,7 +86,7 @@
         <!-- Venue Map Section -->
         <div class="w-100 w-60-m w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
           {{ if and .Params.Latitude .Params.Longitude }}
-           {{ partial "leaflet.html" . }}
+            {{ partial "leaflet.html" (dict "Latitude" .Params.Latitude "Longitude" .Params.Longitude "Title" .Params.Title "Address" .Params.Address "id" 1) }}
           {{ end }}
         </div>
       </div>
