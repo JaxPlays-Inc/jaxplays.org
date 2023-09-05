@@ -6,7 +6,12 @@
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth'
+          initialView: 'listDay',
+          headerToolbar: {
+            left: 'prev,next',
+            center: 'title',
+            right: 'dayGridYear,dayGridMonth,timeGridWeek,listDay' // user can switch between them
+          }
         });
         calendar.render();
       });
