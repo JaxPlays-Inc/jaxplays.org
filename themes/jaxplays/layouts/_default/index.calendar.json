@@ -1,0 +1,9 @@
+{{- $events := slice -}}
+{{- range where .Site.Pages "Type" "productions" -}}
+  {{- $title := .Title -}}
+  {{- $theatre := .Params.Theatre -}}
+  {{- range .Params.showtimes -}}
+    {{- $events = $events | append (dict "title" $title "start" . "theatre" $theatre) -}}
+  {{- end -}}
+{{- end -}}
+{{- $events | jsonify -}}

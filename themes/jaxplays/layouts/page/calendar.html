@@ -7,6 +7,7 @@
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
           initialView: 'listDay',
+          events: '/calendar.json', // link to the generated JSON file
           headerToolbar: {
             left: 'prev,next',
             center: 'title',
@@ -17,8 +18,8 @@
       });
 
     </script>
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw8">
+  <div class="flex-l mt0 mw9 center">
+    <article class="center cf pv4 ph3 ph4-ns mw9 w-100">
       <header>
         <h1 class="f3 f1-l f1-m mt0">
           {{ .Title }}

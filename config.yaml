@@ -26,7 +26,7 @@ params:
     label: Facebook
   - name: twitter
     url: https://www.twitter.com/jaxplaysorg
-    label: Facebook
+    label: Twitter
 menu:
   main:
   - name: Home
@@ -53,8 +53,16 @@ taxonomies:
   tag: tags
   genre: genres
 
+outputFormats:
+  Calendar:
+    mediaType: application/json
+    baseName: calendar
+    isPlainText: true
+    notAlternative: true
+
 outputs:
   home: 
     - HTML
     - RSS
     - JSON
+    - Calendar
