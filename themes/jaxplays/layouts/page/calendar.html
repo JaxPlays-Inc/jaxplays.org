@@ -6,7 +6,7 @@
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          height: "calc(100vh - 144px - 32px - 32px - 55px - 64px)",
+          height: 'auto',
           initialView: 'listWeek',
           events: '/calendar.json', // link to the generated JSON file
           slotMaxTime: '22:00:00',
