@@ -15,8 +15,8 @@ Genres:
 - Family
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
-Website: 
-Tickets: 
+Website: https://ameliamusicalplayhouse.com/performances/oz2023/
+Tickets: https://ameliamusicalplayhouse.com/tickets/
 show_details: 
 Description: Journey down the yellow brick road with Dorothy, a Kansas farm girl, as she navigates the fantastical world of Oz.
 showtimes:
@@ -79,4 +79,4 @@ cast:
 crew:
 - Director: Jill Dillingham
 ---
-Synopsis: "Whisked away by a tornado, Dorothy finds herself in the whimsical world of Oz. With her dog Toto and new-found friends—the Scarecrow, Tin Man, and Cowardly Lion—she sets off to meet the Wizard to find a way home. Along the way, they battle the Wicked Witch of the West and discover that true magic lies within themselves. There's no place like home, but Oz is a whirlwind of its own.
+Whisked away by a tornado, Dorothy finds herself in the whimsical world of Oz. With her dog Toto and new-found friends—the Scarecrow, Tin Man, and Cowardly Lion—she sets off to meet the Wizard to find a way home. Along the way, they battle the Wicked Witch of the West and discover that true magic lies within themselves. There's no place like home, but Oz is a whirlwind of its own.
