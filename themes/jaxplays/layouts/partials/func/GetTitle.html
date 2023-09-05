@@ -1,0 +1,5 @@
+{{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+{{ if eq .Type "productions" }}{{ with .Params.title }}{{ . }} | {{ end }}{{ with .Params.theatre }}{{ . }} | {{ end }}{{ .Site.Title }}
+{{ else }}
+    {{ with .Params.title }}{{ . }} | {{ end }}{{ .Site.Title }}
+{{ end }}
