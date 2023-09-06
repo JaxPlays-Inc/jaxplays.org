@@ -18,11 +18,8 @@
       height: 'auto',
       initialView: initialViewSetting,
       events: function(fetchInfo, successCallback, failureCallback) {
-        // Fetch events from your JSON source here
-        // For example, using Fetch API
         fetch('/calendar.json').then(response => response.json())
           .then(events => {
-            // Filter events based on selected theatres
             var checkboxes = document.querySelectorAll('input[name="theatre"]:checked');
             var selectedTheatres = Array.from(checkboxes).map(c => c.value);
             var filteredEvents = events.filter(event => selectedTheatres.includes(event.theatre));
@@ -45,7 +42,7 @@
       var fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
       var emThreshold = 60 * fontSize;
       var newView = whichView(window.innerWidth);
-    
+
       if (newView !== calendar.view.type) {
         calendar.changeView(newView);
       }
@@ -71,6 +68,27 @@
     resize();
     window.addEventListener('resize', resize);
 
+    var saveState = function() {
+      var checkboxes = document.querySelectorAll('input[name="theatre"]');
+      var state = {};
+      checkboxes.forEach(function(checkbox) {
+        state[checkbox.id] = checkbox.checked;
+      });
+      localStorage.setItem('theatreState', JSON.stringify(state));
+    };
+
+    var loadState = function() {
+      var state = JSON.parse(localStorage.getItem('theatreState')) || {};
+      for (var id in state) {
+        var checkbox = document.getElementById(id);
+        if (checkbox) {
+          checkbox.checked = state[id];
+        }
+      }
+    };
+
+    loadState();
+
     var allTheatresCheckbox = document.getElementById('all_theatres');
 
     var toggleTheatreCheckboxes = function() {
@@ -80,14 +98,19 @@
           checkbox.checked = allTheatresCheckbox.checked;
         }
       });
-      calendar.refetchEvents(); // Refetch events when theatres are toggled
+      calendar.refetchEvents();
     };
 
-    allTheatresCheckbox.addEventListener('click', toggleTheatreCheckboxes);
+    allTheatresCheckbox.addEventListener('click', function() {
+      toggleTheatreCheckboxes();
+      saveState();
+    });
 
-    document.querySelectorAll('input[name="theatre"]').forEach(function(checkbox) {
+    var checkboxes = document.querySelectorAll('input[name="theatre"]');
+    checkboxes.forEach(function(checkbox) {
       checkbox.addEventListener('click', function() {
-        calendar.refetchEvents(); // Refetch events when any theatre is toggled
+        calendar.refetchEvents();
+        saveState();
       });
     });
   });
