@@ -1,1 +1,11 @@
-{{ partial "leaflet.html" . }}
+{{ $id := .Get "id" }}
+{{ $latitude := .Get "latitude" }}
+{{ $longitude := .Get "longitude" }}
+{{ $title := .Get "title" }}
+{{ $address := .Get "address" }}
+{{ $minZoom := .Get "minZoom" }}
+{{ $maxZoom := .Get "maxZoom" }}
+{{ $setZoom := .Get "setZoom" }}
+{{ $radius := .Get "radius" }}
+
+{{ partial "leaflet.html" (dict "id" $id "Latitude" $latitude "Longitude" $longitude "Title" $title "Address" $address "minZoom" $minZoom "maxZoom" $maxZoom "setZoom" $setZoom "radius" $radius ) }}
