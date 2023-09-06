@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       searchBox.style.display = "flex";
       searchVisible = true;
-      document.getElementById("searchInput").focus();
+      // document.getElementById("searchInput").focus();
     }
   }
 });

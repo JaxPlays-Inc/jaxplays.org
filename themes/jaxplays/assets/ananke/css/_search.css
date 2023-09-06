@@ -72,4 +72,9 @@
 	height: 1.9rem
 }
 
+#searchInput::placeholder {
+  font-style: italic;
+}
+
+
 /* END Style for Search */

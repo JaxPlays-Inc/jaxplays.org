@@ -32,14 +32,14 @@
     </div>
   </div>
   <div id="fastSearch">
-    <input id="searchInput" tabindex="0">
+    <input id="searchInput" tabindex="0" placeholder="Search here...">
     <ul id="searchResults">
     </ul>
   </div>
    <!-- Menu links for tablet and mobile -->
    <div class="nav-links dn dn-m dn-l w-100-m flex-column">
     {{ range .Site.Menus.main }}
-    <a class="link hover-white white-90 no-underline f5 pa3 pl2 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+    <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
       {{ .Name }}
     </a>
     {{ end }}
