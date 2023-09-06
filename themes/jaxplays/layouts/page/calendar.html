@@ -113,7 +113,7 @@
       {{ range where .Site.Pages "Type" "theatres" }}
       {{ if eq .Params.active true }}
       <div class="f4 pa2 w-50">
-        <input class="w3" type="checkbox" id="{{ .Title }}" name="theatre" value="{{ .Title }}">
+        <input class="w3" type="checkbox" id="{{ .Title }}" name="theatre" value="{{ .Title }}" checked="checked">
         <label class="ml2" for="{{ .Title }}">{{ .Title }}</label><br>
       </div>
       {{ end }}
