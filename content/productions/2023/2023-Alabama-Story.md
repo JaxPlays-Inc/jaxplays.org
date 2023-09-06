@@ -19,6 +19,15 @@ show_details:
 - Playwright: Kenneth Jones
 Description: In 1950s Alabama, a librarian and a state senator find themselves on opposing sides of a censorship battle that shakes their world.
 showtimes:
+- 2023-09-29 19:30:00
+- 2023-09-30 19:30:00
+- 2023-10-01 14:00:00
+- 2023-10-06 19:30:00
+- 2023-10-07 19:30:00
+- 2023-10-08 14:00:00
+- 2023-10-13 19:30:00
+- 2023-10-14 19:30:00
+- 2023-10-15 14:00:00
 cast:
 - Emily Wheelock Reed: Simone Aden Reid
 - Senator E. W. Higgins: Bill Ratliff
