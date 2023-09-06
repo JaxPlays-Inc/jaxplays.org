@@ -16,7 +16,9 @@ a,
 	text-decoration: none;
 }
 
-a.blindlink, a.blindlink:hover, a.blindlink:visited {
+a.blindlink,
+a.blindlink:hover,
+a.blindlink:visited {
 	text-decoration: none;
 	transition: none;
 	color: #333;
@@ -81,6 +83,7 @@ h1 a.jaxplayslogo {
 	margin-block-start: 0;
 }
 
+
 @media screen and (min-width: 30em) {
 	.tickets {
 		min-width: 100px;
@@ -130,5 +133,11 @@ h1 a.jaxplayslogo {
 	.navmenu::after {
 		flex: 1;
 		content: "";
+	}
+}
+
+@media (max-width: 30em) {
+	h2 {
+		font-size: 1.2rem;
 	}
 }

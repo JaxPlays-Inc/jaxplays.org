@@ -35,6 +35,9 @@ menu:
   - name: About
     pageRef: /about
     weight: 20
+  - name: Calendar
+    pageRef: /calendar
+    weight: 25
   - name: People
     pageRef: /people
     weight: 30
