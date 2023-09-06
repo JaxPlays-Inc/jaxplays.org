@@ -305,100 +305,39 @@
 
     </div>
 
-    <!-- If cast exists -->
-    {{ if .Params.cast }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
-      {{ range .Params.cast }} <!-- Iterate over the cast array -->
-      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
-        <div class="pa3-ns pa2 w-50 w-70-l">
-          {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
-          {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
-          <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }}
-          <!-- Separate by commas -->
-          {{ end }}
-          {{ else }}
-          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
-          {{ end }}
+    <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
+    
+    {{ $site := .Site }} <!-- Capture the site context for later use -->
+    {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
+    <!-- It looks through the Params.cast, Params.crew, Params.understudies, and Params.orchestra arrays -->
+      {{ if $paramsArray }}
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
+        {{ range $paramsArray }} <!-- Iterate over the array -->
+        {{ range $roleOrCharOrInst, $person := . }} <!-- Iterate over key-value pairs -->
+        <div class="flex bb bw1 b--silver f5 f4-ns">
+          <div class="b pa3-ns pa2 w-50 w-30-l">{{ $roleOrCharOrInst }}</div> <!-- Role/Character/Instrument -->
+          <div class="pa3-ns pa2 w-50 w-70-l">
+            {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
+            {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
+            {{ $urlName := $p | urlize }}
+            {{ with $site.GetPage (print "/people/" $urlName) }}
+            <a href="/people/{{ $urlName }}">{{ $p }}</a>{{ else }}{{ $p }}{{ end }}{{ if ne $idx (sub (len $person) 1) }},{{ end }} <!-- Separate by commas -->
+            {{ end }}
+            {{ else }}
+            {{ $urlName := $person | urlize }}
+            {{ with $site.GetPage (print "/people/" $urlName) }}
+            <a href="/people/{{ $urlName }}">{{ $person }}</a>
+            {{ else }}
+            {{ $person }}
+            {{ end }}
+            {{ end }}
+          </div>
         </div>
+        {{ end }}
+        {{ end }}
       </div>
       {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <!-- If crew exists -->
-    {{ if .Params.crew }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Crew</h3>
-      {{ range .Params.crew }} <!-- Iterate over the crew array -->
-      {{ range $role, $person := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="w-25 b pa3-ns pa2 w-50 w-30-l">{{ $role }}</div> <!-- Role -->
-        <div class="w-75 pa3-ns pa2 w-50 w-70-l">
-          {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
-          {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
-          <a href="/people/{{ $p | urlize }}">{{ $p }}</a>{{ if ne $idx (sub (len $person) 1) }}, {{ end }}
-          <!-- Separate by commas -->
-          {{ end }}
-          {{ else }}
-          <a href="/people/{{ $person | urlize }}">{{ $person }}</a> <!-- Single person's name with URLized link -->
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <!-- If understudies exists -->
-    {{ if .Params.understudies }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Understudies</h3>
-      {{ range .Params.understudies }} <!-- Iterate over the understudies array -->
-      {{ range $character, $actor := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $character }}</div> <!-- Character name -->
-        <div class="pa3-ns pa2 w-50 w-70-l">
-          {{ if (eq (printf "%T" $actor) "[]interface {}") }} <!-- Check if actor is an array -->
-          {{ range $idx, $a := $actor }} <!-- Iterate over the actors -->
-          <a href="/people/{{ $a | urlize }}">{{ $a }}</a>{{ if ne $idx (sub (len $actor) 1) }}, {{ end }}
-          <!-- Separate by commas -->
-          {{ end }}
-          {{ else }}
-          <a href="/people/{{ $actor | urlize }}">{{ $actor }}</a> <!-- Single actor name with URLized link -->
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <!-- If orchestra exists -->
-    {{ if .Params.orchestra }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Orchestra</h3>
-      {{ range .Params.orchestra }} <!-- Iterate over the orchestra array -->
-      {{ range $instrument, $musician := . }} <!-- Iterate over key-value pairs -->
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $instrument }}</div> <!-- Instrument name -->
-        <div class="pa3-ns pa2 w-50 w-70-l">
-          {{ if (eq (printf "%T" $musician) "[]interface {}") }} <!-- Check if musician is an array -->
-          {{ range $idx, $m := $musician }} <!-- Iterate over the musicians -->
-          <a href="/people/{{ $m | urlize }}">{{ $m }}</a>{{ if ne $idx (sub (len $musician) 1) }}, {{ end }}
-          <!-- Separate by commas -->
-          {{ end }}
-          {{ else }}
-          <a href="/people/{{ $musician | urlize }}">{{ $musician }}</a> <!-- Single musician name with URLized link -->
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
     {{ end }}
 
     {{ $showSynopsis := "" }}
