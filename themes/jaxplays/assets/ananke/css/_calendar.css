@@ -1,0 +1,35 @@
+/* Custom style for the FullCalendar js plugin */
+
+#calendar .fc-event-title {
+  font-weight: 400;
+}
+
+h2.fc-toolbar-title {
+  color: #000;
+}
+
+.fc .fc-button-primary:focus,
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus,
+.fc .fc-button-primary:not(:disabled):active:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width:30em) {
+  .fc .fc-toolbar {
+    flex-direction: column-reverse;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .fc-toolbar-chunk {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
