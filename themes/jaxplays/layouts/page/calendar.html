@@ -1,40 +1,82 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
 <script src='/fullcalendar/index.global.min.js'></script>
-    <script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var whichView = function(width) {
+      if (width < 768) {  // Width for tablets and smaller devices
+        return 'listWeek';
+      } else {
+        return 'listWeek';  // Default view for larger screens
+      }
+    };
 
-      document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          height: 'auto',
-          initialView: 'listWeek',
-          navLinks: true, // can click day/week names to navigate views
-          events: '/calendar.json', // link to the generated JSON file
-          slotMaxTime: '22:00:00',
-          slotMinTime: '11:00:00',
-          nowIndicator: true,
-          expandRows: true,
-          headerToolbar: {
-            left: 'prev,next today',
-            center: 'title',
-            right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek' // user can switch between them
-          }
+    var calendarEl = document.getElementById('calendar');
+    var initialViewSetting = whichView(window.innerWidth);
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      height: 'auto',
+      initialView: initialViewSetting,  // Set based on window width
+      events: '/calendar.json',
+      slotMaxTime: '22:00:00',
+      slotMinTime: '11:00:00',
+      nowIndicator: true,
+      expandRows: true,
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'  // Default for larger screens
+      }
+    });
+
+    // Function to handle window resize
+    var resize = function() {
+      var fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+      var emThreshold = 60 * fontSize;
+      var newView = whichView(window.innerWidth);
+    
+      if (newView !== calendar.view.type) {
+        calendar.changeView(newView);
+      }
+    
+      if (window.innerWidth < emThreshold) {
+        calendar.setOption('headerToolbar', {
+          left: 'prev,next today',
+          center: 'title',
+          right: ''  // Options removed for smaller screens
         });
-        calendar.render();
-      });
+        calendar.setOption('navLinks', false);  // Set navLinks to false for smaller screens
+      } else {
+        calendar.setOption('headerToolbar', {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'  // Options for larger screens
+        });
+        calendar.setOption('navLinks', true);  // Set navLinks to true for larger screens
+      }
+    };    
 
-    </script>
-  <div class="flex-l mt0 mw9 center">
-    <article class="center cf pv4 ph3 ph4-ns mw9 w-100">
-      <header>
-        <h1 class="f3 f1-l f1-m mt0">
-          {{ .Title }}
-        </h1>
-      </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-        {{ .Content }}
-        <div id='calendar'></div>
-      </div>
-    </article>
-  </div>
+    calendar.render();
+
+    // Detect initial screen size
+    resize();  // Call immediately to set initial state based on screen size
+
+    // Listen for window resize events
+    window.addEventListener('resize', resize);
+  });
+</script>
+
+<div class="flex-l mt0 mw9 center">
+  <article class="center cf pv4 ph3 ph4-ns mw9 w-100">
+    <header>
+      <h1 class="f3 f1-l f1-m mt0">
+        {{ .Title }}
+      </h1>
+    </header>
+    <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+      {{ .Content }}
+      <div id='calendar'></div>
+    </div>
+  </article>
+</div>
 {{ end }}
