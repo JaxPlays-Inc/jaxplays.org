@@ -4,10 +4,10 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var whichView = function(width) {
-      if (width < 768) {  // Width for tablets and smaller devices
+      if (width < 768) {
         return 'listWeek';
       } else {
-        return 'listWeek';  // Default view for larger screens
+        return 'listWeek';
       }
     };
 
@@ -16,8 +16,20 @@
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       height: 'auto',
-      initialView: initialViewSetting,  // Set based on window width
-      events: '/calendar.json',
+      initialView: initialViewSetting,
+      events: function(fetchInfo, successCallback, failureCallback) {
+        // Fetch events from your JSON source here
+        // For example, using Fetch API
+        fetch('/calendar.json').then(response => response.json())
+          .then(events => {
+            // Filter events based on selected theatres
+            var checkboxes = document.querySelectorAll('input[name="theatre"]:checked');
+            var selectedTheatres = Array.from(checkboxes).map(c => c.value);
+            var filteredEvents = events.filter(event => selectedTheatres.includes(event.theatre));
+            successCallback(filteredEvents);
+          })
+          .catch(failureCallback);
+      },
       slotMaxTime: '22:00:00',
       slotMinTime: '11:00:00',
       nowIndicator: true,
@@ -25,11 +37,10 @@
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'  // Default for larger screens
+        right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'
       }
     });
 
-    // Function to handle window resize
     var resize = function() {
       var fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
       var emThreshold = 60 * fontSize;
@@ -38,39 +49,30 @@
       if (newView !== calendar.view.type) {
         calendar.changeView(newView);
       }
-    
+
       if (window.innerWidth < emThreshold) {
         calendar.setOption('headerToolbar', {
           left: 'prev,next today',
           center: 'title',
-          right: ''  // Options removed for smaller screens
+          right: ''
         });
-        calendar.setOption('navLinks', false);  // Set navLinks to false for smaller screens
+        calendar.setOption('navLinks', false);
       } else {
         calendar.setOption('headerToolbar', {
           left: 'prev,next today',
           center: 'title',
-          right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'  // Options for larger screens
+          right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'
         });
-        calendar.setOption('navLinks', true);  // Set navLinks to true for larger screens
+        calendar.setOption('navLinks', true);
       }
-    };    
+    };
 
     calendar.render();
-
-    // Detect initial screen size
-    resize();  // Call immediately to set initial state based on screen size
-
-    // Listen for window resize events
+    resize();
     window.addEventListener('resize', resize);
-  });
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Select all_theatres checkbox
+
     var allTheatresCheckbox = document.getElementById('all_theatres');
 
-    // Function to toggle other checkboxes based on all_theatres checkbox state
     var toggleTheatreCheckboxes = function() {
       var checkboxes = document.querySelectorAll('input[name="theatre"]');
       checkboxes.forEach(function(checkbox) {
@@ -78,10 +80,16 @@
           checkbox.checked = allTheatresCheckbox.checked;
         }
       });
+      calendar.refetchEvents(); // Refetch events when theatres are toggled
     };
 
-    // Add click event listener to all_theatres checkbox
     allTheatresCheckbox.addEventListener('click', toggleTheatreCheckboxes);
+
+    document.querySelectorAll('input[name="theatre"]').forEach(function(checkbox) {
+      checkbox.addEventListener('click', function() {
+        calendar.refetchEvents(); // Refetch events when any theatre is toggled
+      });
+    });
   });
 </script>
 
@@ -102,15 +110,14 @@
         <input class="w3" type="checkbox" id="all_theatres" name="theatre" value="all_theatres" checked="checked">
         <label class="ml2 b" for="all_theatres">All Theatres</label><br>
       </div>
-
-    {{ range where .Site.Pages "Type" "theatres" }}
+      {{ range where .Site.Pages "Type" "theatres" }}
       {{ if eq .Params.active true }}
-        <div class="f4 pa2 w-50">
-          <input class="w3" type="checkbox" id="{{ .Title }}" name="theatre" value="{{ .Title }}">
-          <label class="ml2" for="{{ .Title }}">{{ .Title }}</label><br>
-        </div>
+      <div class="f4 pa2 w-50">
+        <input class="w3" type="checkbox" id="{{ .Title }}" name="theatre" value="{{ .Title }}">
+        <label class="ml2" for="{{ .Title }}">{{ .Title }}</label><br>
+      </div>
       {{ end }}
-    {{ end }}
+      {{ end }}
     </div>
   </article>
 </div>
