@@ -61,7 +61,7 @@
 }
 
 #searchResults a:hover,
-a:focus {
+#searchResults a:focus {
 	outline: 0;
 	background-color: #666;
 	color: #fff;
