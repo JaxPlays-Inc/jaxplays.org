@@ -17,6 +17,7 @@ Socials:
   Instagram: alhambrajax
   Website: https://www.alhambrajax.com
 phone: 904-641-1212
+color: "#CF9F45"
 Press:
 - "Dinner and a Show: The History of Alhambra Theatre": https://web.archive.org/web/20230430215950/https://thecoastal.com/culture/history-alhambra-theatre-dining/amp/
 ---

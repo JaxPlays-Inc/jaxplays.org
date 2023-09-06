@@ -3,8 +3,18 @@
   {{- $title := .Title -}}
   {{- $theatre := .Params.Theatre -}}
   {{- $url := .Permalink -}}
+  
+  {{- /* Initialize default color */ -}}
+  {{- $color := "#000" -}}
+  
+  {{- /* Try to fetch the theatre's color */ -}}
+  {{- $theatreURL := $theatre | replaceRE "&" "and" | urlize | replaceRE "\\." "" -}}
+  {{- with $.Site.GetPage "page" (printf "/theatres/%s" $theatreURL) -}}
+    {{- $color = .Params.color | default "#000" -}}
+  {{- end -}}
+
   {{- range .Params.showtimes -}}
-    {{- $events = $events | append (dict "title" $title "start" . "theatre" $theatre "url" $url) -}}
+    {{- $events = $events | append (dict "title" $title "start" . "theatre" $theatre "url" $url "color" $color) -}}
   {{- end -}}
 {{- end -}}
 {{- $events | jsonify -}}
