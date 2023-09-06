@@ -90,4 +90,4 @@ crew:
 - Sets: Gregg Dillingham
 orchestra:
 ---
-Strap in for a toe-tapping, hip-swiveling ride through the life of Elvis Presley. From his humble beginnings in Tupelo to his meteoric rise to fame, *Elvis: A Musical Revolution*'* takes audiences on an unforgettable journey through Elvis's iconic hits and pivotal moments, capturing the essence of the man who changed the landscape of American music forever.
+Strap in for a toe-tapping, hip-swiveling ride through the life of Elvis Presley. From his humble beginnings in Tupelo to his meteoric rise to fame, *Elvis: A Musical Revolution* takes audiences on an unforgettable journey through Elvis's iconic hits and pivotal moments, capturing the essence of the man who changed the landscape of American music forever.
