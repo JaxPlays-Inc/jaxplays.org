@@ -29,6 +29,10 @@ a:hover:not(.no-underline):not(.link),
 	text-decoration: underline;
 }
 
+.white {
+	color: #fff !important;
+}
+
 .jaxplayslogo {
 	letter-spacing: 0.055em;
 	background-image: url("/JaxPlaysLogo.svg");
