@@ -1,7 +1,7 @@
 ---
-title: "JaxPlays Live Theatre Calendar"
+title: "Calendar"
 layout: "calendar"
-Description: Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
+Description: The JaxPlays Live Theatre Calendar - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
 ---
 ## Your Ultimate Guide to Jacksonville's Vibrant Theatre Scene
 

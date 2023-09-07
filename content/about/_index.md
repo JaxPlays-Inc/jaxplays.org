@@ -1,5 +1,6 @@
 ---
-title: About JaxPlays
+title: About
+Description: Discover JaxPlays, your ultimate guide to live theatre in Northeast Florida and Southeast Georgia. Browse an extensive database of past and present productions, theaters, and cast and crew lists. 
 ---
 ## What is JaxPlays?
 
