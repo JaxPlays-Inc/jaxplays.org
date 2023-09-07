@@ -83,6 +83,16 @@ h1 a.jaxplayslogo {
 	margin-block-start: 0;
 }
 
+/* Splide style overrides */
+.splide__arrow svg,
+.splide__pagination__page:hover svg,
+.splide__arrow:hover:not(:disabled) svg {
+	fill: var(--jaxplays-gold);
+}
+
+.splide__pagination__page.is-active {
+  background-color: var(--jaxplays-gold);
+}
 
 @media screen and (min-width: 30em) {
 	.tickets {
