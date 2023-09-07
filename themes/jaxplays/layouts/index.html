@@ -19,6 +19,11 @@
   .splide {
     padding: 0 4rem 2rem;
   }
+  @media screen and (max-width: 30em) {
+    .splide {
+      padding: 0 2rem 2rem;
+    }
+  }
 </style>
 <div class="ph4 pt3 w-100 mw8 center">
   <h1 class="f4 f3-m f2-l sectionline">On Stage Now & Coming Soon...</h1>
@@ -151,8 +156,12 @@ pages. */}}
           },
           breakpoints: {
             960: {
+              perPage: 3,
+              gap: '.5rem'
+            },
+            480: {
               perPage: 2,
-              width: '100%',
+              arrows: false,
             },
           },
         }).mount(window.splide.Extensions);
