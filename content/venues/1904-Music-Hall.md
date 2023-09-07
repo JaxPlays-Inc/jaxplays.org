@@ -1,9 +1,10 @@
 ---
 title: 1904 Music Hall
-layout: venues
+active: false
 featured_image: 1904_Music_Hall.jpeg
 Founded: 2011
-disbanded:
+disbanded: 2023
+
 Address: |
   19 Ocean Street
   Jacksonville, FL 32202
@@ -12,7 +13,7 @@ Longitude: -81.65645212963213
 Socials:
   Facebook: 1904MusicHall
   Twitter: 1904musichall
-Website: https://www.1904musichall.com
+  Website: https://www.1904musichall.com
 Press:
 - "Jason Hunnicutt - Owner of 1904 Music Hall in Jacksonville, FL on Running and Opening Your Own Venue": http://www.makingitwithchrisg.com/podcast/030
 - "1904 Music Hall - Downtown Jacksonville": https://downtownjacksonville.org/poi/1904-music-hall/

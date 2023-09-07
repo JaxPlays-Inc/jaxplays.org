@@ -1,10 +1,10 @@
 ---
 title: Harold K. Smith Playhouse
+active: true
 aliases: 
   - /venues/little-theatre/
 venue_aliases:
   - Little Theatre
-layout: venues
 featured_image: Theatre_Jacksonville.webp
 featured_image_attr:
 featured_image_alt:
@@ -15,11 +15,11 @@ Address: |
   Jacksonville, FL 32207
 Latitude: 30.303578917656996
 Longitude: -81.65339072883557
-Website: https://www.theatrejax.com
 Socials:
   Facebook: TheatreJacksonville
   Twitter: TheatreJax
   Instagram: theatrejacksonville
+  Website: https://www.theatrejax.com
 Phone: 1-904-396-4425
 ---
 Theatre Jacksonville, located in Jacksonville, Florida (Duval County), is a community theater that holds the title of the oldest continuously-operating community theater in Florida and one of the oldest in the United States. Its venue, also referred to as the Little Theatre, was recognized as a historic site and added to the National Register of Historic Places in 1991.

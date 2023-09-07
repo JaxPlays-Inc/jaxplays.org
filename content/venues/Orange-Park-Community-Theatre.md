@@ -1,6 +1,6 @@
 ---
 title: Orange Park Community Theatre
-layout: venues
+active: true
 featured_image: Orange_Park_Community_Theatre.jpeg
 featured_image_attr:
 featured_image_alt:
@@ -11,11 +11,11 @@ Address: |
   Orange Park, FL 32073
 Latitude: 30.146393239515557
 Longitude: -81.75301263248379
-Website: https://www.opct.info
 Socials:
   Facebook: opctheatre
   Twitter: OPCT
   Instagram: Opctheatre
+  Website: https://www.opct.info
 LinkedIn: 
 Phone: 1-904-276-2599
 Artistic Director: 

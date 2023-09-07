@@ -1,6 +1,6 @@
 ---
 title: ABET - All Beaches Experimental Theatre
-layout: venues
+active: false
 featured_image: ABET_-_All_Beaches_Experimental_Theatre.jpeg
 featured_image_attr:
 featured_image_alt:

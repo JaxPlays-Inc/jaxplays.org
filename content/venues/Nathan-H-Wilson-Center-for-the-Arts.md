@@ -1,6 +1,6 @@
 ---
 title: Nathan H. Wilson Center for the Arts
-layout: venues
+active: true
 featured_image: Nathan_H_Wilson_Center_for_the_Arts.png
 featured_image_attr: fscj.edu
 featured_image_alt:
@@ -11,7 +11,8 @@ Address: |
     Jacksonville, FL 32246
 Latitude: 30.29008090465963
 Longitude: -81.51068393074928
-Website: https://www.fscj.edu/campuses/south-campus/wilson-center
+Socials:
+    Website: https://www.fscj.edu/campuses/south-campus/wilson-center
 Phone: 1-904-646-2300
 ---
 The Nathan H. Wilson Center for the Arts is a comprehensive performing and visual arts facility located at Florida State College at Jacksonville's South Campus, serving both students and the wider community. The two-story lobby, housed in glass, leads patrons to the art gallery and main proscenium theater with 500 seats, as well as the studio theater designed for smaller audiences and the Conference Center available for business meetings, fundraisers, and social gatherings. The center's programming includes a variety of offerings such as opera, dance, multidisciplinary productions that integrate visual art, music, theatre, and the humanities.

@@ -1,7 +1,6 @@
 ---
 title: The Florida Ballet
-redirect_from: 
-layout: venues
+active: true
 featured_image: The_Florida_Ballet.jpeg
 featured_image_attr:
 featured_image_alt:
@@ -13,12 +12,11 @@ Address: |
   Jacksonville, FL 32225
 Latitude: 30.323365791249966
 Longitude: -81.53734261779111
-website: https://floridaballet.org
 Socials:
   facebook: flballet
   twitter: flballet
   instagram: flballet
-  YouTube: floridaballet3599
+  website: https://floridaballet.org
 Press: 
 - The Florida Ballet is moving to Arlington: https://www.jaxdailyrecord.com/news/2019/jul/31/the-florida-ballet-is-moving-to-arlington/
 ---
