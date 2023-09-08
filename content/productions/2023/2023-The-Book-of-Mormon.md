@@ -74,6 +74,6 @@ crew:
 - Casting: Carrie Gardner
 orchestra:
 ---
-Two fresh-faced Mormon missionaries, Elder Price and Elder Cunningham, descend upon an impoverished Ugandan village, armed with optimism and a divine playbook. They quickly discover that converting the locals is anything but a holy walk in the park. From the creators of 'South Park,' this uproarious musical preaches a gospel of laughter with a dose of biting satire. Get ready for a 'mission' you won't forget!
+Two fresh-faced Mormon missionaries, Elder Price and Elder Cunningham, descend upon an impoverished Ugandan village, armed with optimism and a divine playbook. They quickly discover that converting the locals is anything but a holy walk in the park. From the creators of *South Park*, this uproarious musical preaches a gospel of laughter with a dose of biting satire. Get ready for a 'mission' you won't forget!
 
 [NETworks Presentations](http://www.networkstours.com/) is the producer of this non-Equity production.
