@@ -12,6 +12,7 @@ Address: |
 Latitude: 30.29008090465963
 Longitude: -81.51068393074928
 Socials:
+    Facebook: WilsonCenterfortheArts
     Website: https://www.fscj.edu/campuses/south-campus/wilson-center
 Phone: 1-904-646-2300
 ---

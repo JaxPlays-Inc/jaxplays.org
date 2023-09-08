@@ -13,7 +13,7 @@ Genres:
 - Drama
 - Coming-of-age
 Theatre: FSCJ DramaWorks
-Venue: Nathan H. Wilson Center for the Arts - Studio Theatre
+Venue: Nathan H. Wilson Center for the Arts
 Website: 
 Tickets: 
 show_details: 
