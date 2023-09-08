@@ -26,6 +26,7 @@ showtimes:
 - 2023-09-24 14:00:00
 cast:
 crew:
+- Director: Erik DeCicco
 orchestra:
 ---
 When Agnes Evans discovers her deceased sister Tilly's Dungeons & Dragons notebook, she embarks on a quest to connect with her in the imaginary world that was Tilly’s refuge. 'She Kills Monsters' is a heart-pounding, sword-swinging journey into the world of make-believe, offering a hilarious yet poignant exploration of grief, acceptance, and the warrior within us all.
