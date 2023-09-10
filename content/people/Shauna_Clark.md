@@ -11,6 +11,6 @@ Socials:
   Instagram: shauna_.nicole
   LinkedIn: 
   IBDB: 
-  IMDb: 
+  IMDb: nm3089655
   Website: 
 ---
