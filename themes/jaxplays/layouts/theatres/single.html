@@ -70,7 +70,7 @@
       {{ $currentlyOnStage := slice }}
       {{ $comingSoon := slice }}
       {{ $pastProductions := slice }}
-
+      
       {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
         {{ if eq .Params.Theatre $theatreName }}
           {{ $startDate := "" }}
@@ -92,7 +92,11 @@
           {{ end }}
         {{ end }}
       {{ end }}
-
+      
+      {{ $currentlyOnStage := sort $currentlyOnStage "Params.date" "asc" }}
+      {{ $comingSoon := sort $comingSoon "Params.date" "asc" }}
+      {{ $pastProductions := sort $pastProductions "Params.date" "desc" }}
+      
       <!-- Sections for Different Types of Productions -->
 
       {{ range $key, $value := dict "Currently On Stage" $currentlyOnStage "Coming Soon!" $comingSoon "Past Productions" $pastProductions }}
