@@ -81,10 +81,10 @@
           {{ with .Params.closing_date }}
             {{ $endDate = time . | time.Format "2006-01-02" }}
           {{ end }}
-          {{ if and $startDate $endDate }}
-            {{ if and (le $startDate $currentDate) (ge $endDate $currentDate) }}
+          {{ if $startDate }}
+            {{ if and $endDate (le $startDate $currentDate) (ge $endDate $currentDate) }}
               {{ $currentlyOnStage = $currentlyOnStage | append . }}
-            {{ else if lt $endDate $currentDate }}
+            {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
               {{ $pastProductions = $pastProductions | append . }}
             {{ else if gt $startDate $currentDate }}
               {{ $comingSoon = $comingSoon | append . }}
@@ -92,6 +92,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
+    
       
       {{ $currentlyOnStage := sort $currentlyOnStage "Params.date" "asc" }}
       {{ $comingSoon := sort $comingSoon "Params.date" "asc" }}
@@ -135,8 +136,6 @@
                       {{ $isApprox := $production.Params.approx_date }}
                       {{ if eq $isApprox "year" }}
                         {{ $date.Year }}
-                      {{ else if eq $isApprox "month" }}
-                        {{ $date.Format "January 2006" | replaceRE "( \\d+)$" "" }}
                       {{ else }}
                         {{ $date.Format "January 2006" }}
                       {{ end }}
