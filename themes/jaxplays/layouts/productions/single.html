@@ -153,8 +153,23 @@
       {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
       {{ end }}
 
-      {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
-      {{ $venueurl := $venue | urlize | replaceRE "\\." "" }} <!-- URLize the venue name -->
+      {{ range $index, $venue := $venues }}
+      {{ $venueurl := $venue | urlize | replaceRE "\\." "" }}
+      {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
+      {{ $displayVenue := $venue }}
+    
+      {{ if not $venuePage }}
+        {{ range where $currentPage.Site.Pages "Section" "venues" }}
+          {{ if in .Params.venue_aliases $venue }}
+            {{ $venuePage = . }}
+            {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
+            {{ $displayVenue = $venue }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    
+      <!-- Now use $displayVenue wherever you used to use $venue for display -->
+
       <div class="flex flex-column flex-row-ns">
         <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
           <div class="w-25 w-100-ns b mb2">
