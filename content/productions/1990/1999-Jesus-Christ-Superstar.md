@@ -76,7 +76,7 @@ crew:
 - Stage Manager: Tod Booth Jr.
 - Lighting Design:
   - Megan Elsila
-  - Johnny Pettigrew
+  - Johnny Pettegrew
 - Set Design:
   - Robert Murphy
   - Justin Murphy
