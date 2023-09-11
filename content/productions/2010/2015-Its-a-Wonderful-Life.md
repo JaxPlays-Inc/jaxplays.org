@@ -39,7 +39,7 @@ cast:
 - Nick: Jacob Comeau
 - Ernie: Christian Lee
 - Bert: Derrick Allen
-- Martini: Vanessa Warner
+- Mrs. Guinness: Vanessa Warner
 - Young George: Victoria Relova
 - Petey Bailey: Gadi Phillips
 - Janie Bailey: Naomi Smith
