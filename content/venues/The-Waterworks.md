@@ -9,8 +9,8 @@ Founded:
 Address: |
     184 San Marco Ave
     St. Augustine, FL 32080
-Latitude: 30.29008090465963
-Longitude: -81.51068393074928
+Latitude: 29.91010859756192
+Longitude: -81.32096097116442
 Socials:
     Facebook: stjohnsculture
     Instagram: stjohnsculture
