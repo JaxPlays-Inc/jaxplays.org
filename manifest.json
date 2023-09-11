@@ -1,0 +1,39 @@
+{
+  "name": "JaxPlays",
+  "short_name": "JaxPlays",
+  "start_url": "https://jaxplays.org",
+  "display": "standalone",
+  "description": "Discover theatre productions in Jacksonville, Florida.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "theme_color": "#1a1a1a",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://jaxplays.org/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://jaxplays.org/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Calendar",
+      "url": "/calendar",
+      "description": "View current and upcoming theatre productions in Jacksonville."
+    },
+    {
+      "name": "Past Productions",
+      "url": "/productions",
+      "description": "Peruse the past of Jacksonville live theatre."
+    }
+  ]
+}
