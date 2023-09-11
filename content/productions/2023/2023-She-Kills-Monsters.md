@@ -25,8 +25,25 @@ showtimes:
 - 2023-09-23 19:30:00
 - 2023-09-24 14:00:00
 cast:
+- Agnes: Miranda De Armas
+- Tilly: Nahomi Munoz
+- Chuck: Cooper VonBalson
+- Miles:  Noah Hall
+- Kaliope, Kelly: Katie Bell
+- Lilith, Lily: Maisy Weber
+- Vera, Evil Gabbi, The Beholder: Arrione Magee
+- Narrator, Evil Tina, Farrah: Mariella Peralta
+- Steve: Vincent LLamado
+- Orcus, Ronnie: Dominique Gambrell
+understudies:
+- Understudy: 
+  - Anna Iglesias
+  - Ryan Sadler
 crew:
 - Director: Erik DeCicco
+- Designed: Valeriya Nedviga
+- Costume Design: Joy Smith
+- Fight Choreography: Thad Walker
 orchestra:
 ---
 When Agnes Evans discovers her deceased sister Tilly's Dungeons & Dragons notebook, she embarks on a quest to connect with her in the imaginary world that was Tilly’s refuge. 'She Kills Monsters' is a heart-pounding, sword-swinging journey into the world of make-believe, offering a hilarious yet poignant exploration of grief, acceptance, and the warrior within us all.
