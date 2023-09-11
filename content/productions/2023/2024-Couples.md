@@ -17,6 +17,12 @@ Venue: The Waterworks
 Website: 
 Tickets: 
 show_details: 
+- Music: Jerry Bock
+- Lyrics: Sheldon Harnick
+- Book: 
+  - Jerry Bock
+  - Sheldon Harnick
+  - Jerome Coopersmith
 Description: "'It all started with Adam and Eve.' A whimsical triple-threat of love stories, *The Apple Tree* offers up a musical buffet of romance, temptation, and whimsy."
 showtimes:
 - 2024-05-03 19:30:00
