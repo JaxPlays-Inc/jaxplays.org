@@ -19,7 +19,7 @@ Website:
 Tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Playwright: Jason Odell Williams
-Description: A political dramedy that tackles gun control, faith, and the power of a tweet.
+Description: Church & State is a fast-paced dramedy about faith, politics, and “The Twitter.”
 showtimes:
 - 2023-10-06 19:30:00
 - 2023-10-07 19:30:00
@@ -36,4 +36,6 @@ crew:
 - Director: Harolyn Sharpe
 orchestra:
 ---
-Senator Charles Whitmore is running for re-election and everything's going according to plan—until he experiences a crisis of faith following a school shooting. Now, as he starts questioning his views on God and guns, his entire campaign is at risk. With the clock ticking, Whitmore must choose between his newfound convictions and the easy route to political victory.
+Three days before his re-election, a US Senator has a life-altering crisis of faith which sends the entire campaign into a tailspin. He decides to finally tell the public exactly what’s on his mind, no filter. What could possibly go wrong?
+
+His wife and campaign manager try to contain the damage, but in a country where religion influences politics and politics have become a religion, how do you reach the people and stay true to yourself? A timely and fast-paced story that is simultaneously funny, heartbreaking, and uplifting.
