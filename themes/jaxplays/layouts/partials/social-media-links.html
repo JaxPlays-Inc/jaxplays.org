@@ -11,7 +11,11 @@
       {{ else if eq $lowerName "threads" }}
         {{ $url = printf "https://www.threads.net/@%s" $handle }}
       {{ else if eq $lowerName "youtube" }}
-        {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
+        {{ if eq (substr $handle 0 1) "@" }}
+          {{ $url = printf "https://www.youtube.com/%s" $handle }}
+        {{ else }}
+          {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
+        {{ end }}      
       {{ else if eq $lowerName "linkedin" }}
         {{ $url = printf "https://www.linkedin.com/in/%s" $handle }}
       {{ else if eq $lowerName "tiktok" }}

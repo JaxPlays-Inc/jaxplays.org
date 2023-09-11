@@ -4,7 +4,6 @@ active: false
 featured_image: 1904_Music_Hall.jpeg
 Founded: 2011
 disbanded: 2023
-
 Address: |
   19 Ocean Street
   Jacksonville, FL 32202
