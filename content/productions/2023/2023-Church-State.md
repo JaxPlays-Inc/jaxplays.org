@@ -1,25 +1,9 @@
 ---
 title: Church & State
-date: 2023-10-06
-closing_date: 2023-10-15
-featured_image: 2023_Church_State.webp
-featured_image_alt: 
-featured_image_caption: Poster for Church & State
-featured_image_attr: 
-featured_image_attr_link: 
-playbill:
-genres: 
-- Play
-- Drama
-- Comedy
-- Political
 Theatre: A Classic Theatre
 Venue: The Waterworks
-Website: 
-Tickets: https://www.aclassictheatre.org/act-tickets
-show_details: 
-- Playwright: Jason Odell Williams
-Description: Church & State is a fast-paced dramedy about faith, politics, and “The Twitter.”
+date: 2023-10-06
+closing_date: 2023-10-15
 showtimes:
 - 2023-10-06 19:30:00
 - 2023-10-07 19:30:00
@@ -27,6 +11,16 @@ showtimes:
 - 2023-10-13 19:30:00
 - 2023-10-14 19:30:00
 - 2023-10-15 14:00:00
+featured_image: 2023_Church_State.webp
+featured_image_alt: 
+featured_image_caption: Poster for Church & State
+featured_image_attr: 
+featured_image_attr_link: 
+playbill:
+Website: 
+Tickets: https://www.aclassictheatre.org/act-tickets
+show_details: 
+- Playwright: Jason Odell Williams
 cast:
 - Senator Charles Whitmore: Rick Cirucci
 - Sara Whitmore: Jessica Racniello
@@ -35,6 +29,12 @@ cast:
 crew:
 - Director: Harolyn Sharpe
 orchestra:
+genres: 
+- Play
+- Drama
+- Comedy
+- Political
+Description: Church & State is a fast-paced dramedy about faith, politics, and “The Twitter.”
 ---
 Three days before his re-election, a US Senator has a life-altering crisis of faith which sends the entire campaign into a tailspin. He decides to finally tell the public exactly what’s on his mind, no filter. What could possibly go wrong?
 
