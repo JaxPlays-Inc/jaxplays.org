@@ -34,8 +34,18 @@
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'
-      }
+        right: 'multiMonthYear,dayGridMonth,timeGridWeek,customListWeek,customListDay'
+      },
+      views: {
+        customListWeek: {
+          type: 'listWeek',
+          buttonText: 'week list'  // The text you want to display on the button
+        }, 
+        customListDay: {
+          type: 'listDay',
+          buttonText: 'day list'  // The text you want to display on the button
+        }
+      },
     });
 
     var resize = function() {
@@ -51,14 +61,14 @@
         calendar.setOption('headerToolbar', {
           left: 'prev,next today',
           center: 'title',
-          right: ''
+          right: 'customListWeek,customListDay'
         });
         calendar.setOption('navLinks', false);
       } else {
         calendar.setOption('headerToolbar', {
           left: 'prev,next today',
           center: 'title',
-          right: 'multiMonthYear,dayGridMonth,timeGridWeek,listWeek'
+          right: 'multiMonthYear,dayGridMonth,timeGridWeek,customListWeek,customListDay'
         });
         calendar.setOption('navLinks', true);
       }

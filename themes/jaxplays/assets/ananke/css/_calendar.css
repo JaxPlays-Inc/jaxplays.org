@@ -45,4 +45,7 @@ h2.fc-toolbar-title {
     display: flex;
     justify-content: space-between;
   }
+  .fc .fc-toolbar-chunk:last-of-type .fc-button-group {
+    margin: 0 auto 1rem;
+   }
 }
