@@ -1,4 +1,10 @@
 {{ define "main" }}
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+
 <style>
   .my-slider-progress {
     background: #ccc;
