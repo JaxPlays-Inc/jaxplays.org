@@ -315,10 +315,33 @@
       {{ end }}
       {{ end }}
       {{ end }}
-
-
-
     </div>
+
+    <!-- Synopsis -->
+
+    {{ $showSynopsis := "" }}
+    {{ range where .Site.Pages "Type" "shows" }}
+      {{ if eq .Title $.Title }}
+        {{ $showSynopsis = .Content }}
+      {{ end }}
+    {{ end }}
+
+    {{ if or .Content $showSynopsis }}
+      <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+      {{ if and .Content $showSynopsis }}
+        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+        {{ $showSynopsis }}
+        <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
+        {{ .Content }}
+      {{ else if $showSynopsis }}
+        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+        {{ $showSynopsis }}
+      {{ else }}
+        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+        {{ .Content }}
+      {{ end }}
+      </div>
+    {{ end }}
 
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     
@@ -353,30 +376,6 @@
         {{ end }}
       </div>
       {{ end }}
-    {{ end }}
-
-    {{ $showSynopsis := "" }}
-    {{ range where .Site.Pages "Type" "shows" }}
-      {{ if eq .Title $.Title }}
-        {{ $showSynopsis = .Content }}
-      {{ end }}
-    {{ end }}
-
-    {{ if or .Content $showSynopsis }}
-      <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-      {{ if and .Content $showSynopsis }}
-        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-        {{ $showSynopsis }}
-        <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
-        {{ .Content }}
-      {{ else if $showSynopsis }}
-        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-        {{ $showSynopsis }}
-      {{ else }}
-        <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-        {{ .Content }}
-      {{ end }}
-      </div>
     {{ end }}
 
     <!-- Reviews -->
