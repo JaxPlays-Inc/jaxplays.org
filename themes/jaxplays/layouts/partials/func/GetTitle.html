@@ -1,5 +1,8 @@
 {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
-{{ if eq .Type "productions" }}{{ with .Params.title }}{{ . }} | {{ end }}{{ with .Params.theatre }}{{ . }} | {{ end }}{{ .Site.Title }}
+{{ if eq .Type "productions" }}
+  {{ with .Title }}{{ . }} | {{ end }}
+  {{ with .Params.theatre }}{{ . }} | {{ end }}
+  {{ .Site.Title }}: {{ .Site.Params.Tagline }}
 {{ else }}
-    {{ with .Params.title }}{{ . }} | {{ end }}{{ .Site.Title }}
+    {{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}: {{ .Site.Params.Tagline }}
 {{ end }}
