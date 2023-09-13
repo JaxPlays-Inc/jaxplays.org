@@ -3,7 +3,7 @@ title: "A Roof-Raising Performance: Alhambra Theatre & Dining's 'Fiddler on the 
 date: 2023-08-14T09:03:13.736Z
 featured_image: /media/photos/2023-Fiddler-on-the-Roof-01.webp
 featured_image_attr: Ray Hollister
-featured_image_caption: The beautiful set of Anatevka sits quietly as it waits for the production to begin. The reviewer was overly captivated by the performance and forgot to take more photos once the show began!
+featured_image_caption: The quaint, yet beautiful set of Anatevka sits quietly as it waits for the production to begin. Sadly, the reviewer was overly captivated by the performance and forgot to take more photos once the show began!
 featured_image_alt: 
 description: "Don't miss the masterful production of *Fiddler on the Roof* at The Alhambra Theatre & Dining, featuring an ensemble of a gifted cast, groundbreaking staging, and delightful dining."
 author: Ray Hollister
@@ -26,9 +26,11 @@ cast:
 ---
 Any review of a show at The Alhambra Theatre & Dining must begin with a review of the food, because every dining experience is expertly paired to the production, and *Fiddler on the Roof* is no exception.
 
+The dining experience at the Alhambra Theatre & Dining's production of *Fiddler on the Roof* sets the stage for a delightful evening. The lentil and vegetable soup comforts you with its warmth and richness, while the salad offers a refreshing contrast, being cool, bright, and tangy. 
+
 {{< figure src="/media/photos/2023-Fiddler-on-the-Roof-02.webp" alt="A slow-braised leg of lamb atop a bed of couscous, carrots, tomato and fennel" caption="Slow-braised leg of lamb atop a bed of couscous, carrots, tomatoes and fennel" attr="Ray Hollister" >}}
 
-The dining experience at the Alhambra Theatre & Dining's production of *Fiddler on the Roof* sets the stage for a delightful evening. The lentil and vegetable soup comforts you with its warmth and richness, while the salad offers a refreshing contrast, being cool, bright, and tangy. The slow-braised leg of lamb is robust in flavor, albeit a bit firm — not tough, but not exactly tender either. (It's almost exactly how I would expect the lamb to be served if I had dinner at Tevye's.) Contrastly, the couscous has a delightfully tender texture that dances on the tounge. The rosemary-infused sauce and al dente vegetables add layers of flavor, and the meal concludes with an apple crumb pie that's gently spiced and topped to perfection. Overall, the dining experience met and exceeded the reviewer's expectations, which served as an excellent appetizer to a remarkable evening.
+The slow-braised leg of lamb is robust in flavor, albeit a bit firm — not tough, but not exactly tender either. (It's almost exactly how I would expect the lamb to be served if I had dinner at Tevye's.) Contrastly, the couscous has a delightfully tender texture that dances on the tounge. The rosemary-infused sauce and al dente vegetables add layers of flavor, and the meal concludes with an apple crumb pie that's gently spiced and topped to perfection. Overall, the dining experience met and exceeded the reviewer's expectations, which served as an excellent appetizer to a remarkable evening.
 
 {{< figure src="/media/photos/2023-Fiddler-on-the-Roof-03.webp" alt="Apple Crumb Pie" caption="Apple Crumb Pie" attr="Ray Hollister" >}}
 
