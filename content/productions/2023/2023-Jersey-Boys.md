@@ -4,7 +4,7 @@ date: 2023-04-27
 closing_date: 2023-06-04
 layout: productions
 playbill:
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 Genres:
 - Musical

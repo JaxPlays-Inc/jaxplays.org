@@ -7,7 +7,7 @@ date: 2020-01-09
 closing_date: 2020-02-08
 Genres: 
 - Play
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 show_details:
 - Writer: A. R. Gurney - wiki
 Website: https://www.alhambrajax.com/show/love-letters/

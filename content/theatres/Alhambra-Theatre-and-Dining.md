@@ -1,5 +1,5 @@
 ---
-title: The Alhambra Theatre & Dining
+title: Alhambra Theatre & Dining
 aliases: 
   - /theatres/the-alhambra-theatre-dining
 active: true

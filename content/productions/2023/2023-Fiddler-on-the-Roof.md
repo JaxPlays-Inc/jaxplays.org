@@ -7,7 +7,7 @@ featured_image: 2023_Fiddler_on_the_Roof.webp
 featured_image_caption: Graphic of Fiddler on the Roof at the Alhambra
 featured_image_attr: Alhambra Theatre & Dining
 playbill:
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1428&code=jaxplays
 showtimes:
@@ -116,4 +116,11 @@ Reviews:
 - "Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
 - "Alhambra’s ‘Fiddler’ worth the 25-year wait | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/alhambras-fiddler-worth-the-25-year-wait,60216
 - "FIDDLER hits all the right notes at the Alhambra | Folio Weekly": https://folioweekly.com/2023/08/07/fiddler-hits-all-the-right-notes-at-the-alhambra/
+- "Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
+Press: 
+- "The Alhambra presents “Fiddler On The Roof” | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2023/08/04/the-alhambra-presents-fiddler-on-the-roof/
+- "'Fiddler on the Roof' returns to the Alhambra after 20 years | The Florida Times-Union": https://www.jacksonville.com/picture-gallery/entertainment/arts/2023/08/04/fiddler-on-the-roof-returns-to-jacksonvilles-alhambra-theatre-dining/12314744002/
+- "“Fiddler on the Roof” opens this week": https://pontevedrarecorder.com/stories/fiddler-on-the-roof-opens-this-week,59422?
+- "A Fiddler on the Roof… at the Alhambra | Folio Weekly": https://folioweekly.com/2023/07/29/a-fiddler-on-the-roof-at-the-alhambra/
+- "FIDDLER ON THE ROOF Opens At Alhambra Theatre & Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/FIDDLER-ON-THE-ROOF-Opens-At-Alhambra-Theatre-Dining-20230727
 ---

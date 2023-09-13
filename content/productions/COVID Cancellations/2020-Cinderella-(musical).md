@@ -5,7 +5,7 @@ layout: productions
 title: Cinderella
 date: 2020
 category: musical
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 show_details:
 - Music: Richard Rodgers - wiki
 - Lyrics: Oscar Hammerstein II - wiki

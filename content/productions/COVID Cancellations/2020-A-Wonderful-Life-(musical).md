@@ -5,7 +5,7 @@ layout: productions
 title: A Wonderful Life
 date: 2020
 category: musical
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 show_details:
 - Music: Joe Raposo - wiki
 - Lyrics: Sheldon Harnick - wiki

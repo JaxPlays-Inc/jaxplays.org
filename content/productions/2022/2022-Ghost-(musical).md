@@ -10,7 +10,7 @@ featured_image: 2022_Ghost_(musical).jpg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 show_details:
 - Music: Dave Stewart - wiki, Glen Ballard - wiki
 - Lyrics: Dave Stewart, Glen Ballard, Bruce Joel Rubin - wiki

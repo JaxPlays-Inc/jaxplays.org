@@ -5,7 +5,7 @@ layout: productions
 title: Grease (musical)
 date: 2020
 category: musical
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/grease/
 show_details:
 - Music:

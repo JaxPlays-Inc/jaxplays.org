@@ -5,7 +5,7 @@ layout: productions
 title: The Music Man
 date: 2020
 category: musical
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/the-music-man/
 show_details:
 - Music: Meredith Willson - wiki

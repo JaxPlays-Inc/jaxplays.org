@@ -8,7 +8,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 show_details:
 - Music: Various
 - Lyrics: Various

@@ -7,7 +7,7 @@ featured_image: 2023_Beauty_and_the_Beast.jpeg
 featured_image_caption: Graphic of Beauty and the Beast at the Alhambra
 featured_image_attr: Alhambra Theatre & Dining
 playbill:
-Theatre: The Alhambra Theatre & Dining
+Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 show_details:
 - Music: Alan Menken - wiki
