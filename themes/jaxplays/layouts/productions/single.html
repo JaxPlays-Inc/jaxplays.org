@@ -344,10 +344,9 @@
     {{ end }}
 
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
-    
     {{ $site := .Site }} <!-- Capture the site context for later use -->
     {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
-    <!-- It looks through the Params.cast, Params.crew, Params.understudies, and Params.orchestra arrays -->
+      <!-- It looks through the Params.cast, Params.crew, Params.understudies, and Params.orchestra arrays -->
       {{ if $paramsArray }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
@@ -359,12 +358,28 @@
             {{ if (eq (printf "%T" $person) "[]interface {}") }} <!-- Check if person is an array -->
             {{ range $idx, $p := $person }} <!-- Iterate over the persons -->
             {{ $urlName := $p | urlize }}
-            {{ with $site.GetPage (print "/people/" $urlName) }}
+            {{ $foundPage := $site.GetPage (print "/people/" $urlName) }}
+              {{ if not $foundPage }}
+                {{ range $site.Pages }}
+                  {{ if and (eq .Type "people") (in .Params.aliases (print "/people/" $urlName)) }}
+                    {{ $foundPage = . }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ with $foundPage }}
             <a href="/people/{{ $urlName }}">{{ $p }}</a>{{ else }}{{ $p }}{{ end }}{{ if ne $idx (sub (len $person) 1) }},{{ end }} <!-- Separate by commas -->
             {{ end }}
             {{ else }}
             {{ $urlName := $person | urlize }}
-            {{ with $site.GetPage (print "/people/" $urlName) }}
+            {{ $foundPage := $site.GetPage (print "/people/" $urlName) }}
+              {{ if not $foundPage }}
+                {{ range $site.Pages }}
+                  {{ if and (eq .Type "people") (in .Params.aliases (print "/people/" $urlName)) }}
+                    {{ $foundPage = . }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ with $foundPage }}
             <a href="/people/{{ $urlName }}">{{ $person }}</a>
             {{ else }}
             {{ $person }}

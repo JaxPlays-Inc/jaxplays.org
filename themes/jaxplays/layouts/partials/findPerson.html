@@ -1,0 +1,10 @@
+{{ $urlName := .urlName | urlize }}
+{{ $foundPage := .site.GetPage (print "/people/" $urlName) }}
+{{ if not $foundPage }}
+  {{ range .site.Pages }}
+    {{ if and (eq .Type "people") (in .Params.aliases (print "/people/" $urlName)) }}
+      {{ $foundPage = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $foundPage }}
