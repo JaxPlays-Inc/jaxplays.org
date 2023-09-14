@@ -14,7 +14,8 @@ Genres:
 - Historical
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
-Website: https://www.eventbrite.com/e/679563983167
+Website: 
+Tickets: https://www.eventbrite.com/e/679563983167
 show_details: 
 - Playwright: Kenneth Jones
 Description: In 1950s Alabama, a librarian and a state senator find themselves on opposing sides of a censorship battle that shakes their world.
