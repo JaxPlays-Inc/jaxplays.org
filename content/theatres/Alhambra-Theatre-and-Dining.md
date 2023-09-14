@@ -2,6 +2,7 @@
 title: Alhambra Theatre & Dining
 aliases: 
   - /theatres/the-alhambra-theatre-dining
+  - /theatres/alhambra-theatre-dining
 active: true
 featured_image: The_Alhambra_Theatre_&_Dining.png
 featured_image_attr:
