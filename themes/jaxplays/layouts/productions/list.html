@@ -42,7 +42,7 @@
       {{ with .Params.date }}
         {{ $startDate = time . | time.Format "2006-01-02" }}
       {{ end }}
-      {{ if and $startDate (ge $startDate $currentDate) }}
+      {{ if and $startDate (gt $startDate $currentDate) }}
         {{ $comingSoonProductions = $comingSoonProductions | append . }}
       {{ end }}
     {{ end }}
