@@ -5,8 +5,8 @@ closing_date: 2023-10-22
 featured_image: 2023_The_Wizard_of_Oz.webp
 featured_image_alt: Poster for The Wizard of Oz
 featured_image_caption: Poster for The Wizard of Oz
-featured_image_attr: 
-featured_image_attr_link: 
+featured_image_attr: Bill Ivins
+featured_image_attr_link: https://www.ivinsink.com/program-covers
 playbill:
 Genres:
 - Musical

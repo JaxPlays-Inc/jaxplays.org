@@ -4,9 +4,9 @@ date: 2023-09-14
 closing_date: 2023-09-24
 featured_image: 2023-Elvis-A-Musical-Revolution.webp
 featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
-featured_image_attr_link: 
+featured_image_caption: "Poster for Elvis: A Musical Revolution"
+featured_image_attr: Bill Ivins
+featured_image_attr_link: https://www.ivinsink.com/program-covers
 playbill:
 genres: 
 - Musical
