@@ -16,7 +16,10 @@ Venue: Amelia Musical Playhouse
 Website: https://ameliamusicalplayhouse.com/news/elvis/
 Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
-Description: Journey through the iconic hits and turbulent life of the King of Rock 'n' Roll.
+- Book: 
+  - Sean Cercone
+  - David Abbinanti
+- Orchestrations, Arrangements and additional music and lyrics: David Abbinanti
 showtimes:
 - 2023-09-14 19:30:00
 - 2023-09-15 19:30:00
@@ -89,5 +92,6 @@ crew:
 - Choreographer: Kristin Bean
 - Sets: Gregg Dillingham
 orchestra:
+Description: Journey through the iconic hits and turbulent life of the King of Rock 'n' Roll.
 ---
 Strap in for a toe-tapping, hip-swiveling ride through the life of Elvis Presley. From his humble beginnings in Tupelo to his meteoric rise to fame, *Elvis: A Musical Revolution* takes audiences on an unforgettable journey through Elvis's iconic hits and pivotal moments, capturing the essence of the man who changed the landscape of American music forever.
