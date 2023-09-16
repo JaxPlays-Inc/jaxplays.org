@@ -9,9 +9,9 @@ showtimes:
 - 2023-10-20 19:30:00
 - 2023-10-21 19:30:00
 - 2023-10-22 14:00:00
-featured_image: 
+featured_image: 2023-Dracula.webp
 featured_image_alt: 
-featured_image_caption: 
+featured_image_caption: Poster for Dracula Radio Show
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
