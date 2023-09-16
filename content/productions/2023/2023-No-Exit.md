@@ -34,13 +34,13 @@ cast:
 - Estelle: Kate McManus
 - Inez: Kathryn Kuhn
 crew:
-- Director: Brian Niece*
+- Director: Brian Niece
 - Stage Manager: Kristin Livingston
 - Dramaturg: Brian Fullford
 - Set Design: Daniel Dungan
 - Lighting Design: Mike Livingston
 - Production Design: Claire Cimino
-- Sound Design: Brian Niece*
+- Sound Design: Brian Niece
 - Master Carpenter: Tyler Hammond
 photos:
 - photo: 2023_No_Exit_1.webp
