@@ -21,9 +21,10 @@ Socials:
   LinkedIn: rayhollister
   Website: https://rayhollister.com 
 ---
-Ray Hollister is a singer, actor, director, light board operator, and sound board operator. 
+Ray Hollister has been a singer, actor, director, light board operator and sound board operator. 
 
-Ray's theatre debut was in 1997 as Stewpot in South Pacific in the Douglas Anderson School of the Art summer musical.
+Ray's theatre debut was in 1997 as Stewpot in *South Pacific* in the Douglas Anderson School of the Art summer musical.
 
-Ray Hollister is most well known for his role producing and directing [WJCT Radio Theater](/theatres/wjct-radio-theater)'s production of '[It's A Wonderful Life](/productions/2015-its-a-wonderful-life)'.
+Ray Hollister is most well known in theatre for his role producing and directing [WJCT Radio Theater](/theatres/wjct-radio-theater)'s production of '[It's A Wonderful Life](/productions/2015-its-a-wonderful-life)'.
 
+Ray Hollister is the creator and executive director of [JaxPlays](https://jaxplays.org).
