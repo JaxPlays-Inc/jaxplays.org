@@ -1,28 +1,35 @@
 ---
 title: First Date
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
-date: 2024-06-07
-closing_date: 2024-06-22
+Theatre: Limelight Theatre
+Venue: Matuza Mainstage
+date: 2024-04-18
+closing_date: 2024-05-12
 showtimes:
-- 2024-06-07 19:30:00
-- 2024-06-08 19:30:00
-- 2024-06-09 14:00:00
-- 2024-06-13 19:30:00
-- 2024-06-14 19:30:00
-- 2024-06-15 19:30:00
-- 2024-06-16 14:00:00
-- 2024-06-20 19:30:00
-- 2024-06-21 19:30:00
-- 2024-06-22 19:30:00
+- 2024-04-18 19:30:00
+- 2024-04-19 19:30:00
+- 2024-04-20 19:30:00
+- 2024-04-21 14:00:00
+- 2024-04-25 19:30:00
+- 2024-04-26 19:30:00
+- 2024-04-27 19:30:00
+- 2024-04-28 14:00:00
+- 2024-04-30 19:30:00
+- 2024-05-02 19:30:00
+- 2024-05-03 19:30:00
+- 2024-05-04 19:30:00
+- 2024-05-05 14:00:00
+- 2024-05-09 19:30:00
+- 2024-05-10 19:30:00
+- 2024-05-11 19:30:00
+- 2024-05-12 14:00:00
 featured_image: 2024-First-Date.webp
 featured_image_alt: Poster for First Date
 featured_image_caption: Poster for First Date
-featured_image_attr: 
+featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=22&p=56
+Website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
+Tickets: https://ci.ovationtix.com/34666/production/1165809
 show_details: 
 - Music:
   - Alan Zachary
@@ -33,11 +40,12 @@ show_details:
 - Book: Austin Winsberg
 cast:
 crew:
+- Director: Michael Lipp
 orchestra:
 Genres:
 - Musical
 - Comedy
 - Romance
-Description: "A blind date unfolds in real-time, complete with inner monologues, meddling friends, and melodic musings on modern love."
+Description: "When blind date newbie Aaron meets serial dater Casey, a casual drink turns into a hilarious high-stakes dinner."
 ---
-In a bustling New York City restaurant, Aaron nervously awaits his blind date, Casey. When she arrives, the evening takes unexpected twists and turns as the two navigate through the quagmire of first impressions, awkward pauses, and potential deal breakers. With a little help from their friends, who mysteriously double as waitstaff and imaginary figures, they discover whether or not they’re a perfect harmony or a flat-out disaster. This musical comedy offers a hilariously candid look at the rollercoaster ride of a first date.
+Aaron is a nice guy who's new to blind dates, and Casey is a cynic who's been on far too many. Their casual drink quickly escalates into a high-stakes dinner filled with potential romance and a side of awkwardness. The two navigate through exes, insecurities, and differing interests, all while singing their way through the evening. Will this first date be a hit or a total disaster?

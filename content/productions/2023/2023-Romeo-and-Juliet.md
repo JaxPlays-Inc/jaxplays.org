@@ -27,11 +27,11 @@ showtimes:
 - 2023-11-18 19:30:00
 - 2023-11-19 14:00:00
 cast:
-- Romeo: LeLand Locke
+- Romeo: Leland Locke
 - Juliet: Skyler L'Hommedieu
 - Mercutio: Ryan Roberson
-- Benvolio: TBA
-- Friar Lawrence: TBA
+- Benvolio: Abdul Tarsha
+- Friar Lawrence: Josh Katzman
 - Nurse: Liane Barkley
 - Capulet: Chris Thompson
 - Lord Montague: Don Massenzio
