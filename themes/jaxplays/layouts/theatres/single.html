@@ -16,7 +16,7 @@
         {{ if gt $contentLength 350 }}
           {{ $description = printf "%s..." (substr .Content 0 350) | plainify | safeHTML}}
         {{ else }}
-          {{ $description = substr .Content 0 $contentLength }}
+          {{ $description = substr .Content 0 $contentLength | plainify | safeHTML }}
         {{ end }}
       {{ end }}
 
