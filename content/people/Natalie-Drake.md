@@ -6,5 +6,6 @@ featured_image_attr_link:
 featured_image_alt: 
 featured_image_caption: 
 Socials:
+  TikTok: natlovesbway
   Instagram: natalie_drake_
 ---
