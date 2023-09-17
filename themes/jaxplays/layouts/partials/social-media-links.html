@@ -1,50 +1,52 @@
 {{ with .Params.Socials }}
   <div class="social-media-links ananke-socials mt2 pl0-l pl2">
     {{ range $name, $handle := . }}
-      {{ $rel := "noopener" }}
-      {{ $url := "" }}
-      {{ $lowerName := lower $name }}
-      {{ if eq $lowerName "facebook" }}
-        {{ $url = printf "https://www.facebook.com/%s" $handle }}
-      {{ else if eq $lowerName "instagram" }}
-        {{ $url = printf "https://www.instagram.com/%s" $handle }}
-      {{ else if eq $lowerName "threads" }}
-        {{ $url = printf "https://www.threads.net/@%s" $handle }}
-      {{ else if eq $lowerName "youtube" }}
-        {{ if eq (substr $handle 0 1) "@" }}
-          {{ $url = printf "https://www.youtube.com/%s" $handle }}
+      {{ if $handle }}
+        {{ $rel := "noopener" }}
+        {{ $url := "" }}
+        {{ $lowerName := lower $name }}
+        {{ if eq $lowerName "facebook" }}
+          {{ $url = printf "https://www.facebook.com/%s" $handle }}
+        {{ else if eq $lowerName "instagram" }}
+          {{ $url = printf "https://www.instagram.com/%s" $handle }}
+        {{ else if eq $lowerName "threads" }}
+          {{ $url = printf "https://www.threads.net/@%s" $handle }}
+        {{ else if eq $lowerName "youtube" }}
+          {{ if eq (substr $handle 0 1) "@" }}
+            {{ $url = printf "https://www.youtube.com/%s" $handle }}
+          {{ else }}
+            {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
+          {{ end }}      
+        {{ else if eq $lowerName "linkedin" }}
+          {{ $url = printf "https://www.linkedin.com/in/%s" $handle }}
+        {{ else if eq $lowerName "tiktok" }}
+          {{ $url = printf "https://www.tiktok.com/@%s" $handle }}
+        {{ else if eq $lowerName "twitter" }}
+          {{ $url = printf "https://twitter.com/%s" $handle }}
+        {{ else if eq $lowerName "medium" }}
+          {{ $url = printf "https://medium.com/@%s" $handle }}
+        {{ else if eq $lowerName "imdb" }}
+          {{ $url = printf "https://www.imdb.com/name/%s" $handle }}
+        {{ else if eq $lowerName "ibdb" }}
+          {{ $url = printf "https://www.ibdb.com/broadway-cast-staff/%s" $handle }}
+        {{ else if eq $lowerName "wikipedia" }}
+          {{ $url = printf "https://en.wikipedia.org/wiki/%s" $handle }}
+        {{ else if eq $lowerName "mastodon" }}
+          {{ $url = $handle }}
         {{ else }}
-          {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
-        {{ end }}      
-      {{ else if eq $lowerName "linkedin" }}
-        {{ $url = printf "https://www.linkedin.com/in/%s" $handle }}
-      {{ else if eq $lowerName "tiktok" }}
-        {{ $url = printf "https://www.tiktok.com/@%s" $handle }}
-      {{ else if eq $lowerName "twitter" }}
-        {{ $url = printf "https://twitter.com/%s" $handle }}
-      {{ else if eq $lowerName "medium" }}
-        {{ $url = printf "https://medium.com/@%s" $handle }}
-      {{ else if eq $lowerName "imdb" }}
-        {{ $url = printf "https://www.imdb.com/name/%s" $handle }}
-      {{ else if eq $lowerName "ibdb" }}
-        {{ $url = printf "https://www.ibdb.com/broadway-cast-staff/%s" $handle }}
-      {{ else if eq $lowerName "wikipedia" }}
-        {{ $url = printf "https://en.wikipedia.org/wiki/%s" $handle }}
-      {{ else if eq $lowerName "mastodon" }}
-        {{ $url = $handle }}
-      {{ else }}
-        {{ $url = $handle }}
-      {{ end }}
-      
-      {{ $icon := partial "func/socials/GetServiceIcon" $name }}
-
-      <a href="{{ $url }}" target="_blank" rel="{{ $rel }}" class="{{ $name | lower }} ananke-social-link link-transition stackoverflow link dib z-999 pt0 mr3 mt3 mt1-ns mr1-ns" title="{{ $name }} link" aria-label="follow on {{ $name }}——Opens in a new window">
-        {{ with $icon }}
-          <span class="icon">{{ . }}</span>
-        {{ else }}
-          {{ $name }}
+          {{ $url = $handle }}
         {{ end }}
-      </a>
+        
+        {{ $icon := partial "func/socials/GetServiceIcon" $name }}
+
+        <a href="{{ $url }}" target="_blank" rel="{{ $rel }}" class="{{ $name | lower }} ananke-social-link link-transition stackoverflow link dib z-999 pt0 mr3 mt3 mt1-ns mr1-ns" title="{{ $name }} link" aria-label="follow on {{ $name }}——Opens in a new window">
+          {{ with $icon }}
+            <span class="icon">{{ . }}</span>
+          {{ else }}
+            {{ $name }}
+          {{ end }}
+        </a>
+      {{ end }}
     {{ end }}
   </div>
 {{ end }}
