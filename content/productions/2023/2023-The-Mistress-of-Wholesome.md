@@ -15,8 +15,8 @@ featured_image_caption: Graphic for The Mistress of Wholesome
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: 
+Website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
+Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=324336~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
 show_details: 
 - Playwright: Jacob Appel
 cast:
