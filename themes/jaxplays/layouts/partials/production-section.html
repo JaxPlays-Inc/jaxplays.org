@@ -12,10 +12,11 @@
           <div class="w-25 w-10-l">
             {{ $featuredImage := $production.Params.featured_image }}
             {{ if not $featuredImage }}
-              {{ with (site.GetPage "page" (printf "/shows/%s" ($production.Title | urlize))) }}
+              {{ $title := replace $production.Title "è" "e" }}
+              {{ with (site.GetPage "page" (printf "/shows/%s" ($title | urlize))) }}
                 {{ $featuredImage = .Params.featured_image }}
               {{ end }}
-            {{ end }}
+              {{ end }}
             {{ $imagePath := "/media/default/production_poster.webp" }}
             {{ if $featuredImage }}
               {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
