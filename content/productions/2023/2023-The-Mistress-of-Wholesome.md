@@ -5,10 +5,10 @@ Venue: Spotlight Center
 date: 2023-10-19
 closing_date: 2023-10-21
 showtimes:
-- 2023-10-19 12:00:00
-- 2023-10-19 19:00:00
-- 2023-10-20 19:00:00
-- 2023-10-21 19:00:00
+- 2023-10-19 11:00:00
+- 2023-10-19 17:30:00
+- 2023-10-20 17:30:00
+- 2023-10-21 17:30:00
 featured_image: 2023-The-Mistress-of-Wholesome.webp
 featured_image_alt: 
 featured_image_caption: Graphic for The Mistress of Wholesome
