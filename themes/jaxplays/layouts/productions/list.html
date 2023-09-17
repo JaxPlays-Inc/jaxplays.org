@@ -6,6 +6,8 @@
   <!-- Other Productions with Paginator -->
   {{ $paginator := .Paginate (where .Pages "Type" "productions") 24 }}
 
+    <!-- Show the "Currently On Stage" section only on the first page -->
+    {{ if not $paginator.HasPrev }}
     <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Currently On Stage</h3>
     <aside class="flex-ns flex-wrap justify-around mt5">
       {{ $currentDate := now.Format "2006-01-02" }}
@@ -27,6 +29,7 @@
         {{ end }}
       {{ end }}
     </aside>
+    {{ end }}
 
   <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Coming Soon!</h3>
   <aside class="flex-ns flex-wrap justify-around mt5">
