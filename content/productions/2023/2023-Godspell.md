@@ -1,7 +1,7 @@
 ---
 title: Godspell
 Theatre: Apex Theatre Studio
-Venue: 
+Venue: The Waterworks
 date: 2023-11-03
 closing_date: 2023-11-05
 showtimes:
