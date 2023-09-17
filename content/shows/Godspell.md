@@ -4,8 +4,6 @@ layout: shows
 featured_image: Godspell.jpeg
 featured_image_caption: Cover art for the album Godspell (1971 Off-Broadway Cast)
 featured_image_attr:
-category: musicals
-Description: "_Godspell_, a musical composed by Stephen Schwartz, reimagines the Gospel of Matthew, offering a fresh take on the teachings and parables of Jesus through a blend of rock music, folk storytelling, and comedic sketches."
 show_details: 
 - Music: Stephen Schwartz - wiki
 - Lyrics: Stephen Schwartz
@@ -14,6 +12,11 @@ show_details:
 - Theatre: La MaMa Experimental Theatre Club
 - Basis: Gospel of Saint Matthew
 - Website:
+Genres:
+  - Musical
+  - Drama
+  - Spiritual
+Description: "An age-old tale reimagined through song and spirit, Godspell breathes new life into the teachings of Jesus with a blend of rock music, folk storytelling, and comedic sketches."
 ---
 *Godspell* is a renowned musical composed by Stephen Schwartz with the book by John-Michael Tebelak. First premiered in 1971, the show features a series of parables primarily based on the Gospel of Matthew, interspersed with a variety of modern music set primarily to lyrics from traditional hymns.
 
