@@ -3,8 +3,6 @@
   <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" | default "mid-gray" }}">
     {{ .Content }}
   </section>
-  
-  <!-- Create a slice for currently on stage productions -->
   {{ $currentDate := now.Format "2006-01-02" }}
   {{ $currentProductions := slice }}
   
@@ -30,7 +28,7 @@
   <!-- Paginate the sorted slice -->
   {{ $paginator := .Paginate $sortedCurrentProductions 24 }}
   
-  <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Currently On Stage</h3>
+  <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Currently on Stage</h3>
   <aside class="flex-ns flex-wrap justify-around mt5">
     {{ range $paginator.Pages }}
       <div class="fl w-100 w-45-l pa2 mb4 bg-white">
@@ -38,8 +36,11 @@
       </div>
     {{ end }}
   </aside>
-
+  
   {{ template "_internal/pagination.html" . }}
+  
+  <!-- Leave this span. Taking it out breaks something. -->
+  <span class="ph3 dib"></span>
 
   <script>
     document.addEventListener("keydown", function (event) {
