@@ -1,4 +1,33 @@
 <nav class="pv3 ph3 ph4-ns mw9 center" role="navigation">
+  <style>
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #000;
+      color: #fff;
+      line-height: 3;
+      list-style: none;
+      padding-inline-start: 1rem;
+      padding-right: 1rem;
+      z-index: 1;
+    }
+    
+    .dropdown-toggle:after {
+      content: url(/down-caret.svg);
+      float: right;
+      height: 1.5rem;
+      width: 1.5rem;
+      margin-left: 5px;
+    }
+    
+    .dropdown-menu a, .dropdown-menu a:hover {
+      color: #fff;
+      text-decoration: none !important;
+    }
+    .dropdown-toggle:hover + .dropdown-menu, .dropdown-menu:hover  {
+      display: block;
+    }
+  </style>
   <div class="navmenu flex justify-between-l items-center">
     <div class="menu-btn flex flex-m dn-l">
       <img id="mobile-search-icon" src="{{ "images/menu_search_combo_icon.svg" | relURL }}" alt="Search Menu" class="w2 h2">
@@ -15,11 +44,24 @@
       {{ if .Site.Menus.main }}
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ma0" "pl0 ma0" }}">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-              {{ .Name }}
-            </a>
-          </li>
+            {{ if .HasChildren }}
+              <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                <a class="hover-white no-underline white-90 dropdown-toggle" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                  {{ .Name }}
+                </a>
+                <ul class="dropdown-menu">
+                  {{ range .Children }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                  {{ end }}
+                </ul>
+              </li>
+            {{ else }}
+              <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                  {{ .Name }}
+                </a>
+              </li>
+            {{ end }}
           {{ end }}
         </ul>
       {{ end }}
