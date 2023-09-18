@@ -50,7 +50,7 @@ menu:
     weight: 40
   - name: Currently on Stage
     parent: Productions
-    pageRef: /productions/current/
+    pageRef: /productions/
     weight: 41
   - name: Coming Soon
     parent: Productions
