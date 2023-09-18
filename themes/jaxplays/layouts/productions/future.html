@@ -1,0 +1,69 @@
+{{ define "main" }}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" | default "mid-gray" }}">
+    {{ .Content }}
+  </section>
+  {{ $currentDate := now.Format "2006-01-02" }}
+  {{ $pastProductions := slice }}
+  
+  {{ range where .Site.Pages "Type" "productions" }}
+    {{ $startDate := "" }}
+    {{ $endDate := "" }}
+    {{ with .Params.date }}
+      {{ $startDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    {{ with .Params.closing_date }}
+      {{ $endDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    {{ if and $startDate $endDate }}
+      {{ if (gt $startDate $currentDate) }}
+        {{ $pastProductions = $pastProductions | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  
+  {{ $sortedPastProductions := sort $pastProductions "Params.date" "asc" }}
+  
+  {{ $paginator := .Paginate $sortedPastProductions 24 }}
+  
+  <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Coming Soon!</h3>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range $paginator.Pages }}
+      <div class="fl w-100 w-45-l pa2 mb4 bg-white">
+        {{ .Render "production-list" }}
+      </div>
+    {{ end }}
+  </aside>
+  
+  {{ template "_internal/pagination.html" . }}
+
+  <script>
+    document.addEventListener("keydown", function (event) {
+
+      if (event.metaKey) {
+        let nextUrlElement = document.querySelector('a[aria-label="Next"]');
+        let prevUrlElement = document.querySelector('a[aria-label="Previous"]');
+
+        let nextUrl = nextUrlElement ? nextUrlElement.getAttribute("href") : null;
+        let prevUrl = prevUrlElement ? prevUrlElement.getAttribute("href") : null;
+
+        console.log("Event code:", event.code);  // Debugging line
+
+        switch (event.code) {
+          case "ArrowRight":
+            if (nextUrl) {
+              window.location.href = nextUrl;  // Next page
+            }
+            break;
+          case "ArrowLeft":
+            if (prevUrl) {
+              window.location.href = prevUrl;  // Previous page
+            }
+            break;
+        }
+      }
+    });       
+  </script>
+
+</article>
+{{ end }}
