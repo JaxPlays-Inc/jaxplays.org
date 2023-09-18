@@ -101,9 +101,9 @@
    <div class="nav-links dn dn-m dn-l w-100-m flex-column">
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
-        <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
+        <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown  {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
           {{ .Name }}
-          <div class="dropdown-menu">
+          <div class="dropdown-menu mt2">
             {{ range .Children }}
               <a class="db" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
