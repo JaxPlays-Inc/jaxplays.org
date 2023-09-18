@@ -1,5 +1,6 @@
 <nav class="pv3 ph3 ph4-ns mw9 center" role="navigation">
   <style>
+    /* Desktop styles */
     .dropdown-menu {
       display: none;
       position: absolute;
@@ -24,8 +25,25 @@
       color: #fff;
       text-decoration: none !important;
     }
+
     .dropdown-toggle:hover + .dropdown-menu, .dropdown-menu:hover  {
       display: block;
+    }
+  
+    /* Mobile and tablet styles */
+    @media screen and (max-width: 960px) {
+      .dropdown-menu {
+        display: none; /* initially hidden */
+        background-color: #000;
+        color: #fff;
+        list-style: none;
+        padding-inline-start: 1rem;
+        padding-right: 1rem;
+      }
+  
+      .dropdown.show .dropdown-menu {
+        display: block; /* shown when parent is clicked */
+      }
     }
   </style>
   <div class="navmenu flex justify-between-l items-center">
@@ -81,14 +99,25 @@
    <!-- Menu links for tablet and mobile -->
    <div class="nav-links dn dn-m dn-l w-100-m flex-column">
     {{ range .Site.Menus.main }}
-    <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-      {{ .Name }}
-    </a>
+      {{ if .HasChildren }}
+        <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
+          {{ .Name }}
+          <div class="dropdown-menu">
+            {{ range .Children }}
+              <a class="db" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+      {{ else }}
+        <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+          {{ .Name }}
+        </a>
+      {{ end }}
     {{ end }}
     {{ partialCached "social-follow.html" . }}
   </div>
 
-  <!-- JavaScript to handle menu toggle -->
+  <!-- JavaScript to handle menu toggle and dropdown -->
   <script>
     var navLinks = document.querySelector('.nav-links');
     document.querySelector('.menu-btn').addEventListener('click', function() {
@@ -98,6 +127,17 @@
         navLinks.style.display = 'flex';
       }
     });
+
+    function toggleDropdown(element) {
+      if (window.innerWidth < 960) {
+        var dropdownMenu = element.querySelector('.dropdown-menu');
+        if (dropdownMenu.style.display === 'block') {
+          dropdownMenu.style.display = 'none';
+        } else {
+          dropdownMenu.style.display = 'block';
+        }
+      }
+    }
   </script>
 
 </nav>
