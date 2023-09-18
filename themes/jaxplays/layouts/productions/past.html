@@ -15,8 +15,8 @@
     {{ with .Params.closing_date }}
       {{ $endDate = time . | time.Format "2006-01-02" }}
     {{ end }}
-    {{ if and $startDate $endDate }}
-      {{ if and (lt $startDate $currentDate) (lt $endDate $currentDate) }}
+    {{ if and $startDate }}
+      {{ if and (lt $startDate $currentDate) }}
         {{ $pastProductions = $pastProductions | append . }}
       {{ end }}
     {{ end }}
