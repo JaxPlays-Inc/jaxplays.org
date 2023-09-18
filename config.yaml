@@ -48,11 +48,11 @@ menu:
   - name: Productions
     pageRef: /productions
     weight: 40
-  - name: Currently on Stage
+  - name: On Stage & Coming Soon
     parent: Productions
     pageRef: /productions/
     weight: 41
-  - name: Coming Soon
+  - name: Future Productions
     parent: Productions
     pageRef: /productions/future/
     weight: 42
