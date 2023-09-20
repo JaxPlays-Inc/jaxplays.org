@@ -5,7 +5,7 @@ closing_date: 2023-10-15
 featured_image: 2023_Alabama_Story.webp
 featured_image_alt: 
 featured_image_caption: Poster for Alabama Story
-featured_image_attr: 
+featured_image_attr: Photography and graphic design by Jon Scherf
 featured_image_attr_link: 
 playbill:
 Genres:
@@ -44,5 +44,10 @@ cast:
 crew:
 - Director: Lindsay Curry
 orchestra:
+photos:
+- photo: 2023_Alabama_Story_cast_announcement.webp
+  photo_attr: Photography and graphic design by Jon Scherf
+  photo_alt: Poster of Alabama Story cast announcement
+  photo_caption: Poster of Alabama Story cast announcement
 ---
 Set against the backdrop of the American South during the civil rights era, 'Alabama Story' follows librarian Emily Wheelock Reed as she fights to keep a controversial children's book on the shelves. Her challenger? A conservative state senator, E.W. Higgins, who believes the book could stir racial unrest. The personal and political collide in this poignant drama that reveals the complexities of censorship, race, and the stories we tell.
