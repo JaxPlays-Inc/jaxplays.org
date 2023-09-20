@@ -16,7 +16,7 @@
       {{ $endDate = time . | time.Format "2006-01-02" }}
     {{ end }}
     {{ if and $startDate }}
-      {{ if and (lt $startDate $currentDate) }}
+      {{ if and (lt $startDate $currentDate) (lt $endDate $currentDate) }}
         {{ $pastProductions = $pastProductions | append . }}
       {{ end }}
     {{ end }}
