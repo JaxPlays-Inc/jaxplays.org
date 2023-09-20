@@ -38,6 +38,10 @@ menu:
   - name: About
     pageRef: /about
     weight: 20
+  - name: Submit
+    parent: About
+    pageRef: /submit
+    weight: 21
   - name: Calendar
     pageRef: /calendar
     weight: 25
