@@ -47,6 +47,8 @@ Genres:
 - Drama
 - Tragedy
 Description: "In the secluded walls of a convent, Sister Angelica harbors a secret that has severed her from both family and society. A visit from a face from the past forces her to confront her sins and seek redemption."
+Press:
+- "Bold City Opera holds its first production | Morning Show - News4Jax": https://www.news4jax.com/video/morning-show/2023/09/21/bold-city-opera-holds-its-first-production/
 ---
 Sung in Italian with English Supertitles
 

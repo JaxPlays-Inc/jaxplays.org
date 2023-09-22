@@ -13,8 +13,10 @@ Address: |
     Jacksonville, FL 32257
 Socials: 
   Facebook: boldcityopera
-  Instagram: 	
+  Instagram: boldcityopera
   Website: https://www.boldcityopera.org/
 color: "#00FFF3"
+Press:
+- "Bold City Opera holds its first production | Morning Show - News4Jax": https://www.news4jax.com/video/morning-show/2023/09/21/bold-city-opera-holds-its-first-production/
 ---
 Bold City Opera is a trailblazing nonprofit organization dedicated to reshaping the opera landscape through innovative productions and immersive experiences. With a focus on inclusivity and community-building, BCO aims to reach new audiences while showcasing emerging and regional talent. 
