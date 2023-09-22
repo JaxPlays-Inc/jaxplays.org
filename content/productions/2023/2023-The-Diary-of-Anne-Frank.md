@@ -58,6 +58,6 @@ crew:
 orchestra:
 Press:
 - "‘The Diary of Anne Frank’ to open annual ‘Classic in San Marco’ production at Theatre Jacksonville | Action News Jax": https://www.actionnewsjax.com/news/local/diary-anne-frank-open-annual-classic-san-marco-production-september/JUOI2FBL3VFXHN6GYEFCSW5ALM/
-- "The Diary of Anne Frank Opens At Theatre Jacksonville | FirstCoast.Life":https://firstcoast.life/events/the-diary-of-anne-frank-opens-at-theatre-jacksonville/
+- "The Diary of Anne Frank Opens At Theatre Jacksonville | FirstCoast.Life": https://firstcoast.life/events/the-diary-of-anne-frank-opens-at-theatre-jacksonville/
 ---
 *The Diary of Anne Frank* is a renowned play that brings to life the poignant and compelling story of Anne Frank, a Jewish girl who, along with her family, went into hiding during the Holocaust. Based on Anne's actual diary entries, the play vividly captures her experiences, thoughts, and emotions while confined in a secret annex in Amsterdam during World War II. It explores themes of resilience, hope, and the indomitable human spirit amidst the darkest of times. Through Anne's introspective narrative, the play offers a deeply personal and moving perspective on the atrocities of war and the enduring power of hope and humanity.
