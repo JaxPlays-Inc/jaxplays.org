@@ -24,6 +24,34 @@ Website:
 Tickets: https://www.theislandtheater.com/it-s-a-wonderful-life-tickets
 show_details: 
 cast:
+- Clarence: Steve Conrad
+- George Bailey: Michael Flynn
+- Mr. Gower: Todd Allen
+- Young George: William Benoit
+- Mother Bailey: Theresa Buchanan
+- Harry: Christopher Burns
+- Aunt Tilly: Jenelle Comiscy
+- Unce Billy: Aaron Burdick
+- Bert: Richard Robyn
+- Ernie: Aaron Burdick
+- Violet: Anna Rufalski
+- Mary: Jessica Vaughn
+- Mr. Potter: Scott McLean
+- Sam: Richard Robyn
+- Miss Andrews: TBA
+- Mr. Martini: TBA
+- Miss Thompson: Catherine Pakes
+- Mrs. Martini: TBA
+- Miss Carter: Abrielle Benoit
+- Pete: William Benoit
+- Tommy: James Comiskey
+- Janie: Leila Lyons
+- Zuzu: Hayleigh Allen
+- Mr. Welch: TBA
+- Ensmble:
+  - Julia Comisky
+  - Ansley Vaughn
+  - Jenna Hammondtree
 crew:
 orchestra:
 Genres:
