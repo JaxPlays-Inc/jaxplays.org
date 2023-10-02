@@ -4,7 +4,7 @@ other_names:
   - Jo El Hall
 aliases: 
   - /people/jo-el-hall
-featured_image: 
+featured_image: Jo-El-Snyder.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -15,6 +15,6 @@ Socials:
   Instagram: 
   LinkedIn: 
   IBDB: 
-  IMDb: nm7508235
+  IMDb:
   Website: 
 ---
