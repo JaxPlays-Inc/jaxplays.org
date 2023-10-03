@@ -46,7 +46,7 @@ cast:
 - Lollipop Kids:
   - Anelise Reuter
   - Hadley Lin
-  - Caitlin Fore
+  - Romero Lajoux
 - 3 Tots:
   - Ella Basile
   - Sophia Hopkins
