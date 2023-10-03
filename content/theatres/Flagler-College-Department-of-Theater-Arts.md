@@ -11,7 +11,7 @@ Address: |
     Saint Augustine, FL
 Socials: 
   Facebook: fctheatrearts
-  Twitter: fctheatrearts
+  Twitter: 
   Instagram: fctheatrearts
   Threads:
   Website: https://www.flagler.edu/academics/departments--programs/theatre-arts/
