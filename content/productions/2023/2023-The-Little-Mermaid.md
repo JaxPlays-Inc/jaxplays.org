@@ -9,7 +9,7 @@ featured_image_attr: Disney & The Island Theater
 featured_image_attr_link: 
 playbill:
 Theatre: The Island Theater
-Venue: The Island Theatre
+Venue: The Island Theater
 Website: 
 Tickets:
 show_details: 
@@ -25,48 +25,48 @@ showtimes:
 - 2023-07-22 19:30:00
 - 2023-07-23 14:00:00
 cast:
--	Ariel: 
+- Ariel: 
   - Isabella Lane Feliciano  
   - Ashley Jarvi  
--	Prince Eric: 
+- Prince Eric: 
   - Garrett Bleau  
   - Atilla Cosar  
--	Grimsby: 
+- Grimsby: 
   - Don Massenzio  
-  -	Haley Gennaro  
--	Flounder: 
+  - Haley Gennaro  
+- Flounder: 
   - Olivia Williams  
-  -	Emmalee Gurganus  
--	Scuttle: 
+  - Emmalee Gurganus  
+- Scuttle: 
   - Tiffany Chambers-Mee  
-  -	Taylor Cummings  
--	King Triton: 
+  - Taylor Cummings  
+- King Triton: 
   - Michael Flynn  
   - Chris Thompson  
--	Sebastian: 
+- Sebastian: 
   - Chandler Spivey  
   - Autumn Henry  
--	Flotsam: 
+- Flotsam: 
   - Caydence West  
   - Angelica Grant  
--	Jetsam: 
+- Jetsam: 
   - Rae Taylor  
   - Susan West  
--	Ursula: 
+- Ursula: 
   - Izzy Hague  
   - Bianca Daniels  
--	Chef Louis/Pilot: 
+- Chef Louis/Pilot: 
   - Josh Katzman  
   - Deanna Kirkeby  
--	Allana: Chloé Ann  
--	Adella: Maddie Higdon  
--	Attina: Destiny Graves  
--	Arista: Jolie Duez  
--	Andrina: Taylor Thompson  
--	Aquata: Eloise Parrish  
--	Leeward: Kayson Carmody 
--	Windward: Millie Prosser  
--	Ensemble: 
+- Allana: Chloé Ann  
+- Adella: Maddie Higdon  
+- Attina: Destiny Graves  
+- Arista: Jolie Duez  
+- Andrina: Taylor Thompson  
+- Aquata: Eloise Parrish  
+- Leeward: Kayson Carmody 
+- Windward: Millie Prosser  
+- Ensemble:  
   - Hadleigh Malone  
   - Calleigh Malone  
   - Lillian Smotherman  
@@ -87,12 +87,12 @@ cast:
   - Brittany Kernop  
   - Virgina Frazier
 crew:
--	Director: Tricia Williams
--	Stage Manager: Leah Flynn
--	Music Director: Garrett Bleau
--	Choreographer: Ellie Shipe
--	Lighting Design: Nick Williams
--	Lights: Jen Gurganus
+- Director: Tricia Williams
+- Stage Manager: Leah Flynn
+- Music Director: Garrett Bleau
+- Choreographer: Ellie Shipe
+- Lighting Design: Nick Williams
+- Lights: Jen Gurganus
 orchestra:
 Genres:
   - Musical
@@ -100,4 +100,4 @@ Genres:
   - Family
 Description: "Dive into a world of enchantment and forbidden love as Ariel, a headstrong mermaid princess, risks it all for a chance to be human."
 ---
-When Ariel, the adventurous mermaid princess, becomes enamored with the world above the ocean, she makes a daring deal with Ursula, the cunning sea witch. The stakes are high—her voice for human legs and a chance at true love with Prince Eric. But as the tide turns, Ariel learns that love, loyalty, and identity carry their own currents. With unforgettable songs and timeless characters, Disney's The Little Mermaid invites audiences of all ages to be 'part of that world,' in a spellbinding tale of love conquering all."
+When Ariel, the adventurous mermaid princess, becomes enamored with the world above the ocean, she makes a daring deal with Ursula, the cunning sea witch. The stakes are high—her voice for human legs and a chance at true love with Prince Eric. But as the tide turns, Ariel learns that love, loyalty, and identity carry their own currents. With unforgettable songs and timeless characters, Disney's The Little Mermaid invites audiences of all ages to be 'part of that world,' in a spellbinding tale of love conquering all.

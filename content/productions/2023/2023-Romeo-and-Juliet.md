@@ -14,7 +14,7 @@ Genres:
 - Romance
 - Drama
 Theatre: The Island Theater
-Venue: The Island Theatre
+Venue: The Island Theater
 Website: 
 Tickets: https://www.theislandtheater.com/romeo-and-juliet-tickets
 show_details: 
