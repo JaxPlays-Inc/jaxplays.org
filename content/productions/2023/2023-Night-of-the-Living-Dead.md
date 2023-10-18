@@ -27,26 +27,29 @@ cast:
   - Anna Rafalski
 - Johnny:
   - Caleb Beck
-  - Robin Dalton
-- Corpse on the Stairs: Calliegh Kirkeby
-- "Zombie #1": Deanna Kirkeby
-- Sheriff McClellan: Deanna Kirkeby
+  - Ronin Dalton
+- Corpse on the Stairs: Rebecca M. Doran
+- Sheriff McClellan: Matthew Aston
 - Ben: Josh Rutgers
 - Harry Cooper: 
   - Josh Katzman
-  - Rod Sanford
 - Helen Cooper: 
   - Missi Prosser
   - Jessica Vaughn
 - Tom: Christopher Burns
 - Judy: 
   - Skylar Hommedieux
-  - Angelica Grant
 - Morgan Chandler (News Anchor): Anna Achord
 - Billie Bardough: Kathryne Allen
-- Dr. Rachel Grimes: Rebecca Dorian
+- Dr. Rachel Grimes: Rebecca M. Doran
 - Deputy McClellan Jr.: Cristian Austin
-- Zombie: Bella Anna
+- Zombie: 
+  - Bella Anna
+  - Anslee Vaughn 
+  - Jenna Hammontree 
+  - Natalie Lucas 
+  - Angela Cool 
+  - Kyle Cool 
 crew:
 orchestra:
 Genres:
