@@ -38,11 +38,11 @@ cast:
 - Friar John: Deanna Kirkeby
 - Tybalt: Jordan Arnold
 - Lady Capulet: Tracey Graves
-- Lady Montague: Chera Bleackley
-- Paris: Greg Schukaccht
+- Lady Montague: Chera Bleau
+- Paris: Greg Schuknecht
 - Sampson: Taylor Thompson
 - Gregory: Destiny Graves
-- Apothecary: Alissa Prosser
+- Apothecary: Missi Prosser
 - Peter: Natalie Lucas
 - 1st Musician: Theresa Buchanan
 crew:
