@@ -16,16 +16,63 @@ showtimes:
   - 2023-10-14 19:30:00
   - 2023-10-15 14:00:00
 featured_image: 2023-Newsies.webp
-featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image_alt: Poster of Newsies
+featured_image_caption: Poster of Newsies
+featured_image_attr: Disney & The Island Theater
 featured_image_attr_link: 
 playbill:
 Website: 
 Tickets: https://www.theislandtheater.com/newsies-tickets
 show_details: 
 cast:
+- Jack Kelly:
+  - Greg Schuknecht
+  - Nick Williams
+- Davey Jacobs:
+  - Brandon Anderson
+  - Cash Belcher
+- Les Jacobs:
+  - Kayson Carmody
+  - Julian Austin
+- Crutchie:
+  - Carsten Wulbern
+  - Leland Locke
+- Katherine Plummer:
+  - Jillian McKinney
+  - Sydney Fontenot
+- Joseph Pulitzer:
+  - Shelvin Lamb
+  - Rod Sanford
+- Medda Larkin:
+  - Cindy Baker
+  - Chera Bleau
+- Wiesel: Caleb Wheeler
+- Bunsen: Caleb Wheeler
+- Seitz: Steve Conrad  
+- Hannah: Chloé Ann  
+- Snyder: Josh Katzman  
+- Race: Andrew Wulbern  
+- Albert: Alex Williams  
+- Specs: Ansley Engle  
+- Henry: Alyssa Davis  
+- Finch: Olivia Williams  
+- Romeo: Moxxie Williams  
+- Elmer: Blake Parker  
+- Buttons: Heidi Damrow  
+- Splasher: Erin Grant  
+- Tommy Boy: McKinleigh Malone  
+- Mush: Cristian Austin 
+- Jo Jo: Maya Soriano  
+- Spot Conlon: Jasmine Bruce  
+- Ike: Zoe Le  
+- Ensemble: Emmalee Gurganus
 crew:
+- Director: Tricia Williams
+- Stage Manager: Bianca Daniels
+- Assistant Stage Manager: Chloé Ann
+- Music Director:  Don Massenzio
+- Choreographer:  Stephanie Navarro
+- Lighting Design:  Noah Navarro
 orchestra:
 genres: 
 - Musical
