@@ -44,7 +44,6 @@ cast:
 - Dr. Rachel Grimes: Rebecca M. Doran
 - Deputy McClellan Jr.: Cristian Austin
 - Zombie: 
-  - Bella Anna
   - Anslee Vaughn 
   - Jenna Hammontree 
   - Natalie Lucas 
