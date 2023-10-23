@@ -1,5 +1,9 @@
 ---
 title: Josh Andrews
+aliases: 
+  - /people/joshua-andrews
+other_names: 
+ - Joshua Andrews
 layout: people
 featured_image: Josh_Andrews.webp 
 featured_image_attr: Josh Andrews
