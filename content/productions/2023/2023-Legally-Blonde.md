@@ -60,7 +60,94 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1429&code=jaxplays
 show_details: 
 cast:
+- Elle Woods: Victoria Vagasy
+- Emmett Forrest: Adam Fields
+- Paulette Buonofuonte: Katie Nettle
+- Professor Callahan: Jonathan Van Dyke
+- Warner Huntington III: Corey McKinney
+- Vivienne Kensington: Ellie Roddy
+- Margot: Erin Leigh Knowles
+- Serena: Arrione Magee
+- Pilar: Kate Jarecki
+- Brooke Wyndham/ Courtney/ Whitney: Sarrah Middough
+- Enid Hoops: Abigail Gordiany
+- Store Manager/ Student/ Judge: Chelsea Lucas
+- Student/ Court Stenographer: Kylie Giliberto
+- DA Joyce Reily/ Salesperson/ Student Kate: Brooklyn Klehamp
+- Aaron: Jonathan Crawford
+- Grandmaster Chad/ Kyle: Anthony Mincey, II
+- Carlos/ Lowell/ Kiki: Logan Farley
+- Nikos/ Sundeep Agrawal Padamadan: Sean Rodrigo Royal
+- Prorzheimer/ Prison Guard: Joshua Abbott
+- Elle's Dad/ Winthrop/ Dewey/ TV Reporter: Alex Hadden
+- Cashier/ Leilani/ Becky/ Chutney: Nayda Marie Baez
+- Elle's Mom: Kelsey Martin
+- Bruiser: Luna
+- Rufus: Buckshot
+- Ezra (Elle's Mom's Dog): Ezra 
+- Ensemble:
+  - Erin Leigh Knowles
+  - Arrione Magee
+  - Kate Jarecki
+  - Chelsea Lucas
+  - Jonathan Crawford
+  - Anthony Mincey, II
+  - Logan Farley
+  - Sean Rodrigo Royal
+  - Joshua Abbott
+  - Alex Hadden
+- Delta Nu:
+  - Abigail Gordiany
+  - Chelsea Lucas
+  - Kylie Giliberto
+  - Brooklyn Klekamp
+understudies:
+- Elle Woods: Kylie Giliberto
+- Emmett Forrest: Jonathan Crawford
+- Warner Huntington III: Jonathan Crawford
+- Professor Callahan: Alex Hadden
+- Paulette Buonofuonte: Erin Leigh Knowles
+- Pilar: Arrione Magee
+- Serena: Kate Jarecki
+- DA Joyce Riley: Nayda Marie Baez
+- Enid Hoops: Nayda Marie Baez
+- Margot: Nayda Marie Baez
+- Brooke Wyndham: Nayda Marie Baez
 crew:
+- Executive Producer: Tod Booth
+- Vice President of Production/ Director: Shain Stroff
+- Musical Director: Cathy Murphy Giddens
+- Production Manager/ Choreographer: Erick Ariel Sureda
+- Assistant Production Manager: Mel Nash
+- Company Manager: Lisa Valdini Booth
+- Lighting Designer: Matthew Imhoff
+- Lighting Tech Assistant: Chad Conley
+- Projection Design: Shain Stroff
+- Main Electrics/ Lighting Support: Johnny Pettegrew
+- Costume Designer:
+  - Camala Pitts
+  - Dorinda Quiles
+- Wardrobe Crew: 
+  - Layla Thurman
+  - Allie Kangas
+  - Delaney Merritt
+  - Theresa Harrell
+- Wig Design: 
+  - Layla Thurman
+  - Patty Pitts
+- Set Design Team:
+  - David Dionne
+  - Ian Black
+- Dance Captain: Jonathan Crawford
+- Shop Foreman: Robert W. Rupp
+- Sound Designer: Eric Sullivan
+- Sound Technician: Brianna Donawa
+- Property Master: Patti Eyler
+- Production Crew:
+  - Sarah Brace
+  - Kolby James
+  - Natalie Drake
+- Dog Trainer: Kelsey Martin
 orchestra:
 Genres:
   - Musical
