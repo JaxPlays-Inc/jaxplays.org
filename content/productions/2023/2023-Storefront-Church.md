@@ -28,6 +28,12 @@ Tickets: https://ci.ovationtix.com/34666/production/1165802
 show_details: 
   - Playwright: John Patrick Shanley - wiki
 cast:
+- Jessie: Joy Manning
+- Ethan: David Buchman
+- Donaldo: Nicholas Molinaro
+- Tom: Bob Snead
+- Reed: Ben Shafer
+- Chester: Troy Rossi
 crew:
 - Director: Andrea Cook
 orchestra:
