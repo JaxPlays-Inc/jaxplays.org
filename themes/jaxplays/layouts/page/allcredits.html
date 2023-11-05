@@ -7,59 +7,80 @@
     <section class="nested-copy-line-height lh-copy f4">
       <h2>Cast and Crew</h2>
       {{ $.Scratch.Set "allMap" (dict) }}
+
+      {{/* Initialize a map to store canonical names */}}
+      {{ $nameMap := dict }}
+      {{ range where site.Pages "Type" "people" }}
+        {{ $canonicalName := .Title }}
+        {{ range .Params.other_names }}
+          {{ $nameMap = merge $nameMap (dict . $canonicalName) }}
+        {{ end }}
+      {{ end }}
+
       {{ range where site.Pages "Type" "productions" }}
         {{/* Process cast */}}
         {{ range .Params.cast }}
           {{ range $role, $names := . }}
             {{ if eq (printf "%T" $names) "string" }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
             {{ else }}
               {{ range $names }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
               {{ end }}
             {{ end }}
           {{ end }}
         {{ end }}
+
         {{/* Process crew */}}
         {{ range .Params.crew }}
           {{ range $role, $names := . }}
             {{ if eq (printf "%T" $names) "string" }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
             {{ else }}
               {{ range $names }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
               {{ end }}
             {{ end }}
           {{ end }}
         {{ end }}
+
         {{/* Process understudies */}}
         {{ range .Params.understudies }}
           {{ range $role, $names := . }}
             {{ if eq (printf "%T" $names) "string" }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
             {{ else }}
               {{ range $names }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
               {{ end }}
             {{ end }}
           {{ end }}
         {{ end }}
+
         {{/* Process orchestra */}}
         {{ range .Params.orchestra }}
           {{ range $role, $names := . }}
             {{ if eq (printf "%T" $names) "string" }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $names | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $names (add $currentCount 1) }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
             {{ else }}
               {{ range $names }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") . | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" . (add $currentCount 1) }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
               {{ end }}
             {{ end }}
           {{ end }}
