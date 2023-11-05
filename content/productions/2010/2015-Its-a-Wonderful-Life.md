@@ -59,7 +59,7 @@ cast:
 crew:
 - Director: Ray Hollister
 - Editor: Ray Hollister
-- Casting Director: Michele Simkulet
+- Casting Director: Michelle Simkulet
 - Production Assistance:
   - Mary McIntyre
   - Gregory Todaro
