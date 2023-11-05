@@ -241,7 +241,11 @@
           </div>
         </div>
         {{ end }}
-
+        
+        {{/*  if no headshot or no bio  */}}
+        {{ if and (not $featuredImage) (not .Content) }}
+        {{ partial "cta_submit_profile.html" }}
+        {{ end }}
     </article>
   </div>
 {{ end }}

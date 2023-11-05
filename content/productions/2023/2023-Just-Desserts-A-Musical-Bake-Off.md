@@ -42,7 +42,7 @@ crew:
 - Stage Manager/Sound Board Operator: Ryan Feeney
 - Lighting Board Operator: Aspen Krill
 orchestra:
-- Keyboard: Erin Barnes
+- Pianist: Erin Barnes
 Tickets: https://ci.ovationtix.com/34919
 Genres:
 - Musical
