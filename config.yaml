@@ -38,10 +38,6 @@ menu:
   - name: About
     pageRef: /about
     weight: 20
-  - name: Submit
-    parent: About
-    pageRef: /submit
-    weight: 21
   - name: Calendar
     pageRef: /calendar
     weight: 25
@@ -69,7 +65,21 @@ menu:
   - name: Venues
     pageRef: /venues
     weight: 60
-
+  - name: Submit
+    pageRef: /submit
+    weight: 70
+  - name: Submit your Profile
+    parent: Submit
+    pageRef: /submit/profile
+    weight: 71
+  - name: Submit your Production
+    parent: Submit
+    pageRef: /submit/production
+    weight: 72
+  - name: Submit your Theatre
+    parent: Submit
+    pageRef: /submit/theatre
+    weight: 73
 taxonomies:
   category: categories
   tag: tags
