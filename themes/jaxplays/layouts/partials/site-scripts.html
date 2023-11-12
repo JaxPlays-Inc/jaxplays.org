@@ -13,7 +13,7 @@
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/04eb8788678f5bd18b03e5d80/2eedab88261cbcae6f44a6957.js");</script>
 <script>
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/jaxplays.org/sw.js', { scope: '/jaxplays.org/' })
+    navigator.serviceWorker.register('/sw.js', { scope: '/' })
     .then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
@@ -23,3 +23,4 @@
     });
   }
 </script>
+
