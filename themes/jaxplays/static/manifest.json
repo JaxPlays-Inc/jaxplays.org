@@ -20,7 +20,7 @@
   "description": "Your all access pass to everything about live theatre in Jacksonville, Florida!\n\nStep into the spotlight of Jacksonville’s theatre world with JaxPlays—your all-access pass to awe-inspiring live performances in Jacksonville, Florida. More than just a platform, JaxPlays is a celebration of Jacksonville’s performing arts scene, encapsulating the passion, creativity, and talent that goes into every performance.\n\nDiscover what’s on stage now with our Live Theatre Calendar, featuring all of the upcoming shows at every professional, community and college theatre in Northeast Florida and Southeast Georgia.\n\nJaxPlays is more than a directory—it’s a love letter to Jacksonville’s performing arts, encapsulating the raw emotion, innovation, and artistry that grace our stages. Whether you’re a lifelong theatre lover or a first-timer with a budding interest, JaxPlays is your essential compass to all the theatrical gems Northeast Florida and Southeast Georgia have to offer.",
   "start_url": "https://jaxplays.org",
   "dir": "ltr",
-  "scope": "https://jaxplays.org",
+  "scope": "/jaxplays.org/",
   "lang": "en",
   "orientation": "any",
   "display_override": [
