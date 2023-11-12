@@ -466,6 +466,17 @@
     "minimal-ui",
     "browser"
   ],
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
+  "handle_links": "preferred",
+  "scope_extensions": [
+    {"origin": "*.jaxplays.org"},
+    {"origin": "*.jaxplays.com"}
+  ],
   "shortcuts": [
     {
       "name": "Calendar",
@@ -473,6 +484,25 @@
       "description": "Live Theatre Calendar"
     }
   ],
+  "protocol_handlers": [
+    {
+      "protocol": "productions",
+      "url": "https://jaxplays.org/productions/%s"
+    },
+    {
+      "protocol": "theatres",
+      "url": "https://jaxplays.org/theatres/%s"
+    },
+    {
+      "protocol": "people",
+      "url": "https://jaxplays.org/people/%s"
+    },
+    {
+      "protocol": "venues",
+      "url": "https://jaxplays.org/venues/%s"
+    }
+  ],
+  "prefer_related_applications": false,
   "categories": [
     "education",
     "entertainment",
