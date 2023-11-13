@@ -586,6 +586,7 @@
   "orientation": "any",
   "display": "minimal-ui",
   "display_override": [
+    "minimal-ui",
     "window-controls-overlay",
     "standalone",
     "browser"
