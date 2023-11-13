@@ -585,7 +585,11 @@
   "lang": "en",
   "orientation": "any",
   "display": "minimal-ui",
-  "display_override": "minimal-ui",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],  
   "launch_handler": {
     "client_mode": [
       "navigate-existing",
