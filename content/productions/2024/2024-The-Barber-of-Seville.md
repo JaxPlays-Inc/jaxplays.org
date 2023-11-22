@@ -19,7 +19,7 @@ Tickets: https://www.fscjartistseries.org/tickets/the-barber-of-seville
 show_details: 
 Description: Love, disguise, and lots of shaving cream unfold in this classic opera farce.
 showtimes:
-- 2023-02-04 15:00:00
+- 2024-02-04 15:00:00
 cast:
 - Figaro: Carlos Alberto López
 - Almaviva: Fabián Robles
