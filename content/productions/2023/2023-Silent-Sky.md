@@ -15,8 +15,8 @@ genres:
 - Biographical
 Theatre: A Classic Theatre
 Venue: The Waterworks
-Website: 
-Tickets: 
+Website: https://www.aclassictheatre.org/2023-2024-season
+Tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Playwright: Lauren Gunderson
 Description: A cosmic journey that illuminates the life and legacy of trailblazing astronomer Henrietta Leavitt.
@@ -28,6 +28,11 @@ showtimes:
 - 2023-12-09 19:30:00
 - 2023-12-10 14:00:00
 cast:
+- Henrietta Leavitt: Elizabeth Myers
+- Margaret Leavitt: Anna Vera
+- Peter Shaw: Ashley Carter
+- Annie Cannon: Harolyn Sharpe
+- Williamina Fleming: Cathy O'Brien
 crew:
 - Director: Michael Lipp
 orchestra:
