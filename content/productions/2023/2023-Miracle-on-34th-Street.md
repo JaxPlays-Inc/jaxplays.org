@@ -63,6 +63,83 @@ Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1430&code=j
 show_details: 
 - Book, Music, and Lyrics: Meredith Willson - wiki
 cast:
+- Doris Walker: Sarah Middough
+- Susan Walker: Kat DeCicco
+- Fred Gailey: Matt Johnson
+- Kris Kringle: Pete Clapsis
+- Marvin Shellhammer: Kole Mitchell McKinley
+- R.H. Macy/Drunk Santa: Alec Hadden
+- Judge Martin Group/Mr. Gimbel: Dan Embree
+- Miss Beeler/Henrika's Mother: Dana Embree
+- Mrs. Finfer: Natalie Drake
+- Miss Sims: Christina Jordan
+- Clara: Abigail Gordiany
+- Mrs. Crookshank: Victoria Mapayi
+- D.A. Thomas Mara/ Climber/ Governor: Adam Fields
+- Mayor/ Whitney: Mel Nash
+- Mr. Sawyer/ Tammany O'Halloran: Thaddeus Walker
+- Alvin/ Clerk/ Mailman: Joshua Abbott
+- Baliff/ Murphy/ Young Clerk: Zachary Pickett
+- Henrika: Delia Doyle
+- Harriet Finfer: Everly Doyle
+- Tommy Mara Jr.: Keegan Patrick Carroll
+- Female ensemble: 
+  - Natalie Drake
+  - Christina Jordan
+  - Abigail Gordiany
+  - Victoria Mapayi
+Male Ensemble:
+  - Adam Fields
+  - Mel Nash
+  - Thaddeus Walker
+  - Joshua Abbott
+  - Zachary Pickett
+Youth Ensemble:
+  - Delia Doyle
+  - Everly Doyle
+  - Emma Decker
+  - Keegan Patrick Carroll
 crew:
+- Director: Shain Stroff
+- Choreographer: Erick Ariel Sureda
+- Music Director: Cathy Murphy Giddens
+- Lighting Designer: Johnny Pettegrew
+- Costume Design: 
+  - Camala Pitts
+  - Dorinda Quiles
+- Production Manager:
+  - Erick Ariel Sureda
+- Assistant Production Manager:
+  - Mel Nash
+- Company Manager: Lisa Valdini Booth
+- Lighting Assistant: Chad Conley
+- Set Design: 
+  - David Dionne
+  - Shain Stroff
+  - Ian Black
+- Sound Technician: Brianna Donowa
+- Production Crew:
+  - Sarah Brace
+  - Kolby James
+  - Natalie Drake
+- Wig Design: 
+  - Camala Pitts
+  - Dorina Quiles
+  - Patty Pitts
+- Sound Designer: Eric Sullivan
+- Wardrobe Supervisor: Layla Thurman
+- Head Seamstress: Allie Kangas
+- Dance Captain: Joshua Abbott
+- Shop Foreman: Robert W. Rupp
+- Property Master: Patti Eyler
+understudies:
+- Susan Walker: Delia Doyle
+- Fred Gailey: Mel Nash
+- Doris Walker: Natalie Drake
+- Tommy (Tammy) Mara Jr.: Emma Decker
+- Tommy (Tammy) Mara Jr.: Everly Doyle
+- Whitney/ Climber/ Alvin: Zachary Pickett
+- Supporting Lead Male Understudy: Shain Stroff
+- Supporting Lead Female Understudy: Victoria Mapayi
 orchestra:
 ---
