@@ -1,0 +1,3 @@
+---
+title: Dave Wright
+---

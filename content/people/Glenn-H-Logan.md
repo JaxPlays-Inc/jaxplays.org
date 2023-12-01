@@ -1,0 +1,3 @@
+---
+title: Glenn H. Logan
+---

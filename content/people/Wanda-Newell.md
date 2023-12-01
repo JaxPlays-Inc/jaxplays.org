@@ -1,0 +1,3 @@
+---
+title: Wanda Newell
+---

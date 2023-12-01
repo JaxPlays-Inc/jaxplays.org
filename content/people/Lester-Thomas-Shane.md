@@ -1,0 +1,3 @@
+---
+title: Lester Thomas Shane
+---

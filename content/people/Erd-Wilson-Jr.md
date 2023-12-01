@@ -1,0 +1,3 @@
+---
+title: Erd Wilson, Jr.
+---
