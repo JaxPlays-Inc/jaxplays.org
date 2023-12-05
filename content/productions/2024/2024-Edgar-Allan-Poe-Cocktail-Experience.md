@@ -1,0 +1,36 @@
+---
+title:  Edgar Allan Poe Cocktail Experience
+Theatre: Edgar Allan Poe Speakeasy
+Venue: Riverside House
+date: 2024-01-04
+closing_date: 2024-01-06
+showtimes:
+  - 2024-01-04 18:00:00
+  - 2024-01-04 20:00:00
+  - 2024-01-04 22:00:00
+  - 2024-01-05 18:00:00
+  - 2024-01-05 20:00:00
+  - 2024-01-05 22:00:00
+  - 2024-01-06 16:00:00
+  - 2024-01-06 18:00:00
+  - 2024-01-06 20:00:00
+  - 2024-01-06 22:00:00
+featured_image: 2024-Edgar-Allan-Poe.webp
+featured_image_alt: Poster for Edgar Allan Poe Cocktail Experience
+featured_image_caption: Poster for Edgar Allan Poe Cocktail Experience
+featured_image_attr: 
+featured_image_attr_link: 
+playbill:
+Website: https://www.edgarallanpoebar.com/
+Tickets: https://feverup.com/m/145080?utm_source=jaxplays&utm_medium=web&utm_campaign=145080_jax&utm_content=tickets
+show_details: 
+cast:
+crew:
+orchestra:
+Genres:
+  - Theatrical Experience
+  - Cocktail Event
+  - Literary
+Description: "Dive into the macabre and mystical world of Edgar Allan Poe in this captivating cocktail experience, where his timeless stories come alive in an intimate speakeasy setting."
+---
+The Edgar Allan Poe Speakeasy in Jacksonville is more than just a night out—it's a journey into the heart of gothic storytelling. Immerse yourself in the eerie ambiance as Poe Historians bring to life four of Poe's most gripping tales. Each story is thoughtfully paired with a unique cocktail, expertly crafted to complement the narrative's mood and themes. As you traverse this literary landscape, savor the flavors and the fear in equal measure, creating a multisensory experience that will haunt you long after the last sip.

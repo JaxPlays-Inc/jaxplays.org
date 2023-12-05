@@ -7,15 +7,15 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+playbill: 2023-The-Winter-Wonderettes.pdf
 Genres:
   - Musical
   - Comedy
   - Holiday
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
-Website: 
-Tickets: https://ci.ovationtix.com/34877/production/1149816
+Website: https://playersbythesea.org/winter-wonderettes
+Tickets: https://ci.ovationtix.com/34877/production/1149817
 show_details: 
 Description: Dive into a winter wonderland with the Winter Wonderettes, as they navigate office parties and romantic mix-ups in classic '60s style.
 showtimes:
@@ -28,7 +28,22 @@ showtimes:
 - 2023-12-16 20:00:00
 - 2023-12-17 14:00:00
 cast:
+  - Betty Jean: Alexia McKendrick
+  - Cindy Lou: Caroline Mendez
+  - Suzy: Courteney Phillips
+  - Missy: Jamie Weisenberg
 crew:
+  - Director: Maureen Straub Craig
+  - Choreographer: Maureen Straub Craig
+  - Music Director: Tina Wilson
+  - Stage Manager: Lisa Fleming
+  - Swing: Lisa Fleming
+  - Lighting Designer: Ben Sparenberg
+  - Costume Designer: Tonya Thomas
+  - Set Dressing: Tonya Thomas
+  - Sound Engineer: Golden Group Solutions
+  - Stagehand: Justin Phillips
+
 orchestra:
 ---
 The Winter Wonderettes take center stage at Harper's Hardware Holiday Party. When Santa goes missing and party morale is at an all-time low, it's up to these sassy songbirds to turn the evening around with yuletide spirit, harmonious carols, and a dash of mistletoe mischief.
