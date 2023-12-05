@@ -2,10 +2,10 @@
 title: The Winter Wonderettes
 date: 2023-12-01
 closing_date: 2023-12-17
-featured_image: 
-featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image: 2023-The-Winter-Wonderettes.webp
+featured_image_alt: Poster for The Winter Wonderettes
+featured_image_caption: Poster for 'The Winter Wonderettes'
+featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 playbill: 2023-The-Winter-Wonderettes.pdf
 Genres:
