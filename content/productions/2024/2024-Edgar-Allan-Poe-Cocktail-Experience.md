@@ -28,7 +28,8 @@ cast:
 crew:
 orchestra:
 Genres:
-  - Theatrical Experience
+  - Play
+  - Staged Reading
   - Cocktail Event
   - Literary
 Description: "Dive into the macabre and mystical world of Edgar Allan Poe in this captivating cocktail experience, where his timeless stories come alive in an intimate speakeasy setting."
