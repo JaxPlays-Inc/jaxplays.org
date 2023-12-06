@@ -23,11 +23,11 @@
   function closeDiv() {
     // Hide the div and store the current date and time in localStorage
     document.getElementById("givebutter_campaign").style.display = "none";
-    // localStorage.setItem("closedAt", new Date().getTime());
+    localStorage.setItem("closedAt", new Date().getTime());
   }
 
   window.onload = function() {
-    localStorage.removeItem("closedAt");
+    // localStorage.removeItem("closedAt");
     const closedAt = localStorage.getItem("closedAt");
 
     if (closedAt) {
