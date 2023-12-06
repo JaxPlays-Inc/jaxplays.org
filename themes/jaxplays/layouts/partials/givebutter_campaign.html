@@ -1,14 +1,48 @@
-<div class="ma4 pa3 flex flex-row-l flex-column mw8 items-start-l items-center center bg-jaxplays-yellow justify-center">
+<div id="givebutter_campaign" class="ma4 pa3 flex flex-row-l flex-column mw8 items-start-l items-center center bg-jaxplays-yellow justify-center relative">
+  <button onclick="closeDiv()" class="absolute bg-black white bn br3 pa2 b f4" style="cursor:pointer; top:10px; right:10px;">X</button>
   <div class="f4-ns f5 lh-copy ma2 mt0 w-50-l w-100 mw6">
     <h2>Support JaxPlays</h2>
     <p>As the year draws to a close, join us in celebrating the arts! Your end-of-year donation to JaxPlays plays a crucial role in our ongoing mission to preserve, promote, and energize live theatre in Jacksonville and its surrounding areas.</p>
     <p>Take center stage in supporting Jacksonville's theatre community with a recurring or one-time donation to JaxPlays! Your contributions, especially during this season of giving, are essential for maintaining our theatrical heritage and promoting contemporary theatre arts. </p>
     <p>Thank you for your support!</p>
   </div>
-  <givebutter-widget id="j23vxL" class="ma3 w-50-l center"></givebutter-widget>
+  <givebutter-widget id="j23vxL" class="ma3 w-50-l w-100 center"></givebutter-widget>
 </div>
 <style>
   .bg-jaxplays-yellow {
     background-color: var(--jaxplays-gold);
   }
+
+  /* Initially hide the div */
+  #givebutter_campaign {
+    display: none;
+  }
 </style>
+
+<script>
+  function closeDiv() {
+    // Hide the div and store the current date and time in localStorage
+    document.getElementById("givebutter_campaign").style.display = "none";
+    // localStorage.setItem("closedAt", new Date().getTime());
+  }
+
+  window.onload = function() {
+    localStorage.removeItem("closedAt");
+    const closedAt = localStorage.getItem("closedAt");
+
+    if (closedAt) {
+      const now = new Date();
+      const closedDate = new Date(parseInt(closedAt));
+      const oneDay = 24 * 60 * 60 * 1000; // milliseconds in one day
+
+      if (now.getTime() - closedDate.getTime() >= oneDay) {
+        // If more than a day has passed, display the div
+        document.getElementById("givebutter_campaign").style.display = "";
+      }
+    } else {
+      // If the div has never been closed (localStorage is not set), display the div
+      document.getElementById("givebutter_campaign").style.display = "flex";
+    }
+  }
+</script>
+
