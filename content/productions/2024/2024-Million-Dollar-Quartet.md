@@ -57,12 +57,18 @@ playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1454&code=WWW&qty_target=0
 show_details: 
+  - Music: Various Artists
+  - Lyrics: Various Artists
+  - Book: 
+    - Colin Escott
+    - Floyd Mutrux
 cast:
 crew:
 orchestra:
 Genres:
   - Musical
   - Historical
+  - Jukebox Musical
   - Rock 'n' Roll
 Description: "Step into Sun Records studio for a legendary jam session with Elvis Presley, Johnny Cash, Jerry Lee Lewis, and Carl Perkins. It's a rock 'n' roll rendezvous that echoes through the ages."
 ---
