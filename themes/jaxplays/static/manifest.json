@@ -584,7 +584,7 @@
   "scope": "https://jaxplays.org",
   "lang": "en",
   "orientation": "any",
-  "display": "standalone",
+  "display": "minimal-ui",
   "display_override": [
     "window-controls-overlay",
     "minimal-ui",
