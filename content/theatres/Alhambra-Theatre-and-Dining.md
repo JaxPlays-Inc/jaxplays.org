@@ -4,7 +4,7 @@ aliases:
   - /theatres/the-alhambra-theatre-dining
   - /theatres/alhambra-theatre-dining
 active: true
-featured_image: The_Alhambra_Theatre_&_Dining.png
+featured_image: The_Alhambra_Theatre_&_Dining.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
