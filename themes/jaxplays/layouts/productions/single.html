@@ -240,7 +240,12 @@
             <div class="flex mb2 space-between">
               <div class="w-75 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div>
               <!-- Date column -->
-              <div class="w-25 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "3:04 p.m." }}</div>
+              <div class="w-25 w-50-l bb bw.5 b--light-silver">
+                {{ $formattedTime := $showtime.Format "3:04 PM" }}
+                {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
+                {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
+                {{ $formattedTime }}
+            </div>
               <!-- Time column -->
             </div>
             {{ end }}
