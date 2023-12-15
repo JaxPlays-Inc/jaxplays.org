@@ -1,10 +1,13 @@
 <div style="clear: both"></div>
 <footer class="{{ .Site.Params.background_color_class | default " bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-    <a class="f4 fw4 hover-white no-underline white-70 dn dib pv2 ph3" href="{{ .Site.Home.Permalink }}">
+    <div><a class="f4 fw4 hover-white no-underline white-70 dn dib pv2 ph3" href="{{ .Site.Home.Permalink }}">
       &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
     </a>
-
+    <a class="f4 fw4 hover-white no-underline white-70 dn dib pv2 ph3" data-canny-link href="https://jaxplays.canny.io" />
+      Give feedback
+    </a>
+    </div>
     <div class="flex flex-row">{{ partial "social-follow.html" . }} <button id="dark-mode-toggle">
         <span id="dark-mode-icon"></span>
       </button></div>
