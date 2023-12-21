@@ -12,8 +12,8 @@ Address: |
     3604 Cardinal Point Drive 
     Jacksonville, FL 32257
 Socials: 
-  Facebook: ActIIPlayers
-  Instagram: 	
+  Facebook: ActIIPlayersJax
+  Instagram: actiiplayers
   Website: https://actiiplayers.org/
 color: "#058be5"
 ---
