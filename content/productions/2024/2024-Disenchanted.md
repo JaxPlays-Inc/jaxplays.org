@@ -14,19 +14,28 @@ showtimes:
 - 2024-01-26 19:30:00
 - 2024-01-27 19:30:00
 - 2024-01-28 19:30:00
-featured_image: 
-featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image: 2024-Disenchanted.webp
+featured_image_alt: Cast Poster for Disenchanted!
+featured_image_caption: Cast Poster for Disenchanted!
+featured_image_attr: Graphic design by Jon Scherf
 featured_image_attr_link: 
 playbill:
-Website: 
+Website: https://www.abetjax.com/copy-of-2022-23-season
 Tickets: https://www.eventbrite.com/e/disenchanted-a-new-musical-comedy-tickets-679807250787
 show_details: 
 - Music: Dennis T. Giacino
 - Lyrics: Dennis T. Giacino
 - Book: Dennis T. Giacino
 cast:
+  - Snow White: Ilana Marshall
+  - Cinderella: Julia Blasi
+  - Sleeping Beauty: Charity Walton
+  - Belle: Delaney Hagist
+  - Little Mermaid: Jennifer Paulk
+  - Princess Liana: Assata Davis
+  - Pocahontas/Princess Badroubadour: Sophia Rose Loveday
+  - Mulan: Veronica Fuata
+  - Rapunzel: Samantha Wickland
 crew:
 orchestra:
 Genres:
