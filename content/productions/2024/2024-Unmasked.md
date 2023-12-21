@@ -17,7 +17,7 @@ featured_image_attr: McKenna Rowell
 featured_image_attr_link: https://www.instagram.com/unmaskedtheplay
 playbill:
 Website: https://actiiplayers.org/unmasked
-Tickets: https://www.eventbrite.com/cc/unmasked-2698359
+Tickets: https://www.eventbrite.com/cc/unmasked-encore-performances-2835999
 show_details: 
 - Playwright: McKenna Rowell
 cast:
