@@ -55,5 +55,10 @@ Genres:
   - Comedy
   - Parody
 Description: "Join King Arthur and his comically incompetent Knights of the Round Table in a quest for the Holy Grail that's as absurd as it is uproarious. 'Spamalot' brings the iconic humor of Monty Python to the stage with a side-splitting twist."
+photos:
+- photo: 2024-Spamalot-Cast-Announcement.webp
+  photo_attr: The Island Theater
+  photo_alt: 'Cast list for Spamalot'
+  photo_caption: 'Cast list for Spamalot'
 ---
 Inspired by the classic film 'Monty Python and the Holy Grail,' 'Spamalot' is a musical romp through a medieval world filled with bizarre adventures and nonsensical shenanigans. From the Lady of the Lake's musical numbers to encounters with killer rabbits and taunting Frenchmen, King Arthur's quest is anything but ordinary. Packed with irreverent humor, outlandish antics, and catchy tunes, 'Spamalot' skewers the Arthurian legend and delivers a spectacle that's equal parts parody and pure entertainment.
