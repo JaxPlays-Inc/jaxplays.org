@@ -22,9 +22,13 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: https://www.edgarallanpoebar.com/
-Tickets: https://feverup.com/m/145080?utm_source=jaxplays&utm_medium=web&utm_campaign=145080_jax&utm_content=tickets
+Tickets: https://www.edgarallanpoebar.com/tickets
 show_details: 
 cast:
+- Master of Ceremonies: Bryan Allred
+- Performers: 
+  - Kirsten Lindemulder
+  - Davien Harlis
 crew:
 orchestra:
 Genres:

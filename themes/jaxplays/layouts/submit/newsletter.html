@@ -1,0 +1,36 @@
+{{/* {{ define "header" }}{{ partial "page-header.html" . }}{{ end }} */}}
+{{ define "main" }}
+<div class="flex-l mt2 mw8 center">
+  <article class="center cf pv5 ph3 ph4-ns mw8 w-100">
+    <div class="nested-copy-line-height lh-copy f5 f4-ns">
+      {{ .Content }}
+      <div id="fb-render"></div> <!-- Container for form render -->
+      <textarea id="fb-template" style="display:none;">
+        [
+            {
+              "type": "text",
+              "label": "Email",
+              "description": "Your email address",
+              "placeholder": "johndoe@example.com",
+              "className": "form-control",
+              "name": "cc2c00cc-330b-41ac-a06e-feb2fa1c2789",
+              "required": true
+            }
+          ]
+        
+      </textarea>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+      <script src="https://formbuilder.online/assets/js/form-render.min.js"></script>
+      <script>
+        jQuery(function($) {
+          var formData = JSON.parse($('#fb-template').val());
+          $('#fb-render').formRender({
+            formData: formData
+          });
+        });
+      </script>
+    </div>
+  </article>
+</div>
+{{ end }}
