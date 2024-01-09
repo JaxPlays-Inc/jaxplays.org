@@ -12,7 +12,7 @@ cast:
 - Michael: Michael Lipp
 - Kate: Elyse Brady
 - Maggie: Simone Aden-Reid
-- Agnes: Kthy Biddle
+- Agnes: Kathy Biddle
 - Rose: Jamie Vaughn
 - Chris: Christina Duncan
 - Gerry: Michael Simpson
