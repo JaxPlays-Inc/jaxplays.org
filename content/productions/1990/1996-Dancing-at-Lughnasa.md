@@ -8,6 +8,11 @@ layout: productions
 playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
+show_details:
+- Playwright: Brian Friel - wiki
+- Date premiered: 1990-04-24
+- Place premiered:	Abbey Theatre, Dublin, Ireland
+- Subject:	A month in the lives of five impoverished women.
 cast:
 - Michael: Michael Lipp
 - Kate: Elyse Brady
@@ -68,4 +73,11 @@ photos:
   photo_attr:
   photo_alt:
   photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
+# Dancing at Lughnasa
+Genres:
+  - Play
+  - Drama
+  - Family
+Description: "Set in the summer of 1936, *Dancing at Lughnasa* weaves a poignant tale of the five Mundy sisters, whose lives are on the brink of change."
 ---
+In the small Irish village of Ballybeg, the Mundy sisters find their quiet lives disrupted by the arrival of their brother, a missionary priest from Africa, and the village's first radio. As the festival of Lughnasa approaches, the sisters confront their desires and fears, and their family bond is tested. This Tony Award-winning play captures the nostalgia and heartache of a family standing at a crossroad, with moments of joy and dance that underscore their unyielding resilience.
