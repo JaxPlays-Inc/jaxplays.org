@@ -77,6 +77,10 @@ menu:
     parent: Submit
     pageRef: /submit/theatre
     weight: 73
+  - name: Donate
+    pageRef: /support
+    weight: 80
+
 taxonomies:
   category: categories
   tag: tags
