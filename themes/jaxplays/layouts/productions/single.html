@@ -446,7 +446,7 @@
         {{ $photoAttrLink := .photo_attr_link }}
         {{ $altText := .photo_alt | default $.Title }}
         <figure class="w-40-l center">
-            <a href="{{ printf "/media/photos/%s" $photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }}<a href='{{ $photoAttrLink }}'> | (📷 {{ $photoAttr }})</a>{{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}"><img src="{{ printf "/media/photos/%s" $photo }}" alt="{{ $altText }}" /></a>
+            <a href="{{ printf "/media/photos/%s" $photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }} | (📷 <a href='{{ $photoAttrLink }}' target='_blank'>{{ $photoAttr }}</a>){{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}"><img src="{{ printf "/media/photos/%s" $photo }}" alt="{{ $altText }}" /></a>
             {{ if or .photo_caption $photoAttr }}
             <figcaption class="tc center f5 pa1-ns pa3-m avenir justify-center gray">
                 {{ with .photo_caption }}
@@ -455,7 +455,7 @@
                 {{ if and .photo_caption $photoAttr }} | {{ end }}
                 {{ if $photoAttr }}
                 {{ if $photoAttrLink }}
-                (📷 <a href="{{ $photoAttrLink }}">{{ $photoAttr }}</a>)
+                (📷 <a href="{{ $photoAttrLink }}" target="_blank">{{ $photoAttr }}</a>)
                 {{ else }}
                 (📷 {{ $photoAttr }})
                 {{ end }}
