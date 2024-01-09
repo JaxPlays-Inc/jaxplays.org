@@ -127,4 +127,74 @@ Press:
 - "“Fiddler on the Roof” opens this week | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/fiddler-on-the-roof-opens-this-week,59422?
 - "A Fiddler on the Roof… at the Alhambra | Folio Weekly": https://folioweekly.com/2023/07/29/a-fiddler-on-the-roof-at-the-alhambra/
 - "FIDDLER ON THE ROOF Opens At Alhambra Theatre & Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/FIDDLER-ON-THE-ROOF-Opens-At-Alhambra-Theatre-Dining-20230727
+photos:
+- photo: 2023-Fiddler-on-the-Roof-00.webp
+  photo_attr: 
+  photo_alt:
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-05.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-06.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-07.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-08.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-09.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-10.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-11.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-12.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-13.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-14.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-15.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-16.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
+- photo: 2023-Fiddler-on-the-Roof-17.webp
+  photo_attr: Idan Bar | Silky Money Studios
+  photo_attr_link: https://www.silkymoneystudios.com/photography
+  photo_alt: 
+  photo_caption: Fiddler on the Roof at the Alhambra Theatre & Dining
 ---

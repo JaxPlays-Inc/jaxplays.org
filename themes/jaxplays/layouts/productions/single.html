@@ -441,23 +441,29 @@
       <h2 id="PhotoGallery" class="sectionline">Photos</h2>
       <div class="flex flex-wrap">
         {{ range .Params.photos }}
+        {{ $photo := .photo }}
+        {{ $photoAttr := .photo_attr }}
+        {{ $photoAttrLink := .photo_attr_link }}
         {{ $altText := .photo_alt | default $.Title }}
         <figure class="w-40-l center">
-          <a href="{{ printf "/media/photos/%s" .photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-              src="{{ printf "/media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
-          {{ if or .photo_caption .photo_attr }}
-          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
-            {{ with .photo_caption }}
-            {{ . }}
+            <a href="{{ printf "/media/photos/%s" $photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }}<a href='{{ $photoAttrLink }}'> | (📷 {{ $photoAttr }})</a>{{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}"><img src="{{ printf "/media/photos/%s" $photo }}" alt="{{ $altText }}" /></a>
+            {{ if or .photo_caption $photoAttr }}
+            <figcaption class="tc center f5 pa1-ns pa3-m avenir justify-center gray">
+                {{ with .photo_caption }}
+                {{ . }}
+                {{ end }}
+                {{ if and .photo_caption $photoAttr }} | {{ end }}
+                {{ if $photoAttr }}
+                {{ if $photoAttrLink }}
+                (📷 <a href="{{ $photoAttrLink }}">{{ $photoAttr }}</a>)
+                {{ else }}
+                (📷 {{ $photoAttr }})
+                {{ end }}
+                {{ end }}
+            </figcaption>
             {{ end }}
-            {{ if and .photo_caption .photo_attr }} | {{ end }}
-            {{ with .photo_attr }}
-            (📷 {{ . }})
-            {{ end }}
-          </figcaption>
-          {{ end }}
         </figure>
-        {{ end }}
+        {{ end }}        
         </div>
       </div>
       {{ end }}
