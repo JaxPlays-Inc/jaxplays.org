@@ -47,4 +47,25 @@ crew:
 - Kites:
   - John Wikstrom
   - Elizabeth Wickstrom
+photos:
+- photo: 1996-Dancing-at-Lughnasa-01.webp
+  photo_attr:
+  photo_alt:
+  photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
+- photo: 1996-Dancing-at-Lughnasa-02.webp
+  photo_attr:
+  photo_alt:
+  photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
+- photo: 1996-Dancing-at-Lughnasa-03.webp
+  photo_attr:
+  photo_alt:
+  photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
+- photo: 1996-Dancing-at-Lughnasa-04.webp
+  photo_attr:
+  photo_alt:
+  photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
+- photo: 1996-Dancing-at-Lughnasa-05.webp
+  photo_attr:
+  photo_alt:
+  photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
 ---
