@@ -30,7 +30,9 @@ show_details:
     - Cynthia Weil
   - Basis: The songs of Carole King
 cast:
+- Carole King: Kailey Anderson
 crew:
+- Production Assistant: Phedre Delinois
 orchestra:
 Genres:
   - Musical
