@@ -71,5 +71,7 @@ Genres:
   - Jukebox Musical
   - Rock 'n' Roll
 Description: "Step into Sun Records studio for a legendary jam session with Elvis Presley, Johnny Cash, Jerry Lee Lewis, and Carl Perkins. It's a rock 'n' roll rendezvous that echoes through the ages."
+Press: 
+- "MLK's legacy in St. Augustine and Florida - First Coast Connect | WJCT News 89.9 (Interview starts at 45:55)" : https://news.wjct.org/show/first-coast-connect/2024-01-09/first-coast-connect-mlk-florida
 ---
 December 4, 1956, marked an impromptu gathering of four young recording legends. "Million Dollar Quartet" reimagines this iconic night in music history when Elvis, Cash, Lewis and Perkins came together for an epic jam session. This musical takes you inside Sun Records' studio for a night of electrifying music, capturing the spirit of an era where rock 'n' roll was young, and the man behind the console was king. The show is packed with timeless hits, raw energy, and a peek into the personalities and songs that would shape a generation.
