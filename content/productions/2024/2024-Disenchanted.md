@@ -43,5 +43,7 @@ Genres:
 - Comedy
 - Satire
 Description: "Princesses, unplugged and unhinged—happily never after has never been this much fun."
+Press:
+- ABET's 'Disenchanted!' features storybook princesses setting the record straight | The Beaches Leader: /media/news/2024-Disenchanted-Beaches-Leader.webp
 ---
 Say goodbye to the fairytale damsel in distress. The princesses in *Disenchanted!* have had enough of waiting for their Prince Charming. In this hilarious musical revue, Cinderella, Snow White, Sleeping Beauty and more swap their glass slippers for stilettos and get real about love, life, and what it means to be a modern woman. Perfect for anyone who's ever rolled their eyes at a perfect fairytale ending.
