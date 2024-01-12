@@ -1,14 +1,23 @@
 ---
 title: Conversations After a Burial
 Theatre: Players by the Sea
-Venue: 
+Venue: John McManus Mainstage Theatre
 date: 2013-02-01
 closing_date: 2013-02-16
 showtimes:
-featured_image: 
+  - 2013-02-01 20:00:00
+  - 2013-02-02 20:00:00
+  - 2013-02-07 20:00:00
+  - 2013-02-08 20:00:00
+  - 2013-02-09 20:00:00
+  - 2013-02-10 14:00:00
+  - 2013-02-14 20:00:00
+  - 2013-02-15 20:00:00
+  - 2013-02-16 20:00:00
+featured_image: 2013-Conversations-After-A-Burial-Teaser-Poster-02.webp
 featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image_caption: Poster for 'Conversations After a Burial' at Players by the Sea
+featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 playbill:
 Website: 
@@ -19,12 +28,9 @@ cast:
 - Edith: Karen Overstreet
 - Julienne: Holly Gutshall
 - Elisa: Olivia Gowan Snell
-# - Nathan: 
-# - Alex: 
-# - Pierre:
-# - :Paul Carelli
-# - :Dave Gowan
-# - :Kevin Bodge
+- Nathan: Kevin Bodge
+- Alex: Paul Carelli
+- Pierre: Dave Gowan
 crew:
 - Director: 
   - Holly Gutshall
@@ -36,71 +42,75 @@ photos:
 - photo: 2013-Conversations-After-A-Burial-07.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli, Karen Overstreet & Kevin Bodge (left to right) in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-01.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-02.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Kevin Bodge & Olivia Gowan Snell in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-03.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Kevin Bodge & Olivia Gowan Snell in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-04.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Kevin Bodge & Olivia Gowan Snell in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-09.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-05.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli, Kevin Bodge & Karen Overstreet in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-06.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli, Kevin Bodge & Karen Overstreet in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-07.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli, Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-08.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli, Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-10.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Paul Carelli in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-11.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-12.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-13.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-14.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-15.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
 - photo: 2013-Conversations-After-A-Burial-16.webp
   photo_attr: Redgie Gutshall
   photo_alt: 
-  photo_caption: "'Conversations After a Burial' at Players by the Sea"
+  photo_caption: "Karen Overstreet & Kevin Bodge in 'Conversations After a Burial' at Players by the Sea"
+- photo: /media/posters/2013-Conversations-After-A-Burial-Teaser-Poster-01.webp
+  photo_attr: Players by the Sea
+  photo_alt: 
+  photo_caption: Poster for 'Conversations After a Burial' at Players by the Sea
 # Conversations After a Burial
 Genres:
   - Play

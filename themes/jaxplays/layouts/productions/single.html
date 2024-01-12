@@ -437,36 +437,45 @@
       
       <!-- Photos -->
       {{ if .Params.photos }}
-      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-      <div class="flex flex-wrap">
-        {{ range .Params.photos }}
-        {{ $photo := .photo }}
-        {{ $photoAttr := .photo_attr }}
-        {{ $photoAttrLink := .photo_attr_link }}
-        {{ $altText := .photo_alt | default $.Title }}
-        <figure class="w-40-l center">
-            <a href="{{ printf "/media/photos/%s" $photo }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }} | (📷 <a href='{{ $photoAttrLink }}' target='_blank'>{{ $photoAttr }}</a>){{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}"><img src="{{ printf "/media/photos/%s" $photo }}" alt="{{ $altText }}" /></a>
-            {{ if or .photo_caption $photoAttr }}
-            <figcaption class="tc center f5 pa1-ns pa3-m avenir justify-center gray">
-                {{ with .photo_caption }}
-                {{ . }}
-                {{ end }}
-                {{ if and .photo_caption $photoAttr }} | {{ end }}
-                {{ if $photoAttr }}
-                {{ if $photoAttrLink }}
-                (📷 <a href="{{ $photoAttrLink }}" target="_blank">{{ $photoAttr }}</a>)
-                {{ else }}
-                (📷 {{ $photoAttr }})
-                {{ end }}
-                {{ end }}
-            </figcaption>
-            {{ end }}
-        </figure>
-        {{ end }}        
-        </div>
+      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+          <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+          <div class="flex flex-wrap">
+              {{ range .Params.photos }}
+              {{ $photo := .photo }}
+              {{ $photoAttr := .photo_attr }}
+              {{ $photoAttrLink := .photo_attr_link }}
+              {{ $altText := .photo_alt | default $.Title }}
+              <figure class="w-40-l center">
+                  <!-- Determine photo URL -->
+                  {{ $photoURL := $photo }}
+                  {{ if not (strings.HasPrefix $photo "/media/") }}
+                      {{ $photoURL = printf "/media/photos/%s" $photo }}
+                  {{ end }}
+                  <!-- Use $photoURL for image source and link -->
+                  <a href="{{ $photoURL }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }} | (📷 <a href='{{ $photoAttrLink }}' target='_blank'>{{ $photoAttr }}</a>){{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}">
+                      <img src="{{ $photoURL }}" alt="{{ $altText }}" />
+                  </a>
+                  {{ if or .photo_caption $photoAttr }}
+                  <figcaption class="tc center f5 pa1-ns pa3-m avenir justify-center gray">
+                      {{ with .photo_caption }}
+                      {{ . }}
+                      {{ end }}
+                      {{ if and .photo_caption $photoAttr }} | {{ end }}
+                      {{ if $photoAttr }}
+                      {{ if $photoAttrLink }}
+                      (📷 <a href="{{ $photoAttrLink }}" target="_blank">{{ $photoAttr }}</a>)
+                      {{ else }}
+                      (📷 {{ $photoAttr }})
+                      {{ end }}
+                      {{ end }}
+                  </figcaption>
+                  {{ end }}
+              </figure>
+              {{ end }}        
+          </div>
       </div>
       {{ end }}
+
       <!-- Edit this page -->
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}"></div>
         <h3 class="f3 mt4 mb3 sectionline">Contribute to this production page</h3>
