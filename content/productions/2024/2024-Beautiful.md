@@ -13,6 +13,7 @@ showtimes:
   - 2024-02-02 20:00:00
   - 2024-02-03 20:00:00
   - 2024-02-04 14:00:00
+  - 2024-02-04 19:30:00
 featured_image: 
 featured_image_alt: 
 featured_image_caption: 
