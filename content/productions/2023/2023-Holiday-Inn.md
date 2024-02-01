@@ -1,7 +1,7 @@
 ---
 title: Holiday Inn
-Theatre: TAPS - Theatre Advancement Production Society
-Venue: Spotlight Center
+Theatre: Spotlight Events Center
+Venue: Spotlight Events Center
 date: 2023-11-24
 closing_date: 2023-12-22
 showtimes:

@@ -1,10 +1,10 @@
 ---
-title: Spotlight Center
+title: Spotlight Events Center
 active: true
 featured_image: Spotlight-Center.webp
 featured_image_attr: 
 featured_image_alt:
-featured_image_caption: Logo for Spotlight Center
+featured_image_caption: Logo for Spotlight Events Center
 Founded: 2023-04-27
 Address: |
     1809 East West Parkway

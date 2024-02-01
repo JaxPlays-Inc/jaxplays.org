@@ -1,7 +1,7 @@
 ---
 title: A Tuna Christmas
-Theatre: TAPS - Theatre Advancement Production Society
-Venue: Spotlight Center
+Theatre: Spotlight Events Center
+Venue: Spotlight Events Center
 date: 2023-12-28
 closing_date: 2023-12-30
 showtimes:

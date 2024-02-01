@@ -1,7 +1,7 @@
 ---
 title: "Everything's Coming Up Carol: A Tribute Show"
-Theatre: TAPS - Theatre Advancement Production Society
-Venue: Spotlight Center
+Theatre: Spotlight Events Center
+Venue: Spotlight Events Center
 date: 2023-09-28
 closing_date: 2023-10-14
 showtimes:
