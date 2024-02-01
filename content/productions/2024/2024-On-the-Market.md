@@ -31,5 +31,7 @@ show_details:
 cast:
 crew:
 orchestra:
+Reviews:
+- "Bittersweetly put 'On The Market' at Theatre Jacksonville | Folio Weekly": https://folioweekly.com/2024/01/19/bittersweetly-put-on-the-market-at-theatre-jacksonville/
 ---
 *On the Market* captivates its audience with the story of Charlotte, a middle-aged singer-turned-realtor navigating the turbulent waters of modern dating after the loss of her husband. When a mysterious note from her late husband urges her to move on, she finds herself torn between her past and the uncertainty of a new beginning. Brimming with authentic emotion, unexpected humor, and an ensemble that morphs into multiple characters, this one-act play by Jason Odell Williams is an evocative portrayal of love, loss, and the unquenchable human spirit. 
