@@ -27,7 +27,7 @@ cast:
 Any review of a show at The Alhambra Theatre & Dining must begin with a review of the food, because every dining experience is expertly paired to the production, and *Fiddler on the Roof* is no exception.
 
 The dining experience at the Alhambra Theatre & Dining's production of *Fiddler on the Roof* sets the stage for a delightful evening. The lentil and vegetable soup comforts you with its warmth and richness, while the salad offers a refreshing contrast, being cool, bright, and tangy. 
-
+<!--more-->
 {{< figure src="/media/photos/2023-Fiddler-on-the-Roof-02.webp" alt="A slow-braised leg of lamb atop a bed of couscous, carrots, tomato and fennel" caption="Slow-braised leg of lamb atop a bed of couscous, carrots, tomatoes and fennel" attr="Ray Hollister" >}}
 
 The slow-braised leg of lamb is robust in flavor, albeit a bit firm — not tough, but not exactly tender either. (It's almost exactly how I would expect the lamb to be served if I had dinner at Tevye's.) Contrastly, the couscous has a delightfully tender texture that dances on the tounge. The rosemary-infused sauce and al dente vegetables add layers of flavor, and the meal concludes with an apple crumb pie that's gently spiced and topped to perfection. Overall, the dining experience met and exceeded the reviewer's expectations, which served as an excellent appetizer to a remarkable evening.

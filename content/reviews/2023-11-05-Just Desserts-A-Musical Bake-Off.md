@@ -21,7 +21,7 @@ cast:
 description: "Theatre Jacksonville's production of 'Just Desserts: A Musical Bake-Off' serves up a delectable stage experience, sweetening an imperfect script with stellar performances and imaginative stagecraft that will leave audiences craving more."
 ---
 Theatre Jacksonville's latest offering, "Just Desserts: A Musical Bake-Off," whisks audiences away to the kitschy world of a local baking competition, rife with colorful characters vying for the sweet taste of victory.
-
+<!--more-->
 In the heart of a quirky small-town fair, a ragtag group of amateur bakers, each with their own sprinkle of idiosyncrasies, vie for the top prize. As personalities clash and flour flies, the contestants must find the right mixture of skill and collaboration to rise to the occasion, all while serving up laughs and slices of drama.
 
 The stage, a cleverly crafted homage to low-budget community access television productions, sets the scene with its charmingly rudimentary design of plywood and paint that surprisingly elevates the authenticity of the setting.

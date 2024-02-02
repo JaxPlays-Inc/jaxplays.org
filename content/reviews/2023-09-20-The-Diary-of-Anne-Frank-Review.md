@@ -23,7 +23,7 @@ cast:
 Description: "Director Jason Collins brings Anne Frank's diary to life at Theatre Jacksonville. The production skillfully balances historic gravity with human resilience."
 ---
 Director Jason Collins crafts a vivid portrayal of Anne Frank's life at Theatre Jacksonville, shedding light on the indomitable human spirit during one of history's darkest periods.
-
+<!--more-->
 _The Diary of Anne Frank_ chronicles the true story of Anne Frank, a young Jewish girl who goes into hiding with her family during World War II to escape the Nazis. For two years, the Franks and several others live in the "[Secret Annex](https://www.annefrank.org/en/anne-frank/secret-annex/)" of an Amsterdam building. Anne's diary serves as a personal account of their lives, their hopes, and the oppressive environment in which they find themselves.
 
 The simple, yet intricate set, designed by Ben Girvin, practically becomes its own character within the drama. Every creak and groan of the set resonates through the theater, lending an additional layer of tension to this poignant story. Packed with barely enough furniture for the tenants of the Annex, the stage feels chaotic and lived-in, without becoming overwhelmingly cluttered. The multiple layers give the set both dimension and depth, while simultaneously heightening the feeling of confinement experienced by the characters.
