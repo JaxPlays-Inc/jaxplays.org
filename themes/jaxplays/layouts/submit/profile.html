@@ -9,7 +9,21 @@
       </header>
       <div class="nested-copy-line-height lh-copy f5 f4-ns">
         {{ .Content }}
-        <iframe class="mt4" style="border:none;width:100%;" height="2700px" src="https://opnform.com/forms/jaxplays-profile-submission-form-ysdyow"></iframe>
+        <iframe id="edh-iframe" style="width:100%;border:none;" src="https://forms.jaxplays.org/profile-submission-form/"></iframe>
+      <script type='text/javascript'>
+        // Listen for messages sent from the iFrame
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+      
+        eventer(messageEvent,function(e) {
+          // If the message is a resize frame request
+          if (e.data.indexOf('resize::') != -1) {
+            var height = e.data.replace('resize::', '');
+            document.getElementById('edh-iframe').style.height = height+'px';
+          }
+        } ,false);
+      </script>
       </div>
     </article>
   </div>
