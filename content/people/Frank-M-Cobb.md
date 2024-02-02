@@ -1,0 +1,3 @@
+---
+title: Frank M. Cobb
+---

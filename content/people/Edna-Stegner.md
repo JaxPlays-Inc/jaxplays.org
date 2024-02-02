@@ -1,0 +1,3 @@
+---
+title: Edna Stegner
+---

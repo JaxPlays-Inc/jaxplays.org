@@ -21,7 +21,7 @@ cast:
 - Josh Rutgers
 - Maureen Chandler Reid
 - David Primm
-description:  "Explore Act II Players' 'Southern Fried Nuptials'—a heartwarming mix of laughter, family drama, and Southern charm that captivates and entertains"
+description:  "Explore Act II Players' 'Southern Fried Nuptials' — a heartwarming mix of laughter, family drama, and Southern charm that captivates and entertains"
 ---
 This February, the [Act II Players](/theatres/act-ii-players) walk us down the aisle to meet the sequel to *Southern Fried Funeral*, *Southern Fried Nuptials*, a heartfelt comedy of familial errors in judgment, timing, and identity.
 <!--more-->
