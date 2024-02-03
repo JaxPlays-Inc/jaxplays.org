@@ -25,7 +25,7 @@ crew:
   - Jamie Vaughn
   - Robert Cruz
   - Bill Ratliff
-- Properteis Construction:
+- Properties Construction:
   - Jamie Vaughn
   - Robert Cruz
   - Bill Ratliff
