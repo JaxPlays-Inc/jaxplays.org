@@ -1,7 +1,7 @@
 ---
-title: Bill Ratliff
-featured_image: Bill-Ratliff.webp
-featured_image_attr: 
+title: Pauleen Conde
+featured_image: Pauleen-Conde.webp
+featured_image_attr: Josh Andrews
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 

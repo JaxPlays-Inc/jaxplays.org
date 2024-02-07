@@ -38,7 +38,8 @@ crew:
 - Set Design:
   - David Girard
   - Claire Cimino
-- Set Dressing / Props: Claire Cimino
+- Set Dressing: Claire Cimino
+- Props: Claire Cimino
 - Lighting Design: Bryan Frank
 - Scenic Artist: Meganne Johnson
 - Light and Sound Operator: Sabine Larsen
