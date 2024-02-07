@@ -10,7 +10,7 @@ featured_image_attr: Josh Andrews
 featured_image_alt: 
 featured_image_caption: 
 Socials:
-  Facebook: joshbrittonandrews
+  Facebook: joshuabrittonandrews
   Twitter: joshrews
   Instagram: joshrews
   Threads: joshrews
