@@ -16,8 +16,9 @@ cast:
 - J. Antonio RodriguezFate
 - Marla Louissaint
 - Lizzie Markson
-- Hannah Schreer
+- Ceclia Trippiedi
 description: "Experience the magic of 'Hadestown' — an unforgettable theatrical journey intertwining love, music and myth."
+Correction: "An earlier version of this review erroneously credited Hannah Schreer as one of the Fates. The swing, Cecilia Trippiedi, performed in the opening night's performance. The review has been updated to reflect the correct information. We regret the error."
 ---
 Entering *Hadestown*, I was met with a experience I rarely get to enjoy: a production that I could absorb without preconceptions. With no prior knowledge of the soundtrack and only a faded memory of the mythological tale it's based on, I found myself utterly captivated by the unfolding production. *Hadestown* comes to life through a tapestry of detailed storytelling and emotional depth, all set to a score that holds the audience in rapt attention. The near-magical lighting and a remarkably talented cast distinguish this production, showcasing the distinctive allure and profound impact of live theater at its finest.
 
@@ -39,7 +40,7 @@ Lana Gordon's Persephone dominates the stage, her powerful voice belying her sta
 
 Matthew Patrick Quinn's Hades, with a bass voice that commands attention, brings a richness and power reminiscent of Hugh Jackman's gravitas. His portrayal is smooth yet terrifying, embodying a god who wields power with a disarming nonchalance.
 {{< figure src="/media/photos/2024-Hadestown-4.webp" alt="" caption="As the Fates of 'Hadestown', Marla Louissaint, Lizzie Markson, and Hannah Schreer create a spine-tingling harmony that resonates through the theater, their synchronized melodies and poised presence stirring the audience to their core." attr="T Charles Erickson" >}}
-The Fates — Marla Louissaint, Lizzie Markson and Hannah Schreer — harmonize with such precision that their vocal interplay gives the audience goosebumps, adding layers to the narrative that are both eerie and entrancing. Their harmonic glissandos are especially chilling, a testament to their collective talent. 
+The Fates — Marla Louissaint, Lizzie Markson and Cecilia Trippiedi — harmonize with such precision that their vocal interplay gives the audience goosebumps, adding layers to the narrative that are both eerie and entrancing. Their harmonic glissandos are especially chilling, a testament to their collective talent. 
 
 This cast, paired with an equally talented orchestra, forms one of the most musically gifted ensembles to grace a touring production. A standout moment of pure joy is when a trombone player descends to dance among the cast, blurring the lines between orchestra and actors and showcasing the boundless creativity of the production. 
 {{< figure src="/media/photos/2024-Hadestown-1.webp" alt="" caption="The cast of 'Hadestown' bursts with energy in a lively scene, as the orchestra accompanies from above and the vibrant choreography unfolds onstage." attr="T Charles Erickson" >}}

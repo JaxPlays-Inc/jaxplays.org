@@ -56,4 +56,4 @@ orchestra:
 ---
 Hadestown transports audiences to a mythical world where two intertwining love stories unfold—Orpheus and Eurydice, and Hades and Persephone. This darkly poetic musical navigates love, sacrifice, and the human urge for something better on the other side. Get ready for a journey that's as ethereal as it is visceral. Don't miss the underworld's hottest ticket!
 
-{{< youtube src="kdWQ12CItRs" >}}
+{{< youtube kdWQ12CItRs >}}
