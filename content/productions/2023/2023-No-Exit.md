@@ -69,6 +69,8 @@ photos:
   photo_alt: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal
   photo_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to
     right)
+Press:
+- "Jail health care; UF architecture program; Barbie; Lumen Repertory Theatre | WJCT News 89.9": https://news.wjct.org/show/first-coast-connect/2023-07-27/first-coast-connect-armor-health-uf-architecture-barbie
 ---
 Step into the captivating world of *No Exit*, a thought-provoking and illuminating take on the timeless existential tale. This extraordinary production invites you to explore the depths of the human psyche as three recently deceased guests find themselves unexpectedly gathered in a single room within the depths of hell. But this is no ordinary room; it is a place where the true nature of existence is exposed, where the veil of pretense is stripped away, and where the souls of these co-residents must confront their own inner demons.
 
