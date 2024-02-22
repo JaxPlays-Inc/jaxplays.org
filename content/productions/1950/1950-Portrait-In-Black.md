@@ -46,7 +46,7 @@ crew:
   - David Salter
   - Elmo Lehman
 - Set and Lighting Design: Duke LeBrun
-- "Stage D\xE9cor":
+- Stage Decor:
   - Hobson Blackmon
   - Jay Harder
 - Stage Manager: Suzanne Pallister

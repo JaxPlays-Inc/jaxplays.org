@@ -49,7 +49,7 @@ crew:
 - Choreographer: Missy Schmotzer-Williamson
 - Assistant Director: Brian Matthews
 - Stage Manager: Hannah McCowan
-- Scenic Designer: "Robert O\u2019Leary"
+- Scenic Designer: Robert O'Leary
 - Associate Scenic Designer: Dom Grasso
 - Lighting Designer: Carl Liberatore
 - Costume Designer: Kol Dreibrodt
@@ -59,10 +59,10 @@ crew:
 - Hair & Wigs: Abigail Murphy
 - Costume Crew:
   - Janice Bickel
-  - Lisa Boyd
+  - Lisa Boyda
   - Abigail Murphy
   - Renee Riso
-  - "Pat O\u2019Leary"
+  - Robert O'Leary
 - Production Assistant: L.B. Peterson
 - Running Crew: Tom McCall
 orchestra:

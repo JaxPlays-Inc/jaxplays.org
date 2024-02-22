@@ -1,12 +1,12 @@
 ---
 layout: productions
-title: "Les Mis\xE9rables"
+title: Les Misérables
 date: 2014-06-06
 closing_date: 2014-06-21
 featured_image: 2014_Les_Miserables.webp
 featured_image_attr:
 featured_image_alt:
-featured_image_caption: "Poster for 'Les Mis\xE9rables' at Theatre Jacksonville"
+featured_image_caption: "Poster for 'Les Misérables' at Theatre Jacksonville"
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
@@ -24,7 +24,7 @@ cast:
 - Young Cosette/Eponine:
   - Alani Ellison
   - Megan Nobles
-- "Men\u2019s Ensemble":
+- Men's Ensemble:
   - Darnell Bennett
   - Josh Edwards
   - David Gile
@@ -38,7 +38,7 @@ cast:
   - Matt Tompkins
   - Brandon Willard
   - Eric Yarham
-- "Women\u2019s Ensemble":
+- Women's Ensemble:
   - Carole Banks
   - Dawn Marie Bevis
   - Eileen Briggs

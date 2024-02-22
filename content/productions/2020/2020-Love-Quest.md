@@ -36,7 +36,7 @@ cast:
 - Hal: John Glover
 - Megan: Anna Hobbs
 - Everyman: Jas Abramowitz
-- "Bov\xE9": Rich Pintello
+- Bové: Rich Pintello
 crew:
 - Director: Michelle Svenson Kindy
 ---

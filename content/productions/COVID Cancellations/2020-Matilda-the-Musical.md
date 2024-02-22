@@ -47,7 +47,7 @@ cast:
 - Mrs Phelps: Brenda Chapman
 - The Escapologist: Nikolas Wendorf
 - The Acrobat: Theresa Pazanowski
-- "Children\u2019s Entertainer": Rod Leigh
+- Children's Entertainer: Rod Leigh
 - Ensemble:
   - Oliver Carson
   - Ava Chung

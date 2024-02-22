@@ -32,7 +32,7 @@ cast:
 - Grandfather: Mark Rubens
 - Coalhouse: Phillip Williams
 - Sarah: Taylor Mobley
-- "Sarah\u2019s Friend": Hecate Smith
+- Sarah's Friend: Hecate Smith
 - Booker T.: James Wright
 - Tateh: Erik DeCicco
 - Little Girl: Teagan Carpenter

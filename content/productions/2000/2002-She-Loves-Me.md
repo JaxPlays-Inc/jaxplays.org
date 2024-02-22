@@ -23,7 +23,7 @@ cast:
 - Busboy:
   - Tim Driscoll
   - JaMario Stills
-- "Caf\xE9 Customer":
+- Café Customer:
   - Margaret Blajian
   - Christine DuMars
   - Karl Rogers

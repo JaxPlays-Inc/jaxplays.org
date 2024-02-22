@@ -39,7 +39,7 @@ cast:
 - Lykon: Mary Schubert
 - Leader Old Women Chorus: Sommer Farhat
 - Leader Young Women Chorus: Rachel Sadowski
-- "Leader Old Man\u2019s Chorus": Kenggy Bravo
+- Leader Old Man's Chorus: Kenggy Bravo
 - Spartan Envoy: Marielle Erskine
 - Senator:
   - Paige Ruggles
@@ -64,7 +64,7 @@ crew:
 - Stage Manager: Izabella Unice
 - Set Design: Candace Dickens
 - Scenic Artist: Katie Dawson
-- Lighting: "Judelyn \u201CLulu\u201D Dixon"
+- Lighting: Judelyn "Lulu" Dixon
 - Costumes: Franzin Ruiz
 - Sound: Rhian Franchebois
 - Choreography: Cenetta Baker

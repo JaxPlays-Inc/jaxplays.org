@@ -14,8 +14,8 @@ cast:
 - Pippin: Ron Shreve
 - Charles, his father: Cole Marshall
 - Lewis, his half-brother: Nicolas DeAssis
-- "Fastrada, Lewis\u2019 mother": Leanne Gullo
-- "Berthe, Pippin\u2019s grandmother": Emily Charleton
+- Fastrada, Lewis' mother: Leanne Gullo
+- Berthe, Pippin's grandmother: Emily Charleton
 - Catherine, a widow: Aly Blakewell
 - Theo, her son: Brooke Lewis
 - Band of Players:

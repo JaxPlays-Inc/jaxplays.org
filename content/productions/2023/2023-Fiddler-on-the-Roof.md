@@ -79,7 +79,7 @@ cast:
 - Sprintze (Grandmother Tzeitel): Tatum Matthews
 - Bielke: Emma Decker
 - The Constable: Thaddeus Walker
-- The Rabbi\Fyedka: Ryan Lemmon
+- The Rabbi \ Fyedka: Ryan Lemmon
 - Avram: Michael Mossucco
 - Mendel: Christopher Michael Milligan
 - Mordcha: Rodney Holmes

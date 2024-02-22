@@ -16,7 +16,7 @@ Venue:
 show_details:
 - Music: Lin-Manuel Miranda - wiki
 - Lyrics: Lin-Manuel Miranda
-- Book: "Quiara Alegr\xEDa Hudes - wiki"
+- Book: Quiara Alegría Hudes - wiki
 - Setting: Washington Heights, Manhattan
 - Wikipedia: In the Heights - wiki
 Genres:

@@ -43,7 +43,7 @@ cast:
 - Mrs. Phelps: Denise C. Oravec
 - Doctor/The Escapologist: Jimmy Galaviz
 - Rudolpho: Carlos Chavez-Tafur
-- "Children\u2019s Entertainer": Scott Kessler
+- Children's Entertainer: Scott Kessler
 - Kid Ensemble:
   - Nora Costrino
   - Demee Mason

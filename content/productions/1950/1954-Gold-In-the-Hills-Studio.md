@@ -72,7 +72,7 @@ crew:
 - Lighting:
   - Barbara Meyer
   - Frank Lebaito
-- "Lobby D\xE9cor":
+- Lobby Decor:
   - Jay Harder
   - Hobson Blackmon
 - Make-up Assistant:

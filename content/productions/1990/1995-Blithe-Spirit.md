@@ -18,7 +18,7 @@ crew:
 - Scenic Design:
   - Tim Hamlett
   - Craig Kassan
-- "D\xE9cor": Bruce Musser
+- Decor: Bruce Musser
 - Lighting Design: R.W. Skipper
 - Elvira: Robyn Neal
 - Special Effects:

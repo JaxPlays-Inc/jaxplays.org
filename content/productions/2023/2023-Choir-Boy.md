@@ -40,7 +40,7 @@ cast:
 - Mr. Pendleton: Dave Alan Thomas
 - Pharus Understudy: Israel Haynes
 crew:
-- Director: "Jerem\xE9 Raickett"
+- Director: Jeremé Raickett
 - Costume Design: Tonya Thomas
 - Sound Design: China Richardson
 - Music Dirction: Tina Wilson
