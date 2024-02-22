@@ -1,6 +1,7 @@
 ---
 title: Mary, Mary
 date: 1965-09-24
+opening_date: 1965-09-24
 closing_date: 1965-10-02
 layout: productions
 playbill:

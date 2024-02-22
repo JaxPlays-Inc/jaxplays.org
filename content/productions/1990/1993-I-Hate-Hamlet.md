@@ -1,6 +1,7 @@
 ---
 title: I Hate Hamlet
 date: 1993-11-05
+opening_date: 1993-11-05
 closing_date: 1993-11-20
 layout: productions
 playbill:

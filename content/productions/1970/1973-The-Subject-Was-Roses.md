@@ -1,6 +1,7 @@
 ---
 title: The Subject Was Roses
 date: 1973-07-20
+opening_date: 1973-07-20
 closing_date: 1973-07-28
 layout: productions
 playbill:

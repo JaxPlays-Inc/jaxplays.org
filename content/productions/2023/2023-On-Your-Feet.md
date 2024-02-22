@@ -1,6 +1,7 @@
 ---
 title: On Your Feet!
 date: 2023-12-09
+opening_date: 2023-12-09
 closing_date: 2023-12-09
 featured_image: 2023-On-Your-Feet.webp
 featured_image_alt: 

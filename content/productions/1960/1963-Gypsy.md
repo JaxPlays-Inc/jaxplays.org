@@ -1,6 +1,7 @@
 ---
 title: Gypsy
 date: 1963-11-15
+opening_date: 1963-11-15
 closing_date: 1963-11-23
 layout: productions
 playbill:

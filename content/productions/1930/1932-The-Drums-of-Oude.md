@@ -1,6 +1,7 @@
 ---
 title: The Drums of Oude
 date: 1932-02-09
+opening_date: 1932-02-09
 closing_date:
 layout: productions
 playbill:

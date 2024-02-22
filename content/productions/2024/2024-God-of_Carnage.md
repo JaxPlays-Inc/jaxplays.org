@@ -3,6 +3,7 @@ title: God of Carnage
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2024-04-19
+opening_date: 2024-04-19
 closing_date: 2024-05-05
 showtimes:
 - 2024-04-19 20:00:00

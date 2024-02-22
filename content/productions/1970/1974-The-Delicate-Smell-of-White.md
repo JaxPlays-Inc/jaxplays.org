@@ -1,6 +1,7 @@
 ---
 title: The Delicate Smell of White
 date: 1974-06-20
+opening_date: 1974-06-20
 closing_date: 1974-06-29
 layout: productions
 playbill:

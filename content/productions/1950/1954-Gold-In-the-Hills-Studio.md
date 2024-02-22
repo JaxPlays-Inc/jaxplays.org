@@ -1,6 +1,7 @@
 ---
 title: Gold In the Hills (Studio)
 date: 1954-03-24
+opening_date: 1954-03-24
 closing_date: 1954-04-03
 layout: productions
 playbill:

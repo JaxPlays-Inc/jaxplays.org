@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Photograph 51
 date: 2020
+opening_date: 2020
 Genres: 
 - Play
 featured_image:

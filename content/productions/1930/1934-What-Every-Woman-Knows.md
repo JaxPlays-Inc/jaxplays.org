@@ -1,6 +1,7 @@
 ---
 title: What Every Woman Knows
 date: 1934-01-23
+opening_date: 1934-01-23
 closing_date:
 layout: productions
 playbill:

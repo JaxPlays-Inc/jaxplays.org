@@ -1,6 +1,7 @@
 ---
 title: Mrs. Bumpstead-Leigh
 date: 1930-02-11
+opening_date: 1930-02-11
 closing_date:
 layout: productions
 playbill:

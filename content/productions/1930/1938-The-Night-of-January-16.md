@@ -1,6 +1,7 @@
 ---
 title: The Night of January 16
 date: 1938-03-15
+opening_date: 1938-03-15
 closing_date: 1938-03-17
 layout: productions
 playbill:

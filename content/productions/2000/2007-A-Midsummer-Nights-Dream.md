@@ -1,6 +1,7 @@
 ---
 title: A Midsummer Night's Dream
 date: 2007-09-14
+opening_date: 2007-09-14
 closing_date: 2007-10-06
 layout: productions
 playbill:

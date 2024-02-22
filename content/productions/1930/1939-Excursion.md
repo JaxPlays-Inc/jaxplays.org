@@ -1,6 +1,7 @@
 ---
 title: Excursion
 date: 1939-05-02
+opening_date: 1939-05-02
 closing_date: 1939-05-05
 layout: productions
 playbill:

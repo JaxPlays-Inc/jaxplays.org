@@ -1,6 +1,7 @@
 ---
 title: Dinny and the Witches
 date: 1968-01-12
+opening_date: 1968-01-12
 closing_date: 1968-01-27
 layout: productions
 playbill:

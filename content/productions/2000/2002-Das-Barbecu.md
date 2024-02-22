@@ -1,6 +1,7 @@
 ---
 title: Das Barbecu
 date: 2002-11-01
+opening_date: 2002-11-01
 closing_date: 2002-11-16
 layout: productions
 playbill:

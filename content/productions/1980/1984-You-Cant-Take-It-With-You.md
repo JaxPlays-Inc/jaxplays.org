@@ -1,6 +1,7 @@
 ---
 title: You Can't Take It With You
 date: 1984-11-23
+opening_date: 1984-11-23
 closing_date: 1984-12-08
 layout: productions
 playbill:

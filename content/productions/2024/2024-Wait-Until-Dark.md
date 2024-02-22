@@ -3,6 +3,7 @@ title: Wait Until Dark
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
 date: 2024-03-14
+opening_date: 2024-03-14
 closing_date: 2024-03-30
 showtimes:
 - 2024-03-14 19:30:00

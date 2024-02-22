@@ -1,6 +1,7 @@
 ---
 title: Gypsy
 date: 1989-10-06
+opening_date: 1989-10-06
 closing_date: 1989-10-21
 layout: productions
 playbill:

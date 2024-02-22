@@ -3,6 +3,7 @@ title: Streetlight Woodpecker
 Theatre: Flagler College Department of Theater Arts
 Venue: Lewis Auditorium
 date: 2024-02-21
+opening_date: 2024-02-21
 closing_date: 2024-02-25
 showtimes:
 - 2024-02-21 19:30:00

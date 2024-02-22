@@ -1,6 +1,7 @@
 ---
 title: Lombardi, Limited
 date: 1938-11-15
+opening_date: 1938-11-15
 closing_date: 1938-11-18
 layout: productions
 playbill:

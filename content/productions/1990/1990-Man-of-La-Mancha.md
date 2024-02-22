@@ -1,6 +1,7 @@
 ---
 title: Man of La Mancha
 date: 1990-06-15
+opening_date: 1990-06-15
 closing_date: 1990-06-24
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Death Takes a Holiday
 date: 1937-05-25
+opening_date: 1937-05-25
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Diary of Anne Frank
 date: 1993-02-19
+opening_date: 1993-02-19
 closing_date: 1993-02-27
 layout: productions
 playbill:

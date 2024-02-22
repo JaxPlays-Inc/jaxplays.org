@@ -1,6 +1,7 @@
 ---
 title: Years Ago
 date: 1953-01-14
+opening_date: 1953-01-14
 closing_date: 1953-01-24
 layout: productions
 playbill:

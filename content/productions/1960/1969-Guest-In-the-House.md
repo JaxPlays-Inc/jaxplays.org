@@ -1,6 +1,7 @@
 ---
 title: Guest In the House
 date: 1969-05-23
+opening_date: 1969-05-23
 closing_date: 1969-05-31
 layout: productions
 playbill:

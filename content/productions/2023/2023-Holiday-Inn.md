@@ -3,6 +3,7 @@ title: Holiday Inn
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-11-24
+opening_date: 2023-11-24
 closing_date: 2023-12-22
 showtimes:
 - 2023-11-24 17:30:00

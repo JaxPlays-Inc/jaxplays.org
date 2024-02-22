@@ -1,6 +1,7 @@
 ---
 title: George and Margaret
 date: 1939-03-21
+opening_date: 1939-03-21
 closing_date: 1939-03-24
 layout: productions
 playbill:

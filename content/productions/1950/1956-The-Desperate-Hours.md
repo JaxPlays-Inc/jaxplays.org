@@ -1,6 +1,7 @@
 ---
 title: The Desperate Hours
 date: 1956-06-06
+opening_date: 1956-06-06
 closing_date: 1956-06-16
 layout: productions
 playbill:

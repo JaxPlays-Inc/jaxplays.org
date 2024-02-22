@@ -1,6 +1,7 @@
 ---
 title: Harvey
 date: 1951-05-25
+opening_date: 1951-05-25
 closing_date: 1951-06-02
 layout: productions
 playbill:

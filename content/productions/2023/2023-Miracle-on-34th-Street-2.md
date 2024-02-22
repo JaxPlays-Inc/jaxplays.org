@@ -3,6 +3,7 @@ title: Miracle on 34th Street - A Live Radio Play
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 date: 2023-12-01 
+opening_date: 2023-12-01 
 closing_date: 2023-12-16
 showtimes:
 - 2023-12-01 19:30:00

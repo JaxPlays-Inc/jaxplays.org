@@ -4,6 +4,7 @@ redirect_from:
 - /productions/2019_Love_Valour_Compassion
 title: Love! Valour! Compassion!
 date: 2019-10-18
+opening_date: 2019-10-18
 closing_date: 2019-10-20
 Genres: 
 - Play

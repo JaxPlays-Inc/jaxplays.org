@@ -3,6 +3,7 @@ title: The 39 Steps
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-09-13
+opening_date: 2023-09-13
 closing_date: 2023-09-23
 showtimes:
   - 2023-09-13 11:00:00

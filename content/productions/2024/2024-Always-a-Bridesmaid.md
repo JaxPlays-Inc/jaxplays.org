@@ -3,6 +3,7 @@ title: Always A Bridesmaid
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 date: 2024-06-13
+opening_date: 2024-06-13
 closing_date: 2024-07-07
 showtimes:
 - 2024-06-13 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: Murder Ballad
 date: 2023-08-11
+opening_date: 2023-08-11
 closing_date: 2023-08-27
 layout: productions
 featured_image: 2023_Murder_Ballad.webp

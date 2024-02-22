@@ -3,6 +3,7 @@ title: The Mistress of Wholesome
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-10-19
+opening_date: 2023-10-19
 closing_date: 2023-10-21
 showtimes:
 - 2023-10-19 11:00:00

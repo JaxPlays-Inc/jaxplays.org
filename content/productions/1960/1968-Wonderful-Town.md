@@ -1,6 +1,7 @@
 ---
 title: Wonderful Town
 date: 1968-11-15
+opening_date: 1968-11-15
 closing_date: 1968-11-23
 layout: productions
 playbill:

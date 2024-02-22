@@ -1,6 +1,7 @@
 ---
 title: For Distinguished Service
 date: 1924-04-12
+opening_date: 1924-04-12
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Candle-Light
 date: 1948-04-09
+opening_date: 1948-04-09
 closing_date: 1948-04-16
 layout: productions
 playbill:

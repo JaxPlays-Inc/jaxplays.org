@@ -1,6 +1,7 @@
 ---
 title: Meet the Missus
 date: 1935-02-26
+opening_date: 1935-02-26
 closing_date:
 layout: productions
 playbill:

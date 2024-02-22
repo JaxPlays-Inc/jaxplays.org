@@ -1,6 +1,7 @@
 ---
 title: Fashion Or Life In New York
 date: 1941-03-11
+opening_date: 1941-03-11
 closing_date: 1941-03-14
 layout: productions
 playbill:

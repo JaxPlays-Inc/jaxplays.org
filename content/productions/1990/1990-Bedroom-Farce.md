@@ -1,6 +1,7 @@
 ---
 title: Bedroom Farce
 date: 1990-01-26
+opening_date: 1990-01-26
 closing_date: 1990-02-10
 layout: productions
 playbill:

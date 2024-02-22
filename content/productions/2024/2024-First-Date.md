@@ -3,6 +3,7 @@ title: First Date
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 date: 2024-04-18
+opening_date: 2024-04-18
 closing_date: 2024-05-12
 showtimes:
 - 2024-04-18 19:30:00

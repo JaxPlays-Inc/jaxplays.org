@@ -1,6 +1,7 @@
 ---
 title: The Addams Family
 date: 2023-10-20
+opening_date: 2023-10-20
 closing_date: 2023-11-05
 featured_image: 2023-The-Addams-Family.webp
 featured_image_alt: Poster for The Addams Family

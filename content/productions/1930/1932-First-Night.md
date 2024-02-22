@@ -1,6 +1,7 @@
 ---
 title: First Night
 date: 1932-12-20
+opening_date: 1932-12-20
 closing_date:
 layout: productions
 playbill:

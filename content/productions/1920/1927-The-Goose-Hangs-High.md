@@ -1,6 +1,7 @@
 ---
 title: The Goose Hangs High
 date: 1927-12-20
+opening_date: 1927-12-20
 closing_date:
 layout: productions
 playbill:

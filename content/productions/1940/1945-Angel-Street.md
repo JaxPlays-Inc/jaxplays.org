@@ -1,6 +1,7 @@
 ---
 title: Angel Street
 date: 1945-03-02
+opening_date: 1945-03-02
 closing_date: 1945-03-11
 layout: productions
 playbill:

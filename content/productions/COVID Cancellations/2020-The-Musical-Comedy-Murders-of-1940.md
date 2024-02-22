@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: The Musical Comedy Murders of 1940
 date: 2020-06-12
+opening_date: 2020-06-12
 Theatre: Players by the Sea
 Website: https://www.playersbythesea.org/musical-comedy-murders-of-1940
 show_details:

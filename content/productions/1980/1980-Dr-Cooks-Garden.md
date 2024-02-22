@@ -1,6 +1,7 @@
 ---
 title: Dr. Cook's Garden
 date: 1980-11-21
+opening_date: 1980-11-21
 closing_date: 1980-12-06
 layout: productions
 playbill:

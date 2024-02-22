@@ -1,6 +1,7 @@
 ---
 title: In the Next Room
 date: 1929-12-10
+opening_date: 1929-12-10
 closing_date:
 layout: productions
 playbill:

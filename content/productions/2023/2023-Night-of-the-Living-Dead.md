@@ -3,6 +3,7 @@ title: Night of the Living Dead
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2023-10-20
+opening_date: 2023-10-20
 closing_date: 2023-10-29
 showtimes:
   - 2023-10-20 19:30:00

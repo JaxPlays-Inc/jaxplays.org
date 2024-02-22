@@ -1,6 +1,7 @@
 ---
 title: Sauce for the Emperor
 date: 1924-01-25
+opening_date: 1924-01-25
 closing_date:
 layout: productions
 playbill:

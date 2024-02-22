@@ -1,6 +1,7 @@
 ---
 title: Her Master's Voice
 date: 1939-01-17
+opening_date: 1939-01-17
 closing_date: 1939-01-20
 layout: productions
 playbill:

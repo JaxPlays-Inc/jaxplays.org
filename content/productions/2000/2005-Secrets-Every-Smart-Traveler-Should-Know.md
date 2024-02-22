@@ -1,6 +1,7 @@
 ---
 title: Secrets Every Smart Traveler Should Know
 date: 2005-11-04
+opening_date: 2005-11-04
 closing_date: 2005-11-19
 layout: productions
 playbill:

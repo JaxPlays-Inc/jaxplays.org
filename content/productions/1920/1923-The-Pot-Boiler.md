@@ -1,6 +1,7 @@
 ---
 title: The Pot Boiler
 date: 1923-12-16
+opening_date: 1923-12-16
 closing_date:
 layout: productions
 playbill:

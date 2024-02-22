@@ -3,6 +3,7 @@ title: Godspell
 redirect_from:
 - /productions/2005_Godspell
 date: 2005-03-24
+opening_date: 2005-03-24
 closing_date: 2005-03-25
 featured_image: 2005_Godspell.webp
 layout: productions

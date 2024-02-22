@@ -1,6 +1,7 @@
 ---
 title: George Washington Slept Here
 date: 1969-04-11
+opening_date: 1969-04-11
 closing_date: 1969-04-19
 layout: productions
 playbill:

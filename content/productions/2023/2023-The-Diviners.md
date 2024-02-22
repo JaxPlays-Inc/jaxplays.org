@@ -1,6 +1,7 @@
 ---
 title: The Diviners
 date: 2023-02-24
+opening_date: 2023-02-24
 closing_date: 2023-03-19
 layout: productions
 featured_image: 2023_The_Diviners.jpeg

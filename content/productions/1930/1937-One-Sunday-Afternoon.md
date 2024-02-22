@@ -1,6 +1,7 @@
 ---
 title: One Sunday Afternoon
 date: 1937-02-09
+opening_date: 1937-02-09
 closing_date:
 layout: productions
 playbill:

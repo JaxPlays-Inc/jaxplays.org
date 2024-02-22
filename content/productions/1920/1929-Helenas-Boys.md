@@ -1,6 +1,7 @@
 ---
 title: Helena's Boys
 date: 1929-11-12
+opening_date: 1929-11-12
 closing_date:
 layout: productions
 playbill:

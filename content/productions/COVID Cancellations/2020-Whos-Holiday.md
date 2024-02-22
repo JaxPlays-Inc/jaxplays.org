@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Who's Holiday
 date: 2020-12-04
+opening_date: 2020-12-04
 closing_date: 2020-12-13
 Theatre: The 5 & Dime
 Genres: 

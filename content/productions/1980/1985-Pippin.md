@@ -1,6 +1,7 @@
 ---
 title: Pippin
 date: 1985-05-10
+opening_date: 1985-05-10
 closing_date: 1985-05-25
 layout: productions
 playbill:

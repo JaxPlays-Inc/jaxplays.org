@@ -1,6 +1,7 @@
 ---
 title: The Silver Whistle
 date: 1950-05-19
+opening_date: 1950-05-19
 closing_date: 1950-05-27
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: George Washington Slept Here
 date: 1941-11-11
+opening_date: 1941-11-11
 closing_date: 1941-11-14
 layout: productions
 playbill:

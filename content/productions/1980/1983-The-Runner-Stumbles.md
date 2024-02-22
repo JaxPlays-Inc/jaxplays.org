@@ -1,6 +1,7 @@
 ---
 title: The Runner Stumbles
 date: 1983-12-02
+opening_date: 1983-12-02
 closing_date: 1983-12-17
 layout: productions
 playbill:

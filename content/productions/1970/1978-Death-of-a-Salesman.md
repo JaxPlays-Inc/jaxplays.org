@@ -1,6 +1,7 @@
 ---
 title: Death of a Salesman
 date: 1978-01-20
+opening_date: 1978-01-20
 closing_date: 1978-02-04
 layout: productions
 playbill:

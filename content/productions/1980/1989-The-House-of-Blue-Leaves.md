@@ -1,6 +1,7 @@
 ---
 title: The House of Blue Leaves
 date: 1989-01-03
+opening_date: 1989-01-03
 closing_date: 1989-01-18
 layout: productions
 playbill:

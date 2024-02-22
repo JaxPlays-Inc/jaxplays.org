@@ -1,6 +1,7 @@
 ---
 title: God's Man In Texas
 date: 2006-11-13
+opening_date: 2006-11-13
 closing_date: 2006-01-28
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: For Love Or Money
 date: 1956-04-25
+opening_date: 1956-04-25
 closing_date: 1956-05-05
 layout: productions
 playbill:

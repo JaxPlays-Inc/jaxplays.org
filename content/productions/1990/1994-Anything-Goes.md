@@ -1,6 +1,7 @@
 ---
 title: Anything Goes
 date: 1994-05-06
+opening_date: 1994-05-06
 closing_date: 1994-05-21
 layout: productions
 playbill:

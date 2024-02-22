@@ -1,6 +1,7 @@
 ---
 title: Noises Off
 date: 1987-03-13
+opening_date: 1987-03-13
 closing_date: 1987-03-28
 layout: productions
 playbill:

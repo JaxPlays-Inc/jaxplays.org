@@ -1,6 +1,7 @@
 ---
 title: Three-Cornered Moon
 date: 1935-04-16
+opening_date: 1935-04-16
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Guys & Dolls
 date: 1964-11-13
+opening_date: 1964-11-13
 closing_date: 1964-11-21
 layout: productions
 playbill:

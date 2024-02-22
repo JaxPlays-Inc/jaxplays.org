@@ -1,6 +1,7 @@
 ---
 title: Cock Robin
 date: 1940-01-23
+opening_date: 1940-01-23
 closing_date: 1940-01-26
 layout: productions
 playbill:

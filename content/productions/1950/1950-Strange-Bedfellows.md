@@ -1,6 +1,7 @@
 ---
 title: Strange Bedfellows
 date: 1950-11-17
+opening_date: 1950-11-17
 closing_date: 1950-11-25
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Much Ado About Nothing
 date: 1995-09-14
+opening_date: 1995-09-14
 closing_date: 1995-09-23
 layout: productions
 playbill:

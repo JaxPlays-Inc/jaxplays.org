@@ -1,6 +1,7 @@
 ---
 title: The Shadow Box
 date: 1985-01-25
+opening_date: 1985-01-25
 closing_date: 1985-02-09
 layout: productions
 playbill:

@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: The How and the Why
 date: 2020
+opening_date: 2020
 Genres: 
 - Play
 Theatre: Actors Collective

@@ -1,6 +1,7 @@
 ---
 title: Social Security
 date: 1990-05-25
+opening_date: 1990-05-25
 closing_date: 1990-06-09
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: John Brown's Body
 date: 1979-01-26
+opening_date: 1979-01-26
 closing_date: 1979-02-10
 layout: productions
 playbill:

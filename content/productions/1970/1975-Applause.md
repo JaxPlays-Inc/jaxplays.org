@@ -1,6 +1,7 @@
 ---
 title: Applause
 date: 1975-10-10
+opening_date: 1975-10-10
 closing_date: 1975-10-25
 layout: productions
 playbill:

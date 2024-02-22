@@ -1,6 +1,7 @@
 ---
 title: Within the Law
 date: 1932-04-29
+opening_date: 1932-04-29
 closing_date:
 layout: productions
 playbill:

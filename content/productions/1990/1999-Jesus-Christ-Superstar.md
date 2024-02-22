@@ -2,6 +2,7 @@
 title: Jesus Christ Superstar
 redirect_from: /1999_Jesus_Christ_Superstar
 date: 1999-08-19
+opening_date: 1999-08-19
 layout: productions
 featured_image: 1999_Jesus_Christ_Superstar.jpg
 featured_image_caption: Photo of the playbill

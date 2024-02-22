@@ -1,6 +1,7 @@
 ---
 title: The Man of Destiny
 date: 1924-02-25
+opening_date: 1924-02-25
 closing_date:
 layout: productions
 playbill:

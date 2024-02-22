@@ -1,6 +1,7 @@
 ---
 title: Couples
 date: 2024-05-03
+opening_date: 2024-05-03
 closing_date: 2024-05-12
 featured_image: 2024-Couples.webp
 featured_image_alt: 

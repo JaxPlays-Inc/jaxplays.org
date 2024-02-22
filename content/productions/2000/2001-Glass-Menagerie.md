@@ -1,6 +1,7 @@
 ---
 title: Glass Menagerie
 date: 2001-11-02
+opening_date: 2001-11-02
 closing_date: 2001-11-17
 layout: productions
 playbill:

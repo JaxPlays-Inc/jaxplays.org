@@ -1,6 +1,7 @@
 ---
 title: Moon Children
 date: 2015-04-09
+opening_date: 2015-04-09
 closing_date: 2015-04-12
 featured_image: 2015-Moon-Children.webp
 featured_image_alt: 

@@ -1,6 +1,7 @@
 ---
 title: Visit to a Small Planet
 date: 1958-10-01
+opening_date: 1958-10-01
 closing_date: 1958-10-11
 layout: productions
 playbill:

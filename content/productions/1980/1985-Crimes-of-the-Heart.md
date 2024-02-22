@@ -1,6 +1,7 @@
 ---
 title: Crimes of the Heart
 date: 1985-03-15
+opening_date: 1985-03-15
 closing_date: 1985-03-30
 layout: productions
 playbill:

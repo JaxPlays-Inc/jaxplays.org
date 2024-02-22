@@ -1,6 +1,7 @@
 ---
 title: I Remember Mama
 date: 1946-05-24
+opening_date: 1946-05-24
 closing_date: 1946-05-31
 layout: productions
 playbill:

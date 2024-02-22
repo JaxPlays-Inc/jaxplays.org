@@ -1,6 +1,7 @@
 ---
 title: The Bishop Misbehaves
 date: 1937-04-13
+opening_date: 1937-04-13
 closing_date: 1937-04-14
 layout: productions
 playbill:

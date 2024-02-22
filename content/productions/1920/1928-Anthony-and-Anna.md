@@ -1,6 +1,7 @@
 ---
 title: Anthony and Anna
 date: 1928-11-20
+opening_date: 1928-11-20
 closing_date:
 layout: productions
 playbill:

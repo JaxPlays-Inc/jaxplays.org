@@ -1,6 +1,7 @@
 ---
 title: Tick, Tick... Boom!
 date: 2023-08-11
+opening_date: 2023-08-11
 closing_date: 2023-08-19
 layout: productions
 featured_image: 2023_Tik_Tik_Boom.webp

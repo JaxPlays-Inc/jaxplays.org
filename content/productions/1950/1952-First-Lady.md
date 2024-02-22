@@ -1,6 +1,7 @@
 ---
 title: First Lady
 date: 1952-10-01
+opening_date: 1952-10-01
 closing_date: 1952-10-11
 layout: productions
 playbill:

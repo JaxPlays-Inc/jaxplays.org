@@ -3,6 +3,7 @@ title: Twelfth Night
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2024-01-05
+opening_date: 2024-01-05
 closing_date: 2024-01-14
 showtimes:
   - 2024-01-05 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: For Peter Pan On Her 70th Birthday
 date: 2023-09-15
+opening_date: 2023-09-15
 closing_date: 2023-09-23
 layout: productions
 featured_image: 2023_For_Peter_Pan_On_Her_70th_Birthday.webp

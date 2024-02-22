@@ -3,6 +3,7 @@ title: Newsies
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2023-10-06
+opening_date: 2023-10-06
 closing_date: 2023-10-15
 showtimes:
   - 2023-10-06 19:30:00

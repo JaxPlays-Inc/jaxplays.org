@@ -1,6 +1,7 @@
 ---
 title: The Jade God
 date: 1933-02-14
+opening_date: 1933-02-14
 closing_date:
 layout: productions
 playbill:

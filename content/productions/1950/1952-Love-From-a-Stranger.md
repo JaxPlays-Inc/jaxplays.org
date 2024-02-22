@@ -1,6 +1,7 @@
 ---
 title: Love From a Stranger
 date: 1952-01-18
+opening_date: 1952-01-18
 closing_date: 1952-01-26
 layout: productions
 playbill:

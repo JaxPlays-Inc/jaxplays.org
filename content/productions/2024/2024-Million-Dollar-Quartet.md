@@ -3,6 +3,7 @@ title: Million Dollar Quartet
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 date: 2024-01-11
+opening_date: 2024-01-11
 closing_date: 2024-02-18
 showtimes:
   - 2024-01-11 12:00:00

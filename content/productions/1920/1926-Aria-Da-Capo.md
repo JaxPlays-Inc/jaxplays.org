@@ -1,6 +1,7 @@
 ---
 title: Aria Da Capo
 date: 1926-02-16
+opening_date: 1926-02-16
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Shining Hour
 date: 1942-04-21
+opening_date: 1942-04-21
 closing_date: 1942-04-24
 layout: productions
 playbill:

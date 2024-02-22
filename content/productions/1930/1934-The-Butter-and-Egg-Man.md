@@ -1,6 +1,7 @@
 ---
 title: The Butter and Egg Man
 date: 1934-02-13
+opening_date: 1934-02-13
 closing_date:
 layout: productions
 playbill:

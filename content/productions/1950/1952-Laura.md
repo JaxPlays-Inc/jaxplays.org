@@ -1,6 +1,7 @@
 ---
 title: Laura
 date: 1952-11-12
+opening_date: 1952-11-12
 closing_date: 1952-11-22
 layout: productions
 playbill:

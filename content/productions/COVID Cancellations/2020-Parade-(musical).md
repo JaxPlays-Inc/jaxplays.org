@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Parade (musical)
 date: 2020
+opening_date: 2020
 category: musical
 Theatre: Limelight Theatre
 show_details:

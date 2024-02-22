@@ -1,6 +1,7 @@
 ---
 title: Lost In Yonkers
 date: 1999-04-23
+opening_date: 1999-04-23
 closing_date: 1999-05-08
 layout: productions
 playbill:

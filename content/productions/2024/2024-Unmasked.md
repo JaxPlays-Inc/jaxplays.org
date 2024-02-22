@@ -3,6 +3,7 @@ title: Unmasked
 Theatre: Act II Players
 Venue: Mandarin Community Club
 date: 2024-01-11
+opening_date: 2024-01-11
 closing_date: 2024-01-14
 showtimes:
   - 2024-01-11 19:00:00

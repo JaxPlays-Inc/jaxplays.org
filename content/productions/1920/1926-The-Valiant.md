@@ -1,6 +1,7 @@
 ---
 title: The Valiant
 date: 1926-01-26
+opening_date: 1926-01-26
 closing_date: 1926-01-27
 layout: productions
 playbill:

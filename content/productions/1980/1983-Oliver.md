@@ -1,6 +1,7 @@
 ---
 title: Oliver!
 date: 1983-10-14
+opening_date: 1983-10-14
 closing_date: 1983-10-29
 layout: productions
 playbill:

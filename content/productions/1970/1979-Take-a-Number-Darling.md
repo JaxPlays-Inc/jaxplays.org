@@ -1,6 +1,7 @@
 ---
 title: Take a Number, Darling
 date: 1979-03-23
+opening_date: 1979-03-23
 closing_date: 1979-04-07
 layout: productions
 playbill:

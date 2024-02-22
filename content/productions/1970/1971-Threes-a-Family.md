@@ -1,6 +1,7 @@
 ---
 title: Three's a Family
 date: 1971-11-26
+opening_date: 1971-11-26
 closing_date: 1971-12-11
 layout: productions
 playbill:

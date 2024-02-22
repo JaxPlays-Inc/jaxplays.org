@@ -3,6 +3,7 @@ title: 9 To 5 The Musical
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 date: 2024-07-18
+opening_date: 2024-07-18
 closing_date: 2024-08-11
 showtimes:
 - 2024-07-18 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: Light Up the Sky
 date: 1986-01-24
+opening_date: 1986-01-24
 closing_date: 1986-02-08
 layout: productions
 playbill:

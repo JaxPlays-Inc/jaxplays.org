@@ -1,6 +1,7 @@
 ---
 title: The Silver Cord
 date: 1939-12-05
+opening_date: 1939-12-05
 closing_date: 1939-12-08
 layout: productions
 playbill:

@@ -2,6 +2,7 @@
 layout: productions
 title: The 25th Annual Putnam County Spelling Bee
 date: 2010-12-31
+opening_date: 2010-12-31
 approx_date: year
 category: musical comedy
 Theatre: ABET - All Beaches Experimental Theatre

@@ -1,6 +1,7 @@
 ---
 title: The Miracle Worker
 date: 1967-02-24
+opening_date: 1967-02-24
 closing_date: 1967-03-04
 layout: productions
 playbill:

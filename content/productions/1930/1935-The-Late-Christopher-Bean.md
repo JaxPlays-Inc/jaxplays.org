@@ -1,6 +1,7 @@
 ---
 title: The Late Christopher Bean
 date: 1935-11-11
+opening_date: 1935-11-11
 closing_date:
 layout: productions
 playbill:

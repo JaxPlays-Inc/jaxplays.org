@@ -1,6 +1,7 @@
 ---
 title: A Little Night Music
 date: 1998-06-05
+opening_date: 1998-06-05
 closing_date: 1998-06-20
 layout: productions
 playbill:

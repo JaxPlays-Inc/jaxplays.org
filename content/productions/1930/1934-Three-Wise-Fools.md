@@ -1,6 +1,7 @@
 ---
 title: Three Wise Fools
 date: 1934-11-20
+opening_date: 1934-11-20
 closing_date:
 layout: productions
 playbill:

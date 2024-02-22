@@ -3,6 +3,7 @@ title: Escape to Margaritaville
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 date: 2023-11-10
+opening_date: 2023-11-10
 closing_date: 2023-11-26
 showtimes:
 - 2023-11-10 19:30:00

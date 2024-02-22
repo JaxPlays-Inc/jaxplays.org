@@ -1,6 +1,7 @@
 ---
 title: Bus Stop
 date: 1977-01-21
+opening_date: 1977-01-21
 closing_date: 1977-02-05
 layout: productions
 playbill:

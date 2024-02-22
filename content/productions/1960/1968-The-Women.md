@@ -1,6 +1,7 @@
 ---
 title: The Women
 date: 1968-04-05
+opening_date: 1968-04-05
 closing_date: 1968-04-20
 layout: productions
 playbill:

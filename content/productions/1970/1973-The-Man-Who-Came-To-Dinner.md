@@ -1,6 +1,7 @@
 ---
 title: The Man Who Came To Dinner
 date: 1973-11-30
+opening_date: 1973-11-30
 closing_date: 1973-12-15
 layout: productions
 playbill:

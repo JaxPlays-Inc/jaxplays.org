@@ -1,6 +1,7 @@
 ---
 title: Suspect
 date: 1960-01-15
+opening_date: 1960-01-15
 closing_date: 1960-01-23
 layout: productions
 playbill:

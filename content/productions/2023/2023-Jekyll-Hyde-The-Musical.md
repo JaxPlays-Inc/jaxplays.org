@@ -1,6 +1,7 @@
 ---
 title: "Jekyll & Hyde: The Musical"
 date: 2023-10-13
+opening_date: 2023-10-13
 closing_date: 2023-10-22
 layout: productions
 featured_image: 2023_Jekyll_Hyde_The_Musical.webp

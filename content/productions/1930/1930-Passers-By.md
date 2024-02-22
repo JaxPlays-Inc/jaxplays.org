@@ -1,6 +1,7 @@
 ---
 title: Passers By
 date: 1930-11-13
+opening_date: 1930-11-13
 closing_date:
 layout: productions
 playbill:

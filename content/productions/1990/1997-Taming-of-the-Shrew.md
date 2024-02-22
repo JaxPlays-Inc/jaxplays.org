@@ -1,6 +1,7 @@
 ---
 title: The Taming of the Shrew
 date: 1997-09-01
+opening_date: 1997-09-01
 closing_date:
 layout: productions
 playbill:

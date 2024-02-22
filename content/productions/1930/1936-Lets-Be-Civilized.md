@@ -1,6 +1,7 @@
 ---
 title: Let's Be Civilized
 date: 1936-03-24
+opening_date: 1936-03-24
 closing_date:
 layout: productions
 playbill:

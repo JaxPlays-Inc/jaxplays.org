@@ -1,6 +1,7 @@
 ---
 title: An Inspector Calls
 date: 2003-01-17
+opening_date: 2003-01-17
 closing_date: 2003-02-01
 layout: productions
 playbill:

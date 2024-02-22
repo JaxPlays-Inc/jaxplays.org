@@ -3,6 +3,7 @@ title: A Wrinkle in Time
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2023-09-22
+opening_date: 2023-09-22
 closing_date: 2023-10-01
 showtimes:
   - 2023-09-22 19:30:00

@@ -3,6 +3,7 @@ title: Footloose
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2023-08-18
+opening_date: 2023-08-18
 closing_date: 2023-09-10
 showtimes:
 - 2023-08-18 20:00:00

@@ -1,6 +1,7 @@
 ---
 title: Kiss and Tell
 date: 1944-10-20
+opening_date: 1944-10-20
 closing_date: 1944-10-27
 layout: productions
 playbill:

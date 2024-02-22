@@ -1,6 +1,7 @@
 ---
 title: A Shayna Maidel
 date: 2004-04-23
+opening_date: 2004-04-23
 closing_date: 2004-05-08
 layout: productions
 playbill:

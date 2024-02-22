@@ -1,6 +1,7 @@
 ---
 title: The Imaginary Invalid
 date: 1981-01-16
+opening_date: 1981-01-16
 closing_date: 1981-01-31
 layout: productions
 playbill:

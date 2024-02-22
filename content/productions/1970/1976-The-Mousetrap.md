@@ -1,6 +1,7 @@
 ---
 title: The Mousetrap
 date: 1976-03-12
+opening_date: 1976-03-12
 closing_date: 1976-03-27
 layout: productions
 playbill:

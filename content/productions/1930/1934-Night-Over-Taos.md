@@ -1,6 +1,7 @@
 ---
 title: Night Over Taos
 date: 1934-03-27
+opening_date: 1934-03-27
 closing_date:
 layout: productions
 playbill:

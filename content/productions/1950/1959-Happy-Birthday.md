@@ -1,6 +1,7 @@
 ---
 title: Happy Birthday
 date: 1959-10-02
+opening_date: 1959-10-02
 closing_date: 1959-10-10
 layout: productions
 playbill:

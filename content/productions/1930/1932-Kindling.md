@@ -1,6 +1,7 @@
 ---
 title: Kindling
 date: 1932-03-29
+opening_date: 1932-03-29
 closing_date:
 layout: productions
 playbill:

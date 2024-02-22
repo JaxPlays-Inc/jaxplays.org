@@ -1,6 +1,7 @@
 ---
 title: Someone Waiting
 date: 1970-11-20
+opening_date: 1970-11-20
 closing_date: 1970-12-05
 layout: productions
 playbill:

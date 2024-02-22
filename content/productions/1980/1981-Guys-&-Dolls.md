@@ -1,6 +1,7 @@
 ---
 title: Guys & Dolls
 date: 1981-10-02
+opening_date: 1981-10-02
 closing_date: 1981-10-17
 layout: productions
 playbill:

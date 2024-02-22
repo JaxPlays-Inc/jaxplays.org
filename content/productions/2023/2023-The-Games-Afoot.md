@@ -3,6 +3,7 @@ title: The Game's Afoot
 Theatre: Flagler College Department of Theater Arts
 Venue: Lewis Auditorium
 date: 2023-10-19
+opening_date: 2023-10-19
 closing_date: 2023-10-22
 showtimes:
 - 2023-10-19 19:30:00

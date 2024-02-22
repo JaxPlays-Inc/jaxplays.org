@@ -1,6 +1,7 @@
 ---
 title: Musical Comedy of Murders of 1940
 date: 2000-04-21
+opening_date: 2000-04-21
 closing_date: 2000-05-06
 layout: productions
 playbill:

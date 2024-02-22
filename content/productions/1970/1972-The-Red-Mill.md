@@ -1,6 +1,7 @@
 ---
 title: The Red Mill
 date: 1972-03-10
+opening_date: 1972-03-10
 closing_date: 1972-03-25
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Beyond the Horizon
 date: 1941-04-08
+opening_date: 1941-04-08
 closing_date: 1941-04-11
 layout: productions
 playbill:

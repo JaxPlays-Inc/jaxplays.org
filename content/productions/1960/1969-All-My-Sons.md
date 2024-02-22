@@ -1,6 +1,7 @@
 ---
 title: All My Sons
 date: 1969-02-21
+opening_date: 1969-02-21
 closing_date: 1969-03-01
 layout: productions
 playbill:

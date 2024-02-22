@@ -1,6 +1,7 @@
 ---
 title: Harvey
 date: 1981-03-13
+opening_date: 1981-03-13
 closing_date: 1981-03-28
 layout: productions
 playbill:

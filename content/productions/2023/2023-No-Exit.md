@@ -1,6 +1,7 @@
 ---
 title: No Exit
 date: 2023-07-28
+opening_date: 2023-07-28
 closing_date: 2023-08-12
 layout: productions
 featured_image: 2023_No_Exit.gif

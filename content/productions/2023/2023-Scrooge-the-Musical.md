@@ -3,6 +3,7 @@ title: "Scrooge: The Musical"
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
 date: 2023-12-01
+opening_date: 2023-12-01
 closing_date: 2023-12-10
 showtimes:
 - 2023-12-01 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: The Grapes of Wrath
 date: 2008-02-14
+opening_date: 2008-02-14
 closing_date: 2008-02-23
 showtimes:
 - 2008-02-14 19:30:00

@@ -3,6 +3,7 @@ title: Annie JR.
 Theatre: Apex Theatre Studio
 Venue: Ponte Vedra Concert Hall
 date: 2023-12-15
+opening_date: 2023-12-15
 closing_date: 2023-12-17
 showtimes:
   - 2023-12-15 19:30:00

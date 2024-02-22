@@ -1,6 +1,7 @@
 ---
 title: The Barber of Seville
 date: 2024-02-04
+opening_date: 2024-02-04
 closing_date: 2024-02-04
 featured_image: 2024-The-Barber-of-Seville.webp
 featured_image_alt: Poster of The Barber of Seville

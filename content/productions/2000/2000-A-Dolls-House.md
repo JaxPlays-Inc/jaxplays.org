@@ -1,6 +1,7 @@
 ---
 title: A Doll's House
 date: 2000-01-14
+opening_date: 2000-01-14
 closing_date: 2000-01-29
 layout: productions
 playbill:

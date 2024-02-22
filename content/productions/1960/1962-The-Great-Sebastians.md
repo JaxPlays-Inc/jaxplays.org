@@ -1,6 +1,7 @@
 ---
 title: The Great Sebastians
 date: 1962-02-23
+opening_date: 1962-02-23
 closing_date: 1962-03-03
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Cabaret
 date: 1984-07-06
+opening_date: 1984-07-06
 closing_date: 1984-07-28
 layout: productions
 playbill:

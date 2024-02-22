@@ -1,6 +1,7 @@
 ---
 title: A Man for All Seasons
 date: 1971-02-19
+opening_date: 1971-02-19
 closing_date: 1971-03-06
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: "Elvis: A Musical Revolution"
 date: 2023-09-14
+opening_date: 2023-09-14
 closing_date: 2023-09-24
 featured_image: 2023-Elvis-A-Musical-Revolution.webp
 featured_image_alt: 

@@ -1,6 +1,7 @@
 ---
 title: Detective Story
 date: 1959-04-08
+opening_date: 1959-04-08
 closing_date: 1959-04-18
 layout: productions
 playbill:

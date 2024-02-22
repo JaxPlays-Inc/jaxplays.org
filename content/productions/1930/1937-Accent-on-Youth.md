@@ -1,6 +1,7 @@
 ---
 title: Accent on Youth
 date: 1937-01-12
+opening_date: 1937-01-12
 closing_date:
 layout: productions
 playbill:

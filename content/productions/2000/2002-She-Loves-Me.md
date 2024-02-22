@@ -1,6 +1,7 @@
 ---
 title: She Loves Me
 date: 2002-06-14
+opening_date: 2002-06-14
 closing_date: 2002-06-29
 layout: productions
 playbill:

@@ -4,6 +4,7 @@ title: Shadowlands
 redirect_from:
 - /productions/2020_Shadowlands
 date: 2020-01-10
+opening_date: 2020-01-10
 closing_date: 2020-01-26
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse

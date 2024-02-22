@@ -1,6 +1,7 @@
 ---
 title: The Boy Friend
 date: 1959-11-20
+opening_date: 1959-11-20
 closing_date: 1959-11-28
 layout: productions
 playbill:

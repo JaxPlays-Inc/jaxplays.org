@@ -1,6 +1,7 @@
 ---
 title: A View From the Bridge
 date: 1981-11-27
+opening_date: 1981-11-27
 closing_date: 1981-12-12
 layout: productions
 playbill:

@@ -2,6 +2,7 @@
 layout: productions
 title: Peter Pan
 date: 2012-12-31
+opening_date: 2012-12-31
 approx_date: year
 Theatre: FSCJ Summer Musical Theatre Experience
 cast:

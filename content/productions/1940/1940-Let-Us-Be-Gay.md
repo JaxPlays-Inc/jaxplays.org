@@ -1,6 +1,7 @@
 ---
 title: Let Us Be Gay
 date: 1940-10-08
+opening_date: 1940-10-08
 closing_date: 1940-10-11
 layout: productions
 playbill:

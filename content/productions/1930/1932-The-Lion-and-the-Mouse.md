@@ -1,6 +1,7 @@
 ---
 title: The Lion and the Mouse
 date: 1932-02-23
+opening_date: 1932-02-23
 closing_date:
 layout: productions
 playbill:

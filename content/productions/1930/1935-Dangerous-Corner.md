@@ -1,6 +1,7 @@
 ---
 title: Dangerous Corner
 date: 1935-03-12
+opening_date: 1935-03-12
 closing_date:
 layout: productions
 playbill:

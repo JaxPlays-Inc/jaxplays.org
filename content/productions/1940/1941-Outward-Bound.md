@@ -1,6 +1,7 @@
 ---
 title: Outward Bound
 date: 1941-12-09
+opening_date: 1941-12-09
 closing_date: 1941-12-12
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: A Community of Two
 date: 1977-11-25
+opening_date: 1977-11-25
 closing_date: 1977-12-10
 layout: productions
 playbill:

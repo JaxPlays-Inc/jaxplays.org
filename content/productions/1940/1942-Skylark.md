@@ -1,6 +1,7 @@
 ---
 title: Skylark
 date: 1942-03-24
+opening_date: 1942-03-24
 closing_date: 1942-03-27
 layout: productions
 playbill:

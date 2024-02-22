@@ -1,6 +1,7 @@
 ---
 title: Goodbye My Fancy
 date: 1951-01-19
+opening_date: 1951-01-19
 closing_date: 1951-01-27
 layout: productions
 playbill:

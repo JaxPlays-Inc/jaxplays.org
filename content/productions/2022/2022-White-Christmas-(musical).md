@@ -2,6 +2,7 @@
 layout: productions
 title: White Christmas
 date: 2022-11-17
+opening_date: 2022-11-17
 closing_date: 2022-12-24
 featured_image: 2022_White_Christmas_(musical).jpg
 featured_image_attr:

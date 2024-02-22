@@ -1,6 +1,7 @@
 ---
 title: Lost Horizon
 date: 1951-04-13
+opening_date: 1951-04-13
 closing_date: 1951-04-21
 layout: productions
 playbill:

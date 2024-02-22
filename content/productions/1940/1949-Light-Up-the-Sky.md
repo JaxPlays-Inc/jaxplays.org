@@ -1,6 +1,7 @@
 ---
 title: Light Up the Sky
 date: 1949-10-14
+opening_date: 1949-10-14
 closing_date: 1949-10-22
 layout: productions
 playbill:

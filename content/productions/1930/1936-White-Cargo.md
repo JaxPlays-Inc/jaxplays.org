@@ -1,6 +1,7 @@
 ---
 title: White Cargo
 date: 1936-06-02
+opening_date: 1936-06-02
 closing_date:
 layout: productions
 playbill:

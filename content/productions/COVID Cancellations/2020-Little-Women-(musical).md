@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Little Women (musical)
 date: 2020-05-07
+opening_date: 2020-05-07
 closing_date: 2020-06-07
 Genres:
 - Musical

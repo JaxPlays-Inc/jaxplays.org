@@ -3,6 +3,7 @@ title: "Just Desserts: A Musical Bake-Off"
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 date: 2023-11-03
+opening_date: 2023-11-03
 closing_date: 2023-11-19
 showtimes:
 - 2023-11-03 19:30:00

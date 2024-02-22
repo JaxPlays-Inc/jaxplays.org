@@ -1,6 +1,7 @@
 ---
 title: The Miss Firecracker Contest
 date: 1995-11-03
+opening_date: 1995-11-03
 closing_date: 1995-11-19
 layout: productions
 playbill:

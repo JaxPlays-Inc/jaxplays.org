@@ -1,6 +1,7 @@
 ---
 title: Jewel Robery
 date: 1934-04-10
+opening_date: 1934-04-10
 closing_date:
 layout: productions
 playbill:

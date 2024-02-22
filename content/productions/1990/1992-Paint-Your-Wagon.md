@@ -1,6 +1,7 @@
 ---
 title: Paint Your Wagon
 date: 1992-06-04
+opening_date: 1992-06-04
 closing_date: 1992-06-14
 layout: productions
 playbill:

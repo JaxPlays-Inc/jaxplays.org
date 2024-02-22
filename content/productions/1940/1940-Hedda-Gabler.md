@@ -1,6 +1,7 @@
 ---
 title: Hedda Gabler
 date: 1940-03-26
+opening_date: 1940-03-26
 closing_date: 1940-03-29
 layout: productions
 playbill:

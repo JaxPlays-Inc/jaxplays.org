@@ -1,6 +1,7 @@
 ---
 title: My Three Angels
 date: 1954-06-02
+opening_date: 1954-06-02
 closing_date: 1954-06-12
 layout: productions
 playbill:

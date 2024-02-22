@@ -1,6 +1,7 @@
 ---
 title: The Fantasticks
 date: 1987-05-15
+opening_date: 1987-05-15
 closing_date: 1987-05-30
 layout: productions
 playbill:

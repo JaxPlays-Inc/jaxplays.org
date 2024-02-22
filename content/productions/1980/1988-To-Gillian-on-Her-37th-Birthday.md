@@ -1,6 +1,7 @@
 ---
 title: To Gillian on Her 37th Birthday
 date: 1988-03-18
+opening_date: 1988-03-18
 closing_date: 1988-04-02
 layout: productions
 playbill:

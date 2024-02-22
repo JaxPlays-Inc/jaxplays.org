@@ -1,6 +1,7 @@
 ---
 title: Guys and Dolls
 date: 2007-06-08
+opening_date: 2007-06-08
 closing_date: 2007-06-23
 layout: productions
 playbill:

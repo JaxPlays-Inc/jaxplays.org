@@ -1,6 +1,7 @@
 ---
 title: Middle of the Night
 date: 1963-01-10
+opening_date: 1963-01-10
 closing_date: 1963-01-19
 layout: productions
 playbill:

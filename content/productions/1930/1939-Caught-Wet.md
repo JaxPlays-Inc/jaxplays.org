@@ -1,6 +1,7 @@
 ---
 title: Caught Wet
 date: 1939-03-01
+opening_date: 1939-03-01
 closing_date: 1939-03-03
 layout: productions
 playbill:

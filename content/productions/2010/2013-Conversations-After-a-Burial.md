@@ -3,6 +3,7 @@ title: Conversations After a Burial
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 date: 2013-02-01
+opening_date: 2013-02-01
 closing_date: 2013-02-16
 showtimes:
   - 2013-02-01 20:00:00

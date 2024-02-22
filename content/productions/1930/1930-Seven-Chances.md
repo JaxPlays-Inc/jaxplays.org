@@ -1,6 +1,7 @@
 ---
 title: Seven Chances
 date: 1930-03-11
+opening_date: 1930-03-11
 closing_date:
 layout: productions
 playbill:

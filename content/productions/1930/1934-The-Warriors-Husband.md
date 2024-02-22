@@ -1,6 +1,7 @@
 ---
 title: The Warrior's Husband
 date: 1934-12-04
+opening_date: 1934-12-04
 closing_date:
 layout: productions
 playbill:

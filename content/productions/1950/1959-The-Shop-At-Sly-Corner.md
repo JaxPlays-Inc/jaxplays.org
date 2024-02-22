@@ -1,6 +1,7 @@
 ---
 title: The Shop At Sly Corner
 date: 1959-01-14
+opening_date: 1959-01-14
 closing_date: 1959-01-24
 layout: productions
 playbill:

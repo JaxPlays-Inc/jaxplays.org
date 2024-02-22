@@ -1,6 +1,7 @@
 ---
 title: South Pacific
 date: 1965-01-01
+opening_date: 1965-01-01
 closing_date: 1965-12-31
 layout: productions
 playbill:

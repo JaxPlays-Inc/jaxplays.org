@@ -1,6 +1,7 @@
 ---
 title: The Princess Marries the Page
 date: 1927-02-08
+opening_date: 1927-02-08
 closing_date: 1927-02-09
 layout: productions
 playbill:

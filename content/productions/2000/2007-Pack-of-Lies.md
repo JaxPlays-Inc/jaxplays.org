@@ -1,6 +1,7 @@
 ---
 title: Pack of Lies
 date: 2007-03-02
+opening_date: 2007-03-02
 closing_date: 2007-03-17
 layout: productions
 playbill:

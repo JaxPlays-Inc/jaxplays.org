@@ -3,6 +3,7 @@ title: The Rocky Horror Show
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 date: 2023-10-13
+opening_date: 2023-10-13
 closing_date: 2023-10-28
 showtimes:
 - 2023-10-13 23:00:00

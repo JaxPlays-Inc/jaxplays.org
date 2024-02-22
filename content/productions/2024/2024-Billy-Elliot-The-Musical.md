@@ -3,6 +3,7 @@ title: "Billy Elliot: The Musical"
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 date: 2024-02-09
+opening_date: 2024-02-09
 closing_date: 2024-02-24
 showtimes:
 - 2024-02-09 19:30:00

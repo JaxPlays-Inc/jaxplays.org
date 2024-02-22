@@ -1,6 +1,7 @@
 ---
 title: Howie
 date: 1961-05-26
+opening_date: 1961-05-26
 closing_date: 1961-06-03
 layout: productions
 playbill:

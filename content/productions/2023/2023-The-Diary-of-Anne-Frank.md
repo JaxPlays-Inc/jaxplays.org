@@ -1,6 +1,7 @@
 ---
 title: The Diary of Anne Frank
 date: 2023-09-21
+opening_date: 2023-09-21
 closing_date: 2023-10-01
 layout: productions
 featured_image: 2023_The_Diary_of_Anne_Frank.webp

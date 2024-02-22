@@ -1,6 +1,7 @@
 ---
 title: Four Weddings and an Elvis
 date: 2023-04-21
+opening_date: 2023-04-21
 closing_date: 2023-05-07
 layout: productions
 featured_image: 2023_Four_Weddings_and_an_Elvis.jpeg

@@ -1,6 +1,7 @@
 ---
 title: Prelude to a Kiss
 date: 1995-04-21
+opening_date: 1995-04-21
 closing_date: 1995-05-06
 layout: productions
 playbill:

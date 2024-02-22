@@ -1,6 +1,7 @@
 ---
 title: Silent Heroes
 date: 2006-03-03
+opening_date: 2006-03-03
 closing_date: 2006-03-18
 layout: productions
 playbill:

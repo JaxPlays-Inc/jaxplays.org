@@ -1,6 +1,7 @@
 ---
 title: The Lion In Winter
 date: 1987-12-04
+opening_date: 1987-12-04
 closing_date: 1987-12-19
 layout: productions
 playbill:

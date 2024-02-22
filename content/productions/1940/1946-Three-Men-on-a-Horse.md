@@ -1,6 +1,7 @@
 ---
 title: Three Men on a Horse
 date: 1946-03-01
+opening_date: 1946-03-01
 closing_date: 1946-03-08
 layout: productions
 playbill:

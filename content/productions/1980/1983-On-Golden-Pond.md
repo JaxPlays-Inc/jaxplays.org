@@ -1,6 +1,7 @@
 ---
 title: On Golden Pond
 date: 1983-03-11
+opening_date: 1983-03-11
 closing_date: 1983-03-26
 layout: productions
 playbill:

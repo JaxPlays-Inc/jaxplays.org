@@ -1,6 +1,7 @@
 ---
 title: Giants In the Earth
 date: 1931-03-17
+opening_date: 1931-03-17
 closing_date:
 layout: productions
 playbill:

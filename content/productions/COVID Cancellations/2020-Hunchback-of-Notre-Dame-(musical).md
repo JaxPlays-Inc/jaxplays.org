@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: The Hunchback of Notre Dame (musical)
 date: 2020
+opening_date: 2020
 category: musical
 Theatre: Players by the Sea
 Website: https://www.playersbythesea.org/hunchback-of-notre-dame

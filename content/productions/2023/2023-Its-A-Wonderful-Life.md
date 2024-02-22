@@ -3,6 +3,7 @@ title: It's a Wonderful Life
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2023-12-14
+opening_date: 2023-12-14
 closing_date: 2023-12-23
 showtimes:
   - 2023-12-14 19:30:00

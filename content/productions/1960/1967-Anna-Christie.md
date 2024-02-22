@@ -1,6 +1,7 @@
 ---
 title: Anna Christie
 date: 1967-01-21
+opening_date: 1967-01-21
 closing_date: 1967-01-28
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Company
 date: 1977-10-07
+opening_date: 1977-10-07
 closing_date: 1977-10-22
 layout: productions
 playbill:

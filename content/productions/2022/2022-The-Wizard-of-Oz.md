@@ -2,6 +2,7 @@
 layout: productions
 title: The Wizard of Oz
 date: 2022-06-16
+opening_date: 2022-06-16
 closing_date: 2022-07-24
 featured_image: 2022_The_Wizard_of_Oz.jpg
 featured_image_attr:

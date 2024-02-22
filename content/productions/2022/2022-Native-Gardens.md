@@ -2,6 +2,7 @@
 layout: productions
 title: Native Gardens
 date: 2022-06-16
+opening_date: 2022-06-16
 closing_date: 2022-06-19
 featured_image: 2022_Native_Gardens.jpg
 featured_image_attr:

@@ -1,6 +1,7 @@
 ---
 title: Kiss Me Kate
 date: 1971-10-08
+opening_date: 1971-10-08
 closing_date: 1971-10-23
 layout: productions
 playbill:

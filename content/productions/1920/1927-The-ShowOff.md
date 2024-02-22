@@ -1,6 +1,7 @@
 ---
 title: The Show-Off
 date: 1927-11-22
+opening_date: 1927-11-22
 closing_date:
 layout: productions
 playbill:

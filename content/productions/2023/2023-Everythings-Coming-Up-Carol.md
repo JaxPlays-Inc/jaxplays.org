@@ -3,6 +3,7 @@ title: "Everything's Coming Up Carol: A Tribute Show"
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-09-28
+opening_date: 2023-09-28
 closing_date: 2023-10-14
 showtimes:
   - 2023-09-28 12:00:00

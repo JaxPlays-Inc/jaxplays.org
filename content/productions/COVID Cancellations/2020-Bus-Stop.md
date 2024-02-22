@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Bus Stop
 date: 2020-06-25
+opening_date: 2020-06-25
 Theatre: Limelight Theatre
 Genres: 
 - Play

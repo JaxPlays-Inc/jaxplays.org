@@ -1,6 +1,7 @@
 ---
 title: Into the Woods
 date: 1996-06-07
+opening_date: 1996-06-07
 closing_date: 1996-06-23
 layout: productions
 playbill:

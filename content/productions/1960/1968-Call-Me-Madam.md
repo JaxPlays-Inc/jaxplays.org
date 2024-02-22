@@ -1,6 +1,7 @@
 ---
 title: Call Me Madam
 date: 1968-07-18
+opening_date: 1968-07-18
 closing_date: 1968-07-27
 layout: productions
 playbill:

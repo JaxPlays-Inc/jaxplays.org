@@ -1,6 +1,7 @@
 ---
 title: Susan and God
 date: 1939-10-24
+opening_date: 1939-10-24
 closing_date: 1939-10-27
 layout: productions
 playbill:

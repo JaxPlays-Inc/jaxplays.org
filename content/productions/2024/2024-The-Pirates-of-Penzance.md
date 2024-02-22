@@ -3,6 +3,7 @@ title: The Pirates of Penzance
 Theatre: First Coast Opera
 Venue: Lewis Auditorium
 date: 2024-03-15
+opening_date: 2024-03-15
 closing_date: 2024-03-17
 showtimes:
 - 2024-03-15 18:00:00

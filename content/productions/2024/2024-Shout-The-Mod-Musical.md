@@ -1,6 +1,7 @@
 ---
 title: "SHOUT! The Mod Musical"
 date: 2024-06-07
+opening_date: 2024-06-07
 closing_date: 2024-06-23
 layout: productions
 featured_image: 2024_Shout_The_Mod_Musical.webp

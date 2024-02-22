@@ -1,6 +1,7 @@
 ---
 title: Separate Tables
 date: 1962-04-06
+opening_date: 1962-04-06
 closing_date: 1962-04-14
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Tomorrow the World
 date: 1944-04-01
+opening_date: 1944-04-01
 closing_date:
 layout: productions
 playbill:

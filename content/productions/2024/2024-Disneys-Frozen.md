@@ -1,6 +1,7 @@
 ---
 title: Disney's Frozen
 date: 2024-04-24
+opening_date: 2024-04-24
 closing_date: 2024-05-04
 featured_image: 2023-Disneys-Frozen.webp
 featured_image_alt: 

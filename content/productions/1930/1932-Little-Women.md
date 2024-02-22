@@ -1,6 +1,7 @@
 ---
 title: Little Women
 date: 1932-01-26
+opening_date: 1932-01-26
 closing_date:
 layout: productions
 playbill:

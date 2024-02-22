@@ -1,6 +1,7 @@
 ---
 title: The Damask Cheek
 date: 1945-04-20
+opening_date: 1945-04-20
 closing_date: 1945-04-28
 layout: productions
 playbill:

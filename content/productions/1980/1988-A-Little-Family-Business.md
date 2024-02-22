@@ -1,6 +1,7 @@
 ---
 title: A Little Family Business
 date: 1988-05-13
+opening_date: 1988-05-13
 closing_date: 1988-05-28
 layout: productions
 playbill:

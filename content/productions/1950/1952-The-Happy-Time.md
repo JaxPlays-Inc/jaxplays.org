@@ -1,6 +1,7 @@
 ---
 title: The Happy Time
 date: 1952-05-30
+opening_date: 1952-05-30
 closing_date: 1952-06-07
 layout: productions
 playbill:

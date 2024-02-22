@@ -1,6 +1,7 @@
 ---
 title: The Voice of the Turtle
 date: 1971-01-08
+opening_date: 1971-01-08
 closing_date: 1971-01-23
 layout: productions
 playbill:

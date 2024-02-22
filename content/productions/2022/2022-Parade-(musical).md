@@ -4,6 +4,7 @@ title: Parade (musical)
 redirect_from:
 - /productions/2022_Parade_(musical)
 date: 2022-08-04
+opening_date: 2022-08-04
 closing_date: 2022-09-04
 featured_image: 2022_Parade.jpeg
 featured_image_attr: Limelight Theatre

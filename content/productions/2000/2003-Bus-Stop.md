@@ -1,6 +1,7 @@
 ---
 title: Bus Stop
 date: 2003-11-07
+opening_date: 2003-11-07
 closing_date: 2003-11-22
 layout: productions
 playbill:

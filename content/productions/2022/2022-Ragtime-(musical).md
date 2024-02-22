@@ -5,6 +5,7 @@ cancelled: COVID-19
 redirect_from:
 - /productions/2022_Ragtime_(musical)
 date: 2022-06-10
+opening_date: 2022-06-10
 closing_date: 2022-06-26
 featured_image: 2022_Ragtime.webp
 featured_image_attr: Theatre Jacksonville

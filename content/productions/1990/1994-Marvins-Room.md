@@ -1,6 +1,7 @@
 ---
 title: Marvins Room
 date: 1994-01-14
+opening_date: 1994-01-14
 closing_date: 1994-01-29
 layout: productions
 playbill:

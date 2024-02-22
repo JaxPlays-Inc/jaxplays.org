@@ -1,6 +1,7 @@
 ---
 title: Enter Madame
 date: 1931-02-24
+opening_date: 1931-02-24
 closing_date:
 layout: productions
 playbill:

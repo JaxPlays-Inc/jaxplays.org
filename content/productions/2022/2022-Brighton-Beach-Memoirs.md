@@ -2,6 +2,7 @@
 layout: productions
 title: Brighton Beach Memoirs
 date: 2022-04-01
+opening_date: 2022-04-01
 closing_date: 2022-04-10
 featured_image: 2022_Brighton_Beach_Memoirs.jpg
 Theatre: Orange Park Community Theatre

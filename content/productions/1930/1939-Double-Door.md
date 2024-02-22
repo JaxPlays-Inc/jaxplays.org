@@ -1,6 +1,7 @@
 ---
 title: Double Door
 date: 1939-04-11
+opening_date: 1939-04-11
 closing_date: 1939-04-14
 layout: productions
 playbill:

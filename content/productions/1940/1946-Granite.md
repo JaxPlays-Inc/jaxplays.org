@@ -1,6 +1,7 @@
 ---
 title: Granite
 date: 1946-04-05
+opening_date: 1946-04-05
 closing_date: 1946-04-12
 layout: productions
 playbill:

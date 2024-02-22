@@ -1,6 +1,7 @@
 ---
 title: Ragtime
 date: 2008-10-23
+opening_date: 2008-10-23
 closing_date: 2008-11-02
 featured_image: 2008-Ragtime.webp
 featured_image_alt: Playbill cover for Ragtime

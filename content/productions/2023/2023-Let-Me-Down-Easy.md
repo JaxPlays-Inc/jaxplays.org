@@ -1,6 +1,7 @@
 ---
 title: Let Me Down Easy
 date: 2023-03-17
+opening_date: 2023-03-17
 closing_date: 2023-03-25
 showtimes:
 - 2023-03-17 20:00:00

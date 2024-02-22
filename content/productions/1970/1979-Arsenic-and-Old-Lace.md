@@ -1,6 +1,7 @@
 ---
 title: Arsenic and Old Lace
 date: 1979-05-11
+opening_date: 1979-05-11
 closing_date: 1979-05-26
 layout: productions
 playbill:

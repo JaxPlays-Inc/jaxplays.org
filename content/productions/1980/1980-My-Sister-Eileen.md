@@ -1,6 +1,7 @@
 ---
 title: My Sister Eileen
 date: 1980-05-02
+opening_date: 1980-05-02
 closing_date: 1980-05-07
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Boys Next Door
 date: 2005-04-22
+opening_date: 2005-04-22
 closing_date: 2005-05-07
 layout: productions
 playbill:

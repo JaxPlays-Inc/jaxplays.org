@@ -1,6 +1,7 @@
 ---
 title: The Family Upstairs
 date: 1928-02-21
+opening_date: 1928-02-21
 closing_date:
 layout: productions
 playbill:

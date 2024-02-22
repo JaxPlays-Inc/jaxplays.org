@@ -1,6 +1,7 @@
 ---
 title: Big Fish
 date: 2022-10-06
+opening_date: 2022-10-06
 closing_date: 2022-10-30
 layout: productions
 featured_image: 2022_Big_Fish.jpeg

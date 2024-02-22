@@ -1,6 +1,7 @@
 ---
 title: The King and I
 date: 1960-11-18
+opening_date: 1960-11-18
 closing_date: 1960-11-26
 layout: productions
 playbill:

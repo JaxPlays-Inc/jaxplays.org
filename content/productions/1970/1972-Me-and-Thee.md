@@ -1,6 +1,7 @@
 ---
 title: Me and Thee
 date: 1972-04-28
+opening_date: 1972-04-28
 closing_date: 1972-05-13
 layout: productions
 playbill:

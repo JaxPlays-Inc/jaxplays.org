@@ -2,6 +2,7 @@
 layout: productions
 title: Messiah on the Frigidaire
 date: 2022-04-01
+opening_date: 2022-04-01
 closing_date: 2022-04-24
 featured_image: 2022_Messiah_on_the_Frigidaire.jpeg
 featured_image_attr:

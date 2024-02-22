@@ -1,6 +1,7 @@
 ---
 title: The Bad Man
 date: 1930-01-14
+opening_date: 1930-01-14
 closing_date:
 layout: productions
 playbill:

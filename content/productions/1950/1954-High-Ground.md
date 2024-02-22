@@ -1,6 +1,7 @@
 ---
 title: High Ground
 date: 1954-10-27
+opening_date: 1954-10-27
 closing_date: 1954-11-06
 layout: productions
 playbill:

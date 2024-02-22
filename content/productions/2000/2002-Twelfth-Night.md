@@ -1,6 +1,7 @@
 ---
 title: Twelfth Night
 date: 2002-08-23
+opening_date: 2002-08-23
 closing_date: 2002-09-21
 layout: productions
 playbill:

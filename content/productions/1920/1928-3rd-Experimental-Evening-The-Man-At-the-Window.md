@@ -1,6 +1,7 @@
 ---
 title: 3rd Experimental Evening - The Man At the Window
 date: 1928-02-07
+opening_date: 1928-02-07
 closing_date:
 layout: productions
 show_details:

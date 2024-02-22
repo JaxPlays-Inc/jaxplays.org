@@ -3,6 +3,7 @@ title: A Gentleman's Guide to Love & Murder
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2024-02-16
+opening_date: 2024-02-16
 closing_date: 2024-03-03
 showtimes:
 - 2024-02-16 19:30:00

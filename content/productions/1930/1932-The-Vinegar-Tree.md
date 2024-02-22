@@ -1,6 +1,7 @@
 ---
 title: The Vinegar Tree
 date: 1932-11-15
+opening_date: 1932-11-15
 closing_date:
 layout: productions
 playbill:

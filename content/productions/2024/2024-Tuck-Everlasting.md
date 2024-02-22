@@ -3,6 +3,7 @@ title: Tuck Everlasting
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 date: 2024-02-08
+opening_date: 2024-02-08
 closing_date: 2024-03-03
 showtimes:
 - 2024-02-08 19:30:00

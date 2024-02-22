@@ -2,6 +2,7 @@
 layout: productions
 title: It's a Wonderful Life
 date: 2015-12-24
+opening_date: 2015-12-24
 closing_date: 2015-12-24
 redirect_from: 2015_It's_a_Wonderful_Life
 featured_image: 2015_It's_a_Wonderful_Life.jpeg

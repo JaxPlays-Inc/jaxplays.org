@@ -1,6 +1,7 @@
 ---
 title: Picnic
 date: 1980-01-25
+opening_date: 1980-01-25
 closing_date: 1980-02-09
 layout: productions
 playbill:

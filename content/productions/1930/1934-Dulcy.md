@@ -1,6 +1,7 @@
 ---
 title: Dulcy
 date: 1934-04-24
+opening_date: 1934-04-24
 closing_date:
 layout: productions
 playbill:

@@ -3,6 +3,7 @@ title: Phantom
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 date: 2024-03-15
+opening_date: 2024-03-15
 closing_date: 2024-03-31
 showtimes:
 - 2024-03-15 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: Out of the Past
 date: 1928-12-19
+opening_date: 1928-12-19
 closing_date:
 layout: productions
 Theatre: Theatre Jacksonville

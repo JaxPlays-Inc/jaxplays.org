@@ -2,6 +2,7 @@
 layout: productions
 title: How to Succeed in Business Without Really Trying
 date: 2020-02-20
+opening_date: 2020-02-20
 closing_date: 2020-03-22
 featured_image: 2020_How_to_Succeed_in_Business_Without_Really_Trying_(musical).png
 featured_image_attr:

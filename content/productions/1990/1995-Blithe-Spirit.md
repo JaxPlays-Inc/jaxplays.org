@@ -1,6 +1,7 @@
 ---
 title: Blithe Spirit
 date: 1995-03-03
+opening_date: 1995-03-03
 closing_date: 1995-03-18
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Last of Mrs. Cheyney
 date: 1931-04-24
+opening_date: 1931-04-24
 closing_date: 1931-04-25
 layout: productions
 playbill:

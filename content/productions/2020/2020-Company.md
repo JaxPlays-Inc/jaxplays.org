@@ -4,6 +4,7 @@ title: Company
 redirect_from:
 - /productions/2020_Company
 date: 2020-02-07
+opening_date: 2020-02-07
 closing_date: 2020-02-23
 category: musical
 Theatre: Orange Park Community Theatre

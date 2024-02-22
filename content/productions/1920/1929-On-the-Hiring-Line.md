@@ -1,6 +1,7 @@
 ---
 title: On the Hiring Line
 date: 1929-01-08
+opening_date: 1929-01-08
 closing_date: 1929-01-09
 layout: productions
 playbill:

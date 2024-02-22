@@ -3,6 +3,7 @@ title: Other Desert Cities
 Theatre: A Classic Theatre
 Venue: The Center for Spiritual Living
 date: 2024-04-12
+opening_date: 2024-04-12
 closing_date: 2024-04-12
 showtimes:
 - 2024-04-12 19:30:00

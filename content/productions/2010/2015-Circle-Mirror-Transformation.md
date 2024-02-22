@@ -1,6 +1,7 @@
 ---
 title: Circle Mirror Transformation
 date: 2015-12-02
+opening_date: 2015-12-02
 closing_date: 2015-12-06
 showtimes:
 - 2015-12-02 19:00:00

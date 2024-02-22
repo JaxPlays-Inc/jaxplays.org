@@ -1,6 +1,7 @@
 ---
 title: Biloxi Blues
 date: 1991-02-22
+opening_date: 1991-02-22
 closing_date: 1991-03-02
 layout: productions
 playbill:

@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Rock of Ages (musical)
 date: 2020
+opening_date: 2020
 category: musical
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/rock-of-ages

@@ -1,6 +1,7 @@
 ---
 title: Brother Rat
 date: 1939-11-14
+opening_date: 1939-11-14
 closing_date: 1939-11-17
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Ladies in Retirement
 date: 1954-04-21
+opening_date: 1954-04-21
 closing_date: 1954-05-01
 layout: productions
 playbill:

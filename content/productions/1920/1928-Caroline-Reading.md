@@ -1,6 +1,7 @@
 ---
 title: Caroline (Reading)
 date: 1928-04-03
+opening_date: 1928-04-03
 closing_date:
 layout: productions
 playbill:

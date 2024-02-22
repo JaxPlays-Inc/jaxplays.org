@@ -1,6 +1,7 @@
 ---
 title: The Fantasticks
 date: 1964-05-29
+opening_date: 1964-05-29
 closing_date: 1964-06-06
 layout: productions
 playbill:

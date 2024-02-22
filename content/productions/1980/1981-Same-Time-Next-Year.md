@@ -1,6 +1,7 @@
 ---
 title: Same Time, Next Year
 date: 1981-06-18
+opening_date: 1981-06-18
 closing_date: 1981-06-27
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: State of the Union
 date: 1946-10-18
+opening_date: 1946-10-18
 closing_date: 1946-10-25
 layout: productions
 playbill:

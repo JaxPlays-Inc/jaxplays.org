@@ -1,6 +1,7 @@
 ---
 title: Claudia
 date: 1942-11-01
+opening_date: 1942-11-01
 approx_date: month
 closing_date:
 layout: productions

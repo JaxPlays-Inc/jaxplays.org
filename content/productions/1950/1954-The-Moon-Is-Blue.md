@@ -1,6 +1,7 @@
 ---
 title: The Moon Is Blue
 date: 1954-12-01
+opening_date: 1954-12-01
 closing_date: 1954-12-11
 layout: productions
 playbill:

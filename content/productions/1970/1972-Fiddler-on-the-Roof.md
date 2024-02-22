@@ -1,6 +1,7 @@
 ---
 title: Fiddler on the Roof
 date: 1972-10-06
+opening_date: 1972-10-06
 closing_date: 1972-10-21
 layout: productions
 playbill:

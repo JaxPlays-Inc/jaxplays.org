@@ -1,6 +1,7 @@
 ---
 title: The Rainmaker
 date: 1955-10-26
+opening_date: 1955-10-26
 closing_date: 1955-11-05
 layout: productions
 playbill:

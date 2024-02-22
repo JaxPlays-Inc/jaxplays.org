@@ -1,6 +1,7 @@
 ---
 title: Sunday In New York
 date: 1963-02-21
+opening_date: 1963-02-21
 closing_date: 1963-03-02
 layout: productions
 playbill:

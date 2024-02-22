@@ -1,6 +1,7 @@
 ---
 title: Our Town
 date: 1965-02-19
+opening_date: 1965-02-19
 closing_date: 1965-02-27
 layout: productions
 playbill:

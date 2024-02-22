@@ -1,6 +1,7 @@
 ---
 title: The Philadelphia Story
 date: 1946-01-18
+opening_date: 1946-01-18
 closing_date: 1946-01-25
 layout: productions
 playbill:

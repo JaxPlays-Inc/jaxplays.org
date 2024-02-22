@@ -3,6 +3,7 @@ title: Willy Wonka
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-11-30
+opening_date: 2023-11-30
 closing_date: 2023-12-23
 showtimes:
 - 2023-11-30 11:00:00

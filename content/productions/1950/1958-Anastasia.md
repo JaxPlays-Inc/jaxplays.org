@@ -1,6 +1,7 @@
 ---
 title: Anastasia
 date: 1958-02-26
+opening_date: 1958-02-26
 closing_date: 1958-03-08
 layout: productions
 playbill:

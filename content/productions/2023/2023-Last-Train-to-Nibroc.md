@@ -1,6 +1,7 @@
 ---
 title: Last Train to Nibroc
 date: 2023-01-13
+opening_date: 2023-01-13
 closing_date: 2023-01-29
 layout: productions
 featured_image: 2023_Last_Train_to_Nibroc.jpeg

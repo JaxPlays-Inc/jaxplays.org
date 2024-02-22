@@ -1,6 +1,7 @@
 ---
 title: Inherit the Wind
 date: 1963-04-18
+opening_date: 1963-04-18
 closing_date: 1963-04-27
 layout: productions
 playbill:

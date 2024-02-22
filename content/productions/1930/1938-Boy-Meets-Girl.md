@@ -1,6 +1,7 @@
 ---
 title: Boy Meets Girl
 date: 1938-01-18
+opening_date: 1938-01-18
 closing_date: 1938-01-20
 layout: productions
 playbill:

@@ -2,6 +2,7 @@
 layout: productions
 title: Sweat
 date: 2019-08-02
+opening_date: 2019-08-02
 closing_date: 2019-08-18
 featured_image: 2019_Sweat.webp
 featured_image_attr:

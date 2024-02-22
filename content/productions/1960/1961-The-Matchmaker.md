@@ -1,6 +1,7 @@
 ---
 title: The Matchmaker
 date: 1961-09-29
+opening_date: 1961-09-29
 closing_date: 1961-10-07
 layout: productions
 playbill:

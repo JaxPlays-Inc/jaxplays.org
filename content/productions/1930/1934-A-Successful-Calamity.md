@@ -1,6 +1,7 @@
 ---
 title: A Successful Calamity
 date: 1934-05-15
+opening_date: 1934-05-15
 closing_date:
 layout: productions
 playbill:

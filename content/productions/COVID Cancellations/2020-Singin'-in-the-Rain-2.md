@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Singin in the Rain
 date: 2020-06-12
+opening_date: 2020-06-12
 closing_date: 2020-06-28
 category: musical
 Theatre: Orange Park Community Theatre

@@ -3,6 +3,7 @@ title: Mean Girls JR.
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2023-06-18
+opening_date: 2023-06-18
 closing_date: 2023-06-22
 showtimes:
   - 2023-06-18 19:00:00

@@ -1,6 +1,7 @@
 ---
 title: Barefoot In the Park
 date: 1967-04-14
+opening_date: 1967-04-14
 closing_date: 1967-04-29
 layout: productions
 playbill:

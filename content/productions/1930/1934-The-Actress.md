@@ -1,6 +1,7 @@
 ---
 title: The Actress
 date: 1934-01-09
+opening_date: 1934-01-09
 closing_date:
 layout: productions
 playbill:

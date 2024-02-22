@@ -1,6 +1,7 @@
 ---
 title: Tea and Sympathy
 date: 1958-11-12
+opening_date: 1958-11-12
 closing_date: 1958-11-22
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Berkely Square
 date: 1949-04-08
+opening_date: 1949-04-08
 closing_date: 1949-04-15
 layout: productions
 playbill:

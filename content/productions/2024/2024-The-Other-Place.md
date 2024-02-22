@@ -3,6 +3,7 @@ title: The Other Place
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 date: 2024-06-07
+opening_date: 2024-06-07
 closing_date: 2024-06-23
 showtimes:
 - 2024-06-07 19:30:00

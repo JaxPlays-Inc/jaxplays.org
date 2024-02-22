@@ -1,6 +1,7 @@
 ---
 title: If (Reading)
 date: 1925-02-10
+opening_date: 1925-02-10
 closing_date:
 layout: productions
 playbill:

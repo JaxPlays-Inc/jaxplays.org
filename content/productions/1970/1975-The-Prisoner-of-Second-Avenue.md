@@ -1,6 +1,7 @@
 ---
 title: The Prisoner of Second Avenue
 date: 1975-11-28
+opening_date: 1975-11-28
 closing_date: 1975-12-13
 layout: productions
 playbill:

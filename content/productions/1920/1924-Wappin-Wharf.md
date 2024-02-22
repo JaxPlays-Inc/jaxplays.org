@@ -1,6 +1,7 @@
 ---
 title: Wappin'  Wharf
 date: 1924-11-25
+opening_date: 1924-11-25
 closing_date:
 layout: productions
 playbill:

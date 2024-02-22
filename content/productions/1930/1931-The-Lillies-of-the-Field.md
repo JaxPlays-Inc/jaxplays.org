@@ -1,6 +1,7 @@
 ---
 title: The Lillies of the Field
 date: 1931-02-10
+opening_date: 1931-02-10
 closing_date:
 layout: productions
 playbill:

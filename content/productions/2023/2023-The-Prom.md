@@ -1,6 +1,7 @@
 ---
 title: The Prom
 date: 2023-06-09
+opening_date: 2023-06-09
 closing_date: 2023-06-18
 layout: productions
 featured_image: 2023_The_Prom.jpg

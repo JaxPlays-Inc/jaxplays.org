@@ -1,6 +1,7 @@
 ---
 title: Joan of Lorraine
 date: 1952-04-18
+opening_date: 1952-04-18
 closing_date: 1952-04-26
 layout: productions
 playbill:

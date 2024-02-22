@@ -1,6 +1,7 @@
 ---
 title: Petticoat Fever
 date: 1942-02-24
+opening_date: 1942-02-24
 closing_date: 1942-02-27
 layout: productions
 playbill:

@@ -3,6 +3,7 @@ title: A Tuna Christmas
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-12-28
+opening_date: 2023-12-28
 closing_date: 2023-12-30
 showtimes:
   - 2023-12-28 11:00:00

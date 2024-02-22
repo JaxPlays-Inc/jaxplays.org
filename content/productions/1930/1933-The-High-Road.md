@@ -1,6 +1,7 @@
 ---
 title: The High Road
 date: 1933-05-09
+opening_date: 1933-05-09
 closing_date:
 layout: productions
 playbill:

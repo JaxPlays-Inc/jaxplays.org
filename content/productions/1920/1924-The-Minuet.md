@@ -1,6 +1,7 @@
 ---
 title: The Minuet
 date: 1924-04-28
+opening_date: 1924-04-28
 closing_date:
 layout: productions
 playbill:

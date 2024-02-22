@@ -1,6 +1,7 @@
 ---
 title: The Intimate Strangers
 date: 1925-01-27
+opening_date: 1925-01-27
 closing_date:
 layout: productions
 playbill:

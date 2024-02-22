@@ -1,6 +1,7 @@
 ---
 title: Murder Once Removed
 date: 1980-03-14
+opening_date: 1980-03-14
 closing_date: 1980-03-29
 layout: productions
 playbill:

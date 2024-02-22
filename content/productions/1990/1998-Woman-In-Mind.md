@@ -1,6 +1,7 @@
 ---
 title: Woman In Mind
 date: 1998-01-16
+opening_date: 1998-01-16
 closing_date: 1998-01-31
 layout: productions
 playbill:

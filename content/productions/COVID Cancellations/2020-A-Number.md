@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: A Number
 date: 2020-09-11
+opening_date: 2020-09-11
 closing_date: 2020-09-13
 Genres: 
 - Play

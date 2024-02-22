@@ -1,6 +1,7 @@
 ---
 title: Dearly Departed
 date: 2008-01-11
+opening_date: 2008-01-11
 closing_date: 2008-01-26
 layout: productions
 playbill:

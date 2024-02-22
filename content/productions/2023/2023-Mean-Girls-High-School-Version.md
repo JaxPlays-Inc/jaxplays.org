@@ -3,6 +3,7 @@ title: Mean Girls High School Version
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2023-06-09
+opening_date: 2023-06-09
 closing_date: 2023-06-25
 showtimes:
   - 2023-06-09 19:00:00

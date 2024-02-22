@@ -1,6 +1,7 @@
 ---
 title: Junior Miss
 date: 1944-01-01
+opening_date: 1944-01-01
 approx_date: month
 closing_date:
 layout: productions

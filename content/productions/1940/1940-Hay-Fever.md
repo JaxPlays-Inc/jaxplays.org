@@ -1,6 +1,7 @@
 ---
 title: Hay Fever
 date: 1940-03-05
+opening_date: 1940-03-05
 closing_date: 1940-03-08
 layout: productions
 playbill:

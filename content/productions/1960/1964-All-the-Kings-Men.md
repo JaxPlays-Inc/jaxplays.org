@@ -1,6 +1,7 @@
 ---
 title: All the King's Men
 date: 1964-04-17
+opening_date: 1964-04-17
 closing_date: 1964-04-25
 layout: productions
 playbill:

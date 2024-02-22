@@ -1,6 +1,7 @@
 ---
 title: The Passing of the Third Floor Back
 date: 1926-12-23
+opening_date: 1926-12-23
 closing_date:
 layout: productions
 playbill:

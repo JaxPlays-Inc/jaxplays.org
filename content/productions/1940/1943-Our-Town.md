@@ -1,6 +1,7 @@
 ---
 title: Our Town
 date: 1943-03-01
+opening_date: 1943-03-01
 approx_date: month
 closing_date:
 layout: productions

@@ -1,6 +1,7 @@
 ---
 title: Season In the Sun
 date: 1953-02-25
+opening_date: 1953-02-25
 closing_date: 1953-03-07
 layout: productions
 playbill:

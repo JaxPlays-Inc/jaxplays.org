@@ -1,6 +1,7 @@
 ---
 title: Bay At the Moon
 date: 1997-01-17
+opening_date: 1997-01-17
 closing_date: 1997-02-02
 layout: productions
 playbill:

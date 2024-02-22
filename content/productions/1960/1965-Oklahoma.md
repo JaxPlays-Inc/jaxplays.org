@@ -1,6 +1,7 @@
 ---
 title: Oklahoma
 date: 1965-07-15
+opening_date: 1965-07-15
 closing_date: 1965-07-30
 layout: productions
 playbill:

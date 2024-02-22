@@ -1,6 +1,7 @@
 ---
 title: The Torch Bearers
 date: 1927-04-19
+opening_date: 1927-04-19
 closing_date:
 layout: productions
 playbill:

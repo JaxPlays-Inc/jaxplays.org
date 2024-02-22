@@ -1,6 +1,7 @@
 ---
 title: The Wizard of Oz
 date: 2023-10-12
+opening_date: 2023-10-12
 closing_date: 2023-10-22
 featured_image: 2023_The_Wizard_of_Oz.webp
 featured_image_alt: Poster for The Wizard of Oz

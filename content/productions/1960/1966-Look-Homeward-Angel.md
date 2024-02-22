@@ -1,6 +1,7 @@
 ---
 title: Look Homeward, Angel
 date: 1966-05-20
+opening_date: 1966-05-20
 closing_date: 1966-05-28
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Guardsman
 date: 1955-12-07
+opening_date: 1955-12-07
 closing_date: 1955-12-17
 layout: productions
 playbill:

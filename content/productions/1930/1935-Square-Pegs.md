@@ -1,6 +1,7 @@
 ---
 title: Square Pegs
 date: 1935-12-10
+opening_date: 1935-12-10
 closing_date:
 layout: productions
 playbill:

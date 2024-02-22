@@ -5,6 +5,7 @@ Venue:
 - Grace Darling Studio Theatre
 - Matuza Mainstage
 date: 2024-01-12
+opening_date: 2024-01-12
 closing_date: 2024-03-10
 showtimes:
 - 2024-01-12 19:30:00

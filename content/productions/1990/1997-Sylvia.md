@@ -1,6 +1,7 @@
 ---
 title: Sylvia
 date: 1997-04-18
+opening_date: 1997-04-18
 closing_date: 1997-05-04
 layout: productions
 playbill:

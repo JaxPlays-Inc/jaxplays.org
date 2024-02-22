@@ -1,6 +1,7 @@
 ---
 title: Arms and the Man
 date: 1938-04-12
+opening_date: 1938-04-12
 closing_date: 1938-04-14
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Choir Boy
 date: 2023-05-12
+opening_date: 2023-05-12
 closing_date: 2023-06-04
 layout: productions
 featured_image: 2023_Choir_Boy.png

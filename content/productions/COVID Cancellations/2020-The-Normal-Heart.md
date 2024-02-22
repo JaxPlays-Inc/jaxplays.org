@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: The Normal Heart
 date: 2020-11-06
+opening_date: 2020-11-06
 closing_date: 2020-11-22
 Genres: 
 - Play

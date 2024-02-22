@@ -2,6 +2,7 @@
 layout: productions
 title: Significant Other
 date: 2022-04-21
+opening_date: 2022-04-21
 closing_date: 2022-04-23
 featured_image: 2022_Significant_Other.jpg
 featured_image_attr:

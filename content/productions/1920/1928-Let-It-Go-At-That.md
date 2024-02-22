@@ -1,6 +1,7 @@
 ---
 title: Let It Go At That!
 date: 1928-12-19
+opening_date: 1928-12-19
 closing_date:
 layout: productions
 playbill:

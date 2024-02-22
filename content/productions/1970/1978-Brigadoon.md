@@ -1,6 +1,7 @@
 ---
 title: Brigadoon
 date: 1978-10-06
+opening_date: 1978-10-06
 closing_date: 1978-10-21
 layout: productions
 playbill:

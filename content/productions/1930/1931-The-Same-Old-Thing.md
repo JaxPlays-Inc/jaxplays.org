@@ -1,6 +1,7 @@
 ---
 title: The Same Old Thing
 date: 1931-04-14
+opening_date: 1931-04-14
 closing_date:
 layout: productions
 playbill:

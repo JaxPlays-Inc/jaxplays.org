@@ -1,6 +1,7 @@
 ---
 title: Great Moments
 date: 1929-05-15
+opening_date: 1929-05-15
 closing_date:
 layout: productions
 playbill:

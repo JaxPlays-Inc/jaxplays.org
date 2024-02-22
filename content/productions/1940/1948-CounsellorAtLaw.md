@@ -1,6 +1,7 @@
 ---
 title: Counsellor-At-Law
 date: 1948-02-27
+opening_date: 1948-02-27
 closing_date: 1948-03-05
 layout: productions
 playbill:

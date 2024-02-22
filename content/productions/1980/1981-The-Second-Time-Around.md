@@ -1,6 +1,7 @@
 ---
 title: The Second Time Around
 date: 1981-05-01
+opening_date: 1981-05-01
 closing_date: 1981-05-16
 layout: productions
 playbill:

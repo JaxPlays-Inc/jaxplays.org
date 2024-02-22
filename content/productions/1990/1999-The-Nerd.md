@@ -1,6 +1,7 @@
 ---
 title: The Nerd
 date: 1999-03-12
+opening_date: 1999-03-12
 closing_date: 1999-03-27
 layout: productions
 playbill:

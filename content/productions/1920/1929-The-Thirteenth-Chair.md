@@ -1,6 +1,7 @@
 ---
 title: The Thirteenth Chair
 date: 1929-02-14
+opening_date: 1929-02-14
 closing_date: 1929-02-15
 layout: productions
 playbill:

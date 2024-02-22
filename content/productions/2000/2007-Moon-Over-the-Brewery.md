@@ -1,6 +1,7 @@
 ---
 title: Moon Over the Brewery
 date: 2007-11-02
+opening_date: 2007-11-02
 closing_date: 2007-11-17
 layout: productions
 playbill:

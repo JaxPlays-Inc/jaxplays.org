@@ -1,6 +1,7 @@
 ---
 title: Company
 date: 2007-04-04
+opening_date: 2007-04-04
 closing_date: 2007-04-14
 featured_image: 2007-Company.webp
 featured_image_alt: 

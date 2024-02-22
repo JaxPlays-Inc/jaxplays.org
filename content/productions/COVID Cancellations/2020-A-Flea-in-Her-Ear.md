@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: A Flea in Her Ear
 date: 2020
+opening_date: 2020
 Genres: 
 - Play
 Theatre: Limelight Theatre

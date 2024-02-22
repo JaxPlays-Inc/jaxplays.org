@@ -1,6 +1,7 @@
 ---
 title: John Loves Mary
 date: 1948-10-15
+opening_date: 1948-10-15
 closing_date: 1948-10-22
 layout: productions
 playbill:

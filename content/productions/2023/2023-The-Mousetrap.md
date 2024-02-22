@@ -3,6 +3,7 @@ title: The Mousetrap
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2023-10-06
+opening_date: 2023-10-06
 closing_date: 2023-10-22
 showtimes:
 - 2023-10-06 20:00:00

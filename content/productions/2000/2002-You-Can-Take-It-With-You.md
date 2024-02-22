@@ -1,6 +1,7 @@
 ---
 title: You Can't Take It With You
 date: 2002-03-08
+opening_date: 2002-03-08
 closing_date: 2002-03-23
 layout: productions
 playbill:

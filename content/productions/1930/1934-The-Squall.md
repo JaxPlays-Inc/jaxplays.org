@@ -1,6 +1,7 @@
 ---
 title: The Squall
 date: 1934-12-20
+opening_date: 1934-12-20
 closing_date:
 layout: productions
 playbill:

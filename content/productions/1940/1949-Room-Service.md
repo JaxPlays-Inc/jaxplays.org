@@ -1,6 +1,7 @@
 ---
 title: Room Service
 date: 1949-02-25
+opening_date: 1949-02-25
 closing_date: 1949-03-04
 layout: productions
 playbill:

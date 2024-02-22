@@ -3,6 +3,7 @@ title: La Bohème
 Theatre: First Coast Opera
 Venue: Lewis Auditorium
 date: 2023-12-30
+opening_date: 2023-12-30
 closing_date: 2023-12-31
 showtimes:
 - 2023-12-30 12:30:00

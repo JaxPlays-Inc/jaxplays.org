@@ -1,6 +1,7 @@
 ---
 title: What a Life
 date: 1940-11-05
+opening_date: 1940-11-05
 closing_date: 1940-11-08
 layout: productions
 playbill:

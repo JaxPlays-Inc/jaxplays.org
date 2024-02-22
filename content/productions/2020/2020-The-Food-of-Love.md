@@ -4,6 +4,7 @@ title: The Food of Love
 redirect_from:
 - /productions/2020_The_Food_of_Love
 date: 2020-02-13
+opening_date: 2020-02-13
 closing_date: 2020-02-14
 featured_image: 2020_The_Food_of_Love.png
 featured_image_attr:

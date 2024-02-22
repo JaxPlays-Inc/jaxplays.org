@@ -1,6 +1,7 @@
 ---
 title: A Kiss for Cinderella
 date: 1933-05-03
+opening_date: 1933-05-03
 closing_date:
 layout: productions
 playbill:

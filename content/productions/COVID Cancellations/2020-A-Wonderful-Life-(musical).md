@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: A Wonderful Life
 date: 2020
+opening_date: 2020
 category: musical
 Theatre: Alhambra Theatre & Dining
 show_details:

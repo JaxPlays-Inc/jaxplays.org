@@ -3,6 +3,7 @@ title: The Twelve Days of Christmas
 Theatre: Act II Players
 Venue: Mandarin Community Club
 date: 2023-12-02
+opening_date: 2023-12-02
 closing_date: 2023-12-03
 showtimes:
   - 2023-12-02 14:00:00

@@ -1,6 +1,7 @@
 ---
 title: The Good Times Are Killing Me
 date: 1994-03-18
+opening_date: 1994-03-18
 closing_date: 1994-04-02
 layout: productions
 playbill:

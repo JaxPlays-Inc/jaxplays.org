@@ -1,6 +1,7 @@
 ---
 title: The Two Mrs. Carrolls
 date: 1955-04-20
+opening_date: 1955-04-20
 closing_date: 1955-04-30
 layout: productions
 playbill:

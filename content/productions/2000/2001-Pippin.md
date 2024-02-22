@@ -1,6 +1,7 @@
 ---
 title: Pippin
 date: 2001-06-01
+opening_date: 2001-06-01
 closing_date: 2001-07-31
 layout: productions
 playbill:

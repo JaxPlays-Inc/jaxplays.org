@@ -1,6 +1,7 @@
 ---
 title: Blythe Spirit
 date: 1945-10-19
+opening_date: 1945-10-19
 closing_date: 1945-10-26
 layout: productions
 playbill:

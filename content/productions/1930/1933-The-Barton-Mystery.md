@@ -1,6 +1,7 @@
 ---
 title: The Barton Mystery
 date: 1933-12-12
+opening_date: 1933-12-12
 closing_date:
 layout: productions
 playbill:

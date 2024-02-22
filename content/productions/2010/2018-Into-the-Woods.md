@@ -1,6 +1,7 @@
 ---
 title: Into the Woods
 date: 2018-11-01
+opening_date: 2018-11-01
 closing_date: 2018-11-04
 featured_image: 2018-Into-the-Woods.webp
 featured_image_alt: 

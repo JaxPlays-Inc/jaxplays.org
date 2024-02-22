@@ -1,6 +1,7 @@
 ---
 title: Guest In the House
 date: 1949-01-14
+opening_date: 1949-01-14
 closing_date: 1949-01-21
 layout: productions
 playbill:

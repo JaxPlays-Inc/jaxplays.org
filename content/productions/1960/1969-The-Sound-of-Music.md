@@ -1,6 +1,7 @@
 ---
 title: The Sound of Music
 date: 1969-11-14
+opening_date: 1969-11-14
 closing_date: 1969-11-29
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Lion In Winter
 date: 1970-02-02
+opening_date: 1970-02-02
 closing_date: 1970-02-28
 layout: productions
 playbill:

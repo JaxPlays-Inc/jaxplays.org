@@ -1,6 +1,7 @@
 ---
 title: Babes In Arms
 date: 1974-03-22
+opening_date: 1974-03-22
 closing_date: 1974-04-06
 layout: productions
 playbill:

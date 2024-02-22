@@ -1,6 +1,7 @@
 ---
 title: The Trial of Mary Dugan
 date: 1931-11-10
+opening_date: 1931-11-10
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Impossible Years
 date: 1970-04-10
+opening_date: 1970-04-10
 closing_date: 1970-04-18
 layout: productions
 playbill:

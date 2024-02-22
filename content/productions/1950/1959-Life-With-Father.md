@@ -1,6 +1,7 @@
 ---
 title: Life With Father
 date: 1959-05-27
+opening_date: 1959-05-27
 closing_date: 1959-06-06
 layout: productions
 playbill:

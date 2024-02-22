@@ -1,6 +1,7 @@
 ---
 title: Belinda
 date: 1925-03-24
+opening_date: 1925-03-24
 closing_date:
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Street Scene
 date: 1935-03-26
+opening_date: 1935-03-26
 closing_date:
 layout: productions
 playbill:

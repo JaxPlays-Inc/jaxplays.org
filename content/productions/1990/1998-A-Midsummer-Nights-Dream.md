@@ -1,6 +1,7 @@
 ---
 title: A Midsummer Night's Dream
 date: 1998-09-18
+opening_date: 1998-09-18
 closing_date: 1998-09-27
 layout: productions
 playbill:

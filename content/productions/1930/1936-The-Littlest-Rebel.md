@@ -1,6 +1,7 @@
 ---
 title: The Littlest Rebel
 date: 1936-02-04
+opening_date: 1936-02-04
 closing_date:
 layout: productions
 playbill:

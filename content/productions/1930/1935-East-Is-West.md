@@ -1,6 +1,7 @@
 ---
 title: East Is West
 date: 1935-01-29
+opening_date: 1935-01-29
 closing_date:
 layout: productions
 playbill:

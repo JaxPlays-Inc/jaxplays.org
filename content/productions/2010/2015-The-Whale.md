@@ -4,6 +4,7 @@ redirect_from:
 - /productions/2015_The_Whale
 title: The Whale
 date: 2015-11-13
+opening_date: 2015-11-13
 closing_date: 2015-11-22
 Genres: 
 - Play

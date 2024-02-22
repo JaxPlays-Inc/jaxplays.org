@@ -3,6 +3,7 @@ title: The Great American Trailer Park Christmas Musical
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2023-12-08
+opening_date: 2023-12-08
 closing_date: 2023-12-23
 showtimes:
 - 2023-12-08 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: The Music Man
 date: 2023-09-29
+opening_date: 2023-09-29
 closing_date: 2023-10-22
 featured_image: 2023_The_Music_Man.webp
 featured_image_alt: 

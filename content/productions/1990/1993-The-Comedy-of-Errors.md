@@ -1,6 +1,7 @@
 ---
 title: The Comedy of Errors
 date: 1993-01-01
+opening_date: 1993-01-01
 closing_date: 1993-12-31
 layout: productions
 playbill:

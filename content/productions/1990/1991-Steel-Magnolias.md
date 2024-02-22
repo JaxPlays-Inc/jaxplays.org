@@ -1,6 +1,7 @@
 ---
 title: Steel Magnolias
 date: 1991-03-22
+opening_date: 1991-03-22
 closing_date: 1991-04-06
 layout: productions
 playbill:

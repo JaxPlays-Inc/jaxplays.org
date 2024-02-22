@@ -1,6 +1,7 @@
 ---
 title: The Litter of Flowers
 date: 1960-04-01
+opening_date: 1960-04-01
 closing_date: 1960-04-09
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Anything Goes
 date: 1973-03-16
+opening_date: 1973-03-16
 closing_date: 1973-03-31
 layout: productions
 playbill:

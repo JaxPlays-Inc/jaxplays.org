@@ -1,6 +1,7 @@
 ---
 title: Watch the Birdie
 date: 1970-05-22
+opening_date: 1970-05-22
 closing_date: 1970-05-30
 layout: productions
 playbill:

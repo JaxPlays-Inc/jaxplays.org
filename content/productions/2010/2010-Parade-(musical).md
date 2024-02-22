@@ -4,6 +4,7 @@ redirect_from:
 - /productions/2010_Parade_(musical)
 title: Parade
 date: 2010-07-16
+opening_date: 2010-07-16
 closing_date: 2010-07-31
 category: musical
 Theatre: Players by the Sea

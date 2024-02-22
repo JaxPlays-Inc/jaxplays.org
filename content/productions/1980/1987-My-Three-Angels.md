@@ -1,6 +1,7 @@
 ---
 title: My Three Angels
 date: 1987-12-19
+opening_date: 1987-12-19
 closing_date: 1987-12-28
 layout: productions
 playbill:

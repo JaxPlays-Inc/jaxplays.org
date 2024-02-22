@@ -1,6 +1,7 @@
 ---
 title: Broadway Bound
 date: 1991-05-17
+opening_date: 1991-05-17
 closing_date: 1991-06-01
 layout: productions
 playbill:

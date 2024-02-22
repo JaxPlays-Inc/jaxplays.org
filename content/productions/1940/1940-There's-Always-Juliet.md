@@ -1,6 +1,7 @@
 ---
 title: There's Always Juliet
 date: 1940-04-16
+opening_date: 1940-04-16
 closing_date: 1940-04-19
 layout: productions
 playbill:

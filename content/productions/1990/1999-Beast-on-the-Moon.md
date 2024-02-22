@@ -1,6 +1,7 @@
 ---
 title: Beast on the Moon
 date: 1999-01-15
+opening_date: 1999-01-15
 closing_date: 1999-01-30
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Dracula
 date: 1985-11-29
+opening_date: 1985-11-29
 closing_date: 1985-12-14
 layout: productions
 playbill:

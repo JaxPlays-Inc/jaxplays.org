@@ -1,6 +1,7 @@
 ---
 title: The Mikado
 date: 1975-03-21
+opening_date: 1975-03-21
 closing_date: 1975-04-05
 layout: productions
 playbill:

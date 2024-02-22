@@ -1,6 +1,7 @@
 ---
 title: Enchanted April
 date: 2007-04-20
+opening_date: 2007-04-20
 closing_date: 2007-05-05
 layout: productions
 playbill:

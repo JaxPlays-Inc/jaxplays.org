@@ -2,6 +2,7 @@
 layout: productions
 title: Bad Habits
 date: 1994-12-31
+opening_date: 1994-12-31
 approx_date: year
 featured_image:
 Theatre: Players by the Sea

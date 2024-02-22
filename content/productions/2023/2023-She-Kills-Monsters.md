@@ -1,6 +1,7 @@
 ---
 title: She Kills Monsters
 date: 2023-09-22
+opening_date: 2023-09-22
 closing_date: 2023-09-24
 featured_image: 2023-She-Kills-Monsters.jpeg
 featured_image_alt: 

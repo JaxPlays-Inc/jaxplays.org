@@ -3,6 +3,7 @@ title: "Beautiful: The Carole King Musical"
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 date: 2024-01-19
+opening_date: 2024-01-19
 closing_date: 2024-02-04
 showtimes:
   - 2024-01-19 20:00:00

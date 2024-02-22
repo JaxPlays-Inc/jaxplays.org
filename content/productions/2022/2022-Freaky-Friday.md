@@ -4,6 +4,7 @@ title: Freaky Friday
 redirect_from:
 - /productions/2022_Freaky_Friday
 date: 2022-06-03
+opening_date: 2022-06-03
 closing_date: 2022-06-19
 featured_image: 2022_Freaky_Friday.jpg
 featured_image_attr:

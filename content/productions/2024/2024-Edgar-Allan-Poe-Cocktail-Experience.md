@@ -3,6 +3,7 @@ title:  Edgar Allan Poe Cocktail Experience
 Theatre: Edgar Allan Poe Speakeasy
 Venue: Riverside House
 date: 2024-01-04
+opening_date: 2024-01-04
 closing_date: 2024-01-06
 showtimes:
   - 2024-01-04 18:00:00

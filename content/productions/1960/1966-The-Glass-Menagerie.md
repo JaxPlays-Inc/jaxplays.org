@@ -1,6 +1,7 @@
 ---
 title: The Glass Menagerie
 date: 1966-01-07
+opening_date: 1966-01-07
 closing_date: 1966-01-18
 layout: productions
 playbill:

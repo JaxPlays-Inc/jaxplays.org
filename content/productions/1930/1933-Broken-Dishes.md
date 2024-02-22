@@ -1,6 +1,7 @@
 ---
 title: Broken Dishes
 date: 1933-01-10
+opening_date: 1933-01-10
 closing_date:
 layout: productions
 playbill:

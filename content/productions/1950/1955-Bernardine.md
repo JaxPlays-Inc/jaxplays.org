@@ -1,6 +1,7 @@
 ---
 title: Bernardine
 date: 1955-03-09
+opening_date: 1955-03-09
 closing_date: 1955-03-19
 layout: productions
 playbill:

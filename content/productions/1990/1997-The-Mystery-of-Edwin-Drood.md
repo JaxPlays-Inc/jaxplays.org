@@ -1,6 +1,7 @@
 ---
 title: The Mystery of Edwin Drood
 date: 1997-06-06
+opening_date: 1997-06-06
 closing_date: 1997-06-22
 layout: productions
 playbill:

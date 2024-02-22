@@ -1,6 +1,7 @@
 ---
 title: A Hatful of Rain
 date: 1973-01-19
+opening_date: 1973-01-19
 closing_date: 1973-02-03
 layout: productions
 playbill:

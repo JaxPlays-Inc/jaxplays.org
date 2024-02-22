@@ -1,6 +1,7 @@
 ---
 title: Epic Proportions
 date: 2003-03-07
+opening_date: 2003-03-07
 closing_date: 2003-03-22
 layout: productions
 playbill:

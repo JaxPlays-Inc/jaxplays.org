@@ -1,6 +1,7 @@
 ---
 title: The Tavern
 date: 1947-01-17
+opening_date: 1947-01-17
 closing_date: 1947-01-24
 layout: productions
 playbill:

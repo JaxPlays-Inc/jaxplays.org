@@ -1,6 +1,7 @@
 ---
 title: Make a Million
 date: 1960-10-07
+opening_date: 1960-10-07
 closing_date: 1960-10-15
 layout: productions
 playbill:

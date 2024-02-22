@@ -1,6 +1,7 @@
 ---
 title: Ten Little Indians
 date: 1982-03-12
+opening_date: 1982-03-12
 closing_date: 1982-03-27
 layout: productions
 playbill:

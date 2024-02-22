@@ -1,6 +1,7 @@
 ---
 title: Any Wednesday
 date: 1967-09-29
+opening_date: 1967-09-29
 closing_date: 1967-10-14
 layout: productions
 playbill:

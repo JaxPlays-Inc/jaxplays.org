@@ -1,6 +1,7 @@
 ---
 title: No Smoking
 date: 1925-11-17
+opening_date: 1925-11-17
 closing_date:
 layout: productions
 playbill:

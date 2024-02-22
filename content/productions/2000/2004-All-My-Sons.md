@@ -1,6 +1,7 @@
 ---
 title: All My Sons
 date: 2004-11-02
+opening_date: 2004-11-02
 closing_date: 2004-11-20
 layout: productions
 playbill:

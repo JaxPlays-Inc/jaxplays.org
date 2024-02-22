@@ -3,6 +3,7 @@ title: Kitchen Witches
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
 date: 2024-01-11
+opening_date: 2024-01-11
 closing_date: 2024-01-28
 showtimes:
 - 2024-01-11 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: Come Blow Your Horn
 date: 1963-05-30
+opening_date: 1963-05-30
 closing_date: 1963-06-08
 layout: productions
 playbill:

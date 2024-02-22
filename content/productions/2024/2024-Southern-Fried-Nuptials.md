@@ -3,6 +3,7 @@ title: Southern Fried Nuptials
 Theatre: Act II Players
 Venue: Mandarin Community Club
 date: 2024-02-03
+opening_date: 2024-02-03
 closing_date: 2024-02-11
 showtimes:
   - 2024-02-03 14:00:00

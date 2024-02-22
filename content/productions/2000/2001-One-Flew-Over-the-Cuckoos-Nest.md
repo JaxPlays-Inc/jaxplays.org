@@ -1,6 +1,7 @@
 ---
 title: One Flew Over the Cuckoo's Nest
 date: 2001-03-01
+opening_date: 2001-03-01
 closing_date:
 layout: productions
 playbill:

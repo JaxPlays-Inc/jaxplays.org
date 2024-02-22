@@ -1,6 +1,7 @@
 ---
 title: The Hero of Santa Maria
 date: 1923-11-24
+opening_date: 1923-11-24
 closing_date:
 layout: productions
 playbill:

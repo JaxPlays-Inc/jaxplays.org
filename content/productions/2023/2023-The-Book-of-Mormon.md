@@ -1,6 +1,7 @@
 ---
 title: The Book of Mormon
 date: 2023-12-01
+opening_date: 2023-12-01
 closing_date: 2023-12-03
 featured_image: 2023-The-Book-of-Mormon.webp
 featured_image_alt: 

@@ -2,6 +2,7 @@
 layout: productions
 title: Godder Than A Muthafucka
 date: 2020-02-23
+opening_date: 2020-02-23
 closing_date: 2020-02-23
 featured_image: 2020_Godder_Than_A_Muthafucka.webp
 featured_image_attr:

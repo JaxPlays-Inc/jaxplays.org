@@ -1,6 +1,7 @@
 ---
 title: Wake Up, Darling
 date: 1977-05-06
+opening_date: 1977-05-06
 closing_date: 1977-05-21
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Minick
 date: 1926-03-16
+opening_date: 1926-03-16
 closing_date: 1926-03-17
 layout: productions
 playbill:

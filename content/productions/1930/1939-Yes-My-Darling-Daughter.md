@@ -1,6 +1,7 @@
 ---
 title: Yes, My Darling Daughter
 date: 1939-08-08
+opening_date: 1939-08-08
 closing_date: 1939-08-11
 layout: productions
 playbill:

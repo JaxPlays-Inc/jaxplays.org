@@ -1,6 +1,7 @@
 ---
 title: Gentlemen Prefer Blondes
 date: 1971-04-08
+opening_date: 1971-04-08
 closing_date: 1971-04-24
 layout: productions
 playbill:

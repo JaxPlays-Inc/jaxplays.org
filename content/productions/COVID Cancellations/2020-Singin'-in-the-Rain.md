@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Singin' in the Rain
 date: 2020
+opening_date: 2020
 category: musical
 Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/singin-in-the-rain/

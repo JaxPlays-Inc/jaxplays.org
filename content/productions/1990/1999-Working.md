@@ -1,6 +1,7 @@
 ---
 title: Working
 date: 1999-11-05
+opening_date: 1999-11-05
 closing_date: 1999-11-20
 layout: productions
 playbill:

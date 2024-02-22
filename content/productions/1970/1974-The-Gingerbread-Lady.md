@@ -1,6 +1,7 @@
 ---
 title: The Gingerbread Lady
 date: 1974-01-25
+opening_date: 1974-01-25
 closing_date: 1974-02-09
 layout: productions
 playbill:

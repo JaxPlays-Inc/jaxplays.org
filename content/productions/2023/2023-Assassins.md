@@ -1,6 +1,7 @@
 ---
 title: Assassins
 date: 2023-12-08
+opening_date: 2023-12-08
 closing_date: 2023-12-16
 featured_image: 2023-Assassins.webp
 featured_image_alt: 

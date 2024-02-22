@@ -1,6 +1,7 @@
 ---
 title: No Time for Sergeants
 date: 1965-04-02
+opening_date: 1965-04-02
 closing_date: 1965-04-10
 layout: productions
 playbill:

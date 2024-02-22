@@ -1,6 +1,7 @@
 ---
 title: Enter the Hero
 date: 1925-02-24
+opening_date: 1925-02-24
 closing_date:
 layout: productions
 playbill:

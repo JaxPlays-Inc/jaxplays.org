@@ -1,6 +1,7 @@
 ---
 title: A Majority of One
 date: 1964-09-25
+opening_date: 1964-09-25
 closing_date: 1964-10-03
 layout: productions
 playbill:

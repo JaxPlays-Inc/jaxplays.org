@@ -1,6 +1,7 @@
 ---
 title: The Perfect Alibi
 date: 1931-01-13
+opening_date: 1931-01-13
 closing_date:
 layout: productions
 playbill:

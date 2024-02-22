@@ -1,6 +1,7 @@
 ---
 title: 3rd Experimental Evening - Romeo and Juliet
 date: 1928-02-07
+opening_date: 1928-02-07
 closing_date:
 layout: productions
 playbill:

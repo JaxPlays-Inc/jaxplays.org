@@ -1,6 +1,7 @@
 ---
 title: Veronica's Room
 date: 1989-03-24
+opening_date: 1989-03-24
 closing_date: 1989-04-08
 layout: productions
 playbill:

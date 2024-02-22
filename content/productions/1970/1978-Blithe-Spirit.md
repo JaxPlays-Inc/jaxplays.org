@@ -1,6 +1,7 @@
 ---
 title: Blithe Spirit
 date: 1978-05-05
+opening_date: 1978-05-05
 closing_date: 1978-05-20
 layout: productions
 playbill:

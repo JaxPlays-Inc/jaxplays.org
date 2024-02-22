@@ -1,6 +1,7 @@
 ---
 title: Romeo and Juliet
 date: 1999-09-16
+opening_date: 1999-09-16
 closing_date: 1999-09-25
 layout: productions
 playbill:

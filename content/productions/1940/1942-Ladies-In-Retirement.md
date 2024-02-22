@@ -1,6 +1,7 @@
 ---
 title: Ladies In Retirement
 date: 1942-01-20
+opening_date: 1942-01-20
 closing_date: 1942-01-23
 layout: productions
 playbill:

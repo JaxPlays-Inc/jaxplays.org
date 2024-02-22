@@ -3,6 +3,7 @@ title: First Date
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 date: 2024-06-07
+opening_date: 2024-06-07
 closing_date: 2024-06-22
 showtimes:
 - 2024-06-07 19:30:00

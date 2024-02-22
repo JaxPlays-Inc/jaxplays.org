@@ -1,6 +1,7 @@
 ---
 title: Wedding Bells
 date: 1923-12-21
+opening_date: 1923-12-21
 closing_date:
 layout: productions
 playbill:

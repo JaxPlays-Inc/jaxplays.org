@@ -1,6 +1,7 @@
 ---
 title: An Ideal Husband
 date: 1930-04-29
+opening_date: 1930-04-29
 closing_date:
 layout: productions
 playbill:

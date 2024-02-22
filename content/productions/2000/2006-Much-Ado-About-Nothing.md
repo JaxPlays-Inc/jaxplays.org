@@ -1,6 +1,7 @@
 ---
 title: Much Ado About Nothing
 date: 2006-09-15
+opening_date: 2006-09-15
 closing_date: 2006-10-07
 layout: productions
 playbill:

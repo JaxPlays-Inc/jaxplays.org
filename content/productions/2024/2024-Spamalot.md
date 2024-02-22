@@ -3,6 +3,7 @@ title: Spamalot
 Theatre: The Island Theater
 Venue: The Island Theater
 date: 2024-04-12
+opening_date: 2024-04-12
 closing_date: 2024-04-21
 showtimes:
   - 2024-04-12 19:30:00

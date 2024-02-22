@@ -1,6 +1,7 @@
 ---
 title: The Taming of the Shrew
 date: 1945-05-25
+opening_date: 1945-05-25
 closing_date: 1945-06-02
 layout: productions
 playbill:

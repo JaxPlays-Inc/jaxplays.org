@@ -3,6 +3,7 @@ title: A Small Fire
 Theatre: Lumen Repertory Theatre
 Venue: San Marco Church
 date: 2024-02-16
+opening_date: 2024-02-16
 closing_date: 2024-03-02
 showtimes:
 - 2024-02-16 19:30:00

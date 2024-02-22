@@ -3,6 +3,7 @@ title: Dracula
 Theatre: FSCJ DramaWorks
 Venue: Wilson Center - Studio Theatre
 date: 2023-10-19
+opening_date: 2023-10-19
 closing_date: 2023-10-22
 showtimes:
 - 2023-10-19 19:30:00

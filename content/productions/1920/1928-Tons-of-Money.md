@@ -1,6 +1,7 @@
 ---
 title: Tons of Money
 date: 1928-04-24
+opening_date: 1928-04-24
 closing_date: 1928-04-25
 layout: productions
 playbill:

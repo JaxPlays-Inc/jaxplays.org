@@ -1,6 +1,7 @@
 ---
 title: Done To Death
 date: 1988-01-22
+opening_date: 1988-01-22
 closing_date: 1988-02-06
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Romeo and Juliet
 date: 2023-11-10
+opening_date: 2023-11-10
 closing_date: 2023-11-19
 featured_image: 2023_Romeo_and_Juliet.webp
 featured_image_alt: 

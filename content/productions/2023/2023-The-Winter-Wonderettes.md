@@ -1,6 +1,7 @@
 ---
 title: The Winter Wonderettes
 date: 2023-12-01
+opening_date: 2023-12-01
 closing_date: 2023-12-17
 featured_image: 2023-The-Winter-Wonderettes.webp
 featured_image_alt: Poster for The Winter Wonderettes

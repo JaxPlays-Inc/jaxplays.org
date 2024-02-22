@@ -1,6 +1,7 @@
 ---
 title: Strictly Dishonorable
 date: 1948-01-16
+opening_date: 1948-01-16
 closing_date: 1948-01-23
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Over Twenty-One
 date: 1945-01-25
+opening_date: 1945-01-25
 closing_date: 1945-02-03
 layout: productions
 playbill:

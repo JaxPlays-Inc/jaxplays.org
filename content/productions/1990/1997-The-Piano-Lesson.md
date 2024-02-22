@@ -1,6 +1,7 @@
 ---
 title: The Piano Lesson
 date: 1997-03-07
+opening_date: 1997-03-07
 closing_date: 1997-03-23
 layout: productions
 playbill:

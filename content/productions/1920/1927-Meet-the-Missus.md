@@ -1,6 +1,7 @@
 ---
 title: Meet the Missus
 date: 1927-01-18
+opening_date: 1927-01-18
 closing_date: 1927-01-19
 layout: productions
 playbill:

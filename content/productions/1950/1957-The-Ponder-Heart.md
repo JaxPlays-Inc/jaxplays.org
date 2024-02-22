@@ -1,6 +1,7 @@
 ---
 title: The Ponder Heart
 date: 1957-04-03
+opening_date: 1957-04-03
 closing_date: 1957-04-13
 layout: productions
 playbill:

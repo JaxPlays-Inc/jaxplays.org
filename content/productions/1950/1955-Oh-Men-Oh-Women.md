@@ -1,6 +1,7 @@
 ---
 title: Oh, Men! Oh, Women!
 date: 1955-09-14
+opening_date: 1955-09-14
 closing_date: 1955-09-24
 layout: productions
 playbill:

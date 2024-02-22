@@ -1,6 +1,7 @@
 ---
 title: The Admirable Chrichton
 date: 1937-03-30
+opening_date: 1937-03-30
 closing_date:
 layout: productions
 playbill:

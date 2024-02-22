@@ -1,6 +1,7 @@
 ---
 title: A Bill of Divorcement
 date: 1935-05-28
+opening_date: 1935-05-28
 closing_date:
 layout: productions
 playbill:

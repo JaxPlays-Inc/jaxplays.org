@@ -1,6 +1,7 @@
 ---
 title: Twelfth Night
 date: 1969-01-10
+opening_date: 1969-01-10
 closing_date: 1969-01-18
 layout: productions
 playbill:

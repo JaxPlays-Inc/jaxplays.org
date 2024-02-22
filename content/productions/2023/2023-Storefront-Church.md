@@ -3,6 +3,7 @@ title: Storefront Church
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
 date: 2023-11-09
+opening_date: 2023-11-09
 closing_date: 2023-11-26
 showtimes: 
 - 2023-11-09 19:30:00

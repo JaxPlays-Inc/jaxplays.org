@@ -1,6 +1,7 @@
 ---
 title: Born Yesterday
 date: 1956-09-05
+opening_date: 1956-09-05
 closing_date: 1956-09-15
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Two Blind Mice
 date: 1950-02-24
+opening_date: 1950-02-24
 closing_date: 1950-03-04
 layout: productions
 playbill:

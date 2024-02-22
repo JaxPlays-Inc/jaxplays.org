@@ -1,6 +1,7 @@
 ---
 title: Goodbye, But It Doesn't Go Away
 date: 1961-01-13
+opening_date: 1961-01-13
 closing_date: 1961-01-21
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Stage Door
 date: 1938-10-25
+opening_date: 1938-10-25
 closing_date: 1938-10-28
 layout: productions
 playbill:

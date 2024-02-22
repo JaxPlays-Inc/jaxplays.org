@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Footloose (musical)
 date: 2020
+opening_date: 2020
 category: musical
 Name: Footloose
 Theatre: Alhambra Theatre & Dining

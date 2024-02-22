@@ -1,6 +1,7 @@
 ---
 title: Pygmalion
 date: 1947-05-23
+opening_date: 1947-05-23
 closing_date: 1947-05-30
 layout: productions
 playbill:

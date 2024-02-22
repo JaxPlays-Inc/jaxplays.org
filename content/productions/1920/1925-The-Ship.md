@@ -1,6 +1,7 @@
 ---
 title: The Ship
 date: 1925-12-15
+opening_date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions
 playbill:

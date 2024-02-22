@@ -1,6 +1,7 @@
 ---
 title: Critic's Choice
 date: 1979-11-23
+opening_date: 1979-11-23
 closing_date: 1979-12-08
 layout: productions
 playbill:

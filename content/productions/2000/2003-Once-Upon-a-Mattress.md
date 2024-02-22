@@ -1,6 +1,7 @@
 ---
 title: Once Upon a Mattress
 date: 2003-06-13
+opening_date: 2003-06-13
 closing_date: 2003-06-28
 layout: productions
 playbill:

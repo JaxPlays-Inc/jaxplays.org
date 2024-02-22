@@ -1,6 +1,7 @@
 ---
 title: Critic's Choice
 date: 1962-09-27
+opening_date: 1962-09-27
 closing_date: 1962-10-06
 layout: productions
 playbill:

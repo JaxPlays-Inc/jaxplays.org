@@ -1,6 +1,7 @@
 ---
 title: This Thing Called Love
 date: 1933-03-14
+opening_date: 1933-03-14
 closing_date:
 layout: productions
 playbill:

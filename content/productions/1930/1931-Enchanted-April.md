@@ -1,6 +1,7 @@
 ---
 title: Enchanted April
 date: 1931-03-31
+opening_date: 1931-03-31
 closing_date:
 layout: productions
 playbill:

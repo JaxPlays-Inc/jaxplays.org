@@ -1,6 +1,7 @@
 ---
 title: Leading Ladies
 date: 2007-01-12
+opening_date: 2007-01-12
 closing_date: 2007-01-27
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Doubt
 date: 2023-03-10
+opening_date: 2023-03-10
 closing_date: 2023-03-26
 layout: productions
 featured_image: 2023_Doubt.jpeg

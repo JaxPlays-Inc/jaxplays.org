@@ -1,6 +1,7 @@
 ---
 title: Gas, Air, and Earl
 date: 1936-03-03
+opening_date: 1936-03-03
 closing_date:
 layout: productions
 playbill:

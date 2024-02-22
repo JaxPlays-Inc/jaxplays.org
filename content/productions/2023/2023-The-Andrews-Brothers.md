@@ -3,6 +3,7 @@ title: The Andrews Brothers
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2023-11-02
+opening_date: 2023-11-02
 closing_date: 2023-11-18
 showtimes:
   - 2023-11-02 11:00:00

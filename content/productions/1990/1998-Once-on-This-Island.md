@@ -1,6 +1,7 @@
 ---
 title: Once on This Island
 date: 1998-11-06
+opening_date: 1998-11-06
 closing_date: 1998-11-21
 layout: productions
 playbill:

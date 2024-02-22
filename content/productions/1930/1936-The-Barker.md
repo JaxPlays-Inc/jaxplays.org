@@ -1,6 +1,7 @@
 ---
 title: The Barker
 date: 1936-12-08
+opening_date: 1936-12-08
 closing_date:
 layout: productions
 playbill:

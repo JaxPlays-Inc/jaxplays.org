@@ -2,6 +2,7 @@
 layout: productions
 title: Bonnie & Clyde (musical)
 date: 2022-03-18
+opening_date: 2022-03-18
 closing_date: 2022-04-03
 featured_image: 2022_Bonnie_Clyde_Musical.jpeg
 featured_image_attr: ABET

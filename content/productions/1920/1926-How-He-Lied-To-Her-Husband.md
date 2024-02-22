@@ -1,6 +1,7 @@
 ---
 title: How He Lied To Her Husband
 date: 1926-11-16
+opening_date: 1926-11-16
 closing_date: 1926-11-17
 layout: productions
 playbill:

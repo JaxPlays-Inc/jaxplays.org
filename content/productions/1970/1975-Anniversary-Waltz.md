@@ -1,6 +1,7 @@
 ---
 title: Anniversary Waltz
 date: 1975-05-09
+opening_date: 1975-05-09
 closing_date: 1975-05-24
 layout: productions
 playbill:

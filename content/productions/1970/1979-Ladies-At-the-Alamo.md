@@ -1,6 +1,7 @@
 ---
 title: Ladies At the Alamo
 date: 1979-12-14
+opening_date: 1979-12-14
 closing_date: 1979-12-22
 layout: productions
 playbill:

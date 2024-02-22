@@ -1,6 +1,7 @@
 ---
 title: The Remarkable Mr. Pennypacker
 date: 1956-03-14
+opening_date: 1956-03-14
 closing_date: 1956-03-24
 layout: productions
 playbill:

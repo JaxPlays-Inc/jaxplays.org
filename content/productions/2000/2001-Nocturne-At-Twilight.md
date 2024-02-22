@@ -1,6 +1,7 @@
 ---
 title: Nocturne At Twilight
 date: 2001-04-01
+opening_date: 2001-04-01
 closing_date: 2001-05-31
 layout: productions
 playbill:

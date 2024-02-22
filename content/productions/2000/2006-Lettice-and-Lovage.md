@@ -1,6 +1,7 @@
 ---
 title: Lettice and Lovage
 date: 2006-04-21
+opening_date: 2006-04-21
 closing_date: 2006-05-06
 layout: productions
 playbill:

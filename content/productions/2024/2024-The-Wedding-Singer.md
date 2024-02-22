@@ -3,6 +3,7 @@ title: The Wedding Singer
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 date: 2024-10-03
+opening_date: 2024-10-03
 closing_date: 2024-11-10
 showtimes:
   - 2024-10-03 12:00:00

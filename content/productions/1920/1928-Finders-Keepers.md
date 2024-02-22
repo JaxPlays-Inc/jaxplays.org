@@ -1,6 +1,7 @@
 ---
 title: Finders Keepers
 date: 1928-01-20
+opening_date: 1928-01-20
 closing_date:
 layout: productions
 playbill:

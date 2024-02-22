@@ -1,6 +1,7 @@
 ---
 title: Major Barbara (Reading)
 date: 1927-12-31
+opening_date: 1927-12-31
 approx_date: year
 closing_date:
 layout: productions

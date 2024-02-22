@@ -3,6 +3,7 @@ title: Pajama Game
 redirect_from:
 - /productions/2005_Pajama_Game
 date: 2005-06-10
+opening_date: 2005-06-10
 closing_date: 2005-06-25
 layout: productions
 playbill:

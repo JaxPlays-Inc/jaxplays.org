@@ -1,6 +1,7 @@
 ---
 title: The Girls In 509
 date: 1960-05-20
+opening_date: 1960-05-20
 closing_date: 1960-05-28
 layout: productions
 playbill:

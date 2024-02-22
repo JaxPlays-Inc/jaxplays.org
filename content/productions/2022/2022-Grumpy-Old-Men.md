@@ -2,6 +2,7 @@
 layout: productions
 title: Grumpy Old Men
 date: 2022-08-11
+opening_date: 2022-08-11
 closing_date: 2022-09-18
 featured_image: 2022_Grumpy_Old_Men.jpg
 featured_image_attr:

@@ -1,6 +1,7 @@
 ---
 title: Holiday
 date: 1937-03-10
+opening_date: 1937-03-10
 closing_date:
 layout: productions
 playbill:

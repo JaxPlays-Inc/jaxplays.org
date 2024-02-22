@@ -1,6 +1,7 @@
 ---
 title: The American Dame
 date: 1975-01-24
+opening_date: 1975-01-24
 closing_date: 1975-02-08
 layout: productions
 playbill:

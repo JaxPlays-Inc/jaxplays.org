@@ -1,6 +1,7 @@
 ---
 title: Night Must Fall
 date: 1965-01-08
+opening_date: 1965-01-08
 closing_date: 1965-01-16
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: The Boys From Syracuse
 date: 1979-10-05
+opening_date: 1979-10-05
 closing_date: 1979-10-20
 layout: productions
 playbill:

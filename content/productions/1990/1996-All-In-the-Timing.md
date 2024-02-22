@@ -1,6 +1,7 @@
 ---
 title: All In the Timing
 date: 1996-04-19
+opening_date: 1996-04-19
 closing_date: 1996-05-05
 layout: productions
 playbill:

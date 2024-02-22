@@ -1,6 +1,7 @@
 ---
 title: The Glass Menagerie
 date: 1993-12-31
+opening_date: 1993-12-31
 approx_date: year
 closing_date:
 layout: productions

@@ -1,6 +1,7 @@
 ---
 title: Over the River and Through the Woods
 date: 2005-03-04
+opening_date: 2005-03-04
 closing_date: 2005-03-19
 layout: productions
 playbill:

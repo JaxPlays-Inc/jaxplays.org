@@ -4,6 +4,7 @@ redirect_from:
 - /productions/2011_The_Creationists
 title: The Creationists
 date: 2011-02-18
+opening_date: 2011-02-18
 closing_date: 2011-02-26
 featured_image:
 Theatre: Players by the Sea

@@ -3,6 +3,7 @@ title: For Whom the Southern Belle Tolls
 Theatre: A Classic Theatre
 Venue: The Center for Spiritual Living
 date: 2024-02-09
+opening_date: 2024-02-09
 closing_date: 2024-02-09
 showtimes:
 - 2024-02-09 19:30:00

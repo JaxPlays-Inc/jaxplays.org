@@ -1,6 +1,7 @@
 ---
 title: The Women
 date: 1989-05-19
+opening_date: 1989-05-19
 closing_date: 1989-06-03
 layout: productions
 playbill:

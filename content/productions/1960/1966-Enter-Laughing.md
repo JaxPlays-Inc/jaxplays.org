@@ -1,6 +1,7 @@
 ---
 title: Enter Laughing
 date: 1966-09-30
+opening_date: 1966-09-30
 closing_date: 1966-10-14
 layout: productions
 playbill:

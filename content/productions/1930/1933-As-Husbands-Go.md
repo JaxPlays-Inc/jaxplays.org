@@ -1,6 +1,7 @@
 ---
 title: As Husbands Go
 date: 1933-11-14
+opening_date: 1933-11-14
 closing_date:
 layout: productions
 playbill:

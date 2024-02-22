@@ -1,6 +1,7 @@
 ---
 title: Grumpy
 date: 1935-06-06
+opening_date: 1935-06-06
 closing_date:
 layout: productions
 playbill:

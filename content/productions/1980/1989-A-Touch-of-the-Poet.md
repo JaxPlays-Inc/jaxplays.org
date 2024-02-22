@@ -1,6 +1,7 @@
 ---
 title: A Touch of the Poet
 date: 1989-12-01
+opening_date: 1989-12-01
 closing_date: 1989-12-16
 layout: productions
 playbill:

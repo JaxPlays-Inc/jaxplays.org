@@ -2,6 +2,7 @@
 layout: productions
 title: Photograph 51
 date: 2019-01-25
+opening_date: 2019-01-25
 closing_date: 2019-01-26
 Genres: 
 - Play

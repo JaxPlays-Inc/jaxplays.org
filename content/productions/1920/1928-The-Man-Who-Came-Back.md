@@ -1,6 +1,7 @@
 ---
 title: The Man Who Came Back
 date: 1928-12-04
+opening_date: 1928-12-04
 closing_date: 1928-12-05
 layout: productions
 playbill:

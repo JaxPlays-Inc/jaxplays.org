@@ -1,6 +1,7 @@
 ---
 title: Tartuffe
 date: 1966-04-08
+opening_date: 1966-04-08
 closing_date: 1966-04-16
 layout: productions
 playbill:

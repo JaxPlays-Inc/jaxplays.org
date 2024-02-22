@@ -1,6 +1,7 @@
 ---
 title: Affairs of State
 date: 1953-09-30
+opening_date: 1953-09-30
 closing_date: 1953-10-10
 layout: productions
 playbill:

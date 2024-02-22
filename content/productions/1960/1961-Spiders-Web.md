@@ -1,6 +1,7 @@
 ---
 title: Spider's Web
 date: 1961-04-14
+opening_date: 1961-04-14
 closing_date: 1961-04-22
 layout: productions
 playbill:

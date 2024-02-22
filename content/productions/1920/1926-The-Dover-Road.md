@@ -1,6 +1,7 @@
 ---
 title: The Dover Road
 date: 1926-12-16
+opening_date: 1926-12-16
 closing_date: 1926-12-17
 layout: productions
 playbill:

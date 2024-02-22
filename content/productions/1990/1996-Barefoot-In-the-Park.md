@@ -1,6 +1,7 @@
 ---
 title: Barefoot In the Park
 date: 1996-11-08
+opening_date: 1996-11-08
 closing_date: 1996-11-24
 layout: productions
 playbill:

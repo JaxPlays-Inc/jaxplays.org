@@ -1,6 +1,7 @@
 ---
 title: First Lady
 date: 1939-02-07
+opening_date: 1939-02-07
 closing_date: 1939-02-10
 layout: productions
 playbill:

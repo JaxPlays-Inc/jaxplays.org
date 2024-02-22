@@ -3,6 +3,7 @@ title: Breaking Up Is Hard To Do
 Theatre: Spotlight Events Center
 Venue: Spotlight Events Center
 date: 2024-02-14
+opening_date: 2024-02-14
 closing_date: 2024-03-02
 showtimes:
 - 2024-02-14 17:30:00

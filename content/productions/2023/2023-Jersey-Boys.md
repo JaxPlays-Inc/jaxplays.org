@@ -1,6 +1,7 @@
 ---
 title: Jersey Boys
 date: 2023-04-27
+opening_date: 2023-04-27
 closing_date: 2023-06-04
 layout: productions
 playbill:

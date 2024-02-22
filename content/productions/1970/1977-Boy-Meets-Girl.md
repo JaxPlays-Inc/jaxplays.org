@@ -1,6 +1,7 @@
 ---
 title: Boy Meets Girl
 date: 1977-03-18
+opening_date: 1977-03-18
 closing_date: 1977-04-02
 layout: productions
 playbill:

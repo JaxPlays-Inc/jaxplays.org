@@ -1,6 +1,7 @@
 ---
 title: Innocent & Annabell
 date: 1921-11-08
+opening_date: 1921-11-08
 closing_date:
 layout: productions
 

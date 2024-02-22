@@ -1,6 +1,7 @@
 ---
 title: Two Crooks and a Lady
 date: 1923-01-30
+opening_date: 1923-01-30
 closing_date:
 layout: productions
 playbill:

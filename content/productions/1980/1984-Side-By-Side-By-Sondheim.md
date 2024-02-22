@@ -1,6 +1,7 @@
 ---
 title: Side By Side By Sondheim
 date: 1984-05-11
+opening_date: 1984-05-11
 closing_date: 1984-05-26
 layout: productions
 playbill:

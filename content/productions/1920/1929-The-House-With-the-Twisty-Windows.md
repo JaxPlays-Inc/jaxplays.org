@@ -1,6 +1,7 @@
 ---
 title: The House With the Twisty Windows
 date: 1929-01-22
+opening_date: 1929-01-22
 closing_date:
 layout: productions
 playbill:

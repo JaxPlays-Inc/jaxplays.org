@@ -1,6 +1,7 @@
 ---
 title: Carousel
 date: 1970-10-08
+opening_date: 1970-10-08
 closing_date: 1970-10-24
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Arsenic and Old Lace
 date: 1942-10-01
+opening_date: 1942-10-01
 approx_date: month
 closing_date:
 layout: productions

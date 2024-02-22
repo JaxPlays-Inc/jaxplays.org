@@ -1,6 +1,7 @@
 ---
 title: The Front Page
 date: 1996-01-12
+opening_date: 1996-01-12
 closing_date: 1996-01-28
 layout: productions
 playbill:

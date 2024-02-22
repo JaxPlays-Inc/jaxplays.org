@@ -3,6 +3,7 @@ title: Joseph and the Amazing Technicolor Dreamcoat
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 date: 2024-06-20
+opening_date: 2024-06-20
 closing_date: 2024-08-11
 showtimes:
   - 2024-06-20 12:00:00

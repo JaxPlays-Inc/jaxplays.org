@@ -1,6 +1,7 @@
 ---
 title: The Bracelet
 date: 1925-02-24
+opening_date: 1925-02-24
 closing_date:
 layout: productions
 playbill:

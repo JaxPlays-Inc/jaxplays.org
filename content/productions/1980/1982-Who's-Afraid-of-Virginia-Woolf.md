@@ -1,6 +1,7 @@
 ---
 title: Who's Afraid of Virginia Woolf?
 date: 1982-11-26
+opening_date: 1982-11-26
 closing_date: 1982-12-11
 layout: productions
 playbill:

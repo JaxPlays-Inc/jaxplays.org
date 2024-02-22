@@ -1,6 +1,7 @@
 ---
 title: A Game of Chess
 date: 1928-03-20
+opening_date: 1928-03-20
 closing_date:
 layout: productions
 playbill:

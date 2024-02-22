@@ -1,6 +1,7 @@
 ---
 title: Alabama Story
 date: 2023-09-29
+opening_date: 2023-09-29
 closing_date: 2023-10-15
 featured_image: 2023_Alabama_Story.webp
 featured_image_alt: 

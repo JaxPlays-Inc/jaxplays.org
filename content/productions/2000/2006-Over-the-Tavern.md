@@ -1,6 +1,7 @@
 ---
 title: Over the Tavern
 date: 2006-11-03
+opening_date: 2006-11-03
 closing_date: 2006-11-16
 layout: productions
 playbill:

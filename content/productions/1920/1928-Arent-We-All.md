@@ -1,6 +1,7 @@
 ---
 title: Aren't We All
 date: 1928-11-08
+opening_date: 1928-11-08
 closing_date: 1928-11-09
 layout: productions
 playbill:

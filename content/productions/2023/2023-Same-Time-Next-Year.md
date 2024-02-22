@@ -3,6 +3,7 @@ title: Same Time Next Year
 Theatre: A Classic Theatre
 Venue: The Center for Spiritual Living
 date: 2023-11-03
+opening_date: 2023-11-03
 closing_date: 2023-11-03
 showtimes:
 - 2023-11-03 19:30:00

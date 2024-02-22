@@ -1,6 +1,7 @@
 ---
 title: Clarence
 date: 1929-02-25
+opening_date: 1929-02-25
 closing_date:
 layout: productions
 playbill:

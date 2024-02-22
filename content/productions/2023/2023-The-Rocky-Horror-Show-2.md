@@ -3,6 +3,7 @@ title: The Rocky Horror Show
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
 date: 2023-10-26
+opening_date: 2023-10-26
 closing_date: 2023-10-28
 showtimes:
   - 2023-10-26 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: The Little Review
 date: 1947-04-25
+opening_date: 1947-04-25
 closing_date: 1947-04-27
 layout: productions
 playbill:

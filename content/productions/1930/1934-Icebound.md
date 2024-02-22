@@ -1,6 +1,7 @@
 ---
 title: Icebound
 date: 1934-03-13
+opening_date: 1934-03-13
 closing_date:
 layout: productions
 playbill:

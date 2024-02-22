@@ -1,6 +1,7 @@
 ---
 title: She Couldn't Say No
 date: 1933-11-28
+opening_date: 1933-11-28
 closing_date:
 layout: productions
 playbill:

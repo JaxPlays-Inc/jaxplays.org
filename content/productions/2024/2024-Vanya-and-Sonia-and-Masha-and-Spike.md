@@ -3,6 +3,7 @@ title: Vanya and Sonia and Masha and Spike
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 date: 2024-04-12
+opening_date: 2024-04-12
 closing_date: 2024-04-27
 showtimes:
 - 2024-04-12 19:30:00

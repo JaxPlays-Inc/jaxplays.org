@@ -1,6 +1,7 @@
 ---
 title: The Country Girl
 date: 1953-05-27
+opening_date: 1953-05-27
 closing_date: 1953-06-06
 layout: productions
 playbill:

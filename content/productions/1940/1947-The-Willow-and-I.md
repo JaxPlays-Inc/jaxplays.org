@@ -1,6 +1,7 @@
 ---
 title: The Willow and I
 date: 1947-11-28
+opening_date: 1947-11-28
 closing_date: 1947-12-05
 layout: productions
 playbill:

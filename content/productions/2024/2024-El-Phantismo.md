@@ -3,6 +3,7 @@ title: El Phantismo
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2024-01-12
+opening_date: 2024-01-12
 closing_date: 2024-01-21
 showtimes:
 - 2024-01-12 19:30:00

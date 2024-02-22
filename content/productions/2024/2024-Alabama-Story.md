@@ -1,6 +1,7 @@
 ---
 title: Alabama Story
 date: 2024-03-08
+opening_date: 2024-03-08
 closing_date: 2024-03-24
 layout: productions
 featured_image: 2024_Alabama_Story.webp

@@ -1,6 +1,7 @@
 ---
 title: What Did We Do Wrong
 date: 1969-09-26
+opening_date: 1969-09-26
 closing_date: 1969-10-04
 layout: productions
 playbill:

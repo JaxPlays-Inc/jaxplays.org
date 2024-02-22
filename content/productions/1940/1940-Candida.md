@@ -1,6 +1,7 @@
 ---
 title: Candida
 date: 1940-05-07
+opening_date: 1940-05-07
 closing_date: 1940-05-10
 layout: productions
 playbill:

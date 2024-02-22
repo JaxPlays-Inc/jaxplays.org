@@ -1,6 +1,7 @@
 ---
 title: Dark Victory
 date: 1941-01-21
+opening_date: 1941-01-21
 closing_date: 1941-01-24
 layout: productions
 playbill:

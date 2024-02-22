@@ -1,6 +1,7 @@
 ---
 title: Post Road
 date: 1936-11-17
+opening_date: 1936-11-17
 closing_date:
 layout: productions
 playbill:

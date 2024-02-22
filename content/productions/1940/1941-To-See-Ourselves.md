@@ -1,6 +1,7 @@
 ---
 title: To See Ourselves
 date: 1941-05-27
+opening_date: 1941-05-27
 closing_date: 1941-05-30
 layout: productions
 playbill:

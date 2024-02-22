@@ -1,6 +1,7 @@
 ---
 title: Mister Roberts
 date: 1953-11-18
+opening_date: 1953-11-18
 closing_date: 1953-11-28
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Cabaret
 date: 1982-10-01
+opening_date: 1982-10-01
 closing_date: 1982-10-16
 layout: productions
 playbill:

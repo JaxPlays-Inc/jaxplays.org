@@ -1,6 +1,7 @@
 ---
 title: The Servant In the House
 date: 1927-03-15
+opening_date: 1927-03-15
 closing_date: 1927-03-16
 layout: productions
 playbill:

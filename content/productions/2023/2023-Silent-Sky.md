@@ -1,6 +1,7 @@
 ---
 title: Silent Sky
 date: 2023-12-01
+opening_date: 2023-12-01
 closing_date: 2023-12-10
 featured_image: 2023-Silent-Sky.webp
 featured_image_alt: 

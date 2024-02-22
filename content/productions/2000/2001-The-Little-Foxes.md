@@ -1,6 +1,7 @@
 ---
 title: The Little Foxes
 date: 2001-01-01
+opening_date: 2001-01-01
 closing_date:
 layout: productions
 playbill:

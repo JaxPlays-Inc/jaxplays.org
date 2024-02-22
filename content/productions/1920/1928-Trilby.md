@@ -1,6 +1,7 @@
 ---
 title: Trilby
 date: 1928-10-18
+opening_date: 1928-10-18
 closing_date:
 layout: productions
 playbill:

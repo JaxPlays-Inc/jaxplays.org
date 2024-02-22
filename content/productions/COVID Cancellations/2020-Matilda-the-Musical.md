@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: Matilda the Musical
 date: 2020
+opening_date: 2020
 featured_image: 2020_Matilda_the_Musical.png
 featured_image_attr:
 featured_image_alt:

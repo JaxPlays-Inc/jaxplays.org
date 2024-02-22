@@ -1,6 +1,7 @@
 ---
 title: Green Grow the Lilacs
 date: 1944-12-01
+opening_date: 1944-12-01
 closing_date: 1944-12-10
 layout: productions
 playbill:

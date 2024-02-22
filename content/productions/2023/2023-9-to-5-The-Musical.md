@@ -1,6 +1,7 @@
 ---
 title: 9 to 5 The Musical
 date: 2023-08-11
+opening_date: 2023-08-11
 closing_date: 2023-08-26
 layout: productions
 featured_image: 2023_9_to_5_The_Musical.webp

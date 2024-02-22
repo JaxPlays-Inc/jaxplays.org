@@ -1,6 +1,7 @@
 ---
 title: The Gazebo
 date: 1968-02-23
+opening_date: 1968-02-23
 closing_date: 1968-03-09
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Interference
 date: 1935-05-21
+opening_date: 1935-05-21
 closing_date:
 layout: productions
 playbill:

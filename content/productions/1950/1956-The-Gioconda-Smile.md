@@ -1,6 +1,7 @@
 ---
 title: The Gioconda Smile
 date: 1956-02-01
+opening_date: 1956-02-01
 closing_date: 1956-02-11
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Irma La Douce
 date: 1967-05-19
+opening_date: 1967-05-19
 closing_date: 1967-06-10
 layout: productions
 playbill:

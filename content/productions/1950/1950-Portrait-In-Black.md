@@ -1,6 +1,7 @@
 ---
 title: Portrait In Black
 date: 1950-04-14
+opening_date: 1950-04-14
 closing_date: 1950-04-22
 layout: productions
 playbill:

@@ -1,6 +1,7 @@
 ---
 title: Look Homeward Angel
 date: 1988-09-02
+opening_date: 1988-09-02
 closing_date: 1988-09-17
 layout: productions
 playbill:

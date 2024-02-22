@@ -1,6 +1,7 @@
 ---
 title: The Lonesome Road
 date: 1937-02-27
+opening_date: 1937-02-27
 closing_date:
 layout: productions
 playbill:

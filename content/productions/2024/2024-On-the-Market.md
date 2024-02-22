@@ -1,6 +1,7 @@
 ---
 title: On the Market
 date: 2024-01-12
+opening_date: 2024-01-12
 closing_date: 2024-01-28
 layout: productions
 featured_image: 2024_On_the_Market.webp

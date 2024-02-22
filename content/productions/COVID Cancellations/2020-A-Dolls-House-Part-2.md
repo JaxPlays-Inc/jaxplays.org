@@ -4,6 +4,7 @@ cancelled: COVID-19
 layout: productions
 title: A Doll's House, Part 2
 date: 2020
+opening_date: 2020
 Genres: 
 - Play
 Theatre: Amelia Community Theatre

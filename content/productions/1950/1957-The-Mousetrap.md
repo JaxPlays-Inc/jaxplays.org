@@ -1,6 +1,7 @@
 ---
 title: The Mousetrap
 date: 1957-01-16
+opening_date: 1957-01-16
 closing_date: 1957-01-26
 layout: productions
 playbill:

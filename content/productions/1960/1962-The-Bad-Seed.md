@@ -1,6 +1,7 @@
 ---
 title: The Bad Seed
 date: 1962-01-12
+opening_date: 1962-01-12
 closing_date: 1962-01-20
 layout: productions
 playbill:

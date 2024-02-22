@@ -1,6 +1,7 @@
 ---
 title: I'm Not Rappaport
 date: 1992-02-21
+opening_date: 1992-02-21
 closing_date: 1992-02-29
 layout: productions
 playbill:

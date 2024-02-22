@@ -1,6 +1,7 @@
 ---
 title: Gretna Green
 date: 1933-04-18
+opening_date: 1933-04-18
 closing_date:
 layout: productions
 playbill:

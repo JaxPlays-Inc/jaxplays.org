@@ -1,6 +1,7 @@
 ---
 title: Private Lives
 date: 1976-01-23
+opening_date: 1976-01-23
 closing_date: 1976-02-07
 layout: productions
 playbill:

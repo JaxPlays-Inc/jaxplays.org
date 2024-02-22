@@ -1,6 +1,7 @@
 ---
 title: Personal Appearance
 date: 1938-05-10
+opening_date: 1938-05-10
 closing_date: 1938-05-12
 layout: productions
 playbill:

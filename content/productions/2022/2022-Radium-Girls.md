@@ -2,6 +2,7 @@
 layout: productions
 title: Radium Girls
 date: 2022-06-10
+opening_date: 2022-06-10
 closing_date: 2022-06-25
 featured_image: 2022_Radium_Girls.webp
 featured_image_attr: Amelia Community Theatre

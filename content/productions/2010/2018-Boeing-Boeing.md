@@ -3,6 +3,7 @@ title: Boeing Boeing
 Theatre: Theatre Jacksonville
 Venue: Harold K. Smith Playhouse
 date: 2018-04-20
+opening_date: 2018-04-20
 closing_date: 2018-05-06
 showtimes:
   - 2018-04-20 20:00:00

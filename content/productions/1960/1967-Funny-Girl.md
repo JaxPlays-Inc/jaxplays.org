@@ -1,6 +1,7 @@
 ---
 title: Funny Girl
 date: 1967-11-24
+opening_date: 1967-11-24
 closing_date: 1967-12-09
 layout: productions
 playbill:

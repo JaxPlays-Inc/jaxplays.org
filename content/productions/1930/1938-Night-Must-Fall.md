@@ -1,6 +1,7 @@
 ---
 title: Night Must Fall
 date: 1938-12-06
+opening_date: 1938-12-06
 closing_date: 1938-12-09
 layout: productions
 playbill:

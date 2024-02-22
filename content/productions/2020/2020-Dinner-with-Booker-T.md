@@ -2,6 +2,7 @@
 layout: productions
 title: Dinner with Booker T.
 date: 2020-02-08
+opening_date: 2020-02-08
 closing_date: 2020-02-08
 featured_image: 2020_Dinner_with_Booker_T.webp
 featured_image_attr:

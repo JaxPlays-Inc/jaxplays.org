@@ -1,6 +1,7 @@
 ---
 title: Invitation To a Murder
 date: 1951-03-02
+opening_date: 1951-03-02
 closing_date: 1951-03-10
 layout: productions
 playbill:

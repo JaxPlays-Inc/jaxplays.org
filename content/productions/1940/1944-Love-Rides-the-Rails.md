@@ -1,6 +1,7 @@
 ---
 title: Love Rides the Rails
 date: 1944-03-01
+opening_date: 1944-03-01
 approx_date: month
 closing_date:
 layout: productions

@@ -1,6 +1,7 @@
 ---
 title: Out of This World
 date: 1974-10-11
+opening_date: 1974-10-11
 closing_date: 1974-10-26
 layout: productions
 playbill:

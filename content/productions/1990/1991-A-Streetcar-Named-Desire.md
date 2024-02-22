@@ -1,6 +1,7 @@
 ---
 title: A Streetcar Named Desire
 date: 1991-01-25
+opening_date: 1991-01-25
 closing_date: 1991-02-09
 layout: productions
 playbill:

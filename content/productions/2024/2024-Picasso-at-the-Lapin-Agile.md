@@ -1,6 +1,7 @@
 ---
 title: Picasso at the Lapin Agile
 date: 2024-04-19
+opening_date: 2024-04-19
 closing_date: 2024-05-05
 layout: productions
 featured_image: 2024_Picasso_at_the_Lapin_Agile.webp

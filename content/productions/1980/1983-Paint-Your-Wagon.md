@@ -1,6 +1,7 @@
 ---
 title: Paint Your Wagon
 date: 1983-03-13
+opening_date: 1983-03-13
 closing_date: 1983-03-28
 layout: productions
 playbill:

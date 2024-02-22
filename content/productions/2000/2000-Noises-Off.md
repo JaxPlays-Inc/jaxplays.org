@@ -1,6 +1,7 @@
 ---
 title: Noises Off
 date: 2000-11-01
+opening_date: 2000-11-01
 closing_date:
 layout: productions
 playbill:

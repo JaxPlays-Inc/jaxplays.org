@@ -1,6 +1,7 @@
 ---
 title: Mr. and Mrs. North
 date: 1943-04-01
+opening_date: 1943-04-01
 approx_date: month
 closing_date:
 layout: productions

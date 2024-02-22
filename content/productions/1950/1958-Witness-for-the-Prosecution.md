@@ -1,6 +1,7 @@
 ---
 title: Witness for the Prosecution
 date: 1958-01-08
+opening_date: 1958-01-08
 closing_date: 1958-01-18
 layout: productions
 playbill:

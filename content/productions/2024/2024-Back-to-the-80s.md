@@ -3,6 +3,7 @@ title: Back to the 80s
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
 date: 2024-02-01
+opening_date: 2024-02-01
 closing_date: 2024-02-17
 showtimes:
 - 2024-02-01 19:30:00

@@ -1,6 +1,7 @@
 ---
 title: As You Like It
 date: 2013-08-23
+opening_date: 2013-08-23
 closing_date: 2013-09-08
 layout: productions
 playbill:

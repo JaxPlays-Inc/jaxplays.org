@@ -3,6 +3,7 @@ title: Suor Angelica
 Theatre: Bold City Opera
 Venue: St. John's Cathedral
 date: 2023-09-22
+opening_date: 2023-09-22
 closing_date: 2023-09-23
 showtimes:
   - 2023-09-22 19:00:00

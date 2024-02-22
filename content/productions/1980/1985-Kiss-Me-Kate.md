@@ -1,6 +1,7 @@
 ---
 title: Kiss Me Kate
 date: 1985-10-11
+opening_date: 1985-10-11
 closing_date: 1985-10-26
 layout: productions
 playbill:

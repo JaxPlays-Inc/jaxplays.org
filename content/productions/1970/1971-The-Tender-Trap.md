@@ -1,6 +1,7 @@
 ---
 title: The Tender Trap
 date: 1971-05-21
+opening_date: 1971-05-21
 closing_date: 1971-06-05
 layout: productions
 playbill:

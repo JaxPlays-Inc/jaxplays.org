@@ -1,6 +1,7 @@
 ---
 title: Stardust
 date: 1947-04-11
+opening_date: 1947-04-11
 closing_date: 1947-04-18
 layout: productions
 playbill:

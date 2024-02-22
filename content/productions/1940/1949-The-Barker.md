@@ -1,6 +1,7 @@
 ---
 title: The Barker
 date: 1949-05-20
+opening_date: 1949-05-20
 closing_date: 1949-05-27
 layout: productions
 playbill:

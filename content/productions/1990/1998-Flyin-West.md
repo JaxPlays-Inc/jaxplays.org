@@ -1,6 +1,7 @@
 ---
 title: Flyin West
 date: 1998-03-06
+opening_date: 1998-03-06
 closing_date: 1998-03-21
 layout: productions
 playbill:

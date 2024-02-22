@@ -1,6 +1,7 @@
 ---
 title: The Late George Apley
 date: 1956-10-17
+opening_date: 1956-10-17
 closing_date: 1956-10-27
 layout: productions
 playbill:

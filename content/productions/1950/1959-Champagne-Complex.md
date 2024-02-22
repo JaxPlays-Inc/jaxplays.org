@@ -1,6 +1,7 @@
 ---
 title: Champagne Complex
 date: 1959-02-25
+opening_date: 1959-02-25
 closing_date: 1959-03-07
 layout: productions
 playbill:

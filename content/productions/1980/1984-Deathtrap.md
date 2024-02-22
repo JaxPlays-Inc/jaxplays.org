@@ -1,6 +1,7 @@
 ---
 title: Deathtrap
 date: 1984-04-06
+opening_date: 1984-04-06
 closing_date: 1984-04-21
 layout: productions
 playbill:

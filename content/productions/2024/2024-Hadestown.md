@@ -1,6 +1,7 @@
 ---
 title: Hadestown
 date: 2024-02-06
+opening_date: 2024-02-06
 closing_date: 2024-02-11
 featured_image: 2024-Hadestown.webp
 featured_image_alt: 
