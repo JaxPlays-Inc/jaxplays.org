@@ -51,7 +51,9 @@ cast:
 crew: 
 - Director: Ken McCulough
 - Set and Lighting Designer: Johnny Pettegrew
-- Costume Designers: Camala Pitts and Dorinda Quiles
+- Costume Designers: 
+  - Camala Pitts
+  - Dorinda Quiles
 - Scene Shop Supervisor: Bob Rupp
 - Assistant Technical Director: Emily Kritzman
 - Stage Manager: Callie Gaines

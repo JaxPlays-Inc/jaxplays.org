@@ -59,12 +59,58 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1455&code=WWW&qty_target=0
 show_details: 
 cast:
+- Aunt Eller: Patti Eyler
+- Curly: Alexander Blanco
+- Laurey: Isabella Fedele
+- Ike Skidmore: Ryan Lemmon
+- Will Parker: Melvin Nash
+- Jud Fry: Alec Hadden
+- Ado Annie: Natalie Drake
+- Ali Hakim: Judd Caldwell
+- Andrew Carnes: Allan Baker
+- Gertie: Kylie Giliberto
+- Kate: Kelli Hollander
+- Armina: Arrione Magee
+- Aggie: Brooklyn Klekamp
+- Sylvie: Alexia Adcock-Stanford
+- Cord Elum: Bob O'Hara
+- Mike: Benjamin Cornelius
+- Sam: Nick Cooper
+- Tom: David Antonio Ford
+understudies:
+- Curly: Melvin Nash
+- Laurey: Kylie Giliberto
+- Gertie: Kelli Hollander
+- Ado Annie: Brooklyn Klekamp
+- Aunt Eller: Alexia Adcock-Stanford
+- Ike Skidmore: Bob O'Hara
+- Jud Fry: Benjamin Cornelius
+- Will Parker: Nick Cooper
+- Ali Hakim: David Antonio Ford
 crew:
+- Executive Producer: Tod Booth
+- Director: Tod Booth
+- Vice President of Production: Shain Stroff
+- Music Director: Cathy Murphy Giddens
+- Choreographer: Erick Ariel Sureda
+- Production Manager: Erick Ariel Sureda
+- Lighting Designer: Johnny Pettegrew
+- Costume Designer:
+  - Camala Pitts
+  - Dorinda Quiles
+- Set Design: David Dionne
+- Set Construction: 
+  - Ian Black
+  - Kenny Holderfield
+  - Bob Rupp
+- Sound Designer: Eric Sullivan
+- Sound Technician: Carly Meyer
+- Property Master: Patti Eyler
+- Wig Design: Layla Thurman
+- Company Manager: Lisa Valdini Booth
+- Assistant Stage Manager: Sarah Brace
+- Stage Crew:
+  - Dante Gathings
+  - Thaddaeus Walker
 orchestra:
-Genres:
-  - Musical
-  - Romance
-  - Drama
-Description: "Beneath the wide Oklahoma sky, a spirited tale of love, rivalry, and dreams unfolds. Oklahoma captures the heart of a new America with its mesmerizing music and vibrant characters."
 ---
-In the rugged landscape of early 20th-century America, a love story blossoms between the charismatic cowboy Curly McLain and the spirited farm girl Laurey Williams. Amidst the backdrop of a high-spirited rivalry between the farmers and cowboys, their romance faces trials and tribulations. Oklahoma, with its rich narrative and iconic Rodgers and Hammerstein score, masterfully intertwines the thrill of young love with the challenges of a land on the cusp of change. It’s a celebration of community spirit, resilience, and the enduring power of dreams in the face of adversity. The pioneering spirit of 'Oklahoma!' is brought to life through rousing music, compelling drama, and a dance that captures the essence of an era.
