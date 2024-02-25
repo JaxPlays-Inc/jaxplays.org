@@ -14,7 +14,7 @@
   <div id="sharing" class="mt3 ananke-socials">
     {{ range $service :=  $services }}
       {{ $href := index $hrefs .name }}
-      <a href="{{ $href }}" class="ananke-social-link {{ .name }} no-underline" aria-label="share on {{ .label }}">
+      <a target="_blank" href="{{ $href }}" class="ananke-social-link {{ .name }} no-underline" aria-label="share on {{ .label }}">
         {{ with .icon }}
         <span class="icon"> {{ . }}</span>
         {{ end }}

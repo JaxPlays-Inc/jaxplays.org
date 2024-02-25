@@ -27,6 +27,16 @@ params:
   - name: facebook
     url: https://www.facebook.com/jaxplaysorg
     label: Facebook
+  - name: twitter
+    label: Twitter/X
+    follow: false
+  - name: instagram
+    label: Instagram
+    follow: false
+  - name: linkedin
+    label: LinkedIn
+    url: https://www.linkedin.com/company/jaxplaysorg
+    follow: true
 menu:
   main:
   - name: Home
