@@ -63,7 +63,7 @@ cast:
 - Curly: Alexander Blanco
 - Laurey: Isabella Fedele
 - Ike Skidmore: Ryan Lemmon
-- Will Parker: Melvin Nash
+- Will Parker: Mel Nash
 - Jud Fry: Alec Hadden
 - Ado Annie: Natalie Drake
 - Ali Hakim: Judd Caldwell
@@ -78,7 +78,7 @@ cast:
 - Sam: Nick Cooper
 - Tom: David Antonio Ford
 understudies:
-- Curly: Melvin Nash
+- Curly: Mel Nash
 - Laurey: Kylie Giliberto
 - Gertie: Kelli Hollander
 - Ado Annie: Brooklyn Klekamp
