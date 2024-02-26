@@ -1,0 +1,25 @@
+{{- $events := slice -}}
+{{- range where .Site.Pages "Type" "productions" -}}
+  {{- $title := .Title -}}
+  {{- $theatre := .Params.Theatre -}}
+  {{- $featuredImage := .Params.featured_image -}}
+  {{- $url := .Permalink -}}
+  
+  {{- /* Initialize default color */ -}}
+  {{- $color := "#000" -}}
+  
+  {{- /* Try to fetch the theatre's color */ -}}
+  {{- $theatreURL := $theatre | replaceRE "&" "and" | urlize | replaceRE "\\." "" -}}
+  {{- with $.Site.GetPage "page" (printf "/theatres/%s" $theatreURL) -}}
+    {{- $color = .Params.color | default "#000" -}}
+  {{- end -}}
+
+  {{- with .Params.showtimes -}}
+    {{- if gt (len .) 0 -}}
+      {{- /* Only take the first showtime */ -}}
+      {{- $firstShowtime := index . 0 -}}
+      {{- $events = $events | append (dict "title" $title "start" $firstShowtime "theatre" $theatre "url" $url "color" $color "featured_image" $featuredImage) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $events | jsonify -}}

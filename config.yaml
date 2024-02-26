@@ -102,6 +102,11 @@ outputFormats:
     baseName: calendar
     isPlainText: true
     notAlternative: true
+  Opening_Nights:
+    mediaType: application/json
+    baseName: opening_nights
+    isPlainText: true
+    notAlternative: true
 
 outputs:
   home: 
@@ -109,3 +114,4 @@ outputs:
     - RSS
     - JSON
     - Calendar
+    - Opening_Nights
