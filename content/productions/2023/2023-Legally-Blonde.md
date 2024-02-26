@@ -74,13 +74,13 @@ cast:
 - Enid Hoops: Abigail Gordiany
 - Store Manager/ Student/ Judge: Chelsea Lucas
 - Student/ Court Stenographer: Kylie Giliberto
-- DA Joyce Reily/ Salesperson/ Student Kate: Brooklyn Klehamp
+- DA Joyce Reily/ Salesperson/ Student Kate: Brooklyn Klekamp
 - Aaron: Jonathan Crawford
 - Grandmaster Chad/ Kyle: Anthony Mincey, II
 - Carlos/ Lowell/ Kiki: Logan Farley
 - Nikos/ Sundeep Agrawal Padamadan: Sean Rodrigo Royal
 - Prorzheimer/ Prison Guard: Joshua Abbott
-- Elle's Dad/ Winthrop/ Dewey/ TV Reporter: Alex Hadden
+- Elle's Dad/ Winthrop/ Dewey/ TV Reporter: Alec Hadden
 - Cashier/ Leilani/ Becky/ Chutney: Nayda Marie Baez
 - Elle's Mom: Kelsey Martin
 - Bruiser: Luna
@@ -96,7 +96,7 @@ cast:
   - Logan Farley
   - Sean Rodrigo Royal
   - Joshua Abbott
-  - Alex Hadden
+  - Alec Hadden
 - Delta Nu:
   - Abigail Gordiany
   - Chelsea Lucas
@@ -106,7 +106,7 @@ understudies:
 - Elle Woods: Kylie Giliberto
 - Emmett Forrest: Jonathan Crawford
 - Warner Huntington III: Jonathan Crawford
-- Professor Callahan: Alex Hadden
+- Professor Callahan: Alec Hadden
 - Paulette Buonofuonte: Erin Leigh Knowles
 - Pilar: Arrione Magee
 - Serena: Kate Jarecki
