@@ -24,7 +24,11 @@
   <ul>
     {{ range $sortedProductions }}
       {{ $startDate := time .Params.date | time.Format "Monday, January 2, 2006" }}
-      <li>{{ $startDate }}, {{ .Params.theatre }}, <em>{{ .Title }}</em></li>
+      <li>
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+          {{ $startDate }}, {{ .Params.theatre }}, <em>{{ .Title }}</em>
+        </a>
+      </li>
     {{ end }}
   </ul>
 </article>
