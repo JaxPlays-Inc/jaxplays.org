@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    {{ .Content }}
+  </section>
+  
+  {{ $currentDate := now.Format "2006-01-02" }}
+  {{ $Productions := slice }}
+  
+  {{ range where .Site.Pages "Type" "productions" }}
+    {{ $startDate := "" }}
+    
+    {{ with .Params.date }}
+      {{ $startDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    
+    {{ if and $startDate (ge $startDate $currentDate) }}
+      {{ $Productions = $Productions | append . }}
+    {{ end }}
+  {{ end }}
+  
+  {{ $sortedProductions := sort $Productions "Params.date" "asc" }}
+  
+  <ul>
+    {{ range $sortedProductions }}
+      {{ $startDate := time .Params.date | time.Format "Monday, January 2, 2006" }}
+      <li>{{ $startDate }}, {{ .Params.theatre }}, <em>{{ .Title }}</em></li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}
