@@ -14,7 +14,7 @@ cast:
 - Davien Harlis
 description:  "Discover the allure of the Edgar Allan Poe Speakeasy - a unique blend of gothic tales, crafted cocktails, and immersive theater."
 ---
-Stepping into the Edgar Allan Poe Speakeasy is like entering a different realm – one where misty fog and beautiful lighting set the stage for an evening of Poe's timeless tales. <!--more-->The ambiance, fun yet eerie, is complemented by a delightful play on Poe puns, making for an environment that's as poetic as it is spirited. The Edgar Allan Poe Speakeasy weaves a tapestry of shadow and spirit, turning a night out into a gothic reverie.
+Stepping into the *Edgar Allan Poe Speakeasy* is like entering a different realm – one where misty fog and beautiful lighting set the stage for an evening of Poe's timeless tales. <!--more-->The ambiance, fun yet eerie, is complemented by a delightful play on Poe puns, making for an environment that's as poetic as it is spirited. The Edgar Allan Poe Speakeasy weaves a tapestry of shadow and spirit, turning a night out into a gothic reverie.
 
 Bryan Allred, our master of ceremonies, leads the charge with infectious energy and a corny charm that serves as a playful welcome respite from the evening's darker undertones. He introduces the first drink, the "Pale Blue Eye," a light, fruit-infused concoction with a surprisingly complex palate, setting the tone for an evening of sophisticated indulgence.
 

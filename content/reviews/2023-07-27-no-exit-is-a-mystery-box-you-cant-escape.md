@@ -22,7 +22,7 @@ cast:
 - Kathryn Kuhn
 - Kate McManus
 ---
-[*No Exit*](/productions/2023-no-exit/), an adaptation of Jean-Paul Sartre's "Huis clos," by [Lumen Repertory Theatre](/theatres/lumen-repertory-theatre/), is a disconcerting mystery box that traps you in its intrigue. This remarkable performance beckons you to delve into the human mind's darkest corners as three newly departed souls are abruptly gathered in a solitary room.
+[*No Exit*](/productions/2023-no-exit/), an adaptation of Jean-Paul Sartre's *Huis clos,* by [Lumen Repertory Theatre](/theatres/lumen-repertory-theatre/), is a disconcerting mystery box that traps you in its intrigue. This remarkable performance beckons you to delve into the human mind's darkest corners as three newly departed souls are abruptly gathered in a solitary room.
 <!--more-->
 
 The expertly designed and built stage is a small, disorienting, askew room that pulls you into its depths, with odd and seemingly uncomfortable furniture, while an unexpected digital screen on a window introduces a playful juxtaposition.

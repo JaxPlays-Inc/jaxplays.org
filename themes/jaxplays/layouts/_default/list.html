@@ -1,12 +1,14 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height mw8 center">
-    <section class="cf pv3 pv4-l f4 lh-copy">
-      {{- .Content -}}
-    </section>
+  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+    {{ if .Content }}
+      <section class="cf pv3 pv4-l f4 lh-copy">
+        {{- .Content -}}
+      </section>
+    {{ end }}
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ $paginator := .Paginate .Pages 24 }}
       {{ range .Paginator.Pages }}
-        <div class="relative w-100 w-30-l mb4 bg-white">
+        <div class="relative w-100 w-45-l mb4 bg-white">
           {{ .Render "summary" }}
         </div>
       {{ end }}

@@ -20,7 +20,7 @@ cast:
 description: "Lumen Repertory Theatre's 'A Small Fire' captivates with stellar performances and poignant storytelling, exploring resilience amidst a harrowing crisis."
 ---
 Lumen Repertory Theatre's *A Small Fire*, directed by Brian Niece, delivers a profound exploration of human resilience and the intricate web of relationships, set against the backdrop of a harrowing existential crisis that threatens the very core of one's being. The nuanced script and expert performances dissects the relational dynamics that both bind and challenge us, with an emotional depth that resonates profoundly.
-
+<!--more-->
 In *A Small Fire,* the audience is drawn into the life-shattering ordeal of Emily Bridges, who is suddenly afflicted with a sensory loss that defies explanation, lacking both any apparent cause or cure. This profound crisis throws her once-controlled world into disarray, challenging her connections with her husband John, her daughter Jenny and her loyal employee Billy. As they navigate this uncharted territory, their deeply interwoven relationships are tested by the fear of the unknown, revealing the delicate balance between despair and hope in their struggle to adapt.
 
 Brooks Anne Meirdierks, in her portrayal of Emily Bridges, captures a raw and relatable authenticity, riveting the audience from start to finish. She brings a genuineness to Emily’s hard exterior, forging a deep empathy among viewers. Her masterful depiction of Emily’s sensory loss is nuanced and heart-wrenchingly inspirational, navigating with grace and an affecting transparency.

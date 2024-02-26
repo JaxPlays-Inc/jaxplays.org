@@ -1,11 +1,36 @@
+{{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
+{{ $contentLength := len .Summary }}
+
 <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
-    {{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}
+
+    {{ if $featuredImage }}
+    {{ $featuredImage = printf "/%s" $featuredImage }}
+    {{ $featuredImageAlt := .Params.featured_image_alt }}
+    <a href="{{ .Permalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
+    {{ end }}
+    {{ if not .Date.IsZero }}
+    <time class="f6 mt2 dib tracked gray" {{ printf `datetime="%s" ` (.Date.Format "2006-01-02T15:04:05Z07:00" ) |
+      safeHTMLAttr }}>{{with .CurrentSection.Title }}{{ . }} | {{end}}{{ .Date | time.Format (default "Monday, January 2, 2006" .Site.Params.date_format) -}}
+    </time>
+    {{end}}
     <h1 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
         {{ .Title }}
       </a>
     </h1>
+    {{ with .Params.author | default .Site.Params.author }}
+    <p class="tracked i lh-1">
+      {{ $.Render "by" }} {{ if reflect.IsSlice . -}}
+      {{ delimit . ", " | markdownify }}
+      {{- else -}}
+      {{ . | markdownify }}
+      {{- end -}}
+    </p>
+    {{ end }}
+    
+
+
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary }}
     </div>
