@@ -50,6 +50,20 @@
           buttonText: 'day list'  // The text you want to display on the button
         }
       },
+      datesSet: function(dateInfo) {
+        fetch('/opening_nights.json').then(response => response.json())
+        .then(events => {
+          // Assuming each event has a 'start' date; adjust based on your event object structure
+          var visibleEventsCount = events.filter(event => {
+            var eventStart = new Date(event.start);
+            return eventStart >= dateInfo.start && eventStart <= dateInfo.end;
+          }).length;
+  
+          // Update the event count display
+          var eventCountDisplay = document.getElementById('eventCount');
+          eventCountDisplay.textContent = visibleEventsCount;
+        });
+      }
     });
 
     var resize = function() {
@@ -132,7 +146,7 @@
 
 <div class="flex-l mt2 mw9 center">
   <article class="ph4 pt3 w-100 mw9 center">
-    <h1 class="f4 f3-m f2-l sectionline">JaxPlays Opening Nights</h1>
+    <h1 class="f4 f3-m f2-l sectionline">JaxPlays - <div id='eventCount' class='ma2 dib'></div> Opening Nights</h1>
     <div class="nested-copy-line-height lh-copy f5 f4-ns nested-links {{ $.Param "text_color" | default "mid-gray" }}">
       {{ .Content }}
     </div>
