@@ -1,5 +1,5 @@
 ---
-title: "Calendar"
+title: "Opening Nights"
 layout: "opening-nights"
-Description: The JaxPlays Live Theatre Calendar - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
+Description: JaxPlays Opening Nights
 ---
