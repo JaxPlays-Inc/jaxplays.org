@@ -1,7 +1,7 @@
 ---
 title: Disney's Frozen
-date: 2024-04-24
-opening_date: 2024-04-24
+date: 2024-04-27
+opening_date: 2024-04-27
 closing_date: 2024-05-04
 featured_image: 2023-Disneys-Frozen.webp
 featured_image_alt: 
@@ -25,9 +25,6 @@ show_details:
 - Book: Jennifer Lee
 Description: A winter wonderland of sisterhood and self-discovery, melting hearts and minds alike.
 showtimes:
-- 2024-04-24 19:30:00
-- 2024-04-25 19:30:00
-- 2024-04-26 20:00:00
 - 2024-04-27 14:00:00
 - 2024-04-27 20:00:00
 - 2024-04-28 13:00:00
@@ -126,3 +123,8 @@ crew:
 orchestra:
 ---
 Adapted from the blockbuster Disney film, the musical unfolds the tale of two royal sisters, Elsa and Anna. Elsa's magical powers trap their kingdom in eternal winter, and it's up to the determined Anna, with the help of rugged ice harvester Kristoff and snowman Olaf, to thaw her sister's icy exterior. Packed with memorable songs and whimsical charm, *Frozen* brings a snowstorm of emotion to the stage.
+
+### Update ###
+Due to a change of schedule, performances of Disney's *Frozen* will now play from Saturday, April 27 through Saturday, May 4, 2024. 
+
+Performances previously scheduled for Wednesday, April 24 through Friday, April 26 have been cancelled.
