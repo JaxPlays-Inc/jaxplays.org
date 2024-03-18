@@ -29,8 +29,44 @@ Tickets: https://ci.ovationtix.com/34666/production/1165808
 show_details: 
 - Playwright: Frederick Knott
 cast:
+- Susy Hendrix: Anna Vera
+- Sam Hendrix: Rick Cirruci
+- Mike Talman: Burt Kierstead
+- Harry Roat: Joseph Stearman
+- Gloria:
+  - Amelia Gale
+  - Lucy Farrow
+- Sgt. Carlino: Chip Prestera
+- Patrolmen:
+  - Michael Gale
+  - Carlos Julian Semidei
 crew:
 - Director: Tyler Hammond
+- Stage Manager: Molly Farrow
+- Set Designer: Rob O'Leary
+- Lighting Design: Tyler Hammond
+- Sound Design: Tyler Hammond
+- Props: Morgan Kelly
+- Costume Design: Johnny O'Leary
+- Fight Director: Ryan Mahannah
+- Shop Foreman: Dom Grasso
+- Scenic Painter: Sue Schwartz
+- Board Operator: Ashley Taylor
+- Photographer: Ryan Provence
+- Construction:
+  - Wayne Orlosky
+  - Dom Grasso
+  - Ian Hoffman
+  - Steve Bond
+  - Ted Miller
+  - Charles Ross
+  - Tom Ferry
+  - Chester Swartz
+- Scenic Painting:
+  - Ted Miller
+  - Sue Schwartz
+  - Tom Ferry
+  - Ashley Taylor
 orchestra:
 Genres:
 - Play

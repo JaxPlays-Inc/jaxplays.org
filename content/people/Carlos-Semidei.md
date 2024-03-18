@@ -1,7 +1,10 @@
 ---
 title: Carlos Semidei
+aliases: 
+  - /people/carlos-julian-semidei
 other_names: 
   - Carlos Julian Semidéi
+  - Carlos Julian Semidei
   - Carlos Semidéi
 layout: people
 featured_image: Carlos_Semidei.webp
