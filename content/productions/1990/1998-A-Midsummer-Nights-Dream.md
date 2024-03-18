@@ -35,7 +35,7 @@ cast:
   - Thomas Brown
   - Natalie Bouchelle
   - Chris Byrd
-  - Haley jacobs
+  - Haley Jacobs
   - Sara Lanier
   - Jenny McCharen
   - Ashley Payne
