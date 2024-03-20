@@ -32,5 +32,11 @@ orchestra:
 Genres:
   - Drama
 Description: "Lorraine Hansberry's groundbreaking drama explores the dreams and struggles of the Younger family in 1950s Chicago."
+photos:
+- photo: 2024-A-Raisin-in-the-Sun-Cast.webp
+  photo_attr: 
+  photo_alt: Poster of 'A Raisin in the Sun' cast announcement
+  photo_caption: Poster of 'A Raisin in the Sun' cast announcement
+---
 ---
 The Younger family, living in a cramped Chicago apartment, dreams of a better life when they receive a $10,000 insurance check. Each family member has their own vision of the future, from buying a house to attending medical school or investing in a liquor store. Their aspirations and the harsh realities of their circumstances collide, forcing them to unite and fight for their dreams in a world that seems set against them. *A Raisin in the Sun* is a powerful examination of racial discrimination, poverty and the enduring power of dreams.
