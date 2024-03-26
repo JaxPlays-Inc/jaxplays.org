@@ -49,7 +49,7 @@
 {{ $description = $description | markdownify | safeHTML }}
 {{ end }}
 
-<article class="bb b--black-10 ">
+<article class="bb b--black-10">
   <div class="db pa3 no-underline dark-gray">
     <h1 class="f3 fw7 avenir mt0 lh-title">
       <a href="{{.RelPermalink}}" class="color-inherit dim link">
@@ -79,20 +79,20 @@
         {{ end }}
       </div>
       {{ end }}
-      {{ if and .Params.date .Params.closing_date }}
-      {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+      {{ if and .Params.opening_date .Params.closing_date }}
+      {{ $startDate := time .Params.opening_date }} <!-- Convert opening_date to Hugo time object -->
       {{ $closingDate := time .Params.closing_date }}
       <div class="w-100 w-50-l mb3 tr-ns fw7"> {{ $startDate.Format "Monday, January 2, 2006" }} <span
           class="dn-ns dib"> — </span><br />
         <span class="dn dib-ns"> — </span>
         {{ $closingDate.Format "Monday, January 2, 2006" }}
       </div>
-      {{ else if .Params.date }}
-      {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+      {{ else if .Params.opening_date }}
+      {{ $startDate := time .Params.opening_date }} <!-- Adjusted to use opening_date -->
       {{ $approx_date := .Params.approx_date }}
-      {{ if $approx_date = "year" }}
+      {{ if eq $approx_date "year" }}
       <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "2006" }}</div>
-      {{ else if $approx_date = "month" }}
+      {{ else if eq $approx_date "month" }}
       <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "January 2006" }}</div>
       {{ else }}
       <div class="w-100 mb3 tr-ns w-50-l fw7">{{ $startDate.Format "Monday, January 2, 2006" }}</div>

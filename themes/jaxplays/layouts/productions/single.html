@@ -38,19 +38,17 @@
         {{ .Title }}
       </h1>
       <h2 class="fw4 f3-ns f5 ttu">
-        {{ $unixDate := .Params.date.Unix }}
-        {{ $year := "" }}
-        {{ if eq (printf "%d" $unixDate | len) 4 }} <!-- Check if the Unix timestamp is only four digits -->
-          {{ $unixDate }}
-          {{ $year = $unixDate }}
-        {{ else }}
-          {{ $year = dateFormat "2006" .Params.date }}
-          {{ with .Params.date }}{{ dateFormat "2006" . }}{{ end }}
-        {{ end }}        
-        {{ if and .Params.date .Params.theatre }}&#8226;{{ end }}
-        {{ with .Params.theatre }}{{ . }}{{ end }}
-      </h2>
-    </header>
+          {{ $year := "" }}
+          {{ if and .Params.opening_date (eq (len .Params.opening_date) 4) }} <!-- If opening_date is exactly 4 characters, it's just a year -->
+            {{ $year = .Params.opening_date }}
+          {{ else if .Params.opening_date }} <!-- If opening_date is more than 4 characters, parse as a full date -->
+            {{ $date := time .Params.opening_date }}
+            {{ $year = $date.Format "2006" }}
+          {{ end }}
+          {{ $year }}{{ if and .Params.opening_date .Params.theatre }} &#8226;{{ end }}
+          {{ with .Params.theatre }}{{ . }}{{ end }}
+        </h2>
+      </header>
 
     {{ $featuredImage := .Params.featured_image }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
@@ -90,7 +88,7 @@
       {{ end }}
 
       <!-- Genres and Tickets Section -->
-      {{ if or $genres (and .Params.date .Params.closing_date) }}
+      {{ if or $genres (and .Params.opening_date .Params.closing_date) }} <!-- Adjusted to check for opening_date -->
       <div class="w-60 w-75-l ml3 flex flex-column items-start justify-start">
         <!-- Genres -->
         {{ if $genres }}
@@ -102,8 +100,8 @@
         {{ end }}
 
         <!-- Tickets -->
-        <!-- If date and closing_date are both filed out -->
-        {{ if and .Params.date .Params.closing_date }}
+        <!-- If opening_date and closing_date are both filled out -->
+        {{ if and .Params.opening_date .Params.closing_date }} <!-- Adjusted to use opening_date -->
         <!-- If closing_date is in the future -->
         {{ $closingDate := time .Params.closing_date }}
         {{ $now := now.Format "2006-01-02" | time }}
@@ -209,20 +207,18 @@
       </div>
       {{ end }}
 
-
-      <!-- if date and closing_date  -->
-      {{ if and .Params.date .Params.closing_date }}
+      <!-- Dates Section -->
+      {{ if and .Params.opening_date .Params.closing_date }}
       <div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
-        {{ $startDate := time .Params.date }} <!-- Convert date to Hugo time object -->
+        {{ $startDate := time .Params.opening_date }} <!-- Adjusted to use opening_date -->
         {{ $closingDate := time .Params.closing_date }}
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> {{ $startDate.Format "Monday, January 2, 2006" }} — <br />{{
-          $closingDate.Format "Monday, January 2, 2006" }}
-          <!-- set cta variable in go to tap  -->
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap
-            here to see all showtimes...</a>
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here
-            to see all showtimes...</a>
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> 
+          {{ $startDate.Format "Monday, January 2, 2006" }} — <br />
+          {{ $closingDate.Format "Monday, January 2, 2006" }}
+          <!-- Call to action for showtimes -->
+          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap here to see all showtimes...</a>
+          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here to see all showtimes...</a>
         </div>
       </div>
       {{ end }}

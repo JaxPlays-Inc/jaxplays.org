@@ -5,27 +5,27 @@
   </section>
   {{ $currentDate := now.Format "2006-01-02" }}
   {{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
-  {{ $pastProductions := slice }}
+  {{ $futureProductions := slice }}
   
   {{ range where .Site.Pages "Type" "productions" }}
-    {{ $startDate := "" }}
+    {{ $openingDate := "" }}
     {{ $endDate := "" }}
-    {{ with .Params.date }}
-      {{ $startDate = time . | time.Format "2006-01-02" }}
+    {{ with .Params.opening_date }} <!-- Switched from .Params.date to .Params.opening_date -->
+      {{ $openingDate = time . | time.Format "2006-01-02" }}
     {{ end }}
     {{ with .Params.closing_date }}
       {{ $endDate = time . | time.Format "2006-01-02" }}
     {{ end }}
-    {{ if and $startDate $endDate }}
-      {{ if (gt $startDate $futureDate) }}
-        {{ $pastProductions = $pastProductions | append . }}
+    {{ if and $openingDate $endDate }}
+      {{ if (gt $openingDate $futureDate) }} <!-- Logic corrected for future productions -->
+        {{ $futureProductions = $futureProductions | append . }}
       {{ end }}
     {{ end }}
   {{ end }}
   
-  {{ $sortedPastProductions := sort $pastProductions "Params.date" "asc" }}
+  {{ $sortedFutureProductions := sort $futureProductions "Params.opening_date" "asc" }} <!-- Sort by opening_date -->
   
-  {{ $paginator := .Paginate $sortedPastProductions 24 }}
+  {{ $paginator := .Paginate $sortedFutureProductions 24 }}
   
   <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Future Productions</h3>
   <aside class="flex-ns flex-wrap justify-around mt5">
