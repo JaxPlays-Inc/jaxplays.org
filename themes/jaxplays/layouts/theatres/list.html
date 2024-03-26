@@ -6,7 +6,8 @@
     <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Active Theatre Companies</h3>
     <aside class="flex-ns flex-wrap justify-around mt5">
       {{ $activePages := where .Pages "Params.active" "!=" false }}
-      {{ $paginator := .Paginate $activePages 30 }}
+      {{ $sortedPages := $activePages.ByParam "title" }}
+      {{ $paginator := .Paginate $sortedPages 30 }}
       {{ range $paginator.Pages }}
         {{ .Render "theatre-list" }} 
       {{ end }}
@@ -14,7 +15,8 @@
     <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Inactive Theatre Companies</h3>
     <aside class="flex-ns flex-wrap justify-around mt5">
       {{ $inactivePages := where .Pages "Params.active" "=" false }}
-      {{ range $inactivePages }}
+      {{ $sortedInactivePages := $inactivePages.ByParam "title" }}
+      {{ range $sortedInactivePages }}
         {{ .Render "theatre-list" }} 
       {{ end }}
     </aside>
