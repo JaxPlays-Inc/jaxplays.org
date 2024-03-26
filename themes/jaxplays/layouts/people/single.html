@@ -1,251 +1,258 @@
 {{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
 {{ define "main" }}
-  {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
-  {{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
-  {{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
+{{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
+{{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
+{{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
 
-  <div class="flex-l mt0 w-100 mw8 center">
-    <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
-        <h1 class="f3 f2-l f1-m tc tl-ns ">
-          {{ .Title }}
-        </h1>
-        {{ $featuredImage := .Params.featured_image }}
-        {{ $featuredImageCaption := .Params.featured_image_caption }}
-        {{ $featuredImageAttr := .Params.featured_image_attr }}
-        {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-        {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
+<div class="flex-l mt0 w-100 mw8 center">
+  <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
+    <h1 class="f3 f2-l f1-m tc tl-ns ">
+      {{ .Title }}
+    </h1>
+    {{ $featuredImage := .Params.featured_image }}
+    {{ $featuredImageCaption := .Params.featured_image_caption }}
+    {{ $featuredImageAttr := .Params.featured_image_attr }}
+    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
 
-        {{ if or $featuredImage .Content }}
-        <div class="flex flex-column flex-row-ns">
-          <!-- Featured Image Section -->
-          {{ $imagePath := "/media/default/people_headshot.webp" }} <!-- Default image path -->
-          {{ if $featuredImage }}
-          {{ $imagePath = printf "/media/headshots/%s" $featuredImage }}
-          <!-- Concatenate path if featured image exists -->
-          {{ end }}
-          <div class="w-75 w-40-m w-25-l flex-column center">
-            <a href="{{ $imagePath }}" data-lightbox="image-1"
-              data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-              <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+    {{ if or $featuredImage .Content }}
+    <div class="flex flex-column flex-row-ns">
+      <!-- Featured Image Section -->
+      {{ $imagePath := "/media/default/people_headshot.webp" }} <!-- Default image path -->
+      {{ if $featuredImage }}
+      {{ $imagePath = printf "/media/headshots/%s" $featuredImage }}
+      <!-- Concatenate path if featured image exists -->
+      {{ end }}
+      <div class="w-75 w-40-m w-25-l flex-column center">
+        <a href="{{ $imagePath }}" data-lightbox="image-1"
+          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+        </a>
+        {{ if .Params.Socials }}
+        {{ partial "social-media-links.html" . }}
+        {{ end }}
+      </div>
+
+      {{ with .Content }}
+      <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+        <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+          {{ . }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Credits Section -->
+    <!-- Loop through the different credit types -->
+    {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
+    {{ range $creditType := $creditTypes }}
+    {{ $productionsWithPerson := slice }}
+    {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
+    {{ $production := . }}
+    {{ with index .Params $creditType }}
+    {{ $credits := slice }}
+    {{ range . }}
+    {{ range $character, $actor := . }}
+    {{ $actorSlice := slice }}
+    {{ if eq (printf "%T" $actor) "string" }}
+    {{ $actorSlice = slice $actor }}
+    {{ else }}
+    {{ $actorSlice = $actor }}
+    {{ end }}
+    {{ range $name := $personNames }} <!-- Looping through all the person's names -->
+    {{ range $actorName := $actorSlice }}
+    {{ if eq $actorName $name }}
+    {{ $credits = $credits | append $character }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ if $credits }}
+    {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    <!-- Display the productions with the person's name in the credits -->
+    {{ if $productionsWithPerson }}
+    <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
+      {{ range $details := $productionsWithPerson }}
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
+          <!-- Left Section -->
+          <div class="w-25 w-10-l">
+            {{ $featuredImage := $details.production.Params.featured_image }}
+            {{ if not $featuredImage }}
+            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+            {{ $featuredImage = .Params.featured_image }}
+            {{ end }}
+            {{ end }}
+            {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+            {{ if $featuredImage }}
+            {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+            <!-- Concatenate path if featured image exists -->
+            {{ end }}
+            <a href="{{ $details.production.Permalink }}">
+              <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
             </a>
-            {{ if .Params.Socials }}
-             {{ partial "social-media-links.html" . }}
-            {{ end }}
           </div>
-
-          {{ with .Content }}
-          <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
-            <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-              {{ . }}
+          <!-- Right Section -->
+          <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
+            <!-- Left Section of Right Section -->
+            <div class="b w-100 w-50-l">
+              <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
+              {{ range $index, $credit := $details.credits }}
+              {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
+              {{ end }}
             </div>
-          </div>
-          {{ end }}
-        </div>
-        {{ end }}
-
-      <!-- Credits Section -->
-      <!-- Loop through the different credit types -->
-      {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
-      {{ range $creditType := $creditTypes }}
-        {{ $productionsWithPerson := slice }}
-        {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
-          {{ $production := . }}
-          {{ with index .Params $creditType }}
-            {{ $credits := slice }}
-            {{ range . }}
-              {{ range $character, $actor := . }}
-              {{ $actorSlice := slice }}
-              {{ if eq (printf "%T" $actor) "string" }}
-                {{ $actorSlice = slice $actor }}
-              {{ else }}
-                {{ $actorSlice = $actor }}
-              {{ end }}
-              {{ range $name := $personNames }} <!-- Looping through all the person's names -->
-                {{ range $actorName := $actorSlice }}
-                  {{ if eq $actorName $name }}
-                    {{ $credits = $credits | append $character }}
-                  {{ end }}
+            <!-- Right Section of Right Section -->
+            <div class="w-100 w-50-l tr-l">
+              <!-- Added flex flex-column justify-center -->
+              <div>
+                {{ with $details.production.Params.opening_date }}
+                {{ $formattedDate := "" }}
+                {{ if eq $details.production.Params.approx_date "year" }}
+                {{/* If the date is only a year, use it directly */}}
+                {{ $formattedDate = . }}
+                {{ else if eq $details.production.Params.approx_date "month" }}
+                {{/* If the date includes a month, attempt to format it accordingly */}}
+                {{ $parsedDate := time . }}
+                {{ $formattedDate = $parsedDate.Format "January 2006" }}
+                {{ else }}
+                {{/* For a full date, format it to include the month and year only */}}
+                {{ $parsedDate := time . }}
+                {{ $formattedDate = $parsedDate.Format "January 2006" }}
                 {{ end }}
-              {{ end }}
-            {{ end }}           
-            {{ end }}
-            {{ if $credits }}
-              {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-
-        <!-- Display the productions with the person's name in the credits -->
-        {{ if $productionsWithPerson }}
-        <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
-          {{ range $details := $productionsWithPerson }}
-          <div class="flex bb bw1 b--silver f5 f4-ns">
-            <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
-              <!-- Left Section -->
-              <div class="w-25 w-10-l">
-                {{ $featuredImage := $details.production.Params.featured_image }}
-                {{ if not $featuredImage }}
-                {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
-                {{ $featuredImage = .Params.featured_image }}
+                {{ $formattedDate }}
+                {{ else }}
+                {{/* Fallback if opening_date isn't specified */}}
+                Unknown Date
                 {{ end }}
-                {{ end }}
-                {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-                {{ if $featuredImage }}
-                {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
-                <!-- Concatenate path if featured image exists -->
-                {{ end }}
-                <a href="{{ $details.production.Permalink }}">
-                  <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
-                </a>
               </div>
-              <!-- Right Section -->
-              <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
-                <!-- Left Section of Right Section -->
-                <div class="b w-100 w-50-l">
-                  <a href="{{ $details.production.Permalink }}">{{ $details.production.Title }}</a><br>
-                  {{ range $index, $credit := $details.credits }}
-                  {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
-                  {{ end }}
-                </div>
-                <!-- Right Section of Right Section -->
-                <div class="w-100 w-50-l tr-l">
-                  <!-- Added flex flex-column justify-center -->
-                  <div>
-                    {{ $date := $details.production.Date }}
-                    {{ $isApprox := $details.production.Params.approx_date }}
-                    {{ if eq $isApprox "year" }}
-                      {{ $date.Year }}
-                    {{ else if eq $isApprox "month" }}
-                      {{ $date.Format "January 2006" | replaceRE "( \\d+)$" "" }}
-                    {{ else }}
-                      {{ $date.Format "January 2006" }}
-                    {{ end }}
-                  </div>
-                  <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
-                  <div>
-                    <!-- Venues -->
-                    {{ $venues := $details.production.Params.Venue }} <!-- Get the venue(s) -->
-                    {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-                    {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
-                    {{ end }}
-                    {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
-                      {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-                      {{ $venue }}<br />
-                      {{ else }}
-                      {{ $venue }}
-                      {{ end }}
-                    {{ end }}
-                  </div>
 
-                </div>
+              <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
+              <div>
+                <!-- Venues -->
+                {{ $venues := $details.production.Params.Venue }} <!-- Get the venue(s) -->
+                {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
+                {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
+                {{ end }}
+                {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
+                {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
+                {{ $venue }}<br />
+                {{ else }}
+                {{ $venue }}
+                {{ end }}
+                {{ end }}
               </div>
             </div>
           </div>
-          {{ end }}
         </div>
-        {{ end }}
-        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
 
-      <!-- END Credits Section -->
+    <!-- END Credits Section -->
 
-      <!-- Reviews -->
-      {{ $relatedReviews := slice }}
-      {{ range where site.RegularPages "Type" "reviews" }}
-        {{ $review := . }} <!-- Store the current review in a variable -->
-        {{ range $name := $personNames }} <!-- Looping through all the person's names -->
-          {{ if in $review.Params.cast $name }}
-            {{ $relatedReviews = $relatedReviews | append $review }} <!-- Appending the entire review object if a name is found in cast list -->
-            {{ break }} <!-- Break the inner loop if a match is found, to avoid duplicate appending -->
-          {{ end }}
-        {{ end }}
+    <!-- Reviews -->
+    {{ $relatedReviews := slice }}
+    {{ range where site.RegularPages "Type" "reviews" }}
+    {{ $review := . }} <!-- Store the current review in a variable -->
+    {{ range $name := $personNames }} <!-- Looping through all the person's names -->
+    {{ if in $review.Params.cast $name }}
+    {{ $relatedReviews = $relatedReviews | append $review }}
+    <!-- Appending the entire review object if a name is found in cast list -->
+    {{ break }} <!-- Break the inner loop if a match is found, to avoid duplicate appending -->
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if or $relatedReviews .Params.reviews }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Reviews featuring {{ .Title }}</h3>
+      {{ range $relatedReviews }}
+      <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
+      {{ $description := .Params.description }}
+      {{ $summary := .Summary }}
+      {{ $summaryLength := len $summary }}
+      {{ if not $description }}
+      {{ if gt $summaryLength 0 }}
+      {{ if gt $summaryLength 300 }}
+      {{ $description = printf "%s..." (substr $summary 0 300) }}
+      {{ else }}
+      {{ $description = substr $summary 0 $summaryLength }}
+      {{ end }}
+      {{ end }}
+      {{ else }}
+      {{ $description = $description | markdownify | safeHTML }}
+      {{ end }}
+      <span class="db">
+        {{ $description }}
+      </span>
+
+      <a href="{{ .Permalink }}"
+        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      {{ end }}
+      {{ if .Params.reviews }}
+      {{ range .Params.reviews }} <!-- Iterate over the reviews array -->
+      {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $reviewURL }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Press -->
+    {{ if .Params.press }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+
+      {{ range .Params.press }} <!-- Iterate over the crew array -->
+      {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+      {{ end }}
+      {{ end }}
       {{ end }}
 
-      {{ if or $relatedReviews .Params.reviews }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">Reviews featuring {{ .Title }}</h3>
-        {{ range $relatedReviews }}
-        <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
-        
-        {{ $description := .Params.description }}
-        {{ $summary := .Summary }}
-        {{ $summaryLength := len $summary }}
-
-        {{ if not $description }}
-          {{ if gt $summaryLength 0 }}
-            {{ if gt $summaryLength 300 }}
-              {{ $description = printf "%s..." (substr $summary 0 300) }}
-            {{ else }}
-              {{ $description = substr $summary 0 $summaryLength }}
+      <!-- Photos -->
+      {{ if .Params.photos }}
+      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
+        }}">
+        <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+        <div class="flex flex-wrap">
+          {{ range .Params.photos }}
+          {{ $altText := .photo_alt | default $.Title }}
+          <figure class="w-40-l center">
+            <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+              data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+                src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+            {{ if or .photo_caption .photo_attr }}
+            <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+              {{ with .photo_caption }}
+              {{ . }}
+              {{ end }}
+              {{ if and .photo_caption .photo_attr }} | {{ end }}
+              {{ with .photo_attr }}
+              (📷 {{ . }})
+              {{ end }}
+            </figcaption>
             {{ end }}
+          </figure>
           {{ end }}
-        {{ else }}
-          {{ $description = $description | markdownify | safeHTML }}
-        {{ end }}
-        <span class="db">
-          {{ $description }}
-        </span>
-
-        <a href="{{ .Permalink }}"
-          class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        {{ end }}
-
-        {{ if .Params.reviews }}
-        {{ range .Params.reviews }} <!-- Iterate over the reviews array -->
-        {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
-        <h4><a href="{{ $reviewURL }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-
+        </div>
       </div>
       {{ end }}
 
-      <!-- Press -->
-      {{ if .Params.press }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">Press</h3>
-
-        {{ range .Params.press }} <!-- Iterate over the crew array -->
-        {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
-        <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-
-        <!-- Photos -->
-        {{ if .Params.photos }}
-        <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
-          }}">
-          <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-          <div class="flex flex-wrap">
-            {{ range .Params.photos }}
-            {{ $altText := .photo_alt | default $.Title }}
-            <figure class="w-40-l center">
-              <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
-                data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-                  src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
-              {{ if or .photo_caption .photo_attr }}
-              <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
-                {{ with .photo_caption }}
-                {{ . }}
-                {{ end }}
-                {{ if and .photo_caption .photo_attr }} | {{ end }}
-                {{ with .photo_attr }}
-                (📷 {{ . }})
-                {{ end }}
-              </figcaption>
-              {{ end }}
-            </figure>
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
-        
-        {{/*  if no headshot or no bio  */}}
-        {{ if and (not $featuredImage) (not .Content) }}
-        {{ partial "cta_submit_profile.html" }}
-        {{ end }}
-    </article>
-  </div>
+      {{/* if no headshot or no bio */}}
+      {{ if and (not $featuredImage) (not .Content) }}
+      {{ partial "cta_submit_profile.html" }}
+      {{ end }}
+  </article>
+</div>
 {{ end }}
