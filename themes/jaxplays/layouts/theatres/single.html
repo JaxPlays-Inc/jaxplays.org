@@ -2,114 +2,117 @@
 {{ define "main" }}
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
-      <h1 class="f3 f2-l f1-m tc tl-ns ">
-        {{ .Title }}
-      </h1>
-      {{ $featuredImage := .Params.featured_image }}
-      {{ $featuredImageCaption := .Params.featured_image_caption }}
-      {{ $featuredImageAttr := .Params.featured_image_attr }}
-      {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-      {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
-      {{ $contentLength := len .Content }}
-      {{ $description := .Params.description }}
-      {{ if not $description }}
-        {{ if gt $contentLength 350 }}
-          {{ $description = printf "%s..." (substr .Content 0 350) | plainify | safeHTML}}
-        {{ else }}
-          {{ $description = substr .Content 0 $contentLength | plainify | safeHTML }}
-        {{ end }}
-      {{ end }}
+    <h1 class="f3 f2-l f1-m tc tl-ns ">
+      {{ .Title }}
+    </h1>
+    {{ $featuredImage := .Params.featured_image }}
+    {{ $featuredImageCaption := .Params.featured_image_caption }}
+    {{ $featuredImageAttr := .Params.featured_image_attr }}
+    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
+    {{ $contentLength := len .Content }}
+    {{ $description := .Params.description }}
+    {{ if not $description }}
+    {{ if gt $contentLength 350 }}
+    {{ $description = printf "%s..." (substr .Content 0 350) | plainify | safeHTML}}
+    {{ else }}
+    {{ $description = substr .Content 0 $contentLength | plainify | safeHTML }}
+    {{ end }}
+    {{ end }}
 
-      {{ if or $featuredImage $description }}
-      <div class="flex flex-column flex-row-ns">
-        <!-- Featured Image Section -->
-        {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-        {{ if $featuredImage }}
-        {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
-        <!-- Concatenate path if featured image exists -->
+    {{ if or $featuredImage $description }}
+    <div class="flex flex-column flex-row-ns">
+      <!-- Featured Image Section -->
+      {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
+      {{ if $featuredImage }}
+      {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
+      <!-- Concatenate path if featured image exists -->
+      {{ end }}
+      <div class="w-75 w-40-m w-25-l flex-column center">
+        <a href="{{ $imagePath }}" data-lightbox="image-1"
+          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+        </a>
+        {{ if .Params.Socials }}
+        {{ partial "social-media-links.html" . }}
         {{ end }}
-        <div class="w-75 w-40-m w-25-l flex-column center">
-          <a href="{{ $imagePath }}" data-lightbox="image-1"
-            data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-            <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
-          </a>
-          {{ if .Params.Socials }}
-          {{ partial "social-media-links.html" . }}
-          {{ end }}
-        </div>    
-        <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
-          {{ if $description }}
-          <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
-            {{ $description }} <a href="#about" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read all</a>
-            
-          </div>
-          {{ end }}
-          {{ if or .Params.website .Params.phone }}
-          <div class="flex flex-row flex-wrap nested-copy-line-height lh-copy f4 mt2 {{ $.Param "text_color" | default "dark-gray" }}">
-            {{ if .Params.website }}
-            {{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}
-            <a href="{{ .Params.website }}" target="_blank" class="link db nowrap">{{ $website }}</a>
-            {{ end }}
-            {{ if and .Params.website .Params.phone }}
-            <span class="nowrap">&nbsp;•&nbsp;</span>
-            {{ end }}
-            {{ if .Params.phone }}
-            <a href="tel:{{ .Params.phone }}" class="link db nowrap">{{ .Params.phone }}</a>
-            {{ end }}
-          </div>
-          {{ end }}
-          
-        </div>
       </div>
-      {{ end }}
+      <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
+        {{ if $description }}
+        <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
+          {{ $description }} <a href="#about"
+            class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read
+            all</a>
 
-      <!-- Theatre Productions Section -->
-
-      {{ $theatreName := .Title }}
-      {{ $currentDate := now.Format "2006-01-02" }}
-      {{ $currentlyOnStage := slice }}
-      {{ $comingSoon := slice }}
-      {{ $pastProductions := slice }}
-      
-      {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
-        {{ if eq .Params.Theatre $theatreName }}
-          {{ $startDate := "" }}
-          {{ $endDate := "" }}
-          {{ with .Params.date }}
-            {{ $startDate = time . | time.Format "2006-01-02" }}
-          {{ end }}
-          {{ with .Params.closing_date }}
-            {{ $endDate = time . | time.Format "2006-01-02" }}
-          {{ end }}
-          {{ if $startDate }}
-            {{ if and $endDate (le $startDate $currentDate) (ge $endDate $currentDate) }}
-              {{ $currentlyOnStage = $currentlyOnStage | append . }}
-            {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
-              {{ $pastProductions = $pastProductions | append . }}
-            {{ else if gt $startDate $currentDate }}
-              {{ $comingSoon = $comingSoon | append . }}
-            {{ end }}
-          {{ end }}
+        </div>
         {{ end }}
-      {{ end }}
-      
-      <!-- START Theatre Productions Section-->
-      
-      {{/* Define your productions */}}
-      {{ $currentlyOnStage := sort $currentlyOnStage "Params.date" "asc" }}
-      {{ $comingSoon := sort $comingSoon "Params.date" "asc" }}
-      {{ $pastProductions := sort $pastProductions "Params.date" "desc" }}
-      
-      {{/* Currently On Stage Section */}}
-      {{ partial "production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage) }}
+        {{ if or .Params.website .Params.phone }}
+        <div class="flex flex-row flex-wrap nested-copy-line-height lh-copy f4 mt2 {{ $.Param "text_color" |
+          default "dark-gray" }}">
+          {{ if .Params.website }}
+          {{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}
+          <a href="{{ .Params.website }}" target="_blank" class="link db nowrap">{{ $website }}</a>
+          {{ end }}
+          {{ if and .Params.website .Params.phone }}
+          <span class="nowrap">&nbsp;•&nbsp;</span>
+          {{ end }}
+          {{ if .Params.phone }}
+          <a href="tel:{{ .Params.phone }}" class="link db nowrap">{{ .Params.phone }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
 
-      {{/* Coming Soon! Section */}}
-      {{ partial "production-section.html" (dict "sectionName" "Coming Soon!" "productions" $comingSoon) }}
+      </div>
+    </div>
+    {{ end }}
 
-      {{/* Past Productions Section */}}
-      {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
+    <!-- Theatre Productions Section -->
 
-      <!-- END Theatre Productions Section -->
+    {{ $theatreName := .Title }}
+    {{ $currentDate := now.Format "2006-01-02" }}
+    {{ $currentlyOnStage := slice }}
+    {{ $comingSoon := slice }}
+    {{ $pastProductions := slice }}
+
+    {{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
+    {{ if eq .Params.Theatre $theatreName }}
+    {{ $openingDate := "" }}
+    {{ $endDate := "" }}
+    {{ with .Params.opening_date }}
+    {{ $openingDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    {{ with .Params.closing_date }}
+    {{ $endDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    {{ if $openingDate }}
+    {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+    {{ $currentlyOnStage = $currentlyOnStage | append . }}
+    {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
+    {{ $pastProductions = $pastProductions | append . }}
+    {{ else if gt $openingDate $currentDate }}
+    {{ $comingSoon = $comingSoon | append . }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    <!-- START Theatre Productions Section-->
+
+    {{/* Update sorting to account for productions that might not have a defined opening_date */}}
+    {{ $currentlyOnStage := sort $currentlyOnStage "Params.opening_date" "asc" }}
+    {{ $comingSoon := sort $comingSoon "Params.opening_date" "asc" }}
+    {{ $pastProductions := sort $pastProductions "Params.opening_date" "desc" }}
+
+    {{/* Currently On Stage Section */}}
+    {{ partial "production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage) }}
+
+    {{/* Coming Soon! Section */}}
+    {{ partial "production-section.html" (dict "sectionName" "Coming Soon!" "productions" $comingSoon) }}
+
+    {{/* Past Productions Section */}}
+    {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
+
+    <!-- END Theatre Productions Section -->
 
     <!-- Content "About" -->
     {{ if .Content }}
@@ -124,9 +127,10 @@
     {{ $relatedReviews := slice }}
 
     {{ range where site.RegularPages "Type" "reviews" }}
-      {{ if eq .Params.Theatre $theatreName }}
-        {{ $relatedReviews = $relatedReviews | append . }} <!-- Appending the entire review object if the theatre name is found -->
-      {{ end }}
+    {{ if eq .Params.Theatre $theatreName }}
+    {{ $relatedReviews = $relatedReviews | append . }}
+    <!-- Appending the entire review object if the theatre name is found -->
+    {{ end }}
     {{ end }}
 
     {{ if or $relatedReviews .Params.reviews }}
@@ -164,34 +168,33 @@
     </div>
     {{ end }}
 
-      <!-- Photos -->
-      {{ if .Params.photos }}
-      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
-        }}">
-        <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-        <div class="flex flex-wrap">
-          {{ range .Params.photos }}
-          {{ $altText := .photo_alt | default $.Title }}
-          <figure class="w-40-l center">
-            <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
-              data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-                src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
-            {{ if or .photo_caption .photo_attr }}
-            <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
-              {{ with .photo_caption }}
-              {{ . }}
-              {{ end }}
-              {{ if and .photo_caption .photo_attr }} | {{ end }}
-              {{ with .photo_attr }}
-              (📷 {{ . }})
-              {{ end }}
-            </figcaption>
+    <!-- Photos -->
+    {{ if .Params.photos }}
+    <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+      <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+      <div class="flex flex-wrap">
+        {{ range .Params.photos }}
+        {{ $altText := .photo_alt | default $.Title }}
+        <figure class="w-40-l center">
+          <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+            data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+              src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+          {{ if or .photo_caption .photo_attr }}
+          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+            {{ with .photo_caption }}
+            {{ . }}
             {{ end }}
-          </figure>
+            {{ if and .photo_caption .photo_attr }} | {{ end }}
+            {{ with .photo_attr }}
+            (📷 {{ . }})
+            {{ end }}
+          </figcaption>
           {{ end }}
-        </div>
+        </figure>
+        {{ end }}
       </div>
-      {{ end }}
+    </div>
+    {{ end }}
 
   </article>
 </div>
