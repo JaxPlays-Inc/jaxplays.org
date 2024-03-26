@@ -110,7 +110,7 @@
     {{ $venueAliases := .Params.venue_aliases }}
 
     <!-- Loop through all productions and check their venues -->
-    {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
+    {{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
     {{ $currentProduction := . }}
     {{ $productionVenues := .Params.Venue }}
     
@@ -161,16 +161,25 @@
             <!-- Right Section of Right Section -->
             <div class="w-100 w-50-l tr-l">
               <div>
-                {{ $date := $production.Date }}
-                {{ $isApprox := $production.Params.approx_date }}
-                {{ if eq $isApprox "year" }}
-                {{ $date.Year }}
-                {{ else if eq $isApprox "month" }}
-                {{ $date.Format "January 2006" | replaceRE "( \\d+)$" "" }}
+                {{ if eq $production.Params.approx_date "year" }}
+                  {{/* Directly extract the year from the opening_date if approx_date is year */}}
+                  {{ $year := dateFormat "2006" $production.Params.opening_date }}
+                  {{ $year }}
+                {{ else if eq $production.Params.approx_date "month" }}
+                  {{/* Format the opening_date as "Month 2006" if approx_date is month */}}
+                  {{ $monthYear := time $production.Params.opening_date | dateFormat "January 2006" }}
+                  {{ $monthYear }}
                 {{ else }}
-                {{ $date.Format "January 2006" }}
+                  {{/* If approx_date is not set to year or month, use the full opening_date */}}
+                  {{ with $production.Params.opening_date }}
+                    {{ $date := time . }}
+                    {{ $formattedDate := $date.Format "January 2006" }}
+                    {{ $formattedDate }}
+                  {{ else }}
+                    Unknown Date
+                  {{ end }}
                 {{ end }}
-              </div>
+              </div>                           
               <div>
                 {{ $theatre := $production.Params.Theatre }} <!-- Get the theatre(s) -->
                 {{ if $theatre }}
