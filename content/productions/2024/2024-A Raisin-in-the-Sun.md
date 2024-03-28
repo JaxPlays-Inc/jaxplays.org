@@ -13,21 +13,26 @@ featured_image_alt:
 featured_image_caption: Poster for 'A Raisin in the Sun'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+playbill: 2024-A-Raisin-in-the-Sun.pdf
 Website: https://reachingupproductions.org/
-Tickets: https://reachingupproductions.org/ols/products
+Tickets: https://reachingupproductions.org/ols/categories/ticket
 show_details: 
 cast:
 - Lena Younger: Breterrica White
-- Beneatha Younger: Laquicha Miller
 - Walter Lee Younger: Sean Parker
-- Joseph Asagai: Erik Amoga
-- Karl Linder: Daniel Baum
 - Ruth Younger: Tammy Hall
-- Bobo: Ryan Sinclair
+- Beneatha Younge: Jaquisha Miller
 - Travis Younger: Zayden Philpot
+- Asagi: Erik Omoga
+- BoBo: Ryan Sinclair
+- Mr. Lindner: Daniel Baum
+
 crew:
 - Director: Jyn Picard
+- Assistant Director: Curlene Picard
+- Sound Design: Walt Nathan
+- Set Designer: Robyn Walker
+- Scenic Designer: Robert Travis
 orchestra:
 Genres:
   - Drama
@@ -37,6 +42,5 @@ photos:
   photo_attr: 
   photo_alt: Poster of 'A Raisin in the Sun' cast announcement
   photo_caption: Poster of 'A Raisin in the Sun' cast announcement
----
 ---
 The Younger family, living in a cramped Chicago apartment, dreams of a better life when they receive a $10,000 insurance check. Each family member has their own vision of the future, from buying a house to attending medical school or investing in a liquor store. Their aspirations and the harsh realities of their circumstances collide, forcing them to unite and fight for their dreams in a world that seems set against them. *A Raisin in the Sun* is a powerful examination of racial discrimination, poverty and the enduring power of dreams.
