@@ -16,7 +16,4 @@ Socials:
   IMDb: nm3089953
   Website:
 ---
-Ellin got her start on stage in childhood, and since then it's been lights, camera, action!
-A professor of humanities at several First Coast institutions, Ellin acted in "By Reason of Insanity" at Edward Water College.
-She also worked at FSCJ Artist Series bringing Broadway to Jacksonville.
-A producer, Ellin's doctoral movie "Soul in the Machine" has won numerous film festival awards worldwide.
+Ellin got her start on stage in childhood, and since then it's been lights, camera, action! A professor of humanities at several First Coast institutions, Ellin acted in *By Reason of Insanity* with Edward Waters College at the Ritz Theatre. She also worked at FSCJ Artist Series bringing Broadway to Jacksonville. A producer, Ellin's doctoral movie *Soul in the Machine* has won numerous film festival awards worldwide.
