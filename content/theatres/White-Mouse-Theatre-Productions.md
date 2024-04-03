@@ -16,7 +16,7 @@ Socials:
   Twitter: whitemouseprod
   Instagram: whitemouseproductions
   Threads:
-  Website: https://whitemousetheatrep.wixsite.com/
+  Website: https://whitemousetheatrep.wixsite.com/home
 Phone: 	
 color: "#000000"
 ---
