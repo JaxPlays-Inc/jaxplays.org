@@ -24,7 +24,7 @@ cast:
     - Lynn Pineda
     - Megan Audette
     - Jerry Sola
-    - Olivia Seeley
+    - Dominique Palmer
     - Rebecca Gonzalez
     - Sarah Reid Vinyard
     - Erin Yoffee
@@ -46,7 +46,7 @@ crew:
   - Marketing Director: Izzie Abrahamson
   - Dramaturg: Jordan Kosanke
   - Sound Designer: Tanner Griffin
-  - Hair & Makeup Designer: Maz Neamand
+  - Hair & Makeup Designer: Olivia Seeley
 orchestra:
 Genres:
   - Musical
