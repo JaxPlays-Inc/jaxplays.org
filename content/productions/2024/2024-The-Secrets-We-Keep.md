@@ -20,18 +20,17 @@ show_details:
   - Lyrics: Danielle Wirsansky
   - Music: Frank Sanchez
 cast:
-  - Performers:
-    - Lynn Pineda
-    - Megan Audette
-    - Jerry Sola
-    - Dominique Palmer
-    - Rebecca Gonzalez
-    - Sarah Reid Vinyard
-    - Erin Yoffee
-    - Presley Zysk
-    - Hal Presley
-    - Katie Hewitt
-    - Lily Eyman
+- Luba: Lynn Pineda
+- Kat: Megan Audette
+- Dobra: Erin Yoffee
+- Liesa: Sarah Reid Vinyard
+- Bronislawa/Kinga: Presley Zysk
+- Delja: Becca Gonzales
+- Astreta: Lily Eyman
+- Fenenna: Katie Hewitt
+- Cassander/Alojzy: Jerry Sola
+- Baran/Rusalka: Hal Presley
+- Ignacy/Rusalka: Dominique Palmer
 crew:
   - Director: Danielle Wirsansky
   - Stage Manager: Danielle Prince
