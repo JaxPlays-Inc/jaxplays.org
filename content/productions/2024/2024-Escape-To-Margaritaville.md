@@ -81,6 +81,31 @@ cast:
   - Ryan Lemmon
   - Sean Rodrigo Royal
 crew:
+- Executive Producer: Tod Booth
+- Vice President of Production/Director: Shain Stroff
+- Production Manager: Erick Ariel Sureda
+- Choreographer: Erick Ariel Sureda
+- Musical Director: Cathy Murphy Giddens
+- Lighting Designer: Chad Conley
+- Costume Designers: Dorinda Quiles & Camala Pitts
+- Set Design: Ian Black
+- Sound Designer: Eric Sullivan
+- Sound Technician: Carly Meyer
+- Lighting Technician: Johnny Pettigrew
+- Property Master: Patti Eyler
+- Wig Design: Layla Thurman
+- Wardrobe: 
+  - Layla Thurman
+  - Allie Kangas
+  - Dana Ferger
+- Company Manager: Lisa Valdini Booth
+- Assistant Stage Manager: 
+  - Sarah Brace
+  - Melvin Nash II
+- Part-time Stage Crew: 
+  - Dante Gathings
+  - Natalie Drake
+  - Thaddeus Walker
 orchestra:
 understudies:
 - Tully: 
