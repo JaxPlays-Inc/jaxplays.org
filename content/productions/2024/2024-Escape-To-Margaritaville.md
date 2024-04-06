@@ -62,8 +62,39 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1456&code=WWW&qty_target=0
 show_details: 
 cast:
+- Tully: Matthew Fecko
+- Rachel: Logen Cheatham
+- Tammy: Arrione Magee
+- Brick: Paul Gary
+- Marley:  Victoria Mapayi
+- J.D.: Ron Perry
+- Jamal: Marcus Davis
+- Chadd: Will Wiley
+- Ensemble: 
+  - Chelsea Lucas
+  - Assata Davis
+  - Peyton Overstreet
+  - Brooklyn Klekamp
+  - Shannon Jane Bradley
+  - Christopher Michael Milligan
+  - Benjamin Cornelius
+  - Ryan Lemmon
+  - Sean Rodrigo Royal
 crew:
 orchestra:
+understudies:
+- Tully: 
+  - Benjamin Cornelius
+  - Melvin Nash II
+- Rachel: 
+  - Brooklyn Klekamp
+  - Peyton Overstreet
+- Tammy: Chelsea Lucas
+- Brick:  Christopher Michael Milligan
+- Marley: Chelsea Lucas
+- J.D.:  Benjamin Cornelius
+- Jamal: Sean Rodrigo Royal
+- Chadd: Sean Rodrigo Royal
 Genres:
   - Musical
   - Comedy
