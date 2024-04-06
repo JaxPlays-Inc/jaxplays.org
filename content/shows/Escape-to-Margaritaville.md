@@ -46,6 +46,6 @@ Escape to Margaritaville whisks you away to a vibrant island getaway where Tully
 - "It’s My Job Reprise" - Rachel
 - "Love and Luck/Breathe In, Breathe Out" - Tully, Ginger, Tina, Rachel & Company
 - "King of Somewhere Hot/Coast of Marseilles" - Tully and Rachel
-- "A Pirate Looks At 40"" - Tully, Rachel, Tammy, Brick, Marley, J.D. & Co
-- "One Particular Harbor"" - Tully, Rachel, Tammy, Brick, Marley, J.D., & Co
+- "A Pirate Looks At 40" - Tully, Rachel, Tammy, Brick, Marley, J.D. & Co
+- "One Particular Harbor" - Tully, Rachel, Tammy, Brick, Marley, J.D., & Co
 - "Margaritaville Reprise" - Full Company
