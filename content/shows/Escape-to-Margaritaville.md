@@ -5,13 +5,15 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: 
-- Lyrics: 
+- Music: Jimmy Buffett - wiki
+- Lyrics: Jimmy Buffett
 - Book: 
+  - Greg Garcia
+  - Mike O'Malley
 - Premiere: 
 - Theatre: 
 - Basis: 
-- Website: 
+- Website: https://escapetomargaritavillemusical.com/
 genres:
 - Musical
 - Play
