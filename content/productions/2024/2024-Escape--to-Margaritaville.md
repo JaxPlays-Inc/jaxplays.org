@@ -91,7 +91,7 @@ crew:
 - Set Design: Ian Black
 - Sound Designer: Eric Sullivan
 - Sound Technician: Carly Meyer
-- Lighting Technician: Johnny Pettigrew
+- Lighting Technician: Johnny Pettegrew
 - Property Master: Patti Eyler
 - Wig Design: Layla Thurman
 - Wardrobe: 
