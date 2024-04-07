@@ -17,7 +17,7 @@ cast:
 - Ron Perry
 - Marcus Davis
 - Will Wiley
-description:
+description: "Explore 'Escape to Margaritaville' at The Alhambra: a tropical musical delight with standout performances and an unforgettable island ambiance."
 ---
 In the world of musical theatre, it's rare to find a production that invites its audience to simply sit back, relax, and enjoy a good laugh and a few drinks while being serenaded by the sounds of the ocean. [The Alhambra Theatre & Dining](/theatres/alhambra-theatre-and-dining/)'s latest offering, *Escape to Margaritaville*, does just that, enveloping its audience in a tropical paradise from the moment they step into the venue.
 
