@@ -1,7 +1,7 @@
 ---
 title: Escape to Margaritaville
 Theatre: ABET - All Beaches Experimental Theatre
-Venue: Grace Darling Studio Theatre
+Venue: John McManus Mainstage Theatre
 date: 2023-11-10
 opening_date: 2023-11-10
 closing_date: 2023-11-26
@@ -70,6 +70,4 @@ photos:
   photo_attr: Graphic Design by Jon Scherf
   photo_alt: Cast announcement graphic for 'Escape to Margaritaville'
   photo_caption: Cast announcement graphic for 'Escape to Margaritaville'
-
 ---
-Pack your bags for a trip to paradise as you follow Tully, a part-time bartender and singer, who falls for a beautiful career-minded tourist. In a setting where the drinks are always flowing and the sun never sets, the characters find love and laughs in the idyllic island atmosphere. It's a license to chill in a musical full of Buffett classics!
