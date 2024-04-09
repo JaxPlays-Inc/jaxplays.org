@@ -43,9 +43,11 @@ orchestra:
 # Beware the House on Haunted Hill
 Genres:
   - Play
+  - Comedy
   - Horror
-  - Mystery
+  - Parody
   - Thriller
+  - Farce
 Description: "'Come to the party... if you dare.' The hilarious comedy based on the 1959 Vincent Price film."
 ---
 An eccentric millionaire promises six guests a mysterious prize if they can survive the night at the only truly haunted house in the world. Everyone invited has a few skeletons in their closets though, and screwball scares lurk around every corner.
