@@ -9,7 +9,7 @@ showtimes:
 - 2024-04-25 19:00:00
 - 2024-05-23 19:00:00
 - 2024-06-06 19:00:00
-featured_image: The-Near-Disaster-of-Jasper-&-Casper.webp
+featured_image: 2024-The-Near-Disaster-of-Jasper-&-Casper.webp
 featured_image_alt: 
 featured_image_caption: Poster for 'The Near Disaster of Jasper and Casper'
 featured_image_attr: Jason Woods
