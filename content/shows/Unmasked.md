@@ -1,46 +1,18 @@
 ---
 title: Unmasked
-Theatre: Act II Players
-Venue: Mandarin Community Club
-date: 2023-11-16
-opening_date: 2023-11-16
-closing_date: 2023-11-19
-showtimes:
-- 2023-11-16 19:00:00
-- 2023-11-17 19:00:00
-- 2023-11-18 14:00:00
-- 2023-11-18 19:00:00
-- 2023-11-19 15:00:00
-playbill:
-Website: https://actiiplayers.org/unmasked
-Tickets: https://www.eventbrite.com/cc/unmasked-2698359
+date: 2024-04-17T21:42:51-04:00
+featured_image: 2023-Unmasked.webp
+featured_image_alt: Poster for Unmasked
+featured_image_caption: Poster for Unmasked
+featured_image_attr: McKenna Rowell
+featured_image_attr_link: https://www.instagram.com/unmaskedtheplay
 show_details: 
 - Playwright: McKenna Rowell
-cast:
-- Benjamin Locke: Christopher Shields
-- William Shepard: Nicholas Cooke
-- General John Carter: George Doran
-- Jacob Steele: Jacob Unger
-- Emily Cartridge: Louise Everett
-- Caroline Lewis: Sara Hartwell
-- Esther Lewis/Shepard: Alee Schramer
-- Beth Steele: Julia Aldrich
-- Amias Hall: Aaron Woodson
-- Aunt Miller: Carol Wilkinson
-- James Raleigh: Lleyton Sheehan
-- General Perkins: Alan Painter
-- Townspeople: 
-  - David Wood
-  - Madison Wood
-  - Savannah Wood
-  - Jace Everett
-  - Amber Cooke
-  - Rebecca Wolfe
-  - Bryce Wohl
-  - Olivia Vo
-  - Whitson Blackwell
-crew:
-orchestra:
+Genres:
+- Play
+- Historical Fiction
+- Drama
+- War
 Description: "In a world teetering on the edge of revolution, Emily Cartridge and Colonel William Shepard navigate espionage, loyalty, and sacrifice in the fledgling Continental Army."
 ---
 In the tumultuous summer of 1775, Emily Cartridge takes a daring step, offering her skills as a spy to General Carter. As she navigates the complexities and dangers of life in the Continental Army, she grapples with moral quandaries and looming threats that could spell doom for her and her friends. 
