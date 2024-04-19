@@ -1,7 +1,7 @@
 ---
 title: Matilda JR.
 Theatre: Greenlight Theatre Company
-Venue: John McManus Mainstage Theatre
+Venue: Grace Darling Studio Theatre
 date: 2024-05-02
 opening_date: 2024-05-02
 closing_date: 2024-05-05

@@ -1,7 +1,7 @@
 ---
 title: Be More Chill
 Theatre: Greenlight Theatre Company
-Venue: John McManus Mainstage Theatre
+Venue: Grace Darling Studio Theatre
 date: 2024-04-26
 opening_date: 2024-04-26
 closing_date: 2024-04-28
