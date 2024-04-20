@@ -47,6 +47,3 @@ Genres:
 - War
 ---
 Due to overwhelming demand, Act II Players proudly presents a special encore run of 'Unmasked,' the captivating stage adaptation inspired by McKenna Rowell's beloved book series!
-
----
-

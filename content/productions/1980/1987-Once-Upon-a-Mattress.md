@@ -1,6 +1,6 @@
 ---
 layout: productions
-redirect_from:
+aliases:
 - /productions/1987_Once_Upon_a_Mattress
 title: Once Upon a Mattress
 date: 1987-12-31
