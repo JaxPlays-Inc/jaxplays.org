@@ -141,10 +141,20 @@
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Year</div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div>
       </div>{{ end }}
-      {{ with .Params.theatre }}<div class="flex">
+      {{ with .Params.theatre }}
+      <div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="/theatres/{{ . | urlize }}">{{ . }}</a></div>
-      </div>{{ end }}
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+          {{ $pagePath := printf "/theatres/%s" (. | urlize) }}
+          {{ $theatrePage := site.GetPage $pagePath }}
+          {{ if $theatrePage }}
+            <a href="{{ $pagePath | relURL }}">{{ . }}</a>
+          {{ else }}
+            {{ . }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
 
       <!-- Venues -->
       {{ $currentPage := . }} <!-- Capture the current page context -->
