@@ -23,15 +23,8 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: https://app.arts-people.com/index.php?actions=22&p=56
+Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
-- Music:
-  - Alan Zachary
-  - Michael Weiner
-- Lyrics:
-  - Alan Zachary
-  - Michael Weiner
-- Book: Austin Winsberg
 cast:
 crew:
 orchestra:
@@ -39,6 +32,5 @@ Genres:
 - Musical
 - Comedy
 - Romance
-Description: "A blind date unfolds in real-time, complete with inner monologues, meddling friends, and melodic musings on modern love."
+Description: 
 ---
-In a bustling New York City restaurant, Aaron nervously awaits his blind date, Casey. When she arrives, the evening takes unexpected twists and turns as the two navigate through the quagmire of first impressions, awkward pauses, and potential deal breakers. With a little help from their friends, who mysteriously double as waitstaff and imaginary figures, they discover whether or not they’re a perfect harmony or a flat-out disaster. This musical comedy offers a hilariously candid look at the rollercoaster ride of a first date.
