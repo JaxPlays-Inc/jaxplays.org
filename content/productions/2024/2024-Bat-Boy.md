@@ -22,7 +22,7 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: 
+Tickets: https://www.eventbrite.com/e/bat-boy-the-musical-tickets-679820099217
 show_details: 
 cast:
 crew:
