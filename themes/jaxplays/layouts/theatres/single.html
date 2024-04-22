@@ -69,32 +69,36 @@
     <!-- Theatre Productions Section -->
 
     {{ $theatreName := .Title }}
+    {{ $theatreAliases := .Params.theatre_aliases | default (slice) }} <!-- Default to an empty slice if no aliases -->
     {{ $currentDate := now.Format "2006-01-02" }}
     {{ $currentlyOnStage := slice }}
     {{ $comingSoon := slice }}
     {{ $pastProductions := slice }}
 
+    {{/* Iterate through productions and categorize them */}}
     {{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
-    {{ if eq .Params.Theatre $theatreName }}
-    {{ $openingDate := "" }}
-    {{ $endDate := "" }}
-    {{ with .Params.opening_date }}
-    {{ $openingDate = time . | time.Format "2006-01-02" }}
+      {{/* Check if the production's theatre matches the current theatre or any of its aliases */}}
+      {{ if or (eq .Params.Theatre $theatreName) (in $theatreAliases .Params.Theatre) }}
+        {{ $openingDate := "" }}
+        {{ $endDate := "" }}
+        {{ with .Params.opening_date }}
+          {{ $openingDate = time . | time.Format "2006-01-02" }}
+        {{ end }}
+        {{ with .Params.closing_date }}
+          {{ $endDate = time . | time.Format "2006-01-02" }}
+        {{ end }}
+        {{ if $openingDate }}
+          {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+            {{ $currentlyOnStage = $currentlyOnStage | append . }}
+          {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
+            {{ $pastProductions = $pastProductions | append . }}
+          {{ else if gt $openingDate $currentDate }}
+            {{ $comingSoon = $comingSoon | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
     {{ end }}
-    {{ with .Params.closing_date }}
-    {{ $endDate = time . | time.Format "2006-01-02" }}
-    {{ end }}
-    {{ if $openingDate }}
-    {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
-    {{ $currentlyOnStage = $currentlyOnStage | append . }}
-    {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
-    {{ $pastProductions = $pastProductions | append . }}
-    {{ else if gt $openingDate $currentDate }}
-    {{ $comingSoon = $comingSoon | append . }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
+
 
     <!-- START Theatre Productions Section-->
 
