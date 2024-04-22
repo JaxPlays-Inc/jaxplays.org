@@ -20,7 +20,7 @@ description:
 ---
 In homage to mid-century black-and-white suspenseful horror flicks that elicit more groans than actual ghouls, [Act II Players](/theatres/act-ii-players/) presents [*Beware the House on Haunted Hill!*](/productions/2024-beware-the-house-on-haunted-hill/)
 
-As the script says, ‘good artists borrow, great artists steal.’ Remember the original film with Vincent Price, or the 1990s remake starring Geoffrey Rush? This production is like those, but more earnest. By that I mean Earnest goes to the House on Haunted Hill — campy and fun, with more dead jokes than dad jokes alongside a few modest jump scares and creepy cameos.
+As the script says, ‘good artists borrow, great artists steal.’ Remember the original film with Vincent Price, or the 1990s remake starring Geoffrey Rush? This production is like those, but more earnest. By that I mean Earnest goes to the House on Haunted Hill — campy and fun, with more dead jokes than dad jokes alongside a few modest jump scares and creepy cameos.<!--more-->
 
 In this adaptation of the classic 1959 film, four strangers are invited to spend a night in an abandoned mansion on Haunted Hill by eccentric film producer Frederick Loren on behalf of his unknowing but completely suspecting wife, Annabelle. 
 

@@ -19,7 +19,9 @@ cast:
 - Michael Lipp
 description: "'First Date' at Limelight Theatre: The perfect antidote to every bad date story, served with a side of snickers."
 ---
-*First Date* is a hilarious and charming musical that follows the story of Aaron (Mitchell Wohl), a nervous investment banker, and Casey (Mary Elizabeth Schubert), a quick-witted artist, who are set up on a blind date at a bustling New York cafe. Throughout their evening, their inner anxieties and hopes burst into life with the unexpected interventions of their ex-partners, overbearing relatives and a gaggle of imaginary advisors who appear out of the ether to dish out advice, often comically unsolicited. With each revealing conversation and whimsical musical number, Aaron and Casey peel back the layers of first impressions and missteps to uncover potential sparks of a genuine connection. This contemporary musical explores the most terrifying and exhilarating aspects of dating in the modern world with a blend of sharp humor and genuine emotion, making it an engaging experience for anyone who has ever been on a first date.
+[*First Date*](/productions/2024-first-date/) is a hilarious and charming musical that follows the story of Aaron (Mitchell Wohl), a nervous investment banker, and Casey (Mary Elizabeth Schubert), a quick-witted artist, who are set up on a blind date at a bustling New York cafe. Throughout their evening, their inner anxieties and hopes burst into life with the unexpected interventions of their ex-partners, overbearing relatives and a gaggle of imaginary advisors who appear out of the ether to dish out advice, often comically unsolicited.<!--more--> 
+
+With each revealing conversation and whimsical musical number, Aaron and Casey peel back the layers of first impressions and missteps to uncover potential sparks of a genuine connection. This contemporary musical explores the most terrifying and exhilarating aspects of dating in the modern world with a blend of sharp humor and genuine emotion, making it an engaging experience for anyone who has ever been on a first date.
 
 Upon entering the Matuza Mainstage at the Limelight Theatre, audience members are immediately transported to a quaint New York cafe, thoughtfully rendered through a simple yet effective set design. Tables neatly arranged upstage and a bar adorned with a backdrop of the silhouettes of beer, wine and liquor bottles create an inviting urban space. This atmosphere is enhanced by real artworks by St. Augustine-based artist Lisette Lugo, which lend an authentic touch to the cafe's walls.
 
@@ -43,7 +45,7 @@ The direction of *First Date* masterfully harnessed the energy and comedic talen
 
 However, the staging of the final scene, where the characters remained stationary while singing to the audience, marked a slight departure from the fluidity of the rest of the show. Incorporating more movement in this scene might have preserved the continuity of action and emotional buildup to the finale.
 
-The lighting design in *First Date* was brilliantly executed, enhancing the narrative by clearly demarcating moments of reality and magical realism.  In the final scene, dramatic imaginative lighting vividly transformed the set without altering a single set piece.
+The lighting design in *First Date* was brilliantly executed, enhancing the narrative by clearly demarcating moments of reality and magical realism.  In the final scene, innovative lighting vividly transformed the set without altering a single set piece.
 
 Unfortunately, the production faced its share of challenges right from the start, suffering from technical audio issues that ranged from poor microphone equalization to intensely loud feedback that caused the entire audience to groan. These issues were severe enough to necessitate the turning off of the microphones multiple times. 
 
