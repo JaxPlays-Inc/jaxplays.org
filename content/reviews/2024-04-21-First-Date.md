@@ -19,7 +19,7 @@ cast:
 - Michael Lipp
 description: "'First Date' at Limelight Theatre: The perfect antidote to every bad date story, served with a side of snickers."
 ---
-[*First Date*](/productions/2024-first-date/) is a hilarious and charming musical that follows the story of Aaron (Mitchell Wohl), a nervous investment banker, and Casey (Mary Elizabeth Schubert), a quick-witted artist, who are set up on a blind date at a bustling New York cafe. Throughout their evening, their inner anxieties and hopes burst into life with the unexpected interventions of their ex-partners, overbearing relatives and a gaggle of imaginary advisors who appear out of the ether to dish out advice, often comically unsolicited.<!--more--> 
+[*First Date*](/productions/2024-first-date/) is a hilarious and charming musical that follows the story of Aaron (Mitchell Wohl), a nervous investment banker, and Casey (Mary Elizabeth Schubert), a quick-witted artist, who are set up on a blind date at a bustling New York City cafe. Throughout their evening, their inner anxieties and hopes burst into life with the unexpected interventions of their ex-partners, overbearing relatives and a gaggle of imaginary advisors who appear out of the ether to dish out advice, often comically unsolicited.<!--more--> 
 
 With each revealing conversation and whimsical musical number, Aaron and Casey peel back the layers of first impressions and missteps to uncover potential sparks of a genuine connection. This contemporary musical explores the most terrifying and exhilarating aspects of dating in the modern world with a blend of sharp humor and genuine emotion, making it an engaging experience for anyone who has ever been on a first date.
 
