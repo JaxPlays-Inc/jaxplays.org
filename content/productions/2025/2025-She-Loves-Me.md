@@ -6,10 +6,10 @@ date: 2025-06-06
 opening_date: 2025-06-06
 closing_date: 2025-06-22 
 showtimes:
-featured_image: 
+featured_image: 2025-She-Loves-Me.webp
 featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image_caption: Poster for 'She Loves Me'
+featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
 playbill:
 Website: 

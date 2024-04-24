@@ -6,10 +6,10 @@ date: 2024-09-13
 opening_date: 2024-09-13
 closing_date: 2024-09-29
 showtimes:
-featured_image: 
+featured_image: 2024-Broadway-Bash.webp
 featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image_caption: Poster for 'Broadway Bash'
+featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
 playbill:
 Website: 

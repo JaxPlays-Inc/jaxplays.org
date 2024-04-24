@@ -15,9 +15,9 @@ showtimes:
 - 2024-08-23 19:30:00
 - 2024-08-24 19:30:00
 - 2024-08-25 14:00:00
-featured_image: 
+featured_image: 2024-Bat-Boy.webp
 featured_image_alt: 
-featured_image_caption: 
+featured_image_caption: Poster for 'Bat Boy'
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:

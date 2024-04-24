@@ -15,9 +15,9 @@ showtimes:
 - 2024-06-21 19:30:00
 - 2024-06-22 19:30:00
 - 2024-06-23 14:00:00
-featured_image: 
+featured_image: 2024-The-Other-Place.webp
 featured_image_alt: 
-featured_image_caption: 
+featured_image_caption: Poster for 'The Other Place'
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
