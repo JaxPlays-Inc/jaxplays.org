@@ -19,7 +19,7 @@ featured_image_attr: Designed by Vicki Wyttenbach
 featured_image_attr_link: 
 playbill: 
 Website: http://www.stmaryslittletheatre.com
-Tickets: http://www.stmaryslittletheatre.com
+Tickets: https://our.show/southernfried
 show_details: 
 cast:
 - Harlene Frye: Debra Parsons
