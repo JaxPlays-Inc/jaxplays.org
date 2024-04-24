@@ -33,7 +33,7 @@ cast:
 - Martha Ann: Brandy Champeau
 - Benny Charles Greenwood: Carlos Semidei
 - Beecham Lefette: Dave Mccune
-- Harlen Frye: Debra Parsons
+- Harlene Frye: Debra Parsons
 - Dub Frye: George Tweedy
 - Fairy June Cooper: Gloria Hurley
 - Dewey Frye Jr.:
