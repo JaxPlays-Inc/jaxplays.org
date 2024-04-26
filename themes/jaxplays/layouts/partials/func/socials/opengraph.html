@@ -5,24 +5,25 @@
 <meta property="og:description" content="{{ .Scratch.Get "finalDescription" }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+{{ $url := .Site.BaseURL }}
 
 {{ $imageFolder := "" }}
 {{- if eq .Type "productions" -}}
-  {{ $imageFolder = "/media/posters/" }}
+  {{ $imageFolder = "media/posters/" }}
 {{- else if eq .Type "shows" -}}
-  {{ $imageFolder = "/media/posters/" }}
+  {{ $imageFolder = "media/posters/" }}
 {{- else if eq .Type "people" -}}
-  {{ $imageFolder = "/media/headshots/" }}
+  {{ $imageFolder = "media/headshots/" }}
 {{- else if eq .Type "theatres" -}}
-  {{ $imageFolder = "/media/logos/" }}
+  {{ $imageFolder = "media/logos/" }}
 {{- else if eq .Type "venues" -}}
-  {{ $imageFolder = "/media/logos/" }}
+  {{ $imageFolder = "media/logos/" }}
 {{- else -}}
   {{ $imageFolder = "" }}
 {{- end -}}
 
 {{- with $.Params.featured_image -}}
-    <meta property="og:image" content="{{ $imageFolder }}{{ . }}" />
+    <meta property="og:image" content="{{ $url }}{{ $imageFolder }}{{ . }}" />
 {{- else -}}
     {{- $images := $.Resources.ByType "image" -}}
     {{- $featured := $images.GetMatch "*feature*" -}}
