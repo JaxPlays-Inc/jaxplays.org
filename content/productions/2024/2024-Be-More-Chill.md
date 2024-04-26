@@ -43,6 +43,12 @@ cast:
   - River Gelsleichter
   - Claire Kirby
 crew:
+- Director: 
+  - Rodney Holmes
+  - Chris Milligan
+- Stage Manager:
+  - Jonathan Crawford
+  - Jules McDonell
 orchestra:
 Genres:
 - Musical
