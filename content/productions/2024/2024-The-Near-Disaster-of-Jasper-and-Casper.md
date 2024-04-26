@@ -6,9 +6,9 @@ date: 2024-04-25
 opening_date: 2024-04-25
 closing_date: 2024-06-06
 showtimes:
-- 2024-04-25 19:00:00
-- 2024-05-23 19:00:00
-- 2024-06-06 19:00:00
+- 2024-04-25 19:30:00
+- 2024-05-23 19:30:00
+- 2024-06-06 19:30:00
 featured_image: 2024-The-Near-Disaster-of-Jasper-&-Casper.webp
 featured_image_alt: 
 featured_image_caption: Poster for 'The Near Disaster of Jasper and Casper'
