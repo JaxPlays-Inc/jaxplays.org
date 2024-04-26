@@ -5,7 +5,6 @@
 <meta property="og:description" content="{{ .Scratch.Get "finalDescription" }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ $url := .Site.BaseURL }}
 
 {{ $imageFolder := "" }}
 {{- if eq .Type "productions" -}}
@@ -23,7 +22,7 @@
 {{- end -}}
 
 {{- with $.Params.featured_image -}}
-    <meta property="og:image" content="{{ $url }}{{ $imageFolder }}{{ . }}" />
+    <meta property="og:image" content="{{ . | absURL }}" />
 {{- else -}}
     {{- $images := $.Resources.ByType "image" -}}
     {{- $featured := $images.GetMatch "*feature*" -}}
