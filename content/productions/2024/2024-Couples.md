@@ -16,7 +16,7 @@ Genres:
 Theatre: A Classic Theatre
 Venue: The Waterworks
 Website: 
-Tickets: 
+Tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Music: Jerry Bock
 - Lyrics: Sheldon Harnick
