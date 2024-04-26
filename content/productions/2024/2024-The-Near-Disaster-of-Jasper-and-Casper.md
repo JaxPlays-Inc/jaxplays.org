@@ -31,7 +31,8 @@ cast:
 - The Witch's Mother: Jason Woods
 understudies:
 crew:
-- Director: Michelle Svenson Kindy
+- Lighting Technician: Bryce Cofield
+- Sound Technician: Bryce Cofield
 orchestra:
 Genres:
   - Play
