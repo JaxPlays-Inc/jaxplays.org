@@ -60,5 +60,9 @@ crew:
 - Director: Michael Lipp
 - Musical Director: Kimberly Beasley
 - Choreography: Curtis J. Williams
+Press:
+- "Les Miserables at Theatre Jacksonville in San Marco! | MySanMarco.com" : https://mysanmarco.com/2014/05/20/les-miserables-at-theatre-jacksonville-in-san-marco/
+Reviews: 
+- "Les Misérables wows them at Theatre Jax – with help of Fine Arts faculty and students | The Wave Magazine": https://wavemagazineonline.com/les-miserables-wows-them-at-theatre-jax-with-help-of-fine-arts-faculty-and-students/
 ---
 
