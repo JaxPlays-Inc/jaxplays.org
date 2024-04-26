@@ -16,7 +16,7 @@
             {{ .Title }}
             </a>
         </h1>
-        <p class="f6 f5-l lh-copy mb1">{{ .Date.Format "January 2, 2006" }} • By <em>{{ .Params.author }}</em></p>
+        <p class="f6 f5-l lh-copy mb1">{{with .CurrentSection.Title }}<strong>{{ . }}</strong> | {{end}} {{ .Date.Format "January 2, 2006" }} • By <em>{{ .Params.author }}</em></p>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           {{ .Summary }}
         </div>
