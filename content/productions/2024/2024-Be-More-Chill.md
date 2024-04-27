@@ -28,13 +28,13 @@ cast:
 - Jeremy Heere: Jules Mcdonell
 - Michael Mell: Charlie Gilyard
 - Christine Canigula: Madeline Rey
-- Rich: Seline Miller
+- Rich: Selene Miller
 - Brooke: Jessica Evgenikos
 - Chloe: Cadence Walker
 - Jenna Rolan: Gabrielle Gibson
 - Jake Dillinger: Ethan Walker
 - The Squip: Kennedy Fulk
-- Mr. Heere: Nick Coope
+- Mr. Heere: Nick Cooper
 - Scary Stockboy: Val Bolton
 - Mrs. Reyes: Veda Gishler
 - Ensemble:
