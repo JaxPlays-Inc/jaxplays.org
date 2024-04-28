@@ -4,25 +4,14 @@ date: 2024-04-27
 opening_date: 2024-04-27
 closing_date: 2024-05-04
 featured_image: 2023-Disneys-Frozen.webp
-featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
+featured_image_caption: Poster for Disney's 'Frozen'
+featured_image_attr: Disney Theatrical Productions
 featured_image_attr_link: 
 playbill:
-genres: 
-- Musical
-- Drama
-- Fantasy
-- Romance
-- Comedy
-- Family
 Theatre: FSCJ Artist Series
 Venue: Moran Theater
 Website: 
 Tickets: https://www.fscjartistseries.org/tickets/disneys-frozen
-show_details: 
-- Music and Lyrics: Kristen Anderson-Lopez, Robert Lopez
-- Book: Jennifer Lee
 Description: A winter wonderland of sisterhood and self-discovery, melting hearts and minds alike.
 showtimes:
 - 2024-04-27 14:00:00
@@ -121,9 +110,23 @@ crew:
 - Assistant Stage Manager - North American Tour: Brae Singleton
 - Assistant Stage Manager: Cathy Hwang
 orchestra:
+- Music Director/Conductor: Faith Seetoo
+- Associate Conductor: Josh Tatsuo Cullen
+- Keyboard 1: Jenna Mee Dosch
+- Keyboard 2/Assistant Conductor: Flint Hawes
+- Drums/Percussion: Jeff MacPherson
+- Acoustic/Electric Bass: Tyler Williams
+- Flute/Piccolo/Clarinet/Alto Sax/Soprano Sax: Dane Andersen
+- Oboe/English Horn/Flute/Clarinet/Tenor Sax: Mike Livingston
+- Trumpet 1/Flugelhorn: Tim Burke
+- Trumpet 2/Flugelhorn: Paul Baron
+- French Horn: Sarah Younker
+- Trombone: Jim Gray
+- Music Coordinators: 
+  - Michael Keller
+  - Michael Aarons
+- Music Preparation: Anixter Rice Music Service
 ---
-Adapted from the blockbuster Disney film, the musical unfolds the tale of two royal sisters, Elsa and Anna. Elsa's magical powers trap their kingdom in eternal winter, and it's up to the determined Anna, with the help of rugged ice harvester Kristoff and snowman Olaf, to thaw her sister's icy exterior. Packed with memorable songs and whimsical charm, *Frozen* brings a snowstorm of emotion to the stage.
-
 ### Update ###
 Due to a change of schedule, performances of Disney's *Frozen* will now play from Saturday, April 27 through Saturday, May 4, 2024. 
 

@@ -382,8 +382,6 @@
       {{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
       {{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
 
-      
-
       {{ if or $relatedReviews .Params.reviews }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
@@ -405,7 +403,7 @@
         {{ end }}
         <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
         {{/*  {{ $summary := .Summary | plainify | safeHTML }}  */}}
-        <span class="db">{{ $description }}</span>
+        <span class="db">{{ $description | safeHTML }}</span>
         <a href="{{ .Permalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         {{ end }}
 
