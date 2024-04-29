@@ -63,9 +63,15 @@ crew:
 - Director: Jean Tait
 orchestra:
 - Conductor: Joey Chancey
-genres: 
-Description: 
+# Mame: In Concert
+Genres:
+  - Musical
+  - Concert
+  - Family Drama
+Description: "Experience the vivacious spirit of *Mame* in a special concert production, celebrating the musical's timeless songs and the irrepressible charm of its titular character."
 ---
+*Mame In Concert* brings the beloved musical to life in a unique format, focusing on its iconic score and the larger-than-life character of Mame Dennis. Set against the backdrop of the Roaring Twenties and the Great Depression, Mame's adventurous spirit never wanes as she faces life's ups and downs with zest and zeal. This concert production highlights the musical's most memorable moments and songs like "Bosom Buddies" and "If He Walked into My Life," performed by a dynamic cast accompanied by a live orchestra. 
+
 Florida Theatre and Theatre Jacksonville present an “in concert” production of the musical *Mame*. Set in mid-20th century New York City, Mame Dennis is an eccentric bohemian with wealthy friends whose fabulous life is interrupted by the arrival of the young son of her late brother. The plot covers their adventures from the beginning of the Depression through WWII. With a book by Jerome Lawrence and Robert Edwin Lee, the music and lyrics by Jerry Herman include “We Need a Little Christmas,” “Bosom Buddies,” “If He Walked Into My Life,” and one of the best-known title songs of the American Musical Theatre, “Mame.”
 
 This “in concert” Broadway production features a full 26-piece orchestra on stage with a 30-member chorus, conducted by Jacksonville native Joey Chancey, whose Broadway credits include *An American in Paris*, *Beautiful: The Carole King Musical*, *Gigi*, and *Annie*.
