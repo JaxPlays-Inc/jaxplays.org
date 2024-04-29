@@ -4,7 +4,7 @@ date: 2024-04-19
 opening_date: 2024-04-19
 closing_date: 2024-05-05
 layout: productions
-featured_image: 2024_Picasso_at_the_Lapin_Agile.webp
+featured_image: 2024-Picasso-at-the-Lapin-Agile.webp
 featured_image_caption: Poster for Picasso at the Lapin Agile
 featured_image_attr: Theatre Jacksonville
 playbill:
