@@ -26,7 +26,12 @@ Tickets: https://www.eventbrite.com/e/the-other-place-by-sharr-white-tickets-679
 show_details: 
 - Playwright: Sharr White
 cast:
+- Juliana: Karen Konzen
+- Ian: Kevin Bodge
+- The Woman: Kristen Walsh
+- The Man: Kyle Geary
 crew:
+- Director: Michael Lipp
 orchestra:
 Genres:
 - Play
