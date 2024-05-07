@@ -6,17 +6,6 @@ redirect_from:
 date: 2020-01-31
 opening_date: 2020-01-31
 closing_date: 2020-02-16
-category: drama
-
-Theatre: ABET - All Beaches Experimental Theatre
-Genres: 
-- Drama
-show_details:
-- Writer: August Wilson - wiki
-- Setting: The Hill District of Pittsburgh, 1997
-- Subject: A powerful African-American politician runs for the highest office of his career
-- Wikipedia: Radio Golf - wiki
-Website: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
 showtimes:
 - 2020-01-31 20:00:00
 - 2020-02-01 20:00:00
@@ -26,6 +15,21 @@ showtimes:
 - 2020-02-14 20:00:00
 - 2020-02-15 20:00:00
 - 2020-02-16 14:00:00
+featured_image: 2020-Radio-Golf.webp
+featured_image_alt: 
+featured_image_caption: Poster for 'Radio Golf'
+featured_image_attr: 
+featured_image_attr_link: 
+category: drama
+Theatre: ABET - All Beaches Experimental Theatre
+Genres: 
+- Drama
+show_details:
+- Writer: August Wilson - wiki
+- Setting: The Hill District of Pittsburgh, 1997
+- Subject: A powerful African-American politician runs for the highest office of his career
+- Wikipedia: Radio Golf - wiki
+Website: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
 cast:
 - Harmond Wilks: James F. Webb III
 - Mame Wilks: Danielle Reliford
@@ -65,6 +69,9 @@ crew:
   - Susan Cathcart
   - Karen Lahey
   - Jodi Moore
+Reviews:
+- "Radio Golf at ABET | The Buzz": https://iwantabuzz.com/community/radio-golf-at-abet-2/
+Press:
+- "Photo Flash: ABET Presents August Wilson's RADIO GOLF | Broadway World": https://www.broadwayworld.com/jacksonville/article/Photo-Flash-ABET-Presents-August-Wilsons-RADIO-GOLF-20200128
 ---
-
 "The story of a man and a community at the crossroads. What is the price of success and what must be done to achieve it? What is the cost of progress and what is lost along the way? The great August Wilson’s final story in his epic 10-play cycle of the African American experience in the 20th Century." — [Radio Golf - ABET All Beaches Experimental Theatre](https://www.abettheatre.com/2019-2020-season-28/radio-golf/)
