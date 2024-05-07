@@ -3,6 +3,7 @@ title: Trouble in Mind
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 date: 2024-05-10
+opening_date: 2024-05-10
 closing_date: 2024-05-26
 showtimes:
 - 2024-05-10 20:00:00
