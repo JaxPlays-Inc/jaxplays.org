@@ -14,6 +14,7 @@ showtimes:
 - 2024-05-25 20:00:00
 - 2024-05-26 14:00:00
 featured_image: 2024-Trouble-in-Mind.webp
+featured_image_fb: 2024-Trouble-in-Mind_fb_preview.webp
 featured_image_alt: 
 featured_image_caption: Promotional Graphic for 'Trouble in Mind'
 featured_image_attr: 
@@ -26,16 +27,24 @@ show_details:
 cast:
 - Wiletta Mayer: Zonnetta Marie
 - Al Manners: Jay Bilderback
-- John Nevins: Ja'Uan Hay
+- John Nevins: Ja'uan Hay
 - Millie Davis: Katrina Melvin
 - Judy Sears: Shelby Ellis
 - Sheldon Forrester: Michael G. Robinson
 - Henry: David Voss
 - Eddie Felton: Justin Rorer
+- Bill O'Wray: Neal Thorburn
 crew:
 - Director: Zach Rivera
+- Stage Manager: Angelique Morrow
+- Production Assistant: Phedre Delinois
+- Scenic Designer: Bradley Akers
+- Lighting Designer: Jereme Raickett
+- Master Electrician: Ben Sparenberg
+- Costume Designer: Phedre Delinois
+- Master Carpenter: Tom Cassaro
+- Sound Design: GoldenStage Productions
 orchestra:
-# Trouble in Mind
 Genres:
   - Play
   - Drama
