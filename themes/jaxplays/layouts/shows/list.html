@@ -4,7 +4,7 @@
   {{ $allProductions := where .Site.Pages "Type" "productions" }}
   {{ $allShows := where .Site.Pages "Type" "shows" }}
   {{ $showCountMap := dict }}
-  
+
   {{ range $allProductions }}
     {{ $showTitle := .Title }}
     {{ $count := index $showCountMap $showTitle }}
@@ -49,14 +49,24 @@
       <ul>
         {{ range $allProductions }}
           {{ if eq .Title $showTitle }}
-            <li><a href="{{ .RelPermalink }}">{{ .Date.Format "2006" }} - {{ .Params.Theatre }}</a></li>
+            {{ if isset .Params "opening_date" }}
+              {{ $openingDate := time .Params.opening_date }}
+              <li><a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.Theatre }}</a></li>
+            {{ else }}
+              <li>{{ .Title }} - Date not available</li>
+            {{ end }}
           {{ end }}
         {{ end }}
       </ul>
       {{ else }}
       {{ range $allProductions }}
           {{ if eq .Title $showTitle }}
-             - <a href="{{ .RelPermalink }}">{{ .Date.Format "2006" }} - {{ .Params.Theatre }}</a>
+             {{ if isset .Params "opening_date" }}
+                {{ $openingDate := time .Params.opening_date }}
+                - <a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.Theatre }}</a>
+             {{ else }}
+                - Date not available
+             {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
