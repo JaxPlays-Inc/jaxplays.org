@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" | default "mid-gray" }}">
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
     {{ .Content }}
   </section>
   {{ $currentDate := now.Format "2006-01-02" }}
@@ -9,11 +9,13 @@
   {{ range where .Site.Pages "Type" "productions" }}
     {{ $openingDate := "" }}
     {{ $endDate := "" }}
-    {{ with .Params.opening_date }} <!-- Updated to use opening_date -->
+    {{ with .Params.opening_date }}
       {{ $openingDate = time . | time.Format "2006-01-02" }}
     {{ end }}
     {{ with .Params.closing_date }}
       {{ $endDate = time . | time.Format "2006-01-02" }}
+    {{ else }}
+      {{ $endDate = $openingDate }}  <!-- Use opening_date as closing_date if closing_date is not provided -->
     {{ end }}
     {{ if and $openingDate $endDate }}
       {{ if and (lt $openingDate $currentDate) (lt $endDate $currentDate) }} <!-- Checking both opening and closing dates are in the past -->
@@ -38,7 +40,6 @@
 
   <script>
     document.addEventListener("keydown", function (event) {
-
       if (event.metaKey) {
         let nextUrlElement = document.querySelector('a[aria-label="Next"]');
         let prevUrlElement = document.querySelector('a[aria-label="Previous"]');
