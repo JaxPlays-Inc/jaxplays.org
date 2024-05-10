@@ -16,7 +16,7 @@
               {{ with (site.GetPage "page" (printf "/shows/%s" ($title | urlize))) }}
                 {{ $featuredImage = .Params.featured_image }}
               {{ end }}
-              {{ end }}
+            {{ end }}
             {{ $imagePath := "/media/default/production_poster.webp" }}
             {{ if $featuredImage }}
               {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
@@ -34,12 +34,12 @@
             <!-- Right Section of Right Section -->
             <div class="w-100 w-50-l tr-l">
               <div>
-                {{ $date := $production.Date }}
+                {{ $opening_date := $production.Params.opening_date | time }}
                 {{ $isApprox := $production.Params.approx_date }}
                 {{ if eq $isApprox "year" }}
-                  {{ $date.Year }}
+                  {{ $opening_date.Year }}
                 {{ else }}
-                  {{ $date.Format "January 2006" }}
+                  {{ $opening_date.Format "January 2006" }}
                 {{ end }}
               </div>
               <div>
