@@ -13,7 +13,7 @@
     {{ $startDate := "" }}
     {{ $endDate := "" }}
     
-    {{ with .Params.opening_date }} <!-- Updated from .Params.date to .Params.opening_date -->
+    {{ with .Params.opening_date }}
       {{ $startDate = time . | time.Format "2006-01-02" }}
     {{ end }}
     

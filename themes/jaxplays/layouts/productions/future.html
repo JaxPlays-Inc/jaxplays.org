@@ -10,7 +10,7 @@
   {{ range where .Site.Pages "Type" "productions" }}
     {{ $openingDate := "" }}
     {{ $endDate := "" }}
-    {{ with .Params.opening_date }} <!-- Switched from .Params.date to .Params.opening_date -->
+    {{ with .Params.opening_date }} 
       {{ $openingDate = time . | time.Format "2006-01-02" }}
     {{ end }}
     {{ with .Params.closing_date }}
