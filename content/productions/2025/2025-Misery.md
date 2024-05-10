@@ -2,7 +2,7 @@
 title: Misery
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
-date: 2025-04-11
+date: 2024-05-10T17:38:48-04:00
 opening_date: 2025-04-11
 closing_date: 2025-04-27
 showtimes:

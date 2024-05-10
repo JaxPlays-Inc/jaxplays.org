@@ -2,7 +2,7 @@
 title: The Spitfire Grill
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
-date: 2025-08-15
+date: 2024-05-10T17:38:36-04:00
 opening_date: 2025-08-15
 closing_date: 2025-08-31
 showtimes:

@@ -2,7 +2,7 @@
 title: Grease
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: John McManus Mainstage Theatre
-date: 2025-01-17
+date: 2024-05-10T17:38:54-04:00
 opening_date: 2025-01-17
 closing_date: 2025-02-02
 showtimes:
