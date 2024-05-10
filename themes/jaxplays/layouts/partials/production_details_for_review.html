@@ -10,19 +10,19 @@
   {{ $title := .Title }}
   {{ $theatre := .Params.theatre }}
   {{ $venue := .Params.venue }}
-  {{ $date := .Params.date }}
+  {{ $opening_date := .Params.opening_date }}
   {{ $closing_date := .Params.closing_date }}
   {{ $url := .Permalink }}
   
 
   <!-- Now you can use these variables in your template -->
-  {{ $date := dateFormat "Monday, January 2" .Params.date }}
+  {{ $opening_date := dateFormat "Monday, January 2" .Params.date }}
   {{ $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
 
   {{ with $override_dates }}
     <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $override_dates | markdownify }} at the {{ $venue }}.</p>
   {{ else }}
-    <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $date }} through {{ $closing_date }} at the {{ $venue }}.</p>
+    <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $opening_date }} through {{ $closing_date }} at the {{ $venue }}.</p>
   {{ end }}
   <p>For more information, full cast and crew credits and links to tickets, visit the <a class="i" href="{{ $url }}">{{ $title }}</a> page here on JaxPlays.
   </p>
