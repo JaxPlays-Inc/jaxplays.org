@@ -17,5 +17,6 @@ Socials:
   Instagram: playersbythesea
   LinkedIn: players-by-the-sea-theater
   Website: https://playersbythesea.org
+date: 2023-09-08T00:00:00-04:00
 ---
 The John McManus Mainstage Theatre is the primary performance space at Players by the Sea in Jacksonville Beach, Florida. With a seating capacity of 200, the Mainstage Theatre is the venue for the majority of the theater's productions, including plays, musicals, and special events. The theater features a spacious stage with state-of-the-art lighting and sound systems, allowing for a wide range of theatrical experiences. The Mainstage Theatre also has dressing rooms, a box office, and ample seating for audiences. 

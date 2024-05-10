@@ -18,6 +18,7 @@ Press:
 - "1904 Music Hall - Downtown Jacksonville": https://downtownjacksonville.org/poi/1904-music-hall/
 - "1904 Music Hall - JME Jacksonville Music Experience": https://wjct.org/locations/jme/1904-music-hall/
 - "1904 Music Hall Breathes Fire into Downtown Nightlife": https://folioweekly.com/2022/09/21/1904-music-hall-breathes-fire-into-downtown-nightlife/
+date: 2023-09-08T00:00:00-04:00
 ---
 1904 Music Hall is a historic music venue located in downtown Jacksonville, Florida. The building, with its 17-foot-tall ceilingd and brick walls, was originally constructed in the early 20th century and has since been renovated and restored to its former glory. The hall is known for primarily hosting a variety of live music events, including concerts, performances, and DJ sets, However, it is frequently used to stage plays and musicals.
 

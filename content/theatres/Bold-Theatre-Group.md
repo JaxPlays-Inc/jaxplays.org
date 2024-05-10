@@ -14,6 +14,7 @@ Socials:
 Press:
 - "A BOLD NEW STAGE | Folio Weekly": https://web.archive.org/web/20151126133919/https://folioweekly.com/A-BOLD-NEW-STAGE,14113
 - "Arts Notes: Bold Theatre Group plans to pay actors | Florida Times-Union": https://www.jacksonville.com/entertainment/arts/2015-07-16/story/arts-notes-bold-theatre-group-plans-pay-actors?page=1()
+date: 2023-09-08T00:00:00-04:00
 ---
 Founded in 2015 by [Daniel Austin](/people/daniel-austin) and [Ron Shreve](/people/ron-shreve), Bold Theatre Group was a Jacksonville-based artist collaborative that aimed to revolutionize the local theater scene. With a mission to act as a torch-bearer for the theatrical spirit, the group specializes in theatrical strategy, ensemble work, and event-based storytelling.
 

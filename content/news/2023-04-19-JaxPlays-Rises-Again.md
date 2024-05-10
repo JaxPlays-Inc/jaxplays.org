@@ -5,6 +5,7 @@ title: "JaxPlays Rises Again: A New Beginning for Northeast Florida Theatre Love
 categories: News
 author: Ray Hollister
 excerpt_separator: <!--more-->
+date: 2023-09-08T00:00:00-04:00
 ---
 
 Hey there, theatre enthusiasts! I am absolutely thrilled to announce that I am restarting JaxPlays, and this time it's here to stay!

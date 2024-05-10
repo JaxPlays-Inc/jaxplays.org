@@ -15,5 +15,6 @@ Longitude: -81.39743411349323
 Socials:
   Website: http://www.coab.us/
 Phone: 	1-904-247-5828
+date: 2023-09-08T00:00:00-04:00
 ---
 The Adele Grage Cultural Center is a community hub located in Atlantic Beach, Florida. It serves as a venue for various arts and cultural events, including art exhibitions, musical performances, and community meetings. The center aims to enrich the local community by providing a space for creative expression and cultural exchange.

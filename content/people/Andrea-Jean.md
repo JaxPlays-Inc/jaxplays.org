@@ -17,5 +17,6 @@ Socials:
   IBDB: 
   IMDb:
   Website: 
+date: 2023-09-08T00:00:00-04:00
 ---
 Andrea Jean has graced the stage with notable roles such as Squeak/Ensemble in *The Color Purple*, Dorothy in *The Wiz*, Charlaine in *Ain't Misbehavin*, and Ensemble in *Hair*.

@@ -10,5 +10,6 @@ birth_info:
   birth_date: 
   death_date: 
   birth_place: 
+date: 2023-09-08T00:00:00-04:00
 ---
 

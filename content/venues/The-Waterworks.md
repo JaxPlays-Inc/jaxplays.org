@@ -17,6 +17,7 @@ Socials:
     YouTube: "@stjohnsculturalcouncil8575"
     Website: https://stjohnsculture.com/the-waterworks/
 Phone: 
+date: 2023-09-08T00:00:00-04:00
 ---
 Originally constructed in 1898, The Waterworks was the heart of the city’s first water utility. However, its significance doesn't stop at utilitarian roots—by 1928, the building was transformed into Davenport Park, pioneering the concept of adaptive reuse in St. Augustine. It became a communal sanctuary, housing institutions like the St. Augustine Little Theatre and the St. Augustine Garden Club.
 

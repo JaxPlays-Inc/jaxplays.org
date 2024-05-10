@@ -12,4 +12,5 @@ show_details:
 - Theatre: Broadhusrt Theatre, New York City
 - Subject: Domestic discord 
 - Setting: Living room of the Walters New York City apartment in the 1950s 
+date: 2023-09-08T00:00:00-04:00
 ---

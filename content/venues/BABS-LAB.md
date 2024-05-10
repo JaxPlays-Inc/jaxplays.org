@@ -18,5 +18,6 @@ Socials:
   LinkedIn: barbaracolaciello
   YouTube: interactbw
   Website: https://www.barbaracolaciello.com/babslabtheatercork
+date: 2023-09-08T00:00:00-04:00
 ---
 BABS' LAB, located in Jacksonville, Florida, is a community-centric creative space known for encouraging artistic experimentation and training. Founded by Barbara Colaciello, the lab is a venue for a variety of events such as workshops for performing artists, readings, dinners, improv jams, listening parties, film screenings, concerts, and private parties. As a multifunctional space, it continually explores new methods of utilization to foster community engagement and promote open dialogue, reflecting Colaciello's belief in the power of shared, present-moment experiences.

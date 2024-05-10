@@ -22,4 +22,5 @@ details:
   IMDb: James Delisco Beeks | nm1950470
 Press:
 - "Ross, Jacqueline. 'Singer finds approval in the footlights.' | The Florida Times-Union, City ed., sec. Lifestyle, 13 Aug. 1999, pp. E-1.": /media/news/Singer_finds_approval_in_the_footlights__Florida_Times-Union_The_Jacksonville_FL___August_13_1999__pE-1.pdf
+date: 2023-09-08T00:00:00-04:00
 ---

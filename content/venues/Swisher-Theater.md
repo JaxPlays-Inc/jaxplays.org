@@ -17,6 +17,7 @@ Socials:
   Website: https://www.ju.edu/cfa
 Press:
 - "We made Jacksonville University’s Swisher Theatre shine again. - Haskell": https://web.archive.org/web/20230430200827/https://www.haskell.com/projects/swisher-theatre-renovations/
+date: 2023-09-08T00:00:00-04:00
 ---
 The Swisher Theater at Jacksonville University is a state-of-the-art performance venue located on the university's campus in Jacksonville, Florida. The theater features a proscenium stage and seating for up to 640 guests, with excellent sightlines and acoustics. The venue is used for a wide variety of events, including theatrical productions, concerts, dance performances, lectures, and more. With a large stage, advanced lighting and sound systems, and an orchestra pit, the Swisher Theater is well-equipped to host a diverse range of performances. The theater is named after philanthropist T. Edward "Ted" Swisher, who donated generously to the university and served as a trustee. 
 

@@ -16,6 +16,7 @@ show_details:
 - Theatre: Fulton Theatre, Broadway
 - Basis: 
 - Website: 
+date: 2023-09-08T00:00:00-04:00
 ---
 *Arsenic and Old Lace* is a classic comedic play that combines farce, dark humor, and a touch of murder mystery. Set in the 1940s, the story revolves around the eccentric Brewster family. Mortimer Brewster, a theater critic, discovers that his charming, elderly aunts, Abby and Martha, have a peculiar habit of poisoning lonely old men as an act of charity. To complicate matters, Mortimer's brother Teddy believes he is Theodore Roosevelt and graves in the basement are the Panama Canal.
 

@@ -17,5 +17,6 @@ Socials:
   Instagram: jaxperformingartscenter
   Website: https://www.jacksonvillecenterfortheperformingarts.com/
 Press:
+date: 2023-09-08T00:00:00-04:00
 ---
 The Moran Theater at the Jacksonville Center for the Performing Arts is a crown jewel in Jacksonville's cultural landscape. With its state-of-the-art acoustics and seating for over 3,000 guests, it's the go-to venue for an array of performances, from Broadway musicals and concerts to ballets and comedy shows. The theater provides an intimate experience without compromising on grandeur, making it a must-visit for any arts enthusiast.

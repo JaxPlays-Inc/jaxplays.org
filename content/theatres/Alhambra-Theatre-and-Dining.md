@@ -21,6 +21,7 @@ phone: 904-641-1212
 color: "#CF9F45"
 Press:
 - "Dinner and a Show: The History of Alhambra Theatre": https://web.archive.org/web/20230430215950/https://thecoastal.com/culture/history-alhambra-theatre-dining/amp/
+date: 2023-09-08T00:00:00-04:00
 ---
 The Alhambra Theatre & Dining is a dinner theater located in Jacksonville, Florida. Founders Ted Johnson and George Ballis recruited businessman Leon Simon as their primary investor. It was established in 1967 and has been providing live theater performances, accompanied by fine dining, to the local community for over five decades. The theater has a seating capacity of 408 and features a main stage, private lounge area, and a full-service kitchen.
 

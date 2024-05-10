@@ -17,6 +17,7 @@ Socials:
   Instagram: aurorastage
   LinkedIn: stage-aurora-theatrical-co
   Website: https://www.stageaurora.org
+date: 2023-09-08T00:00:00-04:00
 ---
 Founded in 2000 by Darryl Reuben Hall, Stage Aurora Theatrical Company serves as a cultural touchstone in Jacksonville's Northside and beyond. Specializing in plays that illuminate the Black experience, the company has produced over 200 critically acclaimed productions, including Pulitzer and Tony Award winners like *The Color Purple* and *Fences*.
 

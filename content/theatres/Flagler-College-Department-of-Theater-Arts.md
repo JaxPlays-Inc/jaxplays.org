@@ -17,5 +17,6 @@ Socials:
   Website: https://www.flagler.edu/academics/departments--programs/theatre-arts/
 Phone: 	
 color: "#DC143C"
+date: 2023-09-08T00:00:00-04:00
 ---
 The Flagler College Department of Theater Arts offers a robust curriculum aimed at honing students' creative and technical skills. With a focus on both classical and contemporary works, the department provides hands-on experience in acting, directing, and production. Faculty members are industry professionals committed to nurturing the next generation of theater artists. Located in historic St. Augustine, the department offers a unique blend of academic rigor and practical exposure, preparing students for a diverse range of careers in the performing arts.

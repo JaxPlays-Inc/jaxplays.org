@@ -17,5 +17,6 @@ Socials:
   Instagram: ameliacommunitytheatre
   Website: https://www.ameliacommunitytheatre.org
 Phone: 1-904-261-6749
+date: 2023-09-08T00:00:00-04:00
 ---
 Studio 209, part of the Amelia Community Theatre in Fernandina Beach, Florida, is a multifunctional performance space designed for intimate productions and community events. The venue focuses on experimental works, smaller-scale plays, and interactive workshops, providing a platform for both emerging and established artists.

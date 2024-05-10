@@ -1,6 +1,7 @@
 ---
 title: JaxPlays Profile Submission Form
 layout: "profile"
+date: 2023-09-08T00:00:00-04:00
 ---
 Ready to take center stage? Whether you're a seasoned professional or an emerging talent, JaxPlays offers you the perfect platform to showcase your skills and passion. By adding your headshot and biography to our People Directory, you gain visibility among theatre owners, directors and a vibrant community of theatre enthusiasts in Jacksonville.
 

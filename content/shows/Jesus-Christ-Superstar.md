@@ -11,6 +11,7 @@ show_details:
 - Premiere: 1971-10-12
 - Theatre: Mark Hellinger Theatre - wiki
 - Website: https://www.jesuschristsuperstar.com
+date: 2023-09-08T00:00:00-04:00
 ---
 *Jesus Christ Superstar* is a groundbreaking and iconic sung-through rock opera that debuted in the early 1970s, with music by Andrew Lloyd Webber and lyrics by Tim Rice. This audacious musical takes a unique approach to the story of Jesus Christ, focusing on the final week of his life and portraying it through a contemporary lens. The narrative pivots around the complex relationships between Jesus, Judas Iscariot, and Mary Magdalene, while also reflecting on the societal and political tensions of the time.
 

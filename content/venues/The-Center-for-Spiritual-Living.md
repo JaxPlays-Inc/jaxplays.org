@@ -15,4 +15,5 @@ Socials:
     Facebook: cslstaugustine
     Website: https://cslstaugustine.org/
 Phone: 1-904-825-3600
+date: 2023-09-08T00:00:00-04:00
 ---

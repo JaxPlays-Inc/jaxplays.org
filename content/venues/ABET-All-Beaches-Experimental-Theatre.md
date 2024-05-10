@@ -16,5 +16,6 @@ Socials:
     Twitter: ABETtheatre
     Instagram: 	abettheatre
 Phone: 	1-904-249-7177
+date: 2023-09-08T00:00:00-04:00
 ---
 544 Atlantic Blvd was the home venue of [ABET - All Beaches Experimental Theatre](/theatres/abet-all-beaches-experimental-theatre) from 2018 until June 2021 when the shopping center was renovated.

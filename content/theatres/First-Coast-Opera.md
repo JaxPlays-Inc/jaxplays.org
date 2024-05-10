@@ -16,6 +16,7 @@ Socials:
   Twitter: FirstCoastOpera
   Website: https://www.firstcoastopera.com/
 color: "#404060"
+date: 2023-09-08T00:00:00-04:00
 ---
 Founded in 2000, First Coast Opera has become the cornerstone of opera in North Florida, offering an eclectic array of performances for over two decades—from intimate dinner shows and galas to fully staged productions. The Saint Augustine-based company enjoys support from the Florida Department of Cultural Affairs, St. Johns County, and the National Endowment for the Arts, as well as countless individual contributors.
 

@@ -13,6 +13,7 @@ Socials:
   IBDB: 
   IMDb: nm7004545
   Website: 
+date: 2023-09-08T00:00:00-04:00
 ---
 Hailing from Overland Park, KS, Jas Ambramowitz moved to Jacksonville in 2015 after a stint in Chicago. Since relocating, Jas has appeared in various films, plays, and TV shows, including a recent role at Theatre Jacksonville in *Doubt*. 
 

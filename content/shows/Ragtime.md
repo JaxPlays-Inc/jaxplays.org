@@ -16,6 +16,7 @@ show_details:
 - Theatre: Ford Centre for the Performing Arts, Toronto
 - Basis: Ragtime (novel) - wiki
 - Website: 
+date: 2023-09-08T00:00:00-04:00
 ---
 *Ragtime* is a powerful and sweeping musical based on the novel of the same name by E.L. Doctorow, with a book by Terrence McNally. Set in the early 20th century, the story weaves together the lives of three distinct groups of characters: an upper-class white family, an African American couple, and a Jewish immigrant father and his daughter. Against the backdrop of historical events and social upheaval, including racial tensions and the struggle for women's rights, their lives become intertwined as they navigate the rapidly changing American landscape.
 

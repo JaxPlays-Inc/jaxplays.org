@@ -2,6 +2,7 @@
 title: "Support JaxPlays"
 layout: "support"
 Description: Support JaxPlays - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
+date: 2023-09-08T00:00:00-04:00
 ---
 Join us in our continuous celebration of the arts! As a nonprofit organization, JaxPlays relies on your generous donations to fulfill our mission. Your support for JaxPlays is vital in our mission to preserve, promote, and energize live theatre in Jacksonville and its surrounding areas.
 

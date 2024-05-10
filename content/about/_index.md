@@ -1,6 +1,7 @@
 ---
 title: About
 Description: Explore JaxPlays for the most detailed guide to live theatre in Northeast Florida and Southeast Georgia. Get up-to-date information on current productions, theaters, cast and crew, and much more. 
+date: 2023-09-08T00:00:00-04:00
 ---
 
 ## What is JaxPlays?

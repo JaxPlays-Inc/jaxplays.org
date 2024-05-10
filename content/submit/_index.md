@@ -1,6 +1,7 @@
 ---
 title: JaxPlays Submission Forms
 layout: "submit"
+date: 2023-09-08T00:00:00-04:00
 ---
 ## JaxPlays Profile Submission Form { class="f3 mt4 mb3 sectionline" }
 

@@ -17,6 +17,7 @@ Socials:
   LinkedIn: players-by-the-sea-theater
   Website: https://playersbythesea.org
 color: "#91508e"
+date: 2023-09-08T00:00:00-04:00
 ---
 Players by the Sea is a non-profit theater located in Jacksonville Beach, Florida. It was founded in 1966 and has been providing live theater performances to the local community for over five decades. The [John McManus Mainstage Theatre](/venues/john-mcmanus-mainstage-theatre) has a seating capacity of 150 and the [Grace Darling Studio Theatre](/venues/grace-darling-studio-theatre) seats 80. 
 
