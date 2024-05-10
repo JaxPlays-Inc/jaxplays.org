@@ -1,6 +1,6 @@
 ---
 title: Once Upon a Mattress
-date: 2003-06-13
+date: 2023-09-08T00:00:00
 opening_date: 2003-06-13
 closing_date: 2003-06-28
 layout: productions

@@ -2,7 +2,7 @@
 title: You're a Good Man, Charlie Brown
 redirect_from:
 - /productions/2004_You're_a_Good_Man_Charlie_Brown
-date: 2004-06-11
+date: 2023-09-08T00:00:00
 opening_date: 2004-06-11
 closing_date: 2004-06-26
 layout: productions

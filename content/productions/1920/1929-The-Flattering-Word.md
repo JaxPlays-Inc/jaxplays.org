@@ -1,6 +1,6 @@
 ---
 title: The Flattering Word
-date: 1929-01-22
+date: 2023-09-08T00:00:00
 opening_date: 1929-01-22
 closing_date:
 layout: productions

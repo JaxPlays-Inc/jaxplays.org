@@ -1,6 +1,6 @@
 ---
 title: Inherit the Wind
-date: 1963-04-18
+date: 2023-09-08T00:00:00
 opening_date: 1963-04-18
 closing_date: 1963-04-27
 layout: productions

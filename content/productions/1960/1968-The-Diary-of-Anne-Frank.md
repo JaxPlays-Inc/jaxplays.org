@@ -1,6 +1,6 @@
 ---
 title: The Diary of Anne Frank
-date: 1968-05-17
+date: 2023-09-08T00:00:00
 opening_date: 1968-05-17
 closing_date: 1968-06-01
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: Two Blind Mice
-date: 1950-02-24
+date: 2023-09-08T00:00:00
 opening_date: 1950-02-24
 closing_date: 1950-03-04
 layout: productions

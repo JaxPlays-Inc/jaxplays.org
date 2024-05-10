@@ -1,6 +1,6 @@
 ---
 title: Cabaret
-date: 1982-10-01
+date: 2023-09-08T00:00:00
 opening_date: 1982-10-01
 closing_date: 1982-10-16
 layout: productions

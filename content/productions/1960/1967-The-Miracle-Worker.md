@@ -1,6 +1,6 @@
 ---
 title: The Miracle Worker
-date: 1967-02-24
+date: 2023-09-08T00:00:00
 opening_date: 1967-02-24
 closing_date: 1967-03-04
 layout: productions

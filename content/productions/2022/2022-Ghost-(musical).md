@@ -3,7 +3,7 @@ layout: productions
 title: Ghost (musical)
 redirect_from:
 - /productions/2022_Ghost_(musical)
-date: 2022-09-29
+date: 2023-09-08T00:00:00
 opening_date: 2022-09-29
 closing_date: 2022-11-06
 category: musical

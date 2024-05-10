@@ -1,6 +1,6 @@
 ---
 title: Will O' the Wisp
-date: 1936-03-03
+date: 2023-09-08T00:00:00
 opening_date: 1936-03-03
 closing_date:
 layout: productions

@@ -2,7 +2,7 @@
 title: How To Succeed In Business Without Really Trying
 redirect_from:
 - /productions/1999_How_to_Succeed_in_Business_Without_Really_Trying
-date: 1999-06-11
+date: 2023-09-08T00:00:00
 opening_date: 1999-06-11
 closing_date: 1999-06-26
 layout: productions

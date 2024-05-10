@@ -2,7 +2,7 @@
 title: Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
 Theatre: The Island Theater
 Venue: The Island Theater
-date: 2023-08-11
+date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-08-20
 showtimes:

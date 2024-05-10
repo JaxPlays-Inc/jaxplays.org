@@ -1,6 +1,6 @@
 ---
 title: Blythe Spirit
-date: 1945-10-19
+date: 2023-09-08T00:00:00
 opening_date: 1945-10-19
 closing_date: 1945-10-26
 layout: productions

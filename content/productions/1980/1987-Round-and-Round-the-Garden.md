@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Round and Round the Garden
-date: 1987-12-31
+date: 2023-09-08T00:00:00
 opening_date: 1987-12-31
 approx_date: year
 featured_image:

@@ -1,6 +1,6 @@
 ---
 title: No Exit
-date: 2023-07-28
+date: 2023-09-08T00:00:00
 opening_date: 2023-07-28
 closing_date: 2023-08-12
 layout: productions

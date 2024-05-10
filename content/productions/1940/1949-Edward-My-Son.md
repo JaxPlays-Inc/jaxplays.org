@@ -1,6 +1,6 @@
 ---
 title: Edward, My Son
-date: 1949-11-25
+date: 2023-09-08T00:00:00
 opening_date: 1949-11-25
 closing_date: 1949-12-03
 layout: productions

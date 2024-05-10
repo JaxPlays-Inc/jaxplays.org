@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Short Attention Span Fest
-date: 2020-07-10
+date: 2023-09-08T00:00:00
 opening_date: 2020-07-10
 Genres: 
 - Play

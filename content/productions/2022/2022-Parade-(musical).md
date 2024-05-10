@@ -3,7 +3,7 @@ layout: productions
 title: Parade (musical)
 redirect_from:
 - /productions/2022_Parade_(musical)
-date: 2022-08-04
+date: 2023-09-08T00:00:00
 opening_date: 2022-08-04
 closing_date: 2022-09-04
 featured_image: 2022_Parade.jpeg

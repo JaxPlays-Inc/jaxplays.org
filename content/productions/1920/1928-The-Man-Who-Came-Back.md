@@ -1,6 +1,6 @@
 ---
 title: The Man Who Came Back
-date: 1928-12-04
+date: 2023-09-08T00:00:00
 opening_date: 1928-12-04
 closing_date: 1928-12-05
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: The Taming of the Shrew
-date: 1945-05-25
+date: 2023-09-08T00:00:00
 opening_date: 1945-05-25
 closing_date: 1945-06-02
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: Picnic
-date: 1956-11-28
+date: 2023-09-08T00:00:00
 opening_date: 1956-11-28
 closing_date: 1956-12-08
 layout: productions

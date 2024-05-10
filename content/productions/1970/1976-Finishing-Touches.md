@@ -1,6 +1,6 @@
 ---
 title: Finishing Touches
-date: 1976-11-26
+date: 2023-09-08T00:00:00
 opening_date: 1976-11-26
 closing_date: 1976-12-11
 layout: productions

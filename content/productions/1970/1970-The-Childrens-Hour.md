@@ -1,6 +1,6 @@
 ---
 title: The Children's Hour
-date: 1970-01-09
+date: 2023-09-08T00:00:00
 opening_date: 1970-01-09
 closing_date: 1970-01-17
 layout: productions

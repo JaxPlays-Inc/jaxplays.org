@@ -1,6 +1,6 @@
 ---
 title: Wake Up, Darling
-date: 1977-05-06
+date: 2023-09-08T00:00:00
 opening_date: 1977-05-06
 closing_date: 1977-05-21
 layout: productions

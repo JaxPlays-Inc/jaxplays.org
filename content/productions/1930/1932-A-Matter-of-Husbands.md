@@ -1,6 +1,6 @@
 ---
 title: A Matter of Husbands
-date: 1932-02-09
+date: 2023-09-08T00:00:00
 opening_date: 1932-02-09
 closing_date:
 layout: productions

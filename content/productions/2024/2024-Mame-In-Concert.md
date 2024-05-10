@@ -2,7 +2,7 @@
 title: Mame In Concert
 Theatre: Theatre Jacksonville
 Venue: Florida Theatre
-date: 2024-08-24
+date: 2024-05-10T17:42:58
 opening_date: 2024-08-24
 closing_date: 2024-08-25
 showtimes:

@@ -1,6 +1,6 @@
 ---
 title: It's Only a Play
-date: 1990-11-09
+date: 2023-09-08T00:00:00
 opening_date: 1990-11-09
 closing_date: 1990-11-24
 layout: productions

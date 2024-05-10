@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: A Number
-date: 2020-09-11
+date: 2023-09-08T00:00:00
 opening_date: 2020-09-11
 closing_date: 2020-09-13
 Genres: 

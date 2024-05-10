@@ -1,6 +1,6 @@
 ---
 title: Arsenic and Old Lace
-date: 1942-10-01
+date: 2023-09-08T00:00:00
 opening_date: 1942-10-01
 approx_date: month
 closing_date:

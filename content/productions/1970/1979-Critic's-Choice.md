@@ -1,6 +1,6 @@
 ---
 title: Critic's Choice
-date: 1979-11-23
+date: 2023-09-08T00:00:00
 opening_date: 1979-11-23
 closing_date: 1979-12-08
 layout: productions

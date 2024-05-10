@@ -1,6 +1,6 @@
 ---
 title: Cricket on the Hearth
-date: 1927-12-23
+date: 2023-09-08T00:00:00
 opening_date: 1927-12-23
 closing_date:
 layout: productions

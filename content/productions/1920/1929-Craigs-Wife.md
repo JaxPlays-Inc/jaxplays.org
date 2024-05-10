@@ -1,6 +1,6 @@
 ---
 title: Craig's Wife
-date: 1929-03-13
+date: 2023-09-08T00:00:00
 opening_date: 1929-03-13
 closing_date: 1929-03-14
 layout: productions

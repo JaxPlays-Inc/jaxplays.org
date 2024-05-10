@@ -1,6 +1,6 @@
 ---
 title: Boy Meets Girl
-date: 1977-03-18
+date: 2023-09-08T00:00:00
 opening_date: 1977-03-18
 closing_date: 1977-04-02
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: Strictly Dishonorable
-date: 1948-01-16
+date: 2023-09-08T00:00:00
 opening_date: 1948-01-16
 closing_date: 1948-01-23
 layout: productions

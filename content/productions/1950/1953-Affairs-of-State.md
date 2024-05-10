@@ -1,6 +1,6 @@
 ---
 title: Affairs of State
-date: 1953-09-30
+date: 2023-09-08T00:00:00
 opening_date: 1953-09-30
 closing_date: 1953-10-10
 layout: productions

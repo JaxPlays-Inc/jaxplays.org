@@ -3,7 +3,7 @@ layout: productions
 redirect_from:
 - /productions/2019_One_By_Tenn_Plus_Eight
 title: One by Tenn Plus Eight
-date: 2019-06-28
+date: 2023-09-08T00:00:00
 opening_date: 2019-06-28
 closing_date: 2019-07-07
 featured_image: 2019_OneBy_Tenn_Plus_Eight.webp

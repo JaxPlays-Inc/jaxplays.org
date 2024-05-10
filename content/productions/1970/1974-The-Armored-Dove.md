@@ -1,6 +1,6 @@
 ---
 title: The Armored Dove
-date: 1974-11-29
+date: 2023-09-08T00:00:00
 opening_date: 1974-11-29
 closing_date: 1974-12-14
 layout: productions

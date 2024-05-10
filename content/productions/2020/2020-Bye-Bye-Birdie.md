@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Bye Bye Birdie
-date: 2020-02-27
+date: 2023-09-08T00:00:00
 opening_date: 2020-02-27
 closing_date: 2020-03-07
 featured_image: 2020_Bye_Bye_Birdie.webp

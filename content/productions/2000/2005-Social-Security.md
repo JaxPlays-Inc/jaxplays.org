@@ -2,7 +2,7 @@
 title: Social Security
 Theatre: ABET - Atlantic Beach Experimental Theatre
 Venue: Adele Grage Cultural Center
-date: 2005-01-07
+date: 2023-09-08T00:00:00
 opening_date: 2005-01-07
 closing_date: 2005-01-22
 showtimes:

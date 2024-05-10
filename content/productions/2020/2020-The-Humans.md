@@ -3,7 +3,7 @@ layout: productions
 title: The Humans
 redirect_from:
 - /productions/2020_The_Humans
-date: 2020-01-31
+date: 2023-09-08T00:00:00
 opening_date: 2020-01-31
 closing_date: 2020-02-15
 Genres: 

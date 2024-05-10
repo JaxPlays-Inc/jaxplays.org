@@ -1,6 +1,6 @@
 ---
 title: First Lady
-date: 1939-02-07
+date: 2023-09-08T00:00:00
 opening_date: 1939-02-07
 closing_date: 1939-02-10
 layout: productions

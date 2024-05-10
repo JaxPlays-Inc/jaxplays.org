@@ -1,6 +1,6 @@
 ---
 title: The Man Who Came To Dinner
-date: 1973-11-30
+date: 2023-09-08T00:00:00
 opening_date: 1973-11-30
 closing_date: 1973-12-15
 layout: productions

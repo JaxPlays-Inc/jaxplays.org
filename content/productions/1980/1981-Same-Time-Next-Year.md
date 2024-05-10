@@ -1,6 +1,6 @@
 ---
 title: Same Time, Next Year
-date: 1981-06-18
+date: 2023-09-08T00:00:00
 opening_date: 1981-06-18
 closing_date: 1981-06-27
 layout: productions

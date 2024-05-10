@@ -1,6 +1,6 @@
 ---
 title: Trilby
-date: 1928-10-18
+date: 2023-09-08T00:00:00
 opening_date: 1928-10-18
 closing_date:
 layout: productions

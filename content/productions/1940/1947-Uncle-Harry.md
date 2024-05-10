@@ -1,6 +1,6 @@
 ---
 title: Uncle Harry
-date: 1947-02-28
+date: 2023-09-08T00:00:00
 opening_date: 1947-02-28
 closing_date: 1947-03-07
 layout: productions

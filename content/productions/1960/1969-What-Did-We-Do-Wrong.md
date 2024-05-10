@@ -1,6 +1,6 @@
 ---
 title: What Did We Do Wrong
-date: 1969-09-26
+date: 2023-09-08T00:00:00
 opening_date: 1969-09-26
 closing_date: 1969-10-04
 layout: productions

@@ -2,7 +2,7 @@
 title: Southern Fried Nuptials
 Theatre: St. Marys Little Theatre
 Venue: Theatre by the Trax
-date: 2024-05-17
+date: 2024-05-10T17:42:58
 opening_date: 2024-05-17
 closing_date: 2024-05-26
 showtimes:

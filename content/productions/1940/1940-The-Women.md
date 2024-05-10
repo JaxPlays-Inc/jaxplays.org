@@ -1,6 +1,6 @@
 ---
 title: The Women
-date: 1940-02-13
+date: 2023-09-08T00:00:00
 opening_date: 1940-02-13
 closing_date: 1940-02-16
 layout: productions

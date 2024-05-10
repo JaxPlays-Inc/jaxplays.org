@@ -1,6 +1,6 @@
 ---
 title: John Brown's Body
-date: 1979-01-26
+date: 2023-09-08T00:00:00
 opening_date: 1979-01-26
 closing_date: 1979-02-10
 layout: productions

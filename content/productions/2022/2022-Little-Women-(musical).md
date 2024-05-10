@@ -3,7 +3,7 @@ layout: productions
 title: Little Women (musical)
 redirect_from:
 - /productions/2022_Little_Women_(musical)
-date: 2022-05-12
+date: 2023-09-08T00:00:00
 opening_date: 2022-05-12
 closing_date: 2022-05-29
 featured_image: 2020_Little_Women.jpeg

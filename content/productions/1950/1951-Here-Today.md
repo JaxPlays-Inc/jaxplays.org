@@ -1,6 +1,6 @@
 ---
 title: Here Today
-date: 1951-10-05
+date: 2023-09-08T00:00:00
 opening_date: 1951-10-05
 closing_date: 1951-10-13
 layout: productions

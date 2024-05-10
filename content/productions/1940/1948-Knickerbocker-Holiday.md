@@ -1,6 +1,6 @@
 ---
 title: Knickerbocker Holiday
-date: 1948-05-01
+date: 2023-09-08T00:00:00
 opening_date: 1948-05-01
 approx_date: month
 closing_date:

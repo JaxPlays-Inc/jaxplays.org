@@ -1,6 +1,6 @@
 ---
 title: Twelfth Night
-date: 2002-08-23
+date: 2023-09-08T00:00:00
 opening_date: 2002-08-23
 closing_date: 2002-09-21
 layout: productions

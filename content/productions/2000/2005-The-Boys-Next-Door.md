@@ -1,6 +1,6 @@
 ---
 title: The Boys Next Door
-date: 2005-04-22
+date: 2023-09-08T00:00:00
 opening_date: 2005-04-22
 closing_date: 2005-05-07
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: The Glass Menagerie
-date: 1966-01-07
+date: 2023-09-08T00:00:00
 opening_date: 1966-01-07
 closing_date: 1966-01-18
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: All My Sons
-date: 2004-11-02
+date: 2023-09-08T00:00:00
 opening_date: 2004-11-02
 closing_date: 2004-11-20
 layout: productions

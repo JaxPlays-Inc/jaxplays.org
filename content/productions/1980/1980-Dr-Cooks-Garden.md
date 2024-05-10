@@ -1,6 +1,6 @@
 ---
 title: Dr. Cook's Garden
-date: 1980-11-21
+date: 2023-09-08T00:00:00
 opening_date: 1980-11-21
 closing_date: 1980-12-06
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: The Piano Lesson
-date: 1997-03-07
+date: 2023-09-08T00:00:00
 opening_date: 1997-03-07
 closing_date: 1997-03-23
 layout: productions

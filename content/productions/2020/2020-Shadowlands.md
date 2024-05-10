@@ -3,7 +3,7 @@ layout: productions
 title: Shadowlands
 redirect_from:
 - /productions/2020_Shadowlands
-date: 2020-01-10
+date: 2023-09-08T00:00:00
 opening_date: 2020-01-10
 closing_date: 2020-01-26
 Theatre: Theatre Jacksonville

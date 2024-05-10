@@ -1,6 +1,6 @@
 ---
 title: The Three Gifts
-date: 1924-04-28
+date: 2023-09-08T00:00:00
 opening_date: 1924-04-28
 closing_date:
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: The Warrior's Husband
-date: 1934-12-04
+date: 2023-09-08T00:00:00
 opening_date: 1934-12-04
 closing_date:
 layout: productions

@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: One Man, Two Guvnors
-date: 2022-08-12
+date: 2023-09-08T00:00:00
 opening_date: 2022-08-12
 closing_date: 2022-08-27
 featured_image: 2022_One_Man_Two_Guvnors.webp

@@ -1,6 +1,6 @@
 ---
 title: A Patch of Earth
-date: 2016-04-07
+date: 2023-09-08T00:00:00
 opening_date: 2016-04-07
 closing_date: 2016-04-10
 featured_image: 2016-A-Patch-of-Earth.webp

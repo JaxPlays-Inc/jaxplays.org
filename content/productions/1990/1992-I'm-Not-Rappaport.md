@@ -1,6 +1,6 @@
 ---
 title: I'm Not Rappaport
-date: 1992-02-21
+date: 2023-09-08T00:00:00
 opening_date: 1992-02-21
 closing_date: 1992-02-29
 layout: productions

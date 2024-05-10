@@ -1,6 +1,6 @@
 ---
 title: The Second Time Around
-date: 1981-05-01
+date: 2023-09-08T00:00:00
 opening_date: 1981-05-01
 closing_date: 1981-05-16
 layout: productions

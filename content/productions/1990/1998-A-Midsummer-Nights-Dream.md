@@ -1,6 +1,6 @@
 ---
 title: A Midsummer Night's Dream
-date: 1998-09-18
+date: 2023-09-08T00:00:00
 opening_date: 1998-09-18
 closing_date: 1998-09-27
 layout: productions

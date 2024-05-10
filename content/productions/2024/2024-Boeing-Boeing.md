@@ -2,7 +2,7 @@
 title: Boeing Boeing
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-date: 2024-05-23
+date: 2024-05-10T17:42:58
 opening_date: 2024-05-23
 closing_date: 2024-06-16
 showtimes:

@@ -1,6 +1,6 @@
 ---
 title: South Pacific
-date: 1965-01-01
+date: 2023-09-08T00:00:00
 opening_date: 1965-01-01
 closing_date: 1965-12-31
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: The Red Mill
-date: 1972-03-10
+date: 2023-09-08T00:00:00
 opening_date: 1972-03-10
 closing_date: 1972-03-25
 layout: productions

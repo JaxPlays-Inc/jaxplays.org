@@ -1,6 +1,6 @@
 ---
 title: Little Mary Sunshine
-date: 1962-11-22
+date: 2023-09-08T00:00:00
 opening_date: 1962-11-22
 closing_date: 1962-12-01
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: Private Lives
-date: 1946-03-15
+date: 2023-09-08T00:00:00
 opening_date: 1946-03-15
 closing_date: 1946-03-16
 layout: productions

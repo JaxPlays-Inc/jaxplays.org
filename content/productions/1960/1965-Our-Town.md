@@ -1,6 +1,6 @@
 ---
 title: Our Town
-date: 1965-02-19
+date: 2023-09-08T00:00:00
 opening_date: 1965-02-19
 closing_date: 1965-02-27
 layout: productions

@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Kinky Boots
-date: 2022-07-15
+date: 2023-09-08T00:00:00
 opening_date: 2022-07-15
 closing_date: 2022-08-07
 featured_image: 2022_Kinky_Boots.jpeg

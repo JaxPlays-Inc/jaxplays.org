@@ -4,7 +4,7 @@ layout: productions
 title: The Piano Lesson
 redirect_from:
 - /productions/2022_The_Piano_Lesson
-date: 2022-06-03
+date: 2023-09-08T00:00:00
 opening_date: 2022-06-03
 closing_date: 2022-06-19
 Theatre: Players by the Sea

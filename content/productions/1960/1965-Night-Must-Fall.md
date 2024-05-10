@@ -1,6 +1,6 @@
 ---
 title: Night Must Fall
-date: 1965-01-08
+date: 2023-09-08T00:00:00
 opening_date: 1965-01-08
 closing_date: 1965-01-16
 layout: productions

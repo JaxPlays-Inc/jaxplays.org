@@ -1,6 +1,6 @@
 ---
 title: The Voice of the Turtle
-date: 1957-11-13
+date: 2023-09-08T00:00:00
 opening_date: 1957-11-13
 closing_date: 1957-11-23
 layout: productions

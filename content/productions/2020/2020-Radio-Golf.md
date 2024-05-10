@@ -3,7 +3,7 @@ layout: productions
 title: Radio Golf
 redirect_from:
 - /productions/2020_Radio_Golf
-date: 2020-01-31
+date: 2023-09-08T00:00:00
 opening_date: 2020-01-31
 closing_date: 2020-02-16
 showtimes:

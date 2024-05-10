@@ -1,6 +1,6 @@
 ---
 title: A Bell for Adano
-date: 1945-11-30
+date: 2023-09-08T00:00:00
 opening_date: 1945-11-30
 closing_date: 1945-12-07
 layout: productions

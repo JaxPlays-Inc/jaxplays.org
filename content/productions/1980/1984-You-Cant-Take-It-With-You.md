@@ -1,6 +1,6 @@
 ---
 title: You Can't Take It With You
-date: 1984-11-23
+date: 2023-09-08T00:00:00
 opening_date: 1984-11-23
 closing_date: 1984-12-08
 layout: productions

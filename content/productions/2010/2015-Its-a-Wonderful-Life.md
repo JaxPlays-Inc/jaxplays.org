@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: It's a Wonderful Life
-date: 2015-12-24
+date: 2023-09-08T00:00:00
 opening_date: 2015-12-24
 closing_date: 2015-12-24
 redirect_from: 2015_It's_a_Wonderful_Life

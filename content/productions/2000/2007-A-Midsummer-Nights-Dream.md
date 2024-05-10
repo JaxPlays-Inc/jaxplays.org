@@ -1,6 +1,6 @@
 ---
 title: A Midsummer Night's Dream
-date: 2007-09-14
+date: 2023-09-08T00:00:00
 opening_date: 2007-09-14
 closing_date: 2007-10-06
 layout: productions

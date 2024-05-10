@@ -3,7 +3,7 @@ layout: productions
 title: Love Letters
 redirect_from:
 - /productions/2020_Love_Letters
-date: 2020-01-09
+date: 2023-09-08T00:00:00
 opening_date: 2020-01-09
 closing_date: 2020-02-08
 Genres: 

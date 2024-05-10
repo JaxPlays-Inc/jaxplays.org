@@ -1,6 +1,6 @@
 ---
 title: The Savannah Sipping Society
-date: 2023-05-05
+date: 2023-09-08T00:00:00
 opening_date: 2023-05-05
 closing_date: 2023-05-14
 layout: productions

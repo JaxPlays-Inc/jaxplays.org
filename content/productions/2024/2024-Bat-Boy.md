@@ -2,7 +2,7 @@
 title: Bat Boy
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
-date: 2024-08-09
+date: 2024-05-10T17:42:58
 opening_date: 2024-08-09
 closing_date: 2024-08-25
 showtimes:

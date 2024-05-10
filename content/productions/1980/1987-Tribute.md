@@ -1,6 +1,6 @@
 ---
 title: Tribute
-date: 1987-01-23
+date: 2023-09-08T00:00:00
 opening_date: 1987-01-23
 closing_date: 1987-02-07
 layout: productions

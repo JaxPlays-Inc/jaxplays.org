@@ -1,6 +1,6 @@
 ---
 title: Picasso at the Lapin Agile
-date: 2007-10-24
+date: 2023-09-08T00:00:00
 opening_date: 2007-10-24
 closing_date: 2007-10-24
 featured_image: 2023-Picasso-at-the-Lapin-Agile.webp

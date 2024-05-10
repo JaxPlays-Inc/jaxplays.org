@@ -3,7 +3,7 @@ layout: productions
 redirect_from:
 - /productions/1991_Godspell
 title: Godspell
-date: 1991-12-31
+date: 2023-09-08T00:00:00
 opening_date: 1991-12-31
 approx_date: year
 featured_image:

@@ -2,7 +2,7 @@
 title: Broadway Bash
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: John McManus Mainstage Theatre
-date: 2024-09-13
+date: 2024-05-10T17:42:58
 opening_date: 2024-09-13
 closing_date: 2024-09-29
 showtimes:

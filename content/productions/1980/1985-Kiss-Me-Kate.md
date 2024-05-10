@@ -1,6 +1,6 @@
 ---
 title: Kiss Me Kate
-date: 1985-10-11
+date: 2023-09-08T00:00:00
 opening_date: 1985-10-11
 closing_date: 1985-10-26
 layout: productions

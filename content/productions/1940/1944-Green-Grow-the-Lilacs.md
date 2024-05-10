@@ -1,6 +1,6 @@
 ---
 title: Green Grow the Lilacs
-date: 1944-12-01
+date: 2023-09-08T00:00:00
 opening_date: 1944-12-01
 closing_date: 1944-12-10
 layout: productions

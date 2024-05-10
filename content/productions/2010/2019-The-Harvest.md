@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: The Harvest
-date: 2019-11-08
+date: 2023-09-08T00:00:00
 opening_date: 2019-11-08
 closing_date: 2019-11-24
 featured_image: 2019_The_Harvest.webp

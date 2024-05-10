@@ -1,6 +1,6 @@
 ---
 title: My Three Angels
-date: 1954-06-02
+date: 2023-09-08T00:00:00
 opening_date: 1954-06-02
 closing_date: 1954-06-12
 layout: productions

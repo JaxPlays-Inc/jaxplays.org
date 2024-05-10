@@ -1,6 +1,6 @@
 ---
 title: She Couldn't Say No
-date: 1933-11-28
+date: 2023-09-08T00:00:00
 opening_date: 1933-11-28
 closing_date:
 layout: productions

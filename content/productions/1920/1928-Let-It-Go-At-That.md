@@ -1,6 +1,6 @@
 ---
 title: Let It Go At That!
-date: 1928-12-19
+date: 2023-09-08T00:00:00
 opening_date: 1928-12-19
 closing_date:
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: Bury the Dead
-date: 1938-03-01
+date: 2023-09-08T00:00:00
 opening_date: 1938-03-01
 closing_date: 1938-03-03
 layout: productions

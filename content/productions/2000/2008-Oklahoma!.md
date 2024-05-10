@@ -1,6 +1,6 @@
 ---
 title: Oklahoma!
-date: 2008-04-04
+date: 2023-09-08T00:00:00
 opening_date: 2008-04-04
 closing_date: 2008-04-12
 featured_image: 2008-Oklahoma!.webp

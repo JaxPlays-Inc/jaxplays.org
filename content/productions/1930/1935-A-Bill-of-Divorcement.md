@@ -1,6 +1,6 @@
 ---
 title: A Bill of Divorcement
-date: 1935-05-28
+date: 2023-09-08T00:00:00
 opening_date: 1935-05-28
 closing_date:
 layout: productions

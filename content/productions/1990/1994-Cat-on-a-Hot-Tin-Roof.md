@@ -1,6 +1,6 @@
 ---
 title: Cat on a Hot Tin Roof
-date: 1994-12-31
+date: 2023-09-08T00:00:00
 opening_date: 1994-12-31
 approx_date: year
 closing_date:

@@ -1,6 +1,6 @@
 ---
 title: Come Blow Your Horn
-date: 1963-05-30
+date: 2023-09-08T00:00:00
 opening_date: 1963-05-30
 closing_date: 1963-06-08
 layout: productions

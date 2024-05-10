@@ -1,6 +1,6 @@
 ---
 title: Choir Boy
-date: 2023-05-12
+date: 2023-09-08T00:00:00
 opening_date: 2023-05-12
 closing_date: 2023-06-04
 layout: productions

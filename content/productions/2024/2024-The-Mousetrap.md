@@ -2,7 +2,7 @@
 title: The Mousetrap
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
-date: 2024-08-09
+date: 2024-05-10T17:42:58
 opening_date: 2024-08-09
 closing_date: 2024-08-24
 showtimes:

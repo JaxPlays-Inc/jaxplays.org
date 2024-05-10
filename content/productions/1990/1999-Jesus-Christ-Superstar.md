@@ -1,7 +1,7 @@
 ---
 title: Jesus Christ Superstar
 redirect_from: /1999_Jesus_Christ_Superstar
-date: 1999-08-19
+date: 2023-09-08T00:00:00
 opening_date: 1999-08-19
 layout: productions
 featured_image: 1999_Jesus_Christ_Superstar.jpg

@@ -1,6 +1,6 @@
 ---
 title: Three-Cornered Moon
-date: 1935-04-16
+date: 2023-09-08T00:00:00
 opening_date: 1935-04-16
 closing_date:
 layout: productions

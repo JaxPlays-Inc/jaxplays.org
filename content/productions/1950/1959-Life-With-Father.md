@@ -1,6 +1,6 @@
 ---
 title: Life With Father
-date: 1959-05-27
+date: 2023-09-08T00:00:00
 opening_date: 1959-05-27
 closing_date: 1959-06-06
 layout: productions

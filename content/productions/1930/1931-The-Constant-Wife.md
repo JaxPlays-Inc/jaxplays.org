@@ -1,6 +1,6 @@
 ---
 title: The Constant Wife
-date: 1931-12-15
+date: 2023-09-08T00:00:00
 opening_date: 1931-12-15
 closing_date:
 layout: productions

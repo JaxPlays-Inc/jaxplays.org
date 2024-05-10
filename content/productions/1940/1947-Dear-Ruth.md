@@ -1,6 +1,6 @@
 ---
 title: Dear Ruth
-date: 1947-10-17
+date: 2023-09-08T00:00:00
 opening_date: 1947-10-17
 closing_date: 1947-10-24
 layout: productions

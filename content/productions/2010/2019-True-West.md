@@ -1,6 +1,6 @@
 ---
 title: True West
-date: 2019-03-15
+date: 2023-09-08T00:00:00
 opening_date: 2019-03-15
 closing_date: 2019-03-31
 featured_image: 2019-True-West.webp

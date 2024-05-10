@@ -1,6 +1,6 @@
 ---
 title: The Last of Mrs. Cheyney
-date: 1924-12-31
+date: 2023-09-08T00:00:00
 opening_date: 1924-12-31
 approx_date: year
 closing_date:

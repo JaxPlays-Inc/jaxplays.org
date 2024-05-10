@@ -1,6 +1,6 @@
 ---
 title: Susan and God
-date: 1939-10-24
+date: 2023-09-08T00:00:00
 opening_date: 1939-10-24
 closing_date: 1939-10-27
 layout: productions

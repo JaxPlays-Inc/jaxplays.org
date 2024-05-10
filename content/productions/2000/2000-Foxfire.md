@@ -1,6 +1,6 @@
 ---
 title: Foxfire
-date: 2000-03-10
+date: 2023-09-08T00:00:00
 opening_date: 2000-03-10
 closing_date: 2000-03-25
 layout: productions

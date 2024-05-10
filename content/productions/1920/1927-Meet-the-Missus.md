@@ -1,6 +1,6 @@
 ---
 title: Meet the Missus
-date: 1927-01-18
+date: 2023-09-08T00:00:00
 opening_date: 1927-01-18
 closing_date: 1927-01-19
 layout: productions

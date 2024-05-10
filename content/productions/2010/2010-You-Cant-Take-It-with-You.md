@@ -2,7 +2,7 @@
 title: You Can't Take It with You
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
-date: 2010-03-26
+date: 2023-09-08T00:00:00
 opening_date: 2010-03-26
 closing_date: 2010-04-17
 showtimes:

@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Love, Sex and the I.R.S.
-date: 2020-09-24
+date: 2023-09-08T00:00:00
 opening_date: 2020-09-24
 closing_date: 2020-10-18
 Theatre: Alhambra Theatre & Dining

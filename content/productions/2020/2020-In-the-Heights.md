@@ -3,7 +3,7 @@ layout: productions
 title: In the Heights
 redirect_from:
 - /productions/2020_In_the_Heights
-date: 2020-01-17
+date: 2023-09-08T00:00:00
 closing_date: 2020-01-25
 featured_image: 2020_In_the_Heights.jpg
 featured_image_attr:

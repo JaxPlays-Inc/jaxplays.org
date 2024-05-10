@@ -1,6 +1,6 @@
 ---
 title: I Remember Mama
-date: 1946-05-24
+date: 2023-09-08T00:00:00
 opening_date: 1946-05-24
 closing_date: 1946-05-31
 layout: productions

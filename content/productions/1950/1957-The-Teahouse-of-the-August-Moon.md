@@ -1,6 +1,6 @@
 ---
 title: The Teahouse of the August Moon
-date: 1957-09-25
+date: 2023-09-08T00:00:00
 opening_date: 1957-09-25
 closing_date: 1957-10-05
 layout: productions

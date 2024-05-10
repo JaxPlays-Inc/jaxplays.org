@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Romeo & Juliet
-date: 2020-02-20
+date: 2023-09-08T00:00:00
 opening_date: 2020-02-20
 closing_date: 2020-02-23
 featured_image: 2020_Romeo+Juliet.jpeg

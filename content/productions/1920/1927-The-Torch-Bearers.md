@@ -1,6 +1,6 @@
 ---
 title: The Torch Bearers
-date: 1927-04-19
+date: 2023-09-08T00:00:00
 opening_date: 1927-04-19
 closing_date:
 layout: productions

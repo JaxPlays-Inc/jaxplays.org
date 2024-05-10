@@ -1,6 +1,6 @@
 ---
 title: Honor Bright
-date: 1938-02-01
+date: 2023-09-08T00:00:00
 opening_date: 1938-02-01
 closing_date: 1938-02-03
 layout: productions

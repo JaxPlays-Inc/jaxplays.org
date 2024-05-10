@@ -1,6 +1,6 @@
 ---
 title: Seven Chances
-date: 1930-03-11
+date: 2023-09-08T00:00:00
 opening_date: 1930-03-11
 closing_date:
 layout: productions

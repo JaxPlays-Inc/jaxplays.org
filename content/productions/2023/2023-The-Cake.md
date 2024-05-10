@@ -1,6 +1,6 @@
 ---
 title: The Cake
-date: 2023-03-17
+date: 2023-09-08T00:00:00
 opening_date: 2023-03-17
 closing_date: 2023-03-26
 featured_image: 2023-The-Cake.webp

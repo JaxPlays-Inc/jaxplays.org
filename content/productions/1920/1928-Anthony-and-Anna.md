@@ -1,6 +1,6 @@
 ---
 title: Anthony and Anna
-date: 1928-11-20
+date: 2023-09-08T00:00:00
 opening_date: 1928-11-20
 closing_date:
 layout: productions

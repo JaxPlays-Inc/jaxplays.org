@@ -1,6 +1,6 @@
 ---
 title: The Ship
-date: 1925-12-15
+date: 2023-09-08T00:00:00
 opening_date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions

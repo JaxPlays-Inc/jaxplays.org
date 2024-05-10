@@ -1,6 +1,6 @@
 ---
 title: Boy Meets Girl
-date: 1938-01-18
+date: 2023-09-08T00:00:00
 opening_date: 1938-01-18
 closing_date: 1938-01-20
 layout: productions

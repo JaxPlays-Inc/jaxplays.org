@@ -1,6 +1,6 @@
 ---
 title: Season In the Sun
-date: 1953-02-25
+date: 2023-09-08T00:00:00
 opening_date: 1953-02-25
 closing_date: 1953-03-07
 layout: productions

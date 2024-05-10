@@ -2,7 +2,7 @@
 title: Hunger
 Theatre: The Hunger Onstage Project
 Venue: Hicks Auditorium at the Main Library
-date: 2024-05-23
+date: 2024-05-10T17:42:58
 opening_date: 2024-05-23
 closing_date: 2024-05-23
 showtimes:

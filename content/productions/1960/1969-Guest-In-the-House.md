@@ -1,6 +1,6 @@
 ---
 title: Guest In the House
-date: 1969-05-23
+date: 2023-09-08T00:00:00
 opening_date: 1969-05-23
 closing_date: 1969-05-31
 layout: productions

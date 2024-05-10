@@ -4,7 +4,7 @@ title: Ragtime
 cancelled: COVID-19
 redirect_from:
 - /productions/2022_Ragtime_(musical)
-date: 2022-06-10
+date: 2023-09-08T00:00:00
 opening_date: 2022-06-10
 closing_date: 2022-06-26
 featured_image: 2022_Ragtime.webp

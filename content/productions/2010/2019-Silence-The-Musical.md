@@ -3,7 +3,7 @@ layout: productions
 title: Silence! The Musical
 redirect_from:
 - /productions/2019_Silence_The_Musical
-date: 2019-09-20
+date: 2023-09-08T00:00:00
 opening_date: 2019-09-20
 closing_date: 2019-10-05
 featured_image: 2019_Silence_The_Musical.webp

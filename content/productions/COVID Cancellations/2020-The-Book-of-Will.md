@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: The Book of Will
-date: 2020-03-27
+date: 2023-09-08T00:00:00
 opening_date: 2020-03-27
 closing_date: 2020-04-10
 Theatre: Amelia Community Theatre

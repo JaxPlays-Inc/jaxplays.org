@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: Singin' in the Rain
-date: 2020
+date: 2023-09-08T00:00:00
 opening_date: 2020
 category: musical
 Theatre: Alhambra Theatre & Dining

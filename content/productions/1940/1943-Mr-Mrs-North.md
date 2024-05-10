@@ -1,6 +1,6 @@
 ---
 title: Mr. and Mrs. North
-date: 1943-04-01
+date: 2023-09-08T00:00:00
 opening_date: 1943-04-01
 approx_date: month
 closing_date:

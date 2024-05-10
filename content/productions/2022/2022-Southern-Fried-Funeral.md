@@ -3,7 +3,7 @@ layout: productions
 title: Southern Fried Funeral
 redirect_from:
 - /productions/2022_Southern_Fried_Funeral
-date: 2022-05-13
+date: 2023-09-08T00:00:00
 opening_date: 2022-05-13
 closing_date: 2022-05-22
 featured_image: 2022_Southern_Fried_Funeral.jpeg

@@ -1,6 +1,6 @@
 ---
 title: Arsenic and Old Lace
-date: 2018-09-14
+date: 2023-09-08T00:00:00
 opening_date: 2018-09-14
 closing_date: 2018-09-30
 layout: productions

@@ -1,6 +1,6 @@
 ---
 title: Hands on a Hard Body
-date: 2023-08-11
+date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-09-03
 layout: productions

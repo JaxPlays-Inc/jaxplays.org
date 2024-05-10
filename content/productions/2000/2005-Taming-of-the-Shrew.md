@@ -1,6 +1,6 @@
 ---
 title: Taming of the Shrew
-date: 2005-09-04
+date: 2023-09-08T00:00:00
 opening_date: 2005-09-04
 closing_date: 2005-10-08
 layout: productions

@@ -3,7 +3,7 @@ layout: productions
 title: Company
 redirect_from:
 - /productions/2020_Company
-date: 2020-02-07
+date: 2023-09-08T00:00:00
 opening_date: 2020-02-07
 closing_date: 2020-02-23
 category: musical

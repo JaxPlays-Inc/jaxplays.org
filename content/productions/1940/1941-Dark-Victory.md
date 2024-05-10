@@ -1,6 +1,6 @@
 ---
 title: Dark Victory
-date: 1941-01-21
+date: 2023-09-08T00:00:00
 opening_date: 1941-01-21
 closing_date: 1941-01-24
 layout: productions

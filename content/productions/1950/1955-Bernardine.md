@@ -1,6 +1,6 @@
 ---
 title: Bernardine
-date: 1955-03-09
+date: 2023-09-08T00:00:00
 opening_date: 1955-03-09
 closing_date: 1955-03-19
 layout: productions

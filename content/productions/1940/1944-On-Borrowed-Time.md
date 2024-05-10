@@ -1,6 +1,6 @@
 ---
 title: On Borrowed Time
-date: 1944-02-01
+date: 2023-09-08T00:00:00
 opening_date: 1944-02-01
 approx_date: month
 closing_date:

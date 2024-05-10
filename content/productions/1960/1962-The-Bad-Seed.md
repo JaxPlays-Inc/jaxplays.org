@@ -1,6 +1,6 @@
 ---
 title: The Bad Seed
-date: 1962-01-12
+date: 2023-09-08T00:00:00
 opening_date: 1962-01-12
 closing_date: 1962-01-20
 layout: productions

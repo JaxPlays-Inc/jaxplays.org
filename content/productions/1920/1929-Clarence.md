@@ -1,6 +1,6 @@
 ---
 title: Clarence
-date: 1929-02-25
+date: 2023-09-08T00:00:00
 opening_date: 1929-02-25
 closing_date:
 layout: productions

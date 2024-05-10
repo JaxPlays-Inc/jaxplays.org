@@ -1,6 +1,6 @@
 ---
 title: Champagne Complex
-date: 1959-02-25
+date: 2023-09-08T00:00:00
 opening_date: 1959-02-25
 closing_date: 1959-03-07
 layout: productions

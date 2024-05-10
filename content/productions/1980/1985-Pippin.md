@@ -1,6 +1,6 @@
 ---
 title: Pippin
-date: 1985-05-10
+date: 2023-09-08T00:00:00
 opening_date: 1985-05-10
 closing_date: 1985-05-25
 layout: productions

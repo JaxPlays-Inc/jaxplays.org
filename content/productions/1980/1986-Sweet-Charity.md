@@ -1,6 +1,6 @@
 ---
 title: Sweet Charity
-date: 1986-05-09
+date: 2023-09-08T00:00:00
 opening_date: 1986-05-09
 closing_date: 1986-05-24
 layout: productions

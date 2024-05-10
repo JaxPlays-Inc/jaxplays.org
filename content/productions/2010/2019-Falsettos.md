@@ -3,7 +3,7 @@ title: Falsettos
 layout: productions
 redirect_from:
 - /productions/2019_Falsettos_(musical)
-date: 2019-06-14
+date: 2023-09-08T00:00:00
 opening_date: 2019-06-14
 closing_date: 2019-06-30
 featured_image: 2019_Falsettos.webp

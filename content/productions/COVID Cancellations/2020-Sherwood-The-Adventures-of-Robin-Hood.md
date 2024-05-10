@@ -3,7 +3,7 @@ published: false
 cancelled: COVID-19
 layout: productions
 title: 'Sherwood: The Adventures of Robin Hood'
-date: 2020-05-08
+date: 2023-09-08T00:00:00
 opening_date: 2020-05-08
 closing_date: 2020-05-24
 category: comedy

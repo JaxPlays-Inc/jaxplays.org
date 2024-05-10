@@ -2,7 +2,7 @@
 title: Cinderella
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
-date: 2024-05-31
+date: 2024-05-10T17:42:58
 opening_date: 2024-05-31
 closing_date: 2024-06-23
 showtimes:

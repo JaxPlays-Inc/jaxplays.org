@@ -2,7 +2,7 @@
 title: A Doll's House, Part 2
 Theatre: Limelight Theatre
 Venue: Koger-Gamache Studio Theatre
-date: 2024-05-16
+date: 2024-05-10T17:42:58
 opening_date: 2024-05-16
 closing_date: 2024-06-02
 showtimes:

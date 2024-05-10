@@ -1,6 +1,6 @@
 ---
 title: Jersey Boys
-date: 2023-04-27
+date: 2023-09-08T00:00:00
 opening_date: 2023-04-27
 closing_date: 2023-06-04
 layout: productions

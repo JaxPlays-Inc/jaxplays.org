@@ -1,6 +1,6 @@
 ---
 title: Love Rides the Rails
-date: 1944-03-01
+date: 2023-09-08T00:00:00
 opening_date: 1944-03-01
 approx_date: month
 closing_date:

@@ -1,6 +1,6 @@
 ---
 title: John Loves Mary
-date: 1948-10-15
+date: 2023-09-08T00:00:00
 opening_date: 1948-10-15
 closing_date: 1948-10-22
 layout: productions

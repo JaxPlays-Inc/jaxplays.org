@@ -1,6 +1,6 @@
 ---
 title: Over the River and Through the Woods
-date: 2023-04-07
+date: 2023-09-08T00:00:00
 opening_date: 2023-04-07
 closing_date: 2023-04-30
 layout: productions

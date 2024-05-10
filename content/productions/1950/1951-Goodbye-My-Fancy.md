@@ -1,6 +1,6 @@
 ---
 title: Goodbye My Fancy
-date: 1951-01-19
+date: 2023-09-08T00:00:00
 opening_date: 1951-01-19
 closing_date: 1951-01-27
 layout: productions

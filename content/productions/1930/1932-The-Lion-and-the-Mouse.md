@@ -1,6 +1,6 @@
 ---
 title: The Lion and the Mouse
-date: 1932-02-23
+date: 2023-09-08T00:00:00
 opening_date: 1932-02-23
 closing_date:
 layout: productions

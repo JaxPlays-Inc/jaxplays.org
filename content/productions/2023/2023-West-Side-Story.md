@@ -1,6 +1,6 @@
 ---
 title: West Side Story
-date: 2023-07-14
+date: 2023-09-08T00:00:00
 opening_date: 2023-07-14
 closing_date: 2023-08-06
 featured_image: 2023-West-Side-Story.webp
