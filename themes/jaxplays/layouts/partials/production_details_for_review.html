@@ -16,7 +16,7 @@
   
 
   <!-- Now you can use these variables in your template -->
-  {{ $opening_date := dateFormat "Monday, January 2" .Params.date }}
+  {{ $opening_date := dateFormat "Monday, January 2" .Params.opening_date }}
   {{ $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
 
   {{ with $override_dates }}
