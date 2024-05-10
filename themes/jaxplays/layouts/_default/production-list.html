@@ -111,7 +111,7 @@
 
       <div class="w-60">
         <!-- Genres and Tickets Section -->
-        {{ if or $genres (and .Params.date .Params.closing_date) }}
+        {{ if or $genres (and .Params.opening_date .Params.closing_date) }}
         <div class="flex flex-column items-start justify-start">
           <!-- Genres -->
           {{ $genres := .Params.Genres }}
@@ -122,7 +122,7 @@
               {{ end }}
             {{ end }}
           {{ end }}
-
+      
           {{ if $genres }}
             <div class="flex flex-wrap">
               {{ range $genres }}
@@ -130,10 +130,10 @@
               {{ end }}
             </div>
           {{ end }}
-
+      
           <!-- Tickets -->
-          <!-- If date and closing_date are both filed out -->
-          {{ if and .Params.date .Params.closing_date }}
+          <!-- If opening_date and closing_date are both filled out -->
+          {{ if and .Params.opening_date .Params.closing_date }}
           <!-- If closing_date is in the future -->
           {{ $closingDate := time .Params.closing_date }}
           {{ $now := now.Format "2006-01-02" | time }}
@@ -142,10 +142,10 @@
           {{ end }}
           {{ end }}
           {{ end }}
-
+      
           <!-- Tablet and Desktop Description -->
           {{ if $description }}
-          <div class="description dn db-ns nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" | default "dark-gray"
+          <div class="description dn db-ns nested-copy-line-height lh-copy f5 mt0 {{ $.Param "text_color" | default "dark-gray"
             }}">
             {{ $description | safeHTML }}
             <a href="{{.RelPermalink}}"
