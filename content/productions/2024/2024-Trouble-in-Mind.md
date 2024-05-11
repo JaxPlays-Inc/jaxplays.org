@@ -43,6 +43,7 @@ crew:
 - Lighting Designer: Jereme Raickett
 - Master Electrician: Ben Sparenberg
 - Costume Designer: Phedre Delinois
+- Wig Stylist: Phedre Delinois
 - Master Carpenter: Tom Cassaro
 - Sound Design: GoldenStage Productions
 orchestra:
