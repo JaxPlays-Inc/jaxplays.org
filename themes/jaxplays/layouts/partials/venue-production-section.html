@@ -1,0 +1,60 @@
+{{/* Accepting passed context */}}
+{{ $sectionName := .sectionName }}
+{{ $productions := .productions }}
+
+{{ if $productions }}
+  <div class="credits nested-copy-line-height lh-copy f4 mt5 ">
+    <h3 class="f3 mt4 mb3 sectionline">{{ $sectionName }}</h3>
+    {{ range $production := $productions }}
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="pa3-ns pa2 w-100 flex items-center">
+          <!-- Left Section -->
+          <div class="w-25 w-10-l">
+            {{ $featuredImage := $production.Params.featured_image }}
+            {{ if not $featuredImage }}
+              {{ $title := replace $production.Title "è" "e" }}
+              {{ with (site.GetPage "page" (printf "/shows/%s" ($title | urlize))) }}
+                {{ $featuredImage = .Params.featured_image }}
+              {{ end }}
+            {{ end }}
+            {{ $imagePath := "/media/default/production_poster.webp" }}
+            {{ if $featuredImage }}
+              {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+            {{ end }}
+            <a href="{{ $production.Permalink }}">
+              <img src="{{ $imagePath }}" alt="{{ $production.Title }}" class="w-100" />
+            </a>
+          </div>
+          <!-- Right Section -->
+          <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
+            <!-- Left Section of Right Section -->
+            <div class="b w-100 w-50-l">
+              <a href="{{ $production.Permalink }}">{{ $production.Title }}</a>
+            </div>
+            <!-- Right Section of Right Section -->
+            <div class="w-100 w-50-l tr-l">
+              <div>
+                {{ $opening_date := $production.Params.opening_date | time }}
+                {{ $isApprox := $production.Params.approx_date }}
+                {{ if eq $isApprox "year" }}
+                  {{ $opening_date.Year }}
+                {{ else }}
+                  {{ $opening_date.Format "January 2006" }}
+                {{ end }}
+              </div>
+              <div>
+                {{ $theatres := $production.Params.Theatre }}
+                {{ if eq (printf "%T" $theatres) "string" }}
+                  {{ $theatres = slice $theatres }}
+                {{ end }}
+                {{ range $index, $theatre := $theatres }}
+                  {{ $theatre }}{{ if ne (add $index 1) (len $theatres) }}<br />{{ end }}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
