@@ -1,24 +1,16 @@
 ---
-title: Beauty and the Beast
+title: Disney's Beauty and the Beast
 date: 2023-09-08T00:00:00
 opening_date: 2023-06-08
 closing_date: 2023-07-30
 layout: productions
 featured_image: 2023_Beauty_and_the_Beast.jpeg
-featured_image_caption: Graphic of Beauty and the Beast at the Alhambra
+featured_image_caption: Graphic of Disney's Beauty and the Beast at the Alhambra
 featured_image_attr: Alhambra Theatre & Dining
 playbill:
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-show_details:
-- Music: Alan Menken - wiki
-- Book: Linda Woolverton - wiki
-- Lyrics: Howard Ashman, Tim Rice
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays
-Genres:
-- Musical
-- Fantasy
-- Romance
 showtimes:
 - 2023-06-08 17:30:00
 - 2023-06-09 17:30:00
@@ -144,8 +136,3 @@ crew:
   - Kolby James
 orchestra:
 ---
-*Beauty and the Beast* is a musical based on the Disney animated film of the same name. It tells the timeless story of Belle, a young woman who finds herself drawn to the mysterious Beast, a prince trapped in the form of a hideous creature. As Belle gets to know the Beast and his enchanted household, including talking household items and furniture, she discovers the true beauty lies within.
-
-The musical features a captivating score by Alan Menken, with lyrics by Howard Ashman and Tim Rice. It includes beloved songs such as "Be Our Guest," "Belle," and the enchanting title song, "Beauty and the Beast."
-
-With its enchanting story, memorable music, and stunning set designs, the musical brings the magical world of Beauty and the Beast to life on stage. It is a tale as old as time that will delight audiences of all ages.
