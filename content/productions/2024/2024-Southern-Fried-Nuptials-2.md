@@ -40,7 +40,24 @@ crew:
 - Director: 
   - Ann Walsh
   - Gloria Hurley
+- House Manager: Ashley Driggers
 - Tech Director: Landon Seal
+- Backstage Tech: Liberty Boyer
+- Lighting Tech: Gayle Burr
+- Stage Design: 
+  - Gloria Hurley
+  - Vicki Wyttenbach
+- Stage Build: 
+  - George Tweedy
+  - David Wyttenbach
+  - Mike Hurley
+  - Logan Bunten
+- Concessions:
+  - Allen Langenbahn
+  - Deb Johnson
+  - Lori Sandy-Goewey
+- Photographer: Sean McCleary
+- Tocketmaster: Leslie Sanders
 - Costume Manager: Vicki Wyttenbach
 orchestra:
 genres:
