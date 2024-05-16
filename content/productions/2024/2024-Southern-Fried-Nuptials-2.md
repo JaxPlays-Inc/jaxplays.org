@@ -46,6 +46,6 @@ orchestra:
 genres:
 - Play
 - Comedy
-Description: Everybody knows that families in the south are just a little bit different. If you’re looking for a great escape from everyday stress, come see this rollicking comedy.
+Description: Everybody knows that families in the South are just a little bit different. If you’re looking for a great escape from everyday stress, come see this rollicking comedy.
 ---
- Think magnolia blossoms and sweet tea peppered with a lot of family drama and tons of goofy moments. It's just like walking into your Mama’s house (if you’re southern). Whether Yankee or southern by the grace of God, you'll love *Southern Fried Nuptials*.
+ Think magnolia blossoms and sweet tea peppered with a lot of family drama and tons of goofy moments. It's just like walking into your Mama’s house (if you’re Southern). Whether Yankee or Southern by the grace of God, you'll love *Southern Fried Nuptials*.
