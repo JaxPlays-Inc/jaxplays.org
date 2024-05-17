@@ -62,5 +62,7 @@ genres:
 - Play
 - Comedy
 Description: Everybody knows that families in the South are just a little bit different. If you’re looking for a great escape from everyday stress, come see this rollicking comedy.
+Press:
+- "Southern ‘Fried’ entertainment returns to St. Marys | Georgia Tribune": https://www.tribune-georgian.com/local-news-newsletter/southern-fried-entertainment-returns-st-marys
 ---
  Think magnolia blossoms and sweet tea peppered with a lot of family drama and tons of goofy moments. It's just like walking into your Mama’s house (if you’re Southern). Whether Yankee or Southern by the grace of God, you'll love *Southern Fried Nuptials*.
