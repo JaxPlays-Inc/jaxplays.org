@@ -46,7 +46,38 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1457&code=WWW&qty_target=0
 show_details: 
 cast:
+- Gloria: Natalie Drake
+- Bernard: Thad Walker
+- Bertha: Lisa Valdini Booth
+- Robert: Rodney Holmes
+- Gabriella: Allyson Rosenblum
+- Gretchen: Jessie Clontz
+understudies:
+- Bertha, Gloria: Layla Thurman
+- Bernard, Robert: Will Wiley
 crew:
+- Executive Producer: Tod Booth
+- Director: Tod Booth
+- Vice President of Production: Shain Stroff
+- Production Manager: Erick Ariel Sureda
+- Company Manager: Lisa Valdini Booth
+- Set Designer: Dave Dionne
+- Costume Designer: Taylor Barnett
+- Set Construction: 
+  - Ian Black
+  - Kenny Holderfield
+- Lighting Designer: Johnny Pettegrew
+- Sound Designer: Eric Sullivan
+- Sound Engineer: Carly Meyer
+- Wardrobe: 
+  - Layla Thurman
+  - Allie Kangas
+- Wig Designer: Layla Thurman
+- Lighting Technician: Johnny Pettegrew
+- Property Manager: Patti Eyler
+- Assistant Stage Managers:
+  - Sarah Brace
+  - Melvin Nash II
 orchestra:
 Genres:
   - Play
