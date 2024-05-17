@@ -29,9 +29,7 @@ cast:
 - Martha Ann Fox: Susan Langenbahn
 - Fairy June Cooper: Gloria Hurley
 - Carter Canfield: Carlos Semidei
-- Sammie Jo Frye-Lefette: 
-  - Mary McCleary
-  - Nichole Sternad
+- Sammie Jo Frye-Lefette: Nichole Sternad
 - Beecham Lefette: Travis Land
 - Ozella Meeks: Vicki Wyttenbach
 - Vester Pickens: George Tweedy
