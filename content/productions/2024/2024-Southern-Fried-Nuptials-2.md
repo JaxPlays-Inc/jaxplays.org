@@ -25,7 +25,7 @@ cast:
 - Harlene Frye: Debra Parsons
 - Atticus Van Leer: Ken Johnson
 - Dorothy Frye: Tammy Bradley
-- Dewey J: Juliana Mabe
+- Dewey Frye, Jr: Juliana Mabe
 - Martha Ann Fox: Susan Langenbahn
 - Fairy June Cooper: Gloria Hurley
 - Carter Canfield: Carlos Semidei
