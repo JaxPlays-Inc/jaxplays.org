@@ -21,7 +21,7 @@ cast:
 - Vicki Wyttenbach
 description:
 ---
-Following the rollicking success of *[Southern Fried Funeral](/productions/2022-southern-fried-funeral/)* in 2022, [St. Marys Little Theatre](/theatres/st-marys-little-theatre/) brings audiences back to the bayou bliss of New Edinburgh, Mississippi, with its sequel, [*Southern Fried Nuptials*](/productions/2024-southern-fried-nuptials-2/). The play is as delightful and comforting as a warm Southern evening, filled with the laughter and eccentricities one would expect from a family wedding set in the heart of the South.
+Following the rollicking success of *[Southern Fried Funeral](/productions/2022-southern-fried-funeral/)* in 2022, [St. Marys Little Theatre](/theatres/st-marys-little-theatre/) brings audiences back to the bayou bliss of New Edinburgh, Mississippi, with its sequel, [*Southern Fried Nuptials*](/productions/2024-southern-fried-nuptials-2/). The play is as delightful and comforting as a warm Southern evening, filled with the laughter and eccentricities one would expect from a family wedding set in the heart of the South. <!--more-->
 
 At the core of *Southern Fried Nuptials* is the impending wedding of Harlene Frye and Atticus Van Leer. Harlene has been repeatedly postponing the wedding to the frustration of everyone in the family, especially her fiancé. The reason for her hesitation remains a mystery until her old flame from Texas, Carter Canfield, shows up with shocking news that turns everything upside down. This unexpected arrival sets off a chain reaction of comedic mishaps and heartfelt revelations, pushing the family to confront their feelings and strengthen their bonds amidst the chaos.
 
