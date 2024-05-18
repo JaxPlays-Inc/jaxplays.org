@@ -39,7 +39,7 @@ Susan Langenbahn shines as she takes on a more dramatic role as Martha Ann Fox, 
 
 Vicki Wyttenbach skillfully portrays Ozella Meeks, the nosy busybody who appoints herself the wedding planner. Wyttenbach captures Ozella's pent-up frustration and shines in the physical comedy, humorously depicting her overly enthusiastic efforts to manage every detail of the wedding.
 
-Carlos Semidei steals every scene with his over-the-top antics and exaggerated facial expressions as the antagonist Carter Canfield. His portrayal of Canfield is uproariously narcissistic, assuming everyone else is as infatuated with him as he is. The scenes where Fairy June flirts with him and the conflict between Canfield and Dorothy Frye are especially comical, both showcasing Semidei’s excellent comedic timing and physicality. His energetic and hilarious performance makes Canfield a standout character in the production.
+Carlos Semidei steals every scene with his over-the-top antics and exaggerated facial expressions as the antagonist Carter Canfield. His portrayal of Canfield is uproariously narcissistic, assuming everyone else is as infatuated with him as he is. The scenes where Fairy June flirts with him and the conflict between Canfield and Dorothy Frye are particularly comical, both highlighting Semidei’s excellent comedic timing and physicality. His energetic and hilarious performance makes Canfield a standout character in the production.
 
 Juliana Mabe is adorable as Dewey Jr., bringing boundless energy and a ridiculous, out-of-touch charm to the role. Gloria Hurley adds a dependable but delightful dose of humor as the dimwitted Fairy June Cooper, while George Tweedy's performance as the kindly widower Vester Pickens adds a heartwarming element to the ensemble.
 
