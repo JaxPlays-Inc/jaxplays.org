@@ -1,35 +1,46 @@
 ---
-published: false
-title: "A Delightful Evening with 'Southern Fried Nuptials' at St. Marys Little Theatre"
-date: 2024-05-17T03:36:47-04:00
-featured_image: 
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+title: "Cold Feet and Warm Laughs: 'Southern Fried Nuptials' at St. Marys Little Theatre"
+date: 2024-05-17T08:58:47-04:00
+featured_image: /media//photos/2024-Southern-Fried-Nuptials-2-01.webp
+featured_image_attr: David Wyttenbach
+featured_image_caption: Tensions rise and humor abounds as the extended Frye family navigates family drama and unexpected revelations in 'Southern Fried Nuptials'.
+featured_image_alt: "From left to right, Juliana Mabe as Dewey Frye, Jr. stands with a tablet; Gloria Hurley as Fairy June Cooper in a blue dress; Susan Langenbahn as Martha Ann Fox seated in a red chair; Debra Parsons as Harlene Frye in a white blouse and skirt; Tammy Bradley as Dorothy Frye in navy and floral pants, seated; and Nichole Sternad as Sammie Jo Frye-Lefette in a black dress with red cherries, all engaging in an animated discussion on stage."
 author: Ray Hollister
 production: 2024 Southern Fried Nuptials 2
 Theatre: St. Marys Little Theatre
-cast: 
+cast:
+- Debra Parsons
+- Ken Johnson
+- Tammy Bradley
+- Juliana Mabe
+- Susan Langenbahn
+- Gloria Hurley
+- Carlos Semidei
+- Nichole Sternad
+- Travis Land
+- Vicki Wyttenbach
 description:
 ---
-"Southern Fried Nuptials," currently gracing the stage at St. Marys Little Theatre, is a delightful and humorous exploration of the chaos and charm of Southern wedding preparations. With a skillful blend of comedy and heart, this production promises a thoroughly enjoyable experience.
+Following the rollicking success of *[Southern Fried Funeral](/productions/2022-southern-fried-funeral/)* in 2022, [St. Marys Little Theatre](/theatres/st-marys-little-theatre/) brings audiences back to the bayou bliss of New Edinburgh, Mississippi, with its sequel, [*Southern Fried Nuptials*](/productions/2024-southern-fried-nuptials-2/). The play is as delightful and comforting as a warm Southern evening, filled with the laughter and eccentricities one would expect from a family wedding set in the heart of the South.
 
-Dynamic Performances from a Talented Ensemble
+At the core of *Southern Fried Nuptials* is the impending wedding of Harlene Frye and Atticus Van Leer. Harlene has been repeatedly postponing the wedding to the frustration of everyone in the family, especially her fiancé. The reason for her hesitation remains a mystery until her old flame from Texas, Carter Canfield, shows up with shocking news that turns everything upside down. This unexpected arrival sets off a chain reaction of comedic mishaps and heartfelt revelations, pushing the family to confront their feelings and strengthen their bonds amidst the chaos.
 
-Debra Parsons as Harlene Frye delivers a standout performance, full of vivacity and impeccable comedic timing. Her scenes with Ken Johnson, portraying Atticus Van Leer, sparkle with warmth and authenticity, bringing depth to their on-stage relationship. Tammy Bradley as Dorothy Frye is equally compelling, embodying the quintessential Southern matriarch with a perfect balance of humor and tenderness.
+Slipping back into their roles as Harlene and Atty seemingly effortlessly, Debra Parsons and Ken Johnson exude sweetness and sincerity, despite the mayhem surrounding them.
 
-Juliana Mabe’s portrayal of Dewey J is a comic delight, adding a burst of energy to the stage. Susan Langenbahn’s Martha Ann Fox and Gloria Hurley’s Fairy June Cooper each bring their own unique flair to the production, enriching the narrative with their spirited performances.
+The prodigal daughter, Harlene, is still deeply insecure, feeling unworthy of the love and support from her fiancé, mother and sister. Debra Parsons brings out all those emotions with admirable nuance, making the audience empathize with Harlene's fear of abandonment. Even though the root of her self-loathing is never fully revealed, Parsons' performance makes her vulnerability and fear relatable.
 
-Carlos Semidei as Carter Canfield provides a steady and engaging presence, adding to the cohesive feel of the ensemble. The dual portrayal of Sammie Jo Frye-Lefette by Mary McCleary and Nichole Sternad adds a layer of versatility, highlighting both actresses' strengths. Rounding out the cast, Travis Land as Beecham Lefette, Vicki Wyttenbach as Ozella Meeks, and George Tweedy as Vester Pickens deliver memorable performances that enhance the show's overall charm.
+Ken Johnson has grown significantly  as an actor since he was last on stage as Atticus Van Leer. His performance now showcases a much broader range of emotional depth and versatility. The raw pain and simmering anger he brings to the role are striking, delivering a powerful and heartfelt impact, while his indignation is both intense and convincing.
 
-Atmospheric Set Design and Musical Touches
+Tammy Bradley brings depth to her reprisal of the role of Dorothy Frye, the kind and loving mother still mourning her husband's death because she hasn't allowed herself to fully processing her grief and move on. Although Dorothy has less stage time in this show compared to the last, Bradley's heartfelt and endearing performance makes a significant impact. Her portrayal leaves the audience wishing for more moments with Dorothy, whose warmth adds a poignant layer to the production.
 
-The set design is a visual treat, meticulously capturing the essence of a Southern home. It creates an immersive atmosphere that draws the audience into the world of the Frye family. The musical interludes, though subtle, add a gentle rhythm to the play, complementing the action and enhancing the overall experience.
+Nichole Sternad and Travis Land share such a natural chemistry on stage as wife and husband, Sammie Jo Frye-Lefette and Beecham Lefette, that it prompted a second look at the cast list to confirm they aren't actually married. Sternad, portraying the uptight and self-righteous eldest sister, excellently embodies the role of a codependent sibling who struggles to relinquish control while believing she is being helpful.
 
-Constructive Feedback
+Susan Langenbahn shines as she takes on a more dramatic role as Martha Ann Fox, showcasing her versatility after her absolutely hilarious performances in *Southern Fried Funeral* and *Savannah Sipping Society*. Her dynamic with Tammy Bradley's Dorothy is heartfelt and authentic, portraying a friendship that feels genuine and long-lasting.
 
-While the production is thoroughly enjoyable, there are a few areas that could be polished. Some scenes could benefit from a slightly brisker pace to maintain the comedic energy throughout. Additionally, smoother transitions between scenes would help maintain the narrative's flow and keep the audience fully engaged.
+Vicki Wyttenbach skillfully portrays Ozella Meeks, the nosy busybody who appoints herself the wedding planner. Wyttenbach captures Ozella's pent-up frustration and shines in the physical comedy, humorously depicting her overly enthusiastic efforts to manage every detail of the wedding.
 
-Conclusion
+Carlos Semidei steals every scene he is in with his over-the-top antics and exaggerated facial expressions that are a performance unto themselves as the antagonist Carter Canfield. Semidei's Canfield is also uproariously narcissistic, assuming everyone else is just as much in love with him as he is. The scenes where Fairy June flirts with him are particularly amusing, adding even more humor to the mix. The conflict between Canfield and Dorothy Frye is especially comical, showcasing Semidei's great comedic timing and physicality. His energetic and hilarious performance makes Canfield a standout character in the production.
 
-"Southern Fried Nuptials" at St. Marys Little Theatre is a charming and entertaining production that offers plenty of laughs and heartfelt moments. With its strong cast and evocative set design, it provides a memorable theater experience. A few adjustments in pacing and scene transitions could elevate this production even further, making it a must-see for anyone looking to enjoy a slice of Southern humor and warmth.
+Juliana Mabe is adorable as Dewey Jr., bringing boundless energy and a ridiculous, out-of-touch charm to the role. Gloria Hurley adds a dependable but delightful dose of humor as the dimwitted Fairy June Cooper, while George Tweedy's performance as the kindly widower Vester Pickens adds a heartwarming element to the ensemble.
+
+*Southern Fried Nuptials* at St. Marys Little Theatre is a charming production, offering a welcoming and accessible experience.  Fans of *Southern Fried Funeral* will particularly appreciate this sequel, though it also stands strongly on its own. The play is thoroughly enjoyable and entertaining, capturing the essence of Southern charm and the humor of family gatherings. The cast's performances infuse the stage with warmth and humor, making it a perfect choice for an evening filled with lighthearted fun and touching moments.
