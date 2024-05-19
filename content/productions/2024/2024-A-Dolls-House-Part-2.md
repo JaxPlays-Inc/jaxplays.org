@@ -51,7 +51,7 @@ crew:
 - Construction Crew: 
   - Rob O'Leary
   - Ian Hoffman
-- Phtographers:
+- Photographers:
   - Rae Natzel
   - Ryan Provence
 orchestra:
