@@ -36,6 +36,16 @@ cast:
 - Emmy: Ella Romaine
 crew:
 - Director: Leah Page
+- Assistant Director: Jessica Griffin
+- Stage Manager: Rae Natzel
+- Set Designer: Ryan Provence
+- Lighting Design: Tracy Lukach
+- Sound Design: Ashley Taylor
+- Props: Chad Boyd
+- Costume Design: Sarah Sasser
+- Light Board Operator: Alexis Bensoussan 
+- Technical Director: Ashley Taylor
+- Production Manger: Ashley Taylor 
 orchestra:
 genres: 
 - Play
