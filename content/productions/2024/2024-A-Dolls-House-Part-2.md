@@ -46,6 +46,14 @@ crew:
 - Light Board Operator: Alexis Bensoussan 
 - Technical Director: Ashley Taylor
 - Production Manger: Ashley Taylor 
+- Paint Charge: Sue Schwartz
+- Scenic Painter: Katherine Hoffman
+- Construction Crew: 
+  - Rob O'Leary
+  - Ian Hoffman
+- Phtographers:
+  - Rae Natzel
+  - Ryan Provence
 orchestra:
 genres: 
 - Play
