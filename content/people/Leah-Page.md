@@ -9,8 +9,8 @@ featured_image_caption:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: leah-page-87ba8574
-  LinkedIn: 
+  Instagram: 
+  LinkedIn: leah-page-87ba8574
   IBDB: 
   IMDb:
   Website: 
