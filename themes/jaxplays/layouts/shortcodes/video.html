@@ -12,7 +12,7 @@
 <video src="{{ $src }}" controls width="100%" autoplay loop muted>
 </video>
 {{ if or (or $title $caption) $attr }}
-      <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ $light_text_color_class }} f5">
+      <figcaption class="flex pa1-ns pa3-m avenir justify-center {{ $light_text_color_class }} f5 mt1 mh3 ma0-ns">
         {{ if or $caption $attr }}
         {{ $caption }}
         {{ if $attr }}
