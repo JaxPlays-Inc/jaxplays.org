@@ -1,5 +1,5 @@
 ---
-title: "When the Past Knocks: the Consequences of Independence in ‘A Doll’s House, Part 2’"
+title: "When the Past Knocks: the Consequences of Independence in ‘A Doll’s House, Part 2’ at Limelight Theatre"
 date: 2024-05-19T11:21:09-04:00
 featured_image: /media/photos/2024-A-Dolls-House-Part-2.webp
 featured_image_attr: 
@@ -17,7 +17,9 @@ cast:
 - Ashley Taylor
 description: "Explore the consequences of Nora’s iconic decision in the captivating 'A Doll’s House, Part 2.'"
 ---
-Set fifteen years after Nora Helmer famously slammed the door on her life, *A Doll's House, Part 2* offers a fresh perspective on a classic story, delving into the complexities of personal freedom, societal expectations and one woman's steadfast commitment to her own principles and autonomy above all else. Lucas Hnath's brilliant play is a captivating continuation of Henrik Ibsen's classic masterpiece, *A Doll's House*, and picks up where Ibsen left off, exploring the consequences of Nora's iconic decision to leave her husband and children in search of independence. This sequel, while a continuation, requires no familiarity with Ibsen's work, allowing new audiences to engage deeply with the story's rich themes without any prior knowledge of the original masterpiece.
+Set fifteen years after Nora Helmer famously slammed the door on her life, [Limelight Theatre](/theatres/limelight-theatre)'s production of *[A Doll's House, Part 2](/productions/2024-a-dolls-house-part-2/)* offers a fresh perspective on a classic story, delving into the complexities of personal freedom, societal expectations and one woman's steadfast commitment to her own principles and autonomy above all else. <!--more-->
+
+Lucas Hnath's brilliant play is a captivating continuation of Henrik Ibsen's classic masterpiece, *A Doll's House*, and picks up where Ibsen left off, exploring the consequences of Nora's iconic decision to leave her husband and children in search of independence. This sequel, while a continuation, requires no familiarity with Ibsen's work, allowing new audiences to engage deeply with the story's rich themes without any prior knowledge of the original masterpiece.
 
 Nora, having become a successful writer, now returns to face the family she abandoned, and Kristi Parker Byers's portrayal is nothing short of stunning. She captures the character's strength, vulnerability and unwavering determination with ease. I was completely captivated by the character -- and at the same time, torturously aware of the potential ramifications of her stubborn independence. I sat spellbound, fearing that even a blink could shatter the spell, unable to look away from this kindred spirit for even a moment. Tears occasionally welled up, yet I stared right through them, captivated. Byers's performance is masterful, weaving an intensely compelling and unapologetically feminist narrative.
 
