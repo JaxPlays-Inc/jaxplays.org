@@ -30,6 +30,10 @@ Tickets: https://ci.ovationtix.com/34666/production/1165810
 show_details: 
 - Playwright: Lucas Hnath - wiki
 cast:
+- Nora: Kristi Parker Byers
+- Ann-Marie: Susan Nowell 
+- Torvald: Bill Rains
+- Emmy: Ella Romaine
 crew:
 - Director: Leah Page
 orchestra:
