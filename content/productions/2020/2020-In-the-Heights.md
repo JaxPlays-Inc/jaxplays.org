@@ -4,7 +4,15 @@ title: In the Heights
 redirect_from:
 - /productions/2020_In_the_Heights
 date: 2023-09-08T00:00:00
+opening_date: 2020-01-17
 closing_date: 2020-01-25
+showtimes:
+- 2020-01-17 19:30:00
+- 2020-01-18 19:30:00
+- 2020-01-19 15:00:00
+- 2020-01-23 19:30:00
+- 2020-01-24 19:30:00
+- 2020-01-25 19:30:00
 featured_image: 2020_In_the_Heights.jpg
 featured_image_attr:
 featured_image_alt:
@@ -26,13 +34,6 @@ Genres:
 - Romance
 - Hip Hop
 Description: "*In the Heights* unveils the aspirations and struggles of Washington Heights, challenging traditional musical storytelling with its authenticity."
-showtimes:
-- 2020-01-17 19:30:00
-- 2020-01-18 19:30:00
-- 2020-01-19 15:00:00
-- 2020-01-23 19:30:00
-- 2020-01-24 19:30:00
-- 2020-01-25 19:30:00
 cast:
 - Usnavi: Carlos Adorno
 - Sonny: James Demps
