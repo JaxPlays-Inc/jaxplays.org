@@ -21,7 +21,7 @@ featured_image_caption: Teaser graphic for 'Urinetown' at The 5 & Dime
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: https://www.eventbrite.com/e/urinetown-tickets-773028267357
+Website: https://www.the5anddime.org/urinetown
 Tickets: https://www.eventbrite.com/e/urinetown-tickets-773028267357
 show_details: 
 - Book: Greg Kotis - wiki
@@ -31,6 +31,9 @@ show_details:
   - Greg Kotis
 cast:
 crew:
+- Director: Bradley Akers
+- Musical Director: Erin Barnes
+- Choreography: Amanda Baillie
 orchestra:
 Genres:
   - Musical
