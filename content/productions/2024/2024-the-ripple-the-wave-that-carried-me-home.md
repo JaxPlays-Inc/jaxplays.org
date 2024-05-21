@@ -18,7 +18,7 @@ featured_image_caption: Teaser graphic for 'The Ripple, The Wave That Carried Me
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: https://www.eventbrite.com/e/the-ripple-the-wave-that-carried-me-home-tickets-773019501137
+Website: 
 Tickets: https://www.eventbrite.com/e/the-ripple-the-wave-that-carried-me-home-tickets-773019501137
 show_details: 
 - Playwright: Christina Anderson
