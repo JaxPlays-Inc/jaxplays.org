@@ -22,25 +22,90 @@ featured_image_attr_link:
 playbill:
 Website: https://www.fscjartistseries.org/tickets/mamma-mia
 Tickets: https://www.fscjartistseries.org/season-tickets
-show_details: 
-- Music: 
-  - Benny Andersson - wiki
-  - Björn Ulvaeus - wiki
-- Lyrics:
-  - Benny Andersson
-  - Björn Ulvaeus
-- Book: Catherine Johnson - wiki
 cast:
+  - Donna Sheridan: Christine Sherrill
+  - Sophie Sheridan: Alisa Melendez
+  - Rosie: Carly Sakolove
+  - Tanya: Jalynn Steele
+  - Harry Bright: Rob Marnell
+  - Bill Austin: Jim Newman
+  - Sam Carmichael: Victor Wallace
+  - Sky: Grant Reynolds
+  - Eddie: Louis Griffin
+  - Pepper: Patrick Park
+  - Lisa: L'Oréal Roaché
+  - Ali: Haley Wright
+  - Ensemble:
+    - Patrick Park
+    - L'Oréal Roaché
+    - Haley Wright
+    - Gabe Amato
+    - Caro Daye Attayek
+    - Adia Olanethia Bell
+    - Xavi Soto Burgos
+    - Emily Croft
+    - Madison Deadman
+    - Jordan De Leon
+    - Nico DiPrimio
+    - Patrick Dunn
+    - Stephanie Genito
+    - Jasmine Overbaugh
+    - Blake Price
+    - Dorian Quinn
+    - Amy Weaver
+  - Dance Captain: Danny Lopez-Alicea
+  - Assistant Dance Captain: Gray Phillips
+understudies:
+  - Swing:
+    - Sarah Agrusa
+    - Dean Cestari
+    - Danny Lopez-Alicea
+    - Makoa
+    - Faith Northcutt
+    - Gray Phillips
+  - Sky: 
+    - Louis Griffin
+    - Xavi Soto Burgos
+  - Pepper: 
+    - Gabe Amato
+    - Jordan De Leon
+  - Eddie: 
+    - Gabe Amato
+    - Nico DiPrimio
+  - Lisa: 
+    - Caro Daye Attayek
+    - Adia Olanethia Bell
+  - Ali: 
+    - Adia Olanethia Bell
+    - Faith Northcutt
+  - Donna: 
+    - Emily Croft
+    - Stephanie Genito
+  - Rosie: 
+    - Emily Croft
+    - Jasmine Overbaugh
+  - Sophie: 
+    - Madison Deadman
+    - Amy Weaver
+  - Bill: 
+    - Patrick Dunn
+    - Blake Price
+    - Dorian Quinn
+  - Harry: 
+    - Patrick Dunn
+    - Blake Price
+  - Tanya: 
+    - Stephanie Genito
+    - Jasmine Overbaugh
+  - Father Alexandrios: Danny Lopez-Alicea
+  - Sam: 
+    - Dorian Quinn
+    - Blake Price
+    - Dorian Quinn
+  - Bill: Dorian Quinn
 crew:
 orchestra:
 # Mamma Mia!
-Genres:
-  - Musical
-  - Comedy
-  - Romance
-  - Jukebox Musical
-Description: "Get swept away by the sunny and spirited world of *Mamma Mia!*, where ABBA's greatest hits bring to life a heartwarming tale of love, laughter, and friendship."
 ---
-Set on a picturesque Greek island, *Mamma Mia!* follows Sophie, a young bride-to-be, as she embarks on a quest to discover the identity of her father. Inviting three of her mother's past lovers to her wedding, hilarity and chaos ensue. With iconic songs like 'Dancing Queen,' 'Take a Chance on Me,' and 'Super Trouper,' this feel-good musical weaves together romance, family secrets, and the magic of ABBA's timeless music. As the story unfolds, it celebrates the bonds of family and the enduring joy of love and friendship, leaving audiences dancing in the aisles.
 
 {{< youtube 0N6_52JXA2o >}}

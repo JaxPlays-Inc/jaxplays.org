@@ -21,8 +21,14 @@ playbill:
 Website: https://www.fscjartistseries.org/tickets/aint-too-proud-the-life-and-times-of-the-temptations
 Tickets: https://www.fscjartistseries.org/season-tickets
 show_details: 
+  - Book: Dominique Morisseau
+  - Music & Lyrics: The Legendary Motown Catalog
+  - Basis: "'The Temptations' by Otis Williams"
+  - Website: https://ainttooproudmusical.com/
 cast:
 crew:
+  - Choreography: Sergio Trujillo
+  - Director: Des McAnuff
 orchestra:
 Genres:
   - Musical
