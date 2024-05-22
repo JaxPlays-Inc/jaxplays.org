@@ -23,8 +23,79 @@ playbill:
 Website: https://www.fscjartistseries.org/tickets/mj-the-musical
 Tickets: https://www.fscjartistseries.org/season-tickets
 show_details: 
+- Music: Michael Jackson - wiki
+- Lyrics: Michael Jackson
+- Book: Lynn Nottage - wiki
+- Website: https://tour.mjthemusical.com/
 cast:
+  - MJ: Roman Banks
+  - MJ (Alternate): Jamaal Fields-Green
+  - Michael: Brandon Lee Harris
+  - Little Michael:
+    - Josiah Benson
+    - Bane Griffith
+  - Joseph Jackson/Rob: Devin Bowles
+  - Rachel: Mary Kate Moore
+  - Berry Gordy/Nick: J. Daughtry
+  - Tito Jackson/Quincy Jones: Josh A. Dawson
+  - Little Marlon: Bryce A. Holmes
+  - Dave: Matt Loehr
+  - Alejandro: Da’Von T. Moody
+  - Katherine Jackson: Anastasia Talley
+  - Jermaine Jackson: Jacobi Kai
+  - Jackie Jackson: Jay McKenzie
+  - Dance Captain: Kyle DuPree
+  - Assistant Dance Captain: JoJo Carmichael
+  - Ensemble:
+    - Jacobi Kai
+    - Jay McKenzie
+    - Croix DiIenno
+    - Kellie Drobnick
+    - Zuri Noelle Ford
+    - Matteo Marretta
+    - Chelsea Mitchell-Bonsu
+    - Brion Marquis Watson
+    - Malcolm Miles Young
+understudies:
+  - Swing:
+    - JoJo Carmichael
+    - Kyle DuPree
+    - Jahir L. Hipps
+    - Rajané Katurah
+    - Skye Jackson-Williams
+    - Kendrick Mitchell
+    - Zion Mikhail Pradier
+    - Ayla Stackhouse
+    - Charles P. Way
+  - MJ/Michael: Jordan Markus
 crew:
+  - Director & Choreographer: Christopher Wheeldon
+  - Musical Supervision, Orchestrations & Arrangements: David Holcenberg
+  - Scenic Design: Derek McLane
+  - Lighting Design: Natasha Katz
+  - Costume Design: Paul Tazewell
+  - Sound Design: Gareth Owen
+  - Projection Design: Peter Nigrini
+  - Hair & Wig Design: Charles LaPointe
+  - Makeup Design: Joe Dulude II
+  - Global Associate Director: Dontee Kiehn
+  - Global Associate Choreographer: Michael Balderrama
+  - Dance Supervisor: Justin Prescott
+  - Assistant Director: Christopher Campbell
+  - Orchestrations & Arrangements: Jason Michael Webb
+  - Music Director: Victor Simonson
+  - Casting:
+    - Rachel Hoffman, CSA
+    - Lindsay Levine, CSA
+    - The Telsey Office
+  - Production Stage Manager: Shawn Pennington
+  - Michael Jackson Movement: Rich + Tone Talauega
+  - Electronic Music Design: 
+    - Strange Cranium
+    - Billy Jay Stein
+    - Hiro Iida
+  - Music Coordinator: John Miller
+  - Company Manager: Justin Scholl
 orchestra:
 Genres:
   - Musical
