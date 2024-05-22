@@ -36,8 +36,14 @@ show_details:
   - Nicholas Hope
   - Jamie Wooten
 cast:
+  - Kari Ames-Bissette: Cait Kilhoffer
+  - Libby Ruth Ames: Amy Allen Farmer
+  - Dale Ellicott: Lee Hamby
+  - Monette Gentry: Cathy O'Brien
+  - Charlie Collins: Jennifer Farrow
+  - Deedra Wingate: Elizabeth Myers
 crew:
-- Director: Cathy O'Brien
+  - Director: Cathy O'Brien
 orchestra:
 Genres:
 - Play
