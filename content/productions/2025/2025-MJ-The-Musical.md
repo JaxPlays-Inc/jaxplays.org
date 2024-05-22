@@ -106,3 +106,34 @@ Description: "Step into the dazzling world of the King of Pop with *MJ The Music
 *MJ The Musical* offers an electrifying look at the creative mind and unparalleled artistry of Michael Jackson. Focusing on his rise to fame and the defining moments of his career, the musical features hits like 'Billie Jean,' 'Thriller' and 'Beat It.' As it delves into his groundbreaking music and innovative dance moves, the show also explores the challenges he faced and the legacy he left behind. 
 
 {{< youtube FwtzlaFKbK8 >}}
+
+#### Act I
+- 'Beat It' – MJ, Company, and Orchestra
+- 'Tabloid Junkie' / 'Price of Fame' – MJ and Rachel
+- 'Shout' / 'Papa's Got a Brand New Bag' / '(Your Love Keeps Lifting Me) Higher and Higher' – Ensemble
+- 'Climb Ev'ry Mountain' – Little Michael
+- 'The Love You Save' / 'I Want You Back' / 'ABC' – Little Michael, Little Marlon, Jermaine, Tito, Jackie
+- 'I'll Be There' – Katherine, Little Michael, MJ
+- 'Don't Stop 'Til You Get Enough' / 'Blame It on the Boogie' / 'Dancing Machine' – MJ, Teenage Michael, Marlon, Jermaine, Tito, Jackie and Company
+- 'Stranger in Moscow' – MJ
+- 'You Can't Win' – Berry Gordy and Teenage Michael
+- 'I Can't Help It' – Quincy Jones and Young Adult Michael
+- 'Keep the Faith' – Quincy Jones and Young Adult Michael
+- 'Wanna Be Startin' Somethin'' – Young Adult Michael, MJ, and Ensemble
+- 'Earth Song' / 'They Don't Care About Us' – MJ and Ensemble
+
+#### Act II
+- 'Billie Jean' – MJ
+- 'Smooth Criminal' – MJ and Ensemble
+- 'For the Love of Money' / 'Can You Feel It' – Joseph Jackson, Young Adult Michael, Marlon, Jermaine, Tito, Jackie and Orchestra
+- 'Money' – Joseph Jackson
+- 'Keep the Faith (Reprise)' – Rob, MJ, and Ensemble
+- 'She's Out of My Life' – MJ and Young Adult Michael
+- 'Jam' – MJ, Ensemble, and Orchestra
+- 'Human Nature' – MJ and Rachel
+- 'Bad' / '2 Bad' – MJ, Company and Orchestra
+- 'Price of Fame (Reprise)' – MJ
+- 'Thriller' – Little Michael, MJ, Joseph Jackson and Ensemble
+- 'Man in the Mirror' – Company
+- 'Jam (Reprise)' / 'Black or White' / 'Wanna Be Startin' Somethin' (Reprise)' – Company
+- 'Working Day and Night' – Orchestra
