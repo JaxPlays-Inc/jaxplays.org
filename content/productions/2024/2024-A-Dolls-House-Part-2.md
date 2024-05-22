@@ -26,7 +26,7 @@ featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 playbill:
 Website: https://www.limelight-theatre.org/season-32-shows-1/a-doll's-house-part-2
-Tickets: https://ci.ovationtix.com/34666/production/1165810
+Tickets: https://ci.ovationtix.com/34666/production/1197307
 show_details: 
 - Playwright: Lucas Hnath - wiki
 cast:
