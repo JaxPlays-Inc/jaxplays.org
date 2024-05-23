@@ -32,8 +32,39 @@ show_details:
     - Cynthia Weil
   - Basis: The songs of Carole King
 cast:
-- Carole King: Kailey Anderson
+  - Carole King: Kailey Anderson
+  - Gerry Goffin: Noah Gonzales-Hall
+  - Cynthia Weil: Brooklyn Klekamp
+  - Barry Mann: Chris Klekamp
+  - Don Kirshner: Tom Cassaro
+  - Genie Klein: Ingrid McCawley
+  - Neil Sadaka: Alec Hadden
+  - Nick: Jordan Northup
+  - Lou Adler: Chip Yant
+  - Betty: Ava Cash
+  - Marilyn Wald: Jill Banker
+  - Lucille: Helena Helms
+  - Drifters:
+    - Darvin Nelson
+    - Raphael Albea
+    - David Ford
+    - Darryl Beamon
+  - Righteous Brother: 
+    - Alec Hadden
+    - Jordan Northup
+  - Shirelles:
+    - Terria Hall
+    - Amari Dyson
+    - Felecia Ewing
+    - Arielle Bryant
+  - Ensemble: 
+    - Helena Helms
+    - Alec Hadden
+    - Jordan Northup
+    - Chip Yant
+    - Ava Cash
 crew:
+- Music Director: Anthony Felton
 - Production Assistant: Phedre Delinois
 orchestra:
 Genres:
