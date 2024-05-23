@@ -16,6 +16,24 @@ Website:
 Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
 show_details: 
 cast:
+  - Tarzan: Chris Berry
+  - Jane: Abigail Douglas
+  - Kerchak: Jeremy Obach
+  - Kala: Jocelyn Geronimo
+  - Terk: Elijah Simms
+  - Porter: David Gowan
+  - Clayton: Christopher Watson
+  - Snipes: Michael Dunne
+  - Young Tarzan: Elijah Lawless
+  - Ensemble:
+    - Gray Jensen
+    - Abby Doyle
+    - Courteney Phillips
+    - Ava Chung
+    - Savannah Lawless
+    - Darvin Nelson
+    - Ethan Walls
+    - Michael Dunne
 crew:
 - Director: Mike Beaman
 - Music Director: Anthony Felton
