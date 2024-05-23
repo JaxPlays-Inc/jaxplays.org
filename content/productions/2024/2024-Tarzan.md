@@ -1,0 +1,30 @@
+---
+title: Disney's Tarzan
+Theatre: Players by the Sea
+Venue: John McManus Mainstage Theatre
+date: 2024-05-23T14:58:02-04:00
+opening_date: 2024-07-12
+closing_date: 2024-07-28
+showtimes:
+featured_image: 2024-Tarzan.webp
+featured_image_alt: 
+featured_image_caption: Poster for 'Tarzan'
+featured_image_attr: 
+featured_image_attr_link: 
+playbill:
+Website: 
+Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
+show_details: 
+cast:
+crew:
+- Director: Mike Beaman
+- Music Director: Anthony Felton
+- Choreographer: Emma Cate Davis
+orchestra:
+Genres:
+  - Musical
+  - Adventure
+  - Family
+Description: "Swing into adventure with *Tarzan*, a thrilling musical that brings the beloved Disney animated film to life with heart-pounding music and breathtaking visuals."
+---
+Follow the journey of a young boy raised by gorillas in the African jungle as he grows up to become the heroic Tarzan. Torn between his animal family and his human origins, Tarzan faces a pivotal decision when he meets Jane Porter, a spirited explorer. Featuring a powerful score by Phil Collins, including songs like 'You'll Be in My Heart' and 'Two Worlds,' this musical captures the excitement and emotion of Tarzan's quest for identity and belonging.
