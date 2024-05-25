@@ -6,6 +6,15 @@ date: 2024-05-23T14:58:02-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-28
 showtimes:
+- 2024-07-12 20:00:00
+- 2024-07-13 20:00:00
+- 2024-07-14 14:00:00
+- 2024-07-19 20:00:00
+- 2024-07-20 20:00:00
+- 2024-07-21 14:00:00
+- 2024-07-26 20:00:00
+- 2024-07-27 20:00:00
+- 2024-07-28 14:00:00
 featured_image: 2024-Tarzan.webp
 featured_image_alt: 
 featured_image_caption: Poster for 'Tarzan'
@@ -35,9 +44,11 @@ cast:
     - Ethan Walls
     - Michael Dunne
 crew:
-- Director: Mike Beaman
-- Music Director: Anthony Felton
-- Choreographer: Emma Cate Davis
+  - Director: Mike Beaman
+  - Music Director: Anthony Felton
+  - Choreographer: Emma Cate Davis
+  - Stage Manager: Bethany Powell
+  - Costume Designer: Tracy Olin
 orchestra:
 Genres:
   - Musical
