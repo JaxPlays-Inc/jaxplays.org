@@ -4,9 +4,9 @@
   document.addEventListener('DOMContentLoaded', function() {
     var whichView = function(width) {
       if (width < 768) {
-        return 'listYear';
+        return 'listWeek';
       } else {
-        return 'listYear';
+        return 'listWeek';
       }
     };
 
@@ -15,6 +15,7 @@
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       height: 'auto',
+      firstDay: 1,
       initialView: initialViewSetting,
       multiMonthMaxColumns: 1,  // force a single column
       events: function(fetchInfo, successCallback, failureCallback) {
