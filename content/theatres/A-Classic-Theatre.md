@@ -3,7 +3,7 @@ title: A Classic Theatre
 layout: theatres
 category: theatres
 active: true
-featured_image: A_Classic_Theatre.png
+featured_image: A-Classic-Theatre.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
@@ -19,4 +19,8 @@ Socials:
 color: "#008db6"
 date: 2023-09-08T00:00:00-04:00
 ---
-A Classic Theatre is a vibrant performing arts organization founded in 2005 by Jean Rahner. Their mission is to produce a wide range of classic, historic, contemporary, and original plays that entertain, inspire critical thinking, and engage audiences. They value the highest quality productions, inclusive and nurturing environments for artists, embracing the diversity of St. Augustine's community, and collaboration with other arts organizations. Although without a permanent home, they have performed at various venues including the The Pioneer Barn and Lincolnville Museum and Cultural Center. Presently, thanks to the generosity of The City of St. Augustine and The St. Johns Cultural Council, they have a new home at The Waterworks Building. As A Classic Theatre looks to the future, the organization is filled with renewed energy and a commitment to discovering and embracing new playwrights. With a fresh voice, they continue to produce both classic and contemporary plays, ensuring a vibrant and captivating theater experience for their audiences.
+Performing in the historic Waterworks Building in St. Augustine, Florida, A Classic Theatre takes pride in producing a wide range of offerings that fit its mission of producing classic, contemporary and original works.
+
+We strive to produce plays that are relevant and timely, stimulate conversation, entertain and challenge our artists.
+
+Our goal is to entertain, inspire critical thinking and engage our audience through the performing arts providing entertainment to our local community and to the many visitors to our area.
