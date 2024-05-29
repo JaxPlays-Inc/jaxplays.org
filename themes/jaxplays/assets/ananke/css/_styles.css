@@ -29,6 +29,16 @@ a:hover:not(.no-underline):not(.link),
 	text-decoration: underline;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: var(--jaxplays-gold);
+}
+
+::selection {
+  color: black;
+  background: var(--jaxplays-gold);
+}
+
 .white {
 	color: #fff !important;
 }
