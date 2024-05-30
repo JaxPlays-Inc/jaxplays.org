@@ -7,191 +7,113 @@ var last = list.lastChild; // last child of search list
 var maininput = document.getElementById('searchInput'); // input box for search
 var resultsAvailable = false; // Did we get any search results?
 
-// ==========================================
-// The main keyboard event listener running the show
-//
 document.addEventListener('keydown', function(event) {
-  
-  // CMD-/ to show / hide Search
   if (event.metaKey && event.key === '/') {
-      // Load json search index if first time invoking search
       if(firstRun) {
         loadSearch();
         firstRun = false;
       }
-      
-      // Toggle display of search box
       const searchBox = document.getElementById("fastSearch");
-      if (searchBox.style.display === "flex") {
-        searchBox.style.display = "none";
-        document.activeElement.blur();
-        searchVisible = false;
-      } else {
-        searchBox.style.display = "flex";
-        document.getElementById("searchInput").focus();
-        searchVisible = true;
-      }
+      searchBox.style.display = searchBox.style.display === "flex" ? "none" : "flex";
+      document.getElementById("searchInput").focus();
+      searchVisible = !searchVisible;
   }
 
-  // Allow ESC (27) to close search box
-  if (event.key == 'Escape') {
-    if (searchVisible) {
-      document.getElementById("fastSearch").style.display = "none";
-      document.activeElement.blur();
-      searchVisible = false;
-    }
+  if (event.key == 'Escape' && searchVisible) {
+    document.getElementById("fastSearch").style.display = "none";
+    searchVisible = false;
   }
 
-  // DOWN (40) arrow
-  if (event.key == 'ArrowDown') {
-    if (searchVisible && resultsAvailable) {
-      // console.log("down");
-      event.preventDefault(); // stop window from scrolling
-      if ( document.activeElement == maininput) { first.focus(); } // if the currently focused element is the main input --> focus the first <li>
-      else if ( document.activeElement == last ) { last.focus(); } // if we're at the bottom, stay there
-      else { document.activeElement.parentElement.nextSibling.firstElementChild.focus(); } // otherwise select the next search result
-    }
+  if (event.key == 'ArrowDown' && searchVisible && resultsAvailable) {
+    event.preventDefault();
+    var active = document.activeElement;
+    if (active == maininput) { first.focus(); }
+    else if (active == last) { last.focus(); }
+    else { active.parentElement.nextSibling.firstElementChild.focus(); }
   }
 
-  // UP (38) arrow
-  if (event.key == 'ArrowUp') {
-    if (searchVisible && resultsAvailable) {
-      event.preventDefault(); // stop window from scrolling
-      if ( document.activeElement == maininput) { maininput.focus(); } // If we're in the input box, do nothing
-      else if ( document.activeElement == first) { maininput.focus(); } // If we're at the first item, go to input box
-      else { document.activeElement.parentElement.previousSibling.firstElementChild.focus(); } // Otherwise, select the search result above the current active one
-    }
+  if (event.key == 'ArrowUp' && searchVisible && resultsAvailable) {
+    event.preventDefault();
+    var active = document.activeElement;
+    if (active == maininput) { maininput.focus(); }
+    else if (active == first) { maininput.focus(); }
+    else { active.parentElement.previousSibling.firstElementChild.focus(); }
   }
 });
 
-
-// ==========================================
-// execute search as each character is typed
-//
 document.getElementById("searchInput").onkeyup = function(e) { 
   executeSearch(this.value);
-}
+};
 
-
-// ==========================================
-// fetch some json without jquery
-//
 function fetchJSONFile(path, callback) {
   var httpRequest = new XMLHttpRequest();
   httpRequest.onreadystatechange = function() {
-      if (httpRequest.readyState === 4) {
-          if (httpRequest.status === 200) {
-              var data = JSON.parse(httpRequest.responseText);
-              if (callback) callback(data);
-          }
+      if (httpRequest.readyState === 4 && httpRequest.status === 200) {
+          var data = JSON.parse(httpRequest.responseText);
+          if (callback) callback(data);
       }
   };
   httpRequest.open('GET', path);
   httpRequest.send(); 
 }
 
-
-// ==========================================
-// load our search index, only executed once
-// on first call of search box (CMD-/)
-//
 function loadSearch() { 
   fetchJSONFile('/index.json', function(data){
-
-      var options = { // fuse.js options; check fuse.js website for details
+      var options = {
         shouldSort: true,
         location: 0,
         distance: 100,
         threshold: 0.4,
         minMatchCharLength: 2,
-        keys: [
-          'title',
-          'permalink',
-          'summary'
-          ]
+        keys: ['title', 'permalink', 'summary']
       };
-
-      fuse = new Fuse(data, options); // build the index from the json file
-      
+      fuse = new Fuse(data, options); 
   });
 }
 
-
-// ==========================================
-// using the index we loaded on CMD-/, run 
-// a search query (for "term") every time a letter is typed
-// in the search box
-//
 function executeSearch(term) {
   let results = fuse.search(term);
-  console.log(results);  // Debug line to print the results
-
+  console.log(results); // Debug line to print the results
   let searchitems = '';
-
   if (results.length === 0) {
     resultsAvailable = false;
     searchitems = '';
   } else {
-    for (let item in results.slice(0, 5)) {
-      let date = results[item].item.date;
-      let section = results[item].item.section;
-
-      // Customize the date format based on the section
-      if (section === 'Productions') {
-        date = new Date(itemData.opening_date).getFullYear(); // Adjusted to get just the year from the opening_date 
+    results.slice(0, 5).forEach(result => {
+      let date = result.item.date;
+      let section = result.item.section;
+      if (section === 'Productions' && result.item.opening_date) {
+        date = new Date(result.item.opening_date).getFullYear();
       } else if (section === 'News' || section === 'Reviews') {
-        // Full date for News and Reviews
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         date = new Date(date).toLocaleDateString(undefined, options);
       } else {
         date = ''; // No date for other sections
       }
-      searchitems += `<li><a href="${results[item].item.permalink}" tabindex="0">` +
-                     `<span class="title">${results[item].item.title}</span><br />` +
+      searchitems += `<li><a href="${result.item.permalink}" tabindex="0">` +
+                     `<span class="title">${result.item.title}</span><br />` +
                      `<span class="sc">${section}</span> ${date ? '— ' + date : ''}</a></li>`;
-    }
+    });
     resultsAvailable = true;
   }
-
   document.getElementById("searchResults").innerHTML = searchitems;
-  if (results.length > 0) {
-    first = list.firstChild.firstElementChild;
-    last = list.lastChild.firstElementChild;
-  }
+  first = list.firstChild ? list.firstChild.firstElementChild : null;
+  last = list.lastChild ? list.lastChild.firstElementChild : null;
 }
 
 document.addEventListener("DOMContentLoaded", function() {
   const searchIcon = document.getElementById("search-icon");
-  const mobileSearchIcon = document.getElementById("mobile-search-icon"); // Add this line for the mobile search icon
-
-  // Event listener for desktop search icon
-  searchIcon.addEventListener("click", function(event) {
-    toggleSearch(event);
-  });
-
-  // Event listener for mobile search icon
-  mobileSearchIcon.addEventListener("click", function(event) { // Add this event listener for mobile
-    toggleSearch(event);
-  });
-
+  const mobileSearchIcon = document.getElementById("mobile-search-icon");
+  searchIcon.addEventListener("click", toggleSearch);
+  mobileSearchIcon.addEventListener("click", toggleSearch);
   function toggleSearch(event) {
     event.preventDefault();
-  
-    // Load json search index if first time invoking search
     if (firstRun) {
       loadSearch();
       firstRun = false;
     }
-
-    // Toggle display of search box
     const searchBox = document.getElementById("fastSearch");
-    if (searchBox.style.display === "flex") {
-      searchBox.style.display = "none";
-      searchVisible = false;
-    } else {
-      searchBox.style.display = "flex";
-      searchVisible = true;
-      // document.getElementById("searchInput").focus();
-    }
+    searchBox.style.display = searchBox.style.display === "flex" ? "none" : "flex";
+    searchVisible = !searchVisible;
   }
 });

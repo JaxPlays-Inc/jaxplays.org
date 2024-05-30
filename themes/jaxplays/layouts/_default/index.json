@@ -1,10 +1,18 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- $allowedSections := slice "people" "productions" "theatres" "venues" "news" "reviews" -}}
 {{- range where .Site.RegularPages "Section" "in" $allowedSections -}}
-    {{- $dateField := .Date -}}
-    {{- if and (eq .Section "productions") (.Params.opening_date) -}}
-        {{- $dateField = .Params.opening_date -}}
+    {{- $openingDate := "" -}}  
+    {{- if and (eq .Section "productions") (.Params.opening_date) -}}  
+        {{- $openingDate = .Params.opening_date -}}  
     {{- end -}}
-    {{- $.Scratch.Add "index" (dict "title" .Title "permalink" .Permalink "section" (.Section | title) "tags" .Params.tags "categories" .Params.categories "summary" (.Summary | markdownify | htmlUnescape | plainify) "date" $dateField) -}}
+    {{- $.Scratch.Add "index" (dict 
+        "title" .Title 
+        "permalink" .Permalink 
+        "section" (.Section | title) 
+        "tags" .Params.tags 
+        "categories" .Params.categories 
+        "summary" (.Summary | markdownify | htmlUnescape | plainify) 
+        "date" .Date 
+        "opening_date" $openingDate) -}} 
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
