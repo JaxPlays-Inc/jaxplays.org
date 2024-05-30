@@ -1,8 +1,11 @@
 User-agent: *
-{{/* robotstxt.org - if ENV production variable is false robots will be disallowed. */ -}}
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  -}}
+{{/* Check if we are in production mode */}}
+{{ if or (eq (getenv "HUGO_ENV") "production") (eq .Site.Params.env "production") }}
+Disallow: /genres/
+Disallow: /shows/
 Allow: /
 Sitemap: {{ "/sitemap.xml" | absURL }}
-{{ else -}}
+{{ else }}
+{{/* If not in production, disallow all crawling */}}
 Disallow: /
-{{ end -}}
+{{ end }}

@@ -116,3 +116,5 @@ outputs:
     - JSON
     - Calendar
     - Opening_Nights
+
+enableRobotsTXT: true
