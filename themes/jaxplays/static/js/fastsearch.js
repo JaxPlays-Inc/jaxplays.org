@@ -138,7 +138,7 @@ function executeSearch(term) {
 
       // Customize the date format based on the section
       if (section === 'Productions') {
-        date = new Date(date).getFullYear(); // Just the year for Productions
+        date = new Date(itemData.opening_date).getFullYear(); // Adjusted to get just the year from the opening_date 
       } else if (section === 'News' || section === 'Reviews') {
         // Full date for News and Reviews
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
