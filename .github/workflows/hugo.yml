@@ -88,6 +88,13 @@ jobs:
           status: ${{ job.status }}
           title: 'Success! Deployment Complete'
           message: 'Your update to jaxplays.org has been successfully deployed to GitHub Pages.'
+      - name: Ping Google Search Console
+        if: success()  
+        run: curl https://www.google.com/ping?sitemap=https://jaxplays.org/sitemap.xml
+      
+      - name: Ping Bing Search Console
+        if: success()
+        run: curl https://www.bing.com/ping?sitemap=https://jaxplays.org/sitemap.xml
 
       - name: Send Pushover Failure Notification
         if: failure()  # This ensures the step only runs if the previous steps failed

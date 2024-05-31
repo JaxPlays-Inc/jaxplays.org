@@ -2,7 +2,7 @@
 title: Cabaret
 Theatre: Greenlight Theatre Company
 Venue: John McManus Mainstage Theatre
-date: 2024-05-10T17:42:58
+date: 2024-05-31T16:41:08-04:00
 opening_date: 2024-05-31
 closing_date: 2024-06-02
 showtimes:
