@@ -18,9 +18,32 @@ featured_image_attr: Greenlight Theatre Company
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: 
+Tickets: https://www.greenlighttheatreco.com/jaxbeachonstage
 show_details: 
 cast:
+  - Sally Bowles: Catherine Tetzlaff
+  - Emcee: Jonathan Crawford
+  - Cliff Bradshaw: Jack Davis
+  - Fraulein Schneider: Brenda Schoenfeld
+  - Herr Schultz: Bob O'Hara
+  - Ernst Ludwig: Austin Kelley
+  - Fraulein Kost: Lisa Ciardulli
+  - Ensemble:
+    - Lauren Massais
+    - Chelsea Lucas
+    - Madi Egann
+    - Sydney Wissinger
+    - Ally Mecca
+    - Kim Cooper York
+    - Amaani Grant
+    - Assata Davis
+    - Mackenzie Moore
+    - Lisa Fleming
+    - Layla Thurman
+    - Shelton Medrano
+    - Ryan Sadler
+    - Mickey Titus
+    - Ethan Walls
 crew:
 orchestra:
 genres: 
