@@ -34,7 +34,7 @@ cast:
     - Mickey Titus
     - Ryan Sadler
     - Ethan Walls
-  - Kit Kay Girls:
+  - Kit Kat Girls:
     - Assata Davis
     - Sydney Wissinger
     - Mackenzie Moore
@@ -46,11 +46,14 @@ cast:
     - Madi Egann
     - Kim Cooper York
     - Amaani Grant
-    - Shelton Medrano
-    - Ryan Sadler
-    - Mickey Titus
-    - Ethan Walls
 crew:
+- Director: 
+  - Chris Milligan
+  - Rodney Holmes
+- Stage Design: 
+  - Chris Milligan
+  - Rodney Holmes
+- Choreographer: Reese Abrahamoff
 orchestra:
   - Violin: Assata Davis
   - Alto Saxophone: Hailey Wilson
