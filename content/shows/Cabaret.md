@@ -18,6 +18,36 @@ Genres:
   - Musical
   - Drama
   - Historical
-Description: "Step inside the Kit Kat Klub in 1930s Berlin, where the carefree decadence masks the looming shadows of political change. 'Cabaret' offers a gripping look at love, life, and identity on the brink of chaos."
+Description: "Step inside the Kit Kat Klub in 1930s Berlin, where the carefree decadence masks the looming shadows of political change. *Cabaret* offers a gripping look at love, life, and identity on the brink of chaos."
 ---
-Set against the backdrop of the rise of Nazi Germany, 'Cabaret' explores the intersecting lives of Sally Bowles, a vivacious cabaret performer, and Cliff Bradshaw, an American writer, drawn together in the hedonistic but politically turbulent world of Berlin. As they navigate the increasingly oppressive reality outside, the Kit Kat Klub continues its escapist performances, with the enigmatic Emcee providing both commentary and distraction. This powerful musical is both a seductive mirror of a society spiraling into peril and a poignant reminder of the resilience of the human spirit."
+Set against the backdrop of the rise of Nazi Germany, *Cabaret* explores the intersecting lives of Sally Bowles, a vivacious cabaret performer, and Cliff Bradshaw, an American writer, drawn together in the hedonistic but politically turbulent world of Berlin. As they navigate the increasingly oppressive reality outside, the Kit Kat Klub continues its escapist performances, with the enigmatic Emcee providing both commentary and distraction. This powerful musical is both a seductive mirror of a society spiraling into peril and a poignant reminder of the resilience of the human spirit.
+
+#### Act I
+
+- 'Willkommen' – Emcee and the Company
+- 'So What?' – Fräulein Schneider
+- 'Telephone Song/Telephone Dance' – Cliff and the Company
+- 'Don't Tell Mama' – Sally and the Girls
+- 'Mein Herr' – Sally and the Girls
+- 'Perfectly Marvelous' – Sally and Cliff
+- 'Two Ladies' – Emcee and Two Ladies
+- 'It Couldn't Please Me More (A Pineapple)' – Fräulein Schneider and Herr Schultz
+- 'Tomorrow Belongs to Me' – Emcee and Waiters
+- 'Why Should I Wake Up?' – Cliff
+- 'Don't Go' – Cliff
+- 'Maybe This Time' – Sally
+- 'Sitting Pretty' – Emcee and Kit Kats
+- 'Money' – Emcee and the Cabaret Girls
+- 'Married' – Fräulein Schneider and Herr Schultz
+- 'Meeskite' – Herr Schultz and Sally
+- 'Tomorrow Belongs to Me' (Reprise) – Fräulein Kost, Ernst Ludwig and Guests
+
+#### Act II
+
+- 'Entr'acte' / 'Kickline' – Emcee and the Girls
+- 'Married' (Reprise) – Herr Schultz
+- 'If You Could See Her (The Gorilla Song)' – Emcee
+- 'What Would You Do?' – Fräulein Schneider
+- 'I Don't Care Much' – Emcee
+- 'Cabaret' – Sally
+- 'Willkommen (Reprise)' / 'Finale Ultimo' – Emcee, Cliff and Company
