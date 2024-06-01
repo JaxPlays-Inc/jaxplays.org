@@ -28,24 +28,33 @@ cast:
   - Herr Schultz: Bob O'Hara
   - Ernst Ludwig: Austin Kelley
   - Fraulein Kost: Lisa Ciardulli
-  - Ensemble:
-    - Lauren Massais
-    - Chelsea Lucas
-    - Madi Egann
-    - Sydney Wissinger
-    - Ally Mecca
-    - Kim Cooper York
-    - Amaani Grant
+  - Max: Shelton Medrano
+  - Dance Captain: Madi Egann
+  - Kit Kat Boys:
+    - Mickey Titus
+    - Ryan Sadler
+    - Ethan Walls
+  - Kit Kay Girls:
     - Assata Davis
+    - Sydney Wissinger
     - Mackenzie Moore
     - Lisa Fleming
+    - Lauren Massais
     - Layla Thurman
+    - Chelsea Lucas
+    - Ally Mecca
+    - Madi Egann
+    - Kim Cooper York
+    - Amaani Grant
     - Shelton Medrano
     - Ryan Sadler
     - Mickey Titus
     - Ethan Walls
 crew:
 orchestra:
+  - Violin: Assata Davis
+  - Alto Saxophone: Hailey Wilson
+  - Baritone Saxophone: Thain Day
 genres: 
 Description: 
 ---
