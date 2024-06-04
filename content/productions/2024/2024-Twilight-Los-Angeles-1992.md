@@ -1,5 +1,7 @@
 ---
 title: "Twilight: Los Angeles, 1992"
+aliases: 
+ - /productions/2024-2024-twilight-los-angeles-1992/
 Theatre: The 5 & Dime
 Venue: BABS' LAB
 date: 2024-05-21T19:23:07-04:00
@@ -16,7 +18,7 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: 
+Tickets: https://www.eventbrite.com/e/twilight-los-angeles-1992-tickets-882541644817?aff=jaxplays
 show_details: 
 - Playwright: Anna Deveare Smith
 cast:
