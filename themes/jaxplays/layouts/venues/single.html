@@ -5,6 +5,8 @@
     <h1 class="f3 f2-l f1-m tc tl-ns ">
       {{ .Title }}
     </h1>
+    {{ $venueUrl := .RelPermalink }}
+    {{ $venuePage := . }}
     {{ $featuredImage := .Params.featured_image }}
     {{ $featuredImageCaption := .Params.featured_image_caption }}
     {{ $featuredImageAttr := .Params.featured_image_attr }}
@@ -53,18 +55,44 @@
           {{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}
           <a href="{{ .Params.website }}" target="_blank" class="link db nowrap">{{ $website }}</a>
           {{ end }}
-          {{ if and .Params.website .Params.phone }}
-          <span class="nowrap">&nbsp;•&nbsp;</span>
-          {{ end }}
-          {{ if .Params.phone }}
-          <a href="tel:{{ .Params.phone }}" class="link db nowrap">{{ .Params.phone }}</a>
-          {{ end }}
         </div>
         {{ end }}
 
       </div>
     </div>
     {{ end }}
+
+    <!-- Map and Address Integration Start -->
+    <div class="nested-copy-line-height lh-copy f4-ns f5 mb4 dark-gray">
+      <h3 class="f3 mt4 mb3 sectionline">Details</h3>
+      <div class="flex flex-column flex-row-ns">
+        <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
+          <div class="w-75 w-100-ns ph1 ph0-ns">
+            <span class="b db mb3">{{ .Title }}</span>
+            {{ with $venuePage.Params.address }} <!-- Access the 'Address' parameter -->
+            {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+            <ul class="map_links list mv1 pl0">
+              <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+              <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE "%0A" "%20" }}">Apple Maps</a></li>
+              <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE "%0A" "%20" }}">Waze Maps</a></li>
+            </ul>
+            {{ end }}
+            {{ if .Params.phone }}
+            <a href="tel:{{ .Params.phone }}" class="link db nowrap mt3">☎ {{ .Params.phone }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">
+          <!-- Venue Map Section -->
+          <div class="w-100 pv3 pv0-ns flex flex-column items-start justify-start">
+            {{ if and $venuePage.Params.latitude $venuePage.Params.longitude }}
+              {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.latitude "Longitude" $venuePage.Params.longitude "Title" $venuePage.Title "Address" $venuePage.Params.address "id" 1) }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Map and Address Integration End -->
 
     <!-- Venue Productions Section -->
 
