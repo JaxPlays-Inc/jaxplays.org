@@ -20,7 +20,7 @@ featured_image_caption:
 Theatre: Jacksonville University - Stein College
 Venue: 
 - Swisher Theater
-- Nathan H. Wilson Center for the Arts
+- Wilson Center - Main Stage Theatre
 show_details:
 - Music: Lin-Manuel Miranda - wiki
 - Lyrics: Lin-Manuel Miranda

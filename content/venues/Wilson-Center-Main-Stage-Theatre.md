@@ -1,6 +1,9 @@
 ---
 title: Wilson Center - Main Stage Theatre
-published: false
+date: 2024-06-12T13:14:43-04:00
+aliases: 
+  - /venues/nathan-h-wilson-center-for-the-arts
+published: true
 active: true
 featured_image: Nathan_H_Wilson_Center_for_the_Arts.png
 featured_image_attr: fscj.edu
@@ -10,13 +13,13 @@ Founded:
 Address: |
     11901 Beach Blvd
     Jacksonville, FL 32246
-Latitude: 30.29008090465963
-Longitude: -81.51068393074928
+Latitude: 30.290354776170197
+Longitude: -81.51090454243791
 Socials:
     Facebook: WilsonCenterfortheArts
     Website: https://www.fscj.edu/campuses/south-campus/wilson-center
 Phone: 1-904-646-2300
-date: 2023-09-08T00:00:00-04:00
+
 ---
 The Main Stage Theatre is the Nathan H. Wilson Center for the Arts's flagship, featuring 500 seats and a classic proscenium arch. Ideal for large-scale performances, the Main Stage hosts a diverse array of programming, from opera and dance to multidisciplinary productions that integrate visual art, music, and theatre.
 
