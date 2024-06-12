@@ -74,11 +74,25 @@
     {{ $currentlyOnStage := slice }}
     {{ $comingSoon := slice }}
     {{ $pastProductions := slice }}
-
-    {{/* Iterate through productions and categorize them */}}
-    {{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
-      {{/* Check if the production's venue matches the current venue or any of its aliases */}}
-      {{ if or (eq .Params.Venue $venueName) (in $venueAliases .Params.Venue) }}
+    
+    {{ range sort (where .Site.Pages "Type" "productions") "Params.opening_date" "desc" }}
+      {{ $productionVenue := .Params.venue }}
+      {{ $matchesVenue := false }}
+      {{/* Check if production venue is a string and matches venue name or any alias */}}
+      {{ if reflect.IsSlice $productionVenue }}
+        {{/* If $productionVenue is a slice, check each item */}}
+        {{ range $productionVenue }}
+          {{ if or (eq . $venueName) (in $venueAliases .) }}
+            {{ $matchesVenue = true }}
+            {{ break }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{/* Directly compare if $productionVenue is not a slice */}}
+        {{ $matchesVenue = or (eq $productionVenue $venueName) (in $venueAliases $productionVenue) }}
+      {{ end }}
+    
+      {{ if $matchesVenue }}
         {{ $openingDate := "" }}
         {{ $endDate := "" }}
         {{ with .Params.opening_date }}
@@ -97,8 +111,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-    {{ end }}
-
+    {{ end }}    
 
     <!-- START Venue Productions Section-->
 
