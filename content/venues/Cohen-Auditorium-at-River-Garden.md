@@ -1,6 +1,6 @@
 ---
 title: Cohen Auditorium at River Garden
-date: 2024-04-03T16:23:37-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: 
 featured_image_attr: 
@@ -18,5 +18,5 @@ Socials:
   Instagram: 
   Threads:
   Website: 
-Phone: +19042601818
+Phone: 19042601818
 ---

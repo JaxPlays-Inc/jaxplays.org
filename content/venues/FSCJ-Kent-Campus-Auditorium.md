@@ -1,6 +1,6 @@
 ---
 title: FSCJ Kent Campus Auditorium
-date: 2024-03-25T20:10:46-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: FSCJ.webp
 featured_image_attr: 
@@ -17,7 +17,7 @@ Socials:
   Twitter: 
   Instagram: 
   Threads:
-  Website: 
-Phone: 	https://www.fscj.edu/campuses/kent-campus
+  Website: https://www.fscj.edu/campuses/kent-campus
+Phone: 
 ---
 The FSCJ Kent Campus Auditorium, located in room F128, serves as a versatile venue for various events ranging from academic lectures and seminars to cultural performances and community gatherings. This auditorium is designed to accommodate a diverse range of activities, providing a centralized space for students, faculty and guests to engage in educational and cultural exchanges.

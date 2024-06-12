@@ -1,5 +1,6 @@
 ---
 title: Ponte Vedra Concert Hall
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Ponte-Vedra-Concert-Hall.webp
 featured_image_attr: 
@@ -21,7 +22,6 @@ Socials:
   Website: https://www.pvconcerthall.com/
 Phone: 
 Press: 
-date: 2023-09-08T00:00:00-04:00
 ---
 Situated in Ponte Vedra Beach, Florida, the Ponte Vedra Concert Hall is an exceptional multi-purpose venue managed by the St. Johns County Cultural Events Division. Renowned for hosting a diverse lineup of over 140 performances and events each year, the hall is a sought-after destination for artists.
 

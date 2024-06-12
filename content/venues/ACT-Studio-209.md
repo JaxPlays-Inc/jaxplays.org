@@ -1,5 +1,6 @@
 ---
 title: ACT Studio 209
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Amelia_Community_Theatre.png
 featured_image_attr:
@@ -16,7 +17,6 @@ Socials:
   Twitter: ACTAmelia
   Instagram: ameliacommunitytheatre
   Website: https://www.ameliacommunitytheatre.org
-Phone: 1-904-261-6749
-date: 2023-09-08T00:00:00-04:00
+Phone: 19042616749
 ---
 Studio 209, part of the Amelia Community Theatre in Fernandina Beach, Florida, is a multifunctional performance space designed for intimate productions and community events. The venue focuses on experimental works, smaller-scale plays, and interactive workshops, providing a platform for both emerging and established artists.

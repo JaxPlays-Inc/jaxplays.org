@@ -1,5 +1,6 @@
 ---
 title: Wilson Center - Studio Theatre
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Nathan_H_Wilson_Center_for_the_Arts.png
 featured_image_attr: fscj.edu
@@ -14,8 +15,7 @@ Longitude: -81.51068393074928
 Socials:
     Facebook: WilsonCenterfortheArts
     Website: https://www.fscj.edu/campuses/south-campus/wilson-center
-Phone: 1-904-646-2300
-date: 2023-09-08T00:00:00-04:00
+Phone: 19046462300
 ---
 The Studio Theatre offers a more intimate setting within the Nathan H. Wilson Center for the Arts. Specifically designed for smaller audiences, this versatile space hosts a wide range of events, from experimental theatre and intimate performances to business meetings and social gatherings, all complemented by the adjacent Conference Center.
 

@@ -78,8 +78,11 @@
             </ul>
             {{ end }}
             {{ if .Params.phone }}
-            <a href="tel:{{ .Params.phone }}" class="link db nowrap mt3">☎ {{ .Params.phone }}</a>
-            {{ end }}
+            <!-- Format the phone number -->
+            {{ $phone := .Params.phone }}
+            {{ $formattedPhone := printf "(%s) %s-%s" (substr $phone 1 3) (substr $phone 4 3) (substr $phone 7 4) }}
+            <a href="tel:{{ $phone }}" class="link db nowrap mt3">☎ {{ $formattedPhone }}</a>
+          {{ end }}        
           </div>
         </div>
         <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">

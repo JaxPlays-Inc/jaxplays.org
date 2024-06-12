@@ -1,6 +1,6 @@
 ---
 title: Hicks Auditorium at the Main Library
-date: 2024-04-21T12:32:51-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Hicks-Auditorium.webp
 featured_image_attr: Jacksonville Public Library
@@ -18,7 +18,7 @@ Socials:
   Instagram: 
   Threads:
   Website: https://jaxpubliclibrary.org/conference-center
-Phone: 904-255-6198
+Phone: 19042556198
 Email: jplconference@coj.net
 Capacity: 391
 ---

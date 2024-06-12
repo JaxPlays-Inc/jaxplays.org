@@ -1,5 +1,6 @@
 ---
 title: The Florida Ballet
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: The_Florida_Ballet.jpeg
 featured_image_attr:
@@ -19,7 +20,6 @@ Socials:
   website: https://floridaballet.org
 Press: 
 - The Florida Ballet is moving to Arlington: https://www.jaxdailyrecord.com/news/2019/jul/31/the-florida-ballet-is-moving-to-arlington/
-date: 2023-09-08T00:00:00-04:00
 ---
 The Florida Ballet relocated to the former YMCA space at 10131 Atlantic Boulevard in Arlington in 2019. The organization purchased the 3.35-acre site and 28,504-square-foot building for $1.55 million, moving from its previous location at 300 E. State St. in Downtown. The relocation was made to accommodate the growth of the program and to provide the organization with more space, parking, and resources to meet the evolving needs of the ballet community. 
 

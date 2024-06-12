@@ -1,5 +1,6 @@
 ---
 title: St. John's Cathedral
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: St-Johns-Cathedral.webp
 featured_image_attr: 
@@ -18,7 +19,6 @@ Socials:
     YouTube: SaintJohnsCathedral
     Website: https://www.jaxcathedral.org/
 Phone: 
-date: 2023-09-08T00:00:00-04:00
 ---
 St. John's Cathedral is a historical landmark situated atop Billy Goat Hill, the highest geographical point in the original city limits of Jacksonville. As a congregation deeply rooted in the heart of the city, the Cathedral has been instrumental in various ministries, extending its outreach to the homeless, children, and the elderly. With an emphasis on promoting the arts, education, and healthcare, St. John's Cathedral is committed to creating a vibrant, diverse neighborhood around Billy Goat Hill.
 

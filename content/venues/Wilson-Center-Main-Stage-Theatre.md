@@ -1,6 +1,6 @@
 ---
 title: Wilson Center - Main Stage Theatre
-date: 2024-06-12T13:14:43-04:00
+date: 2024-06-12T18:46:30-04:00
 aliases: 
   - /venues/nathan-h-wilson-center-for-the-arts
 published: true
@@ -18,7 +18,7 @@ Longitude: -81.51090454243791
 Socials:
     Facebook: WilsonCenterfortheArts
     Website: https://www.fscj.edu/campuses/south-campus/wilson-center
-Phone: 1-904-646-2300
+Phone: 19046462300
 
 ---
 The Main Stage Theatre is the Nathan H. Wilson Center for the Arts's flagship, featuring 500 seats and a classic proscenium arch. Ideal for large-scale performances, the Main Stage hosts a diverse array of programming, from opera and dance to multidisciplinary productions that integrate visual art, music, and theatre.

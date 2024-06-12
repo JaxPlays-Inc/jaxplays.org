@@ -1,5 +1,6 @@
 ---
 title: The Center for Spiritual Living
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Center-for-Spiritual-Living.webp
 featured_image_attr: 
@@ -14,6 +15,5 @@ Longitude: -81.3264937386307
 Socials:
     Facebook: cslstaugustine
     Website: https://cslstaugustine.org/
-Phone: 1-904-825-3600
-date: 2023-09-08T00:00:00-04:00
+Phone: 19048253600
 ---

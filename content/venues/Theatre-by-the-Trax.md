@@ -1,5 +1,6 @@
 ---
 title: Theatre by the Trax
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Theatre-by-the-Trax.webp
 featured_image_attr: Ray Hollister
@@ -14,7 +15,6 @@ Longitude: -81.54476339877564
 Socials:
   Facebook: StMarysLittleTheatre
   Website: https://www.stmaryslittletheatre.com/pages/theatre-by-the-trax-events
-Phone: 1-954-290-9873
-date: 2023-09-08T00:00:00-04:00
+Phone: 19542909873
 ---
 The Theatre by the Trax is not just a performance space but also a community gathering spot. Nestled in the heart of St. Marys, it offers an intimate setting that amplifies the experience of live performances. The theatre is equipped with modern amenities to enhance the viewing experience while retaining a local charm that makes it a beloved landmark. From thought-provoking dramas to family-friendly musicals, the venue's eclectic programming serves a broad audience, making it a must-visit for culture enthusiasts in the area.

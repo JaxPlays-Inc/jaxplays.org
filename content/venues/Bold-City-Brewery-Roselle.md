@@ -1,6 +1,6 @@
 ---
 title: Bold City Brewery - Roselle
-date: 2024-06-12T12:58:21-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Bold-City-Brewery.webp
 featured_image_attr: 
@@ -18,5 +18,5 @@ Socials:
   Instagram: boldcitybrewery
   Threads:
   Website: https://boldcitybrewery.com/
-Phone: 	
+Phone: 19043796551
 ---

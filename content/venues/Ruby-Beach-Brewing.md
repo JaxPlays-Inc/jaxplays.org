@@ -1,6 +1,6 @@
 ---
 title: Ruby Beach Brewing
-date: 2024-06-12T12:58:19-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Ruby-Beach-Brewing.webp
 featured_image_attr: 
@@ -18,5 +18,5 @@ Socials:
   Instagram: rubybeachbrewing
   Threads:
   Website: https://www.rubybeachbrewing.com/
-Phone: 	(904) 647-6044
+Phone: 19046476044
 ---

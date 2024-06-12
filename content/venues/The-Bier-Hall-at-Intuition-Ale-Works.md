@@ -1,6 +1,6 @@
 ---
 title: The Bier Hall at Intuition Ale Works
-date: 2024-05-20T13:39:02-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Intuition-Ale-Works.webp
 featured_image_attr: 
@@ -18,6 +18,6 @@ Socials:
   Instagram: intuition_ale_works
   Threads:
   Website: https://intuitionaleworks.com/bierhall/
-Phone: (904) 683-7720
+Phone: 19046837720
 ---
 The Bier Hall at Intuition Ale Works, established in November 2019, is a dedicated live music venue located in the heart of Downtown Jacksonville. Born from Intuition's passion for combining great beer with live music, this 6,000-square-foot space was the vision of the late legendary promoter Tib Miller. Miller aimed to introduce new artists to the Jacksonville scene, making The Bier Hall a hotspot for both local and touring bands. The venue's creation was inspired by the brewery's initial success with hosting concerts after moving to Bay Street in 2016.

@@ -1,5 +1,6 @@
 ---
 title: Lewis Auditorium
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Lewis-Auditorium.webp
 featured_image_attr:  St. Johns Cultural Council
@@ -14,6 +15,5 @@ Longitude: -81.31446522883559
 Socials:
   Website: https://www.flagler.edu/information-for/community-members/event-venue-rentals-and-weddings/
 Phone: 
-date: 2023-09-08T00:00:00-04:00
 ---
 Lewis Auditorium at Flagler College is a state-of-the-art performance venue located in St. Augustine, Florida. With a seating capacity of around 800, the auditorium is known for its excellent acoustics and modern amenities. It serves as a cultural hub, hosting a variety of events such as concerts, plays, lectures, and community gatherings. The venue combines historic charm with contemporary technology, offering a unique experience for both performers and audiences alike.

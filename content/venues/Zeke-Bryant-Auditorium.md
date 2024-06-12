@@ -1,6 +1,6 @@
 ---
 title: Zeke Bryant Auditorium
-date: 2024-03-20T16:51:25-04:00
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: FSCJ.webp
 featured_image_attr: 

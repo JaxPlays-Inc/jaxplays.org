@@ -1,5 +1,6 @@
 ---
 title: Koger-Gamache Studio Theatre
+date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Limelight_Theatre.jpeg
 featured_image_attr:
@@ -16,7 +17,6 @@ Socials:
   Twitter: limelightstaug
   Instagram: limelightstaug
   Website: https://limelight-theatre.org
-Phone: 1-904-825-1164
-date: 2023-09-08T00:00:00-04:00
+Phone: 19048251164
 ---
 The Koger-Gamache Studio Theatre is a black box performance space located within the [Limelight Theatre](/theatres/limelight-theatre) in St. Augustine, Florida. The theater has a seating capacity of 75-90 people and offers a versatile space for experimental, intimate, and contemporary performances. The space features state-of-the-art lighting and sound systems, as well as flexible seating arrangements that allow for various staging configurations. The Koger-Gamache Studio Theatre is an important addition to the Limelight Theatre's facilities, providing a smaller venue for more intimate productions and expanding the theater's programming capabilities.
