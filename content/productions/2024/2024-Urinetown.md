@@ -30,6 +30,22 @@ show_details:
   - Mark Hollmann
   - Greg Kotis
 cast:
+  - Bobby Strong: Chris Robertson
+  - Hope Cladwell: Aly Blakewell
+  - Caldwell B. Cladwell: David Sacks
+  - Penelope Pennywise: Emily Charleton
+  - Officer Lockstock: Tom Cassaro
+  - Officer Barrel: Josh Katzman
+  - Little Sally: Shauna Clark
+  - Hot Blades Harry/Old Man Strong: Matt Barnes
+  - Little Becky Two Shoes: Heather Starling
+  - Josephine "Ma" Strong: Adele Vespa
+  - Senator Fipp: Neal Thorburn
+  - Mr. McQueen/Rebel/Cop: Terry Glover
+  - Dr. Billeaux/Tiny Tom/Cop: Anvar Gashimov
+  - Soupy Sue/Mrs. Millennium/Cop: Julia Fallon
+  - Robby the Stockfish: Dineen Liriano
+  - Rebel/UGC: Sandy Blakewell
 crew:
 - Director: Bradley Akers
 - Musical Director: Erin Barnes
