@@ -1,6 +1,10 @@
 ---
 title: Austin Kelley
 date: 2024-06-13T09:52:45-04:00
+aliases: 
+  - /people/austin-kelly
+other_names: 
+ - Austin Kelly
 featured_image: Austin-Kelley.webp
 featured_image_attr: 
 featured_image_attr_link: 
