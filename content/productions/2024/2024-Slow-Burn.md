@@ -25,7 +25,30 @@ Tickets:
 show_details: 
 - Playwright: Edward Albee
 cast:
+  - Featuring: 
+    - Valerie Anthony
+    - Sam Cobean
+    - Jackson Gloumeau
+    - Katie Johnston
+    - Jen Mercer
+    - David Alford
+    - Brian Niece
 crew:
+  - Director: 
+    - David Alford
+    - Brian Niece
+  - Assistant Director: Josh Andrews
+  - Stage Manager: 
+    - Kate McManus
+    - Josh Andrews
+  - Technical Director: Mike Livingston
+  - Scenic and Props Designer: Claire Cimino
+  - Lighting Designer: Daniel Dungan
+  - Costume Designer: Camala Pitts
+  - Sound Designer: Brian Niece
+  - Fight Choreographer: Fulton Burns
+  - Production Manager: Katie Swider
+  - Assistant Stage Manager: Hayley Smith
 orchestra:
 # Slow Burn: Edward Albee’s One Acts: The American Dream & Zoo Story
 Genres:
@@ -36,6 +59,6 @@ Description: "Experience the searing intensity of Edward Albee’s *The American
 ---
 In *The American Dream*, Albee exposes the hollowness of the American family through a biting satire that critiques societal norms and the pursuit of materialism. This darkly comedic play features a dysfunctional family whose bizarre interactions reveal the underlying emptiness of their lives.
 
-*'*Zoo Story*, Albee’s first major work, brings two strangers together in New York City's Central Park. As Peter, a complacent publishing executive, and Jerry, a volatile drifter, engage in a conversation that escalates to a shocking climax, the play explores themes of isolation, communication, and existential despair.
+*Zoo Story*, Albee’s first major work, brings two strangers together in New York City's Central Park. As Peter, a complacent publishing executive, and Jerry, a volatile drifter, engage in a conversation that escalates to a shocking climax, the play explores themes of isolation, communication, and existential despair.
 
 Presented together in *Slow Burn*, these one-act plays offer a powerful and unsettling examination of contemporary life, showcasing Albee's sharp wit and profound insight into the human experience.
