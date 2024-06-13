@@ -77,6 +77,45 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1458&code=WWW&qty_target=0
 show_details: 
 cast:
+  - Narrator: Aaron DeCicco
+  - Joseph: Markus Mann
+  - Potiphar: Pete Clapsis
+  - Mrs. Potiphar: Christina Jordan
+  - Pharaoh: Justin Murphy
+  - Baker/Male Ensemble: Johnny Flannagan
+  - Reuben: Eric DiCicco
+  - Simeon: Kole Mitchell McKinley
+  - Levi/Butler: Reese Abrahamoff
+  - Judah: James Duncan
+  - Dan: Augustino Pulliam
+  - Naphtali: Richard Yarrell III
+  - Gad: Jonathan Crawford
+  - Asher: Sterling Hart
+  - Issachar: Liam Laverly
+  - Zebulon: Mickey Titus
+  - Benjamin: Trey Murphy
+  - Female Ensemble:
+    - Brooklyn Klekamp
+    - Shannon Jane Bradly
+    - Sheila Murphy
+    - Terria Hill
+  - Youth Ensemble:
+    - Kat DiCicco
+    - London J Syphertt
+    - Daniel Champeau
+    - Kai Zandman
+    - Collin Galvin
+    - Vanson Michael Voce
+    - Tehani Brantley
+    - Kennedy Swartz
+    - Cadence McIntire
+    - Zachary Swartz
+    - Jonah McIntire
+    - Delia Doyle
+    - Everly Doyle
+    - Emma Decker
+    - Baylee Weidner
+    - Salka Corring
 crew:
 orchestra:
 # Joseph and the Amazing Technicolor Dreamcoat
