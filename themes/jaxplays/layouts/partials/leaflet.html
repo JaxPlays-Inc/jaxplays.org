@@ -7,6 +7,9 @@
 
 <link href="/leaflet/extramarkers/css/fontawesome.css" rel="stylesheet">
 
+<link rel="stylesheet" href="/leaflet/zoomhome/leaflet.zoomhome.css"/>
+<script src="/leaflet/zoomhome/leaflet.zoomhome.min.js"></script>
+
 <!-- Initialize Map -->
 <div id="map{{ .id }}" style="height: 400px; width: 100%;"></div>
 <script>
@@ -20,9 +23,13 @@
     var setZoom = {{ with .setZoom }}{{ . }}{{ else }}15{{ end }};
     var radius = {{ with .radius }}{{ . }}{{ else }}""{{ end }};
 
-    // Initialize map
+    // Initialize map with disabled default zoom control
     var mapId = 'map' + {{ .id }};
-    var mymap = L.map(mapId).setView([lat, lng], setZoom);
+    var mymap = L.map(mapId, {zoomControl: false}).setView([lat, lng], setZoom);
+
+    // Add zoomhome control
+    var zoomHome = L.Control.zoomHome();
+    zoomHome.addTo(mymap);
 
     // Stadia_StamenToner Layer
     var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
