@@ -29,7 +29,8 @@ cast:
   - Meredith Parker: Amy Allen Farmer
   - Dr. Thomas Parker: Josh Waller
   - Shelley Parker: Julia Blasi
-  - Sheriff Reynolds: Evan Gould
+  - Sheriff Reynolds: Bill Ratliff
+  - Rick/Ned: Rylan Serrano
   - Ron: Raphael Albea
   - Ruthie: Ella Escamilla
   - Mrs. Taylor: Phedre Delinois
@@ -38,7 +39,6 @@ cast:
   - Bud/Pan: Frankie Rady
   - Lorraine: Ilana Marshall
   - Daisy: Adriana Williams
-  - Ned: Bill Ratliff
   - Roy: Jennifer O'Brien
   - Clem: Jim Warren
 crew:
