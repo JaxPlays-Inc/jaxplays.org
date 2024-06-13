@@ -3,7 +3,7 @@ layout: productions
 title: Southern Fried Funeral
 redirect_from:
 - /productions/2022_Southern_Fried_Funeral
-date: 2023-09-08T00:00:00
+date: 2024-06-12T23:43:49-04:00
 opening_date: 2022-05-13
 closing_date: 2022-05-22
 featured_image: 2022_Southern_Fried_Funeral.jpeg
@@ -11,7 +11,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 Theatre: St. Marys Little Theatre
-Venue: Theatre by the Trax
+Venue: Theater by the Trax
 show_details:
 - Writer: 
   - J. Dietz Osborne

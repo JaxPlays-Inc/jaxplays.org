@@ -1,6 +1,6 @@
 ---
 title: The Savannah Sipping Society
-date: 2023-09-08T00:00:00
+date: 2024-06-12T23:44:16-04:00
 opening_date: 2023-05-05
 closing_date: 2023-05-14
 layout: productions
@@ -9,7 +9,7 @@ featured_image_caption:
 featured_image_attr:
 playbill:
 Theatre: St. Marys Little Theatre
-Venue: Theatre by the Trax
+Venue: Theater by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa
 Description: "In *The Savannah Sipping Society*, four Southern women navigate life's curveballs, love, and, of course, happy hour. It's a hilarious, heartwarming romp where the tea is sweet, but the comebacks are sweeter."
 showtimes:
