@@ -1,4 +1,4 @@
-{{ $urlName := .urlName | urlize }}
+{{ $urlName := .urlName | replaceRE "\\." "" | urlize }}
 {{ $foundPage := .site.GetPage (print "/people/" $urlName) }}
 {{ if not $foundPage }}
   {{ range .site.Pages }}

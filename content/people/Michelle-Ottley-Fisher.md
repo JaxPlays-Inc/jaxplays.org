@@ -3,9 +3,11 @@ title: Michelle Ottley-Fisher
 aliases: 
   - /people/michelle-ottley
   - /people/michelle-j-ottley
+  - /people/michele-j-ottley
 other_names: 
- - Michelle Ottley
- - Michelle J. Ottley
+  - Michelle Ottley
+  - Michelle J. Ottley
+  - Michele J. Ottley
 layout: people
 featured_image: 
 featured_image_attr: 
