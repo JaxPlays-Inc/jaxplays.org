@@ -1,9 +1,13 @@
 ---
 title: As You Like It
 date: 2023-09-08T00:00:00
-opening_date: 1994-12-31
-approx_date: year
-closing_date:
+opening_date: 1994-09-15
+closing_date: 1994-09-18
+showtimes:
+- 1994-09-15 20:00:00
+- 1994-09-16 20:00:00
+- 1994-09-17 20:00:00
+- 1994-09-18 20:00:00
 layout: productions
 playbill:
 Theatre: Theatre Jacksonville
@@ -92,4 +96,6 @@ crew:
 - Director of Parks and Recreation: Laura D'Alisera
 - Metropolitan Parks Manager: Earl Simms
 - Executive Director: Robert Arleigh White
+Press:
+- "Theater in the park revived | Spinnaker - Page 8, September 7, 1994": https://digitalcommons.unf.edu/cgi/viewcontent.cgi?article=1291&context=spinnaker
 ---
