@@ -26,8 +26,39 @@ Website:
 Tickets: 
 show_details: 
 cast:
+  - Belle: Melissa Fletcher
+  - Beast: Charlie Gilyard
+  - Cogsworth: Sam Swartz
+  - Gaston: Chris Copeland
+  - Lefou: Jezreel Pina
+  - Lumiere: Matt Kodatt
+  - Maurice: Bill Hamilton
+  - Mrs. Potts: Caroline Yazdiya
+  - Babette: Kay Rodriguez
+  - Chip: J'leigh Copeland
+  - Madame Le Grande: Tori Grear
+  - Ensemble:
+    - Rebecca Turngren
+    - Layle Cece
+    - Lily Wuggazer
+    - Hattie Berwind
+    - Ava Baker
+    - Landon Emerson
+    - Luke Snow
+    - Cynthia Trespalacios
+    - Amanda Powell
+    - Jenna Fletcher
+    - Liam Downey
+    - Adeline Snow
+    - Megan Wagoner
+    - Kim Copeland
+    - Cullen Weaver
 crew:
 orchestra:
+understudies:
+  - Belle: Rebecca Turngren
+  - Mrs. Potts: Hattie Berwind
+  - Madame Le Grande: Ava Baker
 genres: 
 Description: 
 ---
