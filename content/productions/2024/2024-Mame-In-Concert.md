@@ -8,15 +8,20 @@ closing_date: 2024-08-25
 showtimes:
 - 2024-08-24 19:30:00
 - 2024-08-25 14:00:00
-featured_image: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image: 2024-Mame-In-Concert.webp
+featured_image_alt: "Poster for 'Mame - The Broadway Musical in Concert!' featuring Linda Purl. The image shows a grand staircase with a portrait of Linda Purl centered at the top, overlaid with the blue, star-studded title 'MAME.' Details include the book by Jerome Lawrence and Robert E. Lee, music and lyrics by Jerry Herman, based on the novel by Patrick Dennis and the play 'Auntie Mame.' Directed by Jean Tait, with musical direction by Joey Chancey."
+featured_image_caption: "Don't miss Linda Purl in 'Mame - The Broadway Musical in Concert!' Experience this vibrant tale of life’s unexpected adventures, directed by Jean Tait and musically directed by Joey Chancey. Book by Jerome Lawrence and Robert E. Lee."
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
 Website: https://www.floridatheatre.com/events/detail/mame-in-concert
 Tickets: https://bit.ly/mame-tickets
 show_details: 
+- Music: Jerry Herman - wiki
+- Lyrics: Jerry Herman
+- Book: 
+  - Jerome Lawrence
+  - Robert Edwin Lee - wiki
 cast:
 - Mame Dennis: Linda Purl
 - Vera Charles: Dorothy Bishop
@@ -81,3 +86,11 @@ Linda Purl stars as Mame. Her Broadway credits include The *Adventures of Tom Sa
 Dorothy Bishop co-stars as Mame’s best friend Vera Charles. A Jacksonville native, she appeared in the first Broadway national tour of Terrence McNally’s *Master Class* opposite Faye Dunaway and is best known in NYC for her long-running cabaret hit, *The Dozen Divas Show*.
 
 The production is directed by Jean Tait, whose Off-Broadway credits include *The Pearly Gates*, *Hijab at First Sight*, *The Proceedings*, and *It Gets Better*.
+
+### First Coast Connect: "MAME" at the Florida Theatre
+
+{{< youtube v1G9yuRMaMs >}}
+
+### "An inside look into Mame, in concert, presented by Florida Theatre and Theatre Jax."
+
+{{< youtube qrAfIOs0YgQ >}}
