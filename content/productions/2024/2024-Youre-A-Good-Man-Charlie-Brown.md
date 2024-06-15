@@ -2,6 +2,7 @@
 title: You're A Good Man Charlie Brown
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
+Season: 11
 date: 2024-06-12T23:45:50-04:00
 opening_date: 2024-06-06
 closing_date: 2024-06-16

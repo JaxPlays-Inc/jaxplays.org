@@ -31,9 +31,69 @@ show_details:
 - Orchestrations: Brett Foster
 - Original Musical Adaptation: Scott Copeman
 cast:
-crew:
-- Director: Beth Perkins
+  - Corey Palmer Sr.: Mike King
+  - Corey Palmer Jr.: Zain Beverly
+  - Alf Bueller: Colby Sweat
+  - Kirk Keaton: Zack Edenfield
+  - Tiffany Houston: Dani Gamble
+  - Cyndi Gibson: Adeline Bishop
+  - Mel Easton: Emma Houston
+  - Kim Easton: Alexis Nix
+  - Michael Feldman: Izaell Hagins
+  - Billy Arnold: Konnor Blankenberg
+  - Lionel Astley: Christian Stocks
+  - Huey Jackson: Griffin Underwood
+  - Feargal McFerrin: Alex Shurter
+  - Eileen Reagan: Sarah Perkins
+  - Laura Wilde: Amelia Underwood
+  - Debbie Fox: Keeli Bean
+  - Ms. Sheena Brannigan: Jennifer McCarthy
+  - Mr. Stevie Cocker: Joey Johnson
+  - Ensemble:
+    - Lea Antczak
+    - Aleigha Cozzaglio
+    - Carsyn Massey
+    - Ty Reuter
+    - Maddie Flick
+    - Samira Dean
 orchestra:
+  - Piano: Jill Dillingham
+  - Guitar: Andrew Wade
+  - Tenor Sax: Keaton Truesdale
+  - Trumpet: Tyler Craven
+  - Trombone: Tim Chance
+  - Bass: Matthew Hickox
+  - Drums: Rick Maurer
+crew:
+  - Director: Beth Perkins
+  - Music Director: Jill Dillingham
+  - Artwork and Graphics: Bill Ivins
+  - Choreography: Kristin Bean
+  - Set Design and Construction:
+    - Gregg Dillingham
+    - Ron Varnadoe
+    - Jill Dillingham
+    - Donna Lewis
+    - Beth Perkins
+  - Costumes:
+    - Tammy Lynch
+    - Donna Lewis
+    - Melinda Varnadoe
+  - Sound and Lights:
+    - Bob O’Hara
+    - David Bishop
+  - Props: Alexa Bishop
+  - Stage Crew:
+    - Alexa Bishop
+    - Gregg Dillingham
+  - Stage Manager: Ismerie Maurer
+  - Photography: Kailin Lake
+  - Publicity:
+    - Jan Cote-Merow
+    - Pam and Tom Cooper
+    - Erin Bailey Lake
+    - Bill Ivins
+    - Kim Woodlief
 Genres:
 - Musical
 - Comedy
