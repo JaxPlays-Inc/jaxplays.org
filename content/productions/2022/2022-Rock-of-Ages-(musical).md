@@ -10,6 +10,7 @@ featured_image_alt:
 featured_image_caption:
 category: musical
 Theatre: Alhambra Theatre & Dining
+Venue: Alhambra Theatre
 show_details:
 - Music: Various
 - Lyrics: Various
