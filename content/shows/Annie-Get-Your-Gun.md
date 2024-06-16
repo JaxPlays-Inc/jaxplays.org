@@ -5,11 +5,11 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: Irving Berlin - wiki
+- Music: "[[w:Irving Berlin]]"
 - Lyrics: Irving Berlin
 - Book: 
-  - Dorothy Fields - wiki
-  - Herbert Fields - wiki
+  - "[[w:Dorothy Fields]]"
+  - "[[w:Herbert Fields]]"
 - Premiere: 
 - Theatre: 
 - Basis: 

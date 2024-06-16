@@ -9,9 +9,9 @@ category: musical
 Name: Footloose
 Theatre: Alhambra Theatre & Dining
 show_details:
-- Music: Tom Snow - wiki
-- Lyrics: Dean Pitchford - wiki
-- Book: Dean Pitchford, Walter Bobbie - wiki
+- Music: "[[w:Tom Snow]]"
+- Lyrics: "[[w:Dean Pitchford]]"
+- Book: "Dean Pitchford, [[w:Walter Bobbie]]"
 - Basis: Footloose
 Website: https://www.alhambrajax.com/show/footloose/
 showtimes:

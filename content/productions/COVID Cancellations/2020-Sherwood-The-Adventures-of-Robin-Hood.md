@@ -12,7 +12,7 @@ Genres:
 - Play
 - Comedy
 show_details:
-- Writer: Ken Ludwig - wiki
+- Writer: "[[w:Ken Ludwig]]"
 - Setting: Sherwood Forest & Nottinghamshire England
 Website: http://www.abettheatre.com/
 showtimes:

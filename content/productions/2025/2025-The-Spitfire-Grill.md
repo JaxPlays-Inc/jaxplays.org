@@ -15,8 +15,8 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Music: James Valcq - wiki
-- Lyrics:	Fred Alley - wiki
+- Music: "[[w:James Valcq]]"
+- Lyrics:	"[[w:Fred Alley]]"
 - Book:
   - James Valcq
   - Fred Alley

@@ -9,7 +9,7 @@ Genres:
 - Play
 Theatre: Limelight Theatre
 show_details:
-- Writer: Georges Feydeau - wiki
+- Writer: "[[w:Georges Feydeau]]"
 Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes:
 - 2020-03-19 19:30:00

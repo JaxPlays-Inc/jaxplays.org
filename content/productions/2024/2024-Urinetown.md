@@ -24,8 +24,8 @@ playbill:
 Website: https://www.the5anddime.org/urinetown
 Tickets: https://www.eventbrite.com/e/urinetown-tickets-773028267357
 show_details: 
-- Book: Greg Kotis - wiki
-- Music: Mark Hollmann - wiki
+- Book: "[[w:Greg Kotis]]"
+- Music: "[[w:Mark Hollmann]]"
 - Lyrics: 
   - Mark Hollmann
   - Greg Kotis

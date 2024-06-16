@@ -12,7 +12,7 @@ playbill: 2020_photograph_51.pdf
 Theatre: Actors Collective
 Venue: Museum of Science & History
 show_details:
-- Writer: Anna Ziegler (playwright) - wiki
+- Writer: "[[w:Anna Ziegler (playwright)|Anna Ziegler]]"
 - Series: 'The Secret of Life: A Science Play Series'
 showtimes:
 - 2020-03-13 19:30:00

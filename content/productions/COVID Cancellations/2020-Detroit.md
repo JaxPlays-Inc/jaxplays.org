@@ -11,8 +11,8 @@ Genres:
 - Comedy
 - Drama
 show_details:
-- Writer: Lisa D'Amour - wiki
-- Setting: Detroit, Michigan
+- Writer: Lisa "[[w:D'Amour]]"
+- Setting: "[[w:Detroit, Michigan]]"
 Website: https://www.the5anddime.org/detroit
 showtimes:
 - 2020-06-12 20:00:00

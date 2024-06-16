@@ -23,9 +23,9 @@ playbill:
 Website: https://www.fscjartistseries.org/tickets/mj-the-musical
 Tickets: https://www.fscjartistseries.org/season-tickets
 show_details: 
-- Music: Michael Jackson - wiki
+- Music: "[[w:Michael Jackson]]"
 - Lyrics: Michael Jackson
-- Book: Lynn Nottage - wiki
+- Book: "[[w:Lynn Nottage]]"
 - Website: https://tour.mjthemusical.com/
 cast:
   - MJ: Roman Banks

@@ -25,7 +25,7 @@ playbill:
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=19&p=53
 show_details: 
-Playwright: Christopher Durang - wiki
+Playwright: "[[w:Christopher Durang]]"
 cast:
 crew:
 orchestra:

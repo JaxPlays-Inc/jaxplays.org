@@ -25,11 +25,11 @@ Website:
 Tickets: 
 show_details: 
 - Book: 
-  - Mark O'Donnell - wiki
-  - Thomas Meehan - wiki
-- Music:	Adam Schlesinger - wiki
-- Lyrics: David Javerbaum - wiki
-- Basis: Cry Baby - wiki
+  - "[[w:Mark O'Donnell]]"
+  - "[[w:Thomas Meehan]]"
+- Music:	"[[w:Adam Schlesinger]]"
+- Lyrics: "[[w:David Javerbaum]]"
+- Basis: "*[[w:Cry-Baby]]* by [[w:John Waters]]"
 cast:
 crew:
 - Director: Daniel Starling

@@ -2,8 +2,9 @@
 title: Boeing Boeing
 date: 2024-05-25T21:10:47-04:00
 show_details: 
-- Playwright: Marc Camoletti - wiki
-- Translated by: Beverley Cross - wiki
+- Playwright: "[[w:Marc Camoletti]]"
+- Translated by: "[[w:Beverley Cross]]"
+- Setting: Bernard's apartment, [[w:Paris, France]]
 Genres:
   - Play
   - Comedy

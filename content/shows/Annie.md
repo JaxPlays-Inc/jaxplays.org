@@ -6,12 +6,10 @@ featured_image_alt: "Classic red background poster for 'Annie - A New Musical.' 
 featured_image_caption: "Experience the heartwarming story of 'Annie - A New Musical.' A fresh take on the classic tale, perfect for theater lovers of all ages."
 featured_image_attr: Masterworks Broadway
 show_details: 
-- Music:	Charles Strouse - wiki
-- Lyrics: Martin Charnin - wiki
-- Book: Thomas Meehan - wiki
-- Basis: 
-  - Little Orphan Annie - wiki
-  - by Harold Gray
+- Music:	"[[w:Charles Strouse]]"
+- Lyrics: "[[w:Martin Charnin]]"
+- Book: "[[w:Thomas Meehan]]"
+- Basis: "*[[w:Little Orphan Annie]]* by [[w:Harold Gray]]"
 - Theatre: 
 - Basis: 
 - Website: 

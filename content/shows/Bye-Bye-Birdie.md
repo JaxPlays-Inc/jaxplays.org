@@ -6,8 +6,8 @@ featured_image_attr:
 genres:
 - Musicals
 show_details:
-- Music: Charles Strouse - wiki
-- Lyrics: Lee Adams - wiki
-- Book: Michael Stewart (playwright) - wiki
+- Music: "[[w:Charles Strouse]]"
+- Lyrics: "[[w:Lee Adams]]"
+- Book: "[[w:Michael Stewart (playwright)|Michael Stewart]]"
 date: 2023-09-08T00:00:00-04:00
 ---

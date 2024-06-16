@@ -1,7 +1,7 @@
 ---
 title: Boy
 show_details:
-- Writer: Anna Ziegler - wiki
+- Writer: "[[w:Anna Ziegler]]"
 Genres: 
 - Play
 Press:

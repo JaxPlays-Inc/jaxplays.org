@@ -5,11 +5,11 @@ featured_image: Disneys-Beauty-and-the-Beast.webp
 featured_image_caption: Poster for Disney's Beauty and the Beast
 featured_image_attr: Disney Theatrical Productions
 show_details:
-- Music: Alan Menken - wiki
-- Book: Linda Woolverton - wiki
+- Music: "[[w:Alan Menken]]"
+- Book: "[[w:Linda Woolverton]]"
 - Lyrics: 
-  - Howard Ashman - wiki
-  - Tim Rice - wiki
+  - "[[w:Howard Ashman]]"
+  - "[[w:Tim Rice]]"
 - Premiere: 
 - Theatre: 
 - Basis: 

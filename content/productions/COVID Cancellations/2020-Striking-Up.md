@@ -8,7 +8,7 @@ opening_date: 2020
 Genres: 
 - Play
 Theatre: Phase Eight Theater Company
-Venue: Cummer Museum of Art and Garden - wiki
+Venue: Cummer Museum of Art and Garden
 Website: http://www.phaseeight.org/striking-up.html
 showtimes:
 - 2020-03-20 18:00:00

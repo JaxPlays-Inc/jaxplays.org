@@ -9,7 +9,7 @@ closing_date: 2020-10-18
 Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/love-sex-and-the-irs/
 show_details:
-- Writer: Billy Van Zandt - wiki
+- Writer: "[[w:Billy Van Zandt]]"
 Genres: 
 - Play
 - Farce

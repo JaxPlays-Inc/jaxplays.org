@@ -23,14 +23,14 @@ Website: https://www.theislandtheater.com/productions
 Tickets: https://www.theislandtheater.com/peter-pan-tickets
 show_details: 
 - Music:
-  - Jule Styne - wiki
-  - Mark Charlap - wiki
+  - "[[w:Jule Styne]]"
+  - "[[w:Mark Charlap]]"
 - Lyrics:
-  - Betty Comden - wiki
-  - Adolph Green - wiki
-  - Carolyn Leigh - wiki
-- Book: Sir James M. Barrie
-- Basis: Sir J. M. Barrie's play 'Peter Pan'
+  - "[[w:Betty Comden]]"
+  - "[[w:Adolph Green]]"
+  - "[[w:Carolyn Leigh]]"
+- Book: "[[w:Sir James M. Barrie|J. M. Barrie]]"
+- Basis: "Sir J. M. Barrie's play *[[w:Peter Pan]]*"
 cast:
   - Narrator 1:
     - Chloe Ann

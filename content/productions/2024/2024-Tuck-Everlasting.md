@@ -33,13 +33,11 @@ Website: https://www.limelight-theatre.org/season-32-shows-1/tuck-everlasting
 Tickets: https://ci.ovationtix.com/34666/production/1165807?_gl=1*1c32hdr*_ga*MTYxNjU4NzkxLjE2OTQ4MjYyMjc.*_ga_1T723BH96L*MTY5NDgyNjIyNi4xLjEuMTY5NDgyOTIzMS42MC4wLjA.
 show_details: 
 - Book: 
-  - Claudia Shear - wiki
-  - Tim Federle - wiki
+  - "[[w:Claudia Shear]]"
+  - "[[w:Tim Federle]]"
 - Music: Chris Miller
-- Lyrics: Nathan Tysen - wiki
-- Based on: 
-  - Tuck Everlasting - wiki
-  - Natalie Babbitt - wiki
+- Lyrics: "[[w:Nathan Tysen]]"
+- Based on: "*[[w:Tuck Everlasting]]* by [[w:Natalie Babbitt]]"
 cast:
 crew:
 - Director: Missy Schmotzer

@@ -1,5 +1,4 @@
 ---
-layout: productions
 title: Little Women (musical)
 redirect_from:
 - /productions/2022_Little_Women_(musical)
@@ -13,13 +12,6 @@ featured_image_caption:
 category: musical
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
-show_details:
-- Music: Jason Howland - wiki
-- Lyrics: Mindi Dickstein - wiki
-- Book: Allan Knee - wiki
-- Basis: 
-  - Little Women - wiki
-  - Louisa May Alcott - wiki
 Website: https://web.archive.org/web/20220523175154/https://limelight-theatre.org/little-women/
 showtimes:
 - 2022-05-12 19:30:00

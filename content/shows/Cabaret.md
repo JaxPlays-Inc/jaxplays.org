@@ -7,12 +7,12 @@ featured_image_caption: Poster for 'Cabaret'
 featured_image_attr: By Tom Morrow (illustrator) - Filmes, filmes, filmes! (e outras cositas mais), Fair use
 featured_image_attr_link: https://en.wikipedia.org/w/index.php?curid=66590342
 show_details: 
-- Music: 	John Kander - wiki
-- Lyrics: Fred Ebb - wiki
-- Book: Joe Masteroff - wiki
+- Music: "[[w:John Kander]]"
+- Lyrics: "[[w:Fred Ebb]]"
+- Book: "[[w:Joe Masteroff]]"
 - Premiere: October 10, 1966
-- Theatre: Shubert Theatre, Boston
-- Basis: "'I am a Camera' by John Van Druten, 'Goodbye to Berlin' by Christopher Isherwood"
+- Theatre: "[[w:Shubert Theatre]], Boston"
+- Basis: "*[[w:I am a Camera]]* by [[w:John Van Druten]], *[[w:Goodbye to Berlin]]* by [[w:Christopher Isherwood]]"
 - Website: 
 Genres:
   - Musical

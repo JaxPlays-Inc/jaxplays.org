@@ -9,7 +9,7 @@ closing_date: 2020-04-10
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:
-- Writer: Lauren Gunderson - wiki
+- Writer: "[[w:Lauren Gunderson]]"
 Genres: 
 - Play
 - Comedy

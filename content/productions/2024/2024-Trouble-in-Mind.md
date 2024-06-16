@@ -24,7 +24,7 @@ playbill:
 Website: https://playersbythesea.org/trouble-in-mind
 Tickets: https://ci.ovationtix.com/34877/production/1187113
 show_details: 
-- Playwright: Alice Childress - wiki
+- Playwright: "[[w:Alice Childress]]"
 cast:
 - Wiletta Mayer: Zonnetta Marie
 - Al Manners: Jay Bilderback

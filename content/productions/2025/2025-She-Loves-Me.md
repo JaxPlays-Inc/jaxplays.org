@@ -15,9 +15,9 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Music: Jerry Bock - wiki
-- Lyrics: Sheldon Harnick - wiki
-- Book: Joe Masteroff - wiki
+- Music: "[[w:Jerry Bock]]"
+- Lyrics: "[[w:Sheldon Harnick]]"
+- Book: "[[w:Joe Masteroff]]"
 cast:
 crew:
 orchestra:

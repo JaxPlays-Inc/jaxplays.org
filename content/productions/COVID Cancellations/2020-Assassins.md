@@ -8,9 +8,9 @@ opening_date: 2020
 category: musical
 Theatre: The 5 & Dime
 show_details:
-- Music: Stephen Sondheim - wiki
+- Music: "[[w:Stephen Sondheim]]"
 - Lyrics: Stephen Sondheim
-- Book: John Weidman - wiki
+- Book: "[[w:John Weidman]]"
 - Basis: Original concept by Charles Gilbert Jr.
 Website: https://www.the5anddime.org/assassins
 showtimes:

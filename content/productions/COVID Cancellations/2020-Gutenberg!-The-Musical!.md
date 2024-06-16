@@ -10,8 +10,8 @@ Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/gutenberg-the-musical
 show_details:
 - Music:
-  - Scott Brown (writer) - wiki
-  - Anthony King (writer) - wiki
+  - "[[w:Scott Brown (writer)|Scott Brown]]"
+  - "[[w:Anthony King (writer)|Anthony King]]"
 - Lyrics: Scott Brown, Anthony King
 - Book: Scott Brown, Anthony King
 showtimes:

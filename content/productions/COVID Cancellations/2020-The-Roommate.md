@@ -8,7 +8,7 @@ opening_date: 2020-02-20
 closing_date: 2020-03-08
 Theatre: Limelight Theatre
 show_details:
-- Writer: Jen Silverman - wiki
+- Writer: "[[w:Jen Silverman]]"
 Genres: 
 - Play
 - Drama
