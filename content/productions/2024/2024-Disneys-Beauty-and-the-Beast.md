@@ -2,6 +2,7 @@
 title: Disney's Beauty and the Beast
 Theatre: The Island Theater
 Venue: The Island Theater
+Season: 2024
 date: 2024-05-31T16:52:29-04:00
 opening_date: 2024-05-31
 closing_date: 2024-06-09

@@ -2,7 +2,7 @@
 title: Peter Pan
 Theatre: The Island Theater
 Venue: The Island Theater
-Season: 
+Season: 2024
 date: 2024-06-15T15:10:31-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-21

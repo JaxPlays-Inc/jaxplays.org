@@ -2,6 +2,7 @@
 title: Catch Me If You Can
 Theatre: The Island Theater
 Venue: The Island Theater
+Season: 2024
 date: 2024-02-02
 opening_date: 2024-02-02
 closing_date: 2024-02-11

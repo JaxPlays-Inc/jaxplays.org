@@ -1,0 +1,30 @@
+---
+title: Boeing Boeing
+Theatre: The Island Theater
+Venue: The Island Theater
+Season: 2024
+date: 2024-06-15T22:02:33-04:00
+opening_date: 2024-09-13
+closing_date: 2024-09-22
+showtimes:
+  - 2024-09-13 19:30:00
+  - 2024-09-14 19:30:00
+  - 2024-09-15 14:00:00
+  - 2024-09-20 19:30:00
+  - 2024-09-21 19:30:00
+  - 2024-09-22 14:00:00
+featured_image: 
+featured_image_alt: 
+featured_image_caption: 
+featured_image_attr: 
+featured_image_attr_link: 
+playbill:
+Website: 
+Tickets: 
+show_details: 
+cast:
+crew:
+orchestra:
+genres: 
+Description: 
+---
