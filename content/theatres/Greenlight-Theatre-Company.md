@@ -13,9 +13,8 @@ Address: |
     106 N 6th Street
     Jacksonville Beach, FL 32250
 Socials:
-  Facebook: 100075552802465
+  Facebook: profile.php?id=100075552802465
   Instagram: greenlighttheatreco_jax
-  YouTube: greenlighttheatrecompany5603
   Website: https://www.greenlighttheatreco.com
 Phone: 1-985-502-2253
 color: "#32CD32"
