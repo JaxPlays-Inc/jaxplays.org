@@ -5,15 +5,15 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: Claude-Michel Schönberg - wiki
-- Lyrics: Herbert Kretzmer - wiki
+- Music: "[[w:Claude-Michel Schönberg]]"
+- Lyrics: "[[w:Herbert Kretzmer]]"
 - Original text: 	
-  - Alain Boublil - wiki
+  - "[[w:Alain Boublil]]"
   - Jean-Marc Natel
 - Book: 
   - Alain Boublil
   - Claude-Michel Schönberg
-- Basis: Les Misérables by Victor Hugo
+- Basis: "[[w:Les Misérables]] by [[w:Victor Hugo]]"
 - Website: https://www.lesmis.com/
 Genres:
   - Musical

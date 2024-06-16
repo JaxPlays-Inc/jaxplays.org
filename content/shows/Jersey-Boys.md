@@ -6,8 +6,8 @@ featured_image_caption: Playbill cover for Jersey Boys on opening night at the A
 featured_image_attr: Playbill
 category: musicals
 show_details: 
-- Music: Bob Gaudio - wiki
-- Lyrics: Bob Crewe - wiki
+- Music: "[[w:Bob Gaudio]]"
+- Lyrics: "[[w:Bob Crewe]]"
 - Book: Marshall Brickman, Rick Elice
 - Premiere: 2004-10-05
 - Basis: Songs by The Four Seasons

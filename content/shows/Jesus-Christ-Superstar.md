@@ -6,10 +6,10 @@ featured_image_caption: Cover art for the album Jesus Christ Superstar
 featured_image_attr:
 category: musicals
 show_details: 
-- Music: Andrew Lloyd Webber - wiki
-- Lyrics: Tim Rice - wiki
+- Music: "[[w:Andrew Lloyd Webber]]"
+- Lyrics: "[[w:Tim Rice]]"
 - Premiere: 1971-10-12
-- Theatre: Mark Hellinger Theatre - wiki
+- Theatre: "[[w:Mark Hellinger Theatre]]"
 - Website: https://www.jesuschristsuperstar.com
 date: 2023-09-08T00:00:00-04:00
 ---

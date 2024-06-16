@@ -5,8 +5,8 @@ featured_image_caption:
 featured_image_attr:
 show_details: 
 - Playwright:
-  - Moss Hart - wiki
-  - George S. Kaufman - wiki
+  - "[[w:Moss Hart]]"
+  - "[[w:George S. Kaufman]]"
 - Lyrics: 
 - Book: 
 - Date Premiered: 1936-12-14

@@ -5,7 +5,7 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Playwright: Neil Simon - wiki
+- Playwright: "[[w:Neil Simon]]"
 - Music: 
 - Lyrics: 
 - Book: 

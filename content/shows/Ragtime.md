@@ -9,12 +9,12 @@ Genres:
 - Drama
 - Historical
 show_details: 
-- Music: Stephen Flaherty - wiki
-- Lyrics: Lynn Ahrens - wiki
-- Book: Terrence McNally - wiki
+- Music: "[[w:Stephen Flaherty]]"
+- Lyrics: "[[w:Lynn Ahrens]]"
+- Book: "[[w:Terrence McNally]]"
 - Premiere: 1996-12-08
 - Theatre: Ford Centre for the Performing Arts, Toronto
-- Basis: Ragtime (novel) - wiki
+- Basis: "*[[w:Ragtime (novel)|Ragtime]]* by [[w:E.L. Doctorow]]"
 - Website: 
 date: 2023-09-08T00:00:00-04:00
 ---

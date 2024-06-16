@@ -5,10 +5,10 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: Richard Rodgers - wiki
-- Lyrics: Oscar Hammerstein II - wiki
+- Music: "[[w:Richard Rodgers]]"
+- Lyrics: "[[w:Oscar Hammerstein II]]"
 - Book: Oscar Hammerstein II
-- Basis: Green Grow the Lilacs by Lynn Riggs
+- Basis: "*[[w:Green Grow the Lilacs]]* by o[[w:Lynn Riggs]]"
 - Website: 
 Genres:
   - Musical

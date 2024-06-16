@@ -4,7 +4,7 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 details: 
-- Music: Richard O'Brien - wiki
+- Music: "[[w:Richard O'Brien]]"
 - Lyrics: Richard O'Brien
 - Book: Richard O'Brien
 - Premiere: 

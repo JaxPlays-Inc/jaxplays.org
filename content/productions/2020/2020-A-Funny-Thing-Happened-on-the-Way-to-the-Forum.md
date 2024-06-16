@@ -15,9 +15,11 @@ category: musical
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 show_details:
-- Music: Stephen Sondheim - wiki
+- Music: "[[w:Stephen Sondheim]]"
 - Lyrics: Stephen Sondheim
-- Book: Burt Shevelove - wiki, Larry Gelbart - wiki
+- Book: 
+  - "[[w:Burt Shevelove]]"
+  - "[[w:Larry Gelbart]]"
 Website: https://www.playersbythesea.org/forum
 showtimes:
 - 2020-01-24 20:00:00

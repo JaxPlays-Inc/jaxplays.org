@@ -6,13 +6,15 @@ featured_image_caption:
 featured_image_attr:
 show_details: 
 - Music:
-  - Nell Benjamin - wiki
+  - "[[w:Nell Benjamin]]"
   - Laurence O'Keefe
 - Lyrics:
   - Nell Benjamin
   - Laurence O'Keefe
-- Book: Heather Hach - wiki
-- Basis: Legally Blonde by Amanda Brown & Legally Blonde by Karen McCullah Lutz and Kirsten Smith
+- Book: "[[w:Heather Hach]]"
+- Basis: 
+  - "The novel *[[w:Legally Blonde (novel)|Legally Blonde]]* by [[w:Amanda Brown (novelist)|Amanda Brown]]"
+  - "the film [[w:Legally Blonde]] by [[w:Karen McCullah Lutz]] and [[w:Kirsten Smith (writer)|Kirsten Smith]]"
 - Premiere: 
 - Theatre: 
 - Website: 

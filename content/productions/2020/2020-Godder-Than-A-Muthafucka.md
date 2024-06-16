@@ -13,8 +13,8 @@ Genres:
 - Performance Art
 - Social Commentary
 Venue: 1904 Music Hall
-Wrshow_details:
-- Writer: Ebony Payne-English - wiki
+show_details:
+- Writer: Ebony Payne-English
 Website: http://www.ebonypayneenglish.com/
 showtimes:
 - 2020-02-23 19:00:00

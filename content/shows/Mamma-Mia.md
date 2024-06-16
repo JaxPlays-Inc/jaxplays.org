@@ -6,12 +6,12 @@ featured_image_caption:
 featured_image_attr:
 show_details: 
   - Music: 
-    - Benny Andersson - wiki
-    - Björn Ulvaeus - wiki
+    - "[[w:Benny Andersson]]"
+    - "[[w:Björn Ulvaeus]]"
   - Lyrics:
     - Benny Andersson
     - Björn Ulvaeus
-  - Book: Catherine Johnson - wiki
+  - Book: "[[w:Catherine Johnson]]"
   - Website: https://mammamiathetour.com/
 Genres:
   - Musical

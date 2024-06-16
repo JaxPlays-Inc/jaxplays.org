@@ -4,7 +4,7 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 details: 
-- Playwright: Agatha Christie - wiki
+- Playwright: "[[w:Agatha Christie]]"
 - Music: 
 - Lyrics: 
 - Book: 
