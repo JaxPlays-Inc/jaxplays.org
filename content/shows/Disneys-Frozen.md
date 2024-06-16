@@ -6,13 +6,13 @@ featured_image_caption: Poster for Disney's 'Frozen'
 featured_image_attr: Disney Theatrical Productions
 show_details: 
 - Music and Lyrics: 
-  - Kristen Anderson-Lopez - wiki
-  - Robert Lopez - wiki
-  - "'Vuelie' by Christophe Beck and Frode Fjellheim"
-- Book: Jennifer Lee - wiki
+  - "[[w:Kristen Anderson-Lopez]]"
+  - "[[w:Robert Lopez]]"
+  - "*[[w:Vuelie]]* by [[w:Christophe Beck]] and [[w:Frode Fjellheim]]"
+- Book: "[[w:Jennifer Lee]]"
 - Premiere: 
 - Theatre: 
-- Basis: 
+- Basis: "*[[w:Frozen (2013 film)|Frozen]]* by [[w:Chris Buck]], Jennifer Lee and Shane Morris"
 - Website: 
 genres: 
 - Musical

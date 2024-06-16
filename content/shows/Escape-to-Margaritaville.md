@@ -5,11 +5,11 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: Jimmy Buffett - wiki
+- Music: "[[w:Jimmy Buffett]]"
 - Lyrics: Jimmy Buffett
 - Book: 
-  - Greg Garcia
-  - Mike O'Malley
+  - "[[w:Greg Garcia]]"
+  - "[[w:Mike O'Malley]]"
 - Premiere: 
 - Theatre: 
 - Basis: 

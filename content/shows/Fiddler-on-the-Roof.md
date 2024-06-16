@@ -11,9 +11,9 @@ Genres:
 - Comedy
 - Romance
 show_details: 
-- Music: Jerry Bock - wiki
-- Lyrics: Sheldon Harnick - wiki
-- Book: Joseph Stein - wiki
+- Music: "[[w:Jerry Bock]]"
+- Lyrics: "[[w:Sheldon Harnick]]"
+- Book: "[[w:Joseph Stein]]"
 - Premiere: 1964-07-24
 - Theatre: Fisher Theatre in Detroit, Michigan
 - Basis: Tevye and His Daughters by Sholem Aleichem

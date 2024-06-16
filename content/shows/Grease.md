@@ -7,12 +7,12 @@ featured_image_attr: By unknown - Amazon.com, Fair use
 featured_image_attrlink: https://www.amazon.com/Grease-Broadway-POSTER-Movie-Inches/dp/B00KK6LDZA
 show_details: 
 - Music:
-  - Jim Jacobs - wiki
-  - Warren Casey - wiki
+  - "[[w:Jim Jacobs]]"
+  - "[[w:Warren Casey]]"
 - Lyrics: 
   - Jim Jacobs
   - Warren Casey
-  - John Farrar - wiki
+  - "[[w:John Farrar]]"
 - Book:
   - Jim Jacobs
   - Warren Casey

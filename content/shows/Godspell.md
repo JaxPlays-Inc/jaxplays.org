@@ -5,9 +5,9 @@ featured_image: Godspell.jpeg
 featured_image_caption: Cover art for the album Godspell (1971 Off-Broadway Cast)
 featured_image_attr:
 show_details: 
-- Music: Stephen Schwartz - wiki
+- Music: "[[w:Stephen Schwartz]]"
 - Lyrics: Stephen Schwartz
-- Book: John-Michael Tebelak - wiki
+- Book: "[[w:John-Michael Tebelak]]"
 - Premiere: 1971-05-17
 - Theatre: La MaMa Experimental Theatre Club
 - Basis: Gospel of Saint Matthew
