@@ -19,7 +19,6 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Book: L. Frank Baum
 - Music: 
   - Harold Arlen - wiki
   - E. Y. Harburg - wiki
@@ -27,6 +26,11 @@ show_details:
 - Lyrics: 
   - Harold Arlen
   - E. Y. Harburg
+- Book: John Kane
+- Basis: 
+  - The Wonderful Wizard of Oz by L. Frank Baum
+  - The Wizard of Oz, screenplay by Noel Langley, Florence Ryerson, Edgar Allan Woolf
+
 cast:
 crew:
 orchestra:
