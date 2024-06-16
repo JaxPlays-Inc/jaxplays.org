@@ -12,11 +12,10 @@ featured_image_caption:
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:
-- Music: Tim Minchin - wiki
+- Music: "[[w:Tim Minchin]]"
 - Lyrics: Tim Minchin
-- Book: Dennis Kelly - wiki
-- Basis: Matilda_(novel) - wiki
-- Wikipedia: Matilda the Musical - wiki
+- Book: "[[w:Dennis Kelly]]"
+- Basis: "*[[w:Matilda_(novel)|Matilda]]* by [[w:Roald Dahl]]"
 Website: https://www.ameliacommunitytheatre.org/Performances/Roald-Dahl%E2%80%99s-Matilda-The-Musical
 showtimes:
 - 2022-04-14 19:30:00

@@ -12,7 +12,7 @@ Genres:
 - Play
 Theatre: The 5 & Dime
 show_details:
-- Writer: Samuel D. Hunter - wiki
+- Writer: "[[w:Samuel D. Hunter]]"
 Website: https://www.the5anddime.org/the-harvest
 showtimes:
 - 2019-11-08 20:00:00

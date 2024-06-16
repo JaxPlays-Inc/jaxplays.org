@@ -9,12 +9,11 @@ category: musical
 Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/singin-in-the-rain/
 show_details:
-- Music: Nacio Herb Brown - wiki
-- Lyrics: Arthur Freed - wiki
+- Music: "[[w:Nacio Herb Brown]]"
+- Lyrics: "[[w:Arthur Freed]]"
 - Book: 
-  - Adolph Green - wiki
-  - Betty Comden - wiki
-- Wikipedia: Singin' in the Rain (musical) - wiki
+  - "[[w:Adolph Green]]"
+  - "[[w:Betty Comden]]"
 showtimes:
 - 2020-03-26 11:00:00
 - 2020-03-26 18:00:00

@@ -8,11 +8,10 @@ opening_date: 2020
 category: musical
 Theatre: Alhambra Theatre & Dining
 show_details:
-- Music: Richard Rodgers - wiki
-- Lyrics: Oscar Hammerstein II - wiki
+- Music: "[[w:Richard Rodgers]]"
+- Lyrics: "[[w:Oscar Hammerstein II]]"
 - Book: Oscar Hammerstein II
-- Basis: Charles Perraults Cinderella
-- Wikipedia: Cinderella (Rodgers and Hammerstein musical) - wiki
+- Basis: "[[w:Cinderella]] by [[w:Charles Perrault]]"
 Website: https://www.alhambrajax.com/show/cinderella/
 showtimes:
 - 2020-06-11 11:00:00

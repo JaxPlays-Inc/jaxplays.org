@@ -11,9 +11,8 @@ playbill:
 Theatre: Actors Collective
 Venue: Museum of Science & History
 show_details:
-- Writer: Anna Ziegler (playwright) - wiki
+- Writer: "[[w:Anna Ziegler (playwright)|Anna Ziegler]]"
 - Series: 'The Secret of Life: A Science Play Series'
-- Wikipedia: Photograph 51 - wiki
 Website: http://www.actorscollective.com/photograph-51/
 showtimes:
 - 2019-01-25 19:30:00

@@ -1,5 +1,5 @@
 ---
-title: You're A Good Man Charlie Brown
+title: You're A Good Man, Charlie Brown
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
 Season: 11

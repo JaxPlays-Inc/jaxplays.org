@@ -12,10 +12,9 @@ Theatre: Actors Collective
 Venue: Museum of Science & History
 Website: http://www.actorscollective.com/the-secret-of-life/
 show_details:
-- Writer: Caryl Churchill - wiki
+- Writer: "[[w:Caryl Churchill]]"
 - Series: 'The Secret of Life: A Science Play Series'
 - Subject: Human cloning and identity
-- Wikipedia: A Number - wiki
 showtimes:
 - 2020-09-11 19:30:00
 - 2020-09-12 19:30:00

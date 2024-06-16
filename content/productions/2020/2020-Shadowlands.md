@@ -10,9 +10,8 @@ Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 Website: https://www.theatrejax.com/shadowlands
 show_details:
-- Writer: William Nicholson - wiki
+- Writer: "[[w:William Nicholson]]"
 - Subject: Biographical
-- Wikipedia: Shadowlands (play) - wiki
 Genres: 
 - Play
 - Drama

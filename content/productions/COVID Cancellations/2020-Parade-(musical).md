@@ -8,11 +8,10 @@ opening_date: 2020
 category: musical
 Theatre: Limelight Theatre
 show_details:
-- Music: Jason Robert Brown - wiki
+- Music: "[[w:Jason Robert Brown]]"
 - Lyrics: Jason Robert Brown
-- Book: Alfred Uhry - wiki
+- Book: "[[w:Alfred Uhry]]"
 - Basis: Historical events in Atlanta in 1913
-- Wikipedia: Parade (musical) - wiki
 Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes:
 - 2020-07-30 19:30:00

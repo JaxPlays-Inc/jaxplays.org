@@ -10,9 +10,8 @@ Genres:
 Theatre: Actors Collective
 Venue: Museum of Science & History
 show_details:
-- Writer: Sarah Treem - wiki
+- Writer: "[[w:Sarah Treem]]"
 - Series: 'The Secret of Life: A Science Play Series'
-- Wikipedia: The How and the Why - wiki
 Website: http://www.actorscollective.com/the-secret-of-life/
 showtimes:
 - 2020-06-12 19:30:00

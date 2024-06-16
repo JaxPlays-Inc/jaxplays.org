@@ -10,7 +10,7 @@ Genres:
 - Play
 Theatre: The 5 & Dime
 show_details:
-- Writer: Terrence McNally - wiki
+- Writer: "[[w:Terrence McNally]]"
 Website: https://www.the5anddime.org/love-valour-compassion
 showtimes:
 - 2019-10-18 20:00:00

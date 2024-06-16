@@ -12,12 +12,6 @@ featured_image_caption:
 category: musical
 Theatre: Theatre Jacksonville
 venue: Harold K Smith Playhouse
-show_details:
-- Music: Tim Minchin - wiki
-- Lyrics: Tim Minchin
-- Book: Dennis Kelly - wiki
-- Basis: Matilda by Roald Dahl
-- Wikipedia: Matilda the Musical - wiki
 Website: https://www.theatrejax.com/this-season
 showtimes:
 - 2020-06-05 20:00:00

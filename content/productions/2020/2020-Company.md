@@ -9,11 +9,6 @@ closing_date: 2020-02-23
 category: musical
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
-show_details:
-- Music: Stephen Sondheim - wiki
-- Lyrics: Stephen Sondheim
-- Book: George Furth - wiki
-- Wikipedia: Company (musical) - wiki
 Website: https://www.opct.info
 showtimes:
 - 2020-02-07 20:00:00

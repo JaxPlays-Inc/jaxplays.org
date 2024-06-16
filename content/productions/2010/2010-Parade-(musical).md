@@ -9,7 +9,7 @@ closing_date: 2010-07-31
 category: musical
 Theatre: Players by the Sea
 show_details:
-- Music: Jason Robert Brown - wiki
+- Music: "[[w:Jason Robert Brown]]"
 - Lyrics: Jason Robert Brown
 - Book: Alfred Uhry
 cast:

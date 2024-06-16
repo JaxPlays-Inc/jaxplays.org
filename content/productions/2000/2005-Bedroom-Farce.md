@@ -10,7 +10,7 @@ Genres:
 - Play
 Theatre: Limelight Theatre
 show_details:
-- Playwright: Alan Ayckbourn - wiki
+- Playwright: "[[w:Alan Ayckbourn]]"
 cast:
 - Delia:
 - Ernest:

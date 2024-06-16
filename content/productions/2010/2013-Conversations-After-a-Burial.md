@@ -24,7 +24,7 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Playwright: Yasmina Reza - wiki
+- Playwright: "[[w:Yasmina Reza]]"
 cast:
 - Edith: Karen Overstreet
 - Julienne: Holly Gutshall

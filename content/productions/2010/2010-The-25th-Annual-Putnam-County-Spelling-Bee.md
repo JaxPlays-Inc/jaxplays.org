@@ -7,10 +7,10 @@ approx_date: year
 category: musical comedy
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:
-- Music: William Finn - wiki
+- Music: "[[w:William Finn]]"
 - Lyrics: William Finn
 - Book: Rachel Sheinkin
-- Basis: C-R-E-P-U-S-C-U-L-E by Rebecca Feldman
+- Basis: "[[w:C-R-E-P-U-S-C-U-L-E]] by Rebecca Feldman"
 cast:
 crew:
 - Director: Michael Lipp

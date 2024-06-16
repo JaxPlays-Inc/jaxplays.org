@@ -7,7 +7,7 @@ layout: productions
 playbill:
 Theatre: Theatre Jacksonville
 show_details:
-- Playwright: A.A. Milne - wiki
+- Playwright: "[[w:A.A. Milne]]"
 cast:
 - Anne: Frieda Fitzgerald
 - Eustasia: Louise Twitty

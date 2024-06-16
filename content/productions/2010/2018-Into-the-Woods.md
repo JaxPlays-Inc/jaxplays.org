@@ -18,8 +18,8 @@ Venue: Swisher Theater
 Website: 
 Tickets: 
 show_details: 
-- Book: James Lapine - wiki
-- Music and Lyrics: Stephen Sondheim - wiki
+- Music and Lyrics: "[[w:Stephen Sondheim]]"
+- Book: "[[w:James Lapine]]"
 Description: "Fairy tales collide in a darkly whimsical adventure."
 showtimes:
 - 2018-11-01 19:30:00

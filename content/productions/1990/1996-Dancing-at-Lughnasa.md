@@ -10,7 +10,7 @@ playbill:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 show_details:
-- Playwright: Brian Friel - wiki
+- Playwright: "[[w:Brian Friel]]"
 - Date premiered: 1990-04-24
 - Place premiered:	Abbey Theatre, Dublin, Ireland
 - Subject:	A month in the lives of five impoverished women.

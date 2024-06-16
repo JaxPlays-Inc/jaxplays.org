@@ -14,10 +14,6 @@ Theatre: Jacksonville University - Stein College
 Venue: Swisher Theater
 Website: 
 Tickets: 
-show_details: 
-- Book: George Furth - wiki
-- Music: Stephen Sondheim - wiki
-- Lyrics: Stephen Sondheim
 Description: 
 showtimes:
 cast:

@@ -6,14 +6,13 @@ featured_image_alt: "Logo for 'Seussical The Musical' featuring a whimsically st
 featured_image_caption: "Experience the whimsy and wonder of 'Seussical The Musical,' where the imaginative world of Dr. Seuss comes alive on stage."
 featured_image_attr:
 show_details: 
-- Music: Stephen Flaherty
-- Lyrics: Lynn Ahrens
+- Music: "[[w:Stephen Flaherty]]"
+- Lyrics: "[[w:Lynn Ahrens]]"
 - Book: 
   - Lynn Ahrens
   - Stephen Flaherty
 - Premiere: 
-- Theatre: 
-- Basis: The works of Dr. Seuss
+- Basis: The works of [[w:Dr. Seuss]]
 - Website: 
 # Seussical
 Genres:

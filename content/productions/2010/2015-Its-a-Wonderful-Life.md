@@ -21,8 +21,8 @@ Genres:
 Theatre: WJCT Radio Theater
 show_details:
 - Writer: Tony Palermo
-- Setting: Bedford Falls (It's a Wonderful Life) - wiki
-- Basis: Based on the 1946 film It's A Wonderful Life, produced and directed by Frank Capra.
+- Setting: "[[w:Bedford_Falls_(It's_a_Wonderful_Life)|Bedford Falls, New York]]"
+- Basis: Based on the 1946 film [[w:It's A Wonderful Life]], produced and directed by [[w:Frank Capra]].
 cast:
 - George Bailey: David McMahon
 - Clarence: Andrew Cardy

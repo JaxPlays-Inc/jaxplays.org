@@ -29,7 +29,7 @@ Venue: MOCA Jacksonville
 Website: 
 Tickets: 
 show_details: 
-- Playwright: Annie Baker - wiki
+- Playwright: "[[w:Annie Baker]]"
 cast:
 - Marty: Barbara Colaciello
 - Schultz: Jason Collins

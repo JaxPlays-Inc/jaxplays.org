@@ -7,11 +7,10 @@ approx_date: year
 category: musical
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:
-- Music: Jeanine Tesori - wiki
+- Music: "[[w:Jeanine Tesori]]"
 - Lyrics: Brian Crawley
 - Book: Brian Crawley
 - Basis: The Ugliest Pilgrim by Doris Betts
-- Wikipedia: Violet (musical) - wiki
 cast:
 crew:
 - Director: Michael Lipp

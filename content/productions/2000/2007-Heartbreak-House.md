@@ -18,7 +18,7 @@ Venue: Swisher Theater
 Website: 
 Tickets: 
 show_details: 
-- Playwright: George Bernard Shaw - wiki
+- Playwright: "[[w:George Bernard Shaw]]"
 Description: A satirical plunge into the absurdities of love and politics, set against the backdrop of impending doom.
 showtimes:
 - 2007-10-11 19:30:00

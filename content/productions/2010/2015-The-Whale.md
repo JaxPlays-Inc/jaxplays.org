@@ -10,7 +10,7 @@ Genres:
 - Play
 Theatre: The 5 & Dime
 show_details:
-- Writer: Samuel D. Hunter - wiki
+- Writer: "[[w:Samuel D. Hunter]]"
 Website: https://www.the5anddime.org
 Tickets: https://www.eventbrite.com/e/the-whale-tickets-19043435428
 showtimes:

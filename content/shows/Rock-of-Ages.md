@@ -4,14 +4,10 @@ date: 2024-06-15T12:54:52-04:00
 featured_image:
 featured_image_caption: 
 featured_image_attr:
-show_details: 
-- Music: 
-- Lyrics: 
-- Book: 
-- Premiere: 
-- Theatre: 
-- Basis: 
-- Website: 
+show_details:
+- Music: Various
+- Lyrics: Various
+- Book: Chris D'Arienzo
 # Rock of Ages
 Genres:
   - Musical

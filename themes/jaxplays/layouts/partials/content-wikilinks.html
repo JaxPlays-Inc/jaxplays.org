@@ -1,0 +1,54 @@
+{{- $wikiregex := "\\[\\[([^\\]]+?)\\]\\]" -}}
+{{- $wikilinks := findRE $wikiregex . -}}
+{{- $content := . -}}
+{{- $markdownEmphasisRegex := "\\*([^\\*]+)\\*" -}}  <!-- Regex to detect markdown emphasis with asterisks -->
+
+{{ range $wikilinks }}
+  {{- $linkText := replaceRE $wikiregex "$1" . -}}
+  {{- $parts := split $linkText "|" -}}
+  {{- $mainPart := index $parts 0 -}}
+  {{- $display := "" -}}
+  {{- $url := "" -}}
+
+  {{- $prefix := split $mainPart ":" -}}
+  {{- $route := "" -}}
+
+  {{ if eq (len $parts) 2 }}
+    {{- $display = index $parts 1 -}}
+  {{ else }}
+    {{- $display = index $prefix 1 -}}
+  {{ end }}
+
+  {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
+  {{- $isKnownPrefix := false -}}
+  {{- range $key, $val := $routeMap }}
+    {{ if eq (index $prefix 0) $key }}
+      {{- $route = $val -}}
+      {{- $isKnownPrefix = true -}}
+    {{ end }}
+  {{ end }}
+
+  {{ if $isKnownPrefix }}
+    {{- $url = printf "%s%s" $route (index $prefix 1 | urlize) -}}
+    {{- $link := printf "<a href='%s'>%s</a>" $url $display -}}
+    {{- $content = replace $content . $link -}}
+  {{ else if and (eq (len $prefix) 2) (eq (index $prefix 0) "w") }}
+    {{- $wikiName := index $prefix 1 -}}
+    {{- $wikiName = replace $wikiName " " "_" -}}
+    {{- $wikiName = replace $wikiName "'" "%27" -}}  <!-- Encode apostrophes for Wikipedia URLs -->
+    {{- $wikiName = replaceRE "([A-Za-z])\\.([A-Za-z])" "$1._$2" $wikiName -}}
+    {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
+    {{- $link := printf "<a href='%s' target='_blank'>%s</a>" $url $display -}}
+    {{- $content = replace $content . $link -}}
+  {{ else }}
+    {{- $display = index $prefix 0 -}}  <!-- Fall back to the original text if no prefix is matched -->
+    {{- $anchorized := $display | anchorize -}}
+    {{- $rel := printf "/%s" $anchorized -}}
+    {{- $link := printf "<a href='%s'>%s</a>" $rel $display -}}
+    {{- $content = replace $content . $link -}}
+  {{ end }}
+{{ end }}
+
+{{- $content = replaceRE $markdownEmphasisRegex "<em>$1</em>" $content -}}  <!-- Apply markdown emphasis after processing links -->
+
+{{- $content | safeHTML -}}

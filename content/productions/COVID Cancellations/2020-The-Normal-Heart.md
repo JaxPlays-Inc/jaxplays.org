@@ -11,10 +11,9 @@ Genres:
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/the-normal-heart
 show_details:
-- Writer: Larry Kramer - wiki
+- Writer: "[[w:Larry Kramer]]"
 - Setting: New York City, New York, United States
 - Subject: The rise of the HIV/AIDS crisis in New York City
-- Wikipedia: The Normal Heart - wiki
 showtimes:
 - 2020-11-06 20:00:00
 - 2020-11-07 20:00:00

@@ -18,8 +18,8 @@ Venue: Swisher Theater
 Website: 
 Tickets: 
 show_details: 
-- Book: Oscar Hammerstein II - wiki
-- Music: Richard Rodgers - wiki
+- Book: "[[w:Oscar Hammerstein II]]"
+- Music: "[[w:Richard Rodgers]]"
 Description: A love story that's more than OK! Watch as romance and rivalry come to life in a spirited frontier town.
 showtimes:
 - 2008-04-04 19:30:00

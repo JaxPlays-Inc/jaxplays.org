@@ -8,11 +8,6 @@ opening_date: 2020
 category: musical
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/rock-of-ages
-show_details:
-- Book: Chris D'Arienzo
-- Music: Various
-- Lyrics: Various
-- Wikipedia: Rock of Ages (musical) - wiki
 showtimes:
 - 2020-09-18 20:00:00
 - 2020-09-19 20:00:00

@@ -1,16 +1,16 @@
 ---
-title: You're A Good Man Charlie Brown
+title: You're A Good Man, Charlie Brown
 date: 2024-06-12T23:56:56-04:00
 featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: Clark Gesner - wiki
+- Music: "[[w:Clark Gesner]]"
 - Lyrics: Clark Gesner
 - Book: John Gordon
 - Premiere: 
 - Theatre: 
-- Basis: Charles M. Schulz's comic strip 'Peanuts'
+- Basis: "[[w:Charles M. Schulz]]'s comic strip *[[w:Peanuts]]*"
 - Website: 
 Genres:
   - Musical

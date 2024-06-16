@@ -5,10 +5,10 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-- Music: Joe Iconis - wiki
+- Music: "[[w:Joe Iconis]]"
 - Lyrics: Joe Iconis
 - Book: Joe Tracz
-- Basis: Be More Chill - wiki
+- Basis: "*[[w:Be More Chill]]* by [[w:Ned Vizzini]]"
 Genres:
 - Musical
 - Sci-Fi

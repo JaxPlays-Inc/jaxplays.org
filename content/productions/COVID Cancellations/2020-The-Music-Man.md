@@ -9,10 +9,12 @@ category: musical
 Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/the-music-man/
 show_details:
-- Music: Meredith Willson - wiki
+- Music: "[[w:Meredith Willson]]"
 - Lyrics: Meredith Willson
-- Book: Meredith Willson, Franklin Lacey - wiki
-- Wikipedia: The Music Man - wiki
+- Book: 
+  - Meredith Willson
+  - Franklin Lacey
+
 showtimes:
 - 2020-08-06 11:00:00
 - 2020-08-06 18:00:00

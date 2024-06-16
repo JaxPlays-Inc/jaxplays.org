@@ -22,11 +22,10 @@ Venue:
 - Swisher Theater
 - Wilson Center - Main Stage Theatre
 show_details:
-- Music: Lin-Manuel Miranda - wiki
+- Music: "[[w:Lin-Manuel Miranda]]"
 - Lyrics: Lin-Manuel Miranda
-- Book: Quiara Alegría Hudes - wiki
-- Setting: Washington Heights, Manhattan
-- Wikipedia: In the Heights - wiki
+- Book: "[[w:Quiara Alegría Hudes]]"
+- Setting: "[[w:Washington Heights, Manhattan]]"
 Genres:
 - Musical
 - Drama

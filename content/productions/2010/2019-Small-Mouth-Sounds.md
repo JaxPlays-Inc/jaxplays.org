@@ -14,7 +14,7 @@ Genres:
 - Play
 Theatre: The 5 & Dime
 show_details:
-- Writer: Bess Wohl - wiki
+- Writer: "[[w:Bess Wohl]]"
 Website: https://www.the5anddime.org/small-mouth-sounds
 showtimes:
 - 2019-04-19 20:00:00

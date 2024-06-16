@@ -15,7 +15,7 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Playwright: Andrew Bergman - wiki
+- Playwright: "[[w:Andrew Bergman]]"
 cast:
 - David Kahn: Jon Fine
 - Barbara Kahn: Korina Barber

@@ -12,7 +12,7 @@ Genres:
 - Play
 Theatre: The 5 & Dime
 show_details:
-- Writer: Lynn Nottage - wiki
+- Writer: "[[w:Lynn Nottage]]"
 Website: https://www.the5anddime.org/sweat
 showtimes:
 - 2019-08-02 20:00:00

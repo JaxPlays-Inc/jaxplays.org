@@ -6,7 +6,7 @@ opening_date: 2007-12-31
 approx_date: year
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:
-- Playwright: N. Richard Nash - wiki
+- Playwright: "[[w:N. Richard Nash]]"
 - Setting: West rural town, Depression-era America
 cast:
 crew:

@@ -7,7 +7,7 @@ layout: productions
 playbill:
 Theatre: Theatre Jacksonville
 show_details:
-- Playwright: George Kelly - wiki
+- Playwright: "[[w:George_Kelly_(playwright)|George Kelly]]"
 - Premiere: 1922
 cast:
 - Mr. Huxley Hossefrosse: Bart Nason

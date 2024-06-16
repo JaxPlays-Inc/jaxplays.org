@@ -8,12 +8,11 @@ opening_date: 2020
 category: musical
 Theatre: Alhambra Theatre & Dining
 show_details:
-- Music: Joe Raposo - wiki
-- Lyrics: Sheldon Harnick - wiki
+- Music: "[[w:Joe Raposo]]"
+- Lyrics: "[[w:Sheldon Harnick]]"
 - Book: Sheldon Harnick
-- Basis: Based on the 1946 film, It's a Wonderful Life produced and directed by Frank Capra.
-- Setting: Bedford Falls
-- Wikipedia: A Wonderful Life (musical) - wiki
+- Basis: Based on the 1946 film, *[[w:It's a Wonderful Life]]* produced and directed by "[[w:Frank Capra]]".
+- Setting: "[[w:Bedford Falls (It's a Wonderful Life)|Bedford Falls]]"
 Website: https://www.alhambrajax.com/show/a-wonderful-life/
 showtimes:
 - 2020-11-25 18:00:00

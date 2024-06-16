@@ -8,8 +8,7 @@ opening_date: 2020-06-12
 Theatre: Players by the Sea
 Website: https://www.playersbythesea.org/musical-comedy-murders-of-1940
 show_details:
-- Writer: John Bishop - wiki
-- Wikipedia: The Musical Comedy Murders of 1940 - wiki
+- Writer: "[[w:John Bishop]]"
 Genres: 
 - Musical
 - Comedy

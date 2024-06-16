@@ -7,7 +7,7 @@ layout: productions
 featured_image:
 Theatre: Players by the Sea
 show_details:
-- Playwright: N. Richard Nash - wiki
+- Playwright: "[[w:N. Richard Nash]]"
 cast:
 - Noah: Michael Lipp
 crew:
