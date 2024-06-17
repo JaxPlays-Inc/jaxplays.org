@@ -48,7 +48,7 @@
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
     {{ $productionsWithPerson := slice }}
-    {{ range sort (where site.Pages "Type" "productions") "Date" "desc" }}
+    {{ range (sort (where site.Pages "Type" "productions") "Params.opening_date" "desc") }}
     {{ $production := . }}
     {{ with index .Params $creditType }}
     {{ $credits := slice }}
@@ -156,7 +156,6 @@
     </div>
     {{ end }}
     {{ end }}
-
     <!-- END Credits Section -->
 
     <!-- Reviews -->
