@@ -11,8 +11,8 @@ featured_image_caption:
 category: musical
 Theatre: Players by the Sea
 show_details:
-- Music: Marvin Laird - wiki
-- Lyrics: Joel Paley - wiki
+- Music: "[[w:Marvin Laird]]"
+- Lyrics: "[[w:Joel Paley]]"
 - Book: Joel Paley
 Tickets: https://web.ovationtix.com/trs/pr/1026219
 Website: https://www.playersbythesea.org/dancenation

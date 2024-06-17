@@ -125,5 +125,4 @@ Genres:
   - Musical
   - Comedy
   - Romance
-Description: "Set sail to an island paradise where love, laughter, and Jimmy Buffett tunes blend into the ultimate tropical escapade."
 ---

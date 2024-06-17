@@ -11,10 +11,10 @@ featured_image_caption:
 category: musical
 Theatre: Players by the Sea
 show_details:
-- Music: Cyndi Lauper - wiki
+- Music: "[[w:Cyndi Lauper]]"
 - Lyrics: Cyndi Lauper
-- Book: Harvey Fierstein - wiki
-- Basis: Kinky_Boots_(film) - wiki
+- Book: "[[w:Harvey Fierstein]]"
+- Basis: "*[[w:Kinky_Boots_(film)|Kinky Boots ]]* by [[w:Geoff Deane]] & [[w:Tim Firth]]"
 Tickets: https://web.ovationtix.com/trs/pr/1094753
 Website: https://web.archive.org/web/20220603173118/https://www.playersbythesea.org/dancenation
 showtimes:

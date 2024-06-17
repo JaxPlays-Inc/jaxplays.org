@@ -25,6 +25,4 @@ show_details:
 cast:
 crew:
 orchestra:
-genres: 
-Description: 
 ---

@@ -11,7 +11,7 @@ featured_image_caption:
 Theatre: The 5 & Dime
 Venue: The Florida Ballet
 show_details:
-- Writer: Karen Zacarias - wiki
+- Writer: "[[w:Karen Zacarias]]"
 Genres: 
 - Play
 - Comedy

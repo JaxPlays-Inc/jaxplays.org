@@ -13,7 +13,7 @@ Genres:
 Theatre: The 5 & Dime
 Venue: BABS' LAB
 show_details:
-- Writer: Joshua Harmon (playwright) - wiki
+- Playwright: "[[w:Joshua Harmon (playwright)|Joshua Harmon]]"
 Website: https://www.the5anddime.org/significant-other
 showtimes:
 - 2022-04-21 20:00:00

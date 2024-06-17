@@ -11,8 +11,8 @@ Genres:
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:
-- Writer: Stephen Karam - wiki
-- Setting: An apartment in lower Manhattan
+- Writer: "[[w:Stephen Karam]]"
+- Setting: An apartment in lower [[w:Manhattan]]
 - Subject: Family
 Website: https://www.ameliacommunitytheatre.org/Performances/The-Humans-
 showtimes:

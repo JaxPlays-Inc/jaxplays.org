@@ -11,8 +11,8 @@ featured_image_caption:
 Theatre: The Island Theater
 Venue: The Island Theater
 show_details:
-- Writer: F. Scott Fitzgerald - wiki
-- Adapter: Simon Levy - wiki
+- Playwright: "[[w:F. Scott Fitzgerald]]"
+- Adapter: "[[w:Simon Levy]]"
 Description: "*The Great Gatsby*, adapted by Simon Levy, brings F. Scott Fitzgerald's classic American novel to the stage in a tale of doomed love, unfulfilled aspirations, and the American Dream gone awry, all set against the jazz-infused backdrop of the Roaring '20s."
 Genres:
 - Play

@@ -18,9 +18,9 @@ playbill:
 Website: https://www.theislandtheater.com/mean-girls-junior
 Tickets: 
 show_details: 
-- Book: Tina Fey - wiki
-- Music: Jeff Richmond - wiki
-- Lyrics: Nell Benjamin - wiki
+- Music: "[[w:Jeff Richmond]]"
+- Lyrics: "[[w:Nell Benjamin]]"
+- Book: "[[w:Tina Fey]]"
 cast:
 - Cady Heron: Abby Callaway
 - Regina George: Addie Larson

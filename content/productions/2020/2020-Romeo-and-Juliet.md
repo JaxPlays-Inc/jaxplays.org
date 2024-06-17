@@ -17,9 +17,9 @@ Genres:
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 show_details:
-- Writer: William Shakespeare - wiki
-- Series: First Quarto - wiki
-- Setting: Verona - wiki, 16th century
+- Writer: "[[w:William Shakespeare]]"
+- Series: "[[w:First Quarto]]"
+- Setting: "[[w:Verona]], [[w:16th century]]"
 showtimes:
 - 2020-02-20 20:00:00
 - 2020-02-21 20:00:00

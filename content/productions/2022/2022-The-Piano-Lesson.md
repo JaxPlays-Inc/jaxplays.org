@@ -9,7 +9,7 @@ opening_date: 2022-06-03
 closing_date: 2022-06-19
 Theatre: Players by the Sea
 show_details:
-- Writer: August Wilson - wiki
+- Writer: "[[w:August Wilson]]"
 Genres: 
 - Play
 - Drama

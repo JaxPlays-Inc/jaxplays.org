@@ -12,8 +12,8 @@ Genres:
 - Drama
 Theatre: Limelight Theatre
 show_details: 
-- Writer: Horton Foote - wiki
-- Setting: Spring 1950. Houston Texas
+- Writer: "[[w:Horton Foote]]"
+- Setting: Spring 1950. [[w:Houston, Texas]]
 - Subject: Two parents attempt to cope with the death and homosexuality of their only son
 Website: https://limelight-theatre.org/shows/
 Tickets: https://web.ovationtix.com/trs/pr/1010740

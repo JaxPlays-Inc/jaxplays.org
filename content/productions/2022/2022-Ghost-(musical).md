@@ -13,10 +13,15 @@ featured_image_alt:
 featured_image_caption:
 Theatre: Alhambra Theatre & Dining
 show_details:
-- Music: Dave Stewart - wiki, Glen Ballard - wiki
-- Lyrics: Dave Stewart, Glen Ballard, Bruce Joel Rubin - wiki
+- Music: 
+  - "[[w:Dave Stewart]]"
+  - "[[w:Glen Ballard]]"
+- Lyrics: 
+  - Dave Stewart
+  - Glen Ballard
+  - "[[w:Bruce Joel Rubin]]"
 - Book: Bruce Joel Rubin
-- Basis: The film Ghost by Bruce Joel Rubin
+- Basis: The film *[[w:Ghost (1990 film)|Ghost]]* by Bruce Joel Rubin
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=395
 showtimes:
 - 2022-09-29 12:00:00

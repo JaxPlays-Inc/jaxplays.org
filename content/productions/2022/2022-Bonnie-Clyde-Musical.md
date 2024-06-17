@@ -10,10 +10,10 @@ featured_image_caption: Poster of 2022 production of Bonnie & Clyde
 category: musical
 Theatre: ABET - All Beaches Experimental Theatre
 show_details:
-- Music: Frank Wildhorn - wiki
-- Lyrics: Don Black (lyricist) - wiki
+- Music: "[[w:Frank Wildhorn]]"
+- Lyrics: "[[w:Don Black (lyricist)|Don Black]]"
 - Book: Ivan Menchell
-- Basis: The lives of [Bonnie and Clyde](https://en.wikipedia.org/wiki/Bonnie_and_Clyde)
+- Basis: The lives of [[w:Bonnie and Clyde]]
 Tickets: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
 showtimes:
 - 2022-03-18 19:30:00

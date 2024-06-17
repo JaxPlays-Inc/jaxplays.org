@@ -13,10 +13,10 @@ featured_image_caption:
 category: musical
 Theatre: Orange Park Community Theatre
 show_details:
-- Music: 	Tom_Kitt_(musician) - wiki
-- Lyrics: Brian Yorkey - wiki
-- Book: Bridget Carpenter - wiki
-- Basis: Freaky Friday by Mary Rodgers
+- Music: 	"[[w:Tom Kitt (musician)|Tom Kitt]]"
+- Lyrics: "[[w:Brian Yorkey]]"
+- Book: "[[w:Bridget Carpenter]]"
+- Basis: "*[[w:Freaky Friday]]* by [[w:Mary Rodgers]]"
 Website: https://web.archive.org/web/20220124230813/https://www.opct.info/52nd-season
 showtimes:
 - 2022-06-03 20:00:00

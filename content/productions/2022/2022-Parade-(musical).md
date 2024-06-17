@@ -14,9 +14,9 @@ category: musical
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 show_details:
-- Music: Jason Robert Brown - wiki
+- Music: "[[w:Jason Robert Brown]]"
 - Lyrics: Jason Robert Brown
-- Book: Alfred Uhry - wiki
+- Book: "[[w:Alfred Uhry]]"
 - Basis: Historical events in Atlanta in 1913
 showtimes:
 - 2022-08-04 19:30:00

@@ -12,7 +12,7 @@ featured_image_alt:
 featured_image_caption:
 Theatre: The 5 & Dime
 show_details:
-- Writer: Aristophanes - wiki
+- Writer: "[[w:Aristophanes]]"
 Genres: 
 - Play
 - Comedy

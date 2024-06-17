@@ -6,20 +6,12 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2020-03-13
 closing_date: 2020-03-29
-featured_image: 2020_Two_Trains_Running.png
-featured_image_attr:
-featured_image_alt:
-featured_image_caption:
+featured_image: 2020-Two-Trains-Running.webp
+featured_image_alt: "Poster for the play 'Two Trains Running' by August Wilson, presented by Players by the Sea. The image features a black and white photo of actors seated at a diner table, portraying a scene from the play, which captures the mood and setting of the story."
+featured_image_caption: "The poster of 'Two Trains Running' captures a poignant moment from the play, with actors immersed in their roles at a diner, reflecting the intense and dynamic storytelling of August Wilson."
+featured_image_attr: "Photography: Josh Andrews, Design: Bradley Akers"
 Theatre: Players by the Sea
-Genres: 
-- Play
-- Drama
 Website: https://www.playersbythesea.org/two-trains-running
-show_details:
-- Writer: August Wilson - wiki
-- Series: The Pittsburgh Cycle - wiki
-- Setting: The Hill District of Pittsburgh, 1969
-- Subject: The uncertain future promised by the Civil Rights Movement of the 1960s
 showtimes:
 - 2020-03-13 20:00:00
 - 2020-03-14 20:00:00
@@ -53,6 +45,31 @@ crew:
 - Lighting Designer: Daniel Dungan
 - Sound Designer: Brian Niece
 - Prop Manager: Claire Cimino
+photos:
+- photo: 2020-Two-Trains-Running-01.webp
+  photo_alt: "Image from a live performance of 'Two Trains Running' showing actors engaging with one another on a realistic diner set. The atmosphere is tense and reflective of the play's deep narrative exploring themes of racial tension and hope in 1960s America."
+  photo_caption: "A live performance of 'Two Trains Running' captures a dynamic interaction among characters, set in a diner that serves as the central hub of the play's action and dialogue."
+  photo_attr: Brian Niece
+  photo_attr_link: https://www.facebook.com/photo?fbid=10158989381357079&set=a.8105232078
+
+- photo: 2020-Two-Trains-Running-03.webp
+  photo_alt: "Promotional graphic for 'Two Trains Running' featuring the cast list set against a black background. The simple yet effective design lists the characters alongside the actors portraying them, framed by the play's title and production details."
+  photo_caption: "Cast list for 'Two Trains Running' displayed in a straightforward layout, showcasing the diverse roles and actors involved in this production."
+  photo_attr: Bradley Akers
+  photo_attr_link: https://www.facebook.com/photo/?fbid=10158841326777079&set=a.8105232078
+
+- photo: 2020-Two-Trains-Running-02.webp
+  photo_alt: "Promotional poster for 'Two Trains Running' by Players by the Sea. The poster features a black and white photo of the main cast seated in a diner, reflecting the narrative's backdrop. The rustic style of the poster complements the historical and cultural themes of the play."
+  photo_caption: "Poster for 'Two Trains Running,' showing the main cast seated at a diner table, highlighting the interpersonal dynamics central to the play's exploration of community and change."
+  photo_attr: "Photography: Josh Andrews, Design: Bradley Akers"
+  photo_attr_link: https://www.facebook.com/photo/?fbid=10158875651632079&set=a.8105232078
+
+- photo: 2020-Two-Trains-Running-04.webp
+  photo_alt: "Stage photograph from 'Two Trains Running' featuring actors in character at a diner set. The stage is richly detailed with period-appropriate props and furniture, contributing to the immersive atmosphere of the 1960s setting depicted in the play."
+  photo_caption: "A promotional photo from 'Two Trains Running' captures actors in an engaging moment within the meticulously designed diner set, reflecting the play's setting in the 1960s."
+  photo_attr: "Josh Andrews"
+  photo_attr_link: https://www.facebook.com/photo?fbid=2758471050866990&set=a.253502688030518
+
 ---
 
 \* This show was unfortunately cut short by the COVID-19 pandemic. The last production day was March 15, 2020.

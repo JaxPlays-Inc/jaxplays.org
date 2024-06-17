@@ -11,7 +11,7 @@ playbill: 2022_Private_Lives.pdf
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:
-- Playwright: Noel Coward - wiki
+- Playwright: "[[w:Noel Coward]]"
 showtimes:
 - 2022-09-16 19:30:00
 - 2022-09-17 19:30:00

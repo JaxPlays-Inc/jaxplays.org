@@ -14,8 +14,8 @@ Genres:
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 show_details:
-- Writer: Richard Bean - wiki
-- Setting: 1963 Brighton, England
+- Writer: "[[w:Richard Bean]]"
+- Setting: "[[w:1963]] [[w:Brighton, England]]"
 Website: https://www.ameliacommunitytheatre.org/Performances/One-Man%2C-Two-Guvnors
 showtimes:
 - 2022-08-12 19:30:00

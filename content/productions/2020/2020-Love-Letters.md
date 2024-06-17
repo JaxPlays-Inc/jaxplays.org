@@ -10,7 +10,7 @@ Genres:
 - Play
 Theatre: Alhambra Theatre & Dining
 show_details:
-- Writer: A. R. Gurney - wiki
+- Writer: "[[w:A. R. Gurney]]"
 Website: https://www.alhambrajax.com/show/love-letters/
 showtimes:
 - 2020-01-09 18:00:00

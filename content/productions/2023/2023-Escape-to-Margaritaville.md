@@ -23,10 +23,6 @@ featured_image_attr_link:
 playbill:
 Website: 
 Tickets: https://www.eventbrite.com/e/jimmy-buffetts-escape-to-margaritaville-tickets-679546410607
-show_details: 
-- Music: Jimmy Buffett - wiki
-- Lyrics: Jimmy Buffett
-- Book: Greg Garcia and Mike O'Malley
 cast:
 - Tully: Evan Bowen
 - Rachel: Assata Davis
@@ -64,7 +60,6 @@ Genres:
 - Musical
 - Comedy
 - Romance
-Description: "A tropical paradise, tequila, and tunes—Jimmy Buffett's musical serves up the perfect getaway."
 photos:
 - photo: 2023-Escape-to-Margaritaville-02.webp
   photo_attr: Graphic Design by Jon Scherf
