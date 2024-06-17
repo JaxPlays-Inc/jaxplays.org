@@ -29,7 +29,10 @@
   {{ end }}
 
   {{ if $isKnownPrefix }}
-    {{- $url = printf "%s%s" $route (index $prefix 1 | urlize) -}}
+    {{- $internalURLize := index $prefix 1 }}
+    {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
+    {{/*  {{- $url = printf "%s%s" $route (index $prefix 1 | urlize) -}}  */}}
+    {{- $url = printf "%s%s" $route ( $internalURLize | urlize) -}}
     {{- $link := printf "<a href='%s'>%s</a>" $url $display -}}
     {{- $content = replace $content . $link -}}
   {{ else if and (eq (len $prefix) 2) (eq (index $prefix 0) "w") }}

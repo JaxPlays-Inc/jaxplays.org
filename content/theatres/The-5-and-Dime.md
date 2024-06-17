@@ -29,7 +29,7 @@ Press:
 date: 2023-09-08T00:00:00-04:00
 ---
 
-In 2011, a group of artists and friends in Jacksonville, Florida came together with a bold vision: to make a difference in the city's cultural arts community. With that goal in mind, they founded The 5 & Dime, a theatre company that would offer opportunities for artists of all disciplines to showcase their talents in a supportive environment. The founding members, including Caryl Butterley, Evan Gould, Judy Gould, Staci Cobb Grant, Lee Hamby, Craig Leavitt, Zeina Salame, Josh Taylor, and Josh Waller, started with a simple question: "Why not us?"
+In 2011, a group of artists and friends in Jacksonville, Florida came together with a bold vision: to make a difference in the city's cultural arts community. With that goal in mind, they founded The 5 & Dime, a theatre company that would offer opportunities for artists of all disciplines to showcase their talents in a supportive environment. The founding members, including [[person:Caryl Butterley]], [[person:Evan Gould]], Judy Gould, [[person:Staci Cobb Grant]], [[person:Lee Hamby]], Craig Leavitt, Zeina Salame, Josh Taylor, and [[person:Josh Waller]], started with a simple question: "Why not us?"
 
 Since its inception, The 5 & Dime has staged as few as two and as many as 12 productions in a season, often on borrowed or rented stages. In 2017, the company opened its own venue on Adams Street in downtown Jacksonville, providing a permanent home for its productions. However, with the onset of the COVID-19 pandemic, The 5 & Dime made the difficult decision to go without a home stage.
 

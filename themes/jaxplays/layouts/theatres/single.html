@@ -122,7 +122,7 @@
     {{ if .Content }}
     <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">About {{ .Title }}</h3>
-      {{ .Content }}
+      {{ partial "content-wikilinks" .Content }}
     </div>
     {{ end }}
 

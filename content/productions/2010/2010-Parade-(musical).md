@@ -14,8 +14,7 @@ show_details:
 - Book: Alfred Uhry
 cast:
 - Young Soldier: Stephen Michael Johns
-- Aide:
-- Assistant:
+- Leo Frank: Josh Waller
 - Old Soldier: Bill White
 - Lucille Frank: Staci Cobb
 - Leo Frank: Josh Waller
@@ -46,4 +45,8 @@ cast:
 - Ensemble:
 crew:
 - Director: Michael Lipp
+- Musical Director: Samuel Clein
+- Production Design: Lee Hamby
+Press:
+- "Players by the Sea's 'Parade' is tragic, true story | The Florida Times-Union": https://www.jacksonville.com/story/news/local/2010/07/05/players-seas-parade-tragic-true-story/15939641007/
 ---
