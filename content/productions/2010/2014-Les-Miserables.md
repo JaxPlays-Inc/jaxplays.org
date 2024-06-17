@@ -14,7 +14,7 @@ cast:
 - Valjean: Josh Waller
 - Javert: Peter Jackson
 - Marius: Chris Robertson
-- Thenardier: Lee Hamby
+- Thenardier: Chaz Back
 - Enjolras: Alec Hadden
 - Bishop: Gary Webber
 - Fantine: Mary Herrington
