@@ -1,5 +1,5 @@
 ---
-title: Dracula
+title: Dracula Radio Show
 Theatre: FSCJ DramaWorks
 Venue: Wilson Center - Studio Theatre
 date: 2023-10-19
@@ -19,6 +19,8 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
+- Writer: Orson Welles
+- Basis: "*[[w:Dracula]]* by [[w:Bram Stoker]]"
 cast:
 crew:
 orchestra:

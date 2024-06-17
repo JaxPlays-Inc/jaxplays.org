@@ -314,7 +314,6 @@
       {{ end }}
       </div>
 
-
       <!-- Synopsis -->
 
       {{ $showSynopsis := "" }}
@@ -328,15 +327,15 @@
         <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
         {{ if and .Content $showSynopsis }}
           <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-          {{ $showSynopsis }}
+          {{ partial "content-wikilinks" $showSynopsis }}
           <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
-          {{ .Content }}
+          {{ partial "content-wikilinks" .Content }}
         {{ else if $showSynopsis }}
           <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-          {{ $showSynopsis }}
+          {{ partial "content-wikilinks" $showSynopsis }}
         {{ else }}
           <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-          {{ .Content }}
+          {{ partial "content-wikilinks" .Content }}
         {{ end }}
         </div>
       {{ end }}

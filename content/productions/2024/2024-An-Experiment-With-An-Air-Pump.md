@@ -25,6 +25,10 @@ show_details:
 cast:
 crew:
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Play
+  - Drama
+  - Science
+Description: "Delve into *An Experiment With An Air Pump*, a thought-provoking play that spans two centuries, exploring the ethical dilemmas of scientific discovery."
 ---
+Set in the same house in 1799 and 1999, *An Experiment With An Air Pump* examines the lives of two families connected by this residence and a shared passion for science. The play juxtaposes the dawn of the age of enlightenment with the technological advances of the modern age, asking profound questions about the moral implications of scientific progress and the human cost of knowledge.

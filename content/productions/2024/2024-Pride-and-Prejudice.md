@@ -25,6 +25,10 @@ show_details:
 cast:
 crew:
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Play
+  - Romance
+  - Drama
+Description: "Step into the elegant world of *Pride and Prejudice*, a classic tale of love and misunderstanding that unfolds in class-conscious England near the close of the 18th century."
 ---
+*Pride and Prejudice* centers on Elizabeth Bennet, intelligent and spirited, and her turbulent relationship with the enigmatic Mr. Darcy. As they navigate societal expectations and their own feelings, the play delves into themes of love, reputation and class. With witty dialogue and romantic entanglements, this adaptation of Jane Austen's novel offers a sharp critique of the social landscape of its time, while celebrating the enduring nature of love.

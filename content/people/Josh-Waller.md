@@ -17,4 +17,4 @@ Socials:
 Press:
 - "Josh Waller: Interview with A Leading Male. | MetroJacksonville": https://web.archive.org/web/20091016013655/http://www.metrojacksonville.com/article/2009-oct-josh-waller-interview-with-a-leading-male
 ---
-Josh Waller is a dynamic and versatile actor and pianist based in Jacksonville, Florida, known for his classically trained voice and ability to transcend acting genres. Beyond the stage, Josh is one of the founder of [[theatre:The 5 & Dime]], and he is an advocate for Jacksonville’s arts community, pushing for greater support and unity among local artists.
+Josh Waller is a dynamic and versatile actor and pianist based in Jacksonville, Florida, known for his classically trained voice and ability to transcend acting genres. Beyond the stage, Josh is one of the founders of [[theatre:The 5 & Dime]], and he is an advocate for Jacksonville’s arts community, pushing for greater support and unity among local artists.

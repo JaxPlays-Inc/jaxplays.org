@@ -39,6 +39,10 @@ cast:
     - MaKenna Harder
 crew:
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Musical
+  - Adventure
+  - Fantasy
+Description: "Join a young hero on an epic quest in *The Lightning Thief*, a dynamic musical adaptation of Rick Riordan's bestselling novel that explores themes of identity and destiny."
 ---
+*The Lightning Thief* follows Percy Jackson, a teenager who discovers he is the son of Poseidon and has extraordinary powers. Accused of stealing Zeus's lightning bolt, Percy embarks on an adventure across America to find it and restore order among the warring gods. Along the way, he must confront monsters, make alliances, and come to terms with his powers. This musical captivates audiences with its thrilling plot and a rock-infused score that brings Greek mythology into the modern age.
