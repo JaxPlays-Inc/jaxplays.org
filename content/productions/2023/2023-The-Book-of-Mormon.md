@@ -19,9 +19,9 @@ Website:
 Tickets: https://www.fscjartistseries.org/tickets/the-book-of-mormon
 show_details: 
 - Book, Music & Lyrics: 
-  - Matt Stone - wiki
-  - Trey Parker - wiki
-  - Robert Lopez - wiki
+  - "[[w:Matt Stone]]"
+  - "[[w:Trey Parker]]"
+  - "[[w:Robert Lopez]]"
 Description: A heavenly hilarious musical that tests the faith of two missionaries—and your ability to breathe between laughs.
 showtimes:
 - 2023-12-01 20:00:00

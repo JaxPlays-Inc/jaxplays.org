@@ -17,11 +17,11 @@ playbill:
 Website: https://www.floridatheatre.com/events/detail/mame-in-concert
 Tickets: https://bit.ly/mame-tickets
 show_details: 
-- Music: Jerry Herman - wiki
+- Music: "[[w:Jerry Herman]]"
 - Lyrics: Jerry Herman
 - Book: 
   - Jerome Lawrence
-  - Robert Edwin Lee - wiki
+  - "[[w:Robert Edwin Lee]]"
 cast:
 - Mame Dennis: Linda Purl
 - Vera Charles: Dorothy Bishop

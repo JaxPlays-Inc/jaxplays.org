@@ -25,7 +25,7 @@ cast:
 - Maria: Gayle Swymer
 - Anita: Connie Haines
 - Chino: Fernando Velandia
-- Nibbles: don Jusko
+- Nibbles: Don Jusko
 - Pepe: Frank Nearhoof
 - Anxious: Billy Silverman
 - Consuelo: Robin Yancey

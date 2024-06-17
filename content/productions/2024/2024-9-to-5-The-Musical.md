@@ -32,10 +32,9 @@ playbill:
 Website: https://www.limelight-theatre.org/season-32-shows-1/9-to-5-the-musical
 Tickets: https://ci.ovationtix.com/34666/production/1165813
 show_details: 
-- Book: 
-  - Patricia Resnick - wiki
-- Music: Dolly Parton - wiki
+- Music: "[[w:Dolly Parton]]"
 - Lyrics: Dolly Parton
+- Book: "[[w:Patricia Resnick]]"
 cast:
 crew:
 - Director: Jonny O'Leary

@@ -24,10 +24,10 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Book: Robert L. Freedman - wiki
-- Music: Steven Lutvak - wiki
+- Music: "[[w:Steven Lutvak]]"
 - Lyrics: Steven Lutvak
-- Based on a novel by: Roy Horniman - wiki
+- Book: "[[w:Robert L. Freedman]]"
+- Basis: "*Israel Rank: The Autobiography of a Criminal* by [[w:Roy Horniman]]"
 cast:
 crew:
 - Director: Izzy Hague

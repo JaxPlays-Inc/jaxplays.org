@@ -24,9 +24,9 @@ playbill:
 Website: https://playersbythesea.org/beautiful
 Tickets: https://ci.ovationtix.com/34877/production/1187099
 show_details: 
-  - Book: Douglas McGrath - wiki
+  - Book: "[[w:Douglas McGrath]]"
   - Words & Music:
-    - Carole King - wiki
+    - "[[w:Carole King]]"
     - Gerry Goffin
     - Barry Man
     - Cynthia Weil

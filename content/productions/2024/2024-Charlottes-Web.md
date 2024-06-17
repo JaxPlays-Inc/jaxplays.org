@@ -26,9 +26,10 @@ Website: https://artistconnectiontheatre.org/current-show/
 Tickets: https://ci.ovationtix.com/34989/production/1170635
 show_details: 
 - Adapted by: Joseph Robinette
-- Music: Charles Strouse - wiki
+- Music: "[[w:Charles Strouse]]"
 - Lyrics: Charles Strouse
-- Based on: Charlotte's Web - wiki
+- Book: Joseph Robinette
+- Based on: "*[[w:Charlotte's Web]]* by [[w:E. B. White]]"
 cast:
 - Wilbur: Sam Swartz
 - Charlotte: Hannah O'Shea

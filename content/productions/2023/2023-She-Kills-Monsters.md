@@ -19,7 +19,7 @@ Venue: Swisher Theater
 Website: 
 Tickets: https://tickets.judolphins.com/#/event-list
 show_details: 
-- Playwright: Qui Nguyen - wiki
+- Playwright: "[[w:Qui Nguyen]]"
 Description: Dive into a world of mythical creatures, epic battles, and hearty laughs.
 showtimes:
 - 2023-09-22 19:30:00

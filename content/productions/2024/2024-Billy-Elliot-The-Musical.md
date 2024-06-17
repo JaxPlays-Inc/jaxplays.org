@@ -25,8 +25,8 @@ playbill:
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=4&p=51
 show_details: 
-- Music: Elton John - wiki
-- Lyrics: Lee Hall - wiki
+- Music: "[[w:Elton John]]"
+- Lyrics: "[[w:Lee Hall]]"
 - Book: Lee Hall
 cast:
 crew:

@@ -23,9 +23,9 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Book: Betsy Kelso
-- Music: David Nehls - wiki
+- Music: "[[w:David Nehls]]"
 - Lyrics: David Nehls
+- Book: Betsy Kelso
 cast:
 crew:
 - Director:

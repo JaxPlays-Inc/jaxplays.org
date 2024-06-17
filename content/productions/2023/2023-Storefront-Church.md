@@ -27,7 +27,7 @@ playbill:
 Website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
 Tickets: https://ci.ovationtix.com/34666/production/1165802
 show_details: 
-  - Playwright: John Patrick Shanley - wiki
+  - Playwright: "[[w:John Patrick Shanley]]"
 cast:
 - Jessie: Joy Manning
 - Ethan: David Buchman

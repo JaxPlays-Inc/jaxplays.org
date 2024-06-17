@@ -62,7 +62,7 @@ playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1430&code=jaxplays
 show_details: 
-- Book, Music, and Lyrics: Meredith Willson - wiki
+- Book, Music, and Lyrics: "[[w:Meredith Willson]]"
 cast:
 - Doris Walker: Sarah Middough
 - Susan Walker: Kat DeCicco

@@ -55,10 +55,10 @@ playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1459&code=WWW&qty_target=0
 show_details: 
-  - Music: Jule Styne - wiki
-  - Lyrics: Stephen Sondheim - wiki
-  - Book: Arthur Laurents - wiki
-  - Basis: "Gypsy: A Memoir - wiki"
+  - Music: "[[w:Jule Styne]]"
+  - Lyrics: "[[w:Stephen Sondheim]]"
+  - Book: "[[w:Arthur Laurents]]"
+  - Basis: "[[w:Gypsy: A Memoir]]"
 cast:
 crew:
 orchestra:
