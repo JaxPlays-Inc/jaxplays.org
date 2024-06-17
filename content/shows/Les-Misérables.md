@@ -13,7 +13,7 @@ show_details:
 - Book: 
   - Alain Boublil
   - Claude-Michel Schönberg
-- Basis: "[[w:Les Misérables]] by [[w:Victor Hugo]]"
+- Basis: "*[[w:Les Misérables]]* by [[w:Victor Hugo]]"
 - Website: https://www.lesmis.com/
 Genres:
   - Musical

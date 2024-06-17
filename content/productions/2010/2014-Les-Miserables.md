@@ -11,11 +11,11 @@ featured_image_caption: "Poster for 'Les Misérables' at Theatre Jacksonville"
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
-- Valjean: Justin Murphy
+- Valjean: Josh Waller
 - Javert: Peter Jackson
 - Marius: Chris Robertson
 - Thenardier: Lee Hamby
-- Enjolras: Josh Waller
+- Enjolras: Alec Hadden
 - Bishop: Gary Webber
 - Fantine: Mary Herrington
 - Cosette: Haley Cox
@@ -60,6 +60,11 @@ crew:
 - Director: Michael Lipp
 - Musical Director: Kimberly Beasley
 - Choreography: Curtis J. Williams
+- Assistant Stage Manager: Marlys Adjevi
+orchestra:
+  - Keyboards: 
+    - Jackson Merrill
+    - Kimberly Beasley
 Press:
 - "Les Miserables at Theatre Jacksonville in San Marco! | MySanMarco.com" : https://mysanmarco.com/2014/05/20/les-miserables-at-theatre-jacksonville-in-san-marco/
 Reviews: 

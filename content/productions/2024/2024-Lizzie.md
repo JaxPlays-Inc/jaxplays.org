@@ -36,6 +36,8 @@ show_details:
 - Website: https://www.lizziethemusical.com/
 cast:
 crew:
+  - Director: Abby Gomez
+  - Musical Director: Erin Barnes
 orchestra:
 Genres:
   - Musical
