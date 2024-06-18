@@ -10,42 +10,38 @@
   {{- $display := "" -}}
   {{- $url := "" -}}
 
-  {{- $colonIndex := findRE "^[^:]+:" $mainPart -}}  <!-- Find the first colon occurrence -->
-  {{- if eq (len $colonIndex) 1 }}
-    {{- $prefix := split $mainPart ":" -}}
-    {{- $route := "" -}}
+  {{- $colonParts := split $mainPart ":" -}}
+  {{- $route := "" -}}
 
-    {{ if eq (len $parts) 2 }}
-      {{- $display = index $parts 1 -}}
-    {{ else }}
-      {{- $display = index $prefix 1 -}}
-    {{ end }}
+  {{ if eq (len $parts) 2 }}
+    {{- $display = index $parts 1 -}}
+  {{ else }}
+    {{- $display = delimit (after 1 $colonParts) ":" -}} <!-- Rejoin the parts after the first colon -->
+  {{ end }}
 
-    {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
-    {{- $isKnownPrefix := false -}}
-    {{- range $key, $val := $routeMap }}
-      {{ if eq (index $prefix 0) $key }}
-        {{- $route = $val -}}
-        {{- $isKnownPrefix = true -}}
-      {{ end }}
+  {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
+  {{- $isKnownPrefix := false -}}
+  {{- range $key, $val := $routeMap }}
+    {{ if eq (index $colonParts 0) $key }}
+      {{- $route = $val -}}
+      {{- $isKnownPrefix = true -}}
     {{ end }}
+  {{ end }}
 
-    {{ if $isKnownPrefix }}
-      {{- $internalURLize := index $prefix 1 }}
-      {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
-      {{- $url = printf "%s%s" $route ( $internalURLize | urlize) -}}
-      {{- $link := printf "<a href='%s'>%s</a>" $url $display -}}
-      {{- $content = replace $content . $link -}}
-    {{ else if eq (index $prefix 0) "w" }}
-      {{- $wikiName := index $prefix 1 -}}
-      {{- $wikiName = replace $wikiName " " "_" -}}
-      {{- $wikiName = replace $wikiName "'" "%27" -}}  <!-- Encode plain apostrophes -->
-      {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}  <!-- Encode HTML right single quotation mark for Wikipedia URLs -->
-      {{- $wikiName = replaceRE "([A-Za-z])\\.([A-Za-z])" "$1._$2" $wikiName -}}
-      {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
-      {{- $link := printf "<a href='%s' target='_blank'>%s</a>" $url $display -}}
-      {{- $content = replace $content . $link -}}
-    {{ end }}
+  {{ if $isKnownPrefix }}
+    {{- $internalURLize := delimit (after 1 $colonParts) ":" -}} <!-- Get the complete title after the prefix -->
+    {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
+    {{- $url = printf "%s%s" $route ($internalURLize | urlize) -}}
+    {{- $link := printf "<a href='%s'>%s</a>" $url $display -}}
+    {{- $content = replace $content . $link -}}
+  {{ else if eq (index $colonParts 0) "w" }}
+    {{- $wikiName := delimit (after 1 $colonParts) ":" -}} <!-- Capture the entire title after the first colon -->
+    {{- $wikiName = replace $wikiName " " "_" -}}
+    {{- $wikiName = replace $wikiName "'" "%27" -}}  <!-- Encode plain apostrophes -->
+    {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}  <!-- Encode HTML right single quotation mark for Wikipedia URLs -->
+    {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
+    {{- $link := printf "<a href='%s' target='_blank'>%s</a>" $url $display -}}
+    {{- $content = replace $content . $link -}}
   {{ end }}
 {{ end }}
 
