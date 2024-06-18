@@ -29,9 +29,18 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
+- Music: "[[w:Alan Menken]]"
+- Lyrics: "[[w:Glenn Slater]]"
+- Book: 
+  - "[[w:Cheri Steinkellner]]"
+  - "[[w:Bill Steinkellner]]"
+- Basis: "*[[w:Sister Act]]* by [[w:Paul Rudnick|Joseph Howard]]"
 cast:
 crew:
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Musical
+  - Comedy
+Description: "Witness the uplifting story of a nightclub singer who finds refuge in a convent, turning the nuns' choir into a vibrant and soulful act."
 ---
+*Sister Act* centers on Deloris Van Cartier, a lounge singer who goes into hiding in a convent after witnessing a crime. Under the guise of Sister Mary Clarence, she takes over the convent's lackluster choir, infusing it with rhythm and blues. As she helps the choir gain widespread popularity, Deloris also finds unexpected sisterhood and purpose, transforming both her life and the lives of the nuns around her. This musical adaptation of the hit 1992 film features a score by Alan Menken and Glenn Slater, with songs that blend gospel, soul and disco to create a joyous and uplifting experience. *Sister Act* is a celebration of music, friendship, and the power of community, offering audiences a heartwarming and soulful journey that will leave them dancing in the aisles.
