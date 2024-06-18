@@ -1,6 +1,6 @@
 ---
 title: Our Town
-date: 2023-09-08T00:00:00
+date: 2024-06-17T22:07:55-04:00
 opening_date: 1943-03-01
 approx_date: month
 closing_date:

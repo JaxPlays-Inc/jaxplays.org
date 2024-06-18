@@ -26,11 +26,4 @@ show_details:
 cast:
 crew:
 orchestra:
-Genres:
-- Play
-- Comedy
-- Mystery
-- Thriller
-Description: "A rip-roaring parody that turns Hitchcock's suspenseful classic into a comedic caper."
 ---
-Richard Hannay becomes entangled in a spy ring and a murder mystery after a mysterious woman is killed in his apartment. What follows is a ludicrous journey with pratfalls, mistaken identities, and over-the-top antics. Adapted from both the classic novel and Alfred Hitchcock's film, this comedic take on The 39 Steps offers non-stop laughs while keeping you on the edge of your seat.
