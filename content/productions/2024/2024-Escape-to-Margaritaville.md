@@ -88,7 +88,9 @@ crew:
 - Choreographer: Erick Ariel Sureda
 - Musical Director: Cathy Murphy Giddens
 - Lighting Designer: Chad Conley
-- Costume Designers: Dorinda Quiles & Camala Pitts
+- Costume Designers: 
+  - Camala Pitts
+  - Dorinda Quiles
 - Set Design: Ian Black
 - Sound Designer: Eric Sullivan
 - Sound Technician: Carly Meyer

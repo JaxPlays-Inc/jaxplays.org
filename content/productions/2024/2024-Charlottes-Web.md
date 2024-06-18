@@ -2,7 +2,7 @@
 title: Charlotte's Web
 Theatre: Artist Connection Theatre
 Venue: Artist Connection Theatre
-date: 2024-05-10T17:42:58
+date: 2024-06-18T13:56:53-04:00
 opening_date: 2024-06-07
 closing_date: 2024-06-23
 showtimes:
@@ -24,12 +24,6 @@ featured_image_attr_link:
 playbill: 
 Website: https://artistconnectiontheatre.org/current-show/
 Tickets: https://ci.ovationtix.com/34989/production/1170635
-show_details: 
-- Adapted by: Joseph Robinette
-- Music: "[[w:Charles Strouse]]"
-- Lyrics: Charles Strouse
-- Book: Joseph Robinette
-- Based on: "*[[w:Charlotte's Web]]* by [[w:E. B. White]]"
 cast:
 - Wilbur: Sam Swartz
 - Charlotte: Hannah O'Shea
@@ -67,11 +61,4 @@ crew:
   - Lexi Newton
 - Stage Manager: Mandy Swartz
 orchestra:
-# Charlotte's Web
-Genres:
-  - Musical
-  - Family
-  - Drama
-Description: "Discover the enchanting musical adaptation of 'Charlotte's Web,' where a miraculous spider spins a tale of friendship and sacrifice on a humble farm."
 ---
-Based on the beloved children's novel by E.B. White, this musical rendition by Charles Strouse and Joseph Robinette brings to life the story of Wilbur, a young pig destined for the butcher's block, and Charlotte, the clever spider who vows to save him. Set in Zuckerman's barn, the story unfolds with Charlotte weaving words into her web in a bid to convince the farmer of Wilbur's worth. This heartwarming tale explores themes of friendship, loyalty, and the cycle of life, enhanced by captivating songs that celebrate the beauty of living and the importance of each creature on earth.

@@ -4,10 +4,12 @@ aliases:
   - /people/cathy-murphy
   - /people/cathy-t-murphy
   - /people/cathy-giddens-murphy
+  - /people/cathy-giddens
 other_names:
   - Cathy Murphy
   - Cathy T. Murphy
   - Cathy Giddens Murphy
+  - Cathy Giddens
 layout: people
 featured_image: 
 featured_image_attr: 

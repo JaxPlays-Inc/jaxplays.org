@@ -38,7 +38,8 @@
   {{ else if and (eq (len $prefix) 2) (eq (index $prefix 0) "w") }}
     {{- $wikiName := index $prefix 1 -}}
     {{- $wikiName = replace $wikiName " " "_" -}}
-    {{- $wikiName = replace $wikiName "'" "%27" -}}  <!-- Encode apostrophes for Wikipedia URLs -->
+    {{- $wikiName = replace $wikiName "'" "%27" -}}  <!-- Encode plain apostrophes -->
+    {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}  <!-- Encode HTML right single quotation mark for Wikipedia URLs -->
     {{- $wikiName = replaceRE "([A-Za-z])\\.([A-Za-z])" "$1._$2" $wikiName -}}
     {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
     {{- $link := printf "<a href='%s' target='_blank'>%s</a>" $url $display -}}
