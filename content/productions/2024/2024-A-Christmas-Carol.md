@@ -30,9 +30,19 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
+- Music: "[[w:Alan Menken]]"
+- Lyrics: "[[w:Lynn Ahrens]]"
+- Book:
+  - "[[w:Mike Ockrent]]"
+  - Lynn Ahrens
+- Basis: "[[w:Charles Dickens]]' novella *[[w:A Christmas Carol]]*"
 cast:
 crew:
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Play
+  - Drama
+  - Holiday
+Description: "Charles Dickens' timeless tale follows Ebenezer Scrooge’s transformative journey from a miser to a benefactor, haunted and guided by spirits one Christmas Eve."
 ---
+*A Christmas Carol* showcases the transformation of Ebenezer Scrooge, who is visited by the ghosts of Christmas Past, Present and Yet to Come. Through their revelations, Scrooge faces the truths of his bitter existence and the impact of his cold-heartedness, leading him to embrace the spirit of Christmas and change his ways.

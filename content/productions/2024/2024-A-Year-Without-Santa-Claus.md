@@ -25,6 +25,10 @@ show_details:
 cast:
 crew:
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Musical
+  - Family
+  - Holiday
+Description: "Experience the whimsical adventure when Santa Claus considers skipping his gift-giving journey, prompting a response from mythic figures and a spirited town."
 ---
+*A Year Without a Santa Claus* explores the idea of Christmas with a weary Santa contemplating a year off. Mrs. Claus and a cast of legendary characters, including Heat Miser and Snow Miser, engage in antics to show Santa the true spirit of the holiday. The story unfolds with heartwarming songs and endearing moments, highlighting the importance of belief and the universal joy of the Christmas season.
