@@ -15,7 +15,7 @@ Socials:
   Twitter: TheatreJax
   Instagram: theatrejacksonville
   Website: https://www.theatrejax.com
-Phone: 1-904-396-4425
+Phone: 19043964425
 color: "#687e6a"
 date: 2023-09-08T00:00:00-04:00
 ---

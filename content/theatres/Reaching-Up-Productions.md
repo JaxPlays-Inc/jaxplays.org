@@ -17,7 +17,7 @@ Socials:
   Instagram: 
   Threads:
   Website: https://reachingupproductions.org/
-Phone: 904-327-3274
+Phone: 19043273274
 color: "#FFD700"
 ---
 Reaching Up Productions is a theater company founded by Jyn Picard, that produces stage plays, movies and sitcoms. The company gained prominence with the success of *Love Without Money*, a play that achieved widespread acclaim and sell-out performances. Specializing in engaging storytelling, Reaching Up Productions continues to contribute significantly to the American theater scene, with a repertoire that emphasizes narrative depth and audience connection.

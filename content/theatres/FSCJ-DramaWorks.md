@@ -11,7 +11,7 @@ Socials:
   Instagram: fscjofficial
   LinkedIn: florida-state-college-at-jacksonville
   Website: https://fscj.digital.flvc.org/islandora/object/fscj:dramaWORKS
-Phone: 1-904-646-2222
+Phone: 19046462222
 color: "#043c5b"
 Press:
 date: 2023-09-08T00:00:00-04:00

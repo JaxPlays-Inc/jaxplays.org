@@ -15,7 +15,7 @@ Socials:
   Twitter: ACTAmelia
   Instagram: ameliacommunitytheatre
   Website: https://www.ameliacommunitytheatre.org
-Phone: 1-904-261-6749
+Phone: 19042616749
 color: "#ac8c33"
 date: 2023-09-08T00:00:00-04:00
 ---

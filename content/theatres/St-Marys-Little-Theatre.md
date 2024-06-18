@@ -13,7 +13,7 @@ Socials:
   Facebook: StMarysLittleTheatre
   YouTube: UCaSfmCnHH3rUiEnI6GbV7Sg
   Website: https://www.stmaryslittletheatre.com
-Phone: 1-954-290-9873
+Phone: 19542909873
 color: "#122851"
 date: 2023-09-08T00:00:00-04:00
 ---

@@ -14,7 +14,7 @@ Socials:
   Facebook: theislandtheater
   Instagram: theislandtheater
   Website: https://www.theislandtheater.com
-Phone: 1-904-254-1455
+Phone: 19042541455
 color: "#116cff"
 date: 2023-09-08T00:00:00-04:00
 ---

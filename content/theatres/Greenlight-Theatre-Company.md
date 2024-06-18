@@ -16,7 +16,7 @@ Socials:
   Facebook: profile.php?id=100075552802465
   Instagram: greenlighttheatreco_jax
   Website: https://www.greenlighttheatreco.com
-Phone: 1-985-502-2253
+Phone: 19855022253
 color: "#32CD32"
 date: 2023-09-08T00:00:00-04:00
 ---

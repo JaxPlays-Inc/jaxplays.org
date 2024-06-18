@@ -15,7 +15,7 @@ Socials:
   Twitter: OPCT
   Instagram: Opctheatre
   Website: https://www.opct.info
-Phone: 1-904-276-2599
+Phone: 19042762599
 color: "#FFA500"
 date: 2023-09-08T00:00:00-04:00
 ---

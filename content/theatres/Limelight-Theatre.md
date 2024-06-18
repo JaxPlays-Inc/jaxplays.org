@@ -15,7 +15,7 @@ Socials:
   Twitter: limelightstaug
   Instagram: limelightstaug
   Website: https://limelight-theatre.org
-Phone: 1-904-825-1164
+Phone: 19048251164
 color: "#bbda55"
 date: 2023-09-08T00:00:00-04:00
 ---
