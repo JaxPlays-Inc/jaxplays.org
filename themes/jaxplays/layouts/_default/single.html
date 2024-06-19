@@ -50,7 +50,7 @@
       {{ end }}
     </div>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "dark-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-100">
-      {{- .Content -}}
+      {{- partial "content-wikilinks" .Content -}}
       {{ if eq .Section "reviews" }}
         {{- partial "production_details_for_review.html" . -}}
       {{ end }}

@@ -48,7 +48,7 @@ Genres:
   - Play
   - Comedy
   - Interactive
-Description: "Experience Shakespeare like never before with 'ShakesBeer: A Brewery Tour,' blending classic scenes, improvisation and craft brews in a unique, interactive performance."
+Description: "Experience Shakespeare like never before with *ShakesBeer: A Brewery Tour*, blending classic scenes, improvisation and craft brews in a unique, interactive performance."
 ---
 The wildly popular off-kilter Shakespeare sampler returns with *ShakesBeer: A Brewery Tour,* combining theatre, interactive storytelling and a brewery tour into one exhilarating experience. Featuring a rotating ensemble of actors, this inventive show offers new scenes, tricks, and surprises at every stop. Audience members can enjoy the performance as spectators, participants or simply as beer enthusiasts, making for a dynamic and engaging evening. With a mix of Shakespeare's most famous scenes and interactive elements, this slightly inebriated performance celebrates the Bard's work in a fun and unforgettable way.
 
