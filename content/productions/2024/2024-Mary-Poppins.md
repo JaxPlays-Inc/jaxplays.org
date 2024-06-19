@@ -1,24 +1,18 @@
 ---
 title: Mary Poppins
 Theatre: Act II Players
-Venue: Mandarin Community Club
+Venue: Mandarin United Methodist Church Theatre
 Season: 
 date: 2024-06-17T23:20:30-04:00
-opening_date: 2024-08-09
-closing_date: 2024-08-25
+opening_date: 2024-08-20
+closing_date: 2024-08-29
 showtimes:
-  - 2024-08-09 19:00:00
-  - 2024-08-10 14:00:00
-  - 2024-08-10 19:00:00
-  - 2024-08-11 15:00:00
-  - 2024-08-16 19:00:00
-  - 2024-08-17 14:00:00
-  - 2024-08-17 19:00:00
-  - 2024-08-18 15:00:00
-  - 2024-08-23 19:00:00
-  - 2024-08-24 14:00:00
-  - 2024-08-24 19:00:00
-  - 2024-08-25 15:00:00
+- 2024-08-20 19:30:00
+- 2024-08-21 19:30:00
+- 2024-08-22 14:00:00
+- 2024-08-27 19:30:00
+- 2024-08-28 19:30:00
+- 2024-08-29 14:00:00
 featured_image: 2024-Mary-Poppins.webp
 featured_image_alt: "Promotional image for 'Mary Poppins' featuring the silhouette of Mary Poppins in her iconic flying pose with an umbrella, set against a stylized cityscape. The use of dark blue and black tones with pops of red accentuates the magical and whimsical theme of the musical."
 featured_image_caption: "Poster for Mary Poppins. Silhouette of Mary Poppins, umbrella in hand, against a cityscape, capturing the magical essence of this beloved musical."
