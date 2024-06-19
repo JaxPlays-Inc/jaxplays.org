@@ -80,7 +80,7 @@ crew:
     - Donna Lewis
     - Melinda Varnadoe
   - Sound and Lights:
-    - Bob O’Hara
+    - Bob O'Hara
     - David Bishop
   - Props: Alexa Bishop
   - Stage Crew:

@@ -41,7 +41,7 @@ cast:
   - Kyle O’Boyle: Thor Rockett
   - Aaron Schultz: Zain Beverly
   - Bjorn Gustafson: Nathan Lee
-  - Winthrop/Elle’s Dad: Bob O’Hara
+  - Winthrop/Elle’s Dad: Bob O'Hara
   - Lowell/Carlos: Ethan Dorris
   - Pforzheimer: Jimmy Kalista
   - Chutney Wyndham: Shaeliegh Tupper
