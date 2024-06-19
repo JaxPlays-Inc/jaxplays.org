@@ -1,5 +1,7 @@
 ---
 title: "A Delightfully Boozy Bard Bash - Lumen Repertory Theatre's ShakesBeer: A Brewery Tour"
+aliases:
+- /reviews/2024-shakesbeer-a-brewery-tour
 date: 2024-06-18T21:45:43-04:00
 featured_image: /media/photos/2024-Shakesbeer-A-Brewery-Tour-03.webp
 featured_image_alt: "Amy Love cradling Josh Andrews in a somber scene at a Shakespeare-themed performance in a brewery."

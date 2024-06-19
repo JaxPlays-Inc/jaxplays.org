@@ -1,10 +1,10 @@
 ---
 title: Brian Niece
-featured_image: Brian_Niece.webp
+featured_image: Brian-Niece.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: Headshot of Brian Niece
-featured_image_caption: 
+featured_image_caption: Headshot of Brian Niece
 Equity: true
 SDC: true
 Socials:
