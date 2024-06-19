@@ -1,10 +1,10 @@
 ---
 title: Jas Abramowitz
 featured_image: Jas-Abramowitz.webp
-featured_image_attr: 
-featured_image_attr_link: 
 featured_image_alt: Headshot of Jas Abramowitz
-featured_image_caption: Headshot of Jas Abramowitz
+featured_image_caption: Jas Abramowitz
+featured_image_attr: Jax Headshots
+featured_image_attr_link: https://www.jaxheadshots.co/
 Socials:
   Facebook: poetryjazzman
   Twitter: jasabramowitz
