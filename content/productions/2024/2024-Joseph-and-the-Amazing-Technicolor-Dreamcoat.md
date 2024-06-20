@@ -82,7 +82,6 @@ cast:
   - Potiphar: Pete Clapsis
   - Mrs. Potiphar: Christina Jordan
   - Pharaoh: Justin Murphy
-  - Baker/Male Ensemble: Johnny Flannagan
   - Reuben: Eric DiCicco
   - Simeon: Kole Mitchell McKinley
   - Levi/Butler: Reese Abrahamoff
@@ -94,6 +93,7 @@ cast:
   - Issachar: Liam Laverly
   - Zebulon: Mickey Titus
   - Benjamin: Trey Murphy
+  - Baker/Male Ensemble: Johnny Flannagan
   - Female Ensemble:
     - Brooklyn Klekamp
     - Shannon Jane Bradly

@@ -17,7 +17,7 @@ cast:
 - Jessie Clontz
 - Tod Booth
 - Taylor Barnett
-description:
+description: "Boeing Boeing at Alhambra Theatre brings the '60s to life with its blend of crisp costuming, dynamic direction, and a plot full of romantic entanglements."
 ---
 *[Boeing Boeing](/productions/2024-boeing-boeing/)* at the Alhambra Theatre & Dining, is a high-flying farce that catapults audiences into the comedic chaos of Bernard, a smooth-talking and insanely chauvinistic bachelor juggling three fiancées --- all flight attendants on different airlines. The unexpected arrival of his school friend, Robert, coincides with the airlines introducing newer, faster jets, disrupting the stewardesses' flight plans and unraveling Bernard's meticulously scheduled life in a delightful turbulence of confusion and comedy.<!--more-->
 
