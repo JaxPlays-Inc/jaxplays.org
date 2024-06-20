@@ -82,7 +82,7 @@ cast:
   - Potiphar: Pete Clapsis
   - Mrs. Potiphar: Christina Jordan
   - Pharaoh: Justin Murphy
-  - Reuben: Eric DiCicco
+  - Reuben: Erik DeCicco
   - Simeon: Kole Mitchell McKinley
   - Levi/Butler: Reese Abrahamoff
   - Judah: James Duncan
