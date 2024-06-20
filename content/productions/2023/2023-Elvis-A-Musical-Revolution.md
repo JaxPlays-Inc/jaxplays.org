@@ -59,7 +59,7 @@ cast:
 - Frank Sinatra: David Bishop
 - Producer: Jason Revere
 - Elvis impersonator:
-  - Bob O’Hara
+  - Bob O'Hara
   - Ozzie Medina
 - Ensemble:
   - Allie Basile

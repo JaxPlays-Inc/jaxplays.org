@@ -34,7 +34,7 @@ cast:
   - Adeline Bishop
   - Sarah Perkins
 - Aunt Em/Glinda: Haley Vonnoh
-- Uncle Henry/Emerald City Guard: Bob O’Hara
+- Uncle Henry/Emerald City Guard: Bob O'Hara
 - Zeke/Cowardly Lion: Jimmy Kalista
 - Hickory/TinMan: Jimmy Galaviz
 - Hunk/Scarecrow: Mike King
