@@ -2,6 +2,7 @@
 title: Disney's Tarzan
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
+Season: 59
 date: 2024-05-23T14:58:02-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-28
@@ -24,6 +25,10 @@ playbill:
 Website: 
 Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
 show_details: 
+  - Music: [[w:Phil Collins]]
+  - Lyrics: Phil Collins
+  - Book: David Henry Hwang
+  - Basis: [[w:Tarzan (1999 film)|Tarzan]] by [[w:Tab Murphy]], [[w:Bob Tzudiker]] and [[w:Noni White]], [[w:Tarzan of the Apes]] by [[w:Edgar Rice Burroughs]]
 cast:
   - Tarzan: Chris Berry
   - Jane: Abigail Douglas
