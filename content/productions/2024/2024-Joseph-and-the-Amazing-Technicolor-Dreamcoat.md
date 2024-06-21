@@ -93,12 +93,14 @@ cast:
   - Issachar: Liam Laverly
   - Zebulon: Mickey Titus
   - Benjamin: Trey Murphy
-  - Baker/Male Ensemble: Johnny Flannagan
-  - Female Ensemble:
+  - Baker: Johnny Flannagan
+  - Ensemble:
     - Brooklyn Klekamp
     - Shannon Jane Bradly
     - Sheila Murphy
-    - Terria Hill
+    - Ria Hill
+    - Johnny Flannagan
+    - Christina Jordan
   - Youth Ensemble:
     - Kat DiCicco
     - London J Syphertt
@@ -116,7 +118,16 @@ cast:
     - Emma Decker
     - Baylee Weidner
     - Salka Corring
+understudies:
+- Joseph, Pharaoh, Ruben, Simeon: Johnny Flannagan
+- Narrator: Brooklyn Klekamp
 crew:
+- Director: Shain Stroff
+- Musical Director: Cathy Murphy Giddens
+- Lighting Design: Chad Conley
+- Choreographer: 
+    - Shain Stroff
+    - Erick Ariel Sureda
 orchestra:
 # Joseph and the Amazing Technicolor Dreamcoat
 Genres:
