@@ -80,7 +80,7 @@ cast:
   - Narrator: Aaron DeCicco
   - Joseph: Markus Mann
   - Potiphar: Pete Clapsis
-  - Mrs. Potiphar: Christina Jordan
+  - Mrs. Potiphar: Christina Anne Jordan
   - Pharaoh: Justin Murphy
   - Reuben: Erik DeCicco
   - Simeon: Kole Mitchell McKinley
@@ -95,29 +95,29 @@ cast:
   - Benjamin: Trey Murphy
   - Baker: Johnny Flannagan
   - Ensemble:
-    - Brooklyn Klekamp
-    - Shannon Jane Bradly
-    - Sheila Murphy
-    - Ria Hill
+    - Shannon Jane Bradley
     - Johnny Flannagan
-    - Christina Jordan
+    - Brooklyn Klekamp
+    - Christina Anne Jordan
+    - Ria Hill
+    - Sheila Murphy
   - Youth Ensemble:
-    - Kat DiCicco
-    - London J Syphertt
-    - Daniel Champeau
-    - Kai Zandman
-    - Collin Galvin
-    - Vanson Michael Voce
     - Tehani Brantley
-    - Kennedy Swartz
-    - Cadence McIntire
-    - Zachary Swartz
-    - Jonah McIntire
+    - Daniel Champeau
+    - Salka Corring
+    - Emma Decker
+    - Kat DiCicco
     - Delia Doyle
     - Everly Doyle
-    - Emma Decker
+    - Collin Galvin
+    - Cadence McIntire
+    - Jonah McIntire
+    - Kennedy Swartz
+    - Zachary Swartz
+    - London J. Syphertt
+    - Vanson Michael Voce
     - Baylee Weidner
-    - Salka Corring
+    - Kai Zandman    
 understudies:
 - Joseph, Pharaoh, Ruben, Simeon: Johnny Flannagan
 - Narrator: Brooklyn Klekamp
@@ -126,14 +126,34 @@ crew:
 - Musical Director: Cathy Murphy Giddens
 - Lighting Design: Chad Conley
 - Choreographer: 
-    - Shain Stroff
-    - Erick Ariel Sureda
+  - Shain Stroff
+  - Erick Ariel Sureda
+- Costume Design:
+    - Dorinda Quiles
+    - Camala Pitts
+- Wig Design: Layla Thurman
+- Set Design: Ian Black
+- Property Master: Patti Eyler
+- VP of Production: Shain Stroff
+- Production Manager: Erick Ariel Sureda
+- Sound Design: Eric Sullivan
+- Lighting Design: Chad Conley
+- Sound Technician: Carley Meyer
+- Set Build Crew:
+  - Ian Black
+  - Kenney Holderfield
+  - David Dionne
+- Company Management: Lisa Valdini Booth
+- Assistant Production Mangager: 
+  - Sarah Brace
+- Wardrobe:
+  - Layla Thurman
+  - Allie Kangas
+  - Chelsea Lucas
+  - Emily Ford
+- Part-Time Stage Crew:
+  - Natalie Drake
+  - Thaddeus Walker
+  - Erica Moya
 orchestra:
-# Joseph and the Amazing Technicolor Dreamcoat
-Genres:
-  - Musical
-  - Family
-  - Drama
-Description: "A tapestry of vibrant colors, mesmerizing music, and timeless tales, this musical brings to life the story of Joseph, his eleven brothers, and the coat of many colors."
 ---
-Based on the biblical story of Joseph from the Book of Genesis, Joseph and the Amazing Technicolor Dreamcoat is a musical journey of betrayal, hardship, and providence. Betrayed by his brothers and sold into slavery, Joseph endures a series of adventures in which his spirit and humanity are continually tested. Known for its eclectic blend of musical styles, from country-western to calypso to bubble-gum pop to rock 'n' roll, this family-friendly show captivates with its universal themes of forgiveness, resilience, and hope. It's a dazzling celebration of the power of dreams and the human spirit's capacity for redemption.
