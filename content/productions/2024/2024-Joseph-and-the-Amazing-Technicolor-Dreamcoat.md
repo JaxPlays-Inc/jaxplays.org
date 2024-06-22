@@ -143,7 +143,7 @@ crew:
   - Ian Black
   - Kenney Holderfield
   - David Dionne
-- Company Management: Lisa Valdini Booth
+- Company Manager: Lisa Valdini Booth
 - Assistant Production Mangager: 
   - Sarah Brace
 - Wardrobe:
