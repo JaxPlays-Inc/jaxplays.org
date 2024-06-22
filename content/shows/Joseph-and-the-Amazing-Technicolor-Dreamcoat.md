@@ -1,9 +1,10 @@
 ---
 title: Joseph and the Amazing Technicolor Dreamcoat
 date: 2024-06-22T09:54:05-04:00
-featured_image:
-featured_image_caption: 
-featured_image_attr:
+featured_image: Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
+featured_image_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat
+featured_image_caption: Poster for 'Joseph and the Amazing Technicolor Dreamcoat' 1991 Revival
+featured_image_attr: <a href="//en.wikipedia.org/wiki/File:Joseph_and_the_Amazing_Technicolor_Dreamcoat.jpg" title="Fair use of copyrighted material in the context of Joseph and the Amazing Technicolor Dreamcoat">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=5133305">Link</a>
 show_details: 
 - Music: "[[w:Andrew Lloyd Webber]]"
 - Lyrics: "[[w:Tim Rice]]"
@@ -33,13 +34,13 @@ Based on the biblical story of Joseph from the Book of Genesis, Joseph and the A
 
 -   "Overture" — Orchestra
 -   "Prologue" – Narrator
--   "[Any Dream Will Do](https://en.wikipedia.org/wiki/Any_Dream_Will_Do_(song) "Any Dream Will Do (song)")" – Joseph, Children
+-   "[[w:Any Dream Will Do (song)|Any Dream Will Do]]" – Joseph, Children
 -   "Jacob and Sons/Joseph's Coat" – Joseph, Narrator, Brothers, Wives, Children
 -   "Joseph's Dreams" – Joseph, Narrator, Brothers, Female Ensemble
 -   "Poor, Poor Joseph" – Narrator, Brothers, Female Ensemble, Children
 -   "One More Angel in Heaven" – Reuben, Reuben's Wife, Brothers, Wives
 -   "Potiphar" – Joseph, Narrator, Potiphar, Mrs. Potiphar, Ensemble
--   "[Close Every Door](https://en.wikipedia.org/wiki/Close_Every_Door "Close Every Door")" – Joseph, Ensemble, Children
+-   "[[w:Close Every Door]]" – Joseph, Ensemble, Children
 -   "Go, Go, Go Joseph" – Joseph, Narrator, Baker, Butler, Ensemble, Children
 
 #### Act II
