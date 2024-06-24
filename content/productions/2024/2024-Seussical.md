@@ -22,7 +22,7 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: 
+Tickets: https://www.theislandtheater.com/seussical-the-musical-tickets
 show_details: 
 cast:
 crew:
