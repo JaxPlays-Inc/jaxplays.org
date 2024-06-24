@@ -15,9 +15,9 @@ showtimes:
   - 2024-07-06 19:30:00
   - 2024-07-07 14:00:00
   - 2024-07-07 18:00:00
-featured_image: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image: 2024-Seussical.webp
+featured_image_alt: "Poster for 'Seussical The Musical' showcasing three actors in bright, cheerful costumes against a vibrant blue striped background."
+featured_image_caption: "Dive into the colorful and imaginative world of 'Seussical The Musical' at The Island Theater, where fantasy and fun meet on stage this summer."
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:

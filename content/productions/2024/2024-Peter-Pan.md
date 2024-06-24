@@ -13,9 +13,9 @@ showtimes:
   - 2024-07-19 19:30:00
   - 2024-07-20 19:30:00
   - 2024-07-21 14:00:00
-featured_image: 2024-Peter-Pan-Cast-List.webp
-featured_image_alt: "Promotional image for 'Peter Pan' at The Island Theater, featuring the full cast list set against a magical, starry night background. The list includes roles such as Peter Pan, Tinkerbell, and Captain Hook among others, alongside the names of the actors portraying these characters."
-featured_image_caption: "Discover the magic of 'Peter Pan' at The Island Theater, featuring a talented cast ready to take you on a fantastical journey from July 12-21. Secure your tickets now and join the adventure!"
+featured_image: 2024-Peter-Pan.webp
+featured_image_alt: "Promotional poster for 'Peter Pan' featuring a whimsical ship soaring among clouds and palm trees with event dates."
+featured_image_caption: "Embark on a whimsical journey with 'Peter Pan' as it sails through The Island Theater this July, capturing the timeless charm of Neverland."
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
@@ -115,5 +115,10 @@ Genres:
   - Adventure
   - Family
 Description: "Fly away to Neverland with a timeless adventure that captures the joy of youth, the thrill of the unknown, and the meaning of friendship."
+photos:
+- photo: 2024-Peter-Pan-Cast-List.webp
+  photo_attr: "The Island Theater"
+  photo_alt: "Promotional image for 'Peter Pan' at The Island Theater, featuring the full cast list set against a magical, starry night background. The list includes roles such as Peter Pan, Tinkerbell, and Captain Hook among others, alongside the names of the actors portraying these characters."
+  photo_caption: "Promotional image for 'Peter Pan' at The Island Theater, featuring the full cast list set against a magical, starry night background."
 ---
 *Peter Pan* invites audiences to the enchanting world of Neverland, where the boy who never grows up reigns. Peter takes Wendy, John, and Michael Darling on an extraordinary journey across the stars to a land of mermaids, pirates, and fairies. Confronting the dastardly Captain Hook and bonding with the Lost Boys, the children experience a series of thrilling escapades. Through songs like 'I’m Flying' and 'Never Never Land,' this beloved musical explores themes of eternal childhood, the bonds of friendship, and the spirit of adventure that dwells within everyone.
