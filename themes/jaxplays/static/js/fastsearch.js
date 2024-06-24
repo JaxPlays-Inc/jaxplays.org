@@ -9,14 +9,14 @@ var resultsAvailable = false; // Did we get any search results?
 
 document.addEventListener('keydown', function(event) {
   if (event.metaKey && event.key === '/') {
-      if(firstRun) {
-        loadSearch();
-        firstRun = false;
-      }
-      const searchBox = document.getElementById("fastSearch");
-      searchBox.style.display = searchBox.style.display === "flex" ? "none" : "flex";
-      document.getElementById("searchInput").focus();
-      searchVisible = !searchVisible;
+    if (firstRun) {
+      loadSearch();
+      firstRun = false;
+    }
+    const searchBox = document.getElementById("fastSearch");
+    searchBox.style.display = searchBox.style.display === "flex" ? "none" : "flex";
+    document.getElementById("searchInput").focus();
+    searchVisible = !searchVisible;
   }
 
   if (event.key == 'Escape' && searchVisible) {
@@ -48,10 +48,10 @@ document.getElementById("searchInput").onkeyup = function(e) {
 function fetchJSONFile(path, callback) {
   var httpRequest = new XMLHttpRequest();
   httpRequest.onreadystatechange = function() {
-      if (httpRequest.readyState === 4 && httpRequest.status === 200) {
-          var data = JSON.parse(httpRequest.responseText);
-          if (callback) callback(data);
-      }
+    if (httpRequest.readyState === 4 && httpRequest.status === 200) {
+      var data = JSON.parse(httpRequest.responseText);
+      if (callback) callback(data);
+    }
   };
   httpRequest.open('GET', path);
   httpRequest.send(); 
@@ -59,15 +59,15 @@ function fetchJSONFile(path, callback) {
 
 function loadSearch() { 
   fetchJSONFile('/index.json', function(data){
-      var options = {
-        shouldSort: true,
-        location: 0,
-        distance: 100,
-        threshold: 0.4,
-        minMatchCharLength: 2,
-        keys: ['title', 'permalink', 'summary']
-      };
-      fuse = new Fuse(data, options); 
+    var options = {
+      shouldSort: true,
+      location: 0,
+      distance: 100,
+      threshold: 0.4,
+      minMatchCharLength: 2,
+      keys: ['title', 'permalink', 'summary']
+    };
+    fuse = new Fuse(data, options); 
   });
 }
 
@@ -84,6 +84,9 @@ function executeSearch(term) {
       let section = result.item.section;
       if (section === 'Productions' && result.item.opening_date) {
         date = new Date(result.item.opening_date).getFullYear();
+        if (result.item.theatre_name) {
+          date += ' — ' + result.item.theatre_name; // Append theatre name if available
+        }
       } else if (section === 'News' || section === 'Reviews') {
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         date = new Date(date).toLocaleDateString(undefined, options);

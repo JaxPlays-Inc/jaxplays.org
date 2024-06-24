@@ -2,8 +2,12 @@
 {{- $allowedSections := slice "people" "productions" "theatres" "venues" "news" "reviews" -}}
 {{- range where .Site.RegularPages "Section" "in" $allowedSections -}}
     {{- $openingDate := "" -}}  
+    {{- $theatreName := "" -}}
     {{- if and (eq .Section "productions") (.Params.opening_date) -}}  
         {{- $openingDate = .Params.opening_date -}}  
+        {{- if .Params.theatre -}} 
+            {{- $theatreName = .Params.theatre -}} 
+        {{- end -}}
     {{- end -}}
     {{- $.Scratch.Add "index" (dict 
         "title" .Title 
@@ -13,6 +17,7 @@
         "categories" .Params.categories 
         "summary" (.Summary | markdownify | htmlUnescape | plainify) 
         "date" .Date 
-        "opening_date" $openingDate) -}} 
+        "opening_date" $openingDate
+        "theatre_name" $theatreName) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
