@@ -20,11 +20,19 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: 
+Website: https://ameliamusicalplayhouse.com/performances/announcing-amps-11th-season/
+Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 - Playwright: Michael Presley Bobbitt
 cast:
+  - Edna: Rae Colley
+  - Mr. Midnight: Carlos Semidei
+  - Louise: Carolyn Haller
+  - Norma: Jan Cote-Merow
+  - Caroline: Carol Crisci
+  - Mikayla: Martha McDowell
+  - Tommy: Timmy Ross
+  - Curtis: Jeff Goldberg
 crew:
 - Director: Jeff Goldberg
 orchestra:
