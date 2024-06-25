@@ -43,45 +43,47 @@
     </div>
     {{ end }}
 
-    <!-- Credits Section -->
-    <!-- Loop through the different credit types -->
+    {{ $global := . }} <!-- Capture the global context to use inside range blocks -->
+
+    <!-- Credits Section: Loop through different credit types and sort productions by opening_date -->
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-    {{ $productionsWithPerson := slice }}
-    {{ range (sort (where site.Pages "Type" "productions") "Params.opening_date" "desc") }}
-    {{ $production := . }}
-    {{ with index .Params $creditType }}
-    {{ $credits := slice }}
-    {{ range . }}
-    {{ range $character, $actor := . }}
-    {{ $actorSlice := slice }}
-    {{ if eq (printf "%T" $actor) "string" }}
-    {{ $actorSlice = slice $actor }}
-    {{ else }}
-    {{ $actorSlice = $actor }}
-    {{ end }}
-    {{ range $name := $personNames }} <!-- Looping through all the person's names -->
-    {{ range $actorName := $actorSlice }}
-    {{ if eq $actorName $name }}
-    {{ $credits = $credits | append $character }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ if $credits }}
-    {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
+      {{ $productionsWithPerson := slice }}
+      {{ range where $global.Site.Pages "Type" "productions" }} <!-- Use $global to access .Site.Pages -->
+        {{ $production := . }}
+        {{ with index .Params $creditType }}
+          {{ $credits := slice }}
+          {{ range . }}
+            {{ range $character, $actor := . }}
+              {{ $actorSlice := slice }}
+              {{ if eq (printf "%T" $actor) "string" }}
+                {{ $actorSlice = slice $actor }}
+              {{ else }}
+                {{ $actorSlice = $actor }}
+              {{ end }}
+              {{ range $name := $personNames }}
+                {{ range $actorName := $actorSlice }}
+                  {{ if eq $actorName $name }}
+                    {{ $credits = $credits | append $character }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ if $credits }}
+            {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $sortedProductions := sort $productionsWithPerson "production.Params.opening_date" "desc" }}
 
-    <!-- Display the productions with the person's name in the credits -->
-    {{ if $productionsWithPerson }}
-    <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
-      {{ range $details := $productionsWithPerson }}
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
+      <!-- Display the productions with the person's name in the credits -->
+      {{ if $sortedProductions }}
+        <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
+          {{ range $details := $sortedProductions }}
+            <div class="flex bb bw1 b--silver f5 f4-ns">
+              <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
           <!-- Left Section -->
           <div class="w-25 w-10-l">
             {{ $featuredImage := $details.production.Params.featured_image }}
