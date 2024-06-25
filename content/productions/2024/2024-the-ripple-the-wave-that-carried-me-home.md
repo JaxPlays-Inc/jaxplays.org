@@ -9,6 +9,7 @@ showtimes:
   - 2024-08-16 20:00:00
   - 2024-08-17 20:00:00
   - 2024-08-18 14:00:00
+  - 2024-08-19 20:00:00
   - 2024-08-22 20:00:00
   - 2024-08-23 20:00:00
   - 2024-08-24 20:00:00
@@ -23,6 +24,10 @@ Tickets: https://www.eventbrite.com/e/the-ripple-the-wave-that-carried-me-home-t
 show_details: 
 - Playwright: Christina Anderson
 cast:
+- Janice: Kamajhia
+- Helen: Marquia Presley
+- Edwin: Christopher Randolph
+- Gayle: Cher Davis
 crew:
 - Director: David Girard
 orchestra:
