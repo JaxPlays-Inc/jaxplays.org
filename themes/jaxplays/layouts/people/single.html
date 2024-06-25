@@ -188,10 +188,9 @@
       {{ end }}
       {{ end }}
       {{ else }}
-      {{ $description = $description | markdownify | safeHTML }}
       {{ end }}
       <span class="db">
-        {{ $description }}
+        {{- partial "content-wikilinks" $description | safeHTML -}}
       </span>
 
       <a href="{{ .Permalink }}"
@@ -250,9 +249,9 @@
 
       {{/* if no headshot or no bio */}}
       {{ if and (not $featuredImage) (not .Content) }}
-        {{ partial "cta_submit_profile.html" }}
+      {{ partial "cta_submit_profile.html" }}
       {{ else }}
-        {{ partial "cta_edit_profile.html" }} 
+      {{ partial "cta_edit_profile.html" }}
       {{ end }}
 
   </article>
