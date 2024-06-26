@@ -1,5 +1,5 @@
 ---
-title: 9 to 5 The Musical
+title: "9 to 5: The Musical"
 date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-08-26
@@ -11,9 +11,6 @@ playbill: 2023_9_to_5_The_Musical.pdf
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 Tickets: https://app.arts-people.com/index.php?ticketing=act11
-Genres:
-- Musical
-- Comedy
 showtimes:
 - 2023-08-11 20:00:00
 - 2023-08-12 20:00:00
@@ -109,6 +106,3 @@ crew:
   - Elizabeth Dion
 orchestra:
 ---
-*9 to 5: The Musical* is a lively and engaging stage production that brings the humorous and empowering story of three working women to life. Set in the corporate world of the late 1970s, the musical follows the journey of Violet Newstead, Judy Bernly, and Doralee Rhodes as they navigate the challenges and frustrations of their male-dominated workplace.
-
-Inspired by the iconic 1980 film, the musical is underscored by the music and lyrics of Dolly Parton, who also starred in the original movie. As these three women band together against their overbearing boss, Franklin Hart, Jr., their individual strengths and unique personalities shine. Through witty humor and catchy tunes, the musical addresses issues of workplace inequality, gender roles, and the pursuit of personal aspirations.
