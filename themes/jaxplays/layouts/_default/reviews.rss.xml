@@ -67,45 +67,9 @@
       <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
       <content>
        {{- partial "content-wikilinks" .Content | transform.XMLEscape | safeHTML -}}
-       
-       {{ $productionName := .Params.production | replaceRE " " "-" }}
-       {{ $productionPages := where .Site.RegularPages "Section" "eq" "productions" }}
-       {{ $matchingProduction := where $productionPages ".File.BaseFileName" "eq" $productionName }}
-       {{ $override_dates := .Params.override_dates }}
-
-       {{ with index $matchingProduction 0 }}
-         {{ $title := .Title }}
-         {{ $theatre := .Params.theatre }}
-         {{ $venue := .Params.venue }}
-         {{ $opening_date := .Params.opening_date }}
-         {{ $closing_date := .Params.closing_date }}
-         {{ $url := .Permalink }}
-         
-         <!-- Format dates -->
-         {{ $opening_date := dateFormat "Monday, January 2" .Params.opening_date }}
-         {{ $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
-
-         <!-- Initialize $venueList -->
-         {{ $venueList := "" }}
-         <!-- Format venue or venues -->
-         {{ if (reflect.IsSlice $venue) }}
-           {{ $tempVenueList := delimit $venue ", " }}
-           {{ $lastComma := findRE ", [^,]*$" $tempVenueList }}
-           {{ $lastEntry := index $lastComma 0 | replaceRE "^, " "" }}
-           {{ $venueList = replaceRE ", [^,]*$" (printf " and %s" $lastEntry) $tempVenueList }}
-         {{ else }}
-           {{ $venueList = $venue }}
-         {{ end }}
-
-         {{ with $override_dates }}
-           <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $override_dates | markdownify }} at {{ $venueList }}.</p>
-         {{ else }}
-           <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $opening_date }} through {{ $closing_date }} at {{ $venueList }}.</p>
-         {{ end }}
-         <p>For more information, full cast and crew credits and links to tickets, visit the <a class="i" href="{{ $url }}">{{ $title }}</a> page here on JaxPlays.
-         </p>
-       {{ end }}
-       <p>This review <a href="{{ .Permalink }}">{{ .Title }}</a> was originally published on <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>.</p>
+       {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
+       {{ $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title | transform.XMLEscape | safeHTML }}
+       {{ $reviewText }}
        </content>
       {{ with .Params.featured_image }}
       <enclosure url="{{ . | absURL }}" type="image/jpeg"/>
