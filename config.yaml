@@ -116,5 +116,8 @@ outputs:
     - JSON
     - Calendar
     - Opening_Nights
+  section:
+    - HTML
+    - RSS
 
 enableRobotsTXT: true
