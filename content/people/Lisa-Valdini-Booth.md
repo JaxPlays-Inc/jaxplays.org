@@ -1,4 +1,8 @@
 ---
 title: Lisa Valdini Booth
-date: 2023-09-08T00:00:00-04:00
+date: 2024-06-27T12:21:43-04:00
+aliases: 
+  - /people/lisa-valdini
+other_names:
+  - Lisa Valdini
 ---
