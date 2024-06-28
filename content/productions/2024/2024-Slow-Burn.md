@@ -56,6 +56,8 @@ Genres:
   - Drama
   - One-Act
 Description: "Experience the searing intensity of Edward Albee’s *The American Dream* and *Zoo Story*, two provocative one-act plays that delve deep into the American psyche and human condition."
+Press: 
+- "Edward Albee's One Acts Come To Jacksonville in July | Broadway World": https://www.broadwayworld.com/jacksonville/article/Edward-Albees-One-Acts-Come-To-Jacksonville-in-July-20240624
 ---
 In *The American Dream*, Albee exposes the hollowness of the American family through a biting satire that critiques societal norms and the pursuit of materialism. This darkly comedic play features a dysfunctional family whose bizarre interactions reveal the underlying emptiness of their lives.
 

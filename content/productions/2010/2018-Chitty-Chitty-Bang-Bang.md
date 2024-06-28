@@ -126,10 +126,13 @@ orchestra:
 Press: 
 - "The Cast of 'Chitty Chitty Bang Bang' at the Alhambra Stopy by First Coast Living | First Coast News": https://www.firstcoastnews.com/video/news/local/first-coast-living/fcl-wednesday-july-4th-chitty-chitty-bang-bang-at-the-alhambra/77-8180625
 - "Alhambra to Open CHITTY CHITTY BANG BANG | Broadway World": https://www.broadwayworld.com/jacksonville/article/Alhambra-to-Open-CHITTY-CHITTY-BANG-BANG-20180601
+- "Local Theatre Puts Together a Flying Car | Jacksonville Magazine": https://www.jacksonvillemag.com/2018/06/11/chitty-chitty-bang-bang/
+
 Reviews:
 - "DUAL CRITICS REVIEW: Chitty Chitty Bang Bang at Alhambra Theatre & Dining | Folio Weekly / EU": https://folioweekly.com/2018/06/25/chitty-chitty-bang-bang-alhambra-theatre-dining-review/
 - "Review: CHITTY CHITTY BANG BANG at Alhambra Theatre And Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/BWW-Review-CHITTY-CHITTY-BANG-BANG-at-Alhambra-Theatre-And-Dining-20180619
 - "Alhambra’s “Chitty Chitty Bang Bang” sure to delight audiences of all ages | Ponte Vedra NewsLine": https://www.floridanewsline.com/creekline-st-johns/alhambras-chitty-chitty-bang-bang-sure-delight-audiences-ages/
+- "Review: Alhambra summer show kicks off with a ‘Bang Bang’ | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/review-alhambra-summer-show-kicks-off-with-a-bang-bang,6643
 ---
 
 {{< youtube UCDIFY8XwcM >}}
