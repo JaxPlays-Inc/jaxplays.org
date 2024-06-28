@@ -44,7 +44,9 @@ cast:
 crew:
 - Director: Ken McCulough
 - Scenic and Lighting Designer: Johnny Pettegrew
-- Costume Designers: Camala Pitts, Dorinda Quiles
+- Costume Designers: 
+  - Camala Pitts
+  - Dorinda Quiles
 - Scene Shop Supervisor: Bob Rupp
 - Stage Manager and Sound Designer: Morgan Holbrook
 - Assistant Stage Managers:
