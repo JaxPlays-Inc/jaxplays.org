@@ -8,10 +8,11 @@
 .dark-mode .blindlink:hover,
 .dark-mode .blindlink:active,
 .dark-mode .blindlink:visited,
+.dark-mode .om-text,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
-.dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#searchInput),
-.dark-mode :not( :is(input.om-inputs, div.om-dtr-content) ) {
-	color: #fff;
+.dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#searchInput):not(input.om-inputs):not(div.om-dtr-content)
+{
+	color: #fff !important;
 }
 
 .dark-mode a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a) {
