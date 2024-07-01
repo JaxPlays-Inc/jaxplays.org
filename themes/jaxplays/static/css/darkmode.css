@@ -10,7 +10,7 @@
 .dark-mode .blindlink:visited,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
 .dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#searchInput),
-:not( :is(input.om-inputs, div.om-dtr-content)) {
+.dark-mode :not( :is(input.om-inputs, div.om-dtr-content) ) {
 	color: #fff;
 }
 
