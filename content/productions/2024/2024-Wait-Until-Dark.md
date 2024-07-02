@@ -30,7 +30,7 @@ show_details:
 - Playwright: Frederick Knott
 cast:
 - Susy Hendrix: Anna Vera
-- Sam Hendrix: Rick Cirruci
+- Sam Hendrix: Rick Cirucci
 - Mike Talman: Burt Kierstead
 - Harry Roat: Joseph Stearman
 - Gloria:

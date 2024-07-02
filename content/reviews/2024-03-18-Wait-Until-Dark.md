@@ -11,7 +11,6 @@ production: 2024 Wait Until Dark
 Theatre: Limelight Theatre
 cast: 
 - Anna Vera
-- Rick Cirruci
 - Burt Kierstead
 - Joseph Stearman
 - Lucy Farrow
