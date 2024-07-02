@@ -10,9 +10,9 @@ showtimes:
   - 2024-07-26 19:30:00
   - 2024-07-27 19:30:00
   - 2024-07-28 14:00:00
-featured_image: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image: 2024-The-Lightning-Thief.webp
+featured_image_alt: "A striking golden lightning bolt against a deep blue ocean background symbolizes the adventurous spirit of 'The Lightning Thief: The Percy Jackson Musical'."
+featured_image_caption: "Dive into the mythical world of 'The Lightning Thief' and experience the thrilling adventures of Percy Jackson in this electrifying musical."
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
