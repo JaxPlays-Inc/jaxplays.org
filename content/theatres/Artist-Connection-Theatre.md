@@ -1,6 +1,6 @@
 ---
 title: Artist Connection Theatre
-date: 2024-04-06T13:42:46-04:00
+date: 2024-07-02T18:03:58-04:00
 active: true
 featured_image: Artist-Connection-Theatre.webp
 featured_image_attr: 
@@ -20,6 +20,7 @@ Socials:
   LinkedIn:
 Phone: 19047105054
 color: "#993300"
+donate: https://ci.ovationtix.com/34989/store/donations?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 Located in the Arlington area of Jacksonville, Artist Connection Theatre is a non-profit community theatre that strives to produce affordable live theatre that the entire family can enjoy. A.C.T. seeks to foster an environment where actors of any age or experience level can grow and hone and develop their artistic abilities.
 

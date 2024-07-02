@@ -18,7 +18,8 @@ Socials:
   Website: https://www.greenlighttheatreco.com
 Phone: 19855022253
 color: "#32CD32"
-date: 2023-09-08T00:00:00-04:00
+date: 2024-07-02T18:03:17-04:00
+donate: https://www.paypal.com/donate/?hosted_button_id=6YNPUAABFDCSA
 ---
 Greenlight Theatre Company offers both Broadway-quality productions and entertainment for industry professionals and youths in the Jacksonville area. GTC creates a space that promotes inclusivity, creativity, and professionalism within the arts community. Jacksonville has an incredible, untapped community of artists, ranging from musicians, actors, painters, sculptors, drag performers and much more. GTC is a place where all those trades could be showcased.​
 

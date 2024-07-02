@@ -15,6 +15,7 @@ Socials:
   Facebook: justeincollege
   Website: https://ju.edu/steincollege
 color: "#0d4f45"
-date: 2023-09-08T00:00:00-04:00
+date: 2024-07-02T18:03:05-04:00
+donate: https://www.givecampus.com/schools/JacksonvilleUniversity/?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 Jacksonville University's Linda Berry Stein College of Fine Arts & Humanities stands as a center of excellence in arts and humanities, enriching Northeast Florida for over six decades. With a faculty of distinguished artists and scholars, the college fosters a dynamic learning environment where arts and humanities intersect. Known for award-winning theatre, dance, and music, as well as intellectual events like the Fiat Lux Film Festival and philosophy slams, the Stein College is a hub for creative and scholarly pursuits.

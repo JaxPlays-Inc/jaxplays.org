@@ -22,6 +22,7 @@ params:
   mainSections: 
     - "reviews"
     - "news"
+    - "editorials"
   background_color_class: "bg-black"
   light_text_color_class: "gray"
   jaxplays_socials:

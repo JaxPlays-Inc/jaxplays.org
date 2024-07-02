@@ -17,7 +17,8 @@ Socials:
   Website: https://limelight-theatre.org
 Phone: 19048251164
 color: "#bbda55"
-date: 2023-09-08T00:00:00-04:00
+date: 2024-07-02T18:02:56-04:00
+donate: https://www.limelight-theatre.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 The Limelight Theatre is a non-profit community theatre located in St. Augustine, Florida, United States. Founded in 1992 by Anne Kraft and Jean Rahner, the theatre staged its first production at the Monson Bayfront Inn in August of that year.
 

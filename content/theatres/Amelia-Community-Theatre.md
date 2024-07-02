@@ -17,7 +17,8 @@ Socials:
   Website: https://www.ameliacommunitytheatre.org
 Phone: 19042616749
 color: "#ac8c33"
-date: 2023-09-08T00:00:00-04:00
+date: 2024-07-02T18:04:08-04:00
+donate: https://app.arts-people.com/index.php?contribute=act11&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 Amelia Community Theatre (ACT) is a non-profit community theatre located in Fernandina Beach, Florida. Founded in 1981, the theatre has been a vital part of the local arts scene for over four decades. The theatre offers a diverse range of productions, including classic plays, contemporary works, musicals, and original productions. The theatre is committed to showcasing the talents of local actors, directors, designers, and crew members and offers an inclusive and welcoming environment for both seasoned professionals and aspiring artists.
 

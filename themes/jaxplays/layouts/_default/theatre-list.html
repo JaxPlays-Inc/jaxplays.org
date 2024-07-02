@@ -24,15 +24,20 @@
       {{ $featuredImage = printf "/media/logos/%s" $featuredImage }}
       {{ $featuredImageAlt := .Params.featured_image_alt }}
       <div class="flex flex-column flex-row-ns">
-      <div class="w-50 w-40-ns pr3 flex-column center">
+      <div class="w-50 w-40-ns pr3 flex flex-column center">
         <a href="{{ .Permalink }}" ><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
+        {{ if (isset .Params "donate") }}
+          <a href="{{ .Params.donate }}" target="_blank" class="inline-flex flex-row items-center link b dim ph3 pv2 mv2 mh1 h2 black bg-yellow f5 center">Donate</a>
+        {{ end }}
       </div>
       {{ end }}
+      
       
       <div class="w-100 w-60-ns f5 lh-copy nested-copy-line-height">
       {{ if (gt $contentLength 0) }}
         <a href="{{ .Permalink }}" class="blindlink no-underline">
-        {{ $summary | markdownify | safeHTML }}
+        {{/*  {{ $summary | markdownify | safeHTML }}  */}}
+        {{- partial "content-wikilinks" $summary -}}
         </a>
         <a href="{{ .Permalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       {{ end }}

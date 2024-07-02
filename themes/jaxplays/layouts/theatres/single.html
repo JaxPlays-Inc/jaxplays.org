@@ -28,11 +28,15 @@
       {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
       <!-- Concatenate path if featured image exists -->
       {{ end }}
-      <div class="w-75 w-40-m w-25-l flex-column center">
+      <div class="w-75 w-40-m w-25-l flex flex-column center">
         <a href="{{ $imagePath }}" data-lightbox="image-1"
           data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
         </a>
+        {{ if (isset .Params "donate") }}
+          <a href="{{ .Params.donate }}" target="_blank" class="inline-flex flex-row items-center link b dim ph3 pv2 mv2 mh1 h2 black bg-yellow f5 center">Donate</a>
+        {{ end }}
+
         {{ if .Params.Socials }}
         {{ partial "social-media-links.html" . }}
         {{ end }}
