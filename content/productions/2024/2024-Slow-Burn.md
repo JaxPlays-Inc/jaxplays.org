@@ -6,14 +6,14 @@ date: 2024-05-21T19:50:42-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-28
 showtimes:
-  - 2024-07-12 19:30:00
-  - 2024-07-13 19:30:00
-  - 2024-07-18 19:30:00
-  - 2024-07-19 19:30:00
-  - 2024-07-20 19:30:00
-  - 2024-07-25 19:30:00
-  - 2024-07-26 19:30:00
-  - 2024-07-27 19:30:00
+  - 2024-07-12 20:00:00
+  - 2024-07-13 20:00:00
+  - 2024-07-18 20:00:00
+  - 2024-07-19 20:00:00
+  - 2024-07-20 20:00:00
+  - 2024-07-25 20:00:00
+  - 2024-07-26 20:00:00
+  - 2024-07-27 20:00:00
 featured_image: 2024-Slow-Burn-03.webp
 featured_image_alt: "Poster for the Lumen Rep Theatre production titled 'Slow Burn,' showcasing performances from July 12-27. The visual features a park bench engulfed in flames against a night sky, symbolizing the intense and provocative nature of Edward Albee's one-acts, 'The American Dream' and 'The Zoo Story.'"
 featured_image_caption: Catch the intense drama of 'Slow Burn', featuring Edward Albee's one-acts 'The American Dream' and 'The Zoo Story' this July at Lumen Rep Theatre.
