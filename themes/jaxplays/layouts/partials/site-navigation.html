@@ -13,16 +13,7 @@
       padding-right: 1rem;
       z-index: 1;
     }
-    /*
-    .dropdown-toggle:after {
-      content: url(/down-caret.svg);
-      float: right;
-      height: 1.5rem;
-      width: 1.5rem;
-      margin-left: 5px;
-    }
-    */
-    
+
     .dropdown-menu a, .dropdown-menu a:hover {
       color: #fff;
       text-decoration: none !important;
@@ -67,18 +58,18 @@
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
               <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-                <a class="hover-white no-underline white-90 dropdown-toggle" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                <a class="hover-white no-underline white-90 dropdown-toggle {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                   {{ .Name }}
                 </a>
                 <ul class="dropdown-menu">
                   {{ range .Children }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    <li><a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
                   {{ end }}
                 </ul>
               </li>
             {{ else }}
               <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-                <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                <a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                   {{ .Name }}
                 </a>
               </li>
@@ -91,7 +82,7 @@
         <a href="#" id="search-icon">
           <img src="{{ "images/magnifying_glass_icon.svg" | relURL }}" alt="Search">
         </a>
-    </div>
+      </div>
     </div>
   </div>
   <div id="fastSearch">
@@ -107,12 +98,12 @@
           {{ .Name }}
           <div class="dropdown-menu mt2">
             {{ range .Children }}
-              <a class="db" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="db hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
           </div>
         </div>
       {{ else }}
-        <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+        <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} {{ if eq .Name "Donate" }}bg-yellow mv2{{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
           {{ .Name }}
         </a>
       {{ end }}
@@ -142,6 +133,4 @@
       }
     }
   </script>
-
 </nav>
-{{/*  {{ partial "newsletter.html" . }}  */}}
