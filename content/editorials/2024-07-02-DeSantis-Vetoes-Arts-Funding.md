@@ -6,7 +6,7 @@ author: Ray Hollister
 featured_image: /media/photos/2024-DeSantis-Budget-Announcement-01.webp
 featured_image_alt: "Governor Ron DeSantis stands at a podium with a sign reading 'Focus on Florida's Future' during a press conference, with American and Florida state flags in the background."
 featured_image_caption: "Governor Ron DeSantis announces his budget vetoes, including significant cuts to arts funding."
-featured_image_attr: "Screenshot from video by Gov. Ron DeSantis' office"
+featured_image_attr: "Screenshot from video by Gov. Ron DeSantis's office"
 description: "Explore the ramifications of Governor DeSantis's $32 million cuts to arts funding across Florida, with a close look at the crisis faced by theaters in Northeast Florida. Find out how you can support local cultural institutions."
 ---
 Last month, Florida Governor Ron DeSantis’s veto of state arts funding sent shockwaves through the theater communities of Northeast Florida. The veto eliminated over $400,000 in funding earmarked for nine theater and opera companies in Duval, Clay, St. Johns and Nassau counties. A combined total of nearly $3.4 million had been requested by 45 arts organizations in these counties.
