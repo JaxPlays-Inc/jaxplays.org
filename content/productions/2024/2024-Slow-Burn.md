@@ -23,16 +23,15 @@ playbill:
 Website: 
 Tickets: 
 show_details: 
-- Playwright: Edward Albee
+- Playwright: "[[w:Edward Albee]]"
 cast:
-  - Featuring: 
-    - Valerie Anthony
-    - Sam Cobean
-    - Jackson Gloumeau
-    - Katie Johnston
-    - Jen Mercer
-    - David Alford
-    - Brian Niece
+  - Mommy: Katie Johnston
+  - Daddy: Sam Cobean
+  - Grandma: Kate McManus
+  - The Young Man: Jackson Gloumeau
+  - Mrs. Barker: Jen Mercer
+  - Jerry: Brian Niece
+  - Peter: David Alford
 crew:
   - Director: 
     - David Alford
