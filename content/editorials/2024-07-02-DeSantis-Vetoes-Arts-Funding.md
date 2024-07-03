@@ -3,7 +3,7 @@ title: "How DeSantis's Draconian Arts Funding Cuts Are Impacting Northeast Flori
 published: true
 date: 2024-07-02T15:24:07-04:00
 author: Ray Hollister
-featured_image: /media/photos/2024-Desantis-Budget-Announcement.webp
+featured_image: /media/photos/2024-DeSantis-Budget-Announcement-01.webp
 featured_image_alt: "Governor Ron DeSantis stands at a podium with a sign reading 'Focus on Florida's Future' during a press conference, with American and Florida state flags in the background."
 featured_image_caption: "Governor Ron DeSantis announces his budget vetoes, including significant cuts to arts funding."
 featured_image_attr: "Screenshot from video by Gov. Ron DeSantis' office"
