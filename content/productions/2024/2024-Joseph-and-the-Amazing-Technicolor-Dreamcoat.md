@@ -90,7 +90,7 @@ cast:
   - Naphtali: Richard Yarrell III
   - Gad: Jonathan Crawford
   - Asher: Sterling Hart
-  - Issachar: Liam Laverly
+  - Issachar: Liam Lavery
   - Zebulon: Mickey Titus
   - Benjamin: Trey Murphy
   - Baker: Johnny Flannagan
