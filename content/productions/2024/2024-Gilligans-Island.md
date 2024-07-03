@@ -21,6 +21,18 @@ playbill:
 Website: 
 Tickets: 
 cast:
+- Gilligan: Brandon Herron
+- Skipper: Travis Land
+- Thurston Howell III: Allen Langenbahn
+- Lovey Howell: Susan Langenbahn
+- Ginger Grant: Eden George
+- Professor: Kevin McCanney
+- Mary Ann: Heike Priest
+- The Allien: David Wyttenbach
 crew:
+understudies: 
+  - Understudies:
+    - Mandie Bello
+    - Nita Gilbert
 orchestra:
 ---
