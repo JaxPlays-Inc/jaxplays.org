@@ -65,6 +65,7 @@ Description: "Set to the timeless tunes of Neil Sedaka, 'Breaking Up Is Hard To 
 ---
 Nestled in the heart of the 1960s, at a bustling Catskills resort, two friends, Marge and Lois, embark on what they expect to be a vacation of sun, fun, and romance. The reality, however, is humorously complicated. Marge, reeling from a broken engagement, finds unexpected solace and potential new love in the resort's singer, Del. As friendships are tested and secrets revealed, the characters discover that finding love can be as unpredictable and joyous as the hit songs of Neil Sedaka. From laughter to heartache to the possibility of new beginnings, 'Breaking Up Is Hard To Do' celebrates the journey of love, the resilience of the human heart, and the enduring power of music."
 
+###  Musical numbers
 
 #### Act I
 -   "[Breaking Up Is Hard To Do](https://en.wikipedia.org/wiki/Breaking_Up_Is_Hard_To_Do "Breaking Up Is Hard To Do")" - Del with Lois and Harvey
