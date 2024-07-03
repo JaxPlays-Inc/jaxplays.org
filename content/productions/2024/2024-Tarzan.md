@@ -54,6 +54,10 @@ crew:
   - Choreographer: Emma Cate Davis
   - Stage Manager: Bethany Powell
   - Costume Designer: Tracy Olin
+  - Set Designer: Jereme Raickett
+  - Lighting Designer: Jereme Raickett
+  - Master Electrician: Ben Sparenberg
+  - Master Carpenter: Darren Beaver
 orchestra:
 Genres:
   - Musical
@@ -65,3 +69,6 @@ Follow the journey of a young boy raised by gorillas in the African jungle as he
 
 ### Tarzan visits *First Coast Connect*
 {{< youtube dLYxWroz2vc >}}
+
+### Tarzan visits *First Coast Living*
+{{< youtube _ycxjQdot20 >}}
