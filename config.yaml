@@ -5,6 +5,7 @@ theme: 'jaxplays'
 permalinks:
   news: "/:section/:year/:month/:day/:slug/"
   reviews: "/:section/:year/:month/:day/:slug/"
+  editorials: "/:section/:year/:month/:day/:slug/"
   people: "/:section/:filename/"
   productions: "/:section/:filename/"
   shows: "/:section/:filename/"
