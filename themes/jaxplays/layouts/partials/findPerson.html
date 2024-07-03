@@ -8,7 +8,14 @@
   {{ end }}
 {{ end }}
 {{ if $foundPage }}
-  <a href="/people/{{ $urlName }}">{{ .urlName }}</a>
+  {{ if and $foundPage.Params.featured_image .showImage (not .isArray) }}
+  <a href="/people/{{ $urlName }}" class="flex flex-column mr3">
+    <div class="br-100 cover mb1" style="width: 100px; height: 100px; background-position: top center; background-image: url('{{ "/media/headshots/" | absURL }}{{$foundPage.Params.featured_image}}');"></div>
+    {{ $foundPage.Title }}
+  </a>
+  {{ else }}
+  <a href="/people/{{ $urlName }}" class="ml1">{{ $foundPage.Title }}</a>
+  {{ end }}
 {{ else }}
-  {{ .urlName }}
+  <span class="ml1">{{ .urlName }}</span>
 {{ end }}

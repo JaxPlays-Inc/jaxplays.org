@@ -1,7 +1,7 @@
 ---
-title: Matt Barnes
-date: 2024-07-03T16:14:43-04:00
-featured_image: Matt-Barnes.webp
+title: Emily Charleton
+date: 2024-07-03T16:16:40-04:00
+featured_image: Emily-Charleton.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
