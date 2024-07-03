@@ -15,7 +15,7 @@
 	color: #fff !important;
 }
 
-.dark-mode a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a) {
+.dark-mode a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
 	color: var(--jaxplays-gold);
 }
 
