@@ -35,6 +35,6 @@ In the face of these challenges, the theater community remains resilient, with m
 
 As JaxPlays and other advocates rally support, the hope is that this setback serves as a wake-up call for both the public and legislators about the indispensable value of the arts. The coming months will be crucial for the theater community to unite and advocate for restored and sustainable funding that reflects the true value of the arts in enriching lives and communities.
 
-Now is the time to act for the arts. [Contact your state representatives](https://www.myfloridahouse.gov/FindYourRepresentative) to advocate for restoring arts funding. Meanwhile, support your favorite theaters by visiting [jaxplays.org/theatres](/theatres/), where we have added a "Donate" button for every theater that can accept donations.
+Now is the time to act for the arts. [Contact your state representatives](https://www.myfloridahouse.gov/FindYourRepresentative) and [write to the governor](https://www.flgov.com/email-the-governor/) to advocate for restoring arts funding. Meanwhile, support your favorite theaters by visiting [jaxplays.org/theatres](/theatres/), where we have added a "Donate" button for every theater that can accept donations.
 
 The resilience of Northeast Florida's theater community is being tested, but together, we can write a different ending to this story. Support the arts, advocate for policy changes and help ensure a thriving cultural scene for generations to come.

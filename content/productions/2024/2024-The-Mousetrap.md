@@ -26,6 +26,14 @@ Website:
 Tickets: https://app.arts-people.com/index.php?actions=25&p=56
 show_details: 
 cast:
+- Mollie Ralston: CallieAnn Maggart
+- Giles Ralston: Garland "Trey" Stafford
+- Christopher Wren: Brandon Hester
+- Mrs. Boyle: Sue Weiner
+- Major Metcalf: Doug Gluntz
+- Miss Casewell: Renee LaCroix
+- Mr. Paravicini: Ron Price
+- Det. Sergeant Trotter: Joseph Stearman
 crew:
 orchestra:
 ---
