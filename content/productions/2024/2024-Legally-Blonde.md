@@ -24,7 +24,7 @@ featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 playbill:
 Website: 
-Tickets: 
+Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
   - Elle Woods: Olivia Lynch
