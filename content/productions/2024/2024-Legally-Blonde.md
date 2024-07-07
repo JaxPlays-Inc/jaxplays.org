@@ -23,7 +23,7 @@ featured_image_caption: "*Legally Blonde* dazzles with its bright pink charm and
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 playbill:
-Website: 
+Website: https://ameliamusicalplayhouse.com/performances/legally-blonde/
 Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
@@ -34,19 +34,20 @@ cast:
   - Warner Huntington III: Alex McClurkin
   - Vivienne Kensington: Danielle Gamble
   - Brooke Wyndham: Amelia Underwood
-  - Enid Hoops: Maggie Mellott
+  - Enid Hoops / Kate: Maggie Mellott
   - Serena: Sarah Perkins
   - Margot: Samantha Andersen
   - Pilar: Keeli Bean
   - Kyle O’Boyle: Thor Rockett
-  - Aaron Schultz: Zain Beverly
+  - Aaron Schultz / Grand Master Chad: Zain Beverly
   - Bjorn Gustafson: Nathan Lee
-  - Winthrop/Elle’s Dad: Bob O'Hara
-  - Lowell/Carlos: Ethan Dorris
-  - Pforzheimer: Jimmy Kalista
+  - Administrator Winthrop / Elle’s Dad: Bob O'Hara
+  - Administrator Lowell / Carlos: Ethan Dorris
+  - Administrator Pforzheimer: Jimmy Kalista
+  - Nikos Argitakos: Carlos Chavez-Tafur
   - Chutney Wyndham: Shaeliegh Tupper
-  - Elle’s Mom/Store Manager: Rae Colley
-  - Dewey: Quentin Wright
+  - Elle’s Mom / Store Manager: Rae Colley
+  - Dewey / Student / TV Reporter: Quentin Wright
   - Leilani: Eden George
   - Kiki the Colorist: Moira Smith
   - Cashier/D.A.: Amelia Son
@@ -54,6 +55,7 @@ cast:
   - Judge: Sydney Gray
   - Court Stenographer: Amy Cullen
   - Ensemble:
+    - Ethan Dorris
     - Quentin Wright
     - Eden George
     - Moira Smith
@@ -62,13 +64,55 @@ cast:
     - Sydney Gray
     - Amy Cullen
     - Kristin Bean
+    - Allie Basile
+    - Ella Basile
 crew:
   - Director:
     - Beth Perkins
     - Joey Johnson
+  - Music Director: Solomon Johnson
   - Costumes: Tammy Lynch
   - Choreography: Kristin Bean
+  - Set Design: Gregg Dillingham
+  - Publicity and Social Media: 
+    - Kim Woodlief
+    - Tom Cooper
+    - Pam Cooper
+    - Jan Cote-Merow
+    - Beth Perkins
+    - Erin Lake
+    - Bill Ivins
+  - Art & Graphics: Bill Ivins
+  - Photography: Kailin Lake
+  - Set Builders/Painters:
+    - Gregg Dillingham
+    - Ron Varnadoe
+    - Chuck Phillips
+    - Jill Dillingham
+    - Amy Cullen
+    - Cayman Hogue
+  - Stage Crew:
+    - Ismerie Maurer
+    - Gregg Dillingham
+    - Shannon Basile
+    - Noah Harter
+    - Beth Perkins
+    - Jimmy Kalista
+    - Melinda Varnadoe
+    - Donna Lewis
+  - Light Tech:
+    - Gregg Dillingham
+    - Ted Haller
+  - Costume Designer: Tammy Lynch
+  - Stage Manager/Props: Ismerie Maurer
 orchestra:
+  - Keyboard: Cayman Hogue
+  - Percussion: Conor Spillane
+  - Saxophone: Keaton Truesdale
+  - Trumpet: Kouhei Rocha
+  - Bass: Matthew Hickox
+  - Drums: Rick Maurer
+  - Piano: Solomon Johnson
 genres: 
 Description: 
 ---
