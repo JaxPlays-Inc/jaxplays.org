@@ -19,7 +19,7 @@ Description: "Step into the storied life of Patsy Cline, whose legendary voice a
 ---
 *A Closer Walk with Patsy Cline* traces the life of one of country music's most beloved figures from her small-town beginnings to her rise as a crossover sensation. Through a series of spirited performances featuring Cline's greatest hits like "Crazy" and "Walking After Midnight," the musical captures her impact on music and her enduring legacy. Audiences are taken on a journey through the highs and lows of Cline's career, showcasing not only her musical talents but also her determination and charisma.
 
-#### Musical Numbers
+### Musical Numbers
 
 - "[[w:Crazy (Willie Nelson song)|Crazy]]" by [[w:Willie Nelson]]
 - "I Don't Wanta" by E.C. Miller, W.S. Stevenson and Durwood Haddock

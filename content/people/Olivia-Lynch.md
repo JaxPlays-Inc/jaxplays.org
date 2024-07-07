@@ -7,7 +7,7 @@ featured_image_attr_link: https://www.darnellbennettphotography.com/
 featured_image_alt: Headshot of Olivia Lynch
 featured_image_caption: Headshot of Olivia Lynch
 Socials:
-  Facebook: 
+  Facebook: olivia.lynch.3785
   Twitter: 
   Instagram: oliviallynch
   LinkedIn: 

@@ -36,7 +36,7 @@ Description: "Navigate the tricky waters of adolescence in *13*, a lively musica
 ---
 *13* centers on Evan Goldman, a New York City teen who faces the daunting challenge of moving to a small town in Indiana after his parents' divorce. As his 13th birthday approaches, Evan dreams of hosting the perfect bar mitzvah, but first, he must navigate the complex social circles of his new school. The musical blends humor with heartfelt moments, as Evan learns about friendship, acceptance, and the value of being true to oneself through a catchy, contemporary score.
 
-#### Musical numbers
+### Musical numbers
 
 -   "13/Becoming a Man" – Evan and Company
 -   "The Lamest Place in the World" – Patrice
