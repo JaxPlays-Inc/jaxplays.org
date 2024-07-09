@@ -17,7 +17,7 @@ Socials:
   Threads: 
   LinkedIn: 
   IBDB: 
-  IMDb: 
+  IMDb: nm16278148
   Website: 
 ---
 In 2019, Bob began performing as a retirement hobby and was bitten hard. He has since appeared in 25 musicals including Little Women (Professor Bhaer), The Hunchback of Notre Dame (Frollo), Something Rotten (Nostradamus), She Loves Me (Mr. Maraczek), Anything Goes (Moonface Martin) and Oklahoma (Cord Elam) to name a few. Bob has also begun to expand to film appearing in Greek Mothers Never Die (Greek Priest). When not “playing” with friends, he is probably singing, dancing or bike riding near his Amelia Island home.
