@@ -37,19 +37,26 @@ cast:
   - Officer Lockstock: Tom Cassaro
   - Officer Barrel: Josh Katzman
   - Little Sally: Shauna Clark
-  - Hot Blades Harry/Old Man Strong: Matt Barnes
+  - Hot Blades Harry / Old Man Strong: Matt Barnes
   - Little Becky Two Shoes: Heather Starling
   - Josephine "Ma" Strong: Adele Vespa
   - Senator Fipp: Neal Thorburn
-  - Mr. McQueen/Rebel/Cop: Terry Glover
-  - Dr. Billeaux/Tiny Tom/Cop: Anvar Gashimov
-  - Soupy Sue/Mrs. Millennium/Cop: Julia Fallon
+  - Mr. McQueen / Rebel / Cop: Terry Glover
+  - Dr. Billeaux / Tiny Tom / Cop: Anvar Gashimov
+  - Soupy Sue / Mrs. Millennium / Cop: Julia Fallon
   - Robby the Stockfish: Dineen Liriano
   - Rebel/UGC: Sandy Blakewell
 crew:
-- Director: Bradley Akers
-- Musical Director: Erin Barnes
-- Choreography: Amanda Baillie
+  - Director: Bradley Akers
+  - Musical Director: Erin Barnes
+  - Choreography: Amanda Baillie
+  - Stage Manager: Marlaina Geddes
+  - Assistant Stage Manager: Kaleigh Ervin
+  - Technical Director: Ryan Walker
+  - Propmaster: Jenny Tammera
+  - Costume Designer: Olivia Montalbano
+  - Sound Designer: Matt Buckley
+  - Scenic Construction: Del Ward
 orchestra:
 Genres:
   - Musical
