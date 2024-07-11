@@ -23,6 +23,7 @@ show_details:
 - Basis: "*[[w:Dracula]]* by [[w:Bram Stoker]]"
 cast:
 crew:
+- Director: Fulton Burns
 orchestra:
 Genres:
 - Radio Play
