@@ -29,6 +29,8 @@
           {{ $url = printf "https://www.imdb.com/name/%s" $handle }}
         {{ else if eq $lowerName "ibdb" }}
           {{ $url = printf "https://www.ibdb.com/broadway-cast-staff/%s" $handle }}
+        {{ else if eq $lowerName "backstage" }}
+          {{ $url = printf "https://www.backstage.com/u/%s" $handle }}
         {{ else if eq $lowerName "wikipedia" }}
           {{ $url = printf "https://en.wikipedia.org/wiki/%s" $handle }}
         {{ else if eq $lowerName "mastodon" }}
