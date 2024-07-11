@@ -1,9 +1,9 @@
 ---
 title: Kate McManus
-layout: people
-featured_image: Kate_McManus.webp
-featured_image_attr: Josh Andrews
-featured_image_alt: 
-featured_image_caption: 
-date: 2023-09-08T00:00:00-04:00
+date: 2024-07-11T17:36:02-04:00
+featured_image: Kate-McManus.webp
+featured_image_attr: Jax Headshots
+featured_image_attr_link: https://www.jaxheadshots.co/ 
+featured_image_alt: Headshot of Kate McManus
+featured_image_caption: Headshot of Kate McManus
 ---
