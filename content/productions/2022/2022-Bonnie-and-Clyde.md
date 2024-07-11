@@ -1,6 +1,8 @@
 ---
 layout: productions
-title: Bonnie & Clyde (musical)
+title: Bonnie & Clyde
+aliases: 
+  - /productions/2022-bonnie-clyde-musical/
 date: 2023-09-08T00:00:00
 opening_date: 2022-03-18
 closing_date: 2022-04-03
