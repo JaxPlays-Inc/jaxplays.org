@@ -7,8 +7,6 @@ aliases:
 featured_image: Emma-Sharp.webp
 featured_image_attr: Jennifer Sharp
 featured_image_attr_link: 
-featured_image_alt: Headshot of Emma Sharp
-featured_image_caption: Headshot of Emma Sharp
 Socials:
   Facebook: 
   Twitter: 

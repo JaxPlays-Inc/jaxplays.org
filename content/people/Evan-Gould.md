@@ -3,8 +3,6 @@ title: Evan Gould
 featured_image: Evan-Gould.webp 
 featured_image_attr: Theatre Jacksonville
 featured_image_attr_link: https://www.theatrejax.com/something-rotten
-featured_image_alt: Headshot of Evan Gould
-featured_image_caption: Headshot of Evan Gould
 Socials:
   Facebook: 
   Twitter: 

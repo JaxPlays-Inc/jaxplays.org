@@ -3,8 +3,6 @@ title: Sofia Smith
 featured_image: Sofia-Smith.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Sofia Smith
-featured_image_caption: Headshot of Sofia Smith
 Socials:
   Facebook: 
   Twitter: 

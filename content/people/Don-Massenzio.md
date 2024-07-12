@@ -7,8 +7,6 @@ other_names:
 featured_image: Don-Massenzio.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Don Massenzio
-featured_image_caption: Don Massenzio
 Socials:
   Facebook: dmassenzio
   Twitter: 

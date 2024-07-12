@@ -13,7 +13,16 @@
     {{ $featuredImageCaption := .Params.featured_image_caption }}
     {{ $featuredImageAttr := .Params.featured_image_attr }}
     {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
+    {{ $featuredImageAlt := .Params.featured_image_alt | default $.Title }}
+
+    {{ if $featuredImage }}
+      {{ if not $featuredImageCaption }}
+        {{ $featuredImageCaption = printf "Headshot of %s" .Title }}
+      {{ end }}
+      {{ if not $featuredImageAlt }}
+        {{ $featuredImageAlt = printf "Headshot of %s" .Title }}
+      {{ end }}
+    {{ end }}
 
     {{ if or $featuredImage .Content }}
     <div class="flex flex-column flex-row-ns">
@@ -26,7 +35,7 @@
       <div class="w-75 w-40-m w-25-l flex-column center">
         <a href="{{ $imagePath }}" data-lightbox="image-1"
           data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
         </a>
         {{ if .Params.Socials }}
         {{ partial "social-media-links.html" . }}

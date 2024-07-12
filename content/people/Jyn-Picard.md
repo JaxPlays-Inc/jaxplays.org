@@ -4,8 +4,6 @@ date: 2024-03-28T16:49:58-04:00
 featured_image: Jyn-Picard.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Jyn Picard
-featured_image_caption: Headshot of Jyn Picard
 Socials:
   Facebook: lifeisascene
   Twitter: 

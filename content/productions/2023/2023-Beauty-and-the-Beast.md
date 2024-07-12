@@ -109,13 +109,18 @@ understudies:
 - Mrs. Potts: Jennifer Hudson
 - Madame Grande Bouche: Kylie Giliberto
 crew:
-- Executive Producer/Director: Tod Booth
-- Vice President of Production/Director: Shain Stroff
+- Director: 
+  - Tod Booth
+  - Shain Stroff
+- Executive Producer: Tod Booth
+- Vice President of Production: Shain Stroff
 - Choreographer/Production Manager: Erick Ariel Sureda
 - Musical Director: Cathy Murphy Giddens
 - Associate Choreographer/Dance Captain: Hailey Hendrickson
 - Assistant Production Manager: Mel Nash
-- Costume Designers: Camala Pitts, Dorinda Quiles
+- Costume Designers: 
+  - Camala Pitts
+  - Dorinda Quiles
 - Set Design/Builders:
   - Shain Stroff
   - David Dionne

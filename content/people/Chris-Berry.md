@@ -4,8 +4,6 @@ date: 2024-07-11T10:35:49-04:00
 featured_image: Chris-Berry.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Chris Berry
-featured_image_caption: Headshot of Chris Berry
 Socials:
   Facebook: 
   Twitter: 

@@ -3,8 +3,6 @@ title: Allyn Bessee
 featured_image: Allyn-Bessee.webp
 featured_image_attr: Lindsey Moss Productions
 featured_image_attr_link: 
-featured_image_alt: "Headshot of Allyn Bessee"
-featured_image_caption: "Headshot of Allyn Bessee"
 Socials:
   Facebook: 
   Twitter: 

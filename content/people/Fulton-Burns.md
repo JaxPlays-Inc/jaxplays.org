@@ -8,8 +8,6 @@ other_names:
 featured_image: Fulton-Burns.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Fulton Burns
-featured_image_caption: Headshot of Fulton Burns
 Socials:
   Facebook: 
   Twitter: 

@@ -4,8 +4,6 @@ date: 2024-07-02T12:05:15-04:00
 featured_image: Rick-Cirucci.webp
 featured_image_attr: Tori Stauffer Photography
 featured_image_attr_link:  https://toristauffer.com/
-featured_image_alt: "Headshot of Rick Cirucci"
-featured_image_caption: "Headshot of Rick Cirucci"
 Socials:
   Facebook: 
   Twitter: 

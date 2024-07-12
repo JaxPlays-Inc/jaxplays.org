@@ -3,8 +3,6 @@ title: Erik DeCicco
 featured_image: Erik-DeCicco.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: 
-featured_image_caption: Headshot of Erik DeCicco
 Socials:
   Facebook: erikdeciccoactor
   LinkedIn: erik-decicco-66722577

@@ -8,8 +8,6 @@ date: 2024-05-25T11:41:13-04:00
 featured_image: Thaddeus-Walker.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: "Headshot of Thaddeus Walker"
-featured_image_caption: "Headshot of Thaddeus Walker"
 Socials:
   Facebook: 
   Twitter: 

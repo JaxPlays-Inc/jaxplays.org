@@ -4,8 +4,6 @@ date: 2024-03-25T17:59:12-04:00
 featured_image: Ellin-Iselin.webp
 featured_image_attr: 21st Century Studios
 featured_image_attr_link:
-featured_image_alt: "Headshot of Ellin Iselin"
-featured_image_caption: "Headshot of Ellin Iselin"
 Socials:
   Facebook: ellin.iselin
   Twitter: ellin_i

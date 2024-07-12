@@ -3,8 +3,6 @@ title: Jason Collins
 featured_image: Jason-Collins.webp  
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Jason Collins
-featured_image_caption: Headshot of Jason Collins
 Socials:
   Facebook: jason.collins.3152
   Twitter: 

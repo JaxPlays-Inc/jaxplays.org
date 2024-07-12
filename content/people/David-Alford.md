@@ -4,8 +4,6 @@ date: 2024-07-11T17:45:05-04:00
 featured_image: David-Alford.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/ 
-featured_image_alt: Headshot of David Alford
-featured_image_caption: Headshot of David Alford
 Socials:
   Facebook: 
   Twitter: 

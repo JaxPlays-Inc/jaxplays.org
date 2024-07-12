@@ -3,8 +3,6 @@ title: Shauna Clark
 featured_image: Shauna-Clark.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: Headshot of Shauna Clark
-featured_image_caption: Headshot of Shauna Clark
 Socials:
   Facebook: 
   Twitter: 

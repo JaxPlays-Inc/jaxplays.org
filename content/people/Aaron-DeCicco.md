@@ -7,8 +7,6 @@ other_names:
 featured_image: Aaron-DeCicco.webp
 featured_image_attr: Darnell Bennett
 featured_image_attr_link: https://www.darnellbennettphotography.com
-featured_image_alt: Headshot of Aaron DeCicco
-featured_image_caption: Headshot of Aaron DeCicco
 Socials:
   Facebook: 
   Twitter: 

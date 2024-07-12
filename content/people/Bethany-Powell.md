@@ -4,8 +4,6 @@ date: 2024-06-13T11:18:44-04:00
 featured_image: Bethany-Powell.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: "Headshot of Bethany Powell"
-featured_image_caption: "Headshot of Bethany Powell"
 Socials:
   Facebook: bethany.powell.33865
   Twitter: 
