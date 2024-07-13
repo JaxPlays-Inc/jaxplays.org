@@ -8,8 +8,9 @@
     {{ $alt := cond (isset .Params "featured_image_alt") .Params.featured_image_alt .Title }}
     {{ $caption := .Params.featured_image_caption }}
     {{ $attr := .Params.featured_image_attr }}
+    {{ $attrlink := .Params.featured_image_attr_link }}
     {{ $light_text_color_class := .Site.Params.light_text_color_class }}
-    {{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "light_text_color_class" $light_text_color_class) }}
+    {{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "attrlink" $attrlink "light_text_color_class" $light_text_color_class) }}
   </header>
 {{ else }}
   <header>
