@@ -9,9 +9,10 @@ featured_image_caption: Katie Johnston
 Socials:
   Facebook: kathleen.johnston.58
   Twitter: 
-  Instagram: 
+  Instagram: katiejohnstonwellness
   LinkedIn: 
   IBDB: 
   IMDb:
   Website: https://www.katiejohnstonwellness.com/
 ---
+Katie is an active member of the Jacksonville film and theatre community. She has been seen recently on stage as Scarlet in *[[production: 2022 Clue| Clue]]*, Amanda in *[[production:2022 Private Lives|Private Lives]]*, and The Queen of Hearts in Alice in a *Christmas Wonderland*. Katie was voted “Best Actress” by Folio’s Best of The Beaches 2020 and “Best Comedian” by Folio’s Best of Jax 2019. Outside of rehearsals, Katie keeps busy by teaching yoga and running her own life coaching business.
