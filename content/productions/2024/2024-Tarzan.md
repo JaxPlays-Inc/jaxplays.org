@@ -24,11 +24,6 @@ featured_image_attr_link:
 playbill:
 Website: 
 Tickets: https://ci.ovationtix.com/34877/production/1187114
-show_details: 
-  - Music: "[[w:Phil Collins]]"
-  - Lyrics: Phil Collins
-  - Book: "[[w:David Henry Hwang]]"
-  - Basis: "[[w:Tarzan (1999 film)|Tarzan]] by [[w:Tab Murphy]], [[w:Bob Tzudiker]] and [[w:Noni White]], [[w:Tarzan of the Apes]] by [[w:Edgar Rice Burroughs]]"
 cast:
   - Tarzan: Chris Berry
   - Jane: Abigail Douglas
@@ -56,16 +51,18 @@ crew:
   - Costume Designer: Tracy Olin
   - Set Designer: Jereme Raickett
   - Lighting Designer: Jereme Raickett
+  - Wig Stylist: Phedre Delinois
   - Master Electrician: Ben Sparenberg
+  - Sound Design: GoldenStage Solutions
+  - Sound Engineer: GoldenStage Solutions
   - Master Carpenter: Darren Beaver
+  - Carpentry: 
+    - Beaver Home Improvement
+    - Baron Tetzlaff
+  - Stagehand: Alyssa Green
+  - Gallery Decoration & Experience Design: Darrell Allen Morton
 orchestra:
-Genres:
-  - Musical
-  - Adventure
-  - Family
-Description: "Swing into adventure with *Tarzan*, a thrilling musical that brings the beloved Disney animated film to life with heart-pounding music and breathtaking visuals."
 ---
-Follow the journey of a young boy raised by gorillas in the African jungle as he grows up to become the heroic Tarzan. Torn between his animal family and his human origins, Tarzan faces a pivotal decision when he meets Jane Porter, a spirited explorer. Featuring a powerful score by Phil Collins, including songs like 'You'll Be in My Heart' and 'Two Worlds,' this musical captures the excitement and emotion of Tarzan's quest for identity and belonging.
 
 ### Tarzan visits *First Coast Connect*
 {{< youtube dLYxWroz2vc >}}
