@@ -117,7 +117,6 @@ crew:
 - Costumes: 
   - Camala Pitts
   - Dorinda Quiles
-- Wardrobe: Michelle & Angela
 - Props: Patti Eyler
 - Light Board Operator: Luke Holt
 - Deck Chief: Joe Mahoney
