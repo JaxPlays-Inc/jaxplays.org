@@ -1,4 +1,21 @@
 ---
 title: Tracy Olin
-date: 2023-09-08T00:00:00-04:00
+aliases: 
+  - /people/tracy-anne-olin
+other_names: 
+ - Tracy Anne Olin
+date: 2024-07-14T21:54:11-04:00
+featured_image: 
+featured_image_attr: 
+featured_image_attr_link: 
+featured_image_alt: 
+featured_image_caption: 
+Socials:
+  Facebook: 
+  Twitter: 
+  Instagram: 
+  LinkedIn: 
+  IBDB: 
+  IMDb:
+  Website: 
 ---
