@@ -56,7 +56,10 @@ crew:
   - Technical Director: Ryan Walker
   - Scenic Designer: Bradley Akers
   - Scenic Construction: Del Ward
-  - Propmaster: Jenny Tammera
+  - Lighting Designer: 
+    - Bradley Akers
+    - Ryan Walker
+  - Props Designer: Jenny Tammera
   - Costume Designer: Olivia Montalbano
   - Sound Designer: Matt Buckley
   - House Managers:
