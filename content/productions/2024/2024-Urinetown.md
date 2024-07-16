@@ -43,10 +43,10 @@ cast:
   - Josephine "Ma" Strong: Adele Vespa
   - Senator Fipp: Neal Thorburn
   - Mr. McQueen / Rebel / Cop: Terry Glover
-  - Dr. Billeaux / Tiny Tom / Cop: Anvar Gashimov
+  - Tiny Tom / Dr. Billeaux / Cop: Anvar Gashimov
   - Soupy Sue / Mrs. Millennium / Cop: Julia Fallon
-  - Robby the Stockfish: Dineen Liriano
-  - Rebel/UGC: Sandy Blakewell
+  - Robby the Stockfish / Cop / UGC: Dineen Liriano
+  - Rebel / UGC: Sandy Blakewell
 crew:
   - Director: Bradley Akers
   - Musical Director: Erin Barnes
@@ -54,15 +54,21 @@ crew:
   - Stage Manager: Marlaina Geddes
   - Assistant Stage Manager: Kaleigh Ervin
   - Technical Director: Ryan Walker
+  - Scenic Designer: Bradley Akers
+  - Scenic Construction: Del Ward
   - Propmaster: Jenny Tammera
   - Costume Designer: Olivia Montalbano
   - Sound Designer: Matt Buckley
-  - Scenic Construction: Del Ward
+  - House Managers:
+    - Cynthia Riegler
+    - Amada Fraser
+  - Volunteer Coordinator: Heather Starling
 orchestra:
-Genres:
-  - Musical
-  - Comedy
-  - Satire
-Description: "Dive into the dystopian world of *Urinetown*, a hilarious and biting satire that tackles corporate greed, environmental issues, and social justice through catchy tunes and outrageous humor."
+  - Piano: Erin Barnes
+  - Percussion: Brandon Hill
+  - Reed: Josephyne Wagner
+  - Trombone: Tim Blakewell
+  - Bass: 
+    - Skylar LaLonde
+    - Mamie Lue Anderton
 ---
-In a future where a severe water shortage has led to a ban on private toilets, citizens must pay to use public amenities regulated by a corrupt corporation. Amidst this backdrop, *Urinetown* follows the journey of Bobby Strong, a revolutionary who leads a rebellion against the oppressive system. With its clever commentary on capitalism and bureaucracy, this Tony Award-winning musical blends humor and social critique, delivering an unforgettable performance that is as thought-provoking as it is entertaining.
