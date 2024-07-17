@@ -8,7 +8,7 @@ show_details:
 - Music: "[[w:Phil Collins]]"
 - Lyrics: Phil Collins
 - Book: "[[w:David Henry Hwang]]"
-- Basis: "[[w:Tarzan (1999 film)|Tarzan]] by [[w:Tab Murphy]], [[w:Bob Tzudiker]] and [[w:Noni White]], [[w:Tarzan of the Apes]] by [[w:Edgar Rice Burroughs]]"
+- Basis: "*[[w:Tarzan (1999 film)|Tarzan]]* by [[w:Tab Murphy]], [[w:Bob Tzudiker]] and [[w:Noni White]], *[[w:Tarzan of the Apes]]* by [[w:Edgar Rice Burroughs]]"
 - Premiere: 
 - Theatre: 
 - Website: 
