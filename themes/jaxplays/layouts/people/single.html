@@ -127,7 +127,8 @@
                 {{ $formattedDate := "" }}
                 {{ if eq $details.production.Params.approx_date "year" }}
                 {{/* If the date is only a year, use it directly */}}
-                {{ $formattedDate = . }}
+                {{ $parsedDate := time . }}
+                {{ $formattedDate = $parsedDate.Format "2006" }}
                 {{ else if eq $details.production.Params.approx_date "month" }}
                 {{/* If the date includes a month, attempt to format it accordingly */}}
                 {{ $parsedDate := time . }}

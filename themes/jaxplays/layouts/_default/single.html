@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <div class="mt4 w-100">
+    <div class="mt3 w-100">
       <aside class="instapaper_ignoref b helvetica tracked">
           {{/*
           CurrentSection allows us to use the section title instead of inferring from the folder.
@@ -33,7 +33,7 @@
       {{ end }}
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       {{ if not .Date.IsZero }}
-      <time class="f6 mb4 dib tracked gray" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>Published on 
+      <time class="f6 mb3 dib tracked gray" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>Published on 
         {{ .Date | time.Format (default "Monday, January 2, 2006" .Site.Params.date_format) -}}
       </time>
       {{end}}
