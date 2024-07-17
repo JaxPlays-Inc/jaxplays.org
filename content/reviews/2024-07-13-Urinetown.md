@@ -21,7 +21,7 @@ Theatre: The 5 & Dime
   - Neal Thorburn
 description: "Discover The 5 & Dime's production of 'Urinetown', a satirical take on social injustice wrapped in humor and striking performances. It's a must-see for theater lovers."
 ---
-In a grim future where water is worth its weight in gold, [[theatre:The 5 & Dime]]'s production of *[[production:2024 Urinetown|Urinetown]]* throws you into a world where paying to pee is the norm, and defiance comes with steep consequences. This Tony Award-winning musical is a satirical take on corporate greed, environmental issues and social justice, blending humor and biting commentary in a dystopian setting that is as thought-provoking as it is absolutely ridiculous. 
+In a grim future where water is worth its weight in gold, [[theatre:The 5 & Dime]]'s production of *[[production:2024 Urinetown|Urinetown]]* throws you into a world where paying to pee is the norm, and defiance comes with steep consequences. This Tony Award-winning musical is a satirical take on corporate greed, environmental issues and social justice, blending humor and biting commentary in a dystopian setting that is as thought-provoking as it is absolutely ridiculous. <!--more-->
 
 In a city devastated by drought, the government bans private bathrooms and forces citizens to use pay-per-use public amenities controlled by a malevolent company, the Urine Good Company. The plot thickens as the protagonist, Bobby Strong, inspired by love and a sense of justice, ignites a revolution against this tyrannical regime. If the premise of this musical seems absurd, that's precisely the point, and both the show and several members of the cast are in on the joke.
 
