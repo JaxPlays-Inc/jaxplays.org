@@ -199,9 +199,9 @@
           {{ end }}
         </div>
       </div>
-        <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">
+        <div class="w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
           <!-- Venue Map Section -->
-          <div class="w-100 pv3 pv0-ns flex flex-column items-start justify-start">
+          <div class="w-100 flex flex-column items-center justify-start">
             {{ if and $venuePage.Params.Latitude $venuePage.Params.Longitude }}
               {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
               {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.Latitude "Longitude" $venuePage.Params.Longitude "Title" $venue "Address" $venuePage.Params.Address "id" $index) }}
