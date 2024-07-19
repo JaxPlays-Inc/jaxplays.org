@@ -6,13 +6,6 @@ opening_date: 2022-04-01
 closing_date: 2022-04-10
 featured_image: 2022_Brighton_Beach_Memoirs.jpg
 Theatre: Orange Park Community Theatre
-show_details:
-- Writer: "[[w:Neil Simon]]"
-Genres: 
-- Play
-- Comedy
-- Drama
-- Coming-of-Age
 Website: https://web.archive.org/web/20220124230813/https://www.opct.info/52nd-season
 Playbill: https://www.playbillder.com/show/vip/Orange_Park_Community_Theatre/2022/Brighton_Beach_Memoirs_111214
 showtimes:
