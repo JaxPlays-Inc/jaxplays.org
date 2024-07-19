@@ -87,7 +87,7 @@
         </div>
         <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">
           <!-- Venue Map Section -->
-          <div class="w-100 pv3 pv0-ns flex flex-column items-start justify-start">
+          <div class="w-100 flex flex-column items-center justify-start">
             {{ if and $venuePage.Params.latitude $venuePage.Params.longitude }}
               {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.latitude "Longitude" $venuePage.Params.longitude "Title" $venuePage.Title "Address" $venuePage.Params.address "id" 1) }}
             {{ end }}
