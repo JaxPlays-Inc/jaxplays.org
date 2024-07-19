@@ -26,7 +26,7 @@ Description: "When blind date newbie Aaron meets serial dater Casey, a casual dr
 In a bustling New York City restaurant, Aaron nervously awaits his blind date, Casey. When she arrives, the evening takes unexpected twists and turns as the two navigate through the quagmire of first impressions, awkward pauses, and potential deal breakers. With a little help from their friends, who mysteriously double as waitstaff and imaginary figures, they discover whether or not they’re a perfect harmony or a flat-out disaster. This musical comedy offers a hilariously candid look at the rollercoaster ride of a first date.
 
 ### Musical Numbers
-
+{{< columns >}} 
 #### Act I
 - "The One" – Company
 - "First Impressions" – Aaron, Casey
@@ -35,7 +35,7 @@ In a bustling New York City restaurant, Aaron nervously awaits his blind date, C
 - "The Awkward Pause" – Company
 - "Allison's Theme #1" – Allison
 - "The World Wide Web Is Forever" – Company
-
+<--->
 #### Act II
 - "That's Why You Love Me" – Edgy Ex-Boyfriends
 - "Bailout Song #2" – Reggie
@@ -48,4 +48,4 @@ In a bustling New York City restaurant, Aaron nervously awaits his blind date, C
 - "The Check!" – Company
 - "First Impressions (reprise)" – Reggie, Waiter
 - "Something That Will Last" – Casey, Aaron, Company
-
+{{< /columns >}}

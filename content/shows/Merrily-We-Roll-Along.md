@@ -18,7 +18,7 @@ Description: "A riveting exploration of friendship, ambition and the steep costs
 *Merrily We Roll Along* follows the tumultuous journey of Franklin Shepard and his close friends, Charley and Mary, as they navigate the waters of show business and personal entanglements. The story uniquely begins at the height of Franklin’s Hollywood success and moves backwards in time to reveal the pivotal moments that shaped their lives. With each scene, the musical peels back layers of their relationships, examining the choices and sacrifices made in the pursuit of dreams and the bittersweet reality of their consequences.
 
 ### Musical numbers
-
+{{< columns >}} 
 #### Act I
 
 -   Overture – Orchestra
@@ -34,9 +34,8 @@ Description: "A riveting exploration of friendship, ambition and the steep costs
 -   "Third Transition" – Company
 -   "Not a Day Goes By" – Beth
 -   "Now You Know" – Mary and Company
-
+<--->
 #### Act II
-
 -   Entr'acte – Orchestra
 -   "Act Two Opening" – Gussie
 -   "It's a Hit" – Franklin, Charley, Mary, Joe and Beth
@@ -53,3 +52,4 @@ Description: "A riveting exploration of friendship, ambition and the steep costs
 -   "Seventh Transition" – Franklin Shepard Jr., Beth and Mrs. Spencer
 -   "Our Time" – Franklin, Charley, Mary and Company
 -   Exit Music – Orchestra
+{{< /columns >}}

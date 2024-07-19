@@ -27,7 +27,7 @@ Description: "Pink, perky and packed with pep, Elle Woods takes the courtroom by
 When her dreamy boyfriend dumps her for someone 'serious,' fashion-obsessed sorority girl Elle Woods decides to show she's no airhead. She aces the LSATs and enrolls at Harvard Law School. While law school is a far cry from the comforts of her poolside mansion and the mall, Elle fights to win her ex back by proving she's more than just a pretty face. Along the way, she discovers her true potential and tackles stereotypes, snobbery and scandal in the courtroom.
 
 ### Musical Numbers
-
+{{< columns >}} 
 #### Act I
 - "Omigod You Guys" – Elle, Serena, Margot, Pilar, Salesgirls and Delta Nus
 - "Serious" – Warner and Elle
@@ -42,7 +42,7 @@ When her dreamy boyfriend dumps her for someone 'serious,' fashion-obsessed soro
 - "Chip On My Shoulder" – Elle, Emmett, Greek Chorus
 - "Run Rufus Run/Elle Reflects"- Elle, Emmett
 - "So Much Better" – Elle, Greek Chorus and Company
-
+<--->
 #### Act I
 - "Whipped into Shape" – Brooke, Callahan and Company
 - "Delta Nu Nu Nu" – Elle and Brooke
@@ -54,3 +54,4 @@ When her dreamy boyfriend dumps her for someone 'serious,' fashion-obsessed soro
 - "Scene of the Crime" – Elle, Judge, Serena, Margot, Pilar and Company
 - "Omigod You Guys (Reprise)" – Elle, Brooke, Margot, Serena, Pilar, Judge and Company
 - "Find My Way/Finale" – Elle, Paulette, Emmett and Company
+{{< /columns >}}

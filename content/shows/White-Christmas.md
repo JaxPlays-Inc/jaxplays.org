@@ -22,7 +22,7 @@ Description: "In a quaint Vermont lodge, two World War II veterans orchestrate a
 Set in post-war America, *White Christmas* follows two World War II veterans who, capitalizing on their song-and-dance skills, venture to a Vermont lodge. There, they meet a pair of talented sisters and their former army commander, setting the stage for a series of heartfelt and humorous interactions. Featuring Irving Berlin’s classic score, including the iconic title song, the musical elegantly captures the spirit of the holiday season with nostalgia, romance, and a picturesque winter backdrop.
 
 ### Musical Numbers
-
+{{< columns >}} 
 #### Act I
 
 -   "Overture" - Orchestra
@@ -37,9 +37,8 @@ Set in post-war America, *White Christmas* follows two World War II veterans who
 -   "Let Me Sing and I'm Happy" - Martha
 -   "[Count Your Blessings (Instead of Sheep)](https://en.wikipedia.org/wiki/Count_Your_Blessings_(Instead_of_Sheep) "Count Your Blessings (Instead of Sheep)")" - Bob and Betty
 -   "[Blue Skies](https://en.wikipedia.org/wiki/Blue_Skies_(Irving_Berlin_song) "Blue Skies (Irving Berlin song)")" - Bob and Ensemble
-
+<--->
 #### Act II
-
 -   "Entr'acte" - Orchestra
 -   "[I Love a Piano](https://en.wikipedia.org/wiki/I_Love_a_Piano "I Love a Piano")" - Phil, Judy and Ensemble
 -   "Falling Out of Love Can Be Fun" - Martha, Betty and Judy
@@ -51,3 +50,4 @@ Set in post-war America, *White Christmas* follows two World War II veterans who
 -   "The Old Man" - Bob, Phil, Ralph and Male Ensemble
 -   "White Christmas" - Bob and Company
 -   "[I've Got My Love to Keep Me Warm](https://en.wikipedia.org/wiki/I%27ve_Got_My_Love_to_Keep_Me_Warm "I've Got My Love to Keep Me Warm")" - Full Company (Post - Curtain Call)
+{{< /columns >}}

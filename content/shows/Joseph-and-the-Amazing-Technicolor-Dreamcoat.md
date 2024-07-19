@@ -29,9 +29,8 @@ Based on the biblical story of Joseph from the Book of Genesis, Joseph and the A
 
 
 ### Musical numbers
-
+{{< columns >}} 
 #### Act I
-
 -   "Overture" — Orchestra
 -   "Prologue" – Narrator
 -   "[[w:Any Dream Will Do (song)|Any Dream Will Do]]" – Joseph, Children
@@ -42,9 +41,8 @@ Based on the biblical story of Joseph from the Book of Genesis, Joseph and the A
 -   "Potiphar" – Joseph, Narrator, Potiphar, Mrs. Potiphar, Ensemble
 -   "[[w:Close Every Door]]" – Joseph, Ensemble, Children
 -   "Go, Go, Go Joseph" – Joseph, Narrator, Baker, Butler, Ensemble, Children
-
+<--->
 #### Act II
-
 -   "Entr'acte" — Children
 -   "Pharaoh Story" – Narrator, Children
 -   "Poor, Poor Pharaoh" – Joseph, Narrator, Pharaoh, Butler, Ensemble
@@ -59,3 +57,4 @@ Based on the biblical story of Joseph from the Book of Genesis, Joseph and the A
 -   "Jacob in Egypt" – Ensemble
 -   "Any Dream Will Do (Reprise)/Give Me My Coloured Coat" – Joseph, Narrator, Ensemble, Children
 -   "Joseph Megamix" – Full Company
+{{< /columns >}}

@@ -1,0 +1,9 @@
+<!-- layouts/shortcodes/columns.html -->
+<div class="cf">
+  {{ $columns := split .Inner "<--->" }}
+  {{ range $index, $element := $columns }}
+    <div class="fl w-100 w-{{ div 100 (len $columns) }}-l ph2">
+      {{ $element | markdownify }}
+    </div>
+  {{ end }}
+</div>
