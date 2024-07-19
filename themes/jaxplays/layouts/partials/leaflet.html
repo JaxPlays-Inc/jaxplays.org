@@ -26,9 +26,15 @@
     var setZoom = {{ with .setZoom }}{{ . }}{{ else }}15{{ end }};
     var radius = {{ with .radius }}{{ . }}{{ else }}""{{ end }};
 
-    // Initialize map with disabled default zoom control
+    // Initialize map with fullscreen control and disabled default zoom control
     var mapId = 'map' + {{ .id }};
-    var mymap = L.map(mapId, {zoomControl: false}).setView([lat, lng], setZoom);
+    var mymap = L.map(mapId, {
+        zoomControl: false,
+        fullscreenControl: true,
+        fullscreenControlOptions: {
+            position: 'topleft'
+        }
+    }).setView([lat, lng], setZoom);
 
     // Add zoomhome control
     var zoomHome = L.Control.zoomHome();
