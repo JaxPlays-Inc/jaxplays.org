@@ -38,6 +38,7 @@ cast:
 - Louise: Claire Smith
 - Eve: Sara Sohn
 - Lita Encore: Sherry Rosen
+- Sylvia St. Croix: Kurt McCall
 understudies:
 - Tina Denmark: Tatum Matthews
 - Louise: Olivia Rodgers
