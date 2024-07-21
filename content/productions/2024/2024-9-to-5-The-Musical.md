@@ -65,5 +65,40 @@ crew:
   - Director: Jonny O'Leary
   - Musical Director: David Paul Rowan
   - Choreographer: Stephanie Riner
+  - Assistant Director: Stephanie Riner
+  - Stage Manager: 
+    - Danielle Dobies
+    - Neeva Raymond
+  - Assistant Stage Manager: 
+    - Chloe O’Leary
+    - Molly Farrow
+  - Set Design: Rob O’Leary
+  - Lighting Design: Tyler Hammond
+  - Sound Design: David Paul Rowan
+  - Costume Design: 
+    - Jonathan O’Leary
+    - Stephanie Riner
+  - Seamstress: Pat O’Leary
+  - Light Board Operator: Ashley Taylor
+  - Sound Board Operator: Francesca Bellavista
+  - Technical Director: Ryan Provence
+  - Assistant Technical Director: Ashley Taylor
+  - Production Manager: KellyAnne Correale
+  - Construction: 
+    - Dom Grasso
+    - Ryan Provence
+    - Tom Ferry
+    - Charles Ross
+    - Rob O’Leary
+    - Bryce Esposito
+    - Bob Carroll
+  - Paint Charge: Lourdes Acosta
+  - Scenic Painters: 
+    - Lourdes Acosta
+    - Bryce Esposito
+    - Alexis Bensoussan
+    - KellyAnne Correale
+    - Chad Boyd
+  - Photographer: Ryan Provence  
 orchestra:
 ---
