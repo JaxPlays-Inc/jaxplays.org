@@ -1,3 +1,10 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the nav stays on top of other content */
+}
+
 .w-45 {
   width: 45%;
 }

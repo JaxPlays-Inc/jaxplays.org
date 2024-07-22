@@ -35,7 +35,8 @@ params:
     follow: false
   - name: instagram
     label: Instagram
-    follow: false
+    url: https://instagram.com/jaxplaysorg
+    follow: true
   - name: linkedin
     label: LinkedIn
     url: https://www.linkedin.com/company/jaxplaysorg

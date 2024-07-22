@@ -1,4 +1,5 @@
-<nav class="pv3 ph3 ph4-ns mw9 center" role="navigation">
+<div class="sticky bg-black">
+<nav class="pv3 ph3 ph4-ns mw9 center bg-black" role="navigation">
   <style>
     /* Desktop styles */
     .dropdown-menu {
@@ -13,6 +14,13 @@
       padding-right: 1rem;
       z-index: 1;
     }
+    nav .ananke-socials a {
+      fill: #fff;
+    }
+    nav .ananke-socials a .icon svg{
+      width: 2.2rem;
+      height: 2.2rem
+    }
 
     .dropdown-menu a, .dropdown-menu a:hover {
       color: #fff;
@@ -24,7 +32,9 @@
     }
   
     /* Mobile and tablet styles */
-    @media screen and (max-width: 960px) {
+    /* @media screen and (max-width: 960px) { */
+    @media screen and (max-width: 1200px) {
+    
       .dropdown-menu {
         position: relative;
         display: none; /* initially hidden */
@@ -134,3 +144,4 @@
     }
   </script>
 </nav>
+</div>

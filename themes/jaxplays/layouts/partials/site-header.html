@@ -1,9 +1,9 @@
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ partial "site-navigation.html" .}}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   <header class="cover">
     <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
-      {{ partial "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           {{ .Title | default .Site.Title }}
@@ -19,7 +19,6 @@
 {{ else }}
   <header>
     <div class="pb1-m pb1-l {{ .Site.Params.background_color_class | default "bg-black" }}">
-      {{ partial "site-navigation.html" . }}
       <div class="tc-l pv3 ph3 ph4-ns dn db-l">
         <h1 class="f2 f-subheadline-l fw7 white mt0 mb0 lh-title ttu hover-near-white">
           <a href="{{ .Site.Home.RelPermalink }}" class="fw7 hover-near-white no-underline white ttu jaxplayslogo">{{ .Title | default .Site.Title }}</a>
