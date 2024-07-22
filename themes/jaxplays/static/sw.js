@@ -29,3 +29,14 @@ async function shareLink(shareTitle, shareText, link) {
       console.error(e);
   }
 }
+
+// forces a refresh every time the app gets re-opened without having to do it manually
+// https://stackoverflow.com/questions/70968547/pwa-how-to-refresh-content-every-time-the-app-is-opened
+
+window.addEventListener("visibilitychange", function () {
+  console.log("Visibility changed");
+  if (document.visibilityState === "visible") {
+    console.log("APP resumed");
+    window.location.reload();
+  }
+});
