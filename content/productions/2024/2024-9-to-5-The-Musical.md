@@ -102,3 +102,12 @@ crew:
   - Photographer: Ryan Provence  
 orchestra:
 ---
+*9 to 5: The Musical* is SOLD OUT for our regular showings! But there is still a chance to see it! Join us for a special Catholic Charities event on August 3rd, "A Night at the Theatre," where tickets are still available!
+
+Catholic Charities presents in partnership with Limelight Theatre "A Night at the Theatre" featuring "9 to 5: The Musical"
+- Saturday, August 3
+- Doors open at 6:30pm | Show starts at 7:30pm
+- Tickets - $50
+- VIP Package - $75 (Includes seating in the first two rows and a complimentary glass of champagne)
+
+Get your tickets for this event here: https://one.bidpal.net/ccbtheatre2024/ticketing
