@@ -1,0 +1,48 @@
+<link href="/leaflet/extramarkers/css/fontawesome.css" rel="stylesheet">
+<style>
+  .pwa-nav {
+    display: none;
+    /* Hide by default */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    /* Ensures the nav stays on top of other content */
+    width: 100%;
+    height: 4rem;
+    gap: 1.5rem;
+  }
+
+  .pwa-nav button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+
+   @media all and (display-mode: standalone) {
+    footer {
+      margin-bottom: 4rem;
+    }
+    .pwa-nav {
+      display: flex;
+      /* Only show in standalone mode */
+    }
+  }
+</style>
+<div class="pwa-nav bg-black">
+  <button class="nav-icon bg-black white" onclick="window.location.href='/'">
+    <i class="fa fa-home"></i>
+  </button>
+  <button class="nav-icon bg-black white" onclick="history.back()">
+    <i class="fa fa-arrow-left"></i>
+  </button>
+  <button id="mobile-search-icon" class="nav-icon bg-black white" onclick="toggleDropdown(this)">
+    <i class="fa fa-search"></i>
+  </button>
+  <button class="nav-icon bg-black white" onclick="navigator.share({title: 'Share this:', url: window.location.href})">
+    <i class="fa fa-share-alt"></i>
+  </button>
+</div>

@@ -133,8 +133,12 @@
     });
 
     function toggleDropdown(element) {
-      if (window.innerWidth < 960) {
+      if (window.innerWidth < 960) { // Ensures this runs only in a mobile context, if necessary
         var dropdownMenu = element.querySelector('.dropdown-menu');
+        // This will now also check for the search menu id
+        if (!dropdownMenu) {
+          dropdownMenu = document.getElementById('fastSearch'); // Assuming the search menu has this ID
+        }
         if (dropdownMenu.style.display === 'block') {
           dropdownMenu.style.display = 'none';
         } else {
@@ -142,6 +146,7 @@
         }
       }
     }
+    
   </script>
 </nav>
 </div>
