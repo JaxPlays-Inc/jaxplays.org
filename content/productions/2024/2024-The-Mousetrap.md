@@ -22,8 +22,8 @@ featured_image_caption: Poster for The Mousetrap
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=25&p=56
+Website: https://www.ameliacommunitytheatre.org/main-stage
+Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 cast:
 - Mollie Ralston: CallieAnn Maggart
@@ -35,5 +35,11 @@ cast:
 - Mr. Paravicini: Ron Price
 - Det. Sergeant Trotter: Joseph Stearman
 crew:
+- Director: Peggy Strickland
+- Assistant Director: Rob Davis
+- Stage Manager: Nicole Perrella
+- Technical Design: Geoffrey Moss
 orchestra:
 ---
+Director Peggy Strickland's notes:  
+What a delightful dilemma to be stranded in a major snowstorm in August with eight extremely talented actors and a fabulous crew as we seek to solve Agatha Christie’s murder mystery that has been entertaining London audiences since 1952 with only a slight pause during COVID. Agatha Christie wrote 66 novels during her prolific career and has been credited by  Guinness World Records as the best-selling fiction writer of all time, her novels having sold more than two billion copies. Her intriguing characters, plot twists, red herrings, and creativity remain as fresh today as when they were first published. At one point in the play one of the characters says, “The killer’s enjoying this. Yes, he’s enjoying himself a good deal…”  We hope you as audience members enjoy this mystery as well. It is a pleasure for me to be part of this collaborative effort at ACT bringing a bit of West End theatre history to life on our stage.
