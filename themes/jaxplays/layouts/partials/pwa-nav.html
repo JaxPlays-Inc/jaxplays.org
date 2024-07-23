@@ -10,7 +10,9 @@
     z-index: 1000;
     /* Ensures the nav stays on top of other content */
     width: 100%;
-    height: 4rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
     gap: 1.5rem;
   }
 
@@ -22,7 +24,8 @@
     padding: 0.5rem;
   }
 
-  @media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui) {
+  /* @media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui) { */
+    @media all {
     footer {
       margin-bottom: 4rem;
     }
