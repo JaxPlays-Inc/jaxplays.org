@@ -124,29 +124,41 @@
   <!-- JavaScript to handle menu toggle and dropdown -->
   <script>
     var navLinks = document.querySelector('.nav-links');
+  
+    // Adjust the event listener to handle menu button clicks.
     document.querySelector('.menu-btn').addEventListener('click', function() {
-      if (window.innerWidth < 960 && navLinks.style.display === 'flex') {
-        navLinks.style.display = 'none';
-      } else {
-        navLinks.style.display = 'flex';
-      }
+      toggleNavLinks();
     });
-
+  
+    // Function to toggle the visibility of .nav-links
+    function toggleNavLinks() {
+      if (window.innerWidth < 960) {
+        if (navLinks.style.display === 'flex') {
+          navLinks.style.display = 'none';
+        } else {
+          navLinks.style.display = 'flex';
+        }
+      }
+    }
+  
+    // Modified toggleDropdown function
     function toggleDropdown(element) {
+      // Toggle .nav-links visibility alongside the dropdown menu.
+      toggleNavLinks();
       if (window.innerWidth < 960) { // Ensures this runs only in a mobile context, if necessary
         var dropdownMenu = element.querySelector('.dropdown-menu');
         // This will now also check for the search menu id
         if (!dropdownMenu) {
           dropdownMenu = document.getElementById('fastSearch'); // Assuming the search menu has this ID
         }
-        if (dropdownMenu.style.display === 'block') {
+        if (dropdownMenu && dropdownMenu.style.display === 'block') {
           dropdownMenu.style.display = 'none';
-        } else {
+        } else if (dropdownMenu) {
           dropdownMenu.style.display = 'block';
         }
       }
     }
-    
-  </script>
+  </script>  
+  
 </nav>
 </div>
