@@ -24,7 +24,7 @@
     padding: 0.5rem;
   }
 
-  /* @media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui) { */
+  @media (display-mode: browser) {
     @media all {
     footer {
       margin-bottom: 4rem;
@@ -46,6 +46,6 @@
     <i class="fa fa-search"></i>
   </button>
   <button class="nav-icon bg-black white" onclick="navigator.share({title: 'Share this:', url: window.location.href})">
-    <i class="fa fa-share-alt"></i>
+    <i class="fa fa-share"></i>
   </button>
 </div>
