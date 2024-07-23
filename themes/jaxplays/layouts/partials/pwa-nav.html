@@ -70,6 +70,14 @@
       // Remove the standalone class if not needed
       if (navBar) navBar.classList.remove('standalone');
     }
+    // Check for standalone mode
+    if (navigator.standalone) {
+      // Add the standalone class to show the nav bar
+      if (navBar) footer.classList.add('standalone');
+    } else {
+      // Remove the standalone class if not needed
+      if (navBar) footer.classList.remove('standalone');
+    }
   });
 
     // Using the same toggle function for the search button
