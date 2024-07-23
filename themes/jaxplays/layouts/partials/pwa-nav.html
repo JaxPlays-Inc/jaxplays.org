@@ -1,19 +1,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 <style>
   .pwa-nav {
     display: none;
-    /* Hide by default */
+    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
     bottom: 0;
     z-index: 1000;
-    /* Ensures the nav stays on top of other content */
     width: 100%;
     height: 5rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
-    gap: 1.5rem;
+    gap: 2rem;
   }
 
   .pwa-nav button {
@@ -23,7 +23,7 @@
     font-size: 1.6rem;
     padding: 0.5rem;
   }
-
+  
   /* Specific class to be toggled by JavaScript for iOS standalone detection */
   footer.standalone {
     margin-bottom: 4rem;
@@ -39,10 +39,10 @@
     }
     .pwa-nav {
       display: flex;
-      /* Only show in standalone mode */
     }
   }
 </style>
+
 <div class="pwa-nav bg-black">
   <button class="nav-icon bg-black white" onclick="window.location.href='/'">
     <i class="fa fa-home"></i>
@@ -50,39 +50,50 @@
   <button class="nav-icon bg-black white" onclick="history.back()">
     <i class="fa fa-arrow-left"></i>
   </button>
-  <button id="pwa-search-icon" class="nav-icon bg-black white" >
+  <button id="pwa-search-icon" class="nav-icon bg-black white">
     <i class="fa fa-search"></i>
   </button>
   <button class="nav-icon bg-black white" onclick="navigator.share({title: 'Share this:', url: window.location.href})">
-    <i class="fa fa-share"></i>
+    <!-- Share icon placeholder -->
+    <div id="share-icon"></div>
   </button>
 </div>
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    const os = navigator.userAgent;
+    const shareIconContainer = document.getElementById('share-icon');
+
+    // Checking the OS for iOS and Android
+    if (os.includes('Android')) {
+      shareIconContainer.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fff"><path d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z"/></svg>';
+    } else if (os.includes('iPad') || os.includes('iPhone') || os.includes('iPod')) {
+      shareIconContainer.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fff"><path d="M240-40q-33 0-56.5-23.5T160-120v-440q0-33 23.5-56.5T240-640h120v80H240v440h480v-440H600v-80h120q33 0 56.5 23.5T800-560v440q0 33-23.5 56.5T720-40H240Zm200-280v-447l-64 64-56-57 160-160 160 160-56 57-64-64v447h-80Z"/></svg>';
+    } else {
+      shareIconContainer.innerHTML = '<i class="fa fa-share"></i>';
+    }
+
     const navBar = document.querySelector('.pwa-nav');
     const footer = document.querySelector('footer');
-  
-    // Check for standalone mode
+
+    // Toggle the standalone class based on the presence in standalone mode
     if (navigator.standalone) {
-      // Add the standalone class to show the nav bar
-      if (navBar) navBar.classList.add('standalone');
+      navBar?.classList.add('standalone');
+      footer?.classList.add('standalone');
     } else {
-      // Remove the standalone class if not needed
-      if (navBar) navBar.classList.remove('standalone');
-    }
-    // Check for standalone mode
-    if (navigator.standalone) {
-      // Add the standalone class to show the nav bar
-      if (navBar) footer.classList.add('standalone');
-    } else {
-      // Remove the standalone class if not needed
-      if (navBar) footer.classList.remove('standalone');
+      navBar?.classList.remove('standalone');
+      footer?.classList.remove('standalone');
     }
   });
 
-    // Using the same toggle function for the search button
-    document.querySelector('#pwa-search-icon').addEventListener('click', function() {
-      toggleNavLinks();
-    });
-  
+  // Function to toggle the visibility of .nav-links
+  function toggleNavLinks() {
+    if (window.innerWidth < 960) {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    }
+  }
+
+  // Event listener for the search button
+  document.querySelector('#pwa-search-icon').addEventListener('click', toggleNavLinks);
 </script>
