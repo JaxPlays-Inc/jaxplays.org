@@ -107,8 +107,10 @@ function executeSearch(term) {
 document.addEventListener("DOMContentLoaded", function() {
   const searchIcon = document.getElementById("search-icon");
   const mobileSearchIcon = document.getElementById("mobile-search-icon");
+  const pwaSearchIcon = document.getElementById("pwa-search-icon");
   searchIcon.addEventListener("click", toggleSearch);
   mobileSearchIcon.addEventListener("click", toggleSearch);
+  pwaSearchIcon.addEventListener("click", toggleSearch);
   function toggleSearch(event) {
     event.preventDefault();
     if (firstRun) {
