@@ -39,11 +39,6 @@ a:hover:not(.no-underline):not(.link),
   background: var(--jaxplays-gold);
 }
 
-::selection {
-  color: black;
-  background: var(--jaxplays-gold);
-}
-
 a::selection, a ::selection {
 	text-decoration:underline;
 }
