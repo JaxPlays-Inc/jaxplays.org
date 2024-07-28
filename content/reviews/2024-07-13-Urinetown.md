@@ -9,17 +9,17 @@ featured_image_attr_link: https://www.instagram.com/strayimagery
 author: Ray Hollister
 production: 2024 Urinetown
 Theatre: The 5 & Dime
-Cast:
-  - Chris Robertson
-  - Aly Blakewell
-  - David Sacks
-  - Emily Charleton
-  - Tom Cassaro
-  - Josh Katzman
-  - Shauna Clark
-  - Matt Barnes
-  - Heather Starling
-  - Neal Thorburn
+cast:
+- Chris Robertson
+- Aly Blakewell
+- David Sacks
+- Emily Charleton
+- Tom Cassaro
+- Josh Katzman
+- Shauna Clark
+- Matt Barnes
+- Heather Starling
+- Neal Thorburn
 description: "Discover The 5 & Dime's production of 'Urinetown', a satirical take on social injustice wrapped in humor and striking performances. It's a must-see for theater lovers."
 ---
 In a grim future where water is worth its weight in gold, [[theatre:The 5 & Dime]]'s production of *[[production:2024 Urinetown|Urinetown]]* throws you into a world where paying to pee is the norm, and defiance comes with steep consequences. This Tony Award-winning musical is a satirical take on corporate greed, environmental issues and social justice, blending humor and biting commentary in a dystopian setting that is as thought-provoking as it is absolutely ridiculous. <!--more-->
