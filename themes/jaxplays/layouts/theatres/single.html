@@ -34,7 +34,7 @@
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
         </a>
         {{ if (isset .Params "donate") }}
-          <a href="{{ .Params.donate }}" target="_blank" class="inline-flex flex-row items-center link b dim ph3 pv2 mv2 mh1 h2 black bg-yellow f5 center">Donate</a>
+          <a href="{{ .Params.donate }}" target="_blank" class="inline-flex flex-row items-center link b dim ph3 pv2 mv2 mh1 h2 black bg-yellow f5 center donate-button">Donate</a>
         {{ end }}
 
         {{ if .Params.Socials }}
