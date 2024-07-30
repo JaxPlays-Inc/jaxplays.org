@@ -26,8 +26,6 @@ featured_image_attr_link:
 playbill:
 Website: https://www.limelight-theatre.org/season-32-shows-1/wait-until-dark
 Tickets: https://ci.ovationtix.com/34666/production/1165808
-show_details: 
-- Playwright: Frederick Knott
 cast:
 - Susy Hendrix: Anna Vera
 - Sam Hendrix: Rick Cirucci
@@ -67,12 +65,4 @@ crew:
   - Sue Schwartz
   - Tom Ferry
   - Ashley Taylor
-orchestra:
-Genres:
-- Play
-- Thriller
-- Mystery
-- Drama
-Description: "In a shadow-laden apartment, a blind woman turns the tables, turning vulnerability into her weapon."
 ---
-Susy Hendrix may be blind, but when a band of criminals invades her space in search of a contraband-stuffed doll, they soon realize they're the ones in the dark. Outwitting her antagonists using wit and resourcefulness, Susy turns a night of fear into a cunning game. Get ready to recalibrate your definition of suspense as Susy turns the tables, making the night her own labyrinth of twists.
