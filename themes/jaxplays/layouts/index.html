@@ -37,9 +37,6 @@
     </div>
   </div>
 </div>
-<article class="cf ph4 pv3 pv4-l f5 f4-ns center mw8 lh-copy">
-  {{- partial "content-wikilinks" .Content -}}
-</article>
 {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of
 pages. */}}
 {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
@@ -89,7 +86,9 @@ pages. */}}
     {{ end }}
   </section>
   {{ end }}
-
+  <article class="cf ph4 pv3 pv4-l f5 f4-ns center mw8 lh-copy">
+    {{- partial "content-wikilinks" .Content -}}
+  </article>
 </div>
 {{ end }}
 <script>
