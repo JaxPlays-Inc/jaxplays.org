@@ -16,11 +16,9 @@ showtimes:
   - 2024-08-16 19:30:00
   - 2024-08-17 19:30:00  
   - 2024-08-18 15:00:00
-featured_image: 2024-Sense-and-Sensiblity.webp
-featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
-featured_image_attr_link: 
+featured_image: 2024-Sense-and-Sensibility.webp
+featured_image_alt: "Promotional poster for Artist Connection Theatre's production of 'Sense and Sensibility,' featuring silhouettes against a textured yellow background."
+featured_image_caption: "Join Artist Connection Theatre for an enchanting evening with 'Sense and Sensibility,' adapted from Jane Austen's classic novel. Performances run through August 18, 2024."
 playbill:
 Website: https://artistconnectiontheatre.org/current-show/
 Tickets: https://artistconnectiontheatre.org/tickets/
