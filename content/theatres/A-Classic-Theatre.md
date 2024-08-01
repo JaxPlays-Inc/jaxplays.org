@@ -18,7 +18,7 @@ Socials:
   Website: https://www.aclassictheatre.org
 color: "#008db6"
 date: 2024-07-02T18:04:27-04:00
-donate: https://www.paypal.com/donate?token=00-YfDZqpO2LrSUH4lpU0rA-ESk-SPbAG9uGleBwJrIIR1D790Wv2iLFOBQBjCcqMMZB1YVK_8DGrUuJ
+donate: https://www.aclassictheatre.org/donate
 ---
 Performing in the historic Waterworks Building in St. Augustine, Florida, A Classic Theatre takes pride in producing a wide range of offerings that fit its mission of producing classic, contemporary and original works.
 
