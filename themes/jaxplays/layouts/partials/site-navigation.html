@@ -74,18 +74,18 @@
             {{ range .Site.Menus.main }}
               {{ if .HasChildren }}
                 <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-                  <a class="hover-white no-underline white-90 dropdown-toggle {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                  <a class="hover-white no-underline white-90 dropdown-toggle {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 donate-button {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                     {{ .Name }}
                   </a>
                   <ul class="dropdown-menu">
                     {{ range .Children }}
-                      <li><a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                      <li><a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 donate-button {{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
                   </ul>
                 </li>
               {{ else }}
                 <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-                  <a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                  <a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 donate-button {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                     {{ .Name }}
                   </a>
                 </li>
