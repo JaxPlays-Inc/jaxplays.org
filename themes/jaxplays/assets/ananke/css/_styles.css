@@ -160,7 +160,7 @@ h1 a.jaxplayslogo {
 
 @media (max-width: 90em) {
 	.menu-btn-holder,
-	.donate-btn-holder {
+	.donate-button-holder {
 		flex: 1;
 	}
 }
