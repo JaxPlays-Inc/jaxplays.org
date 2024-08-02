@@ -29,18 +29,20 @@ a:hover:not(.no-underline):not(.link),
 	text-decoration: underline;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: black;
-  background: var(--jaxplays-gold);
+::-moz-selection {
+	/* Code for Firefox */
+	color: black;
+	background: var(--jaxplays-gold);
 }
 
 ::selection {
-  color: black;
-  background: var(--jaxplays-gold);
+	color: black;
+	background: var(--jaxplays-gold);
 }
 
-a::selection, a ::selection {
-	text-decoration:underline;
+a::selection,
+a ::selection {
+	text-decoration: underline;
 }
 
 .white {
@@ -109,7 +111,7 @@ h1 a.jaxplayslogo {
 }
 
 .splide__pagination__page.is-active {
-  background-color: var(--jaxplays-gold);
+	background-color: var(--jaxplays-gold);
 }
 
 @media screen and (min-width: 30em) {
@@ -119,7 +121,7 @@ h1 a.jaxplayslogo {
 	}
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 90em) {
 	a.jaxplayslogo {
 		background-size: 1.5rem;
 		/* Adjust the size as needed */
@@ -152,27 +154,24 @@ h1 a.jaxplayslogo {
 }
 
 .menu-btn {
-	flex: 1;
 	color: white;
 	font-size: 2.2em;
 }
 
 @media (max-width: 90em) {
-	.navmenu::after {
+	.menu-btn-holder,
+	.donate-btn-holder {
 		flex: 1;
-		content: "";
 	}
 }
 
-/* @media (max-width: 60em) {
-	.navmenu::after {
-		flex: 1;
-		content: "";
-	}
-} */
 
 @media (max-width: 30em) {
 	h2 {
 		font-size: 1.2rem;
+	}
+
+	.jaxplayslogo {
+		font-size: 7.5vw;
 	}
 }

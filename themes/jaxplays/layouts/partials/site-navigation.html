@@ -1,143 +1,150 @@
 <div class="sticky bg-black">
-<nav class="pv3 ph3 ph4-ns mw9 center bg-black" role="navigation">
-  <style>
-    /* Desktop styles */
-    .dropdown-menu {
-      display: none;
-      position: absolute;
-      background-color: #000;
-      color: #fff;
-      line-height: 3;
-      list-style: none;
-      padding-inline-start: 1rem;
-      padding-top: 14px;
-      padding-right: 1rem;
-      z-index: 1;
-    }
-    nav .ananke-socials a {
-      fill: #fff;
-    }
-    nav .ananke-socials a .icon svg{
-      width: 2.2rem;
-      height: 2.2rem
-    }
-
-    .dropdown-menu a, .dropdown-menu a:hover {
-      color: #fff;
-      text-decoration: none !important;
-    }
-
-    .dropdown-toggle:hover + .dropdown-menu, .dropdown-menu:hover  {
-      display: block;
-    }
-  
-    /* Mobile and tablet styles */
-    @media screen and (max-width: 1440px) {
-    
+  <nav class="pv3 ph3 ph4-ns mw9 center bg-black" role="navigation">
+    <style>
+      /* Desktop styles */
       .dropdown-menu {
-        position: relative;
-        display: none; /* initially hidden */
+        display: none;
+        position: absolute;
         background-color: #000;
         color: #fff;
+        line-height: 3;
         list-style: none;
         padding-inline-start: 1rem;
+        padding-top: 14px;
         padding-right: 1rem;
+        z-index: 1;
+      }
+      nav .ananke-socials a {
+        fill: #fff;
+      }
+      nav .ananke-socials a .icon svg{
+        width: 2.2rem;
+        height: 2.2rem
       }
   
-      .dropdown.show .dropdown-menu {
-        display: block; /* shown when parent is clicked */
+      .dropdown-menu a, .dropdown-menu a:hover {
+        color: #fff;
+        text-decoration: none !important;
       }
-    }
-  </style>
-  <div class="navmenu flex justify-between-xl items-center">
-    <div class="menu-btn flex flex-m flex-l dn-xl">
-      <img id="mobile-search-icon" src="{{ "images/menu_search_combo_icon.svg" | relURL }}" alt="Search Menu" class="w2 h2">
-    </div>
-    <a href="{{ .Site.Home.RelPermalink }}" class="f2 fw7 hover-near-white no-underline white flex ttu jaxplayslogo">
-      {{ with .Site.Params.site_logo }}
-        <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
-      {{ else }}
-        {{ .Site.Title }}
-      {{ end }}
-    </a>
-    <div class="items-center dn flex-xl">
-      {{ partial "i18nlist.html" . }}
-      {{ if .Site.Menus.main }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ma0" "pl0 ma0" }}">
-          {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-              <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-                <a class="hover-white no-underline white-90 dropdown-toggle {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-                  {{ .Name }}
-                </a>
-                <ul class="dropdown-menu">
-                  {{ range .Children }}
-                    <li><a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
-                  {{ end }}
-                </ul>
-              </li>
-            {{ else }}
-              <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-                <a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-                  {{ .Name }}
-                </a>
-              </li>
-            {{ end }}
-          {{ end }}
-        </ul>
-      {{ end }}
-      {{ partialCached "social-follow.html" . }}
-      <div class="search-icon-container">
-        <a href="#" id="search-icon">
-          <img src="{{ "images/magnifying_glass_icon.svg" | relURL }}" alt="Search">
+  
+      .dropdown-toggle:hover + .dropdown-menu, .dropdown-menu:hover  {
+        display: block;
+      }
+    
+      /* Mobile and tablet styles */
+      @media screen and (max-width: 1440px) {
+      
+        .dropdown-menu {
+          position: relative;
+          display: none; /* initially hidden */
+          background-color: #000;
+          color: #fff;
+          list-style: none;
+          padding-inline-start: 1rem;
+          padding-right: 1rem;
+        }
+    
+        .dropdown.show .dropdown-menu {
+          display: block; /* shown when parent is clicked */
+        }
+      }
+    </style>
+    <div class="navmenu flex justify-between-xl items-center">
+      <div class="menu-btn-holder">
+        <div class="menu-btn flex dn-xl">
+          <img id="mobile-search-icon" src="{{ "images/menu_search_combo_icon.svg" | relURL }}" alt="Search Menu" class="w2 h2">
+        </div>
+      </div>
+      <a href="{{ .Site.Home.RelPermalink }}" class="f2 fw7 hover-near-white no-underline white flex ttu jaxplayslogo">
+        {{ with .Site.Params.site_logo }}
+          <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+        {{ else }}
+          {{ .Site.Title }}
+        {{ end }}
+      </a>
+      <div class="donate-btn-holder flex justify-end">
+        <a class="donate-btn dn-xl ml2-l ml3 f4-ns f7 flex hover-white no-underline white-90 bg-yellow black ph2 ph3-ns pv2" href="/support/" title="Support JaxPlays">
+          Donate
         </a>
       </div>
-    </div>
-  </div>
-  <div id="fastSearch">
-    <input id="searchInput" tabindex="0" placeholder="Search here...">
-    <ul id="searchResults">
-    </ul>
-  </div>
-   <!-- Menu links for tablet and mobile -->
-   <div class="nav-links dn dn-m dn-l w-100-m flex-column" style="display: none;">
-    {{ range .Site.Menus.main }}
-      {{ if .HasChildren }}
-        <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown  {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
-          {{ .Name }}
-          <div class="dropdown-menu mt2">
-            {{ range .Children }}
-              <a class="db hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      <div class="items-center dn flex-xl">
+        {{ partial "i18nlist.html" . }}
+        {{ if .Site.Menus.main }}
+          <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ma0" "pl0 ma0" }}">
+            {{ range .Site.Menus.main }}
+              {{ if .HasChildren }}
+                <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                  <a class="hover-white no-underline white-90 dropdown-toggle {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                    {{ .Name }}
+                  </a>
+                  <ul class="dropdown-menu">
+                    {{ range .Children }}
+                      <li><a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                  </ul>
+                </li>
+              {{ else }}
+                <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                  <a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
             {{ end }}
-          </div>
+          </ul>
+        {{ end }}
+        {{ partialCached "social-follow.html" . }}
+        <div class="search-icon-container">
+          <a href="#" id="search-icon">
+            <img src="{{ "images/magnifying_glass_icon.svg" | relURL }}" alt="Search">
+          </a>
         </div>
-      {{ else }}
-        <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} {{ if eq .Name "Donate" }}bg-yellow mv2{{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-          {{ .Name }}
-        </a>
+      </div>
+    </div>
+    <div id="fastSearch">
+      <input id="searchInput" tabindex="0" placeholder="Search here...">
+      <ul id="searchResults">
+      </ul>
+    </div>
+     <!-- Menu links for tablet and mobile -->
+     <div class="nav-links dn dn-m dn-l w-100-m flex-column" style="display: none;">
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+          <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown  {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
+            {{ .Name }}
+            <div class="dropdown-menu mt2">
+              {{ range .Children }}
+                <a class="db hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-yellow black ph3 pv2 {{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </div>
+        {{ else }}
+          <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} {{ if eq .Name "Donate" }}bg-yellow mv2{{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            {{ .Name }}
+          </a>
+        {{ end }}
       {{ end }}
-    {{ end }}
-    {{ partialCached "social-follow.html" . }}
-  </div>
-  <!-- JavaScript to handle menu toggle and dropdown -->
-  <script>
-    var navLinks = document.querySelector('.nav-links');
-  
-    // Event listener for the menu button
-    document.querySelector('.menu-btn').addEventListener('click', function() {
-      toggleNavLinks();
-    });
-  
-    // Function to toggle the dropdown menus
-    function toggleDropdown(element) {
-      var dropdownMenu = element.querySelector('.dropdown-menu');
-      if (dropdownMenu) {
-        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+      {{ partialCached "social-follow.html" . }}
+    </div>
+    <!-- JavaScript to handle menu toggle and dropdown -->
+    <script>
+      var navLinks = document.querySelector('.nav-links');
+    
+      // Event listener for the menu button
+      document.querySelector('.menu-btn').addEventListener('click', function() {
+        toggleNavLinks();
+      });
+    
+      // Function to toggle the dropdown menus
+      function toggleDropdown(element) {
+        var dropdownMenu = element.querySelector('.dropdown-menu');
+        if (dropdownMenu) {
+          dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+        }
       }
-    }
-  </script>
-  
-  
-  
-</nav>
-</div>
+    </script>
+    
+    
+    
+  </nav>
+  </div>
