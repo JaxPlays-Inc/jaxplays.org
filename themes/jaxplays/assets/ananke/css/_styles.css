@@ -157,12 +157,19 @@ h1 a.jaxplayslogo {
 	font-size: 2.2em;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 90em) {
 	.navmenu::after {
 		flex: 1;
 		content: "";
 	}
 }
+
+/* @media (max-width: 60em) {
+	.navmenu::after {
+		flex: 1;
+		content: "";
+	}
+} */
 
 @media (max-width: 30em) {
 	h2 {

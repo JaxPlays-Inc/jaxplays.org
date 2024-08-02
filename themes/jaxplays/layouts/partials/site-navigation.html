@@ -32,8 +32,7 @@
     }
   
     /* Mobile and tablet styles */
-    /* @media screen and (max-width: 960px) { */
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1440px) {
     
       .dropdown-menu {
         position: relative;
@@ -50,11 +49,11 @@
       }
     }
   </style>
-  <div class="navmenu flex justify-between-l items-center">
-    <div class="menu-btn flex flex-m dn-l">
+  <div class="navmenu flex justify-between-xl items-center">
+    <div class="menu-btn flex flex-m flex-l dn-xl">
       <img id="mobile-search-icon" src="{{ "images/menu_search_combo_icon.svg" | relURL }}" alt="Search Menu" class="w2 h2">
     </div>
-    <a href="{{ .Site.Home.RelPermalink }}" class="f2 f3-l fw7 hover-near-white no-underline white flex ttu jaxplayslogo">
+    <a href="{{ .Site.Home.RelPermalink }}" class="f2 fw7 hover-near-white no-underline white flex ttu jaxplayslogo">
       {{ with .Site.Params.site_logo }}
         <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
       {{ else }}
@@ -101,7 +100,7 @@
     </ul>
   </div>
    <!-- Menu links for tablet and mobile -->
-   <div class="nav-links dn dn-m dn-l w-100-m flex-column">
+   <div class="nav-links dn dn-m dn-l w-100-m flex-column" style="display: none;">
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown  {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
@@ -129,23 +128,15 @@
       toggleNavLinks();
     });
   
-    // Function to toggle the visibility of .nav-links
-    function toggleNavLinks() {
-      if (window.innerWidth < 960) { // Only runs in a mobile context
-        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-      }
-    }
-  
     // Function to toggle the dropdown menus
     function toggleDropdown(element) {
-      if (window.innerWidth < 960) { // Only runs in a mobile context
-        var dropdownMenu = element.querySelector('.dropdown-menu');
-        if (dropdownMenu) {
-          dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
-        }
+      var dropdownMenu = element.querySelector('.dropdown-menu');
+      if (dropdownMenu) {
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
       }
     }
   </script>
+  
   
   
 </nav>
