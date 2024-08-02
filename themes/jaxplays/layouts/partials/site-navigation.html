@@ -61,7 +61,7 @@
         {{ .Site.Title }}
       {{ end }}
     </a>
-    <div class="flex-l items-center db-l dn">
+    <div class="items-center dn flex-xl">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ma0" "pl0 ma0" }}">
