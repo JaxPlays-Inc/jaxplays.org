@@ -93,5 +93,6 @@ crew:
 - Properties: Patti Eyler
 - Wardrobe: Julia Fallon
 Press:
-- "Tod Booth to Star as 'Scrooge' in Bruce Scudder's CHRISTMAS CAROLE at Alhambra": https://www.broadwayworld.com/jacksonville/article/Tod-Booth-to-Star-as-Scrooge-in-Bruce-Scudders-CHRISTMAS-CAROLE-at-Alhambra-20171113
+- "Tod Booth to Star as 'Scrooge' in Bruce Scudder's CHRISTMAS CAROLE at Alhambra | Broadway World": https://www.broadwayworld.com/jacksonville/article/Tod-Booth-to-Star-as-Scrooge-in-Bruce-Scudders-CHRISTMAS-CAROLE-at-Alhambra-20171113
+- "Bah, Humbug | Jacksonville Magazine": https://www.jacksonvillemag.com/2017/11/10/bah-humbug-2/
 ---
