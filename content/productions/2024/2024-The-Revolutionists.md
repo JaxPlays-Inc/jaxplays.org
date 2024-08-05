@@ -15,8 +15,17 @@ playbill:
 Website: 
 Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
 show_details: 
+- Playwright: Lauren Gunderson
 cast:
+  - Olympe de Gouges: Jennifer Lilly
+  - Marianne Angelle: Ayviana Singh
+  - Charlotte Corday: Morgan Williams
+  - Marie Antoinette: Catie Casey
 crew:
+  - Director: Jilliane Tamillo
+  - Stage Manager: Soph Willis
+  - Scenic Designer: Bradley Akers
+  - Costume Designer: Tonya Thomas
 orchestra:
 # The Revolutionists
 Genres:
