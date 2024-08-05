@@ -65,5 +65,7 @@ crew:
 - Sound Engineer: Linnay Bennett
 - Properties: Patti Eyler
 - Wardrobe Supervisor: Kelly Wolfe
+Press: 
+- "Lifelong actress makes her directorial debut directing her parents": https://pontevedrarecorder.com/stories/lifelong-actress-makes-her-directorial-debut-directing-her-parents,10305
 ---
 *Love Letters* is a play written by A.R. Gurney, presented by The Alhambra Theatre & Dining.
