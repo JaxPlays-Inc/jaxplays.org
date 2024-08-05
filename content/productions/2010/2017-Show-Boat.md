@@ -113,9 +113,14 @@ crew:
 - Lighting Designer: Misty Desmit 
 - Sound Deisgner: Linnay Bennett
 orchestra:
-genres:
-- Musical
-Description: Follows the lives of the people connected to the Mississippi River show boat, the Cotton Blossom, over 40 years, from the 1870s to the 1920s.
+Genres:
+  - Musical
+  - Drama
+  - Romance
+Description: "Step aboard the Cotton Blossom floating theater, where lives intertwine in a sweeping tale of love, loss, and redemption set against the backdrop of America’s Deep South."
+---
+*Show Boat* chronicles the lives of the performers, crew and family members aboard the Cotton Blossom, a Mississippi River show boat, from the 1880s to the 1920s. The musical tackles complex themes such as racial prejudice and tragic love through its groundbreaking narrative. The story follows the fortunes of Cap'n Andy's family, particularly his daughter Magnolia and her troubled marriage to gambler Gaylord Ravenal. Featuring iconic songs like "Ol' Man River" and "Can't Help Lovin' Dat Man," *Show Boat* is a pivotal work that blends serious issues with the entertainment of musical theatre, making it a cornerstone in the evolution of the genre.
+
 Reviews:
 - "Set Sail on the SHOW BOAT at the Alhambra | EU Jacksonville / Folio Weekly": https://folioweekly.com/staging/2017/02/27/show-boat-alhambra/
 - "Alhambra launches worthy revival of ‘Show Boat’ | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/alhambra-launches-worthy-revival-of-show-boat,3126
