@@ -140,4 +140,6 @@ crew:
   - Sarah Brace
   - Kolby James
 orchestra:
+Reviews: 
+- "Review: BEAUTY AND THEY BEAST at Alhambra Theatre And Dining": https://www.broadwayworld.com/jacksonville/article/Review-BEAUTY-AND-THEY-BEAST-at-Alhambra-Theatre-And-Dining-20230618
 ---
