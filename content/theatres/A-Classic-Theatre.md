@@ -20,8 +20,8 @@ color: "#008db6"
 date: 2024-07-02T18:04:27-04:00
 donate: https://www.aclassictheatre.org/donate
 ---
-Performing in the historic Waterworks Building in St. Augustine, Florida, A Classic Theatre takes pride in producing a wide range of offerings that fit its mission of producing classic, contemporary and original works.
+A Classic Theatre strives to produce plays that are relevant, timely and thought provoking.
 
-We strive to produce plays that are relevant and timely, stimulate conversation, entertain and challenge our artists.
+Our goal is to entertain, and engage our audience through the performing arts, providing high quality productions to our local community and to the many visitors to our area.
 
-Our goal is to entertain, inspire critical thinking and engage our audience through the performing arts providing entertainment to our local community and to the many visitors to our area.
+A Classic Theatre takes pride in producing a wide range of offerings that fit its mission of producing classic, contemporary and original works. The season consists of 4 full productions which are performed at the historic Waterworks building in St. Augustine. The season also includes 4 Staged Readings, which are performed at The Center for Spiritual Living.
