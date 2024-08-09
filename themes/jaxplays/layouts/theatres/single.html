@@ -145,12 +145,26 @@
     {{ end }}
 
     {{ if or $relatedReviews .Params.reviews }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Reviews featuring {{ .Title }}</h3>
       {{ range $relatedReviews }}
       <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
-      {{ $summary := .Summary | plainify | safeHTML }}
-      <span class="db">{{ $summary }}</span>
+      {{ $description := .Params.description }}
+      {{ $summary := .Summary }}
+      {{ $summaryLength := len $summary }}
+      {{ if not $description }}
+      {{ if gt $summaryLength 0 }}
+      {{ if gt $summaryLength 300 }}
+      {{ $description = printf "%s..." (substr $summary 0 300) }}
+      {{ else }}
+      {{ $description = substr $summary 0 $summaryLength }}
+      {{ end }}
+      {{ end }}
+      {{ else }}
+      {{ end }}
+      <span class="db">
+        {{- partial "content-wikilinks" $description | safeHTML -}}
+      </span>
       <a href="{{ .Permalink }}"
         class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       {{ end }}
