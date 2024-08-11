@@ -13,5 +13,6 @@ Socials:
   IBDB: 
   IMDb:
   Website: 
-date: 2023-09-08T00:00:00-04:00
+date: 2024-08-11T14:01:49-04:00
 ---
+Bill stands 6’4” tall, bats left-handed and is technically blind in his right eye. He has a mini doodle named Hilda Mae with no remarkable skills, and he has never seen an episode of Game of Thrones.

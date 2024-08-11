@@ -1,5 +1,5 @@
 ---
-title: Bat Boy
+title: "Bat Boy: The Musical"
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 date: 2024-05-10T17:42:58
@@ -25,7 +25,7 @@ Website:
 Tickets: https://www.eventbrite.com/e/bat-boy-the-musical-tickets-679820099217
 show_details: 
 cast:
-  - Bat Boy: Ethan Fisher
+  - Bat Boy: Ethan Edward Fisher
   - Meredith Parker: Amy Allen Farmer
   - Dr. Thomas Parker: Josh Waller
   - Shelley Parker: Julia Blasi
@@ -34,13 +34,14 @@ cast:
   - Ron: Raphael Albea
   - Ruthie: Ella Escamilla
   - Mrs. Taylor: Phedre Delinois
-  - Reverend Hightower: Zoe Pruitt
+  - Reverend Hightower: Zoe Pruitt-Green
   - Maggie: Julia Fallon
   - Bud/Pan: Frankie Rady
   - Lorraine: Ilana Marshall
-  - Daisy: Adriana Williams
+  - Daisy: Adrianna Williams
   - Roy: Jennifer O'Brien
-  - Clem: Jim Warren
+  - Clem: Cole Marshall
+  - Dance Captain: Ilana Marshall
 crew:
   - Director: Cole Marshall
   - Musical Direction: Katy Polk
@@ -48,16 +49,35 @@ crew:
   - Stage Managers:
       - Susan Roche
       - Ashley Buckley
+  - Lighting Design: Ben Sparenberg
+  - Set Design: Cole Marshall
+  - Set Dressing: Darrell Allen Morton
+  - Sound Board: Golden Stage Productions
+  - Props:
+    - Heather Goliber
+    - Kat Goliber
+  - Costumes & Wigs: Phedre Delinois
+  - Sound Editing: Susan Roche
+  - House Manager: Holly Gutshall
+  - Production & Publicity Photography: Jax Headshots
+  - Volunteer Coordinator: Mareen Johnson
+  - Box Office Assistant: Nina Williams
+  - Production Manager: Lee Hamby
+  - Set Painters:
+    - Evan Gould
+    - Ilana Marshall
+    - Jenny Tammera
+    - Darrell Allen Morton
+    - George Kruer
+  - Set Build Crew:
+    - Timothy Marshall
+    - Brian Johnson
+    - George Kruer
+    - Cole Marshall
 orchestra:
-Genres:
-- Musical
-- Comedy
-- Horror
-Description: "Fangs, fun, and family dysfunction—*Bat Boy* is a musical like no other."
 photos:
 - photo: 2024_Bat_Boy_cast_announcement.webp
   photo_attr: 
   photo_alt: Poster of Bat Boy cast announcement
   photo_caption: Poster of Bat Boy cast announcement
 ---
-Half-human, half-bat, all heart. Bat Boy emerges from a cave to find himself in a world that doesn't understand him. As he grapples with his identity and tries to fit in, he exposes the hypocrisy and prejudice of the society around him. Hilariously dark and touching, Bat Boy is a fanged foray into the challenges of being different.
