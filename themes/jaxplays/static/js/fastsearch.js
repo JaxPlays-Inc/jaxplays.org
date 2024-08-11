@@ -108,9 +108,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const searchIcon = document.getElementById("search-icon");
   const mobileSearchIcon = document.getElementById("mobile-search-icon");
   const pwaSearchIcon = document.getElementById("pwa-search-icon");
+  const the404SearchIcon = document.getElementById("404-search-icon");
   searchIcon.addEventListener("click", toggleSearch);
   mobileSearchIcon.addEventListener("click", toggleSearch);
   pwaSearchIcon.addEventListener("click", toggleSearch);
+  the404SearchIcon.addEventListener("click", toggleSearch);
   function toggleSearch(event) {
     event.preventDefault();
     if (firstRun) {

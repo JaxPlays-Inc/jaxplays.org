@@ -1,8 +1,38 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-    <article class="center cf pv5 mw9 measure-wide-l">
-      <h1>
-        This is not the page you were looking for
+    <article class="center cf pv5 ph2 mw9 measure-wide-l">
+      <h1 id="quote">
+        This is not the page you were looking for, but... <span class="i mv4 db" id="dynamic-quote">"if you only look around, you will be found."</span>
       </h1>
+      <h2><a href="#" id="404-search-icon" class="link dim">Use search</a>, or <a href="{{ .Site.BaseURL }}" class="link dim">return to the homepage</a>.</h2>
     </article>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const quotes = [
+          'If you only look around, you will be found.',
+          'When you choose to lose yourself, who knows what you might find.',
+          "It's always the darkest before they turn on the lights.",
+          "I know you're afraid. I'm as scared as you are. But willing to be brave.",
+          "Kiss today goodbye and point me toward tomorrow.",
+          "On that journey, expect only... the expected.",
+          "If you believe within your heart you’ll know that no one can change the path that you must go.",
+          "Someone is on your side. No one is alone.",
+          "Don’t stress, relax, let life roll off your backs. Except for death and paying taxes, everything in life is only for now.",
+          "Now is the time to seize the day. Stare down the odds and seize the day.",
+          "I’ll tell you where the real road lies: between your ears, behind your eyes. That is the path to paradise, likewise the road to ruin.",
+          "Always look on the bright side of life.",
+          "Forget regret, or life is yours to miss. No other path, no other way, no day but today.",
+          "Don't panic, don't jump ship, you can't fight that, like taxes.",
+          "I don't know about you, but I'd like to make today worth remembering.",
+          "Those who don't try never look foolish",
+          "Even when your life is in knots. You take aim, take your shot. Sometimes you gotta rewrite the plot.",
+          "The sun’ll come out tomorrow.",
+          "Some people analyze every detail. Some people stall when they can't see the trail. Some people freeze out of fear that they'll fail. But I keep rollin' on",
+          "The difference between a cow and a bean is a bean can begin an adventure.",
+          "It's the storm, not you, that's bound to blow away."
+        ];
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        document.getElementById('dynamic-quote').textContent = "“" + randomQuote + "”";;
+      });
+    </script>
 {{ end }}
