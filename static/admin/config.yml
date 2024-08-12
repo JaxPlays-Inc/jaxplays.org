@@ -1,0 +1,71 @@
+backend:
+  name: github
+  repo: JaxPlays-Inc/jaxplays.org # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
+
+# These lines should *not* be indented
+media_folder: "static/media/uploads" # Media files will be stored in the repo under static/media/uploads
+public_folder: "/media/uploads" # The src attribute for uploaded media will begin with /media/uploads
+
+# permalinks:
+#   news: "/:section/:year/:month/:day/:slug/"
+#   reviews: "/:section/:year/:month/:day/:slug/"
+#   editorials: "/:section/:year/:month/:day/:slug/"
+
+collections:
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "News" # Used in the UI
+    folder: "content/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string"}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string"}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Production", name: "production", widget: "string"}
+      - {label: "Theatre", name: "theatre", widget: "string"}
+      - {label: "Cast", name: "cast", widget: "list"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
+      - {label: "Draft", name: "draft", widget: "boolean"}
+  - name: "editorials" # Used in routes, e.g., /admin/collections/blog
+    label: "Editorials" # Used in the UI
+    folder: "content/editorials" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string"}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string"}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
+      - {label: "Draft", name: "draft", widget: "boolean"}
+  - name: "reviews" # Used in routes, e.g., /admin/collections/blog
+    label: "Reviews" # Used in the UI
+    folder: "content/reviews" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string"}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string"}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Production", name: "production", widget: "string"}
+      - {label: "Theatre", name: "theatre", widget: "string"}
+      - {label: "Cast", name: "cast", widget: "list"}
+      - {label: "Musical Numbers", name: "musical_numbers", widget: "list"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
+      - {label: "Draft", name: "draft", widget: "boolean"}
