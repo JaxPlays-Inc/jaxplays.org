@@ -23,7 +23,7 @@ collections:
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "preview/news/{{slug}}" # The path to the page for previewing documents
+    preview_path: "news/{{slug}}" # The path to the page for previewing documents
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -76,3 +76,30 @@ collections:
       - {label: "Musical Numbers", name: "musical_numbers", widget: "list", required: false}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
+  - name: "people" # Used in routes, e.g., /admin/collections/blog
+    label: "People" # Used in the UI
+    folder: "content/people" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "preview/people/{{slug}}" # The path to the page for previewing documents
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Aliases", name: "aliases", widget: "list", required: false}
+      - {label: "Other Names", name: "other_names", widget: "list", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
+      - {label: "Facebook", name: "Facebook", widget: "string", required: false}
+      - {label: "Twitter", name: "Twitter", widget: "string", required: false}
+      - {label: "Instagram", name: "Instagram", widget: "string", required: false}
+      - {label: "LinkedIn", name: "LinkedIn", widget: "string", required: false}
+      - {label: "IBDB", name: "IBDB", widget: "string", required: false}
+      - {label: "IMDb", name: "IMDB", widget: "string", required: false}
+      - {label: "Website", name: "Website", widget: "string", required: false}
+      - {label: "Birth Date", name: "birth_date", widget: "datetime", required: false}
+      - {label: "Birth Place", name: "birth_place", widget: "string", required: false}
+      - {label: "Death Date", name: "death_date", widget: "datetime", required: false}
+      - {label: "Death Place", name: "death_place", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
