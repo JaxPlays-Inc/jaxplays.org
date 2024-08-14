@@ -4,6 +4,7 @@ backend:
   # optional, defaults to master
   branch: master
   publish_mode: editorial_workflow
+  base_url: https://hushed-dashing-iguanacolossus.glitch.me/
 
 logo_url: https://jaxplays.org/JaxPlaysLogo.svg
 
