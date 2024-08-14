@@ -1,7 +1,7 @@
 ---
 title: Eum mollit earum qua
-date: 2024-08-13T20:42:00.000Z
-featured_image: https://static.wixstatic.com/media/1c046f_24a2c374f25645aa8125ff89f9ba9214~mv2.jpg/v1/fill/w_980,h_496,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1c046f_24a2c374f25645aa8125ff89f9ba9214~mv2.jpg
+date: 2024-08-13T21:24:00.000Z
+featured_image: /media/uploads/bbtest.jpg
 featured_image_attr: Cumque perferendis a
 featured_image_caption: Incidunt voluptas d
 featured_image_alt: Sit amet praesenti
