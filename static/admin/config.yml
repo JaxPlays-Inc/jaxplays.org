@@ -73,7 +73,6 @@ collections:
       - {label: "Production", name: "production", widget: "string", required: false}
       - {label: "Theatre", name: "theatre", widget: "string", required: false}
       - {label: "Cast", name: "cast", widget: "list", required: false}
-      - {label: "Musical Numbers", name: "musical_numbers", widget: "list", required: false}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
   - name: "people" # Used in routes, e.g., /admin/collections/blog
