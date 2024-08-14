@@ -23,6 +23,7 @@ collections:
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "YYYY-MM-DD-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "/preview/news/{{slug}}" # The path to the page for previewing documents
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -41,7 +42,8 @@ collections:
     label: "Editorials" # Used in the UI
     folder: "content/editorials" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "YYYY-MM-DD-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "/preview/editorials/{{slug}}" # The path to the page for previewing documents
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -57,7 +59,8 @@ collections:
     label: "Reviews" # Used in the UI
     folder: "content/reviews" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "YYYY-MM-DD-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "/preview/reviews/{{slug}}" # The path to the page for previewing documents
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
