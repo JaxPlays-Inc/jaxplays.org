@@ -3,10 +3,10 @@ backend:
   repo: "JaxPlays-Inc/jaxplays.org" # Path to your GitHub repository
   # optional, defaults to master
   branch: master
-  publish_mode: editorial_workflow
   base_url: https://hushed-dashing-iguanacolossus.glitch.me/
 
 logo_url: https://jaxplays.org/JaxPlaysLogo.svg
+publish_mode: editorial_workflow
 
 # These lines should *not* be indented
 media_folder: "static/media/uploads" # Media files will be stored in the repo under static/media/uploads
