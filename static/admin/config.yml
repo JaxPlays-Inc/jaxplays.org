@@ -27,15 +27,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
-      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
       - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
       - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Production", name: "production", widget: "string", required: false}
-      - {label: "Theatre", name: "theatre", widget: "string", required: false}
-      - {label: "Cast", name: "cast", widget: "list", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Attribute Link", name: "featured_image_attr_link", widget: "string", required: false}      
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
   - name: "editorials" # Used in routes, e.g., /admin/collections/blog
@@ -47,12 +45,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
-      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
       - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
       - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
-      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Attribute Link", name: "featured_image_attr_link", widget: "string", required: false}      
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
   - name: "reviews" # Used in routes, e.g., /admin/collections/blog
@@ -66,9 +65,10 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
-      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
       - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
       - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Attribute Link", name: "featured_image_attr_link", widget: "string", required: false}      
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Production", name: "production", widget: "string", required: false}
       - {label: "Theatre", name: "theatre", widget: "string", required: false}
