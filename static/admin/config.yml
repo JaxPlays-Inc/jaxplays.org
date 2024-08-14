@@ -27,16 +27,16 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string"}
-      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string"}
-      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Production", name: "production", widget: "string"}
-      - {label: "Theatre", name: "theatre", widget: "string"}
-      - {label: "Cast", name: "cast", widget: "list"}
-      - {label: "Featured", name: "featured", widget: "boolean"}
-      - {label: "Draft", name: "draft", widget: "boolean"}
+      - {label: "Production", name: "production", widget: "string", required: false}
+      - {label: "Theatre", name: "theatre", widget: "string", required: false}
+      - {label: "Cast", name: "cast", widget: "list", required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", required: false}
   - name: "editorials" # Used in routes, e.g., /admin/collections/blog
     label: "Editorials" # Used in the UI
     folder: "content/editorials" # The path to the folder where the documents are stored
@@ -46,13 +46,13 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string"}
-      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string"}
-      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Featured", name: "featured", widget: "boolean"}
-      - {label: "Draft", name: "draft", widget: "boolean"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", required: false}
   - name: "reviews" # Used in routes, e.g., /admin/collections/blog
     label: "Reviews" # Used in the UI
     folder: "content/reviews" # The path to the folder where the documents are stored
@@ -62,14 +62,14 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string"}
-      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string"}
-      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Production", name: "production", widget: "string"}
-      - {label: "Theatre", name: "theatre", widget: "string"}
-      - {label: "Cast", name: "cast", widget: "list"}
-      - {label: "Musical Numbers", name: "musical_numbers", widget: "list"}
-      - {label: "Featured", name: "featured", widget: "boolean"}
-      - {label: "Draft", name: "draft", widget: "boolean"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
+      - {label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false}
+      - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Production", name: "production", widget: "string", required: false}
+      - {label: "Theatre", name: "theatre", widget: "string", required: false}
+      - {label: "Cast", name: "cast", widget: "list", required: false}
+      - {label: "Musical Numbers", name: "musical_numbers", widget: "list", required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", required: false}
