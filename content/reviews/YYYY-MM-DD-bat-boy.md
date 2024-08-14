@@ -11,7 +11,7 @@ featured_image_alt: A dramatic scene from the musical 'Bat Boy' showing the
 featured_image_attr: Jax Headshots
 production: 2024 Bat Boy
 theatre: " ABET - All Beaches Experimental Theatre"
-draft: false
+draft: true
 musical_numbers: []
 cast:
   - Ethan Edward Fisher
