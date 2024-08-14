@@ -22,7 +22,7 @@ cast:
 musical_numbers: []
 draft: true
 ---
-In the eerie, backwoods town of Hope Falls, West Virginia, an unsettling discovery is made—a boy with bat-like features, more creature than human, is found in a desolate cave. Bat Boy: The Musical at ABET confronts the tensions between humanity and monstrosity in a darkly comedic satire that examines the terrifying power of fear and ignorance. As the townsfolk wrestle with their primal instincts to shun what they do not understand, the musical delves into themes of identity, belonging, and the often catastrophic consequences of unchecked prejudice. Laden with wit and irony, this production juxtaposes light-hearted musical numbers with deeply resonant social commentary, creating an experience that is equal parts disturbing and thought-provoking.
+In the eerie, backwoods town of Hope Falls, West Virginia, an unsettling discovery is made — a boy with bat-like features, more creature than human, is found in a desolate cave. Bat Boy: The Musical at ABET confronts the tensions between humanity and monstrosity in a darkly comedic satire that examines the terrifying power of fear and ignorance. As the townsfolk wrestle with their primal instincts to shun what they do not understand, the musical delves into themes of identity, belonging, and the often catastrophic consequences of unchecked prejudice. Laden with wit and irony, this production juxtaposes light-hearted musical numbers with deeply resonant social commentary, creating an experience that is equal parts disturbing and thought-provoking.
 
 featured_image_alt: ""
 featured_image_caption: ""
