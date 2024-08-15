@@ -33,6 +33,7 @@ collections:
       - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
       - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
       - {label: "Featured Image Attribute Link", name: "featured_image_attr_link", widget: "string", required: false}      
+      - {label: "SEO Description", name: "description", widget: "string", required: false}      
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
@@ -51,6 +52,7 @@ collections:
       - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
       - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
       - {label: "Featured Image Attribute Link", name: "featured_image_attr_link", widget: "string", required: false}      
+      - {label: "SEO Description", name: "description", widget: "string", required: false}      
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
@@ -69,6 +71,7 @@ collections:
       - {label: "Featured Image Alt Text", name: "featured_image_alt", widget: "string", required: false}
       - {label: "Featured Image Attribute", name: "featured_image_attr", widget: "string", required: false}
       - {label: "Featured Image Attribute Link", name: "featured_image_attr_link", widget: "string", required: false}      
+      - {label: "SEO Description", name: "description", widget: "string", required: false}      
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Production", name: "production", widget: "string", required: false}
       - {label: "Theatre", name: "theatre", widget: "string", required: false}
