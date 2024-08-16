@@ -2,7 +2,7 @@
 title: Gypsy
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-date: 2024-05-10T17:42:58
+date: 2024-08-16T13:09:40-04:00
 opening_date: 2024-08-22
 closing_date: 2024-09-29
 showtimes:
@@ -54,18 +54,4 @@ featured_image_attr_link:
 playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1459&code=WWW&qty_target=0
-show_details: 
-  - Music: "[[w:Jule Styne]]"
-  - Lyrics: "[[w:Stephen Sondheim]]"
-  - Book: "[[w:Arthur Laurents]]"
-  - Basis: "[[w:Gypsy: A Memoir]]"
-cast:
-crew:
-orchestra:
-Genres:
-  - Musical
-  - Drama
-  - Biography
-Description: "Step into the glitz and hardship of showbiz with 'Gypsy,' a gripping tale of ambition, family, and the price of stardom, set in the fading light of vaudeville's golden age."
 ---
-Gypsy chronicles the journey of the ultimate show business mother, Mama Rose, and her dreams of stardom for her daughters. As vaudeville dies, Rose pushes her daughters into the world of burlesque and showbiz. But at what cost? With iconic songs like 'Everything's Coming Up Roses' and 'Let Me Entertain You,' this musical unpacks the complexities of ambition, family dynamics, and the sacrifices made in the pursuit of fame. It's a compelling narrative that explores the blurred lines between love, obsession, and the drive to be in the spotlight.
