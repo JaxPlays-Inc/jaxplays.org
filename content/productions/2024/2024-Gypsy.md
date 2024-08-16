@@ -54,4 +54,54 @@ featured_image_attr_link:
 playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1459&code=WWW&qty_target=0
+cast:
+  - Uncle Jocko, Mr. Goldstone, Pastey: Michael Roddy
+  - George, Yonkers: Calvin Bernado
+  - Baby June: Everly Doyle
+  - Baby Louise: Delia Doyle
+  - Rose: Lisa Valdini Booth
+  - Pop, Kringelein, Man with Cigar: Tom Cassaro
+  - Newsboys: 
+    - Keegan Carroll
+    - Zachary Swartz
+    - Kai Zandman
+  - Weber, L.A.: Ryan Lemmon
+  - Herbie: Pete Clapsis
+  - Louise, Cow: Logen Cheatham
+  - June: Torie D'Alessandro
+  - Tulsa, Phill: Alexander Blanco
+  - Miss Cratchitt, Tessie Tura: Katie Nettle
+  - Mazeppa, Renee: Kathy Sanders
+  - Electra, Cow: Cathy Merkel-Roddy
+  - Balloon Girl: Kennedy Swartz
+crew:
+  - Executive Producer: Tod Booth
+  - Vice President of Production: Shain Stroff
+  - Director: Tod Booth
+  - Choreographer: Maureen Straub Craig
+  - Musical Director: Cathy Murphy Giddens
+  - Lighting Design: Johnny Pettegrew
+  - Set Design: David Dionne
+  - Costume Design: 
+    - Dorinda Quiles
+    - Camala Pitts
+  - Sound Design/Technician: Carly Meyer
+  - Wig Design: Layla Thurman
+  - Set Construction: 
+    - Ian Black
+    - Kenney Holderfield
+  - Company Management: Lisa Valdini Booth
+  - Production Management: Sarah Brace
+  - Property Master: Patti Eyler
+  - Stage Crew: 
+    - Ezra Ingram
+    - Thaddeus Walker
+  - Wardrobe Crew:
+    - Layla Thurman
+    - Allie Kangas
+    - Chelsea Lucas
+understudies:
+  - Louise, June, Miss Cratchitt, Tessie Tura: Natalie Drake
+  - Baby June, Baby Louise: Kennedy Swartz
+  - Rose: Katie Nettle
 ---
