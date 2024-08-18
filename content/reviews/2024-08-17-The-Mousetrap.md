@@ -22,7 +22,7 @@ cast:
 - Geoffrey Moss
 - Jayne Jeney
 - Anne Foos
-description:
+description: "A suspenseful review of *The Mousetrap* at Amelia Community Theatre, highlighting its flawless technical execution, period-perfect design, and gripping performances."
 ---
 [[production:2024 The Mousetrap|*The Mousetrap*]], performed at the [[theatre:Amelia Community Theatre]], plunges its audience into a suspenseful game of cat and mouse, where every character is a suspect and every word could be a clue. [[w:Agatha Christie]]’s legendary play, known for its intricate plot and surprising twists, opens in the remote Monkswell Manor, where a group of strangers is snowed in during a fierce winter storm. As the story unfolds, it becomes clear that one of them is not who they appear to be. Tensions rise as Detective Sergeant Trotter arrives with alarming news: a murderer is in their midst, and they must work together to uncover the truth before it’s too late.<!--more-->
 
