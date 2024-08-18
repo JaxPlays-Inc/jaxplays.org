@@ -39,6 +39,8 @@ crew:
 - Assistant Director: Rob Davis
 - Stage Manager: Nicole Perrella
 - Technical Design: Geoffrey Moss
+- Managing Artistic Director: Stephen Carver
+- Box Office Manager: Tabitha Mudd
 orchestra:
 ---
 Director Peggy Strickland's notes:  
