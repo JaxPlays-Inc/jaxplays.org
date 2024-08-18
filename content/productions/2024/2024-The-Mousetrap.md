@@ -38,7 +38,7 @@ crew:
 - Director: Peggy Strickland
 - Assistant Director: Rob Davis
 - Stage Manager: Nicole Perrella
-- Technical Design: Geoffrey Moss
+- Technical Director: Geoffrey Moss
 - Stage Crew: Vicki Gibson
 - Set Construction Crew: 
   - Bill Bowler
