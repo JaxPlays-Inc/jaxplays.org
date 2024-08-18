@@ -6,7 +6,7 @@ aliases:
 other_names: 
  - Trey Stafford
 featured_image: Trey-Stafford.webp 
-featured_image_attr: 
+featured_image_attr: Karen Bowden
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 

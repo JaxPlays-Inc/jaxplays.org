@@ -39,6 +39,23 @@ crew:
 - Assistant Director: Rob Davis
 - Stage Manager: Nicole Perrella
 - Technical Design: Geoffrey Moss
+- Stage Crew: Vicki Gibson
+- Set Construction Crew: 
+  - Bill Bowler
+  - Dewain Hanlon
+  - Jamie Morrill
+  - Missy Tremblay
+- Painting Crew:
+  - Anne Foos
+  - Jayne Jeney
+  - Peggy Strickland
+- Light Board Operator: Jayne Jeney
+- Sound Operator: Anne Foos
+- Costumer Coordinator: Missy Tremblay
+- Costumers:
+  - Vicki Gibson
+  - Isabelle Bournigault
+- Photographer: Karen Bowden
 - Managing Artistic Director: Stephen Carver
 - Box Office Manager: Tabitha Mudd
 orchestra:
