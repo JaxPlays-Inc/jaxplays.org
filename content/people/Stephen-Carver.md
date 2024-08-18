@@ -1,7 +1,7 @@
 ---
-title: Geoffrey Moss
-date: 2024-08-18T00:14:05-04:00
-featured_image: Geoffrey-Moss.webp
+title: Stephen Carver
+date: 2024-08-18T00:30:28-04:00
+featured_image: Stephen-Carver.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -12,6 +12,6 @@ Socials:
   Instagram: 
   LinkedIn: 
   IBDB: 
-  IMDb:
+  IMDb: nm0142586
   Website: 
 ---
