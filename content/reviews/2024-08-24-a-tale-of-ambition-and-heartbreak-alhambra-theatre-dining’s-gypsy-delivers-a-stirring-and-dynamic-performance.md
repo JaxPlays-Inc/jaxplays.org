@@ -9,7 +9,7 @@ cast:
   - Lisa Valdini Booth
   - Pete Clapsis
   - Logen Cheatham
-  - "\"Torie D'Alessandro\""
+  - Torie D'Alessandro
   - Alexander Blanco
   - Katie Nettle
   - Kathy Sanders
