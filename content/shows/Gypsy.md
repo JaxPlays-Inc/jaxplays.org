@@ -20,7 +20,7 @@ Gypsy chronicles the journey of the ultimate show business mother, Mama Rose, an
 ### Musical numbers
 {{< columns >}} 
 #### Act I
-- [[w:Let Me Entertain You (Gypsy)|'Let We Entertain You']] – Baby June and Baby Louise
+- [[w:Let Me Entertain You (Gypsy)|'Let Me Entertain You']] – Baby June and Baby Louise
 - 'Some People' – Rose
 - 'Small World' – Rose and Herbie
 - 'Baby June and Her Newsboys' – Baby June and Newsboys
