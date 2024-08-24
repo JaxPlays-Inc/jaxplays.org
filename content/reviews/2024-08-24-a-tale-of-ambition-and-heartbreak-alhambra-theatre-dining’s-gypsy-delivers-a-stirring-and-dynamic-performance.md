@@ -3,6 +3,20 @@ title: "A Tale of Ambition and Heartbreak: Alhambra Theatre & Dining’s 'Gypsy'
   Delivers a Stirring and Dynamic Performance"
 date: 2024-08-24T15:34:00.000Z
 author: Ray Hollister
+production: 2024 Gypsy
+theatre: Alhambra Theatre & Dining
+cast:
+  - Lisa Valdini Booth
+  - Pete Clapsis
+  - Logen Cheatham
+  - Torie D'Alessandro
+  - Alexander Blanco
+  - Katie Nettle
+  - Kathy Sanders
+  - Cathy Merkel-Roddy
+  - Everly Doyle
+  - Delia Doyle
+  - Calvin Bernado
 draft: true
 ---
 Gypsy, the latest production at the Alhambra Theatre & Dining, offers a compelling portrayal of ambition, sacrifice, and the complex bond between a mother and her daughters. Set in the waning days of vaudeville and based on the true story of famed burlesque entertainer Gypsy Rose Lee, the musical tells the story of Rose, a fiercely determined stage mother whose relentless drive for stardom propels her children, and herself, into the world of show business. The narrative unfolds with Rose's unwavering focus on making her youngest daughter, June, a star, even as it becomes increasingly clear that her dreams may be more about herself than her children.
