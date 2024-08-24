@@ -68,7 +68,7 @@ cast:
   - Weber, L.A.: Ryan Lemmon
   - Herbie: Pete Clapsis
   - Louise, Cow: Logen Cheatham
-  - June: Torie D'Alessandro
+  - June: "Torie D'Alessandro"
   - Tulsa, Phill: Alexander Blanco
   - Miss Cratchitt, Tessie Tura: Katie Nettle
   - Mazeppa, Renee: Kathy Sanders
