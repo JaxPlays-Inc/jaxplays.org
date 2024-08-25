@@ -1,5 +1,5 @@
 ---
-title: Gary-Lee-Webber
+title: Gary Lee Webber
 aliases: 
   - /people/gray-webber/
 other_names: 
