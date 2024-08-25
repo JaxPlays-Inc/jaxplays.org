@@ -21,6 +21,6 @@ Press:
 ---
 Linda was born in Greenwich , Ct. and moved with her family as a child to Japan, where she was raised.  There she trained and worked as an actress from the age of 11 under the awning of Toho Productions and at 15 moved to the US by way of the UK and studies there with LAMDA.
 
-She’s known widely from her running television roles as Pam’s Mom, Helene Beasley on The Office; Ashley Pfister, Fonzie’s fiancee on Happy Days; Andy Griffith’s daughter, Charlene Matlock on Matlock; with recurring roles on Homeland, TrueBlood and General Hospital.
+She’s known widely from her running television roles as Pam’s Mom, Helene Beasley on *[[w:The Office (American TV series)|The Office]]*; Ashley Pfister, Fonzie’s fiancee on *[[w:Happy Days]]*; Andy Griffith’s daughter, Charlene Matlock on *[[w:Matlock (TV series)|Matlock]]*; with recurring roles on Homeland, TrueBlood and General Hospital.
 
 She has made over 45 made for TV movies, happily two stints on Broadway, three off-Broadway and has performed in over 50 regional theatres. Performances in the theatre internationally, include 22 venues with her partner Patrick Duffy on tour throughout the UK in 2022. She has recorded five solo CD’s and delights to do concerts as often as possible. Purl is the proud Mother of one son, Lucius Cary.
