@@ -33,8 +33,7 @@ cast:
 - M. Lindsay Woolsey: Taylor Smith
 - Ito: Jocelyn Geronimo
 - Dwight Babcock: David Sacks
-- Junior Babcock: Ron Shreve
-- Stage Manager: Ron Shreve
+- Stage Manager / Junior Babcock: Ron Shreve
 - Uncle Jeff: Blake Michael Osner
 - Sally Cato: Kailey Anderson
 - Patrick Dennis, age 19-29: Daniel Austin
