@@ -22,16 +22,16 @@ cast:
 - Kathryn Kuhn
 - Kate McManus
 ---
-[*No Exit*](/productions/2023-no-exit/), an adaptation of Jean-Paul Sartre's *Huis clos,* by [Lumen Repertory Theatre](/theatres/lumen-repertory-theatre/), is a disconcerting mystery box that traps you in its intrigue. This remarkable performance beckons you to delve into the human mind's darkest corners as three newly departed souls are abruptly gathered in a solitary room.
+[*No Exit*](/productions/2023-no-exit/), an adaptation of Jean-Paul Sartre's *Huis clos,* by [[theatre:Lumen Repertory Theatre]], is a disconcerting mystery box that traps you in its intrigue. This remarkable performance beckons you to delve into the human mind's darkest corners as three newly departed souls are abruptly gathered in a solitary room.
 <!--more-->
 
 The expertly designed and built stage is a small, disorienting, askew room that pulls you into its depths, with odd and seemingly uncomfortable furniture, while an unexpected digital screen on a window introduces a playful juxtaposition.
 
-Josh Andrews' Valet opens the show on a high note, infusing the stage with a highly animated and "spirited" performance that sets an energetic tone. He balances comedy and mystery, making you question if this is really going to be a depiction of hell or just a fun diversion. His performance gives the initial illusion of a lively romp, cleverly setting the stage for the incoming conflict.
+[[person:Josh Andrews]]' Valet opens the show on a high note, infusing the stage with a highly animated and "spirited" performance that sets an energetic tone. He balances comedy and mystery, making you question if this is really going to be a depiction of hell or just a fun diversion. His performance gives the initial illusion of a lively romp, cleverly setting the stage for the incoming conflict.
 
-However, the illusion fades quickly with the arrival of Stefan Renaud, impeccably played by Jeff Drushal. Drushal masterfully conveys Renaud's confusion and discomfort, especially when left alone in the disorienting space. His despair seems to seep into the room, turning the atmosphere eerily claustrophobic.
+However, the illusion fades quickly with the arrival of Stefan Renaud, impeccably played by [[person:Jeff Drushal]]. Drushal masterfully conveys Renaud's confusion and discomfort, especially when left alone in the disorienting space. His despair seems to seep into the room, turning the atmosphere eerily claustrophobic.
 
-Adding to the tumult, Kathryn Kuhn’s Inez slinks onto the stage, a compelling mix of strength and villainy. Just as tensions peak between her and Renaud, Kate McManus’s Estelle enters, a picture of uptight elegance with a balletic grace that hides deeper turbulence.
+Adding to the tumult, [[person:Kathryn Kuhn]]’s Inez slinks onto the stage, a compelling mix of strength and villainy. Just as tensions peak between her and Renaud, [[person:Kate McManus]]’ Estelle enters, a picture of uptight elegance with a balletic grace that hides deeper turbulence.
 
 {{< figure src="/media/photos/2023_No_Exit_3.webp" alt="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" caption="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" attr="Ray Hollister" >}}
 
@@ -49,6 +49,6 @@ Kathryn Kuhn, in the role of Inez, presents a captivating mix of strength and po
 
 Kate McManus as Estelle presents an intriguing performance, marked by an elegant façade. Beneath the polished exterior, she conveys a truly indifferent inhumanity, not born out of apathy, but stemming from a deep-rooted self-centeredness. McManus skillfully captures this complex character, maintaining Estelle's outward poise while subtly exposing the character's core incapability of genuine empathy.
 
-Adapted and directed by Brian Niece, *No Exit* takes you on a twisted journey through a philosophical hellscape. Stellar performances by the ensemble make for a performance you won’t easily forget. An absolute must-see.
+Adapted and directed by [[person:Brian Niece]], *No Exit* takes you on a twisted journey through a philosophical hellscape. Stellar performances by the ensemble make for a performance you won’t easily forget. An absolute must-see.
 
-Beyond the typical offerings of community theatre in Jacksonville, Lumen Repertory Theatre sets itself apart with a commitment to professional excellence. *No Exit* is a testament to this ethos, featuring a [cast and crew](/productions/2023-no-exit/) that includes Equity union members. The caliber of their performances brings a level of complexity and depth to the characters that is truly mesmerizing. This dedication to professionalism ensures that audiences in Northeast Florida are treated to an elevated theatrical experience that transcends the conventional, making for a memorable evening of live theatre.
+Beyond the typical offerings of community theatre in Jacksonville, [[theatre:Lumen Repertory Theatre]] sets itself apart with a commitment to professional excellence. *No Exit* is a testament to this ethos, featuring a [cast and crew](/productions/2023-no-exit/) that includes Equity union members. The caliber of their performances brings a level of complexity and depth to the characters that is truly mesmerizing. This dedication to professionalism ensures that audiences in Northeast Florida are treated to an elevated theatrical experience that transcends the conventional, making for a memorable evening of live theatre.
