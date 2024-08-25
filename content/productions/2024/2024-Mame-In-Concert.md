@@ -68,14 +68,61 @@ cast:
   - Taylor Smith
   - Gary Lee Webber
 crew:
-- Director: Jean Tait
-- Music Director: Joey Chancey
-- Choral Director: Jav Ivey
-- Producer: 
-  - Sarah Boone
-  - Numa Saisselin
+  - Producer: 
+    - Sarah Boone
+    - Numa Saisselin
+  - Director: Jean Tait
+  - Music Director: Joey Chancey
+  - Choral Director: Jav Ivey
+  - Production Manager: Saul Lucio
+  - Stage Manager Florida Theatre: Eric Stanfield
+  - Stage Manager Theatre Jacksonville: Ron Shreve
+  - Audio Engineer: Jeremy Moore
+  - Lighting Operator: Nick Ciccarello
+  - Stagehand: Steven LaSalla
+  - Costume Support: 
+    - Joy Smith
+    - Curtis Williams
+    - Lauren Paragallo
+  - Wig Design: 
+    - Brandi Ford
 orchestra:
-- Conductor: Joey Chancey
+  - Conductor: Joey Chancey
+  - Piano: Michael Cuschieri
+  - Drums/ Percussion: Cameron Macintosh
+  - Harp: Isabelle Scott
+  - Guitar/Banjo: Jon Oxford
+  - Strings:
+  - Concert Master: Stewart Kitts
+  - Violin: 
+    - Sandy Kitts
+    - Patrice Evans
+    - Tania Moldovan
+    - Luisamar Navarro
+    - Liz Kitts McBryde
+  - Viola: 
+    - Susan Pardue
+    - Joe Henderson
+  - Cello:
+    - David Calhoun
+    - Alex Downs
+  - Bass: Isaac Mingus
+  - Woodwinds:
+  - Piccolo, Flute, Clarinet, Alto Saxophone: Don Zentz
+  - Flute, Clarinet, Bass Clarinet, Alto Saxophone: Jack Keeling
+  - Oboe, English Horn, Clarinet, Tenor Saxophone: Tom Ellison
+  - Clarinet, Tenor Saxophone: Rob Chapman
+  - Clarinet, Baritone Saxophone: Matt Vance
+  - Brass:
+  - Trumpet: 
+    - Craig Turley
+    - Danny Echazabal
+    - Aaron Witek
+  - Trombone:
+    - Casey Maday
+    - Chauncey Mays
+  - Bass Trombone: Chris Lundquist
+
 # Mame: In Concert
 Genres:
   - Musical
@@ -84,6 +131,7 @@ Genres:
 Description: "Experience the vivacious spirit of *Mame* in a special concert production, celebrating the musical's timeless songs and the irrepressible charm of its titular character."
 Press:
 - "Linda Purl Will Star in Florida Mame Concerts | Playbill": https://playbill.com/article/linda-purl-will-star-in-florida-mame-concerts
+- "Florida Theatre & Theatre Jacksonville Present MAME: THE BROADWAY MUSICAL IN CONCERT Starring Linda Purl | Broadway World": https://www.broadwayworld.com/jacksonville/article/Florida-Theatre-Theatre-Jacksonville-Present-MAME-THE-BROADWAY-MUSICAL-IN-CONCERT-Starring-Linda-Purl-20240318
 ---
 
 ### Musical numbers
