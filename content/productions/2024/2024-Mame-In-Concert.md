@@ -25,7 +25,7 @@ show_details:
 cast:
 - Mame Dennis: Linda Purl
 - Vera Charles: Dorothy Bishop
-- Beauregard Jackson Picket Burnside: Gary Webber
+- Beauregard Jackson Picket Burnside: Gary Lee Webber
 - Agnes Gooch: Sarah Boone
 - Mother Burnside: Lee Hamby
 - Patrick Dennis, age 10: Hudson Iracki
@@ -35,7 +35,7 @@ cast:
 - Dwight Babcock: David Sacks
 - Junior Babcock: Ron Shreve
 - Stage Manager: Ron Shreve
-- Uncle Jeff: Blake Osner
+- Uncle Jeff: Blake Michael Osner
 - Sally Cato: Kailey Anderson
 - Patrick Dennis, age 19-29: Daniel Austin
 - Mrs. Upson: Gloria Ware
@@ -44,28 +44,36 @@ cast:
 - Pegeen Ryan: Morgan Perry
 - Madame Branislowski: Jennifer Medure
 - Cousin Fan: Jennifer Medure
+- Peter Dennis: Hudson Iracki
 - Ensemble: 
   - Kailey Anderson 
   - Daniel Austin
-  - Cathryn Finke
-  - Ashley Gibson
+  - Aly Blakewell
+  - Cathryn Maxwell Finke
   - Shatondra Gregory
   - Jeff Grove
   - Lee Hamby
+  - Deborrah Hoag
+  - Emily Johns
   - Maria Masters
   - Jennifer Medure
   - Libby Montgomery
-  - Blake Osner
+  - Blake Michael Osner
   - Morgan Perry
   - C. Michael Porter
+  - Chris Robertson
   - Rudolph Rogers
   - David Sacks
-  - Michael Skaff
   - Anthony Smith
   - Taylor Smith
-  - Gary Webber
+  - Gary Lee Webber
 crew:
 - Director: Jean Tait
+- Music Director: Joey Chancey
+- Choral Director: Jav Ivey
+- Producer: 
+  - Sarah Boone
+  - Numa Saisselin
 orchestra:
 - Conductor: Joey Chancey
 # Mame: In Concert
@@ -74,7 +82,38 @@ Genres:
   - Concert
   - Family Drama
 Description: "Experience the vivacious spirit of *Mame* in a special concert production, celebrating the musical's timeless songs and the irrepressible charm of its titular character."
+Press:
+- "Linda Purl Will Star in Florida Mame Concerts | Playbill": https://playbill.com/article/linda-purl-will-star-in-florida-mame-concerts
 ---
+
+### Musical numbers
+{{< columns >}} 
+#### Act I
+- Overture − Orchestra
+- "St. Bridget" − Young Patrick and Agnes
+- "It's Today" − Mame, Vera, and Company
+- "Open a New Window" − Mame, Young Patrick, and Company
+- "The Moon Song" (The Man in the Moon) − Vera, Mame, and Company
+- "My Best Girl" − Young Patrick and Mame
+- "[[w:We Need a Little Christmas]]" − Mame, Young Patrick, Agnes, Ito and Beauregard
+- "The Fox Hunt" − Uncle Jeff, Young Patrick, Cousin Fan, and Mother Burnside
+- "Mame" − Beauregard and Company
+- Finale Act I ("My Best Girl" and "Mame") − Young Patrick and Company
+<--->
+#### Act II
+- Entr'acte − Orchestra
+- "Opening Act Two" (The Letter) − Young Patrick and Older Patrick
+- "My Best Girl (reprise)" − Older Patrick
+- "Bosom Buddies" − Mame and Vera
+- "Gooch's Song" − Agnes Gooch
+- "That's How Young I Feel" − Mame, Junior, and Company
+- "If He Walked Into My Life" − Mame
+- "It's Today" (reprise) − Mame and Company
+- "My Best Girl" (reprise) − Older Patrick
+- Finale Act II ("Open A New Window") − All
+- Curtain Calls ("It's Today", "We Need a Little Christmas" and "Mame") − All
+{{< /columns >}}
+
 *Mame In Concert* brings the beloved musical to life in a unique format, focusing on its iconic score and the larger-than-life character of Mame Dennis. Set against the backdrop of the Roaring Twenties and the Great Depression, Mame's adventurous spirit never wanes as she faces life's ups and downs with zest and zeal. This concert production highlights the musical's most memorable moments and songs like "Bosom Buddies" and "If He Walked into My Life," performed by a dynamic cast accompanied by a live orchestra. 
 
 Florida Theatre and Theatre Jacksonville present an "in concert" production of the musical *Mame*. Set in mid-20th century New York City, Mame Dennis is an eccentric bohemian with wealthy friends whose fabulous life is interrupted by the arrival of the young son of her late brother. The plot covers their adventures from the beginning of the Depression through WWII. With a book by Jerome Lawrence and Robert Edwin Lee, the music and lyrics by Jerry Herman include "We Need a Little Christmas," "Bosom Buddies," "If He Walked Into My Life," and one of the best-known title songs of the American Musical Theatre, "Mame."
