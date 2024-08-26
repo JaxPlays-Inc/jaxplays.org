@@ -12,6 +12,6 @@ Socials:
   Instagram: 
   LinkedIn: 
   IBDB: 
-  IMDb:
+  IMDb: nm10761210
   Website: 
 ---

@@ -27,7 +27,11 @@ Tickets: https://ci.ovationtix.com/34919
 show_details: 
 - Playwright: Alfred Uhry
 cast:
+- Hoke Coleburn: Eugene Lindsey
+- Daisy Werthan: Jen Mercer
+- Boolie Werthan: Alec Hadden
 crew:
+- Director: Lindsay Curry
 orchestra:
 Genres:
   - Play

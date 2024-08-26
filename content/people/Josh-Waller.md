@@ -12,7 +12,7 @@ Socials:
   Instagram: 
   LinkedIn: 
   IBDB: 
-  IMDb:
+  IMDb: nm10761206
   Website: 
 Press:
 - "Josh Waller: Interview with A Leading Male. | MetroJacksonville": https://web.archive.org/web/20091016013655/http://www.metrojacksonville.com/article/2009-oct-josh-waller-interview-with-a-leading-male
