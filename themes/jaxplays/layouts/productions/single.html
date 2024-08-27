@@ -191,7 +191,8 @@
           <!-- Use the captured page context -->
           {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
           {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-          <ul class="map_links list mv1 pl0">
+          <a href="#showHideMap" class="db dn-ns mv3">Show Maps</a>
+          <ul class="venuemaps db-ns dn map_links list mv1 pl0">
             <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
             <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
             <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
@@ -199,7 +200,7 @@
           {{ end }}
         </div>
       </div>
-        <div class="w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
+      <div class="venuemaps db-ns dn w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
           <!-- Venue Map Section -->
           <div class="w-100 flex flex-column items-center justify-start">
             {{ if and $venuePage.Params.Latitude $venuePage.Params.Longitude }}
@@ -475,4 +476,31 @@
       </div>  
   </article>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Select all "Show Map" links
+    const mapLinks = document.querySelectorAll('a[href="#showHideMap"]');
+    const venueMaps = document.querySelectorAll('.venuemaps'); // Select all venue maps
+
+    mapLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            // Check the current state by the text of the link
+            const isShowing = this.textContent.trim() === 'Hide Maps';
+
+            if (!isShowing) {
+                // Show all maps and change all links to 'Hide Map'
+                venueMaps.forEach(map => map.style.display = 'block');
+                mapLinks.forEach(l => l.textContent = 'Hide Maps');
+            } else {
+                // Hide all maps and change all links to 'Show Map'
+                venueMaps.forEach(map => map.style.display = 'none');
+                mapLinks.forEach(l => l.textContent = 'Show Maps');
+            }
+        });
+    });
+});
+
+</script>
 {{ end }}
+
