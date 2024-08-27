@@ -16,6 +16,27 @@ Website:
 Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
 show_details: 
 cast:
+  - Dr. Henry Jekyll/Edward Hyde: Cole Marshall
+  - Emma Carew: Julia Blasi
+  - Lucy Harris: Ilana Marshall
+  - John Utterson: Chris Robertson
+  - Simon Stride: Marcos Miranda
+  - Sir Danvers Carew: Rick Blasi
+  - Lady Beaconsfield: Helena Helms
+  - Bishop of Basingstoke: Evan Gould
+  - Sir Archibald Proops: Anvar Gashimov
+  - General Glossop: Terry Glover
+  - Nellie/Ensemble: Christine Phillips
+  - Poole/Ensemble: Xander Lawless
+  - Spider/Ensemble: Brandon Hines
+  - Bisset/Ensemble: Theresa Pazanowski
+  - Ensemble:
+    - Mya Smoak
+    - Frankie Rady
+    - Anna Iglesias
+    - Rose Barber
+    - Jessica Ramirez
+    - Sarah Blasi
 crew:
 orchestra:
 Genres:

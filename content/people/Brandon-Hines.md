@@ -1,6 +1,7 @@
 ---
-title: Bradley Akers
-featured_image: Bradley-Akers.webp
+title: Brandon Hines
+date: 2024-08-27T12:21:21-04:00
+featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -13,5 +14,4 @@ Socials:
   IBDB: 
   IMDb:
   Website: 
-date: 2024-08-27T12:27:22-04:00
 ---

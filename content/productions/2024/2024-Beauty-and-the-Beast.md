@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: 
+Website: https://artistconnectiontheatre.org/season-2024-2025/
+Tickets: https://ci.ovationtix.com/34989/production/1206867
 show_details: 
 cast:
   - Belle: Melissa Fletcher
