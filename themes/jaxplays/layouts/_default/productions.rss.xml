@@ -44,6 +44,8 @@
     {{- range $pages }}
     {{- if and .Params.opening_date .Params.closing_date }}  {{/* Check both opening_date and closing_date exist */}}
         {{- $featuredImage := .Params.featured_image }}
+        {{- $opening_date := dateFormat "Monday, January 2" .Params.opening_date }}
+        {{- $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
         {{- $description := .Summary }}
         {{- $content := .Content }}
         {{- if not $featuredImage }}
@@ -82,12 +84,7 @@
           <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
           <content>
           {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
-          {{ with .Params.opening_date }}
-            {{ dateFormat "Monday, January 2" . }}
-          {{ end }}
-          {{ with .Params.closing_date }}
-            — {{ dateFormat "Monday, January 2" . }}
-          {{ end }}
+          {{ $opening_date }} — {{ $closing_date }}<br/>
           <br/>
           {{- $content | transform.XMLEscape | safeHTML -}}
           {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
