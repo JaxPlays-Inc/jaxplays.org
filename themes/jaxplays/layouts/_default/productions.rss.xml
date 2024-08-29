@@ -80,11 +80,12 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
       <content>
+      {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
        {{- $content | transform.XMLEscape | safeHTML -}}
        {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
        </content>
       {{ if $featuredImage }}
-      <enclosure url="/media/posters/{{ $featuredImage }}" type="image/jpeg"/>
+      <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
       {{ end }}
     </item>
     {{- end }}
