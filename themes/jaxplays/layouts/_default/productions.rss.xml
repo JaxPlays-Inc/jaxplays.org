@@ -42,53 +42,55 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-    {{- $featuredImage := .Params.featured_image }}
-    {{- $description := .Summary }}
-    {{- $content := .Content }}
-    {{- if not $featuredImage }}
-      {{- range where .Site.Pages "Type" "shows" }}
-        {{- if eq .Title $.Title }}
-          {{- $featuredImage = .Params.featured_image }}
+    {{- if and .Params.opening_date .Params.closing_date }}  {{/* Check both opening_date and closing_date exist */}}
+        {{- $featuredImage := .Params.featured_image }}
+        {{- $description := .Summary }}
+        {{- $content := .Content }}
+        {{- if not $featuredImage }}
+          {{- range where .Site.Pages "Type" "shows" }}
+            {{- if eq .Title $.Title }}
+              {{- $featuredImage = .Params.featured_image }}
+            {{- end }}
+          {{- end }}
         {{- end }}
-      {{- end }}
-    {{- end }}
-    {{- if eq $description "" }}
-      {{- range where .Site.Pages "Type" "shows" }}
-        {{- if eq .Title $.Title }}
-          {{- $description = .Summary }}
+        {{- if eq $description "" }}
+          {{- range where .Site.Pages "Type" "shows" }}
+            {{- if eq .Title $.Title }}
+              {{- $description = .Summary }}
+            {{- end }}
+          {{- end }}
         {{- end }}
-      {{- end }}
-    {{- end }}
-    {{- if eq $content "" }}
-      {{- range where .Site.Pages "Type" "shows" }}
-        {{- if eq .Title $.Title }}
-          {{- $content = .Content }}
+        {{- if eq $content "" }}
+          {{- range where .Site.Pages "Type" "shows" }}
+            {{- if eq .Title $.Title }}
+              {{- $content = .Content }}
+            {{- end }}
+          {{- end }}
         {{- end }}
-      {{- end }}
+        <item>
+          <title>{{ .Title }}</title>
+          <link>{{ .Permalink }}</link>
+          <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+          {{- if or $authorEmail $authorName }}
+          <author>
+            {{- if $authorEmail }}{{ $authorEmail }}{{ end }}
+            {{- if and $authorEmail $authorName }} ({{ $authorName }}){{ end }}
+            {{- if and (not $authorEmail) $authorName }}{{ $authorName }}{{ end }}
+          </author>
+          {{- end }}
+          <guid>{{ .Permalink }}</guid>
+          <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
+          <content>
+          {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
+          {{ with .Params.opening_date }}{{ . }}{{ end }}{{ with .Params.closing_date }} — {{ . }}<br/>{{ end }}
+          {{- $content | transform.XMLEscape | safeHTML -}}
+          {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
+          </content>
+          {{ if $featuredImage }}
+          <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
+          {{ end }}
+        </item>
     {{- end }}
-    <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{- if or $authorEmail $authorName }}
-      <author>
-        {{- if $authorEmail }}{{ $authorEmail }}{{ end }}
-        {{- if and $authorEmail $authorName }} ({{ $authorName }}){{ end }}
-        {{- if and (not $authorEmail) $authorName }}{{ $authorName }}{{ end }}
-      </author>
-      {{- end }}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
-      <content>
-      {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
-      {{ with .Params.opening_date }}{{ . }}{{ end }}{{ with .Params.closing_date }} — {{ . }}<br/>{{ end }}
-       {{- $content | transform.XMLEscape | safeHTML -}}
-       {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
-       </content>
-      {{ if $featuredImage }}
-      <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
-      {{ end }}
-    </item>
     {{- end }}
   </channel>
 </rss>
