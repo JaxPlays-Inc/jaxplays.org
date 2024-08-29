@@ -43,10 +43,26 @@
     {{- end }}
     {{- range $pages }}
     {{- $featuredImage := .Params.featured_image }}
+    {{- $description := .Summary }}
+    {{- $content := .Content }}
     {{- if not $featuredImage }}
       {{- range where .Site.Pages "Type" "shows" }}
         {{- if eq .Title $.Title }}
           {{- $featuredImage = .Params.featured_image }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- if eq $description "" }}
+      {{- range where .Site.Pages "Type" "shows" }}
+        {{- if eq .Title $.Title }}
+          {{- $description = .Summary }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- if eq $content "" }}
+      {{- range where .Site.Pages "Type" "shows" }}
+        {{- if eq .Title $.Title }}
+          {{- $content = .Content }}
         {{- end }}
       {{- end }}
     {{- end }}
@@ -62,13 +78,13 @@
       </author>
       {{- end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{- partial "content-wikilinks" .Summary | transform.XMLEscape | safeHTML -}}</description>
+      <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
       <content>
-       {{- partial "content-wikilinks" .Content | transform.XMLEscape | safeHTML -}}
+       {{- $content | transform.XMLEscape | safeHTML -}}
        {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
        </content>
       {{ if $featuredImage }}
-      <enclosure url="/media/posters/{{ $featuredImage | absURL }}" type="image/jpeg"/>
+      <enclosure url="/media/posters/{{ $featuredImage }}" type="image/jpeg"/>
       {{ end }}
     </item>
     {{- end }}
