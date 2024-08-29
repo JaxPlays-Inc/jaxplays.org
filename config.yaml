@@ -16,8 +16,8 @@ permalinks:
   productions/past: "/productions/past/:filename/"
 
 params:
-  description: JaxPlays is your go-to source for all live theatre productions in Jacksonville, Florida and all of Northeast Florida and Southeast Georgia.
-  tagline: Live Theatre, Plays and Musicals in Jacksonville, Florida and all of Northeast Florida and Southeast Georgia
+  description: Your go-to source for all live theatre, plays and musicals in Jacksonville, Florida and all of Northeast Florida and Southeast Georgia.
+  tagline: Live Theatre in Northeast FL & Southeast GA
   recent_posts_number: 6
   recent_copy: Latest Reviews & Theatre News
   mainSections: 
