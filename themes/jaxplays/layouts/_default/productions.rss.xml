@@ -66,11 +66,9 @@
       <content>
        {{- partial "content-wikilinks" .Content | transform.XMLEscape | safeHTML -}}
        {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
-       {{ $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title | transform.XMLEscape | safeHTML }}
-       {{ $reviewText }}
        </content>
       {{ if $featuredImage }}
-      <enclosure url="{{ $featuredImage | absURL }}" type="image/jpeg"/>
+      <enclosure url="/media/posters/{{ $featuredImage | absURL }}" type="image/jpeg"/>
       {{ end }}
     </item>
     {{- end }}
