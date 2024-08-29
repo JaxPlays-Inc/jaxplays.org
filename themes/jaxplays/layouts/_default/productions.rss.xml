@@ -1,3 +1,4 @@
+{{- $authorName := .Params.author }}
 {{- /* Deprecate site.Author.email in favor of site.Params.author.email */}}
 {{- $authorEmail := "" }}
 {{- with site.Params.author }}
@@ -41,7 +42,14 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-    {{- $authorName := .Params.author }}
+    {{- $featuredImage := .Params.featured_image }}
+    {{- if not $featuredImage }}
+      {{- range where .Site.Pages "Type" "shows" }}
+        {{- if eq .Title $.Title }}
+          {{- $featuredImage = .Params.featured_image }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -58,9 +66,11 @@
       <content>
        {{- partial "content-wikilinks" .Content | transform.XMLEscape | safeHTML -}}
        {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
+       {{ $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title | transform.XMLEscape | safeHTML }}
+       {{ $reviewText }}
        </content>
-      {{ with .Params.featured_image }}
-      <enclosure url="{{ . | absURL }}" type="image/jpeg"/>
+      {{ if $featuredImage }}
+      <enclosure url="{{ $featuredImage | absURL }}" type="image/jpeg"/>
       {{ end }}
     </item>
     {{- end }}
