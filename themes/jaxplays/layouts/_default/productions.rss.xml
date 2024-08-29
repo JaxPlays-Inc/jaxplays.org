@@ -81,6 +81,7 @@
       <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
       <content>
       {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
+      {{ with .Params.opening_date }}{{ . }}{{ end }}{{ with .Params.closing_date }} — {{ . }}<br/>{{ end }}
        {{- $content | transform.XMLEscape | safeHTML -}}
        {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
        </content>
