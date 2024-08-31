@@ -7,10 +7,10 @@
       {{- $authorEmail = . }}
     {{- end }}
   {{- end }}
-{{- else }}
-  {{- with site.Author.email }}
-    {{- $authorEmail = . }}
-    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
+  {{- else }}
+    {{- with site.Author.email }}
+      {{- $authorEmail = . }}
+      {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
   {{- end }}
 {{- end }}
 
@@ -18,13 +18,13 @@
 {{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
 {{- $pages := slice }}
 {{- if or $.IsHome $.IsSection }}
-{{- $pages = $pctx.RegularPages }}
-{{- else }}
-{{- $pages = $pctx.Pages }}
+  {{- $pages = $pctx.RegularPages }}
+  {{- else }}
+  {{- $pages = $pctx.Pages }}
 {{- end }}
 {{- $limit := .Site.Config.Services.RSS.Limit }}
 {{- if ge $limit 1 }}
-{{- $pages = $pages | first $limit }}
+  {{- $pages = $pages | first $limit }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -33,66 +33,48 @@
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo</generator>
-    <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
-    <managingEditor>{{.}}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
-    <webMaster>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with .Site.Copyright }}
-    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <language>{{ site.Language.LanguageCode }}</language>
+    {{ with $authorEmail }}
+    <managingEditor>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>
+    <webMaster>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</webMaster>
+    {{ end }}
+    {{ if not .Date.IsZero }}
+    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ end }}
     {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
+
+    {{- $currentDate := now }}
+    {{- $nextTuesday := $currentDate.AddDate 0 0 (int (sub 2 $currentDate.Weekday)) }}
     {{- range $pages }}
-    {{- if and .Params.opening_date .Params.closing_date }}  {{/* Check both opening_date and closing_date exist */}}
-        {{- $featuredImage := .Params.featured_image }}
-        {{- $opening_date := dateFormat "Monday, January 2" .Params.opening_date }}
-        {{- $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
-        {{- $description := .Summary }}
-        {{- $content := .Content }}
-        {{- if not $featuredImage }}
-          {{- range where .Site.Pages "Type" "shows" }}
-            {{- if eq .Title $.Title }}
-              {{- $featuredImage = .Params.featured_image }}
-            {{- end }}
-          {{- end }}
+    {{- if and .Params.opening_date .Params.closing_date }}
+        {{- $opening_date := time .Params.opening_date }}
+        {{- $closing_date := time .Params.closing_date }}
+        {{- if and (le $opening_date $nextTuesday) (ge $closing_date $currentDate) }}
+            {{- $description := .Summary | default (index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0).Summary }}
+            {{- $content := .Content | default (index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0).Content }}
+            {{- $featuredImage := .Params.featured_image | default (index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0).Params.featured_image }}
+            <item>
+                <title>{{ .Title }}</title>
+                <link>{{ .Permalink }}</link>
+                <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+                {{- if or $authorEmail $authorName }}
+                <author>{{ if $authorEmail }}{{ $authorEmail }}{{ if $authorName }} ({{ $authorName }}){{ end }}{{ else if $authorName }}{{ $authorName }}{{ end }}</author>
+                {{- end }}
+                <guid>{{ .Permalink }}</guid>
+                <description>{{ $description | html }}</description>
+                <content>
+                    {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
+                    {{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}<br/>
+                     {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
+                    {{ partial "production_details_for_review.html" . | html }}
+                </content>
+                {{ if $featuredImage }}
+                <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
+                {{ end }}
+            </item>
         {{- end }}
-        {{- if eq $description "" }}
-          {{- range where .Site.Pages "Type" "shows" }}
-            {{- if eq .Title $.Title }}
-              {{- $description = .Summary }}
-            {{- end }}
-          {{- end }}
-        {{- end }}
-        {{- if eq $content "" }}
-          {{- range where .Site.Pages "Type" "shows" }}
-            {{- if eq .Title $.Title }}
-              {{- $content = .Content }}
-            {{- end }}
-          {{- end }}
-        {{- end }}
-        <item>
-          <title>{{ .Title }}</title>
-          <link>{{ .Permalink }}</link>
-          <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-          {{- if or $authorEmail $authorName }}
-          <author>
-            {{- if $authorEmail }}{{ $authorEmail }}{{ end }}
-            {{- if and $authorEmail $authorName }} ({{ $authorName }}){{ end }}
-            {{- if and (not $authorEmail) $authorName }}{{ $authorName }}{{ end }}
-          </author>
-          {{- end }}
-          <guid>{{ .Permalink }}</guid>
-          <description>{{- $description | transform.XMLEscape | safeHTML -}}</description>
-          <content>
-          {{ with .Params.theatre }}{{ . }}<br/>{{ end }}
-          {{ $opening_date }} — {{ $closing_date }}<br/>
-          <br/>
-          {{- $content | transform.XMLEscape | safeHTML -}}
-          {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
-          </content>
-          {{ if $featuredImage }}
-          <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
-          {{ end }}
-        </item>
     {{- end }}
     {{- end }}
   </channel>
