@@ -31,7 +31,7 @@
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <description>Productions on stage and opening this week {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo</generator>
     <language>{{ site.Language.LanguageCode }}</language>
     {{ with $authorEmail }}
@@ -63,10 +63,11 @@
                 <author>{{ if $authorEmail }}{{ $authorEmail }}{{ if $authorName }} ({{ $authorName }}){{ end }}{{ else if $authorName }}{{ $authorName }}{{ end }}</author>
                 {{- end }}
                 <guid>{{ .Permalink }}</guid>
-                <description>{{ $description | html }}</description>
+                <description>
+                  {{- with .Params.theatre }}{{ "<h2>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h2>" | transform.XMLEscape | safeHTML }}{{ end }}
+                  {{ "<h3>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h3>" | transform.XMLEscape | safeHTML }}
+                {{ $description | html }}</description>
                 <content>
-                    {{- with .Params.theatre }}{{ "<p>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</p>" | transform.XMLEscape | safeHTML }}{{ end }}
-                    {{ "<h3>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h3>" | transform.XMLEscape | safeHTML }}
                      {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
                 </content>
                 {{ if $featuredImage }}
