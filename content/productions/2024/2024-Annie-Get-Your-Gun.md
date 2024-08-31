@@ -18,7 +18,7 @@ showtimes:
 - 2024-09-06 20:00:00
 - 2024-09-07 20:00:00
 - 2024-09-08 14:00:00
-featured_image: 
+featured_image: 2024-Annie-Get-Your-Gun.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
