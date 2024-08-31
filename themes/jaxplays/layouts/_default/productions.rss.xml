@@ -65,8 +65,8 @@
                 <guid>{{ .Permalink }}</guid>
                 <description>{{ $description | html }}</description>
                 <content>
-                    {{- with .Params.theatre }}{{ transform.XMLEscape "<h2>" }}{{ . }}{{ transform.XMLEscape "</h2>" }}{{ end }}
-                    {{ transform.XMLEscape "<h3>" }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ transform.XMLEscape "</h3>" }}
+                    {{- with .Params.theatre }}{{ "<h2>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h2>" | transform.XMLEscape | safeHTML }}{{ end }}
+                    {{ "<h3>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h3>" | transform.XMLEscape | safeHTML }}
                      {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
                 </content>
                 {{ if $featuredImage }}
