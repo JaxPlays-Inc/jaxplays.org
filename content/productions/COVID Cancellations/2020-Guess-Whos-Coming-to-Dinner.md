@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Guess Who's Coming to Dinner
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-04-17
+closing_date: 2020-05-03
 Genres: 
 - Play
 Theatre: Theatre Jacksonville

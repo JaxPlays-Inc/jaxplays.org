@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Parade (musical)
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-07-30
+closing_date: 2020-08-30
 category: musical
 Theatre: Limelight Theatre
 show_details:

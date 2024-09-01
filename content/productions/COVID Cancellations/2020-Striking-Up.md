@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Striking Up
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-03-20
+closing_date: 2020-04-26
 Genres: 
 - Play
 Theatre: Phase Eight Theater Company

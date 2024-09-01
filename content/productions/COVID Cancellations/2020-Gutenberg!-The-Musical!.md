@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Gutenberg! The Musical!
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-04-17
+closing_date: 2020-05-03
 category: musical
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/gutenberg-the-musical

@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Spring Awakening (musical)
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-04-24
+closing_date: 2020-05-16
 category: musical
 Theatre: Players by the Sea
 Website: https://www.playersbythesea.org/spring-awakening

@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Cinderella
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-06-11
+closing_date: 2020-07-26
 category: musical
 Theatre: Alhambra Theatre & Dining
 show_details:

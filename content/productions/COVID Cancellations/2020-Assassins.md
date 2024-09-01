@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Assassins
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-07-31
+closing_date: 2020-08-16
 category: musical
 Theatre: The 5 & Dime
 show_details:

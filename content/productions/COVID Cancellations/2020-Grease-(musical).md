@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Grease (musical)
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-04-30
+closing_date: 2020-06-07
 category: musical
 Theatre: Alhambra Theatre & Dining
 Website: https://www.alhambrajax.com/show/grease/

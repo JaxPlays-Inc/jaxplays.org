@@ -4,7 +4,8 @@ cancelled: COVID-19
 layout: productions
 title: Broadway Bucket List
 date: 2023-09-08T00:00:00
-opening_date: 2020
+opening_date: 2020-05-15
+closing_date: 2020-05-17
 category: musical
 Theatre: The 5 & Dime
 Website: https://www.the5anddime.org/broadway-bucket-list

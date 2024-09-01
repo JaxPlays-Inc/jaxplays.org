@@ -2,9 +2,8 @@
 title: Innocent & Annabell
 date: 2023-09-08T00:00:00
 opening_date: 1921-11-08
-closing_date:
+closing_date: 
 layout: productions
-
 playbill:
 Theatre: Theatre Jacksonville
 cast:
