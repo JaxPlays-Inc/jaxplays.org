@@ -7,10 +7,10 @@
       {{- $authorEmail = . }}
     {{- end }}
   {{- end }}
-  {{- else }}
-    {{- with site.Author.email }}
-      {{- $authorEmail = . }}
-      {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
+{{- else }}
+  {{- with site.Author.email }}
+    {{- $authorEmail = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
   {{- end }}
 {{- end }}
 
@@ -19,12 +19,14 @@
 {{- $pages := slice }}
 {{- if or $.IsHome $.IsSection }}
   {{- $pages = $pctx.RegularPages }}
-  {{- else }}
+{{- else }}
   {{- $pages = $pctx.Pages }}
 {{- end }}
+{{- $filteredPages := where $pages "Params.opening_date" "ne" nil }}
+{{- $sortedPages := sort $filteredPages "Params.opening_date" "asc" }}
 {{- $limit := .Site.Config.Services.RSS.Limit }}
 {{- if ge $limit 1 }}
-  {{- $pages = $pages | first $limit }}
+  {{- $sortedPages = $sortedPages | first $limit }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -39,7 +41,7 @@
     <webMaster>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</webMaster>
     {{ end }}
     {{ if not .Date.IsZero }}
-    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <lastBuildDate>{{ (index $sortedPages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ end }}
     {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
@@ -47,7 +49,7 @@
 
     {{- $currentDate := now }}
     {{- $nextTuesday := $currentDate.AddDate 0 0 (int (sub 2 $currentDate.Weekday)) }}
-    {{- range $pages }}
+    {{- range $sortedPages }}
     {{- if and .Params.opening_date .Params.closing_date }}
         {{- $opening_date := time .Params.opening_date }}
         {{- $closing_date := time .Params.closing_date }}
