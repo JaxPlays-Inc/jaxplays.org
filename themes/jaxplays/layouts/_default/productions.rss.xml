@@ -64,8 +64,8 @@
                 {{- end }}
                 <guid>{{ .Permalink }}</guid>
                 <description>
-                  {{- with .Params.theatre }}{{ "<h3 style='text-align:left'>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h3>" | transform.XMLEscape | safeHTML }}{{ end }}
-                  {{ "<h4 style='text-align:left'>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h4>" | transform.XMLEscape | safeHTML }}
+                  {{- with .Params.theatre }}{{ "<h3 style='text-align:left;'>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h3>" | transform.XMLEscape | safeHTML }}{{ end }}
+                  {{ "<h4 style='text-align:left; line-height: 2;'>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h4>" | transform.XMLEscape | safeHTML }}
                 {{ $description | html }}</description>
                 <content>
                      {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
