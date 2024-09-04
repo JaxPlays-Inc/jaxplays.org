@@ -19,7 +19,7 @@ showtimes:
   - 2024-09-20 19:30:00
   - 2024-09-21 19:30:00
   - 2024-09-22 14:30:00
-featured_image: 
+featured_image: 2024-Cabaret-2.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
@@ -29,9 +29,16 @@ Website: https://ameliamusicalplayhouse.com/performances/cabaret/
 Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
+- Emcee: Joey Johnson
+- Sally Bowles: Samantha Anderson
+- Kit Kat girl Helga: Sarah Perkins
 crew:
- - Director: Carey Dresser
+- Director: Carey Dresser
+- Music Director: Solomon Johnson
+- Choreographer: Amelia Son
 orchestra:
 genres: 
-Description: 
+- Play
+Description: Testing
 ---
+testing
