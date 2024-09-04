@@ -37,8 +37,4 @@ crew:
 - Music Director: Solomon Johnson
 - Choreographer: Amelia Son
 orchestra:
-genres: 
-- Play
-Description: Testing
 ---
-testing
