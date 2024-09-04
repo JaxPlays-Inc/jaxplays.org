@@ -48,7 +48,9 @@
     {{- end }}
 
     {{- $currentDate := now }}
-    {{- $nextTuesday := $currentDate.AddDate 0 0 (int (sub 2 $currentDate.Weekday)) }}
+    {{- $daysUntilNextTuesday := mod (sub 9 (int $currentDate.Weekday)) 7 }}
+    {{- $nextTuesday := $currentDate.AddDate 0 0 (int $daysUntilNextTuesday) }}
+
     {{- range $sortedPages }}
     {{- if and .Params.opening_date .Params.closing_date }}
         {{- $opening_date := time .Params.opening_date }}
