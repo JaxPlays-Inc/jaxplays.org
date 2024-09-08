@@ -25,6 +25,13 @@ playbill:
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 cast:
+- SSgt. Froggy LeSueur: C. Michael Porter
+- Charlie Baker: Taylor Jackson
+- Betty Meeks: Kelley Norman
+- Rev. David Marshall Lee:  Daniel Locke
+- Catherine Simms: Lily Zawatsky
+- Owen Musser: Allen Morton
+- Ellard Simms: Joey Balliro
 crew:
 orchestra:
 ---
