@@ -1,6 +1,8 @@
 ---
 title: St. Marys Little Theatre
 layout: theatres
+aliases: 
+  - /theatres/st.-marys-little-theatre
 active: true
 featured_image: St_Marys_Little_Theatre.webp
 featured_image_attr:

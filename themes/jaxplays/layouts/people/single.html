@@ -45,6 +45,20 @@
       {{ with .Content }}
       <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
         <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+
+          {{/* Special feature section for deceased individuals */}}
+          {{ with $.Params.birth_info }}
+            {{ if .death_date }}
+              {{ $deathDate := time .death_date }} <!-- Parsing the date string into a Time object -->
+              <p><strong>In Memoriam</strong> <em class="ml2">
+                {{ if .birth_date }}
+                {{ $birthDate := time .birth_date }}
+                {{ dateFormat "January 2, 2006" $birthDate }} — 
+                {{ end }}
+                {{ dateFormat "January 2, 2006" $deathDate }}</em>
+            {{ end }}
+          {{ end }}
+
           {{ partial "content-wikilinks" . }}
         </div>
       </div>

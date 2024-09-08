@@ -9,7 +9,7 @@ featured_image_caption: Headshot of Bill Galarno
 birth_info:
   birth_name:
   birth_date: 1933-03-01
-  death_date: 202-02-16
+  death_date: 2020-02-16
   birth_place: 
 Socials:
   Facebook: 
