@@ -23,6 +23,83 @@ Website:
 Tickets: 
 show_details: 
 cast:
+  - Tevye:
+    - Mike Fields
+    - Andrew Moritz
+  - Golde:
+    - Mary Roesler
+    - Tricia Williams
+  - Tzeitel:
+    - Ansley Engle
+    - Maria Routel Ferguson
+  - Hodel:
+    - Ellie Shipe
+    - Ashlynn Amburgey
+  - Chava:
+    - Briana Logoinov
+    - Jocey Shrader
+  - Lazar:
+    - Rod Sanford
+    - Steve Amburgey
+  - Motel:
+    - Zach Schaeffer
+    - McKayle Calhoun
+  - Perchik:
+    - Leland Locke
+    - Carsten Wulburn
+  - Fyedka:
+    - James Comiskey
+    - Andrew Wulbern
+  - Rabbi:
+    - Brad Harder
+    - Steve Conrad
+  - Constable:
+    - Chris Castelli
+    - Corey Shrader
+  - Avram:
+    - DeAnna Kirkeby
+    - Roger Padgett
+  - Mendel:
+    - William Benoit
+  - Mordcha:
+    - Jake Askey
+    - Arik Hartman
+  - Yussel:
+    - Ivy Wurtz
+    - Melissa Shrader
+  - Nachum:
+    - Holly Sanford
+    - Kennedy Fulk
+  - Yente:
+    - Kathryne Allen
+    - Becky Dunn
+  - Fiddler:
+    - Brad Harder
+    - Calise Wheeler
+  - Sprintze:
+    - Piper Pieratt
+    - Summer Dunn
+  - Grandma:
+    - Carolyn Strait
+    - Colleen Hunter
+  - Bielke:
+    - Makenna Harder
+    - Mercy Dunn
+  - Shaindel:
+    - Theresa Buchannan
+    - Alyssa Cercere
+  - Fruma Sarah:
+    - Cindy Baker
+    - Kerry Hunter
+  - Villagers:
+    - Brady Sanford
+    - Charli Dunn
+    - Timothy Sanford
+    - Hadleigh Malone
+    - Abrielle Benoit
+    - McKinleigh Malone
+    - Amber Covey
+    - Calleigh Malone
 crew:
 orchestra:
 genres: 
