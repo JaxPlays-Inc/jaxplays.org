@@ -1,0 +1,66 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+<div class="flex-l mt2 mw8 center">
+  <article class="center cf pv5 ph3 ph4-ns mw8">
+    <header>
+      <h1 class="f3 f1-l f1-m mt0">
+        {{ .Title }}
+      </h1>
+    </header>
+    <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param " text_color" | default "mid-gray" }}">
+      {{ .Content }}
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="text" name="honeypot" style="display:none">
+        <input type="hidden" name="accessKey" value="28b2a1ae-4eab-49c8-b58c-e092466790d8">
+        <input type="hidden" name="subject" value="Corporate Sponsor Inquiry" />
+        <input type="hidden" name="replyTo" value="@">
+        <input type="hidden" name="redirectTo" value="{{ .Site.BaseURL }}/corporate-sponsors/thank-you">
+        <div id="fb-render"></div> <!-- Container for form render -->
+        <textarea id="fb-template" style="display:none;">
+          [
+            {
+              "type": "text",
+              "required": true,
+              "label": "Your name:",
+              "className": "form-control",
+              "name": "name",
+              "access": false,
+              "subtype": "text"
+            },
+            {
+              "type": "text",
+              "required": false,
+              "label": "Your company or organization's name:",
+              "className": "form-control",
+              "name": "$companyName",
+              "access": false,
+              "subtype": "text"
+            },
+            {
+              "type": "text",
+              "required": true,
+              "label": "Your Email Address",
+              "className": "form-control",
+              "name": "email",
+              "access": false,
+              "subtype": "text"
+            }
+          ]
+       </textarea>
+        <input type="submit" value="Submit" />
+      </form>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+      <script src="https://formbuilder.online/assets/js/form-render.min.js"></script>
+      <script>
+        jQuery(function($) {
+          var formData = JSON.parse($('#fb-template').val());
+          $('#fb-render').formRender({
+            formData: formData
+          });
+        });
+      </script>
+    </div>
+    </article>
+  </div>
+{{ end }}
