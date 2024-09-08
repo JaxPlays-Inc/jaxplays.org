@@ -6,6 +6,12 @@ date: 2024-05-23T14:58:07-04:00
 opening_date: 2024-09-13
 closing_date: 2024-09-22
 showtimes:
+  - 2024-09-13 20:00:00
+  - 2024-09-14 20:00:00
+  - 2024-09-15 14:00:00
+  - 2024-09-20 20:00:00
+  - 2024-09-21 20:00:00
+  - 2024-09-22 14:00:00
 featured_image: 
 featured_image_alt: 
 featured_image_caption: 
@@ -13,7 +19,7 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
+Tickets: https://ci.ovationtix.com/34877/production/1187117
 show_details: 
 - Playwright: Lauren Gunderson
 cast:
