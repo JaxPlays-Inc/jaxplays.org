@@ -170,10 +170,10 @@ Dorothy Bishop co-stars as Mame’s best friend Vera Charles. A Jacksonville nat
 
 The production is directed by Jean Tait, whose Off-Broadway credits include *The Pearly Gates*, *Hijab at First Sight*, *The Proceedings*, and *It Gets Better*.
 
-### First Coast Connect: "MAME" at the Florida Theatre
+### First Coast Connect: *MAME* at the Florida Theatre
 
 {{< youtube v1G9yuRMaMs >}}
 
-### "An inside look into Mame, in concert, presented by Florida Theatre and Theatre Jax."
+### "An inside look into *Mame In Concert*, presented by Florida Theatre and Theatre Jax."
 
 {{< youtube qrAfIOs0YgQ >}}

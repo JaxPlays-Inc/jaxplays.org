@@ -12,7 +12,7 @@ showtimes:
   - 2024-09-20 20:00:00
   - 2024-09-21 20:00:00
   - 2024-09-22 14:00:00
-featured_image: 
+featured_image: 2024-The-Revolutionists.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
@@ -28,10 +28,12 @@ cast:
   - Charlotte Corday: Morgan Williams
   - Marie Antoinette: Catie Casey
 crew:
-  - Director: Jilliane Tamillo
+  - Director: Jillianne Tamillo
   - Stage Manager: Soph Willis
   - Scenic Designer: Bradley Akers
   - Costume Designer: Tonya Thomas
+  - Lighting Designer: Jereme Raickett
+  - Master Carpenter: Del Ward
 orchestra:
 # The Revolutionists
 Genres:
@@ -41,3 +43,11 @@ Genres:
 Description: "Dive into the fierce and funny world of *The Revolutionists*, where four women of the French Revolution collide in a tale of political intrigue, wit and sisterhood."
 ---
 Set during the Reign of Terror, 'The Revolutionists' follows playwright Olympe de Gouges, assassin Charlotte Corday, former queen Marie Antoinette and Haitian rebel Marianne Angelle as they navigate the upheaval of revolutionary France. With sharp humor and poignant moments, this play explores themes of activism, art, and the power of female solidarity in the face of tyranny. Lauren Gunderson's dynamic storytelling brings to life the struggles and triumphs of these remarkable women."
+
+### First Coast Connect: The cast of *The Revolutionists*
+
+{{< youtube id=ludktWECz0Y start=3172 end=3496 >}}
+
+### First Coast Living Interviews *The Revolutionists*
+
+{{< youtube ZUl9LMPC2NE >}}
