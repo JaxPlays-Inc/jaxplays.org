@@ -21,8 +21,11 @@ playbill:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200456009
 show_details: 
-  - Playwright: Stephen Sachs
+  - Playwright: "[[w:Stephen Sachs]]"
+  - Website: https://bakersfieldmist.com/
 cast:
+  - Maude Gutman: Nancy Grote
+  - Lionel Percy: Michael Lipp
 crew:
   - Director: Dawn Knipe
 orchestra:
