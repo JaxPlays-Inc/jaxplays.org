@@ -30,4 +30,4 @@ That’s when Owens and his family decided to act, and Don’t Miss A Beat (DMAB
 
 Don’t Miss A Beat began with the singular objective—helping suspended youth stay in school so they wouldn’t “miss a beat.” Today, the program blends music, art, academic achievement and civic engagement to enhance the lives of children, teens, and their parents in Jacksonville’s At-Hope neighborhoods.
 
-In 2018 DMAB beginning their process of producing Musical Theatre productions for the community outdoors during their community festival, and in 2019 they decided to start working with the [[theatre:Ritz Theatre]] and co-producing summer and holiday productions.
+In 2018 DMAB beginning their process of producing Musical Theatre productions for the community outdoors during their community festival, and in 2019 they decided to start working with the [[venue:Ritz Theatre]] and co-producing summer and holiday productions.

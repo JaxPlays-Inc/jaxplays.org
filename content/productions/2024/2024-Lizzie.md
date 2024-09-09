@@ -35,6 +35,10 @@ show_details:
 - Additional Lyrics: Alan Stevens Hewitt
 - Website: https://www.lizziethemusical.com/
 cast:
+  - Lizzie: Sara Beth Sohn
+  - Alice: Angie Acedera
+  - Maggie/Bridget: Elizabeth Bricknell
+  - Emma: Catie Casey
 crew:
   - Director: Abby Gomez
   - Musical Director: Erin Barnes
