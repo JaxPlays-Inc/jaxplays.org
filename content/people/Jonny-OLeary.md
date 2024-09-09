@@ -1,13 +1,13 @@
 ---
-title: Emily Layt
-date: 2024-09-08T21:07:47-04:00
-featured_image: Emily-Layt.webp
+title: Jonny O'Leary
+date: 2024-09-08T21:51:02-04:00
+featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
 Socials:
-  Facebook: emily.l.layt
+  Facebook: 
   Twitter: 
   Instagram: 
   LinkedIn: 
