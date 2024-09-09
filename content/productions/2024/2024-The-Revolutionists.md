@@ -30,8 +30,9 @@ cast:
 crew:
   - Director: Jillianne Tamillo
   - Stage Manager: Soph Willis
-  - Scenic Designer: Bradley Akers
-  - Costume Designer: Tonya Thomas
+  - Scenic Designer: Bradley Akerse
+  - Costume Designer: Curtis. J. Williams
+  - Costumer: Tonya Thomas
   - Lighting Designer: Jereme Raickett
   - Master Carpenter: Del Ward
 orchestra:
