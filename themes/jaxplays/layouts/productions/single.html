@@ -33,7 +33,8 @@
 {{ end }}
 <div class="flex-l mt0 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns mw8 w-100">
-    <header>
+    <header class="relative">
+      {{- partial "GAM-left-rail-2.html" . -}}
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
       </h1>
@@ -49,7 +50,7 @@
           {{ with .Params.theatre }}{{ . }}{{ end }}
         </h2>
       </header>
-
+    
     {{ $featuredImage := .Params.featured_image }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
     {{ $featuredImageCaption := .Params.featured_image_caption }}

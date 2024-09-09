@@ -25,10 +25,10 @@
     }
   }
 </style>
-<div class="ph4 pt3 w-100 mw8 center">
+<div class="ph4 pt3 w-100 mw8 center ">
   <h1 class="f4 f3-m f2-l sectionline"><a href="/productions/" class="black">On Stage Now & Coming Soon...</a></h1>
 </div>
-<div class="flex flex-column items-center">
+<div class="flex flex-column items-center ">
   <div class="splide" aria-label="Upcoming Productions Gallery">
     <div class="splide__track">
       <ul class="splide__list" id="posterContainer">
@@ -37,6 +37,7 @@
     </div>
   </div>
 </div>
+
 {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of
 pages. */}}
 {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
@@ -48,12 +49,15 @@ pages. */}}
 {{/* Derive the section name */}}
 {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
-<div class="pa3 pa4-ns w-100 mw8 center">
+<div class="pa3 pa4-ns w-100 mw8 center relative">
+  {{- partial "GAM-left-rail-3.html" . -}}
   {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
   {{ with .Site.GetPage "section" $section_name }}
+  
   <h1 class="f4 f2-ns flex-none sectionline"><a href="/reviews/" class="black">
     {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
   </a></h1>
+  
   {{ end }}
 
   {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
