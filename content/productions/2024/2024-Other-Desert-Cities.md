@@ -7,7 +7,7 @@ opening_date: 2024-04-12
 closing_date: 2024-04-12
 showtimes:
 - 2024-04-12 19:30:00
-featured_image: 
+featured_image: 2024-Other-Desert-Cities.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

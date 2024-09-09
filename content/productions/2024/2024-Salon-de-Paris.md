@@ -7,7 +7,7 @@ opening_date: 2024-01-12
 closing_date: 2024-01-12
 showtimes:
 - 2024-01-12 19:30:00
-featured_image: 
+featured_image: 2024-Salon-de-Paris.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
