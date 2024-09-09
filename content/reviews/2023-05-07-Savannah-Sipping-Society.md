@@ -18,11 +18,12 @@ cast:
 - Danya Zimbauer
 - Tori Ann Smith
 - Tammy Bradley
-- Theresa Stanley
+- Dr. Theresa Stanley
+- Susan Langenbahn
 ---
-This weekend, the [St. Marys Little Theatre](/theatres/st-marys-little-theatre) came alive with the vibrant performance of [*The Savannah Sipping Society*](/productions/2023-the-savannah-sipping-society/). The play, a heartwarming comedy, revolves around four Southern women who, through unexpected circumstances, form a bond that transcends their individual struggles and differences.
+This weekend, the [[theatre:St. Marys Little Theatre]] came alive with the vibrant performance of [[production:2023 The Savannah Sipping Society|*The Savannah Sipping Society*]]. The play, a heartwarming comedy, revolves around four Southern women who, through unexpected circumstances, form a bond that transcends their individual struggles and differences.
 <!--more-->
-The ensemble cast, featuring Danya Zimbauer, Dr. Theresa Stanley, Tammy Bradley, Tori Ann Smith and Susan Langenbahn, delivered a delightful and hilarious performance that left the audience in high spirits.
+The ensemble cast, featuring [[person:Danya Zimbauer]], [[person:Dr. Theresa Stanley]], [[person:Tammy Bradley]], [[person:Tori Ann Smith]] and [[person:Susan Langenbahn]], delivered a delightful and hilarious performance that left the audience in high spirits.
 
 Danya Zimbauer's portrayal of Randa Covington was nothing short of phenomenal. Zimbauer's gravitas, physical humor, and comedic timing evoked a powerful combination of Jamie Lee Curtis and Carol Burnett, making her performance an absolute standout.
 

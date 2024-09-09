@@ -2,6 +2,7 @@
 title: Dr. Theresa Stanley
 aliases: 
   - /people/theresa-stanley
+  - /people/dr.-theresa-stanley/
 other_names: 
   - Theresa Stanley
 layout: people
