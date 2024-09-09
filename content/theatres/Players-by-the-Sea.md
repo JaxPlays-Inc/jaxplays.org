@@ -14,7 +14,7 @@ Socials:
   Facebook: playersbytheseatheatre
   Twitter: Playersbythesea
   Instagram: playersbythesea
-  LinkedIn: players-by-the-sea-theater
+  LinkedIn: company/players-by-the-sea-theater
   Website: https://playersbythesea.org
 color: "#91508e"
 date: 2024-07-02T18:02:39-04:00

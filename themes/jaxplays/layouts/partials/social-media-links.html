@@ -18,7 +18,11 @@
             {{ $url = printf "https://www.youtube.com/user/%s" $handle }}
           {{ end }}      
         {{ else if eq $lowerName "linkedin" }}
+          {{ if eq (substr $handle 0 8) "company/" }}
+          {{ $url = printf "https://www.linkedin.com/%s" $handle }}
+          {{ else }}
           {{ $url = printf "https://www.linkedin.com/in/%s" $handle }}
+          {{ end }}
         {{ else if eq $lowerName "tiktok" }}
           {{ $url = printf "https://www.tiktok.com/@%s" $handle }}
         {{ else if eq $lowerName "twitter" }}

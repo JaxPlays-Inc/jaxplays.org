@@ -6,14 +6,22 @@ date: 2024-05-23T14:58:10-04:00
 opening_date: 2024-10-18
 closing_date: 2024-11-03
 showtimes:
-featured_image: 
+- 2024-10-18T20:00:00-04:00
+- 2024-10-19T20:00:00-04:00
+- 2024-10-25T20:00:00-04:00
+- 2024-10-26T20:00:00-04:00
+- 2024-10-27T14:00:00-04:00
+- 2024-11-01T20:00:00-04:00
+- 2024-11-02T20:00:00-04:00
+- 2024-11-03T14:00:00-04:00
+featured_image: 2024-Jekyll-and-Hyde.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
+Tickets: https://ci.ovationtix.com/34877/production/1187115
 show_details: 
 cast:
   - Dr. Henry Jekyll/Edward Hyde: Cole Marshall
