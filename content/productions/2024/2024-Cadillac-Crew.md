@@ -1,31 +1,44 @@
 ---
 title: Cadillac Crew
 Theatre: Lumen Repertory Theatre
-Venue: 
+Venue: San Marco Church
 date: 2024-05-21T20:51:56-04:00
-opening_date: 2024-10-11
-closing_date: 2024-10-26
+opening_date: 2024-10-18
+closing_date: 2024-11-02
 showtimes:
-  - 2024-10-11 19:30:00
-  - 2024-10-12 19:30:00
-  - 2024-10-17 19:30:00
   - 2024-10-18 19:30:00
   - 2024-10-19 19:30:00
   - 2024-10-24 19:30:00
   - 2024-10-25 19:30:00
   - 2024-10-26 19:30:00
+  - 2024-11-01 19:30:00
+  - 2024-11-02 19:30:00
 featured_image: 2024-Cadillac-Crew.webp
 featured_image_alt: 
 featured_image_caption: Graphic for 'Cadillac Crew'
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: 
+Website: https://www.lumenrep.org/shows/cadillaccrew
+Tickets: https://www.zeffy.com/en-US/ticketing/b11783ad-a69a-46c9-8ab8-cad2d6425760
 show_details: 
-- Playwright: Tori Sampson
+- Playwright: "[[w:Tori Sampson]]"
 cast:
+  - Cast: 
+    - Cetera Bunche
+    - Felecia Ewing
+    - Kate McManus
+    - Zonnetta Marie Thomas
+# - Abby: Cetera Bunche
+# - Dee: Zonnetta Marie
+# - Sarah: Kate McManus
+# - Rachel: Felecia Ewing
 crew:
+- Director:
+  - Katie Johnston
+  - Brian Niece
+- Stage Manager: Faith Rautter
+- Dramaturg: Victoria Mayapi
 orchestra:
 Genres:
   - Play
