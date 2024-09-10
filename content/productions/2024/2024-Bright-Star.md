@@ -32,12 +32,6 @@ featured_image_attr_link:
 playbill:
 Website: https://www.limelight-theatre.org/season-32-shows-1/bright-star
 Tickets: https://limelight.ludus.com/200458971
-show_details: 
-- Music:
-  - "[[w:Steve Martin]]"
-  - "[[w:Edie Brickell]]"
-- Lyrics: Edie Brickell
-- Book: Steve Martin
 cast:
   - Alice Murphy: Maggie Cox
   - Billy Cane: Chad Boyd
@@ -49,21 +43,17 @@ cast:
   - Daryl: Cash Belcher
   - Lucy: Kaitlyn Beladi
   - Mama Murphy: Susan Nowell
-  - Daddy Murphy: Steven Amburguy
+  - Daddy Murphy: Steven Amburgey
   - Mayor Dobbs: Bo Strange
   - Jimmy Ray Dobbs: Eric Barnum
   - Stanford: Jeff Schaeffer
-  - Government Clerk: JoAnne Nance
+  - Government Clerk: JoAnn Nance
   - Well Dressed Woman: Keerstin Causey
 crew:
   - Director: Sherrie Provence
   - Music Director: Jeff Dodd
   - Choreographer: Kaila Schippani
 orchestra:
-# Bright Star
-Genres:
-  - Musical
-  - Drama
-Description: "Set in the Blue Ridge Mountains of North Carolina, this emotionally charged musical weaves a tale of love, redemption and hidden connections."
+- Guitar: Brian Johnson
+- Upright Bass: Andy Nance
 ---
-*Bright Star* tells the story of literary editor Alice Murphy who meets a young soldier just home from World War II, stirring up her longing for the child she once lost. The narrative shifts between the 1920s and 1940s, unraveling the secrets of her past and their impact on the present. The music, inspired by American folk and bluegrass traditions, complements the story's deep emotional currents and rich, scenic backdrop. As Alice comes to terms with her painful history, she uncovers the power of forgiveness and alters the lives around her in profound ways.
