@@ -24,15 +24,10 @@ Tickets: https://www.zeffy.com/en-US/ticketing/b11783ad-a69a-46c9-8ab8-cad2d6425
 show_details: 
 - Playwright: "[[w:Tori Sampson]]"
 cast:
-  - Cast: 
-    - Cetera Bunche
-    - Felecia Ewing
-    - Kate McManus
-    - Zonnetta Marie Thomas
-# - Abby: Cetera Bunche
-# - Dee: Zonnetta Marie
-# - Sarah: Kate McManus
-# - Rachel: Felecia Ewing
+- Abby: Felecia Ewing
+- Dee: Zonnetta Marie
+- Sarah: Kate McManus
+- Rachel: Cetera Bunche
 crew:
 - Director:
   - Katie Johnston
