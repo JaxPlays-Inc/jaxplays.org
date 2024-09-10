@@ -22,8 +22,8 @@ featured_image_caption: Graphic for *Roald Dahl's Willy Wonka*
 featured_image_attr: Artist Connection Theatre
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: 
+Website: https://artistconnectiontheatre.org/season-2024-2025/
+Tickets: https://ci.ovationtix.com/34989/production/1207876
 show_details: 
 cast:
 crew:

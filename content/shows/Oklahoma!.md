@@ -18,6 +18,8 @@ Description: "Beneath the wide Oklahoma sky, a spirited tale of love, rivalry, a
 ---
 In the rugged landscape of early 20th-century America, a love story blossoms between the charismatic cowboy Curly McLain and the spirited farm girl Laurey Williams. Amidst the backdrop of a high-spirited rivalry between the farmers and cowboys, their romance faces trials and tribulations. Oklahoma, with its rich narrative and iconic Rodgers and Hammerstein score, masterfully intertwines the thrill of young love with the challenges of a land on the cusp of change. It’s a celebration of community spirit, resilience, and the enduring power of dreams in the face of adversity. The pioneering spirit of ‘Oklahoma!’ is brought to life through rousing music, compelling drama, and a dance that captures the essence of an era.
 
+### Musical numbers
+{{< columns >}} 
 #### Act I
 - "Oh, What a Beautiful Mornin'" – Curly
 - Laurey's Entrance – Laurey & Curly
@@ -31,10 +33,11 @@ In the rugged landscape of early 20th-century America, a love story blossoms bet
 - "Pore Jud Is Daid" – Curly & Jud
 - "Lonely Room" – Jud
 - "Out of My Dreams"/"Dream Ballet" – Laurey & Dream Figures
-
+<--->
 #### Act II
 - "The Farmer and the Cowman" – Andrew Carnes, Aunt Eller, Curly, Gertie Cummings, Will, Ado Annie, Laurey, Ike Skidmore, Cord Elam & Ensemble
 - "All Er Nuthin'" – Will & Ado Annie
 - "People Will Say We're in Love" (Reprise) – Curly & Laurey
 - "Oklahoma" – Curly, Laurey, Aunt Eller, Ike Skidmore, Cord Elam, Fred, Andrew Carnes & Ensemble
 - Finale Ultimo ("Oh What a Beautiful Mornin'" and "People Will Say We're in Love") – Company
+{{< /columns >}}
