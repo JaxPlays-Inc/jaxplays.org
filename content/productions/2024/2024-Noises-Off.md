@@ -22,7 +22,44 @@ Website: https://www.flagler.edu/information/community-members/flagler-college-t
 Tickets: https://flagler.universitytickets.com/
 show_details: 
 cast:
+  - Dotty: Tracy Lukach
+  - Belinda: Angelica Parisen
+  - Poppy: Sarah Sasser
+  - Brooke: Charity Walton
+  - Lloyd: Jon Koppelman
+  - Gary: Jaden Stewert
+  - Freddie: Bryce Esposito
+  - Selsdon: Mason White
+  - Tim: Izzy Toussaint
+understudies:
+  - Poppy: Hailey Higgs
+  - Brooke/Vicki: Jewel Harmony
+  - Lloyd: Mason White
+  - Gary: Tyler Newman
+  - Freddie: Tyler Newman
+  - Tim: Doug Delany
 crew:
+  - Director: Britt Corey
+  - Stage Manager: Skye Csulik
+  - Assistant Stage Managers:
+    - Bonnie Roberts
+    - Alex Tuerke
+  - Technical Director: Britt Corey
+  - Set Design: Britt Corey
+  - Light Design: Chloee Brill
+  - Sound Design: Patrick Mathis
+  - Assistant Sound Design: Skye Csulik
+  - Costume Design: Elaina Whal - Temple
+  - Hair and Makeup: Elaina Whal - Temple
+  - Wardrobe Supervisor: Chloe Horton
+  - Prop Design: Cait Kilhoffer
+  - Assistant Prop Design: Emma Ferdan
+  - Publicity/Box Office:
+    - Lily Dubnansky
+    - Charity Walton
+  - Run Crew: Mar Medina
+  - Sound Board Op: Nini Chiscull
+
 orchestra:
 ---
 For accessible accommodations, including an ASL interpreter, please contact [Hcorry@flagler.edu](mailto:Hcorry@flagler.edu).
