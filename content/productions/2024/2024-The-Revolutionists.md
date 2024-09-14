@@ -21,7 +21,7 @@ playbill:
 Website: 
 Tickets: https://ci.ovationtix.com/34877/production/1187117
 show_details: 
-- Playwright: Lauren Gunderson
+- Playwright: "[[w:Lauren Gunderson]]"
 cast:
   - Olympe de Gouges: Jennifer Lilly
   - Marianne Angelle: Ayviana Singh
@@ -30,11 +30,19 @@ cast:
 crew:
   - Director: Jillianne Tamillo
   - Stage Manager: Soph Willis
-  - Scenic Designer: Bradley Akerse
+  - Scenic Designer: Bradley Akers
   - Costume Designer: Curtis. J. Williams
   - Costumer: Tonya Thomas
   - Lighting Designer: Jereme Raickett
+  - Sound Engineering: GoldenStage Productions
   - Master Carpenter: Del Ward
+  - Scenic Painting: 
+    - Baron Tetzlaff
+    - Anvar Gashimov
+    - Clint Auerbach
+  - Board Ambassadors:
+    - Joe Kemper
+    - Shain Stroff
 orchestra:
 # The Revolutionists
 Genres:
