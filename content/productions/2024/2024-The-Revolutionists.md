@@ -53,24 +53,24 @@ Description: "Dive into the fierce and funny world of *The Revolutionists*, wher
 photos:
 - photo: 2024-The-Revolutionists-01.webp
   photo_attr: Mike Kitaif
-  photo_alt: 
-  photo_caption:
+  photo_alt: "Ayviana Singh as Marianne Angelle gently places a comforting hand on Morgan Williams as Charlotte Corday, who holds a farewell letter, moments before her execution in 'The Revolutionists.'"
+  photo_caption: "In a heart-wrenching scene from The Revolutionists, Marianne Angelle, played by Ayviana Singh, provides a consoling touch to Charlotte Corday, portrayed by Morgan Williams, encouraging her to lift her eyes and face her accusers as she faces her imminent execution." 
 - photo: 2024-The-Revolutionists-02.webp
   photo_attr: Mike Kitaif
   photo_alt: 
   photo_caption:
 - photo: 2024-The-Revolutionists-03.webp
   photo_attr: Mike Kitaif
-  photo_alt: 
-  photo_caption:
+  photo_alt: "Ayviana Singh as Marianne Angelle, draped in vibrant Caribbean attire, sits poised on a plush red sofa, her expression contemplative and earnest in a scene from 'The Revolutionists' at Players by the Sea." 
+  photo_caption: "Ayviana Singh delivers a poignant moment as Marianne Angelle in 'The Revolutionists,' her expression reflecting deep thought and resolve, contrasting with the vibrant colors of her Caribbean dress, set against the backdrop of a regal red sofa at Players by the Sea."
 - photo: 2024-The-Revolutionists-04.webp
   photo_attr: Mike Kitaif
   photo_alt: 
   photo_caption:
 - photo: 2024-The-Revolutionists-05.webp
   photo_attr: Mike Kitaif
-  photo_alt: 
-  photo_caption:
+  photo_alt: "Morgan Williams as Charlotte Corday stands poised with a dagger in hand, dressed in a white and blue floral dress with a lace shawl and white gloves, in a historical library setting."
+  photo_caption: "Morgan Williams captures a tense moment as Charlotte Corday, gripping a dagger with determination. Her stance is resolute, signifying her readiness to commit a daring act that could change the course of history in 'The Revolutionists.'"
 - photo: 2024-The-Revolutionists-06.webp
   photo_attr: Mike Kitaif
   photo_alt: 
@@ -81,8 +81,8 @@ photos:
   photo_caption:
 - photo: 2024-The-Revolutionists-08.webp
   photo_attr: Mike Kitaif
-  photo_alt: 
-  photo_caption:
+  photo_alt: "Catie Casey as Marie Antoinette exudes whimsical charm in 'The Revolutionists' at Players by the Sea, gesturing animatedly with her hands while seated on a plush red sofa, her face lit up with a broad smile."
+  photo_caption: "Catie Casey, embodying Marie Antoinette, gestures animatedly as she recounts a humorous anecdote, her laughter echoing the extravagance of her character’s legendary persona in 'The Revolutionists.'"
 - photo: 2024-The-Revolutionists-09.webp
   photo_attr: Mike Kitaif
   photo_alt: 
@@ -97,8 +97,8 @@ photos:
   photo_caption:
 - photo: 2024-The-Revolutionists-12.webp
   photo_attr: Mike Kitaif
-  photo_alt: 
-  photo_caption:
+  photo_alt: "Ayviana Singh as Marianne Angelle and Catie Casey as Marie Antoinette share a moment of joviality in 'The Revolutionists' at Players by the Sea, with Marianne laughing heartily and Marie Antoinette smiling broadly, both seated on a vintage red sofa."
+  photo_caption: "In a heartwarming scene from 'The Revolutionists' at Players by the Sea, Ayviana Singh's Marianne Angelle bursts into laughter, while Catie Casey's Marie Antoinette beams with delight."
 - photo: 2024-The-Revolutionists-13.webp
   photo_attr: Mike Kitaif
   photo_alt: 
