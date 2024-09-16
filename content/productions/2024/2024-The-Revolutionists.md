@@ -50,6 +50,71 @@ Genres:
   - Historical
   - Comedy-Drama
 Description: "Dive into the fierce and funny world of *The Revolutionists*, where four women of the French Revolution collide in a tale of political intrigue, wit and sisterhood."
+photos:
+- photo: 2024-The-Revolutionists-01.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-02.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-03.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-04.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-05.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-06.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-07.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-08.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-09.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-10.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-11.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-12.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-13.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-14.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-15.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
+- photo: 2024-The-Revolutionists-16.webp
+  photo_attr: Mike Kitaif
+  photo_alt: 
+  photo_caption:
 ---
 Set during the Reign of Terror, 'The Revolutionists' follows playwright Olympe de Gouges, assassin Charlotte Corday, former queen Marie Antoinette and Haitian rebel Marianne Angelle as they navigate the upheaval of revolutionary France. With sharp humor and poignant moments, this play explores themes of activism, art, and the power of female solidarity in the face of tyranny. Lauren Gunderson's dynamic storytelling brings to life the struggles and triumphs of these remarkable women."
 
