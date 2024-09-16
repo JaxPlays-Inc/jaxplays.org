@@ -27,11 +27,25 @@ Tickets: https://ci.ovationtix.com/34919
 show_details: 
 - Playwright: Alfred Uhry
 cast:
-- Hoke Coleburn: Eugene Lindsey
 - Daisy Werthan: Jen Mercer
 - Boolie Werthan: Alec Hadden
+- Hoke Coleburn: Eugene Lindsey
 crew:
-- Director: Lindsay Curry
+- Director: Rhodie Jackson
+- Production Manager: Michelle Kindy
+- Set Design: Ben Girvin
+- Lighting Design: Johnny Pettegrew
+- Costume Design: Classic Costumes
+- Sound Design: Brent Mulberry
+- Graphic Design: Green Onion Creative LLC
+- Stage Manager: Tony Philips
+- Projection/Light Board Operator: Squirrel Pitts
+- Sound Board Operator: Aspen Krill
+- Set Constructions/Running Crew: 
+  - Lourdes Acosta
+  - Ben Girvin
+  - Daniel Lock
+
 orchestra:
 Genres:
   - Play
