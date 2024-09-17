@@ -31,6 +31,18 @@
   {{ if $isKnownPrefix }}
     {{- $internalURLize := delimit (after 1 $colonParts) ":" -}} <!-- Get the complete title after the prefix -->
     {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
+    {{- /* Replace accented characters with unaccented counterparts */ -}}
+    {{- $internalURLize = replace $internalURLize "é" "e" -}}
+    {{- $internalURLize = replace $internalURLize "è" "e" -}}
+    {{- $internalURLize = replace $internalURLize "ê" "e" -}}
+    {{- $internalURLize = replace $internalURLize "ë" "e" -}}
+    {{- $internalURLize = replace $internalURLize "à" "a" -}}
+    {{- $internalURLize = replace $internalURLize "ä" "a" -}}
+    {{- $internalURLize = replace $internalURLize "â" "a" -}}
+    {{- $internalURLize = replace $internalURLize "ô" "o" -}}
+    {{- $internalURLize = replace $internalURLize "ö" "o" -}}
+    {{- $internalURLize = replace $internalURLize "ç" "c" -}}
+    {{- /* Add more replacements as needed */ -}}
     {{- $url = printf "%s%s" $route ($internalURLize | urlize) -}}
 
     <!-- Initialize class variable -->
