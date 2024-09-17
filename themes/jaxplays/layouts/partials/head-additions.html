@@ -16,9 +16,32 @@
 <script>
   window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
-    googletag.defineSlot('/23156489440/left-rail-1', [300, 250], 'div-gpt-ad-1725819105833-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
+    var threshold = 980; // Define a threshold for switching ad sizes
+
+    // Define the size mapping based on the threshold
+    var mapping = googletag.sizeMapping()
+      .addSize([threshold, 0], [970, 250]) // Width is 980 or greater, display 970x250
+      .addSize([0, 0], [300, 250]) // Smaller widths, display 300x250
+      .build();
+      
+    // Define the ad slots
+    googletag.defineSlot('/23156489440/left-rail-1', [300, 250], 'div-gpt-ad-1725819105833-0')
+      .addService(googletag.pubads());
+    var billboardSlot = googletag.defineSlot('/23156489440/billboard-1', [[300, 250], [970, 250]], 'div-gpt-ad-1726544268663-0')
+      .defineSizeMapping(mapping)
+      .addService(googletag.pubads());
+    
     googletag.pubads().collapseEmptyDivs();
     googletag.enableServices();
+
+    // Function to check and refresh the ad if necessary when crossing the threshold
+    let lastWidth = window.innerWidth;
+    window.addEventListener('resize', function() {
+      let currentWidth = window.innerWidth;
+      if ((lastWidth >= threshold && currentWidth < threshold) || (lastWidth < threshold && currentWidth >= threshold)) {
+        googletag.pubads().refresh([billboardSlot]); // Refresh only this ad slot
+      }
+      lastWidth = currentWidth; // Update last known width
+    });
   });
 </script>
