@@ -9,17 +9,16 @@ closing_date: 2024-09-28
 showtimes:
   - 2024-09-20 19:30:00
   - 2024-09-21 19:30:00
-  - 2024-09-22 14:00:00
   - 2024-09-27 19:30:00
   - 2024-09-28 19:30:00
-featured_image: 
+featured_image: 2024-Barefoot-in-the-Park.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: 
+Tickets: https://www.eventbrite.com/e/apex-presents-barefoot-in-the-park-by-neil-simon-tickets-991060457507?aff=jaxplays
 show_details: 
 - Playwright: "[[w:Neil Simon]]"
 cast:

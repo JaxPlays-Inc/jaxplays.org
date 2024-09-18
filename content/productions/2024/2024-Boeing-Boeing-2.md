@@ -13,14 +13,14 @@ showtimes:
   - 2024-09-20 19:30:00
   - 2024-09-21 19:30:00
   - 2024-09-22 14:00:00
-featured_image: 
+featured_image: 2024-Boeing-Boeing-2.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: 
+Tickets: https://www.theislandtheater.com/boeing-boeing-tickets
 show_details: 
 cast:
 crew:
