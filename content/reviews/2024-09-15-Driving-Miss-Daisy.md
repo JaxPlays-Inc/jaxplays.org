@@ -12,7 +12,7 @@ cast:
 - Jen Mercer
 - Alec Hadden
 - Eugene Lindsey
-description: "Theatre Jacksonville’s *Driving Miss Daisy* brings a classic story to life with extraordinary costumes and compelling performances while also dealing with the challenges of integrating modern technology."
+description: "Theatre Jacksonville’s *Driving Miss Daisy* brings a classic story to life with extraordinary costumes and compelling performances."
 ---
 [[production:2024 Driving Miss Daisy]] at [[theatre:Theatre Jacksonville]] is an incredibly touching and beautiful production, effortlessly blending humor with poignancy. Set in Atlanta from the late 1940s to the early 1970s, it artfully and vividly chronicles the evolving relationship between Daisy Werthan, a headstrong Southern Jewish widow and Hoke Colburn, her patient and dignified chauffeur. As they navigate societal changes and personal growth, their deepening bond reveals layers of mutual respect and affection. Alfred Uhry's Pulitzer Prize-winning play shines here, offering a heartfelt and profoundly moving exploration of prejudice and the transformative power of friendship.<!--more-->
 
