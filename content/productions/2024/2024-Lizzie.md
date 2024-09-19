@@ -56,7 +56,9 @@ Genres:
   - Horror
 Description: "\"A gothic rock ritual with a riotgirl attitude\" - The New York Times"
 ---
-n the heat of late summer 1892, Andrew Borden and his wife were found murdered in their house. The main suspect in the murders was Andrew’s youngest daughter from a previous marriage, Lizzie Borden. Using a searing rock score, and based on the historical record, *Lizzie* explores the heady and heated days leading up to the murder and Lizzie’s controversial acquittal of all charges and the creation of a new American myth.
+In the heat of late summer 1892, Andrew Borden and his wife were found murdered in their house. The main suspect in the murders was Andrew’s youngest daughter from a previous marriage, Lizzie Borden. Using a searing rock score, and based on the historical record, *Lizzie* explores the heady and heated days leading up to the murder and Lizzie’s controversial acquittal of all charges and the creation of a new American myth.
+
+**Trigger Warnings:** *Lizzie* contains themes of childhood sexual abuse and violence and may not be appropriate for all audiences. Discretion is advised. Strobe and fog special fx are used during the performance.
 
 ### Musical numbers
 {{< columns >}} 

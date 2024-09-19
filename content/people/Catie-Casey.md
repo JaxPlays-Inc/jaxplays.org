@@ -1,13 +1,13 @@
 ---
 title: Catie Casey
 date: 2024-09-14T13:57:46-04:00
-featured_image: 
+featured_image: Catie-Casey.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
 Socials:
-  Facebook: 
+  Facebook: catie.casey
   Twitter: 
   Instagram: 
   LinkedIn: 
