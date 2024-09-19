@@ -22,7 +22,7 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: https://www.the5anddime.org/lizzie-the-musical
-Tickets: https://www.eventbrite.com/e/lizzie-tickets-773068587957
+Tickets: https://www.eventbrite.com/e/lizzie-tickets-773068587957?aff=jaxplays
 show_details: 
 - Book: Tim Maner
 - Music:
@@ -42,14 +42,21 @@ cast:
 crew:
   - Director: Abby Gomez
   - Musical Director: Erin Barnes
+  - Assistant Director: Sara Bryant
+  - Technical Director: Ryan Walker
+  - Stage Manager: Kyle Geary
+  - Costume Designer: Cathy Dooley
+  - Props Designer: Jenny Tammera
 orchestra:
 Genres:
   - Musical
   - Rock
   - Drama
-Description: "Dive into the pulse-pounding rock musical *Lizzie*, where the infamous story of Lizzie Borden explodes onto the stage with raw energy and fierce rebellion."
+  - Historical
+  - Horror
+Description: "\"A gothic rock ritual with a riotgirl attitude\" - The New York Times"
 ---
-*Lizzie* reimagines the chilling tale of Lizzie Borden, the woman at the center of one of America's most infamous murder cases. Set against a backdrop of searing rock music and punk intensity, this musical by Tim Maner delivers a visceral and thrilling experience. The story delves into Lizzie's world of repression and abuse, capturing her transformation from a quiet, obedient daughter into a symbol of defiance and empowerment. With a powerhouse score and electrifying performances, *Lizzie* is a bold, unapologetic exploration of rage, justice, and liberation that will leave you breathless.
+n the heat of late summer 1892, Andrew Borden and his wife were found murdered in their house. The main suspect in the murders was Andrew’s youngest daughter from a previous marriage, Lizzie Borden. Using a searing rock score, and based on the historical record, *Lizzie* explores the heady and heated days leading up to the murder and Lizzie’s controversial acquittal of all charges and the creation of a new American myth.
 
 ### Musical numbers
 {{< columns >}} 
