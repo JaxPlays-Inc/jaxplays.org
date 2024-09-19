@@ -31,9 +31,9 @@ Genres:
   - Drama
 Description: "Delve into the rich tapestry of Barbara Colaciello's life in this one-woman show that blends storytelling, music and poetry to explore life’s imperfections and wonders."
 ---
-*Life on the Diagonal* is a vibrant one-woman play written and performed by Barbara Colaciello, where she reflects on her dynamic journey from a New York upbringing to her artistic endeavors in Northeast Florida. Through monologues infused with original music and poetry, Barbara navigates the landscapes of her past and present, revealing the humor, sexuality and occasional madness of her life. The performance is a candid look into her experiences, marked by an intense vocabulary of self-definition and a quest to escape the "land of should." Celebrating its 8th anniversary at BABS'LAB, the show offers an intense yet humorous examination of life’s nonlinear path.
+*Life on the Diagonal* is a vibrant one-woman play written and performed by Barbara Colaciello, where she reflects on her dynamic journey from a New York upbringing to her artistic endeavors in Northeast Florida. Through monologues infused with original music and poetry, Barbara navigates the landscapes of her past and present, revealing the humor, sexuality and occasional madness of her life. The performance is a candid look into her experiences, marked by an intense vocabulary of self-definition and a quest to escape the "land of should." *Life on the Diagonal* offers an intense yet humorous examination of life’s nonlinear path.
 
-“Barbara Colaciello's 'Life on the Diagonal' was wonderful. Inspired by her courage, intensity, and humor. Brava!” - Hope McMath
+“Barbara Colaciello's *Life on the Diagonal* was wonderful. Inspired by her courage, intensity, and humor. Brava!” - Hope McMath
 
 “...Beautiful, brilliant, and funny,” - Al Letson
 
