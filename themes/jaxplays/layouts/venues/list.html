@@ -7,7 +7,7 @@
     <aside class="flex-ns flex-wrap justify-around mt5">
       {{ $activePages := where .Pages "Params.active" "!=" false }}
       {{ $sortedPages := $activePages.ByParam "title" }}
-      {{ $paginator := .Paginate $sortedPages 30 }}
+      {{ $paginator := .Paginate $sortedPages 60 }}
       {{ range $paginator.Pages }}
         {{ .Render "theatre-list" }} 
       {{ end }}
