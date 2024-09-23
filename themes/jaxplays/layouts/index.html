@@ -50,7 +50,7 @@ pages. */}}
 {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
 <div class="pa3 pa4-ns w-100 mw8 center relative">
-  {{- partial "GAM-left-rail-3.html" . -}}
+  {{- partial "GAM-left-rail-1.html" (dict "margin" "4rem 0") -}}
   {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
   {{ with .Site.GetPage "section" $section_name }}
   
@@ -92,7 +92,7 @@ pages. */}}
   {{ end }}
   <article class="cf ph4 pv3 pv4-l f5 f4-ns center mw8 lh-copy">
     {{- partial "content-wikilinks" .Content -}}
-    {{- partial "GAM-right-rail-1.html" . -}}
+    {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-345px") -}}
   </article>
 </div>
 {{ end }}
