@@ -13,3 +13,4 @@ Socials:
   IMDb:
   Website: 
 ---
+Chris has been a dynamic presence in Jacksonville's theater scene, with standout roles such as Bobby Strong in [[production:2024 Urinetown]], Captain Von Trapp in [[production:2024 The Sound of Music]], Michael in [[production: 2023 Murder Ballad]] and Charlie Price in [[production:2022 Kinky Boots]]. His notable past performances include Sweeney Todd, Parade, Next to Normal, and Reefer Madness. Chris is grateful for the unwavering support from his friends and family throughout his acting career.
