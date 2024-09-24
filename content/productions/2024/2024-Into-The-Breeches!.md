@@ -22,25 +22,37 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: 
-Tickets: https://app.arts-people.com/index.php?actions=4&p=1
+Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 cast:
 - Maggie: Haley Vonnoh
 - Celeste: Rae Colley
 - Ellsworth: Bruce Gruber
 - Winifred: Terri Witkosky
+- Stuart: Brandon Hester
 - Ida: Kathy Jones
-- Stuart: Chris Collinsworth
 - June: Julia Taylor
 - Grace: Brandily Oliphant
 crew:
 - Director: Linda McClane
+- Stage Manager:
+  - John Chastine
+  - Wendy Wilson
+- Technical Designer: Geoffrey Moss
+- Costumers:
+  - Barbara Farnsworth
+  - Vicki Gibson
+  - Missy Tremblay
+- Properties:
+  - Linda Chastine
+  - Vicki Grethe
+- Stage Combat: Renee LaCroix
 orchestra:
 # Into The Breeches!
 Genres:
   - Play
   - Comedy
   - Drama
-Description: "Set during World War II, this delightful play celebrates a group of passionate women who band together to produce an all-female version of Shakespeare’s *Henry IV* and *Henry V*."
+Description: "*Into the Breeches* is a heartwarming comedy set in a theatre in 1942. It examines the changing life on the home front during WWII with its play-within-a-play storyline."
 ---
-*Into The Breeches!* unfolds in 1942, with America's men off fighting in World War II. As the local theater's director is also away at war, his determined wife decides to press on with the season's scheduled Shakespeare production. With a script, a cause and an enthusiastic, albeit inexperienced, all-female cast, they embark on a comedic and inspiring journey to bring the Bard's histories to life.
+ It’s 1942, and the leading men of the Oberon Play House are fighting overseas. At home, a band of passionate performers, united in desire (if not actual theater experience), rally together with their battle cry of “The Show Must Go On!” They are determined to produce the Oberon’s season opener with an ambitious all-female Shakespearean production. Will their production be a victory for the home front or an epic failure? A delightful and moving story about what happens when we all join together.
