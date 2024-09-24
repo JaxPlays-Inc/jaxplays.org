@@ -19,7 +19,12 @@ Website: https://www.boldcityopera.org/bluebeardscastle
 Tickets: https://www.boldcityopera.org/tickets
 show_details: 
 cast:
+- Another Sunrise, Krystyna Zywulska: Marilyn Sharp
+- For a Look or a Touch, Gad Beck: Chris Robertson
+- For a Look or a Touch, Manfred Lewin: Chancelor Barbaree
 crew:
+- Conductor: Brandon Michael Smith
+- Director: Kylie Humber
 orchestra:
 genres: 
 - Opera
