@@ -107,7 +107,7 @@ crew:
 - Makeup Consultant: Linda Schrenk
 - Graphic Design: Jason Woods
 - Website: Kelley Stam
-- Stageteam: 
+- Stage Team: 
   - Kristin Alexander
   - Elizabeth Bricknell
   - Lora Christl
