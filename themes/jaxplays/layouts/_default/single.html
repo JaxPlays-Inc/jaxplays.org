@@ -5,7 +5,7 @@
 
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+  <article class="relative flex-l flex-wrap justify-between mw8 center ph3">
     <div class="mt3 w-100 relative">
       {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
       <aside class="instapaper_ignoref b helvetica tracked">
@@ -70,6 +70,6 @@
       {{/*  {{- partial "menu-contextual.html" . -}}  */}}
     </aside>
     -->
-    {{- partial "GAM-right-rail-1.html" (dict "margin" "65.5rem 0" "right" "95px") -}}
+    {{- partial "GAM-right-rail-1.html" (dict "margin" "0" "right" "-315px") -}}
   </article>
 {{ end }}
