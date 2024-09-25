@@ -32,7 +32,7 @@
 {{ $description = $description | markdownify | safeHTML }}
 {{ end }}
 <div class="flex-l mt0 mw8 center">
-  <article class="center cf pv4 ph3 ph4-ns mw8 w-100">
+  <article class="relative center cf pv4 ph3 ph4-ns mw8 w-100">
     <header class="relative">
       {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
       <h1 class="f3 f2-l f1-m mb0">
@@ -475,7 +475,7 @@
         <p>Suggest an edit or add missing content</p>
         <a href="https://jaxplays.org/submit/production/" target="_blank" class="inline-flex flex-row link b dim br4 ph4 pv2 mv2 mh1 h2 black bg-yellow"><img src="/images/pencil-solid.svg" class="h1 ph2"></img> Edit Page</a>
       </div>  
-      {{- partial "GAM-right-rail-1.html" (dict "margin" "8rem 0" "right" "95px") -}}
+      {{- partial "GAM-right-rail-1.html" (dict "margin" "8rem 0" "right" "-315px") -}}
     </article>
   
 </div>
