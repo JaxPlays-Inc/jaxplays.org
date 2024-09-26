@@ -1,10 +1,10 @@
 ---
-title: Moran Theater - Jacksonville Center for the Performing Arts
+title: Terry Theater - Jacksonville Center for the Performing Arts
 aliases: 
-  - /venues/moran-theater
+  - /venues/terry-theater
 venue_aliases:
-  - Moran Theater
-date: 2024-06-12T18:46:30-04:00
+  - Terry Theater
+date: 2024-09-26T18:23:45-04:00
 active: true
 featured_image: jaxcenterlogo.webp
 featured_image_attr: 
