@@ -4,7 +4,8 @@
     outline: none;
   }
 </style>
-<div id="secondSearch">
+
+<div id="secondSearch" class="flex flex-column items-center">
   <input type="text" id="secondSearchInput" class="w-100 mw7 tc i pv2 f4" placeholder="Search here...">
   <ul id="secondSearchResults" class="flex flex-column items-center pl0"></ul>
 </div>
@@ -35,10 +36,18 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function executeSecondSearch(term) {
-      // if (!term) return; // Don't execute on empty string
+
       var results = secondFuse.search(term);
       var filteredResults = results.filter(result => result.item.section === searchSection);
-      var items = filteredResults.map(result => `<li class='list bg-white mw7 w-100 mv1 pv2 f4 tc'><a href="${result.item.permalink}">${result.item.title}</a></li>`);
+      var items = filteredResults.map(result => {
+          if (searchSection === "Productions") {
+              let year = new Date(result.item.opening_date).getFullYear() || "";
+              let theatre = result.item.theatre_name || "";
+              return `<a href="${result.item.permalink}" class="bg-white mw9 w-100 mv1 pv2 ph4 f4 tc"><li class="list">${result.item.title} — ${year} — ${theatre}</li></a>`;
+          } else {
+              return `<a href="${result.item.permalink}" class="bg-white mw7 w-100 mv1 pv2 ph4 f4 tc"><li class="list">${result.item.title}</li></a>`;
+          }
+      });
       secondList.innerHTML = items.join('');
   }
 });

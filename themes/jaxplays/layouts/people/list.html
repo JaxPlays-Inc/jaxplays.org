@@ -2,8 +2,8 @@
   <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
     <section class="cf f4 tc-l center lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{ .Content }}
-      {{ partial "secondSearchBar.html" (dict "section" "People") }}
     </section>
+    {{ partial "secondSearchBar.html" (dict "section" "People") }}
     <aside class="flex-ns flex-wrap justify-around ph3 ph0-ns">
       
       {{ $allPages := .Pages.ByParam "featured_image" }}
