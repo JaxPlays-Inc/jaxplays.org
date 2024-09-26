@@ -1,0 +1,45 @@
+<!-- layouts/partials/secondSearchBar.html -->
+<style>
+  input:focus {
+    outline: none;
+  }
+</style>
+<div id="secondSearch">
+  <input type="text" id="secondSearchInput" class="w-100 mw7 tc i pv2 f4" placeholder="Search here...">
+  <ul id="secondSearchResults" class="flex flex-column items-center pl0"></ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var searchSection = '{{ .section }}';  // The section to filter by, passed as a parameter
+  var secondFuse; // Instance of Fuse
+  var secondList = document.getElementById('secondSearchResults');
+  var secondInput = document.getElementById('secondSearchInput');
+
+  secondInput.oninput = function() {
+      if (!secondFuse) {
+          loadSecondSearch(); // Load data on first input
+      }
+      executeSecondSearch(this.value);
+  };
+
+  function loadSecondSearch() {
+      fetch('/index.json').then(response => response.json()).then(data => {
+          var options = {
+              keys: ['title', 'summary'],
+              includeScore: true,
+              threshold: 0.3
+          };
+          secondFuse = new Fuse(data, options);
+      });
+  }
+
+  function executeSecondSearch(term) {
+      // if (!term) return; // Don't execute on empty string
+      var results = secondFuse.search(term);
+      var filteredResults = results.filter(result => result.item.section === searchSection);
+      var items = filteredResults.map(result => `<li class='list bg-white mw7 w-100 mv1 pv2 f4 tc'><a href="${result.item.permalink}">${result.item.title}</a></li>`);
+      secondList.innerHTML = items.join('');
+  }
+});
+</script>
