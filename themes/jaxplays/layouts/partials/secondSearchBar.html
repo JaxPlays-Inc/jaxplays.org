@@ -6,7 +6,7 @@
 </style>
 
 <div id="secondSearch" class="flex flex-column items-center">
-  <input type="text" id="secondSearchInput" class="w-100 mw7 tc i pv2 f4" placeholder="Search here..." autocomplete="off">
+  <input type="text" id="secondSearchInput" class="w-100 mw7 tc i pv2 f4 bn" placeholder="Search here..." autocomplete="off">
   <ul id="secondSearchResults" class="flex flex-column items-center pl0"></ul>
 </div>
 
@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
           if (searchSection === "Productions") {
               let year = new Date(result.item.opening_date).getFullYear() || "";
               let theatre = result.item.theatre_name || "";
-              return `<a href="${result.item.permalink}" class="bg-white mw9 w-100 mv1 pv2 ph4 f4 tc"><li class="list">${result.item.title} — ${year} — ${theatre}</li></a>`;
+              return `<a href="${result.item.permalink}" class="bg-white bn mw9 w-100 mv1 pv2 ph4 f4 tc"><li class="list">${result.item.title} — ${year} — ${theatre}</li></a>`;
           } else {
-              return `<a href="${result.item.permalink}" class="bg-white mw7 w-100 mv1 pv2 ph4 f4 tc"><li class="list">${result.item.title}</li></a>`;
+              return `<a href="${result.item.permalink}" class="bg-white bn mw7 w-100 mv1 pv2 ph4 f4 tc"><li class="list">${result.item.title}</li></a>`;
           }
       });
       secondList.innerHTML = items.join('');
