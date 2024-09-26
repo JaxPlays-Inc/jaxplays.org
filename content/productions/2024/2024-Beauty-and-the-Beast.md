@@ -8,13 +8,13 @@ closing_date: 2024-10-06
 showtimes:
 - 2024-09-20 19:30:00
 - 2024-09-21 19:30:00
-- 2024-09-26 19:30:00
+- 2024-09-22 15:00:00
 - 2024-09-27 19:30:00
+- 2024-09-28 15:00:00
 - 2024-09-28 19:30:00
+- 2024-09-29 15:00:00
 - 2024-10-04 19:30:00
 - 2024-10-05 19:30:00
-- 2024-09-22 15:00:00
-- 2024-09-29 15:00:00
 - 2024-10-06 15:00:00
 featured_image: 2024-Beauty-and-the-Beast.webp
 featured_image_alt: 
@@ -62,3 +62,4 @@ understudies:
 genres: 
 Description: 
 ---
+**Note: The Thursday, September 26th performance has been postponed due to weather from Hurricane Helene. The performance has been rescheduled for Saturday, September 28th at 3:00 PM.**
