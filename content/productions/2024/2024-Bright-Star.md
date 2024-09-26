@@ -7,7 +7,6 @@ date: 2024-09-08T20:42:16-04:00
 opening_date: 2024-09-26
 closing_date: 2024-10-20
 showtimes:
-  - 2024-09-26 19:30:00
   - 2024-09-27 19:30:00
   - 2024-09-28 19:30:00
   - 2024-09-29 14:00:00
@@ -57,3 +56,4 @@ orchestra:
 - Guitar: Brian Johnson
 - Upright Bass: Andy Nance
 ---
+**Note: The Thursday, September 26, preview performance has been cancelled due to Hurricane Helene. We will be contacting tonight's audience to move tickets to another night. Friday's opening night is on, rain or shine!**
