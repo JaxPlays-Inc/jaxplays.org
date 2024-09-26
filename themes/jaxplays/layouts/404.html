@@ -34,5 +34,19 @@
         const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
         document.getElementById('dynamic-quote').textContent = "“" + randomQuote + "”";;
       });
+      document.addEventListener("DOMContentLoaded", function() {
+        const the404SearchIcon = document.getElementById("404-search-icon");
+        the404SearchIcon.addEventListener("click", toggleSearch);
+        function toggleSearch(event) {
+          event.preventDefault();
+          if (firstRun) {
+            loadSearch();
+            firstRun = false;
+          }
+          const searchBox = document.getElementById("fastSearch");
+          searchBox.style.display = searchBox.style.display === "flex" ? "none" : "flex";
+          searchVisible = !searchVisible;
+        }
+      });
     </script>
 {{ end }}
