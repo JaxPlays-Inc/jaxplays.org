@@ -30,40 +30,65 @@ show_details:
 - Book: "[[w:Julian Fellowes]]"
 - Basis: "*[[w:Mary Poppins (book series)|Mary Poppins]]* by [[w:P. L. Travers]] and *[[w:Mary Poppins (film)|Mary Poppins]]* by [[w:Bill Walsh (producer)|Bill Walsh]] and [[w:Don DaGradi]]"
 cast:
-  - Mary Poppins: Christine Phillips
-  - Bert: Jack Davis
-  - George Banks: David Phillips
-  - Winifred Banks: Avery Maxhem
-  - Jane Banks: Kirra Scully
-  - Michael Banks: Beckett Tweet
-  - Katie Nanna/Neleus/Doll: Ava Atkins
-  - Police Officer/Teddy Bear: Kalia Schissler
-  - Miss Lark/Miss Smythe: Marilyn Painter
-  - Admiral Boom/Von Hussler: Alan Painter
-  - Mrs. Brill/Toy: Julia Rigon
-  - Robertson Ay/Chairman: Josh Katzman
-  - Park Keeper/Mrs. Corry: Austin Burney
-  - Queen Victoria: Danita Stokes
-  - John Northbrook/Mr. Punch: Thain Day
-  - Valentine: Madelyn Bush
-  - Toy Soldier: Hailey Wilson
-  - Bird Woman/Miss Andrew: Sydney Wissinger
-  - Ensemble:
-    - David Phillips
-    - Avery Maxhem
-    - Ava Atkins
-    - Kalia Schissler
-    - Marilyn Painter
-    - Alan Painter
-    - Julia Rigon
-    - Josh Katzman
-    - Austin Burney
-    - Danita Stokes
-    - Thain Day
-    - Madelyn Bush
-    - Hailey Wilson
-    - Sydney Wissinger
+- Mary Poppins: Christine Phillips
+- Bert: Jack Davis
+- George Banks: David Phillips
+- Winifred Banks: Avery Maxhem
+- Jane Banks: Kirra Scully
+- Michael Banks: Beckett Tweet
+- Katie Nanna, Neleus, Doll: Ava Atkins
+- Police Officer, Teddy Bear: Kalia Schissler
+- Miss Lark, Miss Smythe: Marilyn Painter
+- Admiral Boom, Von Hussler: Alan Painter
+- Mrs. Brill, Toy: Julia Rigon
+- Robertson Ay, Chairman: Josh Katzman
+- Park Keeper, Mrs. Corry: Austin Burney
+- Queen Victoria: Danita Stokes
+- John Northbrook, Mr. Punch: Thain Day
+- Valentine: Madelyn Bush
+- Toy Soldier: Hailey Wilson
+- Bird Woman, Miss Andrew: Sydney Wissinger
+- Ensemble:
+  - David Phillips
+  - Avery Maxhem
+  - Ava Atkins
+  - Kalia Schissler
+  - Marilyn Painter
+  - Alan Painter
+  - Julia Rigon
+  - Josh Katzman
+  - Austin Burney
+  - Danita Stokes
+  - Thain Day
+  - Madelyn Bush
+  - Hailey Wilson
+  - Sydney Wissinger
+- Dance Captains:
+  - Sydney Wissinger
+  - Alexia McKendrick
 crew:
+- Director: Ava Fixel
+- Choreographer: Juliet Fixel
+- Producer: Jamie Glavich
+- Stage Manager: Julia Rigon
+- Assistant Stage Manager: Trish Mackin
+- Costumer: Juanelle Marshall
+- Vocal Director: Christine Phillips
+- Assistant Vocal Director: Julia Rigon
+- Set Design: 
+  - Alan Painter
+  - Michael Fixel
+- Playbill/Marketing: Marilyn Painter
+
+- Lights and Sound:
+  - Grace Maxham
+  - Keegan Mickey
+  - Carson Stover
+  - Kaitiyn O'Donnell
+  - Emmy Gilyana
+  - Lizzy Stevenson
+  - Oli Farwell
+  - Nox Neiman
 orchestra:
 genres: 
 # Mary Poppins
