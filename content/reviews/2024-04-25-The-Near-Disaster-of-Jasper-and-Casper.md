@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-The-Near-Disaster-of-Jasper-and-Casper.webp
 featured_image_attr: Russ Rowland
 featured_image_caption: A fraction of the cast of 'The Near Disaster of Jasper and Casper'
 featured_image_alt: Collage featuring images of Jason Woods in various roles and poses, showcasing his versatility and talent.
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 The Near Disaster of Jasper and Casper
 Theatre: Jason Woods Productions
 cast: 

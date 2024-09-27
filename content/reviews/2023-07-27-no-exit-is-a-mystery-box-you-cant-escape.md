@@ -11,7 +11,8 @@ featured_image: /media/photos/2023_No_Exit_6.webp
 featured_image_attr: Ray Hollister
 featured_image_alt: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to right)
 featured_image_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to right)
-author: Ray Hollister
+authors:
+- Ray Hollister
 description: Explore Lumen Repertory Theatre's riveting adaptation of Sartre's hellscape. Stellar performances, immersive design.
 excerpt_separator: <!--more-->
 production: 2023 No Exit

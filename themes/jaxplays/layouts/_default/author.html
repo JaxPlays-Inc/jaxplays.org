@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+    <h1>{{ .Title }}</h1>
+    {{ if .Content }}
+      <section class="cf pv2 f4 lh-copy">
+        {{- .Content -}}
+      </section>
+    {{ end }}
+<h2>Theatre reviews and articles by {{ .Title }}</h2>
+  {{ $paginator := .Paginate .Pages 20 }}
+  {{- template "_internal/pagination.html" . -}}
+    <section class="flex-ns flex-wrap justify-around mt5">
+      
+      {{ range .Paginator.Pages }}
+        <div class="relative w-100 w-45-l mb4 bg-white">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+    {{ $author := .Title }}
+    {{ $reviews := where .Site.RegularPages "Section" "reviews" }}
+    {{ $authorReviews := where $reviews "Params.authors" "intersect" (slice $author) }}
+    {{ $news := where .Site.RegularPages "Section" "news" }}
+    {{ $authorNews := where $news "Params.authors" "intersect" (slice $author) }}
+    {{ len $authorReviews }} reviews 
+    {{ if gt (len $authorNews) 0 }} and {{ len $authorNews }} articles
+    {{ end }}
+    by {{ $author }}
+  </article>
+{{ end }}

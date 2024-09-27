@@ -5,7 +5,8 @@ featured_image: /media//photos/2024-Southern-Fried-Nuptials-2-01.webp
 featured_image_attr: Sean McCleary
 featured_image_caption: Tensions rise and humor abounds as the extended Frye family navigates family drama and unexpected revelations in 'Southern Fried Nuptials'.
 featured_image_alt: "From left to right, Juliana Mabe as Dewey Frye, Jr. stands with a tablet; Gloria Hurley as Fairy June Cooper in a blue dress; Susan Langenbahn as Martha Ann Fox seated in a red chair; Debra Parsons as Harlene Frye in a white blouse and skirt; Tammy Bradley as Dorothy Frye in navy and floral pants, seated; and Nichole Sternad as Sammie Jo Frye-Lefette in a black dress with red cherries, all engaging in an animated discussion on stage."
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 Southern Fried Nuptials 2
 Theatre: St. Marys Little Theatre
 cast:

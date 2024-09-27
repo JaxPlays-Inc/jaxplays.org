@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-Southern-Fried-Nuptials-02.webp
 featured_image_attr: Maureen Chandler Reid
 featured_image_caption: "The men of Southern Fried Nuptials, Beecham (Josh Rutgers), Dewey Jr. (Jade Bevis), and Atty (Greg Hewitt), wear their titles proudly in a moment of comedic camaraderie."
 featured_image_alt: "Josh Rutgers (Beecham Lefette), Jade Bevis (Dewey Frye, Jr.) and Greg Hewitt (Atticus Van Leer)"
-author: Joy Bossardet
+authors:
+- Joy Bossardet
 production: '2024 Southern Fried Nuptials'
 Theatre: Act II Players
 cast: 

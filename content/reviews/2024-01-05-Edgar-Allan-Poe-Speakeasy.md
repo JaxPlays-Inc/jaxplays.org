@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-Edgar-Allan-Poe-Speakeasy-3.webp
 featured_image_attr: Ray Hollister
 featured_image_caption: "Kirsten Lindemulder delivers a spine-tingling performance in 'The Tell-Tale Heart'."
 featured_image_alt: ""
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: '2024 Edgar Allan Poe Cocktail Experience'
 Theatre: Edgar Allan Poe Speakeasy
 cast: 

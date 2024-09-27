@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-Disneys-Frozen-3.webp
 featured_image_attr: Matthew Murphy
 featured_image_caption: "Under the Moonlit Magic: Lauren Nicole Chapman as Anna and Preston Perez as Hans share a dance in an enchanted forest."
 featured_image_alt: "On stage, actors Lauren Nicole Chapman and Preston Perez, portraying Anna and Hans, are caught mid-twirl in a romantic dance. A backdrop of lush, wisteria-laden trees and a large, glowing full moon creates a dreamlike atmosphere."
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 Disneys Frozen
 Theatre: FSCJ Artist Series
 cast: 

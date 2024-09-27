@@ -3,7 +3,8 @@ published: true
 layout: posts
 title: "JaxPlays Rises Again: A New Beginning for Northeast Florida Theatre Lovers!"
 categories: News
-author: Ray Hollister
+authors:
+- Ray Hollister
 excerpt_separator: <!--more-->
 date: 2023-09-08T00:00:00-04:00
 ---

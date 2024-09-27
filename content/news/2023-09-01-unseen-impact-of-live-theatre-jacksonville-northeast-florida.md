@@ -3,7 +3,8 @@ title: "Behind the Curtains: Unveiling the Unseen Impact of Live Theatre in Jack
 layout: posts
 date: 2023-08-01T14:57:05-04:00
 published: true
-author: Ray Hollister
+authors:
+- Ray Hollister
 categories: News
 ---
 Live theatre isn't just about entertainment. It's a lifeline for communities, an instrument of change and a platform for unheard voices. But for the folks in Jacksonville and Northeast Florida, it's so much more than that—it's their heart and soul. Here's why live local theatre in our region is unmissable.

@@ -6,7 +6,8 @@ featured_image_attr: Ray Hollister
 featured_image_caption: The quaint, yet beautiful set of Anatevka sits quietly as it waits for the production to begin. Sadly, the reviewer was overly captivated by the performance and forgot to take more photos once the show began!
 featured_image_alt: 
 description: "Don't miss the masterful production of *Fiddler on the Roof* at The Alhambra Theatre & Dining, featuring an ensemble of a gifted cast, groundbreaking staging, and delightful dining."
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2023 Fiddler on the Roof
 Theatre: Alhambra Theatre & Dining
 cast: 

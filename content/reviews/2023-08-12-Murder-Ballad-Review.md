@@ -9,7 +9,8 @@ featured_image: /media/photos/2023_Murder_Ballad_01.webp
 featured_image_attr: Daniel Starling
 featured_image_alt: Chris Berry, Julia Blasi, Erin Barnes and Chris Robertson (left to right)
 featured_image_caption: "Murder Ballad cast: Chris Berry, Julia Blasi, Erin Barnes and Chris Robertson (left to right)"
-author: Ray Hollister
+authors:
+- Ray Hollister
 description: Journey into the heart of passion and tragedy with ABET's "Murder Ballad." Secure a front row seat for the full experience.
 excerpt_separator: <!--more-->
 production: 2023 Murder Ballad

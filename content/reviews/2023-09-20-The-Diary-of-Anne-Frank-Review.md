@@ -6,7 +6,8 @@ featured_image_attr: Photographer unknown, public domain. Edited by Ray Holliste
 featured_image_caption: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
 featured_image_alt: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
 description: 
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2023 The Diary of Anne Frank
 Theatre: Theatre Jacksonville
 cast: 

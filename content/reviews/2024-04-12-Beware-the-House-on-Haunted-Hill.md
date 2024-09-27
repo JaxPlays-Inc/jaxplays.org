@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-Beware-the-House-on-Haunted-Hill-2-Cropped.we
 featured_image_attr: Joy Bossardet
 featured_image_caption: Dr. David Trent (Mark Rutgers) comforts Nora Manning (Austin Burney) as chaos descends in the House on Haunted Hill. 
 featured_image_alt: Two actors on stage in a play, with the man gesturing animatedly and the woman listening intently, both in period costumes, portraying Dr. David Trent and Nora Manning.
-author: Joy Bossardet
+authors:
+- Joy Bossardet
 production: '2024 Beware the House on Haunted Hill!'
 Theatre: Act II Players
 cast: 

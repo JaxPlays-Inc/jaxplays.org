@@ -4,7 +4,8 @@ date: 2022-04-08T00:00:00-04:00
 layout: posts
 title: Latest News
 categories: News
-author: Ray Hollister
+authors:
+- Ray Hollister
 excerpt_separator: <!--more-->
 ---
 Hey folks, 

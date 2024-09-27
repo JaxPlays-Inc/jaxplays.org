@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-Escape-to-Margaritaville-01.webp
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_caption: The cast of 'Escape to Margaritaville' brings the island party to life on stage.
 featured_image_alt: A joyful cast of 'Escape to Margaritaville' performers on stage, with actors in colorful tropical attire singing and dancing in front of a set featuring the show's title, evoking a festive island atmosphere.
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 Escape to Margaritaville
 Theatre: Alhambra Theatre & Dining
 cast:

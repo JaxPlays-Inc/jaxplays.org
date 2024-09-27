@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-The-Mousetrap-01.webp
 featured_image_attr: 
 featured_image_caption: "Step into the mystery with the cast of Agatha Christie’s 'The Mousetrap' at Amelia Community Theatre, a timeless whodunit that continues to captivate audiences with its thrilling twists and turns."
 featured_image_alt: "Cast members of Agatha Christie's 'The Mousetrap' posing in an ornate room with dark wood paneling and a chandelier, each displaying distinct expressions hinting at the mystery and intrigue characteristic of the play."
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 The Mousetrap
 Theatre: Amelia Community Theatre
 cast: 

@@ -6,7 +6,8 @@ featured_image_attr: Provence Photography
 featured_image_attr_link: https://www.facebook.com/provencedigitalmedia
 featured_image_caption: Caught in the grip of Susy's crisis, Anna Vera presents a striking image of desperation and strength intertwined.
 featured_image_alt: A woman seated on the floor against a door, visibly distressed with tears in her eyes, on a stage setting reflecting a powerful emotional scene.
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 Wait Until Dark
 Theatre: Limelight Theatre
 cast: 

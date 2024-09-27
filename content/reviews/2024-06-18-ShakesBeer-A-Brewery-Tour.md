@@ -8,7 +8,8 @@ featured_image_alt: "Amy Love cradling Josh Andrews in a somber scene at a Shake
 featured_image_caption: "In a striking and somber moment from the Shakespeare-themed brewery tour, Amy Love cradles an unresponsive Josh Andrews."
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 ShakesBeer A Brewery Tour
 Theatre: Lumen Repertory Theatre
 cast: 

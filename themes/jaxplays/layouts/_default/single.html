@@ -24,15 +24,19 @@
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>
-      {{ with .Params.author | default .Site.Params.author }}
+      {{ with .Params.authors | default .Site.Params.author }}
       <p class="tracked i">
-        {{ $.Render "by" }} {{ if reflect.IsSlice . -}}
-            {{ delimit . ", " | markdownify }}
-        {{- else -}}
-            {{ . | markdownify }}
-        {{- end -}}
+          {{ $.Render "by" }}
+          {{ if reflect.IsSlice . -}}
+              {{- range $index, $author := . -}}
+                  {{ if $index }}, {{ end }}<a href="/authors/{{ $author | urlize }}">{{- $author -}}</a>
+              {{- end -}}
+          {{- else -}}
+              <a href="/authors/{{ . | urlize }}">{{ . }}</a>
+          {{- end -}}
       </p>
       {{ end }}
+      
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       {{ if not .Date.IsZero }}
       <time class="f6 mb3 dib tracked gray" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>Published on 

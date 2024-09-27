@@ -8,7 +8,8 @@ featured_image_attr: Mike Kitaif
 featured_image_caption: Bradley Akers as Jon in The Five & Dime's 'Tick, Tick... Boom!'
 featured_image_alt: Bradley Akers as Jon in The Five & Dime's 'Tick, Tick... Boom!' looking to the right of the camera with a pensive expression.
 description: "The 5 & Dime's rendition of 'Tick, Tick... Boom!' is an intimate masterpiece of theatre. Join the emotional rollercoaster in this review."
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2023 Tick Tick Boom
 Theatre: The 5 & Dime
 cast: 

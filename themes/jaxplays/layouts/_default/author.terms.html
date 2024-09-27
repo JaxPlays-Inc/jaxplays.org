@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <h1>Authors</h1>
+  {{ range .Data.Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Content }}</p>
+  {{end}}
+</article>
+{{end}}

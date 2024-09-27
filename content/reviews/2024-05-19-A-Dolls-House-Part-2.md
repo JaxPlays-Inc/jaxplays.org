@@ -5,7 +5,8 @@ featured_image: /media/photos/2024-A-Dolls-House-Part-2.webp
 featured_image_attr: Ryan Provence
 featured_image_caption: "Nora (Kristi Parker Byers) stands resolute as she faces her daughter Emmy (Ella Romaine) in a dramatic and emotionally charged scene from 'A Doll's House, Part 2' at Limelight Theatre."
 featured_image_alt: "Kristi Parker Byers, as Nora, stands centered in an elegant costume with a paisley blouse and deep purple skirt, facing the camera with a determined expression. In the blurred foreground, the back of Emmy's head, portrayed by Ella Romaine, sets a stage of confrontation. They are in a dimly lit room with teal walls and minimal furnishings."
-author: Amber Hollister
+authors:
+- Amber Hollister
 production: 2024 A Dolls House Part 2
 Theatre: Limelight Theatre
 cast: 

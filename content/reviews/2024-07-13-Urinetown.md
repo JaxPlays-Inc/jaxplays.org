@@ -6,7 +6,8 @@ featured_image_alt: "Cast members of 'Urinetown' joyfully raising plungers and m
 featured_image_caption: "Chris Robertson (center) as Bobby Strong rallies the revolution into fierce unity with mops and plungers held high in defiance."
 featured_image_attr: Stray Imagery
 featured_image_attr_link: https://www.instagram.com/strayimagery
-author: Ray Hollister
+authors:
+- Ray Hollister
 production: 2024 Urinetown
 Theatre: The 5 & Dime
 cast:
