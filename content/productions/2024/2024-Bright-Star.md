@@ -89,5 +89,6 @@ orchestra:
 - Guitar: Brian Johnson
 - Upright Bass: Andy Nance
 - Violinist: Kimberly Zielinski
+- Banjo: Benjamin Edwards
 ---
 **Note: The Thursday, September 26, preview performance has been cancelled due to Hurricane Helene. We will be contacting tonight's audience to move tickets to another night. Friday's opening night is on, rain or shine!**
