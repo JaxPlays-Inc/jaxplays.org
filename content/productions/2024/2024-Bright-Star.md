@@ -34,26 +34,96 @@ Tickets: https://limelight.ludus.com/200458971
 cast:
   - Alice Murphy: Maggie Cox
   - Billy Cane: Chad Boyd
-  - Daddy Cane: Brian Johnson
+  - Jimmy Ray Dobbs: Eric Barnum
   - Margo: Emily Layt
+  - Lucy Grant: Kaitlyn Beladi
+  - Daryl Ames: Cash Belcher
+  - Mayor Dobbs: Bo Strange
+  - Daddy Cane: Brian Johnson
+  - Daddy Murphy: Steven Amburgey
+  - Mama Murphy: Susan Nowell
   - Max/Dr. Norquist: Anthony Romero
+  - Stanford: Jeff Schaeffer
   - Florence: Katie Timoney
   - Edna: Ashlynn Amburgey
-  - Daryl: Cash Belcher
-  - Lucy: Kaitlyn Beladi
-  - Mama Murphy: Susan Nowell
-  - Daddy Murphy: Steven Amburgey
-  - Mayor Dobbs: Bo Strange
-  - Jimmy Ray Dobbs: Eric Barnum
-  - Stanford: Jeff Schaeffer
   - Government Clerk: JoAnn Nance
-  - Well Dressed Woman: Keerstin Causey
+  - Featured Ensemble: Ella Romaine
+  - Ensemble: 
+    - Charlie Mack
+    - Katie Timoney
+    - JoAnn Nance
 crew:
   - Director: Sherrie Provence
   - Music Director: Jeff Dodd
   - Choreographer: Kaila Schippani
+  - Stage Manager: Anna Guzman
+  - Backstage Crew: 
+    - McKayla Whiteside
+    - Maxwell Haddock
+  - Set Design: Dom Grasso
+  - Lighting Design: Aubrey Barker
+  - Costume Design: Janice Bickel
+  - Light Board Operator: Ashley Taylor
+  - Sound Board Operator: 
+    - Francesca Bellavista
+    - Lucy Jones
+  - Props Master: Chad Boyd
+  - Technical Director: Ryan Provence
+  - Production Manager: Anna Guzman
+  - Construction: 
+    - Robert Carroll
+    - Tom Ferry
+    - Dom Grasso
+    - Rob O'Leary
+    - Ryan Provence
+    - Charles Ross
+  - Paint Charge: Nancy Grasso
+  - Scenic Painters: 
+    - Chad Boyd
+    - Maggie Cox
+    - Anna Guzman
+  - Photographer: Ryan Provence
 orchestra:
+- Conductor: Mark Dougherty
+- Piano: Mark Dougherty
 - Guitar: Brian Johnson
 - Upright Bass: Andy Nance
+- Violinist: Kimberly Zielinski
 ---
 **Note: The Thursday, September 26, preview performance has been cancelled due to Hurricane Helene. We will be contacting tonight's audience to move tickets to another night. Friday's opening night is on, rain or shine!**
+
+Director
+Sherrie Provence
+Music Director.
+.Jeff Dodd
+Choreographer.
+Kaila Schippani
+Stage Manager.
+Anna Guzman
+Backstage Crew.
+McKayla Whiteside, Maxwell Haddock
+Set Design
+Lighting Design..
+Dom Grasso
+Aubrey Barker
+Costume Design..
+Janice Bickel
+Light Board Operator.
+Ashley Taylor
+Sound Board Operator.
+Francesca Bellavista, Lucy Jones
+Props Master.
+Chad Boyd
+Technical Director.
+Ryan Provence
+Production Manager.
+Anna Guzman
+Construction..
+Robert Carroll, Tom Ferry, Dom Grasso,
+Rob O'Leary, Ryan Provence, Charles Ross
+Paint Charge
+Scenic Painters...
+Nancy Grasso
+Chad Boyd,
+Maggie Cox, Anna Guzman Photographer.
+Ryan Provence
