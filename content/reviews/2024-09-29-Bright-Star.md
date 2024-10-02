@@ -17,7 +17,7 @@ cast:
 - Bo Strange
 - Brian Johnson
 - Steven Amburgey
-description:
+description: "'Bright Star' at Limelight Theatre delivers on every level, from Maggie Cox’s transformative performance to breathtaking visuals. Read our detailed review for more."
 ---
 [[theatre: Limelight Theatre]]’s production of [[production: 2024 Bright Star]] brings Steve Martin and Edie Brickell’s bluegrass musical to life with a rustic charm and emotional depth that make the show soar. Under the direction of a thoughtful creative team, the production delivers powerful performances, innovative staging and a narrative that draws audiences into its world.
 
