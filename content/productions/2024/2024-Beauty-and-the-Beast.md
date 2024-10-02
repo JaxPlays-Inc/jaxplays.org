@@ -59,7 +59,6 @@ understudies:
   - Belle: Rebecca Turngren
   - Mrs. Potts: Hattie Berwind
   - Madame Le Grande: Ava Baker
-genres: 
-Description: 
+description: "Step into the enchanting world of 'Beauty and the Beast,' where love transcends appearances and magic transforms hearts."
 ---
 **Note: The Thursday, September 26th performance has been postponed due to weather from Hurricane Helene. The performance has been rescheduled for Saturday, September 28th at 3:00 PM.**

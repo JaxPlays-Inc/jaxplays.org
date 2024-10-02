@@ -56,9 +56,12 @@
         {{- $opening_date := time .Params.opening_date }}
         {{- $closing_date := time .Params.closing_date }}
         {{- if and (le $opening_date $nextTuesday) (ge $closing_date $currentDate) }}
-            {{- $description := .Summary | default (index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0).Summary }}
-            {{- $content := .Content | default (index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0).Content }}
-            {{- $featuredImage := .Params.featured_image | default (index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0).Params.featured_image }}
+
+            {{- $matchingShow := index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0 }}
+            {{- $description := .Params.description | default $matchingShow.Params.description }}
+            {{- $content := .Content | default $matchingShow.Content }}
+            {{- $featuredImage := .Params.featured_image | default $matchingShow.Params.featured_image }}
+
             <item>
                 <title>{{ .Title }}</title>
                 <link>{{ .Permalink }}</link>
