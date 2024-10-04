@@ -2,7 +2,7 @@
 title: Bakersfield Mist
 Theatre: A Classic Theatre
 Venue: The Waterworks
-date: 2024-06-15T10:12:26-04:00
+date: 2024-10-03T21:29:59-04:00
 opening_date: 2024-10-04
 closing_date: 2024-10-13
 showtimes:
@@ -28,7 +28,37 @@ cast:
   - Lionel Percy: Michael Lipp
 crew:
   - Director: Dawn Knipe
-orchestra:
+  - Lighting Design: 
+    - Ron Hunsicker
+    - Mac MacDonald
+  - Audio:
+    - David Nails
+    - Amy Lauer Goldin
+  - Properties:
+    - Cindy Alexander
+    - Grace Reed
+  - Production Team:
+    - Norman Goldin
+    - Sam Mcllrath
+  - Fight Coordinator: Britton Cory
+  - Producer: Grace Reed
+  - Assistant to the Producer: Cindy Alexander
+  - Costume Designer: Grace Reed
+  - Scenic Design:
+    - Tyler Hammond
+    - Grace Reed
+  - Set Construction:
+    - Tyler Hammond
+    - Rick Cirucci
+  - Marketing/Design: Glo MacDonald
+  - Dramaturg: Linda Shamlian
+  - House Manager: Renate Hamza
+  - Ushers:
+    - Margaret Kaler
+    - Honey Burton
+    - Louise Meredith
+    - Teresa Harris
+    - Maggie Barbieri
 Genres:
   - Play
   - Drama
