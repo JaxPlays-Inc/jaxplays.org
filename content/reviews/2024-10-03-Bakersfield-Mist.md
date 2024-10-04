@@ -2,7 +2,7 @@
 title: "'Bakersfield Mist' at A Classic Theatre – A Spirited Duel of Art, Ego and Identity"
 date: 2024-10-03T21:17:37-04:00
 featured_image: /media/photos/2024-Bakersfield-Mist-01.webp?v=110732
-featured_image_attr: Gloria MacDonald
+featured_image_attr: Glo MacDonald
 featured_image_caption: "Michael Lipp as Lionel Percy and Nancy Grote as Maude Gutman engage in a tense moment during Bakersfield Mist at A Classic Theatre, as Lionel evaluates the authenticity of a painting."
 featured_image_alt: "Michael Lipp and Nancy Grote perform a scene from Bakersfield Mist, with Lipp dressed in a sharp suit and Grote in bright teal pants, against a cluttered backdrop of eclectic art and retro furniture."
 featured_image_attr_link: https://glomacphotoarts.com/
@@ -29,7 +29,7 @@ Both actors effortlessly convey their characters’ shifting emotions, especiall
 
 One of the standout moments of the production is the fight scene — a chaotic, hilarious clash of egos that is both physically and emotionally exhausting to watch. It’s the culmination of the play’s tension, where art, authenticity and human connection collide. The actors’ physicality is impressive here, managing to convey both humor and raw frustration without missing a beat.
 
-{{< figure src="/media/photos/2024-Bakersfield-Mist-02.webp" alt="Michael Lipp, dressed in a blue suit, points a finger while arguing with Nancy Grote, who stands defiantly in teal pants and a patterned blouse, in a scene from 'Bakersfield Mist.' The backdrop features eclectic decor, including a lime green fridge and quirky wall art." caption="Michael Lipp as Lionel Percy and Nancy Grote as Maude Gutman face off in a heated exchange during 'Bakersfield Mist' at A Classic Theatre, each defending their view of what is truly valuable." attr="Gloria MacDonald" attrlink="https://glomacphotoarts.com/" >}}
+{{< figure src="/media/photos/2024-Bakersfield-Mist-02.webp" alt="Michael Lipp, dressed in a blue suit, points a finger while arguing with Nancy Grote, who stands defiantly in teal pants and a patterned blouse, in a scene from 'Bakersfield Mist.' The backdrop features eclectic decor, including a lime green fridge and quirky wall art." caption="Michael Lipp as Lionel Percy and Nancy Grote as Maude Gutman face off in a heated exchange during 'Bakersfield Mist' at A Classic Theatre, each defending their view of what is truly valuable." attr="Glo MacDonald" attrlink="https://glomacphotoarts.com/" >}}
 
 But the heart of *Bakersfield Mist* lies in its quieter moments, particularly as the characters sober up. The monologues that follow are sharp and poignant, forcing the audience to consider how often what we view as superior or authentic is, in fact, nothing more than an illusion. Sachs’s script delivers this theme beautifully, and under the direction of Dawn Knipe, this production doesn’t miss the opportunity to fully explore these questions.
 
