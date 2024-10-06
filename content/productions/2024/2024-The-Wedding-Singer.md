@@ -62,6 +62,68 @@ playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1460&code=WWW&qty_target=0
 cast:
+- Robbie Hart: Jake Pearce
+- Julia Sullivan: Brooklyn Klekamp
+- Holly Sullivan: Jessie Roddy
+- Sammy: Paul Gary
+- George: Nick Cooper
+- Glen Gulia: Keegan Smith
+- Rosie Hart: Cathy Merkle Roddy
+- Linda: Jen Brooks
+- Angie Sullivan: Alexia Adcock-Stanford
+- Ensemble:
+  - Calum Sullivan
+  - Vanson Michael Voce
+  - Kwabena "Tuesday" Flewellyn
+  - Mason Ebert
+  - Michael Roddy
+  - Calvin Bernardo
+  - Sydney Sheffield
+  - Assata Davis
+  - Chelsea Lucas
+  - Arriana P. Flores
+  - Haley Sweat
+understudies:
+- Robbie: Calvin Bernardo
+- Julia: 
+  - Alexia Adcock-Stanford
+  - Sydney Sheffield
+- Rosie: 
+  - Chelsea Lucas
+  - Alexia Adcock-Stanford
+- Linda: Chelsea Lucas
+- Sammy: 
+  - Calvin Bernardo
+  - Kawbena "Tuesday" Flewellyn
+- George: 
+  - Calvin Bernardo
+  - Kwabena "Tuesday" Flewellyn
+- Glen: 
+  - Calvin Bernardo
+  - Calum Sullivan
 crew:
+- Executive Producer: Tod Booth
+- Vice President of Production/Director: Shain Stroff
+- Choreographer: Erick Ariel Sureda
+- Musical Director: Cathy Murphy Giddens
+- Lighting Design: Chad Conley
+- Set Design: David Dionne
+- Costume Design: 
+  - Camala Pitts
+  - Dorinda Quiles
+- Sound Design/Technician: Carly Meyer
+- Wig Design: Camala Pitts
+- Lighting Assistant: Johnny Pettegrew
+- Set Construction: 
+  - Ian Black
+  - Kenney Holderfield
+- Company Management: Lisa Valdini Booth
+- Production Management: 
+  - Erick Ariel Sureda
+  - Sarah Brace
+- Property Master: Patti Eyler
+- Production Crew: 
+  - Thad Walker
+  - Ezra Ingram
 orchestra:
 ---
