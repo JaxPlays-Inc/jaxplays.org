@@ -20,7 +20,7 @@ cast:
 - Cathy Merkle Roddy
 - Jen Brooks
 - Carly Meyer
-description: "*The Wedding Singer* at Alhambra delivers laughs, love, and ‘80s nostalgia with stellar performances, inventive choreography and an infectious original score."
+description: "*The Wedding Singer* at Alhambra delivers laughs, love and ‘80s nostalgia with stellar performances, inventive choreography and an infectious original score."
 ---
 [[production:2024 The Wedding Singer]] at the [[theatre:Alhambra Theatre & Dining]] brings the electric energy of the '80s to life in a bold, colorful and heartfelt production. Directed by [[person:Shain Stroff]], this reinterpretation of the beloved 1998 Adam Sandler movie captures both the nostalgic charm of the original and injects fresh, creative twists that make it a joy for both new audiences and longtime fans.<!--more-->
 
