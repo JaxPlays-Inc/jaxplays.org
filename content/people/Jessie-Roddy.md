@@ -1,7 +1,7 @@
 ---
 title: Jessie Roddy
-date: 2024-10-06T18:49:02-04:00
-featured_image: 
+date: 2024-10-06T21:03:36-04:00
+featured_image: Jessie-Roddy.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -9,9 +9,9 @@ featured_image_caption:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
+  Instagram: jessieroddy
   LinkedIn: 
   IBDB: 
   IMDb:
-  Website: 
+  Website: https://www.jessieroddy.com
 ---
