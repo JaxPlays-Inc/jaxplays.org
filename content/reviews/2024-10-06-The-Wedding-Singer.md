@@ -34,6 +34,8 @@ From the very first number, "It's Your Wedding Day," the cast bursts onto the st
 
 Rosie Hart, Robbie’s quirky and lovable grandmother, played by [[person:Cathy Merkle Roddy]], never fails to get a laugh with her antics, but there’s also a sweetness to the character that Roddy brings out beautifully. Whether she’s engaging in humorous banter or showing Robbie tough love, Roddy’s Rosie is as endearing as she is hilarious.
 
+[[person:Paul Gary]]’s portrayal of Sammy strikes the perfect balance between humor and heart, bringing the lovable loser archetype to life with flair. As Robbie’s bandmate and best friend, Sammy stumbles through life with charm, delivering awkward romantic moments and hilariously offbeat advice. Gary’s blend of goofiness and vulnerability adds depth, making each of Sammy’s scenes a blast. 
+
 Then there’s [[person:Jessie Roddy]]’s Holly, a firecracker of a character with a ridiculous but spot-on New Jersey accent. While Holly could easily be a one-dimensional party girl, Roddy adds depth through sharp comedic timing and moments of vulnerability. When she belts out “Right in Front of Your Eyes,” she not only delivers powerful vocals but also manages to convey Holly’s confidence and hidden longing for something more. Roddy’s dynamic presence elevates the character, making her a standout in every scene.
 
 [[person:Keegan Smith]] plays Glen Gulia with the perfect amount of sleaze, channeling *Glengarry Glen Ross* and *American Psycho* vibes with his slicked-back hair and sharp charcoal suit. His portrayal of Julia’s cold-hearted fiancé oozes arrogance, and Smith leans into the character’s villainy with a deliciously smarmy performance. His scenes radiate tension, making Glen a fitting foil to Robbie’s earnestness.
