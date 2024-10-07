@@ -19,7 +19,7 @@ cast:
 - Steven Amburgey
 description: "'Bright Star' at Limelight Theatre delivers on every level, from Maggie Cox’s transformative performance to breathtaking visuals. Read our detailed review for more."
 ---
-[[theatre: Limelight Theatre]]’s production of [[production: 2024 Bright Star]] brings Steve Martin and Edie Brickell’s bluegrass musical to life with a rustic charm and emotional depth that make the show soar. Under the direction of a thoughtful creative team, the production delivers powerful performances, innovative staging and a narrative that draws audiences into its world.
+[[theatre: Limelight Theatre]]’s production of [[production: 2024 Bright Star]] brings Steve Martin and Edie Brickell’s bluegrass musical to life with a rustic charm and emotional depth that make the show soar. Under the direction of a thoughtful creative team, the production delivers powerful performances, innovative staging and a narrative that draws audiences into its world.<!--more-->
 
 The set design is simple but effective, with a rustic pallet wall at the back creating a charming, homey feel that evokes the Blue Ridge Mountains. One of the most impressive elements of the set is the gazebo housing the live bluegrass band, adorned with flickering lanterns and fairy lights. When the gazebo moves mid-show, it becomes a true “wow” moment, adding an unexpected dynamism to the staging. Despite the size of the band taking up significant stage space, their presence is well worth it, contributing to the live, immersive atmosphere that *Bright Star* thrives on.
 
