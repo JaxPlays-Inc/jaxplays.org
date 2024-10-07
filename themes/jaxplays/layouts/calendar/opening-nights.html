@@ -158,8 +158,8 @@
         <input class="w2 w3-l h2" type="checkbox" id="all_theatres" name="theatre" value="all_theatres" checked="checked">
         <label class="ml2 b lh-copy" for="all_theatres">All Theatres</label><br>
       </div>
-      {{ range where .Site.Pages "Type" "theatres" }}
-      {{ if eq .Params.active true }}
+      {{ range sort (where .Site.Pages "Type" "theatres") ".Title" }}
+      {{ if eq .Params.active true }}      
       <div class="pa2 w-100 w-50-l flex">
         <input class="w2 w3-l h2" type="checkbox" id="{{ .Title }}" name="theatre" value="{{ .Title }}" checked="checked">
         <label class="ml2 lh-copy" for="{{ .Title }}">{{ .Title }}</label><br>
