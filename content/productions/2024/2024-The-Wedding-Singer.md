@@ -14,8 +14,6 @@ showtimes:
   - 2024-10-06 12:00:00
   - 2024-10-06 18:00:00
   - 2024-10-08 18:00:00
-  - 2024-10-09 18:00:00
-  - 2024-10-10 18:00:00
   - 2024-10-11 18:00:00
   - 2024-10-12 12:00:00
   - 2024-10-12 18:00:00
@@ -127,3 +125,5 @@ crew:
   - Ezra Ingram
 orchestra:
 ---
+
+**NOTE** In an abundance of caution and concern for our Alhambra family, we will be closing the Theater on Wednesday at noon, with plans to reopen on Friday at 11:00 AM. We know many of you are eager to hear about our 2025 season, and we are just as excited to share it with you. However, due to the storm, we are postponing the announcement for a few days, as we won’t be available to answer your calls immediately.
