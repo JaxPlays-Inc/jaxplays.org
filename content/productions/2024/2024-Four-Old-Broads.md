@@ -24,10 +24,21 @@ playbill:
 Website: 
 Tickets: https://3common.com/event/four-old-broads/6664969be9dfa5f27998863f
 show_details: 
+- Playright: Leslie Kimbell
 cast:
+  - Maude: Jeanie Lijoi
+  - Beatrice: Simone Aden
+  - Imogene: Meganne Johnson
+  - Eaddy: Hazel Robinson
+  - Pat: Susan Roche
+  - Ruby Sue: Carol Nash
+  - Sam: Blake Osner
 crew:
-- Director: Cathy Dooley
-orchestra:
-genres: 
-Description: 
+  - Director: Cathy Dooley
+  - Stage Manager: Jessie Trudnak
+Genres:
+  - Play
+  - Comedy
+Description: "Set sail on a hilarious journey with four feisty retirees who embark on a high-seas adventure that tests their friendship and uncovers a mystery."
 ---
+*Four Old Broads* follows the escapades of four vibrant senior women on a cruise ship, where they plan to enjoy their retirement to the fullest. As they navigate the choppy waters of cruise ship entertainment and quirky shipmates, they stumble upon an unexpected mystery involving the sudden disappearance of fellow passengers. With sharp wit and relentless humor, the ladies band together to solve the puzzle, proving that age is just a number when it comes to adventure and camaraderie.
