@@ -14,7 +14,7 @@ showtimes:
   - 2024-08-08 19:30:00
   - 2024-08-09 19:30:00
   - 2024-08-10 19:30:00
-featured_image: 
+featured_image: 2024-Return-to-Sunset-Village.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
