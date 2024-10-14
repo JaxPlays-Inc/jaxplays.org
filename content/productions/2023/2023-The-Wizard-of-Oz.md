@@ -9,17 +9,11 @@ featured_image_caption: Poster for The Wizard of Oz
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 playbill:
-Genres:
-- Musical
-- Fantasy
-- Adventure
-- Family
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
 Website: https://ameliamusicalplayhouse.com/performances/oz2023/
 Tickets: https://ameliamusicalplayhouse.com/tickets/
 show_details: 
-Description: Journey down the yellow brick road with Dorothy, a Kansas farm girl, as she navigates the fantastical world of Oz.
 showtimes:
 - 2023-10-12 19:30:00
 - 2023-10-13 19:30:00

@@ -18,24 +18,9 @@ featured_image_attr_link:
 playbill:
 Website: 
 Tickets: 
-show_details: 
-- Music: 
-  - "[[w:Harold Arlen]]"
-  - "[[w:E. Y. Harburg]]"
-  - "[[w:Herbert Stothart]]"
-- Lyrics: 
-  - Harold Arlen
-  - E. Y. Harburg
-- Book: "[[w:John Kane]]"
-- Basis: "*[[w:The Wonderful Wizard of Oz]]* by [[w:L. Frank Baum]] and *[[w:The Wizard of Oz]]*, screenplay by [[w:Noel Langley]], [[w:Florence Ryerson]], [[w:Edgar Allan Woolf]]"
 cast:
 crew:
 orchestra:
-# The Wizard of Oz
-Genres:
-  - Musical
-  - Fantasy
-  - Family
 Description: "Embark on a magical journey with *The Wizard of Oz*, where a Kansas farm girl finds adventure and friendship on her quest to return home from a mystical land."
 ---
 *The Wizard of Oz* follows young Dorothy Gale as she is whisked away by a tornado from her Kansas farm to the fantastical Land of Oz. Determined to return home, she sets off on the Yellow Brick Road toward the Emerald City to seek help from the mysterious Wizard. Along the way, Dorothy befriends a Scarecrow, a Tin Man and a Cowardly Lion, who all seek the Wizard's help for their own desires. Facing witches and many other challenges, the group learns about courage, love, wisdom, and the power of friendship. This beloved musical enchants audiences with its iconic music, including 'Somewhere Over the Rainbow,' and its timeless message of discovery and self-realization.
