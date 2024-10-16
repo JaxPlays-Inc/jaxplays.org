@@ -13,7 +13,7 @@ showtimes:
   - 2024-10-25 19:30:00
   - 2024-10-26 19:30:00
   - 2024-10-27 14:00:00
-featured_image: 
+featured_image: 2024-Dracula.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
