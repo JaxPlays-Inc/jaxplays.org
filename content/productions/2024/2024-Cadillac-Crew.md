@@ -24,17 +24,22 @@ Tickets: https://www.zeffy.com/en-US/ticketing/b11783ad-a69a-46c9-8ab8-cad2d6425
 show_details: 
 - Playwright: "[[w:Tori Sampson]]"
 cast:
-- Abby: Felecia Ewing
-- Dee: Zonnetta Marie
-- Sarah: Kate McManus
-- Rachel: Cetera Bunche
+- Abby / Opal: Felecia Ewing
+- Dee / Patrisse: Zonnetta Marie
+- Sarah / Journalist: Kate McManus
+- Rachel / Alicia: Cetera Bunche
 crew:
 - Director:
   - Katie Johnston
   - Brian Niece
 - Stage Manager: Faith Rautter
-- Dramaturg: Victoria Mayapi
-orchestra:
+- Dramaturg: Victoria Mapayi
+- Production Manager: Katie Swider
+- Set & Props Designer: Claire Cimino
+- Lighting Designer: Mike Livingston
+- Sound & Video Designer: Brian Niece
+- Costume Designer: Katie Swider
+- Technical Director: Mike Livingston
 Genres:
   - Play
   - Drama
