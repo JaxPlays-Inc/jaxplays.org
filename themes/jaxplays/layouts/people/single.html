@@ -1,4 +1,4 @@
-{{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
+{{ define "header" }}{{ partialCached "production-header.html" . }}{{ end }}
 {{ define "main" }}
 {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
 {{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->

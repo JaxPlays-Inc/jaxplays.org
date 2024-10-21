@@ -1,4 +1,4 @@
-{{ partial "site-navigation.html" . }}
+{{ partialCached "site-navigation.html" . }}
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
 {{ if $featured_image }}
   <header>
