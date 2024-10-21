@@ -117,7 +117,7 @@ orchestra:
 - Drums/Percussion: Jeff MacPherson
 - Acoustic/Electric Bass: Tyler Williams
 - Flute/Piccolo/Clarinet/Alto Sax/Soprano Sax: Dane Andersen
-- Oboe/English Horn/Flute/Clarinet/Tenor Sax: Mike Livingston
+- Oboe/English Horn/Flute/Clarinet/Tenor Sax: Mike Livingston 2
 - Trumpet 1/Flugelhorn: Tim Burke
 - Trumpet 2/Flugelhorn: Paul Baron
 - French Horn: Sarah Younker
