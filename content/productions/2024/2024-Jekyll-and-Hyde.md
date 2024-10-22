@@ -69,10 +69,4 @@ crew:
     - Kat Goliber
     - Tinsley Granillo
 orchestra:
-Genres:
-  - Musical
-  - Drama
-  - Thriller
-Description: "Experience the haunting duality of *Jekyll & Hyde*, a gripping musical that delves into the battle between good and evil within one man."
 ---
-Based on the classic novella by Robert Louis Stevenson, *Jekyll & Hyde* tells the story of Dr. Henry Jekyll, a brilliant scientist who conducts an experiment to separate his noble and dark sides. The result is the emergence of the terrifying Edward Hyde. As Hyde's violent impulses spiral out of control, Jekyll struggles to contain the monster within. Featuring a powerful score with songs like 'This Is the Moment' and 'Someone Like You,' this musical captures the tension and tragedy of Jekyll's descent into madness.
