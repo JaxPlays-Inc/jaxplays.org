@@ -7,8 +7,8 @@ date: 2024-09-19T12:06:34-04:00
 opening_date: 2025-01-31
 closing_date: 2025-02-01
 showtimes:
-- 2025-01-31T19:00:00-04:00
-- 2025-02-01T13:00:00-04:00
+- 2025-01-31 19:00:00
+- 2025-02-01 13:00:00
 featured_image: 2025-Another-Sunrise-and-For-a-Look-or-a-Touch.webp
 featured_image_alt: 
 featured_image_caption: 

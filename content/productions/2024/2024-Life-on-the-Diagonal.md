@@ -7,7 +7,7 @@ date: 2024-09-19T10:28:53-04:00
 opening_date: 2024-09-22
 closing_date: 2024-09-22
 showtimes:
-- 2024-09-22T17:00:00-04:00
+- 2024-09-22 17:00:00
 featured_image: 2024-Life-on-the-Diagonal.webp
 featured_image_alt: 
 featured_image_caption: 

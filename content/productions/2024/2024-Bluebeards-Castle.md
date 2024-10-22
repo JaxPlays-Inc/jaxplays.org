@@ -7,8 +7,8 @@ date: 2024-09-19T11:56:06-04:00
 opening_date: 2024-10-25
 closing_date: 2024-10-26
 showtimes:
-- 2024-10-25T19:00:00-04:00
-- 2024-10-26T13:00:00-04:00
+- 2024-10-25 19:00:00
+- 2024-10-26 13:00:00
 featured_image: 2024-Bluebeards-Castle.webp
 featured_image_alt: 
 featured_image_caption: 
