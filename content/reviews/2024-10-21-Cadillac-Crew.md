@@ -1,6 +1,6 @@
 ---
 title: "Lumen Repertory’s 'Cadillac Crew' is a Compelling Call to Reclaim Forgotten Voices"
-date: 2024-10-19T21:24:04-04:00
+date: 2024-10-21T21:24:04-04:00
 featured_image: /media/photos/2024-Cadillac-Crew-01.webp
 featured_image_attr: Josh Andrews
 featured_image_attr_link: https://www.jaxheadshots.co/
