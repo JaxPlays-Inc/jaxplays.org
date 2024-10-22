@@ -46,6 +46,28 @@ cast:
     - Jessica Ramirez
     - Sarah Blasi
 crew:
+  - Director: Bradley Akers
+  - Musical Director: Anthony Felton
+  - Choreographer: Jocelyn Geronimo
+  - Stage Manager: Samantha Hannigan
+  - Scenic Designer: Bradley Akers
+  - Lighting Designer: Daniel Dungan
+  - Props Mistress: Heather Goliber
+  - Costumes: 
+    - Michelle C. Lindsay
+    - Phedre Delinois
+  - Master Carpenter: Tom Cassaro
+  - Scenic Charge Artists:
+    - Jereme Raickett
+    - Maya Williams
+  - Master Electrician: Ben Sparenberg
+  - Assistant Choreographer: Theresa Pazanowski
+  - Set Dresser: Allen Morton
+  - Board Ambassador: Jaquette Jantzen
+  - Stage Crew:
+    - Heather Goliber
+    - Kat Goliber
+    - Tinsley Granillo
 orchestra:
 Genres:
   - Musical
