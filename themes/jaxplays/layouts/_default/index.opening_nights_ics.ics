@@ -1,0 +1,29 @@
+{{- printf "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//JaxPlays//EN\n" -}}
+{{- $events := slice -}}
+{{- range where .Site.Pages "Type" "productions" -}}
+  {{- $title := .Title -}}
+  {{- $theatre := .Params.Theatre -}}
+  {{- $title := print $theatre " - " $title -}}
+  {{- $url := .Permalink -}}
+  {{- $featuredImage := .Params.featured_image -}}
+
+  {{- with .Params.showtimes -}}
+    {{- if gt (len .) 0 -}}
+      {{- $firstShowtime := index . 0 -}}
+      {{- $dateTimeFormat := printf "%s" $firstShowtime -}} {{/* Get the first showtime */}}
+      {{- $dateTimeISO := replace $dateTimeFormat " " "T" -}} {{/* Replace space with T to form correct ISO 8601 format */}}
+      {{- $dateTimeISO = print $dateTimeISO "-05:00" -}} {{/* Append timezone offset correctly */}}
+      {{- $events = $events | append (dict "title" $title "start" $dateTimeISO "theatre" $theatre "url" $url "featured_image" $featuredImage) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range $events -}}
+  {{- printf "BEGIN:VEVENT\n" -}}
+  {{- printf "SUMMARY:%s\n" .title -}}
+  {{- printf "DTSTART;VALUE=DATE-TIME:%s\n" .start -}} {{/* Output the datetime as a string */}}
+  {{- printf "DESCRIPTION:More details at %s\n" .url -}}
+  {{- printf "URL:%s\n" .url -}}
+  {{- printf "END:VEVENT\n" -}}
+{{- end -}}
+{{- printf "END:VCALENDAR" -}}
