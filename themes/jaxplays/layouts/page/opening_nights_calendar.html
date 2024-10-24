@@ -1,6 +1,14 @@
 {{ define "main" }}
 <pre>
   {{- printf "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//JaxPlays//EN\n" -}}
+  {{- printf "X-WR-CALNAME:JaxPlays Opening Nights Calendar" -}}
+  {{- printf "X-WR-CALDESC:JaxPlays Opening Nights Calendar" -}}
+  {{- printf "X-WR-TIMEZONE:America/New_York" -}}
+  {{- printf "CALSCALE:GREGORIAN" -}}
+  {{- printf "METHOD:PUBLISH" -}}
+  {{- printf "BEGIN:VTIMEZONE\nTZID:America/New_York\nX-LIC-LOCATION:America/New_York\nBEGIN:DAYLIGHT\nTZOFFSETFROM:-0500\nTZOFFSETTO:-0400\nTZNAME:EDT\nDTSTART:19700308T020000\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\nEND:DAYLIGHT\nBEGIN:STANDARD\nTZOFFSETFROM:-0400\nTZOFFSETTO:-0500\nTZNAME:EST\nDTSTART:19701101T020000\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\nEND:STANDARD\nEND:VTIMEZONE" -}}
+  
+  {{- $now := now -}}
   {{- $events := slice -}}
   {{- range where .Site.Pages "Type" "productions" -}}
     {{- $title := .Title -}}
