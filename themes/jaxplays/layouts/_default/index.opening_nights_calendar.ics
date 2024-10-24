@@ -9,6 +9,7 @@
 
     {{- with .Params.showtimes -}}
       {{- if gt (len .) 0 -}}
+        {{- $dateTimeStamp := time.Format "20060102T150405" now -}}
         {{- $firstShowtime := index . 0 -}}
         {{- $dateTimeFormat := printf "%s" $firstShowtime -}} {{/*  Get the first showtime  */}}
         {{- $dateTimeISO := replace $dateTimeFormat " " "T" -}} {{/* Replace space with T to form correct ISO 8601 format */}}
@@ -17,7 +18,7 @@
         {{- $duration := time.ParseDuration "2.5h" -}}
         {{- $dateTimeISOEND := $dateTimeISO.Add $duration -}}
         {{- $dateTimeEnd := time.Format "20060102T150405" $dateTimeISOEND -}}
-        {{- $events = $events | append (dict "title" $title "start" $dateTimeStart "end" $dateTimeEnd "theatre" $theatre "url" $url "featured_image" $featuredImage) -}}
+        {{- $events = $events | append (dict "title" $title "stamp" $dateTimeStamp "start" $dateTimeStart "end" $dateTimeEnd "theatre" $theatre "url" $url "featured_image" $featuredImage) -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -25,9 +26,10 @@
   {{- range $events -}}
     {{- printf "BEGIN:VEVENT\n" -}}
     {{- printf "SUMMARY:%s\n" .title -}}
+    {{- printf "DTSTAMP:%s\n" .stamp -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTSTART:%s\n" .start -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTEND:%s\n" .end -}} {{/*  Output the datetime as a string  */}}
-    {{- printf "DESCRIPTION:More details at %s\n" .url -}}
+    {{- printf "SUMMARY:More details at %s\n" .url -}}
     {{- printf "URL:%s\n" .url -}}
     {{- printf "END:VEVENT\n" -}}
   {{- end -}}
