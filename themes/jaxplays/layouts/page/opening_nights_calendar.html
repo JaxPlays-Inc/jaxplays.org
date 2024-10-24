@@ -5,7 +5,7 @@
   {{- range where .Site.Pages "Type" "productions" -}}
     {{- $title := .Title -}}
     {{- $theatre := .Params.Theatre -}}
-    {{- $title := print $theatre " - " $title -}}
+    {{- $title := print $title " - " $theatre -}}
     {{- $url := .Permalink -}}
     {{- $featuredImage := .Params.featured_image -}}
 
