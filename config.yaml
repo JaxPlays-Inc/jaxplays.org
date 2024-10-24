@@ -2,6 +2,7 @@ baseURL: 'https://jaxplays.org'
 languageCode: 'en-us'
 title: 'JaxPlays'
 theme: 'jaxplays'
+timezone: 'America/New_York'
 permalinks:
   news: "/:section/:year/:month/:day/:slug/"
   reviews: "/:section/:year/:month/:day/:slug/"

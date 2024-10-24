@@ -1,3 +1,5 @@
+{{ define "main" }}
+<pre>
   {{- printf "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//JaxPlays//EN\n" -}}
   {{- $events := slice -}}
   {{- range where .Site.Pages "Type" "productions" -}}
@@ -32,3 +34,5 @@
     {{- printf "END:VEVENT\n" -}}
   {{- end -}}
   {{- printf "END:VCALENDAR" -}}
+</pre>
+{{- end -}}
