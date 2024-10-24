@@ -11,6 +11,7 @@
   {{- range where .Site.Pages "Type" "productions" -}}
     {{- $title := .Title -}}
     {{- $theatre := .Params.Theatre -}}
+    {{- $venue := .Params.Venue -}}
     {{- $title := print $title " - " $theatre -}}
     {{- $url := .Permalink -}}
     {{- $featuredImage := .Params.featured_image -}}
@@ -28,19 +29,21 @@
         {{- $duration := time.ParseDuration "2.5h" -}}
         {{- $dateTimeISOEND := $dateTimeISO.Add $duration -}}
         {{- $dateTimeEnd := time.Format "20060102T150405" $dateTimeISOEND -}}
-        {{- $events = $events | append (dict "title" $title "stamp" $dateTimeStamp "start" $dateTimeStart "end" $dateTimeEnd "created_date" $createdDate "theatre" $theatre "url" $url "featured_image" $featuredImage) -}}
-      {{- end -}}
+        {{- $uid := printf "%s-%s" (sha1 $title) (sha1 $dateTimeStamp) -}}  {{/* Generate pseudo-random UID based on title and timestamp */}}
+        {{- $events = $events | append (dict "title" $title "uid" $uid "stamp" $dateTimeStamp "start" $dateTimeISO "end" $dateTimeEnd "url" $url "featured_image" $featuredImage "venue" $venue "created_date" $createdDate) -}}
+    {{- end -}}
     {{- end -}}
   {{- end -}}
 
   {{- range $events -}}
     {{- printf "BEGIN:VEVENT\n" -}}
+    {{- printf "UID:%s\n" .uid -}}
     {{- printf "SUMMARY:%s\n" .title -}}
     {{- printf "DTSTAMP:%s\n" .stamp -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTSTART:%s\n" .start -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTEND:%s\n" .end -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DESCRIPTION:More details at %s\n" .url -}}
-    {{- printf "LOCATION:%s\n" .theatre -}}
+    {{- printf "LOCATION:%s\n" .venue -}}
     {{- printf "CREATED:%s\n" .created_date -}}
     {{- printf "END:VEVENT\n" -}}
   {{- end -}}
