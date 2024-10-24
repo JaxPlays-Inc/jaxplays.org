@@ -31,7 +31,7 @@
     {{- printf "DTSTAMP:%s\n" .stamp -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTSTART:%s\n" .start -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTEND:%s\n" .end -}} {{/*  Output the datetime as a string  */}}
-    {{- printf "SUMMARY:More details at %s\n" .url -}}
+    {{- printf "DESCRIPTION:More details at %s\n" .url -}}
     {{- printf "URL:%s\n" .url -}}
     {{- printf "END:VEVENT\n" -}}
   {{- end -}}
