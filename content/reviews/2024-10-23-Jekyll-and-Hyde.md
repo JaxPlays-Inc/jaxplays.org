@@ -14,7 +14,7 @@ cast:
 - Julia Blasi
 - Ilana Marshall
 - Chris Robertson
-description: " Cole Marshall’s riveting portrayal of the dual roles and a talented ensemble turn Players by the Sea’s 'Jekyll & Hyde' into an unforgettable theatrical experience."
+description: "Cole Marshall’s riveting portrayal of the dual roles and a talented ensemble turn Players by the Sea’s *Jekyll & Hyde* into an unforgettable theatrical experience."
 ---
 At its core, [[production:2024 Jekyll & Hyde]] is a study in the duality of human nature — how good and evil coexist within us, and the perilous line that separates them. Set in Victorian London, the story follows Dr. Henry Jekyll, a brilliant scientist obsessed with separating the moral from the immoral in mankind. When his experiments turn inward, he unleashes Edward Hyde, a malevolent force born from his own repressed desires. As Hyde’s brutal violence spirals out of control, Jekyll battles to reclaim his sanity, while those closest to him are caught in the crossfire of his self-destruction.
 
