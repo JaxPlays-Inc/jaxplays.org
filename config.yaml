@@ -112,9 +112,9 @@ outputFormats:
     baseName: opening_nights
     isPlainText: true
     notAlternative: true
-  Opening_Nights_ICS:
+  Opening_Nights_Calendar:
     mediaType: text/calendar
-    baseName: opening_nights_ics
+    baseName: opening_nights_calendar
     isPlainText: true
     notAlternative: true
     noUgly: true
@@ -125,7 +125,7 @@ outputs:
     - JSON
     - Calendar
     - Opening_Nights
-    - Opening_Nights_ICS
+    - Opening_Nights_Calendar
   section:
     - HTML
     - RSS
