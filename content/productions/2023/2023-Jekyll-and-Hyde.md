@@ -1,5 +1,7 @@
 ---
-title: "Jekyll & Hyde: The Musical"
+title: "Jekyll & Hyde"
+aliases: 
+  - /productions/2023-jekyll-hyde-the-musical/
 date: 2024-06-12T23:44:08-04:00
 opening_date: 2023-10-13
 closing_date: 2023-10-22

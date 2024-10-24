@@ -52,6 +52,8 @@ crew:
   - Stage Manager: Samantha Hannigan
   - Scenic Designer: Bradley Akers
   - Lighting Designer: Daniel Dungan
+  - Audio Engineering: GoldenStage Productions
+  - Sound Design: GoldenStage Productions
   - Props Mistress: Heather Goliber
   - Costumes: 
     - Michelle C. Lindsay

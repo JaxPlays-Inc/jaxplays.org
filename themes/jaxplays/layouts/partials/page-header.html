@@ -4,7 +4,7 @@
   <header>
     {{ $src := .Params.featured_image }}
     {{ $alt := cond (isset .Params "featured_image_alt") .Params.featured_image_alt .Title }}
-    {{ $caption := .Params.featured_image_caption }}
+    {{ $caption := .Params.featured_image_caption | markdownify | safeHTML }} 
     {{ $attr := .Params.featured_image_attr }}
     {{ $attrlink := .Params.featured_image_attr_link }}
     {{ $light_text_color_class := .Site.Params.light_text_color_class }}

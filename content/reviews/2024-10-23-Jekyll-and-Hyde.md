@@ -1,0 +1,51 @@
+---
+title: "Psychological Horror Comes to Life in Players by the Sea’s 'Jekyll & Hyde'"
+date: 2024-10-23T19:45:42-04:00
+featured_image: /media/photos/2024-Jekyll-and-Hyde-01.webp
+featured_image_attr: Mike Kitaif
+featured_image_alt: "Cole Marshall as Dr. Henry Jekyll holding a flask high during a pivotal scene in Players by the Sea's production of Jekyll & Hyde."
+featured_image_caption: "Cole Marshall delivers a captivating performance as Dr. Henry Jekyll in Players by the Sea's production of *Jekyll & Hyde*, commanding the stage with a mesmerizing portrayal of the tormented scientist."
+authors: 
+- Ray Hollister
+production: 2024 Jekyll and Hyde
+Theatre: Players by the Sea
+cast: 
+- Cole Marshall
+- Julia Blasi
+- Ilana Marshall
+- Chris Robertson
+description: " Cole Marshall’s riveting portrayal of the dual roles and a talented ensemble turn Players by the Sea’s 'Jekyll & Hyde' into an unforgettable theatrical experience."
+---
+At its core, [[production:2024 Jekyll & Hyde]] is a study in the duality of human nature — how good and evil coexist within us, and the perilous line that separates them. Set in Victorian London, the story follows Dr. Henry Jekyll, a brilliant scientist obsessed with separating the moral from the immoral in mankind. When his experiments turn inward, he unleashes Edward Hyde, a malevolent force born from his own repressed desires. As Hyde’s brutal violence spirals out of control, Jekyll battles to reclaim his sanity, while those closest to him are caught in the crossfire of his self-destruction.
+
+[[person:Bradley Akers]]’ direction of *Jekyll & Hyde* at [[theatre:Players by the Sea]] leans heavily into the psychological horror of the piece based on the classic novella by [[w:Robert Louis Stevenson]], crafting a production that is less a melodramatic gothic tale and more a simmering exploration of unchecked ambition and suppressed inner demons. The result is a production that feels explosive yet simultaneously claustrophobic, haunting and eerily intimate.
+
+{{< figure src="/media/photos/2024-Jekyll-and-Hyde-04.webp" alt="Cole Marshall as Dr. Jekyll addressing the Board of Governors in Players by the Sea's production of *Jekyll & Hyde*." caption="Cole Marshall’s Dr. Jekyll confronts the Board of Governors of St. Jude’s Hospital, passionately defending his controversial experiments. The tension mounts as Jekyll tries to justify his radical methods, unaware of the darkness that is about to consume him." attr="Mike Kitaif" >}}
+
+[[person:Cole Marshall]]’s portrayal of Dr. Jekyll and his menacing counterpart, Edward Hyde, is the beating heart of the show. His clear, resonant baritone voice anchors the production, turning numbers like “This Is the Moment” into absolute showstoppers. Marshall's vocal strength combined with his ability to convey the internal struggle of the characters makes his performance of “Confrontation” particularly mesmerizing — his seamless transitions between the tortured Jekyll and the monstrous Hyde are gripping. Time and again, he delivers performances that have the audience spellbound, showcasing his range both vocally and emotionally. What truly sets Marshall’s performance apart though is his subtlety — rather than falling into the trap of overplaying the good-versus-evil dichotomy, he allows these personalities to bleed into each other. His Jekyll is twitchy, unnerved, on the verge of collapse even before Hyde fully emerges, while his Hyde is not just a snarling villain, but a cunning predator lurking behind every shadow of Jekyll’s mind. It’s a riveting balancing act and a testament to Marshall’s skill that he can make these characters feel like two sides of the same coin, rather than mere caricatures.
+
+{{< figure src="/media/photos/2024-Jekyll-and-Hyde-03.webp" alt="Cole Marshall as Dr. Jekyll gestures toward Julia Blasi as Emma Carew during a tense scene in Players by the Sea's production of *Jekyll & Hyde*." caption="In a pivotal scene from *Jekyll & Hyde*, Cole Marshall as Dr. Jekyll pleads with Julia Blasi’s Emma Carew, torn between his love for her and the darkness consuming him. Their emotional exchange underscores the tragedy of Jekyll's inner turmoil as he struggles to keep his monstrous side hidden." attr="Mike Kitaif" >}}
+
+In contrast, [[person:Julia Blasi]]’s Emma Carew provides a welcome breath of sincerity and warmth. Her delicate performance allows the audience to grasp what is at stake for Jekyll.  Her portrayal of Emma’s steadfast love for Jekyll is layered with a poignant sense of inevitability, knowing that love alone cannot save him from his darker self. In her remarkably beautiful rendition of “Once Upon a Dream,” Blasi offers a glimmer of hope in an otherwise dark narrative. Her voice is breathtaking — soaring with an emotional intensity that fills the theater, making even the simplest notes feel imbued with longing and heartbreak.
+
+[[person:Ilana Marshall]]’s Lucy is an electrifying force of nature, balancing sensuality, strength and vulnerability. Her character is deeply scarred yet resilient, and Ilana brings a raw, emotional intensity to songs like “Someone Like You” and “A New Life.” Her ability to portray both the seductive allure and the underlying pain of Lucy makes her performance compelling, especially in moments where she stands in stark contrast to the purity of Emma.
+
+Blasi and Marshall both shine spectacularly in their duet, “In His Eyes,” creating one of the most emotionally resonant moments in *Jekyll & Hyde*. The song not only highlights their individual vocal strengths but also the deep, contrasting emotions of their characters. Together, their voices blend beautifully, creating a harmony that is as tender as it is tragic. 
+
+[[person:Chris Robertson]], as Jekyll’s confidante John Utterson, provides a grounded foil to the madness unfolding around him. While Robertson’s performance is steady, his character remains on the periphery of the plot, leaving the audience wanting more from his relationship with Jekyll. His potential as the moral compass of the story feels somewhat underutilized, especially in a tale that hinges so strongly on questions of morality, but this is most definitely a critique of the script rather than Robertson’s performance. Robertson's portrayal of Utterson makes you want to scream at Jekyll to listen to him, to heed his warnings, to let him in.
+
+Among the supporting cast, [[person:Evan Gould]]’s portrayal of the sinister Bishop of Basingstoke is a delightfully devious standout. His villainous sneer and selfish motivations bring a much-needed bite to his scenes, making the bishop a memorable character in a production filled with larger-than-life personalities.
+
+{{< figure src="/media/photos/2024-Jekyll-and-Hyde-05.webp" alt="The ensemble of Players by the Sea's production of Jekyll & Hyde performing the song \"Facade\" under dramatic blue lighting." caption="The ensemble cast of *Jekyll & Hyde* strikes commanding poses during the number \"Facade,\" capturing the tension and complexity of the story's themes." attr="Mike Kitaif" >}}
+
+Musically, [[person:Anthony Felton]]’s expert direction shines through in moments where the full ensemble takes center stage, particularly in numbers like “Facade.” The vocal harmonies and the sheer power of the chorus are spine-tingling, creating a lush auditory backdrop that complements the individual performances.
+
+Michelle C. Lindsay and [[person:Phedre Delinois]]’s costume design for Jekyll & Hyde adds a touch of magic to the production, adding an extra layer of spectacle that enhances the performances. The costumes strike a perfect balance between period authenticity and theatrical flair, enhancing the characters' personalities while contributing to the show’s dark, gothic atmosphere.
+
+[[person:Daniel Dungan]]'s lighting design for Jekyll & Hyde is a visual marvel, adding depth and intensity to every scene with its dynamic use of light and shadow. Uplights built into the set create dramatic, almost haunting shadows that amplify the tension and emotional weight of the story. Entire scenes are transformed through Dungan’s brilliant use of light, crafting striking tableaus that evoke both beauty and menace, heightening the gothic atmosphere. Though there are minor issues with missed transitions by the lighting technician, these small faults did little to detract from the overall impact of Dungan's stunning and meticulously crafted design.
+
+Unfortunately, the sound design and engineering consistently sabotages key moments of *Jekyll & Hyde*, undermining an otherwise outstanding production. The microphones are poorly equalized to the singers' vocal ranges, leaving some performers sounding tinny and hollow, while others come across as overly bass-heavy. Even more problematic is the near-complete lack of balance between vocals and background tracks, leaving the singers completely unsupported during crucial moments. Worse still, there are countless instances where ensemble members’ solo lines are muted until nearly the very end, disrupting key scenes. 
+
+Despite these significant audio issues, the cast deserves many accolades for never letting it impact their performance. Many times, the leads push through incredibly terrible audio to give an outstanding performance, especially Marshall whose background tracks often completely disappear during powerful numbers like during “This Is the Moment,” demonstrating true professionalism and resilience.
+
+[[production:2024 Jekyll & Hyde]] at [[theatre:Players by the Sea]] offers a captivating exploration of the duality of human nature, carried by standout performances and stunning production elements. Cole Marshall delivers a commanding portrayal of both Jekyll and Hyde, blending powerful vocals with nuanced character work. Julia Blasi and Ilana Marshall bring emotional depth to their roles, their duet “In His Eyes” serving as a highlight of the show. Anthony Felton’s musical direction ensures the ensemble harmonies soar, while Daniel Dungan’s inventive lighting design intensifies the drama, creating striking visual moments. Despite some audio issues that diminish the performance, the cast's professionalism and dedication shine through, making this production an unforgettable experience defined by its artistry and vocal brilliance.
