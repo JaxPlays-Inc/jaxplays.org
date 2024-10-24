@@ -19,7 +19,7 @@ cast:
 - Brian Niece
 - Claire Cimino
 - Mike Livingston
-description: "Lumen Repertory’s Cadillac Crew delivers a powerful exploration of Black women’s pivotal role in the Civil Rights Movement, with captivating performances and immersive design."
+description: "Lumen Repertory’s *Cadillac Crew* delivers a powerful exploration of Black women’s pivotal role in the Civil Rights Movement, with captivating performances and immersive design."
 ---
 Lumen Repertory Theatre’s production of Tori Sampson's brilliant and thought-provoking play, [[production:2024 Cadillac Crew]], brings a powerful blend of history, activism and personal struggle to the stage. *Cadillac Crew* explores the lesser-told stories of Black women on the front lines of the Civil Rights Movement, compelling the audience to reflect on both the past and its enduring relevance today.
 <!--more-->
