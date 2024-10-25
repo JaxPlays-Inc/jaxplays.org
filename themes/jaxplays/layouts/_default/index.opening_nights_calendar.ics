@@ -29,8 +29,8 @@
         {{- $duration := time.ParseDuration "2.5h" -}}
         {{- $dateTimeISOEND := $dateTimeISO.Add $duration -}}
         {{- $dateTimeEnd := time.Format "20060102T150405" $dateTimeISOEND -}}
-        {{- $uid := printf "%s-%s" (sha1 $title) (sha1 $dateTimeStamp) -}}  {{/* Generate pseudo-random UID based on title and timestamp */}}
-        {{- $events = $events | append (dict "title" $title "uid" $uid "stamp" $dateTimeStamp "start" $dateTimeISO "end" $dateTimeEnd "url" $url "featured_image" $featuredImage "venue" $venue "created_date" $createdDate) -}}
+        {{- $uid := printf "%s-%s-%s" (sha1 $title) (sha1 $dateTimeStamp) (sha1 $dateTimeStart) -}}  {{/* Generate pseudo-random UID based on title and timestamp */}}
+        {{- $events = $events | append (dict "title" $title "uid" $uid "stamp" $dateTimeStamp "start" $dateTimeStart "end" $dateTimeEnd "url" $url "featured_image" $featuredImage "venue" $venue "created_date" $createdDate) -}}
     {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -42,7 +42,7 @@
     {{- printf "DTSTAMP:%s\n" .stamp -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTSTART:%s\n" .start -}} {{/*  Output the datetime as a string  */}}
     {{- printf "DTEND:%s\n" .end -}} {{/*  Output the datetime as a string  */}}
-    {{- printf "DESCRIPTION:More details at %s\n" .url -}}
+    {{- printf "DESCRIPTION:%s\n" .url -}}
     {{- printf "LOCATION:%s\n" .venue -}}
     {{- printf "CREATED:%s\n" .created_date -}}
     {{- printf "END:VEVENT\n" -}}
