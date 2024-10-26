@@ -20,7 +20,11 @@ Tickets: https://www.boldcityopera.org/tickets
 show_details: 
 - Music: Béla Bartók
 - Libretto: Béla Balázs
+- Translation by: Peter Bartók
 - Basis: Based on the French folk legend as told by [[w:Charles Perrault]]
+- Arrangement: 
+  - Brandon Michael Smith
+  - Timothy Tuller
 cast:
 - Bard: Jarvis Ramil
 - Bluebeard: John Tibbetts
@@ -30,11 +34,27 @@ cast:
   - Afrika Wood
   - Christine Gosh
 crew:
-- Conductor: Brandon Michael Smith
 - Director: Christine Alfano
+- Conductor: Brandon Michael Smith
+- Music Director: Brandon Michael Smith
 - Assistant Director: Nina Filippelli
 - Stage Manager: Kylie Humber
+- Production Intern:
+  - Helena Peterson
+  - Isabella Richardson
+  - Aden Speight
+  - Maggie Pajcic
+  - Ella Peterson
 orchestra:
+- Violin: AJ Pullium
+- Violin 2: Jessie Russom
+- Viola: Ty Russum
+- Cello: Ariadna Perez
+- Organ: Timothy Tuller
+- Piano: Brandon Michael Smith
+cover:
+- Bluebeard: Dirk Gavin McCoy
+- Judith: McKenna Slack
 Genres:
   - Opera
   - Drama
