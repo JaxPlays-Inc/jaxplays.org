@@ -19,7 +19,7 @@ cast:
   - Lacey English
   - David Voss
   - Hayley Sims
-description:
+description: "Artist Connection Theatre’s *The Beverly Hillbillies* brings sitcom nostalgia to life with charming performances and a heaping pile of country flair."
 ---
 When Jed Clampett unexpectedly strikes oil on his land in the Ozarks, he and his family — Granny, Elly May, and Jethro — find themselves millionaires and head to Beverly Hills to start a new life. The Clampetts’ simple, rural lifestyle collides hilariously with the world of 1960s high society, creating a series of comedic misadventures as they navigate wealth, snobbish neighbors and cultural clashes.
 
@@ -31,7 +31,7 @@ The show kicks off on a high note with a live guitarist singing the original the
 
 The high-society figures are also strong in their portrayals: [[person:Lisa Ciardulli]]’s Mrs. Drysdale is a highlight, her snobbish disdain played with just the right level of exaggerated exasperation. [[person:Ja'uan Hay]]’s Mr. Drysdale is charmingly two-faced, his attempts to ingratiate himself with the Clampetts leading to some of the show’s best comic moments. Ciardulli and Hay both lean heavily into almost cartoonish, character voices that add layers to the humor of their performances. [[person:Lacey English]] as Miss Hathaway is another highlight, balancing sophistication with just a hint of the absurd, perfectly conveying her character's uptight yet caring personality, bringing authenticity to her character's quirks. 
 
-[[person:Hayley Sims]] brings a delightful mix of Southern charm and subtle mischief to Emaline Fetty, the daughter of the Fetty family from back home who arrives to visit the Clampetts. [[person:David Voss]]’s portrayal of Colonel Foxhall, complete with a deep Southern accent and a delightfully exaggerated villainous streak, feels like he stepped out of a Saturday morning cartoon, injecting the role with an amusing theatrical flair that is the perfect foil for Jed's simplicity and Mr. Drysdale's duplicity.
+[[person:Hayley Sims]] brings a delightful mix of country charm and subtle mischief to Emaline Fetty, the daughter of the Fetty family from back home who arrives to visit the Clampetts. [[person:David Voss]]’s portrayal of Colonel Foxhall, complete with a deep Southern accent and a delightfully exaggerated villainous streak, feels like he stepped out of a Saturday morning cartoon, injecting the role with an amusing theatrical flair that is the perfect foil for Jed's simplicity and Mr. Drysdale's duplicity.
 
 The design team captures the nostalgic feel of the '60s sitcom with costumes that bring the Clampetts’ Ozark looks to life while allowing the Beverly Hills residents their own flair for metropolitan style. The audio throughout the performance is crystal clear, allowing each humorous exchange to hit its mark without distraction. And while the performances are generally strong, a tighter pacing overall could amplify the comedic timing — several scenes linger just a moment too long, which diminishes the potential for sharper laughs. A bit of trimming and a quicker cue-to-cue would add more punch to the jokes, keeping the audience engaged and the comedy brisk. Additionally, the set design, while functional, might have benefited from more detailed distinctions between the Clampetts' home and the polished environment of Beverly Hills to visually reinforce the cultural clash at the heart of the story.
 
