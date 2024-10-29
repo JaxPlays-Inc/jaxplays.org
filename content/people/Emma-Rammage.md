@@ -1,7 +1,7 @@
 ---
-title: Catherine Tetzlaff
-date: 2024-10-28T20:57:07-04:00
-featured_image: Catherine-Tetzlaff.webp
+title: Emma Rammage
+date: 2024-10-28T20:21:49-04:00
+featured_image: Emma-Rammage.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 

@@ -28,7 +28,32 @@ show_details:
 - Playwright: David Rogers
 - Basis: Based on the television program by Paul Henning
 cast:
+  - Granny: Shelby Ellis
+  - Jed Clampett: Josh Rutgers
+  - Elly May: Camille Blaydes
+  - Jethro: Benjamin Moore
+  - Mrs. Drysdale: Lisa Ciardulli
+  - Mr. Drysdale: Ja'uan Hay
+  - Miss Hathaway: Lacey English
+  - Col. Foxhall: David Voss
+  - Emaline Fetty: Hayley Sims
+  - Mrs. Pennyweather: Maria Sudduth
+  - George Turner/Percy: Parker Rammage
+  - Mr. Brewster/Frank Richards: Hayden Newton
+  - Cousin Pearl: Barbara 'Cissy' Reagan
+  - Gloria Mundy: Ava Swearingen
+  - Frederika Collins: Emma Rammage
+  - Groovy Monohan: Micah Sudduth
+  - Mrs. Stokley-Smythe: Patti Sudduth
+  - Mr. Oglethorpe: Josh Sudduth
+  - Daughter Oglethorpe: Maitlyn Sudduth
+  - Fireman:
+      - Timothy McFadden
+      - Jude Sudduth
+      - Maitlyn Sudduth
 crew:
+  - Director: Chris McFadden
+  - Assistant Director: Josh Sudduth
 orchestra:
 Genres:
   - Play

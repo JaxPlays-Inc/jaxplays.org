@@ -1,7 +1,7 @@
 ---
-title: Catherine Tetzlaff
-date: 2024-10-28T20:57:07-04:00
-featured_image: Catherine-Tetzlaff.webp
+title: Maitlyn Sudduth
+date: 2024-10-28T20:21:54-04:00
+featured_image: Maitlyn-Sudduth.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 

@@ -1,7 +1,7 @@
 ---
-title: Catherine Tetzlaff
-date: 2024-10-28T20:57:07-04:00
-featured_image: Catherine-Tetzlaff.webp
+title: Parker Rammage
+date: 2024-10-28T20:21:42-04:00
+featured_image: Parker-Rammage.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
