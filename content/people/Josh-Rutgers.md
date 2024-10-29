@@ -10,8 +10,9 @@ Socials:
   Facebook: 
   Twitter: 
   Instagram: 
-  LinkedIn: 
+  LinkedIn: linkedin
   IBDB: 
-  IMDb:
-  Website: 
+  IMDb: nm6645675
+  Backstage: josh-rutgers
+  Website: https://www.joshrutgers.com/
 ---
