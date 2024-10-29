@@ -8,7 +8,9 @@
     {{ $attr := .Params.featured_image_attr }}
     {{ $attrlink := .Params.featured_image_attr_link }}
     {{ $light_text_color_class := .Site.Params.light_text_color_class }}
-    {{- partial "GAM-billboard-1.html" . -}}
+    {{ if not (eq .Params.ads false) }}
+      {{- partial "GAM-billboard-1.html" . -}}
+    {{ end }}
     {{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "attrlink" $attrlink "light_text_color_class" $light_text_color_class) }}
   </header>
 {{ else }}
