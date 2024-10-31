@@ -5,12 +5,12 @@ Venue: Apex Theatre Studio
 Season: 12
 date: 2024-06-17T20:27:56-04:00
 opening_date: 2024-11-01
-closing_date: 2024-11-04
+closing_date: 2024-11-03
 showtimes:
   - 2024-11-01 19:30:00
   - 2024-11-02 19:30:00
   - 2024-11-03 14:00:00
-featured_image: 
+featured_image: 2024-13.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
