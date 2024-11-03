@@ -1,7 +1,7 @@
 ---
-title: Cathy Dooley
-date: 2024-11-02T22:04:52-04:00
-featured_image: Cathy-Dooley.webp
+title: Kyle Geary
+date: 2024-11-02T22:05:03-04:00
+featured_image: Kyle-Geary.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
