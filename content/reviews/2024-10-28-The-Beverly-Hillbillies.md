@@ -21,7 +21,7 @@ cast:
   - Hayley Sims
 description: "Artist Connection Theatre’s *The Beverly Hillbillies* brings sitcom nostalgia to life with charming performances and a heaping pile of country flair."
 ---
-When Jed Clampett unexpectedly strikes oil on his land in the Ozarks, he and his family — Granny, Elly May, and Jethro — find themselves millionaires and head to Beverly Hills to start a new life. The Clampetts’ simple, rural lifestyle collides hilariously with the world of 1960s high society, creating a series of comedic misadventures as they navigate wealth, snobbish neighbors and cultural clashes.
+When Jed Clampett unexpectedly strikes oil on his land in the Ozarks, he and his family — Granny, Elly May, and Jethro — find themselves millionaires and head to Beverly Hills to start a new life. The Clampetts’ simple, rural lifestyle collides hilariously with the world of 1960s high society, creating a series of comedic misadventures as they navigate wealth, snobbish neighbors and cultural clashes.<!--more-->
 
 [[theatre:Artist Connection Theatre]]'s [[production:2024 The Beverly Hillbillies]] offers a nostalgic and humor-filled journey through the adventures of the Clampett family, capturing the essence of the beloved television sitcom with both wit and warmth. From clever characterization, to energetic ensemble work, the production revives the comedic contrasts between the rustic roots of the Clampetts and the upscale absurdity of Beverly Hills’ elite.
 

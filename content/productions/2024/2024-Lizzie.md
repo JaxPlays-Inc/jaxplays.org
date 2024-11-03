@@ -47,6 +47,9 @@ crew:
   - Stage Manager: Kyle Geary
   - Costume Designer: Cathy Dooley
   - Props Designer: Jenny Tammera
+  - Lighting & Sound Design: Ryan Walker
+  - Choreographer: Adrianna Williams
+  - Scenic Construction: Del Ward
 orchestra:
 Genres:
   - Musical
