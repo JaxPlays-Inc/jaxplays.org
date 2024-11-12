@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 playbill:
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=10&p=1
+Website: https://www.ameliacommunitytheatre.org/
+Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 - Music: "[[w:Paul Gordon (composer)|Paul Gordon]]"
 - Lyrics: Paul Gordon
@@ -32,14 +32,24 @@ show_details:
 - Setting: Early 20th century, New England
 - Basis: "[[w:Daddy-Long-Legs (novel)|Daddy-Long-Legs]] by [[w:Jean Webster]]"
 cast:
+- Jerusha Abbott: Maggie Mellott
+- Jervis Pendleton: Brad Davis
+understudies:
 crew:
+- Director: Elizabeth Sawyer
+- Musical Director: Tabitha Mudd
+- Stage Manager: Emma Sawyer
+- Costumes: Vicki Gibson
+- Technical Director: Geoffrey Moss
 orchestra:
+- Guitar: Brandon Hester
+- Cello: Carol Smith
 # Daddy Long Legs
 Genres:
   - Musical
   - Romance
   - Drama
-Description: "Discover the heartwarming tale of Jerusha Abbott, an orphan who becomes a prolific writer under the sponsorship and secret correspondence of a mysterious benefactor."
+Description: "Daddy Long Legs is a charming, romantic musical with music and lyrics by Paul Gordon; book by John Caird, based on Jean Webster's 1912 novel about an orphan sent to college by an anonymous benefactor."
 ---
 *Daddy Long Legs* is set in the early 1900s and follows Jerusha Abbott, a bright and articulate young woman who has grown up in an orphanage. Her life takes an unexpected turn when a wealthy but anonymous benefactor, whom she whimsically calls "Daddy Long Legs," agrees to fund her college education on the condition that she write him a letter once a month. Through her letters, which she never expects to be answered, Jerusha shares her experiences and growth. Unbeknownst to her, her benefactor, Jervis Pendleton, becomes increasingly enamored with her intelligence and wit, sparking a tender and unconventional romance.
 
