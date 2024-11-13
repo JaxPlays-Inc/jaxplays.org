@@ -3,7 +3,7 @@ title: Dear Evan Hansen
 Theatre: FSCJ Artist Series
 Venue: Moran Theater - Jacksonville Center for the Performing Arts
 Season: 2024
-date: 2024-07-18T15:58:24-04:00
+date: 2024-11-13T01:42:56-05:00
 opening_date: 2024-11-03
 closing_date: 2024-11-03
 showtimes:
@@ -20,9 +20,29 @@ show_details:
 - Music: "[[w:Justin Paul]]"
 - Lyrics: "[[w:Benj Pasek]]"
 - Book: "[[w:Steven Levenson]]"
+- Website: https://dehtour.com
 cast:
+  - Evan Hansen: Michael Fabisch
+  - Zoe Murphy: Hatty Ryan King
+  - Heidi Hansen: Bre Cade
+  - Cynthia Murphy: Caitlin Sams
+  - Connor Murphy: Alex Pharo
+  - Larry Murphy: Jeff Brooks
+  - Jared Kleinman: Gabriel Vernon Nunag
+  - Alana Beck: Makena Jackson
 crew:
+- Stage Manager:
+  - Anna Klevit
+  - Katy Gentry
+understudies:
+  - Evan Alternate, Connor Murphy: Michael Perez
+  - Heidi Hansen, Cynthia Murphy, Alana Beck: Monica Blume
+  - Alana Beck, Zoe Murphy: Julianna Braga
+  - Evan Hansen, Connor Murphy, Jared Kleinman: Blake Ehrlichman
+  - Heidi Hansen, Cynthia Murphy: Jenna Kantor
+  - Larry Murphy: Jared Svoboda
 orchestra:
+- Conductor: Michael Hopewell
 Genres:
   - Musical
   - Drama
