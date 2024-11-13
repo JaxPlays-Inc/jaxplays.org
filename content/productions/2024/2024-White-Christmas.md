@@ -13,7 +13,7 @@ showtimes:
   - 2024-12-20 19:30:00
   - 2024-12-21 19:30:00
   - 2024-12-22 14:00:00
-featured_image: 
+featured_image: 2024-White-Christmas.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

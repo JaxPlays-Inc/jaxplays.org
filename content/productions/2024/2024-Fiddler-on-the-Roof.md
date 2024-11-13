@@ -13,7 +13,7 @@ showtimes:
   - 2024-11-15 19:30:00
   - 2024-11-16 19:30:00
   - 2024-11-17 14:00:00
-featured_image: 
+featured_image: 2024-Fiddler-On-The-Roof.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
