@@ -11,10 +11,10 @@ authors:
 production: 2024 Dear Evan Hansen
 Theatre: FSCJ Artist Series
 cast: 
-description:
+description: "The FSCJ Artist Series one-night showing of Dear Evan Hansen presents a stirring non-Equity tour filled with memorable and heartfelt performances."
 override_dates: "one night only on Sunday, November 3"
 ---
-The FSCJ Artist Series presented the non-Equity tour of [[production:2024 Dear Evan Hansen]] for a one-night-only performance on November 3, 2024. This production, a staple of modern musical theater, is brought to life by a talented cast led by Michael Fabisch as Evan Hansen. The performance captures the emotional core of the story — an exploration of isolation, truth and belonging that resonates deeply with today’s audiences.
+The [[theatre:FSCJ Artist Series]] presented the non-Equity tour of [[production:2024 Dear Evan Hansen]] for a one-night-only performance on Sunday, November 3, 2024. This production, a staple of modern musical theater, is brought to life by a talented cast led by Michael Fabisch as Evan Hansen. The performance captures the emotional core of the story — an exploration of isolation, truth and belonging that resonates deeply with today’s audiences.<!--more-->
 
 Michael Fabisch delivers an emotionally honest and nuanced portrayal of Evan, adeptly navigating the character’s complexities. His vocal performance, especially in "Waving Through a Window," is moving, capturing Evan's yearning and vulnerability. Fabisch’s ability to embody Evan's internal conflicts creates a relatable and layered performance that anchors the show.
 
