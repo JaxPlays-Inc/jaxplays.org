@@ -1,7 +1,7 @@
 ---
 title: Jacksonville Symphony
 date: 2024-07-02T18:03:12-04:00
-active: true
+active: false
 featured_image: Jacksonville-Symphony.webp
 featured_image_attr: 
 featured_image_alt: Jacksonville Symphony logo

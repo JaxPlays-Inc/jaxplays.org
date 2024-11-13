@@ -1,28 +1,38 @@
 {{ define "main" }}
   <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-    <!--
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-      {{ .Content }}
-    </section>
-  -->
+
+    <!-- Calculate active and inactive theater counts -->
+    {{ $activePages := where .Pages "Params.active" "!=" false }}
+    {{ $inactivePages := where .Pages "Params.active" "=" false }}
+    {{ $totalTheaters := add (len $activePages) (len $inactivePages) }}
+    {{ $activeCount := len $activePages }}
+
+    <!-- Secondary search bar and sections for active and inactive theaters -->
     {{ partial "secondSearchBar.html" (dict "section" "Theatres") }}
+    
     <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Active Theatre Companies</h3>
     <aside class="flex-ns flex-wrap justify-around mt5">
-      {{ $activePages := where .Pages "Params.active" "!=" false }}
       {{ $sortedPages := $activePages.ByParam "title" }}
       {{ $paginator := .Paginate $sortedPages 36 }}
       {{ range $paginator.Pages }}
         {{ .Render "theatre-list" }} 
       {{ end }}
     </aside>
+
     <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Inactive Theatre Companies</h3>
     <aside class="flex-ns flex-wrap justify-around mt5">
-      {{ $inactivePages := where .Pages "Params.active" "=" false }}
       {{ $sortedInactivePages := $inactivePages.ByParam "title" }}
       {{ range $sortedInactivePages }}
         {{ .Render "theatre-list" }} 
       {{ end }}
     </aside>
+    
     {{ template "_internal/pagination.html" . }}
+
+    <!-- Display active and total counts at the bottom -->
+    <section class="ph3 ph0-ns pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+      <p>Active: {{ $activeCount }}, Total: {{ $totalTheaters }}</p>
+    </section>
+
   </article>
 {{ end }}
