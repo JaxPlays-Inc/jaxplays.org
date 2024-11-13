@@ -12,4 +12,4 @@ Socials:
   Website: https://leehamby.weebly.com
 date: 2023-09-08T00:00:00-04:00
 ---
-A multi-talented force in theater, Lee Hamby has worked as an actor, designer, director, and choreographer. Trained under Broadway legends like Gregory Hines and Chita Rivera, he's performed across the U.S and Europe. Now back in his native Jacksonville, he's a co-founder of The 5 & Dime theatre company, and he currently serves as the Managing Artistic Director at ABET - All Beaches Experimental Theatre.
+A Jacksonville native and multi-talented artist, Lee Hamby brings over two decades of experience in acting, directing, and designing to The Arts Collective. Known for his charisma and deep commitment to the arts, Lee has performed and directed across the U.S. and Europe. With a network in the local theater community and a talent for bringing stories to life, Lee is dedicated to making [[theatre:Arts Collective Theatre|The Arts Collective]] a cornerstone of Jacksonville’s cultural scene.
