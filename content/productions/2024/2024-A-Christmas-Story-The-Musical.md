@@ -2,7 +2,7 @@
 title: "A Christmas Story: The Musical"
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
-date: 2024-05-10T17:42:58
+date: 2024-11-19T21:34:10-05:00
 opening_date: 2024-11-21
 closing_date: 2024-12-24
 showtimes:
@@ -46,6 +46,11 @@ showtimes:
   - 2024-12-22 18:00:00
   - 2024-12-24 12:00:00
   - 2024-12-24 18:00:00
+featured_image: 2024-A-Christmas-Story-The-Musical.webp
+featured_image_alt: "Promotional image for 'A Christmas Story: The Musical,' featuring the famous leg lamp with a fringed lampshade, set against a red and white logo with playful, festive lettering. The image captures the whimsical and nostalgic essence of the musical based on the classic holiday film."
+featured_image_caption: "Step into the holiday spirit with 'A Christmas Story: The Musical' at the Alhambra Theatre & Dining. Relive the iconic, heartwarming tale this festive season!"
+featured_image_attr: 
+featured_image_attr_link: 
 playbill:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1463&_s=&sid=b7926b0d30594811496b690960d809ea&qty_target=0
