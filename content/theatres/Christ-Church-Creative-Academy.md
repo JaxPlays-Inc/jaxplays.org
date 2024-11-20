@@ -18,7 +18,7 @@ Socials:
   Instagram: creativeacademypv
   YouTube: ChristChurch1951
   Threads:
-  Website: https://ccpvb.org/connect/community/arts/
+  Website: https://ccpvb.org/connect/community/christ-church-creative-academy-13691/
 Phone: 	
 color: "#87a09e"
 ---
