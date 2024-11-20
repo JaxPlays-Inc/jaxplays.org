@@ -12,7 +12,7 @@ showtimes:
   - 2024-12-13 19:30:00
   - 2024-12-14 16:00:00
   - 2024-12-15 14:00:00
-featured_image: 2024-Its-A-Wonderful-Life.webp
+featured_image: 2024-Its-A-Wonderful-Life-02.webp
 featured_image_alt: "Poster for 'It’s A Wonderful Life - A Live Radio Play' directed by Grace Reed at A Classic Theatre. The design mimics a 1940s radio microphone with festive elements, inviting viewers to a live broadcast of the beloved holiday classic from December 6-15, 2024."
 featured_image_caption: "'It’s A Wonderful Life - A Live Radio Play' runs from December 6-15, 2024 at A Classic Theatre, offering a nostalgic trip back to a 1940s radio broadcast."
 featured_image_attr: 
