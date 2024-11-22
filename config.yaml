@@ -31,9 +31,10 @@ params:
   - name: facebook
     url: https://www.facebook.com/jaxplaysorg
     label: Facebook
-  - name: twitter
-    label: Twitter/X
-    follow: false
+  - name: bluesky
+    label: Bluesky
+    url: https://bsky.app/profile/jaxplays.org
+    follow: true
   - name: instagram
     label: Instagram
     url: https://instagram.com/jaxplaysorg
@@ -42,6 +43,9 @@ params:
     label: LinkedIn
     url: https://www.linkedin.com/company/jaxplaysorg
     follow: true
+  - name: twitter
+    label: Twitter/X
+    follow: false
 menu:
   main:
   - name: Home

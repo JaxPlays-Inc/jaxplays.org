@@ -3,10 +3,12 @@
 
 {{ $utm_facebook := "utm_source=facebook&utm_medium=social&utm_campaign=share_btn" }}
 {{ $utm_twitter := "utm_source=twitter&utm_medium=social&utm_campaign=share_btn" }}
+{{ $utm_bluesky := "utm_source=bluesky&utm_medium=social&utm_campaign=share_btn" }}
 {{ $utm_linkedin := "utm_source=linkedin&utm_medium=social&utm_campaign=share_btn" }}
 
 {{ $facebook_url := printf "%s?%s" $url $utm_facebook | urlquery }}
 {{ $twitter_url := printf "%s?%s" $url $utm_twitter | urlquery }}
+{{ $bluesky_url := printf "%s?%s" $url $utm_bluesky | urlquery }}
 {{ $linkedin_url := printf "%s?%s" $url $utm_linkedin | urlquery }}
 
 {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $facebook_url }}
@@ -14,8 +16,12 @@
 {{ with site.Social.twitter }}
   {{ $twitter_href = printf "%s&via=%s" $twitter_href . }}
 {{ end }}
+{{ $bluesky_href := printf "https://bsky.app/intent/compose?text=%s" $bluesky_url }}
+{{ with site.Social.bluesky }}
+  {{ $bluesky_href = printf "%s&via=%s" $bluesky_href . }}
+{{ end }}
 {{ $linkedin_href := printf "https://www.linkedin.com/shareArticle?mini=true&url=%s&title=%s" $linkedin_url $title }}
-{{ $hrefs := dict "facebook" $facebook_href "twitter" $twitter_href "linkedin" $linkedin_href }}
+{{ $hrefs := dict "facebook" $facebook_href "twitter" $twitter_href "linkedin" $linkedin_href "bluesky" $bluesky_href }}
 
 {{ $services := where (partialCached "func/socials/Get" "socials/Get") "share" true }}
 {{ if not ($.Param "disable_share") }}
