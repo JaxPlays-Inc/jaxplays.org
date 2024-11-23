@@ -56,6 +56,53 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1463&_s=&sid=b7926b0d30594811496b690960d809ea&qty_target=0
 show_details: 
 cast:
-crew:
-orchestra:
+  - Jean Shepherd: Jonathan Van Dyke
+  - The Old Man: Craig Sherman
+  - Mother: Jennifer Medure
+  - Ralphie Parker: Keegan Carroll
+  - Miss Shields: Nikki Spies
+  - Scut Farkus: Vanson Michael Voce
+  - Grover Dill: Daniel Champeau
+  - Schwartz: Kai Zandman
+  - Flick: Jake Ayers
+  - Esther Jane: Baylee Weidner
+  - Mary Beth: Madison Kalyan
+  - Santa: James Skiba
+  - Adult Ensemble:
+    - Johnny Flannagan
+    - James Skiba
+    - Johnny Warren
+    - Sarah Middough
+    - Ellen Shaw
+    - Assata Davis
+    - Louise Bariso
+  - Youth Ensemble:
+    - Collin Galvin
+    - Blake Kalyan
+    - Ivy Ayers
+    - Violet Feyen
+    - Zachary Swartz
+    - Kennedy Swartz
+understudies:
+  - Jean Shepherd & Santa: Johnny Flannagan
+  - The Old Man: James Skiba
+  - Mother & Miss Shields:
+      - Sarah Middough
+      - Ellen Shaw
+  - Ralphie: Jake Ayers
+  - Randy:
+      - Blake Kalyan
+      - Ivy Ayers
+  - Scut Farkus:
+      - Johnny Warren
+      - Collin Galvin
+  - Grover Dill:
+      - Collin Galvin
+      - Blake Kalyan
+  - Esther Jane & Mary Beth:
+      - Ivy Ayers
+      - Violet Feyen
+  - Schwartz & Flick:
+      - Collin Galvin
+      - Zachary Swartz
 ---
