@@ -16,5 +16,5 @@ Socials:
   Website: https://www.isabellafedele.com/
   YouTube: "@isabellafedele"
 ---
-Isabella Fedele is an Orlando-based singer actor, and dancer. As a musical theatre performer, she has appeared in [[production:2024 Oklahoma!]] and Jersey Boys at The [[theatre:Alhambra Theatre &  Dining]] along with Hello Dolly! And The Wedding Singer at the Henegar Center. As an actor, she has appeared at Cedar Point in the Snake River Expedition attraction as well as The Wolves, Home of the Brave, The Prom, and Scarmouch in Naxos at Theatre UCF. She also just recently shot her first commercial for HCA Healthcare.
+Isabella Fedele is an Orlando-based singer actor, and dancer. As a musical theatre performer, she has appeared in [[production:2024 Oklahoma!]] and [[production:2023 Jersey Boys]] at The [[theatre:Alhambra Theatre &  Dining]] along with *Hello Dolly!* and *The Wedding Singer* at the Henegar Center. As an actor, she has appeared at Cedar Point in the Snake River Expedition attraction as well as *The Wolves*, *Home of the Brave*, *The Prom*, and *Scarmouch in Naxos* at Theatre UCF. She also just recently shot her first commercial for HCA Healthcare.
 
