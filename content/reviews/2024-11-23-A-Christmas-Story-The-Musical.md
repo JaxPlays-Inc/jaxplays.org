@@ -8,16 +8,16 @@ featured_image_caption: "A quintessential family moment unfolds in *'*A Christma
 authors: 
 - Jo El Snyder
 production: 2024 A Christmas Story The Musical
-Theatre: Alhambra Theatre and Dining
+Theatre: Alhambra Theatre & Dining
 cast: 
 - Jonathan Van Dyke
 - Keegan Carroll
 - Nikki Spies
-description:
+description: "Experience the magic of *A Christmas Story: The Musical* at Alhambra Theatre & Dining. Discover how this adaptation surpasses the beloved film with its innovative staging, captivating performances and fresh emotional depth."
 ---
 When I heard that Alhambra was staging [[production:2024 A Christmas Story: The Musical]], my first reaction was, "Here we go again." Another beloved movie turned into a hollow, uninspired musical? But boy-howdy, was I off target.
 
-[[theatre:Alhambra Theatre and Dining]]’s rendition doesn’t just capture the charm of the movie — it outshines it. It’s sharp, witty and bursting with energy, delivering laughs and heart like Ralphie landing a perfect shot on Black Bart. This isn’t just another adaptation; it’s a Christmas triumph!
+[[theatre:Alhambra Theatre & Dining]]’s rendition doesn’t just capture the charm of the movie — it outshines it. It’s sharp, witty and bursting with energy, delivering laughs and heart like Ralphie landing a perfect shot on Black Bart. This isn’t just another adaptation; it’s a Christmas triumph!
 
 Adult Ralphie, played by [[person:Jonathan Van Dyke]], narrates the scenes with quirky, humorous flair, often mirroring young Ralphie’s actions in his quest for a Red Ryder BB gun. Jonathan’s energy is a powerhouse, serving as the glue that holds the show together seamlessly.
 
