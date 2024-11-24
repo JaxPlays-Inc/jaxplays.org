@@ -16,9 +16,9 @@ cast:
 - Frankie Valli: Nick Anastasia
 - Bob Gaudio: Christian Melhuish
 - Bob Crewe: Mel Nash
-- Nick Massi:
-- Gyp DeCarlo:
-- Mary Delgado:
+- Nick Massi: Evan Ross Brody
+- Gyp DeCarlo: James A. Skiba
+- Mary Delgado: Isabella Fedele
 - Joe Pesci: Brandon Leporati
 crew:
 orchestra:
