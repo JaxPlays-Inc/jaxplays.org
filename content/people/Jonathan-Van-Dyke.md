@@ -9,8 +9,8 @@ featured_image_caption:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
-  LinkedIn: 
+  Instagram: vandyke.jonathan
+  LinkedIn: jonathan-van-dyke-ba605b39
   IBDB: 
   IMDb: nm3706644
   Website: 
