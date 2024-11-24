@@ -60,6 +60,7 @@ cast:
   - The Old Man: Craig Sherman
   - Mother: Jennifer Medure
   - Ralphie Parker: Keegan Carroll
+  - Randy Parker: Elijah Lawless
   - Miss Shields: Nikki Spies
   - Scut Farkus: Vanson Michael Voce
   - Grover Dill: Daniel Champeau
