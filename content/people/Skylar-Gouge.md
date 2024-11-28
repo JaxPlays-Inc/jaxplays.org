@@ -15,3 +15,4 @@ Socials:
   IMDb:
   Website: 
 ---
+Skylar (She/Her) is a sophomore at St. Augustine High School and is a member of St. Johns County Center for the Arts in the musical theater, theater and dance programs. Skylar has many years of acting under her belt and was nominated for a Applause Award in 2024 for her role as Quince in her school’s production of the Dream on Royal Street.
