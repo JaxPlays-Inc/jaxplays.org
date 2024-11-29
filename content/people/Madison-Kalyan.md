@@ -13,6 +13,7 @@ Socials:
   LinkedIn: 
   IBDB: 
   IMDb:
-  Website: 
+  Website: https://gallery.activemotionmedia.com/madisonkalyan/
+  YouTube: "@Madison_elaine_k"
 ---
-Madison is 12 years old and lives in Tampa, Florida. She has dreams of Broadway and loves to sing, dance, and perform. Roles include Mary Beth in A Christmas Story the Musical, Lumiere in Beauty and the Beast Jr. and Little Anna in Frozen Jr.
+Madison is 12 years old and lives in Tampa, Florida. She has dreams of Broadway and loves to sing, dance, and perform. Roles include Mary Beth in [[production:2024 A Christmas Story: the Musical]], Lumiere in Beauty and the Beast Jr. and Little Anna in Frozen Jr.
