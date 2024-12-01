@@ -21,13 +21,9 @@ cast:
 - Scrooge et al.: Jason Woods
 crew:
 orchestra:
-genres: 
-Description: "Experience the magic of Dickens with Jason Woods' captivating one-man performance of *A Christmas Carol*. Discover this unique adaptation where music and storytelling bring over 25 characters to life. Don't miss this timeless holiday masterpiece!"
 Press:
   - "One of Us: Jason Woods performs one-man version of 'A Christmas Carol' each December": https://www.jacksonville.com/story/news/2016/12/05/one-us-jason-woods-performs-one-man-version-christmas-carol-each-december/15734700007/
 ---
-*Jason Woods A Christmas Carol* transforms the classic Dickens tale into a mesmerizing one-man show that has captivated audiences from small venues to grand stages for over a decade. With his unique script and original musical score, Woods embodies over 25 characters, bringing a fresh, personal interpretation to this enduring story. This adaptation is not just watched but experienced, offering a profound reminder of the novella’s timeless resonance.
-
 ## Admission and Parking
 Admission is free and open to the public as part of the Dickens on Centre festivities. Plan to arrive early because parking is limited and you may have to take the complimentary trolley from the [Nassau County School Board lot on Atlantic Avenue across from Central Park](https://maps.app.goo.gl/hxXKgKmH32gnr92E8). For more information, visit [Dickens on Centre Festival](https://www.ameliaisland.com/dickens-on-centre/)
 
