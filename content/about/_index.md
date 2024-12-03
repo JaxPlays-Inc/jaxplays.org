@@ -34,13 +34,12 @@ The journey wasn't straightforward. Though the project went on hiatus due to the
 
 Realizing that the vision for JaxPlays should be a community endeavor with longevity that surpassed his own involvement, Ray brought together a circle of like-minded theatre aficionados. 
 
-In September 2023, the project matured from a passion project into a registered nonprofit, complete with a committed board of directors:
+In September 2023, the project matured from a passion project into a [tax-exempt 501(c)(3) nonprofit organization](https://apps.irs.gov/pub/epostcard/dl/FinalLetter_93-3315574_JAXPLAYSINC_09082023_00.pdf), complete with a committed board of directors:
 
 - President & Executive Director: Ray Hollister
 - Vice President: Jo El Snyder
 - Treasurer: Robert Snyder
 - Secretary: Amber Hollister
-- Director: Bonnie Zerr
 
 We welcome your contributions and expertise as we aim to make JaxPlays the definitive resource for live theatre in Northeast Florida and Southeast Georgia.
 
