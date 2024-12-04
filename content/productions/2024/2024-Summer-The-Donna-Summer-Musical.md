@@ -28,7 +28,7 @@ cast:
   - Diva Donna: Shannon Johnson
   - Disco Donna: Kristin Kenebrew
   - Duckling Donna: Kimara Sapp
-  - Dara: Shatondra Gregory
+  - Dara: Arielle Bryant
   - Young Dara: Arie Berry
   - Mary Ellen: Zoe Pruitt-Green
   - Young Mary Ellen: Jay Tabron
@@ -37,7 +37,6 @@ cast:
   - Joyce Bogart: Helena Helms
   - Andrew Gaines: Chris Randolph
   - Ensemble:
-      - Arielle Bryant
       - Tristan McDonald
       - Darvin Nelson
       - Kimberly Doctor
