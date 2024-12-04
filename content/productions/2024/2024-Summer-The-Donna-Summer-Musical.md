@@ -78,3 +78,7 @@ Description: "Celebrate the life and legacy of the Queen of Disco with *Summer: 
 
 {{< youtube id=Wyhx6JVG6og start=3074 >}}
 
+
+### *Summer: The Donna Summer Musical* on First Coast Living on First Coast News 
+
+{{< youtube zZEPa0ErCXE >}}
