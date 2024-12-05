@@ -88,10 +88,12 @@ crew:
 - Co-Director: Chad Miller
 - Costumes: Tammy Lynch
 - Stage Manager: Shannon Basile
-- Stage Hand: Jimmy Galaviz
-- Stage Hand: Gregg Dillingham 
-- Lights: Victoria Hester
-- Lights: Jude Boger
+- Stage Hand: 
+  - Jimmy Galaviz
+  - Gregg Dillingham 
+- Lights: 
+  - Victoria Hester
+  - Jude Boger
 - Set Design: Gregg Dillingham
 orchestra:
 - Musical Director / Pianist: Lynn Arizzi
