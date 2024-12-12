@@ -1,6 +1,7 @@
 ---
 title: Financial Support
-Description: 
+Description: JaxPlays is a 501(c)(3) nonprofit organization.
+layout: "financial-support"
 date: 2024-12-12T14:31:46-05:00
 ---
 
@@ -9,7 +10,7 @@ date: 2024-12-12T14:31:46-05:00
 JaxPlays is a 501(c)(3) nonprofit organization. If you would like to support our mission, please consider making a tax-deductible donation. Your contribution helps us maintain and improve our platform, ensuring that we continue to provide the most comprehensive and up-to-date information on live theatre in Northeast Florida and Southeast Georgia.
 
 {{< rawhtml >}}
-<a class="hover-white no-underline white-90  bg-yellow black ph3 pv2 jaxplays-donate-button " href="/support/" title="Donate page">Support JaxPlays 🎭</a>
+  <a class="hover-white no-underline white-90  bg-yellow black ph3 pv2 jaxplays-donate-button " href="/support/" title="Donate page">Support JaxPlays 🎭</a>
 {{< /rawhtml >}}
 
 ### Supporters
