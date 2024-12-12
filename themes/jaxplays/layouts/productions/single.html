@@ -161,7 +161,11 @@
       {{ end }}
 
       {{ range $index, $venue := $venues }}
-      {{ $venueurl := $venue | urlize | replaceRE "\\." "" }}
+      {{ $venueurl := $venue }}
+      {{ $venueurl = replaceRE " & " "-and-" $venueurl }}
+      {{ $venueurl = replaceRE " " "-" $venueurl }}
+      {{ $venueurl = replaceRE "\\." "" $venueurl }}
+      {{ $venueurl = $venueurl | urlize }}
       {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
       {{ $displayVenue := $venue }}
     
