@@ -43,6 +43,22 @@ In September 2023, the project matured from a passion project into a [tax-exempt
 
 We welcome your contributions and expertise as we aim to make JaxPlays the definitive resource for live theatre in Northeast Florida and Southeast Georgia.
 
+## Editorial Independence
+
+We subscribe to standards of editorial independence adopted by the Institute for Nonprofit News:
+
+Our organization retains full authority over editorial content to protect the best journalistic and business interests of our organization. We maintain a firewall between news coverage decisions and sources of all revenue. Acceptance of financial support does not constitute implied or actual endorsement of donors or their products, services or opinions.
+
+We accept gifts, grants and sponsorships from individuals and organizations for the general support of our activities, but our news judgments are made independently and not on the basis of donor support.
+
+Our organization may consider donations to support the coverage of particular topics, but our organization maintains editorial control of the coverage. We will cede no right of review or influence of editorial content, nor of unauthorized distribution of editorial content.
+
+Our organization will make public all donors who give a total of $5,000 or more per year. We will accept anonymous donations for general support only if it is clear that sufficient safeguards have been put into place that the expenditure of that donation is made independently by our organization and in compliance with INN’s Membership Standards.
+
+## Financial Support
+
+JaxPlays is a 501(c)(3) nonprofit organization. If you would like to support our mission, please consider making a tax-deductible donation. Your contribution helps us maintain and improve our platform, ensuring that we continue to provide the most comprehensive and up-to-date information on live theatre in Northeast Florida and Southeast Georgia.
+
 ## Contact Us
 
 If you have any inquiries, comments, or feedback email us at contact@jaxplays.org.
@@ -50,3 +66,4 @@ If you have any inquiries, comments, or feedback email us at contact@jaxplays.or
 **Disclaimer:** JaxPlays leverages the capabilities of OpenAI's ChatGPT for drafting articles and processing data. However, the human touch remains essential to us. Each piece is thoroughly reviewed, edited, and revised by our author to ensure it aligns with our standards and voice. We, at JaxPlays, take full responsibility for the content published on our platform.
 
 We strive for accuracy in all our publications. If you spot an error or misrepresentation of facts, we urge you to contact us at contact@jaxplays.org. Your input helps us maintain the highest level of accuracy and continually improve the quality of our content.
+

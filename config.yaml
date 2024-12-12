@@ -54,6 +54,10 @@ menu:
   - name: About
     pageRef: /about
     weight: 20
+  - name: Financial Support
+    parent: About
+    pageRef: /about/financial-support
+    weight: 21
   - name: Calendar
     pageRef: /calendar
     weight: 25
