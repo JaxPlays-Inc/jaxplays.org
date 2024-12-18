@@ -25,6 +25,7 @@ Tickets: https://artscollectivetheatre.ludus.com/index.php
 show_details: 
 cast:
 crew:
+- Director: Lee Hamby
 orchestra:
 genres: 
 - Revue
@@ -37,5 +38,7 @@ Join us at Five Points Chapel & Gardens for JOY: The Ultimate Christmas Experien
 🎅 Enjoy a magical visit & photos with Santa, explore our charming Christmas market filled with unique gifts, delicious treats, hot cocoa, refreshing libations and experience the festive carolers as well as a live holiday musical revue that will fill your heart with Joy!
 
 Bring your family and friends for a celebration that promises endless fun and holiday spirit!
+
+### First Coast Connect interviews Lee Hamby, the director *JOY: The Ultimate Christmas Experience*
 
 {{< youtube LLCC5CKF7vI >}}
