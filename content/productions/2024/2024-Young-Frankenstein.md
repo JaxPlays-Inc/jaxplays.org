@@ -31,7 +31,36 @@ playbill:
 Website: 
 Tickets: 
 cast:
+- Dr. Frederick Frankenstein: Andy Kanies
+- The Monster: Bob OHara
+- Igor: Curtis Reed
+- Elizabeth Benning: Olivia Loucks
+- Frau Blücher: Summer Acton
+- Inspector Kemp/The Hermit: Dylan Renfrow
+- Inga: Kaylee Byers
+- Ziggy/Victor von Frankenstein: Alexander Loucks
+- Ensemble:
+  - Allyn Bessee
+  - Elizabeth Ann Bradford
+  - Via Grendzinski
+  - James Arthur Lopez 
+  - Corinna Temple
+  - Nahum Hagos
 crew:
+- Director/Choreographer: Curtis Reed
+- Stage Manager/Lighting Designer: C. Neil Davenport 
+- Musical Director: Marvin Lovett
+- Props Master: Corinna Temple
+- Costume Designer: Curtis Reed
+- Costume Creation: Diana Gallemore
+- Technical Director: Andy Kanies
+- Special Makeup: Curtis Reed
+- Set Design/Construction:
+  - Andy Kanies
+  - Mathew Turnage
+  - C. Neil Davenport 
+  - Curtis Reed
+  - Cameron Renfrow
 orchestra:
 Description: "Delve into this monstrously funny adaptation of Mel Brooks’ classic film, where a young scientist inherits his grandfather's legacy and a zany castle full of eccentrics."
 ---
