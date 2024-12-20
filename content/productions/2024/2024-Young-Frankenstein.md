@@ -32,7 +32,7 @@ Website:
 Tickets: 
 cast:
 - Dr. Frederick Frankenstein: Andy Kanies
-- The Monster: Bob OHara
+- The Monster: Bob O'Hara
 - Igor: Curtis Reed
 - Elizabeth Benning: Olivia Loucks
 - Frau Blücher: Summer Acton
