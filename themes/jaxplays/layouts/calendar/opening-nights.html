@@ -35,12 +35,16 @@
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'customListYear,multiMonthYear,dayGridMonth,timeGridWeek,customListWeek,customListDay'
+        right: 'customListYear,multiMonthYear,dayGridMonth,customListMonth,timeGridWeek,customListWeek,customListDay'
       },
       views: {
         customListYear: {
           type: 'listYear',
           buttonText: 'year list'  // The text you want to display on the button
+        }, 
+        customListMonth: {
+          type: 'listMonth',
+          buttonText: 'month list'  // The text you want to display on the button
         }, 
         customListWeek: {
           type: 'listWeek',
@@ -87,7 +91,7 @@
         calendar.setOption('headerToolbar', {
           left: 'prev,next today',
           center: 'title',
-          right: 'customListYear,multiMonthYear,dayGridMonth,timeGridWeek,customListWeek,customListDay'
+          right: 'customListYear,multiMonthYear,dayGridMonth,customListMonth,timeGridWeek,customListWeek,customListDay'
         });
         calendar.setOption('navLinks', true);
       }
