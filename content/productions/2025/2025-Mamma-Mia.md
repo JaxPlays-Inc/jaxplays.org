@@ -21,7 +21,7 @@ featured_image_attr:
 featured_image_attr_link: 
 playbill:
 Website: https://www.fscjartistseries.org/tickets/mamma-mia
-Tickets: https://www.fscjartistseries.org/season-tickets
+Tickets: https://www.fscjartistseries.org/tickets/mamma-mia
 cast:
   - Donna Sheridan: Christine Sherrill
   - Sophie Sheridan: Alisa Melendez
