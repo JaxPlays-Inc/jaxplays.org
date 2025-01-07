@@ -31,6 +31,12 @@ Tickets: https://limelight.ludus.com/200458976
 show_details: 
 - Playwright: "[[w:Beth Henley]]"
 cast:
+- Lenny Magrath: Jessica Racaniello
+- Chick Boyle: Katie Timoney
+- Doc Porter: Kyle Geary
+- Meg Magrath: Mary Schubert
+- Babe Botrelle: Eliza Kiss
+- Barnette Lloyd: Chad Boyd
 crew:
 - Director: David Buchman
 orchestra:
