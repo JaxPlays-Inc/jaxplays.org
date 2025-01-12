@@ -24,7 +24,7 @@ Tickets: https://www.zeffy.com/en-US/ticketing/71738d1d-ea45-4f93-bc76-9c05f70ef
 show_details:
 - Playwright: Adam Bock
 cast:
-- Emily Bridges: Brooks Anne Meirdierks
+- Emily Bridges: Brooks Anne Meierdierks
 - John Bridges: Bill Ratliff
 - Jenny Bridges: Pauleen Conde
 - Billy Fontaine: James F. Webb III
@@ -52,10 +52,10 @@ Press:
 ---
 Emily Bridges, a tough and successful construction company owner, finds her no-nonsense approach to life, work, and family put to the test when a mysterious illness begins to strip away her senses one by one. As she grapples with her diminishing independence, the relationships with her husband John, daughter Jenny, and longtime employee Billy come into sharper focus. *A Small Fire* navigates the unpredictable changes life can bring, and the ways in which adversity can redefine love, reveal strength, and transform perspectives.
 
-### Director Brian Niece and Brooks Anne Meirdierks discuss *A Small Fire* on WJCT News 89.9's *First Coast Connect*
+### Director Brian Niece and Brooks Anne Meierdierks discuss *A Small Fire* on WJCT News 89.9's *First Coast Connect*
 {{< youtube kU58Vua2Zo4 >}}
 
-### Director Brian Niece and Brooks Anne Meirdierks discuss *A Small Fire* on the Lumen Rep Podcast
+### Director Brian Niece and Brooks Anne Meierdierks discuss *A Small Fire* on the Lumen Rep Podcast
 {{< youtube 5CEz0fULZns >}}
 
 ### Brian Niece sits down with First Coast Living’s David Benfield. 

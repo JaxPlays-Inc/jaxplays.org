@@ -4,14 +4,14 @@ date: 2024-02-16T18:09:31-05:00
 featured_image: /media/photos/2024-A-Small-Fire-01.webp
 featured_image_attr: Josh Andrews
 featured_image_attr_link: https://joshandrews.com
-featured_image_caption: "In a moment of poignant vulnerability, Brooks Anne Meirdierks as Emily Bridges and Bill Ratliff as John Bridges capture the silent agony and comfort of shared hardship in 'A Small Fire'."
-featured_image_alt: "Actress Brooks Anne Meirdierks portraying Emily Bridges standing resolutely while actor Bill Ratliff as John Bridges leans on her shoulder in a display of emotional support in a scene from 'A Small Fire'."
+featured_image_caption: "In a moment of poignant vulnerability, Brooks Anne Meierdierks as Emily Bridges and Bill Ratliff as John Bridges capture the silent agony and comfort of shared hardship in 'A Small Fire'."
+featured_image_alt: "Actress Brooks Anne Meierdierks portraying Emily Bridges standing resolutely while actor Bill Ratliff as John Bridges leans on her shoulder in a display of emotional support in a scene from 'A Small Fire'."
 authors:
 - Ray Hollister
 production: 2024 A Small Fire
 Theatre: Lumen Repertory
 cast: 
-- Brooks Anne Meirdierks
+- Brooks Anne Meierdierks
 - Bill Ratliff
 - Pauleen Conde
 - James F. Webb III
@@ -24,13 +24,13 @@ Lumen Repertory Theatre's *A Small Fire*, directed by Brian Niece, delivers a pr
 <!--more-->
 In *A Small Fire,* the audience is drawn into the life-shattering ordeal of Emily Bridges, who is suddenly afflicted with a sensory loss that defies explanation, lacking both any apparent cause or cure. This profound crisis throws her once-controlled world into disarray, challenging her connections with her husband John, her daughter Jenny and her loyal employee Billy. As they navigate this uncharted territory, their deeply interwoven relationships are tested by the fear of the unknown, revealing the delicate balance between despair and hope in their struggle to adapt.
 
-Brooks Anne Meirdierks, in her portrayal of Emily Bridges, captures a raw and relatable authenticity, riveting the audience from start to finish. She brings a genuineness to Emily’s hard exterior, forging a deep empathy among viewers. Her masterful depiction of Emily’s sensory loss is nuanced and heart-wrenchingly inspirational, navigating with grace and an affecting transparency.
+Brooks Anne Meierdierks, in her portrayal of Emily Bridges, captures a raw and relatable authenticity, riveting the audience from start to finish. She brings a genuineness to Emily’s hard exterior, forging a deep empathy among viewers. Her masterful depiction of Emily’s sensory loss is nuanced and heart-wrenchingly inspirational, navigating with grace and an affecting transparency.
 
 One of the production's most unforgettable moments, is the scene where John shares the joy and beauty of everything he is seeing at the wedding with Emily. Meirdierks's ability to radiate joy, despite her character Emily's inability to see, showcases a remarkable range of emotional depth. The scene is a testament to the power of Meirdierks's performance, creating a visual and emotional spectacle that remains unseen yet vividly felt by the audience.
 
 Bill Ratliff, as John Bridges, delivers a grounded, heartfelt performance, encapsulating the emotional journey of a husband overshadowed by his wife’s formidable presence. Ratliff portrays John with a subtle transformation from disconnectedness to a profound appreciation of life’s simple wonders, becoming the pillar of strength his wife needs.
 
-{{< figure src="/media/photos/2024-A-Small-Fire-02.webp" alt="Actress Brooks Anne Meirdierks seated as Emily Bridges, with actors Bill Ratliff and Pauleen Conde standing beside her, portraying a family in a moment of silent tension in 'A Small Fire'." caption="In a tense family scene from 'A Small Fire,' Brooks Anne Meirdierks, as Emily Bridges, sits on the couch disconnected and trapped in her own body, while the palpable concern from Bill Ratliff and Pauleen Conde's characters fills the room." attr="Josh Andrews" >}}
+{{< figure src="/media/photos/2024-A-Small-Fire-02.webp" alt="Actress Brooks Anne Meierdierks seated as Emily Bridges, with actors Bill Ratliff and Pauleen Conde standing beside her, portraying a family in a moment of silent tension in 'A Small Fire'." caption="In a tense family scene from 'A Small Fire,' Brooks Anne Meierdierks, as Emily Bridges, sits on the couch disconnected and trapped in her own body, while the palpable concern from Bill Ratliff and Pauleen Conde's characters fills the room." attr="Josh Andrews" >}}
 
 James F. Webb III's portrayal of Billy Fontaine defies stereotypes, bringing strength and resilience to a man who has overcome personal traumas. His ability to also convey Billy's unabashed enthusiasm for a niche hobby adds a layer of depth and relatability to the character, showcasing Webb's versatility in scenes filled with infectious energy. 
 

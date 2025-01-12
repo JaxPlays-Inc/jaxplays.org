@@ -1,12 +1,14 @@
 ---
-title: Brooks Anne Meirdierks
+title: Brooks Anne Meierdierks
 aliases: 
-  - /people/brooks-ann-meirdierks
+  - /people/brooks-anne-meirdierks
+  - /people/brooks-ann-meierdierks
   - /people/brooks-anne-hayes
 other_names:
+  - Brooks Anne Meirdierks
   - Brooks Ann Meierdierks
   - Brooks Anne Hayes
-featured_image: Brooks-Anne-Meirdierks.webp
+featured_image: Brooks-Anne-Meierdierks.webp
 featured_image_attr: Josh Andrews
 featured_image_attr_link: 
 featured_image_alt: 
