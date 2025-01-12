@@ -26,13 +26,23 @@
       </h1>
       {{ with .Params.authors | default .Site.Params.author }}
       <p class="tracked i">
+          {{ $listSeparator := ", "}}
+          {{ $endOfList := " and "}}
           {{ $.Render "by" }}
           {{ if reflect.IsSlice . -}}
-              {{- range $index, $author := . -}}
-                  {{ if $index }}, {{ end }}<a href="/authors/{{ $author | urlize }}">{{- $author -}}</a>
+            {{ $len := len . }}
+            {{- range $index, $author := . -}}
+              {{- if gt $index 0 -}}
+                {{ if ne $index (sub $len 1) }}
+                  {{- $listSeparator -}}
+                {{ else }}
+                  {{- $endOfList -}}
+                {{- end -}}
               {{- end -}}
-          {{- else -}}
-              <a href="/authors/{{ . | urlize }}">{{ . }}</a>
+              <a href="/authors/{{ $author | urlize }}">{{- $author -}}</a>
+            {{- end -}}
+          {{ else }}
+            <a href="/authors/{{ . | urlize }}">{{ . }}</a>
           {{- end -}}
       </p>
       {{ end }}
@@ -42,7 +52,7 @@
       <time class="f6 mb3 dib tracked gray" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>Published on 
         {{ .Date | time.Format (default "Monday, January 2, 2006" .Site.Params.date_format) -}}
       </time>
-      {{end}}
+      {{ end }}
 
       {{/*
           Show "reading time" and "word count" but only if one of the following are true:
