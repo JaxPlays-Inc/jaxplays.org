@@ -62,7 +62,7 @@ cast:
 - Dub Frye: Tom Cassaro
 - Atticus "Attie" Van Lear: Thaddeus Walker
 - Beecham Lefette: Calvin Bernardo
-- Martha Ann Fox: Pattie Eyler
+- Martha Ann Fox: Patti Eyler
 - Fairy June Cooper: Kathy Sanders
 - Benny Charles Greenwood: Bob O'Hara
 - Ozella Meeks: Brooks Anne Meierdierks
