@@ -55,7 +55,26 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1482&code=JAXPLAYS&qty_target=0
 show_details: 
 cast:
+- Dorothy Frye: Peg Pachal
+- Sammy Jo Frye-Leffette: Natalie Drake
+- Harlene Frye: Logen Cheatham
+- Dewey Frye: Ryan Lemmon
+- Dub Frye: Tom Cassaro
+- Atticus "Attie" Van Lear: Thaddeus Walker
+- Beecham Lefette: Calvin Bernardo
+- Martha Ann Fox: Pattie Eyler
+- Fairy June Cooper: Kathy Sanders
+- Benny Charles Greenwood: Bob O'Hara
+- Ozella Meeks: Brooks Anne Meierdierks
 crew:
+- Director: Tod Booth
+- Production Manager: Erick Ariel Sureda
+- Lighting Designer: Johnny Pettegrew
+- Set Design: David Dionne
+- Costume Design: 
+  - Camala Pitts
+  - Dorinda Quiles
+- Sound Design: Carly Meyer
 orchestra:
 # Southern Fried Funeral
 Genres:
