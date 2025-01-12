@@ -75,6 +75,7 @@ crew:
   - Camala Pitts
   - Dorinda Quiles
 - Sound Design: Carly Meyer
+- Property Master: Patti Eyler
 orchestra:
 # Southern Fried Funeral
 Genres:
@@ -83,3 +84,6 @@ Genres:
 Description: "Experience the heartwarming chaos of a Southern family coming together after the passing of their patriarch, turning a time of mourning into unexpected hilarity."
 ---
 *Southern Fried Funeral* unfolds in the heart of Mississippi, where the Frye family gathers to mourn the passing of their beloved husband and father, Dewey Frye. As the relatives converge, old rivalries and new suspicions bring comedic twists to the solemn occasion. The widow, Dorothy, must contend with a barrage of problematic relatives, including a snake-in-the-grass brother in law, and a couple of scheming daughters, all while planning a funeral worthy of the man they all loved. Amid the laughs and family drama, the play offers touching moments that celebrate life and the enduring bonds of family.
+
+## First Coast Living - The Alhambra Theatre Presents *Southern Fried Funeral*
+{{< youtube IJGbS-eGLKs >}}
