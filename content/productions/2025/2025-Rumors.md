@@ -28,6 +28,16 @@ Tickets: https://app.arts-people.com/index.php?actions=13&p=1
 show_details: 
 - Playwright: "[[w:Neil Simon]]"
 cast:
+- Chris Gorman: Peggy Strickland
+- Ken Gorman: Ron Price
+- Claire Ganz: Terri Witkosky
+- Lenny Ganz: Scott Campbell
+- Ernie Cusack: Bob Duffy
+- Cookie Cusack: Judy Tipton
+- Glenn Cooper: Brandon Hester
+- Cassie Cooper: Audrey Antee
+- Officer Welch: Jim Tipton
+- Officer Pudney: Isabelle Bournigault
 crew:
 orchestra:
 # Rumors
@@ -38,3 +48,4 @@ Genres:
 Description: "Delve into Neil Simon's uproarious farce where a dinner party goes hilariously awry with misunderstandings and mistaken identities."
 ---
 *Rumors* begins as guests arrive at the home of the Deputy Mayor of New York for his tenth wedding anniversary. The evening takes a chaotic turn when they find him wounded and his wife missing. As more guests arrive, desperate attempts to cover up the scandalous circumstances lead to a cascade of confusion and classic Neil Simon gags. With no one knowing what to believe, the party spirals out of control, culminating in a fantastically frenetic climax. *Rumors* is a masterclass in comedy, showcasing Simon’s sharp wit and timing in this laugh-a-minute ensemble piece.
+
