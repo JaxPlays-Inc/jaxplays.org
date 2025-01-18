@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Poster for The Book of Mormon
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 genres: 
 - Musical
 - Comedy

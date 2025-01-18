@@ -9,7 +9,7 @@ featured_image_alt:
 featured_image_caption: Playbill cover for Company
 featured_image_attr: Shawn Steadman, Sarah Sankovich
 featured_image_attr_link: 
-playbill:
+program:
 Theatre: Jacksonville University - Stein College
 Venue: Swisher Theater
 Website: 

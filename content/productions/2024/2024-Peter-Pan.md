@@ -18,7 +18,7 @@ featured_image_alt: "Promotional poster for 'Peter Pan' featuring a whimsical sh
 featured_image_caption: "Embark on a whimsical journey with 'Peter Pan' as it sails through The Island Theater this July, capturing the timeless charm of Neverland."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theislandtheater.com/productions
 Tickets: https://www.theislandtheater.com/peter-pan-tickets
 show_details: 

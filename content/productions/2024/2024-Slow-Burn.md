@@ -19,7 +19,7 @@ featured_image_alt: "Poster for the Lumen Rep Theatre production titled 'Slow Bu
 featured_image_caption: Catch the intense drama of 'Slow Burn', featuring Edward Albee's one-acts 'The American Dream' and 'The Zoo Story' this July at Lumen Rep Theatre.
 featured_image_attr: Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.lumenrep.org/shows/slowburn
 Tickets: https://www.zeffy.com/ticketing/dcbb8a57-cb8a-425f-bebf-9c2bee3465c3
 show_details: 

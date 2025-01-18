@@ -55,7 +55,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 

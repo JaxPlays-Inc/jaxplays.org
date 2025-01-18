@@ -17,7 +17,7 @@ featured_image_alt: "Promotional poster for St. Marys Little Theatre's productio
 featured_image_caption: 
 featured_image_attr: St. Marys Little Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 cast:

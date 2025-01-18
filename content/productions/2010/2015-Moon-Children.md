@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Playbill cover for Moon Children
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: http://fscj.digital.flvc.org/islandora/object/fscj%3A68188#page/1/mode/2up
+program: http://fscj.digital.flvc.org/islandora/object/fscj%3A68188#page/1/mode/2up
 Genres:
 - Play
 - Drama

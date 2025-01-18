@@ -17,7 +17,7 @@ featured_image_alt: "Poster for 'It’s A Wonderful Life - A Live Radio Play' di
 featured_image_caption: "'It’s A Wonderful Life - A Live Radio Play' runs from December 6-15, 2024 at A Classic Theatre, offering a nostalgic trip back to a 1940s radio broadcast."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200456011
 show_details: 

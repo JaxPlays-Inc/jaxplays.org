@@ -14,7 +14,7 @@ featured_image_alt: Poster for Mean Girls Jr.
 featured_image_caption: Poster for Mean Girls Jr.
 featured_image_attr: The Island Theater
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theislandtheater.com/mean-girls-junior
 Tickets: 
 show_details: 

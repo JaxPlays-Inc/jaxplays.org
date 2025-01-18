@@ -14,7 +14,7 @@ showtimes:
 - 2024-06-27 12:00:00
 - 2024-06-28 19:00:00
 - 2024-06-29 19:00:00
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

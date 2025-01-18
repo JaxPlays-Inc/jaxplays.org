@@ -17,7 +17,7 @@ featured_image_alt:
 featured_image_caption: "Graphic for 'Ain't Too Proud'"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.fscjartistseries.org/tickets/aint-too-proud-the-life-and-times-of-the-temptations
 Tickets: https://shop.fscjartistseries.org/overview/aint-too-proud
 show_details: 

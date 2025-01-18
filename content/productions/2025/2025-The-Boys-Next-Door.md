@@ -21,7 +21,7 @@ featured_image_alt: "Poster for 'The Boys Next Door' by Tom Griffin at Theatre J
 featured_image_caption: "Join Theatre Jacksonville for 'The Boys Next Door,' a heartfelt comedy that explores life, love and friendship. Catch it live from March 7-23, 2025!"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 show_details: 

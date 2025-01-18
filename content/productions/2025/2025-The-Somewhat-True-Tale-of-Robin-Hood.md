@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: Graphic for *The Somewhat True Tale of Robin Hood*
 featured_image_attr: Artist Connection Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://artistconnectiontheatre.org/season-2024-2025/
 Tickets: https://ci.ovationtix.com/34989/production/1207877
 show_details: 

@@ -19,7 +19,7 @@ showtimes:
 featured_image: 2023_Just_Desserts_A_Musical_Bake_Off.webp
 featured_image_caption: "Poster for Just Desserts: A Musical Bake-Off"
 featured_image_attr: Theatre Jacksonville
-playbill: 2023_Just_Desserts.pdf
+program: 2023_Just_Desserts.pdf
 Website: https://www.theatrejax.com/onstage
 show_details: 
 - Books & Lyrics: Barbara Campbell

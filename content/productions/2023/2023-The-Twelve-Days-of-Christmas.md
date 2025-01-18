@@ -14,7 +14,7 @@ featured_image_alt: The Twelve Days of Christmas poster
 featured_image_caption: Poster for "The Twelve Days of Christmas"
 featured_image_attr: The Dramatic Publishing Company
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://actiiplayers.org/12-days-of-christmas
 Tickets: https://www.eventbrite.com/cc/12-days-of-christmas-2836209
 show_details: 

@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Charlotte's Web' at Artist Connection Theatre
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: https://artistconnectiontheatre.org/current-show/
 Tickets: https://ci.ovationtix.com/34989/production/1170635
 cast:

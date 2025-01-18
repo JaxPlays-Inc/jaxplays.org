@@ -14,7 +14,7 @@ featured_image_alt: Poster for Independence at Limelight Theatre
 featured_image_caption: "Poster for 'Independence'"
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.limelight-theatre.org/special-events
 Tickets: https://ci.ovationtix.com/34666/production/1196657
 show_details: 

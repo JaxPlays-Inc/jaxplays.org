@@ -8,7 +8,7 @@ featured_image_alt: Poster for The Addams Family
 featured_image_caption: Poster for The Addams Family
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
-playbill:
+program:
 Genres:
 - Musical
 - Comedy

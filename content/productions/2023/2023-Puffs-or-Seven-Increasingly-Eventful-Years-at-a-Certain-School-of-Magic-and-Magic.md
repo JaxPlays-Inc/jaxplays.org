@@ -22,7 +22,7 @@ featured_image_alt: Poster for Puffs, or Seven Increasingly Eventful Years at a 
 featured_image_caption: "Poster for 'Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic'"
 featured_image_attr: The Island Theater
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theislandtheater.com/puffs
 Tickets: 
 show_details: 

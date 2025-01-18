@@ -15,7 +15,7 @@ featured_image_alt: "A striking golden lightning bolt against a deep blue ocean 
 featured_image_caption: "Dive into the mythical world of 'The Lightning Thief' and experience the thrilling adventures of Percy Jackson in this electrifying musical."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

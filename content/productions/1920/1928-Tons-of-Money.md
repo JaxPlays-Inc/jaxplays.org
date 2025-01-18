@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1928-04-24
 closing_date: 1928-04-25
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Aubrey Henry Maitland Allington: E.S. Beauchamp-Nobbs

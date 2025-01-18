@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.ameliaisland.com/itineraries/dickens-on-centre-weekend-getaway/#one-man-show
 Tickets: 
 show_details: 

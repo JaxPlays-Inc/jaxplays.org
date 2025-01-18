@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://stageaurora.ticketleap.com/the-color-purple-benefit-concert/?fbclid=IwAR2XAQo5DKTKr8OPFdlvNIZIcMMEtjziBqxr4U6NwiFtfwORMc8qDVpPavU_aem_ATTBP4O8x4Wq-uRJcqAotqV9I_XAhHpaQWsBInbq2HdnrnwF8WDP2tBhQcUFWxw6TCqbod_tqPM5vaFJCnkWlUPn
 show_details: 

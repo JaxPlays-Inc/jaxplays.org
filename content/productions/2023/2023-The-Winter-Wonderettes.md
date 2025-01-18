@@ -8,7 +8,7 @@ featured_image_alt: Poster for The Winter Wonderettes
 featured_image_caption: Poster for 'The Winter Wonderettes'
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
-playbill: 2023-The-Winter-Wonderettes.pdf
+program: 2023-The-Winter-Wonderettes.pdf
 Genres:
   - Musical
   - Comedy

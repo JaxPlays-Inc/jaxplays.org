@@ -17,7 +17,7 @@ featured_image_alt: Phoster of The Game's Afoot
 featured_image_caption: Poster for The Game's Afoot
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://web.archive.org/web/20231003162327/https://www.flagler.edu/information-for/community-members/arts--culture/theatre-productions/
 Tickets: https://flagler.universitytickets.com/
 show_details: 

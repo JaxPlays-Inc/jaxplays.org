@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1925-01-27
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Isabel Stuart: Gladys Thornton

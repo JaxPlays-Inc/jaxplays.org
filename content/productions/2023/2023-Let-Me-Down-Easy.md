@@ -16,7 +16,7 @@ featured_image_alt:
 featured_image_caption: Poster for Let Me Down Easy
 featured_image_attr: Akers Design Co.
 featured_image_attr_link: 
-playbill:
+program:
 genres: 
 - Play
 - Drama

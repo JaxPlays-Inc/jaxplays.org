@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1981-01-16
 closing_date: 1981-01-31
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

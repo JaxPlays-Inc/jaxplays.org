@@ -56,7 +56,7 @@ featured_image_alt: Poster for The Wedding Singer
 featured_image_caption: Poster for 'The Wedding Singer'
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1460&code=WWW&qty_target=0
 cast:

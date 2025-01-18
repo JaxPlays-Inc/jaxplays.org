@@ -18,7 +18,7 @@ featured_image_alt:
 featured_image_caption: "Graphic for Scrooge: The Musical"
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
-playbill:
+program:
 Website: https://ameliamusicalplayhouse.com/performances/scrooge2023/
 Tickets: https://ameliamusicalplayhouse.com/tickets/
 show_details: 

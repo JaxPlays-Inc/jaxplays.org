@@ -16,7 +16,7 @@ featured_image_alt: "This is a promotional poster for a theatrical production ti
 featured_image_caption: Poster for 'Streetlight Woodpecker'
 featured_image_attr: Bradley Akers
 featured_image_attr_link:
-playbill:
+program:
 Website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions
 Tickets: https://flagler.universitytickets.com/
 show_details:

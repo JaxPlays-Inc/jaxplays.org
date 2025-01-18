@@ -7,7 +7,7 @@ opening_date: 2005-03-24
 closing_date: 2005-03-25
 featured_image: 2005_Godspell.webp
 layout: productions
-playbill:
+program:
 Theatre: Omega Theatre Productions
 Venue: CrossRoad Church
 showtimes: 

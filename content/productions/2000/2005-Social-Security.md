@@ -11,7 +11,7 @@ featured_image_alt:
 featured_image_caption: Program artwork for 'Social Security'
 featured_image_attr: George Maida
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

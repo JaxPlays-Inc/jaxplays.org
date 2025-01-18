@@ -17,7 +17,7 @@ featured_image_alt:
 featured_image_caption: Graphic for The Rocky Horror Show
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1451&code=jaxplays
 show_details: 

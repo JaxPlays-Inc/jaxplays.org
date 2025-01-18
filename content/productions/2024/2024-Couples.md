@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Graphic for Couples
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Genres:
 - Musical
 - Comedy

@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1964-02-28
 closing_date: 1964-03-07
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

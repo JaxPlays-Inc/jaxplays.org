@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Last_Train_to_Nibroc.jpeg
 featured_image_caption: Poster of Last Train to Nibroc
 featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
-playbill: 2023_Last_Train_to_Nibroc.pdf
+program: 2023_Last_Train_to_Nibroc.pdf
 Genres:
 - Play
 - Drama

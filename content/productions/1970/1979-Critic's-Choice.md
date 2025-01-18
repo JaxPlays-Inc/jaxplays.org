@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1979-11-23
 closing_date: 1979-12-08
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

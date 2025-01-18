@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1924-04-12
 closing_date:
 layout: productions
-playbill:
+program:
 cast:
 - Gregori Stepanovitch Smirnov:
   - Hugh McKay

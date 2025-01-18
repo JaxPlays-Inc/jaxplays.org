@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2022_Private_Lives.jpeg
 featured_image_caption: Poster of Private Lives
 featured_image_attr: Theatre Jacksonville
-playbill: 2022_Private_Lives.pdf
+program: 2022_Private_Lives.pdf
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:

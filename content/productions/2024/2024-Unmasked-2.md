@@ -17,7 +17,7 @@ showtimes:
 - 2024-04-20 19:00:00
 - 2024-04-21 13:00:00
 - 2024-04-21 19:00:00
-playbill:
+program:
 Website: 
 Tickets: https://www.greenlighttheatreco.com/onstage
 show_details: 

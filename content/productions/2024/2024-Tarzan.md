@@ -23,7 +23,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Tarzan'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://ci.ovationtix.com/34877/production/1187114
 cast:

@@ -28,7 +28,7 @@ featured_image_alt: "Promotional poster for 'Annie The Musical' showcasing a pla
 featured_image_caption: "Join the fun with 'Annie The Musical' from June 28 to August 13! It's a delightful show for all ages, promising great entertainment and the timeless charm of everyone's favorite redhead."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: 
 Tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 

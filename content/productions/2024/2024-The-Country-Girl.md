@@ -16,7 +16,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://crtpalmcoast.com/the-country-girl
 Tickets: https://www.tix.com/ticket-sales/crtpalmcoast/7555
 show_details: 

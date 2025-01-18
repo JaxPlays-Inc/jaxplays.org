@@ -15,7 +15,7 @@ featured_image_alt: "A promotional poster for 'Love, Loss, and What I Wore' feat
 featured_image_caption: "Delve into the poignant and humorous 'Love, Loss, and What I Wore,' a collection of stories that weave together women's lives through their wardrobes. Presented in support of the Pinky Promise Foundation."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://blue-fire-theatre.ticketleap.com/
 cast:

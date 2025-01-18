@@ -20,7 +20,7 @@ featured_image_alt: "Poster for 'Seussical The Musical' showcasing three actors 
 featured_image_caption: "Dive into the colorful and imaginative world of 'Seussical The Musical' at The Island Theater, where fantasy and fun meet on stage this summer."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.theislandtheater.com/seussical-the-musical-tickets
 show_details: 

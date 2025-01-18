@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Poster for True West
 featured_image_attr: Players By The Sea
 featured_image_attr_link:
-playbill:
+program:
 Genres:
 - Play
 - Drama

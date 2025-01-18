@@ -17,7 +17,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: Photography by Eriden Images, Design by Jason Woods
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

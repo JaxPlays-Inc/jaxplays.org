@@ -12,7 +12,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'The Secrets We Keep'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.ticketsource.us/whats-on/fl/cohen-auditorium-at-river-garden/the-secrets-we-keep-musical-jacksonville/e-eqomyp
 show_details: 

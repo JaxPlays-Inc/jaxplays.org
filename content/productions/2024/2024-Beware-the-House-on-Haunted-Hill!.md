@@ -19,7 +19,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Beware the House on Haunted Hill!'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://actiiplayers.org/
 Tickets: https://www.eventbrite.com/cc/beware-the-house-on-haunted-hill-3156329
 show_details: 

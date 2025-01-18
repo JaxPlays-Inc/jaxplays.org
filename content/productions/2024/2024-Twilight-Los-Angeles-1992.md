@@ -16,7 +16,7 @@ featured_image_alt: "Graphic for 'Twilight: Los Angeles, 1992'"
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.eventbrite.com/e/twilight-los-angeles-1992-tickets-882541644817?aff=jaxplays
 show_details: 

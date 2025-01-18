@@ -17,7 +17,7 @@ featured_image_alt: "Poster for 'Bakersfield Mist' by Stephen Sachs, directed by
 featured_image_caption: "Catch 'Bakersfield Mist' at A Classic Theatre, a compelling dramedy that questions the value of art and people, running from October 4-13, 2024."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200456009
 show_details: 

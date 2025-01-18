@@ -17,7 +17,7 @@ featured_image_alt: "Poster for 'The Foreigner' by Larry Shue, directed by Harol
 featured_image_caption: "'The Foreigner,' a comedy of misunderstandings and misrepresentations, is at A Classic Theatre from May 2-11, 2025."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200456016
 show_details: 

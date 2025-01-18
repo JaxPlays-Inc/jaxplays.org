@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: "Poster for Elvis: A Musical Revolution"
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
-playbill:
+program:
 genres: 
 - Musical
 - Biographical

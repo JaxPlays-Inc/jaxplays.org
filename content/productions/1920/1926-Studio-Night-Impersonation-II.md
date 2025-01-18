@@ -5,7 +5,7 @@ opening_date: 1926-12-31
 approx_date: year
 closing_date:
 layout: productions
-playbill:
+program:
 cast:
 - Performer: Elizabeth Palmer Tyler
 crew:

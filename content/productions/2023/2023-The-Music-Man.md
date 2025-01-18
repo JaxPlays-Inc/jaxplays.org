@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Poster for The Music Man
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
-playbill:
+program:
 genres:
 - Musical
 - Comedy

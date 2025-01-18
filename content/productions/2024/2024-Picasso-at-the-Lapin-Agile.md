@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2024-Picasso-at-the-Lapin-Agile.webp
 featured_image_caption: Poster for Picasso at the Lapin Agile
 featured_image_attr: Theatre Jacksonville
-playbill:
+program:
 Genres:
 - Comedy
 - Absurdist

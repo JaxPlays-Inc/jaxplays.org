@@ -29,7 +29,7 @@ featured_image_alt:
 featured_image_caption: Poster for 9 To 5 The Musical
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.limelight-theatre.org/season-32-shows-1/9-to-5-the-musical
 Tickets: https://ci.ovationtix.com/34666/production/1165813
 cast:

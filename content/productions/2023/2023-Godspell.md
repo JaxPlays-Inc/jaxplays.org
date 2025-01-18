@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: Graphic for Godspell
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.apextheatrejax.com/event/apex-presents-godspell-2012-revival/2023-11-03/
 Tickets: https://www.eventbrite.com/e/apex-theatre-studio-presents-godspell-tickets-698354215257?aff=jaxplays
 show_details: 

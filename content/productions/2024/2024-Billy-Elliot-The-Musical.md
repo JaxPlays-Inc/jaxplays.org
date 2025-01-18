@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: "Poster for Billy Elliot: The Musical"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=4&p=51
 show_details: 

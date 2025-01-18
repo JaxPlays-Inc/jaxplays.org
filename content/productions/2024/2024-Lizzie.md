@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Teaser graphic for 'Lizzie'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.the5anddime.org/lizzie-the-musical
 Tickets: https://www.eventbrite.com/e/lizzie-tickets-773068587957?aff=jaxplays
 show_details: 

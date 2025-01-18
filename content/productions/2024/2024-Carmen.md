@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: Poster of 'Carmen' at the Jacksonville Symphony
 featured_image_attr: Photo of Carmen in a red dress with drammatic lighting
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: https://my.jaxsymphony.org/carmen
 Tickets: https://my.jaxsymphony.org/carmen
 show_details: 

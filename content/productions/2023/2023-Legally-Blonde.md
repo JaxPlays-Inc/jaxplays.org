@@ -56,7 +56,7 @@ featured_image_alt:
 featured_image_caption: Graphic for Legally Blonde
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1429&code=jaxplays
 show_details: 

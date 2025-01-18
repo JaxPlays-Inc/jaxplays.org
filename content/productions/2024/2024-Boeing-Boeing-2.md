@@ -18,7 +18,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.theislandtheater.com/boeing-boeing-tickets
 show_details: 

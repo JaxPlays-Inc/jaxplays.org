@@ -18,7 +18,7 @@ showtimes:
 featured_image: 2024-The-SpongeBob-Musical.webp
 featured_image_alt: "Promotional poster for 'The SpongeBob Musical' with a vibrant title and pineapple under the sea motif."
 featured_image_caption: "Dive into 'The SpongeBob Musical' and discover the undersea wonders and adventures of Bikini Bottom."
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

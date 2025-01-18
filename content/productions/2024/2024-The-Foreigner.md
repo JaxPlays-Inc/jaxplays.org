@@ -21,7 +21,7 @@ featured_image_alt: "Promotional poster for Theatre Jacksonville's production of
 featured_image_caption: "Dive into the comedic twists of 'The Foreigner' at Theatre Jacksonville, showing from November 8-24, 2024."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program: 2024-The-Foreigner.pdf
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 cast:
@@ -33,6 +33,27 @@ cast:
 - Owen Musser: Allen Morton
 - Ellard Simms: Joey Balliro
 crew:
+  - Director: Bob Gerard
+  - Production Manager: Michelle Kindy
+  - Set Design: Ben Girvin
+  - Lighting Design: Johnny Pettegrew
+  - Sound Design: Brent Mulberry
+  - Costume Design: Classic Costumes
+  - Graphic Design: Green Onion Creative LLC
+  - Stage Manager: Aspen Krill
+  - Light Board Operator: Squirrel Pitts
+  - Sound Board Operator: Mark Rubens
+  - Set Dressing/Props: Allen Morton
+  - Set Construction/Running Crew:
+      - Lourdes Acosta
+      - Katie Allen
+      - John Brundage
+      - Tyler Leeps
+      - Shawn LeNoble
+      - Daniel Locke
+      - Squirrel Pitts
+      - Ron Shreve
+      - Christopher Watson
 orchestra:
 Press:
 - "Laughter isn’t foreign to THE FOREIGNER | Folio Weekly" : https://folioweekly.com/2024/11/12/laughter-isnt-foreign-to-the-foreigner/

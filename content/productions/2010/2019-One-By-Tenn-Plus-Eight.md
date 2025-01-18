@@ -10,7 +10,7 @@ featured_image: 2019_OneBy_Tenn_Plus_Eight.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-playbill: 2019_One_By_Tenn_Plus_Eight.pdf
+program: 2019_One_By_Tenn_Plus_Eight.pdf
 Theatre: Actors Collective
 Venue: ABET - All Beaches Experimental Theatre
 Website: http://www.actorscollective.com/one-by-tenn-plus-eight/

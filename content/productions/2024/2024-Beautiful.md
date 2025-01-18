@@ -22,7 +22,7 @@ featured_image_alt: "Poster for 'Beautiful: The Carole King Musical'"
 featured_image_caption: "Poster for 'Beautiful: The Carole King Musical'"
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://playersbythesea.org/beautiful
 Tickets: https://ci.ovationtix.com/34877/production/1187099
 show_details: 

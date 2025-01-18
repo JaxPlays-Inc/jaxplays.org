@@ -20,7 +20,7 @@ featured_image_alt: "Promotional poster for 'You're a Good Man, Charlie Brown' f
 featured_image_caption: "Catch the timeless charm of 'You're a Good Man, Charlie Brown' at Amelia Musical Playhouse!"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://ameliamusicalplayhouse.com/performances/charliebrown/
 Tickets: https://904tix.com/venues/7617/events
 show_details: 

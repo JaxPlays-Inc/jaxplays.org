@@ -16,7 +16,7 @@ featured_image_alt: Poster for 'Cabaret'
 featured_image_caption: Poster for 'Cabaret'
 featured_image_attr: Greenlight Theatre Company
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.greenlighttheatreco.com/jaxbeachonstage
 show_details: 

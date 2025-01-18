@@ -8,7 +8,7 @@ featured_image_alt: Poster of The Barber of Seville
 featured_image_caption: Poster of The Barber of Seville
 featured_image_attr: Jenny Kelly Productions
 featured_image_attr_link: https://jennykellyproductions.com/photo-gallery-barber
-playbill:
+program:
 genres: 
 - Opera
 - Comedy

@@ -7,7 +7,7 @@ featured_image: 2023-Disneys-Frozen.webp
 featured_image_caption: Poster for Disney's 'Frozen'
 featured_image_attr: Disney Theatrical Productions
 featured_image_attr_link: 
-playbill:
+program:
 Theatre: FSCJ Artist Series
 Venue: Moran Theater
 Website: 

@@ -20,7 +20,7 @@ featured_image_alt: "Vibrant poster for 'The Bardy Bunch,' written by Stephen Ga
 featured_image_caption: "Experience the quirky clash in 'The Bardy Bunch' at Amelia Musical Playhouse, where the iconic families of Partridge and Brady meet in a hilarious showdown."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

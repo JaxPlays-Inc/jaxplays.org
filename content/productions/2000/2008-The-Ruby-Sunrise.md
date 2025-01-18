@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 2008-02-29
 closing_date: 2008-03-15
 layout: productions
-playbill:
+program:
 Genres: 
 - Play
 Theatre: Theatre Jacksonville

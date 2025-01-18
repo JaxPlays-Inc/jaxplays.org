@@ -18,7 +18,7 @@ showtimes:
 featured_image: 2024-A-Closer-Walk-With-Patsy-Cline.webp
 featured_image_alt: "Promotional poster for 'A Closer Walk With Patsy Cline' showcasing a stylized image of Patsy Cline."
 featured_image_caption: "Step back in time with 'A Closer Walk With Patsy Cline' and relive the music and legacy of a country legend."
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

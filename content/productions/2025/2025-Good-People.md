@@ -17,7 +17,7 @@ featured_image_alt: "Poster for 'Good People' by David Lindsay-Abaire, directed 
 featured_image_caption: "'Good People,' a powerful and humorously sharp look at the struggles of everyday life, is showing from March 7-16, 2025 at A Classic Theatre."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200456013
 show_details: 

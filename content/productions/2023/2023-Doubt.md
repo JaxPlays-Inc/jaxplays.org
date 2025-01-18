@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Doubt.jpeg
 featured_image_caption: Poster of Doubt
 featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
-playbill: 2023_Doubt.pdf
+program: 2023_Doubt.pdf
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 Genres:

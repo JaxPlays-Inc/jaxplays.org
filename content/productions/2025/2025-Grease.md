@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Grease'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/grease/6664951593b9406cc55dc4db
 show_details: 

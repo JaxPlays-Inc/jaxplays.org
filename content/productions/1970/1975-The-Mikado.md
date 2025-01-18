@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1975-03-21
 closing_date: 1975-04-05
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

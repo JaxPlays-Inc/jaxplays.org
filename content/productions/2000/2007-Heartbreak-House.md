@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Playbill cover for *Heartbreak House*
 featured_image_attr: Selin Ozguzer
 featured_image_attr_link: 
-playbill:
+program:
 genres:
 - Drama
 - Satire

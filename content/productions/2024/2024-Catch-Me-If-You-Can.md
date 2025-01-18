@@ -20,7 +20,7 @@ featured_image_alt: Graphic for 'Catch Me If You Can'
 featured_image_caption: Graphic for 'Catch Me If You Can'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: 
 Tickets: 
 show_details: 

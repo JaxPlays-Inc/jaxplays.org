@@ -22,7 +22,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://artistconnectiontheatre.org/season-2024-2025/
 Tickets: https://ci.ovationtix.com/34989/production/1207874
 show_details: 

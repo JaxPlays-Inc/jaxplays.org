@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 2006-09-15
 closing_date: 2006-10-07
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:

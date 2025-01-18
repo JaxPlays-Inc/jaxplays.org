@@ -26,7 +26,7 @@ showtimes:
 featured_image: 2024-A-Christmas-Carol.webp
 featured_image_alt: "Promotional poster for 'A Christmas Carol The Musical' showing the title in golden letters against a wintery night scene."
 featured_image_caption: "Experience the magic of 'A Christmas Carol The Musical', where holiday spirits come to life in a spectacle of song and snow."
-playbill:
+program:
 Website: 
 Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=366478~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
 show_details: 

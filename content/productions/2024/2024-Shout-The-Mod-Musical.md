@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2024_Shout_The_Mod_Musical.webp
 featured_image_caption: "Poster for SHOUT! The Mod Musical"
 featured_image_attr: Theatre Jacksonville
-playbill:
+program:
 Genres:
 - Musical
 - Comedy

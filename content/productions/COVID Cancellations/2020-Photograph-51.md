@@ -9,7 +9,7 @@ closing_date: 2020-03-15
 Genres: 
 - Play
 featured_image:
-playbill: 2020_photograph_51.pdf
+program: 2020_photograph_51.pdf
 Theatre: Actors Collective
 Venue: Museum of Science & History
 show_details:

@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2024_Alabama_Story.webp
 featured_image_caption: Poster for Alabama Story
 featured_image_attr: Theatre Jacksonville
-playbill:
+program:
 Genres:
 - Play
 - Drama

@@ -16,7 +16,7 @@ featured_image_alt: "Promotional poster for 'Young Frankenstein' with the title 
 featured_image_caption: "Join the hilarity in 'Young Frankenstein', a monstrous comedy that electrifies with laughter and mischief."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: 
 Tickets: https://saltwaterpac.ludus.com/index.php?sections=events&widget=1
 show_details: 

@@ -5,7 +5,7 @@ opening_date: 1927-12-31
 approx_date: year
 closing_date:
 layout: productions
-playbill:
+program:
 - Bill Walker:
   - Burton Barrs
 - Charles Lomax: Charles Murchison

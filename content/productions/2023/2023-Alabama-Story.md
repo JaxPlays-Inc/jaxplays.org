@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Poster for Alabama Story
 featured_image_attr: Photography and graphic design by Jon Scherf
 featured_image_attr_link: 
-playbill:
+program:
 Genres:
 - Play
 - Drama

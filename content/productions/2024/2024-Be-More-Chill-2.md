@@ -19,7 +19,7 @@ featured_image_alt: "Promotional poster for 'Be More Chill' at The Island Theate
 featured_image_caption: "Dive into the digital frenzy of 'Be More Chill' at The Island Theater, running from June 14-23. Don't miss this electrifying journey into adolescence and technology."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

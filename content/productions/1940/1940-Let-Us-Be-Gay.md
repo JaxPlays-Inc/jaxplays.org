@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1940-10-08
 closing_date: 1940-10-11
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

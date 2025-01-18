@@ -21,12 +21,41 @@ featured_image_alt: "Theatre Jacksonville presents 'The Women of Lockerbie,' dep
 featured_image_caption: "Experience the moving story of 'The Women of Lockerbie' at Theatre Jacksonville, a powerful drama about love overcoming tragedy, from January 17 to February 2, 2025."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program: 2025-The-Women-of-Lockerbie.pdf
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 show_details: 
 cast:
+  - Madeline Livingston: Evie Day
+  - Bill Livingston: Taylor Smith
+  - Olive Allison: Grace Bryan
+  - Hattie: Cathy Maxwell Finke
+  - George Jones: Greg Hewitt
+  - Lonnie: Lonnie Sue Curri
+  - Margaret: Emily Johns
+  - Isla: Rachel Johns
 crew:
+  - Director: Jeff Grove
+  - Production Manager: Michelle Kindy
+  - Set/Lighting Design: Johnny Pettegrew
+  - Sound Design: Brent Mulberry
+  - Costume Design: Classic Costumes
+  - Graphic Design: Green Onion Creative LLC
+  - Stage Manager: Tyler Leeps
+  - Light Board Operator: Squirrel Pitts
+  - Set Construction:
+      - Lourdes Acosta
+      - Katie Allen
+      - Miriame Cissokho
+      - Eli Durham
+      - Ben Girvin
+      - Madison Hicks
+      - Aspen Krill
+      - Shawn LeNoble
+      - Daniel Locke
+      - James Pierce
+      - Taylor Smith
+      - Miles Williamson
 orchestra:
 Genres:
   - Play

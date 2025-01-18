@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.firstcoastopera.com/pirates
 Tickets: https://app.arts-people.com/index.php?ticketing=fcop&rd=1
 show_details: 

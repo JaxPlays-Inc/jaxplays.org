@@ -19,7 +19,7 @@ featured_image_alt:
 featured_image_caption: "Graphic for 'Les Misérables'"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.fscjartistseries.org/tickets/les-mis%C3%A9rables
 Tickets: https://www.fscjartistseries.org/season-tickets
 show_details: 

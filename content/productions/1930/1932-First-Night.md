@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1932-12-20
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Irene Barnes: Agnes Towers

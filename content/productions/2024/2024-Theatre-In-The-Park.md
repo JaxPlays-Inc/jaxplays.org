@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Theatre In The Park'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

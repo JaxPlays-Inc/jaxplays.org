@@ -14,7 +14,7 @@ featured_image_alt: "Promotional image for 'Love and Information' by Caryl Churc
 featured_image_caption: "Artistic rendering for 'Love and Information' captures the play's themes of connectivity and the flow of data in modern life."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.barbaracolaciello.com/register/loveandinfobabslab
 Tickets: https://www.barbaracolaciello.com/register/loveandinfobabslab
 show_details: 

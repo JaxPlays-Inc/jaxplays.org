@@ -20,7 +20,7 @@ featured_image_alt: "Promotional poster for Neil Simon's 'The Odd Couple' at Ame
 featured_image_caption: "'The Odd Couple,' Neil Simon's classic comedy of mismatched roommates, takes the stage at Amelia Musical Playhouse, promising laughs and memorable moments."
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
-playbill:
+program:
 Website: https://ameliamusicalplayhouse.com/pastperformances/the-odd-couple/
 Tickets: 
 show_details: 

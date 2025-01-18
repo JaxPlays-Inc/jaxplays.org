@@ -8,7 +8,7 @@ featured_image_alt: Poster for The Wizard of Oz
 featured_image_caption: Poster for The Wizard of Oz
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
-playbill:
+program:
 Theatre: Amelia Musical Playhouse
 Venue: Amelia Musical Playhouse
 Website: https://ameliamusicalplayhouse.com/performances/oz2023/

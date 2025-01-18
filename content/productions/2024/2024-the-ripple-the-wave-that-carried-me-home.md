@@ -18,7 +18,7 @@ featured_image_alt:
 featured_image_caption: Teaser graphic for 'The Ripple, The Wave That Carried Me Home'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.the5anddime.org/the-ripple-the-wave-that-carried-me-home
 Tickets: https://www.eventbrite.com/e/the-ripple-the-wave-that-carried-me-home-tickets-773019501137
 show_details: 

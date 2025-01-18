@@ -15,7 +15,7 @@ featured_image_alt: Poster art for Annie JR.
 featured_image_caption: Poster for Annie JR.
 featured_image_attr: Tribuen Content Agency, LLC., Apex Theatre Studio
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.pvconcerthall.com/events/detail/apex-theatre-annie-jr
 show_details: 

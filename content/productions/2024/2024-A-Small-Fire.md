@@ -18,7 +18,7 @@ featured_image_alt:
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
-playbill:
+program:
 Website: https://www.lumenrep.org/shows/a-small-fire
 Tickets: https://www.zeffy.com/en-US/ticketing/71738d1d-ea45-4f93-bc76-9c05f70ef4e8
 show_details:

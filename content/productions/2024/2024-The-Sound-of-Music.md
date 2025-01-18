@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.ticketleap.events/tickets/cec-som-5/som
 show_details: 

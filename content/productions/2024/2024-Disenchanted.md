@@ -25,7 +25,7 @@ featured_image_alt: Cast Poster for Disenchanted!
 featured_image_caption: Cast Poster for Disenchanted!
 featured_image_attr: Graphic design by Jon Scherf
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.abetjax.com/copy-of-2022-23-season
 # Tickets: https://www.eventbrite.com/e/disenchanted-a-new-musical-comedy-tickets-679807250787
 Tickets: https://ci.ovationtix.com/34666/production/1191105

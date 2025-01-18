@@ -23,7 +23,7 @@ featured_image_alt: Cast list announcement for 'Boeing Boeing'
 featured_image_caption: Cast list announcement for 'Boeing Boeing'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theatrejax.com/boeing-boeing
 Tickets: 
 show_details: 

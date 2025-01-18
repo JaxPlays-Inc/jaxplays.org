@@ -5,7 +5,7 @@ opening_date: 1925-12-31
 approx_date: year
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Rogers: Charles McKinnon

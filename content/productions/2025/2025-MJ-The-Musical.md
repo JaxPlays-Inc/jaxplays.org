@@ -19,7 +19,7 @@ featured_image_alt:
 featured_image_caption: "Poster for 'MJ The Musical'"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.fscjartistseries.org/tickets/mj-the-musical
 Tickets: https://www.fscjartistseries.org/season-tickets
 show_details: 

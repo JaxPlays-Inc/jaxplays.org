@@ -17,7 +17,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: Designed by Vicki Wyttenbach
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: http://www.stmaryslittletheatre.com
 Tickets: https://our.show/southernfried
 show_details: 

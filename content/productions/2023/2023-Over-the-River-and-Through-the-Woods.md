@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Over_the_River_and_Through_the_Woods.jpg
 featured_image_caption: Poster of 2023 production of Over the River and Through the Woods
 featured_image_attr: Limelight Theatre
-playbill:
+program:
 genres:
 - Play
 - Comedy

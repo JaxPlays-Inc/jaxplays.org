@@ -7,7 +7,7 @@ closing_date: 2019-01-26
 Genres: 
 - Play
 featured_image:
-playbill:
+program:
 Theatre: Actors Collective
 Venue: Museum of Science & History
 show_details:

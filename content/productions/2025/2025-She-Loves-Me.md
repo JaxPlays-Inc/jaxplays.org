@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'She Loves Me'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/she-loves-me/66648faef3e05e7d8d221679
 show_details: 

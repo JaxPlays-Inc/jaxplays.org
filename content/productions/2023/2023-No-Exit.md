@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_No_Exit.gif
 featured_image_caption: Poster for 'No Exit'
 featured_image_attr: Brunet-Garcia Advertising
-playbill:
+program:
 genres:
 - Play
 - Drama

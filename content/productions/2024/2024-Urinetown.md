@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: Teaser graphic for 'Urinetown' at The 5 & Dime
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.the5anddime.org/urinetown
 Tickets: https://www.eventbrite.com/e/urinetown-tickets-773028267357
 show_details: 

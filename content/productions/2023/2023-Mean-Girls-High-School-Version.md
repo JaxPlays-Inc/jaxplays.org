@@ -22,7 +22,7 @@ featured_image_alt: Poster for Mean Girls High School Version
 featured_image_caption: Poster for Mean Girls High School Version
 featured_image_attr: Music Theatre International, The Island Theater
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theislandtheater.com/mean-girls-hs
 Tickets: 
 show_details: 

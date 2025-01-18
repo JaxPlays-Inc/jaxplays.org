@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: Collin James
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://limelight.ludus.com/200468068
 show_details: 

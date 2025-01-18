@@ -12,7 +12,7 @@ featured_image_alt: "Poster for 'Morning After Grace' by Carey Crim, a staged re
 featured_image_caption: "'Morning After Grace,' an unconventional comedy about love and new beginnings, is at A Classic Theatre on January 10, 2025."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200457758
 show_details: 

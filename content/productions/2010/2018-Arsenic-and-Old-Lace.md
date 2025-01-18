@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2018_Arsenic_and_Old_Lace.jpeg
 featured_image_caption: Poster for Arsenic and Old Lace
 featured_image_attr: Theatre Jacksonville
-playbill:
+program:
 Theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 showtimes:

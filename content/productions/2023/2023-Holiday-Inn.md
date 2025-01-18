@@ -29,7 +29,7 @@ featured_image_alt:
 featured_image_caption: Graphic for Holiday Inn
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
 Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=255309~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&
 show_details: 

@@ -25,7 +25,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.limelight-theatre.org/season-32-shows-1/rhinoceros
 Tickets: https://limelight.ludus.com/200459023
 show_details: 

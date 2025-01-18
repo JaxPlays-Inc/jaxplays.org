@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Hester: Alice Shaw

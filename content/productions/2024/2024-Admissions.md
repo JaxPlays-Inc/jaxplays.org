@@ -12,7 +12,7 @@ featured_image_alt: "Poster for 'Admissions' by Joshua Harmon, a staged reading 
 featured_image_caption: "'Admissions' at A Classic Theatre explores themes of privilege and hypocrisy in college admissions on November 1, 2024."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200457757
 show_details: 

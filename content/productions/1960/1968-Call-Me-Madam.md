@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1968-07-18
 closing_date: 1968-07-27
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

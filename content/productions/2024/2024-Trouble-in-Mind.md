@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Promotional Graphic for 'Trouble in Mind'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://playersbythesea.org/trouble-in-mind
 Tickets: https://ci.ovationtix.com/34877/production/1187113
 show_details: 

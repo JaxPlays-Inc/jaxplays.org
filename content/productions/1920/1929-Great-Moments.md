@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1929-05-15
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - He: Claude Sims, Jr.

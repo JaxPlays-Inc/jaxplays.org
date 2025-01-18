@@ -16,7 +16,7 @@ featured_image_alt: Poster for The Grapes of Wrath
 featured_image_caption: Poster for The Grapes of Wrath
 featured_image_attr:
 featured_image_attr_link:
-playbill:
+program:
 Theatre: Jacksonville University - Stein College
 Venue: Swisher Theater
 Website:

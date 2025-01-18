@@ -21,7 +21,7 @@ featured_image_alt: Poster of Newsies
 featured_image_caption: Poster of Newsies
 featured_image_attr: Disney & The Island Theater
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.theislandtheater.com/newsies-tickets
 show_details: 

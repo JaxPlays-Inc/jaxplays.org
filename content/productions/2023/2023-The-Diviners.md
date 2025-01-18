@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_The_Diviners.jpeg
 featured_image_caption: Poster for 2023 production of The Diviners
 featured_image_attr: Limelight Theatre
-playbill:
+program:
 Theatre: Limelight Theatre
 Venue: Matuza Mainstage
 Website: https://web.archive.org/web/20230518165957/https://www.limelight-theatre.org/shows/the-diviners

@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'The Spitfire Grill'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/the-spitfire-grill/66648d6bd3baa6af798b115d
 show_details: 

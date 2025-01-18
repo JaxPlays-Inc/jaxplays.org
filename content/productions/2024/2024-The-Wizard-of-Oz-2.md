@@ -23,7 +23,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: Bill Ivins
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://ameliamusicalplayhouse.com/performances/oz2024/
 Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 

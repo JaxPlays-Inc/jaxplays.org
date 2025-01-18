@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Burn_This.jpeg
 featured_image_caption: Josh Andrews, graphic design Jon Scherf
 featured_image_attr:
-playbill:
+program:
 Genres:
 - Play
 - Drama

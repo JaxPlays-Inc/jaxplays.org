@@ -12,7 +12,7 @@ featured_image_alt: "Poster for the staged reading of 'Who Am I This Time & Othe
 featured_image_caption: "Explore the complexities of love with 'Who Am I This Time & Other Conundrums of Love' at A Classic Theatre on February 7, 2025. This unique staged reading is adapted from Kurt Vonnegut's stories."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200457759
 show_details: 

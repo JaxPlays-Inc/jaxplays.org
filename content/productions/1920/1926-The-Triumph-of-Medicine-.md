@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1926-04-13
 closing_date: 1926-04-14
 layout: productions
-playbill:
+program:
 cast:
 - Mariette: Aline Chase
 - Dr. Knock: E.S. Beauchamp-Nobbs

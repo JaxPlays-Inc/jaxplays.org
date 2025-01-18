@@ -50,7 +50,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1482&code=JAXPLAYS&qty_target=0
 show_details: 
@@ -82,6 +82,8 @@ Genres:
   - Play
   - Comedy
 Description: "Experience the heartwarming chaos of a Southern family coming together after the passing of their patriarch, turning a time of mourning into unexpected hilarity."
+Reviews:
+- "Experience Southern charm, laughs with Alhambra’s latest show | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/experience-southern-charm-laughs-with-alhambras-latest-show,111948
 ---
 *Southern Fried Funeral* unfolds in the heart of Mississippi, where the Frye family gathers to mourn the passing of their beloved husband and father, Dewey Frye. As the relatives converge, old rivalries and new suspicions bring comedic twists to the solemn occasion. The widow, Dorothy, must contend with a barrage of problematic relatives, including a snake-in-the-grass brother in law, and a couple of scheming daughters, all while planning a funeral worthy of the man they all loved. Amid the laughs and family drama, the play offers touching moments that celebrate life and the enduring bonds of family.
 

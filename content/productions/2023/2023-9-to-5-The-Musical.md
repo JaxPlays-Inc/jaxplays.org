@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_9_to_5_The_Musical.webp
 featured_image_caption: Poster for 9 to 5 The Musical
 featured_image_attr: Amelia Community Theatre
-playbill: 2023_9_to_5_The_Musical.pdf
+program: 2023_9_to_5_The_Musical.pdf
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 Tickets: https://app.arts-people.com/index.php?ticketing=act11

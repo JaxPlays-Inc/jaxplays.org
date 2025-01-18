@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: Poster for 'Phantom'
 featured_image_attr_link: ABET - All Beaches Experimental Theatre
-playbill:
+program:
 Website: 
 Tickets: https://www.eventbrite.com/e/phantom-the-musical-tickets-679811242727
 show_details: 

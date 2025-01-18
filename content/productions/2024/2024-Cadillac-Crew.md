@@ -18,7 +18,7 @@ featured_image_alt:
 featured_image_caption: Graphic for 'Cadillac Crew'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.lumenrep.org/shows/cadillaccrew
 Tickets: https://www.zeffy.com/en-US/ticketing/b11783ad-a69a-46c9-8ab8-cad2d6425760
 show_details: 

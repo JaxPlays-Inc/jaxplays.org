@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Beauty_and_the_Beast.jpeg
 featured_image_caption: Graphic of Disney's Beauty and the Beast at the Alhambra
 featured_image_attr: Alhambra Theatre & Dining
-playbill:
+program:
 Theatre: Alhambra Theatre & Dining
 Venue: Alhambra Theatre
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays

@@ -7,7 +7,7 @@ layout: productions
 featured_image: 1999_Jesus_Christ_Superstar.jpg
 featured_image_caption: Photo of the playbill
 featured_image_attr: Kimberly Whitfield
-playbill: 1999_Jesus_Christ_Superstar.pdf
+program: 1999_Jesus_Christ_Superstar.pdf
 Theatre: Omega Theatre Productions
 Venue: Florida Theatre
 genres:

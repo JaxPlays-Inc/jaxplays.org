@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Little_Miss_Sunshine.jpeg
 featured_image_caption: 2023 Little Miss Sunshine Poster
 featured_image_attr: Limelight Theatre
-playbill:
+program:
 genres:
 - Musical
 - Comedy

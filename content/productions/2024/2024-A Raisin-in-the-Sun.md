@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'A Raisin in the Sun'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: 2024-A-Raisin-in-the-Sun.pdf
+program: 2024-A-Raisin-in-the-Sun.pdf
 Website: https://reachingupproductions.org/
 Tickets: https://reachingupproductions.org/ols/categories/ticket
 show_details: 

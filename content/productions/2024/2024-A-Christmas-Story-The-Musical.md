@@ -51,7 +51,7 @@ featured_image_alt: "Promotional image for 'A Christmas Story: The Musical,' fea
 featured_image_caption: "Step into the holiday spirit with 'A Christmas Story: The Musical' at the Alhambra Theatre & Dining. Relive the iconic, heartwarming tale this festive season!"
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1463&_s=&sid=b7926b0d30594811496b690960d809ea&qty_target=0
 show_details: 

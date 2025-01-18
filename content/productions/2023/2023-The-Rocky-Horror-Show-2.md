@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: Poster for The Rocky Horror Show
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://ameliamusicalplayhouse.com/tickets/
 show_details: 

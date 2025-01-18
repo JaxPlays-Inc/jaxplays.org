@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_For_Peter_Pan_On_Her_70th_Birthday.webp
 featured_image_caption: Poster for 'For Peter Pan On Her 70th Birthday'
 featured_image_attr: The 5 & Dime
-playbill:
+program:
 Genres:
 - Play
 - Drama

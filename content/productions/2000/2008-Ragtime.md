@@ -8,7 +8,7 @@ featured_image_alt: Playbill cover for Ragtime
 featured_image_caption: Playbill cover for Ragtime
 featured_image_attr:
 featured_image_attr_link:
-playbill:
+program:
 genres:
 Theatre: Jacksonville University - Stein College
 Venue: Swisher Theater

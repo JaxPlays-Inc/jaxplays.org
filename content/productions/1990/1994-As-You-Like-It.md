@@ -9,7 +9,7 @@ showtimes:
 - 1994-09-17 20:00:00
 - 1994-09-18 20:00:00
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Metropolitan Park
 cast:

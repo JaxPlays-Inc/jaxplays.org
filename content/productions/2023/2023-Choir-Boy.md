@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Choir_Boy.png
 featured_image_caption: Poster for Choir Boy at Players by the Sea
 featured_image_attr: Players by the Sea
-playbill:
+program:
 Genres:
 - Musical
 - Drama

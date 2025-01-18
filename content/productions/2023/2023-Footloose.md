@@ -23,7 +23,7 @@ featured_image_alt:
 featured_image_caption: Poster for Footloose at Orange Park Community Theatre
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.opct.info/boxoffice
 show_details: 

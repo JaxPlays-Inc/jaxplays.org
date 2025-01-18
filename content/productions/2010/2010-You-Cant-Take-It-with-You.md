@@ -11,7 +11,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://web.archive.org/web/20151001165720fw_/http://www.opct.org/0910-4.html
 Tickets: 
 show_details: 

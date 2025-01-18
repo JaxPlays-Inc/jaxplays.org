@@ -18,7 +18,7 @@ featured_image_alt: "A colorful promotional poster for 'Seussical The Musical' b
 featured_image_caption: "Explore a whimsical world with 'Seussical The Musical,' presented by BlueFire Theatre. Experience the magic of Dr. Seuss's characters in a vibrant celebration that benefits the Nassau Education Foundation."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://blue-fire-theatre.ticketleap.com/
 show_details: 

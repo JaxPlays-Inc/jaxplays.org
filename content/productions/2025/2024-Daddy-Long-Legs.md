@@ -22,7 +22,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.ameliacommunitytheatre.org/
 Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 

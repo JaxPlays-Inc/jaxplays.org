@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Playbill cover for Picasso at the Lapin Agile
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 genres: 
 - Play
 - Comedy

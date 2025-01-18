@@ -21,7 +21,7 @@ featured_image_alt: Poster for Edgar Allan Poe Cocktail Experience
 featured_image_caption: Poster for Edgar Allan Poe Cocktail Experience
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.edgarallanpoebar.com/
 Tickets: https://www.edgarallanpoebar.com/tickets
 show_details: 

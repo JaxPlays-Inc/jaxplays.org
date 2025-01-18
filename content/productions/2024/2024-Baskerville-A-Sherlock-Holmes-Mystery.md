@@ -17,7 +17,7 @@ featured_image_alt: "Promotional image for 'Ken Ludwig’s Baskerville: A Sherlo
 featured_image_caption: "Silhouette of Sherlock Holmes in 'Ken Ludwig’s Baskerville,' capturing the enigmatic and analytical nature of literature's most famed detective."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

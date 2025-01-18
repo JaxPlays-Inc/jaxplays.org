@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1993-01-01
 closing_date: 1993-12-31
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

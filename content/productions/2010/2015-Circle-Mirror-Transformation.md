@@ -15,7 +15,7 @@ featured_image_caption: Photograph of the cast of 'Circle Mirror Transformation'
 featured_image_attr: Thomas Hager
 featured_image_attr_link: 
 Description: "*Circle Mirror Transformation* is a riveting ensemble drama set in a Vermont community class. Using theater games as a lens, it uncovers the raw, complex layers of human emotion and connection, blending humor and heartbreak in a compelling narrative."
-playbill:
+program:
 genres: 
 - Play
 - Drama

@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: Poster for Miracle on 34th Street
 featured_image_attr: Amelia Community Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=13&p=39
 show_details: 

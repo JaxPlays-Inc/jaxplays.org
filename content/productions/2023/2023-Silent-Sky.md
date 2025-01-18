@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Graphic for Silent Skys
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 genres: 
 - Play
 - Drama

@@ -24,7 +24,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://ccpvb.org/connect/community/christ-church-creative-academy-13691/
 Tickets: 
 show_details: 

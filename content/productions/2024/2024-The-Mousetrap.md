@@ -21,7 +21,7 @@ featured_image_alt: Poster for The Mousetrap
 featured_image_caption: Poster for The Mousetrap
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.ameliacommunitytheatre.org/main-stage
 Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 

@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: Poster for Over the River and Through the Woods
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=4&p=2
 show_details: 

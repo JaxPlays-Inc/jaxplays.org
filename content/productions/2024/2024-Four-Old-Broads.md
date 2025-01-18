@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Four Old Broads'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/four-old-broads/6664969be9dfa5f27998863f
 show_details: 

@@ -24,7 +24,7 @@ featured_image_alt: Poster for Spamalot
 featured_image_caption: Poster for Spamalot
 featured_image_attr: Monty Python
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.theislandtheater.com/season-ticket
 show_details: 

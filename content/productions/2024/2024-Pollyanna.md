@@ -21,7 +21,7 @@ featured_image_alt: "Promotional image for 'Pollyanna' by Artist Connection Thea
 featured_image_caption: Poster for 'Pollyanna' at Artist Connection Theatre 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: 
+program: 
 Website: https://artistconnectiontheatre.org/current-show/
 Tickets: https://artistconnectiontheatre.org/tickets
 show_details: 

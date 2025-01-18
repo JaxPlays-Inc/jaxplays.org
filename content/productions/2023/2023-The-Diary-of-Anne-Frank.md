@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_The_Diary_of_Anne_Frank.webp
 featured_image_caption: Poster for The Diary of Anne Frank
 featured_image_attr: Theatre Jacksonville
-playbill:
+program:
 Genres:
 - Play
 - Drama

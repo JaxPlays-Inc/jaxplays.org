@@ -22,7 +22,7 @@ featured_image_alt:
 featured_image_caption: Poster for Back to the 80s
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://ameliamusicalplayhouse.com/performances/back-to-the-80s-musical/
 Tickets: 
 show_details: 

@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://playersbythesea.us9.list-manage.com/subscribe?u=c1172c31252c4798ff9af7878&id=17ac2a0a7f
 show_details: 

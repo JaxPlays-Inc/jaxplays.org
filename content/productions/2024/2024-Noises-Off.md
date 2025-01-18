@@ -17,7 +17,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions-2024-2025
 Tickets: https://flagler.universitytickets.com/
 show_details: 

@@ -17,7 +17,7 @@ showtimes:
 featured_image: 2024-Annie.webp
 featured_image_alt: "Poster for the musical 'Annie' showing a bold red logo over a silhouette of the New York City skyline, including iconic buildings and the Statue of Liberty."
 featured_image_caption: "Vibrant promotional poster for 'Annie,' featuring the musical’s title in large, red lettering set against a backdrop of the New York City skyline."
-playbill:
+program:
 Website: 
 Tickets: http://ezticketapp.com/?s=ez109021
 show_details: 

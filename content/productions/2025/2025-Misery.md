@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Misery'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/misery/666493754e745813af565755
 show_details: 

@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_Hands_on_a_Hard_Body.webp
 featured_image_caption: Poster for Hands on a Hard Body
 featured_image_attr: Limelight Theatre
-playbill:
+program:
 Genres:
 - Musical
 - Drama

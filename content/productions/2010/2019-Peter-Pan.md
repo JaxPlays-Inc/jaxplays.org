@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://web.archive.org/web/20200219124812/https://www.theatrejax.com/peter-pan
 Tickets: 
 show_details: 

@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
-playbill: http://purl.flvc.org/fscj/fd/APatchofEarthProgram
+program: http://purl.flvc.org/fscj/fd/APatchofEarthProgram
 Genres:
 - Play
 - Drama

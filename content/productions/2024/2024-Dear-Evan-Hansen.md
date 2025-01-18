@@ -13,7 +13,7 @@ featured_image_alt: Poster of Dear Evan Hansen
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.fscjartistseries.org/tickets/dear-evan-hansen
 Tickets: https://shop.fscjartistseries.org/3959/3960
 show_details: 

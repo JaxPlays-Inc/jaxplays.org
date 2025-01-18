@@ -16,7 +16,7 @@ featured_image_alt: "Poster for 'Be More Chill' by Greenlight Theatre Company, s
 featured_image_caption: "Catch 'Be More Chill' at Greenlight Theatre Company from April 26-28, 2024. Experience a unique blend of technology, emotion and music in this popular musical."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.greenlighttheatreco.com/onstage
 cast:

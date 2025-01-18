@@ -23,7 +23,7 @@ featured_image_alt:
 featured_image_caption: Poster for Storefront Church
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
 Tickets: https://ci.ovationtix.com/34666/production/1165802
 show_details: 

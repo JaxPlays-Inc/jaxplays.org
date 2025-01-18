@@ -5,7 +5,7 @@ opening_date: 1922-12-31
 approx_date: year
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Aunt Polly At the Exposition: Adnah Duckworth

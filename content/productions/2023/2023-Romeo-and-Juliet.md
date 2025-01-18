@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Poster for Romeo and Juliet
 featured_image_attr: The Island Theater
 featured_image_attr_link: 
-playbill:
+program:
 Genres:
 - Play
 - Tragedy

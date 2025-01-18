@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Playbill cover for Into the Woods
 featured_image_attr: 
 featured_image_attr_link: 
-playbill: https://www.playbillder.com/show/vip/Jacksonville_University/2018/Into_the_Woods_50896
+program: https://www.playbillder.com/show/vip/Jacksonville_University/2018/Into_the_Woods_50896
 genres: 
 - Musical
 - Fantasy

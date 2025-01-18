@@ -18,7 +18,7 @@ featured_image_alt: Poster for Southern Fried Nuptials
 featured_image_caption: Poster for Southern Fried Nuptials
 featured_image_attr: Act II Players
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://actiiplayers.org/southern-fried-nuptials
 Tickets: https://www.eventbrite.com/cc/southern-fried-nuptials-2900239
 show_details: 

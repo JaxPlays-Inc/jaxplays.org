@@ -8,7 +8,7 @@ featured_image_alt: Poster for The Little Mermaid
 featured_image_caption: Poster for The Little Mermaid
 featured_image_attr: Disney & The Island Theater
 featured_image_attr_link: 
-playbill:
+program:
 Theatre: The Island Theater
 Venue: The Island Theater
 Website: 

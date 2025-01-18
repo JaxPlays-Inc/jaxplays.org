@@ -13,7 +13,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.lumenrep.org/program
 Tickets: https://www.zeffy.com/en-US/ticketing/dfd69cf0-be4f-4dab-9c2a-1225692a20cc
 show_details: 

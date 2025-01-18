@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Broadway Bash'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/broadway-bash/66649b4628de88496e8e3988
 show_details: 

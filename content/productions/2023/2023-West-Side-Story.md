@@ -8,7 +8,7 @@ featured_image_alt:
 featured_image_caption: Poster for West Side Story
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
-playbill:
+program:
 Theatre: Players by the Sea
 Venue: John McManus Mainstage Theatre
 Website: http://playersbythesea.org/west-side-story

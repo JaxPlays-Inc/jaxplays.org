@@ -22,7 +22,7 @@ featured_image_alt: "Poster for *Legally Blonde* showcasing a vibrant pink desig
 featured_image_caption: "*Legally Blonde* dazzles with its bright pink charm and witty story, capturing the journey of Elle Woods as she tackles stereotypes and scandal in pursuit of her dreams."
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
-playbill:
+program:
 Website: https://ameliamusicalplayhouse.com/performances/legally-blonde/
 Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 

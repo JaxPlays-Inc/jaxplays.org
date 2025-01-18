@@ -21,7 +21,7 @@ featured_image_alt: "Vibrant poster for 'Dracula: A Comedy of Terrors' at Theatr
 featured_image_caption: "Don't miss 'Dracula: A Comedy of Terrors' at Theatre Jacksonville. This hilarious take on the classic tale promises a delightful mix of horror and humor, from April 18 to May 4, 2025."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919 
 show_details: 

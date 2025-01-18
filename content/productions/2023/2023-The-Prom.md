@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2023_The_Prom.jpg
 featured_image_caption: Poster for The Prom (2023)
 featured_image_attr: Greenlight Theatre Company
-playbill:
+program:
 Genres:
 - Musical
 - Comedy

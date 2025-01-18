@@ -15,7 +15,7 @@ featured_image_alt: "Colorful poster for 'The Wizard of Oz' by Greenlight Theatr
 featured_image_caption: "Step into the magical world of 'The Wizard of Oz' with performances by Greenlight Theatre Company at NFSSE from August 9-10, 2024. Join us for a journey down the Yellow Brick Road in this timeless tale."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 cast:

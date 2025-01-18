@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'The Other Place'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: https://www.eventbrite.com/e/the-other-place-by-sharr-white-tickets-679815816407
 show_details: 

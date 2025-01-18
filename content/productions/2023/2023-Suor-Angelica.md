@@ -13,7 +13,7 @@ featured_image_alt: Poster for Suor Angelica
 featured_image_caption: Poster for Suor Angelica
 featured_image_attr: 
 featured_image_attr_link: Bold City Opera
-playbill:
+program:
 Website: https://www.boldcityopera.org/suor-angelica
 Tickets: https://secure.givelively.org/event/bold-city-opera-inc/suor-angelica
 show_details: 

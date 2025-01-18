@@ -12,7 +12,7 @@ featured_image_alt: "Promotional poster for 'Bite-Sized Theatre' at A Classic Th
 featured_image_caption: "Enjoy a variety of short narratives with 'Bite-Sized Theatre,' an evening of 10-minute plays at A Classic Theatre on April 25, 2025."
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200457760
 show_details: 

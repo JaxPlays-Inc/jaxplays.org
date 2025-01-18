@@ -7,7 +7,7 @@ layout: productions
 featured_image: 2024_On_the_Market.webp
 featured_image_caption: Poster for On the Market
 featured_image_attr: Theatre Jacksonville
-playbill:
+program:
 Genres:
 - Play
 - Comedy

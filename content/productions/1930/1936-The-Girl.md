@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1936-03-03
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Frederick Cawley: Edward Goodman

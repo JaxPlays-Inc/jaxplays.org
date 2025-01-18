@@ -4,7 +4,7 @@ date: 2023-09-08T00:00:00
 opening_date: 1937-03-10
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 cast:
 - Edward Seton: Alan Moreland

@@ -12,7 +12,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.aclassictheatre.org/2023-2024-season
 Tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 

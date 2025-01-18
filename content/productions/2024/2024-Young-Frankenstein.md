@@ -27,7 +27,7 @@ showtimes:
 featured_image: 2024-Young-Frankenstein.webp
 featured_image_alt: "Promotional poster for 'Young Frankenstein' with the title in electrified letters against a spooky blue background."
 featured_image_caption: "Join the hilarity in 'Young Frankenstein', a monstrous comedy that electrifies with laughter and mischief."
-playbill:
+program:
 Website: 
 Tickets: 
 cast:

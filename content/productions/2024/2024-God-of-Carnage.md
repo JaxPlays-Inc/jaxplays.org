@@ -20,7 +20,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'God of Carnage' at Orange Park Community Theatre
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 

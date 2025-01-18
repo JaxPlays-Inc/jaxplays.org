@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.stageaurora.org/
 Tickets: https://givebutter.com/8FTfP0
 show_details: 

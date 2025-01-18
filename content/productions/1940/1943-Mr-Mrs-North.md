@@ -5,7 +5,7 @@ opening_date: 1943-04-01
 approx_date: month
 closing_date:
 layout: productions
-playbill:
+program:
 Theatre: Theatre Jacksonville
 Venue: Little Theatre
 cast:

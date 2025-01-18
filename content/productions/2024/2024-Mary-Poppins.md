@@ -15,7 +15,7 @@ showtimes:
 - 2024-09-29 14:00:00
 featured_image: 2024-Mary-Poppins.webp
 featured_image_alt: 
-playbill:
+program:
 Website: 
 Tickets: https://3common.com/event/mary-poppins/66c60027d4f894dd1a9daa15
 show_details: 

@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: Poster for 'Bluey's Big Play'
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://www.fscjartistseries.org/tickets/blueys-big-play
 Tickets: https://shop.fscjartistseries.org/overview/bluey
 show_details: 

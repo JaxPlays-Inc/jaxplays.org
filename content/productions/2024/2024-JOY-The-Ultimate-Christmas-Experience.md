@@ -19,7 +19,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-playbill:
+program:
 Website: https://artscollectivetheatre.com/events/
 Tickets: https://artscollectivetheatre.ludus.com/index.php
 show_details: 

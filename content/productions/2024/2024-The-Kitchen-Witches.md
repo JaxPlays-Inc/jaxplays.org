@@ -24,7 +24,7 @@ featured_image_alt:
 featured_image_caption: Poster for Kitchen Witches
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
-playbill:
+program:
 Website: 
 Tickets: 
 show_details: 
