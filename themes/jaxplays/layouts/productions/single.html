@@ -431,6 +431,21 @@
           {{ end }}
         </div>    
       {{ end }}
+
+        <!-- Program -->
+        {{ if .Params.program }}
+        <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+          <h3 class="f3 mt4 mb3 sectionline">Program</h3>
+
+          <div class="program-preview">
+            <p class="mt3">
+              <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
+                View Program (PDF)
+              </a>
+            </p>
+          </div>
+        </div>
+      {{ end }}    
       
       <!-- Photos -->
       {{ if .Params.photos }}
