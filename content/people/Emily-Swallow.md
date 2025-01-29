@@ -10,7 +10,7 @@ birth_name:
 birth_date: 1979-12-18
 birth_place: Washington, D.C.
 Socials:
-  Facebook: EmilySwallowFans
+  Facebook: emilyswallow
   Twitter: bigeswallz
   Instagram: bigeswallz
   IBDB: emily-swallow-446922
