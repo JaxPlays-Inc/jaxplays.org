@@ -66,16 +66,30 @@ cast:
 - Fairy June Cooper: Kathy Sanders
 - Benny Charles Greenwood: Bob O'Hara
 - Ozella Meeks: Brooks Anne Meierdierks
+understudies:
+- Dorothy, Fair June, Martha, Ozella: Lisa Booth
+- Benny, Dub: Tod Booth
+- Atticus, Dewey Jr., Beecham: Erick Ariel Sureda
+- Sammy Jo, Harlene: Katie Nettle
 crew:
-- Director: Tod Booth
+- Executive Producer/Director: Tod Booth
+- Vice President of Production: Shain Stroff
 - Production Manager: Erick Ariel Sureda
 - Lighting Designer: Johnny Pettegrew
 - Set Design: David Dionne
 - Costume Design: 
   - Camala Pitts
   - Dorinda Quiles
-- Sound Design: Carly Meyer
+- Sound Design/Technician: Carly Meyer
+- Sound Supervision: Eric Sullivan
 - Property Master: Patti Eyler
+- Production Crew: 
+  - Sarah Bryce
+  - Ezra Ingram
+- Wardrobe Crew:
+  - Layla Thurman
+  - Allie Kangas
+  - Audrey Dunham
 orchestra:
 # Southern Fried Funeral
 Genres:
