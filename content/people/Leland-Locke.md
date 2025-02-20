@@ -8,8 +8,8 @@ other_names:
   - Logan L. Locke
   - Logan Locke
   - L. Leland Locke
-featured_image: Leland_Locke.webp
-featured_image_attr: Lynn
+featured_image: Leland-Locke.webp
+featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
