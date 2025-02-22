@@ -7,11 +7,12 @@ featured_image_attr_link:
 featured_image_alt: 
 featured_image_caption: 
 Socials:
-  Facebook: 
+  Facebook: jessicaroddyrocks
   Twitter: 
   Instagram: jessieroddy
   LinkedIn: 
   IBDB: 
   IMDb:
+  YouTube: "@jessie_roddy"
   Website: https://www.jessieroddy.com
 ---
