@@ -1,1 +1,10 @@
-{{ partial "embed-pdf.html" . }}
+{{ $params := dict
+  "url" (.Get "url")
+  "width" (.Get "width")
+  "hidePaginator" (.Get "hidePaginator")
+  "download" (.Get "download")
+  "hideLoader" (.Get "hideLoader")
+  "renderPageNum" (.Get "renderPageNum")
+  "Site" .Site
+}}
+{{ partial "embed-pdf.html" $params }}

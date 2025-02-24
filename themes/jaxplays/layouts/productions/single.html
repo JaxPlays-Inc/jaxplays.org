@@ -439,9 +439,10 @@
 
           <div class="program-preview">
             <p class="mt3">
-              <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
+              {{/*  <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
                 View Program (PDF)
-              </a>
+              </a>  */}}
+              {{ partial "embed-pdf.html" (dict "url" (printf "/media/programs/%s" .Params.program) "width" "300px" "hidePaginator" "true" "download" "false" "hideLoader" "false" "renderPageNum" "1" "Site" .Site) }}
             </p>
           </div>
         </div>
