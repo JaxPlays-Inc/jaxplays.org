@@ -25,12 +25,12 @@ Website:
 Tickets: https://opct.booktix.com/dept/main/e/rockages
 show_details: 
 cast:
-  - Lonny Barnett: Clen Alaric
-  - Dennis Dupree: Ceoff Duchemiin
-  - Drew Bolev: Allyn Bessef
+  - Lonny Barnett: Glen Alaric
+  - Dennis Dupree: Geoff Duchemiin
+  - Drew Bolev: Allyn Bessee
   - Sherrie Christian: Bella Duchemin
   - Stacee Jaxx: Cameron Haddock
-  - Regina McKaic: Deidre Cuzmian
+  - Regina McKaic: Deidre Guzman
   - Hertz Klinemann: Jack Bisson
   - Franz Klinemann: Colby Sad
   - Justice Charlier: Emily Charleton
@@ -40,11 +40,11 @@ cast:
       - Kiera Collins
       - Shelly Finn
       - Matt Fuhs
-      - Maddie Hiedon
+      - Maddie Higdon
       - Erica Humbert
       - Amava Mahoney
       - Don Massenzio
-      - Oliver Miccinn
+      - Oliver Micginn
       - Mandy Sad
       - Zachary Schaeffer
       - Bryon Sparks
