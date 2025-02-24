@@ -6,18 +6,15 @@ date: 2024-06-15T12:13:16-04:00
 opening_date: 2025-05-30
 closing_date: 2025-06-22
 showtimes:
-  - 2025-05-30 20:00:00
-  - 2025-05-31 20:00:00
+  - 2025-05-30 19:30:00
+  - 2025-05-31 19:30:00
   - 2025-06-01 14:00:00
-  - 2025-06-06 20:00:00
-  - 2025-06-07 20:00:00
+  - 2025-06-06 19:30:00
+  - 2025-06-07 19:30:00
   - 2025-06-08 14:00:00
-  - 2025-06-13 20:00:00
-  - 2025-06-14 20:00:00
+  - 2025-06-13 19:30:00
+  - 2025-06-14 19:30:00
   - 2025-06-15 14:00:00
-  - 2025-06-20 20:00:00
-  - 2025-06-21 20:00:00
-  - 2025-06-22 14:00:00
 featured_image: 
 featured_image_alt: 
 featured_image_caption: 
@@ -25,14 +22,47 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: 
-Tickets: 
+Tickets: https://opct.booktix.com/dept/main/e/rockages
 show_details: 
 cast:
+  - Lonny Barnett: Clen Alaric
+  - Dennis Dupree: Ceoff Duchemiin
+  - Drew Bolev: Allyn Bessef
+  - Sherrie Christian: Bella Duchemin
+  - Stacee Jaxx: Cameron Haddock
+  - Regina McKaic: Deidre Cuzmian
+  - Hertz Klinemann: Jack Bisson
+  - Franz Klinemann: Colby Sad
+  - Justice Charlier: Emily Charleton
+  - Mayor: Aaron Smith
+  - Ja'Keith Gill: Dallas Rawlins
+  - Ensemble:
+      - Kiera Collins
+      - Shelly Finn
+      - Matt Fuhs
+      - Maddie Hiedon
+      - Erica Humbert
+      - Amava Mahoney
+      - Don Massenzio
+      - Oliver Miccinn
+      - Mandy Sad
+      - Zachary Schaeffer
+      - Bryon Sparks
+      - Jennifer Tatum
 crew:
-- Director: 
-  - Michelle Duchemin
-  - Jessica Harris
+  - Director: 
+    - Michelle Duchemin
+    - Jessica Harris
+  - Production Team:
+    - Cat Sutton
+    - Kaley Haddock
+    - Renee Sparks
+    - Mark Pellegrin
+    - Dave Baker
+    - Caroline Vazidva
+    - Jason Johnston
 orchestra:
 genres: 
 Description: 
 ---
+
