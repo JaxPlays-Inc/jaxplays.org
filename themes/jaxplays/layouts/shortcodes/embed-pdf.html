@@ -1,11 +1,11 @@
 {{- if not ($.Page.Scratch.Get "embed-pdf-count") -}}
 
-<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+<script type="text/javascript" src='/js/pdf-js/build/pdf.js'></script>
 
 <style>
   .embed-pdf-container {
     position: relative;
-    width: 300px;
+    width: 100%;
     height: auto;
     min-height: 20vh;
     /* overflow-y:scroll; */
@@ -18,7 +18,7 @@
     height: auto;
     display: none;
   }
-
+  
   .pdf-loadingWrapper {
     display: none;
     justify-content: center;
@@ -38,7 +38,7 @@
     -webkit-animation: spin 1s ease-in-out infinite;
   }
   
-  {{/*  Download link  */}}
+  {{/* Download link styles */}}
   
   #overlayText {
     word-wrap: break-word;
@@ -62,7 +62,7 @@
   
   #overlayText svg {
     height: clamp(1em, 2vw, 1.4em);
-    width:  clamp(1em, 2vw, 1.4em);
+    width: clamp(1em, 2vw, 1.4em);
   }
   
   @keyframes spin {
@@ -75,10 +75,11 @@
 {{- end -}}
 
 {{- $.Page.Scratch.Add "embed-pdf-count" 1 -}}
-<div class="embed-pdf-container" id="embed-pdf-container-{{ substr (.Get "url" | md5) 0 8 }}">
+<div class="embed-pdf-container" id="embed-pdf-container-{{ substr (.Get "url" | md5) 0 8 }}" style="width: {{ .Get "width" | default "100%" }};">
     <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-{{ substr (.Get "url" | md5) 0 8 }}">
         <div class="pdf-loading" id="pdf-loading-{{ substr (.Get "url" | md5) 0 8 }}"></div>
     </div>
+    {{ if not (eq (.Get "download") "false") }}
     <div id="overlayText">
       <a href="{{ .Get "url" }}" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
@@ -86,6 +87,7 @@
         </svg>
       </a>
     </div>
+    {{ end }}
     <canvas class="pdf-canvas" id="pdf-canvas-{{ substr (.Get "url" | md5) 0 8 }}"></canvas>
 </div>
 
@@ -127,7 +129,6 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-{{ substr (.Get 
         ctx = canvas.getContext('2d'),
         paginator = document.getElementById("pdf-paginator-{{ substr (.Get "url" | md5) 0 8 }}"),
         loadingWrapper = document.getElementById('pdf-loadingWrapper-{{ substr (.Get "url" | md5) 0 8 }}');
-
 
     // Attempt to show paginator and loader if enabled
     showPaginator();
