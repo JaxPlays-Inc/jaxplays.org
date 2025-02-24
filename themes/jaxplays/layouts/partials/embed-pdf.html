@@ -60,6 +60,51 @@
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
+  /* Lightbox styles */
+  .pdf-lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+  }
+  .pdf-lightbox-content {
+    position: relative;
+    min-width: 300px;
+    min-height: 500px;
+    width: 75%;
+    height: 75%;
+    max-width: 100%;
+    max-height: 100%;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  .pdf-lightbox-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 2em;
+    color: #fff;
+    z-index: 10000;
+    cursor: pointer;
+  }
+  .pdf-lightbox iframe, .pdf-lightbox-content {
+    min-width: 300px;
+    min-height: 500px;
+  }
+  .pdf-lightbox iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
 </style>
 {{- end -}}
 
@@ -188,5 +233,38 @@
     if(pageNum > numPages) { pageNum = numPages; }
     renderPage(pageNum);
   });
+
+  // Lightbox functionality
+  if ("{{ .lightbox }}" === "true") {
+    var container = document.getElementById('embed-pdf-container-{{ substr (.url | md5) 0 8 }}');
+    container.style.cursor = "pointer";
+    container.addEventListener('click', function(){
+      document.getElementById('pdf-lightbox-{{ substr (.url | md5) 0 8 }}').style.display = "flex";
+    });
+  }
 })();
 </script>
+
+{{ if eq .lightbox "true" }}
+<div id="pdf-lightbox-{{ substr (.url | md5) 0 8 }}" class="pdf-lightbox">
+  <div class="pdf-lightbox-content">
+    <span class="pdf-lightbox-close">&times;</span>
+    <iframe src="{{ .url }}"></iframe>
+  </div>
+</div>
+<script>
+(function(){
+  var lightbox = document.getElementById('pdf-lightbox-{{ substr (.url | md5) 0 8 }}');
+  var closeBtn = lightbox.querySelector('.pdf-lightbox-close');
+  closeBtn.addEventListener('click', function(){
+    lightbox.style.display = "none";
+  });
+  // Optionally, close lightbox on click outside content
+  lightbox.addEventListener('click', function(e) {
+    if(e.target === lightbox) {
+      lightbox.style.display = "none";
+    }
+  });
+})();
+</script>
+{{ end }}
