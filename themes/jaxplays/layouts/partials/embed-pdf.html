@@ -88,14 +88,16 @@
   }
   .pdf-lightbox-close {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     font-size: 2em;
     color: #fff;
     z-index: 10000;
     cursor: pointer;
+    padding: 0.2em 0.5em;
   }
-  .pdf-lightbox iframe, .pdf-lightbox-content {
+  .pdf-lightbox iframe,
+  .pdf-lightbox-content {
     min-width: 300px;
     min-height: 500px;
   }
@@ -234,13 +236,21 @@
     renderPage(pageNum);
   });
 
-  // Lightbox functionality
+  // Lightbox functionality: on mobile, open in browser
   if ("{{ .lightbox }}" === "true") {
     var container = document.getElementById('embed-pdf-container-{{ substr (.url | md5) 0 8 }}');
     container.style.cursor = "pointer";
-    container.addEventListener('click', function(){
-      document.getElementById('pdf-lightbox-{{ substr (.url | md5) 0 8 }}').style.display = "flex";
-    });
+    if (window.innerWidth < 768) {
+      // Mobile: open PDF in the browser
+      container.addEventListener('click', function(){
+        window.location.href = url;
+      });
+    } else {
+      // Desktop: open in lightbox
+      container.addEventListener('click', function(){
+        document.getElementById('pdf-lightbox-{{ substr (.url | md5) 0 8 }}').style.display = "flex";
+      });
+    }
   }
 })();
 </script>
@@ -259,7 +269,7 @@
   closeBtn.addEventListener('click', function(){
     lightbox.style.display = "none";
   });
-  // Optionally, close lightbox on click outside content
+  // Close lightbox if clicking outside content
   lightbox.addEventListener('click', function(e) {
     if(e.target === lightbox) {
       lightbox.style.display = "none";
