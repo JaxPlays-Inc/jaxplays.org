@@ -7,7 +7,7 @@ layout: productions
 featured_image:
 featured_image_caption:
 featured_image_attr:
-program:
+program: 2023_The_Savannah_Sipping_Society.pdf
 Theatre: St. Marys Little Theatre
 Venue: Theater by the Trax
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa
