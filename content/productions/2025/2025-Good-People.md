@@ -23,13 +23,12 @@ Tickets: https://aclassictheatre.ludus.com/200456013
 show_details: 
   - Playwright: "[[w:David Lindsay-Abaire]]"
 cast:
-- Cast: 
-  - Cathy O'Brien
-  - Joseph Stearman
-  - Denise Dean
-  - Matthew Turnage
-  - Andrea Valenti
-  - Maureen Chandler Reid
+  - Margie Walsh: Cathy O'Brien
+  - Jeannie: Maureen Chandler Reid
+  - Dottie: Andrea Valenti
+  - Stevie Grimes: Matthew Turnage
+  - Mike Dillon: Joseph Stearman
+  - Kate Dillon: Denise Dean
 crew:
 - Director: Cindy Alexander
 orchestra:
