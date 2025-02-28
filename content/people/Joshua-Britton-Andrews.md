@@ -1,9 +1,13 @@
 ---
-title: Josh Andrews
+title: Joshua Britton Andrews
 aliases: 
+  - /people/josh-andrews
   - /people/joshua-andrews
+  - /people/joshua-britton-andrews
 other_names: 
  - Joshua Andrews
+ - Josh Andrews
+ - Joshua Britton Andrews
 layout: people
 featured_image: Josh-Andrews.webp 
 featured_image_attr: Jax Headshots
