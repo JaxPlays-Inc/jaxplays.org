@@ -21,7 +21,7 @@ program:
 Website: https://www.aclassictheatre.org/2024-2025s-season
 Tickets: https://aclassictheatre.ludus.com/200456013
 show_details: 
-  - Playwright: David Lindsay-Abaire
+  - Playwright: "[[w:David Lindsay-Abaire]]"
 cast:
 - Cast: 
   - Cathy O'Brien
