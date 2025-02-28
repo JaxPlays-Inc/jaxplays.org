@@ -23,7 +23,15 @@ Tickets: https://aclassictheatre.ludus.com/200456013
 show_details: 
   - Playwright: David Lindsay-Abaire
 cast:
+- Cast: 
+  - Cathy O'Brien
+  - Joseph Stearman
+  - Denise Dean
+  - Matthew Turnage
+  - Andrea Valenti
+  - Maureen Chandler Reid
 crew:
+- Director: Cindy Alexander
 orchestra:
 # Good People
 Genres:
