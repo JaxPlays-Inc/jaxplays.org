@@ -43,8 +43,44 @@ show_details:
   - "[[w:Bob Martin (comedian)|Bob Martin]]"
   - "[[w:Don McKellar]]"
 cast:
+- The Drowsy Chaperone/Beatrice Stockwell: Sherrie Provence
+- Aldolpho: Blake Osner
+- Man in Chair: Bill Rains
+- Janet Van De Graaff: Jessica Alexander
+- Robert Martin: Jimmy Alexander
+- Mrs. Tottendale: Heather Starling
+- Underling: Clay Mitchell
+- "Gangster #1": Jeff Shaeffer
+- "Gangster #2": Anthony Romero
+- Feldzieg: Collin James
+- Kitty: Joellie Tucker
+- Trix the Aviatrix: Joy Manning
+- Maid: Kayla Foster
+- George: Ronald Foster
 crew:
-- Director: Loraine Portman
+  - Director: Lorraine Portman
+  - Music Director: Curtis Powell
+  - Choreographer: Jonathan Chapman
+  - Stage Manager: Rae Natzel
+  - Set Design: Rob O'Leary
+  - Costume Design: Linda Takita
+  - Lighting Design: Michael Takita
+  - Airplane Design & Construction: Rob O'Leary
+  - Light Board Operator: Ashley Taylor
+  - Sound Board Operator: Francesca Bellavista
+  - Technical Director: Don Cupo
+  - Props: Don Cupo
+  - Paint Charge: Sue Schwartz
+  - Scenic Paint: Lourdes Acosta
+  - Construction: 
+    - Don Cupo
+    - Charles Ross
+  - Production Manager: Don Cupo
+  - Photographer: Ryan Provence
+  - Trailer: Charity Walton
+  - Interns:
+      - Kiah Cautilli
+      - Emma "Ruby" Parker
 orchestra:
 # The Drowsy Chaperone
 Genres:
