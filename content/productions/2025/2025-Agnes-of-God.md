@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+Website: https://www.lumenrep.org/shows/agnes-of-god
+Tickets: https://www.zeffy.com/ticketing/agnes-of-god
 show_details: 
 - Playwright: "[[w:John Pielmeier]]"
 cast:
