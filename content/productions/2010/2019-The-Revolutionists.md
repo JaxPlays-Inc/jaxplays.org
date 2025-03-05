@@ -5,7 +5,7 @@ Venue: BABS' LAB
 Season: 
 date: 2025-02-24T19:15:15-05:00
 opening_date: 2019-01-31
-closing_date: 2029-02-02
+closing_date: 2019-02-02
 showtimes:
 - 2019-01-31 20:00:00
 - 2019-02-01 20:00:00
