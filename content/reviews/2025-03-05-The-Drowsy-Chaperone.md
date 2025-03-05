@@ -12,7 +12,7 @@ Theatre: Limelight Theatre
 cast: 
 description: "Limelight Theatre’s *The Drowsy Chaperone* is a hilarious, meta-musical filled with dazzling performances, over-the-top antics and pure theatrical joy."
 ---
-[[theatre:Limelight Theatre]]’s production of [[production:2025 The Drowsy Chaperone]] is a love letter to the Golden Age of musical theater — wrapped in humor, nostalgia and delightful absurdity. The show follows a socially anxious theater lover, simply called Man in Chair, who invites the audience into his world as he plays a record of his favorite (fictional) 1928 musical, *The Drowsy Chaperone*. As the record spins, the musical comes to life in his living room, complete with over-the-top characters, show-stopping numbers and theatrical mishaps, all filtered through his unreliable but endearing narration.
+[[theatre:Limelight Theatre]]’s production of [[production:2025 The Drowsy Chaperone]] is a love letter to the Golden Age of musical theater — wrapped in humor, nostalgia and delightful absurdity. The show follows a socially anxious theater lover, simply called Man in Chair, who invites the audience into his world as he plays a record of his favorite (fictional) 1928 musical, *The Drowsy Chaperone*. As the record spins, the musical comes to life in his living room, complete with over-the-top characters, show-stopping numbers and theatrical mishaps, all filtered through his unreliable but endearing narration.<!--more-->
 
 #### A Theatrical Experience Unlike Any Other
 
@@ -24,7 +24,7 @@ What makes *The Drowsy Chaperone* so unique is its meta nature — this isn't ju
 
 [[person:Bill Rains]] as Man in Chair is the beating heart of this production, guiding the audience through the story with dry wit, infectious enthusiasm and a deep, genuine love for musical theater. His performance is both hilarious and oddly poignant, making it impossible to imagine the show without him.
 
-[[person:Jessica Alexander]]’s Janet Van De Graaff shines in “Show Off,” a number that explodes with the kind of spectacle you’d expect in a big-budget Hollywood musical. [[person:Jimmy Alexander]]’s Robert Martin brings boundless energy, especially in “Accident Waiting to Happen,” where his blindfolded roller-skating routine is nothing short of mesmerizing. Though “Cold Feets” showcases strong vocals, the choreography felt a little sluggish at times, missing some of the high-energy punch the number usually delivers.
+[[person:Jessica Alexander]]’s Janet Van De Graaff shines in “Show Off,” a number that explodes with the kind of visual spectacle you’d expect in a big-budget Hollywood movie musical. [[person:Jimmy Alexander]]’s Robert Martin brings boundless energy, especially in “Accident Waiting to Happen,” where his blindfolded roller-skating routine is nothing short of mesmerizing.
 
 [[person:Sherrie Provence]]’s Drowsy Chaperone is delightfully aloof, leaning into the role’s drunken elegance with effortless charm. Meanwhile, [[person:Blake Osner]]’s Aldolpho is an absolute scene-stealer, playing the ridiculously problematic self-proclaimed "[[w:Latin lover]]" with a wild flair. [[person:Joellie Tucker]]’s Kitty nails the Betty Boop-esque voice, adding an extra layer of hilarity to her already comedic role. Their portrayals perfectly embrace the broad caricatures and exaggerated stereotypes, filtered through Man in Chair’s nostalgically romanticized memory of 1920s musical theater.
 
