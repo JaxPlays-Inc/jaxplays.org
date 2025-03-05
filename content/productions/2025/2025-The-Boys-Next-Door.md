@@ -35,3 +35,8 @@ Genres:
 Description: "Dive into the heartfelt and humorous world of 'The Boys Next Door,' a play that shines a light on the lives of four mentally disabled men living together in a group home."
 ---
 'The Boys Next Door' portrays the daily challenges and simple joys of Jack, Arnold, Norman and Lucien, who live under the supervision of a caring but increasingly burned-out social worker named Jack Palmer. Through a blend of comedy and drama, the play explores the men's struggles with society's expectations, their friendships and their desires.
+
+
+### First Coast Connect: "The Boys Next Door" at Theatre Jax
+
+{{< youtube q-ORDtx1hfk >}}
