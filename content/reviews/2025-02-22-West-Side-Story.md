@@ -20,7 +20,7 @@ cast:
   - Jessie Roddy
   - Thaddeus Walker
   - Ken Uibel
-description:
+description: "Alhambra Theatre & Dining’s West Side Story delivers powerful storytelling through dynamic choreography, striking vocals, and raw emotion. With tension, passion, and heartbreak woven into every moment, this production captures the enduring impact of a timeless classic."
 ---
 Few musicals carry the emotional weight and timeless urgency of [[production:2025 West Side Story]], and [[theatre:Alhambra Theatre & Dining]]’s latest production delivers a stirring, high-energy interpretation that pulses with life. A groundbreaking fusion of classical, jazz and Latin influences, *West Side Story* remains a modern classic, reimagining *Romeo and Juliet* through the lens of 1950s New York gang rivalry. 
 <!--more-->
