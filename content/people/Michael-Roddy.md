@@ -1,5 +1,9 @@
 ---
 title: Michael Roddy
+aliases: 
+  - /people/james-michael-roddy
+other_names: 
+ - James-Michael Roddy
 date: 2024-08-24T13:01:08-04:00
 featured_image: Michael-Roddy.webp
 featured_image_attr: 
