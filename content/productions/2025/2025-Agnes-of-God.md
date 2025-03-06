@@ -14,7 +14,7 @@ showtimes:
   - 2025-03-22 19:30:00
   - 2025-03-28 19:30:00
   - 2025-03-29 19:30:00
-featured_image: 2025-Agnes-of-God.webp
+featured_image: 2025-Agnes-of-God-02.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

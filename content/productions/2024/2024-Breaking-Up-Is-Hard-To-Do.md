@@ -65,8 +65,8 @@ Description: "Set to the timeless tunes of Neil Sedaka, 'Breaking Up Is Hard To 
 ---
 Nestled in the heart of the 1960s, at a bustling Catskills resort, two friends, Marge and Lois, embark on what they expect to be a vacation of sun, fun, and romance. The reality, however, is humorously complicated. Marge, reeling from a broken engagement, finds unexpected solace and potential new love in the resort's singer, Del. As friendships are tested and secrets revealed, the characters discover that finding love can be as unpredictable and joyous as the hit songs of Neil Sedaka. From laughter to heartache to the possibility of new beginnings, 'Breaking Up Is Hard To Do' celebrates the journey of love, the resilience of the human heart, and the enduring power of music."
 
-###  Musical numbers
-
+### Musical numbers
+{{< columns >}} 
 #### Act I
 -   "[Breaking Up Is Hard To Do](https://en.wikipedia.org/wiki/Breaking_Up_Is_Hard_To_Do "Breaking Up Is Hard To Do")" - Del with Lois and Harvey
 -   "[Lonely Nights](https://en.wikipedia.org/w/index.php?title=Lonely_Nights_(Neil_Sedaka_song)&action=edit&redlink=1 "Lonely Nights (Neil Sedaka song) (page does not exist)")" - Marge
@@ -78,9 +78,8 @@ Nestled in the heart of the 1960s, at a bustling Catskills resort, two friends, 
 -   "[King Of Clowns](https://en.wikipedia.org/w/index.php?title=King_Of_Clowns&action=edit&redlink=1 "King Of Clowns (page does not exist)")" - Harvey
 -   "[Oh! Carol](https://en.wikipedia.org/wiki/Oh!_Carol "Oh! Carol")" - Del
 -   _Act I Finale_  ("[The Other Side of Me](https://en.wikipedia.org/wiki/The_Other_Side_of_Me_(Neil_Sedaka_song) "The Other Side of Me (Neil Sedaka song)")","[I Ain't Hurtin' No More](https://en.wikipedia.org/w/index.php?title=I_Ain%27t_Hurtin%27_No_More&action=edit&redlink=1 "I Ain't Hurtin' No More (page does not exist)")", "Where The Boys Are") - Gabe, Marge, and Lois
-
+<--->
 #### Act II
-
 -   "[Calendar Girl](https://en.wikipedia.org/wiki/Calendar_Girl_(song) "Calendar Girl (song)")" - Del, Marge, Lois, Esther, and Harvey
 -   "[Next Door To An Angel](https://en.wikipedia.org/wiki/Next_Door_To_An_Angel "Next Door To An Angel")" - Harvey and Esther
 -   "Breaking Up Is Hard To Do" (Reprise) - Harvey
@@ -90,3 +89,4 @@ Nestled in the heart of the 1960s, at a bustling Catskills resort, two friends, 
 -   "King Of Clowns" (Reprise) - Harvey and Esther
 -   "[Stairway To Heaven](https://en.wikipedia.org/wiki/Stairway_to_Heaven_(Neil_Sedaka_song) "Stairway to Heaven (Neil Sedaka song)")/[Little Devil](https://en.wikipedia.org/wiki/Little_Devil "Little Devil")" - Marge and Lois
 -   "[Love Will Keep Us Together](https://en.wikipedia.org/wiki/Love_Will_Keep_Us_Together "Love Will Keep Us Together")" - All
+{{< /columns >}}

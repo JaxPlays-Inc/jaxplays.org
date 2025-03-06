@@ -1,6 +1,6 @@
 <!-- layouts/partials/figure.html -->
 {{ $attr := .attr }}
-<figure class="db mw8 center {{ with .class }}{{ . }}{{ end }}">
+<figure class="{{ with .tachyons }}{{ . }}{{ else }}db mw8 center{{ end }}  {{ with .class }}{{ . }}{{ end }} ">
   <a href="{{ .src }}" data-lightbox="gallery" data-alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}"
     data-title="{{ with .caption }}{{ . }}{{ end }}{{ if .attr }}{{ with .attrlink }} | (📷 <a href='{{ . }}' target='_blank'>{{ $attr }}</a>){{ else }} | (📷 {{ .attr }}){{ end }}{{ end }}">
     <img src="{{ .src }}" {{ if or .alt .caption }}alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}" {{ end
