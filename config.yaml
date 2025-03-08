@@ -52,57 +52,67 @@ menu:
     pageRef: /
     weight: 10
   - name: About
+    parent: Home
     pageRef: /about
-    weight: 20
+    weight: 11
   - name: Financial Support
-    parent: About
+    parent: Home
     pageRef: /about/financial-support
-    weight: 21
+    weight: 12
   - name: Calendar
     pageRef: /calendar
-    weight: 25
-  - name: People
-    pageRef: /people
-    weight: 30
-  - name: Productions
+    weight: 20
+  - name: Shows
     pageRef: /productions
-    weight: 40
+    weight: 30
   - name: On Stage & Coming Soon
-    parent: Productions
+    parent: Shows
     pageRef: /productions/
-    weight: 41
+    weight: 31
   - name: Future Productions
-    parent: Productions
+    parent: Shows
     pageRef: /productions/future/
-    weight: 42
+    weight: 32
   - name: Past Productions
-    parent: Productions
+    parent: Shows
     pageRef: /productions/past/
-    weight: 43
+    weight: 33
+  - name: Look Up
+    pageRef: /lookup
+    weight: 40
+  - name: People
+    parent: Look Up
+    pageRef: /people
+    weight: 41
   - name: Theatres
+    parent: Look Up
     pageRef: /theatres
-    weight: 50
+    weight: 42
   - name: Venues
+    parent: Look Up
     pageRef: /venues
-    weight: 60
+    weight: 43
+  - name: Subscribe
+    pageRef: /signup
+    weight: 50
   - name: Submit
     pageRef: /submit
-    weight: 70
+    weight: 60
   - name: Submit your Profile
     parent: Submit
     pageRef: /submit/profile
-    weight: 71
+    weight: 61
   - name: Submit your Production
     parent: Submit
     pageRef: /submit/production
-    weight: 72
+    weight: 62
   - name: Submit your Theatre
     parent: Submit
     pageRef: /submit/theatre
-    weight: 73
+    weight: 63
   - name: Donate
     pageRef: /support
-    weight: 80
+    weight: 70
 
 taxonomies:
   category: categories
