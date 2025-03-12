@@ -4,9 +4,11 @@ Description: JaxPlays is a 501(c)(3) nonprofit organization.
 layout: "about"
 date: 2024-12-12T14:31:46-05:00
 ---
-
 ## Financial Support
-
+{{< rawhtml >}}
+<a href="https://app.candid.org/profile/15145870" target="_blank" class="fr ml4"> 
+<img src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/15145870/svg" /> </a>
+{{< /rawhtml >}}
 JaxPlays is a 501(c)(3) nonprofit organization. If you would like to support our mission, please consider making a tax-deductible donation. Your contribution helps us maintain and improve our platform, ensuring that we continue to provide the most comprehensive and up-to-date information on live theatre in Northeast Florida and Southeast Georgia.
 
 {{< rawhtml >}}
@@ -39,3 +41,4 @@ We are grateful for the generous support of our donors. Thank you for helping us
 - Jeff Hes
 - Christopher Stewart
 - William Hollister
+
