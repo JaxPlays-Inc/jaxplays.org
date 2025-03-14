@@ -21,7 +21,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: https://www.fscjartistseries.org/tickets/les-mis%C3%A9rables
-Tickets: https://www.fscjartistseries.org/season-tickets
+Tickets: https://shop.fscjartistseries.org/overview/les-miserables
 show_details: 
 cast:
   - Jean Valjean: Nick Cartell

@@ -21,7 +21,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: https://www.fscjartistseries.org/tickets/mj-the-musical
-Tickets: https://www.fscjartistseries.org/season-tickets
+Tickets: https://shop.fscjartistseries.org/overview/mj-the-musical
 show_details: 
 - Music: "[[w:Michael Jackson]]"
 - Lyrics: Michael Jackson
