@@ -34,6 +34,7 @@ crew:
   - Brian Niece
 - Stage Manager: Faith Ortega
 - Technical Director: Mike Livingston
+- Lighting Designer: Carl Liberatore
 - Scenic & Prop Design: Claire Cimino
 - Costume Designer: Camala Pitts
 - Sound Designer: Brian Niece
