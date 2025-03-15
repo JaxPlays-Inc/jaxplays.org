@@ -29,7 +29,14 @@ show_details:
 - Lyrics: Peter Kellogg
 - Music: David Friedman
 cast:
+  - Johnny Blood: Brennan Moritz
+  - Father Morse: Neal Thorburn
+  - Sheriff Martin Green: Chris Robertson
+  - Susanna AKA Sister Mary Jo: Morgan Perry
+  - Governor Von Richterhenkenpflichtgetruber: Alec Hadden
+  - Bella Rose: Aly Blakewell
 crew:
+  - Director: Daniel Austin
 orchestra:
 Genres:
   - Musical
