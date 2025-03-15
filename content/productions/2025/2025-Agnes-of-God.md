@@ -42,3 +42,7 @@ genres:
 Description: 
 ---
 This gripping psychological drama centers on a young novice nun accused of infanticide. As a court-appointed psychiatrist and the convent’s Mother Superior battle over the case, they confront deep questions of faith, innocence, and mental health. At its core, this play is a subversive exploration of faith, questioning the rigidity of religious belief in the face of trauma and psychological complexity which powerfully explores belief, trauma, and redemption.
+
+### First Coast Connect: Lumen Repertory Theatre "Agnes of God"
+
+{{< youtube h57mvtDnexM >}}
