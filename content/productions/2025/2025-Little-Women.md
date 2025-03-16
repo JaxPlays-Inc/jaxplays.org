@@ -79,11 +79,16 @@ genres:
 - Drama
 - Historical
 Description: "This original adaptation is based on the 1868 novel by Louisa May Alcott. The story follows four sisters growing up during the Civil War."
+Press:
+- "Theatre Troupe 1776 to stage “Little Women” | Florida NewsLine": https://www.floridanewsline.com/mandarin/theatre-troupe-1776-to-stage-little-women/
 ---
 
 ### Theatre Troupe 1776 presents Little Women | First Coast News
 
 {{< youtube i6vp26ce6ys >}}
 
-
 {{< figure src="/media/photos/2025-Little-Women-01.webp" alt="" caption="" attr="John Reed" attr_link="">}}
+
+{{< rawhtml >}}
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmandarincommunityclub%2Fvideos%2F1198718275171722%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+{{< /rawhtml >}}
