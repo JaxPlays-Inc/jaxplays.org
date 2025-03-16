@@ -21,6 +21,7 @@ cast:
 description: "Faith, trauma and mystery collide in Lumen’s *Agnes of God*, a riveting production filled with raw performances and stunning atmosphere"
 ---
 [[theatre:Lumen Repertory Theatre]]’s production of [[production:2025 Agnes of God]] offers a haunting, emotionally charged evening of theater, balancing psychological tension with profound spiritual inquiry. Under the direction of [[person:Joshua Britton Andrews]] and [[person:Brian Niece]], this taut three-character drama unfolds with gripping intensity, drawing the audience into its web of doubt, faith and trauma.
+<!--more-->
 
 {{< figure src="/media/photos/2025-Agnes-of-God-158.webp" alt="A young nun in a white and blue habit stands bathed in deep blue light, gazing upward with an expression of wonder and vulnerability. The draped fabric behind her adds to the ethereal atmosphere." caption="Sister Agnes (Maggie Cox) is lost in a moment of faith, fear and mystery in *Agnes of God*." attr="Josh Andrews" attr_link="https://www.jaxheadshots.co/" >}}
 
