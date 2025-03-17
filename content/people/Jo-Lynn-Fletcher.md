@@ -2,7 +2,7 @@
 title: Jo Lynn Fletcher
 date: 2025-02-20T14:42:54-05:00
 featured_image: Jo-Lynn-Fletcher.webp
-featured_image_attr: 
+featured_image_attr: Kevin Kelly
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
