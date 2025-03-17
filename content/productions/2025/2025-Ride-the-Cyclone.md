@@ -34,16 +34,18 @@ cast:
   - Ricky Potts: Caden Christel
   - Jane Doe: Jo Lynn Fletcher
   - Constance Blackwood: Naomi Shae Randolph
-  - Virgil/Ensemble: Andre Jon Valencia
-  - Talia/Ensemble: Gianna Patrick
+  - Virgil: Andre Jon Valencia
+  - Talia: Gianna Patrick
   - Ensemble:
       - Savanna Dribble
+      - Anecia Francis
       - Miles Genaovargas
       - Lucy Graff
-      - Chailyne Perez Rodriguez
-      - Anecia Francis
-      - Quill Wettstain
       - Hugh Miner
+      - Gianna Patrick
+      - Chailyne Perez Rodriguez
+      - Quill Wettstain
+      - Andre Jon Valencia
 understudies:
 crew:
 - Director: Anvar Gashimov
