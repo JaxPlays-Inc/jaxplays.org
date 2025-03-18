@@ -56,7 +56,6 @@ crew:
 - Assistant Stage Manager: Kaleigh Ervin
 - Assistant Stage Manager: Anne Corrie
 - Technical Director: Logan Forbess
-- Technical Director: Ryan Walker
 - Set Designer: Andre Jon Valencia
 - Set Construction: Andre Jon Valencia
 - Costume Designer: Max Cordeiro
@@ -65,6 +64,8 @@ crew:
 - Lighting Designer: Charlie Dohm
 - Sound Designer: Logan Forbess
 - Budget Supervisor: Gianna Patrick
+- Marketing Manager: Andre Jon Valencia
+- Production Photographer: Kamajhia | kamajhia.com
 - Set Construction Team:
   - Joseph Broadwater
   - Lucy Graff
@@ -80,6 +81,6 @@ genres:
   - Drama
 Description: "Buckle up for a wild ride through life, death, and the spaces in between. This darkly uproarious musical dares to ask the question: What story would you tell to win a chance at more life?"
 ---
-**NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and Swoop Troupe Theater Club at UNF. We have a Pay-What-You-Please night on March 13th at 8 p.m.
+**NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and [[theatre:Swoop Troupe]] Theater Club at UNF. We have a Pay-What-You-Please night on March 13th at 8 p.m.
 
 In this hilarious and outlandish story, the lives of six teenagers from a Canadian chamber choir are cut short in a freak accident aboard a roller coaster. When they awake in limbo, a mechanical fortune teller invites each to tell a story to win a prize like no other — the chance to return to life.
