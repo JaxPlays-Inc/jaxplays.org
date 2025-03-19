@@ -2,6 +2,7 @@
 title: Stage Aurora
 layout: theatres
 active: true
+company_type: Community
 featured_image: Stage_Aurora.jpeg
 featured_image_attr:
 featured_image_alt:
