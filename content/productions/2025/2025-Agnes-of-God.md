@@ -39,8 +39,11 @@ crew:
 - Costume Designer: Camala Pitts
 - Sound Designer: Brian Niece
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Play
+  - Drama
+  - Mystery
+Description: "Plunge into the psychological depths of faith and doubt in *Agnes of God*, where a novice nun’s mysterious pregnancy sparks a complex investigation led by a court-appointed psychiatrist."
 ---
 This gripping psychological drama centers on a young novice nun accused of infanticide. As a court-appointed psychiatrist and the convent’s Mother Superior battle over the case, they confront deep questions of faith, innocence, and mental health. At its core, this play is a subversive exploration of faith, questioning the rigidity of religious belief in the face of trauma and psychological complexity which powerfully explores belief, trauma, and redemption.
 
