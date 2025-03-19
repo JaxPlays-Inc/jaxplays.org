@@ -25,14 +25,6 @@ featured_image_attr_link:
 program:
 Website: https://playersbythesea.org/beautiful
 Tickets: https://ci.ovationtix.com/34877/production/1187099
-show_details: 
-  - Book: "[[w:Douglas McGrath]]"
-  - Words & Music:
-    - "[[w:Carole King]]"
-    - Gerry Goffin
-    - Barry Man
-    - Cynthia Weil
-  - Basis: The songs of Carole King
 cast:
   - Carole King: Kailey Anderson
   - Gerry Goffin: Noah Gonzales-Hall
@@ -69,14 +61,10 @@ crew:
 - Music Director: Anthony Felton
 - Production Assistant: Phedre Delinois
 orchestra:
-Genres:
-  - Musical
-  - Biography
-  - Drama
-Description: "Journey through the tapestry of Carole King's extraordinary rise to stardom, from talented teenager to celebrated songwriter and performer. 'Beautiful' tells the inspiring true story of King's remarkable journey, underscored by the soundtrack of a generation."
 Press: 
 - "Beautiful: The Carole King Musical | First Coast Living - First Coast News": https://www.firstcoastnews.com/video/entertainment/television/first-coast-living/beautiful-the-carole-king-musical/77-298a1449-76eb-421e-a80c-23caefb73b01
 ---
-'Beautiful' unfolds the story of Carole King's early life and career as one of the most successful solo acts in popular music history. From writing chart-topping hits for the biggest acts in rock 'n' roll to her own transformation into a superstar, the musical is a testament to King's enduring legacy and the music that shaped a generation. Featuring classics like 'You've Got a Friend,' 'So Far Away,' 'Will You Love Me Tomorrow,' and 'Natural Woman,' this uplifting musical chronicles King's struggles and triumphs, celebrating the power of music to connect and heal.
+
+### "Beautiful: The Carol King Musica on First Coast Living | First Coast News"
 
 {{< youtube 6pbJmWQ8Gbk >}}

@@ -3,7 +3,7 @@
   {{ $columns := split .Inner "<--->" }}
   {{ range $index, $element := $columns }}
     <div class="fl w-100 w-{{ div 100 (len $columns) }}-l ph2">
-      {{ $element | markdownify }}
+      {{ $.Page.RenderString $element }}
     </div>
   {{ end }}
 </div>

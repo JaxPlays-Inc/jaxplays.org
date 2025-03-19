@@ -150,3 +150,10 @@ outputs:
     - RSS
 
 enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2

@@ -77,27 +77,28 @@ Description: "Witness the remarkable true story of a small Newfoundland town tha
 
 
 ### Musical numbers
+
 - "Welcome to the Rock" – Claude, Company
 - "38 Planes" – Company
 - "Blankets and Bedding" – Company
 - "28 Hours/Wherever We Are" – Company
 - "Darkness and Trees" – Company
-- "On the Bus" † – Company
-- "Darkness and Trees (Reprise)" † – Company
-- "Lead Us Out of the Night" † – Company
-- "Phoning Home" † – Company
+- "On the Bus" [^1] – Company
+- "Darkness and Trees (Reprise)" [^1] – Company
+- "Lead Us Out of the Night" [^1] – Company
+- "Phoning Home" [^1] – Company
 - "Costume Party" – Diane, Kevin T, Beverley, Hannah, Kevin J, Nick, Bob
 - "I Am Here" – Hannah
 - "Prayer" – Kevin T, Company
 - "On the Edge" – Company
-- "In the Bar/Heave Away" † – Company
+- "In the Bar/Heave Away" [^1] – Company
 - "Screech In" – Claude, Company
 - "[[w:Me and the Sky (Come from Away)|Me and the Sky]]" – Beverley, Female Ensemble
-- "The Dover Fault" † – Nick, Diane
+- "The Dover Fault" [^1] – Nick, Diane
 - "Stop the World" – Nick, Diane, Company
 - "38 Planes (Reprise)/Somewhere in the Middle of Nowhere" – Beverley, Company
 - "Something's Missing" – Company
 - "Finale" – Claude, Company
-- "Screech Out" † – Band
+- "Screech Out" [^1] – Band
 
-† Not listed on the show's program
+[^1]: Not listed on the show's program
