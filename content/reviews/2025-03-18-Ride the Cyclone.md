@@ -39,7 +39,7 @@ Death comes suddenly for the six teenagers of [[production:2025 Ride the Cyclone
 
 ### A Cast That Shines in the Afterlife
 
-At the heart of the show, [[person:Austin Welles]] delivers a magnificent performance as the omniscient (and delightfully sardonic) Karnak. His precision in both physicality and vocal delivery makes the fortune-telling machine feel simultaneously robotic and deeply human. His dry comedic timing is razor-sharp, yet there is an undercurrent of something almost tragic in his presence, making his character as captivating as he is unsettling.
+At the heart of the show, [[person:Austin Welles]] delivers a magnificent performance as the omniscient (and delightfully sardonic) Karnak. His precision in both physicality and vocal delivery makes the fortune-telling machine feel simultaneously robotic and deeply human. His deadpan comedic timing is razor-sharp, yet there is an undercurrent of something almost tragic in his presence, making his character as captivating as he is unsettling.
 
 {{< figure src="/media/photos/2025-Ride-The-Cyclone-02.webp" alt="An actor dressed as a fortune teller, complete with a turban and flowing robes, sits inside a booth with a glowing crystal ball, gesturing mysteriously." caption="The enigmatic Karnak, played by Austin Welles, holds the fate of the choir in his hands. His predictions are as unsettling as they are inevitable." attr="Kamajhia"  attrlink="https://kamajhia.com/" >}}
 
