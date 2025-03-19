@@ -13,7 +13,7 @@ featured_image_caption:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
+  Instagram: terrystar0
   LinkedIn: 
   IBDB: 
   IMDb:

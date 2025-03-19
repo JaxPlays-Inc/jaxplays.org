@@ -7,7 +7,7 @@ featured_image_attr_link:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
+  Instagram: anvargashimov_
   LinkedIn: 
   IBDB: 
   IMDb:

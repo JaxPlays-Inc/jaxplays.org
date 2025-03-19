@@ -9,7 +9,7 @@ featured_image_caption:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
+  Instagram: sadiesimss
   LinkedIn: 
   IBDB: 
   IMDb:
