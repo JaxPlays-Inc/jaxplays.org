@@ -2,6 +2,7 @@
 title: First Coast Opera
 category: theatres
 active: true
+company_type: Professional
 featured_image: First-Coast-Opera.webp
 featured_image_attr:
 featured_image_alt:

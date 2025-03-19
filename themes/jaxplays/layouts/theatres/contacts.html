@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <h1>Active Theatres</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Theatre</th>
+        <th>Type</th>
+        <th>Website</th>
+        <th>Facebook</th>
+        <th>Instagram</th>
+        <th>Twitter</th>
+        <th>Bluesky</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range sort (where (where site.RegularPages "Params.active" true) "Section" "theatres") "Title" }}
+        <tr>
+          <td>{{ .Title }}</td>
+          <td>{{ .Params.company_type | default "N/A" }}</td>
+          <td>{{ with .Params.Socials.Website }}<a href="{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td>{{ with .Params.Socials.Facebook }}<a href="https://www.facebook.com/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td>{{ with .Params.Socials.Instagram }}<a href="https://www.instagram.com/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td>{{ with .Params.Socials.Twitter }}<a href="https://twitter.com/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td>{{ with .Params.Socials.Bluesky }}<a href="https://bsky.app/profile/{{ . }}">{{ . }}</a>{{ end }}</td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</article>
+{{ end }}

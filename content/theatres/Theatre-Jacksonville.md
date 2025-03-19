@@ -2,6 +2,7 @@
 title: Theatre Jacksonville
 layout: theatres
 active: true
+company_type: Community
 featured_image: Theatre_Jacksonville.webp
 featured_image_attr:
 featured_image_alt:

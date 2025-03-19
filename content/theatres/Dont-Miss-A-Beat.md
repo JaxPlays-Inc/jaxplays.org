@@ -2,6 +2,7 @@
 title: Don't Miss A Beat
 date: 2024-09-04T17:45:12-04:00
 active: true
+company_type: Community
 featured_image: Dont-Miss-a-Beat.webp
 featured_image_attr: On Ideas
 featured_image_alt: 

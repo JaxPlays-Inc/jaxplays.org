@@ -2,6 +2,7 @@
 title: Orange Park Community Theatre
 layout: theatres
 active: true
+company_type: Community
 featured_image: Orange_Park_Community_Theatre.webp
 featured_image_attr:
 featured_image_alt:

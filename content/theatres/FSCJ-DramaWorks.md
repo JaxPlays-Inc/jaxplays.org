@@ -1,6 +1,7 @@
 ---
 title: FSCJ DramaWorks
 active: true
+company_type: Collegiate
 featured_image: FSCJ.webp
 featured_image_attr:
 featured_image_alt:

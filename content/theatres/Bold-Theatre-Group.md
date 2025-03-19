@@ -2,6 +2,7 @@
 title: Bold Theatre Group
 layout: theatres
 active: false
+company_type: Professional
 featured_image: Bold_Theatre_Group.webp
 featured_image_attr:
 featured_image_alt:

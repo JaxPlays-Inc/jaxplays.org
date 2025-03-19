@@ -2,6 +2,7 @@
 title: Artist Connection Theatre
 date: 2024-07-02T18:03:58-04:00
 active: true
+company_type: Community
 featured_image: Artist-Connection-Theatre.webp
 featured_image_attr: 
 featured_image_alt: Logo for Artist Connection Theatre

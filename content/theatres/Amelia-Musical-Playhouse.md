@@ -1,6 +1,7 @@
 ---
 title: Amelia Musical Playhouse
 active: true
+company_type: Community
 featured_image: Amelia_Musical_Playhouse.webp
 featured_image_attr: 
 featured_image_alt: Amelia Musical Playhouse Logo

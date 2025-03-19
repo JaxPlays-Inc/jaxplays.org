@@ -2,6 +2,7 @@
 title: Players by the Sea
 layout: theatres
 active: true
+company_type: Community
 featured_image: Players_by_the_Sea.jpeg
 featured_image_attr:
 featured_image_alt:

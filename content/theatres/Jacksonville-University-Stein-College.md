@@ -2,6 +2,7 @@
 title: Jacksonville University - Stein College
 layout: theatres
 active: true
+company_type: Collegiate
 featured_image: JU-Linda-Berry-Stein-College-of-Fine-Arts-Humanities.webp
 featured_image_attr:
 featured_image_alt:

@@ -2,6 +2,7 @@
 title: Actors Collective
 layout: theatres
 active: false
+company_type: Professional
 featured_image: Actors_Collective.jpeg
 featured_image_attr:
 featured_image_alt:

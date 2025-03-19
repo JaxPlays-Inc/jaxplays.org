@@ -2,6 +2,7 @@
 title: Theatre Troupe 1776
 date: 2025-03-16T15:27:11-04:00
 active: true
+company_type: Community
 featured_image: Theatre-Troupe-1776.webp
 featured_image_attr: 
 featured_image_alt: 

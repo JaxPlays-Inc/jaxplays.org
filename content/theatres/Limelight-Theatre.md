@@ -2,6 +2,7 @@
 title: Limelight Theatre
 layout: theatres
 active: true
+company_type: Community
 featured_image: Limelight_Theatre.jpeg
 featured_image_attr:
 featured_image_alt:

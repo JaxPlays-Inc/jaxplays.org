@@ -2,6 +2,7 @@
 title: The Island Theater
 layout: theatres
 active: true
+company_type: Community
 featured_image: The_Island_Theater.png
 featured_image_attr:
 featured_image_alt:

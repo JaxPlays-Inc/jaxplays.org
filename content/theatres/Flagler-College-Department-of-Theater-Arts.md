@@ -1,6 +1,7 @@
 ---
 title: Flagler College Department of Theater Arts
 active: true
+company_type: Collegiate
 featured_image: Flagler-College-Department-of-Theater-Arts.webp
 featured_image_attr: 
 featured_image_alt: Logo for Flagler College Department of Theater Arts

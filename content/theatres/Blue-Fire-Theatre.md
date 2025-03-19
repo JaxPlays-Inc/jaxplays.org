@@ -2,6 +2,7 @@
 title: Blue Fire Theatre
 date: 2024-07-02T18:03:49-04:00
 active: true
+company_type: Community
 featured_image: Blue-Fire-Theatre.webp
 featured_image_alt: "Logo of BlueFire Theatre featuring an artistic depiction of a flame in blue and orange hues, symbolizing vibrant creativity. The logo's font is bold and modern, matching the dynamic energy of the flame."
 featured_image_caption: "Logo for BlueFire Theatre, combining elements of fire and vivid color to represent the theater's energetic and innovative spirit."

@@ -2,6 +2,7 @@
 title: BABS' LAB
 date: 2024-07-02T18:03:54-04:00
 active: true
+company_type: Professional
 featured_image: BABS_LABS.webp
 featured_image_alt: "Logo of BABS LABS featuring bold black typography with parts of letters stylized in bright pink, adding a dynamic and modern touch to the design. The letters playfully interact, symbolizing creativity and innovation."
 featured_image_caption: "The logo for BABS LABS showcases a modern design with an innovative twist, using black and pink to highlight its artistic and contemporary focus."

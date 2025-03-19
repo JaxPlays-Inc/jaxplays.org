@@ -2,6 +2,7 @@
 title: City Repertory Theatre
 date: 2024-12-02T13:15:21-05:00
 active: true
+company_type: Community
 featured_image: City-Repertory-Theatre.webp
 featured_image_attr: 
 featured_image_alt: 

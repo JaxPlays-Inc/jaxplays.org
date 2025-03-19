@@ -2,6 +2,7 @@
 title: Apex Theatre Studio
 layout: theatres
 active: true
+company_type: Community
 featured_image: Apex-Theatre-Studio.webp
 featured_image_alt: "Logo of Apex Theatre Studio, featuring a simple and modern design with the name 'APEX' in bold white letters on a vibrant red background, accompanied by a multicolored stripe on the left side, representing the studio's dynamic and creative approach to theatre."
 featured_image_caption: "Logo of Apex Theatre Studio" 

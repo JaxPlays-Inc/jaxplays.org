@@ -2,6 +2,7 @@
 title: Amelia Community Theatre
 layout: theatres
 active: true
+company_type: Community
 featured_image: Amelia_Community_Theatre.png
 featured_image_attr:
 featured_image_alt:

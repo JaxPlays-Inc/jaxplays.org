@@ -8,6 +8,7 @@ redirect_from:
   - /theatres/thefiveanddime
 layout: theatres
 active: true
+company_type: Community
 featured_image: The_Five_And_Dime.jpeg
 featured_image_attr:
 featured_image_alt:

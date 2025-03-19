@@ -2,6 +2,7 @@
 title: Spotlight Events Center
 layout: theatres
 active: true
+company_type: Professional
 featured_image: Spotlight-Center.webp
 featured_image_attr:
 featured_image_alt:

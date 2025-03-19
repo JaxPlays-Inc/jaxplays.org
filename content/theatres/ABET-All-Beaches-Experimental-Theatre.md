@@ -6,6 +6,7 @@ theatre_aliases:
   - ABET - Atlantic Beach Experimental Theatre
 layout: theatres
 category: theatres
+company_type: Community
 active: true
 featured_image: ABET_-_All_Beaches_Experimental_Theatre.jpeg
 featured_image_attr:

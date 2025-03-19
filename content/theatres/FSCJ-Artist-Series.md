@@ -1,6 +1,7 @@
 ---
 title: FSCJ Artist Series
 active: true
+company_type: Professional
 featured_image: FSCJ-Artist-Series.webp
 featured_image_attr:
 featured_image_alt:

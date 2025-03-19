@@ -2,6 +2,7 @@
 title: Act II Players
 layout: theatres
 category: theatres
+company_type: Community
 active: true
 featured_image: Act-II-Players.webp
 featured_image_attr:

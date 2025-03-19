@@ -2,6 +2,7 @@
 title: A Classic Theatre
 layout: theatres
 category: theatres
+company_type: Community
 active: true
 featured_image: A-Classic-Theatre.webp
 featured_image_attr:

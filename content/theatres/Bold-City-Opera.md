@@ -2,6 +2,7 @@
 title: Bold City Opera
 layout: theatres
 category: theatres
+company_type: Professional
 active: true
 featured_image: Bold-City-Opera.webp
 featured_image_attr:

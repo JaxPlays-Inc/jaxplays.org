@@ -2,6 +2,7 @@
 title: Omega Theatre Productions
 layout: theatres
 active: false
+company_type: Community
 featured_image: 
 featured_image_attr:
 featured_image_alt:

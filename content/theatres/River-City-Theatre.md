@@ -2,6 +2,7 @@
 title: River City Theatre
 date: 2025-03-12T13:38:19-04:00
 active: true
+company_type: Community
 featured_image: River-City-Theatre.webp
 featured_image_attr: 
 featured_image_alt: 

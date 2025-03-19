@@ -4,6 +4,7 @@ aliases:
   - /theatres/st-marys-childrens-theatre
 theatre_aliases:
   - St. Marys Children's Theatre
+company_type: Community
 date: 2024-10-06T21:12:23-04:00
 active: true
 featured_image: Saltwater-Performing-Arts.webp

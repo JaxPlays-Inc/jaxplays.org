@@ -2,6 +2,7 @@
 title: Christ Church Creative Academy
 date: 2024-09-01T18:13:38-04:00
 active: true
+company_type: Community
 featured_image: Christ-Church-Creative-Academy.webp
 featured_image_attr: 
 featured_image_alt: 

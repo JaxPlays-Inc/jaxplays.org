@@ -3,6 +3,7 @@ title: Lumen Repertory Theatre
 layout: theatres
 category: theatres
 active: true
+company_type: Professional
 featured_image: Lumen_Repertory_Theatre.gif
 featured_image_attr:
 featured_image_alt:

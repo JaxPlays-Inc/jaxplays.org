@@ -2,6 +2,7 @@
 title: Swoop Troupe
 date: 2025-03-17T20:29:58-04:00
 active: true
+company_type: Collegiate
 featured_image: Swoop-Troupe.webp
 featured_image_attr: 
 featured_image_alt: 
