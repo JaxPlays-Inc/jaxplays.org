@@ -27,30 +27,66 @@ The JaxPlays color palette consists of four primary colors: gold, black, white a
 <!-- raw html -->
 {{< rawhtml >}}
 <style>
-  .palette-container {
+  /* Container Styles */
+  .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
     background: #eee;
     border-radius: 10px;
+    text-align: center;
   }
+
+  /* Grid Column Settings */
+  .palette-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .logo-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Color Blocks */
   .palette-color {
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
     border-radius: 5px;
     font-weight: bold;
   }
-  .palette-gold { background: #ffd316; color: #000;}
-  .palette-black { background: #000; color: #fff;}
-  .palette-white { background: #fff; color: #000;}
-  .palette-magenta { background: #9d2063; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);}
-  .palette-text { cursor: pointer; }
+
+  /* Individual Colors */
+  .palette-gold { background: #ffd316; color: #000; }
+  .palette-black { background: #000; color: #fff; }
+  .palette-white { background: #fff; color: #000; }
+  .palette-magenta { background: #9d2063; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); }
+
+  /* Logos */
+  .logo-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  /* Clickable Palette Text */
+  .palette-text {
+    cursor: pointer;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .palette-container, .logo-container {
+      grid-template-columns: 1fr;
+    }
+    .logo-image {
+      max-width: 100%;
+    }
+  }
 </style>
+
 <script>
 function copyToClipboard(value) {
   const el = document.createElement('textarea');
@@ -62,18 +98,22 @@ function copyToClipboard(value) {
   alert('Copied "' + value + '" to clipboard.');
 }
 </script>
-<div class="palette-container">
+{{< /rawhtml >}}
+
+<!-- raw html -->
+{{< rawhtml >}}
+<div class="grid-container palette-container">
   <div class="palette-color palette-gold">
-    Gold<span class="palette-text" onclick="copyToClipboard('#FFD316')"> HEX #FFD316</span><span class="palette-text" onclick="copyToClipboard('RGB(255, 211, 22)')"> RGB(255, 211, 22)</span>
+    Gold <span class="palette-text" onclick="copyToClipboard('#FFD316')">HEX #FFD316</span> <span class="palette-text" onclick="copyToClipboard('RGB(255, 211, 22)')">RGB(255, 211, 22)</span>
   </div>
   <div class="palette-color palette-black">
-    Black<span class="palette-text" onclick="copyToClipboard('#000000')"> HEX #000000</span><span class="palette-text" onclick="copyToClipboard('RGB(0, 0, 0)')"> RGB(0, 0, 0)</span>
+    Black <span class="palette-text" onclick="copyToClipboard('#000000')">HEX #000000</span> <span class="palette-text" onclick="copyToClipboard('RGB(0, 0, 0)')">RGB(0, 0, 0)</span>
   </div>
   <div class="palette-color palette-white">
-    White<span class="palette-text" onclick="copyToClipboard('#FFFFFF')"> HEX #FFFFFF</span><span class="palette-text" onclick="copyToClipboard('RGB(255, 255, 255)')"> RGB(255, 255, 255)</span>
+    White <span class="palette-text" onclick="copyToClipboard('#FFFFFF')">HEX #FFFFFF</span> <span class="palette-text" onclick="copyToClipboard('RGB(255, 255, 255)')">RGB(255, 255, 255)</span>
   </div>
   <div class="palette-color palette-magenta">
-    Magenta<span class="palette-text" onclick="copyToClipboard('#9D2063')"> HEX #9D2063</span><span class="palette-text" onclick="copyToClipboard('RGB(157, 32, 99)')"> RGB(157, 32, 99)</span>
+    Magenta <span class="palette-text" onclick="copyToClipboard('#9D2063')">HEX #9D2063</span> <span class="palette-text" onclick="copyToClipboard('RGB(157, 32, 99)')">RGB(157, 32, 99)</span>
   </div>
 </div>
 {{< /rawhtml >}}
@@ -98,43 +138,24 @@ The JaxPlays logo is available in multiple formats suitable for various digital 
 
 <!-- raw html -->
 {{< rawhtml >}}
-<style>
-  .logo-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-    background: #eee;
-    border-radius: 10px;
-    text-align: center;
-  }
-  .logo-image {
-    width: 100%;
-    height: auto;
-  }
-  .px250 {
-    width: 250px;
-    max-width: 250px;
-  }
-</style>
-<div class="logo-container">
+<div class="grid-container logo-container">
   <div>
-    <img src="/brand-kit/JaxPlaysLogo-Horizontal_w250px.png?v=052927" alt="JaxPlays Horizontal Logo PNG" class="logo-image px250"><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal.png?v=052944" class="b" target="_blank">PNG Format</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w1000px.png?v=052946" target="_blank">1000px x 200px</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w500px.png?v=052950" target="_blank">500px x 100px</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w250px.png?v=052953" target="_blank">250px x 50px</a><br/>
+    <img src="/brand-kit/JaxPlaysLogoLockup-Horizontal_w250px.png" alt="JaxPlays Horizontal Logo PNG" class="logo-image px250"><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal.png" class="b" target="_blank">PNG Format</a><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal_w1000px.png" target="_blank">1000px x 200px</a><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal_w500px.png" target="_blank">500px x 100px</a><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal_w250px.png" target="_blank">250px x 50px</a><br/>
   </div>
   <div>
-    <img src="/brand-kit/JaxPlaysLogo-Horizontal_w250px.webp" alt="JaxPlays Horizontal Logo WEBP" class="logo-image px250"><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal.webp" class="b" target="_blank">WEBP Format</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w1000px.webp" target="_blank">1000px x 200px</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w500px.webp" target="_blank">500px x 100px</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w250px.webp" target="_blank">250px x 50px</a><br/>
+    <img src="/brand-kit/JaxPlaysLogoLockup-Horizontal_w250px.webp" alt="JaxPlays Horizontal Logo WEBP" class="logo-image px250"><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal.webp" class="b" target="_blank">WEBP Format</a><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal_w1000px.webp" target="_blank">1000px x 200px</a><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal_w500px.webp" target="_blank">500px x 100px</a><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal_w250px.webp" target="_blank">250px x 50px</a><br/>
   </div>
   <div>
-    <img src="/brand-kit/JaxPlaysLogo-Horizontal.svg" alt="JaxPlays Horizontal Logo SVG" class="logo-image px250"><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal.svg" class="b" target="_blank">SVG Format</a>
+    <img src="/brand-kit/JaxPlaysLogoLockup-Horizontal.svg" alt="JaxPlays Horizontal Logo SVG" class="logo-image px250"><br/>
+    <a href="/brand-kit/JaxPlaysLogoLockup-Horizontal.svg" class="b" target="_blank">SVG Format</a>
   </div>
 </div>
 {{< /rawhtml >}}
@@ -142,7 +163,7 @@ The JaxPlays logo is available in multiple formats suitable for various digital 
 ### Compressed Horizontal Logo Lockup
 
 {{< rawhtml >}}
-<div class="logo-container">
+<div class="grid-container logo-container">
   <div>
     <img src="/brand-kit/JaxPlaysLogoLockup-Compressed_w250px.png" alt="JaxPlays Compressed Horizontal Logo PNG" class="compressed-logo-image"><br/>
     <a href="/brand-kit/JaxPlaysLogoLockup-Compressed.png" class="b" target="_blank">PNG Format</a><br/>
@@ -167,7 +188,7 @@ The JaxPlays logo is available in multiple formats suitable for various digital 
 ### Vertical Logo Lockup
 
 {{< rawhtml >}}
-<div class="logo-container">
+<div class="grid-container logo-container">
   <div>
     <img src="/brand-kit/JaxPlaysLogoLockup-Vertical_w250px.png" alt="JaxPlays Compressed Horizontal Logo PNG" class="compressed-logo-image"><br/>
     <a href="/brand-kit/JaxPlaysLogoLockup-Vertical.png" class="b" target="_blank">PNG Format</a><br/>
@@ -192,7 +213,7 @@ The JaxPlays logo is available in multiple formats suitable for various digital 
 ### Square Logo
 
 {{< rawhtml >}}
-<div class="logo-container">
+<div class="grid-container logo-container">
   <div>
     <img src="/brand-kit/JaxPlaysLogo-Square_w250px.png" alt="JaxPlays Compressed Horizontal Logo PNG" class="compressed-logo-image"><br/>
     <a href="/brand-kit/JaxPlaysLogo-Square.png" class="b" target="_blank">PNG Format</a><br/>
