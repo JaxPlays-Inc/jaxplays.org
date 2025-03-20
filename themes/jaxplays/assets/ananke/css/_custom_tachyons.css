@@ -6,6 +6,10 @@
   /* Ensures the nav stays on top of other content */
 }
 
+.bg-jp-gold {
+  background-color: var(--jaxplays-gold);
+}
+
 .w-45 {
   width: 45%;
 }
