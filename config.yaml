@@ -59,6 +59,10 @@ menu:
     parent: Home
     pageRef: /about/financial-support
     weight: 12
+  - name: Brand Guidelines
+    parent: Home
+    pageRef: /about/brand-guidelines
+    weight: 13
   - name: Calendar
     pageRef: /calendar
     weight: 20
