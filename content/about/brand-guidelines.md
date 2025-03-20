@@ -119,11 +119,11 @@ The JaxPlays logo is available in multiple formats suitable for various digital 
 </style>
 <div class="logo-container">
   <div>
-    <img src="/brand-kit/JaxPlaysLogo-Horizontal_w250px.png" alt="JaxPlays Horizontal Logo PNG" class="logo-image px250"><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal.png" class="b" target="_blank">PNG Format</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w1000px.png" target="_blank">1000px x 200px</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w500px.png" target="_blank">500px x 100px</a><br/>
-    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w250px.png" target="_blank">250px x 50px</a><br/>
+    <img src="/brand-kit/JaxPlaysLogo-Horizontal_w250px.png?v=052927" alt="JaxPlays Horizontal Logo PNG" class="logo-image px250"><br/>
+    <a href="/brand-kit/JaxPlaysLogo-Horizontal.png?v=052944" class="b" target="_blank">PNG Format</a><br/>
+    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w1000px.png?v=052946" target="_blank">1000px x 200px</a><br/>
+    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w500px.png?v=052950" target="_blank">500px x 100px</a><br/>
+    <a href="/brand-kit/JaxPlaysLogo-Horizontal_w250px.png?v=052953" target="_blank">250px x 50px</a><br/>
   </div>
   <div>
     <img src="/brand-kit/JaxPlaysLogo-Horizontal_w250px.webp" alt="JaxPlays Horizontal Logo WEBP" class="logo-image px250"><br/>
