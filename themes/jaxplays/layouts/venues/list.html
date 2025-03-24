@@ -5,19 +5,27 @@
   {{ $today := now }}
   {{ $oneYearAgo := $today.AddDate -1 0 0 }}
 
-  {{/* Active Venues: Venues with recent or upcoming productions */}}
+  {{/* Active Venues */}}
   <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Active Venues</h3>
   <aside class="flex-ns flex-wrap justify-around mt5">
     {{ range .Pages.ByParam "title" }}
-      {{ $productions := where site.RegularPages "Section" "productions" }}
-      {{ $venueProductions := where $productions "Params.venue" "eq" .Title }}
-
+      {{ $venue := . }}
       {{ $isActive := false }}
-      {{ range $venueProductions }}
-        {{ with .Params.closing_date }}
-          {{ $closingDate := time (string .) }}
-          {{ if ge $closingDate $oneYearAgo }}
-            {{ $isActive = true }}
+      {{ range where site.RegularPages "Section" "productions" }}
+        {{ $prodVenues := .Params.venue }}
+        {{ if reflect.IsSlice $prodVenues }}
+          {{ if in $prodVenues $venue.Title }}
+            {{ with .Params.closing_date }}
+              {{ if ge (time (string .)) $oneYearAgo }}
+                {{ $isActive = true }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ else if eq $prodVenues $venue.Title }}
+          {{ with .Params.closing_date }}
+            {{ if ge (time (string .)) $oneYearAgo }}
+              {{ $isActive = true }}
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -28,19 +36,27 @@
     {{ end }}
   </aside>
 
-  {{/* Inactive Venues: No recent or upcoming productions */}}
+  {{/* Inactive Venues */}}
   <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Inactive Venues</h3>
   <aside class="flex-ns flex-wrap justify-around mt5">
     {{ range .Pages.ByParam "title" }}
-      {{ $productions := where site.RegularPages "Section" "productions" }}
-      {{ $venueProductions := where $productions "Params.venue" "eq" .Title }}
-
+      {{ $venue := . }}
       {{ $isActive := false }}
-      {{ range $venueProductions }}
-        {{ with .Params.closing_date }}
-          {{ $closingDate := time (string .) }}
-          {{ if ge $closingDate $oneYearAgo }}
-            {{ $isActive = true }}
+      {{ range where site.RegularPages "Section" "productions" }}
+        {{ $prodVenues := .Params.venue }}
+        {{ if reflect.IsSlice $prodVenues }}
+          {{ if in $prodVenues $venue.Title }}
+            {{ with .Params.closing_date }}
+              {{ if ge (time (string .)) $oneYearAgo }}
+                {{ $isActive = true }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ else if eq $prodVenues $venue.Title }}
+          {{ with .Params.closing_date }}
+            {{ if ge (time (string .)) $oneYearAgo }}
+              {{ $isActive = true }}
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -50,7 +66,5 @@
       {{ end }}
     {{ end }}
   </aside>
-
-  {{/*  {{ template "_internal/pagination.html" . }}  */}}
 </article>
 {{ end }}

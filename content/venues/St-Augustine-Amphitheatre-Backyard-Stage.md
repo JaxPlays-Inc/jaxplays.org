@@ -1,5 +1,5 @@
 ---
-title: St. Augustine Amphitheatre Backyard Sta
+title: St. Augustine Amphitheatre Backyard Stage
 date: 2024-12-18T12:21:32-05:00
 active: true
 featured_image: 
