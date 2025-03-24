@@ -1,27 +1,56 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-    <!--
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-      {{ .Content }}
-    </section>
-  -->
-    {{ partial "secondSearchBar.html" (dict "section" "Venues") }}
-    <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Active Venues</h3>
-    <aside class="flex-ns flex-wrap justify-around mt5">
-      {{ $activePages := where .Pages "Params.active" "!=" false }}
-      {{ $sortedPages := $activePages.ByParam "title" }}
-      {{ $paginator := .Paginate $sortedPages 60 }}
-      {{ range $paginator.Pages }}
-        {{ .Render "theatre-list" }} 
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  {{ partial "secondSearchBar.html" (dict "section" "Venues") }}
+
+  {{ $today := now }}
+  {{ $oneYearAgo := $today.AddDate -1 0 0 }}
+
+  {{/* Active Venues: Venues with recent or upcoming productions */}}
+  <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Active Venues</h3>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Pages.ByParam "title" }}
+      {{ $productions := where site.RegularPages "Section" "productions" }}
+      {{ $venueProductions := where $productions "Params.venue" "eq" .Title }}
+
+      {{ $isActive := false }}
+      {{ range $venueProductions }}
+        {{ with .Params.closing_date }}
+          {{ $closingDate := time (string .) }}
+          {{ if ge $closingDate $oneYearAgo }}
+            {{ $isActive = true }}
+          {{ end }}
+        {{ end }}
       {{ end }}
-    </aside>
-    <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Inactive Venues</h3>
-    <aside class="flex-ns flex-wrap justify-around mt5">
-      {{ $inactivePages := where .Pages "Params.active" "=" false }}
-      {{ range $inactivePages }}
-        {{ .Render "theatre-list" }} 
+
+      {{ if $isActive }}
+        {{ .Render "theatre-list" }}
       {{ end }}
-    </aside>
-    {{ template "_internal/pagination.html" . }}
-  </article>
+    {{ end }}
+  </aside>
+
+  {{/* Inactive Venues: No recent or upcoming productions */}}
+  <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">Inactive Venues</h3>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Pages.ByParam "title" }}
+      {{ $productions := where site.RegularPages "Section" "productions" }}
+      {{ $venueProductions := where $productions "Params.venue" "eq" .Title }}
+
+      {{ $isActive := false }}
+      {{ range $venueProductions }}
+        {{ with .Params.closing_date }}
+          {{ $closingDate := time (string .) }}
+          {{ if ge $closingDate $oneYearAgo }}
+            {{ $isActive = true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if not $isActive }}
+        {{ .Render "theatre-list" }}
+      {{ end }}
+    {{ end }}
+  </aside>
+
+  {{/*  {{ template "_internal/pagination.html" . }}  */}}
+</article>
 {{ end }}
