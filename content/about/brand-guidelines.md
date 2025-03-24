@@ -127,10 +127,10 @@ function copyToClipboard(value) {
 - In the [News](/news/) and [Reviews](/reviews/) articles we use [**Athelas**](https://fonts.adobe.com/fonts/athelas), font-weight 700, for the title and **Georgia** for the body text and subheadings.
 
 ## 5. Logo and Wordmark
-- The JaxPlays logo features gold on a black background.
+- The JaxPlays logo is gold on a black background.
 - The wordmark for JaxPlays is white text on a black background, all-caps in Avenir Next Bold.
 - The logo is sometimes used on its own, while the wordmark is always used in conjunction with the logo.
-- When used on a light background, both the logo and wordmark should be all black.
+- When used on a gold or light background, both the logo and wordmark should be all black.
 
 The JaxPlays logo is available in multiple formats suitable for various digital and print applications. 
 
