@@ -72,7 +72,7 @@
       <div class="flex flex-column flex-row-ns">
         <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
           <div class="w-75 w-100-ns ph1 ph0-ns">
-            <span class="b db mb3">{{ with .Params.building }}{{ . }} - {{ end }}{{ .Title }}</span>
+            <span class="b db mb3">{{ with .Params.building }}{{ . }}<br/>{{ end }}{{ .Title }}</span>
             {{ with $venuePage.Params.address }} <!-- Access the 'Address' parameter -->
             {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
             <ul class="map_links list mv1 pl0">

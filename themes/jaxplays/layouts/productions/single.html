@@ -38,22 +38,23 @@
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
         {{ with .Params.subtitle }}
-          <br/><span class="db f4 mt2">{{ . }}</span>
+        <br /><span class="db f4 mt2">{{ . }}</span>
         {{ end }}
       </h1>
       <h2 class="fw4 f3-ns f5 ttu">
-          {{ $year := "" }}
-          {{ if and .Params.opening_date (eq (len .Params.opening_date) 4) }} <!-- If opening_date is exactly 4 characters, it's just a year -->
-            {{ $year = .Params.opening_date }}
-          {{ else if .Params.opening_date }} <!-- If opening_date is more than 4 characters, parse as a full date -->
-            {{ $date := time .Params.opening_date }}
-            {{ $year = $date.Format "2006" }}
-          {{ end }}
-          {{ $year }}{{ if and .Params.opening_date .Params.theatre }} &#8226;{{ end }}
-          {{ with .Params.theatre }}{{ . }}{{ end }}
-        </h2>
-      </header>
-    
+        {{ $year := "" }}
+        {{ if and .Params.opening_date (eq (len .Params.opening_date) 4) }}
+        <!-- If opening_date is exactly 4 characters, it's just a year -->
+        {{ $year = .Params.opening_date }}
+        {{ else if .Params.opening_date }} <!-- If opening_date is more than 4 characters, parse as a full date -->
+        {{ $date := time .Params.opening_date }}
+        {{ $year = $date.Format "2006" }}
+        {{ end }}
+        {{ $year }}{{ if and .Params.opening_date .Params.theatre }} &#8226;{{ end }}
+        {{ with .Params.theatre }}{{ . }}{{ end }}
+      </h2>
+    </header>
+
     {{ $featuredImage := .Params.featured_image }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
     {{ $featuredImageCaption := .Params.featured_image_caption }}
@@ -74,11 +75,11 @@
     {{ end }}
 
     {{ if not $genres }}
-      {{ range where .Site.Pages "Type" "shows" }}
-        {{ if eq .Title $.Title }}
-        {{ $genres = .Params.genres }}
-        {{ end }}
-      {{ end }}
+    {{ range where .Site.Pages "Type" "shows" }}
+    {{ if eq .Title $.Title }}
+    {{ $genres = .Params.genres }}
+    {{ end }}
+    {{ end }}
     {{ end }}
 
     {{ if or $featuredImage $genres }}
@@ -86,7 +87,8 @@
       <!-- Featured Image Section -->
       {{ if $featuredImage }}
       <div class="w-40 w-25-l flex mb2 mb0-ns">
-        <a href="/media/posters/{{ $featuredImage }}" data-lightbox="gallery" data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+        <a href="/media/posters/{{ $featuredImage }}" data-lightbox="gallery"
+          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
           <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" /></a>
       </div>
       {{ end }}
@@ -109,15 +111,15 @@
         <!-- If closing_date is in the future -->
         {{ $closingDate := time .Params.closing_date }}
         {{ $now := now.Format "2006-01-02" | time }}
-          {{ if ge $closingDate $now }}
-          {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
-          {{ end }}
+        {{ if ge $closingDate $now }}
+        {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
+        {{ end }}
         {{ end }}
 
         <!-- Tablet and Desktop Description -->
         {{ if $description }}
-        <div class="description dn db-ns nested-copy-line-height lh-copy f4 mt0 {{ $.Param " text_color" | default "dark-gray"
-          }}">
+        <div class="description dn db-ns nested-copy-line-height lh-copy f4 mt0 {{ $.Param " text_color" |
+          default "dark-gray" }}">
           {{ $description | safeHTML }}
           <a href="#synopsis"
             class="ba b--moon-gray bg-light-gray br2 color-inherit dib f5 hover-bg-moon-gray link mt2 ph2 pv1">{{
@@ -129,13 +131,13 @@
       {{ end }}
     </div>
     {{ if $description }}
-      <div class="description dn-ns db nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" | default "dark-gray"
-        }}">
-        {{ $description | safeHTML }}
-        <a href="#synopsis"
-          class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{
-          $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-      </div>
+    <div class="description dn-ns db nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" |
+      default "dark-gray" }}">
+      {{ $description | safeHTML }}
+      <a href="#synopsis"
+        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{
+        $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+    </div>
     {{ end }}
     {{ end }}
 
@@ -151,13 +153,13 @@
           {{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}
         </div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-          <a href="/theatres/{{ . | replaceRE "\\." "" | replaceRE "&" "and" | urlize }}">
+          <a href="/theatres/{{ . | replaceRE " \\." "" | replaceRE "&" "and" | urlize }}">
             {{ . }}
           </a>
         </div>
       </div>
       {{ end }}
-       
+
 
 
       <!-- Venues -->
@@ -177,47 +179,48 @@
       {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
       {{ $displayVenue := $venue }}
       {{ if not $venuePage }}
-        {{ range where $currentPage.Site.Pages "Section" "venues" }}
-          {{ if in .Params.venue_aliases $venue }}
-            {{ $venuePage = . }}
-            {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
-            {{ $displayVenue = $venue }}
-          {{ end }}
-        {{ end }}
+      {{ range where $currentPage.Site.Pages "Section" "venues" }}
+      {{ if in .Params.venue_aliases $venue }}
+      {{ $venuePage = . }}
+      {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
+      {{ $displayVenue = $venue }}
       {{ end }}
-    
+      {{ end }}
+      {{ end }}
+
       <!-- Now use $displayVenue wherever you used to use $venue for display -->
 
       <div class="flex flex-column flex-row-ns">
         <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
           <div class="w-25 w-100-ns b mb2">
-          {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-          {{ printf "Venue %d" (add $index 1) }} <!-- Print "Venue 2", "Venue 3", etc. -->
-          {{ else }}
-          Venue
-          {{ end }}
+            {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
+            {{ printf "Venue %d" (add $index 1) }} <!-- Print "Venue 2", "Venue 3", etc. -->
+            {{ else }}
+            Venue
+            {{ end }}
+          </div>
+          <div class="w-75 w-100-ns ph1 ph0-ns">
+            <a class="b db mb3" href="/venues/{{ $venueurl }}">{{ with $venuePage.Params.building }}<span>{{ . }}</span><br/>{{ end }}{{ $venue }}</a>
+            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
+            <!-- Use the captured page context -->
+            {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
+            {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
+            <a href="#showHideMap" class="db dn-ns mv3">Show Maps</a>
+            <ul class="venuemaps db-ns dn map_links list mv1 pl0">
+              <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+              <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+              <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
+            </ul>
+            {{ end }}
+          </div>
         </div>
-        <div class="w-75 w-100-ns ph1 ph0-ns">
-          <a class="b db mb3" href="/venues/{{ $venueurl }}">{{ $venue }}</a>
-          {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-          <!-- Use the captured page context -->
-          {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
-          {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-          <a href="#showHideMap" class="db dn-ns mv3">Show Maps</a>
-          <ul class="venuemaps db-ns dn map_links list mv1 pl0">
-            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
-            <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
-          </ul>
-          {{ end }}
-        </div>
-      </div>
-      <div class="venuemaps db-ns dn w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
+        <div class="venuemaps db-ns dn w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
           <!-- Venue Map Section -->
           <div class="w-100 flex flex-column items-center justify-start">
             {{ if and $venuePage.Params.Latitude $venuePage.Params.Longitude }}
-              {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-              {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.Latitude "Longitude" $venuePage.Params.Longitude "Title" $venue "Address" $venuePage.Params.Address "id" $index) }}
+            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
+            {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.Latitude "Longitude"
+            $venuePage.Params.Longitude "Title" $venue "Address" $venuePage.Params.Address "id" $index) }}
             {{ end }}
           </div>
         </div>
@@ -225,18 +228,21 @@
       </div>
       {{ end }}
 
+
       <!-- Dates Section -->
       {{ if and .Params.opening_date .Params.closing_date }}
       <div class="flex">
         <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
         {{ $startDate := time .Params.opening_date }} <!-- Adjusted to use opening_date -->
         {{ $closingDate := time .Params.closing_date }}
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"> 
+        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
           {{ $startDate.Format "Monday, January 2, 2006" }} — <br />
           {{ $closingDate.Format "Monday, January 2, 2006" }}
           <!-- Call to action for showtimes -->
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap here to see all showtimes...</a>
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here to see all showtimes...</a>
+          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap
+            here to see all showtimes...</a>
+          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here
+            to see all showtimes...</a>
         </div>
       </div>
       {{ end }}
@@ -259,7 +265,7 @@
                 {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
                 {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
                 {{ $formattedTime }}
-            </div>
+              </div>
               <!-- Time column -->
             </div>
             {{ end }}
@@ -308,15 +314,15 @@
           {{ $result := slice }}
           {{ range $idx, $val := $value }}
           {{ if $val }}
-            {{ $result = $result | append (partial "content-wikilinks" $val) }}
+          {{ $result = $result | append (partial "content-wikilinks" $val) }}
           {{ end }}
           {{ end }}
           {{ delimit $result ", " | safeHTML }}
           {{ else if (findRE `^\d{4}-\d{2}-\d{2}$` $value) }}
-            {{ $value = $value | dateFormat "January 6, 2006" }}
-            {{ $value }}
+          {{ $value = $value | dateFormat "January 6, 2006" }}
+          {{ $value }}
           {{ else }}
-            {{ partial "content-wikilinks" $value }}
+          {{ partial "content-wikilinks" $value }}
           {{ end }}
           {{ end }}
         </div>
@@ -325,212 +331,221 @@
       {{ end }}
       {{ end }}
       {{ end }}
+    </div>
+
+    <!-- Synopsis -->
+
+    {{ $showSynopsis := "" }}
+    {{ range where .Site.Pages "Type" "shows" }}
+    {{ if eq .Title $.Title }}
+    {{ $showSynopsis = .Content }}
+    {{ end }}
+    {{ end }}
+
+    {{ if or .Content $showSynopsis }}
+    <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+      {{ if and .Content $showSynopsis }}
+      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+      {{ partial "content-wikilinks" $showSynopsis }}
+      <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
+      {{ partial "content-wikilinks" .Content }}
+      {{ else if $showSynopsis }}
+      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+      {{ partial "content-wikilinks" $showSynopsis }}
+      {{ else }}
+      <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
+      {{ partial "content-wikilinks" .Content }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
+    {{ $site := .Site }}
+    {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies
+    "Orchestra" .Params.orchestra }}
+    {{ if $paramsArray }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
+      {{ range $paramsArray }}
+      {{ range $roleOrCharOrInst, $person := . }}
+      <div class="flex bb bw1 b--silver f5 f4-ns">
+        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $roleOrCharOrInst }}</div>
+        <div class="pa3-ns pa2 w-50 w-70-l flex flex-wrap">
+          {{ if (eq (printf "%T" $person) "[]interface {}") }}
+          {{ range $idx, $p := $person }}
+          {{/* {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" (eq $section "Cast")
+          "isArray" true) }} */}}
+          {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
+          {{ $output := chomp $output }}
+          {{ $output | safeHTML }}{{ if ne $idx (sub (len $person) 1) }},{{ end }}
+          {{ end }}
+          {{ else }}
+          {{/* {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" (eq $section
+          "Cast") "isArray" false) }} */}}
+          {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray"
+          false) }}
+          {{ $output := chomp $output }}
+          {{ $output | safeHTML }}
+          {{ end }}
+        </div>
       </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
 
-      <!-- Synopsis -->
+    <!-- Reviews -->
+    {{ $filename := .File.BaseFileName | replaceRE "-" " "}}
+    {{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
+    {{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
 
-      {{ $showSynopsis := "" }}
-      {{ range where .Site.Pages "Type" "shows" }}
-        {{ if eq .Title $.Title }}
-          {{ $showSynopsis = .Content }}
-        {{ end }}
+    {{ if or $relatedReviews .Params.reviews }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
+      {{ range $relatedReviews }}
+      {{ $description := .Params.description }}
+      {{ $summary := .Summary }}
+      {{ $summaryLength := len $summary }}
+
+      {{ if not $description }}
+      {{ if gt $summaryLength 0 }}
+      {{ if gt $summaryLength 300 }}
+      {{ $description = printf "%s..." (substr $summary 0 300) }}
+      {{ else }}
+      {{ $description = substr $summary 0 $summaryLength }}
+      {{ end }}
+      {{ end }}
+      {{ else }}
+
+      {{ $description = $description | markdownify | safeHTML }}
+      {{ end }}
+      <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
+      {{/* {{ $summary := .Summary | plainify | safeHTML }} */}}
+      <span class="db">{{- partial "content-wikilinks" $description | safeHTML -}}
+        {{/* {{ $description | safeHTML }}</span> */}}
+      <a href="{{ .Permalink }}"
+        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       {{ end }}
 
-      {{ if or .Content $showSynopsis }}
-        <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
-        {{ if and .Content $showSynopsis }}
-          <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-          {{ partial "content-wikilinks" $showSynopsis }}
-          <h3 class="f3 mt4 mb3 sectionline">Production Notes</h3>
-          {{ partial "content-wikilinks" .Content }}
-        {{ else if $showSynopsis }}
-          <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-          {{ partial "content-wikilinks" $showSynopsis }}
-        {{ else }}
-          <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
-          {{ partial "content-wikilinks" .Content }}
-        {{ end }}
-        </div>
+      {{ if .Params.reviews }}
+      {{ range .Params.reviews }} <!-- Iterate over the crew array -->
+      {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $reviewURL  }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
       {{ end }}
-
-      <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
-      {{ $site := .Site }}
-      {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
-        {{ if $paramsArray }}
-        <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
-          {{ range $paramsArray }}
-          {{ range $roleOrCharOrInst, $person := . }}
-          <div class="flex bb bw1 b--silver f5 f4-ns">
-            <div class="b pa3-ns pa2 w-50 w-30-l">{{ $roleOrCharOrInst }}</div>
-            <div class="pa3-ns pa2 w-50 w-70-l flex flex-wrap">
-              {{ if (eq (printf "%T" $person) "[]interface {}") }}
-                {{ range $idx, $p := $person }}
-                  {{/*  {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" (eq $section "Cast") "isArray" true) }}  */}}
-                  {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
-                  {{ $output := chomp $output }}
-                  {{ $output | safeHTML }}{{ if ne $idx (sub (len $person) 1) }},{{ end }}
-                {{ end }}
-              {{ else }}
-                {{/*  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" (eq $section "Cast") "isArray" false) }}  */}}
-                {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false) }}
-                {{ $output := chomp $output }}
-                {{ $output | safeHTML }}
-              {{ end }}
-            </div>
-          </div>
-          {{ end }}
-          {{ end }}
-        </div>
-        {{ end }}
       {{ end }}
-
-      <!-- Reviews -->
-      {{ $filename := .File.BaseFileName | replaceRE "-" " "}}
-      {{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
-      {{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
-
-      {{ if or $relatedReviews .Params.reviews }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
-        {{ range $relatedReviews }}
-        {{ $description := .Params.description }}
-        {{ $summary := .Summary }}
-        {{ $summaryLength := len $summary }}
-
-        {{ if not $description }}
-          {{ if gt $summaryLength 0 }}
-            {{ if gt $summaryLength 300 }}
-              {{ $description = printf "%s..." (substr $summary 0 300) }}
-            {{ else }}
-              {{ $description = substr $summary 0 $summaryLength }}
-            {{ end }}
-          {{ end }}
-        {{ else }}
-        
-          {{ $description = $description | markdownify | safeHTML }}
-        {{ end }}
-        <h4><a href="{{ .Permalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
-        {{/*  {{ $summary := .Summary | plainify | safeHTML }}  */}}
-        <span class="db">{{- partial "content-wikilinks" $description | safeHTML -}}
-          {{/*  {{ $description | safeHTML }}</span>  */}}
-        <a href="{{ .Permalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        {{ end }}
-
-        {{ if .Params.reviews }}
-        {{ range .Params.reviews }} <!-- Iterate over the crew array -->
-        {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
-        <h4><a href="{{ $reviewURL  }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
-        {{ end }}
-        {{ end }}
-        {{ end }}
+      {{ end }}
       {{ end }}
 
       <!-- Press -->
       {{ if .Params.press }}
-        <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">Press</h3>
 
-          {{ range .Params.press }} <!-- Iterate over the crew array -->
-          {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
-          <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
-          {{ end }}
-          {{ end }}
-        </div>    
+        {{ range .Params.press }} <!-- Iterate over the crew array -->
+        {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
+        <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+        {{ end }}
+        {{ end }}
+      </div>
       {{ end }}
 
-        <!-- Program -->
-        {{ if .Params.program }}
-        <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">Program</h3>
+      <!-- Program -->
+      {{ if .Params.program }}
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">Program</h3>
 
-          <div class="program-preview">
-            <p class="mt3">
-              {{/*  <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
-                View Program (PDF)
-              </a>  */}}
-              {{ partial "embed-pdf.html" (dict "url" (printf "/media/programs/%s" .Params.program) "width" "300px" "hidePaginator" "true" "download" "false" "lightbox" "true" "Site" .Site) }}
-            </p>
-          </div>
+        <div class="program-preview">
+          <p class="mt3">
+            {{/* <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
+              View Program (PDF)
+            </a> */}}
+            {{ partial "embed-pdf.html" (dict "url" (printf "/media/programs/%s" .Params.program) "width" "300px"
+            "hidePaginator" "true" "download" "false" "lightbox" "true" "Site" .Site) }}
+          </p>
         </div>
-      {{ end }}    
-      
+      </div>
+      {{ end }}
+
       <!-- Photos -->
       {{ if .Params.photos }}
-      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-          <h2 id="PhotoGallery" class="sectionline">Photos</h2>
-          <div class="flex flex-wrap">
-              {{ range .Params.photos }}
-              {{ $photo := .photo }}
-              {{ $photoAttr := .photo_attr }}
-              {{ $photoAttrLink := .photo_attr_link }}
-              {{ $altText := .photo_alt | default $.Title }}
-              <figure class="w-40-l center">
-                  <!-- Determine photo URL -->
-                  {{ $photoURL := $photo }}
-                  {{ if not (strings.HasPrefix $photo "/media/") }}
-                      {{ $photoURL = printf "/media/photos/%s" $photo }}
-                  {{ end }}
-                  <!-- Use $photoURL for image source and link -->
-                  <a href="{{ $photoURL }}" data-lightbox="gallery" data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }} | (📷 <a href='{{ $photoAttrLink }}' target='_blank'>{{ $photoAttr }}</a>){{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}">
-                      <img src="{{ $photoURL }}" alt="{{ $altText }}" />
-                  </a>
-                  {{ if or .photo_caption $photoAttr }}
-                  <figcaption class="tc center f5 pa1-ns pa3-m avenir justify-center gray">
-                      {{ with .photo_caption }}
-                      {{ . }}
-                      {{ end }}
-                      {{ if and .photo_caption $photoAttr }} | {{ end }}
-                      {{ if $photoAttr }}
-                      {{ if $photoAttrLink }}
-                      (📷 <a href="{{ $photoAttrLink }}" target="_blank">{{ $photoAttr }}</a>)
-                      {{ else }}
-                      (📷 {{ $photoAttr }})
-                      {{ end }}
-                      {{ end }}
-                  </figcaption>
-                  {{ end }}
-              </figure>
-              {{ end }}        
-          </div>
+      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
+        }}">
+        <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+        <div class="flex flex-wrap">
+          {{ range .Params.photos }}
+          {{ $photo := .photo }}
+          {{ $photoAttr := .photo_attr }}
+          {{ $photoAttrLink := .photo_attr_link }}
+          {{ $altText := .photo_alt | default $.Title }}
+          <figure class="w-40-l center">
+            <!-- Determine photo URL -->
+            {{ $photoURL := $photo }}
+            {{ if not (strings.HasPrefix $photo "/media/") }}
+            {{ $photoURL = printf "/media/photos/%s" $photo }}
+            {{ end }}
+            <!-- Use $photoURL for image source and link -->
+            <a href="{{ $photoURL }}" data-lightbox="gallery"
+              data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if $photoAttr }}{{ if $photoAttrLink }} | (📷 <a href='{{ $photoAttrLink }}' target='_blank'>{{ $photoAttr }}</a>){{ else }} | (📷 {{ $photoAttr }}){{ end }}{{ end }}">
+              <img src="{{ $photoURL }}" alt="{{ $altText }}" />
+            </a>
+            {{ if or .photo_caption $photoAttr }}
+            <figcaption class="tc center f5 pa1-ns pa3-m avenir justify-center gray">
+              {{ with .photo_caption }}
+              {{ . }}
+              {{ end }}
+              {{ if and .photo_caption $photoAttr }} | {{ end }}
+              {{ if $photoAttr }}
+              {{ if $photoAttrLink }}
+              (📷 <a href="{{ $photoAttrLink }}" target="_blank">{{ $photoAttr }}</a>)
+              {{ else }}
+              (📷 {{ $photoAttr }})
+              {{ end }}
+              {{ end }}
+            </figcaption>
+            {{ end }}
+          </figure>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
 
       <!-- Edit this page -->
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}"></div>
-        <h3 class="f3 mt4 mb3 sectionline">Contribute to this production page</h3>
-        <p>Suggest an edit or add missing content</p>
-        <a href="https://jaxplays.org/submit/production/" target="_blank" class="inline-flex flex-row link b dim br4 ph4 pv2 mv2 mh1 h2 black bg-yellow"><img src="/images/pencil-solid.svg" class="h1 ph2"></img> Edit Page</a>
-      </div>  
-      {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-315px") -}}
-    </article>
-  
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}"></div>
+      <h3 class="f3 mt4 mb3 sectionline">Contribute to this production page</h3>
+      <p>Suggest an edit or add missing content</p>
+      <a href="https://jaxplays.org/submit/production/" target="_blank"
+        class="inline-flex flex-row link b dim br4 ph4 pv2 mv2 mh1 h2 black bg-yellow"><img
+          src="/images/pencil-solid.svg" class="h1 ph2"></img> Edit Page</a>
+    </div>
+    {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-315px") -}}
+  </article>
+
 </div>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     // Select all "Show Map" links
     const mapLinks = document.querySelectorAll('a[href="#showHideMap"]');
     const venueMaps = document.querySelectorAll('.venuemaps'); // Select all venue maps
 
     mapLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            // Check the current state by the text of the link
-            const isShowing = this.textContent.trim() === 'Hide Maps';
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        // Check the current state by the text of the link
+        const isShowing = this.textContent.trim() === 'Hide Maps';
 
-            if (!isShowing) {
-                // Show all maps and change all links to 'Hide Map'
-                venueMaps.forEach(map => map.style.display = 'block');
-                mapLinks.forEach(l => l.textContent = 'Hide Maps');
-            } else {
-                // Hide all maps and change all links to 'Show Map'
-                venueMaps.forEach(map => map.style.display = 'none');
-                mapLinks.forEach(l => l.textContent = 'Show Maps');
-            }
-        });
+        if (!isShowing) {
+          // Show all maps and change all links to 'Hide Map'
+          venueMaps.forEach(map => map.style.display = 'block');
+          mapLinks.forEach(l => l.textContent = 'Hide Maps');
+        } else {
+          // Hide all maps and change all links to 'Show Map'
+          venueMaps.forEach(map => map.style.display = 'none');
+          mapLinks.forEach(l => l.textContent = 'Show Maps');
+        }
+      });
     });
-});
+  });
 
 </script>
 {{ end }}
-
