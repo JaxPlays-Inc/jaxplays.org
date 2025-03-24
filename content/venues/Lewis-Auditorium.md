@@ -1,5 +1,6 @@
 ---
 title: Lewis Auditorium
+building: Flagler College
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Lewis-Auditorium.webp

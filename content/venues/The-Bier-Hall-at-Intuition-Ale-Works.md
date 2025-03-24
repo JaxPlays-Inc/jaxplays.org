@@ -1,5 +1,6 @@
 ---
-title: The Bier Hall at Intuition Ale Works
+title: The Bier Hall
+building: Intuition Ale Works
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Intuition-Ale-Works.webp

@@ -1,5 +1,10 @@
 ---
-title: ACT Studio 209
+title: Studio 209
+building: Amelia Community Theatre
+venue_aliases:
+  - ACT Studio 209
+aliases:
+  - /venues/act-studio-209/
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Amelia_Community_Theatre.png

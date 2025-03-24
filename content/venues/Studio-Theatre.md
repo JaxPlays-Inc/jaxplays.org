@@ -1,5 +1,11 @@
 ---
-title: Wilson Center - Studio Theatre
+title: Studio Theatre
+building: Nathan H. Wilson Center for the Arts
+aliases: 
+    - /venues/wilson-center-studio-theatre
+    - /venues/wilson-center---studio-theatre
+venue_aliases:
+    - Wilson Center - Studio Theatre
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Nathan_H_Wilson_Center_for_the_Arts.png

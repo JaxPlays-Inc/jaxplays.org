@@ -2,7 +2,7 @@
 title: "Golden Girls: The Laughs Continue"
 Theatre: FSCJ Artist Series
 presenter: true
-Venue: Terry Theater - Jacksonville Center for the Performing Arts
+Venue: Terry Theater
 Season: 
 date: 2024-09-25T13:13:14-04:00
 opening_date: 2024-10-01

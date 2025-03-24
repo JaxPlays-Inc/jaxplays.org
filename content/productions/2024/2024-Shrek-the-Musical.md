@@ -2,7 +2,7 @@
 title: Shrek the Musical
 Theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater - Jacksonville Center for the Performing Arts
+Venue: Moran Theater
 Season: 2024
 date: 2024-07-03T11:14:58-04:00
 opening_date: 2024-10-05

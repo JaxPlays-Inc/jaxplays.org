@@ -1,6 +1,6 @@
 ---
 title: Moran Theater
-building: Jacksonville Center for the Performing Arts
+building: Jacksonville Center for the Performing Arts
 aliases: 
   - /venues/moran-theater-jacksonville-center-for-the-performing-arts/
 venue_aliases:

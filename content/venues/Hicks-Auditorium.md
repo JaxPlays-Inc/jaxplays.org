@@ -1,5 +1,10 @@
 ---
-title: Hicks Auditorium at the Main Library
+title: Hicks Auditorium
+building: Main Library
+aliases: 
+  - /venues/hicks-auditorium-at-the-main-library/
+venue_aliases:
+  - Hicks Auditorium at the Main Library
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Hicks-Auditorium.webp

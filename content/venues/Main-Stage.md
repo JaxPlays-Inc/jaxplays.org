@@ -1,5 +1,10 @@
 ---
-title: ACT Main Stage
+title: Main Stage
+building: Amelia Community Theatre
+venue_aliases:
+  - ACT Main Stage
+aliases:
+  - /venues/act-main-stage/
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: Amelia_Community_Theatre.png

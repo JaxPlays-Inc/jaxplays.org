@@ -2,7 +2,7 @@
 title: Dear Evan Hansen
 Theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater - Jacksonville Center for the Performing Arts
+Venue: Moran Theater
 Season: 2024
 date: 2024-11-13T01:42:56-05:00
 opening_date: 2024-11-03

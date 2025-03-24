@@ -1,8 +1,11 @@
 ---
-title: Wilson Center - Main Stage Theatre
+title: Main Stage Theatre
+building: Nathan H. Wilson Center for the Arts
 date: 2024-06-12T18:46:30-04:00
 aliases: 
   - /venues/nathan-h-wilson-center-for-the-arts
+venue_aliases:
+  - Wilson Center - Main Stage Theatre
 published: true
 active: true
 featured_image: Nathan_H_Wilson_Center_for_the_Arts.png

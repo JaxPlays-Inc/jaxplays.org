@@ -1,7 +1,7 @@
 ---
 title: "Singin\' in the Rain"
 Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+Venue: Main Stage
 Season: 44
 date: 2024-09-09T23:01:00-04:00
 opening_date: 2025-04-10

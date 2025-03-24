@@ -1,7 +1,7 @@
 ---
 title: The Secrets We Keep
 Theatre: White Mouse Theatre Productions
-Venue: Cohen Auditorium at River Garden
+Venue: Cohen Auditorium
 date: 2024-04-07
 opening_date: 2024-04-07
 closing_date: 2024-04-07

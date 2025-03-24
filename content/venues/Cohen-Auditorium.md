@@ -1,5 +1,10 @@
 ---
-title: Cohen Auditorium at River Garden
+title: Cohen Auditorium
+building: River Garden
+aliases: 
+  - /venues/cohen-auditorium-at-river-garden/
+venue_aliases:
+  - Cohen Auditorium at River Garden
 date: 2024-06-12T18:46:30-04:00
 active: true
 featured_image: 

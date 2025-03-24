@@ -1,5 +1,6 @@
 ---
-title: Betsy Lovett Hall at The Episcopal Church of the Good Shepherd
+title: Betsy Lovett Hall
+building: The Episcopal Church of the Good Shepherd
 date: 2025-03-12T13:38:22-04:00
 active: true
 aliases: 

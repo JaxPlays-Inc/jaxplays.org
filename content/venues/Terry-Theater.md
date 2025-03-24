@@ -1,9 +1,10 @@
 ---
-title: Terry Theater - Jacksonville Center for the Performing Arts
+title: Terry Theater
+building: Jacksonville Center for the Performing Arts
 aliases: 
-  - /venues/terry-theater
+  - /venues/terry-theater-jacksonville-center-for-the-performing-arts/
 venue_aliases:
-  - Terry Theater
+  - Terry Theater - Jacksonville Center for the Performing Arts
 date: 2024-09-26T18:23:45-04:00
 active: true
 featured_image: jaxcenterlogo.webp
