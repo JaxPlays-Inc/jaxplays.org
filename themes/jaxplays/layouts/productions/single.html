@@ -37,6 +37,9 @@
       {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
+        {{ with .Params.subtitle }}
+          <br/><span class="db f4 mt2">{{ . }}</span>
+        {{ end }}
       </h1>
       <h2 class="fw4 f3-ns f5 ttu">
           {{ $year := "" }}
@@ -144,12 +147,17 @@
       </div>{{ end }}
       {{ with .Params.theatre }}
       <div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Theatre</div>
+        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">
+          {{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}
+        </div>
         <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-          <a href="/theatres/{{ . | replaceRE "\\." "" | replaceRE "&" "and" | urlize }}">{{ . }}</a>
+          <a href="/theatres/{{ . | replaceRE "\\." "" | replaceRE "&" "and" | urlize }}">
+            {{ . }}
+          </a>
         </div>
       </div>
-      {{ end }}      
+      {{ end }}
+       
 
 
       <!-- Venues -->
@@ -168,7 +176,6 @@
       {{ $venueurl = $venueurl | urlize }}
       {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
       {{ $displayVenue := $venue }}
-    
       {{ if not $venuePage }}
         {{ range where $currentPage.Site.Pages "Section" "venues" }}
           {{ if in .Params.venue_aliases $venue }}

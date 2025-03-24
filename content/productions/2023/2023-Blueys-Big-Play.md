@@ -1,6 +1,7 @@
 ---
 title: Bluey's Big Play
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 date: 2023-09-08T00:00:00
 opening_date: 2023-07-08

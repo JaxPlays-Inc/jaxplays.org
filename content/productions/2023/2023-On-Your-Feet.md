@@ -14,6 +14,7 @@ genres:
 - Biography
 - Drama
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 Website: https://www.fscjartistseries.org/tickets/on-your-feet-the-musical-the-story-of-emilio-gloria-estefan
 Tickets: https://shop.fscjartistseries.org/on-your-feet/12-09-23

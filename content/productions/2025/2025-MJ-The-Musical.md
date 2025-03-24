@@ -1,6 +1,7 @@
 ---
 title: MJ The Musical
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 date: 2024-05-22T12:01:13-04:00
 opening_date: 2025-04-22

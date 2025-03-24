@@ -14,6 +14,7 @@ genres:
 - Comedy
 - Romantic
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 Website: 
 Tickets: https://www.fscjartistseries.org/tickets/the-barber-of-seville

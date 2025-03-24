@@ -1,6 +1,7 @@
 ---
 title: Mamma Mia!
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 date: 2024-05-22T12:01:08-04:00
 opening_date: 2025-01-07

@@ -9,6 +9,7 @@ featured_image_attr: Disney Theatrical Productions
 featured_image_attr_link: 
 program:
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 Website: 
 Tickets: https://www.fscjartistseries.org/tickets/disneys-frozen

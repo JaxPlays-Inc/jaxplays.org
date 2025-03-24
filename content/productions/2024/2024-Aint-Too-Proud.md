@@ -1,6 +1,7 @@
 ---
 title: "Ain't Too Proud: The Life and Times of The Temptations"
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 date: 2024-05-22T11:31:06-04:00
 opening_date: 2024-12-05
