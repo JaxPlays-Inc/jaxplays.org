@@ -37,7 +37,7 @@ And yes, **the humor is edgy**. The show’s script leans into PG-13 territory w
 
 ### Don’t ghost this show
 
-With only **eight performances** in Jacksonville, tickets are expected to vanish faster than Beetlejuice at a wedding. Reserve your spot now through the **[official FSCJ Artist Series website](https://www.fscjartistseries.org/)**.
+With only **eight performances** in Jacksonville, tickets are expected to vanish faster than Beetlejuice at a wedding. Ensure your spot before the chaos begins — subscribe to the FSCJ Artist Series Broadway in Jacksonville 25/26 season and get guaranteed access to *Beetlejuice* and four other must-see shows. Reserve your spot now through the **[official FSCJ Artist Series website](https://www.fscjartistseries.org/2526-season-tickets?utm_source=jaxplays)**.
 
 *Beetlejuice* is weird, wild and full of heart. Whether you're a fan of the original film or new to the tale of Lydia and her supernatural companions, this is one musical you’ll be dying to see.
 
