@@ -2,6 +2,7 @@
 title: Beetlejuice
 subtitle: The Musical. The Musical. The Musical. 
 Theatre: FSCJ Artist Series
+presenter: true
 Venue: Moran Theater
 Season: "2025/2026"
 date: 2025-03-25T09:31:20-04:00
