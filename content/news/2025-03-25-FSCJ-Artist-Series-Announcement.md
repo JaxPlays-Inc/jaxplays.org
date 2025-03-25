@@ -9,7 +9,7 @@ authors:
 - JaxPlays
 description: "Jacksonville’s FSCJ Artist Series announces a spectacular Broadway season featuring award-winning musicals like *Moulin Rouge! The Musical*, laugh-out-loud comedies including *Beetlejuice* and *Mrs. Doubtfire*, and thrilling productions such as *Clue* and *A Beautiful Noise: The Neil Diamond Musical*."
 ---
-The FSCJ Artist Series Broadway in Jacksonville, sponsored by VyStar Credit Union, has unveiled an exciting lineup for its 2025-26 season, promising a thrilling year of comedy, nostalgia and award-winning musical theater.
+The FSCJ Artist Series Broadway in Jacksonville, sponsored by VyStar Credit Union, has unveiled an exciting lineup for its 2025-26 season, promising a thrilling year of comedy, nostalgia and award-winning musical theater.<!--more-->
 
 The season opens dramatically with [[production:2025 Clue]], Nov. 18-23, 2025. Inspired by the iconic board game and beloved 1985 film, audiences are invited to Boddy Manor, where murder and mystery unfold with hilarious consequences. Fans will delight in unraveling this comedic whodunit, which keeps everyone guessing until the final twist.
 
