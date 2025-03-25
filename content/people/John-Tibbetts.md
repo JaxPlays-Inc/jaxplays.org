@@ -1,5 +1,9 @@
 ---
 title: John Tibbetts
+aliases:
+  - /people/John-Tibbetts-II
+other_names:
+  - John Tibbetts II
 date: 2024-09-24T14:21:29-04:00
 featured_image: John-Tibbetts.webp
 featured_image_attr: 
@@ -7,9 +11,9 @@ featured_image_attr_link:
 featured_image_alt: 
 featured_image_caption: 
 Socials:
-  Facebook: 
+  Facebook: ameliaislandopera
   Twitter: 
-  Instagram: 
+  Instagram: ameliaislandopera
   LinkedIn: 
   IBDB: 
   IMDb:
