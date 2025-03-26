@@ -1,6 +1,6 @@
 ---
 title: "How DeSantis's Draconian Arts Funding Cuts Are Impacting Northeast Florida Theaters"
-published: true
+published: false
 date: 2024-07-02T15:24:07-04:00
 authors:
 - Ray Hollister
