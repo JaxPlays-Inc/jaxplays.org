@@ -22,7 +22,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-Rumors.pdf
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=13&p=1
 show_details: 

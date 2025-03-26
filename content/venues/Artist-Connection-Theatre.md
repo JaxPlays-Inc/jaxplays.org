@@ -19,7 +19,6 @@ Socials:
   Instagram: artistconnectionthejax
   Threads:
   LinkedIn:
-  Phone: 19047105054
-Phone: 	
+Phone: 19047105054
 ---
 Founded in 2017, Artist Connection Theatre began in a church gymnasium. In 2019, the theatre began renovating and preparing to move into 2 units the old cinema and drafthouse at the Gazebo Shopping Center. Artist Connection Theatre officially opened the doors to its new facility in 2021 with its production of The Lion, The Witch, and the Wardrobe. In late 2023, A.C.T. expanded yet again, now occupying 3 units of the shopping center.

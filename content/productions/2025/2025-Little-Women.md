@@ -26,6 +26,8 @@ program:
 Website: 
 Tickets: https://www.showtixnow.com/public/venue/theatre-troupe-1776-26/all
 show_details: 
+- Playwright: "Louise Everett"
+- Basis: "Based on the novel [[w:Little Women]] by [[w:Louisa May Alcott]]"
 cast:
   - Meg March: Audrey Everett
   - Jo March: Louise Everett
@@ -74,7 +76,7 @@ crew:
       - Louise Everett
 orchestra:
 genres: 
-- Musical
+- Play
 - Comedy
 - Drama
 - Historical
@@ -87,7 +89,7 @@ Press:
 
 {{< youtube i6vp26ce6ys >}}
 
-{{< figure src="/media/photos/2025-Little-Women-01.webp" alt="" caption="" attr="John Reed" attr_link="">}}
+{{< figure src="/media/photos/2025-Little-Women-01.webp" alt="Cast of 'Little Women' posing cheerfully on a vintage porch, dressed in period costumes. From left: Audrey Everett as Meg, Russell Calascione as Laurie, Louise Everett as Jo, Anna Molzer as Amy, and Madelyn Wolfram as Beth." caption="From left to right: Audrey Everett as the caring Meg March, Russell Calascione as the charming Laurie, Louise Everett as the fiery Jo March, Anna Molzer as the ambitious Amy March, and Madelyn Wolfram as the sweet Beth March gather in a heartwarming portrayal of 'Little Women', bringing the cherished narratives of Alcott's novel to vibrant life." attr="John Reed" attr_link="">}}
 
 {{< rawhtml >}}
 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmandarincommunityclub%2Fvideos%2F1198718275171722%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
