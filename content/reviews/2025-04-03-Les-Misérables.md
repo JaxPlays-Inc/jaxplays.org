@@ -1,6 +1,8 @@
 ---
 title: "A Visual Spectacle: 'Les Misérables' at the Jacksonville Center for the Performing Arts"
 date: 2025-04-03T20:20:05-04:00
+aliases:
+  - /reviews/2025/04/03/a-visual-spectacle-les-miserables-at-the-jacksonville-center-for-the-performing-arts/
 featured_image: /media/photos/2025-Les-Misérables-01.webp
 featured_image_attr: Matthew Murphy
 featured_image_caption: "Feel the ground shake and hearts swell in 'Les Misérables' as the cast, united under the red flag, ignites a rousing call to arms. A visual and emotional feast for the senses."
