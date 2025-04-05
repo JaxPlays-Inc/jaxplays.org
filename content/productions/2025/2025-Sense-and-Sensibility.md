@@ -24,7 +24,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-Sense-and-Sensibility.pdf
 Website: https://www.limelight-theatre.org/season-32-shows-1/sense-%26-sensibility
 Tickets: https://limelight.ludus.com/200459138
 show_details: 
@@ -33,27 +33,46 @@ show_details:
 cast:
   - Mrs. Dashwood: Francesca Bellavista
   - John Dashwood: Chip Prestera
-  - Fanny Dashwood: Tyra McNeill
+  - Fanny Dashwood: Tyra McNeil
   - Marianne Dashwood: Katie Timoney
-  - Elinor Dashwood: Angela Oisen
+  - Elinor Dashwood: Angela Olsen
   - Margaret Dashwood: Audrey Hoffman
   - Edward Ferrars: Cameron Hodges
-  - Col. Brandon: Charles Ross
-  - Willoughby: Jorge DeJesus
+  - Col Brandon: Charles Ross
+  - Willoughby: Jorge DeJesús
   - Robert Ferrars: Robert Anderson
-  - Sir John Middleton: Donald Cupo
-  - Mrs. Jennings: Kristi Park Byers
-  - Anne Steele/Lady Middleton: Andi Schuler
-  - Lucy Steele: Nicole Maahns
-  - Thomas/Servant: David Buchman
-  - Gossip 1/Mrs. Ferrars: Linda Hall
+  - Sir John Middleton: Don Cupo
+  - Mrs. Jennings: Jen Farrow
+  - Anne Steele / Lady Middleton: Andi Schuler
+  - Lucy Steele: Nicole Maahs
+  - Thomas / Servant: David Buchman
+  - Gossip 1 / Mrs. Ferrars: Linda Hall
   - Gossip 2: Susan Nowell
   - Gossip 3: Grace Hoffman
   - Gossip 4: Sheila Hodges
-  - Gossip 5: Eve LeGrande
+  - Gossip 5: Eve LeGrand
   - Doctor: Thomas Hall
+
 crew:
-- Director: Hazel Robinson
+  - Director: Hazel Robinson
+  - Stage Manager: Molly Farrow
+  - Assistant Stage Manager: Alena Lusk
+  - Set Design: Don Cupo
+  - Light Design: Michael Takita
+  - Costume Design: Katie Timoney
+  - Props and Assistant Costume Design: Lois Dent
+  - Light Board Operator: Ashley Taylor
+  - Assistant Board Operator: Sam Sherman
+  - Technical Director: Don Cupo
+  - Paint Charge: Sue Schwartz
+  - Construction:
+      - Don Cupo
+      - Charles Ross
+  - Photographer: Daniel Starling
+  - Trailer: Charity Walton
+  - Interns:
+      - Kiah Cautilli
+      - Emma "Ruby" Parker
 orchestra:
 Genres:
   - Play
