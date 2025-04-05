@@ -31,6 +31,27 @@ show_details:
 - Playwright: "[[w:Kate Hamill]]"
 - Basis: "[[w:Jane Austen]]'s novel *[[w:Sense and Sensibility]]*"
 cast:
+  - Mrs. Dashwood: Francesca Bellavista
+  - John Dashwood: Chip Prestera
+  - Fanny Dashwood: Tyra McNeill
+  - Marianne Dashwood: Katie Timoney
+  - Elinor Dashwood: Angela Oisen
+  - Margaret Dashwood: Audrey Hoffman
+  - Edward Ferrars: Cameron Hodges
+  - Col. Brandon: Charles Ross
+  - Willoughby: Jorge DeJesus
+  - Robert Ferrars: Robert Anderson
+  - Sir John Middleton: Donald Cupo
+  - Mrs. Jennings: Kristi Park Byers
+  - Anne Steele/Lady Middleton: Andi Schuler
+  - Lucy Steele: Nicole Maahns
+  - Thomas/Servant: David Buchman
+  - Gossip 1/Mrs. Ferrars: Linda Hall
+  - Gossip 2: Susan Nowell
+  - Gossip 3: Grace Hoffman
+  - Gossip 4: Sheila Hodges
+  - Gossip 5: Eve LeGrande
+  - Doctor: Thomas Hall
 crew:
 - Director: Hazel Robinson
 orchestra:
