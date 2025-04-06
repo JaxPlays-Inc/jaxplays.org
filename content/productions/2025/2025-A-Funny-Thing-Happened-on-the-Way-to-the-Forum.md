@@ -37,7 +37,9 @@ cast:
   - Vibrata: Theresa Pazanowski
   - Gymnasia: Chelsea Thomas
 crew:
+  - Music Director: Joey Chancey
 orchestra:
+  - Conductor: Joey Chancey
 genres: 
 - Musical
 - Comedy
