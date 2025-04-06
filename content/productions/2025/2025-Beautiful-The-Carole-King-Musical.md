@@ -62,8 +62,85 @@ Website:
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1484&code=JAXPLAYS
 show_details: 
 cast:
+- Carole King: Rachel Ann Kocher
+- Gerry: Ethan Davenport
+- Cynthia: Logen Cheatham
+- Barry: Matthew Fecko
+- Donny: Michael Roddy
+- Genie: Lisa Valdini Booth
+- Betty: Natalie Drake
+- Marilyn Wald: Natalie Drake
+- Righteous Brothers: 
+  - Nathan Roberts
+  - Mason Ebert
+- "Neil Sedaka, Lou Adler": Nathan Roberts
+- "Nick, Bobby Vee": Mason Ebert
+- Lucille: Kasie Buono
+- Janelle: Kristen Kenegrew
+- Drifters: 
+  - Terry Star
+  - Zion Hall
+  - Malik Harris
+  - Darryl Beamon
+- Shirley: Victoria Mapayi
+- Shirelles: 
+  - Felecia Ewing
+  - Arielle Bryant
+  - Kristin Kenebrew
+- Chorus: 
+  - Kasie Buono
+  - Terry Star
+  - Zion Hall
+  - Malik Harris
+  - Darryl Beamon
+  - Victoria Mapayi
+  - Felecia Ewing
+  - Arielle Bryant
+  - Kristin Kenebrew
+  - Isaiah Houston
+  - Jackson Gloumeau
+  - Rachael Dec
+  - Sierra Rusnak
 crew:
+- Executive Producer/Director: Tod Booth
+- Vice President of Production: Shain Stroff
+- Production Manager: Erick Ariel Sureda
+- Choreographer: Erick Ariel Sureda
+- Musical Director: Cathy Murphy Giddens 
+- Lighting Design: Johnny Pettegrew
+- Guest Costume Design: Taylor Barnett
+- Resident Costume Design: Camala Pitts & Dorinda Quiles
+- Company Management: Lisa Valdini Booth
+- Assistant Company Management: Nathan Roberts
+- Set Design/Technical Director: David Dionne
+- Set Construction: 
+  - Ian Black
+  - David Dionne
+  - Shelton Medrano
+- Sound Design/Engineering: Carly Meyer
+- Property Master: Patti Eyler
+- Wig Design: Layla Thurman
+- Wig Stylist: Patti Pitts
+- Assistant Production Manager: Sarah Brace
+- Stage Crew: 
+  - Thaddeus Walker
+  - Aaron McCaskill
+- Costume Run Crew:
+  - Layla Thurman
+  - Allie Kangas
+  - Emily Ford
+  - Brandalyn Marks
 orchestra:
+understudies:
+- Carole: Rachael Dec
+- Marilyn: Rachael Dec
+- Betty: Rachael Dec
+- Cynthia: Natalie Drake
+- Gerry: Jackson Gloumeau
+- Barry: Jackson Gloumeau
+- Drifter: Isaiah Houston
+- Shirelle: Sierra Rusnak
+- Lucille: Sierra Rusnak
 genres: 
 Description: 
 ---
