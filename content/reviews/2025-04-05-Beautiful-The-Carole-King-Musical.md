@@ -1,5 +1,5 @@
 ---
-title: "'Beautiful' Brings Carole King’s Story to Life at the Alhambra"
+title: "'Beautiful' Brings Carole King’s Music Songbook to Life at the Alhambra"
 date: 2025-04-06T14:57:08-04:00
 featured_image: /media/photos/2025-Beautiful-The-Carol-King-Musical-01.webp
 featured_image_attr: Alhambra Theatre & Dining
