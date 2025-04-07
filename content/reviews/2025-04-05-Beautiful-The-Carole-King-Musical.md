@@ -10,7 +10,17 @@ authors:
 production: 2025 Beautiful The Carole King Musical
 Theatre: Alhambra Theatre & DiningOK, l
 cast: 
-description:
+- Rachel Ann Kocher
+- Ethan Davenport
+- Matthew Fecko
+- Logen Cheatham
+- Michael Roddy
+- Cathy Murphy Giddens
+- Erick Ariel Sureda
+- Nathan Roberts
+- Mason Ebert
+- Taylor Barnett
+description: "Alhambra’s 'Beautiful: The Carole King Musical' brings Carole King’s music and story to life with heartfelt performances, rich design and timeless songs that still resonate. Discover how this production celebrates a legendary voice."
 ---
 [[production:2025 Beautiful: The Carole King Musical]] at the [[theatre:Alhambra Theatre & Dining]] charts the rise of one of pop music’s most influential artists, from her early years as a teenage songwriter in 1950s Brooklyn to her triumphant debut as a solo singer-songwriter in the 1970s. Along the way, the story follows her collaborations with lyricist and husband Gerry Goffin as well as friendly rivals Cynthia Weil and Barry Mann. The show is a jukebox musical, but with enough narrative depth to give the music emotional weight — each song arriving at just the right moment in Carole’s life.
 
