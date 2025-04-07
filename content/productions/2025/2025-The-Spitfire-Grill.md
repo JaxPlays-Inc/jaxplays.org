@@ -1,5 +1,7 @@
 ---
 title: The Spitfire Grill
+cancelled: true
+published: false
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: Grace Darling Studio Theatre
 date: 2024-05-10T17:38:36-04:00

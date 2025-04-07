@@ -1,5 +1,7 @@
 ---
 title: She Loves Me
+cancelled: true
+published: false
 Theatre: ABET - All Beaches Experimental Theatre
 Venue: John McManus Mainstage Theatre
 date: 2024-05-10T17:38:43-04:00
