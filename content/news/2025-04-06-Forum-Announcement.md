@@ -8,7 +8,7 @@ authors:
 - JaxPlays
 production: 2025 A Funny Thing Happened on the Way to the Forum
 Theatre: Theatre Jacksonville
-description: test
+description: "Tony winner Cady Huffman leads 'A Funny Thing Happened on the Way to the Forum' in concert at the Florida Theatre, presented by Theatre Jacksonville and the Florida Theatre for two performances only, August 23–24, 2024."
 ---
 
 Two of Jacksonville’s leading arts organizations — [[theatre:Theatre Jacksonville]] and the [[venue:Florida Theatre]] — are teaming up to bring a concert-style staging of the classic Broadway musical [[production:2025 A Funny Thing Happened on the Way to the Forum]] to the Florida Theatre this summer. The production will run for two performances only: Saturday, Aug. 23 at 7:30 p.m. and Sunday, Aug. 24 at 2 p.m.<!--more-->
