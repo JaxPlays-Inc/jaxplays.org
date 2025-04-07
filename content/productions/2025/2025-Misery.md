@@ -24,12 +24,16 @@ program:
 Website: 
 Tickets: https://3common.com/event/misery/666493754e745813af565755
 show_details: 
-- Playwright: William Goldman
-- Based On: Misery by Steven King
+- Playwright: "[[w:William Goldman]]"
+- Based On: "[[w:Misery]] by [[w:Steven King]]"
 cast:
 crew:
 - Director: Bryce Cofield
 orchestra:
-genres: 
-Description: 
+Genres:
+  - Play
+  - Thriller
+  - Drama
+Description: "A gripping adaptation of Stephen King’s thriller, 'Misery' follows the harrowing ordeal of a novelist held captive by his number one fan in a remote Colorado cabin."
 ---
+*Misery* unfolds the chilling story of Paul Sheldon, a successful novelist who becomes imprisoned by his "number one fan," Annie Wilkes, after a car accident leaves him incapacitated in her secluded home. As Paul recovers, he realizes that Annie has no intention of letting him go. The tension escalates as Paul's attempts to escape become a deadly game of cat and mouse. Annie's obsession and Paul's desperation culminate in a confrontation that tests the limits of the human spirit. This intense drama captures the essence of psychological horror, providing a thrilling theatrical experience.

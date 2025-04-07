@@ -1,5 +1,9 @@
 ---
-title: Shauna Clark
+title: Shauna Akers
+aliases: 
+  - /people/shauna-clark
+other_names: 
+ - Shauna Clark
 featured_image: Shauna-Clark.webp
 featured_image_attr: 
 featured_image_attr_link: 
