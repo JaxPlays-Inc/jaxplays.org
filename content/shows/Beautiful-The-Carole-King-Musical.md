@@ -37,7 +37,7 @@ Description: "Journey through the tapestry of Carole King's extraordinary rise t
 - "[[w:Will You Love Me Tomorrow]]" - [[w:The Shirelles]]
 - "[[w:Up on the Roof (song)|Up on the Roof]]" - Gerry Goffin and The Drifters 
 - "[[w:On Broadway (song)|On Broadway]]" - The Drifters
-- "[[w:The Locomotion]]" - [[Little Eva]] and Ensemble
+- "[[w:The Locomotion]]" - [[w:Little Eva]] and Ensemble
 - "[[w:You've Lost That Lovin' Feeling]]" - Barry Mann and [[w:The Righteous Brothers]]
 - "[[w:One Fine Day (song)|One Fine Day]]" - Janelle, Backup Singers and Carole King
 <--->

@@ -67,21 +67,22 @@ cast:
 - Cynthia: Logen Cheatham
 - Barry: Matthew Fecko
 - Donny: Michael Roddy
+- Lucille: Kasie Buono
 - Genie: Lisa Valdini Booth
 - Betty: Natalie Drake
 - Marilyn Wald: Natalie Drake
-- Righteous Brothers: 
-  - Nathan Roberts
-  - Mason Ebert
 - "Neil Sedaka, Lou Adler": Nathan Roberts
 - "Nick, Bobby Vee": Mason Ebert
-- Lucille: Kasie Buono
+- The Righteous Brothers: 
+  - Nathan Roberts
+  - Mason Ebert
 - Janelle: Kristen Kenegrew
 - Drifters: 
   - Terry Star
   - Zion Hall
   - Malik Harris
   - Darryl Beamon
+- Little Eva: Arielle Bryant
 - Shirley: Victoria Mapayi
 - Shirelles: 
   - Felecia Ewing
