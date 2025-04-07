@@ -28,7 +28,7 @@ show_details:
 - Based On: Misery by Steven King
 cast:
 crew:
-- Director: Jereme Raickett
+- Director: Bryce Cofield
 orchestra:
 genres: 
 Description: 
