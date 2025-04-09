@@ -56,7 +56,7 @@ Our organization may consider donations to support the coverage of particular to
 
 Our organization will make public all donors who give a total of $5,000 or more per year. We will accept anonymous donations for general support only if it is clear that sufficient safeguards have been put into place that the expenditure of that donation is made independently by our organization and in compliance with INN’s Membership Standards.
 
-## Financial Support
+## [Financial Support](/about/financial-support/)
 
 JaxPlays is a 501(c)(3) nonprofit organization. If you would like to support our mission, please consider making a tax-deductible donation. Your contribution helps us maintain and improve our platform, ensuring that we continue to provide the most comprehensive and up-to-date information on live theatre in Northeast Florida and Southeast Georgia.
 

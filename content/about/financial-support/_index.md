@@ -19,6 +19,12 @@ JaxPlays is a 501(c)(3) nonprofit organization. If you would like to support our
 
 We are grateful for the generous support of our donors. Thank you for helping us make a difference in the Jacksonville theatre community.
 
+#### $2,500+
+
+{{< rawhtml >}}
+<a href="https://www.jaxcf.org/" target="_blank" ><img src="/media/logos/The-Community-Foundation-Logo-Hor-RGB.webp" alt="The Community Foundation for Northeast Florida logo" title="The Community Foundation for Northeast Florida logo" class="ml4 w5" /></a>
+{{< /rawhtml >}}
+
 #### $500+
 
 - Redgie Gutshall
@@ -41,4 +47,5 @@ We are grateful for the generous support of our donors. Thank you for helping us
 - Jeff Hes
 - Christopher Stewart
 - William Hollister
+
 
