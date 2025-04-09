@@ -1,7 +1,7 @@
 ---
 title: Little Women
-Theatre: Flagler College Department of Theater Arts
-Venue: Lewis Auditorium
+theatre: Flagler College Department of Theater Arts
+venue: Lewis Auditorium
 Season: 
 date: 2025-03-26T15:12:37-04:00
 opening_date: 2025-04-10
