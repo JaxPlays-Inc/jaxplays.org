@@ -24,10 +24,7 @@
 {{- end }}
 {{- $filteredPages := where $pages "Params.opening_date" "ne" nil }}
 {{- $sortedPages := sort $filteredPages "Params.opening_date" "asc" }}
-{{- $limit := .Site.Config.Services.RSS.Limit }}
-{{- if ge $limit 1 }}
-  {{- $sortedPages = $sortedPages | first $limit }}
-{{- end }}
+
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -48,41 +45,55 @@
     {{- end }}
 
     {{- $currentDate := now }}
-    {{- $daysUntilNextTuesday := mod (sub 9 (int $currentDate.Weekday)) 7 }}
-    {{- $nextTuesday := $currentDate.AddDate 0 0 (int $daysUntilNextTuesday) }}
+    {{- $weekday := int $currentDate.Weekday }}
+    {{- $offset := sub $weekday 2 }}
+    {{- $rawDays := cond (or (eq $weekday 2) (eq $weekday 3)) (sub 7 $offset) (sub 14 $offset) }}
+    {{- $daysToAddInt := int $rawDays }}
+    {{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAddInt }}
 
+    {{- $includedPages := slice }}
     {{- range $sortedPages }}
-    {{- if and .Params.opening_date .Params.closing_date }}
+      {{- if and .Params.opening_date .Params.closing_date }}
         {{- $opening_date := time .Params.opening_date }}
         {{- $closing_date := time .Params.closing_date }}
         {{- if and (le $opening_date $nextTuesday) (ge $closing_date $currentDate) }}
-
-            {{- $matchingShow := index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0 }}
-            {{- $description := .Params.description | default $matchingShow.Params.description }}
-            {{- $content := .Content | default $matchingShow.Content }}
-            {{- $featuredImage := .Params.featured_image | default $matchingShow.Params.featured_image }}
-
-            <item>
-                <title>{{ .Title }}</title>
-                <link>{{ .Permalink }}</link>
-                <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-                {{- if or $authorEmail $authorName }}
-                <author>{{ if $authorEmail }}{{ $authorEmail }}{{ if $authorName }} ({{ $authorName }}){{ end }}{{ else if $authorName }}{{ $authorName }}{{ end }}</author>
-                {{- end }}
-                <guid>{{ .Permalink }}</guid>
-                <description>
-                  {{- with .Params.theatre }}{{ "<h3 style='text-align:left;'>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h3>" | transform.XMLEscape | safeHTML }}{{ end }}
-                  {{ "<h4 style='text-align:left; line-height: 2;'>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h4>" | transform.XMLEscape | safeHTML }}
-                {{ $description | html }}</description>
-                <content>
-                     {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
-                </content>
-                {{ if $featuredImage }}
-                <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
-                {{ end }}
-            </item>
+          {{- $includedPages = $includedPages | append . }}
         {{- end }}
+      {{- end }}
     {{- end }}
+
+    {{- $limit := .Site.Config.Services.RSS.Limit }}
+    {{- if ge $limit 1 }}
+      {{- $includedPages = first $limit $includedPages }}
+    {{- end }}
+
+    {{- range $includedPages }}
+      {{- $opening_date := time .Params.opening_date }}
+      {{- $closing_date := time .Params.closing_date }}
+      {{- $matchingShow := index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0 }}
+      {{- $description := .Params.description | default $matchingShow.Params.description }}
+      {{- $content := .Content | default $matchingShow.Content }}
+      {{- $featuredImage := .Params.featured_image | default $matchingShow.Params.featured_image }}
+
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{- if or $authorEmail $authorName }}
+        <author>{{ if $authorEmail }}{{ $authorEmail }}{{ if $authorName }} ({{ $authorName }}){{ end }}{{ else if $authorName }}{{ $authorName }}{{ end }}</author>
+        {{- end }}
+        <guid>{{ .Permalink }}</guid>
+        <description>
+          {{- with .Params.theatre }}{{ "<h3 style='text-align:left;'>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h3>" | transform.XMLEscape | safeHTML }}{{ end }}
+          {{ "<h4 style='text-align:left; line-height: 2;'>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h4>" | transform.XMLEscape | safeHTML }}
+        {{ $description | html }}</description>
+        <content>
+          {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
+        </content>
+        {{ if $featuredImage }}
+        <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
+        {{ end }}
+      </item>
     {{- end }}
   </channel>
 </rss>
