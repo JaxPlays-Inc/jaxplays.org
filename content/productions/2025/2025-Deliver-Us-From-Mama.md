@@ -38,6 +38,11 @@ show_details:
 Genres:
   - Play
   - Comedy
-Description: "Join in on a hilarious, high-octane road trip with Mama and her family as they race across America to be present for the birth of the first grandchild, encountering wild adventures and comedic chaos at every turn."
+Description: "Pack your bags and get ready for a family road trip. That's the situation that Mama and her squabbling “grown-up” children find themselves in with 'Deliver Us From Mama!'"
+photos:
+- photo: 2025-Deliver-Us-From-Mama-01.webp
+  photo_attr: Vicki Wyttenbach
+  photo_alt: 
+  photo_caption: 
 ---
 The story kicks off with Walker Sprunt's wife, Hayley, going into labor in Alabama while he is tied up in L.A. with family chaos. Amidst a nationwide air traffic controllers’ strike, Walker finds himself stuck, but his ever-determined Mama declares, "Family Road Trip!" Thus begins an uproarious journey filled with eccentric encounters and mishaps—from alien sightings near Roswell and impromptu weddings in Texas to high-speed police chases and navigating the lively chaos of New Orleans. No obstacle is too great for Mama's unwavering mission, proving that family antics and determination can turn any crisis into a memorable adventure.
