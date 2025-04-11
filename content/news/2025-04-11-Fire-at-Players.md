@@ -18,7 +18,7 @@ According to an email and [Facebook post by Players by the Sea’s staff and boa
 
 Bradley Akers, managing director of Players by the Sea, described the venue as more than just a performance space. "This building is a cultural landmark in Jacksonville Beach and beyond," he said. "For decades, it has served as an artistic home where our community experiences the power and impact of theatre and the arts." He added, "To say we’re devastated by the recent fire and resulting water damage is an understatement."
 
-As Players celebrates its 60th season, Akers reflected on the theatre’s legacy of resilience. "Players by the Sea has weathered many storms, both literal and metaphorical, and this moment is no different," he said. "While the lights are out for now, this is merely a scene change. And soon, the lights will rise again on a beautiful new chapter in our story."
+Looking back on the organization’s long history, Akers reflected on its resilience. "Players by the Sea has weathered many storms, both literal and metaphorical, and this moment is no different," he said. "While the lights are out for now, this is merely a scene change. And soon, the lights will rise again on a beautiful new chapter in our story."
 
 The fire also affected [[theatre:ABET - All Beaches Experimental Theatre]]’s planned performances of [[production:2025 Misery]], which was scheduled to open Friday evening in Players’ Studio Theatre. [Raines Carr, interim artistic director of ABET, notified patrons](https://www.abetjax.com/press) that this weekend’s performances are canceled. "Tickets or Flex Pass that were to be used this weekend will be honored for a future performance," he said.
 
