@@ -26,7 +26,7 @@
 {{- $pages = $pages | first $limit }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
@@ -58,12 +58,12 @@
       {{- end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{- partial "content-wikilinks" .Params.description | transform.XMLEscape | safeHTML -}}</description>
-      <content>
+      <content:encoded>
        {{- partial "content-wikilinks" .Content | transform.XMLEscape | safeHTML -}}
        {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
        {{ $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title | transform.XMLEscape | safeHTML }}
        {{ $reviewText }}
-       </content>
+       </content:encoded>
       {{ with .Params.featured_image }}
       <enclosure url="{{ . | absURL }}" type="image/jpeg"/>
       {{ end }}

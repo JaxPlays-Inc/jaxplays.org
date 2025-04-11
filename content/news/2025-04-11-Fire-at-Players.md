@@ -5,13 +5,10 @@ featured_image: /media/photos/Players-by-the-Sea-01.webp
 featured_image_attr: Visit Jacksonville
 featured_image_attr_link: https://www.visitjacksonville.com/directory/players-by-the-sea/
 featured_image_caption: Stock photo of Players by the Sea
-featured_image_alt: 
+featured_image_alt: "The exterior of Players by the Sea Theatre, framed by palm trees and tropical landscaping, with its red-and-white marquee standing out against the overcast sky."
 authors: 
 - Ray Hollister
-production: 
-Theatre: 
-cast: 
-description:
+description: "A fire at Players by the Sea caused significant water damage and has suspended all operations at the Jacksonville Beach theater. "
 ---
 A fire inside the [[venue:Grace Darling Studio Theatre|Studio Theatre]] at [[theatre:Players by the Sea]] has caused widespread water damage throughout the Jacksonville Beach venue, suspending all operations and programming until further notice.
 
