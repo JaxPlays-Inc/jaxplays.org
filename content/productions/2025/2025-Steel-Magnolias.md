@@ -18,7 +18,7 @@ showtimes:
   - 2025-05-09 20:00:00
   - 2025-05-10 20:00:00
   - 2025-05-11 14:00:00
-featured_image: 
+featured_image: 2025-Steel-Magnolias.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
