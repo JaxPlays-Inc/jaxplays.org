@@ -1,6 +1,6 @@
 ---
 title: "Dog Man: The Musical"
-Theatre: TheatreWorksUSA
+Theatre: TheaterWorksUSA
 Venue: Florida Theatre
 Season: 
 date: 2025-04-14T17:34:35-04:00

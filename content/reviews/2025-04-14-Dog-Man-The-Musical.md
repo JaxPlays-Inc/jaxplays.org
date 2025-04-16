@@ -4,7 +4,7 @@ date: 2025-04-14T17:26:15-04:00
 featured_image: /media/photos/2025-Dog-Man-The-Musical-01.webp
 featured_image_alt: "The 2024–25 touring cast of *Dog Man: The Musical* strikes an energetic pose in a brightly colored, cartoon-inspired set."
 featured_image_caption: "The 2024–25 touring cast of *Dog Man: The Musical* — Glory Yepassis-Zembrou, Mundo Ballejos, Jake Wernecke, Sadie Jayne Kennedy, Marquise Neal and Brandon James Butorovich — light up the stage with explosive energy and comic-book flair."
-featured_image_attr: 
+featured_image_attr: Jeremy Daniel
 authors: 
 - William Hollister
 production: 2025 Dog Man The Musical
