@@ -28,6 +28,12 @@ Website:
 Tickets: https://opct.booktix.com/dept/main/e/steel?utm_source=jaxplays
 show_details: 
 cast:
+  - Truvy Jones: Kelly Weaver
+  - Annelle Dupuy-Desoto: Phaedra Smith
+  - Shelby Eatenton-Latcherie: Ashlyn Brown
+  - M'Lynn Eatenton: Izzy Hague
+  - Clairee Belcher: Ellen Hare
+  - Ouiser Boudreaux: Denise Fernandez
 crew:
 - Director: Cindy Baker
 orchestra:
