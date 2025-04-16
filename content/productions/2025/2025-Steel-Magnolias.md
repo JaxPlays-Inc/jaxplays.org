@@ -25,7 +25,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: 
-Tickets: 
+Tickets: https://opct.booktix.com/dept/main/e/steel?utm_source=jaxplays
 show_details: 
 cast:
 crew:
