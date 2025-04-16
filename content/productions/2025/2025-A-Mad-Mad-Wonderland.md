@@ -1,6 +1,6 @@
 ---
 title: "A Mad, Mad Wonderland"
-Theatre: Jason Woods Production
+Theatre: Jason Woods Productions
 Venue: Story and Song Bistro
 Season: 
 date: 2025-03-25T16:16:21-04:00
