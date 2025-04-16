@@ -8,9 +8,9 @@ featured_image_attr: Jeremy Daniel
 authors: 
 - William Hollister
 production: 2025 Dog Man The Musical
-Theatre: TheatreWorksUSA
+Theatre: TheaterWorksUSA
 cast: 
-description:
+description: "This is a special guest review by William Hollister, a third grader at Seaside Charter North Campus."
 ---
 ***This is a special guest review by William Hollister, a third grader at Seaside Charter North Campus.***
 
