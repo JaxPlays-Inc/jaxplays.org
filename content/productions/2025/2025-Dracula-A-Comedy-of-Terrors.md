@@ -29,8 +29,34 @@ show_details:
     - Gordon Greenberg
     - Steve Rosen
 cast:
+- Harker: Christopher Watson
+- Dr. Westfeldt/Renfield: Emily Johns
+- Lucy/Kitty: Katie Johnston
+- Mina/Van Helsing: Rachel Johns
+- Dracula: Jordan Born
 crew:
-orchestra:
+- Director: Ron Shreve
+- Production Manager: Michelle Kindy
+- Lighting Design: Johnny Pettegrew
+- Sound Design/Board Operator: Brent Mulberry
+- Costume Design: Classic Costumes
+- Graphic Design: Green Onion Creative LLC
+- Stage Management: 
+  - Katie Cress
+  - Greg Hewitt
+  - Eli Bruce Durham
+- Light Board Operator: Greg Hewitt
+- Running Crew: 
+  - Lou Acosta
+  - Katie Allen
+  - Eli Bruce Durham
+  - Amanda Kelly
+  - Tyler Leeps
+- Set Construction: 
+  - Katie Allen
+  - Katie Cress
+  - Johnny Pettegrew
+  - Curtis Svenson
 Genres:
   - Play
   - Comedy
