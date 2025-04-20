@@ -36,7 +36,67 @@ cast:
   - Ouiser Boudreaux: Denise Fernandez
 crew:
 - Director: Cindy Baker
+- Assistant Director: Mary Roesler
+- Producer: Geoff DuChemin
+- Stage Manager: Jodi Smith
+- Assistant Stage Manager: Kristin Hartley
+- Set Design: 
+  - Cindy Baker
+  - Mark Pellegrin
+- Lights: Mary Roesler
+- Sound: Cindy Baker
+- Costumes: 
+  - Barbra Wells
+- Props: 
+  - Kristen Luke
+- Set Build:
+  - Dave Baker
+  - Mark Pellegrin
+  - Matt Rotoli
+  - Byron Sparks
+  - Renee Sparks
+- Art: Irene Cheatum
+- Stage Crew: 
+  - Dagney Smith
+Beauty Consultant: Rose Costantino
+Hair Stylist: Jessica Harris
+Graphic Design: 
+  - Bryon Sparks
+  - Ellie Allison
 orchestra:
 genres: 
 Description: 
 ---
+
+
+Director.
+Assistant Director.
+Producer .
+Stage Manager .
+Assistant Stage Manager ...
+Set Design
+Lights ...
+Sound
+Costumes.
+Props .
+Set Build
+Art
+Stage Crew ..
+Beauty Consultant.
+Hair stylist
+Graphic Design
+.. Cindy Baker
+Mary Roesler
+Geoff DuChemin
+*..... Jodi Smith
+Kristin Hartley
+...Cindy Baker, Mark Pellegrin
+Mary Roesler
+Cindy Baker
+....Barbra Wells, Cast . Kristen Luke
+Dave Baker, Mark Pellegrin, Matt Rotoli
+Bryon Sparks, Renee Sparks
+Irene Cheatum
+Dagney Smith
+.Rose Costantino ...Jessica Harris
+Bryon Sparks, Ellie Allison
