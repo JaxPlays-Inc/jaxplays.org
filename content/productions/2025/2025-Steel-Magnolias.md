@@ -58,9 +58,9 @@ crew:
 - Art: Irene Cheatum
 - Stage Crew: 
   - Dagney Smith
-Beauty Consultant: Rose Costantino
-Hair Stylist: Jessica Harris
-Graphic Design: 
+- Beauty Consultant: Rose Costantino
+- Hair Stylist: Jessica Harris
+- Graphic Design: 
   - Bryon Sparks
   - Ellie Allison
 orchestra:
