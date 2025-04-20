@@ -18,6 +18,12 @@
       <meta name="robots" content="noindex, nofollow">
     {{ end }}
 
+    {{ with .Params.relcanonical }}
+      <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+    {{ else -}}
+      <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    {{ end -}}
+
     {{ partial "site-style.html" . }}
     {{ partial "site-scripts.html" . }}
     
