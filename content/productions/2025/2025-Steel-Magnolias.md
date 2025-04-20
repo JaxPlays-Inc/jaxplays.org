@@ -45,10 +45,8 @@ crew:
   - Mark Pellegrin
 - Lights: Mary Roesler
 - Sound: Cindy Baker
-- Costumes: 
-  - Barbra Wells
-- Props: 
-  - Kristen Luke
+- Costumes: Barbra Wells
+- Props: Kristen Luke
 - Set Build:
   - Dave Baker
   - Mark Pellegrin
@@ -56,8 +54,7 @@ crew:
   - Byron Sparks
   - Renee Sparks
 - Art: Irene Cheatum
-- Stage Crew: 
-  - Dagney Smith
+- Stage Crew: Dagney Smith
 - Beauty Consultant: Rose Costantino
 - Hair Stylist: Jessica Harris
 - Graphic Design: 
