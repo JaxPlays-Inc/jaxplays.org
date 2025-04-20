@@ -56,6 +56,20 @@ Our organization may consider donations to support the coverage of particular to
 
 Our organization will make public all donors who give a total of $5,000 or more per year. We will accept anonymous donations for general support only if it is clear that sufficient safeguards have been put into place that the expenditure of that donation is made independently by our organization and in compliance with INN’s Membership Standards.
 
+## Pre‑Publication Review Policy
+
+JaxPlays does not share full reviews with any member of a production’s cast or crew before publication. We understand the wish to check accuracy, but we follow standard journalistic practice for three reasons:
+
+- **Editorial independence** — Our critics write for readers, not the production team.
+
+- **Objectivity** — Advance access can create pressure, real or perceived, that may color an honest assessment.
+
+- **Timeliness** — Our deadlines are tight and adding a preview step would delay coverage for every show.
+
+After a review goes live we welcome factual corrections. Email editor@jaxplays.org within seven days, include supporting details and we will verify the information and note any necessary changes.
+
+We value the artistry behind every production and believe this policy best protects both that artistry and the trust our readers place in us.
+
 ## [Financial Support](/about/financial-support/)
 
 JaxPlays is a 501(c)(3) nonprofit organization. If you would like to support our mission, please consider making a tax-deductible donation. Your contribution helps us maintain and improve our platform, ensuring that we continue to provide the most comprehensive and up-to-date information on live theatre in Northeast Florida and Southeast Georgia.
