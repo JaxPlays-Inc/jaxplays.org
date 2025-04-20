@@ -7,6 +7,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 Founded: 
+seating_capacity: 104
 Address: |
   2900 Moody Ave
   Orange Park, FL 32073
