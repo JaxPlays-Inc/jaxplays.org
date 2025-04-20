@@ -56,19 +56,22 @@ Our organization may consider donations to support the coverage of particular to
 
 Our organization will make public all donors who give a total of $5,000 or more per year. We will accept anonymous donations for general support only if it is clear that sufficient safeguards have been put into place that the expenditure of that donation is made independently by our organization and in compliance with INN’s Membership Standards.
 
-## Pre‑Publication Review Policy
+## Pre‑Publication Access Policy
 
-JaxPlays does not share full reviews with any member of a production’s cast or crew before publication. We understand the wish to check accuracy, but we follow standard journalistic practice for three reasons:
+JaxPlays does not provide advance copies of any editorial content — reviews, news stories or opinion pieces — to the subjects of that coverage. We recognize the desire to check accuracy, yet maintaining journalistic integrity requires that all work remain unpublished until it is ready for public release.
 
-- **Editorial independence** — Our critics write for readers, not the production team.
+### Why we decline pre‑publication requests
 
-- **Objectivity** — Advance access can create pressure, real or perceived, that may color an honest assessment.
-
-- **Timeliness** — Our deadlines are tight and adding a preview step would delay coverage for every show.
-
-After a review goes live we welcome factual corrections. Email editor@jaxplays.org within seven days, include supporting details and we will verify the information and note any necessary changes.
-
-We value the artistry behind every production and believe this policy best protects both that artistry and the trust our readers place in us.
+-   **Editorial independence** — Our writers serve readers first. Sharing drafts risks creating real or perceived influence over the final story.
+-   **Objectivity and fairness** — Equal treatment of every theater, artist and organization demands a consistent policy. If one group sees an article early, all would have to, undermining fairness.
+-   **Timeliness** — JaxPlays operates on tight deadlines. Adding an outside review step would delay coverage for the entire community.
+-   **Established standards** — Reputable newsrooms reserve pre‑publication sharing for rare legal vetting, never for routine accuracy checks by sources.
+    
+### How we handle accuracy
+-   Reporters and critics may verify specific facts — names, titles, dates, etc. — with you during the reporting process.
+-   Once a piece is published, you may email editor@jaxplays.org, preferably as soon as possible, to note any factual errors. Provide documentation and we will correct the record promptly, adding a clarification note when warranted.
+    
+We respect the artistry and effort behind every production and strive to cover theater honestly, accurately and without outside influence. This policy protects that mission and the trust our readers place in us.
 
 ## [Financial Support](/about/financial-support/)
 
