@@ -1,7 +1,11 @@
 ---
 title: Denise Fernandez
-date: 2025-04-20T15:53:39-04:00
-featured_image: 
+aliases: 
+  - /people/denise-girona-fernandez
+other_names: 
+ - Denise Girona Fernandez
+date: 2025-04-21T14:59:11-04:00
+featured_image: Denise-Fernandez.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
