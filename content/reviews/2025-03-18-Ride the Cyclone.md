@@ -32,6 +32,7 @@ cast:
 -  Candice Johnson
 -  Max Cordeiro
 description: "Ride the Cyclone at The 5 & Dime is a hauntingly fun, must-see musical with stellar performances and eerie visuals. A darkly hilarious afterlife journey!"
+show_reading_time: true
 ---
 Death comes suddenly for the six teenagers of [[production:2025 Ride the Cyclone]] when a faulty roller coaster derails at a grim, run-down carnival. Trapped in a surreal limbo, the chamber choir of the St. Cassian High School of Uranium City, Saskatchewan, meets The Amazing Karnak, a mechanical fortune teller who offers one of them the chance to return to life. To earn their second chance, the teens must share their stories, revealing their deepest dreams, regrets and desires. As they each take the spotlight — sometimes with humor, sometimes with heartbreaking honesty — they wrestle with the randomness of fate and the legacy they leave behind.
 

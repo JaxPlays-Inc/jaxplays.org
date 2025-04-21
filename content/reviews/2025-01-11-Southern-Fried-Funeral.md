@@ -20,6 +20,7 @@ cast:
 - Calvin Bernardo
 - Brooks Anne Meierdierks
 description: "The Alhambra’s *Southern Fried Funeral* blends humor and heart in a stunning production filled with standout performances and Southern charm."
+show_reading_time: true
 ---
 The [[theatre:Alhambra Theatre & Dining]] production of [[production:2025 Southern Fried Funeral]] is a deliciously funny and heartfelt exploration of family dynamics, Southern charm and small-town life. Packed with memorable characters, sharp dialogue and a healthy serving of humor, this show offers audiences a heaping plate of laughter, love and a touch of chaos.
 <!--more-->

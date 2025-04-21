@@ -1,6 +1,6 @@
 ---
 title: "Orange Park Community Theatre's 'Steel Magnolias' Turns a Small Salon into a Big Emotional Journey"
-date: 2025-04-20T15:44:10-04:00
+date: 2025-04-21T09:11:55-04:00
 featured_image: /media/photos/2025-Steel-Magnolias-01.webp
 featured_image_alt: "Ashlyn Brown as Shelby beams as the women of the salon present her with a pink robe—her signature color—in a vibrant moment from 'Steel Magnolias' at Orange Park Community Theatre."
 featured_image_caption: "Ashlyn Brown as Shelby receives a pink robe — her signature color — from Phaedra Smith, Denise Fernandez, Ellen Hare and Izzy Hague in a scene bursting with love and laughter in *Steel Magnolias* at Orange Park Community Theatre."
@@ -23,7 +23,7 @@ description: "At OPCT, *Steel Magnolias* brings laughter, loss and lasting frien
 show_reading_time: true
 ---
 
-[[production:2025 Steel Magnolias]] at [[theatre:Orange Park Community Theatre]] invites audiences into the warm, familiar hum of a Southern beauty salon where hairspray is as essential as heart. Over the course of several years — and across changing seasons, hairstyles and life stages — six women gather to share gossip, swap advice and support one another through life’s joys and devastations. Set entirely in Truvy’s salon, the play chronicles the wit, warmth and resilience of its characters as they navigate friendship, family and loss.
+[[production:2025 Steel Magnolias]] at [[theatre:Orange Park Community Theatre]] invites audiences into the warm, familiar hum of a Southern beauty salon where hairspray is as essential as heart. Over the course of several years — and across changing seasons, hairstyles and life stages — six women gather to share gossip, swap advice and support one another through life’s joys and devastations. Set entirely in Truvy’s salon, the play chronicles the wit, warmth and resilience of its characters as they navigate friendship, family and loss.<!--more-->
 
 Director [[person:Cindy Baker]] leans into the natural intimacy of the script, crafting a production that feels less like theater and more like eavesdropping on real life. The salon setting is beautifully realized, with wigs and products that look plucked straight from the 1980s, grounding the show in both time and place. The design elements — particularly [[person:Barbra Wells]]’ costume choices, including Shelby’s pink sweater and high-waisted jeans — act as nostalgic visual anchors throughout the production. The space feels lived-in and familiar, drawing the audience into its rhythms so fully that we feel like flies on the wall. At times, cast members appear to speak directly to the audience — but they’re addressing the salon’s unseen mirrors, a clever staging choice that enhances the realism and keeps us immersed in their world.
 

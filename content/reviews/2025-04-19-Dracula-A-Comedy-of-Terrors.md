@@ -17,6 +17,7 @@ cast:
 - Rachel Johns
 - Jordan Born
 description: "Expect puppets, puns and perfectly timed scares in this giddy, gothic thrill ride packed with sharp wit, bold performances and a bite of romance."
+show_reading_time: true
 ---
 I was spellbound the moment I heard that [[theatre:Theatre Jacksonville]] was performing [[production:2025 Dracula: A Comedy of Terrors]], and was drawn to opening night in a slow, hypnotic trance.<!--more-->
 

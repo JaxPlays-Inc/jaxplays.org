@@ -11,6 +11,7 @@ production: 2025 Sense and Sensibility
 Theatre: Limelight Theatre
 cast: 
 description: "Limelight’s *Sense and Sensibility* blends Regency charm with sharp comedy and heartfelt performances in a magnetic adaptation of Jane Austen’s classic."
+show_reading_time: true
 ---
 [[production:2025 Sense and Sensibility]], a play adaptation by [[w:Kate Hamill]] based on the 1811 novel by [[w:Jane Austen]], is a [[w:Regency era|Regency-era]] tale of family, womanhood and the delicate balance between logic and feeling. Hazel Robinson’s direction brings a dynamic theatrical take to this classic story and breathes new life into Austen’s world. Her vision preserves both the elegance of the society of the time and the emotional undercurrents of the characters, using movement, pacing and character dynamics to highlight the story’s timelessness.<!--more-->
 

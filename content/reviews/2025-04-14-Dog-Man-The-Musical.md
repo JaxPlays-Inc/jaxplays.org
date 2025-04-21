@@ -11,6 +11,7 @@ production: 2025 Dog Man The Musical
 Theatre: TheaterWorksUSA
 cast: 
 description: "This is a special guest review by William Hollister, a third grader at Seaside Charter North Campus."
+show_reading_time: true
 ---
 ***This is a special guest review by William Hollister, a third grader at Seaside Charter North Campus.***
 

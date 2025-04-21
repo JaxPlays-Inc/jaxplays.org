@@ -19,6 +19,7 @@ cast:
 - Johnny Pettegrew
 - Joy Smith
 description: "The stunning production of *The Women of Lockerbie* at Theatre Jacksonville combines stellar performances with breathtaking set and lighting design."
+show_reading_time: true
 ---
 [[theatre:Theatre Jacksonville]]’s production of [[production:2025 The Women of Lockerbie]], directed by [[person:Jeff Grove]], delivers a poignant and deeply human exploration of grief and resilience that intertwines personal loss and collective mourning against a visually stunning backdrop. With a carefully curated cast and a set that feels as alive as the characters themselves, this production creates an immersive, emotionally resonant experience.<!--more-->
 

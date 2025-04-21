@@ -13,6 +13,7 @@ production: 2025 Les Miserables
 Theatre: FSCJ Artist Series
 cast: 
 description: "Experience the breathtaking spectacle of *Les Misérables* at the Jacksonville Center for the Performing Arts. A timeless tale of redemption, love and revolution brought to life with stunning visuals and powerful performances."
+show_reading_time: true
 ---
 The FSCJ Artist Series presentation of [[production:2025 Les Misérables]] is a visual spectacle the likes of which I have never seen. At times, I sat slack-jawed in disbelief, staring at the living painting before me. The harmonious fluidity of set changes, lighting and actors hitting their marks is like a cyclone — ripping through the stage, tearing things apart, only to magnetically reassemble into something new.<!--more-->
 

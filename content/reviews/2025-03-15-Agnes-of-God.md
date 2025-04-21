@@ -19,6 +19,7 @@ cast:
   - Carl Liberatore
   - Claire Cimino
 description: "Faith, trauma and mystery collide in Lumen’s *Agnes of God*, a riveting production filled with raw performances and stunning atmosphere"
+show_reading_time: true
 ---
 [[theatre:Lumen Repertory Theatre]]’s production of [[production:2025 Agnes of God]] offers a haunting, emotionally charged evening of theater, balancing psychological tension with profound spiritual inquiry. Under the direction of [[person:Joshua Britton Andrews]] and [[person:Brian Niece]], this taut three-character drama unfolds with gripping intensity, drawing the audience into its web of doubt, faith and trauma.
 <!--more-->
