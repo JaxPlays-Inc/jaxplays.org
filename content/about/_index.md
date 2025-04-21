@@ -58,7 +58,7 @@ Our organization will make public all donors who give a total of $5,000 or more 
 
 ## Pre‑Publication Access Policy
 
-JaxPlays does not provide advance copies of any editorial content — reviews, news stories or opinion pieces — to the subjects of that coverage. We recognize the desire to check accuracy, yet maintaining journalistic integrity requires that all work remain unpublished until it is ready for public release.
+At JaxPlays, we’re often asked if we can share reviews, news stories or editorials before they’re published. While we understand the desire to check for accuracy, maintaining journalistic integrity requires that all work remain unpublished until it is ready for public release. For that reason, JaxPlays does not provide advance copies of any content — reviews, news articles or opinion pieces — to the subjects of that coverage.
 
 ### Why we decline pre‑publication requests
 
