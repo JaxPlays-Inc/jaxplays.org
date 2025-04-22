@@ -31,7 +31,7 @@ Cox’s standout moments, particularly during the heart-wrenching “Please, Don
 
 Opposite her, Chad Boyd as Billy Cane embodies the character’s bright-eyed optimism with infectious energy. His chemistry with Emily Layt, who plays the endearing Margo, is delightful. Layt brings an undeniable charm to her portrayal, and their scenes together provide the show with warmth and levity. The innocence and playfulness of their relationship is perfectly captured, even as Billy’s obliviousness to Margo’s affections draws sympathetic laughs from the audience. Layt’s performance of "Asheville" is hauntingly beautiful, filled with a tender, heartsick yearning that underscores Margo’s unspoken desires.
 
-{{< figure src="/media/photos/2024-Bright-Star-02.webp" alt="" caption="Emily Layt delivers \"Asheville\" with an emotional richness, her tender vocals making Margo’s unspoken desires heartbreakingly clear." attr="Ryan Provence" attrlink="" >}}
+{{< figure src="/media/photos/2024-Bright-Star-02.webp" alt="" caption="Emily Layt delivers \"Asheville\" with an emotional richness, her tender vocals making Margo’s unspoken desires heartbreakingly clear." attr="Ryan Provence" attr_link="" >}}
 
 Brian Johnson, as Daddy Cane, is a quiet standout in his role. His smooth, soothing voice is reminiscent of James Taylor, and he imbues his character with vulnerability and kindness. 
 

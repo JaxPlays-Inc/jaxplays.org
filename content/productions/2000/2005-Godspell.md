@@ -33,4 +33,4 @@ photos:
   photo_caption: Lisa Knoepfel, Joshua Kreis McTiernan, Ray Hollister, Sheila Diaz
     and Scott Giddens (left to right)
 ---
-{{< video src="/media/videos/2005_Godspell.mp4" caption="Adobe Flash video promo" attr="crcumc.org" attrlink="https://web.archive.org/web/20050313090809/http://crcumc.org/">}}
+{{< video src="/media/videos/2005_Godspell.mp4" caption="Adobe Flash video promo" attr="crcumc.org" attr_link="https://web.archive.org/web/20050313090809/http://crcumc.org/">}}

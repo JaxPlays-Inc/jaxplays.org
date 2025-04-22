@@ -6,7 +6,7 @@
 {{ $class := .Get "class" }}
 {{ $link := .Get "link" }}
 {{ $title := .Get "title" }}
-{{ $attrlink := .Get "attrlink" }}
+{{ $attr_link := .Get "attr_link" }}
 {{ $tachyons := .Get "tachyons" }}
 {{ $light_text_color_class := .Site.Params.light_text_color_class }}
-{{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "class" $class "link" $link "title" $title "attrlink" $attrlink "tachyons" $tachyons "light_text_color_class" $light_text_color_class) }}
+{{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "class" $class "link" $link "title" $title "attr_link" $attr_link "tachyons" $tachyons "light_text_color_class" $light_text_color_class) }}
