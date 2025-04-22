@@ -30,7 +30,7 @@ cast:
   - Don Lockwood: Sebastian Miller
   - Cosmo Brown: Elliot Miller
   - Kathy Selden: Julia Taylor
-  - Lina Lamont: Renée LaCroix
+  - Lina Lamont: Renee LaCroix
   - R. F. Simpson: Doug Gluntz
   - Roscoe Dexter: Trey Stafford
   - Policeman/Conductor: Scott Bobeck
@@ -102,4 +102,12 @@ crew:
 orchestra:
 genres: 
 Description: 
+Press:
+- "Amelia Community Theatre presents “Singing in the Rain” | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2025/04/07/amelia-community-theatre-presents-singing-in-the-rain/
 ---
+
+### Amelia Community Theatre presents “Singing in the Rain” | River City Plus - News4Jax
+{{< youtube eTi2BkRAZ0c >}}
+
+### River City Plus: Amelia Community Theatre presents “Singing in the Rain”
+{{< youtube H70XGWYsXPM >}}

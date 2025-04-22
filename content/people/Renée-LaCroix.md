@@ -5,7 +5,7 @@ aliases:
   - /people/renee-lacroix
 other_names: 
  - Renee LaCroix
-featured_image: Renée-LaCroix.webp
+featured_image: Renee-LaCroix.webp
 featured_image_attr: Karen Bowden
 featured_image_attr_link: 
 featured_image_alt: 
