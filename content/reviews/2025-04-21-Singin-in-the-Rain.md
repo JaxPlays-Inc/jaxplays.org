@@ -16,6 +16,7 @@ cast:
   - Renee LaCroix
   - Julia Taylor
 description: "Amelia Community Theatre’s *Singin’ in the Rain* blends sharp wit, classic choreography and a timely message about reinvention."
+show_reading_time: true
 ---
 *Singin’ in the Rain* has entertained audiences since 1952 with a universal story that still resonates 72 years later: the fear of advancing technology stealing our jobs. The message may be sandwiched between snappy dance numbers, but it’s there. Change is coming. Adapt and innovate — or get left behind. [[theatre:Amelia Community Theatre]] in Fernandina Beach recently brought the beloved classic [[production:2025 Singin’ in the Rain]] to life on stage.
 
