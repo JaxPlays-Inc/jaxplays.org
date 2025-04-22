@@ -1,5 +1,6 @@
 ---
 title: Harold K. Smith Playhouse
+building: Theatre Jacksonville
 date: 2024-06-12T18:46:30-04:00
 active: true
 aliases: 
