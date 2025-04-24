@@ -13,7 +13,7 @@ Theatre: FSCJ Artist Series
 cast: 
 description:
 ---
-[[production:2025 MJ The Musical,]] the electrifying Broadway sensation, lands in Jacksonville with a show that not only pays homage to the King of Pop but also delivers a theatrical experience that is as grand as it is intimate. With its opening night at the Jacksonville Center for the Performing Arts, the production sets the stage ablaze with dazzling choreography, stunning visuals and a heartfelt tribute to Michael Jackson’s legacy.
+[[production:2025 MJ The Musical,]] the electrifying Broadway sensation, lands in Jacksonville with a show that not only pays homage to the King of Pop but also delivers a theatrical experience that is as grand as it is intimate. With its opening night at the Jacksonville Center for the Performing Arts, the production sets the stage ablaze with dazzling choreography, stunning visuals and a heartfelt tribute to Michael Jackson’s legacy.<!--more-->
 
 Presented by the [[theatre:FSCJ Artist Series]]’ Broadway in Jacksonville, MJ The Musical transports audiences back in time to the final rehearsals for Michael Jackson’s 1992 [[w:Dangerous World Tour]]. As the crew preps for the spectacle, a journalist from MTV interviews Jackson, prompting a journey through his past — from the Jackson 5 and Motown days to solo superstardom. Through flashbacks and iconic hits, the show explores the pressure, perfectionism and passion behind one of pop music’s most legendary careers.
 
