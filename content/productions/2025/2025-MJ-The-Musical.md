@@ -29,46 +29,58 @@ show_details:
 - Book: "[[w:Lynn Nottage]]"
 - Website: https://tour.mjthemusical.com/
 cast:
-  - MJ: Roman Banks
-  - MJ (Alternate): Jamaal Fields-Green
-  - Michael: Brandon Lee Harris
-  - Little Michael:
-    - Josiah Benson
-    - Bane Griffith
-  - Joseph Jackson/Rob: Devin Bowles
-  - Rachel: Mary Kate Moore
-  - Berry Gordy/Nick: J. Daughtry
-  - Tito Jackson/Quincy Jones: Josh A. Dawson
+  - MJ: Jordan Markus
+  - MJ (Alternate): DeAundre’ Woods
+  - Michael: Erik Hamilton
+  - Little Michael: 
+      - Quentin Blanton Jr.
+      - Bane Griffith
+  - Joseph Jackson / Rob: Devin Bowles
+  - Berry Gordy / Nick: J. Daughtry
+  - Tito Jackson / Quincy Jones: Josh A. Dawson
+  - Alejandro: Anthony J. Garcia
   - Little Marlon: Bryce A. Holmes
-  - Dave: Matt Loehr
-  - Alejandro: Da’Von T. Moody
+  - Rachel: Cecilia Petrush
+  - Dave: Jed Resnick
   - Katherine Jackson: Anastasia Talley
-  - Jermaine Jackson: Jacobi Kai
   - Jackie Jackson: Jay McKenzie
-  - Dance Captain: Kyle DuPree
-  - Assistant Dance Captain: JoJo Carmichael
+  - Jermaine Jackson: Avilon Trust Tate
+  - Marlon Jackson: Ashton Booth
+  - Randy Jackson: Malcolm Miles Young
   - Ensemble:
-    - Jacobi Kai
-    - Jay McKenzie
     - Croix DiIenno
-    - Kellie Drobnick
     - Zuri Noelle Ford
+    - Rachel Lockhart
+    - Michaela Marfori
     - Matteo Marretta
-    - Chelsea Mitchell-Bonsu
-    - Brion Marquis Watson
+    - Jay McKenzie
+    - Avilon Trust Tate
+    - Ashton Booth
     - Malcolm Miles Young
 understudies:
+  - Vacation Swing:
+    - Michael Andreaus
+    - Alex Aquilino
   - Swing:
     - JoJo Carmichael
-    - Kyle DuPree
+    - Joshua Dawson
+    - Ui-Seng François
     - Jahir L. Hipps
+    - Faith Jones
     - Rajané Katurah
-    - Skye Jackson-Williams
     - Kendrick Mitchell
     - Zion Mikhail Pradier
-    - Ayla Stackhouse
     - Charles P. Way
-  - MJ/Michael: Jordan Markus
+  - Dance Captain: JoJo Carmichael
+  - Universal Swing:
+    - Skye Jackson-Williams
+    - Tyrone Reese
+  - Little Marlon:
+    - Quentin Blanton Jr.
+    - Bane Griffith
+  - Little Michael:
+    - Bryce A. Holmes
+  - Michael: Jacobi Kai
 crew:
   - Director & Choreographer: Christopher Wheeldon
   - Musical Supervision, Orchestrations & Arrangements: David Holcenberg
