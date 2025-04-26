@@ -27,6 +27,17 @@ h2.fc-toolbar-title {
   margin-top:.2rem;
 }
 
+a.fc-event {
+  color: #333;
+}
+#calendar a.fc-event:hover {
+  text-decoration: none;
+}
+
+.fc-daygrid-event-dot, .fc .fc-list-event-dot {
+  border-width:8px;
+}
+
 @media screen and (max-width:30em) {
   .fc .fc-toolbar {
     flex-direction: column-reverse;
