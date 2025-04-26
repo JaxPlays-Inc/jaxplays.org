@@ -14,4 +14,6 @@ Socials:
   IBDB: 
   IMDb:
   Website: 
+Press:
+  - "Meet Billy Elliot: Julia Taylor | TheSkyKid.com": https://betm.theskykid.com/meet-billy-elliot-julia-taylor/
 ---

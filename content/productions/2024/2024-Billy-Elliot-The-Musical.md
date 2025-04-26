@@ -28,8 +28,53 @@ show_details:
 - Music: "[[w:Elton John]]"
 - Lyrics: "[[w:Lee Hall]]"
 - Book: Lee Hall
-cast:
 crew:
+  - Directors:
+      - Peggy Strickland
+      - Jayme Taylor
+  - Stage Manager / Prop Coordinator: Jayme Taylor
+  - Musical Director: Shea Zaccaro
+  - Choreographer / Crew: Amelia Son
+  - Tap Choreographers:
+      - Angela Smith
+      - Julia Taylor
+  - Assistant Stage Manager: Nicole Perrella
+  - Costumer:
+      - Vicki Gibson
+      - Isabelle Bournigault
+  - Crew:
+      - Missy Tremblay
+      - Linda Loftis-Vrooman
+  - Technical Director: Geoffrey Moss
+cast:
+  - Billy Elliot: Julia Taylor
+  - Michael Caffrey: Kate Gibson
+  - Debbie Wilkinson: Isabella Homans
+  - Dad: Joe Zaccaro
+  - Tony: Alejandro Carrion-James
+  - George: David Jonker
+  - Mrs. Wilkinson: Angela Smith
+  - Grandma: Pat Chiarelli
+  - Woman 1 / Dead Mum: Regina Torres
+  - Woman 2 / Clipboard Woman: Peggy Strickland
+  - Woman 3 (Lesley) / Panelist: Jennifer Jaress
+  - Woman 4: Kristine Wortham
+  - Posh Boy (Kevin): Collin Galvin
+  - Dancer / Older Billy / Mr. Braithwaite / Miner: Will Wiley
+  - Miner 1 / Panelist: Bruce Gruber
+  - Miner 3: Scott Kessler
+  - Miner 5: Jimmy Galaviz
+  - Miner 7 / Posh Dad: Jason Taylor
+  - Miner 9 / Big Davey: Ozzie Medina
+  - Miner / Scab: Wayne Mason
+  - Miner / Police / Street: Amelia Landino
+  - Ballet Girl - Angela Robson: Addison Ryals
+  - Ballet Girl - Kelley Gibson: Olivia Campbell
+  - Ballet Girl - Tracy Atkinson: Isabella Tchikatilov
+  - Ballet Girl - Susan Parks: Carleigh Somers
+  - Ballet Girl - Julie Hope: Atalie Jenkins
+  - Ballet Girl - Alison Summers: Nora Costrino
+  - Ballet Girl - Karen Davidson: Lauren Wortham
 orchestra:
 Genres:
   - Musical
