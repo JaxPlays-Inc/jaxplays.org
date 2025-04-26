@@ -120,6 +120,10 @@ Description: "Step into the dazzling world of the King of Pop with *MJ The Music
 
 {{< youtube FwtzlaFKbK8 >}}
 
+
+### FSCJ Artist Series Presents MJ the Musical | First Coast News
+{{< youtube V2n8IW9kKPQ >}}
+
 #### Act I
 - 'Beat It' – MJ, Company, and Orchestra
 - 'Tabloid Junkie' / 'Price of Fame' – MJ and Rachel
