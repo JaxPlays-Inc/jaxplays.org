@@ -1,6 +1,4 @@
 ---
-published: false
-cancelled: COVID-19
 layout: productions
 title: A Wonderful Life
 date: 2023-09-08T00:00:00
@@ -57,4 +55,6 @@ showtimes:
 - 2020-12-23 18:00:00
 - 2020-12-24 11:00:00
 - 2020-12-24 18:00:00
+cast:
+- Mr. Potter: Justin Murphy
 ---
