@@ -71,7 +71,7 @@ orchestra:
 description: "**[ALERT: See Production Update.](#production-update)** —  A small-town waitress, caught in a loveless marriage, crafts pies and dreams of a better life, finding hope and transformation in the kitchen."
 ---
 ## Production Update
-{< youtube fqiHVu9c3i4 >}
+{{< youtube fqiHVu9c3i4 >}}
 
 Due to a [fire at Players by the Sea’s Studio Theatre](/news/2025/04/11/fire-at-players-by-the-sea-causes-widespread-damage-cancels-performances/), Waitress has been relocated and rescheduled. Performances will now take place on the following dates:
 
