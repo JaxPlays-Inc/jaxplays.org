@@ -1,0 +1,58 @@
+{{- if eq (len .mapRaw) 0 -}}
+  <div class="alert alert-warning">No seating map provided.</div>
+  {{ return }}
+{{- end -}}
+
+<!-- Load jQuery and jQuery Seat Charts CSS/JS -->
+<link rel="stylesheet" href="/css/jquery.seat-charts.css" />
+<script src="/js/jquery.seat-charts.min.js"></script>
+
+<h3 class="f3 mt4 mb3 sectionline">Seating Chart</h3>
+<div id="seat-map">
+  <div class="stage">STAGE</div>
+</div>
+<div id="legend"></div>
+<div id="disclaimer"><strong>Note:</strong> This seating chart is provided for your convenience and is for illustrative purposes only. It should not be considered definitive. Please contact the venue to confirm actual seating arrangements and availability.</div>
+
+<script>
+  $(function() {
+    const sc = $('#seat-map').seatCharts({
+      map: [
+        {{ .mapRaw | safeJS }}
+      ],
+      seats: {
+        a: {
+          classes: 'standard',
+          category: 'Standard Seat'
+        },
+        h: {
+          classes: 'ada-seat',
+          category: 'ADA Accessible'
+        }
+      },
+      naming: {
+        top: false,
+        getLabel: function(character, row, column) {
+          return '';
+        }
+      },
+      legend: {
+        node: $('#legend'),
+        items: [
+          ['a', 'available', 'Standard Seat'],
+          ['h', 'available', 'Accessible Seat']
+        ]  
+      },
+      click: function() {
+        if (this.status() === 'available') {
+          return 'selected';
+        } else if (this.status() === 'selected') {
+          return 'available';
+        } else {
+          return this.style();
+        }
+      }
+    });
+    sc.find('h').status('available');
+  });
+</script>
