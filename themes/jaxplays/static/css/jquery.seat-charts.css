@@ -40,10 +40,9 @@ div.seatCharts-container {
 div.seatCharts-row {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: fit-content;
   margin: 0.2rem 0;
   gap: var(--seat-gap);
-  margin-left: calc(-.25 * (var(--seat-size) + var(--seat-gap)));
 }
 
 /* === Seat Cells === */

@@ -1,7 +1,33 @@
-{{- if eq (len .mapRaw) 0 -}}
-  <div class="alert alert-warning">No seating map provided.</div>
-  {{ return }}
+{{- $mapRaw := .mapRaw | default "" -}}
+{{- $stageWidthParam := .stageWidth | default "60%" -}}
+
+{{- $seatVW := 2.8 -}}   {{/* vw per seat */}}
+{{- $gapVW := 0.5 -}}    {{/* vw between seats */}}
+
+{{- $seatPX := 16 -}}    {{/* max-width in px */}}
+{{- $gapPX := 3 -}}      {{/* approximated px gap */}}
+
+{{- $matches := findRE `^(\d+)seats$` $stageWidthParam -}}
+{{- $stageWidth := "" -}}
+
+{{- if gt (len $matches) 0 -}}
+  {{- $seatCount := index $matches 0 | replaceRE `seats$` "" | int -}}
+
+  {{- $vwSeatWidth := mul $seatCount $seatVW -}}
+  {{- $vwGapWidth := mul (sub $seatCount 1) $gapVW -}}
+  {{- $vwTotal := add $vwSeatWidth $vwGapWidth -}}
+
+  {{- $pxSeatWidth := mul $seatCount $seatPX -}}
+  {{- $pxGapWidth := mul (sub $seatCount 1) $gapPX -}}
+  {{- $pxTotal := add $pxSeatWidth $pxGapWidth -}}
+
+  {{- $stageWidth = printf "clamp(%dpx, %.2fvw, %dpx)" $pxTotal $vwTotal $pxTotal -}}
+{{- else -}}
+  {{- $stageWidth = $stageWidthParam -}}
 {{- end -}}
+
+
+<div style="color:red">DEBUG: Stage width = {{ $stageWidth }}</div>
 
 <!-- Load jQuery and jQuery Seat Charts CSS/JS -->
 <link rel="stylesheet" href="/css/jquery.seat-charts.css" />
@@ -9,7 +35,7 @@
 
 <h3 class="f3 mt4 mb3 sectionline">Seating Chart</h3>
 <div id="seat-map">
-  <div class="stage" style="width: {{ .stageWidth }};">STAGE</div>
+  <div class="stage" style="width: {{ $stageWidth | safeCSS }};">STAGE</div>
 </div>
 <div id="legend"></div>
 <div id="disclaimer"><strong>Note:</strong> This seating chart is provided for your convenience and is for illustrative purposes only. It should not be considered definitive. Please contact the venue to confirm actual seating arrangements and availability.</div>

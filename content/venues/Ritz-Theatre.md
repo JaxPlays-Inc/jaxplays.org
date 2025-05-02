@@ -22,7 +22,7 @@ Phone:
 ---
 The Ritz Theatre in Jacksonville is a historic cultural landmark located in the heart of the city's LaVilla neighborhood. Originally opened in 1929, the theater played a pivotal role in the city's African-American community, hosting performances by legendary artists during the segregation era. Today, with seating for 400, the Ritz serves as both a performing arts venue and museum, celebrating Black history, arts and culture through live performances, exhibits and educational programs.
 
-{{< seatmap >}}
+{{< seatmap stagewidth="20seats" >}}
 'aaaaaaaaaaaaaaaaaaaa',
 'aaaaaaaaaaaaaaaaaaaaaaa',
 'aaaaaaaaaaaaaaaaaaaaaaaaa',
