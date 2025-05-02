@@ -1,23 +1,32 @@
+:root {
+  --seat-size: 2.8vw; /* scales with screen size */
+  --seat-gap: 0.5vw;
+  --seat-max: 16px;
+  --seat-min: 6px;
+}
+
 /* === Seat Map Container === */
 #seat-map {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 1rem 0;
 }
 
 /* === Stage === */
 .stage {
-  width: 90%;
-  max-width: 300px;
+  display: block;
   margin: 0 auto 1rem auto;
   padding: 1rem;
   background-color: #222;
   color: #fff;
   font-weight: bold;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 0.9rem;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* === Seat Grid Layout === */
@@ -31,18 +40,18 @@ div.seatCharts-container {
 div.seatCharts-row {
   display: flex;
   justify-content: center;
-  height: auto;
   width: 100%;
   margin: 0.2rem 0;
-  gap: 0.5vw;
+  gap: var(--seat-gap);
+  margin-left: calc(-.25 * (var(--seat-size) + var(--seat-gap)));
 }
 
 /* === Seat Cells === */
 div.seatCharts-cell {
   aspect-ratio: 1 / 1;
-	width: 2.8vw;
-  max-width: 16px;
-  min-width: 6px;
+  width: var(--seat-size);
+  max-width: var(--seat-max);
+  min-width: var(--seat-min);
   text-align: center;
   font-size: 0.7rem;
   line-height: 1;
@@ -59,17 +68,14 @@ div.seatCharts-seat {
   position: relative;
 }
 
-/* Selected */
 div.seatCharts-seat.selected {
   background-color: var(--jaxplays-red);
 }
 
-/* Focused */
 div.seatCharts-seat.focused {
   background-color: var(--jaxplays-gold);
 }
 
-/* Unavailable */
 div.seatCharts-seat.unavailable {
   background-color: red;
   cursor: not-allowed;
@@ -108,8 +114,9 @@ li.seatCharts-legendItem {
   margin: 0.5rem 1rem;
   font-size: 0.9rem;
 }
+
 .seatCharts-legendDescription {
-	margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 /* === Disclaimer === */
@@ -120,3 +127,18 @@ li.seatCharts-legendItem {
   margin-top: 1rem;
 }
 
+/* === Responsive Adjustments === */
+@media (max-width: 600px) {
+  :root {
+    --seat-size: 2.5vw;
+  }
+
+  div.seatCharts-cell {
+    font-size: 0.6rem;
+  }
+
+  .stage {
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
+}

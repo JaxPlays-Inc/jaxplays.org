@@ -31,3 +31,21 @@ The Little Theatre company was established in Jacksonville in 1919 and was later
 As the Little Theatre of Jacksonville grew in popularity as a performance venue, it was renamed Theatre Jacksonville in 1969. The mayor at the time, Hans Tanzler, proclaimed it to be Jacksonville's official theater.
 
 In 1991, the Little Theatre building was added to the U.S. National Register of Historic Places. The Harold K. Smith Playhouse Endowment was established in June 1997 with a $500,000 donation for facility maintenance. In October 2000, after the completion of a theater facade renovation, the facility was officially dedicated as the Harold K. Smith Playhouse.
+
+{{< seatmap >}}
+'__ah__aaaaaaaaaaa__ha__',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa_aaaaa',
+'aaaaa_aaaaaaaaaaa___aaa',
+{{< /seatmap >}}
