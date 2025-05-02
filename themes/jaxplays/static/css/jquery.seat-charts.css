@@ -108,6 +108,9 @@ li.seatCharts-legendItem {
   margin: 0.5rem 1rem;
   font-size: 0.9rem;
 }
+.seatCharts-legendDescription {
+	margin-left: .5rem;
+}
 
 /* === Disclaimer === */
 #disclaimer {
@@ -116,3 +119,4 @@ li.seatCharts-legendItem {
   text-align: center;
   margin-top: 1rem;
 }
+
