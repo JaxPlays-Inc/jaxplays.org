@@ -1,11 +1,14 @@
 {{- $mapRaw := .mapRaw | default "" -}}
 {{- $stageWidthParam := .stageWidth | default "60%" -}}
 
-{{- $seatVW := 2.8 -}}   {{/* vw per seat */}}
-{{- $gapVW := 0.5 -}}    {{/* vw between seats */}}
+{{- $seatVW := 2.8 -}}    {{/* vw per seat */}}
+{{- $gapVW := 0.5 -}}     {{/* vw per gap */}}
 
-{{- $seatPX := 16 -}}    {{/* max-width in px */}}
-{{- $gapPX := 3 -}}      {{/* approximated px gap */}}
+{{- $seatMaxPX := 16 -}}  {{/* max seat width px */}}
+{{- $gapMaxPX := 3 -}}    {{/* max gap width px */}}
+
+{{- $seatMinPX := 6 -}}   {{/* min seat width px */}}
+{{- $gapMinPX := 1 -}}    {{/* min gap width px */}}
 
 {{- $matches := findRE `^(\d+)seats$` $stageWidthParam -}}
 {{- $stageWidth := "" -}}
@@ -13,23 +16,28 @@
 {{- if gt (len $matches) 0 -}}
   {{- $seatCount := index $matches 0 | replaceRE `seats$` "" | int -}}
 
+  {{/* viewport width calculation */}}
   {{- $vwSeatWidth := mul $seatCount $seatVW -}}
   {{- $vwGapWidth := mul (sub $seatCount 1) $gapVW -}}
   {{- $vwTotal := add $vwSeatWidth $vwGapWidth -}}
 
-  {{- $pxSeatWidth := mul $seatCount $seatPX -}}
-  {{- $pxGapWidth := mul (sub $seatCount 1) $gapPX -}}
+  {{/* max-width calculation */}}
+  {{- $pxSeatWidth := mul $seatCount $seatMaxPX -}}
+  {{- $pxGapWidth := mul (sub $seatCount 1) $gapMaxPX -}}
   {{- $pxTotal := add $pxSeatWidth $pxGapWidth -}}
 
-  {{- $stageWidth = printf "clamp(%dpx, %.2fvw, %dpx)" $pxTotal $vwTotal $pxTotal -}}
+  {{/* min-width calculation */}}
+  {{- $pxMinSeatWidth := mul $seatCount $seatMinPX -}}
+  {{- $pxMinGapWidth := mul (sub $seatCount 1) $gapMinPX -}}
+  {{- $pxMinTotal := add $pxMinSeatWidth $pxMinGapWidth -}}
+
+  {{/* Final clamp */}}
+  {{- $stageWidth = printf "clamp(%dpx, %.3fvw, %dpx)" $pxMinTotal $vwTotal $pxTotal -}}
 {{- else -}}
   {{- $stageWidth = $stageWidthParam -}}
 {{- end -}}
 
-
-<div style="color:red">DEBUG: Stage width = {{ $stageWidth }}</div>
-
-<!-- Load jQuery and jQuery Seat Charts CSS/JS -->
+<!-- Seat Chart setup -->
 <link rel="stylesheet" href="/css/jquery.seat-charts.css" />
 <script src="/js/jquery.seat-charts.min.js"></script>
 
@@ -47,36 +55,23 @@
         {{ .mapRaw | safeJS }}
       ],
       seats: {
-        a: {
-          classes: 'standard',
-          category: 'Standard Seat'
-        },
-        h: {
-          classes: 'ada-seat',
-          category: 'ADA Accessible'
-        }
+        a: { classes: 'standard', category: 'Standard Seat' },
+        h: { classes: 'ada-seat', category: 'ADA Accessible' }
       },
       naming: {
         top: false,
-        getLabel: function(character, row, column) {
-          return '';
-        }
+        getLabel: function() { return ''; }
       },
       legend: {
         node: $('#legend'),
         items: [
           ['a', 'available', 'Standard Seat'],
           ['h', 'available', 'Accessible Seat']
-        ]  
+        ]
       },
       click: function() {
-        if (this.status() === 'available') {
-          return 'selected';
-        } else if (this.status() === 'selected') {
-          return 'available';
-        } else {
-          return this.style();
-        }
+        return this.status() === 'available' ? 'selected' :
+               this.status() === 'selected' ? 'available' : this.style();
       }
     });
     sc.find('h').status('available');

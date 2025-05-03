@@ -1,8 +1,6 @@
 :root {
-  --seat-size: 2.8vw; /* scales with screen size */
-  --seat-gap: 0.5vw;
-  --seat-max: 16px;
-  --seat-min: 6px;
+  --seat-size: clamp(6px, 2.8vw, 16px);
+  --seat-gap: clamp(1px, 0.5vw, 3px);
 }
 
 /* === Seat Map Container === */
@@ -27,6 +25,10 @@
   font-size: 0.9rem;
   max-width: 100%;
   box-sizing: border-box;
+
+  /* Add this to shift the stage right exactly half a seat + half gap */
+  position: relative;
+  left: calc((var(--seat-size) + var(--seat-gap)) / 2);
 }
 
 /* === Seat Grid Layout === */
@@ -34,27 +36,25 @@ div.seatCharts-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 div.seatCharts-row {
   display: flex;
   justify-content: center;
-  width: fit-content;
-  margin: 0.2rem 0;
   gap: var(--seat-gap);
+  margin: 0.2rem 0;
 }
 
 /* === Seat Cells === */
 div.seatCharts-cell {
   aspect-ratio: 1 / 1;
   width: var(--seat-size);
-  max-width: var(--seat-max);
-  min-width: var(--seat-min);
+  max-width: none;
+  min-width: none;
+  /* margin-right: var(--seat-gap); */
   text-align: center;
   font-size: 0.7rem;
   line-height: 1;
-  color: #ccc;
   border-radius: 3px;
   box-sizing: border-box;
 }
@@ -141,3 +141,4 @@ li.seatCharts-legendItem {
     font-size: 0.85rem;
   }
 }
+
