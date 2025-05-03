@@ -24,4 +24,26 @@ Socials:
   Website: https://www.jacksonvillecenterfortheperformingarts.com/
 Press:
 ---
-The Moran Theater at the Jacksonville Center for the Performing Arts is a crown jewel in Jacksonville's cultural landscape. With its state-of-the-art acoustics and seating for over 3,000 guests, it's the go-to venue for an array of performances, from Broadway musicals and concerts to ballets and comedy shows. The theater provides an intimate experience without compromising on grandeur, making it a must-visit for any arts enthusiast.
+The C. Herman & Mary Virginia Terry Theater is an intimate 600-seat venue within the Jacksonville Center for the Performing Arts, located at 300 West Water Street in downtown Jacksonville . It's designed for smaller-scale performances like poetry readings, dance recitals and comedy shows.
+
+As part of the larger complex—which also includes the Moran Theater and Jacoby Symphony Hall—the Terry Theater offers a more personal setting for audiences and performers alike. It's a popular choice for touring comedians, local productions and community events .
+
+{{< seatmap stagewidth="22seats" >}}
+'aaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+{{< /seatmap >}}
