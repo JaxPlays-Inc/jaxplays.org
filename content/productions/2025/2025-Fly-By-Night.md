@@ -43,19 +43,38 @@ show_details:
   - Michael Mitnick
   - Kim Rosenstock
 cast:
-- The Narrator: TBA
-- Harold McClam: TBA
-- Mr McClam: TBA
-- Daphne: TBA
-- Miriam: TBA
-- Crabble: TBA
-- Joey Storms: TBA 
-- Cecily Smith: TBA 
-crew:
-- Director: Sherrie Provence
+  - Daphne: Heather Starling
+  - Harold McClam: Daniel Starling
+  - Miriam: Amanda Pazos
+  - The Narrator: David Buchman
+  - Joey Storm: Matthew Turnage
+  - Mr. Crabble: Don Cupo
+  - Mr. McClam: Brian Johnson
 orchestra:
-# Fly By Night
-# Fly By Night
+  - Bass: Ranger Roberts
+  - Drums: Gena Fitzpatrick
+  - Guitar:
+      - Brian Johnson
+      - Daniel Starling
+  - Piano: Ellen Milligan
+crew:
+  - Director: Sherrie Provence
+  - Music Director: Ellen Milligan
+  - Stage Manager: Sophie Willis
+  - Assistant Stage Manager: Natasha Hartshorne
+  - Set Design: Don Cupo
+  - Light Design: Michael Takita
+  - Costume Design: Janice Bickel
+  - Properties Design: Rod Morris
+  - Light Board Operator: Ashley Taylor
+  - Assistant Board Operator: Kendell Cheatham
+  - Technical Director: Don Cupo
+  - Paint Charge: Sue Schwartz
+  - Construction:
+      - Don Cupo
+      - Charles Ross
+  - Publicity Trailer: Daniel Starling
+  - Show Trailer: Charity Walton
 Genres:
   - Musical
   - Drama
