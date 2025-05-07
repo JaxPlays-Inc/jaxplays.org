@@ -3,7 +3,7 @@ title: The Island Theater
 layout: theatres
 active: true
 company_type: Community
-featured_image: The_Island_Theater.png
+featured_image: The-Island-Theater.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
@@ -16,7 +16,7 @@ Socials:
   Instagram: theislandtheater
   Website: https://www.theislandtheater.com
 Phone: 19042541455
-color: "#116cff"
+color: "#4fb6ff"
 date: 2024-07-02T18:02:16-04:00
 donate: https://www.theislandtheater.com/2024-donations?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
