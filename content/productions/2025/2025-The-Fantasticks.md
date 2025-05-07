@@ -23,7 +23,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: https://www.abetjax.com/
-Tickets: 
+Tickets: https://www.tickettailor.com/events/abetallbeachesexperimentaltheatre/1585871?utm_source=jaxplays
 cast:
 - El Gallo: Franklin Ritch
 - The Mute: Joe Capps
