@@ -33,7 +33,7 @@ As the Little Theatre of Jacksonville grew in popularity as a performance venue,
 In 1991, the Little Theatre building was added to the U.S. National Register of Historic Places. The Harold K. Smith Playhouse Endowment was established in June 1997 with a $500,000 donation for facility maintenance. In October 2000, after the completion of a theater facade renovation, the facility was officially dedicated as the Harold K. Smith Playhouse.
 
 {{< seatmap stagewidth="23seats" >}}
-'__ah__aaaaaaaaaaa__ha__',
+'__aah_aaaaaaaaaaa_haa__',
 'aaaaa_aaaaaaaaaaa_aaaaa',
 'aaaaa_aaaaaaaaaaa_aaaaa',
 'aaaaa_aaaaaaaaaaa_aaaaa',
