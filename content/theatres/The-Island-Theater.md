@@ -20,4 +20,4 @@ color: "#116cff"
 date: 2024-07-02T18:02:16-04:00
 donate: https://www.theislandtheater.com/2024-donations?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
-The Island Theater, nestled in the heart of Fleming Island, serves as a beacon for local performing arts. Dedicated to showcasing the talents of area performers through live stage productions, the theater is a community hub for both audiences and aspiring actors. In addition to a robust schedule of plays and musicals presented monthly, The Island Theater offers stage acting and film workshops, nurturing the next generation of theatrical talent.
+The Island Theater is Fleming Island's Community Theater. We have a mission of theater education and cultural outreach bringing the community together through out Clay County and beyond.
