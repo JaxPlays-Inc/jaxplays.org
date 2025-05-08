@@ -11,7 +11,7 @@ show_reading_time: true
 description: "Acclaimed actor David Alford returns to Jacksonville to star in Lumen Repertory Theatre's production of David Mamet's American Buffalo, opening June 13."
 ---
 Acclaimed actor and director [[person:David Alford]] returns to the Jacksonville stage this summer to star in [[theatre:Lumen Repertory Theatre]]’s upcoming production of David Mamet’s [[production:2025 American Buffalo]]. The gritty three-man drama opens June 13 in the intimate black-box setting of [[venue:WJCT Studio B]].
-
+<!--more-->
 Alford, a veteran of stage and screen, is known locally for his riveting performance in Lumen Rep’s 2024 production of [[production:2024 Slow Burn|The Zoo Story]]. [That role earned high praise from JaxPlays](/reviews/2024/07/13/theatrical-mastery-in-lumen-reps-slow-burn-questions-cultural-constructs/), which described his work as “deeply engaging and flawless,” adding that “his mere expressions steal the show.” His portrayal of Peter was lauded for its emotional precision — “every wince is felt by the audience.”
 
 Now, Alford takes on the role of Walter “Teach” Cole, a volatile hustler at the heart of Mamet’s sharply drawn tale of loyalty, ambition and moral collapse. He joins Lumen Rep co-founder [[person:Brian Niece]], who plays Donny Dubrow, and [[person:Joshua Britton Andrews]] as Bobby.
