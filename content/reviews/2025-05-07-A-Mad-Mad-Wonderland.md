@@ -1,5 +1,7 @@
 ---
 title: "Jason Woods Remixes Wonderland and Recasts the Madness in 'A Mad, Mad Wonderland!'"
+aliases: 
+  - /reviews/2025/05/07/jason-woods-rewires-wonderland-in-a-mad-mad-wonderland/
 date: 2025-05-07T20:29:35-04:00
 featured_image: /media/photos/2025-A-Mad-Mad-Wonderland-01.webp
 featured_image_attr: Jason Woods Productions
