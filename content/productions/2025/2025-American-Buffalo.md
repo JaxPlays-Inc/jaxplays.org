@@ -1,7 +1,7 @@
 ---
 title: American Buffalo
 Theatre: Lumen Repertory Theatre
-Venue: 
+Venue: WJCT Studio B
 Season: 2025
 date: 2025-03-04T20:54:22-05:00
 opening_date: 2025-06-13
