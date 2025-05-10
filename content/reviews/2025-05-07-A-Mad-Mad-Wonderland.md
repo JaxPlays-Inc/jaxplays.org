@@ -14,7 +14,7 @@ production:
 Theatre: Jason Woods Productions
 cast: 
 - Jason Woods
-description: "Award-winning performer Jason Woods transforms Lewis Carroll’s world in A Mad, Mad Wonderland!, a whirlwind one-man show packed with pop culture flair, razor-sharp character work and theatrical magic — all in just 40 minutes."
+description: "Award-winning performer Jason Woods transforms Lewis Carroll’s world in 'A Mad, Mad Wonderland!', a whirlwind one-man show packed with pop culture flair, razor-sharp character work and theatrical magic — all in just 40 minutes."
 ---
 Jason Woods’ [[production:2025 A Mad, Mad Wonderland!]] is a virtuosic, no-frills thrill ride: no set, no props, just Woods alone onstage with a whirlwind of characters he channels with uncanny precision and theatrical bravado.<!--more-->
 
@@ -24,6 +24,6 @@ The Cheshire Cat drips with Jack Nicholson’s slippery charm. Eric, the Jack of
 
 Woods isn’t trading in surface-level impressions; he’s excavating and rebuilding characters from the inside out. The celebrity voices act as framing devices, not punchlines, letting him explore these characters in ways that are surprising, textured and emotionally resonant. Each familiar voice becomes a new lens on the character, and the effect is transformative. It’s Wonderland refracted through decades of pop culture and filtered through a single performer with total command of his craft.
 
-If there’s a complaint to be made, it’s only that the experience is over too quickly. At just 40 minutes, A Mad, Mad Wonderland! is a tight, dazzling burst of theatrical invention. But in that small window, Jason Woods does what many full productions can’t: he takes the audience somewhere entirely new — and leaves them wishing they could stay longer.
+If there’s a complaint to be made, it’s only that the experience is over too quickly. At just 40 minutes, *A Mad, Mad Wonderland!* is a tight, dazzling burst of theatrical invention. But in that small window, Jason Woods does what many full productions can’t: he takes the audience somewhere entirely new — and leaves them wishing they could stay longer.
 
 Woods is taking both *A Mad, Mad Wonderland!* and his acclaimed solo show [Bing!](/reviews/2024/09/18/jason-woods-delivers-myriad-magic-in-bing/) to the [[w:Edinburgh Festival Fringe]], the world’s largest celebration of the performing arts. Held each August in Edinburgh, Scotland, the Fringe is known for its boundary-pushing, artist-driven programming — a perfect match for Woods’ genre-defying work. He’ll perform both shows daily at Greenside @ George Street from Aug. 1–23. The links to buy tickets for both shows are available at [jasonwoodsproductions.com](https://www.jasonwoodsproductions.com/).
