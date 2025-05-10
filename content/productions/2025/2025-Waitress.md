@@ -16,7 +16,7 @@ showtimes:
   - 2025-05-17 14:00:00
   - 2025-05-17 20:00:00
   # - 2025-05-18 14:00:00
-  - 2025-05-18 20:00:00
+  - 2025-05-18 19:30:00
 featured_image: 2025-Waitress.webp
 featured_image_alt: 
 featured_image_caption: 
@@ -75,7 +75,7 @@ Due to a [fire at Players by the Sea’s Studio Theatre](/news/2025/04/11/fire-a
 
 - Friday, May 16 at 8:00 p.m.
 - Saturday, May 17 at 2:00 p.m. and 8:00 p.m.
-- Sunday, May 18 at 8:00 p.m.
+- Sunday, May 18 at 7:30 p.m.
 
 Patrons with existing reservations can transfer their tickets to one of the new dates. Additional options will be available through the Box Office for those unable to attend.
 
