@@ -24,7 +24,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: https://playersbythesea.org/season-60/waitress
-Tickets: https://ci.ovationtix.com/34877/production/1218536
+Tickets: https://ci.ovationtix.com/34877/production/1238319
 show_details: 
 cast:
   - Jenna: Raquel Clory
