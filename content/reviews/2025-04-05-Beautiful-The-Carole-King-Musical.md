@@ -8,7 +8,7 @@ featured_image_caption: "A snapshot from 'Beautiful: The Carole King Musical' at
 authors: 
 - Ray Hollister
 production: 2025 Beautiful The Carole King Musical
-Theatre: Alhambra Theatre & DiningOK, l
+Theatre: Alhambra Theatre & Dining
 cast: 
 - Rachel Ann Kocher
 - Ethan Davenport
