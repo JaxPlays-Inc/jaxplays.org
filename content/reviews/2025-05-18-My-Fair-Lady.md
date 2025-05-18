@@ -2,6 +2,7 @@
 title: "'My Fair Lady' at Alhambra Theatre Dazzles with Charm and Impeccable Talent"
 date: 2025-05-18T14:43:38-04:00
 featured_image: /media/photos/2025-My-Fair-Lady-01.webp
+featured_image_attr: "Mary Roesler"
 featured_image_alt: "A group of women in Edwardian street clothes leap with arms raised in front of the Royal Opera House set during a lively ensemble number in 'My Fair Lady.'"
 featured_image_caption: "The ensemble lights up the stage with high-energy choreography and vibrant Edwardian costumes in *My Fair Lady* at Alhambra Theatre & Dining."
 authors: 
