@@ -2,8 +2,11 @@
 title: Gary Lee Webber
 aliases: 
   - /people/gray-webber/
+  - /people/gary-webber/
+  - /people/cary-webber/
 other_names: 
  - Cary Webber
+ - Gary Webber
 date: 2024-08-25T00:42:23-04:00
 featured_image: Gary-Lee-Webber.webp
 featured_image_attr: 
@@ -19,3 +22,4 @@ Socials:
   IMDb:
   Website: 
 ---
+A graduate of Douglas Anderson School of the Arts (1990) and Jacksonville University (1994), Gary has performed in or directed more than 30 productions. Some of his favorite roles include Atticus Finch in *To Kill a Mockingbird* and Henry Higgins in *My Fair Lady*. Gary is married with four adult children and lives and works in Jacksonville Florida.
