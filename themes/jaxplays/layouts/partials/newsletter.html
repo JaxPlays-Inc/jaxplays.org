@@ -18,8 +18,17 @@
 </div>
 
 <script>
-  document.getElementById("mc-form").addEventListener("submit", function () {
-    // Optimistically show success message
+  let formStart = Date.now();
+
+  document.getElementById("mc-form").addEventListener("submit", function (e) {
+    let elapsed = Date.now() - formStart;
+    if (elapsed < 3000) {
+      // Ignore submission silently (likely a bot)
+      e.preventDefault();
+      // alert("Submission too fast – possible bot.");
+      return;
+    }
+
     document.getElementById("mc-response").style.display = "block";
     setTimeout(() => {
       document.getElementById("mc-form").reset();
