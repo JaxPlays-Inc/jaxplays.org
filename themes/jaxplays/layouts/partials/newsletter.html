@@ -3,7 +3,10 @@
 <p>Every Wednesday, find out what which shows are currently on stage and where, which shows are opening this week, and read trustworthy reviews so you know which shows you can't miss!</p>
 <form id="mc-form" class="flex flex-column flex-row-ns mb5" action="https://jaxplays.us21.list-manage.com/subscribe/post?u=04eb8788678f5bd18b03e5d80&id=62e90c33eb&f_id=00ce41e6f0" method="POST" target="hidden_iframe" novalidate>
   <input class="pa2 w-100" autocomplete="on" placeholder="Your email address" type="email" name="EMAIL" id="email" required>
-  <input type="hidden" name="b_04eb8788678f5bd18b03e5d80_62e90c33eb" tabindex="-1" value="">
+  <div class="form-buffer" aria-hidden="true">
+    <label for="hp-field" style="display:none;">Leave this field empty</label>
+    <input type="text" name="b_04eb8788678f5bd18b03e5d80_62e90c33eb" id="hp-field" tabindex="-1" value="">
+  </div>
   <button type="submit" class="bn br0 bg-jp-gold ph3 pv2 mt2 mt0-ns">Subscribe</button>
 </form>
 </div>
@@ -35,3 +38,12 @@
     }, 500);
   });
 </script>
+<style>
+  .form-buffer {
+    position: absolute;
+    left: -5000px;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+</style>
