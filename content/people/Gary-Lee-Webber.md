@@ -1,9 +1,9 @@
 ---
 title: Gary Lee Webber
 aliases: 
-  - /people/gary-webber/
-  - /people/cary-webber/
-  - /people/gray-webber/
+  - /people/gary-webber
+  - /people/cary-webber
+  - /people/gray-webber
 other_names: 
   - Gary Webber
   - Cary Webber
