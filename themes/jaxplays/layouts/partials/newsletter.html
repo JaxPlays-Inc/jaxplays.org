@@ -24,14 +24,19 @@
   let formStart = Date.now();
 
   document.getElementById("mc-form").addEventListener("submit", function (e) {
-    let elapsed = Date.now() - formStart;
-    if (elapsed < 3000) {
-      // Ignore submission silently (likely a bot)
-      e.preventDefault();
-      // alert("Submission too fast – possible bot.");
+    const elapsed = Date.now() - formStart;
+
+    // Honeypot check
+    const honeypot = document.getElementById("hp-field");
+    const honeypotFilled = honeypot && honeypot.value.trim() !== "";
+
+    // Bot-like fast submission or honeypot triggered
+    if (elapsed < 3000 || honeypotFilled) {
+      e.preventDefault(); // Block form submission
       return;
     }
 
+    // Show success response and reset form
     document.getElementById("mc-response").style.display = "block";
     setTimeout(() => {
       document.getElementById("mc-form").reset();
