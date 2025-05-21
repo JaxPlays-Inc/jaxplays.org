@@ -24,25 +24,37 @@
   let formStart = Date.now();
 
   document.getElementById("mc-form").addEventListener("submit", function (e) {
-    const elapsed = Date.now() - formStart;
+    e.preventDefault(); // Always prevent default — we'll submit conditionally
 
-    // Honeypot check
+    const elapsed = Date.now() - formStart;
     const honeypot = document.getElementById("hp-field");
     const honeypotFilled = honeypot && honeypot.value.trim() !== "";
 
-    // Bot-like fast submission or honeypot triggered
-    if (elapsed < 3000 || honeypotFilled) {
-      e.preventDefault(); // Block form submission
-      return;
-    }
+    // Block bots that are too fast or triggered honeypot
+    if (elapsed < 3000 || honeypotFilled) return;
 
-    // Show success response and reset form
-    document.getElementById("mc-response").style.display = "block";
-    setTimeout(() => {
-      document.getElementById("mc-form").reset();
-    }, 500);
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6Lcnn0MrAAAAAE-DuxHWbMXXkZGVCDHXy824uGcw', { action: 'submit' }).then(function (token) {
+        // Optionally attach the token to the form
+        let recaptchaInput = document.createElement('input');
+        recaptchaInput.setAttribute('type', 'hidden');
+        recaptchaInput.setAttribute('name', 'g-recaptcha-response');
+        recaptchaInput.setAttribute('value', token);
+        document.getElementById("mc-form").appendChild(recaptchaInput);
+
+        // Now safely submit to Mailchimp
+        document.getElementById("mc-form").submit();
+
+        // Optimistically show success UI
+        document.getElementById("mc-response").style.display = "block";
+        setTimeout(() => {
+          document.getElementById("mc-form").reset();
+        }, 500);
+      });
+    });
   });
 </script>
+
 <style>
   .form-buffer {
     position: absolute;
