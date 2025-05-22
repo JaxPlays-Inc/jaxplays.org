@@ -55,14 +55,18 @@ menu:
     parent: Home
     pageRef: /about
     weight: 11
+  - name: Jobs
+    parent: Home
+    pageRef: /about/jobs
+    weight: 12
   - name: Financial Support
     parent: Home
     pageRef: /about/financial-support
-    weight: 12
+    weight: 13
   - name: Brand Guidelines
     parent: Home
     pageRef: /about/brand-guidelines
-    weight: 13
+    weight: 14
   - name: Calendar
     pageRef: /calendar
     weight: 20
