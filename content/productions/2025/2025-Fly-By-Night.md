@@ -45,7 +45,7 @@ show_details:
 cast:
   - Daphne: Heather Starling
   - Harold McClam: Daniel Starling
-  - Miriam: Amanda Pezos
+  - Miriam: Amanda Pazos
   - The Narrator: David Buchman
   - Joey Storm: Matthew Turnage
   - Mr. Crabble: Don Cupo
