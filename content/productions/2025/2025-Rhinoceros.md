@@ -26,11 +26,24 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/rhinoceros
-Tickets: https://limelight.ludus.com/200459023
+Website: https://limelight-theatre.org/productions/rhinocerous/
+Tickets: https://limelight.ludus.com/200483067
 show_details: 
 - Playwright: "[[w:Eugène Ionesco]]"
 cast:
+  - Berenger: Alberto Peart
+  - Jean: Collin James
+  - Dudard: Trevor Kluckman
+  - Daisy: Nicole Maahs
+  - Proprietor: Charles Ross
+  - Grocer: Anthony Romero
+  - Waitress: Emily Panek
+  - Botard: Michael Gale
+  - Housewife With Cat: Megan Rodriguez
+  - Old Gentleman: Amelia Gale
+  - Logician: Hannah Shaeffer
+  - Papillon: Nicholas Frost
+  - Mrs. Boeuf: Dolores Gende
 crew:
 - Director: Mary Claire Branton
 orchestra:
