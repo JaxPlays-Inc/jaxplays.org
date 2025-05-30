@@ -18,6 +18,11 @@
   height: 40vh;
 }
 
+.mha {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width:90em) {
   .flex-xl {
     display: flex;

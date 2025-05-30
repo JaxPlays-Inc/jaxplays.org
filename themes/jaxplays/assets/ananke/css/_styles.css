@@ -66,6 +66,10 @@ a ::selection {
 	min-height: 48px;
 }
 
+.givebutter-maxwidth {
+	max-width: 440px;
+}
+
 a.jaxplayslogo {
 	background-size: 2rem;
 	padding-left: 2.5rem;
