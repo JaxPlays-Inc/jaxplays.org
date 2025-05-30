@@ -69,6 +69,8 @@ crew:
   - Deck Assistant: Katarina Goliber
 orchestra:
 description: "**[ALERT: See Production Update.](#production-update)** —  A small-town waitress, caught in a loveless marriage, crafts pies and dreams of a better life, finding hope and transformation in the kitchen."
+Press:
+- "Players by the Sea to continue production at the Ritz Theatre after being displaced by a fire | News4Jax": https://www.news4jax.com/news/local/2025/05/14/players-by-the-sea-to-continue-production-at-the-ritz-theatre-after-being-displaced-by-a-fire/
 ---
 
 Due to a [fire at Players by the Sea’s Studio Theatre](/news/2025/04/11/fire-at-players-by-the-sea-causes-widespread-damage-cancels-performances/), *Waitress* has been relocated and rescheduled. Performances will now take place on the following dates:
