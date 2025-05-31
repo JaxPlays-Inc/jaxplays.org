@@ -33,6 +33,38 @@ Website: https://www.limelight-theatre.org/season-32-shows-1/hairspray
 Tickets: https://limelight.ludus.com/200459025
 show_details: 
 cast:
+  - Tracy Turnblad: Molly Maresca
+  - Edna Turnblad: Daviel Buchman
+  - Wilbur Turnblad: Jad Jordan
+  - Penny Pingleton: Anna Preston
+  - Prudy Pingleton: Megan Rodriguez
+  - Link Larkin: Oliver Carson
+  - Seaweed J. Stubbs: Jalen Hardy
+  - Motormouth Maybelle: Falecia Ewing
+  - Amber Von Tussle: Christina Dyches
+  - Velma Von Tussle: Jennifer Medure
+  - Little Inez: Nyah McDowell
+  - Corny Collins: Mitchell Wohl
+  - Mr. Pinky: Phedre Delinois
+  - Mr. Spritzer / Principal: Jeff Schaeffer
+  - Gym Teacher / Matron: Lacey Cateleta
+  - Gilbert: Anthony Romero
+  - Stooie: Zac Davis
+  - Cindy Watkins: Nasaya Lowe
+  - Duane: Raphael Albea
+  - Thad: Clayton Riddley
+  - Brad: Max Haddock
+  - Tammy: Raina Moffat
+  - Fender: Chad Boyd
+  - Brenda: Isabella Casillas
+  - Sketch: Peter Fisk
+  - Shelley: Dani Miller
+  - IQ: Kahi Curlee
+  - Lou Anne: Chloe O'Leary
+  - Justina / Lorraine: Akeelah Monroe
+  - Kamilah: Facia Lee
+  - Shayna: Zoe Pruitt Green
+  - Beatnik Chick: Olivia Strickland
 crew:
 - Director: Jonny O'Leary
 orchestra:
