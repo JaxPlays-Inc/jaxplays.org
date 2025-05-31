@@ -83,3 +83,34 @@ crew:
 genres: 
 Description: "*Chicago*, a raucous and iconic Broadway musical, tells the story of Roxie Hart, a housewife and nightclub dancer, and Velma Kelly, a vaudeville star, both accused of murder in 1920s Chicago, and their pursuit of fame and celebrity! "
 ---
+
+### Musical numbers
+{{< columns >}} 
+#### Act I
+- "Overture" – Orchestra
+- "[[w:All That Jazz (song)|All That Jazz]]" – Velma and Company
+- "Funny Honey" – Roxie
+- "[[w:Cell Block Tango]]" – Velma and the Murderesses
+- "When You're Good to Mama" – Mama Morton
+- "Tap Dance" – Roxie, Amos, and Boys
+- "All I Care About" – Billy Flynn and Girls
+- "A Little Bit of Good" – Mary Sunshine
+- "We Both Reached for the Gun" – Billy, Roxie, Mary and the Reporters
+- "Roxie" – Roxie and Boys
+- "I Can't Do It Alone" – Velma
+- "I Can't Do It Alone (Reprise)" – Velma
+- "My Own Best Friend" – Roxie and Velma
+- "Finale Act I: All That Jazz (Reprise)" – Velma
+<--->
+#### Act II
+- "Entr'acte" – Orchestra
+- "I Know a Girl" – Velma
+- "Me and My Baby" – Roxie and Company
+- "Mister Cellophane" – Amos
+- "When Velma Takes the Stand" – Velma and Boys
+- "Razzle Dazzle" – Billy and Company
+- "Class" – Velma and Mama Morton
+- "Nowadays" - Velma and Roxie
+- "Hot Honey Rag" – Orchestra 
+- "Finale Act II: All That Jazz (Reprise)" – Company
+{{< /columns >}}
