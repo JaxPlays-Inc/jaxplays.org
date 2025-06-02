@@ -90,7 +90,7 @@ crew:
 - Production Photography: John Scherf
 - Set Painting: CK Painting
 - Staircase Captain: Chris Robertson
-- Chandelier Supervisor:  Gabe Monzon
+- Chandelier Supervisor: Gabe Monzon
 - Chandelier Rigging: Baron Tetzlaff
 orchestra:
 Genres:

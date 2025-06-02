@@ -1,4 +1,5 @@
----James Delisco Beeks
+---
+title: James Delisco Beeks
 aliases: 
   - /people/delisco
   - /people/james-d-beeks
