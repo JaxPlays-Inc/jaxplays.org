@@ -31,21 +31,53 @@ Tickets: https://limelight.ludus.com/200483067
 show_details: 
 - Playwright: "[[w:Eugène Ionesco]]"
 cast:
-  - Berenger: Alberto Peart
+  - Berenger: Alberto Carlos Peart
   - Jean: Collin James
   - Dudard: Trevor Kluckman
   - Daisy: Nicole Maahs
   - Proprietor: Charles Ross
   - Grocer: Anthony Romero
-  - Waitress: Emily Panek
+  - Grocer's Wife / Waitress: Emily Panek
   - Botard: Michael Gale
   - Housewife With Cat: Megan Rodriguez
   - Old Gentleman: Amelia Gale
   - Logician: Hannah Shaeffer
-  - Papillon: Nicholas Frost
+  - Mr. Papillon: Nicholas Frost
   - Mrs. Boeuf: Dolores Gende
+  - Fireman:
+    - Anthony Romero
+    - Charles Ross
 crew:
-- Director: Mary Claire Branton
+  - Director: Mary Claire Branton
+  - Assistant Director: Audrey Hoffman
+  - Stage Manager: Millie McKinney
+  - Dramaturg: Emily Layt
+  - Set Design: Robert O'Leary
+  - Light Design: Michael Takita
+  - Assistant Light Design: Day Stanchi
+  - Costume Design: Jamie Bullins
+  - Costumers:
+    - Janice Bickel
+    - Lois Dent
+  - Armband Design: Rachel Mills
+  - Makeup: Olivia Ferreira
+  - Mask Design: Jenn Michael
+  - Properties Design: Rod Morris
+  - Paint Charge: Sue Schwartz
+  - Construction:
+    - Don Cupo
+    - Charles Ross
+    - Robert O' Leary
+  - Music: Megan Rodriguez
+  - Film / Sound Design: Nicholas Frost
+  - Publicity Trailer: Nicholas Frost
+  - Show Trailer: Julieta Ramos Correa
+  - Fight Director / Bed Intimacy Choreography: Ryan Mahannah
+  - Light Board Operator: 
+    - Don Cupo
+    - Matthew Rodriguez
+  - Technical Director: Don Cupo
+  - Publicity: Lacey Cataleta
 orchestra:
 # Rhinoceros
 Genres:
