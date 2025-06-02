@@ -51,6 +51,7 @@ cast:
   - Frankie Rady
   - Bill White
   - Gretta Russe
+  - McCall Shipley
 crew:
 - Director: Lee Hamby
 - Assistant Director: Matt King

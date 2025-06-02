@@ -1,6 +1,10 @@
 ---
 title: Amy Allen Farmer
-date: 2024-08-11T14:05:19-04:00
+aliases: 
+  - /people/amy-farmer
+other_names: 
+ - Amy Farmer
+date: 2025-06-01T21:18:55-04:00
 featured_image: Amy-Allen-Farmer.webp
 featured_image_attr: 
 featured_image_attr_link: 
