@@ -22,7 +22,7 @@ cast:
 - Hannah Shaeffer
 - Mary Claire Branton
 - 
-description: "Limelight Theatre's Rhinoceros confronts the absurdity of mass conformity with chilling relevance and existential depth."
+description: "Limelight Theatre's *Rhinoceros* confronts the absurdity of mass conformity with chilling relevance and existential depth."
 ---
 Eugène Ionesco’s [[production:2025 Rhinoceros]], now playing at [[theatre:Limelight Theatre]]’s [[venue:Linda Matuza Blackbox]], is not merely a play — it’s a philosophical provocation. Written in 1959, this absurdist work remains startlingly resonant, especially in an age where ideological conformity and social contagion continue to shape public discourse.<!--more-->
 
