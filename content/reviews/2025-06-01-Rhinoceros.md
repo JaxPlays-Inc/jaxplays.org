@@ -24,7 +24,7 @@ cast:
 - 
 description: "Limelight Theatre's *Rhinoceros* confronts the absurdity of mass conformity with chilling relevance and existential depth."
 ---
-Eugène Ionesco’s [[production:2025 Rhinoceros]], now playing at [[theatre:Limelight Theatre]]’s [[venue:Linda Matuza Blackbox]], is not merely a play — it’s a philosophical provocation. Written in 1959, this absurdist work remains startlingly resonant, especially in an age where ideological conformity and social contagion continue to shape public discourse.<!--more-->
+Eugène Ionesco’s [[production:2025 Rhinoceros]], now playing at [[theatre:Limelight Theatre]]’s [[venue:Matuza Blackbox]], is not merely a play — it’s a philosophical provocation. Written in 1959, this absurdist work remains startlingly resonant, especially in an age where ideological conformity and social contagion continue to shape public discourse.<!--more-->
 
 Set in a quaint French town, the narrative unfolds as residents inexplicably transform into rhinoceroses. This surreal metamorphosis serves as a metaphor for the ease with which individuals abandon reason and humanity to join destructive mass movements. [[w:Eugène Ionesco|Ionesco]], drawing from his experiences in 1930s Romania, critiques the allure of totalitarian ideologies and the perilous comfort found in conformity.
 

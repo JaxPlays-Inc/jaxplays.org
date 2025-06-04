@@ -1,7 +1,7 @@
 ---
 title: Sense & Sensibility
 Theatre: Limelight Theatre
-Venue: Linda Matuza Blackbox
+Venue: Matuza Blackbox
 Season: 33
 date: 2024-09-08T21:14:35-04:00
 opening_date: 2025-04-03
