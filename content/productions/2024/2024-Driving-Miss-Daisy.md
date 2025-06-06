@@ -20,7 +20,7 @@ featured_image_alt: "Promotional poster for Theatre Jacksonville's production of
 featured_image_caption: "Experience the timeless charm of 'Driving Miss Daisy' at Theatre Jacksonville, running from September 13-29, 2024. Don’t miss this poignant story brought to life on stage!"
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2024-Driving-Miss-Daisy.pdf
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 show_details: 
