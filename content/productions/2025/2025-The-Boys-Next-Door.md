@@ -21,12 +21,41 @@ featured_image_alt: "Poster for 'The Boys Next Door' by Tom Griffin at Theatre J
 featured_image_caption: "Join Theatre Jacksonville for 'The Boys Next Door,' a heartfelt comedy that explores life, love and friendship. Catch it live from March 7-23, 2025!"
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-The-Boys-Next-Door.pdf
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 show_details: 
 cast:
+  - Arnold Wiggins: Ron Shreve
+  - Lucien P. Smith: Eli Bruce Durham
+  - Jack Palmer: Isaiah Fiedler
+  - Norman Bulansky: Michael Skaff
+  - Barry Klemper: Zachary Jones
+  - Sheila: Gayla S. Bush
+  - Mr. Hedges / Mr. Corbin / Senator Clarke: Richie Rosado
+  - Mrs. Fremus / Mrs. Warren / Clara: Amanda Kelly
+  - Mr. Klemper: Greg Hewitt
 crew:
+  - Director: Matt King
+  - Production Manager: Michelle Kindy
+  - Set / Lighting Design: Johnny Pettegrew
+  - Sound Design: Brent Mulberry
+  - Costume Design: Classic Costumes
+  - Graphic Design: Green Onion Creative, LLC
+  - Choreographer: Theresa Pazanowski
+  - Stage Manager: Squirrel Pitts
+  - Assistant Stage Manager: Lily Zawatsky
+  - Fight Coordinator: Richie Rosado
+  - Light Board Operator: Mark Rubens
+  - Sound Board Operator: Lily Zawatsky
+  - Set Construction:
+      - Katie Allen
+      - Daniel Locke
+      - Curtis Svenson
+      - Cate Lynch
+  - Running Crew:
+      - Lourdes “Lo” Acosta
+      - Cate Lynch
 orchestra:
 Genres:
   - Play
