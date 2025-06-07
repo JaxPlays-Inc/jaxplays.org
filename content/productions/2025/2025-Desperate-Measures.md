@@ -25,9 +25,9 @@ program:
 Website: https://www.theatrejax.com/season-105
 Tickets: https://ci.ovationtix.com/34919
 show_details: 
-- Book: Peter Kellogg
+- Book: "[[w:Peter Kellogg (writer)|Peter Kellogg]]"
 - Lyrics: Peter Kellogg
-- Music: David Friedman
+- Music: "[[w:David Friedman (composer)|David Friedman]]"
 cast:
   - Johnny Blood: Brennan Moritz
   - Father Morse: Neal Thorburn
@@ -37,6 +37,19 @@ cast:
   - Bella Rose: Aly Blakewell
 crew:
   - Director: Daniel Austin
+  - Music Director: Erin Barnes
+  - Production Manager: Michelle Kindy
+  - Lighting & Set Design: Johnny Pettegrew
+  - Sound Design: Brent Mulberry
+  - Costume Design: Classic Costumes
+  - Graphic Design: Green Onion Creative LLC
+  - Box Office Support Staff: Katie Cress
+  - Stage Management Team:
+      - Lourdes Acosta
+      - Eli Durnam
+      - Aspen Krill
+  - Light Board Operator: Katie Cress
+  - Sound Board Operator: Tyler Leeps
 orchestra:
 Genres:
   - Musical
@@ -45,3 +58,32 @@ Genres:
 Description: "Get ready for *Desperate Measures*, a rollicking Wild West musical inspired by Shakespeare's 'Measure for Measure.'"
 ---
 Set in the late 1800s, this musical spins a tale of Johnny Blood, a charming outlaw whose life is on the line. When a lawman offers him a chance for freedom in exchange for his sister's hand in marriage to the governor, a series of wild mishaps and moral dilemmas ensue. Featuring a lively score, sharp wit, and plenty of humor, *Desperate Measures* cleverly blends classical themes with a frontier setting, resulting in a foot-stomping, feel-good musical romp.
+
+### Musical numbers
+{{< columns >}} 
+#### Act I
+- "The Ballad of Johnny Blood" — All
+- "The Ballad of Johnny Blood (Reprise)" — Johnny
+- "That's Just How It Is" — Sheriff
+- "Some Day They Will Thank Me" — Governor
+- "Look in Your Heart" — Susanna
+- "It's Good to Be Alive" — Johnny
+- "It Doesn't Hurt to Try" — Sheriff, Johnny, Susanna, Priest
+- "It's Getting Hot in Here" — Bella
+- "The Way That You Feel" — Susanna, Sheriff, Bella
+- "Stop There" — Sheriff
+- "In the Dark" — All
+-   "Song Title" - Character, Ensemble
+<--->
+#### Act II
+- "What a Night!" — Governor
+- "About Last Night" — Governor and Susanna
+- "Stop There (Reprise)" — Sheriff
+- "Just for You" — Bella and Johnny
+- "Just For You (Reprise)" — Bella and Johnny
+- "What is This Feeling?" — Susanna
+- "Life Takes You by Surprise" — All
+- "It's Good to Be Alive" (Reprise) — Johnny
+- "It's a Beautiful Day" — Susanna and Bella
+- "Finale" — All
+{{< /columns >}}
