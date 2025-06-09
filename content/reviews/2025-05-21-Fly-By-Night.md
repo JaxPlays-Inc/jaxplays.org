@@ -28,7 +28,7 @@ Anchored by [[person:David Buchman]] as The Narrator, the show begins with a son
 
 [[person:Heather Starling]] (Daphne) and [[person:Amanda Pazos]] (Miriam) each bring thoughtful, grounded interpretations to their roles. Starling leans into Daphne’s hopeful drive and theatrical flair, while Pazos offers a more introspective counterweight as Miriam. Their performances are sincere and thoughtfully drawn, but the characters they inhabit often feel more static compared to the vitality and complexity brought to life by the rest of the cast. Still, their chemistry with Harold and with each other adds emotional resonance and credibility to the central love triangle.
 
-As Harold’s father, [[person:Mr. McClam]], Brian Johnson delivers one of the evening’s most emotionally affecting performances. With gentle precision, he brings dignity to a man haunted by regret and memory. 
+As Harold’s father, Mr. McClam, [[person:Brian Johnson]] delivers one of the evening’s most emotionally affecting performances. With gentle precision, he brings dignity to a man haunted by regret and memory. 
 
 [[person:Don Cupo]]’s turn as Mr. Crabble is a burst of comic energy in nearly every scene he appears in. He finds every possible laugh and delivers it with ease, without ever losing touch with the show’s deeper emotional stakes. [[person:Matthew Turnage]], as Joey Storm, adds a steady and natural presence to the ensemble, giving his scenes a sense of ease and likability that helps anchor the more chaotic moments around him.
 
