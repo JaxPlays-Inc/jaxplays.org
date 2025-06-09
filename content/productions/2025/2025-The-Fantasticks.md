@@ -21,7 +21,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-The-Fantasticks.pdf
 Website: https://www.abetjax.com/
 Tickets: https://www.tickettailor.com/events/abetallbeachesexperimentaltheatre/1585871?utm_source=jaxplays
 cast:
@@ -41,6 +41,9 @@ crew:
 - Fight Director: Ryan Mahannah
 - Choreographer: Tess Sturgeon
 - Stage Manager: Tyler Smith
+- Photographer: Josh Andrews
+- Lighting/Sound Design: Destiny Golden
+- Set Dresser: Allen Morten
 understudies:
 - Louisa: Trinity Smith
 ---

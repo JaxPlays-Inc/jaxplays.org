@@ -27,6 +27,12 @@ Website:
 Tickets: https://app.arts-people.com/index.php?actions=22&p=1
 show_details: 
 cast:
+  - Sheree Hollinger: Jen DeGroff
+  - Dinah Grayson: Starr Duvall
+  - Lexie Richards: Jennifer Jaress
+  - Jeri Neal McFeeley: Jayme Taylor
+  - Vernadette Simms: Brandily Oliphant
 crew:
+- Director: Joseph Stearman
 orchestra:
 ---
