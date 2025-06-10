@@ -19,7 +19,7 @@ cast:
   - Aly Blakewell
   - Daniel Austin
   - Erin Barnes
-description: "Theatre Jacksonville’s 'Desperate Measures' brings wild western charm to Shakespeare’s Measure for Measure, with standout performances and sharp musical wit."
+description: "Theatre Jacksonville’s *Desperate Measures* brings wild western charm to Shakespeare’s Measure for Measure, with standout performances and sharp musical wit."
 ---
 [[production:2025 Desperate Measures]] is a sly and spirited musical adaptation of *[[w:Measure for Measure]]*, Shakespeare’s morally knotty comedy about justice, mercy and the abuse of power. Rather than Elizabethan Vienna, the action here unfolds in the Arizona Territory during the late 1800s, where saloons and six-shooters replace dukes and friars.<!--more-->
 
