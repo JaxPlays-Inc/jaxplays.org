@@ -1,7 +1,7 @@
 ---
 title: Rae Colley
 aliases: 
-- /people/Rae-Marie-Carlton
+ - /people/Rae-Marie-Carlton
  - /people/Rae-Carlton-Colley
  - /people/Rae-Marie-Carlton-Colley
 other_names: 

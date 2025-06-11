@@ -7,14 +7,14 @@ permalinks:
   news: "/:section/:year/:month/:day/:slug/"
   reviews: "/:section/:year/:month/:day/:slug/"
   editorials: "/:section/:year/:month/:day/:slug/"
-  people: "/:section/:filename/"
-  productions: "/:section/:filename/"
-  shows: "/:section/:filename/"
-  theatres: "/:section/:filename/"
-  venues: "/:section/:filename/"
-  productions/current: "/productions/current/:filename/"
-  productions/future: "/productions/future/:filename/"
-  productions/past: "/productions/past/:filename/"
+  people: "/:section/:contentbasename/"
+  productions: "/:section/:contentbasename/"
+  shows: "/:section/:contentbasename/"
+  theatres: "/:section/:contentbasename/"
+  venues: "/:section/:contentbasename/"
+  productions/current: "/productions/current/:contentbasename/"
+  productions/future: "/productions/future/:contentbasename/"
+  productions/past: "/productions/past/:contentbasename/"
 
 params:
   description: Your go-to source for all live theatre, plays and musicals in Jacksonville, Florida and all of Northeast Florida and Southeast Georgia.
@@ -27,7 +27,7 @@ params:
     - "editorials"
   background_color_class: "bg-black"
   light_text_color_class: "gray"
-  jaxplays_socials:
+  social:
   - name: facebook
     url: https://www.facebook.com/jaxplaysorg
     label: Facebook

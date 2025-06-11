@@ -12,14 +12,19 @@
 {{ $linkedin_url := printf "%s?%s" $url $utm_linkedin | urlquery }}
 
 {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $facebook_url }}
+
 {{ $twitter_href := printf "https://twitter.com/share?url=%s" $twitter_url }}
-{{ with site.Social.twitter }}
+{{ $twitter := index (first 1 (where .Site.Params.social "name" "twitter")) 0 }}
+{{ with $twitter.label }}
   {{ $twitter_href = printf "%s&via=%s" $twitter_href . }}
 {{ end }}
+
 {{ $bluesky_href := printf "https://bsky.app/intent/compose?text=%s" $bluesky_url }}
-{{ with site.Social.bluesky }}
+{{ $bluesky := index (first 1 (where .Site.Params.social "name" "bluesky")) 0 }}
+{{ with $bluesky.label }}
   {{ $bluesky_href = printf "%s&via=%s" $bluesky_href . }}
 {{ end }}
+
 {{ $linkedin_href := printf "https://www.linkedin.com/shareArticle?mini=true&url=%s&title=%s" $linkedin_url $title }}
 {{ $hrefs := dict "facebook" $facebook_href "twitter" $twitter_href "linkedin" $linkedin_href "bluesky" $bluesky_href }}
 

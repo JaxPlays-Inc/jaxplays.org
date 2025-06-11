@@ -36,6 +36,6 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   recent_posts_number = 3
 
-[[params.jaxplays_socials]]
+[[params.social]]
 name = "twitter"
 url = "https://twitter.com/GoHugoIO"
