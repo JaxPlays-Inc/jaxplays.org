@@ -1,5 +1,5 @@
 ---
-published: false
+draft: true
 cancelled: COVID-19
 layout: productions
 title: 'Sherwood: The Adventures of Robin Hood'

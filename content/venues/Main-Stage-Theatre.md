@@ -6,7 +6,6 @@ aliases:
   - /venues/nathan-h-wilson-center-for-the-arts
 venue_aliases:
   - Wilson Center - Main Stage Theatre
-published: true
 active: true
 featured_image: Nathan_H_Wilson_Center_for_the_Arts.png
 featured_image_attr: fscj.edu

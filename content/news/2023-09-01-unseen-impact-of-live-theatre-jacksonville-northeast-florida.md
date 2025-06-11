@@ -2,7 +2,6 @@
 title: "Behind the Curtains: Unveiling the Unseen Impact of Live Theatre in Jacksonville and Northeast Florida"
 layout: posts
 date: 2023-08-01T14:57:05-04:00
-published: true
 authors:
 - Ray Hollister
 categories: News

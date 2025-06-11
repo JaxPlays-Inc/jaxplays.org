@@ -1,5 +1,4 @@
 ---
-published: true
 layout: posts
 title: "JaxPlays Rises Again: A New Beginning for Northeast Florida Theatre Lovers!"
 categories: News

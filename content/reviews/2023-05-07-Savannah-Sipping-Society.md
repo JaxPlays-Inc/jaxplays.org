@@ -4,7 +4,6 @@ aliases:
   - /news/2023/05/07/the-savannah-sipping-society-a-toast-to-sisterhood-and-laughter-at-st.-marys-little-theatre/
 layout: posts
 date: 2023-05-07T22:12:34-04:00
-published: true
 categories: Reviews
 featured_image: /media/photos/2023_Savannah_Sipping_Society_07.jpg
 featured_image_alt: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley (left to right)

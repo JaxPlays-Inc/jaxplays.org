@@ -1,5 +1,5 @@
 ---
-published: false
+draft: true
 cancelled: COVID-19
 layout: productions
 title: Guess Who's Coming to Dinner

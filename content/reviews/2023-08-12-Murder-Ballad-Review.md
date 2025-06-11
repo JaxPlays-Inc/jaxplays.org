@@ -3,7 +3,6 @@ title: "Dangerous Love: 'Murder Ballad' Takes Center Stage at ABET"
 aliases:
 - /news/2023/08/12/dangerous-love-murder-ballad-takes-center-stage-at-abet/
 date: 2023-08-12T18:15:39+00:00
-published: true
 categories: Reviews
 featured_image: /media/photos/2023_Murder_Ballad_01.webp
 featured_image_attr: Daniel Starling

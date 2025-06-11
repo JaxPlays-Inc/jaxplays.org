@@ -5,7 +5,6 @@ aliases:
   - /news/2023/06/28/no-exit-is-a-mystery-box-you-cant-escape/
 layout: posts
 date: 2023-07-27T23:45:00-04:00
-published: true
 categories: Reviews
 featured_image: /media/photos/2023_No_Exit_6.webp
 featured_image_attr: Ray Hollister

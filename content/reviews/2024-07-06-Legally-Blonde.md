@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Amelia Musical Playhouse Makes a Case for Fun with 'Legally Blonde'"
 date: 2024-07-06T20:20:31-04:00
 featured_image: /media/photos/2024-Legally-Blonde.webp
