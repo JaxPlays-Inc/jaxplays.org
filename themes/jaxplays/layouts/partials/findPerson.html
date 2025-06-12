@@ -7,15 +7,29 @@
     {{ end }}
   {{ end }}
 {{ end }}
-{{ if $foundPage }}
-  {{ if and $foundPage.Params.featured_image .showImage (not .isArray) }}
-  <a href="/people/{{ $urlName }}" class="flex flex-column mr3">
-    <div class="br-100 cover mb1" style="width: 100px; height: 100px; background-position: top center; background-image: url('{{ "/media/headshots/" | absURL }}{{$foundPage.Params.featured_image}}');"></div>
-    {{ $foundPage.Title }}
-  </a>
+{{ $defaultImage := "/media/default/people_headshot.webp" }}
+{{ if and .showImage }}
+  {{ $imageToUse := $defaultImage }}
+  {{ $personName := .urlName }}
+  {{ if $foundPage }}
+    {{ $personName = $foundPage.Title }}
+    {{ if $foundPage.Params.featured_image }}
+      {{ $imageToUse = (print "/media/headshots/" $foundPage.Params.featured_image) }}
+    {{ end }}
+    <a href="/people/{{ $urlName }}" class="flex flex-column mr3 items-center" style="width: 100px;">
+      <div class="br-100 cover mb1" style="width: 100px; height: 100px; background-position: top center; background-image: url('{{ $imageToUse | absURL }}');"></div>
+      <span class="tc w-100 f6" style="max-width: 100px; display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
+    </a>
   {{ else }}
-  <a href="/people/{{ $urlName }}" class="ml1">{{ $foundPage.Title }}</a>
+    <span class="flex flex-column mr3 items-center" style="width: 100px;">
+      <div class="br-100 cover mb1" style="width: 100px; height: 100px; background-position: top center; background-image: url('{{ $defaultImage | absURL }}');"></div>
+      <span class="tc w-100 f6" style="max-width: 100px; display: block; white-space: normal; overflow-wrap: break-word;">{{ .urlName }}</span>
+    </span>
   {{ end }}
 {{ else }}
-  <span class="ml1">{{ .urlName }}</span>
+  {{ if $foundPage }}
+    <a href="/people/{{ $urlName }}" class="ml1">{{ $foundPage.Title }}</a>
+  {{ else }}
+    <span class="ml1">{{ .urlName }}</span>
+  {{ end }}
 {{ end }}

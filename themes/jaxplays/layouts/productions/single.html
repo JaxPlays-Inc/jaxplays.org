@@ -372,13 +372,11 @@
         <div class="b pa3-ns pa2 w-50 w-30-l">{{ $roleOrCharOrInst }}</div>
         <div class="pa3-ns pa2 w-50 w-70-l flex flex-wrap">
           {{ if (eq (printf "%T" $person) "[]interface {}") }}
-          {{ range $idx, $p := $person }}
-          {{/* {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" (eq $section "Cast")
-          "isArray" true) }} */}}
-          {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
-          {{ $output := chomp $output }}
-          {{ $output | safeHTML }}{{ if ne $idx (sub (len $person) 1) }},{{ end }}
-          {{ end }}
+            {{ range $idx, $p := $person }}
+              {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
+              {{ $output := chomp $output }}
+              {{ $output | safeHTML }}
+            {{ end }}
           {{ else }}
           {{/* {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" (eq $section
           "Cast") "isArray" false) }} */}}
