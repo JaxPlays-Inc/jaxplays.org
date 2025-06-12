@@ -50,3 +50,6 @@ understudies:
 "Try To Remember" a time when this romantic charmer wasn't enchanting audiences around the world. The Fantasticks is the longest-running musical in the world and with good reason: at the heart of its breathtaking poetry and subtle theatrical sophistication is a purity and simplicity that transcends cultural barriers. The result is a timeless fable of love that manages to be nostalgic and universal at the same time.
 
 The Fantasticks is a funny and romantic musical about a boy, a girl, and their two fathers who try to keep them apart. The narrator, El Gallo, asks the audience to use their imagination and follow him into a world of moonlight and magic. The boy and the girl fall in love, grow apart and finally find their way back to each other after realizing the truth in El Gallo's words that, "without a hurt, the heart is hollow."
+
+## First Coast Connect: "The Fantasticks" Musical
+{{< youtube klbBxb8rVNg >}}
