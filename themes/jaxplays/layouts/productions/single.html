@@ -370,7 +370,7 @@
           {{ range $roleOrCharOrInst, $person := . }}
             <div class="flex-column bb bw1 b--silver f5 f4-ns">
               <div class="b w-100 pt3 pb2">{{ $roleOrCharOrInst }}</div>
-                <div class="flex justify-center align-center pb3 w-100">
+                <div class="flex justify-center pb3 w-100">
                 {{ if (eq (printf "%T" $person) "[]interface {}") }}
                   <div class="cast-array-wrapper">
                   <div class="scroll-cast">
@@ -415,11 +415,8 @@
         justify-content: left;
         align-items: stretch;
         gap: 0.5rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
         padding-bottom: 0.5rem;
-        padding-left: 1rem;
-        width: 100vw;
+        width: calc(100vw - 2rem);
         box-sizing: border-box;
         /* Optional: add scroll snap for a slicker mobile experience */
         scroll-snap-type: x mandatory;
