@@ -412,7 +412,6 @@
         overflow-x: auto !important;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
-        justify-content: left;
         align-items: stretch;
         gap: 0.5rem;
         padding-bottom: 0.5rem;
@@ -420,6 +419,8 @@
         box-sizing: border-box;
         /* Optional: add scroll snap for a slicker mobile experience */
         scroll-snap-type: x mandatory;
+            /* Safe-center only if content does not overflow */
+        justify-content: safe center;
       }
       .scroll-cast > * {
         flex: 0 0 auto;
