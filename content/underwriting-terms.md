@@ -2,6 +2,7 @@
 title: "Terms of Service for Corporate Underwriting on JaxPlays"
 Description: Support JaxPlays - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
 date: 2025-05-05T12:56:34-04:00
+
 ---
 Effective Date: September 8, 2023
 

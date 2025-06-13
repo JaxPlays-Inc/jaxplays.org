@@ -1,6 +1,7 @@
 ---
 title: "Sign Up for JaxPlays Spotlight"
 layout: "signup"
+type: "page"
 aliases: 
   - /submit/newsletter/
 Description: Sign up for JaxPlays Spotlight - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.

@@ -1,6 +1,7 @@
 ---
 title: "Support JaxPlays"
 layout: "support"
+type: "page"
 Description: Support JaxPlays - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
 date: 2023-09-08T00:00:00-04:00
 ---
