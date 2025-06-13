@@ -361,37 +361,75 @@
 
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     {{ $site := .Site }}
-    {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies
-    "Orchestra" .Params.orchestra }}
+
+    {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
     {{ if $paramsArray }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
-      {{ range $paramsArray }}
-      {{ range $roleOrCharOrInst, $person := . }}
-      <div class="flex bb bw1 b--silver f5 f4-ns">
-        <div class="b pa3-ns pa2 w-50 w-30-l">{{ $roleOrCharOrInst }}</div>
-        <div class="pa3-ns pa2 w-50 w-70-l flex flex-wrap">
-          {{ if (eq (printf "%T" $person) "[]interface {}") }}
-            {{ range $idx, $p := $person }}
-              {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
-              {{ $output := chomp $output }}
-              {{ $output | safeHTML }}
-            {{ end }}
-          {{ else }}
-          {{/* {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" (eq $section
-          "Cast") "isArray" false) }} */}}
-          {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray"
-          false) }}
-          {{ $output := chomp $output }}
-          {{ $output | safeHTML }}
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
+        {{ range $paramsArray }}
+          {{ range $roleOrCharOrInst, $person := . }}
+            <div class="flex-column bb bw1 b--silver f5 f4-ns">
+              <div class="b w-100 pt3 pb2">{{ $roleOrCharOrInst }}</div>
+                <div class="flex justify-center align-center pb3 w-100">
+                {{ if (eq (printf "%T" $person) "[]interface {}") }}
+                  <div class="cast-array-wrapper">
+                  <div class="scroll-cast">
+                    {{ range $idx, $p := $person }}
+                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
+                    {{ $output := chomp $output }}
+                    {{ $output | safeHTML }}
+                    {{ end }}
+                  </div>
+                  </div>
+                {{ else }}
+                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false) }}
+                  {{ $output := chomp $output }}
+                  {{ $output | safeHTML }}
+                {{ end }}
+                </div>
+            </div>
           {{ end }}
-        </div>
+        {{ end }}
       </div>
-      {{ end }}
-      {{ end }}
-    </div>
     {{ end }}
     {{ end }}
+
+    <style>
+    /* Desktop & Large screens: wrap and center as you styled */
+    .scroll-cast {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    /* On mobile only (max-width: 700px), horizontal scroll! */
+    @media (max-width: 700px) {
+      .scroll-cast {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        justify-content: left;
+        align-items: stretch;
+        gap: 0.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        width: 100vw;
+        box-sizing: border-box;
+        /* Optional: add scroll snap for a slicker mobile experience */
+        scroll-snap-type: x mandatory;
+      }
+      .scroll-cast > * {
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+      }
+    }
+    </style>
 
     <!-- Reviews -->
     {{ $filename := .File.BaseFileName | replaceRE "-" " "}}
