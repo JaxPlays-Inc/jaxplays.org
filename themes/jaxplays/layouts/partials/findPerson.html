@@ -16,14 +16,14 @@
     {{ if $foundPage.Params.featured_image }}
       {{ $imageToUse = (print "/media/headshots/" $foundPage.Params.featured_image) }}
     {{ end }}
-    <a href="/people/{{ $urlName }}" class="flex flex-column items-center" style="width: 100px;">
-      <div class="br-100 cover mb1" style="width: 100px; height: 100px; background-position: top center; background-image: url('{{ $imageToUse | absURL }}');"></div>
-      <span class="tc w-100 f5" style="max-width: 100px; display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
+    <a href="/people/{{ $urlName }}" class="flex flex-column items-center" >
+      <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $imageToUse | absURL }}');"></div>
+      <span class="tc f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
     </a>
   {{ else }}
-    <span class="flex flex-column items-center" style="width: 100px;">
-      <div class="br-100 cover mb1" style="width: 100px; height: 100px; background-position: top center; background-image: url('{{ $defaultImage | absURL }}');"></div>
-      <span class="tc w-100 f5" style="max-width: 100px; display: block; white-space: normal; overflow-wrap: break-word;">{{ .urlName }}</span>
+    <span class="flex flex-column items-center" style="width: 150px;">
+      <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $defaultImage | absURL }}');"></div>
+      <span class="tc w-100 f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ .urlName }}</span>
     </span>
   {{ end }}
 {{ else }}
