@@ -343,7 +343,7 @@
     {{ end }}
 
     {{ if or .Content $showSynopsis }}
-    <div id="synopsis" class="nested-copy-line-height lh-copy f4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div id="synopsis" class="nested-copy-line-height lh-copy f5 f4-ns {{ $.Param " text_color" | default "dark-gray" }}">
       {{ if and .Content $showSynopsis }}
       <h3 class="f3 mt4 mb3 sectionline">Synopsis</h3>
       {{ partial "content-wikilinks" $showSynopsis }}
