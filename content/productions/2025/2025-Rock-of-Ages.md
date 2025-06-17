@@ -4,7 +4,7 @@ Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 date: 2024-06-15T12:13:16-04:00
 opening_date: 2025-05-30
-closing_date: 2025-06-22
+closing_date: 2025-06-15
 showtimes:
   - 2025-05-30 19:30:00
   - 2025-05-31 19:30:00
