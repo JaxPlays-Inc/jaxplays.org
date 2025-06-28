@@ -113,7 +113,6 @@
     {{ $currentlyOnStage := sort $currentlyOnStage "Params.opening_date" "asc" }}
     {{ $comingSoon := sort $comingSoon "Params.opening_date" "asc" }}
     {{ $pastProductions := sort $pastProductions "Params.opening_date" "desc" }}
-    {{ $pastPaginator := .Paginate $pastProductions 10 }}
 
     {{/* Currently On Stage Section */}}
     {{ partial "production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage) }}
@@ -122,8 +121,7 @@
     {{ partial "production-section.html" (dict "sectionName" "Coming Soon!" "productions" $comingSoon) }}
 
     {{/* Past Productions Section */}}
-    {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastPaginator.Pages) }}
-    {{ template "_internal/pagination.html" . }}
+    {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
 
     <!-- END Theatre Productions Section -->
 
