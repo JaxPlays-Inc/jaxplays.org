@@ -1,0 +1,58 @@
+<nav class="post-navigation relative flex-l flex-wrap justify-between mw8 center ph3">
+  {{ with .PrevInSection }}
+  <h3>Previous {{ title .Section }}:<br /> <a id="prev-post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ end }}
+  {{ with .NextInSection }}
+  <h3>Next {{ title .Section }}:<br /> <a id="next-post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ end }}
+</nav>
+
+<script>
+  window.nextPostUrl = document.getElementById('next-post-link')?.href || "";
+  window.prevPostUrl = document.getElementById('prev-post-link')?.href || "";
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let loading = false;
+  let prevUrl = document.getElementById('prev-post-link')?.href || "";
+
+  window.addEventListener('scroll', function() {
+    if (loading || !prevUrl) return;
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 200) {
+      loading = true;
+      fetch(prevUrl)
+        .then(response => response.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          const prevPost = doc.querySelector('.main-content');
+          const prevNav = doc.querySelector('.post-navigation');
+
+          if (prevPost) {
+            prevPost.id = '';
+            // Append new post content
+            document.querySelector('.main-content').parentNode.appendChild(prevPost);
+            // Append its navigation just after the new post
+            if (prevNav) {
+              document.querySelector('.main-content').parentNode.appendChild(prevNav);
+            }
+            // --- Update browser history to the new post ---
+            // Tries to grab canonical link first, then falls back to prevUrl
+            const newUrl = doc.querySelector('link[rel="canonical"]')?.href
+              || prevPost.querySelector('a[rel="bookmark"]')?.href
+              || prevUrl;
+            const newTitle = doc.querySelector('title')?.innerText || document.title;
+            history.pushState({}, '', newUrl);
+            document.title = newTitle;
+
+            // Now, update prevUrl to the newly appended nav
+            prevUrl = prevNav?.querySelector('#prev-post-link')?.href || "";
+          } else {
+            prevUrl = null;
+          }
+          loading = false;
+        });
+    }
+  });
+});
+</script>
