@@ -15,6 +15,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   let loading = false;
   let prevUrl = document.getElementById('prev-post-link')?.href || "";
+  let adSlotIncrement = 1; // Keeps ad IDs unique
 
   window.addEventListener('scroll', function() {
     if (loading || !prevUrl) return;
@@ -41,6 +42,25 @@ document.addEventListener("DOMContentLoaded", function() {
             if (prevNav) {
               document.querySelector('.main-content').parentNode.appendChild(prevNav);
             }
+
+            // === Make ad slot IDs unique and re-display them ===
+            // This ensures every infinite-loaded post's ads get new slots and will display
+            const newContentParent = document.querySelector('.main-content').parentNode;
+            const adDivs = newContentParent.querySelectorAll("div[id^='div-gpt-ad-']");
+            adDivs.forEach(function(adDiv) {
+              // Only process if not already handled
+              if (!adDiv.dataset.gptHandled) {
+                const oldId = adDiv.id;
+                // Create a unique new ID
+                const newId = oldId.replace(/-\d+$/, '-' + adSlotIncrement++);
+                adDiv.id = newId;
+                adDiv.dataset.gptHandled = "1";
+                if (window.googletag && googletag.apiReady) {
+                  googletag.cmd.push(function() { googletag.display(newId); });
+                }
+              }
+            });
+
             // --- Update browser history to the new post ---
             const newUrl = doc.querySelector('link[rel="canonical"]')?.href
               || prevPost.querySelector('a[rel="bookmark"]')?.href
