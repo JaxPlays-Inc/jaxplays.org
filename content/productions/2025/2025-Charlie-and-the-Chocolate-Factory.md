@@ -136,6 +136,7 @@ crew:
   - Costume Design:
       - Camala Pitts
       - Dorinda Quiles
+  - Production Design: Michael Roddy
   - Set Design/Technical Director: David Dionne
   - Set Construction:
       - David Dionne
