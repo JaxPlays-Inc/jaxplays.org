@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   window.addEventListener('scroll', function() {
     if (loading || !prevUrl) return;
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 200) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 600) {
       loading = true;
       fetch(prevUrl)
         .then(response => response.text())
