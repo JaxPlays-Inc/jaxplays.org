@@ -15,7 +15,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   let loading = false;
   let prevUrl = document.getElementById('prev-post-link')?.href || "";
-  let adSlotIncrement = 1; // Keeps ad IDs unique
 
   window.addEventListener('scroll', function() {
     if (loading || !prevUrl) return;
@@ -39,25 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
             if (prevNav) {
               document.querySelector('.main-content').parentNode.appendChild(prevNav);
             }
-
-            // ===== DYNAMIC BILLBOARD AD SLOT DEFINITION =====
-            const adDivs = document.querySelectorAll('.gpt-ad[data-ad-unit="/23156489440/billboard-1"]:not([data-gpt-initialized])');
-            adDivs.forEach(function(adDiv) {
-              const newId = 'div-gpt-ad-billboard-' + (gptAdIndex++);
-              adDiv.id = newId;
-              adDiv.setAttribute('data-gpt-initialized', '1');
-              const adUnit = adDiv.dataset.adUnit;
-              const width = parseInt(adDiv.dataset.width, 10);
-              const height = parseInt(adDiv.dataset.height, 10);
-              if (window.googletag && googletag.apiReady) {
-                googletag.cmd.push(function() {
-                  googletag
-                    .defineSlot(adUnit, [width, height], newId)
-                    .addService(googletag.pubads());
-                  googletag.display(newId);
-                });
-              }
-            });
 
             // --- Update browser history to the new post ---
             const newUrl = doc.querySelector('link[rel="canonical"]')?.href
