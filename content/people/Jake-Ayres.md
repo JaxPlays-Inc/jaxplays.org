@@ -8,7 +8,7 @@ other_names:
  - Jake Ayers
  - Jacob Ayres
 featured_image: Jake-Ayres.webp
-featured_image_attr: 
+featured_image_attr: Chris Milligan
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
