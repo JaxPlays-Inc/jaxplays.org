@@ -32,32 +32,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
           if (prevPost) {
             prevPost.id = '';
-            // Append featured image/header BEFORE post content
             if (prevHeader) {
               document.querySelector('.main-content').parentNode.appendChild(prevHeader);
             }
-            // Append new post content
             document.querySelector('.main-content').parentNode.appendChild(prevPost);
-            // Append its navigation just after the new post
             if (prevNav) {
               document.querySelector('.main-content').parentNode.appendChild(prevNav);
             }
 
-            // === Make ad slot IDs unique and re-display them ===
-            // This ensures every infinite-loaded post's ads get new slots and will display
-            const newContentParent = document.querySelector('.main-content').parentNode;
-            const adDivs = newContentParent.querySelectorAll("div[id^='div-gpt-ad-']");
+            // ===== DYNAMIC BILLBOARD AD SLOT DEFINITION =====
+            const adDivs = document.querySelectorAll('.gpt-ad[data-ad-unit="/23156489440/billboard-1"]:not([data-gpt-initialized])');
             adDivs.forEach(function(adDiv) {
-              // Only process if not already handled
-              if (!adDiv.dataset.gptHandled) {
-                const oldId = adDiv.id;
-                // Create a unique new ID
-                const newId = oldId.replace(/-\d+$/, '-' + adSlotIncrement++);
-                adDiv.id = newId;
-                adDiv.dataset.gptHandled = "1";
-                if (window.googletag && googletag.apiReady) {
-                  googletag.cmd.push(function() { googletag.display(newId); });
-                }
+              const newId = 'div-gpt-ad-billboard-' + (gptAdIndex++);
+              adDiv.id = newId;
+              adDiv.setAttribute('data-gpt-initialized', '1');
+              const adUnit = adDiv.dataset.adUnit;
+              const width = parseInt(adDiv.dataset.width, 10);
+              const height = parseInt(adDiv.dataset.height, 10);
+              if (window.googletag && googletag.apiReady) {
+                googletag.cmd.push(function() {
+                  googletag
+                    .defineSlot(adUnit, [width, height], newId)
+                    .addService(googletag.pubads());
+                  googletag.display(newId);
+                });
               }
             });
 

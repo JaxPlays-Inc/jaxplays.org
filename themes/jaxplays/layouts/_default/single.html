@@ -1,9 +1,11 @@
+
 {{ define "header" }}
    {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
+  <div class="infinite-scroll-post-block">
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="main-content relative flex-l flex-wrap justify-between mw8 center ph3" data-url="{{ .Permalink }}" data-title="{{ .Title }}">
     <div class="mt3 w-100 relative">
@@ -85,4 +87,5 @@
     {{- partial "GAM-right-rail-1.html" (dict "margin" "0" "right" "-315px") -}}
   </article>
   {{- partial "infiniteScroll.html" . -}}
+  </div>
 {{ end }}
