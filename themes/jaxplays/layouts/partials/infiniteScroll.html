@@ -25,11 +25,16 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(html => {
           const parser = new DOMParser();
           const doc = parser.parseFromString(html, 'text/html');
+          const prevHeader = doc.querySelector('header');
           const prevPost = doc.querySelector('.main-content');
           const prevNav = doc.querySelector('.post-navigation');
 
           if (prevPost) {
             prevPost.id = '';
+            // Append featured image/header BEFORE post content
+            if (prevHeader) {
+              document.querySelector('.main-content').parentNode.appendChild(prevHeader);
+            }
             // Append new post content
             document.querySelector('.main-content').parentNode.appendChild(prevPost);
             // Append its navigation just after the new post
@@ -37,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
               document.querySelector('.main-content').parentNode.appendChild(prevNav);
             }
             // --- Update browser history to the new post ---
-            // Tries to grab canonical link first, then falls back to prevUrl
             const newUrl = doc.querySelector('link[rel="canonical"]')?.href
               || prevPost.querySelector('a[rel="bookmark"]')?.href
               || prevUrl;
