@@ -124,7 +124,7 @@ function copyToClipboard(value) {
 
 - Headings: Use **Avenir Next Bold** for all headings and subheadings.
 
-- In the [News](/news/) and [Reviews](/reviews/) articles we use [**Athelas**](https://fonts.adobe.com/fonts/athelas), font-weight 700, for the title and **Georgia** for the body text and subheadings.
+- In the [News](/news/) and [Reviews](/reviews/) articles we use [**Georgia**](https://fonts.adobe.com/fonts/georgia), font-weight 600, for the title and **Georgia**, font-weight 400, for the body text and subheadings.
 
 ## 5. Logo and Wordmark
 - The JaxPlays logo is gold on a black background.

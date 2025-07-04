@@ -14,12 +14,12 @@ More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/ta
         </div>
       {{ end }}
       <div class="blah w-100{{ if $featured_image }} w-60-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
+        <h1 class="f3 fw6 georgia mt0 lh-title">
           <a href="{{.RelPermalink}}" class="color-inherit dim link">
             {{ .Title }}
             </a>
         </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+        <div class="f6 f5-l fw6 lh-copy nested-copy-line-height nested-links">
           {{- partial "content-wikilinks" .Summary -}}
           {{/*  {{ .Summary }}  */}}
         </div>
