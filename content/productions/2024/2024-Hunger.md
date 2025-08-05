@@ -38,5 +38,12 @@ genres:
 - Play
 - Drama
 Description: Hunger is an original LGBTQ+ one-act play that follows the love story between Princess Aelia and Siren Selena as they discover what love really means to them.
+Press:
+- "Debut of Hunger: The One-Act Play Showcasing a Queer Coming-of-Age Love Story | River City Live News4Jax": https://www.news4jax.com/river-city-live/2024/05/23/debut-of-hunger-the-one-act-play-showcasing-a-queer-coming-of-age-love-story/
+- "Unbridled Mustang: Mandarin grad hungry to change his hometown | Jacksonville Today": https://jaxtoday.org/2024/05/30/unbridled-mustang-mandarin-graduate-l-j-valenzuela-is-hungry-to-change-his-hometown/
 ---
  Trapped in a loveless engagement to a nearby prince, Aelia turns toward the ocean for answers. There, she encounters Selena by the shore, leaving her hopelessly questioning her true desires. Whether this be a passionate fling, a romantic escape, or something deeper, Aelia is both terrified and thrilled to find out. How will she respond to rapturing temptation? Will she be able to fend off her annoying fiancé, Antonius, scheming handmaiden, Cordelia, and shrill mother, The Queen? And will Selena, in the end, be able to fend off her own, all-encompassing hunger?
+
+ #### Debut of "Hunger": The One-Act Play Showcasing a Queer Coming-of-Age Love Story | River City Live
+
+ {{< youtube Yxr0Ngm-c8c >}}
