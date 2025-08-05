@@ -11,7 +11,7 @@ featured_image_attr: Kari Paine
 featured_image_attr_link: https://www.orsodesignco.com/
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
+Founded: 2024
 Address: |
     
 Latitude: 
