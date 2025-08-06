@@ -1,6 +1,6 @@
 ---
 title: The Sound of Music
-Theatre: Greenlight Theatre
+Theatre: Greenlight Theatre Company
 Venue: Riverside Church at Park and King
 Season: 
 date: 2025-08-06T10:38:48-04:00
