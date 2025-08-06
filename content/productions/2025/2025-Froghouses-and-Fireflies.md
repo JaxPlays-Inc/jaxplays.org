@@ -19,6 +19,7 @@ program:
 Website: https://www.stmaryslittletheatre.com/collections/box-office
 Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/683c723a33d4b60f605b2814/tickets#/productions-view
 show_details: 
+- Playwright: Barbara Ryan-Harris
 cast:
 - Little Nell: Adeline Nicholson
 - Mama: Susan Langenbahn
