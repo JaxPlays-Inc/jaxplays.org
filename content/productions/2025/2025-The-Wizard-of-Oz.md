@@ -26,7 +26,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: 
-Tickets: https://opct.booktix.com/dept/main/e/woz
+Tickets: https://opct.booktix.com/dept/main/e/TWOZ
 show_details: 
 cast:
 - Toto: Lady
