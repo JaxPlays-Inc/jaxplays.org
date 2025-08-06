@@ -68,4 +68,6 @@ Genres:
 - Drama
 Description: "Chaos, comedy, and family drama collide in a madcap reunion filled with sibling rivalry, prophetic housekeepers, and costume parties."
 ---
+{{< figure src="/media/posters/2024-Vanya-and-Sonia-and-Masha-and-Spike-02.webp" alt="" caption="" attr=""  attr_link="" >}}
+
 When middle-aged siblings Vanya and Sonia get a surprise visit from their movie-star sister, Masha, and her youthful arm-candy, Spike, their quiet, mundane world is flipped on its head. Amid jealousy, laughter, and awkward confrontations, the trio grapple with family dynamics, aging, and their shared history, all while dealing with a housekeeper who claims to be a soothsayer. This uproarious modern take on Chekhov delves into the absurdities of family, the passage of time, and the ties that bind.
