@@ -23,7 +23,7 @@ featured_image_caption:
 featured_image_attr: Art @ by Spotco
 featured_image_attr_link: 
 playbill: 
-website: https://www.theislandtheater.com
+website: https://www.theislandtheater.com/event-details/hadestown-teen-edition-2025-08-21-19-30
 tickets: https://www.theislandtheater.com/event-details/hadestown-teen-edition-2025-08-21-19-30
 genres:
   - Musical
