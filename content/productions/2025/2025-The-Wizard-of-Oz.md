@@ -3,7 +3,7 @@ title: The Wizard of Oz
 Theatre: Orange Park Community Theatre
 Venue: Orange Park Community Theatre
 Season: 
-date: 2025-05-08T15:16:10-04:00
+date: 2025-08-05T23:47:05-04:00
 opening_date: 2025-08-08
 closing_date: 2025-08-31
 showtimes:
@@ -19,7 +19,7 @@ showtimes:
   - 2025-08-29 19:30:00
   - 2025-08-30 19:30:00
   - 2025-08-31 14:00:00
-featured_image: 
+featured_image: 2025-The-Wizard-of-Oz.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
