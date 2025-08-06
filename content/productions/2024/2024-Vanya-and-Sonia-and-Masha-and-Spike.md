@@ -21,13 +21,46 @@ featured_image_alt:
 featured_image_caption: Poster for Vanya and Sonia and Masha and Spike
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2024-Vanya-and-Sonia-and-Masha-and-Spike.pdf
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=19&p=53
 show_details: 
 Playwright: "[[w:Christopher Durang]]"
 cast:
+  - Vanya: Daniel Starling
+  - Sonia: Renèe LaCroix
+  - Masha: Tiffany James
+  - Spike: Brendan Twiggs
+  - Nina: Brandily Oliphant
+  - Cassandra: Isabelle Bournigault
 crew:
+  - Director: Stephen Carver
+  - Assistant Director: Peggy Strickland
+  - Technical Director: Geoffrey Moss
+  - Stage Manager: Celeste Amos
+  - Assistant Stage Manager: Wendy Wilson
+  - Stage Crew:
+      - Vicki Gibson
+      - Missy Tremblay
+  - Set Construction Crew:
+      - Dewain Hanlon
+      - Dean Koepp
+      - Jamie Morrill
+  - Painting Crew:
+      - Anne Foos
+      - Jayne Jeney
+      - Peggy Strickland
+      - Janett Thomas
+      - Missy Tremblay
+      - Jennifer Webber
+      - Terri Witkosky
+  - Light Board Operator:
+      - Jayne Jeney
+      - Jennifer Webber
+  - Sound Operator: Anne Foos
+  - Costumer: Vicki Gibson
+  - Properties: Peggy Strickland
+  - Photographer: Karen Bowden
 orchestra:
 Genres:
 - Play
