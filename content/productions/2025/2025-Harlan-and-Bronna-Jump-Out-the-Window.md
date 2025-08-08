@@ -4,9 +4,16 @@ Theatre: Lumen Repertory Theatre
 Venue: Betsy Lovett Hall
 Season: 
 date: 2025-03-04T20:54:24-05:00
-opening_date: 2025-09-25
-closing_date: 2025-10-10
+opening_date: 2025-09-19
+closing_date: 2025-10-04
 showtimes:
+  - 2025-09-19 19:30:00
+  - 2025-09-20 19:30:00
+  - 2025-09-21 14:00:00
+  - 2025-09-26 19:30:00
+  - 2025-09-27 19:30:00
+  - 2025-10-03 19:30:00
+  - 2025-10-04 19:30:00
 featured_image: 2025-Harlan-and-Bronna-Jump-Out-the-Window.webp
 featured_image_alt: 
 featured_image_caption: 
