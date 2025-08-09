@@ -25,12 +25,11 @@ Tickets: https://www.lumenrep.org/shop
 show_details: 
 - Playwright: "[[w:Michael Jacobs (producer)|Michael Jacobs]]"
 cast:
-  - Cast: 
-    - Jeff Drushal
-    - Karen Konzen
-    - Bill Ratliff
-    - Josh Andrews
-    - Flynn Linning
+  - Harlan: Jeff Drushal
+  - Bronna: Karen Konzen
+  - Kale: Bill Ratliff
+  - Stage Manager: Josh Andrews
+  - Oliver: Flynn Linning
 crew:
   - Director: Michael Jacobs
   - Stage Manager: Faith Rautter
