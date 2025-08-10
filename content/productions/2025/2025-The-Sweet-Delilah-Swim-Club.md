@@ -22,7 +22,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-The-Sweet-Delilah-Swim-Club.pdf
 Website: 
 Tickets: https://app.arts-people.com/index.php?actions=22&p=1
 show_details: 
@@ -31,8 +31,47 @@ cast:
   - Dinah Grayson: Starr Duvall
   - Lexie Richards: Jennifer Jaress
   - Jeri Neal McFeeley: Jayme Taylor
-  - Vernadette Simms: Brandily Oliphant
+  - Vernadette Simms: Martha McDowell
+
 crew:
-- Director: Joseph Stearman
-orchestra:
+  - Director: Joseph Stearman
+  - Director Mentor: Linda McClane
+  - Technical Director: Brett Burnette
+  - Set Design: Jim Tipton
+  - Stage Manager: Nicole Perrella
+  - Assistant Stage Manager: Jason Taylor
+  - Costume Chief: Missy Tremblay
+  - Costume Crew:
+      - Vicki Gibson
+      - Peggy Strickland
+      - Isabelle Bournigault
+  - Stage & Props Crew:
+      - Peggy Strickland
+      - Barbara Grass
+      - Megan Davis
+      - Rob Davis
+      - Terri Witkosky
+  - Set Dressing, Props and Wigs: Allen Morton
+  - Board Operator: Scott Bobeck
+  - Set Construction:
+      - Jamie Morrill
+      - Gary Broom
+      - Steve Powers
+      - Gary Brunt
+      - Wayne Tamme
+      - Dean Koepp
+      - Jason Taylor
+      - Jayme Taylor
+      - Bill Bowler
+  - Painting Crew:
+      - Anne Foos
+      - Jayne Jeney
+      - Peggy Strickland
+      - Missy Tremblay
+      - Terri Witkosky
+  - Production Support:
+      - Joe Zaccaro
+      - Elizabeth Sawyer
+  - Board Liaison: Nicole Perrella
+  - Special Thanks: Brandily Olyphant
 ---
