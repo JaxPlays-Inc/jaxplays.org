@@ -32,7 +32,6 @@ cast:
   - Lexie Richards: Jennifer Jaress
   - Jeri Neal McFeeley: Jayme Taylor
   - Vernadette Simms: Martha McDowell
-
 crew:
   - Director: Joseph Stearman
   - Director Mentor: Linda McClane
