@@ -22,6 +22,7 @@ program:
 Website: 
 Tickets: https://ci.ovationtix.com/34877/production/1247308
 show_details: 
+  - Playwright: Sean Daniels
 cast:
 - Steven: Christopher Randolph
 - "#1": Kate McManus
@@ -33,8 +34,6 @@ crew:
   - Scenic Designer: Bradley Akers
   - Sound Design & Engineering: GoldenStage Productions
 orchestra:
-show_details: 
-  - Playwright: "[[w:Sean Daniels]]"
 Genres:
   - Play
   - Drama
