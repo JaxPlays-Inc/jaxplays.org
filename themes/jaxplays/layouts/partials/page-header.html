@@ -1,19 +1,30 @@
-{{ partialCached "site-navigation.html" . }}
-{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
-{{ if $featured_image }}
+{{- partialCached "site-navigation.html" . -}}
+{{- $featured_image := partial "func/GetFeaturedImage.html" . -}}
+{{- $show := ne .Params.showFeaturedImage false -}}
+
+{{- if and $show $featured_image -}}
   <header>
-    {{ $src := .Params.featured_image }}
-    {{ $alt := cond (isset .Params "featured_image_alt") .Params.featured_image_alt .Title }}
-    {{ $caption := .Params.featured_image_caption | markdownify | safeHTML }} 
-    {{ $attr := .Params.featured_image_attr }}
-    {{ $attr_link := .Params.featured_image_attr_link }}
-    {{ $light_text_color_class := .Site.Params.light_text_color_class }}
-    {{ if not (eq .Params.ads false) }}
+    {{- $src := $featured_image -}}
+    {{- $alt := .Params.featured_image_alt | default .Title -}}
+    {{- $caption := .Params.featured_image_caption | markdownify | safeHTML -}}
+    {{- $attr := .Params.featured_image_attr -}}
+    {{- $attr_link := .Params.featured_image_attr_link -}}
+    {{- $light_text_color_class := .Site.Params.light_text_color_class -}}
+
+    {{- if not (eq .Params.ads false) -}}
       {{- partial "GAM-billboard-1.html" . -}}
-    {{ end }}
-    {{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption "attr" $attr "attr_link" $attr_link "light_text_color_class" $light_text_color_class) }}
+    {{- end -}}
+
+    {{- partial "figure.html" (dict
+        "src" $src
+        "alt" $alt
+        "caption" $caption
+        "attr" $attr
+        "attr_link" $attr_link
+        "light_text_color_class" $light_text_color_class
+      )
+    -}}
   </header>
-{{ else }}
-  <header>
-  </header>
-{{ end }}
+{{- else -}}
+  <header></header>
+{{- end -}}

@@ -25,6 +25,7 @@ params:
     - "reviews"
     - "news"
     - "editorials"
+    - "podcast"
   background_color_class: "bg-black"
   light_text_color_class: "gray"
   social:
