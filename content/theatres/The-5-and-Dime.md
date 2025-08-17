@@ -6,6 +6,7 @@ redirect_from:
   - /theatres/The_5_and_Dime
   - /theatres/the5anddime
   - /theatres/thefiveanddime
+  - /theatres/the-5-and-dime-theatre
 layout: theatres
 active: true
 company_type: Community
