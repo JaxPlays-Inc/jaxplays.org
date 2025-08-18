@@ -21,48 +21,65 @@ Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/683c723a33d
 show_details: 
 - Playwright: Barbara Ryan-Harris
 cast:
-- Little Nell: Adeline Nicholson
-- Mama: Susan Langenbahn
-- Daddy: Anthony Pierce
-- Uncle Frank: Andre Hardaway
-- Arch Tyner: Brandon Herron
-- Bad Luck Bobby: Sagend Argote
-- 9 year old Nell: Luna Land
-- 13 year old Nell: Annalynne Prosser
-- 21 year old Nell: Olivia Fox
-- Dr. Currie: Eric Craigmiles
-- Nurse: Wendy Creevy
-- Mean teacher: Gloria Hurley
-- Old Man Ratley: Allen Langenbahn
-- Book Salesman: Travis Land
-- Commissioner: George Tweedy
-- Miss Crumpler: Debra Parsons
-- 8th Grade Teacher: Tammy Bradley
-- Vocalists: 
-  - David Pooler
-  - Fred Myers
-  - Starlette Myers
-  - Clara Ammons
-  - Jackie Washington
-  - Ebony Hoggard
-  - Eric Craigmiles
-  - Tammy Bradley
-understudies:
+  - 5-year-old Nell: Adeline Nicholson
+  - 9-year-old Nell: Luna Land
+  - 13-year-old Nell: Annalynne Prosser
+  - 21-year-old Nell: Olivia Fox
+  - 91-year-old Nell: Barbara Ryan Harris
+  - Mama: Susan Langenbahn
+  - Daddy: Anthony Pierce
+  - Uncle Frank: Andre Hardaway
+  - Arch Tyner: Brandon Herron
+  - Bad Luck Bobby: Sagend Argote
+  - Neighbor Miss Dottie: Clara Ammons
+  - Mean Teacher/Preacher’s Wife: Gloria Hurley
+  - Mr. Ratley: Allen Langenbahn
+  - Dr. Currie: Eric Craigmiles
+  - Nurse: Wendy Creevy
+  - Book Salesman: Travis Land
+  - Commissioner Sealey: George Tweedy
+  - Mattie Crumpler: Debra Parsons
+  - 8th Grade Teacher: Tammy Bradley
+  - Vocalists & Chorus:
+      - Andre Hardaway
+      - Annalynne Prosser
+      - Clara Ammons
+      - David Pooler
+      - Ebony Hoggard
+      - Eric Craigmiles
+      - Fred Myers
+      - Jacqueline Washington
+      - Sagend Argote
+      - Starlette Myers-Reeder
+      - Tammy Bradley
+
 crew:
-- Directors: 
-  - Barbara Ryan Harris
-  - Gloria Hurley
-- Music Director: Tammy Bradley
-- Tech Director: Landon Seal
-- Lighting: Aliyah Hamondson
-- Spotlight: Mike Boyett
-- Sound Tech: Isaac Muldoon
-- Makeup: Juliana Pimental Mabe
-- Stage Manager: Terri Stanford
-orchestra:
+  - Script Supervisor: Ann Walsh
+  - Stage Manager: Terri Stanford
+  - Front of House Manager: Candy Lockwood
+  - Technical Director: Landon Seal
+  - Lighting: Aliyah Amondson
+  - Spotlight Operators:
+      - London Yarborough
+      - Nita Gilbert
+  - Makeup: Juliana Pimental Mabe
+  - Prop Builders:
+      - Skip Harris
+      - Robert Nicholson
+      - Terri Stanford
+      - Jacqueline Washington
+  - Stage Assistants:
+      - Robert Nicholson
+      - Claudia Nicholson
+  - Marketing/Photography/Program: Vicki Wyttenbach
+  - Ticketmaster: Leslie Sanders
+  - Videographer: Dave Webb
+  - Tech:
+      - Ebony Hoggard
+      - David Wyttenbach
 genres:
-- Play
 - Musical
+- Autobiographical
 Description: "A poignant musical memoir about growing up in the south."
 ---
  St. Marys Little Theatre (SMLT) has announced the debut showing of the original musical *Froghouses & Fireflies* to be performed onstage at Theater by the Trax August 15-17.
