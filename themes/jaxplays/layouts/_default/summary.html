@@ -9,7 +9,7 @@
     {{ if $isProductionOrShow }}
       {{ $featuredImage = printf "/media/posters/%s" $featuredImage }}  <!-- Prepend path for productions or shows -->
     {{ else }}
-      {{ $featuredImage = printf "/%s" $featuredImage }}
+      {{/*  {{ $featuredImage = printf "/%s" $featuredImage }}  */}}
     {{ end }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
     <a href="{{ .Permalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
