@@ -23,6 +23,10 @@ Tickets: https://aclassictheatre.ludus.com/200456011
 show_details: 
   - Playwright: Joe Landry
 cast:
+ - George Bailey: Ashley Carter
+ - Mary Hatch: Maureen McCluskey
+ - Mr. Potter: Rich Nowell
+ - Freddie Filmore, Joseph, Uncle Billy, Ernie, Mr. Gower: Rick Cirucci
 crew:
   - Director: Grace Reed
 orchestra:
