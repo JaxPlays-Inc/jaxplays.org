@@ -56,7 +56,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-Come-From-Away.pdf
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1487&code=JAXPLAYS&qty_target=0
 show_details: 
@@ -64,9 +64,49 @@ show_details:
   - Irene Sankoff
   - David Hein
 cast:
-crew:
+  - Diane and others: Maureen McCluskey
+  - Hannah and others: Millicent (Penny) Sylvester
+  - Janice and others: Katie Nettle
+  - Beulah and others: Lisa Booth
+  - Bonnie and others: Kathy Sanders
+  - Beverly and others: Jennifer Medure
+  - Oz and others: Jason Nettle
+  - Kevin T and others: Christopher Michael Milligan
+  - Kevin J and others: Anthony Llerandi
+  - Bob and others: Jereme Raickett
+  - Claude and others: James A. Skiba
+  - Nick and others: Steven Amburgey
 orchestra:
-# Come From Away
+  - Conductor/Keyboard: Cathy Murphy Giddens
+  - Keyboard: Stephen Mark Fennell
+  - Violin: Kim Zielinski
+  - Guitar/Mandolin: Brooks Clarke
+  - Bass: Ranger Roberts
+  - Percussion: Tim Pickering
+crew:
+  - Executive Producer/Director: Tod Booth
+  - Vice President of Production: Shain Stroff
+  - Choreographer: Maureen Straub Craig
+  - Musical Director: Cathy Murphy Giddens
+  - Lighting Design: Johnny Pettegrew
+  - Costume Design:
+      - Camala Pitts
+      - Dorinda Quiles
+  - Company Manager: Lisa Booth
+  - Set Design/Technical Director: David Dionne
+  - Set Construction:
+      - Dave Dionne
+      - Ian Black
+      - Sheldon Medrano
+  - Sound Supervision: Eric Sullivan
+  - Sound Design/Engineering: Carly Meyer
+  - Property Master: Patti Eyler
+  - Production Stage Management: Sarah Brace
+  - Actor Assistant Stage Management: Thaddeus Walker
+  - Part Time Production Crew: Ethan Walker
+  - Wardrobe:
+      - Audrey Dunham
+      - Emily Morgan
 Genres:
   - Musical
   - Drama

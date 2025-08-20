@@ -2,8 +2,10 @@
 title: Lisa Valdini Booth
 aliases: 
   - /people/lisa-valdini
+  - /people/lisa-booth
 other_names:
   - Lisa Valdini
+  - Lisa Booth
 date: 2024-08-16T13:47:48-04:00
 featured_image: Lisa-Valdini-Booth.webp
 featured_image_attr: 
