@@ -48,6 +48,6 @@ orchestra:
 genres: 
 - Play
 - Comedy
-Description: 
+Description: "A quartet of spunky seniors sets sail on a Caribbean cruise in this outrageous sequel to the hit comedy *Four Old Broads*."
 ---
  Get ready to set sail with your favorite Old Broads. Yes... they’re back again and ready for a Sassy Senior’s cruise to the Bahamas. Beatrice is determined to have her pick of ALL the eligible men on the ship... but Maude, fresh from her win at The Miss Magnolia Senior Citizen Pageant, plans on being her biggest competition. Wedding bells are ringing for Sam and Imogene... maybe. And Eaddy... well... she just wants to know what all the fuss is about up on the topless sun deck. Throw in a murder mystery, a fabulous drag queen and a crazy costume party, and you’re in for a laugh-a-minute, side-splitting laugh-out-loud night of fun.
