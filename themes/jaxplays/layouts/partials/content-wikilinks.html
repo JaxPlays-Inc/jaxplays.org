@@ -31,7 +31,6 @@
   {{ if $isKnownPrefix }}
     {{- $internalURLize := delimit (after 1 $colonParts) ":" -}} <!-- Get the complete title after the prefix -->
     {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
-    {{- /* Replace accented characters with unaccented counterparts */ -}}
     {{- $internalURLize = replace $internalURLize "é" "e" -}}
     {{- $internalURLize = replace $internalURLize "è" "e" -}}
     {{- $internalURLize = replace $internalURLize "ê" "e" -}}
@@ -45,38 +44,33 @@
     {{- /* Add more replacements as needed */ -}}
     {{- $url = printf "%s%s" $route ($internalURLize | urlize) -}}
 
-    <!-- Initialize class variable -->
-    {{- $class := "" -}}
+    <!-- Initialize style variable -->
+    {{- $style := "" -}}
 
     {{- if eq (index $colonParts 0) "production" }}
-      {{- $class = " class=\"i\"" -}}
+      {{- $style = " style=\"font-style: italic;\"" -}}
 
       {{- if eq (len $parts) 1 }}
-        {{- /* Remove the first five characters from $display */ -}}
-        {{- /* Ensure that $display has at least 5 characters to avoid errors */ -}}
         {{- if ge (len $display) 5 }}
           {{- $display = substr $display 5 -}}
         {{- else }}
-          {{- /* If $display is shorter than 5 characters, set it to empty */ -}}
           {{- $display = "" -}}
         {{- end }}
       {{- end }}
     {{- end }}
 
-    {{- /* Create the link with or without the class */ -}}
-    {{- $link := printf "<a%s href=\"%s\">%s</a>" $class $url $display -}}
+    {{- $link := printf "<a%s href=\"%s\">%s</a>" $style $url $display -}}
     {{- $content = replace $content . $link -}}
   {{ else if eq (index $colonParts 0) "w" }}
-    {{- $wikiName := delimit (after 1 $colonParts) ":" -}} <!-- Capture the entire title after the first colon -->
+    {{- $wikiName := delimit (after 1 $colonParts) ":" -}}
     {{- $wikiName = replace $wikiName " " "_" -}}
-    {{- $wikiName = replace $wikiName "'" "%27" -}}  <!-- Encode plain apostrophes -->
-    {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}  <!-- Encode HTML right single quotation mark for Wikipedia URLs -->
+    {{- $wikiName = replace $wikiName "'" "%27" -}}
+    {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}
     {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
     {{- $link := printf "<a href=\"%s\" target=\"_blank\">%s</a>" $url $display -}}
     {{- $content = replace $content . $link -}}
   {{ end }}
 {{ end }}
 
-{{- $content = replaceRE $markdownEmphasisRegex "<em>$1</em>" $content -}}  <!-- Apply markdown emphasis after processing links -->
-
+{{- $content = replaceRE $markdownEmphasisRegex "<em>$1</em>" $content -}}
 {{- $content | safeHTML -}}
