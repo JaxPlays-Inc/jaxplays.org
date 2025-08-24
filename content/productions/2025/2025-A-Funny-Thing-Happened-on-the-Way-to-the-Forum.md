@@ -26,18 +26,88 @@ cast:
   - Hero: Brennan Moritz
   - Philia: Morgan Perry
   - Hysterium: Neal Thorburn
-  - Erronius: Michael Porter
+  - Erronius: C. Michael Porter
   - Miles Gloriosus: Alec Hadden
   - Lycus: Josh Waller
   - Tintinabula: Rebecca Turngren
-  - Panacea: Carly Dorman
+  - Panacea: Emma Griffes
   - The Geminae:
       - Kailey Anderson
       - McCall Camp
   - Vibrata: Theresa Pazanowski
-  - Gymnasia: Chelsea Thomas
+  - Gymnasia: Lee Hamby
+  - Soldiers & Citizens:
+    - Aly Blakewell
+    - Jeff Grove
+    - Jennifer O'Brien
+    - Noah Stevens
+    - Jon Woodbine
+  - Chorus:
+      - Theo Austell
+      - Aly Blakewell
+      - Leanne Dix
+      - Cathy Maxwell Finke
+      - Jeff Grove
+      - Dillon Hanson
+      - Deborrah Hoage
+      - Maria Masters
+      - Libby Montgomery
+      - Jennifer O'Brien
+      - Arden Spies
+      - Noah Stevens
+      - Jon Woodbine
+orchestra:
+  - Conductor: Joey Chancey
+  - Concert Master: Sandy Kitts
+  - Piano: Michael Cuschieri
+  - Drum Set: Ulysses Owens, Jr.
+  - Percussion: Kevin Von Kampen
+  - Violins:
+      - Stewart Kitts
+      - Liz McBryde
+  - Viola: Mary Loos
+  - Cello: Alex Downs
+  - Bass: Trent Harper
+  - Harp: Isabelle Scott
+  - Piccolo, Flute, Clarinet: Jack Keeling
+  - Clarinet, Alto Sax:
+      - Steve Parker
+      - Don Zentz
+  - Clarinet, Tenor Sax: Rob Chapman
+  - Clarinet, Bass Clarinet, Baritone Sax: Matt Vance
+  - Trumpets:
+      - Craig Turley
+      - Brandon Loos
+      - Matt Pieper
+  - Trombones:
+      - Casey Maday
+      - Chauncey Mays
+      - Chris Lundquist
 crew:
-  - Music Director: Joey Chancey
+  - Director: Jean Tait
+  - Musical Director: Joey Chancey
+  - Choral Director: Julian Bryson
+  - Choreographer: Curtis J. Williams
+  - Associate Music Director: Michael Cuschieri
+  - Assistant Director: Daniel Austin
+  - Technical Director: Saul Lucio
+  - Stage Manager (Florida Theatre): Eric Stanfield
+  - Stage Manager (Theatre Jacksonville):
+      - Ron Shreve
+      - Preston Shipley
+  - Audio Engineer: Jeremy Moore
+  - Lighting Design: Samantha Catone
+  - Wardrobe:
+      - Katie Allen
+      - Joy Smith
+      - Curtis Williams
+      - Lauren Paragallo
+  - Stagehands:
+      - Alex Vasquez
+      - Merrell Young
+      - Cameron Boss
+      - Michael Bobbin
+  - Administrative Coordinator: Katie McCaughan
 orchestra:
   - Conductor: Joey Chancey
 genres: 
