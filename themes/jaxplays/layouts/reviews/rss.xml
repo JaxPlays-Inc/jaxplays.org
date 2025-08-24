@@ -1,73 +1,80 @@
-{{- /* Deprecate site.Author.email in favor of site.Params.author.email */}}
-{{- $authorEmail := "" }}
-{{- with site.Params.author }}
-  {{- if reflect.IsMap . }}
-    {{- with .email }}
-      {{- $authorEmail = . }}
-    {{- end }}
-  {{- end }}
-{{- else }}
-  {{- with site.Author.email }}
-    {{- $authorEmail = . }}
-    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
-  {{- end }}
-{{- end }}
+{{- /* Deprecate site.Author.email in favor of site.Params.author.email */ -}}
+{{- $authorEmail := "" -}}
+{{- with site.Params.author -}}
+  {{- if reflect.IsMap . -}}
+    {{- with .email -}}
+      {{- $authorEmail = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with site.Author.email -}}
+    {{- $authorEmail = . -}}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." -}}
+  {{- end -}}
+{{- end -}}
 
-{{- $pctx := . }}
-{{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
-{{- $pages := slice }}
-{{- if or $.IsHome $.IsSection }}
-{{- $pages = $pctx.RegularPages }}
-{{- else }}
-{{- $pages = $pctx.Pages }}
-{{- end }}
-{{- $limit := .Site.Config.Services.RSS.Limit }}
-{{- if ge $limit 1 }}
-{{- $pages = $pages | first $limit }}
-{{- end }}
-{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+{{- $pctx := . -}}
+{{- if .IsHome }}{{ $pctx = .Site }}{{ end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+  {{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+  {{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+  {{- $pages = $pages | first $limit -}}
+{{- end -}}
+
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML -}}
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo</generator>
     <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
-    <managingEditor>{{.}}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
+    <managingEditor>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
     <webMaster>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with .Site.Copyright }}
     <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    {{- with .OutputFormats.Get "RSS" }}
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
-    {{- end }}
-    {{- range $pages }}
-    {{- $authorNames := .Params.authors }}
-    <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{- if or $authorEmail $authorNames }}
-      <author>
-        {{- if $authorEmail }}{{ $authorEmail }}{{ end }}
-        {{- if $authorNames }}
-          {{- range $index, $author := $authorNames }}
-            {{- if $index }}, {{ end }}{{ $author }}
-          {{- end }}
-        {{- end }}
-      </author>
-      {{- end }}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{- partial "content-wikilinks" .Params.description | transform.XMLEscape | safeHTML -}}</description>
-      <content:encoded>
-       {{- partial "content-wikilinks" .Content | transform.XMLEscape | safeHTML -}}
-       {{ partial "production_details_for_review.html" . | transform.XMLEscape | safeHTML }}
-       {{ $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title | transform.XMLEscape | safeHTML }}
-       {{ $reviewText }}
-       </content:encoded>
-      {{ with .Params.featured_image }}
-      <enclosure url="{{ . | absURL }}" type="image/jpeg"/>
-      {{ end }}
-    </item>
-    {{- end }}
+    {{- with .OutputFormats.Get "RSS" -}}
+      {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+
+    {{- range $pages -}}
+      {{- $authorNames := .Params.authors -}}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{- if or $authorEmail $authorNames -}}
+          <author>
+            {{- if $authorEmail }}{{ $authorEmail }}{{ end -}}
+            {{- if $authorNames -}}
+              {{- range $index, $author := $authorNames -}}
+                {{- if $index }}, {{ end -}}{{ $author -}}
+              {{- end -}}
+            {{- end -}}
+          </author>
+        {{- end -}}
+        <guid>{{ .Permalink }}</guid>
+
+        <description>{{- partial "content-wikilinks" .Params.description | transform.XMLEscape | safeHTML -}}</description>
+
+        {{- /* Build full HTML for content:encoded (escape instead of CDATA) */ -}}
+        {{- $body := partial "content-wikilinks" .Content | safeHTML -}}
+        {{- $details := partial "production_details_for_review.html" . | safeHTML -}}
+        {{- $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title -}}
+        {{- $html := printf "%s%s%s" $body $details ($reviewText | safeHTML) -}}
+        <content:encoded>{{ $html | transform.XMLEscape | safeHTML }}</content:encoded>
+
+        {{- with .Params.featured_image -}}
+          <enclosure url="{{ . | absURL }}" type="image/jpeg" />
+        {{- end -}}
+      </item>
+    {{- end -}}
   </channel>
 </rss>
