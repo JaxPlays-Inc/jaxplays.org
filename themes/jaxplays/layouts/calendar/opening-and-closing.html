@@ -1,0 +1,266 @@
+{{ define "main" }}
+	{{/*
+		Opening and Closing Calendar Page
+		Mirrors logic from layouts/productions/rss.xml for calculating upcoming window.
+	*/}}
+	{{- $currentDate := now }}
+	{{- $weekday := int $currentDate.Weekday }}
+	{{- $offset := sub $weekday 2 }}
+	{{- $rawDays := cond (or (eq $weekday 2) (eq $weekday 3)) (sub 7 $offset) (sub 14 $offset) }}
+	{{- $daysToAddInt := int $rawDays }}
+	{{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAddInt }}
+
+	{{- $allPages := where site.RegularPages "Params.opening_date" "ne" nil }}
+	{{- $prodPages := where $allPages "Params.closing_date" "ne" nil }}
+	{{- $sortedByOpening := sort $prodPages "Params.opening_date" "asc" }}
+
+		{{- $onStageThisWeek := slice }}
+	{{- range $sortedByOpening }}
+		{{- $od := time .Params.opening_date }}
+		{{- $cd := time .Params.closing_date }}
+		{{- if and (le $od $nextTuesday) (ge $cd $currentDate) }}
+				{{- $onStageThisWeek = $onStageThisWeek | append . }}
+		{{- end }}
+	{{- end }}
+
+		{{/* Opening during this week ONLY: opening_date BETWEEN now and nextTuesday inclusive */}}
+		{{- $openingThisWeek := slice }}
+		{{- range $sortedByOpening }}
+			{{- $od := time .Params.opening_date }}
+			{{- if and (ge $od $currentDate) (le $od $nextTuesday) }}
+				{{- $openingThisWeek = $openingThisWeek | append . }}
+			{{- end }}
+		{{- end }}
+		{{- $openingThisWeek = sort $openingThisWeek "Params.opening_date" "asc" }}
+
+	{{- $closingThisWeek := slice }}
+	{{- range $sortedByOpening }}
+		{{- $od := time .Params.opening_date }}
+		{{- $cd := time .Params.closing_date }}
+		{{- if and (le $od $currentDate) (ge $cd $currentDate) (le $cd $nextTuesday) }}
+			{{- $closingThisWeek = $closingThisWeek | append . }}
+		{{- end }}
+	{{- end }}
+	{{- $closingThisWeek = sort $closingThisWeek "Params.closing_date" "asc" }}
+
+	<div class="flex-l mt2 mw9 center">
+		<article class="ph4 pt3 w-100 mw9 center opening-and-closing">
+			{{- $onStageCount := len $onStageThisWeek }}
+			{{- $openingCount := len $openingThisWeek }}
+			{{- $closingCount := len $closingThisWeek }}
+			<h1 class="f4 f3-m f2-l sectionline">{{ .Title }}</h1>
+			<div class="nested-copy-line-height lh-copy f5 f4-ns nested-links {{ $.Param "text_color" | default "black" }}">
+				{{ .Content }}
+				{{/* Lively narrative: Sentence 1 = on stage; Sentence 2 = openings / closings (optional) */}}
+				{{- $window := printf "%s–%s" (partial "apdate.html" $currentDate) (partial "apdate.html" $nextTuesday) }}
+				{{- $onStageWord := cond (lt $onStageCount 10) (partial "apnumber.html" $onStageCount) $onStageCount }}
+				{{- $openingWord := cond (lt $openingCount 10) (partial "apnumber.html" $openingCount) $openingCount }}
+				{{- $closingWord := cond (lt $closingCount 10) (partial "apnumber.html" $closingCount) $closingCount }}
+				{{- /* Sentence 1 */}}
+				{{- $s1 := cond (eq $onStageCount 0) (printf "This week, %s, live local theater has a brief pause — no productions are on Jacksonville stages" $window) (cond (eq $onStageCount 1) (printf "This week, %s, one production is lighting up stages around Jacksonville" $window) (printf "This week, %s, %s productions are lighting up stages around Jacksonville" $window $onStageWord)) }}
+				{{- /* Sentence 2 pieces */}}
+				{{- $openPhrase := "" }}
+				{{- if gt $openingCount 0 }}
+					{{- $openingWordCap := printf "%s%s" (upper (substr $openingWord 0 1)) (substr $openingWord 1) }}
+					{{- $openPhrase = cond (eq $openingCount 1) (printf "%s new production debuts" $openingWordCap) (printf "%s new productions debut" $openingWordCap) }}
+				{{- end }}
+				{{- $closePhrase := "" }}
+				{{- if gt $closingCount 0 }}
+					{{- $closingWordCap := printf "%s%s" (upper (substr $closingWord 0 1)) (substr $closingWord 1) }}
+					{{- $closePhrase = cond (eq $closingCount 1) (printf "%s production takes its final curtain call" (cond (eq $openPhrase "") $closingWordCap $closingWord)) (printf "%s productions take their final curtain call" (cond (eq $openPhrase "") $closingWordCap $closingWord)) }}
+				{{- end }}
+				{{- $s2 := "" }}
+				{{- if and (ne $openPhrase "") (ne $closePhrase "") }}
+					{{- $s2 = printf "%s. %s while %s." $s1 $openPhrase $closePhrase }}
+				{{- else if ne $openPhrase "" }}
+					{{- $s2 = printf "%s. %s." $s1 $openPhrase }}
+				{{- else if ne $closePhrase "" }}
+					{{- $s2 = printf "%s. %s." $s1 $closePhrase }}
+				{{- else }}
+					{{- $s2 = printf "%s." $s1 }}
+				{{- end }}
+				<p class="mt3 mb4">{{ $s2 | safeHTML }}</p>
+			</div>
+
+					<div class="opening-closing-lists one-column">
+						<section class="on-stage" id="on-stage">
+							<h2 class="f4 f3-m f2-l sectionline">On Stage This Week <span class="count fw4 normal f6 f5-ns">{{ $onStageCount }}</span></h2>
+							{{- if gt (len $onStageThisWeek) 0 }}
+								<ul class="onstage-list">
+									{{- range (sort $onStageThisWeek "Params.opening_date" "asc") }}
+								{{- $page := . }}
+								{{- $od := time $page.Params.opening_date }}
+								{{- $cd := time $page.Params.closing_date }}
+								<li>
+									<a class="show" href="{{ $page.Permalink }}"><strong>{{ $page.Title }}</strong></a>
+									{{- with $page.Params.theatre }}
+										{{- $tname := . }} &mdash; <span class="theatre">{{ $tname }}</span>
+									{{- end }}
+									<span class="dates"> ({{ partial "apdate.html" $od }}–{{ partial "apdate.html" $cd }})</span>
+								</li>
+							{{- end }}
+						</ul>
+					{{- else }}
+								<p>No productions on stage in this window.</p>
+					{{- end }}
+				</section>
+
+						<section class="opening" id="opening">
+							<h2 class="f4 f3-m f2-l sectionline">Opening This Week <span class="count fw4 normal f6 f5-ns">{{ $openingCount }}</span></h2>
+							{{- if gt (len $openingThisWeek) 0 }}
+								<ul class="opening-list">
+									{{- range $openingThisWeek }}
+										{{- $page := . }}
+										{{- $od := time $page.Params.opening_date }}
+										{{- $cd := time $page.Params.closing_date }}
+										<li>
+											<a class="show" href="{{ $page.Permalink }}"><strong>{{ $page.Title }}</strong></a>
+											{{- with $page.Params.theatre }}
+												{{- $tname := . }} &mdash; <span class="theatre">{{ $tname }}</span>
+											{{- end }}
+											<span class="dates"> ({{ partial "apdate.html" $od }}-{{ partial "apdate.html" $cd }})</span>
+										</li>
+									{{- end }}
+								</ul>
+							{{- else }}
+								<p>No new productions opening in this window.</p>
+							{{- end }}
+						</section>
+
+				<section class="closing" id="closing">
+					<h2 class="f4 f3-m f2-l sectionline">Closing This Week <span class="count fw4 normal f6 f5-ns">{{ $closingCount }}</span></h2>
+					{{- if gt (len $closingThisWeek) 0 }}
+						<ul class="closing-list">
+							{{- range $closingThisWeek }}
+								{{- $page := . }}
+								{{- $od := time $page.Params.opening_date }}
+								{{- $cd := time $page.Params.closing_date }}
+								<li>
+									<a class="show" href="{{ $page.Permalink }}"><strong>{{ $page.Title }}</strong></a>
+									{{- with $page.Params.theatre }}
+										{{- $tname := . }} &mdash; <span class="theatre">{{ $tname }}</span>
+									{{- end }}
+									<span class="dates"> ({{ partial "apdate.html" $od }}–{{ partial "apdate.html" $cd }})</span>
+								</li>
+							{{- end }}
+						</ul>
+					{{- else }}
+						<p>No productions closing in this window.</p>
+					{{- end }}
+				</section>
+			</div>
+
+			{{/* Structured data for SEO (Events) */}}
+			{{- $scratch := newScratch }}
+			{{- $events := slice }}
+			{{- range (slice $onStageThisWeek $openingThisWeek $closingThisWeek) }}
+				{{- range . }}
+					{{- if not ($scratch.Get .Permalink) }}
+						{{- $scratch.Set .Permalink true }}
+						{{- $opening := time .Params.opening_date }}
+						{{- $closing := time .Params.closing_date }}
+						{{- $tname := .Params.theatre }}
+						{{- $tpage := cond (and $tname (gt (len $tname) 0)) (index (where (where site.Pages "Type" "theatres") "Title" $tname) 0) nil }}
+						{{- $image := .Params.featured_image }}
+						{{- $event := dict 
+							"@type" "TheaterEvent" 
+							"name" .Title 
+							"url" .Permalink 
+							"startDate" ($opening.Format "2006-01-02") 
+							"endDate" ($closing.Format "2006-01-02") 
+							"location" (cond $tname (dict "@type" "Place" "name" $tname "url" (cond $tpage $tpage.Permalink nil)) nil) 
+							"image" (cond $image (slice (printf "%smedia/posters/%s" (absURL "/") $image)) nil) 
+							"eventStatus" "https://schema.org/EventScheduled" }}
+						{{- $events = $events | append $event }}
+					{{- end }}
+				{{- end }}
+			{{- end }}
+			{{- if gt (len $events) 0 }}
+			<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $events | jsonify | safeJS }}</script>
+			{{- end }}
+
+			<style>
+			.opening-closing-lists.one-column { display: block; }
+			.opening-closing-lists.one-column section { margin-bottom: 2.5rem; }
+				.opening-closing-lists ul { list-style: none; padding: 0; margin: 0; }
+				.opening-closing-lists li { margin: 0 0 .75rem 0; line-height: 1.3; }
+				.opening-closing-lists a { text-decoration: none; }
+				.opening-closing-lists a.show { color:  var(--jaxplays-black); }
+				.opening-closing-lists a.theatre { color: var(--color-accent, #0055aa); }
+				.opening-closing-lists a:hover { text-decoration: underline; }
+				.opening-closing-lists .dates { color: #666; font-size: 0.9em; }
+				.sectionline .count { background: var(--jaxplays-gold); color: var(--jaxplays-black); padding:.15em .65em; border-radius:0; margin-left:.5rem; margin-bottom:.5rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; font-weight:600; border:1px solid var(--jaxplays-black); box-shadow:none; vertical-align:middle; height:1.35em; }
+				nav[aria-label="Section navigation"] ul li a { text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+			</style>
+		</article>
+	</div>
+	{{/* Hidden plain-text block for newsletter copy/paste */}}
+	<pre id="newsletter-pre" class="newsletter-copy" aria-hidden="true" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; white-space:pre;">===DATA JSONL START===
+{{- /* Opening productions as JSON Lines */ -}}
+{{- if gt (len $openingThisWeek) 0 -}}
+{{- range $openingThisWeek }}{{ dict "type" "opening" "title" .Title "theatre" (.Params.theatre | default "") "url" .Permalink | jsonify }}
+{{ end -}}
+{{- else }}{{ dict "type" "opening" "none" true | jsonify }}
+{{ end -}}
+{{- /* Closing productions as JSON Lines */ -}}
+{{- if gt (len $closingThisWeek) 0 -}}
+{{- range $closingThisWeek }}{{ dict "type" "closing" "title" .Title "theatre" (.Params.theatre | default "") "url" .Permalink | jsonify }}
+{{ end -}}
+{{- else }}{{ dict "type" "closing" "none" true | jsonify }}
+{{ end -}}
+===DATA JSONL END===
+</pre>
+<div class="copy-newsletter-wrapper" style="position:relative; margin:0; padding:0;">
+	<button id="copy-newsletter" type="button" class="copy-newsletter-btn" title="Copy newsletter text (Alt+Shift+N)" style="background:transparent; color:transparent; border:0; padding:.25rem .5rem; font:inherit; cursor:pointer; font-size:.6rem; text-transform:uppercase; letter-spacing:.05em;">Copy Newsletter Text</button>
+    <span id="copy-newsletter-status" aria-live="polite" class="visually-hidden" style="position:absolute; left:-9999px;">Ready</span>
+</div>
+<script>
+(function(){
+	const btn=document.getElementById('copy-newsletter');
+	const status=document.getElementById('copy-newsletter-status');
+	function announce(msg){ if(status){ status.textContent=msg; } }
+	async function copyNewsletter(){
+		const pre=document.getElementById('newsletter-pre');
+		if(!pre){ announce('Newsletter text not found'); return; }
+		const text=pre.textContent.replace(/\n{3,}/g,'\n\n').trim();
+		try {
+			if(navigator.clipboard && window.isSecureContext){
+				await navigator.clipboard.writeText(text);
+			} else {
+				const ta=document.createElement('textarea');
+				ta.style.position='fixed'; ta.style.top='0'; ta.style.left='0';
+				ta.value=text; document.body.appendChild(ta); ta.focus(); ta.select();
+				document.execCommand('copy'); document.body.removeChild(ta);
+			}
+			announce('Newsletter text copied');
+			toast('Newsletter text copied');
+		} catch(e){
+			announce('Copy failed; text selected');
+			const ta=document.createElement('textarea');
+			ta.value=text; document.body.appendChild(ta); ta.focus(); ta.select();
+			toast('Press Cmd+C to copy');
+		}
+	}
+	function toast(msg){
+		let t=document.createElement('div');
+		t.textContent=msg;
+		t.setAttribute('role','status');
+		t.style.position='fixed'; t.style.bottom='1rem'; t.style.right='1rem';
+		t.style.background='rgba(0,0,0,.85)'; t.style.color='#fff'; t.style.padding='.6rem .9rem'; t.style.fontSize='.8rem'; t.style.letterSpacing='.5px'; t.style.zIndex='9999'; t.style.borderRadius='4px';
+		t.style.fontFamily='system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,sans-serif';
+		document.body.appendChild(t);
+		setTimeout(()=>{ t.style.transition='opacity .4s'; t.style.opacity='0'; setTimeout(()=>t.remove(),400); },1800);
+	}
+	if(btn){ btn.addEventListener('click', copyNewsletter); }
+	// Keyboard shortcut: Alt + Shift + N (avoids conflicts with browser dev tools)
+	window.addEventListener('keydown', function(e){
+		if(e.altKey && e.shiftKey && (e.key==='N' || e.key==='n')){
+			const tag=(e.target && e.target.tagName)||'';
+			if(/INPUT|TEXTAREA/.test(tag) || (e.target && e.target.isContentEditable)) return; // don't trigger while typing
+			e.preventDefault();
+			copyNewsletter();
+		}
+	});
+})();
+</script>
+{{ end }}
