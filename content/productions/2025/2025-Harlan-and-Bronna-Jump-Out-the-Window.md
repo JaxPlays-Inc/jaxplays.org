@@ -28,6 +28,7 @@ cast:
   - Harlan: Jeff Drushal
   - Bronna: Karen Konzen
   - Kale: Bill Ratliff
+  - Amelia: Grace Bryan
   - Stage Manager: Josh Andrews
   - Oliver: Flynn Linning
 crew:

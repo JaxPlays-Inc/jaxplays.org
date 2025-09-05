@@ -9,7 +9,7 @@ other_names:
  - Josh Andrews
  - Joshua Britton Andrews
 layout: people
-featured_image: Josh-Andrews.webp 
+featured_image: Josh-Andrews-02.webp 
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 

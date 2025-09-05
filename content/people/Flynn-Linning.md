@@ -1,8 +1,7 @@
 ---
-title: Grace Bryan
-date: 2025-01-18T20:10:48-05:00
-featured_image: Grace-Bryan-02.webp
-# featured_image_attr: Kristia Knowles
+title: Flynn Linning
+date: 2025-09-05T11:08:35-04:00
+featured_image: Flynn-Linning.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
@@ -13,6 +12,6 @@ Socials:
   Instagram: 
   LinkedIn: 
   IBDB: 
-  IMDb: nm8934319
+  IMDb:
   Website: 
 ---

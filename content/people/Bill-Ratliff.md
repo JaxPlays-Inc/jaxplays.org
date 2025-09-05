@@ -1,8 +1,8 @@
 ---
 title: Bill Ratliff
-featured_image: Bill-Ratliff.webp
-featured_image_attr: 
-featured_image_attr_link: 
+featured_image: Bill-Ratliff-02.webp
+featured_image_attr: Jax Headshots
+featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
 Socials:
