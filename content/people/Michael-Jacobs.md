@@ -11,7 +11,9 @@ Socials:
   Twitter: 
   Instagram: 
   LinkedIn: 
-  IBDB: 
-  IMDb:
+  IBDB: michael-jacobs-7732
+  IMDb: nm0414551
   Website: 
+  Wikipedia: "Michael_Jacobs_(producer)"
 ---
+Michael Jacobs is a playwright, theatre producer and television writer whose career spans stage and screen. On Broadway, his work includes *Cheaters* and *Impressionism*, while his plays have been produced across the country and internationally. In television, Jacobs is the creator of acclaimed series such as *Boy Meets World*, *Girl Meets World*,*Dinosaurs* and *My Two Dads*. His productions have earned multiple Emmy, ACE and People’s Choice awards. Known for combining humor with heartfelt storytelling, Jacobs has built a body of work that continues to resonate with audiences in both theatre and television.
