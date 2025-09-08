@@ -23,9 +23,9 @@ Website: https://playersbythesea.org
 Tickets: https://ci.ovationtix.com/34877/production/1250680
 show_details:
   - Playwright: David Lindsay-Abaire
-  - Director: Zach Rivera
 cast:
 crew:
+  - Director: Zach Rivera
 orchestra:
 genres:
   - Play
