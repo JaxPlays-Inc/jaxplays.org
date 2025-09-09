@@ -24,8 +24,15 @@ Tickets: https://ci.ovationtix.com/34877/production/1250680
 show_details:
   - Playwright: David Lindsay-Abaire
 cast:
+  - Abby: Simone Aden
+  - Marilyn: Holly Gutshall
+  - Scotty: Spencer Finch
+  - Colleen / Woman in White: Jennifer Lilly
+  - Derek / Masked Man / Zombie Butler: Jay Bilderback
+  - Benjamin / Clown / Lewis: Matthew Turnage
 crew:
   - Director: Zach Rivera
+  - Stage Manager: Jillian Cote
 orchestra:
 genres:
   - Play

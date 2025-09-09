@@ -42,7 +42,7 @@ crew:
       - Katie Johnston
       - Brian Niece
   - Technical Director: Audrey Mollitt
-  - Carpenter: Tyler Hammond
+  - Carpenter: Baron Tetzlaff
   - Lighting Designer: James Tucker
   - Sound Designer: Brian Niece
   - Scenic & Prop Design: Claire Cimino
