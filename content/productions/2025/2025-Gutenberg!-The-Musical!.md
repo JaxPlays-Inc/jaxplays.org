@@ -5,7 +5,7 @@ Venue: The Florida Ballet
 Season: 
 date: 2025-08-27T15:38:03-04:00
 opening_date: 2025-09-12
-closing_date: 
+closing_date: 2025-09-27
 showtimes:
 - 2025-09-12 20:00:00
 - 2025-09-13 20:00:00
