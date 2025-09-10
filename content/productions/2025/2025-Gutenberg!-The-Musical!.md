@@ -31,10 +31,22 @@ cast:
 - Bud: Ethan Edward Fisher
 understudies:
 crew:
-- Director: Matt King
-- Musical Director: Erin Barnes
-- Costume Design & Properties: Jenny Tammera
-- Stage Manager: Susan Roche
+  - Director: Matt King
+  - Musical Director: Erin Barnes
+  - Stage Manager: Susan Roche
+  - Technical Director: Ryan Walker
+  - Costume Design / Prop Master: Jenny Tammera
+  - Lighting Design: Bradley Akers
+  - Set Arrangement: Peter Guadagnino
+  - Props/Backstage Crew:
+      - Kaleigh Ervin
+      - Stephanie Velar
+      - Lisa Ciardulli
+      - Ashley Clifford
+      - Deanna Walker
+  - Box Office Manager: Cynthia Riegler
+  - House & Bar Manager: Amanda Fraser
+  - PR and Production Photographer: Kamajhia | kamajhia.com
 orchestra:
 genres:
 - Musical
