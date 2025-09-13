@@ -55,6 +55,6 @@ Description: The hit musical about art imitating life imitating art, packed with
 ---
  "Brilliantly realized and side-splitting!” - New York Magazine. 
 
-Get ready for a fast-paced, laugh-out-loud romp with Bud and Doug — best friends, die-hard theatre nerds, and the masterminds behind the most bizarre musical you’ve never imagined. In this outrageous two-man spoof, they throw together a no-holds-barred backers’ audition for their latest obsession: a full-blown spectacle about none other than... Johann Gutenberg, inventor of the printing press!
+Get ready for a fast-paced, laugh-out-loud romp with Bud and Doug — best friends, die-hard theatre nerds and the masterminds behind the most bizarre musical you’ve never imagined. In this outrageous two-man spoof, they throw together a no-holds-barred backers’ audition for their latest obsession: a full-blown spectacle about none other than... Johann Gutenberg, inventor of the printing press!
 
-It’s art imitating life imitating art, and it’s packed with laughter, ambition, and best buddy love!
+It’s art imitating life imitating art, and it’s packed with laughter, ambition and best buddy love!
