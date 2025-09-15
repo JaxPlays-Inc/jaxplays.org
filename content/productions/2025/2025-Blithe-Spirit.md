@@ -8,8 +8,9 @@ opening_date: 2025-10-03
 closing_date: 2025-10-05
 showtimes:
   - 2025-10-03 19:30:00
+  - 2025-10-04 14:00:00
   - 2025-10-04 19:30:00
-  - 2025-10-05 15:00:00
+  - 2025-10-05 14:00:00
 featured_image: 2025-Blithe-Spirit.webp
 featured_image_alt: 
 featured_image_caption: 
