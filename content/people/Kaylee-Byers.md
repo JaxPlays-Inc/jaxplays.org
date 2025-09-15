@@ -7,7 +7,7 @@ featured_image_alt:
 featured_image_caption: 
 Socials:
   YouTube: "@kayleebyers6234"
-  Website: https://byerskaylee0.wixsite.com/kayleebyersportfolio
+  Website: 
   Backstage: kaylee-byers
 photos:
 - photo: ../../../../../media/photos/Kaylee-Byers-01.webp

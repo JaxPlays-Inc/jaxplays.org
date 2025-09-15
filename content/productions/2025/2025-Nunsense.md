@@ -29,7 +29,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-Nunsense.pdf
 Website: 
 Tickets: https://limelight.ludus.com/index.php?show_id=200477906
 cast:
@@ -48,6 +48,14 @@ crew:
   - Seamstress: Janice Bickel
   - Trailer: Charity Walton
 orchestra:
+  - Piano: 
+    - Keith Teepen
+    - Mark Dougherty
+  - Drums: 
+    - Ella Finley
+    - Joanne Maffia
+  - Flute: 
+    - Angela Muller
 show_details: 
   - Music: "[[w:Dan Goggin (composer)|Dan Goggin]]"
   - Lyrics: "Dan Goggin"
