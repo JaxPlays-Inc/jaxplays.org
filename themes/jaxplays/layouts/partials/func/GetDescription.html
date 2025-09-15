@@ -2,21 +2,21 @@
 
 {{ $.Scratch.Set "finalDescription" "" }}
 {{ with .Description }}
-  {{ $.Scratch.Set "finalDescription" . }}
+  {{ $.Scratch.Set "finalDescription" (partial "content-wikilinks" .) }}
 {{ else }}
   {{ if eq .Type "productions" }}
   {{ $showPage := .Site.GetPage "page" (printf "/shows/%s" (.Title | urlize)) }}
     {{ with $showPage }}
-      {{ $.Scratch.Set "finalDescription" $showPage.Description }}
+      {{ $.Scratch.Set "finalDescription" (partial "content-wikilinks" .Description) }}
     {{ else }}
-      {{ $.Scratch.Set "finalDescription" .Summary }}
+      {{ $.Scratch.Set "finalDescription" (partial "content-wikilinks" .Summary) }}
     {{ end }}
   {{ else }}
     {{ if .IsPage }}
-      {{ $.Scratch.Set "finalDescription" .Summary }}
+      {{ $.Scratch.Set "finalDescription" (partial "content-wikilinks" .Summary) }}
     {{ else }}
       {{ with .Site.Params.description }}
-        {{ $.Scratch.Set "finalDescription" . }}
+        {{ $.Scratch.Set "finalDescription" (partial "content-wikilinks" .) }}
       {{ end }}
     {{ end }}
   {{ end }}

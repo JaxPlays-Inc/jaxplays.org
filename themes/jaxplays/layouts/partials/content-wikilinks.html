@@ -1,9 +1,10 @@
+{{- /* layouts/partials/content-wikilinks.html */ -}}
 {{- $wikiregex := "\\[\\[([^\\]]+?)\\]\\]" -}}
 {{- $wikilinks := findRE $wikiregex . -}}
 {{- $content := . -}}
-{{- $markdownEmphasisRegex := "\\*([^\\*]+)\\*" -}}  <!-- Regex to detect markdown emphasis with asterisks -->
+{{- $markdownEmphasisRegex := "\\*([^\\*]+)\\*" -}} {{/* detect markdown emphasis with asterisks */}}
 
-{{ range $wikilinks }}
+{{- range $wikilinks -}}
   {{- $linkText := replaceRE $wikiregex "$1" . -}}
   {{- $parts := split $linkText "|" -}}
   {{- $mainPart := index $parts 0 -}}
@@ -13,23 +14,23 @@
   {{- $colonParts := split $mainPart ":" -}}
   {{- $route := "" -}}
 
-  {{ if eq (len $parts) 2 }}
+  {{- if eq (len $parts) 2 -}}
     {{- $display = index $parts 1 -}}
-  {{ else }}
-    {{- $display = delimit (after 1 $colonParts) ":" -}} <!-- Rejoin the parts after the first colon -->
-  {{ end }}
+  {{- else -}}
+    {{- $display = delimit (after 1 $colonParts) ":" -}}
+  {{- end -}}
 
   {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
   {{- $isKnownPrefix := false -}}
-  {{- range $key, $val := $routeMap }}
-    {{ if eq (index $colonParts 0) $key }}
+  {{- range $key, $val := $routeMap -}}
+    {{- if eq (index $colonParts 0) $key -}}
       {{- $route = $val -}}
       {{- $isKnownPrefix = true -}}
-    {{ end }}
-  {{ end }}
+    {{- end -}}
+  {{- end -}}
 
-  {{ if $isKnownPrefix }}
-    {{- $internalURLize := delimit (after 1 $colonParts) ":" -}} <!-- Get the complete title after the prefix -->
+  {{- if $isKnownPrefix -}}
+    {{- $internalURLize := delimit (after 1 $colonParts) ":" -}}
     {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
     {{- $internalURLize = replace $internalURLize "é" "e" -}}
     {{- $internalURLize = replace $internalURLize "è" "e" -}}
@@ -41,27 +42,23 @@
     {{- $internalURLize = replace $internalURLize "ô" "o" -}}
     {{- $internalURLize = replace $internalURLize "ö" "o" -}}
     {{- $internalURLize = replace $internalURLize "ç" "c" -}}
-    {{- /* Add more replacements as needed */ -}}
     {{- $url = printf "%s%s" $route ($internalURLize | urlize) -}}
 
-    <!-- Initialize style variable -->
     {{- $style := "" -}}
-
-    {{- if eq (index $colonParts 0) "production" }}
+    {{- if eq (index $colonParts 0) "production" -}}
       {{- $style = " style=\"font-style: italic;\"" -}}
-
-      {{- if eq (len $parts) 1 }}
-        {{- if ge (len $display) 5 }}
+      {{- if eq (len $parts) 1 -}}
+        {{- if ge (len $display) 5 -}}
           {{- $display = substr $display 5 -}}
-        {{- else }}
+        {{- else -}}
           {{- $display = "" -}}
-        {{- end }}
-      {{- end }}
-    {{- end }}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
 
     {{- $link := printf "<a%s href=\"%s\">%s</a>" $style $url $display -}}
     {{- $content = replace $content . $link -}}
-  {{ else if eq (index $colonParts 0) "w" }}
+  {{- else if eq (index $colonParts 0) "w" -}}
     {{- $wikiName := delimit (after 1 $colonParts) ":" -}}
     {{- $wikiName = replace $wikiName " " "_" -}}
     {{- $wikiName = replace $wikiName "'" "%27" -}}
@@ -69,8 +66,8 @@
     {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
     {{- $link := printf "<a href=\"%s\" target=\"_blank\">%s</a>" $url $display -}}
     {{- $content = replace $content . $link -}}
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{- end -}}
 
 {{- $content = replaceRE $markdownEmphasisRegex "<em>$1</em>" $content -}}
 {{- $content | safeHTML -}}
