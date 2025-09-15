@@ -18,7 +18,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: https://actiiplayers.org/blithe-spirit
-Tickets: 
+Tickets: https://3common.com/event/blithe-spirit/68926ae7369c759d01864913
 show_details: 
 cast:
   - Charles Condomine: Derrek Koch
