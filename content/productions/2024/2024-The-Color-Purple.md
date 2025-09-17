@@ -1,6 +1,6 @@
 ---
 title: The Color Purple
-Theatre: Stage Aurora
+Theatre: Stage Aurora Theatrical Company 
 Venue: FSCJ Kent Campus Auditorium
 date: 2024-04-06
 opening_date: 2024-04-06 

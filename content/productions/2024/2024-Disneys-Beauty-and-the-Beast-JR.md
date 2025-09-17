@@ -1,6 +1,6 @@
 ---
 title: Disney's Beauty and the Beast JR.
-Theatre: Stage Aurora
+Theatre: Stage Aurora Theatrical Company
 Venue: Greater Refuge Temple
 Season: 
 date: 2024-11-19T20:09:28-05:00

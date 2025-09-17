@@ -8,7 +8,7 @@ featured_image: 2020_Dinner_with_Booker_T.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Stage Aurora
+Theatre: Stage Aurora Theatrical Company
 Venue: Worsham Hall, Episcopal Church of the Good Shepherd
 show_details:
 - Writer: Darryl Reuben Hall

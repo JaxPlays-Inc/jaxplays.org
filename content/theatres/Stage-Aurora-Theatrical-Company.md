@@ -1,5 +1,7 @@
 ---
-title: Stage Aurora
+title: Stage Aurora Theatrical Company
+redirect_from: 
+  - /theatres/stage-aurora
 layout: theatres
 active: true
 company_type: Community
