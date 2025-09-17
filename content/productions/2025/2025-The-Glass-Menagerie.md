@@ -26,5 +26,11 @@ cast:
   - Amanda Wingfield: Cathy O'Brien
 crew:
 - Director: George Judy
+photos:
+- photo: 2025-Glass-Menagerie-01.webp
+  photo_attr: 
+  photo_alt: 
+  photo_caption: 
+---
 ---
 Apex Theatre Studio kicks off its twelfth season with Tennessee Williams’ American classic *The Glass Menagerie*. The play, which debuted in 1944 and revolutionized modern American theatre, explores a time in life when you’re figuring out where you fit in the world. Directed by guest artist George Judy, the production features a cast of students and faculty, with North Florida theatre veteran Cathy O’Brien taking on the role of Amanda Wingfield. Sponsored in part by the St. Johns Cultural Council and the St. Johns Tourist Development Council.
