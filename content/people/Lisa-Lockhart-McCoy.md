@@ -19,3 +19,4 @@ Socials:
   IMDb:
   Website: https://www.lisalockhartsoprano.com/
 ---
+Soprano Lisa Lockhart has appeared on opera, concert and musical theatre stages across the United States and Europe. Her roles include the title characters in *Savitri*, *Aida* and *Madama Butterfly*; Musetta in *La Bohème*; Countess Almaviva in *Le Nozze di Figaro*; the Mother in *Amahl and the Night Visitors*; Geraldine in *A Hand of Bridge*; La Ciesca in *Gianni Schicci*; 1st Trio Member in *Trouble in Tahiti*; Leonora in *Il Trovatore*; Serena, Bess and Clara in *Porgy and Bess*; Rosalinda in *Die Fledermaus*; Donna Elvira in *Don Giovanni*; and the First Lady and the Queen of the Night in *Die Zauberflöte*, among others.
