@@ -1,6 +1,10 @@
 ---
 title: Brandon Michael Smith
-date: 2024-10-25T22:13:22-04:00
+aliases: 
+  - /people/brandon-smith/
+other_names: 
+ - Brandon Smith
+date: 2025-09-16T21:59:01-04:00
 featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 
