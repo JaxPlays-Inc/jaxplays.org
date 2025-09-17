@@ -47,8 +47,12 @@ crew:
   - Sound Designer: Brian Niece
   - Scenic & Prop Design: Claire Cimino
   - Costume Designer: Lauren Paragallo
-genres: 
-Description: 
+Genres:
+  - Play
+  - Comedy
+  - Satire
+  - Drama
+Description: "A sharp, fourth-wall-busting satire that follows a wealthy New York couple facing ruin and identity crisis as society collapses around them."
 ---
 Michael Jacobs, the Emmy and Academy Award-nominated creator behind *Boy Meets World*, *Girl Meets World*, *Dinosaurs*, *Quiz Show* and three previous Broadway and Off-Broadway plays, debuts his newest work right here in Jacksonville! This world premiere is a playful yet subversive commentary on privilege, identity and social collapse. This comical, fourth-wall-busting play explores the chaotic lives of Harlan and Bronna, a wealthy New York couple who lose their fortune and must confront their own humanity—all while the world is literally ending. With its inventive structure and sharp satire, the play challenges traditional theatre conventions, exposing the absurdity of social status and the fragility of human connection. The couple’s struggle to adapt to a world in chaos becomes a biting metaphor for contemporary anxieties about wealth, status and societal breakdown.
 
