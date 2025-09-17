@@ -24,7 +24,7 @@ cast:
   - Madame Flora (Baba): Serafina Belletini
   - Monica: Madison Mackey
   - Monica Cover: Christen Mayer
-  - Mrs. Gobineau: Lisa Lockhart McCoy
+  - Mrs. Gobineau: Lisa Lockhart-McCoy
   - Mrs. Nolan: Hecate Gonzalez
   - Mr. Gobineau: TBA
   - Toby: TBA
