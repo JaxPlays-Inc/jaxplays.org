@@ -14,7 +14,8 @@ description:
 
 The evening will honor community leaders and longtime supporters of the theater company, which has built its reputation producing plays that highlight the Black experience and faith-based stories.
 
-VIP honorees include Tod Booth, Dr. Barbara A. Darby, Edward and Dr. Dolores Hall, Carlton Jones, Ju’Coby Pittman and Delores Barr-Weaver.
+VIP honorees include Tod Booth, Dr. Barbara A. Darby, Edward and Dr. Dolores Hall, Carlton Jones, Ju’Coby Pittman and Delores Barr-Weaver
+<!--more-->
 
 The gala will be hosted by Jacksonville native Angela Robinson, an actress best known for her television and stage work. Guest presenter Renee Lawless will also appear. The event is produced by Stage Aurora founder and artistic director Darryl Reuben Hall, with Akia Uwanda serving as planner.
 
