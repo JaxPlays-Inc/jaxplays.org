@@ -30,11 +30,12 @@ cast:
   - Toby: TBA
 crew:
   - Director / Music Director: Brandon Smith
-  - Pianist / Associate Music Director: Tim Tuller
+  - Associate Music Director: Tim Tuller
   - Assistant Director / Costumer: Kylie Humber
   - Lighting Designer: Chad L. Conley
   - Graphic Designer: Joel Bernkrant
 orchestra:
+  - Pianist: Tim Tuller
 genres: 
   - Opera
 Description: ""
