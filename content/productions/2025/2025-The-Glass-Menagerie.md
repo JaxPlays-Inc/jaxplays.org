@@ -24,6 +24,10 @@ Tickets: https://www.eventbrite.com/e/apex-theatre-studio-presents-the-glass-men
 show_details: 
 cast:
   - Amanda Wingfield: Cathy O'Brien
+  - Tom: 
+    - Jack Gallison
+  - Laura: 
+    - Sophie Somaru  
 crew:
 - Director: George Judy
 photos:
