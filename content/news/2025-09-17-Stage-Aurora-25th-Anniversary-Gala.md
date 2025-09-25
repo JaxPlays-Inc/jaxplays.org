@@ -8,9 +8,9 @@ featured_image_alt:
 authors: 
 - JaxPlays
 show_reading_time: true
-description:
+description: "Stage Aurora marks 25 years with a gala at WJCT Studios, honoring Black arts, community leaders and a legacy of cultural impact."
 ---
-[[theatre:Stage Aurora Theatrical Company]] will celebrate its 25th anniversary with a gala Monday, Sept. 29, at WJCT Studios.
+[[theatre:Stage Aurora Theatrical Company]] will celebrate its 25th anniversary with a gala Monday, Sept. 29, at WJCT Studios.<!--more>
 
 The evening will honor community leaders and longtime supporters of the theater company, which has built its reputation producing plays that highlight the Black experience and faith-based stories.
 
