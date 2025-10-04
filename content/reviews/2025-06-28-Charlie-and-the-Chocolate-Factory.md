@@ -13,7 +13,7 @@ Theatre: Alhambra Theatre & Dining
 cast:
   - Jonathan Van Dyke
   - Jake Ayres
-  - Bob O’Hara
+  - Bob O'Hara
   - Luke Collins
   - Emily Morgan
   - Melanie Corallo

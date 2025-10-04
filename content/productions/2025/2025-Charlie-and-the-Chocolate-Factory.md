@@ -87,7 +87,7 @@ show_details:
 cast:
   - Willy Wonka: Jonathan Van Dyke
   - Charlie Bucket: Jake Ayres
-  - Grandpa Joe: Bob O’Hara
+  - Grandpa Joe: Bob O'Hara
   - Grandpa George: Luke Collins
   - Grandma Josephine: Emily Morgan
   - Grandma Georgina: Melanie Corallo

@@ -19,4 +19,6 @@ Socials:
   Website: 
   Backstage: bob-ohara-1
 ---
-In 2019, Bob began performing as a retirement hobby and was bitten hard. He has since appeared in 25 musicals including Little Women (Professor Bhaer), The Hunchback of Notre Dame (Frollo), Something Rotten (Nostradamus), She Loves Me (Mr. Maraczek), Anything Goes (Moonface Martin) and Oklahoma (Cord Elam) to name a few. Bob has also begun to expand to film appearing in Greek Mothers Never Die (Greek Priest). When not “playing” with friends, he is probably singing, dancing or bike riding near his Amelia Island home.
+A retired teacher, engineer, and business owner, Bob discovered theater after retiring in 2019 and has since performed in more than 40 productions across Northeast Florida and Southeast Georgia. Favorite roles include Grandpa Joe (Charlie and the Chocolate Factory), J.B. Biggley (How to Succeed in Business Without Really Trying), Nostradamus (Something Rotten), Moonface Martin (Anything Goes), Herr Schultz (Cabaret), Professor Bhaer (Little Women), Frollo (The Hunchback of Notre Dame), Mr. Maraczek (She Loves Me), Cord Elam (Oklahoma!), and yes—even the Monster in Young Frankenstein.
+
+He recently expanded into film with a role as a Greek priest in Greek Mothers Never Die. Offstage, Bob can often be found biking around Amelia Island, singing show tunes and running lines (with apologies to startled pedestrians).
