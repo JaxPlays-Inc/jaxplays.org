@@ -14,14 +14,15 @@ Address: |
 Socials: 
   Facebook: firstcoastopera
   Instagram: first_coast_opera
-  Twitter: FirstCoastOpera
   Website: https://www.firstcoastopera.com/
-color: "#404060"
+  LinkedIn: company/first-coast-opera/
+  YouTube: "@firstcoastopera1"
+color: "#b30b24"
 date: 2024-07-02T18:03:40-04:00
 donate: https://app.arts-people.com/index.php?donation=fcop&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
-Founded in 2000, First Coast Opera has become the cornerstone of opera in North Florida, offering an eclectic array of performances for over two decades—from intimate dinner shows and galas to fully staged productions. The Saint Augustine-based company enjoys support from the Florida Department of Cultural Affairs, St. Johns County, and the National Endowment for the Arts, as well as countless individual contributors.
+For 25 years, First Coast Opera has been bringing the power and beauty of live opera to Northeast Florida. As the region's first opera company, we are dedicated to presenting fully-staged productions, offering audiences the full theatrical experience with the grandeur of orchestra, chorus, sets and costumes. Rounding out each season we offer dinner concerts and free community programs that open the world of opera to all and showcase its remarkable versatility.
 
-Over the years, the company has transitioned through different leaderships but has consistently championed local talent in both classic and new operatic works. Under the current guidance of Artistic Director Curtis Tucker and Board President Michele Bova, First Coast Opera has expanded its artistic footprint, paying homage to luminaries such as Marian Anderson, Leonard Bernstein, and Edith Piaf, while also engaging in educational outreach.
+As we look to the next 25 years, we invite you to join us in celebrating opera's rich tradition and vibrant future on the First Coast. Our 26th season brings two beloved 19th-century masterpieces, Bizet's 'Carmen' and Gilbert and Sullivan's 'The Mikado.' We look forward to sharing them with longtime supporters and welcoming new audiences into the First Coast Opera family.
 
-The company has further enriched the community through collaborations with various arts organizations, including Flagler College, Stetson University Opera, and the St. Augustine Orchestra. A vital cultural asset, First Coast Opera continues to be an active arts partner, amplifying the artistic voice of the Northeast Florida region.
+The company has further enriched the community through collaborations with various arts organizations, including Flagler College, Stetson University Opera and the St. Augustine Orchestra. A vital cultural asset, First Coast Opera continues to be an active arts partner, amplifying the artistic voice of the Northeast Florida region.
