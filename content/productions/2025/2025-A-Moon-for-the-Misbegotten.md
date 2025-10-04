@@ -13,7 +13,7 @@ showtimes:
   - 2025-10-17T19:30:00-04:00
   - 2025-10-18T19:30:00-04:00
   - 2025-10-19T14:00:00-04:00
-featured_image: 2025-A-Moon-for-the-Misbegotten.webp
+featured_image: 2025-A-Moon-For-The-Misbegotten.webp
 featured_image_alt: 'ABET presents Eugene O’Neill’s play "A Moon for the Misbegotten" at WJCT Studio B'
 featured_image_caption: '"A Moon for the Misbegotten" presented by ABET at WJCT Studio B'
 featured_image_attr: 
@@ -41,15 +41,15 @@ crew:
   - Costume Designer: David Buchman
   - Stage Manager: Phedre Delinois
 Photos:
-- photo: 2025-A-Moon-for-the-Misbegotten-01.webp
+- photo: 2025-A-Moon-For-The-Misbegotten-01.webp
   photo_attr: Josh Andrews
   photo_alt: 
   photo_caption:
-- photo: 2025-A-Moon-for-the-Misbegotten-02.webp
+- photo: 2025-A-Moon-For-The-Misbegotten-02.webp
   photo_attr: Josh Andrews
   photo_alt: 
   photo_caption:
-- photo: 2025-A-Moon-for-the-Misbegotten-03.webp
+- photo: 2025-A-Moon-For-The-Misbegotten-03.webp
   photo_attr: Josh Andrews
   photo_alt: 
   photo_caption: 
