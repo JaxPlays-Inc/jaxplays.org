@@ -22,7 +22,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2024-Daddy-Long-Legs.pdf
 Website: https://www.ameliacommunitytheatre.org/
 Tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
@@ -41,10 +41,31 @@ crew:
 - Stage Manager: Emma Sawyer
 - Costumes: Vicki Gibson
 - Technical Director: Geoffrey Moss
+- Properties Crew Chief: Isabelle Bournigault
+- Properties Crew: 
+  - Linda Loftis
+  - Peter Sawyer
+- Set Construction Crew: 
+  - Bill Bowler
+  - Dean Koepp
+  - Dewain Hanlon
+  - Jamie Morrill
+  - Steve Powers
+  - Wayne Tamme
+  - Ed Spang
+  - Peter Williams
+- Painting Crew: 
+  - Anne Foos
+  - Jayne Jeney
+  - Peggy Strickland
+  - Janett Thomas
+- Light Board Operator: 
+  - Anne Foos
+  - Jayne Jeney
 orchestra:
 - Guitar: Brandon Hester
 - Cello: Carol Smith
-# Daddy Long Legs
+- Piano: Tabitha Mudd
 Genres:
   - Musical
   - Romance
