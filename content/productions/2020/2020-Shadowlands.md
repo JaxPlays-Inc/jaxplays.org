@@ -3,7 +3,8 @@ layout: productions
 title: Shadowlands
 redirect_from:
 - /productions/2020_Shadowlands
-date: 2023-09-08T00:00:00
+date: 2025-10-05T19:22:30-04:00
+featured_image: 2020-Shadowlands.webp
 opening_date: 2020-01-10
 closing_date: 2020-01-26
 Theatre: Theatre Jacksonville
@@ -11,10 +12,11 @@ venue: Harold K. Smith Playhouse
 Website: https://www.theatrejax.com/shadowlands
 show_details:
 - Writer: "[[w:William Nicholson]]"
-- Subject: Biographical
-Genres: 
+genres:
 - Play
 - Drama
+- Historical
+- Biographical
 showtimes:
 - 2020-01-10 20:00:00
 - 2020-01-11 20:00:00
@@ -38,4 +40,5 @@ cast:
 - Dr. Maurice Oakley: Matt King
 crew:
 - Director: Gary Webber
+Description: "This is the love story of C.S. Lewis and American poet Joy Davidman. Lewis is smug in his convictions about God and His plan for the world until Joy and her son turn his world upside down."
 ---
