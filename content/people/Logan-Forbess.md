@@ -9,8 +9,8 @@ featured_image_caption:
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
-  LinkedIn: 
+  Instagram: 20.loganf.04
+  LinkedIn: logan-forbess-5726bb249
   IBDB: 
   IMDb:
   Website: 

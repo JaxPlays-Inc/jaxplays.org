@@ -19,7 +19,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2024-Jekyll-and-Hyde.pdf
 Website: 
 Tickets: https://ci.ovationtix.com/34877/production/1187115
 show_details: 

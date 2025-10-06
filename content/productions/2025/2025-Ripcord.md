@@ -29,10 +29,15 @@ cast:
   - Scotty: Spencer Finch
   - Colleen / Woman in White: Jennifer Lilly
   - Derek / Masked Man / Zombie Butler: Jay Bilderback
-  - Benjamin / Clown / Lewis: Matthew Turnage
+  - Benjamin / Lewis / Clown: Matthew Turnage
 crew:
   - Director: Zach Rivera
   - Stage Manager: Jillian Cote
+  - Scenic Designer: Bradley Akers
+  - Lighting Designer: Jocelyn Geronimo
+  - Costume Designer: Cathy Dooley
+  - Props Designer: Elizabeth Rivera
+  - Sound Design & Engineering: GoldenStage Productions
 orchestra:
 genres:
   - Play

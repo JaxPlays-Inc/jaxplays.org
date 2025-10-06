@@ -39,6 +39,7 @@ crew:
  - Director: 
     - Daniel Austin
     - Ron Shreve
+ - Scenic Construction: Logan Forbess
 orchestra:
 genres: 
 Description: 
