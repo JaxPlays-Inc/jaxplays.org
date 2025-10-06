@@ -54,6 +54,7 @@ crew:
   - Director: Niki Stokes
   - Choreographer: Niki Stokes
   - Musical Director: Anthony Felton
+  - Scenic Construction: Logan Forbess
 orchestra:
 show_details: 
   - Music: "Alan Menken"
