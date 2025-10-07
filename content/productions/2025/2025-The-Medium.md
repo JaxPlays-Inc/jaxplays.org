@@ -36,9 +36,11 @@ crew:
   - Graphic Designer: Joel Bernkrant
 orchestra:
   - Pianist: Tim Tuller
-genres: 
+Genres:
   - Opera
-Description: ""
+  - Drama
+  - Psychological Thriller
+Description: "A chilling act opera where a fraudulent séance spirals into paranoia, blurring the line between the supernatural and the psychological."
 ---
 *The Medium* by Gian Carlo Menotti is a two-act opera that explores themes of deception, fear, and the supernatural. The story centers on Madame Flora, also called Baba, a fraudulent medium who pretends to communicate with the spirits of the dead. She operates out of her parlor with the help of her daughter, Monica, and a mute servant, Toby. During a séance, a strange and shocking event occurs that suggests the presence of a real spirit. Fear and paranoia drive Baba to suspect Toby, and in a tragic climax, she shoots him when he sneaks back into the house to be with Monica.
 
