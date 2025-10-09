@@ -5,7 +5,7 @@ aliases:
   - /theatres/alhambra-theatre-dining
 active: true
 company_type: Professional
-featured_image: The_Alhambra_Theatre_&_Dining.webp
+featured_image: The_Alhambra_Theatre_and_Dining.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

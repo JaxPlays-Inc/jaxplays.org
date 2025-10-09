@@ -4,8 +4,10 @@ aliases:
   - /venues/Story-and-Song-Center-for-Arts-and-Culture
   - /venues/Story-and-Song-Center-for-Arts
   - /venues/story-and-song-bistro
+  - /venues/story-and-song
   - /venues/Story-and-Song-Bookstore-Bistro
 venue_aliases:
+  - Story and Song
   - Story and Song Bistro
   - Story and Song Bookstore Bistro
 date: 2025-03-25T16:19:00-04:00
