@@ -31,7 +31,7 @@ showtimes:
 - 2023-08-12 19:30:00
 cast:
 - Valet: Josh Andrews
-- Renaud: Jeff Drushal*
+- Renaud: Jeff Drushal
 - Estelle: Kate McManus
 - Inez: Kathryn Kuhn
 crew:

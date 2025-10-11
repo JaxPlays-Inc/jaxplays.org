@@ -63,8 +63,51 @@ program:
 Website: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1490&code=JAXPLAYS
 cast:
-crew:
+  - Chairman / Mayor Thomas Sapsea: Alec Hadden
+  - John Jasper: Justin Murphy
+  - Edwin Drood: "Torie D’Alessandro"
+  - Rosa Bud: Ellen Shaw
+  - Princess Puffer: Patti Eyler
+  - Helena Landless: Megan Soledad
+  - Neville Landless: Anthony Llerandi
+  - Reverend Crisparkle: David Diehl
+  - Bazzard: Noah Ruis
+  - Durdles: Pete Clapsis
+  - Deputy: Landon Amburgey
+  - Miss Isabel Yearsley: Jen Brooks
+  - Miss Violet Balfour: Samantha Pohly
+  - Miss Florence Gill, Maid and Others: Kathy Sanders
+  - Ensemble:
+      - Erik DeCicco
+      - Thaddeus Walker
 orchestra:
+  - Conductor / Keyboard: Cathy Murphy Giddens
+  - Piano / Synth: Stephen Mark Fennell
+  - Strings: Kim Zielinski
+  - Guitar / Additional Fretted Instruments / Trumpet: Brooks Clarke
+  - Bass (Acoustic and Electric): Ranger Roberts
+  - Percussion: Tim Pickering
+understudies:
+  - Edwin Drood: Jen Brooks
+  - Bazzard: Landon Amburgey
+  - Rosa Bud / Helena Landless: Samantha Pohly
+  - Princess Puffer: Kathy Sanders
+  - Chairman / Mayor Thomas Sapsea / John Jasper / Reverend Crisparkle: Erik DeCicco
+  - Durdles / Deputy / Neville Landless: Thaddeus Walker
+crew:
+  - Director / Choreographer: Shain Stroff
+  - Musical Director: Cathy Murphy Giddens
+  - Lighting Design: Daniel Dungan
+  - Costume Design:
+      - Camala Pitts
+      - Dorinda Quiles
+  - Production Stage Manager: Sarah Brace
+  - Audio Engineer: GoldenStage Productions
+  - Set Design: Dave Dionne
+  - Set Portrait Design: Michael Roddy
+  - Props & Signage:
+      - Patti Eyler
+      - Tom Cassaro
 show_details: 
   - Music: "[[w:Rupert Holmes]]"
   - Lyrics: "Rupert Holmes"
