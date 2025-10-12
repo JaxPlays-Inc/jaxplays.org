@@ -11,6 +11,26 @@ show_reading_time: true
 production: 2025 Come From Away
 Theatre: Alhambra Theatre & Dining
 cast: 
+- Maureen McCluskey
+- Millicent (Penny) Sylvester
+- Katie Nettle
+- Lisa Booth
+- Kathy Sanders
+- Jennifer Medure
+- Jason Nettle
+- Christopher Michael Milligan
+- Anthony Llerandi
+- Jereme Raickett
+- James A. Skiba
+- Steven Amburgey
+- Cathy Murphy Giddens
+- Kim Zielinski
+- Brooks Clarke
+- Tod Booth
+- Maureen Straub Craig
+- Camala Pitts
+- Dorinda Quiles
+- Johnny Pettegrew
 description: "Alhambra’s production of *Come From Away* captures the resilience, compassion and humanity of Gander’s response to 9/11."
 ---
 [[theatre:Alhambra Theatre & Dining]]’s production of [[production:2025 Come From Away]] is a moving, exhilarating reminder of the power of community in the face of tragedy. Now, even 24 years after the events of Sept. 11, the show still resonates with urgency and compassion, and this cast brings it to life with both precision and heart.

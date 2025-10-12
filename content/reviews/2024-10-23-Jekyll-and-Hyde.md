@@ -14,6 +14,7 @@ cast:
 - Julia Blasi
 - Ilana Marshall
 - Chris Robertson
+- GoldenStage Productions
 description: "Cole Marshall’s riveting portrayal of the dual roles and a talented ensemble turn Players by the Sea’s *Jekyll & Hyde* into an unforgettable theatrical experience."
 ---
 At its core, [[production:2024 Jekyll & Hyde]] is a study in the duality of human nature — how good and evil coexist within us, and the perilous line that separates them. Set in Victorian London, the story follows Dr. Henry Jekyll, a brilliant scientist obsessed with separating the moral from the immoral in mankind. When his experiments turn inward, he unleashes Edward Hyde, a malevolent force born from his own repressed desires. As Hyde’s brutal violence spirals out of control, Jekyll battles to reclaim his sanity, while those closest to him are caught in the crossfire of his self-destruction.
@@ -44,7 +45,7 @@ Michelle C. Lindsay and [[person:Phedre Delinois]]’s costume design for Jekyll
 
 [[person:Daniel Dungan]]'s lighting design for Jekyll & Hyde is a visual marvel, adding depth and intensity to every scene with its dynamic use of light and shadow. Uplights built into the set create dramatic, almost haunting shadows that amplify the tension and emotional weight of the story. Entire scenes are transformed through Dungan’s brilliant use of light, crafting striking tableaus that evoke both beauty and menace, heightening the gothic atmosphere. Though there are minor issues with missed transitions by the lighting technician, these small faults did little to detract from the overall impact of Dungan's stunning and meticulously crafted design.
 
-Unfortunately, the sound design and engineering consistently sabotages key moments of *Jekyll & Hyde*, undermining an otherwise outstanding production. The microphones are poorly equalized to the singers' vocal ranges, leaving some performers sounding tinny and hollow, while others come across as overly bass-heavy. Even more problematic is the near-complete lack of balance between vocals and background tracks, leaving the singers completely unsupported during crucial moments. Worse still, there are countless instances where ensemble members’ solo lines are muted until nearly the very end, disrupting key scenes. 
+Unfortunately, [[person:GoldenStage Productions]]' sound design and engineering consistently sabotages key moments of *Jekyll & Hyde*, undermining an otherwise outstanding production. The microphones are poorly equalized to the singers' vocal ranges, leaving some performers sounding tinny and hollow, while others come across as overly bass-heavy. Even more problematic is the near-complete lack of balance between vocals and background tracks, leaving the singers completely unsupported during crucial moments. Worse still, there are countless instances where ensemble members’ solo lines are muted until nearly the very end, disrupting key scenes. 
 
 Despite these significant audio issues, the cast deserves many accolades for never letting it impact their performance. Many times, the leads push through incredibly terrible audio to give an outstanding performance, especially Marshall whose background tracks often completely disappear during powerful numbers like during “This Is the Moment,” demonstrating true professionalism and resilience.
 

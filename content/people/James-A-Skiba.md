@@ -1,6 +1,8 @@
 ---
 title: James A. Skiba
-date: 2025-09-01T12:29:23-04:00
+aliases: 
+  - /people/james-a.-skiba
+date: 2025-10-11T19:49:14-04:00
 featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 
