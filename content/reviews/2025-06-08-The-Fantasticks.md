@@ -17,6 +17,7 @@ cast:
 - Jad Jordan
 - Zachary Jones
 - Joe Capps
+- Destiny Golden
 description: "ABET’s *The Fantasticks* offers moments of charm, clever staging and committed performances in a thoughtful take on this enduring musical fable."
 ---
 [[theatre:ABET - All Beaches Experimental Theatre]]’s [[production:2025 The Fantasticks]] takes on one of musical theater’s most curious relics — a minimalist fable of young love and life lessons that has charmed audiences for decades. Whether its particular blend of whimsy and earnestness holds up for modern viewers is debatable, but ABET’s production finds genuine moments of charm amid the show’s quirks.<!--more-->
@@ -35,6 +36,6 @@ The story’s first major twist reveals that the fathers have been cleverly stag
 
 The production tips its hand at the close of Act 1 by unfurling a giant "Happy Ending" banner across the scene — a knowing wink to the audience that all is not quite as resolved as it seems. Act 2 wastes no time pulling the rug out from under the story’s fairy tale charm, as the consequences of the fathers’ scheme — and the limits of youthful fantasy — begin to unfold. The tone grows noticeably more cynical, and while the pacing softens, the production retains just enough energy to carry the audience through. What follows is not a tidy happily-ever-after, but a more complicated journey through disillusionment and the painful lessons of growing up. The cast handles this shift with commitment, and several smart directorial choices — including a striking silhouette sequence that mirrors Louisa’s increasing sense of distance and disillusionment — help maintain interest even as the narrative darkens.
 
-Working in the [[venue:Adele Grage Cultural Center]] presents its own unique set of challenges, and this production doesn’t entirely escape them. While the sound mix is crisp and balanced, the lighting design, though creatively conceived, sometimes struggles in execution. A few scenes are left awkwardly lit, thanks to a combination of missed marks and the realities of performing in a space that was not originally designed for theater.
+Working in the [[venue:Adele Grage Cultural Center]] presents its own unique set of challenges, and this production doesn’t entirely escape them. While [[person:Destiny Golden]]'s sound mix is crisp and balanced, the lighting design, though creatively conceived, sometimes struggles in execution. A few scenes are left awkwardly lit, thanks to a combination of missed marks and the realities of performing in a space that was not originally designed for theater.
 
 [[theatre:ABET]]’s [[production:2025 The Fantasticks]] offers moments of genuine charm and strong individual performances, even as it wrestles with the limitations of an aging musical. For longtime fans or the theatrically curious, this production provides an imperfect yet thoughtful exploration of an enduring oddity.

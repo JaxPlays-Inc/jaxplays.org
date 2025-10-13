@@ -24,19 +24,25 @@
       {{ end }}
     {{ end }}
 
-    {{ if or $featuredImage .Content }}
     <div class="flex flex-column flex-row-ns">
       <!-- Featured Image Section -->
-      {{ $imagePath := "/media/default/people_headshot.webp" }} <!-- Default image path -->
+      {{/* Always set an image path: use headshot if present, else default headshot */}}
+      {{ $imagePath := "" }}
       {{ if $featuredImage }}
-      {{ $imagePath = printf "/media/headshots/%s" $featuredImage }}
-      <!-- Concatenate path if featured image exists -->
+        {{ $imagePath = printf "/media/headshots/%s" $featuredImage }}
+      {{ else }}
+        {{ $imagePath = "/media/default/people_headshot.webp" }}
       {{ end }}
+
       <div class="w-75 w-40-m w-25-l flex-column center">
-        <a href="{{ $imagePath }}" data-lightbox="image-1"
-          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+        {{ if $featuredImage }}
+          <a href="{{ $imagePath }}" data-lightbox="image-1"
+            data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+            <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
+          </a>
+        {{ else }}
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
-        </a>
+        {{ end }}
         {{ if .Params.Socials }}
         {{ partial "social-media-links.html" . }}
         {{ end }}
@@ -64,7 +70,6 @@
       </div>
       {{ end }}
     </div>
-    {{ end }}
 
     {{ $global := . }} <!-- Capture the global context to use inside range blocks -->
 
