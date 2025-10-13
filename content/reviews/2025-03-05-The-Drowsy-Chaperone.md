@@ -21,7 +21,7 @@ What makes *The Drowsy Chaperone* so unique is its meta nature — this isn't ju
 
 #### A Cast That Brings the Madness to Life
 
-{{< figure src="/media/photos/2025-The-Drowsy-Chaperone-02.webp" alt="Blake Osner as Aldolpho in 'The Drowsy Chaperone', dramatically gesturing with extended arms, dressed in a vibrant and ornately decorated costume, on stage with a vivid, colorful backdrop." caption="Blake Osner captures the flamboyant spirit of Aldolpho in 'The Drowsy Chaperone' at the Alhambra Theatre & Dining, delivering a larger-than-life performance that fills the stage with charisma and comedic flair." attr="Limelight Theatre" >}}
+{{< figure src="/media/photos/2025-The-Drowsy-Chaperone-02.webp" alt="Blake Osner as Aldolpho in 'The Drowsy Chaperone', dramatically gesturing with extended arms, dressed in a vibrant and ornately decorated costume, on stage with a vivid, colorful backdrop." caption="Blake Osner captures the flamboyant spirit of Aldolpho in 'The Drowsy Chaperone' at the Limelight Theatre, delivering a larger-than-life performance that fills the stage with charisma and comedic flair." attr="Limelight Theatre" >}}
 
 [[person:Bill Rains]] as Man in Chair is the beating heart of this production, guiding the audience through the story with dry wit, infectious enthusiasm and a deep, genuine love for musical theater. His performance is both hilarious and oddly poignant, making it impossible to imagine the show without him.
 

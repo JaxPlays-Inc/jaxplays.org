@@ -39,14 +39,23 @@ cast:
   - Sister Robert Ann: Facia Lee
   - Sister Mary Leo: Charity Walton
 crew:
-  - Directors: 
+  - Directors:
       - Daniel Starling
       - Heather Starling
   - Stage Manager: Sophie Willis
   - Music Director: Keith Teepen
+  - Set Design: Ashley Taylor
   - Costume Design: Jenn Michaels
   - Seamstress: Janice Bickel
+  - Light Board Operator: Natasha Hartstone
+  - Sound Board Operator: Day Stanchi
+  - Properties Master: Lois Dent
+  - Production Manager: Ashley Taylor
+  - Set Builders: RJ and the Maritime Creative Team
   - Trailer: Charity Walton
+  - Photographers:
+      - Daniel Starling
+      - Heather Starling
 orchestra:
   - Piano: 
     - Keith Teepen
