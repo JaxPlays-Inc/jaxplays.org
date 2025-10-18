@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 The Fantasticks
-Theatre: All Beaches Experimental Theatre
+Theatre: "ABET - All Beaches Experimental Theatre"
 cast: 
 - Franklin Ritch
 - Julia Clark
