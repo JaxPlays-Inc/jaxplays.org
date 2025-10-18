@@ -7,7 +7,7 @@ featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
 Socials:
-  Facebook: 
+  Facebook: jessica.denes.5
   Twitter: 
   Instagram: jessica_racaniello
   LinkedIn: 

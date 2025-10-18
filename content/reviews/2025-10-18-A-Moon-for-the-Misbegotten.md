@@ -19,7 +19,7 @@ cast:
 - Scott Campbell
 - Tyler Hammond
 - David Buchman
-description: "ABET’s \"A Moon for the Misbegotten\" delivers raw emotion, striking design and standout performances in O’Neill’s tale of loneliness and redemption."
+description: "ABET’s *A Moon for the Misbegotten* delivers raw emotion, striking design and standout performances in O’Neill’s tale of loneliness and redemption."
 ---
 In Eugene O’Neill’s [[production:2025 A Moon for the Misbegotten]], the past hangs heavy over a Connecticut farm where resentment, survival and yearning intertwine. Josie Hogan, the sharp-tongued daughter of an aging tenant farmer, scrapes out a life shaped by both hardship and wit. Her father, Phil, schemes to secure the family’s land from their landlord, James Tyrone Jr., whose charm masks deep grief and self-loathing. What begins as a bluff for ownership becomes a night of searing honesty, as Josie and Tyrone’s defenses crumble and their pain is laid bare beneath the moonlight.<!--more-->
 
