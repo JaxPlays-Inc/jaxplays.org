@@ -1,4 +1,17 @@
 ---
 title: Tyler Hammond
-date: 2023-09-08T00:00:00-04:00
+date: 2025-10-18T11:38:51-04:00
+featured_image: Tyler-Hammond.webp
+featured_image_attr: 
+featured_image_attr_link: 
+featured_image_alt: 
+featured_image_caption: 
+Socials:
+  Facebook: 
+  Twitter: 
+  Instagram: 
+  LinkedIn: 
+  IBDB: 
+  IMDb:
+  Website: 
 ---

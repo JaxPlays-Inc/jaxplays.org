@@ -1,17 +1,18 @@
 ---
 title: Jessica Racaniello
 date: 2025-10-04T18:00:26-04:00
-featured_image: 
-featured_image_attr: 
-featured_image_attr_link: 
+featured_image: Jessica-Racaniello.webp
+featured_image_attr: Jax Headshots
+featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
 Socials:
   Facebook: 
   Twitter: 
-  Instagram: 
+  Instagram: jessica_racaniello
   LinkedIn: 
   IBDB: 
-  IMDb:
+  IMDb: nm16217940
   Website: 
+  Backstage: jessica-racaniello
 ---
