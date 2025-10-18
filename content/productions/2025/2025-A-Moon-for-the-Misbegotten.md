@@ -64,6 +64,10 @@ Written by Eugene O’Neill, the only American playwright awarded the Nobel Priz
 
 A rare chance to witness the brilliance of O’Neill’s later work, ABET’s production brings this timeless masterpiece to life with grit, grace, and honesty.
 
-### *Moon for the Misbegotten* | *First Coast Connect* - WJCT News 89.9
+### "A Moon for the Misbegotten" | First Coast Connect - WJCT News 89.9
 
 {{< YouTube id="BlaGoz4kNxk" >}}
+
+### ABET Presents "A Moon for the Misbegotten" by Eugene O'Neill | First Coast Living - First Coast News
+
+{{< YouTube id="MTX-ATu9OtU" >}}
