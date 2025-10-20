@@ -5,26 +5,24 @@
     margin: 2rem 0;
   }
 
-  @media (min-width: 1624px) {
-    #div-gpt-ad-1724901421605-0 {
-      min-width: 300px;
-      min-height: 250px;
-    }
+  .right-rail .gpt-slot {
+    min-width: 300px;
+    min-height: 250px;
+  }
 
+  @media (min-width: 1624px) {
     .right-rail {
       position: absolute;
       top: 0;
-      right: {{ .right }}; /* Variable for right */
-      margin: {{ .margin }}; /* Variable for margin */
+      right: {{ .right }};
+      margin: {{ .margin }};
     }
   }
 </style>
 <div class="flex flex-column items-center right-rail">
   <!-- /23156489440/right-rail-1 -->
-  <div id='div-gpt-ad-1726693593967-0' style='min-width: 300px; min-height: 250px;'>
-    <script>
-      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1726693593967-0'); });
-    </script>
-  </div>
+  <div class="gpt-slot"
+       data-gpt-unit="/23156489440/right-rail-1"
+       data-gpt-sizes="300x250"></div>
   <p class="f7 i">JaxPlays applauds our sponsors. <a href="/corporate-sponsors">Join them.</a></p>
 </div>

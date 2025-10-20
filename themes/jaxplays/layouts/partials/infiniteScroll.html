@@ -39,6 +39,13 @@ document.addEventListener("DOMContentLoaded", function() {
               document.querySelector('.main-content').parentNode.appendChild(prevNav);
             }
 
+            if (window.jaxplaysAds && typeof window.jaxplaysAds.registerSlots === 'function') {
+              window.jaxplaysAds.registerSlots(prevPost);
+              if (typeof window.jaxplaysAds.ensureService === 'function') {
+                window.jaxplaysAds.ensureService();
+              }
+            }
+
             // --- Update browser history to the new post ---
             const newUrl = doc.querySelector('link[rel="canonical"]')?.href
               || prevPost.querySelector('a[rel="bookmark"]')?.href

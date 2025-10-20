@@ -15,35 +15,173 @@
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <script>
   window.googletag = window.googletag || {cmd: []};
-  googletag.cmd.push(function() {
-    var threshold = 980; // Define a threshold for switching ad sizes
+  window.jaxplaysAds = window.jaxplaysAds || {};
+  window.jaxplaysAds.slots = window.jaxplaysAds.slots || {};
+  window.jaxplaysAds.meta = window.jaxplaysAds.meta || {};
+  window.jaxplaysAds.counter = window.jaxplaysAds.counter || 0;
+  window.jaxplaysAds.servicesEnabled = window.jaxplaysAds.servicesEnabled || false;
+  window.jaxplaysAds.enableQueued = window.jaxplaysAds.enableQueued || false;
 
-    // Define the size mapping based on the threshold
-    var mapping = googletag.sizeMapping()
-      .addSize([threshold, 0], [970, 250]) // Width is 980 or greater, display 970x250
-      .addSize([0, 0], [300, 250]) // Smaller widths, display 300x250
-      .build();
-      
-    // Define the ad slots
-    googletag.defineSlot('/23156489440/left-rail-1', [300, 250], 'div-gpt-ad-1725819105833-0')
-    googletag.defineSlot('/23156489440/right-rail-1', [300, 250], 'div-gpt-ad-1726693593967-0')
-      .addService(googletag.pubads());
-    var billboardSlot = googletag.defineSlot('/23156489440/billboard-1', [[300, 250], [970, 250]], 'div-gpt-ad-1726544268663-0')
-      .defineSizeMapping(mapping)
-      .addService(googletag.pubads());
-    
-    googletag.pubads().collapseEmptyDivs();
-    googletag.enableServices();
-
-    // Function to check and refresh the ad if necessary when crossing the threshold
-    let lastWidth = window.innerWidth;
-    window.addEventListener('resize', function() {
-      let currentWidth = window.innerWidth;
-      if ((lastWidth >= threshold && currentWidth < threshold) || (lastWidth < threshold && currentWidth >= threshold)) {
-        googletag.pubads().refresh([billboardSlot]); // Refresh only this ad slot
+  window.jaxplaysAds.parseSizes = function(sizeString) {
+    if (!sizeString) {
+      return [[300, 250]];
+    }
+    return sizeString.split(',').map(function(part) {
+      var pieces = part.trim().split('x');
+      if (pieces.length !== 2) {
+        return null;
       }
-      lastWidth = currentWidth; // Update last known width
+      var width = parseInt(pieces[0], 10);
+      var height = parseInt(pieces[1], 10);
+      if (isNaN(width) || isNaN(height)) {
+        return null;
+      }
+      return [width, height];
+    }).filter(Boolean);
+  };
+
+  window.jaxplaysAds.parseBreakpoints = function(definition) {
+    if (!definition) {
+      return [];
+    }
+    return definition.split(';').map(function(segment) {
+      var parts = segment.trim().split(':');
+      if (parts.length !== 2) {
+        return null;
+      }
+      var viewportPieces = parts[0].split('x').map(function(value) {
+        var parsed = parseInt(value, 10);
+        return isNaN(parsed) ? 0 : parsed;
+      });
+      var sizeStrings = parts[1].split('|');
+      var sizes = sizeStrings.map(function(sizeString) {
+        var dims = sizeString.trim().split('x');
+        if (dims.length !== 2) {
+          return null;
+        }
+        var width = parseInt(dims[0], 10);
+        var height = parseInt(dims[1], 10);
+        if (isNaN(width) || isNaN(height)) {
+          return null;
+        }
+        return [width, height];
+      }).filter(Boolean);
+      if (!sizes.length) {
+        return null;
+      }
+      return {
+        viewport: viewportPieces,
+        sizes: sizes
+      };
+    }).filter(Boolean);
+  };
+
+  window.jaxplaysAds.registerSlots = function(root) {
+    root = root || document;
+    if (!root.querySelectorAll) {
+      return;
+    }
+    var adElements = root.querySelectorAll('[data-gpt-unit]');
+    Array.prototype.forEach.call(adElements, function(element) {
+      if (element.dataset.gptInitialized === 'true') {
+        return;
+      }
+      var slotId = element.id;
+      if (!slotId || document.getElementById(slotId) !== element) {
+        var base = (element.dataset.gptUnit || 'gpt-slot').replace(/[^\w]/g, '-');
+        base = base.replace(/-+/g, '-').replace(/^-|-$/g, '');
+        slotId = base + '-' + (++window.jaxplaysAds.counter);
+        element.id = slotId;
+      }
+
+      var unitPath = element.dataset.gptUnit;
+      if (!unitPath) {
+        return;
+      }
+      var sizes = window.jaxplaysAds.parseSizes(element.dataset.gptSizes);
+      if (!sizes.length) {
+        sizes = [[300, 250]];
+      }
+      var breakpointsDefinition = element.dataset.gptBreakpoints;
+      var refreshThreshold = parseInt(element.dataset.gptRefreshThreshold || '', 10);
+
+      googletag.cmd.push(function() {
+        var slot = googletag.defineSlot(unitPath, sizes, slotId);
+        if (!slot) {
+          return;
+        }
+        if (breakpointsDefinition) {
+          var breakpointData = window.jaxplaysAds.parseBreakpoints(breakpointsDefinition);
+          if (breakpointData.length) {
+            var builder = googletag.sizeMapping();
+            breakpointData.forEach(function(entry) {
+              builder.addSize(entry.viewport, entry.sizes);
+            });
+            slot.defineSizeMapping(builder.build());
+          }
+        }
+        slot.addService(googletag.pubads());
+        element.dataset.gptInitialized = 'true';
+        window.jaxplaysAds.slots[slotId] = slot;
+        window.jaxplaysAds.meta[slotId] = {
+          refreshThreshold: isNaN(refreshThreshold) ? null : refreshThreshold
+        };
+        googletag.display(slotId);
+      });
     });
+  };
+
+  window.jaxplaysAds.setupResizeWatcher = function() {
+    if (window.jaxplaysAds.resizeWatcherInitialized) {
+      return;
+    }
+    window.jaxplaysAds.resizeWatcherInitialized = true;
+    var lastWidth = window.innerWidth;
+    window.addEventListener('resize', function() {
+      var currentWidth = window.innerWidth;
+      var slotsToRefresh = [];
+      Object.keys(window.jaxplaysAds.meta).forEach(function(slotId) {
+        var meta = window.jaxplaysAds.meta[slotId];
+        if (!meta || !meta.refreshThreshold) {
+          return;
+        }
+        var threshold = meta.refreshThreshold;
+        var crossed = (lastWidth >= threshold && currentWidth < threshold) ||
+                      (lastWidth < threshold && currentWidth >= threshold);
+        if (crossed) {
+          var slot = window.jaxplaysAds.slots[slotId];
+          if (slot) {
+            slotsToRefresh.push(slot);
+          }
+        }
+      });
+      if (slotsToRefresh.length) {
+        googletag.cmd.push(function() {
+          googletag.pubads().refresh(slotsToRefresh);
+        });
+      }
+      lastWidth = currentWidth;
+    });
+  };
+
+  window.jaxplaysAds.ensureService = function() {
+    if (window.jaxplaysAds.enableQueued) {
+      return;
+    }
+    window.jaxplaysAds.enableQueued = true;
+    googletag.cmd.push(function() {
+      if (!window.jaxplaysAds.servicesEnabled) {
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+        window.jaxplaysAds.servicesEnabled = true;
+        window.jaxplaysAds.setupResizeWatcher();
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    window.jaxplaysAds.registerSlots(document);
+    window.jaxplaysAds.ensureService();
   });
 </script>
 <script src="https://www.google.com/recaptcha/api.js?render=6Lcnn0MrAAAAAE-DuxHWbMXXkZGVCDHXy824uGcw"></script>
