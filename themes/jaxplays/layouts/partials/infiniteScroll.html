@@ -40,9 +40,12 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             if (window.jaxplaysAds && typeof window.jaxplaysAds.registerSlots === 'function') {
+              if (prevHeader) {
+                window.jaxplaysAds.registerSlots(prevHeader);
+              }
               window.jaxplaysAds.registerSlots(prevPost);
-              if (typeof window.jaxplaysAds.ensureService === 'function') {
-                window.jaxplaysAds.ensureService();
+              if (prevNav) {
+                window.jaxplaysAds.registerSlots(prevNav);
               }
             }
 

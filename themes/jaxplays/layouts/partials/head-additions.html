@@ -20,7 +20,8 @@
   window.jaxplaysAds.meta = window.jaxplaysAds.meta || {};
   window.jaxplaysAds.counter = window.jaxplaysAds.counter || 0;
   window.jaxplaysAds.servicesEnabled = window.jaxplaysAds.servicesEnabled || false;
-  window.jaxplaysAds.enableQueued = window.jaxplaysAds.enableQueued || false;
+  window.jaxplaysAds.pendingDisplays = window.jaxplaysAds.pendingDisplays || [];
+  window.jaxplaysAds.displayFlushQueued = window.jaxplaysAds.displayFlushQueued || false;
 
   window.jaxplaysAds.parseSizes = function(sizeString) {
     if (!sizeString) {
@@ -79,11 +80,12 @@
   window.jaxplaysAds.registerSlots = function(root) {
     root = root || document;
     if (!root.querySelectorAll) {
-      return;
+      return false;
     }
     var adElements = root.querySelectorAll('[data-gpt-unit]');
+    var registeredAny = false;
     Array.prototype.forEach.call(adElements, function(element) {
-      if (element.dataset.gptInitialized === 'true') {
+      if (element.dataset.gptInitialized === 'true' || element.dataset.gptInitialized === 'pending') {
         return;
       }
       var slotId = element.id;
@@ -105,9 +107,11 @@
       var breakpointsDefinition = element.dataset.gptBreakpoints;
       var refreshThreshold = parseInt(element.dataset.gptRefreshThreshold || '', 10);
 
+      element.dataset.gptInitialized = 'pending';
       googletag.cmd.push(function() {
         var slot = googletag.defineSlot(unitPath, sizes, slotId);
         if (!slot) {
+          delete element.dataset.gptInitialized;
           return;
         }
         if (breakpointsDefinition) {
@@ -121,12 +125,39 @@
           }
         }
         slot.addService(googletag.pubads());
-        element.dataset.gptInitialized = 'true';
         window.jaxplaysAds.slots[slotId] = slot;
         window.jaxplaysAds.meta[slotId] = {
           refreshThreshold: isNaN(refreshThreshold) ? null : refreshThreshold
         };
-        googletag.display(slotId);
+        element.dataset.gptInitialized = 'true';
+      });
+      window.jaxplaysAds.pendingDisplays.push(slotId);
+      registeredAny = true;
+    });
+    if (registeredAny) {
+      window.jaxplaysAds.flushDisplayQueue();
+    }
+    return registeredAny;
+  };
+
+  window.jaxplaysAds.flushDisplayQueue = function() {
+    if (!window.jaxplaysAds.pendingDisplays.length || window.jaxplaysAds.displayFlushQueued) {
+      return;
+    }
+    window.jaxplaysAds.displayFlushQueued = true;
+    googletag.cmd.push(function() {
+      window.jaxplaysAds.displayFlushQueued = false;
+      if (!window.jaxplaysAds.servicesEnabled) {
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+        window.jaxplaysAds.servicesEnabled = true;
+        window.jaxplaysAds.setupResizeWatcher();
+      }
+      var ids = window.jaxplaysAds.pendingDisplays.splice(0);
+      ids.forEach(function(slotId) {
+        if (window.jaxplaysAds.slots[slotId]) {
+          googletag.display(slotId);
+        }
       });
     });
   };
@@ -164,24 +195,8 @@
     });
   };
 
-  window.jaxplaysAds.ensureService = function() {
-    if (window.jaxplaysAds.enableQueued) {
-      return;
-    }
-    window.jaxplaysAds.enableQueued = true;
-    googletag.cmd.push(function() {
-      if (!window.jaxplaysAds.servicesEnabled) {
-        googletag.pubads().collapseEmptyDivs();
-        googletag.enableServices();
-        window.jaxplaysAds.servicesEnabled = true;
-        window.jaxplaysAds.setupResizeWatcher();
-      }
-    });
-  };
-
   document.addEventListener('DOMContentLoaded', function() {
     window.jaxplaysAds.registerSlots(document);
-    window.jaxplaysAds.ensureService();
   });
 </script>
 <script src="https://www.google.com/recaptcha/api.js?render=6Lcnn0MrAAAAAE-DuxHWbMXXkZGVCDHXy824uGcw"></script>
