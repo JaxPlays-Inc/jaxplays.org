@@ -16,11 +16,18 @@ document.addEventListener("DOMContentLoaded", function() {
   let loading = false;
   let prevUrl = document.getElementById('prev-post-link')?.href || "";
 
-  window.addEventListener('scroll', function() {
+  const maybeLoadPrevious = function() {
     if (loading || !prevUrl) return;
-    const triggerDistance = Math.max(window.innerHeight * 1.5, 1200);
-    const threshold = Math.max((document.documentElement.scrollHeight || document.body.offsetHeight) - triggerDistance, 0);
-    if ((window.innerHeight + window.scrollY) >= threshold) {
+
+    if (window.scrollY < window.innerHeight * 0.4) {
+      return;
+    }
+
+    const scrollHeight = document.documentElement.scrollHeight || document.body.offsetHeight;
+    const distanceToBottom = scrollHeight - (window.innerHeight + window.scrollY);
+    const triggerDistance = Math.max(window.innerHeight * 2.5, 1800);
+
+    if (distanceToBottom <= triggerDistance) {
       loading = true;
       fetch(prevUrl)
         .then(response => response.text())
@@ -67,6 +74,10 @@ document.addEventListener("DOMContentLoaded", function() {
           loading = false;
         });
     }
-  });
+  };
+
+  window.addEventListener('scroll', maybeLoadPrevious, { passive: true });
+  window.addEventListener('resize', maybeLoadPrevious);
+  setTimeout(maybeLoadPrevious, 500);
 });
 </script>
