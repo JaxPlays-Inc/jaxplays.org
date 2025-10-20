@@ -4,11 +4,18 @@
 		Mirrors logic from layouts/productions/rss.xml for calculating upcoming window.
 	*/}}
 	{{- $currentDate := now }}
-	{{- $w := int $currentDate.Weekday }}                    {{/* Sun=0 … Tue=2 … Sat=6 */}}
-	{{- $toImmediateTue := int (mod (add (sub 2 $w) 7) 7) }} {{/* 0..6 days until the next Tuesday */}}
-	{{- $daysToAdd := int (add $toImmediateTue 7) }}         {{/* jump to Tuesday of the FOLLOWING week */}}
-	{{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAdd }}
+	{{- $w := int $currentDate.Weekday }} {{/* Sunday=0 ... Saturday=6 */}}
 
+	{{- $daysToAdd := 0 }}
+	{{- if or (le $w 1) (ge $w 5) }}
+			{{- /* Sunday(0), Monday(1), Friday(5), Saturday(6) → Tuesday after next */}}
+			{{- $daysToAdd = int (add (mod (add (sub 2 $w) 7) 7) 7) }}
+	{{- else }}
+			{{- /* Tuesday(2), Wednesday(3), Thursday(4) → next Tuesday */}}
+			{{- $daysToAdd = int (mod (add (sub 2 $w) 7) 7) }}
+	{{- end }}
+
+	{{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAdd }}
 
 	{{- $allPages := where site.RegularPages "Params.opening_date" "ne" nil }}
 	{{- $prodPages := where $allPages "Params.closing_date" "ne" nil }}

@@ -45,11 +45,18 @@
     {{- end }}
 
     {{- $currentDate := now }}
-    {{- $weekday := int $currentDate.Weekday }}
-    {{- $offset := sub $weekday 2 }}
-    {{- $rawDays := cond (or (eq $weekday 2) (eq $weekday 3)) (sub 7 $offset) (sub 14 $offset) }}
-    {{- $daysToAddInt := int $rawDays }}
-    {{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAddInt }}
+    {{- $w := int $currentDate.Weekday }} {{/* Sunday=0 ... Saturday=6 */}}
+
+    {{- $daysToAdd := 0 }}
+    {{- if or (le $w 1) (ge $w 5) }}
+        {{- /* Sunday(0), Monday(1), Friday(5), Saturday(6) → Tuesday after next */}}
+        {{- $daysToAdd = int (add (mod (add (sub 2 $w) 7) 7) 7) }}
+    {{- else }}
+        {{- /* Tuesday(2), Wednesday(3), Thursday(4) → next Tuesday */}}
+        {{- $daysToAdd = int (mod (add (sub 2 $w) 7) 7) }}
+    {{- end }}
+
+    {{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAdd }}
 
     {{- $includedPages := slice }}
     {{- range $sortedPages }}
