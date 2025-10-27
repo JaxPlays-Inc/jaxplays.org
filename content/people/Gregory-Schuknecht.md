@@ -1,7 +1,7 @@
 ---
-title: Miles Genaovargas
-date: 2025-02-20T14:42:54-05:00
-featured_image: Miles-Genaovargas-01.webp
+title: Gregory Schuknecht
+date: 2025-10-27T16:30:23-04:00
+featured_image: Gregory-Schuknecht.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 

@@ -1,6 +1,10 @@
 ---
 title: Zach Rivera
-date: 2025-09-08T11:09:32-04:00
+date: 2025-10-27T16:55:45-04:00
+aliases: 
+  - /people/zachary-rivera/
+other_names: 
+  - Zachary Rivera
 featured_image: Zach-Rivera.webp
 featured_image_attr: 
 featured_image_attr_link: 
