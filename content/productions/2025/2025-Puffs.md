@@ -21,7 +21,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: https://www.the5anddime.org/puffs
-Tickets: https://www.eventbrite.com/e/puffs-tickets-1087002747479?aff=ebdsoporgprofile
+Tickets: https://www.eventbrite.com/e/puffs-tickets-1087002747479?aff=jaxplays
 show_details: 
 cast:
   - Wayne Hopkins: Lily Zawatsky

@@ -5,7 +5,7 @@ other_names:
 aliases: 
   - /people/erin-balazs-barnes/
 layout: people
-featured_image: Erin_Barnes.jpeg
+featured_image: Erin-Barnes-01.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 

@@ -5,7 +5,7 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-  - Playwright: "[[w:Matt Cox (playwright)|Matt Cox]]"
+  - Playwright: Matt Cox
   - Music: 
   - Lyrics: 
   - Book: 
