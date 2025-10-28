@@ -8,10 +8,7 @@ featured_image_alt:
 authors: 
 - JaxPlays
 show_reading_time: true
-production: 
-Theatre: 
-cast: 
-description:
+description: "Film at WJCT Studios brings London’s West End to Jacksonville with NT Live’s *Mrs. Warren’s Profession* starring Imelda Staunton and Bessie Carter, Nov 5."
 ---
 WJCT Public Media is giving Jacksonville audiences another chance to experience the best of British theatre without leaving town. As part of its partnership with London’s National Theatre and BY Experience, Film at WJCT Studios will screen *[Mrs. Warren’s Profession](https://wjct.org/events/film/nt-live-mrs-warrens-profession/?utm_source=jaxplays&utm_medium=web&utm_content=mrs-warrens-profession)* on Wednesday, November 5.<!--more-->
 
