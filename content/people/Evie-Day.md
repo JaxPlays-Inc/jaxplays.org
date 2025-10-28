@@ -10,7 +10,7 @@ Socials:
   Facebook: 
   Twitter: 
   Instagram: 
-  LinkedIn: evie-day-b9104a28
+  LinkedIn: eviedayvo
   IBDB: 
   IMDb:
   Website: 
