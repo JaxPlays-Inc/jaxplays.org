@@ -8,7 +8,7 @@ featured_image_attr: Douglas Anderson School of the Arts
 authors: 
 - JaxPlays
 show_reading_time: true
-description:
+description: "Douglas Anderson graduate Samuel Issac Nelson III has been named a 2025 U.S. Presidential Scholar, honoring his artistic excellence, leadership and achievements in musical theatre."
 ---
 Samuel Issac Nelson III has been named a 2025 U.S. Presidential Scholar, one of the nation’s highest honors for high school seniors.
 
