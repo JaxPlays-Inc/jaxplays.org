@@ -23,6 +23,7 @@ Socials:
   Instagram: theatrejacksonville
   Website: https://www.theatrejax.com
 Phone: 19043964425
+Seating: 309
 ---
 Theatre Jacksonville, located in Jacksonville, Florida (Duval County), is a community theater that holds the title of the oldest continuously-operating community theater in Florida and one of the oldest in the United States. Its venue, also referred to as the Little Theatre, was recognized as a historic site and added to the National Register of Historic Places in 1991.
 

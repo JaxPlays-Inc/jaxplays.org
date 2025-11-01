@@ -16,6 +16,7 @@ Socials:
   Instagram: floridatheatre
   Website: https://www.floridatheatre.com
 Phone: 19043552787
+Seating: 1900
 Press:
 - "The Florida Theatre was nominated for Theatre of the Year by the Academy of Country Music": https://news.yahoo.com/florida-theatre-nominated-theatre-academy-175258165.html
 - "The Florida Theatre (Jacksonville, Florida) - Tripadvisor": https://www.tripadvisor.com/Attraction_Review-g60805-d2561226-Reviews-The_Florida_Theatre-Jacksonville_Florida.html

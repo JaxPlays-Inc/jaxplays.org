@@ -6,10 +6,11 @@ venue_aliases:
   - Park Theatre
 date: 2025-11-01T16:14:56-04:00
 active: false
-featured_image: 
-featured_image_attr: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image: 1893-Augustus-Kochs-Views-From-Above-Park-Opera-House.webp
+featured_image_attr: Augustus Koch and Hudson-Kimberly Publishing Co.
+featured_image_alt: "Koch, Augustus, and Hudson-Kimberly Publishing Co. Jacksonville, Florida. Kansas City, Mo.: Hudson-Kimberly Publishing Co., 1893. Map. Retrieved from the Library of Congress"
+featured_image_attr_link: https://lccn.loc.gov/75693182
+featured_image_caption: "The Park Opera House, circa 1893, across the street from City Park (now James Weldon Johnson Park)"
 Founded: 1883
 Closed: 1901
 Address: |
@@ -24,15 +25,25 @@ Socials:
   Threads:
   Website: 
 Phone:
+Seating: 1100
 ---
 Before 1884, most theatrical performances in Jacksonville were held in temporary halls such as Polk’s Hall, National Hall and Metropolitan Hall on East Bay Street. As the city’s population and winter tourism grew, the need for a proper theater became clear.
 
-Local businessman Hugh A. Young led the effort, beginning construction in January 1884 on the southeast corner of Laura and Duval Streets—opposite City Park and diagonally across from the St. James Hotel. The one-story frame structure, built of heart pine, measured roughly 100 feet in area with a 40-foot truss roof and seating for 1,200. **The Park Theatre** opened on February 22, 1884, with soprano Minnie Hauk and her opera company performing Faust. The event drew the city’s elite and was telegraphed to newspapers across the country.
+Local businessman Hugh A. Young led the effort, beginning construction in January 1884 on the southeast corner of Laura and Duval Streets—opposite City Park and diagonally across from the St. James Hotel. The one-story frame structure, built of heart pine, measured roughly 100 feet in area with a 40-foot truss roof and seating for 1,200. **The Park Theatre** opened on February 22, 1884, with soprano Minnie Hauk and her opera company performing *[[w:Faust_(opera)|Faust]]*. The event drew the city’s elite and was telegraphed to newspapers across the country.
 
 Under proprietor Hugh A. Young and manager Joseph Carlisle, the Park Theatre became a centerpiece of Jacksonville’s cultural life. Touring companies such as Lambert & Richardson’s Dramatic Company, the Goldens and the Huntleys praised its acoustics and comfort.
 
-On May 14, 1887, the building was destroyed by fire, reportedly set by an arsonist. Several nearby homes also burned, and for a time it was feared that the St. James Hotel might be lost. Stockholders resolved to rebuild, securing a new lease from William Astor of New York. Construction began in July, and the new Park Opera House opened on November 10, 1887, with a minstrel performance by local talent. The modern brick structure featured a large orchestra section and a balcony that wrapped around to the stage, seating 1,100.
+On May 14, 1887, the building was destroyed by fire, reportedly set by an arsonist. Several nearby homes also burned, and for a time it was feared that the St. James Hotel might be lost. Stockholders resolved to rebuild, securing a new lease from William Astor of New York. 
+
+Construction began in July, and the new Park Opera House, [designed by the Jacksonville architectural firm Ellis & McClure,](https://npgallery.nps.gov/GetAsset/93a85bd7-7a3d-4c10-b39a-2640863b6b16) opened on November 10, 1887, with a minstrel performance by local talent. The modern brick structure featured a large orchestra section and a balcony that wrapped around to the stage, seating 1,100.
 
 **The Park Opera House** was destroyed in the [[w:Great Fire of 1901]], and never rebuilt. Both the original Park Theatre and its successor hosted many of the nation’s leading touring productions, including grand opera, and served as vital gathering places during Jacksonville’s early theatrical era.
 
-**Note:** Address is approximate. For more information, see [*History of Jacksonville, Florida and and Vicinity 1513 to 1924* By T. Frederick Davis](https://sjrda.stuchalk.domains.unf.edu/files/content/sjrda_114.pdf) and [*Webb's Historical, Industrial and Biographical Florida, Part 1*](https://genealogytrails.com/fla/duval/bio4.html#:~:text=the%20table%20excellent.-,The%20Park%20Theatre,-%2C%20MR.%20HUGH%20A)
+{{< figure src="/media/photos/1886_Park_Opera_House_advert_Jacksonville_Florida.webp" alt="The Park Opera House" caption="1886 advertisement for Park Opera House" attr="W.S. Webb - W.S. Webb, editor (1886) Jacksonville and Consolidated Directory"  >}}
+
+**Note:** Address is approximate. The Park Opera House was located at the southeast corner of Laura and Duval Streets, which today is anchored by the [[w:Museum of Contemporary Art Jacksonville]].
+
+For more information, see: 
+- [*History of Jacksonville, Florida and and Vicinity 1513 to 1924* By T. Frederick Davis](https://sjrda.stuchalk.domains.unf.edu/files/content/sjrda_114.pdf), 
+- [*Webb's Historical, Industrial and Biographical Florida, Part 1*, page 168](https://genealogytrails.com/fla/duval/bio4.html#:~:text=the%20table%20excellent.-,The%20Park%20Theatre,-%2C%20MR.%20HUGH%20A), and 
+- [*White's Guide to Florida and her Famous Resorts*, page 79.](https://upload.wikimedia.org/wikipedia/commons/3/33/White%27s_guide_to_Florida_and_her_famous_resorts%2C_containing_a_brief_history_of_Florida%3B_her_climate%2C_health%2C_soil%2C_agricultural_products%2C_fruits%2C_phosphates_.._%28IA_whitesguidetoflo00whit%29.pdf)
