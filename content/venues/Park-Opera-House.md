@@ -29,7 +29,7 @@ Seating: 1100
 ---
 Before 1884, most theatrical performances in Jacksonville were held in temporary halls such as Polk’s Hall, National Hall and Metropolitan Hall on East Bay Street. As the city’s population and winter tourism grew, the need for a proper theater became clear.
 
-Local businessman Hugh A. Young led the effort, beginning construction in January 1884 on the southeast corner of Laura and Duval Streets—opposite City Park and diagonally across from the St. James Hotel. The one-story frame structure, built of heart pine, measured roughly 100 feet in area with a 40-foot truss roof and seating for 1,200. **The Park Theatre** opened on February 22, 1884, with soprano Minnie Hauk and her opera company performing *[[w:Faust_(opera)|Faust]]*. The event drew the city’s elite and was telegraphed to newspapers across the country.
+Local businessman Hugh A. Young led the effort, beginning construction in January 1884 on the southeast corner of Laura and Duval Streets — opposite City Park (now [[w:James Weldon Johnson Park]])and diagonally across from the St. James Hotel. The one-story frame structure, built of heart pine, measured roughly 100 feet in area with a 40-foot truss roof and seating for 1,200. **The Park Theatre** opened on February 22, 1884, with soprano Minnie Hauk and her opera company performing *[[w:Faust_(opera)|Faust]]*. The event drew the city’s elite and was telegraphed to newspapers across the country.
 
 Under proprietor Hugh A. Young and manager Joseph Carlisle, the Park Theatre became a centerpiece of Jacksonville’s cultural life. Touring companies such as Lambert & Richardson’s Dramatic Company, the Goldens and the Huntleys praised its acoustics and comfort.
 

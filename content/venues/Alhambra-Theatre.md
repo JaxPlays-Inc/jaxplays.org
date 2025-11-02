@@ -2,7 +2,7 @@
 title: Alhambra Theatre
 date: 2024-06-12T18:46:30-04:00
 active: true
-featured_image: The_Alhambra_Theatre_&_Dining.webp
+featured_image: The_Alhambra_Theatre_and_Dining.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
@@ -18,5 +18,7 @@ Socials:
   Instagram: alhambrajax
   Website: https://www.alhambrajax.com
 phone: 19046411212
+Seats: 382
+Tables: 77
 ---
 The Alhambra, a cornerstone of Jacksonville's cultural scene, has been standing tall since 1967, when it was constructed by local businessman Leon Simon. This building, with its distinctive architecture and charm, has housed countless theatrical performances over the decades, becoming a symbol of the city's rich performing arts tradition. The Alhambra's structure, designed to both accommodate and enhance the theatrical experience, has continued to evolve and modernize, while simultaneously preserving its historical significance.
