@@ -20,7 +20,7 @@ Website: https://stageaurora.org
 Tickets: https://www.ticketleap.events/tickets/stageaurora/porgy-and-bess
 cast:
   - Bess: Kenneithia Mitchell
-#  - Porgy: Fredrick Redd
+  - Porgy: Edwin Jhamaal Davis
   - Serena: Lisa Lockhart-McCoy
 crew:
   - Music Director: Dr. Kevin M. Sharpe
