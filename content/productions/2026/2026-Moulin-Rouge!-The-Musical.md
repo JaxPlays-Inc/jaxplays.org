@@ -23,7 +23,7 @@ featured_image_attr:
 featured_image_attr_link: 
 program:
 Website: 
-Tickets: https://www.fscjartistseries.org/
+Tickets: https://www.fscjartistseries.org/tickets/moulin-rouge-the-musical
 cast:
 crew:
 orchestra:
@@ -40,4 +40,6 @@ Genres:
   - Period Piece
 Description: "An extravagant celebration of truth, beauty, freedom and love, set against the vibrant backdrop of the legendary Parisian cabaret."
 ---
-*Moulin Rouge! The Musical* transports audiences to the heart of Montmartre, Paris, at the turn of the 20th century. Here, the Moulin Rouge, a nightclub teeming with artists, aristocrats and workers, is where the young writer Christian falls for the enchanting courtesan Satine. As they fight for their love, they must navigate a world of excess, jealousy and danger, underscored by a soundtrack that blends contemporary hits with the atmosphere of the Belle Époque. 
+*Moulin Rouge! The Musical* transports audiences to the heart of Montmartre, Paris, at the turn of the 20th century. Here, the Moulin Rouge, a nightclub teeming with artists, aristocrats and workers, is where the young writer Christian falls for the enchanting courtesan Satine. As they fight for their love, they must navigate a world of excess, jealousy and danger, underscored by a soundtrack that blends contemporary hits with the atmosphere of the Belle Époque.
+
+{{< youtube id="TWn1S-MNNkI" >}}
