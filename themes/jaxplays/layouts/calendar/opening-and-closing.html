@@ -7,7 +7,7 @@
 	{{- $w := int $currentDate.Weekday }} {{/* Sunday=0 ... Saturday=6 */}}
 
 	{{- $daysToAdd := 0 }}
-	{{- if or (le $w 1) (ge $w 5) }}
+	{{- if or (le $w 2) (ge $w 5) }}
 			{{- /* Sunday(0), Monday(1), Friday(5), Saturday(6) → Tuesday after next */}}
 			{{- $daysToAdd = int (add (mod (add (sub 2 $w) 7) 7) 7) }}
 	{{- else }}
