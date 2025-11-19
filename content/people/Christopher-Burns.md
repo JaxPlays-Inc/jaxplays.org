@@ -19,3 +19,4 @@ Socials:
   IMDb:
   Website: 
 ---
+Starting his acting journey in 2022, Christopher discovered passion for theatre and all of its fields. He's done high school, community and college theatre all together. He has performed at the Island Theater, Greenlight Theatre, and is currently a student at FSCJ and participates at FSCJ DramaWorks under the direction of T. Fulton Burns.

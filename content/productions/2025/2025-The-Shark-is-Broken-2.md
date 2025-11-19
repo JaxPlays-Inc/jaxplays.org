@@ -23,7 +23,14 @@ Website: https://theislandtheater.com
 Tickets: https://www.theislandtheater.com/event-details/shark-is-broken-2025-11-07-19-00
 show_details: 
 cast:
+  - Richard Dreyfuss: Michael Flynn
+  - Roy Scheider: Matt Rottino
+  - Robert Shaw: Chris Thompson
 crew:
+  - Director: Tricia Williams
+  - Stage Manager: Holly Husovic
+  - Light Design: Olivia Williams
+  - Set and Costume Designer: Tricia Williams
 orchestra:
 Description: "🦈 When the shark breaks down, the actors break down too. *The Shark Is Broken* — a wildly funny deep dive into Hollywood chaos, cabin fever and questionable life choices."
 ---
