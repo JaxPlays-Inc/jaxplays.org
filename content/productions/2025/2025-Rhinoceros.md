@@ -52,7 +52,7 @@ crew:
   - Assistant Director: Audrey Hoffman
   - Stage Manager: Millie McKinney
   - Dramaturg: Emily Layt
-  - Set Design: Robert O'Leary
+  - Set Design: Robert O’Leary
   - Light Design: Michael Takita
   - Assistant Light Design: Day Stanchi
   - Costume Design: Jamie Bullins
@@ -67,7 +67,7 @@ crew:
   - Construction:
     - Don Cupo
     - Charles Ross
-    - Robert O' Leary
+    - Robert O’Leary
   - Music: Megan Rodriguez
   - Film / Sound Design: Nicholas Frost
   - Publicity Trailer: Nicholas Frost

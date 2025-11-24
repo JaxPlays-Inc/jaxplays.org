@@ -63,7 +63,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Melinda Hollington - *The Rocky Horror Show* - The Encore Company
 - Melinda Hollington - *The Sound of Music* - The Encore Company
 - Melinda Hollington - *Cabaret* - The Encore Company
-- [[person:Michelle C. Lindsay]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[person:Michelle C. Lindsay]] - [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - [[person:Tammy Lynch]] - [[production: 2025 Joseph and the Amazing Technicolor Dreamcoat]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:Tammy Lynch]] - [[production: 2025 Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:Tammy Lynch]] - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
@@ -73,10 +73,10 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Bradley Akers]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - Brandon Hall - *Hairspray* - Star Center Theatre
 - [[person:Daniel Austin]] - [[production: 2025 Desperate Measures]] - [[theatre: Theatre Jacksonville]]
-- [[person:Elizabeth Sawyer]] - [[production: 2025 Daddy Long Legs]] - [[theatre: Amelia Community Theatre]]
+- [[person:Elizabeth Sawyer]] - [[production: 2024 Daddy Long Legs]] - [[theatre: Amelia Community Theatre]]
 - [[person:Heather Starling]] - [[production: 2025 Nunsense]] - [[theatre: Limelight Theatre]]
-- [[person:Jessica Harris & Michelle DuChemin]] - [[production: 2025 Rock of Ages]] - [[theatre: Orange Park Community Theatre]]
-- [[person:Jonny O'leary]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
+- [[person:Jessica Harris]] and [[person:Michelle DuChemin]] - [[production: 2025 Rock of Ages]] - [[theatre: Orange Park Community Theatre]]
+- [[person:Jonny O’Leary]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
 - Josh Sinyard - *The Rocky Horror Show* - The Encore Company
 - Josh Sinyard - *The Sound of Music* - The Encore Company
 - Josh Sinyard - *Cabaret* - The Encore Company
@@ -96,14 +96,14 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Ellen Frattino - *12 Angry Jurors* - Acrosstown Repertory Theatre
 - Erin Moore - *The Play That Goes Wrong* - Gainesville Community Playhouse
 - Ian Hales - *Dracula: A Comedy of Terrors* - Acrosstown Repertory Theatre
-- [[person:Josh Andrews and Brian Niece]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
+- [[person:Josh Andrews]] and [[person:Brian Niece]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Mary Claire Branton]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - [[person:Matt King]] - [[production: 2025 The Boys Next Door]] - [[theatre: Theatre Jacksonville]]
 - [[person:Michael Jacobs]] - [[production: 2025 Harlan and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Ryan Mahannah]] - [[production: 2025 Our Town]] - [[theatre: Limelight Theatre]]
 - Spencer Finch - *Much Ado About Nothing* - All the Devils Shakespeare
 - [[person:Tod Booth]] - [[production: 2025 Southern Fried Funeral]] - [[theatre: Alhambra Theatre and Dining]]
-- [[person:Tyler Hammond and Brian Niece]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
+- [[person:Tyler Hammond]] and [[person:Brian Niece]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
 ### Best Ensemble:
 - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
@@ -146,13 +146,13 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Johnny Pettegrew]] - [[production: 2025 Come From Away]] - [[theatre: Alhambra Theatre and Dining]]
 - [[person:Johnny Pettegrew]] - [[production: 2025 Dracula: A Comedy of Terrors]] - [[theatre: Theatre Jacksonville]]
 - Josh Sinyard - *The Sound of Music* - The Encore Company
-- [[person:Maria Routel-Ferguson]] - [[production: 2025 Anastasia]] - [[theatre: The Island Theater]]
+- [[person:Maria Routel-Ferguson]] - [[production: 2024 Anastasia]] - [[theatre: The Island Theater]]
 - [[person:Michael Takita]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
 - [[person:Michael Takita]] - [[production: 2025 Bright Star]] - [[theatre: Limelight Theatre]]
 - [[person:Michael Takita]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - [[person:Michael Takita]] - [[production: 2025 The Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
 - [[person:Michael Takita]] - [[production: 2025 Crimes of the Heart]] - [[theatre: Limelight Theatre]]
-- [[person:Michael Takita and Day Stanchi]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
+- [[person:Michael Takita]] and [[person:Day Stanchi]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - Sandra Wilcox - *Rent* - Gainesville Community Playhouse
 ### Best Music Direction & Orchestra Performance
 - [[person:Anthony Felton]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
@@ -162,7 +162,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Cathy Murphy Giddens]] - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
 - [[person:Curtis Powell]] - [[production: 2025 The Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
 - [[person:David Paul Rowan]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
-- [[person:Erin Barnes]] - [[production: 2025 Lizzie]] - [[theatre: The 5 & Dime]]
+- [[person:Erin Barnes]] - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - [[person:Erin Barnes]] - [[production: 2025 Desperate Measures]] - [[theatre: Theatre Jacksonville]]
 - Jackie Collins - *Little Shop of Horrors* - Acrosstown Repertory Theatre
 - [[person:Jeff Dodd]] - [[production: 2025 Bright Star]] - [[theatre: Limelight Theatre]]
@@ -177,16 +177,16 @@ https://www.broadwayworld.com/jacksonville/awards/
 - *Cabaret* - The Encore Company
 - [[production: 2025 Charlie and the Chocolate Factory]] - [[theatre: Alhambra Theatre and Dining]]
 - [[production: 2025 Come From Away]] - [[theatre: Alhambra Theatre and Dining]]
-- [[production: 2025 Daddy Long Legs]] - [[theatre: Amelia Community Theatre]]
+- [[production: 2024 Daddy Long Legs]] - [[theatre: Amelia Community Theatre]]
 - [[production: 2025 Desperate Measures]] - [[theatre: Theatre Jacksonville]]
-- [[production: 2025 Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
+- [[production: 2025 The Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
 - [[production: 2025 Fly by Night]] - [[theatre: Limelight Theatre]]
 - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
 - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
 - *Hairspray* - Star Center Theatre
 - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - *Little Shop of Horrors* - Acrosstown Repertory Theatre
-- [[production: 2025 Lizzie]] - [[theatre: The 5 & Dime]]
+- [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
 - [[production: 2025 Nunsense]] - [[theatre: Limelight Theatre]]
 - *Ragtime* - Gainesville Community Playhouse
@@ -198,22 +198,22 @@ https://www.broadwayworld.com/jacksonville/awards/
 - *The Sound of Music* - The Encore Company
 - [[production: 2025 West Side Story]] - [[theatre: Alhambra Theatre and Dining]]
 ### Best New Play Or Musical
-- [[production: 2025 Harlon and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
-- [[production: 2025 When All the Saints Are Gathered]] - [[theatre: Limelight Theatre]]
+- [[production: 2025 Harlan and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
+- *When All the Saints Are Gathered* - [[theatre: Limelight Theatre]]
 ### Best Performer In A Musical
 - [[person:Ally Kangas]] - [[production: 2025 Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:Allyn Bessee]] - [[production: 2025 Rock of Ages]] - [[theatre: Orange Park Community Theatre]]
-- [[person:Angie Acedera]] - [[production: 2025 Lizzie]] - [[theatre: The 5 & Dime]]
+- [[person:Angie Acedera]] - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - Aubry Dorsey - *The Sound of Music* - The Encore Company
 - Aubry Dorsey - *Cabaret* - The Encore Company
 - Billy Hulsey - *Cabaret* - The Encore Company
 - Bradley Searles - *Hairspray* - Star Center Theatre
-- [[person:Cash Belcher]] - [[production: 2025 Anastasia]] - [[theatre: The Island Theater]]
-- [[person:Catie Casey]] - [[production: 2025 Lizzie]] - [[theatre: The 5 & Dime]]
+- [[person:Cash Belcher]] - [[production: 2024 Anastasia]] - [[theatre: The Island Theater]]
+- [[person:Catie Casey]] - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - [[person:Charity Walton]] - [[production: 2025 Nunsense]] - [[theatre: Limelight Theatre]]
 - [[person:Chris Robertson]] - [[production: 2025 Desperate Measures]] - [[theatre: Theatre Jacksonville]]
 - [[person:David Buchman]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
-- [[person:Elizabeth Bricknell]] - [[production: 2025 Lizzie]] - [[theatre: The 5 & Dime]]
+- [[person:Elizabeth Bricknell]] - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - Esteban R Alvarez III - *Matilda the Musical* - Gainesville Community Playhouse
 - [[person:Facia Lee]] - [[production: 2025 Nunsense]] - [[theatre: Limelight Theatre]]
 - Jake Hinson - *The Sound of Music* - The Encore Company
@@ -231,12 +231,12 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Pete Clapsis]] - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
 - Rem Farr - *The Rocky Horror Show* - The Encore Company
 - Riley Brack - *Ragtime* - Gainesville Community Playhouse
-- [[person:Sara Beth Sohn]] - [[production: 2025 Lizzie]] - [[theatre: The 5 & Dime]]
-- [[person:Sarah Moiser]] - [[production: 2025 Anastasia]] - [[theatre: The Island Theater]]
+- [[person:Sara Beth Sohn]] - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
+- [[person:Sarah Moiser]] - [[production: 2024 Anastasia]] - [[theatre: The Island Theater]]
 - [[person:Shauna Akers]] - [[production: 2025 Waitress]] - [[theatre: Players by the Sea]]
 - [[person:Sherrie Provence]] - [[production: 2025 The Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
 - [[person:Sofia Smith]] - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
-- [[person:Sydney Fontenot]] - [[production: 2025 Anastasia]] - [[theatre: The Island Theater]]
+- [[person:Sydney Fontenot]] - [[production: 2024 Anastasia]] - [[theatre: The Island Theater]]
 ### Best Performer In A Play
 - [[person:Alberto Peart]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - Andrea Young - *The Play That Goes Wrong* - Gainesville Community Playhouse
@@ -277,7 +277,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - *The Play That Goes Wrong* - Gainesville Community Playhouse
 - [[production: 2025 The Women of Lockerbie]] - [[theatre: Theatre Jacksonville]]
 - *Twelve Angry Jurors* - Acrosstown Repertory Theatre
-- Best Scenic Design Of A Play
+### Best Scenic Design Of A Play
 - [[person:Bradley Akers]] - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
 - [[person:Bradley Akers]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - [[person:Bradley Akers]] - [[production: 2025 Waitress]] - [[theatre: Players by the Sea]]
@@ -287,8 +287,8 @@ https://www.broadwayworld.com/jacksonville/awards/
 - David Wilcox - *Rent* - Gainesville Community Theater
 - [[person:Donald Cupo]] - [[production: 2025 Fly by Night]] - [[theatre: Limelight Theatre]]
 - Josh Sinyard - *The Rocky Horror Show* - The Encore Company
-- [[person:Rob O'Leary]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
-- [[person:Robert O'Leary]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
+- [[person:Rob O’Leary]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
+- [[person:Robert O’Leary]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - Sandra Wilcox and David Wilcox - *The Game's Afoot* - Acrosstown Repertory Theatre
 - Ted Lewis - *Best Little Whorehouse in Texas* - Gainesville Community Playhouse
 - Winter Potter - *Little Shop of Horrors* - Acrosstown Repertory Theatre
@@ -307,7 +307,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - August Williams - *Cabaret* - The Encore Company
 - Billy Hulsey - *The Sound of Music* - The Encore Company
 - [[person:Blake Osner]] - [[production: 2025 The Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
-- [[person:Bob O'Hara]] - [[production: 2025 Charlie and the Chocolate Factoru]] - [[theatre: Alhambra Theatre and Dining]]
+- [[person:Bob O’Hara]] - [[production: 2025 Charlie and the Chocolate Factory]] - [[theatre: Alhambra Theatre and Dining]]
 - [[person:Cameron Haddock]] - [[production: 2025 Rock of Ages]] - [[theatre: Orange Park Community Theatre]]
 - [[person:Chad Boyd]] - [[production: 2025 Bright Star]] - [[theatre: Limelight Theatre]]
 - [[person:Collin James]] - [[production: 2025 The Drowsy Chaperone]] - [[theatre: Limelight Theatre]]
@@ -326,7 +326,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Lori Willis - *The Sound of Music* - The Encore Company
 - Meagan Reagle - *Ragtime* - Gainesville Community Playhouse
 - [[person:Oliver Carson]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
-- [[person:Pete Clapsis-Doolittle]] - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
+- [[person:Pete Clapsis]] - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
 - Sandra McLeod - *Cabaret* - The Encore Company
 - Sandy McLeod - *Cabret* - The Encore Company
 - Sheyze X - *Rent* - Gainesville Community Playhouse
@@ -340,7 +340,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Collin James]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - Dani Finch - *Much Ado About Nothing* - All the Devils Shakespeare
 - [[person:David Alford]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
-- [[person:David Buchman]] - [[production: 2025 Sense and Sensability]] - [[theatre: Limelight Theatre]]
+- [[person:David Buchman]] - [[production: 2025 Sense and Sensibility]] - [[theatre: Limelight Theatre]]
 - Ellie Woloscyn - *The Game's Afoot* - Acrosstown Repertory Theatre
 - [[person:Joey Balliro]] - [[production: 2025 The Foreigner]] - [[theatre: Theatre Jacksonville]]
 - [[person:Joshua Andrews]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
@@ -355,13 +355,13 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Spencer Finch - *Much Ado About Nothing* - All the Devils Shakespeare
 - Victoria Gregory - *Twelve Angry Jurors* - Acrosstown Repertory Theatre
 ### Best Theatre For Young Audiences Production
-- [[production: 2025 Alice in Wonderland]] - [[theatre: Limelight Theatre]]
+- *Alice in Wonderland* - [[theatre: Limelight Theatre]]
 - [[production: 2025 Charlie and the Chocolate Factory]] - [[theatre: Alhambra Theatre and Dining]]
 - *Matilda the Musical* - Gainesville Community Playhouse
 - *Puffs* - Acrosstown Repertory Theatre
-- [[production: 2025 Spookley the Square Pumpkin]] - [[theatre: Limelight Theatre]]
-- [[production: 2025 The Best Christmas Pageant Ever]] - [[theatre: Limelight Theatre]]
-- [[production: 2025 The Spongebob Musical]] - [[theatre: Theatre Jacksonville]]
+- *Spookley the Square Pumpkin* - [[theatre: Limelight Theatre]]
+- *The Best Christmas Pageant Ever* - [[theatre: Limelight Theatre]]
+- *The Spongebob Musical* - [[theatre: Theatre Jacksonville]]
 - [[production: 2025 The Wizard of Oz]] - [[theatre: Amelia Musical Playhouse]]
 ### Favorite Local Theatre
 - Acrosstown Repertory Theatre
