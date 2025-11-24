@@ -1,5 +1,9 @@
 ---
 title: Spotlight Events Center
+aliases: 
+  - /theatres/spotlight-events-center/
+theatre_aliases:
+  - Spotlight Events Center
 layout: theatres
 active: true
 company_type: Professional
