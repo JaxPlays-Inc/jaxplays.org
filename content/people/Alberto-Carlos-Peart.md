@@ -2,8 +2,8 @@
 title: Alberto Carlos Peart
 date: 2025-10-05T18:26:21-04:00
 aliases:
- - /people/Alberto Carlos
- - /people/Alberto Peart
+ - /people/alberto-carlos
+ - /people/alberto-peart
 other_names:
  - Alberto Carlos
  - Alberto Peart

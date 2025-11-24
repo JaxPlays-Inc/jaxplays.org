@@ -65,7 +65,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Melinda Hollington - *Cabaret* - The Encore Company
 - [[person:Michelle C. Lindsay]] - [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - [[person:Tammy Lynch]] - [[production: 2025 Joseph and the Amazing Technicolor Dreamcoat]] - [[theatre: Amelia Musical Playhouse]]
-- [[person:Tammy Lynch]] - [[production: 2025 Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
+- [[person:Tammy Lynch]] - [[production: 2025 Rock of Ages-02|Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:Tammy Lynch]] - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
 ### Best Direction Of A Musical
 - [[person:Bill Ivins]] - [[production: 2025 How to Succeed in Business Without Really Trying]] - [[theatre: Amelia Musical Playhouse]]
@@ -136,7 +136,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[production: 2025 The Women of Lockerbie]] - [[theatre: Theatre Jacksonville]]
 - [[production: 2025 Waitress]] - [[theatre: Players by the Sea]]
 ### Best Lighting Design Of A Play Or Musical
-- [[person:Brandon Hestor]] - [[production: 2025 Almost, Maine]] - [[theatre: Blue Fire Theatre]]
+- [[person:Brandon Hester]] - [[production: 2025 Almost, Maine]] - [[theatre: Blue Fire Theatre]]
 - [[person:Carl Liberatore]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Carl Liberatore]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Daniel Dungan]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
@@ -201,7 +201,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[production: 2025 Harlan and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
 - *When All the Saints Are Gathered* - [[theatre: Limelight Theatre]]
 ### Best Performer In A Musical
-- [[person:Ally Kangas]] - [[production: 2025 Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
+- [[person:Allie Kangas]] - [[production: 2025 Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:Allyn Bessee]] - [[production: 2025 Rock of Ages]] - [[theatre: Orange Park Community Theatre]]
 - [[person:Angie Acedera]] - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - Aubry Dorsey - *The Sound of Music* - The Encore Company
@@ -226,7 +226,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Kris Robinson - *Rent* - Gainesville Community Playhouse
 - [[person:Maggie Cox]] - [[production: 2025 Bright Star]] - [[theatre: Limelight Theatre]]
 - Mallory Rubek - *Rent* - Gainesville Community Playhouse
-- [[person:Molly Maresco]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
+- [[person:Molly Maresca]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
 - [[person:Morgan Perry]] - [[production: 2025 Desperate Measures]] - [[theatre: Theatre Jacksonville]]
 - [[person:Pete Clapsis]] - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
 - Rem Farr - *The Rocky Horror Show* - The Encore Company
@@ -256,11 +256,11 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Karen Konzen]] - [[production: 2025 Harlan and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
 - Katie Barnes - *Twelve Angry Jurors* - Acrosstown Repertory Theatre
 - [[person:Katie Timoney]] - [[production: 2025 Sense and Sensibility]] - [[theatre: Limelight Theatre]]
-- [[person:Logan Cheatham]] - [[production: 2025 Southern Fried Funeral]] - [[theatre: Alhambra Theatre and Dining]]
+- [[person:Logen Cheatham]] - [[production: 2025 Southern Fried Funeral]] - [[theatre: Alhambra Theatre and Dining]]
 - [[person:Maggie Cox]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Mary Elizabeth Schubert]] - [[production: 2025 Crimes of the Heart]] - [[theatre: Limelight Theatre]]
 - [[person:Steve Parrott]] - [[production: 2025 Almost, Maine]] - [[theatre: Blue Fire Theatre]]
-- [[person:Taylor Jackson]] - [[production: 2025 The Foreigner]] - [[theatre: Theatre Jacksonville]]
+- [[person:Taylor Jackson]] - [[production: 2024 The Foreigner]] - [[theatre: Theatre Jacksonville]]
 - [[person:Trevor Kluckman]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - Zed Pecunia Mercado - *On Clover Road* - Acrosstown Repertory Theatre
 ### Best Play
@@ -317,11 +317,11 @@ https://www.broadwayworld.com/jacksonville/awards/
 - Jake Hinson - *The Rocky Horror Show* - The Encore Company
 - Jake Hinson - *Cabaret* - The Encore Company
 - [[person:Jalen Hardy]] - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
-- [[person:Jimmy Galaviz]] - [[production: 2025 Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
+- [[person:Jimmy Galaviz]] - [[production: 2025 Rock of Ages-02|Rock of Ages]] - [[theatre: Amelia Musical Playhouse]]
 - Joshua Hinson - *The Sound of Music* - The Encore Company
 - [[person:Judy Tipton]] - [[production: 2025 Singin’ in the Rain]] - [[theatre: Amelia Community Theatre]]
 - Justin Clement - *Little Shop of Horrors* - Acrosstown Repertory Theatre
-- [[person:Kathy Saunders]] - [[production: 2025 Come From Away]] - [[theatre: Alhambra Theatre and Dining]]
+- [[person:Kathy Sanders]] - [[production: 2025 Come From Away]] - [[theatre: Alhambra Theatre and Dining]]
 - Lauren Wilkinson - *Best Little Whorehouse in Texas* - Gainesville Community Playhouse
 - Lori Willis - *The Sound of Music* - The Encore Company
 - Meagan Reagle - *Ragtime* - Gainesville Community Playhouse
@@ -342,14 +342,14 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:David Alford]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:David Buchman]] - [[production: 2025 Sense and Sensibility]] - [[theatre: Limelight Theatre]]
 - Ellie Woloscyn - *The Game's Afoot* - Acrosstown Repertory Theatre
-- [[person:Joey Balliro]] - [[production: 2025 The Foreigner]] - [[theatre: Theatre Jacksonville]]
+- [[person:Joey Balliro]] - [[production: 2024 The Foreigner]] - [[theatre: Theatre Jacksonville]]
 - [[person:Joshua Andrews]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Katie Johnston]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Katie Timoney]] - [[production: 2025 Crimes of the Heart]] - [[theatre: Limelight Theatre]]
 - Katie Timoney - *Much Ado Abour Nothing* - All the Devils Shakespeare
 - [[person:Kyle Geary]] - [[production: 2025 Crimes of the Heart]] - [[theatre: Limelight Theatre]]
 - Max Haddock - *Much Ado About Nothing* - All the Devils Shakespeare
-- [[person:Peg Pascal]] - [[production: 2025 Southern Fried Funeral]] - [[theatre: Alhambra Theatre and Dining]]
+- [[person:Peg Pachal]] - [[production: 2025 Southern Fried Funeral]] - [[theatre: Alhambra Theatre and Dining]]
 - [[person:Rachel Johns]] - [[production: 2025 Dracula: A Comedy of Terrors]] - [[theatre: Theatre Jacksonville]]
 - [[person:Ron Shreve]] - [[production: 2025 The Boys Next Door]] - [[theatre: Theatre Jacksonville]]
 - Spencer Finch - *Much Ado About Nothing* - All the Devils Shakespeare
