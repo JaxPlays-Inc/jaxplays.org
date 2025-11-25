@@ -7,7 +7,7 @@ other_names:
  - Jessie Clontz
  - Jessica Booth
 date: 2024-08-05T16:58:54-04:00
-featured_image: 
+featured_image: Jessie-Booth.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
