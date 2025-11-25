@@ -1,9 +1,17 @@
 ---
 title: Jereme Raickett
-layout: people
-featured_image: 
-featured_image_attr: 
+date: 2025-11-24T21:01:53-05:00
+featured_image: Jereme-Raickett.webp
+featured_image_attr: Jax Headshots
+featured_image_attr_link: https://jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
-date: 2023-09-08T00:00:00-04:00
+Socials:
+  Facebook: 
+  Twitter: 
+  Instagram: 
+  LinkedIn: 
+  IBDB: 
+  IMDb:
+  Website: 
 ---
