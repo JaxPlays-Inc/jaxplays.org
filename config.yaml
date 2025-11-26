@@ -157,9 +157,6 @@ outputs:
   section:
     - HTML
     - RSS
-  page:
-    - HTML
-    - JSON
 enableRobotsTXT: true
 
 markup:
