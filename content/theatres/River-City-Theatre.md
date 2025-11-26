@@ -13,7 +13,7 @@ Address: |
 Latitude: 
 Longitude: 
 Socials: 
-  Facebook: https://www.facebook.com/profile.php?id=61569925598790
+  Facebook: profile.php?id=61569925598790
   Twitter: 
   Instagram: rctjax
   LinkedIn: rivercitytheatre
