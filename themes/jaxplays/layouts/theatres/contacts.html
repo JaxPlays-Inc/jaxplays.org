@@ -1,9 +1,10 @@
 {{ define "main" }}
-<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+<article class="pa3 pa4-ns nested-copy-line-height mw-100 center">
   <h1>Active Theatres</h1>
-  <table border="1">
+  <table border="1" class="w-100 collapse ba br2 b-black-10">
     <thead>
       <tr>
+        <th>#</th>
         <th>Theatre</th>
         <th>Type</th>
         <th>Website</th>
@@ -14,15 +15,17 @@
       </tr>
     </thead>
     <tbody>
-      {{ range sort (where (where site.RegularPages "Params.active" true) "Section" "theatres") "Title" }}
+      {{ $pages := sort (where (where site.RegularPages "Params.active" true) "Section" "theatres") "Title" }}
+      {{ range $i, $p := $pages }}
         <tr>
-          <td><a class="b" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-          <td>{{ .Params.company_type | default "" }}</td>
-          <td>{{ with .Params.Socials.Website }}<a href="{{ . }}">{{ . }}</a>{{ end }}</td>
-          <td>{{ with .Params.Socials.Facebook }}<a href="https://www.facebook.com/{{ . }}">{{ . }}</a>{{ end }}</td>
-          <td>{{ with .Params.Socials.Instagram }}<a href="https://www.instagram.com/{{ . }}">{{ . }}</a>{{ end }}</td>
-          <td>{{ with .Params.Socials.Twitter }}<a href="https://twitter.com/{{ . }}">{{ . }}</a>{{ end }}</td>
-          <td>{{ with .Params.Socials.Bluesky }}<a href="https://bsky.app/profile/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td class="b tc">{{ add $i 1 }}.</td>
+          <td class="ph2 pv1"><a class="b" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+          <td class="pa2 pv1">{{ .Params.company_type | default "" }}</td>
+          <td class="pa2 pv1">{{ with .Params.Socials.Website }}<a href="{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td class="pa2 pv1">{{ with .Params.Socials.Facebook }}<a href="https://www.facebook.com/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td class="pa2 pv1">{{ with .Params.Socials.Instagram }}<a href="https://www.instagram.com/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td class="pa2 pv1">{{ with .Params.Socials.Twitter }}<a href="https://twitter.com/{{ . }}">{{ . }}</a>{{ end }}</td>
+          <td class="pa2 pv1">{{ with .Params.Socials.Bluesky }}<a href="https://bsky.app/profile/{{ . }}">{{ . }}</a>{{ end }}</td>
         </tr>
       {{ end }}
     </tbody>
