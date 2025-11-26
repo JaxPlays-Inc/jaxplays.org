@@ -70,7 +70,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 ### Best Direction Of A Musical
 - [[person:Bill Ivins]] - [[production: 2025 How to Succeed in Business Without Really Trying]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:Bradley Akers]] - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
-- [[person:Bradley Akers]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[person:Bradley Akers]] - [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - Brandon Hall - *Hairspray* - Star Center Theatre
 - [[person:Daniel Austin]] - [[production: 2025 Desperate Measures]] - [[theatre: Theatre Jacksonville]]
 - [[person:Elizabeth Sawyer]] - [[production: 2024 Daddy Long Legs]] - [[theatre: Amelia Community Theatre]]
@@ -117,7 +117,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
 - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
 - [[production: 2025 Harlan and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
-- [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - *Little Shop of Horrors* - Acrosstown Repertory Theatre
 - *Matilda* - Gainesville Community Playhouse
 - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
@@ -139,7 +139,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Brandon Hester]] - [[production: 2025 Almost, Maine]] - [[theatre: Blue Fire Theatre]]
 - [[person:Carl Liberatore]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Carl Liberatore]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
-- [[person:Daniel Dungan]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[person:Daniel Dungan]] - [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - [[person:Gregg Dillingham]] - [[production: 2025 Joseph and the Amazing Technicolor Dreamcoat]] - [[theatre: Amelia Musical Playhouse]]
 - [[person:James Tucker]] - [[production: 2025 Harlan and Bronna Jump Out the Window]] - [[theatre: Lumen Repertory Theatre]]
 - Jason Chambers - *On Clover Road* - Acrosstown Repertory Theatre
@@ -155,7 +155,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[person:Michael Takita]] and [[person:Day Stanchi]] - [[production: 2025 Rhinoceros]] - [[theatre: Limelight Theatre]]
 - Sandra Wilcox - *Rent* - Gainesville Community Playhouse
 ### Best Music Direction & Orchestra Performance
-- [[person:Anthony Felton]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[person:Anthony Felton]] - [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - [[person:Anthony Felton]] - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
 - [[person:Cathy Murphy Giddens]] - [[production: 2025 Come From Away]] - [[theatre: Alhambra Theatre and Dining]]
 - [[person:Cathy Murphy Giddens]] - [[production: 2025 Charlie and the Chocolate Factory]] - [[theatre: Alhambra Theatre and Dining]]
@@ -184,7 +184,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
 - [[production: 2025 Hairspray]] - [[theatre: Limelight Theatre]]
 - *Hairspray* - Star Center Theatre
-- [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - *Little Shop of Horrors* - Acrosstown Repertory Theatre
 - [[production: 2024 Lizzie]] - [[theatre: The 5 & Dime]]
 - [[production: 2025 My Fair Lady]] - [[theatre: Alhambra Theatre and Dining]]
@@ -279,7 +279,7 @@ https://www.broadwayworld.com/jacksonville/awards/
 - *Twelve Angry Jurors* - Acrosstown Repertory Theatre
 ### Best Scenic Design Of A Play
 - [[person:Bradley Akers]] - [[production: 2025 Funny Girl]] - [[theatre: Players by the Sea]]
-- [[person:Bradley Akers]] - [[production: 2025 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
+- [[person:Bradley Akers]] - [[production: 2024 Jekyll & Hyde]] - [[theatre: Players by the Sea]]
 - [[person:Bradley Akers]] - [[production: 2025 Waitress]] - [[theatre: Players by the Sea]]
 - [[person:Claire Cimino]] - [[production: 2025 Agnes of God]] - [[theatre: Lumen Repertory Theatre]]
 - [[person:Claire Cimino]] - [[production: 2025 American Buffalo]] - [[theatre: Lumen Repertory Theatre]]
