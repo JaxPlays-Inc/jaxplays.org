@@ -1,8 +1,6 @@
 ---
-title: Michelle C. Lindsay
-aliases: 
-  - /people/michelle-c.-lindsay
-date: 2025-11-26T14:19:48-05:00
+title: Day Stanchi
+date: 2025-11-26T14:12:29-05:00
 featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 

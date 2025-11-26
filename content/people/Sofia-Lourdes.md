@@ -1,7 +1,7 @@
 ---
 title: Sofia Lourdes
 aliases:
- - /people/Sofia Smith
+ - /people/sofia-smith
 other_names:
  - Sofia Smith
 featured_image: Sofia-Lourdes.webp
@@ -15,7 +15,7 @@ Socials:
   IBDB: 
   IMDb: nm17497737
   Website: 
-date: 2025-05-19T09:48:34-04:00
+date: 2025-11-26T14:19:59-05:00
 photos:
 - photo: ../../../../../media/headshots/Sofia-Smith.webp
   photo_alt: 
