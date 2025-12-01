@@ -99,3 +99,95 @@ jobs:
           status: ${{ job.status }}
           title: 'Failed. Deployment Incomplete'
           message: 'Your update to jaxplays.org has failed to deploy to GitHub Pages. Check the logs for details.'
+
+  mailchimp_draft:
+    name: Create Mailchimp draft campaigns
+    needs: deploy
+    runs-on: ubuntu-latest
+    # Only run this job on push events, not on schedule or manual dispatch
+    if: github.event_name == 'push'
+    env:
+      MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+      MAILCHIMP_SERVER_PREFIX: ${{ secrets.MAILCHIMP_SERVER_PREFIX }}
+      MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
+      MAILCHIMP_FROM_EMAIL: ${{ secrets.MAILCHIMP_FROM_EMAIL }}
+      MAILCHIMP_FROM_NAME: ${{ secrets.MAILCHIMP_FROM_NAME }}
+      MAILCHIMP_REPLY_TO: ${{ secrets.MAILCHIMP_REPLY_TO }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Find newly added reviews and news
+        id: find_posts
+        run: |
+          echo "Checking for newly added review and news content files between:"
+          echo "  Before: ${{ github.event.before }}"
+          echo "  After:  ${{ github.sha }}"
+
+          NEW_FILES=$(git diff --name-status "${{ github.event.before }}" "${{ github.sha }}" \
+            | awk '$1=="A"{print $2}' \
+            | grep -E '^content/(reviews|news)/' || true)
+
+          if [ -z "$NEW_FILES" ]; then
+            echo "No new review or news files added. Skipping Mailchimp."
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Newly added content files:"
+          printf "%s\n" "$NEW_FILES"
+          printf "%s\n" "$NEW_FILES" > new_files.txt
+
+          echo "has_new=true" >> "$GITHUB_OUTPUT"
+
+      - name: Create Mailchimp draft campaigns
+        if: steps.find_posts.outputs.has_new == 'true'
+        run: |
+          while IFS= read -r FILE; do
+            # Skip empty lines
+            if [ -z "$FILE" ]; then
+              continue
+            fi
+
+            echo "Processing file: $FILE"
+
+            # Decide template and label based on section
+            if [[ "$FILE" == content/reviews/* ]]; then
+              TEMPLATE_ID=10623509
+              KIND="Review"
+            elif [[ "$FILE" == content/news/* ]]; then
+              TEMPLATE_ID=10623325
+              KIND="News"
+            else
+              echo "Skipping $FILE (not in reviews or news)"
+              continue
+            fi
+
+            BASENAME=$(basename "$FILE")
+            SUBJECT="$KIND published on JaxPlays"
+            TITLE="Draft for $BASENAME"
+
+            echo "Creating Mailchimp draft campaign with template_id=$TEMPLATE_ID"
+            echo "  Subject: $SUBJECT"
+            echo "  Title:   $TITLE"
+
+            curl -sS -X POST "https://${MAILCHIMP_SERVER_PREFIX}.api.mailchimp.com/3.0/campaigns" \
+              -u "anystring:${MAILCHIMP_API_KEY}" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "type": "regular",
+                "recipients": {
+                  "list_id": "'"${MAILCHIMP_LIST_ID}"'"
+                },
+                "settings": {
+                  "subject_line": "'"${SUBJECT}"'",
+                  "title": "'"${TITLE}"'",
+                  "from_name": "'"${MAILCHIMP_FROM_NAME}"'",
+                  "reply_to": "'"${MAILCHIMP_REPLY_TO}"'",
+                  "template_id": '"${TEMPLATE_ID}"'
+                },
+                "status": "save"
+              }'
+
+            echo
+          done < new_files.txt
