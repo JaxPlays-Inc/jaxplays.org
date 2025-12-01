@@ -33,18 +33,58 @@ cast:
   - Amy March / Troll: Julia Taylor
   - Marmee March / Hog: Renee LaCroix
   - Aunt March / Mrs. Kirk: Lisa Knapp
-  - Laurie / Rodrigo: Elliot Miller
+  - Laurie Laurence / Rodrigo: Elliot Miller
   - Professor Bhaer: Rem Farr
   - John Brooke / Braxton Pendergast: Anthony Rodriguez
   - Mr. Laurence / Knight: Joe Zaccaro
+
 crew:
-  - Director: Heather Starling
+  - Director and Choreographer: Heather Starling
   - Music Director: Shea Zaccaro
-  - Technical Director: Thomas Muhn
   - Stage Manager: Jayne Jeney
-  - Costumes:
+  - Dance Captain: Julia Taylor
+  - Set Design: Daniel Starling
+  - Technical Director: Thomas Muhn
+  - Set Construction:
+      - Bill Bowler
+      - Paul Braeger
+      - Gary Broom
+      - Gary Brunt
+      - Matt Hemphill
+      - Bob Knapp
+      - Dean Koepp
+      - Jamie Morrill
+      - Steve Powers
+      - John Riordan
+      - Ed Spang
+      - Ed Stanley
+      - Wayne Tamme
+  - Set Decoration Acquisition: Terri Witkosky
+  - Set Painting Crew:
+      - Anne Foos
+      - Peggy Strickland
       - Missy Tremblay
+      - Jennifer Webber
+      - Terri Witkosky
+  - Costume Chairs:
       - Vicki Gibson
+      - Missy Tremblay
+  - Costume Crew:
+      - Susan Boggs
+      - Isabelle Bournigault
+      - Vicki Grethe
+      - Tabitha Mudd
+      - Peggy Strickland
+      - Jayme Taylor
+      - Terri Witkosky
+  - Stage Crew:
+      - Barbara Grass
+      - Terri Witkosky
+      - Will Wiley
+  - Light and Sound Board Operators:
+      - Brett Burnette
+      - Anne Foos
+  - Biography Photographer: Kailin Lake
 orchestra:
 genres: 
 Description: 
