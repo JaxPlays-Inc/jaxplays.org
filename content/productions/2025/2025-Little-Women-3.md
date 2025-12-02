@@ -28,13 +28,13 @@ Tickets: https://app.arts-people.com/index.php?show=289009
 show_details: 
 cast:
   - Jo March: Nicole Sheehan
-  - Meg March / Clarissa: Amelia Underwood
+  - Margaret "Meg" March / Clarissa: Amelia Underwood
   - Beth March / Rodrigo 2: Lila Zaccaro
   - Amy March / Troll: Julia Taylor
   - Marmee March / Hog: Renee LaCroix
   - Aunt March / Mrs. Kirk: Lisa Knapp
-  - Laurie Laurence / Rodrigo: Elliot Miller
-  - Professor Bhaer: Rem Farr
+  - Theodore "Laurie" Laurence / Rodrigo: Elliot Miller
+  - Professor Fritz Bhaer: Rem Farr
   - John Brooke / Braxton Pendergast: Anthony Rodriguez
   - Mr. Laurence / Knight: Joe Zaccaro
 
@@ -88,4 +88,81 @@ crew:
 orchestra:
 genres: 
 Description: 
+Photos:
+- photo: /media/photos/2025-Little-Women-3936.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-3952.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-4083.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-4614.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-4765.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-4881.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-5631.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-5645.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-5668.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-5743.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-5965.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6006.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6151.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6364.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6482.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6513.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6636.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6714.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
+- photo: /media/photos/2025-Little-Women-6757.webp
+  photo_alt: 
+  photo_caption: 
+  photo_attr: Heather Starling
 ---

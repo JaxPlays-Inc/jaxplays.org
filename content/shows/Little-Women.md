@@ -17,4 +17,4 @@ Genres:
   - Family
 Description: "Experience the poignant and uplifting journey of the March sisters in *Little Women*, a musical adaptation that captures the essence of hope, dreams and the bonds of sisterhood."
 ---
-*Little Women* follows the lives of four sisters—Meg, Jo, Beth, and Amy March—growing up in Civil War-era America. Under the guidance of their beloved mother, Marmee, while their father is away at war, the girls navigate what it means to be a young woman: from sibling rivalry and first love to loss and marriage. This adaptation brings to life the enduring resilience and love that bind the March family together against the backdrop of a changing America. 
+*Little Women* follows the lives of four sisters — Meg, Jo, Beth and Amy March — growing up in Civil War-era America. Under the guidance of their beloved mother, Marmee, while their father is away at war, the girls navigate what it means to be a young woman: from sibling rivalry and first love to loss and marriage. This adaptation brings to life the enduring resilience and love that bind the March family together against the backdrop of a changing America. 
