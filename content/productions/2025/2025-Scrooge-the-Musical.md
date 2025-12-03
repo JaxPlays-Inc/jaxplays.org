@@ -8,8 +8,8 @@ closing_date: 2025-12-14
 showtimes:
   - 2025-12-05 19:30:00
   - 2025-12-06 19:30:00
-  - 2025-12-12 19:30:00
   - 2025-12-07 14:30:00
+  - 2025-12-12 19:30:00
   - 2025-12-13 14:30:00
   - 2025-12-14 14:30:00
 featured_image: 2025-Scrooge-the-Musical.webp
@@ -18,8 +18,8 @@ featured_image_caption: "Graphic for Scrooge: The Musical"
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 program:
-Website: https://ameliamusicalplayhouse.com/performances/scrooge2023/
-Tickets: https://ameliamusicalplayhouse.com/tickets/
+Website: https://ameliamusicalplayhouse.com/news/scrooge2025/
+Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 - Music:	Leslie Bricusse
 - Lyrics:	Leslie Bricusse
@@ -29,40 +29,68 @@ cast:
   - Jacob Marley: Oscar Acosta
   - Ghost of Christmas Past: Samantha Griffith
   - Ghost of Christmas Present: Zain Beverly
-  - Ghost of Christmas Yet to Come: Gregg Dillingham
-  - Ensemble:
-      - Tom Cornwell
-      - Sherri Aldred
-      - Allie Basile
-      - Ella Basile
-      - Killian Smith
-      - Romero Lajoux
-      - Ava Old
-      - Journee Parmeter
-      - Quentin Smith
-      - Amy Baker
-      - Robert Palen
-      - Bob O'Hara
-      - Rae Colley
-      - Carol Crisci
-      - Alexandra Lajoux
-      - Karen Hourigan
-      - Colleen Perry
-      - Johnny Mandt
-      - Sydney Gray
-      - Aleigha Cozzaglio
-      - K Mandt
-      - Lindsey Parmeter
-      - Jackie Piersanti
-      - Amelia Dixon
-      - Olivia Lynch
-      - Grace Cornwell
-      - Melanie Hayes
-      - Madix Old
-      - Jasmine Mims
-      - Paisley Bunch
+  - Ghost of Christmas Yet to Come: Greg Dillingham
+  - Ethel Cratchit: Sherri Aldred
+  - Isabel/Helen: Amy Baker 
+  - Kathy Cratchit: Allie Basile 
+  - Urchin Patricia: Paisley Bunch 
+  - Mrs. Fezziwig: Rae Colley 
+  - Ms. Carstairs: Grace Cornwell 
+  - Bob Cratchit: Tom Cornwell 
+  - Puppet Master: Aleigha Cozzaglio 
+  - Jocelyn Jollygoode: Carol Crisci 
+  - Mrs. Pringle: Sydney Gray 
+  - Baker Woman: Melanie Haynes 
+  - Mrs. Dilber/Ms. Bleak: Karen Hourigan 
+  - Haley Harty: Alexandra Lajoux 
+  - Peter Cratchit: Romero Lajoux 
+  - Bisset/Topper: Johnny Mandt 
+  - Begger Woman: K Mandt 
+  - Urchin Jolina: Jasmine Mims 
+  - Tom Jenkins/Mr. Fezziwig: Bob O'Hara 
+  - Belinda Cratchit/Jenny: Ava Old 
+  - Urchin Marty/Begger Child/Ebby: Madix Old 
+  - Dick Wilkins: Quinn Ortiz 
+  - Young Ebenezer: Robert Palen 
+  - Martha Cratchit: Journee Parmeter 
+  - Wine Merchant: Lindsey Parmeter 
+  - Miss Dilber/Mary: Colleen Perry 
+  - Bess: Jackie Piersanti 
+  - Harry: Quentin Wright 
+  - Tiny Tim/Off Night Butcher Boy: 
+    - Killian Smith
+    - Ella Basile
+  - Phantom Leader: Amelia Dixon 
+  - Phantom: 
+    - Sherri Aldred
+    - Amy Baker
+    - Allie Basile
+    - Alexandra Lajoux 
+    - Samantha Griffith 
+    - Johnny Mandt 
+    - Ava Old
+    - Quinn Ortiz
 crew:
+  - Director: Jimmy Galaviz
+  - Music Director/Conductor: Lynn Arrizi
+  - Stage Manager: Shannon Basile
+  - Set Design/Construction: Gregg Dillingham
+  - Assistant Stage Manager: Beth Perkins
+  - Costumes: 
+    - Donna Lewis
+    - Tammy Lynch
+    - Melinda Varnadoe
+  - Light Design: Caleb Lee
+  - Light Engineer: Jimmy Kalista
+  - Hair and Make Up: Holly Ericksen
+  - Photography: Vickie Wyttenbach
+  - Vocal Coach: Colleen Perry
 orchestra:
+  - Piano: Lynn Arrizi
+  - Flute: Carol Smith
+  - Bass: Lyle Thompson
+  - Percussion: Jeff Pullen
+  - French Horn: SarahBeth Woods
 Genres:
   - Musical
   - Holiday
