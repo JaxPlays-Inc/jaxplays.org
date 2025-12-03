@@ -258,9 +258,9 @@
           {{ range .Params.photos }}
           {{ $altText := .photo_alt | default $.Title }}
           <figure class="w-40-l center">
-            <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+            <a href="{{ printf "/media/headshots/%s" .photo }}" data-lightbox="gallery"
               data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
-                src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+                src="{{ printf "/media/headshots/%s" .photo }}" alt="{{ $altText }}" /></a>
             {{ if or .photo_caption .photo_attr }}
             <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
               {{ with .photo_caption }}

@@ -19,7 +19,7 @@ photos:
   photo_attr: 
   photo_alt: 
   photo_caption:
-- photo: ../../../../../media/headshots/Kaylee-Byers.webp
+- photo: Kaylee-Byers.webp
   photo_attr: 
   photo_alt: 
   photo_caption:

@@ -21,7 +21,7 @@ Socials:
   IMDb: nm15162420
   Website: 
 Photos:
-- photo: ../../../../../media/headshots/Brent-Mulberry-02.webp
+- photo: Brent-Mulberry-02.webp
   photo_alt: Brent Mulberry headshot
   photo_caption: Brent Mulberry headshot
   photo_attr:

@@ -15,11 +15,11 @@ Socials:
   IMDb: nm15515178
   Website: https://www.maggiecox.com/
 Photos:
-- photo: ../../../../../media/headshots/Maggie-Cox.webp
+- photo: Maggie-Cox.webp
   photo_attr: 
   photo_alt: 
   photo_caption: 
-- photo: ../../../../../media/headshots/Maggie-Cox-02.webp
+- photo: Maggie-Cox-02.webp
   photo_attr: Jessica Osber
   photo_alt: 
   photo_caption:

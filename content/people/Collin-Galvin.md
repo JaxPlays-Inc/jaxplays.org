@@ -15,7 +15,7 @@ Socials:
   IMDb:
   Website: 
 photos:
-- photo: ../../../../../media/headshots/Collin-Galvin-02.webp
+- photo: Collin-Galvin-02.webp
   photo_alt: Collin Galvin headshot
   photo_caption: Collin Galvin
   photo_attr: Anthony Paderewski - Anthony Shoots

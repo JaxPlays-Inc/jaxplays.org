@@ -17,11 +17,11 @@ Socials:
   Website: 
 date: 2025-11-26T14:19:59-05:00
 photos:
-- photo: ../../../../../media/headshots/Sofia-Smith.webp
+- photo: Sofia-Smith.webp
   photo_alt: 
   photo_caption: Headshot of Sofia Lourdes
   photo_attr: 
-- photo: ../../../../../media/headshots/Sofia-Smith-02.webp
+- photo: Sofia-Smith-02.webp
   photo_alt: 
   photo_caption: Headshot of Sofia Lourdes
   photo_attr: 

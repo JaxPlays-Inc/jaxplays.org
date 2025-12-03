@@ -21,16 +21,16 @@ Socials:
   IMDb:
   Website: 
 photos:
-- photo: ../../../../../media/headshots/Jake-Ayres.webp
+- photo: Jake-Ayres.webp
   photo_alt: 
   photo_caption: 
   photo_attr: Chris Milligan
-- photo: ../../../../../media/headshots/Jake-Ayres-2.webp
+- photo: Jake-Ayres-2.webp
   photo_alt: 
   photo_caption: 
   photo_attr: Jax Headshots
   photo_attr_link: https://www.jaxheadshots.co/
-- photo: ../../../../../media/headshots/Jake-Ayres-3.webp
+- photo: Jake-Ayres-3.webp
   photo_alt: 
   photo_caption: 
   photo_attr: Jax Headshots
