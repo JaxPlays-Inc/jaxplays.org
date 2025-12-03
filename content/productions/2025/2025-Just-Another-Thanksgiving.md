@@ -17,6 +17,7 @@ program:
 Website: https://www.facebook.com/events/1353012805732885
 Tickets: https://www.facebook.com/events/1353012805732885
 show_details: 
+- Playwright:  David Sacks
 cast:
   - Nancy Lucas: Jessica Racaniello
   - Bill Lucas: Bill Ratliff
