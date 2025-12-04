@@ -31,21 +31,32 @@ We are grateful for the generous support of our donors. Thank you for helping us
 
 #### $250-499
 
-- Michelle Kindy
 - Carol Grimes
+- Ray & Amber Hollister
+- Michelle Kindy
+- Amanda Marron
 
 #### $1-249
 
-- Toni Philips
-- Ray & Amber Hollister
-- Amanda Marron
+- Krysten Bennett
+- Eldon & Martha Bekkum
+- Samuel Cobean
+- Paul Daniel
+- Danielle Dunnivant
+- Shelby Ellis
+- Lisa Ciardulli
+- Jeff Hes
+- William Hollister
+- Jo El Hall
 - Lynda Jolly
 - Michael Livingston
-- Neal Thorburn
+- Linda McClane
+- Brian Niece
+- Toni Philips
 - Natalie Primm
-- Edrea Porter
-- Jeff Hes
+- David Sacks
+- David Voss
 - Christopher Stewart
-- William Hollister
-
-
+- Neal Thorburn
+- Russell Triplett
+- Gil Wright
