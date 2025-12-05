@@ -22,6 +22,13 @@ Website:
 Tickets: 
 cast:
 - Pip: Kaylee Byers
+- Major Marlowe: Sam Cobean
+- Jack-in-the-Box: Rachel Johns
+- Lucy: McCall Camp
+- The Woman: Evie Day
+- Ragdoll: 
+  - Emma Decker
+  - Aimee Ortiz
 crew:
 - Director: Jason Woods
 orchestra:
