@@ -21,6 +21,12 @@ Website:
 Tickets: 
 show_details: 
 cast:
+- Nicholas: Jaron Wallace
+- Prudence: Abigail Hunger
+- Jack Frost: Joshua Taylor
+- The Child: Elena Buckner
+- Stella: Pauleen Conde
+- Aneira: Kate McManus
 crew:
 - Director: Jason Woods
 orchestra:
