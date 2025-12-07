@@ -23,6 +23,16 @@ Website: https://www.ameliaisland.com/dickens-on-centre/
 Tickets: 
 show_details: 
 cast:
+- Alice: Natalie Drake
+- smAlice: Stevie Merrick
+- White Rabbit: Brooks Anne Meierdierks
+- The Mad Hatter: Christopher Watson
+- Queen of Hearts: Katie Johnston
+- Cheshire Cat: Laura Mauldin
+- Caterpillar: Bill Ratliff
+- The Tweedles: 
+  - Cynthia
+  - Donna
 crew:
 - Director: Jason Woods
 orchestra:
