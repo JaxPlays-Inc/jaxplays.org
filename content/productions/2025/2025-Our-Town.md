@@ -79,6 +79,10 @@ understudies:
   - Stage Manager: Jo Lynn Fletcher
 crew:
 - Director: Ryan Mahannah
+- Assistant Director/Production Stage Manager: Lillian Johnson
+- Assistant Stage Manager: Day Stanchi
+- Lighting Designer: Tyler Hammond
+- Production Manager: Ashley Taylor
 genres: 
 Description: 
 ---
