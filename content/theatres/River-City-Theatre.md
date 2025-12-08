@@ -19,7 +19,7 @@ Socials:
   LinkedIn: rivercitytheatre
   Threads:
   Website: https://www.rivercitytheatre.com/
-Phone: 	19048008810 
+Phone:  19048008810 
 color: "#171c47"
 ---
 Through innovative, first-rate theatrical productions and educational programming, River City Theatre (RCT) is committed to entertaining, engaging and empowering the Duval County, FL area and surrounding communities.

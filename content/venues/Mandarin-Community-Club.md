@@ -18,6 +18,6 @@ Socials:
   Instagram: mandarincommunityclub
   Threads:
   Website: http://www.mandarincommunityclub.org/
-Phone: 	
+Phone:  
 ---
 The Mandarin Community Club, located in historic Mandarin near the St. Johns River, is a not-for-profit organization committed to the preservation and beautification of the Mandarin area. Founded in 1923, the club owns several significant properties including the 1872 Mandarin School, Billard Commemorative Park, and the 1911 Mandarin Post Office & General Store. With a focus on community enrichment, the club has been recognized for its extensive efforts in historic preservation, including awards from the City of Jacksonville. It spearheads various projects like landscaping medians and tree-lined sidewalks, and also provides educational forums and recreational activities. One of its most notable events is the annual Mandarin Art Festival, which has been an Easter tradition since 1968. The club is open to all, especially residents of the Mandarin area, and regularly hosts public meetings to discuss community concerns. It is also available for private events such as weddings, receptions, and parties.

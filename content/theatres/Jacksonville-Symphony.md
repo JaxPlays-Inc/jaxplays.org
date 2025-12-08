@@ -18,7 +18,7 @@ Socials:
   Threads:
   YouTube: jaxsymphony
   Website: https://www.jaxsymphony.org/
-Phone: 	
+Phone:  
 color: "#511b7b"
 donate: https://jaxsymphony.networkforgood.com/projects/93823-membership?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

@@ -20,7 +20,7 @@ Socials:
   LinkedIn: clamour-theatre
   YouTube: "@ClamourTheatre"
   Website: https://clamourtheatre.org/
-Phone: 	
+Phone:  
 Email: info@clamourtheatre.org
 color: "#FF0000"
 ---

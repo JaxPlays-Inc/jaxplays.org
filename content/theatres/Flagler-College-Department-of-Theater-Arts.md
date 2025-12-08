@@ -16,7 +16,7 @@ Socials:
   Instagram: fctheatrearts
   Threads:
   Website: https://www.flagler.edu/academics/degrees-programs/performing-arts/theatre-arts
-Phone: 	
+Phone:  
 color: "#DC143C"
 date: 2024-07-02T18:03:33-04:00
 donate: https://giving.flagler.edu/campaigns/38331/donations/new?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

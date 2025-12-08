@@ -1,5 +1,5 @@
 ---
-title: 	Jeff Drushal
+title:  Jeff Drushal
 layout: people
 featured_image: Jeff-Drushal.webp
 featured_image_attr: Jax Headshots

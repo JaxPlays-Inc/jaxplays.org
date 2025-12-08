@@ -19,6 +19,6 @@ Socials:
   Threads:
   YouTube: jasonwoodsproductions
   Website: https://www.jasonwoodsproductions.com/
-Phone: 	
+Phone:  
 color: "#3F7ED1"
 ---

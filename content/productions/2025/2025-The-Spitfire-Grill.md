@@ -27,7 +27,7 @@ Website:
 Tickets: https://3common.com/event/the-spitfire-grill/66648d6bd3baa6af798b115d
 show_details: 
 - Music: "[[w:James Valcq]]"
-- Lyrics:	"[[w:Fred Alley]]"
+- Lyrics: "[[w:Fred Alley]]"
 - Book:
   - James Valcq
   - Fred Alley

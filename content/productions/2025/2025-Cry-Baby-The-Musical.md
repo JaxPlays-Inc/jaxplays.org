@@ -27,7 +27,7 @@ show_details:
 - Book: 
   - "[[w:Mark O'Donnell]]"
   - "[[w:Thomas Meehan]]"
-- Music:	"[[w:Adam Schlesinger]]"
+- Music: "[[w:Adam Schlesinger]]"
 - Lyrics: "[[w:David Javerbaum]]"
 - Basis: "*[[w:Cry-Baby]]* by [[w:John Waters]]"
 cast:

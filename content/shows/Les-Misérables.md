@@ -7,7 +7,7 @@ featured_image_attr:
 show_details: 
 - Music: "[[w:Claude-Michel Schönberg]]"
 - Lyrics: "[[w:Herbert Kretzmer]]"
-- Original text: 	
+- Original text:  
   - "[[w:Alain Boublil]]"
   - Jean-Marc Natel
 - Book: 

@@ -18,7 +18,7 @@ Socials:
   Instagram: 
   Threads:
   Website: https://www.flickr.com/photos/ybagpictures/with/2697987147
-Phone: 	
+Phone:  
 color: "#"
 Press:
 - "Bad economy drops curtain on Youth of the Beaches Arts Guild | Florida Times-Union": https://www.jacksonville.com/story/news/2009/05/06/bad-economy-drops-curtain-on-youth-of-the-beaches-arts-guild/15986659007/

@@ -20,7 +20,7 @@ Socials:
   YouTube: ChristChurch1951
   Threads:
   Website: https://ccpvb.org/connect/community/creative-academy/
-Phone: 	
+Phone:  
 color: "#87a09e"
 ---
 Christ Church Creative Academy believes in the profound connection between art and the human spirit. Recognizing that creativity is a fundamental aspect of our being, the Academy is dedicated to breaking down barriers to personal creativity and using art as a tool for spiritual growth and community building. Offering a blend of instruction, creation, and engagement, the Academy provides quality programs led by professional artists in a supportive and caring environment. Supported by the Mallory Family Fine Arts Fund, the Academy also offers financial assistance to ensure that everyone has the opportunity to explore and develop their artistic talents.

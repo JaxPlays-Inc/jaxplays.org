@@ -22,6 +22,6 @@ Socials:
   Instagram: fivepointschapel
   Threads:
   Website: https://www.fivepointschapel.com/
-Phone: 	
+Phone:  
 description: "Historic 1930s gothic church, converted into a beautiful wedding venue & event hall for all!!"
 ---

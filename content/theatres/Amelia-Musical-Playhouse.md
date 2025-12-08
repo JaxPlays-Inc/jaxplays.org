@@ -15,7 +15,7 @@ Socials:
   Twitter: amplayhouse
   Instagram: ameliamusicalplayhouse
   Website: https://ameliamusicalplayhouse.com/
-Phone: 	
+Phone:  
 color: "#325684"
 date: 2023-09-08T00:00:00-04:00
 donate: https://ameliamusicalplayhouse.com/amp/?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

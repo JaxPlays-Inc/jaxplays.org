@@ -19,6 +19,6 @@ Socials:
   Threads:
   # YouTube: NorthFloridaSchoolofSpecialEducationNFSSE
   Website: https://www.northfloridaschool.org/
-Phone: 	
+Phone:  
 ---
 North Florida School of Special Education (NFSSE) is an educational institution in Jacksonville, Florida, dedicated to providing a specialized learning environment for students with intellectual and developmental differences. The school offers customized educational programs, therapeutic services and vocational training aimed at fostering independence and enhancing the skills of each student. NFSSE serves students of various ages, from early childhood through adulthood, ensuring a continuum of care and education tailored to individual needs and potentials.

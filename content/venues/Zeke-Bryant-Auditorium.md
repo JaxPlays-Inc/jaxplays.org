@@ -18,6 +18,6 @@ Socials:
   Instagram: 
   Threads:
   Website: https://www.fscj.edu/campuses/north-campus
-Phone: 	
+Phone:  
 ---
 The Zeke Bryant Auditorium, nestled within Building C at FSCJ North Campus, spans an impressive area of 5,182 square feet. This spacious venue is designed to host a variety of events, from academic lectures and workshops to performances and community gatherings. Its significant size and strategic location make it an ideal setting for fostering educational and cultural exchanges.

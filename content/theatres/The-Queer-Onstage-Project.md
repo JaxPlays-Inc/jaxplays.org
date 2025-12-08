@@ -22,7 +22,7 @@ Socials:
   Instagram: queeronstageproject
   Threads:
   Website: https://linktr.ee/queeronstageproject
-Phone: 	
+Phone:  
 color: "#678ebe"
 Press:
 - "Unbridled Mustang: Mandarin grad hungry to change his hometown | Jacksonville Today": https://jaxtoday.org/2024/05/30/unbridled-mustang-mandarin-graduate-l-j-valenzuela-is-hungry-to-change-his-hometown/

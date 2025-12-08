@@ -22,9 +22,9 @@ program:
 Website: https://ameliamusicalplayhouse.com/performances/scrooge2023/
 Tickets: https://ameliamusicalplayhouse.com/tickets/
 show_details: 
-- Music:	Leslie Bricusse
-- Lyrics:	Leslie Bricusse
-- Book:	Leslie Bricusse
+- Music: Leslie Bricusse
+- Lyrics: Leslie Bricusse
+- Book: Leslie Bricusse
 cast:
 crew:
 orchestra:

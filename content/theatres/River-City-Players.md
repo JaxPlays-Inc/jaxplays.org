@@ -18,6 +18,6 @@ Socials:
   Instagram: 
   Threads:
   Website: https://www.rcppalatka.org/
-Phone: 	
+Phone:  
 color: "#"
 ---

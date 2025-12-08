@@ -28,7 +28,7 @@ cast:
 - Wilbur: Sam Swartz
 - Charlotte: Hannah O'Shea
 - Fern Arable: Lily Wuggazer
-- John Arable:	Justin Witt
+- John Arable: Justin Witt
 - Martha Arable: Elishia Sosa
 - Avery Arable: Zach Palmer
 - Homer Zuckerman: Stewart Steele
@@ -36,14 +36,14 @@ cast:
 - Lurvy: Jezreel Pina
 - Templeton: Matt Rawlins
 - Goose: Kimberly Copeland
-- Gander:	Chris Copeland
+- Gander: Chris Copeland
 - Sheep: Elora Ponciano
 - Lamb: J'Leigh Copeland
 - Little Spider 1: Ashlyn Swartz
 - Little Spider 2: Robin Sepegg
 - Little Spider 3: Asher Sosa
 - Owl: Ziva Ponciano
-- Bat:	Elizabeth Brown
+- Bat: Elizabeth Brown
 - Ensemble:
   - Jenna Fletcher
   - Olive Witt

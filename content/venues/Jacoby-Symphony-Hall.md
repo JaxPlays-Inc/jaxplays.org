@@ -19,6 +19,6 @@ Socials:
   Instagram: 
   Threads:
   Website: https://www.jaxsymphony.org/visit/jacoby-symphony-hall/
-Phone: 	
+Phone:  
 ---
 In 1997, Jacoby Symphony Hall at the Jacksonville Center for the Performing Arts first opened to the community. It is recognized as an exceptional symphony hall designed for orchestral performances that seats 1,800 attendees. It is also included among a narrow list of American orchestras with their own dedicated concert hall.

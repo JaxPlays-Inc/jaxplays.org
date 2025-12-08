@@ -19,7 +19,7 @@ Socials:
   Threads:
   Website: 
   Website: https://www.dontmissabeat.org
-Phone: 	
+Phone:  
 color: "#f48847"
 ---
 Don’t Miss A Beat was founded in 2008 by Ulysses Owens, Jr. and his family. Owens began playing drums at just two years old. Shortly thereafter his mother, Gwendolyn, enrolled him in classical piano lessons.

@@ -11,7 +11,7 @@ Closed: 2021
 Socials: 
   Facebook: PhaseEightTheaterCompany
   Twitter: Phase8Theater
-  Instagram: 	Phase8Theater
+  Instagram:  Phase8Theater
   Website: https://web.archive.org/web/20201127054855/http://www.phaseeight.org/
 date: 2023-09-08T00:00:00-04:00
 ---

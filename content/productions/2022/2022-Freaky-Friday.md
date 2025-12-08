@@ -13,7 +13,7 @@ featured_image_caption:
 category: musical
 Theatre: Orange Park Community Theatre
 show_details:
-- Music: 	"[[w:Tom Kitt (musician)|Tom Kitt]]"
+- Music:  "[[w:Tom Kitt (musician)|Tom Kitt]]"
 - Lyrics: "[[w:Brian Yorkey]]"
 - Book: "[[w:Bridget Carpenter]]"
 - Basis: "*[[w:Freaky Friday]]* by [[w:Mary Rodgers]]"

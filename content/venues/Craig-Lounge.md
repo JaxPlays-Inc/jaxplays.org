@@ -19,5 +19,5 @@ Socials:
   Instagram: goodshepherdjaxchurch
   Threads:
   Website: https://www.gsjax.church/
-Phone: 	19043875691
+Phone:  19043875691
 ---

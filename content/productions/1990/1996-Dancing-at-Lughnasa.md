@@ -12,8 +12,8 @@ Venue: Little Theatre
 show_details:
 - Playwright: "[[w:Brian Friel]]"
 - Date premiered: 1990-04-24
-- Place premiered:	Abbey Theatre, Dublin, Ireland
-- Subject:	A month in the lives of five impoverished women.
+- Place premiered: Abbey Theatre, Dublin, Ireland
+- Subject: A month in the lives of five impoverished women.
 cast:
 - Michael: Michael Lipp
 - Kate: Elyse Brady

@@ -15,7 +15,7 @@ Address: |
     St. Augustine, FL 32084
 Socials: 
   Facebook: AClassicTheatre
-  Instagram: 	aclassictheatre
+  Instagram:  aclassictheatre
   Website: https://www.aclassictheatre.org
 color: "#008db6"
 date: 2024-07-02T18:04:27-04:00

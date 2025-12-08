@@ -19,6 +19,6 @@ Socials:
   YouTube: ChristChurch1951
   Threads:
   Website: https://ccpvb.org/
-Phone: 	
+Phone:  
 ---
 Christ Church Ponte Vedra Beach is an inclusive and welcoming faith community that embraces individuals from all walks of life, wherever they are on their spiritual journey. The church offers a vibrant space for worship, ministry, and fellowship, with programs designed for every age and stage of life. Rooted in the teachings of Jesus Christ, Christ Church is dedicated to transforming lives through the love of God, fostering growth in faith and embodying the Good News. Whether you're exploring faith for the first time or seeking a deeper relationship with God, Christ Church invites you to join their compassionate and affirming community.

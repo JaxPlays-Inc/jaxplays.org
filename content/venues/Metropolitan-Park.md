@@ -18,7 +18,7 @@ Socials:
   Instagram: 
   Threads:
   Website: 
-Phone: 	
+Phone:  
 ---
 Metropolitan Park in Jacksonville, Florida, is a well-known public park located on the north bank of the St. Johns River. It opened in 1984, designed to serve as the city's premier urban waterfront park. Over the years, Metropolitan Park hosted a variety of major events and concerts, drawing both locals and visitors to its scenic riverfront views.
 

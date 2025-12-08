@@ -28,6 +28,6 @@ Socials:
   Instagram: storyandsongbb
   Threads:
   Website: https://storyandsongarts.org/
-Phone: 	19046012118
+Phone:  19046012118
 ---
 Story & Song’s mission is to be a gathering place for the community, offering programs that enrich our lives, books that broaden our world and delicious food that connects us. 

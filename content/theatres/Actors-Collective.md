@@ -13,7 +13,7 @@ Socials:
   Facebook: ActorsCollectiveJax
   Instagram: actorscollectivejax
   Website: http://www.actorscollective.com
-Phone: 	
+Phone:  
 Artistic Director: Caryl Butterley
 date: 2023-09-08T00:00:00-04:00
 ---

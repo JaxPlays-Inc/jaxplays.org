@@ -19,5 +19,5 @@ Socials:
   Instagram: theampsa
   Threads:
   Website: https://www.theamp.com/
-Phone: 	
+Phone:  
 ---

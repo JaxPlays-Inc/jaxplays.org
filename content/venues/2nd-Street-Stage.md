@@ -18,5 +18,5 @@ Socials:
   Instagram: 
   Threads:
   Website: 
-Phone: 	
+Phone:  
 ---

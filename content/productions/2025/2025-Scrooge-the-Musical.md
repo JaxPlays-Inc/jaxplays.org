@@ -21,9 +21,9 @@ program:
 Website: https://ameliamusicalplayhouse.com/news/scrooge2025/
 Tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
-- Music:	Leslie Bricusse
-- Lyrics:	Leslie Bricusse
-- Book:	Leslie Bricusse
+- Music: Leslie Bricusse
+- Lyrics: Leslie Bricusse
+- Book: Leslie Bricusse
 cast:
   - Ebenezer Scrooge: Frank O'Donnell
   - Jacob Marley: Oscar Acosta

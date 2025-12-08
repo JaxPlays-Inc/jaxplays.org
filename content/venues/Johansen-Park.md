@@ -18,7 +18,7 @@ Socials:
   Instagram:
   Threads:
   Website: https://www.coab.us/425/Johansen-Park
-Phone: 	
+Phone:  
 ---
 Named after Preben Johansen.  Located between West Park and East Park Terraces, Johansen Park is a 12-acre passive park in the Selva Marina neighborhood. Just blocks from the ocean, Johansen has a canopy of trees and grassy areas for picnicking.
 
