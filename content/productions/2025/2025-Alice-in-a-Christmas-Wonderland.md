@@ -31,8 +31,8 @@ cast:
 - Cheshire Cat: Laura Mauldin
 - Caterpillar: Bill Ratliff
 - The Tweedles: 
-  - Cynthia
-  - Donna
+  - Cynthia Riegler
+  - Donna Brownlee
 crew:
 - Director: Jason Woods
 orchestra:
