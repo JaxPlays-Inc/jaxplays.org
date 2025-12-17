@@ -10,6 +10,12 @@ authors:
 production: 2025 The Drowsy Chaperone
 Theatre: Limelight Theatre
 cast: 
+- Bill Rains
+- Jessica Alexander
+- Jimmy Alexander
+- Sherrie Provence
+- Blake Osner
+- Joellie Tucker
 description: "Limelight Theatre’s *The Drowsy Chaperone* is a hilarious, meta-musical filled with dazzling performances, over-the-top antics and pure theatrical joy."
 show_reading_time: true
 ---
