@@ -13,7 +13,7 @@ showtimes:
   - 2025-12-13 16:15:00
   - 2025-12-14 11:30:00
   - 2025-12-14 13:00:00
-featured_image: 2024-Alice-in-a-Christmas-Wonderland.webp
+featured_image: 2025-Alice-in-a-Christmas-Wonderland.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: Photography by Eriden Images, Design by Jason Woods
