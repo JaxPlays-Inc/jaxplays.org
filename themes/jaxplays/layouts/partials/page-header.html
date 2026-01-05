@@ -10,7 +10,7 @@
     {{- $attr := .Params.featured_image_attr -}}
     {{- $attr_link := .Params.featured_image_attr_link -}}
     {{- $light_text_color_class := .Site.Params.light_text_color_class -}}
-{{- partial "2025GivingTuesday.html" . -}}
+{{/*  {{- partial "2025GivingTuesday.html" . -}}  */}}
     {{- if not (eq .Params.ads false) -}}
       {{- partial "GAM-billboard-1.html" . -}}
     {{- end -}}
@@ -27,6 +27,6 @@
   </header>
 {{- else -}}
   <header>
-    {{- partial "2025GivingTuesday.html" . -}}
+    {{/*  {{- partial "2025GivingTuesday.html" . -}}  */}}
   </header>
 {{- end -}}
