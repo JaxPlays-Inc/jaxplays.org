@@ -79,7 +79,7 @@ show_details:
 - Music: Jeanine Tesori
 - Lyrics: David Lindsay-Abaire
 - Book: David Lindsay-Abaire
-- Based on: '"DreamWorks Animation film ''Shrek'' (2001)"'
+- Based on: "[[w:DreamWorks Animation]] film *[[w:Shrek]]*"
 cast: null
 crew: null
 orchestra: null
@@ -90,8 +90,4 @@ genres:
 - Fantasy
 description: >-
   Join Shrek, Donkey, and Princess Fiona in the DreamWorks classic brought to life on stage. When Lord Farquaad threatens Shrek's swamp, Shrek and Donkey embark on a fairy tale adventure to rescue Fiona from the dragon's keep. A family favorite for kids from 4 to 94.
-composer: Jeanine Tesori
-lyricist: David Lindsay-Abaire
-book_writer: David Lindsay-Abaire
-source_material: DreamWorks Animation film 'Shrek' (2001)
 ---
