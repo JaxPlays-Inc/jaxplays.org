@@ -1,5 +1,5 @@
 ---
-title: "Singin\' in the Rain"
+title: Singin' in the Rain
 Theatre: Amelia Community Theatre
 Venue: Main Stage
 Season: 44

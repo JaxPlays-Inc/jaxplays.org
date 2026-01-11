@@ -1,7 +1,7 @@
 ---
 title: RENT - In Concert 
 subtitle: 30th Anniversary
-Theatre: 
+Theatre: ""
 Venue: Florida Theatre
 Season: 
 date: 2025-08-11T10:17:01-04:00

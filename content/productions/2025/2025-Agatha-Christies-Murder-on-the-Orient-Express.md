@@ -1,5 +1,5 @@
 ---
-title: "Agatha Christie\'s Murder on the Orient Express"
+title: Agatha Christie's Murder on the Orient Express
 Theatre: Amelia Community Theatre
 Venue: ACT Main Stage
 Season: 44
