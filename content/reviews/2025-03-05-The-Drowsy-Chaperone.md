@@ -8,7 +8,7 @@ featured_image_alt: "Bill Rains as Man in Chair, comfortably seated in a plush r
 authors: 
 - Ray Hollister
 production: 2025 The Drowsy Chaperone
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Bill Rains
 - Jessica Alexander

@@ -5,8 +5,8 @@ opening_date: 1955-06-01
 closing_date: 1955-06-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - David Slater: Jack Harrell
 - Fairchild: Ray Winstead

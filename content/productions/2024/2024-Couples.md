@@ -9,14 +9,14 @@ featured_image_caption: Graphic for Couples
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Genres:
+genres:
 - Musical
 - Comedy
 - Fantasy
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Website: 
-Tickets: https://www.aclassictheatre.org/act-tickets
+theatre: A Classic Theatre
+venue: The Waterworks
+website: 
+tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Music: Jerry Bock
 - Lyrics: Sheldon Harnick
@@ -24,7 +24,7 @@ show_details:
   - Jerry Bock
   - Sheldon Harnick
   - Jerome Coopersmith
-Description: "'It all started with Adam and Eve.' A whimsical triple-threat of love stories, *The Apple Tree* offers up a musical buffet of romance, temptation, and whimsy."
+description: "'It all started with Adam and Eve.' A whimsical triple-threat of love stories, *The Apple Tree* offers up a musical buffet of romance, temptation, and whimsy."
 showtimes:
 - 2024-05-03 19:30:00
 - 2024-05-04 19:30:00

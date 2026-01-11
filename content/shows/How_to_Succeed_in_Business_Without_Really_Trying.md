@@ -7,7 +7,7 @@ featured_image_attrlink: https://en.wikipedia.org/w/index.php?curid=35570057
 genres:
 - Musical
 - Comedy
-Description: "A satirical musical comedy that takes a cheeky look at corporate America, following a young window washer's rapid ascent up the corporate ladder using a self-help book."
+description: "A satirical musical comedy that takes a cheeky look at corporate America, following a young window washer's rapid ascent up the corporate ladder using a self-help book."
 show_details:
 - Music: "[[w:Frank Loesser]]"
 - Lyrics: Frank Loesser

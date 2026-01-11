@@ -6,14 +6,14 @@ title: Who's Holiday
 date: 2023-09-08T00:00:00
 opening_date: 2020-12-04
 closing_date: 2020-12-13
-Theatre: The 5 & Dime
-Genres: 
+theatre: The 5 & Dime
+genres: 
 - Play
 - Satire
 - Comedy
 show_details: 
 - Writer: Matthew Lombardo
-Website:
+website:
   WHO'S HOLIDAY | The 5 & Dime: https://www.the5anddime.org/whos-holiday
 showtimes:
 - 2020-12-04 20:00:00

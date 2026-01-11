@@ -7,8 +7,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-04-24
 closing_date: 2020-05-16
 category: musical
-Theatre: Players by the Sea
-Website: https://www.playersbythesea.org/spring-awakening
+theatre: Players by the Sea
+website: https://www.playersbythesea.org/spring-awakening
 show_details:
 - Music: "[[w:Duncan Sheik]]"
 - Lyrics: "[[w:Steven Sater]]"

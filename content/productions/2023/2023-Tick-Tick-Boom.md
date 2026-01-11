@@ -13,10 +13,10 @@ genres:
 - Biography
 - Comedy
 - Drama
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Website: https://www.the5anddime.org/tick-tick-boom
-Tickets: https://www.eventbrite.com/e/tick-tickboom-tickets-661662539467?aff=jaxplays
+theatre: The 5 & Dime
+venue: The Florida Ballet
+website: https://www.the5anddime.org/tick-tick-boom
+tickets: https://www.eventbrite.com/e/tick-tickboom-tickets-661662539467?aff=jaxplays
 show_details: 
 - Music: "[[w:Jonathan Larson]]"
 - Lyrics: Jonathan Larson

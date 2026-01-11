@@ -1,9 +1,9 @@
 ---
 draft: true
 title: Annie
-Theatre: Kingsland Station Players
-Venue: Kingsland Station
-Season: 
+theatre: Kingsland Station Players
+venue: Kingsland Station
+season: 
 date: 2024-06-18T01:12:40-04:00
 opening_date: 2024-09-27
 closing_date: 2024-10-06
@@ -18,8 +18,8 @@ featured_image: 2024-Annie.webp
 featured_image_alt: "Poster for the musical 'Annie' showing a bold red logo over a silhouette of the New York City skyline, including iconic buildings and the Statue of Liberty."
 featured_image_caption: "Vibrant promotional poster for 'Annie,' featuring the musical’s title in large, red lettering set against a backdrop of the New York City skyline."
 program:
-Website: 
-Tickets: http://ezticketapp.com/?s=ez109021
+website: 
+tickets: http://ezticketapp.com/?s=ez109021
 show_details: 
 cast:
   - Annie: Rylee Pettyjohn
@@ -58,5 +58,5 @@ crew:
   - Assistant Director: Brandy Eso
 orchestra:
 genres: 
-Description: 
+description: 
 ---

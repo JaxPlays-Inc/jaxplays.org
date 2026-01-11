@@ -5,8 +5,8 @@ opening_date: 1965-01-08
 closing_date: 1965-01-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mrs. Bramson: Jocelyn Brown
 - Olivia Grayne: Olivia Rusinek

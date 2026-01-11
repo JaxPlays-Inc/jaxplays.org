@@ -11,10 +11,10 @@ featured_image_caption: "Poster for Jekyll & Hyde: The Musical by St. Marys Litt
 featured_image_attr: "St. Marys Little Theatre"
 description: "*Jekyll & Hyde: The Musical* reveals a haunting tale of love, madness, and duality. An unforgettable, thrilling experience."
 program:
-Theatre: St. Marys Little Theatre
-Venue: Theater by the Trax
-Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/64ad92cac4a06a0e416321ec
-Genres:
+theatre: St. Marys Little Theatre
+venue: Theater by the Trax
+tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/64ad92cac4a06a0e416321ec
+genres:
 - Musical
 - Drama
 - Thriller

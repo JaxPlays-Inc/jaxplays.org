@@ -5,8 +5,8 @@ opening_date: 1993-11-05
 closing_date: 1993-11-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Felicia Dantene: Simone Aden
 - Andrew Rally: Bill Ratliff

@@ -5,8 +5,8 @@ opening_date: 1950-05-19
 closing_date: 1950-05-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Detective Shay: Jack Harrell
 - Emmet: E.L. Patton, Jr.

@@ -5,7 +5,7 @@ opening_date: 1931-02-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Bryan Ropes: Charlie Tutewiler
 - Catherine: Dolly Hardee

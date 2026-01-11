@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---
 Candice Johnson is passionate in the world of creativity, and is extremely excited to bring her ideas to life on the stage! Her designs are instrumental to enhancing the show’s visual storytelling and understanding each character.

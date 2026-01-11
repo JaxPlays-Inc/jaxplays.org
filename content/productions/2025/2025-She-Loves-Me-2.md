@@ -1,8 +1,8 @@
 ---
 title: She Loves Me
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
-Season: 
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
+season: 
 date: 2025-11-04T12:10:16-05:00
 opening_date: 2025-11-07
 closing_date: 2025-11-22
@@ -22,8 +22,8 @@ featured_image_caption: Curtis Lemoine
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-She-Loves-Me-2.pdf
-Website: https://www.spotlighteventscenter.com/about-spotlight-events-center
-Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=457976~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&#038 
+website: https://www.spotlighteventscenter.com/about-spotlight-events-center
+tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=457976~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&#038 
 show_details: 
 cast:
   - Georg Nowack: Curtis Reed
@@ -59,6 +59,6 @@ crew:
       - Addison Gish
 orchestra:
 genres: 
-Description: "The show that spawned the hit movie *You've Got Mail* shows how two opposites in life, can fall in love over a letter."
+description: "The show that spawned the hit movie *You've Got Mail* shows how two opposites in life, can fall in love over a letter."
 ---
 *She Loves Me* is a romantic musical about two feuding co-workers at a 1930s Hungarian parfumerie who are secretly anonymous pen pals and have fallen in love with each other through letters. The plot follows their journey as they navigate their professional animosity while simultaneously exchanging heartfelt, romantic correspondence, with the central question being whether they will discover the other's identity and find love.

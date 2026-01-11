@@ -5,8 +5,8 @@ opening_date: 1981-01-16
 closing_date: 1981-01-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Monsieur Argan: Harry McClintock
 - Toinette: Kandice McNett

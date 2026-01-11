@@ -18,12 +18,12 @@ show_details:
 - Basis: 
 - Website: 
 # Joseph and the Amazing Technicolor Dreamcoat
-Genres:
+genres:
   - Musical
   - Family
   - Drama
   - Sung-Through
-Description: "A tapestry of vibrant colors, mesmerizing music, and timeless tales, this musical brings to life the story of Joseph, his eleven brothers and the coat of many colors."
+description: "A tapestry of vibrant colors, mesmerizing music, and timeless tales, this musical brings to life the story of Joseph, his eleven brothers and the coat of many colors."
 ---
 Based on the biblical story of Joseph from the Book of Genesis, Joseph and the Amazing Technicolor Dreamcoat is a musical journey of betrayal, hardship and providence. Betrayed by his brothers and sold into slavery, Joseph endures a series of adventures in which his spirit and humanity are continually tested. Known for its eclectic blend of musical styles, from country-western to calypso to bubble-gum pop to rock 'n' roll, this family-friendly show captivates with its universal themes of forgiveness, resilience and hope. It's a dazzling celebration of the power of dreams and the human spirit's capacity for redemption.
 

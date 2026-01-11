@@ -13,11 +13,11 @@ show_details:
   - Paul Blake
 - Basis: "*[[w:White Christmas (film)|White Christmas]]* by [[w:Norman Krasna]], [[w:Norman Panama]] & [[w:Melvin Frank]]"
 # White Christmas
-Genres:
+genres:
   - Musical
   - Holiday
   - Romance
-Description: "In a quaint Vermont lodge, two World War II veterans orchestrate a musical revue with hopes of rejuvenating their former commander’s struggling business. Amidst the backdrop of falling snow and festive melodies, unexpected romances blossom, creating a tapestry of warmth and camaraderie in the winter chill."
+description: "In a quaint Vermont lodge, two World War II veterans orchestrate a musical revue with hopes of rejuvenating their former commander’s struggling business. Amidst the backdrop of falling snow and festive melodies, unexpected romances blossom, creating a tapestry of warmth and camaraderie in the winter chill."
 ---
 Set in post-war America, *White Christmas* follows two World War II veterans who, capitalizing on their song-and-dance skills, venture to a Vermont lodge. There, they meet a pair of talented sisters and their former army commander, setting the stage for a series of heartfelt and humorous interactions. Featuring Irving Berlin’s classic score, including the iconic title song, the musical elegantly captures the spirit of the holiday season with nostalgia, romance, and a picturesque winter backdrop.
 

@@ -8,7 +8,7 @@ featured_image_alt: "Angela Olsen as Elinor Dashwood and Cameron Hodges as Edwar
 authors: 
 - Sara Orr
 production: 2025 Sense and Sensibility
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 description: "Limelight’s *Sense and Sensibility* blends Regency charm with sharp comedy and heartfelt performances in a magnetic adaptation of Jane Austen’s classic."
 show_reading_time: true

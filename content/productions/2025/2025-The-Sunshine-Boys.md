@@ -1,8 +1,8 @@
 ---
 title: The Sunshine Boys
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 13
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 13
 date: 2025-10-08T11:06:57-04:00
 opening_date: 2025-10-24
 closing_date: 2025-10-26
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: Bill Ivins
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://904tix.com/events/the-sunshine-boys-10-25-2025
+website: 
+tickets: https://904tix.com/events/the-sunshine-boys-10-25-2025
 show_details: 
 cast:
   - Willie Clark: Frank O’Donnell
@@ -30,5 +30,5 @@ cast:
 crew:
   - Director / Graphic Artist: Bill Ivins
   - Assistant Director: Diana Herman
-Description: 
+description: 
 ---

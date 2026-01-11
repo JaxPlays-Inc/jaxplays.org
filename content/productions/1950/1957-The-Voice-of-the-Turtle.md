@@ -5,8 +5,8 @@ opening_date: 1957-11-13
 closing_date: 1957-11-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sally Middleton: Sabina Reiser Meyer
 - Olive Lashbrooke: Patricia Weir Linder

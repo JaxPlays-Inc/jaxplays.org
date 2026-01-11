@@ -9,19 +9,19 @@ featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program: http://purl.flvc.org/fscj/fd/APatchofEarthProgram
-Genres:
+genres:
 - Play
 - Drama
 - Courtroom Drama
 - Ghost Story
 - Magical Realism
-Theatre: FSCJ DramaWorks
-Venue: Wilson Center - Studio Theatre
-Website:
-Tickets:
+theatre: FSCJ DramaWorks
+venue: Wilson Center - Studio Theatre
+website:
+tickets:
 show_details:
 - Playwright: Kitty Felde
-Description: Caught between loyalties and moral dilemmas, a young Bosnian Croat faces an impossible choice that haunts him beyond war.
+description: Caught between loyalties and moral dilemmas, a young Bosnian Croat faces an impossible choice that haunts him beyond war.
 showtimes:
 - 2016-04-07 19:30:00
 - 2016-04-08 19:30:00
@@ -68,8 +68,8 @@ crew:
 - Deck Crew: Tyler Hammond, Kyle Smith, John Luke, Max Geller
 - Scenery Construction: Students in Drama Practicum and Technical Lab Class
 orchestra:
-Reviews: 
-Press:
+reviews: 
+press:
 - "FSCJ's dramaWORKS to Present 'A Patch of Earth' | The Campus Voice": https://thecampusvoice.wordpress.com/2016/03/12/fscj-press-release-fscjs-dramaworks-to-present-a-patch-of-earth/
 ---
 *A Patch of Earth* unveils the haunting journey of 'the crybaby,' a 25-year-old Bosnian Croat who serves in three armies without killing, until a fateful afternoon in a cornfield near Srebrenica. Faced with a 'shoot or be shot' ultimatum, he makes a tragic decision to save his family. Haunted by the ghosts of those he killed, he eventually risks everything by confessing his role in the Srebrenica massacre, hoping to find redemption but tearing his own life apart.

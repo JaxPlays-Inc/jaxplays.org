@@ -14,11 +14,11 @@ show_details:
 - Theatre: 
 - Basis: "*[[w:Weekly World News]]*'s [[w:Bat Boy (character)|Bat Boy]]"
 - Website: 
-Genres:
+genres:
 - Musical
 - Comedy
 - Horror
-Description: "Fangs, fun and family dysfunction—*Bat Boy* is a musical like no other."
+description: "Fangs, fun and family dysfunction—*Bat Boy* is a musical like no other."
 ---
 Half-human, half-bat, all heart. Bat Boy emerges from a cave to find himself in a world that doesn't understand him. As he grapples with his identity and tries to fit in, he exposes the hypocrisy and prejudice of the society around him. Hilariously dark and touching, Bat Boy is a fanged foray into the challenges of being different.
 

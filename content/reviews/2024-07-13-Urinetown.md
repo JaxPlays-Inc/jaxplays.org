@@ -9,7 +9,7 @@ featured_image_attr_link: https://www.instagram.com/strayimagery
 authors:
 - Ray Hollister
 production: 2024 Urinetown
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 cast:
 - Chris Robertson
 - Aly Blakewell

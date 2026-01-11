@@ -7,19 +7,19 @@ featured_image: TheaterWorksUSA.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: TheaterWorksUSA
-  Twitter: theaterworksusa
-  Instagram: theaterworksusa
-  Threads:
-  Website: https://twusa.org/
-  YouTube: theatreworksusa
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: TheaterWorksUSA
+  twitter: theaterworksusa
+  instagram: theaterworksusa
+  threads:
+  website: https://twusa.org/
+  youtube: theatreworksusa
+phone:  
 color: "#"
 ---
 TheaterWorksUSA is a nonprofit theater company based in New York City, founded in 1961. It specializes in producing and touring professional theater for young and family audiences across the U.S. and Canada. Over the years, its productions have reached more than 90 million children, educators and families. ​

@@ -5,7 +5,7 @@ opening_date: 1925-01-27
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Isabel Stuart: Gladys Thornton
 - The Station Manager: J.H. Pratt

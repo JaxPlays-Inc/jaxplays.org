@@ -7,8 +7,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-08-06
 closing_date: 2020-09-13
 category: musical
-Theatre: Alhambra Theatre & Dining
-Website: https://www.alhambrajax.com/show/the-music-man/
+theatre: Alhambra Theatre & Dining
+website: https://www.alhambrajax.com/show/the-music-man/
 show_details:
 - Music: "[[w:Meredith Willson]]"
 - Lyrics: Meredith Willson

@@ -5,7 +5,7 @@ opening_date: 1928-04-03
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Caroline Ashley: Mrs. William Macklin
 - Robert Oldham: Don Ferrandou

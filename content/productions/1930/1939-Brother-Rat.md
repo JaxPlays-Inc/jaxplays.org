@@ -5,8 +5,8 @@ opening_date: 1939-11-14
 closing_date: 1939-11-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A. Furman Townsend, Jr.: Sidney Lanier
 - Billy Randolph: J. Burton Webster, Jr.

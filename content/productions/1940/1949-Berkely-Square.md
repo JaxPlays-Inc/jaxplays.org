@@ -5,8 +5,8 @@ opening_date: 1949-04-08
 closing_date: 1949-04-15
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Kate Pettigrew: Bronwen Heath
 - Major Clinton: C.A. Gillis, Jr.

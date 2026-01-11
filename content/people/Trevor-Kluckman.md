@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: trevor.kluckman
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm6566136
-  Backstage: TrevorKluckman
-  Website: 
+socials:
+  facebook: trevor.kluckman
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm6566136
+  backstage: TrevorKluckman
+  website: 
 ---

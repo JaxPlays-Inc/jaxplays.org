@@ -1,8 +1,8 @@
 ---
 title: Alice By Heart
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 2026
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 2026
 date: 2025-10-27T16:16:45-04:00
 opening_date: 2026-02-06
 closing_date: 2026-02-21
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://the5anddime.org/s2026/alice-by-heart/
-Tickets: 
+website: https://the5anddime.org/s2026/alice-by-heart/
+tickets: 
 show_details: 
 cast:
   - Alice Spencer / Alice: Sadie Sims
@@ -55,7 +55,7 @@ crew:
   - Choreographer: Lucy Graff
 orchestra:
 genres: 
-Description: "It’s just a dream, but dreams can free your mind."
+description: "It’s just a dream, but dreams can free your mind."
 ---
 **NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and [[theatre:Swoop Troupe]] Theater Club at UNF.
 

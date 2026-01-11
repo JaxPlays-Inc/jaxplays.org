@@ -1,6 +1,6 @@
 ---
 title: Financial Support
-Description: JaxPlays is a 501(c)(3) nonprofit organization.
+description: JaxPlays is a 501(c)(3) nonprofit organization.
 layout: "about"
 date: 2024-12-12T14:31:46-05:00
 ---

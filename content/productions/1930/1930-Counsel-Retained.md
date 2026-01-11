@@ -5,7 +5,7 @@ opening_date: 1930-04-15
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Peg Woffington: Birsa Shepard
 - Edmund Burke: Carl Cesery

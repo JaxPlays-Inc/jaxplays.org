@@ -4,9 +4,9 @@ title: 'The Eight: Reindeer Monologues'
 date: 2023-09-08T00:00:00
 opening_date: 2011-12-31
 approx_date: year
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 web:
 showtimes:
 cast:

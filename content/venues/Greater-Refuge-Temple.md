@@ -6,17 +6,17 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
   1317 Rowe Ave
   Jacksonville, FL 32208
-Latitude: 30.38832514583106
-Longitude: -81.67859920796107
-Socials: 
-  Facebook: greaterrefugetemple.jacksonville
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: https://refugejax.org/
-Phone:  
+latitude: 30.38832514583106
+longitude: -81.67859920796107
+socials: 
+  facebook: greaterrefugetemple.jacksonville
+  twitter: 
+  instagram: 
+  threads:
+  website: https://refugejax.org/
+phone:  
 ---

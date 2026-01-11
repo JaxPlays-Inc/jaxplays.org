@@ -5,8 +5,8 @@ opening_date: 1940-04-16
 closing_date: 1940-04-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dwight Houston: Burton Webster, Jr.
 - Florence: Patty Frederick

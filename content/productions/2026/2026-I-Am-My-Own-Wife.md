@@ -1,8 +1,8 @@
 ---
 title: I Am My Own Wife
-Theatre: The 5 & Dime
-Venue: 
-Season: 2026
+theatre: The 5 & Dime
+venue: 
+season: 2026
 date: 2025-10-27T17:13:51-04:00
 opening_date: 2026-09-01
 closing_date: 2026-09-30
@@ -14,8 +14,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://the5anddime.org/s2026/i-am-my-own-wife/
-Tickets: 
+website: https://the5anddime.org/s2026/i-am-my-own-wife/
+tickets: 
 show_details: 
 - Playwright: "[[w:Doug Wright]]"
 cast:
@@ -23,7 +23,7 @@ crew:
   - Director: Kristen Walsh
 orchestra:
 genres: 
-Description: "Her survival was an act of resistance."
+description: "Her survival was an act of resistance."
 ---
 **NOTE: Dates TBD**
 

@@ -1,8 +1,8 @@
 ---
 title: Disney's Tarzan
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
-Season: 59
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
+season: 59
 date: 2024-05-23T14:58:02-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-28
@@ -24,8 +24,8 @@ featured_image_caption: Poster for 'Tarzan'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://ci.ovationtix.com/34877/production/1187114
+website: 
+tickets: https://ci.ovationtix.com/34877/production/1187114
 cast:
   - Tarzan: Chris Berry
   - Jane: Abigail Douglas

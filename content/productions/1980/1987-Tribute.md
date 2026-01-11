@@ -5,8 +5,8 @@ opening_date: 1987-01-23
 closing_date: 1987-02-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Scottie Templeton: Redgie Gutshall
 - Maggie Stratton: Sharon Thomas

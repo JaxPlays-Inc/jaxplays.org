@@ -5,8 +5,8 @@ opening_date: 1962-11-22
 closing_date: 1962-12-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Prologue: Toni Ott
 - Chief Brown Bear: Ed Poole

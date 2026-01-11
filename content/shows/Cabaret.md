@@ -14,11 +14,11 @@ show_details:
 - Theatre: "[[w:Shubert Theatre]], Boston"
 - Basis: "*[[w:I am a Camera]]* by [[w:John Van Druten]], *[[w:Goodbye to Berlin]]* by [[w:Christopher Isherwood]]"
 - Website: 
-Genres:
+genres:
   - Musical
   - Drama
   - Historical
-Description: "Step inside the Kit Kat Klub in 1930s Berlin, where the carefree decadence masks the looming shadows of political change. *Cabaret* offers a gripping look at love, life, and identity on the brink of chaos."
+description: "Step inside the Kit Kat Klub in 1930s Berlin, where the carefree decadence masks the looming shadows of political change. *Cabaret* offers a gripping look at love, life, and identity on the brink of chaos."
 ---
 Set against the backdrop of the rise of Nazi Germany, *Cabaret* explores the intersecting lives of Sally Bowles, a vivacious cabaret performer, and Cliff Bradshaw, an American writer, drawn together in the hedonistic but politically turbulent world of Berlin. As they navigate the increasingly oppressive reality outside, the Kit Kat Klub continues its escapist performances, with the enigmatic Emcee providing both commentary and distraction. This powerful musical is both a seductive mirror of a society spiraling into peril and a poignant reminder of the resilience of the human spirit.
 

@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Fly By Night
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Heather Starling
 - Daniel Starling

@@ -8,7 +8,7 @@ featured_image_alt: Two actors on stage in a play, with the man gesturing animat
 authors:
 - Joy Bossardet
 production: '2024 Beware the House on Haunted Hill!'
-Theatre: Act II Players
+theatre: Act II Players
 cast: 
 - Alisa Tillman
 - David Primm

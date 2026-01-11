@@ -5,15 +5,15 @@ featured_image:
 featured_image_caption: 
 featured_image_attr:
 show_details: 
-Music: "[[w:Stephen Sondheim]]"
-Lyrics: Stephen Sondheim
-Book: "[[w:George Furth]]"
-Basis: "*[[w:Merrily We Roll Along]]* by [[w:George S. Kaufman]] and [[w:Moss Hart]]"
+music: "[[w:Stephen Sondheim]]"
+lyrics: Stephen Sondheim
+book: "[[w:George Furth]]"
+basis: "*[[w:Merrily We Roll Along]]* by [[w:George S. Kaufman]] and [[w:Moss Hart]]"
 # Merrily We Roll Along
-Genres:
+genres:
   - Musical
   - Drama
-Description: "A riveting exploration of friendship, ambition and the steep costs of success, told in reverse chronological order."
+description: "A riveting exploration of friendship, ambition and the steep costs of success, told in reverse chronological order."
 ---
 *Merrily We Roll Along* follows the tumultuous journey of Franklin Shepard and his close friends, Charley and Mary, as they navigate the waters of show business and personal entanglements. The story uniquely begins at the height of Franklin’s Hollywood success and moves backwards in time to reveal the pivotal moments that shaped their lives. With each scene, the musical peels back layers of their relationships, examining the choices and sacrifices made in the pursuit of dreams and the bittersweet reality of their consequences.
 

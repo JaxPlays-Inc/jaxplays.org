@@ -5,8 +5,8 @@ opening_date: 1951-11-16
 closing_date: 1951-11-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dr. Emmett: Charles J. Broyles
 - Fairy May: Beth Wade

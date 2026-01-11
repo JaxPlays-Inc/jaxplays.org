@@ -8,16 +8,16 @@ featured_image: 2023_Choir_Boy.png
 featured_image_caption: Poster for Choir Boy at Players by the Sea
 featured_image_attr: Players by the Sea
 program:
-Genres:
+genres:
 - Musical
 - Drama
 - Coming-of-Age Story
-Description: "*Choir Boy* delves into the lives of a talented group of young black men at an elite prep school, grappling with identity, sexuality, and ambition. All set to the beat of soul-stirring gospel music."
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+description: "*Choir Boy* delves into the lives of a talented group of young black men at an elite prep school, grappling with identity, sexuality, and ambition. All set to the beat of soul-stirring gospel music."
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 show_details:
 - Playwright: Tarell Alvin McCraney
-Website: https://playersbythesea.org/choir-boy
+website: https://playersbythesea.org/choir-boy
 showtimes:
 - 2023-05-12 20:00:00
 - 2023-05-13 20:00:00

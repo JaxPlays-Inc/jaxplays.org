@@ -5,7 +5,7 @@ opening_date: 1928-12-04
 closing_date: 1928-12-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Olive: Agnes Towers
 - 2nd Girl: Dorothy Tracy

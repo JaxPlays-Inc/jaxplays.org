@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: torie.dalessandro
-  Twitter: 
-  Instagram: toorriie
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  YouTube: "@xotoriexo"
+socials:
+  facebook: torie.dalessandro
+  twitter: 
+  instagram: toorriie
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  youtube: "@xotoriexo"
 ---

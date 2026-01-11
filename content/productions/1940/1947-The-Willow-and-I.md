@@ -5,8 +5,8 @@ opening_date: 1947-11-28
 closing_date: 1947-12-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bailey: George Buchanan, Jr.
 - Bessie Sutro: Grace E. Miles

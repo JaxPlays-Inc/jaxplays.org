@@ -13,13 +13,13 @@ genres:
 - Play
 - Comedy
 - Historical Fiction
-Theatre: Jacksonville University - Stein College
-Venue: Black Box Studio Theatre
-Website: 
-Tickets: 
+theatre: Jacksonville University - Stein College
+venue: Black Box Studio Theatre
+website: 
+tickets: 
 show_details: 
 - Playwright: "[[w:Steve Martin]]"
-Description: A fantastical evening at a Parisian bar in 1904, where a young Picasso and Einstein engage in a battle of wits and ideas. A comedic romp through art, science, and the imagination.
+description: A fantastical evening at a Parisian bar in 1904, where a young Picasso and Einstein engage in a battle of wits and ideas. A comedic romp through art, science, and the imagination.
 showtimes:
 - 2007-10-24 19:30:00
 cast:

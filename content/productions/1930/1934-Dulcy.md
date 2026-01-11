@@ -5,7 +5,7 @@ opening_date: 1934-04-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Blair Patterson: Allen Moreland
 - Henry Jordan: Clyde Harris

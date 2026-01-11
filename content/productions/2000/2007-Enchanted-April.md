@@ -5,7 +5,7 @@ opening_date: 2007-04-20
 closing_date: 2007-05-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Lotty Wilton: Alexis Robbins

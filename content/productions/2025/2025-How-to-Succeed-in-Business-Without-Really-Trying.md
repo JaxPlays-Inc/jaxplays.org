@@ -1,8 +1,8 @@
 ---
 title: How to Succeed in Business Without Really Trying
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 
 date: 2025-03-19T12:14:00-04:00
 opening_date: 2025-04-24
 closing_date: 2025-05-04
@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/
 program:
-Website: https://ameliamusicalplayhouse.com/performances/howtosucceed/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/performances/howtosucceed/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
 - Mr. Jenkins: Zain Beverley 
@@ -59,11 +59,11 @@ orchestra:
 - Woodwinds: TBD
 - Bass: Lyle Thompson
 - Brass: TBD
-Genres:
+genres:
   - Musical
   - Comedy
   - Satire
-Description: "Laugh along with this sharp-witted musical satire that chronicles the riotous rise of J. Pierrepont Finch, who uses a cunning handbook to climb the corporate ladder."
+description: "Laugh along with this sharp-witted musical satire that chronicles the riotous rise of J. Pierrepont Finch, who uses a cunning handbook to climb the corporate ladder."
 ---
 Big business means big laughs in this delightfully clever lampoon of life on the corporate ladder. A tune-filled comic gem that took Broadway by storm, winning both the Tony Award for Best Musical and a Pulitzer Prize, How to Succeed in Business without Really Trying boasts an exhilarating score by Frank Loesser, including "I Believe in You," "Brotherhood of Man" and "The Company Way."
 

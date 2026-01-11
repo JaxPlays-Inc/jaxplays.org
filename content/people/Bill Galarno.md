@@ -11,15 +11,15 @@ birth_info:
   birth_date: 1933-03-01
   death_date: 2020-02-16
   birth_place: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: bill-galarno-73240
-  IMDb: nm1085410
-  Website: 
-Press: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: bill-galarno-73240
+  imdb: nm1085410
+  website: 
+press: 
 - "1933 - 2020 Bill Galarno | Performing Arts Legacy Project": https://performingartslegacy.org/galarno/1933-2020/
 - "Actor Bill Galarno returns to the Alhambra half-a-century later for 'Show Boat'": https://www.jacksonville.com/story/entertainment/local/2017/02/23/actor-bill-galarno-returns-alhambra-half-century-later-show-boat/15743949007/
 - "This Exciting New Project Highlights Working Actors Age 62 and Older - The Actors Fund’s Performing Arts Legacy Project | StageBuddy": https://stagebuddy.com/theater/theater-feature/actors-funds-performing-arts-legacy-project

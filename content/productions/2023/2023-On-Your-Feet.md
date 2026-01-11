@@ -13,11 +13,11 @@ genres:
 - Musical
 - Biography
 - Drama
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Website: https://www.fscjartistseries.org/tickets/on-your-feet-the-musical-the-story-of-emilio-gloria-estefan
-Tickets: https://shop.fscjartistseries.org/on-your-feet/12-09-23
+venue: Moran Theater
+website: https://www.fscjartistseries.org/tickets/on-your-feet-the-musical-the-story-of-emilio-gloria-estefan
+tickets: https://shop.fscjartistseries.org/on-your-feet/12-09-23
 show_details: 
 - Music & Lyrics: 
   - Gloria Estefan
@@ -28,7 +28,7 @@ show_details:
   - Jorge Casas
   - Clay Ostwald
   - Oscar Hernández
-Description: Get ready to conga! This electrifying musical tells the story of Gloria and Emilio Estefan as they rise to stardom.
+description: Get ready to conga! This electrifying musical tells the story of Gloria and Emilio Estefan as they rise to stardom.
 showtimes:
 cast:
 - Gloria Estefan: Gaby Albo

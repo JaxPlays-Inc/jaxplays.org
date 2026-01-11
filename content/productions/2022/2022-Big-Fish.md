@@ -8,8 +8,8 @@ featured_image: 2022_Big_Fish.jpeg
 featured_image_caption: Poster of 2022 production of Big Fish
 featured_image_attr: Limelight Theatre
 program:
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 showtimes:
 cast:
 - Edward Bloom: Steven Amburgey

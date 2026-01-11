@@ -5,7 +5,7 @@ opening_date: 2002-06-14
 closing_date: 2002-06-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Arpad laszlo: Joseph L. Chancey

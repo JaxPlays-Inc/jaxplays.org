@@ -7,17 +7,17 @@ featured_image: River-City-Players.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: RCPtheater
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: https://www.rcppalatka.org/
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: RCPtheater
+  twitter: 
+  instagram: 
+  threads:
+  website: https://www.rcppalatka.org/
+phone:  
 color: "#"
 ---

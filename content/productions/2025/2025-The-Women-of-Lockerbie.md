@@ -1,7 +1,7 @@
 ---
 title: The Women of Lockerbie
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
 date: 2024-06-13T17:15:01-04:00
 opening_date: 2025-01-17
 closing_date: 2025-02-02
@@ -22,8 +22,8 @@ featured_image_caption: "Experience the moving story of 'The Women of Lockerbie'
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Women-of-Lockerbie.pdf
-Website: https://www.theatrejax.com/season-105
-Tickets: https://ci.ovationtix.com/34919
+website: https://www.theatrejax.com/season-105
+tickets: https://ci.ovationtix.com/34919
 show_details: 
 cast:
   - Madeline Livingston: Evie Day
@@ -57,10 +57,10 @@ crew:
       - Taylor Smith
       - Miles Williamson
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Historical
-Description: "Explore the profound impact of loss and the power of compassion in *The Women of Lockerbie*, a moving drama that reflects on the aftermath of a tragic event and the healing strength of community."
+description: "Explore the profound impact of loss and the power of compassion in *The Women of Lockerbie*, a moving drama that reflects on the aftermath of a tragic event and the healing strength of community."
 ---
 Set seven years after the [1988 Lockerbie bombing](https://en.wikipedia.org/wiki/Pan_Am_Flight_103), *The Women of Lockerbie* follows the journey of an American mother searching for closure amidst her grief. In the hills of Lockerbie, Scotland, she encounters a group of local women determined to convert an act of hatred into one of love by washing and returning the victims’ clothing to their families. Inspired by true events, this poetic and heart-wrenching play by Deborah Brevoort examines themes of loss, forgiveness, and the enduring human spirit in the face of tragedy.

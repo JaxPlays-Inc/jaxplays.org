@@ -1,7 +1,7 @@
 ---
 title: Good People
-Theatre: A Classic Theatre
-Venue: The Waterworks
+theatre: A Classic Theatre
+venue: The Waterworks
 date: 2024-06-15T10:12:35-04:00
 opening_date: 2025-03-07
 closing_date: 2025-03-16
@@ -18,8 +18,8 @@ featured_image_caption: "'Good People,' a powerful and humorously sharp look at 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2024-2025s-season
-Tickets: https://aclassictheatre.ludus.com/200456013
+website: https://www.aclassictheatre.org/2024-2025s-season
+tickets: https://aclassictheatre.ludus.com/200456013
 show_details: 
   - Playwright: "[[w:David Lindsay-Abaire]]"
 cast:
@@ -33,9 +33,9 @@ crew:
 - Director: Cindy Alexander
 orchestra:
 # Good People
-Genres:
+genres:
   - Play
   - Drama
-Description: "Navigate the gritty streets of South Boston in 'Good People,' a compelling drama about the struggles and resilience of the working class."
+description: "Navigate the gritty streets of South Boston in 'Good People,' a compelling drama about the struggles and resilience of the working class."
 ---
 Margie Walsh has just lost her job and faces eviction. Desperate, she turns to an old boyfriend who has made it out of the neighborhood, hoping he can offer a job. The reunion sparks a tense exploration of past relationships and present hardships, forcing both to confront their choices and the fine line between luck and decision-making in the battle for a better life.

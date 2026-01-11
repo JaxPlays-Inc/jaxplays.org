@@ -1,8 +1,8 @@
 ---
 title: 13
-Theatre: Apex Theatre Studio
-Venue: Apex Theatre Studio
-Season: 12
+theatre: Apex Theatre Studio
+venue: Apex Theatre Studio
+season: 12
 date: 2024-06-17T20:27:56-04:00
 opening_date: 2024-11-01
 closing_date: 2024-11-03
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Music: "[[w:Jason Robert Brown]]"
 - Lyrics: Jason Robert Brown
@@ -28,11 +28,11 @@ cast:
 crew:
 orchestra:
 # 13
-Genres:
+genres:
   - Musical
   - Comedy
   - Coming-of-Age
-Description: "Navigate the tricky waters of adolescence in *13*, a lively musical about a young boy's quest to fit in and make his bar mitzvah unforgettable."
+description: "Navigate the tricky waters of adolescence in *13*, a lively musical about a young boy's quest to fit in and make his bar mitzvah unforgettable."
 ---
 *13* centers on Evan Goldman, a New York City teen who faces the daunting challenge of moving to a small town in Indiana after his parents' divorce. As his 13th birthday approaches, Evan dreams of hosting the perfect bar mitzvah, but first, he must navigate the complex social circles of his new school. The musical blends humor with heartfelt moments, as Evan learns about friendship, acceptance, and the value of being true to oneself through a catchy, contemporary score.
 

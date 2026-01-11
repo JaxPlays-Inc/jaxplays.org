@@ -6,17 +6,17 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials: 
-  Facebook: jasonwoodsproductions/
-  Twitter: 
-  Instagram: _jason.woods_
-  Threads:
-  YouTube: jasonwoodsproductions
-  Website: https://www.jasonwoodsproductions.com/
-Press:
+socials: 
+  facebook: jasonwoodsproductions/
+  twitter: 
+  instagram: _jason.woods_
+  threads:
+  youtube: jasonwoodsproductions
+  website: https://www.jasonwoodsproductions.com/
+press:
 - "Solo Performer Jason Woods Makes Edinburgh Fringe Debut with Two New Shows | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/Solo-Performer-Jason-Woods-Makes-Edinburgh-Fringe-Debut-with-Two-New-Shows-20250605
 - "Incredible $200,000 gift allows US actor to stage twin Edinburgh Festival Fringe shows | The Scotsman": https://www.scotsman.com/business/incredible-200000-gift-allows-us-actor-to-stage-twin-edinburgh-festival-fringe-shows-5269634
-Reviews:
+reviews:
 - "EdFringe Review: Bing!": https://theqr.co.uk/2025/08/14/edfringe-review-bing/
 - "Bing! | Broadway Baby": https://broadwaybaby.com/shows/bing/824682
 - "Bing! | The Mumble": https://themumble.uk/2025/08/08/bing/

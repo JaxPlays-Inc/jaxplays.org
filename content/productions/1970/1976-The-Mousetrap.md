@@ -5,8 +5,8 @@ opening_date: 1976-03-12
 closing_date: 1976-03-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mollie Ralston: Jane Carroll
 - Giles Ralston: Allen Richard Gimbel

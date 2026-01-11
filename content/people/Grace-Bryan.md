@@ -7,12 +7,12 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm8934319
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm8934319
+  website: 
 ---

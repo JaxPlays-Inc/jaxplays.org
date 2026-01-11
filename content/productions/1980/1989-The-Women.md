@@ -5,8 +5,8 @@ opening_date: 1989-05-19
 closing_date: 1989-06-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Jane: Robin Mori
 - Nancy: Sue Hurley

@@ -10,12 +10,12 @@ featured_image: 2019_Small_Mouth_Sounds.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Writer: "[[w:Bess Wohl]]"
-Website: https://www.the5anddime.org/small-mouth-sounds
+website: https://www.the5anddime.org/small-mouth-sounds
 showtimes:
 - 2019-04-19 20:00:00
 - 2019-04-20 20:00:00

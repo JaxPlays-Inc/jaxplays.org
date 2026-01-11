@@ -5,7 +5,7 @@ opening_date: 1931-11-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Edgar Rice: Adamae Armbruster
 - Ferne Arthur: Agatha Smith

@@ -5,8 +5,8 @@ opening_date: 1970-04-10
 closing_date: 1970-04-18
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Doctor Jack Kingsley: Erd Wilson, Jr.
 - Linda Kingsley: Rita Ballard

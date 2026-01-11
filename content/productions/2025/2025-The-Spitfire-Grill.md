@@ -2,8 +2,8 @@
 title: The Spitfire Grill
 cancelled: true
 draft: true
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Grace Darling Studio Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: Grace Darling Studio Theatre
 date: 2024-05-10T17:38:36-04:00
 opening_date: 2025-08-15
 closing_date: 2025-08-31
@@ -23,8 +23,8 @@ featured_image_caption: Poster for 'The Spitfire Grill'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://3common.com/event/the-spitfire-grill/66648d6bd3baa6af798b115d
+website: 
+tickets: https://3common.com/event/the-spitfire-grill/66648d6bd3baa6af798b115d
 show_details: 
 - Music: "[[w:James Valcq]]"
 - Lyrics: "[[w:Fred Alley]]"
@@ -37,5 +37,5 @@ crew:
 - Musical Director: Erin Barnes
 orchestra:
 genres: 
-Description: 
+description: 
 ---

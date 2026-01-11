@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: HypnoticScott
-  Twitter: 
-  Instagram: hypnoticscott
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm6384901
-  Website: http://scottbroughtonofficial.com/
-  Backstage: scott-broughton
-  YouTube: "@scottbroughton7125"
+socials:
+  facebook: HypnoticScott
+  twitter: 
+  instagram: hypnoticscott
+  linkedin: 
+  ibdb: 
+  imdb: nm6384901
+  website: http://scottbroughtonofficial.com/
+  backstage: scott-broughton
+  youtube: "@scottbroughton7125"
 ---

@@ -7,8 +7,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-03-26
 closing_date: 2020-04-26
 category: musical
-Theatre: Alhambra Theatre & Dining
-Website: https://www.alhambrajax.com/show/singin-in-the-rain/
+theatre: Alhambra Theatre & Dining
+website: https://www.alhambrajax.com/show/singin-in-the-rain/
 show_details:
 - Music: "[[w:Nacio Herb Brown]]"
 - Lyrics: "[[w:Arthur Freed]]"

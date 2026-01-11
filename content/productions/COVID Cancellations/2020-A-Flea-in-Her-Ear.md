@@ -6,12 +6,12 @@ title: A Flea in Her Ear
 date: 2023-09-08T00:00:00
 opening_date: 2020-03-19
 closing_date: 2020-04-11
-Genres: 
+genres: 
 - Play
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 show_details:
 - Writer: "[[w:Georges Feydeau]]"
-Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
+website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes:
 - 2020-03-19 19:30:00
 - 2020-03-20 19:30:00

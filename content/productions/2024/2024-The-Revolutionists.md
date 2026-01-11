@@ -1,7 +1,7 @@
 ---
 title: The Revolutionists
-Theatre: Players by the Sea
-Venue: Grace Darling Studio Theatre
+theatre: Players by the Sea
+venue: Grace Darling Studio Theatre
 date: 2024-05-23T14:58:07-04:00
 opening_date: 2024-09-13
 closing_date: 2024-09-22
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://ci.ovationtix.com/34877/production/1187117
+website: 
+tickets: https://ci.ovationtix.com/34877/production/1187117
 show_details: 
 - Playwright: "[[w:Lauren Gunderson]]"
 cast:
@@ -45,11 +45,11 @@ crew:
     - Shain Stroff
 orchestra:
 # The Revolutionists
-Genres:
+genres:
   - Play
   - Historical
   - Comedy-Drama
-Description: "Dive into the fierce and funny world of *The Revolutionists*, where four women of the French Revolution collide in a tale of political intrigue, wit and sisterhood."
+description: "Dive into the fierce and funny world of *The Revolutionists*, where four women of the French Revolution collide in a tale of political intrigue, wit and sisterhood."
 photos:
 - photo: 2024-The-Revolutionists-01.webp
   photo_attr: Mike Kitaif

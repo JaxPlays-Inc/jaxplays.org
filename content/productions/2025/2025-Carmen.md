@@ -1,8 +1,8 @@
 ---
 title: Carmen
-Theatre: First Coast Opera
-Venue: Lewis Auditorium
-Season: 2025
+theatre: First Coast Opera
+venue: Lewis Auditorium
+season: 2025
 date: 2025-10-04T13:52:39-04:00
 opening_date: 2025-12-31
 closing_date: 2026-01-04
@@ -16,18 +16,18 @@ featured_image_caption: '"Carmen" presented by First Coast Opera at Lewis Audito
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.firstcoastopera.com/carmen
-Tickets: https://app.arts-people.com/?show=291353
+website: https://www.firstcoastopera.com/carmen
+tickets: https://app.arts-people.com/?show=291353
 show_details: 
   - Music: "[[w:Georges Bizet]]"
   - Libretto: "[[w:Henri Meilhac]] and [[w:Ludovic Halévy]]"
   - Basis: "Based on the novella *Carmen* by [[w:Prosper Mérimée]]"
   - Premiere: "1875, Opéra-Comique, Paris"
-Genres:
+genres:
   - Opera
   - Drama
   - Tragedy
-Description: "Bizet’s fiery opera of love and jealousy set in 19th-century Seville, where the free-spirited Carmen leads Don José down a path of passion and destruction."
+description: "Bizet’s fiery opera of love and jealousy set in 19th-century Seville, where the free-spirited Carmen leads Don José down a path of passion and destruction."
 cast:
   - Carmen: Sarah Nordin
   - Don José: Matt Morgan

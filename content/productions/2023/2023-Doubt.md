@@ -8,15 +8,15 @@ featured_image: 2023_Doubt.jpeg
 featured_image_caption: Poster of Doubt
 featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
 program: 2023_Doubt.pdf
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-Genres:
+genres:
 - Play
 - Drama
 - Mystery
 show_details:
 - Playwright: John Patrick Shanley
-Description: In a 1960s Bronx Catholic school, Sister Aloysius wages a moral crusade against the charismatic Father Flynn. But in her quest for truth, doubt takes center stage.
+description: In a 1960s Bronx Catholic school, Sister Aloysius wages a moral crusade against the charismatic Father Flynn. But in her quest for truth, doubt takes center stage.
 cast:
 - Father Brendan Flynn: Jas Abramowitz
 - Sr. Aloysius Beauvier: Simone Aden

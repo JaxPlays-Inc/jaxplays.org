@@ -5,8 +5,8 @@ opening_date: 1968-09-20
 closing_date: 1968-09-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Amy Rogers: Bonnie Hiltabidle
 - Charlie Rogers: Jesse Waller

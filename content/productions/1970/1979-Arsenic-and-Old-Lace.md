@@ -5,8 +5,8 @@ opening_date: 1979-05-11
 closing_date: 1979-05-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Abby Brewster: Mardie Kelly
 - Rev. Dr. Harper: Stan Murphy

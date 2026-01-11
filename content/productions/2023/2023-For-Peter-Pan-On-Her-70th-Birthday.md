@@ -8,16 +8,16 @@ featured_image: 2023_For_Peter_Pan_On_Her_70th_Birthday.webp
 featured_image_caption: Poster for 'For Peter Pan On Her 70th Birthday'
 featured_image_attr: The 5 & Dime
 program:
-Genres:
+genres:
 - Play
 - Drama
 - Fantasy
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
+theatre: The 5 & Dime
+venue: The Florida Ballet
 show_details:
 - Playwright: Sarah Ruhl
-Website: https://www.the5anddime.org/for-peter-pan
-Tickets: https://www.eventbrite.com/e/for-peter-pan-on-her-70th-birthday-tickets-679715145297
+website: https://www.the5anddime.org/for-peter-pan
+tickets: https://www.eventbrite.com/e/for-peter-pan-on-her-70th-birthday-tickets-679715145297
 showtimes:
 - 2023-09-15 20:00:00
 - 2023-09-16 20:00:00

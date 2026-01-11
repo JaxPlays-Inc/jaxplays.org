@@ -1,8 +1,8 @@
 ---
 title: A Moon for the Misbegotten
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: WJCT Studio B
-Season: 34
+theatre: ABET - All Beaches Experimental Theatre
+venue: WJCT Studio B
+season: 34
 date: 2025-09-17T21:00:00-04:00
 opening_date: 2025-10-09
 closing_date: 2025-10-19
@@ -19,17 +19,17 @@ featured_image_caption: '"A Moon for the Misbegotten" presented by ABET at WJCT 
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-A-Moon-for-the-Misbegotten.pdf
-Website: https://www.abetjax.com/a-moon-for-the-misbegotten
-Tickets: https://www.tickettailor.com/events/abetallbeachesexperimentaltheatre/1788622
+website: https://www.abetjax.com/a-moon-for-the-misbegotten
+tickets: https://www.tickettailor.com/events/abetallbeachesexperimentaltheatre/1788622
 show_details: 
   - Playwright: "[[w:Eugene O’Neill]]"
   - Premiere: "1947, Hartman Theatre, Columbus, Ohio"
   - Setting: "A farmhouse in Connecticut, 1923"
-Genres:
+genres:
   - Play
   - Drama
   - Classic
-Description: "Eugene O’Neill’s raw and lyrical drama of love, forgiveness, and redemption under the moonlight on a Connecticut farm."
+description: "Eugene O’Neill’s raw and lyrical drama of love, forgiveness, and redemption under the moonlight on a Connecticut farm."
 cast:
   - Josie Hogan: Jessica Racaniello
   - James Tyrone Jr.: Scott Broughton
@@ -40,7 +40,7 @@ crew:
   - Director / Set Designer / Lighting Designer: Tyler Hammond
   - Costume Designer: David Buchman
   - Stage Manager: Phedre Delinois
-Photos:
+photos:
 - photo: 2025-A-Moon-For-The-Misbegotten-01.webp
   photo_attr: Josh Andrews
   photo_alt: 
@@ -53,7 +53,7 @@ Photos:
   photo_attr: Josh Andrews
   photo_alt: 
   photo_caption: 
-Press:
+press:
 - "ABET to present ‘A Moon for the Misbegotten’ | The Ponte Vedra Recorder": https://www.pontevedrarecorder.com/stories/abet-to-present-a-moon-for-the-misbegotten,146670
 ---
 From the pen of one of America’s greatest dramatists comes a searing, lyrical tale of longing, redemption, and the fleeting power of love. ABET proudly presents Eugene O’Neill’s *A Moon for the Misbegotten* — a haunting and deeply human story set on a hardscrabble Connecticut farm in the aftermath of *Long Day’s Journey Into Night*.

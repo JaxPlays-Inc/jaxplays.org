@@ -11,7 +11,7 @@ description: "The 5 & Dime's rendition of 'Tick, Tick... Boom!' is an intimate m
 authors:
 - Ray Hollister
 production: 2023 Tick Tick Boom
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 cast: 
 - Bradley Akers
 - Zach Rivera

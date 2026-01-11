@@ -6,7 +6,7 @@ approx_date: year
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mouka: Dore' Beauchamp-Nobbs
 - Captain Bluntschli: E.S. Beauchamp-Nobbs

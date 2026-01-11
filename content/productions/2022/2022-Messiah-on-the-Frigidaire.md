@@ -8,10 +8,10 @@ featured_image: 2022_Messiah_on_the_Frigidaire.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Genres: 
+genres: 
 - Play
-Theatre: Limelight Theatre
-Website: https://web.archive.org/web/20220523165531/https://limelight-theatre.org/messiah-on-the-frigidaire/
+theatre: Limelight Theatre
+website: https://web.archive.org/web/20220523165531/https://limelight-theatre.org/messiah-on-the-frigidaire/
 show_details:
 - Writer: John Culbertson
 showtimes:

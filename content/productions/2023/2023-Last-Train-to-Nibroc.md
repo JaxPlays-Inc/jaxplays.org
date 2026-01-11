@@ -8,11 +8,11 @@ featured_image: 2023_Last_Train_to_Nibroc.jpeg
 featured_image_caption: Poster of Last Train to Nibroc
 featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
 program: 2023_Last_Train_to_Nibroc.pdf
-Genres:
+genres:
 - Play
 - Drama
 - Romance
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:
 - Playwright: Arlene Hutton

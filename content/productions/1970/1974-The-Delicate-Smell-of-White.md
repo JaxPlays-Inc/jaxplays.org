@@ -5,8 +5,8 @@ opening_date: 1974-06-20
 closing_date: 1974-06-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Laurie: Loy Domingos
 - Kitty: Nancy Woods

@@ -5,7 +5,7 @@ opening_date: 1934-05-15
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Eddie Wilton: Charles Luckie
 - Clarence Withers: Drummond Paul, Jr.

@@ -1,8 +1,8 @@
 ---
 title: Ride the Cyclone
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 
 date: 2025-02-20T14:14:22-05:00
 opening_date: 2025-03-07
 closing_date: 2025-03-22
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: Andre Jon Valencia
 featured_image_attr_link: 
 program: 2025-Ride-The-Cyclone.pdf
-Website: https://www.the5anddime.org/ridethecyclone
-Tickets: https://www.eventbrite.com/e/ride-the-cyclone-tickets-1038879174577
+website: https://www.the5anddime.org/ridethecyclone
+tickets: https://www.eventbrite.com/e/ride-the-cyclone-tickets-1038879174577
 show_details: 
 cast:
   - The Amazing Karnak: Austin Welles
@@ -79,7 +79,7 @@ genres:
   - Musical
   - Comedy
   - Drama
-Description: "Buckle up for a wild ride through life, death, and the spaces in between. This darkly uproarious musical dares to ask the question: What story would you tell to win a chance at more life?"
+description: "Buckle up for a wild ride through life, death, and the spaces in between. This darkly uproarious musical dares to ask the question: What story would you tell to win a chance at more life?"
 ---
 **NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and [[theatre:Swoop Troupe]] Theater Club at UNF. We have a Pay-What-You-Please night on March 13th at 8 p.m.
 

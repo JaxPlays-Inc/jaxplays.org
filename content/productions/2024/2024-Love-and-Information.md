@@ -1,8 +1,8 @@
 ---
 title: Love and Information
-Theatre: BABS' LAB
-Venue: BABS' LAB
-Season: 
+theatre: BABS' LAB
+venue: BABS' LAB
+season: 
 date: 2024-06-17T23:01:28-04:00
 opening_date: 2024-08-02
 closing_date: 2024-08-03
@@ -15,8 +15,8 @@ featured_image_caption: "Artistic rendering for 'Love and Information' captures 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.barbaracolaciello.com/register/loveandinfobabslab
-Tickets: https://www.barbaracolaciello.com/register/loveandinfobabslab
+website: https://www.barbaracolaciello.com/register/loveandinfobabslab
+tickets: https://www.barbaracolaciello.com/register/loveandinfobabslab
 show_details: 
 - Playwright: "[[w:Caryl Churchill]]"
 cast:
@@ -24,10 +24,10 @@ crew:
 - Director: Barbara Colaciello
 orchestra:
 # Love and Information
-Genres:
+genres:
   - Play
   - Drama
   - Experimental
-Description: "A captivating exploration of how we process information and experience relationships in the digital age, featuring a series of brisk, poignant vignettes."
+description: "A captivating exploration of how we process information and experience relationships in the digital age, featuring a series of brisk, poignant vignettes."
 ---
 *Love and Information* is a groundbreaking work by Caryl Churchill that challenges the conventions of traditional storytelling. The play consists of over 50 short scenes, each offering a glimpse into different characters' lives as they navigate love, knowledge, technology and human connection. With no fixed setting or defined characters, the scenes shift rapidly, mirroring the fast-paced and fragmented nature of modern communication. Churchill's play is a compelling mosaic that examines the overload of information and its impact on our emotional and social lives.

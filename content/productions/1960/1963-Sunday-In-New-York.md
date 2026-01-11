@@ -5,8 +5,8 @@ opening_date: 1963-02-21
 closing_date: 1963-03-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Adam Taylor: Art Logan
 - Eileen Taylor: Sabina Meyer

@@ -8,7 +8,7 @@ featured_image_attr: Mary Roesler
 authors: 
 - Ray Hollister
 production: 2025 Steel Magnolias
-Theatre: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
 cast: 
   - Kelly Weaver
   - Phaedra Smith

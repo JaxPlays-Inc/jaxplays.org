@@ -5,7 +5,7 @@ opening_date: 1935-03-26
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Abraham Kaplan: Jack Berman
 - Agnes Cushing: Mildred Perry

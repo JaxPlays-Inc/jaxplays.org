@@ -5,8 +5,8 @@ opening_date: 1954-12-01
 closing_date: 1954-12-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - David Slater: Jay Harder
 - Donald Gresham: Jerome Fletcher

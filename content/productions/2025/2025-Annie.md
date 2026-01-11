@@ -1,8 +1,8 @@
 ---
 title: Annie
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: null
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: null
 date: '2025-12-07T16:23:14-05:00'
 opening_date: '2025-12-04'
 closing_date: '2025-12-21'
@@ -13,8 +13,8 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: null
-Website: https://limelight-theatre.org/productions/annie/
-Tickets: https://limelight.ludus.com/index.php?show_id=200477920
+website: https://limelight-theatre.org/productions/annie/
+tickets: https://limelight.ludus.com/index.php?show_id=200477920
 cast:
 - Annie:
   - Sydney Taisey
@@ -48,8 +48,8 @@ crew:
 - Stage Manager: Day Stanchi
 orchestra: []
 show_details: []
-Genres: []
-Description: null
+genres: []
+description: null
 source_urls:
 - https://limelight-theatre.org/
 - https://limelight-theatre.org/productions/annie/

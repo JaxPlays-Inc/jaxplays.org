@@ -1,8 +1,8 @@
 ---
 title: The Shark is Broken
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 
+theatre: The Island Theater
+venue: The Island Theater
+season: 
 date: 2025-11-18T21:58:15-05:00
 opening_date: 2025-11-07
 closing_date: 2025-11-16
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://theislandtheater.com
-Tickets: https://www.theislandtheater.com/event-details/shark-is-broken-2025-11-07-19-00
+website: https://theislandtheater.com
+tickets: https://www.theislandtheater.com/event-details/shark-is-broken-2025-11-07-19-00
 show_details: 
 cast:
   - Richard Dreyfuss: Michael Flynn
@@ -32,6 +32,6 @@ crew:
   - Light Design: Olivia Williams
   - Set and Costume Designer: Tricia Williams
 orchestra:
-Description: "🦈 When the shark breaks down, the actors break down too. *The Shark Is Broken* — a wildly funny deep dive into Hollywood chaos, cabin fever and questionable life choices."
+description: "🦈 When the shark breaks down, the actors break down too. *The Shark Is Broken* — a wildly funny deep dive into Hollywood chaos, cabin fever and questionable life choices."
 ---
  🚫 Contains strong language

@@ -8,20 +8,20 @@ featured_image: 2022_The_Great_Gatsby.jpg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: The Island Theater
-Venue: The Island Theater
+theatre: The Island Theater
+venue: The Island Theater
 show_details:
 - Playwright: "[[w:F. Scott Fitzgerald]]"
 - Adapter: "[[w:Simon Levy]]"
-Description: "*The Great Gatsby*, adapted by Simon Levy, brings F. Scott Fitzgerald's classic American novel to the stage in a tale of doomed love, unfulfilled aspirations, and the American Dream gone awry, all set against the jazz-infused backdrop of the Roaring '20s."
-Genres:
+description: "*The Great Gatsby*, adapted by Simon Levy, brings F. Scott Fitzgerald's classic American novel to the stage in a tale of doomed love, unfulfilled aspirations, and the American Dream gone awry, all set against the jazz-infused backdrop of the Roaring '20s."
+genres:
 - Play
 - Literary Fiction
 - Classic Literature
 - Historical Fiction
 - Tragedy
 - Romance
-Website:
+website:
 showtimes:
 - 2022-04-22 19:30:00
 - 2022-04-23 19:30:00

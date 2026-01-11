@@ -1,8 +1,8 @@
 ---
 title: A Doll’s House
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
-Season: 106
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
+season: 106
 date: 2025-09-10T13:21:17-04:00
 opening_date: 2025-09-12
 closing_date: 2025-09-28
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-A-Dolls-House.pdf
-Website: https://www.theatrejax.com/season-106
-Tickets: https://ci.ovationtix.com/34919/production/1235946
+website: https://www.theatrejax.com/season-106
+tickets: https://ci.ovationtix.com/34919/production/1235946
 show_details: 
 cast:
   - Nora Helmer: Emily Johns
@@ -51,6 +51,6 @@ crew:
       - Daniel Locke
 orchestra:
 genres: 
-Description: 
+description: 
 ---
 Young housewife Nora Helmer comes to the disturbing realization that she has spent her entire marriage and indeed most of her life, pretending to be the person that her husband, her father and society expect her to be.  Ibsen’s celebrated play explores the ways that societal expectations restrict individuals, especially women.  Its success when it premiered in 1879 thrust drama firmly into the modern age. Amy Herzog’s thrilling, compact and devastatingly contemporary adaptation makes freshly relevant a story that shocked audiences and brought forth a new era of theatre.

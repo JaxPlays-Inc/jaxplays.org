@@ -5,8 +5,8 @@ opening_date: 1984-04-06
 closing_date: 1984-04-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sidney Bruhl: Tom Nehl
 - Myra Bruhl: Glenda Sweitzer

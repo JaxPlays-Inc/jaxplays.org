@@ -5,8 +5,8 @@ opening_date: 1969-05-23
 closing_date: 1969-05-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ann Proctor: Barbara Fletcher
 - Lee Proctor: Susan Waddell

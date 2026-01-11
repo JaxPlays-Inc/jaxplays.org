@@ -5,7 +5,7 @@ opening_date: 1931-04-14
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Jim: Charles F. Hopkins, Jr.
 - Paul: Fred A. Henderich

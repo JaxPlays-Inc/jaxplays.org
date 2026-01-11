@@ -1,8 +1,8 @@
 ---
 title: Les Misérables
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
+venue: Moran Theater
 date: 2024-05-22T12:01:11-04:00
 opening_date: 2025-04-01
 closing_date: 2025-04-06
@@ -21,8 +21,8 @@ featured_image_caption: "Graphic for 'Les Misérables'"
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.fscjartistseries.org/tickets/les-mis%C3%A9rables
-Tickets: https://shop.fscjartistseries.org/overview/les-miserables
+website: https://www.fscjartistseries.org/tickets/les-mis%C3%A9rables
+tickets: https://shop.fscjartistseries.org/overview/les-miserables
 show_details: 
 cast:
   - Jean Valjean: Nick Cartell

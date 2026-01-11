@@ -5,7 +5,7 @@ opening_date: 2006-09-15
 closing_date: 2006-10-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Don Pedro: Jack Wallace

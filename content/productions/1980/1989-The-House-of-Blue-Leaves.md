@@ -5,8 +5,8 @@ opening_date: 1989-01-03
 closing_date: 1989-01-18
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Artie Shaugnessy: Brad Trowbridge
 - Ronnie Shaugnessy: Galen Toole

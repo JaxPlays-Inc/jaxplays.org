@@ -12,16 +12,16 @@ featured_image: Nathan_H_Wilson_Center_for_the_Arts.png
 featured_image_attr: fscj.edu
 featured_image_alt:
 featured_image_caption:
-Founded: 
-Address: |
+founded: 
+address: |
     11901 Beach Blvd
     Jacksonville, FL 32246
-Latitude: 30.29008090465963
-Longitude: -81.51068393074928
-Socials:
-    Facebook: WilsonCenterfortheArts
-    Website: https://www.fscj.edu/campuses/south-campus/wilson-center
-Phone: 19046462300
+latitude: 30.29008090465963
+longitude: -81.51068393074928
+socials:
+    facebook: WilsonCenterfortheArts
+    website: https://www.fscj.edu/campuses/south-campus/wilson-center
+phone: 19046462300
 ---
 The Studio Theatre offers a more intimate setting within the Nathan H. Wilson Center for the Arts. Specifically designed for smaller audiences, this versatile space hosts a wide range of events, from experimental theatre and intimate performances to business meetings and social gatherings, all complemented by the adjacent Conference Center.
 

@@ -5,8 +5,8 @@ opening_date: 1950-02-24
 closing_date: 1950-03-04
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Charles Benner: Bob Greer
 - Commander Jellico, USN: Jerry Harris

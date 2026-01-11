@@ -1,7 +1,7 @@
 ---
 title: For Whom the Southern Belle Tolls
-Theatre: A Classic Theatre
-Venue: The Center for Spiritual Living
+theatre: A Classic Theatre
+venue: The Center for Spiritual Living
 date: 2024-02-09
 opening_date: 2024-02-09
 closing_date: 2024-02-09
@@ -13,8 +13,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2023-2024-season
-Tickets: https://www.aclassictheatre.org/act-tickets
+website: https://www.aclassictheatre.org/2023-2024-season
+tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Playwright: Christopher Durang
 cast:
@@ -25,6 +25,6 @@ genres:
 - Staged Reading
 - Comedy
 - Parody
-Description: A hilariously twisted take on the Southern drama genre, where glass figurines—and inhibitions—get smashed.
+description: A hilariously twisted take on the Southern drama genre, where glass figurines—and inhibitions—get smashed.
 ---
 In *For Whom the Southern Belle Tolls*, Christopher Durang flips the script on Tennessee Williams’ classic, *The Glass Menagerie*. In this laugh-out-loud parody, the story revolves around Lawrence, a hypochondriac who collects glass cocktail stirrers instead of figurines. His overbearing mother, Amanda, is desperate to marry him off, even if the suitors are less than ideal. As the characters engage in ridiculous antics, the play lampoons the quintessential Southern drama, leaving no stereotype unskewered.

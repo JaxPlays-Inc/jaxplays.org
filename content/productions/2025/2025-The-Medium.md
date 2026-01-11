@@ -1,8 +1,8 @@
 ---
 title: The Medium
-Theatre: Bold City Opera
-Venue: Craig Lounge
-Season: 2025
+theatre: Bold City Opera
+venue: Craig Lounge
+season: 2025
 date: 2025-09-16T21:40:14-04:00
 opening_date: 2025-10-10
 closing_date: 2025-10-12
@@ -16,8 +16,8 @@ featured_image_caption: 'Bold City Opera brings Gian Carlo Menotti’s haunting 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.boldcityopera.org/the-medium
-Tickets: https://www.eventbrite.com/cc/the-medium-4603603?utm_source=jaxplays&utm_medium=web&utm_campaign=tickets
+website: https://www.boldcityopera.org/the-medium
+tickets: https://www.eventbrite.com/cc/the-medium-4603603?utm_source=jaxplays&utm_medium=web&utm_campaign=tickets
 show_details: 
 - Librettist: "[[w:Gian Carlo Menotti]]"
 cast:
@@ -36,11 +36,11 @@ crew:
   - Graphic Designer: Joel Bernkrant
 orchestra:
   - Pianist: Tim Tuller
-Genres:
+genres:
   - Opera
   - Drama
   - Psychological Thriller
-Description: "A chilling opera where a fraudulent séance spirals into paranoia, blurring the line between the supernatural and the psychological."
+description: "A chilling opera where a fraudulent séance spirals into paranoia, blurring the line between the supernatural and the psychological."
 ---
 *The Medium* by Gian Carlo Menotti is a two-act opera that explores themes of deception, fear, and the supernatural. The story centers on Madame Flora, also called Baba, a fraudulent medium who pretends to communicate with the spirits of the dead. She operates out of her parlor with the help of her daughter, Monica, and a mute servant, Toby. During a séance, a strange and shocking event occurs that suggests the presence of a real spirit. Fear and paranoia drive Baba to suspect Toby, and in a tragic climax, she shoots him when he sneaks back into the house to be with Monica.
 

@@ -7,15 +7,15 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2022-06-03
 closing_date: 2022-06-19
-Theatre: Players by the Sea
+theatre: Players by the Sea
 show_details:
 - Writer: "[[w:August Wilson]]"
-Genres: 
+genres: 
 - Play
 - Drama
 - African American Literature
 - Historical Fiction
-Tickets: https://web.ovationtix.com/trs/cal/34877?sitePreference=normal
+tickets: https://web.ovationtix.com/trs/cal/34877?sitePreference=normal
 showtimes:
 - 2022-06-03 20:00:00
 - 2022-06-04 20:00:00

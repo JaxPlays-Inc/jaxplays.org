@@ -14,10 +14,10 @@ show_details:
 - Theatre: 
 - Basis: 
 - Website: 
-Genres:
+genres:
   - Musical
   - Comedy
   - Romance
-Description: "Step into the Wild West with *Annie Get Your Gun*, a spirited musical that showcases the legendary sharpshooter Annie Oakley's rise to fame and her romantic rivalry."
+description: "Step into the Wild West with *Annie Get Your Gun*, a spirited musical that showcases the legendary sharpshooter Annie Oakley's rise to fame and her romantic rivalry."
 ---
 *Annie Get Your Gun* tells the tale of Annie Oakley, a backwoods woman whose skill with a rifle wins her a spot in Buffalo Bill's Wild West Show. Here, she meets and falls in love with Frank Butler, the show’s star marksman. As Annie's fame eclipses Frank's, their budding romance faces challenges, sparking a competitive duel of both egos and hearts. Featuring the iconic music of Irving Berlin, including classics like 'Anything You Can Do' and 'There's No Business Like Show Business,' this musical is an entertaining tribute to the charm and tenacity of the Old West.

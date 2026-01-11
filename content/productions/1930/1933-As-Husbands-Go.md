@@ -5,7 +5,7 @@ opening_date: 1933-11-14
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Ronald Derbyshire: Charles Luckie
 - Janke Canon: Drummond Paul, Jr.

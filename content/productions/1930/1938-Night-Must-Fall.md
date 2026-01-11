@@ -5,8 +5,8 @@ opening_date: 1938-12-06
 closing_date: 1938-12-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dora Parcoe: Agatha Smith
 - Mrs. Bramson: Dorothy Harlan

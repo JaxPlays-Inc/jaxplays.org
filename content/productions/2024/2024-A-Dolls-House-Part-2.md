@@ -1,7 +1,7 @@
 ---
 title: A Doll's House, Part 2
-Theatre: Limelight Theatre
-Venue: Koger-Gamache Studio Theatre
+theatre: Limelight Theatre
+venue: Koger-Gamache Studio Theatre
 date: 2024-06-16T18:07:13-04:00
 opening_date: 2024-05-16
 closing_date: 2024-06-02
@@ -25,8 +25,8 @@ featured_image_caption: Poster for A Doll's House Part 2
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/a-doll's-house-part-2
-Tickets: https://ci.ovationtix.com/34666/production/1197307
+website: https://www.limelight-theatre.org/season-32-shows-1/a-doll's-house-part-2
+tickets: https://ci.ovationtix.com/34666/production/1197307
 cast:
 - Nora: Kristi Parker Byers
 - Ann-Marie: Susan Nowell 

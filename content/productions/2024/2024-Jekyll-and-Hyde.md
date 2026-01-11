@@ -1,7 +1,7 @@
 ---
 title: Jekyll & Hyde
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 date: 2024-05-23T14:58:10
 opening_date: 2024-10-18
 closing_date: 2024-11-03
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-Jekyll-and-Hyde.pdf
-Website: 
-Tickets: https://ci.ovationtix.com/34877/production/1187115
+website: 
+tickets: https://ci.ovationtix.com/34877/production/1187115
 show_details: 
 cast:
   - Dr. Henry Jekyll/Edward Hyde: Cole Marshall

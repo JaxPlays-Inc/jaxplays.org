@@ -6,19 +6,19 @@ featured_image: Metropolitan-Park.webp
 featured_image_attr: City of Jacksonville
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     1410 Gator Bowl Blvd
     Jacksonville, FL 32202
-Latitude: 30.320947462095003
-Longitude: -81.64106886560499
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone:  
+latitude: 30.320947462095003
+longitude: -81.64106886560499
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone:  
 ---
 Metropolitan Park in Jacksonville, Florida, is a well-known public park located on the north bank of the St. Johns River. It opened in 1984, designed to serve as the city's premier urban waterfront park. Over the years, Metropolitan Park hosted a variety of major events and concerts, drawing both locals and visitors to its scenic riverfront views.
 

@@ -5,7 +5,7 @@ opening_date: 1933-12-12
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Sir Everard Marshall: Isaac Peiser
 - Ethel Standish: Louise Twitty

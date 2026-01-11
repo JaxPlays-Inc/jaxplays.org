@@ -2,8 +2,8 @@
 title: "Bat Boy: The Musical"
 aliases: 
   - /productions/2024-bat-boy/
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: John McManus Mainstage Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: John McManus Mainstage Theatre
 date: 2024-05-10T17:42:58
 opening_date: 2024-08-09
 closing_date: 2024-08-25
@@ -23,8 +23,8 @@ featured_image_caption: Poster for 'Bat Boy'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.eventbrite.com/e/bat-boy-the-musical-tickets-679820099217
+website: 
+tickets: https://www.eventbrite.com/e/bat-boy-the-musical-tickets-679820099217
 show_details: 
 cast:
   - Bat Boy: Ethan Edward Fisher

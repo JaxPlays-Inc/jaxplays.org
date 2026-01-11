@@ -6,8 +6,8 @@ approx_date: month
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Jerry Seymoure: E.S. Beauchamp-Nobbs
 - Mrs. Brown: Edythe Guernsey

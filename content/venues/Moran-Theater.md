@@ -11,17 +11,17 @@ featured_image: jaxcenterlogo.webp
 featured_image_attr: 
 featured_image_alt:
 featured_image_caption: 
-Founded: 
+founded: 
 disbanded:
-Address: |
+address: |
   300 Water Street
   Jacksonville FL 32202
-Latitude: 30.324962542375665
-Longitude: -81.6623223477845
-Socials: 
-  Facebook: Jaxperformingarts
-  Instagram: jaxperformingartscenter
-  Website: https://www.jacksonvillecenterfortheperformingarts.com/
-Press:
+latitude: 30.324962542375665
+longitude: -81.6623223477845
+socials: 
+  facebook: Jaxperformingarts
+  instagram: jaxperformingartscenter
+  website: https://www.jacksonvillecenterfortheperformingarts.com/
+press:
 ---
 The Moran Theater at the Jacksonville Center for the Performing Arts is a crown jewel in Jacksonville's cultural landscape. With its state-of-the-art acoustics and seating for over 3,000 guests, it's the go-to venue for an array of performances, from Broadway musicals and concerts to ballets and comedy shows. The theater provides an intimate experience without compromising on grandeur, making it a must-visit for any arts enthusiast.

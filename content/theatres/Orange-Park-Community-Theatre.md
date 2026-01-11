@@ -7,16 +7,16 @@ featured_image: Orange_Park_Community_Theatre.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 
-Address: |
+founded: 
+address: |
     2900 Moody Ave
     Orange Park, FL 32073
-Socials: 
-  Facebook: opctheatre
-  Twitter: OPCT
-  Instagram: Opctheatre
-  Website: https://www.opct.info
-Phone: 19042762599
+socials: 
+  facebook: opctheatre
+  twitter: OPCT
+  instagram: Opctheatre
+  website: https://www.opct.info
+phone: 19042762599
 color: "#FFA500"
 date: 2024-07-02T18:02:43-04:00
 donate: https://www.opct.info/?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

@@ -5,8 +5,8 @@ opening_date: 1983-03-13
 closing_date: 1983-03-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ben Rumson: Bill Petry
 - Jennifer Rumson: Nora Hoffman

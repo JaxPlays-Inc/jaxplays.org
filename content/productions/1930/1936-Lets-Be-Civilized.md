@@ -5,7 +5,7 @@ opening_date: 1936-03-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Winifred Enright: Edre Ferguson
 - Lady Wilton (Eva): Frances Blackwell

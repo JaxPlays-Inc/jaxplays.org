@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Charlie and the Chocolate Factory
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast:
   - Jonathan Van Dyke
   - Jake Ayres

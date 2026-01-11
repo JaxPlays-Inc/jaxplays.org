@@ -7,16 +7,16 @@ featured_image: Amelia_Community_Theatre.png
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 1981
-Address: |
+founded: 1981
+address: |
     207 Cedar St
     Fernandina Beach, FL 32034
-Socials:
-  Facebook: ameliacommunitytheatre
-  Twitter: ACTAmelia
-  Instagram: ameliacommunitytheatre
-  Website: https://www.ameliacommunitytheatre.org
-Phone: 19042616749
+socials:
+  facebook: ameliacommunitytheatre
+  twitter: ACTAmelia
+  instagram: ameliacommunitytheatre
+  website: https://www.ameliacommunitytheatre.org
+phone: 19042616749
 color: "#ac8c33"
 date: 2024-07-02T18:04:08-04:00
 donate: https://app.arts-people.com/index.php?contribute=act11&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

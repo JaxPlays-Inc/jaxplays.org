@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: nayda_marie
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  Backstage: nayda-marie-baez
+socials:
+  facebook: 
+  twitter: 
+  instagram: nayda_marie
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  backstage: nayda-marie-baez
 ---

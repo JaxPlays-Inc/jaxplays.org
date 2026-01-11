@@ -5,7 +5,7 @@ opening_date: 1928-12-19
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Jarman: Alberta Carlton
 - Alicia Romney: Anne C. Lalor

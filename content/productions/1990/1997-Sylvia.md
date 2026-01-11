@@ -5,8 +5,8 @@ opening_date: 1997-04-18
 closing_date: 1997-05-04
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sylvia: Jamie Vaughn
 - Gred: Greg Leute

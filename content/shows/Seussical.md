@@ -15,10 +15,10 @@ show_details:
 - Basis: The works of [[w:Dr. Seuss]]
 - Website: 
 # Seussical
-Genres:
+genres:
   - Musical
   - Fantasy
   - Family
-Description: "Dive into the whimsical world of Dr. Seuss in *Seussical*, where beloved characters and stories come to life in a spectacular and colorful musical adventure."
+description: "Dive into the whimsical world of Dr. Seuss in *Seussical*, where beloved characters and stories come to life in a spectacular and colorful musical adventure."
 ---
 *Seussical* weaves together many of Dr. Seuss's famous tales and characters in unexpected ways. From Horton the Elephant, who discovers a speck of dust containing the Whos, to the Cat in the Hat and Jojo, a boy with a big imagination, this musical explores themes of friendship, loyalty, and community. With its vibrant set and catchy tunes, 'Seussical' offers fun for the whole family and teaches us the power of being unique and the importance of fighting for your beliefs.

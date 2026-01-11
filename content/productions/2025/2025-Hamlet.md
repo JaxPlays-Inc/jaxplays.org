@@ -1,8 +1,8 @@
 ---
 title: Hamlet
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 
+theatre: The Island Theater
+venue: The Island Theater
+season: 
 date: 2025-05-07T09:44:25-04:00
 opening_date: 2025-05-22
 closing_date: 2025-06-01
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.theislandtheater.com/event-details/hamlet-2025-05-22-19-30
-Tickets: https://www.theislandtheater.com/event-details/hamlet-2025-05-22-19-30
+website: https://www.theislandtheater.com/event-details/hamlet-2025-05-22-19-30
+tickets: https://www.theislandtheater.com/event-details/hamlet-2025-05-22-19-30
 show_details: 
 cast:
 - Hamlet: 
@@ -64,6 +64,6 @@ crew:
 - Set Designer: Tricia Williams
 - Lighting Designer: Olivia Williams
 - Stage Manager: Allyson Norton
-Description: Hamlet is Shakespeare's most famous tragedy telling the tale of Hamlet, Prince of Denmark who has come home for his father's funeral to find his mother married to his uncle and murder in the air.
+description: Hamlet is Shakespeare's most famous tragedy telling the tale of Hamlet, Prince of Denmark who has come home for his father's funeral to find his mother married to his uncle and murder in the air.
 ---
 This production of Hamlet is conceptualized in a reimagined Dickens/Victorian world.

@@ -5,7 +5,7 @@ opening_date: 1937-05-25
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Duke Lambert: Allen Moreland
 - Grazia: Betty Perry

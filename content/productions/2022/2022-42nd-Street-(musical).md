@@ -11,9 +11,9 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=392
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+website: https://sales.alhambrajax.com/100/tickets.shows.html?playID=392
 showtimes:
 - 2022-05-12 12:00:00
 - 2022-05-12 18:00:00

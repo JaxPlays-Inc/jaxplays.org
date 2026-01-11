@@ -5,7 +5,7 @@ opening_date: 2006-04-21
 closing_date: 2006-05-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Lettice Douffet: Amy Johnson O'Connor

@@ -5,8 +5,8 @@ opening_date: 1945-03-02
 closing_date: 1945-03-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Elizabeth: Laurene T. Moore
 - Mr. Manningham: William Schosser

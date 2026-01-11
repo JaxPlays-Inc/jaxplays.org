@@ -5,7 +5,7 @@ opening_date: 1937-04-13
 closing_date: 1937-04-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Collins: H.V. Rocco
 - Donald Meadows: Will Shapiro

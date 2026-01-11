@@ -3,12 +3,12 @@ title: Erik DeCicco
 featured_image: Erik-DeCicco.webp
 featured_image_attr: 
 featured_image_attr_link: 
-Socials:
-  Facebook: erikdeciccoactor
-  LinkedIn: erik-decicco-66722577
-  IMDb: nm5979539
-  Website: https://erikdecicco.com/
-Press: 
+socials:
+  facebook: erikdeciccoactor
+  linkedin: erik-decicco-66722577
+  imdb: nm5979539
+  website: https://erikdecicco.com/
+press: 
 - "One of Us: Erik DeCicco is currently in AMC's docudrama 'The Making of the Mob: New York' | Florida Times-Union": https://www.jacksonville.com/story/entertainment/local/2015/06/16/one-us-erik-decicco-currently-appearing-joe-vilachi/15667367007/
 date: 2023-09-08T00:00:00-04:00
 ---

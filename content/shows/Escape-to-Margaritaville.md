@@ -17,7 +17,7 @@ show_details:
 genres:
 - Musical
 - Play
-Description: "Set sail to an island paradise where love, laughter and Jimmy Buffett tunes blend into the ultimate tropical escapade."
+description: "Set sail to an island paradise where love, laughter and Jimmy Buffett tunes blend into the ultimate tropical escapade."
 ---
 Escape to Margaritaville whisks you away to a vibrant island getaway where Tully, a charming part-time bartender and singer, meets Rachel, a workaholic environmental scientist. As their worlds collide, Tully’s laid-back island philosophy challenges Rachel's no-nonsense approach to life. Amidst a picturesque backdrop of sandy beaches and Buffett’s sun-soaked melodies, this musical offers a refreshing blend of heart, humor, and escapism. It’s a tantalizing taste of paradise where worries vanish, music thrives, and the margaritas are always flowing.
 

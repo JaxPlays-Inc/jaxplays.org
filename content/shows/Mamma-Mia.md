@@ -13,12 +13,12 @@ show_details:
     - Björn Ulvaeus
   - Book: "[[w:Catherine Johnson]]"
   - Website: https://mammamiathetour.com/
-Genres:
+genres:
   - Musical
   - Comedy
   - Romance
   - Jukebox Musical
-Description: "Get swept away by the sunny and spirited world of *Mamma Mia!*, where ABBA's greatest hits bring to life a heartwarming tale of love, laughter, and friendship."
+description: "Get swept away by the sunny and spirited world of *Mamma Mia!*, where ABBA's greatest hits bring to life a heartwarming tale of love, laughter, and friendship."
 ---
 Set on a picturesque Greek island, *Mamma Mia!* follows Sophie, a young bride-to-be, as she embarks on a quest to discover the identity of her father. Inviting three of her mother's past lovers to her wedding, hilarity and chaos ensue. With iconic songs like 'Dancing Queen,' 'Take a Chance on Me,' and 'Super Trouper,' this feel-good musical weaves together romance, family secrets, and the magic of ABBA's timeless music. As the story unfolds, it celebrates the bonds of family and the enduring joy of love and friendship, leaving audiences dancing in the aisles.
 

@@ -1,8 +1,8 @@
 ---
 title: Another Sunrise & For a Look or a Touch
-Theatre: Bold City Opera
-Venue: St. John's Cathedral
-Season: 
+theatre: Bold City Opera
+venue: St. John's Cathedral
+season: 
 date: 2024-09-19T12:06:34-04:00
 opening_date: 2025-01-31
 closing_date: 2025-02-01
@@ -15,8 +15,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.boldcityopera.org/bluebeardscastle
-Tickets: https://www.boldcityopera.org/tickets
+website: https://www.boldcityopera.org/bluebeardscastle
+tickets: https://www.boldcityopera.org/tickets
 show_details: 
 cast:
 - Another Sunrise, Krystyna Zywulska: Marilyn Sharp
@@ -30,7 +30,7 @@ genres:
 - Opera
 - Drama
 - English language
-Description: "Experience two poignant operas that delve into the heartrending stories of Holocaust survivors, exploring themes of memory, identity and the indelible human spirit."
+description: "Experience two poignant operas that delve into the heartrending stories of Holocaust survivors, exploring themes of memory, identity and the indelible human spirit."
 ---
 *Another Sunrise* begins with Krystyna Zywulska, a Holocaust survivor grappling with her past as she attempts to recount her experiences on a tape recorder. Once a prisoner forced to work at Auschwitz, she recalls the unbearable choices she had to make to survive. Her narrative is a stark reminder of the horrors faced and the personal cost of survival, colored by the profound guilt of outliving those she loved.
 

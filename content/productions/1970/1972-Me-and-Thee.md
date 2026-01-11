@@ -5,8 +5,8 @@ opening_date: 1972-04-28
 closing_date: 1972-05-13
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alice Carter: Sabina Meyer
 - Paul Carter: Bill Harriman

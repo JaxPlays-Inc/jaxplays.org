@@ -1,8 +1,8 @@
 ---
 title: "Jason Woods A Christmas Carol"
-Theatre: Jason Woods Productions
-Venue: Wharf Main Stage
-Season: 
+theatre: Jason Woods Productions
+venue: Wharf Main Stage
+season: 
 date: 2024-11-28T19:13:28-05:00
 opening_date: 2024-12-13
 closing_date: 2024-12-13
@@ -14,14 +14,14 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.ameliaisland.com/itineraries/dickens-on-centre-weekend-getaway/#one-man-show
-Tickets: 
+website: https://www.ameliaisland.com/itineraries/dickens-on-centre-weekend-getaway/#one-man-show
+tickets: 
 show_details: 
 cast:
 - Scrooge et al.: Jason Woods
 crew:
 orchestra:
-Press:
+press:
   - "One of Us: Jason Woods performs one-man version of 'A Christmas Carol' each December": https://www.jacksonville.com/story/news/2016/12/05/one-us-jason-woods-performs-one-man-version-christmas-carol-each-december/15734700007/
 ---
 ## Admission and Parking

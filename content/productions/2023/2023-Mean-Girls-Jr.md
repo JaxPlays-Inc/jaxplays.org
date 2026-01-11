@@ -1,7 +1,7 @@
 ---
 title: Mean Girls JR.
-Theatre: The Island Theater
-Venue: The Island Theater
+theatre: The Island Theater
+venue: The Island Theater
 date: 2023-09-08T00:00:00
 opening_date: 2023-06-18
 closing_date: 2023-06-22
@@ -15,8 +15,8 @@ featured_image_caption: Poster for Mean Girls Jr.
 featured_image_attr: The Island Theater
 featured_image_attr_link: 
 program:
-Website: https://www.theislandtheater.com/mean-girls-junior
-Tickets: 
+website: https://www.theislandtheater.com/mean-girls-junior
+tickets: 
 show_details: 
 - Music: "[[w:Jeff Richmond]]"
 - Lyrics: "[[w:Nell Benjamin]]"
@@ -49,10 +49,10 @@ crew:
 - Choreographer: Jasmine Bruce 
 - Stage Manager: Stephanie Navarro
 orchestra:
-Genres:
+genres:
   - Comedy
   - Musical
   - Teen Drama
-Description: "Cady Heron finds herself navigating the perilous social labyrinth of American high school when she moves from Africa. Armed with wit and advice from her new friends, she takes on The Plastics, the A-list queen bees."
+description: "Cady Heron finds herself navigating the perilous social labyrinth of American high school when she moves from Africa. Armed with wit and advice from her new friends, she takes on The Plastics, the A-list queen bees."
 ---
 Cady Heron may have grown up on an African savanna, but nothing prepared her for the wild and vicious ways of her strange new home: suburban Illinois. How will this naïve newbie rise to the top of the popularity pecking order? By taking on The Plastics, a trio of lionized frenemies led by the charming but ruthless Regina George. But when Cady and her friends devise a "Revenge Party" to end Regina’s reign, she learns the hard way that you can’t cross a Queen Bee without getting stung.

@@ -6,14 +6,14 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/ 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: ceterajfitness
-  LinkedIn: cetera-bunche-464245178
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: ceterajfitness
+  linkedin: cetera-bunche-464245178
+  ibdb: 
+  imdb:
+  website: 
 ---
 Faith. Family. Fitness. Football. Food. Fashion.
 

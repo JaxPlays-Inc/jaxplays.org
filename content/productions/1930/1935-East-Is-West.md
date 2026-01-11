@@ -5,7 +5,7 @@ opening_date: 1935-01-29
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Lo Sang Kee: Allen Moreland
 - Mildred Benson: Marion Armington

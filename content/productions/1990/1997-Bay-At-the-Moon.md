@@ -5,8 +5,8 @@ opening_date: 1997-01-17
 closing_date: 1997-02-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Daddy: Tom Nehl
 - Ava Louise: Simone Aden-Reid

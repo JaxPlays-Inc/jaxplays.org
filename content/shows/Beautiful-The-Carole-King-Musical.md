@@ -12,11 +12,11 @@ show_details:
     - Barry Man
     - Cynthia Weil
   - Basis: The songs of Carole King
-Genres:
+genres:
   - Musical
   - Biography
   - Drama
-Description: "Journey through the tapestry of Carole King's extraordinary rise to stardom, from talented teenager to celebrated songwriter and performer. 'Beautiful' tells the inspiring true story of King's remarkable journey, underscored by the soundtrack of a generation."
+description: "Journey through the tapestry of Carole King's extraordinary rise to stardom, from talented teenager to celebrated songwriter and performer. 'Beautiful' tells the inspiring true story of King's remarkable journey, underscored by the soundtrack of a generation."
 ---
 'Beautiful' unfolds the story of Carole King's early life and career as one of the most successful solo acts in popular music history. From writing chart-topping hits for the biggest acts in rock 'n' roll to her own transformation into a superstar, the musical is a testament to King's enduring legacy and the music that shaped a generation. Featuring classics like 'You've Got a Friend,' 'So Far Away,' 'Will You Love Me Tomorrow,' and 'Natural Woman,' this uplifting musical chronicles King's struggles and triumphs, celebrating the power of music to connect and heal.
 

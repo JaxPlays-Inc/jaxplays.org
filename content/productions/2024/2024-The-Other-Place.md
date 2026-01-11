@@ -1,7 +1,7 @@
 ---
 title: The Other Place
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Grace Darling Studio Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: Grace Darling Studio Theatre
 date: 2024-05-10T17:42:58
 opening_date: 2024-06-07
 closing_date: 2024-06-23
@@ -21,8 +21,8 @@ featured_image_caption: Poster for 'The Other Place'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.eventbrite.com/e/the-other-place-by-sharr-white-tickets-679815816407
+website: 
+tickets: https://www.eventbrite.com/e/the-other-place-by-sharr-white-tickets-679815816407
 show_details: 
 - Playwright: Sharr White
 cast:
@@ -33,11 +33,11 @@ cast:
 crew:
 - Director: Michael Lipp
 orchestra:
-Genres:
+genres:
 - Play
 - Drama
 - Thriller
 - Mystery
-Description: "When the mind deceives, reality becomes the ultimate illusion."
+description: "When the mind deceives, reality becomes the ultimate illusion."
 ---
 In a world where certainty crumbles, Juliana, a brilliant neurologist, finds herself caught between what she knows and what she feels. As she navigates a labyrinth of elusive truths, the play becomes a complex puzzle of identity, illness, and deception.

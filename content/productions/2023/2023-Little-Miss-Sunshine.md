@@ -12,13 +12,13 @@ genres:
 - Musical
 - Comedy
 - Drama
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 show_details:
 - Book: James Lapine
 - Music: William Finn
 - Lyrics: William Finn
-Tickets: https://ci.ovationtix.com/34666
+tickets: https://ci.ovationtix.com/34666
 showtimes:
 - 2023-05-11 19:30:00
 - 2023-05-12 19:30:00

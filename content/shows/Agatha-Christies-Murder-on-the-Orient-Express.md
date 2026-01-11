@@ -7,10 +7,10 @@ featured_image_attr: Concord Theatricals
 show_details: 
 - Playwright: "[[w:Agatha Christie]]"
 - Basis: "*[[w:Murder on the Orient Express]]* by Agatha Christie"
-Genres:
+genres:
   - Play
   - Mystery
   - Drama
-Description: "Board the luxurious Orient Express where famed detective Hercule Poirot faces a puzzling murder, with every passenger a potential suspect."
+description: "Board the luxurious Orient Express where famed detective Hercule Poirot faces a puzzling murder, with every passenger a potential suspect."
 ---
 *Agatha Christie's Murder on the Orient Express* brings to life the classic tale of intrigue and suspense. Set aboard the opulent transcontinental train, the play begins with an unexpected snowdrift that halts its journey through Europe. The tranquility is shattered when a notorious businessman is found dead in his compartment, stabbed multiple times. Enter Hercule Poirot, the meticulous and brilliant detective, who must navigate a web of red herrings and uncover secrets from his fellow passengers to solve the crime before the murderer strikes again.

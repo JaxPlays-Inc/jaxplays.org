@@ -14,10 +14,10 @@ show_details:
 - Basis: 
 - Website: 
 # Annie
-Genres:
+genres:
   - Musical
   - Family
   - Comedy
-Description: "Experience the heartwarming tale of *Annie*, a plucky orphan who wins everyone's hearts despite a hard-knock life in 1930s New York City."
+description: "Experience the heartwarming tale of *Annie*, a plucky orphan who wins everyone's hearts despite a hard-knock life in 1930s New York City."
 ---
 Annie, a resilient and optimistic orphan living in a miserable orphanage run by the tyrannical Miss Hannigan, dreams of life outside its walls. Her fortune changes when she is chosen to spend a Christmas holiday at the residence of the wealthy industrialist Oliver Warbucks. Warbucks grows fond of Annie and helps her in her quest to find her real parents. Along the way, Annie foils Miss Hannigan's evil machinations and even influences the course of the nation. Featuring iconic songs like 'Tomorrow' and 'It's the Hard Knock Life.'

@@ -1,8 +1,8 @@
 ---
 title: Peter Pan
-Theatre: Jason Woods Productions
-Venue: Christ Church Ponte Vedra Beach
-Season: 
+theatre: Jason Woods Productions
+venue: Christ Church Ponte Vedra Beach
+season: 
 date: 2024-09-18T10:38:37-04:00
 opening_date: 2016-04-13
 closing_date: 2016-04-24
@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr:
 featured_image_attr_link: 
 program:
-Website: https://web.archive.org/web/20160318132624/https://readyforneverland.com/
-Tickets: 
+website: https://web.archive.org/web/20160318132624/https://readyforneverland.com/
+tickets: 
 show_details: 
 - Music: Jason Woods
 - Lyrics: Jason Woods
@@ -155,11 +155,11 @@ crew:
   - Chistoher Stam
 orchestra:
 genres: 
-Description: 
-Reviews:
+description: 
+reviews:
 - "Be transported to the fantasy world of “PETER PAN” | EU Jacksonville / Folio Weekly": https://folioweekly.com/staging/2016/04/17/be-transported-to-the-fantasy-world-of-peter-pan/
 - "Heartfelt Review of Jason Woods Peter Pan Adaptation | Metro Jacksonville": https://web.archive.org/web/20160427062710/http://www.metrojacksonville.com/article/2016-apr-heartfelt-review-of-jason-woods-peter-pan-adaptation
 - "Away To Neverland: Jason Wood's adaptation of Peter Pan is truly a magical adventure. | The Odyssey Online": https://www.theodysseyonline.com/ready-for-neverland
-Press:
+press:
 - "04/13/16: ICARE; Hip Anthroplasty; Lavilla School Of The Arts Opera; 'Peter Pan' | First Coast Connect / WJCT News 89.9": https://news.wjct.org/first-coast-connect/2016-04-13/04-13-16-icare-hip-anthroplasty-lavilla-school-of-the-arts-opera-peter-pan
 ---

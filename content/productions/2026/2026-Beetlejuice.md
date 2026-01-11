@@ -1,10 +1,10 @@
 ---
 title: Beetlejuice
 subtitle: The Musical. The Musical. The Musical. 
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Season: "2025/2026"
+venue: Moran Theater
+season: "2025/2026"
 date: 2025-03-25T09:31:20-04:00
 opening_date: 2026-05-12
 closing_date: 2026-05-17
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.fscjartistseries.org/
+website: 
+tickets: https://www.fscjartistseries.org/
 cast:
 crew:
 orchestra:
@@ -33,11 +33,11 @@ show_details:
   - Lyrics: "Eddie Perfect"
   - Book: "[[w:Scott Brown (writer)|Scott Brown]], [[w:Anthony King (writer)|Anthony King]]"
   - Basis: "Based on the film *[[w:Beetlejuice]]* by [[w:Tim Burton]]"
-Genres:
+genres:
   - Musical
   - Comedy
   - Fantasy
-Description: "A mischievous ghost causes chaos when a teen enlists his help to scare away her new home's inhabitants, leading to uproarious and darkly whimsical antics."
+description: "A mischievous ghost causes chaos when a teen enlists his help to scare away her new home's inhabitants, leading to uproarious and darkly whimsical antics."
 ---
 Lydia Deetz, an unusual teenager, encounters Beetlejuice, a wild ghost from the Netherworld, when her family moves into a haunted house. As they try to frighten away the living occupants, their antics spiral out of control. The musical expands on the film's iconic elements with spectacular stage effects, raucous humor and catchy songs, capturing the heart and spirit of Tim Burton’s original creation while exploring themes of life, death and the afterlife in unexpected and hilarious ways.
 

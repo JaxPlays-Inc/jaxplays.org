@@ -1,8 +1,8 @@
 ---
 title: "Beautiful: The Carole King Musical"
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2025
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2025
 date: 2025-03-05T17:59:18-05:00
 opening_date: 2025-04-03
 closing_date: 2025-05-11
@@ -58,8 +58,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Beautiful-The-Carole-King-Musical.pdf
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1484&code=JAXPLAYS
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1484&code=JAXPLAYS
 show_details: 
 cast:
 - Carole King: Rachel Ann Kocher
@@ -143,7 +143,7 @@ understudies:
 - Shirelle: Sierra Rusnak
 - Lucille: Sierra Rusnak
 genres: 
-Description: 
-Press:
+description: 
+press:
 - "Join the musical ride that is Beautiful | The Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/join-the-musical-ride-that-is-beautiful,122522
 ---

@@ -7,8 +7,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-07-17
 closing_date: 2020-08-08
 category: musical
-Theatre: Players by the Sea
-Website: https://www.playersbythesea.org/hunchback-of-notre-dame
+theatre: Players by the Sea
+website: https://www.playersbythesea.org/hunchback-of-notre-dame
 show_details:
 - Music: "[[w:Alan Menken]]"
 - Lyrics: "[[w:Stephen Schwartz]]"

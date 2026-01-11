@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: logen.cheatham
-  Twitter: 
-  Instagram: logencheatham
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm15842104
-  Website: 
-  Backstage: logen-cheatham
+socials:
+  facebook: logen.cheatham
+  twitter: 
+  instagram: logencheatham
+  linkedin: 
+  ibdb: 
+  imdb: nm15842104
+  website: 
+  backstage: logen-cheatham
 ---
 Logen is a graduate from Florida School of the Arts and recently filmed a Hallmark movie, *All I Want for Christmas Is You*, airing winter 2024. She has previously been seen in *The Wizard of Oz* and *[[production:2024 Escape to Margaritaville|Escape to Margaritaville]]*.

@@ -1,7 +1,7 @@
 ---
 title: Dracula
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 opening_date: 2025-10-10
 closing_date: 2025-10-25
 showtimes:
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: https://www.AmeliaCommunityTheatre.org
-Tickets: https://app.arts-people.com/index.php?ticketing=act11
+website: https://www.AmeliaCommunityTheatre.org
+tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
   - Playwrights: 
     - "[[w:Hamilton Deane]]"
@@ -46,12 +46,12 @@ crew:
   - Set Construction Chief: Steve Powers
   - Lights & Sound: Brett Barnett
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Horror
   - Mystery
-Description: "Amelia Community Theatre presents Bram Stoker's vampire play, 'Dracula', in a classic adaptation by playwrights Deane and Balderston."
+description: "Amelia Community Theatre presents Bram Stoker's vampire play, 'Dracula', in a classic adaptation by playwrights Deane and Balderston."
 ---
  The play is set in England at Dr. Seward’s sanitarium and residence where the renowned Van Helsing has arrived to investigate the mysterious illness that has weakened Seward’s daughter Lucy.    Lucy’s fiancé Harker travels from London to help, and the new neighbor, Count Dracula, shows up unexpectedly, also expressing concern for Lucy.   As suspicions about Dracula increase, a battle plan between good and evil is set in motion.
  

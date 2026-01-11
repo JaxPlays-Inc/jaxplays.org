@@ -5,7 +5,7 @@ opening_date: 1923-01-30
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Inspector: A. L. Dawson
 - Lucile:

@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: BABSLABatCoRK 
-  Instagram: babslabatcork
-  LinkedIn: barbaracolaciello
-  YouTube: interactbw
-  Website: https://www.barbaracolaciello.com/barbaracolaciellobio
+socials:
+  facebook: BABSLABatCoRK 
+  instagram: babslabatcork
+  linkedin: barbaracolaciello
+  youtube: interactbw
+  website: https://www.barbaracolaciello.com/barbaracolaciellobio
 ---
 Barbara Colaciello brings a rich tapestry of experiences to her roles as an actress, director, playwright, and educator. Her career began in New York City, where she worked with Andy Warhol at the Factory as the Advertising Director of Interview Magazine. During this period, she continued her acting studies with acclaimed coaches Larry Moss and Peter Flood, and at Warren Robertson’s studio.
 

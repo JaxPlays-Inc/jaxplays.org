@@ -9,14 +9,14 @@ featured_image: St_Marys_Little_Theatre.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Address: |
+address: |
   1000 Osborne Street
   St. Marys, GA
-Socials:
-  Facebook: StMarysLittleTheatre
-  YouTube: UCaSfmCnHH3rUiEnI6GbV7Sg
-  Website: https://www.stmaryslittletheatre.com
-Phone: 19542909873
+socials:
+  facebook: StMarysLittleTheatre
+  youtube: UCaSfmCnHH3rUiEnI6GbV7Sg
+  website: https://www.stmaryslittletheatre.com
+phone: 19542909873
 color: "#122851"
 date: 2024-07-02T18:02:34-04:00
 donate: https://www.stmaryslittletheatre.com/collections/support?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

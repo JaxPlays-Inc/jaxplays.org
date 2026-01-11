@@ -1,8 +1,8 @@
 ---
 title: Fiddler on the Roof
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-06-15T22:02:37-04:00
 opening_date: 2024-11-08
 closing_date: 2024-11-17
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
   - Tevye:
@@ -103,5 +103,5 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

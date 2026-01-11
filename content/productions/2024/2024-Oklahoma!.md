@@ -1,7 +1,7 @@
 ---
 title: Oklahoma!
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-02-22
 opening_date: 2024-02-22
 closing_date: 2024-03-31
@@ -55,8 +55,8 @@ featured_image_caption: Poster for 'Ohlahoma!'
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1455&code=WWW&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1455&code=WWW&qty_target=0
 show_details: 
 cast:
 - Aunt Eller: Patti Eyler
@@ -113,9 +113,9 @@ crew:
   - Dante Gathings
   - Thaddaeus Walker
 orchestra:
-Reviews: 
+reviews: 
 - "Cain’t Say No to OKLAHOMA! at the Alhambra | Folio Weekly": https://folioweekly.com/2024/02/24/caint-say-no-to-oklahoma-at-the-alhambra/
-Press:
+press:
 - "OKLAHOMA! to be Presented at Alhambra Theatre & Dining This Month | BroadwayWorld": https://web.archive.org/web/20240216222150/https://www.broadwayworld.com/jacksonville/article/OKLAHOMA-to-be-Presented-at-Alhambra-Theatre-Dining-This-Month-20240216
 ---
 

@@ -7,13 +7,13 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-06-11
 closing_date: 2020-07-26
 category: musical
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 show_details:
 - Music: "[[w:Richard Rodgers]]"
 - Lyrics: "[[w:Oscar Hammerstein II]]"
 - Book: Oscar Hammerstein II
 - Basis: "[[w:Cinderella]] by [[w:Charles Perrault]]"
-Website: https://www.alhambrajax.com/show/cinderella/
+website: https://www.alhambrajax.com/show/cinderella/
 showtimes:
 - 2020-06-11 11:00:00
 - 2020-06-11 17:30:00

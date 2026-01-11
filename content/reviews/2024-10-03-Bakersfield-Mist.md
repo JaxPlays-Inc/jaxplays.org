@@ -9,7 +9,7 @@ featured_image_attr_link: https://glomacphotoarts.com/
 authors: 
 - Ray Hollister
 production: 2024 Bakersfield Mist
-Theatre: A Classic Theatre
+theatre: A Classic Theatre
 cast: 
 - Michale Lipp
 - Nancy Grote

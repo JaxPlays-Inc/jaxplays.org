@@ -13,14 +13,14 @@ genres:
 - Drama
 - Existentialism
 - Dark comedy
-Description: "*No Exit* is a psychological drama that delves into the eternal torment of three souls trapped in a windowless room. Written by Jean-Paul Sartre, the play explores themes of existential despair and the human condition, encapsulated in the famous line, \"Hell is other people.\""
-Theatre: Lumen Repertory Theatre
-Venue: Swisher Theater
+description: "*No Exit* is a psychological drama that delves into the eternal torment of three souls trapped in a windowless room. Written by Jean-Paul Sartre, the play explores themes of existential despair and the human condition, encapsulated in the famous line, \"Hell is other people.\""
+theatre: Lumen Repertory Theatre
+venue: Swisher Theater
 show_details:
 - Based on: Huis Clos by Jean Paul Sartre
 - Adapted by: Brian Niece*
-Website: https://www.lumenrep.org/shows/noexit
-Tickets: https://noexit.eventbrite.com/
+website: https://www.lumenrep.org/shows/noexit
+tickets: https://noexit.eventbrite.com/
 showtimes:
 - 2023-07-28 19:30:00
 - 2023-07-29 19:30:00
@@ -70,7 +70,7 @@ photos:
   photo_alt: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal
   photo_caption: Kathryn Kuhn, Josh Andrews, Kate McManus and Jeff Drushal (left to
     right)
-Press:
+press:
 - "Jail health care; UF architecture program; Barbie; Lumen Repertory Theatre | WJCT News 89.9": https://news.wjct.org/show/first-coast-connect/2023-07-27/first-coast-connect-armor-health-uf-architecture-barbie
 ---
 Step into the captivating world of *No Exit*, a thought-provoking and illuminating take on the timeless existential tale. This extraordinary production invites you to explore the depths of the human psyche as three recently deceased guests find themselves unexpectedly gathered in a single room within the depths of hell. But this is no ordinary room; it is a place where the true nature of existence is exposed, where the veil of pretense is stripped away, and where the souls of these co-residents must confront their own inner demons.

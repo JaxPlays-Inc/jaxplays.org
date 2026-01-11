@@ -5,8 +5,8 @@ opening_date: 1979-12-14
 closing_date: 1979-12-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dede Cooper: Sabina Meyer
 - Bella Gardner: Nancy Kaye

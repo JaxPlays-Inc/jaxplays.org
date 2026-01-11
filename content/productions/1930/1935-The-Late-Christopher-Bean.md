@@ -5,7 +5,7 @@ opening_date: 1935-11-11
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Haggett: Aileen Owen Hunter
 - Dr. Haggett: Frank Heintz

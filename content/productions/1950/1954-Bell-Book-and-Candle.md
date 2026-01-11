@@ -5,8 +5,8 @@ opening_date: 1954-01-13
 closing_date: 1954-01-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Gillian Holroyd: Virginia Grimes
 - Miss Holroyd: Elizabeth Reed

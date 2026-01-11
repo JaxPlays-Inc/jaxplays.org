@@ -6,16 +6,16 @@ company_type: Community
 featured_image: Apex-Theatre-Studio.webp
 featured_image_alt: "Logo of Apex Theatre Studio, featuring a simple and modern design with the name 'APEX' in bold white letters on a vibrant red background, accompanied by a multicolored stripe on the left side, representing the studio's dynamic and creative approach to theatre."
 featured_image_caption: "Logo of Apex Theatre Studio" 
-Founded: 2013
-Address: |
+founded: 2013
+address: |
     425 West Town Place, Unit 112
     St. Augustine, FL 32092
-Socials:
-  Facebook: apextheatrejax
-  Twitter: apextheatrejax
-  Instagram: apextheatrejax
-  Website: http://www.apextheatrejax.com
-Phone: 
+socials:
+  facebook: apextheatrejax
+  twitter: apextheatrejax
+  instagram: apextheatrejax
+  website: http://www.apextheatrejax.com
+phone: 
 color: "#ea4748"
 date: 2024-07-02T18:04:02-04:00
 donate: https://www.apextheatrejax.com/donate/?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

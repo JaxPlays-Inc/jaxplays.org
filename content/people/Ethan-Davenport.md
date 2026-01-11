@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: ethanadavenport
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm14656123
-  Backstage: ethan-davenport
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: ethanadavenport
+  linkedin: 
+  ibdb: 
+  imdb: nm14656123
+  backstage: ethan-davenport
+  website: 
 ---

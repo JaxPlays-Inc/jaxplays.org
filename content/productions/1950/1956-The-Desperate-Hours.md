@@ -5,8 +5,8 @@ opening_date: 1956-06-06
 closing_date: 1956-06-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Tom Winston: Albert Elian
 - Dutch's Voice: Randy Liles

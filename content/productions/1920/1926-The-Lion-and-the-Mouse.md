@@ -1,8 +1,8 @@
 ---
 title: "The Lion and the Mouse"
-Theatre: The Hazel Burgess Players
-Venue: Duval Theatre
-Season: 
+theatre: The Hazel Burgess Players
+venue: Duval Theatre
+season: 
 date: 2025-05-11T19:56:39-04:00
 opening_date: 1926-01-19
 closing_date: 1926-01-23
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 1926-The-Lion-and-the-Mouse.pdf
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Playwright: Charles Klein
 cast:
@@ -40,11 +40,11 @@ crew:
 orchestra:
 show_details: 
   - Playwright: "[[w:Charles Klein (playwright)|Charles Klein]]"
-Genres:
+genres:
   - Play
   - Drama
   - Political
-Description: "A young woman takes on a ruthless millionaire in this early 20th-century drama about corruption, justice and the power of public opinion."
+description: "A young woman takes on a ruthless millionaire in this early 20th-century drama about corruption, justice and the power of public opinion."
 ---
 *The Lion and the Mouse* follows Shirley Rossmore, the daughter of a judge who’s been unfairly removed from the bench by the influence of John Burkett Ryder, the wealthiest man in the country. Determined to restore her father’s honor, Shirley secretly writes a novel that exposes Ryder’s abuses of power, gaining public support and turning the tide against him. As her identity is revealed and moral dilemmas mount, Shirley’s courage and integrity are tested. 
 

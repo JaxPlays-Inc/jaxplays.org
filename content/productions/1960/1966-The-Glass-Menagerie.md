@@ -5,8 +5,8 @@ opening_date: 1966-01-07
 closing_date: 1966-01-18
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Mother: Julie Haydon
 - The Son: Michael Hall

@@ -8,7 +8,7 @@ featured_image_alt: "Actors in colorful costumes on stage in a scene from Rudolp
 authors: 
 - Amber Hollister
 production: 2024 Rudolph The Red-Nosed Reindeer The Musical
-Theatre: Florida Theatre
+theatre: Florida Theatre
 cast: 
 description: "With vibrant costumes, inventive puppetry and a heartwarming story of acceptance and individuality, this holiday spectacular captivates audiences of all ages."
 override_dates: "Monday, November 11"

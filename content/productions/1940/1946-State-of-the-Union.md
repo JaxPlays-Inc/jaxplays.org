@@ -5,8 +5,8 @@ opening_date: 1946-10-18
 closing_date: 1946-10-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bellboy: Lindner Smith, Jr.
 - Grant Matthews: Walter Churchill

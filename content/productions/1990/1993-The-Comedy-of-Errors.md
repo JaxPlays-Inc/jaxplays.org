@@ -5,8 +5,8 @@ opening_date: 1993-01-01
 closing_date: 1993-12-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Solinus: Mark Snitzer
 - Egeon: Ken Loos

@@ -5,8 +5,8 @@ opening_date: 1949-02-25
 closing_date: 1949-03-04
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bank Messenger: Harvard Eubanks, Jr.
 - Dr. Glass: Elmo Lehman

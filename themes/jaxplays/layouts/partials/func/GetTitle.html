@@ -2,7 +2,7 @@
 {{ if eq .Type "productions" }}
   {{ with .Title }}{{ . }} | {{ end }}
   {{ with .Params.theatre }}{{ . }} | {{ end }}
-  {{ .Site.Title }}: {{ .Site.Params.Tagline }}
+  {{ .Site.Title }}: {{ .Site.Params.tagline }}
 {{ else }}
-    {{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}: {{ .Site.Params.Tagline }}
+    {{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}: {{ .Site.Params.tagline }}
 {{ end }}

@@ -5,11 +5,11 @@ featured_image: Kaylee-Byers-02.webp
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  YouTube: "@zube_showz"
-  Instagram: zube.showz
-  Website: https://kayleebyersactor.carrd.co/
-  Backstage: kaylee-byers
+socials:
+  youtube: "@zube_showz"
+  instagram: zube.showz
+  website: https://kayleebyersactor.carrd.co/
+  backstage: kaylee-byers
 photos:
 - photo: ../../../../../media/photos/Kaylee-Byers-01.webp
   photo_attr: 

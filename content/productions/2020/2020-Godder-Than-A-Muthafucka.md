@@ -8,14 +8,14 @@ featured_image: 2020_Godder_Than_A_Muthafucka.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Genres: 
+genres: 
 - Play
 - Performance Art
 - Social Commentary
-Venue: 1904 Music Hall
+venue: 1904 Music Hall
 show_details:
 - Writer: Ebony Payne-English
-Website: http://www.ebonypayneenglish.com/
+website: http://www.ebonypayneenglish.com/
 showtimes:
 - 2020-02-23 19:00:00
 cast:

@@ -3,14 +3,14 @@ title: Jas Abramowitz
 featured_image: Jas-Abramowitz.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
-Socials:
-  Facebook: poetryjazzman
-  Twitter: jasabramowitz
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm7004545
-  Website: 
+socials:
+  facebook: poetryjazzman
+  twitter: jasabramowitz
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm7004545
+  website: 
 date: 2023-09-08T00:00:00-04:00
 ---
 Hailing from Overland Park, KS, Jas Ambramowitz moved to Jacksonville in 2015 after a stint in Chicago. Since relocating, Jas has appeared in various films, plays, and TV shows, including a recent role at Theatre Jacksonville in *Doubt*. 

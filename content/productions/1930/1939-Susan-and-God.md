@@ -5,8 +5,8 @@ opening_date: 1939-10-24
 closing_date: 1939-10-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Barrie Trexel: James Lumpkin
 - Blossom Trexel: Shirley Argo

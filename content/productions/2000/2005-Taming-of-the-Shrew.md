@@ -5,7 +5,7 @@ opening_date: 2005-09-04
 closing_date: 2005-10-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Lucentio: Co'Relous Bryant

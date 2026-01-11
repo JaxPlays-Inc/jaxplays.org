@@ -7,16 +7,16 @@ featured_image: Theatre_Jacksonville.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 1919
-Address: |
+founded: 1919
+address: |
   2032 San Marco Blvd
   Jacksonville, FL 32207
-Socials:
-  Facebook: TheatreJacksonville
-  Twitter: TheatreJax
-  Instagram: theatrejacksonville
-  Website: https://www.theatrejax.com
-Phone: 19043964425
+socials:
+  facebook: TheatreJacksonville
+  twitter: TheatreJax
+  instagram: theatrejacksonville
+  website: https://www.theatrejax.com
+phone: 19043964425
 color: "#687e6a"
 date: 2024-07-02T18:02:08-04:00
 donate: https://www.theatrejax.com/give?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

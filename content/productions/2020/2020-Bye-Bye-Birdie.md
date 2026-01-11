@@ -8,8 +8,8 @@ featured_image: 2020_Bye_Bye_Birdie.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Christ Episcopal Church
-Website: https://www.christepiscopalchurch.org/event/bye-bye-birdie/
+theatre: Christ Episcopal Church
+website: https://www.christepiscopalchurch.org/event/bye-bye-birdie/
 showtimes:
 - 2020-02-27 19:00:00
 - 2020-02-28 19:00:00

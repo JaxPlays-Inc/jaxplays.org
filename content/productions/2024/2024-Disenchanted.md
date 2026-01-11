@@ -1,7 +1,7 @@
 ---
 title: Disenchanted!
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: 
+theatre: ABET - All Beaches Experimental Theatre
+venue: 
 - Grace Darling Studio Theatre
 - Matuza Mainstage
 date: 2024-01-12
@@ -26,9 +26,9 @@ featured_image_caption: Cast Poster for Disenchanted!
 featured_image_attr: Graphic design by Jon Scherf
 featured_image_attr_link: 
 program:
-Website: https://www.abetjax.com/copy-of-2022-23-season
+website: https://www.abetjax.com/copy-of-2022-23-season
 # Tickets: https://www.eventbrite.com/e/disenchanted-a-new-musical-comedy-tickets-679807250787
-Tickets: https://ci.ovationtix.com/34666/production/1191105
+tickets: https://ci.ovationtix.com/34666/production/1191105
 show_details: 
 - Music: Dennis T. Giacino
 - Lyrics: Dennis T. Giacino
@@ -45,12 +45,12 @@ cast:
   - Rapunzel: Samantha Wickland
 crew:
 orchestra:
-Genres:
+genres:
 - Musical
 - Comedy
 - Satire
-Description: "Princesses, unplugged and unhinged—happily never after has never been this much fun."
-Press:
+description: "Princesses, unplugged and unhinged—happily never after has never been this much fun."
+press:
 - ABET's 'Disenchanted!' features storybook princesses setting the record straight | The Beaches Leader: /media/news/2024-Disenchanted-Beaches-Leader.webp
 ---
 Say goodbye to the fairytale damsel in distress. The princesses in *Disenchanted!* have had enough of waiting for their Prince Charming. In this hilarious musical revue, Cinderella, Snow White, Sleeping Beauty and more swap their glass slippers for stilettos and get real about love, life, and what it means to be a modern woman. Perfect for anyone who's ever rolled their eyes at a perfect fairytale ending.

@@ -5,7 +5,7 @@ opening_date: 1935-02-26
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mike McInerney: Eugene LeaMond
 - Mrs. Nora Donohoe: Lindsey Gilfillan

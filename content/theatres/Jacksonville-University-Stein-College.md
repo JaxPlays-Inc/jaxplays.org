@@ -7,18 +7,18 @@ featured_image: JU-Linda-Berry-Stein-College-of-Fine-Arts-Humanities.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 
+founded: 
 disbanded: 2025
-Address: |
+address: |
   2800 University Blvd N
   Jacksonville, FL 32211
-Socials:
-  Facebook: justeincollege
-  Website: https://ju.edu/steincollege
+socials:
+  facebook: justeincollege
+  website: https://ju.edu/steincollege
 color: "#0d4f45"
 date: 2024-07-02T18:03:05-04:00
 donate: 
-Press:
+press:
 - "No Stage, No Excuse: Jacksonville University Abandons the Arts | JaxPlays": /editorials/2025/04/20/no-stage-no-excuse-jacksonville-university-abandons-the-arts/
 - "'Distraught, disappointed, confused': JU students express frustration over school’s decision to cut fine arts majors | News4Jax": https://www.news4jax.com/news/local/2025/04/15/distraught-disappointed-confused-ju-students-express-frustration-over-schools-decision-to-cut-fine-arts-majors/
 - "JU cuts 40 faculty and ends music and theater programs | Jax Today": https://jaxtoday.org/2025/04/15/ju-cuts-40-faculty-and-ends-music-and-theater-programs/

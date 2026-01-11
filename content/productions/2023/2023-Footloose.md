@@ -1,7 +1,7 @@
 ---
 title: Footloose
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
 date: 2023-09-08T00:00:00
 opening_date: 2023-08-18
 closing_date: 2023-09-10
@@ -24,8 +24,8 @@ featured_image_caption: Poster for Footloose at Orange Park Community Theatre
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.opct.info/boxoffice
+website: 
+tickets: https://www.opct.info/boxoffice
 show_details: 
 - Adaptation by: Dean Pitchford and Walter Bobbie
 - Music by: Tom Snow
@@ -85,10 +85,10 @@ crew:
 - Producer: Kristin Luke
 - Costumes: Kristin Luke
 orchestra:
-Genres:
+genres:
 - Musical
 - Drama
 - Romance
-Description: "A clash of convictions and culture fuels this electrifying story that dances between defiance and discovery. Rebellious dancing meets small-town politics, igniting a movement that shakes the ground and hearts alike."
+description: "A clash of convictions and culture fuels this electrifying story that dances between defiance and discovery. Rebellious dancing meets small-town politics, igniting a movement that shakes the ground and hearts alike."
 ---
 Ren McCormack moves to a sleepy town where dancing is banned. Struggling to fit in, Ren challenges the status quo, sparking a dance rebellion among the youth and teaching the town to let loose. Armed with irrepressible spirit and the beat of a different drum, Ren rallies the community’s youth as he fights for change. With classic 80s hits propelling the action, Footloose cuts loose in a story about shaking up the norm and finding your own rhythm.

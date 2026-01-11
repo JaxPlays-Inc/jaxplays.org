@@ -5,8 +5,8 @@ opening_date: 1944-12-01
 closing_date: 1944-12-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Peddler: Billy Reed
 - Ado Annie Carnes: Susie McRae

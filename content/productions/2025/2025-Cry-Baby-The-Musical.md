@@ -1,7 +1,7 @@
 ---
 title: "Cry-Baby: The Musical"
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
 date: 2024-06-15T12:13:13-04:00
 opening_date: 2025-01-17
 closing_date: 2025-02-02
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Book: 
   - "[[w:Mark O'Donnell]]"
@@ -60,5 +60,5 @@ crew:
   - Choreographer: Kailey Haddock
 orchestra:
 genres: 
-Description: 
+description: 
 ---

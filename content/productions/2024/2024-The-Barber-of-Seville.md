@@ -13,13 +13,13 @@ genres:
 - Opera
 - Comedy
 - Romantic
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Website: 
-Tickets: https://www.fscjartistseries.org/tickets/the-barber-of-seville
+venue: Moran Theater
+website: 
+tickets: https://www.fscjartistseries.org/tickets/the-barber-of-seville
 show_details: 
-Description: Love, disguise, and lots of shaving cream unfold in this classic opera farce.
+description: Love, disguise, and lots of shaving cream unfold in this classic opera farce.
 showtimes:
 - 2024-02-04 15:00:00
 cast:
@@ -35,7 +35,7 @@ crew:
 - Sets & Costumes: Giorgio Lalov
 - Conductor: Jason Tramm
 - Chorus Director: Jo Anne Herrero
-Reviews: 
+reviews: 
 - All Reviews - Rossini's IL BARBIERE DI SIVIGLIA - Jenny Kelly Productions: https://jennykellyproductions.com/all-reviews-barber
 ---
 Figaro, the resourceful barber of Seville, is caught in a comedy of errors as he helps Count Almaviva woo the beautiful Rosina. Mistaken identities and close shaves ensue in this lathered-up opera that proves love can be a hairy situation.

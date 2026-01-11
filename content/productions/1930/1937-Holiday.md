@@ -5,7 +5,7 @@ opening_date: 1937-03-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Edward Seton: Alan Moreland
 - Maid: Betsy Prior

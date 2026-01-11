@@ -12,15 +12,15 @@ birth_info:
   death_date: 2012-05-24
   birth_place: Portland, Oregon
   death_place: Jacksonville, Florida
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website:
-Press:
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website:
+press:
 - "Donor Spotlight: The Tom Nehl Fund: 25 Years of Delighting Theatergoers | The Community Foundation for Northeast Florida": https://www.jaxcf.org/donor-spotlight-tom-nehl-fund/
 - "Tom Nehl, long-time supporter of Jacksonville community theater, dies at 89 | The Florida Times-Union": https://www.jacksonville.com/story/news/2012/05/26/1922-2012-tom-nehl-long-time-supporter-jacksonville-community-theater/15865656007/
 - "Obituary Thomas Frederick Nehl | Dignity Memorial": https://www.dignitymemorial.com/obituaries/jacksonville-fl/thomas-nehl-5118708

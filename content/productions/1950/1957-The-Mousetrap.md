@@ -5,8 +5,8 @@ opening_date: 1957-01-16
 closing_date: 1957-01-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mollie Ralston: Rosemary Jones
 - Giles Ralston: Jack Evans

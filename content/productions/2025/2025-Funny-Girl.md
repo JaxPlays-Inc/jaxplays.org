@@ -1,8 +1,8 @@
 ---
 title: Funny Girl
-Theatre: Players by the Sea 
-Venue: John McManus Mainstage Theatre
-Season: 60
+theatre: Players by the Sea 
+venue: John McManus Mainstage Theatre
+season: 60
 date: 2025-03-04T11:36:45-05:00
 opening_date: 2025-02-21
 closing_date: 2025-03-09
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Funny-Girl.pdf
-Website: https://playersbythesea.org/season-60/funny-girl
-Tickets: https://ci.ovationtix.com/34877/production/1218523
+website: https://playersbythesea.org/season-60/funny-girl
+tickets: https://ci.ovationtix.com/34877/production/1218523
 show_details: 
 cast:
   - Fanny Brice: Julia Blasi
@@ -67,5 +67,5 @@ crew:
       - Brian Johnson
 orchestra:
 genres: 
-Description: 
+description: 
 ---

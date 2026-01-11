@@ -5,7 +5,7 @@ opening_date: 1925-11-17
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Thorolf: Allan Groover
 - Eric: Charles Johnston

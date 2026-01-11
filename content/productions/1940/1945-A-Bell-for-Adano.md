@@ -5,8 +5,8 @@ opening_date: 1945-11-30
 closing_date: 1945-12-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Afronti Pietro: William D. Hammer
 - Basile Giovanni: Nicholas Volpe

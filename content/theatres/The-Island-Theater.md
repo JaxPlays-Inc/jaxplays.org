@@ -7,15 +7,15 @@ featured_image: The-Island-Theater.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2017-10-26
-Address: |
+founded: 2017-10-26
+address: |
     1860 Town Hall Circle Suite 54
     Fleming Island, FL 32003
-Socials: 
-  Facebook: theislandtheater
-  Instagram: theislandtheater
-  Website: https://www.theislandtheater.com
-Phone: 19042541455
+socials: 
+  facebook: theislandtheater
+  instagram: theislandtheater
+  website: https://www.theislandtheater.com
+phone: 19042541455
 color: "#4fb6ff"
 date: 2024-07-02T18:02:16-04:00
 donate: https://www.theislandtheater.com/2024-donations?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

@@ -1,7 +1,7 @@
 ---
 title: The Color Purple
-Theatre: Stage Aurora Theatrical Company 
-Venue: FSCJ Kent Campus Auditorium
+theatre: Stage Aurora Theatrical Company 
+venue: FSCJ Kent Campus Auditorium
 date: 2024-04-06
 opening_date: 2024-04-06 
 closing_date: 2024-04-06
@@ -14,8 +14,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://stageaurora.ticketleap.com/the-color-purple-benefit-concert/?fbclid=IwAR2XAQo5DKTKr8OPFdlvNIZIcMMEtjziBqxr4U6NwiFtfwORMc8qDVpPavU_aem_ATTBP4O8x4Wq-uRJcqAotqV9I_XAhHpaQWsBInbq2HdnrnwF8WDP2tBhQcUFWxw6TCqbod_tqPM5vaFJCnkWlUPn
+website: 
+tickets: https://stageaurora.ticketleap.com/the-color-purple-benefit-concert/?fbclid=IwAR2XAQo5DKTKr8OPFdlvNIZIcMMEtjziBqxr4U6NwiFtfwORMc8qDVpPavU_aem_ATTBP4O8x4Wq-uRJcqAotqV9I_XAhHpaQWsBInbq2HdnrnwF8WDP2tBhQcUFWxw6TCqbod_tqPM5vaFJCnkWlUPn
 show_details: 
 - Adapted By: Marsha Norman
 - Music & Lyrics by: 
@@ -62,9 +62,9 @@ photos:
   photo_attr: 
   photo_alt: Poster of 'The Color Purple' cast announcement
   photo_caption: Poster of 'The Color Purple' cast announcement
-Genres:
+genres:
   - Musical
   - Drama
-Description: "A tale of struggle, transformation and triumph, 'The Color Purple' follows Celie's journey from despair to empowerment in the American South."
+description: "A tale of struggle, transformation and triumph, 'The Color Purple' follows Celie's journey from despair to empowerment in the American South."
 ---
 Celie, a young African American girl in the early 20th-century American South, endures incredible abuse and discrimination but gradually finds her voice and strength through love and friendship. Based on Alice Walker's novel, this powerful musical spans decades in Celie's life, exploring themes of resilience, redemption, and the unbreakable bond of family. With a soul-raising score of jazz, gospel, ragtime, and blues, 'The Color Purple' is an uplifting testament to the human spirit's capacity to heal and grow.

@@ -1,7 +1,7 @@
 ---
 title: Escape to Margaritaville
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: John McManus Mainstage Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: John McManus Mainstage Theatre
 date: 2023-11-10
 opening_date: 2023-11-10
 closing_date: 2023-11-26
@@ -21,8 +21,8 @@ featured_image_caption: Poster for Escape to Margaritaville
 featured_image_attr: Graphic Design by Jon Scherf
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.eventbrite.com/e/jimmy-buffetts-escape-to-margaritaville-tickets-679546410607
+website: 
+tickets: https://www.eventbrite.com/e/jimmy-buffetts-escape-to-margaritaville-tickets-679546410607
 cast:
 - Tully: Evan Bowen
 - Rachel: Assata Davis
@@ -56,7 +56,7 @@ crew:
   - Lee Hamby
 - Graphic Design: Jon Scherf
 orchestra:
-Genres:
+genres:
 - Musical
 - Comedy
 - Romance

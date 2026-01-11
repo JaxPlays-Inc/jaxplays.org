@@ -5,7 +5,7 @@ opening_date: 1931-12-15
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Constance Middleton: Idella Wells
 - Marie-Louise Durham: Louise Twitty

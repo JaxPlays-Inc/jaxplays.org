@@ -5,15 +5,15 @@ featured_image_attr: Josh Andrews
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm10065563
-  Website: 
-Reviews: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm10065563
+  website: 
+reviews: 
 - "Dual Critics Review: 'A Seat at the Table' at Players By The Sea Theatre | EU Jacksonville": https://folioweekly.com/2018/06/04/a-seat-at-the-table/
 date: 2023-09-08T00:00:00-04:00
 ---

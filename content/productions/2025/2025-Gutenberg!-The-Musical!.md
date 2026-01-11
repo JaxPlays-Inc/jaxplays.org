@@ -1,8 +1,8 @@
 ---
 title: Gutenberg! The Musical!
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 
 date: 2025-08-27T15:38:03-04:00
 opening_date: 2025-09-12
 closing_date: 2025-09-27
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Gutenberg-the-Musical.pdf
-Website: https://www.the5anddime.org/gutenbergthemusical
-Tickets: https://www.eventbrite.com/e/gutenberg-the-musical-tickets-1086966408789?aff=ebdsoporgprofile
+website: https://www.the5anddime.org/gutenbergthemusical
+tickets: https://www.eventbrite.com/e/gutenberg-the-musical-tickets-1086966408789?aff=ebdsoporgprofile
 show_details: 
 cast:
 - Doug: Cole Marshall
@@ -51,7 +51,7 @@ orchestra:
 genres:
 - Musical
 - Comedy
-Description: The hit musical about art imitating life imitating art, packed with laughter, ambition and best buddy love!
+description: The hit musical about art imitating life imitating art, packed with laughter, ambition and best buddy love!
 ---
  "Brilliantly realized and side-splitting!” - New York Magazine. 
 

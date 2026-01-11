@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Come From Away
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Maureen McCluskey
 - Millicent (Penny) Sylvester

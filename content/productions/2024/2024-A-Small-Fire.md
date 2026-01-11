@@ -1,7 +1,7 @@
 ---
 title: A Small Fire
-Theatre: Lumen Repertory Theatre
-Venue: San Marco Church
+theatre: Lumen Repertory Theatre
+venue: San Marco Church
 date: 2024-02-16
 opening_date: 2024-02-16
 closing_date: 2024-03-02
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:
-Website: https://www.lumenrep.org/shows/a-small-fire
-Tickets: https://www.zeffy.com/en-US/ticketing/71738d1d-ea45-4f93-bc76-9c05f70ef4e8
+website: https://www.lumenrep.org/shows/a-small-fire
+tickets: https://www.zeffy.com/en-US/ticketing/71738d1d-ea45-4f93-bc76-9c05f70ef4e8
 show_details:
 - Playwright: Adam Bock
 cast:
@@ -43,8 +43,8 @@ genres:
 - Play
 - Drama
 - Contemporary
-Description: As illness dims her senses, Emily's grasp on life and relationships transforms, revealing unexpected strength.
-Press: 
+description: As illness dims her senses, Emily's grasp on life and relationships transforms, revealing unexpected strength.
+press: 
 - "Lumen Repertory Theatre to present compelling drama | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/lumen-repertory-theatre-to-present-compelling-drama,79466
 - "Mortgage escrow hikes | WJCT News 89.9": https://news.wjct.org/show/first-coast-connect/2024-02-05/first-coast-connect-mortgage-escrow-hikes
 - "Top 5 things to do this weekend in Jacksonville: Car show, Rod Stewart, vampires, Keb' Mo' | Florida Times-Union": https://www.jacksonville.com/story/entertainment/events/2024/02/14/5-fun-things-to-do-this-weekend-in-jacksonville-fla/72573211007/

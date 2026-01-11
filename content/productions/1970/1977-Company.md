@@ -5,8 +5,8 @@ opening_date: 1977-10-07
 closing_date: 1977-10-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Robert: Gil Gimbel
 - Susan: Vivian Hill

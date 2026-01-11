@@ -5,8 +5,8 @@ opening_date: 1955-10-26
 closing_date: 1955-11-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bill Starbuck: Jack Harrell
 - File: George Large

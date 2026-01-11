@@ -9,11 +9,11 @@ show_details:
   - Lyrics: "Sara Bareilles"
   - Book: "[[w:Jessie Nelson]]"
   - Basis: "Based on the film *[[w:Waitress (film)|Waitress]]* by [[w:Adrienne Shelly]]"
-Genres:
+genres:
   - Musical
   - Drama
   - Comedy
-Description: "A small-town waitress, caught in a loveless marriage, crafts pies and dreams of a better life, finding hope and transformation in the kitchen."
+description: "A small-town waitress, caught in a loveless marriage, crafts pies and dreams of a better life, finding hope and transformation in the kitchen."
 ---
 *Waitress* delves into the life of Jenna Hunterson, a waitress ensnared in a dreary marriage, whose life takes a tumultuous turn when she discovers she's pregnant. Jenna's mundane days are punctuated by her creatively named pies, which serve as metaphors for the escapades and dreams stirring within her. Her life's monotony breaks when a baking contest and the arrival of a handsome new doctor in town.
 

@@ -5,8 +5,8 @@ opening_date: 1954-10-27
 closing_date: 1954-11-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dr. Jeffreys: J. Lawrence Hill
 - Melling: Elmo Lehman

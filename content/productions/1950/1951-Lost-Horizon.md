@@ -5,8 +5,8 @@ opening_date: 1951-04-13
 closing_date: 1951-04-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ai-Ling: Marie Lanham
 - Chang: Don Heebner

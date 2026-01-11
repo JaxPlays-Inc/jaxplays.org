@@ -13,10 +13,10 @@ show_details:
   - Arthur Whitelaw
   - Michael Grace
 - Basis: "[[w:Charles M. Schulz]]'s comic strip *[[w:Peanuts]]*"
-Genres:
+genres:
   - Musical
   - Comedy
   - Family
-Description: "Join Snoopy, Charlie Brown, and the entire Peanuts gang in a delightful musical adventure that explores life through the eyes of Charlie Brown's lovable beagle."
+description: "Join Snoopy, Charlie Brown, and the entire Peanuts gang in a delightful musical adventure that explores life through the eyes of Charlie Brown's lovable beagle."
 ---
 *Snoopy! The Musical* invites audiences into the imaginative world of Snoopy as he experiences a day full of adventures, from battling the Red Baron to writing his magnum opus. Alongside his friends Lucy, Linus, Sally and Charlie Brown, Snoopy navigates the joys and challenges of being a dog. This charming sequel to 'You're a Good Man, Charlie Brown' features catchy songs, witty dialogues and heartwarming moments, showcasing the depth of Charles Schulz's beloved characters and the universal themes of friendship, acceptance and joy.

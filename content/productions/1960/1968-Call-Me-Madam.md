@@ -5,8 +5,8 @@ opening_date: 1968-07-18
 closing_date: 1968-07-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mrs. Sally Adams: Pamela Garmon
 - Congressman Wilkins: Bob Hilgenberg

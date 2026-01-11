@@ -1,7 +1,7 @@
 ---
 title: First Date
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 date: 2024-04-18
 opening_date: 2024-04-18
 closing_date: 2024-05-12
@@ -29,8 +29,8 @@ featured_image_caption: Poster for First Date
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
-Tickets: https://ci.ovationtix.com/34666/production/1165809
+website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
+tickets: https://ci.ovationtix.com/34666/production/1165809
 show_details: 
 cast:
 - Aaron: Mitchell Wohl
@@ -77,9 +77,9 @@ orchestra:
 - Bass: Mamie Lu Anderton
 - Drummer: Alex Anderson
 - Bass: Matt Hickox
-Genres:
+genres:
 - Musical
 - Comedy
 - Romance
-Description: 
+description: 
 ---

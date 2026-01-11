@@ -5,7 +5,7 @@ opening_date: 1933-05-03
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The Duchess Probationer: Amy Cavanagh
 - Court Beauties:

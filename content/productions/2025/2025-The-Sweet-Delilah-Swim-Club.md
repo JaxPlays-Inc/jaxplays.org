@@ -1,8 +1,8 @@
 ---
 title: The Sweet Delilah Swim Club
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
-Season: 44
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
+season: 44
 date: 2024-09-09T23:01:04-04:00
 opening_date: 2025-08-08
 closing_date: 2025-08-23
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Sweet-Delilah-Swim-Club.pdf
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=22&p=1
+website: 
+tickets: https://app.arts-people.com/index.php?actions=22&p=1
 show_details: 
 cast:
   - Sheree Hollinger: Jen DeGroff

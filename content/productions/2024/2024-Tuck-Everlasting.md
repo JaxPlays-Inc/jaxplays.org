@@ -1,7 +1,7 @@
 ---
 title: Tuck Everlasting
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 date: 2024-02-08
 opening_date: 2024-02-08
 closing_date: 2024-03-03
@@ -29,8 +29,8 @@ featured_image_caption: Poster for Tuck Everlasting
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/tuck-everlasting
-Tickets: https://ci.ovationtix.com/34666/production/1165807?_gl=1*1c32hdr*_ga*MTYxNjU4NzkxLjE2OTQ4MjYyMjc.*_ga_1T723BH96L*MTY5NDgyNjIyNi4xLjEuMTY5NDgyOTIzMS42MC4wLjA.
+website: https://www.limelight-theatre.org/season-32-shows-1/tuck-everlasting
+tickets: https://ci.ovationtix.com/34666/production/1165807?_gl=1*1c32hdr*_ga*MTYxNjU4NzkxLjE2OTQ4MjYyMjc.*_ga_1T723BH96L*MTY5NDgyNjIyNi4xLjEuMTY5NDgyOTIzMS42MC4wLjA.
 show_details: 
 - Book: 
   - "[[w:Claudia Shear]]"
@@ -42,10 +42,10 @@ cast:
 crew:
 - Director: Missy Schmotzer
 orchestra:
-Genres:
+genres:
   - Musical
   - Fantasy
   - Drama
-Description: "Discover the fountain of youth and the price of immortality through the eyes of 11-year-old Winnie Foster."
+description: "Discover the fountain of youth and the price of immortality through the eyes of 11-year-old Winnie Foster."
 ---
 In a sleepy little town, 11-year-old Winnie Foster stumbles upon the Tuck family and their life-altering secret: a fountain of youth. As she befriends the Tucks and learns the implications of living forever, Winnie must choose between eternal life and the cycle of life and death. A poignant tale about family, love, and the true value of time.

@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Desperate Measures
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
   - Brennan Moritz
   - Neal Thorburn

@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: scott.campbell.70596
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: scott.campbell.70596
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---

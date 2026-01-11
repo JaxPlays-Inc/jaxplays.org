@@ -10,13 +10,13 @@ featured_image: 2020_Lessons_We_Were_Never_Taught.jpg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Venue: BABS' LAB
+venue: BABS' LAB
 show_details:
 - Writer: Nikesha Elise Williams
-Genres: 
+genres: 
 - Play
 - One-woman show
-Website: http://www.newwrites.com/lessons
+website: http://www.newwrites.com/lessons
 showtimes:
 - 2020-03-05 20:00:00
 - 2020-03-06 20:00:00
@@ -26,7 +26,7 @@ cast:
 - Herself: Nikesha Elise Williams
 crew:
 - Director: Barbara Colaciello
-Press:
+press:
 - Finding Her Voice | Folio Weekly: https://web.archive.org/web/20200509011010/http://folioweekly.com/stories/finding-her-voice,22187
 ---
 Written and performed by Nikesha Elise Williams, and directed by Barbara Colaciello, this one-woman show will use poetic exploration to delve deep into topics on life, on love, and on healing. 

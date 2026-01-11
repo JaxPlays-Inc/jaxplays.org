@@ -13,14 +13,14 @@ genres:
 - Musical
 - Fantasy
 - Drama
-Theatre: Jacksonville University - Stein College
-Venue: Swisher Theater
-Website: 
-Tickets: 
+theatre: Jacksonville University - Stein College
+venue: Swisher Theater
+website: 
+tickets: 
 show_details: 
 - Music and Lyrics: "[[w:Stephen Sondheim]]"
 - Book: "[[w:James Lapine]]"
-Description: "Fairy tales collide in a darkly whimsical adventure."
+description: "Fairy tales collide in a darkly whimsical adventure."
 showtimes:
 - 2018-11-01 19:30:00
 - 2018-11-02 19:30:00
@@ -80,9 +80,9 @@ crew:
   - Destiny Scott
   - Giovanna Sparagna
 orchestra:
-Reviews: 
+reviews: 
   - "REVIEW: Jacksonville University College of Fine Arts Delights Audiences with 'Into the Woods'": https://folioweekly.com/2018/11/07/jacksonville-university-college-of-fine-arts-into-the-woods/
-Press: 
+press: 
   - "Kennedy Center American College Theater Festival Spotlights JU Student Performers": https://www.ju.edu/news/2019-02-04-kennedy-center-american-college-theater-festival-spotlights-ju-performers.php
 ---
 Step *Into the Woods* where Cinderella, Little Red Riding Hood, and Jack (of beanstalk fame) get more than they bargained for. With Sondheim's ingenious score, the story explores the consequences of the characters' wishes and quests. Just when you think 'happily ever after' is within reach, think again. This musical cautions to be careful what you wish for—you might just get it.

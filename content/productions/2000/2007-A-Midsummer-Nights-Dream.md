@@ -5,7 +5,7 @@ opening_date: 2007-09-14
 closing_date: 2007-10-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Theseus: Larry Knight

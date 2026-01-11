@@ -6,11 +6,11 @@ title: A Number
 date: 2023-09-08T00:00:00
 opening_date: 2020-09-11
 closing_date: 2020-09-13
-Genres: 
+genres: 
 - Play
-Theatre: Actors Collective
-Venue: Museum of Science & History
-Website: http://www.actorscollective.com/the-secret-of-life/
+theatre: Actors Collective
+venue: Museum of Science & History
+website: http://www.actorscollective.com/the-secret-of-life/
 show_details:
 - Writer: "[[w:Caryl Churchill]]"
 - Series: 'The Secret of Life: A Science Play Series'

@@ -1,8 +1,8 @@
 ---
 title: Rock of Ages
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 
 date: 2025-05-27T22:59:03-04:00
 opening_date: 2025-05-29
 closing_date: 2025-06-08
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/performances/rockofages/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/performances/rockofages/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
   - Lonny Barnett: Will Wiley
@@ -47,5 +47,5 @@ cast:
       - Lauren Wortham
 orchestra:
 genres: 
-Description: 
+description: 
 ---

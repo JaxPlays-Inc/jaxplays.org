@@ -6,11 +6,11 @@
 "id": {{ jsonify $slug }},
 "theatre": {{ jsonify $p.Title }},
 "type": {{ jsonify ($p.Params.company_type | default "") }},
-"website": {{ jsonify ($p.Params.Socials.Website | default "") }},
-"facebook": {{ jsonify ($p.Params.Socials.Facebook | default "") }},
-"instagram": {{ jsonify ($p.Params.Socials.Instagram | default "") }},
-"twitter": {{ jsonify ($p.Params.Socials.Twitter | default "") }},
-"bluesky": {{ jsonify ($p.Params.Socials.Bluesky | default "") }}
+"website": {{ jsonify ($p.Params.socials.website | default "") }},
+"facebook": {{ jsonify ($p.Params.socials.facebook | default "") }},
+"instagram": {{ jsonify ($p.Params.socials.instagram | default "") }},
+"twitter": {{ jsonify ($p.Params.socials.twitter | default "") }},
+"bluesky": {{ jsonify ($p.Params.socials.bluesky | default "") }}
 }{{ if lt (add $i 1) (len $pages) }},{{ end }}
 {{- end }}
 ]

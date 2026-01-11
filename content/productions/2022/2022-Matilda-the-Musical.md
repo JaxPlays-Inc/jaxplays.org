@@ -9,14 +9,14 @@ featured_image: 2022_Matilda_(musical).png
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 show_details:
 - Music: "[[w:Tim Minchin]]"
 - Lyrics: Tim Minchin
 - Book: "[[w:Dennis Kelly]]"
 - Basis: "*[[w:Matilda_(novel)|Matilda]]* by [[w:Roald Dahl]]"
-Website: https://www.ameliacommunitytheatre.org/Performances/Roald-Dahl%E2%80%99s-Matilda-The-Musical
+website: https://www.ameliacommunitytheatre.org/Performances/Roald-Dahl%E2%80%99s-Matilda-The-Musical
 showtimes:
 - 2022-04-14 19:30:00
 - 2022-04-15 19:30:00

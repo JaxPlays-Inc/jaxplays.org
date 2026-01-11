@@ -5,7 +5,7 @@ opening_date: 1931-01-13
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Burton Barrs: Edward Pontifex Carter
 - Carl Cesery: Jimmy Ludgrove

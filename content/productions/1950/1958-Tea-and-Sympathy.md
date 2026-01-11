@@ -5,8 +5,8 @@ opening_date: 1958-11-12
 closing_date: 1958-11-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Laura Reynolds: Thelma Mayeron
 - Lilly Sears: Hazel Miller

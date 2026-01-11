@@ -5,8 +5,8 @@ opening_date: 1967-11-24
 closing_date: 1967-12-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Fanny Brice: Thelma Baker
 - John: Jeff Campbell

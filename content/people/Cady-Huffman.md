@@ -10,15 +10,15 @@ birth_info:
   birth_name: Cady Huffman
   birth_date: 1965-02-02
   birth_place: Santa Barbara, California
-Socials:
-  Facebook: imcady
-  Twitter: cadyhuffman
-  Instagram: cadyhuffman
-  LinkedIn: 
-  IBDB: cady-huffman-71270
-  IMDb: nm0400261
-  Website: http://www.cadyhuffman.com/
-  Wikipedia: Cady_Huffman
+socials:
+  facebook: imcady
+  twitter: cadyhuffman
+  instagram: cadyhuffman
+  linkedin: 
+  ibdb: cady-huffman-71270
+  imdb: nm0400261
+  website: http://www.cadyhuffman.com/
+  wikipedia: Cady_Huffman
 ---
 Cady Huffman is a Tony Award-winning actor and director whose Broadway career includes standout roles in *The Producers*, *The Will Rogers Follies*, *The Nance*, *Chicago* and *La Cage aux Folles*. Her performance as Ulla in *The Producers* earned her the Tony, Drama Desk and Outer Critics Circle awards. 
 

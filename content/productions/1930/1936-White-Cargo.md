@@ -5,7 +5,7 @@ opening_date: 1936-06-02
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The Missionary: Basil Dewitt
 - Tondeloyo: Censa Feather

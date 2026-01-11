@@ -8,10 +8,10 @@ featured_image:
 featured_image_caption:
 featured_image_attr:
 program: 2023_The_Savannah_Sipping_Society.pdf
-Theatre: St. Marys Little Theatre
-Venue: Theater by the Trax
-Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa
-Description: "In *The Savannah Sipping Society*, four Southern women navigate life's curveballs, love, and, of course, happy hour. It's a hilarious, heartwarming romp where the tea is sweet, but the comebacks are sweeter."
+theatre: St. Marys Little Theatre
+venue: Theater by the Trax
+tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/63ff9097af25cc0e3b94c8aa
+description: "In *The Savannah Sipping Society*, four Southern women navigate life's curveballs, love, and, of course, happy hour. It's a hilarious, heartwarming romp where the tea is sweet, but the comebacks are sweeter."
 showtimes:
 - 2023-05-05 19:00:00
 - 2023-05-06 19:00:00

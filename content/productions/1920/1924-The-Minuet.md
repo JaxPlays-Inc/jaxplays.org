@@ -5,7 +5,7 @@ opening_date: 1924-04-28
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - A Marquis of France: George Hardee
 - A Marchioness of France: Miriam Lee Doggett

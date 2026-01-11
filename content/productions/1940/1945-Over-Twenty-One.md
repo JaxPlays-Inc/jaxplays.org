@@ -5,8 +5,8 @@ opening_date: 1945-01-25
 closing_date: 1945-02-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bugler: Al Chalifoux
 - Joel I. Nixon: Arthur Gutman

@@ -1,8 +1,8 @@
 ---
 title: Twelfth Night
-Theatre: FSCJ DramaWorks
-Venue: Studio Theatre
-Season: 
+theatre: FSCJ DramaWorks
+venue: Studio Theatre
+season: 
 date: 2025-03-24T16:07:34-04:00
 opening_date: 2025-03-27
 closing_date: 2025-03-30
@@ -17,6 +17,6 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.fscjartistseries.org/tickets/dramaworks-presents-twelfth-night-by-william-shakespeare
-Tickets: https://shop.fscjartistseries.org/overview/4256
+website: https://www.fscjartistseries.org/tickets/dramaworks-presents-twelfth-night-by-william-shakespeare
+tickets: https://shop.fscjartistseries.org/overview/4256
 ---

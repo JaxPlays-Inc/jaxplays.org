@@ -14,13 +14,13 @@ featured_image_attr: Kailin Lake Photography
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: rae.colley
-  Twitter: 
-  Instagram: readthisbookyall
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: rae.colley
+  twitter: 
+  instagram: readthisbookyall
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---
 Rae started her theatrical career with the Atlanta Workshop Players before moving to Fernandina Beach, Florida. A former college and high school English teacher, Rae has a Ph.D. from Emory University.

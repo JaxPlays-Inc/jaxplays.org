@@ -1,8 +1,8 @@
 ---
 title: "Arthur's Stone, Merlin's Fire: The Making of a King"
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre 
-Season: 
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre 
+season: 
 date: 2026-01-04T22:33:23-05:00
 opening_date: 2026-01-16
 closing_date: 2026-02-01 
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/productions
-Tickets: https://ci.ovationtix.com/34989/production/1245478
+website: https://artistconnectiontheatre.org/productions
+tickets: https://ci.ovationtix.com/34989/production/1245478
 show_details: 
 - Playwright: Katherine Peterson
 cast:
@@ -56,6 +56,6 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: "A mysterious sword, a reluctant hero, and a powerful secret collide as Merlin guides Arthur toward a destiny he never wanted — but cannot escape."
+description: "A mysterious sword, a reluctant hero, and a powerful secret collide as Merlin guides Arthur toward a destiny he never wanted — but cannot escape."
 ---
 Britain, 500 A.D.—a violent storm, a legendary sword, and a kingdom on the brink. This electrifying retelling of the Arthurian legend thrusts a young Arthur into a world of ancient magic and rising danger, where prophecy stirs, loyalties are tested, and the fate of a nation hangs in the balance.

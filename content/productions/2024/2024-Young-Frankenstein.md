@@ -1,8 +1,8 @@
 ---
 title: Young Frankenstein
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
-Season: 
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
+season: 
 date: 2024-06-18T14:22:55-04:00
 opening_date: 2024-10-04
 closing_date: 2024-11-02
@@ -28,8 +28,8 @@ featured_image: 2024-Young-Frankenstein.webp
 featured_image_alt: "Promotional poster for 'Young Frankenstein' with the title in electrified letters against a spooky blue background."
 featured_image_caption: "Join the hilarity in 'Young Frankenstein', a monstrous comedy that electrifies with laughter and mischief."
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 cast:
 - Dr. Frederick Frankenstein: Andy Kanies
 - The Monster: Bob O'Hara
@@ -62,5 +62,5 @@ crew:
   - Curtis Reed
   - Cameron Renfrow
 orchestra:
-Description: "Delve into this monstrously funny adaptation of Mel Brooks’ classic film, where a young scientist inherits his grandfather's legacy and a zany castle full of eccentrics."
+description: "Delve into this monstrously funny adaptation of Mel Brooks’ classic film, where a young scientist inherits his grandfather's legacy and a zany castle full of eccentrics."
 ---

@@ -2,8 +2,8 @@
 title: "Beautiful: The Carole King Musical"
 aliases: 
   - /productions/2024-beautiful-the-carole-king-musical/
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 date: 2024-01-19
 opening_date: 2024-01-19
 closing_date: 2024-02-04
@@ -23,8 +23,8 @@ featured_image_caption: "Poster for 'Beautiful: The Carole King Musical'"
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program:
-Website: https://playersbythesea.org/beautiful
-Tickets: https://ci.ovationtix.com/34877/production/1187099
+website: https://playersbythesea.org/beautiful
+tickets: https://ci.ovationtix.com/34877/production/1187099
 cast:
   - Carole King: Kailey Anderson
   - Gerry Goffin: Noah Gonzales-Hall
@@ -61,7 +61,7 @@ crew:
 - Music Director: Anthony Felton
 - Production Assistant: Phedre Delinois
 orchestra:
-Press: 
+press: 
 - "Beautiful: The Carole King Musical | First Coast Living - First Coast News": https://www.firstcoastnews.com/video/entertainment/television/first-coast-living/beautiful-the-carole-king-musical/77-298a1449-76eb-421e-a80c-23caefb73b01
 ---
 

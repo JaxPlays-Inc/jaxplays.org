@@ -1,8 +1,8 @@
 ---
 title: The Baltimore Waltz
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 
 date: 2025-04-09T14:41:23-04:00
 opening_date: 2025-06-13
 closing_date: 2025-06-21
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Baltimore-Waltz.pdf
-Website: https://www.the5anddime.org/thebaltimorewaltz
-Tickets: https://www.eventbrite.com/e/the-baltimore-waltz-tickets-1086996548939?aff=jaxplays
+website: https://www.the5anddime.org/thebaltimorewaltz
+tickets: https://www.eventbrite.com/e/the-baltimore-waltz-tickets-1086996548939?aff=jaxplays
 cast:
 - Anna: Kristen Walsh
 - Carl: A.J. Heekin
@@ -45,11 +45,11 @@ crew:
 orchestra:
 show_details: 
   - Playwright: "[[w:Paula Vogel]]"
-Genres:
+genres:
   - Play
   - Drama
   - Comedy
-Description: "Embark on a poignant yet humorous European adventure in 'The Baltimore Waltz,' where a woman and her brother seek joy and meaning in the face of terminal illness."
+description: "Embark on a poignant yet humorous European adventure in 'The Baltimore Waltz,' where a woman and her brother seek joy and meaning in the face of terminal illness."
 ---
 *The Baltimore Waltz* is a touching narrative about Anna, a schoolteacher diagnosed with a terminal illness, and her brother Carl, who decide to embark on a whirlwind tour of Europe. The play is a fantastical and satirical journey that serves as Anna’s whimsical response to her diagnosis, exploring themes of love, loss, and the desire to live life to the fullest. Through their travels, they encounter a host of eccentric characters and situations that mirror their fears and dreams. Paula Vogel's play is a heartfelt tribute to her own brother, blending reality with fantasy in a poignant exploration of sibling bonds and the impact of illness.
 

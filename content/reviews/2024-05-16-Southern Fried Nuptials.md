@@ -8,7 +8,7 @@ featured_image_alt: "From left to right, Juliana Mabe as Dewey Frye, Jr. stands 
 authors:
 - Ray Hollister
 production: 2024 Southern Fried Nuptials 2
-Theatre: St. Marys Little Theatre
+theatre: St. Marys Little Theatre
 cast:
 - Debra Parsons
 - Ken Johnson

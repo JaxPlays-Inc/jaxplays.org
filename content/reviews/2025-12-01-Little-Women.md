@@ -9,7 +9,7 @@ authors:
 - Jo El Snyder
 show_reading_time: true
 production: 2025 Little Women 3
-Theatre: Amelia Community Theatre
+theatre: Amelia Community Theatre
 cast: 
 - Nicole Sheehan
 - Lisa Knapp

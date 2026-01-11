@@ -1,9 +1,9 @@
 ---
 title: The Little Toy Shoppe
-Theatre: Jason Woods Productions
-Venue: 
+theatre: Jason Woods Productions
+venue: 
 - Wharf Main Stage
-Season: 
+season: 
 date: 2025-12-03T20:49:06-05:00
 opening_date: 2025-12-13
 closing_date: 2025-12-14
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: Photography by Eriden Images, Design by Jason Woods
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 cast:
 - Pip: Kaylee Byers
 - Major Marlowe: Sam Cobean

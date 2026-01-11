@@ -1,7 +1,7 @@
 ---
 title: Young Frankenstein
-Theatre: Saltwater Performing Arts
-Venue: Pigmental Studios
+theatre: Saltwater Performing Arts
+venue: Pigmental Studios
 opening_date: 2024-10-25
 closing_date: 2024-11-03
 showtimes:
@@ -17,8 +17,8 @@ featured_image_caption: "Join the hilarity in 'Young Frankenstein', a monstrous 
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: 
-Tickets: https://saltwaterpac.ludus.com/index.php?sections=events&widget=1
+website: 
+tickets: https://saltwaterpac.ludus.com/index.php?sections=events&widget=1
 show_details: 
 cast:
 - Dr. Frederick Frankenstein: Steven Jones
@@ -58,6 +58,6 @@ orchestra:
 genres:
 - Musical
 - Comedy
-Description: 
+description: 
 ---
  

@@ -5,8 +5,8 @@ opening_date: 1962-04-06
 closing_date: 1962-04-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mabel: Jean Wilfrid
 - Lady Matheson: Jane Johnson

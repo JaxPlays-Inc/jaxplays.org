@@ -1,7 +1,7 @@
 ---
 title: The Foreigner
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
 date: 2024-06-13T17:00:29-04:00
 opening_date: 2024-11-08
 closing_date: 2024-11-24
@@ -22,8 +22,8 @@ featured_image_caption: "Dive into the comedic twists of 'The Foreigner' at Thea
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-The-Foreigner.pdf
-Website: https://www.theatrejax.com/season-105
-Tickets: https://ci.ovationtix.com/34919
+website: https://www.theatrejax.com/season-105
+tickets: https://ci.ovationtix.com/34919
 cast:
 - SSgt. Froggy LeSueur: C. Michael Porter
 - Charlie Baker: Taylor Jackson
@@ -55,6 +55,6 @@ crew:
       - Ron Shreve
       - Christopher Watson
 orchestra:
-Press:
+press:
 - "Laughter isn’t foreign to THE FOREIGNER | Folio Weekly" : https://folioweekly.com/2024/11/12/laughter-isnt-foreign-to-the-foreigner/
 ---

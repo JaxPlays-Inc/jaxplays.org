@@ -1,8 +1,8 @@
 ---
 title: Oklahoma!
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
-Season: 
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
+season: 
 date: 2024-09-09T23:44:10-04:00
 opening_date: 2025-03-28
 closing_date: 2025-04-13
@@ -23,12 +23,12 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/season-2024-2025/
-Tickets: https://ci.ovationtix.com/34989/production/1207874
+website: https://artistconnectiontheatre.org/season-2024-2025/
+tickets: https://ci.ovationtix.com/34989/production/1207874
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

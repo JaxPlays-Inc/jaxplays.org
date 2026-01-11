@@ -5,7 +5,7 @@ opening_date: 1926-03-16
 closing_date: 1926-03-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Marge Diamond: Agnes Towers
 - Lula: Anne C. Lalor

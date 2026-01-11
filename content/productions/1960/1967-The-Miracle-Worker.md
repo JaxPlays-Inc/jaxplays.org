@@ -5,8 +5,8 @@ opening_date: 1967-02-24
 closing_date: 1967-03-04
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Doctor: Shane Hummel
 - Kate: Thelma Mayeron

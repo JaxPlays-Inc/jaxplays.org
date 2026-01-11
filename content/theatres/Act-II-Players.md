@@ -8,14 +8,14 @@ featured_image: Act-II-Players.webp
 featured_image_attr:
 featured_image_alt: Logo for Act II Players
 featured_image_caption: Act II Players Logo
-Founded: 
-Address: |
+founded: 
+address: |
     3604 Cardinal Point Drive 
     Jacksonville, FL 32257
-Socials: 
-  Facebook: ActIIPlayersJax
-  Instagram: actiiplayers
-  Website: https://actiiplayers.org/
+socials: 
+  facebook: ActIIPlayersJax
+  instagram: actiiplayers
+  website: https://actiiplayers.org/
 color: "#058be5"
 date: 2024-07-02T18:04:17-04:00
 donate: https://www.gofundme.com/f/act-ii-players-community-theatre-equipment-needs?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

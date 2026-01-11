@@ -11,14 +11,14 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Music: "[[w:William Finn]]"
 - Lyrics: William Finn
 - Book: 
   - William Finn
   - "[[w:James Lapine]]"
-Website: https://www.the5anddime.org/falsettos
+website: https://www.the5anddime.org/falsettos
 showtimes:
 - 2019-06-14 20:00:00
 - 2019-06-15 20:00:00

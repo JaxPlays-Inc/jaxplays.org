@@ -8,15 +8,15 @@ featured_image: 2023_The_Diary_of_Anne_Frank.webp
 featured_image_caption: Poster for The Diary of Anne Frank
 featured_image_attr: Theatre Jacksonville
 program:
-Genres:
+genres:
 - Play
 - Drama
 - Biographical
 - Historical
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-Tickets: https://ci.ovationtix.com/34919
-Description: "*Diary of Anne Frank* is a poignant play that illuminates the resilience and hopes of Anne Frank, a young Jewish girl hiding from the Nazis during World War II. Through her diary entries, the drama delves into the human capacity for courage amid unimaginable adversity."
+tickets: https://ci.ovationtix.com/34919
+description: "*Diary of Anne Frank* is a poignant play that illuminates the resilience and hopes of Anne Frank, a young Jewish girl hiding from the Nazis during World War II. Through her diary entries, the drama delves into the human capacity for courage amid unimaginable adversity."
 showtimes:
 - 2023-09-21 19:30:00
 - 2023-09-22 19:30:00
@@ -57,7 +57,7 @@ crew:
   - Katie Allen
   - Shannon Pitts
 orchestra:
-Press:
+press:
 - "‘The Diary of Anne Frank’ to open annual ‘Classic in San Marco’ production at Theatre Jacksonville | Action News Jax": https://www.actionnewsjax.com/news/local/diary-anne-frank-open-annual-classic-san-marco-production-september/JUOI2FBL3VFXHN6GYEFCSW5ALM/
 - "The Diary of Anne Frank Opens At Theatre Jacksonville | FirstCoast.Life": https://firstcoast.life/events/the-diary-of-anne-frank-opens-at-theatre-jacksonville/
 ---

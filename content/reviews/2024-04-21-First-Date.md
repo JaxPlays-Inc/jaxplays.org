@@ -8,7 +8,7 @@ featured_image_alt: Actors Mary Elizabeth Schubert and Mitchell Wohl smiling at 
 authors:
 - Ray Hollister
 production: 2024 First Date
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Mitchell Wohl
 - Mary Elizabeth Schubert

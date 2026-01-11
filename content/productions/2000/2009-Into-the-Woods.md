@@ -6,7 +6,7 @@ title: Into the Woods
 date: 2025-10-05T19:18:23-04:00
 opening_date: 2009-12-31
 approx_date: year
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Narrator/Mysterious Man: Michael Lipp

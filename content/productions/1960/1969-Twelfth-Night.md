@@ -5,8 +5,8 @@ opening_date: 1969-01-10
 closing_date: 1969-01-18
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Lady in Waiting:
   - Mary Ellen Calhoun

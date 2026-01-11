@@ -1,8 +1,8 @@
 ---
 title: The Revolutionists
-Theatre: Actor's Collective
-Venue: BABS' LAB
-Season: 
+theatre: Actor's Collective
+venue: BABS' LAB
+season: 
 date: 2025-02-24T19:15:15-05:00
 opening_date: 2019-01-31
 closing_date: 2019-02-02
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: http://www.actorscollective.com/the-revolutionists/
-Tickets: https://www.barbaracolaciello.com/register/the-revolutionists
+website: http://www.actorscollective.com/the-revolutionists/
+tickets: https://www.barbaracolaciello.com/register/the-revolutionists
 show_details: 
 cast:
   - Olympe de Gouges: Karen Konzen
@@ -30,7 +30,7 @@ crew:
   - Costuming and Sound Design: Caryl Butterley
 orchestra:
 genres: 
-Description: 
+description: 
 ---
 Playwright Olympe de Gouges, Haitian spy Marianne Angelle, assassin Charlotte Corday, and former queen Marie Antoinette hang out, plot, and bond, all while pushing back against the hyper-violent hypocritical male-dominated rhetoric of the times. However will modern audiences relate?
 

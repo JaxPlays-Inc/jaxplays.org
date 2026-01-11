@@ -4,9 +4,9 @@ title: One Wild Night
 date: 2023-09-08T00:00:00
 opening_date: 1992-12-31
 approx_date: year
-Genres: 
+genres: 
 - Play
-Theatre: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
 showtimes:
 cast:
 crew:

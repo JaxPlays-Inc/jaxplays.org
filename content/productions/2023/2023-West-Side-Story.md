@@ -9,10 +9,10 @@ featured_image_caption: Poster for West Side Story
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program:
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
-Website: http://playersbythesea.org/west-side-story
-Tickets: https://web.ovationtix.com/trs/cal/34877/1688184000000
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
+website: http://playersbythesea.org/west-side-story
+tickets: https://web.ovationtix.com/trs/cal/34877/1688184000000
 showtimes:
 - 2023-07-14 20:00:00
 - 2023-07-15 20:00:00
@@ -60,6 +60,6 @@ cast:
 crew:
 - Director: Nick Cooper
 orchestra:
-Press:
+press:
 - "Players by the Sea Presents: West Side Story | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2023/07/21/players-by-the-sea-presents-west-side-story/
 ---

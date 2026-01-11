@@ -10,9 +10,9 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
-Website: https://web.archive.org/web/20220523175154/https://limelight-theatre.org/little-women/
+theatre: Limelight Theatre
+venue: Matuza Mainstage
+website: https://web.archive.org/web/20220523175154/https://limelight-theatre.org/little-women/
 showtimes:
 - 2022-05-12 19:30:00
 - 2022-05-13 19:30:00

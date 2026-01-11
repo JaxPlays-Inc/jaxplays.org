@@ -5,8 +5,8 @@ opening_date: 1961-02-24
 closing_date: 1961-03-04
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ruth Arnold: Celeste Koger
 - Joanne De Lynn: Mardie Kelly

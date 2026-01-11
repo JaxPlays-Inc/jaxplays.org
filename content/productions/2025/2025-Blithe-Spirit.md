@@ -1,8 +1,8 @@
 ---
 title: Blithe Spirit
-Theatre: Act II Players
-Venue: Act II Players Black Box Theatre
-Season: 
+theatre: Act II Players
+venue: Act II Players Black Box Theatre
+season: 
 date: 2025-08-04T18:43:07-04:00
 opening_date: 2025-10-03
 closing_date: 2025-10-05
@@ -17,8 +17,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://actiiplayers.org/blithe-spirit
-Tickets: https://3common.com/event/blithe-spirit/68926ae7369c759d01864913
+website: https://actiiplayers.org/blithe-spirit
+tickets: https://3common.com/event/blithe-spirit/68926ae7369c759d01864913
 show_details: 
 cast:
   - Charles Condomine: Derrek Koch

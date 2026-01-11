@@ -5,8 +5,8 @@ opening_date: 1940-03-26
 closing_date: 1940-03-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Berta: Eleonor Edwards
 - Eilert Lovborg: William Blois

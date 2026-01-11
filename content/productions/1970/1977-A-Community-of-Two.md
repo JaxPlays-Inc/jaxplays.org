@@ -5,8 +5,8 @@ opening_date: 1977-11-25
 closing_date: 1977-12-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alix Carpenter: Sabina Meyer
 - Robert Carpenter: Joe Mullarkey

@@ -10,12 +10,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: _thalia_hart_
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: _thalia_hart_
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---

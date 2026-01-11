@@ -5,7 +5,7 @@ opening_date: 1925-12-15
 closing_date: 1925-12-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Hester: Alice Shaw
 - George Norwood: Charles Johnston

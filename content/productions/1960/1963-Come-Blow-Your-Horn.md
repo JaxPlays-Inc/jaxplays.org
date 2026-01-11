@@ -5,8 +5,8 @@ opening_date: 1963-05-30
 closing_date: 1963-06-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alan Baker: Will Berdit
 - Peggy Evans: Jeanne Solomon

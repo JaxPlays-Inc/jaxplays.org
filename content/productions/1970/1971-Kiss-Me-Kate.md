@@ -5,8 +5,8 @@ opening_date: 1971-10-08
 closing_date: 1971-10-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Fred Graham: Harry Hodge
 - Harry Trevor: Bill Harriman

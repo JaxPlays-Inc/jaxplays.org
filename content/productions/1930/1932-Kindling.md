@@ -5,7 +5,7 @@ opening_date: 1932-03-29
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 crew:
 - Staging and Props: Anne C. Lalor
 - Director: Philip Devlin

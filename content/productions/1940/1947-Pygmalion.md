@@ -5,8 +5,8 @@ opening_date: 1947-05-23
 closing_date: 1947-05-30
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alfred Doolittle: Roy Meischner
 - Another Bystander: Walter Feuer

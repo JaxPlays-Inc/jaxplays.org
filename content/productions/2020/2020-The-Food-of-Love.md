@@ -10,14 +10,14 @@ featured_image: 2020_The_Food_of_Love.png
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Phase Eight Theater Company
-Genres: 
+theatre: Phase Eight Theater Company
+genres: 
 - Play
 - Romantic Comedy
 show_details:
 - Writer: Kelby Siddons
-Venue: Museum of Contemporary Art Jacksonville
-Website: http://www.phaseeight.org/2020-season.html
+venue: Museum of Contemporary Art Jacksonville
+website: http://www.phaseeight.org/2020-season.html
 showtimes:
 - 2020-02-13 19:00:00
 - 2020-02-14 19:00:00

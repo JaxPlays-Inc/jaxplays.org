@@ -9,7 +9,7 @@ featured_image_alt: "Cast of *Dear Evan Hansen* stands onstage under dramatic li
 authors: 
 - Ray Hollister
 production: 2024 Dear Evan Hansen
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 cast: 
 description: "The FSCJ Artist Series one-night showing of Dear Evan Hansen presents a stirring non-Equity tour filled with memorable and heartfelt performances."
 override_dates: "one night only on Sunday, November 3"

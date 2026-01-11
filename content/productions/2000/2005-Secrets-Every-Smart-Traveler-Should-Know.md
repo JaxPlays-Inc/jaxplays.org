@@ -5,7 +5,7 @@ opening_date: 2005-11-04
 closing_date: 2005-11-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Cast:

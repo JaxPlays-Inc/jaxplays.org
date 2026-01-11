@@ -6,18 +6,18 @@ featured_image: King-Maker-Brewing.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
   720 King St.
   Jacksonville, FL 32204  
-Latitude: 30.317846065394065
-Longitude: -81.69707617668645
-Socials: 
-  Facebook: KingMakerBrewing
-  Twitter: kingmakerbrew
-  Instagram: kingmakerbrewing
-  Threads:
-  Website: https://www.kingmakerbrewing.com/
-  LinkedIn: https://www.linkedin.com/company/king-maker-brewing/
-Phone: 19046831431
+latitude: 30.317846065394065
+longitude: -81.69707617668645
+socials: 
+  facebook: KingMakerBrewing
+  twitter: kingmakerbrew
+  instagram: kingmakerbrewing
+  threads:
+  website: https://www.kingmakerbrewing.com/
+  linkedin: https://www.linkedin.com/company/king-maker-brewing/
+phone: 19046831431
 ---

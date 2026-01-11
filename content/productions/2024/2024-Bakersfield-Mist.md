@@ -1,7 +1,7 @@
 ---
 title: Bakersfield Mist
-Theatre: A Classic Theatre
-Venue: The Waterworks
+theatre: A Classic Theatre
+venue: The Waterworks
 date: 2024-10-03T21:29:59-04:00
 opening_date: 2024-10-04
 closing_date: 2024-10-13
@@ -18,8 +18,8 @@ featured_image_caption: "Catch 'Bakersfield Mist' at A Classic Theatre, a compel
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2024-2025s-season
-Tickets: https://aclassictheatre.ludus.com/200456009
+website: https://www.aclassictheatre.org/2024-2025s-season
+tickets: https://aclassictheatre.ludus.com/200456009
 show_details: 
   - Playwright: "[[w:Stephen Sachs]]"
   - Website: https://bakersfieldmist.com/
@@ -59,10 +59,10 @@ crew:
     - Louise Meredith
     - Teresa Harris
     - Maggie Barbieri
-Genres:
+genres:
   - Play
   - Drama
   - Comedy
-Description: "Explore the fiery debate over art and authenticity in 'Bakersfield Mist,' a sharp-witted play where an unemployed bartender claims to have found a million-dollar masterpiece in a thrift store."
+description: "Explore the fiery debate over art and authenticity in 'Bakersfield Mist,' a sharp-witted play where an unemployed bartender claims to have found a million-dollar masterpiece in a thrift store."
 ---
 Maude, a tough and unemployed bartender, believes she's struck gold when she discovers what she thinks is a Jackson Pollock painting at a thrift store. Her claim draws the attention of Lionel, a stuffy art expert from New York. As they spar over the painting's authenticity, questions about art, class and the nature of truth emerge, leading to surprising revelations and plenty of laughs.

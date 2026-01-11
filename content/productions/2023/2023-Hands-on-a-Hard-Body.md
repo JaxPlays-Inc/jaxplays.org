@@ -8,20 +8,20 @@ featured_image: 2023_Hands_on_a_Hard_Body.webp
 featured_image_caption: Poster for Hands on a Hard Body
 featured_image_attr: Limelight Theatre
 program:
-Genres:
+genres:
 - Musical
 - Drama
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
-Description: "Battle of wills, humor, and heart: Contestants go the extra mile, with their hands glued to a pickup truck, for the American dream. Who will drive away the winner?"
+theatre: Limelight Theatre
+venue: Matuza Mainstage
+description: "Battle of wills, humor, and heart: Contestants go the extra mile, with their hands glued to a pickup truck, for the American dream. Who will drive away the winner?"
 show_details:
 - Book: Doug Wright
 - Lyrics: Amanda Green
 - Music: 
   - Trey Anastasio
   - Amanda Green
-Tickets: https://ci.ovationtix.com/34666?_gl=1*18d70jm*_ga*NDM1NTI4MTIwLjE2ODk5NjU0NjQ.*_ga_1T723BH96L*MTY5MTcyNTk1Ny4yLjEuMTY5MTcyNTk3MC40Ny4wLjA.
-Website: https://www.limelight-theatre.org/shows/hands-on-a-hardbody
+tickets: https://ci.ovationtix.com/34666?_gl=1*18d70jm*_ga*NDM1NTI4MTIwLjE2ODk5NjU0NjQ.*_ga_1T723BH96L*MTY5MTcyNTk1Ny4yLjEuMTY5MTcyNTk3MC40Ny4wLjA.
+website: https://www.limelight-theatre.org/shows/hands-on-a-hardbody
 showtimes:
 - 2023-08-10 19:30:00
 - 2023-08-11 19:30:00

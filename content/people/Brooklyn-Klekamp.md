@@ -8,13 +8,13 @@ other_names:
 featured_image: Brooklyn-Klekamp.webp
 featured_image_attr: Dani Werner Photography
 featured_image_attr_link: https://www.daniphoto.com/
-Socials:
-  Facebook:
-  Twitter:
-  Instagram:
-  Threads:
-  LinkedIn:
-  IBDB:
-  IMDb:
-  Website:
+socials:
+  facebook:
+  twitter:
+  instagram:
+  threads:
+  linkedin:
+  ibdb:
+  imdb:
+  website:
 ---

@@ -5,8 +5,8 @@ opening_date: 1985-11-29
 closing_date: 1985-12-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - John Harker: Patrick M. James
 - Maid: Rebecca Warner

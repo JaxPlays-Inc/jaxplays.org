@@ -1,7 +1,7 @@
 ---
 title: Disney's Beauty and the Beast
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
 date: 2024-05-16T14:19:38-04:00
 opening_date: 2024-09-20
 closing_date: 2024-10-06
@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/season-2024-2025/
-Tickets: https://ci.ovationtix.com/34989/production/1206867
+website: https://artistconnectiontheatre.org/season-2024-2025/
+tickets: https://ci.ovationtix.com/34989/production/1206867
 show_details: 
 cast:
   - Belle: Melissa Fletcher

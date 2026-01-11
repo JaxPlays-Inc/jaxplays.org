@@ -5,8 +5,8 @@ opening_date: 1971-01-08
 closing_date: 1971-01-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sally Middleton: Pru Eatman
 - Olive Lashbrooke: Carol Kearney

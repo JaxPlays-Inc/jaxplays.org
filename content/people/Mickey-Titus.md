@@ -6,12 +6,12 @@ featured_image_attr: Matt Simpkins Photography
 featured_image_attr_link: https://www.mattsimpkinsphotography.com/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: mickey.titus25
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: mickey.titus25
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---

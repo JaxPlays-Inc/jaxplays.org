@@ -1,8 +1,8 @@
 ---
 title: Agnes of God
-Theatre: Lumen Repertory Theatre
-Venue: San Marco Church
-Season: Subversive 2025
+theatre: Lumen Repertory Theatre
+venue: San Marco Church
+season: Subversive 2025
 date: 2025-02-28T14:31:50-05:00
 opening_date: 2025-03-14
 closing_date: 2025-03-29
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.lumenrep.org/shows/agnes-of-god
-Tickets: https://www.zeffy.com/ticketing/agnes-of-god
+website: https://www.lumenrep.org/shows/agnes-of-god
+tickets: https://www.zeffy.com/ticketing/agnes-of-god
 show_details: 
 - Playwright: "[[w:John Pielmeier]]"
 cast:
@@ -39,11 +39,11 @@ crew:
 - Costume Designer: Camala Pitts
 - Sound Designer: Brian Niece
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Mystery
-Description: "Plunge into the psychological depths of faith and doubt in *Agnes of God*, where a novice nun’s mysterious pregnancy sparks a complex investigation led by a court-appointed psychiatrist."
+description: "Plunge into the psychological depths of faith and doubt in *Agnes of God*, where a novice nun’s mysterious pregnancy sparks a complex investigation led by a court-appointed psychiatrist."
 ---
 This gripping psychological drama centers on a young novice nun accused of infanticide. As a court-appointed psychiatrist and the convent’s Mother Superior battle over the case, they confront deep questions of faith, innocence, and mental health. At its core, this play is a subversive exploration of faith, questioning the rigidity of religious belief in the face of trauma and psychological complexity which powerfully explores belief, trauma, and redemption.
 

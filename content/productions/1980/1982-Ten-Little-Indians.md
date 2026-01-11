@@ -5,8 +5,8 @@ opening_date: 1982-03-12
 closing_date: 1982-03-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Rogers: Frank Alfano
 - Mrs. Rogers: Helen Harris Alkire

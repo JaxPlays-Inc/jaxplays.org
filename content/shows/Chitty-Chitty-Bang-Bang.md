@@ -16,10 +16,10 @@ show_details:
   - "[[w:Jeremy Sams]]"
 - Basis: 
   - "*[[w:Chitty Chitty Bang Bang]]* by [[w:Roald Dahl]], [[w:Ken Hughes]] and [[w:Richard Maibaum]], and *[[w:Chitty-Chitty-Bang-Bang]]* by [[w:Ian Fleming]]"
-Genres:
+genres:
   - Musical
   - Family
   - Adventure
-Description: "Embark on a fantastic adventure with the Potts family and their magical car in this exhilarating musical that brings the beloved film to life."
+description: "Embark on a fantastic adventure with the Potts family and their magical car in this exhilarating musical that brings the beloved film to life."
 ---
 *Chitty Chitty Bang Bang* tells the story of the eccentric inventor Caractacus Potts, who, along with his two children and the charming Truly Scrumptious, restores an old race car which has some surprising abilities. They soon discover the car can float and fly, leading the family on a thrilling quest to save their grandfather from the villainous Baron Bomburst. Along the way, they encounter a variety of delightful characters and dangerous situations, all orchestrated to the tune of catchy and unforgettable songs. This musical captures the imagination with its blend of whimsy, innovation, and excitement, making it a perfect treat for the whole family.

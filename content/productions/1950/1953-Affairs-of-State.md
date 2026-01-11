@@ -5,8 +5,8 @@ opening_date: 1953-09-30
 closing_date: 1953-10-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Byron Winkler: Lawrence Hill
 - Constance Russell: Jeanne Strickland

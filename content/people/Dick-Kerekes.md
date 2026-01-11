@@ -11,9 +11,9 @@ featured_image: Dick_Kerekes.jpg
 featured_image_attr: Kerekes' Facebook profile
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: Dick Kerekes | dick.kerekes
-Press:
+socials:
+  facebook: Dick Kerekes | dick.kerekes
+press:
 - "The Amazing (but humble) Watch Hound - EU": https://folioweekly.com/2015/09/06/smooch-the-pooch-celebrating-35-years-of-the-amazing-but-humble-watch-hound/
 date: 2023-09-08T00:00:00-04:00
 ---

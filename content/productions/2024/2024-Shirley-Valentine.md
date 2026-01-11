@@ -14,13 +14,13 @@ genres:
 - Comedy
 - Drama
 - Monologue
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Website: 
-Tickets: 
+theatre: A Classic Theatre
+venue: The Waterworks
+website: 
+tickets: 
 show_details: 
 - Playwright: Willy Russell
-Description: From a humdrum Liverpool kitchen to the sun-drenched Greek Isles, Shirley Valentine embarks on a transformative one-woman journey of self-discovery, awakening, and Aegean ecstasy.
+description: From a humdrum Liverpool kitchen to the sun-drenched Greek Isles, Shirley Valentine embarks on a transformative one-woman journey of self-discovery, awakening, and Aegean ecstasy.
 showtimes:
 - 2024-03-03 19:30:00
 - 2024-03-04 19:30:00

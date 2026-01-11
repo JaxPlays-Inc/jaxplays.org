@@ -5,8 +5,8 @@ opening_date: 1969-04-11
 closing_date: 1969-04-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mr. Kimber: Robert Hilgenberg
 - Newton Fuller: Roby Robson

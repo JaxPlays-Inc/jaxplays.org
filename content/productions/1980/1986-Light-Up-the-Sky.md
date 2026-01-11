@@ -5,8 +5,8 @@ opening_date: 1986-01-24
 closing_date: 1986-02-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Miss Lowell: Sarah Boone
 - Carleton Fitzgerald: Roger Lowe

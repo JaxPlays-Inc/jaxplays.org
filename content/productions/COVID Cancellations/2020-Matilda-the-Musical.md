@@ -11,9 +11,9 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K Smith Playhouse
-Website: https://www.theatrejax.com/this-season
+website: https://www.theatrejax.com/this-season
 showtimes:
 - 2020-06-05 20:00:00
 - 2020-06-06 20:00:00

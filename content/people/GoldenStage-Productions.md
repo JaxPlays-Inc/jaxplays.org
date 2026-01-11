@@ -10,12 +10,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: profile.php?id=100090157221531
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.ggsjax.com/
+socials:
+  facebook: profile.php?id=100090157221531
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.ggsjax.com/
 ---

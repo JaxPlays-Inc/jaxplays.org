@@ -5,8 +5,8 @@ opening_date: 1989-03-24
 closing_date: 1989-04-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Woman: Renee Wendt Oka
 - The Man: Roger Lowe

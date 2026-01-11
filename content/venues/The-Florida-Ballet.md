@@ -6,19 +6,19 @@ featured_image: The_Florida_Ballet.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2019
-Closed:
-Address: |
+founded: 2019
+closed:
+address: |
   10131 Atlantic Boulevard
   Jacksonville, FL 32225
-Latitude: 30.323365791249966
-Longitude: -81.53734261779111
-Socials:
+latitude: 30.323365791249966
+longitude: -81.53734261779111
+socials:
   facebook: flballet
   twitter: flballet
   instagram: flballet
   website: https://floridaballet.org
-Press: 
+press: 
 - The Florida Ballet is moving to Arlington: https://www.jaxdailyrecord.com/news/2019/jul/31/the-florida-ballet-is-moving-to-arlington/
 ---
 The Florida Ballet relocated to the former YMCA space at 10131 Atlantic Boulevard in Arlington in 2019. The organization purchased the 3.35-acre site and 28,504-square-foot building for $1.55 million, moving from its previous location at 300 E. State St. in Downtown. The relocation was made to accommodate the growth of the program and to provide the organization with more space, parking, and resources to meet the evolving needs of the ballet community. 

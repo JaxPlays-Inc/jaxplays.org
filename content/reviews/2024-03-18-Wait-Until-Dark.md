@@ -9,7 +9,7 @@ featured_image_alt: A woman seated on the floor against a door, visibly distress
 authors:
 - Ray Hollister
 production: 2024 Wait Until Dark
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Anna Vera
 - Burt Kierstead

@@ -1,7 +1,7 @@
 {{- $events := slice -}}
 {{- range where .Site.Pages "Type" "productions" -}}
   {{- $title := .Title -}}
-  {{- $theatre := .Params.Theatre -}}
+  {{- $theatre := .Params.theatre -}}
   {{- $title := print $title " - " $theatre -}}
   {{- $featured_image := .Params.featured_image -}}
   {{- $url := .Permalink -}}

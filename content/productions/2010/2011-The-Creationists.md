@@ -7,8 +7,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2011-02-18
 closing_date: 2011-02-26
 featured_image:
-Theatre: Players by the Sea
-Venue: Grace Darling Studio Theatre
+theatre: Players by the Sea
+venue: Grace Darling Studio Theatre
 show_details:
 - Playwright: Joshua Kreis McTiernan
 - Setting: Here and Now, Now and Then
@@ -68,7 +68,7 @@ photos:
     Walton, Tyler Christian Ramirez, Cameron Lee Henderson, Brian Fullford, Philip
     Harville, Chris Robertson, Jane Cassingham, Pablo J. Milla, Bradley Akers, Lindsay
     Michelle'
-Reviews:
+reviews:
 - "'The Creationists' comedy opens Friday at Players by the Sea | The Florida Times-Union": https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
 - "'The Creationists' | Folio Weekly": https://folioweekly.com/2011/02/24/2839/
 ---

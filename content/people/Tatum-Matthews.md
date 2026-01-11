@@ -4,19 +4,19 @@ date: 2024-04-27T16:25:16-04:00
 featured_image: Tatum-Matthews.webp
 featured_image_attr: Lilly K
 featured_image_attr_link: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: tatumsuematthews
-  Threads: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm10104152
-  Website: https://www.tatummatthews.com
-Press:
+socials:
+  facebook: 
+  twitter: 
+  instagram: tatumsuematthews
+  threads: 
+  linkedin: 
+  ibdb: 
+  imdb: nm10104152
+  website: https://www.tatummatthews.com
+press:
   - "EXCLUSIVE! Get to know A Waltons Thanksgiving star Tatum Matthews | Girls' Life": https://www.girlslife.com/trending/celebs/41064/exclusive-get-to-know-a-waltons-thanksgiving-star-tatum-matthews
   - "Rising Star Tatum Matthews On The Five Things You Need To Shine In The Entertainment Industry | Authority Magazing": https://medium.com/authority-magazine/rising-star-tatum-matthews-on-the-five-things-you-need-to-shine-in-the-entertainment-industry-8b86e2e32c0f
-Reviews: 
+reviews: 
   - "REVIEW: Wait Until Dark at All Beaches Experimental Theatre | Folio 2.0 / EU Jacksonville": https://folioweekly.com/2018/11/06/review-wait-until-dark-at-all-beaches-experimental-theatre/
   - "Brighten Your Day With “GREY GARDENS” at Theatre Jacksonville | Folio 2.0 / EU Jacksonville": https://folioweekly.com/2017/11/08/grey-gardens/
   - "DUAL CRITICS REVIEW: Chitty Chitty Bang Bang at Alhambra Theatre & Dining | Folio 2.0 / EU Jacksonville": https://folioweekly.com/2018/06/25/chitty-chitty-bang-bang-alhambra-theatre-dining-review/

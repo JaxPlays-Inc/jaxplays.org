@@ -5,7 +5,7 @@ opening_date: 1934-02-13
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - A.J. Patterson: Allen Moreland
 - Fannie Lehman: Charlotte Bowden Perry

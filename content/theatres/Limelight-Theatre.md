@@ -7,16 +7,16 @@ featured_image: Limelight_Theatre.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 1992
-Address: |
+founded: 1992
+address: |
   11 Old Mission Ave
   St. Augustine, FL 32084
-Socials:
-  Facebook: limelight.theatre
-  Twitter: limelightstaug
-  Instagram: limelightstaug
-  Website: https://limelight-theatre.org
-Phone: 19048251164
+socials:
+  facebook: limelight.theatre
+  twitter: limelightstaug
+  instagram: limelightstaug
+  website: https://limelight-theatre.org
+phone: 19048251164
 color: "#bbda55"
 date: 2024-07-02T18:02:56-04:00
 donate: https://www.limelight-theatre.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

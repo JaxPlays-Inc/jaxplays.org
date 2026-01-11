@@ -5,7 +5,7 @@ opening_date: 1933-01-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Sam Green: Guy Woolford
 - Reverend Dr. Stump: Jack Pumpelly

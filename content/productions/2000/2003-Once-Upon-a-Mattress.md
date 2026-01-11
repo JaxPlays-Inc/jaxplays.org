@@ -5,7 +5,7 @@ opening_date: 2003-06-13
 closing_date: 2003-06-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Minstrel: Lee Hamby

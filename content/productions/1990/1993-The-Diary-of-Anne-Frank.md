@@ -5,8 +5,8 @@ opening_date: 1993-02-19
 closing_date: 1993-02-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mr. Frank: David H. Horne, Jr.
 - Miep: Cassandra Curley

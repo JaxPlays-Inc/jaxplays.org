@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: MsKaila-Schippani
-  Twitter: 
-  Instagram: kschippani
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://msschippanidance.weebly.com/teacher-bio.html
+socials:
+  facebook: MsKaila-Schippani
+  twitter: 
+  instagram: kschippani
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://msschippanidance.weebly.com/teacher-bio.html
 ---
 Kaila Schippani grew up in Oxford, Connecticut and started dancing at the young age of 2. She received her training in ballet, jazz, and tap while also competing at the state and national level with her New England dance teams before moving to St. Augustine, FL in 2011.
 

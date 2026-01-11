@@ -1,7 +1,7 @@
 ---
 title: A Gentleman's Guide to Love & Murder
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
 date: 2024-02-16
 opening_date: 2024-02-16
 closing_date: 2024-03-03
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Music: "[[w:Steven Lutvak]]"
 - Lyrics: Steven Lutvak
@@ -32,10 +32,10 @@ cast:
 crew:
 - Director: Izzy Hague
 orchestra:
-Genres:
+genres:
 - Musical
 - Comedy
 - Mystery
-Description: "Murder, inheritance, and charm collide as Monty Navarro crafts a darkly comedic plan to jump the line of succession."
+description: "Murder, inheritance, and charm collide as Monty Navarro crafts a darkly comedic plan to jump the line of succession."
 ---
 In a bid to secure his inheritance, Monty Navarro has discovered that eliminating his distant relatives isn't just lucrative—it's surprisingly enjoyable too! Watch as Monty navigates a labyrinth of love and assassination, in this murderous musical comedy.

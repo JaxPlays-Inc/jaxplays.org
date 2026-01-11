@@ -1,8 +1,8 @@
 ---
 title: Charlie and the Chocolate Factory
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2025
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2025
 date: 2024-12-20T12:16:31-05:00
 opening_date: 2025-06-26
 closing_date: 2025-08-17
@@ -75,8 +75,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Charlie-and-the-Chocolate-Factory.pdf
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1486&code=JAXPLAYS&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1486&code=JAXPLAYS&qty_target=0
 show_details: 
 - Music: "[[w:Marc Shaiman]]"
 - Lyrics:
@@ -161,11 +161,11 @@ crew:
       - Audrey Dunham
 orchestra:
 # Charlie and the Chocolate Factory
-Genres:
+genres:
   - Musical
   - Family
   - Fantasy
-Description: "Step into the whimsical world of Willy Wonka’s chocolate factory in this musical adaptation, where young Charlie Bucket embarks on a magical adventure."
+description: "Step into the whimsical world of Willy Wonka’s chocolate factory in this musical adaptation, where young Charlie Bucket embarks on a magical adventure."
 ---
 *Charlie and the Chocolate Factory* brings Roald Dahl's beloved story to the stage with vibrant musical numbers and fantastical set designs. The tale follows Charlie Bucket, a poor boy who wins a golden ticket to tour the mysterious chocolate factory owned by the eccentric Willy Wonka. Alongside other ticket winners, Charlie navigates a maze of magical rooms and peculiar challenges. Unlike his greedy counterparts, Charlie's kind heart and humble nature catch Wonka's eye, leading to an unexpected and life-changing offer. This musical combines humor, heart, and a dash of darkness to explore themes of greed, innocence, and imagination. Audiences of all ages will delight in the whimsical world of *Charlie and the Chocolate Factory*.
 

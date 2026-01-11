@@ -5,8 +5,8 @@ opening_date: 1940-03-05
 closing_date: 1940-03-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Clara: Virginia Matthews
 - David Bliss: Paul Kruse

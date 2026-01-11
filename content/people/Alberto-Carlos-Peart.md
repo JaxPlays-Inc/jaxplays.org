@@ -12,14 +12,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: acpeart
-  Twitter: 
-  Instagram: acpeart
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://acpeart.com/
+socials:
+  facebook: acpeart
+  twitter: 
+  instagram: acpeart
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://acpeart.com/
 ---
 Alberto Carlos Peart discovered his passion for acting and dance at the age of 15, launching a career defined by versatility, creativity, and a commitment to powerful storytelling. Recognized early for his talent, he was awarded Best Male Actor by the Western Massachusetts Theater Association for his performance as King Claudius in Hamlet with Shakespeare & Company in Lenox, MA.
 

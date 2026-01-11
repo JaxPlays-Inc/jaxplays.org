@@ -1,8 +1,8 @@
 ---
 title: Spamalot
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-04-12
 opening_date: 2024-04-12
 closing_date: 2024-04-21
@@ -25,8 +25,8 @@ featured_image_caption: Poster for Spamalot
 featured_image_attr: Monty Python
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.theislandtheater.com/season-ticket
+website: 
+tickets: https://www.theislandtheater.com/season-ticket
 show_details: 
 cast:
   - King Arthur: Matt Urban
@@ -52,11 +52,11 @@ cast:
 crew:
 orchestra:
 # Monty Python's Spamalot
-Genres:
+genres:
   - Musical
   - Comedy
   - Parody
-Description: "Join King Arthur and his comically incompetent Knights of the Round Table in a quest for the Holy Grail that's as absurd as it is uproarious. 'Spamalot' brings the iconic humor of Monty Python to the stage with a side-splitting twist."
+description: "Join King Arthur and his comically incompetent Knights of the Round Table in a quest for the Holy Grail that's as absurd as it is uproarious. 'Spamalot' brings the iconic humor of Monty Python to the stage with a side-splitting twist."
 photos:
 - photo: 2024-Spamalot-Cast-Announcement.webp
   photo_attr: The Island Theater

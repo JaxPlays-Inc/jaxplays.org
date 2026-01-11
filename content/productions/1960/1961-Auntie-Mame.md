@@ -5,8 +5,8 @@ opening_date: 1961-11-24
 closing_date: 1961-12-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Auntie Mame:
   - Judith Jett

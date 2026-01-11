@@ -14,9 +14,9 @@ show_details:
 - Basis: 
 - Website: 
 # The Odd Couple
-Genres:
+genres:
   - Play
   - Comedy
-Description: "Laugh along with 'The Odd Couple,' a classic comedy that brings together two mismatched roommates in a clash of lifestyles and hilarious antics."
+description: "Laugh along with 'The Odd Couple,' a classic comedy that brings together two mismatched roommates in a clash of lifestyles and hilarious antics."
 ---
 *The Odd Couple* features the fastidious Felix Ungar and the slovenly Oscar Madison. Thrown together after personal tragedies, these two friends become roommates, only to discover that their living habits are on opposite ends of the spectrum. As Felix’s neurotic tendencies collide with Oscar’s disheveled lifestyle, the result is a series of comedic disputes and misadventures that test their friendship in the most entertaining ways. This timeless play captures the essence of human relationships and the humor that arises from their complexities.

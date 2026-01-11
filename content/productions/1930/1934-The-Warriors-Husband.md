@@ -5,7 +5,7 @@ opening_date: 1934-12-04
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Antiope: Alene Chase
 - Heroica: Cathrine McElwain

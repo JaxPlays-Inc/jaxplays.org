@@ -1,7 +1,7 @@
 ---
 title: Lizzie
-Theatre: The 5 & Dime
-Venue: The Florida Ballet 
+theatre: The 5 & Dime
+venue: The Florida Ballet 
 date: 2024-05-21T19:04:18-04:00
 opening_date: 2024-10-31
 closing_date: 2024-11-16
@@ -21,8 +21,8 @@ featured_image_caption: Teaser graphic for 'Lizzie'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.the5anddime.org/lizzie-the-musical
-Tickets: https://www.eventbrite.com/e/lizzie-tickets-773068587957?aff=jaxplays
+website: https://www.the5anddime.org/lizzie-the-musical
+tickets: https://www.eventbrite.com/e/lizzie-tickets-773068587957?aff=jaxplays
 show_details: 
 - Book: Tim Maner
 - Music:
@@ -51,13 +51,13 @@ crew:
   - Choreographer: Adrianna Williams
   - Scenic Construction: Del Ward
 orchestra:
-Genres:
+genres:
   - Musical
   - Rock
   - Drama
   - Historical
   - Horror
-Description: "\"A gothic rock ritual with a riotgirl attitude\" - The New York Times"
+description: "\"A gothic rock ritual with a riotgirl attitude\" - The New York Times"
 ---
 In the heat of late summer 1892, Andrew Borden and his wife were found murdered in their house. The main suspect in the murders was Andrew’s youngest daughter from a previous marriage, Lizzie Borden. Using a searing rock score, and based on the historical record, *Lizzie* explores the heady and heated days leading up to the murder and Lizzie’s controversial acquittal of all charges and the creation of a new American myth.
 

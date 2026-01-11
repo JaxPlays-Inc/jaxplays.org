@@ -3,3 +3,4 @@ frontmatter.json
 .vscode/settings.json
 .frontmatter/database/taxonomyDb.json
 /public/*
+.claude/settings.local.json

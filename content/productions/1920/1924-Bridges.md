@@ -5,7 +5,7 @@ opening_date: 1924-01-25
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Enid Birdsall: Clara Smith
 - Penfield Parker Jr.: Francis Greenwood

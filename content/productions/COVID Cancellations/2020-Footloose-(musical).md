@@ -7,14 +7,14 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-10-22
 closing_date: 2020-11-22
 category: musical
-Name: Footloose
-Theatre: Alhambra Theatre & Dining
+name: Footloose
+theatre: Alhambra Theatre & Dining
 show_details:
 - Music: "[[w:Tom Snow]]"
 - Lyrics: "[[w:Dean Pitchford]]"
 - Book: "Dean Pitchford, [[w:Walter Bobbie]]"
 - Basis: Footloose
-Website: https://www.alhambrajax.com/show/footloose/
+website: https://www.alhambrajax.com/show/footloose/
 showtimes:
 - 2020-10-22 11:00:00
 - 2020-10-22 18:00:00

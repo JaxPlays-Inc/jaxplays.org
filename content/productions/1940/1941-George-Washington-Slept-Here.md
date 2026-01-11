@@ -5,8 +5,8 @@ opening_date: 1941-11-11
 closing_date: 1941-11-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Annabelle Fuller: Rose Marie Schosser
 - Clayton Evans: Bishop McCauley

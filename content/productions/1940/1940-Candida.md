@@ -5,8 +5,8 @@ opening_date: 1940-05-07
 closing_date: 1940-05-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Eugene Marchbanks: Algie Moseley
 - Miss Proserpine Garnett: Janis Frazier

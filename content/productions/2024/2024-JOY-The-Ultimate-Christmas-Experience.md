@@ -1,8 +1,8 @@
 ---
 title: "JOY: The Ultimate Christmas Experience"
-Theatre: Arts Collective Theatre
-Venue: Five Points Chapel & Gardens
-Season: 
+theatre: Arts Collective Theatre
+venue: Five Points Chapel & Gardens
+season: 
 date: 2024-11-12T22:57:05-05:00
 opening_date: 2024-12-16
 closing_date: 2024-12-22
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://artscollectivetheatre.com/events/
-Tickets: https://artscollectivetheatre.ludus.com/index.php
+website: https://artscollectivetheatre.com/events/
+tickets: https://artscollectivetheatre.ludus.com/index.php
 show_details: 
 cast:
 crew:
@@ -29,7 +29,7 @@ crew:
 orchestra:
 genres: 
 - Revue
-Description: 🎄✨ Get ready for the most magical holiday event of the season! ✨️🌲🎶❤️
+description: 🎄✨ Get ready for the most magical holiday event of the season! ✨️🌲🎶❤️
 ---
 🎄✨ Get ready for the most magical holiday event of the season! ✨️🌲🎶❤️
 

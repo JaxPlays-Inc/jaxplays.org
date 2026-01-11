@@ -5,8 +5,8 @@ opening_date: 1973-03-16
 closing_date: 1973-03-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Reno Sweeny: Nancy Kaye
 - Billy Crocker: Bill Milton

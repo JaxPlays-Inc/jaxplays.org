@@ -4,14 +4,14 @@ date: 2024-07-11T17:45:19-04:00
 featured_image: Jen-Mercer.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/ 
-Socials:
-  Facebook: jenmercersings2
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: jenmercersings2
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---
 Jen has degrees in both Theatre and Vocal Performance and attended Circle in the Square Theatre School (NY). She has worked professionally for over 20 years performing regionally, as a commercial actor and singer for Walt Disney World. 
 

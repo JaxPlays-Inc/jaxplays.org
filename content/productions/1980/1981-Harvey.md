@@ -5,8 +5,8 @@ opening_date: 1981-03-13
 closing_date: 1981-03-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Myrtle Mae Simmons: Judy Perkoff
 - Veta Louise Simmons: Shirley Nye

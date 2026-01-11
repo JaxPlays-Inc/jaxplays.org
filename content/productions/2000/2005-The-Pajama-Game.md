@@ -7,7 +7,7 @@ opening_date: 2005-06-10
 closing_date: 2005-06-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Hines: Juan Unzueta

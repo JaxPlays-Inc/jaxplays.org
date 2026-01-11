@@ -5,8 +5,8 @@ opening_date: 1965-11-12
 closing_date: 1965-11-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Grace Kimbrough: Terry McIntyre
 - Harry Lambert: Paul Galloway

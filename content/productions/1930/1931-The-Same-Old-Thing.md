@@ -5,7 +5,7 @@ opening_date: 1931-04-14
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 show_details:
 - Playwright: F.W. Armbuster
 cast:

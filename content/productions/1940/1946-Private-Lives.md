@@ -5,8 +5,8 @@ opening_date: 1946-03-15
 closing_date: 1946-03-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Amanda Prynne: Elizabeth Oviatt Thomas
 - Elyot Chase: E.S. Beauchamp-Nobbs

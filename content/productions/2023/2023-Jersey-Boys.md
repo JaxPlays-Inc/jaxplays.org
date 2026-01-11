@@ -5,9 +5,9 @@ opening_date: 2023-04-27
 closing_date: 2023-06-04
 layout: productions
 program:
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Genres:
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+genres:
 - Musical
 - Biography
 - Drama
@@ -69,7 +69,7 @@ showtimes:
 - 2023-06-03 18:00:00
 - 2023-06-04 12:00:00
 - 2023-06-05 18:00:00
-Reviews:
+reviews:
 - Oh, What a Night! with Jersey Boys at The Alhambra | Folio Weekly: https://web.archive.org/web/20230516195146/https://folioweekly.com/2023/04/29/oh-what-a-night-with-jersey-boys-at-the-alhambra/
 - 'Review: JERSEY BOYS at Alhambra Theatre and Dining | BroadwayWorld' : https://www.broadwayworld.com/jacksonville/article/Review-JERSEY-BOYS-at-Alhambra-Theatre-and-Dining-20230429
 ---

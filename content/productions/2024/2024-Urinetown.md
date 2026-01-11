@@ -1,7 +1,7 @@
 ---
 title: Urinetown
-Theatre: The 5 & Dime
-Venue: The Florida Ballet 
+theatre: The 5 & Dime
+venue: The Florida Ballet 
 date: 2024-05-21T17:58:09-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-27
@@ -22,8 +22,8 @@ featured_image_caption: Teaser graphic for 'Urinetown' at The 5 & Dime
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.the5anddime.org/urinetown
-Tickets: https://www.eventbrite.com/e/urinetown-tickets-773028267357
+website: https://www.the5anddime.org/urinetown
+tickets: https://www.eventbrite.com/e/urinetown-tickets-773028267357
 show_details: 
 - Book: "[[w:Greg Kotis]]"
 - Music: "[[w:Mark Hollmann]]"

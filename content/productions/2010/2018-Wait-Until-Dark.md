@@ -1,8 +1,8 @@
 ---
 title: Wait Until Dark
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Adele Grage Cultural Center
-Season: 
+theatre: ABET - All Beaches Experimental Theatre
+venue: Adele Grage Cultural Center
+season: 
 date: 2024-07-30T15:44:17-04:00
 opening_date: 2018-10-26
 closing_date: 2018-11-11
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Susy Hendrix: Jenna Bourne
 - Harry Roat, Jr: Milan Alley
@@ -70,5 +70,5 @@ crew:
   - George Kruer
 orchestra:
 genres: 
-Description: 
+description: 
 ---

@@ -1,8 +1,8 @@
 ---
 title: The Sound of Music
-Theatre: Greenlight Theatre Company
-Venue: Riverside Church at Park and King
-Season: 
+theatre: Greenlight Theatre Company
+venue: Riverside Church at Park and King
+season: 
 date: 2025-08-06T10:38:48-04:00
 opening_date: 2025-08-07
 closing_date: 2025-08-16
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.greenlighttheatreco.com/jaxonstage
+website: 
+tickets: https://www.greenlighttheatreco.com/jaxonstage
 show_details: 
 cast:
 - Maria Rainer: Sydney Wissinger
@@ -29,7 +29,7 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: |
+description: |
   Loosely based on the true story of the Von Trapp Family Singers, the beloved musical follows Maria Rainer, who becomes a governess to the seven children of a widowed naval commander in Austria just as the Nazi party is coming into power. 
 
   The original Broadway production in 1959 was built around Mary Martin's performance as Maria, but the musical is known best to most from its 1965 film adaptation starring Julie Andrews, which has become a beloved classic.

@@ -8,14 +8,14 @@ other_names:
 featured_image: Fulton-Burns.webp
 featured_image_attr: 
 featured_image_attr_link: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: professor-fulton-burns-559b6830
-  IBDB: 
-  IMDb:
-  Website: https://fultonburns.com
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: professor-fulton-burns-559b6830
+  ibdb: 
+  imdb:
+  website: https://fultonburns.com
 ---
 Fulton Burns is a professional educator, performer, director and choreographer, and a member of the Stage Directors and Choreographers Society. He has worked as an assistant director with Moises Kaufman, collaborated & performed with the Living Theatre, danced with Charleston Ballet Theater & Greenville Ballet, and has worked with Cirque du Soleil’s production of *Quidam*.
 

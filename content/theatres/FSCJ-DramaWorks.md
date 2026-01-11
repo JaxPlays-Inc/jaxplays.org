@@ -6,15 +6,15 @@ featured_image: FSCJ.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Socials:
-  Facebook: FSCJOfficial
-  Twitter: FSCJ_Official
-  Instagram: fscjofficial
-  LinkedIn: florida-state-college-at-jacksonville
-  Website: https://fscj.digital.flvc.org/islandora/object/fscj:dramaWORKS
-Phone: 19046462222
+socials:
+  facebook: FSCJOfficial
+  twitter: FSCJ_Official
+  instagram: fscjofficial
+  linkedin: florida-state-college-at-jacksonville
+  website: https://fscj.digital.flvc.org/islandora/object/fscj:dramaWORKS
+phone: 19046462222
 color: "#043c5b"
-Press:
+press:
 date: 2024-07-02T18:03:21-04:00
 donate: https://www-uat.fscj.edu/foundation/giving/search-by-fund?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

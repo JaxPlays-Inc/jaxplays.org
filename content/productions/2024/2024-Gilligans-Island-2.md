@@ -1,8 +1,8 @@
 ---
 title: "Gilligan's Island: The Musical"
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
-Season: 
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
+season: 
 date: 2024-06-18T14:38:42-04:00
 opening_date: 2024-04-25
 closing_date: 2024-05-12
@@ -25,12 +25,12 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

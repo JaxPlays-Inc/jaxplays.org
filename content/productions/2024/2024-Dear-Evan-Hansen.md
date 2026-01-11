@@ -1,9 +1,9 @@
 ---
 title: Dear Evan Hansen
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Season: 2024
+venue: Moran Theater
+season: 2024
 date: 2024-11-13T01:42:56-05:00
 opening_date: 2024-11-03
 closing_date: 2024-11-03
@@ -15,8 +15,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.fscjartistseries.org/tickets/dear-evan-hansen
-Tickets: https://shop.fscjartistseries.org/3959/3960
+website: https://www.fscjartistseries.org/tickets/dear-evan-hansen
+tickets: https://shop.fscjartistseries.org/3959/3960
 show_details: 
 - Music: "[[w:Justin Paul]]"
 - Lyrics: "[[w:Benj Pasek]]"
@@ -44,10 +44,10 @@ understudies:
   - Larry Murphy: Jared Svoboda
 orchestra:
 - Conductor: Michael Hopewell
-Genres:
+genres:
   - Musical
   - Drama
-Description: "Dive into the complex world of Evan Hansen as he navigates the challenges of adolescence, identity and the deep desire to belong."
+description: "Dive into the complex world of Evan Hansen as he navigates the challenges of adolescence, identity and the deep desire to belong."
 ---
 *Dear Evan Hansen* tells the story of a high school senior with severe social anxiety, who fabricates a significant role in a deceased classmate's life after a misunderstanding spirals out of control. The musical captures the intense pressures of the digital age, the struggles of mental health and the profound impact of one lie on Evan and everyone around him. With a poignant and contemporary score, this powerful drama explores themes of connection, acceptance and the lengths we go to for a sense of belonging.
 

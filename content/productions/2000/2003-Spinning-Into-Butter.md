@@ -5,7 +5,7 @@ opening_date: 2003-04-25
 closing_date: 2003-05-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Sarah Daniels: Sarah Boone

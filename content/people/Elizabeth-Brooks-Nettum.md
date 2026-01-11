@@ -15,15 +15,15 @@ birth_info:
   birth_date: 1960-05-01
   death_date: 2023-11-10
   birth_place: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-Press:
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+press:
 - "Elizabeth \"Brooks\" Nettum Obituary | Tribune & Georgian": https://www.legacy.com/us/obituaries/tribune-georgian/name/elizabeth-nettum-obituary?id=53648398
 ---
 Elizabeth "Brooks" Nettum was a stalwart figure in Georgia's theatre community, renowned for her deep commitment and significant contributions to the arts. Born in Columbus, Georgia, Brooks spent much of her life in Americus before relocating to St. Marys in her later years where she immediately became involved with the [[theatre:St. Marys Little Theatre]]. A graduate of Georgia Southwestern State University with degrees in English and Social Administration, Brooks found her true passion in the performing arts.

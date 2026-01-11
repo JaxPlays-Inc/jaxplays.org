@@ -5,8 +5,8 @@ opening_date: 1956-03-14
 closing_date: 1956-03-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Young Man: James Boyer
 - Aunt Jane Pennypacker: Polly Gage

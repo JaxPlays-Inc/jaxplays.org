@@ -5,7 +5,7 @@ opening_date: 1936-11-17
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Canby: Anne C. Lalor
 - Emily Madison: Birsa Shepard

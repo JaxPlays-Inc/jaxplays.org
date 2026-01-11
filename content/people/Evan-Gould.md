@@ -3,15 +3,15 @@ title: Evan Gould
 featured_image: Evan-Gould.webp 
 featured_image_attr: Theatre Jacksonville
 featured_image_attr_link: https://www.theatrejax.com/something-rotten
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-Press: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+press: 
 - "Clay County names teacher/employee of year | News4Jax": https://www.news4jax.com/education/2019/02/04/clay-county-names-teacheremployee-of-year/
 - "Clay names teacher, employee of year | The Florida Time-Union": https://www.jacksonville.com/story/news/education/2019/02/03/clay-names-teacher-employee-of-year/6125476007/
 date: 2023-09-08T00:00:00-04:00

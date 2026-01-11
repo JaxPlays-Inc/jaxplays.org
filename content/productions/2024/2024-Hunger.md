@@ -1,7 +1,7 @@
 ---
 title: Hunger
-Theatre: The Hunger Onstage Project
-Venue: Hicks Auditorium
+theatre: The Hunger Onstage Project
+venue: Hicks Auditorium
 date: 2024-05-10T17:42:58
 opening_date: 2024-05-23
 closing_date: 2024-05-23
@@ -13,8 +13,8 @@ featured_image_caption: Poster for 'Hunger'
 featured_image_attr: "Poster Art by @giogiove_"
 featured_image_attr_link: https://www.instagram.com/giogiove_/
 program: 
-Website: https://www.instagram.com/hunger.onstage.project?igsh=em9wZzJmczE0NjNp&utm_source=qr
-Tickets: https://eventbrite.com/e/hunger-a-one-act-play-tickets-848531820517?aff=oddtdtcreator
+website: https://www.instagram.com/hunger.onstage.project?igsh=em9wZzJmczE0NjNp&utm_source=qr
+tickets: https://eventbrite.com/e/hunger-a-one-act-play-tickets-848531820517?aff=oddtdtcreator
 show_details: 
 - Playwright: Ashlyn Colwell
 cast:
@@ -37,8 +37,8 @@ orchestra:
 genres:
 - Play
 - Drama
-Description: Hunger is an original LGBTQ+ one-act play that follows the love story between Princess Aelia and Siren Selena as they discover what love really means to them.
-Press:
+description: Hunger is an original LGBTQ+ one-act play that follows the love story between Princess Aelia and Siren Selena as they discover what love really means to them.
+press:
 - "Debut of Hunger: The One-Act Play Showcasing a Queer Coming-of-Age Love Story | River City Live News4Jax": https://www.news4jax.com/river-city-live/2024/05/23/debut-of-hunger-the-one-act-play-showcasing-a-queer-coming-of-age-love-story/
 - "Unbridled Mustang: Mandarin grad hungry to change his hometown | Jacksonville Today": https://jaxtoday.org/2024/05/30/unbridled-mustang-mandarin-graduate-l-j-valenzuela-is-hungry-to-change-his-hometown/
 ---

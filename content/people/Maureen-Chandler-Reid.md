@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: MaureenChandlerReid
-  Twitter: 
-  Instagram: chandlerreidphotography
-  LinkedIn: maureen-chandler-reid-11984b10
-  IBDB: 
-  IMDb:
-  Website: https://chandlerreidphotography.com/
-  Backstage: maureen-chandler-reid
+socials:
+  facebook: MaureenChandlerReid
+  twitter: 
+  instagram: chandlerreidphotography
+  linkedin: maureen-chandler-reid-11984b10
+  ibdb: 
+  imdb:
+  website: https://chandlerreidphotography.com/
+  backstage: maureen-chandler-reid
 ---

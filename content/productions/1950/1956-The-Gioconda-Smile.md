@@ -5,8 +5,8 @@ opening_date: 1956-02-01
 closing_date: 1956-02-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Clara: Alice Wise
 - Doris Mead: Joan Pomeroy

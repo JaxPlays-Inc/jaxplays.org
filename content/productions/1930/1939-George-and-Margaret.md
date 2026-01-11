@@ -5,8 +5,8 @@ opening_date: 1939-03-21
 closing_date: 1939-03-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alice: Mrs. Roy Meischner
 - Claude: Oscar Landgren

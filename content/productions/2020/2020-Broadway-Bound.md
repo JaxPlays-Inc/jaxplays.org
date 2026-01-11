@@ -10,8 +10,8 @@ featured_image: 2020_Broadway_Bound.png
 featured_image_attr:
 featured_image_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
 featured_image_caption:
-Theatre: The 5 & Dime
-Website: https://www.the5anddime.org/broadway-bound
+theatre: The 5 & Dime
+website: https://www.the5anddime.org/broadway-bound
 showtimes:
 - 2020-01-24 20:00:00
 - 2020-01-25 20:00:00

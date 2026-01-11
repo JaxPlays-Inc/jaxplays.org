@@ -1,8 +1,8 @@
 ---
 title: The Odd Couple
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 11
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 11
 date: 2024-06-15T13:51:27-04:00
 opening_date: 2024-05-09
 closing_date: 2024-05-19
@@ -21,8 +21,8 @@ featured_image_caption: "'The Odd Couple,' Neil Simon's classic comedy of mismat
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 program:
-Website: https://ameliamusicalplayhouse.com/pastperformances/the-odd-couple/
-Tickets: 
+website: https://ameliamusicalplayhouse.com/pastperformances/the-odd-couple/
+tickets: 
 show_details: 
 cast:
   - Oscar: Dan Cahill
@@ -39,5 +39,5 @@ crew:
   - Artwork: Bill Ivins
 orchestra:
 genres: 
-Description: 
+description: 
 ---

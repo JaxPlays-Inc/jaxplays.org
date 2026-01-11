@@ -5,7 +5,7 @@ opening_date: 1928-11-20
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Anna Penn: Alix Gress
 - Anthony Fair: Charles Murchison

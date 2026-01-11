@@ -7,16 +7,16 @@ featured_image: Players_by_the_Sea.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 1966
-Address: |
+founded: 1966
+address: |
   106 N 6th St
   Jacksonville Beach, FL 32250
-Socials: 
-  Facebook: playersbytheseatheatre
-  Twitter: Playersbythesea
-  Instagram: playersbythesea
-  LinkedIn: company/players-by-the-sea-theater
-  Website: https://playersbythesea.org
+socials: 
+  facebook: playersbytheseatheatre
+  twitter: Playersbythesea
+  instagram: playersbythesea
+  linkedin: company/players-by-the-sea-theater
+  website: https://playersbythesea.org
 color: "#91508e"
 date: 2024-07-02T18:02:39-04:00
 donate: https://ci.ovationtix.com/34877/store/donations/48702?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

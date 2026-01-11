@@ -5,8 +5,8 @@ opening_date: 1942-05-26
 closing_date: 1942-05-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Anne Rogers: Virginia Spence
 - Arthur Westlake: Robert Blackburn

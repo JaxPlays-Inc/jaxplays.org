@@ -5,7 +5,7 @@ opening_date: 1935-05-21
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Barme: Beth Blair
 - Fred: Bob Stoy

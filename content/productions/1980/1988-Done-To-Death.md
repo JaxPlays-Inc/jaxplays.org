@@ -5,8 +5,8 @@ opening_date: 1988-01-22
 closing_date: 1988-02-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Whitney Olive: Jim Pearce
 - Jessica Olive: Jacquie Tracy

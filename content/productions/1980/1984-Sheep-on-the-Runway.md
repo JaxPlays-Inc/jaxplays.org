@@ -5,8 +5,8 @@ opening_date: 1984-01-27
 closing_date: 1984-02-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ambassador Raymond Wilkins: Joe Mullarkey
 - Martha Wilkins: Janell McLeod

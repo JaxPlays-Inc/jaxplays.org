@@ -6,18 +6,18 @@ featured_image: St-Johns-Cultural-Council.webp
 featured_image_attr: 
 featured_image_alt: St. Johns Cultural Council logo
 featured_image_caption: St. Johns Cultural Council logo
-Founded: 
-Address: |
+founded: 
+address: |
     184 San Marco Ave
     St. Augustine, FL 32080
-Latitude: 29.91010859756192
-Longitude: -81.32096097116442
-Socials:
-    Facebook: stjohnsculture
-    Instagram: stjohnsculture
-    YouTube: "@stjohnsculturalcouncil8575"
-    Website: https://stjohnsculture.com/the-waterworks/
-Phone: 
+latitude: 29.91010859756192
+longitude: -81.32096097116442
+socials:
+    facebook: stjohnsculture
+    instagram: stjohnsculture
+    youtube: "@stjohnsculturalcouncil8575"
+    website: https://stjohnsculture.com/the-waterworks/
+phone: 
 ---
 Originally constructed in 1898, The Waterworks was the heart of the city’s first water utility. However, its significance doesn't stop at utilitarian roots—by 1928, the building was transformed into Davenport Park, pioneering the concept of adaptive reuse in St. Augustine. It became a communal sanctuary, housing institutions like the St. Augustine Little Theatre and the St. Augustine Garden Club.
 

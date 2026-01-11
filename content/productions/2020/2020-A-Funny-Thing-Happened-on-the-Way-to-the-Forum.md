@@ -12,15 +12,15 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 show_details:
 - Music: "[[w:Stephen Sondheim]]"
 - Lyrics: Stephen Sondheim
 - Book: 
   - "[[w:Burt Shevelove]]"
   - "[[w:Larry Gelbart]]"
-Website: https://www.playersbythesea.org/forum
+website: https://www.playersbythesea.org/forum
 showtimes:
 - 2020-01-24 20:00:00
 - 2020-01-25 20:00:00
@@ -66,11 +66,11 @@ crew:
 - Producers:
   - Tyvin McSwain
   - Toni Diamond-Bingham
-Press:
+press:
 - A Funny Thing Happened On The Way To The Forum' at Players by the Sea - The Jacksonville BUZZ: https://iwantabuzz.com/arts/arts-in-the-know/a-funny-thing-happened-on-the-way-to-the-forum/
 - A Funny Thing Happened On the Way to the Forum - Visit Jacksonville: https://www.visitjacksonville.com/events/a-funny-thing-happened-on-the-way-to-the-forum/
 - Players by the Sea announces cast of upcoming musical farce - Ponte Vedra Recorder: https://pontevedrarecorder.com/stories/players-by-the-sea-announces-cast-of-upcoming-musical-farce,10168?
-Reviews:
+reviews:
 - A Funny Thing Happened on the Way to the Forum | IwantaBuzz: https://iwantabuzz.com/arts/arts-in-the-know/a-funny-thing-happened-on-the-way-to-the-forum-3/
 ---
 "Broadway’s greatest musical farce takes us back to Ancient Rome for a unique and unforgettable production. Pseudolus, a devious slave, makes a deal to win his freedom by playing matchmaker for his lovesick master, Hero. Rife with pompous generals, domineering parents, and wiley courtesans, this hilarious Tony-winning musical is a non-stop laugh-fest with “something for everyone!" — [A FUNNY THING HAPPENED ON THE WAY TO THE FORUM - Players by the Sea](https://www.playersbythesea.org/forum)

@@ -7,18 +7,18 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: jasonwoodsproductions/
-  Twitter: 
-  Instagram: _jason.woods_
-  Threads:
-  YouTube: jasonwoodsproductions
-  Website: https://www.jasonwoodsproductions.com/
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: jasonwoodsproductions/
+  twitter: 
+  instagram: _jason.woods_
+  threads:
+  youtube: jasonwoodsproductions
+  website: https://www.jasonwoodsproductions.com/
+phone:  
 color: "#3F7ED1"
 ---

@@ -9,10 +9,10 @@ featured_image_caption: Poster for The Little Mermaid
 featured_image_attr: Disney & The Island Theater
 featured_image_attr_link: 
 program:
-Theatre: The Island Theater
-Venue: The Island Theater
-Website: 
-Tickets:
+theatre: The Island Theater
+venue: The Island Theater
+website: 
+tickets:
 show_details: 
 showtimes:
 - 2023-07-14 19:30:00
@@ -95,10 +95,10 @@ crew:
 - Lighting Design: Nick Williams
 - Lights: Jen Gurganus
 orchestra:
-Genres:
+genres:
   - Musical
   - Fantasy
   - Family
-Description: "Dive into a world of enchantment and forbidden love as Ariel, a headstrong mermaid princess, risks it all for a chance to be human."
+description: "Dive into a world of enchantment and forbidden love as Ariel, a headstrong mermaid princess, risks it all for a chance to be human."
 ---
 When Ariel, the adventurous mermaid princess, becomes enamored with the world above the ocean, she makes a daring deal with Ursula, the cunning sea witch. The stakes are high—her voice for human legs and a chance at true love with Prince Eric. But as the tide turns, Ariel learns that love, loyalty, and identity carry their own currents. With unforgettable songs and timeless characters, Disney's The Little Mermaid invites audiences of all ages to be 'part of that world,' in a spellbinding tale of love conquering all.

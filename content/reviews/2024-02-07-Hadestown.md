@@ -8,7 +8,7 @@ featured_image_alt: Photo of the cast of Hadestown. Matthew Patrick Quinn and Am
 authors:
 - Ray Hollister
 production: 2024 Hadestown
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 cast: 
 - Matthew Patrick Quinn
 - Lana Gordon
@@ -19,7 +19,7 @@ cast:
 - Lizzie Markson
 - Ceclia Trippiedi
 description: "Experience the magic of 'Hadestown' — an unforgettable theatrical journey intertwining love, music and myth."
-Correction: "An earlier version of this review erroneously credited Hannah Schreer as one of the Fates. The swing, Cecilia Trippiedi, performed in the opening night's performance. The review has been updated to reflect the correct information. We regret the error."
+correction: "An earlier version of this review erroneously credited Hannah Schreer as one of the Fates. The swing, Cecilia Trippiedi, performed in the opening night's performance. The review has been updated to reflect the correct information. We regret the error."
 ---
 Entering *Hadestown*, I was met with a experience I rarely get to enjoy: a production that I could absorb without preconceptions. With no prior knowledge of the soundtrack and only a faded memory of the mythological tale it's based on, I found myself utterly captivated by the unfolding production. *Hadestown* comes to life through a tapestry of detailed storytelling and emotional depth, all set to a score that holds the audience in rapt attention. The near-magical lighting and a remarkably talented cast distinguish this production, showcasing the distinctive allure and profound impact of live theater at its finest.
 

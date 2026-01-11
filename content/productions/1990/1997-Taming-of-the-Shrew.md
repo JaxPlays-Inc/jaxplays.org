@@ -5,8 +5,8 @@ opening_date: 1997-09-01
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Metropolitan Park
+theatre: Theatre Jacksonville
+venue: Metropolitan Park
 cast:
 - Lucentio: Matt Hemphill
 - Tranio: Andrew Adams

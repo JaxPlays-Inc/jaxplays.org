@@ -10,6 +10,6 @@ genres:
 - Play
 - Drama
 - Historical
-Description: "Uncover the poignant story of two sisters separated by the Holocaust, reunited years later, as they rediscover their bond and confront their past."
+description: "Uncover the poignant story of two sisters separated by the Holocaust, reunited years later, as they rediscover their bond and confront their past."
 ---
 *A Shayna Maidel* explores the emotional reunion of two sisters, Rose and Lusia, who were separated during the Holocaust. Raised in different worlds, Rose in America and Lusia surviving wartime Europe, they come together in New York years after the war. As they attempt to bridge the chasm of their vastly different experiences, the play delves deeply into themes of family, memory, and identity. Through their journey, they confront painful memories and the lingering trauma of the past, finding healing in the shared strength of sisterhood.

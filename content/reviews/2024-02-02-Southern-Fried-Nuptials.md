@@ -8,7 +8,7 @@ featured_image_alt: "Josh Rutgers (Beecham Lefette), Jade Bevis (Dewey Frye, Jr.
 authors:
 - Joy Bossardet
 production: '2024 Southern Fried Nuptials'
-Theatre: Act II Players
+theatre: Act II Players
 cast: 
 - Michael Skaff
 - Tori Tompkins

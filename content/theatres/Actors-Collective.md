@@ -7,13 +7,13 @@ featured_image: Actors_Collective.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2018
-Address: 
-Socials: 
-  Facebook: ActorsCollectiveJax
-  Instagram: actorscollectivejax
-  Website: http://www.actorscollective.com
-Phone:  
+founded: 2018
+address: 
+socials: 
+  facebook: ActorsCollectiveJax
+  instagram: actorscollectivejax
+  website: http://www.actorscollective.com
+phone:  
 Artistic Director: Caryl Butterley
 date: 2023-09-08T00:00:00-04:00
 ---

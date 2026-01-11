@@ -1,7 +1,7 @@
 ---
 title: Driving Miss Daisy
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
 date: 2024-06-13T16:50:23-04:00
 opening_date: 2024-09-13
 closing_date: 2024-09-29
@@ -21,8 +21,8 @@ featured_image_caption: "Experience the timeless charm of 'Driving Miss Daisy' a
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-Driving-Miss-Daisy.pdf
-Website: https://www.theatrejax.com/season-105
-Tickets: https://ci.ovationtix.com/34919
+website: https://www.theatrejax.com/season-105
+tickets: https://ci.ovationtix.com/34919
 show_details: 
 - Playwright: Alfred Uhry
 cast:
@@ -45,11 +45,11 @@ crew:
   - Ben Girvin
   - Daniel Lock
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Historical
-Description: "Experience the touching and enduring friendship between an elderly Southern woman and her African American chauffeur in *Driving Miss Daisy*, a poignant drama that explores themes of race, aging and human connection."
+description: "Experience the touching and enduring friendship between an elderly Southern woman and her African American chauffeur in *Driving Miss Daisy*, a poignant drama that explores themes of race, aging and human connection."
 ---
 Set in Atlanta from the late 1940s to the early 1970s, *Driving Miss Daisy* follows the evolving relationship between Daisy Werthan, a stubborn Jewish widow, and Hoke Colburn, her patient and dignified chauffeur. As they navigate decades of societal change and personal growth, their bond deepens, revealing mutual respect and affection. This Pulitzer Prize-winning play by Alfred Uhry delicately addresses issues of prejudice and the transformative power of friendship, offering a heartfelt look at the complexities of human relationships.
 

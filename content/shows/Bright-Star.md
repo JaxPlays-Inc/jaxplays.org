@@ -10,10 +10,10 @@ show_details:
   - "[[w:Edie Brickell]]"
 - Lyrics: Edie Brickell
 - Book: Steve Martin
-Genres:
+genres:
   - Musical
   - Drama
-Description: "Set in the Blue Ridge Mountains of North Carolina, this emotionally charged musical weaves a tale of love, redemption and hidden connections."
+description: "Set in the Blue Ridge Mountains of North Carolina, this emotionally charged musical weaves a tale of love, redemption and hidden connections."
 ---
 *Bright Star* tells the story of literary editor Alice Murphy who meets a young soldier just home from World War II, stirring up her longing for the child she once lost. The narrative shifts between the 1920s and 1940s, unraveling the secrets of her past and their impact on the present. The music, inspired by American folk and bluegrass traditions, complements the story's deep emotional currents and rich, scenic backdrop. As Alice comes to terms with her painful history, she uncovers the power of forgiveness and alters the lives around her in profound ways.
 

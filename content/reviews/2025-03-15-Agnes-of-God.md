@@ -9,7 +9,7 @@ featured_image_alt: "A young nun in a white and blue habit sits across from a ps
 authors: 
 - Ray Hollister
 production: 2025 Agnes of God
-Theatre: Lumen Repertory Theatre
+theatre: Lumen Repertory Theatre
 cast: 
   - Katie Johnston
   - Karen Konzen

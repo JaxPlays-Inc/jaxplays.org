@@ -5,7 +5,7 @@ opening_date: 1935-06-06
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mr. Isaac Wolfe: Abe Diamond
 - Dawson: Abe Diamond

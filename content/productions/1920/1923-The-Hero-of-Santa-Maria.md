@@ -5,7 +5,7 @@ opening_date: 1923-11-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The Hero of Santa Maria: James Merryweather Hines
 - Bernard P. Foss: Fred Mullikin

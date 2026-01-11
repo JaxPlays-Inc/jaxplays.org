@@ -5,7 +5,7 @@ opening_date: 1932-02-09
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Any French Maid: Betty Rogers
 - Any Ernest Young Wife: Mary Keen

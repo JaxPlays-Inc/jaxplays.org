@@ -8,7 +8,7 @@ featured_image_alt: A joyful cast of 'Escape to Margaritaville' performers on st
 authors:
 - Ray Hollister
 production: 2024 Escape to Margaritaville
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast:
 - Matthew Fecko
 - Logen Cheatham

@@ -1,8 +1,8 @@
 ---
 title: The Shark Is Broken
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 
 date: 2025-03-04T18:58:08-05:00
 opening_date: 2025-02-21
 closing_date: 2025-02-23
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/pastperformances/thesharkisbroken/
-Tickets: https://ameliamusicalplayhouse.com/tickets/
+website: https://ameliamusicalplayhouse.com/pastperformances/thesharkisbroken/
+tickets: https://ameliamusicalplayhouse.com/tickets/
 cast:
 - Richard Dreyfuss: John Mandt
 - Roy Scheider: Jimmy Galaviz

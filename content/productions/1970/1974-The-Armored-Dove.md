@@ -5,8 +5,8 @@ opening_date: 1974-11-29
 closing_date: 1974-12-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Brigadier General Samuel Hawks, U.S.A.F.: Bill Harriman
 - Colonel Snivley, U.S.A.F.: Jim Knize

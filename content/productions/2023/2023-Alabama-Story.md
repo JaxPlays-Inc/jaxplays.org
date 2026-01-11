@@ -9,17 +9,17 @@ featured_image_caption: Poster for Alabama Story
 featured_image_attr: Photography and graphic design by Jon Scherf
 featured_image_attr_link: 
 program:
-Genres:
+genres:
 - Play
 - Drama
 - Historical
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Grace Darling Studio Theatre
-Website: 
-Tickets: https://www.eventbrite.com/e/679563983167
+theatre: ABET - All Beaches Experimental Theatre
+venue: Grace Darling Studio Theatre
+website: 
+tickets: https://www.eventbrite.com/e/679563983167
 show_details: 
 - Playwright: Kenneth Jones
-Description: In 1950s Alabama, a librarian and a state senator find themselves on opposing sides of a censorship battle that shakes their world.
+description: In 1950s Alabama, a librarian and a state senator find themselves on opposing sides of a censorship battle that shakes their world.
 showtimes:
 - 2023-09-29 19:30:00
 - 2023-09-30 19:30:00

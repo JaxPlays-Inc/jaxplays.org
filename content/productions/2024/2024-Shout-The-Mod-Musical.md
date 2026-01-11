@@ -8,14 +8,14 @@ featured_image: 2024_Shout_The_Mod_Musical.webp
 featured_image_caption: "Poster for SHOUT! The Mod Musical"
 featured_image_attr: Theatre Jacksonville
 program:
-Genres:
+genres:
 - Musical
 - Comedy
 - Nostalgia
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-Tickets: https://ci.ovationtix.com/34919
-Description: "Groove to the beat of the '60s in SHOUT! The Mod Musical. Follow five British gals navigating love and liberation, underscored by iconic hits like 'To Sir with Love' and 'Goldfinger.'"
+tickets: https://ci.ovationtix.com/34919
+description: "Groove to the beat of the '60s in SHOUT! The Mod Musical. Follow five British gals navigating love and liberation, underscored by iconic hits like 'To Sir with Love' and 'Goldfinger.'"
 showtimes:
 - 2024-06-07 19:30:00
 - 2024-06-08 19:30:00

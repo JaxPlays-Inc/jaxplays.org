@@ -1,8 +1,8 @@
 ---
 title: Deliver Us From Mama!
-Theatre: St. Mary's Little Theatre
-Venue: Theater by the Trax
-Season: 
+theatre: St. Mary's Little Theatre
+venue: Theater by the Trax
+season: 
 date: 2025-04-04T12:49:59-04:00
 opening_date: 2025-04-25
 closing_date: 2025-05-04
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.stmaryslittletheatre.com/collections/box-office
-Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/67cda8015c241e0f5804954b?source=jaxplays
+website: https://www.stmaryslittletheatre.com/collections/box-office
+tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/67cda8015c241e0f5804954b?source=jaxplays
 cast:
   - Savannah: Jessica Kaye Wright
   - Mama: Tammy Bradley
@@ -35,10 +35,10 @@ crew:
 orchestra:
 show_details: 
   - Playwright: "[[w:Jessie Jones]], [[w:Nicholas Hope]], [[w:Jamie Wooten]]"
-Genres:
+genres:
   - Play
   - Comedy
-Description: "Pack your bags and get ready for a family road trip. That's the situation that Mama and her squabbling “grown-up” children find themselves in with 'Deliver Us From Mama!'"
+description: "Pack your bags and get ready for a family road trip. That's the situation that Mama and her squabbling “grown-up” children find themselves in with 'Deliver Us From Mama!'"
 photos:
 - photo: 2025-Deliver-Us-From-Mama-01.webp
   photo_attr: Vicki Wyttenbach

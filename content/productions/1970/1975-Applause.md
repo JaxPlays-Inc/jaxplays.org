@@ -5,8 +5,8 @@ opening_date: 1975-10-10
 closing_date: 1975-10-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Margo Channing: Nancy Kaye
 - Eve Harrington: Sharon Heffernan

@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: mrsjessicaalexander
-  Twitter: 
-  Instagram: mrsjessicaalexander
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.jessicaalexander.org/
+socials:
+  facebook: mrsjessicaalexander
+  twitter: 
+  instagram: mrsjessicaalexander
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.jessicaalexander.org/
 ---
 Jessica grew up in New York, & from a very young age she loved to sing, dance, act, & perform. She filled her school years with as many musicals & performing opportunities as possible.
 

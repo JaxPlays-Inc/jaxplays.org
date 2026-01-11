@@ -1,8 +1,8 @@
 ---
 title: "Home, I'm Darling"
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Season: 2025-2026
+theatre: A Classic Theatre
+venue: The Waterworks
+season: 2025-2026
 date: 2025-09-01T13:47:45-04:00
 opening_date: 2025-10-03
 closing_date: 2025-10-12
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2025-2026-season
-Tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488641
+website: https://www.aclassictheatre.org/2025-2026-season
+tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488641
 show_details:
 - Playwright: "[[w:Laura Wade]]"
 cast:
@@ -37,7 +37,7 @@ genres:
 - Comedy
 - Other
 - Dark Comedy
-Description: "Being a domestic goddess is not as easy as it looks! *​Home, I'm Darling* is a dark comedy about sex, cake and the quest to be the perfect housewife."
+description: "Being a domestic goddess is not as easy as it looks! *​Home, I'm Darling* is a dark comedy about sex, cake and the quest to be the perfect housewife."
 ---
 Striving for domestic bliss, Judy and Johnny choose to live a 1950s lifestyle, complete with vintage clothes, retro knick knacks and even an old refrigerator. Judy embraces the role of the perfect housewife, while Johnny works in real estate. But pressures from friends and Johnny's work threaten their idyllic life and they struggle to maintain their facade. 
 

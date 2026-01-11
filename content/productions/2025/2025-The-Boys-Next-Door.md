@@ -1,7 +1,7 @@
 ---
 title: The Boys Next Door
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
 date: 2024-06-13T17:16:06-04:00
 opening_date: 2025-03-07
 closing_date: 2025-03-23
@@ -22,8 +22,8 @@ featured_image_caption: "Join Theatre Jacksonville for 'The Boys Next Door,' a h
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Boys-Next-Door.pdf
-Website: https://www.theatrejax.com/season-105
-Tickets: https://ci.ovationtix.com/34919
+website: https://www.theatrejax.com/season-105
+tickets: https://ci.ovationtix.com/34919
 show_details: 
 cast:
   - Arnold Wiggins: Ron Shreve
@@ -57,11 +57,11 @@ crew:
       - Lourdes “Lo” Acosta
       - Cate Lynch
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Comedy
-Description: "Dive into the heartfelt and humorous world of 'The Boys Next Door,' a play that shines a light on the lives of four mentally disabled men living together in a group home."
+description: "Dive into the heartfelt and humorous world of 'The Boys Next Door,' a play that shines a light on the lives of four mentally disabled men living together in a group home."
 ---
 'The Boys Next Door' portrays the daily challenges and simple joys of Jack, Arnold, Norman and Lucien, who live under the supervision of a caring but increasingly burned-out social worker named Jack Palmer. Through a blend of comedy and drama, the play explores the men's struggles with society's expectations, their friendships and their desires.
 

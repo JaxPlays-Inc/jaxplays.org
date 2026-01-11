@@ -5,8 +5,8 @@ opening_date: 1961-04-14
 closing_date: 1961-04-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sir Rowland Delahaye: Frank Ridge
 - Hugo Birch: Elmo Lehman

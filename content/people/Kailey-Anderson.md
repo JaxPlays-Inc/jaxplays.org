@@ -6,14 +6,14 @@ featured_image_attr: Val T Photography
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: kaileyanderson
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm11466545
-  Website: https://www.kailey-anderson.com/
+socials:
+  facebook: 
+  twitter: 
+  instagram: kaileyanderson
+  linkedin: 
+  ibdb: 
+  imdb: nm11466545
+  website: https://www.kailey-anderson.com/
 ---
 A graduate of NYU Tisch Drama, Kailey studied at the Lee Strasberg Theatre & Film Institute and Stonestreet Studios.
 

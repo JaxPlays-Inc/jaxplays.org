@@ -5,7 +5,7 @@ opening_date: 2005-03-04
 closing_date: 2005-03-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Nick Cristano: Michael Smithgall

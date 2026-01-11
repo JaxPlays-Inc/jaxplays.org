@@ -1,8 +1,8 @@
 ---
 title: Froghouses and Fireflies
-Theatre: St. Marys Little Theatre
-Venue: Theater by the Trax
-Season: 
+theatre: St. Marys Little Theatre
+venue: Theater by the Trax
+season: 
 date: 2025-08-05T22:47:47-04:00
 opening_date: 2025-08-15
 closing_date: 2025-08-17
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.stmaryslittletheatre.com/collections/box-office
-Tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/683c723a33d4b60f605b2814/tickets#/productions-view
+website: https://www.stmaryslittletheatre.com/collections/box-office
+tickets: https://www.onthestage.tickets/show/st-marys-little-theatre/683c723a33d4b60f605b2814/tickets#/productions-view
 show_details: 
 - Playwright: Barbara Ryan-Harris
 cast:
@@ -80,7 +80,7 @@ crew:
 genres:
 - Musical
 - Autobiographical
-Description: "A poignant musical memoir about growing up in the south."
+description: "A poignant musical memoir about growing up in the south."
 ---
  St. Marys Little Theatre (SMLT) has announced the debut showing of the original musical *Froghouses & Fireflies* to be performed onstage at Theater by the Trax August 15-17.
 

@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: dotbishop
-  Twitter: DozenDivasShow
-  Instagram: DozenDivas
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  Wikipedia: Dorothy_Bishop
+socials:
+  facebook: dotbishop
+  twitter: DozenDivasShow
+  instagram: DozenDivas
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  wikipedia: Dorothy_Bishop
 ---

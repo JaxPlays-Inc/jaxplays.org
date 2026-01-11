@@ -5,7 +5,7 @@ opening_date: 1930-12-09
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Alice: Agatha Smith
 - William: Carl Cesery

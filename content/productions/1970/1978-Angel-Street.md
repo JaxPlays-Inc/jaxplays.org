@@ -5,8 +5,8 @@ opening_date: 1978-03-17
 closing_date: 1978-04-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mrs. Manningham: Pat Sharpe
 - Mr. Manningham: Ben Weise

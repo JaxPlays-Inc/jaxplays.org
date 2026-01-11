@@ -12,11 +12,11 @@ show_details:
 - Theatre: La MaMa Experimental Theatre Club
 - Basis: Gospel of Saint Matthew
 - Website:
-Genres:
+genres:
   - Musical
   - Drama
   - Spiritual
-Description: "An age-old tale reimagined through song and spirit, Godspell breathes new life into the teachings of Jesus with a blend of rock music, folk storytelling, and comedic sketches."
+description: "An age-old tale reimagined through song and spirit, Godspell breathes new life into the teachings of Jesus with a blend of rock music, folk storytelling, and comedic sketches."
 date: 2023-09-08T00:00:00-04:00
 ---
 *Godspell* is a renowned musical composed by Stephen Schwartz with the book by John-Michael Tebelak. First premiered in 1971, the show features a series of parables primarily based on the Gospel of Matthew, interspersed with a variety of modern music set primarily to lyrics from traditional hymns.

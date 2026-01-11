@@ -1,7 +1,7 @@
 ---
 title: Streetlight Woodpecker
-Theatre: Flagler College Department of Theater Arts
-Venue: Lewis Auditorium
+theatre: Flagler College Department of Theater Arts
+venue: Lewis Auditorium
 date: 2024-02-21
 opening_date: 2024-02-21
 closing_date: 2024-02-25
@@ -17,8 +17,8 @@ featured_image_caption: Poster for 'Streetlight Woodpecker'
 featured_image_attr: Bradley Akers
 featured_image_attr_link:
 program:
-Website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions
-Tickets: https://flagler.universitytickets.com/
+website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions
+tickets: https://flagler.universitytickets.com/
 show_details:
 cast:
 understudies:
@@ -28,7 +28,7 @@ orchestra:
 genres:
 - Play
 - Drama
-Description: "Benji, a young veteran, grapples with adapting to civilian life and mending relationships in his hometown, where the past is inescapable."
+description: "Benji, a young veteran, grapples with adapting to civilian life and mending relationships in his hometown, where the past is inescapable."
 ---
 When Benji's father dies, he temporarily moves in with his childhood friend Sam. Wounded in the war, Benji struggles to process his time in the service and the emotional scars brought on by childhood trauma.
 

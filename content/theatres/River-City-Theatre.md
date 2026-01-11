@@ -7,19 +7,19 @@ featured_image: River-City-Theatre.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 2025
-Address: |
+founded: 2025
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: profile.php?id=61569925598790
-  Twitter: 
-  Instagram: rctjax
-  LinkedIn: rivercitytheatre
-  Threads:
-  Website: https://www.rivercitytheatre.com/
-Phone:  19048008810 
+latitude: 
+longitude: 
+socials: 
+  facebook: profile.php?id=61569925598790
+  twitter: 
+  instagram: rctjax
+  linkedin: rivercitytheatre
+  threads:
+  website: https://www.rivercitytheatre.com/
+phone:  19048008810 
 color: "#171c47"
 ---
 Through innovative, first-rate theatrical productions and educational programming, River City Theatre (RCT) is committed to entertaining, engaging and empowering the Duval County, FL area and surrounding communities.

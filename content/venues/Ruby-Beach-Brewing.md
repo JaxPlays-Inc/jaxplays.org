@@ -6,17 +6,17 @@ featured_image: Ruby-Beach-Brewing.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     228 E Forsyth St
     Jacksonville, FL 32202
-Latitude: 30.3260879879774
-Longitude: -81.65468529631222
-Socials: 
-  Facebook: rubybeachbrewing
-  Twitter: 
-  Instagram: rubybeachbrewing
-  Threads:
-  Website: https://www.rubybeachbrewing.com/
-Phone: 19046476044
+latitude: 30.3260879879774
+longitude: -81.65468529631222
+socials: 
+  facebook: rubybeachbrewing
+  twitter: 
+  instagram: rubybeachbrewing
+  threads:
+  website: https://www.rubybeachbrewing.com/
+phone: 19046476044
 ---

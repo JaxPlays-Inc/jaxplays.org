@@ -5,7 +5,7 @@ opening_date: 1934-01-23
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - James Wylie: Birt Byrd
 - John Shand: Burton Barrs

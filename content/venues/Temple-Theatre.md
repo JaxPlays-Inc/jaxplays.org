@@ -12,14 +12,14 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 1904-08-30
-Address: |
+founded: 1904-08-30
+address: |
     221 Main Street North
     Jacksonville, FL 32202
-Latitude: 30.3282243584241
-Longitude: -81.65710537702451
-Phone:  
-Press:
+latitude: 30.3282243584241
+longitude: -81.65710537702451
+phone:  
+press:
 - "Six historic women's suffrage sites in Jacksonville | The Jaxson": https://www.thejaxsonmag.com/article/six-historic-womens-suffrage-sites-in-jacksonville-page-2/
 - "From the Intracoastal bridges to Temple Theater | The Florida Times-Union": https://www.jacksonville.com/story/news/reason/call-box/2018/10/06/call-box-from-intracoastal-bridges-to-temple-theater/9625664007/
 - "Brochure: Hotel Windle, Jacksonville, Florida | UNF Digital Commons": https://digitalcommons.unf.edu/tourism/33/

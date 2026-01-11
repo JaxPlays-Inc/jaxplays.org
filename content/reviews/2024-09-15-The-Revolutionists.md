@@ -8,7 +8,7 @@ featured_image_alt: "Ayviana Singh as Marianne Angelle and Catie Casey as Marie 
 authors:
 - Ray Hollister
 production: 2024 The Revolutionists
-Theatre: Players by the Sea
+theatre: Players by the Sea
 cast: 
 - Jennifer Lilly
 - Ayviana Singh

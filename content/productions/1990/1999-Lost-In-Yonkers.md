@@ -5,8 +5,8 @@ opening_date: 1999-04-23
 closing_date: 1999-05-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Jay: Jay P. Bilderback
 - Arty: David Eger

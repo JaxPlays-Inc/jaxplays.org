@@ -5,8 +5,8 @@ opening_date: 1991-03-22
 closing_date: 1991-04-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Annelle: Simone Aden
 - Truvy: Bacot Wright

@@ -10,12 +10,12 @@ featured_image_attr:
 featured_image_attr_link:
 program:
 genres:
-Theatre: Jacksonville University - Stein College
-Venue: Swisher Theater
-Website:
-Tickets:
+theatre: Jacksonville University - Stein College
+venue: Swisher Theater
+website:
+tickets:
 show_details:
-Description:
+description:
 showtimes:
 - 2008-10-23 19:30:00
 - 2008-10-24 19:30:00
@@ -157,7 +157,7 @@ orchestra:
 - Percussion: 
   - Amy Chapman
   - Evan Peterson
-Reviews: 
+reviews: 
 - "Ragtime – The Musical | Folio Weekly": https://web.archive.org/web/20231003160558/https://folioweekly.com/2008/10/26/807/
-Press:
+press:
 ---

@@ -5,7 +5,7 @@ opening_date: 2007-03-02
 closing_date: 2007-03-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Bob Jackson: Geoffrey King

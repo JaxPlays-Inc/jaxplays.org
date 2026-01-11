@@ -6,18 +6,18 @@ featured_image: Amelia_Musical_Playhouse.webp
 featured_image_attr: 
 featured_image_alt: Amelia Musical Playhouse Logo
 featured_image_caption: Amelia Musical Playhouse Logo
-Founded: 2013
-Address: |
+founded: 2013
+address: |
     1955 Island Walkway
     Fernandina Beach FL 32034
-Latitude: 30.64149301285743
-Longitude: -81.45736035410896
-Socials: 
-  Facebook: AmeliaMusicalPlayhouse
-  Twitter: amplayhouse
-  Instagram: ameliamusicalplayhouse
-  Website: https://ameliamusicalplayhouse.com/
-Phone: 19042773455
+latitude: 30.64149301285743
+longitude: -81.45736035410896
+socials: 
+  facebook: AmeliaMusicalPlayhouse
+  twitter: amplayhouse
+  instagram: ameliamusicalplayhouse
+  website: https://ameliamusicalplayhouse.com/
+phone: 19042773455
 ---
 Nestled in Amelia Island, Florida, the Amelia Musical Playhouse (AMP) is more than just a theater; it's a community hub for artistic expression. Founded by Jill and Gregg Dillingham, the venue emerged from humble beginnings—a group of singers gathering around a piano—to become a 501(c)(3) nonprofit organization. Known for its "organic scheduling," AMP thrives on the creative input of its all-volunteer team, offering opportunities for people of all ages and skill levels.
 

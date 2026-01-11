@@ -5,8 +5,8 @@ opening_date: 1938-01-18
 closing_date: 1938-01-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Studio Officer: Birt Byrd
 - Rosetti: Carl Cesery

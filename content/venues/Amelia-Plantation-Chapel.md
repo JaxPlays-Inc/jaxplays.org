@@ -6,17 +6,17 @@ featured_image: Amelia-Plantation-Chapel.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     36 Bowman Road
     Fernandina Beach, FL 32034
-Latitude: 30.557408094650604
-Longitude: -81.4477941920561
-Socials: 
-  Facebook: Amelia.Plantation.Chapel
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: https://www.ameliachapel.com/
-Phone: 19042774414
+latitude: 30.557408094650604
+longitude: -81.4477941920561
+socials: 
+  facebook: Amelia.Plantation.Chapel
+  twitter: 
+  instagram: 
+  threads:
+  website: https://www.ameliachapel.com/
+phone: 19042774414
 ---

@@ -8,7 +8,7 @@ featured_image_alt: "Eric Barnum as Jimmy Ray Dobbs leans eagerly towards Maggie
 authors: 
 - Ray Hollister
 production: 2024 Bright Star
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast:
 - Maggie Cox
 - Chad Boyd

@@ -5,8 +5,8 @@ opening_date: 1999-01-15
 closing_date: 1999-01-30
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Gentleman: Tom Nehl
 - Aram Tomasian: Christopher M. Revenaugh

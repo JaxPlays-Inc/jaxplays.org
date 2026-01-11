@@ -5,7 +5,7 @@ opening_date: 1933-02-14
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Thursby: Dorothy Germain
 - Jean Millicent: Edith Pullen

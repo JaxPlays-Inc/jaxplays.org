@@ -5,7 +5,7 @@ opening_date: 1929-03-13
 closing_date: 1929-03-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Assistant Director: Gertrude F. Jacobi
 - Birkmire: Fred Mullikin

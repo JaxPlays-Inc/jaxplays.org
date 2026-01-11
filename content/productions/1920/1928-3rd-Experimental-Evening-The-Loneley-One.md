@@ -6,7 +6,7 @@ closing_date:
 layout: productions
 show_details:
 - Playwright: Gertrude F. Jacobi
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The Man: Isaac Peiser
 - The Woman: Winifred Snowden

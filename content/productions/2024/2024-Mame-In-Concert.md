@@ -1,7 +1,7 @@
 --- 
 title: Mame In Concert
-Theatre: Theatre Jacksonville
-Venue: Florida Theatre
+theatre: Theatre Jacksonville
+venue: Florida Theatre
 date: 2024-05-10T17:42:58
 opening_date: 2024-08-24
 closing_date: 2024-08-25
@@ -14,8 +14,8 @@ featured_image_caption: "Don't miss Linda Purl in 'Mame - The Broadway Musical i
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.floridatheatre.com/events/detail/mame-in-concert
-Tickets: https://bit.ly/mame-tickets
+website: https://www.floridatheatre.com/events/detail/mame-in-concert
+tickets: https://bit.ly/mame-tickets
 show_details: 
 - Music: "[[w:Jerry Herman]]"
 - Lyrics: Jerry Herman
@@ -120,12 +120,12 @@ orchestra:
   - Bass Trombone: Chris Lundquist
 
 # Mame: In Concert
-Genres:
+genres:
   - Musical
   - Concert
   - Family Drama
-Description: "Experience the vivacious spirit of *Mame* in a special concert production, celebrating the musical's timeless songs and the irrepressible charm of its titular character."
-Press:
+description: "Experience the vivacious spirit of *Mame* in a special concert production, celebrating the musical's timeless songs and the irrepressible charm of its titular character."
+press:
 - "Linda Purl Will Star in Florida Mame Concerts | Playbill": https://playbill.com/article/linda-purl-will-star-in-florida-mame-concerts
 - "Florida Theatre & Theatre Jacksonville Present MAME: THE BROADWAY MUSICAL IN CONCERT Starring Linda Purl | Broadway World": https://www.broadwayworld.com/jacksonville/article/Florida-Theatre-Theatre-Jacksonville-Present-MAME-THE-BROADWAY-MUSICAL-IN-CONCERT-Starring-Linda-Purl-20240318
 ---

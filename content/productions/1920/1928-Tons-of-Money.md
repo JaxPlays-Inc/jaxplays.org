@@ -5,7 +5,7 @@ opening_date: 1928-04-24
 closing_date: 1928-04-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Aubrey Henry Maitland Allington: E.S. Beauchamp-Nobbs
 - James Chesterman: Francis M. Williams

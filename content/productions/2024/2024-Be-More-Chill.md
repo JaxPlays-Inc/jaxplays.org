@@ -1,7 +1,7 @@
 ---
 title: Be More Chill
-Theatre: Greenlight Theatre Company
-Venue: Grace Darling Studio Theatre
+theatre: Greenlight Theatre Company
+venue: Grace Darling Studio Theatre
 date: 2024-04-26
 opening_date: 2024-04-26
 closing_date: 2024-04-28
@@ -17,8 +17,8 @@ featured_image_caption: "Catch 'Be More Chill' at Greenlight Theatre Company fro
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.greenlighttheatreco.com/onstage
+website: 
+tickets: https://www.greenlighttheatreco.com/onstage
 cast:
 - Jeremy Heere: Jules Mcdonell
 - Michael Mell: Charlie Gilyard

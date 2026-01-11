@@ -1,7 +1,7 @@
 ---
 title: Charlotte's Web
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
 date: 2024-06-18T13:56:53-04:00
 opening_date: 2024-06-07
 closing_date: 2024-06-23
@@ -22,8 +22,8 @@ featured_image_caption: Poster for 'Charlotte's Web' at Artist Connection Theatr
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: https://artistconnectiontheatre.org/current-show/
-Tickets: https://ci.ovationtix.com/34989/production/1170635
+website: https://artistconnectiontheatre.org/current-show/
+tickets: https://ci.ovationtix.com/34989/production/1170635
 cast:
 - Wilbur: Sam Swartz
 - Charlotte: Hannah O'Shea

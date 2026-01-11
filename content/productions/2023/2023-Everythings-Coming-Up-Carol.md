@@ -1,7 +1,7 @@
 ---
 title: "Everything's Coming Up Carol: A Tribute Show"
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
 date: 2023-09-28
 opening_date: 2023-09-28
 closing_date: 2023-10-14
@@ -22,16 +22,16 @@ featured_image_caption: "Graphic for Everything's Coming Up Carol: A Tribute Sho
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
-Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=255303~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&
+website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
+tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=255303~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&
 show_details: 
 cast:
 crew:
 orchestra:
-Genres:
+genres:
   - Comedy
   - Musical
   - Tribute
-Description: "Relive TV's golden era with this heartfelt tribute to Carol Burnett, sprinkled with iconic sketches and a fresh twist."
+description: "Relive TV's golden era with this heartfelt tribute to Carol Burnett, sprinkled with iconic sketches and a fresh twist."
 ---
 Stepping into the sequined shoes of comedy legend Carol Burnett, this tribute show captures the essence of the groundbreaking TV series. From iconic sketches to classic musical numbers, it's a nostalgic journey down memory lane. And for the die-hard fans, the production has a few new surprises that pay homage to the red-headed queen of comedy herself.

@@ -1,8 +1,8 @@
 ---
 title: Waitress
-Theatre: Players by the Sea
-Venue: Ritz Theatre
-Season: 60
+theatre: Players by the Sea
+venue: Ritz Theatre
+season: 60
 date: 2025-03-20T16:47:21-04:00
 opening_date: 2025-05-16
 closing_date: 2025-05-18
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://playersbythesea.org/season-60/waitress
-Tickets: https://ci.ovationtix.com/34877/production/1238319
+website: https://playersbythesea.org/season-60/waitress
+tickets: https://ci.ovationtix.com/34877/production/1238319
 show_details: 
 cast:
   - Jenna: Raquel Clory
@@ -69,7 +69,7 @@ crew:
   - Deck Assistant: Katarina Goliber
 orchestra:
 description: "**[ALERT: See Production Update.](#production-update)** —  A small-town waitress, caught in a loveless marriage, crafts pies and dreams of a better life, finding hope and transformation in the kitchen."
-Press:
+press:
 - "Players by the Sea to continue production at the Ritz Theatre after being displaced by a fire | News4Jax": https://www.news4jax.com/news/local/2025/05/14/players-by-the-sea-to-continue-production-at-the-ritz-theatre-after-being-displaced-by-a-fire/
 ---
 

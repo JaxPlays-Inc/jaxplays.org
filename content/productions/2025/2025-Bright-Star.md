@@ -1,8 +1,8 @@
 ---
 title: Bright Star
-Theatre: Act II Players
-Venue: Mandarin United Methodist Church Theatre
-Season: 
+theatre: Act II Players
+venue: Mandarin United Methodist Church Theatre
+season: 
 date: 2025-06-07T15:44:10-04:00
 opening_date: 2025-07-17
 closing_date: 2025-07-20
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://actiiplayers.org/bright-star
-Tickets: https://3common.com/actiiplayers-brightstar
+website: https://actiiplayers.org/bright-star
+tickets: https://3common.com/actiiplayers-brightstar
 show_details: 
 cast:
   - Alice Murphy: Avery Maxham
@@ -46,7 +46,7 @@ crew:
   - Musical Director: Ellen Milligan
 orchestra:
 genres: 
-Description: 
+description: 
 ---
 This production is directed by Jacksonville native Juliet Fixel (NYC Choreographer, Director, and Owner/Artistic Director of JFix Productions and Choreography), Ava Fixel (Artistic Director of Act II Players), and Ellen Milligan (Musical Director), and it is choreographed by Juliet Fixel. Joining our local cast are three performers from the New York area on summer hiatus. Together, they bring a dynamic vision to the stage, uniting singers, dancers, musicians, and artists, one that will leave audiences humming long after the final curtain falls.
 

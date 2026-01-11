@@ -7,20 +7,20 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 1980
-Address: |
+founded: 1980
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: https://www.flickr.com/photos/ybagpictures/with/2697987147
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: https://www.flickr.com/photos/ybagpictures/with/2697987147
+phone:  
 color: "#"
-Press:
+press:
 - "Bad economy drops curtain on Youth of the Beaches Arts Guild | Florida Times-Union": https://www.jacksonville.com/story/news/2009/05/06/bad-economy-drops-curtain-on-youth-of-the-beaches-arts-guild/15986659007/
 - 
 ---

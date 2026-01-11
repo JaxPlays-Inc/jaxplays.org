@@ -5,7 +5,7 @@ opening_date: 1930-04-29
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Marchmont: Amy Cavanagh
 - Vicomte de Nanjac: Charles DePencier

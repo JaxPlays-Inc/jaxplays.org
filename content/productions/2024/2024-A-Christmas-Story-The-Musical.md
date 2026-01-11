@@ -1,7 +1,7 @@
 ---
 title: "A Christmas Story: The Musical"
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-11-19T21:34:10-05:00
 opening_date: 2024-11-21
 closing_date: 2024-12-24
@@ -52,8 +52,8 @@ featured_image_caption: "Step into the holiday spirit with 'A Christmas Story: T
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-A-Christmas-Story.pdf
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1463&_s=&sid=b7926b0d30594811496b690960d809ea&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1463&_s=&sid=b7926b0d30594811496b690960d809ea&qty_target=0
 show_details: 
 cast:
   - Jean Shepherd: Jonathan Van Dyke

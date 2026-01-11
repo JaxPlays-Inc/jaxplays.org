@@ -5,7 +5,7 @@ opening_date: 2005-04-22
 closing_date: 2005-05-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Arnold Wiggins: Mike Carlson

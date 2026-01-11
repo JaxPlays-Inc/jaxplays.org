@@ -8,12 +8,12 @@ featured_image: 2023_Four_Weddings_and_an_Elvis.jpeg
 featured_image_caption: Poster of 2023 production of Four Weddings and an Elvis
 featured_image_attr: Theatre Jacksonville
 program: 2023_Four_Weddings_and_an_Elvis.pdf
-Genres:
+genres:
 - Play
 - Comedy
 - Romance
-Description: "In a kitschy Vegas wedding chapel, four wildly different couples seek an Elvis-impersonating minister for quick 'I do's. Yet, love proves to be the ultimate gamble."
-Theatre: Theatre Jacksonville
+description: "In a kitschy Vegas wedding chapel, four wildly different couples seek an Elvis-impersonating minister for quick 'I do's. Yet, love proves to be the ultimate gamble."
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 showtimes:
 - 2023-04-21 19:30:00

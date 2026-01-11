@@ -5,8 +5,8 @@ opening_date: 1939-03-01
 closing_date: 1939-03-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Brewster: Kenneth Godschalk
 - Clifford Vanderstyle: William Pearce

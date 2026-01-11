@@ -5,8 +5,8 @@ opening_date: 1938-04-26
 closing_date: 1938-04-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alex Benson: Katherine Bessent
 - Buck Buchanon: Drummond Paul, Jr.

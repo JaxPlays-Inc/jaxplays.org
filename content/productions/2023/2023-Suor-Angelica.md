@@ -1,7 +1,7 @@
 ---
 title: Suor Angelica
-Theatre: Bold City Opera
-Venue: St. John's Cathedral
+theatre: Bold City Opera
+venue: St. John's Cathedral
 date: 2023-09-22
 opening_date: 2023-09-22
 closing_date: 2023-09-23
@@ -14,8 +14,8 @@ featured_image_caption: Poster for Suor Angelica
 featured_image_attr: 
 featured_image_attr_link: Bold City Opera
 program:
-Website: https://www.boldcityopera.org/suor-angelica
-Tickets: https://secure.givelively.org/event/bold-city-opera-inc/suor-angelica
+website: https://www.boldcityopera.org/suor-angelica
+tickets: https://secure.givelively.org/event/bold-city-opera-inc/suor-angelica
 show_details: 
 - Composer: Giacomo Puccini
 - Librettist: Giovacchino Forzano
@@ -43,12 +43,12 @@ crew:
 ​- Music Director: Brandon Michael Smith
 ​- Organist: Timothy Tuller
 orchestra:
-Genres:
+genres:
 - Opera
 - Drama
 - Tragedy
-Description: "In the secluded walls of a convent, Sister Angelica harbors a secret that has severed her from both family and society. A visit from a face from the past forces her to confront her sins and seek redemption."
-Press:
+description: "In the secluded walls of a convent, Sister Angelica harbors a secret that has severed her from both family and society. A visit from a face from the past forces her to confront her sins and seek redemption."
+press:
 - "Bold City Opera holds its first production | Morning Show - News4Jax": https://www.news4jax.com/video/morning-show/2023/09/21/bold-city-opera-holds-its-first-production/
 ---
 Sung in Italian with English Supertitles

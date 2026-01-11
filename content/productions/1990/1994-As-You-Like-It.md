@@ -10,8 +10,8 @@ showtimes:
 - 1994-09-18 20:00:00
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Metropolitan Park
+theatre: Theatre Jacksonville
+venue: Metropolitan Park
 cast:
 - Adam: Norman Howard
 - Orlando de Boys: Gregory Leute
@@ -96,6 +96,6 @@ crew:
 - Director of Parks and Recreation: Laura D'Alisera
 - Metropolitan Parks Manager: Earl Simms
 - Executive Director: Robert Arleigh White
-Press:
+press:
 - "Theater in the park revived | Spinnaker - Page 8, September 7, 1994": https://digitalcommons.unf.edu/cgi/viewcontent.cgi?article=1291&context=spinnaker
 ---

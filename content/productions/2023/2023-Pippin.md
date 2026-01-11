@@ -8,7 +8,7 @@ featured_image: 2023_Pippin.jpeg
 featured_image_caption: Poster of Pippin
 featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
 program: 2023_Pippin.pdf
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Leading Player: Ilana Marshall

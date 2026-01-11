@@ -6,14 +6,14 @@ featured_image_attr: Tyler Core
 featured_image_attr_link: https://www.tylercoreshoots.com/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: laurenhenriqu
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  YouTube: UCWgqefOUi0PkU_nb3336RmQ
-  Website: https://www.lauren-henriques.com/
+socials:
+  facebook: 
+  twitter: 
+  instagram: laurenhenriqu
+  linkedin: 
+  ibdb: 
+  imdb:
+  youtube: UCWgqefOUi0PkU_nb3336RmQ
+  website: https://www.lauren-henriques.com/
 ---
 Lauren Henriques is an actor, singer and dancer from Chicago who is now based in New York City. In May, she graduated Summa Cum Laude with her BFA in Musical Theatre from Ball State University. She is White, Hispanic and Disabled.

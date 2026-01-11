@@ -5,7 +5,7 @@ opening_date: 1936-03-03
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - A Lawyer:
   - Elmo Lehman, Jr.

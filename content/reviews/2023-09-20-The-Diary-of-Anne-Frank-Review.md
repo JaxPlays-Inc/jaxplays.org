@@ -9,7 +9,7 @@ description:
 authors:
 - Ray Hollister
 production: 2023 The Diary of Anne Frank
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
 - Audrey Rivera
 - Zoe Carpenter
@@ -21,7 +21,7 @@ cast:
 - Michael Skaff
 - Jason Collins
 - Ben Girvin
-Description: "Director Jason Collins brings Anne Frank's diary to life at Theatre Jacksonville. The production skillfully balances historic gravity with human resilience."
+description: "Director Jason Collins brings Anne Frank's diary to life at Theatre Jacksonville. The production skillfully balances historic gravity with human resilience."
 ---
 Director Jason Collins crafts a vivid portrayal of Anne Frank's life at Theatre Jacksonville, shedding light on the indomitable human spirit during one of history's darkest periods.
 <!--more-->

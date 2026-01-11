@@ -8,7 +8,7 @@ featured_image_alt: ""
 authors:
 - Ray Hollister
 production: '2024 Edgar Allan Poe Cocktail Experience'
-Theatre: Edgar Allan Poe Speakeasy
+theatre: Edgar Allan Poe Speakeasy
 cast: 
 - Bryan Allred
 - Kirsten Lindemulder

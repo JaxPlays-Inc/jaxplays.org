@@ -1,8 +1,8 @@
 ---
 title: Nunsense
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: 34
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 34
 date: '2025-12-07T16:45:45-05:00'
 opening_date: '2025-09-12'
 closing_date: '2025-10-05'
@@ -30,8 +30,8 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: 2025-Nunsense.pdf
-Website: https://limelight-theatre.org/productions/nunsense/
-Tickets: https://limelight.ludus.com/index.php?show_id=
+website: https://limelight-theatre.org/productions/nunsense/
+tickets: https://limelight.ludus.com/index.php?show_id=
 cast:
 - Reverend Mother: Joann Nance
 - Sister Mary Hubert: Grace Lewis
@@ -69,10 +69,10 @@ show_details:
 - Music: '[[w:Dan Goggin (composer)|Dan Goggin]]'
 - Lyrics: Dan Goggin
 - Book: Dan Goggin
-Genres:
+genres:
 - Musical
 - Comedy
-Description: A delightfully irreverent musical comedy that follows five quirky nuns
+description: A delightfully irreverent musical comedy that follows five quirky nuns
   as they stage a fundraiser to cover burial costs after an unfortunate convent cooking
   accident.
 source_urls:

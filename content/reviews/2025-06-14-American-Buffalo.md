@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 American Buffalo
-Theatre: Lumen Repertory Theatre
+theatre: Lumen Repertory Theatre
 cast: 
 - David Alford
 - Brian Niece

@@ -1,8 +1,8 @@
 ---
 title: Rounding Third
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Season: 2025-2026
+theatre: A Classic Theatre
+venue: The Waterworks
+season: 2025-2026
 date: 2025-09-01T13:56:19-04:00
 opening_date: 2026-05-01
 closing_date: 2026-05-10
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2025-2026-season#third
-Tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488644
+website: https://www.aclassictheatre.org/2025-2026-season#third
+tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488644
 show_details:
 - Playwright: Richard Dresser 
 cast:
@@ -31,7 +31,7 @@ orchestra:
 genres:
 - Play
 - Comedy
-Description: "*Rounding Third* is a comical journey of two Little League coaches through an entire season, from their first tentative meeting to the climactic championship game."
+description: "*Rounding Third* is a comical journey of two Little League coaches through an entire season, from their first tentative meeting to the climactic championship game."
 ---
 *Rounding Third* is a comical journey of two Little League coaches through an entire season, from their first tentative meeting to the climactic championship game. A stand-in for the team, the coaches speak directly to the audience about competition, character, punctuality, and the importance of wearing the right equipment.
 Don is the tough, blue-collar, win-at-all-costs veteran coach whose son is the star pitcher. Michael, a corporate executive and newcomer to both the town and baseball, agrees to be Don's assistant in order to have a special activity with his son, who's never played baseball before.

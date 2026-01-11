@@ -1,10 +1,10 @@
 ---
 title: Alice in a Christmas Wonderland
-Theatre: Jason Woods Productions
-Venue: 
+theatre: Jason Woods Productions
+venue: 
 - Wharf Main Stage
 - 2nd Street Stage
-Season: 
+season: 
 date: 2024-11-30T18:35:56-05:00
 opening_date: 2024-12-14
 closing_date: 2024-12-15
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: Photography by Eriden Images, Design by Jason Woods
 featured_image_attr_link: 
 program:
-Website: https://www.ameliaisland.com/dickens-on-centre/
-Tickets: 
+website: https://www.ameliaisland.com/dickens-on-centre/
+tickets: 
 show_details: 
 cast:
 crew:

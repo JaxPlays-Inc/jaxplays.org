@@ -1,7 +1,7 @@
 ---
 title: The Somewhat True Tale of Robin Hood
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
 date: 2024-05-16T14:47:02-04:00
 opening_date: 2025-08-08
 closing_date: 2025-08-24
@@ -22,8 +22,8 @@ featured_image_caption: Graphic for *The Somewhat True Tale of Robin Hood*
 featured_image_attr: Artist Connection Theatre
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/season-2024-2025/
-Tickets: https://ci.ovationtix.com/34989/production/1207877
+website: https://artistconnectiontheatre.org/season-2024-2025/
+tickets: https://ci.ovationtix.com/34989/production/1207877
 show_details: 
 cast:
   - Fawning Lady:
@@ -70,12 +70,12 @@ crew:
       - Harrison Green
       - Kendall Keohane
 orchestra:
-Genres:
+genres:
   - Play
   - Comedy
   - Farce
   - Historical
-Description: "Get ready for a hilarious twist on a classic legend with *The Somewhat True Tale of Robin Hood*, where the infamous outlaw's story is retold with a side-splitting sense of humor."
+description: "Get ready for a hilarious twist on a classic legend with *The Somewhat True Tale of Robin Hood*, where the infamous outlaw's story is retold with a side-splitting sense of humor."
 ---
 Join Robin Hood and his band of Merry Men in this uproarious reimagining of the legendary tale. In *The Somewhat True Tale of Robin Hood,* the audience is treated to a comedic adventure filled with outrageous characters, witty dialogue, and laugh-out-loud situations. Robin Hood's quest to steal from the rich and give to the poor is fraught with unexpected obstacles, thanks to the bumbling Sheriff of Nottingham and the clueless Prince John. This play offers a fresh, funny take on the age-old story, making it a delightful experience for audiences of all ages.
 

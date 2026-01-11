@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Waitress
-Theatre: Players by the Sea
+theatre: Players by the Sea
 description: "After fire damage closed its Jacksonville Beach venue, Players by the Sea brings Waitress to the historic Ritz Theatre in LaVilla. Explore the new showtimes, ticket options and why this venue is a powerful fit for the musical’s Northeast Florida premiere."
 ---
 When a [fire broke out at Players by the Sea's building in April](/news/2025/04/11/fire-at-players-by-the-sea-causes-widespread-damage-cancels-performances/), it brought their spring season to a sudden standstill. Smoke and water damage left the building unusable, and with the set built and rehearsals well underway, the fate of their production of [[production:2025 Waitress]] hung in the balance.<!--more-->

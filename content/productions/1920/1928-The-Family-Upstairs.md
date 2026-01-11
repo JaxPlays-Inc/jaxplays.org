@@ -5,7 +5,7 @@ opening_date: 1928-02-21
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Grant: Charlotte Bowden Perry
 - Charles Grant: Frank Elmore

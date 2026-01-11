@@ -5,8 +5,8 @@ opening_date: 1972-03-10
 closing_date: 1972-03-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - '''Con'' Kidder': Jay Smith
 - '''Kid'' Kidder': Jess Barnett

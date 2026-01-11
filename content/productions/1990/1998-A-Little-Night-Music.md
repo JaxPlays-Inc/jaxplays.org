@@ -5,8 +5,8 @@ opening_date: 1998-06-05
 closing_date: 1998-06-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mr. Lindquist: James L. Wright
 - Mrs. Nordstrom: Trish Strain
@@ -32,21 +32,21 @@ Artistic Director: Robert Arleigh White
 Musical Director: Laura Peden
 Scenic and Lighting Design: Andrew J. Way
 Production Coordinator: Bruce Barrett Musser
-Choreographer: Michelle Ottley
+choreographer: Michelle Ottley
 Technical Director: Andrew J. Way
 Stage Manager: Shelly Higgins Hughes
 Special Features: Diane Reese
 Scenic Painting: Jasmin Pahlivanovic
-Costumes:
+costumes:
 - Nitza Cochran
 - Chuck Chapman
-Dresser:
+dresser:
 - Marian Bornovalova
 - Sara Franklin
 - Dawn Runyan
 - Cathy Duncan
 Hair and Make-up: Bruce Barrett Musser
-Properties:
+properties:
 - Jon Bennett
 - T.J. Pietro
 - Jennifer Criswell
@@ -78,7 +78,7 @@ Set Construction:
 Set Dressings: Bruce Barrett Musser
 Light Technician: Gloria Pepe
 Follow Spot Operator: Andrea Chaknis
-Grip:
+grip:
 - Mary Swanson
 - Ashira Brooke
 - Karen Jones

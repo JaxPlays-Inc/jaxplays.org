@@ -7,7 +7,7 @@ featured_image_caption: "The classic Broadway musical 'A Funny Thing Happened on
 authors: 
 - JaxPlays
 production: 2025 A Funny Thing Happened on the Way to the Forum
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 description: "Tony winner Cady Huffman leads 'A Funny Thing Happened on the Way to the Forum' in concert at the Florida Theatre, presented by Theatre Jacksonville and the Florida Theatre for two performances only, August 23–24, 2024."
 ---
 

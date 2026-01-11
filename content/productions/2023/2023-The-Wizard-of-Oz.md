@@ -9,10 +9,10 @@ featured_image_caption: Poster for The Wizard of Oz
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 program:
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Website: https://ameliamusicalplayhouse.com/performances/oz2023/
-Tickets: https://ameliamusicalplayhouse.com/tickets/
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+website: https://ameliamusicalplayhouse.com/performances/oz2023/
+tickets: https://ameliamusicalplayhouse.com/tickets/
 show_details: 
 showtimes:
 - 2023-10-12 19:30:00

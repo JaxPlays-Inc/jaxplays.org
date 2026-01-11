@@ -14,11 +14,11 @@ show_details:
 - Basis: 
 - Website: 
 # Shrek the Musical
-Genres:
+genres:
   - Musical
   - Comedy
   - Family
-Description: "Journey to a land of fairy tales with Shrek, an ogre who embarks on a quest to reclaim the deed to his swamp, and discovers friendship and love along the way."
+description: "Journey to a land of fairy tales with Shrek, an ogre who embarks on a quest to reclaim the deed to his swamp, and discovers friendship and love along the way."
 ---
 *Shrek the Musical* brings the beloved story of the unlikely hero Shrek to the stage. Alongside a wisecracking donkey, Shrek ventures on a quest to rescue the feisty Princess Fiona as part of a deal to regain his swamp from the scheming Lord Farquaad. Set against a backdrop of fairy tale misfits and adventures, the musical delves into themes of acceptance, courage, and true love. With its witty dialogue, dynamic characters, and memorable songs, *Shrek the Musical* offers a heartwarming celebration of individuality and the power of what it means to be a true hero.
 

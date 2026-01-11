@@ -5,14 +5,14 @@ layout: productions
 title: Bus Stop
 date: 2023-09-08T00:00:00
 opening_date: 2020-06-25
-Theatre: Limelight Theatre
-Genres: 
+theatre: Limelight Theatre
+genres: 
 - Play
 - Drama
 show_details:
 - Writer: "[[w:William Inge]]"
 - Setting: A diner in rural Kansas during a snow storm
-Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
+website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes:
 - 2020-06-25 19:30:00
 - 2020-06-26 19:30:00

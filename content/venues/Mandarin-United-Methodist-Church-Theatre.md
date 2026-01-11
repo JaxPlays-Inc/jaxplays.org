@@ -5,17 +5,17 @@ active: true
 featured_image: Mandarin-United-Methodist-Church.webp
 featured_image_alt: "Logo of Mandarin United Methodist Church featuring a stylized cross with the letter M."
 featured_image_caption: "The logo of Mandarin United Methodist Church."
-Founded: 
-Address: |
+founded: 
+address: |
     11270 San Jose Blvd
     Jacksonville, FL 32223
-Latitude: 30.169274801468774
-Longitude: -81.63161564480669
-Socials: 
-  Facebook: mandarinumc
-  Twitter: 
-  Instagram: mandarinumc
-  Threads:
-  Website: https://www.mumc.net/
-Phone: 19042685549
+latitude: 30.169274801468774
+longitude: -81.63161564480669
+socials: 
+  facebook: mandarinumc
+  twitter: 
+  instagram: mandarinumc
+  threads:
+  website: https://www.mumc.net/
+phone: 19042685549
 ---

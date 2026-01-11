@@ -1,7 +1,7 @@
 ---
 title: Trouble in Mind
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 date: 2024-05-10
 opening_date: 2024-05-10
 closing_date: 2024-05-26
@@ -21,8 +21,8 @@ featured_image_caption: Promotional Graphic for 'Trouble in Mind'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://playersbythesea.org/trouble-in-mind
-Tickets: https://ci.ovationtix.com/34877/production/1187113
+website: https://playersbythesea.org/trouble-in-mind
+tickets: https://ci.ovationtix.com/34877/production/1187113
 show_details: 
 - Playwright: "[[w:Alice Childress]]"
 cast:
@@ -47,12 +47,12 @@ crew:
 - Master Carpenter: Tom Cassaro
 - Sound Design: GoldenStage Productions
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Comedy
   - Satire
-Description: "A searing satire of racism in the theater world, *Trouble in Mind* follows a talented African American actress through the rehearsals of a major Broadway production that exposes harsh truths both onstage and off."
+description: "A searing satire of racism in the theater world, *Trouble in Mind* follows a talented African American actress through the rehearsals of a major Broadway production that exposes harsh truths both onstage and off."
 ---
 Set during the rehearsals of a Broadway show, *Trouble in Mind* centers on Wiletta Mayer, an experienced African American actress grappling with the stereotypical role she's been given. As the rehearsal process unfolds, Wiletta confronts the white director's problematic vision and the industry's deep-seated racial biases. This incisive drama by Alice Childress offers a critical look at the dynamics of race, power, and art, challenging the status quo and pushing the boundaries of what theater can and should represent.
 

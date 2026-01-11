@@ -1,8 +1,8 @@
 ---
 title: Fly By Night
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: 33
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 33
 date: 2025-05-01T09:34:02-04:00
 opening_date: 2025-05-08
 closing_date: 2025-05-25
@@ -26,8 +26,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Fly-By-Night.pdf
-Website: https://www.limelight-theatre.org/season-32-shows-1/fly-by-night
-Tickets: https://limelight.ludus.com/200459139
+website: https://www.limelight-theatre.org/season-32-shows-1/fly-by-night
+tickets: https://limelight.ludus.com/200459139
 show_details: 
 - Conceived by: Kim Rosenstock
 - Music:
@@ -75,11 +75,11 @@ crew:
       - Charles Ross
   - Publicity Trailer: Daniel Starling
   - Show Trailer: Charity Walton
-Genres:
+genres:
   - Musical
   - Drama
   - Romance
-Description: "Navigate a cosmic love triangle in this charming musical that intertwines fate, ambition and the interconnectedness of six New Yorkers."
+description: "Navigate a cosmic love triangle in this charming musical that intertwines fate, ambition and the interconnectedness of six New Yorkers."
 ---
 *Fly By Night* explores the interwoven lives of a young sandwich maker and two sisters who aspire to break into the New York theater scene. Set against the backdrop of the 1965 blackout, the story delves into themes of love, destiny, and serendipity. As the characters face personal tragedies and pursue their dreams, their paths converge in unexpected ways, illustrating how the universe pulls us in directions we can never predict. With a melodic score that echoes the whimsical yet poignant narrative, *Fly By Night* captures the heartache and hope of chasing dreams in a city that never sleeps.
 

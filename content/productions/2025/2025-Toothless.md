@@ -1,8 +1,8 @@
 ---
 title: "Toothless: A Halloween Treat"
-Theatre: Apex Theatre Studio
-Venue: Apex Theatre Studio
-Season: 2025
+theatre: Apex Theatre Studio
+venue: Apex Theatre Studio
+season: 2025
 date: 2025-09-17T21:00:00-04:00
 opening_date: 2025-10-24
 closing_date: 2025-10-30
@@ -16,17 +16,17 @@ featured_image_caption: '"Toothless: A Halloween Treat" presented by Apex Theatr
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.apextheatrejax.com
-Tickets: https://www.eventbrite.com/e/1804751453179?aff=oddtdtcreator
+website: https://www.apextheatrejax.com
+tickets: https://www.eventbrite.com/e/1804751453179?aff=oddtdtcreator
 show_details:
   - Playwright: "Ian Mairs"
   - Premiere: "October 2025, Apex Theatre Studio Black Box, St. Augustine, FL"
-Genres:
+genres:
   - Play
   - Comedy
   - Horror
   - Teen
-Description: "An original horror comedy about identity, isolation, and unlikely friendship, blending 1980s humor with Halloween chills."
+description: "An original horror comedy about identity, isolation, and unlikely friendship, blending 1980s humor with Halloween chills."
 cast:
 crew:
   - Director: Ian Mairs

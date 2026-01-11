@@ -12,5 +12,5 @@ show_details:
 genres:
 - Musical
 - Play
-Description:
+description:
 ---

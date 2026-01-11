@@ -5,8 +5,8 @@ opening_date: 1957-04-03
 closing_date: 1957-04-13
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sarah: Alice Wise
 - Mr. Springer: Lance Hunt

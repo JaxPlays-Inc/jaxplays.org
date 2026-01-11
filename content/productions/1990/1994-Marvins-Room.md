@@ -5,8 +5,8 @@ opening_date: 1994-01-14
 closing_date: 1994-01-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bessie: Margaret Kaler Reynolds
 - Dr. Wally: Brad Trowbridge

@@ -1,8 +1,8 @@
 ---
 title: Little Women (musical)
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
-Season: 
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
+season: 
 date: 2025-11-18T22:06:55-05:00
 opening_date: 2025-11-29
 closing_date: 2025-12-14
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.ameliacommunitytheatre.org
-Tickets: https://app.arts-people.com/index.php?show=289009
+website: https://www.ameliacommunitytheatre.org
+tickets: https://app.arts-people.com/index.php?show=289009
 show_details: 
 cast:
   - Jo March: Nicole Sheehan
@@ -87,8 +87,8 @@ crew:
   - Biography Photographer: Kailin Lake
 orchestra:
 genres: 
-Description: 
-Photos:
+description: 
+photos:
 - photo: /media/photos/2025-Little-Women-3936.webp
   photo_alt: 
   photo_caption: 

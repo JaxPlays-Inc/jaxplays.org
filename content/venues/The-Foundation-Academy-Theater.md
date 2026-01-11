@@ -6,17 +6,17 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     3675 San Pablo Rd S
     Jacksonville, FL 32224
-Latitude: 30.27954316615304
-Longitude: -81.43528486384177
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone:  
+latitude: 30.27954316615304
+longitude: -81.43528486384177
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone:  
 ---

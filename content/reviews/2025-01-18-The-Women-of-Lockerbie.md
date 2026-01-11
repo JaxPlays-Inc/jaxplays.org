@@ -8,7 +8,7 @@ featured_image_caption: "Evie Day, portraying Madeline Livingston, stands at the
 authors: 
 - Ray Hollister
 production: 2025 The Women of Lockerbie
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
 - Evie Day
 - Taylor Smith

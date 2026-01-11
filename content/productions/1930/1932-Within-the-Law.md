@@ -5,7 +5,7 @@ opening_date: 1932-04-29
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Anges Lynch: Agnes Towers
 - Eddie Griggs: Carl Cesery

@@ -1,8 +1,8 @@
 ---
 title: The Wizard of Oz 
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 
 date: 2024-10-14T14:12:00-04:00
 opening_date: 2024-11-01
 closing_date: 2024-11-17
@@ -24,8 +24,8 @@ featured_image_caption:
 featured_image_attr: Bill Ivins
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/performances/oz2024/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/performances/oz2024/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
   - Dorothy Gale: Sarah Perkins
@@ -131,5 +131,5 @@ crew:
 - Director: Beth Perkins
 orchestra:
 genres: 
-Description: 
+description: 
 ---

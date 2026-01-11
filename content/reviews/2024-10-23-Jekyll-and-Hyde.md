@@ -8,7 +8,7 @@ featured_image_caption: "Cole Marshall delivers a captivating performance as Dr.
 authors: 
 - Ray Hollister
 production: 2024 Jekyll and Hyde
-Theatre: Players by the Sea
+theatre: Players by the Sea
 cast: 
 - Cole Marshall
 - Julia Blasi

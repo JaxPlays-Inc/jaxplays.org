@@ -5,10 +5,10 @@ opening_date: 1928-03-20
 closing_date:
 layout: productions
 program:
-Genres: 
+genres: 
 - Play
 - Comedy
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Denny Cort: Charles Murchison
 - Dr. Gurney: George Parkhill

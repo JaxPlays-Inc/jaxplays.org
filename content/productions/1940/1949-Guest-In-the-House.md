@@ -5,8 +5,8 @@ opening_date: 1949-01-14
 closing_date: 1949-01-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ann Proctor: Alice Ahern
 - Dan Proctor: LaMarr Wigg

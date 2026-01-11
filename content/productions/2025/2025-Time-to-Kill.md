@@ -1,8 +1,8 @@
 ---
 title: Time to Kill
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
-Season: 
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
+season: 
 date: 2025-10-18T17:49:31-04:00
 opening_date: 2025-11-07
 closing_date: 2025-11-09
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/productions
-Tickets: https://ci.ovationtix.com/34989/production/1248951
+website: https://artistconnectiontheatre.org/productions
+tickets: https://ci.ovationtix.com/34989/production/1248951
 show_details: 
   - Playwright: Bill Hamilton
   - Basis: "*[[w:The_Killers_(Hemingway_short_story)|The Killers]]* by [[w:Ernest Hemingway]]"
@@ -43,7 +43,7 @@ crew:
   - Director: Shelby Ellis
 orchestra:
 genres: 
-Description: "Based on Ernest Hemingway's *The Killers*, two hitmen enter a quiet Chicago diner with orders to take down boxer Ole Andreson. When the job unravels, the night spirals into violence and betrayal."
+description: "Based on Ernest Hemingway's *The Killers*, two hitmen enter a quiet Chicago diner with orders to take down boxer Ole Andreson. When the job unravels, the night spirals into violence and betrayal."
 ---
 Artist Connection Theatre is thrilled and honored to announce the first-ever production of *Time to Kill*, an original play written by their own Bill Hamilton and based on *The Killers* by Ernest Hemingway! This production runs for 1 weekend only. Grab your tickets while you can and be the first to ever see this production live on stage. This gripping play features actors handpicked by the playwright for each role!
 

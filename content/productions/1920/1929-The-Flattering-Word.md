@@ -5,7 +5,7 @@ opening_date: 1929-01-22
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Lena: Birsa Shepard
 - Eugene Tesh: Douglas B. Leatherbury

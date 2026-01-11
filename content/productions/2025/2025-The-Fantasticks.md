@@ -1,8 +1,8 @@
 ---
 title: The Fantasticks
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Adele Grage Cultural Center
-Season: 
+theatre: ABET - All Beaches Experimental Theatre
+venue: Adele Grage Cultural Center
+season: 
 date: 2025-05-07T09:26:40-04:00
 opening_date: 2025-06-05
 closing_date: 2025-06-22
@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Fantasticks.pdf
-Website: https://www.abetjax.com/
-Tickets: https://www.tickettailor.com/events/abetallbeachesexperimentaltheatre/1585871?utm_source=jaxplays
+website: https://www.abetjax.com/
+tickets: https://www.tickettailor.com/events/abetallbeachesexperimentaltheatre/1585871?utm_source=jaxplays
 cast:
 - El Gallo: Franklin Ritch
 - The Mute: Joe Capps

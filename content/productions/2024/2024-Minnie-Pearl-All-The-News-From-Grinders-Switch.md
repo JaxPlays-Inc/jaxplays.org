@@ -1,8 +1,8 @@
 ---
 title: "Minnie Pearl: All The News From Grinder's Switch"
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
-Season: 
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
+season: 
 date: 2024-06-18T14:22:48-04:00
 opening_date: 2024-06-07
 closing_date: 2024-06-29
@@ -15,12 +15,12 @@ showtimes:
 - 2024-06-28 19:00:00
 - 2024-06-29 19:00:00
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

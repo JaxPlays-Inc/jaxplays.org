@@ -9,16 +9,16 @@ featured_image_caption: Poster for 'The Winter Wonderettes'
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program: 2023-The-Winter-Wonderettes.pdf
-Genres:
+genres:
   - Musical
   - Comedy
   - Holiday
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
-Website: https://playersbythesea.org/winter-wonderettes
-Tickets: https://ci.ovationtix.com/34877/production/1149817
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
+website: https://playersbythesea.org/winter-wonderettes
+tickets: https://ci.ovationtix.com/34877/production/1149817
 show_details: 
-Description: Dive into a winter wonderland with the Winter Wonderettes, as they navigate office parties and romantic mix-ups in classic '60s style.
+description: Dive into a winter wonderland with the Winter Wonderettes, as they navigate office parties and romantic mix-ups in classic '60s style.
 showtimes:
 - 2023-12-01 20:00:00
 - 2023-12-02 20:00:00

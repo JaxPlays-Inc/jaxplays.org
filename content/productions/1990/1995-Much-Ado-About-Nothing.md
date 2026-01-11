@@ -5,8 +5,8 @@ opening_date: 1995-09-14
 closing_date: 1995-09-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Metropolitan Park
+theatre: Theatre Jacksonville
+venue: Metropolitan Park
 cast:
 - Don Pedro: Leigh Montanye
 - Don John: Randall Adkison

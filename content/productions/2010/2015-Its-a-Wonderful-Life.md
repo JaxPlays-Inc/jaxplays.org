@@ -9,7 +9,7 @@ featured_image: 2015_It's_a_Wonderful_Life.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Genres: 
+genres: 
 - Play
 - Holiday
 - Comedy
@@ -18,7 +18,7 @@ Genres:
 - Radio play
 - Fantasy
 - Supernatural
-Theatre: WJCT Radio Theater
+theatre: WJCT Radio Theater
 show_details:
 - Writer: Tony Palermo
 - Setting: "[[w:Bedford_Falls_(It's_a_Wonderful_Life)|Bedford Falls, New York]]"
@@ -95,7 +95,7 @@ showtimes:
 - 2015-12-25 21:00:00
 - 2015-12-25 22:00:00
 - 2015-12-25 23:00:00
-Press:
+press:
 - WJCT's It's A Wonderful Life Cast Party: https://wjct.smugmug.com/WJCTs-Its-A-Wonderful-Life/
 - The WJCT 'It's A Wonderful Life' Behind-The-Scenes Production Podcast Thing: https://news.wjct.org/programs/wjct-its-wonderful-life-behind-scenes-production-podcast-thing
 - Tony Palermo: https://www.ruyasonic.com/tpalermo.htm

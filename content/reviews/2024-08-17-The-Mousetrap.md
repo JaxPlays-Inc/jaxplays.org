@@ -8,7 +8,7 @@ featured_image_alt: "Cast members of Agatha Christie's 'The Mousetrap' posing in
 authors:
 - Ray Hollister
 production: 2024 The Mousetrap
-Theatre: Amelia Community Theatre
+theatre: Amelia Community Theatre
 cast: 
 - CallieAnn Maggart
 - Garland Trey Stafford

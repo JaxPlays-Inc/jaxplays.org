@@ -8,7 +8,7 @@ featured_image_alt: "A collage showing scenes from 'Driving Miss Daisy' with Jen
 authors:
 - Ray Hollister
 production: 2024 Driving Miss Daisy
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
 - Jen Mercer
 - Alec Hadden

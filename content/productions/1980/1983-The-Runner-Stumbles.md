@@ -5,8 +5,8 @@ opening_date: 1983-12-02
 closing_date: 1983-12-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Amos: Michael Lewis
 - Father Rivard: David H. Horne, Jr.

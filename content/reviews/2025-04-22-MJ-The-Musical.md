@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 MJ The Musical
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 cast: 
 description: "'MJ The Musical' Broadway tour delivers iconic hits, stunning choreography, immersive visuals and a powerful tribute to the legacy of Michael Jackson."
 ---

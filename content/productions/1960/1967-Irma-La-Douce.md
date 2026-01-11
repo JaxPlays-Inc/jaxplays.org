@@ -5,8 +5,8 @@ opening_date: 1967-05-19
 closing_date: 1967-06-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Irma-La-Douce - a Poule: Jeanne Solomon Berdet
 - Nestor-Le-Fripe - a Law Student: Bill Bronson

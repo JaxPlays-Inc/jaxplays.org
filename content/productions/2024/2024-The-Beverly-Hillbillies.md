@@ -1,7 +1,7 @@
 ---
 title: The Beverly Hillbillies
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
 date: 2024-05-16T14:40:54-04:00
 opening_date: 2024-10-25
 closing_date: 2024-11-10
@@ -22,8 +22,8 @@ featured_image_caption: Graphic for 'The Beverly Hillbillies'
 featured_image_attr: Artist Connection Theatre
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/season-2024-2025/
-Tickets: https://ci.ovationtix.com/34989/production/1207871
+website: https://artistconnectiontheatre.org/season-2024-2025/
+tickets: https://ci.ovationtix.com/34989/production/1207871
 show_details: 
 - Playwright: David Rogers
 - Basis: Based on the television program by Paul Henning
@@ -61,11 +61,11 @@ crew:
     - Josh Sudduth
     - Liberty Copeland
 orchestra:
-Genres:
+genres:
   - Play
   - Comedy
   - Family
-Description: "Join the Clampetts in this uproarious stage adaptation as they strike oil and bring their backwoods charm to the posh hills of Beverly."
+description: "Join the Clampetts in this uproarious stage adaptation as they strike oil and bring their backwoods charm to the posh hills of Beverly."
 ---
 When the Clampett family unexpectedly strikes oil on their land, they become instant millionaires and decide to move from their humble rural home to the lavish world of Beverly Hills. As they navigate their new high-society surroundings, their simple, country ways clash with the sophisticated lifestyle of their wealthy neighbors, leading to a series of hilarious misunderstandings and comedic antics. This stage adaptation of the beloved TV show captures all the humor and heart of the original, bringing the classic fish-out-of-water story to life with unforgettable characters and laugh-out-loud moments.
 

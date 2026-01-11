@@ -5,8 +5,8 @@ opening_date: 1940-02-13
 closing_date: 1940-02-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Debutante: Elise Clarke
 - A Dowager: Ola Don Etter

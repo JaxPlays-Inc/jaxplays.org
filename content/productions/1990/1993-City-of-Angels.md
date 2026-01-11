@@ -6,8 +6,8 @@ approx_date: year
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Jimmy Powers: Jason McDougald
 - The Angel City Four:

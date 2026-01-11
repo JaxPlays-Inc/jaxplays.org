@@ -1,8 +1,8 @@
 ---
 title: Peter Pan
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-06-15T15:10:31-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-21
@@ -19,8 +19,8 @@ featured_image_caption: "Embark on a whimsical journey with 'Peter Pan' as it sa
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.theislandtheater.com/productions
-Tickets: https://www.theislandtheater.com/peter-pan-tickets
+website: https://www.theislandtheater.com/productions
+tickets: https://www.theislandtheater.com/peter-pan-tickets
 show_details: 
 - Music:
   - "[[w:Jule Styne]]"
@@ -110,11 +110,11 @@ cast:
 crew:
 orchestra:
 # Peter Pan
-Genres:
+genres:
   - Musical
   - Adventure
   - Family
-Description: "Fly away to Neverland with a timeless adventure that captures the joy of youth, the thrill of the unknown, and the meaning of friendship."
+description: "Fly away to Neverland with a timeless adventure that captures the joy of youth, the thrill of the unknown, and the meaning of friendship."
 photos:
 - photo: 2024-Peter-Pan-Cast-List.webp
   photo_attr: "The Island Theater"

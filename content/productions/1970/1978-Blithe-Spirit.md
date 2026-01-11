@@ -5,8 +5,8 @@ opening_date: 1978-05-05
 closing_date: 1978-05-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Edith: Cynthia Wooden
 - Ruth: Kandice McNett

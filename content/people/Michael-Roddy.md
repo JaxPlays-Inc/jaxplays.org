@@ -10,12 +10,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: jmichael.roddy
-  Twitter: jmichaelroddy
-  Instagram: jamesmichaelroddy
-  LinkedIn: michaelroddy
-  IBDB: 
-  IMDb: nm0734501
-  Website: https://www.michaelroddystoryteller.com/
+socials:
+  facebook: jmichael.roddy
+  twitter: jmichaelroddy
+  instagram: jamesmichaelroddy
+  linkedin: michaelroddy
+  ibdb: 
+  imdb: nm0734501
+  website: https://www.michaelroddystoryteller.com/
 ---

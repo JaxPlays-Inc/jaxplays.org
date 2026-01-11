@@ -1,8 +1,8 @@
 ---
 title: American Buffalo
-Theatre: Lumen Repertory Theatre
-Venue: WJCT Studio B
-Season: 2025
+theatre: Lumen Repertory Theatre
+venue: WJCT Studio B
+season: 2025
 date: 2025-03-04T20:54:22-05:00
 opening_date: 2025-06-13
 closing_date: 2025-06-28
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.lumenrep.org/shop
+website: 
+tickets: https://www.lumenrep.org/shop
 show_details: 
 - Playwright: "[[w:David Mamet]]"
 cast:
@@ -40,9 +40,9 @@ crew:
 - Scenic & Prop Design: Claire Cimino
 - Costume Designer: Camala Pitts
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
-Description: "Immerse yourself in the gritty world of small-time crooks in David Mamet’s American Buffalo, where loyalty and business collide with explosive consequences."
+description: "Immerse yourself in the gritty world of small-time crooks in David Mamet’s American Buffalo, where loyalty and business collide with explosive consequences."
 ---
 *American Buffalo*, one of David Mamet’s most acclaimed plays, centers on Donny Dubrow, the owner of a junk shop, who plans to steal a valuable coin collection he believes he sold for too little. Together with his gofer and protégé, Bob and a friend, Teach, who is a volatile and dangerous con man, they plot the heist. The play intensifies as the trio’s loyalty, morality and trust unravel, exposing their desperation and the futility of their pursuit. Set over one day, this intense drama uses sharp, staccato dialogue to explore themes of greed, betrayal and the American dream turned sour.

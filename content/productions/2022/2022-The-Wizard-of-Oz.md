@@ -9,8 +9,8 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: Alhambra Theatre & Dining
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=393
+theatre: Alhambra Theatre & Dining
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=393
 showtimes:
 - 2022-06-16 12:00:00
 - 2022-06-16 17:30:00

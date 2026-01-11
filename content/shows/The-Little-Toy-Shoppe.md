@@ -18,6 +18,6 @@ genres:
 - Family
 - Holiday
 - Fantasy
-Description: "In an abandoned, broken-down toy shoppe, four leftover toys hope to be chosen by children and have the thing they want most of all: a family. As the days, weeks and months go by, they wonder if they’ll ever be accepted for who they are."
+description: "In an abandoned, broken-down toy shoppe, four leftover toys hope to be chosen by children and have the thing they want most of all: a family. As the days, weeks and months go by, they wonder if they’ll ever be accepted for who they are."
 ---
 In an abandoned, broken-down toy shoppe, four leftover toys hope to be chosen by children and have the thing they want most of all: a family. As the days, weeks and months go by, they wonder if they’ll ever be accepted for who they are.

@@ -5,8 +5,8 @@ opening_date: 1977-01-21
 closing_date: 1977-02-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Elma Duckworth: Valerie Howard
 - Grace Hoylard: Nancy Kaye

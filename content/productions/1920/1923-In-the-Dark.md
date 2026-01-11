@@ -5,7 +5,7 @@ opening_date: 1923-11-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Mason: Birsa Shepard
 - Gracie: Carolina De Montigne

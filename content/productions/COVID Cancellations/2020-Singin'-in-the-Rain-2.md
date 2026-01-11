@@ -7,13 +7,13 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-06-12
 closing_date: 2020-06-28
 category: musical
-Theatre: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
 show_details:
 - Music: "[[w:Nacio Herb Brown]]"
 - Lyrics: "[[w:Arthur Freed]]"
 - Book: Adolph Green, Betty Comden
 - Basis: "*[[w:Singin' in the Rain]]* by Adolph Green, Betty Comden"
-Website: https://www.opct.info/
+website: https://www.opct.info/
 showtimes:
 - 2020-06-12 20:00:00
 - 2020-06-13 20:00:00

@@ -5,8 +5,8 @@ opening_date: 1960-04-01
 closing_date: 1960-04-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dr. Daniel (Danny) Stoddard: Archie Eason
 - Dr. King: Leo Weyler

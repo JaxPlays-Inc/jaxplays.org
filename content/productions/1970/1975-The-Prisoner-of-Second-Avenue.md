@@ -5,8 +5,8 @@ opening_date: 1975-11-28
 closing_date: 1975-12-13
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mel Edison: Dave Jackson
 - Edna Edison: Patricia Sharp

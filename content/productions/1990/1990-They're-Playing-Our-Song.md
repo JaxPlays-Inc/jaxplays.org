@@ -5,8 +5,8 @@ opening_date: 1990-09-21
 closing_date: 1990-10-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Vernon Gersch: Steve Osborn
 - Sonia Walsk: Shirley Gough

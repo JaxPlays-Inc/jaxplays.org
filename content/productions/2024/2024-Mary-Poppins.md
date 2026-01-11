@@ -1,8 +1,8 @@
 ---
 title: Mary Poppins
-Theatre: Act II Players
-Venue: Mandarin United Methodist Church Theatre
-Season: 
+theatre: Act II Players
+venue: Mandarin United Methodist Church Theatre
+season: 
 date: 2024-06-17T23:20:30-04:00
 opening_date: 2024-09-20
 closing_date: 2024-09-29
@@ -16,8 +16,8 @@ showtimes:
 featured_image: 2024-Mary-Poppins.webp
 featured_image_alt: 
 program:
-Website: 
-Tickets: https://3common.com/event/mary-poppins/66c60027d4f894dd1a9daa15
+website: 
+tickets: https://3common.com/event/mary-poppins/66c60027d4f894dd1a9daa15
 show_details: 
 - Music: 
   - "[[w:Richard M. Sherman]]"
@@ -92,10 +92,10 @@ crew:
 orchestra:
 genres: 
 # Mary Poppins
-Genres:
+genres:
   - Musical
   - Family
   - Fantasy
-Description: "Experience the magical world of Mary Poppins, where a whimsical nanny transforms the lives of the Banks family with a blend of discipline and enchantment."
+description: "Experience the magical world of Mary Poppins, where a whimsical nanny transforms the lives of the Banks family with a blend of discipline and enchantment."
 ---
 *Mary Poppins* sweeps into the lives of the Banks family when they least expect it but most need it. Set in London, the musical follows the extraordinary adventures of Mary Poppins and the Banks children, who are captivated by her unconventional methods and mystical surprises. Featuring iconic songs like "Supercalifragilisticexpialidocious" and "A Spoonful of Sugar," this beloved musical showcases the power of imagination and the importance of family, delivering joy and wonder to audiences of all ages.

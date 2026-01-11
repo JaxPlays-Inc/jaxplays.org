@@ -21,14 +21,14 @@ featured_image_caption: Poster for 'Radio Golf'
 featured_image_attr: 
 featured_image_attr_link: 
 category: drama
-Theatre: ABET - All Beaches Experimental Theatre
-Genres: 
+theatre: ABET - All Beaches Experimental Theatre
+genres: 
 - Drama
 show_details:
 - Writer: "[[w:August Wilson]]"
 - Setting: The Hill District of Pittsburgh, 1997
 - Subject: A powerful African-American politician runs for the highest office of his career
-Website: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
+website: http://www.abettheatre.com/2019-2020-season-28/radio-golf/
 cast:
 - Harmond Wilks: James F. Webb III
 - Mame Wilks: Danielle Reliford
@@ -68,9 +68,9 @@ crew:
   - Susan Cathcart
   - Karen Lahey
   - Jodi Moore
-Reviews:
+reviews:
 - "Radio Golf at ABET | The Buzz": https://iwantabuzz.com/community/radio-golf-at-abet-2/
-Press:
+press:
 - "Photo Flash: ABET Presents August Wilson's RADIO GOLF | Broadway World": https://www.broadwayworld.com/jacksonville/article/Photo-Flash-ABET-Presents-August-Wilsons-RADIO-GOLF-20200128
 ---
 "The story of a man and a community at the crossroads. What is the price of success and what must be done to achieve it? What is the cost of progress and what is lost along the way? The great August Wilson’s final story in his epic 10-play cycle of the African American experience in the 20th Century." — [Radio Golf - ABET All Beaches Experimental Theatre](https://www.abettheatre.com/2019-2020-season-28/radio-golf/)

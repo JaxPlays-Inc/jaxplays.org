@@ -9,7 +9,7 @@ featured_image_attr_link: /authors/ray-hollister
 authors: 
 - Ray Hollister
 production: 2024 The Wedding Singer
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Jake Pearce
 - Brooklyn Klekamp

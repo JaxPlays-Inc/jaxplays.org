@@ -4,7 +4,7 @@ title: The Rainmaker
 date: 2023-09-08T00:00:00
 opening_date: 2007-12-31
 approx_date: year
-Theatre: ABET - All Beaches Experimental Theatre
+theatre: ABET - All Beaches Experimental Theatre
 show_details:
 - Playwright: "[[w:N. Richard Nash]]"
 - Setting: West rural town, Depression-era America

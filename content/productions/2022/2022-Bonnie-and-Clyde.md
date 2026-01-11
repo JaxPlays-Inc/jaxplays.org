@@ -10,13 +10,13 @@ featured_image: 2022_Bonnie_Clyde_Musical.jpeg
 featured_image_attr: ABET
 featured_image_caption: Poster of 2022 production of Bonnie & Clyde
 category: musical
-Theatre: ABET - All Beaches Experimental Theatre
+theatre: ABET - All Beaches Experimental Theatre
 show_details:
 - Music: "[[w:Frank Wildhorn]]"
 - Lyrics: "[[w:Don Black (lyricist)|Don Black]]"
 - Book: Ivan Menchell
 - Basis: The lives of [[w:Bonnie and Clyde]]
-Tickets: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
+tickets: https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297
 showtimes:
 - 2022-03-18 19:30:00
 - 2022-03-19 19:30:00
@@ -54,7 +54,7 @@ crew:
 - Music Director: Erin Barnes
 - Stage Manager: Kim Mecca
 - Production Manager: Lee Hamby
-Reviews:
+reviews:
 - ABET shoots straight for the heart with 'Bonnie and Clyde the Musical' | The Beaches Leader: /media/news/2022_Bonnie_Clyde_Musical_Beaches_Leader.jpeg
 ---
 "America's most notorious lovers and bank robbers take the country by storm in this sexy and compelling adventure. At the height of the Great Depression, Bonnie Parker and Clyde Barrow went from two small-town nobodies in West Texas to America's most renowned folk heroes and Texas law enforcement's worst nightmares. Fearless, shameless and alluring, Bonnie & Clyde, is the electrifying story of love, adventure and crime that captured the attention of an entire country." — [Bonnie & Clyde the musical - Eventbrite](https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297)

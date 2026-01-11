@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: nicole.maahs
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm3803670
-  Backstage: nicolemaahs
-  Website: 
+socials:
+  facebook: nicole.maahs
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm3803670
+  backstage: nicolemaahs
+  website: 
 ---

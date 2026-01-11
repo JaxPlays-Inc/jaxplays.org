@@ -5,7 +5,7 @@ opening_date: 1926-12-23
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The Stret Singer: Berte Long-Knoche
 - Jape Samuels: Charleston Kennedy

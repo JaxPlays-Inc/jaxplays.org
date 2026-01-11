@@ -1,8 +1,8 @@
 ---
 title: Miracle on 34th Street - A Live Radio Play
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Season: 2025-2026
+theatre: A Classic Theatre
+venue: The Waterworks
+season: 2025-2026
 date: 2025-09-01T13:56:17-04:00
 opening_date: 2025-12-05
 closing_date: 2025-12-14
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2025-2026-season#miracle
-Tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488642
+website: https://www.aclassictheatre.org/2025-2026-season#miracle
+tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488642
 show_details: 
 cast:
 crew:
@@ -31,7 +31,7 @@ genres:
 - Play
 - Musical
 - Radio Drama
-Description: "Bring the whole family to enjoy this classic, told in the style of a live 1940’s era radio broadcast."
+description: "Bring the whole family to enjoy this classic, told in the style of a live 1940’s era radio broadcast."
 ---
 Last year's production of It's a Wonderful Life A Live Radio Play delighted audiences and left them asking for more, so we're bringing back the live radio format!
 

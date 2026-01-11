@@ -5,9 +5,9 @@ opening_date: 2006-06-09
 closing_date: 2006-06-24
 layout: productions
 program:
-Genres:
+genres:
 - Musical
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Boy/Jojo: Mitchell Wohl

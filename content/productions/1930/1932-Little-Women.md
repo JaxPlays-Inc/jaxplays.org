@@ -5,7 +5,7 @@ opening_date: 1932-01-26
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Amy: Agatha Smith
 - Hannah Mullett: Anne C. Lalor

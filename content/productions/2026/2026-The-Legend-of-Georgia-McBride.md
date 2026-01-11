@@ -1,8 +1,8 @@
 ---
 title: The Legend of Georgia McBride
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 2026
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 2026
 date: 2025-10-27T17:03:34-04:00
 opening_date: 2026-05-29
 closing_date: 2026-06-13
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://the5anddime.org/s2026/the-legend-of-georgia-mcbride/
-Tickets: 
+website: https://the5anddime.org/s2026/the-legend-of-georgia-mcbride/
+tickets: 
 show_details: 
 - Playwright: "[[w:Matthew Lopez]]"
 cast:
@@ -34,7 +34,7 @@ crew:
     - Madelene Skinner
 orchestra:
 genres: 
-Description: "Drag is a protest. A raised fist in a sequined glove."
+description: "Drag is a protest. A raised fist in a sequined glove."
 ---
 What do you get when you pair a broke Elvis impersonator with a savvy drag queen? One hell of a show! Join us as we celebrate pride and the art of drag.
 

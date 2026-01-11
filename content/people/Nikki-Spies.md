@@ -6,13 +6,13 @@ featured_image_attr: Stephanie Girard Photography
 featured_image_attr_link: https://www.stephgirardheadshots.com/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: nikkelena
-  Twitter: 
-  Instagram: nikkielena
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://nikkiespies.wixsite.com/nikkielena/
-  Backstage: NikkiSpies
+socials:
+  facebook: nikkelena
+  twitter: 
+  instagram: nikkielena
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://nikkiespies.wixsite.com/nikkielena/
+  backstage: NikkiSpies
 ---

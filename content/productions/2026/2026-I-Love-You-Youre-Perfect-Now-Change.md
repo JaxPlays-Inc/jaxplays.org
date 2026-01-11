@@ -1,8 +1,8 @@
 ---
 title: "I Love You, You\u2019re Perfect, Now Change"
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: null
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: null
 date: '2026-01-04T22:08:43-05:00'
 opening_date: '2026-01-29'
 closing_date: '2026-02-15'
@@ -26,8 +26,8 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: null
-Website: https://limelight-theatre.org/productions/i-love-you-youre-perfect-now-change/
-Tickets: https://limelight.ludus.com/index.php?show_id=200487534
+website: https://limelight-theatre.org/productions/i-love-you-youre-perfect-now-change/
+tickets: https://limelight.ludus.com/index.php?show_id=200487534
 cast:
 - Man 1: Mitchell Wohl
 - Woman 1: Facia Lee
@@ -43,11 +43,11 @@ orchestra: []
 show_details:
 - Book and Lyrics: '[[w:Joe DiPietro]]'
 - Music: '[[w:Jimmy Roberts (composer)|Jimmy Roberts]]'
-Genres:
+genres:
 - Musical
 - Comedy
 - Romance
-Description: A witty, fast-paced musical revue that takes a humorous and heartfelt
+description: A witty, fast-paced musical revue that takes a humorous and heartfelt
   look at modern love in all its stages-from awkward first dates to long marriages.
 source_urls:
 - https://limelight-theatre.org/productions/i-love-you-youre-perfect-now-change/

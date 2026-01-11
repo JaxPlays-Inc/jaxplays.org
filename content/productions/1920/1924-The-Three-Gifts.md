@@ -5,7 +5,7 @@ opening_date: 1924-04-28
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Granny Moran: Annie M. Pratt
 - Bridget: Birsa Shepard

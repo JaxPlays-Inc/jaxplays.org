@@ -5,8 +5,8 @@ opening_date: 1953-05-27
 closing_date: 1953-06-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bernie Dodd: Paul Geisenhof
 - Frank Elgin: Jay Harder

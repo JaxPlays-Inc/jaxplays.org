@@ -12,11 +12,11 @@ show_details:
 - Theatre: 
 - Basis: "*[[w:SpongeBob SquarePants]]* by [[w:Stephen Hillenburg]]"
 - Website: 
-Genres:
+genres:
   - Musical
   - Family
   - Comedy
-Description: "Dive into the vibrant undersea world of Bikini Bottom in this exuberant musical adventure featuring everyone's favorite sponge and his quirky friends."
+description: "Dive into the vibrant undersea world of Bikini Bottom in this exuberant musical adventure featuring everyone's favorite sponge and his quirky friends."
 ---
 *The SpongeBob Musical* transports audiences to the colorful world of Bikini Bottom on a day like any other – until a volcanic eruption threatens their very existence. SpongeBob SquarePants, with his starfish sidekick Patrick and the ever-practical Sandy Cheeks, must rally the citizens and come up with a daring plan to save the town. Through infectious music and electrifying stagecraft, the musical captures the spirit of optimism and friendship that defines SpongeBob. As they face the ultimate test, SpongeBob and his friends prove that the power of positivity can overcome any challenge.
 

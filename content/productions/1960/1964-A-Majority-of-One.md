@@ -5,8 +5,8 @@ opening_date: 1964-09-25
 closing_date: 1964-10-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mrs. Rubin: Doris Thornhill
 - Mrs. Jacoby: Thelma Baker

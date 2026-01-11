@@ -5,8 +5,8 @@ opening_date: 1967-07-20
 closing_date: 1967-07-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Finch: Gil Gimbel
 - Gatch: Samuel D. Helfrich

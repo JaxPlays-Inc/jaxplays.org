@@ -9,7 +9,7 @@ description: "Don't miss the masterful production of *Fiddler on the Roof* at Th
 authors:
 - Ray Hollister
 production: 2023 Fiddler on the Roof
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Tod Booth
 - Lisa Valdini Booth

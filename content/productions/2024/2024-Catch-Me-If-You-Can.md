@@ -1,8 +1,8 @@
 ---
 title: Catch Me If You Can
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-02-02
 opening_date: 2024-02-02
 closing_date: 2024-02-11
@@ -21,8 +21,8 @@ featured_image_caption: Graphic for 'Catch Me If You Can'
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Frank Abagnale Jr.: Allyn Bessee 
@@ -32,7 +32,7 @@ cast:
 - Roger Strong: Nick Cooper
 - Carol Strong: Abby Polli
 - Paula Abagnale: Cindy Baker
-Ensemble:
+ensemble:
   - Bianca Daniels
   - Nicholas Williams
   - Eden Rodriguer
@@ -44,11 +44,11 @@ Ensemble:
   - Chloe Ann
 crew:
 orchestra:
-Genres:
+genres:
   - Musical
   - Comedy
   - Crime
-Description: "Step into the jet-setting shoes of Frank Abagnale Jr., a charming con artist who bluffs his way through life and leaves dazzled victims in his wake. This high-flying musical spectacle chronicles the true story of an audacious young imposter with a knack for forgery and elusion."
+description: "Step into the jet-setting shoes of Frank Abagnale Jr., a charming con artist who bluffs his way through life and leaves dazzled victims in his wake. This high-flying musical spectacle chronicles the true story of an audacious young imposter with a knack for forgery and elusion."
 photos:
 - photo: 2024-Catch-Me-If-You-Can-2.webp
   photo_attr: 

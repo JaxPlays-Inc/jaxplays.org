@@ -5,8 +5,8 @@ opening_date: 1975-05-09
 closing_date: 1975-05-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Millie: Nancy Kaye
 - Okkie Walters: John Hughes

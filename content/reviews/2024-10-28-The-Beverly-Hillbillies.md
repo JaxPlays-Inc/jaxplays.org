@@ -8,7 +8,7 @@ featured_image_alt: "The Clampett family and Cousin Pearl stand together on stag
 authors: 
 - Ray Hollister
 production: 2024 The Beverly Hillbillies
-Theatre: Artist Connection Theatre
+theatre: Artist Connection Theatre
 cast: 
   - Shelby Ellis
   - Josh Rutgers

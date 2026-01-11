@@ -5,8 +5,8 @@ opening_date: 1968-01-12
 closing_date: 1968-01-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dawn: Jane Boyd
 - Chloe: Linda Richter

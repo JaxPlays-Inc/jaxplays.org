@@ -18,11 +18,11 @@ show_details:
 - Premiere: 
 - Theatre: 
 - Website: 
-Genres:
+genres:
   - Musical
   - Comedy
   - Romance
-Description: "Pink, perky and packed with pep, Elle Woods takes the courtroom by storm, proving you can solve legal conundrums in style."
+description: "Pink, perky and packed with pep, Elle Woods takes the courtroom by storm, proving you can solve legal conundrums in style."
 ---
 When her dreamy boyfriend dumps her for someone 'serious,' fashion-obsessed sorority girl Elle Woods decides to show she's no airhead. She aces the LSATs and enrolls at Harvard Law School. While law school is a far cry from the comforts of her poolside mansion and the mall, Elle fights to win her ex back by proving she's more than just a pretty face. Along the way, she discovers her true potential and tackles stereotypes, snobbery and scandal in the courtroom.
 

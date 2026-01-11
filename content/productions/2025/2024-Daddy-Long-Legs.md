@@ -1,8 +1,8 @@
 ---
 title: Daddy Long Legs
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
-Season: 44
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
+season: 44
 date: 2024-09-09T23:00:57-04:00
 opening_date: 2024-11-22
 closing_date: 2024-12-08
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-Daddy-Long-Legs.pdf
-Website: https://www.ameliacommunitytheatre.org/
-Tickets: https://app.arts-people.com/index.php?ticketing=act11
+website: https://www.ameliacommunitytheatre.org/
+tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 - Music: "[[w:Paul Gordon (composer)|Paul Gordon]]"
 - Lyrics: Paul Gordon
@@ -66,11 +66,11 @@ orchestra:
 - Guitar: Brandon Hester
 - Cello: Carol Smith
 - Piano: Tabitha Mudd
-Genres:
+genres:
   - Musical
   - Romance
   - Drama
-Description: "Daddy Long Legs is a charming, romantic musical with music and lyrics by Paul Gordon; book by John Caird, based on Jean Webster's 1912 novel about an orphan sent to college by an anonymous benefactor."
+description: "Daddy Long Legs is a charming, romantic musical with music and lyrics by Paul Gordon; book by John Caird, based on Jean Webster's 1912 novel about an orphan sent to college by an anonymous benefactor."
 ---
 *Daddy Long Legs* is set in the early 1900s and follows Jerusha Abbott, a bright and articulate young woman who has grown up in an orphanage. Her life takes an unexpected turn when a wealthy but anonymous benefactor, whom she whimsically calls "Daddy Long Legs," agrees to fund her college education on the condition that she write him a letter once a month. Through her letters, which she never expects to be answered, Jerusha shares her experiences and growth. Unbeknownst to her, her benefactor, Jervis Pendleton, becomes increasingly enamored with her intelligence and wit, sparking a tender and unconventional romance.
 

@@ -5,7 +5,7 @@ opening_date: 2003-11-07
 closing_date: 2003-11-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Elma Duckworth: Kara Barger

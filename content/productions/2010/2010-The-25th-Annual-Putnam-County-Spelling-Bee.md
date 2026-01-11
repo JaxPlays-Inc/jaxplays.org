@@ -5,7 +5,7 @@ date: 2023-09-08T00:00:00
 opening_date: 2010-12-31
 approx_date: year
 category: musical comedy
-Theatre: ABET - All Beaches Experimental Theatre
+theatre: ABET - All Beaches Experimental Theatre
 show_details:
 - Music: "[[w:William Finn]]"
 - Lyrics: William Finn

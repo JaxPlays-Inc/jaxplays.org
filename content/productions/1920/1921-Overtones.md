@@ -5,7 +5,7 @@ opening_date: 1921-11-08
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Maggie: Birsa Shepard
 - Harriet: Elaine I. Minick

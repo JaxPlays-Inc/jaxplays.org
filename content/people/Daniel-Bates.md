@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: DanielBatesTenor
-  Twitter: 
-  Instagram: 
-  LinkedIn: daniel-bates-6665a6a4
-  IBDB: 
-  IMDb:
-  Website: https://www.danielbatestenor.com/
+socials:
+  facebook: DanielBatesTenor
+  twitter: 
+  instagram: 
+  linkedin: daniel-bates-6665a6a4
+  ibdb: 
+  imdb:
+  website: https://www.danielbatestenor.com/
 ---

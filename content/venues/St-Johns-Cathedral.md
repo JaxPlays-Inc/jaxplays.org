@@ -6,19 +6,19 @@ featured_image: St-Johns-Cathedral.webp
 featured_image_attr: 
 featured_image_alt: Logo for St. John's Cathedral
 featured_image_caption: Logo for St. John's Cathedral
-Founded: 
-Address: |
+founded: 
+address: |
     256 E Church St
     Jacksonville, FL 32202
-Latitude: 30.329507227989726
-Longitude: -81.65364453068464
-Socials:
-    Facebook: jaxcathedral
-    Twitter: jaxcathedral
-    Instagram: jaxcathedral
-    YouTube: SaintJohnsCathedral
-    Website: https://www.jaxcathedral.org/
-Phone: 
+latitude: 30.329507227989726
+longitude: -81.65364453068464
+socials:
+    facebook: jaxcathedral
+    twitter: jaxcathedral
+    instagram: jaxcathedral
+    youtube: SaintJohnsCathedral
+    website: https://www.jaxcathedral.org/
+phone: 
 ---
 St. John's Cathedral is a historical landmark situated atop Billy Goat Hill, the highest geographical point in the original city limits of Jacksonville. As a congregation deeply rooted in the heart of the city, the Cathedral has been instrumental in various ministries, extending its outreach to the homeless, children, and the elderly. With an emphasis on promoting the arts, education, and healthcare, St. John's Cathedral is committed to creating a vibrant, diverse neighborhood around Billy Goat Hill.
 

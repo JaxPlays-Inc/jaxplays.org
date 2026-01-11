@@ -10,18 +10,18 @@ featured_image: 2022_Southern_Fried_Funeral.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: St. Marys Little Theatre
-Venue: Theater by the Trax
+theatre: St. Marys Little Theatre
+venue: Theater by the Trax
 show_details:
 - Writer: 
   - J. Dietz Osborne
   - Nate Eppler
-Genres:
+genres:
 - Play
 - Comedy
 - Drama
 - Southern Drama
-Tickets: https://our.show/southernfriedfuneral
+tickets: https://our.show/southernfriedfuneral
 showtimes:
 - 2022-05-13 19:00:00
 - 2022-05-14 19:00:00

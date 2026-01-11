@@ -13,13 +13,13 @@ genres:
 - Drama
 - Satire
 - Political Comedy
-Theatre: Jacksonville University - Stein College
-Venue: Swisher Theater
-Website: 
-Tickets: 
+theatre: Jacksonville University - Stein College
+venue: Swisher Theater
+website: 
+tickets: 
 show_details: 
 - Playwright: "[[w:George Bernard Shaw]]"
-Description: A satirical plunge into the absurdities of love and politics, set against the backdrop of impending doom.
+description: A satirical plunge into the absurdities of love and politics, set against the backdrop of impending doom.
 showtimes:
 - 2007-10-11 19:30:00
 - 2007-10-12 19:30:00

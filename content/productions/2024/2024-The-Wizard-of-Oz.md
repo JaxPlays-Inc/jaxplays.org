@@ -1,8 +1,8 @@
 ---
 title: The Wizard of Oz
-Theatre: Greenlight Theatre Company
-Venue: North Florida School of Special Education
-Season: 
+theatre: Greenlight Theatre Company
+venue: North Florida School of Special Education
+season: 
 date: 2024-06-15T20:42:43-04:00
 opening_date: 2024-08-09
 closing_date: 2024-08-10
@@ -16,11 +16,11 @@ featured_image_caption: "Step into the magical world of 'The Wizard of Oz' with 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 cast:
 crew:
 orchestra:
-Description: "Embark on a magical journey with *The Wizard of Oz*, where a Kansas farm girl finds adventure and friendship on her quest to return home from a mystical land."
+description: "Embark on a magical journey with *The Wizard of Oz*, where a Kansas farm girl finds adventure and friendship on her quest to return home from a mystical land."
 ---
 *The Wizard of Oz* follows young Dorothy Gale as she is whisked away by a tornado from her Kansas farm to the fantastical Land of Oz. Determined to return home, she sets off on the Yellow Brick Road toward the Emerald City to seek help from the mysterious Wizard. Along the way, Dorothy befriends a Scarecrow, a Tin Man and a Cowardly Lion, who all seek the Wizard's help for their own desires. Facing witches and many other challenges, the group learns about courage, love, wisdom, and the power of friendship. This beloved musical enchants audiences with its iconic music, including 'Somewhere Over the Rainbow,' and its timeless message of discovery and self-realization.

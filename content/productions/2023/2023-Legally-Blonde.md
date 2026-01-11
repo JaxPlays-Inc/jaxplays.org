@@ -1,7 +1,7 @@
 ---
 title: Legally Blonde
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2023-09-28
 opening_date: 2023-09-28
 closing_date: 2023-11-05
@@ -57,8 +57,8 @@ featured_image_caption: Graphic for Legally Blonde
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1429&code=jaxplays
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1429&code=jaxplays
 show_details: 
 cast:
 - Elle Woods: Victoria Vagasy

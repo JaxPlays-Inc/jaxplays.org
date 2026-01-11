@@ -1,8 +1,8 @@
 ---
 title: Rhinoceros
-Theatre: Limelight Theatre
-Venue: Matuza Blackbox
-Season: 33
+theatre: Limelight Theatre
+venue: Matuza Blackbox
+season: 33
 date: 2024-09-08T21:14:42-04:00
 opening_date: 2025-05-29
 closing_date: 2025-06-15
@@ -26,8 +26,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://limelight-theatre.org/productions/rhinocerous/
-Tickets: https://limelight.ludus.com/200483067
+website: https://limelight-theatre.org/productions/rhinocerous/
+tickets: https://limelight.ludus.com/200483067
 show_details: 
 - Playwright: "[[w:Eugène Ionesco]]"
 cast:
@@ -80,10 +80,10 @@ crew:
   - Publicity: Lacey Cataleta
 orchestra:
 # Rhinoceros
-Genres:
+genres:
   - Play
   - Drama
   - Absurdist
-Description: "Dive into the surreal world of *Rhinoceros*, where the inexplicable transformation of people into rhinoceroses becomes a powerful metaphor for conformity and mass hysteria."
+description: "Dive into the surreal world of *Rhinoceros*, where the inexplicable transformation of people into rhinoceroses becomes a powerful metaphor for conformity and mass hysteria."
 ---
 *Rhinoceros* by Eugène Ionesco is a seminal work of absurdist theater that examines the themes of conformity, culture and morality. The play unfolds in a small town where the inhabitants, one by one, begin turning into rhinoceroses. As the metamorphosis becomes widespread, the protagonist, Berenger, grapples with the phenomenon, struggling to maintain his individuality and humanity amidst the growing pressure to conform. The narrative escalates into a profound commentary on the dangers of collective behavior and the strength required to stand alone.

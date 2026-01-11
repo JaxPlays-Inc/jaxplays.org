@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: cal.bernardo.32
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: cal.bernardo.32
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---

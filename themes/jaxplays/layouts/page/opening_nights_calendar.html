@@ -12,8 +12,8 @@
   {{- $events := slice -}}
   {{- range where .Site.Pages "Type" "productions" -}}
     {{- $title := .Title -}}
-    {{- $theatre := .Params.Theatre -}}
-    {{- $venue := .Params.Venue -}}
+    {{- $theatre := .Params.theatre -}}
+    {{- $venue := .Params.venue -}}
     {{- $title := print $title " - " $theatre -}}
     {{- $url := .Permalink -}}
     {{- $featuredImage := .Params.featured_image -}}

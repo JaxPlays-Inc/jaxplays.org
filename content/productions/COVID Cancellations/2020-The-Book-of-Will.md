@@ -6,16 +6,16 @@ title: The Book of Will
 date: 2023-09-08T00:00:00
 opening_date: 2020-03-27
 closing_date: 2020-04-10
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 show_details:
 - Writer: "[[w:Lauren Gunderson]]"
-Genres: 
+genres: 
 - Play
 - Comedy
 - Drama
 - Historical Fiction
-Website: https://www.ameliacommunitytheatre.org/Performances/The-Book-of-Will
+website: https://www.ameliacommunitytheatre.org/Performances/The-Book-of-Will
 showtimes:
 - 2020-03-27 20:00:00
 - 2020-03-28 20:00:00

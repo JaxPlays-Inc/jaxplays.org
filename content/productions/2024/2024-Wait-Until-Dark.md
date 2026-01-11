@@ -1,7 +1,7 @@
 ---
 title: Wait Until Dark
-Theatre: Limelight Theatre
-Venue: Koger-Gamache Studio Theatre
+theatre: Limelight Theatre
+venue: Koger-Gamache Studio Theatre
 date: 2024-03-14
 opening_date: 2024-03-14
 closing_date: 2024-03-30
@@ -24,8 +24,8 @@ featured_image_caption: Poster for Wait Until Dark
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/wait-until-dark
-Tickets: https://ci.ovationtix.com/34666/production/1165808
+website: https://www.limelight-theatre.org/season-32-shows-1/wait-until-dark
+tickets: https://ci.ovationtix.com/34666/production/1165808
 cast:
 - Susy Hendrix: Anna Vera
 - Sam Hendrix: Rick Cirucci

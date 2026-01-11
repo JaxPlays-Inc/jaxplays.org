@@ -5,8 +5,8 @@ opening_date: 1983-10-14
 closing_date: 1983-10-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Oliver: Christopher Thompson
 - Fagin: Harry McClintock

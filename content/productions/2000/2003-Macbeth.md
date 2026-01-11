@@ -5,7 +5,7 @@ opening_date: 2003-09-19
 closing_date: 2003-10-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - First Witch: Sandra S. Spurney

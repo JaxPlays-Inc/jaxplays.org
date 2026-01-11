@@ -1,7 +1,7 @@
 ---
 title: Escape to Margaritaville
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-04-04
 opening_date: 2024-04-04
 closing_date: 2024-05-12
@@ -59,8 +59,8 @@ featured_image_caption: Poster for 'Escape to Margaritaville'
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1456&code=WWW&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1456&code=WWW&qty_target=0
 show_details: 
 cast:
 - Tully: Matthew Fecko
@@ -123,7 +123,7 @@ understudies:
 - J.D.:  Benjamin Cornelius
 - Jamal: Sean Rodrigo Royal
 - Chadd: Sean Rodrigo Royal
-Genres:
+genres:
   - Musical
   - Comedy
   - Romance

@@ -9,17 +9,17 @@ featured_image: Stage_Aurora.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2000
+founded: 2000
 disbanded:
-Address: |
+address: |
   PO Box 28283
   Jacksonville, FL 32218
-Socials:
-  Facebook: StageAurora
-  Twitter: stageaurorath
-  Instagram: aurorastage
-  LinkedIn: stage-aurora-theatrical-co
-  Website: https://www.stageaurora.org
+socials:
+  facebook: StageAurora
+  twitter: stageaurorath
+  instagram: aurorastage
+  linkedin: stage-aurora-theatrical-co
+  website: https://www.stageaurora.org
 date: 2024-07-02T18:02:28-04:00
 donate: https://www.stageaurora.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

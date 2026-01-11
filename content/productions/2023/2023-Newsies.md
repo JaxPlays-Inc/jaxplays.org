@@ -1,7 +1,7 @@
 ---
 title: Newsies
-Theatre: The Island Theater
-Venue: The Island Theater
+theatre: The Island Theater
+venue: The Island Theater
 date: 2023-10-06
 opening_date: 2023-10-06
 closing_date: 2023-10-15
@@ -22,8 +22,8 @@ featured_image_caption: Poster of Newsies
 featured_image_attr: Disney & The Island Theater
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.theislandtheater.com/newsies-tickets
+website: 
+tickets: https://www.theislandtheater.com/newsies-tickets
 show_details: 
 cast:
 - Jack Kelly:
@@ -79,6 +79,6 @@ genres:
 - Musical
 - Drama
 - Historical
-Description: "Seize the day with the Newsies, as young paperboys stage a strike against media moguls in this high-energy musical."
+description: "Seize the day with the Newsies, as young paperboys stage a strike against media moguls in this high-energy musical."
 ---
 Based on the real-life Newsboy Strike of 1899, Newsies combines history and song into a dynamic tale of underdogs fighting the system. Catchy tunes and high-kicking dances punctuate this story of courage, comradeship, and the quest for fair treatment.

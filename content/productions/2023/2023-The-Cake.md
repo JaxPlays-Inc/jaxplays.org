@@ -9,17 +9,17 @@ featured_image_caption: Poster for The Cake
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program:
-Genres:
+genres:
 - Play
 - Drama
 - Comedy
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
-Website: 
-Tickets: 
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
+website: 
+tickets: 
 show_details: 
 - Playwright: Bekah Brunstetter
-Description: Slice into *The Cake*, a story of love, family, and the struggle between deeply held beliefs and accepting the unfamiliar.
+description: Slice into *The Cake*, a story of love, family, and the struggle between deeply held beliefs and accepting the unfamiliar.
 showtimes:
 cast:
 - Della: Karen Garrett

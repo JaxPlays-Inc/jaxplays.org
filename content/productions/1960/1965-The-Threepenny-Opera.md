@@ -5,8 +5,8 @@ opening_date: 1965-05-14
 closing_date: 1965-05-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Street Singer: Bernard Katz
 - Mr. J.J. Peachum: Tom Howard

@@ -21,12 +21,12 @@ genres:
 - Play
 - Drama
 - Documentary Theater
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Website: 
-Tickets: 
+theatre: The 5 & Dime
+venue: The Florida Ballet
+website: 
+tickets: 
 show_details: 
-Description: "A captivating ensemble piece, *Let Me Down Easy* dives deep into the intricacies of health, healthcare, and the indomitable human spirit."
+description: "A captivating ensemble piece, *Let Me Down Easy* dives deep into the intricacies of health, healthcare, and the indomitable human spirit."
 cast:
 - James Cone, Lorraine Coleman, Trudy Howell & Hazel Merritt: Madeleine Skinner
 - Lance Armstrong, Eve Ensler, Kiersta Kurtz-Burke & Peter Gomes: Kate McManus

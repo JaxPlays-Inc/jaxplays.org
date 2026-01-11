@@ -18,6 +18,6 @@ genres:
 - Family
 - Holiday
 - Fantasy
-Description: "It's Christmastime in Wonderland, and the Queen of Hearts wants to sing a song at her Elegant, Royal, Spectaculish Victoriana Majest-i-fabulous Christmas Party. But the words and music are missing, and heads are going to roll! The White Rabbit brings Alice back to Wonderland to save her ears and Christmas!"
+description: "It's Christmastime in Wonderland, and the Queen of Hearts wants to sing a song at her Elegant, Royal, Spectaculish Victoriana Majest-i-fabulous Christmas Party. But the words and music are missing, and heads are going to roll! The White Rabbit brings Alice back to Wonderland to save her ears and Christmas!"
 ---
 It's Christmastime in Wonderland, and the Queen of Hearts wants to sing a song at her Elegant, Royal, Spectaculish Victoriana Majest-i-fabulous Christmas Party. But the words and music are missing, and heads are going to roll! The White Rabbit brings Alice back to Wonderland to save her ears and Christmas! Written and directed by [[person:Jason Woods]], this enchanting play features original music and a holiday spin in Wonderland. 

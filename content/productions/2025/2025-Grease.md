@@ -1,8 +1,8 @@
 ---
 draft: true
 title: Grease
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: John McManus Mainstage Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: John McManus Mainstage Theatre
 date: 2024-05-10T17:38:54-04:00
 opening_date: 2025-01-17
 closing_date: 2025-02-02
@@ -22,8 +22,8 @@ featured_image_caption: Poster for 'Grease'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://3common.com/event/grease/6664951593b9406cc55dc4db
+website: 
+tickets: https://3common.com/event/grease/6664951593b9406cc55dc4db
 show_details: 
 cast:
 crew:
@@ -32,5 +32,5 @@ crew:
 - Choreographer: Jocelyn Geronimo
 orchestra:
 genres: 
-Description: 
+description: 
 ---

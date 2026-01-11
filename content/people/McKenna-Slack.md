@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: mckennaslack.soprano
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  YouTube: "@McKennaSlack"
+socials:
+  facebook: 
+  twitter: 
+  instagram: mckennaslack.soprano
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  youtube: "@McKennaSlack"
 ---

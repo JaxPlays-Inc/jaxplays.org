@@ -1,7 +1,7 @@
 ---
 title: "Dracula:  A Comedy of Terrors"
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
 date: 2024-06-13T17:26:41-04:00
 opening_date: 2025-04-18
 closing_date: 2025-05-04
@@ -22,8 +22,8 @@ featured_image_caption: "Don't miss 'Dracula: A Comedy of Terrors' at Theatre Ja
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.theatrejax.com/season-105
-Tickets: https://ci.ovationtix.com/34919 
+website: https://www.theatrejax.com/season-105
+tickets: https://ci.ovationtix.com/34919 
 show_details: 
   - Playwright: 
     - Gordon Greenberg
@@ -57,10 +57,10 @@ crew:
   - Katie Cress
   - Johnny Pettegrew
   - Curtis Svenson
-Genres:
+genres:
   - Play
   - Comedy
   - Horror
-Description: "Experience 'Dracula: A Comedy of Terrors,' where the classic tale of the infamous vampire gets a hilariously sharp and spooky twist."
+description: "Experience 'Dracula: A Comedy of Terrors,' where the classic tale of the infamous vampire gets a hilariously sharp and spooky twist."
 ---
 In this fast-paced, laugh-filled adaptation, the story of Dracula takes unexpected comedic turns, mixing slapstick humor with horror clichés. The Count faces off against the bumbling Professor Van Helsing and a cast of absurd characters all trying to thwart his sinister plans. With quick changes, witty dialogue and a clever script, *Dracula: A Comedy of Terrors* turns the gothic horror genre on its head, providing frights and delights in equal measure.

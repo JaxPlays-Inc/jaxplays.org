@@ -5,8 +5,8 @@ opening_date: 1952-01-18
 closing_date: 1952-01-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bruce Lovell: Paul Geisenhof
 - Cecily Harrington: Yvonne Peairs

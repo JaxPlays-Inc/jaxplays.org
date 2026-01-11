@@ -5,7 +5,7 @@ opening_date: 1935-03-12
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Olwen Peel: Dore' Beauchamp-Nobbs
 - Freda Chatfield: Madeleine Ingalls

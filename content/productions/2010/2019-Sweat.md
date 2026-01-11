@@ -8,12 +8,12 @@ featured_image: 2019_Sweat.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Writer: "[[w:Lynn Nottage]]"
-Website: https://www.the5anddime.org/sweat
+website: https://www.the5anddime.org/sweat
 showtimes:
 - 2019-08-02 20:00:00
 - 2019-08-03 20:00:00

@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: WillOhWiley
-  Instagram: willohwiley
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  YouTube: "@WillWileyOfficial"
+socials:
+  facebook: 
+  twitter: WillOhWiley
+  instagram: willohwiley
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  youtube: "@WillWileyOfficial"
 ---

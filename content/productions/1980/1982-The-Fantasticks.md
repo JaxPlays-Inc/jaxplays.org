@@ -5,8 +5,8 @@ opening_date: 1982-04-30
 closing_date: 1982-05-15
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Narrator: Robert Dauer
 - The Girl: Sandi Clark

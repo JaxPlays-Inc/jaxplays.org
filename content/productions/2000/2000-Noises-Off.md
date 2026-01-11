@@ -5,7 +5,7 @@ opening_date: 2000-11-01
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Dotty Otley: Simone Aden-Reid

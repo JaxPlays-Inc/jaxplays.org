@@ -1,7 +1,7 @@
 ---
 title: Gypsy
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-08-16T13:09:40-04:00
 opening_date: 2024-08-22
 closing_date: 2024-09-29
@@ -52,8 +52,8 @@ featured_image_caption: Poster for 'Gypsy'
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1459&code=WWW&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1459&code=WWW&qty_target=0
 cast:
   - Uncle Jocko, Mr. Goldstone, Pastey: Michael Roddy
   - George, Yonkers: Calvin Bernado

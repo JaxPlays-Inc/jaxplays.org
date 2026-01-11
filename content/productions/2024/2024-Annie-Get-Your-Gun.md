@@ -1,7 +1,7 @@
 ---
 title: Annie Get Your Gun
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
 date: 2024-05-11T18:23:28-04:00
 opening_date: 2024-08-16
 closing_date: 2024-09-08
@@ -24,8 +24,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.opct.info/23-24-season
-Tickets: https://www.opct.info/boxoffice
+website: https://www.opct.info/23-24-season
+tickets: https://www.opct.info/boxoffice
 show_details: 
 cast:
 - Frank Butler: Alan Chartier
@@ -59,5 +59,5 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

@@ -5,8 +5,8 @@ opening_date: 1976-01-23
 closing_date: 1976-02-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sibyl Chase: Diane Somerville
 - Elyot Chase: Jack Masters

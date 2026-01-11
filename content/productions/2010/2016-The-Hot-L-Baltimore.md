@@ -8,7 +8,7 @@ featured_image: 2016_The_Hot_L_Baltimore.webp
 featured_image_caption: Poster for the 2016 production of The Hot L Baltimore
 featured_image_attr: Phase Eight Theater Company
 program:
-Theatre: Phase Eight Theater Company
+theatre: Phase Eight Theater Company
 show_details:
 - Playwright: Landford Wilson
 showtimes:

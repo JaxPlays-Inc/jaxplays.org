@@ -5,7 +5,7 @@ opening_date: 1930-11-13
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Parker: Daisy Bowden Stephens
 - Peter Waverton: Dick Grether

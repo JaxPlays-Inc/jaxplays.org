@@ -9,7 +9,7 @@ featured_image_caption: "Sebastian Miller leads a technicolor tap number as Don 
 authors: 
 - Jo El Snyder
 production: 2025 Singin in the Rain
-Theatre: Amelia Community Theatre
+theatre: Amelia Community Theatre
 cast: 
   - Sebastian Miller
   - Elliot Miller

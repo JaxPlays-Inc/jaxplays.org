@@ -11,19 +11,19 @@ featured_image: Saltwater-Performing-Arts.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 2014
-Address: |
+founded: 2014
+address: |
     204 Arnow Drive
     St. Marys, Georgia 31558
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: stmaryschildrenstheatre
-  Twitter: 
-  Instagram: saltwaterperformingarts
-  Threads:
-  Website: https://www.saltwaterpac.org/
-Phone: 19125109700
+latitude: 
+longitude: 
+socials: 
+  facebook: stmaryschildrenstheatre
+  twitter: 
+  instagram: saltwaterperformingarts
+  threads:
+  website: https://www.saltwaterpac.org/
+phone: 19125109700
 color: "#3b8999"
 ---
 

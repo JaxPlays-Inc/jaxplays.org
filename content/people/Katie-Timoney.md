@@ -6,13 +6,13 @@ featured_image_attr: Josh Andrews
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: hazeykatie2
-  Twitter: 
-  Instagram: violetwicche
-  Threads: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm2836944
-  Website: 
+socials:
+  facebook: hazeykatie2
+  twitter: 
+  instagram: violetwicche
+  threads: 
+  linkedin: 
+  ibdb: 
+  imdb: nm2836944
+  website: 
 ---

@@ -12,14 +12,14 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: jakeryanayres
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: jakeryanayres
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 photos:
 - photo: Jake-Ayres.webp
   photo_alt: 

@@ -6,15 +6,15 @@ title: Detroit
 date: 2023-09-08T00:00:00
 opening_date: 2020-06-12
 closing_date: 2020-06-28
-Theatre: The 5 & Dime
-Genres: 
+theatre: The 5 & Dime
+genres: 
 - Play
 - Comedy
 - Drama
 show_details:
 - Writer: Lisa "[[w:D'Amour]]"
 - Setting: "[[w:Detroit, Michigan]]"
-Website: https://www.the5anddime.org/detroit
+website: https://www.the5anddime.org/detroit
 showtimes:
 - 2020-06-12 20:00:00
 - 2020-06-13 20:00:00

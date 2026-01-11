@@ -6,12 +6,12 @@ title: Photograph 51
 date: 2023-09-08T00:00:00
 opening_date: 2020-03-13
 closing_date: 2020-03-15
-Genres: 
+genres: 
 - Play
 featured_image:
 program: 2020_photograph_51.pdf
-Theatre: Actors Collective
-Venue: Museum of Science & History
+theatre: Actors Collective
+venue: Museum of Science & History
 show_details:
 - Writer: "[[w:Anna Ziegler (playwright)|Anna Ziegler]]"
 - Series: 'The Secret of Life: A Science Play Series'

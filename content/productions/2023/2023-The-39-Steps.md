@@ -1,7 +1,7 @@
 ---
 title: The 39 Steps
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
 date: 2023-09-13
 opening_date: 2023-09-13
 closing_date: 2023-09-23
@@ -20,8 +20,8 @@ featured_image_caption: Graphic for The 39 Steps
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
-Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=315282~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=48158bf0-1999-4cdd-91a8-db7c5f2d335f&
+website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
+tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=315282~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=48158bf0-1999-4cdd-91a8-db7c5f2d335f&
 show_details: 
 cast:
   - Richard Hannay: Andy Kanies

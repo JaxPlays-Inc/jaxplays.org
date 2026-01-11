@@ -5,7 +5,7 @@ opening_date: 1935-05-28
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Dr. Aliot: Edward Goodman
 - The Rev. Christopher Pumphrey: Isaac Peiser

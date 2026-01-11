@@ -9,21 +9,21 @@ featured_image_caption: Poster for The Addams Family
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program:
-Genres:
+genres:
 - Musical
 - Comedy
 - Family
 - Dark Comedy
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
-Website: https://playersbythesea.org/addams-family
-Tickets: https://ci.ovationtix.com/34877/production/1149816
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
+website: https://playersbythesea.org/addams-family
+tickets: https://ci.ovationtix.com/34877/production/1149816
 show_details: 
 - Playwright: 
   - Marshall Brickman
   - Rick Elice
 - Music & Lyrics: Andrew Lippa
-Description: "Goth meets glee as the macabre Addams Family faces the ultimate horror: daughter Wednesday's 'normal' boyfriend."
+description: "Goth meets glee as the macabre Addams Family faces the ultimate horror: daughter Wednesday's 'normal' boyfriend."
 showtimes:
 - 2023-10-20 20:00:00
 - 2023-10-21 20:00:00

@@ -1,7 +1,7 @@
 ---
 title: Back to the 80s
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
 date: 2024-02-01
 opening_date: 2024-02-01
 closing_date: 2024-02-17
@@ -23,8 +23,8 @@ featured_image_caption: Poster for Back to the 80s
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/performances/back-to-the-80s-musical/
-Tickets: 
+website: https://ameliamusicalplayhouse.com/performances/back-to-the-80s-musical/
+tickets: 
 show_details: 
 - Book: Neil Gooding
 - Additional Material: Stuart Smith
@@ -94,10 +94,10 @@ crew:
     - Erin Bailey Lake
     - Bill Ivins
     - Kim Woodlief
-Genres:
+genres:
 - Musical
 - Comedy
 - Nostalgia
-Description: "Hop in a DeLorean and take a neon-lit trip down memory lane in this jukebox musical extravaganza."
+description: "Hop in a DeLorean and take a neon-lit trip down memory lane in this jukebox musical extravaganza."
 ---
 It's the final year of high school for Corey Palmer, and he's ready to make it unforgettable. Set against a backdrop of iconic '80s hits, this musical romp follows Corey and his friends as they navigate the highs and lows of adolescence. From first loves to heartbreaks, and from bullies to besties, it's a journey filled with legwarmers, Rubik's Cubes, and the kind of melodrama that can only exist in the 1980s. So grab your Walkman and get ready to rewind to a time when hair was big, and the music was even bigger.

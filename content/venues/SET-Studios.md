@@ -6,17 +6,17 @@ featured_image: SET-Studios.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
   14286 Beach Blvd #41
   Jacksonville, FL 32250
-Latitude: 30.286698896092595
-Longitude: -81.43904826678487
-Socials: 
-  Facebook: setstudiosjax
-  Twitter: 
-  Instagram: setstudiosjax
-  Threads: setstudiosjax
-  Website: setstudiosjax.com
-Phone: 904-555-1234
+latitude: 30.286698896092595
+longitude: -81.43904826678487
+socials: 
+  facebook: setstudiosjax
+  twitter: 
+  instagram: setstudiosjax
+  threads: setstudiosjax
+  website: setstudiosjax.com
+phone: 904-555-1234
 ---

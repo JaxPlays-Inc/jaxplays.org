@@ -5,8 +5,8 @@ opening_date: 1961-09-29
 closing_date: 1961-10-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Horace Vandergelder: Harrold Edris
 - Ambrose Kemper: Jim Dudley

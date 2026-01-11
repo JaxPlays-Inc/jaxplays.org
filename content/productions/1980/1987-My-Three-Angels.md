@@ -5,8 +5,8 @@ opening_date: 1987-12-19
 closing_date: 1987-12-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Felix Ducotel: Louis Taylor
 - Emilie Ducotel: Valerie Hall

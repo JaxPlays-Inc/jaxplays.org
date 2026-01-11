@@ -5,8 +5,8 @@ opening_date: 1944-04-01
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Patricia Frame: Carole Snedecker
 - Frieda: Charlotte Ecker

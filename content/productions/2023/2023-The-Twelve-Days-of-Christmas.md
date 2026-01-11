@@ -1,7 +1,7 @@
 ---
 title: The Twelve Days of Christmas
-Theatre: Act II Players
-Venue: Mandarin Community Club
+theatre: Act II Players
+venue: Mandarin Community Club
 date: 2023-12-02
 opening_date: 2023-12-02
 closing_date: 2023-12-03
@@ -15,8 +15,8 @@ featured_image_caption: Poster for "The Twelve Days of Christmas"
 featured_image_attr: The Dramatic Publishing Company
 featured_image_attr_link: 
 program:
-Website: https://actiiplayers.org/12-days-of-christmas
-Tickets: https://www.eventbrite.com/cc/12-days-of-christmas-2836209
+website: https://actiiplayers.org/12-days-of-christmas
+tickets: https://www.eventbrite.com/cc/12-days-of-christmas-2836209
 show_details: 
   - Playwright: Renee Calarco
 cast:
@@ -52,6 +52,6 @@ genres:
 - Holiday
 - Family
 - Farce
-Description: "Shirley the Partridge faces her biggest challenge yet: saving Christmas! Join her on a whimsical journey to recover the Five Golden Rings and rally the festive troupe, all while dodging the schemes of the Christmas Hoarder."
+description: "Shirley the Partridge faces her biggest challenge yet: saving Christmas! Join her on a whimsical journey to recover the Five Golden Rings and rally the festive troupe, all while dodging the schemes of the Christmas Hoarder."
 ---
 The Twelve Days of Christmas transforms the beloved carol into an adventurous quest led by Shirley the Partridge. Her first time orchestrating the family tradition of singing "The Twelve Days of Christmas" quickly turns haywire. With the French Hens bickering, the Geese a-Laying sunbathing in Florida, and the Calling Birds on strike, Shirley's already in a tizzy. But the real crisis hits when the Five Golden Rings go missing, swiped by the nefarious Christmas Hoarder! Along with Alyssa, a steampunk swan, Shirley embarks on a mission full of quirky twists and delightful turns. Can they outsmart the Christmas Hoarder and restore the holiday spirit? This vibrant, modern twist on the classic song is a heartwarming reminder that sometimes breaking tradition can bring its own kind of joy.

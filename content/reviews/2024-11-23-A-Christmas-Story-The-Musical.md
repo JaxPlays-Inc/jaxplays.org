@@ -8,7 +8,7 @@ featured_image_caption: "A quintessential family moment unfolds in *'*A Christma
 authors: 
 - Jo El Snyder
 production: 2024 A Christmas Story The Musical
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Jonathan Van Dyke
 - Keegan Carroll

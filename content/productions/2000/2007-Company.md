@@ -10,10 +10,10 @@ featured_image_caption: Playbill cover for Company
 featured_image_attr: Shawn Steadman, Sarah Sankovich
 featured_image_attr_link: 
 program:
-Theatre: Jacksonville University - Stein College
-Venue: Swisher Theater
-Website: 
-Tickets: 
+theatre: Jacksonville University - Stein College
+venue: Swisher Theater
+website: 
+tickets: 
 cast:
 - Robert: Alex Tsilogiannis
 - Sarah: Missy Doehne

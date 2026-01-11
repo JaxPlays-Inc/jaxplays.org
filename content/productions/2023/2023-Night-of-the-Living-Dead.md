@@ -1,7 +1,7 @@
 ---
 title: Night of the Living Dead
-Theatre: The Island Theater
-Venue: The Island Theater
+theatre: The Island Theater
+venue: The Island Theater
 date: 2023-10-20
 opening_date: 2023-10-20
 closing_date: 2023-10-29
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.theislandtheater.com/night-of-the-living-dead-tickets
+website: 
+tickets: https://www.theislandtheater.com/night-of-the-living-dead-tickets
 show_details: 
 - Playwright: Mark Landon Smith
 cast:
@@ -52,11 +52,11 @@ cast:
   - Kyle Cool 
 crew:
 orchestra:
-Genres:
+genres:
 - Play
 - Horror
 - Comedy
 - Parody
-Description: "Get ready to laugh until you drop...dead. This cheeky adaptation brings new life—and laughs—to the iconic zombie apocalypse tale."
+description: "Get ready to laugh until you drop...dead. This cheeky adaptation brings new life—and laughs—to the iconic zombie apocalypse tale."
 ---
 Mark Landon Smith's Night of the Living Dead delivers a hilarious spin on the classic horror story. Zombies are still very much a threat, but this time, they might just die laughing—or make you do so. When survivors hole up in a farmhouse, comedic mayhem ensues. It's a fresh take on a gory tale, showing that even in a zombie apocalypse, humor is the best survival tool.

@@ -6,8 +6,8 @@ approx_date: year
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Heidi Holland: Kathy Biddle
 - Susan Johnston: Simone Aden

@@ -1,7 +1,7 @@
 ---
 title: Breaking Up Is Hard To Do
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
 date: 2024-02-14
 opening_date: 2024-02-14
 closing_date: 2024-03-02
@@ -25,8 +25,8 @@ featured_image_caption: "Graphic for 'Breaking Up Is Hard To Do'"
 featured_image_attr: Spotlight Events Center
 featured_image_attr_link: 
 program:
-Website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
-Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=353262~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
+website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances
+tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=353262~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
 show_details: 
 - Book: 
   - Erik Jackson
@@ -54,14 +54,14 @@ crew:
 - Props: 
   - Corinna Temple
   - Curtis Reed
-Costumes: Curtis Reed
+costumes: Curtis Reed
 orchestra:
 # Breaking Up Is Hard To Do
-Genres:
+genres:
   - Musical
   - Comedy
   - Romance
-Description: "Set to the timeless tunes of Neil Sedaka, 'Breaking Up Is Hard To Do' is a feel-good musical that whirls through the highs and lows of love at a Catskills resort in the 1960s."
+description: "Set to the timeless tunes of Neil Sedaka, 'Breaking Up Is Hard To Do' is a feel-good musical that whirls through the highs and lows of love at a Catskills resort in the 1960s."
 ---
 Nestled in the heart of the 1960s, at a bustling Catskills resort, two friends, Marge and Lois, embark on what they expect to be a vacation of sun, fun, and romance. The reality, however, is humorously complicated. Marge, reeling from a broken engagement, finds unexpected solace and potential new love in the resort's singer, Del. As friendships are tested and secrets revealed, the characters discover that finding love can be as unpredictable and joyous as the hit songs of Neil Sedaka. From laughter to heartache to the possibility of new beginnings, 'Breaking Up Is Hard To Do' celebrates the journey of love, the resilience of the human heart, and the enduring power of music."
 

@@ -8,7 +8,7 @@ featured_image_alt: "On stage, actors Lauren Nicole Chapman and Preston Perez, p
 authors:
 - Ray Hollister
 production: 2024 Disneys Frozen
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 cast: 
 - Adrianna Rose Lyons
 - Lauren Nicole Chapman

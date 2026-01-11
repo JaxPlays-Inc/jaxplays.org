@@ -8,12 +8,12 @@ featured_image_caption: Poster for Disney's 'Frozen'
 featured_image_attr: Disney Theatrical Productions
 featured_image_attr_link: 
 program:
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Website: 
-Tickets: https://www.fscjartistseries.org/tickets/disneys-frozen
-Description: A winter wonderland of sisterhood and self-discovery, melting hearts and minds alike.
+venue: Moran Theater
+website: 
+tickets: https://www.fscjartistseries.org/tickets/disneys-frozen
+description: A winter wonderland of sisterhood and self-discovery, melting hearts and minds alike.
 showtimes:
 - 2024-04-27 14:00:00
 - 2024-04-27 20:00:00

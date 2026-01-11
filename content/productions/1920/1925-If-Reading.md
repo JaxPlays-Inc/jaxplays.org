@@ -5,7 +5,7 @@ opening_date: 1925-02-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Miralda Clement: Agnes Broward
 - Hafiz El Alcolahn: Bion Barnett

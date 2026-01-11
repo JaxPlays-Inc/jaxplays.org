@@ -1,8 +1,8 @@
 ---
 title: "Agatha Christie's Murder on the Orient Express"
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
-Season: 
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
+season: 
 date: 2025-09-02T23:08:15-04:00
 opening_date: 2025-09-05
 closing_date: 2025-09-20
@@ -22,12 +22,12 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=442545~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
+website: 
+tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=442545~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

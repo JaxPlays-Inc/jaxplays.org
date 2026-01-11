@@ -5,8 +5,8 @@ opening_date: 1996-01-12
 closing_date: 1996-01-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Endicott, Post: Mitch Thurman
 - Kruger, Daily News: Lewis 'Skip' Livingston

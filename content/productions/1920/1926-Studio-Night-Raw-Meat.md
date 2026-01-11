@@ -8,7 +8,7 @@ layout: productions
 program:
 show_details:
 - Playwright: Birsa Shepard
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Jimmie: Bishop McCauley
 - Alice Marchmont: Dore' Beauchamp-Nobbs

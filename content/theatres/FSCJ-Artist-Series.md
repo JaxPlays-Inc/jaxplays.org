@@ -6,16 +6,16 @@ featured_image: FSCJ-Artist-Series.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Description: The FSCJ Artist Series is Northeast Florida's major presenter of national and international touring attractions including musicals, concerts, opera, ballet, variety shows and more!
-Socials:
-  Facebook: FSCJArtistSeries
-  Twitter: TheArtistSeries
-  Instagram: fscjartistseries
-  YouTube: ArtistSeriesJax
-  Website: https://www.fscjartistseries.org
-Phone: 
+description: The FSCJ Artist Series is Northeast Florida's major presenter of national and international touring attractions including musicals, concerts, opera, ballet, variety shows and more!
+socials:
+  facebook: FSCJArtistSeries
+  twitter: TheArtistSeries
+  instagram: fscjartistseries
+  youtube: ArtistSeriesJax
+  website: https://www.fscjartistseries.org
+phone: 
 color: "#005f7f"
-Press:
+press:
 date: 2024-07-02T18:03:28-04:00
 donate: https://www-uat.fscj.edu/foundation/giving/search-by-fund?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

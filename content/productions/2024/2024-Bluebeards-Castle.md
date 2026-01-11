@@ -1,8 +1,8 @@
 ---
 title: Bluebeard's Castle
-Theatre: Bold City Opera
-Venue: Riverside Church at Park and King
-Season: 
+theatre: Bold City Opera
+venue: Riverside Church at Park and King
+season: 
 date: 2024-09-19T11:56:06-04:00
 opening_date: 2024-10-25
 closing_date: 2024-10-26
@@ -15,8 +15,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.boldcityopera.org/bluebeardscastle
-Tickets: https://www.boldcityopera.org/tickets
+website: https://www.boldcityopera.org/bluebeardscastle
+tickets: https://www.boldcityopera.org/tickets
 show_details: 
 - Music: Béla Bartók
 - Libretto: Béla Balázs
@@ -55,10 +55,10 @@ orchestra:
 cover:
 - Bluebeard: Dirk Gavin McCoy
 - Judith: McKenna Slack
-Genres:
+genres:
   - Opera
   - Drama
   - English language
-Description: "Enter the dark and enigmatic world of *Bluebeard's Castle*, where Duke Bluebeard's new bride, Judith, uncovers grim secrets hidden behind locked doors in their ominous castle."
+description: "Enter the dark and enigmatic world of *Bluebeard's Castle*, where Duke Bluebeard's new bride, Judith, uncovers grim secrets hidden behind locked doors in their ominous castle."
 ---
 *Bluebeard's Castle* unfolds with Duke Bluebeard welcoming his new bride, Judith, into his isolated and shadowy castle. Despite eerie rumors about his previous wives who vanished under mysterious circumstances, Judith is determined to brighten the dark halls with love. As she opens each of the seven bolted doors within the castle, she discovers increasingly disturbing sights: a bloody torture chamber, an armory of blood-stained weapons, treasures dripping with blood, a blood-soaked garden, a vast kingdom under bloody shadows, and a haunting lake of tears. The final revelation behind the seventh door leads to a chilling climax, where Judith is compelled to join Bluebeard's previous wives, embodying the night in a spectral sequence that mirrors the tragic seasons of Bluebeard's life. This opera, with its stark and brooding narrative, explores themes of curiosity, trust, and the ominous consequences of unveiling the truth.

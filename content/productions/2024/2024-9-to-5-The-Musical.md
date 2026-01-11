@@ -1,7 +1,7 @@
 ---
 title: "9 to 5: The Musical"
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 date: 2024-05-10T17:42:58
 opening_date: 2024-07-18
 closing_date: 2024-08-11
@@ -30,8 +30,8 @@ featured_image_caption: Poster for 9 To 5 The Musical
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/9-to-5-the-musical
-Tickets: https://ci.ovationtix.com/34666/production/1165813
+website: https://www.limelight-theatre.org/season-32-shows-1/9-to-5-the-musical
+tickets: https://ci.ovationtix.com/34666/production/1165813
 cast:
   - Violet: Sherrie Provence
   - Doralee: Megan Rodriguez

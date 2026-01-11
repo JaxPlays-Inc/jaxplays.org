@@ -7,19 +7,19 @@ featured_image: Artist-Connection-Theatre.webp
 featured_image_attr: 
 featured_image_alt: Logo for Artist Connection Theatre
 featured_image_caption:
-Founded: 2017
-Address: |
+founded: 2017
+address: |
 
-Latitude:
-Longitude:
-Socials:
-  Website: https://artistconnectiontheatre.org/
-  Facebook: artistconnectiontheatre
-  Twitter:
-  Instagram: artistconnectionthejax
-  Threads:
-  LinkedIn:
-Phone: 19047105054
+latitude:
+longitude:
+socials:
+  website: https://artistconnectiontheatre.org/
+  facebook: artistconnectiontheatre
+  twitter:
+  instagram: artistconnectionthejax
+  threads:
+  linkedin:
+phone: 19047105054
 color: "#993300"
 donate: https://ci.ovationtix.com/34989/store/donations?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

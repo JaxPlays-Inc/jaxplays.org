@@ -1,8 +1,8 @@
 ---
 title: Bright Star
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: 33
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 33
 date: 2024-09-08T20:42:16-04:00
 opening_date: 2024-09-26
 closing_date: 2024-10-20
@@ -29,8 +29,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/bright-star
-Tickets: https://limelight.ludus.com/200458971
+website: https://www.limelight-theatre.org/season-32-shows-1/bright-star
+tickets: https://limelight.ludus.com/200458971
 cast:
   - Alice Murphy: Maggie Cox
   - Billy Cane: Chad Boyd

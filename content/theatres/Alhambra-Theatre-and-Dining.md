@@ -9,18 +9,18 @@ featured_image: The_Alhambra_Theatre_and_Dining.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 1967
-Address: |
+founded: 1967
+address: |
   12000 Beach Blvd
   Jacksonville, FL 32246
-Socials:
-  Facebook: alhambratheatreanddining
-  Twitter: alhambrajax
-  Instagram: alhambrajax
-  Website: https://www.alhambrajax.com
+socials:
+  facebook: alhambratheatreanddining
+  twitter: alhambrajax
+  instagram: alhambrajax
+  website: https://www.alhambrajax.com
 phone: 19046411212
 color: "#CF9F45"
-Press:
+press:
 - "Dinner and a Show: The History of Alhambra Theatre": https://web.archive.org/web/20230430215950/https://thecoastal.com/culture/history-alhambra-theatre-dining/amp/
 date: 2023-09-08T00:00:00-04:00
 ---

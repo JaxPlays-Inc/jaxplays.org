@@ -5,8 +5,8 @@ opening_date: 1939-05-02
 closing_date: 1939-05-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Aikens: Raymond C. Winstead
 - Candy Boy: Herbert Swisher

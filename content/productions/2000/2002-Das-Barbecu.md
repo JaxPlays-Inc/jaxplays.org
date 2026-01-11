@@ -5,7 +5,7 @@ opening_date: 2002-11-01
 closing_date: 2002-11-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Actor One: Jenny McCombes

@@ -12,10 +12,10 @@ show_details:
 - Theatre: 
 - Basis: 
 - Website: 
-Genres:
+genres:
   - Musical
   - Holiday
   - Family
-Description: "Experience the magic of the holiday season in this musical rendition of the classic tale, infused with joyous songs and heartfelt moments."
+description: "Experience the magic of the holiday season in this musical rendition of the classic tale, infused with joyous songs and heartfelt moments."
 ---
 *Bruce Allen Scudder’s Christmas Carole* is a festive musical adaptation of Charles Dickens’ timeless story, reimagined with captivating musical numbers. The story follows Ebenezer Scrooge, a miserly old man who is visited by the ghosts of Christmas Past, Present, and Yet to Come. Through these spectral encounters, Scrooge confronts the consequences of his bitterness and isolation, ultimately discovering the true spirit of Christmas and the joy of generosity. With a talented cast, enchanting music and heartwarming themes, *Christmas Carole* is a delightful holiday treat for the whole family.

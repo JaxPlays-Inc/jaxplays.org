@@ -5,7 +5,7 @@ opening_date: 1926-01-26
 closing_date: 1926-01-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Dorinda Desborough: Grace Hilditch Holt
 - Lord Bolingbroke: J.B. Lucy

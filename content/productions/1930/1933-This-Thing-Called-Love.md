@@ -5,7 +5,7 @@ opening_date: 1933-03-14
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Harry Bertrand: Charles W. Crooke
 - Ann Marvin: Elizabeth Edwards

@@ -12,15 +12,15 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: brentallenlive
-  Twitter: brentallenlive
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm15162420
-  Website: 
-Photos:
+socials:
+  facebook: brentallenlive
+  twitter: brentallenlive
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm15162420
+  website: 
+photos:
 - photo: Brent-Mulberry-02.webp
   photo_alt: Brent Mulberry headshot
   photo_caption: Brent Mulberry headshot

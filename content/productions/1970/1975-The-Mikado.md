@@ -5,8 +5,8 @@ opening_date: 1975-03-21
 closing_date: 1975-04-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Mikado of Japan: Bill Harriman
 - Nanki-Poo: Randy Weedman

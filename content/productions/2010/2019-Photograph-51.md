@@ -4,16 +4,16 @@ title: Photograph 51
 date: 2023-09-08T00:00:00
 opening_date: 2019-01-25
 closing_date: 2019-01-26
-Genres: 
+genres: 
 - Play
 featured_image: 2019-Photograph-51.webp
 program:
-Theatre: Actors Collective
-Venue: Museum of Science & History
+theatre: Actors Collective
+venue: Museum of Science & History
 show_details:
 - Writer: "[[w:Anna Ziegler (playwright)|Anna Ziegler]]"
 - Series: 'The Secret of Life: A Science Play Series'
-Website: http://www.actorscollective.com/photograph-51/
+website: http://www.actorscollective.com/photograph-51/
 showtimes:
 - 2019-01-25 19:30:00
 - 2019-01-26 16:00:00

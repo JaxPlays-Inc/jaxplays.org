@@ -5,8 +5,8 @@ opening_date: 1974-01-25
 closing_date: 1974-02-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Jimmy Perry: Marshall Grauer
 - Manuel: Tom Rush

@@ -5,8 +5,8 @@ opening_date: 1978-10-06
 closing_date: 1978-10-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Tommy Albright: John Hein
 - Jeff Douglas: Sam Frankhouser

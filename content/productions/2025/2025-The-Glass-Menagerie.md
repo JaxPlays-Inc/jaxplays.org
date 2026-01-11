@@ -1,8 +1,8 @@
 ---
 title: The Glass Menagerie
-Theatre: Apex Theatre Studio
-Venue: Apex Theatre Studio
-Season: 12
+theatre: Apex Theatre Studio
+venue: Apex Theatre Studio
+season: 12
 date: 2025-09-16T20:01:58-04:00
 opening_date: 2025-09-26
 closing_date: 2025-10-09
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.apextheatrejax.com/events
-Tickets: https://www.eventbrite.com/e/apex-theatre-studio-presents-the-glass-menagerie-tickets-1648055290739?aff=jaxplays
+website: https://www.apextheatrejax.com/events
+tickets: https://www.eventbrite.com/e/apex-theatre-studio-presents-the-glass-menagerie-tickets-1648055290739?aff=jaxplays
 show_details: 
 cast:
   - Amanda Wingfield: Cathy O'Brien

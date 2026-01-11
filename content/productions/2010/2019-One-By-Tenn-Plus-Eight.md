@@ -11,10 +11,10 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 program: 2019_One_By_Tenn_Plus_Eight.pdf
-Theatre: Actors Collective
-Venue: ABET - All Beaches Experimental Theatre
-Website: http://www.actorscollective.com/one-by-tenn-plus-eight/
-Genres: 
+theatre: Actors Collective
+venue: ABET - All Beaches Experimental Theatre
+website: http://www.actorscollective.com/one-by-tenn-plus-eight/
+genres: 
 - Play
 show_details:
 - Writer: 
@@ -93,5 +93,5 @@ By Olivia Gowan
 "Talk to Me Like the Rain and Let Me Listen"  
 By Tennessee Williams
 
-Monologues: "Thickness of Water", "Chemistry", "Driving School", "Vocation", "Travel" and "Propagation"
+monologues: "Thickness of Water", "Chemistry", "Driving School", "Vocation", "Travel" and "Propagation"
 By Karen Konzen

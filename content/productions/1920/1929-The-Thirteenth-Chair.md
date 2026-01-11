@@ -5,7 +5,7 @@ opening_date: 1929-02-14
 closing_date: 1929-02-15
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Braddish Trent: Stuart Cavanagh
 - Doolan: Martin S. Fabian

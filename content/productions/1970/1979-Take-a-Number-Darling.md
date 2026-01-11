@@ -5,8 +5,8 @@ opening_date: 1979-03-23
 closing_date: 1979-04-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Duncan Latimer: Grier Wells
 - Gladys Nurmy: Sabina Meyer

@@ -5,8 +5,8 @@ opening_date: 1938-10-25
 closing_date: 1938-10-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Adolph Gretzl: Roy Meishner
 - Ann Braddock: Mary Anderson

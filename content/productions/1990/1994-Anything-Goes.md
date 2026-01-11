@@ -5,8 +5,8 @@ opening_date: 1994-05-06
 closing_date: 1994-05-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mr. Elisha J. Whitney: Tom Nehl
 - Steward: Brandon Hillard

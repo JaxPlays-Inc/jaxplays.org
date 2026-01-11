@@ -1,8 +1,8 @@
 ---
 title: "Rodgers and Hammerstein's Cinderella"
-Theatre: Christ Church Creative Academy
-Venue: Christ Church Ponte Vedra Beach
-Season: 
+theatre: Christ Church Creative Academy
+venue: Christ Church Ponte Vedra Beach
+season: 
 date: 2024-11-19T20:48:22-05:00
 opening_date: 2025-02-27
 closing_date: 2025-03-08
@@ -25,8 +25,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://ccpvb.org/connect/community/christ-church-creative-academy-13691/
-Tickets: https://www.ticketleap.events/tickets/cec-som-5/cinderella#
+website: https://ccpvb.org/connect/community/christ-church-creative-academy-13691/
+tickets: https://www.ticketleap.events/tickets/cec-som-5/cinderella#
 show_details: 
 cast:
   - Cinderella: Aly Blakewell
@@ -65,5 +65,5 @@ crew:
 - Music Director: Cathy Dooley
 orchestra:
 genres: 
-Description: 
+description: 
 ---

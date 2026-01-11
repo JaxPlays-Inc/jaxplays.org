@@ -5,7 +5,7 @@ opening_date: 1930-03-11
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Anne Windsor: Lavinia Rose
 - Betty Willoughby: Mildred Chelf

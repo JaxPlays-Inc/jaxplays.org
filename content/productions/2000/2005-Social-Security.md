@@ -1,7 +1,7 @@
 ---
 title: Social Security
-Theatre: ABET - Atlantic Beach Experimental Theatre
-Venue: Adele Grage Cultural Center
+theatre: ABET - Atlantic Beach Experimental Theatre
+venue: Adele Grage Cultural Center
 date: 2023-09-08T00:00:00
 opening_date: 2005-01-07
 closing_date: 2005-01-22
@@ -12,8 +12,8 @@ featured_image_caption: Program artwork for 'Social Security'
 featured_image_attr: George Maida
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Playwright: "[[w:Andrew Bergman]]"
 cast:
@@ -49,10 +49,10 @@ crew:
   - Pat Pilmore
 orchestra:
 # Social Security
-Genres:
+genres:
   - Play
   - Comedy
   - Family Drama
-Description: "Delve into the hilarious dynamics of the Kahn family in 'Social Security,' where the arrival of an elderly relative turns a sophisticated New York couple's world upside down."
+description: "Delve into the hilarious dynamics of the Kahn family in 'Social Security,' where the arrival of an elderly relative turns a sophisticated New York couple's world upside down."
 ---
 In *Social Security*, Barbara and David Kahn, a trendy Manhattan art gallery couple, find their chic urban lifestyle disrupted when Barbara's conservative sister Trudy deposits their eccentric mother, Sophie, on their doorstep. The unexpected visit sets off a series of comedic events that challenge the family's relationships and perceptions. As Sophie's spirited influence begins to transform everyone around her, the play explores themes of family, aging, and the vibrant pursuit of passion at any stage of life. With sharp wit and a lot of heart, *Social Security* offers an entertaining look at the clashes and connections that define family life.

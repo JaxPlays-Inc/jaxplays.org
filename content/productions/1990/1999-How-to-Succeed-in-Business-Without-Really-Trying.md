@@ -7,8 +7,8 @@ opening_date: 1999-06-11
 closing_date: 1999-06-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - J. Pierrepont Finch: Ben Byrd
 - Mr. Gatch: Dave Gowan

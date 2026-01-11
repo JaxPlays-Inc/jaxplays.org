@@ -7,8 +7,8 @@ approx_date: month
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Eileen Sherwood: Estelle Slager
 - Ruth Sherwood: Alice Nunn, Jr.

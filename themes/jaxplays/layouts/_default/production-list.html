@@ -114,11 +114,11 @@
         {{ if or $genres (and .Params.opening_date .Params.closing_date) }}
         <div class="flex flex-column items-start justify-start">
           <!-- Genres -->
-          {{ $genres := .Params.Genres }}
+          {{ $genres := .Params.genres }}
           {{ if not $genres }}
             {{ range where .Site.Pages "Type" "shows" }}
               {{ if eq .Title $.Title }}
-                {{ $genres = .Params.Genres }}
+                {{ $genres = .Params.genres }}
               {{ end }}
             {{ end }}
           {{ end }}

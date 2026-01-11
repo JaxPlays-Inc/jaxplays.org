@@ -1,7 +1,7 @@
 ---
 title: The Great American Trailer Park Christmas Musical
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
 date: 2023-12-08
 opening_date: 2023-12-08
 closing_date: 2023-12-23
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Music: "[[w:David Nehls]]"
 - Lyrics: David Nehls
@@ -33,10 +33,10 @@ crew:
   - Cat Sutton
   - Izzy Hague
 orchestra:
-Genres:
+genres:
 - Musical
 - Comedy
 - Holiday
-Description: "Tinsel, twang, and trailer-park shenanigans collide in this riotous, offbeat holiday spectacle."
+description: "Tinsel, twang, and trailer-park shenanigans collide in this riotous, offbeat holiday spectacle."
 ---
 When the quirky residents of Armadillo Acres try to glam up their mobile home community for the holidays, an unexpected guest throws everyone for a loop. Between tacky lawn ornaments, stolen decorations, and a competitive decorating contest, it's a Christmas like no other. Get ready for an uproarious, heartwarming celebration of what makes a community a family, even when that family is more than a little dysfunctional.

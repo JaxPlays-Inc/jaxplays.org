@@ -1,7 +1,7 @@
 ---
 title: Matilda JR.
-Theatre: Greenlight Theatre Company
-Venue: Grace Darling Studio Theatre
+theatre: Greenlight Theatre Company
+venue: Grace Darling Studio Theatre
 date: 2024-05-02
 opening_date: 2024-05-02
 closing_date: 2024-05-05
@@ -18,14 +18,14 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.greenlighttheatreco.com/onstage
+website: 
+tickets: https://www.greenlighttheatreco.com/onstage
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: The children are rising up. Join the revolt in this Broadway Junior adaptation of the Tony Award-winning hit!
+description: The children are rising up. Join the revolt in this Broadway Junior adaptation of the Tony Award-winning hit!
 ---
 Rebellion is nigh in Matilda JR., a gleefully witty ode to the the anarchy of childhood and the power of imagination! This story of a girl who dreams of a better life and the children she inspires will have audiences rooting for the "revolting children" who are out to teach the grown-ups a lesson.
 

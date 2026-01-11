@@ -5,7 +5,7 @@ opening_date: 1924-04-12
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The Lady: Ethel Mouser
 - The Guard: Gordon McCauley

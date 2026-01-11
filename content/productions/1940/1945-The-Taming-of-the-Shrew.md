@@ -5,8 +5,8 @@ opening_date: 1945-05-25
 closing_date: 1945-06-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Baptista: Arthur Gutman
 - Bianca: Margaret Hunter Clucas

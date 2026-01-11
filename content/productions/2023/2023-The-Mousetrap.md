@@ -1,7 +1,7 @@
 ---
 title: The Mousetrap
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
 date: 2023-10-06
 opening_date: 2023-10-06
 closing_date: 2023-10-22
@@ -21,8 +21,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Mollie Ralston: Hannah Borko
@@ -40,6 +40,6 @@ crew:
   - Kayla O'Connor
 orchestra:
 genres: 
-Description: 
+description: 
 ---
 

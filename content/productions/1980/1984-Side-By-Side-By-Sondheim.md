@@ -5,8 +5,8 @@ opening_date: 1984-05-11
 closing_date: 1984-05-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ensemble:
   - Valerie Hall

@@ -5,7 +5,7 @@ opening_date: 1927-02-08
 closing_date: 1927-02-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Saunders: Charlotte Bowden Perry
 - Sue Tremaine: Dore' Beauchamp-Nobbs

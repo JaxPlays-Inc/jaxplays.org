@@ -5,8 +5,8 @@ opening_date: 1963-01-10
 closing_date: 1963-01-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Girl: Judith Jett
 - The Mother: Mollie Tierney

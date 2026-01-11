@@ -1,7 +1,7 @@
 ---
 title: Storefront Church
-Theatre: Limelight Theatre
-Venue: Koger-Gamache Studio Theatre
+theatre: Limelight Theatre
+venue: Koger-Gamache Studio Theatre
 date: 2023-11-09
 opening_date: 2023-11-09
 closing_date: 2023-11-26
@@ -24,8 +24,8 @@ featured_image_caption: Poster for Storefront Church
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
-Tickets: https://ci.ovationtix.com/34666/production/1165802
+website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church
+tickets: https://ci.ovationtix.com/34666/production/1165802
 show_details: 
   - Playwright: "[[w:John Patrick Shanley]]"
 cast:
@@ -38,10 +38,10 @@ cast:
 crew:
 - Director: Andrea Cook
 orchestra:
-Genres:
+genres:
 - Play
 - Drama
 - Social Commentary
-Description: "When a Bronx pastor faces foreclosure, ethical dilemmas intertwine with personal redemption in this stirring drama."
+description: "When a Bronx pastor faces foreclosure, ethical dilemmas intertwine with personal redemption in this stirring drama."
 ---
 Reverend Chester Kimmich, struggling to revive a dilapidated Bronx church, finds himself in a moral tug-of-war when his sanctuary faces foreclosure. As the lines between faith and finance blur, an ensemble of flawed but earnest characters must confront their pasts and ethical beliefs. As the community fights to keep its spiritual and financial integrity, questions arise about the true price of salvation.

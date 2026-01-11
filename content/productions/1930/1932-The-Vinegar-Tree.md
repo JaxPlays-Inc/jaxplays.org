@@ -5,7 +5,7 @@ opening_date: 1932-11-15
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Geoffrey Cole: John Salzer
 - Winifred Mansfied: Laurine Goffin

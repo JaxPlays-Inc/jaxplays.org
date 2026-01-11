@@ -6,13 +6,13 @@ title: Guess Who's Coming to Dinner
 date: 2023-09-08T00:00:00
 opening_date: 2020-04-17
 closing_date: 2020-05-03
-Genres: 
+genres: 
 - Play
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:
 - Writer: Todd Kreidler
-Subject: Based on the 1967 film "Guess Who's Coming to Dinner" by William Rose
+subject: Based on the 1967 film "Guess Who's Coming to Dinner" by William Rose
 showtimes:
 - 2020-04-17 20:00:00
 - 2020-04-18 20:00:00

@@ -9,9 +9,9 @@ show_details:
 - Lyrics: Lionel Bart
 - Book: Lionel Bart
 - Basis: "*[[w:Oliver Twist]]* by [[w:Charles Dickens]]"
-Genres:
+genres:
   - Musical
   - Drama
   - Family
-Description: "Step into the gritty world of Victorian London in this musical adaptation of Charles Dickens' 'Oliver Twist,' where a young orphan navigates the perils of the city's underworld."
+description: "Step into the gritty world of Victorian London in this musical adaptation of Charles Dickens' 'Oliver Twist,' where a young orphan navigates the perils of the city's underworld."
 ---

@@ -5,8 +5,8 @@ opening_date: 1987-05-15
 closing_date: 1987-05-30
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Narrator: Jim Pearce
 - The Girl: Michele Martin

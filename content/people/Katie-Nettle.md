@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: KatieNettle
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-Press:
+socials:
+  facebook: 
+  twitter: 
+  instagram: KatieNettle
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+press:
 - "Young troupe to present ‘Mean Girls The Musical’ | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/young-troupe-to-present-mean-girls-the-musical-theatre-jason-katie-nettle-event-art,91874
 ---

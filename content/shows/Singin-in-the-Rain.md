@@ -11,11 +11,11 @@ show_details:
   - "[[w:Betty Comden]]"
   - "[[w:Adolph Green]]"
 - Basis: "*[[w:Singin' in the Rain]]* by Adolph Green and Betty Comden"
-Genres:
+genres:
   - Musical
   - Comedy
   - Romance
-Description: "Step into the golden age of Hollywood in this splashy musical, where a film star duo navigates the bumpy transition from silent films to talkies."
+description: "Step into the golden age of Hollywood in this splashy musical, where a film star duo navigates the bumpy transition from silent films to talkies."
 ---
 *Singin' in the Rain* transports audiences to Hollywood in the late 1920s during the rise of the talkie film era. The story centers on charming and talented film star Don Lockwood and his glamorous co-star Lina Lamont. As they face the challenges of transitioning from silent films to sound, Lina’s less-than-pleasant voice threatens their career. Meanwhile, Don meets and falls in love with aspiring actress Kathy Selden, who has a voice as beautiful as her personality. Packed with dazzling dance numbers and classic songs like "Singin' in the Rain" and "Make 'Em Laugh," this musical joyfully celebrates the tumultuous yet exhilarating changes in both the movie industry and the lives of its characters.
 

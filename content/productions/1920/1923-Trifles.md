@@ -5,7 +5,7 @@ opening_date: 1923-12-16
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Zeb Hale: Gordon McCauley
 - Miz Hale: Helen Kennedy

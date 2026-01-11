@@ -5,8 +5,8 @@ opening_date: 1942-03-24
 closing_date: 1942-03-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bill Blake: Lieut. Commander P.C. Poyntz
 - Charlotte Franklin: Mary Holden Poyntz

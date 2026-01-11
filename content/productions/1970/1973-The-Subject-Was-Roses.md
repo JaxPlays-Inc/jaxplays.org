@@ -5,8 +5,8 @@ opening_date: 1973-07-20
 closing_date: 1973-07-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - John Cleary: David J. Putney, Jr.
 - Nettie Cleary: Mardie Kelly

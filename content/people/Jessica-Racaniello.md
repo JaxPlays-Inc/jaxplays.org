@@ -6,13 +6,13 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: jessica.denes.5
-  Twitter: 
-  Instagram: jessica_racaniello
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm16217940
-  Website: 
-  Backstage: jessica-racaniello
+socials:
+  facebook: jessica.denes.5
+  twitter: 
+  instagram: jessica_racaniello
+  linkedin: 
+  ibdb: 
+  imdb: nm16217940
+  website: 
+  backstage: jessica-racaniello
 ---

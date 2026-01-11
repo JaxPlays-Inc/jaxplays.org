@@ -1,7 +1,7 @@
 ---
 title: Carmen
-Theatre: Jacksonville Symphony 
-Venue: Jacoby Symphony Hall
+theatre: Jacksonville Symphony 
+venue: Jacoby Symphony Hall
 date: 2024-04-12
 opening_date: 2024-04-12
 closing_date: 2024-04-14
@@ -14,8 +14,8 @@ featured_image_caption: Poster of 'Carmen' at the Jacksonville Symphony
 featured_image_attr: Photo of Carmen in a red dress with drammatic lighting
 featured_image_attr_link: 
 program: 
-Website: https://my.jaxsymphony.org/carmen
-Tickets: https://my.jaxsymphony.org/carmen
+website: https://my.jaxsymphony.org/carmen
+tickets: https://my.jaxsymphony.org/carmen
 show_details: 
 - Composer: Georges Bizet
 - Librettist:
@@ -40,7 +40,7 @@ genres:
 - Drama
 - Opera
 - Romance
-Description: Experience the passion and tragedy of Bizet's Carmen, a tale of love and betrayal, brought to life by the Jacksonville Symphony.
+description: Experience the passion and tragedy of Bizet's Carmen, a tale of love and betrayal, brought to life by the Jacksonville Symphony.
 ---
  The Jacksonville Symphony presents Georges Bizet's timeless and cherished opera, Carmen, on Friday, April 12 at 7:30 p.m. and Sunday, April 14 at 3 p.m. Sung in French with English supertitle translations, a world-class cast and the orchestra share the stage for the largest production of the Jacksonville Symphony’s 2023/2024 Season, transforming Jacoby Symphony Hall into an opera house, complemented by vivid 30-foot projection screens serving as “sets.”  
 

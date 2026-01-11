@@ -16,18 +16,18 @@ featured_image: Story-and-Song.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     1430 Park Ave
     Fernandina Beach, FL 32034
-Latitude: 30.64579314989748
-Longitude: -81.45440625295436
-Socials: 
-  Facebook: StoryAndSongBookstore
-  Twitter: 
-  Instagram: storyandsongbb
-  Threads:
-  Website: https://storyandsongarts.org/
-Phone:  19046012118
+latitude: 30.64579314989748
+longitude: -81.45440625295436
+socials: 
+  facebook: StoryAndSongBookstore
+  twitter: 
+  instagram: storyandsongbb
+  threads:
+  website: https://storyandsongarts.org/
+phone:  19046012118
 ---
 Story & Song’s mission is to be a gathering place for the community, offering programs that enrich our lives, books that broaden our world and delicious food that connects us. 

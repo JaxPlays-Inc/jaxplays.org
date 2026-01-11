@@ -1,8 +1,8 @@
 ---
 title: The Wizard of Oz 
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 
 date: 2025-11-18T19:55:03-05:00
 opening_date: 2025-11-14
 closing_date: 2025-11-23
@@ -19,13 +19,13 @@ featured_image_caption:
 featured_image_attr: Bill Ivins
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/news/wizardofoz2025/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/news/wizardofoz2025/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
 crew:
 - Director: Beth Perkins
 orchestra:
 genres: 
-Description: 
+description: 
 ---

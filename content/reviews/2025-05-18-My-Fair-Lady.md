@@ -9,7 +9,7 @@ authors:
 - Sara Orr
 show_reading_time: true
 production: 2025 My Fair Lady
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Sofia Smith
 - Gary Lee Webber

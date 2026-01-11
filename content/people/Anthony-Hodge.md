@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: AnthonyHodgeActor
-  Twitter: 
-  Instagram: 
-  LinkedIn: graphicstation
-  IBDB: 
-  IMDb: nm3409424
-  Website: 
+socials:
+  facebook: AnthonyHodgeActor
+  twitter: 
+  instagram: 
+  linkedin: graphicstation
+  ibdb: 
+  imdb: nm3409424
+  website: 
 ---

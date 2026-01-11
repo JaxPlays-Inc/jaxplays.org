@@ -1,8 +1,8 @@
 ---
 title: St. George and the Dragon
-Theatre: Jason Woods Productions
-Venue: WJCT Studios
-Season: 
+theatre: Jason Woods Productions
+venue: WJCT Studios
+season: 
 date: 2024-09-18T13:19:29-04:00
 opening_date: 2015-12-17
 closing_date: 2015-12-19
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: Caryl Butterley
 featured_image_attr_link: /people/Caryl-Butterley/
 program:
-Website: https://web.archive.org/web/20160110000923/http://www.comefaceyourdragons.com/
-Tickets: 
+website: https://web.archive.org/web/20160110000923/http://www.comefaceyourdragons.com/
+tickets: 
 show_details: 
 cast:
   - St. George: Alec Hadden
@@ -68,7 +68,7 @@ crew:
 
 orchestra:
 genres: 
-Description: 
-Press:
+description: 
+press:
 - "GEORGE and the DRAGON – Revisited | EU Jacksonville": https://folioweekly.com/staging/2015/12/21/george-and-the-dragon-revisited/
 ---

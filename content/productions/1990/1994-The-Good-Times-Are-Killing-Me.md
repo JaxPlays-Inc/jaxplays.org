@@ -5,8 +5,8 @@ opening_date: 1994-03-18
 closing_date: 1994-04-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Edna Arkins: Cricket Burch
 - Lucy Arkins: Rhiannon Lee

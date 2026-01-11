@@ -1,8 +1,8 @@
 ---
 title: Legally Blonde
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 11
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 11
 date: 2024-06-15T13:51:29-04:00
 opening_date: 2024-07-05
 closing_date: 2024-07-20
@@ -23,8 +23,8 @@ featured_image_caption: "*Legally Blonde* dazzles with its bright pink charm and
 featured_image_attr: Bill Ivins
 featured_image_attr_link: https://www.ivinsink.com/program-covers
 program:
-Website: https://ameliamusicalplayhouse.com/performances/legally-blonde/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/performances/legally-blonde/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
   - Elle Woods: Olivia Lynch
@@ -114,5 +114,5 @@ orchestra:
   - Drums: Rick Maurer
   - Piano: Solomon Johnson
 genres: 
-Description: 
+description: 
 ---

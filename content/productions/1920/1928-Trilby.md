@@ -5,7 +5,7 @@ opening_date: 1928-10-18
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Bagot: Annie M. Pratt
 - Madame Vinard: Birsa Shepard

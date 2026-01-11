@@ -1,7 +1,7 @@
 ---
 title: Always A Bridesmaid
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 date: 2024-05-10T17:42:58
 opening_date: 2024-06-13
 closing_date: 2024-07-07
@@ -28,8 +28,8 @@ featured_image_caption: Poster for Always A Bridesmaid
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/always-a-bridesmaid
-Tickets: https://ci.ovationtix.com/34666/production/1165812
+website: https://www.limelight-theatre.org/season-32-shows-1/always-a-bridesmaid
+tickets: https://ci.ovationtix.com/34666/production/1165812
 show_details: 
 - Playwright: 
   - Jessie Jones
@@ -45,10 +45,10 @@ cast:
 crew:
   - Director: Cathy O'Brien
 orchestra:
-Genres:
+genres:
 - Play
 - Comedy
 - Romance
-Description: "The altar of friendship faces the test of time, as four women navigate love's unpredictable journey, one wedding at a time."
+description: "The altar of friendship faces the test of time, as four women navigate love's unpredictable journey, one wedding at a time."
 ---
 In this side-splitting comedic romp, four lifelong friends vow to serve as bridesmaids in each other's weddings. Their commitment takes them through an odyssey of ridiculous hats, bridal showers, and bad romantic choices. They discover that even when life doesn't give you a fairytale, friendship remains a solid vow.

@@ -8,13 +8,13 @@ featured_image: 2024-Picasso-at-the-Lapin-Agile.webp
 featured_image_caption: Poster for Picasso at the Lapin Agile
 featured_image_attr: Theatre Jacksonville
 program:
-Genres:
+genres:
 - Comedy
 - Absurdist
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-Tickets: https://ci.ovationtix.com/34919
-Description: "In 1904 Paris, Einstein and Picasso collide in a café, just before their groundbreaking work reshapes the world. As they spar over big ideas, a time-warped singer joins, adding a twist of the unexpected."
+tickets: https://ci.ovationtix.com/34919
+description: "In 1904 Paris, Einstein and Picasso collide in a café, just before their groundbreaking work reshapes the world. As they spar over big ideas, a time-warped singer joins, adding a twist of the unexpected."
 showtimes:
 - 2024-04-19 19:30:00
 - 2024-04-20 19:30:00

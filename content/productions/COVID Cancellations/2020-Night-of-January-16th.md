@@ -5,14 +5,14 @@ layout: productions
 title: Night of January 16th
 date: 2023-09-08T00:00:00
 opening_date: 2020-04-17
-Theatre: Orange Park Community Theatre
-Genres: 
+theatre: Orange Park Community Theatre
+genres: 
 - Play
 - Courtroom drama
 show_details:
 - Writer: "[[w:Ayn Rand]]"
 - Setting: A courtroom in New York City
-Website: https://www.opct.info
+website: https://www.opct.info
 showtimes:
 - 2020-04-17 20:00:00
 - 2020-04-18 20:00:00

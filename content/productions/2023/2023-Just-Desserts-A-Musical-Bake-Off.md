@@ -1,6 +1,6 @@
 ---
 title: "Just Desserts: A Musical Bake-Off"
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 date: 2023-11-03
 opening_date: 2023-11-03
@@ -20,7 +20,7 @@ featured_image: 2023_Just_Desserts_A_Musical_Bake_Off.webp
 featured_image_caption: "Poster for Just Desserts: A Musical Bake-Off"
 featured_image_attr: Theatre Jacksonville
 program: 2023_Just_Desserts.pdf
-Website: https://www.theatrejax.com/onstage
+website: https://www.theatrejax.com/onstage
 show_details: 
 - Books & Lyrics: Barbara Campbell
 - Music: Brad Ross
@@ -44,10 +44,10 @@ crew:
 - Lighting Board Operator: Aspen Krill
 orchestra:
 - Pianist: Erin Barnes
-Tickets: https://ci.ovationtix.com/34919
-Genres:
+tickets: https://ci.ovationtix.com/34919
+genres:
 - Musical
 - Comedy
-Description: "*Just Desserts: A Musical Bake-Off* is a delightful musical comedy that pits amateur bakers against each other in a spirited competition. The musical serves up a scrumptious tale of rivalry, friendship, and the joy of baking."
+description: "*Just Desserts: A Musical Bake-Off* is a delightful musical comedy that pits amateur bakers against each other in a spirited competition. The musical serves up a scrumptious tale of rivalry, friendship, and the joy of baking."
 ---
 *Just Desserts: A Musical Bake-Off* is a captivating musical comedy that explores the highs and lows of a baking competition. With spirited amateur bakers and a medley of confectionary delights, the musical invites audiences into a world filled with rivalry, drama, and delectable treats. Featuring book and lyrics by Barbara Campbell and music by Brad Ross, the production serves as a humorous take on the age-old themes of friendship, competition, and the pure joy that comes from baking.

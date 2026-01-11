@@ -1,8 +1,8 @@
 ---
 title: Just Another Thanksgiving
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
-Season: 
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
+season: 
 date: 2025-12-03T15:54:32-05:00
 opening_date: 2025-12-14
 closing_date: 2025-12-14
@@ -14,8 +14,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.facebook.com/events/1353012805732885
-Tickets: https://www.facebook.com/events/1353012805732885
+website: https://www.facebook.com/events/1353012805732885
+tickets: https://www.facebook.com/events/1353012805732885
 show_details: 
 - Playwright:  David Sacks
 cast:
@@ -33,7 +33,7 @@ genres:
 - Family
 - Holiday
 - Political
-Description: "On Thanksgiving Day, a mother tries to maintain harmony as her family's secrets and differing perspectives collide, exposing the deep divisions within their home."
+description: "On Thanksgiving Day, a mother tries to maintain harmony as her family's secrets and differing perspectives collide, exposing the deep divisions within their home."
 ---
 Admission is free for this public table read. *Just Another Thanksgiving*, is a new play that examines family tensions through sharp humor and quiet moments of truth. This script has never been read aloud. Audiences will hear it come to life for the very first time.
 

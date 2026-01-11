@@ -1,8 +1,8 @@
 ---
 title: The Vandal
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: ABET - All Beaches Experimental Theatre
-Season: 
+theatre: ABET - All Beaches Experimental Theatre
+venue: ABET - All Beaches Experimental Theatre
+season: 
 date: 2025-02-24T20:25:30-05:00
 opening_date: 2019-10-18
 closing_date: 2019-11-03
@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Playwright: Hamish Linklater
 cast:
@@ -34,7 +34,7 @@ crew:
 - Director: Caryl Butterley
 orchestra:
 genres: 
-Description: 
-Press:
+description: 
+press:
 - "THE VANDAL Comes to ABET | Broadway World": https://www.broadwayworld.com/jacksonville/article/THE-VANDAL-Comes-to-ABET-20191016
 ---

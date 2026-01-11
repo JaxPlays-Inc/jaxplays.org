@@ -5,11 +5,11 @@ opening_date: 2002-08-23
 closing_date: 2002-09-21
 layout: productions
 program:
-Genres: 
+genres: 
 - Play
 - Comedy
 - Romance
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Viola: Mandy Leigh Proctor

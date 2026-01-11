@@ -8,17 +8,17 @@ featured_image: White-Mouse-Theatre-Productions.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: 
-  Twitter: whitemouseprod
-  Instagram: whitemouseproductions
-  Threads:
-  Website: https://whitemousetheatrep.wixsite.com/home
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: 
+  twitter: whitemouseprod
+  instagram: whitemouseproductions
+  threads:
+  website: https://whitemousetheatrep.wixsite.com/home
+phone:  
 color: "#000000"
 ---

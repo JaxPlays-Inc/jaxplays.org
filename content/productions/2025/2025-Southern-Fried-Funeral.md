@@ -1,8 +1,8 @@
 ---
 title: Southern Fried Funeral
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2025
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2025
 date: 2024-12-20T12:16:26-05:00
 opening_date: 2025-01-09
 closing_date: 2025-02-09
@@ -51,8 +51,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1482&code=JAXPLAYS&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1482&code=JAXPLAYS&qty_target=0
 show_details: 
 cast:
 - Dorothy Frye: Peg Pachal
@@ -92,11 +92,11 @@ crew:
   - Audrey Dunham
 orchestra:
 # Southern Fried Funeral
-Genres:
+genres:
   - Play
   - Comedy
-Description: "Experience the heartwarming chaos of a Southern family coming together after the passing of their patriarch, turning a time of mourning into unexpected hilarity."
-Reviews:
+description: "Experience the heartwarming chaos of a Southern family coming together after the passing of their patriarch, turning a time of mourning into unexpected hilarity."
+reviews:
 - "Experience Southern charm, laughs with Alhambra’s latest show | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/experience-southern-charm-laughs-with-alhambras-latest-show,111948
 - "SOUTHERN FRIED FUNERAL Antics at the Alhambra | Folio Weekly ": https://folioweekly.com/2025/01/12/southern-fried-funeral-antics-at-the-alhambra/
 ---

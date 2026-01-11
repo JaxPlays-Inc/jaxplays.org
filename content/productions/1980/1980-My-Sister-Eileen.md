@@ -5,8 +5,8 @@ opening_date: 1980-05-02
 closing_date: 1980-05-07
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mr. Appopolous: Mel Wilhite
 - Ruth Sherwood: Nancy Kaye

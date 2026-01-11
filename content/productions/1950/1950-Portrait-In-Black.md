@@ -5,8 +5,8 @@ opening_date: 1950-04-14
 closing_date: 1950-04-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Blake Richie: Hobson Blackmon
 - Cob O'Brien: George Durney

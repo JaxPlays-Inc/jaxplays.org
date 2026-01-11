@@ -5,8 +5,8 @@ opening_date: 1988-03-18
 closing_date: 1988-04-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - David: Mark Lambert
 - Rachel: Shaula Chambliss

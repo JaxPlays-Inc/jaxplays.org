@@ -6,19 +6,19 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     1300 Seminole Rd
     Atlantic Beach, FL 32233
-Latitude: 30.338402466931978
-Longitude: -81.40109657437296
-Socials: 
-  Facebook: CityOfAtlanticBeach
-  Twitter: AtlanticBeachPD
-  Instagram:
-  Threads:
-  Website: https://www.coab.us/425/Johansen-Park
-Phone:  
+latitude: 30.338402466931978
+longitude: -81.40109657437296
+socials: 
+  facebook: CityOfAtlanticBeach
+  twitter: AtlanticBeachPD
+  instagram:
+  threads:
+  website: https://www.coab.us/425/Johansen-Park
+phone:  
 ---
 Named after Preben Johansen.  Located between West Park and East Park Terraces, Johansen Park is a 12-acre passive park in the Selva Marina neighborhood. Just blocks from the ocean, Johansen has a canopy of trees and grassy areas for picnicking.
 

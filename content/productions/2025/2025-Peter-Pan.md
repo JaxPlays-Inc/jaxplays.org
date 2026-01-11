@@ -1,8 +1,8 @@
 ---
 title: Peter Pan
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
+venue: Moran Theater
 date: 2024-05-22T12:01:10-04:00
 opening_date: 2025-02-18
 closing_date: 2025-02-23
@@ -21,8 +21,8 @@ featured_image_caption: "Graphic for 'Peter Pan'"
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.fscjartistseries.org/tickets/peter-pan
-Tickets: https://www.fscjartistseries.org/season-tickets
+website: https://www.fscjartistseries.org/tickets/peter-pan
+tickets: https://www.fscjartistseries.org/season-tickets
 show_details: 
 - Lyrics: Carolyn Leigh
 - Music: Morris (Moose) Charlap
@@ -70,12 +70,12 @@ cast:
     - Bailey Frankenberg 
 crew:
 orchestra:
-Genres:
+genres:
   - Musical
   - Fantasy
   - Adventure
   - Family
-Description: "Fly away to Neverland with *Peter Pan*, a magical musical adventure that celebrates the joy of youth, the power of imagination, and the timeless spirit of adventure."
+description: "Fly away to Neverland with *Peter Pan*, a magical musical adventure that celebrates the joy of youth, the power of imagination, and the timeless spirit of adventure."
 ---
 Join Peter Pan, the boy who never grows up, as he leads Wendy, John and Michael Darling on an unforgettable journey to Neverland. Encounter the mischievous Lost Boys, the fierce Tiger Lily, and the menacing Captain Hook along the way. Featuring enchanting songs like 'I’m Flying,' 'I’ve Gotta Crow,' and 'Never Never Land,' this beloved musical captures the wonder and excitement of J.M. Barrie’s classic tale. 
 

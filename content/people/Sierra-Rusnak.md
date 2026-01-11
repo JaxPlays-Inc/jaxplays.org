@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: sierra.rusnak
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  Backstage: sierra-rusnak-1
+socials:
+  facebook: 
+  twitter: 
+  instagram: sierra.rusnak
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  backstage: sierra-rusnak-1
 ---

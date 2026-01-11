@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: sarahnordinmezzo
-  Twitter: 
-  Instagram: sarahnordinmezzo
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.sarahnordin.com/
+socials:
+  facebook: sarahnordinmezzo
+  twitter: 
+  instagram: sarahnordinmezzo
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.sarahnordin.com/
 ---

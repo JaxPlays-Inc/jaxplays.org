@@ -5,7 +5,7 @@ opening_date: 1927-04-19
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 show_details:
 - Playwright: "[[w:George_Kelly_(playwright)|George Kelly]]"
 - Premiere: 1922

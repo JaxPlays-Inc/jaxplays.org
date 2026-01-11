@@ -1,8 +1,8 @@
 ---
 title: Annie
 date: 2024-06-14T16:38:15-04:00
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 opening_date: 2017-06-30
 closing_date: 2017-07-14
 showtimes:
@@ -29,8 +29,8 @@ featured_image_caption: "Join the fun with 'Annie The Musical' from June 28 to A
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: 
-Tickets: https://sales.alhambrajax.com/100/index.html
+website: 
+tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 
 cast:
 - Daddy Warbucks: Mark Poppleton
@@ -91,12 +91,12 @@ crew:
 - Assistant Stage Manager: Joseph Mahoney
 - Company Manager: Lisa Valdini Booth
 orchestra:
-Description: Little orphan Annie charms everyone's hearts despite a next-to-nothing start in 1930s New York City. She is determined to find her parents and get away from evil Miss Hannigan.
-Reviews: 
+description: Little orphan Annie charms everyone's hearts despite a next-to-nothing start in 1930s New York City. She is determined to find her parents and get away from evil Miss Hannigan.
+reviews: 
 - "Theater review: Alhambra's 'Annie' demonstrates Tod Booth's skills as a director | Florida Times-Union": https://www.jacksonville.com/story/entertainment/local/2017/07/05/theater-review-alhambra-s-annie-demonstrates-tod-booth-s-skills/15762132007/
 - "Tomorrow Is Here “ANNIE” At The Alhambra | Folio Weekly": https://folioweekly.com/2017/07/03/tomorrow-is-here-annie-at-the-alhambra/
 - "Review: Alhambra Dinner Theatre presents ANNIE | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/BWW-Review-Alhambra-Dinner-Theatre-presents-ANNIE-20170705
-Press: 
+press: 
 - "Arts Notes: Alhambra has it's Annies | Florida Times-Union": https://www.jacksonville.com/story/entertainment/local/2017/06/25/arts-notes-alhambra-has-it-s-annies/15761008007/
 ---
 

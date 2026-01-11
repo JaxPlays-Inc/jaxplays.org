@@ -6,15 +6,15 @@ featured_image_attr: Miles Fritz
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: itsrachelkelsey
-  Twitter: 
-  Instagram: itsrachelkelsey
-  LinkedIn: itsrachelkelsey
-  IBDB: 
-  IMDb:
-  Website: https://www.itsrachelkelsey.com
-  YouTube: "@itsrachelkelsey"
+socials:
+  facebook: itsrachelkelsey
+  twitter: 
+  instagram: itsrachelkelsey
+  linkedin: itsrachelkelsey
+  ibdb: 
+  imdb:
+  website: https://www.itsrachelkelsey.com
+  youtube: "@itsrachelkelsey"
 ---
 Rachel Kelsey (She/Her) is an actor, singer, dancer, and teaching artist originally from Omaha, NE. Additionally, she serves as Program Representative and Admissions Manager for the two-time Tony award winning, Eugene O’Neill Theater Center’s National Theater Institute (NTI). Here, she travels across the country to offer workshops in a variety of artistic disciplines as well as bring awareness to the institution.
 

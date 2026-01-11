@@ -5,7 +5,7 @@ opening_date: 1934-03-13
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Billy Dishinger: Billy Dishinger
 - Clark Overton: Clark Overton

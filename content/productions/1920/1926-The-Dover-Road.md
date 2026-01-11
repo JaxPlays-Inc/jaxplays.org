@@ -5,7 +5,7 @@ opening_date: 1926-12-16
 closing_date: 1926-12-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 show_details:
 - Playwright: "[[w:A.A. Milne]]"
 cast:

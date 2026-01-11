@@ -5,9 +5,9 @@ opening_date: 2008-02-29
 closing_date: 2008-03-15
 layout: productions
 program:
-Genres: 
+genres: 
 - Play
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Ruby: Miranda Lawson

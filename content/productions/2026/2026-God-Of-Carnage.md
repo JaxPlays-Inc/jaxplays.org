@@ -1,8 +1,8 @@
 ---
 title: God of Carnage
-Theatre: Limelight Theatre
-Venue: Matuza Blackbox
-Season: null
+theatre: Limelight Theatre
+venue: Matuza Blackbox
+season: null
 date: '2026-01-04T22:08:44-05:00'
 opening_date: '2026-03-05'
 closing_date: '2026-03-15'
@@ -21,8 +21,8 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: null
-Website: https://limelight-theatre.org/productions/god-of-carnage/
-Tickets: https://limelight.ludus.com/index.php?show_id=200487536
+website: https://limelight-theatre.org/productions/god-of-carnage/
+tickets: https://limelight.ludus.com/index.php?show_id=200487536
 cast: []
 crew:
 - Director: Andrea McCook
@@ -30,8 +30,8 @@ orchestra: []
 show_details:
 - Playwright: '[[w:Yasmina Reza]]'
 - Translator: '[[w:Christopher Hampton]]'
-Genres: []
-Description: A biting dark comedy that begins with civility and unravels in chaos
+genres: []
+description: A biting dark comedy that begins with civility and unravels in chaos
   when two sets of parents meet after their children fight at school. Sharp, funny,
   and uncomfortably honest.
 source_urls:

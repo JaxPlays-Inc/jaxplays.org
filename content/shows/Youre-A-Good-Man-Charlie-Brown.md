@@ -12,10 +12,10 @@ show_details:
 - Theatre: 
 - Basis: "[[w:Charles M. Schulz]]'s comic strip *[[w:Peanuts]]*"
 - Website: 
-Genres:
+genres:
   - Musical
   - Comedy
   - Family
-Description: "Join Charlie Brown and the Peanuts gang in 'You're a Good Man, Charlie Brown,' a heartwarming and hilarious musical that brings Charles Schulz's beloved characters to life with song and dance."
+description: "Join Charlie Brown and the Peanuts gang in 'You're a Good Man, Charlie Brown,' a heartwarming and hilarious musical that brings Charles Schulz's beloved characters to life with song and dance."
 ---
 'You're a Good Man, Charlie Brown' offers a day in the life of the endearing and eternally optimistic Charlie Brown. Alongside Snoopy, Linus, Lucy, Sally, and Schroeder, Charlie navigates the ups and downs of childhood with humor and heart. Featuring memorable songs like 'Happiness,' 'My Blanket and Me,' and 'Suppertime,' this delightful musical captures the innocence, struggles, and joys of growing up. Perfect for audiences of all ages, it celebrates friendship, resilience, and the simple pleasures that make life special."

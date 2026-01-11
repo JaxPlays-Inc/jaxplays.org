@@ -8,14 +8,14 @@ featured_image: 2023_Murder_Ballad.webp
 featured_image_caption: Poster for 'Murder Ballad'
 featured_image_attr: Jonathan Scherf
 program: 2023_Murder_Ballad.pdf
-Genres:
+genres:
 - Musical
 - Thriller
 - Sung-through
 - Rock opera
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Grace Darling Studio Theatre
-Tickets: https://www.eventbrite.com/e/murder-ballad-a-musical-tickets-362827395507
+theatre: ABET - All Beaches Experimental Theatre
+venue: Grace Darling Studio Theatre
+tickets: https://www.eventbrite.com/e/murder-ballad-a-musical-tickets-362827395507
 show_details: 
 - Book: "[[w:Julia Jordan]]"
 - Music: Juliana Nash

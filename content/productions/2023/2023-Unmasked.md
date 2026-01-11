@@ -1,7 +1,7 @@
 ---
 title: Unmasked
-Theatre: Act II Players
-Venue: Mandarin Community Club
+theatre: Act II Players
+venue: Mandarin Community Club
 date: 2023-11-16
 opening_date: 2023-11-16
 closing_date: 2023-11-19
@@ -12,8 +12,8 @@ showtimes:
 - 2023-11-18 19:00:00
 - 2023-11-19 15:00:00
 program:
-Website: https://actiiplayers.org/unmasked
-Tickets: https://www.eventbrite.com/cc/unmasked-2698359
+website: https://actiiplayers.org/unmasked
+tickets: https://www.eventbrite.com/cc/unmasked-2698359
 show_details: 
 - Playwright: McKenna Rowell
 cast:
@@ -41,5 +41,5 @@ cast:
   - Whitson Blackwell
 crew:
 orchestra:
-Description: "In a world teetering on the edge of revolution, Emily Cartridge and Colonel William Shepard navigate espionage, loyalty, and sacrifice in the fledgling Continental Army."
+description: "In a world teetering on the edge of revolution, Emily Cartridge and Colonel William Shepard navigate espionage, loyalty, and sacrifice in the fledgling Continental Army."
 ---

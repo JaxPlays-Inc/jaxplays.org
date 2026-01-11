@@ -1,7 +1,7 @@
 ---
 title: Desperate Measures
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
 date: 2024-06-13T17:27:17-04:00
 opening_date: 2025-06-06
 closing_date: 2025-06-22
@@ -22,8 +22,8 @@ featured_image_caption: "Get ready for a wild ride with 'Desperate Measures' at 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.theatrejax.com/season-105
-Tickets: https://ci.ovationtix.com/34919
+website: https://www.theatrejax.com/season-105
+tickets: https://ci.ovationtix.com/34919
 show_details: 
 - Book: "[[w:Peter Kellogg (writer)|Peter Kellogg]]"
 - Lyrics: Peter Kellogg
@@ -51,11 +51,11 @@ crew:
   - Light Board Operator: Katie Cress
   - Sound Board Operator: Tyler Leeps
 orchestra:
-Genres:
+genres:
   - Musical
   - Comedy
   - Western
-Description: "Get ready for *Desperate Measures*, a rollicking Wild West musical inspired by Shakespeare's 'Measure for Measure.'"
+description: "Get ready for *Desperate Measures*, a rollicking Wild West musical inspired by Shakespeare's 'Measure for Measure.'"
 ---
 Set in the late 1800s, this musical spins a tale of Johnny Blood, a charming outlaw whose life is on the line. When a lawman offers him a chance for freedom in exchange for his sister's hand in marriage to the governor, a series of wild mishaps and moral dilemmas ensue. Featuring a lively score, sharp wit, and plenty of humor, *Desperate Measures* cleverly blends classical themes with a frontier setting, resulting in a foot-stomping, feel-good musical romp.
 

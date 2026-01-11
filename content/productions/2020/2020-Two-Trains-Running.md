@@ -10,8 +10,8 @@ featured_image: 2020-Two-Trains-Running.webp
 featured_image_alt: "Poster for the play 'Two Trains Running' by August Wilson, presented by Players by the Sea. The image features a black and white photo of actors seated at a diner table, portraying a scene from the play, which captures the mood and setting of the story."
 featured_image_caption: "The poster of 'Two Trains Running' captures a poignant moment from the play, with actors immersed in their roles at a diner, reflecting the intense and dynamic storytelling of August Wilson."
 featured_image_attr: "Photography: Josh Andrews, Design: Bradley Akers"
-Theatre: Players by the Sea
-Website: https://www.playersbythesea.org/two-trains-running
+theatre: Players by the Sea
+website: https://www.playersbythesea.org/two-trains-running
 showtimes:
 - 2020-03-13 20:00:00
 - 2020-03-14 20:00:00

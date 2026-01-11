@@ -6,14 +6,14 @@ title: The How and the Why
 date: 2023-09-08T00:00:00
 opening_date: 2020-06-12
 closing_date: 2020-06-14
-Genres: 
+genres: 
 - Play
-Theatre: Actors Collective
-Venue: Museum of Science & History
+theatre: Actors Collective
+venue: Museum of Science & History
 show_details:
 - Writer: "[[w:Sarah Treem]]"
 - Series: 'The Secret of Life: A Science Play Series'
-Website: http://www.actorscollective.com/the-secret-of-life/
+website: http://www.actorscollective.com/the-secret-of-life/
 showtimes:
 - 2020-06-12 19:30:00
 - 2020-06-13 19:30:00

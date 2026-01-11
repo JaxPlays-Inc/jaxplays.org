@@ -5,7 +5,7 @@ opening_date: 1934-04-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Accomplice No. 1: Elmo Lehman
 - Accomplice No. 2: John Salzer

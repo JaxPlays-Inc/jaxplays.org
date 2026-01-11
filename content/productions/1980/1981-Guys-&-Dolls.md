@@ -5,8 +5,8 @@ opening_date: 1981-10-02
 closing_date: 1981-10-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Nicely-Nicely Johnson: Thomas Locke
 - Benny Southstreet: Dean Johnson

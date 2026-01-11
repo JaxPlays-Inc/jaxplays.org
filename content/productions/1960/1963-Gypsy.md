@@ -5,8 +5,8 @@ opening_date: 1963-11-15
 closing_date: 1963-11-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Uncle Jocko: Dixon Turner
 - George: Phil Meunier

@@ -5,8 +5,8 @@ opening_date: 1978-11-24
 closing_date: 1978-12-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Willie Clark: Jay Harder
 - Ben Silverman: Russ Kirk

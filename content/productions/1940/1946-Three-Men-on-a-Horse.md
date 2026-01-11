@@ -5,8 +5,8 @@ opening_date: 1946-03-01
 closing_date: 1946-03-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Al: Hinkley Greenlaw
 - Audrey Trowbridge: Susie McRae

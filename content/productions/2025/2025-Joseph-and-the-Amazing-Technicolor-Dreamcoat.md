@@ -1,8 +1,8 @@
 ---
 title: Joseph and the Amazing Technicolor Dreamcoat
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 
 date: 2025-08-08T15:43:24-04:00
 opening_date: 2025-08-01
 closing_date: 2025-08-17
@@ -24,8 +24,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: 
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
 - Narrator: Haley Vonnoh
@@ -34,5 +34,5 @@ crew:
 - Director: 
 orchestra:
 genres: 
-Description: 
+description: 
 ---

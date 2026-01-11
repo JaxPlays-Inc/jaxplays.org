@@ -6,10 +6,10 @@ title: The Normal Heart
 date: 2023-09-08T00:00:00
 opening_date: 2020-11-06
 closing_date: 2020-11-22
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
-Website: https://www.the5anddime.org/the-normal-heart
+theatre: The 5 & Dime
+website: https://www.the5anddime.org/the-normal-heart
 show_details:
 - Writer: "[[w:Larry Kramer]]"
 - Setting: New York City, New York, United States

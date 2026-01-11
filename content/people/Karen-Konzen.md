@@ -12,12 +12,12 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: lostseaurchin
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm4155456
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: lostseaurchin
+  linkedin: 
+  ibdb: 
+  imdb: nm4155456
+  website: 
 ---

@@ -5,8 +5,8 @@ opening_date: 1961-01-13
 closing_date: 1961-01-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Harry Steuben: Glenn H. Logan
 - Vera Steuben: Gayle Swymer

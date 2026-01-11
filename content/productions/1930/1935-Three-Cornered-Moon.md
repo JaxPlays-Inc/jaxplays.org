@@ -5,7 +5,7 @@ opening_date: 1935-04-16
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Jenny: Cynthia Segraves
 - Kitty: Cynthia Segraves

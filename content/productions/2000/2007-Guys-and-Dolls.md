@@ -5,9 +5,9 @@ opening_date: 2007-06-08
 closing_date: 2007-06-23
 layout: productions
 program:
-Genres:
+genres:
 - Musical
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Sarah Brown: Jennifer Thomas Medure

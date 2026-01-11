@@ -5,8 +5,8 @@ opening_date: 1942-04-21
 closing_date: 1942-04-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - David Linden: H.K. (Bud) Smith, Jr.
 - Hannah Linden: Marie Kilbride

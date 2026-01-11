@@ -5,7 +5,7 @@ opening_date: 1935-12-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Tom Gibson: George Weeks
 - Janice Gibson: Joseph Gressimer

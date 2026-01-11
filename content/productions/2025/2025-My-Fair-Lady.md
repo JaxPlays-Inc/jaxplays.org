@@ -1,8 +1,8 @@
 ---
 title: My Fair Lady
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2025
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2025
 date: 2025-03-19T14:04:18-04:00
 opening_date: 2025-05-16
 closing_date: 2025-06-22
@@ -58,8 +58,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1485&code=JAXPLAYS
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1485&code=JAXPLAYS
 cast:
 - Eliza Doolittle: Sofia Smith
 - Henry Higgins: Gary Lee Webber
@@ -78,11 +78,11 @@ show_details:
   - Lyrics: "[[w:Alan Jay Lerner]]"
   - Book: "Alan Jay Lerner"
   - Basis: "Based on [[w:George Bernard Shaw]]'s play [[w:Pygmalion (play)|*Pygmalion*]]"
-Genres:
+genres:
   - Musical
   - Drama
   - Romance
-Description: "Step into Edwardian London with 'My Fair Lady,' a timeless musical about the transformation of Eliza Doolittle, a cockney flower girl, under the tutelage of the demanding Professor Henry Higgins."
+description: "Step into Edwardian London with 'My Fair Lady,' a timeless musical about the transformation of Eliza Doolittle, a cockney flower girl, under the tutelage of the demanding Professor Henry Higgins."
 ---
 My Fair Lady explores the dynamic relationship between Eliza Doolittle, a spirited and intelligent flower girl, and Professor Henry Higgins, a phonetics professor who wagers that he can transform her into a refined lady of society. The story navigates themes of class distinction, social mobility, and romance, underscored by iconic songs like 'I Could Have Danced All Night,' 'The Rain in Spain,' and 'Wouldn’t It Be Loverly.' As Eliza and Higgins' relationship evolves, the musical questions the true nature of transformation and the societal roles we are expected to play.
 

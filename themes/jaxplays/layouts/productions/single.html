@@ -204,7 +204,7 @@
             <a class="b db mb3" href="/venues/{{ $venueurl }}">{{ with $venuePage.Params.building }}<span>{{ . }}</span><br/>{{ end }}{{ $venue }}</a>
             {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
             <!-- Use the captured page context -->
-            {{ with $venuePage.Params.Address }} <!-- Access the 'Address' parameter -->
+            {{ with $venuePage.Params.address }} <!-- Access the 'Address' parameter -->
             {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
             <a href="#showHideMap" class="db dn-ns mv3">Show Maps</a>
             <ul class="venuemaps db-ns dn map_links list mv1 pl0">
@@ -218,10 +218,10 @@
         <div class="venuemaps db-ns dn w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
           <!-- Venue Map Section -->
           <div class="w-100 flex flex-column items-center justify-start">
-            {{ if and $venuePage.Params.Latitude $venuePage.Params.Longitude }}
+            {{ if and $venuePage.Params.latitude $venuePage.Params.longitude }}
             {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-            {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.Latitude "Longitude"
-            $venuePage.Params.Longitude "Title" $venue "Address" $venuePage.Params.Address "id" $index) }}
+            {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.latitude "Longitude"
+            $venuePage.Params.longitude "Title" $venue "Address" $venuePage.Params.address "id" $index) }}
             {{ end }}
           </div>
         </div>

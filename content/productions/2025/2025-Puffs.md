@@ -1,8 +1,8 @@
 ---
 title: "Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic"
-Theatre: The 5 & Dime 
-Venue: The Florida Ballet
-Season: 2025
+theatre: The 5 & Dime 
+venue: The Florida Ballet
+season: 2025
 date: 2025-09-13T15:13:12-04:00
 opening_date: 2025-11-07
 closing_date: 2025-11-15
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.the5anddime.org/puffs
-Tickets: https://www.eventbrite.com/e/puffs-tickets-1087002747479?aff=jaxplays
+website: https://www.the5anddime.org/puffs
+tickets: https://www.eventbrite.com/e/puffs-tickets-1087002747479?aff=jaxplays
 show_details: 
 cast:
   - Wayne Hopkins: Lily Zawatsky
@@ -42,5 +42,5 @@ crew:
  - Scenic Construction: Logan Forbess
 orchestra:
 genres: 
-Description: 
+description: 
 ---

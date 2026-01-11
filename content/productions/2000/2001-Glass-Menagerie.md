@@ -5,7 +5,7 @@ opening_date: 2001-11-02
 closing_date: 2001-11-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Amanda Wingfield: Simone Aden-Reid

@@ -5,7 +5,7 @@ opening_date: 1923-12-21
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Wedding Bells:
   - Dick Grether

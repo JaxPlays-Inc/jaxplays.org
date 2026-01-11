@@ -1,8 +1,8 @@
 ---
 title: Little Women
-Theatre: Theatre Troupe 1776
-Venue: Mandarin Community Club
-Season: 
+theatre: Theatre Troupe 1776
+venue: Mandarin Community Club
+season: 
 date: 2025-03-16T14:49:10-04:00
 opening_date: 2025-03-20
 closing_date: 2025-03-30
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.showtixnow.com/public/venue/theatre-troupe-1776-26/all
+website: 
+tickets: https://www.showtixnow.com/public/venue/theatre-troupe-1776-26/all
 show_details: 
 - Playwright: "Louise Everett"
 - Basis: "Based on the novel [[w:Little Women]] by [[w:Louisa May Alcott]]"
@@ -80,8 +80,8 @@ genres:
 - Comedy
 - Drama
 - Historical
-Description: "This original adaptation is based on the 1868 novel by Louisa May Alcott. The story follows four sisters growing up during the Civil War."
-Press:
+description: "This original adaptation is based on the 1868 novel by Louisa May Alcott. The story follows four sisters growing up during the Civil War."
+press:
 - "Theatre Troupe 1776 to stage “Little Women” | Florida NewsLine": https://www.floridanewsline.com/mandarin/theatre-troupe-1776-to-stage-little-women/
 ---
 

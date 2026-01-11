@@ -1,7 +1,7 @@
 ---
 title: "Scrooge: The Musical"
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
 date: 2024-12-05T10:34:21-05:00
 opening_date: 2024-12-05
 closing_date: 2024-12-15
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: Bill Ivins
 featured_image_attr_link: 
 program: 
-Website: https://ameliamusicalplayhouse.com/performances/scrooge2024/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/performances/scrooge2024/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
 - Ebenezer Scrooge: Frank O'Donnell
@@ -106,7 +106,7 @@ genres:
   - Fantasy
   - Holiday
   - Family
-Description: "*Scrooge: The Musical* by Leslie Bricusse is a 1992 adaptation of the 1970 musical film *Scrooge*, which starred Albert Finney. Bricusse was nominated for an Academy Award for the song score."
+description: "*Scrooge: The Musical* by Leslie Bricusse is a 1992 adaptation of the 1970 musical film *Scrooge*, which starred Albert Finney. Bricusse was nominated for an Academy Award for the song score."
 ---
  Charles Dickens first published his novel, *A Christmas Carol*, in 1843. Since that time, numerous renditions of the story have been used to teach some wonderful life lessons. *Scrooge: The Musical* recounts the story of an elderly miser, who is visited in the middle of the night by the ghost of his former business partner. He is assisted by three additional spirits who warn Scrooge that he must change from his miserable ways or suffer in an eternity of despair.  After their visits, Scrooge chooses to make the needed alterations to his way of life.
 

@@ -8,12 +8,12 @@ featured_image: 2023_Clydes.png
 featured_image_caption:
 featured_image_attr:
 program:
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Website: https://www.the5anddime.org/clydes
+theatre: The 5 & Dime
+venue: The Florida Ballet
+website: https://www.the5anddime.org/clydes
 show_details:
 - Playwright: Lynn Nottage
-Genres:
+genres:
 - Play
 - Drama
 - Comedy

@@ -1,8 +1,8 @@
 ---
 title: Who Killed Amanda Scott?
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 
+theatre: The Island Theater
+venue: The Island Theater
+season: 
 date: 2025-11-18T20:44:53-05:00
 opening_date: 2025-11-21
 closing_date: 2025-11-23
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.theislandtheater.com/
-Tickets: https://www.theislandtheater.com/event-details/who-killed-amanda-scott-2025-11-22-19-30
+website: https://www.theislandtheater.com/
+tickets: https://www.theislandtheater.com/event-details/who-killed-amanda-scott-2025-11-22-19-30
 show_details: 
 - Playwright: Jocey Shrader
 cast:
@@ -37,5 +37,5 @@ genres:
 - Mystery
 - Drama
 - Play
-Description: First time playwright, Jocey Shrader, is a local high school student who was selected to have her main stage murder mystery production highlighted at The Island Theater. Come be captivated!
+description: First time playwright, Jocey Shrader, is a local high school student who was selected to have her main stage murder mystery production highlighted at The Island Theater. Come be captivated!
 ---

@@ -31,10 +31,19 @@ HUGO_ENV=production hugo --minify --baseURL "https://jaxplays.org/"
 - **reviews/** - Production reviews with author attribution, linked to productions
 - **news/** - Theatre news articles
 
-### Front Matter Patterns
+### Front Matter Conventions
+
+**All front matter field names must be lowercase.** This includes top-level fields and nested fields (e.g., under `socials:`).
 
 Productions use structured cast/crew data:
 ```yaml
+title: Show Title
+theatre: Theatre Name
+venue: Venue Name
+opening_date: 2025-08-08
+closing_date: 2025-08-24
+showtimes:
+  - 2025-08-08 19:30:00
 cast:
   - Role Name: Person Name
   - Role Name:
@@ -42,18 +51,22 @@ cast:
       - Person 2
 crew:
   - Director: Person Name
-showtimes:
-  - 2025-08-08 19:30:00
-Theatre: Theatre Name
-Venue: Venue Name
 ```
 
 Reviews link to productions via:
 ```yaml
 production: 2024 Dear Evan Hansen
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 authors:
 - Author Name
+```
+
+Theatres/Venues use nested socials:
+```yaml
+socials:
+  facebook: TheatreName
+  instagram: theatrename
+  website: https://example.com
 ```
 
 ### Wikilink Syntax

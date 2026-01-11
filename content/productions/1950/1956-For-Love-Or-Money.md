@@ -5,8 +5,8 @@ opening_date: 1956-04-25
 closing_date: 1956-05-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mrs. Tremaine: Charlotte Ecker
 - Bill Tremaine: Tom Atkinson

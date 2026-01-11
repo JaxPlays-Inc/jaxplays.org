@@ -9,8 +9,8 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 The Mystery of Edwin Drood
-Theatre: Alhambra Theatre & Dining
-Cast:
+theatre: Alhambra Theatre & Dining
+cast:
 - Alec Hadden
 - Justin Murphy
 - Torie D’Alessandro

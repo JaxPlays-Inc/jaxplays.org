@@ -8,15 +8,15 @@ featured_image: 2023_Burn_This.jpeg
 featured_image_caption: Josh Andrews, graphic design Jon Scherf
 featured_image_attr:
 program:
-Genres:
+genres:
 - Play
 - Drama
 - Romance
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: Grace Darling Studio Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: Grace Darling Studio Theatre
 show_details:
 - Playwright: Lanford Wilson
-Tickets: https://www.eventbrite.com/e/burn-this-tickets-365696406797
+tickets: https://www.eventbrite.com/e/burn-this-tickets-365696406797
 showtimes:
 - 2023-06-16 19:30:00
 - 2023-06-17 19:30:00

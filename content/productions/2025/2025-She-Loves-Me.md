@@ -2,8 +2,8 @@
 title: She Loves Me
 cancelled: true
 draft: true
-Theatre: ABET - All Beaches Experimental Theatre
-Venue: John McManus Mainstage Theatre
+theatre: ABET - All Beaches Experimental Theatre
+venue: John McManus Mainstage Theatre
 date: 2024-05-10T17:38:43-04:00
 opening_date: 2025-06-06
 closing_date: 2025-06-22 
@@ -23,8 +23,8 @@ featured_image_caption: Poster for 'She Loves Me'
 featured_image_attr: Poster by Josh Andrews
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://3common.com/event/she-loves-me/66648faef3e05e7d8d221679
+website: 
+tickets: https://3common.com/event/she-loves-me/66648faef3e05e7d8d221679
 show_details: 
 - Music: "[[w:Jerry Bock]]"
 - Lyrics: "[[w:Sheldon Harnick]]"
@@ -33,5 +33,5 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

@@ -7,13 +7,13 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-07-30
 closing_date: 2020-08-30
 category: musical
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 show_details:
 - Music: "[[w:Jason Robert Brown]]"
 - Lyrics: Jason Robert Brown
 - Book: "[[w:Alfred Uhry]]"
 - Basis: Historical events in Atlanta in 1913
-Website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
+website: https://web.archive.org/web/20200928192759/https://limelight-theatre.org/shows/
 showtimes:
 - 2020-07-30 19:30:00
 - 2020-07-31 19:30:00

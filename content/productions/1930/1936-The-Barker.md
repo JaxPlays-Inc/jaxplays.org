@@ -5,7 +5,7 @@ opening_date: 1936-12-08
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - A Hick: Frank W. Gilliette
 - Carrie: Dorothy Harlan

@@ -5,8 +5,8 @@ opening_date: 1963-09-27
 closing_date: 1963-10-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Audrey Trowbridge: Gayle Swymer
 - Erwin Trowbridge: Ed Poole

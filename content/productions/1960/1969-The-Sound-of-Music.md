@@ -5,8 +5,8 @@ opening_date: 1969-11-14
 closing_date: 1969-11-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Maria Rainer: Martha Carswell
 - The Mother Abbess: Barbara Ojeda

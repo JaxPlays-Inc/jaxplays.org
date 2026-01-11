@@ -21,10 +21,10 @@ show_details:
 - Basis: 
 - Website: 
 # Grease
-Genres:
+genres:
   - Musical
   - Romance
   - Comedy
-Description: "Step back into the rock 'n' roll era of the 1950s with 'Grease,' a vibrant tale of teen romance and rebellion at Rydell High."
+description: "Step back into the rock 'n' roll era of the 1950s with 'Grease,' a vibrant tale of teen romance and rebellion at Rydell High."
 ---
 *Grease* follows the summer love story of Danny Zuko and Sandy Dumbrowski, which unexpectedly reignites when Sandy transfers to Rydell High. Their worlds collide as the cool greaser, Danny, and the sweet new girl, Sandy, navigate the tricky social waters of high school. Backed by the catchy tunes of the T-Birds and Pink Ladies, the musical captures the thrill of first love, the clash of subcultures, and the nostalgia of the '50s. Packed with iconic songs like "You're the One That I Want" and "Summer Nights," *Grease* invites audiences to groove to the beat of friendship, romance and adventure.

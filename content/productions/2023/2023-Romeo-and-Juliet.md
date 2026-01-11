@@ -9,17 +9,17 @@ featured_image_caption: Poster for Romeo and Juliet
 featured_image_attr: The Island Theater
 featured_image_attr_link: 
 program:
-Genres:
+genres:
 - Play
 - Tragedy
 - Romance
 - Drama
-Theatre: The Island Theater
-Venue: The Island Theater
-Website: 
-Tickets: https://www.theislandtheater.com/romeo-and-juliet-tickets
+theatre: The Island Theater
+venue: The Island Theater
+website: 
+tickets: https://www.theislandtheater.com/romeo-and-juliet-tickets
 show_details: 
-Description: Two young lovers defy their feuding families and societal norms in the ultimate story of forbidden love.
+description: Two young lovers defy their feuding families and societal norms in the ultimate story of forbidden love.
 showtimes:
 - 2023-11-10 19:30:00
 - 2023-11-11 19:30:00

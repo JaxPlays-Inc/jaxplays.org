@@ -1,8 +1,8 @@
 ---
 title: Come From Away
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2025
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2025
 date: 2025-03-05T18:07:09-05:00
 opening_date: 2025-08-28
 closing_date: 2025-10-05
@@ -57,8 +57,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Come-From-Away.pdf
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1487&code=JAXPLAYS&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1487&code=JAXPLAYS&qty_target=0
 show_details: 
 - Music, Lyrics, and Book:
   - Irene Sankoff
@@ -107,11 +107,11 @@ crew:
   - Wardrobe:
       - Audrey Dunham
       - Emily Morgan
-Genres:
+genres:
   - Musical
   - Drama
   - Historical
-Description: "Witness the remarkable true story of a small Newfoundland town that welcomed the world on 9/11, as stranded passengers and locals come together in a display of humanity."
+description: "Witness the remarkable true story of a small Newfoundland town that welcomed the world on 9/11, as stranded passengers and locals come together in a display of humanity."
 ---
 *Come From Away* is set in the week following the September 11 attacks and tells the true story of what transpired when 38 planes were ordered to land unexpectedly in the small town of Gander, Newfoundland and Labrador. As the world grappled with uncertainty, the town's residents opened their homes and hearts to 7,000 stranded travelers. The musical explores the varied experiences of the passengers and locals, including moments of fear, generosity, and a plethora of unexpected bonds that transcend life’s most challenging moments. Through engaging songs and a compelling narrative, *Come From Away* beautifully captures the capacity for human kindness in the face of adversity, leaving audiences uplifted and inspired.
 

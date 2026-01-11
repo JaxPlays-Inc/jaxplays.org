@@ -17,6 +17,6 @@ genres:
 - Family
 - Holiday
 - Fantasy
-Description: "When a lone woodsman named Nicholas and his dog Stella rescue a fairy named Prudence from a cold prank by the mischievous Jack Frost, they don't realize they've opened up a whole new world, kindling the wrath of Aneira, the Wicked Winter Witch."
+description: "When a lone woodsman named Nicholas and his dog Stella rescue a fairy named Prudence from a cold prank by the mischievous Jack Frost, they don't realize they've opened up a whole new world, kindling the wrath of Aneira, the Wicked Winter Witch."
 ---
 When a lone woodsman named Nicholas and his dog Stella rescue a fairy named Prudence from a cold prank by the mischievous Jack Frost, they don't realize they've opened up a whole new world, kindling the wrath of Aneira, the Wicked Winter Witch.

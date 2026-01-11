@@ -5,8 +5,8 @@ opening_date: 1977-05-06
 closing_date: 1977-05-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Martha: Nancy Kaye
 - Juliet: Sabina Meyer

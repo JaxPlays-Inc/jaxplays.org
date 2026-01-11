@@ -2,7 +2,7 @@
 title: "Partner with JaxPlays: Elevate Your Brand While Supporting the Arts"
 layout: "corporate-sponsors"
 type: "page"
-Description: Support JaxPlays - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
+description: Support JaxPlays - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
 date: 2024-09-08T15:45:13-04:00
 ---
 JaxPlays stands at the forefront of Jacksonville's vibrant theatre scene, offering a platform where art and community intersect. By becoming a sponsor, your company can play a crucial role in shaping the cultural landscape of our city while also enjoying significant brand visibility and association with excellence and creativity.

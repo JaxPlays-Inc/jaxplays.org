@@ -5,7 +5,7 @@ opening_date: 1928-03-20
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Eamon: Achille de Carradeuc
 - Maurya: Gertrude F. Jacobi

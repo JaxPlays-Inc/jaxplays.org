@@ -14,7 +14,7 @@ featured_image_alt: Photograph of the cast of 'Circle Mirror Transformation' wit
 featured_image_caption: Photograph of the cast of 'Circle Mirror Transformation' with Chul Hyun Ahn's 'Tunnel' (left to right) Katherine Herndon, David Gile, Katie McCloskey, Jason Collins, Barbara Colaciello
 featured_image_attr: Thomas Hager
 featured_image_attr_link: 
-Description: "*Circle Mirror Transformation* is a riveting ensemble drama set in a Vermont community class. Using theater games as a lens, it uncovers the raw, complex layers of human emotion and connection, blending humor and heartbreak in a compelling narrative."
+description: "*Circle Mirror Transformation* is a riveting ensemble drama set in a Vermont community class. Using theater games as a lens, it uncovers the raw, complex layers of human emotion and connection, blending humor and heartbreak in a compelling narrative."
 program:
 genres: 
 - Play
@@ -24,10 +24,10 @@ genres:
 - Contemporary
 - Experimental
 - Slice-of-Life
-Theatre: Bold Theatre Group
-Venue: MOCA Jacksonville
-Website: 
-Tickets: 
+theatre: Bold Theatre Group
+venue: MOCA Jacksonville
+website: 
+tickets: 
 show_details: 
 - Playwright: "[[w:Annie Baker]]"
 cast:
@@ -40,7 +40,7 @@ crew:
 - Director: 
   - Daniel Austin
   - Ron Shreve
-Photos:
+photos:
 - photo: 2015_Circle_Mirror_Transformation_01.webp
   photo_attr: Thomas Hager
   photo_alt: Jason Collins, David Gile, Katie McCloskey, Barbara Colaciello, Katherine Herndon (left to right)

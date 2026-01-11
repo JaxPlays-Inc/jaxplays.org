@@ -14,11 +14,11 @@ show_details:
   - E. Y. Harburg
 - Book: "[[w:John Kane]]"
 - Basis: "*[[w:The Wonderful Wizard of Oz]]* by [[w:L. Frank Baum]] and *[[w:The Wizard of Oz]]*, screenplay by [[w:Noel Langley]], [[w:Florence Ryerson]], [[w:Edgar Allan Woolf]]"
-Genres:
+genres:
   - Musical
   - Fantasy
   - Adventure
   - Family
-Description: "Journey down the yellow brick road with Dorothy, a Kansas farm girl, as she navigates the fantastical world of Oz."
+description: "Journey down the yellow brick road with Dorothy, a Kansas farm girl, as she navigates the fantastical world of Oz."
 ---
 Whisked away by a tornado, Dorothy finds herself in the whimsical world of Oz. With her dog Toto and new-found friends—the Scarecrow, Tin Man, and Cowardly Lion—she sets off to meet the Wizard to find a way home. Along the way, they battle the Wicked Witch of the West and discover that true magic lies within themselves. There's no place like home, but Oz is a whirlwind of its own.

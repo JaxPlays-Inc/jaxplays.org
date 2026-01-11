@@ -5,7 +5,7 @@ opening_date: 1933-04-18
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mary Ewing Boyd: Avis Linley
 - Roselyn Hightower: Maria Linley

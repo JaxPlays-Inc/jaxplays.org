@@ -5,7 +5,7 @@ opening_date: 1927-01-18
 closing_date: 1927-01-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Dolly Doyle: Fannie Mae Snyder
 - Bert La Motte: Harry Lewis

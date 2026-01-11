@@ -5,7 +5,7 @@ opening_date: 1929-01-08
 closing_date: 1929-01-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Ritchie: Daisy Bowden Stephens
 - William Capron: Douglas Haygood

@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Harlan and Bronna Jump Out the Window
-Theatre: Lumen Repertory Theatre
+theatre: Lumen Repertory Theatre
 cast: 
   - Jeff Drushal
   - Karen Konzen

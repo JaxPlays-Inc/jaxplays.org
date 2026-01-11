@@ -1,8 +1,8 @@
 ---
 title: Agatha Christie's Murder on the Orient Express
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
-Season: 44
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
+season: 44
 date: 2024-09-09T23:01:02-04:00
 opening_date: 2025-06-13
 closing_date: 2025-06-28
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Agatha-Christies-Murder-on-the-Orient-Express.pdf
-Website: https://www.ameliacommunitytheatre.org/
-Tickets: https://app.arts-people.com/index.php?ticketing=act11
+website: https://www.ameliacommunitytheatre.org/
+tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 cast:
 - Hercule Poirot: Joe Zaccaro
@@ -104,7 +104,7 @@ crew:
       - Karen Bowden
       - Solaris Foto
 orchestra:
-Description: An avalanche stops the Orient Express. An American tycoon lies dead. Trapped in the snow with a killer still on board can Hercule Poirot, crack the case before the train reaches its final destination?
+description: An avalanche stops the Orient Express. An American tycoon lies dead. Trapped in the snow with a killer still on board can Hercule Poirot, crack the case before the train reaches its final destination?
 ---
  When audiences hear the name Agatha Christie, it conjures not only a vast library of clever mysteries, but an entire world where human nature, in all its complexity, is laid bare. With only Shakespeare’s works and the Bible having reached more readers, Christie’s work has transcended generations. She didn’t just entertain; she shaped how we think about crime, morality, and justice. Murder on the Orient Express, one of her most iconic works, invites us into a glittering, enclosed world hurtling through a frozen wilderness, a place where truth and consequence collide in ways that still feel achingly relevant.
 

@@ -5,8 +5,8 @@ opening_date: 1992-02-21
 closing_date: 1992-02-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Nat: Norman Howard
 - Midge: Eugene Lindsey, Jr.

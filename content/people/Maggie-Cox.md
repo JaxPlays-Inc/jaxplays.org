@@ -6,15 +6,15 @@ featured_image_attr: Jessica Osber
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: profile.php?id=100016632759082
-  Twitter: 
-  Instagram: maggiecox.nyc
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm15515178
-  Website: https://www.maggiecox.com/
-Photos:
+socials:
+  facebook: profile.php?id=100016632759082
+  twitter: 
+  instagram: maggiecox.nyc
+  linkedin: 
+  ibdb: 
+  imdb: nm15515178
+  website: https://www.maggiecox.com/
+photos:
 - photo: Maggie-Cox.webp
   photo_attr: 
   photo_alt: 

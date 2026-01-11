@@ -5,8 +5,8 @@ opening_date: 1987-10-09
 closing_date: 1987-10-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Miss Mona: Marilyn Courtnay
 - Sheriff Ed Earl Dodd: Rob Dauer

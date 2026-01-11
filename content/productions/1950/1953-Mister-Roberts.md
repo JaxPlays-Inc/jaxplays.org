@@ -5,8 +5,8 @@ opening_date: 1953-11-18
 closing_date: 1953-11-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Baker: Joe Vullo
 - Chief Johnson: Neil Medlock

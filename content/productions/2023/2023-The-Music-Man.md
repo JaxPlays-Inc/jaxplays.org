@@ -14,11 +14,11 @@ genres:
 - Comedy
 - Romance
 - Family
-Description: Fast-talking con man Harold Hill tries to swindle a small Iowa town with a marching band scheme, but love makes him change his tune.
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
-Website: https://www.limelight-theatre.org/season-32-shows-1/the-music-man
-Tickets: https://ci.ovationtix.com/34666/production/1165800
+description: Fast-talking con man Harold Hill tries to swindle a small Iowa town with a marching band scheme, but love makes him change his tune.
+theatre: Limelight Theatre
+venue: Matuza Mainstage
+website: https://www.limelight-theatre.org/season-32-shows-1/the-music-man
+tickets: https://ci.ovationtix.com/34666/production/1165800
 show_details: 
 showtimes:
 - 2023-09-28 19:30:00
@@ -74,4 +74,4 @@ cast:
 crew:
 orchestra:
 ---
-Synopsis: Enter Harold Hill, a swindler with the "right credentials" and a grand scheme to con the folks of River City, Iowa, into buying instruments for a boys' band he has no intention of forming. His plan hits a sour note when he falls head-over-heels for Marian, the savvy librarian. As he's caught between love and larceny, Harold must decide whether to stick to his scam or change his tune for a shot at real love.
+synopsis: Enter Harold Hill, a swindler with the "right credentials" and a grand scheme to con the folks of River City, Iowa, into buying instruments for a boys' band he has no intention of forming. His plan hits a sour note when he falls head-over-heels for Marian, the savvy librarian. As he's caught between love and larceny, Harold must decide whether to stick to his scam or change his tune for a shot at real love.

@@ -21,7 +21,7 @@ genres:
 - Romance
 - Comedy
 - Family
-Description:
+description:
 ---
 Adapted from the blockbuster Disney film, the musical unfolds the tale of two royal sisters, Elsa and Anna. Elsa's magical powers trap their kingdom in eternal winter, and it's up to the determined Anna, with the help of rugged ice harvester Kristoff and snowman Olaf, to thaw her sister's icy exterior. Packed with memorable songs and whimsical charm, *Frozen* brings a snowstorm of emotion to the stage.
 

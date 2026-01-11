@@ -8,13 +8,13 @@ featured_image: Lumen_Repertory_Theatre.gif
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2022-08-01
-Address:
-Socials: 
-  Facebook: lumenrep
-  Instagram: lumenrep
-  Website: https://www.lumenrep.org
-Phone:
+founded: 2022-08-01
+address:
+socials: 
+  facebook: lumenrep
+  instagram: lumenrep
+  website: https://www.lumenrep.org
+phone:
 color: "#1102eb"
 date: 2024-07-02T18:02:49-04:00
 donate: https://www.lumenrep.org/support?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

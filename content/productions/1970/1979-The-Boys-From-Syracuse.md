@@ -5,8 +5,8 @@ opening_date: 1979-10-05
 closing_date: 1979-10-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Seargeant: Stephen Baker
 - Duke: Gary Rogers

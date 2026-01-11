@@ -1,7 +1,7 @@
 ---
 title: Miracle on 34th Street
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2023-11-16
 opening_date: 2023-11-16
 closing_date: 2023-12-24
@@ -59,8 +59,8 @@ featured_image_caption: Graphic for Miracle on 34th Street
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1430&code=jaxplays
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1430&code=jaxplays
 show_details: 
 - Book, Music, and Lyrics: "[[w:Meredith Willson]]"
 cast:

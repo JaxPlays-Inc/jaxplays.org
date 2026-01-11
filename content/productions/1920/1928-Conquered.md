@@ -5,7 +5,7 @@ opening_date: 1928-01-20
 closing_date: 1928-01-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Nurse: Anne C. Lalor
 - Dr. McKenzie: Burton Barrs

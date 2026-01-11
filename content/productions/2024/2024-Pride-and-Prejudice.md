@@ -1,8 +1,8 @@
 ---
 title: Pride and Prejudice
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-06-15T22:09:53-04:00
 opening_date: 2024-03-08
 closing_date: 2024-03-17
@@ -19,16 +19,16 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 crew:
 orchestra:
-Genres:
+genres:
   - Play
   - Romance
   - Drama
-Description: "Step into the elegant world of *Pride and Prejudice*, a classic tale of love and misunderstanding that unfolds in class-conscious England near the close of the 18th century."
+description: "Step into the elegant world of *Pride and Prejudice*, a classic tale of love and misunderstanding that unfolds in class-conscious England near the close of the 18th century."
 ---
 *Pride and Prejudice* centers on Elizabeth Bennet, intelligent and spirited, and her turbulent relationship with the enigmatic Mr. Darcy. As they navigate societal expectations and their own feelings, the play delves into themes of love, reputation and class. With witty dialogue and romantic entanglements, this adaptation of Jane Austen's novel offers a sharp critique of the social landscape of its time, while celebrating the enduring nature of love.

@@ -5,8 +5,8 @@ opening_date: 1941-04-08
 closing_date: 1941-04-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Andrew Mayo: Lawrence Case
 - Ben: Charles Roberts

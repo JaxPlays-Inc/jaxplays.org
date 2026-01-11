@@ -73,7 +73,7 @@
         {{- partial "production_details_for_review.html" . -}}
         
       {{ end }}
-      {{ with .Params.Correction }}
+      {{ with .Params.correction }}
       <h4>Correction:</h4>{{ . | markdownify }}
       {{ end }}
 

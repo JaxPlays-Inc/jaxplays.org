@@ -1,7 +1,7 @@
 ---
 title: "Slow Burn: Edward Albee’s One Acts: The American Dream & Zoo Story"
-Theatre: Lumen Repertory Theatre
-Venue: San Marco Church
+theatre: Lumen Repertory Theatre
+venue: San Marco Church
 date: 2024-05-21T19:50:42-04:00
 opening_date: 2024-07-12
 closing_date: 2024-07-28
@@ -20,8 +20,8 @@ featured_image_caption: Catch the intense drama of 'Slow Burn', featuring Edward
 featured_image_attr: Josh Andrews
 featured_image_attr_link: 
 program:
-Website: https://www.lumenrep.org/shows/slowburn
-Tickets: https://www.zeffy.com/ticketing/dcbb8a57-cb8a-425f-bebf-9c2bee3465c3
+website: https://www.lumenrep.org/shows/slowburn
+tickets: https://www.zeffy.com/ticketing/dcbb8a57-cb8a-425f-bebf-9c2bee3465c3
 show_details: 
 - Playwright: "[[w:Edward Albee]]"
 cast:
@@ -50,12 +50,12 @@ crew:
   - Assistant Stage Manager: Hayley Smith
 orchestra:
 # Slow Burn: Edward Albee’s One Acts: The American Dream & Zoo Story
-Genres:
+genres:
   - Play
   - Drama
   - One-Act
-Description: "Experience the searing intensity of Edward Albee’s *The American Dream* and *Zoo Story*, two provocative one-act plays that delve deep into the American psyche and human condition."
-Press: 
+description: "Experience the searing intensity of Edward Albee’s *The American Dream* and *Zoo Story*, two provocative one-act plays that delve deep into the American psyche and human condition."
+press: 
 - "Edward Albee's One Acts Come To Jacksonville in July | Broadway World": https://www.broadwayworld.com/jacksonville/article/Edward-Albees-One-Acts-Come-To-Jacksonville-in-July-20240624
 ---
 In *The American Dream*, Albee exposes the hollowness of the American family through a biting satire that critiques societal norms and the pursuit of materialism. This darkly comedic play features a dysfunctional family whose bizarre interactions reveal the underlying emptiness of their lives.

@@ -1,8 +1,8 @@
 ---
 title: The Rocky Horror Show
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 13
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 13
 date: 2025-10-08T10:59:57-04:00
 opening_date: 2025-10-10
 closing_date: 2025-10-18
@@ -17,8 +17,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/news/rocky2025/
-Tickets: https://904tix.com/organizations/amelia-musical-playhouse
+website: https://ameliamusicalplayhouse.com/news/rocky2025/
+tickets: https://904tix.com/organizations/amelia-musical-playhouse
 show_details: 
 cast:
   - Usherettes:
@@ -49,5 +49,5 @@ crew:
   - Director: Jill Dillingham
 orchestra:
 genres: 
-Description: 
+description: 
 ---

@@ -8,7 +8,7 @@ featured_image: 2014_Les_Miserables.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption: "Poster for 'Les Misérables' at Theatre Jacksonville"
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Valjean: Josh Waller
@@ -65,8 +65,8 @@ orchestra:
   - Keyboards: 
     - Jackson Merrill
     - Kimberly Beasley
-Press:
+press:
 - "Les Miserables at Theatre Jacksonville in San Marco! | MySanMarco.com" : https://mysanmarco.com/2014/05/20/les-miserables-at-theatre-jacksonville-in-san-marco/
-Reviews: 
+reviews: 
 - "Les Misérables wows them at Theatre Jax – with help of Fine Arts faculty and students | The Wave Magazine": https://wavemagazineonline.com/les-miserables-wows-them-at-theatre-jax-with-help-of-fine-arts-faculty-and-students/
 ---

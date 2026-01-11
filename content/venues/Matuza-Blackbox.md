@@ -13,18 +13,18 @@ featured_image: Limelight_Theatre.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2001
-Address: |
+founded: 2001
+address: |
   11 Old Mission Ave
   St. Augustine, FL 32084
-Latitude: 29.903699084995893
-Longitude: -81.31853749387801
-Socials:
-  Facebook: limelight.theatre
-  Twitter: limelightstaug
-  Instagram: limelightstaug
-  Website: https://limelight-theatre.org
-Phone: 19048251164
+latitude: 29.903699084995893
+longitude: -81.31853749387801
+socials:
+  facebook: limelight.theatre
+  twitter: limelightstaug
+  instagram: limelightstaug
+  website: https://limelight-theatre.org
+phone: 19048251164
 ---
 The Matuza Blackbox is a studio performance space located within the [[theatre:Limelight Theatre]] in St. Augustine, Florida. The theater has a seating capacity of 75-90 people and offers a versatile space for experimental, intimate and contemporary performances. The space features state-of-the-art lighting and sound systems, as well as flexible seating arrangements that allow for various staging configurations. The Matuza Blackbox is an important addition to the Limelight Theatre's facilities, providing a smaller venue for more intimate productions and expanding the theater's programming capabilities.
 

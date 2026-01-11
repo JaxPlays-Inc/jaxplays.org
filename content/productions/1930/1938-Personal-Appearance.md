@@ -5,8 +5,8 @@ opening_date: 1938-05-10
 closing_date: 1938-05-12
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alex Pillsbury: Alex Pillsbury
 - Aunt Kate Barnaby: Dorothy Harlan

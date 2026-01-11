@@ -1,7 +1,7 @@
 ---
 title: Unmasked
-Theatre: Act II Players
-Venue: Mandarin Community Club
+theatre: Act II Players
+venue: Mandarin Community Club
 date: 2024-01-11
 opening_date: 2024-01-11
 closing_date: 2024-01-14
@@ -12,8 +12,8 @@ showtimes:
   - 2024-01-13 19:00:00
   - 2024-01-14 15:00:00
 program:
-Website: https://actiiplayers.org/unmasked
-Tickets: https://www.eventbrite.com/cc/unmasked-encore-performances-2835999
+website: https://actiiplayers.org/unmasked
+tickets: https://www.eventbrite.com/cc/unmasked-encore-performances-2835999
 cast:
 - Benjamin Locke: Christopher Shields
 - William Shepard: Nicholas Cooke
@@ -40,7 +40,7 @@ cast:
 crew:
 orchestra:
 # Unmasked by McKenna Rowell
-Genres:
+genres:
 - Play
 - Historical Fiction
 - Drama

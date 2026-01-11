@@ -5,7 +5,7 @@ opening_date: 2004-04-23
 closing_date: 2004-05-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Rose Weiss: Jessica Palombo

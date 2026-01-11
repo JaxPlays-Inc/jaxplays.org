@@ -6,19 +6,19 @@ featured_image: Jacksonville-Symphony.webp
 featured_image_attr: 
 featured_image_alt: Jacksonville Symphony logo
 featured_image_caption: Jacksonville Symphony logo
-Founded: 
-Address: |
+founded: 
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: jaxsymphony
-  Twitter: jaxsymphony
-  Instagram: jaxsymphony
-  Threads:
-  YouTube: jaxsymphony
-  Website: https://www.jaxsymphony.org/
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: jaxsymphony
+  twitter: jaxsymphony
+  instagram: jaxsymphony
+  threads:
+  youtube: jaxsymphony
+  website: https://www.jaxsymphony.org/
+phone:  
 color: "#511b7b"
 donate: https://jaxsymphony.networkforgood.com/projects/93823-membership?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

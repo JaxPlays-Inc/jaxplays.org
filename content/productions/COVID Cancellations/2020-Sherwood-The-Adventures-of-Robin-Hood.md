@@ -7,14 +7,14 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-05-08
 closing_date: 2020-05-24
 category: comedy
-Theatre: ABET - All Beaches Experimental Theatre
-Genres: 
+theatre: ABET - All Beaches Experimental Theatre
+genres: 
 - Play
 - Comedy
 show_details:
 - Writer: "[[w:Ken Ludwig]]"
 - Setting: Sherwood Forest & Nottinghamshire England
-Website: http://www.abettheatre.com/
+website: http://www.abettheatre.com/
 showtimes:
 - 2020-05-08 20:00:00
 - 2020-05-09 20:00:00

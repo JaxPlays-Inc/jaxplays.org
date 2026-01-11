@@ -13,13 +13,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: james.skiba.5
-  Twitter: 
-  Instagram: jamesaskiba
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-  YouTube: "@JamesASkiba"
+socials:
+  facebook: james.skiba.5
+  twitter: 
+  instagram: jamesaskiba
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+  youtube: "@JamesASkiba"
 ---

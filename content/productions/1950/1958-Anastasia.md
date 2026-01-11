@@ -5,8 +5,8 @@ opening_date: 1958-02-26
 closing_date: 1958-03-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Chernov: Harry N. Nestler
 - Varya: Eleanor Yeager

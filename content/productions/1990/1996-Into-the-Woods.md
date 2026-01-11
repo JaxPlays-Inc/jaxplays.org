@@ -5,8 +5,8 @@ opening_date: 1996-06-07
 closing_date: 1996-06-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Narrator: Karl Rogers
 - Cinderella: Melissa Painter

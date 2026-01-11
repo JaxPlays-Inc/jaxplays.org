@@ -1,7 +1,7 @@
 ---
 title: Theatre In The Park
-Theatre: Lumen Repertory Theatre
-Venue: Johansen Park
+theatre: Lumen Repertory Theatre
+venue: Johansen Park
 date: 2024-05-21T20:58:38-04:00
 opening_date: 2024-04-12
 closing_date: 2024-04-13
@@ -14,8 +14,8 @@ featured_image_caption: Poster for 'Theatre In The Park'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Performers: 
@@ -31,7 +31,7 @@ crew:
 - Director: Brian Niece
 orchestra:
 genres: 
-Description: 
+description: 
 ---
 Not your typical Bard in the Park! It’s part Shakespeare sampler and part interactive storytelling. Shining light on scenes from Shakespeare’s well-known plays and some hidden gems, the evening will somehow seamlessly (or maybe not so seamlessly) flow into an interactive experience where the audience can be spectators or participants (their choice).
 

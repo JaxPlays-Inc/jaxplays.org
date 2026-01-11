@@ -10,7 +10,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 A Moon for the Misbegotten
-Theatre: "ABET - All Beaches Experimental Theatre"
+theatre: "ABET - All Beaches Experimental Theatre"
 cast: 
 - Jessica Racaniello 
 - Scott Broughton

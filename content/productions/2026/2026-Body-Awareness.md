@@ -1,8 +1,8 @@
 ---
 title: Body Awareness
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 2026
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 2026
 date: 2025-10-27T16:59:29-04:00
 opening_date: 2026-04-10
 closing_date: 2026-04-18
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://the5anddime.org/s2026/body-awareness/
-Tickets: 
+website: https://the5anddime.org/s2026/body-awareness/
+tickets: 
 show_details: 
 - Playwright: "[[w:Annie Baker]]"
 cast:
@@ -29,7 +29,7 @@ crew:
   - Director: AJ Heekin
 orchestra:
 genres: 
-Description: "Through the lens, the truth has nowhere to hide."
+description: "Through the lens, the truth has nowhere to hide."
 ---
 A family is thrown into chaos when a provocative photographer challenges their ideas of identity and self-expression. At the center is Jared — a brilliant, socially isolated young man on the spectrum — fighting to be seen on his own terms. A darkly funny, deeply humane portrait of what happens when the need to be seen collides with the fear of being truly known.
 

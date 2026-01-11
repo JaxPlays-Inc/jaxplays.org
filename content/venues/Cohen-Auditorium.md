@@ -11,17 +11,17 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     11401 Old St Augustine Rd
     Jacksonville, FL 32258
-Latitude: 30.166411146961014
-Longitude: -81.59878423650095
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone: 19042601818
+latitude: 30.166411146961014
+longitude: -81.59878423650095
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone: 19042601818
 ---

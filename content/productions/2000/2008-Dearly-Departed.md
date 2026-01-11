@@ -5,7 +5,7 @@ opening_date: 2008-01-11
 closing_date: 2008-01-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Bud Turpin: Fred Gatlin

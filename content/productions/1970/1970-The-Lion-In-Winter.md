@@ -5,8 +5,8 @@ opening_date: 1970-02-02
 closing_date: 1970-02-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Henry II: Phil Meunier
 - Alais: Pamela Veckruise

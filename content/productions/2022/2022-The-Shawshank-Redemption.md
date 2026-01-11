@@ -10,17 +10,17 @@ featured_image: 2022_The_Shawshank_Redemption.jpeg
 featured_image_attr: ABET
 featured_image_alt:
 featured_image_caption: Poster of 2022 production of The Shawshank Redemption
-Theatre: ABET - All Beaches Experimental Theatre
-Genres: 
+theatre: ABET - All Beaches Experimental Theatre
+genres: 
 - Play
 - Crime Fiction
-Description: "A gripping drama that follows banker Andy Dufresne, wrongfully convicted for murder, as he navigates life in Shawshank Prison. Over the years, he forms an unlikely friendship with fellow inmate Red and quietly hatches a daring escape plan, all while imparting hope to those around him."
+description: "A gripping drama that follows banker Andy Dufresne, wrongfully convicted for murder, as he navigates life in Shawshank Prison. Over the years, he forms an unlikely friendship with fellow inmate Red and quietly hatches a daring escape plan, all while imparting hope to those around him."
 show_details:
 - Writer: 
   - Dave Johns
   - Owen O'Neill
 - Setting: Shawshank State Penitentiary
-Tickets: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439?aff=erelexpmlt
+tickets: https://www.eventbrite.com/e/the-shawshank-redemption-tickets-169122663439?aff=erelexpmlt
 showtimes:
 - 2022-05-20 19:30:00
 - 2022-05-21 19:30:00

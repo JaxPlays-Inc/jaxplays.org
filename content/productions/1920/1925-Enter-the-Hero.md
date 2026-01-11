@@ -5,7 +5,7 @@ opening_date: 1925-02-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Carey: Annie M. Pratt
 - Annie Carey: Isabel Williams

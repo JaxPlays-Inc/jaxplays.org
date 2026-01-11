@@ -11,7 +11,7 @@ featured_image: 2022_Ghost_(musical).jpg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 show_details:
 - Music: 
   - "[[w:Dave Stewart]]"
@@ -22,7 +22,7 @@ show_details:
   - "[[w:Bruce Joel Rubin]]"
 - Book: Bruce Joel Rubin
 - Basis: The film *[[w:Ghost (1990 film)|Ghost]]* by Bruce Joel Rubin
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=395
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=395
 showtimes:
 - 2022-09-29 12:00:00
 - 2022-09-29 17:30:00

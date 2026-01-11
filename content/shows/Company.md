@@ -9,10 +9,10 @@ show_details:
 - Lyrics: Stephen Sondheim
 - Book: "[[w:George Furth]]"
 # Company
-Genres:
+genres:
   - Musical
   - Comedy
   - Drama
-Description: "Explore the complexities of modern relationships through the eyes of Bobby, a single man unable to commit fully to a steady relationship, let alone marriage."
+description: "Explore the complexities of modern relationships through the eyes of Bobby, a single man unable to commit fully to a steady relationship, let alone marriage."
 ---
 *Company* follows Robert (Bobby), a single man living in New York City on his 35th birthday, surrounded by couples who are his best friends. Through a series of vignettes, Bobby interacts with these married friends and three girlfriends, each relationship presenting a different perspective on the meaning of companionship. The musical is a thoughtful and witty examination of love, commitment, and what it means to be alone in a world where societal norms dictate forming relationships. With Stephen Sondheim’s brilliant score, *Company* delves into the essence of human connection and the pursuit of happiness in contemporary life.

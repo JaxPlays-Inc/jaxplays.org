@@ -1,8 +1,8 @@
 ---
 title: Shenandoah
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 
 date: 2025-04-30T11:12:50-04:00
 opening_date: 1997-03-01
 approx_date: month
@@ -13,8 +13,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Sniper: Justin Murphy
@@ -23,5 +23,5 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

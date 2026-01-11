@@ -1,7 +1,7 @@
 ---
 title: Joseph and the Amazing Technicolor Dreamcoat
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-05-10T17:42:58
 opening_date: 2024-06-20
 closing_date: 2024-08-11
@@ -73,8 +73,8 @@ featured_image_caption: Poster for 'Joseph and the Amazing Technicolor Dreamcoat
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1458&code=WWW&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1458&code=WWW&qty_target=0
 show_details: 
 cast:
   - Narrator: Aaron DeCicco
@@ -156,7 +156,7 @@ crew:
   - Thaddeus Walker
   - Erica Moya
 orchestra:
-Press: 
+press: 
   - "Alhambra’s latest show is fun mix of color, sound | The Ponte Vedra Recorder": https://www.pontevedrarecorder.com/stories/alhambras-latest-show-is-fun-mix-of-color-sound,92635
 ---
 

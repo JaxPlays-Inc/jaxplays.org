@@ -5,8 +5,8 @@ opening_date: 1972-11-24
 closing_date: 1972-12-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bellboy: Bill Morse
 - Karen Nash: Mardie Kelly

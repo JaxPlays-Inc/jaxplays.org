@@ -14,13 +14,13 @@ genres:
 - Drama
 - Historical
 - Biographical
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Website: https://www.aclassictheatre.org/2023-2024-season
-Tickets: https://www.aclassictheatre.org/act-tickets
+theatre: A Classic Theatre
+venue: The Waterworks
+website: https://www.aclassictheatre.org/2023-2024-season
+tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Playwright: Lauren Gunderson
-Description: A cosmic journey that illuminates the life and legacy of trailblazing astronomer Henrietta Leavitt.
+description: A cosmic journey that illuminates the life and legacy of trailblazing astronomer Henrietta Leavitt.
 showtimes:
 - 2023-12-01 19:30:00
 - 2023-12-02 19:30:00

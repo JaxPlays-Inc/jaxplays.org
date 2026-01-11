@@ -11,9 +11,9 @@ featured_image: 2022_Ragtime.webp
 featured_image_attr: Theatre Jacksonville
 featured_image_alt:
 featured_image_caption: Graphic for Ragtime
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-Website: https://www.theatrejax.com/season102
+website: https://www.theatrejax.com/season102
 showtimes:
 - 2022-06-10 19:30:00
 - 2022-06-11 19:30:00

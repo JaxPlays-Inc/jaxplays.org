@@ -5,8 +5,8 @@ opening_date: 1954-03-03
 closing_date: 1954-03-13
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Abigail Williams: Yvonne Peairs
 - Ann Putnam: Thelma House

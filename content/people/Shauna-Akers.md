@@ -7,13 +7,13 @@ other_names:
 featured_image: Shauna-Clark.webp
 featured_image_attr: 
 featured_image_attr_link: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: shauna_.nicole
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm3089655
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: shauna_.nicole
+  linkedin: 
+  ibdb: 
+  imdb: nm3089655
+  website: 
 date: 2023-09-08T00:00:00-04:00
 ---

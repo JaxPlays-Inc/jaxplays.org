@@ -5,8 +5,8 @@ opening_date: 1995-11-03
 closing_date: 1995-11-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Carnelle Scott: Amanda Rogers
 - Popeye Jackson: Jamie Vaughn

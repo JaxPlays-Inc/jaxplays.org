@@ -5,8 +5,8 @@ opening_date: 1982-01-22
 closing_date: 1982-02-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Irene Wilson: Kandice McNett
 - Robin Austin: Kathy Locke

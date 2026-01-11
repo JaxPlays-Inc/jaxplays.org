@@ -6,7 +6,7 @@ approx_date: year
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Aunt Polly At the Exposition: Adnah Duckworth
 - Blackface Sketch: Jane Hopkins

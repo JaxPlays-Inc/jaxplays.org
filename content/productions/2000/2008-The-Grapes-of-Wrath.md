@@ -17,10 +17,10 @@ featured_image_caption: Poster for The Grapes of Wrath
 featured_image_attr:
 featured_image_attr_link:
 program:
-Theatre: Jacksonville University - Stein College
-Venue: Swisher Theater
-Website:
-Tickets:
+theatre: Jacksonville University - Stein College
+venue: Swisher Theater
+website:
+tickets:
 show_details:
 cast:
 - Tom Joad: Tyler Graham
@@ -126,13 +126,13 @@ crew:
   - Chelsea Glenn
   - Alex Gana
 orchestra:
-Description: "A gritty, poignant odyssey through America's heartland, capturing the resilience of a family uprooted."
+description: "A gritty, poignant odyssey through America's heartland, capturing the resilience of a family uprooted."
 genres:
 - Play
 - Drama
 - Historical
 - Social Commentary
-Reviews:
-Press:
+reviews:
+press:
 ---
 Based on John Steinbeck's Pulitzer Prize-winning novel, The Grapes of Wrath follows the Joad family as they're forced off their Oklahoma farm during the Great Depression. Piling into a rickety truck, they head west to the promised land of California. Faced with insurmountable obstacles at every turn, the Joads discover that the real journey is one of hope, humanity, and the unbreakable bonds of family.

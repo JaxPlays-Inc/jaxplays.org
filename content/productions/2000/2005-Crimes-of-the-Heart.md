@@ -5,7 +5,7 @@ opening_date: 2005-01-14
 closing_date: 2005-01-29
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Lenny Macgrath: Amy Noel Johnson

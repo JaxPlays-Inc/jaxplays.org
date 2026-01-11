@@ -9,7 +9,7 @@ featured_image_alt: "Cast of 'West Side Story' performing a high-energy dance nu
 authors: 
 - Ray Hollister
 production: 2025 West Side Story
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
   - Brayden Schilling
   - Lauren Henriques

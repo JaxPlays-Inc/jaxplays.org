@@ -1,7 +1,7 @@
 ---
 title: The Secrets We Keep
-Theatre: White Mouse Theatre Productions
-Venue: Cohen Auditorium
+theatre: White Mouse Theatre Productions
+venue: Cohen Auditorium
 date: 2024-04-07
 opening_date: 2024-04-07
 closing_date: 2024-04-07
@@ -13,8 +13,8 @@ featured_image_caption: Poster for 'The Secrets We Keep'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.ticketsource.us/whats-on/fl/cohen-auditorium-at-river-garden/the-secrets-we-keep-musical-jacksonville/e-eqomyp
+website: 
+tickets: https://www.ticketsource.us/whats-on/fl/cohen-auditorium-at-river-garden/the-secrets-we-keep-musical-jacksonville/e-eqomyp
 show_details: 
   - Book: Danielle Wirsansky
   - Lyrics: Danielle Wirsansky
@@ -47,11 +47,11 @@ crew:
   - Sound Designer: Tanner Griffin
   - Hair & Makeup Designer: Olivia Seeley
 orchestra:
-Genres:
+genres:
   - Musical
   - Drama
   - Fantasy
   - Concert Performance
-Description: "A mystical journey of a rusalka seeking vengeance in the aftermath of the Holocaust, exploring the depths of humanity and the power of forgiveness."
+description: "A mystical journey of a rusalka seeking vengeance in the aftermath of the Holocaust, exploring the depths of humanity and the power of forgiveness."
 ---
 In the mystical realm of the rusalki, a Jewish Polish woman, tragically taken during the Holocaust and turned into a rusalka, discovers an unexpected chance for revenge when she befriends a young woman who unknowingly carries the bloodline of her murderer. As she grapples with her desire for vengeance, she must confront the depths of her own humanity and the power of forgiveness, navigating the blurred lines between good and evil, and finding solace in the delicate balance between redemption and the eternal quest for justice. This poignant and evocative musical weaves together themes of loss, resilience, and the enduring strength of the human spirit.

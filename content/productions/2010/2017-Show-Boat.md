@@ -1,7 +1,7 @@
 ---
 title: Show Boat
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 opening_date: 2017-02-22
 closing_date: 2017-04-02
 showtimes:
@@ -56,8 +56,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: 
-Tickets: https://sales.alhambrajax.com/100/index.html
+website: 
+tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 
 cast:
 - Captain Andy Hawks: Bill Galarno
@@ -111,16 +111,16 @@ crew:
 - Lighting Designer: Misty Desmit 
 - Sound Deisgner: Linnay Bennett
 orchestra:
-Genres:
+genres:
   - Musical
   - Drama
   - Romance
-Description: "Step aboard the Cotton Blossom floating theater, where lives intertwine in a sweeping tale of love, loss, and redemption set against the backdrop of America’s Deep South."
-Reviews:
+description: "Step aboard the Cotton Blossom floating theater, where lives intertwine in a sweeping tale of love, loss, and redemption set against the backdrop of America’s Deep South."
+reviews:
 - "Set Sail on the SHOW BOAT at the Alhambra | EU Jacksonville / Folio Weekly": https://folioweekly.com/staging/2017/02/27/show-boat-alhambra/
 - "Alhambra launches worthy revival of ‘Show Boat’ | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/alhambra-launches-worthy-revival-of-show-boat,3126
 - "Show Boat rolls along at Alhambra | Florida NewsLine": https://www.floridanewsline.com/creekline-st-johns/show-boat-rolls-along-alhambra/
-Press: 
+press: 
 - "Ground Breaking SHOW BOAT Opens Wednesday At Alhambra Theatre & Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/Ground-Breaking-SHOW-BOAT-Opens-Wednesday-At-Alhambra-Theatre-Dining-20170220 
 - "Actor Bill Galarno returns to the Alhambra half-a-century later for 'Show Boat'": https://www.jacksonville.com/story/entertainment/local/2017/02/23/actor-bill-galarno-returns-alhambra-half-century-later-show-boat/15743949007/
 ---

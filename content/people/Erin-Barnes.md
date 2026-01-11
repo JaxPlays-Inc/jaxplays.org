@@ -10,10 +10,10 @@ featured_image_attr:
 featured_image_alt: 
 featured_image_caption: 
 details:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Linkedin: erin-barnes-b26058193
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: erin-barnes-b26058193
 date: 2023-09-08T00:00:00-04:00
 ---
 

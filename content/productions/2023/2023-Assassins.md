@@ -13,15 +13,15 @@ genres:
   - Musical
   - Drama
   - Dark Comedy
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Website: 
-Tickets: 
+theatre: The 5 & Dime
+venue: The Florida Ballet
+website: 
+tickets: 
 show_details: 
 - Music: Stephen Sondheim
 - Lyrics: Stephen Sondheim
 - Book: John Weidman
-Description: "*Assassins* melds history and dark humor, dissecting the twisted minds behind the trigger."
+description: "*Assassins* melds history and dark humor, dissecting the twisted minds behind the trigger."
 showtimes:
 - 2023-12-08 20:00:00
 - 2023-12-09 20:00:00

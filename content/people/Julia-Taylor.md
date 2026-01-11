@@ -6,14 +6,14 @@ featured_image_attr: Solaris Foto
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: its.juliataylor
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
-Press:
+socials:
+  facebook: 
+  twitter: 
+  instagram: its.juliataylor
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
+press:
   - "Meet Billy Elliot: Julia Taylor | TheSkyKid.com": https://betm.theskykid.com/meet-billy-elliot-julia-taylor/
 ---

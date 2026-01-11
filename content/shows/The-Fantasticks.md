@@ -8,11 +8,11 @@ show_details:
   - Music: "[[w:Harvey Schmidt]]"
   - Lyrics: "[[w:Tom Jones (writer)|Tom Jones]]"
   - Book: "Tom Jones"
-Genres:
+genres:
   - Musical
   - Romance
   - Fantasy
-Description: "A poetic and timeless tale of young love tested by illusion, growing pains and the bittersweet truths of the real world."
+description: "A poetic and timeless tale of young love tested by illusion, growing pains and the bittersweet truths of the real world."
 ---
 ### Musical numbers
 {{< columns >}} 

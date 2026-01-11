@@ -1,8 +1,8 @@
 ---
 title: You're A Good Man, Charlie Brown
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 11
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 11
 date: 2024-06-12T23:45:50-04:00
 opening_date: 2024-06-06
 closing_date: 2024-06-16
@@ -21,8 +21,8 @@ featured_image_caption: "Catch the timeless charm of 'You're a Good Man, Charlie
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://ameliamusicalplayhouse.com/performances/charliebrown/
-Tickets: https://904tix.com/venues/7617/events
+website: https://ameliamusicalplayhouse.com/performances/charliebrown/
+tickets: https://904tix.com/venues/7617/events
 show_details: 
 cast:
   - Charlie Brown: Sam Cobean
@@ -42,5 +42,5 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

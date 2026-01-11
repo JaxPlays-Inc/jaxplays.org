@@ -1,7 +1,7 @@
 ---
 title: "Billy Elliot: The Musical"
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 date: 2024-02-09
 opening_date: 2024-02-09
 closing_date: 2024-02-24
@@ -22,8 +22,8 @@ featured_image_caption: "Poster for Billy Elliot: The Musical"
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=4&p=51
+website: 
+tickets: https://app.arts-people.com/index.php?actions=4&p=51
 show_details: 
 - Music: "[[w:Elton John]]"
 - Lyrics: "[[w:Lee Hall]]"
@@ -76,10 +76,10 @@ cast:
   - Ballet Girl - Alison Summers: Nora Costrino
   - Ballet Girl - Karen Davidson: Lauren Wortham
 orchestra:
-Genres:
+genres:
   - Musical
   - Drama
   - Coming-of-Age
-Description: "A young boy trades boxing gloves for ballet shoes, challenging norms in his blue-collar mining town."
+description: "A young boy trades boxing gloves for ballet shoes, challenging norms in his blue-collar mining town."
 ---
 In a small English mining town during the 1984 miners' strike, Billy Elliot discovers a passion for ballet. While his father and brother take to the picket lines, Billy secretly trains to be a dancer, finding solace and hope in a world falling apart. Facing prejudices and adversity, Billy fights for the chance to live his dream, transform his life, and bring his community together through the power of dance.

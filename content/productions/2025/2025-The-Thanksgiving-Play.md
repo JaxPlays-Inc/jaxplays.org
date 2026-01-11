@@ -1,8 +1,8 @@
 ---
 title: The Thanksgiving Play
-Theatre: Flagler College Department of Theater Arts
-Venue: Lewis Auditorium
-Season: 
+theatre: Flagler College Department of Theater Arts
+venue: Lewis Auditorium
+season: 
 date: 2025-11-05T10:02:32-05:00
 opening_date: 2025-11-12
 closing_date: 2025-11-16
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions-2025-2026
-Tickets: https://flagler.universitytickets.com/
+website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions-2025-2026
+tickets: https://flagler.universitytickets.com/
 show_details: 
 cast:
 crew:
@@ -28,7 +28,7 @@ orchestra:
 genres:
 - Play
 - Comedy
-Description: "When four theatre artists attempt to create a play celebrating both \"Turkey Day\" AND Native American Heritage Month, their attempts quickly lead to hilariously cringeworthy results!"
+description: "When four theatre artists attempt to create a play celebrating both \"Turkey Day\" AND Native American Heritage Month, their attempts quickly lead to hilariously cringeworthy results!"
 ---
 THE BITING SATIRE BY BROADWAY'S FIRST KNOWN FEMALE INDIGENOUS PLAYWRIGHT!
 

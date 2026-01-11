@@ -5,8 +5,8 @@ opening_date: 1938-03-01
 closing_date: 1938-03-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - 1st General: Slocum Ball
 - 1st Soldier: Raymond C. Winstead

@@ -5,7 +5,7 @@ opening_date: 1932-02-23
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Eudoxia: Anne C. Lalor
 - Hon. Fitzroy Bagley: Carl Cesery

@@ -9,13 +9,13 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: Players by the Sea
+theatre: Players by the Sea
 show_details:
 - Music: "[[w:Marvin Laird]]"
 - Lyrics: "[[w:Joel Paley]]"
 - Book: Joel Paley
-Tickets: https://web.ovationtix.com/trs/pr/1026219
-Website: https://www.playersbythesea.org/dancenation
+tickets: https://web.ovationtix.com/trs/pr/1026219
+website: https://www.playersbythesea.org/dancenation
 showtimes:
 - 2022-04-22 20:00:00
 - 2022-04-23 20:00:00

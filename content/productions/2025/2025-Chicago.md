@@ -1,8 +1,8 @@
 ---
 title: Chicago
-Theatre: Greenlight Theatre Company
-Venue: Riverside Church at Park and King
-Season: 
+theatre: Greenlight Theatre Company
+venue: Riverside Church at Park and King
+season: 
 date: 2025-05-27T12:19:35-04:00
 opening_date: 2025-05-23
 closing_date: 2025-06-01
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.greenlighttheatreco.com/jaxonstage
+website: 
+tickets: https://www.greenlighttheatreco.com/jaxonstage
 show_details: 
 cast:
   - Roxie: Jo Lynn Fletcher
@@ -81,7 +81,7 @@ crew:
       - Charlie Dohm
       - Hugh Miner
 genres: 
-Description: "*Chicago*, a raucous and iconic Broadway musical, tells the story of Roxie Hart, a housewife and nightclub dancer, and Velma Kelly, a vaudeville star, both accused of murder in 1920s Chicago, and their pursuit of fame and celebrity! "
+description: "*Chicago*, a raucous and iconic Broadway musical, tells the story of Roxie Hart, a housewife and nightclub dancer, and Velma Kelly, a vaudeville star, both accused of murder in 1920s Chicago, and their pursuit of fame and celebrity! "
 ---
 
 ### Musical numbers

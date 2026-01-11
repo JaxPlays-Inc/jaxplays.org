@@ -5,8 +5,8 @@ opening_date: 1997-03-07
 closing_date: 1997-03-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Doaker: R. Kevin Marbury
 - Boy Willie: Ron Parker

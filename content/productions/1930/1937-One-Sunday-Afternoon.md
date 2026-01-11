@@ -5,7 +5,7 @@ opening_date: 1937-02-09
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Snappy's Girl: Betty Hulett
 - Mrs. Schutzendorf: Betty Jane Leamond

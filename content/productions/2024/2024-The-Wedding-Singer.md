@@ -1,7 +1,7 @@
 ---
 title: The Wedding Singer
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-05-10T17:42:58
 opening_date: 2024-10-03
 closing_date: 2024-11-10
@@ -57,8 +57,8 @@ featured_image_caption: Poster for 'The Wedding Singer'
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1460&code=WWW&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1460&code=WWW&qty_target=0
 cast:
 - Robbie Hart: Jake Pearce
 - Julia Sullivan: Brooklyn Klekamp

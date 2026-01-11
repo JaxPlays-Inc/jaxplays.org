@@ -5,7 +5,7 @@ opening_date: 2004-03-05
 closing_date: 2004-03-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Grace Larkin: Jennifer Knight

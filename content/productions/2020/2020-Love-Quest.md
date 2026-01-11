@@ -10,16 +10,16 @@ featured_image: 2020_Love_Quest.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:
 - Writer: 
   - Mary Maguire
   - Steven McGraw
-Genres: 
+genres: 
 - Play
 - Romantic comedy
-Website: https://www.theatrejax.com/love-quest
+website: https://www.theatrejax.com/love-quest
 showtimes:
 - 2020-02-21 20:00:00
 - 2020-02-22 20:00:00

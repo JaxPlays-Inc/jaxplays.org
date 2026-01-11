@@ -12,8 +12,8 @@ featured_image_attr: Limelight Theatre
 featured_image_alt:
 featured_image_caption: Poster of 2022 production of Parade
 category: musical
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
+theatre: Limelight Theatre
+venue: Matuza Mainstage
 showtimes:
 - 2022-08-04 19:30:00
 - 2022-08-05 19:30:00

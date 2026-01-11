@@ -8,7 +8,7 @@ featured_image_caption: "Emily Layt and Chad Boyd deliver a poignant moment in *
 authors: 
 - Amber Hollister
 production: "2024 The Last Five Years In Concert"
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Emily Layt
 - Chad Boyd

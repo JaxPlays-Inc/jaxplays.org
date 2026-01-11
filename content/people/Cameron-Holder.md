@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: cameronholderacts
-  LinkedIn: cameron-holder-938b2a353
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: cameronholderacts
+  linkedin: cameron-holder-938b2a353
+  ibdb: 
+  imdb:
+  website: 
 ---
 As a passionate and dedicated artist, I thrive on bringing characters to life and connecting with audiences through storytelling. My journey in theatre has been both fulfilling and transformative, allowing me to explore various facets of performance.
 

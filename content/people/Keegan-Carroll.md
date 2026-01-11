@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: keegancarrollofficial
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: keegancarrollofficial
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---
 Keegan began performing in Northeast Florida at age 5 and has been passionate about theatre ever since. Now 14, he has appeared in four Alhambra Theatre productions and numerous community theatre performances throughout the region.

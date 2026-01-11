@@ -8,7 +8,7 @@ featured_image_alt: "On a theater stage, Zonnetta Marie stands with confidence a
 authors:
 - Ray Hollister
 production: 2024 Trouble in Mind
-Theatre: Players by the Sea
+theatre: Players by the Sea
 cast: 
 - Zonnetta Marie
 - Jay Bilderback

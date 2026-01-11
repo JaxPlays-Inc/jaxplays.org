@@ -43,7 +43,7 @@
                 {{ end }}
               </div>
               <div>
-                {{ $venues := $production.Params.Venue }}
+                {{ $venues := $production.Params.venue }}
                 {{ if eq (printf "%T" $venues) "string" }}
                   {{ $venues = slice $venues }}
                 {{ end }}

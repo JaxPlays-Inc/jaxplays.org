@@ -10,7 +10,7 @@ featured_image_alt: "Judith (Victoria Isernia) in a flowing white gown follows D
 authors: 
 - Ray Hollister
 production: 2024 Bluebeards Castle
-Theatre: Bold City Opera
+theatre: Bold City Opera
 cast: 
 - John Tibbetts
 - Victoria Isernia

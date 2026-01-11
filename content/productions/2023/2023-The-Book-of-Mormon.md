@@ -13,17 +13,17 @@ genres:
 - Musical
 - Comedy
 - Satire
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Website: 
-Tickets: https://www.fscjartistseries.org/tickets/the-book-of-mormon
+venue: Moran Theater
+website: 
+tickets: https://www.fscjartistseries.org/tickets/the-book-of-mormon
 show_details: 
 - Book, Music & Lyrics: 
   - "[[w:Matt Stone]]"
   - "[[w:Trey Parker]]"
   - "[[w:Robert Lopez]]"
-Description: A heavenly hilarious musical that tests the faith of two missionaries—and your ability to breathe between laughs.
+description: A heavenly hilarious musical that tests the faith of two missionaries—and your ability to breathe between laughs.
 showtimes:
 - 2023-12-01 20:00:00
 - 2023-12-02 14:00:00

@@ -5,8 +5,8 @@ opening_date: 1980-11-21
 closing_date: 1980-12-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Dr. Jim Tennyson: Philip St. Laurent
 - Bet Schmidt: Elizabeth Reed

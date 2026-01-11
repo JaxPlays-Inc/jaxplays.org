@@ -11,12 +11,12 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 category: musical
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Music: "[[w:Jon and Al Kaplan]]"
 - Lyrics: Jon and Al Kaplan
 - Book: "[[w:Hunter Bell]]"
-Website: https://www.the5anddime.org/silence-the-musical
+website: https://www.the5anddime.org/silence-the-musical
 showtimes:
 - 2019-09-20 20:00:00
 - 2019-09-21 20:00:00

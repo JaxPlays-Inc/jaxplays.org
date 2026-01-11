@@ -5,7 +5,7 @@ opening_date: 2003-01-17
 closing_date: 2003-02-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Arthur Birling: Mark Wright

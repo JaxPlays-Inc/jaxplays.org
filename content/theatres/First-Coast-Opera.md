@@ -7,16 +7,16 @@ featured_image: First-Coast-Opera.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption: Logo for First Coast Opera
-Founded: 2000-01-01
-Address: |
+founded: 2000-01-01
+address: |
     P.O Box 2223, 
     St. Augustine, Florida 32085
-Socials: 
-  Facebook: firstcoastopera
-  Instagram: first_coast_opera
-  Website: https://www.firstcoastopera.com/
-  LinkedIn: company/first-coast-opera/
-  YouTube: "@firstcoastopera1"
+socials: 
+  facebook: firstcoastopera
+  instagram: first_coast_opera
+  website: https://www.firstcoastopera.com/
+  linkedin: company/first-coast-opera/
+  youtube: "@firstcoastopera1"
 color: "#b30b24"
 date: 2024-07-02T18:03:40-04:00
 donate: https://app.arts-people.com/index.php?donation=fcop&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

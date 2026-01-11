@@ -5,7 +5,7 @@ opening_date: 1937-01-12
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Chuck: Ellis Crenshaw, Jr.
 - Steven Gaye: Frank Heintz

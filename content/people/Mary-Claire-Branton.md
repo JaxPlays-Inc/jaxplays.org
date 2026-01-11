@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: mary.c.dunn.5
-  Twitter: 
-  Instagram: 
-  LinkedIn: mary-claire-branton-15532a85
-  IBDB: 
-  IMDb:
-  Website: https://maryclairebranton.wordpress.com/
+socials:
+  facebook: mary.c.dunn.5
+  twitter: 
+  instagram: 
+  linkedin: mary-claire-branton-15532a85
+  ibdb: 
+  imdb:
+  website: https://maryclairebranton.wordpress.com/
 ---
 Mary Claire Branton holds a Bachelor of Arts in theatre from the University of Georgia and a Master of Fine Arts in acting from Brooklyn College. She trained in Chekhov and Stanislavsky with the Moscow Art Theatre and studied Anne Bogart’s Viewpoints at Columbia University.
 

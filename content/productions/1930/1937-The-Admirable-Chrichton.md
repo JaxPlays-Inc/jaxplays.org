@@ -5,7 +5,7 @@ opening_date: 1937-03-30
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Perkins: Betsy Prior
 - Hon. Ernest Wooley: Charles Luckie

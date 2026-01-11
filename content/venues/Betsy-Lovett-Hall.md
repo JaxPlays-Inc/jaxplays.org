@@ -11,17 +11,17 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
   1100 Stockton Street
   Jacksonville, FL 32204
-Latitude: 30.312773799024146
-Longitude: -81.68933712547472
-Socials: 
-  Facebook: 100064912864191
-  Twitter: 
-  Instagram: goodshepherdjaxchurch
-  Threads:
-  Website: https://www.gsjax.church/
-Phone:  19043875691
+latitude: 30.312773799024146
+longitude: -81.68933712547472
+socials: 
+  facebook: 100064912864191
+  twitter: 
+  instagram: goodshepherdjaxchurch
+  threads:
+  website: https://www.gsjax.church/
+phone:  19043875691
 ---

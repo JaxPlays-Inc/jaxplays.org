@@ -5,8 +5,8 @@ opening_date: 1948-02-27
 closing_date: 1948-03-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Postman: Walter Churchill
 - A Woman: Doris Leonard

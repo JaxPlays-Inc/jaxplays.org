@@ -5,14 +5,14 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-11-25
 closing_date: 2020-12-24
 category: musical
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 show_details:
 - Music: "[[w:Joe Raposo]]"
 - Lyrics: "[[w:Sheldon Harnick]]"
 - Book: Sheldon Harnick
 - Basis: Based on the 1946 film, *[[w:It's a Wonderful Life]]* produced and directed by "[[w:Frank Capra]]".
 - Setting: "[[w:Bedford Falls (It's a Wonderful Life)|Bedford Falls]]"
-Website: https://www.alhambrajax.com/show/a-wonderful-life/
+website: https://www.alhambrajax.com/show/a-wonderful-life/
 showtimes:
 - 2020-11-25 18:00:00
 - 2020-11-27 18:00:00

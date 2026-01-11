@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: alexjblanco
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.ablancoacting.com/
+socials:
+  facebook: 
+  twitter: 
+  instagram: alexjblanco
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.ablancoacting.com/
 ---
 Alexander 'Alex' Blanco is an actor, singer, dancer and voice over artist based in Miami, Florida. He is a graduate from The Boston Conservatory at Berklee with a B.F.A. in Musical Theater Performance.
 

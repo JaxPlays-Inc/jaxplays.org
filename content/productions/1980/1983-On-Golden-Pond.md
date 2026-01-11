@@ -5,8 +5,8 @@ opening_date: 1983-03-11
 closing_date: 1983-03-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Norman Thayer, Jr.: Norman Howard
 - Ethel Thayer: Marion Conner

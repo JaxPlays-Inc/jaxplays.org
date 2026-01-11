@@ -5,8 +5,8 @@ opening_date: 1976-11-26
 closing_date: 1976-12-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Kathy Cooper: Sabina Meyer
 - Jeff Cooper: Don Wachholz

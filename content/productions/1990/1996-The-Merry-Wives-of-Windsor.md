@@ -5,8 +5,8 @@ opening_date: 1996-09-13
 closing_date: 1996-09-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Metropolitan Park
+theatre: Theatre Jacksonville
+venue: Metropolitan Park
 cast:
 - Justice Shallow: Michael O'Connell
 - Abraham Slender: Jerry Emmett Owen

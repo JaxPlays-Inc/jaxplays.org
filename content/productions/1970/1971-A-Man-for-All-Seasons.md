@@ -5,8 +5,8 @@ opening_date: 1971-02-19
 closing_date: 1971-03-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Common Man: Robert Zienta
 - Sir Thomas More: Jack Masters

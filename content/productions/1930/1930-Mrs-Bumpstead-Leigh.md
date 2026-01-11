@@ -5,7 +5,7 @@ opening_date: 1930-02-11
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mrs. Bumpstead-Leigh: Winifred Snowden
 - Mrs. De Salle: Carrie H. Pullen

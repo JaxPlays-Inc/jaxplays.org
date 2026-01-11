@@ -10,7 +10,7 @@ featured_image: 2022_The_Sweet_Delilah_Swim_Club.jpg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:
 - Writer: 
@@ -18,11 +18,11 @@ show_details:
   - Nicholas Hope
   - Jamie Wooten
 - Website: https://www.joneshopewooten.com/delilah.htm
-Genres: 
+genres: 
 - Play
 - Comedy
 - Drama
-Website: https://www.theatrejax.com/season102
+website: https://www.theatrejax.com/season102
 showtimes:
 - 2022-04-22 19:30:00
 - 2022-04-23 19:30:00

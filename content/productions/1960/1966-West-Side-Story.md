@@ -5,8 +5,8 @@ opening_date: 1966-02-26
 closing_date: 1966-03-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Riff: Frank Spolar
 - Tony: Seth Wright

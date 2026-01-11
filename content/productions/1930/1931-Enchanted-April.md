@@ -5,7 +5,7 @@ opening_date: 1931-03-31
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Lady Caroline Dester: Elizabeth Edwards
 - Thomas Briggs: Elliott Adams

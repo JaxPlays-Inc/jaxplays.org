@@ -5,8 +5,8 @@ opening_date: 1965-04-02
 closing_date: 1965-04-10
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Preacher: J.J. Morgan
 - Will Stockdale: Jerry Allen

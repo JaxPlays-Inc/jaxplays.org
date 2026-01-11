@@ -8,11 +8,11 @@ featured_image: 2023_Oleana.jpeg
 featured_image_caption: Poster of 2023 production of Oleanna
 featured_image_attr: Limelight Theatre
 program:
-Genres:
+genres:
 - Play
 - Drama
-Theatre: Limelight Theatre
-Venue: Koger-Gamache Studio Theatre
+theatre: Limelight Theatre
+venue: Koger-Gamache Studio Theatre
 showtimes:
 - 2023-01-12 19:30:00
 - 2023-01-13 19:30:00

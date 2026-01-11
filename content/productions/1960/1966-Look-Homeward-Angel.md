@@ -5,8 +5,8 @@ opening_date: 1966-05-20
 closing_date: 1966-05-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ben Gant: Robert L. Smith
 - Mrs. Marie "Fatty" Pert: Doris Thornhill

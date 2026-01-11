@@ -7,7 +7,7 @@ date: 2023-09-08T00:00:00
 opening_date: 2010-07-16
 closing_date: 2010-07-31
 category: musical
-Theatre: Players by the Sea
+theatre: Players by the Sea
 show_details:
 - Music: "[[w:Jason Robert Brown]]"
 - Lyrics: Jason Robert Brown
@@ -47,6 +47,6 @@ crew:
 - Director: Michael Lipp
 - Musical Director: Samuel Clein
 - Production Design: Lee Hamby
-Press:
+press:
 - "Players by the Sea's 'Parade' is tragic, true story | The Florida Times-Union": https://www.jacksonville.com/story/news/local/2010/07/05/players-seas-parade-tragic-true-story/15939641007/
 ---

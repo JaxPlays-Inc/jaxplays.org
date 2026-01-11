@@ -5,8 +5,8 @@ opening_date: 1939-08-08
 closing_date: 1939-08-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Ann Whitman Murray: Edre Ferguson
 - Ellen Murray: Flonnie Anders

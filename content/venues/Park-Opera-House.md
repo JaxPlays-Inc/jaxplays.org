@@ -11,21 +11,21 @@ featured_image_attr: Augustus Koch and Hudson-Kimberly Publishing Co.
 featured_image_alt: "Koch, Augustus, and Hudson-Kimberly Publishing Co. Jacksonville, Florida. Kansas City, Mo.: Hudson-Kimberly Publishing Co., 1893. Map. Retrieved from the Library of Congress"
 featured_image_attr_link: https://lccn.loc.gov/75693182
 featured_image_caption: "The Park Opera House, circa 1893, across the street from City Park (now James Weldon Johnson Park)"
-Founded: 1883
-Closed: 1901
-Address: |
+founded: 1883
+closed: 1901
+address: |
   333 N Laura St
   Jacksonville, FL 32202
-Latitude: 30.3293764302694
-Longitude: -81.65845218063271
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone:
-Seating: 1100
+latitude: 30.3293764302694
+longitude: -81.65845218063271
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone:
+seating: 1100
 ---
 Before 1884, most theatrical performances in Jacksonville were held in temporary halls such as Polk’s Hall, National Hall and Metropolitan Hall on East Bay Street. As the city’s population and winter tourism grew, the need for a proper theater became clear.
 

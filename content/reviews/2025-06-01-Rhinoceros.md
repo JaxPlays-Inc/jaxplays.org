@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Rhinoceros
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Alberto Carlos Peart
 - Collin James

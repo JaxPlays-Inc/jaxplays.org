@@ -6,13 +6,13 @@ title: The Whale
 date: 2023-09-08T00:00:00
 opening_date: 2015-11-13
 closing_date: 2015-11-22
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Writer: "[[w:Samuel D. Hunter]]"
-Website: https://www.the5anddime.org
-Tickets: https://www.eventbrite.com/e/the-whale-tickets-19043435428
+website: https://www.the5anddime.org
+tickets: https://www.eventbrite.com/e/the-whale-tickets-19043435428
 showtimes:
 - 2015-11-13 20:00:00
 - 2015-11-14 20:00:00

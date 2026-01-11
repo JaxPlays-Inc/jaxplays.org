@@ -10,7 +10,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: "2025 Gutenberg! The Musical!"
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 cast: 
   - Cole Marshall
   - Ethan Edward Fisher

@@ -8,15 +8,15 @@ featured_image: 2022_One_Man_Two_Guvnors.webp
 featured_image_attr: Amelia Community Theatre
 featured_image_alt:
 featured_image_caption: Poster of 2022 production of One Man, Two Guvnors
-Genres: 
+genres: 
 - Play
 - Comedy
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 show_details:
 - Writer: "[[w:Richard Bean]]"
 - Setting: "[[w:1963]] [[w:Brighton, England]]"
-Website: https://www.ameliacommunitytheatre.org/Performances/One-Man%2C-Two-Guvnors
+website: https://www.ameliacommunitytheatre.org/Performances/One-Man%2C-Two-Guvnors
 showtimes:
 - 2022-08-12 19:30:00
 - 2022-08-13 19:30:00

@@ -1,8 +1,8 @@
 ---
 title: Christmas Carole
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2021
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2021
 date: 2024-07-12T12:56:03-04:00
 opening_date: 2021-11-19
 closing_date: 2021-12-24
@@ -61,8 +61,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 cast:
   - Scrooge: Tod Booth
   - Nephew Fred: Justin Murphy

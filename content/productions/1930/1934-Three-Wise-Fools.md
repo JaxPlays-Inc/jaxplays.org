@@ -5,7 +5,7 @@ opening_date: 1934-11-20
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Poole: Birt Byrd
 - Dr. Richard Gaunt: Frank Heintz

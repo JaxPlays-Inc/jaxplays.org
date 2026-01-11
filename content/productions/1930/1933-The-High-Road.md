@@ -5,7 +5,7 @@ opening_date: 1933-05-09
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Lord Teylesmore: Charles Luckie
 - Duke of Warrington: E.S. Beauchamp-Nobbs

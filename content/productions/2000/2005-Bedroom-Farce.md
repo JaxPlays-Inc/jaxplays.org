@@ -6,9 +6,9 @@ title: Bedroom Farce
 date: 2023-09-08T00:00:00
 opening_date: 2005-12-31
 approx_date: year
-Genres: 
+genres: 
 - Play
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 show_details:
 - Playwright: "[[w:Alan Ayckbourn]]"
 cast:

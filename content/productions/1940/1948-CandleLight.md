@@ -5,8 +5,8 @@ opening_date: 1948-04-09
 closing_date: 1948-04-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Waiter: C. James Bastonias
 - Baron Von Rischenheim: W.F. (Bill) Wilkinson

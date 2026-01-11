@@ -5,8 +5,8 @@ opening_date: 1998-04-17
 closing_date: 1998-05-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - George Hay: Bob Pritchard
 - Charlotte Hay: Robyn Neal

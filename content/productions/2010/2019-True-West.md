@@ -9,18 +9,18 @@ featured_image_caption: Poster for True West
 featured_image_attr: Players By The Sea
 featured_image_attr_link:
 program:
-Genres:
+genres:
 - Play
 - Drama
 - Family Drama
 - Dark Comedy
-Theatre: Players by the Sea
-Venue: Grace Darling Studio Theatre
-Website:
-Tickets:
+theatre: Players by the Sea
+venue: Grace Darling Studio Theatre
+website:
+tickets:
 show_details:
 - Playwright: Sam Shepard
-Description: Sons of a desert-dwelling alcoholic and suburban wanderer have chosen extremely different lives. Their sibling rivalry violently erupts as they compete for the attention of a Hollywood Producer, each trying to sell him a story for a new motion picture. Unsettling and intense, this American Classic tackles identity, family and self-doubt.
+description: Sons of a desert-dwelling alcoholic and suburban wanderer have chosen extremely different lives. Their sibling rivalry violently erupts as they compete for the attention of a Hollywood Producer, each trying to sell him a story for a new motion picture. Unsettling and intense, this American Classic tackles identity, family and self-doubt.
 showtimes:
 - 2019-03-15 20:00:00
 - 2019-03-16 20:00:00
@@ -49,9 +49,9 @@ crew:
 - Properties: Claire Cimino, Jereme Raickett, Kristin Livingston
 - Scenic Carpentry: Baron Tetzlaff, Tom Fallon, Maurice Wilson
 orchestra:
-Reviews:
+reviews:
 - "True West at Players by the Sea | The Buzz": https://iwantabuzz.com/arts/arts-in-the-know/true-west-at-players-by-the-sea-2/
 - "‘True West’ at Players by the Sea – A Dark Comedy with a Domestic Clash of Personalities | Folio Weekly": https://folioweekly.com/2019/03/19/true-west-players-by-the-sea/ 
-Press:
+press:
 - "Classic play ‘True West’ to be performed at Players by the Sea | The Recorder": https://pontevedrarecorder.com/stories/classic-play-true-west-to-be-performed-at-players-by-the-sea,8565?
 ---

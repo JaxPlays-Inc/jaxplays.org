@@ -11,15 +11,15 @@ featured_image: Spotlight-Center.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption: Logo for Spotlight Events Center
-Founded: 
-Address: |
+founded: 
+address: |
     1809 East West Parkway
     Fleming Island, FL 32003
-Socials: 
-    Facebook: SpotlightCenterFL
-    Instagram: spotlightcenterfl
-    Website: https://www.spotlighteventscenter.com/
-Phone: 19043759547
+socials: 
+    facebook: SpotlightCenterFL
+    instagram: spotlightcenterfl
+    website: https://www.spotlighteventscenter.com/
+phone: 19043759547
 color: "#C70039"
 date: 2023-09-08T00:00:00-04:00
 ---

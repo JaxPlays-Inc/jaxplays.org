@@ -9,7 +9,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 A Funny Thing Happened on the Way to the Forum
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
   - Cady Huffman
   - Andy Moritz

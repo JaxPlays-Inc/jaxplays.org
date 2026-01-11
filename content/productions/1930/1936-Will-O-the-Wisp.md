@@ -5,7 +5,7 @@ opening_date: 1936-03-03
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - The White-Faced Girl: Helen Anders
 - The Irish Maid: June Stoy

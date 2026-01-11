@@ -5,8 +5,8 @@ opening_date: 1984-10-05
 closing_date: 1984-10-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Velma Kelly: Nan Jester
 - Roxie Hart: Rhythm McCarthy

@@ -1,8 +1,8 @@
 ---
 title: Seussical
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-06-15T22:02:11-04:00
 opening_date: 2024-06-28
 closing_date: 2024-07-07
@@ -21,12 +21,12 @@ featured_image_caption: "Dive into the colorful and imaginative world of 'Seussi
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.theislandtheater.com/seussical-the-musical-tickets
+website: 
+tickets: https://www.theislandtheater.com/seussical-the-musical-tickets
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

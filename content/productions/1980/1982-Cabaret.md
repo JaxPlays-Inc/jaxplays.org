@@ -5,8 +5,8 @@ opening_date: 1982-10-01
 closing_date: 1982-10-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Master of Ceremonies: Robert Arleigh White
 - Clifford Bradshaw: Gordon J. DeLonay

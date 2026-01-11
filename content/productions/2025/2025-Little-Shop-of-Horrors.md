@@ -1,8 +1,8 @@
 ---
 title: Little Shop of Horrors
-Theatre: Spotlight Events Center
-Venue: Spotlight Events Center
-Season: 
+theatre: Spotlight Events Center
+venue: Spotlight Events Center
+season: 
 date: 2025-10-04T18:11:59-04:00
 opening_date: 2025-10-17
 closing_date: 2025-11-01
@@ -22,15 +22,15 @@ featured_image_caption: '"Little Shop of Horrors" presented by Spotlight Events 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.spotlighteventscenter.com
-Tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=457960~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
+website: https://www.spotlighteventscenter.com
+tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=457960~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&
 show_details:
   - Music: "[[w:Alan Menken]]"
   - Lyrics: "[[w:Howard Ashman]]"
   - Book: "Howard Ashman"
   - Basis: "Based on the 1960 film *The Little Shop of Horrors* directed by Roger Corman"
   - Premiere: "1982, Off-Broadway"
-Genres:
+genres:
   - Musical
   - Comedy
   - Horror
@@ -55,7 +55,7 @@ crew:
   - Stage Manager: Addison Gish
 orchestra:
   - Music Director: Marvin Lovett
-Description: "Don’t feed the plants! This cult classic musical will be chomping on stage for a thrillingly funny, good time!"
+description: "Don’t feed the plants! This cult classic musical will be chomping on stage for a thrillingly funny, good time!"
 ---
 During a total eclipse, Seymour, a meek flower shop assistant , who pines for his co-worker Audrey discovers an unusual plant he names Audrey II—one that feeds only on human flesh and blood.  
 

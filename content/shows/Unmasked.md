@@ -8,12 +8,12 @@ featured_image_attr: McKenna Rowell
 featured_image_attr_link: https://www.instagram.com/unmaskedtheplay
 show_details: 
 - Playwright: McKenna Rowell
-Genres:
+genres:
 - Play
 - Historical Fiction
 - Drama
 - War
-Description: "In a world teetering on the edge of revolution, Emily Cartridge and Colonel William Shepard navigate espionage, loyalty, and sacrifice in the fledgling Continental Army."
+description: "In a world teetering on the edge of revolution, Emily Cartridge and Colonel William Shepard navigate espionage, loyalty, and sacrifice in the fledgling Continental Army."
 ---
 In the tumultuous summer of 1775, Emily Cartridge takes a daring step, offering her skills as a spy to General Carter. As she navigates the complexities and dangers of life in the Continental Army, she grapples with moral quandaries and looming threats that could spell doom for her and her friends. 
 

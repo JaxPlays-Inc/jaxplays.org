@@ -5,8 +5,8 @@ opening_date: 1962-02-23
 closing_date: 1962-03-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Essie Sebastian: Sabina Meyer
 - Rudi Sebastian: Ron Dobrin

@@ -6,15 +6,15 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: joey.chancey
-  Twitter: 
-  Instagram: joeychancey
-  LinkedIn: joey-chancey-b4607811
-  IBDB: joey-chancey-493546
-  IMDb:
-  Website: https://joeychancey.com/
-  YouTube: "@joeychancey8436"
+socials:
+  facebook: joey.chancey
+  twitter: 
+  instagram: joeychancey
+  linkedin: joey-chancey-b4607811
+  ibdb: joey-chancey-493546
+  imdb:
+  website: https://joeychancey.com/
+  youtube: "@joeychancey8436"
 ---
 Joey Chancey is a Broadway Conductor, Music Director, and Independent Producer. 
 

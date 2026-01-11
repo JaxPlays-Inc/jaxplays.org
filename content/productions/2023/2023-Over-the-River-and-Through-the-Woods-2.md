@@ -1,7 +1,7 @@
 ---
 title: Over the River and Through the Woods
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 date: 2023-10-06
 opening_date: 2023-10-06
 closing_date: 2023-10-21
@@ -22,8 +22,8 @@ featured_image_caption: Poster for Over the River and Through the Woods
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=4&p=2
+website: 
+tickets: https://app.arts-people.com/index.php?actions=4&p=2
 show_details: 
 cast:
 - Nick: Sebastian Miller
@@ -34,10 +34,10 @@ cast:
 - Caitlin: Brandily Oliphant
 crew:
 orchestra:
-Genres:
+genres:
 - Play
 - Comedy
 - Drama
 - Family
-Description: "A comedic clash between career dreams and family schemes."
+description: "A comedic clash between career dreams and family schemes."
 ---

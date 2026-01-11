@@ -7,17 +7,17 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone:  
 color: "#"
 ---

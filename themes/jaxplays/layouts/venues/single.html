@@ -38,7 +38,7 @@
           data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
         </a>
-        {{ if .Params.Socials }}
+        {{ if .Params.socials }}
         {{ partial "social-media-links.html" . }}
         {{ end }}
       </div>
@@ -181,7 +181,7 @@
     {{ $relatedReviews := slice }}
 
     {{ range where site.RegularPages "Type" "reviews" }}
-    {{ if eq .Params.Venue $venueName }}
+    {{ if eq .Params.venue $venueName }}
     {{ $relatedReviews = $relatedReviews | append . }}
     <!-- Appending the entire review object if the venue name is found -->
     {{ end }}

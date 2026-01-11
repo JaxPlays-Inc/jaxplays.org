@@ -8,14 +8,14 @@ featured_image: 2020_Romeo+Juliet.jpeg
 featured_image_attr: Players by the Sea
 featured_image_alt: Poster for 2020 production of Romeo + Juliet
 featured_image_caption: Poster for 2020 production of Romeo + Juliet
-Genres: 
+genres: 
 - Play
 - Tragedy
 - Romance
 - Shakespeare
 - Comedy
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 show_details:
 - Writer: "[[w:William Shakespeare]]"
 - Series: "[[w:First Quarto]]"

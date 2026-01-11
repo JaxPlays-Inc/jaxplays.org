@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.ellaromaine.com/
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.ellaromaine.com/
 ---
 Ella, born and raised in St. Augustine. She recently graduated from the University of Florida with her Bachelors of Fine Arts in Acting. She would like to thank mom, dad, O, G, and Ash for their love. Keep supporting live theater!

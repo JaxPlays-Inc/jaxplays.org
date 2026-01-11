@@ -5,7 +5,7 @@ opening_date: 1937-02-27
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Cora: Betty Germaine
 - Tony: Birt Byrd

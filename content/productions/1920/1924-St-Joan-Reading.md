@@ -5,7 +5,7 @@ opening_date: 1924-11-13
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Chaplain: A.A.A. Silber
 - Gentleman: Arthur Hatch

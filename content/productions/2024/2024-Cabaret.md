@@ -1,7 +1,7 @@
 ---
 title: Cabaret
-Theatre: Greenlight Theatre Company
-Venue: John McManus Mainstage Theatre
+theatre: Greenlight Theatre Company
+venue: John McManus Mainstage Theatre
 date: 2024-05-31T16:41:08-04:00
 opening_date: 2024-05-31
 closing_date: 2024-06-02
@@ -17,8 +17,8 @@ featured_image_caption: Poster for 'Cabaret'
 featured_image_attr: Greenlight Theatre Company
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.greenlighttheatreco.com/jaxbeachonstage
+website: 
+tickets: https://www.greenlighttheatreco.com/jaxbeachonstage
 show_details: 
 cast:
   - Sally Bowles: Catherine Tetzlaff
@@ -59,5 +59,5 @@ orchestra:
   - Alto Saxophone: Hailey Wilson
   - Baritone Saxophone: Thain Day
 genres: 
-Description: 
+description: 
 ---

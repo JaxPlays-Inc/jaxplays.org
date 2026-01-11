@@ -5,7 +5,7 @@ opening_date: 1936-05-12
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Beatrice: Evelyn Horsch
 - Bendedick: Oscar Landgren

@@ -5,7 +5,7 @@ opening_date: 2001-04-01
 closing_date: 2001-05-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Ernest: Jonathan Clem

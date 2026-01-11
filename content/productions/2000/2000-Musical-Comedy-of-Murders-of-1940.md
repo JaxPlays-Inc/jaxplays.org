@@ -5,8 +5,8 @@ opening_date: 2000-04-21
 closing_date: 2000-05-06
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Figure: Steve McMahan
 - Helsa Wenzel: Gayle Featheringill

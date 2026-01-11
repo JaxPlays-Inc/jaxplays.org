@@ -1,8 +1,8 @@
 ---
 title: Hairspray
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: 33
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 33
 date: 2024-09-08T21:14:44-04:00
 opening_date: 2025-07-17
 closing_date: 2025-08-10
@@ -29,8 +29,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/hairspray
-Tickets: https://limelight.ludus.com/200459025
+website: https://www.limelight-theatre.org/season-32-shows-1/hairspray
+tickets: https://limelight.ludus.com/200459025
 show_details: 
 cast:
   - Tracy Turnblad: Molly Maresca
@@ -69,5 +69,5 @@ crew:
 - Director: Jonny O'Leary
 orchestra:
 genres: 
-Description: 
+description: 
 ---

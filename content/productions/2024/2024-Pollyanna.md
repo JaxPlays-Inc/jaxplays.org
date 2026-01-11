@@ -1,7 +1,7 @@
 ---
 title: Pollyanna
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
 date: 2024-04-12
 opening_date: 2024-04-12
 closing_date: 2024-04-28
@@ -22,8 +22,8 @@ featured_image_caption: Poster for 'Pollyanna' at Artist Connection Theatre
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: https://artistconnectiontheatre.org/current-show/
-Tickets: https://artistconnectiontheatre.org/tickets
+website: https://artistconnectiontheatre.org/current-show/
+tickets: https://artistconnectiontheatre.org/tickets
 show_details: 
 cast:
 - Pollyanna Whittier: Cynthia Trespalacios
@@ -59,6 +59,6 @@ orchestra:
 genres:
 - Play
 - Drama
-Description: An orphan girl is thrust into the home of a maiden aunt and, in spite of the tribulations that beset her, she manages to find something to be glad about and to bring light into sunless lives.
+description: An orphan girl is thrust into the home of a maiden aunt and, in spite of the tribulations that beset her, she manages to find something to be glad about and to bring light into sunless lives.
 ---
  An orphan girl is thrust into the home of a maiden aunt and, in spite of the tribulations that beset her, she manages to find something to be glad about and to bring light into sunless lives. Pollyanna straightens out the love affairs of her elders and at last finds happiness for herself in the heart of Jimmy. Pollyanna is a glad play and one which is bound to give a better appreciation of people and the world. It reflects the humor, tenderness and humanity that give the story such popularity. - From Concord Theatricals

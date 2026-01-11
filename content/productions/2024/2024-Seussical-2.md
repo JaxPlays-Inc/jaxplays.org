@@ -1,8 +1,8 @@
 ---
 title: Seussical
-Theatre: Blue Fire Theatre
-Venue: Wildlight Elementary School
-Season: 
+theatre: Blue Fire Theatre
+venue: Wildlight Elementary School
+season: 
 date: 2024-06-17T23:46:10-04:00
 opening_date: 2024-11-01
 closing_date: 2024-11-09
@@ -19,8 +19,8 @@ featured_image_caption: "Explore a whimsical world with 'Seussical The Musical,'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://blue-fire-theatre.ticketleap.com/
+website: 
+tickets: https://blue-fire-theatre.ticketleap.com/
 show_details: 
 cast:
 crew:
@@ -30,5 +30,5 @@ crew:
 - Stage Manager: Jennifer Webber
 orchestra:
 genres: 
-Description: 
+description: 
 ---

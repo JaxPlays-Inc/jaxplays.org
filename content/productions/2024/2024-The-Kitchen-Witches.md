@@ -1,7 +1,7 @@
 ---
 title: Kitchen Witches
-Theatre: Limelight Theatre
-Venue: Koger-Gamache Studio Theatre
+theatre: Limelight Theatre
+venue: Koger-Gamache Studio Theatre
 date: 2024-01-11
 opening_date: 2024-01-11
 closing_date: 2024-01-28
@@ -25,16 +25,16 @@ featured_image_caption: Poster for Kitchen Witches
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Playwright: Caroline Smith
 cast:
 crew:
 - Director: Lee Hamby
 orchestra:
-Genres:
+genres:
   - Comedy
-Description: "Two rival TV chefs are forced to co-host a cooking show, stirring up a recipe for hilarious disaster."
+description: "Two rival TV chefs are forced to co-host a cooking show, stirring up a recipe for hilarious disaster."
 ---
 Isobel and Dolly, two diva TV chefs with a bitter history, find themselves unwillingly paired on a new television show. As the spatulas fly and the insults roll, they must learn to share the spotlight while their off-screen drama threatens to boil over. It's a chaotic concoction of laughs, rivalry, and maybe, just maybe, a dash of friendship.

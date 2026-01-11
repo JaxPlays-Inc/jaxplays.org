@@ -5,7 +5,7 @@ opening_date: 1928-11-08
 closing_date: 1928-11-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Lord Grenham: Don Ferrandou
 - Margot Tatham: Dore' Beauchamp-Nobbs

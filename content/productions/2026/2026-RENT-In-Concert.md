@@ -1,9 +1,9 @@
 ---
 title: RENT - In Concert 
 subtitle: 30th Anniversary
-Theatre: ""
-Venue: Florida Theatre
-Season: 
+theatre: ""
+venue: Florida Theatre
+season: 
 date: 2025-08-11T10:17:01-04:00
 opening_date: 2026-03-10
 closing_date: 2026-03-10
@@ -15,14 +15,14 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://amp-worldwide.com/artist/rent-in-concert-on-tour/
-Tickets: https://floridatheatre.showare.com/eventperformances.asp?evt=1487
+website: https://amp-worldwide.com/artist/rent-in-concert-on-tour/
+tickets: https://floridatheatre.showare.com/eventperformances.asp?evt=1487
 show_details: 
 cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---
 An ensemble of stellar vocalists and instrumentalists come together to share the iconic music of *RENT* like never before. This symphonic take on the Jonathon Larson’s beloved musical includes the full score of the show, including favorites like “Seasons of Love,” “La Vie Bohème,” and “Take Me or Leave Me”.
 

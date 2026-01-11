@@ -6,15 +6,15 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2020-01-31
 closing_date: 2020-02-15
-Genres: 
+genres: 
 - Play
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 show_details:
 - Writer: "[[w:Stephen Karam]]"
 - Setting: An apartment in lower [[w:Manhattan]]
 - Subject: Family
-Website: https://www.ameliacommunitytheatre.org/Performances/The-Humans-
+website: https://www.ameliacommunitytheatre.org/Performances/The-Humans-
 showtimes:
 - 2020-01-31 20:00:00
 - 2020-02-01 20:00:00

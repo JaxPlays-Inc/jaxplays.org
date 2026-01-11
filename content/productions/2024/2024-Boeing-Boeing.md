@@ -1,7 +1,7 @@
 ---
 title: Boeing Boeing
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
 date: 2024-05-10T17:42:58
 opening_date: 2024-05-23
 closing_date: 2024-06-16
@@ -42,8 +42,8 @@ featured_image_caption: Poster for 'Boeing Boeing'
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1457&code=WWW&qty_target=0
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1457&code=WWW&qty_target=0
 show_details: 
 cast:
 - Gloria: Natalie Drake

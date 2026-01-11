@@ -6,22 +6,22 @@ featured_image: Ponte-Vedra-Concert-Hall.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: Logo for the Ponte Vedra Concert Hall
-Founded: 
-Address: |
+founded: 
+address: |
     1050 A1A N
     Ponte Vedra Beach, FL 32082
-Latitude: 30.16752898573489
-Longitude: -81.36915960016218
-Socials:
-  Facebook: pvconcerthall
-  Twitter: pvconcerthall
-  Instagram: pvconcerthall
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.pvconcerthall.com/
-Phone: 
-Press: 
+latitude: 30.16752898573489
+longitude: -81.36915960016218
+socials:
+  facebook: pvconcerthall
+  twitter: pvconcerthall
+  instagram: pvconcerthall
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.pvconcerthall.com/
+phone: 
+press: 
 ---
 Situated in Ponte Vedra Beach, Florida, the Ponte Vedra Concert Hall is an exceptional multi-purpose venue managed by the St. Johns County Cultural Events Division. Renowned for hosting a diverse lineup of over 140 performances and events each year, the hall is a sought-after destination for artists.
 

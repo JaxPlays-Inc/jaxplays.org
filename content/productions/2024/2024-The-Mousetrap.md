@@ -1,7 +1,7 @@
 ---
 title: The Mousetrap
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 date: 2024-05-10T17:42:58
 opening_date: 2024-08-09
 closing_date: 2024-08-24
@@ -22,8 +22,8 @@ featured_image_caption: Poster for The Mousetrap
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-The-Mousetrap.pdf
-Website: https://www.ameliacommunitytheatre.org/main-stage
-Tickets: https://app.arts-people.com/index.php?ticketing=act11
+website: https://www.ameliacommunitytheatre.org/main-stage
+tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 cast:
 - Mollie Ralston: CallieAnn Maggart

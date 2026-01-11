@@ -5,7 +5,7 @@ opening_date: 2007-01-12
 closing_date: 2007-01-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Meg Snider: Tracy Olin

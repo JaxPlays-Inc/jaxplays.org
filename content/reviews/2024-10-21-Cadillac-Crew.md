@@ -9,7 +9,7 @@ featured_image_caption: "In Lumen Repertory Theatre's 'Cadillac Crew', the chara
 authors: 
 - Ray Hollister
 production: 2024 Cadillac Crew
-Theatre: Lumen Repertory Theatre
+theatre: Lumen Repertory Theatre
 cast: 
 - Felecia Ewing
 - Cetera Bunch

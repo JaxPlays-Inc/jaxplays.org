@@ -5,7 +5,7 @@ opening_date: 1937-02-27
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Pierrette: Margaret Hunter
 - Pierrot: Will Shapiro

@@ -1,8 +1,8 @@
 ---
 title: West Side Story
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 
 date: 2025-02-22T11:38:19-05:00
 opening_date: 2025-02-22
 closing_date: 2025-03-30
@@ -59,8 +59,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-West-Side-Story.pdf
-Website: 
-Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1483&code=JAXPLAYS
+website: 
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1483&code=JAXPLAYS
 show_details: 
 cast:
   - Tony: Brayden Schilling
@@ -119,7 +119,7 @@ crew:
   - Dance Captain: Holly Lauren Dayton
 orchestra:
 genres: 
-Description: 
-Reviews:
+description: 
+reviews:
 - "Alhambra’s WEST SIDE STORY is anything but Krupke’d! | Folio Weekly": https://folioweekly.com/2025/02/22/alhambras-west-side-story-is-anything-but-krupked/
 ---

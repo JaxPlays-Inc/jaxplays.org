@@ -13,14 +13,14 @@ genres:
 - Musical
 - Comedy
 - Romance
-Theatre: Jacksonville University - Stein College
-Venue: Swisher Theater
-Website: 
-Tickets: 
+theatre: Jacksonville University - Stein College
+venue: Swisher Theater
+website: 
+tickets: 
 show_details: 
 - Book: "[[w:Oscar Hammerstein II]]"
 - Music: "[[w:Richard Rodgers]]"
-Description: A love story that's more than OK! Watch as romance and rivalry come to life in a spirited frontier town.
+description: A love story that's more than OK! Watch as romance and rivalry come to life in a spirited frontier town.
 showtimes:
 - 2008-04-04 19:30:00
 - 2008-04-05 19:30:00

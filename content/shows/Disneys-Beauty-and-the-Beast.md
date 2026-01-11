@@ -14,10 +14,10 @@ show_details:
 - Theatre: 
 - Basis: 
 - Website: 
-Genres:
+genres:
 - Musical
 - Fantasy
 - Romance
-Description: "Step into the enchanting world of 'Beauty and the Beast,' where love transcends appearances and magic transforms hearts."
+description: "Step into the enchanting world of 'Beauty and the Beast,' where love transcends appearances and magic transforms hearts."
 ---
 Join Belle, a spirited and intelligent young woman, as she embarks on a journey to rescue her father and finds herself in the mysterious castle of the Beast. Despite his fearsome appearance, Belle discovers the kind heart and soul within the Beast, who is actually a prince cursed by an enchantress. As their relationship blossoms, the spellbinding tale unfolds with beloved characters like Lumière, Cogsworth, and Mrs. Potts. Featuring unforgettable songs like 'Be Our Guest' and 'Beauty and the Beast,' this timeless musical celebrates the transformative power of love and the beauty that lies within."

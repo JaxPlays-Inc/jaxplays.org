@@ -5,8 +5,8 @@ opening_date: 1968-02-23
 closing_date: 1968-03-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Elliott Nash: Paul Galloway
 - Harlow Edison: Norman Howard

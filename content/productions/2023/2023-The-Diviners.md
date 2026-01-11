@@ -8,17 +8,17 @@ featured_image: 2023_The_Diviners.jpeg
 featured_image_caption: Poster for 2023 production of The Diviners
 featured_image_attr: Limelight Theatre
 program:
-Theatre: Limelight Theatre
-Venue: Matuza Mainstage
-Website: https://web.archive.org/web/20230518165957/https://www.limelight-theatre.org/shows/the-diviners
-Genres: 
+theatre: Limelight Theatre
+venue: Matuza Mainstage
+website: https://web.archive.org/web/20230518165957/https://www.limelight-theatre.org/shows/the-diviners
+genres: 
 - Play
 - Drama
 - Coming-of-age
 - Historical
 show_details:
 - Playwright: Jim Leonard. Jr.
-Description: Set in the depths of the Great Depression, The Diviners explores the magical bond between a troubled young boy and a disillusioned preacher, seeking salvation in a parched, rural town.
+description: Set in the depths of the Great Depression, The Diviners explores the magical bond between a troubled young boy and a disillusioned preacher, seeking salvation in a parched, rural town.
 showtimes:
 - 2023-02-23 19:30:00
 - 2023-02-24 19:30:00

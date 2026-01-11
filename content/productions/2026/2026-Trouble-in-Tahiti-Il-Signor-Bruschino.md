@@ -1,8 +1,8 @@
 ---
 title: "Trouble in Tahiti & Il Signor Bruschino"
-Theatre: Amelia Island Opera
-Venue: Amelia Plantation Chapel
-Season: 5
+theatre: Amelia Island Opera
+venue: Amelia Plantation Chapel
+season: 5
 date: 2025-10-09T19:04:28-04:00
 opening_date: 2026-05-22
 closing_date: 2026-05-22
@@ -14,17 +14,17 @@ featured_image_caption: "'Trouble in Tahiti & Il Signor Bruschino' at Amelia Pla
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.ameliaislandopera.org/tahitibruschino
-Tickets: https://app.arts-people.com/?show=291385 
+website: https://www.ameliaislandopera.org/tahitibruschino
+tickets: https://app.arts-people.com/?show=291385 
 show_details:
   - Music / Composer: "Leonard Bernstein (Trouble in Tahiti); Gioachino Rossini (Il Signor Bruschino)" 
   - Premiere: "1952 (Trouble in Tahiti) / 1813 (Il Signor Bruschino)"  
-Genres:
+genres:
   - Opera
   - Double bill
   - Comedy
   - Dramatic
-Description: "A double-bill pairing Bernstein’s suburban marital drama with Rossini’s zany Italian farce."  
+description: "A double-bill pairing Bernstein’s suburban marital drama with Rossini’s zany Italian farce."  
 cast:
   - Dinah: Victoria Isernia
   - Trio (Trouble in Tahiti): 

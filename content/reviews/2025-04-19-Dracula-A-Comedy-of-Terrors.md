@@ -9,7 +9,7 @@ featured_image_caption: "Rachel Johns as Mina lounges upside down with theatrica
 authors: 
 - Jo El Snyder
 production: "2025 Dracula A Comedy of Terrors"
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
 - Christopher Watson
 - Emily Johns

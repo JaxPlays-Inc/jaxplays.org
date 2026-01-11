@@ -1,6 +1,6 @@
 ---
 title: JaxPlays Brand Guidelines
-Description: Brand guidelines for JaxPlays
+description: Brand guidelines for JaxPlays
 layout: "brand-guidelines"
 date: 2025-03-20T12:12:33-04:00
 ---

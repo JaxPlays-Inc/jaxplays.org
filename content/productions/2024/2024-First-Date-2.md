@@ -1,7 +1,7 @@
 ---
 title: First Date
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 date: 2024-05-10T17:42:58
 opening_date: 2024-06-07
 closing_date: 2024-06-22
@@ -22,8 +22,8 @@ featured_image_caption: Poster for First Date
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-First-Date-2.pdf
-Website: 
-Tickets: https://app.arts-people.com/index.php?ticketing=act11
+website: 
+tickets: https://app.arts-people.com/index.php?ticketing=act11
 show_details: 
 cast:
   - Aaron: Will Wiley
@@ -56,11 +56,11 @@ crew:
   - Costumer & Props: Missy Tremblay
   - Photographer: Karen Bowden
 orchestra:
-Genres:
+genres:
 - Musical
 - Comedy
 - Romance
-Description: "*First Date* is a musical comedy about the unexpected surprises with blind dates."
+description: "*First Date* is a musical comedy about the unexpected surprises with blind dates."
 photos:
 - photo: 2024-First-Date-2-01.webp
   photo_attr:

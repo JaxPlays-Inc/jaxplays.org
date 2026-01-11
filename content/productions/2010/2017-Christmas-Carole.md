@@ -1,8 +1,8 @@
 ---
 title: Christmas Carole
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2017
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2017
 date: 2024-08-05T16:54:50-04:00
 opening_date: 2017-11-22
 closing_date: 2017-12-24
@@ -51,8 +51,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Scrooge: Tod Booth
@@ -92,7 +92,7 @@ crew:
 - Stagehand: Linzy Lauren
 - Properties: Patti Eyler
 - Wardrobe: Julia Fallon
-Press:
+press:
 - "Tod Booth to Star as 'Scrooge' in Bruce Scudder's CHRISTMAS CAROLE at Alhambra | Broadway World": https://www.broadwayworld.com/jacksonville/article/Tod-Booth-to-Star-as-Scrooge-in-Bruce-Scudders-CHRISTMAS-CAROLE-at-Alhambra-20171113
 - "Bah, Humbug | Jacksonville Magazine": https://www.jacksonvillemag.com/2017/11/10/bah-humbug-2/
 ---

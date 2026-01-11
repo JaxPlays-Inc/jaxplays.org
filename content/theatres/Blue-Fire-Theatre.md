@@ -6,15 +6,15 @@ company_type: Community
 featured_image: Blue-Fire-Theatre.webp
 featured_image_alt: "Logo of BlueFire Theatre featuring an artistic depiction of a flame in blue and orange hues, symbolizing vibrant creativity. The logo's font is bold and modern, matching the dynamic energy of the flame."
 featured_image_caption: "Logo for BlueFire Theatre, combining elements of fire and vivid color to represent the theater's energetic and innovative spirit."
-Founded: July 2018
-Address: |
-Socials: 
-  Facebook: bluefiretheatre.org
-  Twitter: bluefiretheatr
-  Instagram: blue_fire_theatre
-  Threads:
-  Website: https://www.bluefiretheatre.org/
-Phone: 19044687706
+founded: July 2018
+address: |
+socials: 
+  facebook: bluefiretheatre.org
+  twitter: bluefiretheatr
+  instagram: blue_fire_theatre
+  threads:
+  website: https://www.bluefiretheatre.org/
+phone: 19044687706
 color: "#65cae8"
 donate: https://www.bluefiretheatre.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

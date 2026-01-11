@@ -1,7 +1,7 @@
 ---
 title: Beware the House on Haunted Hill!
-Theatre: Act II Players
-Venue: Mandarin Community Club
+theatre: Act II Players
+venue: Mandarin Community Club
 date: 2024-04-12
 opening_date: 2024-04-12
 closing_date: 2024-04-21
@@ -20,8 +20,8 @@ featured_image_caption: Poster for 'Beware the House on Haunted Hill!'
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://actiiplayers.org/
-Tickets: https://www.eventbrite.com/cc/beware-the-house-on-haunted-hill-3156329
+website: https://actiiplayers.org/
+tickets: https://www.eventbrite.com/cc/beware-the-house-on-haunted-hill-3156329
 show_details: 
 cast:
 - Wilhelmina Pritchard: Alisa Tillman
@@ -41,13 +41,13 @@ crew:
 
 orchestra:
 # Beware the House on Haunted Hill
-Genres:
+genres:
   - Play
   - Comedy
   - Horror
   - Parody
   - Thriller
   - Farce
-Description: "'Come to the party... if you dare.' The hilarious comedy based on the 1959 Vincent Price film."
+description: "'Come to the party... if you dare.' The hilarious comedy based on the 1959 Vincent Price film."
 ---
 An eccentric millionaire promises six guests a mysterious prize if they can survive the night at the only truly haunted house in the world. Everyone invited has a few skeletons in their closets though, and screwball scares lurk around every corner.

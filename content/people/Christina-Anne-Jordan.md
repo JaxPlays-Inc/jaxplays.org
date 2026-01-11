@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: christinajordan
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  TikTok: christinaajordan
-  YouTube: singinqueen97
-  Website: https://www.christinaannejordan.com/
+socials:
+  facebook: 
+  twitter: 
+  instagram: christinajordan
+  linkedin: 
+  ibdb: 
+  imdb:
+  tiktok: christinaajordan
+  youtube: singinqueen97
+  website: https://www.christinaannejordan.com/
 ---

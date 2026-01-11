@@ -6,14 +6,14 @@ title: The Roommate
 date: 2023-09-08T00:00:00
 opening_date: 2020-02-20
 closing_date: 2020-03-08
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 show_details:
 - Writer: "[[w:Jen Silverman]]"
-Genres: 
+genres: 
 - Play
 - Drama
 - Comedy
-Website: https://limelight-theatre.org/shows/
+website: https://limelight-theatre.org/shows/
 showtimes:
 - 2020-02-20 19:30:00
 - 2020-02-21 19:30:00

@@ -12,13 +12,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---
 Anthony Smith has been acting since middle school, having several roles until graduating. After that, he continued his creative passions by getting degrees in film and marketing. Recently, Anthony got back into community theater, taking on roles and enjoying the experience of singing and acting again.

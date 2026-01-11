@@ -5,7 +5,7 @@ opening_date: 1925-03-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - John Tremayne: Burton Barrs
 - Belinda Tremayne: Elaine I. Minick

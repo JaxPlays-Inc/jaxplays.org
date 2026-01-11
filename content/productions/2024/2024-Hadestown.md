@@ -13,14 +13,14 @@ genres:
 - Musical
 - Fantasy
 - Drama
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Website: 
-Tickets: https://www.fscjartistseries.org/tickets/hadestown
+venue: Moran Theater
+website: 
+tickets: https://www.fscjartistseries.org/tickets/hadestown
 show_details: 
 - Music, Lyrics, and Book: Anaïs Mitchell
-Description: Descend into the underworld with Hadestown, where myth and music meld in a Tony-winning spectacle.
+description: Descend into the underworld with Hadestown, where myth and music meld in a Tony-winning spectacle.
 showtimes:
 - 2024-02-06 19:30:00
 - 2024-02-07 19:30:00
@@ -55,7 +55,7 @@ understudies:
 crew:
 - Director: Rachel Chavkin
 orchestra:
-Reviews: 
+reviews: 
 - "Ride Down(town) to HADESTOWN for a Helluva Show | Folio": https://folioweekly.com/2024/02/07/ride-downtown-to-hadestown-for-a-helluva-show/
 - "Review: HADESTOWN at Jacksonville Center For The Performing Arts | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/Review-HADESTOWN-at-Jacksonville-Center-For-The-Performing-Arts-20240207
 ---

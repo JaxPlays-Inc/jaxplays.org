@@ -5,7 +5,7 @@ opening_date: 1923-11-24
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Jean Robertson: Hazel L'Engle
 - George Robertson: J. B. Lucy

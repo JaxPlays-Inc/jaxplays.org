@@ -5,8 +5,8 @@ opening_date: 1991-06-14
 closing_date: 1991-06-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Tommy Albright: Sam Poarch
 - Jeff Douglas: P. Devlin Mann

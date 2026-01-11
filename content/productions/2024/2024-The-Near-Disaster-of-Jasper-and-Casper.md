@@ -1,7 +1,7 @@
 ---
 title: The Near Disaster of Jasper and Casper
-Theatre: Jason Woods Productions
-Venue: Adele Grage Cultural Center
+theatre: Jason Woods Productions
+venue: Adele Grage Cultural Center
 date: 2024-04-25
 opening_date: 2024-04-25
 closing_date: 2024-06-06
@@ -15,8 +15,8 @@ featured_image_caption: Poster for 'The Near Disaster of Jasper and Casper'
 featured_image_attr: Jason Woods
 featured_image_attr_link: 
 program: https://playbill.com/production/the-near-disaster-of-jasper-casper-off-broadway-theatre-five-theatre-row-2022
-Website: https://www.jasonwoodsproductions.com/jasperandcasper
-Tickets: https://www.tickettailor.com/events/jasonwoodsproductions/1172287?
+website: https://www.jasonwoodsproductions.com/jasperandcasper
+tickets: https://www.tickettailor.com/events/jasonwoodsproductions/1172287?
 show_details: 
 - Playwright: Jason Woods
 cast:
@@ -34,14 +34,14 @@ crew:
 - Lighting Technician: Bryce Cofield
 - Sound Technician: Bryce Cofield
 orchestra:
-Genres:
+genres:
   - Play
   - Fantasy
   - Comedy
   - Family
   - Solo Performance
-Description: "Dive into a fantastical realm where Jasper embarks on a quest filled with magic, mystery, and a whirlwind of characters—all portrayed by the mesmerizing Jason Woods."
-Reviews: 
+description: "Dive into a fantastical realm where Jasper embarks on a quest filled with magic, mystery, and a whirlwind of characters—all portrayed by the mesmerizing Jason Woods."
+reviews: 
 - "The Near Disaster of Jasper & Casper | TheaterScene.net": http://www.theaterscene.net/plays/solo-plays/the-near-disaster-of-jasper-and-casper/christopher-caz/
 - "Off-Broadway Review: THE NEAR DISASTER OF JASPER & CASPER (Theatre Row) | Stage and Cinema": https://stageandcinema.com/2022/09/08/near-disaster-of-jasper-casper/
 - "The Near Disaster of Jasper & Casper | Off Off Online": https://www.offoffonline.com/offoffonline/2022/8/26/the-near-disaster-of-jasper-amp-casper

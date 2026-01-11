@@ -5,8 +5,8 @@ opening_date: 1954-06-02
 closing_date: 1954-06-12
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Adolphe: Adolphe
 - Alfred: Hobson Blackmon

@@ -1,8 +1,8 @@
 ---
 title: "A Christmas Story: The Musical"
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2016
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2016
 date: 2024-07-12T14:50:44-04:00
 opening_date: 2016-11-25
 closing_date: 2016-12-24
@@ -56,8 +56,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://sales.alhambrajax.com/100/index.html
+website: 
+tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 
   - Ralph/Cowboy/Tree Lot Owner/Delivery Man/Voice Of Neighbor: Ethan Paulini
   - Old Man/Santa Claus: Robert Herrle 
@@ -92,7 +92,7 @@ crew:
   - Company Manager: Lisa Valdini Booth
 orchestra:
 genres: 
-Description: Ralphie Parker schemes his way toward getting an official Red Ryder Air Rifle. A leg lamp, pink bunny pajamas, and a freezing flagpole are a few of the distractions that come up.
-Reviews: 
+description: Ralphie Parker schemes his way toward getting an official Red Ryder Air Rifle. A leg lamp, pink bunny pajamas, and a freezing flagpole are a few of the distractions that come up.
+reviews: 
   - "A Christmas Story at The Alhambra | EU Jacksonville / Folio Weekly": https://folioweekly.com/2016/11/27/a-christmas-story/
 ---

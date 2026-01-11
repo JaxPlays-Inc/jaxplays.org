@@ -8,15 +8,15 @@ featured_image: A-Classic-Theatre.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 2005-05-01
-Address: |
+founded: 2005-05-01
+address: |
     PO Box 1122
     99 King St
     St. Augustine, FL 32084
-Socials: 
-  Facebook: AClassicTheatre
-  Instagram:  aclassictheatre
-  Website: https://www.aclassictheatre.org
+socials: 
+  facebook: AClassicTheatre
+  instagram:  aclassictheatre
+  website: https://www.aclassictheatre.org
 color: "#008db6"
 date: 2024-07-02T18:04:27-04:00
 donate: https://www.aclassictheatre.org/donate

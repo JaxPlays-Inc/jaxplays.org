@@ -5,7 +5,7 @@ opening_date: 1931-03-17
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Beret: Birsa Shepard
 - Aslak Tjome: Charleston Kennedy

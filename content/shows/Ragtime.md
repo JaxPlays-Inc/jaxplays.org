@@ -4,7 +4,7 @@ layout: shows
 featured_image: Ragtime.webp
 featured_image_caption: Cover art for the album Ragtime
 featured_image_attr:
-Genres:
+genres:
 - Musical
 - Drama
 - Historical

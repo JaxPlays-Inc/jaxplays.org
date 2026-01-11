@@ -5,8 +5,8 @@ opening_date: 1954-04-21
 closing_date: 1954-05-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Albert Feather: Bob Green
 - Ellen Creed: Jocelyn Brown

@@ -5,8 +5,8 @@ opening_date: 1973-05-04
 closing_date: 1973-05-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Don Baker: Jerry Lucas
 - Jill Tanner: Rena Carney

@@ -15,17 +15,17 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 description: The 5 & Dime tells stories that engage, inspire, entertain, and challenge audiences, nurturing a rich artistic culture in Jacksonville.
-Founded: 2011
-Address: |
+founded: 2011
+address: |
   PO Box 2011
   Jacksonville, FL 32203
 Managing Artistic Director: Bradley Akers
-Socials:
-  Facebook: The5andDime
-  Instagram: the5anddime
-  YouTube: MakingChangeInJax
-  Website: https://www.the5anddime.org
-Press:
+socials:
+  facebook: The5andDime
+  instagram: the5anddime
+  youtube: MakingChangeInJax
+  website: https://www.the5anddime.org
+press:
 - Staging Change at The 5 & Dime Theatre | Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/
 - Jacksonville's 5 & Dime theater group names director, ponders where and when next shows will be | Florida Times-Union: https://www.jacksonville.com/story/entertainment/theater/2021/02/02/jacksonvilles-5-dime-theater-group-names-director-ponders-shows/4337544001/
 date: 2024-07-02T18:02:23-04:00

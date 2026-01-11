@@ -1,7 +1,7 @@
 ---
 title: Morning After Grace
-Theatre: A Classic Theatre
-Venue: The Center for Spiritual Living
+theatre: A Classic Theatre
+venue: The Center for Spiritual Living
 date: 2024-06-15T10:12:32-04:00
 opening_date: 2025-01-10
 closing_date: 2025-01-10
@@ -13,17 +13,17 @@ featured_image_caption: "'Morning After Grace,' an unconventional comedy about l
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2024-2025s-season
-Tickets: https://aclassictheatre.ludus.com/200457758
+website: https://www.aclassictheatre.org/2024-2025s-season
+tickets: https://aclassictheatre.ludus.com/200457758
 show_details: 
   - Playwright: Carey Crim
 cast:
 crew:
 orchestra:
 # Morning After Grace
-Genres:
+genres:
   - Play
   - Comedy
-Description: "Laugh and reflect with 'Morning After Grace,' a humorous and thoughtful play about love, loss and second chances."
+description: "Laugh and reflect with 'Morning After Grace,' a humorous and thoughtful play about love, loss and second chances."
 ---
 Set in a Florida retirement community, 'Morning After Grace' humorously unfolds as Angus and Abigail find themselves unexpectedly entangled after a funeral. Their overnight encounter sparks a series of comedic and heartfelt events that challenge their perceptions of love, loyalty and life. As they navigate the intricacies of relationships and healing, the play captures the essence of finding humor and hope in the later stages of life, offering an insightful look at aging, friendship and starting anew.

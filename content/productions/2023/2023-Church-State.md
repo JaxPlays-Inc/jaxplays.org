@@ -1,7 +1,7 @@
 ---
 title: Church & State
-Theatre: A Classic Theatre
-Venue: The Waterworks
+theatre: A Classic Theatre
+venue: The Waterworks
 date: 2023-10-06
 opening_date: 2023-10-06
 closing_date: 2023-10-15
@@ -18,8 +18,8 @@ featured_image_caption: Poster for Church & State
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.aclassictheatre.org/act-tickets
+website: 
+tickets: https://www.aclassictheatre.org/act-tickets
 show_details: 
 - Playwright: Jason Odell Williams
 cast:
@@ -35,7 +35,7 @@ genres:
 - Drama
 - Comedy
 - Political
-Description: Church & State is a fast-paced dramedy about faith, politics, and “The Twitter.”
+description: Church & State is a fast-paced dramedy about faith, politics, and “The Twitter.”
 ---
 Three days before his re-election, a US Senator has a life-altering crisis of faith which sends the entire campaign into a tailspin. He decides to finally tell the public exactly what’s on his mind, no filter. What could possibly go wrong?
 

@@ -10,7 +10,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 The Baltimore Waltz
-Theatre: The 5 and Dime
+theatre: The 5 and Dime
 cast: 
 - Kristen Walsh
 - A.J. Heekin

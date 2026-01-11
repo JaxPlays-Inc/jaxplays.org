@@ -9,7 +9,7 @@ featured_image_alt: "Actress Brooks Anne Meierdierks portraying Emily Bridges st
 authors:
 - Ray Hollister
 production: 2024 A Small Fire
-Theatre: Lumen Repertory
+theatre: Lumen Repertory
 cast: 
 - Brooks Anne Meierdierks
 - Bill Ratliff

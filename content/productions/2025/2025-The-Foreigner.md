@@ -1,7 +1,7 @@
 ---
 title: The Foreigner
-Theatre: A Classic Theatre
-Venue: The Waterworks
+theatre: A Classic Theatre
+venue: The Waterworks
 date: 2024-06-15T10:12:39-04:00
 opening_date: 2025-05-02
 closing_date: 2025-05-11
@@ -18,17 +18,17 @@ featured_image_caption: "'The Foreigner,' a comedy of misunderstandings and misr
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2024-2025s-season
-Tickets: https://aclassictheatre.ludus.com/200456016
+website: https://www.aclassictheatre.org/2024-2025s-season
+tickets: https://aclassictheatre.ludus.com/200456016
 show_details: 
 cast:
 crew:
 orchestra:
 # The Foreigner
-Genres:
+genres:
   - Play
   - Comedy
   - Farce
-Description: "Laugh out loud with 'The Foreigner,' a hilarious comedy by Larry Shue that turns a simple misunderstanding into a whirlwind of mistaken identities and farcical situations."
+description: "Laugh out loud with 'The Foreigner,' a hilarious comedy by Larry Shue that turns a simple misunderstanding into a whirlwind of mistaken identities and farcical situations."
 ---
 When shy Englishman Charlie Baker finds himself at a rural Georgia fishing lodge, he pretends to be a foreigner who doesn’t understand English to avoid conversation. This ruse leads to a series of comedic misunderstandings as the lodge’s quirky inhabitants reveal their secrets and schemes in his presence. As Charlie becomes an unwitting hero, he discovers his own courage and resourcefulness.

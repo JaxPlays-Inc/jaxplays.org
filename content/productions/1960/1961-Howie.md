@@ -5,8 +5,8 @@ opening_date: 1961-05-26
 closing_date: 1961-06-03
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Edith Simms: Trudi Johnston
 - Walter Simms: Marshall Grauer

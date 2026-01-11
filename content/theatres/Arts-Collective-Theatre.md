@@ -6,18 +6,18 @@ featured_image: Arts-Collective-Theatre.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 2024
-Address: |
+founded: 2024
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: profile.php?id=61566609597488
-  Twitter: 
-  Instagram: artscollectivetheatre
-  Threads:
-  Website: https://artscollectivetheatre.com/
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: profile.php?id=61566609597488
+  twitter: 
+  instagram: artscollectivetheatre
+  threads:
+  website: https://artscollectivetheatre.com/
+phone:  
 color: "#fa18be"
 description: "Arts Collective Theatre, led by Lee Hamby & Julie Harrington, redefines the arts scene by embracing diversity & innovation in storytelling."
 ---

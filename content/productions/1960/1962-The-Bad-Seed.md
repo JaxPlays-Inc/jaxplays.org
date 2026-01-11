@@ -5,8 +5,8 @@ opening_date: 1962-01-12
 closing_date: 1962-01-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Rhoda Penmark: Cathy Perry
 - Col. Kenneth Penmark: William Austill, Jr

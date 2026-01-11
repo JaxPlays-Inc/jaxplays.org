@@ -5,8 +5,8 @@ opening_date: 1996-04-19
 closing_date: 1996-05-05
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Billy: Christopher M. Revenaugh
 - Betty: Catherine Kirk Edwards

@@ -6,17 +6,17 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: lindapurl
-  Instagram: lindapurl
-  LinkedIn: 
-  IBDB: linda-purl-56687
-  IMDb: nm0700909
-  Website: http://www.lindapurl.com/
-  Wikipedia: Linda_Purl
-  YouTube: LindaPurl1
-Press:
+socials:
+  facebook: 
+  twitter: lindapurl
+  instagram: lindapurl
+  linkedin: 
+  ibdb: linda-purl-56687
+  imdb: nm0700909
+  website: http://www.lindapurl.com/
+  wikipedia: Linda_Purl
+  youtube: LindaPurl1
+press:
 - "Need a little Christmas? Linda Purl headlines 'Mame' at Jacksonville's Florida Theatre | The Florida Times-Union": https://www.jacksonville.com/story/entertainment/theater/2024/08/19/linda-purl-leading-staged-reading-of-mame-in-jacksonville/74769533007/
 ---
 Linda was born in Greenwich , Ct. and moved with her family as a child to Japan, where she was raised.  There she trained and worked as an actress from the age of 11 under the awning of Toho Productions and at 15 moved to the US by way of the UK and studies there with LAMDA.

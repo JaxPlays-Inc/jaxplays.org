@@ -1,8 +1,8 @@
 ---
 title: The Wizard of Oz
-Theatre: Orange Park Community Theatre
-Venue: Orange Park Community Theatre
-Season: 
+theatre: Orange Park Community Theatre
+venue: Orange Park Community Theatre
+season: 
 date: 2025-08-05T23:47:05-04:00
 opening_date: 2025-08-08
 closing_date: 2025-08-31
@@ -25,8 +25,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://opct.booktix.com/dept/main/e/TWOZ
+website: 
+tickets: https://opct.booktix.com/dept/main/e/TWOZ
 show_details: 
 cast:
 - Toto: Lady
@@ -83,5 +83,5 @@ cast:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

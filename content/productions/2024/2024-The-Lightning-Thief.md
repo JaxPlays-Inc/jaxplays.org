@@ -1,8 +1,8 @@
 ---
 title: The Lightning Thief
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 2024
+theatre: The Island Theater
+venue: The Island Theater
+season: 2024
 date: 2024-06-15T22:02:21-04:00
 opening_date: 2024-07-26
 closing_date: 2024-07-28
@@ -16,8 +16,8 @@ featured_image_caption: "Dive into the mythical world of 'The Lightning Thief' a
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
   - Percy Jackson: Nick Williams
@@ -39,10 +39,10 @@ cast:
     - MaKenna Harder
 crew:
 orchestra:
-Genres:
+genres:
   - Musical
   - Adventure
   - Fantasy
-Description: "Join a young hero on an epic quest in *The Lightning Thief*, a dynamic musical adaptation of Rick Riordan's bestselling novel that explores themes of identity and destiny."
+description: "Join a young hero on an epic quest in *The Lightning Thief*, a dynamic musical adaptation of Rick Riordan's bestselling novel that explores themes of identity and destiny."
 ---
 *The Lightning Thief* follows Percy Jackson, a teenager who discovers he is the son of Poseidon and has extraordinary powers. Accused of stealing Zeus's lightning bolt, Percy embarks on an adventure across America to find it and restore order among the warring gods. Along the way, he must confront monsters, make alliances, and come to terms with his powers. This musical captivates audiences with its thrilling plot and a rock-infused score that brings Greek mythology into the modern age.

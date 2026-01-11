@@ -5,7 +5,7 @@ opening_date: 1929-12-10
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Colonel Piggott: Albert Nilved
 - Ambulance Driver: Basil Waler, Jr.

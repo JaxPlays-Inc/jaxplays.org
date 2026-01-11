@@ -5,8 +5,8 @@ opening_date: 1953-01-14
 closing_date: 1953-01-24
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Anna Witham: Margaret Ann Diz
 - Annie Jones: Peggy Gift

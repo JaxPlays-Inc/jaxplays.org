@@ -5,7 +5,7 @@ opening_date: 1927-03-15
 closing_date: 1927-03-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Rogers: Bart Nason
 - Mr. Robert Smith: Burton Barrs

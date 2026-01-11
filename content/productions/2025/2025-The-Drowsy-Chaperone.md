@@ -1,8 +1,8 @@
 ---
 title: The Drowsy Chaperone
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: 33
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 33
 date: 2024-09-08T21:14:32-04:00
 opening_date: 2025-02-20
 closing_date: 2025-03-16
@@ -30,8 +30,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.limelight-theatre.org/season-32-shows-1/the-drowsy-chaperone
-Tickets: https://limelight.ludus.com/200458979
+website: https://www.limelight-theatre.org/season-32-shows-1/the-drowsy-chaperone
+tickets: https://limelight.ludus.com/200458979
 show_details: 
 - Music: 
   - "[[w:Lisa Lambert]]"
@@ -83,10 +83,10 @@ crew:
       - Emma "Ruby" Parker
 orchestra:
 # The Drowsy Chaperone
-Genres:
+genres:
   - Musical
   - Comedy
-Description: "Step into a dazzling parody of 1920s musical comedy where a die-hard theatre fan plays his favorite cast album, bringing the madcap show to life in his living room."
+description: "Step into a dazzling parody of 1920s musical comedy where a die-hard theatre fan plays his favorite cast album, bringing the madcap show to life in his living room."
 ---
 *The Drowsy Chaperone* begins as a modern-day musical theatre aficionado, known simply as 'Man in Chair,' seeks solace from his blues by listening to a recording of his favorite 1928 musical comedy. As he shares his insights and historical tidbits, the characters of the show magically appear in his drab apartment, enacting the uproarious tale of a Broadway starlet’s chaotic wedding day. Full of slapstick, mistaken identities, and satirical takes on musical theatre tropes, the musical is both a heartfelt homage and a clever critique of the golden age of Broadway.
 

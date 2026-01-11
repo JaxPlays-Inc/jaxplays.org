@@ -9,7 +9,7 @@ authors:
 - Amber Hollister
 - Ray Hollister
 production: 2025 Southern Fried Funeral
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Peg Pachal
 - Natalie Drake

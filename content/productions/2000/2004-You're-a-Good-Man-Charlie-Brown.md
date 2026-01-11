@@ -7,7 +7,7 @@ opening_date: 2004-06-11
 closing_date: 2004-06-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Charlie Brown: Michael Lipp

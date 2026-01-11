@@ -5,7 +5,7 @@ opening_date: 2006-11-03
 closing_date: 2006-11-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Sister Clarissa: Gayle Featheringill

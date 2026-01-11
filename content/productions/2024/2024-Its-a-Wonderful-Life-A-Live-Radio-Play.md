@@ -1,7 +1,7 @@
 ---
 title: "It's a Wonderful Life: A Live Radio Play"
-Theatre: A Classic Theatre
-Venue: The Waterworks
+theatre: A Classic Theatre
+venue: The Waterworks
 date: 2024-06-15T10:12:30-04:00
 opening_date: 2024-12-06
 closing_date: 2024-12-15
@@ -18,8 +18,8 @@ featured_image_caption: "'It’s A Wonderful Life - A Live Radio Play' runs from
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2024-2025s-season
-Tickets: https://aclassictheatre.ludus.com/200456011
+website: https://www.aclassictheatre.org/2024-2025s-season
+tickets: https://aclassictheatre.ludus.com/200456011
 show_details: 
   - Playwright: Joe Landry
 cast:
@@ -31,10 +31,10 @@ crew:
   - Director: Grace Reed
 orchestra:
 # It's a Wonderful Life: A Live Radio Play
-Genres:
+genres:
   - Play
   - Drama
   - Holiday
-Description: "Step back in time with 'It's a Wonderful Life: A Live Radio Play,' a charming reimagining of the classic film performed as a live 1940s radio broadcast."
+description: "Step back in time with 'It's a Wonderful Life: A Live Radio Play,' a charming reimagining of the classic film performed as a live 1940s radio broadcast."
 ---
 Experience the beloved story of George Bailey as a live 1940s radio broadcast, offering a refreshing break from the tech-centric world we live in. As radio actors bring the tale to life with microphones, live sound effects and period costumes, audiences revisit the poignant journey of George, who discovers the impact of his life on his community after he wishes he had never been born. This unique adaptation offers a nostalgic and heartwarming celebration of the holiday season.

@@ -8,12 +8,12 @@ featured_image: 2019_The_Harvest.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Writer: "[[w:Samuel D. Hunter]]"
-Website: https://www.the5anddime.org/the-harvest
+website: https://www.the5anddime.org/the-harvest
 showtimes:
 - 2019-11-08 20:00:00
 - 2019-11-09 20:00:00

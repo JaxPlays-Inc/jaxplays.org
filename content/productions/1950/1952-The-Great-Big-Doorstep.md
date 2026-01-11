@@ -5,8 +5,8 @@ opening_date: 1952-02-29
 closing_date: 1952-03-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Arthur Crochet: Jimmie Richardson
 - Commodore Crochet: Jay Harder

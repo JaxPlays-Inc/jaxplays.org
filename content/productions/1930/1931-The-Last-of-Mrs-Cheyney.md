@@ -5,7 +5,7 @@ opening_date: 1931-04-24
 closing_date: 1931-04-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Charles: William G. Jeacle
 - George: Ralph W. Cooper, Jr.

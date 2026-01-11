@@ -5,7 +5,7 @@ opening_date: 1927-12-20
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Rhoda:
   - Anne Emmeline Overstreet

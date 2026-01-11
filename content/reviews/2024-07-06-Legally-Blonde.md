@@ -8,7 +8,7 @@ featured_image_attr: Kailin Lake Photography
 authors:
 - Ray Hollister
 production: 2024 Legally Blonde
-Theatre: Amelia Musical Playhouse
+theatre: Amelia Musical Playhouse
 cast: 
   - Olivia Lynch
   - Will Wiley

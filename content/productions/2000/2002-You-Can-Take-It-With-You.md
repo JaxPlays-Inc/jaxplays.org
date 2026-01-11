@@ -5,7 +5,7 @@ opening_date: 2002-03-08
 closing_date: 2002-03-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Penelope Sycamore: Sandra S. Spurney

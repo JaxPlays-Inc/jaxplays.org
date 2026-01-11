@@ -9,11 +9,11 @@ show_details:
   - Lyrics: "[[w:Stephen Sondheim]]"
   - Book: "[[w:Arthur Laurents]]"
   - Basis: "[[w:Gypsy: A Memoir]]"
-Genres:
+genres:
   - Musical
   - Drama
   - Biography
-Description: "Step into the glitz and hardship of showbiz with 'Gypsy,' a gripping tale of ambition, family, and the price of stardom, set in the fading light of vaudeville's golden age."
+description: "Step into the glitz and hardship of showbiz with 'Gypsy,' a gripping tale of ambition, family, and the price of stardom, set in the fading light of vaudeville's golden age."
 ---
 As vaudeville dies, Rose pushes her daughters into the world of burlesque and showbiz. But at what cost? Gypsy chronicles the journey of the ultimate show business mother, Mama Rose, and her dreams of stardom for her daughters. With iconic songs like 'Everything's Coming Up Roses' and 'Let Me Entertain You,' this musical unpacks the complexities of ambition, family dynamics, and the sacrifices made in the pursuit of fame. It's a compelling narrative that explores the blurred lines between love, obsession, and the drive to be in the spotlight.
 

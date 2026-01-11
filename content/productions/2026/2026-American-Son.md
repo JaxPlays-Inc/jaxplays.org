@@ -1,8 +1,8 @@
 ---
 title: American Son
-Theatre: The 5 & Dime
-Venue: The Florida Ballet
-Season: 2026
+theatre: The 5 & Dime
+venue: The Florida Ballet
+season: 2026
 date: 2025-10-27T17:07:14-04:00
 opening_date: 2026-07-31
 closing_date: 2026-08-08
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://the5anddime.org/s2026/american-son/
-Tickets: 
+website: https://the5anddime.org/s2026/american-son/
+tickets: 
 show_details: 
 - Playwright: "[[w:Christopher Demos-Brown]]"
 cast:
@@ -29,7 +29,7 @@ crew:
 - Director: Rhodie Jackson
 orchestra:
 genres: 
-Description: "There’s been an incident."
+description: "There’s been an incident."
 ---
 One night. One family. One broken system. A searing drama where personal anguish and systemic injustice collide when a Black teenager goes missing.
 

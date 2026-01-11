@@ -1,8 +1,8 @@
 ---
 title: "Dog Man: The Musical"
-Theatre: TheaterWorksUSA
-Venue: Florida Theatre
-Season: 
+theatre: TheaterWorksUSA
+venue: Florida Theatre
+season: 
 date: 2025-04-14T17:34:35-04:00
 opening_date: 2025-04-13
 closing_date: 2025-04-14
@@ -15,8 +15,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: https://twusa.org/dog-man-24-25/
-Tickets: https://www.floridatheatre.com/events/detail/dog-man
+website: https://twusa.org/dog-man-24-25/
+tickets: https://www.floridatheatre.com/events/detail/dog-man
 show_details: 
 - Book: Kevin Del Aguila
 - Music: Brad Alexander
@@ -37,7 +37,7 @@ understudies:
 - George, Harold: Raheem Osiris Fielder-Bey
 - Flippy, Li'l Petey: Natalie Lilavois Yusty
 genres: 
-Description: 
+description: 
 ---
 *Dog Man: The Musical* is a hilarious new production based on the worldwide bestselling series from Dav Pilkey, the creator of Captain Underpants. Best buds George and Harold have been creating comics for years, but now that they’re in 5th grade, they figure it's time to level up and write a musical based on their favorite character, Dog Man, the crime-biting sensation who is part dog, part man, and ALL HERO!!
 

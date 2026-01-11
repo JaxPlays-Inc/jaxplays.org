@@ -8,7 +8,7 @@ featured_image_alt: "Photo of the cast of 'Just Desserts: A Musical Bake-Off' at
 authors:
 - Ray Hollister
 production: '2023 Just Desserts A Musical Bake Off'
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast: 
 - Aly Blakewell
 - Rachel Johns

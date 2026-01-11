@@ -1,7 +1,7 @@
 ---
 title: A Raisin in the Sun
-Theatre: Reaching Up Productions
-Venue: Zeke Bryant Auditorium
+theatre: Reaching Up Productions
+venue: Zeke Bryant Auditorium
 date: 2024-04-12
 opening_date: 2024-04-12
 closing_date: 2024-04-13
@@ -14,8 +14,8 @@ featured_image_caption: Poster for 'A Raisin in the Sun'
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-A-Raisin-in-the-Sun.pdf
-Website: https://reachingupproductions.org/
-Tickets: https://reachingupproductions.org/ols/categories/ticket
+website: https://reachingupproductions.org/
+tickets: https://reachingupproductions.org/ols/categories/ticket
 show_details: 
 cast:
 - Lena Younger: Breterrica White
@@ -34,9 +34,9 @@ crew:
 - Set Designer: Robyn Walker
 - Scenic Designer: Robert Travis
 orchestra:
-Genres:
+genres:
   - Drama
-Description: "Lorraine Hansberry's groundbreaking drama explores the dreams and struggles of the Younger family in 1950s Chicago."
+description: "Lorraine Hansberry's groundbreaking drama explores the dreams and struggles of the Younger family in 1950s Chicago."
 photos:
 - photo: 2024-A-Raisin-in-the-Sun-Cast.webp
   photo_attr: 

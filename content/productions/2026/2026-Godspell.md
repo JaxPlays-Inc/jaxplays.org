@@ -1,8 +1,8 @@
 ---
 title: Godspell
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: null
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: null
 date: '2026-01-04T22:09:17-05:00'
 opening_date: '2026-03-26'
 closing_date: '2026-04-19'
@@ -30,15 +30,15 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: null
-Website: https://limelight-theatre.org/productions/godspell/
-Tickets: https://limelight.ludus.com/index.php?show_id=200477924
+website: https://limelight-theatre.org/productions/godspell/
+tickets: https://limelight.ludus.com/index.php?show_id=200477924
 cast: []
 crew:
 - Director: Missy Schmotzer
 orchestra: []
 show_details: []
-Genres: []
-Description: null
+genres: []
+description: null
 source_urls:
 - https://limelight-theatre.org/productions/godspell/
 ---

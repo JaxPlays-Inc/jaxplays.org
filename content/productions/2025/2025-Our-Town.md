@@ -1,8 +1,8 @@
 ---
 title: Our Town
-Theatre: Limelight Theatre
-Venue: Inez McDonald Mainstage
-Season: 34
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 34
 date: '2025-12-07T16:37:29-05:00'
 opening_date: '2025-10-23'
 closing_date: '2025-11-09'
@@ -26,8 +26,8 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: null
-Website: https://limelight-theatre.org/productions/our-town/
-Tickets: https://limelight.ludus.com/index.php?show_id=200477908
+website: https://limelight-theatre.org/productions/our-town/
+tickets: https://limelight.ludus.com/index.php?show_id=200477908
 cast:
 - Stage Manager: Emma Begley
 - Emily Webb: Kaylee Byers
@@ -80,8 +80,8 @@ crew:
 - Production Manager: Ashley Taylor
 orchestra: []
 show_details: []
-Genres: []
-Description: null
+genres: []
+description: null
 source_urls:
 - https://limelight-theatre.org/productions/our-town/
 understudies:

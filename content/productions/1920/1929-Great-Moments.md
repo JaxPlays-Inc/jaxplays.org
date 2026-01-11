@@ -5,7 +5,7 @@ opening_date: 1929-05-15
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - He: Claude Sims, Jr.
 - Celeste: Emily Kennard

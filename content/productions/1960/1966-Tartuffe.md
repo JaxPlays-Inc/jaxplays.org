@@ -5,8 +5,8 @@ opening_date: 1966-04-08
 closing_date: 1966-04-16
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Madame Pernelle: Elise Hallowes
 - Elmire: Evelyn Hughes

@@ -5,8 +5,8 @@ opening_date: 1946-01-18
 closing_date: 1946-01-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Alexander (Sandy) Lord: Milton Rehberg
 - C.K. Dexter Haven: Frank Davis

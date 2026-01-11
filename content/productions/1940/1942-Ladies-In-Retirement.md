@@ -5,8 +5,8 @@ opening_date: 1942-01-20
 closing_date: 1942-01-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Albert Feather: E.S. Beauchamp-Nobbs
 - Emily Creed: Eleonor Edwards

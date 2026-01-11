@@ -9,7 +9,7 @@ featured_image_alt: "A group of actors in school uniforms stands together on sta
 authors: 
 - Ray Hollister
 production: 2025 Ride the Cyclone
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 cast: 
 -  Austin Welles
 -  Sadie Sims

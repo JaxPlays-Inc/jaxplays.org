@@ -5,8 +5,8 @@ opening_date: 1995-03-03
 closing_date: 1995-03-18
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Edith: Jennifer Rogers
 - Ruth: Margaret Kaler Reynolds

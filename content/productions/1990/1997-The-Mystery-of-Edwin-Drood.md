@@ -5,8 +5,8 @@ opening_date: 1997-06-06
 closing_date: 1997-06-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - John Jasper: Richard Cunningham
 - Edwin Drood: Cecilia Cristol

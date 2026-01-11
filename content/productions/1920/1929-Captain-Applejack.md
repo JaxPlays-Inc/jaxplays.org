@@ -5,7 +5,7 @@ opening_date: 1929-04-09
 closing_date: 1929-04-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Ambrose Applejohn: E.S. Beauchamp-Nobbs
 - Anna Valeska: Marguerite Chiasson

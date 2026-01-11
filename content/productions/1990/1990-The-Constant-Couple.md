@@ -5,8 +5,8 @@ opening_date: 1990-03-30
 closing_date: 1990-04-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Vizard: Roger Hatfield
 - Angelica: Lorena Rogers
@@ -65,6 +65,6 @@ crew:
   - Jess Hughes
   - Karl Rogers
 orchestra:
-Reviews:
+reviews:
 - Theatre Jacksonville Presents 'The Constant Couple': /media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg
 ---

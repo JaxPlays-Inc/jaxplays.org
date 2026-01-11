@@ -1,8 +1,8 @@
 ---
 title: Mamma Mia!
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
+venue: Moran Theater
 date: 2024-05-22T12:01:08-04:00
 opening_date: 2025-01-07
 closing_date: 2025-01-12
@@ -21,8 +21,8 @@ featured_image_caption: "Graphic for 'Mamma Mia!'"
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.fscjartistseries.org/tickets/mamma-mia
-Tickets: https://www.fscjartistseries.org/tickets/mamma-mia
+website: https://www.fscjartistseries.org/tickets/mamma-mia
+tickets: https://www.fscjartistseries.org/tickets/mamma-mia
 cast:
   - Donna Sheridan: Christine Sherrill
   - Sophie Sheridan: Alisa Melendez
@@ -106,7 +106,7 @@ understudies:
   - Bill: Dorian Quinn
 crew:
 orchestra:
-Reviews:
+reviews:
 - "A Super MAMMA MIA! Troupe Downtown | Folio Weekly": https://folioweekly.com/2025/01/08/a-super-mamma-mia-troupe-downtown/
 ---
 

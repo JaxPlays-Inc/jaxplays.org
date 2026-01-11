@@ -5,8 +5,8 @@ opening_date: 1950-11-17
 closing_date: 1950-11-25
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Addie Cromwell Hampton: Jewett Ashley
 - Beulah: Jeanne Strickland

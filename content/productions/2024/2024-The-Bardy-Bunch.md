@@ -1,8 +1,8 @@
 ---
 title: The Bardy Bunch
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 11
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 11
 date: 2024-06-15T13:49:19-04:00
 opening_date: 2024-04-11
 closing_date: 2024-04-21
@@ -21,8 +21,8 @@ featured_image_caption: "Experience the quirky clash in 'The Bardy Bunch' at Ame
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Book: Stephen Garvy
 - Lyrics: Logan Medland
@@ -31,10 +31,10 @@ cast:
 crew:
 orchestra:
 # The Bardy Bunch
-Genres:
+genres:
   - Musical
   - Comedy
   - Parody
-Description: "Step into a groovy, musical mash-up in 'The Bardy Bunch,' where two iconic television families from the 1970s are thrown into the Shakespearean era with uproarious results."
+description: "Step into a groovy, musical mash-up in 'The Bardy Bunch,' where two iconic television families from the 1970s are thrown into the Shakespearean era with uproarious results."
 ---
 *The Bardy Bunch* is a parody that cleverly combines the family dynamics of the Brady Bunch and the Partridge Family with the dramatic intrigue of Shakespearean literature. Set in the colorful 1970s, this musical comedy imagines a rivalry between the two families as they navigate misunderstandings, romantic entanglements, and musical numbers, all while sprinkled with references to Shakespeare’s most famous plays. Filled with catchy tunes, witty dialogue and classic 70s flair, this show offers a delightful escape into a world where sitcom meets sonnet.

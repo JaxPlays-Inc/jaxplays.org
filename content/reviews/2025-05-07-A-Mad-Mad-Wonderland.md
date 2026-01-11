@@ -11,7 +11,7 @@ authors:
 - Ray Hollister
 show_reading_time: true
 production: 
-Theatre: Jason Woods Productions
+theatre: Jason Woods Productions
 cast: 
 - Jason Woods
 description: "Award-winning performer Jason Woods transforms Lewis Carroll’s world in 'A Mad, Mad Wonderland!', a whirlwind one-man show packed with pop culture flair, razor-sharp character work and theatrical magic — all in just 40 minutes."

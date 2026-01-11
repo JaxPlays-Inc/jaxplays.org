@@ -7,11 +7,11 @@ featured_image_attr:
 show_details:
   - Playwright: "[[w:Neil Simon]]"
   - Premiere: "1972, Broadhurst Theatre, New York City"
-Genres:
+genres:
   - Play
   - Comedy
   - Classic
-Description: "Two aging vaudeville comedians reunite for a TV special, reigniting their old rivalry in a witty and heartfelt exploration of friendship, ego and show business."
+description: "Two aging vaudeville comedians reunite for a TV special, reigniting their old rivalry in a witty and heartfelt exploration of friendship, ego and show business."
 ---
 *The Sunshine Boys* follows the cantankerous vaudeville duo Willie Clark and Al Lewis—once a famous comedy team, now estranged after years of grudges and miscommunication. When a television special reunites them for one last performance, their decades-old feud reignites with hilarious and heartfelt results.  
 

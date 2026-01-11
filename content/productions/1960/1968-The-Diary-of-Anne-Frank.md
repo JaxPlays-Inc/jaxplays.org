@@ -5,8 +5,8 @@ opening_date: 1968-05-17
 closing_date: 1968-06-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Mr. Frank: Robert Niemyer
 - Miep: Diana Coble

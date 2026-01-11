@@ -6,12 +6,12 @@ featured_image_attr: Karen Almond
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: maestrochambers
-  Twitter: muscle_maestro
-  Instagram: muscle.maestro
-  LinkedIn: keithchambers
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: maestrochambers
+  twitter: muscle_maestro
+  instagram: muscle.maestro
+  linkedin: keithchambers
+  ibdb: 
+  imdb:
+  website: 
 ---

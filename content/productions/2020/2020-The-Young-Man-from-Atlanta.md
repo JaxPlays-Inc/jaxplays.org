@@ -7,16 +7,16 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-01-16
 closing_date: 2020-02-09
 featured_image:
-Genres: 
+genres: 
 - Play
 - Drama
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 show_details: 
 - Writer: "[[w:Horton Foote]]"
 - Setting: Spring 1950. [[w:Houston, Texas]]
 - Subject: Two parents attempt to cope with the death and homosexuality of their only son
-Website: https://limelight-theatre.org/shows/
-Tickets: https://web.ovationtix.com/trs/pr/1010740
+website: https://limelight-theatre.org/shows/
+tickets: https://web.ovationtix.com/trs/pr/1010740
 showtimes:
 - 2020-01-16 19:30:00
 - 2020-01-17 19:30:00
@@ -50,7 +50,7 @@ cast:
   - Michael Beaman
 crew:
 - Director: Mike Beaman
-Reviews:
+reviews:
 - St. Augustine Record - Limelight drama presents realistic view of grief recovery: https://www.staugustine.com/entertainment/20200117/limelight-drama-presents-realistic-view-of-grief-recovery
 ---
 *The Young Man from Atlanta* is a play written by Horton Foote that deals with the themes of grief, family, and homosexuality. The play follows the story of two parents as they try to come to terms with the death of their only son and his secret life. 

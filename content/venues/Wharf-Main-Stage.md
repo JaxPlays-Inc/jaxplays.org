@@ -6,17 +6,17 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Address: |
+founded: 
+address: |
   101 Centre St
   Fernandina Beach, FL 32034  
-Latitude: 30.67139149487561 
-Longitude: -81.46466074537626
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone:  
+latitude: 30.67139149487561 
+longitude: -81.46466074537626
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone:  
 ---

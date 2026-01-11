@@ -6,7 +6,7 @@ closing_date:
 layout: productions
 show_details:
 - Playwright: Leo Finney
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Mr. Mason: George Parkhill
 - Beth: Gladys Bennett

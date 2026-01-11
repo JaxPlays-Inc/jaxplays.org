@@ -1,7 +1,7 @@
 ---
 title: Southern Fried Nuptials
-Theatre: St. Marys Little Theatre
-Venue: Theater by the Trax
+theatre: St. Marys Little Theatre
+venue: Theater by the Trax
 date: 2024-06-12T23:44:23-04:00
 opening_date: 2024-05-17
 closing_date: 2024-05-26
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: Designed by Vicki Wyttenbach
 featured_image_attr_link: 
 program: 
-Website: http://www.stmaryslittletheatre.com
-Tickets: https://our.show/southernfried
+website: http://www.stmaryslittletheatre.com
+tickets: https://our.show/southernfried
 show_details: 
 cast:
 - Harlene Frye: Debra Parsons
@@ -61,8 +61,8 @@ orchestra:
 genres:
 - Play
 - Comedy
-Description: Everybody knows that families in the South are just a little bit different. If you’re looking for a great escape from everyday stress, come see this rollicking comedy.
-Press:
+description: Everybody knows that families in the South are just a little bit different. If you’re looking for a great escape from everyday stress, come see this rollicking comedy.
+press:
 - "Southern ‘Fried’ entertainment returns to St. Marys | Georgia Tribune": https://www.tribune-georgian.com/local-news-newsletter/southern-fried-entertainment-returns-st-marys
 ---
  Think magnolia blossoms and sweet tea peppered with a lot of family drama and tons of goofy moments. It's just like walking into your Mama’s house (if you’re Southern). Whether Yankee or Southern by the grace of God, you'll love *Southern Fried Nuptials*.

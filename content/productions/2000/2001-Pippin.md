@@ -5,7 +5,7 @@ opening_date: 2001-06-01
 closing_date: 2001-07-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Pippin: Josh Goltiao

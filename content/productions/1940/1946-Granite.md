@@ -5,8 +5,8 @@ opening_date: 1946-04-05
 closing_date: 1946-04-12
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - A Clergyman: Dean Aldrich
 - A Nameless Man: Seth Teasdale

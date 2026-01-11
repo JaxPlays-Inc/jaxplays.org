@@ -6,7 +6,7 @@ approx_date: year
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Lord Arthur Dilling: Charles Murchison
 - George: Frank H. Elmore, Jr.

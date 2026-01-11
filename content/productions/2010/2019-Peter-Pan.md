@@ -1,8 +1,8 @@
 ---
 title: Peter Pan
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
-Season: 
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
+season: 
 date: 2024-09-17T16:54:28-04:00
 opening_date: 2019-02-09
 closing_date: 2019-02-10
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://web.archive.org/web/20200219124812/https://www.theatrejax.com/peter-pan
-Tickets: 
+website: https://web.archive.org/web/20200219124812/https://www.theatrejax.com/peter-pan
+tickets: 
 show_details: 
 - Music: Jason Woods
 - Lyrics: Jason Woods
@@ -68,8 +68,8 @@ crew:
 - Director: Jason Woods
 orchestra:
 genres: 
-Description: "This is NOT the PETER PAN you think it is..."
-Press: 
+description: "This is NOT the PETER PAN you think it is..."
+press: 
 - "Not Another Happy Ending: Jason Woods Presents 'Peter Pan' | Folio Weekly February 6, 2019 pg. 12-13": https://issuu.com/folioweekly/docs/folioweekly_190206_
 ---
 A NEW adaptation of Peter Pan with original music and songs, written and directed by Jason Woods.

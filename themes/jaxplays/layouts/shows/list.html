@@ -51,7 +51,7 @@
           {{ if eq .Title $showTitle }}
             {{ if isset .Params "opening_date" }}
               {{ $openingDate := time .Params.opening_date }}
-              <li><a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.Theatre }}</a></li>
+              <li><a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.theatre }}</a></li>
             {{ else }}
               <li>{{ .Title }} - Date not available</li>
             {{ end }}
@@ -63,7 +63,7 @@
           {{ if eq .Title $showTitle }}
              {{ if isset .Params "opening_date" }}
                 {{ $openingDate := time .Params.opening_date }}
-                - <a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.Theatre }}</a>
+                - <a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.theatre }}</a>
              {{ else }}
                 - Date not available
              {{ end }}

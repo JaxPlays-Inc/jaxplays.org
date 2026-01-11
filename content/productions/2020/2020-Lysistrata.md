@@ -11,15 +11,15 @@ program: 2020_Lysistrata.pdf
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Writer: "[[w:Aristophanes]]"
-Genres: 
+genres: 
 - Play
 - Comedy
 - Satire
 - Ancient Greek Theatre
-Website: https://www.the5anddime.org/lysistrata
+website: https://www.the5anddime.org/lysistrata
 showtimes:
 - 2020-02-21 20:00:00
 - 2020-02-22 20:00:00

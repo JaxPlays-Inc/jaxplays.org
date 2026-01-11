@@ -5,7 +5,7 @@ opening_date: 1924-02-25
 closing_date:
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 cast:
 - Donor: Carl Bohenberger
 - Io: Charles Cruikshank

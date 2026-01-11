@@ -8,7 +8,7 @@ featured_image_alt: "Kristi Parker Byers, as Nora, stands centered in an elegant
 authors:
 - Amber Hollister
 production: 2024 A Dolls House Part 2
-Theatre: Limelight Theatre
+theatre: Limelight Theatre
 cast: 
 - Kristi Parker Byers
 - Susan Nowell 

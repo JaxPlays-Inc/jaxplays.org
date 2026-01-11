@@ -5,8 +5,8 @@ opening_date: 1945-10-19
 closing_date: 1945-10-26
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Charles: E.S. Beauchamp-Nobbs
 - Doctor Bradman: Richard Catherwood

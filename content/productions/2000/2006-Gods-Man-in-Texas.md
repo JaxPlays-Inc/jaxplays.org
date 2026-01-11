@@ -5,7 +5,7 @@ opening_date: 2006-11-13
 closing_date: 2006-01-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Dr. Jeremiah 'Jerry' Mears: Kenny Logsdon

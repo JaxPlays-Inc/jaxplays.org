@@ -43,7 +43,7 @@
         {{ else }}
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
         {{ end }}
-        {{ if .Params.Socials }}
+        {{ if .Params.socials }}
         {{ partial "social-media-links.html" . }}
         {{ end }}
       </div>
@@ -164,10 +164,10 @@
                 {{ end }}
               </div>
 
-              <div class="overflow-hidden nowrap">{{ $details.production.Params.Theatre }}</div>
+              <div class="overflow-hidden nowrap">{{ $details.production.Params.theatre }}</div>
               <div>
                 <!-- Venues -->
-                {{ $venues := $details.production.Params.Venue }} <!-- Get the venue(s) -->
+                {{ $venues := $details.production.Params.venue }} <!-- Get the venue(s) -->
                 {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
                 {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
                 {{ end }}

@@ -5,7 +5,7 @@ opening_date: 2013-08-23
 closing_date: 2013-09-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 showtimes:
 - 2013-08-23 19:30:00
@@ -40,6 +40,6 @@ cast:
 crew:
 - Director: Laura Rippel
 orchestra:
-Press:
+press:
 - "'As You Like It' On Stage At Theatre Jax": https://news.wjct.org/arts-culture/2013-08-31/as-you-like-it-on-stage-at-theatre-jax
 ---

@@ -10,12 +10,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: zach.rivera2
-  Twitter: 
-  Instagram: zachriv
-  LinkedIn: zachary-r-68200b135
-  IBDB: 
-  IMDb:
-  Website: https://www.zachjrivera.com/
+socials:
+  facebook: zach.rivera2
+  twitter: 
+  instagram: zachriv
+  linkedin: zachary-r-68200b135
+  ibdb: 
+  imdb:
+  website: https://www.zachjrivera.com/
 ---

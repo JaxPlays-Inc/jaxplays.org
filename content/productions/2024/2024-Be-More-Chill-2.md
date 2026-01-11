@@ -1,8 +1,8 @@
 ---
 title: Be More Chill
-Theatre: The Island Theater
-Venue: The Island Theater
-Season: 
+theatre: The Island Theater
+venue: The Island Theater
+season: 
 date: 2024-06-15T15:21:11-04:00
 opening_date: 2024-06-15
 closing_date: 2024-06-23
@@ -20,8 +20,8 @@ featured_image_caption: "Dive into the digital frenzy of 'Be More Chill' at The 
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
   - Jeremy:
@@ -67,5 +67,5 @@ ensemble:
 crew:
 orchestra:
 genres: 
-Description: 
+description: 
 ---

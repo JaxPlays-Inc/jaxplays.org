@@ -8,19 +8,19 @@ featured_image: 2023_The_Prom.jpg
 featured_image_caption: Poster for The Prom (2023)
 featured_image_attr: Greenlight Theatre Company
 program:
-Genres:
+genres:
 - Musical
 - Comedy
 - Drama
-Theatre: Greenlight Theatre Company
-Venue: Grace Darling Studio Theatre
+theatre: Greenlight Theatre Company
+venue: Grace Darling Studio Theatre
 show_details:
 - Music: "[[w:Matthew Sklar]]"
 - Lyrics: "[[w:Chad Beguelin]]"
 - Book: 
   - Bob Martin
   - Chad Beguelin
-Tickets: https://www.eventbrite.com/o/greenlight-theatre-company-50485732523
+tickets: https://www.eventbrite.com/o/greenlight-theatre-company-50485732523
 showtimes:
 - 2023-06-09 19:00:00
 - 2023-06-10 19:00:00
@@ -67,7 +67,7 @@ understudies:
 - Mrs. Greene: Lisa Fleming
 crew:
 orchestra:
-Press:
+press:
 - "'The Prom' musical begins next week": https://www.news4jax.com/video/morning-show/2023/06/03/the-prom-musical-begins-next-week/
 ---
 *The Prom* tells the story of a high school student in Indiana who wants to take her girlfriend to the prom. When the school board cancels the prom rather than allow two girls to attend together, a group of fading Broadway actors hears about the situation and sees an opportunity to drum up some positive press for themselves. They descend upon the small town, with often hilarious and heartwarming results.

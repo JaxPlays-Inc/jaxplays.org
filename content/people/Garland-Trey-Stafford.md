@@ -10,12 +10,12 @@ featured_image_attr: Karen Bowden
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: garlandestafford
-  Twitter: 
-  Instagram: garlandestafford
-  LinkedIn: garlandstafford
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: garlandestafford
+  twitter: 
+  instagram: garlandestafford
+  linkedin: garlandstafford
+  ibdb: 
+  imdb:
+  website: 
 ---

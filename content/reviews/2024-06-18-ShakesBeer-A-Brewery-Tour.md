@@ -11,7 +11,7 @@ featured_image_attr_link: https://www.jaxheadshots.co/
 authors:
 - Ray Hollister
 production: 2024 ShakesBeer A Brewery Tour
-Theatre: Lumen Repertory Theatre
+theatre: Lumen Repertory Theatre
 cast: 
 description: "Lumen Repertory Theatre's ShakesBeer: A Brewery Tour delivers a boozy, interactive Shakespeare experience blending theatre, game show antics and craft brews for a night of laughter and fun."
 ---

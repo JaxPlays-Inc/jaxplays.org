@@ -5,8 +5,8 @@ opening_date: 1957-05-22
 closing_date: 1957-06-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Narrator: Jack Harrell
 - T. John Blessington: Harry Richard

@@ -5,7 +5,7 @@ opening_date: 2006-03-03
 closing_date: 2006-03-18
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Director: Amy Johnson O'Connor

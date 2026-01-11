@@ -1,8 +1,8 @@
 ---
 title: The Best Christmas Pageant Ever
-Theatre: River City Theatre
-Venue: Betsy Lovett Hall
-Season: 
+theatre: River City Theatre
+venue: Betsy Lovett Hall
+season: 
 date: 2025-12-16T20:54:25-05:00
 opening_date: 2025-12-10
 closing_date: 2025-12-14
@@ -20,8 +20,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Best-Christmas-Pageant-Ever.pdf
-Website: 
-Tickets: https://www.rivercitytheatre.com/purchasetickets
+website: 
+tickets: https://www.rivercitytheatre.com/purchasetickets
 show_details: 
 cast:
   - Grace Bradley: Windy Taylor
@@ -73,11 +73,11 @@ crew:
 
 show_details: 
   - Playwright: "[[w:Barbara Robinson]]"
-Genres:
+genres:
   - Play
   - Comedy
   - Holiday
-Description: "A small-town Christmas pageant is turned upside down when the notoriously unruly Herdman kids take over the Nativity, revealing unexpected grace and sincerity."
+description: "A small-town Christmas pageant is turned upside down when the notoriously unruly Herdman kids take over the Nativity, revealing unexpected grace and sincerity."
 ---
 *The Best Christmas Pageant Ever* centers on a church Christmas pageant thrown into chaos when the Herdman siblings — known as the “worst kids in the history of the world” — are cast in all the major roles. As their wild behavior shocks the community, the familiar Nativity story is seen through fresh, unsentimental eyes. What begins as disaster slowly becomes something heartfelt and honest, reminding the town why the story matters in the first place.
 

@@ -6,12 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: katkincaidmusic
-  Twitter: 
-  Instagram: katkincaidmusic
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: https://www.katherinekincaid.com/
+socials:
+  facebook: katkincaidmusic
+  twitter: 
+  instagram: katkincaidmusic
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.katherinekincaid.com/
 ---

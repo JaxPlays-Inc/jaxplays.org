@@ -1,7 +1,7 @@
 ---
 title: Vanya and Sonia and Masha and Spike
-Theatre: Amelia Community Theatre
-Venue: ACT Main Stage
+theatre: Amelia Community Theatre
+venue: ACT Main Stage
 date: 2024-04-12
 opening_date: 2024-04-12
 closing_date: 2024-04-27
@@ -22,10 +22,10 @@ featured_image_caption: Poster for Vanya and Sonia and Masha and Spike
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-Vanya-and-Sonia-and-Masha-and-Spike.pdf
-Website: 
-Tickets: https://app.arts-people.com/index.php?actions=19&p=53
+website: 
+tickets: https://app.arts-people.com/index.php?actions=19&p=53
 show_details: 
-Playwright: "[[w:Christopher Durang]]"
+playwright: "[[w:Christopher Durang]]"
 cast:
   - Vanya: Daniel Starling
   - Sonia: Renèe LaCroix
@@ -62,11 +62,11 @@ crew:
   - Properties: Peggy Strickland
   - Photographer: Karen Bowden
 orchestra:
-Genres:
+genres:
 - Play
 - Comedy
 - Drama
-Description: "Chaos, comedy, and family drama collide in a madcap reunion filled with sibling rivalry, prophetic housekeepers, and costume parties."
+description: "Chaos, comedy, and family drama collide in a madcap reunion filled with sibling rivalry, prophetic housekeepers, and costume parties."
 ---
 {{< figure src="/media/posters/2024-Vanya-and-Sonia-and-Masha-and-Spike-02.webp" alt="" caption="" attr=""  attr_link="" >}}
 

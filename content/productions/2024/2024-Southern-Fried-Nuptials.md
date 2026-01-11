@@ -1,7 +1,7 @@
 ---
 title: Southern Fried Nuptials
-Theatre: Act II Players
-Venue: Mandarin Community Club
+theatre: Act II Players
+venue: Mandarin Community Club
 date: 2024-02-03
 opening_date: 2024-02-03
 closing_date: 2024-02-11
@@ -19,8 +19,8 @@ featured_image_caption: Poster for Southern Fried Nuptials
 featured_image_attr: Act II Players
 featured_image_attr_link: 
 program:
-Website: https://actiiplayers.org/southern-fried-nuptials
-Tickets: https://www.eventbrite.com/cc/southern-fried-nuptials-2900239
+website: https://actiiplayers.org/southern-fried-nuptials
+tickets: https://www.eventbrite.com/cc/southern-fried-nuptials-2900239
 show_details: 
 cast:
   - Harlene Frye: Tori Tompkins
@@ -36,11 +36,11 @@ cast:
   - Vaster Pickens: David Primm
 crew:
   - Director: Michael Skaff
-Genres:
+genres:
   - Play
   - Comedy
   - Drama
   - Romance
-Description: "In the heart of the South, wedding bells mix with laugh-out-loud family antics, creating a recipe for matrimonial mayhem."
+description: "In the heart of the South, wedding bells mix with laugh-out-loud family antics, creating a recipe for matrimonial mayhem."
 ---
 The sequel to 'Southern Fried Funeral,' this play takes us back to the Frye family as they prepare for another life-changing event: the wedding of daughter Harlene. Amidst a flurry of last-minute preparations, family squabbles, and bridal party chaos, the Fryes must navigate through a series of comical hurdles to get Harlene down the aisle. With a blend of Southern charm and witty humor, 'Southern Fried Nuptials' serves up a delightful comedy that's as warm and comforting as sweet tea on a hot summer day.

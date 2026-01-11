@@ -9,16 +9,16 @@ featured_image_caption: Playbill cover for Moon Children
 featured_image_attr: 
 featured_image_attr_link: 
 program: http://fscj.digital.flvc.org/islandora/object/fscj%3A68188#page/1/mode/2up
-Genres:
+genres:
 - Play
 - Drama
 - Coming-of-age
-Theatre: FSCJ DramaWorks
-Venue: Wilson Center - Studio Theatre
-Website: 
-Tickets: 
+theatre: FSCJ DramaWorks
+venue: Wilson Center - Studio Theatre
+website: 
+tickets: 
 show_details: 
-Description: A poignant dive into the disillusionment of youth.
+description: A poignant dive into the disillusionment of youth.
 showtimes:
 - 2015-04-09 19:30:00
 - 2015-04-10 20:00:00

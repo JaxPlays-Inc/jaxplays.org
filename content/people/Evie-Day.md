@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: eviedayvo
-  IBDB: 
-  IMDb:
-  Website: 
-  Backstage: evie-day-04
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: eviedayvo
+  ibdb: 
+  imdb:
+  website: 
+  backstage: evie-day-04
 ---

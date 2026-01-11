@@ -6,17 +6,17 @@ featured_image: Act-II-Players.webp
 featured_image_attr: 
 featured_image_alt: Logo for Act II Players
 featured_image_caption: Act II Players Logo
-Founded: 
-Address: |
+founded: 
+address: |
   3604 Cardinal Point Drive
   Jacksonville, 32257    
-Latitude: 30.206802620028448
-Longitude: -81.61854177085347
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  Threads:
-  Website: 
-Phone:  
+latitude: 30.206802620028448
+longitude: -81.61854177085347
+socials: 
+  facebook: 
+  twitter: 
+  instagram: 
+  threads:
+  website: 
+phone:  
 ---

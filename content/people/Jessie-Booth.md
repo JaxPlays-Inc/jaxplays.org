@@ -12,14 +12,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: itsjessiebooth
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm10226234
-  Website: https://www.jessiebooth.com/
-Press: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: itsjessiebooth
+  linkedin: 
+  ibdb: 
+  imdb: nm10226234
+  website: https://www.jessiebooth.com/
+press: 
 - "Lifelong actress makes her directorial debut directing her parents": https://pontevedrarecorder.com/stories/lifelong-actress-makes-her-directorial-debut-directing-her-parents,10305
 ---

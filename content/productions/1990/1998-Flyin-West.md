@@ -5,8 +5,8 @@ opening_date: 1998-03-06
 closing_date: 1998-03-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Miss Leah: A. Rita Churchwell
 - Fannie Mae Dove: Latricia Allen

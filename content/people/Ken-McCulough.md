@@ -12,15 +12,15 @@ birth_info:
   death_date: 2024-07-05
   birth_place: Texarkana, Arkansas
   death_place: Fernandina Beach, Florida
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: ken-mcculough-14a4832a
-  IBDB: 
-  IMDb:
-  Website: 
-Press: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: ken-mcculough-14a4832a
+  ibdb: 
+  imdb:
+  website: 
+press: 
 - "Remembering Ken McCulough | Tim Gilmore's deadpaper": https://timgilmore.substack.com/p/remembering-ken-mcculough
 - "Sendoff to Ken McCulough | Jax Psycho Geo": https://jaxpsychogeo.com/east/sendoff-to-ken-mcculough/
 - "Faculty Spotlight - Professor Ken McCulough | FSCJ ": https://www.fscj.edu/news-events/blog/blog/2022/06/09/faculty-spotlight---professor-ken-mcculough

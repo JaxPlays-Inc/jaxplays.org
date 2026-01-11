@@ -12,11 +12,11 @@ show_details:
 - Premiere: 
 - Theatre: 
 - Website: 
-Genres:
+genres:
   - Musical
   - Adventure
   - Family
-Description: "Swing into adventure with *Tarzan*, a thrilling musical that brings the beloved Disney animated film to life with heart-pounding music and breathtaking visuals."
+description: "Swing into adventure with *Tarzan*, a thrilling musical that brings the beloved Disney animated film to life with heart-pounding music and breathtaking visuals."
 ---
 Follow the journey of a young boy raised by gorillas in the African jungle as he grows up to become the heroic Tarzan. Torn between his animal family and his human origins, Tarzan faces a pivotal decision when he meets Jane Porter, a spirited explorer. Featuring a powerful score by Phil Collins, including songs like 'You'll Be in My Heart' and 'Two Worlds,' this musical captures the excitement and emotion of Tarzan's quest for identity and belonging.
 

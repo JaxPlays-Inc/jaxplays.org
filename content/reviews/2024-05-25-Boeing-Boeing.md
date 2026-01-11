@@ -8,7 +8,7 @@ featured_image_alt:
 authors:
 - Ray Hollister
 production: 2024 Boeing Boeing
-Theatre: Alhambra Theatre & Dining
+theatre: Alhambra Theatre & Dining
 cast: 
 - Natalie Drake
 - Thad Walker

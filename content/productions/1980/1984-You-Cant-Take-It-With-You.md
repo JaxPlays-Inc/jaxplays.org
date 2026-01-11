@@ -5,8 +5,8 @@ opening_date: 1984-11-23
 closing_date: 1984-12-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Penelope Sycamore: Mardie Kelly
 - Esie Carmichael: Carol Ann Panitz

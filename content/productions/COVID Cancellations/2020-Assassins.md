@@ -7,13 +7,13 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-07-31
 closing_date: 2020-08-16
 category: musical
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Music: "[[w:Stephen Sondheim]]"
 - Lyrics: Stephen Sondheim
 - Book: "[[w:John Weidman]]"
 - Basis: Original concept by Charles Gilbert Jr.
-Website: https://www.the5anddime.org/assassins
+website: https://www.the5anddime.org/assassins
 showtimes:
 - 2020-07-31 20:00:00
 - 2020-08-01 20:00:00

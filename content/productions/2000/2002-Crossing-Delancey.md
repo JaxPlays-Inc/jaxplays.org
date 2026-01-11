@@ -5,7 +5,7 @@ opening_date: 2002-01-18
 closing_date: 2002-02-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Isabelle: Patricia Harmon

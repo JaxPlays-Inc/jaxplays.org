@@ -1,8 +1,8 @@
 ---
 title: Barefoot in the Park
-Theatre: Theatre Jacksonville
-Venue: Harold K. Smith Playhouse
-Season: 106
+theatre: Theatre Jacksonville
+venue: Harold K. Smith Playhouse
+season: 106
 date: 2025-08-11T19:45:48-04:00
 opening_date: 2025-11-07
 closing_date: 2025-11-23
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.theatrejax.com/season-106
-Tickets: https://ci.ovationtix.com/34919/production/1235956
+website: https://www.theatrejax.com/season-106
+tickets: https://ci.ovationtix.com/34919/production/1235956
 show_details: 
 cast:
   - Corrie Bratter: Rebekah Wood
@@ -36,5 +36,5 @@ crew:
   - Director: Tyler Leeps
 orchestra:
 genres: 
-Description: 
+description: 
 ---

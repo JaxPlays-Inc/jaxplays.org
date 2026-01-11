@@ -1,8 +1,8 @@
 ---
 title: Brighton Beach Memoirs
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 
 date: 2024-07-19T17:58:48-04:00
 opening_date: 2019-09-20
 closing_date: 2019-10-13
@@ -42,8 +42,8 @@ featured_image_caption: Poster for the Alhambra Theatre & Dining production of '
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Eugene Jerome: Evan Gray
@@ -79,11 +79,11 @@ crew:
   - Carley Granick
 orchestra:
 genres: 
-Description: 
-Reviews: 
+description: 
+reviews: 
   - "Brighton Beach Memoirs: Tod Booth brings another sparkling Neil Simon production to Alhambra | Folo Weekly / EU Jacksonville": https://folioweekly.com/2019/09/25/brighton-beach-memoirs-tod-booth-neil-simon-alhambra/
   - "Review: BRIGHTON BEACH MEMOIRS at Alhambra Theatre And Dining | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/BWW-Review-BRIGHTON-BEACH-MEMOIRS-at-Alhambra-Theatre-And-Dining-20191001
-Press:
+press:
   - "Alhambra Presents Brighton Beach Memoirs (FCL Oct. 4) | First Coast Living - First Coast News": https://www.firstcoastnews.com/article/news/local/first-coast-living/alhambrabrighton/77-9a51d36e-4e02-443e-b3a0-022350433ed8
 ---
 

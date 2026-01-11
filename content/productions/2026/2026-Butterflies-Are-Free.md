@@ -1,8 +1,8 @@
 ---
 title: Butterflies Are Free
-Theatre: A Classic Theatre
-Venue: The Waterworks
-Season: 2025-2026
+theatre: A Classic Theatre
+venue: The Waterworks
+season: 2025-2026
 date: 2025-09-01T13:56:21-04:00
 opening_date: 2026-03-06
 closing_date: 2026-03-15
@@ -19,8 +19,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: https://www.aclassictheatre.org/2025-2026-season#butterflies
-Tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488643
+website: https://www.aclassictheatre.org/2025-2026-season#butterflies
+tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488643
 show_details: 
 - Playwright: Leonard Gershe
 cast:
@@ -30,7 +30,7 @@ orchestra:
 genres:
 - Play
 - Comedy
-Description: "*Butterflies Are Free* is a funny, touching and emotional play about the risks that go along with striking out on your own and falling in love."
+description: "*Butterflies Are Free* is a funny, touching and emotional play about the risks that go along with striking out on your own and falling in love."
 ---
 Looking to get out from under his overprotective mother's influence, Don Baker, blind since birth, decides to move out on his own into an apartment in Manhattan. But when he becomes involved with his neighbor, a kooky and sexy actress named Jill, Mother can't stay out of the mix in this classic play that leads to hilarious and touching results!
 

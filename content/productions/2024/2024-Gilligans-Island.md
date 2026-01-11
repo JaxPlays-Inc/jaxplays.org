@@ -1,8 +1,8 @@
 ---
 title: "Gilligan's Island: The Musical"
 date: 2024-06-12T23:08:08-04:00
-Theatre: St. Marys Little Theatre
-Venue: Theater by the Trax
+theatre: St. Marys Little Theatre
+venue: Theater by the Trax
 opening_date: 2024-10-11
 closing_date: 2024-10-18
 showtimes:
@@ -18,8 +18,8 @@ featured_image_caption:
 featured_image_attr: St. Marys Little Theatre
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 cast:
 - Gilligan: Brandon Herron
 - Skipper: Travis Land

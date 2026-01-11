@@ -5,8 +5,8 @@ opening_date: 1955-04-20
 closing_date: 1955-04-30
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Cecily Harden: Betty Groves
 - Clemence: Erika Schmeitzner

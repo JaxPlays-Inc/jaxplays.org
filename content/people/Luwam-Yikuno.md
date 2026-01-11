@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 photos:
 - photo: Luwam-Yikuno-2.webp
   photo_alt: "Luwam Yikuno as Violet stands mid-gesture in a vivid blue tracksuit, framed by a colorful backdrop of lights and panels in 'Charlie and the Chocolate Factory.'"

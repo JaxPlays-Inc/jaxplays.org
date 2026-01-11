@@ -12,19 +12,19 @@ featured_image: ABET_-_All_Beaches_Experimental_Theatre.jpeg
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-Founded: 1992
-Address: |
+founded: 1992
+address: |
     PO BOX #331627
     1001 Mayport Road
     Atlantic Beach, FL 32233-9998
-Socials:
-  Facebook: ABETtheatre
-  Twitter: ABETtheatre
-  Instagram: abettheatre
-  Website: https://www.abettheatre.com
-Phone: 19042497177
+socials:
+  facebook: ABETtheatre
+  twitter: ABETtheatre
+  instagram: abettheatre
+  website: https://www.abettheatre.com
+phone: 19042497177
 color: "#447395"
-Press:
+press:
 - "ABET will have a new name and new venue next season | Florida Times-Union": https://web.archive.org/web/20220520010759/https://www.jacksonville.com/story/entertainment/2018/05/05/abet-will-have-new-name-and-new-venue-next-season/12303807007/
 date: 2024-07-02T18:04:19-04:00
 donate: https://www.paypal.com/donate/?hosted_button_id=8Z2TCDD4DJB6Y

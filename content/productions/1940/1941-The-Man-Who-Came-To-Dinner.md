@@ -5,8 +5,8 @@ opening_date: 1941-10-14
 closing_date: 1941-10-17
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - 1st Deputy: Ray Sage
 - 1st Expressman: George Spelvin

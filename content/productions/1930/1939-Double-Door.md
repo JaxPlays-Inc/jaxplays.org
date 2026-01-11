@@ -5,8 +5,8 @@ opening_date: 1939-04-11
 closing_date: 1939-04-14
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Anne Darrow: Margaret Claire Lafferty
 - Avery: Elsie Austin

@@ -1,8 +1,8 @@
 ---
 title: You've Got Hate Mail
-Theatre: Amelia Musical Playhouse
-Venue: Amelia Musical Playhouse
-Season: 13
+theatre: Amelia Musical Playhouse
+venue: Amelia Musical Playhouse
+season: 13
 date: 2025-09-17T21:00:00-04:00
 opening_date: 2025-10-15
 closing_date: 2025-10-15
@@ -14,18 +14,18 @@ featured_image_caption: '"You’ve Got Hate Mail" presented by Amelia Musical Pl
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details:
   - Playwrights: 
     - "[[w:Billy Van Zandt]]"
     - "[[w:Jane Milmore]]"
   - Premiere: "2010, Triad Theatre, New York City"
-Genres:
+genres:
   - Play
   - Comedy
   - Satire
-Description: "A bawdy, fast-paced email exchange comedy about love, lust, and modern miscommunication."
+description: "A bawdy, fast-paced email exchange comedy about love, lust, and modern miscommunication."
 cast:
   - Stephanie: Sue Susan Weiner
   - Richard: Jeffrey Goldberg

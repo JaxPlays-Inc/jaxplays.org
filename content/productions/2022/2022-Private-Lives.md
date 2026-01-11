@@ -8,7 +8,7 @@ featured_image: 2022_Private_Lives.jpeg
 featured_image_caption: Poster of Private Lives
 featured_image_attr: Theatre Jacksonville
 program: 2022_Private_Lives.pdf
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 show_details:
 - Playwright: "[[w:Noel Coward]]"

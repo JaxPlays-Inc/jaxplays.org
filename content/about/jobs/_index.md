@@ -1,6 +1,6 @@
 ---
 title: Join the Team at JaxPlays
-Description: JaxPlays is a 501(c)(3) nonprofit organization.
+description: JaxPlays is a 501(c)(3) nonprofit organization.
 layout: "brand-guidelines"
 date: 2025-05-22T17:41:27-04:00
 ---

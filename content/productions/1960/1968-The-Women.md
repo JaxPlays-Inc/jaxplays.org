@@ -5,8 +5,8 @@ opening_date: 1968-04-05
 closing_date: 1968-04-20
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Sylvia: Margaret Oehlbeck
 - Nancy: Connie Maxon

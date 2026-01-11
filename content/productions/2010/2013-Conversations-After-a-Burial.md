@@ -1,7 +1,7 @@
 ---
 title: Conversations After a Burial
-Theatre: Players by the Sea
-Venue: John McManus Mainstage Theatre
+theatre: Players by the Sea
+venue: John McManus Mainstage Theatre
 date: 2023-09-08T00:00:00
 opening_date: 2013-02-01
 closing_date: 2013-02-16
@@ -21,8 +21,8 @@ featured_image_caption: Poster for 'Conversations After a Burial' at Players by 
 featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 - Playwright: "[[w:Yasmina Reza]]"
 cast:
@@ -37,7 +37,7 @@ crew:
   - Holly Gutshall
   - Joe Schwarz
 - Set Design: Anne Roberts
-Press: 
+press: 
 - "SIGHTS & SOUNDS for the week of Feb. 2-9 | The Florida Times-Union": https://www.jacksonville.com/story/news/2013/02/02/sights-sounds-week-feb-2-9/15839452007/
 photos:
 - photo: 2013-Conversations-After-A-Burial-07.webp
@@ -113,10 +113,10 @@ photos:
   photo_alt: 
   photo_caption: Poster for 'Conversations After a Burial' at Players by the Sea
 # Conversations After a Burial
-Genres:
+genres:
   - Play
   - Drama
   - Family
-Description: "In Yasmina Reza's early work, 'Conversations After a Burial,' a family's confrontation at a graveside in France's Loiret unravels into a raw and relentless dissection of grief, resentment, and familial bonds."
+description: "In Yasmina Reza's early work, 'Conversations After a Burial,' a family's confrontation at a graveside in France's Loiret unravels into a raw and relentless dissection of grief, resentment, and familial bonds."
 ---
 Set against the solemn backdrop of a funeral in rural France, 'Conversations After a Burial' delves into the strained reunion of the Weinberg family. As old wounds are reopened and harsh truths exchanged, the play exposes the fragile and often fraught ties that bind a family together. Through sharp dialogue and intense interactions, the characters grapple with their shared history and individual pain, offering a candid exploration of the complexities of family and mourning.

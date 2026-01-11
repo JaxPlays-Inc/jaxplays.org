@@ -5,8 +5,8 @@ opening_date: 1972-10-06
 closing_date: 1972-10-21
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Tevye: Arthur Gutman
 - Golde: Gertrude Moller

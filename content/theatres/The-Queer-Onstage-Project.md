@@ -11,20 +11,20 @@ featured_image_attr: Kari Paine
 featured_image_attr_link: https://www.orsodesignco.com/
 featured_image_alt: 
 featured_image_caption: 
-Founded: 2024
-Address: |
+founded: 2024
+address: |
     
-Latitude: 
-Longitude: 
-Socials: 
-  Facebook: 
-  Twitter: 
-  Instagram: queeronstageproject
-  Threads:
-  Website: https://linktr.ee/queeronstageproject
-Phone:  
+latitude: 
+longitude: 
+socials: 
+  facebook: 
+  twitter: 
+  instagram: queeronstageproject
+  threads:
+  website: https://linktr.ee/queeronstageproject
+phone:  
 color: "#678ebe"
-Press:
+press:
 - "Unbridled Mustang: Mandarin grad hungry to change his hometown | Jacksonville Today": https://jaxtoday.org/2024/05/30/unbridled-mustang-mandarin-graduate-l-j-valenzuela-is-hungry-to-change-his-hometown/
 ---
 The Queer Onstage Project is a queer, student-led theatrical production group dedicated to elevating LGBTQ+ voices and stories to the stage.

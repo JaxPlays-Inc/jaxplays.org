@@ -5,8 +5,8 @@ opening_date: 1956-11-28
 closing_date: 1956-12-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Helen Potts: Mildred Thomas
 - Hal Carter: David Wheatley

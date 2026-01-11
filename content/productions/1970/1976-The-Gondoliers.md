@@ -5,8 +5,8 @@ opening_date: 1976-05-07
 closing_date: 1976-05-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - The Duke of Plaza-Toro: Jack Feather
 - Luiz: Bob Gerbracht

@@ -14,8 +14,8 @@ show_details:
 - Theatre: 
 - Basis: "[[w:Auntie Mame]] by [[w:Patrick Dennis]]"
 - Website: 
-Genres:
+genres:
   - Musical
   - Family Drama
-Description:
+description:
 ---

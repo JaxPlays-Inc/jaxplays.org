@@ -15,10 +15,10 @@ show_details:
 - Basis: "[[w:*Hairspray* (1988 film)]] by [[w:John Waters]]"
 - Website: 
 # Hairspray
-Genres:
+genres:
   - Musical
   - Comedy
   - Drama
-Description: "Step into 1960s Baltimore, where Tracy Turnblad dreams of dancing on TV’s Corny Collins Show and ignites a campaign for social justice that rocks the city."
+description: "Step into 1960s Baltimore, where Tracy Turnblad dreams of dancing on TV’s Corny Collins Show and ignites a campaign for social justice that rocks the city."
 ---
 *Hairspray* follows the exuberant Tracy Turnblad, a big girl with big hair and an even bigger heart, as she pursues her dream of performing on a popular teen dance show. Her passion for dancing catapults her to fame, and she uses her new platform to advocate for racial integration on the show, challenging the norms of the era. The musical combines high-energy dancing, catchy songs, and a poignant message about acceptance and the fight for equality, making it both a joyous celebration and a powerful commentary on social change.

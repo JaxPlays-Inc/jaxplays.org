@@ -5,8 +5,8 @@ opening_date: 1987-12-04
 closing_date: 1987-12-19
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Henry II: John Byron
 - Alais: Heather Lovern

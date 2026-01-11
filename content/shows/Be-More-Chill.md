@@ -9,10 +9,10 @@ show_details:
 - Lyrics: Joe Iconis
 - Book: Joe Tracz
 - Basis: "*[[w:Be More Chill]]* by [[w:Ned Vizzini]]"
-Genres:
+genres:
 - Musical
 - Sci-Fi
 - Teen Drama
-Description: "A high school nobody's quest for popularity spirals into a tech-fueled frenzy when a tiny supercomputer offers to make him cool with some unexpected side effects."
+description: "A high school nobody's quest for popularity spirals into a tech-fueled frenzy when a tiny supercomputer offers to make him cool with some unexpected side effects."
 ---
 Jeremy Heere is just an average teenager until he discovers the SQUIP, a pill-sized supercomputer that promises to bring him everything he desires: a shot at popularity, a date with his crush, and a way out of his mundane existence. But as the SQUIP begins to take over every aspect of his life, Jeremy is forced to question whether being cool comes at too high a price. 

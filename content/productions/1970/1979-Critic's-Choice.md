@@ -5,8 +5,8 @@ opening_date: 1979-11-23
 closing_date: 1979-12-08
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Parker Ballantine: Harry McClintock
 - Angela Ballantine: Kandice McNett

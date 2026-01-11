@@ -1,7 +1,7 @@
 ---
 title: One Stoplight Town
-Theatre: Artist Connection Theatre
-Venue: Artist Connection Theatre
+theatre: Artist Connection Theatre
+venue: Artist Connection Theatre
 date: 2024-05-16T14:47:00-04:00
 opening_date: 2025-05-09
 closing_date: 2025-05-25
@@ -22,17 +22,17 @@ featured_image_caption: Graphic for *One Stoplight Town*
 featured_image_attr: Artist Connection Theatre
 featured_image_attr_link: 
 program:
-Website: https://artistconnectiontheatre.org/season-2024-2025/
-Tickets: https://ci.ovationtix.com/34989/production/1207875
+website: https://artistconnectiontheatre.org/season-2024-2025/
+tickets: https://ci.ovationtix.com/34989/production/1207875
 show_details: 
 - Playwright: Tracy Wells
 cast:
 crew:
 orchestra:
-Genres:
+genres:
   - Play
   - Drama
   - Comedy
-Description: "Discover the charm and quirks of 'One Stoplight Town,' where the lives of its residents intertwine in a tapestry of humor, heart and small-town spirit."
+description: "Discover the charm and quirks of 'One Stoplight Town,' where the lives of its residents intertwine in a tapestry of humor, heart and small-town spirit."
 ---
 *One Stoplight Town* is a delightful exploration of life in a small town where everyone knows everyone else's business. Through a series of interconnected stories, the play reveals the hopes, dreams, and secrets of the town's colorful residents. From the local diner to the barber shop, each scene offers a glimpse into the everyday lives that are both unique and universally relatable. With a blend of humor and heartfelt moments, *One Stoplight Town* celebrates the spirit of community and the simple joys of small-town living.

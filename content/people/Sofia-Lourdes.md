@@ -7,14 +7,14 @@ other_names:
 featured_image: Sofia-Lourdes.webp
 featured_image_attr: Jax Headshots (Josh Andrews)
 featured_image_attr_link: 
-Socials:
-  Facebook: sofia.smith.251243
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb: nm17497737
-  Website: 
+socials:
+  facebook: sofia.smith.251243
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb: nm17497737
+  website: 
 date: 2025-11-26T14:19:59-05:00
 photos:
 - photo: Sofia-Smith.webp

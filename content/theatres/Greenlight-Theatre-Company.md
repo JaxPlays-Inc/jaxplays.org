@@ -8,16 +8,16 @@ featured_image: Greenlight_Theatre_Company.jpeg
 featured_image_attr: Greenlight Theatre Company
 featured_image_alt: Greenlight Theatre Company Logo
 featured_image_caption: Greenlight Theatre Company Logo
-Description: Greenlight Theatre Company's mission is to engage, educate, and inspire our community through high-quality, inclusive productions, classes, and other programming for all ages and abilities.
-Founded: 2021
-Address: |
+description: Greenlight Theatre Company's mission is to engage, educate, and inspire our community through high-quality, inclusive productions, classes, and other programming for all ages and abilities.
+founded: 2021
+address: |
     106 N 6th Street
     Jacksonville Beach, FL 32250
-Socials:
-  Facebook: profile.php?id=100075552802465
-  Instagram: greenlighttheatreco_jax
-  Website: https://www.greenlighttheatreco.com
-Phone: 19855022253
+socials:
+  facebook: profile.php?id=100075552802465
+  instagram: greenlighttheatreco_jax
+  website: https://www.greenlighttheatreco.com
+phone: 19855022253
 color: "#32CD32"
 date: 2024-07-02T18:03:17-04:00
 donate: https://www.paypal.com/donate/?hosted_button_id=6YNPUAABFDCSA

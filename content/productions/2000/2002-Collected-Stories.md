@@ -5,7 +5,7 @@ opening_date: 2002-04-26
 closing_date: 2002-05-11
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Ruth Steiner: Jan Granger Wickstrom

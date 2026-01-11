@@ -5,8 +5,8 @@ opening_date: 1965-09-24
 closing_date: 1965-10-02
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Bob McKellaway: Tom Nehl
 - Tiffany Richards: Lois Stewart

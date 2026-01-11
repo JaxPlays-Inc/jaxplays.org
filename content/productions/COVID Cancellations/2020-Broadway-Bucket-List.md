@@ -7,8 +7,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-05-15
 closing_date: 2020-05-17
 category: musical
-Theatre: The 5 & Dime
-Website: https://www.the5anddime.org/broadway-bucket-list
+theatre: The 5 & Dime
+website: https://www.the5anddime.org/broadway-bucket-list
 showtimes:
 - 2020-05-15 20:00:00
 - 2020-05-16 20:00:00

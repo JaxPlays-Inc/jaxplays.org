@@ -5,7 +5,7 @@ opening_date: 2004-01-16
 closing_date: 2004-01-31
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Lance Cpl. Harold W. Dawson: Amir Abdullah

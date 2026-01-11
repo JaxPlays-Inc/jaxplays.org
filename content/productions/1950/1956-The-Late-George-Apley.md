@@ -5,8 +5,8 @@ opening_date: 1956-10-17
 closing_date: 1956-10-27
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Margaret: Ella Mae Wiley
 - George Apley: Frank Ridge

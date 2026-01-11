@@ -37,7 +37,7 @@
           <a href="{{ .Params.donate }}" target="_blank" class="inline-flex flex-row items-center link b dim ph3 pv2 mv2 mh1 h2 black bg-yellow f5 center theatre-donate-button">Donate</a>
         {{ end }}
 
-        {{ if .Params.Socials }}
+        {{ if .Params.socials }}
         {{ partial "social-media-links.html" . }}
         {{ end }}
       </div>
@@ -85,7 +85,7 @@
     {{/* Iterate through productions and categorize them */}}
     {{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
       {{/* Check if the production's theatre matches the current theatre or any of its aliases */}}
-      {{ if or (eq .Params.Theatre $theatreName) (in $theatreAliases .Params.Theatre) }}
+      {{ if or (eq .Params.theatre $theatreName) (in $theatreAliases .Params.theatre) }}
         {{ $openingDate := "" }}
         {{ $endDate := "" }}
         {{ with .Params.opening_date }}
@@ -138,7 +138,7 @@
     {{ $relatedReviews := slice }}
 
     {{ range where site.RegularPages "Type" "reviews" }}
-    {{ if eq .Params.Theatre $theatreName }}
+    {{ if eq .Params.theatre $theatreName }}
     {{ $relatedReviews = $relatedReviews | append . }}
     <!-- Appending the entire review object if the theatre name is found -->
     {{ end }}

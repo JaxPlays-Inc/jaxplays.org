@@ -6,18 +6,18 @@ featured_image:
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-Founded: 
-Capacity: 4709
-Address: |
+founded: 
+capacity: 4709
+address: |
   1340C A1A S
   St. Augustine, FL 32080
-Latitude: 29.875290884466118
-Longitude: -81.28288339379353
-Socials: 
-  Facebook: TheAmpSA
-  Twitter: 
-  Instagram: theampsa
-  Threads:
-  Website: https://www.theamp.com/
-Phone:  
+latitude: 29.875290884466118
+longitude: -81.28288339379353
+socials: 
+  facebook: TheAmpSA
+  twitter: 
+  instagram: theampsa
+  threads:
+  website: https://www.theamp.com/
+phone:  
 ---

@@ -5,8 +5,8 @@ opening_date: 1991-01-25
 closing_date: 1991-02-09
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Woman: Katrina Scott
 - Eunice Hubbell: Selma Hazouri

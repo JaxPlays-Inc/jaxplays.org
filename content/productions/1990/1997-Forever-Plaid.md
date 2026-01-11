@@ -5,8 +5,8 @@ opening_date: 1997-11-08
 closing_date: 1997-11-23
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Francis: Karl Rogers
 - Smudge: Frank M. Cobb

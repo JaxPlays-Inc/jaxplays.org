@@ -1,8 +1,8 @@
 ---
 title: The Sound of Music
-Theatre: Christ Church Creative Academy
-Venue: Christ Church Ponte Vedra Beach
-Season: 
+theatre: Christ Church Creative Academy
+venue: Christ Church Ponte Vedra Beach
+season: 
 date: 2024-09-01T18:13:41-04:00
 opening_date: 2024-02-08
 closing_date: 2024-02-17
@@ -22,8 +22,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.ticketleap.events/tickets/cec-som-5/som
+website: 
+tickets: https://www.ticketleap.events/tickets/cec-som-5/som
 show_details: 
 cast:
 - Maria: Aly Blakewell

@@ -1,8 +1,8 @@
 ---
 title: Disney's Beauty and the Beast
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 2016
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 2016
 date: 2024-08-05T16:37:28-04:00
 opening_date: 2016-06-15
 closing_date: 2016-07-31
@@ -61,8 +61,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: 
+website: 
+tickets: 
 show_details: 
 cast:
 - Belle: Emily Stokes
@@ -114,8 +114,8 @@ crew:
 - Props: Patti Eyler
 orchestra:
 genres: 
-Description: 
-Reviews:
+description: 
+reviews:
 - "Alhambra's 'Beauty and the Beast' proves poignantly entertaining": https://www.jacksonville.com/story/entertainment/local/2016/06/23/alhambras-beauty-and-beast-proves-poignantly-entertaining/15714646007/
 - "Review: Alhambra brings ‘tale as old as time’ to life in ‘Beauty and the Beast’": https://www.pontevedrarecorder.com/stories/review,1480
 ---

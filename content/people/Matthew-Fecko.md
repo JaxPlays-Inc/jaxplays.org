@@ -6,14 +6,14 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: matthew.fecko.7
-  Twitter: 
-  Instagram: matthew_fecko
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  YouTube: "@matthewfecko"
-  BackStage: Matthew-Fecko
-  Website: https://www.matthew-fecko.com/
+socials:
+  facebook: matthew.fecko.7
+  twitter: 
+  instagram: matthew_fecko
+  linkedin: 
+  ibdb: 
+  imdb:
+  youtube: "@matthewfecko"
+  backstage: Matthew-Fecko
+  website: https://www.matthew-fecko.com/
 ---

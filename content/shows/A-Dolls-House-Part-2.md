@@ -12,6 +12,6 @@ genres:
 - Drama
 - Sequel
 - Comedy
-Description: "Nora is back, and she's got unfinished business. The door that slammed shut reopens, igniting sparks in a home forever changed."
+description: "Nora is back, and she's got unfinished business. The door that slammed shut reopens, igniting sparks in a home forever changed."
 ---
 Nora Helmer shocked her family and the world by walking out 15 years ago. Now she's on the threshold again, but the homecoming stirs more than just the dust. Years after walking out on her suffocating marriage, Nora returns to the home she once fled. She's a successful writer now, but faces legal issues that only her estranged husband can resolve. With a renewed sense of self but familiar familial hurdles, the drama unfolds as Nora and her family grapple with the past, question their future, and wrestle with what 'home' really means. Will this be a new beginning or the final closing of the door?

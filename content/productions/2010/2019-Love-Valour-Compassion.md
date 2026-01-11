@@ -6,12 +6,12 @@ title: Love! Valour! Compassion!
 date: 2023-09-08T00:00:00
 opening_date: 2019-10-18
 closing_date: 2019-10-20
-Genres: 
+genres: 
 - Play
-Theatre: The 5 & Dime
+theatre: The 5 & Dime
 show_details:
 - Writer: "[[w:Terrence McNally]]"
-Website: https://www.the5anddime.org/love-valour-compassion
+website: https://www.the5anddime.org/love-valour-compassion
 showtimes:
 - 2019-10-18 20:00:00
 - 2019-10-19 20:00:00

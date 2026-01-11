@@ -1,10 +1,10 @@
 ---
 title: A Beautiful Noise
 subtitle: The Neil Diamond Musical
-Theatre: FSCJ Artist Series
+theatre: FSCJ Artist Series
 presenter: true
-Venue: Moran Theater
-Season: "2025/2026"
+venue: Moran Theater
+season: "2025/2026"
 date: 2025-03-25T09:31:15-04:00
 opening_date: 2026-04-14
 closing_date: 2026-04-19
@@ -23,8 +23,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: https://www.fscjartistseries.org/
+website: 
+tickets: https://www.fscjartistseries.org/
 cast:
 crew:
 orchestra:
@@ -33,11 +33,11 @@ show_details:
   - Lyrics: "Neil Diamond"
   - Book: "[[w:Anthony McCarten]]"
   - Basis: "Based on the life and music of [[w:Neil Diamond]]"
-Genres:
+genres:
   - Musical
   - Biography
   - Drama
-Description: "A musical journey through the life of Neil Diamond, showcasing his rise to fame, personal struggles, and timeless hits."
+description: "A musical journey through the life of Neil Diamond, showcasing his rise to fame, personal struggles, and timeless hits."
 ---
 *A Beautiful Noise* delves into the compelling life story of Neil Diamond, one of America’s most enduring singer-songwriters. The musical follows Diamond from his humble beginnings in Brooklyn to becoming a global superstar. The story reveals his challenges with personal demons and the sacrifices he made for his career, punctuated by performances of his iconic songs like "Sweet Caroline," "America," and "Solitary Man." This biographical musical not only pays tribute to his musical legacy but also explores the man behind the music, offering audiences an intimate look at his triumphs and tribulations.
 

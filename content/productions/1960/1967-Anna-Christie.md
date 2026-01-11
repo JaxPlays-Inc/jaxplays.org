@@ -5,8 +5,8 @@ opening_date: 1967-01-21
 closing_date: 1967-01-28
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Johnny-The-Priest: Richard A. Bloodgood
 - Two Longshoremen: Robert Smith

@@ -5,8 +5,8 @@ opening_date: 1969-02-21
 closing_date: 1969-03-01
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Joe Keller: Norman Howard
 - Kate Keller: Terry McIntire

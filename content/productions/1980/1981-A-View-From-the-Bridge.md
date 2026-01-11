@@ -5,8 +5,8 @@ opening_date: 1981-11-27
 closing_date: 1981-12-12
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Louis: Benjemin Henderson
 - Tony: Thom Scoggins

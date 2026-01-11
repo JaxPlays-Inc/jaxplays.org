@@ -4,15 +4,15 @@ date: 2024-07-11T17:45:05-04:00
 featured_image: David-Alford.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/ 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: david-alford-513659
-  IMDb: nm0019207
-  Wikipedia: David_Alford
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: david-alford-513659
+  imdb: nm0019207
+  wikipedia: David_Alford
+  website: 
 ---
 David is an actor, director, writer, and teacher from Adams, Tennessee, a short drive from Nashville. He was founder and Artistic Director of Mockingbird Theatre, and later Executive Artistic Director of Tennessee Repertory Theatre (now Nashville Rep). He has directed over forty professional and academic productions.
 

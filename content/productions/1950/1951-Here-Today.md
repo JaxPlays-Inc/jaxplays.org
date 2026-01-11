@@ -5,8 +5,8 @@ opening_date: 1951-10-05
 closing_date: 1951-10-13
 layout: productions
 program:
-Theatre: Theatre Jacksonville
-Venue: Little Theatre
+theatre: Theatre Jacksonville
+venue: Little Theatre
 cast:
 - Claire Windrew: Thelma House
 - Gertrude: Eileen Clayton

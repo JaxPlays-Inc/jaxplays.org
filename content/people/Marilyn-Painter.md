@@ -6,13 +6,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
-Socials:
-  Facebook: 
-  Twitter: 
-  Instagram: 
-  LinkedIn: 
-  IBDB: 
-  IMDb:
-  Website: 
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: 
 ---
 Marilyn Painter has showcased her talents in a variety of productions including *Three’s a Family*, *Charley’s Aunt*, *Coney Island Christmas*, *The Odd Couple*, *Play On*, and [[production: 2024 Southern Fried Nuptials]]. A writing professor at FSCJ, in the little time left from grading papers, Marilyn enjoys yoga and dancing. She extends heartfelt thanks to her supportive family and friends, as well as to the dedicated and talented individuals she collaborates with in the theater community.

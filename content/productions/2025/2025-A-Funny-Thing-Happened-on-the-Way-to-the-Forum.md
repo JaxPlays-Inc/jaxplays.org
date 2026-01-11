@@ -1,9 +1,9 @@
 ---
 title: A Funny Thing Happened on the Way to the Forum
 subtitle: In Concert
-Theatre: Theatre Jacksonville
-Venue: Florida Theatre
-Season: 
+theatre: Theatre Jacksonville
+venue: Florida Theatre
+season: 
 date: 2025-04-06T12:06:08-04:00
 opening_date: 2025-08-23
 closing_date: 2025-08-24
@@ -16,8 +16,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-Website: 
-Tickets: http://floridatheatre.showare.com/eventperformances.asp?evt=1377&utm_source=jaxplays
+website: 
+tickets: http://floridatheatre.showare.com/eventperformances.asp?evt=1377&utm_source=jaxplays
 show_details: 
 cast:
   - Pseudolus: Cady Huffman
@@ -115,7 +115,7 @@ genres:
 - Comedy
 - Farce 
 - Concert
-Press:
+press:
 - "Tony winner Cady Huffman to star in 'A Funny Thing Happened on the Way to the Forum' in concert at the Florida Theatre | JaxPlays News": /news/2025/04/06/tony-winner-cady-huffman-to-star-in-a-funny-thing-happened-on-the-way-to-the-forum-in-concert-at-the-florida-theatre/
 ---
 This special concert production of *A Funny Thing Happened on the Way to the Forum* is being performed at the historic Florida Theatre. Presented in concert, this version focuses on the music and performances rather than traditional sets and staging. The cast performs with scripts in hand, accompanied by a live orchestra, offering audiences a unique opportunity to experience the score and story in a more intimate, music-forward format.

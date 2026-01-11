@@ -1,8 +1,8 @@
 ---
 title: Chitty Chitty Bang Bang
-Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
-Season: 
+theatre: Alhambra Theatre & Dining
+venue: Alhambra Theatre
+season: 
 date: 2024-06-28T17:09:57-04:00
 opening_date: 2018-06-13
 closing_date: 2018-07-29
@@ -67,8 +67,8 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 
-Website: 
-Tickets: https://sales.alhambrajax.com/100/index.html
+website: 
+tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 
 cast:
 - Baroness/Mrs. Phillips/Violet: Lisa Valdini
@@ -122,12 +122,12 @@ crew:
 - Deck Chief: Joe Mahoney
 - Deck Crew: Linzy Lauren
 orchestra:
-Press: 
+press: 
 - "The Cast of 'Chitty Chitty Bang Bang' at the Alhambra Stopy by First Coast Living | First Coast News": https://www.firstcoastnews.com/video/news/local/first-coast-living/fcl-wednesday-july-4th-chitty-chitty-bang-bang-at-the-alhambra/77-8180625
 - "Alhambra to Open CHITTY CHITTY BANG BANG | Broadway World": https://www.broadwayworld.com/jacksonville/article/Alhambra-to-Open-CHITTY-CHITTY-BANG-BANG-20180601
 - "Local Theatre Puts Together a Flying Car | Jacksonville Magazine": https://www.jacksonvillemag.com/2018/06/11/chitty-chitty-bang-bang/
 
-Reviews:
+reviews:
 - "DUAL CRITICS REVIEW: Chitty Chitty Bang Bang at Alhambra Theatre & Dining | Folio Weekly / EU": https://folioweekly.com/2018/06/25/chitty-chitty-bang-bang-alhambra-theatre-dining-review/
 - "Review: CHITTY CHITTY BANG BANG at Alhambra Theatre And Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/BWW-Review-CHITTY-CHITTY-BANG-BANG-at-Alhambra-Theatre-And-Dining-20180619
 - "Alhambra’s “Chitty Chitty Bang Bang” sure to delight audiences of all ages | Ponte Vedra NewsLine": https://www.floridanewsline.com/creekline-st-johns/alhambras-chitty-chitty-bang-bang-sure-delight-audiences-ages/

@@ -5,7 +5,7 @@ opening_date: 2003-03-07
 closing_date: 2003-03-22
 layout: productions
 program:
-Theatre: Theatre Jacksonville
+theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
 - Conspirator:
