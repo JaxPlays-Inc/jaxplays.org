@@ -1,9 +1,14 @@
 <!-- Auto-generated production details section for review pages -->
 <!-- Called by single.html if the page is in the "review" section -->
 
-{{ $productionName := .Params.production | replaceRE " " "-" }}
+{{ $productionName := .Params.production | replaceRE " " "-" | lower }}
 {{ $productionPages := where .Site.RegularPages "Section" "eq" "productions" }}
-{{ $matchingProduction := where $productionPages ".File.BaseFileName" "eq" $productionName }}
+{{ $matchingProduction := slice }}
+{{ range $productionPages }}
+  {{ if eq (.File.BaseFileName | lower) $productionName }}
+    {{ $matchingProduction = slice . }}
+  {{ end }}
+{{ end }}
 
 {{ $override_dates := .Params.override_dates }}
 
