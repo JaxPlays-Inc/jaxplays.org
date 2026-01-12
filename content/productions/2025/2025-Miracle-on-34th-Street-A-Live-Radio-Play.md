@@ -14,25 +14,31 @@ showtimes:
 - 2025-12-13 16:00:00
 - 2025-12-14 14:00:00
 featured_image: 2025-Miracle-on-34th-Street.webp
-featured_image_alt: 
-featured_image_caption: 
-featured_image_attr: 
-featured_image_attr_link: 
-program:
+featured_image_alt: null
+featured_image_caption: null
+featured_image_attr: null
+featured_image_attr_link: null
+program: null
 website: https://www.aclassictheatre.org/2025-2026-season#miracle
+source_url: null
 tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488642
-show_details: 
-cast:
+show_details:
+- Based on: 1948 radio play *Miracle on 34th Street*
+cast: null
 crew:
 - Director: Cindy Alexander
 - Musical Director: Ron Hunsicker
 orchestra: null
 genres:
-- Play
 - Musical
+- Fantasy
 - Radio Drama
-description: "Bring the whole family to enjoy this classic, told in the style of a live 1940’s era radio broadcast."
+- Christmas
+description: >-
+  Bring the whole family to enjoy this classic, told in the style of a live 1940’s era radio broadcast.
 ---
+When a department store Santa claims he's the real Kris Kringle, his case gets taken all the way to the Supreme Court. Watch the miracle unfold when the belief of a little girl makes all the difference in this iconic story. Told in the style of a live 1940's era radio broadcast.
+
 Last year's production of It's a Wonderful Life A Live Radio Play delighted audiences and left them asking for more, so we're bringing back the live radio format!
 
 Based on the 1948 radio play Miracle on 34th Street, we recreate the magic complete with live sound effects and holiday jingles!
