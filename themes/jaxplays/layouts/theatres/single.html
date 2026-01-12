@@ -115,10 +115,10 @@
     {{ $pastProductions := sort $pastProductions "Params.opening_date" "desc" }}
 
     {{/* Currently On Stage Section */}}
-    {{ partial "production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage) }}
+    {{ partial "production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage "showTickets" true) }}
 
     {{/* Coming Soon! Section */}}
-    {{ partial "production-section.html" (dict "sectionName" "Coming Soon!" "productions" $comingSoon) }}
+    {{ partial "production-section.html" (dict "sectionName" "Coming Soon!" "productions" $comingSoon "showTickets" true) }}
 
     {{/* Past Productions Section */}}
     {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
