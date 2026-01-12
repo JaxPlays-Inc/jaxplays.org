@@ -28,5 +28,6 @@ genres:
 - Drama
 - Political
 description: >-
-  Heidi Schreck's play explores the Constitution's impact on women's lives and rights. It highlights its imperfections and the challenges in upholding its ideals. Moving between humor, grief and impassioned political reflection, it urges the audience to consider their own relationship to the Constitution.
+  A profoundly personal look at the Constitution and its impact on women's lives and rights.
 ---
+Heidi Schreck's play explores the Constitution's impact on women's lives, moving between humor, grief, and political reflection. It examines both the document's protections and its imperfections, urging audiences to consider their own relationship to this foundational text and how it could evolve for modern times.

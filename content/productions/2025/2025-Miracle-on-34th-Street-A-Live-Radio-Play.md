@@ -24,10 +24,22 @@ source_url: null
 tickets: https://aclassictheatre.ludus.com/index.php?show_id=200488642
 show_details:
 - Based on: 1948 radio play *Miracle on 34th Street*
-cast: null
+cast: 
+- Freddie Filmore/Alfred/Asst. District Attorney Mara: Rick Cirucci
+- Miss Muriel Reynolds: Linda Chandler
+- Everett Carstairs/Kris Kringle: Bill Rains
+- Miss Mary Jane Manners/Susan Walker:
+  - Piper Pieratt
+  - Lucy Farrow
+- Miss Beverly Bennet/Doris Walker: Mary Elizabeth Schubert
+- Trevor Landsdale/Fred Gaily: Ashley Carter
+- Nelson Akers/Mr. Shellhammer/Mr. Sawyer/Judge Harper: Justin Vetter
+- Walter Randolph/Mr. Macy/Postman/Judge's Friend: Frank Riccardo
+- Miss Vivian Armstrong/Dr. Pierce/Secretaries/Nurses/Mothers: Harolyn Sharpe
 crew:
 - Director: Cindy Alexander
 - Musical Director: Ron Hunsicker
+- Sound Effects: Dave Niedosik
 orchestra: null
 genres:
 - Musical
