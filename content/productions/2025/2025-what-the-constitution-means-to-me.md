@@ -19,9 +19,9 @@ orchestra: null
 show_details:
 - Playwright: Heidi Schreck
 Genres:
-- Play
-- Drama
 - Staged Reading
+- Political
+- Drama
 Description: >-
-  Moving between humor, grief, and impassioned political reflection, it urges the audience to consider their own relationship to the Constitution and its ongoing impact. A profoundly personal look at our nation's most debated document and how it could evolve to fit our modern times.
+  Heidi Schreck's play explores the Constitution's impact on women's lives and rights. It highlights its imperfections and the challenges in upholding its ideals. Moving between humor, grief and impassioned political reflection, it urges the audience to consider their own relationship to the Constitution.
 ---
