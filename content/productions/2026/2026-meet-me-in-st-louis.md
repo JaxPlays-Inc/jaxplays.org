@@ -62,7 +62,7 @@ featured_image_attr_link: null
 program: null
 website: null
 source_url: https://www.alhambrajax.com
-tickets: null
+tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1512&code=JAXPLAYS
 show_details: null
 cast: null
 crew: null
