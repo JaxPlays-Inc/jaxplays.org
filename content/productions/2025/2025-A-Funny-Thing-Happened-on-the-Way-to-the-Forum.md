@@ -108,6 +108,8 @@ crew:
       - Cameron Boss
       - Michael Bobbin
   - Administrative Coordinator: Katie McCaughan
+orchestra:
+  - Conductor: Joey Chancey
 genres: 
 - Musical
 - Comedy

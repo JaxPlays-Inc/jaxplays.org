@@ -38,6 +38,8 @@ cast:
 crew:
 - Director: Mr. Burt Leigh
 orchestra:
+show_details: 
+  - Playwright: "[[w:Charles Klein (playwright)|Charles Klein]]"
 genres:
   - Play
   - Drama

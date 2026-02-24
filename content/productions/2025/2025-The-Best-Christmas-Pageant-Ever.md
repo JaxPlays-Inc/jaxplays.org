@@ -71,6 +71,8 @@ crew:
   - Headshots: Russ Bratcher Photography
   - Social Media Manager: Dr. Sydney E. Brammer
 
+show_details: 
+  - Playwright: "[[w:Barbara Robinson]]"
 genres:
   - Play
   - Comedy
