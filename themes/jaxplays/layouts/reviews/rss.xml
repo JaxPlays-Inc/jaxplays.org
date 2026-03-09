@@ -1,15 +1,9 @@
-{{- /* Deprecate site.Author.email in favor of site.Params.author.email */ -}}
 {{- $authorEmail := "" -}}
-{{- with site.Params.author -}}
+{{- with .Site.Params.author -}}
   {{- if reflect.IsMap . -}}
     {{- with .email -}}
       {{- $authorEmail = . -}}
     {{- end -}}
-  {{- end -}}
-{{- else -}}
-  {{- with site.Author.email -}}
-    {{- $authorEmail = . -}}
-    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." -}}
   {{- end -}}
 {{- end -}}
 
@@ -35,9 +29,9 @@
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo</generator>
-    <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
-    <managingEditor>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
-    <webMaster>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with .Site.Copyright }}
+    <language>{{ .Site.Language.LanguageCode }}</language>{{ with $authorEmail }}
+    <managingEditor>{{ . }}{{ with .Site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
+    <webMaster>{{ . }}{{ with .Site.Params.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with .Site.Copyright }}
     <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{- with .OutputFormats.Get "RSS" -}}
