@@ -11,7 +11,7 @@ featured_image_attr_link:
 featured_image_alt: Headshot of Patty Katez Everett
 featured_image_caption: Headshot of Patty Katez Everett
 socials:
-  facebook: https://www.facebook.com/share/1F6TDnvSsY/mibextid=wwXlfr
+  facebook: patty.everett.7311
   twitter: 
   instagram: theatretroupe1776
   linkedin: 
