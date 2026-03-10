@@ -1,5 +1,5 @@
 ---
-title: "Agatha Christie\'s Murder on the Orient Express"
+title: "Agatha Christie's Murder on the Orient Express"
 date: 2024-09-09T23:29:39-04:00
 featured_image: Agatha-Christies-Murder-on-the-Orient-Express.webp
 featured_image_caption: 

@@ -90,8 +90,6 @@ crew:
   - Oli Farwell
   - Nox Neiman
 orchestra:
-genres: 
-# Mary Poppins
 genres:
   - Musical
   - Family

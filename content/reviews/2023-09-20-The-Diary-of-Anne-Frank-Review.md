@@ -5,7 +5,6 @@ featured_image: /media/photos/Anne_Frank_passport_photo_May_1942_expanded3x2.web
 featured_image_attr: Photographer unknown, public domain. Edited by Ray Hollister
 featured_image_caption: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
 featured_image_alt: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
-description: 
 authors:
 - Ray Hollister
 production: 2023 The Diary of Anne Frank

@@ -18,8 +18,6 @@ featured_image_attr_link:
 program: 1926-The-Lion-and-the-Mouse.pdf
 website: 
 tickets: 
-show_details: 
-- Playwright: Charles Klein
 cast:
 - John Burkett Ryder: Mr. Joseph Remington
 - Jefferson Ryder: Mr. Bert Leigh

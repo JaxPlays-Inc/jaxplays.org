@@ -22,7 +22,6 @@ featured_image_attr_link:
 program: 2025-The-Best-Christmas-Pageant-Ever.pdf
 website: 
 tickets: https://www.rivercitytheatre.com/purchasetickets
-show_details: 
 cast:
   - Grace Bradley: Windy Taylor
   - Bob Bradley: Jason Taylor
@@ -70,7 +69,6 @@ crew:
   - Graphic & Backdrop Designer: Dr. Sydney E. Brammer
   - Headshots: Russ Bratcher Photography
   - Social Media Manager: Dr. Sydney E. Brammer
-
 show_details: 
   - Playwright: "[[w:Barbara Robinson]]"
 genres:

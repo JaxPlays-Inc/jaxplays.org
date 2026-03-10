@@ -1,5 +1,5 @@
 ---
-title: "Singin\' in the Rain"
+title: "Singin' in the Rain"
 date: 2024-09-09T23:26:52-04:00
 featured_image:
 featured_image_caption: 

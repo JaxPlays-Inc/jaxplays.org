@@ -17,7 +17,6 @@ socials:
   twitter: 
   instagram: dmabinc
   threads:
-  website: 
   website: https://www.dontmissabeat.org
 phone:  
 color: "#f48847"
