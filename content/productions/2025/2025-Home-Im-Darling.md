@@ -4,8 +4,8 @@ theatre: A Classic Theatre
 venue: The Waterworks
 season: 2025-2026
 date: 2025-09-01 13:47:45-04:00
-opening_date: '2025-10-03'
-closing_date: '2025-10-12'
+opening_date: 2025-10-03
+closing_date: 2025-10-12
 showtimes:
 - 2025-10-03 19:30:00
 - 2025-10-04 16:00:00

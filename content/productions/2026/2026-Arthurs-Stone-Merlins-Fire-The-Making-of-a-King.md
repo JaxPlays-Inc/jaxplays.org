@@ -1,11 +1,11 @@
 ---
 title: "Arthur's Stone, Merlin's Fire: The Making of a King"
 theatre: Artist Connection Theatre
-venue: Artist Connection Theatre 
+venue: Artist Connection Theatre
 season: 
 date: 2026-01-04T22:33:23-05:00
 opening_date: 2026-01-16
-closing_date: 2026-02-01 
+closing_date: 2026-02-01
 showtimes:
 - 2026-01-16 19:30:00
 - 2026-01-17 19:30:00
