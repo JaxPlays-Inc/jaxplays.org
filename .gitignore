@@ -4,3 +4,4 @@ frontmatter.json
 .frontmatter/database/taxonomyDb.json
 /public/*
 .claude/settings.local.json
+.DS_Store

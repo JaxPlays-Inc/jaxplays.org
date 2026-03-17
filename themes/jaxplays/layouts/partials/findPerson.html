@@ -17,12 +17,12 @@
       {{ $imageToUse = (print "/media/headshots/" $foundPage.Params.featured_image) }}
     {{ end }}
     <a href="/people/{{ $urlName }}" class="flex flex-column items-center" >
-      <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $imageToUse | absURL }}');"></div>
+      <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $imageToUse | relURL }}');"></div>
       <span class="tc f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
     </a>
   {{ else }}
     <span class="flex flex-column items-center" style="width: 150px;">
-      <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $defaultImage | absURL }}');"></div>
+      <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $defaultImage | relURL }}');"></div>
       <span class="tc w-100 f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ .urlName }}</span>
     </span>
   {{ end }}

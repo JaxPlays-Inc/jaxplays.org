@@ -50,8 +50,60 @@ featured_image_attr: Alhambra Theatre and Dining
 featured_image_attr_link: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1507&code=JAXPLAYS
 source_url: https://www.alhambrajax.com
-cast: null
-crew: null
+program: 2026-Damn-Yankees.pdf
+cast:
+- Applegate: Allan Baker
+- Lola: Charity Walton
+- Joe Boyd: Bob O’Hara
+- Meg Boyd: Lisa Valdini Booth
+- Joe Hardy: Thaddeus Walker
+- Gloria Thorpe: Natalie Drake
+- Van Buren: Alec Hadden
+- Sister: Patti Eyler
+- Doris: Maureen McCluskey
+- "Fan #1/Mambo Dancer": Kailey Anderson
+- "Fan #2": Ellen Shaw
+- Welch: James Michael Roddy
+- Rocky: Sebastian Miller
+- Sohovik/Lynch: Izee Haynes
+- Vernan/Mambo Dancer: Christopher Michael Milligan
+- Smokey: Elijah Simms
+- Linville/Commissioner: Ryan Lemmon
+- Henry/Postmaster: Calvin Bernardo
+- Mickey: Landon Amburgey
+understudies:
+- Joe Boyd: Michael Roddy
+- Lola: Ellen Shaw
+- Gloria: Kailey Anderson
+- Van Buren: Sebastian Miller
+- Joe Hardy: Calvin Bernardo
+- Meg Boyd: Patti Eyler
+crew:
+- Executive Producer/Director: Tod Booth
+- Vice President of Production: Shain Stroff
+- Musical Direction: Cathy Murphy Giddens
+- Choreographer/Dance Captain: Christopher Michael Milligan
+- Lighting Design: Johnny Pettegrew
+- Costume Design: 
+  - Camala Pitts
+  - Dorinda Quiles
+- Company Manager: Lisa Valdini Booth
+- Set Design/Technical Director: David Dionne
+- Set Construction:
+  - David Dionne
+  - Ethan Walker
+- Sound Design/Engineer: Gabriel Barnert
+- Property Master: Patti Eyler
+- Wig Stylist: Dana Ferger
+- Production Manager: Sarah Brace
+- Production Stage Team:
+  - Sarah Brace
+  - Vince Llamado
+  - Kolbie Solice
+- Wardrobe:
+  - Audrey Dunham
+  - Reagan Brabson
+  - Emily Ford
 orchestra: null
 show_details:
 - Music: "[[w:Richard Adler]] & [[w:Jerry Ross (composer)|Jerry Ross]]"
@@ -62,5 +114,5 @@ Genres:
 - Musical
 - Comedy
 Description: >-
-  Joe Boyd's favorite baseball team isn't winning. He makes a deal with a mysterious man to become young again and help the Yankees win the pennant.
+  Joe Boyd's favorite baseball team isn't winning. He makes a deal with a mysterious man to become young again and help the Washington Senators win the pennant.
 ---
