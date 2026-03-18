@@ -54,7 +54,7 @@ program: 2026-Damn-Yankees.pdf
 cast:
 - Applegate: Allan Baker
 - Lola: Charity Walton
-- Joe Boyd: Bob O’Hara
+- Joe Boyd: Bob O'Hara
 - Meg Boyd: Lisa Valdini Booth
 - Joe Hardy: Thaddeus Walker
 - Gloria Thorpe: Natalie Drake

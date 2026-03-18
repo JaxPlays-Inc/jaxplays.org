@@ -102,7 +102,7 @@
           {{ $name := index $entry "name" }}
           {{ $urlName := $name | urlize }}
           {{ with site.GetPage (print "/people/" $urlName) }}
-            {{ $lineCount }}. <a href="{{ .Permalink }}" target="_blank">{{ $name }} - {{ $count }}</a>
+            {{ $lineCount }}. <a href="{{ .RelPermalink }}" target="_blank">{{ $name }} - {{ $count }}</a>
           {{ else }}
             {{ $lineCount }}. {{ $name }} - {{ $count }}
           {{ end }}

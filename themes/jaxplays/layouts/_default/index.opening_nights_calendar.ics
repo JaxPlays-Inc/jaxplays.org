@@ -13,7 +13,7 @@
     {{- $theatre := .Params.theatre -}}
     {{- $venue := .Params.venue -}}
     {{- $title := print $title " - " $theatre -}}
-    {{- $url := .Permalink -}}
+    {{- $url := .RelPermalink -}}
     {{- $featuredImage := .Params.featured_image -}}
     {{- $createdDate := .Date -}}
     {{- $createdDate := time.Format "20060102T150405Z" $createdDate -}}

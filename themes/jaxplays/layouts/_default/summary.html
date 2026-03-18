@@ -12,7 +12,7 @@
       {{/*  {{ $featuredImage = printf "/%s" $featuredImage }}  */}}
     {{ end }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
-    <a href="{{ .Permalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
+    <a href="{{ .RelPermalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
     {{ end }}
 
     {{ if not .Date.IsZero }}

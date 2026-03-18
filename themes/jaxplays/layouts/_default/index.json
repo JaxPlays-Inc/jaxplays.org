@@ -11,7 +11,7 @@
     {{- end -}}
     {{- $.Scratch.Add "index" (dict 
         "title" .Title 
-        "permalink" .Permalink 
+        "permalink" .RelPermalink 
         "section" (.Section | title) 
         "tags" .Params.tags 
         "categories" .Params.categories 

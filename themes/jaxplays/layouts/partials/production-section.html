@@ -22,7 +22,7 @@
             {{ if $featuredImage }}
               {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
             {{ end }}
-            <a href="{{ $production.Permalink }}">
+            <a href="{{ $production.RelPermalink }}">
               <img src="{{ $imagePath }}" alt="{{ $production.Title }}" class="w-100" />
             </a>
           </div>
@@ -30,7 +30,7 @@
           <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
             <!-- Left Section of Right Section -->
             <div class="b w-100 w-50-l flex items-center">
-              <a href="{{ $production.Permalink }}">{{ $production.Title }}</a>
+              <a href="{{ $production.RelPermalink }}">{{ $production.Title }}</a>
             </div>
             <!-- Right Section of Right Section -->
             <div class="w-100 w-50-l tr-l flex flex-column flex-row-l items-start items-center-l justify-end-l">

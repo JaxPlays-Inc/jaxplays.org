@@ -7,7 +7,7 @@
 {{ define "main" }}
   <div class="infinite-scroll-post-block">
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="main-content relative flex-l flex-wrap justify-between mw8 center ph3" data-url="{{ .Permalink }}" data-title="{{ .Title }}">
+  <article class="main-content relative flex-l flex-wrap justify-between mw8 center ph3" data-url="{{ .RelPermalink }}" data-title="{{ .Title }}">
     <div class="mt3 w-100 relative">
       {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
       <aside class="instapaper_ignoref b helvetica tracked">
