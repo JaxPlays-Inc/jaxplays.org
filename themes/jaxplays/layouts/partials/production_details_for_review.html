@@ -14,7 +14,7 @@
 
 {{ with index $matchingProduction 0 }}
   {{ $title := .Title }}
-  {{ $url := .Permalink }}
+  {{ $url := .RelPermalink }}
   {{ $venue := .Params.venue }}
   {{ $opening_date := dateFormat "Monday, January 2" .Params.opening_date }}
   {{ $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}

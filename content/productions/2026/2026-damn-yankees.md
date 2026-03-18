@@ -84,7 +84,7 @@ crew:
 - Musical Direction: Cathy Murphy Giddens
 - Choreographer/Dance Captain: Christopher Michael Milligan
 - Lighting Design: Johnny Pettegrew
-- Costume Design: 
+- Costume Design:
   - Camala Pitts
   - Dorinda Quiles
 - Company Manager: Lisa Valdini Booth
