@@ -2,16 +2,26 @@
 {{ $featuredImageAlt := .Params.featured_image_alt }}
 {{ $genres := .Params.genres }}
 
+{{/* Build once per render: show pages index keyed by title */}}
+{{ $showIndexKey := "jaxplays/shows-by-title-v1" }}
+{{ $showsByTitle := .Site.Store.Get $showIndexKey }}
+{{ if not $showsByTitle }}
+{{ $showsByTitle = dict }}
+{{ range where .Site.RegularPages "Type" "shows" }}
+{{ $showsByTitle = merge $showsByTitle (dict .Title .) }}
+{{ end }}
+{{ .Site.Store.Set $showIndexKey $showsByTitle }}
+{{ end }}
+{{ $showPage := index $showsByTitle .Title }}
+
 {{ if not $featuredImage }}
 {{ $defaultImage := "/media/default/production_poster.webp" }} <!-- Set default image path -->
 {{ $featuredImage = $defaultImage }} <!-- Use default image as the initial value -->
 {{ $featuredImageAlt := "Default production poster image" }}
-{{ range where .Site.Pages "Type" "shows" }}
-{{ if eq .Title $.Title }}
+{{ with $showPage }}
 {{ if .Params.featured_image }}
 {{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
 {{ $featuredImageAlt := .Params.featured_image_alt }}
-{{ end }}
 {{ end }}
 {{ end }}
 {{ else }}
@@ -23,11 +33,9 @@
 {{ $showContent := "" }}
 
 {{ if not $description }}
-{{ range where .Site.Pages "Type" "shows" }}
-{{ if eq .Title $.Title }}
+{{ with $showPage }}
 {{ $description = .Params.description }}
 {{ $showContent = .Content }}
-{{ end }}
 {{ end }}
 {{ end }}
 
@@ -115,12 +123,8 @@
         <div class="flex flex-column items-start justify-start">
           <!-- Genres -->
           {{ $genres := .Params.genres }}
-          {{ if not $genres }}
-            {{ range where .Site.Pages "Type" "shows" }}
-              {{ if eq .Title $.Title }}
-                {{ $genres = .Params.genres }}
-              {{ end }}
-            {{ end }}
+          {{ if and (not $genres) $showPage }}
+            {{ $genres = $showPage.Params.genres }}
           {{ end }}
       
           {{ if $genres }}

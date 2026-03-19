@@ -1,4 +1,4 @@
-{{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
+{{ define "header" }}{{ partialCached "production-header.html" . .RelPermalink }}{{ end }}
 {{ define "main" }}
 
 {{ $contentLength := len .Content }}

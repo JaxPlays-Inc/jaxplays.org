@@ -24,7 +24,7 @@
       <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
     {{ end -}}
 
-    {{ partial "site-style.html" . }}
+    {{ partialCached "site-style.html" . "site-style-v1" }}
     {{ partial "site-scripts.html" . }}
     
     {{ block "favicon" . }}
