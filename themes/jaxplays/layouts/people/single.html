@@ -5,6 +5,17 @@
 {{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
 {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
 
+{{/* Build once per render: show pages index keyed by title */}}
+{{ $showIndexKey := "jaxplays/shows-by-title-v1" }}
+{{ $showsByTitle := .Site.Store.Get $showIndexKey }}
+{{ if not $showsByTitle }}
+  {{ $showsByTitle = dict }}
+  {{ range where .Site.RegularPages "Type" "shows" }}
+    {{ $showsByTitle = merge $showsByTitle (dict .Title .) }}
+  {{ end }}
+  {{ .Site.Store.Set $showIndexKey $showsByTitle }}
+{{ end }}
+
 {{/* Build once per site render: credits index keyed by "creditType|personName" */}}
 {{ $creditsIndexKey := "jaxplays/people-credits-index-v1" }}
 {{ $creditsIndex := .Site.Store.Get $creditsIndexKey }}
@@ -152,7 +163,7 @@
           <div class="w-25 w-10-l">
             {{ $featuredImage := $details.production.Params.featured_image }}
             {{ if not $featuredImage }}
-            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+            {{ with (index $showsByTitle $details.production.Title) }}
             {{ $featuredImage = .Params.featured_image }}
             {{ end }}
             {{ end }}
