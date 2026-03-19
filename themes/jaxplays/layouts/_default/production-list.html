@@ -1,4 +1,4 @@
-{{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
+{{ $featuredImage := partialCached "func/GetFeaturedImage.html" . .RelPermalink }}
 {{ $featuredImageAlt := .Params.featured_image_alt }}
 {{ $genres := .Params.genres }}
 

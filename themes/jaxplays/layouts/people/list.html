@@ -10,7 +10,7 @@
       {{ $paginator := .Paginate $allPages 24 }}
       
       {{ range $paginator.Pages }}
-        {{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
+        {{ $featuredImage := partialCached "func/GetFeaturedImage.html" . .RelPermalink }}
         {{ $contentLength := len .Summary }}
         {{ $summary := "" }}
         
