@@ -4,10 +4,18 @@
 {{ $contentLength := len .Content }}
 {{ $description := .Params.description }}
 {{ $showContent := "" }}
-{{ $showPage := false }}
-{{ with first 1 (where (where .Site.RegularPages "Type" "shows") "Title" .Title) }}
-{{ $showPage = index . 0 }}
+
+{{/* Build once per render: show pages index keyed by title */}}
+{{ $showIndexKey := "jaxplays/shows-by-title-v1" }}
+{{ $showsByTitle := .Site.Store.Get $showIndexKey }}
+{{ if not $showsByTitle }}
+{{ $showsByTitle = dict }}
+{{ range where .Site.RegularPages "Type" "shows" }}
+{{ $showsByTitle = merge $showsByTitle (dict .Title .) }}
 {{ end }}
+{{ .Site.Store.Set $showIndexKey $showsByTitle }}
+{{ end }}
+{{ $showPage := index $showsByTitle .Title }}
 
 {{ if and (not $description) $showPage }}
 {{ $description = $showPage.Params.description }}
@@ -159,29 +167,42 @@
       {{ $currentPage := . }} <!-- Capture the current page context -->
       {{ $venues := .Params.venue }} <!-- Get the venue(s) -->
 
+      {{/* Build once per render: venue lookups by slug + alias */}}
+      {{ $venueLookupKey := "jaxplays/venues-lookup-v1" }}
+      {{ $venueLookup := .Site.Store.Get $venueLookupKey }}
+      {{ if not $venueLookup }}
+      {{ $venuesBySlug := dict }}
+      {{ $venuesByAlias := dict }}
+      {{ range where .Site.RegularPages "Type" "venues" }}
+      {{ $venuePage := . }}
+      {{ $slug := .File.BaseFileName | replaceRE "\\." "" | urlize }}
+      {{ $venuesBySlug = merge $venuesBySlug (dict $slug $venuePage) }}
+      {{ range (.Params.venue_aliases | default (slice)) }}
+      {{ $aliasSlug := . | replaceRE "\\." "" | urlize }}
+      {{ if $aliasSlug }}
+      {{ $venuesByAlias = merge $venuesByAlias (dict $aliasSlug $venuePage) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ $venueLookup = dict "bySlug" $venuesBySlug "byAlias" $venuesByAlias }}
+      {{ .Site.Store.Set $venueLookupKey $venueLookup }}
+      {{ end }}
+      {{ $venuesBySlug := index $venueLookup "bySlug" }}
+      {{ $venuesByAlias := index $venueLookup "byAlias" }}
+
       {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
       {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
       {{ end }}
 
       {{ range $index, $venue := $venues }}
-      {{ $venueurl := $venue }}
-      {{ $venueurl = replaceRE " & " "-and-" $venueurl }}
-      {{ $venueurl = replaceRE " " "-" $venueurl }}
-      {{ $venueurl = replaceRE "\\." "" $venueurl }}
-      {{ $venueurl = $venueurl | urlize }}
-      {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
-      {{ $displayVenue := $venue }}
+      {{ $venueurl := $venue | replaceRE " & " "-and-" | replaceRE " " "-" | replaceRE "\\." "" | urlize }}
+      {{ $venuePage := index $venuesBySlug $venueurl }}
       {{ if not $venuePage }}
-      {{ range where $currentPage.Site.Pages "Section" "venues" }}
-      {{ if in .Params.venue_aliases $venue }}
-      {{ $venuePage = . }}
-      {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
-      {{ $displayVenue = $venue }}
+      {{ $venuePage = index $venuesByAlias ($venue | replaceRE "\\." "" | urlize) }}
       {{ end }}
+      {{ if $venuePage }}
+      {{ $venueurl = $venuePage.File.BaseFileName | replaceRE "\\." "" | urlize }}
       {{ end }}
-      {{ end }}
-
-      <!-- Now use $displayVenue wherever you used to use $venue for display -->
 
       <div class="flex flex-column flex-row-ns">
         <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
@@ -194,8 +215,6 @@
           </div>
           <div class="w-75 w-100-ns ph1 ph0-ns">
             <a class="b db mb3" href="/venues/{{ $venueurl }}">{{ with $venuePage.Params.building }}<span>{{ . }}</span><br/>{{ end }}{{ $venue }}</a>
-            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-            <!-- Use the captured page context -->
             {{ with $venuePage.Params.address }} <!-- Access the 'Address' parameter -->
             {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
             <a href="#showHideMap" class="db dn-ns mv3">Show Maps</a>
@@ -210,8 +229,7 @@
         <div class="venuemaps db-ns dn w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
           <!-- Venue Map Section -->
           <div class="w-100 flex flex-column items-center justify-start">
-            {{ if and $venuePage.Params.latitude $venuePage.Params.longitude }}
-            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
+            {{ if and $venuePage $venuePage.Params.latitude $venuePage.Params.longitude }}
             {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.latitude "Longitude"
             $venuePage.Params.longitude "Title" $venue "Address" $venuePage.Params.address "id" $index) }}
             {{ end }}
@@ -220,7 +238,6 @@
 
       </div>
       {{ end }}
-
 
       <!-- Dates Section -->
       {{ if and .Params.opening_date .Params.closing_date }}
@@ -418,8 +435,23 @@
 
     <!-- Reviews -->
     {{ $filename := .File.BaseFileName | replaceRE "-" " "}}
-    {{ $relatedReviews := where site.RegularPages "Type" "reviews" }}
-    {{ $relatedReviews = where $relatedReviews "Params.production" $filename }}
+    {{/* Build once per render: reviews index by production slug/title key */}}
+    {{ $reviewsIndexKey := "jaxplays/reviews-by-production-v1" }}
+    {{ $reviewsByProduction := .Site.Store.Get $reviewsIndexKey }}
+    {{ if not $reviewsByProduction }}
+    {{ $reviewsScratch := newScratch }}
+    {{ range where site.RegularPages "Type" "reviews" }}
+    {{ $review := . }}
+    {{ with $review.Params.production }}
+    {{ if eq (printf "%T" .) "string" }}
+    {{ $reviewsScratch.Add (. | lower) (slice $review) }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ $reviewsByProduction = $reviewsScratch.Values }}
+    {{ .Site.Store.Set $reviewsIndexKey $reviewsByProduction }}
+    {{ end }}
+    {{ $relatedReviews := index $reviewsByProduction (lower $filename) | default (slice) }}
 
     {{ if or $relatedReviews .Params.reviews }}
     <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
