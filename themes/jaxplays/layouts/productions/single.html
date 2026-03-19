@@ -376,14 +376,14 @@
                   <div class="cast-array-wrapper">
                   <div class="scroll-cast">
                     {{ range $idx, $p := $person }}
-                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
+                    {{ $output := partialCached "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true") $p "img" }}
                     {{ $output := chomp $output }}
                     {{ $output | safeHTML }}
                     {{ end }}
                   </div>
                   </div>
                 {{ else }}
-                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false) }}
+                  {{ $output := partialCached "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true") $person "img" }}
                   {{ $output := chomp $output }}
                   {{ $output | safeHTML }}
                 {{ end }}

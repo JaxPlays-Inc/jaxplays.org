@@ -1,12 +1,25 @@
 {{ $urlName := .urlName | replaceRE "\\." "" | urlize }}
-{{ $foundPage := .site.GetPage (print "/people/" $urlName) }}
+{{ $site := .site }}
+{{ $foundPage := $site.GetPage (print "/people/" $urlName) }}
+
 {{ if not $foundPage }}
-  {{ range .site.Pages }}
-    {{ if and (eq .Type "people") (in .Params.aliases (print "/people/" $urlName)) }}
-      {{ $foundPage = . }}
+  {{ $aliasMap := $site.Store.Get "peopleAliasMap" }}
+  {{ if not $aliasMap }}
+    {{ $aliasMap = dict }}
+    {{ range where $site.Pages "Type" "people" }}
+      {{ $personPage := . }}
+      {{ range .Params.aliases }}
+        {{ $aliasSlug := . | replaceRE "^/people/" "" | replaceRE "/$" "" | replaceRE "\\." "" | urlize }}
+        {{ if $aliasSlug }}
+          {{ $aliasMap = merge $aliasMap (dict $aliasSlug $personPage) }}
+        {{ end }}
+      {{ end }}
     {{ end }}
+    {{ $site.Store.Set "peopleAliasMap" $aliasMap }}
   {{ end }}
+  {{ $foundPage = index $aliasMap $urlName }}
 {{ end }}
+
 {{ $defaultImage := "/media/default/people_headshot.webp" }}
 {{ if and .showImage }}
   {{ $imageToUse := $defaultImage }}
