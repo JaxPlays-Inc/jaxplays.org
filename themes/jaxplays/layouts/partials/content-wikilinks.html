@@ -1,73 +1,68 @@
 {{- /* layouts/partials/content-wikilinks.html */ -}}
-{{- $wikiregex := "\\[\\[([^\\]]+?)\\]\\]" -}}
-{{- $wikilinks := findRE $wikiregex . -}}
 {{- $content := . -}}
 {{- /* normalize curly apostrophes to reduce text-splitting corruption during replace passes */ -}}
 {{- $content = replace $content "’" "'" -}}
 {{- $markdownEmphasisRegex := "\\*([^\\*]+)\\*" -}} {{/* detect markdown emphasis with asterisks */}}
 
-{{- range $wikilinks -}}
-  {{- $linkText := replaceRE $wikiregex "$1" . -}}
-  {{- $parts := split $linkText "|" -}}
-  {{- $mainPart := index $parts 0 -}}
-  {{- $display := "" -}}
-  {{- $url := "" -}}
-
-  {{- $colonParts := split $mainPart ":" -}}
-  {{- $route := "" -}}
-
-  {{- if eq (len $parts) 2 -}}
-    {{- $display = index $parts 1 -}}
-  {{- else -}}
-    {{- $display = delimit (after 1 $colonParts) ":" -}}
-  {{- end -}}
-
+{{- if strings.Contains $content "[[" -}}
+  {{- $wikiregex := "\\[\\[([^\\]]+?)\\]\\]" -}}
+  {{- $wikilinks := findRE $wikiregex $content -}}
   {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
-  {{- $isKnownPrefix := false -}}
-  {{- range $key, $val := $routeMap -}}
-    {{- if eq (index $colonParts 0) $key -}}
-      {{- $route = $val -}}
-      {{- $isKnownPrefix = true -}}
+
+  {{- range $wikilinks -}}
+    {{- $linkText := replaceRE $wikiregex "$1" . -}}
+    {{- $parts := split $linkText "|" -}}
+    {{- $mainPart := index $parts 0 -}}
+    {{- $display := "" -}}
+
+    {{- $colonParts := split $mainPart ":" -}}
+    {{- $prefix := index $colonParts 0 -}}
+    {{- $route := index $routeMap $prefix -}}
+
+    {{- if eq (len $parts) 2 -}}
+      {{- $display = index $parts 1 -}}
+    {{- else -}}
+      {{- $display = delimit (after 1 $colonParts) ":" -}}
     {{- end -}}
-  {{- end -}}
 
-  {{- if $isKnownPrefix -}}
-    {{- $internalURLize := delimit (after 1 $colonParts) ":" -}}
-    {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
-    {{- $internalURLize = replace $internalURLize "é" "e" -}}
-    {{- $internalURLize = replace $internalURLize "è" "e" -}}
-    {{- $internalURLize = replace $internalURLize "ê" "e" -}}
-    {{- $internalURLize = replace $internalURLize "ë" "e" -}}
-    {{- $internalURLize = replace $internalURLize "à" "a" -}}
-    {{- $internalURLize = replace $internalURLize "ä" "a" -}}
-    {{- $internalURLize = replace $internalURLize "â" "a" -}}
-    {{- $internalURLize = replace $internalURLize "ô" "o" -}}
-    {{- $internalURLize = replace $internalURLize "ö" "o" -}}
-    {{- $internalURLize = replace $internalURLize "ç" "c" -}}
-    {{- $url = printf "%s%s" $route ($internalURLize | urlize) -}}
+    {{- if $route -}}
+      {{- $internalURLize := delimit (after 1 $colonParts) ":" -}}
+      {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
+      {{- $internalURLize = replace $internalURLize "é" "e" -}}
+      {{- $internalURLize = replace $internalURLize "è" "e" -}}
+      {{- $internalURLize = replace $internalURLize "ê" "e" -}}
+      {{- $internalURLize = replace $internalURLize "ë" "e" -}}
+      {{- $internalURLize = replace $internalURLize "à" "a" -}}
+      {{- $internalURLize = replace $internalURLize "ä" "a" -}}
+      {{- $internalURLize = replace $internalURLize "â" "a" -}}
+      {{- $internalURLize = replace $internalURLize "ô" "o" -}}
+      {{- $internalURLize = replace $internalURLize "ö" "o" -}}
+      {{- $internalURLize = replace $internalURLize "ç" "c" -}}
+      {{- $url := printf "%s%s" $route ($internalURLize | urlize) -}}
 
-    {{- $style := "" -}}
-    {{- if eq (index $colonParts 0) "production" -}}
-      {{- $style = " style=\"font-style: italic;\"" -}}
-      {{- if eq (len $parts) 1 -}}
-        {{- if ge (len $display) 5 -}}
-          {{- $display = substr $display 5 -}}
-        {{- else -}}
-          {{- $display = "" -}}
+      {{- $style := "" -}}
+      {{- if eq $prefix "production" -}}
+        {{- $style = " style=\"font-style: italic;\"" -}}
+        {{- if eq (len $parts) 1 -}}
+          {{- if ge (len $display) 5 -}}
+            {{- $display = substr $display 5 -}}
+          {{- else -}}
+            {{- $display = "" -}}
+          {{- end -}}
         {{- end -}}
       {{- end -}}
-    {{- end -}}
 
-    {{- $link := printf "<a%s href=\"%s\">%s</a>" $style $url $display -}}
-    {{- $content = replace $content . $link -}}
-  {{- else if eq (index $colonParts 0) "w" -}}
-    {{- $wikiName := delimit (after 1 $colonParts) ":" -}}
-    {{- $wikiName = replace $wikiName " " "_" -}}
-    {{- $wikiName = replace $wikiName "'" "%27" -}}
-    {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}
-    {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
-    {{- $link := printf "<a href=\"%s\" target=\"_blank\">%s</a>" $url $display -}}
-    {{- $content = replace $content . $link -}}
+      {{- $link := printf "<a%s href=\"%s\">%s</a>" $style $url $display -}}
+      {{- $content = replace $content . $link -}}
+    {{- else if eq $prefix "w" -}}
+      {{- $wikiName := delimit (after 1 $colonParts) ":" -}}
+      {{- $wikiName = replace $wikiName " " "_" -}}
+      {{- $wikiName = replace $wikiName "'" "%27" -}}
+      {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}
+      {{- $url := printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
+      {{- $link := printf "<a href=\"%s\" target=\"_blank\">%s</a>" $url $display -}}
+      {{- $content = replace $content . $link -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
