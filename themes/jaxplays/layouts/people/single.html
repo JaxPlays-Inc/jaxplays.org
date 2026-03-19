@@ -131,23 +131,23 @@
 
     <!-- Credits Section: Loop through different credit types and sort productions by opening_date -->
     {{ range $creditType := $creditTypes }}
-      {{ $productionsByPermalink := dict }}
+      {{ $creditsByProductionScratch := newScratch }}
       {{ range $name := $personNames }}
         {{ range $entry := (index $creditsIndex (printf "%s|%s" $creditType $name) | default (slice)) }}
           {{ $production := $entry.production }}
           {{ $credit := $entry.credit }}
           {{ $productionKey := $production.RelPermalink }}
-          {{ $existing := index $productionsByPermalink $productionKey }}
+          {{ $existing := index ($creditsByProductionScratch.Get "productions" | default (dict)) $productionKey }}
           {{ if $existing }}
-            {{ $productionsByPermalink = merge $productionsByPermalink (dict $productionKey (dict "production" $production "credits" (($existing.credits) | append $credit))) }}
+            {{ $creditsByProductionScratch.SetInMap "productions" $productionKey (dict "production" $production "credits" (($existing.credits) | append $credit)) }}
           {{ else }}
-            {{ $productionsByPermalink = merge $productionsByPermalink (dict $productionKey (dict "production" $production "credits" (slice $credit))) }}
+            {{ $creditsByProductionScratch.SetInMap "productions" $productionKey (dict "production" $production "credits" (slice $credit)) }}
           {{ end }}
         {{ end }}
       {{ end }}
 
       {{ $productionsWithPerson := slice }}
-      {{ range $productionsByPermalink }}
+      {{ range ($creditsByProductionScratch.Get "productions") }}
         {{ $productionsWithPerson = $productionsWithPerson | append . }}
       {{ end }}
       {{ $sortedProductions := sort $productionsWithPerson "production.Params.opening_date" "desc" }}
@@ -237,14 +237,14 @@
     <!-- END Credits Section -->
 
     <!-- Reviews -->
-    {{ $relatedReviewsByPermalink := dict }}
+    {{ $relatedReviewsScratch := newScratch }}
     {{ range $name := $personNames }}
     {{ range $review := (index $reviewIndex $name | default (slice)) }}
-    {{ $relatedReviewsByPermalink = merge $relatedReviewsByPermalink (dict $review.RelPermalink $review) }}
+    {{ $relatedReviewsScratch.SetInMap "reviews" $review.RelPermalink $review }}
     {{ end }}
     {{ end }}
     {{ $relatedReviews := slice }}
-    {{ range $relatedReviewsByPermalink }}
+    {{ range ($relatedReviewsScratch.Get "reviews") }}
     {{ $relatedReviews = $relatedReviews | append . }}
     {{ end }}
 
