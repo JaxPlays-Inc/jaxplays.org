@@ -4,14 +4,14 @@
 {{ $contentLength := len .Content }}
 {{ $description := .Params.description }}
 {{ $showContent := "" }}
+{{ $showPage := false }}
+{{ with first 1 (where (where .Site.RegularPages "Type" "shows") "Title" .Title) }}
+{{ $showPage = index . 0 }}
+{{ end }}
 
-{{ if not $description }}
-{{ range where .Site.Pages "Type" "shows" }}
-{{ if eq .Title $.Title }}
-{{ $description = .Params.description }}
-{{ $showContent = .Content }}
-{{ end }}
-{{ end }}
+{{ if and (not $description) $showPage }}
+{{ $description = $showPage.Params.description }}
+{{ $showContent = $showPage.Content }}
 {{ end }}
 
 {{ if not $description }}
@@ -62,24 +62,16 @@
     {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
     {{ $genres := .Params.genres }}
 
-    {{ if not $featuredImage }}
-    {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
-    {{ $featuredImage = .Params.featured_image }}
-    {{ $featuredImageAlt := .Params.featured_image_alt }}
-    {{ $featuredImageCaption = .Params.featured_image_caption }}
-    {{ $featuredImageAttr = .Params.featured_image_attr }}
-    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-    {{ end }}
-    {{ end }}
+    {{ if and (not $featuredImage) $showPage }}
+    {{ $featuredImage = $showPage.Params.featured_image }}
+    {{ $featuredImageAlt = $showPage.Params.featured_image_alt }}
+    {{ $featuredImageCaption = $showPage.Params.featured_image_caption }}
+    {{ $featuredImageAttr = $showPage.Params.featured_image_attr }}
+    {{ $featuredImageAttrLink = $showPage.Params.featured_image_attr_link }}
     {{ end }}
 
-    {{ if not $genres }}
-    {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
-    {{ $genres = .Params.genres }}
-    {{ end }}
-    {{ end }}
+    {{ if and (not $genres) $showPage }}
+    {{ $genres = $showPage.Params.genres }}
     {{ end }}
 
     {{ if or $featuredImage $genres }}
@@ -293,12 +285,8 @@
       <!-- Show Details -->
       {{ $showDetails := .Params.show_details }}
 
-      {{ if not $showDetails }}
-      {{ range where .Site.Pages "Type" "shows" }}
-      {{ if eq .Title $.Title }}
-      {{ $showDetails = .Params.show_details }}
-      {{ end }}
-      {{ end }}
+      {{ if and (not $showDetails) $showPage }}
+      {{ $showDetails = $showPage.Params.show_details }}
       {{ end }}
 
       {{ if $showDetails }}
@@ -337,10 +325,8 @@
     <!-- Synopsis -->
 
     {{ $showSynopsis := "" }}
-    {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
+    {{ with $showPage }}
     {{ $showSynopsis = .Content }}
-    {{ end }}
     {{ end }}
 
     {{ if or .Content $showSynopsis }}
