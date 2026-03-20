@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>{{ partial "func/GetTitle.html" . }}</title>
+    <title>{{ partialCached "func/GetTitle.html" . .RelPermalink }}</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     {{ partial "func/GetDescription.html" . }}
     <meta name="description" content="{{ .Scratch.Get "finalDescription" }}">
@@ -24,8 +24,8 @@
       <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
     {{ end -}}
 
-    {{ partial "site-style.html" . }}
-    {{ partial "site-scripts.html" . }}
+    {{ partialCached "site-style.html" . "site-style-v1" }}
+    {{ partialCached "site-scripts.html" . "site-scripts-v1" }}
     
     {{ block "favicon" . }}
       {{ partialCached "site-favicon.html" . }}

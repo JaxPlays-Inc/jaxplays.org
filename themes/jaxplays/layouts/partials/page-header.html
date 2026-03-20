@@ -1,5 +1,5 @@
 {{- partialCached "site-navigation.html" . -}}
-{{- $featured_image := partial "func/GetFeaturedImage.html" . -}}
+{{- $featured_image := partialCached "func/GetFeaturedImage.html" . .RelPermalink -}}
 {{- $show := ne .Params.showFeaturedImage false -}}
 
 {{- if and $show $featured_image -}}

@@ -4,23 +4,17 @@
     {{ .Content }}
   </section>-->
   {{ partial "secondSearchBar.html" (dict "section" "Productions") }}
-  {{ $currentDate := now.Format "2006-01-02" }}
+  {{ $nowUnix := now.Unix }}
   {{ $pastProductions := slice }}
-  
-  {{ range where .Site.Pages "Type" "productions" }}
-    {{ $openingDate := "" }}
-    {{ $endDate := "" }}
-    {{ with .Params.opening_date }}
-      {{ $openingDate = time . | time.Format "2006-01-02" }}
-    {{ end }}
-    {{ with .Params.closing_date }}
-      {{ $endDate = time . | time.Format "2006-01-02" }}
-    {{ else }}
-      {{ $endDate = $openingDate }}  <!-- Use opening_date as closing_date if closing_date is not provided -->
-    {{ end }}
-    {{ if and $openingDate $endDate }}
-      {{ if and (lt $openingDate $currentDate) (lt $endDate $currentDate) }} <!-- Checking both opening and closing dates are in the past -->
-        {{ $pastProductions = $pastProductions | append (dict "page" . "sort_date" $endDate) }}
+
+  {{ range where .Site.RegularPages "Type" "productions" }}
+    {{ $openingDate := .Params.opening_date }}
+    {{ $closingDate := .Params.closing_date | default $openingDate }}
+    {{ if and $openingDate $closingDate }}
+      {{ $openingTime := time $openingDate }}
+      {{ $closingTime := time $closingDate }}
+      {{ if and (lt $openingTime.Unix $nowUnix) (lt $closingTime.Unix $nowUnix) }}
+        {{ $pastProductions = $pastProductions | append (dict "page" . "sort_date" $closingTime.Unix) }}
       {{ end }}
     {{ end }}
   {{ end }}

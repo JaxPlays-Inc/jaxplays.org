@@ -3,6 +3,64 @@
 {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
 {{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
 {{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
+{{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
+
+{{/* Build once per render: show pages index keyed by title */}}
+{{ $showIndexKey := "jaxplays/shows-by-title-v1" }}
+{{ $showsByTitle := .Site.Store.Get $showIndexKey }}
+{{ if not $showsByTitle }}
+  {{ $showsByTitle = dict }}
+  {{ range where .Site.RegularPages "Type" "shows" }}
+    {{ $showsByTitle = merge $showsByTitle (dict .Title .) }}
+  {{ end }}
+  {{ .Site.Store.Set $showIndexKey $showsByTitle }}
+{{ end }}
+
+{{/* Build once per site render: credits index keyed by "creditType|personName" */}}
+{{ $creditsIndexKey := "jaxplays/people-credits-index-v1" }}
+{{ $creditsIndex := .Site.Store.Get $creditsIndexKey }}
+{{ if not $creditsIndex }}
+  {{ $creditsScratch := newScratch }}
+  {{ range where .Site.RegularPages "Type" "productions" }}
+    {{ $production := . }}
+    {{ range $creditType := $creditTypes }}
+      {{ with index $production.Params $creditType }}
+        {{ range . }}
+          {{ range $character, $actor := . }}
+            {{ $actorSlice := slice }}
+            {{ if eq (printf "%T" $actor) "string" }}
+              {{ $actorSlice = slice $actor }}
+            {{ else }}
+              {{ $actorSlice = $actor }}
+            {{ end }}
+            {{ range $actorName := $actorSlice }}
+              {{ $creditsScratch.Add (printf "%s|%s" $creditType $actorName) (slice (dict "production" $production "credit" $character)) }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $creditsIndex = $creditsScratch.Values }}
+  {{ .Site.Store.Set $creditsIndexKey $creditsIndex }}
+{{ end }}
+
+{{/* Build once per site render: reviews index keyed by cast name */}}
+{{ $reviewIndexKey := "jaxplays/reviews-by-cast-name-v1" }}
+{{ $reviewIndex := .Site.Store.Get $reviewIndexKey }}
+{{ if not $reviewIndex }}
+  {{ $reviewsScratch := newScratch }}
+  {{ range where .Site.RegularPages "Type" "reviews" }}
+    {{ $review := . }}
+    {{ range $castName := (.Params.cast | default (slice)) }}
+      {{ if eq (printf "%T" $castName) "string" }}
+        {{ $reviewsScratch.Add $castName (slice $review) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $reviewIndex = $reviewsScratch.Values }}
+  {{ .Site.Store.Set $reviewIndexKey $reviewIndex }}
+{{ end }}
 
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
@@ -71,37 +129,26 @@
       {{ end }}
     </div>
 
-    {{ $global := . }} <!-- Capture the global context to use inside range blocks -->
-
     <!-- Credits Section: Loop through different credit types and sort productions by opening_date -->
-    {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-      {{ $productionsWithPerson := slice }}
-      {{ range where $global.Site.Pages "Type" "productions" }} <!-- Use $global to access .Site.Pages -->
-        {{ $production := . }}
-        {{ with index .Params $creditType }}
-          {{ $credits := slice }}
-          {{ range . }}
-            {{ range $character, $actor := . }}
-              {{ $actorSlice := slice }}
-              {{ if eq (printf "%T" $actor) "string" }}
-                {{ $actorSlice = slice $actor }}
-              {{ else }}
-                {{ $actorSlice = $actor }}
-              {{ end }}
-              {{ range $name := $personNames }}
-                {{ range $actorName := $actorSlice }}
-                  {{ if eq $actorName $name }}
-                    {{ $credits = $credits | append $character }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-          {{ if $credits }}
-            {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
+      {{ $creditsByProductionScratch := newScratch }}
+      {{ range $name := $personNames }}
+        {{ range $entry := (index $creditsIndex (printf "%s|%s" $creditType $name) | default (slice)) }}
+          {{ $production := $entry.production }}
+          {{ $credit := $entry.credit }}
+          {{ $productionKey := $production.RelPermalink }}
+          {{ $existing := index ($creditsByProductionScratch.Get "productions" | default (dict)) $productionKey }}
+          {{ if $existing }}
+            {{ $creditsByProductionScratch.SetInMap "productions" $productionKey (dict "production" $production "credits" (($existing.credits) | append $credit)) }}
+          {{ else }}
+            {{ $creditsByProductionScratch.SetInMap "productions" $productionKey (dict "production" $production "credits" (slice $credit)) }}
           {{ end }}
         {{ end }}
+      {{ end }}
+
+      {{ $productionsWithPerson := slice }}
+      {{ range ($creditsByProductionScratch.Get "productions") }}
+        {{ $productionsWithPerson = $productionsWithPerson | append . }}
       {{ end }}
       {{ $sortedProductions := sort $productionsWithPerson "production.Params.opening_date" "desc" }}
 
@@ -116,7 +163,7 @@
           <div class="w-25 w-10-l">
             {{ $featuredImage := $details.production.Params.featured_image }}
             {{ if not $featuredImage }}
-            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
+            {{ with (index $showsByTitle $details.production.Title) }}
             {{ $featuredImage = .Params.featured_image }}
             {{ end }}
             {{ end }}
@@ -190,16 +237,15 @@
     <!-- END Credits Section -->
 
     <!-- Reviews -->
+    {{ $relatedReviewsScratch := newScratch }}
+    {{ range $name := $personNames }}
+    {{ range $review := (index $reviewIndex $name | default (slice)) }}
+    {{ $relatedReviewsScratch.SetInMap "reviews" $review.RelPermalink $review }}
+    {{ end }}
+    {{ end }}
     {{ $relatedReviews := slice }}
-    {{ range where site.RegularPages "Type" "reviews" }}
-    {{ $review := . }} <!-- Store the current review in a variable -->
-    {{ range $name := $personNames }} <!-- Looping through all the person's names -->
-    {{ if in $review.Params.cast $name }}
-    {{ $relatedReviews = $relatedReviews | append $review }}
-    <!-- Appending the entire review object if a name is found in cast list -->
-    {{ break }} <!-- Break the inner loop if a match is found, to avoid duplicate appending -->
-    {{ end }}
-    {{ end }}
+    {{ range ($relatedReviewsScratch.Get "reviews") }}
+    {{ $relatedReviews = $relatedReviews | append . }}
     {{ end }}
 
     {{ if or $relatedReviews .Params.reviews }}

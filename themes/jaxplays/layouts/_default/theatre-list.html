@@ -1,4 +1,4 @@
-{{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
+{{ $featuredImage := partialCached "func/GetFeaturedImage.html" . .RelPermalink }}
 {{ $contentLength := len .Summary }}
 
 {{ $summary := "" }} <!-- Declare $summary here -->
