@@ -1,4 +1,4 @@
-<meta property="og:title" content="{{ partial "func/GetTitle.html" . }}" />
+<meta property="og:title" content="{{ partialCached "func/GetTitle.html" . .RelPermalink }}" />
 {{/*  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />  */}}
 
 <meta property="og:description" content="{{ .Scratch.Get "finalDescription" }}" />
