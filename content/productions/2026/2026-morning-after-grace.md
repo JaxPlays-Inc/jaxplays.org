@@ -52,7 +52,7 @@ website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1508&code=JAXPLAYS
 show_details:
-- Playwright: Carey Crim
+- Playwright: "[[person:Carey Crim]]"
 cast:
 - Angus: Kevin Anderson
 - Abigail: Hillary Hickam

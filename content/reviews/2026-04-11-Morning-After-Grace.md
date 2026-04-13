@@ -15,6 +15,10 @@ cast:
 - Kevin Anderson
 - Hillary Hickam
 - Eugene Lindsey
+- Carey Crim
+- Todd Booth
+- David Dionne
+- Patti Eyler
 description: "Alhambra Theatre & Dining's *Morning After Grace* pairs sharp comedy with deeply felt humanity, brought to life by three richly layered performances and elegant direction."
 ---
 [[theatre:Alhambra Theatre & Dining]]'s [[production:2026 Morning After Grace]] is the kind of play that sneaks up on you. It opens with the recognizable mechanics of sitcom comedy — a disoriented morning after, mistaken assumptions and mounting embarrassment — but before long it reveals itself to be something richer, sadder and far more profound. Written by [[person:Carey Crim]] and directed by [[person:Tod Booth]], this three-character dramedy finds humor in indignity, heartbreak in loneliness and, ultimately, grace in the stubborn human need to connect.
