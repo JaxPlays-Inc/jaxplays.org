@@ -1,7 +1,7 @@
 ---
 title: Katie Johnston
 date: 2024-06-18T23:49:17-04:00
-featured_image: Katie-Johnston.webp
+featured_image: Katie-Johnston-1.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 

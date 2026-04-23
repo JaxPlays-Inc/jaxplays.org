@@ -1,7 +1,7 @@
 ---
 title: Trevor Kluckman
 date: 2025-06-01T21:53:09-04:00
-featured_image: 
+featured_image: Trevor-Kluckman-1.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 

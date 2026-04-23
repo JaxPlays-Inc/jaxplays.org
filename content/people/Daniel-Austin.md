@@ -1,7 +1,7 @@
 ---
 title: Daniel Austin
 date: 2024-08-24T23:56:02-04:00
-featured_image: Daniel-Austin.webp
+featured_image: Daniel-Austin-1.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
