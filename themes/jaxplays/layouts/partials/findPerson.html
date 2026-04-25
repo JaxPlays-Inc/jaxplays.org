@@ -16,7 +16,7 @@
     {{ if $foundPage.Params.featured_image }}
       {{ $imageToUse = (print "/media/headshots/" $foundPage.Params.featured_image) }}
     {{ end }}
-    <a href="/people/{{ $urlName }}" class="flex flex-column items-center" >
+    <a href="{{ $foundPage.RelPermalink }}" class="flex flex-column items-center" >
       <div class="br-100 cover mb1 w4 h4" style="background-position: top center; background-image: url('{{ $imageToUse | relURL }}');"></div>
       <span class="tc f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
     </a>
@@ -28,7 +28,7 @@
   {{ end }}
 {{ else }}
   {{ if $foundPage }}
-    <a href="/people/{{ $urlName }}" class="ml1">{{ $foundPage.Title }}</a>
+    <a href="{{ $foundPage.RelPermalink }}" class="ml1">{{ $foundPage.Title }}</a>
   {{ else }}
     <span class="ml1">{{ .urlName }}</span>
   {{ end }}

@@ -1,11 +1,16 @@
 ---
-title: Lauren Paragallo
+title: Laurén Paragallo
 date: 2025-11-23T22:48:29-05:00
 featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+aliases:
+  - /people/laurén-paragallo
+  - /people/lauren-paragallo
+other_names:
+  - Lauren Paragallo
 socials:
   facebook: 
   twitter: 
