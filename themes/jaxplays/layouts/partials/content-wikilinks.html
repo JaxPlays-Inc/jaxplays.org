@@ -2,6 +2,8 @@
 {{- $wikiregex := "\\[\\[([^\\]]+?)\\]\\]" -}}
 {{- $wikilinks := findRE $wikiregex . -}}
 {{- $content := . -}}
+{{- /* normalize curly apostrophes to reduce text-splitting corruption during replace passes */ -}}
+{{- $content = replace $content "’" "'" -}}
 {{- $markdownEmphasisRegex := "\\*([^\\*]+)\\*" -}} {{/* detect markdown emphasis with asterisks */}}
 
 {{- range $wikilinks -}}
