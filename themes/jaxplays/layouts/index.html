@@ -171,7 +171,7 @@ pages. */}}
               arrows: false,
             },
           },
-        }).mount(window.splide.Extensions);
+        });
 
         // Progress bar
         const bar = splide.root.querySelector('.my-slider-progress-bar');
@@ -182,11 +182,8 @@ pages. */}}
           bar.style.width = String(100 * rate) + '%';
         });
 
-        // Mount Splide including AutoScroll extension
-        splide.mount({
-          // Add AutoScroll extension here if not globally registered
-          // AutoScroll: AutoScroll,
-        });
+        // Mount Splide once, including AutoScroll extension
+        splide.mount(window.splide.Extensions);
       })
       .catch(error => console.error('Error fetching calendar.json:', error));
   });
