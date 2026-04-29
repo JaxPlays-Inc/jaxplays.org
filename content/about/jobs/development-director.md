@@ -3,6 +3,7 @@ title: Development Director
 description: "JaxPlays is seeking a volunteer Development Director to lead fundraising, grants and donor outreach for our growing nonprofit theatre news organization."
 layout: "single-noheader"
 date: 2025-05-22T17:54:21-04:00
+draft: true
 ---
 # Development Director (Volunteer Position)
 

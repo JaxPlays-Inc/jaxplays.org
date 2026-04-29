@@ -13,7 +13,4 @@ We are a small, passionate team working to build something meaningful, sustainab
 
 ---
 
-### [Development Director (Volunteer Position)](/about/jobs/development-director)
-*Posted: May 22, 2025.*
-
-JaxPlays, a nonprofit news organization covering live theatre across Northeast Florida and Southeast Georgia, is seeking an experienced and mission-driven individual to serve as **Development Director**. This will initially be a volunteer position, but we are open to transitioning to a paid role as funding allows. 
+There are no current openings at this time. Please check back soon.
