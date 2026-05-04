@@ -16,7 +16,7 @@ featured_image_caption: '"Carmen" presented by First Coast Opera at Lewis Audito
 featured_image_attr: 
 featured_image_attr_link: 
 program:
-website: https://www.firstcoastopera.com/carmen
+website: https://www.firstcoastopera.org/carmen
 tickets: https://app.arts-people.com/?show=291353
 show_details: 
   - Music: "[[w:Georges Bizet]]"
@@ -48,6 +48,9 @@ crew:
   - Stage Manager: Emily Fluchel
   - Rehearsal Pianist: Yelena Kurdina
 orchestra:
+source: Linear submission (JAX-5569), reconciled with official website
+source_date: 2025-10-02
+source_url: https://linear.app/jaxplays/issue/JAX-5569/new-production-first-coast-opera-carmen
 ---
 *Passion ignites this holiday season as First Coast Opera brings Bizet’s* **Carmen** *to life in its grandest production in 26 years. From the allure of the “Habanera” to the triumphant “Toreador Song,” the drama and unforgettable melodies have captivated audiences for generations.*
 
