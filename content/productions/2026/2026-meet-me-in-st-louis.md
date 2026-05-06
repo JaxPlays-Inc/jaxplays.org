@@ -54,7 +54,7 @@ showtimes:
 - 2026-11-07 18:00:00
 - 2026-11-08 12:00:00
 - 2026-11-08 18:00:00
-featured_image: 2026-Meet-Me-in-St-Louis.webp
+featured_image: 2026-Meet-Me-In-St-Louis.webp
 featured_image_alt: null
 featured_image_caption: null
 featured_image_attr: Alhambra Theatre
