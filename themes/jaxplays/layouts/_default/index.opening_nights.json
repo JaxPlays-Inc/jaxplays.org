@@ -19,7 +19,17 @@
     {{- if gt (len .) 0 -}}
       {{- /* Only take the first showtime */ -}}
       {{- $firstShowtime := index . 0 -}}
-      {{- $events = $events | append (dict "title" $title "start" $firstShowtime "theatre" $theatre "url" $url "color" $color "featured_image" $featuredImage) -}}
+      {{- $firstShowtimeDateTime := $firstShowtime -}}
+      {{- $firstShowtimeVenue := "" -}}
+      {{- if in (printf "%T" $firstShowtime) "map" -}}
+        {{- $firstShowtimeDateTime = index $firstShowtime "datetime" -}}
+        {{- $firstShowtimeVenue = index $firstShowtime "venue" | default "" -}}
+      {{- end -}}
+      {{- $event := dict "title" $title "start" $firstShowtimeDateTime "theatre" $theatre "url" $url "color" $color "featured_image" $featuredImage -}}
+      {{- with $firstShowtimeVenue -}}
+        {{- $event = merge $event (dict "venue" .) -}}
+      {{- end -}}
+      {{- $events = $events | append $event -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

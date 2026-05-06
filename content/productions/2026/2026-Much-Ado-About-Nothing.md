@@ -10,11 +10,16 @@ date: 2026-05-05T01:01:04-04:00
 opening_date: 2026-05-17
 closing_date: 2026-05-24
 showtimes:
-  - 2026-05-17 14:00:00
-  - 2026-05-17 19:00:00
-  - 2026-05-22 19:00:00
-  - 2026-05-23 19:00:00
-  - 2026-05-24 14:00:00
+  - datetime: 2026-05-17 14:00:00
+    venue: Larimer Arts Center
+  - datetime: 2026-05-17 19:00:00
+    venue: Larimer Arts Center
+  - datetime: 2026-05-22 19:00:00
+    venue: The Waterworks
+  - datetime: 2026-05-23 19:00:00
+    venue: The Waterworks
+  - datetime: 2026-05-24 14:00:00
+    venue: Howard Gilman Waterfront Park
 featured_image: 2026-Much-Ado-About-Nothing.webp
 featured_image_alt: Promotional artwork for All the Devils Shakespeare's 2026 production of Much Ado About Nothing.
 featured_image_caption:

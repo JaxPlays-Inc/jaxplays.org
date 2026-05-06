@@ -16,7 +16,17 @@
   {{- end -}}
 
   {{- range .Params.showtimes -}}
-    {{- $events = $events | append (dict "title" $title "start" . "theatre" $theatre "url" $url "color" $color "featured_image" $featured_image) -}}
+    {{- $showtimeDateTime := . -}}
+    {{- $showtimeVenue := "" -}}
+    {{- if in (printf "%T" .) "map" -}}
+      {{- $showtimeDateTime = index . "datetime" -}}
+      {{- $showtimeVenue = index . "venue" | default "" -}}
+    {{- end -}}
+    {{- $event := dict "title" $title "start" $showtimeDateTime "theatre" $theatre "url" $url "color" $color "featured_image" $featured_image -}}
+    {{- with $showtimeVenue -}}
+      {{- $event = merge $event (dict "venue" .) -}}
+    {{- end -}}
+    {{- $events = $events | append $event -}}
   {{- end -}}
 {{- end -}}
 {{- $events | jsonify -}}
