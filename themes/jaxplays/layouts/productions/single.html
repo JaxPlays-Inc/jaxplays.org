@@ -256,18 +256,51 @@
             Showtimes
           </div>
           <div class="w-75-ns w-100 pa3-ns pa2">
+            {{ $showtimesHaveVenue := false }}
+            {{ range .Params.showtimes }}
+              {{ if and (in (printf "%T" .) "map") (index . "venue") }}
+                {{ $showtimesHaveVenue = true }}
+              {{ end }}
+            {{ end }}
             {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
-            {{ $showtime := time . }} <!-- Convert each showtime to a Hugo time object -->
-            <div class="flex mb2 space-between">
-              <div class="w-75 w-50-l bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div>
+            {{ $showtimeDateTime := . }}
+            {{ $showtimeVenue := "" }}
+            {{ if in (printf "%T" .) "map" }}
+              {{ $showtimeDateTime = index . "datetime" }}
+              {{ $showtimeVenue = index . "venue" | default "" }}
+            {{ end }}
+            {{ $showtime := time $showtimeDateTime }} <!-- Convert each showtime to a Hugo time object -->
+            <div class="flex flex-wrap mb2 space-between">
+              <div class="{{ if $showtimesHaveVenue }}w-100 w-40-l{{ else }}w-75 w-50-l{{ end }} bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div>
               <!-- Date column -->
-              <div class="w-25 w-50-l bb bw.5 b--light-silver">
+              <div class="{{ if $showtimesHaveVenue }}w-40 w-20-l{{ else }}w-25 w-50-l{{ end }} bb bw.5 b--light-silver">
                 {{ $formattedTime := $showtime.Format "3:04 PM" }}
                 {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
                 {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
                 {{ $formattedTime }}
               </div>
               <!-- Time column -->
+              {{ if $showtimesHaveVenue }}
+              <div class="w-60 w-40-l bb bw.5 b--light-silver">
+                {{ with $showtimeVenue }}
+                  {{ $showtimeVenueURL := . }}
+                  {{ $showtimeVenueURL = replaceRE " & " "-and-" $showtimeVenueURL }}
+                  {{ $showtimeVenueURL = replaceRE " " "-" $showtimeVenueURL }}
+                  {{ $showtimeVenueURL = replaceRE "\\." "" $showtimeVenueURL }}
+                  {{ $showtimeVenueURL = $showtimeVenueURL | urlize }}
+                  {{ $showtimeVenuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $showtimeVenueURL) }}
+                  {{ if not $showtimeVenuePage }}
+                    {{ range where $currentPage.Site.Pages "Section" "venues" }}
+                      {{ if in .Params.venue_aliases $showtimeVenue }}
+                        {{ $showtimeVenuePage = . }}
+                        {{ $showtimeVenueURL = .Title | urlize | replaceRE "\\." "" }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                  <a href="/venues/{{ $showtimeVenueURL }}">{{ . }}</a>
+                {{ end }}
+              </div>
+              {{ end }}
             </div>
             {{ end }}
           </div>

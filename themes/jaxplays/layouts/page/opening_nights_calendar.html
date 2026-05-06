@@ -24,7 +24,13 @@
       {{- if gt (len .) 0 -}}
         {{- $dateTimeStamp := time.Format "20060102T150405Z" now -}}
         {{- $firstShowtime := index . 0 -}}
-        {{- $dateTimeFormat := printf "%s" $firstShowtime -}} {{/*  Get the first showtime  */}}
+        {{- $firstShowtimeDateTime := $firstShowtime -}}
+        {{- $firstShowtimeVenue := $venue -}}
+        {{- if in (printf "%T" $firstShowtime) "map" -}}
+          {{- $firstShowtimeDateTime = index $firstShowtime "datetime" -}}
+          {{- $firstShowtimeVenue = index $firstShowtime "venue" | default $venue -}}
+        {{- end -}}
+        {{- $dateTimeFormat := printf "%s" $firstShowtimeDateTime -}} {{/*  Get the first showtime  */}}
         {{- $dateTimeISO := replace $dateTimeFormat " " "T" -}} {{/* Replace space with T to form correct ISO 8601 format */}}
         {{- $dateTimeISO := time.AsTime $dateTimeISO -}}
         {{- $dateTimeStart := time.Format "20060102T150405" $dateTimeISO -}}
@@ -32,7 +38,7 @@
         {{- $dateTimeISOEND := $dateTimeISO.Add $duration -}}
         {{- $dateTimeEnd := time.Format "20060102T150405" $dateTimeISOEND -}}
         {{- $uid := printf "%s-%s-%s" (sha1 $title) (sha1 $dateTimeStamp) (sha1 $dateTimeStart) -}}  {{/* Generate pseudo-random UID based on title and timestamp */}}
-        {{- $events = $events | append (dict "title" $title "uid" $uid "stamp" $dateTimeStamp "start" $dateTimeStart "end" $dateTimeEnd "url" $url "featured_image" $featuredImage "venue" $venue "created_date" $createdDate) -}}
+        {{- $events = $events | append (dict "title" $title "uid" $uid "stamp" $dateTimeStamp "start" $dateTimeStart "end" $dateTimeEnd "url" $url "featured_image" $featuredImage "venue" $firstShowtimeVenue "created_date" $createdDate) -}}
     {{- end -}}
     {{- end -}}
   {{- end -}}

@@ -7,12 +7,18 @@ date: 2023-09-08T00:00:00
 opening_date: 2020-01-17
 closing_date: 2020-01-25
 showtimes:
-- 2020-01-17 19:30:00
-- 2020-01-18 19:30:00
-- 2020-01-19 15:00:00
-- 2020-01-23 19:30:00
-- 2020-01-24 19:30:00
-- 2020-01-25 19:30:00
+- datetime: 2020-01-17 19:30:00
+  venue: Swisher Theater
+- datetime: 2020-01-18 19:30:00
+  venue: Swisher Theater
+- datetime: 2020-01-19 15:00:00
+  venue: Swisher Theater
+- datetime: 2020-01-23 19:30:00
+  venue: Wilson Center - Main Stage Theatre
+- datetime: 2020-01-24 19:30:00
+  venue: Wilson Center - Main Stage Theatre
+- datetime: 2020-01-25 19:30:00
+  venue: Wilson Center - Main Stage Theatre
 featured_image: 2020_In_the_Heights.jpg
 featured_image_attr:
 featured_image_alt:
