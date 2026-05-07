@@ -3,6 +3,13 @@
 {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
 {{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
 {{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
+{{ $personNameKeys := slice }}
+{{ range $name := $personNames }}
+  {{ $nameKey := replace $name "’" "'" }}
+  {{ $nameKey = replace $nameKey "‘" "'" }}
+  {{ $nameKey = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $nameKey }}
+  {{ $personNameKeys = $personNameKeys | append ($nameKey | urlize) }}
+{{ end }}
 
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
@@ -89,9 +96,13 @@
               {{ else }}
                 {{ $actorSlice = $actor }}
               {{ end }}
-              {{ range $name := $personNames }}
-                {{ range $actorName := $actorSlice }}
-                  {{ if eq $actorName $name }}
+              {{ range $actorName := $actorSlice }}
+                {{ if eq (printf "%T" $actorName) "string" }}
+                  {{ $actorNameKey := replace $actorName "’" "'" }}
+                  {{ $actorNameKey = replace $actorNameKey "‘" "'" }}
+                  {{ $actorNameKey = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $actorNameKey }}
+                  {{ $actorNameKey = $actorNameKey | urlize }}
+                  {{ if in $personNameKeys $actorNameKey }}
                     {{ $credits = $credits | append $character }}
                   {{ end }}
                 {{ end }}
