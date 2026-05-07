@@ -65,7 +65,7 @@ tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1490&code=J
 cast:
   - Chairman / Mayor Thomas Sapsea: Alec Hadden
   - John Jasper: Justin Murphy
-  - Edwin Drood: "Torie D’Alessandro"
+  - Edwin Drood: Torie D’Alessandro
   - Rosa Bud: Ellen Shaw
   - Princess Puffer: Patti Eyler
   - Helena Landless: Megan Soledad

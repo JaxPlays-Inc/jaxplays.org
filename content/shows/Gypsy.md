@@ -8,7 +8,7 @@ show_details:
   - Music: "[[w:Jule Styne]]"
   - Lyrics: "[[w:Stephen Sondheim]]"
   - Book: "[[w:Arthur Laurents]]"
-  - Basis: "[[w:Gypsy: A Memoir]]"
+  - Basis: "*[[w:Gypsy: A Memoir]]*"
 genres:
   - Musical
   - Drama

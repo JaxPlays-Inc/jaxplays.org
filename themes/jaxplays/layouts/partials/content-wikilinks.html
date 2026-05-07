@@ -1,38 +1,49 @@
 {{- /* layouts/partials/content-wikilinks.html */ -}}
 {{- $wikiregex := "\\[\\[([^\\]]+?)\\]\\]" -}}
-{{- $wikilinks := findRE $wikiregex . -}}
 {{- $content := . -}}
-{{- /* normalize curly apostrophes to reduce text-splitting corruption during replace passes */ -}}
-{{- $content = replace $content "’" "'" -}}
+{{- $wikilinks := findRE $wikiregex $content -}}
 {{- $markdownEmphasisRegex := "\\*([^\\*]+)\\*" -}} {{/* detect markdown emphasis with asterisks */}}
 
 {{- range $wikilinks -}}
-  {{- $linkText := replaceRE $wikiregex "$1" . -}}
-  {{- $parts := split $linkText "|" -}}
-  {{- $mainPart := index $parts 0 -}}
+  {{- $originalLink := . -}}
+  {{- $linkText := replaceRE $wikiregex "$1" $originalLink -}}
+  {{- $normalizedLinkText := replace $linkText "’" "'" -}}
+  {{- $normalizedLinkText = replace $normalizedLinkText "‘" "'" -}}
+  {{- $rawParts := split $linkText "|" -}}
+  {{- $parts := split $normalizedLinkText "|" -}}
+  {{- $mainPart := trim (index $parts 0) " " -}}
+  {{- $rawMainPart := trim (index $rawParts 0) " " -}}
   {{- $display := "" -}}
   {{- $url := "" -}}
 
   {{- $colonParts := split $mainPart ":" -}}
+  {{- $rawColonParts := split $rawMainPart ":" -}}
+  {{- $prefix := trim (index $colonParts 0) " " -}}
+  {{- $target := delimit (after 1 $colonParts) ":" -}}
+  {{- $target = trim $target " " -}}
+  {{- $target = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $target -}}
+  {{- $rawTarget := delimit (after 1 $rawColonParts) ":" -}}
+  {{- $rawTarget = trim $rawTarget " " -}}
+  {{- $rawTarget = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $rawTarget -}}
   {{- $route := "" -}}
 
   {{- if eq (len $parts) 2 -}}
-    {{- $display = index $parts 1 -}}
+    {{- $display = trim (index $rawParts 1) " " -}}
   {{- else -}}
-    {{- $display = delimit (after 1 $colonParts) ":" -}}
+    {{- $display = $rawTarget -}}
   {{- end -}}
 
   {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
   {{- $isKnownPrefix := false -}}
   {{- range $key, $val := $routeMap -}}
-    {{- if eq (index $colonParts 0) $key -}}
+    {{- if eq $prefix $key -}}
       {{- $route = $val -}}
       {{- $isKnownPrefix = true -}}
     {{- end -}}
   {{- end -}}
 
   {{- if $isKnownPrefix -}}
-    {{- $internalURLize := delimit (after 1 $colonParts) ":" -}}
+    {{- $internalURLize := $target -}}
     {{- $internalURLize = replace $internalURLize "&amp;" "and" -}}
     {{- $internalURLize = replace $internalURLize "é" "e" -}}
     {{- $internalURLize = replace $internalURLize "è" "e" -}}
@@ -47,7 +58,7 @@
     {{- $url = printf "%s%s" $route ($internalURLize | urlize) -}}
 
     {{- $style := "" -}}
-    {{- if eq (index $colonParts 0) "production" -}}
+    {{- if eq $prefix "production" -}}
       {{- $style = " style=\"font-style: italic;\"" -}}
       {{- if eq (len $parts) 1 -}}
         {{- if ge (len $display) 5 -}}
@@ -59,15 +70,15 @@
     {{- end -}}
 
     {{- $link := printf "<a%s href=\"%s\">%s</a>" $style $url $display -}}
-    {{- $content = replace $content . $link -}}
-  {{- else if eq (index $colonParts 0) "w" -}}
-    {{- $wikiName := delimit (after 1 $colonParts) ":" -}}
+    {{- $content = replace $content $originalLink $link -}}
+  {{- else if eq $prefix "w" -}}
+    {{- $wikiName := $target -}}
     {{- $wikiName = replace $wikiName " " "_" -}}
     {{- $wikiName = replace $wikiName "'" "%27" -}}
     {{- $wikiName = replace $wikiName "&rsquo;" "%27" -}}
     {{- $url = printf "https://en.wikipedia.org/wiki/%s" $wikiName -}}
     {{- $link := printf "<a href=\"%s\" target=\"_blank\">%s</a>" $url $display -}}
-    {{- $content = replace $content . $link -}}
+    {{- $content = replace $content $originalLink $link -}}
   {{- end -}}
 {{- end -}}
 
