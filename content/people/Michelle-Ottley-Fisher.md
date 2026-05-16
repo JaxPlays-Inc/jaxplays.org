@@ -9,11 +9,12 @@ other_names:
   - Michelle J. Ottley
   - Michele J. Ottley
 layout: people
-featured_image: 
+featured_image: Michelle-Ottley-Fisher.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
 socials:
-  linkedin: Michelle Ottley-Fisher | michelle-ottley-fisher-19ab9632
-date: 2023-09-08T00:00:00-04:00
+  linkedin: michelle-ottley-fisher-19ab9632
+  instagram: mama.o
+date: 2026-05-16T13:07:01-04:00
 ---
