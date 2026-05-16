@@ -1,5 +1,9 @@
 ---
 title: Brennan Moritz
+aliases:
+  - /people/brennan-a-moritz
+other_names:
+  - Brennan A. Moritz
 date: 2025-06-07T10:52:25-04:00
 featured_image: 
 featured_image_attr: 

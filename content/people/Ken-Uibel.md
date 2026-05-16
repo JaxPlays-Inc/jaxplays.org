@@ -1,5 +1,9 @@
 ---
 title: Ken Uibel
+aliases:
+  - /people/kenneth-uibel
+other_names:
+  - Kenneth Uibel
 date: 2025-02-22T14:44:38-05:00
 featured_image: Ken-Uibel.webp
 featured_image_attr: 
