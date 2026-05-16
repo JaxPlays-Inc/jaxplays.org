@@ -5,10 +5,10 @@ aliases:
 other_names:
   - Brennan A. Moritz
 date: 2025-06-07T10:52:25-04:00
-featured_image: 
+featured_image: Brennan-Moritz.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: 
+featured_image_alt: Headshot of Brennan A. Moritz
 featured_image_caption: 
 socials:
   facebook: 

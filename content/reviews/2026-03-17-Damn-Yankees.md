@@ -21,7 +21,6 @@ cast:
 - Patti Eyler
 - Maureen McCluskey
 - Kailey Anderson
-- Ellen Shaw
 - James Michael Roddy
 - Sebastian Miller
 - Izee Haynes
