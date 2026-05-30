@@ -18,24 +18,52 @@ showtimes:
   - 2026-06-12 20:00:00
   - 2026-06-13 20:00:00
 featured_image: 2026-The-Legend-of-Georgia-McBride.webp
-featured_image_alt: 
-featured_image_caption: 
+featured_image_alt: Poster for The Legend of Georgia McBride
+featured_image_caption: Poster for The Legend of Georgia McBride
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2026-The-Legend-of-Georgia-McBride.pdf
 website: https://the5anddime.org/s2026/the-legend-of-georgia-mcbride/
-tickets: 
+tickets: https://www.eventbrite.com/e/the-legend-of-georgia-mcbride-tickets-1977185351611
 show_details: 
 - Playwright: "[[w:Matthew Lopez]]"
 cast:
+  - Casey: Zachary Jones
+  - Jo: Cate Frostman
+  - Miss Tracy Mills: Brandon Hines
+  - Rexy: Allen Morton
+  - Jason: Levi Reeves
+  - Eddie: Greg Hewitt
 crew:
-  - Director: 
+  - Directors:
     - Christopher Collinsworth
     - Madelene Skinner
+  - Stage Manager: Ashli Horton Simmons
+  - Choreographer: Layla Mummey
+  - Set Designer / Master Carpenter / Lighting Designer: Logan Forbess
+  - Costume Designer: Jetti Rae Godwin
+  - Prop Master: Jenny Tammera
+  - Technical Director / Lighting Design / Sound Design: Ryan Walker
+  - Intimacy Coordinator: Kyra Smith
+  - Production Manager: Ryan Walker
+  - Crew:
+    - Audrey Jennings
+    - Christie Futch
+  - Box Office Manager: Krysten Bennett
+  - House & Bar Manager: Cynthia Riegler
+  - Promo & Production Photographer: Jon Scherf
+  - Graphic Designer / Web Master: Caryl Butterley
+  - Media Content Producer: Mikhelon Arnold
 orchestra:
-genres: 
-description: "Drag is a protest. A raised fist in a sequined glove."
+genres:
+  - Play
+  - Comedy
+  - LGBTQ+
+description: A broke Elvis impersonator discovers drag, identity, and unexpected confidence under the wing of a seasoned queen.
+source: The 5 & Dime production page and program
+source_date: 2026-05-29
+source_url: https://the5anddime.org/s2026/the-legend-of-georgia-mcbride/
 ---
-What do you get when you pair a broke Elvis impersonator with a savvy drag queen? One hell of a show! Join us as we celebrate pride and the art of drag.
+*The Legend of Georgia McBride* follows Casey, a struggling Elvis impersonator in Panama City, Florida, whose life changes when a seasoned drag queen helps him trade jumpsuits for sequins.
 
-“… sheer bust‑a‑gut, lose‑yourself, feel‑good fun at the theatre.” — NY1
+Matthew Lopez's comedy pairs showbiz sparkle with a warm story about identity, reinvention, and the nerve it takes to step fully into the spotlight.
