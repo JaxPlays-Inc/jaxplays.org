@@ -35,7 +35,7 @@ cast:
   - Jason: Levi Reeves
   - Eddie: Greg Hewitt
 crew:
-  - Directors:
+  - Director:
     - Christopher Collinsworth
     - Madelene Skinner
   - Stage Manager: Ashli Horton Simmons
