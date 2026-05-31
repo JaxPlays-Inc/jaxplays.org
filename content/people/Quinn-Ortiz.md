@@ -1,6 +1,6 @@
 ---
 title: Quinn Ortiz
-date: 2025-12-03T16:57:36-05:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Quinn-Ortiz.webp
 featured_image_attr: 
 featured_image_attr_link: 

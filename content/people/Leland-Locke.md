@@ -1,5 +1,6 @@
 ---
 title: Leland Locke
+date: 2026-05-31T16:34:00-04:00
 aliases: 
   - /people/logan-locke
   - /people/l-leland-locke
@@ -19,6 +20,5 @@ socials:
   facebook: logan.locke.54
   threads: lelandslock
   instagram: lelandslock
-date: 2023-09-08T00:00:00-04:00
 ---
 Leland Locke is actor, singer, and dancer all-in-one. He has had the honor to have been in *Beowulf: Poetry, Puppetry, & Song* as Beowulf, *Mean Girls* as Damian, *Puffs* as Wayne Hopkins, and *Romeo and Juliet* as Romeo. With the help from his family and friends, he is able to bow with confidence for every show he is in.

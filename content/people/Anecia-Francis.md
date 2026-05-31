@@ -1,6 +1,6 @@
 ---
 title: Anecia Francis
-date: 2025-02-20T14:42:54-05:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Anecia-Francis-01.webp
 featured_image_attr: 
 featured_image_attr_link: 

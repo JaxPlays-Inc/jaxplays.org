@@ -1,6 +1,6 @@
 ---
 title: Luwam Yikuno
-date: 2025-07-01T21:56:10-04:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Luwam-Yikuno.webp
 featured_image_attr: 
 featured_image_attr_link: 

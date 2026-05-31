@@ -1,6 +1,6 @@
 ---
 title: Maggie Cox
-date: 2024-09-09T20:55:28-04:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Maggie-Cox-02.webp
 featured_image_attr: Jessica Osber
 featured_image_attr_link: 

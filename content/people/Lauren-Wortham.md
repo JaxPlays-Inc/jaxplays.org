@@ -1,6 +1,6 @@
 ---
 title: Lauren Wortham
-date: 2025-12-03T13:08:11-05:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Lauren-Wortham.webp
 featured_image_attr: Darnell Bennet
 featured_image_attr_link: 

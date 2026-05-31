@@ -1,6 +1,6 @@
 ---
 title: Jake Ayres
-date: 2025-01-03T16:23:33-05:00
+date: 2026-05-31T16:34:00-04:00
 aliases:
  - /people/jacob-ayres
  - /people/jake-ayers
