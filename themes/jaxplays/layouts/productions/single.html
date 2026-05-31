@@ -396,7 +396,32 @@
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     {{ $site := .Site }}
 
-    {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
+    {{ with .Params.cast }}
+      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+        <h3 class="f3 mt4 mb3 sectionline">Cast</h3>
+        <div class="cast-array-wrapper production-cast-wrapper">
+          <div class="scroll-cast production-cast-strip">
+            {{ range . }}
+              {{ range $roleOrChar, $person := . }}
+                {{ if (eq (printf "%T" $person) "[]interface {}") }}
+                  {{ range $idx, $p := $person }}
+                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true "creditLabel" $roleOrChar) }}
+                    {{ $output := chomp $output }}
+                    {{ $output | safeHTML }}
+                  {{ end }}
+                {{ else }}
+                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false "creditLabel" $roleOrChar) }}
+                  {{ $output := chomp $output }}
+                  {{ $output | safeHTML }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    {{ end }}
+
+    {{ range $section, $paramsArray := dict "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
     {{ if $paramsArray }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
@@ -439,6 +464,48 @@
       width: 100%;
     }
 
+    .production-cast-strip {
+      align-items: center;
+    }
+
+    .production-credit-person {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      width: 17rem;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .production-credit-person .production-credit-image {
+      flex: 0 0 auto;
+      margin-bottom: 0;
+    }
+
+    .production-credit-person .production-credit-copy {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .production-credit-person .production-credit-name,
+    .production-credit-person .production-credit-role {
+      width: auto;
+      text-align: left;
+    }
+
+    .production-credit-person .production-credit-name {
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .production-credit-person .production-credit-role {
+      color: #555;
+      line-height: 1.25;
+      margin-top: .2rem;
+    }
+
     /* On mobile only (max-width: 700px), horizontal scroll! */
     @media (max-width: 700px) {
       .scroll-cast {
@@ -459,6 +526,32 @@
       .scroll-cast > * {
         flex: 0 0 auto;
         scroll-snap-align: start;
+      }
+
+      .production-cast-strip {
+        justify-content: flex-start;
+      }
+
+      .production-credit-person {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        width: 8rem;
+      }
+
+      .production-credit-person .production-credit-image {
+        margin-bottom: .25rem;
+      }
+
+      .production-credit-person .production-credit-copy {
+        align-items: center;
+        width: 8rem;
+      }
+
+      .production-credit-person .production-credit-name,
+      .production-credit-person .production-credit-role {
+        width: 8rem;
+        text-align: center;
       }
     }
     </style>
