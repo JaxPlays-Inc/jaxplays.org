@@ -49,7 +49,34 @@
             <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
           </a>
           {{ range .Params.headshot_gallery }}
-            <a href="/media/headshots/{{ . }}" data-lightbox="{{ $headshotLightbox }}" data-title="{{ $featuredImageCaption }}" class="dn"></a>
+            {{ $galleryImage := . }}
+            {{ $galleryImageFile := . }}
+            {{ $galleryImageAlt := printf "Headshot of %s" $.Title }}
+            {{ $galleryImageCaption := $featuredImageCaption }}
+            {{ $galleryImageAttr := "" }}
+            {{ $galleryImageAttrLink := "" }}
+            {{ if reflect.IsMap $galleryImage }}
+              {{ $galleryImageFile = $galleryImage.image }}
+              {{ $galleryImageAlt = $galleryImage.alt | default $galleryImageAlt }}
+              {{ $galleryImageCaption = $galleryImage.caption | default $galleryImageCaption }}
+              {{ $galleryImageAttr = $galleryImage.attr | default "" }}
+              {{ $galleryImageAttrLink = $galleryImage.attr_link | default "" }}
+            {{ end }}
+            {{ $galleryImageTitle := $galleryImageCaption }}
+            {{ if $galleryImageAttr }}
+              {{ $galleryImageCredit := printf "(📷 %s)" $galleryImageAttr }}
+              {{ if $galleryImageAttrLink }}
+                {{ $galleryImageCredit = printf "<a href='%s'>%s</a>" $galleryImageAttrLink $galleryImageCredit }}
+              {{ end }}
+              {{ if $galleryImageTitle }}
+                {{ $galleryImageTitle = printf "%s | %s" $galleryImageTitle $galleryImageCredit }}
+              {{ else }}
+                {{ $galleryImageTitle = $galleryImageCredit }}
+              {{ end }}
+            {{ end }}
+            {{ with $galleryImageFile }}
+              <a href="/media/headshots/{{ . }}" data-lightbox="{{ $headshotLightbox }}" data-title="{{ $galleryImageTitle }}" aria-label="{{ $galleryImageAlt }}" class="dn"></a>
+            {{ end }}
           {{ end }}
         {{ else }}
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
