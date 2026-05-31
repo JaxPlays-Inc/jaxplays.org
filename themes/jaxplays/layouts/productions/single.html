@@ -396,21 +396,28 @@
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     {{ $site := .Site }}
 
-    {{ with .Params.cast }}
+    {{ range $creditSection := slice
+      (dict "title" "Cast" "items" .Params.cast)
+      (dict "title" "Crew" "items" .Params.crew)
+      (dict "title" "Understudies" "items" .Params.understudies)
+      (dict "title" "Orchestra" "items" .Params.orchestra)
+    }}
+    {{ $paramsArray := $creditSection.items }}
+    {{ if $paramsArray }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb4 sectionline">Cast</h3>
-        <div class="cast-array-wrapper production-cast-wrapper">
-          <div class="scroll-cast production-cast-strip">
-            {{ range . }}
-              {{ range $roleOrChar, $person := . }}
+        <h3 class="f3 mt4 mb4 sectionline">{{ $creditSection.title }}</h3>
+        <div class="cast-array-wrapper production-credit-wrapper">
+          <div class="scroll-cast production-credit-strip">
+            {{ range $paramsArray }}
+              {{ range $roleOrCharOrInst, $person := . }}
                 {{ if (eq (printf "%T" $person) "[]interface {}") }}
                   {{ range $idx, $p := $person }}
-                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true "creditLabel" $roleOrChar) }}
+                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true "creditLabel" $roleOrCharOrInst) }}
                     {{ $output := chomp $output }}
                     {{ $output | safeHTML }}
                   {{ end }}
                 {{ else }}
-                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false "creditLabel" $roleOrChar) }}
+                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false "creditLabel" $roleOrCharOrInst) }}
                   {{ $output := chomp $output }}
                   {{ $output | safeHTML }}
                 {{ end }}
@@ -418,37 +425,6 @@
             {{ end }}
           </div>
         </div>
-      </div>
-    {{ end }}
-
-    {{ range $section, $paramsArray := dict "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
-    {{ if $paramsArray }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
-        {{ range $paramsArray }}
-          {{ range $roleOrCharOrInst, $person := . }}
-            <div class="flex-column bb bw1 b--silver f5 f4-ns">
-              <div class="b w-100 pt3 pb2">{{ $roleOrCharOrInst }}</div>
-                <div class="flex justify-center pb3 w-100">
-                {{ if (eq (printf "%T" $person) "[]interface {}") }}
-                  <div class="cast-array-wrapper">
-                  <div class="scroll-cast">
-                    {{ range $idx, $p := $person }}
-                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
-                    {{ $output := chomp $output }}
-                    {{ $output | safeHTML }}
-                    {{ end }}
-                  </div>
-                  </div>
-                {{ else }}
-                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false) }}
-                  {{ $output := chomp $output }}
-                  {{ $output | safeHTML }}
-                {{ end }}
-                </div>
-            </div>
-          {{ end }}
-        {{ end }}
       </div>
     {{ end }}
     {{ end }}
@@ -464,7 +440,7 @@
       width: 100%;
     }
 
-    .production-cast-strip {
+    .production-credit-strip {
       align-items: center;
     }
 
@@ -528,7 +504,7 @@
         scroll-snap-align: start;
       }
 
-      .production-cast-strip {
+      .production-credit-strip {
         justify-content: flex-start;
       }
 
