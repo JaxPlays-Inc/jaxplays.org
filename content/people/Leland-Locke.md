@@ -13,6 +13,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Leland_Locke.webp
 socials:
   facebook: logan.locke.54
   threads: lelandslock

@@ -6,6 +6,8 @@ featured_image_attr: Val T Photography
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Kailey-Anderson.webp
 socials:
   facebook: 
   twitter: 

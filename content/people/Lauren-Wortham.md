@@ -6,6 +6,8 @@ featured_image_attr: Darnell Bennet
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Lauren-Wortham-02.webp
 socials:
   facebook: 
   twitter: 

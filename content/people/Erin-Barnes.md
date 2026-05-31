@@ -9,6 +9,8 @@ featured_image: Erin-Barnes-01.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Erin_Barnes.jpeg
 details:
   facebook: 
   twitter: 

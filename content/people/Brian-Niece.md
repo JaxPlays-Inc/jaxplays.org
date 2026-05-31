@@ -3,6 +3,8 @@ title: Brian Niece
 featured_image: Brian-Niece.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
+headshot_gallery:
+  - Brian_Niece.webp
 equity: true
 sdc: true
 socials:

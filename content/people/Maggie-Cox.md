@@ -6,6 +6,8 @@ featured_image_attr: Jessica Osber
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Maggie-Cox.webp
 socials:
   facebook: profile.php?id=100016632759082
   twitter: 

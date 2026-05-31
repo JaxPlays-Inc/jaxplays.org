@@ -5,6 +5,8 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Bill-Ratliff.webp
 socials:
   facebook: 
   twitter: 
