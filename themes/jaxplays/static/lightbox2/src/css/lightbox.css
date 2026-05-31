@@ -104,7 +104,7 @@ body.lb-disable-scrolling {
   width: 44%;
   left: 0;
   float: left;
-  background: url(../images/prev.png) 1rem 48% no-repeat;
+  background: url(../images/prev.png) 0 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   -webkit-transition: opacity 0.6s;
@@ -122,7 +122,7 @@ body.lb-disable-scrolling {
   width: 54%;
   right: 0;
   float: right;
-  background: url(../images/next.png) calc(100% - 1rem) 48% no-repeat;
+  background: url(../images/next.png) 100% 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   -webkit-transition: opacity 0.6s;
