@@ -3,5 +3,6 @@ frontmatter.json
 .vscode/settings.json
 .frontmatter/database/taxonomyDb.json
 /public/*
+.hugo_cache/
 .claude/settings.local.json
 .DS_Store
