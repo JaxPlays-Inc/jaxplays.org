@@ -1,11 +1,13 @@
 ---
 title: Collin Galvin
-date: 2025-06-28T22:46:01-04:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Collin-Galvin-01.webp
 featured_image_attr: Anthony Paderewski - Anthony Shoots
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Collin-Galvin-02.webp
 socials:
   facebook: 
   twitter: 

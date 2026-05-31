@@ -1,11 +1,13 @@
 ---
 title: Kailey Anderson
-date: 2025-08-20T16:51:40-04:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Kailey-Anderson-02.webp
 featured_image_attr: Val T Photography
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Kailey-Anderson.webp
 socials:
   facebook: 
   twitter: 

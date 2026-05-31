@@ -1,5 +1,6 @@
 ---
 title: Erin Barnes
+date: 2026-05-31T16:34:00-04:00
 other_names: 
   - Erin Balazs Barnes
 aliases: 
@@ -9,12 +10,14 @@ featured_image: Erin-Barnes-01.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Erin_Barnes.jpeg
 details:
   facebook: 
   twitter: 
   instagram: 
   linkedin: erin-barnes-b26058193
-date: 2023-09-08T00:00:00-04:00
+
 ---
 
 Erin Barnes is a musical powerhouse based in sunny Jacksonville, Florida. With over 15 years of experience, Erin has conquered the local music scene as a pianist, singer, director and actor extraordinaire. Her performances at Players by the Sea, Theatre Jacksonville and the 5 & Dime have made her a household name in the community. Her favorite roles include the sassy Tracey in “Sweat,” the ghoulish Morticia in “The Addams Family,” and the lovable Nellie in “South Pacific.” 

@@ -1,10 +1,12 @@
 ---
 title: Kaylee Byers
-date: 2025-11-05T10:36:28-05:00
+date: 2026-05-31T16:34:00-04:00
 featured_image: Kaylee-Byers-02.webp
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Kaylee-Byers.webp
 socials:
   youtube: "@zube_showz"
   instagram: zube.showz
@@ -16,10 +18,6 @@ photos:
   photo_alt: 
   photo_caption: 
 - photo: ../../../../../media/photos/Kaylee-Byers-02.webp
-  photo_attr: 
-  photo_alt: 
-  photo_caption:
-- photo: Kaylee-Byers.webp
   photo_attr: 
   photo_alt: 
   photo_caption:
