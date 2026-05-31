@@ -396,34 +396,35 @@
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     {{ $site := .Site }}
 
-    {{ range $section, $paramsArray := dict "Cast" .Params.cast "Crew" .Params.crew "Understudies" .Params.understudies "Orchestra" .Params.orchestra }}
+    {{ range $creditSection := slice
+      (dict "title" "Cast" "items" .Params.cast)
+      (dict "title" "Crew" "items" .Params.crew)
+      (dict "title" "Understudies" "items" .Params.understudies)
+      (dict "title" "Orchestra" "items" .Params.orchestra)
+    }}
+    {{ $paramsArray := $creditSection.items }}
     {{ if $paramsArray }}
       <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-        <h3 class="f3 mt4 mb3 sectionline">{{ $section }}</h3>
-        {{ range $paramsArray }}
-          {{ range $roleOrCharOrInst, $person := . }}
-            <div class="flex-column bb bw1 b--silver f5 f4-ns">
-              <div class="b w-100 pt3 pb2">{{ $roleOrCharOrInst }}</div>
-                <div class="flex justify-center pb3 w-100">
+        <h3 class="f3 mt4 mb4 sectionline">{{ $creditSection.title }}</h3>
+        <div class="cast-array-wrapper production-credit-wrapper">
+          <div class="scroll-cast production-credit-strip">
+            {{ range $paramsArray }}
+              {{ range $roleOrCharOrInst, $person := . }}
                 {{ if (eq (printf "%T" $person) "[]interface {}") }}
-                  <div class="cast-array-wrapper">
-                  <div class="scroll-cast">
-                    {{ range $idx, $p := $person }}
-                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true) }}
+                  {{ range $idx, $p := $person }}
+                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true "creditLabel" $roleOrCharOrInst) }}
                     {{ $output := chomp $output }}
                     {{ $output | safeHTML }}
-                    {{ end }}
-                  </div>
-                  </div>
+                  {{ end }}
                 {{ else }}
-                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false) }}
+                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false "creditLabel" $roleOrCharOrInst) }}
                   {{ $output := chomp $output }}
                   {{ $output | safeHTML }}
                 {{ end }}
-                </div>
-            </div>
-          {{ end }}
-        {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
       </div>
     {{ end }}
     {{ end }}
@@ -435,8 +436,50 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: stretch;
-      gap: 1rem;
+      gap: 2rem;
       width: 100%;
+    }
+
+    .production-credit-strip {
+      align-items: center;
+    }
+
+    .production-credit-person {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      width: 17rem;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .production-credit-person .production-credit-image {
+      flex: 0 0 auto;
+      margin-bottom: 0;
+    }
+
+    .production-credit-person .production-credit-copy {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .production-credit-person .production-credit-name,
+    .production-credit-person .production-credit-role {
+      width: auto;
+      text-align: left;
+    }
+
+    .production-credit-person .production-credit-name {
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .production-credit-person .production-credit-role {
+      color: #555;
+      line-height: 1.25;
+      margin-top: .2rem;
     }
 
     /* On mobile only (max-width: 700px), horizontal scroll! */
@@ -459,6 +502,32 @@
       .scroll-cast > * {
         flex: 0 0 auto;
         scroll-snap-align: start;
+      }
+
+      .production-credit-strip {
+        justify-content: flex-start;
+      }
+
+      .production-credit-person {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        width: calc(100% / 2.9);
+      }
+
+      .production-credit-person .production-credit-image {
+        margin-bottom: .25rem;
+      }
+
+      .production-credit-person .production-credit-copy {
+        align-items: center;
+        width: 8rem;
+      }
+
+      .production-credit-person .production-credit-name,
+      .production-credit-person .production-credit-role {
+        width: 8rem;
+        text-align: center;
       }
     }
     </style>
