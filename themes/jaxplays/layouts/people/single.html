@@ -41,12 +41,16 @@
         {{ $imagePath = "/media/default/people_headshot.webp" }}
       {{ end }}
 
+      {{ $headshotLightbox := printf "headshots-%s" (.File.BaseFileName | urlize) }}
       <div class="w-75 w-40-m w-25-l flex-column center">
         {{ if $featuredImage }}
-          <a href="{{ $imagePath }}" data-lightbox="image-1"
+          <a href="{{ $imagePath }}" data-lightbox="{{ $headshotLightbox }}"
             data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
             <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
           </a>
+          {{ range .Params.headshot_gallery }}
+            <a href="/media/headshots/{{ . }}" data-lightbox="{{ $headshotLightbox }}" data-title="{{ $featuredImageCaption }}" class="dn"></a>
+          {{ end }}
         {{ else }}
           <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
         {{ end }}

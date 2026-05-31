@@ -3,6 +3,8 @@ title: Susan Joline
 featured_image: Susan-Joline-02.webp
 featured_image_alt: Headshot of Susan Joline
 featured_image_caption: Headshot of Susan Joline
+headshot_gallery:
+  - Susan-Joline.webp
 socials:
   facebook:
   twitter:
