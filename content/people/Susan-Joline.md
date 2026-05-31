@@ -5,10 +5,6 @@ featured_image_alt: Headshot of Susan Joline
 featured_image_caption: Headshot of Susan Joline
 headshot_gallery:
   - image: Susan-Joline.webp
-    alt: Alternate headshot of Susan Joline
-    caption: Dummy caption for Susan Joline's alternate headshot.
-    attr: Placeholder Photographer
-    attr_link: https://example.com/susan-joline-headshot-credit
 socials:
   facebook:
   twitter:

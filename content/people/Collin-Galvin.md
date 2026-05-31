@@ -6,6 +6,8 @@ featured_image_attr: Anthony Paderewski - Anthony Shoots
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - Collin-Galvin-02.webp
 socials:
   facebook: 
   twitter: 
