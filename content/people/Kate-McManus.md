@@ -6,7 +6,6 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/ 
 headshot_gallery:
   - Kate-McManus.webp
-  - Kate_McManus.webp
 socials:
   facebook: 
   twitter: 

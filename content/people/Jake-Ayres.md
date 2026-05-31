@@ -13,8 +13,11 @@ featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
 headshot_gallery:
-  - Jake-Ayres-3.webp
-  - Jake-Ayres.webp
+  - image: Jake-Ayres-3.webp
+    attr: Jax Headshots
+    attr_link: https://www.jaxheadshots.co/
+  - image: Jake-Ayres.webp
+    attr: Chris Milligan
 socials:
   facebook: 
   twitter: 
@@ -23,20 +26,5 @@ socials:
   ibdb: 
   imdb:
   website: 
-photos:
-- photo: Jake-Ayres.webp
-  photo_alt: 
-  photo_caption: 
-  photo_attr: Chris Milligan
-- photo: Jake-Ayres-2.webp
-  photo_alt: 
-  photo_caption: 
-  photo_attr: Jax Headshots
-  photo_attr_link: https://www.jaxheadshots.co/
-- photo: Jake-Ayres-3.webp
-  photo_alt: 
-  photo_caption: 
-  photo_attr: Jax Headshots
-  photo_attr_link: https://www.jaxheadshots.co/
 ---
 Jake is a singer and actor from St. Augustine. Professional credits include [[production:2024 A Christmas Story: The Musical]] (Flick & Ralphie U/S) and [[production:2025 Charlie and the Chocolate Factory]]. Jake was also in [[production:2025 Our Town]] (Wally Webb) at the [[theatre:Limelight Theatre|Limelight]]. Jake is a Freshman at Douglas Anderson School of the Arts. He takes voice lessons from Jen Schlecte. He loves singing and acting and hopes to do it for the rest of his life.

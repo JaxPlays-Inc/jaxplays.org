@@ -16,9 +16,4 @@ socials:
   ibdb: 
   imdb:
   website: 
-photos:
-- photo: Quinn-Ortiz-02.webp
-  photo_alt: 
-  photo_caption: 
-  photo_attr:
 ---
