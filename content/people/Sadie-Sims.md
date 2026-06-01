@@ -15,4 +15,4 @@ socials:
   imdb:
   website:
 ---
-Sadie Sims is currently a sophomore at The University of North Florida. Since moving to Jacksonville, she has been seen in [[production: 2025 Ride The Cyclone]] (Ocean O'Connell Rosenberg) with UNF Swoop Troupe and The 5 & Dime, and in Greenlight Theater's production of [[production: 2025Chicago]] (Velma Kelly). Before moving to Jacksonville, she has performed in *Little Shop of Horrors* (Audrey) and *Romeo and Juliet* (Juliet).
+Sadie Sims is currently a sophomore at The University of North Florida. Since moving to Jacksonville, she has been seen in [[production: 2025 Ride The Cyclone]] (Ocean O'Connell Rosenberg) with UNF Swoop Troupe and The 5 & Dime, and in Greenlight Theater's production of [[production: 2025-Chicago]] (Velma Kelly). Before moving to Jacksonville, she has performed in *Little Shop of Horrors* (Audrey) and *Romeo and Juliet* (Juliet).
