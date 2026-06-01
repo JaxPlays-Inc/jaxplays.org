@@ -1,5 +1,5 @@
 ---
-title: Alice By Heart
+title: Alice by Heart
 theatre: The 5 & Dime
 venue: The Florida Ballet
 season: 2026
@@ -18,14 +18,17 @@ showtimes:
   - 2026-02-20 20:00:00
   - 2026-02-21 20:00:00
 featured_image: 2026-Alice-by-Heart.webp
-featured_image_alt: 
-featured_image_caption: 
+featured_image_alt: Poster for The 5 & Dime's production of Alice by Heart
+featured_image_caption: Poster for Alice by Heart
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2026-Alice-by-Heart.pdf
 website: https://the5anddime.org/s2026/alice-by-heart/
-tickets: 
-show_details: 
+tickets: https://www.eventbrite.com/e/alice-by-heart-tickets-1977180023675
+show_details:
+  - Book: Steven Sater and Jessie Nelson
+  - Music: "[[w:Duncan Sheik]]"
+  - Lyrics: Steven Sater
 cast:
   - Alice Spencer / Alice: Sadie Sims
   - Alfred Hallam / White Rabbit / March Hare: Terry Star
@@ -51,11 +54,33 @@ understudies:
   - Clarissa: Hailey Thrower
 crew:
   - Director: Leland Locke
-  - Musical Director: Anvar Gashimov
+  - Musical Director / Costume Designer: Anvar Gashimov
   - Choreographer: Lucy Graff
+  - Assistant Director: Hailee Ketterer
+  - Stage Manager: Jillian Cote
+  - Assistant Stage Managers:
+      - Bianca Voelkel
+      - Kaleigh Ervin
+  - Prop Master / Stagehand: Jenny Tammera
+  - Swoop Troupe Technical Director / Scenic Designer / Crew: Logan Forbess
+  - Scenic Charge Artist: Andre Jon Valencia
+  - Lighting Designer: Alex Lopez
+  - Makeup and Hair: Scout Lee
+  - Dialect Coach: Cole Marshall
+  - Sound Technician: Ellie Coten
+  - Swoop Troupe Marketing Director: Miles Genaovargas
+  - Technical Director: Ryan Walker
+  - Box Office Manager: Krysten Bennett
+  - House & Bar Manager: Ashley Clifford
+  - Promo & Production Photographer: Amanda Rosenblatt
 orchestra:
-genres: 
+genres:
+  - Musical
+  - Fantasy
 description: "It’s just a dream, but dreams can free your mind."
+source: The 5 & Dime production page and program
+source_date: 2026-06-01
+source_url: https://the5anddime.org/s2026/alice-by-heart/
 ---
 **NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and [[theatre:Swoop Troupe]] Theater Club at UNF.
 
