@@ -404,7 +404,7 @@
     }}
     {{ $paramsArray := $creditSection.items }}
     {{ if $paramsArray }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb4 sectionline">{{ $creditSection.title }}</h3>
         <div class="cast-array-wrapper production-credit-wrapper">
           <div class="scroll-cast production-credit-strip">
@@ -543,7 +543,7 @@
     {{ end }}
 
     {{ if or $relatedReviews .Params.reviews }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
       {{ range $relatedReviews }}
       {{ $description := .Params.description }}
@@ -581,7 +581,7 @@
 
       <!-- Press -->
       {{ if .Params.press }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb3 sectionline">Press</h3>
 
         {{ range .Params.press }} <!-- Iterate over the crew array -->
@@ -594,7 +594,7 @@
 
       <!-- Program -->
       {{ if .Params.program }}
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
         <h3 class="f3 mt4 mb3 sectionline">Program</h3>
 
         <div class="program-preview">
@@ -611,7 +611,7 @@
 
       <!-- Photos -->
       {{ if .Params.photos }}
-      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray"
+      <div class="photo-gallery nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray"
         }}">
         <h2 id="PhotoGallery" class="sectionline">Photos</h2>
         <div class="flex flex-wrap">
@@ -653,7 +653,7 @@
       {{ end }}
 
       <!-- Edit this page -->
-      <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}"></div>
+      <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}"></div>
       <h3 class="f3 mt4 mb3 sectionline">Contribute to this production page</h3>
       <p>Suggest an edit or add missing content</p>
       <a href="https://jaxplays.org/submit/production/" target="_blank"
