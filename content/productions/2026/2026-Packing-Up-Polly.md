@@ -2,7 +2,8 @@
 title: Packing Up Polly
 theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-date: 2026-01-17T00:00:00-05:00
+season: 106
+date: 2026-06-01T19:04:13-04:00
 opening_date: 2026-01-16
 closing_date: 2026-02-01
 showtimes:
@@ -17,8 +18,8 @@ showtimes:
   - 2026-01-31 14:00:00
   - 2026-02-01 14:00:00
 featured_image: 2026-Packing-Up-Polly.webp
-featured_image_alt: Poster for Packing Up Polly
-featured_image_caption: Poster for Packing Up Polly
+featured_image_alt:
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:
@@ -51,9 +52,9 @@ genres:
   - Play
   - Comedy
 description: A warm, rowdy comedy about four women sorting through grief, friendship, and one gloriously overstuffed house.
-source: Linear submission (JAX-5626), reconciled with Theatre Jacksonville season page
-source_date: 2026-01-17
-source_url: https://linear.app/jaxplays/issue/JAX-5626/new-production-theatre-jacksonville-packing-up-polly
+source: Linear submission (JAX-5626), reconciled with Theatre Jacksonville Season 106 page and program
+source_date: 2026-06-01
+source_url: https://www.theatrejax.com/season-106
 ---
 *Packing Up Polly* follows Caroline as she returns home to clear out her late mother’s house, only to find memories, mess, and unexpected help waiting inside.
 

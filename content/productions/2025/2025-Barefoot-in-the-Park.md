@@ -22,19 +22,49 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
+program: 2025-Barefoot-in-the-Park.pdf
 website: https://www.theatrejax.com/season-106
 tickets: https://ci.ovationtix.com/34919/production/1235956
-show_details: 
+show_details:
+  - Playwright: "[[w:Neil Simon]]"
 cast:
-  - Corrie Bratter: Rebekah Wood
-  - Paul Bratter: Jackson Wesley Vaughn
-  - Mother: Gloria Ware
+  - Corie Bratter: Rebekah Wood
+  - Paul Bratter: Jackson Vaughn
+  - Ethel Banks: Gloria Ware
   - Victor Velasco: Paul Neace
-  - Telephone Repair Man: Brent Mulberry
+  - Harry Pepper: Brent Mulberry
+  - Delivery Man: Mark Hayes
+  - Movers:
+      - Lou Acosta
+      - Eli Bruce Durham
+      - Aspen Krill
+      - Squirrel Pitts
+      - Joy Smith
 crew:
   - Director: Tyler Leeps
+  - Production Manager: Michelle Kindy
+  - Lighting Design: Johnny Pettegrew
+  - Sound Design: Brent Mulberry
+  - Costume Design: Classic Costumes
+  - Graphic Design: Green Onion Creative LLC
+  - Intimacy Coordinator: Roxanna Lewis
+  - Stage Manager: Squirrel Pitts
+  - Assistant Stage Manager: Mark Hayes
+  - Sound Board Operator: Eli Bruce Durham
+  - Light Board Operator: Mark Rubens
+  - Set Construction / Running Crew:
+      - Lou Acosta
+      - Eli Bruce Durham
+      - Aspen Krill
+      - Daniel Locke
+      - Kaitlyn Sweeney
 orchestra:
-genres: 
-description: 
+genres:
+  - Play
+  - Comedy
+  - Romance
+description: Neil Simon's newlywed comedy follows Corie and Paul Bratter as marriage, family and eccentric neighbors collide in a fifth-floor New York apartment.
+source: Theatre Jacksonville Season 106 page and program
+source_date: 2026-06-01
+source_url: https://www.theatrejax.com/season-106
 ---

@@ -25,7 +25,9 @@ featured_image_attr_link:
 program: 2025-A-Dolls-House.pdf
 website: https://www.theatrejax.com/season-106
 tickets: https://ci.ovationtix.com/34919/production/1235946
-show_details: 
+show_details:
+  - Playwright: "[[w:Henrik Ibsen]]"
+  - New Version: "[[w:Amy Herzog]]"
 cast:
   - Nora Helmer: Emily Johns
   - Torvold Helmer: Joshua Sewell
@@ -50,7 +52,13 @@ crew:
       - Lourdes Acosta
       - Daniel Locke
 orchestra:
-genres: 
-description: 
+genres:
+  - Play
+  - Drama
+  - Classic
+description: Amy Herzog's compact, contemporary version of Henrik Ibsen's landmark drama follows Nora Helmer as she confronts the life society has built around her.
+source: Theatre Jacksonville Season 106 page and program
+source_date: 2026-06-01
+source_url: https://www.theatrejax.com/season-106
 ---
 Young housewife Nora Helmer comes to the disturbing realization that she has spent her entire marriage and indeed most of her life, pretending to be the person that her husband, her father and society expect her to be.  Ibsen’s celebrated play explores the ways that societal expectations restrict individuals, especially women.  Its success when it premiered in 1879 thrust drama firmly into the modern age. Amy Herzog’s thrilling, compact and devastatingly contemporary adaptation makes freshly relevant a story that shocked audiences and brought forth a new era of theatre.
