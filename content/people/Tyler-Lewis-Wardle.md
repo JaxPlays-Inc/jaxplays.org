@@ -13,6 +13,8 @@ featured_image_caption:
 source: The 5 & Dime production page
 source_date: 2026-06-01
 source_url: https://the5anddime.org/s2026/body-awareness/
+roles:
+  - Actor
 socials:
   facebook: profile.php?id=61563142645352
   twitter:

@@ -11,6 +11,8 @@ featured_image: Mama_Blue.jpeg
 featured_image_attr: Gloria MacDonald
 featured_image_alt: Mama Blue singing on an Shure Super 55 microphone
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 1mamablue
   instagram: mamabluesings

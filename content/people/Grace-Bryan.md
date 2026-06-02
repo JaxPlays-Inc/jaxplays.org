@@ -9,6 +9,8 @@ featured_image_caption:
 headshot_gallery:
   - image: Grace-Bryan.webp
     attr: Kristia Knowles
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -16,5 +18,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm8934319
-  website: 
+  website:
 ---

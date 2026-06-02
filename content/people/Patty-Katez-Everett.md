@@ -10,6 +10,8 @@ featured_image_attr: Louise Everett
 featured_image_attr_link: 
 featured_image_alt: Headshot of Patty Katez Everett
 featured_image_caption: Headshot of Patty Katez Everett
+roles:
+  - Director
 socials:
   facebook: patty.everett.7311
   twitter: 
@@ -17,6 +19,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Patty Everett has been in local theatre for over thirteen years. She taught theatre classes for children. Patty had performed and directed with Orange Park Community Theatre, Northeast Florida Conservatory, Fine Arts Conservatory, Act II and founded Theatre Troupe 1776.

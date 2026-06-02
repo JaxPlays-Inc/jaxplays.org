@@ -6,6 +6,8 @@ featured_image_attr: Aleigha
 featured_image_attr_link: 
 featured_image_alt: Headshot of Aleigha
 featured_image_caption: Headshot of Aleigha
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -13,5 +15,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

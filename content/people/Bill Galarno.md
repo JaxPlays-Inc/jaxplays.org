@@ -11,6 +11,8 @@ birth_info:
   birth_date: 1933-03-01
   death_date: 2020-02-16
   birth_place: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

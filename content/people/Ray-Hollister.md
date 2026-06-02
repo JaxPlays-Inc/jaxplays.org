@@ -13,6 +13,9 @@ birth_info:
   birth_name: Rayburn Hollister III
   birth_date: 1980-12-07
   birth_place: Scranton, Pennsylvania
+roles:
+  - Actor
+  - Director
 socials:
   threads: rayhollister
   facebook: rayhollister

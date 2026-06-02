@@ -8,6 +8,8 @@ featured_image_caption:
 headshot_gallery:
   - image: Kaylee-Byers-02.webp
   - image: Kaylee-Byers.webp
+roles:
+  - Actor
 socials:
   youtube: "@zube_showz"
   instagram: zube.showz

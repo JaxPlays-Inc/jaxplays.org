@@ -9,6 +9,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Lee_Hamby.jpeg
+roles:
+  - Actor
+  - Director
 socials: 
   twitter: leehamby
   instagram: leehambyproductions

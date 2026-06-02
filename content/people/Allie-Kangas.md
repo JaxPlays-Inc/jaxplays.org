@@ -8,6 +8,8 @@ other_names:
 featured_image: Allie-Kangas.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: allie.kangas
   twitter: 

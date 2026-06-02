@@ -9,4 +9,6 @@ other_names:
   - Michelle Simkulet
   - Michelle Kindy
 date: 2026-06-01T18:58:25-04:00
+roles:
+  - Director
 ---

@@ -6,6 +6,8 @@ featured_image_attr: Woodrow Helms
 featured_image_attr_link: https://www.instagram.com/woodrowhelmsphotography/
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: profile.php?id=100082271191948
   twitter: 

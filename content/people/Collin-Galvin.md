@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Collin-Galvin-02.webp
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

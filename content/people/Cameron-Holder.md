@@ -13,7 +13,7 @@ socials:
   linkedin: cameron-holder-938b2a353
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 As a passionate and dedicated artist, I thrive on bringing characters to life and connecting with audiences through storytelling. My journey in theatre has been both fulfilling and transformative, allowing me to explore various facets of performance.
 

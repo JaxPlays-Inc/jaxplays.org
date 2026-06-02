@@ -9,6 +9,9 @@ birth_info:
   birth_name: 
   birth_date: 1954-09-07
   birth_place: Cedar Rapids, Iowa
+roles:
+  - Actor
+  - Director
 socials:
   facebook: MichaelEmersonOfficial
   twitter: MichaelEmerson

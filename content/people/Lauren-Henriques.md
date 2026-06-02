@@ -6,6 +6,8 @@ featured_image_attr: Tyler Core
 featured_image_attr_link: https://www.tylercoreshoots.com/
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

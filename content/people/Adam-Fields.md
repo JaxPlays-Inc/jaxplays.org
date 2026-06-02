@@ -4,6 +4,8 @@ date: 2026-05-14T00:00:00-04:00
 featured_image: Adam-Fields.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

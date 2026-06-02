@@ -6,6 +6,9 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/ 
 headshot_gallery:
   - Kate-McManus.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 
@@ -13,5 +16,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm1800678
-  website: 
+  website:
 ---

@@ -3,6 +3,8 @@ title: Evan Gould
 featured_image: Evan-Gould.webp 
 featured_image_attr: Theatre Jacksonville
 featured_image_attr_link: https://www.theatrejax.com/something-rotten
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

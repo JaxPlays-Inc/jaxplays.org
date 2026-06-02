@@ -6,6 +6,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -13,6 +15,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 With degrees from UF and UNF, Danita Stokes has worked as a teacher, editor, and writer. Always a fan of theater, dance, and music, she began dance classes at an early age. She lives with her family, including Fiddler the Abyssinian cat, and sends special appreciation to her tap dance group, the Minettes.

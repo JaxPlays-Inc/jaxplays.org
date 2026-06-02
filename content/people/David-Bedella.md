@@ -5,6 +5,8 @@ featured_image: David_Bedella.jpeg
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: David Bedella
+roles:
+  - Actor
 socials:
   twitter: davidbedella
   instagram: bedellad

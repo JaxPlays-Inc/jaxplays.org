@@ -4,6 +4,8 @@ date: 2024-07-03T18:02:52-04:00
 featured_image: Augustino-Pulliam.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

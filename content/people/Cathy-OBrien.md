@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - image: Cathy-OBrien.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 
@@ -15,5 +18,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

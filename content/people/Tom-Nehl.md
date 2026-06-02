@@ -12,6 +12,8 @@ birth_info:
   death_date: 2012-05-24
   birth_place: Portland, Oregon
   death_place: Jacksonville, Florida
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

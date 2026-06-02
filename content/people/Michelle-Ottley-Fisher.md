@@ -13,6 +13,9 @@ featured_image: Michelle-Ottley-Fisher.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
+  - Director
 socials:
   linkedin: michelle-ottley-fisher-19ab9632
   instagram: mama.o

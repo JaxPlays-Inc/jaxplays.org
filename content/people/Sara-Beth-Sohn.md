@@ -10,6 +10,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -17,7 +19,7 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Her name is Sara Beth Sohn. Not Elizabeth—Beth. Sohn, after her father. She was so christened. She is innocent, and she will leave it to the audience to speak for her.
 

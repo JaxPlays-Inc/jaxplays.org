@@ -4,6 +4,8 @@ date: 2024-03-28T16:49:58-04:00
 featured_image: Jyn-Picard.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Director
 socials:
   facebook: lifeisascene
   twitter: 

@@ -9,6 +9,8 @@ featured_image_caption:
 headshot_gallery:
   - image: Lauren-Wortham-02.webp
     attr: Darnell Bennet
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -16,6 +18,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Lauren Wortham attends Douglas Anderson School Of The Arts and has been a part of many plays at different theaters. At Amelia Community Theater, She was a ballet girl in *Billy Elliot* and a stand in for the boxing student. At [[theatreAmelia Music Playhouse]], Lauren has been in the ensemble for *Grease*, *Rock of Ages* (as well as assistant choreographer), Karen in *Mean Girls* and is currently in the ensemble for a *Mamma Mia*. At FSCJ, she has been in the ensemble and *Beauty and the Beast* and *Anything Goes*. So far at Douglas Anderson she was selected as a swing for *On the Town*. Lauren has been dancing at Royal Amelia Dance Academy since she was four years old. Her dream is to make it on Broadway!

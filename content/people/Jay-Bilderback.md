@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 other_names:
   - Jay P. Bilderback
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -15,5 +17,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

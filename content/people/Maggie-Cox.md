@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Maggie-Cox.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: profile.php?id=100016632759082
   twitter: 

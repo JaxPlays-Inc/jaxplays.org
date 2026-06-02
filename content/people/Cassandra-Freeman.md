@@ -9,6 +9,8 @@ featured_image: Cassandra-Freeman.webp
 featured_image_attr: Emily Assiran
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   instagram: cassiedamsel
   imdb: nm1904386

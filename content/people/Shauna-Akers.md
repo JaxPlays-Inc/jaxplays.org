@@ -7,6 +7,8 @@ other_names:
 featured_image: Shauna-Clark.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

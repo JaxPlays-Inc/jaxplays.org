@@ -9,6 +9,9 @@ birth_info:
   birth_name:
   birth_date: 1961-01-03
   birth_place: New Haven, CT
+roles:
+  - Actor
+  - Director
 socials:
   website: https://www.mrlipp.com
 date: 2023-09-08T00:00:00-04:00

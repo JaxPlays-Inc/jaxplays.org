@@ -18,6 +18,8 @@ headshot_gallery:
     attr_link: https://www.jaxheadshots.co/
   - image: Jake-Ayres.webp
     attr: Chris Milligan
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -25,6 +27,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Jake is a singer and actor from St. Augustine. Professional credits include [[production:2024 A Christmas Story: The Musical]] (Flick & Ralphie U/S) and [[production:2025 Charlie and the Chocolate Factory]]. Jake was also in [[production:2025 Our Town]] (Wally Webb) at the [[theatre:Limelight Theatre|Limelight]]. Jake is a Freshman at Douglas Anderson School of the Arts. He takes voice lessons from Jen Schlecte. He loves singing and acting and hopes to do it for the rest of his life.

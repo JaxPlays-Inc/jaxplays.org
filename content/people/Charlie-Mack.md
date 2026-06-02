@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - image: Charlie-Mack.webp
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -15,5 +17,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

@@ -11,6 +11,8 @@ featured_image: Dick_Kerekes.jpg
 featured_image_attr: Kerekes' Facebook profile
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: Dick Kerekes | dick.kerekes
 press:

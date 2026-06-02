@@ -13,5 +13,5 @@ socials:
   linkedin: logan-forbess-5726bb249
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

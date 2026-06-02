@@ -9,6 +9,8 @@ featured_image: Justin_Murphy.jpeg
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   instagram: professormurf
   linkedin: justin-murphy-83999881

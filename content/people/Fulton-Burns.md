@@ -8,6 +8,8 @@ other_names:
 featured_image: Fulton-Burns.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Director
 socials:
   facebook: 
   twitter: 

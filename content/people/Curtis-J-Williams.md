@@ -5,6 +5,8 @@ featured_image: Curtis_J_Williams.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Director
 socials: 
   facebook: cjwilliams82
   linkedin: curtis-williams-1a844413

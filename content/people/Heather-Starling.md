@@ -6,6 +6,9 @@ featured_image_attr:
 featured_image_attr_link: 
 headshot_gallery:
   - Heather-Starling.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 
@@ -13,5 +16,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

@@ -7,6 +7,8 @@ other_names:
 featured_image: Sofia-Lourdes.webp
 featured_image_attr: Jax Headshots (Josh Andrews)
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: sofia.smith.251243
   twitter: 
@@ -24,7 +26,7 @@ photos:
 - photo: Sofia-Smith-02.webp
   photo_alt: 
   photo_caption: Headshot of Sofia Lourdes
-  photo_attr: 
+  photo_attr:
 ---
 Sofia Lourdes (Sofia Smith) is an actress known for her work at the Alhambra Theatre & Dining, rated the No. 1 dinner theatre in America. There, she has performed roles such as Eliza Doolittle in [[production:2025 My Fair Lady]], Chava in [[production:Fiddler on the Roof]], and Dorothy Gale in *The Wizard of Oz*. Sofia has been described as having a voice "you won't be able to get enough of" by Folio Weekly, having a "crystal-clear voice" and "soaring musical theatre mix" by JaxPlays, and as a performer that "Judy Garland would be proud" of by BroadwayWorld.
 

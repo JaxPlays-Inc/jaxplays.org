@@ -10,4 +10,6 @@ featured_image_caption:
 headshot_gallery:
   - Jeff_Drushal.webp
 equity: true
+roles:
+  - Actor
 ---

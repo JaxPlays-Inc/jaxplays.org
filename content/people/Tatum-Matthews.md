@@ -4,6 +4,8 @@ date: 2024-04-27T16:25:16-04:00
 featured_image: Tatum-Matthews.webp
 featured_image_attr: Lilly K
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

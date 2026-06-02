@@ -15,6 +15,8 @@ headshot_gallery:
   - image: Karen-Konzen.webp
     attr: Karmathartic Studios
     attr_link: https://karmathartic.com/
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -22,5 +24,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm4155456
-  website: 
+  website:
 ---
