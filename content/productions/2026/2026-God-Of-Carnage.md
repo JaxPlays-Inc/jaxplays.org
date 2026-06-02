@@ -2,7 +2,7 @@
 title: God of Carnage
 theatre: Limelight Theatre
 venue: Matuza Blackbox
-season: null
+season: 34
 date: '2026-01-04T22:08:44-05:00'
 opening_date: '2026-03-05'
 closing_date: '2026-03-15'
@@ -36,7 +36,7 @@ description: A biting dark comedy that begins with civility and unravels in chao
   and uncomfortably honest.
 source_urls:
 - https://limelight-theatre.org/productions/god-of-carnage/
+- https://www.limelight-theatre.org/calendar/on-stage/god-of-carnage-1
 ---
-
 
 

@@ -2,7 +2,7 @@
 title: "I Love You, You\u2019re Perfect, Now Change"
 theatre: Limelight Theatre
 venue: Inez McDonald Mainstage
-season: null
+season: 34
 date: '2026-01-04T22:08:43-05:00'
 opening_date: '2026-01-29'
 closing_date: '2026-02-15'
@@ -51,7 +51,7 @@ description: A witty, fast-paced musical revue that takes a humorous and heartfe
   look at modern love in all its stages-from awkward first dates to long marriages.
 source_urls:
 - https://limelight-theatre.org/productions/i-love-you-youre-perfect-now-change/
+- https://www.limelight-theatre.org/calendar/on-stage/i-love-you-youre-perfect-now-change-gse8c
 ---
-
 
 

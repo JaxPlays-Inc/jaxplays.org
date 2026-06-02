@@ -2,7 +2,7 @@
 title: Godspell
 theatre: Limelight Theatre
 venue: Inez McDonald Mainstage
-season: null
+season: 34
 date: '2026-01-04T22:09:17-05:00'
 opening_date: '2026-03-26'
 closing_date: '2026-04-19'
@@ -41,7 +41,7 @@ genres: []
 description: null
 source_urls:
 - https://limelight-theatre.org/productions/godspell/
+- https://www.limelight-theatre.org/calendar/on-stage/i-love-you-youre-perfect-now-change-gse8c-j4lg6-nze3l
 ---
-
 
 
