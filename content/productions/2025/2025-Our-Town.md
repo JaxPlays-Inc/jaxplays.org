@@ -26,68 +26,41 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: null
-website: https://limelight-theatre.org/productions/our-town/
+website: https://www.limelight-theatre.org/calendar/on-stage/our-town
 tickets: https://limelight.ludus.com/index.php?show_id=200477908
 cast:
 - Stage Manager: Emma Begley
 - Emily Webb: Kaylee Byers
 - George Gibbs: Chad Boyd
-- Dr. Gibbs: Banyan McDowen
 - Mrs. Gibbs: Emily Layt
+- Dr. Gibbs: Banyan McGowen
 - Mrs. Webb: Savanna Dacosta
 - Mr. Webb: Jad Jordan
-- Simon, Prof. Willard, Man Among Dead: Collin James
-- Howie Newsome, Joe Stoddard: Matthew Rodriguez
-- Const. Warren, Sam Craig, Farmer McCarthy, Man in Auditorium: Jim Warren
-- Rebecca Gibbs, Dead Woman: "Chloe O\u2019Leary"
-- Wally Webb: Jake Ayres
+- Simon Stimson/Professor Willard: Collin James
+- Howie Newsome/Joe Stoddard: Matthew Rodriguez
+- Constable Warren/Sam Craig/Man in Auditorium: Jim Warren
+- Rebecca Gibbs: Chloe O'Leary
+- Si Crowell/Joe Crowell Jr./Ensemble: Anthony Romero
 - Mrs. Soames: Teresa Harris
-- Si Crowell, Joe Crowell Jr., Dead Man: Tilemachos Vasileiadis
-- Woman in Balcony: Raina Moffat
-- Lady in Box: Jo Lynn Fletcher
-- Baseball Player:
-  - Collin James
-  - Jake Ayres
-  - Tilemachos Vasileiadis
-- Ensemble:
-  - Collin James
-  - Matthew Rodriguez
-  - Jim Warren
-  - "Chloe O\u2019Leary"
-  - Jake Ayres
-  - Teresa Harris
-  - Tilemachos Vasileiadis
-  - Raina Moffat
-  - Jo Lynn Fletcher
-- Choir:
-  - Collin James
-  - Matthew Rodriguez
-  - Jim Warren
-  - Tilemachos Vasileiadis
-  - Raina Moffat
-  - Jo Lynn Fletcher
-- Wedding Guests:
-  - Matthew Rodriguez
-  - "Chloe O\u2019Leary"
-  - Jake Ayres
-  - Teresa Harris
-  - Jo Lynn Fletcher
+- Wally Webb: Jake Ayres
+- Lady in the Box/Stage Manager U/S: Jo Lynn Fletcher
+- Lady in Balcony/Female Swing: Raina Moffat
 crew:
 - Director: Ryan Mahannah
-- Assistant Director/Production Stage Manager: Lillian Johnson
+- Assistant Director/Stage Manager: Lillian Johnson
 - Assistant Stage Manager: Day Stanchi
+- Scenic Design: Ashley Taylor
 - Lighting Designer: Tyler Hammond
-- Production Manager: Ashley Taylor
+- Costume Design: Jenn Michael
 orchestra: []
 show_details: []
 genres: []
 description: null
 source_urls:
-- https://limelight-theatre.org/productions/our-town/
+- https://www.limelight-theatre.org/calendar/on-stage/our-town
 understudies:
-- Female Swing: Raina Moffat
-- Male Swing: Collin James
 - Stage Manager: Jo Lynn Fletcher
+- Female Swing: Raina Moffat
 ---
 
 
