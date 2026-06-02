@@ -23,19 +23,18 @@
     <style>
       .people-list-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
         gap: 2rem 1.25rem;
         justify-items: center;
         margin: 2rem auto 3rem;
         max-width: 72rem;
-        overflow-x: hidden;
       }
 
       .people-list-person {
         align-items: center;
         display: flex;
         flex-direction: column;
-        max-width: 10rem;
+        max-width: 12rem;
         min-width: 0;
         text-align: center;
         width: 100%;
@@ -44,9 +43,9 @@
       .people-list-headshot {
         background-position: top center;
         display: block;
-        height: 8rem;
-        margin-bottom: .5rem;
-        width: 8rem;
+        height: 11rem;
+        margin-bottom: .75rem;
+        width: 11rem;
       }
 
       .people-list-name {
@@ -60,17 +59,11 @@
 
       @media (max-width: 700px) {
         .people-list-grid {
-          grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
-          gap: 1.25rem .75rem;
-        }
-
-        .people-list-headshot {
-          height: 6rem;
-          width: 6rem;
+          gap: 1.5rem .75rem;
         }
 
         .people-list-name {
-          font-size: .9rem;
+          font-size: .95rem;
         }
       }
     </style>
