@@ -19,15 +19,15 @@ showtimes:
 - '2026-05-16 20:00:00'
 - '2026-05-17 15:00:00'
 featured_image: 2026-Disaster!.webp
-featured_image_alt: "Disaster! at Players by the Sea"
-featured_image_caption: null
+featured_image_alt: 
+featured_image_caption: 
 featured_image_attr: Players by the Sea
-featured_image_attr_link: https://web.ovationtix.com/trs/api/rest/ClientFile(598817)
+featured_image_attr_link:
 program: null
 website: https://playersbythesea.org/season-61/disaster
 tickets: https://ci.ovationtix.com/34877/production/1258976
-source: Email from Players by the Sea
-source_date: '2026-05-06'
+source: Players by the Sea Season 61 and production pages
+source_date: '2026-06-01'
 source_url: https://playersbythesea.org/season-61/disaster
 show_details:
 - Book:
@@ -84,6 +84,6 @@ genres:
 - Jukebox
 description: A floating casino’s grand opening spirals into earthquakes, tidal waves, killer bees, and disco-era chaos in this campy jukebox parody.
 ---
-*Disaster!* sends a group of mismatched passengers onto a floating casino for a glittering grand opening, only for the night to erupt into earthquakes, tidal waves, killer bees, and one absurd crisis after another.
+*Disaster!* sends a group of mismatched passengers onto a floating casino for a glittering grand opening, only for the night to erupt into earthquakes, tidal waves, killer bees, man-eating piranhas, and one absurd crisis after another.
 
 Packed with disco-era pop hits and gleeful disaster-movie parody, the musical leans into big hair, bigger danger, and campy survival comedy.

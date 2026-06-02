@@ -1,7 +1,7 @@
 ---
 title: Anthony Felton
 date: 2024-05-23T14:55:56-04:00
-featured_image: 
+featured_image: Anthony-Felton.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -13,5 +13,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website: https://sites.google.com/view/anthony-j-felton-mm/
+  youtube: "@anthonyfelton5950"
 ---
