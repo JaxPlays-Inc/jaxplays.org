@@ -1,9 +1,11 @@
 ---
 title: Elijah Simms
 date: 2024-07-11T10:35:49-04:00
-featured_image: Elijah-Simms.webp
+featured_image: Elijah-Simms-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
+headshot_gallery:
+  - image: Elijah-Simms.webp
 socials:
   facebook: 
   twitter: 

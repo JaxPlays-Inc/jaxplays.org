@@ -1,11 +1,15 @@
 ---
 title: Felecia Ewing
 date: 2024-10-19T20:03:59-04:00
-featured_image: Felecia-Ewing.webp
-featured_image_attr: Jax Headshots
-featured_image_attr_link: https://www.jaxheadshots.co/ 
+featured_image: Felecia-Ewing-01.webp
+featured_image_attr:
+featured_image_attr_link:
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Felecia-Ewing.webp
+  - attr: Jax Headshots
+  - attr_link: https://www.jaxheadshots.co/
 socials:
   facebook: 
   twitter: 

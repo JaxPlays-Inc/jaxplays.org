@@ -1,11 +1,13 @@
 ---
 title: Facia Lee
 date: 2025-09-07T13:45:14-04:00
-featured_image: Facia-Lee.webp
+featured_image: Facia-Lee-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Facia-Lee.webp
 socials:
   facebook: 
   twitter: 
