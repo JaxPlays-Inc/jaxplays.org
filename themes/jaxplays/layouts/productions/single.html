@@ -34,7 +34,6 @@
 <div class="flex-l mt0 mw8 center">
   <article class="relative center cf pv4 ph3 ph4-ns mw8 w-100">
     <header class="relative">
-      {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
         {{ with .Params.subtitle }}
@@ -392,6 +391,8 @@
       {{ end }}
     </div>
     {{ end }}
+
+    {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
 
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     {{ $site := .Site }}
