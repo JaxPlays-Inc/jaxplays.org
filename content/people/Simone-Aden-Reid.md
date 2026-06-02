@@ -6,7 +6,7 @@ aliases:
 other_names:
   - Simone Aden Reid
   - Simone Aden
-featured_image: 
+featured_image: Simone-Aden-Reid.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -19,5 +19,5 @@ socials:
   ibdb: 
   imdb:
   website: 
-date: 2023-09-08T00:00:00-04:00
+date: 2026-06-01T20:22:08-04:00
 ---
