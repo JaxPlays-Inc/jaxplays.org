@@ -13,6 +13,13 @@
 
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
+    {{ $roles := .Params.roles | default slice }}
+    {{ if eq (printf "%T" $roles) "string" }}
+      {{ $roles = slice $roles }}
+    {{ end }}
+    {{ with $roles }}
+      <p class="f6 fw6 gray mb2 mt0 tc tl-ns tracked ttu">{{ delimit . " • " }}</p>
+    {{ end }}
     <h1 class="f3 f2-l f1-m tc tl-ns ">
       {{ .Title }}
     </h1>
