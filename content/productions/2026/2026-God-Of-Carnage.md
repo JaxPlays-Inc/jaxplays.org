@@ -23,9 +23,14 @@ featured_image_attr_link: null
 program: null
 website: https://limelight-theatre.org/productions/god-of-carnage/
 tickets: https://limelight.ludus.com/index.php?show_id=200487536
-cast: []
+cast:
+- Michael Novak: Jonny O'Leary
+- Veronica Novak: Cathy O'Brien
+- Alan Raleigh: Hunter Showalter
+- Annette Raleigh: Leah Page
 crew:
 - Director: Andrea McCook
+- Assistant Director: Angelica Parisen
 orchestra: []
 show_details:
 - Playwright: '[[w:Yasmina Reza]]'
@@ -37,6 +42,6 @@ description: A biting dark comedy that begins with civility and unravels in chao
 source_urls:
 - https://limelight-theatre.org/productions/god-of-carnage/
 - https://www.limelight-theatre.org/calendar/on-stage/god-of-carnage-1
+- https://www.visitstaugustine.com/event/limelight-theatre-god-carnage
 ---
-
 
