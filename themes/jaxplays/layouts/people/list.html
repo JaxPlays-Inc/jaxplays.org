@@ -4,56 +4,76 @@
       {{ .Content }}
     </section>
     {{ partial "secondSearchBar.html" (dict "section" "People") }}
-    <aside class="flex-ns flex-wrap justify-around ph3 ph0-ns">
-      
+    <aside class="people-list-grid ph2 ph0-ns">
       {{ $allPages := .Pages.ByParam "featured_image" }}
       {{ $paginator := .Paginate $allPages 24 }}
       
       {{ range $paginator.Pages }}
-        {{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
-        {{ $contentLength := len .Summary }}
-        {{ $summary := "" }}
-        
-        {{ if gt $contentLength 500 }}
-          {{ $summary = printf "%s..." (substr .Summary 0 500) }}
-        {{ else }}
-          {{ $summary = .Summary }}
+        {{ $headshot := "/media/default/people_headshot.webp" }}
+        {{ with .Params.featured_image }}
+          {{ $headshot = printf "/media/headshots/%s" . }}
         {{ end }}
-        
-        <div class="relative w-100 w-45-l mb4 bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height ">
-            <div class="bg-white mb3 pa4 gray overflow-hidden">
-              <h1 class="f3 near-black">
-                <a href="{{ .RelPermalink }}" class="link black dim">
-                  {{ .Title }}
-                </a>
-              </h1>
 
-              {{ if or $featuredImage (gt $contentLength 0) }}
-                {{ if $featuredImage }}
-                  {{ $featuredImage = printf "/media/headshots/%s" $featuredImage }}
-                  <div class="flex flex-column flex-row-ns">
-                  <div class="w-50 w-40-ns pr3 flex-column center">
-                    <a href="{{ .RelPermalink }}" ><img src="{{ $featuredImage }}" alt="Photo of {{ .Title }}"></a>
-                  </div>
-                {{ end }}
-                
-                <div class="w-100 w-60-ns f5 lh-copy nested-copy-line-height">
-                  {{ if (gt $contentLength 0) }}
-                    <a href="{{ .RelPermalink }}" class="blindlink no-underline">
-                      {{- partial "content-wikilinks" $summary | markdownify | safeHTML }}
-                      {{/*  {{ $summary | markdownify | safeHTML }}  */}}
-                    </a>
-                    <a href="{{ .RelPermalink }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-                  {{ end }}
-                </div>
-              </div>
-              {{ end }}
-            </div>
-          </div>
-        </div>
+        <a href="{{ .RelPermalink }}" class="people-list-person link color-inherit">
+          <span class="people-list-headshot br-100 cover" role="img" aria-label="Photo of {{ .Title }}" style="background-image: url('{{ $headshot | relURL }}');"></span>
+          <span class="people-list-name">{{ .Title }}</span>
+        </a>
       {{ end }}
     </aside>
+    <style>
+      .people-list-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+        gap: 2rem 1.25rem;
+        justify-items: center;
+        margin: 2rem auto 3rem;
+        max-width: 72rem;
+        overflow-x: hidden;
+      }
+
+      .people-list-person {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 10rem;
+        min-width: 0;
+        text-align: center;
+        width: 100%;
+      }
+
+      .people-list-headshot {
+        background-position: top center;
+        display: block;
+        height: 8rem;
+        margin-bottom: .5rem;
+        width: 8rem;
+      }
+
+      .people-list-name {
+        display: block;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+        width: 100%;
+      }
+
+      @media (max-width: 700px) {
+        .people-list-grid {
+          grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
+          gap: 1.25rem .75rem;
+        }
+
+        .people-list-headshot {
+          height: 6rem;
+          width: 6rem;
+        }
+
+        .people-list-name {
+          font-size: .9rem;
+        }
+      }
+    </style>
     {{ template "_internal/pagination.html" . }} 
     {{ partial "cta_submit_profile.html" }}
   </article>
