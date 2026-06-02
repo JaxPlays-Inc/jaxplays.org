@@ -1,6 +1,10 @@
 ---
 title: Grace Lewis
 date: 2025-09-07T13:45:14-04:00
+aliases:
+  - /people/grace-lyndsey/
+other_names:
+  - Grace Lyndsey
 featured_image: Grace-Lewis.webp
 featured_image_attr: 
 featured_image_attr_link: 
