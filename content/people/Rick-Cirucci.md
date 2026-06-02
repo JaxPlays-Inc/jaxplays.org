@@ -4,6 +4,9 @@ date: 2024-07-02T12:05:15-04:00
 featured_image: Rick-Cirucci.webp
 featured_image_attr: Tori Stauffer Photography
 featured_image_attr_link:  https://toristauffer.com/
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 

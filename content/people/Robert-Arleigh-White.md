@@ -5,6 +5,9 @@ featured_image: Robert_Arleigh_White.jpeg
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: Robert Arleigh White's Facebook profile picture
+roles:
+  - Actor
+  - Director
 socials:
   facebook: robertarleigh
   linkedin: robertarleighwhite

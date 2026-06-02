@@ -6,6 +6,8 @@ featured_image_attr: Josh Andrews - Jax Headshots
 featured_image_attr_link:
 featured_image_alt: Headshot of Matthew Rodriguez
 featured_image_caption: Headshot of Matthew Rodriguez
+roles:
+  - Actor
 socials:
   facebook: matthew.rodriguez.630633
   twitter:

@@ -6,6 +6,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -13,6 +15,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Thain Day is thrilled to embark on his musical theatre journey with his ensemble debut in Act II Players' [[production:2024 Mary Poppins]], having recently performed as a live saxophonist in *Cabaret*. Thain appreciates the support and kindness he has received from fellow cast members.

@@ -12,6 +12,8 @@ birth_info:
   death_date: 2024-07-05
   birth_place: Texarkana, Arkansas
   death_place: Fernandina Beach, Florida
+roles:
+  - Director
 socials:
   facebook: 
   twitter: 

@@ -3,6 +3,9 @@ title: Jason Collins
 featured_image: Jason-Collins.webp  
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
+  - Director
 socials:
   facebook: jason.collins.3152
   twitter: 

@@ -7,6 +7,9 @@ other_names:
 featured_image: Don-Massenzio.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
+  - Musical Director
 socials:
   facebook: dmassenzio
   twitter: 

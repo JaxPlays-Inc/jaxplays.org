@@ -10,6 +10,8 @@ headshot_gallery:
   - image: Felecia-Ewing.webp
   - attr: Jax Headshots
   - attr_link: https://www.jaxheadshots.co/
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -17,6 +19,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Felecia Ewing was born and raised in Jacksonville, Florida. She has appeared in many productions, the most recent being [[production:2024  Beautiful: The Carole King Musical]] at Players By The Sea. Though she mostly lands roles in musicals, she’s falling in love with the challenge of plays. When not on stage, she enjoys teaching and spending time with her family. She has 3 daughters, Amara, Allison and Azuri. Felecia would like to thank family, friends and YOU theater lovers for all of your support.

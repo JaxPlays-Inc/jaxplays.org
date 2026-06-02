@@ -7,6 +7,9 @@ other_names:
 featured_image: Aaron-DeCicco.webp
 featured_image_attr: Darnell Bennett
 featured_image_attr_link: https://www.darnellbennettphotography.com
+roles:
+  - Actor
+  - Musical Director
 socials:
   facebook: 
   twitter: 

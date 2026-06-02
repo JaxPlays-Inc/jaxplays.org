@@ -14,6 +14,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Brent-Mulberry-02.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: brentallenlive
   twitter: brentallenlive
@@ -21,6 +24,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm15162420
-  website: 
+  website:
 ---
  Brent works both on stage and off stage as an actor, director, sound designer, YouTuber and podcaster.  An audio engineer by training, he has spent nearly 30 years in the theatrical production world in one aspect or another.

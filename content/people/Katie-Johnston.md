@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: Katie Johnston
 headshot_gallery:
   - Katie-Johnston.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: kathleen.johnston.58
   twitter: 

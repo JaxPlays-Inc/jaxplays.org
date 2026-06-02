@@ -10,6 +10,8 @@ headshot_gallery:
   - image: Luwam-Yikuno-2.webp
     alt: "Luwam Yikuno as Violet stands mid-gesture in a vivid blue tracksuit, framed by a colorful backdrop of lights and panels in 'Charlie and the Chocolate Factory.'"
     caption: "Luwam Yikuno brings bold energy and fierce attitude to the gum-snapping Violet Beauregarde in 'Charlie and the Chocolate Factory' at Alhambra Theatre & Dining."
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -17,5 +19,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

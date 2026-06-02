@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - image: Daniel-Austin.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 
@@ -15,5 +18,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm10761210
-  website: 
+  website:
 ---

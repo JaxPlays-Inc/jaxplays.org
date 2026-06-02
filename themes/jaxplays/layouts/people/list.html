@@ -13,10 +13,17 @@
         {{ with .Params.featured_image }}
           {{ $headshot = printf "/media/headshots/%s" . }}
         {{ end }}
+        {{ $roles := .Params.roles | default slice }}
+        {{ if eq (printf "%T" $roles) "string" }}
+          {{ $roles = slice $roles }}
+        {{ end }}
 
         <a href="{{ .RelPermalink }}" class="people-list-person link color-inherit">
           <span class="people-list-headshot br-100 cover" role="img" aria-label="Photo of {{ .Title }}" style="background-image: url('{{ $headshot | relURL }}');"></span>
           <span class="people-list-name">{{ .Title }}</span>
+          {{ with $roles }}
+            <span class="people-list-role">{{ delimit . " • " }}</span>
+          {{ end }}
         </a>
       {{ end }}
     </aside>
@@ -54,6 +61,15 @@
         font-weight: 700;
         line-height: 1.25;
         overflow-wrap: anywhere;
+        width: 100%;
+      }
+
+      .people-list-role {
+        color: #555;
+        display: block;
+        font-size: .875rem;
+        line-height: 1.25;
+        margin-top: .25rem;
         width: 100%;
       }
 

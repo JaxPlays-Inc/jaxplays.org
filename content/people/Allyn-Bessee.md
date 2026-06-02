@@ -3,6 +3,8 @@ title: Allyn Bessee
 featured_image: Allyn-Bessee.webp
 featured_image_attr: Lindsey Moss Productions
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

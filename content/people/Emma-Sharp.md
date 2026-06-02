@@ -7,6 +7,8 @@ aliases:
 featured_image: Emma-Sharp.webp
 featured_image_attr: Jennifer Sharp
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

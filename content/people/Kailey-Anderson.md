@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Kailey-Anderson.webp
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

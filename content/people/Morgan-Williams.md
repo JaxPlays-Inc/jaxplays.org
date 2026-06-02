@@ -6,6 +6,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -13,7 +15,7 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Morgan grew up on the Jacksonville community theatre stage, attending Douglas Anderson Theatre Department before going on to Rollins College. Most recently, she was in ABET's production of [[production:2022 Bright Star|Bright Star]]. Some of her other favorite performances include Cabaret, To Gillian on her 37th Birthday, Urinetown, Stop Kiss, It's All Greek to Me, and The Addams Family.
 She is currently the Drama Teacher and Jr.

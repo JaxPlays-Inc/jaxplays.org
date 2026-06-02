@@ -13,5 +13,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm4118749
-  website: 
+  website:
 ---

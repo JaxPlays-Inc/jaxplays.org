@@ -6,6 +6,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -13,5 +15,5 @@ socials:
   linkedin: ryan-lemmon-665253213
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

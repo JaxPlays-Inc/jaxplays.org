@@ -6,6 +6,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -14,5 +16,5 @@ socials:
   ibdb: 
   imdb:
   website:
-  backstage: kaylee-hendry 
+  backstage: kaylee-hendry
 ---

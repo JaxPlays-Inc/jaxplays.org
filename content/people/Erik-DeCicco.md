@@ -3,6 +3,9 @@ title: Erik DeCicco
 featured_image: Erik-DeCicco.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
+  - Director
 socials:
   facebook: erikdeciccoactor
   linkedin: erik-decicco-66722577

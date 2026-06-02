@@ -10,6 +10,8 @@ featured_image_attr: Karen Bowden
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: garlandestafford
   twitter: 
@@ -17,5 +19,5 @@ socials:
   linkedin: garlandstafford
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

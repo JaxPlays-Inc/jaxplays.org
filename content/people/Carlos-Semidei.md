@@ -12,6 +12,8 @@ featured_image_attr:
 birth_info:
   birth_name: Carlos Julian Semidéi
   birth_date: 1957-11-25
+roles:
+  - Actor
 socials:
   imdb: Carlos Semidei | nm10324765
 date: 2023-09-08T00:00:00-04:00

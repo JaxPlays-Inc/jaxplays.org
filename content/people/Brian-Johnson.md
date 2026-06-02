@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Brian-Johnson.webp
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -15,6 +17,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Brian Johnson has been performing and acting for over a decade, taking on memorable roles such as Jesus in *Godspell*, Roger de Bris in *The Producers*, Captain Von Trapp in *The Sound of Music*, and Billy in *Once the Musical*. A retired Air Force Colonel with 26 years of active duty service, Brian now enjoys spending his time volunteering in support of local community theatre. In addition to his love for acting, he plays guitar and sings with an acoustic trio that performs around the Beaches area. Brian and his wife, Meganne, live in Atlantic Beach, FL, and are proud parents of two amazing daughters.

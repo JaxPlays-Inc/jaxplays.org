@@ -14,6 +14,9 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: Josh Andrews
+roles:
+  - Actor
+  - Director
 socials:
   facebook: joshuabrittonandrews
   twitter: joshrews

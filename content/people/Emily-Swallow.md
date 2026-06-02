@@ -9,6 +9,8 @@ birth_info:
 birth_name: 
 birth_date: 1979-12-18
 birth_place: Washington, D.C.
+roles:
+  - Actor
 socials:
   facebook: emilyswallow
   twitter: bigeswallz

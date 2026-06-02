@@ -10,6 +10,8 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: Headshot of Brennan A. Moritz
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

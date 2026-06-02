@@ -5,6 +5,9 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Director
+  - Musical Director
 socials:
   facebook: kimberly.s.beasley
   twitter: 

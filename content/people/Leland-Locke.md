@@ -16,6 +16,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Leland_Locke.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: logan.locke.54
   threads: lelandslock

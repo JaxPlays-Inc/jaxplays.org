@@ -6,6 +6,8 @@ featured_image_attr: Josh Andrews
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: hazeykatie2
   twitter: 
@@ -14,5 +16,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb: nm2836944
-  website: 
+  website:
 ---

@@ -6,6 +6,8 @@ featured_image_attr: Stephanie Girard Photography
 featured_image_attr_link: https://www.stephgirardheadshots.com/
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: nikkelena
   twitter: 

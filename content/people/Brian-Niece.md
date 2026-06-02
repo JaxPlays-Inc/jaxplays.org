@@ -8,6 +8,9 @@ headshot_gallery:
   - Brian_Niece.webp
 equity: true
 sdc: true
+roles:
+  - Actor
+  - Director
 socials:
   facebook: brianniece
   instagram: brianniece

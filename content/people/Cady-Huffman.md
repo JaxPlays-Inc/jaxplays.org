@@ -10,6 +10,8 @@ birth_info:
   birth_name: Cady Huffman
   birth_date: 1965-02-02
   birth_place: Santa Barbara, California
+roles:
+  - Actor
 socials:
   facebook: imcady
   twitter: cadyhuffman

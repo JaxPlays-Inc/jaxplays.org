@@ -10,6 +10,9 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
+  - Musical Director
 socials:
   facebook: lisa.lockhart.902
   twitter: 

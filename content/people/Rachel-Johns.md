@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - Rachel-Johns.webp
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

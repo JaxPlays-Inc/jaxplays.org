@@ -8,6 +8,8 @@ date: 2024-07-07T00:56:08-04:00
 featured_image: Shaeliegh-Tupper.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: shaeliegh.tupper.5
   twitter: 
@@ -15,5 +17,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

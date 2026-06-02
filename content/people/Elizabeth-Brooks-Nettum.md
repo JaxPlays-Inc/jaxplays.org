@@ -15,6 +15,8 @@ birth_info:
   birth_date: 1960-05-01
   death_date: 2023-11-10
   birth_place: 
+roles:
+  - Director
 socials:
   facebook: 
   twitter: 

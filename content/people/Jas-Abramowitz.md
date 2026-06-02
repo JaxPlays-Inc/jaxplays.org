@@ -3,6 +3,8 @@ title: Jas Abramowitz
 featured_image: Jas-Abramowitz.webp
 featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
+roles:
+  - Actor
 socials:
   facebook: poetryjazzman
   twitter: jasabramowitz

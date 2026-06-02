@@ -13,6 +13,6 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---
 Candice Johnson is passionate in the world of creativity, and is extremely excited to bring her ideas to life on the stage! Her designs are instrumental to enhancing the show’s visual storytelling and understanding each character.

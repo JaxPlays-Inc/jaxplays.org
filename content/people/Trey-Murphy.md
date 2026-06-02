@@ -8,6 +8,8 @@ date: 2024-06-18T17:27:04-04:00
 featured_image: Trey-Murphy.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 

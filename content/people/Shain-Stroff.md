@@ -6,6 +6,9 @@ featured_image_attr: Jax Headshots
 featured_image_attr_link: https://www.jaxheadshots.co/
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 
@@ -13,5 +16,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

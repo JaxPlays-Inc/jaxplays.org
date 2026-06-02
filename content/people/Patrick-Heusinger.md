@@ -9,6 +9,8 @@ featured_image: Patrick_Heusinger.jpg
 featured_image_attr: By The Group Entertainment LLC, CC BY-SA 3.0
 featured_image_attr_link: https://commons.wikimedia.org/w/index.php?curid=8055566
 featured_image_alt: Black and white headshot of Patrick Heusinger in a plain white t-shirt
+roles:
+  - Actor
 socials:
   ibdb: patrick-heusinger-392417
   imdb: nm1738176

@@ -6,6 +6,8 @@ featured_image_alt: Headshot of Susan Joline
 featured_image_caption: Headshot of Susan Joline
 headshot_gallery:
   - image: Susan-Joline.webp
+roles:
+  - Actor
 socials:
   facebook:
   twitter:

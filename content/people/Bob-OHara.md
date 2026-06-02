@@ -8,6 +8,8 @@ date: 2024-06-20T15:46:38-04:00
 featured_image: Bob-OHara.webp
 featured_image_attr: Kailin Lake
 featured_image_attr_link: 
+roles:
+  - Actor
 socials:
   facebook: bob.ohara.7564
   twitter: 

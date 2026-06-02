@@ -6,6 +6,8 @@ featured_image_attr: Matt Simpkins Photography
 featured_image_attr_link: https://www.mattsimpkinsphotography.com/
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Actor
 socials:
   facebook: 
   twitter: 
@@ -13,5 +15,5 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website: 
+  website:
 ---

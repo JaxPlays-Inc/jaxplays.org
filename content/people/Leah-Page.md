@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 headshot_gallery:
   - image: Leah-Page.webp
+roles:
+  - Actor
+  - Director
 socials:
   facebook: 
   twitter: 
@@ -15,6 +18,6 @@ socials:
   linkedin: leah-page-87ba8574
   ibdb: 
   imdb:
-  website:  
+  website:
 ---
 Leah is an Associate Professor of Theatre at Flagler College. Some of her past directing credits include [Streetlight Woodpecker](/productions/2024-streetlight-woodpecker/) (Flagler College), The 25th Annual Putnam County Spelling Bee (Flagler College and Limelight Theatre), and Wayside School is Falling Down (Daytona State College). She has also directed several shows for Limelight's Education Department. She has an MFA in Musical Theatre from UCF, and an MA in Applied Theatre from CUNY.
