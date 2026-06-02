@@ -6,7 +6,7 @@
     {{ partial "secondSearchBar.html" (dict "section" "People") }}
     <aside class="people-list-grid ph2 ph0-ns">
       {{ $allPages := .Pages.ByParam "featured_image" }}
-      {{ $paginator := .Paginate $allPages 24 }}
+      {{ $paginator := .Paginate $allPages 28 }}
       
       {{ range $paginator.Pages }}
         {{ $headshot := "/media/default/people_headshot.webp" }}
@@ -27,7 +27,7 @@
         gap: 2rem 1.25rem;
         justify-items: center;
         margin: 2rem auto 3rem;
-        max-width: 72rem;
+        /* max-width: 72rem; */
       }
 
       .people-list-person {
