@@ -1,11 +1,13 @@
 ---
 title: Jessica Alexander
 date: 2025-03-03T09:24:14-05:00
-featured_image: Jessica-Alexander.webp
-featured_image_attr: 
-featured_image_attr_link: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image: Jessica-Alexander-01.webp
+featured_image_attr:
+featured_image_attr_link:
+featured_image_alt:
+featured_image_caption:
+headshot_gallery:
+  - image: Jessica-Alexander.webp
 roles:
   - Actor
 socials:
