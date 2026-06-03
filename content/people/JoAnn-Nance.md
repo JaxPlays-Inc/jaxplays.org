@@ -1,11 +1,13 @@
 ---
 title: JoAnn Nance
 date: 2024-09-09T22:16:37-04:00
-featured_image: JoAnn-Nance.webp
+featured_image: JoAnn-Nance-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: JoAnn-Nance.webp
 roles:
   - Actor
 socials:

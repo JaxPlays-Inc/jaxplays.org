@@ -30,22 +30,23 @@ featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
 program: 2025-Nunsense.pdf
-website: https://limelight-theatre.org/productions/nunsense/
+website: https://www.limelight-theatre.org/calendar/on-stage/bright-star-kwkhl
 tickets: https://limelight.ludus.com/index.php?show_id=
 cast:
-- Reverend Mother: Joann Nance
+- Reverend Mother: JoAnn Nance
 - Sister Mary Hubert: Grace Lewis
 - Sister Mary Amnesia: Kaylee Byers
 - Sister Robert Ann: Facia Lee
 - Sister Mary Leo: Charity Walton
 crew:
-- Directors:
+- Co-Directors:
   - Daniel Starling
   - Heather Starling
-- Stage Manager: Sophie Willis
+- Stage Manager: Soph Willis
 - Music Director: Keith Teepen
-- Set Design: Ashley Taylor
-- Costume Design: Jenn Michaels
+- Scenic Design: Ashley Taylor
+- Light Design: Aubrey Barker
+- Costume Design: Jenn Michael
 - Seamstress: Janice Bickel
 - Light Board Operator: Natasha Hartstone
 - Sound Board Operator: Day Stanchi
@@ -57,14 +58,13 @@ crew:
   - Daniel Starling
   - Heather Starling
 orchestra:
-- Piano:
+- Piano/Conductor:
   - Keith Teepen
   - Mark Dougherty
-- Drums:
+- Flute: Angela Muller
+- Drums/Percussion:
   - Ella Finley
   - Joanne Maffia
-- Flute:
-  - Angela Muller
 show_details:
 - Music: '[[w:Dan Goggin (composer)|Dan Goggin]]'
 - Lyrics: Dan Goggin
@@ -77,6 +77,7 @@ description: A delightfully irreverent musical comedy that follows five quirky n
   accident.
 source_urls:
 - https://limelight-theatre.org/productions/nunsense/
+- https://www.limelight-theatre.org/calendar/on-stage/bright-star-kwkhl
 ---
 
 *Nunsense* begins when the Little Sisters of Hoboken discover that their cook, Sister Julia, Child of God, has accidentally poisoned most of the convent with her cooking. Left with the task of burying their deceased sisters, the surviving nuns decide to stage a variety show to raise the necessary funds. Led by the no-nonsense Reverend Mother, each nun brings her own hilarious quirks to the stage—ranging from Sister Mary Amnesia, who can’t remember her past, to Sister Mary Leo, who dreams of becoming a ballerina. Packed with witty songs, outrageous antics and zany characters, the musical is a comedic celebration of resilience and sisterhood.
