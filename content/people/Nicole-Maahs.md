@@ -1,11 +1,13 @@
 ---
 title: Nicole Maahs
 date: 2025-06-01T22:09:06-04:00
-featured_image: Nicole-Maahs.webp 
+featured_image: Nicole-Maahs-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Nicole-Maahs.webp
 roles:
   - Actor
 socials:
