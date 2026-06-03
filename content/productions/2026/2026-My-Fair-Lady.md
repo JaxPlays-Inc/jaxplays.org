@@ -2,21 +2,22 @@
 title: My Fair Lady
 theatre: Artist Connection Theatre
 venue: Artist Connection Theatre
-date: 2026-05-15T00:00:00-04:00
-opening_date: 2025-06-05
-closing_date: 2025-06-21
+season: 2026
+date: 2026-06-03T14:23:16-04:00
+opening_date: 2026-06-05
+closing_date: 2026-06-21
 showtimes:
-  - 2025-06-05 19:30:00
-  - 2025-06-06 19:30:00
-  - 2025-06-07 15:00:00
-  - 2025-06-11 19:30:00
-  - 2025-06-12 19:30:00
-  - 2025-06-13 19:30:00
-  - 2025-06-14 15:00:00
-  - 2025-06-19 19:30:00
-  - 2025-06-20 19:30:00
-  - 2025-06-21 15:00:00
-featured_image: 2025-My-Fair-Lady-2.webp
+  - 2026-06-05 19:30:00
+  - 2026-06-06 19:30:00
+  - 2026-06-07 15:00:00
+  - 2026-06-11 19:30:00
+  - 2026-06-12 19:30:00
+  - 2026-06-13 19:30:00
+  - 2026-06-14 15:00:00
+  - 2026-06-19 19:30:00
+  - 2026-06-20 19:30:00
+  - 2026-06-21 15:00:00
+featured_image: 2026-My-Fair-Lady.webp
 featured_image_alt: Poster for Artist Connection Theatre's production of My Fair Lady
 featured_image_caption: Poster for My Fair Lady
 featured_image_attr:
