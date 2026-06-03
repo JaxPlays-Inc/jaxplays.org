@@ -10,8 +10,8 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 address: |
-  1000 Osborne Street
-  St. Marys, GA
+  4515 GA-40 E, Ste. E
+  St. Marys, GA 31558
 socials:
   facebook: StMarysLittleTheatre
   youtube: UCaSfmCnHH3rUiEnI6GbV7Sg
