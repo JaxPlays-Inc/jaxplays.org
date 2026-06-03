@@ -15,7 +15,7 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: Collin James
 featured_image_attr_link: 
-program:
+program: 2024-The-Last-Five-Years-In-Concert.pdf
 website: 
 tickets: https://limelight.ludus.com/200468068
 show_details: 
@@ -24,7 +24,9 @@ cast:
 - Cathy: Emily Layt
 - Jamie: Chad Boyd
 crew:
-- Musical Director: Keith Teepen
+- Music Director: Keith Teepen
+- Lighting Design: Aubrey Barker
+- Board Operator: Rae Natzel
 orchestra:
 - Pianist: Keith Teepen
 - Violinist: Kimberly Zielinski
