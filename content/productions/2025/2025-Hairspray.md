@@ -83,6 +83,26 @@ orchestra:
 source_urls:
   - https://www.limelight-theatre.org/season-32-shows-1/hairspray
   - https://www.limelight-theatre.org/calendar/on-stage/hairspray
+photos:
+- photo: 2025-Hairspray-01.webp
+  photo_alt: "Corny Collins stands center stage under blue lights as dancers frame him and Tracy sits on the studio floor in Limelight Theatre's Hairspray."
+  photo_caption: "The Corny Collins Show bursts to life in blue light, with Tracy already pulled toward the music that will change everything."
+- photo: 2025-Hairspray-02.webp
+  photo_alt: "Seaweed dances between two smiling performers under pink and gold stage lights in Limelight Theatre's Hairspray."
+  photo_caption: "Seaweed brings rhythm, charm and momentum to the stage, turning a simple step into an invitation."
+- photo: 2025-Hairspray-03.webp
+  photo_alt: "The Hairspray company marches with protest signs reading Let Us Dance, No Segregation and Hungry for Justice on Limelight Theatre's Mainstage."
+  photo_caption: "The fight to integrate the show moves from dream to action as the company fills the stage with protest, purpose and motion."
+- photo: 2025-Hairspray-04.webp
+  photo_alt: "Brightly dressed teens gather around Corny Collins and Amber Von Tussle on the television-show set in Limelight Theatre's Hairspray."
+  photo_caption: "A glossy television moment gathers the Nicest Kids in Town, where big smiles and bigger ambitions compete for the spotlight."
+- photo: 2025-Hairspray-05.webp
+  photo_alt: "The Hairspray ensemble clusters around Tracy, Link, Edna and Velma beneath blue stage lights at Limelight Theatre."
+  photo_caption: "Baltimore's rivalries and romances collide in a crowded burst of color, attitude and musical-comedy tension."
+- photo: 2025-Hairspray-06.webp
+  photo_alt: "Tracy sings from center stage while dancers strike poses around Penny and Velma in blue light during Limelight Theatre's Hairspray."
+  photo_caption: "Tracy claims the center of the room as the ensemble snaps into a stylish, high-energy tableau around her."
 genres: 
 description: 
 ---
+
