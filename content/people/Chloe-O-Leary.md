@@ -3,6 +3,8 @@ title: Chloe O'Leary
 other_names:
 - Chloe O’Leary
 - Chloe O’ Leary
+aliases:
+  - /people/chloe-oleary
 date: 2026-06-02T12:42:50-04:00
 featured_image: Chloe-O-Leary.webp
 featured_image_attr: ''
