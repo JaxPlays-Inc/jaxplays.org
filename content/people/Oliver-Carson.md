@@ -1,7 +1,7 @@
 ---
 title: Oliver Carson
 date: 2025-11-23T23:57:13-05:00
-featured_image: 
+featured_image: Oliver-Carson.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 

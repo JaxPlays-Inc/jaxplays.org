@@ -1,7 +1,7 @@
 ---
 title: Jalen Hardy
 date: 2025-11-23T23:35:40-05:00
-featured_image: 
+featured_image: Jalen-Hardy.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 

@@ -1,11 +1,13 @@
 ---
 title: Raphael Albea
 date: 2024-08-11T14:36:15-04:00
-featured_image: Raphael-Albea.webp
+featured_image: Raphael-Albea-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Raphael-Albea.webp
 roles:
   - Actor
 socials:
