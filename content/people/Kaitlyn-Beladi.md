@@ -1,7 +1,7 @@
 ---
 title: Kaitlyn Beladi
 date: 2024-09-29T16:56:55-04:00
-featured_image:
+featured_image: Kaitlyn-Beladi.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
