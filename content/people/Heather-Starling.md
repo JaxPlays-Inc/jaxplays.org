@@ -1,11 +1,12 @@
 ---
 title: Heather Starling
 date: 2026-05-31T16:34:00-04:00
-featured_image: Heather-Starling-02.webp
-featured_image_attr: 
-featured_image_attr_link: 
+featured_image: Heather-Starling-03.webp
+featured_image_attr:
+featured_image_attr_link:
 headshot_gallery:
-  - Heather-Starling.webp
+  - image: Heather-Starling.webp
+  - image: Heather-Starling-02.webp
 roles:
   - Actor
   - Director

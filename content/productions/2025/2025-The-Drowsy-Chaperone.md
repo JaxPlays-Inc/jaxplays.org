@@ -29,8 +29,8 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
-website: https://www.limelight-theatre.org/season-32-shows-1/the-drowsy-chaperone
+program: 2025-The-Drowsy-Chaperone.pdf
+website: https://www.limelight-theatre.org/calendar/on-stage/the-drowsy-chaperone
 tickets: https://limelight.ludus.com/200458979
 show_details: 
 - Music: 
@@ -43,14 +43,15 @@ show_details:
   - "[[w:Bob Martin (comedian)|Bob Martin]]"
   - "[[w:Don McKellar]]"
 cast:
-- The Drowsy Chaperone/Beatrice Stockwell: Sherrie Provence
-- Aldolpho: Blake Osner
 - Man in Chair: Bill Rains
+- The Drowsy Chaperone: Sherrie Provence
 - Janet Van De Graaff: Jessica Alexander
 - Robert Martin: Jimmy Alexander
+- Aldolpho: Blake Osner
 - Mrs. Tottendale: Heather Starling
 - Underling: Clay Mitchell
-- "Gangster #1": Jeff Shaeffer
+- George: Ronald Foster
+- "Gangster #1": Jeff Schaeffer
 - "Gangster #2": Anthony Romero
 - Feldzieg: Collin James
 - Kitty: Joellie Tucker
@@ -82,6 +83,9 @@ crew:
       - Kiah Cautilli
       - Emma "Ruby" Parker
 orchestra:
+source_urls:
+  - https://www.limelight-theatre.org/season-32-shows-1/the-drowsy-chaperone
+  - https://www.limelight-theatre.org/calendar/on-stage/the-drowsy-chaperone
 # The Drowsy Chaperone
 genres:
   - Musical
