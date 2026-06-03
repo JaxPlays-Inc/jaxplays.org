@@ -28,26 +28,26 @@ featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program:
-website: https://www.limelight-theatre.org/season-32-shows-1/hairspray
+program: 2025-Hairspray.pdf
+website: https://www.limelight-theatre.org/calendar/on-stage/hairspray
 tickets: https://limelight.ludus.com/200459025
 show_details: 
 cast:
   - Tracy Turnblad: Molly Maresca
-  - Edna Turnblad: Daviel Buchman
-  - Wilbur Turnblad: Jad Jordan
+  - Corny Collins: Mitchell Wohl
+  - Edna Turnblad: David Buchman
   - Penny Pingleton: Anna Preston
-  - Prudy Pingleton: Megan Rodriguez
+  - Velma Von Tussle: Jennifer Medure
+  - Amber Von Tussle: Christina Dyches
   - Link Larkin: Oliver Carson
   - Seaweed J. Stubbs: Jalen Hardy
-  - Motormouth Maybelle: Falecia Ewing
-  - Amber Von Tussle: Christina Dyches
-  - Velma Von Tussle: Jennifer Medure
-  - Little Inez: Nyah McDowell
-  - Corny Collins: Mitchell Wohl
+  - Little Inez: Nylah McDowell
+  - Motormouth Maybelle: Felecia Ewing
+  - Wilbur Turnblad: Jad Jordan
+  - Prudy Pingleton / Shayna: Megan Rodriguez
   - Mr. Pinky: Phedre Delinois
-  - Mr. Spritzer / Principal: Jeff Schaeffer
-  - Gym Teacher / Matron: Lacey Cateleta
+  - Gym Teacher / Matron: Emily Layt
+  - Harriman F. Spritzer / Principal: Jeff Schaeffer
   - Gilbert: Anthony Romero
   - Stooie: Zac Davis
   - Cindy Watkins: Nasaya Lowe
@@ -60,14 +60,29 @@ cast:
   - Sketch: Peter Fisk
   - Shelley: Dani Miller
   - IQ: Kahi Curlee
-  - Lou Anne: Chloe O'Leary
-  - Justina / Lorraine: Akeelah Monroe
+  - Lou Ann: Chloe O'Leary
+  - Judine / Lorraine: Akeelah Monroe
   - Kamilah: Facia Lee
-  - Shayna: Zoe Pruitt Green
   - Beatnik Chick: Olivia Strickland
 crew:
-- Director: Jonny O'Leary
+- Director / Scenic Design / Lighting Design: Jonny O'Leary
+- Assistant Director / Intimacy Director: Emily Layt
+- Stage Manager: Neeva Raymond
+- Assistant Stage Managers:
+  - Connor Beck
+  - Mary Elekes
+- Music Director: David Paul Rowan
+- Choreographer: Stephanie Riner
+- Costume Design: Jenn Michaels
+- Assistant Costume Design: Ali Matsis
+- Wig Designer: Phedre Delinois
+- Sound Board Operator: Matthew Rodriguez
+- Light Board Operator: Francesca Bellavista
+- Crew: Shooter Suckow
 orchestra:
+source_urls:
+  - https://www.limelight-theatre.org/season-32-shows-1/hairspray
+  - https://www.limelight-theatre.org/calendar/on-stage/hairspray
 genres: 
 description: 
 ---
