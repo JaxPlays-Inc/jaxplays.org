@@ -1,7 +1,7 @@
 ---
 title: Eliza Kiss
 date: 2025-11-23T23:35:40-05:00
-featured_image: 
+featured_image: Eliza-Kiss.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
@@ -9,11 +9,11 @@ featured_image_caption:
 roles:
   - Actor
 socials:
-  facebook: 
+  facebook: Eliza.Christine.Kiss
   twitter: 
   instagram: 
   linkedin: 
   ibdb: 
-  imdb:
-  website:
+  imdb: nm3461026
+  website: https://elizakiss.com
 ---
