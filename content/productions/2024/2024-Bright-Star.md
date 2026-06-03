@@ -48,7 +48,8 @@ cast:
   - Max/Dr. Norquist: Anthony Romero
   - Government Clerk: JoAnn Nance
   - Well-Dressed Woman/Swing: Ella Romaine
-  - Ensemble: Charlie Mack
+  - Ensemble:
+    - Charlie Mack
     - Katie Timoney
     - JoAnn Nance
 crew:
