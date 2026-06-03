@@ -3,6 +3,9 @@
 <style>
   .left-rail {
     margin: 2rem 0;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
   }
 
   .left-rail .gpt-slot {
@@ -14,7 +17,7 @@
     .left-rail {
       position: absolute;
       top: 0;
-      left: -345px;
+      left: max(-345px, calc(512px - 50vw));
       margin: {{ .margin }};
     }
   }
