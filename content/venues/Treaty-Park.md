@@ -10,6 +10,8 @@ founded:
 address: |
   1595 Wildwood Dr
   St. Augustine, FL 32086
+latitude: 29.833342719409956
+longitude: -81.35820124228675
 socials:
   website: https://www.sjcfl.us/parks_trails/treaty-park/
 phone: 19042090346
