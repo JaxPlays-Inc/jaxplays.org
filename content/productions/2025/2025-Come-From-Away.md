@@ -60,9 +60,9 @@ program: 2025-Come-From-Away.pdf
 website: 
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1487&code=JAXPLAYS&qty_target=0
 show_details: 
-- Music, Lyrics, and Book:
-  - Irene Sankoff
-  - David Hein
+- Music, Lyrics and Book:
+  - "[[w:Irene Sankoff]]"
+  - "[[w:David Hein]]"
 cast:
   - Diane and others: Maureen McCluskey
   - Hannah and others: Millicent (Penny) Sylvester
