@@ -25,7 +25,7 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Sense-and-Sensibility.pdf
-website: https://www.limelight-theatre.org/season-32-shows-1/sense-%26-sensibility
+website: https://www.limelight-theatre.org/calendar/on-stage/sense-and-sensibility
 tickets: https://limelight.ludus.com/200459138
 show_details: 
 - Playwright: "[[w:Kate Hamill]]"
@@ -74,6 +74,23 @@ crew:
       - Kiah Cautilli
       - Emma "Ruby" Parker
 orchestra:
+photos:
+  - photo: 2025-Sense-and-Sensibility-01.webp
+    photo_alt: A performer in a pink Regency dress looks across the stage during Limelight Theatre's Sense & Sensibility.
+    photo_caption: A single glance carries the charged social stakes of Austen's world, where every room can become a test of feeling and restraint.
+    photo_attr: Daniel Starling
+  - photo: 2025-Sense-and-Sensibility-02.webp
+    photo_alt: Five women in colorful Regency hats stand together in a lively scene from Limelight Theatre's Sense & Sensibility.
+    photo_caption: The ensemble turns society gossip into a burst of color and comic momentum, giving every smile a theatrical edge.
+    photo_attr: Daniel Starling
+  - photo: 2025-Sense-and-Sensibility-03.webp
+    photo_alt: A woman and man sit across a small table with writing materials while onlookers watch from behind them in Sense & Sensibility.
+    photo_caption: Angela Olsen as Elinor Dashwood and Cameron Hodges as Edward Ferrars are caught in a delicate moment of letter writing, closely observed by the Gossips in Sense and Sensibility.
+    photo_attr: Daniel Starling
+  - photo: 2025-Sense-and-Sensibility-04.webp
+    photo_alt: Two women face each other in a tense exchange on the Limelight Theatre stage during Sense & Sensibility.
+    photo_caption: In a quiet confrontation, the production lets emotional honesty cut through the manners and machinery of courtship.
+    photo_attr: Daniel Starling
 genres:
   - Play
   - Drama
