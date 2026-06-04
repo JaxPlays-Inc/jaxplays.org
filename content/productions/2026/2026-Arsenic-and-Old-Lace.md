@@ -16,7 +16,7 @@ showtimes:
   - 2026-08-21 19:30:00
   - 2026-08-22 19:30:00
   - 2026-08-23 15:00:00
-featured_image: 2026-Arsenic-and-Old-Lace-ACT.webp
+featured_image: 2026-Arsenic-and-Old-Lace.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
@@ -38,6 +38,3 @@ source: Artist Connection Theatre productions page
 source_date: 2026-05-28
 source_url: https://artistconnectiontheatre.org/productions/
 ---
-Mortimer Brewster discovers that his charming aunts have a deadly habit, sending his engagement and his sanity into comic freefall.
-
-Artist Connection Theatre lists *Arsenic and Old Lace* as a season-pass production running in August.
