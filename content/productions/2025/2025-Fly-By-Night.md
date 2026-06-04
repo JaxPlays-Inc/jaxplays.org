@@ -26,7 +26,7 @@ featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-Fly-By-Night.pdf
-website: https://www.limelight-theatre.org/season-32-shows-1/fly-by-night
+website: https://www.limelight-theatre.org/calendar/on-stage/fly-by-night
 tickets: https://limelight.ludus.com/200459139
 show_details: 
 - Conceived by: Kim Rosenstock
@@ -43,10 +43,10 @@ show_details:
   - Michael Mitnick
   - Kim Rosenstock
 cast:
+  - The Narrator: David Buchman
   - Daphne: Heather Starling
   - Harold McClam: Daniel Starling
   - Miriam: Amanda Pazos
-  - The Narrator: David Buchman
   - Joey Storm: Matthew Turnage
   - Mr. Crabble: Don Cupo
   - Mr. McClam: Brian Johnson
@@ -75,6 +75,16 @@ crew:
       - Charles Ross
   - Publicity Trailer: Daniel Starling
   - Show Trailer: Charity Walton
+source_urls:
+  - https://www.limelight-theatre.org/season-32-shows-1/fly-by-night
+  - https://www.limelight-theatre.org/calendar/on-stage/fly-by-night
+photos:
+  - photo: 2025-Fly-By-Night-01.webp
+    photo_alt: "Daniel Starling as Harold McClam and Don Cupo as Mr. Crabble sit in a sandwich stand beneath a glowing Sandwiches sign in Limelight Theatre's Fly By Night."
+    photo_caption: "At the sandwich counter, Harold and Mr. Crabble turn an ordinary lunch stop into one of the show's quietly comic crossroads."
+  - photo: 2025-Fly-By-Night-02.webp
+    photo_alt: "Amanda Pazos as Miriam stands beneath a field of blue and white stars with a bag over her shoulder in Limelight Theatre's Fly By Night."
+    photo_caption: "Miriam looks toward the stars as the musical's cosmic sense of timing turns longing into prophecy."
 genres:
   - Musical
   - Drama
