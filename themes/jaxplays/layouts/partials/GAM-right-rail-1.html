@@ -3,6 +3,9 @@
 <style>
   .right-rail {
     margin: 2rem 0;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
   }
 
   .right-rail .gpt-slot {
@@ -14,7 +17,7 @@
     .right-rail {
       position: absolute;
       top: 0;
-      right: {{ .right }};
+      right: max({{ .right }}, calc(512px - 50vw));
       margin: {{ .margin }};
     }
   }
