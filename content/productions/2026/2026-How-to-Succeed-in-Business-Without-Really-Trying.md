@@ -33,14 +33,14 @@ cast:
   - J. B. Biggley: Karl Rogers
   - Bud Frump: Ethan Walls
   - Hedy LaRue: Julia Rigon
-  - Book Voice: Dennis Stouse
-  - Smitty: Katie O'Neill
+  - Book Voice / Toynbee / TV announcer: Dennis Stouse
+  - Smitty (Miss Smith): Katie O'Neill
   - Miss Jones: Marilyn Painter
   - Bratt: Chloe Dresback
-  - Twimble: Bryan Morris
+  - Mr. Twimble / Tackaberry: Bryan Morris
   - Gatch: Skanda (AJ) Pratheek
   - Miss Krumholtz: Savannah Haddock
-  - Matthews: Joel Silversten
+  - Matthews / Policeman: Joel Silversten
   - Peterson: Kai Thomas
   - Johnson: Andrew Eger
   - Davis: Lisa Hunt
@@ -52,14 +52,21 @@ cast:
       - Emmy Gilyana
       - Katelyn Maguire
       - Meg Mullaney
+      - Camille Ziegler
+      - Caragh Zeigler
 understudies:
 crew:
   - Directors:
       - Ava Fixel
       - Juliet Fixel
-  - Choreographer: Juliet Fixel
+  - Choreographer / Musical Director: Juliet Fixel
+  - Assistant Choreographer: Elliana Tessler
+  - Assistant Musical Director / Dance Captain: Caragh Zeigler
   - Stage Manager: Addison Farwell
   - Assistant Stage Manager: Katie O'Donnell
+  - Prop Manager: Trish Mackin
+  - Rehearsal Accompanist: Hannah Riederer
+  - Producer: Jamie Glavich
 orchestra:
 genres:
   - Musical
