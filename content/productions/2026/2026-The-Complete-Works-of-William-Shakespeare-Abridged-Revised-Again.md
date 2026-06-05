@@ -18,8 +18,8 @@ website: https://www.apextheatrejax.com/event/apex-presents-the-complete-works-o
 tickets: https://www.theamp.com/events/detail/apex-presents-complete-works
 show_details:
   - Authors:
-      - "[[w:Adam Long]]"
-      - "[[w:Daniel Singer (playwright)|Daniel Singer]]"
+      - "[[w:Adam_Long_(American_actor)|Adam Long]]"
+      - "[[w:Daniel Singer (actor)|Daniel Singer]]"
       - "[[w:Jess Winfield]]"
 cast:
 crew:

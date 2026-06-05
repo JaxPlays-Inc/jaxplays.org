@@ -17,14 +17,10 @@ featured_image_attr_link:
 program:
 website: https://www.apextheatrejax.com/event/apex-presents-the-broadway-hit-come-from-away-at-the-ponte-vedra-concert-hall/2026-07-24/
 tickets: https://www.pvconcerthall.com/events/detail/apex-come-from-away
-show_details:
-  - Book: "[[w:Irene Sankoff]]"
-  - Music:
-      - Irene Sankoff
-      - "[[w:David Hein]]"
-  - Lyrics:
-      - Irene Sankoff
-      - David Hein
+show_details: 
+- Music, Lyrics and Book:
+  - "[[w:Irene Sankoff]]"
+  - "[[w:David Hein]]"
 cast:
 crew:
 orchestra:
