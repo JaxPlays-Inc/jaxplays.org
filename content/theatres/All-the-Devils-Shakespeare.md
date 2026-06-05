@@ -3,7 +3,7 @@ title: All the Devils Shakespeare
 layout: theatres
 active: true
 company_type: Professional
-featured_image:
+featured_image: All-the-Devils-Shakespeare.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
