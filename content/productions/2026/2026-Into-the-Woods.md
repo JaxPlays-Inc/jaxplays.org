@@ -7,7 +7,15 @@ date: 2026-06-04T00:10:00-04:00
 opening_date: 2026-06-18
 closing_date: 2026-06-28
 showtimes:
-featured_image: 2026-Into-the-Woods-RCT.webp
+  - 2026-06-18T19:00:00-04:00
+  - 2026-06-19T19:00:00-04:00
+  - 2026-06-20T19:00:00-04:00
+  - 2026-06-21T19:00:00-04:00
+  - 2026-06-25T19:00:00-04:00
+  - 2026-06-26T19:00:00-04:00 
+  - 2026-06-27T19:00:00-04:00
+  - 2026-06-28T19:00:00-04:00
+featured_image: 2026-Into-the-Woods.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
