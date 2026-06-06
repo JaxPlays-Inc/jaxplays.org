@@ -3,7 +3,7 @@ title: Something Rotten!
 theatre: Orange Park Community Theatre
 venue: Orange Park Community Theatre
 season: '2027'
-date: 2027-02-19
+date: 2026-06-06T16:43:39-04:00
 opening_date: 2027-02-19
 closing_date: 2027-03-07
 showtimes:
@@ -25,8 +25,8 @@ program:
 website: https://opct.booktix.com/dept/main/e/rotten
 tickets: https://opct.booktix.com/dept/main/e/rotten
 show_details:
-  - Music and Lyrics: Wayne Kirkpatrick and Karey Kirkpatrick
-  - Book: Karey Kirkpatrick and John O'Farrell
+  - Music and Lyrics: "[[w:Wayne Kirkpatrick]] and [[w:Karey Kirkpatrick]]"
+  - Book: "Karey Kirkpatrick and [[w:John O'Farrell (author)|John O'Farrell]]"
 cast:
 crew:
 orchestra:

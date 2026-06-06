@@ -3,7 +3,7 @@ title: Young Frankenstein
 theatre: Orange Park Community Theatre
 venue: Orange Park Community Theatre
 season: '2026'
-date: 2026-06-05
+date: 2026-06-06T16:43:34-04:00
 opening_date: 2026-06-05
 closing_date: 2026-06-21
 showtimes:
@@ -34,9 +34,9 @@ orchestra:
 genres:
   - Musical
   - Comedy
-description: Mel Brooks' monster comedy musical sends Frederick Frankenstein back to Transylvania, where family legacy, laboratory mayhem, and a tap-dancing creature collide.
+description: Mel Brooks' monster comedy musical sends Frederick Frankenstein back to Transylvania, where family legacy, laboratory mayhem and a tap-dancing creature collide.
 source: OPCT BookTix
 source_date: 2026-06-04
 source_url: https://opct.booktix.com/dept/main/e/ygfrank
 ---
-*Young Frankenstein* brings Mel Brooks's classic horror-film spoof to the stage with lightning bolts, outrageous wordplay, and a laboratory full of comic chaos. When Frederick Frankenstein inherits his family castle, he tries to escape the past and ends up reviving it with spectacularly silly consequences.
+*Young Frankenstein* brings Mel Brooks's classic horror-film spoof to the stage with lightning bolts, outrageous wordplay and a laboratory full of comic chaos. When Frederick Frankenstein inherits his family castle, he tries to escape the past and ends up reviving it with spectacularly silly consequences.

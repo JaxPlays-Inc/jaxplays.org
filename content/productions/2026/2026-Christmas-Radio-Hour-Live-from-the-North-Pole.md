@@ -3,7 +3,7 @@ title: Christmas Radio Hour - Live from the North Pole
 theatre: Orange Park Community Theatre
 venue: Orange Park Community Theatre
 season: '2026'
-date: 2026-12-04
+date: 2026-06-06T16:43:30-04:00
 opening_date: 2026-12-04
 closing_date: 2026-12-13
 showtimes:
@@ -22,7 +22,6 @@ program:
 website: https://opct.booktix.com/dept/main/e/26hol
 tickets: https://opct.booktix.com/dept/main/e/26hol
 show_details:
-  - Holiday Show: 2026-2027 season add-on
 cast:
 crew:
 orchestra:
@@ -35,4 +34,4 @@ source: OPCT BookTix
 source_date: 2026-06-04
 source_url: https://opct.booktix.com/dept/main/e/26hol
 ---
-*Christmas Radio Hour - Live from the North Pole* brings OPCT's holiday slot to the 2026 season with a radio-show frame, seasonal cheer, and a North Pole broadcast built for the whole family.
+*Christmas Radio Hour - Live from the North Pole* brings OPCT's holiday slot to the 2026 season with a radio-show frame, seasonal cheer and a North Pole broadcast built for the whole family.

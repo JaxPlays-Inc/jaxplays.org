@@ -3,7 +3,7 @@ title: The Odd Couple
 theatre: Orange Park Community Theatre
 venue: Orange Park Community Theatre
 season: '2027'
-date: 2027-04-09
+date: 2026-06-06T16:43:45-04:00
 opening_date: 2027-04-09
 closing_date: 2027-04-25
 showtimes:
@@ -16,7 +16,7 @@ showtimes:
   - 2027-04-23 19:30:00
   - 2027-04-24 19:30:00
   - 2027-04-25 14:00:00
-featured_image: 2027-The-Odd-Couple-OPCT.webp
+featured_image: 2027-The-Odd-Couple.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
@@ -37,4 +37,4 @@ source: OPCT BookTix
 source_date: 2026-06-04
 source_url: https://opct.booktix.com/dept/main/e/oddcpl
 ---
-*The Odd Couple* drops two newly single friends into the same apartment and watches their opposite habits collide. One is messy, one is meticulous, and Neil Simon's comedy finds the affection, irritation, and absurdity inside an impossible living arrangement.
+*The Odd Couple* drops two newly single friends into the same apartment and watches their opposite habits collide. One is messy, one is meticulous. Neil Simon's comedy finds the affection, irritation and absurdity inside an impossible living arrangement.
