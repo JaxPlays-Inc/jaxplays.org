@@ -1,6 +1,6 @@
 ---
 title: Puffs
-subtitle: Or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
+subtitle: or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
 theatre: City Repertory Theatre
 venue: City Repertory Theatre
 date: 2026-06-04T00:05:00-04:00
@@ -13,7 +13,7 @@ showtimes:
   - 2026-07-24 19:30:00
   - 2026-07-25 19:30:00
   - 2026-07-26 15:00:00
-featured_image: 2026-Puffs-City-Repertory-Theatre.webp
+featured_image: 2026-Puffs.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
