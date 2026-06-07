@@ -1,12 +1,12 @@
 ---
 title: Spotlight Events Center
 aliases: 
-  - /venues/spotlight-events-center/
+  - /venues/spotlight-center/
 venue_aliases:
-  - Spotlight Events Center
-date: 2024-06-12T18:46:30-04:00
+  - Spotlight Center
+date: 2026-06-07T16:34:17-04:00
 active: true
-featured_image: Spotlight-Center.webp
+featured_image: Spotlight-Events-Center-1.webp
 featured_image_attr: 
 featured_image_alt:
 featured_image_caption: Logo for Spotlight Events Center
