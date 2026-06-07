@@ -4,7 +4,7 @@ theatre: FSCJ Artist Series
 presenter: true
 venue: Moran Theater
 season: 2026/2027
-date: 2026-06-04T00:20:00-04:00
+date: 2026-06-07T15:06:39-04:00
 opening_date: 2027-04-09
 closing_date: 2027-04-11
 showtimes:
@@ -21,10 +21,6 @@ featured_image_attr_link:
 program:
 website: https://www.fscjartistseries.org/tickets/jersey-boys
 tickets: https://www.fscjartistseries.org/tickets/jersey-boys
-show_details:
-  - Book: Marshall Brickman and Rick Elice
-  - Music: Bob Gaudio
-  - Lyrics: Bob Crewe
 cast:
 crew:
 orchestra:
@@ -37,6 +33,3 @@ source: Official website
 source_date: 2026-06-04
 source_url: https://www.fscjartistseries.org/tickets/jersey-boys
 ---
-Before the world knew their harmonies, they were four guys from Jersey trying to find a sound.
-Jersey Boys goes behind the music with the story of Frankie Valli and The Four Seasons, including
-hits like "Sherry," "Big Girls Don't Cry," and "Oh What a Night."

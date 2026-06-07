@@ -4,7 +4,7 @@ theatre: FSCJ Artist Series
 presenter: true
 venue: Moran Theater
 season: 2026/2027
-date: 2026-06-04T00:20:00-04:00
+date: 2026-06-07T15:06:39-04:00
 opening_date: 2026-12-01
 closing_date: 2026-12-13
 showtimes:

@@ -4,7 +4,7 @@ theatre: FSCJ Artist Series
 presenter: true
 venue: Moran Theater
 season: 2026/2027
-date: 2026-06-04T00:20:00-04:00
+date: 2026-06-07T15:06:39-04:00
 opening_date: 2027-02-16
 closing_date: 2027-02-21
 showtimes:
@@ -25,9 +25,10 @@ program:
 website: https://www.fscjartistseries.org/tickets/the-wiz
 tickets: https://www.fscjartistseries.org/tickets/the-wiz
 show_details:
-  - Music: Charlie Smalls
-  - Book: William F. Brown
-  - Basis: Based on The Wonderful Wizard of Oz by L. Frank Baum
+- Music: "[[w:Charlie Smalls]], Timothy Graphenreed, [[w:Harold Wheeler (musician)|Harold Wheeler]], [[w:George Faison]], [[w:Luther Vandross]]"
+- Lyrics: "Charlie Smalls, Zachary Walzer, Luther Vandross"
+- Book: "[[w:William F. Brown (writer)|William F. Brown]]"
+- Basis: "[[w:The Wonderful Wizard of Oz]],  by [[w:L. Frank Baum]]"
 cast:
 crew:
 orchestra:

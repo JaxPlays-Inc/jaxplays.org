@@ -5,7 +5,7 @@ theatre: FSCJ Artist Series
 presenter: true
 venue: Moran Theater
 season: 2026/2027
-date: 2026-06-04T00:20:00-04:00
+date: 2026-06-07T15:06:39-04:00
 opening_date: 2027-01-17
 closing_date: 2027-01-17
 showtimes:
@@ -28,11 +28,11 @@ genres:
   - Opera
   - Comedy
   - Drama
-description: "Teatro Lirico D'Europa brings Mozart's comic and tragic opera to Jacksonville in a fully staged production with orchestra, sets, and costumes."
+description: "Teatro Lirico D'Europa brings Mozart's comic and tragic opera to Jacksonville in a fully staged production with orchestra, sets and costumes."
 source: Official website
 source_date: 2026-06-04
 source_url: https://www.fscjartistseries.org/tickets/teatro-lirico-deuropa-mozart-don-giovanni
 ---
 Mozart's Don Giovanni follows a reckless nobleman whose appetite for conquest leaves chaos,
-betrayal, and death in his wake. The opera balances comedy and tragedy as Don Giovanni's victims
+betrayal and death in his wake. The opera balances comedy and tragedy as Don Giovanni's victims
 close in and his lack of remorse leads him toward judgment.

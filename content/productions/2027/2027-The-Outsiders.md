@@ -4,7 +4,7 @@ theatre: FSCJ Artist Series
 presenter: true
 venue: Moran Theater
 season: 2026/2027
-date: 2026-06-04T00:20:00-04:00
+date: 2026-06-07T15:06:39-04:00
 opening_date: 2027-05-18
 closing_date: 2027-05-23
 showtimes:
@@ -25,9 +25,9 @@ program:
 website: https://www.fscjartistseries.org/tickets/the-outsiders
 tickets: https://www.fscjartistseries.org/tickets/the-outsiders
 show_details:
-  - Book: Adam Rapp and Justin Levine
-  - Music and Lyrics: Jamestown Revival and Justin Levine
-  - Basis: Based on the novel by S. E. Hinton and the film by Francis Ford Coppola
+  - Book: "[[w:Adam Rapp]] and Justin Levine"
+  - Music and Lyrics: "[[w:Jonathan Clay (musician)|Jonathan Clay]], Zach Chance from [[w:Jamestown Revival]] and Justin Levine"
+  - Basis: Based on the novel [[w:The Outsiders (novel)|*The Outsiders*]] by [[w:S. E. Hinton]] and the film [[w:The Outsiders (film)|*The Outsiders*]] directed by [[w:Francis Ford Coppola]]
 cast:
 crew:
 orchestra:
@@ -40,6 +40,6 @@ source: Official website
 source_date: 2026-06-04
 source_url: https://www.fscjartistseries.org/tickets/the-outsiders
 ---
-Adapted from S. E. Hinton's novel and Francis Ford Coppola's film, The Outsiders follows Ponyboy
+Adapted from S. E. Hinton's novel and Francis Ford Coppola's film, *The Outsiders* follows Ponyboy
 Curtis and the Greasers as they fight for family, identity, and a future beyond the violence that
 surrounds them.

@@ -5,7 +5,7 @@ theatre: FSCJ Artist Series
 presenter: true
 venue: Moran Theater
 season: 2026/2027
-date: 2026-06-04T00:20:00-04:00
+date: 2026-06-07T15:06:39-04:00
 opening_date: 2027-02-03
 closing_date: 2027-02-03
 showtimes:
@@ -19,8 +19,8 @@ program:
 website: https://www.fscjartistseries.org/tickets/new-york-gilbert-sullivan-players-the-pirates-of-penzace
 tickets: https://www.fscjartistseries.org/tickets/new-york-gilbert-sullivan-players-the-pirates-of-penzace
 show_details:
-  - Music: Arthur Sullivan
-  - Libretto: W. S. Gilbert
+  - Music: "[[w:Arthur Sullivan]]"
+  - Libretto: "[[w:W. S. Gilbert]]"
 cast:
 crew:
 orchestra:
@@ -28,7 +28,7 @@ genres:
   - Operetta
   - Comedy
   - Musical
-description: "New York Gilbert & Sullivan Players set sail with the classic comic operetta packed with pirates, patter, and romantic complications."
+description: "New York Gilbert & Sullivan Players set sail with the classic comic operetta packed with pirates, patter and romantic complications."
 source: Official website
 source_date: 2026-06-04
 source_url: https://www.fscjartistseries.org/tickets/new-york-gilbert-sullivan-players-the-pirates-of-penzace
