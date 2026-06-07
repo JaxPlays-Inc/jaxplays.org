@@ -3,7 +3,7 @@ title: "A Midsummer Night's Dream"
 theatre: The Island Theater
 venue: The Island Theater
 season: 2026
-date: 2026-06-04T01:55:00-04:00
+date: 2026-06-07T12:26:07-04:00
 opening_date: 2026-06-19
 closing_date: 2026-06-28
 showtimes:
@@ -15,7 +15,7 @@ showtimes:
   - 2026-06-26 19:30:00
   - 2026-06-27 19:30:00
   - 2026-06-28 14:00:00
-featured_image: 2026-A-Midsummer-Nights-Dream.webp
+featured_image: 2026-A-Midsummer-Nights-Dream.webp?v=122643
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
