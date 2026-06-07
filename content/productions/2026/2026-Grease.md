@@ -16,7 +16,7 @@ showtimes:
   - 2026-05-22 19:30:00
   - 2026-05-23 19:30:00
   - 2026-05-24 14:30:00
-featured_image: 2026-Grease-AMP.webp
+featured_image: 2026-Grease.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -15,7 +15,7 @@ showtimes:
   - 2026-10-02 19:30:00
   - 2026-10-03 15:00:00
   - 2026-10-03 19:30:00
-featured_image: 2026-Company-City-Repertory-Theatre.webp
+featured_image: 2026-Company.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

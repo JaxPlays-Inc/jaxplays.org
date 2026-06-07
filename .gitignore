@@ -7,7 +7,7 @@ frontmatter.json
 .claude/settings.local.json
 .DS_Store
 .stignore
+.syncthing*
 .stfolder/syncthing-folder-6c83ff.txt
 .stfolder/syncthing-folder-6c83ff.sync-conflict-20260607-134211-Y36PJPU.txt
 .sync-conflict-20260607-134854-HYOIRMG.gitignore
-.syncthing..sync-conflict-20260607-134854-HYOIRMG.gitignore.tmp
