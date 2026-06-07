@@ -3,7 +3,7 @@ title: James and the Giant Peach
 theatre: Flagler College Department of Theater Arts
 venue: Lewis Auditorium
 season: 2025-2026
-date: 2026-06-04T00:12:00-04:00
+date: 2026-06-07T14:12:45-04:00
 opening_date: 2026-04-16
 closing_date: 2026-04-19
 showtimes:
@@ -11,7 +11,7 @@ showtimes:
   - 2026-04-17 19:30:00
   - 2026-04-18 19:30:00
   - 2026-04-19 14:00:00
-featured_image: 2026-James-and-the-Giant-Peach.webp
+featured_image: 2026-James-and-the-Giant-Peach.webp?v=014743
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
@@ -20,20 +20,50 @@ program:
 website: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions-2025-2026
 tickets: https://flagler.universitytickets.com/
 show_details:
-  - Music: Benj Pasek and Justin Paul
+  - Music: "[[w:Pasek and Paul|Benj Pasek and Justin Paul]]"
   - Lyrics: Benj Pasek and Justin Paul
   - Book: Timothy Allen McDonald
-  - Basis: Based on the book by Roald Dahl
+  - Basis: Based on the book *[[w:James and the Giant Peach]]* by [[w:Roald Dahl]]
 cast:
+  - James: Amberly Rodriguez
+  - Grasshopper: Teagen Becker
+  - Ladybug: Katie Hayes
+  - Spider: Bailee Loging
+  - Earthworm: Savannah Meinert
+  - Centipede: Allison Cento
+  - Ladahlord: Jewel Ramos
+  - Spiker: Kinnley Burk
+  - Sponge: Kristen Pacheco
+  - Ensemble: 
+    - Lynley Kendrick
+    - Autumn Schmeider
+    - Mallory Earley
+    - Hailey Kelley
+    - Sophie Zedler
+    - Sarah Sasser
+    - Lilly Dubnansky
+    - Nora Moukhliss
 crew:
+  - Director: Kip Taisey
+  - Co-Director / Choreographer: Patrick Moran
+  - Music Director: Keith Teepen
+understudies:
+  - Ladybug: Lynley Kendrick
+  - Centipede: Autumn Schmeider
+  - Grasshopper: Mallory Earley
+  - Spider: Hailey Kelley
+  - Ladahlord: Sophie Zedler
+  - Spiker: Sarah Sasser
+  - Sponge: Lilly Dubnansky
+  - Earthworm: Nora Moukhliss
 orchestra:
 genres:
   - Musical
   - Family
   - Adventure
 description: "Roald Dahl's beloved adventure becomes a buoyant musical journey as James and a band of oversized insect friends sail toward a new life inside one very extraordinary peach."
-source: Official website
-source_date: 2026-06-04
+source: Official website and social media cards
+source_date: 2026-06-07
 source_url: https://www.flagler.edu/information/community-members/flagler-college-theatre-productions-2025-2026
 ---
 Flagler College Department of Theater Arts brings *James and the Giant Peach* to Lewis Auditorium in a musical adaptation with music and lyrics by Benj Pasek and Justin Paul and book by Timothy Allen McDonald.

@@ -22,7 +22,7 @@ website: https://www.flagler.edu/information/community-members/flagler-college-t
 tickets: https://flagler.universitytickets.com/
 show_details:
   - Adapted by: Sherman L. Sergel
-  - Basis: Based on the Emmy Award-winning television movie by Reginald Rose
+  - Basis: Based on the Emmy Award-winning television movie, [[w:Twelve_Angry_Men_(Studio_One)]|*Twelve Angry Men*] by [[w:Reginald Rose]]
 cast:
   - Foreman: Grace Schwinn
   - Juror 2: Doug Delaney
