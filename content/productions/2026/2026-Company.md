@@ -23,21 +23,10 @@ featured_image_attr_link:
 program:
 website: https://crtpalmcoast.com/company-auditions
 tickets: https://www.tix.com/ticket-sales/crtpalmcoast/7555/event/1470617
-show_details:
-  - Music and Lyrics: "[[w:Stephen Sondheim]]"
-  - Book: "[[w:George Furth]]"
 cast:
 crew:
 orchestra:
-genres:
-  - Musical
-  - Comedy
-  - Drama
-description: Sondheim and Furth's landmark musical follows Robert through love, friendship, marriage and the question of commitment.
 source: City Repertory Theatre Company audition page
 source_date: 2026-06-04
 source_url: https://crtpalmcoast.com/company-auditions
 ---
-City Repertory Theatre presents *Company*, the Stephen Sondheim and George Furth musical about Robert, his married friends and the pull between commitment and loneliness.
-
-CRT describes the show as a musical known for sharp wit, emotional depth and an iconic score. Performances are scheduled September 18 through October 3, 2026.
