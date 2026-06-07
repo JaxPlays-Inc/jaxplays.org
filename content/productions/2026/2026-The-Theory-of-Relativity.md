@@ -30,9 +30,9 @@ understudies:
 orchestra:
 genres:
   - Musical
-description: "A chamber musical follows young people navigating love, loss, family, friendship, and the unexpected ways lives connect."
+description: "A chamber musical follows young people navigating love, loss, family, friendship and the unexpected ways lives connect."
 source: The Island Theater event pages and event sitemap
 source_date: 2026-06-04
 source_url: https://www.theislandtheater.com/event-details/theory-of-relativity-2026-01-16-19-30
 ---
-*The Theory of Relativity* uses songs and monologues to trace the small, surprising connections between students, strangers, families, and friends.
+*The Theory of Relativity* uses songs and monologues to trace the small, surprising connections between students, strangers, families and friends.
