@@ -6,3 +6,5 @@ frontmatter.json
 .hugo_cache/
 .claude/settings.local.json
 .DS_Store
+.stignore
+.stfolder/syncthing-folder-6c83ff.txt
