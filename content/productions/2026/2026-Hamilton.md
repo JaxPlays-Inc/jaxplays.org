@@ -33,7 +33,7 @@ program:
 website: https://www.fscjartistseries.org/tickets/hamilton
 tickets: https://www.fscjartistseries.org/tickets/hamilton
 show_details:
-  - Book: Lin-Manuel Miranda
+  - Book: "[[w:Lin-Manuel Miranda]]"
   - Music: Lin-Manuel Miranda
   - Lyrics: Lin-Manuel Miranda
   - Basis: Based on the biography by Ron Chernow
@@ -44,10 +44,9 @@ genres:
   - Musical
   - Biography
   - History
-description: "Lin-Manuel Miranda's landmark musical follows Alexander Hamilton's rise through revolution, ambition, love, and legacy."
+description: "Lin-Manuel Miranda's landmark musical follows Alexander Hamilton's rise through revolution, ambition, love and legacy."
 source: Official website
 source_date: 2026-06-04
 source_url: https://www.fscjartistseries.org/tickets/hamilton
 ---
-Blending hip-hop, jazz, R&B, and Broadway, Hamilton follows Founding Father Alexander Hamilton as he
-fights for honor, love, and a place in the story of a new nation.
+Blending hip-hop, jazz, R&B and Broadway, Hamilton follows Founding Father Alexander Hamilton as he fights for honor, love and a place in the story of a new nation.
