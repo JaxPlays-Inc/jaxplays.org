@@ -1,13 +1,14 @@
 ---
-title: "Sweeney Todd: The Demon Barber of Fleet Street"
+title: Sweeney Todd
+subtitle: "The Demon Barber of Fleet Street"
 theatre: Swoop Troupe
-venue:
+venue: Greenlight Theatre Company
 season: 2026
 date: 2026-06-04T01:20:00-04:00
 opening_date: 2026-03-20
 closing_date: 2026-03-29
 showtimes:
-featured_image: 2026-Sweeney-Todd-Swoop.webp
+featured_image: 2026-Sweeney-Todd.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
@@ -25,20 +26,32 @@ cast:
   - Beadle Bamford: Leland Locke
   - Pirelli: Ryan Ashley
   - Beggar Woman: Hannah Figel
-  - Mrs. Lovett Understudy / Ensemble: Phoenix Croke
-  - Johanna Understudy / Ensemble: Quill Schade
   - Ensemble:
+      - Phoenix Croke
+      - Quill Schade
       - Gianna Patrick
       - Sonia Romano
       - Elliot Schuler
       - Olivia Strickland
       - Silvana Perez-Castillo
+understudies:
+  - Mrs. Lovett: Phoenix Croke
+  - Johanna: Quill Schade
 crew:
   - Director: Leland Locke
   - Assistant Director: Bianca Voelkel
   - Music Director: Jo Lynn Fletcher
   - Choreographer: Anvar Gashimov
   - Co-Choreographer: Sadie Sims
+  - Technical Director: Logan Forbess
+  - Stage Manager:
+    - Hailee Ketterer
+    - Bianca Voelkel
+  - Scenic Designer: Logan Forbess
+  - Scenic Carpenter: Logan Forbess
+  - Lighting Designer: Rodney Holmes
+  - Sound Designer: Alex Lopez
+  - Costume Designer: Lauren Massais
   - Props Designer: Emily Wilson
   - Hair & Makeup: Dainyah Threats
   - Backstage Crew:
