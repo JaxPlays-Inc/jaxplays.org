@@ -29,7 +29,21 @@ Configured behavior:
 Mailchimp newsletter interest IDs must be Marketing API interest IDs, not hosted-form checkbox values.
 The public signup form values like `group[2200][1]` are not valid for the `interests` payload.
 
-Fetch the API IDs with:
+Newsletters category:
+
+```text
+dcfb52b733 = Newsletters
+```
+
+Newsletter interest IDs:
+
+```text
+98e7fe4901 = JaxPlays Spotlight
+21aacbee05 = Fundraising Emails
+dab2ddf414 = News & Reviews
+```
+
+Fetch/reconfirm the API IDs with:
 
 ```text
 GET /3.0/lists/{list_id}/interest-categories
