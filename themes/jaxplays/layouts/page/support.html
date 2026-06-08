@@ -1,4 +1,8 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "head" }}
+  {{ partial "head-additions.html" . }}
+  <script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=XzfDvChDHYVKLsXs"></script>
+{{ end }}
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw8">

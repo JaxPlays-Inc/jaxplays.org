@@ -1,5 +1,5 @@
 .dark-mode,
-.dark-mode *:not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
 	background-color: #000;
 }
 
@@ -10,7 +10,7 @@
 .dark-mode .blindlink:visited,
 .dark-mode .om-text,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
-.dark-mode *:not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
 {
 	color: #fff !important;
 }
@@ -29,6 +29,101 @@
 
 .dark-mode div.bg-white {
 	background-color: #333;
+}
+
+.dark-mode .home-dashboard,
+.dark-mode .home-dashboard * {
+	background-color: transparent;
+}
+
+.dark-mode .home-dashboard {
+	background-color: #101214;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .home-dashboard .home-dashboard-hero {
+	border-bottom-color: #3a3428;
+}
+
+.dark-mode .home-dashboard .home-dashboard-kicker,
+.dark-mode .home-dashboard .home-dashboard-section-more,
+.dark-mode .home-dashboard .home-dashboard-summary-link {
+	color: #ffd600 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-subtitle,
+.dark-mode .home-dashboard .home-dashboard-meta,
+.dark-mode .home-dashboard .home-dashboard-story-summary {
+	color: #c8c3b7 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-panel,
+.dark-mode .home-dashboard .home-dashboard-card,
+.dark-mode .home-dashboard .home-dashboard-story,
+.dark-mode .home-dashboard .home-dashboard-archive-link,
+.dark-mode .home-dashboard .home-dashboard-newsletter {
+	background-color: #1b1d21;
+	border-color: #3a3428;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-hotitem {
+	border-top-color: rgba(245, 241, 232, .16);
+}
+
+.dark-mode .home-dashboard .home-dashboard-button,
+.dark-mode .home-dashboard .home-dashboard-newsletter button {
+	background-color: #24272d;
+	border-color: #d8c65d;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-button.primary,
+.dark-mode .home-dashboard .home-dashboard-newsletter button {
+	background-color: #ffd600;
+	border-color: #ffd600;
+	color: #171717 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-newsletter input[type="email"] {
+	background-color: #101214;
+	border-color: #5a5242;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-newsletter input[type="email"]::placeholder {
+	color: #9f9788;
+	opacity: 1;
+}
+
+.dark-mode .home-dashboard .home-dashboard-badge {
+	background-color: #1f8c82;
+	color: #fff !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-badge.red {
+	background-color: #d04a43;
+	color: #fff !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link {
+	border-top-color: #6f8cc1;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(2) {
+	border-top-color: #d04a43;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(3) {
+	border-top-color: #1f8c82;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(4) {
+	border-top-color: #ffd600;
 }
 
 #dark-mode-toggle {
