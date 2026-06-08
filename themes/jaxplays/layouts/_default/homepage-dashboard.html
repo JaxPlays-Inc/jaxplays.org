@@ -373,11 +373,16 @@
   }
 
   .home-dashboard-newsletter form {
-    display: flex;
+    display: grid;
+    gap: .75rem;
     margin-top: .75rem;
   }
 
-  .home-dashboard-newsletter input {
+  .home-dashboard-newsletter-fields {
+    display: flex;
+  }
+
+  .home-dashboard-newsletter input[type="email"] {
     border: 1px solid var(--jp-line);
     border-radius: 0;
     flex: 1;
@@ -392,6 +397,11 @@
     border-radius: 0;
     font-weight: 900;
     padding: .75rem .9rem;
+  }
+
+  .home-dashboard-newsletter-honeypot {
+    position: absolute;
+    left: -9999px;
   }
 
   .home-dashboard-submit {
@@ -436,12 +446,12 @@
       flex-direction: column;
     }
 
-    .home-dashboard-newsletter form {
+    .home-dashboard-newsletter-fields {
       display: grid;
       gap: .5rem;
     }
 
-    .home-dashboard-newsletter input,
+    .home-dashboard-newsletter input[type="email"],
     .home-dashboard-newsletter button {
       border: 1px solid var(--jp-ink);
       border-radius: 0;
@@ -602,10 +612,15 @@
       <div class="home-dashboard-newsletter">
         <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
         <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
-        <form action="https://forms.jaxplays.org/newsletter.php" method="POST">
-          <input type="email" name="email" placeholder="Email address" aria-label="Email address">
-          <button type="submit">Subscribe</button>
+        <form action="https://forms.jaxplays.org/newsletter.php" method="POST" novalidate>
+          <div class="home-dashboard-newsletter-fields">
+            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
+            <button type="submit">Subscribe</button>
+          </div>
+          <input class="home-dashboard-newsletter-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"></div>
         </form>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
       </div>
       <div class="home-dashboard-submit">
         <a class="home-dashboard-button home-dashboard-grow" href="/submit/production/">Submit a Production</a>
