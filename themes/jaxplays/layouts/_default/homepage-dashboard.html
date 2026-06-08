@@ -718,7 +718,9 @@
 
             window.jaxplaysNewsletterTurnstileComplete = (token) => {
               form.dataset.turnstileToken = token;
-              setStatus("", "");
+              if (status.dataset.state === "error") {
+                setStatus("", "");
+              }
             };
 
             window.jaxplaysNewsletterTurnstileReset = () => {
@@ -780,6 +782,12 @@
               } finally {
                 submit.disabled = false;
                 submit.textContent = originalButtonText;
+              }
+            });
+
+            email.addEventListener("input", () => {
+              if (status.dataset.state === "success") {
+                setStatus("", "");
               }
             });
           })();
