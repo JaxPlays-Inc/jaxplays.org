@@ -7,6 +7,7 @@ import {
   md5,
   normalizeEmail,
   normalizeSource,
+  sourceInterests,
   sourceTags,
 } from "../src/worker.js";
 
@@ -14,6 +15,7 @@ const env = {
   ALLOWED_ORIGINS: "https://jaxplays.org",
   MAILCHIMP_API_KEY: "test-key",
   MAILCHIMP_AUDIENCE_ID: "audience-id",
+  MAILCHIMP_INTEREST_IDS: "interest-id",
   MAILCHIMP_SERVER_PREFIX: "us21",
   NEWSLETTER_SOURCE_TAGS: "homepage-dashboard",
   TURNSTILE_SECRET_KEY: "turnstile-secret",
@@ -31,6 +33,14 @@ test("calculates the Mailchimp subscriber hash", () => {
 test("uses configured and submitted source tags", () => {
   assert.deepEqual(sourceTags("homepage-dashboard", env), ["homepage-dashboard"]);
   assert.deepEqual(sourceTags("footer", env), ["homepage-dashboard", "footer"]);
+});
+
+test("uses configured Mailchimp interest IDs", () => {
+  assert.deepEqual(sourceInterests({ MAILCHIMP_INTEREST_IDS: "spotlight-id, weekly-id" }), {
+    "spotlight-id": true,
+    "weekly-id": true,
+  });
+  assert.deepEqual(sourceInterests({}), {});
 });
 
 test("rejects disallowed origins", () => {
@@ -84,6 +94,9 @@ test("submits verified subscribers to Mailchimp", async () => {
   assert.match(calls[1].url, /lists\/audience-id\/members\/7de8517bce4457e8390aa4006a1880fb$/);
   assert.deepEqual(JSON.parse(calls[1].options.body), {
     email_address: "person@example.com",
+    interests: {
+      "interest-id": true,
+    },
     status_if_new: "subscribed",
     tags: ["homepage-dashboard"],
   });

@@ -141,12 +141,17 @@ async function subscribeToMailchimp(email, source, env, fetchImpl) {
 
   const subscriberHash = md5(email);
   const tags = sourceTags(source, env);
+  const interests = sourceInterests(env);
   const url = `https://${serverPrefix}.api.mailchimp.com/3.0/lists/${audienceId}/members/${subscriberHash}`;
   const body = {
     email_address: email,
     status_if_new: "subscribed",
     tags,
   };
+
+  if (Object.keys(interests).length) {
+    body.interests = interests;
+  }
 
   const response = await fetchImpl(url, {
     method: "PUT",
@@ -173,6 +178,13 @@ export function sourceTags(source, env = {}) {
   const tags = configuredTags.length ? configuredTags : [source];
 
   return Array.from(new Set(tags.concat(source).filter(Boolean)));
+}
+
+export function sourceInterests(env = {}) {
+  return parseCsv(env.MAILCHIMP_INTEREST_IDS).reduce((interests, interestId) => {
+    interests[interestId] = true;
+    return interests;
+  }, {});
 }
 
 function json(body, status = 200, headers = {}) {

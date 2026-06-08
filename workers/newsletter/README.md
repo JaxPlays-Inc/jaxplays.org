@@ -23,6 +23,7 @@ Configured behavior:
 - allows configured production origins plus local Hugo dev origins on ports `1313-1319`
 - uses Mailchimp single opt-in with `status_if_new: subscribed`
 - adds the `homepage-dashboard` source tag by default
+- assigns configured Mailchimp group interests with `MAILCHIMP_INTEREST_IDS`
 
 Local validation:
 
