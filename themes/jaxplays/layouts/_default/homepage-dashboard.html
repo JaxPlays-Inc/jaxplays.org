@@ -774,7 +774,7 @@
                 form.reset();
                 form.dataset.turnstileToken = "";
                 window.turnstile?.reset(form.querySelector(".cf-turnstile"));
-                setStatus("Thank you. You are signed up for JaxPlays Spotlight.", "success");
+                setStatus("Thank you. You are signed up for JaxPlays Spotlight. Check your inbox. You should receive a welcome email shortly.", "success");
               } catch (error) {
                 form.dataset.turnstileToken = "";
                 window.turnstile?.reset(form.querySelector(".cf-turnstile"));
