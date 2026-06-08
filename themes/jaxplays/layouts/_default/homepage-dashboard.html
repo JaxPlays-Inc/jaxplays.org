@@ -404,13 +404,35 @@
     border: 1px solid var(--jp-ink);
     border-left: 0;
     border-radius: 0;
+    cursor: pointer;
     font-weight: 900;
     padding: .75rem .9rem;
+  }
+
+  .home-dashboard-newsletter button:disabled {
+    cursor: wait;
+    opacity: .68;
   }
 
   .home-dashboard-newsletter-honeypot {
     position: absolute;
     left: -9999px;
+  }
+
+  .home-dashboard-newsletter-status {
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0;
+    min-height: 1.25rem;
+  }
+
+  .home-dashboard-newsletter-status[data-state="success"] {
+    color: var(--jp-teal);
+  }
+
+  .home-dashboard-newsletter-status[data-state="error"] {
+    color: var(--jp-red);
   }
 
   .home-dashboard-submit {
@@ -666,15 +688,87 @@
       <div class="home-dashboard-newsletter">
         <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
         <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
-        <form action="https://forms.jaxplays.org/newsletter.php" method="POST" novalidate>
+        <form action="https://api.jaxplays.org/newsletter" method="POST" data-newsletter-form data-source="homepage-dashboard" novalidate>
           <div class="home-dashboard-newsletter-fields">
             <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
             <button type="submit">Subscribe</button>
           </div>
           <input class="home-dashboard-newsletter-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
           <div class="cf-turnstile" data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"></div>
+          <p class="home-dashboard-newsletter-status" aria-live="polite" data-newsletter-status></p>
         </form>
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+        <script>
+          (() => {
+            const form = document.querySelector("[data-newsletter-form]");
+
+            if (!form) {
+              return;
+            }
+
+            const email = form.querySelector('input[name="email"]');
+            const website = form.querySelector('input[name="website"]');
+            const submit = form.querySelector('button[type="submit"]');
+            const status = form.querySelector("[data-newsletter-status]");
+            const originalButtonText = submit.textContent;
+
+            const setStatus = (message, state = "") => {
+              status.textContent = message;
+              status.dataset.state = state;
+            };
+
+            form.addEventListener("submit", async (event) => {
+              event.preventDefault();
+
+              if (!email.checkValidity()) {
+                email.reportValidity();
+                return;
+              }
+
+              const turnstileToken = form.querySelector('input[name="cf-turnstile-response"]')?.value || "";
+
+              if (!turnstileToken) {
+                setStatus("Please complete the verification check.", "error");
+                return;
+              }
+
+              submit.disabled = true;
+              submit.textContent = "Subscribing";
+              setStatus("Subscribing...", "");
+
+              try {
+                const response = await fetch(form.action, {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    email: email.value,
+                    website: website.value,
+                    turnstileToken,
+                    source: form.dataset.source || "homepage-dashboard",
+                  }),
+                });
+
+                const data = await response.json().catch(() => ({}));
+
+                if (!response.ok || !data.ok) {
+                  throw new Error(data.error || "subscribe-failed");
+                }
+
+                form.reset();
+                window.turnstile?.reset(form.querySelector(".cf-turnstile"));
+                setStatus("Thank you. You are signed up for JaxPlays Spotlight.", "success");
+              } catch (error) {
+                window.turnstile?.reset(form.querySelector(".cf-turnstile"));
+                setStatus("Something went wrong. Please try again in a moment.", "error");
+              } finally {
+                submit.disabled = false;
+                submit.textContent = originalButtonText;
+              }
+            });
+          })();
+        </script>
       </div>
       <div class="home-dashboard-submit">
         <a class="home-dashboard-button home-dashboard-grow" href="/submit/production/">Submit a Production</a>

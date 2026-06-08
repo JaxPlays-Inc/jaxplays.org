@@ -1,0 +1,13 @@
+name = "jaxplays-newsletter"
+main = "src/worker.js"
+compatibility_date = "2026-06-08"
+workers_dev = false
+
+routes = [
+  { pattern = "api.jaxplays.org", custom_domain = true }
+]
+
+[vars]
+MAILCHIMP_SERVER_PREFIX = "us21"
+NEWSLETTER_SOURCE_TAGS = "homepage-dashboard"
+ALLOWED_ORIGINS = "https://jaxplays.org,https://www.jaxplays.org,http://localhost:1313,http://127.0.0.1:1313,http://hollister-home-server:1313"
