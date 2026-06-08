@@ -694,10 +694,14 @@
             <button type="submit">Subscribe</button>
           </div>
           <input class="home-dashboard-newsletter-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
-          <div class="cf-turnstile" data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"></div>
+          <div
+            class="cf-turnstile"
+            data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"
+            data-callback="jaxplaysNewsletterTurnstileComplete"
+            data-expired-callback="jaxplaysNewsletterTurnstileReset"
+            data-error-callback="jaxplaysNewsletterTurnstileReset"></div>
           <p class="home-dashboard-newsletter-status" aria-live="polite" data-newsletter-status></p>
         </form>
-        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
         <script>
           (() => {
             const form = document.querySelector("[data-newsletter-form]");
@@ -712,6 +716,15 @@
             const status = form.querySelector("[data-newsletter-status]");
             const originalButtonText = submit.textContent;
 
+            window.jaxplaysNewsletterTurnstileComplete = (token) => {
+              form.dataset.turnstileToken = token;
+              setStatus("", "");
+            };
+
+            window.jaxplaysNewsletterTurnstileReset = () => {
+              form.dataset.turnstileToken = "";
+            };
+
             const setStatus = (message, state = "") => {
               status.textContent = message;
               status.dataset.state = state;
@@ -725,7 +738,7 @@
                 return;
               }
 
-              const turnstileToken = form.querySelector('input[name="cf-turnstile-response"]')?.value || "";
+              const turnstileToken = form.dataset.turnstileToken || form.querySelector('input[name="cf-turnstile-response"]')?.value || "";
 
               if (!turnstileToken) {
                 setStatus("Please complete the verification check.", "error");
@@ -757,9 +770,11 @@
                 }
 
                 form.reset();
+                form.dataset.turnstileToken = "";
                 window.turnstile?.reset(form.querySelector(".cf-turnstile"));
                 setStatus("Thank you. You are signed up for JaxPlays Spotlight.", "success");
               } catch (error) {
+                form.dataset.turnstileToken = "";
                 window.turnstile?.reset(form.querySelector(".cf-turnstile"));
                 setStatus("Something went wrong. Please try again in a moment.", "error");
               } finally {
@@ -769,6 +784,7 @@
             });
           })();
         </script>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
       </div>
       <div class="home-dashboard-submit">
         <a class="home-dashboard-button home-dashboard-grow" href="/submit/production/">Submit a Production</a>
