@@ -9,7 +9,7 @@ routes = [
 
 [vars]
 MAILCHIMP_SERVER_PREFIX = "us21"
-NEWSLETTER_SOURCE_TAGS = "homepage-dashboard"
+NEWSLETTER_SOURCE_TAGS = "Cloudflare worker"
 ALLOWED_ORIGINS = "https://jaxplays.org,https://www.jaxplays.org"
 MAILCHIMP_INTEREST_IDS = "98e7fe4901,21aacbee05,dab2ddf414"
 MAILCHIMP_CAMPAIGN_FILL_URL_FIELD = ""

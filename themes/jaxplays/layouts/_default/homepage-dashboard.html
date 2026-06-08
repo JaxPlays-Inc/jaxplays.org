@@ -688,7 +688,7 @@
       <div class="home-dashboard-newsletter">
         <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
         <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
-        <form action="https://api.jaxplays.org/newsletter" method="POST" data-newsletter-form data-source="homepage-dashboard" novalidate>
+        <form action="https://api.jaxplays.org/newsletter" method="POST" data-newsletter-form data-tags="Homepage Signup Form" novalidate>
           <div class="home-dashboard-newsletter-fields">
             <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
             <button type="submit">Subscribe</button>
@@ -775,7 +775,7 @@
                     email: email.value,
                     website: website.value,
                     turnstileToken,
-                    source: form.dataset.source || "homepage-dashboard",
+                    tags: form.dataset.tags || "",
                     campaignFillUrl: window.location.href,
                   }),
                 });

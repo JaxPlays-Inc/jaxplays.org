@@ -22,9 +22,12 @@ Configured behavior:
 - rejects filled honeypot fields
 - allows configured production origins plus local Hugo dev origins on ports `1313-1319`
 - uses Mailchimp single opt-in with `status_if_new: subscribed`
-- adds the `homepage-dashboard` source tag by default
+- adds configured Worker-level Mailchimp tags with `NEWSLETTER_SOURCE_TAGS`
+- adds page-submitted Mailchimp tags from the JSON `tags` field
 - assigns configured Mailchimp group interests with `MAILCHIMP_INTEREST_IDS`
 - sends the submitting page URL to the configured `MAILCHIMP_CAMPAIGN_FILL_URL_FIELD` merge field
+
+The Worker does not use `source` as a Mailchimp tag. Mailchimp tags come only from `NEWSLETTER_SOURCE_TAGS` and the submitted JSON `tags` field.
 
 Mailchimp newsletter interest IDs must be Marketing API interest IDs, not hosted-form checkbox values.
 The public signup form values like `group[2200][1]` are not valid for the `interests` payload.
