@@ -1,0 +1,15 @@
+name = "jaxplays-newsletter"
+main = "src/worker.js"
+compatibility_date = "2026-06-08"
+workers_dev = false
+
+routes = [
+  { pattern = "api.jaxplays.org", custom_domain = true }
+]
+
+[vars]
+MAILCHIMP_SERVER_PREFIX = "us21"
+NEWSLETTER_SOURCE_TAGS = "homepage-dashboard"
+ALLOWED_ORIGINS = "https://jaxplays.org,https://www.jaxplays.org"
+MAILCHIMP_INTEREST_IDS = "98e7fe4901,21aacbee05,dab2ddf414"
+MAILCHIMP_CAMPAIGN_FILL_URL_FIELD = ""

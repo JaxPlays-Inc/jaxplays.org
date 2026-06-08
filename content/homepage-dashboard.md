@@ -1,5 +1,5 @@
 ---
-title: JaxPlays Homepage Dashboard
+title: JaxPlays
 date: 2026-06-07T21:14:00-04:00
 layout: homepage-dashboard
 url: /homepage-dashboard/
