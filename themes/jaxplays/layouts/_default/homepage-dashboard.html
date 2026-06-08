@@ -723,6 +723,13 @@
               "mailchimp-unavailable": "Mailchimp is unavailable right now. Please try again in a moment.",
             };
 
+            class NewsletterError extends Error {
+              constructor(error, detail = "") {
+                super(error);
+                this.detail = detail;
+              }
+            }
+
             window.jaxplaysNewsletterTurnstileComplete = (token) => {
               form.dataset.turnstileToken = token;
               if (status.dataset.state === "error") {
@@ -776,7 +783,7 @@
                 const data = await response.json().catch(() => ({}));
 
                 if (!response.ok || !data.ok) {
-                  throw new Error(data.error || "subscribe-failed");
+                  throw new NewsletterError(data.error || "subscribe-failed", data.detail || "");
                 }
 
                 form.reset();
@@ -786,7 +793,8 @@
               } catch (error) {
                 form.dataset.turnstileToken = "";
                 window.turnstile?.reset(form.querySelector(".cf-turnstile"));
-                setStatus(errorMessages[error.message] || "Something went wrong. Please try again in a moment.", "error");
+                const message = errorMessages[error.message] || "Something went wrong. Please try again in a moment.";
+                setStatus(error.detail ? `${message} ${error.detail}` : message, "error");
               } finally {
                 submit.disabled = false;
                 submit.textContent = originalButtonText;

@@ -70,7 +70,7 @@ export async function handleRequest(request, env, services = {}) {
   const mailchimp = await subscribeToMailchimp(email, source, campaignFillUrl, env, services.fetch || fetch);
 
   if (!mailchimp.ok) {
-    return json({ ok: false, error: mailchimp.error }, mailchimp.status || 502, cors);
+    return json({ ok: false, error: mailchimp.error, detail: mailchimp.detail }, mailchimp.status || 502, cors);
   }
 
   return json({ ok: true }, 200, cors);
@@ -193,10 +193,21 @@ async function subscribeToMailchimp(email, source, campaignFillUrl, env, fetchIm
   }
 
   if (response.status === 400 || response.status === 404) {
-    return { ok: false, status: 400, error: "mailchimp-rejected" };
+    return { ok: false, status: 400, error: "mailchimp-rejected", detail: await mailchimpErrorDetail(response) };
   }
 
   return { ok: false, status: 502, error: "mailchimp-unavailable" };
+}
+
+async function mailchimpErrorDetail(response) {
+  const fallback = `Mailchimp returned ${response.status}`;
+
+  try {
+    const data = await response.json();
+    return [data.title, data.detail].filter(Boolean).join(": ").slice(0, 240) || fallback;
+  } catch {
+    return fallback;
+  }
 }
 
 export function sourceTags(source, env = {}) {

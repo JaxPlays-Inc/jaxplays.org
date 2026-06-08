@@ -122,6 +122,38 @@ test("submits verified subscribers to Mailchimp", async () => {
   });
 });
 
+test("returns sanitized Mailchimp rejection details", async () => {
+  const request = new Request("https://api.jaxplays.org/newsletter", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Origin": "https://jaxplays.org",
+    },
+    body: JSON.stringify({
+      email: "person@example.com",
+      website: "",
+      turnstileToken: "token",
+    }),
+  });
+
+  const response = await handleRequest(request, env, {
+    fetch: async (url) => {
+      if (String(url).includes("siteverify")) {
+        return Response.json({ success: true });
+      }
+
+      return Response.json({ title: "Invalid Resource", detail: "The resource submitted could not be validated." }, { status: 400 });
+    },
+  });
+
+  assert.equal(response.status, 400);
+  assert.deepEqual(await response.json(), {
+    ok: false,
+    error: "mailchimp-rejected",
+    detail: "Invalid Resource: The resource submitted could not be validated.",
+  });
+});
+
 test("rejects honeypot submissions before external calls", async () => {
   const request = new Request("https://api.jaxplays.org/newsletter", {
     method: "POST",
