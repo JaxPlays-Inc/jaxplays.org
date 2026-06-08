@@ -11,5 +11,5 @@ routes = [
 MAILCHIMP_SERVER_PREFIX = "us21"
 NEWSLETTER_SOURCE_TAGS = "homepage-dashboard"
 ALLOWED_ORIGINS = "https://jaxplays.org,https://www.jaxplays.org"
-MAILCHIMP_INTEREST_IDS = "1,4,2"
+MAILCHIMP_INTEREST_IDS = ""
 MAILCHIMP_CAMPAIGN_FILL_URL_FIELD = ""

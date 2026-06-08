@@ -26,12 +26,14 @@ Configured behavior:
 - assigns configured Mailchimp group interests with `MAILCHIMP_INTEREST_IDS`
 - sends the submitting page URL to the configured `MAILCHIMP_CAMPAIGN_FILL_URL_FIELD` merge field
 
-Mailchimp newsletter interest IDs:
+Mailchimp newsletter interest IDs must be Marketing API interest IDs, not hosted-form checkbox values.
+The public signup form values like `group[2200][1]` are not valid for the `interests` payload.
+
+Fetch the API IDs with:
 
 ```text
-1 = JaxPlays Spotlight
-4 = Fundraising Emails
-2 = News & Reviews
+GET /3.0/lists/{list_id}/interest-categories
+GET /3.0/lists/{list_id}/interest-categories/{interest_category_id}/interests
 ```
 
 Local validation:
