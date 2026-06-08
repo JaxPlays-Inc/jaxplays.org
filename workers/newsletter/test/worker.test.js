@@ -1,6 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { corsHeaders, handleRequest, md5, normalizeEmail, normalizeSource, sourceTags } from "../src/worker.js";
+import {
+  corsHeaders,
+  handleRequest,
+  isAllowedOrigin,
+  md5,
+  normalizeEmail,
+  normalizeSource,
+  sourceTags,
+} from "../src/worker.js";
 
 const env = {
   ALLOWED_ORIGINS: "https://jaxplays.org",
@@ -28,6 +36,16 @@ test("uses configured and submitted source tags", () => {
 test("rejects disallowed origins", () => {
   assert.equal(corsHeaders("https://example.com", env), null);
   assert.equal(corsHeaders("https://jaxplays.org", env)["Access-Control-Allow-Origin"], "https://jaxplays.org");
+});
+
+test("allows only local Hugo dev ports for known local hosts", () => {
+  assert.equal(isAllowedOrigin("http://localhost:1313", ["https://jaxplays.org"]), true);
+  assert.equal(isAllowedOrigin("http://localhost:1319", ["https://jaxplays.org"]), true);
+  assert.equal(isAllowedOrigin("http://127.0.0.1:1316", ["https://jaxplays.org"]), true);
+  assert.equal(isAllowedOrigin("http://hollister-home-server:1314", ["https://jaxplays.org"]), true);
+  assert.equal(isAllowedOrigin("http://localhost:1320", ["https://jaxplays.org"]), false);
+  assert.equal(isAllowedOrigin("https://localhost:1313", ["https://jaxplays.org"]), false);
+  assert.equal(isAllowedOrigin("http://example.com:1313", ["https://jaxplays.org"]), false);
 });
 
 test("submits verified subscribers to Mailchimp", async () => {

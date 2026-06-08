@@ -20,7 +20,7 @@ Configured behavior:
 
 - verifies Cloudflare Turnstile before Mailchimp is called
 - rejects filled honeypot fields
-- allows only configured JaxPlays/local origins
+- allows configured production origins plus local Hugo dev origins on ports `1313-1319`
 - uses Mailchimp single opt-in with `status_if_new: subscribed`
 - adds the `homepage-dashboard` source tag by default
 

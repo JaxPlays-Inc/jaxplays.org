@@ -1,12 +1,12 @@
 const DEFAULT_ALLOWED_ORIGINS = [
   "https://jaxplays.org",
   "https://www.jaxplays.org",
-  "http://localhost:1313",
-  "http://127.0.0.1:1313",
-  "http://hollister-home-server:1313",
 ];
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const LOCAL_DEV_HOSTS = new Set(["localhost", "127.0.0.1", "hollister-home-server"]);
+const LOCAL_DEV_MIN_PORT = 1313;
+const LOCAL_DEV_MAX_PORT = 1319;
 
 export default {
   async fetch(request, env) {
@@ -93,7 +93,7 @@ export function corsHeaders(origin, env = {}) {
   const allowedOrigins = parseCsv(env.ALLOWED_ORIGINS);
   const allowed = allowedOrigins.length ? allowedOrigins : DEFAULT_ALLOWED_ORIGINS;
 
-  if (!allowed.includes(origin)) {
+  if (!isAllowedOrigin(origin, allowed)) {
     return null;
   }
 
@@ -183,6 +183,27 @@ function json(body, status = 200, headers = {}) {
       "Content-Type": "application/json",
     },
   });
+}
+
+export function isAllowedOrigin(origin, allowedOrigins = DEFAULT_ALLOWED_ORIGINS) {
+  if (allowedOrigins.includes(origin)) {
+    return true;
+  }
+
+  try {
+    const url = new URL(origin);
+    const port = Number(url.port);
+
+    return (
+      url.protocol === "http:" &&
+      LOCAL_DEV_HOSTS.has(url.hostname) &&
+      Number.isInteger(port) &&
+      port >= LOCAL_DEV_MIN_PORT &&
+      port <= LOCAL_DEV_MAX_PORT
+    );
+  } catch {
+    return false;
+  }
 }
 
 function parseCsv(value) {
