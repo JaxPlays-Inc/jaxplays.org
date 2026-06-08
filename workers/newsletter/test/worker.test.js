@@ -43,6 +43,7 @@ test("allows only local Hugo dev ports for known local hosts", () => {
   assert.equal(isAllowedOrigin("http://localhost:1319", ["https://jaxplays.org"]), true);
   assert.equal(isAllowedOrigin("http://127.0.0.1:1316", ["https://jaxplays.org"]), true);
   assert.equal(isAllowedOrigin("http://hollister-home-server:1314", ["https://jaxplays.org"]), true);
+  assert.equal(isAllowedOrigin("http://local.jaxplays.org:1313", ["https://jaxplays.org"]), true);
   assert.equal(isAllowedOrigin("http://localhost:1320", ["https://jaxplays.org"]), false);
   assert.equal(isAllowedOrigin("https://localhost:1313", ["https://jaxplays.org"]), false);
   assert.equal(isAllowedOrigin("http://example.com:1313", ["https://jaxplays.org"]), false);

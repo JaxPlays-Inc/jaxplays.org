@@ -4,7 +4,7 @@ const DEFAULT_ALLOWED_ORIGINS = [
 ];
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const LOCAL_DEV_HOSTS = new Set(["localhost", "127.0.0.1", "10.0.0.202"]);
+const LOCAL_DEV_HOSTS = new Set(["localhost", "127.0.0.1", "hollister-home-server", "local.jaxplays.org"]);
 const LOCAL_DEV_MIN_PORT = 1313;
 const LOCAL_DEV_MAX_PORT = 1319;
 
