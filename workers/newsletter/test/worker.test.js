@@ -7,7 +7,7 @@ import {
   md5,
   normalizeCampaignFillUrl,
   normalizeEmail,
-  normalizeSource,
+  normalizeSubmittedTags,
   sourceInterests,
   sourceMergeFields,
   sourceTags,
@@ -24,9 +24,8 @@ const env = {
   TURNSTILE_SECRET_KEY: "turnstile-secret",
 };
 
-test("normalizes email and source values", () => {
+test("normalizes email values", () => {
   assert.equal(normalizeEmail("  RAY@JAXPLAYS.ORG "), "ray@jaxplays.org");
-  assert.equal(normalizeSource("Homepage Dashboard!"), "homepage-dashboard");
 });
 
 test("normalizes campaign fill URLs", () => {
@@ -35,13 +34,27 @@ test("normalizes campaign fill URLs", () => {
   assert.equal(normalizeCampaignFillUrl("not a url"), "");
 });
 
+test("normalizes submitted Mailchimp tags", () => {
+  assert.deepEqual(normalizeSubmittedTags("Homepage Signup Form, homepage-dashboard"), [
+    "Homepage Signup Form",
+    "homepage-dashboard",
+  ]);
+  assert.deepEqual(normalizeSubmittedTags(["Homepage Signup Form", "Homepage Signup Form", "  "]), [
+    "Homepage Signup Form",
+  ]);
+});
+
 test("calculates the Mailchimp subscriber hash", () => {
   assert.equal(md5("user@example.com"), "b58996c504c5638798eb6b511e6f49af");
 });
 
 test("uses configured and submitted source tags", () => {
-  assert.deepEqual(sourceTags("homepage-dashboard", env), ["homepage-dashboard"]);
-  assert.deepEqual(sourceTags("footer", env), ["homepage-dashboard", "footer"]);
+  assert.deepEqual(sourceTags([], env), ["homepage-dashboard"]);
+  assert.deepEqual(sourceTags(["Homepage Signup Form"], {
+    ...env,
+    NEWSLETTER_SOURCE_TAGS: "Cloudflare worker",
+  }), ["Cloudflare worker", "Homepage Signup Form"]);
+  assert.deepEqual(sourceTags([], {}), []);
 });
 
 test("uses configured Mailchimp interest IDs", () => {
@@ -88,7 +101,7 @@ test("submits verified subscribers to Mailchimp", async () => {
       email: "Person@Example.com",
       website: "",
       turnstileToken: "token",
-      source: "homepage-dashboard",
+      tags: ["Homepage Signup Form"],
       campaignFillUrl: "https://jaxplays.org/homepage-dashboard/",
     }),
   });
@@ -118,8 +131,45 @@ test("submits verified subscribers to Mailchimp", async () => {
       URLFILL: "https://jaxplays.org/homepage-dashboard/",
     },
     status_if_new: "subscribed",
-    tags: ["homepage-dashboard"],
+    tags: ["homepage-dashboard", "Homepage Signup Form"],
   });
+});
+
+test("does not use submitted source as a Mailchimp tag", async () => {
+  const calls = [];
+  const request = new Request("https://api.jaxplays.org/newsletter", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Origin": "https://jaxplays.org",
+    },
+    body: JSON.stringify({
+      email: "Person@Example.com",
+      website: "",
+      turnstileToken: "token",
+      source: "homepage-dashboard",
+      tags: "Homepage Signup Form",
+      campaignFillUrl: "https://jaxplays.org/homepage-dashboard/",
+    }),
+  });
+
+  const response = await handleRequest(request, {
+    ...env,
+    NEWSLETTER_SOURCE_TAGS: "Cloudflare worker",
+  }, {
+    fetch: async (url, options) => {
+      calls.push({ url: String(url), options });
+
+      if (String(url).includes("siteverify")) {
+        return Response.json({ success: true });
+      }
+
+      return Response.json({ id: "member-id" });
+    },
+  });
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(JSON.parse(calls[1].options.body).tags, ["Cloudflare worker", "Homepage Signup Form"]);
 });
 
 test("returns sanitized Mailchimp rejection details", async () => {

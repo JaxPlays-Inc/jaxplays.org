@@ -45,7 +45,7 @@ export async function handleRequest(request, env, services = {}) {
   const email = normalizeEmail(payload.email);
   const honeypot = String(payload.website || "").trim();
   const turnstileToken = String(payload.turnstileToken || "").trim();
-  const source = normalizeSource(payload.source);
+  const submittedTags = normalizeSubmittedTags(payload.tags);
   const campaignFillUrl = normalizeCampaignFillUrl(payload.campaignFillUrl);
 
   if (honeypot) {
@@ -67,7 +67,7 @@ export async function handleRequest(request, env, services = {}) {
     return json({ ok: false, error: "turnstile-failed" }, 400, cors);
   }
 
-  const mailchimp = await subscribeToMailchimp(email, source, campaignFillUrl, env, services.fetch || fetch);
+  const mailchimp = await subscribeToMailchimp(email, submittedTags, campaignFillUrl, env, services.fetch || fetch);
 
   if (!mailchimp.ok) {
     return json({ ok: false, error: mailchimp.error, detail: mailchimp.detail }, mailchimp.status || 502, cors);
@@ -78,16 +78,6 @@ export async function handleRequest(request, env, services = {}) {
 
 export function normalizeEmail(email) {
   return String(email || "").trim().toLowerCase();
-}
-
-export function normalizeSource(source) {
-  const normalized = String(source || "homepage-dashboard")
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9_-]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-
-  return normalized || "homepage-dashboard";
 }
 
 export function normalizeCampaignFillUrl(url) {
@@ -108,6 +98,17 @@ export function normalizeCampaignFillUrl(url) {
   } catch {
     return "";
   }
+}
+
+export function normalizeSubmittedTags(tags) {
+  const rawTags = Array.isArray(tags) ? tags : String(tags || "").split(",");
+
+  return Array.from(new Set(
+    rawTags
+      .map((tag) => String(tag || "").trim())
+      .filter(Boolean)
+      .map((tag) => tag.slice(0, 100))
+  ));
 }
 
 export function corsHeaders(origin, env = {}) {
@@ -151,7 +152,7 @@ async function verifyTurnstile(token, remoteIp, env, fetchImpl) {
   return response.json();
 }
 
-async function subscribeToMailchimp(email, source, campaignFillUrl, env, fetchImpl) {
+async function subscribeToMailchimp(email, submittedTags, campaignFillUrl, env, fetchImpl) {
   const apiKey = env.MAILCHIMP_API_KEY;
   const audienceId = env.MAILCHIMP_AUDIENCE_ID;
   const serverPrefix = env.MAILCHIMP_SERVER_PREFIX;
@@ -161,15 +162,18 @@ async function subscribeToMailchimp(email, source, campaignFillUrl, env, fetchIm
   }
 
   const subscriberHash = md5(email);
-  const tags = sourceTags(source, env);
+  const tags = sourceTags(submittedTags, env);
   const interests = sourceInterests(env);
   const mergeFields = sourceMergeFields(campaignFillUrl, env);
   const url = `https://${serverPrefix}.api.mailchimp.com/3.0/lists/${audienceId}/members/${subscriberHash}`;
   const body = {
     email_address: email,
     status_if_new: "subscribed",
-    tags,
   };
+
+  if (tags.length) {
+    body.tags = tags;
+  }
 
   if (Object.keys(interests).length) {
     body.interests = interests;
@@ -210,11 +214,11 @@ async function mailchimpErrorDetail(response) {
   }
 }
 
-export function sourceTags(source, env = {}) {
+export function sourceTags(submittedTags = [], env = {}) {
   const configuredTags = parseCsv(env.NEWSLETTER_SOURCE_TAGS);
-  const tags = configuredTags.length ? configuredTags : [source];
+  const tags = configuredTags.concat(normalizeSubmittedTags(submittedTags));
 
-  return Array.from(new Set(tags.concat(source).filter(Boolean)));
+  return Array.from(new Set(tags.filter(Boolean)));
 }
 
 export function sourceInterests(env = {}) {
