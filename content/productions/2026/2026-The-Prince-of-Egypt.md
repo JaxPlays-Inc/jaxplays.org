@@ -3,7 +3,7 @@ title: "The Prince of Egypt"
 theatre: The Island Theater
 venue: The Island Theater
 season: 2026
-date: 2026-06-07T12:50:12-04:00
+date: 2026-06-07T20:03:13-04:00
 opening_date: 2026-06-05
 closing_date: 2026-06-14
 showtimes:
@@ -28,15 +28,41 @@ show_details:
   - Book: Philip LaZebnik
   - Basis: "Based on the DreamWorks Animation film *[[w:The Prince of Egypt]]*"
 cast:
+  - Moses: Brandon Flach
+  - Ramses: Alexander Loucks
+  - Tzipporah: Lexi Burkley
+  - Miriam: Charish Delee
+  - Seti: Matt Urban
+  - Hotep: Justin Cooper
+  - Tuya: Rachel Campbell
+  - Jethro: John McHone
+  - Nefertari: Anaya Webster
+  - Aaron: Charlie Sohn
+  - Yocheved: Kerry Hunter
+  - Leah: Sofia Cruz
+  - Keturah: Libby Cooper
+  - Young Miriam: Providence Butler
+  - Ensemble:
+      - Samantha Lewis
+      - Luci Delee
+      - Khloe Wright
+      - Scott McLean
+      - Corey Shrader
+      - Carsten Wulbern
+      - Chloe Labrie
+      - Zachary Schaefer
 crew:
 understudies:
+  - Moses: Ollie Woltjer
+  - Tzipporah: Tabitha Montanez
+  - Miriam: Lauren Flach
 orchestra:
 genres:
   - Musical
   - Drama
 description: "Stephen Schwartz and Philip LaZebnik's musical adapts the DreamWorks film into an epic story of family, faith, power, and liberation."
-source: The Island Theater event pages and event sitemap
-source_date: 2026-06-04
+source: The Island Theater event pages, event sitemap, and casting graphic
+source_date: 2026-06-07
 source_url: https://www.theislandtheater.com/event-details/prince-of-egypt-the-musical-2026-06-05-19-30
 ---
 Inspired by the DreamWorks animated film, *The Prince of Egypt* follows Moses from his upbringing in Pharaoh's household to the discovery of his Hebrew heritage and his call to lead his people out of bondage. The musical centers the bond between Moses and Ramses, turning their brotherhood into the emotional heart of a sweeping story about identity, duty and the cost of power.
