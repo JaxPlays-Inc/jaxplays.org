@@ -715,6 +715,13 @@
             const submit = form.querySelector('button[type="submit"]');
             const status = form.querySelector("[data-newsletter-status]");
             const originalButtonText = submit.textContent;
+            const errorMessages = {
+              "origin-not-allowed": "This page is not approved for newsletter signups yet.",
+              "turnstile-failed": "Verification failed. Please complete the check and try again.",
+              "mailchimp-not-configured": "Newsletter signup is not fully configured yet.",
+              "mailchimp-rejected": "Newsletter signup was rejected by Mailchimp. Please check the email address and try again.",
+              "mailchimp-unavailable": "Mailchimp is unavailable right now. Please try again in a moment.",
+            };
 
             window.jaxplaysNewsletterTurnstileComplete = (token) => {
               form.dataset.turnstileToken = token;
@@ -779,7 +786,7 @@
               } catch (error) {
                 form.dataset.turnstileToken = "";
                 window.turnstile?.reset(form.querySelector(".cf-turnstile"));
-                setStatus("Something went wrong. Please try again in a moment.", "error");
+                setStatus(errorMessages[error.message] || "Something went wrong. Please try again in a moment.", "error");
               } finally {
                 submit.disabled = false;
                 submit.textContent = originalButtonText;
