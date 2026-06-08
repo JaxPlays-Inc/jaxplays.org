@@ -1,9 +1,9 @@
 ---
-title: "Frozen"
+title: "Disney's Frozen"
 theatre: The Island Theater
 venue: The Island Theater
 season: 2026
-date: 2026-06-04T01:55:00-04:00
+date: 2026-06-07T20:22:26-04:00
 opening_date: 2026-07-17
 closing_date: 2026-07-26
 showtimes:
@@ -27,21 +27,75 @@ featured_image_attr_link:
 program:
 website: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30
 tickets: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30
-show_details:
-  - Music and Lyrics: "[[w:Kristen Anderson-Lopez]], [[w:Robert Lopez]]"
-  - Book: "[[w:Jennifer Lee (filmmaker)|Jennifer Lee]]"
-  - Basis: "Based on Disney's *[[w:Frozen (2013 film)|Frozen]]*"
 cast:
+  - Elsa:
+      - Sarah Mosier
+      - Eva Koelbel
+  - Anna:
+      - Belyam Lopez
+      - Autumn Henry
+  - Kristoff:
+      - Troy Leatherman
+      - Michael Flynn
+  - Hans:
+      - Adam Thompson
+      - Elijah Simms
+  - Olaf:
+      - Caleb Wheeler
+      - Olivia Williams
+  - Weselton:
+      - Josiah Riddell
+      - Lucy Harry
+  - Queen:
+      - Jen Heyn
+      - Ryan Hesser
+  - Oaken:
+      - Alec Ehlermann
+      - Claire Cassidy
+  - Pabbie:
+      - Hayden Grant
+      - TBA
+  - Bulda:
+      - Kathryne Ehlermann
+      - Lily Downie
+  - Middle Elsa:
+      - Emi Mack
+      - Carley Zell
+  - Middle Anna:
+      - Emily Belmontes
+      - Danny Rohman
+  - Young Elsa:
+      - Alyana Werkheiser
+      - Ellie Hesser
+  - Young Anna:
+      - Leah Stevens
+      - Brie Deniz
+  - Sven:
+      - Keylan Miller
+      - Warren Barkus
+  - Ensemble:
+      - Ben Hesser
+      - Arya Rose Flynn
+      - Hayden Jacobs
+      - Charlie Downie
+      - Kylee Mason
+      - Calleigh Malone
+      - McKinleigh Malone
+      - Aly Winkle-Ballard
+      - Jacob Squires
+      - Piper DeRoo
+      - Nikki French
+      - Logan Osbeck
+      - Ansley Williams
+      - Reese Autry
+      - Rayna Ferris
+      - Avery Hunter
+      - Madalyn Cassidy
+      - Bryanna Hammond
 crew:
 understudies:
 orchestra:
-genres:
-  - Musical
-  - Family
-  - Fantasy
-description: "The Broadway musical adaptation follows Elsa, Anna, and the power of sisterhood in Arendelle."
-source: The Island Theater event pages and event sitemap
-source_date: 2026-06-04
+source: The Island Theater event pages, event sitemap, and casting graphic
+source_date: 2026-06-07
 source_url: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30
 ---
-The Island Theater calls *Frozen* its Broadway musical mainstage production for a Frozen Summer.
