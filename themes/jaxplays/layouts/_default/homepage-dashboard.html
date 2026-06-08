@@ -27,14 +27,14 @@
 {{ $nowPlaying = sort $nowPlaying "Params.closing_date" "asc" }}
 {{ $openingSoon = sort $openingSoon "Params.opening_date" "asc" }}
 {{ $closingSoon = sort $closingSoon "Params.closing_date" "asc" }}
-{{ $latestArticles := first 5 (sort $articles "Date" "desc") }}
+{{ $latestArticles := first 6 (sort $articles "Date" "desc") }}
 
 <style>
   .home-dashboard {
     --jp-ink: #171717;
     --jp-muted: #5f6670;
     --jp-line: #d7d2c8;
-    --jp-paper: #fffdf8;
+    --jp-paper: #f4f4f4;
     --jp-cream: #f6f0e3;
     --jp-gold: #ffd600;
     --jp-red: #b7332f;
@@ -188,11 +188,11 @@
   }
 
   .home-dashboard-section {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .home-dashboard-production-section {
-    margin-top: 2.75rem;
+    margin-top: 3rem;
   }
 
   .home-dashboard-section-head {
@@ -269,15 +269,15 @@
 
   .home-dashboard-editorial {
     display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(280px, .95fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
   }
 
   .home-dashboard-story {
     display: grid;
-    grid-template-columns: 160px minmax(0, 1fr);
-    gap: 1rem;
-    padding: .9rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
   }
 
   .home-dashboard-story-body,
@@ -317,17 +317,12 @@
     display: inline-block;
   }
 
-  .home-dashboard-story:first-child {
-    grid-row: span 4;
-    grid-template-columns: 1fr;
-  }
-
-  .home-dashboard-story:first-child .home-dashboard-story-image {
-    aspect-ratio: 16 / 9;
+  .home-dashboard-story-body {
+    padding: .9rem;
   }
 
   .home-dashboard-story-image {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     background: #ddd;
     border-radius: 0;
     object-fit: cover;
@@ -411,18 +406,17 @@
       grid-template-columns: 1fr;
     }
 
+    .home-dashboard-editorial {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .home-dashboard-rail,
     .home-dashboard-archive {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .home-dashboard-story,
-    .home-dashboard-story:first-child {
-      grid-template-columns: 96px minmax(0, 1fr);
-    }
-
-    .home-dashboard-story:first-child .home-dashboard-story-image {
-      aspect-ratio: 4 / 3;
+    .home-dashboard-story {
+      grid-template-columns: 1fr;
     }
   }
 
@@ -432,7 +426,8 @@
     }
 
     .home-dashboard-rail,
-    .home-dashboard-archive {
+    .home-dashboard-archive,
+    .home-dashboard-editorial {
       grid-template-columns: 1fr;
     }
 
@@ -461,7 +456,7 @@
       <div>
         <p class="home-dashboard-kicker">Northeast Florida & Southeast Georgia Theatre</p>
         <h1 id="home-dashboard-title" class="home-dashboard-title">Jacksonville theatre, tonight and beyond.</h1>
-        <p class="home-dashboard-subtitle">A working front door for audiences: what is on stage now, what opens soon, what is closing, and what JaxPlays has reviewed.</p>
+        <p class="home-dashboard-subtitle">Find your next night at the theatre. See what's playing now, what's opening soon, what's about to close and what JaxPlays critics have reviewed.</p>
         <div class="home-dashboard-actions">
           <a class="home-dashboard-button primary home-dashboard-grow" href="/calendar/">View Calendar</a>
           <a class="home-dashboard-button home-dashboard-grow" href="/productions/">Browse Shows</a>
@@ -471,7 +466,7 @@
       <aside class="home-dashboard-panel" aria-labelledby="home-dashboard-closing">
         <h2 id="home-dashboard-closing" class="home-dashboard-panel-title">Closing Soon</h2>
         <div class="home-dashboard-hotlist">
-          {{ range first 3 $closingSoon }}
+          {{ range first 4 $closingSoon }}
             {{ $poster := .Params.featured_image }}
             {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
             <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
@@ -525,7 +520,7 @@
         <a href="/calendar/opening-nights/">Opening nights</a>
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
-        {{ range first 4 $openingSoon }}
+        {{ range first 8 $openingSoon }}
           {{ $poster := .Params.featured_image }}
           <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
             {{ if $poster }}
