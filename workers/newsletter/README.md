@@ -24,6 +24,7 @@ Configured behavior:
 - uses Mailchimp single opt-in with `status_if_new: subscribed`
 - adds the `homepage-dashboard` source tag by default
 - assigns configured Mailchimp group interests with `MAILCHIMP_INTEREST_IDS`
+- sends the submitting page URL to the configured `MAILCHIMP_CAMPAIGN_FILL_URL_FIELD` merge field
 
 Local validation:
 

@@ -5,9 +5,11 @@ import {
   handleRequest,
   isAllowedOrigin,
   md5,
+  normalizeCampaignFillUrl,
   normalizeEmail,
   normalizeSource,
   sourceInterests,
+  sourceMergeFields,
   sourceTags,
 } from "../src/worker.js";
 
@@ -15,6 +17,7 @@ const env = {
   ALLOWED_ORIGINS: "https://jaxplays.org",
   MAILCHIMP_API_KEY: "test-key",
   MAILCHIMP_AUDIENCE_ID: "audience-id",
+  MAILCHIMP_CAMPAIGN_FILL_URL_FIELD: "URLFILL",
   MAILCHIMP_INTEREST_IDS: "interest-id",
   MAILCHIMP_SERVER_PREFIX: "us21",
   NEWSLETTER_SOURCE_TAGS: "homepage-dashboard",
@@ -24,6 +27,12 @@ const env = {
 test("normalizes email and source values", () => {
   assert.equal(normalizeEmail("  RAY@JAXPLAYS.ORG "), "ray@jaxplays.org");
   assert.equal(normalizeSource("Homepage Dashboard!"), "homepage-dashboard");
+});
+
+test("normalizes campaign fill URLs", () => {
+  assert.equal(normalizeCampaignFillUrl(" https://jaxplays.org/homepage-dashboard/ "), "https://jaxplays.org/homepage-dashboard/");
+  assert.equal(normalizeCampaignFillUrl("javascript:alert(1)"), "");
+  assert.equal(normalizeCampaignFillUrl("not a url"), "");
 });
 
 test("calculates the Mailchimp subscriber hash", () => {
@@ -41,6 +50,13 @@ test("uses configured Mailchimp interest IDs", () => {
     "weekly-id": true,
   });
   assert.deepEqual(sourceInterests({}), {});
+});
+
+test("uses configured Mailchimp merge field for campaign fill URL", () => {
+  assert.deepEqual(sourceMergeFields("https://jaxplays.org/homepage-dashboard/", env), {
+    URLFILL: "https://jaxplays.org/homepage-dashboard/",
+  });
+  assert.deepEqual(sourceMergeFields("https://jaxplays.org/homepage-dashboard/", {}), {});
 });
 
 test("rejects disallowed origins", () => {
@@ -73,6 +89,7 @@ test("submits verified subscribers to Mailchimp", async () => {
       website: "",
       turnstileToken: "token",
       source: "homepage-dashboard",
+      campaignFillUrl: "https://jaxplays.org/homepage-dashboard/",
     }),
   });
 
@@ -96,6 +113,9 @@ test("submits verified subscribers to Mailchimp", async () => {
     email_address: "person@example.com",
     interests: {
       "interest-id": true,
+    },
+    merge_fields: {
+      URLFILL: "https://jaxplays.org/homepage-dashboard/",
     },
     status_if_new: "subscribed",
     tags: ["homepage-dashboard"],

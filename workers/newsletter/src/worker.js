@@ -46,6 +46,7 @@ export async function handleRequest(request, env, services = {}) {
   const honeypot = String(payload.website || "").trim();
   const turnstileToken = String(payload.turnstileToken || "").trim();
   const source = normalizeSource(payload.source);
+  const campaignFillUrl = normalizeCampaignFillUrl(payload.campaignFillUrl);
 
   if (honeypot) {
     return json({ ok: false, error: "spam-detected" }, 400, cors);
@@ -66,7 +67,7 @@ export async function handleRequest(request, env, services = {}) {
     return json({ ok: false, error: "turnstile-failed" }, 400, cors);
   }
 
-  const mailchimp = await subscribeToMailchimp(email, source, env, services.fetch || fetch);
+  const mailchimp = await subscribeToMailchimp(email, source, campaignFillUrl, env, services.fetch || fetch);
 
   if (!mailchimp.ok) {
     return json({ ok: false, error: mailchimp.error }, mailchimp.status || 502, cors);
@@ -87,6 +88,26 @@ export function normalizeSource(source) {
     .replace(/^-+|-+$/g, "");
 
   return normalized || "homepage-dashboard";
+}
+
+export function normalizeCampaignFillUrl(url) {
+  const normalized = String(url || "").trim();
+
+  if (!normalized) {
+    return "";
+  }
+
+  try {
+    const parsed = new URL(normalized);
+
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      return "";
+    }
+
+    return parsed.href.slice(0, 255);
+  } catch {
+    return "";
+  }
 }
 
 export function corsHeaders(origin, env = {}) {
@@ -130,7 +151,7 @@ async function verifyTurnstile(token, remoteIp, env, fetchImpl) {
   return response.json();
 }
 
-async function subscribeToMailchimp(email, source, env, fetchImpl) {
+async function subscribeToMailchimp(email, source, campaignFillUrl, env, fetchImpl) {
   const apiKey = env.MAILCHIMP_API_KEY;
   const audienceId = env.MAILCHIMP_AUDIENCE_ID;
   const serverPrefix = env.MAILCHIMP_SERVER_PREFIX;
@@ -142,6 +163,7 @@ async function subscribeToMailchimp(email, source, env, fetchImpl) {
   const subscriberHash = md5(email);
   const tags = sourceTags(source, env);
   const interests = sourceInterests(env);
+  const mergeFields = sourceMergeFields(campaignFillUrl, env);
   const url = `https://${serverPrefix}.api.mailchimp.com/3.0/lists/${audienceId}/members/${subscriberHash}`;
   const body = {
     email_address: email,
@@ -151,6 +173,10 @@ async function subscribeToMailchimp(email, source, env, fetchImpl) {
 
   if (Object.keys(interests).length) {
     body.interests = interests;
+  }
+
+  if (Object.keys(mergeFields).length) {
+    body.merge_fields = mergeFields;
   }
 
   const response = await fetchImpl(url, {
@@ -185,6 +211,18 @@ export function sourceInterests(env = {}) {
     interests[interestId] = true;
     return interests;
   }, {});
+}
+
+export function sourceMergeFields(campaignFillUrl, env = {}) {
+  const field = String(env.MAILCHIMP_CAMPAIGN_FILL_URL_FIELD || "").trim().toUpperCase();
+
+  if (!field || !campaignFillUrl) {
+    return {};
+  }
+
+  return {
+    [field]: campaignFillUrl,
+  };
 }
 
 function json(body, status = 200, headers = {}) {
