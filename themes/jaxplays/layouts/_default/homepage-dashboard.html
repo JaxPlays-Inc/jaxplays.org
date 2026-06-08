@@ -199,7 +199,6 @@
     align-items: end;
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
     margin-bottom: .9rem;
   }
 
@@ -208,9 +207,19 @@
     margin: 0;
   }
 
-  .home-dashboard-section-head a {
+  .home-dashboard-section-title-link,
+  .home-dashboard-section-more {
     font-weight: 800;
-    white-space: nowrap;
+  }
+
+  .home-dashboard-section-title-link {
+    display: inline-block;
+  }
+
+  .home-dashboard-section-more {
+    display: block;
+    margin: .85rem 0 0 auto;
+    width: max-content;
   }
 
   .home-dashboard-rail {
@@ -432,7 +441,7 @@
 
   @media screen and (max-width: 520px) {
     .home-dashboard-shell {
-      padding: 1rem .75rem 3rem;
+        padding: 1.1rem 1rem 3rem;
     }
 
     .home-dashboard-rail,
@@ -529,8 +538,7 @@
 
     <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-now-playing">
       <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-now-playing">On Stage Now</h2>
-        <a href="/productions/">All productions</a>
+        <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range first 8 $nowPlaying }}
@@ -552,12 +560,12 @@
           <p class="home-dashboard-meta">No current productions found.</p>
         {{ end }}
       </div>
+      <a class="home-dashboard-section-more" href="/productions/">All productions</a>
     </section>
 
     <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-opening">
       <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-opening">Opening Soon</h2>
-        <a href="/calendar/opening-nights/">Opening nights</a>
+        <h2 id="home-dashboard-opening"><a class="home-dashboard-section-title-link" href="/calendar/opening-nights/">Opening Soon</a></h2>
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range first 8 $openingSoon }}
@@ -578,12 +586,12 @@
           <p class="home-dashboard-meta">No upcoming productions found.</p>
         {{ end }}
       </div>
+      <a class="home-dashboard-section-more" href="/calendar/opening-nights/">Opening nights</a>
     </section>
 
     <section class="home-dashboard-section" aria-labelledby="home-dashboard-reviews">
       <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-reviews">Latest Reviews</h2>
-        <a href="/reviews/">More reviews</a>
+        <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
       </div>
       <div class="home-dashboard-editorial">
         {{ range $latestArticles }}
@@ -608,6 +616,7 @@
           </article>
         {{ end }}
       </div>
+      <a class="home-dashboard-section-more" href="/reviews/">More reviews</a>
     </section>
 
     <section class="home-dashboard-section" aria-labelledby="home-dashboard-archive">
