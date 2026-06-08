@@ -88,10 +88,10 @@
 
   .home-dashboard-kicker {
     color: var(--jp-red);
-    font-size: .78rem;
-    font-weight: 800;
+    font-size: .75rem;
+    font-weight: 700;
     letter-spacing: 0;
-    margin: 0 0 .4rem;
+    margin: 0 0 .5rem;
     text-transform: uppercase;
   }
 
@@ -112,7 +112,7 @@
   .home-dashboard-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: .6rem;
+    gap: 1rem;
   }
 
   .home-dashboard-button {
@@ -123,7 +123,7 @@
     min-height: 42px;
     padding: .65rem .9rem;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
     background: white;
   }
 
@@ -191,6 +191,10 @@
     margin-top: 2rem;
   }
 
+  .home-dashboard-production-section {
+    margin-top: 2.75rem;
+  }
+
   .home-dashboard-section-head {
     align-items: end;
     display: flex;
@@ -205,7 +209,6 @@
   }
 
   .home-dashboard-section-head a {
-    color: var(--jp-blue);
     font-weight: 800;
     white-space: nowrap;
   }
@@ -214,6 +217,10 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
+  }
+
+  .home-dashboard-production-rail {
+    gap: 1.35rem;
   }
 
   .home-dashboard-card,
@@ -240,7 +247,7 @@
 
   .home-dashboard-card-body {
     display: block;
-    padding: .75rem;
+    padding: .9rem;
   }
 
   .home-dashboard-badge {
@@ -485,12 +492,12 @@
       </aside>
     </section>
 
-    <section class="home-dashboard-section" aria-labelledby="home-dashboard-now-playing">
+    <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-now-playing">
       <div class="home-dashboard-section-head">
         <h2 id="home-dashboard-now-playing">On Stage Now</h2>
         <a href="/productions/">All productions</a>
       </div>
-      <div class="home-dashboard-rail">
+      <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range first 8 $nowPlaying }}
           {{ $poster := .Params.featured_image }}
           {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
@@ -512,12 +519,12 @@
       </div>
     </section>
 
-    <section class="home-dashboard-section" aria-labelledby="home-dashboard-opening">
+    <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-opening">
       <div class="home-dashboard-section-head">
         <h2 id="home-dashboard-opening">Opening Soon</h2>
         <a href="/calendar/opening-nights/">Opening nights</a>
       </div>
-      <div class="home-dashboard-rail">
+      <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range first 4 $openingSoon }}
           {{ $poster := .Params.featured_image }}
           <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
