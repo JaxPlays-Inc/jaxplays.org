@@ -46,6 +46,29 @@
 
   .home-dashboard a {
     color: inherit;
+    text-decoration: none;
+  }
+
+  .home-dashboard a:hover:not(.no-underline):not(.link),
+  .home-dashboard a:focus:not(.no-underline):not(.link) {
+    text-decoration: none;
+  }
+
+  .home-dashboard-grow {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+  }
+
+  .home-dashboard-grow:hover,
+  .home-dashboard-grow:focus {
+    transform: scale(1.025);
+  }
+
+  .home-dashboard-grow:active {
+    transform: scale(.98);
   }
 
   .home-dashboard-shell {
@@ -433,9 +456,9 @@
         <h1 id="home-dashboard-title" class="home-dashboard-title">Jacksonville theatre, tonight and beyond.</h1>
         <p class="home-dashboard-subtitle">A working front door for audiences: what is on stage now, what opens soon, what is closing, and what JaxPlays has reviewed.</p>
         <div class="home-dashboard-actions">
-          <a class="home-dashboard-button primary grow" href="/calendar/">View Calendar</a>
-          <a class="home-dashboard-button grow" href="/productions/">Browse Shows</a>
-          <a class="home-dashboard-button grow" href="/reviews/">Read Reviews</a>
+          <a class="home-dashboard-button primary home-dashboard-grow" href="/calendar/">View Calendar</a>
+          <a class="home-dashboard-button home-dashboard-grow" href="/productions/">Browse Shows</a>
+          <a class="home-dashboard-button home-dashboard-grow" href="/reviews/">Read Reviews</a>
         </div>
       </div>
       <aside class="home-dashboard-panel" aria-labelledby="home-dashboard-closing">
@@ -444,7 +467,7 @@
           {{ range first 3 $closingSoon }}
             {{ $poster := .Params.featured_image }}
             {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
-            <a class="home-dashboard-hotitem grow" href="{{ .RelPermalink }}">
+            <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
               {{ if $poster }}
                 <img class="home-dashboard-thumb" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
               {{ else }}
@@ -471,7 +494,7 @@
         {{ range first 8 $nowPlaying }}
           {{ $poster := .Params.featured_image }}
           {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
-          <a class="home-dashboard-card grow" href="{{ .RelPermalink }}">
+          <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
             {{ if $poster }}
               <img class="home-dashboard-poster" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
             {{ else }}
@@ -480,7 +503,7 @@
             <span class="home-dashboard-card-body">
               <span class="home-dashboard-badge">Now Playing</span>
               <strong>{{ .Title }}</strong>
-              <span class="home-dashboard-meta">{{ .Params.theatre }}<br>{{ time.Format "Jan 2" (time .Params.opening_date) }}-{{ time.Format "Jan 2" (time $closingDate) }}</span>
+              <span class="home-dashboard-meta">{{ .Params.theatre }}<br>{{ time.Format "January 2" (time .Params.opening_date) }} - {{ time.Format "January 2" (time $closingDate) }}</span>
             </span>
           </a>
         {{ else }}
@@ -497,7 +520,7 @@
       <div class="home-dashboard-rail">
         {{ range first 4 $openingSoon }}
           {{ $poster := .Params.featured_image }}
-          <a class="home-dashboard-card grow" href="{{ .RelPermalink }}">
+          <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
             {{ if $poster }}
               <img class="home-dashboard-poster" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
             {{ else }}
@@ -524,7 +547,7 @@
         {{ range $latestArticles }}
           {{ $image := partial "func/GetFeaturedImage.html" . }}
           {{ $summary := partial "content-wikilinks" .Summary | replaceRE "<a " "<a class=\"home-dashboard-summary-link\" " | safeHTML }}
-          <article class="home-dashboard-story grow">
+          <article class="home-dashboard-story home-dashboard-grow">
             <a class="home-dashboard-story-link" href="{{ .RelPermalink }}">
               {{ if $image }}
                 <img class="home-dashboard-story-image" src="{{ $image }}" alt="{{ .Title }}">
@@ -550,22 +573,22 @@
         <h2 id="home-dashboard-archive">Explore the Archive</h2>
       </div>
       <div class="home-dashboard-archive">
-        <a class="home-dashboard-archive-link grow" href="/productions/">
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/productions/">
           <span class="home-dashboard-count">{{ len $productions }}</span>
           <strong>Productions</strong>
           <span class="home-dashboard-meta">Current, future, and historical listings.</span>
         </a>
-        <a class="home-dashboard-archive-link grow" href="/people/">
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/people/">
           <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "people") }}</span>
           <strong>People</strong>
           <span class="home-dashboard-meta">Artists, crew, musicians, and theatre makers.</span>
         </a>
-        <a class="home-dashboard-archive-link grow" href="/theatres/">
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/theatres/">
           <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "theatres") }}</span>
           <strong>Theatres</strong>
           <span class="home-dashboard-meta">Companies across Northeast Florida and Southeast Georgia.</span>
         </a>
-        <a class="home-dashboard-archive-link grow" href="/venues/">
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/venues/">
           <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "venues") }}</span>
           <strong>Venues</strong>
           <span class="home-dashboard-meta">Stages, rooms, and performance spaces.</span>
@@ -583,9 +606,9 @@
         </form>
       </div>
       <div class="home-dashboard-submit">
-        <a class="home-dashboard-button grow" href="/submit/production/">Submit a Production</a>
-        <a class="home-dashboard-button grow" href="/submit/profile/">Submit a Profile</a>
-        <a class="home-dashboard-button grow" href="/support/">Support JaxPlays</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/submit/production/">Submit a Production</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/submit/profile/">Submit a Profile</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/support/">Support JaxPlays</a>
       </div>
     </section>
   </div>
