@@ -26,6 +26,14 @@ Configured behavior:
 - assigns configured Mailchimp group interests with `MAILCHIMP_INTEREST_IDS`
 - sends the submitting page URL to the configured `MAILCHIMP_CAMPAIGN_FILL_URL_FIELD` merge field
 
+Mailchimp newsletter interest IDs:
+
+```text
+1 = JaxPlays Spotlight
+4 = Fundraising Emails
+2 = News & Reviews
+```
+
 Local validation:
 
 ```bash
