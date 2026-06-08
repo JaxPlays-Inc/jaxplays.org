@@ -461,18 +461,32 @@
 
     .home-dashboard-production-rail .home-dashboard-card {
       display: grid;
-      grid-template-columns: clamp(96px, 34vw, 128px) minmax(0, 1fr);
-      min-height: 152px;
+      grid-template-columns: 128px minmax(0, 1fr);
+      height: 194px;
     }
 
     .home-dashboard-production-rail .home-dashboard-poster {
       aspect-ratio: auto;
-      height: 100%;
+      height: 192px;
+      max-height: 192px;
+      min-height: 0;
     }
 
     .home-dashboard-production-rail .home-dashboard-card-body {
       align-self: center;
+      overflow: hidden;
       padding: .8rem;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-card strong,
+    .home-dashboard-production-rail .home-dashboard-meta {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-card strong {
+      -webkit-line-clamp: 2;
     }
 
     .home-dashboard-production-rail .home-dashboard-badge {
@@ -483,6 +497,7 @@
 
     .home-dashboard-production-rail .home-dashboard-meta {
       font-size: .78rem;
+      -webkit-line-clamp: 2;
     }
 
     .home-dashboard-newsletter-fields {
