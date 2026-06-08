@@ -578,12 +578,12 @@
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/productions/">
           <span class="home-dashboard-count">{{ len $productions }}</span>
           <strong>Productions</strong>
-          <span class="home-dashboard-meta">Current, future, and historical listings.</span>
+          <span class="home-dashboard-meta">Current, future and historical listings.</span>
         </a>
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/people/">
           <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "people") }}</span>
           <strong>People</strong>
-          <span class="home-dashboard-meta">Artists, crew, musicians, and theatre makers.</span>
+          <span class="home-dashboard-meta">Artists, crew, musicians and theatre makers.</span>
         </a>
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/theatres/">
           <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "theatres") }}</span>
@@ -593,7 +593,7 @@
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/venues/">
           <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "venues") }}</span>
           <strong>Venues</strong>
-          <span class="home-dashboard-meta">Stages, rooms, and performance spaces.</span>
+          <span class="home-dashboard-meta">Stages, rooms and performance spaces.</span>
         </a>
       </div>
     </section>
@@ -601,7 +601,7 @@
     <section class="home-dashboard-section home-dashboard-bottom" aria-labelledby="home-dashboard-connect">
       <div class="home-dashboard-newsletter">
         <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
-        <p class="home-dashboard-meta">Weekly openings, closings, reviews, and theatre news every Wednesday.</p>
+        <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
         <form action="https://forms.jaxplays.org/newsletter.php" method="POST">
           <input type="email" name="email" placeholder="Email address" aria-label="Email address">
           <button type="submit">Subscribe</button>
