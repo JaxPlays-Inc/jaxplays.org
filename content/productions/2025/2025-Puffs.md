@@ -1,5 +1,6 @@
 ---
-title: "Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic"
+title: Puffs
+subtitle: or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
 theatre: The 5 & Dime 
 venue: The Florida Ballet
 season: 2025
