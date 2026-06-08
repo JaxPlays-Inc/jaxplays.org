@@ -1,11 +1,11 @@
 ---
 title: Privacy Policy
-date: 2023-09-08T00:00:00-04:00
+date: 2026-06-08T14:22:39-04:00
 ---
-**Effective Date: June 28, 2023**
+**Effective Date: June 8, 2026**
 
 ## INTRODUCTION
-Welcome to JaxPlays (jaxplays.com), a website dedicated to theatre productions in Jacksonville, Florida. In this Privacy Policy, we inform you, the user ("you," "your," or "user"), about how we collect, use, disclose, and protect your information when you use our website.
+Welcome to JaxPlays (jaxplays.org), a website dedicated to theatre productions in Jacksonville, Florida. In this Privacy Policy, we inform you, the user ("you," "your," or "user"), about how we collect, use, disclose, and protect your information when you use our website.
 
 By using JaxPlays, you agree to the collection and use of your information as outlined in this Privacy Policy.
 
@@ -30,6 +30,11 @@ JaxPlays employs Google Analytics, a web analysis service provided by Google. Go
 To prevent Google's collection and use of data, you can download and install the browser plug-in available at https://tools.google.com/dlpage/gaoptout?hl=en.
 
 For more information on Google's privacy practices, please visit the Google Privacy & Terms web page: https://policies.google.com/privacy?hl=en.
+
+## USE OF CLOUDFLARE TURNSTILE
+JaxPlays may use Cloudflare Turnstile on forms, including newsletter signup forms, to help protect the website from spam, abuse, and automated bot traffic. Turnstile may process signals such as your IP address, browser user-agent, TLS fingerprint, sitekey, and associated origin for bot detection and service improvement.
+
+Cloudflare's processing of information through Turnstile is described in the [Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/en-gb/turnstile-privacy-policy/), which supplements Cloudflare's main Privacy Policy.
 
 ## SECURITY
 Protecting your Personal Information is essential to us, but please note that no method of transmission over the Internet or electronic storage is 100% secure. We strive to use commercially acceptable means to safeguard your Personal Information, but we cannot guarantee absolute security.
