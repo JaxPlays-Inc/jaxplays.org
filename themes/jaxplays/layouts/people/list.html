@@ -18,7 +18,7 @@
           {{ $roles = slice $roles }}
         {{ end }}
 
-        <a href="{{ .RelPermalink }}" class="people-list-person link color-inherit">
+        <a href="{{ .RelPermalink }}" class="people-list-person color-inherit slow-grow">
           <span class="people-list-headshot br-100 cover" role="img" aria-label="Photo of {{ .Title }}" style="background-image: url('{{ $headshot | relURL }}');"></span>
           <span class="people-list-name">{{ .Title }}</span>
           {{ with $roles }}
