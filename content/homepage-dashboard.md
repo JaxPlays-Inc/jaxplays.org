@@ -5,6 +5,5 @@ layout: homepage-dashboard
 url: /homepage-dashboard/
 aliases:
   - /mockups/homepage-dashboard/
-ads: false
 description: A JaxPlays homepage dashboard for current productions, upcoming openings, latest reviews, and archive discovery.
 ---
