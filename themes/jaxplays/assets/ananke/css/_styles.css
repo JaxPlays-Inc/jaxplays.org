@@ -107,6 +107,83 @@ h1 a.jaxplayslogo {
 	margin-block-start: 0;
 }
 
+.production-single .production-hero-grid {
+	align-items: start;
+	display: grid;
+	gap: 1rem;
+	grid-template-areas:
+		"header header"
+		"poster actions"
+		"description description"
+		"readmore readmore";
+	grid-template-columns: clamp(5.5rem, 50vw, 14.5rem) minmax(0, 1fr);
+}
+
+.production-single .production-hero-grid--text {
+	grid-template-areas:
+		"header"
+		"actions"
+		"description"
+		"readmore";
+	grid-template-columns: 1fr;
+}
+
+.production-single .production-hero-poster {
+	grid-area: poster;
+}
+
+.production-single .production-hero-poster img {
+	aspect-ratio: 2 / 3;
+	display: block;
+	object-fit: cover;
+	width: 100%;
+}
+
+.production-single .production-hero-main {
+	display: contents;
+	min-width: 0;
+}
+
+.production-single .production-hero-main header {
+	grid-area: header;
+}
+
+.production-single .production-hero-meta {
+	color: #555;
+	letter-spacing: .08em;
+	line-height: 1.35;
+}
+
+.production-single .production-hero-actions {
+	grid-area: actions;
+	gap: .5rem;
+	margin-top: 0;
+}
+
+.production-single .production-hero-description {
+	grid-area: description;
+}
+
+.production-single .production-hero-readmore {
+	grid-area: readmore;
+	justify-self: start;
+}
+
+@media screen and (min-width: 48em) {
+	.production-single .production-hero-grid {
+		gap: .75rem 1.5rem;
+		grid-template-areas:
+			"poster header"
+			"poster actions"
+			"poster description"
+			"poster readmore";
+	}
+
+	.production-single .production-hero-actions {
+		margin-top: .25rem;
+	}
+}
+
 .production-single .production-details {
 	font-size: 1rem;
 }

@@ -32,28 +32,7 @@
 {{ $description = $description | markdownify | safeHTML }}
 {{ end }}
 <div class="flex-l mt0 mw8 center">
-  <article class="production-single relative center cf pv4 ph3 ph4-ns mw8 w-100">
-    <header class="relative">
-      <h1 class="f3 f2-l f1-m mb0">
-        {{ .Title }}
-        {{ with .Params.subtitle }}
-        <br /><span class="db f4 mt2">{{ . }}</span>
-        {{ end }}
-      </h1>
-      <h2 class="fw4 f3-ns f5 ttu">
-        {{ $year := "" }}
-        {{ if and .Params.opening_date (eq (len .Params.opening_date) 4) }}
-        <!-- If opening_date is exactly 4 characters, it's just a year -->
-        {{ $year = .Params.opening_date }}
-        {{ else if .Params.opening_date }} <!-- If opening_date is more than 4 characters, parse as a full date -->
-        {{ $date := time .Params.opening_date }}
-        {{ $year = $date.Format "2006" }}
-        {{ end }}
-        {{ $year }}{{ if and .Params.opening_date .Params.theatre }} &#8226;{{ end }}
-        {{ with .Params.theatre }}{{ . }}{{ end }}
-      </h2>
-    </header>
-
+  <article class="production-single relative center cf pv3 ph3 ph4-ns mw8 w-100">
     {{ $featuredImage := .Params.featured_image }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
     {{ $featuredImageCaption := .Params.featured_image_caption }}
@@ -81,29 +60,41 @@
     {{ end }}
     {{ end }}
 
-    {{ if or $featuredImage $genres }}
-    <div class="flex">
+    {{ $year := "" }}
+    {{ if and .Params.opening_date (eq (len .Params.opening_date) 4) }}
+    <!-- If opening_date is exactly 4 characters, it's just a year -->
+    {{ $year = .Params.opening_date }}
+    {{ else if .Params.opening_date }} <!-- If opening_date is more than 4 characters, parse as a full date -->
+    {{ $date := time .Params.opening_date }}
+    {{ $year = $date.Format "2006" }}
+    {{ end }}
+
+    <div class="production-hero-grid{{ if not $featuredImage }} production-hero-grid--text{{ end }} mb4">
       <!-- Featured Image Section -->
       {{ if $featuredImage }}
-      <div class="w-40 w-25-l flex mb2 mb0-ns">
+      <div class="production-hero-poster">
         <a href="/media/posters/{{ $featuredImage }}" data-lightbox="gallery"
           data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-          <img src="/media/posters/{{ $featuredImage }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" /></a>
+          <img src="/media/posters/{{ $featuredImage }}" alt="{{ $featuredImageAlt }}" /></a>
       </div>
       {{ end }}
 
-      <!-- Genres and Tickets Section -->
-      {{ if or $genres (and .Params.opening_date .Params.closing_date) }} <!-- Adjusted to check for opening_date -->
-      <div class="w-60 w-75-l ml3 flex flex-column items-start justify-start">
-        <!-- Genres -->
-        {{ if $genres }}
-        <div class="flex flex-wrap">
-          {{ range $genres }}
-          <a href="/genres/{{ . | urlize }}" class="link dim br4 ph3 pv2 mv2 mh1 h2 dib black bg-yellow">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end }}
+      <div class="production-hero-main">
+        <header class="relative bb b--black-10 pb2">
+          <h1 class="f3 f2-ns f1-l lh-title mv0">
+            {{ .Title }}
+            {{ with .Params.subtitle }}
+            <span class="db f4 f3-l fw4 mt1">{{ . }}</span>
+            {{ end }}
+          </h1>
+          <div class="production-hero-meta fw6 f6 f5-ns ttu mt2">
+            {{ $year }}{{ if and .Params.opening_date .Params.theatre }} &#8226;{{ end }}
+            {{ with .Params.theatre }}{{ . }}{{ end }}
+          </div>
+        </header>
 
+        {{ if or $genres (and .Params.opening_date .Params.closing_date) }}
+        <div class="production-hero-actions flex flex-wrap items-center">
         <!-- Tickets -->
         <!-- If opening_date and closing_date are both filled out -->
         {{ if and .Params.opening_date .Params.closing_date }} <!-- Adjusted to use opening_date -->
@@ -111,35 +102,31 @@
         {{ $closingDate := time .Params.closing_date }}
         {{ $now := now.Format "2006-01-02" | time }}
         {{ if ge $closingDate $now }}
-        {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 ml1 mv2 mt0 tickets"></a>{{ end }}
+        {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 tickets"></a>{{ end }}
         {{ end }}
         {{ end }}
 
-        <!-- Tablet and Desktop Description -->
+        <!-- Genres -->
+        {{ if $genres }}
+          {{ range $genres }}
+          <a href="/genres/{{ . | urlize }}" class="link dim br-pill ph3 pv2 dib black bg-yellow">{{ . }}</a>
+          {{ end }}
+        {{ end }}
+        </div>
+        {{ end }}
+
         {{ if $description }}
-        <div class="description dn db-ns nested-copy-line-height lh-copy f4 mt0 {{ $.Param " text_color" |
+        <div class="production-hero-description description nested-copy-line-height lh-copy f5 f4-l mt2 {{ $.Param " text_color" |
           default "dark-gray" }}">
           {{ $description | safeHTML }}
-
         </div>
         <a href="#synopsis"
-          class="ba b--moon-gray bg-light-gray br2 color-inherit dib f5 hover-bg-moon-gray link mt2 ph2 pv1">{{
+          class="production-hero-readmore ba b--moon-gray bg-light-gray br2 color-inherit dib f5 hover-bg-moon-gray link mt2 ph2 pv1">{{
           $.Param "read_more_copy" | default (i18n "readMore") }}</a>
         {{ end }}
 
       </div>
-      {{ end }}
     </div>
-    {{ if $description }}
-    <div class="description dn-ns db nested-copy-line-height lh-copy f5 mt0 {{ $.Param " text_color" |
-      default "dark-gray" }}">
-      {{ $description | safeHTML }}
-      <a href="#synopsis"
-        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{
-        $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-    </div>
-    {{ end }}
-    {{ end }}
 
     <div class="production-details nested-copy-line-height lh-copy f5 mb4 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Details</h3>
