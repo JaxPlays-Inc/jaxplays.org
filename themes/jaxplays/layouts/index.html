@@ -1,191 +1,830 @@
+{{/*  {{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}  */}}
 {{ define "main" }}
+{{ $now := now }}
+{{ $soon := $now.AddDate 0 0 45 }}
+{{ $closingWindow := $now.AddDate 0 0 10 }}
+{{ $productions := where .Site.RegularPages "Section" "productions" }}
+{{ $articles := where .Site.RegularPages "Section" "in" (.Site.Params.mainSections | default (slice "reviews" "news")) }}
+{{ $nowPlaying := slice }}
+{{ $openingSoon := slice }}
+{{ $closingSoon := slice }}
+{{ range $productions }}
+  {{ $production := . }}
+  {{ with $production.Params.opening_date }}
+    {{ $opening := time . }}
+    {{ $closing := $opening }}
+    {{ with $production.Params.closing_date }}{{ $closing = time . }}{{ end }}
+    {{ if and (le $opening.Unix $now.Unix) (ge $closing.Unix $now.Unix) }}
+      {{ $nowPlaying = $nowPlaying | append $production }}
+      {{ if le $closing.Unix $closingWindow.Unix }}
+        {{ $closingSoon = $closingSoon | append $production }}
+      {{ end }}
+    {{ else if and (gt $opening.Unix $now.Unix) (le $opening.Unix $soon.Unix) }}
+      {{ $openingSoon = $openingSoon | append $production }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $nowPlaying = sort $nowPlaying "Params.closing_date" "asc" }}
+{{ $openingSoon = sort $openingSoon "Params.opening_date" "asc" }}
+{{ $closingSoon = sort $closingSoon "Params.closing_date" "asc" }}
+{{ $latestArticles := first 6 (sort $articles "Date" "desc") }}
 
 <style>
-  .my-slider-progress {
-    background: #ccc;
+  .home-dashboard {
+    --jp-ink: #171717;
+    --jp-muted: #5f6670;
+    --jp-line: #d7d2c8;
+    --jp-paper: #f4f4f4;
+    --jp-cream: #f6f0e3;
+    --jp-gold: #ffd600;
+    --jp-red: #b7332f;
+    --jp-teal: #18736b;
+    --jp-blue: #28466f;
+    background: var(--jp-paper);
+    color: var(--jp-ink);
   }
 
-  .my-slider-progress-bar {
-    background: var(--jaxplays-gold);
-    margin-top: 1rem;
-    height: 4px;
-    transition: width 400ms ease;
-    width: 0;
+  .home-dashboard a {
+    color: inherit;
+    text-decoration: none;
   }
-  .splide__slide {
+
+  .home-dashboard a:hover:not(.no-underline):not(.link),
+  .home-dashboard a:focus:not(.no-underline):not(.link) {
+    text-decoration: none;
+  }
+
+  .home-dashboard-grow {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+  }
+
+  .home-dashboard-grow:hover,
+  .home-dashboard-grow:focus {
+    transform: scale(1.025);
+  }
+
+  .home-dashboard-grow:active {
+    transform: scale(.98);
+  }
+
+  .home-dashboard-shell {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    position: relative;
+  }
+
+  .home-dashboard-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+    gap: 1.25rem;
+    align-items: stretch;
+    border-bottom: 1px solid var(--jp-line);
+    padding-bottom: 1.5rem;
+  }
+
+  .home-dashboard-kicker {
+    color: var(--jp-red);
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0 0 .5rem;
+    text-transform: uppercase;
+  }
+
+  .home-dashboard-title {
+    font-size: clamp(2.1rem, 7vw, 5.6rem);
+    line-height: .92;
+    margin: 0;
+  }
+
+  .home-dashboard-subtitle {
+    color: var(--jp-muted);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    max-width: 42rem;
+    margin: 1rem 0 1.35rem;
+  }
+
+  .home-dashboard-actions {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .home-dashboard-button {
+    border: 1px solid var(--jp-ink);
+    border-radius: 0;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+    min-height: 42px;
+    padding: .65rem .9rem;
+    text-decoration: none;
+    font-weight: 700;
+    background: white;
   }
-  .splide {
-    padding: 0 4rem 2rem;
+
+  .home-dashboard-button.primary {
+    background: var(--jp-gold);
   }
-  @media screen and (max-width: 30em) {
-    .splide {
-      padding: 0 2rem 3rem;
+
+  .home-dashboard-panel {
+    background: var(--jp-cream);
+    border: 1px solid var(--jp-line);
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .home-dashboard-panel-title {
+    margin: 0 0 .75rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .home-dashboard-hotlist {
+    display: grid;
+    gap: .75rem;
+  }
+
+  .home-dashboard-hotitem {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: .75rem;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    padding-top: .75rem;
+    text-decoration: none;
+  }
+
+  .home-dashboard-hotitem:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .home-dashboard-thumb {
+    aspect-ratio: 2 / 3;
+    background: #ddd;
+    border-radius: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .home-dashboard-hotitem strong,
+  .home-dashboard-card strong,
+  .home-dashboard-story strong {
+    display: block;
+    line-height: 1.2;
+  }
+
+  .home-dashboard-meta {
+    color: var(--jp-muted);
+    display: block;
+    font-size: .85rem;
+    line-height: 1.35;
+    margin-top: .25rem;
+  }
+
+  .home-dashboard-section {
+    margin-top: 3rem;
+  }
+
+  .home-dashboard-production-section {
+    margin-top: 3rem;
+  }
+
+  .home-dashboard-ad-anchor {
+    position: relative;
+  }
+
+  .home-dashboard-section-head {
+    align-items: end;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .9rem;
+  }
+
+  .home-dashboard-section-head h2 {
+    font-size: clamp(1.5rem, 4vw, 2.35rem);
+    margin: 0;
+  }
+
+  .home-dashboard-section-title-link,
+  .home-dashboard-section-more {
+    font-weight: 800;
+  }
+
+  .home-dashboard-section-title-link {
+    display: inline-block;
+  }
+
+  .home-dashboard-section-more {
+    display: block;
+    margin: .85rem 0 0 auto;
+    width: max-content;
+  }
+
+  .home-dashboard-rail {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-dashboard-production-rail {
+    gap: 1.35rem;
+  }
+
+  .home-dashboard-card,
+  .home-dashboard-story,
+  .home-dashboard-archive-link,
+  .home-dashboard-newsletter {
+    background: white;
+    border: 1px solid var(--jp-line);
+    border-radius: 0;
+  }
+
+  .home-dashboard-card {
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .home-dashboard-poster {
+    aspect-ratio: 2 / 3;
+    background: #ddd;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .home-dashboard-card-body {
+    display: block;
+    padding: .9rem;
+  }
+
+  .home-dashboard-badge {
+    background: var(--jp-teal);
+    border-radius: 999px;
+    color: white;
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: .5rem;
+    padding: .35rem .5rem;
+    text-transform: uppercase;
+  }
+
+  .home-dashboard-badge.red {
+    background: var(--jp-red);
+  }
+
+  .home-dashboard-editorial {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-dashboard-story {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+  }
+
+  .home-dashboard-story-body,
+  .home-dashboard-story-summary {
+    display: block;
+  }
+
+  .home-dashboard-story-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .home-dashboard-story-link:hover,
+  .home-dashboard-story-link:focus,
+  .home-dashboard-story-summary a:hover,
+  .home-dashboard-story-summary a:focus {
+    text-decoration: none;
+  }
+
+  .home-dashboard-story-title {
+    display: block;
+  }
+
+  .home-dashboard-story-summary {
+    display: -webkit-box;
+    margin-top: .65rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
+  .home-dashboard-story-summary p {
+    margin: 0;
+  }
+
+  .home-dashboard-summary-link {
+    display: inline-block;
+  }
+
+  .home-dashboard-story-body {
+    padding: .9rem;
+  }
+
+  .home-dashboard-story-image {
+    aspect-ratio: 16 / 9;
+    background: #ddd;
+    border-radius: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .home-dashboard-archive {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-dashboard-archive-link {
+    border-top: 5px solid var(--jp-blue);
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .home-dashboard-archive-link:nth-child(2) {
+    border-top-color: var(--jp-red);
+  }
+
+  .home-dashboard-archive-link:nth-child(3) {
+    border-top-color: var(--jp-teal);
+  }
+
+  .home-dashboard-archive-link:nth-child(4) {
+    border-top-color: var(--jp-gold);
+  }
+
+  .home-dashboard-count {
+    display: block;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: .4rem;
+  }
+
+  .home-dashboard-bottom {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .home-dashboard-newsletter {
+    padding: 1rem;
+  }
+
+  .home-dashboard-newsletter form {
+    display: grid;
+    gap: .75rem;
+    margin-top: .75rem;
+  }
+
+  .home-dashboard-newsletter-fields {
+    display: flex;
+  }
+
+  .home-dashboard-newsletter input[type="email"] {
+    border: 1px solid var(--jp-line);
+    border-radius: 0;
+    flex: 1;
+    min-width: 0;
+    padding: .75rem;
+  }
+
+  .home-dashboard-newsletter button {
+    background: var(--jp-gold);
+    border: 1px solid var(--jp-ink);
+    border-left: 0;
+    border-radius: 0;
+    cursor: pointer;
+    font-weight: 900;
+    padding: .75rem .9rem;
+  }
+
+  .home-dashboard-newsletter button:disabled {
+    cursor: wait;
+    opacity: .68;
+  }
+
+  .home-dashboard-newsletter-honeypot {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .home-dashboard-newsletter-status {
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0;
+    min-height: 1.25rem;
+  }
+
+  .home-dashboard-newsletter-status[data-state="success"] {
+    color: var(--jp-teal);
+  }
+
+  .home-dashboard-newsletter-status[data-state="error"] {
+    color: var(--jp-red);
+  }
+
+  .home-dashboard-submit {
+    display: grid;
+    gap: .65rem;
+  }
+
+  @media screen and (max-width: 820px) {
+    .home-dashboard-hero,
+    .home-dashboard-editorial,
+    .home-dashboard-bottom {
+      grid-template-columns: 1fr;
+    }
+
+    .home-dashboard-editorial {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-dashboard-rail,
+    .home-dashboard-archive {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-dashboard-story {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .home-dashboard-shell {
+        padding: 1.1rem 1rem 3rem;
+    }
+
+    .home-dashboard-rail,
+    .home-dashboard-archive,
+    .home-dashboard-editorial {
+      grid-template-columns: 1fr;
+    }
+
+    .home-dashboard-section-head {
+      align-items: start;
+      flex-direction: column;
+    }
+
+    .home-dashboard-production-rail {
+      gap: .75rem;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-card {
+      display: grid;
+      grid-template-columns: 128px minmax(0, 1fr);
+      height: 194px;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-poster {
+      aspect-ratio: auto;
+      height: 192px;
+      max-height: 192px;
+      min-height: 0;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-card-body {
+      align-self: center;
+      overflow: hidden;
+      padding: .8rem;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-card strong,
+    .home-dashboard-production-rail .home-dashboard-meta {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-card strong {
+      -webkit-line-clamp: 2;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-badge {
+      font-size: .62rem;
+      margin-bottom: .4rem;
+      padding: .3rem .45rem;
+    }
+
+    .home-dashboard-production-rail .home-dashboard-meta {
+      font-size: .78rem;
+      -webkit-line-clamp: 2;
+    }
+
+    .home-dashboard-newsletter-fields {
+      display: grid;
+      gap: .5rem;
+    }
+
+    .home-dashboard-newsletter input[type="email"],
+    .home-dashboard-newsletter button {
+      border: 1px solid var(--jp-ink);
+      border-radius: 0;
+      width: 100%;
     }
   }
 </style>
-<div class="ph4 pt3 w-100 mw8 center ">
-  {{- partial "newsletter.html" . -}}
-  
-  <h1 class="f4 f3-m f2-l sectionline"><a href="/productions/" class="black">On Stage Now & Coming Soon...</a></h1>
-</div>
-<div class="flex flex-column items-center ">
-  <div class="splide" aria-label="Upcoming Productions Gallery">
-    <div class="splide__track">
-      <ul class="splide__list" id="posterContainer">
-        <!-- Slide items will be added here by JavaScript -->
-      </ul>
-    </div>
+
+<div class="home-dashboard">
+  <div class="home-dashboard-shell">
+    <section class="home-dashboard-hero" aria-labelledby="home-dashboard-title">
+      <div>
+        <p class="home-dashboard-kicker">Northeast Florida & Southeast Georgia Theatre</p>
+        <h1 id="home-dashboard-title" class="home-dashboard-title">Jacksonville theatre, tonight and beyond.</h1>
+        <p class="home-dashboard-subtitle">Find your next night at the theatre. See what's playing now, what's opening soon, what's about to close and what JaxPlays critics have reviewed.</p>
+        <div class="home-dashboard-actions">
+          <a class="home-dashboard-button primary home-dashboard-grow" href="/calendar/">View Calendar</a>
+          <a class="home-dashboard-button home-dashboard-grow" href="/productions/">Browse Shows</a>
+          <a class="home-dashboard-button home-dashboard-grow" href="/reviews/">Read Reviews</a>
+        </div>
+      </div>
+      <aside class="home-dashboard-panel" aria-labelledby="home-dashboard-closing">
+        <h2 id="home-dashboard-closing" class="home-dashboard-panel-title">Closing Soon</h2>
+        <div class="home-dashboard-hotlist">
+          {{ range first 4 $closingSoon }}
+            {{ $poster := .Params.featured_image }}
+            {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
+            <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
+              {{ if $poster }}
+                <img class="home-dashboard-thumb" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
+              {{ else }}
+                <img class="home-dashboard-thumb" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+              {{ end }}
+              <span>
+                <strong>{{ .Title }}</strong>
+                <span class="home-dashboard-meta">{{ .Params.theatre }}<br>Closes {{ time.Format "Jan 2" (time $closingDate) }}</span>
+              </span>
+            </a>
+          {{ else }}
+            <p class="home-dashboard-meta">No productions are currently inside the closing-soon window.</p>
+          {{ end }}
+        </div>
+      </aside>
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-production-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-now-playing">
+      {{- partial "GAM-left-rail-1.html" (dict "margin" "3.8rem 0") -}}
+      <div class="home-dashboard-section-head">
+        <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
+      </div>
+      <div class="home-dashboard-rail home-dashboard-production-rail">
+        {{ range first 8 $nowPlaying }}
+          {{ $poster := .Params.featured_image }}
+          {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
+          <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
+            {{ if $poster }}
+              <img class="home-dashboard-poster" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
+            {{ else }}
+              <img class="home-dashboard-poster" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+            {{ end }}
+            <span class="home-dashboard-card-body">
+              <span class="home-dashboard-badge">Now Playing</span>
+              <strong>{{ .Title }}</strong>
+              <span class="home-dashboard-meta">{{ .Params.theatre }}<br>{{ time.Format "January 2" (time .Params.opening_date) }} - {{ time.Format "January 2" (time $closingDate) }}</span>
+            </span>
+          </a>
+        {{ else }}
+          <p class="home-dashboard-meta">No current productions found.</p>
+        {{ end }}
+      </div>
+      <a class="home-dashboard-section-more" href="/productions/">All productions</a>
+      {{- partial "GAM-right-rail-1.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-opening">
+      <div class="home-dashboard-section-head">
+        <h2 id="home-dashboard-opening"><a class="home-dashboard-section-title-link" href="/calendar/opening-nights/">Opening Soon</a></h2>
+      </div>
+      <div class="home-dashboard-rail home-dashboard-production-rail">
+        {{ range first 8 $openingSoon }}
+          {{ $poster := .Params.featured_image }}
+          <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
+            {{ if $poster }}
+              <img class="home-dashboard-poster" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
+            {{ else }}
+              <img class="home-dashboard-poster" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+            {{ end }}
+            <span class="home-dashboard-card-body">
+              <span class="home-dashboard-badge red">Opens {{ time.Format "Jan 2" (time .Params.opening_date) }}</span>
+              <strong>{{ .Title }}</strong>
+              <span class="home-dashboard-meta">{{ .Params.theatre }}</span>
+            </span>
+          </a>
+        {{ else }}
+          <p class="home-dashboard-meta">No upcoming productions found.</p>
+        {{ end }}
+      </div>
+      <a class="home-dashboard-section-more" href="/calendar/opening-nights/">Opening nights</a>
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-reviews">
+      {{- partial "GAM-left-rail-2.html" (dict "margin" "3.8rem 0") -}}
+      <div class="home-dashboard-section-head">
+        <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
+      </div>
+      <div class="home-dashboard-editorial">
+        {{ range $latestArticles }}
+          {{ $image := partial "func/GetFeaturedImage.html" . }}
+          {{ $summary := partial "content-wikilinks" .Summary | replaceRE "<a " "<a class=\"home-dashboard-summary-link\" " | safeHTML }}
+          <article class="home-dashboard-story home-dashboard-grow">
+            <a class="home-dashboard-story-link" href="{{ .RelPermalink }}">
+              {{ if $image }}
+                <img class="home-dashboard-story-image" src="{{ $image }}" alt="{{ .Title }}">
+              {{ else }}
+                <img class="home-dashboard-story-image" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+              {{ end }}
+            </a>
+            <div class="home-dashboard-story-body">
+              <span class="home-dashboard-badge">{{ humanize .Section }}</span>
+              <a class="home-dashboard-story-link" href="{{ .RelPermalink }}">
+                <strong class="home-dashboard-story-title">{{ .Title }}</strong>
+              </a>
+              <span class="home-dashboard-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+              <div class="home-dashboard-meta home-dashboard-story-summary">{{ $summary }}</div>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+      <a class="home-dashboard-section-more" href="/reviews/">More reviews</a>
+      {{- partial "GAM-right-rail-2.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
+    </section>
+
+    <section class="home-dashboard-section" aria-labelledby="home-dashboard-archive">
+      <div class="home-dashboard-section-head">
+        <h2 id="home-dashboard-archive" class="home-dashboard-section-title-link">Explore the Archive</h2>
+      </div>
+      <div class="home-dashboard-archive">
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/productions/">
+          <span class="home-dashboard-count">{{ len $productions }}</span>
+          <strong>Productions</strong>
+          <span class="home-dashboard-meta">Current, future and historical listings.</span>
+        </a>
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/people/">
+          <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "people") }}</span>
+          <strong>People</strong>
+          <span class="home-dashboard-meta">Artists, crew, musicians and theatre makers.</span>
+        </a>
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/theatres/">
+          <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "theatres") }}</span>
+          <strong>Theatres</strong>
+          <span class="home-dashboard-meta">Companies across Northeast Florida and Southeast Georgia.</span>
+        </a>
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/venues/">
+          <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "venues") }}</span>
+          <strong>Venues</strong>
+          <span class="home-dashboard-meta">Stages, rooms and performance spaces.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-bottom" aria-labelledby="home-dashboard-connect">
+      <div class="home-dashboard-newsletter">
+        <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
+        <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
+        <form action="https://api.jaxplays.org/newsletter" method="POST" data-newsletter-form data-tags="Homepage Signup Form" novalidate>
+          <div class="home-dashboard-newsletter-fields">
+            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
+            <button type="submit">Subscribe</button>
+          </div>
+          <input class="home-dashboard-newsletter-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
+          <div
+            class="cf-turnstile"
+            data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"
+            data-callback="jaxplaysNewsletterTurnstileComplete"
+            data-expired-callback="jaxplaysNewsletterTurnstileReset"
+            data-error-callback="jaxplaysNewsletterTurnstileReset"></div>
+          <p class="home-dashboard-newsletter-status" aria-live="polite" data-newsletter-status></p>
+        </form>
+        <script>
+          (() => {
+            const form = document.querySelector("[data-newsletter-form]");
+
+            if (!form) {
+              return;
+            }
+
+            const email = form.querySelector('input[name="email"]');
+            const website = form.querySelector('input[name="website"]');
+            const submit = form.querySelector('button[type="submit"]');
+            const status = form.querySelector("[data-newsletter-status]");
+            const originalButtonText = submit.textContent;
+            const errorMessages = {
+              "origin-not-allowed": "This page is not approved for newsletter signups yet.",
+              "turnstile-failed": "Verification failed. Please complete the check and try again.",
+              "mailchimp-not-configured": "Newsletter signup is not fully configured yet.",
+              "mailchimp-rejected": "Newsletter signup was rejected by Mailchimp. Please check the email address and try again.",
+              "mailchimp-unavailable": "Mailchimp is unavailable right now. Please try again in a moment.",
+            };
+
+            class NewsletterError extends Error {
+              constructor(error, detail = "") {
+                super(error);
+                this.detail = detail;
+              }
+            }
+
+            window.jaxplaysNewsletterTurnstileComplete = (token) => {
+              form.dataset.turnstileToken = token;
+              if (status.dataset.state === "error") {
+                setStatus("", "");
+              }
+            };
+
+            window.jaxplaysNewsletterTurnstileReset = () => {
+              form.dataset.turnstileToken = "";
+            };
+
+            const setStatus = (message, state = "") => {
+              status.textContent = message;
+              status.dataset.state = state;
+            };
+
+            form.addEventListener("submit", async (event) => {
+              event.preventDefault();
+
+              if (!email.checkValidity()) {
+                email.reportValidity();
+                return;
+              }
+
+              const turnstileToken = form.dataset.turnstileToken || form.querySelector('input[name="cf-turnstile-response"]')?.value || "";
+
+              if (!turnstileToken) {
+                setStatus("Please complete the verification check.", "error");
+                return;
+              }
+
+              submit.disabled = true;
+              submit.textContent = "Subscribing";
+              setStatus("Subscribing...", "");
+
+              try {
+                const response = await fetch(form.action, {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    email: email.value,
+                    website: website.value,
+                    turnstileToken,
+                    tags: form.dataset.tags || "",
+                    campaignFillUrl: window.location.href,
+                  }),
+                });
+
+                const data = await response.json().catch(() => ({}));
+
+                if (!response.ok || !data.ok) {
+                  throw new NewsletterError(data.error || "subscribe-failed", data.detail || "");
+                }
+
+                form.reset();
+                form.dataset.turnstileToken = "";
+                window.turnstile?.reset(form.querySelector(".cf-turnstile"));
+                setStatus("Thank you. You are signed up for JaxPlays Spotlight. Check your inbox. You should receive a welcome email shortly.", "success");
+              } catch (error) {
+                form.dataset.turnstileToken = "";
+                window.turnstile?.reset(form.querySelector(".cf-turnstile"));
+                const message = errorMessages[error.message] || "Something went wrong. Please try again in a moment.";
+                setStatus(error.detail ? `${message} ${error.detail}` : message, "error");
+              } finally {
+                submit.disabled = false;
+                submit.textContent = originalButtonText;
+              }
+            });
+
+            email.addEventListener("input", () => {
+              if (status.dataset.state === "success") {
+                setStatus("", "");
+              }
+            });
+          })();
+        </script>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+      </div>
+      <div class="home-dashboard-submit">
+        <a class="home-dashboard-button home-dashboard-grow" href="/submit/production/">Submit a Production</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/submit/profile/">Submit a Profile</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/support/">Support JaxPlays</a>
+      </div>
+    </section>
   </div>
 </div>
-
-{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of
-pages. */}}
-{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-{{/* Create a variable with that section to use in multiple places. */}}
-{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-{{/* Check to see if the section is defined for ranging through it */}}
-{{ $section_count := len $section }}
-{{ if ge $section_count 1 }}
-{{/* Derive the section name */}}
-{{ $section_name := index (.Site.Params.mainSections) 0 }}
-
-<div class="pa3 pa4-ns w-100 mw8 center relative">
-  {{- partial "GAM-left-rail-1.html" (dict "margin" "4rem 0") -}}
-  {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-  {{ with .Site.GetPage "section" $section_name }}
-  
-  <h1 class="f4 f2-ns flex-none sectionline"><a href="/reviews/" class="black">
-    {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
-  </a></h1>
-  
-  {{ end }}
-
-  {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
-
-  <section class="w-100 mw8">
-    {{/* Range through the first $n_posts items of the section */}}
-    {{ range (first $n_posts $section) }}
-    <div class="relative w-100 mb4">
-      {{ .Render "summary-with-image" }}
-    </div>
-    {{ end }}
-  </section>
-
-  {{ if ge $section_count (add $n_posts 1) }}
-  <section class="w-100">
-    <h1 class="f4 f3-ns sectionline">{{ i18n "more" }}</h1>
-    {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first"
-    on the outside */}}
-    {{ range (first 4 (after $n_posts $section)) }}
-    <h2 class="f5 fw4 mb4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "ml3" "mr3" }}">
-      <a href="{{ .RelPermalink }}" class="link black dim">
-        {{ .Title }}
-      </a>
-    </h2>
-    {{ end }}
-
-    {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
-    {{ with .Site.GetPage "section" $section_name }}
-    <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
-    {{ end }}
-  </section>
-  {{ end }}
-  <article class="cf ph4 pv3 pv4-l f5 f4-ns center mw8 lh-copy">
-    {{- partial "content-wikilinks" .Content -}}
-    {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-345px") -}}
-  </article>
-</div>
-{{ end }}
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Fetch events from the calendar.json file
-    fetch('/calendar.json')
-      .then(response => response.json())
-      .then(events => {
-        // Get today's date and 30 days from now
-        const today = new Date();
-        const thirtyDaysLater = new Date(today);
-        thirtyDaysLater.setDate(today.getDate() + 30);
-
-        // Filter events that are happening within the next 30 days
-        const upcomingEvents = events.filter(event => {
-          const eventDate = new Date(event.start);
-          return eventDate >= today && eventDate <= thirtyDaysLater;
-        });
-
-        // Sort events by ascending date
-        upcomingEvents.sort((a, b) => new Date(a.start) - new Date(b.start));
-
-        // Create an object to store unique posters
-        const uniquePosters = {};
-
-        // Get the container where posters will be appended
-        const posterContainer = document.getElementById('posterContainer');
-
-        // Loop through the filtered and sorted events to create an image element for each unique poster
-        upcomingEvents.forEach(event => {
-          if (event.featured_image && !uniquePosters[event.featured_image]) {
-            const listItem = document.createElement('li');
-            listItem.classList.add('splide__slide');
-
-            const anchor = document.createElement('a');
-            anchor.href = event.url;
-            // anchor.target = "_blank";
-
-            const img = document.createElement('img');
-            img.src = `/media/posters/${event.featured_image}`;
-            img.alt = event.title;
-            img.title = event.title;
-            img.classList.add('featured-image');
-
-            anchor.appendChild(img);
-            listItem.appendChild(anchor);
-            posterContainer.appendChild(listItem);
-
-            uniquePosters[event.featured_image] = true;
-          }
-        });
-
-        // Initialize Splide with AutoScroll extension
-        const splide = new Splide('.splide', {
-          lazyLoad: 'nearby',
-          type: 'loop',
-          drag: 'free',
-          focus: 'center',
-          width: '1088px',
-          perPage: 4,
-          gap: '1rem',
-          autoScroll: {
-            speed: 1,
-          },
-          breakpoints: {
-            960: {
-              perPage: 3,
-              gap: '.5rem'
-            },
-            480: {
-              perPage: 2,
-              arrows: false,
-            },
-          },
-        });
-
-        // Progress bar
-        const bar = splide.root.querySelector('.my-slider-progress-bar');
-
-        splide.on('mounted move', function () {
-          const end = splide.Components.Controller.getEnd() + 1;
-          const rate = Math.min((splide.index + 1) / end, 1);
-          bar.style.width = String(100 * rate) + '%';
-        });
-
-        // Mount Splide once, including AutoScroll extension
-        splide.mount(window.splide.Extensions);
-      })
-      .catch(error => console.error('Error fetching calendar.json:', error));
-  });
-</script>
 {{ end }}

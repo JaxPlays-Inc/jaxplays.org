@@ -1,0 +1,191 @@
+{{ define "main" }}
+
+<style>
+  .my-slider-progress {
+    background: #ccc;
+  }
+
+  .my-slider-progress-bar {
+    background: var(--jaxplays-gold);
+    margin-top: 1rem;
+    height: 4px;
+    transition: width 400ms ease;
+    width: 0;
+  }
+  .splide__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .splide {
+    padding: 0 4rem 2rem;
+  }
+  @media screen and (max-width: 30em) {
+    .splide {
+      padding: 0 2rem 3rem;
+    }
+  }
+</style>
+<div class="ph4 pt3 w-100 mw8 center ">
+  {{- partial "newsletter.html" . -}}
+  
+  <h1 class="f4 f3-m f2-l sectionline"><a href="/productions/" class="black">On Stage Now & Coming Soon...</a></h1>
+</div>
+<div class="flex flex-column items-center ">
+  <div class="splide" aria-label="Upcoming Productions Gallery">
+    <div class="splide__track">
+      <ul class="splide__list" id="posterContainer">
+        <!-- Slide items will be added here by JavaScript -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of
+pages. */}}
+{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+{{/* Create a variable with that section to use in multiple places. */}}
+{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+{{/* Check to see if the section is defined for ranging through it */}}
+{{ $section_count := len $section }}
+{{ if ge $section_count 1 }}
+{{/* Derive the section name */}}
+{{ $section_name := index (.Site.Params.mainSections) 0 }}
+
+<div class="pa3 pa4-ns w-100 mw8 center relative">
+  {{- partial "GAM-left-rail-1.html" (dict "margin" "4rem 0") -}}
+  {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
+  {{ with .Site.GetPage "section" $section_name }}
+  
+  <h1 class="f4 f2-ns flex-none sectionline"><a href="/reviews/" class="black">
+    {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+  </a></h1>
+  
+  {{ end }}
+
+  {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+
+  <section class="w-100 mw8">
+    {{/* Range through the first $n_posts items of the section */}}
+    {{ range (first $n_posts $section) }}
+    <div class="relative w-100 mb4">
+      {{ .Render "summary-with-image" }}
+    </div>
+    {{ end }}
+  </section>
+
+  {{ if ge $section_count (add $n_posts 1) }}
+  <section class="w-100">
+    <h1 class="f4 f3-ns sectionline">{{ i18n "more" }}</h1>
+    {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first"
+    on the outside */}}
+    {{ range (first 4 (after $n_posts $section)) }}
+    <h2 class="f5 fw4 mb4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "ml3" "mr3" }}">
+      <a href="{{ .RelPermalink }}" class="link black dim">
+        {{ .Title }}
+      </a>
+    </h2>
+    {{ end }}
+
+    {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
+    {{ with .Site.GetPage "section" $section_name }}
+    <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
+    {{ end }}
+  </section>
+  {{ end }}
+  <article class="cf ph4 pv3 pv4-l f5 f4-ns center mw8 lh-copy">
+    {{- partial "content-wikilinks" .Content -}}
+    {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-345px") -}}
+  </article>
+</div>
+{{ end }}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Fetch events from the calendar.json file
+    fetch('/calendar.json')
+      .then(response => response.json())
+      .then(events => {
+        // Get today's date and 30 days from now
+        const today = new Date();
+        const thirtyDaysLater = new Date(today);
+        thirtyDaysLater.setDate(today.getDate() + 30);
+
+        // Filter events that are happening within the next 30 days
+        const upcomingEvents = events.filter(event => {
+          const eventDate = new Date(event.start);
+          return eventDate >= today && eventDate <= thirtyDaysLater;
+        });
+
+        // Sort events by ascending date
+        upcomingEvents.sort((a, b) => new Date(a.start) - new Date(b.start));
+
+        // Create an object to store unique posters
+        const uniquePosters = {};
+
+        // Get the container where posters will be appended
+        const posterContainer = document.getElementById('posterContainer');
+
+        // Loop through the filtered and sorted events to create an image element for each unique poster
+        upcomingEvents.forEach(event => {
+          if (event.featured_image && !uniquePosters[event.featured_image]) {
+            const listItem = document.createElement('li');
+            listItem.classList.add('splide__slide');
+
+            const anchor = document.createElement('a');
+            anchor.href = event.url;
+            // anchor.target = "_blank";
+
+            const img = document.createElement('img');
+            img.src = `/media/posters/${event.featured_image}`;
+            img.alt = event.title;
+            img.title = event.title;
+            img.classList.add('featured-image');
+
+            anchor.appendChild(img);
+            listItem.appendChild(anchor);
+            posterContainer.appendChild(listItem);
+
+            uniquePosters[event.featured_image] = true;
+          }
+        });
+
+        // Initialize Splide with AutoScroll extension
+        const splide = new Splide('.splide', {
+          lazyLoad: 'nearby',
+          type: 'loop',
+          drag: 'free',
+          focus: 'center',
+          width: '1088px',
+          perPage: 4,
+          gap: '1rem',
+          autoScroll: {
+            speed: 1,
+          },
+          breakpoints: {
+            960: {
+              perPage: 3,
+              gap: '.5rem'
+            },
+            480: {
+              perPage: 2,
+              arrows: false,
+            },
+          },
+        });
+
+        // Progress bar
+        const bar = splide.root.querySelector('.my-slider-progress-bar');
+
+        splide.on('mounted move', function () {
+          const end = splide.Components.Controller.getEnd() + 1;
+          const rate = Math.min((splide.index + 1) / end, 1);
+          bar.style.width = String(100 * rate) + '%';
+        });
+
+        // Mount Splide once, including AutoScroll extension
+        splide.mount(window.splide.Extensions);
+      })
+      .catch(error => console.error('Error fetching calendar.json:', error));
+  });
+</script>
+{{ end }}
