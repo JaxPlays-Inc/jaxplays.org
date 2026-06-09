@@ -2,6 +2,10 @@
 <link rel="stylesheet" href="/leaflet/leaflet.css" />
 <script src="/leaflet/leaflet.js"></script>
 
+<link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+<script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
+
 <link rel="stylesheet" href="/leaflet/extramarkers/css/leaflet.extra-markers.min.css">
 <script src="/leaflet/extramarkers/js/leaflet.extra-markers.min.js"></script>
 
@@ -22,13 +26,15 @@
     var title = "{{ .Title }}";
     var address = "{{ .Address | replaceRE "\\n" "<br>" | safeHTML }}";
     var minZoom = {{ with .minZoom }}{{ . }}{{ else }}4{{ end }};
-    var maxZoom = {{ with .maxZoom }}{{ . }}{{ else }}15{{ end }};
+    var maxZoom = {{ with .maxZoom }}{{ . }}{{ else }}20{{ end }};
     var setZoom = {{ with .setZoom }}{{ . }}{{ else }}15{{ end }};
     var radius = {{ with .radius }}{{ . }}{{ else }}""{{ end }};
 
     // Initialize map with fullscreen control and disabled default zoom control
     var mapId = 'map' + {{ .id }};
     var mymap = L.map(mapId, {
+        minZoom: minZoom,
+        maxZoom: maxZoom,
         zoomControl: false,
         fullscreenControl: true,
         fullscreenControlOptions: {
@@ -40,13 +46,53 @@
     var zoomHome = L.Control.zoomHome();
     zoomHome.addTo(mymap);
 
-    // Stadia_StamenToner Layer
-    var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
-        minZoom: minZoom,
-        maxZoom: maxZoom,
-        attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        ext: 'png'
-    }).addTo(mymap);
+    var openFreeMapStyles = {
+        light: 'https://tiles.openfreemap.org/styles/positron',
+        dark: 'https://tiles.openfreemap.org/styles/dark'
+    };
+    var openFreeMapLayer;
+    var activeOpenFreeMapStyle;
+
+    function isDarkModeEnabled() {
+        var storedDarkMode = localStorage.getItem('darkMode');
+        return storedDarkMode === 'enabled' ||
+            (window.matchMedia &&
+                window.matchMedia('(prefers-color-scheme: dark)').matches &&
+                storedDarkMode !== 'disabled');
+    }
+
+    function setOpenFreeMapStyle() {
+        var nextStyle = isDarkModeEnabled() ? openFreeMapStyles.dark : openFreeMapStyles.light;
+
+        if (activeOpenFreeMapStyle === nextStyle) {
+            return;
+        }
+
+        if (openFreeMapLayer) {
+            mymap.removeLayer(openFreeMapLayer);
+        }
+
+        openFreeMapLayer = L.maplibreGL({
+            style: nextStyle
+        }).addTo(mymap);
+        activeOpenFreeMapStyle = nextStyle;
+    }
+
+    setOpenFreeMapStyle();
+
+    new MutationObserver(setOpenFreeMapStyle).observe(document.body, {
+        attributes: true,
+        attributeFilter: ['class']
+    });
+
+    if (window.matchMedia) {
+        var darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        if (darkModeQuery.addEventListener) {
+            darkModeQuery.addEventListener('change', setOpenFreeMapStyle);
+        } else if (darkModeQuery.addListener) {
+            darkModeQuery.addListener(setOpenFreeMapStyle);
+        }
+    }
 
     var jaxplaysMarker = L.ExtraMarkers.icon({
       icon: 'fa-theater-masks',
