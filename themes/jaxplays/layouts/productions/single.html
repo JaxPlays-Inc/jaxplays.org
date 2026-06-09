@@ -392,7 +392,7 @@
     </div>
     {{ end }}
 
-    {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
+    {{- partial "GAM-left-rail-1.html" (dict "margin" "4rem 0") -}}
 
     <!-- Updated sections for Cast, Crew, Understudies, and Orchestra -->
     {{ $site := .Site }}
@@ -661,9 +661,7 @@
         class="inline-flex flex-row link b dim br4 ph4 pv2 mv2 mh1 h2 black bg-yellow"><img
           src="/images/pencil-solid.svg" class="h1 ph2"></img> Edit Page</a>
     </div>
-    <div class="relative">
       {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-315px") -}}
-    </div>
   </article>
 
 </div>
