@@ -197,59 +197,6 @@
 
         <div class="production-details-side">
 
-      {{ range $index, $venue := $venues }}
-      {{ $venueurl := $venue }}
-      {{ $venueurl = replaceRE " & " "-and-" $venueurl }}
-      {{ $venueurl = replaceRE " " "-" $venueurl }}
-      {{ $venueurl = replaceRE "\\." "" $venueurl }}
-      {{ $venueurl = $venueurl | urlize }}
-      {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
-      {{ if not $venuePage }}
-      {{ range where $currentPage.Site.Pages "Section" "venues" }}
-      {{ if in .Params.venue_aliases $venue }}
-      {{ $venuePage = . }}
-      {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ $venueBuilding := "" }}
-      {{ $venueAddress := "" }}
-      {{ $venueLatitude := "" }}
-      {{ $venueLongitude := "" }}
-      {{ if $venuePage }}
-      {{ $venueBuilding = $venuePage.Params.building }}
-      {{ $venueAddress = $venuePage.Params.address }}
-      {{ $venueLatitude = $venuePage.Params.latitude }}
-      {{ $venueLongitude = $venuePage.Params.longitude }}
-      {{ end }}
-
-      <section class="production-detail-card production-detail-card--venue bg-white ba b--black-10">
-        <div class="production-venue-copy pa3">
-          <div class="production-detail-label">
-            {{ if gt (len $venues) 1 }}{{ printf "Venue %d" (add $index 1) }}{{ else }}Venue{{ end }}
-          </div>
-          <a class="production-venue-name" href="/venues/{{ $venueurl }}">
-            {{ with $venueBuilding }}<span>{{ . }}</span>{{ end }}
-            {{ $venue }}
-          </a>
-          {{ with $venueAddress }}
-          <address>{{ . | replaceRE "\n" "<br />" | safeHTML }}</address>
-          <ul class="production-map-links list pl0">
-            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
-            <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze</a></li>
-          </ul>
-          {{ end }}
-        </div>
-        {{ if and $venueLatitude $venueLongitude }}
-        <div class="production-venue-map">
-          {{ partial "leaflet.html" (dict "Latitude" $venueLatitude "Longitude"
-          $venueLongitude "Title" $venue "Address" $venueAddress "id" $index) }}
-        </div>
-        {{ end }}
-      </section>
-      {{ end }}
-
       {{ if .Params.showtimes }}
       <section id="showtimes-section" class="production-showtimes-panel bg-washed-yellow ba b--black-10 mt3 pa3" hidden>
         <h4>Showtimes</h4>
@@ -366,6 +313,59 @@
       {{ end }}
         </div>
       </div>
+
+      {{ range $index, $venue := $venues }}
+      {{ $venueurl := $venue }}
+      {{ $venueurl = replaceRE " & " "-and-" $venueurl }}
+      {{ $venueurl = replaceRE " " "-" $venueurl }}
+      {{ $venueurl = replaceRE "\\." "" $venueurl }}
+      {{ $venueurl = $venueurl | urlize }}
+      {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
+      {{ if not $venuePage }}
+      {{ range where $currentPage.Site.Pages "Section" "venues" }}
+      {{ if in .Params.venue_aliases $venue }}
+      {{ $venuePage = . }}
+      {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ $venueBuilding := "" }}
+      {{ $venueAddress := "" }}
+      {{ $venueLatitude := "" }}
+      {{ $venueLongitude := "" }}
+      {{ if $venuePage }}
+      {{ $venueBuilding = $venuePage.Params.building }}
+      {{ $venueAddress = $venuePage.Params.address }}
+      {{ $venueLatitude = $venuePage.Params.latitude }}
+      {{ $venueLongitude = $venuePage.Params.longitude }}
+      {{ end }}
+
+      <section class="production-detail-card production-detail-card--venue bg-white ba b--black-10 mt3">
+        <div class="production-venue-copy pa3">
+          <div class="production-detail-label">
+            {{ if gt (len $venues) 1 }}{{ printf "Venue %d" (add $index 1) }}{{ else }}Venue{{ end }}
+          </div>
+          <a class="production-venue-name" href="/venues/{{ $venueurl }}">
+            {{ with $venueBuilding }}<span>{{ . }}</span>{{ end }}
+            {{ $venue }}
+          </a>
+          {{ with $venueAddress }}
+          <address>{{ . | replaceRE "\n" "<br />" | safeHTML }}</address>
+          <ul class="production-map-links list pl0">
+            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+            <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze</a></li>
+          </ul>
+          {{ end }}
+        </div>
+        {{ if and $venueLatitude $venueLongitude }}
+        <div class="production-venue-map">
+          {{ partial "leaflet.html" (dict "Latitude" $venueLatitude "Longitude"
+          $venueLongitude "Title" $venue "Address" $venueAddress "id" $index) }}
+        </div>
+        {{ end }}
+      </section>
+      {{ end }}
     </div>
 
     <!-- Synopsis -->
