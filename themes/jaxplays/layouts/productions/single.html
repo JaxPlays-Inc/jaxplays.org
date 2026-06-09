@@ -32,7 +32,7 @@
 {{ $description = $description | markdownify | safeHTML }}
 {{ end }}
 <div class="flex-l mt0 mw8 center">
-  <article class="relative center cf pv4 ph3 ph4-ns mw8 w-100">
+  <article class="production-single relative center cf pv4 ph3 ph4-ns mw8 w-100">
     <header class="relative">
       <h1 class="f3 f2-l f1-m mb0">
         {{ .Title }}
@@ -141,34 +141,58 @@
     {{ end }}
     {{ end }}
 
-    <div class="nested-copy-line-height lh-copy f4-ns f5 mb4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <div class="production-details nested-copy-line-height lh-copy f5 mb4 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Details</h3>
-      {{ with .Params.year }}<div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Year</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">{{ . }}</div>
-      </div>{{ end }}
-      {{ with .Params.theatre }}
-      <div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">
-          {{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}
+      {{ $currentPage := . }}
+      {{ $venues := .Params.venue }}
+      {{ if eq (printf "%T" $venues) "string" }}
+      {{ $venues = slice $venues }}
+      {{ end }}
+      {{ $startDate := "" }}
+      {{ $closingDate := "" }}
+      {{ if and .Params.opening_date .Params.closing_date }}
+      {{ $startDate = time .Params.opening_date }}
+      {{ $closingDate = time .Params.closing_date }}
+      {{ end }}
+
+      <div class="production-details-grid">
+        {{ with .Params.year }}
+        <div class="production-detail-card production-detail-card--fact">
+          <div class="production-detail-label">Year</div>
+          <div class="production-detail-value">{{ . }}</div>
         </div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-          <a href="/theatres/{{ . | replaceRE " \\." "" | replaceRE "&" "and" | urlize }}">
-            {{ . }}
-          </a>
+        {{ end }}
+
+        {{ with .Params.theatre }}
+        <div class="production-detail-card production-detail-card--fact">
+          <div class="production-detail-label">{{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}</div>
+          <div class="production-detail-value">
+            <a href="/theatres/{{ . | replaceRE " \\." "" | replaceRE "&" "and" | urlize }}">{{ . }}</a>
+          </div>
         </div>
+        {{ end }}
+
+        {{ if and $startDate $closingDate }}
+        <div class="production-detail-card production-detail-card--fact">
+          <div class="production-detail-label">Dates</div>
+          <div class="production-detail-value">
+            <span class="db">{{ $startDate.Format "Jan. 2, 2006" }} - {{ $closingDate.Format "Jan. 2, 2006" }}</span>
+            {{ if .Params.showtimes }}
+            <button type="button" class="production-showtimes-toggle" aria-expanded="false" aria-controls="showtimes-section">
+              Show all showtimes
+            </button>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .Params.website }}
+        <div class="production-detail-card production-detail-card--fact">
+          <div class="production-detail-label">Website</div>
+          <div class="production-detail-value"><a href="{{ . }}" target="_blank">Official web page</a></div>
+        </div>
+        {{ end }}
       </div>
-      {{ end }}
-
-
-
-      <!-- Venues -->
-      {{ $currentPage := . }} <!-- Capture the current page context -->
-      {{ $venues := .Params.venue }} <!-- Get the venue(s) -->
-
-      {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-      {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
-      {{ end }}
 
       {{ range $index, $venue := $venues }}
       {{ $venueurl := $venue }}
@@ -177,150 +201,121 @@
       {{ $venueurl = replaceRE "\\." "" $venueurl }}
       {{ $venueurl = $venueurl | urlize }}
       {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $venueurl) }}
-      {{ $displayVenue := $venue }}
       {{ if not $venuePage }}
       {{ range where $currentPage.Site.Pages "Section" "venues" }}
       {{ if in .Params.venue_aliases $venue }}
       {{ $venuePage = . }}
       {{ $venueurl = .Title | urlize | replaceRE "\\." "" }}
-      {{ $displayVenue = $venue }}
       {{ end }}
       {{ end }}
+      {{ end }}
+      {{ $venueBuilding := "" }}
+      {{ $venueAddress := "" }}
+      {{ $venueLatitude := "" }}
+      {{ $venueLongitude := "" }}
+      {{ if $venuePage }}
+      {{ $venueBuilding = $venuePage.Params.building }}
+      {{ $venueAddress = $venuePage.Params.address }}
+      {{ $venueLatitude = $venuePage.Params.latitude }}
+      {{ $venueLongitude = $venuePage.Params.longitude }}
       {{ end }}
 
-      <!-- Now use $displayVenue wherever you used to use $venue for display -->
-
-      <div class="flex flex-column flex-row-ns">
-        <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
-          <div class="w-25 w-100-ns b mb2">
-            {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-            {{ printf "Venue %d" (add $index 1) }} <!-- Print "Venue 2", "Venue 3", etc. -->
-            {{ else }}
-            Venue
-            {{ end }}
+      <section class="production-detail-card production-detail-card--venue">
+        <div class="production-venue-copy">
+          <div class="production-detail-label">
+            {{ if gt (len $venues) 1 }}{{ printf "Venue %d" (add $index 1) }}{{ else }}Venue{{ end }}
           </div>
-          <div class="w-75 w-100-ns ph1 ph0-ns">
-            <a class="b db mb3" href="/venues/{{ $venueurl }}">{{ with $venuePage.Params.building }}<span>{{ . }}</span><br/>{{ end }}{{ $venue }}</a>
-            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-            <!-- Use the captured page context -->
-            {{ with $venuePage.Params.address }} <!-- Access the 'Address' parameter -->
-            {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-            <a href="#showHideMap" class="db dn-ns mv3">Show Maps</a>
-            <ul class="venuemaps db-ns dn map_links list mv1 pl0">
-              <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-              <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
-              <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze Maps</a></li>
-            </ul>
-            {{ end }}
-          </div>
+          <a class="production-venue-name" href="/venues/{{ $venueurl }}">
+            {{ with $venueBuilding }}<span>{{ . }}</span>{{ end }}
+            {{ $venue }}
+          </a>
+          {{ with $venueAddress }}
+          <address>{{ . | replaceRE "\n" "<br />" | safeHTML }}</address>
+          <ul class="production-map-links list pl0">
+            <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+            <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE " %0A" "%20" }}">Apple Maps</a></li>
+            <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE " %0A" "%20" }}">Waze</a></li>
+          </ul>
+          {{ end }}
         </div>
-        <div class="venuemaps db-ns dn w-100 w-60-m w-75-l pa3-ns pv4 bb bw1 b--silver">
-          <!-- Venue Map Section -->
-          <div class="w-100 flex flex-column items-center justify-start">
-            {{ if and $venuePage.Params.latitude $venuePage.Params.longitude }}
-            {{ $venuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" ($venueurl)) }}
-            {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.latitude "Longitude"
-            $venuePage.Params.longitude "Title" $venue "Address" $venuePage.Params.address "id" $index) }}
-            {{ end }}
-          </div>
+        {{ if and $venueLatitude $venueLongitude }}
+        <div class="production-venue-map">
+          {{ partial "leaflet.html" (dict "Latitude" $venueLatitude "Longitude"
+          $venueLongitude "Title" $venue "Address" $venueAddress "id" $index) }}
         </div>
-
-      </div>
+        {{ end }}
+      </section>
       {{ end }}
 
-
-      <!-- Dates Section -->
-      {{ if and .Params.opening_date .Params.closing_date }}
-      <div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Dates</div>
-        {{ $startDate := time .Params.opening_date }} <!-- Adjusted to use opening_date -->
-        {{ $closingDate := time .Params.closing_date }}
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
-          {{ $startDate.Format "Monday, January 2, 2006" }} — <br />
-          {{ $closingDate.Format "Monday, January 2, 2006" }}
-          <!-- Call to action for showtimes -->
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="db db-m dn-ns mt1">Tap
-            here to see all showtimes...</a>
-          <a href="javascript:void(0);" onclick="toggleShowtimes()" id="showtimes-toggle" class="dn db-l mt1">Click here
-            to see all showtimes...</a>
-        </div>
-      </div>
-      {{ end }}
-
-      <!-- If showtimes exist -->
       {{ if .Params.showtimes }}
-      <div id="showtimes-section" class="dn">
-        <div class="flex flex-wrap  bb bw1 b--silver">
-          <div class="w-25-ns w-100 b pa3-ns pa2">
-            Showtimes
-          </div>
-          <div class="w-75-ns w-100 pa3-ns pa2">
-            {{ $showtimesHaveVenue := false }}
-            {{ range .Params.showtimes }}
-              {{ if and (in (printf "%T" .) "map") (index . "venue") }}
-                {{ $showtimesHaveVenue = true }}
-              {{ end }}
+      <section id="showtimes-section" class="production-showtimes-panel" hidden>
+        <h4>Showtimes</h4>
+        <div class="production-showtimes-list">
+          {{ $showtimesHaveVenue := false }}
+          {{ range .Params.showtimes }}
+            {{ if and (in (printf "%T" .) "map") (index . "venue") }}
+              {{ $showtimesHaveVenue = true }}
             {{ end }}
-            {{ range .Params.showtimes }} <!-- Iterate over the showtimes -->
-            {{ $showtimeDateTime := . }}
-            {{ $showtimeVenue := "" }}
-            {{ if in (printf "%T" .) "map" }}
-              {{ $showtimeDateTime = index . "datetime" }}
-              {{ $showtimeVenue = index . "venue" | default "" }}
-            {{ end }}
-            {{ $showtime := time $showtimeDateTime }} <!-- Convert each showtime to a Hugo time object -->
-            <div class="flex flex-wrap mb2 space-between">
-              <div class="{{ if $showtimesHaveVenue }}w-100 w-40-l{{ else }}w-75 w-50-l{{ end }} bb bw.5 b--light-silver">{{ $showtime.Format "Monday, January 2, 2006" }}</div>
-              <!-- Date column -->
-              <div class="{{ if $showtimesHaveVenue }}w-40 w-20-l{{ else }}w-25 w-50-l{{ end }} bb bw.5 b--light-silver">
-                {{ $formattedTime := $showtime.Format "3:04 PM" }}
-                {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
-                {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
-                {{ $formattedTime }}
-              </div>
-              <!-- Time column -->
-              {{ if $showtimesHaveVenue }}
-              <div class="w-60 w-40-l bb bw.5 b--light-silver">
-                {{ with $showtimeVenue }}
-                  {{ $showtimeVenueURL := . }}
-                  {{ $showtimeVenueURL = replaceRE " & " "-and-" $showtimeVenueURL }}
-                  {{ $showtimeVenueURL = replaceRE " " "-" $showtimeVenueURL }}
-                  {{ $showtimeVenueURL = replaceRE "\\." "" $showtimeVenueURL }}
-                  {{ $showtimeVenueURL = $showtimeVenueURL | urlize }}
-                  {{ $showtimeVenuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $showtimeVenueURL) }}
-                  {{ if not $showtimeVenuePage }}
-                    {{ range where $currentPage.Site.Pages "Section" "venues" }}
-                      {{ if in .Params.venue_aliases $showtimeVenue }}
-                        {{ $showtimeVenuePage = . }}
-                        {{ $showtimeVenueURL = .Title | urlize | replaceRE "\\." "" }}
-                      {{ end }}
+          {{ end }}
+          {{ range .Params.showtimes }}
+          {{ $showtimeDateTime := . }}
+          {{ $showtimeVenue := "" }}
+          {{ if in (printf "%T" .) "map" }}
+            {{ $showtimeDateTime = index . "datetime" }}
+            {{ $showtimeVenue = index . "venue" | default "" }}
+          {{ end }}
+          {{ $showtime := time $showtimeDateTime }}
+          <div class="production-showtime-row">
+            <time datetime="{{ $showtime.Format "2006-01-02T15:04:05" }}">
+              <span>{{ $showtime.Format "Mon., Jan. 2" }}</span>
+              {{ $formattedTime := $showtime.Format "3:04 PM" }}
+              {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
+              {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
+              <strong>{{ $formattedTime }}</strong>
+            </time>
+            {{ if $showtimesHaveVenue }}
+            <div class="production-showtime-venue">
+              {{ with $showtimeVenue }}
+                {{ $showtimeVenueURL := . }}
+                {{ $showtimeVenueURL = replaceRE " & " "-and-" $showtimeVenueURL }}
+                {{ $showtimeVenueURL = replaceRE " " "-" $showtimeVenueURL }}
+                {{ $showtimeVenueURL = replaceRE "\\." "" $showtimeVenueURL }}
+                {{ $showtimeVenueURL = $showtimeVenueURL | urlize }}
+                {{ $showtimeVenuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $showtimeVenueURL) }}
+                {{ if not $showtimeVenuePage }}
+                  {{ range where $currentPage.Site.Pages "Section" "venues" }}
+                    {{ if in .Params.venue_aliases $showtimeVenue }}
+                      {{ $showtimeVenuePage = . }}
+                      {{ $showtimeVenueURL = .Title | urlize | replaceRE "\\." "" }}
                     {{ end }}
                   {{ end }}
-                  <a href="/venues/{{ $showtimeVenueURL }}">{{ . }}</a>
                 {{ end }}
-              </div>
+                <a href="/venues/{{ $showtimeVenueURL }}">{{ . }}</a>
               {{ end }}
             </div>
             {{ end }}
           </div>
+          {{ end }}
         </div>
-      </div>
+      </section>
       <script>
-        function toggleShowtimes() {
+        document.addEventListener('DOMContentLoaded', function () {
+          var toggle = document.querySelector('.production-showtimes-toggle');
           var section = document.getElementById('showtimes-section');
-          if (section.style.display === 'none' || section.style.display === '') {
-            section.style.display = 'block';
-          } else {
-            section.style.display = 'none';
+
+          if (!toggle || !section) {
+            return;
           }
-        }
+
+          toggle.addEventListener('click', function () {
+            var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!isExpanded));
+            toggle.textContent = isExpanded ? 'Show all showtimes' : 'Hide showtimes';
+            section.hidden = isExpanded;
+          });
+        });
       </script>
       {{ end }}
-
-      {{ with .Params.website }}<div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">Website</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver"><a href="{{ . }}" target="_blank">Official web page</a></div>
-      </div>{{ end }}
 
       <!-- Show Details -->
       {{ $showDetails := .Params.show_details }}
@@ -334,12 +329,13 @@
       {{ end }}
 
       {{ if $showDetails }}
+      <div class="production-detail-card production-detail-card--show">
       {{ range $showDetail := $showDetails }}
       {{ range $key, $value := $showDetail }}
       {{ if $value }}
-      <div class="flex">
-        <div class="w-25 b pa3-ns pa2 bb bw1 b--silver">{{ $key }}</div>
-        <div class="w-75 pa3-ns pa2 bb bw1 b--silver">
+      <div class="production-show-detail-row">
+        <div class="production-detail-label">{{ $key }}</div>
+        <div class="production-detail-value">
           {{ if or (eq $key "Website") (eq $key "website") }}
           <a href="{{ $value }}" target="_blank" class="i">{{ $.Title }}</a>
           {{ else }}
@@ -363,6 +359,7 @@
       {{ end }}
       {{ end }}
       {{ end }}
+      </div>
       {{ end }}
     </div>
 

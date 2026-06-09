@@ -107,6 +107,169 @@ h1 a.jaxplayslogo {
 	margin-block-start: 0;
 }
 
+.production-single .production-details {
+	font-size: 1rem;
+}
+
+.production-single .production-details-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+	gap: .75rem;
+	margin-bottom: .75rem;
+}
+
+.production-single .production-detail-card {
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, .12);
+	border-radius: .5rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+}
+
+.production-single .production-detail-card--fact {
+	padding: .85rem 1rem;
+}
+
+.production-single .production-detail-label {
+	color: #555;
+	font-size: .72rem;
+	font-weight: 700;
+	letter-spacing: .08em;
+	margin-bottom: .25rem;
+	text-transform: uppercase;
+}
+
+.production-single .production-detail-value {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.production-single .production-detail-value a,
+.production-single .production-venue-name {
+	font-weight: 700;
+}
+
+.production-single .production-showtimes-toggle {
+	background: transparent;
+	border: 0;
+	color: var(--jaxplays-red);
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	margin: .45rem 0 0;
+	padding: 0;
+	text-align: left;
+}
+
+.production-single .production-showtimes-toggle:hover,
+.production-single .production-showtimes-toggle:focus {
+	text-decoration: underline;
+}
+
+.production-single .production-detail-card--venue {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: minmax(13rem, .9fr) minmax(18rem, 1.1fr);
+	margin-top: .75rem;
+	overflow: hidden;
+}
+
+.production-single .production-venue-copy {
+	padding: 1rem;
+}
+
+.production-single .production-venue-name {
+	display: block;
+	font-size: 1.1rem;
+	line-height: 1.25;
+	margin-bottom: .65rem;
+}
+
+.production-single .production-venue-name span {
+	display: block;
+	font-size: .9rem;
+	font-weight: 600;
+}
+
+.production-single .production-venue-copy address {
+	color: #333;
+	font-style: normal;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.production-single .production-map-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .35rem .85rem;
+	font-size: .9rem;
+	margin: .75rem 0 0;
+}
+
+.production-single .production-venue-map {
+	min-height: 12rem;
+	overflow: hidden;
+}
+
+.production-single .production-venue-map > *,
+.production-single .production-venue-map .leaflet-container {
+	height: 100%;
+	min-height: 12rem;
+}
+
+.production-single .production-showtimes-panel {
+	background: #fffaf0;
+	border: 1px solid rgba(0, 0, 0, .12);
+	border-radius: .5rem;
+	margin-top: .75rem;
+	padding: 1rem;
+}
+
+.production-single .production-showtimes-panel h4 {
+	font-size: 1rem;
+	margin: 0 0 .75rem;
+}
+
+.production-single .production-showtimes-list {
+	display: grid;
+	gap: .4rem;
+	grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+}
+
+.production-single .production-showtime-row {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	display: flex;
+	gap: .5rem;
+	justify-content: space-between;
+	padding: .35rem 0;
+}
+
+.production-single .production-showtime-row time {
+	display: flex;
+	gap: .5rem;
+}
+
+.production-single .production-showtime-row time strong {
+	white-space: nowrap;
+}
+
+.production-single .production-detail-card--show {
+	margin-top: .75rem;
+	padding: .35rem 1rem;
+}
+
+.production-single .production-show-detail-row {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	display: grid;
+	gap: .75rem;
+	grid-template-columns: minmax(8rem, .45fr) minmax(0, 1fr);
+	padding: .75rem 0;
+}
+
+.production-single .production-show-detail-row:last-child {
+	border-bottom: 0;
+}
+
 /* Splide style overrides */
 .splide__arrow svg,
 .splide__pagination__page:hover svg,
@@ -169,6 +332,16 @@ h1 a.jaxplayslogo {
 	}
 }
 
+@media (max-width: 55em) {
+	.production-single .production-detail-card--venue {
+		grid-template-columns: 1fr;
+	}
+
+	.production-single .production-venue-map {
+		min-height: 11rem;
+	}
+}
+
 
 @media (max-width: 30em) {
 	h2 {
@@ -177,5 +350,19 @@ h1 a.jaxplayslogo {
 
 	.jaxplayslogo {
 		font-size: 7.5vw;
+	}
+
+	.production-single .production-detail-card--venue,
+	.production-single .production-show-detail-row {
+		grid-template-columns: 1fr;
+	}
+
+	.production-single .production-venue-map {
+		min-height: 10rem;
+	}
+
+	.production-single .production-venue-map > *,
+	.production-single .production-venue-map .leaflet-container {
+		min-height: 10rem;
 	}
 }
