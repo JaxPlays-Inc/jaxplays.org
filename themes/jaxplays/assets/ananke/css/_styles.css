@@ -118,17 +118,6 @@ h1 a.jaxplayslogo {
 	margin-bottom: .75rem;
 }
 
-.production-single .production-detail-card {
-	background: #fff;
-	border: 1px solid rgba(0, 0, 0, .12);
-	border-radius: .5rem;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
-}
-
-.production-single .production-detail-card--fact {
-	padding: .85rem 1rem;
-}
-
 .production-single .production-detail-label {
 	color: #555;
 	font-size: .72rem;
@@ -170,12 +159,7 @@ h1 a.jaxplayslogo {
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: minmax(13rem, .9fr) minmax(18rem, 1.1fr);
-	margin-top: .75rem;
 	overflow: hidden;
-}
-
-.production-single .production-venue-copy {
-	padding: 1rem;
 }
 
 .production-single .production-venue-name {
@@ -217,14 +201,6 @@ h1 a.jaxplayslogo {
 	min-height: 12rem;
 }
 
-.production-single .production-showtimes-panel {
-	background: #fffaf0;
-	border: 1px solid rgba(0, 0, 0, .12);
-	border-radius: .5rem;
-	margin-top: .75rem;
-	padding: 1rem;
-}
-
 .production-single .production-showtimes-panel h4 {
 	font-size: 1rem;
 	margin: 0 0 .75rem;
@@ -251,11 +227,6 @@ h1 a.jaxplayslogo {
 
 .production-single .production-showtime-row time strong {
 	white-space: nowrap;
-}
-
-.production-single .production-detail-card--show {
-	margin-top: .75rem;
-	padding: .35rem 1rem;
 }
 
 .production-single .production-show-detail-row {

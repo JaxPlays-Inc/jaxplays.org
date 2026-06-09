@@ -157,14 +157,14 @@
 
       <div class="production-details-grid">
         {{ with .Params.year }}
-        <div class="production-detail-card production-detail-card--fact">
+        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
           <div class="production-detail-label">Year</div>
           <div class="production-detail-value">{{ . }}</div>
         </div>
         {{ end }}
 
         {{ with .Params.theatre }}
-        <div class="production-detail-card production-detail-card--fact">
+        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
           <div class="production-detail-label">{{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}</div>
           <div class="production-detail-value">
             <a href="/theatres/{{ . | replaceRE " \\." "" | replaceRE "&" "and" | urlize }}">{{ . }}</a>
@@ -173,7 +173,7 @@
         {{ end }}
 
         {{ if and $startDate $closingDate }}
-        <div class="production-detail-card production-detail-card--fact">
+        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
           <div class="production-detail-label">Dates</div>
           <div class="production-detail-value">
             <span class="db">{{ $startDate.Format "Jan. 2, 2006" }} - {{ $closingDate.Format "Jan. 2, 2006" }}</span>
@@ -187,9 +187,9 @@
         {{ end }}
 
         {{ with .Params.website }}
-        <div class="production-detail-card production-detail-card--fact">
-          <div class="production-detail-label">Website</div>
-          <div class="production-detail-value"><a href="{{ . }}" target="_blank">Official web page</a></div>
+        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
+          <div class="production-detail-label">Production Website</div>
+          <div class="production-detail-value"><a href="{{ . }}" target="_blank">Production web page</a></div>
         </div>
         {{ end }}
       </div>
@@ -220,8 +220,8 @@
       {{ $venueLongitude = $venuePage.Params.longitude }}
       {{ end }}
 
-      <section class="production-detail-card production-detail-card--venue">
-        <div class="production-venue-copy">
+      <section class="production-detail-card production-detail-card--venue bg-white ba b--black-10 mt3">
+        <div class="production-venue-copy pa3">
           <div class="production-detail-label">
             {{ if gt (len $venues) 1 }}{{ printf "Venue %d" (add $index 1) }}{{ else }}Venue{{ end }}
           </div>
@@ -248,7 +248,7 @@
       {{ end }}
 
       {{ if .Params.showtimes }}
-      <section id="showtimes-section" class="production-showtimes-panel" hidden>
+      <section id="showtimes-section" class="production-showtimes-panel bg-washed-yellow ba b--black-10 mt3 pa3" hidden>
         <h4>Showtimes</h4>
         <div class="production-showtimes-list">
           {{ $showtimesHaveVenue := false }}
@@ -329,7 +329,7 @@
       {{ end }}
 
       {{ if $showDetails }}
-      <div class="production-detail-card production-detail-card--show">
+      <div class="production-detail-card production-detail-card--show bg-white ba b--black-10 mt3 pa3">
       {{ range $showDetail := $showDetails }}
       {{ range $key, $value := $showDetail }}
       {{ if $value }}
