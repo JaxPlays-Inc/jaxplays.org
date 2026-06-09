@@ -156,6 +156,7 @@
       {{ end }}
 
       <div class="production-details-grid">
+        <div class="production-details-facts">
         {{ with .Params.year }}
         <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
           <div class="production-detail-label">Year</div>
@@ -192,7 +193,9 @@
           <div class="production-detail-value"><a href="{{ . }}" target="_blank">Production page</a></div>
         </div>
         {{ end }}
-      </div>
+        </div>
+
+        <div class="production-details-side">
 
       {{ range $index, $venue := $venues }}
       {{ $venueurl := $venue }}
@@ -220,7 +223,7 @@
       {{ $venueLongitude = $venuePage.Params.longitude }}
       {{ end }}
 
-      <section class="production-detail-card production-detail-card--venue bg-white ba b--black-10 mt3">
+      <section class="production-detail-card production-detail-card--venue bg-white ba b--black-10">
         <div class="production-venue-copy pa3">
           <div class="production-detail-label">
             {{ if gt (len $venues) 1 }}{{ printf "Venue %d" (add $index 1) }}{{ else }}Venue{{ end }}
@@ -361,6 +364,8 @@
       {{ end }}
       </div>
       {{ end }}
+        </div>
+      </div>
     </div>
 
     <!-- Synopsis -->
