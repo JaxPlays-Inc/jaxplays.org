@@ -40,7 +40,7 @@ cast:
   - Mr. Twimble / Tackaberry: Bryan Morris
   - Gatch: Skanda (AJ) Pratheek
   - Miss Krumholtz: Savannah Haddock
-  - Matthews / Policeman: Joel Silversten
+  - Matthews / Policeman: Joel Silverstein
   - Peterson: Kai Thomas
   - Johnson: Andrew Eger
   - Davis: Lisa Hunt
@@ -54,6 +54,7 @@ cast:
       - Meg Mullaney
       - Camille Ziegler
       - Caragh Zeigler
+      - Juliana Williams
 understudies:
 crew:
   - Directors:
