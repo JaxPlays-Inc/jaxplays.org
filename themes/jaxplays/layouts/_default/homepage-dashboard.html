@@ -75,6 +75,7 @@
     max-width: 1180px;
     margin: 0 auto;
     padding: 4rem 1rem;
+    position: relative;
   }
 
   .home-dashboard-hero {
@@ -538,6 +539,7 @@
 
 <div class="home-dashboard">
   <div class="home-dashboard-shell">
+    {{- partial "GAM-left-rail-1.html" (dict "margin" "4rem 0") -}}
     <section class="home-dashboard-hero" aria-labelledby="home-dashboard-title">
       <div>
         <p class="home-dashboard-kicker">Northeast Florida & Southeast Georgia Theatre</p>
@@ -816,6 +818,7 @@
         <a class="home-dashboard-button home-dashboard-grow" href="/support/">Support JaxPlays</a>
       </div>
     </section>
+    {{- partial "GAM-right-rail-1.html" (dict "margin" "4rem 0" "right" "-345px") -}}
   </div>
 </div>
 {{ end }}
