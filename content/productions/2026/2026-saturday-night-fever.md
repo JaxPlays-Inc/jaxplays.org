@@ -60,7 +60,7 @@ website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1511&code=JAXPLAYS
 show_details:
-- '''Based on': 1977 film [[w:Saturday Night Fever]]'
+- 'Based on': 1977 film *[[w:Saturday Night Fever]]*
 cast: null
 crew: null
 orchestra: null

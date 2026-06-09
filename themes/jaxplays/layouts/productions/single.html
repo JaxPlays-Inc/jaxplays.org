@@ -156,16 +156,16 @@
       {{ end }}
 
       <div class="production-details-grid">
-        <div class="production-details-facts">
+        <div class="production-details-facts production-detail-card bg-white ba b--black-10 pa3">
         {{ with .Params.year }}
-        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
+        <div class="production-show-detail-row">
           <div class="production-detail-label">Year</div>
           <div class="production-detail-value">{{ . }}</div>
         </div>
         {{ end }}
 
         {{ with .Params.theatre }}
-        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
+        <div class="production-show-detail-row">
           <div class="production-detail-label">{{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}</div>
           <div class="production-detail-value">
             <a href="/theatres/{{ . | replaceRE " \\." "" | replaceRE "&" "and" | urlize }}">{{ . }}</a>
@@ -173,8 +173,15 @@
         </div>
         {{ end }}
 
+        {{ with .Params.website }}
+        <div class="production-show-detail-row">
+          <div class="production-detail-label">Theatre Webpage</div>
+          <div class="production-detail-value"><a href="{{ . }}" target="_blank">Production page</a></div>
+        </div>
+        {{ end }}
+
         {{ if and $startDate $closingDate }}
-        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
+        <div class="production-show-detail-row">
           <div class="production-detail-label">Dates</div>
           <div class="production-detail-value">
             <span class="db">{{ $startDate.Format "Jan. 2, 2006" }} - {{ $closingDate.Format "Jan. 2, 2006" }}</span>
@@ -186,87 +193,9 @@
           </div>
         </div>
         {{ end }}
-
-        {{ with .Params.website }}
-        <div class="production-detail-card production-detail-card--fact bg-white ba b--black-10 pa3">
-          <div class="production-detail-label">Theatre Webpage</div>
-          <div class="production-detail-value"><a href="{{ . }}" target="_blank">Production page</a></div>
-        </div>
-        {{ end }}
         </div>
 
         <div class="production-details-side">
-
-      {{ if .Params.showtimes }}
-      <section id="showtimes-section" class="production-showtimes-panel bg-washed-yellow ba b--black-10 mt3 pa3" hidden>
-        <h4>Showtimes</h4>
-        <div class="production-showtimes-list">
-          {{ $showtimesHaveVenue := false }}
-          {{ range .Params.showtimes }}
-            {{ if and (in (printf "%T" .) "map") (index . "venue") }}
-              {{ $showtimesHaveVenue = true }}
-            {{ end }}
-          {{ end }}
-          {{ range .Params.showtimes }}
-          {{ $showtimeDateTime := . }}
-          {{ $showtimeVenue := "" }}
-          {{ if in (printf "%T" .) "map" }}
-            {{ $showtimeDateTime = index . "datetime" }}
-            {{ $showtimeVenue = index . "venue" | default "" }}
-          {{ end }}
-          {{ $showtime := time $showtimeDateTime }}
-          <div class="production-showtime-row">
-            <time datetime="{{ $showtime.Format "2006-01-02T15:04:05" }}">
-              <span>{{ $showtime.Format "Mon., Jan. 2" }}</span>
-              {{ $formattedTime := $showtime.Format "3:04 PM" }}
-              {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
-              {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
-              <strong>{{ $formattedTime }}</strong>
-            </time>
-            {{ if $showtimesHaveVenue }}
-            <div class="production-showtime-venue">
-              {{ with $showtimeVenue }}
-                {{ $showtimeVenueURL := . }}
-                {{ $showtimeVenueURL = replaceRE " & " "-and-" $showtimeVenueURL }}
-                {{ $showtimeVenueURL = replaceRE " " "-" $showtimeVenueURL }}
-                {{ $showtimeVenueURL = replaceRE "\\." "" $showtimeVenueURL }}
-                {{ $showtimeVenueURL = $showtimeVenueURL | urlize }}
-                {{ $showtimeVenuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $showtimeVenueURL) }}
-                {{ if not $showtimeVenuePage }}
-                  {{ range where $currentPage.Site.Pages "Section" "venues" }}
-                    {{ if in .Params.venue_aliases $showtimeVenue }}
-                      {{ $showtimeVenuePage = . }}
-                      {{ $showtimeVenueURL = .Title | urlize | replaceRE "\\." "" }}
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-                <a href="/venues/{{ $showtimeVenueURL }}">{{ . }}</a>
-              {{ end }}
-            </div>
-            {{ end }}
-          </div>
-          {{ end }}
-        </div>
-      </section>
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          var toggle = document.querySelector('.production-showtimes-toggle');
-          var section = document.getElementById('showtimes-section');
-
-          if (!toggle || !section) {
-            return;
-          }
-
-          toggle.addEventListener('click', function () {
-            var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-            toggle.setAttribute('aria-expanded', String(!isExpanded));
-            toggle.textContent = isExpanded ? 'Show all showtimes' : 'Hide showtimes';
-            section.hidden = isExpanded;
-          });
-        });
-      </script>
-      {{ end }}
-
       <!-- Show Details -->
       {{ $showDetails := .Params.show_details }}
 
@@ -279,7 +208,7 @@
       {{ end }}
 
       {{ if $showDetails }}
-      <div class="production-detail-card production-detail-card--show bg-white ba b--black-10 mt3 pa3">
+      <div class="production-detail-card production-detail-card--show bg-white ba b--black-10 pa3">
       {{ range $showDetail := $showDetails }}
       {{ range $key, $value := $showDetail }}
       {{ if $value }}
@@ -313,6 +242,92 @@
       {{ end }}
         </div>
       </div>
+
+      {{ if .Params.showtimes }}
+      <section id="showtimes-section" class="production-showtimes-panel bg-washed-yellow ba b--black-10 mt3 pa3" hidden>
+        <h4>Showtimes</h4>
+        <div class="production-showtimes-list">
+          {{ $showtimesHaveVenue := false }}
+          {{ range .Params.showtimes }}
+            {{ if and (in (printf "%T" .) "map") (index . "venue") }}
+              {{ $showtimesHaveVenue = true }}
+            {{ end }}
+          {{ end }}
+          {{ $weekdayOffsets := dict "Monday" 0 "Tuesday" 1 "Wednesday" 2 "Thursday" 3 "Friday" 4 "Saturday" 5 "Sunday" 6 }}
+          {{ $currentWeek := "" }}
+          {{ range .Params.showtimes }}
+          {{ $showtimeDateTime := . }}
+          {{ $showtimeVenue := "" }}
+          {{ if in (printf "%T" .) "map" }}
+            {{ $showtimeDateTime = index . "datetime" }}
+            {{ $showtimeVenue = index . "venue" | default "" }}
+          {{ end }}
+          {{ $showtime := time $showtimeDateTime }}
+          {{ $daysSinceMonday := index $weekdayOffsets ($showtime.Format "Monday") }}
+          {{ $weekStart := $showtime.AddDate 0 0 (mul -1 $daysSinceMonday) }}
+          {{ $weekEnd := $weekStart.AddDate 0 0 6 }}
+          {{ $weekKey := $weekStart.Format "2006-01-02" }}
+          {{ if ne $weekKey $currentWeek }}
+            {{ if $currentWeek }}
+            </div>
+            {{ end }}
+            <div class="production-showtimes-week mw6">
+            {{ $currentWeek = $weekKey }}
+          {{ end }}
+          <div class="production-showtime-row">
+            <time datetime="{{ $showtime.Format "2006-01-02T15:04:05" }}">
+              <span>{{ $showtime.Format "Monday, January 2" }}</span>
+              {{ $formattedTime := $showtime.Format "3:04 PM" }}
+              {{ $formattedTime = replace $formattedTime "AM" "a.m." }}
+              {{ $formattedTime = replace $formattedTime "PM" "p.m." }}
+              <strong>{{ $formattedTime }}</strong>
+            </time>
+            {{ if $showtimesHaveVenue }}
+            <div class="production-showtime-venue">
+              {{ with $showtimeVenue }}
+                {{ $showtimeVenueURL := . }}
+                {{ $showtimeVenueURL = replaceRE " & " "-and-" $showtimeVenueURL }}
+                {{ $showtimeVenueURL = replaceRE " " "-" $showtimeVenueURL }}
+                {{ $showtimeVenueURL = replaceRE "\\." "" $showtimeVenueURL }}
+                {{ $showtimeVenueURL = $showtimeVenueURL | urlize }}
+                {{ $showtimeVenuePage := $currentPage.Site.GetPage "page" (printf "/venues/%s" $showtimeVenueURL) }}
+                {{ if not $showtimeVenuePage }}
+                  {{ range where $currentPage.Site.Pages "Section" "venues" }}
+                    {{ if in .Params.venue_aliases $showtimeVenue }}
+                      {{ $showtimeVenuePage = . }}
+                      {{ $showtimeVenueURL = .Title | urlize | replaceRE "\\." "" }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                <a href="/venues/{{ $showtimeVenueURL }}">{{ . }}</a>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+          {{ if $currentWeek }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var toggle = document.querySelector('.production-showtimes-toggle');
+          var section = document.getElementById('showtimes-section');
+
+          if (!toggle || !section) {
+            return;
+          }
+
+          toggle.addEventListener('click', function () {
+            var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!isExpanded));
+            toggle.textContent = isExpanded ? 'Show all showtimes' : 'Hide showtimes';
+            section.hidden = isExpanded;
+          });
+        });
+      </script>
+      {{ end }}
 
       {{ range $index, $venue := $venues }}
       {{ $venueurl := $venue }}

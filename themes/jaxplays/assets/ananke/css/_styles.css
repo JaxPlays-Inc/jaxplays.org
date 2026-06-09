@@ -118,13 +118,6 @@ h1 a.jaxplayslogo {
 	margin-bottom: .75rem;
 }
 
-.production-single .production-details-facts {
-	align-content: start;
-	display: grid;
-	gap: .75rem;
-	grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-}
-
 .production-single .production-detail-label {
 	color: #555;
 	font-size: .72rem;
@@ -214,9 +207,18 @@ h1 a.jaxplayslogo {
 }
 
 .production-single .production-showtimes-list {
+	align-items: start;
 	display: grid;
-	gap: .4rem;
-	grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	gap: 1.6rem;
+	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.production-single .production-showtimes-week-title {
+	color: #555;
+	font-size: .78rem;
+	letter-spacing: .08em;
+	margin: 0 0 .35rem;
+	text-transform: uppercase;
 }
 
 .production-single .production-showtime-row {
@@ -228,11 +230,19 @@ h1 a.jaxplayslogo {
 }
 
 .production-single .production-showtime-row time {
-	display: flex;
-	gap: .5rem;
+	align-items: baseline;
+	display: grid;
+	gap: .75rem;
+	grid-template-columns: max-content auto;
+	width: 100%;
+}
+
+.production-single .production-showtime-row time span {
+	white-space: nowrap;
 }
 
 .production-single .production-showtime-row time strong {
+	justify-self: end;
 	white-space: nowrap;
 }
 
