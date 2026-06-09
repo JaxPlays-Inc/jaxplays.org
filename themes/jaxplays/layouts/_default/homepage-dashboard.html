@@ -633,7 +633,8 @@
       <a class="home-dashboard-section-more" href="/calendar/opening-nights/">Opening nights</a>
     </section>
 
-    <section class="home-dashboard-section" aria-labelledby="home-dashboard-reviews">
+    <section class="home-dashboard-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-reviews">
+      {{- partial "GAM-left-rail-2.html" (dict "margin" "3.8rem 0") -}}
       <div class="home-dashboard-section-head">
         <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
       </div>
@@ -661,11 +662,12 @@
         {{ end }}
       </div>
       <a class="home-dashboard-section-more" href="/reviews/">More reviews</a>
+      {{- partial "GAM-right-rail-2.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
     </section>
 
     <section class="home-dashboard-section" aria-labelledby="home-dashboard-archive">
       <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-archive">Explore the Archive</h2>
+        <h2 id="home-dashboard-archive" class="home-dashboard-section-title-link">Explore the Archive</h2>
       </div>
       <div class="home-dashboard-archive">
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/productions/">
