@@ -1,5 +1,5 @@
 .dark-mode,
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
 	background-color: #000;
 }
 
@@ -10,7 +10,7 @@
 .dark-mode .blindlink:visited,
 .dark-mode .om-text,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
 {
 	color: #fff !important;
 }
@@ -252,6 +252,87 @@
 .dark-mode .theatres-directory-badge--closed {
 	background-color: #000;
 	border: 1px solid #6f7783;
+}
+
+.dark-mode .productions-directory,
+.dark-mode .productions-directory * {
+	background-color: transparent;
+}
+
+.dark-mode .productions-directory {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
+	background-color: var(--jp-paper);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .productions-directory a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .productions-directory-hero {
+	border-bottom-color: var(--jp-line);
+}
+
+.dark-mode .productions-directory-kicker,
+.dark-mode .productions-directory-section-eyebrow {
+	color: var(--jp-gold) !important;
+}
+
+.dark-mode .productions-directory-subtitle,
+.dark-mode .productions-directory-stats span span,
+.dark-mode .productions-directory-filter-status,
+.dark-mode .productions-directory-empty,
+.dark-mode .productions-directory-count,
+.dark-mode .productions-directory-meta,
+.dark-mode .productions-directory-summary {
+	color: var(--jp-muted) !important;
+}
+
+.dark-mode .productions-directory-panel,
+.dark-mode .productions-directory-stats > span,
+.dark-mode .productions-directory-card,
+.dark-mode .productions-directory-empty {
+	background-color: var(--jp-cream);
+	border-color: var(--jp-line);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .productions-directory-filter {
+	background-color: #24272d;
+	border-color: #d8c65d;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .productions-directory-filter::placeholder {
+	color: #9f9788;
+	opacity: 1;
+}
+
+.dark-mode .productions-directory-poster-link {
+	background-color: #000;
+	border-right-color: var(--jp-line);
+}
+
+.dark-mode .productions-directory-badge {
+	background-color: var(--jp-teal);
+	color: #fff !important;
+}
+
+.dark-mode .productions-directory .home-dashboard-badge.red {
+	background-color: var(--jp-red);
+	color: #fff !important;
+}
+
+.dark-mode .productions-directory-badge--genre {
+	background-color: var(--jp-gold);
+	color: #171717 !important;
 }
 
 #dark-mode-toggle {

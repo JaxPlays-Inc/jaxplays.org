@@ -62,8 +62,8 @@ a ::selection {
 	background-repeat: no-repeat;
 	background-position: top;
 	display: flex;
-	min-width: 80px;
-	min-height: 48px;
+	min-width: 75px;
+	min-height: 45px;
 }
 
 .givebutter-maxwidth {
@@ -762,6 +762,7 @@ h1 a.jaxplayslogo {
 .theatres-directory-section-head {
 	align-items: end;
 	display: flex;
+	flex-wrap: wrap;
 	gap: 1rem;
 	justify-content: space-between;
 	margin-bottom: .9rem;
@@ -942,6 +943,375 @@ h1 a.jaxplayslogo {
 	background: var(--jp-gold);
 }
 
+.productions-directory {
+	--jp-ink: #171717;
+	--jp-muted: #5f6670;
+	--jp-line: #d7d2c8;
+	--jp-paper: #f4f4f4;
+	--jp-cream: #f6f0e3;
+	--jp-gold: #ffd600;
+	--jp-red: #b7332f;
+	--jp-teal: #18736b;
+	--jp-blue: #28466f;
+	background: var(--jp-paper);
+	color: var(--jp-ink);
+}
+
+.productions-directory a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.productions-directory a:hover:not(.no-underline):not(.link),
+.productions-directory a:focus:not(.no-underline):not(.link) {
+	text-decoration: none;
+}
+
+.productions-directory [hidden] {
+	display: none !important;
+}
+
+.productions-directory-shell {
+	margin: 0 auto;
+	max-width: 1240px;
+	padding: 4rem 1rem;
+}
+
+.productions-directory-hero {
+	align-items: stretch;
+	border-bottom: 1px solid var(--jp-line);
+	display: grid;
+	gap: 1.25rem;
+	grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+	padding-bottom: 1.5rem;
+}
+
+.productions-directory-kicker {
+	color: var(--jp-red);
+	font-size: .75rem;
+	font-weight: 700;
+	margin: 0 0 .5rem;
+	text-transform: uppercase;
+}
+
+.productions-directory-title {
+	font-size: clamp(2.1rem, 7vw, 5.6rem);
+	line-height: .92;
+	margin: 0;
+}
+
+.productions-directory-subtitle {
+	color: var(--jp-muted);
+	font-size: 1.05rem;
+	line-height: 1.5;
+	margin: 1rem 0 0;
+	max-width: 42rem;
+}
+
+.productions-directory-panel {
+	align-content: center;
+	background: var(--jp-cream);
+	border: 1px solid var(--jp-line);
+	display: grid;
+	padding: 1rem;
+}
+
+.productions-directory-stats {
+	display: grid;
+	gap: .75rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.productions-directory-stats span {
+	display: block;
+}
+
+.productions-directory-stats > span {
+	background: #fff;
+	border-left: 5px solid var(--jp-blue);
+	padding: .9rem;
+}
+
+.productions-directory-stats > span:nth-child(2) {
+	border-left-color: var(--jp-teal);
+}
+
+.productions-directory-stats > span:nth-child(3) {
+	border-left-color: var(--jp-red);
+}
+
+.productions-directory-stats strong {
+	display: block;
+	font-size: 2rem;
+	line-height: 1;
+}
+
+.productions-directory-stats span span {
+	color: var(--jp-muted);
+	font-size: .85rem;
+	font-weight: 700;
+	margin-top: .3rem;
+	text-transform: uppercase;
+}
+
+.productions-directory-search {
+	margin-top: 1.5rem;
+}
+
+.productions-directory-search-label {
+	display: block;
+	font-size: .8rem;
+	font-weight: 700;
+	margin-bottom: .4rem;
+	text-transform: uppercase;
+}
+
+.productions-directory-filter {
+	background: #fff;
+	border: 1px solid var(--jp-ink);
+	box-sizing: border-box;
+	color: var(--jp-ink);
+	display: block;
+	font-size: 1rem;
+	min-height: 3rem;
+	padding: .75rem .9rem;
+	width: 100%;
+}
+
+.productions-directory-filter:focus {
+	outline: 3px solid var(--jp-gold);
+	outline-offset: 0;
+}
+
+.productions-directory-filter-status,
+.productions-directory-empty {
+	color: var(--jp-muted);
+	font-size: .9rem;
+	font-weight: 700;
+	margin: .55rem 0 0;
+}
+
+.productions-directory-empty {
+	background: #fff;
+	border: 1px solid var(--jp-line);
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+.productions-directory-section {
+	margin-top: 3rem;
+}
+
+.productions-directory-section-head {
+	align-items: end;
+	display: grid;
+	gap: 0 1rem;
+	grid-template-columns: minmax(0, 1fr) auto;
+	margin-bottom: .9rem;
+}
+
+.productions-directory-section-head.sectionline:after {
+	grid-column: 1 / -1;
+}
+
+.productions-directory-section-title {
+	min-width: 0;
+}
+
+.productions-directory-section-head h2 {
+	font-size: clamp(1.5rem, 4vw, 2.35rem);
+	margin: 0;
+}
+
+.productions-directory-section-eyebrow {
+	color: var(--jp-red);
+	font-size: .75rem;
+	font-weight: 700;
+	line-height: 1.1;
+	margin: 0 0 .25rem;
+	text-transform: uppercase;
+}
+
+.productions-directory-count,
+.productions-directory-meta {
+	color: var(--jp-muted);
+	display: block;
+	font-size: .85rem;
+	line-height: 1.35;
+}
+
+.productions-directory-count {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.productions-directory-grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.productions-directory-card {
+	background: #fff;
+	border: 1px solid var(--jp-line);
+	display: grid;
+	grid-template-columns: minmax(7.5rem, 1fr) minmax(0, 2.25fr);
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.productions-directory-card-hitarea {
+	cursor: pointer;
+	inset: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.productions-directory-poster-link {
+	background: #fff;
+	border-right: 1px solid var(--jp-line);
+	display: block;
+	position: relative;
+	z-index: 5;
+}
+
+.productions-directory-poster {
+	aspect-ratio: 2 / 3;
+	display: block;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+
+.productions-directory-card-body {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	padding: .9rem;
+}
+
+.productions-directory-badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .4rem;
+	margin-bottom: .5rem;
+}
+
+.productions-directory-badge {
+	background: var(--jp-teal);
+	border-radius: 999px;
+	color: #fff;
+	display: inline-block;
+	font-size: .72rem;
+	font-weight: 600;
+	line-height: 1;
+	padding: .35rem .5rem;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 5;
+}
+
+.productions-directory .home-dashboard-badge {
+	background: var(--jp-teal);
+	border-radius: 999px;
+	color: #fff;
+	display: inline-block;
+	font-size: .72rem;
+	font-weight: 600;
+	line-height: 1;
+	padding: .35rem .5rem;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 5;
+}
+
+.productions-directory .home-dashboard-badge.red {
+	background: var(--jp-red);
+}
+
+.productions-directory-badge--genre {
+	background: var(--jp-gold);
+	color: var(--jp-ink);
+}
+
+.productions-directory-card-link {
+	position: relative;
+	z-index: 5;
+}
+
+.productions-directory-card-title {
+	display: block;
+	font-size: 1.2rem;
+	line-height: 1.15;
+	overflow-wrap: anywhere;
+}
+
+.productions-directory-meta {
+	margin-top: .45rem;
+}
+
+.productions-directory-dates {
+	color: var(--jp-ink);
+	font-size: .92rem;
+	font-weight: 700;
+	line-height: 1.35;
+	margin-top: .55rem;
+}
+
+.productions-directory-summary {
+	color: var(--jp-muted);
+	display: -webkit-box;
+	font-size: .9rem;
+	line-height: 1.45;
+	margin-top: .65rem;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+
+.productions-directory-summary p {
+	margin: 0;
+}
+
+.productions-directory-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	margin-top: auto;
+	padding-top: .9rem;
+}
+
+.productions-directory-ticket {
+	background-position: center;
+	background-size: contain;
+	position: relative;
+	z-index: 5;
+}
+
+.dark-mode .productions-directory {
+	--jp-ink: #f5f0e8;
+	--jp-muted: #c8c1b7;
+	--jp-line: #5a5148;
+	--jp-paper: #1f2326;
+	--jp-cream: #302d28;
+	background: var(--jp-paper);
+	color: var(--jp-ink);
+}
+
+.dark-mode .productions-directory-panel,
+.dark-mode .productions-directory-empty {
+	background: var(--jp-cream);
+}
+
+.dark-mode .productions-directory-stats > span,
+.dark-mode .productions-directory-card,
+.dark-mode .productions-directory-poster-link,
+.dark-mode .productions-directory-filter {
+	background: #282d31;
+	color: var(--jp-ink);
+}
+
 .people-list-grid {
 	display: grid;
 	gap: 2rem 1.25rem;
@@ -1000,6 +1370,8 @@ h1 a.jaxplayslogo {
 .people-list-grid a.slow-grow:focus,
 a.production-credit-person.slow-grow:hover,
 a.production-credit-person.slow-grow:focus,
+.productions-directory-card.slow-grow:hover,
+.productions-directory-card.slow-grow:focus-within,
 .theatres-directory-card.slow-grow:hover,
 .theatres-directory-card.slow-grow:focus-within {
 	transform: scale(1.025);
@@ -1024,8 +1396,8 @@ a.production-credit-person.slow-grow:focus,
 
 @media screen and (min-width: 30em) {
 	.tickets {
-		min-width: 100px;
-		min-height: 60px;
+		min-width: 75px;
+		min-height: 45px;
 	}
 }
 
@@ -1053,8 +1425,8 @@ a.production-credit-person.slow-grow:focus,
 	}
 
 	.tickets {
-		min-width: 100px;
-		min-height: 60px;
+		min-width: 75px;
+		min-height: 45px;
 	}
 }
 
@@ -1089,12 +1461,15 @@ a.production-credit-person.slow-grow:focus,
 }
 
 @media (max-width: 767px) {
+	.productions-directory-hero,
+	.productions-directory-grid,
 	.theatres-directory-hero,
 	.theatres-directory-grid,
 	.theatres-directory-grid--archive {
 		grid-template-columns: 1fr;
 	}
 
+	.productions-directory-card,
 	.theatres-directory-card {
 		grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
 	}
@@ -1135,38 +1510,69 @@ a.production-credit-person.slow-grow:focus,
 		padding: 2.5rem 1rem;
 	}
 
+	.productions-directory-shell {
+		padding: 2.5rem 1rem;
+	}
+
+	.productions-directory-grid,
 	.theatres-directory-grid,
 	.theatres-directory-grid--archive {
 		grid-template-columns: 1fr;
 	}
 
+	.productions-directory-panel,
 	.theatres-directory-panel {
 		padding: .6rem;
 	}
 
+	.productions-directory-stats,
 	.theatres-directory-stats {
 		gap: .35rem;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
+	.productions-directory-stats > span,
 	.theatres-directory-stats > span {
 		border-left-width: 3px;
 		padding: .55rem .35rem;
 	}
 
+	.productions-directory-stats strong,
 	.theatres-directory-stats strong {
 		font-size: 1.25rem;
 	}
 
+	.productions-directory-stats span span,
 	.theatres-directory-stats span span {
 		font-size: .65rem;
 		margin-top: .2rem;
 	}
 
+	.productions-directory-section-head,
 	.theatres-directory-section-head {
 		align-items: start;
 		flex-direction: column;
 		gap: .35rem;
+	}
+
+	.productions-directory-section-head {
+		grid-template-columns: 1fr;
+	}
+
+	.productions-directory-card {
+		grid-template-columns: minmax(5.75rem, 7rem) minmax(0, 1fr);
+	}
+
+	.productions-directory-card-body {
+		padding: .75rem;
+	}
+
+	.productions-directory-card-title {
+		font-size: 1rem;
+	}
+
+	.productions-directory-summary {
+		-webkit-line-clamp: 3;
 	}
 
 	.production-single .production-detail-card--venue,

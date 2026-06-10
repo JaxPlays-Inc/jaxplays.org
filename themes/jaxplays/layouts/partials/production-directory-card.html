@@ -1,0 +1,110 @@
+{{ $page := .page }}
+{{ $status := .status }}
+{{ $poster := $page.Params.featured_image }}
+{{ $posterAlt := $page.Params.featured_image_alt | default (printf "%s poster" $page.Title) }}
+
+{{ if not $poster }}
+  {{ $title := replace $page.Title "è" "e" }}
+  {{ with (site.GetPage "page" (printf "/shows/%s" ($title | urlize))) }}
+    {{ $poster = .Params.featured_image }}
+    {{ with .Params.featured_image_alt }}{{ $posterAlt = . }}{{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $posterPath := "/media/default/production_poster.webp" }}
+{{ if $poster }}
+  {{ if or (hasPrefix $poster "http://") (hasPrefix $poster "https://") (hasPrefix $poster "//") (hasPrefix $poster "/") }}
+    {{ $posterPath = $poster }}
+  {{ else }}
+    {{ $posterPath = printf "/media/posters/%s" $poster }}
+  {{ end }}
+{{ end }}
+
+{{ $venues := $page.Params.venue }}
+{{ if eq (printf "%T" $venues) "string" }}
+  {{ $venues = slice $venues }}
+{{ end }}
+
+{{ $genres := $page.Params.genres }}
+{{ if not $genres }}
+  {{ range where site.Pages "Type" "shows" }}
+    {{ if eq .Title $page.Title }}
+      {{ $genres = .Params.genres }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $openingLabel := "" }}
+{{ with $page.Params.opening_date }}
+  {{ $openingDate := time . }}
+  {{ if eq $page.Params.approx_date "year" }}
+    {{ $openingLabel = $openingDate.Format "2006" }}
+  {{ else if eq $page.Params.approx_date "month" }}
+    {{ $openingLabel = $openingDate.Format "January 2006" }}
+  {{ else }}
+    {{ $openingLabel = $openingDate.Format "Jan 2, 2006" }}
+  {{ end }}
+{{ end }}
+
+{{ $closingLabel := "" }}
+{{ with $page.Params.closing_date }}
+  {{ $closingLabel = (time .).Format "Jan 2, 2006" }}
+{{ end }}
+
+{{ $summary := $page.Params.description }}
+{{ if not $summary }}
+  {{ $summary = $page.Summary }}
+{{ end }}
+{{ if not $summary }}
+  {{ range where site.Pages "Type" "shows" }}
+    {{ if eq .Title $page.Title }}
+      {{ $summary = .Params.description | default .Summary }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $searchParts := slice $page.Title $status $openingLabel $closingLabel }}
+{{ with $page.Params.theatre }}{{ $searchParts = $searchParts | append . }}{{ end }}
+{{ with $venues }}{{ $searchParts = $searchParts | append (delimit . " ") }}{{ end }}
+{{ with $genres }}{{ $searchParts = $searchParts | append (delimit . " ") }}{{ end }}
+{{ with $summary }}{{ $searchParts = $searchParts | append (. | plainify) }}{{ end }}
+{{ $searchText := delimit $searchParts " " | lower }}
+
+<article class="productions-directory-card slow-grow" data-production-card data-production-search="{{ $searchText | htmlEscape }}">
+  <a class="productions-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="View {{ $page.Title }}"></a>
+  <a class="productions-directory-poster-link" href="{{ $page.RelPermalink }}">
+    <img class="productions-directory-poster" src="{{ $posterPath }}" alt="{{ $posterAlt }}">
+  </a>
+  <div class="productions-directory-card-body">
+    <div class="productions-directory-badges">
+      {{ if eq $status "Coming Soon" }}
+        <span class="home-dashboard-badge red">Opens {{ time.Format "Jan 2" (time $page.Params.opening_date) }}</span>
+      {{ else }}
+        <span class="productions-directory-badge">{{ $status }}</span>
+      {{ end }}
+      {{ with first 3 $genres }}
+        {{ range . }}
+          <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <a class="productions-directory-card-link" href="{{ $page.RelPermalink }}">
+      <strong class="productions-directory-card-title">{{ $page.Title }}</strong>
+    </a>
+    <div class="productions-directory-meta">
+      {{ with $page.Params.theatre }}<span>{{ . }}</span>{{ end }}
+      {{ with $venues }}<span>{{ delimit . " / " }}</span>{{ end }}
+    </div>
+    {{ if or $openingLabel $closingLabel }}
+      <div class="productions-directory-dates">
+        {{ $openingLabel }}{{ if $closingLabel }} - {{ $closingLabel }}{{ end }}
+      </div>
+    {{ end }}
+    {{ with $summary }}
+      <div class="productions-directory-summary">{{ . | markdownify | truncate 220 }}</div>
+    {{ end }}
+    <div class="productions-directory-actions">
+      {{ with $page.Params.tickets }}<a class="productions-directory-ticket tickets" href="{{ . }}" target="_blank" rel="noopener" aria-label="Buy tickets for {{ $page.Title }}"></a>{{ end }}
+    </div>
+  </div>
+</article>
