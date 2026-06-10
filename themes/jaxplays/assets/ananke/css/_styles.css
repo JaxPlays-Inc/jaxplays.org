@@ -649,6 +649,22 @@ h1 a.jaxplayslogo {
 	position: relative;
 }
 
+.article-card {
+	position: relative;
+}
+
+.article-card-hitarea {
+	inset: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.article-card-image-link,
+.article-card-link {
+	position: relative;
+	z-index: 2;
+}
+
 .article-directory-card-hitarea {
 	inset: 0;
 	position: absolute;

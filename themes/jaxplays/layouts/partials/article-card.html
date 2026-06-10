@@ -1,0 +1,73 @@
+{{ $page := .page }}
+{{ $variant := .variant | default "directory" }}
+{{ $image := partial "func/GetFeaturedImage.html" $page }}
+{{ $summarySource := $page.Summary }}
+{{ if eq $variant "directory" }}
+  {{ $summarySource = $page.Params.description | default $page.Summary }}
+{{ end }}
+{{ $summaryClass := cond (eq $variant "home") "home-dashboard-summary-link" "article-directory-summary-link" }}
+{{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " (printf "<a class=\"%s\" " $summaryClass) | safeHTML }}
+
+{{ if eq $variant "home" }}
+  <article class="article-card article-card--home home-dashboard-story home-dashboard-grow">
+    <a class="article-card-hitarea home-dashboard-story-hitarea" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }}"></a>
+    <a class="article-card-image-link home-dashboard-story-link" href="{{ $page.RelPermalink }}">
+      {{ if $image }}
+        <img class="article-card-image home-dashboard-story-image" src="{{ $image }}" alt="{{ $page.Title }}">
+      {{ else }}
+        <img class="article-card-image home-dashboard-story-image" src="/media/default/production_poster.webp" alt="{{ $page.Title }}">
+      {{ end }}
+    </a>
+    <div class="article-card-body home-dashboard-story-body">
+      <span class="article-card-badge home-dashboard-badge">{{ humanize $page.Section }}</span>
+      <a class="article-card-link home-dashboard-story-link" href="{{ $page.RelPermalink }}">
+        <strong class="article-card-title home-dashboard-story-title">{{ $page.Title }}</strong>
+      </a>
+      {{ if not $page.Date.IsZero }}
+        <span class="article-card-meta home-dashboard-meta">{{ $page.Date.Format "Jan 2, 2006" }}</span>
+      {{ end }}
+      {{ with $summary }}
+        <div class="article-card-summary home-dashboard-meta home-dashboard-story-summary">{{ . }}</div>
+      {{ end }}
+    </div>
+  </article>
+{{ else }}
+  {{ $authorLabel := "" }}
+  {{ with $page.Params.authors }}
+    {{ if reflect.IsSlice . }}
+      {{ $authorLabel = delimit . ", " }}
+    {{ else }}
+      {{ $authorLabel = . }}
+    {{ end }}
+  {{ else }}
+    {{ with $page.Params.author }}{{ $authorLabel = . }}{{ else }}{{ $authorLabel = $page.Site.Params.author }}{{ end }}
+  {{ end }}
+  {{ $searchText := .searchText | default "" }}
+  <article class="article-card article-card--directory article-directory-card slow-grow" data-article-card data-article-search="{{ $searchText | htmlEscape }}">
+    <a class="article-card-hitarea article-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }}"></a>
+    {{ if $image }}
+      <a class="article-card-image-link article-directory-image-link" href="{{ $page.RelPermalink }}">
+        <img class="article-card-image article-directory-image" src="{{ $image }}" alt="{{ $page.Params.featured_image_alt | default $page.Title }}">
+      </a>
+    {{ end }}
+    <div class="article-card-body article-directory-card-body">
+      <div class="article-card-badges article-directory-badges">
+        <span class="article-card-badge article-directory-badge{{ if eq $page.Section "reviews" }} article-directory-badge--review{{ end }}">{{ $page.CurrentSection.Title | default ($page.Section | humanize) }}</span>
+      </div>
+      <a class="article-card-link article-directory-card-link" href="{{ $page.RelPermalink }}">
+        <strong class="article-card-title article-directory-card-title">{{ $page.Title }}</strong>
+      </a>
+      <div class="article-card-meta article-directory-meta">
+        {{ if not $page.Date.IsZero }}
+          <time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $page.Date | time.Format (default "January 2, 2006" $page.Site.Params.date_format) }}</time>
+        {{ end }}
+        {{ with $authorLabel }}
+          <span>{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ with $summary }}
+        <div class="article-card-summary article-directory-summary">{{ . }}</div>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}

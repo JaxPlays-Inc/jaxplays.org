@@ -312,6 +312,22 @@
     overflow: hidden;
   }
 
+  .article-card {
+    position: relative;
+  }
+
+  .article-card-hitarea {
+    inset: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .article-card-image-link,
+  .article-card-link {
+    position: relative;
+    z-index: 2;
+  }
+
   .home-dashboard-story-body,
   .home-dashboard-story-summary {
     display: block;
@@ -667,25 +683,7 @@
       </div>
       <div class="home-dashboard-editorial">
         {{ range $latestArticles }}
-          {{ $image := partial "func/GetFeaturedImage.html" . }}
-          {{ $summary := partial "content-wikilinks" .Summary | replaceRE "<a " "<a class=\"home-dashboard-summary-link\" " | safeHTML }}
-          <article class="home-dashboard-story home-dashboard-grow">
-            <a class="home-dashboard-story-link" href="{{ .RelPermalink }}">
-              {{ if $image }}
-                <img class="home-dashboard-story-image" src="{{ $image }}" alt="{{ .Title }}">
-              {{ else }}
-                <img class="home-dashboard-story-image" src="/media/default/production_poster.webp" alt="{{ .Title }}">
-              {{ end }}
-            </a>
-            <div class="home-dashboard-story-body">
-              <span class="home-dashboard-badge">{{ humanize .Section }}</span>
-              <a class="home-dashboard-story-link" href="{{ .RelPermalink }}">
-                <strong class="home-dashboard-story-title">{{ .Title }}</strong>
-              </a>
-              <span class="home-dashboard-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
-              <div class="home-dashboard-meta home-dashboard-story-summary">{{ $summary }}</div>
-            </div>
-          </article>
+          {{ partial "article-card.html" (dict "page" . "variant" "home") }}
         {{ end }}
       </div>
       <a class="home-dashboard-section-more" href="/reviews/">More reviews</a>
