@@ -496,6 +496,10 @@ h1 a.jaxplayslogo {
 	text-decoration: none;
 }
 
+.theatres-directory [hidden] {
+	display: none !important;
+}
+
 .theatres-directory-shell {
 	margin: 0 auto;
 	max-width: 1180px;
@@ -583,6 +587,45 @@ h1 a.jaxplayslogo {
 	margin-top: 1.5rem;
 }
 
+.theatres-directory-search-label {
+	display: block;
+	font-size: .8rem;
+	font-weight: 700;
+	margin-bottom: .4rem;
+	text-transform: uppercase;
+}
+
+.theatres-directory-filter {
+	background: #fff;
+	border: 1px solid var(--jp-ink);
+	color: var(--jp-ink);
+	display: block;
+	font-size: 1rem;
+	min-height: 3rem;
+	padding: .75rem .9rem;
+	width: 100%;
+}
+
+.theatres-directory-filter:focus {
+	outline: 3px solid var(--jp-gold);
+	outline-offset: 0;
+}
+
+.theatres-directory-filter-status,
+.theatres-directory-empty {
+	color: var(--jp-muted);
+	font-size: .9rem;
+	font-weight: 700;
+	margin: .55rem 0 0;
+}
+
+.theatres-directory-empty {
+	border: 1px solid var(--jp-line);
+	background: #fff;
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
 .theatres-directory-section {
 	margin-top: 3rem;
 }
@@ -609,7 +652,7 @@ h1 a.jaxplayslogo {
 }
 
 .theatres-directory-count {
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 

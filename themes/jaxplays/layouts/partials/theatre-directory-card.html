@@ -27,8 +27,14 @@
     {{ $closed = (time $closed).Format "2006" }}
   {{ end }}
 {{ end }}
+{{ $closedSearch := "" }}
+{{ if and (eq $status "Archive") $closed }}
+  {{ $closedSearch = printf "Closed %s" $closed }}
+{{ end }}
+{{ $searchParts := slice $page.Title $page.Params.building $page.Params.company_type $status $founded $closed $closedSearch ($summary | plainify) }}
+{{ $searchText := delimit $searchParts " " }}
 
-<article class="theatres-directory-card slow-grow">
+<article class="theatres-directory-card slow-grow" data-theatre-card data-theatre-status="{{ $status }}" data-theatre-search="{{ $searchText }}">
   <a class="theatres-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="View {{ $page.Title }} profile"></a>
   <a class="theatres-directory-logo-link" href="{{ $page.RelPermalink }}">
     {{ if $logo }}
