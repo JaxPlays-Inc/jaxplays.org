@@ -525,7 +525,7 @@ h1 a.jaxplayslogo {
 
 .theatres-directory-title {
 	font-size: clamp(2.1rem, 7vw, 5.6rem);
-	line-height: .92;
+	line-height: 1;
 	margin: 0;
 }
 
@@ -1012,7 +1012,7 @@ h1 a.jaxplayslogo {
 
 .productions-directory-title {
 	font-size: clamp(2.1rem, 7vw, 5.6rem);
-	line-height: .92;
+	line-height: 1;
 	margin: 0;
 }
 
