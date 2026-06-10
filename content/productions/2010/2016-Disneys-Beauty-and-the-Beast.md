@@ -1,7 +1,7 @@
 ---
 title: Disney's Beauty and the Beast
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2016
 date: 2024-08-05T16:37:28-04:00
 opening_date: 2016-06-15

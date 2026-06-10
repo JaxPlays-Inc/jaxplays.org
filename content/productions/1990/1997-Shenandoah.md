@@ -1,7 +1,7 @@
 ---
 title: Shenandoah
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2025-04-30T11:12:50-04:00
 opening_date: 1997-03-01

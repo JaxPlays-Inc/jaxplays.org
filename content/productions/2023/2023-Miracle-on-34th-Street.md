@@ -1,7 +1,7 @@
 ---
 title: Miracle on 34th Street
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: 2023-11-16
 opening_date: 2023-11-16
 closing_date: 2023-12-24

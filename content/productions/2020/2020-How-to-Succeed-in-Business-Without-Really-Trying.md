@@ -10,7 +10,7 @@ featured_image_alt:
 featured_image_caption:
 category: musical
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 website: https://www.alhambrajax.com/show/how-to-succeed-in-business-without-really-trying/
 showtimes:
 - 2020-02-20 11:00:00

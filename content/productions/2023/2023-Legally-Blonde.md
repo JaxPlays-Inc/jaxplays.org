@@ -1,7 +1,7 @@
 ---
 title: Legally Blonde
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: 2023-09-28
 opening_date: 2023-09-28
 closing_date: 2023-11-05

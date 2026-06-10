@@ -1,7 +1,7 @@
 ---
 title: Jekyll & Hyde
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2025-04-30T11:04:42-04:00
 opening_date: 2019-10-23

@@ -1,7 +1,7 @@
 ---
 title: Saturday Night Fever
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: null
 date: '2026-01-12T21:32:43-05:00'
 opening_date: '2026-08-20'

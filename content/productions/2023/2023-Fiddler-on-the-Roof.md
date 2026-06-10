@@ -9,7 +9,7 @@ featured_image_caption: Graphic of Fiddler on the Roof at the Alhambra
 featured_image_attr: Alhambra Theatre & Dining
 program:
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1428&code=jaxplays
 showtimes:
 - 2023-08-03 18:00:00

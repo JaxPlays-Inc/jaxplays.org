@@ -1,7 +1,7 @@
 ---
 title: "Beautiful: The Carole King Musical"
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2025
 date: 2025-03-05T17:59:18-05:00
 opening_date: 2025-04-03

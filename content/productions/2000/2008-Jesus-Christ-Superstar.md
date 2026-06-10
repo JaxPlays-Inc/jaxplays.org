@@ -1,7 +1,7 @@
 ---
 title: Jesus Christ Superstar
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2025-04-30T11:12:48-04:00
 opening_date: 2008-04-01

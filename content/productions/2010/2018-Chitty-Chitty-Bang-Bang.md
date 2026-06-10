@@ -1,7 +1,7 @@
 ---
 title: Chitty Chitty Bang Bang
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2024-06-28T17:09:57-04:00
 opening_date: 2018-06-13

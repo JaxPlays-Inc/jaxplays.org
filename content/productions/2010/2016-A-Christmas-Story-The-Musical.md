@@ -1,7 +1,7 @@
 ---
 title: "A Christmas Story: The Musical"
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2016
 date: 2024-07-12T14:50:44-04:00
 opening_date: 2016-11-25

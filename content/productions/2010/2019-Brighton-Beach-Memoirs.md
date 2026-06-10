@@ -1,7 +1,7 @@
 ---
 title: Brighton Beach Memoirs
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2024-07-19T17:58:48-04:00
 opening_date: 2019-09-20

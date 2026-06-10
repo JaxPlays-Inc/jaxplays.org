@@ -1,7 +1,7 @@
 ---
 title: Charlie and the Chocolate Factory
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2025
 date: 2024-12-20T12:16:31-05:00
 opening_date: 2025-06-26

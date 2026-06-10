@@ -1,7 +1,7 @@
 ---
 title: Damn Yankees
 Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: '2026-01-11T15:33:32-04:00'
 opening_date: '2026-02-26'
 closing_date: '2026-04-05'

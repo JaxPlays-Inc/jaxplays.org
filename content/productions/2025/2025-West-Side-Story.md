@@ -1,7 +1,7 @@
 ---
 title: West Side Story
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2025-02-22T11:38:19-05:00
 opening_date: 2025-02-22

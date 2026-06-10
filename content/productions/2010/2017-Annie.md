@@ -2,7 +2,7 @@
 title: Annie
 date: 2024-06-14T16:38:15-04:00
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 opening_date: 2017-06-30
 closing_date: 2017-07-14
 showtimes:

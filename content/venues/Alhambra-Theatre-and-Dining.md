@@ -1,6 +1,10 @@
 ---
-title: Alhambra Theatre
-date: 2024-06-12T18:46:30-04:00
+title: Alhambra Theatre & Dining
+aliases: 
+  - /venues/the-alhambra-theatre-dining
+  - /venues/alhambra-theatre-dining
+  - /venues/alhambra-theatre
+date: 2026-06-10T19:23:26-04:00
 active: true
 featured_image: The_Alhambra_Theatre_and_Dining.webp
 featured_image_attr:

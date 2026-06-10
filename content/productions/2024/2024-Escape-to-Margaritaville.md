@@ -1,7 +1,7 @@
 ---
 title: Escape to Margaritaville
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: 2024-04-04
 opening_date: 2024-04-04
 closing_date: 2024-05-12

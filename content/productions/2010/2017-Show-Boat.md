@@ -1,7 +1,7 @@
 ---
 title: Show Boat
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 opening_date: 2017-02-22
 closing_date: 2017-04-02
 showtimes:

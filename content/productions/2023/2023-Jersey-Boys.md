@@ -6,7 +6,7 @@ closing_date: 2023-06-04
 layout: productions
 program:
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 genres:
 - Musical
 - Biography

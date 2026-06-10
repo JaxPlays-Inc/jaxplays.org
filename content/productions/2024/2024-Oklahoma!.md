@@ -1,7 +1,7 @@
 ---
 title: Oklahoma!
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: 2024-02-22
 opening_date: 2024-02-22
 closing_date: 2024-03-31

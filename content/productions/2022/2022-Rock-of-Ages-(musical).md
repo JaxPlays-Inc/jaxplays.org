@@ -10,7 +10,7 @@ featured_image_alt:
 featured_image_caption:
 category: musical
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?&playID=391
 showtimes:
 - 2022-03-24 00:00:00

@@ -1,7 +1,7 @@
 ---
 title: Come From Away
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2025
 date: 2025-03-05T18:07:09-05:00
 opening_date: 2025-08-28
