@@ -1,5 +1,5 @@
 .dark-mode,
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
 	background-color: #000;
 }
 
@@ -10,7 +10,7 @@
 .dark-mode .blindlink:visited,
 .dark-mode .om-text,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
 {
 	color: #fff !important;
 }
@@ -299,6 +299,91 @@
 
 .dark-mode .productions-directory-theatre {
 	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory {
+	--jp-ink: #f5f0e8;
+	--jp-muted: #c8c1b7;
+	--jp-line: #5a5148;
+	--jp-paper: #1f2326;
+	--jp-cream: #302d28;
+	background-color: var(--jp-paper) !important;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory-kicker,
+.dark-mode .calendar-directory-section-eyebrow {
+	color: var(--jp-gold) !important;
+}
+
+.dark-mode .calendar-directory-subtitle,
+.dark-mode .calendar-directory-stats span span {
+	color: var(--jp-muted) !important;
+}
+
+.dark-mode .calendar-directory-panel,
+.dark-mode .calendar-directory-stats > span,
+.dark-mode .calendar-directory-frame,
+.dark-mode .calendar-directory-theatre-combobox,
+.dark-mode .calendar-directory-theatre-panel,
+.dark-mode .calendar-directory-theatre-search {
+	background-color: var(--jp-cream) !important;
+	border-color: var(--jp-line) !important;
+}
+
+.dark-mode .calendar-directory-theatre-token {
+	background: #282d31 !important;
+	border-color: var(--jp-line) !important;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory-theatre-token:hover,
+.dark-mode .calendar-directory-theatre-token:focus {
+	background: var(--jp-gold) !important;
+	border-color: var(--jp-gold) !important;
+	color: #171717 !important;
+}
+
+.dark-mode .calendar-directory-theatre-option {
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory-theatre-option:hover,
+.dark-mode .calendar-directory-theatre-option:focus,
+.dark-mode .calendar-directory-theatre-option.is-selected,
+.dark-mode .calendar-directory .fc .fc-col-header-cell,
+.dark-mode .calendar-directory .fc .fc-list-day-cushion {
+	background-color: #282d31 !important;
+}
+
+.dark-mode .calendar-directory .fc,
+.dark-mode .calendar-directory .fc .fc-toolbar-title,
+.dark-mode .calendar-directory .fc .fc-col-header-cell-cushion,
+.dark-mode .calendar-directory .fc .fc-daygrid-day-number,
+.dark-mode .calendar-directory .fc .fc-list-day-text,
+.dark-mode .calendar-directory .fc .fc-list-day-side-text {
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory .fc .fc-button-primary {
+	background-color: #282d31 !important;
+	border-color: var(--jp-line) !important;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory .fc .fc-button-primary:hover,
+.dark-mode .calendar-directory .fc .fc-button-primary:focus,
+.dark-mode .calendar-directory .fc .fc-button-primary:not(:disabled).fc-button-active,
+.dark-mode .calendar-directory .fc .fc-button-primary:not(:disabled):active {
+	background-color: var(--jp-gold) !important;
+	border-color: var(--jp-gold) !important;
+	color: #171717 !important;
+}
+
+.dark-mode .calendar-directory .fc-theme-standard td,
+.dark-mode .calendar-directory .fc-theme-standard th,
+.dark-mode .calendar-directory .fc-theme-standard .fc-scrollgrid {
+	border-color: var(--jp-line) !important;
 }
 
 .dark-mode .productions-directory-panel,
