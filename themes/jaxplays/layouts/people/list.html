@@ -1,19 +1,33 @@
 {{ define "main" }}
 {{ $peopleWithHeadshots := slice }}
 {{ $peopleWithoutHeadshots := slice }}
-{{ $headshotCount := 0 }}
-{{ $roleCount := 0 }}
+{{ $actorCount := 0 }}
+{{ $crewCount := 0 }}
 
 {{ range .Pages.ByTitle }}
   {{ $person := . }}
   {{ if ne $person.Params.directory false }}
     {{ with $person.Params.featured_image }}
       {{ $peopleWithHeadshots = $peopleWithHeadshots | append $person }}
-      {{ $headshotCount = add $headshotCount 1 }}
     {{ else }}
       {{ $peopleWithoutHeadshots = $peopleWithoutHeadshots | append $person }}
     {{ end }}
-    {{ with $person.Params.roles }}{{ $roleCount = add $roleCount 1 }}{{ end }}
+    {{ $roles := $person.Params.roles | default slice }}
+    {{ if eq (printf "%T" $roles) "string" }}
+      {{ $roles = slice $roles }}
+    {{ end }}
+    {{ if in $roles "Actor" }}
+      {{ $actorCount = add $actorCount 1 }}
+    {{ end }}
+    {{ $hasCrewRole := false }}
+    {{ range $roles }}
+      {{ if ne . "Actor" }}
+        {{ $hasCrewRole = true }}
+      {{ end }}
+    {{ end }}
+    {{ if $hasCrewRole }}
+      {{ $crewCount = add $crewCount 1 }}
+    {{ end }}
   {{ end }}
 {{ end }}
 {{ $people := $peopleWithHeadshots | append $peopleWithoutHeadshots }}
@@ -50,16 +64,16 @@
       <div class="theatres-directory-panel">
         <div class="theatres-directory-stats">
           <span>
+            <strong>{{ $actorCount }}</strong>
+            <span>Actors</span>
+          </span>
+          <span>
+            <strong>{{ $crewCount }}</strong>
+            <span>Crew</span>
+          </span>
+          <span>
             <strong>{{ len $people }}</strong>
             <span>Total</span>
-          </span>
-          <span>
-            <strong>{{ $headshotCount }}</strong>
-            <span>Headshots</span>
-          </span>
-          <span>
-            <strong>{{ $roleCount }}</strong>
-            <span>Role Tags</span>
           </span>
         </div>
       </div>

@@ -425,7 +425,7 @@
   .home-dashboard-newsletter button {
     background: var(--jp-gold);
     border: 1px solid var(--jp-ink);
-    border-left: 0;
+    border-left: 1px solid var(--jp-ink);
     border-radius: 0;
     cursor: pointer;
     font-weight: 900;
@@ -727,127 +727,7 @@
       <div class="home-dashboard-newsletter">
         <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
         <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
-        <form action="https://api.jaxplays.org/newsletter" method="POST" data-newsletter-form data-tags="Homepage Signup Form" novalidate>
-          <div class="home-dashboard-newsletter-fields">
-            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
-            <button type="submit">Subscribe</button>
-          </div>
-          <input class="home-dashboard-newsletter-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
-          <div
-            class="cf-turnstile"
-            data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"
-            data-callback="jaxplaysNewsletterTurnstileComplete"
-            data-expired-callback="jaxplaysNewsletterTurnstileReset"
-            data-error-callback="jaxplaysNewsletterTurnstileReset"></div>
-          <p class="home-dashboard-newsletter-status" aria-live="polite" data-newsletter-status></p>
-        </form>
-        <script>
-          (() => {
-            const form = document.querySelector("[data-newsletter-form]");
-
-            if (!form) {
-              return;
-            }
-
-            const email = form.querySelector('input[name="email"]');
-            const website = form.querySelector('input[name="website"]');
-            const submit = form.querySelector('button[type="submit"]');
-            const status = form.querySelector("[data-newsletter-status]");
-            const originalButtonText = submit.textContent;
-            const errorMessages = {
-              "origin-not-allowed": "This page is not approved for newsletter signups yet.",
-              "turnstile-failed": "Verification failed. Please complete the check and try again.",
-              "mailchimp-not-configured": "Newsletter signup is not fully configured yet.",
-              "mailchimp-rejected": "Newsletter signup was rejected by Mailchimp. Please check the email address and try again.",
-              "mailchimp-unavailable": "Mailchimp is unavailable right now. Please try again in a moment.",
-            };
-
-            class NewsletterError extends Error {
-              constructor(error, detail = "") {
-                super(error);
-                this.detail = detail;
-              }
-            }
-
-            window.jaxplaysNewsletterTurnstileComplete = (token) => {
-              form.dataset.turnstileToken = token;
-              if (status.dataset.state === "error") {
-                setStatus("", "");
-              }
-            };
-
-            window.jaxplaysNewsletterTurnstileReset = () => {
-              form.dataset.turnstileToken = "";
-            };
-
-            const setStatus = (message, state = "") => {
-              status.textContent = message;
-              status.dataset.state = state;
-            };
-
-            form.addEventListener("submit", async (event) => {
-              event.preventDefault();
-
-              if (!email.checkValidity()) {
-                email.reportValidity();
-                return;
-              }
-
-              const turnstileToken = form.dataset.turnstileToken || form.querySelector('input[name="cf-turnstile-response"]')?.value || "";
-
-              if (!turnstileToken) {
-                setStatus("Please complete the verification check.", "error");
-                return;
-              }
-
-              submit.disabled = true;
-              submit.textContent = "Subscribing";
-              setStatus("Subscribing...", "");
-
-              try {
-                const response = await fetch(form.action, {
-                  method: "POST",
-                  headers: {
-                    "Content-Type": "application/json",
-                  },
-                  body: JSON.stringify({
-                    email: email.value,
-                    website: website.value,
-                    turnstileToken,
-                    tags: form.dataset.tags || "",
-                    campaignFillUrl: window.location.href,
-                  }),
-                });
-
-                const data = await response.json().catch(() => ({}));
-
-                if (!response.ok || !data.ok) {
-                  throw new NewsletterError(data.error || "subscribe-failed", data.detail || "");
-                }
-
-                form.reset();
-                form.dataset.turnstileToken = "";
-                window.turnstile?.reset(form.querySelector(".cf-turnstile"));
-                setStatus("Thank you. You are signed up for JaxPlays Spotlight. Check your inbox. You should receive a welcome email shortly.", "success");
-              } catch (error) {
-                form.dataset.turnstileToken = "";
-                window.turnstile?.reset(form.querySelector(".cf-turnstile"));
-                const message = errorMessages[error.message] || "Something went wrong. Please try again in a moment.";
-                setStatus(error.detail ? `${message} ${error.detail}` : message, "error");
-              } finally {
-                submit.disabled = false;
-                submit.textContent = originalButtonText;
-              }
-            });
-
-            email.addEventListener("input", () => {
-              if (status.dataset.state === "success") {
-                setStatus("", "");
-              }
-            });
-          })();
-        </script>
-        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+        {{ partial "newsletter-signup-form.html" (dict "tags" "Homepage Signup Form") }}
       </div>
       <div class="home-dashboard-submit">
         <a class="home-dashboard-button home-dashboard-grow" href="/submit/production/">Submit a Production</a>

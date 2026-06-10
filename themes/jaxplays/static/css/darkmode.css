@@ -389,6 +389,7 @@
 .dark-mode .productions-directory-panel,
 .dark-mode .productions-directory-stats > span,
 .dark-mode .productions-directory-card,
+.dark-mode .genre-directory-card,
 .dark-mode .productions-directory-empty {
 	background-color: var(--jp-cream);
 	border-color: var(--jp-line);
