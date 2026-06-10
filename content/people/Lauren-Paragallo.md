@@ -11,6 +11,9 @@ aliases:
   - /people/lauren-paragallo
 other_names:
   - Lauren Paragallo
+roles:
+  - Costume Designer
+  - Costuming
 socials:
   facebook: 
   twitter: 

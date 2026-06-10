@@ -6,6 +6,11 @@ featured_image_attr: Chasing Shadows
 featured_image_attr_link:
 featured_image_alt: Headshot of Noah Bennett
 featured_image_caption: Headshot of Noah Bennett
+roles:
+  - Actor
+  - Director
+  - Sound Designer
+  - Assistant Stage Manager
 socials:
   facebook:
   twitter:

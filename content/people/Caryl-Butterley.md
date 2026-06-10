@@ -9,6 +9,7 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Sound Designer
 socials:
   facebook: caryl.butterley
   twitter: 

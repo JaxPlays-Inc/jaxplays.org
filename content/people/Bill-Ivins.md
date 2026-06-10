@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Director
+  - Choreographer
+  - Scenic Designer
+  - Lighting Designer
 socials:
   facebook: 
   twitter: 

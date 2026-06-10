@@ -292,10 +292,40 @@ def split_front_matter(text: str, path: Path) -> tuple[str, str]:
 
 def load_front_matter(path: Path) -> dict[str, Any]:
     front_matter, _body = split_front_matter(path.read_text(), path)
-    data = yaml.safe_load(front_matter) or {}
+    try:
+        data = yaml.safe_load(front_matter) or {}
+    except yaml.YAMLError:
+        data = yaml.safe_load(strip_roles_block(front_matter)) or {}
     if not isinstance(data, dict):
         raise ValueError(f"{path} front matter is not a mapping")
     return data
+
+
+def strip_roles_block(front_matter: str) -> str:
+    lines = front_matter.splitlines()
+    output: list[str] = []
+    index = 0
+
+    while index < len(lines):
+        line = lines[index]
+        if re.match(r"^roles\s*:", line):
+            index += 1
+            while index < len(lines):
+                next_line = lines[index]
+                if (
+                    next_line.startswith((" ", "\t"))
+                    or next_line.startswith("- ")
+                    or not next_line.strip()
+                ):
+                    index += 1
+                    continue
+                break
+            continue
+
+        output.append(line)
+        index += 1
+
+    return "\n".join(output).rstrip() + "\n"
 
 
 def normalize_name(value: str) -> str:
@@ -396,7 +426,11 @@ def replace_roles(front_matter: str, roles: list[str]) -> str:
             index += 1
             while index < len(lines):
                 next_line = lines[index]
-                if next_line.startswith((" ", "\t")) or not next_line.strip():
+                if (
+                    next_line.startswith((" ", "\t"))
+                    or next_line.startswith("- ")
+                    or not next_line.strip()
+                ):
                     index += 1
                     continue
                 break

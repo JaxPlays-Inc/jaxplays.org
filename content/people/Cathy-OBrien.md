@@ -9,6 +9,8 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Assistant Director
+  - Costume Designer
 socials:
   facebook: 
   twitter: 

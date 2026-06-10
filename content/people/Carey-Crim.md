@@ -4,6 +4,8 @@ date: 2026-04-12T21:31:00-04:00
 featured_image: Carey-Crim.webp?v=101643
 featured_image_attr:
 featured_image_attr_link:
+roles:
+  - Playwright
 socials:
   facebook: carey.crim
   twitter: 

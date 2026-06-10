@@ -11,6 +11,7 @@ featured_image_alt: "Headshot of Joshua Taylor"
 featured_image_caption: "Headshot of Joshua Taylor"
 roles:
   - Actor
+  - Stage Crew
 socials:
   facebook: tiffaniambertheissen
   twitter: 

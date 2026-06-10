@@ -14,6 +14,11 @@ headshot_gallery:
   - image: Don-Cupo.webp
 roles:
   - Actor
+  - Scenic Designer
+  - Lighting Technician
+  - Technical Director
+  - Property Master
+  - Carpenter
 socials:
   facebook: 
   twitter: 

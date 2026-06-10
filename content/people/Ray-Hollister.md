@@ -12,6 +12,9 @@ birth_info:
 roles:
   - Actor
   - Director
+  - Sound Designer
+  - Audio Technician
+  - Lighting Technician
 socials:
   threads: rayhollister
   facebook: rayhollister

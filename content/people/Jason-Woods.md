@@ -8,7 +8,10 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Playwright
   - Director
+  - Scenic Designer
+  - Musician
 socials: 
   facebook: jasonwoodsproductions/
   twitter: 

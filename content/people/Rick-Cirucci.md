@@ -7,6 +7,7 @@ featured_image_attr_link:  https://toristauffer.com/
 roles:
   - Actor
   - Director
+  - Carpenter
 socials:
   facebook: 
   twitter: 

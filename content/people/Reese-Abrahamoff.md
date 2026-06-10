@@ -6,6 +6,7 @@ featured_image_attr: Matt Simpkins
 featured_image_attr_link: https://www.mattsimpkinsphotography.com/
 roles:
   - Actor
+  - Choreographer
 socials:
   facebook: reese.abrahamoff
   twitter: 

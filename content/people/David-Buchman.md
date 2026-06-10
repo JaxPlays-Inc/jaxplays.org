@@ -12,6 +12,7 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Costume Designer
 socials:
   facebook: 
   twitter: 

@@ -9,6 +9,8 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Stage Manager
+  - Property Master
 socials:
   facebook: 
   twitter: 

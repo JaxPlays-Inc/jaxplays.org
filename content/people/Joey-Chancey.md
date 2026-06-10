@@ -8,6 +8,10 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Musical Director
+  - Assistant Stage Manager
+  - Musician
+  - Carpenter
+  - Stage Crew
 socials:
   facebook: joey.chancey
   twitter: 

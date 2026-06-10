@@ -8,6 +8,10 @@ featured_image_caption: Robert Arleigh White's Facebook profile picture
 roles:
   - Actor
   - Director
+  - Sound Designer
+  - Lighting Technician
+  - Costuming
+  - Property Master
 socials:
   facebook: robertarleigh
   linkedin: robertarleighwhite

@@ -11,6 +11,8 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Scenic Designer
+  - Costume Designer
 socials:
   instagram: professormurf
   linkedin: justin-murphy-83999881

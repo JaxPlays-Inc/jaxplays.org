@@ -9,6 +9,11 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Scenic Designer
+  - Costume Designer
+  - Lighting Designer
+  - Sound Designer
+  - Carpenter
 socials:
   facebook: 
   twitter: 

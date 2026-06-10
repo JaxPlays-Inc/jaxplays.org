@@ -10,6 +10,7 @@ headshot_gallery:
   - image: Emily-Layt.webp
 roles:
   - Actor
+  - Dramaturg
 socials:
   facebook: emily.l.layt
   twitter: 

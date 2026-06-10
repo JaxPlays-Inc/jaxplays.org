@@ -15,6 +15,7 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Choreographer
 socials:
   facebook: 
   twitter: 

@@ -11,6 +11,7 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Painter
 socials:
   facebook: profile.php?id=100016632759082
   twitter: 

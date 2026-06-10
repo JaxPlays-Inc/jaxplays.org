@@ -10,6 +10,7 @@ headshot_gallery:
   - image: Keith-Teepen.webp
 roles:
   - Musical Director
+  - Musician
 socials:
   facebook: KeithTeepenPianist
   twitter: 

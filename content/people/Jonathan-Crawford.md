@@ -6,6 +6,8 @@ featured_image_attr: Mikki Schaffner Photography
 featured_image_attr_link: 
 roles:
   - Actor
+  - Dance Captain
+  - Stage Manager
 socials:
   facebook: jonathan.crawford.1612
   twitter: 

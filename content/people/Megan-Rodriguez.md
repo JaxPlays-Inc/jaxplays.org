@@ -10,6 +10,7 @@ headshot_gallery:
   - image: Megan-Rodriguez.webp
 roles:
   - Actor
+  - Musician
 socials:
   facebook: 
   twitter: 

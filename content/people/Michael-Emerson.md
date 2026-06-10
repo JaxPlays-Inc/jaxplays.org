@@ -12,6 +12,11 @@ birth_info:
 roles:
   - Actor
   - Director
+  - Scenic Designer
+  - Sound Designer
+  - Technical Director
+  - Costuming
+  - Carpenter
 socials:
   facebook: MichaelEmersonOfficial
   twitter: MichaelEmerson

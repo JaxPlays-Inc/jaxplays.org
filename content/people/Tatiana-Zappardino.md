@@ -7,6 +7,7 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Lighting Technician
 socials:
   facebook: TatianaZapComedy
   imdb: nm7508235

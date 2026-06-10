@@ -13,6 +13,7 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Carpenter
 socials:
   facebook: 
   twitter: 

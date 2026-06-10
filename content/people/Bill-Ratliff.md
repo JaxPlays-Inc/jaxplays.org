@@ -10,6 +10,7 @@ headshot_gallery:
   - Bill-Ratliff.webp
 roles:
   - Actor
+  - Property Master
 socials:
   facebook: 
   twitter: 

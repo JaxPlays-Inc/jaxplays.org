@@ -6,6 +6,7 @@ featured_image_attr: Kailin Lake Photography
 featured_image_attr_link: 
 roles:
   - Actor
+  - Musician
 socials:
   facebook: 
   twitter: 

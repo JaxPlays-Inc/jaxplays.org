@@ -10,6 +10,8 @@ featured_image_attr: Kailin Lake
 featured_image_attr_link: 
 roles:
   - Actor
+  - Audio Technician
+  - Lighting Technician
 socials:
   facebook: bob.ohara.7564
   twitter: 

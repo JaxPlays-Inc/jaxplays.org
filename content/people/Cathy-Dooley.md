@@ -10,6 +10,8 @@ roles:
   - Actor
   - Director
   - Musical Director
+  - Costume Designer
+  - Costuming
 socials:
   facebook: 
   twitter: 

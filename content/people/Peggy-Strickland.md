@@ -9,6 +9,10 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Assistant Director
+  - Costuming
+  - Property Master
+  - Painter
 socials:
   facebook: 
   twitter: 

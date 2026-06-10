@@ -10,7 +10,10 @@ equity: true
 sdc: true
 roles:
   - Actor
+  - Playwright
   - Director
+  - Scenic Designer
+  - Sound Designer
 socials:
   facebook: brianniece
   instagram: brianniece

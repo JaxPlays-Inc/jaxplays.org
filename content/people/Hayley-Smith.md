@@ -8,6 +8,7 @@ featured_image_alt:
 featured_image_caption: Hayley Smith
 roles:
   - Actor
+  - Assistant Stage Manager
 socials:
   facebook: 
   twitter: 

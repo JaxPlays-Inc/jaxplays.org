@@ -17,6 +17,9 @@ featured_image_caption: Josh Andrews
 roles:
   - Actor
   - Director
+  - Assistant Director
+  - Sound Designer
+  - Stage Manager
 socials:
   facebook: joshuabrittonandrews
   twitter: joshrews

@@ -10,6 +10,8 @@ headshot_gallery:
   - Anecia-Francis.webp
 roles:
   - Actor
+  - Hair and Wig Designer
+  - Make-up Artist
 socials:
   facebook: 
   twitter: 

@@ -10,6 +10,9 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Assistant Director
+  - Choreographer
+  - Painter
 socials:
   facebook: 
   twitter: 

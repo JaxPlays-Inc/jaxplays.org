@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Property Master
+  - Painter
 socials:
   facebook: chad.boyd.7399
   twitter: 

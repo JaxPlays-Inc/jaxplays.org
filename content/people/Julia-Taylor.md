@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Choreographer
+  - Dance Captain
 socials:
   facebook: 
   twitter: 

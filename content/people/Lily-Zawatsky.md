@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Audio Technician
+  - Assistant Stage Manager
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

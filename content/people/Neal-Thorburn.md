@@ -6,6 +6,9 @@ featured_image_attr:
 featured_image_attr_link: 
 roles:
   - Actor
+  - Audio Technician
+  - Carpenter
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

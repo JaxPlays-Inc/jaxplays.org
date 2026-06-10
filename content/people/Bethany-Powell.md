@@ -4,6 +4,8 @@ date: 2024-06-13T11:18:44-04:00
 featured_image: Bethany-Powell.webp
 featured_image_attr: 
 featured_image_attr_link: 
+roles:
+  - Stage Manager
 socials:
   facebook: bethany.powell.33865
   twitter: 

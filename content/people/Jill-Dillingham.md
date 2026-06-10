@@ -9,6 +9,7 @@ featured_image_caption:
 roles:
   - Director
   - Musical Director
+  - Musician
 socials:
   facebook: 
   twitter: 
