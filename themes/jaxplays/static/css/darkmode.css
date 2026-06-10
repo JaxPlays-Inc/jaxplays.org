@@ -1,5 +1,5 @@
 .dark-mode,
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
 	background-color: #000;
 }
 
@@ -10,7 +10,7 @@
 .dark-mode .blindlink:visited,
 .dark-mode .om-text,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
 {
 	color: #fff !important;
 }
@@ -125,6 +125,72 @@
 
 .dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(4) {
 	border-top-color: #ffd600;
+}
+
+.dark-mode .article-directory,
+.dark-mode .article-directory * {
+	background-color: transparent;
+}
+
+.dark-mode .article-directory {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
+	background-color: var(--jp-paper);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .article-directory a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .article-directory-hero {
+	border-bottom-color: rgba(246, 240, 227, .2);
+}
+
+.dark-mode .article-directory-kicker,
+.dark-mode .article-directory-section-eyebrow {
+	color: var(--jp-red);
+}
+
+.dark-mode .article-directory-subtitle,
+.dark-mode .article-directory-filter-status,
+.dark-mode .article-directory-empty,
+.dark-mode .article-directory-count,
+.dark-mode .article-directory-meta,
+.dark-mode .article-directory-summary {
+	color: var(--jp-muted);
+}
+
+.dark-mode .article-directory-card,
+.dark-mode .article-directory-empty {
+	background-color: var(--jp-cream);
+	border-color: var(--jp-line);
+}
+
+.dark-mode .article-directory-filter {
+	background-color: #111419;
+	border-color: var(--jp-line);
+	color: var(--jp-ink);
+}
+
+.dark-mode .article-directory-filter::placeholder {
+	color: #9f9788;
+}
+
+.dark-mode .article-directory-badge {
+	background-color: var(--jp-teal);
+	color: #fff !important;
+}
+
+.dark-mode .article-directory-badge--review {
+	background-color: var(--jp-red);
+	color: #fff !important;
 }
 
 .dark-mode .theatres-directory,

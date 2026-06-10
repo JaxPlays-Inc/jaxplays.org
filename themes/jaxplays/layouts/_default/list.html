@@ -184,21 +184,129 @@
   })();
 </script>
 {{ else }}
-  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-    {{ if .Content }}
-      <section class="cf pv3 pv4-l f4 lh-copy">
-        {{- .Content -}}
-      </section>
-    {{ end }}
-    <section class="flex-ns flex-wrap justify-around mt5">
-      {{ $paginator := .Paginate .Pages 24 }}
-      {{ range .Paginator.Pages }}
-        <div class="relative w-100 w-45-l mb4 bg-white">
-          {{ .Render "summary" }}
+  {{ $allPages := sort .Pages "Date" "desc" }}
+  {{ $paginator := .Paginate $allPages 24 }}
+  {{ $sectionTitle := .Title | default (.Section | humanize | title) }}
+  {{ $sectionLabel := .Params.eyebrow | default $sectionTitle }}
+  {{ $sectionDescription := .Params.description }}
+  <article class="article-directory">
+    <div class="article-directory-shell">
+      <header class="article-directory-hero">
+        <div>
+          <p class="article-directory-kicker">{{ $sectionLabel }}</p>
+          <h1 class="article-directory-title">{{ $sectionTitle }}</h1>
+          {{ if .Content }}
+            <div class="article-directory-subtitle nested-copy-line-height">
+              {{- .Content -}}
+            </div>
+          {{ else if $sectionDescription }}
+            <p class="article-directory-subtitle">{{ $sectionDescription }}</p>
+          {{ else }}
+            <p class="article-directory-subtitle">Browse the latest articles in this section.</p>
+          {{ end }}
         </div>
-      {{ end }}
-    </section>
-    {{- template "_internal/pagination.html" . -}}
+      </header>
+
+      <div class="article-directory-search">
+        <label class="article-directory-search-label" for="article-directory-filter">Filter this page</label>
+        <input id="article-directory-filter" class="article-directory-filter" type="search" autocomplete="off" placeholder="Search by title, author, date, or summary">
+        <p class="article-directory-filter-status" aria-live="polite" data-article-filter-status>{{ len $paginator.Pages }} shown on this page</p>
+      </div>
+
+      <section class="article-directory-section" aria-labelledby="article-directory-list" data-article-section>
+        <div class="article-directory-section-head sectionline">
+          <div class="article-directory-section-title">
+            <p class="article-directory-section-eyebrow">{{ $sectionLabel }}</p>
+            <h2 id="article-directory-list">Latest {{ $sectionTitle }}</h2>
+          </div>
+          <span class="article-directory-count" data-article-section-count>{{ len $paginator.Pages }} shown</span>
+        </div>
+
+        <div class="article-directory-grid">
+          {{ range $paginator.Pages }}
+            {{ $image := partial "func/GetFeaturedImage.html" . }}
+            {{ $summary := .Params.description | default .Summary }}
+            {{ $searchParts := slice .Title .Section (.Date.Format "January 2, 2006") ($summary | plainify) }}
+            {{ with .Params.authors }}
+              {{ if reflect.IsSlice . }}
+                {{ $searchParts = $searchParts | append (delimit . " ") }}
+              {{ else }}
+                {{ $searchParts = $searchParts | append . }}
+              {{ end }}
+            {{ else }}
+              {{ with .Params.author }}{{ $searchParts = $searchParts | append . }}{{ end }}
+            {{ end }}
+            {{ $searchText := delimit $searchParts " " | lower }}
+            <article class="article-directory-card slow-grow" data-article-card data-article-search="{{ $searchText | htmlEscape }}">
+              <a class="article-directory-card-hitarea" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}"></a>
+              {{ if $image }}
+                <a class="article-directory-image-link" href="{{ .RelPermalink }}">
+                  <img class="article-directory-image" src="{{ $image }}" alt="{{ .Params.featured_image_alt | default .Title }}">
+                </a>
+              {{ end }}
+              <div class="article-directory-card-body">
+                <div class="article-directory-badges">
+                  <span class="article-directory-badge{{ if eq .Section "reviews" }} article-directory-badge--review{{ end }}">{{ .CurrentSection.Title | default (.Section | humanize) }}</span>
+                </div>
+                <a class="article-directory-card-link" href="{{ .RelPermalink }}">
+                  <strong class="article-directory-card-title">{{ .Title }}</strong>
+                </a>
+                <div class="article-directory-meta">
+                  {{ if not .Date.IsZero }}
+                    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}</time>
+                  {{ end }}
+                  {{ with .Params.authors | default .Params.author | default .Site.Params.author }}
+                    <span>
+                      {{ if reflect.IsSlice . }}
+                        {{ delimit . ", " }}
+                      {{ else }}
+                        {{ . }}
+                      {{ end }}
+                    </span>
+                  {{ end }}
+                </div>
+                {{ with $summary }}
+                  <div class="article-directory-summary">{{ . | markdownify | plainify | truncate 190 }}</div>
+                {{ end }}
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+      <p class="article-directory-empty" data-article-filter-empty hidden>No articles on this page match that search.</p>
+      {{- template "_internal/pagination.html" . -}}
+    </div>
   </article>
+
+  <script>
+    (() => {
+      const root = document.querySelector('.article-directory');
+      const input = document.querySelector('#article-directory-filter');
+      if (!root || !input) return;
+
+      const cards = Array.from(root.querySelectorAll('[data-article-card]'));
+      const count = root.querySelector('[data-article-section-count]');
+      const status = root.querySelector('[data-article-filter-status]');
+      const empty = root.querySelector('[data-article-filter-empty]');
+      const normalize = (value) => value.trim().toLowerCase();
+
+      const applyFilter = () => {
+        const query = normalize(input.value);
+        let visibleTotal = 0;
+
+        cards.forEach((card) => {
+          const isMatch = !query || normalize(card.dataset.articleSearch || '').includes(query);
+          card.hidden = !isMatch;
+          if (isMatch) visibleTotal += 1;
+        });
+
+        if (count) count.textContent = `${visibleTotal} shown`;
+        if (status) status.textContent = `${visibleTotal} ${visibleTotal === 1 ? 'article' : 'articles'} shown on this page`;
+        if (empty) empty.hidden = visibleTotal !== 0;
+      };
+
+      input.addEventListener('input', applyFilter);
+    })();
+  </script>
 {{ end }}
 {{ end }}
