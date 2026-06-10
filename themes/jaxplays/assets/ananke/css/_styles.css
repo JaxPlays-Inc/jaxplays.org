@@ -915,7 +915,7 @@ a.production-credit-person.slow-grow:focus,
 	}
 
 	.theatres-directory-card {
-		grid-template-columns: 6.75rem minmax(0, 1fr);
+		grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
 	}
 }
 
@@ -946,20 +946,38 @@ a.production-credit-person.slow-grow:focus,
 		padding: 2.5rem 1rem;
 	}
 
-	.theatres-directory-stats,
 	.theatres-directory-grid,
 	.theatres-directory-grid--archive {
 		grid-template-columns: 1fr;
+	}
+
+	.theatres-directory-panel {
+		padding: .6rem;
+	}
+
+	.theatres-directory-stats {
+		gap: .35rem;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.theatres-directory-stats > span {
+		border-left-width: 3px;
+		padding: .55rem .35rem;
+	}
+
+	.theatres-directory-stats strong {
+		font-size: 1.25rem;
+	}
+
+	.theatres-directory-stats span span {
+		font-size: .65rem;
+		margin-top: .2rem;
 	}
 
 	.theatres-directory-section-head {
 		align-items: start;
 		flex-direction: column;
 		gap: .35rem;
-	}
-
-	.theatres-directory-card {
-		grid-template-columns: 5.5rem minmax(0, 1fr);
 	}
 
 	.production-single .production-detail-card--venue,
