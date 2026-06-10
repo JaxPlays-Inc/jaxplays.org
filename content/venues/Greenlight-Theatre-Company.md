@@ -1,10 +1,9 @@
 ---
-title: Greenlight Theatre Company - Phillips Highway
+title: Greenlight Theatre Company
 venue_aliases:
   - Greenlight Theatre Company - Philips Highway
-  - Greenlight Theatre Company
 building:
-date: 2026-06-07T16:15:36-04:00
+date: 2026-06-09T23:36:57-04:00
 active: true
 featured_image: Greenlight_Theatre_Company.jpeg
 featured_image_attr:

@@ -1,7 +1,7 @@
 ---
 title: Wildlight Elementary School
-date: 2024-06-17T23:41:05-04:00
-active: true
+date: 2026-06-09T23:36:16-04:00
+active: false
 featured_image: Wildlight-Elementary-School.webp
 featured_image_alt: "Logo of Wildlight Trailblazers, featuring a dynamic illustration of blue horse running with gray fire, symbolizing speed and energy. The team name 'Wildlight Trailblazers' is prominently displayed in bold, modern typography, reinforcing the themes of leadership and pioneering spirit."
 featured_image_caption: "Logo for Wildlight Elementary School Trailblazers, depicting spirited horses in motion, which embodies the team's energetic and forward-moving ethos."

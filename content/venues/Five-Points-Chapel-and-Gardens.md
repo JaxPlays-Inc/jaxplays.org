@@ -4,8 +4,8 @@ redirect_from:
   - /venues/five-points-chapel-gardens
 venue_aliases:
   - Five Points Chapel Gardens
-date: 2024-11-12T22:57:08-05:00
-active: true
+date: 2026-06-09T23:36:16-04:00
+active: false
 featured_image: Five-Points-Chapel-and-Gardens.webp
 featured_image_attr: 
 featured_image_alt: 
