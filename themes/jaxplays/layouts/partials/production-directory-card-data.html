@@ -22,7 +22,7 @@
   {{ end }}
 {{ end }}
 
-{{ $venues := $page.Params.venue }}
+{{ $venues := $page.Params.venue | default slice }}
 {{ if eq (printf "%T" $venues) "string" }}
   {{ $venues = slice $venues }}
 {{ end }}
@@ -80,51 +80,38 @@
     {{ end }}
   {{ end }}
 {{ end }}
+{{ $summary = $summary | markdownify | plainify | truncate 220 }}
 
 {{ $searchParts := slice $page.Title $status $openingLabel $closingLabel }}
 {{ with $page.Params.theatre }}{{ $searchParts = $searchParts | append . }}{{ end }}
 {{ with $venues }}{{ $searchParts = $searchParts | append (delimit . " ") }}{{ end }}
 {{ with $genres }}{{ $searchParts = $searchParts | append (delimit . " ") }}{{ end }}
-{{ with $summary }}{{ $searchParts = $searchParts | append (. | plainify) }}{{ end }}
+{{ with $summary }}{{ $searchParts = $searchParts | append . }}{{ end }}
 {{ $searchText := delimit $searchParts " " | lower }}
 
-<article class="productions-directory-card slow-grow" data-production-card data-production-search="{{ $searchText | htmlEscape }}">
-  <a class="productions-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="View {{ $page.Title }}"></a>
-  <a class="productions-directory-poster-link" href="{{ $page.RelPermalink }}">
-    <img class="productions-directory-poster" src="{{ $posterPath }}" alt="{{ $posterAlt }}">
-  </a>
-  <div class="productions-directory-card-body">
-    <div class="productions-directory-badges">
-      {{ if eq $status "Coming Soon" }}
-        <span class="home-dashboard-badge red">Opens {{ time.Format "Jan 2" (time $page.Params.opening_date) }}</span>
-      {{ else if eq $status "Past Production" }}
-        <span class="productions-directory-badge productions-directory-badge--archive">{{ with $page.Params.closing_date }}Closed {{ time.Format "Jan 2, 2006" (time .) }}{{ else }}Past Production{{ end }}</span>
-      {{ else }}
-        <span class="productions-directory-badge">{{ $status }}</span>
-      {{ end }}
-      {{ with first 3 $genres }}
-        {{ range . }}
-          <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-      {{ end }}
-    </div>
-    <a class="productions-directory-card-link" href="{{ $page.RelPermalink }}">
-      <strong class="productions-directory-card-title">{{ $page.Title }}</strong>
-    </a>
-    <div class="productions-directory-meta">
-      {{ with $page.Params.theatre }}<span class="productions-directory-theatre db">{{ . }}</span>{{ end }}
-      {{ with $displayVenues }}<span class="db">{{ delimit . " / " }}</span>{{ end }}
-    </div>
-    {{ if or $openingLabel $closingLabel }}
-      <div class="productions-directory-dates">
-        {{ $openingLabel }}{{ if $closingLabel }} - {{ $closingLabel }}{{ end }}
-      </div>
-    {{ end }}
-    {{ with $summary }}
-      <div class="productions-directory-summary">{{ . | markdownify | plainify | truncate 220 }}</div>
-    {{ end }}
-    <div class="productions-directory-actions">
-      {{ if $showTickets }}{{ with $page.Params.tickets }}<a class="productions-directory-ticket tickets" href="{{ . }}" target="_blank" rel="noopener" aria-label="Buy tickets for {{ $page.Title }}"></a>{{ end }}{{ end }}
-    </div>
-  </div>
-</article>
+{{ $archiveBadge := "" }}
+{{ if eq $status "Past Production" }}
+  {{ with $page.Params.closing_date }}
+    {{ $archiveBadge = printf "Closed %s" (time.Format "Jan 2, 2006" (time .)) }}
+  {{ else }}
+    {{ $archiveBadge = "Past Production" }}
+  {{ end }}
+{{ end }}
+
+{{ return dict
+  "title" $page.Title
+  "url" $page.RelPermalink
+  "poster" $posterPath
+  "posterAlt" $posterAlt
+  "status" $status
+  "openingLabel" $openingLabel
+  "closingLabel" $closingLabel
+  "theatre" $theatreName
+  "venues" $displayVenues
+  "genres" $genres
+  "summary" $summary
+  "tickets" ($page.Params.tickets | default "")
+  "showTickets" $showTickets
+  "archiveBadge" $archiveBadge
+  "search" $searchText
+}}

@@ -27,6 +27,20 @@
   {{ $sortedPages = $sortedPages | append .page }}
 {{ end }}
 {{ $paginator := .Paginate $sortedPages 24 }}
+{{ $productionIndex := slice }}
+{{ $playCount := 0 }}
+{{ $musicalCount := 0 }}
+{{ range $sortedPages }}
+  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Past Production" "showTickets" false)) }}
+{{ end }}
+{{ range $productionIndex }}
+  {{ if in .genres "Play" }}
+    {{ $playCount = add $playCount 1 }}
+  {{ end }}
+  {{ if in .genres "Musical" }}
+    {{ $musicalCount = add $musicalCount 1 }}
+  {{ end }}
+{{ end }}
 
 <article class="productions-directory productions-directory--past">
   <div class="productions-directory-shell">
@@ -39,24 +53,24 @@
       <div class="productions-directory-panel">
         <div class="productions-directory-stats">
           <span>
+            <strong>{{ $playCount }}</strong>
+            <span>Plays</span>
+          </span>
+          <span>
+            <strong>{{ $musicalCount }}</strong>
+            <span>Musicals</span>
+          </span>
+          <span>
             <strong>{{ len $sortedPages }}</strong>
-            <span>Archived</span>
-          </span>
-          <span>
-            <strong>{{ len $paginator.Pages }}</strong>
-            <span>This Page</span>
-          </span>
-          <span>
-            <strong>{{ $paginator.TotalPages }}</strong>
-            <span>Pages</span>
+            <span>Past Total</span>
           </span>
         </div>
       </div>
     </header>
 
     <div class="productions-directory-search">
-      <label class="productions-directory-search-label" for="past-productions-filter">Filter this page</label>
-      <input id="past-productions-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search visible archive cards by title, theatre, venue, genre, or description">
+      <label class="productions-directory-search-label" for="past-productions-filter">Filter all past productions</label>
+      <input id="past-productions-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search the full archive by title, theatre, venue, genre, or description">
       <p class="productions-directory-filter-status" aria-live="polite" data-production-filter-status>{{ len $paginator.Pages }} productions shown on this page</p>
     </div>
 
@@ -74,7 +88,7 @@
         {{ end }}
       </div>
     </section>
-    <p class="productions-directory-empty" data-production-filter-empty hidden>No visible past productions match that search.</p>
+    <p class="productions-directory-empty" data-production-filter-empty hidden>No past productions match that search.</p>
 
     <div data-production-pagination>
       {{ template "_internal/pagination.html" . }}
@@ -82,5 +96,6 @@
   </div>
 </article>
 
-{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#past-productions-filter") }}
+<script type="application/json" id="production-directory-data">{{ $productionIndex | jsonify }}</script>
+{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#past-productions-filter" "searchEyebrow" "Past productions" "searchTitle" "Search Results") }}
 {{ end }}

@@ -3,6 +3,9 @@
 {{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
 {{ $currentProductions := slice }}
 {{ $upcomingProductions := slice }}
+{{ $currentSearchProductions := slice }}
+{{ $upcomingSearchProductions := slice }}
+{{ $pastSearchProductions := slice }}
 
 {{ range where .Site.RegularPages "Section" "productions" }}
   {{ $production := . }}
@@ -16,19 +19,41 @@
   {{ with $production.Params.closing_date }}
     {{ $endDate = time . | time.Format "2006-01-02" }}
   {{ end }}
+  {{ if and $startDate (not $endDate) }}
+    {{ $endDate = $startDate }}
+  {{ end }}
 
   {{ if $startDate }}
     {{ if and $endDate (le $startDate $currentDate) (ge $endDate $currentDate) }}
       {{ $currentProductions = $currentProductions | append $production }}
+      {{ $currentSearchProductions = $currentSearchProductions | append $production }}
     {{ else if and (gt $startDate $currentDate) (le $startDate $futureDate) }}
       {{ $upcomingProductions = $upcomingProductions | append $production }}
+      {{ $upcomingSearchProductions = $upcomingSearchProductions | append $production }}
+    {{ else if gt $startDate $currentDate }}
+      {{ $upcomingSearchProductions = $upcomingSearchProductions | append $production }}
+    {{ else }}
+      {{ $pastSearchProductions = $pastSearchProductions | append $production }}
     {{ end }}
   {{ end }}
 {{ end }}
 
 {{ $currentProductions = sort $currentProductions "Params.closing_date" "asc" }}
 {{ $upcomingProductions = sort $upcomingProductions "Params.opening_date" "asc" }}
+{{ $currentSearchProductions = sort $currentSearchProductions "Params.closing_date" "asc" }}
+{{ $upcomingSearchProductions = sort $upcomingSearchProductions "Params.opening_date" "asc" }}
+{{ $pastSearchProductions = sort $pastSearchProductions "Params.opening_date" "desc" }}
 {{ $totalProductions := add (len $currentProductions) (len $upcomingProductions) }}
+{{ $productionIndex := slice }}
+{{ range $currentSearchProductions }}
+  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Now Playing")) }}
+{{ end }}
+{{ range $upcomingSearchProductions }}
+  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Coming Soon")) }}
+{{ end }}
+{{ range $pastSearchProductions }}
+  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Past Production" "showTickets" false)) }}
+{{ end }}
 
 <article class="productions-directory">
   <div class="productions-directory-shell">
@@ -95,5 +120,6 @@
   </div>
 </article>
 
-{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#productions-directory-filter") }}
+<script type="application/json" id="production-directory-data">{{ $productionIndex | jsonify }}</script>
+{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#productions-directory-filter" "searchEyebrow" "All productions" "searchTitle" "Search Results") }}
 {{ end }}

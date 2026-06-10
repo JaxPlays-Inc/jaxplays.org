@@ -297,6 +297,10 @@
 	color: var(--jp-muted) !important;
 }
 
+.dark-mode .productions-directory-theatre {
+	color: var(--jp-ink) !important;
+}
+
 .dark-mode .productions-directory-panel,
 .dark-mode .productions-directory-stats > span,
 .dark-mode .productions-directory-card,

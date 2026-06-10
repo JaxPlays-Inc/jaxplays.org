@@ -22,6 +22,10 @@
 {{ $futureProductions = sort $futureProductions "Params.opening_date" "asc" }}
 {{ $nearFutureProductions = sort $nearFutureProductions "Params.opening_date" "asc" }}
 {{ $totalUpcoming := add (len $nearFutureProductions) (len $futureProductions) }}
+{{ $productionIndex := slice }}
+{{ range $futureProductions }}
+  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Coming Soon")) }}
+{{ end }}
 
 <article class="productions-directory productions-directory--future">
   <div class="productions-directory-shell">
@@ -34,16 +38,16 @@
       <div class="productions-directory-panel">
         <div class="productions-directory-stats">
           <span>
-            <strong>{{ len $futureProductions }}</strong>
-            <span>Future</span>
-          </span>
-          <span>
             <strong>{{ len $nearFutureProductions }}</strong>
             <span>Next 30 Days</span>
           </span>
           <span>
+            <strong>{{ len $futureProductions }}</strong>
+            <span>Beyond 30 Days</span>
+          </span>
+          <span>
             <strong>{{ $totalUpcoming }}</strong>
-            <span>Upcoming Total</span>
+            <span>Future Total</span>
           </span>
         </div>
       </div>
@@ -73,5 +77,6 @@
   </div>
 </article>
 
-{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#future-productions-filter") }}
+<script type="application/json" id="production-directory-data">{{ $productionIndex | jsonify }}</script>
+{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#future-productions-filter" "searchEyebrow" "Future productions" "searchTitle" "Search Results") }}
 {{ end }}
