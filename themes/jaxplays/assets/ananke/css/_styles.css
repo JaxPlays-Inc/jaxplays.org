@@ -813,6 +813,52 @@ h1 a.jaxplayslogo {
 	background: var(--jp-gold);
 }
 
+.people-list-grid {
+	display: grid;
+	gap: 2rem 1.25rem;
+	grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+	justify-items: center;
+}
+
+.people-list-person {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	max-width: 12rem;
+	min-width: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.people-list-headshot {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100%;
+	display: block;
+	height: 11rem;
+	margin-bottom: .75rem;
+	width: 11rem;
+}
+
+.people-list-name {
+	display: block;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.25;
+	overflow-wrap: anywhere;
+	width: 100%;
+}
+
+.people-list-role {
+	color: var(--jp-muted);
+	display: block;
+	font-size: .875rem;
+	line-height: 1.25;
+	margin-top: .25rem;
+	width: 100%;
+}
+
 .slow-grow {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-backface-visibility: hidden;
@@ -860,6 +906,12 @@ a.production-credit-person.slow-grow:focus,
 			"main side"
 			"showtimes showtimes";
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	}
+}
+
+@media (max-width: 55em) {
+	.people-list-grid {
+		gap: 1.5rem .75rem;
 	}
 }
 
@@ -916,6 +968,10 @@ a.production-credit-person.slow-grow:focus,
 
 	.theatres-directory-card {
 		grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+	}
+
+	.people-list-name {
+		font-size: .95rem;
 	}
 }
 

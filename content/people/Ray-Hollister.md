@@ -1,9 +1,5 @@
 ---
 title: Ray Hollister
-aliases: 
-  - /people/rayburn-hollister
-other_names: 
- - Rayburn Hollister
 layout: people
 featured_image: Ray_Hollister.jpg
 featured_image_attr: Ray Hollister
