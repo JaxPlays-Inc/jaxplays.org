@@ -21,7 +21,7 @@
   {{ $imageFolder = "" }}
 {{- end -}}
 
-{{- with $.Params.featured_image -}}
+{{- with partial "func/GetFeaturedImage.html" . -}}
     <meta property="og:image" content="{{ . | absURL }}" />
     <meta property="og:image:width" content="1200" /> <!-- Add your actual image width here -->
     <meta property="og:image:height" content="630" /> <!-- Add your actual image height here -->

@@ -639,6 +639,55 @@ h1 a.jaxplayslogo {
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.author-article-directory-hero {
+	align-items: start;
+	display: grid;
+	gap: 1.25rem;
+	grid-template-columns: minmax(0, 1fr) minmax(180px, 280px);
+}
+
+.author-article-directory-portrait {
+	background: white;
+	margin: 0;
+}
+
+.author-article-directory-portrait a {
+	display: block;
+}
+
+.author-article-directory-portrait img {
+	aspect-ratio: 4 / 5;
+	display: block;
+	object-fit: cover;
+	width: 100%;
+}
+
+.author-article-directory-portrait figcaption {
+	color: var(--jp-muted);
+	font-size: .8rem;
+	line-height: 1.35;
+	margin-top: .5rem;
+}
+
+.people-single-profile {
+	align-items: flex-start;
+}
+
+.people-single-headshot-column {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.people-single-headshot-column a {
+	display: block;
+}
+
+.people-single-headshot {
+	aspect-ratio: 4 / 5;
+	display: block;
+	object-fit: cover;
+}
+
 .article-directory-card {
 	background: white;
 	border: 1px solid var(--jp-line);
@@ -1804,8 +1853,13 @@ a.production-credit-person.slow-grow:focus,
 	.theatres-directory-hero,
 	.theatres-directory-grid,
 	.theatres-directory-grid--archive,
+	.author-article-directory-hero,
 	.article-directory-grid {
 		grid-template-columns: 1fr;
+	}
+
+	.author-article-directory-portrait {
+		max-width: 280px;
 	}
 
 	.productions-directory-card,

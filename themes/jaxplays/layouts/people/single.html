@@ -38,7 +38,7 @@
       {{ end }}
     {{ end }}
 
-    <div class="flex flex-column flex-row-ns">
+    <div class="people-single-profile flex flex-column flex-row-ns">
       <!-- Featured Image Section -->
       {{/* Always set an image path: use headshot if present, else default headshot */}}
       {{ $imagePath := "" }}
@@ -49,11 +49,11 @@
       {{ end }}
 
       {{ $headshotLightbox := printf "headshots-%s" (.File.BaseFileName | urlize) }}
-      <div class="w-75 w-40-m w-25-l flex-column center">
+      <div class="people-single-headshot-column w-75 w-40-m w-25-l flex-column">
         {{ if $featuredImage }}
           <a href="{{ $imagePath }}" data-lightbox="{{ $headshotLightbox }}"
             data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-            <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
+            <img src="{{ $imagePath }}" class="people-single-headshot w5-ns w-100" alt="{{ $featuredImageAlt }}" />
           </a>
           {{ range .Params.headshot_gallery }}
             {{ $galleryImage := . }}
@@ -86,7 +86,7 @@
             {{ end }}
           {{ end }}
         {{ else }}
-          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
+          <img src="{{ $imagePath }}" class="people-single-headshot w5-ns w-100" alt="{{ $featuredImageAlt }}" />
         {{ end }}
         {{ if .Params.socials }}
         {{ partial "social-media-links.html" . }}
