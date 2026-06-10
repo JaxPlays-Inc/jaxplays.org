@@ -355,6 +355,88 @@ h1 a.jaxplayslogo {
 	border-bottom: 0;
 }
 
+.production-single .production-review-grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.production-single .production-review-card {
+	background: #fff;
+	border: 1px solid #d7d2c8;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr;
+	overflow: hidden;
+}
+
+.production-single .production-review-link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.production-single .production-review-link:hover,
+.production-single .production-review-link:focus,
+.production-single .production-review-summary a:hover,
+.production-single .production-review-summary a:focus {
+	text-decoration: none;
+}
+
+.production-single .production-review-image {
+	aspect-ratio: 16 / 9;
+	background: #ddd;
+	display: block;
+	object-fit: cover;
+	width: 100%;
+}
+
+.production-single .production-review-body {
+	display: block;
+	padding: .9rem;
+}
+
+.production-single .production-review-badge {
+	background: #18736b;
+	border-radius: 999px;
+	color: #fff;
+	display: inline-block;
+	font-size: .72rem;
+	font-weight: 800;
+	line-height: 1;
+	margin-bottom: .5rem;
+	padding: .35rem .5rem;
+	text-transform: uppercase;
+}
+
+.production-single .production-review-title {
+	display: block;
+	line-height: 1.2;
+}
+
+.production-single .production-review-meta {
+	color: #5f6670;
+	display: block;
+	font-size: .85rem;
+	line-height: 1.35;
+	margin-top: .25rem;
+}
+
+.production-single .production-review-summary {
+	display: -webkit-box;
+	margin-top: .65rem;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+
+.production-single .production-review-summary p {
+	margin: 0;
+}
+
+.production-single .production-review-summary-link {
+	display: inline-block;
+}
+
 .slow-grow {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-backface-visibility: hidden;
@@ -451,6 +533,10 @@ a.production-credit-person.slow-grow:focus {
 	.production-single .production-detail-card--venue {
 		grid-template-columns: 1fr;
 	}
+
+	.production-single .production-review-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 	.production-single .production-venue-map {
 	  aspect-ratio: 4 / 3;
 	}
@@ -468,6 +554,10 @@ a.production-credit-person.slow-grow:focus {
 
 	.production-single .production-detail-card--venue,
 	.production-single .production-show-detail-row {
+		grid-template-columns: 1fr;
+	}
+
+	.production-single .production-review-grid {
 		grid-template-columns: 1fr;
 	}
 

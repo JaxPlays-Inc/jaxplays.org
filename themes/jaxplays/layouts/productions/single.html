@@ -550,40 +550,55 @@
 {{ end }}
 
 {{ if or $relatedReviews .Params.reviews }}
-<div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
+<div class="production-reviews nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
   <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
+  <div class="production-review-grid">
   {{ range $relatedReviews }}
-  {{ $description := .Params.description }}
-  {{ $summary := .Summary }}
-  {{ $summaryLength := len $summary }}
-
-  {{ if not $description }}
-  {{ if gt $summaryLength 0 }}
-  {{ if gt $summaryLength 300 }}
-  {{ $description = printf "%s..." (substr $summary 0 300) }}
-  {{ else }}
-  {{ $description = substr $summary 0 $summaryLength }}
+  {{ $image := partial "func/GetFeaturedImage.html" . }}
+  {{ $summarySource := .Summary }}
+  {{ with .Params.description }}
+  {{ $summarySource = . | markdownify }}
   {{ end }}
-  {{ end }}
-  {{ else }}
-
-  {{ $description = $description | markdownify | safeHTML }}
-  {{ end }}
-  <h4><a href="{{ .RelPermalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
-  {{/* {{ $summary := .Summary | plainify | safeHTML }} */}}
-  <span class="db">{{- partial "content-wikilinks" $description | safeHTML -}}
-    {{/* {{ $description | safeHTML }}</span> */}}
-  <a href="{{ .RelPermalink }}"
-    class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  {{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " "<a class=\"production-review-summary-link\" " | safeHTML }}
+  <article class="production-review-card slow-grow">
+    <a class="production-review-link" href="{{ .RelPermalink }}">
+      {{ if $image }}
+      <img class="production-review-image" src="{{ $image }}" alt="{{ .Params.featured_image_alt | default .Title }}">
+      {{ else }}
+      <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+      {{ end }}
+    </a>
+    <div class="production-review-body">
+      <span class="production-review-badge">Review</span>
+      <a class="production-review-link" href="{{ .RelPermalink }}">
+        <strong class="production-review-title">{{ .Title }}</strong>
+      </a>
+      <span class="production-review-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <div class="production-review-meta production-review-summary">{{ $summary }}</div>
+    </div>
+  </article>
   {{ end }}
 
   {{ if .Params.reviews }}
-  {{ range .Params.reviews }} <!-- Iterate over the crew array -->
+  {{ range .Params.reviews }}
   {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
-  <h4><a href="{{ $reviewURL  }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
+  <article class="production-review-card slow-grow">
+    <a class="production-review-link" href="{{ $reviewURL }}" target="_blank">
+      <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $reviewTitle }}">
+    </a>
+    <div class="production-review-body">
+      <span class="production-review-badge">Review</span>
+      <a class="production-review-link" href="{{ $reviewURL }}" target="_blank">
+        <strong class="production-review-title">{{ $reviewTitle }}</strong>
+      </a>
+      <span class="production-review-meta">External review</span>
+    </div>
+  </article>
   {{ end }}
   {{ end }}
   {{ end }}
+  </div>
+</div>
   {{ end }}
 
   <!-- Press -->
