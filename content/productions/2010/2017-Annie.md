@@ -92,10 +92,22 @@ crew:
 - Company Manager: Lisa Valdini Booth
 orchestra:
 description: Little orphan Annie charms everyone's hearts despite a next-to-nothing start in 1930s New York City. She is determined to find her parents and get away from evil Miss Hannigan.
-reviews: 
-- "Theater review: Alhambra's 'Annie' demonstrates Tod Booth's skills as a director | Florida Times-Union": https://www.jacksonville.com/story/entertainment/local/2017/07/05/theater-review-alhambra-s-annie-demonstrates-tod-booth-s-skills/15762132007/
-- "Tomorrow Is Here “ANNIE” At The Alhambra | Folio Weekly": https://folioweekly.com/2017/07/03/tomorrow-is-here-annie-at-the-alhambra/
-- "Review: Alhambra Dinner Theatre presents ANNIE | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/BWW-Review-Alhambra-Dinner-Theatre-presents-ANNIE-20170705
+reviews:
+- title: 'Theater review: Alhambra''s ''Annie'' demonstrates Tod Booth''s skills as a director'
+  uri: https://www.jacksonville.com/story/entertainment/local/2017/07/05/theater-review-alhambra-s-annie-demonstrates-tod-booth-s-skills/15762132007/
+  outlet: Florida Times-Union
+  description: ''
+  featured_image: ''
+- title: Tomorrow Is Here “ANNIE” At The Alhambra
+  uri: https://web.archive.org/web/20251104143339/https://folioweekly.com/2017/07/03/tomorrow-is-here-annie-at-the-alhambra/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+- title: 'Review: Alhambra Dinner Theatre presents ANNIE'
+  uri: https://www.broadwayworld.com/jacksonville/article/BWW-Review-Alhambra-Dinner-Theatre-presents-ANNIE-20170705
+  outlet: BroadwayWorld
+  description: ''
+  featured_image: ''
 press: 
 - "Arts Notes: Alhambra has it's Annies | Florida Times-Union": https://www.jacksonville.com/story/entertainment/local/2017/06/25/arts-notes-alhambra-has-it-s-annies/15761008007/
 ---

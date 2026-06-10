@@ -66,5 +66,10 @@ crew:
   - Karl Rogers
 orchestra:
 reviews:
-- Theatre Jacksonville Presents 'The Constant Couple': /media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg
+- title: Theatre Jacksonville Presents 'The Constant Couple'
+  uri: "/media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg"
+  outlet: 'First Coast Entertainer'
+  description: "A Restoration Play About Sex In The '90s (The 1690's)"
+  featured_image: '/media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg'
+
 ---

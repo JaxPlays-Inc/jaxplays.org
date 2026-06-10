@@ -113,8 +113,12 @@ crew:
   - Dante Gathings
   - Thaddaeus Walker
 orchestra:
-reviews: 
-- "Cain’t Say No to OKLAHOMA! at the Alhambra | Folio Weekly": https://folioweekly.com/2024/02/24/caint-say-no-to-oklahoma-at-the-alhambra/
+reviews:
+- title: Cain’t Say No to OKLAHOMA! at the Alhambra
+  uri: https://folioweekly.com/2024/02/24/caint-say-no-to-oklahoma-at-the-alhambra/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
 press:
 - "OKLAHOMA! to be Presented at Alhambra Theatre & Dining This Month | BroadwayWorld": https://web.archive.org/web/20240216222150/https://www.broadwayworld.com/jacksonville/article/OKLAHOMA-to-be-Presented-at-Alhambra-Theatre-Dining-This-Month-20240216
 ---

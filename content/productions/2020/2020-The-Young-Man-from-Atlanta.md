@@ -51,6 +51,11 @@ cast:
 crew:
 - Director: Mike Beaman
 reviews:
-- St. Augustine Record - Limelight drama presents realistic view of grief recovery: https://www.staugustine.com/entertainment/20200117/limelight-drama-presents-realistic-view-of-grief-recovery
+- title: Limelight drama presents realistic view of grief recovery
+  uri: https://www.staugustine.com/entertainment/20200117/limelight-drama-presents-realistic-view-of-grief-recovery
+  outlet: 'St. Augustine Record'
+  description: ''
+  featured_image: ''
+
 ---
 *The Young Man from Atlanta* is a play written by Horton Foote that deals with the themes of grief, family, and homosexuality. The play follows the story of two parents as they try to come to terms with the death of their only son and his secret life. 

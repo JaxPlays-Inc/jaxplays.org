@@ -395,6 +395,13 @@ h1 a.jaxplayslogo {
 	padding: .9rem;
 }
 
+.production-single .production-review-badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .4rem;
+	margin-bottom: .5rem;
+}
+
 .production-single .production-review-badge {
 	background: #18736b;
 	border-radius: 999px;
@@ -403,9 +410,12 @@ h1 a.jaxplayslogo {
 	font-size: .72rem;
 	font-weight: 800;
 	line-height: 1;
-	margin-bottom: .5rem;
 	padding: .35rem .5rem;
 	text-transform: uppercase;
+}
+
+.production-single .production-review-badge--outlet {
+	background: var(--jaxplays-red);
 }
 
 .production-single .production-review-title {
@@ -435,6 +445,31 @@ h1 a.jaxplayslogo {
 
 .production-single .production-review-summary-link {
 	display: inline-block;
+}
+
+.production-single .program-preview-link {
+	display: block;
+	max-width: 300px;
+	width: 100%;
+}
+
+.production-single .program-preview-link:hover,
+.production-single .program-preview-link:focus {
+	text-decoration: none;
+}
+
+.production-single .program-preview-image {
+	aspect-ratio: 2 / 3;
+	border: 1px solid rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	display: block;
+	height: auto;
+	object-fit: cover;
+	width: 100%;
+}
+
+.production-single .program-preview-fallback {
+	font-weight: 800;
 }
 
 .slow-grow {

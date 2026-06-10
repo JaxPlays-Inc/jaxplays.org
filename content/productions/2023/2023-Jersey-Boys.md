@@ -70,6 +70,15 @@ showtimes:
 - 2023-06-04 12:00:00
 - 2023-06-05 18:00:00
 reviews:
-- Oh, What a Night! with Jersey Boys at The Alhambra | Folio Weekly: https://web.archive.org/web/20230516195146/https://folioweekly.com/2023/04/29/oh-what-a-night-with-jersey-boys-at-the-alhambra/
-- 'Review: JERSEY BOYS at Alhambra Theatre and Dining | BroadwayWorld' : https://www.broadwayworld.com/jacksonville/article/Review-JERSEY-BOYS-at-Alhambra-Theatre-and-Dining-20230429
+- title: Oh, What a Night! with Jersey Boys at The Alhambra
+  uri: https://web.archive.org/web/20230516195146/https://folioweekly.com/2023/04/29/oh-what-a-night-with-jersey-boys-at-the-alhambra/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+- title: 'Review: JERSEY BOYS at Alhambra Theatre and Dining'
+  uri: https://www.broadwayworld.com/jacksonville/article/Review-JERSEY-BOYS-at-Alhambra-Theatre-and-Dining-20230429
+  outlet: BroadwayWorld
+  description: ''
+  featured_image: ''
+
 ---

@@ -117,11 +117,27 @@ crew:
   - Sarah Brace
 - Stage Crew: Kolby James
 orchestra:
-reviews: 
-- "Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
-- "Alhambra’s ‘Fiddler’ worth the 25-year wait | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/alhambras-fiddler-worth-the-25-year-wait,60216
-- "FIDDLER hits all the right notes at the Alhambra | Folio Weekly": https://folioweekly.com/2023/08/07/fiddler-hits-all-the-right-notes-at-the-alhambra/
-- "Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
+reviews:
+- title: 'Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining'
+  uri: https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
+  outlet: BroadwayWorld
+  description: ''
+  featured_image: ''
+- title: Alhambra’s ‘Fiddler’ worth the 25-year wait
+  uri: https://pontevedrarecorder.com/stories/alhambras-fiddler-worth-the-25-year-wait,60216
+  outlet: Ponte Vedra Recorder
+  description: ''
+  featured_image: ''
+- title: FIDDLER hits all the right notes at the Alhambra
+  uri: https://folioweekly.com/2023/08/07/fiddler-hits-all-the-right-notes-at-the-alhambra/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+- title: 'Review: FIDDLER ON THE ROOF at Alhambra Theatre and Dining'
+  uri: https://www.broadwayworld.com/jacksonville/article/Review-FIDDLER-ON-THE-ROOF-at-Alhambra-Theatre-and-Dining-20230806
+  outlet: Broadway World
+  description: ''
+  featured_image: ''
 press: 
 - "The Alhambra presents “Fiddler On The Roof” | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2023/08/04/the-alhambra-presents-fiddler-on-the-roof/
 - "'Fiddler on the Roof' returns to the Alhambra after 20 years | The Florida Times-Union": https://www.jacksonville.com/picture-gallery/entertainment/arts/2023/08/04/fiddler-on-the-roof-returns-to-jacksonvilles-alhambra-theatre-dining/12314744002/

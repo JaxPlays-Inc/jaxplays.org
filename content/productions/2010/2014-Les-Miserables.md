@@ -67,6 +67,11 @@ orchestra:
     - Kimberly Beasley
 press:
 - "Les Miserables at Theatre Jacksonville in San Marco! | MySanMarco.com" : https://mysanmarco.com/2014/05/20/les-miserables-at-theatre-jacksonville-in-san-marco/
-reviews: 
-- "Les Misérables wows them at Theatre Jax – with help of Fine Arts faculty and students | The Wave Magazine": https://wavemagazineonline.com/les-miserables-wows-them-at-theatre-jax-with-help-of-fine-arts-faculty-and-students/
+reviews:
+- title: Les Misérables wows them at Theatre Jax – with help of Fine Arts faculty and students
+  uri: https://web.archive.org/web/20241202134814/https://wavemagazineonline.com/les-miserables-wows-them-at-theatre-jax-with-help-of-fine-arts-faculty-and-students/
+  outlet: The Wave Magazine
+  description: ''
+  featured_image: ''
+
 ---

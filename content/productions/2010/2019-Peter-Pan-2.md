@@ -73,7 +73,12 @@ orchestra:
 genres: 
 description: "This is NOT the PETER PAN you think it is..."
 reviews:
-- "Jason Woods’ 'Peter Pan' Flies Back to Town to Theatre Jacksonville Stage | Folio Weekly": https://folioweekly.com/staging/2019/07/17/jason-woods-peter-pan-theatre-jacksonville/
+- title: Jason Woods’ 'Peter Pan' Flies Back to Town to Theatre Jacksonville Stage
+  uri: https://folioweekly.com/staging/2019/07/17/jason-woods-peter-pan-theatre-jacksonville/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+
 ---
 A NEW adaptation of Peter Pan with original music and songs, written and directed by Jason Woods.
 

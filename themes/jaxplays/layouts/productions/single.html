@@ -569,7 +569,10 @@
       {{ end }}
     </a>
     <div class="production-review-body">
-      <span class="production-review-badge">Review</span>
+      <div class="production-review-badges">
+        <span class="production-review-badge">Review</span>
+        <span class="production-review-badge production-review-badge--outlet">JaxPlays</span>
+      </div>
       <a class="production-review-link" href="{{ .RelPermalink }}">
         <strong class="production-review-title">{{ .Title }}</strong>
       </a>
@@ -580,21 +583,56 @@
   {{ end }}
 
   {{ if .Params.reviews }}
-  {{ range .Params.reviews }}
-  {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
+  {{ range $review := .Params.reviews }}
+  {{ $reviewTitle := "" }}
+  {{ $reviewURI := "" }}
+  {{ $reviewOutlet := "" }}
+  {{ $reviewDescription := "" }}
+  {{ $reviewImage := "" }}
+  {{ if in (printf "%T" $review) "map" }}
+  {{ $reviewTitle = index $review "title" | default "" }}
+  {{ $reviewURI = index $review "uri" | default "" }}
+  {{ $reviewOutlet = index $review "outlet" | default "" }}
+  {{ $reviewDescription = index $review "description" | default "" }}
+  {{ $reviewImage = index $review "featured_image" | default "" }}
+  {{ if not $reviewURI }}
+  {{ range $legacyTitle, $legacyURI := $review }}
+  {{ if not (in (slice "title" "uri" "outlet" "description" "featured_image") $legacyTitle) }}
+  {{ $reviewTitle = $legacyTitle }}
+  {{ $reviewURI = $legacyURI }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ else }}
+  {{ $reviewTitle = $review }}
+  {{ end }}
+  {{ $reviewSummary := "" }}
+  {{ with $reviewDescription }}
+  {{ $reviewSummary = partial "content-wikilinks" (. | markdownify) | replaceRE "<a " "<a class=\"production-review-summary-link\" " | safeHTML }}
+  {{ end }}
   <article class="production-review-card slow-grow">
-    <a class="production-review-link" href="{{ $reviewURL }}" target="_blank">
+    <a class="production-review-link" href="{{ $reviewURI }}" target="_blank" rel="noopener">
+      {{ if $reviewImage }}
+      <img class="production-review-image" src="{{ $reviewImage }}" alt="{{ $reviewTitle }}">
+      {{ else }}
       <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $reviewTitle }}">
+      {{ end }}
     </a>
     <div class="production-review-body">
-      <span class="production-review-badge">Review</span>
-      <a class="production-review-link" href="{{ $reviewURL }}" target="_blank">
+      <div class="production-review-badges">
+        <span class="production-review-badge">Review</span>
+        {{ with $reviewOutlet }}<span class="production-review-badge production-review-badge--outlet">{{ . }}</span>{{ end }}
+      </div>
+      <a class="production-review-link" href="{{ $reviewURI }}" target="_blank" rel="noopener">
         <strong class="production-review-title">{{ $reviewTitle }}</strong>
       </a>
-      <span class="production-review-meta">External review</span>
+      {{ if $reviewSummary }}
+      <div class="production-review-meta production-review-summary">{{ $reviewSummary }}</div>
+      {{ else }}
+      {{ with $reviewOutlet }}<span class="production-review-meta">External review</span>{{ end }}
+      {{ end }}
     </div>
   </article>
-  {{ end }}
   {{ end }}
   {{ end }}
   </div>
@@ -620,13 +658,38 @@
     <h3 class="f3 mt4 mb3 sectionline">Program</h3>
 
     <div class="program-preview flex justify-center">
-      <p class="mt3">
-        {{/* <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
-          View Program (PDF)
-        </a> */}}
-        {{ partial "embed-pdf.html" (dict "url" (printf "/media/programs/%s" .Params.program) "width" "300px"
-        "hidePaginator" "true" "download" "false" "lightbox" "true" "Site" .Site) }}
-      </p>
+      {{ $program := printf "%v" .Params.program }}
+      {{ $isRemoteProgram := or (hasPrefix $program "http://") (hasPrefix $program "https://") }}
+      {{ if and $isRemoteProgram (in $program "playbillder.com") }}
+        {{ $programImage := "" }}
+        {{ with try (resources.GetRemote $program) }}
+          {{ with .Err }}
+            {{ warnf "Unable to fetch Playbillder program metadata for %s: %s" $program . }}
+          {{ else with .Value }}
+            {{ $matches := findRESubmatch `<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']` .Content 1 }}
+            {{ with index $matches 0 }}
+              {{ $programImage = index . 1 }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <a href="{{ $program }}" target="_blank" rel="noopener" class="program-preview-link link color-inherit">
+          {{ if $programImage }}
+          <img class="program-preview-image" src="{{ $programImage }}" alt="{{ .Title }} program cover">
+          {{ else }}
+          <span class="program-preview-fallback ba b--black-10 bg-white db pa3 tc">
+            View Program
+          </span>
+          {{ end }}
+        </a>
+      {{ else }}
+        <p class="mt3">
+          {{/* <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
+            View Program (PDF)
+          </a> */}}
+          {{ partial "embed-pdf.html" (dict "url" (printf "/media/programs/%s" .Params.program) "width" "300px"
+          "hidePaginator" "true" "download" "false" "lightbox" "true" "Site" .Site) }}
+        </p>
+      {{ end }}
     </div>
   </div>
   {{ end }}

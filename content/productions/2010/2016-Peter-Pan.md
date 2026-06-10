@@ -157,9 +157,21 @@ orchestra:
 genres: 
 description: 
 reviews:
-- "Be transported to the fantasy world of “PETER PAN” | EU Jacksonville / Folio Weekly": https://folioweekly.com/staging/2016/04/17/be-transported-to-the-fantasy-world-of-peter-pan/
-- "Heartfelt Review of Jason Woods Peter Pan Adaptation | Metro Jacksonville": https://web.archive.org/web/20160427062710/http://www.metrojacksonville.com/article/2016-apr-heartfelt-review-of-jason-woods-peter-pan-adaptation
-- "Away To Neverland: Jason Wood's adaptation of Peter Pan is truly a magical adventure. | The Odyssey Online": https://www.theodysseyonline.com/ready-for-neverland
+- title: Be transported to the fantasy world of “PETER PAN”
+  uri: https://folioweekly.com/staging/2016/04/17/be-transported-to-the-fantasy-world-of-peter-pan/
+  outlet: EU Jacksonville / Folio Weekly
+  description: ''
+  featured_image: ''
+- title: Heartfelt Review of Jason Woods Peter Pan Adaptation
+  uri: https://web.archive.org/web/20160427062710/http://www.metrojacksonville.com/article/2016-apr-heartfelt-review-of-jason-woods-peter-pan-adaptation
+  outlet: Metro Jacksonville
+  description: ''
+  featured_image: ''
+- title: 'Away To Neverland: Jason Wood''s adaptation of Peter Pan is truly a magical adventure.'
+  uri: https://www.theodysseyonline.com/ready-for-neverland
+  outlet: The Odyssey Online
+  description: ''
+  featured_image: ''
 press:
 - "04/13/16: ICARE; Hip Anthroplasty; Lavilla School Of The Arts Opera; 'Peter Pan' | First Coast Connect / WJCT News 89.9": https://news.wjct.org/first-coast-connect/2016-04-13/04-13-16-icare-hip-anthroplasty-lavilla-school-of-the-arts-opera-peter-pan
 ---

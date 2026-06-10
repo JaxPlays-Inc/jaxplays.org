@@ -121,5 +121,10 @@ orchestra:
 genres: 
 description: 
 reviews:
-- "Alhambra’s WEST SIDE STORY is anything but Krupke’d! | Folio Weekly": https://folioweekly.com/2025/02/22/alhambras-west-side-story-is-anything-but-krupked/
+- title: Alhambra’s WEST SIDE STORY is anything but Krupke’d!
+  uri: https://folioweekly.com/2025/02/22/alhambras-west-side-story-is-anything-but-krupked/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+
 ---

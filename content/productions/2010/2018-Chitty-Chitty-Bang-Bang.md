@@ -128,10 +128,27 @@ press:
 - "Local Theatre Puts Together a Flying Car | Jacksonville Magazine": https://www.jacksonvillemag.com/2018/06/11/chitty-chitty-bang-bang/
 
 reviews:
-- "DUAL CRITICS REVIEW: Chitty Chitty Bang Bang at Alhambra Theatre & Dining | Folio Weekly / EU": https://folioweekly.com/2018/06/25/chitty-chitty-bang-bang-alhambra-theatre-dining-review/
-- "Review: CHITTY CHITTY BANG BANG at Alhambra Theatre And Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/BWW-Review-CHITTY-CHITTY-BANG-BANG-at-Alhambra-Theatre-And-Dining-20180619
-- "Alhambra’s “Chitty Chitty Bang Bang” sure to delight audiences of all ages | Ponte Vedra NewsLine": https://www.floridanewsline.com/creekline-st-johns/alhambras-chitty-chitty-bang-bang-sure-delight-audiences-ages/
-- "Review: Alhambra summer show kicks off with a ‘Bang Bang’ | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/review-alhambra-summer-show-kicks-off-with-a-bang-bang,6643
+- title: 'DUAL CRITICS REVIEW: Chitty Chitty Bang Bang at Alhambra Theatre & Dining'
+  uri: https://folioweekly.com/2018/06/25/chitty-chitty-bang-bang-alhambra-theatre-dining-review/
+  outlet: Folio Weekly / EU
+  description: ''
+  featured_image: ''
+- title: 'Review: CHITTY CHITTY BANG BANG at Alhambra Theatre And Dining'
+  uri: https://www.broadwayworld.com/jacksonville/article/BWW-Review-CHITTY-CHITTY-BANG-BANG-at-Alhambra-Theatre-And-Dining-20180619
+  outlet: Broadway World
+  description: ''
+  featured_image: ''
+- title: Alhambra’s “Chitty Chitty Bang Bang” sure to delight audiences of all ages
+  uri: https://www.floridanewsline.com/creekline-st-johns/alhambras-chitty-chitty-bang-bang-sure-delight-audiences-ages/
+  outlet: Ponte Vedra NewsLine
+  description: ''
+  featured_image: ''
+- title: 'Review: Alhambra summer show kicks off with a ‘Bang Bang’'
+  uri: https://pontevedrarecorder.com/stories/review-alhambra-summer-show-kicks-off-with-a-bang-bang,6643
+  outlet: Ponte Vedra Recorder
+  description: ''
+  featured_image: ''
+
 ---
 
 {{< youtube UCDIFY8XwcM >}}

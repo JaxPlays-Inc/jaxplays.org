@@ -55,9 +55,18 @@ understudies:
 crew:
 - Director: Rachel Chavkin
 orchestra:
-reviews: 
-- "Ride Down(town) to HADESTOWN for a Helluva Show | Folio": https://folioweekly.com/2024/02/07/ride-downtown-to-hadestown-for-a-helluva-show/
-- "Review: HADESTOWN at Jacksonville Center For The Performing Arts | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/Review-HADESTOWN-at-Jacksonville-Center-For-The-Performing-Arts-20240207
+reviews:
+- title: Ride Down(town) to HADESTOWN for a Helluva Show
+  uri: https://folioweekly.com/2024/02/07/ride-downtown-to-hadestown-for-a-helluva-show/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+- title: 'Review: HADESTOWN at Jacksonville Center For The Performing Arts'
+  uri: https://www.broadwayworld.com/jacksonville/article/Review-HADESTOWN-at-Jacksonville-Center-For-The-Performing-Arts-20240207
+  outlet: BroadwayWorld
+  description: ''
+  featured_image: ''
+
 ---
 Hadestown transports audiences to a mythical world where two intertwining love stories unfold—Orpheus and Eurydice, and Hades and Persephone. This darkly poetic musical navigates love, sacrifice, and the human urge for something better on the other side. Get ready for a journey that's as ethereal as it is visceral. Don't miss the underworld's hottest ticket!
 

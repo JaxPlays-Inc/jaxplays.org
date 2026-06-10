@@ -64,6 +64,11 @@ crew:
   - Anna Christodero
   - Tori Tompkins
 reviews:
-- 'Review: BRIGHTON BEACH MEMOIRS at Orange Park Community Theatre': https://www.broadwayworld.com/jacksonville/article/BWW-Review-BRIGHTON-BEACH-MEMOIRS-at-Orange-Park-Community-Theatre-20220404
+- title: 'Review: BRIGHTON BEACH MEMOIRS at Orange Park Community Theatre'
+  uri: https://www.broadwayworld.com/jacksonville/article/BWW-Review-BRIGHTON-BEACH-MEMOIRS-at-Orange-Park-Community-Theatre-20220404
+  outlet: 'BroadwayWorld'
+  description: ''
+  featured_image: ''
+
 ---
 *Brighton Beach Memoirs* is a semi-autobiographical play by Neil Simon. It is the first play in what's known as the Eugene trilogy and proceeds Biloxi Blues and Broadway Bound. The play premiered on Broadway in 1983 featuring Matthew Broderick as Eugene which later awarded him a Tony for Best Featured Actor in a Play. — [PLAYBILL - Brighton Beach Memoirs at Orange Park Community Theatre - Performances April 1, 2022 to April 10, 2022](https://www.playbillder.com/show/vip/Orange_Park_Community_Theatre/2022/Brighton_Beach_Memoirs_111214)

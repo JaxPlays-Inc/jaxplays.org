@@ -50,8 +50,16 @@ crew:
 - Scenic Carpentry: Baron Tetzlaff, Tom Fallon, Maurice Wilson
 orchestra:
 reviews:
-- "True West at Players by the Sea | The Buzz": https://iwantabuzz.com/arts/arts-in-the-know/true-west-at-players-by-the-sea-2/
-- "‘True West’ at Players by the Sea – A Dark Comedy with a Domestic Clash of Personalities | Folio Weekly": https://folioweekly.com/2019/03/19/true-west-players-by-the-sea/ 
+- title: True West at Players by the Sea
+  uri: https://iwantabuzz.com/arts/arts-in-the-know/true-west-at-players-by-the-sea-2/
+  outlet: The Buzz
+  description: ''
+  featured_image: ''
+- title: "‘True West’ at Players by the Sea – A Dark Comedy with a Domestic Clash of Personalities"
+  uri: https://folioweekly.com/2019/03/19/true-west-players-by-the-sea/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
 press:
 - "Classic play ‘True West’ to be performed at Players by the Sea | The Recorder": https://pontevedrarecorder.com/stories/classic-play-true-west-to-be-performed-at-players-by-the-sea,8565?
 ---

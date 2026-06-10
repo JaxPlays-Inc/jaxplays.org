@@ -157,7 +157,11 @@ orchestra:
 - Percussion: 
   - Amy Chapman
   - Evan Peterson
-reviews: 
-- "Ragtime – The Musical | Folio Weekly": https://web.archive.org/web/20231003160558/https://folioweekly.com/2008/10/26/807/
+reviews:
+- title: Ragtime – The Musical
+  uri: https://web.archive.org/web/20231003160558/https://folioweekly.com/2008/10/26/807/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
 press:
 ---

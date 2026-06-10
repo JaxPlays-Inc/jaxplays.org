@@ -80,8 +80,12 @@ crew:
   - Destiny Scott
   - Giovanna Sparagna
 orchestra:
-reviews: 
-  - "REVIEW: Jacksonville University College of Fine Arts Delights Audiences with 'Into the Woods'": https://folioweekly.com/2018/11/07/jacksonville-university-college-of-fine-arts-into-the-woods/
+reviews:
+- title: 'REVIEW: Jacksonville University College of Fine Arts Delights Audiences with ''Into the Woods'''
+  uri: https://folioweekly.com/2018/11/07/jacksonville-university-college-of-fine-arts-into-the-woods/
+  outlet: ''
+  description: ''
+  featured_image: ''
 press: 
   - "Kennedy Center American College Theater Festival Spotlights JU Student Performers": https://www.ju.edu/news/2019-02-04-kennedy-center-american-college-theater-festival-spotlights-ju-performers.php
 ---

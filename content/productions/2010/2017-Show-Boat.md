@@ -117,9 +117,21 @@ genres:
   - Romance
 description: "Step aboard the Cotton Blossom floating theater, where lives intertwine in a sweeping tale of love, loss, and redemption set against the backdrop of America’s Deep South."
 reviews:
-- "Set Sail on the SHOW BOAT at the Alhambra | EU Jacksonville / Folio Weekly": https://folioweekly.com/staging/2017/02/27/show-boat-alhambra/
-- "Alhambra launches worthy revival of ‘Show Boat’ | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/alhambra-launches-worthy-revival-of-show-boat,3126
-- "Show Boat rolls along at Alhambra | Florida NewsLine": https://www.floridanewsline.com/creekline-st-johns/show-boat-rolls-along-alhambra/
+- title: Set Sail on the SHOW BOAT at the Alhambra
+  uri: https://folioweekly.com/staging/2017/02/27/show-boat-alhambra/
+  outlet: EU Jacksonville / Folio Weekly
+  description: ''
+  featured_image: ''
+- title: Alhambra launches worthy revival of ‘Show Boat’
+  uri: https://pontevedrarecorder.com/stories/alhambra-launches-worthy-revival-of-show-boat,3126
+  outlet: Ponte Vedra Recorder
+  description: ''
+  featured_image: ''
+- title: Show Boat rolls along at Alhambra
+  uri: https://www.floridanewsline.com/creekline-st-johns/show-boat-rolls-along-alhambra/
+  outlet: Florida NewsLine
+  description: ''
+  featured_image: ''
 press: 
 - "Ground Breaking SHOW BOAT Opens Wednesday At Alhambra Theatre & Dining | Broadway World": https://www.broadwayworld.com/jacksonville/article/Ground-Breaking-SHOW-BOAT-Opens-Wednesday-At-Alhambra-Theatre-Dining-20170220 
 - "Actor Bill Galarno returns to the Alhambra half-a-century later for 'Show Boat'": https://www.jacksonville.com/story/entertainment/local/2017/02/23/actor-bill-galarno-returns-alhambra-half-century-later-show-boat/15743949007/

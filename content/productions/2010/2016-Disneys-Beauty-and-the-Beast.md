@@ -116,6 +116,15 @@ orchestra:
 genres: 
 description: 
 reviews:
-- "Alhambra's 'Beauty and the Beast' proves poignantly entertaining": https://www.jacksonville.com/story/entertainment/local/2016/06/23/alhambras-beauty-and-beast-proves-poignantly-entertaining/15714646007/
-- "Review: Alhambra brings ‘tale as old as time’ to life in ‘Beauty and the Beast’": https://www.pontevedrarecorder.com/stories/review,1480
+- title: Alhambra's 'Beauty and the Beast' proves poignantly entertaining
+  uri: https://www.jacksonville.com/story/entertainment/local/2016/06/23/alhambras-beauty-and-beast-proves-poignantly-entertaining/15714646007/
+  outlet: ''
+  description: ''
+  featured_image: ''
+- title: 'Review: Alhambra brings ‘tale as old as time’ to life in ‘Beauty and the Beast’'
+  uri: https://www.pontevedrarecorder.com/stories/review,1480
+  outlet: ''
+  description: ''
+  featured_image: ''
+
 ---

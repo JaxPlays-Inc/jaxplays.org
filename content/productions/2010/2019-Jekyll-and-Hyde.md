@@ -23,7 +23,12 @@ orchestra:
 genres: 
 description: 
 reviews:
-- "‘Jekyll & Hyde’ at Alhambra is a Chilling Unforgettable Tale | EU Jacksonville": https://folioweekly.com/2019/10/31/jekyll-hyde-at-alhambra/
+- title: "‘Jekyll & Hyde’ at Alhambra is a Chilling Unforgettable Tale"
+  uri: https://folioweekly.com/2019/10/31/jekyll-hyde-at-alhambra/
+  outlet: EU Jacksonville
+  description: ''
+  featured_image: ''
+
 ---
 
 Jekyll & Hyde Preview

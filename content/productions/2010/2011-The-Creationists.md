@@ -10,7 +10,7 @@ featured_image:
 theatre: Players by the Sea
 venue: Grace Darling Studio Theatre
 show_details:
-- Playwright: Joshua Kreis McTiernan
+- Playwright: "[[person:Joshua Kreis McTiernan]]"
 - Setting: Here and Now, Now and Then
 - Subject: Based on the story by Jeremy Kreis McTiernan and Joshua Kreis McTiernan
 - Premiere: 2011-02-18
@@ -69,6 +69,15 @@ photos:
     Harville, Chris Robertson, Jane Cassingham, Pablo J. Milla, Bradley Akers, Lindsay
     Michelle'
 reviews:
-- "'The Creationists' comedy opens Friday at Players by the Sea | The Florida Times-Union": https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
-- "'The Creationists' | Folio Weekly": https://folioweekly.com/2011/02/24/2839/
+- title: "'The Creationists' comedy opens Friday at Players by the Sea"
+  uri: https://web.archive.org/web/20220421031634/https://www.jacksonville.com/story/entertainment/local/2011/02/16/creationists-comedy-opens-friday-players-sea/15914159007/
+  outlet: The Florida Times-Union
+  description: ''
+  featured_image: ''
+- title: "'The Creationists'"
+  uri: https://folioweekly.com/2011/02/24/2839/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+
 ---
