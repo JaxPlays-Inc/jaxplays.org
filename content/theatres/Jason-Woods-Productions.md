@@ -1,9 +1,9 @@
 ---
 title: Jason Woods Productions 
-date: 2024-04-02T14:59:38-04:00
+date: 2026-06-09T22:14:14-04:00
 active: true
 company_type: Professional
-featured_image: 
+featured_image: ../../media/headshots/Jason-Woods.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
@@ -22,3 +22,6 @@ socials:
 phone:  
 color: "#3F7ED1"
 ---
+Jason Woods is an award-winning writer, director, composer and performer whose work spans Off-Broadway, international stages, film and the page.​
+
+His original productions earned four honors at the Edinburgh Festival Fringe, including Best New Writing and Best Performance. The Scotsman called him "a one-man wonderland." Times Square Chronicles wrote that he is "beyond talented and must be seen." A dedicated autodidact, Woods maintains a singular creative vision by writing, directing, and composing the orchestral scores for all of his productions. He does wait for permission to create. 

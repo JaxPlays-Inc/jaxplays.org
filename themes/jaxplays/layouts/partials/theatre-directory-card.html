@@ -1,0 +1,59 @@
+{{ $page := .page }}
+{{ $status := .status }}
+{{ $logo := "" }}
+{{ with $page.Params.featured_image }}
+  {{ $logo = printf "/media/logos/%s" . }}
+{{ end }}
+{{ $summarySource := $page.Summary }}
+{{ with $page.Params.description }}
+  {{ $summarySource = . | markdownify }}
+{{ end }}
+{{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " "<a class=\"theatres-directory-summary-link\" " | safeHTML }}
+{{ $website := "" }}
+{{ with $page.Params.socials }}
+  {{ with .website }}{{ $website = . }}{{ end }}
+{{ end }}
+{{ $founded := "" }}
+{{ with $page.Params.founded }}
+  {{ $founded = printf "%v" . }}
+  {{ if findRE `^\d{4}-\d{2}-\d{2}` $founded }}
+    {{ $founded = (time $founded).Format "2006" }}
+  {{ end }}
+{{ end }}
+{{ $closed := "" }}
+{{ with $page.Params.closed }}
+  {{ $closed = printf "%v" . }}
+  {{ if findRE `^\d{4}-\d{2}-\d{2}` $closed }}
+    {{ $closed = (time $closed).Format "2006" }}
+  {{ end }}
+{{ end }}
+
+<article class="theatres-directory-card slow-grow">
+  <a class="theatres-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="View {{ $page.Title }} profile"></a>
+  <a class="theatres-directory-logo-link" href="{{ $page.RelPermalink }}">
+    {{ if $logo }}
+      <img class="theatres-directory-logo" src="{{ $logo }}" alt="{{ $page.Params.featured_image_alt | default (printf "%s logo" $page.Title) }}">
+    {{ else }}
+      <span class="theatres-directory-logo theatres-directory-logo--fallback">{{ substr $page.Title 0 1 }}</span>
+    {{ end }}
+  </a>
+  <div class="theatres-directory-card-body">
+    <div class="theatres-directory-badges">
+      <span class="theatres-directory-badge{{ if eq $status "Archive" }} theatres-directory-badge--archive{{ end }}">{{ $status }}</span>
+      {{ with $page.Params.company_type }}<span class="theatres-directory-badge theatres-directory-badge--type">{{ . }}</span>{{ end }}
+      {{ with $founded }}<span class="theatres-directory-badge theatres-directory-badge--founded">Since {{ . }}</span>{{ end }}
+      {{ if and (eq $status "Archive") $closed }}<span class="theatres-directory-badge theatres-directory-badge--closed">Closed {{ $closed }}</span>{{ end }}
+    </div>
+    <a class="theatres-directory-card-link" href="{{ $page.RelPermalink }}">
+      <strong class="theatres-directory-card-title">{{ with $page.Params.building }}{{ . }} / {{ end }}{{ $page.Title }}</strong>
+    </a>
+    {{ with $summary }}
+      <div class="theatres-directory-meta theatres-directory-summary">{{ . }}</div>
+    {{ end }}
+    <div class="theatres-directory-actions">
+      <a class="theatres-directory-action" href="{{ $page.RelPermalink }}">Profile</a>
+      {{ with $website }}<a class="theatres-directory-action" href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+      {{ with $page.Params.donate }}<a class="theatres-directory-action theatres-directory-action--donate" href="{{ . }}" target="_blank" rel="noopener">Donate</a>{{ end }}
+    </div>
+  </div>
+</article>

@@ -2,7 +2,7 @@
 title: Amelia Island Opera
 date: 2025-03-25T13:45:18-04:00
 active: true
-company_type: 
+company_type: Professional
 featured_image: Amelia-Island-Opera.webp
 featured_image_attr: 
 featured_image_alt: 

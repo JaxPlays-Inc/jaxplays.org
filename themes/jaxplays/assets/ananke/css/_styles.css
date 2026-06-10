@@ -472,6 +472,304 @@ h1 a.jaxplayslogo {
 	font-weight: 800;
 }
 
+.theatres-directory {
+	--jp-ink: #171717;
+	--jp-muted: #5f6670;
+	--jp-line: #d7d2c8;
+	--jp-paper: #f4f4f4;
+	--jp-cream: #f6f0e3;
+	--jp-gold: #ffd600;
+	--jp-red: #b7332f;
+	--jp-teal: #18736b;
+	--jp-blue: #28466f;
+	background: var(--jp-paper);
+	color: var(--jp-ink);
+}
+
+.theatres-directory a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.theatres-directory a:hover:not(.no-underline):not(.link),
+.theatres-directory a:focus:not(.no-underline):not(.link) {
+	text-decoration: none;
+}
+
+.theatres-directory-shell {
+	margin: 0 auto;
+	max-width: 1180px;
+	padding: 4rem 1rem;
+}
+
+.theatres-directory-hero {
+	align-items: stretch;
+	border-bottom: 1px solid var(--jp-line);
+	display: grid;
+	gap: 1.25rem;
+	grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+	padding-bottom: 1.5rem;
+}
+
+.theatres-directory-kicker {
+	color: var(--jp-red);
+	font-size: .75rem;
+	font-weight: 700;
+	margin: 0 0 .5rem;
+	text-transform: uppercase;
+}
+
+.theatres-directory-title {
+	font-size: clamp(2.1rem, 7vw, 5.6rem);
+	line-height: .92;
+	margin: 0;
+}
+
+.theatres-directory-subtitle {
+	color: var(--jp-muted);
+	font-size: 1.05rem;
+	line-height: 1.5;
+	margin: 1rem 0 0;
+	max-width: 42rem;
+}
+
+.theatres-directory-panel {
+	align-content: center;
+	background: var(--jp-cream);
+	border: 1px solid var(--jp-line);
+	display: grid;
+	padding: 1rem;
+}
+
+.theatres-directory-stats {
+	display: grid;
+	gap: .75rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.theatres-directory-stats span {
+	display: block;
+}
+
+.theatres-directory-stats > span {
+	border-left: 5px solid var(--jp-blue);
+	background: #fff;
+	padding: .9rem;
+}
+
+.theatres-directory-stats > span:nth-child(2) {
+	border-left-color: var(--jp-teal);
+}
+
+.theatres-directory-stats > span:nth-child(3) {
+	border-left-color: var(--jp-red);
+}
+
+.theatres-directory-stats strong {
+	display: block;
+	font-size: 2rem;
+	line-height: 1;
+}
+
+.theatres-directory-stats span span {
+	color: var(--jp-muted);
+	font-size: .85rem;
+	font-weight: 700;
+	margin-top: .3rem;
+	text-transform: uppercase;
+}
+
+.theatres-directory-search {
+	margin-top: 1.5rem;
+}
+
+.theatres-directory-section {
+	margin-top: 3rem;
+}
+
+.theatres-directory-section-head {
+	align-items: end;
+	display: flex;
+	gap: 1rem;
+	justify-content: space-between;
+	margin-bottom: .9rem;
+}
+
+.theatres-directory-section-head h2 {
+	font-size: clamp(1.5rem, 4vw, 2.35rem);
+	margin: 0;
+}
+
+.theatres-directory-count,
+.theatres-directory-meta {
+	color: var(--jp-muted);
+	display: block;
+	font-size: .85rem;
+	line-height: 1.35;
+}
+
+.theatres-directory-count {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.theatres-directory-grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.theatres-directory-grid--archive {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.theatres-directory-card {
+	background: #fff;
+	border: 1px solid var(--jp-line);
+	display: grid;
+	grid-template-columns: minmax(8rem, 1fr) minmax(0, 2fr);
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.theatres-directory-grid--archive .theatres-directory-card::after {
+	background: rgba(0, 0, 0, .12);
+	content: "";
+	inset: 0;
+	pointer-events: none;
+	position: absolute;
+	z-index: 6;
+}
+
+.theatres-directory-card-hitarea {
+	inset: 0;
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.theatres-directory-logo-link {
+	background: #fff;
+	border-right: 1px solid var(--jp-line);
+	display: block;
+	padding: .75rem;
+	position: relative;
+	z-index: 5;
+}
+
+.theatres-directory-logo {
+	aspect-ratio: 2 / 3;
+	display: block;
+	height: 100%;
+	object-fit: contain;
+	width: 100%;
+}
+
+.theatres-directory-logo--fallback {
+	align-items: center;
+	background: var(--jp-cream);
+	color: var(--jp-blue);
+	display: flex;
+	font-size: 3rem;
+	font-weight: 900;
+	justify-content: center;
+	line-height: 1;
+}
+
+.theatres-directory-card-body {
+	display: flex;
+	flex-direction: column;
+	padding: .9rem;
+}
+
+.theatres-directory-badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .4rem;
+	margin-bottom: .5rem;
+}
+
+.theatres-directory-badge {
+	background: var(--jp-teal);
+	border-radius: 999px;
+	color: #fff;
+	display: inline-block;
+	font-size: .72rem;
+	font-weight: 600;
+	line-height: 1;
+	padding: .35rem .5rem;
+	text-transform: uppercase;
+}
+
+.theatres-directory-badge--archive {
+	background: var(--jp-muted);
+}
+
+.theatres-directory-badge--type {
+	background: var(--jp-blue);
+}
+
+.theatres-directory-badge--founded {
+	background: var(--jp-red);
+}
+
+.theatres-directory-badge--closed {
+	background: #000;
+}
+
+.theatres-directory-card-link {
+	position: relative;
+	z-index: 5;
+}
+
+.theatres-directory-card-title {
+	display: block;
+	line-height: 1.2;
+}
+
+.theatres-directory-summary {
+	display: -webkit-box;
+	margin-top: .65rem;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+
+.theatres-directory-summary p {
+	margin: 0;
+}
+
+.theatres-directory-summary-link {
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+}
+
+.theatres-directory-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	margin-top: auto;
+	padding-top: .9rem;
+}
+
+.theatres-directory-action {
+	background: #fff;
+	border: 1px solid var(--jp-ink);
+	display: inline-flex;
+	font-size: .85rem;
+	font-weight: 700;
+	min-height: 2rem;
+	padding: .4rem .55rem;
+	position: relative;
+	z-index: 5;
+}
+
+.theatres-directory-action--donate {
+	background: var(--jp-gold);
+}
+
 .slow-grow {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-backface-visibility: hidden;
@@ -483,7 +781,9 @@ h1 a.jaxplayslogo {
 .people-list-grid a.slow-grow:hover,
 .people-list-grid a.slow-grow:focus,
 a.production-credit-person.slow-grow:hover,
-a.production-credit-person.slow-grow:focus {
+a.production-credit-person.slow-grow:focus,
+.theatres-directory-card.slow-grow:hover,
+.theatres-directory-card.slow-grow:focus-within {
 	transform: scale(1.025);
 	text-decoration: none;
 }
@@ -564,6 +864,18 @@ a.production-credit-person.slow-grow:focus {
 	}
 }
 
+@media (max-width: 767px) {
+	.theatres-directory-hero,
+	.theatres-directory-grid,
+	.theatres-directory-grid--archive {
+		grid-template-columns: 1fr;
+	}
+
+	.theatres-directory-card {
+		grid-template-columns: 6.75rem minmax(0, 1fr);
+	}
+}
+
 @media (max-width: 55em) {
 	.production-single .production-detail-card--venue {
 		grid-template-columns: 1fr;
@@ -585,6 +897,26 @@ a.production-credit-person.slow-grow:focus {
 
 	.jaxplayslogo {
 		font-size: 7.5vw;
+	}
+
+	.theatres-directory-shell {
+		padding: 2.5rem 1rem;
+	}
+
+	.theatres-directory-stats,
+	.theatres-directory-grid,
+	.theatres-directory-grid--archive {
+		grid-template-columns: 1fr;
+	}
+
+	.theatres-directory-section-head {
+		align-items: start;
+		flex-direction: column;
+		gap: .35rem;
+	}
+
+	.theatres-directory-card {
+		grid-template-columns: 5.5rem minmax(0, 1fr);
 	}
 
 	.production-single .production-detail-card--venue,
