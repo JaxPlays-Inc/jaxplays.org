@@ -14,14 +14,9 @@
         padding-right: 1rem;
         z-index: 1;
       }
-      nav .ananke-socials a {
-        fill: #fff;
+      .dark-mode-toggle {
+        margin-left: .4rem;
       }
-      nav .ananke-socials a .icon svg{
-        width: 2.2rem;
-        height: 2.2rem
-      }
-  
       .dropdown-menu a, .dropdown-menu a:hover {
         color: #fff;
         text-decoration: none !important;
@@ -93,12 +88,14 @@
             {{ end }}
           </ul>
         {{ end }}
-        {{ partialCached "social-follow.html" . }}
         <div class="search-icon-container">
           <a href="#" id="search-icon">
             <img src="{{ "images/magnifying_glass_icon.svg" | relURL }}" alt="Search">
           </a>
         </div>
+        <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+          <span class="dark-mode-icon"></span>
+        </button>
       </div>
     </div>
     <div id="fastSearch">
@@ -124,7 +121,6 @@
           </a>
         {{ end }}
       {{ end }}
-      {{ partialCached "social-follow.html" . }}
     </div>
     <!-- JavaScript to handle menu toggle and dropdown -->
     <script>

@@ -493,13 +493,13 @@
 	color: #171717 !important;
 }
 
-#dark-mode-toggle {
+.dark-mode-toggle {
 	border: none;
 	background: none;
 	cursor: pointer;
 }
 
-#dark-mode-icon {
+.dark-mode-icon {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
@@ -509,7 +509,7 @@
 	filter: invert(1);
 }
 
-body.dark-mode #dark-mode-icon {
+body.dark-mode .dark-mode-icon {
 	background-image: url("/css/sun-icon.svg");
 	filter: invert(1);
 }
