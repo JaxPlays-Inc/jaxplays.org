@@ -7,4 +7,5 @@ sections:
   - reviews
   - editorials
   - guides
+  - podcasts
 ---
