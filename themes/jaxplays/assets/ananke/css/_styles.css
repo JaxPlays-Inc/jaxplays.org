@@ -192,7 +192,21 @@ h1 a.jaxplayslogo {
 	align-items: start;
 	display: grid;
 	gap: .75rem;
+	grid-template-areas:
+		"main"
+		"showtimes"
+		"side";
 	margin-bottom: .75rem;
+}
+
+.production-single .production-details-main {
+	display: grid;
+	gap: .75rem;
+	grid-area: main;
+}
+
+.production-single .production-details-side {
+	grid-area: side;
 }
 
 .production-single .production-detail-label {
@@ -283,6 +297,10 @@ h1 a.jaxplayslogo {
 .production-single .production-showtimes-panel h4 {
 	font-size: 1rem;
 	margin: 0 0 .75rem;
+}
+
+.production-single .production-showtimes-panel {
+	grid-area: showtimes;
 }
 
 .production-single .production-showtimes-list {
@@ -378,6 +396,9 @@ a.production-credit-person.slow-grow:focus {
 
 @media screen and (min-width: 60em) {
 	.production-single .production-details-grid {
+		grid-template-areas:
+			"main side"
+			"showtimes showtimes";
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 	}
 }
