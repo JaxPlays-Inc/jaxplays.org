@@ -1,0 +1,40 @@
+{{ $rootSelector := .root | default ".productions-directory" }}
+{{ $inputSelector := .input | default "#productions-directory-filter" }}
+
+<script>
+  (() => {
+    const root = document.querySelector('{{ $rootSelector }}');
+    const input = document.querySelector('{{ $inputSelector }}');
+    if (!root || !input) return;
+
+    const cards = Array.from(root.querySelectorAll('[data-production-card]'));
+    const sections = Array.from(root.querySelectorAll('[data-production-section]'));
+    const status = root.querySelector('[data-production-filter-status]');
+    const empty = root.querySelector('[data-production-filter-empty]');
+    const normalize = (value) => value.trim().toLowerCase();
+    const listedText = (count) => `${count} ${count === 1 ? 'production' : 'productions'} listed`;
+
+    const applyFilter = () => {
+      const query = normalize(input.value);
+      let visibleTotal = 0;
+
+      cards.forEach((card) => {
+        const isMatch = !query || normalize(card.dataset.productionSearch || '').includes(query);
+        card.hidden = !isMatch;
+        if (isMatch) visibleTotal += 1;
+      });
+
+      sections.forEach((section) => {
+        const visibleCards = Array.from(section.querySelectorAll('[data-production-card]')).filter((card) => !card.hidden);
+        section.hidden = visibleCards.length === 0;
+        const count = section.querySelector('[data-production-section-count]');
+        if (count) count.textContent = `${visibleCards.length} listed`;
+      });
+
+      if (status) status.textContent = listedText(visibleTotal);
+      if (empty) empty.hidden = visibleTotal !== 0;
+    };
+
+    input.addEventListener('input', applyFilter);
+  })();
+</script>

@@ -761,16 +761,32 @@ h1 a.jaxplayslogo {
 
 .theatres-directory-section-head {
 	align-items: end;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-	justify-content: space-between;
+	display: grid;
+	gap: 0 1rem;
+	grid-template-columns: minmax(0, 1fr) auto;
 	margin-bottom: .9rem;
+}
+
+.theatres-directory-section-head.sectionline:after {
+	grid-column: 1 / -1;
+}
+
+.theatres-directory-section-title {
+	min-width: 0;
 }
 
 .theatres-directory-section-head h2 {
 	font-size: clamp(1.5rem, 4vw, 2.35rem);
 	margin: 0;
+}
+
+.theatres-directory-section-eyebrow {
+	color: var(--jp-red);
+	font-size: .75rem;
+	font-weight: 700;
+	line-height: 1.1;
+	margin: 0 0 .25rem;
+	text-transform: uppercase;
 }
 
 .theatres-directory-count,
@@ -1235,6 +1251,10 @@ h1 a.jaxplayslogo {
 	color: var(--jp-ink);
 }
 
+.productions-directory-badge--archive {
+	background: var(--jp-muted);
+}
+
 .productions-directory-card-link {
 	position: relative;
 	z-index: 5;
@@ -1556,6 +1576,10 @@ a.production-credit-person.slow-grow:focus,
 	}
 
 	.productions-directory-section-head {
+		grid-template-columns: 1fr;
+	}
+
+	.theatres-directory-section-head {
 		grid-template-columns: 1fr;
 	}
 

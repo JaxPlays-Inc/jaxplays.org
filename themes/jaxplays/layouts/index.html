@@ -1,7 +1,7 @@
 {{/*  {{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}  */}}
 {{ define "main" }}
 {{ $now := now }}
-{{ $soon := $now.AddDate 0 0 45 }}
+{{ $soon := $now.AddDate 0 0 30 }}
 {{ $closingWindow := $now.AddDate 0 0 10 }}
 {{ $productions := where .Site.RegularPages "Section" "productions" }}
 {{ $articles := where .Site.RegularPages "Section" "in" (.Site.Params.mainSections | default (slice "reviews" "news")) }}
@@ -202,14 +202,32 @@
 
   .home-dashboard-section-head {
     align-items: end;
-    display: flex;
-    gap: 1rem;
+    display: grid;
+    gap: 0 1rem;
+    grid-template-columns: minmax(0, 1fr) auto;
     margin-bottom: .9rem;
+  }
+
+  .home-dashboard-section-head.sectionline:after {
+    grid-column: 1 / -1;
+  }
+
+  .home-dashboard-section-heading {
+    min-width: 0;
   }
 
   .home-dashboard-section-head h2 {
     font-size: clamp(1.5rem, 4vw, 2.35rem);
     margin: 0;
+  }
+
+  .home-dashboard-section-eyebrow {
+    color: var(--jp-red);
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 .25rem;
+    text-transform: uppercase;
   }
 
   .home-dashboard-section-title-link,
@@ -479,7 +497,7 @@
 
     .home-dashboard-section-head {
       align-items: start;
-      flex-direction: column;
+      grid-template-columns: 1fr;
     }
 
     .home-dashboard-production-rail {
@@ -580,11 +598,14 @@
 
     <section class="home-dashboard-section home-dashboard-production-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-now-playing">
       {{- partial "GAM-left-rail-1.html" (dict "margin" "3.8rem 0") -}}
-      <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
+      <div class="home-dashboard-section-head sectionline">
+        <div class="home-dashboard-section-heading">
+          <p class="home-dashboard-section-eyebrow">Currently on Stage</p>
+          <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
+        </div>
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
-        {{ range first 8 $nowPlaying }}
+        {{ range $nowPlaying }}
           {{ $poster := .Params.featured_image }}
           {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
           <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
@@ -608,8 +629,11 @@
     </section>
 
     <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-opening">
-      <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-opening"><a class="home-dashboard-section-title-link" href="/calendar/opening-nights/">Opening Soon</a></h2>
+      <div class="home-dashboard-section-head sectionline">
+        <div class="home-dashboard-section-heading">
+          <p class="home-dashboard-section-eyebrow">Opening in the next 30 days</p>
+          <h2 id="home-dashboard-opening"><a class="home-dashboard-section-title-link" href="/calendar/opening-nights/">Opening Soon</a></h2>
+        </div>
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range first 8 $openingSoon }}
@@ -635,8 +659,11 @@
 
     <section class="home-dashboard-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-reviews">
       {{- partial "GAM-left-rail-2.html" (dict "margin" "3.8rem 0") -}}
-      <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
+      <div class="home-dashboard-section-head sectionline">
+        <div class="home-dashboard-section-heading">
+          <p class="home-dashboard-section-eyebrow">Criticism and Coverage</p>
+          <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
+        </div>
       </div>
       <div class="home-dashboard-editorial">
         {{ range $latestArticles }}
@@ -666,8 +693,11 @@
     </section>
 
     <section class="home-dashboard-section" aria-labelledby="home-dashboard-archive">
-      <div class="home-dashboard-section-head">
-        <h2 id="home-dashboard-archive" class="home-dashboard-section-title-link">Explore the Archive</h2>
+      <div class="home-dashboard-section-head sectionline">
+        <div class="home-dashboard-section-heading">
+          <p class="home-dashboard-section-eyebrow">Directory</p>
+          <h2 id="home-dashboard-archive" class="home-dashboard-section-title-link">Explore the Archive</h2>
+        </div>
       </div>
       <div class="home-dashboard-archive">
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/productions/">

@@ -19,6 +19,7 @@ socials:
   threads:
   website: https://swooptroupe.wixsite.com/swooptroupe
 phone:  
-color: "#"
+color: "#3A1751"
+donate: https://www.swooptroupe.com/donate
 ---
 Swoop Troupe is a student led organization at the University of North Florida that is entirely dedicated to musical theater. Since musical theatre and dance are not available as a degree program at UNF, students who are passionate about the art form can only show it by their involvement in this club. Swoop Troupe is a club committed to providing UNF students and the Jacksonville community the opportunity to become involved in all aspects of theatrical productions both backstage and on stage.

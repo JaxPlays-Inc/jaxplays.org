@@ -50,6 +50,7 @@
 }
 
 .dark-mode .home-dashboard .home-dashboard-kicker,
+.dark-mode .home-dashboard .home-dashboard-section-eyebrow,
 .dark-mode .home-dashboard .home-dashboard-section-more,
 .dark-mode .home-dashboard .home-dashboard-summary-link {
 	color: #ffd600 !important;
@@ -153,6 +154,7 @@
 }
 
 .dark-mode .theatres-directory-kicker,
+.dark-mode .theatres-directory-section-eyebrow,
 .dark-mode .theatres-directory-summary-link {
 	color: var(--jp-gold) !important;
 }

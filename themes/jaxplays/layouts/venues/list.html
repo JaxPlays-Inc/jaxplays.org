@@ -46,8 +46,11 @@
     </div>
 
     <section class="theatres-directory-section" aria-labelledby="active-venues" data-venue-section>
-      <div class="theatres-directory-section-head">
-        <h2 id="active-venues">Active Venues</h2>
+      <div class="theatres-directory-section-head sectionline">
+        <div class="theatres-directory-section-title">
+          <p class="theatres-directory-section-eyebrow">Currently Active</p>
+          <h2 id="active-venues">Active Venues</h2>
+        </div>
         <span class="theatres-directory-count" data-venue-section-count>{{ len $activeVenues }} listed</span>
       </div>
       <div class="theatres-directory-grid">
@@ -58,8 +61,11 @@
     </section>
 
     <section class="theatres-directory-section" aria-labelledby="inactive-venues" data-venue-section>
-      <div class="theatres-directory-section-head">
-        <h2 id="inactive-venues">Inactive Venues</h2>
+      <div class="theatres-directory-section-head sectionline">
+        <div class="theatres-directory-section-title">
+          <p class="theatres-directory-section-eyebrow">Archive</p>
+          <h2 id="inactive-venues">Inactive Venues</h2>
+        </div>
         <span class="theatres-directory-count" data-venue-section-count>{{ len $inactiveVenues }} listed</span>
       </div>
       <div class="theatres-directory-grid theatres-directory-grid--archive">
