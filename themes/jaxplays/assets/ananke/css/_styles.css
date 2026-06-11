@@ -209,6 +209,15 @@ h1 a.jaxplayslogo {
 }
 
 .theatre-single {
+	--jp-ink: #171717;
+	--jp-muted: #5f6670;
+	--jp-line: #d7d2c8;
+	--jp-paper: #f4f4f4;
+	--jp-cream: #f6f0e3;
+	--jp-gold: #ffd600;
+	--jp-red: #b7332f;
+	--jp-teal: #18736b;
+	--jp-blue: #28466f;
 	color: #181818;
 	overflow-x: clip;
 }
@@ -690,34 +699,34 @@ h1 a.jaxplayslogo {
 	border-bottom: 0;
 }
 
-.production-single .production-review-grid {
+.production-reviews .production-review-grid {
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.production-single .production-review-card {
+.production-reviews .production-review-card {
 	background: #fff;
 	border: 1px solid #d7d2c8;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto 1fr;
 	overflow: hidden;
+	position: relative;
 }
 
-.production-single .production-review-link {
-	color: inherit;
-	text-decoration: none;
+.production-reviews .production-review-card:focus-within {
+	transform: scale(1.025);
 }
 
-.production-single .production-review-link:hover,
-.production-single .production-review-link:focus,
-.production-single .production-review-summary a:hover,
-.production-single .production-review-summary a:focus {
-	text-decoration: none;
+.production-reviews .production-review-card-hitarea {
+	display: block;
+	inset: 0;
+	position: absolute;
+	z-index: 5;
 }
 
-.production-single .production-review-image {
+.production-reviews .production-review-image {
 	aspect-ratio: 16 / 9;
 	background: #ddd;
 	display: block;
@@ -725,40 +734,41 @@ h1 a.jaxplayslogo {
 	width: 100%;
 }
 
-.production-single .production-review-body {
+.production-reviews .production-review-body {
 	display: block;
 	padding: .9rem;
+	position: relative;
 }
 
-.production-single .production-review-badges {
+.production-reviews .production-review-badges {
 	display: flex;
 	flex-wrap: wrap;
 	gap: .4rem;
 	margin-bottom: .5rem;
 }
 
-.production-single .production-review-badge {
+.production-reviews .production-review-badge {
 	background: #18736b;
 	border-radius: 999px;
 	color: #fff;
 	display: inline-block;
 	font-size: .72rem;
-	font-weight: 800;
+	font-weight: 700;
 	line-height: 1;
 	padding: .35rem .5rem;
 	text-transform: uppercase;
 }
 
-.production-single .production-review-badge--outlet {
+.production-reviews .production-review-badge--outlet {
 	background: var(--jaxplays-red);
 }
 
-.production-single .production-review-title {
+.production-reviews .production-review-title {
 	display: block;
 	line-height: 1.2;
 }
 
-.production-single .production-review-meta {
+.production-reviews .production-review-meta {
 	color: #5f6670;
 	display: block;
 	font-size: .85rem;
@@ -766,7 +776,7 @@ h1 a.jaxplayslogo {
 	margin-top: .25rem;
 }
 
-.production-single .production-review-summary {
+.production-reviews .production-review-summary {
 	display: -webkit-box;
 	margin-top: .65rem;
 	overflow: hidden;
@@ -774,12 +784,8 @@ h1 a.jaxplayslogo {
 	-webkit-line-clamp: 4;
 }
 
-.production-single .production-review-summary p {
+.production-reviews .production-review-summary p {
 	margin: 0;
-}
-
-.production-single .production-review-summary-link {
-	display: inline-block;
 }
 
 .production-single .program-preview-link {
@@ -1887,7 +1893,8 @@ h1 a.jaxplayslogo {
 	z-index: 5;
 }
 
-.productions-directory .home-dashboard-badge {
+.productions-directory .home-dashboard-badge,
+.theatre-single .home-dashboard-badge {
 	background: var(--jp-teal);
 	border-radius: 999px;
 	color: #fff;
@@ -1901,7 +1908,8 @@ h1 a.jaxplayslogo {
 	z-index: 5;
 }
 
-.productions-directory .home-dashboard-badge.red {
+.productions-directory .home-dashboard-badge.red,
+.theatre-single .home-dashboard-badge.red {
 	background: var(--jp-red);
 }
 
@@ -2216,7 +2224,7 @@ a.production-credit-person.slow-grow:focus,
 		grid-template-columns: 1fr;
 	}
 
-	.production-single .production-review-grid {
+	.production-reviews .production-review-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 	.production-single .production-venue-map {
@@ -2324,7 +2332,7 @@ a.production-credit-person.slow-grow:focus,
 		grid-template-columns: 1fr;
 	}
 
-	.production-single .production-review-grid {
+	.production-reviews .production-review-grid {
 		grid-template-columns: 1fr;
 	}
 

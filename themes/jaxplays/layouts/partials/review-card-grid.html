@@ -1,0 +1,87 @@
+{{ $page := .page }}
+{{ $relatedReviews := .relatedReviews | default slice }}
+{{ $heading := .heading | default "Reviews" }}
+
+{{ if or $relatedReviews $page.Params.reviews }}
+<div class="production-reviews nested-copy-line-height lh-copy f4 mt4 {{ $page.Param "text_color" | default "dark-gray" }}">
+  <h3 class="f3 mt4 mb3 sectionline">{{ $heading }}</h3>
+  <div class="production-review-grid">
+  {{ range $relatedReviews }}
+  {{ $image := partial "func/GetFeaturedImage.html" . }}
+  {{ $summarySource := .Summary }}
+  {{ with .Params.description }}
+  {{ $summarySource = . | markdownify }}
+  {{ end }}
+  {{ $summary := $summarySource | plainify }}
+  <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card">
+    <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}"></a>
+    {{ if $image }}
+    <img class="production-review-image" src="{{ $image }}" alt="{{ .Params.featured_image_alt | default .Title }}">
+    {{ else }}
+    <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+    {{ end }}
+    <div class="production-review-body">
+      <div class="production-review-badges">
+        <span class="production-review-badge">Review</span>
+        <span class="production-review-badge production-review-badge--outlet">JaxPlays</span>
+      </div>
+      <strong class="production-review-title">{{ .Title }}</strong>
+      <span class="production-review-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+      {{ with $summary }}<div class="production-review-meta production-review-summary">{{ . }}</div>{{ end }}
+    </div>
+  </article>
+  {{ end }}
+
+  {{ if $page.Params.reviews }}
+  {{ range $review := $page.Params.reviews }}
+  {{ $reviewTitle := "" }}
+  {{ $reviewURI := "" }}
+  {{ $reviewOutlet := "" }}
+  {{ $reviewDescription := "" }}
+  {{ $reviewImage := "" }}
+  {{ if in (printf "%T" $review) "map" }}
+  {{ $reviewTitle = index $review "title" | default "" }}
+  {{ $reviewURI = index $review "uri" | default "" }}
+  {{ $reviewOutlet = index $review "outlet" | default "" }}
+  {{ $reviewDescription = index $review "description" | default "" }}
+  {{ $reviewImage = index $review "featured_image" | default "" }}
+  {{ if not $reviewURI }}
+  {{ range $legacyTitle, $legacyURI := $review }}
+  {{ if not (in (slice "title" "uri" "outlet" "description" "featured_image") $legacyTitle) }}
+  {{ $reviewTitle = $legacyTitle }}
+  {{ $reviewURI = $legacyURI }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ else }}
+  {{ $reviewTitle = $review }}
+  {{ end }}
+  {{ $reviewSummary := "" }}
+  {{ with $reviewDescription }}
+  {{ $reviewSummary = . | markdownify | plainify }}
+  {{ end }}
+  <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card">
+    {{ with $reviewURI }}<a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ . }}" target="_blank" rel="noopener" aria-label="Read {{ $reviewTitle }}"></a>{{ end }}
+    {{ if $reviewImage }}
+    <img class="production-review-image" src="{{ $reviewImage }}" alt="{{ $reviewTitle }}">
+    {{ else }}
+    <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $reviewTitle }}">
+    {{ end }}
+    <div class="production-review-body">
+      <div class="production-review-badges">
+        <span class="production-review-badge">Review</span>
+        {{ with $reviewOutlet }}<span class="production-review-badge production-review-badge--outlet">{{ . }}</span>{{ end }}
+      </div>
+      <strong class="production-review-title">{{ $reviewTitle }}</strong>
+      {{ if $reviewSummary }}
+      <div class="production-review-meta production-review-summary">{{ $reviewSummary }}</div>
+      {{ else }}
+      {{ with $reviewOutlet }}<span class="production-review-meta">External review</span>{{ end }}
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+  {{ end }}
+  </div>
+</div>
+{{ end }}
