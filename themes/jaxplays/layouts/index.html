@@ -207,19 +207,12 @@
     text-transform: uppercase;
   }
 
-  .home-dashboard-section-title-link,
-  .home-dashboard-section-more {
+  .home-dashboard-section-title-link {
     font-weight: 700;
   }
 
   .home-dashboard-section-title-link {
     display: inline-block;
-  }
-
-  .home-dashboard-section-more {
-    display: block;
-    margin: .85rem 0 0 auto;
-    width: max-content;
   }
 
   .home-dashboard-rail {
@@ -617,7 +610,7 @@
           <p class="home-dashboard-meta">No current productions found.</p>
         {{ end }}
       </div>
-      <a class="home-dashboard-section-more" href="/productions/">All productions</a>
+      <a class="jp-section-more" href="/productions/">All productions</a>
       {{- partial "GAM-right-rail-1.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
     </section>
 
@@ -647,7 +640,7 @@
           <p class="home-dashboard-meta">No upcoming productions found.</p>
         {{ end }}
       </div>
-      <a class="home-dashboard-section-more" href="/calendar/opening-nights/">Opening nights</a>
+      <a class="jp-section-more" href="/calendar/opening-nights/">Opening nights</a>
     </section>
 
     <section class="home-dashboard-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-reviews">
@@ -663,7 +656,7 @@
           {{ partial "article-card.html" (dict "page" . "variant" "home") }}
         {{ end }}
       </div>
-      <a class="home-dashboard-section-more" href="/reviews/">More reviews</a>
+      <a class="jp-section-more" href="/reviews/">More reviews</a>
       {{- partial "GAM-right-rail-2.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
     </section>
 
@@ -680,7 +673,7 @@
             {{ partial "article-card.html" (dict "page" . "variant" "home") }}
           {{ end }}
         </div>
-        <a class="home-dashboard-section-more" href="/news/">More news</a>
+        <a class="jp-section-more" href="/news/">More news</a>
       </section>
     {{ end }}
 

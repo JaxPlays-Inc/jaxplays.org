@@ -148,7 +148,25 @@
     {{ end }}
 
     {{/* Past Productions Section */}}
-    {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
+    {{ if $pastProductions }}
+      {{ $pastURL := printf "%spast/" .RelPermalink }}
+      {{ $pastPreview := first 4 $pastProductions }}
+      <section class="productions-directory-section" aria-labelledby="past-productions" data-production-section>
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Closed Productions</p>
+            <h2 id="past-productions"><a href="{{ $pastURL }}">Past Productions</a></h2>
+          </div>
+          <span class="productions-directory-count" data-production-section-count>{{ len $pastPreview }} of {{ len $pastProductions }} listed</span>
+        </div>
+        <div class="productions-directory-grid">
+          {{ range $pastPreview }}
+            {{ partial "production-directory-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="{{ $pastURL }}">More Past Productions</a>
+      </section>
+    {{ end }}
 
     <!-- END Theatre Productions Section -->
 

@@ -49,6 +49,28 @@
 	background: var(--jp-gold, var(--jaxplays-gold));
 }
 
+.jp-section-more,
+.home-dashboard-section-more {
+	color: var(--jp-ink);
+	display: block;
+	font-weight: 700;
+	margin: .85rem 0 0 auto;
+	text-decoration: none;
+	width: max-content;
+}
+
+.jp-section-more:hover,
+.jp-section-more:focus,
+.home-dashboard-section-more:hover,
+.home-dashboard-section-more:focus,
+.jp-section-more:hover:not(.no-underline):not(.link),
+.jp-section-more:focus:not(.no-underline):not(.link),
+.home-dashboard-section-more:hover:not(.no-underline):not(.link),
+.home-dashboard-section-more:focus:not(.no-underline):not(.link) {
+	color: var(--jp-ink);
+	text-decoration: none;
+}
+
 a,
 .nested-links a {
 	color: var(--jaxplays-red);
@@ -1804,6 +1826,19 @@ h1 a.jaxplayslogo {
 	margin: 0;
 }
 
+.productions-directory-section-head h2 a {
+	color: var(--jp-ink);
+	text-decoration: none;
+}
+
+.productions-directory-section-head h2 a:hover,
+.productions-directory-section-head h2 a:focus,
+.productions-directory-section-head h2 a:hover:not(.no-underline):not(.link),
+.productions-directory-section-head h2 a:focus:not(.no-underline):not(.link) {
+	color: var(--jp-ink);
+	text-decoration: none;
+}
+
 .productions-directory-section-eyebrow {
 	color: var(--jp-red);
 	font-size: .75rem;
@@ -1853,6 +1888,7 @@ h1 a.jaxplayslogo {
 	background: #fff;
 	border-right: 1px solid var(--jp-line);
 	display: block;
+	overflow: hidden;
 	position: relative;
 	z-index: 5;
 }
@@ -2312,7 +2348,7 @@ a.production-credit-person.slow-grow:focus,
 	}
 
 	.productions-directory-card {
-		grid-template-columns: minmax(5.75rem, 7rem) minmax(0, 1fr);
+		grid-template-columns: minmax(9rem, 42%) minmax(0, 1fr);
 	}
 
 	.productions-directory-card-body {
