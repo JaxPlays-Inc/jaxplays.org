@@ -36,6 +36,13 @@
   {{ $founded = printf "%v" . }}
   {{ if findRE `^\d{4}-\d{2}-\d{2}` $founded }}{{ $founded = (time $founded).Format "2006" }}{{ end }}
 {{ end }}
+{{ $theatreType := "Theatre" }}
+{{ with .Params.company_type }}
+  {{ $theatreType = printf "%s Theatre" . }}
+{{ end }}
+{{ $eyebrowParts := slice $theatreType }}
+{{ with $founded }}{{ $eyebrowParts = $eyebrowParts | append (printf "Founded %s" .) }}{{ end }}
+{{ $eyebrow := delimit $eyebrowParts " • " }}
 
 {{ $theatreName := .Title }}
 {{ $theatreAliases := .Params.theatre_aliases | default (slice) }}
@@ -78,15 +85,10 @@
           data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}'> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
           <img class="theatre-single-logo" src="{{ $logoPath }}" alt="{{ $featuredImageAlt }}" />
         </a>
-        <div class="theatre-single-quickfacts">
-          {{ with .Params.company_type }}<span>{{ . }} theatre</span>{{ end }}
-          {{ with $founded }}<span>Founded {{ . }}</span>{{ end }}
-          {{ with .Params.address }}<span>{{ . | plainify }}</span>{{ end }}
-        </div>
       </div>
 
       <div class="theatre-single-intro">
-        <p class="theatre-single-kicker">Theatre</p>
+        <p class="theatre-single-kicker">{{ $eyebrow }}</p>
         <h1 id="theatre-profile-title" class="theatre-single-title">{{ .Title }}</h1>
         {{ with $description }}
           <div class="theatre-single-description nested-copy-line-height">
