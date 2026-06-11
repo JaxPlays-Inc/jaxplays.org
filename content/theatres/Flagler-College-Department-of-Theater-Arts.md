@@ -6,7 +6,7 @@ featured_image: Flagler-College-Department-of-Theater-Arts.webp
 featured_image_attr: 
 featured_image_alt: Logo for Flagler College Department of Theater Arts
 featured_image_caption: Flagler College Department of Theater Arts Logo
-founded: 
+founded: 1968
 address: |
     14 Granada St.
     Saint Augustine, FL

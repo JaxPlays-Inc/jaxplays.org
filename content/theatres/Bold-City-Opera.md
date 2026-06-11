@@ -8,7 +8,7 @@ featured_image: Bold-City-Opera.webp
 featured_image_attr:
 featured_image_alt: Logo for Bold City Opera
 featured_image_caption: Bold City Opera Logo
-founded: 
+founded: 2023
 address: |
     3604 Cardinal Point Drive 
     Jacksonville, FL 32257

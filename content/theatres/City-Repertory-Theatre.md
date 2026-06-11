@@ -7,7 +7,7 @@ featured_image: City-Repertory-Theatre.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-founded: 
+founded: 2010
 address: |
     160 Cypress Point Pkwy, Suite B207
     Palm Coast, FL 32164
