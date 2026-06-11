@@ -1,0 +1,219 @@
+{{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}
+{{ define "main" }}
+
+{{ $featuredImage := .Params.featured_image }}
+{{ $featuredImageCaption := .Params.featured_image_caption }}
+{{ $featuredImageAttr := .Params.featured_image_attr }}
+{{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+{{ $featuredImageAlt := .Params.featured_image_alt | default (printf "%s logo" .Title) }}
+{{ $contentLength := len .Content }}
+{{ $description := .Params.description }}
+{{ if not $description }}
+  {{ if gt $contentLength 350 }}
+    {{ $description = printf "%s..." (substr .Content 0 350) | plainify | safeHTML }}
+  {{ else }}
+    {{ $description = substr .Content 0 $contentLength | plainify | safeHTML }}
+  {{ end }}
+{{ end }}
+{{ $logoPath := "/media/default/production_poster.webp" }}
+{{ if $featuredImage }}
+  {{ $logoPath = printf "/media/logos/%s" $featuredImage }}
+{{ end }}
+{{ $website := .Params.website | default "" }}
+{{ with .Params.socials }}{{ with .website }}{{ $website = . }}{{ end }}{{ end }}
+{{ $websiteLabel := "" }}
+{{ with $website }}{{ $websiteLabel = . | replaceRE "^https?://(www\\.)?" "" | replaceRE "/$" "" }}{{ end }}
+{{ $phone := .Params.phone | default "" }}
+{{ $phoneDigits := replaceRE "\\D" "" $phone }}
+{{ $phoneLabel := $phone }}
+{{ if ge (len $phoneDigits) 11 }}
+  {{ $phoneLabel = printf "(%s) %s-%s" (substr $phoneDigits 1 3) (substr $phoneDigits 4 3) (substr $phoneDigits 7 4) }}
+{{ else if ge (len $phoneDigits) 10 }}
+  {{ $phoneLabel = printf "(%s) %s-%s" (substr $phoneDigits 0 3) (substr $phoneDigits 3 3) (substr $phoneDigits 6 4) }}
+{{ end }}
+{{ $founded := "" }}
+{{ with .Params.founded }}
+  {{ $founded = printf "%v" . }}
+  {{ if findRE `^\d{4}-\d{2}-\d{2}` $founded }}{{ $founded = (time $founded).Format "2006" }}{{ end }}
+{{ end }}
+{{ $theatreType := "Theatre" }}
+{{ with .Params.company_type }}
+  {{ $theatreType = printf "%s Theatre" . }}
+{{ end }}
+{{ $eyebrowParts := slice $theatreType }}
+{{ with $founded }}{{ $eyebrowParts = $eyebrowParts | append (printf "Founded %s" .) }}{{ end }}
+{{ $eyebrow := delimit $eyebrowParts " • " }}
+
+{{ $theatreName := .Title }}
+{{ $theatreAliases := .Params.theatre_aliases | default (slice) }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $currentlyOnStage := slice }}
+{{ $comingSoon := slice }}
+{{ $pastProductions := slice }}
+
+{{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
+  {{ if or (eq .Params.theatre $theatreName) (in $theatreAliases .Params.theatre) }}
+    {{ $openingDate := "" }}
+    {{ $endDate := "" }}
+    {{ with .Params.opening_date }}
+      {{ $openingDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    {{ with .Params.closing_date }}
+      {{ $endDate = time . | time.Format "2006-01-02" }}
+    {{ end }}
+    {{ if $openingDate }}
+      {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+        {{ $currentlyOnStage = $currentlyOnStage | append . }}
+      {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
+        {{ $pastProductions = $pastProductions | append . }}
+      {{ else if gt $openingDate $currentDate }}
+        {{ $comingSoon = $comingSoon | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $currentlyOnStage = sort $currentlyOnStage "Params.opening_date" "asc" }}
+{{ $comingSoon = sort $comingSoon "Params.opening_date" "asc" }}
+{{ $pastProductions = sort $pastProductions "Params.opening_date" "desc" }}
+
+<article class="theatre-single">
+  <div class="theatre-single-shell">
+    <section class="theatre-single-hero" aria-labelledby="theatre-profile-title">
+      <div class="theatre-single-identity">
+        <a class="theatre-single-logo-link" href="{{ $logoPath }}" data-lightbox="image-1"
+          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}'> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img class="theatre-single-logo" src="{{ $logoPath }}" alt="{{ $featuredImageAlt }}" />
+        </a>
+      </div>
+
+      <div class="theatre-single-intro">
+        <p class="theatre-single-kicker">{{ $eyebrow }}</p>
+        <h1 id="theatre-profile-title" class="theatre-single-title">{{ .Title }}</h1>
+        {{ with $description }}
+          <div class="theatre-single-description nested-copy-line-height">
+            {{ partial "content-wikilinks" . }}
+          </div>
+        {{ end }}
+        <div class="theatre-single-actions">
+          {{ if .Content }}<a class="jp-button jp-grow theatre-single-action theatre-single-action--quiet" href="#about">About</a>{{ end }}
+          {{ with .Params.donate }}<a class="jp-button jp-grow theatre-single-action theatre-single-action--donate" href="{{ . }}" target="_blank" rel="noopener">Donate</a>{{ end }}
+          {{ if $phoneDigits }}<a class="jp-button jp-grow theatre-single-action" href="tel:{{ $phoneDigits }}">{{ $phoneLabel }}</a>{{ end }}
+          {{ if .Params.socials }}
+            <div class="theatre-single-socials">
+              {{ partial "theatre-social-links.html" . }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <!-- Theatre Productions Section -->
+    <!-- START Theatre Productions Section-->
+
+    {{/* Now Playing Section */}}
+    {{ if $currentlyOnStage }}
+      <section class="productions-directory-section" aria-labelledby="currently-on-stage" data-production-section>
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Currently on Stage</p>
+            <h2 id="currently-on-stage">Now Playing</h2>
+          </div>
+          <span class="productions-directory-count" data-production-section-count>{{ len $currentlyOnStage }} listed</span>
+        </div>
+        <div class="productions-directory-grid">
+          {{ range $currentlyOnStage }}
+            {{ partial "production-directory-card.html" (dict "page" . "status" "Now Playing") }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* Future Productions Section */}}
+    {{ if $comingSoon }}
+      <section class="productions-directory-section" aria-labelledby="future-productions" data-production-section>
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Announced Upcoming Shows</p>
+            <h2 id="future-productions">Future Productions</h2>
+          </div>
+          <span class="productions-directory-count" data-production-section-count>{{ len $comingSoon }} listed</span>
+        </div>
+        <div class="productions-directory-grid">
+          {{ range $comingSoon }}
+            {{ partial "production-directory-card.html" (dict "page" . "status" "Coming Soon") }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* Past Productions Section */}}
+    {{ partial "production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
+
+    <!-- END Theatre Productions Section -->
+
+    <!-- Content "About" -->
+    {{ if .Content }}
+    <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">About {{ .Title }}</h3>
+      {{ partial "content-wikilinks" .Content }}
+    </div>
+    {{ end }}
+
+    <!-- Reviews -->
+    {{ $theatreName := .Title }} <!-- Assuming the page title is the theatre's name -->
+    {{ $relatedReviews := slice }}
+
+    {{ range where site.RegularPages "Type" "reviews" }}
+    {{ if eq .Params.theatre $theatreName }}
+    {{ $relatedReviews = $relatedReviews | append . }}
+    <!-- Appending the entire review object if the theatre name is found -->
+    {{ end }}
+    {{ end }}
+
+    {{ partial "review-card-grid.html" (dict "page" . "relatedReviews" $relatedReviews "heading" (printf "Reviews featuring %s" .Title)) }}
+
+    <!-- Press -->
+    {{ if .Params.press }}
+    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+      <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+
+      {{ range .Params.press }} <!-- Iterate over the crew array -->
+      {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
+      <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Photos -->
+    {{ if .Params.photos }}
+    <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
+      <h2 id="PhotoGallery" class="sectionline">Photos</h2>
+      <div class="flex flex-wrap">
+        {{ range .Params.photos }}
+        {{ $altText := .photo_alt | default $.Title }}
+        <figure class="w-40-l center">
+          <a href="{{ printf " /media/photos/%s" .photo }}" data-lightbox="gallery"
+            data-title="{{ with .photo_caption }}{{ . }}{{ end }}{{ if .photo_attr }}{{ with .photo_attrlink }}<a href='{{ . }}''> | (📷 {{ .photo_attr }})</a>{{ else }} | (📷 {{ .photo_attr }}){{ end }}{{ end }}"><img
+              src="{{ printf " /media/photos/%s" .photo }}" alt="{{ $altText }}" /></a>
+          {{ if or .photo_caption .photo_attr }}
+          <figcaption class="flex tc center f5 pa1-ns pa3-m avenir justify-center gray">
+            {{ with .photo_caption }}
+            {{ . }}
+            {{ end }}
+            {{ if and .photo_caption .photo_attr }} | {{ end }}
+            {{ with .photo_attr }}
+            (📷 {{ . }})
+            {{ end }}
+          </figcaption>
+          {{ end }}
+        </figure>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}

@@ -1,9 +1,9 @@
 {{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}
 {{ define "main" }}
 
-{{ $theatreName := .Params.theatre }}
-{{ $theatrePage := false }}
-{{ range where site.RegularPages "Section" "theatres" }}
+{{ $theatreName := .Params.theatre | default .Parent.Title }}
+{{ $theatrePage := .Parent }}
+{{ range where site.Pages "Type" "theatres" }}
   {{ if eq .Title $theatreName }}
     {{ $theatrePage = . }}
   {{ end }}

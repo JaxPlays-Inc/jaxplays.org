@@ -703,7 +703,7 @@
           <span class="home-dashboard-meta">Artists, crew, musicians and theatre makers.</span>
         </a>
         <a class="home-dashboard-archive-link home-dashboard-grow" href="/theatres/">
-          <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "theatres") }}</span>
+          <span class="home-dashboard-count">{{ len (where (where .Site.Pages "Type" "theatres") "Params.active" "ne" nil) }}</span>
           <strong>Theatres</strong>
           <span class="home-dashboard-meta">Companies across Northeast Florida and Southeast Georgia.</span>
         </a>
