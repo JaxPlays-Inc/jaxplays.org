@@ -7,7 +7,7 @@ featured_image: Theatre-Troupe-1776.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-founded: 
+founded: 2024-02-25
 address: |
     
 latitude: 

@@ -9,6 +9,7 @@ featured_image: St_Marys_Little_Theatre.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
+founded: 2011
 address: |
   4515 GA-40 E, Ste. E
   St. Marys, GA 31558

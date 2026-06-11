@@ -7,7 +7,7 @@ featured_image: River-City-Players.webp
 featured_image_attr: 
 featured_image_alt: 
 featured_image_caption: 
-founded: 
+founded: 1982
 address: |
     
 latitude: 

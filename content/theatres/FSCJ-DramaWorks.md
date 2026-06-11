@@ -6,6 +6,7 @@ featured_image: FSCJ.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
+founded: 1994
 socials:
   facebook: FSCJOfficial
   twitter: FSCJ_Official

@@ -11,7 +11,7 @@ featured_image: Spotlight-Events-Center-1.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption: Logo for Spotlight Events Center
-founded: 
+founded: 2023
 address: |
     1809 East West Parkway
     Fleming Island, FL 32003
