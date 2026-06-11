@@ -10,6 +10,45 @@
 	--jaxplays-white: #fff;
 }
 
+.jp-grow,
+.home-dashboard-grow {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: transform .25s ease-out;
+}
+
+.jp-grow:hover,
+.jp-grow:focus,
+.home-dashboard-grow:hover,
+.home-dashboard-grow:focus {
+	transform: scale(1.025);
+}
+
+.jp-grow:active,
+.home-dashboard-grow:active {
+	transform: scale(.98);
+}
+
+.jp-button,
+.home-dashboard-button {
+	align-items: center;
+	background: #fff;
+	border: 1px solid var(--jp-ink, #181818);
+	border-radius: 0;
+	display: inline-flex;
+	font-weight: 700;
+	min-height: 42px;
+	padding: .65rem .9rem;
+	text-decoration: none;
+}
+
+.jp-button.primary,
+.home-dashboard-button.primary {
+	background: var(--jp-gold, var(--jaxplays-gold));
+}
+
 a,
 .nested-links a {
 	color: var(--jaxplays-red);
@@ -169,6 +208,243 @@ h1 a.jaxplayslogo {
 	justify-self: start;
 }
 
+.theatre-single {
+	color: #181818;
+	overflow-x: clip;
+}
+
+.theatre-single-shell {
+	margin: 0 auto;
+	max-width: 80rem;
+	padding: .5rem 1rem 3rem;
+}
+
+.theatre-single-hero {
+	align-items: start;
+	background: #fff;
+	display: grid;
+	gap: .85rem;
+	grid-template-columns: minmax(25%, 18rem) minmax(0, 1fr);
+	min-height: 0;
+	padding: 1rem;
+}
+
+.theatre-single-identity {
+	color: #181818;
+	display: grid;
+	gap: .5rem;
+	grid-template-rows: 1fr auto;
+	padding: 1rem;
+}
+
+.theatre-single-logo-link {
+	align-items: center;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	min-height: 5rem;
+	padding: .35rem;
+}
+
+.theatre-single-logo {
+	display: block;
+	/* max-height: 4.5rem; */
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.theatre-single-quickfacts {
+	color: #555;
+	display: grid;
+	font-size: .68rem;
+	font-weight: 700;
+	gap: .25rem;
+	letter-spacing: .04em;
+	line-height: 1.35;
+	text-transform: uppercase;
+	overflow-wrap: anywhere;
+}
+
+.theatre-single-quickfacts span:nth-child(n+3) {
+	display: none;
+}
+
+.theatre-single-intro {
+	align-items: center;
+	column-gap: 1rem;
+	display: grid;
+	grid-template-areas:
+		"kicker"
+		"title"
+		"description"
+		"actions";
+	grid-template-columns: minmax(0, 1fr);
+	justify-content: stretch;
+	min-width: 0;
+	row-gap: .35rem;
+}
+
+.theatre-single-kicker {
+	color: var(--jaxplays-red);
+	font-size: .82rem;
+	font-weight: 700;
+	grid-area: kicker;
+	letter-spacing: .1em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.theatre-single-title {
+	font-size: clamp(1.65rem, 3.5vw, 2.8rem);
+	grid-area: title;
+	line-height: 1;
+	margin: 0;
+}
+
+.theatre-single-description {
+	color: #353535;
+	display: -webkit-box;
+	font-size: clamp(.95rem, 1.1vw, 1.05rem);
+	grid-area: description;
+	line-height: 1.35;
+	margin-top: 0;
+	max-width: 42rem;
+	overflow-wrap: anywhere;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.theatre-single-description p {
+	margin: 0;
+}
+
+.theatre-single-actions {
+	--theatre-single-action-size: 2.5rem;
+	--theatre-single-action-gap: calc(var(--theatre-single-action-size) * .25);
+	--theatre-single-action-icon-size: calc(var(--theatre-single-action-size) * .6);
+	--theatre-single-action-font-size: calc(var(--theatre-single-action-size) * .32);
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--theatre-single-action-gap);
+	grid-area: actions;
+	margin-top: .35rem;
+}
+
+.theatre-single-action {
+	--jp-ink: #181818;
+	background: #181818;
+	color: #fff;
+	font-size: var(--theatre-single-action-font-size);
+	font-weight: 800;
+	justify-content: center;
+	letter-spacing: .01em;
+	line-height: 1;
+	min-height: var(--theatre-single-action-size);
+	padding: calc(var(--theatre-single-action-size) * .22) calc(var(--theatre-single-action-size) * .35);
+	overflow-wrap: anywhere;
+	text-align: center;
+}
+
+.theatre-single-actions a.theatre-single-action:hover,
+.theatre-single-actions a.theatre-single-action:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.theatre-single-action--donate {
+	background: var(--jaxplays-gold);
+	border-color: #181818;
+	color: #111;
+}
+
+.theatre-single-actions a.theatre-single-action--donate:hover,
+.theatre-single-actions a.theatre-single-action--donate:focus {
+	color: #111;
+	text-decoration: none;
+}
+
+.theatre-single-action--quiet {
+	background: #fff;
+	border-color: rgba(0, 0, 0, .28);
+	color: #181818;
+}
+
+.theatre-single-actions a.theatre-single-action--quiet:hover,
+.theatre-single-actions a.theatre-single-action--quiet:focus {
+	background: #181818;
+	color: #fff;
+	text-decoration: none;
+}
+
+.theatre-single-socials {
+	display: contents;
+}
+
+.theatre-social-links {
+	align-items: center;
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: var(--theatre-single-action-gap);
+}
+
+.theatre-social-link {
+	align-items: center;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, .28);
+	box-shadow: none;
+	color: #181818;
+	display: inline-flex;
+	fill: currentColor;
+	height: var(--theatre-single-action-size);
+	justify-content: center;
+	margin: 0 !important;
+	padding: 0;
+	width: var(--theatre-single-action-size);
+}
+
+.theatre-social-link:hover,
+.theatre-social-link:focus {
+	background: #181818;
+	border-color: #181818;
+	color: #fff;
+	fill: currentColor;
+}
+
+.theatre-social-link svg {
+	display: block;
+	fill: currentColor;
+	height: var(--theatre-single-action-icon-size);
+	width: var(--theatre-single-action-icon-size);
+}
+
+.theatre-social-link--instagram svg,
+.theatre-social-link--youtube svg,
+.theatre-social-link--website svg {
+	fill: none;
+}
+
+.theatre-social-link--instagram circle:last-child,
+.theatre-social-link--website path,
+.theatre-social-link--youtube path {
+	fill: currentColor;
+}
+
+.theatre-social-link span {
+	font-size: 1.25rem;
+	font-weight: 800;
+	line-height: 1;
+}
+
+.theatre-social-links {
+	min-width: 0;
+}
+
+.theatre-social-link {
+	flex: 0 0 auto;
+}
+
 @media screen and (min-width: 48em) {
 	.production-single .production-hero-grid {
 		gap: .75rem 1.5rem;
@@ -182,6 +458,75 @@ h1 a.jaxplayslogo {
 	.production-single .production-hero-actions {
 		margin-top: .25rem;
 	}
+}
+
+@media screen and (max-width: 56rem) {
+	.theatre-single-shell {
+		padding: .5rem 1rem 3rem;
+	}
+
+	.theatre-single-hero {
+		grid-template-columns: 1fr;
+		padding: .8rem;
+	}
+
+	.theatre-single-identity {
+		grid-template-columns: minmax(5.5rem, 7.5rem) minmax(0, 1fr);
+		grid-template-rows: auto;
+	}
+
+	.theatre-single-logo-link {
+		min-height: 5rem;
+		padding: .5rem;
+	}
+
+	.theatre-single-logo {
+		max-height: 4.25rem;
+	}
+
+	.theatre-single-intro {
+		grid-template-areas:
+			"kicker"
+			"title"
+			"description"
+			"actions";
+		grid-template-columns: 1fr;
+	}
+
+	.theatre-single-description {
+		-webkit-line-clamp: 2;
+	}
+
+}
+
+@media screen and (max-width: 34rem) {
+	.theatre-single-hero {
+		gap: .65rem;
+		padding: .65rem;
+	}
+
+	.theatre-single-identity {
+		gap: .4rem;
+		grid-template-columns: minmax(4.75rem, 6rem) minmax(0, 1fr);
+	}
+
+	.theatre-single-logo-link {
+		min-height: 4.25rem;
+		padding: .25rem;
+	}
+
+	.theatre-single-logo {
+		max-height: 3.75rem;
+	}
+
+	.theatre-single-title {
+		font-size: clamp(1.55rem, 9vw, 2.2rem);
+	}
+
+	.theatre-single-actions {
+		--theatre-single-action-size: 2.1rem;
+	}
+
 }
 
 .production-single .production-details {
