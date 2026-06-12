@@ -12,7 +12,7 @@
     {{ if or .caption .attr }}
     {{ .caption }}
     {{ if .attr }}
-    {{ with .attr_link }} | (📷 <a href="{{ . }}"  target='_blank' >{{ $attr }}</a>){{ else }} | (📷 {{ $attr }}){{ end }}
+    {{ with .attr_link }} | 📷 <a href="{{ . }}"  target='_blank' >{{ $attr }}</a>{{ else }} | 📷 {{ $attr }}{{ end }}
     {{ end }}
     {{ end }}
   </figcaption>

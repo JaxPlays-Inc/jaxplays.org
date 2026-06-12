@@ -7,6 +7,7 @@ featured_image:
   caption: "The cast of ABET’s *The Fantasticks* stages a picture-perfect moment with a 'Happy Ending' banner — a playful signal that the story’s twists are just beginning."
   credit:
     name: Josh Andrews
+  size: wide
 authors: 
 - Ray Hollister
 show_reading_time: true

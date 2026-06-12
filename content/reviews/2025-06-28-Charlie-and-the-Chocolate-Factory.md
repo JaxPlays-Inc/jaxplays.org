@@ -7,6 +7,7 @@ featured_image:
   caption: "Willy Wonka welcomes his golden ticket winners — and their wildly varied guardians — into a world of pure imagination in *Charlie and the Chocolate Factory* at Alhambra Theatre & Dining."
   credit:
     name: "Alhambra Theatre & Dining"
+  size: content
 authors: 
 - Ray Hollister
 show_reading_time: true

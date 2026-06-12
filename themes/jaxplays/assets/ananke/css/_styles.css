@@ -1365,10 +1365,15 @@ h1 a.jaxplayslogo {
 	max-width: 62.5rem;
 }
 
-.article-single-media--full,
-.article-single-media--bleed {
+.article-single-media--full {
 	justify-self: center;
 	max-width: 75rem;
+}
+
+.article-single-media--bleed {
+	margin-left: calc(50% - 50vw);
+	max-width: none;
+	width: 100vw;
 }
 
 .article-single-media > a {
@@ -1452,7 +1457,7 @@ h1 a.jaxplayslogo {
 	margin: 2rem auto;
 }
 
-.article-single-content .article-figure a {
+.article-single-content .article-figure > a {
 	display: block;
 }
 
@@ -1486,12 +1491,17 @@ h1 a.jaxplayslogo {
 	width: calc(100vw - 2rem);
 }
 
-.article-single-content .article-figure--full,
-.article-single-content .article-figure--bleed {
+.article-single-content .article-figure--full {
 	margin-left: 50%;
 	max-width: 75rem;
 	transform: translateX(-50%);
 	width: calc(100vw - 2rem);
+}
+
+.article-single-content .article-figure--bleed {
+	margin-left: calc(50% - 50vw);
+	max-width: none;
+	width: 100vw;
 }
 
 .article-single-correction {

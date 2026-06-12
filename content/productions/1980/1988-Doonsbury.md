@@ -63,6 +63,10 @@ crew:
   - Gloria Farhound
   - Jeanne Schapper
 - Volunteer Coordinator: Calvin LaSear
+photos:
+- photo: 1988-Doonsbury-01.webp
+  photo_attr:
+  photo_alt:
+  photo_caption: Cast of 1988 'Doonsbury' at Theatre Jacksonville
 orchestra:
 ---
-
