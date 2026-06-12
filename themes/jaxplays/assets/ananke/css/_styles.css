@@ -170,19 +170,17 @@ h1 a.jaxplayslogo {
 
 .production-single .production-hero-grid {
 	background-color: var(--jaxplays-white);
-    padding: 1rem;
+	padding: 1rem;
 	align-items: start;
 	display: grid;
-	gap: 1rem;
+	gap: .85rem 1rem;
 	grid-template-areas:
 		"header header"
-		"poster actions"
-		"poster spacer"
-		"poster ticket"
-		"description description"
-		"readmore readmore";
-	grid-template-columns: clamp(5.5rem, 50vw, 14.5rem) minmax(0, 1fr);
-	grid-template-rows: auto auto 1fr auto auto auto;
+		"actions actions"
+		"poster description"
+		"poster ticket";
+	grid-template-columns: clamp(7.25rem, 34vw, 9.25rem) minmax(0, 1fr);
+	grid-template-rows: auto;
 }
 
 .production-single .production-hero-grid--text {
@@ -190,14 +188,16 @@ h1 a.jaxplayslogo {
 		"header"
 		"actions"
 		"description"
-		"ticket"
-		"readmore";
+		"ticket";
 	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto;
 }
 
 .production-single .production-hero-poster {
 	grid-area: poster;
+	justify-self: stretch;
+	max-width: none;
+	width: 100%;
 }
 
 .production-single .production-hero-poster img {
@@ -239,11 +239,6 @@ h1 a.jaxplayslogo {
 
 .production-single .production-hero-description {
 	grid-area: description;
-}
-
-.production-single .production-hero-readmore {
-	grid-area: readmore;
-	justify-self: start;
 }
 
 .theatre-single {
@@ -488,12 +483,20 @@ h1 a.jaxplayslogo {
 			"poster header"
 			"poster actions"
 			"poster description"
-			"poster readmore";
+			"poster ticket";
+		grid-template-columns: clamp(5.5rem, 50vw, 14.5rem) minmax(0, 1fr);
 		grid-template-rows: auto auto 1fr auto;
 	}
 
+	.production-single .production-hero-poster {
+		justify-self: stretch;
+		max-width: none;
+		width: auto;
+	}
+
 	.production-single .production-hero-ticket {
-		grid-area: readmore;
+		align-self: end;
+		grid-area: ticket;
 	}
 
 	.production-single .production-hero-badges {
@@ -505,10 +508,9 @@ h1 a.jaxplayslogo {
 			"header"
 			"actions"
 			"description"
-			"ticket"
-			"readmore";
+			"ticket";
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto auto auto;
+		grid-template-rows: auto auto auto auto;
 	}
 }
 
