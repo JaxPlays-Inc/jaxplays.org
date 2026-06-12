@@ -241,6 +241,12 @@ h1 a.jaxplayslogo {
 	grid-area: description;
 }
 
+@media screen and (max-width: 767px) {
+	.production-single .production-hero-description {
+		font-size: calc(100vw * (16/430));
+	}
+}
+
 .theatre-single {
 	--jp-ink: #171717;
 	--jp-muted: #5f6670;
