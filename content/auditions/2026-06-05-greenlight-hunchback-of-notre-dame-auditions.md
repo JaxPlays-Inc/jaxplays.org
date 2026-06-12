@@ -1,5 +1,5 @@
 ---
-title: "Greenlight Theatre Company Announces *The Hunchback of Notre Dame* Auditions"
+title: "Greenlight Theatre Company Announces 'The Hunchback of Notre Dame' Auditions"
 date: 2026-06-05T09:00:00-04:00
 authors:
 - JaxPlays
