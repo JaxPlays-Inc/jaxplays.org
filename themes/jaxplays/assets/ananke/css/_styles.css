@@ -10,6 +10,115 @@
 	--jaxplays-white: #fff;
 }
 
+.jp-submit-form-wrap {
+	margin-top: 2rem;
+}
+
+.jp-submit-form {
+	display: grid;
+	gap: 1.15rem;
+}
+
+.jp-submit-field {
+	border-top: 1px solid rgba(23, 23, 23, .12);
+	padding-top: 1rem;
+}
+
+.jp-submit-field label,
+.jp-submit-field legend {
+	color: var(--jp-ink);
+	display: block;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0 0 .4rem;
+}
+
+.jp-submit-field input:not([type="checkbox"]),
+.jp-submit-field textarea {
+	background: #fff;
+	border: 1px solid rgba(23, 23, 23, .32);
+	color: var(--jp-ink);
+	display: block;
+	font: inherit;
+	line-height: 1.35;
+	padding: .7rem .8rem;
+	width: 100%;
+}
+
+.jp-submit-field textarea {
+	min-height: 8.5rem;
+	resize: vertical;
+}
+
+.jp-submit-field input[type="file"] {
+	padding: .65rem;
+}
+
+.jp-submit-help {
+	color: #555;
+	font-size: .9rem;
+	line-height: 1.45;
+	margin: 0 0 .55rem;
+}
+
+.jp-submit-choice-grid {
+	display: grid;
+	gap: .45rem .9rem;
+	grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+
+.jp-submit-choice {
+	align-items: flex-start;
+	display: flex !important;
+	font-size: .95rem !important;
+	font-weight: 500 !important;
+	gap: .45rem;
+	line-height: 1.25 !important;
+	margin: 0 !important;
+}
+
+.jp-submit-choice input {
+	margin-top: .12rem;
+}
+
+.jp-submit-rights {
+	border-top: 1px solid rgba(23, 23, 23, .12);
+	color: #555;
+	font-size: .85rem;
+	line-height: 1.45;
+	padding-top: 1rem;
+}
+
+.jp-submit-rights p {
+	margin: 0 0 .65rem;
+}
+
+.jp-submit-honeypot {
+	left: -10000px;
+	position: absolute;
+}
+
+.jp-submit-status {
+	font-size: .95rem;
+	font-weight: 700;
+	margin: 0;
+	min-height: 1.4em;
+}
+
+.jp-submit-status[data-state="success"] {
+	color: #006838;
+}
+
+.jp-submit-status[data-state="error"] {
+	color: #a23337;
+}
+
+.jp-submit-button {
+	border: 0;
+	justify-self: start;
+}
+
 .jp-grow,
 .home-dashboard-grow {
 	-moz-osx-font-smoothing: grayscale;

@@ -1,11 +1,12 @@
-# JaxPlays Newsletter Worker
+# JaxPlays API Worker
 
-Cloudflare Worker endpoint for the native homepage dashboard newsletter form.
+Cloudflare Worker endpoint for JaxPlays public API routes.
 
 Endpoint:
 
 ```text
 POST https://api.jaxplays.org/newsletter
+POST https://api.jaxplays.org/submissions
 ```
 
 Required Worker secrets:
@@ -14,6 +15,10 @@ Required Worker secrets:
 wrangler secret put MAILCHIMP_API_KEY
 wrangler secret put MAILCHIMP_AUDIENCE_ID
 wrangler secret put TURNSTILE_SECRET_KEY
+wrangler secret put LINEAR_API_KEY
+wrangler secret put LINEAR_TEAM_ID
+wrangler secret put PUSHOVER_TOKEN
+wrangler secret put PUSHOVER_USER
 ```
 
 Configured behavior:
@@ -26,6 +31,24 @@ Configured behavior:
 - adds page-submitted Mailchimp tags from the JSON `tags` field
 - assigns configured Mailchimp group interests with `MAILCHIMP_INTEREST_IDS`
 - sends the submitting page URL to the configured `MAILCHIMP_CAMPAIGN_FILL_URL_FIELD` merge field
+- accepts native JaxPlays submit forms for `profile`, `production`, `theatre`, and `audition`
+- verifies Cloudflare Turnstile before delivering submissions
+- creates Linear issues when `LINEAR_API_KEY` and `LINEAR_TEAM_ID` are configured
+- uploads submitted files to Linear through the server-side signed upload flow and links them in the issue description
+- sends fallback email to `SUBMISSION_EMAIL_TO` through Resend when Linear is not configured or unavailable
+- sends a non-blocking Pushover notification when `PUSHOVER_TOKEN` and `PUSHOVER_USER` are configured
+
+Optional submission configuration:
+
+```bash
+wrangler secret put LINEAR_PROJECT_ID
+wrangler secret put LINEAR_LABEL_IDS
+wrangler secret put RESEND_API_KEY
+wrangler secret put SUBMISSION_EMAIL_FROM
+wrangler secret put SUBMISSION_EMAIL_TO
+```
+
+`SUBMISSION_EMAIL_TO` defaults to `submissions@jaxplays.org`, but `SUBMISSION_EMAIL_FROM` must be a Resend-verified sender. Fallback email attachments are capped by `SUBMISSION_EMAIL_ATTACHMENT_LIMIT`, which defaults to 10 MB.
 
 The Worker does not use `source` as a Mailchimp tag. Mailchimp tags come only from `NEWSLETTER_SOURCE_TAGS` and the submitted JSON `tags` field.
 

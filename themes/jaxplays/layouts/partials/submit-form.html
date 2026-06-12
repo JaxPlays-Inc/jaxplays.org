@@ -1,0 +1,151 @@
+{{- $page := .page -}}
+{{- $formKey := .form | default $page.Params.form_type | default $page.Layout -}}
+{{- $nestedForms := index $page.Site.Data "submit" "forms" | default dict -}}
+{{- $legacyForms := index $page.Site.Data "submit_forms" | default dict -}}
+{{- $forms := cond (gt (len $nestedForms) 0) $nestedForms $legacyForms -}}
+{{- $form := index $forms $formKey -}}
+{{- if not $form -}}
+  {{- errorf "No submit form configured for %q" $formKey -}}
+{{- end -}}
+{{- $endpoint := $page.Site.Params.submission_endpoint | default "https://api.jaxplays.org/submissions" -}}
+{{- $turnstileSiteKey := $page.Site.Params.turnstile_site_key | default "0x4AAAAAAB1zTVGwJ9VBnPuO" -}}
+<div class="jp-submit-form-wrap" data-jp-submit-form-wrap>
+  <form class="jp-submit-form" action="{{ $endpoint }}" method="POST" enctype="multipart/form-data" data-jp-submit-form data-success="{{ $form.success }}" novalidate>
+    <input type="hidden" name="form_type" value="{{ $form.type }}">
+    <input type="hidden" name="source_url" value="{{ $page.Permalink }}">
+    <input class="jp-submit-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
+
+    {{- range $field := $form.fields }}
+      {{- $type := $field.type | default "text" -}}
+      {{- $fieldID := printf "jp-submit-%s-%s" $form.type $field.name | urlize -}}
+      {{- $listID := printf "%s-list" $fieldID -}}
+      <div class="jp-submit-field jp-submit-field--{{ $type }}">
+        {{- if eq $type "checkbox" }}
+          <fieldset>
+            <legend>{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</legend>
+            {{- with $field.description }}<p class="jp-submit-help">{{ . }}</p>{{ end }}
+            <div class="jp-submit-choice-grid">
+              {{- range $option := $field.options }}
+                {{- $choiceID := printf "%s-%s" $fieldID ($option | urlize) -}}
+                <label class="jp-submit-choice" for="{{ $choiceID }}">
+                  <input id="{{ $choiceID }}" type="checkbox" name="{{ $field.name }}" value="{{ $option }}">
+                  <span>{{ $option }}</span>
+                </label>
+              {{- end }}
+            </div>
+          </fieldset>
+        {{- else }}
+          <label for="{{ $fieldID }}">{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</label>
+          {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . }}</p>{{ end }}
+          {{- if eq $type "textarea" }}
+            <textarea id="{{ $fieldID }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}></textarea>
+          {{- else if eq $type "file" }}
+            <input id="{{ $fieldID }}" type="file" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.accept }} accept="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}>
+          {{- else }}
+            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}>
+            {{- with $field.suggestions }}
+              <datalist id="{{ $listID }}">
+                {{- if eq . "theatres" }}
+                  {{- $theatres := where (where $page.Site.Pages "Type" "theatres") "Title" "ne" "Theatres" -}}
+                  {{- range sort $theatres "Title" }}
+                    {{- if .Title }}<option value="{{ .Title }}">{{ end -}}
+                  {{- end }}
+                {{- else if eq . "venues" }}
+                  {{- range sort (where $page.Site.RegularPages "Section" "venues") "Title" }}
+                    {{- if .Title }}<option value="{{ .Title }}">{{ end -}}
+                  {{- end }}
+                {{- end }}
+              </datalist>
+            {{- end }}
+          {{- end }}
+        {{- end }}
+      </div>
+    {{- end }}
+
+    <div class="jp-submit-rights">
+      <p>By submitting this form you affirm that you are the rightful owner or possess all necessary rights to the content submitted, and grant JaxPlays, Inc. a perpetual, nontransferable, royalty-free license to publish, display, reproduce, and distribute the submitted content on jaxplays.org, by email and on social media.</p>
+      <p>Submission of content does not imply any guarantee that it will be published on jaxplays.org. All content submitted is subject to approval.</p>
+    </div>
+
+    <div
+      class="cf-turnstile"
+      data-sitekey="{{ $turnstileSiteKey }}"></div>
+
+    <p class="jp-submit-status" data-jp-submit-status aria-live="polite"></p>
+    <button class="home-dashboard-button primary jp-submit-button" type="submit">{{ $form.submit_label }}</button>
+  </form>
+
+  <script>
+    (() => {
+      const container = document.currentScript.closest("[data-jp-submit-form-wrap]");
+      const form = container?.querySelector("[data-jp-submit-form]");
+
+      if (!form) return;
+
+      const button = form.querySelector("button[type='submit']");
+      const status = form.querySelector("[data-jp-submit-status]");
+      const originalButtonText = button.textContent;
+      const errorMessages = {
+        "origin-not-allowed": "This page is not approved for submissions yet.",
+        "turnstile-required": "Please complete the verification check.",
+        "turnstile-failed": "Verification failed. Please complete the check and try again.",
+        "submission-not-configured": "This submission form is not fully configured yet.",
+        "submission-rejected": "The submission service rejected this entry.",
+        "submission-unavailable": "The submission service is unavailable right now. Please try again in a moment.",
+        "linear-rejected": "Linear rejected this submission. The submission service is unavailable right now.",
+        "linear-unavailable": "Linear is unavailable right now. Please try again in a moment.",
+        "invalid-form-data": "The submission could not be read. Please refresh and try again.",
+        "spam-detected": "This submission was rejected by the spam filter.",
+        "invalid-form-type": "This submission form is not recognized.",
+        "missing-required-fields": "Please complete all required fields.",
+      };
+
+      const setStatus = (message, state = "") => {
+        status.textContent = message;
+        status.dataset.state = state;
+      };
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        if (!form.reportValidity()) return;
+
+        const turnstileToken = form.querySelector("input[name='cf-turnstile-response']")?.value || "";
+
+        if (!turnstileToken) {
+          setStatus(errorMessages["turnstile-required"], "error");
+          return;
+        }
+
+        const payload = new FormData(form);
+        payload.set("turnstileToken", turnstileToken);
+        button.disabled = true;
+        button.textContent = "Sending";
+        setStatus("Sending...", "");
+
+        try {
+          const response = await fetch(form.action, {
+            method: "POST",
+            body: payload,
+          });
+          const data = await response.json().catch(() => ({}));
+
+          if (!response.ok || !data.ok) {
+            throw new Error(data.error || "submission-unavailable");
+          }
+
+          form.reset();
+          window.turnstile?.reset(form.querySelector(".cf-turnstile"));
+          setStatus(form.dataset.success || "Thank you. Your submission has been sent.", "success");
+        } catch (error) {
+          window.turnstile?.reset(form.querySelector(".cf-turnstile"));
+          setStatus(errorMessages[error.message] || "Something went wrong. Please try again in a moment.", "error");
+        } finally {
+          button.disabled = false;
+          button.textContent = originalButtonText;
+        }
+      });
+    })();
+  </script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</div>

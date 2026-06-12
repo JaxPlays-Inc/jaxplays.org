@@ -19,6 +19,12 @@ Thank you for enriching Jacksonville's cultural landscape. We look forward to sh
 
 {{< yellow-button href="/submit/production/">}}Submit a Production{{< /yellow-button >}}
 
+## Audition Announcement Submission Form { class="f3 mt4 mb3 sectionline" }
+
+Looking for the right performers, musicians, or creative collaborators? Submit your audition announcement to JaxPlays so actors and theatre makers across Northeast Florida and Southeast Georgia can find the opportunity quickly.
+
+{{< yellow-button href="/submit/audition/">}}Submit an Audition Announcement{{< /yellow-button >}}
+
 ## JaxPlays Theatre Submission Form { class="f3 mt4 mb3 sectionline" }
 
 Elevate your theatre company by becoming a part of Jacksonville's go-to source for all things theatre. JaxPlays offers an unmatched platform for you to gain visibility, connect with talent, and attract a dedicated audience. 

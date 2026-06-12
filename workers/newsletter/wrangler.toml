@@ -1,4 +1,4 @@
-name = "jaxplays-newsletter"
+name = "jaxplays-api"
 main = "src/worker.js"
 compatibility_date = "2026-06-08"
 workers_dev = false

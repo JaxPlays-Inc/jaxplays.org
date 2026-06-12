@@ -7,6 +7,16 @@ const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const LOCAL_DEV_HOSTS = new Set(["localhost", "127.0.0.1", "local.jaxplays.org"]);
 const LOCAL_DEV_MIN_PORT = 1313;
 const LOCAL_DEV_MAX_PORT = 1319;
+const SUBMISSION_TYPES = new Set(["profile", "production", "theatre", "audition"]);
+const LINEAR_API_URL = "https://api.linear.app/graphql";
+const RESEND_API_URL = "https://api.resend.com/emails";
+const PUSHOVER_API_URL = "https://api.pushover.net/1/messages.json";
+const SUBMISSION_REQUIRED_FIELDS = {
+  profile: ["email", "submitter_name"],
+  production: ["email", "submitter_name", "theatre", "venue", "genres", "title", "showtimes"],
+  theatre: ["email", "submitter_name", "theatre_name", "logo"],
+  audition: ["email", "submitter_name", "theatre", "production_title", "audition_dates"],
+};
 
 export default {
   async fetch(request, env) {
@@ -31,10 +41,18 @@ export async function handleRequest(request, env, services = {}) {
     return json({ ok: false, error: "method-not-allowed" }, 405, cors);
   }
 
-  if (url.pathname !== "/newsletter") {
-    return json({ ok: false, error: "not-found" }, 404, cors);
+  if (url.pathname === "/newsletter") {
+    return handleNewsletter(request, env, cors, services);
   }
 
+  if (url.pathname === "/submissions") {
+    return handleSubmission(request, env, cors, services);
+  }
+
+  return json({ ok: false, error: "not-found" }, 404, cors);
+}
+
+async function handleNewsletter(request, env, cors, services = {}) {
   let payload;
   try {
     payload = await request.json();
@@ -76,6 +94,54 @@ export async function handleRequest(request, env, services = {}) {
   return json({ ok: true }, 200, cors);
 }
 
+async function handleSubmission(request, env, cors, services = {}) {
+  let formData;
+  try {
+    formData = await request.formData();
+  } catch {
+    return json({ ok: false, error: "invalid-form-data" }, 400, cors);
+  }
+
+  const honeypot = String(formData.get("website") || "").trim();
+  const turnstileToken = String(formData.get("turnstileToken") || formData.get("cf-turnstile-response") || "").trim();
+  const formType = normalizeSubmissionType(formData.get("form_type"));
+
+  if (honeypot) {
+    return json({ ok: false, error: "spam-detected" }, 400, cors);
+  }
+
+  if (!formType) {
+    return json({ ok: false, error: "invalid-form-type" }, 400, cors);
+  }
+
+  if (!turnstileToken) {
+    return json({ ok: false, error: "turnstile-required" }, 400, cors);
+  }
+
+  const missing = missingSubmissionFields(formType, formData);
+
+  if (missing.length) {
+    return json({ ok: false, error: "missing-required-fields", fields: missing }, 400, cors);
+  }
+
+  const remoteIp = request.headers.get("CF-Connecting-IP") || undefined;
+  const turnstile = await verifyTurnstile(turnstileToken, remoteIp, env, services.fetch || fetch);
+
+  if (!turnstile.success) {
+    return json({ ok: false, error: "turnstile-failed" }, 400, cors);
+  }
+
+  const payload = submissionPayload(formType, formData);
+  const files = submissionFiles(formData);
+  const forwarded = await routeSubmission(payload, files, env, services.fetch || fetch);
+
+  if (!forwarded.ok) {
+    return json({ ok: false, error: forwarded.error, detail: forwarded.detail }, forwarded.status || 502, cors);
+  }
+
+  return json({ ok: true }, 200, cors);
+}
+
 export function normalizeEmail(email) {
   return String(email || "").trim().toLowerCase();
 }
@@ -109,6 +175,296 @@ export function normalizeSubmittedTags(tags) {
       .filter(Boolean)
       .map((tag) => tag.slice(0, 100))
   ));
+}
+
+export function normalizeSubmissionType(type) {
+  const normalized = String(type || "").trim().toLowerCase();
+  return SUBMISSION_TYPES.has(normalized) ? normalized : "";
+}
+
+export function missingSubmissionFields(formType, formData) {
+  return (SUBMISSION_REQUIRED_FIELDS[formType] || []).filter((field) => {
+    const values = formData.getAll(field);
+    return !values.some(hasSubmissionValue);
+  });
+}
+
+export function submissionPayload(formType, formData) {
+  const fields = {};
+  const files = [];
+
+  for (const [key, value] of formData.entries()) {
+    if (["cf-turnstile-response", "turnstileToken", "website"].includes(key)) {
+      continue;
+    }
+
+    if (isFileLike(value)) {
+      if (value.size > 0) {
+        files.push({
+          field: key,
+          name: value.name || "upload",
+          size: value.size,
+          type: value.type || "application/octet-stream",
+        });
+      }
+      continue;
+    }
+
+    addFieldValue(fields, key, String(value || "").trim());
+  }
+
+  return {
+    formType,
+    submittedAt: new Date().toISOString(),
+    fields,
+    files,
+  };
+}
+
+export function submissionFiles(formData) {
+  const files = [];
+
+  for (const [key, value] of formData.entries()) {
+    if (isFileLike(value) && value.size > 0) {
+      files.push({
+        field: key,
+        file: value,
+        name: value.name || "upload",
+        size: value.size,
+        type: value.type || "application/octet-stream",
+      });
+    }
+  }
+
+  return files;
+}
+
+async function routeSubmission(payload, files, env, fetchImpl) {
+  const hasLinear = env.LINEAR_API_KEY && env.LINEAR_TEAM_ID;
+  let result;
+
+  if (hasLinear) {
+    result = await createLinearIssue(payload, files, env, fetchImpl);
+
+    if (result.ok) {
+      await notifyPushover(payload, result, env, fetchImpl);
+      return result;
+    }
+  }
+
+  const emailResult = await sendSubmissionEmail(payload, files, env, fetchImpl);
+
+  if (emailResult.ok) {
+    await notifyPushover(payload, emailResult, env, fetchImpl);
+    return emailResult;
+  }
+
+  if (!hasLinear && emailResult.error === "submission-not-configured") {
+    return { ok: false, status: 500, error: "submission-not-configured" };
+  }
+
+  return emailResult.error === "submission-not-configured" && result ? result : emailResult;
+}
+
+async function createLinearIssue(payload, files, env, fetchImpl) {
+  try {
+    const uploadedFiles = [];
+
+    for (const file of files) {
+      uploadedFiles.push(await uploadLinearFile(file, env, fetchImpl));
+    }
+
+    const response = await linearGraphql(env, fetchImpl, `
+      mutation IssueCreate($input: IssueCreateInput!) {
+        issueCreate(input: $input) {
+          success
+          issue {
+            id
+            identifier
+            url
+          }
+        }
+      }
+    `, {
+      input: linearIssueInput(payload, uploadedFiles, env),
+    });
+
+    const issueCreate = response.data?.issueCreate;
+
+    if (!issueCreate?.success || !issueCreate.issue) {
+      return { ok: false, status: 502, error: "linear-rejected", detail: firstGraphqlError(response) };
+    }
+
+    return {
+      ok: true,
+      destination: "linear",
+      issue: issueCreate.issue,
+      url: issueCreate.issue.url,
+    };
+  } catch (error) {
+    return { ok: false, status: 502, error: "linear-unavailable", detail: error.message };
+  }
+}
+
+async function uploadLinearFile(file, env, fetchImpl) {
+  const uploadPayload = await linearGraphql(env, fetchImpl, `
+    mutation RequestUpload($filename: String!, $contentType: String!, $size: Int!) {
+      fileUpload(filename: $filename, contentType: $contentType, size: $size) {
+        success
+        uploadFile {
+          uploadUrl
+          assetUrl
+          headers {
+            key
+            value
+          }
+        }
+      }
+    }
+  `, {
+    filename: file.name,
+    contentType: file.type,
+    size: file.size,
+  });
+
+  const upload = uploadPayload.data?.fileUpload;
+
+  if (!upload?.success || !upload.uploadFile?.uploadUrl || !upload.uploadFile?.assetUrl) {
+    throw new Error(firstGraphqlError(uploadPayload) || `Linear upload URL rejected ${file.name}`);
+  }
+
+  const headers = new Headers();
+  headers.set("Content-Type", file.type);
+  headers.set("Cache-Control", "public, max-age=31536000");
+
+  for (const header of upload.uploadFile.headers || []) {
+    headers.set(header.key, header.value);
+  }
+
+  const uploadResponse = await fetchImpl(upload.uploadFile.uploadUrl, {
+    method: "PUT",
+    headers,
+    body: file.file,
+  });
+
+  if (!uploadResponse.ok) {
+    throw new Error(`Linear file upload failed for ${file.name}`);
+  }
+
+  return {
+    field: file.field,
+    name: file.name,
+    size: file.size,
+    type: file.type,
+    url: upload.uploadFile.assetUrl,
+  };
+}
+
+async function linearGraphql(env, fetchImpl, query, variables) {
+  const response = await fetchImpl(LINEAR_API_URL, {
+    method: "POST",
+    headers: {
+      "Authorization": env.LINEAR_API_KEY,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ query, variables }),
+  });
+
+  const body = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    throw new Error(firstGraphqlError(body) || `Linear returned ${response.status}`);
+  }
+
+  return body;
+}
+
+function linearIssueInput(payload, uploadedFiles, env) {
+  const input = {
+    teamId: env.LINEAR_TEAM_ID,
+    title: submissionTitle(payload),
+    description: submissionMarkdown(payload, uploadedFiles),
+  };
+
+  if (env.LINEAR_PROJECT_ID) {
+    input.projectId = env.LINEAR_PROJECT_ID;
+  }
+
+  const labelIds = parseCsv(env.LINEAR_LABEL_IDS);
+
+  if (labelIds.length) {
+    input.labelIds = labelIds;
+  }
+
+  return input;
+}
+
+async function sendSubmissionEmail(payload, files, env, fetchImpl) {
+  const apiKey = String(env.RESEND_API_KEY || "").trim();
+  const to = String(env.SUBMISSION_EMAIL_TO || "submissions@jaxplays.org").trim();
+  const from = String(env.SUBMISSION_EMAIL_FROM || "").trim();
+
+  if (!apiKey || !to || !from) {
+    return { ok: false, status: 500, error: "submission-not-configured" };
+  }
+
+  const email = {
+    from,
+    to: [to],
+    subject: submissionTitle(payload),
+    text: submissionEmailText(payload, files),
+  };
+
+  const attachments = await emailAttachments(files, env);
+
+  if (attachments.length) {
+    email.attachments = attachments;
+  }
+
+  const response = await fetchImpl(RESEND_API_URL, {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(email),
+  });
+
+  if (response.ok) {
+    return { ok: true, destination: "email" };
+  }
+
+  if (response.status >= 400 && response.status < 500) {
+    return { ok: false, status: 400, error: "submission-rejected", detail: await responseText(response) };
+  }
+
+  return { ok: false, status: 502, error: "submission-unavailable" };
+}
+
+async function notifyPushover(payload, result, env, fetchImpl) {
+  if (!env.PUSHOVER_TOKEN || !env.PUSHOVER_USER) {
+    return;
+  }
+
+  const body = new FormData();
+  body.set("token", env.PUSHOVER_TOKEN);
+  body.set("user", env.PUSHOVER_USER);
+  body.set("title", "JaxPlays submission");
+  body.set("message", `${titleForType(payload.formType)}: ${primarySubmissionName(payload)}`);
+
+  if (result.url) {
+    body.set("url", result.url);
+    body.set("url_title", "Open Linear issue");
+  }
+
+  try {
+    await fetchImpl(PUSHOVER_API_URL, {
+      method: "POST",
+      body,
+    });
+  } catch {
+    // Submission delivery should not fail because a notification did.
+  }
 }
 
 export function corsHeaders(origin, env = {}) {
@@ -276,6 +632,173 @@ function parseCsv(value) {
     .split(",")
     .map((item) => item.trim())
     .filter(Boolean);
+}
+
+function hasSubmissionValue(value) {
+  if (isFileLike(value)) {
+    return value.size > 0;
+  }
+
+  return String(value || "").trim().length > 0;
+}
+
+function isFileLike(value) {
+  return (
+    value &&
+    typeof value === "object" &&
+    typeof value.name === "string" &&
+    typeof value.size === "number" &&
+    typeof value.arrayBuffer === "function"
+  );
+}
+
+function addFieldValue(fields, key, value) {
+  if (!value) {
+    return;
+  }
+
+  if (Object.prototype.hasOwnProperty.call(fields, key)) {
+    fields[key] = Array.isArray(fields[key]) ? fields[key].concat(value) : [fields[key], value];
+    return;
+  }
+
+  fields[key] = value;
+}
+
+function submissionTitle(payload) {
+  return `JaxPlays ${titleForType(payload.formType)} submission: ${primarySubmissionName(payload)}`;
+}
+
+function titleForType(formType) {
+  return {
+    audition: "audition",
+    production: "production",
+    profile: "profile",
+    theatre: "theatre",
+  }[formType] || "content";
+}
+
+function primarySubmissionName(payload) {
+  const fields = payload.fields || {};
+  return String(
+    fields.production_title ||
+    fields.title ||
+    fields.theatre_name ||
+    fields.submitter_name ||
+    "Untitled"
+  ).trim();
+}
+
+function submissionMarkdown(payload, uploadedFiles = []) {
+  const lines = [
+    `Submitted through the JaxPlays ${titleForType(payload.formType)} form.`,
+    "",
+    `- Submitted at: ${payload.submittedAt}`,
+  ];
+
+  for (const [key, value] of Object.entries(payload.fields || {})) {
+    lines.push(`- ${humanizeFieldName(key)}: ${formatFieldValue(value)}`);
+  }
+
+  if (uploadedFiles.length) {
+    lines.push("", "## Uploaded files");
+
+    for (const file of uploadedFiles) {
+      lines.push(`- ${humanizeFieldName(file.field)}: [${file.name}](${file.url}) (${formatBytes(file.size)}, ${file.type})`);
+    }
+  }
+
+  return lines.join("\n");
+}
+
+function submissionEmailText(payload, files = []) {
+  const lines = [
+    submissionTitle(payload),
+    "",
+    `Submitted at: ${payload.submittedAt}`,
+    "",
+  ];
+
+  for (const [key, value] of Object.entries(payload.fields || {})) {
+    lines.push(`${humanizeFieldName(key)}: ${formatFieldValue(value)}`);
+  }
+
+  if (files.length) {
+    lines.push("", "Attached files:");
+
+    for (const file of files) {
+      lines.push(`- ${humanizeFieldName(file.field)}: ${file.name} (${formatBytes(file.size)}, ${file.type})`);
+    }
+  }
+
+  return lines.join("\n");
+}
+
+async function emailAttachments(files, env) {
+  const maxBytes = Number(env.SUBMISSION_EMAIL_ATTACHMENT_LIMIT || 10 * 1024 * 1024);
+  const attachments = [];
+  let totalBytes = 0;
+
+  for (const file of files) {
+    if (totalBytes + file.size > maxBytes) {
+      continue;
+    }
+
+    const content = await file.file.arrayBuffer();
+    attachments.push({
+      filename: file.name,
+      content: arrayBufferToBase64(content),
+    });
+    totalBytes += file.size;
+  }
+
+  return attachments;
+}
+
+function formatFieldValue(value) {
+  return Array.isArray(value) ? value.join(", ") : String(value || "");
+}
+
+function humanizeFieldName(key) {
+  return String(key || "")
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function formatBytes(bytes) {
+  if (bytes < 1024) {
+    return `${bytes} B`;
+  }
+
+  if (bytes < 1024 * 1024) {
+    return `${Math.round(bytes / 102.4) / 10} KB`;
+  }
+
+  return `${Math.round(bytes / 1024 / 102.4) / 10} MB`;
+}
+
+function arrayBufferToBase64(buffer) {
+  const bytes = new Uint8Array(buffer);
+  let binary = "";
+
+  for (let i = 0; i < bytes.length; i += 1) {
+    binary += String.fromCharCode(bytes[i]);
+  }
+
+  return btoa(binary);
+}
+
+function firstGraphqlError(response) {
+  const message = response?.errors?.[0]?.message;
+  return message ? String(message).slice(0, 240) : "";
+}
+
+async function responseText(response) {
+  try {
+    return (await response.text()).slice(0, 240);
+  } catch {
+    return `Submission endpoint returned ${response.status}`;
+  }
 }
 
 export function md5(input) {

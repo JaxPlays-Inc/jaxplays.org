@@ -4,6 +4,8 @@ frontmatter.json
 .frontmatter/database/taxonomyDb.json
 /public/*
 .hugo_cache/
+.wrangler/
+**/.wrangler/
 .claude/settings.local.json
 .DS_Store
 .stignore
