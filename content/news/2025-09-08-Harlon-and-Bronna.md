@@ -1,10 +1,8 @@
 ---
 title: Emmy-Nominated Creator Michael Jacobs Premieres New Dark Comedy in Jacksonville
 date: 2025-09-08T08:00:01-04:00
-featured_image: /media/photos/2025-Harlan-and-Bronna-Jump-Out-the-Window.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-Harlan-and-Bronna-Jump-Out-the-Window.webp
 authors: 
 - Ray Hollister
 show_reading_time: true

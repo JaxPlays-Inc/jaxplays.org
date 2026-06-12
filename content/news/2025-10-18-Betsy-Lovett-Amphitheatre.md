@@ -1,10 +1,9 @@
 ---
 title: Douglas Anderson Opens Betsy Lovett Amphitheatre After 13-Year Effort
 date: 2025-10-17T18:37:35-04:00
-featured_image: /media/photos/2025-Betsy-Lovett-Amphitheatre-01.webp
-featured_image_attr: 
-featured_image_caption: The Betsy Lovett Amphitheatre at Douglas Anderson School of the Arts.
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-Betsy-Lovett-Amphitheatre-01.webp
+  caption: The Betsy Lovett Amphitheatre at Douglas Anderson School of the Arts.
 authors: 
 - JaxPlays
 show_reading_time: true

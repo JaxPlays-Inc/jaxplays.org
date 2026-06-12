@@ -1,10 +1,12 @@
 ---
 title: "'Rhinoceros' at Limelight Theatre Blurs the Line Between Audience and Herd"
 date: 2025-06-01T17:45:39-04:00
-featured_image: /media/photos/2025-Rhinoceros-189.webp
-featured_image_attr: Daniel Starling
-featured_image_caption: "Alberto Carlos Peart as Bérenger faces the terrifying transformation of his world in Limelight Theatre’s 'Rhinoceros', directed by Mary Claire Branton."
-featured_image_alt: "Alberto Carlos Peart as Bérenger crouches tensely in a striped jacket and disheveled clothes, surrounded by actors in rhinoceros masks during a dramatic scene from Rhinoceros at Limelight Theatre."
+featured_image:
+  src: /media/photos/2025-Rhinoceros-189.webp
+  alt: "Alberto Carlos Peart as Bérenger crouches tensely in a striped jacket and disheveled clothes, surrounded by actors in rhinoceros masks during a dramatic scene from Rhinoceros at Limelight Theatre."
+  caption: "Alberto Carlos Peart as Bérenger faces the terrifying transformation of his world in Limelight Theatre’s 'Rhinoceros', directed by Mary Claire Branton."
+  credit:
+    name: Daniel Starling
 authors: 
 - Ray Hollister
 show_reading_time: true

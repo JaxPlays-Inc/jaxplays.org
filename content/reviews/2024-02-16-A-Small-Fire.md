@@ -1,11 +1,13 @@
 ---
 title: "A Blaze of Human Emotion: Lumen Repertory Theatre Ignites the Stage with 'A Small Fire'"
 date: 2024-02-16T18:09:31-05:00
-featured_image: /media/photos/2024-A-Small-Fire-01.webp
-featured_image_attr: Josh Andrews
-featured_image_attr_link: https://joshandrews.com
-featured_image_caption: "In a moment of poignant vulnerability, Brooks Anne Meierdierks as Emily Bridges and Bill Ratliff as John Bridges capture the silent agony and comfort of shared hardship in 'A Small Fire'."
-featured_image_alt: "Actress Brooks Anne Meierdierks portraying Emily Bridges standing resolutely while actor Bill Ratliff as John Bridges leans on her shoulder in a display of emotional support in a scene from 'A Small Fire'."
+featured_image:
+  src: /media/photos/2024-A-Small-Fire-01.webp
+  alt: "Actress Brooks Anne Meierdierks portraying Emily Bridges standing resolutely while actor Bill Ratliff as John Bridges leans on her shoulder in a display of emotional support in a scene from 'A Small Fire'."
+  caption: "In a moment of poignant vulnerability, Brooks Anne Meierdierks as Emily Bridges and Bill Ratliff as John Bridges capture the silent agony and comfort of shared hardship in 'A Small Fire'."
+  credit:
+    name: Josh Andrews
+    url: https://joshandrews.com
 authors:
 - Ray Hollister
 production: 2024 A Small Fire

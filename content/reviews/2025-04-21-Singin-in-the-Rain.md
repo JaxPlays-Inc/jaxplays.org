@@ -1,11 +1,13 @@
 ---
 title: "'Singin’ in the Rain' at Amelia Community Theatre Dazzles with Heart, Humor and High-Stepping Nostalgia"
 date: 2025-04-21T21:18:22-04:00
-featured_image: /media/photos/2025-Singin-in-the-Rain-01.webp
-featured_image_alt: "Sebastian Miller as Don Lockwood performs with a colorful ensemble holding rainbow umbrellas in *Singin’ in the Rain* at Amelia Community Theatre"
-featured_image_attr: Solaris Foto
-featured_image_attr_link: https://solarisfoto.com
-featured_image_caption: "Sebastian Miller leads a technicolor tap number as Don Lockwood, surrounded by a chorus of dancers twirling rainbow umbrellas in a dazzling scene from *Singin’ in the Rain* at Amelia Community Theatre."
+featured_image:
+  src: /media/photos/2025-Singin-in-the-Rain-01.webp
+  alt: "Sebastian Miller as Don Lockwood performs with a colorful ensemble holding rainbow umbrellas in *Singin’ in the Rain* at Amelia Community Theatre"
+  caption: "Sebastian Miller leads a technicolor tap number as Don Lockwood, surrounded by a chorus of dancers twirling rainbow umbrellas in a dazzling scene from *Singin’ in the Rain* at Amelia Community Theatre."
+  credit:
+    name: Solaris Foto
+    url: https://solarisfoto.com
 authors: 
 - Jo El Snyder
 production: 2025 Singin in the Rain

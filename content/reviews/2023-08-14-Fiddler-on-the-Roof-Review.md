@@ -1,10 +1,11 @@
 ---
 title: "A Roof-Raising Performance: Alhambra Theatre & Dining's 'Fiddler on the Roof'"
 date: 2023-08-14T09:03:13.736Z
-featured_image: /media/photos/2023-Fiddler-on-the-Roof-01.webp
-featured_image_attr: Ray Hollister
-featured_image_caption: The quaint, yet beautiful set of Anatevka sits quietly as it waits for the production to begin. Sadly, the reviewer was overly captivated by the performance and forgot to take more photos once the show began!
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2023-Fiddler-on-the-Roof-01.webp
+  caption: The quaint, yet beautiful set of Anatevka sits quietly as it waits for the production to begin. Sadly, the reviewer was overly captivated by the performance and forgot to take more photos once the show began!
+  credit:
+    name: Ray Hollister
 description: "Don't miss the masterful production of *Fiddler on the Roof* at The Alhambra Theatre & Dining, featuring an ensemble of a gifted cast, groundbreaking staging, and delightful dining."
 authors:
 - Ray Hollister

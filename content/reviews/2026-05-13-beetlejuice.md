@@ -1,11 +1,12 @@
 ---
 title: "'Beetlejuice' presented by FSCJ Artist Series Balances Anarchic Comedy With Surprising Heart"
 date: 2026-05-13T12:00:00-04:00
-featured_image: /media/photos/2026-Beetlejuice-02.webp
-featured_image_attr: Matthew Murphy
-featured_image_attr_link: 
-featured_image_caption: "Ryan Stajmiger, center, and the *Beetlejuice* North American touring company, in town as part of the FSCJ Artist Series engagement at the Moran Theater, May 12–17, 2026."
-featured_image_alt: "Ryan Stajmiger and an ensemble of nine performers in matching Beetlejuice costumes — black-and-white striped suits, pale ghoulish makeup and spiked, lime-green hair — clustered in a tight, mugging group pose against a deep purple set."
+featured_image:
+  src: /media/photos/2026-Beetlejuice-02.webp
+  alt: "Ryan Stajmiger and an ensemble of nine performers in matching Beetlejuice costumes — black-and-white striped suits, pale ghoulish makeup and spiked, lime-green hair — clustered in a tight, mugging group pose against a deep purple set."
+  caption: "Ryan Stajmiger, center, and the *Beetlejuice* North American touring company, in town as part of the FSCJ Artist Series engagement at the Moran Theater, May 12–17, 2026."
+  credit:
+    name: Matthew Murphy
 authors:
 - Ray Hollister
 show_reading_time: true

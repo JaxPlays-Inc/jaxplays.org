@@ -1,10 +1,10 @@
 ---
 title: "'Southern Fried Funeral' Brings Southern Charm and Heartfelt Laughter to the Alhambra Stage"
 date: 2025-01-11T15:29:53-05:00
-featured_image: /media/photos/2025-Southern-Fried-Funeral-01.webp
-featured_image_attr: 
-featured_image_alt: "Cast of 'Southern Fried Funeral' at Alhambra Theatre & Dining, featuring a group of performers in elegant attire, gathered on stage." 
-featured_image_caption: "The cast of *Southern Fried Funeral* at Alhambra Theatre & Dining. From left to right, top: Brooks Anne Meierdierks as Ozella Meeks, Tom Cassaro as Dub Frye, Bob O'Hara as Benny Charles Greenwood, Kathy Sanders as Fairy June Cooper, Thaddeus Walker as Atticus 'Attie' Van Lear, and Patti Eyler as Martha Ann Fox; front: Calvin Bernardo as Beecham Lefette, Natalie Drake as Sammy Jo Frye-Leffette, Peg Pachal as Dorothy Frye, and Logen Cheatham as Harlene Frye, with Ryan Lemmon as Dewey Frye seated in front, holding a Sears catalog."
+featured_image:
+  src: /media/photos/2025-Southern-Fried-Funeral-01.webp
+  alt: "Cast of 'Southern Fried Funeral' at Alhambra Theatre & Dining, featuring a group of performers in elegant attire, gathered on stage."
+  caption: "The cast of *Southern Fried Funeral* at Alhambra Theatre & Dining. From left to right, top: Brooks Anne Meierdierks as Ozella Meeks, Tom Cassaro as Dub Frye, Bob O'Hara as Benny Charles Greenwood, Kathy Sanders as Fairy June Cooper, Thaddeus Walker as Atticus 'Attie' Van Lear, and Patti Eyler as Martha Ann Fox; front: Calvin Bernardo as Beecham Lefette, Natalie Drake as Sammy Jo Frye-Leffette, Peg Pachal as Dorothy Frye, and Logen Cheatham as Harlene Frye, with Ryan Lemmon as Dewey Frye seated in front, holding a Sears catalog."
 authors: 
 - Amber Hollister
 - Ray Hollister

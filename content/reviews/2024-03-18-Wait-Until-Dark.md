@@ -1,11 +1,13 @@
 ---
 title: "Into the Shadows: 'Wait Until Dark' Lights Up Limelight Theatre"
 date: 2024-03-18T01:17:11-04:00
-featured_image: /media/photos/2024-Wait-Until-Dark.webp
-featured_image_attr: Provence Photography
-featured_image_attr_link: https://www.facebook.com/provencedigitalmedia
-featured_image_caption: Caught in the grip of Susy's crisis, Anna Vera presents a striking image of desperation and strength intertwined.
-featured_image_alt: A woman seated on the floor against a door, visibly distressed with tears in her eyes, on a stage setting reflecting a powerful emotional scene.
+featured_image:
+  src: /media/photos/2024-Wait-Until-Dark.webp
+  alt: A woman seated on the floor against a door, visibly distressed with tears in her eyes, on a stage setting reflecting a powerful emotional scene.
+  caption: Caught in the grip of Susy's crisis, Anna Vera presents a striking image of desperation and strength intertwined.
+  credit:
+    name: Provence Photography
+    url: https://www.facebook.com/provencedigitalmedia
 authors:
 - Ray Hollister
 production: 2024 Wait Until Dark

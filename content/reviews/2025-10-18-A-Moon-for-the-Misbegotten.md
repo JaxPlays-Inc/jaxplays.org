@@ -1,11 +1,13 @@
 ---
 title: "Raw Emotion and Stark Honesty Define ABET's 'A Moon for the Misbegotten'"
 date: 2025-10-18T11:52:55-04:00
-featured_image: /media/photos/2025-A-Moon-for-the-Misbegotten-10.webp
-featured_image_alt: Tyrone gestures passionately as Josie watches from the farmhouse porch in 'A Moon for the Misbegotten' at ABET.
-featured_image_caption: Jessica Racaniello and Scott Broughton spark against Hammond's weathered farmhouse set in ABET's intimate, arresting staging of 'A Moon for the Misbegotten'.
-featured_image_attr: Jax Headshots
-featured_image_attr_link: https://www.jaxheadshots.co/
+featured_image:
+  src: /media/photos/2025-A-Moon-for-the-Misbegotten-10.webp
+  alt: Tyrone gestures passionately as Josie watches from the farmhouse porch in 'A Moon for the Misbegotten' at ABET.
+  caption: Jessica Racaniello and Scott Broughton spark against Hammond's weathered farmhouse set in ABET's intimate, arresting staging of 'A Moon for the Misbegotten'.
+  credit:
+    name: Jax Headshots
+    url: https://www.jaxheadshots.co/
 authors: 
 - Ray Hollister
 show_reading_time: true

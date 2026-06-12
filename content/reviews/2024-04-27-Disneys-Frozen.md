@@ -1,10 +1,12 @@
 ---
 title: "Enchanted Ice: The Stage Spectacle of Disney's 'Frozen'"
 date: 2024-04-27T23:12:10-04:00
-featured_image: /media/photos/2024-Disneys-Frozen-3.webp
-featured_image_attr: Matthew Murphy
-featured_image_caption: "Under the Moonlit Magic: Lauren Nicole Chapman as Anna and Preston Perez as Hans share a dance in an enchanted forest."
-featured_image_alt: "On stage, actors Lauren Nicole Chapman and Preston Perez, portraying Anna and Hans, are caught mid-twirl in a romantic dance. A backdrop of lush, wisteria-laden trees and a large, glowing full moon creates a dreamlike atmosphere."
+featured_image:
+  src: /media/photos/2024-Disneys-Frozen-3.webp
+  alt: "On stage, actors Lauren Nicole Chapman and Preston Perez, portraying Anna and Hans, are caught mid-twirl in a romantic dance. A backdrop of lush, wisteria-laden trees and a large, glowing full moon creates a dreamlike atmosphere."
+  caption: "Under the Moonlit Magic: Lauren Nicole Chapman as Anna and Preston Perez as Hans share a dance in an enchanted forest."
+  credit:
+    name: Matthew Murphy
 authors:
 - Ray Hollister
 production: 2024 Disneys Frozen

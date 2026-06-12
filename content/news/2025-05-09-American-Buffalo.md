@@ -1,10 +1,12 @@
 ---
 title: "David Alford Returns to Jacksonville Stage in Lumen Rep’s 'American Buffalo'"
 date: 2025-05-08T12:30:48-04:00
-featured_image: /media/photos/2025-Lumen-American-Buffalo-Cast-Announcement.webp
-featured_image_attr: Photos by Jax Headshots
-featured_image_alt: "Headshots of David Alford, Brian Niece and Joshua Britton Andrews in black shirts against light backgrounds, framed against a dark textured backdrop with the American Buffalo logo."
-featured_image_caption: "From left: David Alford, Brian Niece and Joshua Britton Andrews lead the cast of *American Buffalo* at Lumen Repertory Theatre."
+featured_image:
+  src: /media/photos/2025-Lumen-American-Buffalo-Cast-Announcement.webp
+  alt: "Headshots of David Alford, Brian Niece and Joshua Britton Andrews in black shirts against light backgrounds, framed against a dark textured backdrop with the American Buffalo logo."
+  caption: "From left: David Alford, Brian Niece and Joshua Britton Andrews lead the cast of *American Buffalo* at Lumen Repertory Theatre."
+  credit:
+    name: Photos by Jax Headshots
 authors: 
 - Ray Hollister
 show_reading_time: true

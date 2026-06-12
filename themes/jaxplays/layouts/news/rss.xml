@@ -58,7 +58,8 @@
        {{ $reviewText := printf "<p>This review <a href=\"%s\">%s</a> was originally published on <a href=\"%s\">%s</a>.</p>" .Permalink .Title .Site.BaseURL .Site.Title | transform.XMLEscape | safeHTML }}
        {{ $reviewText }}
        </content:encoded>
-      {{ with .Params.featured_image }}
+      {{ $imageMeta := partial "func/GetFeaturedImageMeta.html" . }}
+      {{ with $imageMeta.src }}
       <enclosure url="{{ . | absURL }}" type="image/jpeg"/>
       {{ end }}
     </item>

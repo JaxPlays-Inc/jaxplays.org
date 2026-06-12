@@ -1,10 +1,10 @@
 ---
 title: "Broadway Blockbusters Coming to Jacksonville: ‘Beetlejuice,’ ‘Moulin Rouge! The Musical’ and More Headline FSCJ Artist Series 2025-26 Season"
 date: 2025-03-25T09:31:06-04:00
-featured_image: /media/photos/2025-26-FSCJ-Artist-Series-Announcement.webp
-featured_image_attr: 
-featured_image_caption: "Discover a season of spectacle and excitement with the FSCJ Artist Series Broadway in Jacksonville 2025-26, featuring smash hits from *Clue* to *Moulin Rouge! The Musical* and beyond!"
-featured_image_alt: "Promotional collage for the FSCJ Artist Series Broadway in Jacksonville 2025-26 season featuring posters for Clue, Moulin Rouge! The Musical, A Beautiful Noise: The Neil Diamond Musical, Beetlejuice and Mrs. Doubtfire." 
+featured_image:
+  src: /media/photos/2025-26-FSCJ-Artist-Series-Announcement.webp
+  alt: "Promotional collage for the FSCJ Artist Series Broadway in Jacksonville 2025-26 season featuring posters for Clue, Moulin Rouge! The Musical, A Beautiful Noise: The Neil Diamond Musical, Beetlejuice and Mrs. Doubtfire."
+  caption: "Discover a season of spectacle and excitement with the FSCJ Artist Series Broadway in Jacksonville 2025-26, featuring smash hits from *Clue* to *Moulin Rouge! The Musical* and beyond!"
 authors: 
 - JaxPlays
 description: "Jacksonville’s FSCJ Artist Series announces a spectacular Broadway season featuring award-winning musicals like *Moulin Rouge! The Musical*, laugh-out-loud comedies including *Beetlejuice* and *Mrs. Doubtfire*, and thrilling productions such as *Clue* and *A Beautiful Noise: The Neil Diamond Musical*."

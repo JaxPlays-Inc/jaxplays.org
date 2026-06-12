@@ -1,10 +1,12 @@
 ---
 title: "'MJ The Musical' Dazzles with Iconic Moves, Massive Scale and Heartfelt Tribute"
 date: 2025-04-22T16:52:26-04:00
-featured_image: /media/photos/2025-MJ-The-Musical-01.webp
-featured_image_attr: Matthew Murphy
-featured_image_alt: "Jordan Markus as MJ strikes the iconic pose under a spotlight, dressed in a sequined jacket and glittering glove, in a scene from 'MJ the Musical.'"
-featured_image_caption: "Jordan Markus channels the King of Pop in *MJ the Musical,* capturing the energy, style and unmistakable silhouette in a blaze of stage light."
+featured_image:
+  src: /media/photos/2025-MJ-The-Musical-01.webp
+  alt: "Jordan Markus as MJ strikes the iconic pose under a spotlight, dressed in a sequined jacket and glittering glove, in a scene from 'MJ the Musical.'"
+  caption: "Jordan Markus channels the King of Pop in *MJ the Musical,* capturing the energy, style and unmistakable silhouette in a blaze of stage light."
+  credit:
+    name: Matthew Murphy
 authors: 
 - Ray Hollister
 show_reading_time: true

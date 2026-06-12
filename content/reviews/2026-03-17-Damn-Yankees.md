@@ -1,11 +1,12 @@
 ---
 title: "'Damn Yankees' at Alhambra Theatre & Dining Is a Wickedly Fun, Nostalgia-Fueled Home Run"
 date: 2026-03-17T17:50:00-04:00
-featured_image: /media/photos/2026-Damn-Yankees-01.webp
-featured_image_attr: Ray Hollister
-featured_image_attr_link:
-featured_image_caption: "The cast of Alhambra Theatre & Dining’s *Damn Yankees* gathers after the performance beneath the show’s lobby backdrop."
-featured_image_alt: "Cast members of Damn Yankees at Alhambra Theatre & Dining pose together for a group photo in the theatre lobby."
+featured_image:
+  src: /media/photos/2026-Damn-Yankees-01.webp
+  alt: "Cast members of Damn Yankees at Alhambra Theatre & Dining pose together for a group photo in the theatre lobby."
+  caption: "The cast of Alhambra Theatre & Dining’s *Damn Yankees* gathers after the performance beneath the show’s lobby backdrop."
+  credit:
+    name: Ray Hollister
 authors:
 - Ray Hollister
 production: 2026 Damn Yankees

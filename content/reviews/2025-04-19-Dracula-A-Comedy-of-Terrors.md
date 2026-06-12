@@ -2,10 +2,12 @@
 title: "'Dracula: A Comedy of Terrors' Slays the Stage with Laughs and Bites at Theatre Jacksonville"
 subtitle: Grab a Torch, we’re going vampire hunting!
 date: 2025-04-19T16:42:56-04:00
-featured_image: /media/photos/2025-Dracula-A-Comedy-of-Terrors-01.webp
-featured_image_attr: Theatre Jacksonville
-featured_image_alt: "Rachel Johns as Mina sprawled upside down off a chaise lounge, her red curls cascading to the floor in a dramatic moment from 'Dracula: A Comedy of Terrors.'"
-featured_image_caption: "Rachel Johns as Mina lounges upside down with theatrical flair in Theatre Jacksonville's production of *Dracula: A Comedy of Terrors*."
+featured_image:
+  src: /media/photos/2025-Dracula-A-Comedy-of-Terrors-01.webp
+  alt: "Rachel Johns as Mina sprawled upside down off a chaise lounge, her red curls cascading to the floor in a dramatic moment from 'Dracula: A Comedy of Terrors.'"
+  caption: "Rachel Johns as Mina lounges upside down with theatrical flair in Theatre Jacksonville's production of *Dracula: A Comedy of Terrors*."
+  credit:
+    name: Theatre Jacksonville
 authors: 
 - Jo El Snyder
 production: "2025 Dracula A Comedy of Terrors"

@@ -1,10 +1,10 @@
 ---
 title: "'Menopause The Musical' Brings Hot Flashes and Big Laughs to Jacksonville"
 date: 2026-01-11T13:52:26-05:00
-featured_image: /media/photos/2026-Menopause-the-Musical-01.webp
-featured_image_attr: 
-featured_image_caption: The four women of *Menopause the Musical* share the stage in a Bloomingdale’s-inspired setting, trading sharp looks and knowing humor as the comedy unfolds.
-featured_image_alt: Four performers in 'Menopause the Musical' stand around a department store counter onstage, framed by Art Deco arches in yellow, black and white, during a group scene.
+featured_image:
+  src: /media/photos/2026-Menopause-the-Musical-01.webp
+  alt: Four performers in 'Menopause the Musical' stand around a department store counter onstage, framed by Art Deco arches in yellow, black and white, during a group scene.
+  caption: The four women of *Menopause the Musical* share the stage in a Bloomingdale’s-inspired setting, trading sharp looks and knowing humor as the comedy unfolds.
 authors: 
 - Jo El Snyder
 show_reading_time: true

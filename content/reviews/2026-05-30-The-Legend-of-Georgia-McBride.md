@@ -1,11 +1,13 @@
 ---
 title: "Wigs Up, Worries Down: The 5 & Dime's 'Georgia McBride' Sparkles Where It Counts"
 date: 2026-05-30T20:00:00-04:00
-featured_image: /media/photos/2026-The-Legend-of-Georgia-McBride-02.webp
-featured_image_attr: Jon Scherf
-featured_image_attr_link: /people/jon-scherf/
-featured_image_caption: "Eddie (Greg Hewitt) and Casey (Zachary Jones) get an emphatic introduction to Rexy (Allen Morton) and Miss Tracy Mills (Brandon Hines) in The 5 & Dime's *The Legend of Georgia McBride*."
-featured_image_alt: "Greg Hewitt and Zachary Jones stand near a costume rack as Allen Morton in a leopard-print dress and Brandon Hines in a black sequined gown pose with arms raised."
+featured_image:
+  src: /media/photos/2026-The-Legend-of-Georgia-McBride-02.webp
+  alt: "Greg Hewitt and Zachary Jones stand near a costume rack as Allen Morton in a leopard-print dress and Brandon Hines in a black sequined gown pose with arms raised."
+  caption: "Eddie (Greg Hewitt) and Casey (Zachary Jones) get an emphatic introduction to Rexy (Allen Morton) and Miss Tracy Mills (Brandon Hines) in The 5 & Dime's *The Legend of Georgia McBride*."
+  credit:
+    name: Jon Scherf
+    url: /people/jon-scherf/
 authors:
 - Ray Hollister
 show_reading_time: true

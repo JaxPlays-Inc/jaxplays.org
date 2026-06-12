@@ -1,11 +1,13 @@
 ---
 title: "'The Baltimore Waltz' Blends Laughter and Loss with Wild Whimsy and Wrenching Wit"
 date: 2025-06-15T14:39:37-04:00
-featured_image: /media/photos/2025-The-Baltimore-Waltz-07.webp
-featured_image_attr: Kamajhia
-featured_image_attr_link: https://www.kamajhia.com/
-featured_image_caption: "Anna (Kristen Walsh) listens as The Third Man (Sam Cobean) spins another wild story in *The Baltimore Waltz* at The 5 & Dime."
-featured_image_alt: "Kristen Walsh as Anna sits beside Sam Cobean as The Third Man, who gestures animatedly during a scene from 'The Baltimore Waltz' at The 5 & Dime."
+featured_image:
+  src: /media/photos/2025-The-Baltimore-Waltz-07.webp
+  alt: "Kristen Walsh as Anna sits beside Sam Cobean as The Third Man, who gestures animatedly during a scene from 'The Baltimore Waltz' at The 5 & Dime."
+  caption: "Anna (Kristen Walsh) listens as The Third Man (Sam Cobean) spins another wild story in *The Baltimore Waltz* at The 5 & Dime."
+  credit:
+    name: Kamajhia
+    url: https://www.kamajhia.com/
 authors: 
 - Ray Hollister
 show_reading_time: true

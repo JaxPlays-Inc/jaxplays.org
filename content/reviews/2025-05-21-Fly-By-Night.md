@@ -1,10 +1,12 @@
 ---
 title: "Limelight Theatre’s 'Fly By Night' Leans into Fate, Love and Loss"
 date: 2025-05-21T20:15:48-04:00
-featured_image: /media/photos/2025-Fly-By-Night-02.webp
-featured_image_attr: Limelight Theatre
-featured_image_caption: "Harold (Daniel Starling) and Mr. Crabble (Don Cupo) man the sandwich stand with deadpan resolve — two men serving up existential dread on rye — with a side of ennui."
-featured_image_alt: "Daniel Starling as Harold and Don Cupo as Mr. Crabble stand behind a sandwich cart under a glowing sign that reads 'SANDWICHES SANDWICHES,' both wearing flat expressions"
+featured_image:
+  src: /media/photos/2025-Fly-By-Night-02.webp
+  alt: "Daniel Starling as Harold and Don Cupo as Mr. Crabble stand behind a sandwich cart under a glowing sign that reads 'SANDWICHES SANDWICHES,' both wearing flat expressions"
+  caption: "Harold (Daniel Starling) and Mr. Crabble (Don Cupo) man the sandwich stand with deadpan resolve — two men serving up existential dread on rye — with a side of ennui."
+  credit:
+    name: Limelight Theatre
 authors: 
 - Ray Hollister
 show_reading_time: true

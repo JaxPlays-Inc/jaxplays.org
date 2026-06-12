@@ -1,10 +1,8 @@
 ---
 title: "Alhambra Theatre to Stage Musical 'Come From Away' in Fall 2025"
 date: 2025-03-01T17:51:51-05:00
-featured_image: /media/photos/2025-Come-From-Away-01.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-Come-From-Away-01.webp
 authors: 
 - JaxPlays
 description:

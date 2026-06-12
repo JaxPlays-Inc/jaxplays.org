@@ -1199,6 +1199,319 @@ h1 a.jaxplayslogo {
 	margin: 0;
 }
 
+.article-single {
+	--jp-ink: #171717;
+	--jp-muted: #5f6670;
+	--jp-line: #d7d2c8;
+	--jp-paper: #f4f4f4;
+	--jp-cream: #f6f0e3;
+	--jp-gold: #ffd600;
+	--jp-red: #b7332f;
+	--jp-teal: #18736b;
+	--jp-blue: #28466f;
+	background: var(--jp-paper);
+	color: var(--jp-ink);
+}
+
+.article-single a {
+	color: var(--jp-red);
+}
+
+.article-single a:hover,
+.article-single a:focus {
+	color: var(--jp-ink);
+}
+
+.article-single-shell {
+	margin: 0 auto;
+	max-width: 77.125rem;
+	padding: 3.5rem 1rem 4rem;
+}
+
+.article-single-hero {
+	border-bottom: 1px solid var(--jp-line);
+	display: grid;
+	gap: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.article-single-hero--media {
+	align-items: start;
+	grid-template-columns: 1fr;
+}
+
+.article-single-hero-copy {
+	min-width: 0;
+}
+
+.article-single-kicker {
+	color: var(--jp-red);
+	display: inline-block;
+	font-size: .75rem;
+	font-weight: 800;
+	line-height: 1;
+	margin-bottom: .75rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.article-single-kicker:hover,
+.article-single-kicker:focus {
+	color: var(--jp-ink);
+	text-decoration: none;
+}
+
+.article-single-title {
+	font-size: 2.25rem;
+	line-height: 1.04;
+	margin: 0;
+	max-width: 17em;
+}
+
+.article-single-dek {
+	color: var(--jp-muted);
+	font-size: 1.1rem;
+	line-height: 1.5;
+	margin-top: 1rem;
+	max-width: 52rem;
+}
+
+.article-single-dek p {
+	margin: 0;
+}
+
+.article-single-meta {
+	align-items: center;
+	color: var(--jp-muted);
+	display: flex;
+	flex-wrap: wrap;
+	font-size: .85rem;
+	font-weight: 700;
+	gap: .35rem .6rem;
+	line-height: 1.35;
+	margin-top: 1rem;
+	text-transform: uppercase;
+}
+
+.article-single-byline {
+	margin: 0;
+}
+
+.article-single-byline a,
+.article-single-media figcaption a {
+	color: inherit;
+}
+
+.article-single-byline a:hover,
+.article-single-byline a:focus,
+.article-single-media figcaption a:hover,
+.article-single-media figcaption a:focus {
+	color: var(--jp-red);
+}
+
+.article-single-date,
+.article-single-reading {
+	display: inline-flex;
+}
+
+.article-single-date::before,
+.article-single-reading::before {
+	color: var(--jp-line);
+	content: "/";
+	margin-right: .6rem;
+}
+
+.article-single #sharing {
+	margin-top: 1rem;
+}
+
+.article-single #sharing a {
+	color: var(--jp-ink);
+	fill: currentColor;
+}
+
+.article-single #sharing a:hover,
+.article-single #sharing a:focus {
+	color: var(--jp-red);
+}
+
+.article-single #sharing a .icon svg {
+	height: 2.2rem;
+	width: 2.2rem;
+}
+
+.article-single-media {
+	background: white;
+	border: 1px solid var(--jp-line);
+	margin: 0;
+	width: 100%;
+}
+
+.article-single-media--narrow {
+	justify-self: center;
+	max-width: 34rem;
+}
+
+.article-single-media--content,
+.article-single-media--default,
+.article-single-media--medium {
+	justify-self: center;
+	max-width: 47.5rem;
+}
+
+.article-single-media--wide {
+	justify-self: center;
+	max-width: 62.5rem;
+}
+
+.article-single-media--full,
+.article-single-media--bleed {
+	justify-self: center;
+	max-width: 75rem;
+}
+
+.article-single-media > a {
+	display: block;
+}
+
+.article-single-media img {
+	aspect-ratio: 16 / 9;
+	display: block;
+	object-fit: cover;
+	width: 100%;
+}
+
+.article-single-media figcaption {
+	color: var(--jp-muted);
+	font-size: .82rem;
+	line-height: 1.4;
+	padding: .65rem .75rem;
+}
+
+.article-single-media-credit {
+	white-space: nowrap;
+}
+
+.article-single-body {
+	margin: 0 auto;
+	max-width: 47.5rem;
+	padding-top: 2rem;
+	position: relative;
+}
+
+.article-single-content {
+	color: var(--jp-ink);
+	font-size: 1.125rem;
+	line-height: 1.7;
+	min-width: 0;
+}
+
+.article-single-content > p:first-child {
+	font-size: 1.22rem;
+	line-height: 1.62;
+	margin-top: 0;
+}
+
+.article-single-content h2,
+.article-single-content h3,
+.article-single-content h4 {
+	color: var(--jp-ink);
+	font-family: inherit;
+	line-height: 1.15;
+	margin: 2rem 0 .75rem;
+}
+
+.article-single-content h2 {
+	font-size: 1.75rem;
+}
+
+.article-single-content h3 {
+	font-size: 1.35rem;
+}
+
+.article-single-content blockquote {
+	border-left: 5px solid var(--jp-red);
+	color: var(--jp-ink);
+	font-size: 1.2rem;
+	line-height: 1.55;
+	margin: 1.5rem 0;
+	padding: .25rem 0 .25rem 1rem;
+}
+
+.article-single-content img {
+	height: auto;
+	max-width: 100%;
+}
+
+.article-single-content .article-figure {
+	margin: 2rem auto;
+}
+
+.article-single-content .article-figure a {
+	display: block;
+}
+
+.article-single-content .article-figure img {
+	display: block;
+	width: 100%;
+}
+
+.article-single-content .article-figure figcaption {
+	color: var(--jp-muted);
+	font-size: .9rem;
+	line-height: 1.4;
+	margin: .5rem 0 0;
+	padding: 0;
+}
+
+.article-single-content .article-figure--narrow {
+	max-width: 34rem;
+}
+
+.article-single-content .article-figure--content,
+.article-single-content .article-figure--default,
+.article-single-content .article-figure--medium {
+	max-width: 47.5rem;
+}
+
+.article-single-content .article-figure--wide {
+	margin-left: 50%;
+	max-width: 62.5rem;
+	transform: translateX(-50%);
+	width: calc(100vw - 2rem);
+}
+
+.article-single-content .article-figure--full,
+.article-single-content .article-figure--bleed {
+	margin-left: 50%;
+	max-width: 75rem;
+	transform: translateX(-50%);
+	width: calc(100vw - 2rem);
+}
+
+.article-single-correction {
+	background: white;
+	border-left: 5px solid var(--jp-red);
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+.article-single-correction h2 {
+	font-size: 1rem;
+	margin: 0 0 .5rem;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 48em) {
+	.article-single-title {
+		font-size: 3.75rem;
+	}
+
+	.article-single-content {
+		font-size: 1.2rem;
+	}
+}
+
 .theatres-directory {
 	--jp-ink: #171717;
 	--jp-muted: #5f6670;
@@ -2464,6 +2777,39 @@ a.production-credit-person.slow-grow:focus,
 	.article-directory-section-head,
 	.article-directory-search {
 		grid-template-columns: 1fr;
+	}
+
+	.article-single-shell {
+		padding: 2.5rem 1rem 3rem;
+	}
+
+	.article-single-hero--media {
+		grid-template-columns: 1fr;
+	}
+
+	.article-single-title {
+		font-size: 2rem;
+		max-width: none;
+	}
+
+	.article-single-dek,
+	.article-single-content {
+		font-size: 1rem;
+	}
+
+	.article-single-content > p:first-child {
+		font-size: 1.08rem;
+	}
+
+	.article-single-meta {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.article-single-date::before,
+	.article-single-reading::before {
+		content: none;
+		margin-right: 0;
 	}
 
 	.productions-directory-card {

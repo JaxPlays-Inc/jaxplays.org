@@ -1,10 +1,12 @@
 ---
 title: "'Forum In Concert' dazzles at Florida Theatre with Jacksonville stars and Tony winner Cady Huffman"
 date: 2025-08-23T23:13:58-04:00
-featured_image: /media/photos/2025-A-Funny-Thing-Happened-on-the-Way-to-the-Forum-01.webp
-featured_image_attr: Florida Theatre
-featured_image_caption: "Josh Waller, Morgan Perry, Brennan Moritz, Neal Thorburn, Cady Huffman, Sarah Boone, Andy Moritz, C. Michael Porter and Alec Hadden throw themselves into the comic chaos of Theatre Jacksonville’s *A Funny Thing Happened on the Way to the Forum In Concert* at the Florida Theatre."
-featured_image_alt: "Actors stand behind music stands, singing with animated expressions during Theatre Jacksonville’s A Funny Thing Happened on the Way to the Forum In Concert at the Florida Theatre. Pictured from left: Josh Waller, Morgan Perry, Brennan Moritz, Neal Thorburn, Cady Huffman, Sarah Boone, Andy Moritz, C. Michael Porter and Alec Hadden."
+featured_image:
+  src: /media/photos/2025-A-Funny-Thing-Happened-on-the-Way-to-the-Forum-01.webp
+  alt: "Actors stand behind music stands, singing with animated expressions during Theatre Jacksonville’s A Funny Thing Happened on the Way to the Forum In Concert at the Florida Theatre. Pictured from left: Josh Waller, Morgan Perry, Brennan Moritz, Neal Thorburn, Cady Huffman, Sarah Boone, Andy Moritz, C. Michael Porter and Alec Hadden."
+  caption: "Josh Waller, Morgan Perry, Brennan Moritz, Neal Thorburn, Cady Huffman, Sarah Boone, Andy Moritz, C. Michael Porter and Alec Hadden throw themselves into the comic chaos of Theatre Jacksonville’s *A Funny Thing Happened on the Way to the Forum In Concert* at the Florida Theatre."
+  credit:
+    name: Florida Theatre
 authors: 
 - Ray Hollister
 show_reading_time: true

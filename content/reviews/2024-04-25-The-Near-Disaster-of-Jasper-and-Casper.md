@@ -1,10 +1,12 @@
 ---
 title: Jason Woods Delivers Myriad Magic in 'The Near Disaster of Jasper and Casper'
 date: 2024-04-25T22:46:28-04:00
-featured_image: /media/photos/2024-The-Near-Disaster-of-Jasper-and-Casper.webp
-featured_image_attr: Russ Rowland
-featured_image_caption: A fraction of the cast of 'The Near Disaster of Jasper and Casper'
-featured_image_alt: Collage featuring images of Jason Woods in various roles and poses, showcasing his versatility and talent.
+featured_image:
+  src: /media/photos/2024-The-Near-Disaster-of-Jasper-and-Casper.webp
+  alt: Collage featuring images of Jason Woods in various roles and poses, showcasing his versatility and talent.
+  caption: A fraction of the cast of 'The Near Disaster of Jasper and Casper'
+  credit:
+    name: Russ Rowland
 authors:
 - Ray Hollister
 production: 2024 The Near Disaster of Jasper and Casper

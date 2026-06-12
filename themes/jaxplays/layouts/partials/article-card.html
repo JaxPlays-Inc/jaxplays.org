@@ -1,6 +1,7 @@
 {{ $page := .page }}
 {{ $variant := .variant | default "directory" }}
 {{ $image := partial "func/GetFeaturedImage.html" $page }}
+{{ $imageMeta := partial "func/GetFeaturedImageMeta.html" $page }}
 {{ $summarySource := $page.Summary }}
 {{ if eq $variant "directory" }}
   {{ $summarySource = $page.Params.description | default $page.Summary }}
@@ -47,7 +48,7 @@
     <a class="article-card-hitarea article-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }}"></a>
     {{ if $image }}
       <a class="article-card-image-link article-directory-image-link" href="{{ $page.RelPermalink }}">
-        <img class="article-card-image article-directory-image" src="{{ $image }}" alt="{{ $page.Params.featured_image_alt | default $page.Title }}">
+        <img class="article-card-image article-directory-image" src="{{ $image }}" alt="{{ $imageMeta.alt | default $page.Title }}">
       </a>
     {{ end }}
     <div class="article-card-body article-directory-card-body">

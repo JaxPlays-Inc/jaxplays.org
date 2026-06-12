@@ -1,10 +1,12 @@
 ---
 title: "Amelia Musical Playhouse Makes a Case for Fun with 'Legally Blonde'"
 date: 2024-07-06T20:20:31-04:00
-featured_image: /media/photos/2024-Legally-Blonde.webp
-featured_image_alt: "Samantha Andersen as Margot, Sarah Perkins as Serena, Olivia Lynch as Elle Woods, and Keeli Bean as Pilar in 'Legally Blonde', reacting with excitement to an imaginary engagement ring."
-featured_image_caption: "In a whimsical moment from 'Legally Blonde', Olivia Lynch's Elle Woods shares her dream of the perfect proposal, sparking vivid imaginations and expressions of delight from Samantha Andersen's Margot, Sarah Perkins' Serena and Keeli Bean's Pilar."
-featured_image_attr: Kailin Lake Photography
+featured_image:
+  src: /media/photos/2024-Legally-Blonde.webp
+  alt: "Samantha Andersen as Margot, Sarah Perkins as Serena, Olivia Lynch as Elle Woods, and Keeli Bean as Pilar in 'Legally Blonde', reacting with excitement to an imaginary engagement ring."
+  caption: "In a whimsical moment from 'Legally Blonde', Olivia Lynch's Elle Woods shares her dream of the perfect proposal, sparking vivid imaginations and expressions of delight from Samantha Andersen's Margot, Sarah Perkins' Serena and Keeli Bean's Pilar."
+  credit:
+    name: Kailin Lake Photography
 authors:
 - Ray Hollister
 production: 2024 Legally Blonde

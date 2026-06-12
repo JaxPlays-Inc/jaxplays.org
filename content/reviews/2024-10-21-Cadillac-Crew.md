@@ -1,11 +1,13 @@
 ---
 title: "Lumen Repertory’s 'Cadillac Crew' is a Compelling Call to Reclaim Forgotten Voices"
 date: 2024-10-21T21:24:04-04:00
-featured_image: /media/photos/2024-Cadillac-Crew-01.webp
-featured_image_attr: Josh Andrews
-featured_image_attr_link: https://www.jaxheadshots.co/
-featured_image_alt: "Kate McManus as Sarah, Zonnetta Marie as Dee, Cetera Bunche as Rachel, and Felecia Ewing as Abby in a poignant moment from 'Cadillac Crew'."
-featured_image_caption: "In Lumen Repertory Theatre's 'Cadillac Crew', the characters absorb a chilling update, marked by Kate McManus as Sarah, Zonnetta Marie as Dee, Cetera Bunche as Rachel, and Felecia Ewing as Abby's reactions of disbelief and sorrow."
+featured_image:
+  src: /media/photos/2024-Cadillac-Crew-01.webp
+  alt: "Kate McManus as Sarah, Zonnetta Marie as Dee, Cetera Bunche as Rachel, and Felecia Ewing as Abby in a poignant moment from 'Cadillac Crew'."
+  caption: "In Lumen Repertory Theatre's 'Cadillac Crew', the characters absorb a chilling update, marked by Kate McManus as Sarah, Zonnetta Marie as Dee, Cetera Bunche as Rachel, and Felecia Ewing as Abby's reactions of disbelief and sorrow."
+  credit:
+    name: Josh Andrews
+    url: https://www.jaxheadshots.co/
 authors: 
 - Ray Hollister
 production: 2024 Cadillac Crew

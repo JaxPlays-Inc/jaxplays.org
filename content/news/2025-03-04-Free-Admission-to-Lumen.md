@@ -1,10 +1,8 @@
 ---
 title: Lumen Rep Offers Free Theatre Admission to High School Students for 2025 Season
 date: 2025-03-04T20:44:25-05:00
-featured_image: /media/photos/Lumen-Free-Admission.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/Lumen-Free-Admission.webp
 authors: 
 - JaxPlays
 description:

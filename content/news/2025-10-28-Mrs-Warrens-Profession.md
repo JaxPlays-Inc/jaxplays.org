@@ -1,10 +1,8 @@
 ---
 title: "WJCT Brings London's West End to Jacksonville With National Theatre Live's 'Mrs. Warren's Profession'"
 date: 2025-10-28T11:09:24-04:00
-featured_image: /media/photos/2025_film_at_wjct_studios-mrs_warrens_profession.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025_film_at_wjct_studios-mrs_warrens_profession.webp
 authors: 
 - JaxPlays
 show_reading_time: true

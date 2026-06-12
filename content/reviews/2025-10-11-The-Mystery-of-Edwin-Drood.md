@@ -1,10 +1,11 @@
 ---
 title: "A Whimsical Whodunit: 'The Mystery of Edwin Drood' Delights at the Alhambra"
 date: 2025-10-11T13:46:57-04:00
-featured_image: /media/photos/2025-The-Mystery-of-Edwin-Drood-01.webp
-featured_image_attr: Alhambra Theatre & Dining
-featured_image_caption: "The cast and orchestra of 'The Mystery of Edwin Drood'."
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-The-Mystery-of-Edwin-Drood-01.webp
+  caption: "The cast and orchestra of 'The Mystery of Edwin Drood'."
+  credit:
+    name: Alhambra Theatre & Dining
 authors: 
 - Ray Hollister
 show_reading_time: true

@@ -1,10 +1,12 @@
 ---
 title: "'A Christmas Story: The Musical' Unwraps New Holiday Magic at The Alhambra"
 date: 2024-11-23T19:31:25-05:00
-featured_image: /media/photos/2024-A-Christmas-Story-The-Musical-01.webp
-featured_image_attr: John Hoffman
-featured_image_alt: "Jonathan Van Dyke as Jean Shepherd observes from the stairs, Jennifer Medure as Mother tends to Keegan Carroll as Ralphie Parker and Elijah Lawless as Randy, and Craig Sherman as The Old Man interacts with his son at the kitchen table in a warm, familial scene from 'A Christmas Story: The Musical.'"
-featured_image_caption: "A quintessential family moment unfolds in *'*A Christmas Story: The Musical* as Jean Shepherd (Jonathan Van Dyke) narrates, Mother (Jennifer Medure) cares for Randy (Elijah Lawless) and Ralphie (Keegan Carroll) and The Old Man (Craig Sherman) shares a tender father-son interaction, capturing the nostalgic essence of the holiday season."
+featured_image:
+  src: /media/photos/2024-A-Christmas-Story-The-Musical-01.webp
+  alt: "Jonathan Van Dyke as Jean Shepherd observes from the stairs, Jennifer Medure as Mother tends to Keegan Carroll as Ralphie Parker and Elijah Lawless as Randy, and Craig Sherman as The Old Man interacts with his son at the kitchen table in a warm, familial scene from 'A Christmas Story: The Musical.'"
+  caption: "A quintessential family moment unfolds in *'*A Christmas Story: The Musical* as Jean Shepherd (Jonathan Van Dyke) narrates, Mother (Jennifer Medure) cares for Randy (Elijah Lawless) and Ralphie (Keegan Carroll) and The Old Man (Craig Sherman) shares a tender father-son interaction, capturing the nostalgic essence of the holiday season."
+  credit:
+    name: John Hoffman
 authors: 
 - Jo El Snyder
 production: 2024 A Christmas Story The Musical

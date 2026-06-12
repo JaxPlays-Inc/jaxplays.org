@@ -1,10 +1,12 @@
 ---
 title: "'Come From Away' at Alhambra Soars With Humanity and Heart"
 date: 2025-09-01T12:55:50-04:00
-featured_image: /media/photos/2025-Come-From-Away-02.webp
-featured_image_attr: Alhambra Theatre & Dining
-featured_image_caption: "Members of the cast and orchestra of *Come From Away* gather after opening night at Alhambra Theatre & Dining."
-featured_image_alt: "Cast and orchestra of Come From Away at Alhambra Theatre & Dining posing together after opening night, smiling in front of a step-and-repeat backdrop."
+featured_image:
+  src: /media/photos/2025-Come-From-Away-02.webp
+  alt: "Cast and orchestra of Come From Away at Alhambra Theatre & Dining posing together after opening night, smiling in front of a step-and-repeat backdrop."
+  caption: "Members of the cast and orchestra of *Come From Away* gather after opening night at Alhambra Theatre & Dining."
+  credit:
+    name: Alhambra Theatre & Dining
 authors: 
 - Ray Hollister
 show_reading_time: true

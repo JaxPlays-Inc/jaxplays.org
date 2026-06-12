@@ -1,10 +1,12 @@
 ---
 title: Douglas Anderson Musical Theatre Graduate Named 2025 U.S. Presidential Scholar
 date: 2025-10-30T12:56:18-04:00
-featured_image: /media/photos/2025-Next-to-Normal-DASOTA.webp
-featured_image_alt: "Samuel Issac Nelson III performs as Dan in Douglas Anderson School of the Arts’ production of Next to Normal"
-featured_image_caption: "Samuel Issac Nelson III delivers an emotional moment as Dan in Douglas Anderson School of the Arts’ production of *Next to Normal*"
-featured_image_attr: Douglas Anderson School of the Arts 
+featured_image:
+  src: /media/photos/2025-Next-to-Normal-DASOTA.webp
+  alt: "Samuel Issac Nelson III performs as Dan in Douglas Anderson School of the Arts’ production of Next to Normal"
+  caption: "Samuel Issac Nelson III delivers an emotional moment as Dan in Douglas Anderson School of the Arts’ production of *Next to Normal*"
+  credit:
+    name: Douglas Anderson School of the Arts
 authors: 
 - JaxPlays
 show_reading_time: true

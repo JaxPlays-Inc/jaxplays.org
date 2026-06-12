@@ -15,6 +15,7 @@
 
   {{ range $allPages }}
     {{ $image := partial "func/GetFeaturedImage.html" . }}
+    {{ $imageMeta := partial "func/GetFeaturedImageMeta.html" . }}
     {{ $summarySource := .Params.description | default .Summary }}
     {{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " "<a class=\"article-directory-summary-link\" " | safeHTML }}
     {{ $authorLabel := "" }}
@@ -40,7 +41,7 @@
       "section" (.CurrentSection.Title | default (.Section | humanize))
       "isReview" (eq .Section "reviews")
       "image" $image
-      "imageAlt" (.Params.featured_image_alt | default .Title)
+      "imageAlt" ($imageMeta.alt | default .Title)
       "dateLabel" $dateLabel
       "datetime" $datetime
       "author" $authorLabel

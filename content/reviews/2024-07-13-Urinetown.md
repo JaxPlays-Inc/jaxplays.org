@@ -1,11 +1,13 @@
 ---
 title: "Satire, Sincerity and Show-Stopping Performances in The 5 & Dime's 'Urinetown'"
 date: 2024-07-17T04:06:47-04:00
-featured_image: /media/photos/2024-Urinetown-01.webp
-featured_image_alt: "Cast members of 'Urinetown' joyfully raising plungers and mops in a spirited scene at The 5 & Dime."
-featured_image_caption: "Chris Robertson (center) as Bobby Strong rallies the revolution into fierce unity with mops and plungers held high in defiance."
-featured_image_attr: Stray Imagery
-featured_image_attr_link: https://www.instagram.com/strayimagery
+featured_image:
+  src: /media/photos/2024-Urinetown-01.webp
+  alt: "Cast members of 'Urinetown' joyfully raising plungers and mops in a spirited scene at The 5 & Dime."
+  caption: "Chris Robertson (center) as Bobby Strong rallies the revolution into fierce unity with mops and plungers held high in defiance."
+  credit:
+    name: Stray Imagery
+    url: https://www.instagram.com/strayimagery
 authors:
 - Ray Hollister
 production: 2024 Urinetown

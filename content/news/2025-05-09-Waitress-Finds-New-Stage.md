@@ -1,10 +1,8 @@
 ---
 title: "Players by the Sea's 'Waitress' Finds a Soft Place to Land at the Ritz Theatre"
 date: 2025-05-09T20:51:01-04:00
-featured_image: /media/photos/2025-Waitress-01.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-Waitress-01.webp
 authors: 
 - Ray Hollister
 show_reading_time: true

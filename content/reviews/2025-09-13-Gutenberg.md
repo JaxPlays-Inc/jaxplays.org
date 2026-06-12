@@ -1,11 +1,13 @@
 ---
 title: "The 5 & Dime's 'Gutenberg! The Musical!' Is a Delirious Comedy Triumph"
 date: 2025-09-13T13:18:00-04:00
-featured_image: /media/photos/2025-Gutenberg-The-Musical-01.webp
-featured_image_attr: Kamajhia
-featured_image_attr_link: https://kamajhia.com/
-featured_image_caption: "Character development, one Sharpie at a time."
-featured_image_alt: "A table filled with hats labeled with roles like 'Monk,' 'Doctor,' 'Li’l Nazi Girl' and 'Stage Crew,' showcasing the minimalist brilliance of Gutenberg! The Musical!"
+featured_image:
+  src: /media/photos/2025-Gutenberg-The-Musical-01.webp
+  alt: "A table filled with hats labeled with roles like 'Monk,' 'Doctor,' 'Li’l Nazi Girl' and 'Stage Crew,' showcasing the minimalist brilliance of Gutenberg! The Musical!"
+  caption: "Character development, one Sharpie at a time."
+  credit:
+    name: Kamajhia
+    url: https://kamajhia.com/
 authors: 
 - Ray Hollister
 show_reading_time: true

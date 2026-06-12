@@ -1,10 +1,12 @@
 ---
 title: Alhambra Theatre & Dining Named Best Dinner Theater in the Nation
 date: 2025-04-23T18:32:42-04:00
-featured_image: /media/photos/2023-Legally-Blonde-01.webp
-featured_image_attr: Ray Hollister
-featured_image_alt: "The cast of 'Legally Blonde' at Alhambra Theatre & Dining takes their curtain call, framed by vibrant purple and orange light panels as the audience cheers from cabaret-style tables."
-featured_image_caption: "Cast members of *Legally Blonde* at the Alhambra Theatre & Dining celebrate their final bow in a colorful, high-energy curtain call."
+featured_image:
+  src: /media/photos/2023-Legally-Blonde-01.webp
+  alt: "The cast of 'Legally Blonde' at Alhambra Theatre & Dining takes their curtain call, framed by vibrant purple and orange light panels as the audience cheers from cabaret-style tables."
+  caption: "Cast members of *Legally Blonde* at the Alhambra Theatre & Dining celebrate their final bow in a colorful, high-energy curtain call."
+  credit:
+    name: Ray Hollister
 authors: 
 - JaxPlays
 show_reading_time: true

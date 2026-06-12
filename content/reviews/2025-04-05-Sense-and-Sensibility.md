@@ -1,10 +1,12 @@
 ---
 title: "Limelight’s 'Sense and Sensibility' Brims with Chemistry, Comedy and Regency Charm"
 date: 2025-04-05T15:32:49-04:00
-featured_image: /media/photos/2025-Sense-and-Sensibility-03.webp
-featured_image_attr: Daniel Starling
-featured_image_caption: "Angela Olsen as Elinor Dashwood and Cameron Hodges as Edward Ferrars are caught in a delicate moment of letter writing, closely observed by the Gossips in *Sense and Sensibility*."
-featured_image_alt: "Angela Olsen as Elinor Dashwood and Cameron Hodges as Edward Ferrars engage in letter writing while surrounded by onlookers, known as the Gossips, in a scene from 'Sense and Sensibility.'"
+featured_image:
+  src: /media/photos/2025-Sense-and-Sensibility-03.webp
+  alt: "Angela Olsen as Elinor Dashwood and Cameron Hodges as Edward Ferrars engage in letter writing while surrounded by onlookers, known as the Gossips, in a scene from 'Sense and Sensibility.'"
+  caption: "Angela Olsen as Elinor Dashwood and Cameron Hodges as Edward Ferrars are caught in a delicate moment of letter writing, closely observed by the Gossips in *Sense and Sensibility*."
+  credit:
+    name: Daniel Starling
 authors: 
 - Sara Orr
 production: 2025 Sense and Sensibility

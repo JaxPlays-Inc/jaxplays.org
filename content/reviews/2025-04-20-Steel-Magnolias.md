@@ -1,10 +1,12 @@
 ---
 title: "Orange Park Community Theatre's 'Steel Magnolias' Turns a Small Salon into a Big Emotional Journey"
 date: 2025-04-21T09:11:55-04:00
-featured_image: /media/photos/2025-Steel-Magnolias-01.webp
-featured_image_alt: "Ashlyn Brown as Shelby beams as the women of the salon present her with a pink robe—her signature color—in a vibrant moment from 'Steel Magnolias' at Orange Park Community Theatre."
-featured_image_caption: "Ashlyn Brown as Shelby receives a pink robe — her signature color — from Phaedra Smith, Denise Fernandez, Ellen Hare and Izzy Hague in a scene bursting with love and laughter in *Steel Magnolias* at Orange Park Community Theatre."
-featured_image_attr: Mary Roesler
+featured_image:
+  src: /media/photos/2025-Steel-Magnolias-01.webp
+  alt: "Ashlyn Brown as Shelby beams as the women of the salon present her with a pink robe—her signature color—in a vibrant moment from 'Steel Magnolias' at Orange Park Community Theatre."
+  caption: "Ashlyn Brown as Shelby receives a pink robe — her signature color — from Phaedra Smith, Denise Fernandez, Ellen Hare and Izzy Hague in a scene bursting with love and laughter in *Steel Magnolias* at Orange Park Community Theatre."
+  credit:
+    name: Mary Roesler
 authors: 
 - Ray Hollister
 production: 2025 Steel Magnolias

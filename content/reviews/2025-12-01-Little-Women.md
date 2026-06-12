@@ -1,10 +1,12 @@
 ---
 title: "Little Women at Amelia Community Theatre Blends Bold Staging with Standout Performances"
 date: 2025-12-01T17:33:20-05:00
-featured_image: /media/photos/2025-Little-Women-6151.webp
-featured_image_attr: Heather Starling
-featured_image_caption: "The March sisters strike a triumphant pose with Laurie during an early scene that sets the playful tone of the production."
-featured_image_alt: "Cast members portraying Jo, Meg, Beth, Amy and Laurie pose together onstage in a lively tableau from the Amelia Community Theatre production of 'Little Women'."
+featured_image:
+  src: /media/photos/2025-Little-Women-6151.webp
+  alt: "Cast members portraying Jo, Meg, Beth, Amy and Laurie pose together onstage in a lively tableau from the Amelia Community Theatre production of 'Little Women'."
+  caption: "The March sisters strike a triumphant pose with Laurie during an early scene that sets the playful tone of the production."
+  credit:
+    name: Heather Starling
 authors: 
 - Jo El Snyder
 show_reading_time: true

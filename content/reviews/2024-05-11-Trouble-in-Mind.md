@@ -1,10 +1,12 @@
 ---
 title: "Creating Good Trouble on Stage: Confronting Prejudice and Stereotypes in 'Trouble in Mind'"
 date: 2024-05-11T00:03:45-04:00
-featured_image: /media/photos/2024-Trouble-in-Mind.webp
-featured_image_attr: Bradley Akers
-featured_image_caption: "In a poignant moment from 'Trouble in Mind,' Zonnetta Marie as Wiletta Mayer powerfully claims her identity with the supportive gaze of David Voss as Henry, the doorman, witnessing her transformation."
-featured_image_alt: "On a theater stage, Zonnetta Marie stands with confidence as Wiletta Mayer, dressed in high-waisted brown pants and a black turtleneck. David Voss, in the role of Henry, sits at a desk wearing a sweater and brown pants, looking up attentively at her. The setting includes a brick wall backdrop and theatrical rigging, emphasizing the backstage setting of the play."
+featured_image:
+  src: /media/photos/2024-Trouble-in-Mind.webp
+  alt: "On a theater stage, Zonnetta Marie stands with confidence as Wiletta Mayer, dressed in high-waisted brown pants and a black turtleneck. David Voss, in the role of Henry, sits at a desk wearing a sweater and brown pants, looking up attentively at her. The setting includes a brick wall backdrop and theatrical rigging, emphasizing the backstage setting of the play."
+  caption: "In a poignant moment from 'Trouble in Mind,' Zonnetta Marie as Wiletta Mayer powerfully claims her identity with the supportive gaze of David Voss as Henry, the doorman, witnessing her transformation."
+  credit:
+    name: Bradley Akers
 authors:
 - Ray Hollister
 production: 2024 Trouble in Mind

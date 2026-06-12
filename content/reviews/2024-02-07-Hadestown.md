@@ -1,10 +1,12 @@
 ---
 title: "Mythic Magic: Journey to the Spectacular Underworld of 'Hadestown'"
 date: 2024-02-07T00:24:54-05:00
-featured_image: /media/photos/2024-Hadestown-5.webp
-featured_image_attr: T Charles Erickson
-featured_image_caption: In the gripping scene from 'Hadestown', Matthew Patrick Quinn, as the commanding Hades, extends an offer to Amaya Braganza's pensive Eurydice. Behind them, Marla Louissaint, Lizzie Markson, and Hannah Schreer embody the Fates, their dynamic poses capturing the essence of the otherworldly chorus that haunts the narrative.
-featured_image_alt: Photo of the cast of Hadestown. Matthew Patrick Quinn and Amaya Braganza are in the front, Marla Louissaint, Lizzie Markson and Hannah Schreer are in the back.
+featured_image:
+  src: /media/photos/2024-Hadestown-5.webp
+  alt: Photo of the cast of Hadestown. Matthew Patrick Quinn and Amaya Braganza are in the front, Marla Louissaint, Lizzie Markson and Hannah Schreer are in the back.
+  caption: In the gripping scene from 'Hadestown', Matthew Patrick Quinn, as the commanding Hades, extends an offer to Amaya Braganza's pensive Eurydice. Behind them, Marla Louissaint, Lizzie Markson, and Hannah Schreer embody the Fates, their dynamic poses capturing the essence of the otherworldly chorus that haunts the narrative.
+  credit:
+    name: T Charles Erickson
 authors:
 - Ray Hollister
 production: 2024 Hadestown

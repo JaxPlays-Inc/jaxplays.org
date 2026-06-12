@@ -1,11 +1,13 @@
 ---
 title: Faith, Trauma and Mystery Collide in 'Agnes of God' at Lumen Repertory Theatre
 date: 2025-03-15T01:52:14-04:00
-featured_image: /media/photos/2025-Agnes-of-God-085.webp
-featured_image_attr: Josh Andrews
-featured_image_attr_link: https://www.jaxheadshots.co/
-featured_image_caption: "Sister Agnes (Maggie Cox) exudes childlike innocence and joy, while Dr. Livingstone (Karen Konzen) listens with skepticism in *Agnes of God*, a gripping psychological drama."
-featured_image_alt: "A young nun in a white and blue habit sits across from a psychiatrist, smiling as she speaks. The stage’s fabric backdrop and dramatic lighting create an ethereal setting."
+featured_image:
+  src: /media/photos/2025-Agnes-of-God-085.webp
+  alt: "A young nun in a white and blue habit sits across from a psychiatrist, smiling as she speaks. The stage’s fabric backdrop and dramatic lighting create an ethereal setting."
+  caption: "Sister Agnes (Maggie Cox) exudes childlike innocence and joy, while Dr. Livingstone (Karen Konzen) listens with skepticism in *Agnes of God*, a gripping psychological drama."
+  credit:
+    name: Josh Andrews
+    url: https://www.jaxheadshots.co/
 authors: 
 - Ray Hollister
 production: 2025 Agnes of God

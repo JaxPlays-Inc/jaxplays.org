@@ -1,10 +1,12 @@
 ---
 title: "'Harlan and Bronna Jump Out the Window' Is Wickedly Funny and Surprisingly Tender"
 date: 2025-09-20T00:57:46-04:00
-featured_image: /media/photos/2025-Harlan-and-Bronna-11.webp
-featured_image_attr: Jalen Hines
-featured_image_caption: "Jeff Drushal and Karen Konzen lounge in oversized leather chairs, a crystal decanter between them, exuding equal parts elegance and ennui in 'Harlan and Bronna Jump Out the Window'."
-featured_image_alt: "Onstage scene with Jeff Drushal and Karen Konzen seated in large leather armchairs. A small table with a decanter and glasses sits between them as they strike dramatic, detached poses."
+featured_image:
+  src: /media/photos/2025-Harlan-and-Bronna-11.webp
+  alt: "Onstage scene with Jeff Drushal and Karen Konzen seated in large leather armchairs. A small table with a decanter and glasses sits between them as they strike dramatic, detached poses."
+  caption: "Jeff Drushal and Karen Konzen lounge in oversized leather chairs, a crystal decanter between them, exuding equal parts elegance and ennui in 'Harlan and Bronna Jump Out the Window'."
+  credit:
+    name: Jalen Hines
 authors: 
 - Ray Hollister
 show_reading_time: true

@@ -1,11 +1,13 @@
 ---
 title: "'Morning After Grace' at Alhambra Theatre & Dining Balances Sitcom Spark With Soul-Deep Honesty"
 date: 2026-04-11T03:25:00-04:00
-featured_image: /media/photos/2026-Morning-After-Grace-01.webp
-featured_image_attr: Michael Roddy
-featured_image_attr_link: https://www.michaelroddystoryteller.com/
-featured_image_caption: "Kevin Anderson, Eugene Lindsey and Hillary Hickam share a tense and revealing moment in Alhambra Theatre & Dining's *Morning After Grace*."
-featured_image_alt: "Kevin Anderson, Eugene Lindsey and Hillary Hickam perform in a living room scene from Morning After Grace at Alhambra Theatre & Dining."
+featured_image:
+  src: /media/photos/2026-Morning-After-Grace-01.webp
+  alt: "Kevin Anderson, Eugene Lindsey and Hillary Hickam perform in a living room scene from Morning After Grace at Alhambra Theatre & Dining."
+  caption: "Kevin Anderson, Eugene Lindsey and Hillary Hickam share a tense and revealing moment in Alhambra Theatre & Dining's *Morning After Grace*."
+  credit:
+    name: Michael Roddy
+    url: https://www.michaelroddystoryteller.com/
 authors:
 - Ray Hollister
 show_reading_time: true

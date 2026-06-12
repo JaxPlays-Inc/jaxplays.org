@@ -1,10 +1,8 @@
 ---
 title: Jacksonville BroadwayWorld Awards Voting Is Open
 date: 2025-11-23T20:47:31-05:00
-featured_image: /media/photos/2025-BroadwayWorld-Jacksonville-Awards.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-BroadwayWorld-Jacksonville-Awards.webp
 authors: 
 - JaxPlays
 show_reading_time: true

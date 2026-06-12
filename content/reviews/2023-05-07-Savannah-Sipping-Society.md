@@ -5,10 +5,12 @@ aliases:
 layout: posts
 date: 2023-05-07T22:12:34-04:00
 categories: Reviews
-featured_image: /media/photos/2023_Savannah_Sipping_Society_07.jpg
-featured_image_alt: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley (left to right)
-featured_image_caption: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley (left to right)
-featured_image_attr: Ray Hollister
+featured_image:
+  src: /media/photos/2023_Savannah_Sipping_Society_07.jpg
+  alt: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley (left to right)
+  caption: Danya Zimbauer, Tori Ann Smith, Tammy Bradley and Theresa Stanley (left to right)
+  credit:
+    name: Ray Hollister
 authors:
 - Ray Hollister
 excerpt_separator: <!--more-->

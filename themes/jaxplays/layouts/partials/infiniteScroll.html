@@ -64,24 +64,17 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(html => {
           const parser = new DOMParser();
           const doc = parser.parseFromString(html, 'text/html');
-          const prevHeader = doc.querySelector('header');
           const prevPost = doc.querySelector('.main-content');
           const prevNav = doc.querySelector('.post-navigation');
 
           if (prevPost) {
             prevPost.id = '';
-            if (prevHeader) {
-              document.querySelector('.main-content').parentNode.appendChild(prevHeader);
-            }
             document.querySelector('.main-content').parentNode.appendChild(prevPost);
             if (prevNav) {
               document.querySelector('.main-content').parentNode.appendChild(prevNav);
             }
 
             if (window.jaxplaysAds && typeof window.jaxplaysAds.registerSlots === 'function') {
-              if (prevHeader) {
-                window.jaxplaysAds.registerSlots(prevHeader);
-              }
               window.jaxplaysAds.registerSlots(prevPost);
               if (prevNav) {
                 window.jaxplaysAds.registerSlots(prevNav);

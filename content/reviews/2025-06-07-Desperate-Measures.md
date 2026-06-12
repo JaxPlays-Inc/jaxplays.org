@@ -1,10 +1,12 @@
 ---
 title: "'Desperate Measures' Puts a Rootin’-Tootin’ Spin on Shakespeare at Theatre Jacksonville"
 date: 2025-06-07T09:58:34-04:00
-featured_image: /media/photos/2025-Desperate-Measures-01.webp
-featured_image_attr: Theatre Jacksonville
-featured_image_caption: "The cast of *Desperate Measures* at Theatre Jacksonville brings sharp timing and playful energy to this fast-paced Western musical take on Shakespeare's *Measure by Measure*."
-featured_image_alt: "Cast members of Desperate Measures at Theatre Jacksonville strike a comically alarmed pose during a scene in the Western musical comedy."
+featured_image:
+  src: /media/photos/2025-Desperate-Measures-01.webp
+  alt: "Cast members of Desperate Measures at Theatre Jacksonville strike a comically alarmed pose during a scene in the Western musical comedy."
+  caption: "The cast of *Desperate Measures* at Theatre Jacksonville brings sharp timing and playful energy to this fast-paced Western musical take on Shakespeare's *Measure by Measure*."
+  credit:
+    name: Theatre Jacksonville
 authors: 
 - Ray Hollister
 show_reading_time: true

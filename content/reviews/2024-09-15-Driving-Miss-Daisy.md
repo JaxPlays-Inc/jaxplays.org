@@ -1,10 +1,10 @@
 ---
 title: "'Driving Miss Daisy' at Theatre Jacksonville Captures the Timeless Journey of Dignity, Friendship, Trust and Change"
 date: 2024-09-16T21:08:25-04:00
-featured_image: /media/photos/2024-Driving-Miss-Daisy.webp
-featured_image_attr: 
-featured_image_caption: "Jen Mercer and Hoke Coleburn star as Daisy Werthan and Hoke Coleburn in Theatre Jacksonville's 'Driving Miss Daisy'"
-featured_image_alt: "A collage showing scenes from 'Driving Miss Daisy' with Jen Mercer as Daisy Werthan and Eugene Lindsey as Hoke Coleburn in various settings: engaging in conversations, driving, and sharing moments both tender and tense on stage."
+featured_image:
+  src: /media/photos/2024-Driving-Miss-Daisy.webp
+  alt: "A collage showing scenes from 'Driving Miss Daisy' with Jen Mercer as Daisy Werthan and Eugene Lindsey as Hoke Coleburn in various settings: engaging in conversations, driving, and sharing moments both tender and tense on stage."
+  caption: "Jen Mercer and Hoke Coleburn star as Daisy Werthan and Hoke Coleburn in Theatre Jacksonville's 'Driving Miss Daisy'"
 authors:
 - Ray Hollister
 production: 2024 Driving Miss Daisy

@@ -4,10 +4,12 @@ aliases:
 - /news/2023/08/12/dangerous-love-murder-ballad-takes-center-stage-at-abet/
 date: 2023-08-12T18:15:39+00:00
 categories: Reviews
-featured_image: /media/photos/2023_Murder_Ballad_01.webp
-featured_image_attr: Daniel Starling
-featured_image_alt: Chris Berry, Julia Blasi, Erin Barnes and Chris Robertson (left to right)
-featured_image_caption: "Murder Ballad cast: Chris Berry, Julia Blasi, Erin Barnes and Chris Robertson (left to right)"
+featured_image:
+  src: /media/photos/2023_Murder_Ballad_01.webp
+  alt: Chris Berry, Julia Blasi, Erin Barnes and Chris Robertson (left to right)
+  caption: "Murder Ballad cast: Chris Berry, Julia Blasi, Erin Barnes and Chris Robertson (left to right)"
+  credit:
+    name: Daniel Starling
 authors:
 - Ray Hollister
 description: Journey into the heart of passion and tragedy with ABET's "Murder Ballad." Secure a front row seat for the full experience.

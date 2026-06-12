@@ -1,10 +1,12 @@
 ---
 title: "Psychological Horror Comes to Life in Players by the Sea’s 'Jekyll & Hyde'"
 date: 2024-10-23T19:45:42-04:00
-featured_image: /media/photos/2024-Jekyll-and-Hyde-01.webp
-featured_image_attr: Mike Kitaif
-featured_image_alt: "Cole Marshall as Dr. Henry Jekyll holding a flask high during a pivotal scene in Players by the Sea's production of Jekyll & Hyde."
-featured_image_caption: "Cole Marshall delivers a captivating performance as Dr. Henry Jekyll in Players by the Sea's production of *Jekyll & Hyde*, commanding the stage with a mesmerizing portrayal of the tormented scientist."
+featured_image:
+  src: /media/photos/2024-Jekyll-and-Hyde-01.webp
+  alt: "Cole Marshall as Dr. Henry Jekyll holding a flask high during a pivotal scene in Players by the Sea's production of Jekyll & Hyde."
+  caption: "Cole Marshall delivers a captivating performance as Dr. Henry Jekyll in Players by the Sea's production of *Jekyll & Hyde*, commanding the stage with a mesmerizing portrayal of the tormented scientist."
+  credit:
+    name: Mike Kitaif
 authors: 
 - Ray Hollister
 production: 2024 Jekyll and Hyde

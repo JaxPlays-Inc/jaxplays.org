@@ -1,10 +1,12 @@
 ---
 title: "Facing History: A Heart-Wrenching Production of 'The Diary of Anne Frank' at Theatre Jacksonville"
 date: 2023-09-20 11:00:00
-featured_image: /media/photos/Anne_Frank_passport_photo_May_1942_expanded3x2.webp
-featured_image_attr: Photographer unknown, public domain. Edited by Ray Hollister
-featured_image_caption: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
-featured_image_alt: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
+featured_image:
+  src: /media/photos/Anne_Frank_passport_photo_May_1942_expanded3x2.webp
+  alt: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
+  caption: Anne Frank's passport photo from May 1942, the final known image of her taken two months before she and her family went into hiding.
+  credit:
+    name: Photographer unknown, public domain. Edited by Ray Hollister
 authors:
 - Ray Hollister
 production: 2023 The Diary of Anne Frank

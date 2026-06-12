@@ -1,11 +1,13 @@
 ---
 title: "Big Hair, Bigger Laughs: 'The Wedding Singer' at Alhambra Is a Retro Delight"
 date: 2024-10-06T16:03:10-04:00
-featured_image: /media/photos/2024-The-Wedding-Singer-01.webp
-featured_image_attr: Ray Hollister
-featured_image_caption: "Robbie (Jake Pearce) is down in the dumps — literally — but Julia (Brooklyn Klekamp) is there to help him get out of the mess he got himself into."
-featured_image_alt: "In this scene from 'The Wedding Singer', Robbie (played by Jake Pearce) leans dramatically out of a grimy green dumpster marked \"Private Dumpster\" with graffiti and a \"No Parking\" sign. His disheveled appearance adds to the comedic moment as Julia (played by Brooklyn Klekamp), dressed in a pink apron over a black dress, stands nearby, smiling with concern. The brightly lit stage contrasts with the gritty setting of the alley, creating a humorous juxtaposition of romance in unlikely places."
-featured_image_attr_link: /authors/ray-hollister
+featured_image:
+  src: /media/photos/2024-The-Wedding-Singer-01.webp
+  alt: "In this scene from 'The Wedding Singer', Robbie (played by Jake Pearce) leans dramatically out of a grimy green dumpster marked \"Private Dumpster\" with graffiti and a \"No Parking\" sign. His disheveled appearance adds to the comedic moment as Julia (played by Brooklyn Klekamp), dressed in a pink apron over a black dress, stands nearby, smiling with concern. The brightly lit stage contrasts with the gritty setting of the alley, creating a humorous juxtaposition of romance in unlikely places."
+  caption: "Robbie (Jake Pearce) is down in the dumps — literally — but Julia (Brooklyn Klekamp) is there to help him get out of the mess he got himself into."
+  credit:
+    name: Ray Hollister
+    url: /authors/ray-hollister
 authors: 
 - Ray Hollister
 production: 2024 The Wedding Singer

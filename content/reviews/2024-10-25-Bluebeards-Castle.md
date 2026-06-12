@@ -3,10 +3,12 @@ title: Gothic Mystery Comes Alive in Bold City Opera’s Riveting 'Bluebeard’s
 date: 2024-10-25T23:45:58-04:00
 aliases:
   - /reviews/2024/10/25/bluebeards-castle/
-featured_image: /media/photos/2024-Bluebeards-Castle-01.webp
-featured_image_attr: Andrew Carroll
-featured_image_caption: "Judith follows him into darkness, torn between trust and apprehension, as Duke Bluebeard strides ahead with dark authority toward the ominous door that holds his deepest secrets."
-featured_image_alt: "Judith (Victoria Isernia) in a flowing white gown follows Duke Bluebeard (John Tibbetts), who wears a dark, ornate suit with silver flourishes, down a dimly lit stone hallway towards a massive wooden door."
+featured_image:
+  src: /media/photos/2024-Bluebeards-Castle-01.webp
+  alt: "Judith (Victoria Isernia) in a flowing white gown follows Duke Bluebeard (John Tibbetts), who wears a dark, ornate suit with silver flourishes, down a dimly lit stone hallway towards a massive wooden door."
+  caption: "Judith follows him into darkness, torn between trust and apprehension, as Duke Bluebeard strides ahead with dark authority toward the ominous door that holds his deepest secrets."
+  credit:
+    name: Andrew Carroll
 authors: 
 - Ray Hollister
 production: 2024 Bluebeards Castle

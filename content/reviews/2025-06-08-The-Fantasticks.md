@@ -1,10 +1,12 @@
 ---
 title: "ABET’s 'The Fantasticks' Finds Moments of Charm in a Quirky, Enduring Musical"
 date: 2025-06-08T17:01:44-04:00
-featured_image: /media/photos/2025-The-Fantasticks-291.webp
-featured_image_attr: Josh Andrews
-featured_image_caption: "The cast of ABET’s *The Fantasticks* stages a picture-perfect moment with a 'Happy Ending' banner — a playful signal that the story’s twists are just beginning."
-featured_image_alt: "Cast members of ABET’s 'The Fantasticks' hold a colorful 'Happy Ending' banner during Act 1 of the production at the Adele Grage Cultural Center."
+featured_image:
+  src: /media/photos/2025-The-Fantasticks-291.webp
+  alt: "Cast members of ABET’s 'The Fantasticks' hold a colorful 'Happy Ending' banner during Act 1 of the production at the Adele Grage Cultural Center."
+  caption: "The cast of ABET’s *The Fantasticks* stages a picture-perfect moment with a 'Happy Ending' banner — a playful signal that the story’s twists are just beginning."
+  credit:
+    name: Josh Andrews
 authors: 
 - Ray Hollister
 show_reading_time: true

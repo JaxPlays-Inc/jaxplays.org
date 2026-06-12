@@ -1,10 +1,12 @@
 ---
 title: "Theatre Jacksonville’s 'The Women of Lockerbie' Balances Emotional Depth and Visual Beauty"
 date: 2025-01-18T20:02:40-05:00
-featured_image: /media/photos/2025-The-Women-of-Lockerbie.webp
-featured_image_attr: Theatre Jacksonville
-featured_image_alt: "The cast of 'The Women of Lockerbie' captured in a serene outdoor scene under a starry sky, from left to right: Evie Day as Madeline Livingston, Grace Bryan as Olive Allison, Taylor Smith as Bill Livingston, Lonnie Sue Curri as Lonnie, Rachel Johns as Isla, and Emily Johns as Margaret." 
-featured_image_caption: "Evie Day, portraying Madeline Livingston, stands at the brink of emotional breakdown in *The Women of Lockerbie*. The scene, set against an immersive video backdrop of rolling hills and a starlit sky, encapsulates the beginning of her character's poignant journey through grief and despair."
+featured_image:
+  src: /media/photos/2025-The-Women-of-Lockerbie.webp
+  alt: "The cast of 'The Women of Lockerbie' captured in a serene outdoor scene under a starry sky, from left to right: Evie Day as Madeline Livingston, Grace Bryan as Olive Allison, Taylor Smith as Bill Livingston, Lonnie Sue Curri as Lonnie, Rachel Johns as Isla, and Emily Johns as Margaret."
+  caption: "Evie Day, portraying Madeline Livingston, stands at the brink of emotional breakdown in *The Women of Lockerbie*. The scene, set against an immersive video backdrop of rolling hills and a starlit sky, encapsulates the beginning of her character's poignant journey through grief and despair."
+  credit:
+    name: Theatre Jacksonville
 authors: 
 - Ray Hollister
 production: 2025 The Women of Lockerbie

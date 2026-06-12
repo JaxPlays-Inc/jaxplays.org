@@ -1,11 +1,13 @@
 ---
 title: "Heartfelt and Raw, 'Dear Evan Hansen' Non-Equity Tour Shines in One-Night Jacksonville Performance"
 date: 2024-11-05T00:38:27-05:00
-featured_image: /media/photos/2024-Dear-Evan-Hansen-01.webp
-featured_image_attr: Evan Zimmerman for MurphyMade
-featured_image_attr_link: https://www.murphymade.com/
-featured_image_caption: "A powerful moment in *Dear Evan Hansen*, as the cast stands amidst a digital web of social media projections, capturing the intensity and isolation of life online."
-featured_image_alt: "Cast of *Dear Evan Hansen* stands onstage under dramatic lighting, surrounded by fragmented social media projections, symbolizing the impact of digital connections and isolation."
+featured_image:
+  src: /media/photos/2024-Dear-Evan-Hansen-01.webp
+  alt: "Cast of *Dear Evan Hansen* stands onstage under dramatic lighting, surrounded by fragmented social media projections, symbolizing the impact of digital connections and isolation."
+  caption: "A powerful moment in *Dear Evan Hansen*, as the cast stands amidst a digital web of social media projections, capturing the intensity and isolation of life online."
+  credit:
+    name: Evan Zimmerman for MurphyMade
+    url: https://www.murphymade.com/
 authors: 
 - Ray Hollister
 production: 2024 Dear Evan Hansen

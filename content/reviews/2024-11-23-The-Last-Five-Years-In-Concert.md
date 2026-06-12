@@ -1,10 +1,12 @@
 ---
 title: "Musical Brilliance and Emotional Depth Shine in Limelight Theatre’s 'The Last Five Years - In Concert'"
 date: 2024-11-23T11:21:34-05:00
-featured_image: /media/photos/2024-The-Last-Five-Years-In-Concert-01.webp
-featured_image_attr: Nikki Layt
-featured_image_alt: "Kimberly Zielinski on violin, Chad Boyd as Jamie, Emily Layt as Cathy, and pianist Keith Teepen in a scene from 'The Last Five Years - In Concert' at Limelight Theatre" 
-featured_image_caption: "Emily Layt and Chad Boyd deliver a poignant moment in *The Last Five Years - In Concert* during the emotionally charged \"Goodbye Until Tomorrow / I Could Never Rescue You\", beautifully accompanied by Kimberly Zielinski on violin and Keith Teepen on piano at Limelight Theatre."
+featured_image:
+  src: /media/photos/2024-The-Last-Five-Years-In-Concert-01.webp
+  alt: "Kimberly Zielinski on violin, Chad Boyd as Jamie, Emily Layt as Cathy, and pianist Keith Teepen in a scene from 'The Last Five Years - In Concert' at Limelight Theatre"
+  caption: "Emily Layt and Chad Boyd deliver a poignant moment in *The Last Five Years - In Concert* during the emotionally charged \"Goodbye Until Tomorrow / I Could Never Rescue You\", beautifully accompanied by Kimberly Zielinski on violin and Keith Teepen on piano at Limelight Theatre."
+  credit:
+    name: Nikki Layt
 authors: 
 - Amber Hollister
 production: "2024 The Last Five Years In Concert"

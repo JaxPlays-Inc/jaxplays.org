@@ -1,10 +1,12 @@
 ---
 title: "From Screen to Stage: 'Rudolph The Red-Nosed Reindeer: The Musical' Reinvents a Beloved Classic"
 date: 2024-11-13T00:11:42-05:00
-featured_image: /media/photos/2024-Rudolph-The-Red-Nosed-Reindeer-The-Musical-02.webp
-featured_image_attr: Broadway & Beyond Theatricals
-featured_image_caption: "With Rudolph's nose shining bright and Yukon brandishing his pickaxe, alongside Hermey's elfish charm, they bring the beloved holiday story in a delightful scene from *Rudolph The Red-Nosed Reindeer: The Musical* to life amidst a backdrop of giant whimsical toys and icy peaks."
-featured_image_alt: "Actors in colorful costumes on stage in a scene from Rudolph The Red-Nosed Reindeer: The Musical, including a character in a reindeer costume and a large inflatable polka-dotted elephant."
+featured_image:
+  src: /media/photos/2024-Rudolph-The-Red-Nosed-Reindeer-The-Musical-02.webp
+  alt: "Actors in colorful costumes on stage in a scene from Rudolph The Red-Nosed Reindeer: The Musical, including a character in a reindeer costume and a large inflatable polka-dotted elephant."
+  caption: "With Rudolph's nose shining bright and Yukon brandishing his pickaxe, alongside Hermey's elfish charm, they bring the beloved holiday story in a delightful scene from *Rudolph The Red-Nosed Reindeer: The Musical* to life amidst a backdrop of giant whimsical toys and icy peaks."
+  credit:
+    name: Broadway & Beyond Theatricals
 authors: 
 - Amber Hollister
 production: 2024 Rudolph The Red-Nosed Reindeer The Musical

@@ -1,10 +1,12 @@
 ---
 title: "The Icing on the Stage: 'Just Desserts' Proves Tempting at Theatre Jacksonville"
 date: 2023-11-05 21:00:00
-featured_image: /media/photos/2023-Just-Desserts-A-Musical-Bake-Off.webp
-featured_image_attr: Sarah Boone
-featured_image_caption: "Cast of 'Just Desserts: A Musical Bake-Off' (left to right) Rachel Johns, Aly Blakewell, Matt Barnes, Amy Allen Farmer, Hayley Smith, Blake Michael Osner"
-featured_image_alt: "Photo of the cast of 'Just Desserts: A Musical Bake-Off' at Theatre Jacksonville"
+featured_image:
+  src: /media/photos/2023-Just-Desserts-A-Musical-Bake-Off.webp
+  alt: "Photo of the cast of 'Just Desserts: A Musical Bake-Off' at Theatre Jacksonville"
+  caption: "Cast of 'Just Desserts: A Musical Bake-Off' (left to right) Rachel Johns, Aly Blakewell, Matt Barnes, Amy Allen Farmer, Hayley Smith, Blake Michael Osner"
+  credit:
+    name: Sarah Boone
 authors:
 - Ray Hollister
 production: '2023 Just Desserts A Musical Bake Off'

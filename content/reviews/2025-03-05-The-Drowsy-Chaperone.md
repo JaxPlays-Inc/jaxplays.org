@@ -1,10 +1,12 @@
 ---
 title: "Limelight Theatre's 'The Drowsy Chaperone' is a Hilarious, High-Energy Escape"
 date: 2025-03-05T13:10:46-05:00
-featured_image: /media/photos/2025-The-Drowsy-Chaperone-01.webp
-featured_image_attr: Limelight Theatre
-featured_image_caption: "Bill Rains, as the delightful Man in Chair, brings warmth and wit to the stage in *The Drowsy Chaperone*, captivating the audience with his nostalgic reverie, showcased here in his cozy living room set at Limelight Theatre."
-featured_image_alt: "Bill Rains as Man in Chair, comfortably seated in a plush red armchair, exuding a cheerful demeanor in a cozy living room set from 'The Drowsy Chaperone' at Limelight Theatre."
+featured_image:
+  src: /media/photos/2025-The-Drowsy-Chaperone-01.webp
+  alt: "Bill Rains as Man in Chair, comfortably seated in a plush red armchair, exuding a cheerful demeanor in a cozy living room set from 'The Drowsy Chaperone' at Limelight Theatre."
+  caption: "Bill Rains, as the delightful Man in Chair, brings warmth and wit to the stage in *The Drowsy Chaperone*, captivating the audience with his nostalgic reverie, showcased here in his cozy living room set at Limelight Theatre."
+  credit:
+    name: Limelight Theatre
 authors: 
 - Ray Hollister
 production: 2025 The Drowsy Chaperone

@@ -1,10 +1,11 @@
 ---
 title: "Mystic Echoes of Poe: An Unforgettable Night at the Edgar Allan Poe Speakeasy"
 date: 2024-01-05T19:08:28-05:00
-featured_image: /media/photos/2024-Edgar-Allan-Poe-Speakeasy-3.webp
-featured_image_attr: Ray Hollister
-featured_image_caption: "Kirsten Lindemulder delivers a spine-tingling performance in 'The Tell-Tale Heart'."
-featured_image_alt: ""
+featured_image:
+  src: /media/photos/2024-Edgar-Allan-Poe-Speakeasy-3.webp
+  caption: "Kirsten Lindemulder delivers a spine-tingling performance in 'The Tell-Tale Heart'."
+  credit:
+    name: Ray Hollister
 authors:
 - Ray Hollister
 production: '2024 Edgar Allan Poe Cocktail Experience'

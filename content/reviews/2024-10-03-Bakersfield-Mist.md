@@ -1,11 +1,13 @@
 ---
 title: "'Bakersfield Mist' at A Classic Theatre – A Spirited Duel of Art, Ego and Identity"
 date: 2024-10-03T21:17:37-04:00
-featured_image: /media/photos/2024-Bakersfield-Mist-01.webp?v=110732
-featured_image_attr: Glo MacDonald
-featured_image_caption: "Michael Lipp as Lionel Percy and Nancy Grote as Maude Gutman engage in a tense moment during Bakersfield Mist at A Classic Theatre, as Lionel evaluates the authenticity of a painting."
-featured_image_alt: "Michael Lipp and Nancy Grote perform a scene from Bakersfield Mist, with Lipp dressed in a sharp suit and Grote in bright teal pants, against a cluttered backdrop of eclectic art and retro furniture."
-featured_image_attr_link: https://glomacphotoarts.com/
+featured_image:
+  src: /media/photos/2024-Bakersfield-Mist-01.webp?v=110732
+  alt: "Michael Lipp and Nancy Grote perform a scene from Bakersfield Mist, with Lipp dressed in a sharp suit and Grote in bright teal pants, against a cluttered backdrop of eclectic art and retro furniture."
+  caption: "Michael Lipp as Lionel Percy and Nancy Grote as Maude Gutman engage in a tense moment during Bakersfield Mist at A Classic Theatre, as Lionel evaluates the authenticity of a painting."
+  credit:
+    name: Glo MacDonald
+    url: https://glomacphotoarts.com/
 authors: 
 - Ray Hollister
 production: 2024 Bakersfield Mist

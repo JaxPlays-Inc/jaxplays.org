@@ -1,10 +1,12 @@
 ---
 title: "Artist Connection Theatre Brings Back Sitcom Nostalgia with 'The Beverly Hillbillies'"
 date: 2024-10-28T19:41:46-04:00
-featured_image: /media/photos/2024-The-Beverly-Hillbillies-01.webp
-featured_image_attr: Sherry Spearman
-featured_image_caption: "The Clampetts react to the life-changing news of their newfound oil fortune, setting the stage for their Beverly Hills adventure."
-featured_image_alt: "The Clampett family and Cousin Pearl stand together on stage in a rustic cabin set, reacting to the discovery that their land contains valuable oil. The characters wear period-accurate rural attire, with Pearl in a bonnet and apron, Jed in a worn suit and hat, and Elly May in a flannel shirt and jeans, smiling with excitement."
+featured_image:
+  src: /media/photos/2024-The-Beverly-Hillbillies-01.webp
+  alt: "The Clampett family and Cousin Pearl stand together on stage in a rustic cabin set, reacting to the discovery that their land contains valuable oil. The characters wear period-accurate rural attire, with Pearl in a bonnet and apron, Jed in a worn suit and hat, and Elly May in a flannel shirt and jeans, smiling with excitement."
+  caption: "The Clampetts react to the life-changing news of their newfound oil fortune, setting the stage for their Beverly Hills adventure."
+  credit:
+    name: Sherry Spearman
 authors: 
 - Ray Hollister
 production: 2024 The Beverly Hillbillies

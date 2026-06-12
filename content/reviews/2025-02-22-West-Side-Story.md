@@ -1,11 +1,13 @@
 ---
 title: "'West Side Story' at Alhambra Theatre & Dining is a Visceral, Passionate Revival of a Timeless Tragedy"
 date: 2025-02-22T12:26:24-05:00
-featured_image: /media/photos/2025-West-Side-Story-01.webp
-featured_image_attr: Michael Roddy
-featured_image_attr_link: https://www.michaelroddystoryteller.com/
-featured_image_caption: "An electrifying moment from *West Side Story* at Alhambra Theatre & Dining, where the cast takes flight in a stunning display of choreography and exuberance, bringing the timeless musical to life."
-featured_image_alt: "Cast of 'West Side Story' performing a high-energy dance number at Alhambra Theatre & Dining, with dancers captured in mid-air showing vibrant expressions and dynamic movements."
+featured_image:
+  src: /media/photos/2025-West-Side-Story-01.webp
+  alt: "Cast of 'West Side Story' performing a high-energy dance number at Alhambra Theatre & Dining, with dancers captured in mid-air showing vibrant expressions and dynamic movements."
+  caption: "An electrifying moment from *West Side Story* at Alhambra Theatre & Dining, where the cast takes flight in a stunning display of choreography and exuberance, bringing the timeless musical to life."
+  credit:
+    name: Michael Roddy
+    url: https://www.michaelroddystoryteller.com/
 authors: 
 - Ray Hollister
 production: 2025 West Side Story

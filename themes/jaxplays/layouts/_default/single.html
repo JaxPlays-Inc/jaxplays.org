@@ -1,91 +1,126 @@
-
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
-  {{ partial "page-header.html" . }}
+  {{- partialCached "site-navigation.html" . -}}
 {{ end }}
 
 {{ define "main" }}
-  <div class="infinite-scroll-post-block">
-  {{ $section := .Site.GetPage "section" .Section }}
-  <article class="main-content relative flex-l flex-wrap justify-between mw8 center ph3" data-url="{{ .RelPermalink }}" data-title="{{ .Title }}">
-    <div class="mt3 w-100 relative">
-      {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
-      <aside class="instapaper_ignoref b helvetica tracked">
-          {{/*
-          CurrentSection allows us to use the section title instead of inferring from the folder.
-          https://gohugo.io/variables/page/#section-variables-and-methods
-          */}}
-          {{ with .CurrentSection }}
-          <a href="{{ .RelPermalink }}" class="link black">
-            {{ .Title | upper }}
-          </a>
-        {{ end }}
-      </aside>
-      {{ partial "social-share.html" . }}
-      
-      <h1 class="f1 fw6 georgia mt3 mb1">
-        {{- .Title -}}
-      </h1>
-      {{ with .Params.authors | default .Site.Params.author }}
-      <p class="tracked i">
-          {{ $listSeparator := ", "}}
-          {{ $endOfList := " and "}}
-          {{ $.Render "by" }}
-          {{ if reflect.IsSlice . -}}
-            {{ $len := len . }}
-            {{- range $index, $author := . -}}
-              {{- if gt $index 0 -}}
-                {{ if ne $index (sub $len 1) }}
-                  {{- $listSeparator -}}
-                {{ else }}
-                  {{- $endOfList -}}
-                {{- end -}}
-              {{- end -}}
-              <a href="/authors/{{ $author | urlize }}">{{- $author -}}</a>
-            {{- end -}}
-          {{ else }}
-            <a href="/authors/{{ . | urlize }}">{{ . }}</a>
-          {{- end -}}
-      </p>
-      {{ end }}
-      
-      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      {{ if not .Date.IsZero }}
-      <time class="f6 mb3 dib tracked gray" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>Published on 
-        {{ .Date | time.Format (default "Monday, January 2, 2006" .Site.Params.date_format) -}}
-      </time>
-      {{ end }}
+  {{- $section := .Site.GetPage "section" .Section -}}
+  {{- $featuredImage := partial "func/GetFeaturedImage.html" . -}}
+  {{- $featuredImageMeta := partial "func/GetFeaturedImageMeta.html" . -}}
+  {{- $showFeaturedImage := and (ne .Params.showFeaturedImage false) $featuredImage -}}
+  {{- $featuredImageSize := $featuredImageMeta.size | default "full" | urlize -}}
+  {{- $description := .Params.description -}}
+  {{- $showReadingStats := or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) -}}
 
-      {{/*
-          Show "reading time" and "word count" but only if one of the following are true:
-          1) A global config `params` value is set `show_reading_time = true`
-          2) A section front matter value is set `show_reading_time = true`
-          3) A page front matter value is set `show_reading_time = true`
-        */}}
-      {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-        <span class="f6 mb3 dib tracked gray"> - {{ i18n "readingTime" .ReadingTime }} </span>
-        <span class="f6 mb3 dib tracked gray"> - {{ i18n "wordCount" .WordCount }} </span>
-      {{ end }}
-    </div>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "dark-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-100">
-      {{- partial "content-wikilinks" .Content -}}
-      {{ if eq .Section "reviews" }}
-        {{- partial "production_details_for_review.html" . -}}
-        
-      {{ end }}
-      {{ with .Params.correction }}
-      <h4>Correction:</h4>{{ . | markdownify }}
-      {{ end }}
+  <div class="infinite-scroll-post-block article-single">
+    <article class="main-content article-single-article" data-url="{{ .RelPermalink }}" data-title="{{ .Title }}">
+      <div class="article-single-shell">
+        <header class="article-single-hero{{ if $showFeaturedImage }} article-single-hero--media{{ end }}">
+          <div class="article-single-hero-copy">
+            {{ with .CurrentSection }}
+              <a href="{{ .RelPermalink }}" class="article-single-kicker">{{ .Title }}</a>
+            {{ end }}
 
-      {{- partial "tags.html" . -}}
-    </div>
-   <!--
-    <aside class="w-30-l mt6-l">
-      {{/*  {{- partial "menu-contextual.html" . -}}  */}}
-    </aside>
-    -->
-    {{- partial "GAM-right-rail-1.html" (dict "margin" "0" "right" "-315px") -}}
-  </article>
-  {{- partial "infiniteScroll.html" . -}}
+            <h1 class="article-single-title">{{- .Title -}}</h1>
+
+            {{ with $description }}
+              <div class="article-single-dek nested-copy-line-height">
+                {{- partial "content-wikilinks" . -}}
+              </div>
+            {{ end }}
+
+            <div class="article-single-meta">
+              {{ with .Params.authors | default .Site.Params.author }}
+                <p class="article-single-byline">
+                  {{ $.Render "by" }}
+                  {{ if reflect.IsSlice . -}}
+                    {{- $len := len . -}}
+                    {{- range $index, $author := . -}}
+                      {{- if gt $index 0 -}}
+                        {{- if ne $index (sub $len 1) -}}, {{- else -}} and {{- end -}}
+                      {{- end -}}
+                      <a href="/authors/{{ $author | urlize }}">{{- $author -}}</a>
+                    {{- end -}}
+                  {{ else }}
+                    <a href="/authors/{{ . | urlize }}">{{ . }}</a>
+                  {{- end }}
+                </p>
+              {{ end }}
+
+              {{ if not .Date.IsZero }}
+                <time class="article-single-date" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+                  {{ .Date | time.Format (default "Monday, January 2, 2006" .Site.Params.date_format) -}}
+                </time>
+              {{ end }}
+
+              {{ if $showReadingStats }}
+                <span class="article-single-reading">{{ i18n "readingTime" .ReadingTime }}</span>
+                <span class="article-single-reading">{{ i18n "wordCount" .WordCount }}</span>
+              {{ end }}
+            </div>
+
+            {{ partial "social-share.html" . }}
+          </div>
+
+          {{ if $showFeaturedImage }}
+            {{ $caption := $featuredImageMeta.caption | markdownify | safeHTML }}
+            {{ $attr := $featuredImageMeta.attr }}
+            {{ $attrLink := $featuredImageMeta.attr_link }}
+            {{ $alt := $featuredImageMeta.alt | default .Title }}
+            {{ $lightboxTitle := $caption }}
+            {{ if $attr }}
+              {{ $credit := printf "(📷 %s)" $attr }}
+              {{ if $attrLink }}
+                {{ $credit = printf "(📷 <a href='%s'>%s</a>)" $attrLink $attr }}
+              {{ end }}
+              {{ if $lightboxTitle }}
+                {{ $lightboxTitle = printf "%s | %s" $lightboxTitle $credit | safeHTML }}
+              {{ else }}
+                {{ $lightboxTitle = $credit | safeHTML }}
+              {{ end }}
+            {{ end }}
+            <figure class="article-single-media article-single-media--{{ $featuredImageSize }}">
+              <a href="{{ $featuredImage }}" data-lightbox="gallery" data-title="{{ $lightboxTitle }}" data-alt="{{ $alt }}">
+                <img src="{{ $featuredImage }}" alt="{{ $alt }}">
+              </a>
+              {{ if or $caption $attr }}
+                <figcaption>
+                  {{ with $caption }}{{ . }}{{ end }}
+                  {{ if and $caption $attr }} <span aria-hidden="true">|</span> {{ end }}
+                  {{ with $attr }}
+                    <span class="article-single-media-credit">
+                      <span aria-hidden="true">📷</span>
+                      {{ if $attrLink }}<a href="{{ $attrLink }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+                    </span>
+                  {{ end }}
+                </figcaption>
+              {{ end }}
+            </figure>
+          {{ end }}
+        </header>
+
+        <div class="article-single-body">
+          {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
+
+          <div class="article-single-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes" | default "serif"}} nested-links {{ $.Param "text_color" | default "dark-gray" }}">
+            {{- partial "content-wikilinks" .Content -}}
+            {{ if eq .Section "reviews" }}
+              {{- partial "production_details_for_review.html" . -}}
+            {{ end }}
+            {{ with .Params.correction }}
+              <aside class="article-single-correction">
+                <h2>Correction</h2>
+                {{ . | markdownify }}
+              </aside>
+            {{ end }}
+
+            {{- partial "tags.html" . -}}
+          </div>
+
+          {{- partial "GAM-right-rail-1.html" (dict "margin" "0" "right" "-315px") -}}
+        </div>
+      </div>
+    </article>
+
+    {{- partial "infiniteScroll.html" . -}}
   </div>
 {{ end }}

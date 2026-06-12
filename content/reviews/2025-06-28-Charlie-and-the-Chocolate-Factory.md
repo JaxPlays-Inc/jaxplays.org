@@ -1,10 +1,12 @@
 ---
 title: "Alhambra’s 'Charlie and the Chocolate Factory' Reimagines Wonder, Whimsy and Wackiness in a Candy-Coated Spectacle"
 date: 2025-06-28T17:45:01-04:00
-featured_image: /media/photos/2025-Charlie-and-the-Chocolate-Factory.webp
-featured_image_alt: "The cast of 'Charlie and the Chocolate Factory' gathers around Willy Wonka under bright candy-colored lights at Alhambra Theatre & Dining."
-featured_image_caption: "Willy Wonka welcomes his golden ticket winners — and their wildly varied guardians — into a world of pure imagination in *Charlie and the Chocolate Factory* at Alhambra Theatre & Dining."
-featured_image_attr: "Alhambra Theatre & Dining" 
+featured_image:
+  src: /media/photos/2025-Charlie-and-the-Chocolate-Factory.webp
+  alt: "The cast of 'Charlie and the Chocolate Factory' gathers around Willy Wonka under bright candy-colored lights at Alhambra Theatre & Dining."
+  caption: "Willy Wonka welcomes his golden ticket winners — and their wildly varied guardians — into a world of pure imagination in *Charlie and the Chocolate Factory* at Alhambra Theatre & Dining."
+  credit:
+    name: "Alhambra Theatre & Dining"
 authors: 
 - Ray Hollister
 show_reading_time: true

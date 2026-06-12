@@ -3,10 +3,12 @@ title: "Jason Woods Remixes Wonderland and Recasts the Madness in 'A Mad, Mad Wo
 aliases: 
   - /reviews/2025/05/07/jason-woods-rewires-wonderland-in-a-mad-mad-wonderland/
 date: 2025-05-07T20:29:35-04:00
-featured_image: /media/photos/2025-A-Mad-Mad-Wonderland-01.webp
-featured_image_attr: Jason Woods Productions
-featured_image_alt: "Jason Woods grins in front of a vivid green background filled with whimsical silhouettes, including a queen, a rabbit, and a mad hatter."
-featured_image_caption: "Jason Woods steps into the surreal with *A Mad, Mad Wonderland!* as Alice, the Queen of Hearts, Mad Hatter, White Rabbit, Cheshire Cat and more."
+featured_image:
+  src: /media/photos/2025-A-Mad-Mad-Wonderland-01.webp
+  alt: "Jason Woods grins in front of a vivid green background filled with whimsical silhouettes, including a queen, a rabbit, and a mad hatter."
+  caption: "Jason Woods steps into the surreal with *A Mad, Mad Wonderland!* as Alice, the Queen of Hearts, Mad Hatter, White Rabbit, Cheshire Cat and more."
+  credit:
+    name: Jason Woods Productions
 authors: 
 - Ray Hollister
 show_reading_time: true

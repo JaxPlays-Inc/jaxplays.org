@@ -3,11 +3,13 @@ title: "A Delightfully Boozy Bard Bash - Lumen Repertory Theatre's ShakesBeer: A
 aliases:
 - /reviews/2024-shakesbeer-a-brewery-tour
 date: 2024-06-18T21:45:43-04:00
-featured_image: /media/photos/2024-Shakesbeer-A-Brewery-Tour-03.webp
-featured_image_alt: "Amy Love cradling Josh Andrews in a somber scene at a Shakespeare-themed performance in a brewery."
-featured_image_caption: "In a striking and somber moment from the Shakespeare-themed brewery tour, Amy Love cradles an unresponsive Josh Andrews."
-featured_image_attr: Jax Headshots
-featured_image_attr_link: https://www.jaxheadshots.co/
+featured_image:
+  src: /media/photos/2024-Shakesbeer-A-Brewery-Tour-03.webp
+  alt: "Amy Love cradling Josh Andrews in a somber scene at a Shakespeare-themed performance in a brewery."
+  caption: "In a striking and somber moment from the Shakespeare-themed brewery tour, Amy Love cradles an unresponsive Josh Andrews."
+  credit:
+    name: Jax Headshots
+    url: https://www.jaxheadshots.co/
 authors:
 - Ray Hollister
 production: 2024 ShakesBeer A Brewery Tour

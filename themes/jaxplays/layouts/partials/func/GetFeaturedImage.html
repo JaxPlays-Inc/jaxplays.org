@@ -17,8 +17,9 @@
 
 {{- $link := "" -}}
 {{- $matches := "feature,cover" -}}
+{{- $meta := partial "func/GetFeaturedImageMeta.html" . -}}
 
-{{- with .Params.featured_image -}}
+{{- with $meta.src -}}
   {{- $val := . -}}
 
   {{- /* Prefer a page resource if it matches exactly */ -}}

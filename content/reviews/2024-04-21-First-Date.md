@@ -1,10 +1,12 @@
 ---
 title: "No Awkward Silences Here: 'First Date' Fills the Air with Laughter at Limelight"
 date: 2024-04-21T11:17:05-04:00
-featured_image: /media/photos/2024-First-Date-01.webp
-featured_image_attr: Ryan Provence
-featured_image_caption: "At last, a spark! - Mary Elizabeth Schubert and Mitchell Wohl exude cautious optimism, hinting at romance after a series of comic misfires in this promotional photo for Limelight Theatre's 'First Date."
-featured_image_alt: Actors Mary Elizabeth Schubert and Mitchell Wohl smiling at each other in a bar scene, promoting Limelight Theatre's musical 'First Date.'
+featured_image:
+  src: /media/photos/2024-First-Date-01.webp
+  alt: Actors Mary Elizabeth Schubert and Mitchell Wohl smiling at each other in a bar scene, promoting Limelight Theatre's musical 'First Date.'
+  caption: "At last, a spark! - Mary Elizabeth Schubert and Mitchell Wohl exude cautious optimism, hinting at romance after a series of comic misfires in this promotional photo for Limelight Theatre's 'First Date."
+  credit:
+    name: Ryan Provence
 authors:
 - Ray Hollister
 production: 2024 First Date

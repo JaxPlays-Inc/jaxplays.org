@@ -1,10 +1,12 @@
 ---
 title: "'Beautiful' Brings Carole King’s Music Songbook to Life at the Alhambra"
 date: 2025-04-06T14:57:08-04:00
-featured_image: /media/photos/2025-Beautiful-The-Carol-King-Musical-01.webp
-featured_image_attr: Alhambra Theatre & Dining
-featured_image_alt: "The ensemble of 'Beautiful: The Carole King Musical' posing elegantly in evening wear on stage, under the illuminated marquee."
-featured_image_caption: "A snapshot from 'Beautiful: The Carole King Musical' at Alhambra Theatre & Dining."
+featured_image:
+  src: /media/photos/2025-Beautiful-The-Carol-King-Musical-01.webp
+  alt: "The ensemble of 'Beautiful: The Carole King Musical' posing elegantly in evening wear on stage, under the illuminated marquee."
+  caption: "A snapshot from 'Beautiful: The Carole King Musical' at Alhambra Theatre & Dining."
+  credit:
+    name: Alhambra Theatre & Dining
 authors: 
 - Ray Hollister
 production: 2025 Beautiful The Carole King Musical

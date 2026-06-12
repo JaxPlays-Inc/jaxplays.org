@@ -1,10 +1,12 @@
 ---
 title: "Limelight Theatre’s 'Bright Star' Is a Devastatingly Beautiful Bluegrass Musical Journey of Love and Redemption"
 date: 2024-09-29T17:42:59-04:00
-featured_image: /media/photos/2024-Bright-Star-01.webp
-featured_image_attr: Ryan Provence
-featured_image_caption: "Maggie Cox’s vibrant Alice Murphy teases Eric Barnum’s lively Jimmy Ray Dobbs, creating a playful dynamic that lights up the stage."
-featured_image_alt: "Eric Barnum as Jimmy Ray Dobbs leans eagerly towards Maggie Cox as Alice Murphy, who is playfully holding a picnic basket in a charming, rustic setting with live musicians visible in the background."
+featured_image:
+  src: /media/photos/2024-Bright-Star-01.webp
+  alt: "Eric Barnum as Jimmy Ray Dobbs leans eagerly towards Maggie Cox as Alice Murphy, who is playfully holding a picnic basket in a charming, rustic setting with live musicians visible in the background."
+  caption: "Maggie Cox’s vibrant Alice Murphy teases Eric Barnum’s lively Jimmy Ray Dobbs, creating a playful dynamic that lights up the stage."
+  credit:
+    name: Ryan Provence
 authors: 
 - Ray Hollister
 production: 2024 Bright Star

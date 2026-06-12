@@ -1,10 +1,12 @@
 ---
 title: "Power, Pride and the Breaking Point in 'American Buffalo' at Lumen Repertory Theatre"
 date: 2025-06-14T21:46:50-04:00
-featured_image: /media/photos/2025-American-Buffalo-01.webp
-featured_image_attr: Jalen Hines
-featured_image_alt: "David Alford, Joshua Britton Andrews and Brian Niece in an intense moment inside a cluttered pawn shop in Lumen Repertory Theatre’s 'American Buffalo.'"
-featured_image_caption: "David Alford, Joshua Britton Andrews and Brian Niece navigate rising tensions and shattered trust in Lumen Repertory Theatre’s *American Buffalo* ."
+featured_image:
+  src: /media/photos/2025-American-Buffalo-01.webp
+  alt: "David Alford, Joshua Britton Andrews and Brian Niece in an intense moment inside a cluttered pawn shop in Lumen Repertory Theatre’s 'American Buffalo.'"
+  caption: "David Alford, Joshua Britton Andrews and Brian Niece navigate rising tensions and shattered trust in Lumen Repertory Theatre’s *American Buffalo* ."
+  credit:
+    name: Jalen Hines
 authors: 
 - Ray Hollister
 show_reading_time: true

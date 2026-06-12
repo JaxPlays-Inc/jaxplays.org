@@ -1,11 +1,12 @@
 ---
 title: "'The Pillowman' at Lumen Rep Delivers Powerful Questions and a Punishing Runtime"
 date: 2026-04-24T22:35:01-04:00
-featured_image: /media/photos/2026-The-Pillowman-01.webp
-featured_image_attr: Josh Andrews
-featured_image_attr_link: 
-featured_image_caption: "Trevor Kluckman, Kate McManus and Daniel Austin face off in the interrogation room in Lumen Rep’s *The Pillowman*, a stark image of power, fear and stories under pressure."
-featured_image_alt: "Trevor Kluckman sits at an interrogation table between Kate McManus and Daniel Austin in a scene from The Pillowman at Lumen Repertory Theatre."
+featured_image:
+  src: /media/photos/2026-The-Pillowman-01.webp
+  alt: "Trevor Kluckman sits at an interrogation table between Kate McManus and Daniel Austin in a scene from The Pillowman at Lumen Repertory Theatre."
+  caption: "Trevor Kluckman, Kate McManus and Daniel Austin face off in the interrogation room in Lumen Rep’s *The Pillowman*, a stark image of power, fear and stories under pressure."
+  credit:
+    name: Josh Andrews
 authors:
 - Ray Hollister
 show_reading_time: true

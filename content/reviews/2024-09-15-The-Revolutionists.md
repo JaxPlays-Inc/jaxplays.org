@@ -1,10 +1,12 @@
 ---
 title: "'The Revolutionists' Is a Fierce and Funny Journey Through the French Revolution"
 date: 2024-09-15T23:09:57-04:00
-featured_image: /media/photos/2024-The-Revolutionists-12.webp
-featured_image_attr: Mike Kitaif
-featured_image_caption: "In a heartwarming scene from 'The Revolutionists' at Players by the Sea, Ayviana Singh's Marianne Angelle bursts into laughter, while Catie Casey's Marie Antoinette beams with delight."
-featured_image_alt: "Ayviana Singh as Marianne Angelle and Catie Casey as Marie Antoinette share a moment of joviality in 'The Revolutionists' at Players by the Sea, with Marianne laughing heartily and Marie Antoinette smiling broadly, both seated on a vintage red sofa."
+featured_image:
+  src: /media/photos/2024-The-Revolutionists-12.webp
+  alt: "Ayviana Singh as Marianne Angelle and Catie Casey as Marie Antoinette share a moment of joviality in 'The Revolutionists' at Players by the Sea, with Marianne laughing heartily and Marie Antoinette smiling broadly, both seated on a vintage red sofa."
+  caption: "In a heartwarming scene from 'The Revolutionists' at Players by the Sea, Ayviana Singh's Marianne Angelle bursts into laughter, while Catie Casey's Marie Antoinette beams with delight."
+  credit:
+    name: Mike Kitaif
 authors:
 - Ray Hollister
 production: 2024 The Revolutionists

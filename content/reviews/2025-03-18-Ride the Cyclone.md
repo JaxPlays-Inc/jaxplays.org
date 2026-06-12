@@ -1,11 +1,13 @@
 ---
 title: "'Ride the Cyclone' at The 5 & Dime Is a Haunting, Hilarious Journey Beyond the Grave"
 date: 2025-03-18T22:21:32-04:00
-featured_image: /media/photos/2025-Ride-The-Cyclone-01.webp
-featured_image_attr: Kamajhia
-featured_image_attr_link: https://kamajhia.com/
-featured_image_caption: "Fear and fate collide as the ill-fated choir members realize their journey is far from over."
-featured_image_alt: "A group of actors in school uniforms stands together on stage, looking wide-eyed and tense under dramatic lighting, with a carnival-like set behind them."
+featured_image:
+  src: /media/photos/2025-Ride-The-Cyclone-01.webp
+  alt: "A group of actors in school uniforms stands together on stage, looking wide-eyed and tense under dramatic lighting, with a carnival-like set behind them."
+  caption: "Fear and fate collide as the ill-fated choir members realize their journey is far from over."
+  credit:
+    name: Kamajhia
+    url: https://kamajhia.com/
 authors: 
 - Ray Hollister
 production: 2025 Ride the Cyclone
