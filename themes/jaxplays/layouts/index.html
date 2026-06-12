@@ -7,10 +7,12 @@
 {{ $productions := where .Site.RegularPages "Section" "productions" }}
 {{ $reviews := where .Site.RegularPages "Section" "reviews" }}
 {{ $news := where .Site.RegularPages "Section" "news" }}
+{{ $auditions := where .Site.RegularPages "Section" "auditions" }}
 {{ $nowPlaying := slice }}
 {{ $openingSoon := slice }}
 {{ $closingSoon := slice }}
 {{ $recentNews := slice }}
+{{ $recentAuditions := slice }}
 {{ range $productions }}
   {{ $production := . }}
   {{ with $production.Params.opening_date }}
@@ -36,8 +38,14 @@
     {{ $recentNews = $recentNews | append . }}
   {{ end }}
 {{ end }}
+{{ range $auditions }}
+  {{ if and (not .Date.IsZero) (ge .Date.Unix $newsWindow.Unix) (le .Date.Unix $now.Unix) }}
+    {{ $recentAuditions = $recentAuditions | append . }}
+  {{ end }}
+{{ end }}
 {{ $latestReviews := first 6 (sort $reviews "Date" "desc") }}
 {{ $latestNews := cond (gt (len $recentNews) 0) (first 6 $sortedNews) slice }}
+{{ $latestAuditions := first 6 (sort $recentAuditions "Date" "desc") }}
 
 <style>
   .home-dashboard {
@@ -601,6 +609,23 @@
           {{ end }}
         </div>
         <a class="jp-section-more" href="/news/">More news</a>
+      </section>
+    {{ end }}
+
+    {{ if gt (len $latestAuditions) 0 }}
+      <section class="home-dashboard-section" aria-labelledby="home-dashboard-auditions">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">Casting Opportunities</p>
+            <h2 id="home-dashboard-auditions"><a class="home-dashboard-section-title-link" href="/auditions/">Audition Announcements</a></h2>
+          </div>
+        </div>
+        <div class="home-dashboard-editorial">
+          {{ range $latestAuditions }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/auditions/">More auditions</a>
       </section>
     {{ end }}
 
