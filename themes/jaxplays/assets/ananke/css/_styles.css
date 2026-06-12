@@ -1241,7 +1241,10 @@ h1 a.jaxplayslogo {
 }
 
 .article-single-hero-copy {
+	margin: 0 auto;
+	max-width: 75rem;
 	min-width: 0;
+	width: 100%;
 }
 
 .article-single-kicker {
@@ -1265,7 +1268,6 @@ h1 a.jaxplayslogo {
 	font-size: 2.25rem;
 	line-height: 1.04;
 	margin: 0;
-	max-width: 17em;
 }
 
 .article-single-dek {
@@ -1273,7 +1275,6 @@ h1 a.jaxplayslogo {
 	font-size: 1.1rem;
 	line-height: 1.5;
 	margin-top: 1rem;
-	max-width: 52rem;
 }
 
 .article-single-dek p {
@@ -1397,6 +1398,10 @@ h1 a.jaxplayslogo {
 	max-width: 47.5rem;
 	padding-top: 2rem;
 	position: relative;
+}
+
+.article-single-nav {
+	max-width: 47.5rem;
 }
 
 .article-single-content {

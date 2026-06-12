@@ -6,6 +6,7 @@ featured_image:
   caption: "The cast and orchestra of 'The Mystery of Edwin Drood'."
   credit:
     name: Alhambra Theatre & Dining
+  size: content
 authors: 
 - Ray Hollister
 show_reading_time: true
