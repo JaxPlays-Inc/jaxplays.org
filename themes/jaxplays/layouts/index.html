@@ -151,7 +151,6 @@
   }
 
   .home-dashboard-hotitem strong,
-  .home-dashboard-card strong,
   .home-dashboard-story strong {
     display: block;
     line-height: 1.2;
@@ -225,7 +224,6 @@
     gap: 1.35rem;
   }
 
-  .home-dashboard-card,
   .home-dashboard-story,
   .home-dashboard-archive-link,
   .home-dashboard-newsletter {
@@ -234,39 +232,34 @@
     border-radius: 0;
   }
 
-  .home-dashboard-card {
-    overflow: hidden;
-    text-decoration: none;
+  .home-dashboard-production-rail .productions-directory-summary {
+    display: none;
   }
 
-  .home-dashboard-poster {
-    aspect-ratio: 2 / 3;
-    background: #ddd;
-    display: block;
-    object-fit: cover;
-    width: 100%;
-  }
+  @media screen and (min-width: 521px) {
+    .home-dashboard-production-rail .productions-directory-card {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto auto 1fr;
+    }
 
-  .home-dashboard-card-body {
-    display: block;
-    padding: .9rem;
-  }
+    .home-dashboard-production-rail .productions-directory-poster-link {
+      border-bottom: 1px solid var(--jp-line);
+      border-right: 0;
+      grid-column: 1;
+      grid-row: 1;
+    }
 
-  .home-dashboard-badge {
-    background: var(--jp-teal);
-    border-radius: 999px;
-    color: white;
-    display: inline-block;
-    font-size: .72rem;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: .5rem;
-    padding: .35rem .5rem;
-    text-transform: uppercase;
-  }
+    .home-dashboard-production-rail .productions-directory-badges {
+      grid-column: 1;
+      grid-row: 2;
+      padding: .9rem .9rem 0;
+    }
 
-  .home-dashboard-badge.red {
-    background: var(--jp-red);
+    .home-dashboard-production-rail .productions-directory-card-body {
+      grid-column: 1;
+      grid-row: 3;
+      padding: .4rem .9rem .9rem;
+    }
   }
 
   .home-dashboard-editorial {
@@ -490,47 +483,6 @@
       gap: .75rem;
     }
 
-    .home-dashboard-production-rail .home-dashboard-card {
-      display: grid;
-      grid-template-columns: 128px minmax(0, 1fr);
-      height: 194px;
-    }
-
-    .home-dashboard-production-rail .home-dashboard-poster {
-      aspect-ratio: auto;
-      height: 192px;
-      max-height: 192px;
-      min-height: 0;
-    }
-
-    .home-dashboard-production-rail .home-dashboard-card-body {
-      align-self: center;
-      overflow: hidden;
-      padding: .8rem;
-    }
-
-    .home-dashboard-production-rail .home-dashboard-card strong,
-    .home-dashboard-production-rail .home-dashboard-meta {
-      display: -webkit-box;
-      overflow: hidden;
-      -webkit-box-orient: vertical;
-    }
-
-    .home-dashboard-production-rail .home-dashboard-card strong {
-      -webkit-line-clamp: 2;
-    }
-
-    .home-dashboard-production-rail .home-dashboard-badge {
-      font-size: .62rem;
-      margin-bottom: .4rem;
-      padding: .3rem .45rem;
-    }
-
-    .home-dashboard-production-rail .home-dashboard-meta {
-      font-size: .78rem;
-      -webkit-line-clamp: 2;
-    }
-
     .home-dashboard-newsletter-fields {
       display: grid;
       gap: .5rem;
@@ -592,20 +544,7 @@
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range $nowPlaying }}
-          {{ $poster := .Params.featured_image }}
-          {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
-          <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
-            {{ if $poster }}
-              <img class="home-dashboard-poster" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
-            {{ else }}
-              <img class="home-dashboard-poster" src="/media/default/production_poster.webp" alt="{{ .Title }}">
-            {{ end }}
-            <span class="home-dashboard-card-body">
-              <span class="home-dashboard-badge">Now Playing</span>
-              <strong>{{ .Title }}</strong>
-              <span class="home-dashboard-meta">{{ .Params.theatre }}<br>{{ time.Format "January 2" (time .Params.opening_date) }} - {{ time.Format "January 2" (time $closingDate) }}</span>
-            </span>
-          </a>
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
         {{ else }}
           <p class="home-dashboard-meta">No current productions found.</p>
         {{ end }}
@@ -623,19 +562,7 @@
       </div>
       <div class="home-dashboard-rail home-dashboard-production-rail">
         {{ range first 8 $openingSoon }}
-          {{ $poster := .Params.featured_image }}
-          <a class="home-dashboard-card home-dashboard-grow" href="{{ .RelPermalink }}">
-            {{ if $poster }}
-              <img class="home-dashboard-poster" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
-            {{ else }}
-              <img class="home-dashboard-poster" src="/media/default/production_poster.webp" alt="{{ .Title }}">
-            {{ end }}
-            <span class="home-dashboard-card-body">
-              <span class="home-dashboard-badge red">Opens {{ time.Format "Jan 2" (time .Params.opening_date) }}</span>
-              <strong>{{ .Title }}</strong>
-              <span class="home-dashboard-meta">{{ .Params.theatre }}</span>
-            </span>
-          </a>
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
         {{ else }}
           <p class="home-dashboard-meta">No upcoming productions found.</p>
         {{ end }}

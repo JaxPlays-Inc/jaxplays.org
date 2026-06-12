@@ -132,7 +132,7 @@
       <div class="genre-directory-grid">
         {{ range $pastGenres }}
           <a class="genre-directory-card slow-grow" href="{{ .url }}" data-genre-card data-genre-search="{{ .title | lower | htmlEscape }}">
-            <span class="productions-directory-badge productions-directory-badge--archive">Archive</span>
+            <span class="productions-directory-badge">Archive</span>
             <strong class="genre-directory-card-title">{{ .title }}</strong>
             <span class="genre-directory-card-meta">{{ .past }} past productions</span>
           </a>

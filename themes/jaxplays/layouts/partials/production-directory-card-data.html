@@ -89,15 +89,6 @@
 {{ with $summary }}{{ $searchParts = $searchParts | append . }}{{ end }}
 {{ $searchText := delimit $searchParts " " | lower }}
 
-{{ $archiveBadge := "" }}
-{{ if eq $status "Past Production" }}
-  {{ with $page.Params.closing_date }}
-    {{ $archiveBadge = printf "Closed %s" (time.Format "Jan 2, 2006" (time .)) }}
-  {{ else }}
-    {{ $archiveBadge = "Past Production" }}
-  {{ end }}
-{{ end }}
-
 {{ return dict
   "title" $page.Title
   "url" $page.RelPermalink
@@ -112,6 +103,5 @@
   "summary" $summary
   "tickets" ($page.Params.tickets | default "")
   "showTickets" $showTickets
-  "archiveBadge" $archiveBadge
   "search" $searchText
 }}

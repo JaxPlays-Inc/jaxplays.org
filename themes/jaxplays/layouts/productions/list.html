@@ -97,7 +97,7 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $currentProductions }}
-          {{ partial "production-directory-card.html" (dict "page" . "status" "Now Playing") }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
         {{ end }}
       </div>
     </section>
@@ -112,7 +112,7 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $upcomingProductions }}
-          {{ partial "production-directory-card.html" (dict "page" . "status" "Coming Soon") }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
         {{ end }}
       </div>
     </section>

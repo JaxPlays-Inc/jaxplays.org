@@ -123,7 +123,7 @@
         </div>
         <div class="productions-directory-grid">
           {{ range $currentlyOnStage }}
-            {{ partial "production-directory-card.html" (dict "page" . "status" "Now Playing") }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
           {{ end }}
         </div>
       </section>
@@ -141,7 +141,7 @@
         </div>
         <div class="productions-directory-grid">
           {{ range $comingSoon }}
-            {{ partial "production-directory-card.html" (dict "page" . "status" "Coming Soon") }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
           {{ end }}
         </div>
       </section>
@@ -161,7 +161,7 @@
         </div>
         <div class="productions-directory-grid">
           {{ range $pastPreview }}
-            {{ partial "production-directory-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
           {{ end }}
         </div>
         <a class="jp-section-more" href="{{ $pastURL }}">More Past Productions</a>

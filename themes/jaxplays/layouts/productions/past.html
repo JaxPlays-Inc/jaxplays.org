@@ -84,7 +84,7 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $paginator.Pages }}
-          {{ partial "production-directory-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
         {{ end }}
       </div>
     </section>

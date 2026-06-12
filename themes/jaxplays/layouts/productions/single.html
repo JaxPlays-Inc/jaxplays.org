@@ -68,6 +68,18 @@
     {{ $date := time .Params.opening_date }}
     {{ $year = $date.Format "2006" }}
     {{ end }}
+    {{ $productionStatus := "" }}
+    {{ if .Params.opening_date }}
+      {{ $openingDate := time .Params.opening_date }}
+      {{ $closingDate := $openingDate }}
+      {{ with .Params.closing_date }}{{ $closingDate = time . }}{{ end }}
+      {{ $today := now.Format "2006-01-02" | time }}
+      {{ if and (le $openingDate $today) (ge $closingDate $today) }}
+        {{ $productionStatus = "Now Playing" }}
+      {{ else if gt $openingDate $today }}
+        {{ $productionStatus = "Coming Soon" }}
+      {{ end }}
+    {{ end }}
 
     <div class="production-hero-grid{{ if not $featuredImage }} production-hero-grid--text{{ end }} mb4">
       <!-- Featured Image Section -->
@@ -100,14 +112,7 @@
           {{ if ge $closingDate $now }}{{ $showHeroTicket = true }}{{ end }}
         {{ end }}
 
-        {{ if $genres }}
-        <div class="production-hero-actions flex flex-wrap items-center">
-        <!-- Genres -->
-          {{ range $genres }}
-          <a href="/genres/{{ . | urlize }}" class="link dim br-pill ph3 pv2 dib black bg-yellow">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end }}
+        {{ partial "production-badges.html" (dict "page" . "status" $productionStatus "genres" $genres "class" "production-badges production-hero-badges") }}
 
         {{ if $showHeroTicket }}
           {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" rel="noopener" class="production-hero-ticket db pa0 tickets" aria-label="Buy tickets for {{ $.Title }}"></a>{{ end }}

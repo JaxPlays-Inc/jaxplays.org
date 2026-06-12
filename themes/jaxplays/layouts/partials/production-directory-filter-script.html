@@ -46,12 +46,12 @@
         return createElement('span', 'home-dashboard-badge red', `Opens ${production.openingLabel}`);
       }
       if (production.status === 'Past Production') {
-        return createElement('span', 'productions-directory-badge productions-directory-badge--archive', production.archiveBadge || 'Past Production');
+        return null;
       }
       return createElement('span', 'productions-directory-badge', production.status);
     };
 
-    const createProductionCard = (production) => {
+      const createProductionCard = (production) => {
       const card = createElement('article', 'productions-directory-card slow-grow');
       card.dataset.productionCard = '';
       card.dataset.productionSearch = production.search || '';
@@ -68,12 +68,14 @@
       posterLink.append(poster);
 
       const badges = createElement('div', 'productions-directory-badges');
-      badges.append(createBadge(production));
+      const statusBadge = createBadge(production);
+      if (statusBadge) badges.append(statusBadge);
       (production.genres || []).slice(0, 3).forEach((genre) => {
         const badge = createElement('a', 'productions-directory-badge productions-directory-badge--genre', genre);
         badge.href = `/genres/${genre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
         badges.append(badge);
       });
+      if (!badges.childElementCount) card.classList.add('productions-directory-card--no-badges');
 
       const body = createElement('div', 'productions-directory-card-body');
       const titleLink = createElement('a', 'productions-directory-card-link');
@@ -91,7 +93,9 @@
       if (dates.textContent) body.append(dates);
       if (production.summary) body.append(createElement('div', 'productions-directory-summary', production.summary));
 
-      card.append(hitarea, badges, posterLink, body);
+      card.append(hitarea);
+      if (badges.childElementCount) card.append(badges);
+      card.append(posterLink, body);
       return card;
     };
 
