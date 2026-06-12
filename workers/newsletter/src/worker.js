@@ -102,7 +102,7 @@ async function handleSubmission(request, env, cors, services = {}) {
     return json({ ok: false, error: "invalid-form-data" }, 400, cors);
   }
 
-  const honeypot = String(formData.get("website") || "").trim();
+  const honeypot = String(formData.get("_gotcha") || "").trim();
   const turnstileToken = String(formData.get("turnstileToken") || formData.get("cf-turnstile-response") || "").trim();
   const formType = normalizeSubmissionType(formData.get("form_type"));
 
@@ -194,7 +194,7 @@ export function submissionPayload(formType, formData) {
   const files = [];
 
   for (const [key, value] of formData.entries()) {
-    if (["cf-turnstile-response", "turnstileToken", "website"].includes(key)) {
+    if (["cf-turnstile-response", "turnstileToken", "_gotcha"].includes(key)) {
       continue;
     }
 
@@ -689,8 +689,323 @@ function primarySubmissionName(payload) {
   ).trim();
 }
 
-function submissionMarkdown(payload, uploadedFiles = []) {
+export function generatedContentMarkdown(payload, uploadedFiles = []) {
+  if (payload.formType === "profile") {
+    return generatedProfileMarkdown(payload, uploadedFiles);
+  }
+
+  if (payload.formType === "production") {
+    return generatedProductionMarkdown(payload, uploadedFiles);
+  }
+
+  if (payload.formType === "theatre") {
+    return generatedTheatreMarkdown(payload, uploadedFiles);
+  }
+
+  if (payload.formType === "audition") {
+    return generatedAuditionMarkdown(payload, uploadedFiles);
+  }
+
+  return "";
+}
+
+function generatedProfileMarkdown(payload, uploadedFiles = []) {
+  const fields = payload.fields || {};
+  const title = String(fields.submitter_name || "").trim() || "Untitled";
+  const otherNames = splitLines(fields.other_names);
+  const headshot = uploadedFiles.find((file) => file.field === "headshot");
+  const featuredImage = headshot ? `${filenameBase(title)}${fileExtension(headshot.name)}` : "";
+  const socials = {
+    facebook: socialHandle(fields.facebook, "facebook"),
+    twitter: socialHandle(fields.twitter, "twitter"),
+    instagram: socialHandle(fields.instagram, "instagram"),
+    linkedin: socialHandle(fields.linkedin, "linkedin"),
+    ibdb: socialHandle(fields.ibdb, "ibdb"),
+    imdb: socialHandle(fields.imdb, "imdb"),
+    website: String(fields.website || "").trim(),
+    bluesky: socialHandle(fields.bluesky, "bluesky"),
+    backstage: socialHandle(fields.backstage, "backstage"),
+    threads: socialHandle(fields.threads, "threads"),
+  };
+
   const lines = [
+    "---",
+    `title: ${yamlScalar(title)}`,
+  ];
+
+  if (otherNames.length) {
+    lines.push("aliases:");
+
+    for (const name of otherNames) {
+      lines.push(`  - /people/${slugify(name)}`);
+    }
+
+    lines.push("other_names:");
+
+    for (const name of otherNames) {
+      lines.push(`  - ${yamlScalar(name)}`);
+    }
+  } else {
+    lines.push("aliases: []", "other_names: []");
+  }
+
+  lines.push(
+    `date: ${yamlScalar(payload.submittedAt || new Date().toISOString())}`,
+    `featured_image: ${yamlScalar(featuredImage)}`,
+    `featured_image_attr: ${yamlScalar(fields.headshot_credit || "")}`,
+    "featured_image_attr_link: ",
+    `featured_image_alt: ${yamlScalar(featuredImage ? `Headshot of ${title}` : "")}`,
+    `featured_image_caption: ${yamlScalar(featuredImage ? `Headshot of ${title}` : "")}`,
+    "roles: []",
+    "socials:"
+  );
+
+  for (const [key, value] of Object.entries(socials)) {
+    lines.push(`  ${key}: ${yamlScalar(value)}`);
+  }
+
+  lines.push("---");
+
+  const biography = String(fields.biography || "").trim();
+
+  if (biography) {
+    lines.push("", biography);
+  }
+
+  if (headshot) {
+    lines.push(
+      "",
+      "## Submission asset note",
+      "",
+      `Download the submitted headshot from Linear and save it as \`static/media/headshots/${featuredImage}\`.`,
+      `Original upload: [${headshot.name}](${headshot.url}) (${formatBytes(headshot.size)}, ${headshot.type})`
+    );
+  }
+
+  return lines.join("\n");
+}
+
+function generatedProductionMarkdown(payload, uploadedFiles = []) {
+  const fields = payload.fields || {};
+  const title = String(fields.title || "").trim() || "Untitled";
+  const poster = uploadedFiles.find((file) => file.field === "poster");
+  const program = uploadedFiles.find((file) => file.field === "program");
+  const featuredImage = poster ? `${filenameBase(title)}${fileExtension(poster.name)}` : "";
+  const programFile = program ? `${filenameBase(title)}-program${fileExtension(program.name)}` : "";
+  const genres = normalizeList(fields.genres).concat(splitLines(fields.other_genres));
+
+  const lines = [
+    "---",
+    `title: ${yamlScalar(title)}`,
+    `theatre: ${yamlScalar(fields.theatre || "")}`,
+    `venue: ${yamlScalar(fields.venue || "")}`,
+    "season: ",
+    `date: ${yamlScalar(payload.submittedAt || new Date().toISOString())}`,
+    "opening_date: ",
+    "closing_date: ",
+    "showtimes: []",
+    `featured_image: ${yamlScalar(featuredImage)}`,
+    `featured_image_alt: ${yamlScalar(featuredImage ? `Poster for ${title}` : "")}`,
+    `featured_image_caption: ${yamlScalar(featuredImage ? `Poster for ${title}` : "")}`,
+    `featured_image_attr: ${yamlScalar(fields.poster_credit || "")}`,
+    "featured_image_attr_link: ",
+    `program: ${yamlScalar(programFile)}`,
+    `website: ${yamlScalar(fields.web_page || "")}`,
+    `tickets: ${yamlScalar(fields.ticket_link || "")}`,
+    "cast: []",
+    "understudies: []",
+    "crew: []",
+    "orchestra: []",
+  ];
+
+  if (genres.length) {
+    lines.push("genres:");
+    lines.push(...yamlListLines(genres));
+  } else {
+    lines.push("genres: []");
+  }
+
+  lines.push(
+    `description: ${yamlScalar(fields.description || "")}`,
+    "source: Submitted through JaxPlays production form",
+    `source_date: ${yamlScalar(dateOnly(payload.submittedAt))}`,
+    `source_url: ${yamlScalar(fields.source_url || "")}`,
+    "---"
+  );
+
+  const synopsis = String(fields.synopsis || "").trim();
+
+  if (synopsis) {
+    lines.push("", synopsis);
+  }
+
+  const noteSections = [
+    ["Showtimes submitted", fields.showtimes],
+    ["Other venue details", fields.other_venue],
+    ["Cast submitted", fields.cast],
+    ["Understudies submitted", fields.understudies],
+    ["Crew submitted", fields.crew],
+    ["Orchestra submitted", fields.orchestra],
+  ];
+
+  appendRawSections(lines, noteSections);
+  appendProductionAssetNotes(lines, poster, program, featuredImage, programFile);
+
+  return lines.join("\n");
+}
+
+function generatedTheatreMarkdown(payload, uploadedFiles = []) {
+  const fields = payload.fields || {};
+  const title = String(fields.theatre_name || "").trim() || "Untitled Theatre";
+  const logo = uploadedFiles.find((file) => file.field === "logo");
+  const featuredImage = logo ? `${filenameBase(title)}${fileExtension(logo.name)}` : "";
+  const socials = {
+    facebook: socialHandle(fields.facebook, "facebook"),
+    twitter: socialHandle(fields.twitter, "twitter"),
+    instagram: socialHandle(fields.instagram, "instagram"),
+    linkedin: socialHandle(fields.linkedin, "linkedin"),
+    website: String(fields.website || "").trim(),
+    threads: socialHandle(fields.threads, "threads"),
+  };
+
+  const lines = [
+    "---",
+    `title: ${yamlScalar(title)}`,
+    "layout: profile",
+    "active: true",
+    "company_type: ",
+    `featured_image: ${yamlScalar(featuredImage)}`,
+    `featured_image_attr: ${yamlScalar(fields.logo_credit || "")}`,
+    `featured_image_alt: ${yamlScalar(featuredImage ? `Logo for ${title}` : "")}`,
+    `featured_image_caption: ${yamlScalar(featuredImage ? `Logo for ${title}` : "")}`,
+    `description: ${yamlScalar(shortDescription(fields.history))}`,
+    `founded: ${yamlScalar(fields.founded || "")}`,
+  ];
+
+  const address = String(fields.venue_address || "").trim();
+
+  if (address) {
+    lines.push("address: |");
+    lines.push(...indentLines(address, "  "));
+  } else {
+    lines.push("address: ");
+  }
+
+  lines.push("socials:");
+
+  for (const [key, value] of Object.entries(socials)) {
+    lines.push(`  ${key}: ${yamlScalar(value)}`);
+  }
+
+  lines.push(
+    `phone: ${yamlScalar(fields.phone || "")}`,
+    `color: ${yamlScalar(fields.theatre_color || "")}`,
+    `date: ${yamlScalar(payload.submittedAt || new Date().toISOString())}`,
+    "---"
+  );
+
+  const history = String(fields.history || "").trim();
+
+  if (history) {
+    lines.push("", history);
+  }
+
+  const venueNotes = [
+    ["Dedicated venue", normalizeList(fields.has_venue).join(", ")],
+    ["Venue name", fields.venue_name],
+    ["Venue address", fields.venue_address],
+  ];
+
+  appendRawSections(lines, venueNotes);
+  appendTheatreAssetNotes(lines, logo, featuredImage);
+
+  return lines.join("\n");
+}
+
+function generatedAuditionMarkdown(payload, uploadedFiles = []) {
+  const fields = payload.fields || {};
+  const theatre = String(fields.theatre || "").trim() || "Untitled Theatre";
+  const productionTitle = String(fields.production_title || "").trim() || "Untitled Production";
+  const announcementGraphic = uploadedFiles.find((file) => file.field === "announcement_graphic");
+  const featuredImage = announcementGraphic
+    ? `${dateOnly(payload.submittedAt)}-${slugify(theatre)}-${slugify(productionTitle)}-auditions${fileExtension(announcementGraphic.name)}`
+    : "";
+  const articleTitle = `${theatre} Announces '${productionTitle}' Auditions`;
+  const description = String(fields.description || "").trim()
+    || `${theatre} will hold auditions for *${productionTitle}*.`;
+
+  const lines = [
+    "---",
+    `title: ${yamlScalar(articleTitle)}`,
+    `date: ${yamlScalar(payload.submittedAt || new Date().toISOString())}`,
+    "authors:",
+    "- JaxPlays",
+    "show_reading_time: true",
+    `description: ${yamlScalar(description)}`,
+  ];
+
+  if (featuredImage) {
+    lines.push(
+      "featured_image:",
+      `  src: ${yamlScalar(`/media/photos/${featuredImage}`)}`,
+      `  alt: ${yamlScalar(`Audition announcement graphic for ${theatre}'s ${productionTitle}.`)}`,
+      `  caption: ${yamlScalar(`${theatre} will hold auditions for *${productionTitle}*.`)}`,
+      "  credit:",
+      `    name: ${yamlScalar(theatre)}`
+    );
+  } else {
+    lines.push("featured_image:");
+  }
+
+  lines.push("---");
+
+  const announcementText = String(fields.announcement_text || "").trim();
+
+  if (announcementText) {
+    lines.push("", announcementText);
+  } else {
+    lines.push("", `[[theatre:${theatre}]] will hold auditions for *${productionTitle}*.`);
+    appendRawSections(lines, [
+      ["Audition Dates and Times", fields.audition_dates],
+      ["Audition Location", fields.audition_location],
+      ["Roles", fields.roles],
+      ["Preparation", fields.preparation],
+    ]);
+
+    if (fields.signup_link || fields.web_page) {
+      lines.push("", "## Links", "");
+
+      if (fields.signup_link) {
+        lines.push(`- [Audition sign-up](${fields.signup_link})`);
+      }
+
+      if (fields.web_page) {
+        lines.push(`- [Audition information](${fields.web_page})`);
+      }
+    }
+  }
+
+  appendRawSections(lines, [
+    ["Submitter notes", fields.notes],
+  ]);
+  appendAuditionAssetNotes(lines, announcementGraphic, featuredImage);
+
+  return lines.join("\n");
+}
+
+function submissionMarkdown(payload, uploadedFiles = []) {
+  const generated = generatedContentMarkdown(payload, uploadedFiles);
+  const lines = [
+    ...(generated ? [
+      "## Copy/paste content draft",
+      "",
+      "```markdown",
+      generated,
+      "```",
+      "",
+      "## Submission details",
+      "",
+    ] : []),
     `Submitted through the JaxPlays ${titleForType(payload.formType)} form.`,
     "",
     `- Submitted at: ${payload.submittedAt}`,
@@ -757,6 +1072,198 @@ async function emailAttachments(files, env) {
 
 function formatFieldValue(value) {
   return Array.isArray(value) ? value.join(", ") : String(value || "");
+}
+
+function splitLines(value) {
+  return String(value || "")
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+}
+
+function normalizeList(value) {
+  if (Array.isArray(value)) {
+    return value.map((item) => String(item || "").trim()).filter(Boolean);
+  }
+
+  return String(value || "")
+    .split(/[\n,]/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function yamlListLines(values) {
+  return normalizeList(values).map((value) => `  - ${yamlScalar(value)}`);
+}
+
+function yamlScalar(value) {
+  const normalized = String(value || "");
+
+  if (!normalized) {
+    return "";
+  }
+
+  return JSON.stringify(normalized);
+}
+
+function slugify(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function filenameBase(value) {
+  return String(value || "Untitled")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^A-Za-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "Untitled";
+}
+
+function fileExtension(filename) {
+  const match = String(filename || "").toLowerCase().match(/\.([a-z0-9]+)$/);
+  return match ? `.${match[1]}` : "";
+}
+
+function socialHandle(value, service) {
+  const raw = String(value || "").trim();
+
+  if (!raw) {
+    return "";
+  }
+
+  try {
+    const url = new URL(raw);
+    const hostname = url.hostname.replace(/^www\./, "").toLowerCase();
+    const parts = url.pathname.split("/").map((part) => part.trim()).filter(Boolean);
+
+    if (service === "facebook" && hostname.endsWith("facebook.com")) {
+      return parts[0] || "";
+    }
+
+    if (service === "instagram" && hostname.endsWith("instagram.com")) {
+      return parts[0] || "";
+    }
+
+    if (service === "threads" && hostname.endsWith("threads.net")) {
+      return stripAt(parts[0] || "");
+    }
+
+    if (service === "linkedin" && hostname.endsWith("linkedin.com")) {
+      return parts[0] === "in" || parts[0] === "company" ? (parts[1] || "") : (parts[0] || "");
+    }
+
+    if (service === "bluesky" && (hostname.endsWith("bsky.app") || hostname.endsWith("bsky.social"))) {
+      return parts[0] === "profile" ? (parts[1] || "") : (parts[0] || "");
+    }
+
+    if (service === "twitter" && (hostname.endsWith("twitter.com") || hostname.endsWith("x.com"))) {
+      return stripAt(parts[0] || "");
+    }
+
+    if (service === "imdb" && hostname.endsWith("imdb.com")) {
+      return parts.join("/");
+    }
+
+    if (service === "ibdb" && hostname.endsWith("ibdb.com")) {
+      return parts.join("/");
+    }
+
+    if (service === "backstage" && hostname.endsWith("backstage.com")) {
+      return parts[0] === "u" ? (parts[1] || "") : parts.join("/");
+    }
+
+    return raw;
+  } catch {
+    return stripAt(raw);
+  }
+}
+
+function stripAt(value) {
+  return String(value || "").replace(/^@+/, "");
+}
+
+function dateOnly(value) {
+  const normalized = String(value || "").trim();
+  return normalized ? normalized.slice(0, 10) : new Date().toISOString().slice(0, 10);
+}
+
+function shortDescription(value) {
+  const normalized = String(value || "").trim().replace(/\s+/g, " ");
+  return normalized.length > 200 ? `${normalized.slice(0, 197).trim()}...` : normalized;
+}
+
+function indentLines(value, prefix) {
+  return String(value || "")
+    .split(/\r?\n/)
+    .map((line) => `${prefix}${line}`);
+}
+
+function appendRawSections(lines, sections) {
+  for (const [heading, value] of sections) {
+    const normalized = Array.isArray(value) ? value.join("\n") : String(value || "").trim();
+
+    if (!normalized) {
+      continue;
+    }
+
+    lines.push("", `## ${heading}`, "", normalized);
+  }
+}
+
+function appendProductionAssetNotes(lines, poster, program, featuredImage, programFile) {
+  const notes = [];
+
+  if (poster) {
+    notes.push(
+      `Download the submitted poster from Linear and save it as \`static/media/posters/${featuredImage}\`.`,
+      `Original poster upload: [${poster.name}](${poster.url}) (${formatBytes(poster.size)}, ${poster.type})`
+    );
+  }
+
+  if (program) {
+    notes.push(
+      `Download the submitted program from Linear and save it as \`static/media/programs/${programFile}\`.`,
+      `Original program upload: [${program.name}](${program.url}) (${formatBytes(program.size)}, ${program.type})`
+    );
+  }
+
+  if (notes.length) {
+    lines.push("", "## Submission asset notes", "", ...notes);
+  }
+}
+
+function appendTheatreAssetNotes(lines, logo, featuredImage) {
+  if (!logo) {
+    return;
+  }
+
+  lines.push(
+    "",
+    "## Submission asset note",
+    "",
+    `Download the submitted logo from Linear and save it as \`static/media/logos/${featuredImage}\` or move it to the theatre image location preferred for this record.`,
+    `Original upload: [${logo.name}](${logo.url}) (${formatBytes(logo.size)}, ${logo.type})`
+  );
+}
+
+function appendAuditionAssetNotes(lines, announcementGraphic, featuredImage) {
+  if (!announcementGraphic) {
+    return;
+  }
+
+  lines.push(
+    "",
+    "## Submission asset note",
+    "",
+    `Download the submitted announcement graphic from Linear and save it as \`static/media/photos/${featuredImage}\`.`,
+    `Original upload: [${announcementGraphic.name}](${announcementGraphic.url}) (${formatBytes(announcementGraphic.size)}, ${announcementGraphic.type})`
+  );
 }
 
 function humanizeFieldName(key) {

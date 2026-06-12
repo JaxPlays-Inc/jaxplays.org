@@ -13,7 +13,7 @@
   <form class="jp-submit-form" action="{{ $endpoint }}" method="POST" enctype="multipart/form-data" data-jp-submit-form data-success="{{ $form.success }}" novalidate>
     <input type="hidden" name="form_type" value="{{ $form.type }}">
     <input type="hidden" name="source_url" value="{{ $page.Permalink }}">
-    <input class="jp-submit-honeypot" type="text" name="website" tabindex="-1" autocomplete="off">
+    <input class="jp-submit-honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
 
     {{- range $field := $form.fields }}
       {{- $type := $field.type | default "text" -}}
