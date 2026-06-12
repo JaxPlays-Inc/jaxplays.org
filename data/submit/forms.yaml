@@ -140,7 +140,7 @@ production:
       label: Poster
       type: file
       accept: image/png,image/jpeg,image/webp,application/pdf
-      description: Upload the poster or promotional graphic. A 2:3 aspect ratio is preferred, but 1:1 is acceptable.
+      description: Upload the poster for the production. A 2:3 aspect ratio poster will appear best on the website. See the [aspect ratio guide](/social-media-aspect-ratios.webp).
     - name: poster_credit
       label: Poster Credit
       type: text

@@ -23,7 +23,7 @@
         {{- if eq $type "checkbox" }}
           <fieldset>
             <legend>{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</legend>
-            {{- with $field.description }}<p class="jp-submit-help">{{ . }}</p>{{ end }}
+            {{- with $field.description }}<p class="jp-submit-help">{{ . | markdownify }}</p>{{ end }}
             <div class="jp-submit-choice-grid">
               {{- range $option := $field.options }}
                 {{- $choiceID := printf "%s-%s" $fieldID ($option | urlize) -}}
@@ -36,7 +36,7 @@
           </fieldset>
         {{- else }}
           <label for="{{ $fieldID }}">{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</label>
-          {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . }}</p>{{ end }}
+          {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . | markdownify }}</p>{{ end }}
           {{- if eq $type "textarea" }}
             <textarea id="{{ $fieldID }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}></textarea>
           {{- else if eq $type "file" }}
