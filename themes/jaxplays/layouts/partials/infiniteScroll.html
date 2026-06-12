@@ -15,6 +15,12 @@
 document.addEventListener("DOMContentLoaded", function() {
   let loading = false;
   let prevUrl = document.getElementById('prev-post-link')?.href || "";
+  const initialPost = document.querySelector('.main-content');
+
+  if (initialPost) {
+    initialPost.dataset.canonicalUrl = document.querySelector('link[rel="canonical"]')?.href || window.location.href;
+    initialPost.dataset.documentTitle = document.title;
+  }
 
   const updateActiveArticleHistory = function() {
     const articles = Array.from(document.querySelectorAll('.main-content'));
@@ -36,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (!bestArticle) return;
 
-    const targetUrl = bestArticle.dataset.canonicalUrl;
-    const targetTitle = bestArticle.dataset.documentTitle;
+    const targetUrl = bestArticle.dataset.canonicalUrl || bestArticle.dataset.url;
+    const targetTitle = bestArticle.dataset.documentTitle || bestArticle.dataset.title;
     if (targetUrl && window.location.href !== targetUrl) {
       history.replaceState({}, '', targetUrl);
     }
