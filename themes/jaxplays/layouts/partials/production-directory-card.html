@@ -1,7 +1,5 @@
 {{ $page := .page }}
 {{ $status := .status }}
-{{ $showTickets := true }}
-{{ if isset . "showTickets" }}{{ $showTickets = .showTickets }}{{ end }}
 {{ $poster := $page.Params.featured_image }}
 {{ $posterAlt := $page.Params.featured_image_alt | default (printf "%s poster" $page.Title) }}
 
@@ -90,30 +88,30 @@
 
 <article class="productions-directory-card slow-grow" data-production-card data-production-search="{{ $searchText | htmlEscape }}">
   <a class="productions-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="View {{ $page.Title }}"></a>
+  <div class="productions-directory-badges">
+    {{ if eq $status "Coming Soon" }}
+      <span class="home-dashboard-badge red">Opens {{ time.Format "Jan 2" (time $page.Params.opening_date) }}</span>
+    {{ else if eq $status "Past Production" }}
+      <span class="productions-directory-badge productions-directory-badge--archive">{{ with $page.Params.closing_date }}Closed {{ time.Format "Jan 2, 2006" (time .) }}{{ else }}Past Production{{ end }}</span>
+    {{ else }}
+      <span class="productions-directory-badge">{{ $status }}</span>
+    {{ end }}
+    {{ with first 3 $genres }}
+      {{ range . }}
+        <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
   <a class="productions-directory-poster-link" href="{{ $page.RelPermalink }}">
     <img class="productions-directory-poster" src="{{ $posterPath }}" alt="{{ $posterAlt }}">
   </a>
   <div class="productions-directory-card-body">
-    <div class="productions-directory-badges">
-      {{ if eq $status "Coming Soon" }}
-        <span class="home-dashboard-badge red">Opens {{ time.Format "Jan 2" (time $page.Params.opening_date) }}</span>
-      {{ else if eq $status "Past Production" }}
-        <span class="productions-directory-badge productions-directory-badge--archive">{{ with $page.Params.closing_date }}Closed {{ time.Format "Jan 2, 2006" (time .) }}{{ else }}Past Production{{ end }}</span>
-      {{ else }}
-        <span class="productions-directory-badge">{{ $status }}</span>
-      {{ end }}
-      {{ with first 3 $genres }}
-        {{ range . }}
-          <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-      {{ end }}
-    </div>
     <a class="productions-directory-card-link" href="{{ $page.RelPermalink }}">
       <strong class="productions-directory-card-title">{{ $page.Title }}</strong>
     </a>
     <div class="productions-directory-meta">
       {{ with $page.Params.theatre }}<span class="productions-directory-theatre db">{{ . }}</span>{{ end }}
-      {{ with $displayVenues }}<span class="db">{{ delimit . " / " }}</span>{{ end }}
+      {{ with $displayVenues }}<span class="productions-directory-venue db">{{ delimit . " / " }}</span>{{ end }}
     </div>
     {{ if or $openingLabel $closingLabel }}
       <div class="productions-directory-dates">
@@ -123,8 +121,5 @@
     {{ with $summary }}
       <div class="productions-directory-summary">{{ . | markdownify | plainify | truncate 220 }}</div>
     {{ end }}
-    <div class="productions-directory-actions">
-      {{ if $showTickets }}{{ with $page.Params.tickets }}<a class="productions-directory-ticket tickets" href="{{ . }}" target="_blank" rel="noopener" aria-label="Buy tickets for {{ $page.Title }}"></a>{{ end }}{{ end }}
-    </div>
   </div>
 </article>

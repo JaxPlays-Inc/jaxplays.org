@@ -93,26 +93,24 @@
           </div>
         </header>
 
-        {{ if or $genres (and .Params.opening_date .Params.closing_date) }}
-        <div class="production-hero-actions flex flex-wrap items-center">
-        <!-- Tickets -->
-        <!-- If opening_date and closing_date are both filled out -->
-        {{ if and .Params.opening_date .Params.closing_date }} <!-- Adjusted to use opening_date -->
-        <!-- If closing_date is in the future -->
-        {{ $closingDate := time .Params.closing_date }}
-        {{ $now := now.Format "2006-01-02" | time }}
-        {{ if ge $closingDate $now }}
-        {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" class="db pa0 tickets"></a>{{ end }}
-        {{ end }}
+        {{ $showHeroTicket := false }}
+        {{ if and .Params.opening_date .Params.closing_date .Params.tickets }}
+          {{ $closingDate := time .Params.closing_date }}
+          {{ $now := now.Format "2006-01-02" | time }}
+          {{ if ge $closingDate $now }}{{ $showHeroTicket = true }}{{ end }}
         {{ end }}
 
-        <!-- Genres -->
         {{ if $genres }}
+        <div class="production-hero-actions flex flex-wrap items-center">
+        <!-- Genres -->
           {{ range $genres }}
           <a href="/genres/{{ . | urlize }}" class="link dim br-pill ph3 pv2 dib black bg-yellow">{{ . }}</a>
           {{ end }}
-        {{ end }}
         </div>
+        {{ end }}
+
+        {{ if $showHeroTicket }}
+          {{ with .Params.tickets }}<a href="{{ . }}" target="_blank" rel="noopener" class="production-hero-ticket db pa0 tickets" aria-label="Buy tickets for {{ $.Title }}"></a>{{ end }}
         {{ end }}
 
         {{ if $description }}

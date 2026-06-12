@@ -101,7 +101,7 @@
       {{ if $paginator.Pages }}
         <div class="productions-directory-grid">
           {{ range $paginator.Pages }}
-            {{ partial "theatre-past-production-card.html" (dict "page" .) }}
+            {{ partial "production-directory-card.html" (dict "page" . "status" "Past Production") }}
           {{ end }}
         </div>
       {{ else }}

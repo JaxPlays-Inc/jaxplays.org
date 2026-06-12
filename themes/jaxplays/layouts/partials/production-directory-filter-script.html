@@ -67,7 +67,6 @@
       poster.alt = production.posterAlt || `${production.title} poster`;
       posterLink.append(poster);
 
-      const body = createElement('div', 'productions-directory-card-body');
       const badges = createElement('div', 'productions-directory-badges');
       badges.append(createBadge(production));
       (production.genres || []).slice(0, 3).forEach((genre) => {
@@ -76,33 +75,23 @@
         badges.append(badge);
       });
 
+      const body = createElement('div', 'productions-directory-card-body');
       const titleLink = createElement('a', 'productions-directory-card-link');
       titleLink.href = production.url;
       titleLink.append(createElement('strong', 'productions-directory-card-title', production.title));
 
       const meta = createElement('div', 'productions-directory-meta');
       if (production.theatre) meta.append(createElement('span', 'productions-directory-theatre db', production.theatre));
-      if (production.venues && production.venues.length) meta.append(createElement('span', '', production.venues.join(' / ')));
+      if (production.venues && production.venues.length) meta.append(createElement('span', 'productions-directory-venue db', production.venues.join(' / ')));
 
       const dates = createElement('div', 'productions-directory-dates');
       dates.textContent = `${production.openingLabel || ''}${production.closingLabel ? ` - ${production.closingLabel}` : ''}`.trim();
 
-      body.append(badges, titleLink, meta);
+      body.append(titleLink, meta);
       if (dates.textContent) body.append(dates);
       if (production.summary) body.append(createElement('div', 'productions-directory-summary', production.summary));
 
-      const actions = createElement('div', 'productions-directory-actions');
-      if (production.showTickets && production.tickets) {
-        const ticket = createElement('a', 'productions-directory-ticket tickets');
-        ticket.href = production.tickets;
-        ticket.target = '_blank';
-        ticket.rel = 'noopener';
-        ticket.setAttribute('aria-label', `Buy tickets for ${production.title}`);
-        actions.append(ticket);
-      }
-      body.append(actions);
-
-      card.append(hitarea, posterLink, body);
+      card.append(hitarea, badges, posterLink, body);
       return card;
     };
 
