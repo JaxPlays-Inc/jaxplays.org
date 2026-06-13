@@ -41,7 +41,7 @@
 {{ with $founded }}{{ $eyebrowParts = $eyebrowParts | append (printf "Founded %s" .) }}{{ end }}
 {{ $eyebrow := delimit $eyebrowParts " • " }}
 
-{{ $theatreKey := $theatrePage.Title | urlize }}
+{{ $theatreKey := $theatrePage.Title | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
 {{ $theatreProductionIndex := site.Data.generated.theatre_productions | default dict }}
 {{ $theatreProductions := index $theatreProductionIndex $theatreKey | default slice }}
 {{ $productionCardByURL := dict }}
