@@ -38,6 +38,7 @@ PRODUCTION_KEYS = frozenset(
 )
 SHOW_KEYS = frozenset(("title", "description", "genres", "featured_image", "featured_image_alt"))
 THEATRE_KEYS = frozenset(("title", "theatre_aliases", "directory"))
+VENUE_KEYS = frozenset(("title", "venue_aliases", "directory"))
 
 
 def split_front_matter(text: str, path: Path) -> str:
@@ -308,6 +309,22 @@ def format_date_label(value: Any, approx_date: Any = "") -> str:
     return f"{parsed.strftime('%b')} {parsed.day}, {parsed.year}"
 
 
+def format_month_label(value: Any, approx_date: Any = "") -> str:
+    date_value = json_safe(value)
+    if not date_value:
+        return ""
+    try:
+        parsed = datetime.fromisoformat(str(date_value))
+    except ValueError:
+        try:
+            parsed = datetime.strptime(str(date_value), "%Y-%m-%d")
+        except ValueError:
+            return str(date_value)
+    if approx_date == "year":
+        return parsed.strftime("%Y")
+    return parsed.strftime("%B %Y")
+
+
 def production_card_entry(
     path: Path, data: dict[str, Any], body: str, shows: dict[str, dict[str, Any]]
 ) -> Any:
@@ -356,6 +373,7 @@ def production_card_entry(
         "openingDate": opening_date,
         "closingDate": closing_date,
         "openingLabel": opening_label,
+        "openingMonthLabel": format_month_label(opening_date, data.get("approx_date") or ""),
         "openingBadgeLabel": format_date_label(opening_date),
         "closingLabel": closing_label,
         "theatre": theatre,
@@ -420,6 +438,54 @@ def theatre_productions(
             continue
         key = lookup.get(normalize_name(theatre), normalize_name(theatre))
         grouped.setdefault(key, []).append(card)
+
+    for productions in grouped.values():
+        productions.sort(
+            key=lambda production: str(production.get("openingDate") or ""),
+            reverse=True,
+        )
+
+    return grouped
+
+
+def venue_lookup(venues_dir: Path) -> dict[str, str]:
+    lookup: dict[str, str] = {}
+
+    for path in sorted(venues_dir.glob("*.md")):
+        if path.stem == "_index":
+            continue
+        try:
+            data = load_front_matter(path, VENUE_KEYS)
+        except (ValueError, yaml.YAMLError) as error:
+            print(f"Warning: skipping {path}: {error}", file=sys.stderr)
+            continue
+        if data.get("directory") is False:
+            continue
+
+        title = str(data.get("title") or path.stem).strip()
+        canonical_key = normalize_name(title)
+        if not canonical_key:
+            continue
+
+        lookup.setdefault(canonical_key, canonical_key)
+        for alias in as_string_list(data.get("venue_aliases")):
+            lookup.setdefault(normalize_name(alias), canonical_key)
+
+    return lookup
+
+
+def venue_productions(
+    venues_dir: Path, cards: list[dict[str, Any]]
+) -> dict[str, list[dict[str, Any]]]:
+    lookup = venue_lookup(venues_dir)
+    grouped: dict[str, list[dict[str, Any]]] = {}
+
+    for card in cards:
+        for venue in as_string_list(card.get("allVenues")):
+            key = lookup.get(normalize_name(venue), normalize_name(venue))
+            if not key:
+                continue
+            grouped.setdefault(key, []).append(card)
 
     for productions in grouped.values():
         productions.sort(
@@ -534,6 +600,12 @@ def main() -> int:
         default=Path("data/generated/theatre_productions.json"),
         help="theatre production index output path, relative to root unless absolute",
     )
+    parser.add_argument(
+        "--venue-productions-output",
+        type=Path,
+        default=Path("data/generated/venue_productions.json"),
+        help="venue production index output path, relative to root unless absolute",
+    )
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -550,6 +622,11 @@ def main() -> int:
         args.theatre_productions_output
         if args.theatre_productions_output.is_absolute()
         else root / args.theatre_productions_output
+    )
+    venue_productions_output = (
+        args.venue_productions_output
+        if args.venue_productions_output.is_absolute()
+        else root / args.venue_productions_output
     )
 
     name_lookup, people_credits, people_lookup = person_lookup(root / "content" / "people")
@@ -575,15 +652,22 @@ def main() -> int:
     theatre_productions_output.write_text(
         json.dumps(theatre_index, indent=2, ensure_ascii=False) + "\n"
     )
+    venue_index = venue_productions(root / "content" / "venues", cards)
+    venue_productions_output.parent.mkdir(parents=True, exist_ok=True)
+    venue_productions_output.write_text(
+        json.dumps(venue_index, indent=2, ensure_ascii=False) + "\n"
+    )
 
     print(
         "Generated "
         f"{output.relative_to(root)}, {lookup_output.relative_to(root)}, "
         f"{production_cards_output.relative_to(root)}, "
-        f"and {theatre_productions_output.relative_to(root)} "
+        f"{theatre_productions_output.relative_to(root)}, "
+        f"and {venue_productions_output.relative_to(root)} "
         f"for {len(people_credits)} people "
         f"and {len(cards)} production card(s) "
         f"grouped under {len(theatre_index)} theatre key(s) "
+        f"and {len(venue_index)} venue key(s) "
         f"({matched} matched credit name(s), {unmatched} unmatched)."
     )
     return 0
