@@ -1,23 +1,18 @@
 {{ $urlName := .urlName | replaceRE "\\." "" | urlize }}
-{{ $foundPage := .site.GetPage (print "/people/" $urlName) }}
-{{ if not $foundPage }}
-  {{ range .site.Pages }}
-    {{ if and (eq .Type "people") (in .Params.aliases (print "/people/" $urlName)) }}
-      {{ $foundPage = . }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ $generatedData := index site.Data "generated" | default dict }}
+{{ $peopleLookup := index $generatedData "people_lookup" | default dict }}
+{{ $foundPerson := index $peopleLookup $urlName }}
 {{ $defaultImage := "/media/default/people_headshot.webp" }}
 {{ if and .showImage }}
   {{ $imageToUse := $defaultImage }}
   {{ $personName := .urlName }}
   {{ $creditLabel := .creditLabel }}
-  {{ if $foundPage }}
-    {{ $personName = $foundPage.Title }}
-    {{ if $foundPage.Params.featured_image }}
-      {{ $imageToUse = (print "/media/headshots/" $foundPage.Params.featured_image) }}
+  {{ if $foundPerson }}
+    {{ $personName = $foundPerson.title }}
+    {{ if $foundPerson.featured_image }}
+      {{ $imageToUse = (print "/media/headshots/" $foundPerson.featured_image) }}
     {{ end }}
-    <a href="{{ $foundPage.RelPermalink }}" class="flex flex-column items-center{{ if $creditLabel }} production-credit-person{{ end }} slow-grow" >
+    <a href="{{ $foundPerson.permalink }}" class="flex flex-column items-center{{ if $creditLabel }} production-credit-person{{ end }} slow-grow" >
       <div class="br-100 cover mb1 w4 h4{{ if $creditLabel }} production-credit-image{{ end }}" style="background-position: top center; background-image: url('{{ $imageToUse | relURL }}');"></div>
       {{ if $creditLabel }}
         <span class="production-credit-copy">
@@ -42,8 +37,8 @@
     </span>
   {{ end }}
 {{ else }}
-  {{ if $foundPage }}
-    <a href="{{ $foundPage.RelPermalink }}" class="ml1">{{ $foundPage.Title }}</a>
+  {{ if $foundPerson }}
+    <a href="{{ $foundPerson.permalink }}" class="ml1">{{ $foundPerson.title }}</a>
   {{ else }}
     <span class="ml1">{{ .urlName }}</span>
   {{ end }}
