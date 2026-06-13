@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build generated people credit data from production front matter."""
+"""Build generated people credit and lookup data from content front matter."""
 
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ import yaml
 
 
 CREDIT_TYPES = ("cast", "understudies", "crew", "orchestra")
-PEOPLE_KEYS = frozenset(("title", "other_names", "aliases"))
+PEOPLE_KEYS = frozenset(("title", "other_names", "aliases", "featured_image", "url"))
 PRODUCTION_KEYS = frozenset(
     (
         "title",
@@ -80,6 +80,11 @@ def normalize_name(value: str) -> str:
     return value.strip("-")
 
 
+def findperson_key(value: str) -> str:
+    value = value.replace(".", "")
+    return normalize_name(value)
+
+
 def content_urlize(value: str) -> str:
     value = value.replace("'", "").replace("’", "").replace("‘", "")
     value = value.replace("&", "")
@@ -116,11 +121,23 @@ def alias_name(alias: str) -> str:
     return alias.strip("/").split("/")[-1]
 
 
-def person_lookup(people_dir: Path) -> tuple[dict[str, str], dict[str, Any]]:
-    lookup: dict[str, str] = {}
-    index: dict[str, Any] = {}
+def person_permalink(path: Path, data: dict[str, Any]) -> str:
+    return content_permalink("people", path, data)
+
+
+def add_lookup_key(lookup: dict[str, Any], key: str, person: dict[str, Any]) -> None:
+    if key:
+        lookup.setdefault(key, person)
+
+
+def person_lookup(people_dir: Path) -> tuple[dict[str, str], dict[str, Any], dict[str, Any]]:
+    credit_lookup: dict[str, str] = {}
+    people_credits: dict[str, Any] = {}
+    public_lookup: dict[str, Any] = {}
 
     for path in sorted(people_dir.glob("*.md")):
+        if path.stem == "_index":
+            continue
         try:
             data = load_front_matter(path, PEOPLE_KEYS)
         except (ValueError, yaml.YAMLError) as error:
@@ -128,7 +145,13 @@ def person_lookup(people_dir: Path) -> tuple[dict[str, str], dict[str, Any]]:
             continue
 
         canonical = normalize_name(path.stem)
-        index[canonical] = {credit_type: [] for credit_type in CREDIT_TYPES}
+        people_credits[canonical] = {credit_type: [] for credit_type in CREDIT_TYPES}
+        featured_image = data.get("featured_image")
+        person = {
+            "title": str(data.get("title") or path.stem),
+            "permalink": person_permalink(path, data),
+            "featured_image": featured_image if isinstance(featured_image, str) else "",
+        }
 
         names = [path.stem, str(data.get("title") or "").strip()]
         names.extend(as_string_list(data.get("other_names")))
@@ -138,9 +161,11 @@ def person_lookup(people_dir: Path) -> tuple[dict[str, str], dict[str, Any]]:
             key = normalize_name(name)
             if not key:
                 continue
-            lookup.setdefault(key, canonical)
+            credit_lookup.setdefault(key, canonical)
+            add_lookup_key(public_lookup, key, person)
+            add_lookup_key(public_lookup, findperson_key(name), person)
 
-    return lookup, index
+    return credit_lookup, people_credits, public_lookup
 
 
 def show_featured_images(shows_dir: Path) -> dict[str, str]:
@@ -252,7 +277,7 @@ def sort_entries(people_credits: dict[str, Any]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Generate data/generated/people_credits.json from production credits."
+        description="Generate people credit and lookup data from site content."
     )
     parser.add_argument(
         "--root",
@@ -264,14 +289,23 @@ def main() -> int:
         "--output",
         type=Path,
         default=Path("data/generated/people_credits.json"),
-        help="output path, relative to root unless absolute",
+        help="people credits output path, relative to root unless absolute",
+    )
+    parser.add_argument(
+        "--lookup-output",
+        type=Path,
+        default=Path("data/generated/people_lookup.json"),
+        help="people lookup output path, relative to root unless absolute",
     )
     args = parser.parse_args()
 
     root = args.root.resolve()
     output = args.output if args.output.is_absolute() else root / args.output
+    lookup_output = (
+        args.lookup_output if args.lookup_output.is_absolute() else root / args.lookup_output
+    )
 
-    name_lookup, people_credits = person_lookup(root / "content" / "people")
+    name_lookup, people_credits, people_lookup = person_lookup(root / "content" / "people")
     show_images = show_featured_images(root / "content" / "shows")
     matched, unmatched = collect_credits(
         root / "content" / "productions",
@@ -283,10 +317,13 @@ def main() -> int:
 
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(people_credits, indent=2, ensure_ascii=False) + "\n")
+    lookup_output.parent.mkdir(parents=True, exist_ok=True)
+    lookup_output.write_text(json.dumps(people_lookup, indent=2, ensure_ascii=False) + "\n")
 
     print(
         "Generated "
-        f"{output.relative_to(root)} for {len(people_credits)} people "
+        f"{output.relative_to(root)} and {lookup_output.relative_to(root)} "
+        f"for {len(people_credits)} people "
         f"({matched} matched credit name(s), {unmatched} unmatched)."
     )
     return 0
