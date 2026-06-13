@@ -19,17 +19,24 @@ PEOPLE_KEYS = frozenset(("title", "other_names", "aliases", "featured_image", "u
 PRODUCTION_KEYS = frozenset(
     (
         "title",
+        "subtitle",
+        "description",
         "opening_date",
+        "closing_date",
         "approx_date",
         "theatre",
         "venue",
+        "genres",
+        "category",
         "featured_image",
+        "featured_image_alt",
+        "tickets",
         "draft",
         "url",
         *CREDIT_TYPES,
     )
 )
-SHOW_KEYS = frozenset(("title", "featured_image"))
+SHOW_KEYS = frozenset(("title", "description", "genres", "featured_image", "featured_image_alt"))
 
 
 def split_front_matter(text: str, path: Path) -> str:
@@ -62,13 +69,34 @@ def select_front_matter_keys(front_matter: str, keys: frozenset[str]) -> str:
     return "\n".join(selected).rstrip() + "\n"
 
 
+def split_content(text: str, path: Path) -> tuple[str, str]:
+    front_matter = split_front_matter(text, path)
+    start = re.match(r"^-{3,}[ \t]*\n", text)
+    if not start:
+        return front_matter, ""
+    end = text.find("\n---", start.end())
+    body = text[end + 4 :]
+    if body.startswith("\n"):
+        body = body[1:]
+    return front_matter, body
+
+
 def load_front_matter(path: Path, keys: frozenset[str]) -> dict[str, Any]:
-    front_matter = split_front_matter(path.read_text(), path)
+    front_matter, _body = split_content(path.read_text(), path)
     front_matter = select_front_matter_keys(front_matter, keys)
     data = yaml.safe_load(front_matter) or {}
     if not isinstance(data, dict):
         raise ValueError(f"{path} front matter is not a mapping")
     return data
+
+
+def load_front_matter_and_body(path: Path, keys: frozenset[str]) -> tuple[dict[str, Any], str]:
+    front_matter, body = split_content(path.read_text(), path)
+    front_matter = select_front_matter_keys(front_matter, keys)
+    data = yaml.safe_load(front_matter) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} front matter is not a mapping")
+    return data, body
 
 
 def normalize_name(value: str) -> str:
@@ -90,7 +118,7 @@ def content_urlize(value: str) -> str:
     value = value.replace("&", "")
     value = value.lower()
     value = re.sub(r"\s+", "-", value)
-    value = re.sub(r"[^a-z0-9_-]+", "", value)
+    value = re.sub(r"[^a-z0-9_.-]+", "", value)
     return value
 
 
@@ -108,6 +136,40 @@ def json_safe(value: Any) -> Any:
     if isinstance(value, (date, datetime)):
         return value.isoformat()
     return value
+
+
+def plain_text(value: Any) -> str:
+    text = str(value or "")
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"`([^`]+)`", r"\1", text)
+    text = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"\[\[[^|\]]+\|([^\]]+)\]\]", r"\1", text)
+    text = re.sub(r"\[\[([^|\]]+)\]\]", r"\1", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"[*_#>~|]", "", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def truncate_text(value: str, length: int = 220) -> str:
+    value = value.strip()
+    if len(value) <= length:
+        return value
+    return value[: length - 3].rstrip() + "..."
+
+
+def normalize_list(value: Any) -> list[str]:
+    return as_string_list(value)
+
+
+def poster_path(value: Any) -> str:
+    poster = str(value or "").strip()
+    if not poster:
+        return "/media/default/production_poster.webp"
+    if poster.startswith(("http://", "https://", "//", "/")):
+        return poster
+    return f"/media/posters/{poster}"
 
 
 def content_permalink(section: str, path: Path, data: dict[str, Any]) -> str:
@@ -186,6 +248,28 @@ def show_featured_images(shows_dir: Path) -> dict[str, str]:
     return images
 
 
+def show_card_data(shows_dir: Path) -> dict[str, dict[str, Any]]:
+    shows: dict[str, dict[str, Any]] = {}
+
+    for path in sorted(shows_dir.glob("*.md")):
+        try:
+            data, body = load_front_matter_and_body(path, SHOW_KEYS)
+        except (ValueError, yaml.YAMLError) as error:
+            print(f"Warning: skipping {path}: {error}", file=sys.stderr)
+            continue
+
+        title = str(data.get("title") or path.stem)
+        shows[normalize_name(title)] = {
+            "description": data.get("description") or "",
+            "summary": truncate_text(plain_text(data.get("description") or body)),
+            "genres": normalize_list(data.get("genres")),
+            "featured_image": data.get("featured_image") or "",
+            "featured_image_alt": data.get("featured_image_alt") or "",
+        }
+
+    return shows
+
+
 def production_entry(
     path: Path, data: dict[str, Any], show_images: dict[str, str]
 ) -> dict[str, Any]:
@@ -203,6 +287,100 @@ def production_entry(
         "venue": data.get("venue") or "",
         "featured_image": featured_image or "",
     }
+
+
+def format_date_label(value: Any, approx_date: Any = "") -> str:
+    date_value = json_safe(value)
+    if not date_value:
+        return ""
+    try:
+        parsed = datetime.fromisoformat(str(date_value))
+    except ValueError:
+        try:
+            parsed = datetime.strptime(str(date_value), "%Y-%m-%d")
+        except ValueError:
+            return str(date_value)
+    if approx_date == "year":
+        return parsed.strftime("%Y")
+    if approx_date == "month":
+        return parsed.strftime("%B %Y")
+    return f"{parsed.strftime('%b')} {parsed.day}, {parsed.year}"
+
+
+def production_card_entry(
+    path: Path, data: dict[str, Any], body: str, shows: dict[str, dict[str, Any]]
+) -> Any:
+    if data.get("draft") is True or path.stem == "_index":
+        return None
+
+    title = str(data.get("title") or path.stem)
+    show = shows.get(normalize_name(title), {})
+    opening_date = json_safe(data.get("opening_date")) or ""
+    closing_date = json_safe(data.get("closing_date")) or opening_date
+    featured_image = data.get("featured_image") or show.get("featured_image") or ""
+    poster_alt = (
+        data.get("featured_image_alt")
+        or show.get("featured_image_alt")
+        or f"{title} poster"
+    )
+    venues = normalize_list(data.get("venue"))
+    theatre = str(data.get("theatre") or "")
+    normalized_theatre = plain_text(theatre).lower().strip()
+    display_venues = [
+        venue
+        for venue in venues
+        if plain_text(venue).lower().strip() != normalized_theatre
+    ]
+    genres = normalize_list(data.get("genres")) or list(show.get("genres") or [])
+    description = data.get("description") or ""
+    summary = truncate_text(plain_text(description or body or show.get("summary") or ""))
+    opening_label = format_date_label(opening_date, data.get("approx_date") or "")
+    closing_label = format_date_label(closing_date) if data.get("closing_date") else ""
+
+    search_parts = [
+        title,
+        opening_label,
+        closing_label,
+        theatre,
+        " ".join(venues),
+        " ".join(genres),
+        summary,
+    ]
+
+    return {
+        "title": title,
+        "url": content_permalink("productions", path, data),
+        "poster": poster_path(featured_image),
+        "posterAlt": str(poster_alt),
+        "openingDate": opening_date,
+        "closingDate": closing_date,
+        "openingLabel": opening_label,
+        "openingBadgeLabel": format_date_label(opening_date),
+        "closingLabel": closing_label,
+        "theatre": theatre,
+        "venues": display_venues,
+        "allVenues": venues,
+        "genres": genres,
+        "summary": summary,
+        "tickets": data.get("tickets") or "",
+        "searchBase": " ".join(part for part in search_parts if part).lower(),
+    }
+
+
+def production_cards(productions_dir: Path, shows: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    cards: list[dict[str, Any]] = []
+
+    for path in sorted(productions_dir.rglob("*.md")):
+        try:
+            data, body = load_front_matter_and_body(path, PRODUCTION_KEYS)
+        except (ValueError, yaml.YAMLError) as error:
+            print(f"Warning: skipping {path}: {error}", file=sys.stderr)
+            continue
+        card = production_card_entry(path, data, body, shows)
+        if card:
+            cards.append(card)
+
+    return cards
 
 
 def add_credit(
@@ -297,6 +475,12 @@ def main() -> int:
         default=Path("data/generated/people_lookup.json"),
         help="people lookup output path, relative to root unless absolute",
     )
+    parser.add_argument(
+        "--production-cards-output",
+        type=Path,
+        default=Path("data/generated/production_cards.json"),
+        help="production directory cards output path, relative to root unless absolute",
+    )
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -304,9 +488,15 @@ def main() -> int:
     lookup_output = (
         args.lookup_output if args.lookup_output.is_absolute() else root / args.lookup_output
     )
+    production_cards_output = (
+        args.production_cards_output
+        if args.production_cards_output.is_absolute()
+        else root / args.production_cards_output
+    )
 
     name_lookup, people_credits, people_lookup = person_lookup(root / "content" / "people")
     show_images = show_featured_images(root / "content" / "shows")
+    shows = show_card_data(root / "content" / "shows")
     matched, unmatched = collect_credits(
         root / "content" / "productions",
         name_lookup,
@@ -319,11 +509,16 @@ def main() -> int:
     output.write_text(json.dumps(people_credits, indent=2, ensure_ascii=False) + "\n")
     lookup_output.parent.mkdir(parents=True, exist_ok=True)
     lookup_output.write_text(json.dumps(people_lookup, indent=2, ensure_ascii=False) + "\n")
+    cards = production_cards(root / "content" / "productions", shows)
+    production_cards_output.parent.mkdir(parents=True, exist_ok=True)
+    production_cards_output.write_text(json.dumps(cards, indent=2, ensure_ascii=False) + "\n")
 
     print(
         "Generated "
-        f"{output.relative_to(root)} and {lookup_output.relative_to(root)} "
+        f"{output.relative_to(root)}, {lookup_output.relative_to(root)}, "
+        f"and {production_cards_output.relative_to(root)} "
         f"for {len(people_credits)} people "
+        f"and {len(cards)} production card(s) "
         f"({matched} matched credit name(s), {unmatched} unmatched)."
     )
     return 0

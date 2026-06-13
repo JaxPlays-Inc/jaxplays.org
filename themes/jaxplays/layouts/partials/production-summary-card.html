@@ -1,3 +1,49 @@
+{{ with .production }}
+  {{ $production := . }}
+  {{ $status := $.status }}
+  {{ $genres := $production.genres | default slice }}
+  {{ $searchParts := slice $production.searchBase $status }}
+  {{ $searchText := delimit $searchParts " " | lower }}
+  {{ $hasBadgeRow := or (and $status (ne $status "Past Production")) (gt (len $genres) 0) }}
+
+<article class="productions-directory-card{{ if not $hasBadgeRow }} productions-directory-card--no-badges{{ end }} slow-grow" data-production-card data-production-search="{{ $searchText | htmlEscape }}">
+  <a class="productions-directory-card-hitarea" href="{{ $production.url }}" aria-label="View {{ $production.title }}"></a>
+  {{ if $hasBadgeRow }}
+  <div class="production-badges productions-directory-badges">
+    {{ if and $status (ne $status "Past Production") }}
+      {{ if eq $status "Coming Soon" }}
+        <span class="home-dashboard-badge red">Opens {{ $production.openingBadgeLabel }}</span>
+      {{ else }}
+        <span class="productions-directory-badge">{{ $status }}</span>
+      {{ end }}
+    {{ end }}
+    {{ range first 3 $genres }}
+      <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+  <a class="productions-directory-poster-link" href="{{ $production.url }}">
+    <img class="productions-directory-poster" src="{{ $production.poster }}" alt="{{ $production.posterAlt }}">
+  </a>
+  <div class="productions-directory-card-body">
+    <a class="productions-directory-card-link" href="{{ $production.url }}">
+      <strong class="productions-directory-card-title">{{ $production.title }}</strong>
+    </a>
+    <div class="productions-directory-meta">
+      {{ with $production.theatre }}<span class="productions-directory-theatre db">{{ . }}</span>{{ end }}
+      {{ with $production.venues }}<span class="productions-directory-venue db">{{ delimit . " / " }}</span>{{ end }}
+    </div>
+    {{ if or $production.openingLabel $production.closingLabel }}
+      <div class="productions-directory-dates">
+        {{ $production.openingLabel }}{{ if $production.closingLabel }} - {{ $production.closingLabel }}{{ end }}
+      </div>
+    {{ end }}
+    {{ with $production.summary }}
+      <div class="productions-directory-summary">{{ . }}</div>
+    {{ end }}
+  </div>
+</article>
+{{ else }}
 {{ $page := .page }}
 {{ $status := .status }}
 {{ $poster := $page.Params.featured_image }}
@@ -111,3 +157,4 @@
     {{ end }}
   </div>
 </article>
+{{ end }}

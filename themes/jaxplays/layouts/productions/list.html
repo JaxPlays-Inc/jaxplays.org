@@ -1,24 +1,17 @@
 {{ define "main" }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
+{{ $productionCards := site.Data.generated.production_cards | default slice }}
 {{ $currentProductions := slice }}
 {{ $upcomingProductions := slice }}
 {{ $currentSearchProductions := slice }}
 {{ $upcomingSearchProductions := slice }}
 {{ $pastSearchProductions := slice }}
 
-{{ range where .Site.RegularPages "Section" "productions" }}
+{{ range $productionCards }}
   {{ $production := . }}
-  {{ $startDate := "" }}
-  {{ $endDate := "" }}
-
-  {{ with $production.Params.opening_date }}
-    {{ $startDate = time . | time.Format "2006-01-02" }}
-  {{ end }}
-
-  {{ with $production.Params.closing_date }}
-    {{ $endDate = time . | time.Format "2006-01-02" }}
-  {{ end }}
+  {{ $startDate := $production.openingDate }}
+  {{ $endDate := $production.closingDate }}
   {{ if and $startDate (not $endDate) }}
     {{ $endDate = $startDate }}
   {{ end }}
@@ -38,21 +31,21 @@
   {{ end }}
 {{ end }}
 
-{{ $currentProductions = sort $currentProductions "Params.closing_date" "asc" }}
-{{ $upcomingProductions = sort $upcomingProductions "Params.opening_date" "asc" }}
-{{ $currentSearchProductions = sort $currentSearchProductions "Params.closing_date" "asc" }}
-{{ $upcomingSearchProductions = sort $upcomingSearchProductions "Params.opening_date" "asc" }}
-{{ $pastSearchProductions = sort $pastSearchProductions "Params.opening_date" "desc" }}
+{{ $currentProductions = sort $currentProductions "closingDate" "asc" }}
+{{ $upcomingProductions = sort $upcomingProductions "openingDate" "asc" }}
+{{ $currentSearchProductions = sort $currentSearchProductions "closingDate" "asc" }}
+{{ $upcomingSearchProductions = sort $upcomingSearchProductions "openingDate" "asc" }}
+{{ $pastSearchProductions = sort $pastSearchProductions "openingDate" "desc" }}
 {{ $totalProductions := add (len $currentProductions) (len $upcomingProductions) }}
 {{ $productionIndex := slice }}
 {{ range $currentSearchProductions }}
-  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Now Playing")) }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Now Playing" "search" (printf "%s %s" (.searchBase | default "") "Now Playing"))) }}
 {{ end }}
 {{ range $upcomingSearchProductions }}
-  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Coming Soon")) }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Coming Soon" "search" (printf "%s %s" (.searchBase | default "") "Coming Soon"))) }}
 {{ end }}
 {{ range $pastSearchProductions }}
-  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Past Production" "showTickets" false)) }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Past Production" "showTickets" false "search" (printf "%s %s" (.searchBase | default "") "Past Production"))) }}
 {{ end }}
 
 <article class="productions-directory">
@@ -97,7 +90,7 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $currentProductions }}
-          {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
+          {{ partial "production-summary-card.html" (dict "production" . "status" "Now Playing") }}
         {{ end }}
       </div>
     </section>
@@ -112,7 +105,7 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $upcomingProductions }}
-          {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
+          {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
         {{ end }}
       </div>
     </section>
