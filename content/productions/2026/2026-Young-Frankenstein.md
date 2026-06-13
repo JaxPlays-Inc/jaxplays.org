@@ -24,10 +24,6 @@ featured_image_attr_link:
 program:
 website: https://opct.booktix.com/dept/main/e/ygfrank
 tickets: https://opct.booktix.com/dept/main/e/ygfrank
-show_details:
-  - Music and Lyrics: Mel Brooks
-  - Book: Mel Brooks and Thomas Meehan
-  - Basis: The 1974 film Young Frankenstein
 cast:
   - Doctor Frankenstein: Matt Turnage
   - Igor: Holden Wright
@@ -77,4 +73,4 @@ source: OPCT BookTix and Orange Park Community Theatre cast announcement
 source_date: 2026-06-13
 source_url: https://opct.booktix.com/dept/main/e/ygfrank
 ---
-*Young Frankenstein* brings Mel Brooks's classic horror-film spoof to the stage with lightning bolts, outrageous wordplay and a laboratory full of comic chaos. When Frederick Frankenstein inherits his family castle, he tries to escape the past and ends up reviving it with spectacularly silly consequences.
+
