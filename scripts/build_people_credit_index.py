@@ -37,6 +37,7 @@ PRODUCTION_KEYS = frozenset(
     )
 )
 SHOW_KEYS = frozenset(("title", "description", "genres", "featured_image", "featured_image_alt"))
+THEATRE_KEYS = frozenset(("title", "theatre_aliases", "directory"))
 
 
 def split_front_matter(text: str, path: Path) -> str:
@@ -383,6 +384,52 @@ def production_cards(productions_dir: Path, shows: dict[str, dict[str, Any]]) ->
     return cards
 
 
+def theatre_lookup(theatres_dir: Path) -> dict[str, str]:
+    lookup: dict[str, str] = {}
+
+    for path in sorted(theatres_dir.glob("*/_index.md")):
+        try:
+            data = load_front_matter(path, THEATRE_KEYS)
+        except (ValueError, yaml.YAMLError) as error:
+            print(f"Warning: skipping {path}: {error}", file=sys.stderr)
+            continue
+        if data.get("directory") is False:
+            continue
+
+        title = str(data.get("title") or path.parent.name).strip()
+        canonical_key = normalize_name(title)
+        if not canonical_key:
+            continue
+
+        lookup.setdefault(canonical_key, canonical_key)
+        for alias in as_string_list(data.get("theatre_aliases")):
+            lookup.setdefault(normalize_name(alias), canonical_key)
+
+    return lookup
+
+
+def theatre_productions(
+    theatres_dir: Path, cards: list[dict[str, Any]]
+) -> dict[str, list[dict[str, Any]]]:
+    lookup = theatre_lookup(theatres_dir)
+    grouped: dict[str, list[dict[str, Any]]] = {}
+
+    for card in cards:
+        theatre = str(card.get("theatre") or "").strip()
+        if not theatre:
+            continue
+        key = lookup.get(normalize_name(theatre), normalize_name(theatre))
+        grouped.setdefault(key, []).append(card)
+
+    for productions in grouped.values():
+        productions.sort(
+            key=lambda production: str(production.get("openingDate") or ""),
+            reverse=True,
+        )
+
+    return grouped
+
+
 def add_credit(
     people_credits: dict[str, Any],
     canonical: str,
@@ -481,6 +528,12 @@ def main() -> int:
         default=Path("data/generated/production_cards.json"),
         help="production directory cards output path, relative to root unless absolute",
     )
+    parser.add_argument(
+        "--theatre-productions-output",
+        type=Path,
+        default=Path("data/generated/theatre_productions.json"),
+        help="theatre production index output path, relative to root unless absolute",
+    )
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -492,6 +545,11 @@ def main() -> int:
         args.production_cards_output
         if args.production_cards_output.is_absolute()
         else root / args.production_cards_output
+    )
+    theatre_productions_output = (
+        args.theatre_productions_output
+        if args.theatre_productions_output.is_absolute()
+        else root / args.theatre_productions_output
     )
 
     name_lookup, people_credits, people_lookup = person_lookup(root / "content" / "people")
@@ -512,13 +570,20 @@ def main() -> int:
     cards = production_cards(root / "content" / "productions", shows)
     production_cards_output.parent.mkdir(parents=True, exist_ok=True)
     production_cards_output.write_text(json.dumps(cards, indent=2, ensure_ascii=False) + "\n")
+    theatre_index = theatre_productions(root / "content" / "theatres", cards)
+    theatre_productions_output.parent.mkdir(parents=True, exist_ok=True)
+    theatre_productions_output.write_text(
+        json.dumps(theatre_index, indent=2, ensure_ascii=False) + "\n"
+    )
 
     print(
         "Generated "
         f"{output.relative_to(root)}, {lookup_output.relative_to(root)}, "
-        f"and {production_cards_output.relative_to(root)} "
+        f"{production_cards_output.relative_to(root)}, "
+        f"and {theatre_productions_output.relative_to(root)} "
         f"for {len(people_credits)} people "
         f"and {len(cards)} production card(s) "
+        f"grouped under {len(theatre_index)} theatre key(s) "
         f"({matched} matched credit name(s), {unmatched} unmatched)."
     )
     return 0
