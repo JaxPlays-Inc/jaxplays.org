@@ -9,6 +9,9 @@ JaxPlays is a Hugo static site for Jacksonville, Florida's theatre community. It
 ## Build Commands
 
 ```bash
+# Rebuild generated people credit index after production or people credit edits
+python3 scripts/build_people_credit_index.py
+
 # Local development server
 hugo server
 
@@ -30,6 +33,12 @@ HUGO_ENV=production hugo --minify --baseURL "https://jaxplays.org/"
 - **people/** - Individual profiles for actors, directors, crew members
 - **reviews/** - Production reviews with author attribution, linked to productions
 - **news/** - Theatre news articles
+
+### Generated Data
+
+People profile credit lists render from `data/generated/people_credits.json`.
+Regenerate it with `python3 scripts/build_people_credit_index.py` after editing
+production credits, people names, aliases, or show poster fallbacks.
 
 ### Front Matter Conventions
 

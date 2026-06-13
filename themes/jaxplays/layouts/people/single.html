@@ -3,13 +3,6 @@
 {{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
 {{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
 {{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
-{{ $personNameKeys := slice }}
-{{ range $name := $personNames }}
-  {{ $nameKey := replace $name "’" "'" }}
-  {{ $nameKey = replace $nameKey "‘" "'" }}
-  {{ $nameKey = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $nameKey }}
-  {{ $personNameKeys = $personNameKeys | append ($nameKey | urlize) }}
-{{ end }}
 
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
@@ -116,43 +109,14 @@
       {{ end }}
     </div>
 
-    {{ $global := . }} <!-- Capture the global context to use inside range blocks -->
-
-    <!-- Credits Section: Loop through different credit types and sort productions by opening_date -->
+    <!-- Credits Section: Read precomputed credits from data/generated/people_credits.json -->
+    {{ $generatedData := index site.Data "generated" | default dict }}
+    {{ $peopleCreditIndex := index $generatedData "people_credits" | default dict }}
+    {{ $personKey := .File.BaseFileName | urlize }}
+    {{ $personCredits := index $peopleCreditIndex $personKey | default dict }}
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-      {{ $productionsWithPerson := slice }}
-      {{ range where $global.Site.Pages "Type" "productions" }} <!-- Use $global to access .Site.Pages -->
-        {{ $production := . }}
-        {{ with index .Params $creditType }}
-          {{ $credits := slice }}
-          {{ range . }}
-            {{ range $character, $actor := . }}
-              {{ $actorSlice := slice }}
-              {{ if eq (printf "%T" $actor) "string" }}
-                {{ $actorSlice = slice $actor }}
-              {{ else }}
-                {{ $actorSlice = $actor }}
-              {{ end }}
-              {{ range $actorName := $actorSlice }}
-                {{ if eq (printf "%T" $actorName) "string" }}
-                  {{ $actorNameKey := replace $actorName "’" "'" }}
-                  {{ $actorNameKey = replace $actorNameKey "‘" "'" }}
-                  {{ $actorNameKey = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $actorNameKey }}
-                  {{ $actorNameKey = $actorNameKey | urlize }}
-                  {{ if in $personNameKeys $actorNameKey }}
-                    {{ $credits = $credits | append $character }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-          {{ if $credits }}
-            {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ $sortedProductions := sort $productionsWithPerson "production.Params.opening_date" "desc" }}
+      {{ $sortedProductions := index $personCredits $creditType | default slice }}
 
       <!-- Display the productions with the person's name in the credits -->
       {{ if $sortedProductions }}
@@ -163,26 +127,21 @@
               <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
           <!-- Left Section -->
           <div class="w-25 w-10-l">
-            {{ $featuredImage := $details.production.Params.featured_image }}
-            {{ if not $featuredImage }}
-            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
-            {{ $featuredImage = .Params.featured_image }}
-            {{ end }}
-            {{ end }}
+            {{ $featuredImage := $details.featured_image }}
             {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
             {{ if $featuredImage }}
             {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
             <!-- Concatenate path if featured image exists -->
             {{ end }}
-            <a href="{{ $details.production.RelPermalink }}">
-              <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
+            <a href="{{ $details.permalink }}">
+              <img src="{{ $imagePath }}" alt="{{ $details.title }}" class="w-100" />
             </a>
           </div>
           <!-- Right Section -->
           <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
             <!-- Left Section of Right Section -->
             <div class="b w-100 w-50-l">
-              <a href="{{ $details.production.RelPermalink }}">{{ $details.production.Title }}</a><br>
+              <a href="{{ $details.permalink }}">{{ $details.title }}</a><br>
               {{ range $index, $credit := $details.credits }}
               {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
               {{ end }}
@@ -191,13 +150,13 @@
             <div class="w-100 w-50-l tr-l">
               <!-- Added flex flex-column justify-center -->
               <div>
-                {{ with $details.production.Params.opening_date }}
+                {{ with $details.opening_date }}
                 {{ $formattedDate := "" }}
-                {{ if eq $details.production.Params.approx_date "year" }}
+                {{ if eq $details.approx_date "year" }}
                 {{/* If the date is only a year, use it directly */}}
                 {{ $parsedDate := time . }}
                 {{ $formattedDate = $parsedDate.Format "2006" }}
-                {{ else if eq $details.production.Params.approx_date "month" }}
+                {{ else if eq $details.approx_date "month" }}
                 {{/* If the date includes a month, attempt to format it accordingly */}}
                 {{ $parsedDate := time . }}
                 {{ $formattedDate = $parsedDate.Format "January 2006" }}
@@ -213,10 +172,10 @@
                 {{ end }}
               </div>
 
-              <div class="overflow-hidden nowrap">{{ $details.production.Params.theatre }}</div>
+              <div class="overflow-hidden nowrap">{{ $details.theatre }}</div>
               <div>
                 <!-- Venues -->
-                {{ $venues := $details.production.Params.venue }} <!-- Get the venue(s) -->
+                {{ $venues := $details.venue }} <!-- Get the venue(s) -->
                 {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
                 {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
                 {{ end }}
