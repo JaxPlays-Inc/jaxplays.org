@@ -1559,6 +1559,40 @@ h1 a.jaxplayslogo {
 	min-width: 0;
 }
 
+@media screen and (min-width: 64em) and (max-width: 1948px) {
+	.article-single-body--rail-grid {
+		align-items: start;
+		display: grid;
+		gap: 0 clamp(1rem, 2vw, 2rem);
+		grid-template-columns: 300px minmax(0, 35rem) 300px;
+		max-width: calc(35rem + 600px + 4rem);
+		width: 100%;
+	}
+
+	.article-single-body--rail-grid > .left-rail,
+	.article-single-body--rail-grid > .right-rail {
+		margin: 0;
+		max-width: 300px;
+		position: static;
+		width: 300px;
+	}
+
+	.article-single-body--rail-grid > .left-rail {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.article-single-body--rail-grid > .article-single-content {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.article-single-body--rail-grid > .right-rail {
+		grid-column: 3;
+		grid-row: 1;
+	}
+}
+
 .article-single-content > p:first-child {
 	font-size: 1.22rem;
 	line-height: 1.62;

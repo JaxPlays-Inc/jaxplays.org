@@ -98,7 +98,7 @@
           {{ end }}
         </header>
 
-        <div class="article-single-body">
+        <div class="article-single-body article-single-body--rail-grid">
           {{- partial "GAM-left-rail-1.html" (dict "margin" "0") -}}
 
           <div class="article-single-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes" | default "serif"}} nested-links {{ $.Param "text_color" | default "dark-gray" }}">
