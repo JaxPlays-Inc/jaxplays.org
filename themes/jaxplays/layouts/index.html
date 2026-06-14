@@ -184,6 +184,27 @@
     position: relative;
   }
 
+  @media screen and (max-width: 1919px) {
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail,
+    .home-dashboard .home-dashboard-ad-anchor > .right-rail {
+      margin: 2rem auto;
+      max-width: 100%;
+      position: static;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail {
+      left: max(-345px, calc(512px - 50vw));
+      margin: 3.8rem 0;
+      max-width: 300px;
+      position: absolute;
+      top: 0;
+      width: 300px;
+    }
+  }
+
   .home-dashboard-section-head {
     align-items: end;
     display: grid;
