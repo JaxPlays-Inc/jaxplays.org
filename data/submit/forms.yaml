@@ -410,14 +410,10 @@ audition:
       label: Announcement Graphic
       type: file
       accept: image/png,image/jpeg,image/webp,application/pdf
-    - name: description
-      label: Short Description
-      type: text
-      maxlength: 160
-      description: Provide a short summary for the audition announcement.
     - name: announcement_text
       label: Full Announcement Text
       type: textarea
+      wysiwyg: true
       description: Paste the full audition announcement or any extra details.
     - name: notes
       label: Notes

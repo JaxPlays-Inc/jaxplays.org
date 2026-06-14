@@ -75,6 +75,34 @@
 	font-weight: 700;
 }
 
+.jp-submit-wysiwyg {
+	box-sizing: border-box;
+	max-width: 100%;
+	width: 100%;
+}
+
+.jp-submit-wysiwyg-editor {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.jp-submit-wysiwyg-source {
+	margin-top: .75rem;
+	min-height: 14rem;
+}
+
+.jp-submit-wysiwyg.is-ready .jp-submit-wysiwyg-source {
+	display: none;
+}
+
+.jp-submit-wysiwyg .toastui-editor-defaultUI {
+	border-color: rgba(23, 23, 23, .32);
+}
+
+.jp-submit-wysiwyg .toastui-editor-defaultUI-toolbar {
+	background: var(--jp-paper);
+}
+
 .jp-submit-color-control {
 	align-items: stretch;
 	display: grid;
