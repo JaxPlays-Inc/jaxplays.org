@@ -70,6 +70,7 @@
                     {{- if .Title }}<option value="{{ .Title }}">{{ end -}}
                   {{- end }}
                 {{- else if eq . "venues" }}
+                  <option value="Venue Not Listed">
                   {{- range sort (where $page.Site.RegularPages "Section" "venues") "Title" }}
                     {{- if .Title }}<option value="{{ .Title }}">{{ end -}}
                   {{- end }}
@@ -270,6 +271,10 @@
       });
 
       updateConditionalFields();
+
+      form.addEventListener("input", updateConditionalFields);
+      form.addEventListener("change", updateConditionalFields);
+      form.addEventListener("reset", () => window.setTimeout(updateConditionalFields));
 
       form.addEventListener("submit", async (event) => {
         event.preventDefault();

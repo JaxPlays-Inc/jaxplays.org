@@ -91,11 +91,14 @@ production:
       type: text
       required: true
       suggestions: venues
-      description: Which venue is the production being staged at? If it is not listed, enter the venue name here and add the address below.
+      description: Which venue is the production being staged at? If it is not listed, select Venue Not Listed and add the address below.
     - name: other_venue
       label: Other Venue
       type: textarea
       description: If the venue is not listed, provide the venue name and address.
+      show_if:
+        field: venue
+        value: Venue Not Listed
     - name: genres
       label: Genres
       type: token_picker
@@ -107,6 +110,7 @@ production:
         - Musical
         - Cabaret
         - Opera
+        - Staged Reading
         - Comedy
         - Drama
         - Fantasy
@@ -114,7 +118,6 @@ production:
         - Historical
         - Horror
         - Mystery
-        - Opera
         - Political
         - Tragedy
         - Other
