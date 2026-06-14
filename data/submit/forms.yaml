@@ -21,7 +21,7 @@ profile:
       label: Headshot
       type: file
       accept: image/png,image/jpeg,image/webp
-      description: Upload your most recent professional headshot. A 4:5 aspect ratio is preferred, but 1:1 is acceptable.
+      description: Upload your most recent professional headshot. [**(4:5 ratio, 8" x 10" recommended)**](/social-media-aspect-ratios.webp)
     - name: headshot_credit
       label: Headshot Credit
       type: text
@@ -206,7 +206,7 @@ production:
       label: Poster
       type: file
       accept: image/png,image/jpeg,image/webp,application/pdf
-      description: Upload the poster for the production. A 2:3 aspect ratio poster will appear best on the website. See the [aspect ratio guide](/social-media-aspect-ratios.webp).
+      description: Upload the poster for the production. [**(2:3 aspect (24" x 36") recommended**](/social-media-aspect-ratios.webp).
     - name: poster_credit
       label: Poster Credit
       type: text
@@ -405,30 +405,8 @@ audition:
       label: Production Title
       type: text
       required: true
-    - name: audition_dates
-      label: Audition Dates and Times
-      type: textarea
-      required: true
-      description: List audition dates, times and any callback dates.
-    - name: audition_location
-      label: Audition Location
-      type: textarea
-      description: Provide the venue name, address and any arrival instructions.
-    - name: roles
-      label: Roles / Casting Needs
-      type: textarea
-      description: List available roles, age ranges, voice parts or casting notes.
-    - name: preparation
-      label: Preparation
-      type: textarea
-      description: What should auditioners prepare or bring?
-    - name: signup_link
-      label: Audition Signup Link
-      type: url
-    - name: web_page
-      label: Audition Web Page
-      type: url
     - name: announcement_graphic
+      description: Featured image for announcement **([2:1 ratio, 1200×600px recommended](/social-media-aspect-ratios.webp))**
       label: Announcement Graphic
       type: file
       accept: image/png,image/jpeg,image/webp,application/pdf
