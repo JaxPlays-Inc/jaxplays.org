@@ -528,13 +528,18 @@ h1 a.jaxplayslogo {
 	display: contents;
 }
 
+.profile-social-links,
 .theatre-social-links {
+	--theatre-single-action-size: 2.5rem;
+	--theatre-single-action-gap: calc(var(--theatre-single-action-size) * .25);
+	--theatre-single-action-icon-size: calc(var(--theatre-single-action-size) * .6);
 	align-items: center;
 	display: inline-flex;
 	flex-wrap: wrap;
 	gap: var(--theatre-single-action-gap);
 }
 
+.profile-social-link,
 .theatre-social-link {
 	align-items: center;
 	background: #fff;
@@ -550,6 +555,8 @@ h1 a.jaxplayslogo {
 	width: var(--theatre-single-action-size);
 }
 
+.profile-social-link:hover,
+.profile-social-link:focus,
 .theatre-social-link:hover,
 .theatre-social-link:focus {
 	background: #181818;
@@ -558,6 +565,7 @@ h1 a.jaxplayslogo {
 	fill: currentColor;
 }
 
+.profile-social-link svg,
 .theatre-social-link svg {
 	display: block;
 	fill: currentColor;
@@ -565,28 +573,37 @@ h1 a.jaxplayslogo {
 	width: var(--theatre-single-action-icon-size);
 }
 
+.profile-social-link--instagram svg,
+.profile-social-link--youtube svg,
+.profile-social-link--website svg,
 .theatre-social-link--instagram svg,
 .theatre-social-link--youtube svg,
 .theatre-social-link--website svg {
 	fill: none;
 }
 
+.profile-social-link--instagram circle:last-child,
+.profile-social-link--website path,
+.profile-social-link--youtube path,
 .theatre-social-link--instagram circle:last-child,
 .theatre-social-link--website path,
 .theatre-social-link--youtube path {
 	fill: currentColor;
 }
 
+.profile-social-link span,
 .theatre-social-link span {
 	font-size: 1.25rem;
 	font-weight: 800;
 	line-height: 1;
 }
 
+.profile-social-links,
 .theatre-social-links {
 	min-width: 0;
 }
 
+.profile-social-link,
 .theatre-social-link {
 	flex: 0 0 auto;
 }
@@ -1183,21 +1200,38 @@ h1 a.jaxplayslogo {
 
 .people-single-profile {
 	align-items: flex-start;
+	gap: 1.25rem;
 }
 
 .people-single-headshot-column {
-	margin-left: 0;
+	align-items: center;
+	display: flex;
+	margin-left: auto;
 	margin-right: auto;
 }
 
-.people-single-headshot-column a {
+.people-single-headshot-column > a:first-of-type {
 	display: block;
+	width: 100%;
 }
 
 .people-single-headshot {
 	aspect-ratio: 4 / 5;
 	display: block;
 	object-fit: cover;
+}
+
+.people-single-headshot-column .profile-social-links {
+	--theatre-single-action-size: 2.25rem;
+	margin-top: .75rem;
+	justify-content: center;
+}
+
+@media screen and (min-width: 30em) {
+	.people-single-headshot-column {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 .article-directory-card {
