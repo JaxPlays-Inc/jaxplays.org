@@ -1,15 +1,13 @@
 {{ define "main" }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
+{{ $productionCards := site.Data.generated.production_cards | default slice }}
 {{ $nearFutureProductions := slice }}
 {{ $futureProductions := slice }}
 
-{{ range where .Site.RegularPages "Section" "productions" }}
+{{ range $productionCards }}
   {{ $production := . }}
-  {{ $startDate := "" }}
-  {{ with $production.Params.opening_date }}
-    {{ $startDate = time . | time.Format "2006-01-02" }}
-  {{ end }}
+  {{ $startDate := $production.openingDate }}
   {{ if $startDate }}
     {{ if and (gt $startDate $currentDate) (le $startDate $futureDate) }}
       {{ $nearFutureProductions = $nearFutureProductions | append $production }}
@@ -19,12 +17,12 @@
   {{ end }}
 {{ end }}
 
-{{ $futureProductions = sort $futureProductions "Params.opening_date" "asc" }}
-{{ $nearFutureProductions = sort $nearFutureProductions "Params.opening_date" "asc" }}
+{{ $futureProductions = sort $futureProductions "openingDate" "asc" }}
+{{ $nearFutureProductions = sort $nearFutureProductions "openingDate" "asc" }}
 {{ $totalUpcoming := add (len $nearFutureProductions) (len $futureProductions) }}
 {{ $productionIndex := slice }}
 {{ range $futureProductions }}
-  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Coming Soon")) }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Coming Soon" "search" (printf "%s %s" (.searchBase | default "") "Coming Soon"))) }}
 {{ end }}
 
 <article class="productions-directory productions-directory--future">
@@ -69,7 +67,7 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $futureProductions }}
-          {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
+          {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
         {{ end }}
       </div>
     </section>

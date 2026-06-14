@@ -104,46 +104,24 @@
     <!-- Venue Productions Section -->
 
     {{ $venueName := .Title }}
-    {{ $venueAliases := .Params.venue_aliases | default (slice) }} <!-- Default to an empty slice if no aliases -->
+    {{ $venueKey := $venueName | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
+    {{ $venueProductionIndex := site.Data.generated.venue_productions | default dict }}
+    {{ $venueProductions := index $venueProductionIndex $venueKey | default slice }}
     {{ $currentDate := now.Format "2006-01-02" }}
     {{ $currentlyOnStage := slice }}
     {{ $comingSoon := slice }}
     {{ $pastProductions := slice }}
     
-    {{ range sort (where .Site.Pages "Type" "productions") "Params.opening_date" "desc" }}
-      {{ $productionVenue := .Params.venue }}
-      {{ $matchesVenue := false }}
-      {{/* Check if production venue is a string and matches venue name or any alias */}}
-      {{ if reflect.IsSlice $productionVenue }}
-        {{/* If $productionVenue is a slice, check each item */}}
-        {{ range $productionVenue }}
-          {{ if or (eq . $venueName) (in $venueAliases .) }}
-            {{ $matchesVenue = true }}
-            {{ break }}
-          {{ end }}
-        {{ end }}
-      {{ else }}
-        {{/* Directly compare if $productionVenue is not a slice */}}
-        {{ $matchesVenue = or (eq $productionVenue $venueName) (in $venueAliases $productionVenue) }}
-      {{ end }}
-    
-      {{ if $matchesVenue }}
-        {{ $openingDate := "" }}
-        {{ $endDate := "" }}
-        {{ with .Params.opening_date }}
-          {{ $openingDate = time . | time.Format "2006-01-02" }}
-        {{ end }}
-        {{ with .Params.closing_date }}
-          {{ $endDate = time . | time.Format "2006-01-02" }}
-        {{ end }}
-        {{ if $openingDate }}
-          {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
-            {{ $currentlyOnStage = $currentlyOnStage | append . }}
-          {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
-            {{ $pastProductions = $pastProductions | append . }}
-          {{ else if gt $openingDate $currentDate }}
-            {{ $comingSoon = $comingSoon | append . }}
-          {{ end }}
+    {{ range $venueProductions }}
+      {{ $openingDate := .openingDate }}
+      {{ $endDate := .closingDate | default $openingDate }}
+      {{ if $openingDate }}
+        {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+          {{ $currentlyOnStage = $currentlyOnStage | append . }}
+        {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
+          {{ $pastProductions = $pastProductions | append . }}
+        {{ else if gt $openingDate $currentDate }}
+          {{ $comingSoon = $comingSoon | append . }}
         {{ end }}
       {{ end }}
     {{ end }}    
@@ -151,9 +129,9 @@
     <!-- START Venue Productions Section-->
 
     {{/* Update sorting to account for productions that might not have a defined opening_date */}}
-    {{ $currentlyOnStage := sort $currentlyOnStage "Params.opening_date" "asc" }}
-    {{ $comingSoon := sort $comingSoon "Params.opening_date" "asc" }}
-    {{ $pastProductions := sort $pastProductions "Params.opening_date" "desc" }}
+    {{ $currentlyOnStage := sort $currentlyOnStage "openingDate" "asc" }}
+    {{ $comingSoon := sort $comingSoon "openingDate" "asc" }}
+    {{ $pastProductions := sort $pastProductions "openingDate" "desc" }}
 
     {{/* Currently On Stage Section */}}
     {{ partial "venue-production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage "showTickets" true) }}

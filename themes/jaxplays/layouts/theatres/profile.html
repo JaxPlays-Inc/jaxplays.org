@@ -45,37 +45,31 @@
 {{ $eyebrow := delimit $eyebrowParts " • " }}
 
 {{ $theatreName := .Title }}
-{{ $theatreAliases := .Params.theatre_aliases | default (slice) }}
+{{ $theatreKey := $theatreName | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
+{{ $theatreProductionIndex := site.Data.generated.theatre_productions | default dict }}
+{{ $theatreProductions := index $theatreProductionIndex $theatreKey | default slice }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $currentlyOnStage := slice }}
 {{ $comingSoon := slice }}
 {{ $pastProductions := slice }}
 
-{{ range sort (where site.Pages "Type" "productions") "Params.opening_date" "desc" }}
-  {{ if or (eq .Params.theatre $theatreName) (in $theatreAliases .Params.theatre) }}
-    {{ $openingDate := "" }}
-    {{ $endDate := "" }}
-    {{ with .Params.opening_date }}
-      {{ $openingDate = time . | time.Format "2006-01-02" }}
-    {{ end }}
-    {{ with .Params.closing_date }}
-      {{ $endDate = time . | time.Format "2006-01-02" }}
-    {{ end }}
-    {{ if $openingDate }}
-      {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
-        {{ $currentlyOnStage = $currentlyOnStage | append . }}
-      {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
-        {{ $pastProductions = $pastProductions | append . }}
-      {{ else if gt $openingDate $currentDate }}
-        {{ $comingSoon = $comingSoon | append . }}
-      {{ end }}
+{{ range $theatreProductions }}
+  {{ $openingDate := .openingDate }}
+  {{ $endDate := .closingDate | default $openingDate }}
+  {{ if $openingDate }}
+    {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+      {{ $currentlyOnStage = $currentlyOnStage | append . }}
+    {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
+      {{ $pastProductions = $pastProductions | append . }}
+    {{ else if gt $openingDate $currentDate }}
+      {{ $comingSoon = $comingSoon | append . }}
     {{ end }}
   {{ end }}
 {{ end }}
 
-{{ $currentlyOnStage = sort $currentlyOnStage "Params.opening_date" "asc" }}
-{{ $comingSoon = sort $comingSoon "Params.opening_date" "asc" }}
-{{ $pastProductions = sort $pastProductions "Params.opening_date" "desc" }}
+{{ $currentlyOnStage = sort $currentlyOnStage "openingDate" "asc" }}
+{{ $comingSoon = sort $comingSoon "openingDate" "asc" }}
+{{ $pastProductions = sort $pastProductions "openingDate" "desc" }}
 
 <article class="theatre-single">
   <div class="theatre-single-shell">
@@ -123,7 +117,7 @@
         </div>
         <div class="productions-directory-grid">
           {{ range $currentlyOnStage }}
-            {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
+            {{ partial "production-summary-card.html" (dict "production" . "status" "Now Playing") }}
           {{ end }}
         </div>
       </section>
@@ -141,7 +135,7 @@
         </div>
         <div class="productions-directory-grid">
           {{ range $comingSoon }}
-            {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
+            {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
           {{ end }}
         </div>
       </section>
@@ -161,7 +155,7 @@
         </div>
         <div class="productions-directory-grid">
           {{ range $pastPreview }}
-            {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+            {{ partial "production-summary-card.html" (dict "production" . "status" "Past Production" "showTickets" false) }}
           {{ end }}
         </div>
         <a class="jp-section-more" href="{{ $pastURL }}">More Past Productions</a>

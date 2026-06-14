@@ -1,6 +1,12 @@
 {{ define "main" }}
 {{ $currentDate := now.Format "2006-01-02" }}
+{{ $productionCards := site.Data.generated.production_cards | default slice }}
+{{ $productionCardByURL := dict }}
+{{ range $productionCards }}
+  {{ $productionCardByURL = merge $productionCardByURL (dict .url .) }}
+{{ end }}
 {{ $pastProductions := slice }}
+{{ $pastProductionCards := slice }}
 
 {{ range where .Site.RegularPages "Section" "productions" }}
   {{ $production := . }}
@@ -11,29 +17,34 @@
   {{ end }}
   {{ with $production.Params.closing_date }}
     {{ $endDate = time . | time.Format "2006-01-02" }}
-  {{ else }}
+  {{ end }}
+  {{ if and $openingDate (not $endDate) }}
     {{ $endDate = $openingDate }}
   {{ end }}
   {{ if and $openingDate $endDate }}
     {{ if and (lt $openingDate $currentDate) (lt $endDate $currentDate) }}
-      {{ $pastProductions = $pastProductions | append (dict "page" $production "sort_date" $endDate) }}
+      {{ $pastProductions = $pastProductions | append $production }}
     {{ end }}
   {{ end }}
 {{ end }}
 
-{{ $sortedPastProductions := sort $pastProductions "sort_date" "desc" }}
-{{ $sortedPages := slice }}
-{{ range $sortedPastProductions }}
-  {{ $sortedPages = $sortedPages | append .page }}
+{{ range $productionCards }}
+  {{ $openingDate := .openingDate }}
+  {{ $endDate := .closingDate | default $openingDate }}
+  {{ if and $openingDate $endDate }}
+    {{ if and (lt $openingDate $currentDate) (lt $endDate $currentDate) }}
+      {{ $pastProductionCards = $pastProductionCards | append . }}
+    {{ end }}
+  {{ end }}
 {{ end }}
+
+{{ $sortedPages := sort $pastProductions "Params.closing_date" "desc" }}
 {{ $paginator := .Paginate $sortedPages 24 }}
 {{ $productionIndex := slice }}
 {{ $playCount := 0 }}
 {{ $musicalCount := 0 }}
-{{ range $sortedPages }}
-  {{ $productionIndex = $productionIndex | append (partial "production-directory-card-data.html" (dict "page" . "status" "Past Production" "showTickets" false)) }}
-{{ end }}
-{{ range $productionIndex }}
+{{ range $pastProductionCards }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Past Production" "showTickets" false "search" (printf "%s %s" (.searchBase | default "") "Past Production"))) }}
   {{ if in .genres "Play" }}
     {{ $playCount = add $playCount 1 }}
   {{ end }}
@@ -84,7 +95,12 @@
       </div>
       <div class="productions-directory-grid">
         {{ range $paginator.Pages }}
-          {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+          {{ $card := index $productionCardByURL .RelPermalink }}
+          {{ if $card }}
+            {{ partial "production-summary-card.html" (dict "production" $card "status" "Past Production" "showTickets" false) }}
+          {{ else }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+          {{ end }}
         {{ end }}
       </div>
     </section>
