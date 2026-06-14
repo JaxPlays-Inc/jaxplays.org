@@ -2,7 +2,7 @@
 title: How to Succeed in Business Without Really Trying
 theatre: Act II Players
 venue: Mandarin United Methodist Church Theatre
-date: 2026-05-18T00:00:00-04:00
+date: 2026-06-14T19:31:22-04:00
 opening_date: 2026-07-16
 closing_date: 2026-07-19
 showtimes:
@@ -32,26 +32,27 @@ cast:
   - Rosemary Pilkington: Avery Maxham
   - J. B. Biggley: Karl Rogers
   - Bud Frump: Ethan Walls
-  - Hedy LaRue: Julia Rigon
-  - Book Voice / Toynbee / TV announcer: Dennis Stouse
   - Smitty (Miss Smith): Katie O'Neill
+  - Hedy LaRue: Julia Rigon
+  - Book Voice / Toynbee / TV Announcer: Dennis Stouse
   - Miss Jones: Marilyn Painter
   - Bratt: Chloe Dresback
   - Mr. Twimble / Tackaberry: Bryan Morris
   - Gatch: Skanda (AJ) Pratheek
   - Miss Krumholtz: Savannah Haddock
-  - Matthews / Policeman: Joel Silversten
+  - Matthews / Policeman: Joel Silverstein
   - Peterson: Kai Thomas
   - Johnson: Andrew Eger
   - Davis: Lisa Hunt
   - Ovington: Shannen Murray
   - Jenkins/Mr. Wally Womper: Tom Mackin
-  - Executives and Secretaries:
+  - Executives and Secretaries (Ensemble):
       - Bianca Baretta
       - Ava DeStefano
       - Emmy Gilyana
       - Katelyn Maguire
       - Meg Mullaney
+      - Juliana Williams
       - Camille Ziegler
       - Caragh Zeigler
 understudies:
@@ -64,8 +65,8 @@ crew:
   - Assistant Musical Director / Dance Captain: Caragh Zeigler
   - Stage Manager: Addison Farwell
   - Assistant Stage Manager: Katie O'Donnell
-  - Prop Manager: Trish Mackin
   - Rehearsal Accompanist: Hannah Riederer
+  - Prop Manager: Trish Mackin
   - Producer: Jamie Glavich
 orchestra:
 genres:
@@ -73,9 +74,9 @@ genres:
   - Comedy
   - Satire
 description: A nimble musical satire follows an ambitious window washer climbing the corporate ladder with a self-help book, charm, and comic nerve.
-source: Linear submission (JAX-5671)
-source_date: 2026-05-18
-source_url: https://linear.app/jaxplays/issue/JAX-5671/new-production-act-ii-players-how-to-succeed-in-business-without
+source: Linear submissions (JAX-5671, JAX-5680)
+source_date: 2026-06-12
+source_url: https://linear.app/jaxplays/issue/JAX-5680/updated-cast-for-how-to-succeed-in-business-without-really-trying-july
 ---
 *How to Succeed in Business Without Really Trying* follows ambitious window washer J. Pierrepont Finch as he uses a self-help book and plenty of charm to climb the corporate ladder.
 
