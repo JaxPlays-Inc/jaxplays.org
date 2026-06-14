@@ -72,15 +72,23 @@ document.addEventListener("DOMContentLoaded", function() {
           const doc = parser.parseFromString(html, 'text/html');
           const prevPost = doc.querySelector('.main-content');
           const prevNav = doc.querySelector('.post-navigation');
+          const prevBillboard = doc.querySelector('body > .billboard-1');
 
           if (prevPost) {
             prevPost.id = '';
-            document.querySelector('.main-content').parentNode.appendChild(prevPost);
+            const scrollContainer = document.querySelector('.main-content').parentNode;
+            if (prevBillboard) {
+              scrollContainer.appendChild(prevBillboard);
+            }
+            scrollContainer.appendChild(prevPost);
             if (prevNav) {
-              document.querySelector('.main-content').parentNode.appendChild(prevNav);
+              scrollContainer.appendChild(prevNav);
             }
 
             if (window.jaxplaysAds && typeof window.jaxplaysAds.registerSlots === 'function') {
+              if (prevBillboard) {
+                window.jaxplaysAds.registerSlots(prevBillboard);
+              }
               window.jaxplaysAds.registerSlots(prevPost);
               if (prevNav) {
                 window.jaxplaysAds.registerSlots(prevNav);
