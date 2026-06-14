@@ -47,10 +47,12 @@
 .jp-submit-field textarea {
 	background: #fff;
 	border: 1px solid rgba(23, 23, 23, .32);
+	box-sizing: border-box;
 	color: var(--jp-ink);
 	display: block;
 	font: inherit;
 	line-height: 1.35;
+	max-width: 100%;
 	padding: .7rem .8rem;
 	width: 100%;
 }
@@ -102,6 +104,7 @@
 	gap: .25rem;
 	justify-content: center;
 	margin: 0 !important;
+	max-width: 100%;
 	min-height: 8.25rem;
 	padding: 1.25rem;
 	text-align: center;
