@@ -8,22 +8,25 @@ featured_image:
   credit:
     name: Glo MacDonald
     url: https://glomacphotoarts.com/
-authors: 
+authors:
 - Ray Hollister
 production: 2024 Bakersfield Mist
 theatre: A Classic Theatre
-cast: 
-- Michale Lipp
-- Nancy Grote
+featuring:
+  - Michale Lipp
+  - Nancy Grote
+  - Michael Lipp
+  - Dawn Knipe
 description: "A Classic Theatre’s 'Bakersfield Mist' is a sharp, witty exploration of art and authenticity. Nancy Grote and Michael Lipp shine in this riveting battle of wits and egos."
 ---
+
 Stephen Sachs’s [[production:2024 Bakersfield Mist]], currently staged at [[theatre:A Classic Theatre]], is a masterful blend of humor and existential contemplation. While it presents itself as a light comedy, the play cleverly forces audiences to question not only what constitutes art but also what defines authenticity — whether of an object, a person or a belief. Through this small but impactful two-hander, Sachs peels back layers of prejudice and societal expectations, using witty dialogue and dynamic conflict to leave us wondering what truly holds value.
 
 Set design immediately draws you into Maude Gutman’s world — a snapshot of a life where both pride and clutter intermingle. The living room, plastered with dingy 1980s wood paneling accented by garish lime green trim, oozes a worn-out charm. Every corner is filled with a tacky yet earnest collection of kitsch: clown paintings, wild horse paintings, embroidery and a display of shot glasses that seem to narrate a life lived large in small spaces. The retro lime green fridge is particularly eye-catching, evoking a nostalgia that feels slightly off-kilter but perfectly suited to Maude’s character. The chaotic warmth of the set mirrors her chaotic but deeply human nature.
 
-Nancy Grote, as Maude, slips into the role with such ease and authenticity that you feel you’ve known this woman all your life. Her vibrant wardrobe — bright orange Crocs, light teal pants and an Aztec-patterned blouse — immediately situates her as a quintessential “trailer park” persona, yet never in a demeaning or stereotypical way. Maude is unapologetically herself, right down to her teal eyeshadow.
+[[person:Nancy Grote]], as Maude, slips into the role with such ease and authenticity that you feel you’ve known this woman all your life. Her vibrant wardrobe — bright orange Crocs, light teal pants and an Aztec-patterned blouse — immediately situates her as a quintessential “trailer park” persona, yet never in a demeaning or stereotypical way. Maude is unapologetically herself, right down to her teal eyeshadow.
 
-Michael Lipp’s Lionel Percy, on the other hand, is the embodiment of the high-brow art world: a man encased in a sharp blue suit with a matching vest and pink tie, complete with a red pinky ring and tinted reading glasses dangling from a chain. Lipp plays Lionel with a delicious balance of condescension and restraint, particularly in his interactions with Maude. Even as she hurls insults and outrageous accusations, he maintains an air of superiority without ever tipping into full arrogance — a subtlety that makes his eventual unraveling all the more satisfying.
+[[person:Michael Lipp]]’s Lionel Percy, on the other hand, is the embodiment of the high-brow art world: a man encased in a sharp blue suit with a matching vest and pink tie, complete with a red pinky ring and tinted reading glasses dangling from a chain. Lipp plays Lionel with a delicious balance of condescension and restraint, particularly in his interactions with Maude. Even as she hurls insults and outrageous accusations, he maintains an air of superiority without ever tipping into full arrogance — a subtlety that makes his eventual unraveling all the more satisfying.
 
 As the two characters verbally spar, Bakersfield Mist shifts from comedy to something far more profound. The dynamic between Maude and Lionel is electric, particularly as their power struggle escalates over the authenticity of the painting that may or may not be a Pollock. Their banter, laced with witty jabs and tense silences, captures the collision of two worlds — Maude’s rough-hewn pragmatism versus Lionel’s polished pretension.
 
@@ -33,6 +36,6 @@ One of the standout moments of the production is the fight scene — a chaotic, 
 
 {{< figure src="/media/photos/2024-Bakersfield-Mist-02.webp" alt="Michael Lipp, dressed in a blue suit, points a finger while arguing with Nancy Grote, who stands defiantly in teal pants and a patterned blouse, in a scene from 'Bakersfield Mist.' The backdrop features eclectic decor, including a lime green fridge and quirky wall art." caption="Michael Lipp as Lionel Percy and Nancy Grote as Maude Gutman face off in a heated exchange during 'Bakersfield Mist' at A Classic Theatre, each defending their view of what is truly valuable." attr="Glo MacDonald" attr_link="https://glomacphotoarts.com/" >}}
 
-But the heart of *Bakersfield Mist* lies in its quieter moments, particularly as the characters sober up. The monologues that follow are sharp and poignant, forcing the audience to consider how often what we view as superior or authentic is, in fact, nothing more than an illusion. Sachs’s script delivers this theme beautifully, and under the direction of Dawn Knipe, this production doesn’t miss the opportunity to fully explore these questions.
+But the heart of *Bakersfield Mist* lies in its quieter moments, particularly as the characters sober up. The monologues that follow are sharp and poignant, forcing the audience to consider how often what we view as superior or authentic is, in fact, nothing more than an illusion. Sachs’s script delivers this theme beautifully, and under the direction of [[person:Dawn Knipe]], this production doesn’t miss the opportunity to fully explore these questions.
 
 Grote and Lipp’s performances make this production more than just a battle of wits; it becomes a battle for identity, validation and, ultimately, truth. Whether you’re an art enthusiast or simply someone who loves good storytelling, *Bakersfield Mist* at [[theatre:A Classic Theatre]] is a thought-provoking, entertaining experience that will leave you questioning the very nature of value — both in art and in life.

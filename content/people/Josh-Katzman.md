@@ -15,4 +15,4 @@ socials:
   imdb:
   website:
 ---
-Josh Katzman, an award-winning actor from New York City, has enriched over 70 productions with his talents, including memorable roles in [[production:2024 Urinetown]], *Bye Bye Birdie*, [[production:2023 Romeo & Juliet]], *Little Shop of Horrors*, *Night of January 16*, [[production:2023 Night of the Living Dead]], *Spamalot*, and *Guys & Dolls*. Josh appreciates the collaborative spirit of his cast, friends, and family.
+Josh Katzman, an award-winning actor from New York City, has enriched over 70 productions with his talents, including memorable roles in [[production:2024 Urinetown]], *Bye Bye Birdie*, [[production:2023 Romeo and Juliet|2023 Romeo & Juliet]], *Little Shop of Horrors*, *Night of January 16*, [[production:2023 Night of the Living Dead]], *Spamalot*, and *Guys & Dolls*. Josh appreciates the collaborative spirit of his cast, friends, and family.

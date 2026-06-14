@@ -7,23 +7,26 @@ featured_image:
   caption: "The March sisters strike a triumphant pose with Laurie during an early scene that sets the playful tone of the production."
   credit:
     name: Heather Starling
-authors: 
+authors:
 - Jo El Snyder
 show_reading_time: true
 production: 2025 Little Women 3
 theatre: Amelia Community Theatre
-cast: 
-- Nicole Sheehan
-- Lisa Knapp
-- Amelia Underwood
-- Renee LaCroix
-- Julia Taylor
-- Joe Zaccaro
-- Lila Zaccaro
-- Anthony Rodriguez
-- Rem Farr
+featuring:
+  - Nicole Sheehan
+  - Lisa Knapp
+  - Amelia Underwood
+  - Renee LaCroix
+  - Julia Taylor
+  - Joe Zaccaro
+  - Lila Zaccaro
+  - Anthony Rodriguez
+  - Rem Farr
+  - Elliot Miller
+  - Renée LaCroix
 description: "Amelia Community Theatre’s Little Women, The Musical pairs vibrant performances with striking design, turning the March family’s struggles, humor and grit into a vivid story that feels immediate and deeply human."
 ---
+
 A sold-out [[production:2025 Little Women 3|Little Women: The Musical]] opened at [[theatre:Amelia Community Theatre]] on Saturday night and wastes no time upending expectations. After receiving her twenty-second rejection letter, this time from a publisher who deems her story “tasteless and vulgar,” Jo March vents her frustration to her friend Professor Bhaer. Intrigued, he asks what the story is about, and Jo perks up immediately. “Blood and guts stuff. It’s all the rage. The magazines and periodicals are full of it!”<!--more-->
 
 Inspired, Jo leaps onto the couch, swinging an imaginary sword as her imagination comes alive on the elevated stage behind her. Her sisters burst into view acting out the melodrama, complete with a heroine in the throes of being kidnapped. If you are expecting a tame sentimental story about four sweet girls simply because the title is *Little Women*, you will be startled by the first musical number where the sisters gleefully belt out:
@@ -40,7 +43,7 @@ Second eldest daughter Jo March is played by [[person:Nicole Sheehan]]. Stubborn
 
 Perhaps Jo’s fierce independence comes from the poverty the March family endures while her father is away serving in the Civil War. Marmee works tirelessly to provide for her four daughters, but it is often just enough to scrape by. Growing up where every comfort is earned, Jo develops a deep aversion to dependence of any kind, clinging instead to the belief that she must forge her own path through her writing.
 
-Their poverty becomes clear as Jo and eldest sister Meg prepare for the Valentine’s ball. At the dance, their new neighbor Laurie quickly bonds with Jo while Meg finds herself besotted with Laurie’s tutor, John Brooke. Laurie, played by [[person:Elliot Miller]] is a skilled dancer with clean, confident movement. Miller brings steady energy and an endearing sweetness to his character in every scene. Meg, played with warmth by [[person:Amelia Underwood]], transitions convincingly from a hopeful young woman to a tender young mother. One of her most delightful scenes features [[person:Anthony Rodriguez]] as the dastardly Braxton Pendergast — a moment he plays with wonderfully theatrical flair. 
+Their poverty becomes clear as Jo and eldest sister Meg prepare for the Valentine’s ball. At the dance, their new neighbor Laurie quickly bonds with Jo while Meg finds herself besotted with Laurie’s tutor, John Brooke. Laurie, played by [[person:Elliot Miller]] is a skilled dancer with clean, confident movement. Miller brings steady energy and an endearing sweetness to his character in every scene. Meg, played with warmth by [[person:Amelia Underwood]], transitions convincingly from a hopeful young woman to a tender young mother. One of her most delightful scenes features [[person:Anthony Rodriguez]] as the dastardly Braxton Pendergast — a moment he plays with wonderfully theatrical flair.
 
 As the March sisters form relationships with Laurie, his grandfather and John Brooke, the narrative gains focus and direction and grounds the musical in themes of friendship, aspiration and the increasingly complex ties between neighbors.
 
@@ -50,6 +53,6 @@ Marmee, played by [[person:Renée LaCroix]], embodies the quiet strength of a wo
 
 Amy, played by [[person:Julia Taylor]], takes on the unique challenge of portraying both the younger and older versions of the character. As twelve-year-old Amy, her attitude and eye-rolling are world-class. As the older Amy, that youthful brattiness sharpens into something more shrew-like, yet Julia keeps her consistently entertaining. [[person:Rem Farr]], as Professor Bhaer, brings a gentle sincerity to the role and uses his vocal inflection to land moments of comedy with effortless precision.
 
-There are a few technical hiccups throughout the evening, including occasional audio feedback, and I would enjoy seeing Laurie played with slightly less overt lovesickness and a bit more of the platonic older-brother warmth that hints at unspoken feelings. 
+There are a few technical hiccups throughout the evening, including occasional audio feedback, and I would enjoy seeing Laurie played with slightly less overt lovesickness and a bit more of the platonic older-brother warmth that hints at unspoken feelings.
 
 Coincidentally premiering on Louisa May Alcott’s own birthday, [[production:2025 Little Women 3|Little Women: The Musical]] arrives at [[theatre:Amelia Community Theatre]] with heart to spare. In the end, Jo discovers that her sisters are the fire inside her all along. Their modest imperfect life may not hold the sword-fighting escapades or grand adventures she once dreams of, but it gives her something far more powerful, the stories that shape her into the writer she becomes.

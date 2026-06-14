@@ -1,6 +1,6 @@
 ---
 title: "'The Savannah Sipping Society': A Toast to Sisterhood and Laughter at St. Marys Little Theatre"
-aliases: 
+aliases:
   - /news/2023/05/07/the-savannah-sipping-society-a-toast-to-sisterhood-and-laughter-at-st.-marys-little-theatre/
 layout: posts
 date: 2023-05-07T22:12:34-04:00
@@ -16,13 +16,14 @@ authors:
 excerpt_separator: <!--more-->
 production: 2023 The Savannah Sipping Society
 theatre: St. Marys Little Theatre
-cast:
-- Danya Zimbauer
-- Tori Ann Smith
-- Tammy Bradley
-- Dr. Theresa Stanley
-- Susan Langenbahn
+featuring:
+  - Danya Zimbauer
+  - Tori Ann Smith
+  - Tammy Bradley
+  - Dr. Theresa Stanley
+  - Susan Langenbahn
 ---
+
 This weekend, the [[theatre:St. Marys Little Theatre]] came alive with the vibrant performance of [[production:2023 The Savannah Sipping Society|*The Savannah Sipping Society*]]. The play, a heartwarming comedy, revolves around four Southern women who, through unexpected circumstances, form a bond that transcends their individual struggles and differences.
 <!--more-->
 The ensemble cast, featuring [[person:Danya Zimbauer]], [[person:Dr. Theresa Stanley]], [[person:Tammy Bradley]], [[person:Tori Ann Smith]] and [[person:Susan Langenbahn]], delivered a delightful and hilarious performance that left the audience in high spirits.

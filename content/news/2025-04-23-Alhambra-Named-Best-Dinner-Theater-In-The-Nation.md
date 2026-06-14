@@ -12,7 +12,7 @@ authors:
 show_reading_time: true
 description: "Jacksonville’s beloved dinner theater tops USA TODAY’s 10Best Readers’ Choice Awards"
 ---
-The [[theatre:Alhambra Theatre & Dining]] has been voted the [No. 1 dinner theater in the United States](https://10best.usatoday.com/awards/best-dinner-theater/) by readers of *USA TODAY*, topping the publication’s annual 10Best Readers’ Choice Awards.<!--more-->
+The [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] has been voted the [No. 1 dinner theater in the United States](https://10best.usatoday.com/awards/best-dinner-theater/) by readers of *USA TODAY*, topping the publication’s annual 10Best Readers’ Choice Awards.<!--more-->
 
 The national recognition marks a major milestone for the Jacksonville institution, which first opened its doors in 1967. Known for its unique blend of Broadway-style productions and three-course meals served in an intimate setting, the Alhambra holds the distinction of being the longest continuously operating professional dinner theater in the country.
 

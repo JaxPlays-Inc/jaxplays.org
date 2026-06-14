@@ -7,20 +7,22 @@ featured_image:
   caption: "David Alford, Joshua Britton Andrews and Brian Niece navigate rising tensions and shattered trust in Lumen Repertory Theatre’s *American Buffalo* ."
   credit:
     name: Jalen Hines
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 American Buffalo
 theatre: Lumen Repertory Theatre
-cast: 
-- David Alford
-- Brian Niece
-- Joshua Andrews
-- Tyler Hammond
-- Claire Cimino
-- Camala Pitts
+featuring:
+  - David Alford
+  - Brian Niece
+  - Joshua Andrews
+  - Tyler Hammond
+  - Claire Cimino
+  - Camala Pitts
+  - Joshua Britton Andrews
 description: "Lumen Repertory’s *American Buffalo* delivers raw, unvarnished tension with standout performances and a sharply observed take on power and desperation."
 ---
+
 In the dim, cluttered recesses of a Chicago junk shop, three men circle a scheme like wolves around a carcass. There’s the shop’s owner, Donny Dubrow, trying to stay one step ahead of poverty and moral compromise. His young protégé, Bobby, skittish and uncertain, wants to prove his worth. And then there’s Teach, a walking powder keg with a leather jacket and a mean streak, who sees every slight as an excuse to seize power.
 
 This is [[production:2025 American Buffalo]], [[w:David Mamet]]’s 1975 pressure cooker of a play. In [[theatre:Lumen Repertory Theatre]]’s taut, finely tuned production, directed by [[person:Tyler Hammond]] and [[person:Brian Niece]], the pressure starts high and never lets up.

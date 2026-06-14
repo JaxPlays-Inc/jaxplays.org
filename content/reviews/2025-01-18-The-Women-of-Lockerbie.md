@@ -7,22 +7,23 @@ featured_image:
   caption: "Evie Day, portraying Madeline Livingston, stands at the brink of emotional breakdown in *The Women of Lockerbie*. The scene, set against an immersive video backdrop of rolling hills and a starlit sky, encapsulates the beginning of her character's poignant journey through grief and despair."
   credit:
     name: Theatre Jacksonville
-authors: 
+authors:
 - Ray Hollister
 production: 2025 The Women of Lockerbie
 theatre: Theatre Jacksonville
-cast: 
-- Evie Day
-- Taylor Smith
-- Grace Bryan
-- Cathy Maxwell Finke
-- Greg Hewitt
-- Jeff Grove
-- Johnny Pettegrew
-- Joy Smith
+featuring:
+  - Evie Day
+  - Taylor Smith
+  - Grace Bryan
+  - Cathy Maxwell Finke
+  - Greg Hewitt
+  - Jeff Grove
+  - Johnny Pettegrew
+  - Joy Smith
 description: "The stunning production of *The Women of Lockerbie* at Theatre Jacksonville combines stellar performances with breathtaking set and lighting design."
 show_reading_time: true
 ---
+
 [[theatre:Theatre Jacksonville]]’s production of [[production:2025 The Women of Lockerbie]], directed by [[person:Jeff Grove]], delivers a poignant and deeply human exploration of grief and resilience that intertwines personal loss and collective mourning against a visually stunning backdrop. With a carefully curated cast and a set that feels as alive as the characters themselves, this production creates an immersive, emotionally resonant experience.<!--more-->
 
 *The Women of Lockerbie*, written by Deborah Brevoort, is a powerful fictional drama inspired by true events. Set seven years after the tragic bombing of Pan Am Flight 103 over Lockerbie, Scotland, the play follows grieving American parents Madeline and Bill Livingston as they travel to the Scottish hills in search of closure for their son’s death. There, they encounter a group of local women determined to reclaim the clothing of the victims from the U.S. government and return it to the families as an act of healing. Blending Greek tragedy-inspired structure with a deeply human story, the play explores themes of grief, forgiveness and the enduring strength of community in the face of unimaginable loss.

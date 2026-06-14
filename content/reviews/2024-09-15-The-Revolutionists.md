@@ -11,14 +11,15 @@ authors:
 - Ray Hollister
 production: 2024 The Revolutionists
 theatre: Players by the Sea
-cast: 
-- Jennifer Lilly
-- Ayviana Singh
-- Morgan Williams
-- Catie Casey
-- Jillianne Tamillo
+featuring:
+  - Jennifer Lilly
+  - Ayviana Singh
+  - Morgan Williams
+  - Catie Casey
+  - Jillianne Tamillo
 description: "*The Revolutionists* at Players by the Sea captivates with wit and power, bringing revolutionary women to life in a brilliant, meta-theatrical performance."
 ---
+
 Lauren Gunderson’s [[production: 2024 The Revolutionists]] unfolds at [[theatre:Players by the Sea]] as a vibrant, audacious exploration of sisterhood, revolution and the power of storytelling. Set during the upheaval of the French Revolution, this play brings together four dynamic characters: playwright Olympe de Gouges, assassin Charlotte Corday, the infamous Marie Antoinette and Marianne Angelle. Marianne is a fictional embodiment of the free Black women who were vital to the revolutionary movements in Saint-Domingue, modern-day Haiti. Though their paths never crossed in reality, Gunderson brings them together in this bold, meta-theatrical drama, filled with modern language and self-referential wit. The production delves into themes of female empowerment and artistic expression, offering a fresh lens through which to view history.
 <!--more-->
 

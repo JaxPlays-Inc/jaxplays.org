@@ -6,18 +6,19 @@ featured_image:
   alt: Four performers in 'Menopause the Musical' stand around a department store counter onstage, framed by Art Deco arches in yellow, black and white, during a group scene.
   caption: The four women of *Menopause the Musical* share the stage in a Bloomingdale’s-inspired setting, trading sharp looks and knowing humor as the comedy unfolds.
   size: content
-authors: 
+authors:
 - Jo El Snyder
 show_reading_time: true
 production: 2026 Menopause The Musical
 theatre: Alhambra Theatre and Dining
-cast:
-- Millicent (Penny) Sylvester
-- Cathy Merkel-Roddy
-- Lisa Valdini Booth
-- Dina Barone
+featuring:
+  - Millicent (Penny) Sylvester
+  - Cathy Merkel-Roddy
+  - Lisa Valdini Booth
+  - Dina Barone
 description: Playing at the Alhambra Theatre, Menopause the Musical leans into jokes about brain fog, mood swings and friendship with infectious energy.
 ---
+
 Grab your fan, shapewear and TUMS — [[production:2026 Menopause The Musical]] opened Friday night at the [[theatre:Alhambra Theatre]] in Jacksonville, Florida. Created in 2001 by Jeanie Linders in Orlando, Florida, *Menopause the Musical* has since become the longest-running musical production in Las Vegas history. A show created with Baby Boomers in mind, it puts a humorous spin on the traditional jukebox musical genre.
 <!--more-->
 

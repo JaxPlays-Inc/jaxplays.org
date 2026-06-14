@@ -8,11 +8,11 @@ featured_image:
   credit:
     name: Josh Andrews
     url: https://www.jaxheadshots.co/
-authors: 
+authors:
 - Ray Hollister
 production: 2025 Agnes of God
 theatre: Lumen Repertory Theatre
-cast: 
+featuring:
   - Katie Johnston
   - Karen Konzen
   - Maggie Cox
@@ -23,6 +23,7 @@ cast:
 description: "Faith, trauma and mystery collide in Lumen’s *Agnes of God*, a riveting production filled with raw performances and stunning atmosphere"
 show_reading_time: true
 ---
+
 [[theatre:Lumen Repertory Theatre]]’s production of [[production:2025 Agnes of God]] offers a haunting, emotionally charged evening of theater, balancing psychological tension with profound spiritual inquiry. Under the direction of [[person:Joshua Britton Andrews]] and [[person:Brian Niece]], this taut three-character drama unfolds with gripping intensity, drawing the audience into its web of doubt, faith and trauma.
 <!--more-->
 
@@ -46,7 +47,7 @@ Katie Johnston’s Mother Miriam Ruth is a commanding presence, effortlessly wie
 
 Visually, the production leans into abstraction. [[person:Claire Cimino]]’s set design — a series of massive bolts of fabric in black, grays, white and translucent shades draped from the ceiling — creates a beautiful, ethereal, dreamlike quality that enhances the play’s themes of memory and faith. However, the draped fabric, particularly at the side exits of the stage, feels cluttered and even hazardous, occasionally pulling attention away from the action.
 
-Sound production and design, on the other hand, are a triumph. The audio mix is incredibly crisp, clean and well-balanced, capturing even the most delicate nuances of emotion, tone and dynamics. In a production so reliant on intimate conversations and inner turmoil, this clarity is invaluable. Equally, Niece's sound design adds to the otherworldly quality of Agnes’ visions, leaving room for ambiguity about whether they stem from trauma or divine intervention. Carl Liberatore's lighting design is also impressive, subtly breathing, ebbing and flowing throughout the show. It enhances the dialogue, adding dimension to each conversation and underscoring emotional shifts with finesse.
+Sound production and design, on the other hand, are a triumph. The audio mix is incredibly crisp, clean and well-balanced, capturing even the most delicate nuances of emotion, tone and dynamics. In a production so reliant on intimate conversations and inner turmoil, this clarity is invaluable. Equally, Niece's sound design adds to the otherworldly quality of Agnes’ visions, leaving room for ambiguity about whether they stem from trauma or divine intervention. [[person:Carl Liberatore]]'s lighting design is also impressive, subtly breathing, ebbing and flowing throughout the show. It enhances the dialogue, adding dimension to each conversation and underscoring emotional shifts with finesse.
 
 The pacing is another highlight — the dialogue feels utterly honest and natural, never forced or overly theatrical. The actors engage in an emotional push-and-pull that keeps the show gripping without ever feeling rushed or lagging. The way the script seamlessly weaves narration and dialogue — and how the actors expertly navigate those segues — makes the transitions between storytelling and real-time exchanges feel effortless and fluid.
 

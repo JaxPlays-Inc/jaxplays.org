@@ -8,21 +8,22 @@ featured_image:
   credit:
     name: Jax Headshots
     url: https://www.jaxheadshots.co/
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 A Moon for the Misbegotten
 theatre: "ABET - All Beaches Experimental Theatre"
-cast: 
-- Jessica Racaniello 
-- Scott Broughton
-- Anthony Hodge
-- Troy Rossi
-- Scott Campbell
-- Tyler Hammond
-- David Buchman
+featuring:
+  - Jessica Racaniello
+  - Scott Broughton
+  - Anthony Hodge
+  - Troy Rossi
+  - Scott Campbell
+  - Tyler Hammond
+  - David Buchman
 description: "ABET’s *A Moon for the Misbegotten* delivers raw emotion, striking design and standout performances in O’Neill’s tale of loneliness and redemption."
 ---
+
 In Eugene O’Neill’s [[production:2025 A Moon for the Misbegotten]], the past hangs heavy over a Connecticut farm where resentment, survival and yearning intertwine. Josie Hogan, the sharp-tongued daughter of an aging tenant farmer, scrapes out a life shaped by both hardship and wit. Her father, Phil, schemes to secure the family’s land from their landlord, James Tyrone Jr., whose charm masks deep grief and self-loathing. What begins as a bluff for ownership becomes a night of searing honesty, as Josie and Tyrone’s defenses crumble and their pain is laid bare beneath the moonlight.<!--more-->
 
 [[theatre:ABET - All Beaches Experimental Theatre]]’s production at [[venue:WJCT Studio B]], directed by [[person:Tyler Hammond]], thrives in the intimacy of Studio B’s black box setting. The closeness of the audience to the actors transforms O’Neill’s dense realism into something immediate and piercing, where every silence resonates and every glance feels magnified.

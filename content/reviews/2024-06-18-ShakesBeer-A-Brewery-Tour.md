@@ -14,10 +14,17 @@ authors:
 - Ray Hollister
 production: 2024 ShakesBeer A Brewery Tour
 theatre: Lumen Repertory Theatre
-cast: 
+featuring:
+  - Christopher Watson
+  - Katie Johnston
+  - Jas Abramowitz
+  - Nicole Maahs
+  - Hayley Smith
+  - Brian Niece
 description: "Lumen Repertory Theatre's ShakesBeer: A Brewery Tour delivers a boozy, interactive Shakespeare experience blending theatre, game show antics and craft brews for a night of laughter and fun."
 ---
-*[[production:2024 ShakesBeer: A Brewery Tour|ShakesBeer: A Brewery Tour]]* returns with its unique blend of Shakespeare, interactive storytelling and brewery tour, creating a boisterous, booze-infused celebration of the Bard’s works. The talented ensemble of Jas Abramowitz, Josh Andrews, Rina Hajra-Gjoka, Katie Johnston, Amy Love, Nicole Maahs, Hayley Smith, Christopher Watson and Brian Niece, transforms local breweries into impromptu stages, delivering a show that is part theatre, part game show and entirely entertaining.<!--more-->
+
+*[[production:2024 ShakesBeer: A Brewery Tour|ShakesBeer: A Brewery Tour]]* returns with its unique blend of Shakespeare, interactive storytelling and brewery tour, creating a boisterous, booze-infused celebration of the Bard’s works. The talented ensemble of [[person:Jas Abramowitz]], Josh Andrews, Rina Hajra-Gjoka, [[person:Katie Johnston]], Amy Love, [[person:Nicole Maahs]], [[person:Hayley Smith]], [[person:Christopher Watson]] and [[person:Brian Niece]], transforms local breweries into impromptu stages, delivering a show that is part theatre, part game show and entirely entertaining.<!--more-->
 
 This innovative production reimagines Shakespearean performance by stripping away the conventional trappings of theatre—no sets, no costumes and barely any props. The result is a raw, performance-driven spectacle where the actors’ words and actions are the sole focus. Watching the cast fluidly transition between characters and scenes with just a cue is nothing short of remarkable, demonstrating their skill and versatility.
 

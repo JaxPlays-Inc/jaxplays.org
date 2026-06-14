@@ -7,20 +7,21 @@ featured_image:
   caption: "Bill Rains, as the delightful Man in Chair, brings warmth and wit to the stage in *The Drowsy Chaperone*, captivating the audience with his nostalgic reverie, showcased here in his cozy living room set at Limelight Theatre."
   credit:
     name: Limelight Theatre
-authors: 
+authors:
 - Ray Hollister
 production: 2025 The Drowsy Chaperone
 theatre: Limelight Theatre
-cast: 
-- Bill Rains
-- Jessica Alexander
-- Jimmy Alexander
-- Sherrie Provence
-- Blake Osner
-- Joellie Tucker
+featuring:
+  - Bill Rains
+  - Jessica Alexander
+  - Jimmy Alexander
+  - Sherrie Provence
+  - Blake Osner
+  - Joellie Tucker
 description: "Limelight Theatre’s *The Drowsy Chaperone* is a hilarious, meta-musical filled with dazzling performances, over-the-top antics and pure theatrical joy."
 show_reading_time: true
 ---
+
 [[theatre:Limelight Theatre]]’s production of [[production:2025 The Drowsy Chaperone]] is a love letter to the Golden Age of musical theater — wrapped in humor, nostalgia and delightful absurdity. The show follows a socially anxious theater lover, simply called Man in Chair, who invites the audience into his world as he plays a record of his favorite (fictional) 1928 musical, *The Drowsy Chaperone*. As the record spins, the musical comes to life in his living room, complete with over-the-top characters, show-stopping numbers and theatrical mishaps, all filtered through his unreliable but endearing narration.<!--more-->
 
 #### A Theatrical Experience Unlike Any Other

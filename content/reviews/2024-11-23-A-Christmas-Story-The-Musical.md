@@ -7,19 +7,20 @@ featured_image:
   caption: "A quintessential family moment unfolds in *'*A Christmas Story: The Musical* as Jean Shepherd (Jonathan Van Dyke) narrates, Mother (Jennifer Medure) cares for Randy (Elijah Lawless) and Ralphie (Keegan Carroll) and The Old Man (Craig Sherman) shares a tender father-son interaction, capturing the nostalgic essence of the holiday season."
   credit:
     name: John Hoffman
-authors: 
+authors:
 - Jo El Snyder
 production: 2024 A Christmas Story The Musical
 theatre: Alhambra Theatre & Dining
-cast: 
-- Jonathan Van Dyke
-- Keegan Carroll
-- Nikki Spies
+featuring:
+  - Jonathan Van Dyke
+  - Keegan Carroll
+  - Nikki Spies
 description: "Experience the magic of *A Christmas Story: The Musical* at Alhambra Theatre & Dining. Discover how this adaptation surpasses the beloved film with its innovative staging, captivating performances and fresh emotional depth."
 ---
+
 When I heard that Alhambra was staging [[production:2024 A Christmas Story: The Musical]], my first reaction was, "Here we go again." Another beloved movie turned into a hollow, uninspired musical? But boy-howdy, was I off target.
 
-[[theatre:Alhambra Theatre & Dining]]’s rendition doesn’t just capture the charm of the movie — it outshines it. It’s sharp, witty and bursting with energy, delivering laughs and heart like Ralphie landing a perfect shot on Black Bart. This isn’t just another adaptation; it’s a Christmas triumph!
+[[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]]’s rendition doesn’t just capture the charm of the movie — it outshines it. It’s sharp, witty and bursting with energy, delivering laughs and heart like Ralphie landing a perfect shot on Black Bart. This isn’t just another adaptation; it’s a Christmas triumph!
 
 Jean Shepherd / Adult Ralphie, played by [[person:Jonathan Van Dyke]], narrates the scenes with quirky, humorous flair, often mirroring young Ralphie’s actions in his quest for a Red Ryder BB gun. Jonathan’s energy is a powerhouse, serving as the glue that holds the show together seamlessly.
 

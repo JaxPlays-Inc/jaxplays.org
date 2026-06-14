@@ -1,6 +1,6 @@
 ---
 title: "'No Exit' - A Mystery Box You Can't Escape"
-aliases: 
+aliases:
   - /news/2023/06/28/No-Exit-A-Mystery-Box-You-Cant-Escape/
   - /news/2023/06/28/no-exit-is-a-mystery-box-you-cant-escape/
 layout: posts
@@ -18,12 +18,14 @@ description: Explore Lumen Repertory Theatre's riveting adaptation of Sartre's h
 excerpt_separator: <!--more-->
 production: 2023 No Exit
 theatre: Lumen Repertory Theatre
-cast: 
-- Josh Andrews
-- Jeff Drushal
-- Kathryn Kuhn
-- Kate McManus
+featuring:
+  - Josh Andrews
+  - Jeff Drushal
+  - Kathryn Kuhn
+  - Kate McManus
+  - Brian Niece
 ---
+
 [*No Exit*](/productions/2023-no-exit/), an adaptation of Jean-Paul Sartre's *Huis clos,* by [[theatre:Lumen Repertory Theatre]], is a disconcerting mystery box that traps you in its intrigue. This remarkable performance beckons you to delve into the human mind's darkest corners as three newly departed souls are abruptly gathered in a solitary room.
 <!--more-->
 
@@ -37,7 +39,7 @@ Adding to the tumult, [[person:Kathryn Kuhn]]’s Inez slinks onto the stage, a 
 
 {{< figure src="/media/photos/2023_No_Exit_3.webp" alt="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" caption="Kathryn Kuhn, Kate McManus and Jeff Drushal (left to right)" attr="Ray Hollister" >}}
 
-The sound design in *No Exit* is immersive and nuanced, enhancing the cinematic feel of the play. Each music cue was carefully orchestrated, enveloping the audience in the characters' eerie reality. This attention to sonic detail made the overall experience much more tactile and emotional. 
+The sound design in *No Exit* is immersive and nuanced, enhancing the cinematic feel of the play. Each music cue was carefully orchestrated, enveloping the audience in the characters' eerie reality. This attention to sonic detail made the overall experience much more tactile and emotional.
 
 The play also brilliantly incorporates well-stylized video elements, displayed on a digital screen integrated into the set design. This screen, ingeniously juxtaposed against the more traditional aspects of the set, adds a layer of modernity and surrealness. The images displayed show distored glimpses of what the characters' see happening in their absense on Earth. This unconventional storytelling device significantly contributes to the disorienting, otherworldly atmosphere, serving as a silent but impactful narrator and keeps the audience entranced.
 

@@ -9,14 +9,15 @@ featured_image:
   caption: "Feel the ground shake and hearts swell in 'Les Misérables' as the cast, united under the red flag, ignites a rousing call to arms. A visual and emotional feast for the senses."
   credit:
     name: Matthew Murphy
-authors: 
+authors:
 - Jo El Snyder
 production: 2025 Les Miserables
 theatre: FSCJ Artist Series
-cast: 
+featuring:
 description: "Experience the breathtaking spectacle of *Les Misérables* at the Jacksonville Center for the Performing Arts. A timeless tale of redemption, love and revolution brought to life with stunning visuals and powerful performances."
 show_reading_time: true
 ---
+
 The FSCJ Artist Series presentation of [[production:2025 Les Misérables]] is a visual spectacle the likes of which I have never seen. At times, I sat slack-jawed in disbelief, staring at the living painting before me. The harmonious fluidity of set changes, lighting and actors hitting their marks is like a cyclone — ripping through the stage, tearing things apart, only to magnetically reassemble into something new.<!--more-->
 
 It shouldn’t surprise me. Since its West End debut in 1985, Les Misérables breaks ground in myriad ways, particularly with its revolutionary use of a revolving stage. This production stays true to that legacy.

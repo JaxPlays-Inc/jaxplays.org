@@ -1,6 +1,6 @@
 ---
 title: "Jason Woods Remixes Wonderland and Recasts the Madness in 'A Mad, Mad Wonderland!'"
-aliases: 
+aliases:
   - /reviews/2025/05/07/jason-woods-rewires-wonderland-in-a-mad-mad-wonderland/
 date: 2025-05-07T20:29:35-04:00
 featured_image:
@@ -9,16 +9,17 @@ featured_image:
   caption: "Jason Woods steps into the surreal with *A Mad, Mad Wonderland!* as Alice, the Queen of Hearts, Mad Hatter, White Rabbit, Cheshire Cat and more."
   credit:
     name: Jason Woods Productions
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
-production: 
+production:
 theatre: Jason Woods Productions
-cast: 
-- Jason Woods
+featuring:
+  - Jason Woods
 description: "Award-winning performer Jason Woods transforms Lewis Carroll’s world in 'A Mad, Mad Wonderland!', a whirlwind one-man show packed with pop culture flair, razor-sharp character work and theatrical magic — all in just 40 minutes."
 ---
-Jason Woods’ [[production:2025 A Mad, Mad Wonderland!]] is a virtuosic, no-frills thrill ride: no set, no props, just Woods alone onstage with a whirlwind of characters he channels with uncanny precision and theatrical bravado.<!--more-->
+
+[[person:Jason Woods]]’ [[production:2025 A Mad, Mad Wonderland!]] is a virtuosic, no-frills thrill ride: no set, no props, just Woods alone onstage with a whirlwind of characters he channels with uncanny precision and theatrical bravado.<!--more-->
 
 The 40-minute solo show is a fever-dream spin through [[w:Wonderland_(fictional_country)|Wonderland]], but this isn’t a nostalgic retelling. Woods dismantles and reassembles Lewis Carroll’s world using only voice, posture and rhythm, creating something both familiar and shockingly original. He doesn’t play the characters, he becomes them, with each transformation landing so fully and fluidly that you forget there’s only one person in front of you.
 

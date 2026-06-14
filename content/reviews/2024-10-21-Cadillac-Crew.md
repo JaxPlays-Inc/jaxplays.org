@@ -8,21 +8,23 @@ featured_image:
   credit:
     name: Josh Andrews
     url: https://www.jaxheadshots.co/
-authors: 
+authors:
 - Ray Hollister
 production: 2024 Cadillac Crew
 theatre: Lumen Repertory Theatre
-cast: 
-- Felecia Ewing
-- Cetera Bunch
-- Zonnetta Marie
-- Kate McManus
-- Katie Johnston
-- Brian Niece
-- Claire Cimino
-- Mike Livingston
+featuring:
+  - Felecia Ewing
+  - Cetera Bunch
+  - Zonnetta Marie
+  - Kate McManus
+  - Katie Johnston
+  - Brian Niece
+  - Claire Cimino
+  - Mike Livingston
+  - Cetera Bunche
 description: "Lumen Repertory’s *Cadillac Crew* delivers a powerful exploration of Black women’s pivotal role in the Civil Rights Movement, with captivating performances and immersive design."
 ---
+
 Lumen Repertory Theatre’s production of Tori Sampson's brilliant and thought-provoking play, [[production:2024 Cadillac Crew]], brings a powerful blend of history, activism and personal struggle to the stage. *Cadillac Crew* explores the lesser-told stories of Black women on the front lines of the Civil Rights Movement, compelling the audience to reflect on both the past and its enduring relevance today.
 <!--more-->
 
@@ -40,9 +42,9 @@ However, the play ignites the moment [[person:Zonnetta Marie]] enters as Dee. Th
 
 {{< figure src="/media/photos/2024-Cadillac-Crew-05.webp" alt="Felecia Ewing as Abby and Zonnetta Marie as Dee in a tense moment in 'Cadillac Crew'." caption="A charged moment unfolds in 'Cadillac Crew' as Abby (Felecia Ewing), seated and introspective, contrasts with Dee (Zonnetta Marie), standing guard after a confrontation." attr="Josh Andrews" attr_link="https://www.jaxheadshots.co/" >}}
 
-As the production unfolds, [[person:Felecia Ewing]]'s portrayal of Abby gains emotional depth and nuance. Ewing skillfully reveals Abby’s internal struggles, balancing her dedication to the movement with mounting personal pressures that subtly emerge throughout the play.  Ewing’s performance suggests deeper, unspoken burdens, adding a rich emotional complexity to the production that resonates beyond the immediate action on stage.
+As the production unfolds, Felecia Ewing's portrayal of Abby gains emotional depth and nuance. Ewing skillfully reveals Abby’s internal struggles, balancing her dedication to the movement with mounting personal pressures that subtly emerge throughout the play.  Ewing’s performance suggests deeper, unspoken burdens, adding a rich emotional complexity to the production that resonates beyond the immediate action on stage.
 
-As the play progresses, [[person:Cetera Bunche]]’s portrayal of Rachel deepens, revealing more than just the surface strength of a determined leader. Behind Rachel’s fierce exterior, Bunche skillfully conveys the character’s internal struggle — an ongoing battle with self-doubt as she questions whether she is strong or worthy enough to lead the movement. This tension between outward confidence and inner turmoil adds complexity to Rachel’s drive, as she pushes forward at great personal cost. Bunche’s performance grows in intensity, particularly in her confrontations with Dee and Sarah, where cracks in her facade begin to show. Her evolution throughout the show transforms Rachel into a fully realized, multi-dimensional figure, whose unwavering passion and vulnerability solidify her as the emotional core of the production.
+As the play progresses, Cetera Bunche’s portrayal of Rachel deepens, revealing more than just the surface strength of a determined leader. Behind Rachel’s fierce exterior, Bunche skillfully conveys the character’s internal struggle — an ongoing battle with self-doubt as she questions whether she is strong or worthy enough to lead the movement. This tension between outward confidence and inner turmoil adds complexity to Rachel’s drive, as she pushes forward at great personal cost. Bunche’s performance grows in intensity, particularly in her confrontations with Dee and Sarah, where cracks in her facade begin to show. Her evolution throughout the show transforms Rachel into a fully realized, multi-dimensional figure, whose unwavering passion and vulnerability solidify her as the emotional core of the production.
 
 {{< figure src="/media/photos/2024-Cadillac-Crew-02.webp" alt="Zonnetta Marie as Dee in 'Cadillac Crew' radiates confidence and joy at her desk." caption="Zonnetta Marie as Dee in 'Cadillac Crew' radiates confidence and joy at her desk." attr="Josh Andrews" attr_link="https://www.jaxheadshots.co/" >}}
 

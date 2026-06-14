@@ -8,18 +8,20 @@ featured_image:
   credit:
     name: Solaris Foto
     url: https://solarisfoto.com
-authors: 
+authors:
 - Jo El Snyder
 production: 2025 Singin in the Rain
 theatre: Amelia Community Theatre
-cast: 
+featuring:
   - Sebastian Miller
   - Elliot Miller
   - Renee LaCroix
   - Julia Taylor
+  - Renée LaCroix
 description: "Amelia Community Theatre’s *Singin’ in the Rain* blends sharp wit, classic choreography and a timely message about reinvention."
 show_reading_time: true
 ---
+
 *Singin’ in the Rain* has entertained audiences since 1952 with a universal story that still resonates 72 years later: the fear of advancing technology stealing our jobs. The message may be sandwiched between snappy dance numbers, but it’s there. Change is coming. Adapt and innovate — or get left behind. [[theatre:Amelia Community Theatre]] in Fernandina Beach recently brought the beloved classic [[production:2025 Singin’ in the Rain]] to life on stage.
 
 The plot revolves around silent film heavyweights Lockwood and Lamont as they debut their latest movie, *The Royal Rascal*. The parade of movie stars, bedecked in sparkling 1920s costumes, is a spectacle as they strut and pose on the red carpet for their adoring fans and paparazzi. Amelia Community Theatre cleverly showcased *The Royal Rascal* to the audience via a video screen mounted above the stage. The over-the-top acting and humorous title cards delighted the audience — and the timing couldn’t be more apropos, given the recent opening of Jacksonville’s own historic silent film museum, Norman Studios.

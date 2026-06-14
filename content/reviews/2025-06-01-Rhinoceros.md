@@ -7,25 +7,25 @@ featured_image:
   caption: "Alberto Carlos Peart as Bérenger faces the terrifying transformation of his world in Limelight Theatre’s 'Rhinoceros', directed by Mary Claire Branton."
   credit:
     name: Daniel Starling
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Rhinoceros
 theatre: Limelight Theatre
-cast: 
-- Alberto Carlos Peart
-- Collin James
-- Trevor Kluckman
-- Michael Gale
-- Nicole Maahs
-- Robert O'Leary
-- Nicholas Frost
-- Amelia Gale
-- Hannah Shaeffer
-- Mary Claire Branton
-- 
+featuring:
+  - Alberto Carlos Peart
+  - Collin James
+  - Trevor Kluckman
+  - Michael Gale
+  - Nicole Maahs
+  - Robert O'Leary
+  - Nicholas Frost
+  - Amelia Gale
+  - Hannah Shaeffer
+  - Mary Claire Branton
 description: "Limelight Theatre's *Rhinoceros* confronts the absurdity of mass conformity with chilling relevance and existential depth."
 ---
+
 Eugène Ionesco’s [[production:2025 Rhinoceros]], now playing at [[theatre:Limelight Theatre]]’s [[venue:Matuza Blackbox]], is not merely a play — it’s a philosophical provocation. Written in 1959, this absurdist work remains startlingly resonant, especially in an age where ideological conformity and social contagion continue to shape public discourse.<!--more-->
 
 Set in a quaint French town, the narrative unfolds as residents inexplicably transform into rhinoceroses. This surreal metamorphosis serves as a metaphor for the ease with which individuals abandon reason and humanity to join destructive mass movements. [[w:Eugène Ionesco|Ionesco]], drawing from his experiences in 1930s Romania, critiques the allure of totalitarian ideologies and the perilous comfort found in conformity.
@@ -50,7 +50,7 @@ The rest of the supporting ensemble plays a crucial role in destabilizing the au
 
 [[person:Robert O Leary|Robert O'Leary's]] set design defies the confines of the intimate Blackbox space, sprawling with chaotic intention. Its sheer scale forces actors to navigate by crawling under tables or climbing over debris, injecting a physical tension that mirrors the play’s existential anxiety. Scene changes are nearly architectural undertakings, dismantling and rebuilding the stage to shift from the town square café to the newspaper office, Jean’s cramped apartment and eventually Bérenger’s disordered home. In most productions this might feel cumbersome, but within the logic of absurdism, the unpredictability of each transition enhances the surreal rhythm. The disorder becomes the design.
 
-Director [[person:Mary Claire Branton]] approaches *Rhinoceros* with both boldness and restraint, crafting a production that feels as much like a political mirror as it does a theatrical event. Her decision to stage this challenging absurdist work in today’s sociopolitical climate is courageous, and she wisely resists the temptation to spell out meaning for the audience. Instead, the production becomes a kind of Rorschach test — a distorted reflection inviting each viewer to confront their own assumptions. Among Branton’s most inspired choices is casting two children in pivotal archetypal roles: Amelia Gale as the befuddled Old Gentleman and Hannah Shaeffer as the overconfident Logician. These characters represent, respectively, blind credulity and cold intellectualism — and seeing such complex traits embodied by bright, eager children not only adds charm, but sharpens the unsettling irony. They are, frankly, adorable, which only heightens the tension when their words start to echo dangerous illogic that is barely candy-coated with logical phrasing.
+Director [[person:Mary Claire Branton]] approaches *Rhinoceros* with both boldness and restraint, crafting a production that feels as much like a political mirror as it does a theatrical event. Her decision to stage this challenging absurdist work in today’s sociopolitical climate is courageous, and she wisely resists the temptation to spell out meaning for the audience. Instead, the production becomes a kind of Rorschach test — a distorted reflection inviting each viewer to confront their own assumptions. Among Branton’s most inspired choices is casting two children in pivotal archetypal roles: [[person:Amelia Gale]] as the befuddled Old Gentleman and [[person:Hannah Shaeffer]] as the overconfident Logician. These characters represent, respectively, blind credulity and cold intellectualism — and seeing such complex traits embodied by bright, eager children not only adds charm, but sharpens the unsettling irony. They are, frankly, adorable, which only heightens the tension when their words start to echo dangerous illogic that is barely candy-coated with logical phrasing.
 
 Branton’s use of practical sound — the distant banging, the ominous trumpet calls echoing through unseen hallways — creates a mounting dread worthy of a psychological thriller. Much of the terror lies in what we don’t see, like a well-constructed horror film. Televisions mounted above the stage stream vintage newsreels and propaganda crafted by Nicholas Frost, grounding the audience in the historical context while also providing a clever visual buffer during the play’s large-scale, chaotic transitions. Several practical effects — left unnamed here to preserve the surprise — are so convincing that they momentarily feel like real mishaps. Through it all, Branton orchestrates the madness with control and purpose, proving that even in absurdity, every detail matters.
 

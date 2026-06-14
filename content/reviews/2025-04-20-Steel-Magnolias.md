@@ -7,11 +7,11 @@ featured_image:
   caption: "Ashlyn Brown as Shelby receives a pink robe — her signature color — from Phaedra Smith, Denise Fernandez, Ellen Hare and Izzy Hague in a scene bursting with love and laughter in *Steel Magnolias* at Orange Park Community Theatre."
   credit:
     name: Mary Roesler
-authors: 
+authors:
 - Ray Hollister
 production: 2025 Steel Magnolias
 theatre: Orange Park Community Theatre
-cast: 
+featuring:
   - Kelly Weaver
   - Phaedra Smith
   - Ashlyn Brown
@@ -29,11 +29,11 @@ show_reading_time: true
 
 Director [[person:Cindy Baker]] leans into the natural intimacy of the script, crafting a production that feels less like theater and more like eavesdropping on real life. The salon setting is beautifully realized, with wigs and products that look plucked straight from the 1980s, grounding the show in both time and place. The design elements — particularly [[person:Barbra Wells]]’ costume choices, including Shelby’s pink sweater and high-waisted jeans — act as nostalgic visual anchors throughout the production. The space feels lived-in and familiar, drawing the audience into its rhythms so fully that we feel like flies on the wall. At times, cast members appear to speak directly to the audience — but they’re addressing the salon’s unseen mirrors, a clever staging choice that enhances the realism and keeps us immersed in their world.
 
-The story begins with Truvy and Annelle, played by [[person:Kelly Weaver]] and [[person:Phaedra Smith]], whose characters shape the heart and rhythm of the salon. Truvy, the ever-optimistic stylist with a heart as big as her hairspray can, sets the tone with her steady presence and sharp Southern charm. Annelle, her timid new assistant, enters the story as an outsider, allowing the audience to learn the salon’s rhythms and relationships through her wide-eyed perspective. 
+The story begins with Truvy and Annelle, played by [[person:Kelly Weaver]] and [[person:Phaedra Smith]], whose characters shape the heart and rhythm of the salon. Truvy, the ever-optimistic stylist with a heart as big as her hairspray can, sets the tone with her steady presence and sharp Southern charm. Annelle, her timid new assistant, enters the story as an outsider, allowing the audience to learn the salon’s rhythms and relationships through her wide-eyed perspective.
 
-One of the production’s most impressive accomplishments is how seamlessly Weaver and Smith handle the styling work at the center of their characters’ world. Their movements behind the salon chairs — from parting hair to fluffing curls — feel so natural and practiced that it's easy to forget they aren’t professional stylists. Without the use of actual water or products, the illusion never breaks. It’s a testament not only to their commitment, but to the behind-the-scenes work of beauty consultant Rose Costantino, whose training brought realism to every wash, curl and precisely pulled strand from a highlight cap.
+One of the production’s most impressive accomplishments is how seamlessly Weaver and Smith handle the styling work at the center of their characters’ world. Their movements behind the salon chairs — from parting hair to fluffing curls — feel so natural and practiced that it's easy to forget they aren’t professional stylists. Without the use of actual water or products, the illusion never breaks. It’s a testament not only to their commitment, but to the behind-the-scenes work of beauty consultant [[person:Rose Costantino]], whose training brought realism to every wash, curl and precisely pulled strand from a highlight cap.
 
-[[person:Ashlyn Brown]] is radiant as Shelby Eatenton, bringing confidence and quiet strength to every moment. She captures Shelby’s charm and determination with natural ease, making the character feel fully lived-in. Her portrayal of Shelby's diabetic seizure is especially affecting — a moment executed with precision and restraint that’s both physically convincing and emotionally wrenching. Brown never overplays the moment; instead, she leans into its realism, allowing the emotion to land with heartbreaking clarity. 
+[[person:Ashlyn Brown]] is radiant as Shelby Eatenton, bringing confidence and quiet strength to every moment. She captures Shelby’s charm and determination with natural ease, making the character feel fully lived-in. Her portrayal of Shelby's diabetic seizure is especially affecting — a moment executed with precision and restraint that’s both physically convincing and emotionally wrenching. Brown never overplays the moment; instead, she leans into its realism, allowing the emotion to land with heartbreaking clarity.
 
 {{< figure src="/media/photos/2025-Steel-Magnolias-02.webp" alt="Izzy Hague as M'Lynn and Ashlyn Brown as Shelby share an emotional embrace under the soft glow of salon lights in a tender moment from 'Steel Magnolias' at Orange Park Community Theatre." caption="In the hush of the salon, M'Lynn and Shelby lean into each other, grief and grace mingling in a raw, powerful moment from *Steel Magnolias* at Orange Park Community Theatre." attr="Mary Roesler"  attr_link="">}}
 

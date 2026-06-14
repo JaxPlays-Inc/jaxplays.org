@@ -7,12 +7,12 @@ featured_image:
   caption: "Jeff Drushal and Karen Konzen lounge in oversized leather chairs, a crystal decanter between them, exuding equal parts elegance and ennui in 'Harlan and Bronna Jump Out the Window'."
   credit:
     name: Jalen Hines
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Harlan and Bronna Jump Out the Window
 theatre: Lumen Repertory Theatre
-cast: 
+featuring:
   - Jeff Drushal
   - Karen Konzen
   - Bill Ratliff
@@ -24,6 +24,7 @@ cast:
   - Brian Niece
 description: "At Lumen Rep, Michael Jacobs' 'Harlan and Bronna Jump Out the Window' premieres as an absurdist comedy mixing sharp satire with genuine poignancy."
 ---
+
 In its dazzling world premiere at [[theatre:Lumen Repertory Theatre]], [[production:2025 Harlan and Bronna Jump Out the Window]] proves itself to be a wildly funny, thought-provoking and utterly original theatrical experience. Written and directed by [[person:Michael Jacobs]], the play takes the familiar story of the wealthy elite brought low by their own excess and reinvents it as a fast-moving, absurdist romp layered with bite and brilliance.<!--more-->
 
 The play follows a fabulously self-absorbed Upper East Side couple whose gilded world collapses when their fortune evaporates. Faced with the unthinkable — living like “them down there” — Harlan and Bronna cling to cocktails, couture and increasingly outrageous schemes to preserve their sense of importance. Alongside their long-suffering business manager Kale, they spiral through parties, park benches and surreal encounters with strangers, searching for meaning in a world that refuses to play by their rules. The result is an absurdist comedy of decline that’s equal parts biting satire and laugh-out-loud entertainment, yet manages to be unexpectedly wholesome.

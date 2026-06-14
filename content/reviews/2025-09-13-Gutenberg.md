@@ -8,12 +8,12 @@ featured_image:
   credit:
     name: Kamajhia
     url: https://kamajhia.com/
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: "2025 Gutenberg! The Musical!"
 theatre: The 5 & Dime
-cast: 
+featuring:
   - Cole Marshall
   - Ethan Edward Fisher
   - Erin Barnes
@@ -21,7 +21,8 @@ cast:
   - Matt King
 description: "Smart and spectacularly stupid, *Gutenberg! The Musical!* at The 5 & Dime is a must-see comedy that celebrates and parodies everything about musicals."
 ---
-[[theatre:The 5 & Dime]]’s production of [[production:2025 Gutenberg! The Musical!]] is delightfully and unapologetically stupid — and it’s glorious. From the opening moments, the audience is roaring with laughter, and by the end, many are holding their sides in pain from laughing so hard, leaving the theater aching in the best way possible. What unfolds across the evening is a dazzling collision of silliness, heart and sheer theatrical joy, a reminder of why audiences keep coming back to the stage in the first place.
+
+[[theatre:The 5 and Dime|The 5 & Dime]]’s production of [[production:2025 Gutenberg! The Musical!]] is delightfully and unapologetically stupid — and it’s glorious. From the opening moments, the audience is roaring with laughter, and by the end, many are holding their sides in pain from laughing so hard, leaving the theater aching in the best way possible. What unfolds across the evening is a dazzling collision of silliness, heart and sheer theatrical joy, a reminder of why audiences keep coming back to the stage in the first place.
 
 The show is a send-up of every musical theater trope imaginable, yet at the same time it is a heartfelt love letter to the art form. It pokes fun at overwrought ballads, melodramatic villains, clumsy exposition and soaring finales, but it never feels cruel or dismissive. Instead, the parody is infused with affection, as though the creators are winking knowingly at the audience while also inviting them to celebrate what makes musicals irresistible. It’s both parody and homage, embracing the ridiculousness of musical theater while celebrating why we love it so deeply.
 
@@ -33,8 +34,8 @@ At the piano, [[person:Erin Barnes]] shines as musical director and accompanist.
 
 Director [[person:Matt King]] orchestrates the madness with a steady hand, letting the actors run wild within a tightly crafted frame. The pacing never lags, the absurdity never overstays its welcome, and the show maintains a breathless rhythm that keeps the audience locked in. King understands that the heart of the piece lies in both its unrelenting silliness and its unshakable sincerity, and he ensures that both shine through.
 
-This is not just a good night at the theater. It’s the kind of performance that makes audiences fall in love with theater all over again — spectacularly stupid and spectacularly smart at the same time. Audiences leave quoting jokes while also marveling at the craft behind them. 
+This is not just a good night at the theater. It’s the kind of performance that makes audiences fall in love with theater all over again — spectacularly stupid and spectacularly smart at the same time. Audiences leave quoting jokes while also marveling at the craft behind them.
 
-[[theatre:The 5 & Dime]]’s [[production:2025 Gutenberg! The Musical!]] is unforgettable, a riotous celebration of art, silliness and the strange alchemy that happens when incredibly talented people commit wholeheartedly to something beautifully dumb. For fans of musical theater, for fans of comedy or simply for anyone who wants to laugh until their ribs hurt, this production is a must-see experience, a shining example of how absurdity and brilliance can share the same stage. 
+[[theatre:The 5 and Dime|The 5 & Dime]]’s [[production:2025 Gutenberg! The Musical!]] is unforgettable, a riotous celebration of art, silliness and the strange alchemy that happens when incredibly talented people commit wholeheartedly to something beautifully dumb. For fans of musical theater, for fans of comedy or simply for anyone who wants to laugh until their ribs hurt, this production is a must-see experience, a shining example of how absurdity and brilliance can share the same stage.
 
 Do not miss this production — *even if you do have to sell your car to get there!*

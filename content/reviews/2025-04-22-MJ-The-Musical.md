@@ -7,14 +7,15 @@ featured_image:
   caption: "Jordan Markus channels the King of Pop in *MJ the Musical,* capturing the energy, style and unmistakable silhouette in a blaze of stage light."
   credit:
     name: Matthew Murphy
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 MJ The Musical
 theatre: FSCJ Artist Series
-cast: 
+featuring:
 description: "'MJ The Musical' Broadway tour delivers iconic hits, stunning choreography, immersive visuals and a powerful tribute to the legacy of Michael Jackson."
 ---
+
 [[production:2025 MJ The Musical,]] the electrifying Broadway sensation, lands in Jacksonville with a show that not only pays homage to the King of Pop but also delivers a theatrical experience that is as grand as it is intimate. With its opening night at the Jacksonville Center for the Performing Arts, the production sets the stage ablaze with dazzling choreography, stunning visuals and a heartfelt tribute to Michael Jackson’s legacy.<!--more-->
 
 Presented by the [[theatre:FSCJ Artist Series]]’ Broadway in Jacksonville, MJ The Musical transports audiences back in time to the final rehearsals for Michael Jackson’s 1992 [[w:Dangerous World Tour]]. As the crew preps for the spectacle, a journalist from MTV interviews Jackson, prompting a journey through his past — from the Jackson 5 and Motown days to solo superstardom. Through flashbacks and iconic hits, the show explores the pressure, perfectionism and passion behind one of pop music’s most legendary careers.

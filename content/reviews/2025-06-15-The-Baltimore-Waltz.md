@@ -8,19 +8,20 @@ featured_image:
   credit:
     name: Kamajhia
     url: https://www.kamajhia.com/
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 The Baltimore Waltz
 theatre: The 5 and Dime
-cast: 
-- Kristen Walsh
-- A.J. Heekin
-- Sam Cobean
-- Kate McManus
+featuring:
+  - Kristen Walsh
+  - A.J. Heekin
+  - Sam Cobean
+  - Kate McManus
 description: "*The Baltimore Waltz* at The 5 & Dime blends riotous farce and heartbreak, delivering a powerful meditation on love, loss and the urge to laugh through grief."
 ---
-[[theatre:The 5 & Dime]]'s, [[production:2025 The Baltimore Waltz]] opens with [[person:Kristen Walsh]] as Anna, an elementary school teacher blindsided by a devastating diagnosis that she is terminally ill. Instead of resignation, Anna decides she will seize every pleasure Europe has to offer. Her plan is to embrace life in the most hedonistic way possible, abandoning her old rules and letting desire set the itinerary. What unfolds is not a straightforward journey but a wild, hallucinatory romp: whimsical, raunchy and bursting with the kind of logic found only in dreams.<!--more-->
+
+[[theatre:The 5 and Dime|The 5 & Dime]]'s, [[production:2025 The Baltimore Waltz]] opens with [[person:Kristen Walsh]] as Anna, an elementary school teacher blindsided by a devastating diagnosis that she is terminally ill. Instead of resignation, Anna decides she will seize every pleasure Europe has to offer. Her plan is to embrace life in the most hedonistic way possible, abandoning her old rules and letting desire set the itinerary. What unfolds is not a straightforward journey but a wild, hallucinatory romp: whimsical, raunchy and bursting with the kind of logic found only in dreams.<!--more-->
 
 Carl, her devoted brother, played by [[person:AJ Heekin|A.J. Heekin]], takes on the role of both co-conspirator and caretaker. While Anna pursues a spree of wild encounters and forbidden indulgences, Carl orchestrates their journey with a quieter, more desperate urgency. He’s on a mission of his own, tracking down specialists, gathering medical information and clinging to the hope that somewhere, someone might have a cure.
 
@@ -32,7 +33,7 @@ Yet the laughter in *The Baltimore Waltz* isn’t just an escape; it’s also a 
 
 With every ridiculous twist, the play exposes the real absurdity: a world where compassion and urgency are replaced by bureaucracy and farce. By wrapping biting social criticism in a carnival of jokes, disguises and mistaken identities, Vogel invites the audience not just to laugh but to reckon with the cruelty of indifference and to recognize the human cost hidden behind the comedy.
 
-Director Kate McManus brings clarity and intention to every scene, balancing moments of madcap comedy with undercurrents of sorrow. Her set design is both simple and clever, a two-level, matte black structure with entrances and exits that keep the audience guessing. The space becomes a flexible backdrop for fantasy and memory, transforming with the actors’ energy. Rather than settling for the usual plywood box solution, the production makes a thoughtful choice with a real mattress, lending the many bedroom scenes a surprising degree of realism and comfort that grounds even the most surreal moments.
+Director [[person:Kate McManus]] brings clarity and intention to every scene, balancing moments of madcap comedy with undercurrents of sorrow. Her set design is both simple and clever, a two-level, matte black structure with entrances and exits that keep the audience guessing. The space becomes a flexible backdrop for fantasy and memory, transforming with the actors’ energy. Rather than settling for the usual plywood box solution, the production makes a thoughtful choice with a real mattress, lending the many bedroom scenes a surprising degree of realism and comfort that grounds even the most surreal moments.
 
 Kristen Walsh, as Anna, becomes a study in transformation. With remarkable mastery, she navigates a vast palette of emotions, shifting from one extreme to the next with breathtaking agility, as effortlessly as selecting a hue on a color wheel. Walsh embodies Anna so completely that every subtle change registers in her body and expression, creating a performance that feels immediate and alive. Her physical and emotional agility grounds the production, inviting the audience to connect with Anna’s journey on an immediate, almost visceral level.
 

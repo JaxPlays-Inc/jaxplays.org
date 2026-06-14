@@ -1,6 +1,6 @@
 ---
 title: "The 5 & Dime's 'Tick, Tick... Boom!' – An Intimate Masterpiece Capturing the Essence of the Artistic Struggle"
-aliases: 
+aliases:
 - /news/2023/08/19/tick-tick-boom-review/
 date: 2023-08-19T13:38:13.736Z
 featured_image:
@@ -14,18 +14,19 @@ authors:
 - Ray Hollister
 production: 2023 Tick Tick Boom
 theatre: The 5 & Dime
-cast: 
-- Bradley Akers
-- Zach Rivera
-- Shauna Clark
+featuring:
+  - Bradley Akers
+  - Zach Rivera
+  - Shauna Clark
 ---
+
 In a beautifully intimate and vulnerable display that strikes a chord with the creative soul, [The 5 & Dime](/theatres/the-5-and-dime/)'s rendition of *[Tick, Tick... Boom!](/productions/2023-tick-tick-boom/)* at [The Florida Ballet](/venues/the-florida-ballet/) weaves ambition, ingenuity and a hint of despair into a rich tapestry of performance. From Jonathan Larson, the acclaimed composer and playwright best known for his groundbreaking musical *[Rent](https://en.wikipedia.org/wiki/Rent_(musical))*, this semi-autobiographical work springs to life with vibrant performances and inspired direction.
 <!--more-->
 The abstract set is reminiscent of a 90s Bohemian New York apartment, complete with an exposed brick wall cluttered with a disarray of sheet music, tossed carpets strewn across the floor, and a rustic table laden with more loose leaf sheet music. Further details, such as a corded phone hanging on the wall, a piano keyboard in the center, an upright piano tucked in the corner, and an apparently broken keyboard propped against the back wall, all contribute to crafting an immersive atmosphere, immediately establishing the tone for the innovative experience that follows.
 
-The musical opens with Bradley Akers as Jon, on the brink of turning 30, working a day job at a diner and feeling the pressure to make it big before his next birthday. He's grappling with his creative passion, the commercial expectations of the entertainment industry, and his own internal "tick, tick" of time running out.
+The musical opens with [[person:Bradley Akers]] as Jon, on the brink of turning 30, working a day job at a diner and feeling the pressure to make it big before his next birthday. He's grappling with his creative passion, the commercial expectations of the entertainment industry, and his own internal "tick, tick" of time running out.
 
-Jon's best friend, Michael (Zach Rivera), has given up acting for a lucrative career in marketing, and Jon's girlfriend, Susan, (Shauna Clark) is a dancer who's considering leaving the city. Both characters serve as reflections of the alternative paths Jon could take, heightening his anxiety and self-doubt.
+Jon's best friend, Michael ([[person:Zach Rivera]]), has given up acting for a lucrative career in marketing, and Jon's girlfriend, Susan, ([[person:Shauna Clark]]) is a dancer who's considering leaving the city. Both characters serve as reflections of the alternative paths Jon could take, heightening his anxiety and self-doubt.
 
 Throughout the musical, Jon reflects on his life's choices, his relationships, and his unfulfilled dreams.
 
@@ -41,5 +42,5 @@ The balance between emotion and melody is perfect, telling the story through mus
 
 With impeccable performances, innovative staging, and a masterful balance between storytelling and music, *Tick, Tick... BOOM!* by The 5 & Dime at The Florida Ballet is a must-see for anyone seeking a theatre experience that is both intimate and powerful. The production defies common theatrical reservations, turning potential drawbacks into strengths, and leaves the audience with a renewed appreciation for the magic of live performance.
 
-If you already have plans tonight, cancel them so you can go see “Tick, Tick, Boom!” before it's gone. 
+If you already have plans tonight, cancel them so you can go see “Tick, Tick, Boom!” before it's gone.
 

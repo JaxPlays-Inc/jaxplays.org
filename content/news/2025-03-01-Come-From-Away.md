@@ -7,7 +7,7 @@ authors:
 - JaxPlays
 description:
 ---
-[[theatre:Alhambra Theatre & Dining]] has finally announced it will stage the Tony Award-winning musical [[production:2025 Come From Away]] as part of its 2025 season to open in late August.
+[[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] has finally announced it will stage the Tony Award-winning musical [[production:2025 Come From Away]] as part of its 2025 season to open in late August.
 <!--more-->
 The show, scheduled for August 28 to October 5, had been promoted as a surprise addition for the theater's fall lineup.
 

@@ -24,4 +24,4 @@ photos:
   photo_caption: Collin Galvin
   photo_attr: Anthony Paderewski - Anthony Shoots
 ---
-Collin is thrilled to be in his 3rd production at [[theatre:Alhambra Theatre & Dining]] this summer as Augustus Gloop in [[production:2025 Charlie and the Chocolate Factory]]. He has appeared in numerous regional community theatre plays in Saint Marys, GA and Fernandina Beach, FL including [[production:2024 Billy Elliot: The Musical|Billy Elliott]], Scrooge, Mean Girls, and Shrek. He has been acting since first grade and loves being on stage. He is also an aspiring singer, dancer, and musician (flute & piccolo).
+Collin is thrilled to be in his 3rd production at [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] this summer as Augustus Gloop in [[production:2025 Charlie and the Chocolate Factory]]. He has appeared in numerous regional community theatre plays in Saint Marys, GA and Fernandina Beach, FL including [[production:2024 Billy Elliot: The Musical|Billy Elliott]], Scrooge, Mean Girls, and Shrek. He has been acting since first grade and loves being on stage. He is also an aspiring singer, dancer, and musician (flute & piccolo).

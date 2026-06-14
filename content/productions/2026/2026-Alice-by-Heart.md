@@ -54,7 +54,8 @@ understudies:
   - Clarissa: Hailey Thrower
 crew:
   - Director: Leland Locke
-  - Musical Director / Costume Designer: Anvar Gashimov
+  - Musical Director: Anvar Gashimov
+  - Costume Designer: Anvar Gashimov
   - Choreographer: Lucy Graff
   - Assistant Director: Hailee Ketterer
   - Stage Manager: Jillian Cote

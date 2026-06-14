@@ -8,23 +8,28 @@ featured_image:
   credit:
     name: Ray Hollister
     url: /authors/ray-hollister
-authors: 
+authors:
 - Ray Hollister
 production: 2024 The Wedding Singer
 theatre: Alhambra Theatre & Dining
-cast: 
-- Jake Pearce
-- Brooklyn Klekamp
-- Jessie Roddy
-- Paul Gary
-- Nick Cooper
-- Keegan Smith
-- Cathy Merkle Roddy
-- Jen Brooks
-- Carly Meyer
+featuring:
+  - Jake Pearce
+  - Brooklyn Klekamp
+  - Jessie Roddy
+  - Paul Gary
+  - Nick Cooper
+  - Keegan Smith
+  - Cathy Merkle Roddy
+  - Jen Brooks
+  - Carly Meyer
+  - Shain Stroff
+  - Michael Roddy
+  - Erick Ariel Sureda
+  - David Dionne
 description: "*The Wedding Singer* at Alhambra delivers laughs, love and ‘80s nostalgia with stellar performances, inventive choreography and an infectious original score."
 ---
-[[production:2024 The Wedding Singer]] at the [[theatre:Alhambra Theatre & Dining]] brings the electric energy of the '80s to life in a bold, colorful and heartfelt production. Directed by [[person:Shain Stroff]], this reinterpretation of the beloved 1998 Adam Sandler movie captures both the nostalgic charm of the original and injects fresh, creative twists that make it a joy for both new audiences and longtime fans.<!--more-->
+
+[[production:2024 The Wedding Singer]] at the [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] brings the electric energy of the '80s to life in a bold, colorful and heartfelt production. Directed by [[person:Shain Stroff]], this reinterpretation of the beloved 1998 Adam Sandler movie captures both the nostalgic charm of the original and injects fresh, creative twists that make it a joy for both new audiences and longtime fans.<!--more-->
 
 Although *[[w:The Wedding Singer]]* film seems almost turnkey-ready for a jukebox musical, with its abundance of ‘80s hits like "You Spin Me Round (Like a Record)" and "Love Stinks" woven into the storyline, composer Matthew Sklar and lyricist Chad Beguelin went in a different direction for the stage adaptation. Rather than building the score from pre-existing hits, they penned an almost entirely original set of songs that earned them Tony and Drama Desk nominations for Best Original Score and Outstanding Music. Adam Sandler's "Somebody Kill Me" and "Grow Old With You" are the only two songs from the film that made it into the musical, but the new songs are so catchy and well-crafted that they feel like they could have been part of the original soundtrack. Most importantly, they do a lot of the heavy lifting in terms of character and plot development, something the film's score didn't have to do.
 
@@ -36,7 +41,7 @@ From the very first number, "It's Your Wedding Day," the cast bursts onto the st
 
 Rosie Hart, Robbie’s quirky and lovable grandmother, played by [[person:Cathy Merkle Roddy]], never fails to get a laugh with her antics, but there’s also a sweetness to the character that Roddy brings out beautifully. Whether she’s engaging in humorous banter or showing Robbie tough love, Roddy’s Rosie is as endearing as she is hilarious.
 
-[[person:Paul Gary]]’s portrayal of Sammy strikes the perfect balance between humor and heart, bringing the lovable loser archetype to life with flair. As Robbie’s bandmate and best friend, Sammy stumbles through life with charm, delivering awkward romantic moments and hilariously offbeat advice. Gary’s blend of goofiness and vulnerability adds depth, making each of Sammy’s scenes a blast. 
+[[person:Paul Gary]]’s portrayal of Sammy strikes the perfect balance between humor and heart, bringing the lovable loser archetype to life with flair. As Robbie’s bandmate and best friend, Sammy stumbles through life with charm, delivering awkward romantic moments and hilariously offbeat advice. Gary’s blend of goofiness and vulnerability adds depth, making each of Sammy’s scenes a blast.
 
 Then there’s [[person:Jessie Roddy]]’s Holly, a firecracker of a character with a ridiculous but spot-on New Jersey accent. While Holly could easily be a one-dimensional party girl, Roddy adds depth through sharp comedic timing and moments of vulnerability. When she belts out “Right in Front of Your Eyes,” she not only delivers powerful vocals but also manages to convey Holly’s confidence and hidden longing for something more. Roddy’s dynamic presence elevates the character, making her a standout in every scene.
 
@@ -56,4 +61,4 @@ Another particularly impressive design is the dumpster scene in "Come Out of the
 
 While much of the production mirrors the humor and beats of the original film, certain moments lack the emotional punch of the movie, and the comedic timing of some of the punchlines from the original script falls a little flat. However, what the musical adds — like the hilarious pop star impersonators — offers plenty of fresh laughs and surprises. The new song “If I Told You” feels like the perfect '80s movie ballad that never was, cementing itself as a standout addition to the show’s already infectious score.
 
-Overall, [[production:2024 The Wedding Singer]] at [[theatre:Alhambra Theatre & Dining]] is a joyous celebration of love, humor and music, wrapped in a vibrant, retro package. With sharp performances, stellar choreography and creative direction, it captures the spirit of the 1980s while adding depth to characters we thought we already knew. This production is a blast from start to finish, a love letter to the era that feels fresh and engaging for modern audiences.
+Overall, [[production:2024 The Wedding Singer]] at [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] is a joyous celebration of love, humor and music, wrapped in a vibrant, retro package. With sharp performances, stellar choreography and creative direction, it captures the spirit of the 1980s while adding depth to characters we thought we already knew. This production is a blast from start to finish, a love letter to the era that feels fresh and engaging for modern audiences.

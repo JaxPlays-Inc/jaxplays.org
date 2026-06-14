@@ -11,29 +11,33 @@ authors:
 - Ray Hollister
 production: 2026 Damn Yankees
 theatre: Alhambra Theatre & Dining
-cast:
-- Allan Baker
-- Charity Walton
-- Bob O'Hara
-- Lisa Valdini Booth
-- Thaddeus Walker
-- Natalie Drake
-- Alec Hadden
-- Patti Eyler
-- Maureen McCluskey
-- Kailey Anderson
-- James Michael Roddy
-- Sebastian Miller
-- Izee Haynes
-- Christopher Michael Milligan
-- Elijah Simms
-- Ryan Lemmon
-- Calvin Bernardo
-- Landon Amburgey
+featuring:
+  - Allan Baker
+  - Charity Walton
+  - Bob O'Hara
+  - Lisa Valdini Booth
+  - Thaddeus Walker
+  - Natalie Drake
+  - Alec Hadden
+  - Patti Eyler
+  - Maureen McCluskey
+  - Kailey Anderson
+  - James Michael Roddy
+  - Sebastian Miller
+  - Izee Haynes
+  - Christopher Michael Milligan
+  - Elijah Simms
+  - Ryan Lemmon
+  - Calvin Bernardo
+  - Landon Amburgey
+  - Tod Booth
+  - Cathy Murphy Giddens
+  - Johnny Pettegrew
 description: "Alhambra Theatre & Dining’s *Damn Yankees* delivers sharp choreography, standout performances and 1950s charm in a nostalgic musical comedy that proves irresistible fun."
 show_reading_time: true
 ---
-[[theatre:Alhambra Theatre & Dining]]’s [[production:2026 Damn Yankees]] is pure old-school musical-comedy fun — nostalgic, high-energy and packed with standout performances that know exactly what show they’re in. Under [[person:Tod Booth]]’s direction, this revival leans into its midcentury charm without feeling dusty, delivering a production that is both lovingly retro and sharply alive in the moment.
+
+[[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]]’s [[production:2026 Damn Yankees]] is pure old-school musical-comedy fun — nostalgic, high-energy and packed with standout performances that know exactly what show they’re in. Under [[person:Tod Booth]]’s direction, this revival leans into its midcentury charm without feeling dusty, delivering a production that is both lovingly retro and sharply alive in the moment.
 
 <!--more-->
 

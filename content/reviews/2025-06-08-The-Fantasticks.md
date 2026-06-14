@@ -8,26 +8,29 @@ featured_image:
   credit:
     name: Josh Andrews
   size: wide
-authors: 
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 The Fantasticks
 theatre: "ABET - All Beaches Experimental Theatre"
-cast: 
-- Franklin Ritch
-- Julia Clark
-- Nicolas DeAssis
-- Jad Jordan
-- Zachary Jones
-- Joe Capps
-- Destiny Golden
+featuring:
+  - Franklin Ritch
+  - Julia Clark
+  - Nicolas DeAssis
+  - Jad Jordan
+  - Zachary Jones
+  - Joe Capps
+  - Destiny Golden
+  - Leonard Alterman
+  - Trinity Smith
 description: "ABET’s *The Fantasticks* offers moments of charm, clever staging and committed performances in a thoughtful take on this enduring musical fable."
 ---
+
 [[theatre:ABET - All Beaches Experimental Theatre]]’s [[production:2025 The Fantasticks]] takes on one of musical theater’s most curious relics — a minimalist fable of young love and life lessons that has charmed audiences for decades. Whether its particular blend of whimsy and earnestness holds up for modern viewers is debatable, but ABET’s production finds genuine moments of charm amid the show’s quirks.<!--more-->
 
 At heart, *The Fantasticks* is a parable: two young lovers, Matt and Louisa, manipulated by their feuding fathers, must navigate the highs and lows of romance and reality. The enigmatic El Gallo serves as both narrator and puppet master, guiding them — and the audience — through a story that reveals how disillusionment often deepens love’s understanding.
 
-From the opening notes of "Try to Remember," [[person:Franklin Ritch]] immediately commands attention as El Gallo. His rich vocals and charismatic stage presence create a much-needed anchor for the production — a performer who fully understands both the romanticism and sly humor embedded in the text. Ritch navigates the role’s many shifts with ease, moving from knowing narrator to seductive conspirator to philosophical observer without ever losing the audience’s trust. His performance brings emotional depth and a sense of continuity to a show that often flirts with tonal whiplash. 
+From the opening notes of "Try to Remember," [[person:Franklin Ritch]] immediately commands attention as El Gallo. His rich vocals and charismatic stage presence create a much-needed anchor for the production — a performer who fully understands both the romanticism and sly humor embedded in the text. Ritch navigates the role’s many shifts with ease, moving from knowing narrator to seductive conspirator to philosophical observer without ever losing the audience’s trust. His performance brings emotional depth and a sense of continuity to a show that often flirts with tonal whiplash.
 
 As the story unfolds, Louisa and Matt’s rebellious love takes center stage. [[person:Julia Clark]] shines as Louisa, shifting effortlessly from vaping punk rebel to Disney princess lost in daydreams to exasperated teen. Her dynamic range keeps the character fresh and grounded, with a sly, knowing sense of humor that prevents the role from becoming saccharine. Clark’s vocal performance is a highlight — her pleasant, beautiful soprano brings warmth and lyrical grace to the more tender moments in the score. Matt, played by [[person:Nicolas DeAssis]], brings a sincere portrayal of youthful idealism, though at times his performance feels tentative, as if he is carefully working through each word and movement in real time. This sense of hesitation becomes more noticeable toward the end of the show, particularly in the vocal passages, where stronger pitch confidence would help anchor the character’s emotional journey.
 

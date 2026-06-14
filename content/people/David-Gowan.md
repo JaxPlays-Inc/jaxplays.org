@@ -15,4 +15,4 @@ socials:
   imdb:
   website:
 ---
-Most recently, David has performed in seven musicals at the [[theatre:Alhambra Theatre & Dining|Alhambra Theatre]], including such shows as *Footloose*, *42st Street*, *Music Man*, *It’s a Wonderful Life* and *The Sound of Music*. David’s community theater experience is extensive, with 30+ shows in the Jacksonville area spanning over 30 years. His connection to [[theatre:Players by the Sea]] is strong, having served as Board President, as well as being involved in many fundraising projects for our beaches theatre.
+Most recently, David has performed in seven musicals at the [[theatre:Alhambra Theatre and Dining|Alhambra Theatre]], including such shows as *Footloose*, *42st Street*, *Music Man*, *It’s a Wonderful Life* and *The Sound of Music*. David’s community theater experience is extensive, with 30+ shows in the Jacksonville area spanning over 30 years. His connection to [[theatre:Players by the Sea]] is strong, having served as Board President, as well as being involved in many fundraising projects for our beaches theatre.

@@ -7,31 +7,32 @@ featured_image:
   caption: "A snapshot from 'Beautiful: The Carole King Musical' at Alhambra Theatre & Dining."
   credit:
     name: Alhambra Theatre & Dining
-authors: 
+authors:
 - Ray Hollister
 production: 2025 Beautiful The Carole King Musical
 theatre: Alhambra Theatre & Dining
-cast: 
-- Rachel Ann Kocher
-- Ethan Davenport
-- Matthew Fecko
-- Logen Cheatham
-- Michael Roddy
-- Cathy Murphy Giddens
-- Erick Ariel Sureda
-- Nathan Roberts
-- Mason Ebert
-- Taylor Barnett
+featuring:
+  - Rachel Ann Kocher
+  - Ethan Davenport
+  - Matthew Fecko
+  - Logen Cheatham
+  - Michael Roddy
+  - Cathy Murphy Giddens
+  - Erick Ariel Sureda
+  - Nathan Roberts
+  - Mason Ebert
+  - Taylor Barnett
 description: "Alhambra’s 'Beautiful: The Carole King Musical' brings Carole King’s music and story to life with heartfelt performances, rich design and timeless songs that still resonate. Discover how this production celebrates a legendary voice."
 show_reading_time: true
 ---
-[[production:2025 Beautiful: The Carole King Musical]] at the [[theatre:Alhambra Theatre & Dining]] charts the rise of one of pop music’s most influential artists, from her early years as a teenage songwriter in 1950s Brooklyn to her triumphant debut as a solo singer-songwriter in the 1970s. Along the way, the story follows her collaborations with lyricist and husband Gerry Goffin as well as friendly rivals Cynthia Weil and Barry Mann. The show is a jukebox musical, but with enough narrative depth to give the music emotional weight — each song arriving at just the right moment in Carole’s life.
+
+[[production:2025 Beautiful: The Carole King Musical]] at the [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] charts the rise of one of pop music’s most influential artists, from her early years as a teenage songwriter in 1950s Brooklyn to her triumphant debut as a solo singer-songwriter in the 1970s. Along the way, the story follows her collaborations with lyricist and husband Gerry Goffin as well as friendly rivals Cynthia Weil and Barry Mann. The show is a jukebox musical, but with enough narrative depth to give the music emotional weight — each song arriving at just the right moment in Carole’s life.
 
 [[person:Rachel Ann Kocher]] eases into the role of Carole King with such lived-in charm that it’s easy to forget she’s acting. Her voice is sweet and earthy, and in songs like *So Far Away* and *Will You Still Love Me Tomorrow* she radiates warmth, vulnerability and grit. Her performance hits a high point in *One Fine Day* — raw, guttural and aching — and again in *It’s Too Late*, a time-traveling moment that briefly suspends the audience in the early ’70s.
 
 [[person:Ethan Davenport]] plays Gerry with charm and smooth vocals, but it’s his breakdown scene that truly shines — heartbreaking, erratic and beautifully performed. [[person:Matthew Fecko]] gives Barry a dopey sweetness without dulling his edge. [[person:Logen Cheatham]] is an energetic Cynthia, lighting up the stage with every line. Together, Cynthia and Barry’s bickering chemistry and pop brilliance give the show a buoyant, screwball rhythm. [[person:Michael Roddy]] is perfectly understated as Donny Kirshner, effortlessly grounding the chaotic world of songwriting with dry humor and cool authority.
 
-Musical director [[person:Cathy Murphy Giddens]] and choreographer [[person:Erick Ariel Sureda]] face the difficult task of maintaining energy across decades of styles. While the solos and duets often soar, unfortunately, the ensemble work lacks the cohesion typically expected from a vocal group under Giddens’ direction. The Shirelles and the Drifters lack the gravitas, confidence and stage presence of the legends that they’re meant to evoke, and they even occasionally struggle with pitch and balance. 
+Musical director [[person:Cathy Murphy Giddens]] and choreographer [[person:Erick Ariel Sureda]] face the difficult task of maintaining energy across decades of styles. While the solos and duets often soar, unfortunately, the ensemble work lacks the cohesion typically expected from a vocal group under Giddens’ direction. The Shirelles and the Drifters lack the gravitas, confidence and stage presence of the legends that they’re meant to evoke, and they even occasionally struggle with pitch and balance.
 
 Similarly, the choreography — though smartly conceived — often lacks the crisp execution needed to match the music’s pulse, feeling sluggish and out of sync. At times, dancers can even be seen glancing at one another mid-routine, clearly unsure of the next move — a moment that might pass in a high school production but feels jarring from a professional company like the Alhambra.
 

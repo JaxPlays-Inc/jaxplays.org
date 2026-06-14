@@ -46,7 +46,7 @@ REVIEW_KEYS = frozenset(
         "description",
         "featured_image",
         "featured_image_alt",
-        "cast",
+        "featuring",
         "draft",
         "url",
         "slug",
@@ -615,13 +615,13 @@ def person_reviews(
         if data.get("draft") is True:
             continue
 
-        cast = data.get("cast")
-        if not isinstance(cast, list):
+        featuring = data.get("featuring")
+        if not isinstance(featuring, list):
             continue
 
         review = review_card_entry(path, data, body)
         seen_people: set[str] = set()
-        for name in as_string_list(cast):
+        for name in as_string_list(featuring):
             canonical = name_lookup.get(normalize_name(name))
             if not canonical:
                 unmatched += 1
@@ -831,7 +831,7 @@ def main() -> int:
         f"grouped under {len(theatre_index)} theatre key(s) "
         f"and {len(venue_index)} venue key(s) "
         f"({matched} matched credit name(s), {unmatched} unmatched; "
-        f"{matched_reviews} matched review cast name(s), "
+        f"{matched_reviews} matched review featuring name(s), "
         f"{unmatched_reviews} unmatched)."
     )
     return 0
