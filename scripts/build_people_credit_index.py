@@ -181,6 +181,15 @@ def content_permalink(section: str, path: Path, data: dict[str, Any]) -> str:
     return f"/{section}/{content_urlize(path.stem)}/"
 
 
+def content_page_path(path: Path) -> str:
+    parts = path.parts
+    if "content" in parts:
+        relative = Path(*parts[parts.index("content") + 1 :])
+    else:
+        relative = path
+    return relative.with_suffix("").as_posix()
+
+
 def alias_name(alias: str) -> str:
     return alias.strip("/").split("/")[-1]
 
@@ -368,6 +377,7 @@ def production_card_entry(
     return {
         "title": title,
         "url": content_permalink("productions", path, data),
+        "contentPath": content_page_path(path),
         "poster": poster_path(featured_image),
         "posterAlt": str(poster_alt),
         "openingDate": opening_date,

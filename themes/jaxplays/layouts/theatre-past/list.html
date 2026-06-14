@@ -44,19 +44,28 @@
 {{ $theatreKey := $theatrePage.Title | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
 {{ $theatreProductionIndex := site.Data.generated.theatre_productions | default dict }}
 {{ $theatreProductions := index $theatreProductionIndex $theatreKey | default slice }}
+{{ $productionCardByPath := dict }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $pastProductions := slice }}
 
 {{ range $theatreProductions }}
+  {{ $productionCardByPath = merge $productionCardByPath (dict .contentPath .) }}
   {{ $openingDate := .openingDate }}
   {{ $endDate := .closingDate | default $openingDate }}
   {{ if and $openingDate (or (eq $endDate "") (lt $endDate $currentDate)) }}
     {{ $sortDate := cond (ne $endDate "") $endDate $openingDate }}
-    {{ $pastProductions = $pastProductions | append (merge . (dict "sortDate" $sortDate)) }}
+    {{ with site.GetPage "page" .contentPath }}
+      {{ $pastProductions = $pastProductions | append (dict "page" . "sort_date" $sortDate) }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
-{{ $pastProductions = sort $pastProductions "sortDate" "desc" }}
+{{ $sortedPastProductions := sort $pastProductions "sort_date" "desc" }}
+{{ $sortedPages := slice }}
+{{ range $sortedPastProductions }}
+  {{ $sortedPages = $sortedPages | append .page }}
+{{ end }}
+{{ $paginator := .Paginate $sortedPages 24 }}
 
 <article class="theatre-single theatre-single--past">
   <div class="theatre-single-shell">
@@ -85,18 +94,29 @@
           <p class="productions-directory-section-eyebrow">Closed Productions</p>
           <h2 id="past-productions">Past Productions</h2>
         </div>
-        <span class="productions-directory-count" data-production-section-count>{{ len $pastProductions }} listed</span>
+        <span class="productions-directory-count" data-production-section-count>{{ len $paginator.Pages }} of {{ len $sortedPages }} shown</span>
       </div>
-      {{ if $pastProductions }}
+      {{ if $paginator.Pages }}
         <div class="productions-directory-grid">
-          {{ range $pastProductions }}
-            {{ partial "production-summary-card.html" (dict "production" . "status" "Past Production") }}
+          {{ range $paginator.Pages }}
+            {{ $card := index $productionCardByPath .File.Path }}
+            {{ if $card }}
+              {{ partial "production-summary-card.html" (dict "production" $card "status" "Past Production") }}
+            {{ else }}
+              {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production") }}
+            {{ end }}
           {{ end }}
         </div>
       {{ else }}
         <p class="productions-directory-empty">No past productions are listed for {{ $theatrePage.Title }} yet.</p>
       {{ end }}
     </section>
+
+    {{ if gt $paginator.TotalPages 1 }}
+      <div data-production-pagination>
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    {{ end }}
   </div>
 </article>
 {{ end }}
