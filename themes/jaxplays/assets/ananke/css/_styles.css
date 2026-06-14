@@ -11,6 +11,15 @@
 }
 
 .jp-submit-form-wrap {
+	--jp-ink: #171717;
+	--jp-muted: #5f6670;
+	--jp-line: #d7d2c8;
+	--jp-paper: #f4f4f4;
+	--jp-cream: #f6f0e3;
+	--jp-gold: #ffd600;
+	--jp-red: #b7332f;
+	--jp-teal: #18736b;
+	--jp-blue: #28466f;
 	margin-top: 2rem;
 }
 
@@ -55,6 +64,16 @@
 	padding: .65rem;
 }
 
+.jp-submit-field[hidden] {
+	display: none;
+}
+
+.jp-submit-field fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
 .jp-submit-help {
 	color: #555;
 	font-size: .9rem;
@@ -80,6 +99,48 @@
 
 .jp-submit-choice input {
 	margin-top: .12rem;
+}
+
+.jp-submit-token-picker {
+	max-width: 100%;
+}
+
+.jp-submit-token-picker .people-directory-role-combobox {
+	background-color: #fff;
+	border-color: var(--jp-ink);
+	color: var(--jp-ink);
+}
+
+.jp-submit-token-picker .people-directory-role-panel {
+	background: #fff;
+	border-color: var(--jp-ink);
+	color: var(--jp-ink);
+	z-index: 30;
+}
+
+.jp-submit-token-picker .people-directory-role-option {
+	color: var(--jp-ink);
+}
+
+.jp-submit-field input.jp-submit-token-search:not([type="checkbox"]) {
+	background: transparent;
+	border: 0;
+	display: block;
+	flex: 1 1 7rem;
+	font-size: .95rem;
+	line-height: 1.35;
+	min-height: 2rem;
+	min-width: 7rem;
+	padding: .25rem 0;
+	width: auto;
+}
+
+.jp-submit-field .jp-submit-token-search:focus {
+	outline: none;
+}
+
+.jp-submit-token-picker input[type="hidden"] {
+	display: none;
 }
 
 .jp-submit-rights {

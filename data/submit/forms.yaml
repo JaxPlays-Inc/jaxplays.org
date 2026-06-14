@@ -98,14 +98,18 @@ production:
       description: If the venue is not listed, provide the venue name and address.
     - name: genres
       label: Genres
-      type: checkbox
+      type: token_picker
       required: true
       description: Select all genres that apply. JaxPlays only accepts scripted theatrical productions.
+      placeholder: Select genres
       options:
         - Play
         - Musical
+        - Cabaret
+        - Opera
         - Comedy
         - Drama
+        - Fantasy
         - Farce
         - Historical
         - Horror
@@ -118,6 +122,9 @@ production:
       label: Other Genres
       type: textarea
       description: Add any genres not listed above, preferably one per line.
+      show_if:
+        field: genres
+        value: Other
     - name: title
       label: Title of Production
       type: text

@@ -19,8 +19,27 @@
       {{- $type := $field.type | default "text" -}}
       {{- $fieldID := printf "jp-submit-%s-%s" $form.type $field.name | urlize -}}
       {{- $listID := printf "%s-list" $fieldID -}}
-      <div class="jp-submit-field jp-submit-field--{{ $type }}">
-        {{- if eq $type "checkbox" }}
+      {{- $showIf := $field.show_if | default dict -}}
+      <div class="jp-submit-field jp-submit-field--{{ $type }}"{{ with $showIf }} data-jp-submit-show-if data-jp-submit-show-field="{{ .field }}" data-jp-submit-show-value="{{ .value }}" hidden{{ end }}>
+        {{- if eq $type "token_picker" }}
+          <fieldset>
+            <legend id="{{ $fieldID }}-label">{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</legend>
+            {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . | markdownify }}</p>{{ end }}
+            <div class="people-directory-role-picker jp-submit-token-picker" data-jp-submit-token-picker data-jp-submit-token-name="{{ $field.name }}"{{ if $field.required }} data-jp-submit-token-required="true"{{ end }}>
+              <div class="theatres-directory-filter people-directory-role-combobox jp-submit-token-combobox" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="{{ $fieldID }}-label"{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }} data-jp-submit-token-combobox>
+                <div class="people-directory-role-values" data-jp-submit-token-values></div>
+                <label class="screen-reader-text" for="{{ $fieldID }}-search">Search {{ $field.label }}</label>
+                <input id="{{ $fieldID }}-search" class="people-directory-role-search jp-submit-token-search" type="search" autocomplete="off" placeholder="{{ $field.placeholder | default (printf "Select %s" ($field.label | lower)) }}" data-jp-submit-token-search>
+              </div>
+              <div class="people-directory-role-panel" role="listbox" data-jp-submit-token-panel hidden>
+                {{- range $option := $field.options }}
+                  {{- $choiceID := printf "%s-%s" $fieldID ($option | urlize) -}}
+                  <button id="{{ $choiceID }}" class="people-directory-role-option" type="button" role="option" aria-selected="false" data-jp-submit-token-option data-jp-submit-token-value="{{ $option }}">{{ $option }}</button>
+                {{- end }}
+              </div>
+            </div>
+          </fieldset>
+        {{- else if eq $type "checkbox" }}
           <fieldset>
             <legend>{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</legend>
             {{- with $field.description }}<p class="jp-submit-help">{{ . | markdownify }}</p>{{ end }}
@@ -85,6 +104,7 @@
       const button = form.querySelector("button[type='submit']");
       const status = form.querySelector("[data-jp-submit-status]");
       const originalButtonText = button.textContent;
+      const normalize = (value) => value.trim().toLowerCase();
       const errorMessages = {
         "origin-not-allowed": "This page is not approved for submissions yet.",
         "turnstile-required": "Please complete the verification check.",
@@ -104,6 +124,152 @@
         status.textContent = message;
         status.dataset.state = state;
       };
+
+      const updateConditionalFields = () => {
+        form.querySelectorAll("[data-jp-submit-show-if]").forEach((field) => {
+          const sourceName = field.dataset.jpSubmitShowField;
+          const expectedValue = normalize(field.dataset.jpSubmitShowValue || "");
+          if (!sourceName) return;
+          const values = [...form.querySelectorAll(`[name="${CSS.escape(sourceName)}"]`)]
+            .filter((input) => !input.disabled && (!["checkbox", "radio"].includes(input.type) || input.checked))
+            .map((input) => normalize(input.value || ""));
+          const shouldShow = values.includes(expectedValue);
+          field.hidden = !shouldShow;
+          field.querySelectorAll("input, textarea, select").forEach((input) => {
+            if (!input.dataset.jpSubmitOriginalRequired) {
+              input.dataset.jpSubmitOriginalRequired = input.required ? "true" : "false";
+            }
+            input.disabled = !shouldShow;
+            input.required = shouldShow && input.dataset.jpSubmitOriginalRequired === "true";
+          });
+        });
+      };
+
+      form.querySelectorAll("[data-jp-submit-token-picker]").forEach((picker) => {
+        const name = picker.dataset.jpSubmitTokenName;
+        const required = picker.dataset.jpSubmitTokenRequired === "true";
+        const combobox = picker.querySelector("[data-jp-submit-token-combobox]");
+        const panel = picker.querySelector("[data-jp-submit-token-panel]");
+        const values = picker.querySelector("[data-jp-submit-token-values]");
+        const search = picker.querySelector("[data-jp-submit-token-search]");
+        const options = [...picker.querySelectorAll("[data-jp-submit-token-option]")];
+        const selected = new Set();
+        const labelByValue = new Map(options.map((option) => [normalize(option.dataset.jpSubmitTokenValue || option.textContent || ""), option.dataset.jpSubmitTokenValue || option.textContent || ""]));
+        if (!name || !combobox || !panel || !values || !search || !options.length) return;
+        const defaultPlaceholder = search.getAttribute("placeholder") || "";
+
+        const selectedValues = () => [...selected];
+        const openPanel = () => {
+          panel.hidden = false;
+          combobox.setAttribute("aria-expanded", "true");
+        };
+        const closePanel = () => {
+          panel.hidden = true;
+          combobox.setAttribute("aria-expanded", "false");
+        };
+        const validate = () => {
+          search.setCustomValidity(required && !selected.size ? "Select at least one option." : "");
+        };
+        const renderTokens = () => {
+          values.replaceChildren();
+          selectedValues().forEach((value) => {
+            const token = document.createElement("button");
+            token.type = "button";
+            token.className = "people-directory-role-token";
+            token.dataset.jpSubmitTokenRemove = value;
+            token.setAttribute("aria-label", `Remove ${labelByValue.get(value) || value}`);
+
+            const label = document.createElement("span");
+            label.textContent = labelByValue.get(value) || value;
+
+            const remove = document.createElement("span");
+            remove.setAttribute("aria-hidden", "true");
+            remove.textContent = "x";
+
+            const input = document.createElement("input");
+            input.type = "hidden";
+            input.name = name;
+            input.value = labelByValue.get(value) || value;
+
+            token.append(label, remove);
+            values.append(token, input);
+          });
+          search.placeholder = selected.size ? "" : defaultPlaceholder;
+          options.forEach((option) => {
+            const value = normalize(option.dataset.jpSubmitTokenValue || option.textContent || "");
+            const isSelected = selected.has(value);
+            option.classList.toggle("is-selected", isSelected);
+            option.setAttribute("aria-selected", isSelected ? "true" : "false");
+          });
+          validate();
+          updateConditionalFields();
+        };
+        const filterOptions = () => {
+          const query = normalize(search.value);
+          options.forEach((option) => {
+            option.hidden = Boolean(query && !normalize(option.textContent || "").includes(query));
+          });
+        };
+        const toggleValue = (rawValue) => {
+          const value = normalize(rawValue);
+          if (!value) return;
+          if (selected.has(value)) selected.delete(value);
+          else selected.add(value);
+          search.value = "";
+          renderTokens();
+          filterOptions();
+        };
+
+        combobox.addEventListener("click", () => {
+          openPanel();
+          search.focus();
+        });
+        search.addEventListener("focus", openPanel);
+        search.addEventListener("input", () => {
+          openPanel();
+          filterOptions();
+        });
+        search.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            closePanel();
+            search.blur();
+          }
+          if (event.key === "Backspace" && !search.value && selected.size) {
+            event.preventDefault();
+            selected.delete(selectedValues().at(-1));
+            renderTokens();
+          }
+        });
+        options.forEach((option) => {
+          option.addEventListener("click", () => {
+            toggleValue(option.dataset.jpSubmitTokenValue || option.textContent || "");
+            openPanel();
+            search.focus();
+          });
+        });
+        values.addEventListener("click", (event) => {
+          const remove = event.target.closest("[data-jp-submit-token-remove]");
+          if (!remove) return;
+          event.stopPropagation();
+          selected.delete(remove.dataset.jpSubmitTokenRemove);
+          renderTokens();
+          search.focus();
+        });
+        document.addEventListener("click", (event) => {
+          if (!picker.contains(event.target)) closePanel();
+        });
+        form.addEventListener("reset", () => {
+          selected.clear();
+          search.value = "";
+          window.setTimeout(() => {
+            renderTokens();
+            filterOptions();
+          });
+        });
+        renderTokens();
+      });
+
+      updateConditionalFields();
 
       form.addEventListener("submit", async (event) => {
         event.preventDefault();
