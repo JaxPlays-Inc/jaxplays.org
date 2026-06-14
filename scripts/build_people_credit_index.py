@@ -39,6 +39,19 @@ PRODUCTION_KEYS = frozenset(
 SHOW_KEYS = frozenset(("title", "description", "genres", "featured_image", "featured_image_alt"))
 THEATRE_KEYS = frozenset(("title", "theatre_aliases", "directory"))
 VENUE_KEYS = frozenset(("title", "venue_aliases", "directory"))
+REVIEW_KEYS = frozenset(
+    (
+        "title",
+        "date",
+        "description",
+        "featured_image",
+        "featured_image_alt",
+        "cast",
+        "draft",
+        "url",
+        "slug",
+    )
+)
 
 
 def split_front_matter(text: str, path: Path) -> str:
@@ -124,6 +137,17 @@ def content_urlize(value: str) -> str:
     return value
 
 
+def review_slug(value: str) -> str:
+    value = value.replace("'", "").replace("’", "").replace("‘", "")
+    value = value.replace("&", "")
+    value = value.lower()
+    value = re.sub(r"[-–—]+", " ", value)
+    value = re.sub(r"[^a-z0-9.\s]+", "", value)
+    value = re.sub(r"\s+", "-", value)
+    value = re.sub(r"-+", "-", value)
+    return value.strip("-")
+
+
 def as_string_list(value: Any) -> list[str]:
     if value is None:
         return []
@@ -188,6 +212,38 @@ def content_page_path(path: Path) -> str:
     else:
         relative = path
     return relative.with_suffix("").as_posix()
+
+
+def parse_date(value: Any) -> datetime | None:
+    if isinstance(value, datetime):
+        return value
+    if isinstance(value, date):
+        return datetime.combine(value, datetime.min.time())
+    if not value:
+        return None
+    text = str(value)
+    try:
+        return datetime.fromisoformat(text)
+    except ValueError:
+        try:
+            return datetime.strptime(text[:10], "%Y-%m-%d")
+        except ValueError:
+            return None
+
+
+def review_permalink(path: Path, data: dict[str, Any]) -> str:
+    url = data.get("url")
+    if isinstance(url, str) and url.strip():
+        return url if url.endswith("/") else f"{url}/"
+
+    review_date = parse_date(data.get("date")) or datetime.fromtimestamp(path.stat().st_mtime)
+    slug = data.get("slug")
+    if not isinstance(slug, str) or not slug.strip():
+        slug = str(data.get("title") or path.stem)
+    return (
+        f"/reviews/{review_date:%Y}/{review_date:%m}/{review_date:%d}/"
+        f"{review_slug(slug)}/"
+    )
 
 
 def alias_name(alias: str) -> str:
@@ -506,6 +562,82 @@ def venue_productions(
     return grouped
 
 
+def featured_image_src(value: Any, default: str = "") -> str:
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        src = value.get("src")
+        if isinstance(src, str):
+            return src
+    return default
+
+
+def featured_image_alt(value: Any, default: str = "") -> str:
+    if isinstance(value, dict):
+        alt = value.get("alt")
+        if isinstance(alt, str):
+            return alt
+    return default
+
+
+def review_card_entry(path: Path, data: dict[str, Any], body: str) -> dict[str, Any]:
+    title = str(data.get("title") or path.stem)
+    review_date = parse_date(data.get("date"))
+    description = data.get("description") or ""
+    summary = truncate_text(plain_text(description or body), 300)
+    image = featured_image_src(data.get("featured_image"))
+
+    return {
+        "title": title,
+        "url": review_permalink(path, data),
+        "date": review_date.isoformat() if review_date else "",
+        "dateLabel": format_date_label(review_date.isoformat()) if review_date else "",
+        "summary": summary,
+        "featuredImage": image,
+        "featuredImageAlt": featured_image_alt(data.get("featured_image"), title),
+    }
+
+
+def person_reviews(
+    reviews_dir: Path,
+    name_lookup: dict[str, str],
+) -> tuple[dict[str, list[dict[str, Any]]], int, int]:
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    matched = 0
+    unmatched = 0
+
+    for path in sorted(reviews_dir.glob("*.md")):
+        try:
+            data, body = load_front_matter_and_body(path, REVIEW_KEYS)
+        except (ValueError, yaml.YAMLError) as error:
+            print(f"Warning: skipping {path}: {error}", file=sys.stderr)
+            continue
+        if data.get("draft") is True:
+            continue
+
+        cast = data.get("cast")
+        if not isinstance(cast, list):
+            continue
+
+        review = review_card_entry(path, data, body)
+        seen_people: set[str] = set()
+        for name in as_string_list(cast):
+            canonical = name_lookup.get(normalize_name(name))
+            if not canonical:
+                unmatched += 1
+                continue
+            if canonical in seen_people:
+                continue
+            grouped.setdefault(canonical, []).append(review)
+            seen_people.add(canonical)
+            matched += 1
+
+    for reviews in grouped.values():
+        reviews.sort(key=lambda review: str(review.get("date") or ""), reverse=True)
+
+    return grouped, matched, unmatched
+
+
 def add_credit(
     people_credits: dict[str, Any],
     canonical: str,
@@ -616,6 +748,12 @@ def main() -> int:
         default=Path("data/generated/venue_productions.json"),
         help="venue production index output path, relative to root unless absolute",
     )
+    parser.add_argument(
+        "--person-reviews-output",
+        type=Path,
+        default=Path("data/generated/person_reviews.json"),
+        help="person review index output path, relative to root unless absolute",
+    )
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -637,6 +775,11 @@ def main() -> int:
         args.venue_productions_output
         if args.venue_productions_output.is_absolute()
         else root / args.venue_productions_output
+    )
+    person_reviews_output = (
+        args.person_reviews_output
+        if args.person_reviews_output.is_absolute()
+        else root / args.person_reviews_output
     )
 
     name_lookup, people_credits, people_lookup = person_lookup(root / "content" / "people")
@@ -667,18 +810,29 @@ def main() -> int:
     venue_productions_output.write_text(
         json.dumps(venue_index, indent=2, ensure_ascii=False) + "\n"
     )
+    review_index, matched_reviews, unmatched_reviews = person_reviews(
+        root / "content" / "reviews",
+        name_lookup,
+    )
+    person_reviews_output.parent.mkdir(parents=True, exist_ok=True)
+    person_reviews_output.write_text(
+        json.dumps(review_index, indent=2, ensure_ascii=False) + "\n"
+    )
 
     print(
         "Generated "
         f"{output.relative_to(root)}, {lookup_output.relative_to(root)}, "
         f"{production_cards_output.relative_to(root)}, "
         f"{theatre_productions_output.relative_to(root)}, "
-        f"and {venue_productions_output.relative_to(root)} "
+        f"{venue_productions_output.relative_to(root)}, "
+        f"and {person_reviews_output.relative_to(root)} "
         f"for {len(people_credits)} people "
         f"and {len(cards)} production card(s) "
         f"grouped under {len(theatre_index)} theatre key(s) "
         f"and {len(venue_index)} venue key(s) "
-        f"({matched} matched credit name(s), {unmatched} unmatched)."
+        f"({matched} matched credit name(s), {unmatched} unmatched; "
+        f"{matched_reviews} matched review cast name(s), "
+        f"{unmatched_reviews} unmatched)."
     )
     return 0
 
