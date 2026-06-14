@@ -217,10 +217,10 @@ production:
       accept: image/png,image/jpeg,image/webp,application/pdf
       description: Upload a program or handout if you have one.
     - name: description
-      label: Description
-      type: textarea
-      maxlength: 200
-      description: Provide a short 150-200 character description of the show.
+      label: Short Description
+      type: text
+      maxlength: 160
+      description: Provide a short 160 character description of the show.
     - name: synopsis
       label: Synopsis / Production Notes
       type: textarea
@@ -412,8 +412,8 @@ audition:
       accept: image/png,image/jpeg,image/webp,application/pdf
     - name: description
       label: Short Description
-      type: textarea
-      maxlength: 200
+      type: text
+      maxlength: 160
       description: Provide a short summary for the audition announcement.
     - name: announcement_text
       label: Full Announcement Text

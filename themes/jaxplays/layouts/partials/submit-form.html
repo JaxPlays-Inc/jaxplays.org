@@ -62,7 +62,10 @@
           <label for="{{ $fieldID }}">{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</label>
           {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . | markdownify | replaceRE "<a href=" "<a target=\"_blank\" rel=\"noopener\" href=" | safeHTML }}</p>{{ end }}
           {{- if eq $type "textarea" }}
-            <textarea id="{{ $fieldID }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}></textarea>
+            <textarea id="{{ $fieldID }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}" data-jp-submit-character-count{{ end }}{{ if or $field.description $field.maxlength }} aria-describedby="{{ with $field.description }}{{ $fieldID }}-help{{ end }}{{ if and $field.description $field.maxlength }} {{ end }}{{ with $field.maxlength }}{{ $fieldID }}-counter{{ end }}"{{ end }}></textarea>
+            {{- with $field.maxlength }}
+              <p class="jp-submit-character-counter" id="{{ $fieldID }}-counter" data-jp-submit-character-counter data-jp-submit-character-limit="{{ . }}"><span data-jp-submit-character-current>0</span>/{{ . }} characters</p>
+            {{- end }}
             {{- if $field.datetime_helper }}
               <div class="jp-submit-datetime-helper" data-jp-submit-datetime-helper data-jp-submit-datetime-target="{{ $fieldID }}">
                 <div class="jp-submit-datetime-control">
@@ -90,10 +93,16 @@
           {{- else if $field.color_picker }}
             <div class="jp-submit-color-control" data-jp-submit-color-control>
               <input class="jp-submit-color-picker" type="color" value="{{ $field.color_value | default $field.value | default "#000000" }}" aria-label="Pick {{ $field.label }}" data-jp-submit-color-picker>
-              <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }} data-jp-submit-color-text>
+              <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}" data-jp-submit-character-count{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ if or $field.description $field.maxlength }} aria-describedby="{{ with $field.description }}{{ $fieldID }}-help{{ end }}{{ if and $field.description $field.maxlength }} {{ end }}{{ with $field.maxlength }}{{ $fieldID }}-counter{{ end }}"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }} data-jp-submit-color-text>
+              {{- with $field.maxlength }}
+                <p class="jp-submit-character-counter" id="{{ $fieldID }}-counter" data-jp-submit-character-counter data-jp-submit-character-limit="{{ . }}"><span data-jp-submit-character-current>0</span>/{{ . }} characters</p>
+              {{- end }}
             </div>
           {{- else }}
-            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}{{ if $field.phone_format }} inputmode="tel" autocomplete="tel" data-jp-submit-phone-format{{ end }}>
+            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}" data-jp-submit-character-count{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ if or $field.description $field.maxlength }} aria-describedby="{{ with $field.description }}{{ $fieldID }}-help{{ end }}{{ if and $field.description $field.maxlength }} {{ end }}{{ with $field.maxlength }}{{ $fieldID }}-counter{{ end }}"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}{{ if $field.phone_format }} inputmode="tel" autocomplete="tel" data-jp-submit-phone-format{{ end }}>
+            {{- with $field.maxlength }}
+              <p class="jp-submit-character-counter" id="{{ $fieldID }}-counter" data-jp-submit-character-counter data-jp-submit-character-limit="{{ . }}"><span data-jp-submit-character-current>0</span>/{{ . }} characters</p>
+            {{- end }}
             {{- with $field.suggestions }}
               <datalist id="{{ $listID }}">
                 {{- if eq . "theatres" }}
@@ -424,6 +433,21 @@
 
         input.addEventListener("input", formatPhone);
         input.addEventListener("blur", formatPhone);
+      });
+
+      form.querySelectorAll("[data-jp-submit-character-count]").forEach((input) => {
+        const counter = input.closest(".jp-submit-field")?.querySelector("[data-jp-submit-character-counter]");
+        const current = counter?.querySelector("[data-jp-submit-character-current]");
+        if (!counter || !current) return;
+
+        const limit = Number.parseInt(counter.dataset.jpSubmitCharacterLimit || input.maxLength, 10);
+        const updateCounter = () => {
+          current.textContent = input.value.length;
+          counter.classList.toggle("is-at-limit", Number.isFinite(limit) && input.value.length >= limit);
+        };
+
+        input.addEventListener("input", updateCounter);
+        updateCounter();
       });
 
       form.querySelectorAll("[data-jp-submit-file-upload]").forEach((upload) => {
