@@ -5,8 +5,15 @@
 {{- if not $form -}}
   {{- errorf "No submit form configured for %q" $formKey -}}
 {{- end -}}
+{{- $hasDatetimeHelper := false -}}
+{{- range $form.fields -}}
+  {{- if .datetime_helper -}}{{- $hasDatetimeHelper = true -}}{{- end -}}
+{{- end -}}
 {{- $endpoint := $page.Site.Params.submission_endpoint | default "https://api.jaxplays.org/submissions" -}}
 {{- $turnstileSiteKey := $page.Site.Params.turnstile_site_key | default "0x4AAAAAAB1zTVGwJ9VBnPuO" -}}
+{{- if $hasDatetimeHelper -}}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+{{- end -}}
 <div class="jp-submit-form-wrap" data-jp-submit-form-wrap>
   <form class="jp-submit-form" action="{{ $endpoint }}" method="POST" enctype="multipart/form-data" data-jp-submit-form data-success="{{ $form.success }}" novalidate>
     <input type="hidden" name="form_type" value="{{ $form.type }}">
@@ -56,6 +63,15 @@
           {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . | markdownify | replaceRE "<a href=" "<a target=\"_blank\" rel=\"noopener\" href=" | safeHTML }}</p>{{ end }}
           {{- if eq $type "textarea" }}
             <textarea id="{{ $fieldID }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}></textarea>
+            {{- if $field.datetime_helper }}
+              <div class="jp-submit-datetime-helper" data-jp-submit-datetime-helper data-jp-submit-datetime-target="{{ $fieldID }}">
+                <div class="jp-submit-datetime-control">
+                  <label for="{{ $fieldID }}-datetime">Date and Time</label>
+                  <input id="{{ $fieldID }}-datetime" type="text" placeholder="Select date and time" data-jp-submit-datetime-input>
+                </div>
+                <button class="home-dashboard-button jp-submit-datetime-add" type="button" data-jp-submit-datetime-add>Add showtime</button>
+              </div>
+            {{- end }}
           {{- else if eq $type "file" }}
             <input id="{{ $fieldID }}" type="file" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.accept }} accept="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}>
           {{- else }}
@@ -93,6 +109,9 @@
     <button class="home-dashboard-button primary jp-submit-button" type="submit">{{ $form.submit_label }}</button>
   </form>
 
+  {{- if $hasDatetimeHelper -}}
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  {{- end }}
   <script>
     (() => {
       const container = document.currentScript.closest("[data-jp-submit-form-wrap]");
@@ -266,6 +285,64 @@
           });
         });
         renderTokens();
+      });
+
+      form.querySelectorAll("[data-jp-submit-datetime-helper]").forEach((helper) => {
+        const target = form.querySelector(`#${CSS.escape(helper.dataset.jpSubmitDatetimeTarget || "")}`);
+        const datetimeInput = helper.querySelector("[data-jp-submit-datetime-input]");
+        const addButton = helper.querySelector("[data-jp-submit-datetime-add]");
+        if (!target || !datetimeInput || !addButton) return;
+
+        let selectedDate = null;
+        const pad = (value) => String(value).padStart(2, "0");
+        const formatShowtime = (date) => {
+          const offsetMinutes = -date.getTimezoneOffset();
+          const offsetSign = offsetMinutes >= 0 ? "+" : "-";
+          const absoluteOffset = Math.abs(offsetMinutes);
+          const offset = `${offsetSign}${pad(Math.floor(absoluteOffset / 60))}:${pad(absoluteOffset % 60)}`;
+          return [
+            date.getFullYear(),
+            "-",
+            pad(date.getMonth() + 1),
+            "-",
+            pad(date.getDate()),
+            "T",
+            pad(date.getHours()),
+            ":",
+            pad(date.getMinutes()),
+            ":",
+            pad(date.getSeconds()),
+            offset,
+          ].join("");
+        };
+        const picker = window.flatpickr ? window.flatpickr(datetimeInput, {
+          allowInput: true,
+          dateFormat: "Y-m-d h:i K",
+          defaultHour: 19,
+          defaultMinute: 0,
+          enableTime: true,
+          minuteIncrement: 15,
+          onChange: (selectedDates) => {
+            selectedDate = selectedDates[0] || null;
+            datetimeInput.setCustomValidity("");
+          },
+        }) : null;
+        const appendShowtime = () => {
+          const date = selectedDate || (picker?.selectedDates?.[0]) || null;
+          datetimeInput.setCustomValidity(date ? "" : "Select a date and time.");
+          if (!datetimeInput.reportValidity()) return;
+          target.value = [target.value.trim(), formatShowtime(date)].filter(Boolean).join("\n");
+          target.dispatchEvent(new Event("input", { bubbles: true }));
+          target.dispatchEvent(new Event("change", { bubbles: true }));
+          selectedDate = null;
+          if (picker) picker.clear();
+          else datetimeInput.value = "";
+          datetimeInput.setCustomValidity("");
+          datetimeInput.focus();
+        };
+
+        datetimeInput.addEventListener("input", () => datetimeInput.setCustomValidity(""));
+        addButton.addEventListener("click", appendShowtime);
       });
 
       updateConditionalFields();

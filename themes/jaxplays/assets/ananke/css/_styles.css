@@ -143,6 +143,35 @@
 	display: none;
 }
 
+.jp-submit-datetime-helper {
+	align-items: end;
+	display: grid;
+	gap: .75rem;
+	grid-template-columns: minmax(13rem, 18rem) auto;
+	margin-top: .75rem;
+}
+
+.jp-submit-datetime-control {
+	min-width: 0;
+}
+
+.jp-submit-field .jp-submit-datetime-control label {
+	font-size: .8rem;
+	margin-bottom: .3rem;
+	text-transform: uppercase;
+}
+
+.jp-submit-datetime-add {
+	min-height: 2.85rem;
+	width: fit-content;
+}
+
+@media screen and (max-width: 30em) {
+	.jp-submit-datetime-helper {
+		grid-template-columns: minmax(0, 1fr);
+	}
+}
+
 .jp-submit-rights {
 	border-top: 1px solid rgba(23, 23, 23, .12);
 	color: #555;

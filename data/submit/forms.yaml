@@ -137,7 +137,8 @@ production:
       label: Showtimes
       type: textarea
       required: true
-      description: Paste your list of dates and times. ISO-style dates are helpful, but JaxPlays can clean up human-readable lists.
+      description: Enter dates and times manually or add them with the date picker below. ISO-style dates are helpful, but JaxPlays can clean up human-readable lists.
+      datetime_helper: true
     - name: ticket_link
       label: Ticket Link
       type: url
