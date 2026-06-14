@@ -64,6 +64,20 @@
 	padding: .65rem;
 }
 
+.jp-submit-color-control {
+	align-items: stretch;
+	display: grid;
+	gap: .55rem;
+	grid-template-columns: 3.5rem minmax(0, 1fr);
+}
+
+.jp-submit-field input.jp-submit-color-picker {
+	cursor: pointer;
+	min-height: 2.85rem;
+	padding: .25rem;
+	width: 3.5rem;
+}
+
 .jp-submit-field[hidden] {
 	display: none;
 }
@@ -84,7 +98,7 @@
 .jp-submit-choice-grid {
 	display: grid;
 	gap: .45rem .9rem;
-	grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
 }
 
 .jp-submit-choice {
@@ -678,6 +692,16 @@ h1 a.jaxplayslogo {
 .theatre-social-link--instagram circle:last-child,
 .theatre-social-link--website path,
 .theatre-social-link--youtube path {
+	fill: currentColor;
+}
+
+.profile-social-link--ibdb .ibdb_st0,
+.profile-social-link--imdb .imdb_st0 {
+	display: none;
+}
+
+.profile-social-link--ibdb .ibdb_st2,
+.profile-social-link--ibdb .ibdb_st5 {
 	fill: currentColor;
 }
 

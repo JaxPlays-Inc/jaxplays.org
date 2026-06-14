@@ -30,36 +30,91 @@ profile:
       label: Biography
       type: textarea
       description: Provide a short biography for the top of your JaxPlays person page.
+    - name: social_links
+      label: Social Links
+      type: checkbox
+      description: Select the profile links you would like to add.
+      options:
+        - Website
+        - Facebook
+        - Instagram
+        - Threads
+        - LinkedIn
+        - Bluesky
+        - X / Twitter
+        - IMDB
+        - IBDB
+        - Backstage
     - name: website
       label: Website
       type: url
+      value: https://
+      show_if:
+        field: social_links
+        value: Website
     - name: facebook
       label: Facebook
       type: url
+      value: https://www.facebook.com/
+      show_if:
+        field: social_links
+        value: Facebook
     - name: instagram
       label: Instagram
       type: url
+      value: https://www.instagram.com/
+      show_if:
+        field: social_links
+        value: Instagram
     - name: threads
       label: Threads
       type: url
+      value: https://www.threads.net/@
+      show_if:
+        field: social_links
+        value: Threads
     - name: linkedin
       label: LinkedIn
       type: url
+      value: http://linkedin.com/in/
+      show_if:
+        field: social_links
+        value: LinkedIn
     - name: bluesky
       label: Bluesky
       type: url
+      value: https://bsky.app/profile/
+      show_if:
+        field: social_links
+        value: Bluesky
     - name: twitter
       label: X / Twitter
       type: url
+      value: https://x.com/
+      show_if:
+        field: social_links
+        value: X / Twitter
     - name: imdb
       label: IMDB
       type: url
+      value: https://www.imdb.com/name/
+      show_if:
+        field: social_links
+        value: IMDB
     - name: ibdb
       label: IBDB
       type: url
+      value: https://www.ibdb.com/broadway-cast-staff/
+      show_if:
+        field: social_links
+        value: IBDB
     - name: backstage
       label: Backstage
       type: url
+      value: https://www.backstage.com/u/
+      show_if:
+        field: social_links
+        value: Backstage
     - name: notes
       label: Notes
       type: textarea
@@ -222,7 +277,10 @@ theatre:
     - name: theatre_color
       label: Theatre Color
       type: text
-      description: Provide a preferred hex or RGB color for the theatre calendar.
+      value: "#000000"
+      placeholder: "#000000"
+      color_picker: true
+      description: Provide a preferred hex color for the theatre calendar.
     - name: founded
       label: When was the theatre founded?
       type: text
@@ -260,10 +318,16 @@ theatre:
       label: Venue Name
       type: text
       description: If your venue has the same name as your theatre company, enter the theatre company name again.
+      show_if:
+        field: has_venue
+        value: Yes, we have a dedicated venue
     - name: venue_address
       label: Venue Address
       type: textarea
       description: Provide the street address of your venue.
+      show_if:
+        field: has_venue
+        value: Yes, we have a dedicated venue
     - name: notes
       label: Notes
       type: textarea

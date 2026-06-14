@@ -18,7 +18,7 @@ roles:
 socials:
   threads: rayhollister
   facebook: rayhollister
-  twitter: rayhollister
+  bluesky: rayhollister.com
   instagram: rayhollister
   linkedin: rayhollister
   website: https://rayhollister.com 

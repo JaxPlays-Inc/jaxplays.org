@@ -74,8 +74,13 @@
             {{- end }}
           {{- else if eq $type "file" }}
             <input id="{{ $fieldID }}" type="file" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.accept }} accept="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}>
+          {{- else if $field.color_picker }}
+            <div class="jp-submit-color-control" data-jp-submit-color-control>
+              <input class="jp-submit-color-picker" type="color" value="{{ $field.color_value | default $field.value | default "#000000" }}" aria-label="Pick {{ $field.label }}" data-jp-submit-color-picker>
+              <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }} data-jp-submit-color-text>
+            </div>
           {{- else }}
-            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}>
+            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}>
             {{- with $field.suggestions }}
               <datalist id="{{ $listID }}">
                 {{- if eq . "theatres" }}
@@ -343,6 +348,36 @@
 
         datetimeInput.addEventListener("input", () => datetimeInput.setCustomValidity(""));
         addButton.addEventListener("click", appendShowtime);
+      });
+
+      form.querySelectorAll("[data-jp-submit-color-control]").forEach((control) => {
+        const textInput = control.querySelector("[data-jp-submit-color-text]");
+        const picker = control.querySelector("[data-jp-submit-color-picker]");
+        if (!textInput || !picker) return;
+
+        const rgbToHex = (value) => {
+          const match = value.match(/rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})/i);
+          if (!match) return "";
+          const channels = match.slice(1, 4).map((channel) => Math.max(0, Math.min(255, Number.parseInt(channel, 10))));
+          return `#${channels.map((channel) => channel.toString(16).padStart(2, "0")).join("")}`;
+        };
+        const normalizeHex = (value) => {
+          const match = value.trim().match(/^#?([0-9a-f]{3}|[0-9a-f]{6})$/i);
+          if (!match) return "";
+          const hex = match[1];
+          return `#${hex.length === 3 ? hex.split("").map((character) => character + character).join("") : hex}`.toLowerCase();
+        };
+
+        picker.value = normalizeHex(textInput.value) || picker.value;
+        picker.addEventListener("input", () => {
+          textInput.value = picker.value;
+          textInput.dispatchEvent(new Event("input", { bubbles: true }));
+          textInput.dispatchEvent(new Event("change", { bubbles: true }));
+        });
+        textInput.addEventListener("input", () => {
+          const hex = normalizeHex(textInput.value) || rgbToHex(textInput.value);
+          if (hex) picker.value = hex;
+        });
       });
 
       updateConditionalFields();
