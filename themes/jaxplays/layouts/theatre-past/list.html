@@ -65,7 +65,14 @@
 {{ range $sortedPastProductions }}
   {{ $sortedPages = $sortedPages | append .page }}
 {{ end }}
-{{ $paginator := .Paginate $sortedPages 24 }}
+{{ $paginator := false }}
+{{ if $sortedPages }}
+  {{ $paginator = .Paginate $sortedPages 24 }}
+{{ end }}
+{{ $shownCount := 0 }}
+{{ with $paginator }}
+  {{ $shownCount = len .Pages }}
+{{ end }}
 
 <article class="theatre-single theatre-single--past">
   <div class="theatre-single-shell">
@@ -94,9 +101,9 @@
           <p class="productions-directory-section-eyebrow">Closed Productions</p>
           <h2 id="past-productions">Past Productions</h2>
         </div>
-        <span class="productions-directory-count" data-production-section-count>{{ len $paginator.Pages }} of {{ len $sortedPages }} shown</span>
+        <span class="productions-directory-count" data-production-section-count>{{ $shownCount }} of {{ len $sortedPages }} shown</span>
       </div>
-      {{ if $paginator.Pages }}
+      {{ if $paginator }}
         <div class="productions-directory-grid">
           {{ range $paginator.Pages }}
             {{ $card := index $productionCardByPath .File.Path }}
@@ -112,10 +119,12 @@
       {{ end }}
     </section>
 
-    {{ if gt $paginator.TotalPages 1 }}
-      <div data-production-pagination>
-        {{ template "_internal/pagination.html" . }}
-      </div>
+    {{ with $paginator }}
+      {{ if gt .TotalPages 1 }}
+        <div data-production-pagination>
+          {{ template "_internal/pagination.html" $ }}
+        </div>
+      {{ end }}
     {{ end }}
   </div>
 </article>
