@@ -1,8 +1,6 @@
 {{- $page := .page -}}
 {{- $formKey := .form | default $page.Params.form_type | default $page.Layout -}}
-{{- $nestedForms := index $page.Site.Data "submit" "forms" | default dict -}}
-{{- $legacyForms := index $page.Site.Data "submit_forms" | default dict -}}
-{{- $forms := cond (gt (len $nestedForms) 0) $nestedForms $legacyForms -}}
+{{- $forms := index $page.Site.Data "submit" "forms" | default dict -}}
 {{- $form := index $forms $formKey -}}
 {{- if not $form -}}
   {{- errorf "No submit form configured for %q" $formKey -}}
