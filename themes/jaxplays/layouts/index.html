@@ -204,8 +204,9 @@
       width: min(1838px, calc(100vw - 82px));
     }
 
-    .home-dashboard .home-dashboard-ad-anchor > :not(.left-rail):not(.right-rail) {
+    .home-dashboard .home-dashboard-ad-anchor > .home-dashboard-ad-content {
       grid-column: 2;
+      grid-row: 1;
     }
 
     .home-dashboard .home-dashboard-ad-anchor > .left-rail,
@@ -590,20 +591,22 @@
 
     <section class="home-dashboard-section home-dashboard-production-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-now-playing">
       {{- partial "GAM-left-rail-1.html" (dict "margin" "3.8rem 0") -}}
-      <div class="home-dashboard-section-head sectionline">
-        <div class="home-dashboard-section-heading">
-          <p class="home-dashboard-section-eyebrow">Currently on Stage</p>
-          <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
+      <div class="home-dashboard-ad-content">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">Currently on Stage</p>
+            <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
+          </div>
         </div>
+        <div class="home-dashboard-rail home-dashboard-production-rail">
+          {{ range $nowPlaying }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
+          {{ else }}
+            <p class="home-dashboard-meta">No current productions found.</p>
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/productions/">All productions</a>
       </div>
-      <div class="home-dashboard-rail home-dashboard-production-rail">
-        {{ range $nowPlaying }}
-          {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
-        {{ else }}
-          <p class="home-dashboard-meta">No current productions found.</p>
-        {{ end }}
-      </div>
-      <a class="jp-section-more" href="/productions/">All productions</a>
       {{- partial "GAM-right-rail-1.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
     </section>
 
@@ -626,18 +629,20 @@
 
     <section class="home-dashboard-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-reviews">
       {{- partial "GAM-left-rail-2.html" (dict "margin" "3.8rem 0") -}}
-      <div class="home-dashboard-section-head sectionline">
-        <div class="home-dashboard-section-heading">
-          <p class="home-dashboard-section-eyebrow">Criticism and Coverage</p>
-          <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
+      <div class="home-dashboard-ad-content">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">Criticism and Coverage</p>
+            <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
+          </div>
         </div>
+        <div class="home-dashboard-editorial">
+          {{ range $latestReviews }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/reviews/">More reviews</a>
       </div>
-      <div class="home-dashboard-editorial">
-        {{ range $latestReviews }}
-          {{ partial "article-card.html" (dict "page" . "variant" "home") }}
-        {{ end }}
-      </div>
-      <a class="jp-section-more" href="/reviews/">More reviews</a>
       {{- partial "GAM-right-rail-2.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
     </section>
 

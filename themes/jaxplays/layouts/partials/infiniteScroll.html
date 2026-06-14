@@ -61,9 +61,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const scrollHeight = document.documentElement.scrollHeight || document.body.offsetHeight;
     const distanceToBottom = scrollHeight - (window.innerHeight + window.scrollY);
-    const triggerDistance = Math.max(window.innerHeight * 2.5, 1800);
+    // Preload the next article/billboard well before it enters view. The
+    // history URL still changes in updateActiveArticleHistory when the
+    // appended article becomes the centered article.
+    const preloadDistance = Math.max(window.innerHeight * 5, 3200);
 
-    if (distanceToBottom <= triggerDistance) {
+    if (distanceToBottom <= preloadDistance) {
       loading = true;
       fetch(prevUrl)
         .then(response => response.text())
