@@ -3,6 +3,7 @@
 {{- range where .Site.RegularPages "Section" "in" $allowedSections -}}
     {{- $openingDate := "" -}}
     {{- $theatreName := "" -}}
+    {{- $summary := .Params.description | default .Plain -}}
     {{- if and (eq .Section "productions") (.Params.opening_date) -}}
         {{- $openingDate = .Params.opening_date -}}
         {{- if .Params.theatre -}}
@@ -15,19 +16,20 @@
         "section" (.Section | title)
         "tags" .Params.tags
         "categories" .Params.categories
-        "summary" (.Summary | markdownify | htmlUnescape | plainify)
+        "summary" ($summary | htmlUnescape | plainify | truncate 280)
         "date" .Date
         "opening_date" $openingDate
         "theatre_name" $theatreName) -}}
 {{- end -}}
 {{- range where (where .Site.Pages "Type" "theatres") "Params.active" "ne" nil -}}
+    {{- $summary := .Params.description | default .Plain -}}
     {{- $.Scratch.Add "index" (dict
         "title" .Title
         "permalink" .RelPermalink
         "section" (.Section | title)
         "tags" .Params.tags
         "categories" .Params.categories
-        "summary" (.Summary | markdownify | htmlUnescape | plainify)
+        "summary" ($summary | htmlUnescape | plainify | truncate 280)
         "date" .Date
         "opening_date" ""
         "theatre_name" "") -}}
