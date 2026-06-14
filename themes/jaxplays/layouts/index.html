@@ -195,13 +195,38 @@
   }
 
   @media screen and (min-width: 1920px) {
-    .home-dashboard .home-dashboard-ad-anchor > .left-rail {
-      left: max(-345px, calc(512px - 50vw));
+    .home-dashboard .home-dashboard-ad-anchor {
+      column-gap: 29px;
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1180px) 300px;
+      margin-left: calc((100% - min(1838px, calc(100vw - 82px))) / 2);
+      max-width: 1838px;
+      width: min(1838px, calc(100vw - 82px));
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > :not(.left-rail):not(.right-rail) {
+      grid-column: 2;
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail,
+    .home-dashboard .home-dashboard-ad-anchor > .right-rail {
+      align-self: start;
+      left: auto !important;
       margin: 3.8rem 0;
       max-width: 300px;
-      position: absolute;
-      top: 0;
+      position: sticky !important;
+      grid-row: 1;
+      right: auto !important;
+      top: calc(5rem + 30px) !important;
       width: 300px;
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail {
+      grid-column: 1;
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .right-rail {
+      grid-column: 3;
     }
   }
 
