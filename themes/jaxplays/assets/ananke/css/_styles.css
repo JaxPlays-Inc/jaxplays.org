@@ -60,10 +60,6 @@
 	resize: vertical;
 }
 
-.jp-submit-field input[type="file"] {
-	padding: .65rem;
-}
-
 .jp-submit-color-control {
 	align-items: stretch;
 	display: grid;
@@ -76,6 +72,87 @@
 	min-height: 2.85rem;
 	padding: .25rem;
 	width: 3.5rem;
+}
+
+.jp-submit-file-upload {
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+
+.jp-submit-field input.jp-submit-file-input {
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+}
+
+.jp-submit-file-dropzone {
+	align-items: center;
+	background: #fff;
+	border: 1px dashed rgba(23, 23, 23, .26);
+	box-sizing: border-box;
+	color: var(--jp-ink);
+	cursor: pointer;
+	display: flex !important;
+	flex-direction: column;
+	gap: .25rem;
+	justify-content: center;
+	margin: 0 !important;
+	min-height: 8.25rem;
+	padding: 1.25rem;
+	text-align: center;
+	width: 100%;
+}
+
+.jp-submit-file-dropzone:hover,
+.jp-submit-file-dropzone.is-dragover {
+	background: var(--jp-cream);
+	border-color: var(--jp-ink);
+}
+
+.jp-submit-file-input:focus-visible + .jp-submit-file-dropzone {
+	outline: 2px solid var(--jp-blue);
+	outline-offset: 3px;
+}
+
+.jp-submit-file-icon {
+	color: #9a9a9a;
+	display: block;
+	height: 2rem;
+	width: 2rem;
+}
+
+.jp-submit-file-icon svg {
+	display: block;
+	fill: none;
+	height: 100%;
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2.25;
+	width: 100%;
+}
+
+.jp-submit-file-line {
+	font-size: .95rem;
+	font-weight: 500;
+	line-height: 1.35;
+}
+
+.jp-submit-file-link {
+	text-decoration: underline;
+	text-underline-offset: .12em;
+}
+
+.jp-submit-file-note {
+	color: #8a8a8a;
+	font-size: .85rem;
+	font-weight: 400;
+	line-height: 1.35;
 }
 
 .jp-submit-field[hidden] {

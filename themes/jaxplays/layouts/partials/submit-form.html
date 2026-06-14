@@ -73,7 +73,20 @@
               </div>
             {{- end }}
           {{- else if eq $type "file" }}
-            <input id="{{ $fieldID }}" type="file" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.accept }} accept="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}>
+            <div class="jp-submit-file-upload" data-jp-submit-file-upload>
+              <input class="jp-submit-file-input" id="{{ $fieldID }}" type="file" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.accept }} accept="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help {{ $fieldID }}-file-status"{{ else }} aria-describedby="{{ $fieldID }}-file-status"{{ end }} data-jp-submit-file-input>
+              <label class="jp-submit-file-dropzone" for="{{ $fieldID }}" data-jp-submit-file-dropzone>
+                <span class="jp-submit-file-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M12 16V4"></path>
+                    <path d="m7 9 5-5 5 5"></path>
+                    <path d="M20 16.5v1.75A2.75 2.75 0 0 1 17.25 21H6.75A2.75 2.75 0 0 1 4 18.25V16.5"></path>
+                  </svg>
+                </span>
+                <span class="jp-submit-file-line">Drag &amp; Drop Files, <span class="jp-submit-file-link">Choose File to Upload</span></span>
+                <span class="jp-submit-file-note" id="{{ $fieldID }}-file-status" data-jp-submit-file-status>No file selected.</span>
+              </label>
+            </div>
           {{- else if $field.color_picker }}
             <div class="jp-submit-color-control" data-jp-submit-color-control>
               <input class="jp-submit-color-picker" type="color" value="{{ $field.color_value | default $field.value | default "#000000" }}" aria-label="Pick {{ $field.label }}" data-jp-submit-color-picker>
@@ -378,6 +391,49 @@
           const hex = normalizeHex(textInput.value) || rgbToHex(textInput.value);
           if (hex) picker.value = hex;
         });
+      });
+
+      form.querySelectorAll("[data-jp-submit-file-upload]").forEach((upload) => {
+        const input = upload.querySelector("[data-jp-submit-file-input]");
+        const dropzone = upload.querySelector("[data-jp-submit-file-dropzone]");
+        const status = upload.querySelector("[data-jp-submit-file-status]");
+        if (!input || !dropzone || !status) return;
+
+        const renderSelectedFiles = () => {
+          const files = [...input.files];
+          if (!files.length) {
+            status.textContent = "No file selected.";
+            return;
+          }
+          status.textContent = files.length === 1 ? files[0].name : `${files.length} files selected: ${files.map((file) => file.name).join(", ")}`;
+        };
+        const setFiles = (files) => {
+          const selectedFiles = [...files];
+          if (!selectedFiles.length || input.disabled) return;
+          if (!input.multiple) selectedFiles.splice(1);
+          const transfer = new DataTransfer();
+          selectedFiles.forEach((file) => transfer.items.add(file));
+          input.files = transfer.files;
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+          input.dispatchEvent(new Event("change", { bubbles: true }));
+        };
+
+        input.addEventListener("change", renderSelectedFiles);
+        ["dragenter", "dragover"].forEach((eventName) => {
+          dropzone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            if (!input.disabled) dropzone.classList.add("is-dragover");
+          });
+        });
+        ["dragleave", "dragend", "drop"].forEach((eventName) => {
+          dropzone.addEventListener(eventName, () => dropzone.classList.remove("is-dragover"));
+        });
+        dropzone.addEventListener("drop", (event) => {
+          event.preventDefault();
+          setFiles(event.dataTransfer?.files || []);
+        });
+        form.addEventListener("reset", () => window.setTimeout(renderSelectedFiles));
+        renderSelectedFiles();
       });
 
       updateConditionalFields();
