@@ -93,7 +93,7 @@
               <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }} data-jp-submit-color-text>
             </div>
           {{- else }}
-            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}>
+            <input id="{{ $fieldID }}" type="{{ $type }}" name="{{ $field.name }}"{{ if $field.required }} required{{ end }}{{ with $field.maxlength }} maxlength="{{ . }}"{{ end }}{{ with $field.value }} value="{{ . }}"{{ end }}{{ with $field.placeholder }} placeholder="{{ . }}"{{ end }}{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }}{{ with $field.suggestions }} list="{{ $listID }}"{{ end }}{{ if $field.phone_format }} inputmode="tel" autocomplete="tel" data-jp-submit-phone-format{{ end }}>
             {{- with $field.suggestions }}
               <datalist id="{{ $listID }}">
                 {{- if eq . "theatres" }}
@@ -391,6 +391,22 @@
           const hex = normalizeHex(textInput.value) || rgbToHex(textInput.value);
           if (hex) picker.value = hex;
         });
+      });
+
+      form.querySelectorAll("[data-jp-submit-phone-format]").forEach((input) => {
+        const formatPhone = () => {
+          const digits = input.value.replace(/\D/g, "").slice(0, 10);
+          if (digits.length <= 3) {
+            input.value = digits;
+          } else if (digits.length <= 6) {
+            input.value = `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+          } else {
+            input.value = `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+          }
+        };
+
+        input.addEventListener("input", formatPhone);
+        input.addEventListener("blur", formatPhone);
       });
 
       form.querySelectorAll("[data-jp-submit-file-upload]").forEach((upload) => {

@@ -288,27 +288,76 @@ theatre:
       label: History / Description
       type: textarea
       description: Provide a short history of the theatre company for the theatre page.
+    - name: contact_fields
+      label: Contact and Social Links
+      type: checkbox
+      description: Select the contact fields you would like to add.
+      options:
+        - Phone
+        - Website
+        - Facebook
+        - Instagram
+        - Threads
+        - LinkedIn
+        - Bluesky
+        - X / Twitter
     - name: phone
       label: Phone
       type: tel
+      placeholder: (904) 555-1212
+      phone_format: true
+      show_if:
+        field: contact_fields
+        value: Phone
     - name: website
       label: Website
       type: url
+      value: https://
+      show_if:
+        field: contact_fields
+        value: Website
     - name: facebook
       label: Facebook
       type: url
+      value: https://www.facebook.com/
+      show_if:
+        field: contact_fields
+        value: Facebook
     - name: instagram
       label: Instagram
       type: url
+      value: https://www.instagram.com/
+      show_if:
+        field: contact_fields
+        value: Instagram
     - name: threads
       label: Threads
       type: url
+      value: https://www.threads.net/@
+      show_if:
+        field: contact_fields
+        value: Threads
     - name: linkedin
       label: LinkedIn
       type: url
+      value: http://linkedin.com/in/
+      show_if:
+        field: contact_fields
+        value: LinkedIn
+    - name: bluesky
+      label: Bluesky
+      type: url
+      value: https://bsky.app/profile/
+      show_if:
+        field: contact_fields
+        value: Bluesky
     - name: twitter
       label: X / Twitter
       type: url
+      value: https://x.com/
+      show_if:
+        field: contact_fields
+        value: X / Twitter
     - name: has_venue
       label: Dedicated Venue
       type: checkbox
