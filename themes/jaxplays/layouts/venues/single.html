@@ -1,206 +1,217 @@
-{{ define "header" }}{{ partial "production-header.html" . }}{{ end }}
+{{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}
 {{ define "main" }}
-<div class="flex-l mt0 w-100 mw8 center">
-  <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
-    <h1 class="f3 f2-l f1-m tc tl-ns ">
-      {{ with .Params.building }}
-      <span>{{ . }}</span><br/>
-      {{ end }}
-      {{ .Title }}
-    </h1>
-    {{ $venueUrl := .RelPermalink }}
-    {{ $venuePage := . }}
-    {{ $featuredImage := .Params.featured_image }}
-    {{ $featuredImageCaption := .Params.featured_image_caption }}
-    {{ $featuredImageAttr := .Params.featured_image_attr }}
-    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-    {{ $featuredImagealt := .Params.featured_image_alt | default $.Title }}
-    {{ $contentLength := len .Content }}
-    {{ $description := .Params.description }}
-    {{ if not $description }}
-    {{ if gt $contentLength 350 }}
-    {{ $description = printf "%s..." (substr .Content 0 350) | plainify | safeHTML}}
-    {{ else }}
+
+{{ $featuredImage := .Params.featured_image }}
+{{ $featuredImageCaption := .Params.featured_image_caption }}
+{{ $featuredImageAttr := .Params.featured_image_attr }}
+{{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+{{ $featuredImageAlt := .Params.featured_image_alt | default (printf "%s logo" .Title) }}
+{{ $contentLength := len .Content }}
+{{ $description := .Params.description }}
+{{ if not $description }}
+  {{ if gt $contentLength 350 }}
+    {{ $description = printf "%s..." (substr .Content 0 350) | plainify | safeHTML }}
+  {{ else }}
     {{ $description = substr .Content 0 $contentLength | plainify | safeHTML }}
-    {{ end }}
-    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $logoPath := "/media/default/production_poster.webp" }}
+{{ if $featuredImage }}
+  {{ $logoPath = printf "/media/logos/%s" $featuredImage }}
+{{ end }}
+{{ $website := .Params.website | default "" }}
+{{ with .Params.socials }}{{ with .website }}{{ $website = . }}{{ end }}{{ end }}
+{{ $websiteLabel := "" }}
+{{ with $website }}{{ $websiteLabel = . | replaceRE "^https?://(www\\.)?" "" | replaceRE "/$" "" }}{{ end }}
+{{ $phone := .Params.phone | default "" }}
+{{ $phoneDigits := replaceRE "\\D" "" $phone }}
+{{ $phoneLabel := $phone }}
+{{ if ge (len $phoneDigits) 11 }}
+  {{ $phoneLabel = printf "(%s) %s-%s" (substr $phoneDigits 1 3) (substr $phoneDigits 4 3) (substr $phoneDigits 7 4) }}
+{{ else if ge (len $phoneDigits) 10 }}
+  {{ $phoneLabel = printf "(%s) %s-%s" (substr $phoneDigits 0 3) (substr $phoneDigits 3 3) (substr $phoneDigits 6 4) }}
+{{ end }}
+{{ $founded := "" }}
+{{ with .Params.founded }}
+  {{ $founded = printf "%v" . }}
+  {{ if findRE `^\d{4}-\d{2}-\d{2}` $founded }}{{ $founded = (time $founded).Format "2006" }}{{ end }}
+{{ end }}
+{{ $eyebrowParts := slice "Venue" }}
+{{ with .Params.building }}{{ $eyebrowParts = $eyebrowParts | append . }}{{ end }}
+{{ with $founded }}{{ $eyebrowParts = $eyebrowParts | append (printf "Founded %s" .) }}{{ end }}
+{{ with .Params.capacity }}{{ $eyebrowParts = $eyebrowParts | append (printf "%v seats" .) }}{{ end }}
+{{ $eyebrow := delimit $eyebrowParts " • " }}
 
-    {{ if or $featuredImage $description }}
-    <div class="flex flex-column flex-row-ns">
-      <!-- Featured Image Section -->
-      {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-      {{ if $featuredImage }}
-      {{ $imagePath = printf "/media/logos/%s" $featuredImage }}
-      <!-- Concatenate path if featured image exists -->
-      {{ end }}
-      <div class="w-75 w-40-m w-25-l flex-column center">
-        <a href="{{ $imagePath }}" data-lightbox="image-1"
-          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImagealt }}" />
+{{ $venueName := .Title }}
+{{ $venueKey := $venueName | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
+{{ $venueProductionIndex := site.Data.generated.venue_productions | default dict }}
+{{ $venueProductions := index $venueProductionIndex $venueKey | default slice }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $currentlyOnStage := slice }}
+{{ $comingSoon := slice }}
+{{ $pastProductions := slice }}
+
+{{ range $venueProductions }}
+  {{ $openingDate := .openingDate }}
+  {{ $endDate := .closingDate | default $openingDate }}
+  {{ if $openingDate }}
+    {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+      {{ $currentlyOnStage = $currentlyOnStage | append . }}
+    {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
+      {{ $pastProductions = $pastProductions | append . }}
+    {{ else if gt $openingDate $currentDate }}
+      {{ $comingSoon = $comingSoon | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $currentlyOnStage = sort $currentlyOnStage "openingDate" "asc" }}
+{{ $comingSoon = sort $comingSoon "openingDate" "asc" }}
+{{ $pastProductions = sort $pastProductions "openingDate" "desc" }}
+
+<article class="theatre-single venue-single">
+  <div class="theatre-single-shell">
+    <section class="theatre-single-hero" aria-labelledby="venue-profile-title">
+      <div class="theatre-single-identity">
+        <a class="theatre-single-logo-link" href="{{ $logoPath }}" data-lightbox="image-1"
+          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}'> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
+          <img class="theatre-single-logo" src="{{ $logoPath }}" alt="{{ $featuredImageAlt }}" />
         </a>
-        {{ if .Params.socials }}
-        {{ partial "profile-social-links.html" . }}
-        {{ end }}
       </div>
-      <div class="w-100 w-60-ns w-75-l pt4 pt0-ns pl4-ns flex flex-column items-start justify-start">
-        {{ if $description }}
-        <div class="biosection nested-copy-line-height lh-copy f4 {{ $.Param "text_color" | default "dark-gray" }}">
-          {{ partial "content-wikilinks" $description }}
-          <a href="#about"
-            class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt0 ph2 pv1">read
-            all</a>
 
-        </div>
+      <div class="theatre-single-intro">
+        <p class="theatre-single-kicker">{{ $eyebrow }}</p>
+        <h1 id="venue-profile-title" class="theatre-single-title">{{ .Title }}</h1>
+        {{ with $description }}
+          <div class="theatre-single-description nested-copy-line-height">
+            {{ partial "content-wikilinks" . }}
+          </div>
         {{ end }}
-        {{ if or .Params.website .Params.phone }}
-        <div class="flex flex-row flex-wrap nested-copy-line-height lh-copy f4 mt2 {{ $.Param "text_color" |
-          default "dark-gray" }}">
-          {{ if .Params.website }}
-          {{ $website := .Params.website | replaceRE "^https?://(www\\.)?" "" }}
-          <a href="{{ .Params.website }}" target="_blank" class="link db nowrap">{{ $website }}</a>
+        <div class="theatre-single-actions">
+          {{ if .Content }}<a class="jp-button jp-grow theatre-single-action theatre-single-action--quiet" href="#about">About</a>{{ end }}
+          {{ with $website }}<a class="jp-button jp-grow theatre-single-action" href="{{ . }}" target="_blank" rel="noopener">{{ $websiteLabel }}</a>{{ end }}
+          {{ if $phoneDigits }}<a class="jp-button jp-grow theatre-single-action" href="tel:{{ $phoneDigits }}">{{ $phoneLabel }}</a>{{ end }}
+          {{ if .Params.socials }}
+            <div class="theatre-single-socials">
+              {{ partial "profile-social-links.html" . }}
+            </div>
           {{ end }}
         </div>
-        {{ end }}
-
       </div>
-    </div>
+    </section>
+
+    {{ if or .Params.address (and .Params.latitude .Params.longitude) }}
+      <section class="productions-directory-section" aria-labelledby="venue-details">
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Venue Details</p>
+            <h2 id="venue-details">Details</h2>
+          </div>
+        </div>
+        <div class="flex flex-column flex-row-ns nested-copy-line-height lh-copy f4-ns f5 dark-gray">
+          <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver">
+            <span class="b db mb3">{{ with .Params.building }}{{ . }}<br />{{ end }}{{ .Title }}</span>
+            {{ with .Params.address }}
+              {{ . | replaceRE "\n" "<br />" | safeHTML }}
+              <ul class="map_links list mv1 pl0">
+                <li><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
+                <li><a target="_blank" rel="noopener" href="https://maps.apple.com/?q={{ . | urlize | replaceRE "%0A" "%20" }}">Apple Maps</a></li>
+                <li><a target="_blank" rel="noopener" href="https://waze.com/ul?q={{ . | urlize | replaceRE "%0A" "%20" }}">Waze Maps</a></li>
+              </ul>
+            {{ end }}
+            {{ if $phoneDigits }}
+              <a href="tel:{{ $phoneDigits }}" class="link db nowrap mt3">☎ {{ $phoneLabel }}</a>
+            {{ end }}
+          </div>
+          <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">
+            <div class="w-100 flex flex-column items-center justify-start">
+              {{ if and .Params.latitude .Params.longitude }}
+                {{ partial "leaflet.html" (dict "Latitude" .Params.latitude "Longitude" .Params.longitude "Title" .Title "Address" .Params.address "id" 1) }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </section>
     {{ end }}
 
-    <!-- Map and Address Integration Start -->
-    <div class="nested-copy-line-height lh-copy f4-ns f5 mb4 dark-gray">
-      <h3 class="f3 mt4 mb3 sectionline">Details</h3>
-      <div class="flex flex-column flex-row-ns">
-        <div class="w-100 w-25-l w-40-m pa3-ns pa2 bb bw1 b--silver flex flex-row flex-column-ns">
-          <div class="w-75 w-100-ns ph1 ph0-ns">
-            <span class="b db mb3">{{ with .Params.building }}{{ . }}<br/>{{ end }}{{ .Title }}</span>
-            {{ with $venuePage.Params.address }} <!-- Access the 'Address' parameter -->
-            {{ . | replaceRE "\n" "<br />" | safeHTML }} <!-- Display the address with line breaks -->
-            <ul class="map_links list mv1 pl0">
-              <li><a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ . | urlize | replaceRE "%0A" "%20" }}">Google Maps</a></li>
-              <li><a target="_blank" href="https://maps.apple.com/?q={{ . | urlize | replaceRE "%0A" "%20" }}">Apple Maps</a></li>
-              <li><a target="_blank" href="https://waze.com/ul?q={{ . | urlize | replaceRE "%0A" "%20" }}">Waze Maps</a></li>
-            </ul>
-            {{ end }}
-            {{ if .Params.phone }}
-            <!-- Format the phone number -->
-            {{ $phone := .Params.phone }}
-            {{ $formattedPhone := printf "(%s) %s-%s" (substr $phone 1 3) (substr $phone 4 3) (substr $phone 7 4) }}
-            <a href="tel:{{ $phone }}" class="link db nowrap mt3">☎ {{ $formattedPhone }}</a>
-          {{ end }}        
+    {{ if $currentlyOnStage }}
+      <section class="productions-directory-section" aria-labelledby="currently-on-stage" data-production-section>
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Currently on Stage</p>
+            <h2 id="currently-on-stage">Now Playing</h2>
           </div>
+          <span class="productions-directory-count" data-production-section-count>{{ len $currentlyOnStage }} listed</span>
         </div>
-        <div class="w-100 w-75-l w-60-m pa3-ns pa2 bb bw1 b--silver">
-          <!-- Venue Map Section -->
-          <div class="w-100 flex flex-column items-center justify-start">
-            {{ if and $venuePage.Params.latitude $venuePage.Params.longitude }}
-              {{ partial "leaflet.html" (dict "Latitude" $venuePage.Params.latitude "Longitude" $venuePage.Params.longitude "Title" $venuePage.Title "Address" $venuePage.Params.address "id" 1) }}
-            {{ end }}
+        <div class="productions-directory-grid">
+          {{ range $currentlyOnStage }}
+            {{ partial "production-summary-card.html" (dict "production" . "status" "Now Playing") }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ if $comingSoon }}
+      <section class="productions-directory-section" aria-labelledby="future-productions" data-production-section>
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Announced Upcoming Shows</p>
+            <h2 id="future-productions">Future Productions</h2>
           </div>
+          <span class="productions-directory-count" data-production-section-count>{{ len $comingSoon }} listed</span>
         </div>
-      </div>
-    </div>
-    <!-- Map and Address Integration End -->
+        <div class="productions-directory-grid">
+          {{ range $comingSoon }}
+            {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
 
-    <!-- Venue Productions Section -->
+    {{ if $pastProductions }}
+      <section class="productions-directory-section" aria-labelledby="past-productions" data-production-section>
+        <div class="productions-directory-section-head sectionline">
+          <div class="productions-directory-section-title">
+            <p class="productions-directory-section-eyebrow">Closed Productions</p>
+            <h2 id="past-productions">Past Productions</h2>
+          </div>
+          <span class="productions-directory-count" data-production-section-count>{{ len $pastProductions }} listed</span>
+        </div>
+        <div class="productions-directory-grid">
+          {{ range $pastProductions }}
+            {{ partial "production-summary-card.html" (dict "production" . "status" "Past Production" "showTickets" false) }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
 
-    {{ $venueName := .Title }}
-    {{ $venueKey := $venueName | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
-    {{ $venueProductionIndex := site.Data.generated.venue_productions | default dict }}
-    {{ $venueProductions := index $venueProductionIndex $venueKey | default slice }}
-    {{ $currentDate := now.Format "2006-01-02" }}
-    {{ $currentlyOnStage := slice }}
-    {{ $comingSoon := slice }}
-    {{ $pastProductions := slice }}
-    
-    {{ range $venueProductions }}
-      {{ $openingDate := .openingDate }}
-      {{ $endDate := .closingDate | default $openingDate }}
-      {{ if $openingDate }}
-        {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
-          {{ $currentlyOnStage = $currentlyOnStage | append . }}
-        {{ else if or (lt $endDate $currentDate) (eq $endDate "") }}
-          {{ $pastProductions = $pastProductions | append . }}
-        {{ else if gt $openingDate $currentDate }}
-          {{ $comingSoon = $comingSoon | append . }}
-        {{ end }}
-      {{ end }}
-    {{ end }}    
-
-    <!-- START Venue Productions Section-->
-
-    {{/* Update sorting to account for productions that might not have a defined opening_date */}}
-    {{ $currentlyOnStage := sort $currentlyOnStage "openingDate" "asc" }}
-    {{ $comingSoon := sort $comingSoon "openingDate" "asc" }}
-    {{ $pastProductions := sort $pastProductions "openingDate" "desc" }}
-
-    {{/* Currently On Stage Section */}}
-    {{ partial "venue-production-section.html" (dict "sectionName" "Currently On Stage" "productions" $currentlyOnStage "showTickets" true) }}
-
-    {{/* Coming Soon! Section */}}
-    {{ partial "venue-production-section.html" (dict "sectionName" "Coming Soon!" "productions" $comingSoon "showTickets" true) }}
-
-    {{/* Past Productions Section */}}
-    {{ partial "venue-production-section.html" (dict "sectionName" "Past Productions" "productions" $pastProductions) }}
-
-    <!-- END Venue Productions Section -->
-
-    <!-- Content "About" -->
     {{ if .Content }}
     <div id="about" class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">About {{ .Title }}</h3>
-      {{ with .Content}}
-        {{ partial "content-wikilinks" . }}
-      {{ end }}
+      {{ partial "content-wikilinks" .Content }}
     </div>
     {{ end }}
 
-    <!-- Reviews -->
-    {{ $venueName := .Title }} <!-- Assuming the page title is the venue's name -->
     {{ $relatedReviews := slice }}
-
     {{ range where site.RegularPages "Type" "reviews" }}
-    {{ if eq .Params.venue $venueName }}
-    {{ $relatedReviews = $relatedReviews | append . }}
-    <!-- Appending the entire review object if the venue name is found -->
+      {{ if eq .Params.venue $venueName }}
+        {{ $relatedReviews = $relatedReviews | append . }}
+      {{ end }}
     {{ end }}
-    {{ end }}
+    {{ partial "review-card-grid.html" (dict "page" . "relatedReviews" $relatedReviews "heading" (printf "Reviews featuring %s" .Title)) }}
 
-    {{ if or $relatedReviews .Params.reviews }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Reviews</h3>
-      {{ range $relatedReviews }}
-      <h4><a href="{{ .RelPermalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
-      {{ $summary := .Summary | plainify | safeHTML }}
-      <span class="db">{{ $summary }}</span>
-      <a href="{{ .RelPermalink }}"
-        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-      {{ end }}
-
-      {{ if .Params.reviews }}
-      {{ range .Params.reviews }} <!-- Iterate over the reviews array -->
-      {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
-      <h4><a href="{{ $reviewURL }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-    </div>
-    {{ end }}
-
-    <!-- Press -->
     {{ if .Params.press }}
     <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
       <h3 class="f3 mt4 mb3 sectionline">Press</h3>
 
-      {{ range .Params.press }} <!-- Iterate over the crew array -->
-      {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
-      <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
+      {{ range .Params.press }}
+      {{ range $pressTitle, $pressURL := . }}
+      <h4><a href="{{ $pressURL }}" target="_blank" rel="noopener" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
       {{ end }}
       {{ end }}
     </div>
     {{ end }}
 
-    <!-- Photos -->
     {{ if .Params.photos }}
     <div class="photo-gallery nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
       <h2 id="PhotoGallery" class="sectionline">Photos</h2>
@@ -228,6 +239,6 @@
     </div>
     {{ end }}
 
-  </article>
-</div>
+  </div>
+</article>
 {{ end }}
