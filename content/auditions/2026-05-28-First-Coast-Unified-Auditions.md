@@ -1,6 +1,6 @@
 ---
 title: First Coast Unified Auditions Set for June 20 at Limelight Theatre
-date: 2026-06-14T21:06:10-04:00
+date: 2026-05-28T12:06:10-04:00
 featured_image: /media/photos/2026-First-Coast-Unified-Auditions.webp
 authors:
 - JaxPlays
