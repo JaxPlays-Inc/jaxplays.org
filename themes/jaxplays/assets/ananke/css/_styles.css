@@ -708,7 +708,7 @@ h1 a.jaxplayslogo {
 	background: #181818;
 	color: #fff;
 	font-size: var(--theatre-single-action-font-size);
-	font-weight: 800;
+	font-weight: 700;
 	justify-content: center;
 	letter-spacing: .01em;
 	line-height: 1;
@@ -829,7 +829,7 @@ h1 a.jaxplayslogo {
 .profile-social-link span,
 .theatre-social-link span {
 	font-size: 1.25rem;
-	font-weight: 800;
+	font-weight: 700;
 	line-height: 1;
 }
 
@@ -1233,7 +1233,7 @@ h1 a.jaxplayslogo {
 }
 
 .production-single .program-preview-fallback {
-	font-weight: 800;
+	font-weight: 700;
 }
 
 .article-directory {
@@ -1629,7 +1629,7 @@ h1 a.jaxplayslogo {
 	color: var(--jp-red);
 	display: inline-block;
 	font-size: .75rem;
-	font-weight: 800;
+	font-weight: 700;
 	line-height: 1;
 	margin-bottom: .75rem;
 	text-decoration: none;
@@ -1668,7 +1668,7 @@ h1 a.jaxplayslogo {
 	font-weight: 700;
 	gap: .35rem .6rem;
 	line-height: 1.35;
-	margin-top: 1rem;
+	margin: 1rem 0;
 	text-transform: uppercase;
 }
 
@@ -1676,7 +1676,10 @@ h1 a.jaxplayslogo {
 	margin: 0;
 }
 
-.article-single-byline a,
+.article-single-byline a {
+	color: var(--jp-red);
+}
+
 .article-single-media figcaption a {
 	color: inherit;
 }
@@ -2980,7 +2983,7 @@ a.production-credit-person.slow-grow:focus,
 	}
 }
 
-@media screen and (min-width: 90em) {
+@media screen and (min-width: 970px) {
 	a.jaxplayslogo {
 		background-size: 1.5rem;
 		/* Adjust the size as needed */
@@ -3017,7 +3020,7 @@ a.production-credit-person.slow-grow:focus,
 	font-size: 2.2em;
 }
 
-@media (max-width: 90em) {
+@media (max-width: 969px) {
 	.menu-btn-holder,
 	.donate-button-holder {
 		flex: 1;
@@ -3241,11 +3244,44 @@ a.production-credit-person.slow-grow:focus,
 	}
 
 	.article-single-meta {
-		align-items: flex-start;
-		flex-direction: column;
+		align-items: center;
+		display: grid;
+		/* gap: .25rem .45rem; */
+		grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
 	}
 
-	.article-single-date::before,
+	.article-single-date,
+	.article-single-reading {
+		align-items: center;
+		color: var(--jp-muted);
+		display: flex;
+		/* font-size: .78rem; */
+		letter-spacing: .02em;
+		/* line-height: 1.2; */
+		min-width: 0;
+		text-transform: uppercase;
+	}
+
+	.article-single-date {
+		grid-column: 2;
+		white-space: nowrap;
+	}
+
+	.article-single-date::before {
+		content: "/";
+		margin-right: .45rem;
+	}
+
+	.article-single-reading {
+		grid-row: 2;
+		white-space: nowrap;
+	}
+
+	.article-single-reading + .article-single-reading::before {
+		content: "/";
+		margin-right: .45rem;
+	}
+
 	.article-single-reading::before {
 		content: none;
 		margin-right: 0;

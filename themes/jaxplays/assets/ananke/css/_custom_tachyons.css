@@ -23,7 +23,7 @@
   margin-right: auto;
 }
 
-@media screen and (min-width:90em) {
+@media screen and (min-width:970px) {
   .flex-xl {
     display: flex;
   }
