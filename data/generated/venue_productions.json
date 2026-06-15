@@ -19278,7 +19278,7 @@
       "title": "A Midsummer Night's Dream",
       "url": "/productions/2026-a-midsummer-nights-dream/",
       "contentPath": "productions/2026/2026-A-Midsummer-Nights-Dream",
-      "poster": "/media/posters/2026-A-Midsummer-Nights-Dream.webp?v=122643",
+      "poster": "/media/posters/2026-A-Midsummer-Nights-Dream.webp?v=200007",
       "posterAlt": "A Midsummer Night's Dream poster",
       "openingDate": "2026-06-19",
       "closingDate": "2026-06-28",
@@ -26856,6 +26856,30 @@
     }
   ],
   "greenlight-theatre-company": [
+    {
+      "title": "Let's Make Music Together",
+      "url": "/productions/2026-lets-make-music-together/",
+      "contentPath": "productions/2026/2026-Lets-Make-Music-Together",
+      "poster": "/media/posters/2026-Lets-Make-Music-Together.webp",
+      "posterAlt": "Let's Make Music Together poster",
+      "openingDate": "2026-06-12",
+      "closingDate": "2026-06-13",
+      "openingLabel": "Jun 12, 2026",
+      "openingMonthLabel": "June 2026",
+      "openingBadgeLabel": "Jun 12, 2026",
+      "closingLabel": "Jun 13, 2026",
+      "theatre": "Greenlight Theatre Company",
+      "venues": [],
+      "allVenues": [
+        "Greenlight Theatre Company"
+      ],
+      "genres": [
+        "Cabaret"
+      ],
+      "summary": "Greenlight Theatre Company and Triple THR3AT Entertainment present a family-friendly Don Bluth tribute concert featuring songs and characters from animated classics.",
+      "tickets": "https://www.greenlighttheatreco.com/jaxonstage",
+      "searchBase": "let's make music together jun 12, 2026 jun 13, 2026 greenlight theatre company greenlight theatre company cabaret greenlight theatre company and triple thr3at entertainment present a family-friendly don bluth tribute concert featuring songs and characters from animated classics."
+    },
     {
       "title": "Grease",
       "url": "/productions/2026-grease-1/",

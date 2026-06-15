@@ -24,13 +24,12 @@ orchestra:
 show_details:
   - Presented with: THR3AT Entertainment
 genres:
-  - Concert
-  - Musical
-description: "Greenlight Theatre Company and THR3AT Entertainment present a family-friendly Don Bluth tribute concert featuring songs and characters from animated classics."
+  - Cabaret
+description: "Greenlight Theatre Company and Triple THR3AT Entertainment present a family-friendly Don Bluth tribute concert featuring songs and characters from animated classics."
 source: Official website
 source_date: 2026-06-14
 source_url: https://www.greenlighttheatreco.com/jaxonstage
 ---
-Greenlight Theatre Company and THR3AT Entertainment present *Let's Make Music Together: A Don Bluth Tribute Show*, a family-friendly concert celebrating music, storytelling and animation.
+Greenlight Theatre Company and Triple THR3AT Entertainment present *Let's Make Music Together: A Don Bluth Tribute Show*, a family-friendly concert celebrating music, storytelling and animation.
 
 The tribute features live vocals and theatrical storytelling inspired by animated films including *Anastasia*, *The Land Before Time*, *All Dogs Go to Heaven* and *An American Tail*.
