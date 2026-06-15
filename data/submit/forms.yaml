@@ -1,7 +1,7 @@
 profile:
   type: profile
-  submit_label: Submit Profile
-  success: Thank you. Your profile submission has been sent to JaxPlays for review.
+  submit_label: Apply for Artist Profile
+  success: Thank you. Your artist profile application has been sent to JaxPlays for review.
   fields:
     - name: email
       label: Email
@@ -122,8 +122,8 @@ profile:
 
 production:
   type: production
-  submit_label: Submit Production
-  success: Thank you. Your production submission has been sent to JaxPlays for review.
+  submit_label: Apply for Production Listing
+  success: Thank you. Your production listing application has been sent to JaxPlays for review.
   fields:
     - name: email
       label: Email
@@ -145,7 +145,7 @@ production:
       type: text
       required: true
       suggestions: theatres
-      description: Which theatre company is producing this show? If it is not listed, select Theatre Not Listed and also submit the [theatre company form](/submit/theatre/).
+      description: Which theatre company is producing this show? If it is not listed, first [apply to have your theatre considered](/apply/theatre/).
     - name: venue
       label: Venue
       type: text
@@ -248,8 +248,8 @@ production:
 
 theatre:
   type: theatre
-  submit_label: Submit Theatre
-  success: Thank you. Your theatre submission has been sent to JaxPlays for review.
+  submit_label: Apply for Theatre Listing
+  success: Thank you. Your theatre listing application has been sent to JaxPlays for review.
   fields:
     - name: email
       label: Email
@@ -384,8 +384,8 @@ theatre:
 
 audition:
   type: audition
-  submit_label: Submit Audition Announcement
-  success: Thank you. Your audition announcement has been sent to JaxPlays for review.
+  submit_label: Apply to Post Audition
+  success: Thank you. Your audition announcement application has been sent to JaxPlays for review.
   fields:
     - name: email
       label: Email
@@ -400,7 +400,7 @@ audition:
       type: text
       required: true
       suggestions: theatres
-      description: Which theatre company is holding auditions?
+      description: Which theatre company is producing this show? If it is not listed, first [apply to have your theatre considered](/apply/theatre/).
     - name: production_title
       label: Production Title
       type: text

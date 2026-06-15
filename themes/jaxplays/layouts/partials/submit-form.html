@@ -136,8 +136,8 @@
     {{- end }}
 
     <div class="jp-submit-rights">
-      <p>By submitting this form you affirm that you are the rightful owner or possess all necessary rights to the content submitted, and grant JaxPlays, Inc. a perpetual, nontransferable, royalty-free license to publish, display, reproduce, and distribute the submitted content on jaxplays.org, by email and on social media.</p>
-      <p>Submission of content does not imply any guarantee that it will be published on jaxplays.org. All content submitted is subject to approval.</p>
+      <p>By applying, you affirm that you are the rightful owner or possess all necessary rights to the content provided, and grant JaxPlays, Inc. a perpetual, nontransferable, royalty-free license to publish, display, reproduce and distribute the provided content on jaxplays.org, by email and on social media.</p>
+      <p>Application does not guarantee publication on jaxplays.org. All applications are reviewed before approval.</p>
     </div>
 
     <div
@@ -166,17 +166,17 @@
       const originalButtonText = button.textContent;
       const normalize = (value) => value.trim().toLowerCase();
       const errorMessages = {
-        "origin-not-allowed": "This page is not approved for submissions yet.",
+        "origin-not-allowed": "This page is not approved for applications yet.",
         "turnstile-required": "Please complete the verification check.",
         "turnstile-failed": "Verification failed. Please complete the check and try again.",
-        "submission-not-configured": "This submission form is not fully configured yet.",
-        "submission-rejected": "The submission service rejected this entry.",
-        "submission-unavailable": "The submission service is unavailable right now. Please try again in a moment.",
-        "linear-rejected": "Linear rejected this submission. The submission service is unavailable right now.",
+        "submission-not-configured": "This application form is not fully configured yet.",
+        "submission-rejected": "The application service rejected this entry.",
+        "submission-unavailable": "The application service is unavailable right now. Please try again in a moment.",
+        "linear-rejected": "Linear rejected this application. The application service is unavailable right now.",
         "linear-unavailable": "Linear is unavailable right now. Please try again in a moment.",
-        "invalid-form-data": "The submission could not be read. Please refresh and try again.",
-        "spam-detected": "This submission was rejected by the spam filter.",
-        "invalid-form-type": "This submission form is not recognized.",
+        "invalid-form-data": "The application could not be read. Please refresh and try again.",
+        "spam-detected": "This application was rejected by the spam filter.",
+        "invalid-form-type": "This application form is not recognized.",
         "missing-required-fields": "Please complete all required fields.",
       };
 
@@ -579,7 +579,7 @@
 
           form.reset();
           window.turnstile?.reset(form.querySelector(".cf-turnstile"));
-          setStatus(form.dataset.success || "Thank you. Your submission has been sent.", "success");
+          setStatus(form.dataset.success || "Thank you. Your application has been sent.", "success");
         } catch (error) {
           window.turnstile?.reset(form.querySelector(".cf-turnstile"));
           setStatus(errorMessages[error.message] || "Something went wrong. Please try again in a moment.", "error");

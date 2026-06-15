@@ -121,23 +121,23 @@ menu:
     pageRef: /signup
     weight: 50
   - name: Apply
-    pageRef: /submit
+    pageRef: /apply
     weight: 60
   - name: Artist Profile
     parent: Apply
-    pageRef: /submit/profile
+    pageRef: /apply/profile
     weight: 61
   - name: Production Listing
     parent: Apply
-    pageRef: /submit/production
+    pageRef: /apply/production
     weight: 62
   - name: Theatre Listing
     parent: Apply
-    pageRef: /submit/theatre
+    pageRef: /apply/theatre
     weight: 63
   - name: Audition Announcement
     parent: Apply
-    pageRef: /submit/audition
+    pageRef: /apply/audition
     weight: 64
   - name: Donate
     pageRef: /support

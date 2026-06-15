@@ -21,7 +21,7 @@ JaxPlays is not just a historical archive; we're a dynamic hub for everything re
 
 ## Where is JaxPlays?
 
-We cover all professional, community, and college live theatre within a 40-mile radius of Jacksonville, Florida. This spans multiple counties in Florida and Georgia. [If your favorite theatre isn't listed, let us know](/submit/)!
+We cover all professional, community and college live theatre within a 40-mile radius of Jacksonville, Florida. This spans multiple counties in Florida and Georgia. [If your favorite theatre isn't listed, let us know](/apply/)!
 
 {{< leaflet id="1" latitude="30.324" longitude="-81.659" setZoom="8" radius="64373.8">}}
 
