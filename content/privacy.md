@@ -1,8 +1,8 @@
 ---
 title: Privacy Policy
-date: 2026-06-08T14:22:39-04:00
+date: 2026-06-14T21:06:10-04:00
 ---
-**Effective Date: June 8, 2026**
+**Effective Date: June 14, 2026**
 
 ## INTRODUCTION
 Welcome to JaxPlays (jaxplays.org), a website dedicated to theatre productions in Jacksonville, Florida. In this Privacy Policy, we inform you, the user ("you," "your," or "user"), about how we collect, use, disclose, and protect your information when you use our website.
@@ -34,7 +34,7 @@ For more information on Google's privacy practices, please visit the Google Priv
 ## USE OF CLOUDFLARE TURNSTILE
 JaxPlays may use Cloudflare Turnstile on forms, including newsletter signup forms, to help protect the website from spam, abuse, and automated bot traffic. Turnstile may process signals such as your IP address, browser user-agent, TLS fingerprint, sitekey, and associated origin for bot detection and service improvement.
 
-Cloudflare's processing of information through Turnstile is described in the [Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/en-gb/turnstile-privacy-policy/), which supplements Cloudflare's main Privacy Policy.
+When JaxPlays uses Turnstile in invisible mode, Cloudflare may perform this bot-detection process without requiring you to complete a visible challenge. Cloudflare's processing of information through Turnstile is described in the [Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/en-gb/turnstile-privacy-policy/), which supplements Cloudflare's main Privacy Policy.
 
 ## SECURITY
 Protecting your Personal Information is essential to us, but please note that no method of transmission over the Internet or electronic storage is 100% secure. We strive to use commercially acceptable means to safeguard your Personal Information, but we cannot guarantee absolute security.
