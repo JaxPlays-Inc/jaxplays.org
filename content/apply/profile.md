@@ -9,3 +9,5 @@ aliases:
 Apply to be considered for the JaxPlays People Directory. Whether you're an established theatre professional or an emerging artist, this application helps JaxPlays review your biography and public profile details for inclusion.
 
 Profiles are reviewed before publication so the directory remains accurate, useful and connected to the regional theatre community.
+
+Want to add a theatre credit to your profile on JaxPlays? [Apply to have the production added to JaxPlays](/apply/production/). Your credit will be automatically added to your profile when the production is approved.
