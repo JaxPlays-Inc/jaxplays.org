@@ -1,26 +1,29 @@
 ---
 title: "Raw Emotion and Stark Honesty Define ABET's 'A Moon for the Misbegotten'"
 date: 2025-10-18T11:52:55-04:00
-featured_image: /media/photos/2025-A-Moon-for-the-Misbegotten-10.webp
-featured_image_alt: Tyrone gestures passionately as Josie watches from the farmhouse porch in 'A Moon for the Misbegotten' at ABET.
-featured_image_caption: Jessica Racaniello and Scott Broughton spark against Hammond's weathered farmhouse set in ABET's intimate, arresting staging of 'A Moon for the Misbegotten'.
-featured_image_attr: Jax Headshots
-featured_image_attr_link: https://www.jaxheadshots.co/
-authors: 
+featured_image:
+  src: /media/photos/2025-A-Moon-for-the-Misbegotten-10.webp
+  alt: Tyrone gestures passionately as Josie watches from the farmhouse porch in 'A Moon for the Misbegotten' at ABET.
+  caption: Jessica Racaniello and Scott Broughton spark against Hammond's weathered farmhouse set in ABET's intimate, arresting staging of 'A Moon for the Misbegotten'.
+  credit:
+    name: Jax Headshots
+    url: https://www.jaxheadshots.co/
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 A Moon for the Misbegotten
 theatre: "ABET - All Beaches Experimental Theatre"
-cast: 
-- Jessica Racaniello 
-- Scott Broughton
-- Anthony Hodge
-- Troy Rossi
-- Scott Campbell
-- Tyler Hammond
-- David Buchman
+featuring:
+  - Jessica Racaniello
+  - Scott Broughton
+  - Anthony Hodge
+  - Troy Rossi
+  - Scott Campbell
+  - Tyler Hammond
+  - David Buchman
 description: "ABET’s *A Moon for the Misbegotten* delivers raw emotion, striking design and standout performances in O’Neill’s tale of loneliness and redemption."
 ---
+
 In Eugene O’Neill’s [[production:2025 A Moon for the Misbegotten]], the past hangs heavy over a Connecticut farm where resentment, survival and yearning intertwine. Josie Hogan, the sharp-tongued daughter of an aging tenant farmer, scrapes out a life shaped by both hardship and wit. Her father, Phil, schemes to secure the family’s land from their landlord, James Tyrone Jr., whose charm masks deep grief and self-loathing. What begins as a bluff for ownership becomes a night of searing honesty, as Josie and Tyrone’s defenses crumble and their pain is laid bare beneath the moonlight.<!--more-->
 
 [[theatre:ABET - All Beaches Experimental Theatre]]’s production at [[venue:WJCT Studio B]], directed by [[person:Tyler Hammond]], thrives in the intimacy of Studio B’s black box setting. The closeness of the audience to the actors transforms O’Neill’s dense realism into something immediate and piercing, where every silence resonates and every glance feels magnified.
@@ -29,7 +32,7 @@ In Eugene O’Neill’s [[production:2025 A Moon for the Misbegotten]], the past
 
 [[person:Jessica Racaniello]] gives Josie Hogan a fierce, lived-in vitality. Her Josie feels carved out of the soil she stands on — tough, sly and unafraid of her own sharpness. She’s deliciously ornery, sardonic and endlessly watchable. Every glance and gesture carries the memory of labor and loss, yet beneath the grit there’s a quiet pulse of longing. Racaniello doesn’t soften Josie or lean into sentiment; she trusts the character’s contradictions, letting humor and heartbreak coexist in the same breath. The result is a performance that feels rooted in experience rather than artifice.
 
-{{< figure src="/media/photos/2025-A-Moon-for-the-Misbegotten-09.webp" alt="Josie leans playfully toward Mike outside the farmhouse in 'A Moon for the Misbegotten' at ABET." caption="Jessica Racaniello balances Josie’s wit and warmth in a brief, disarming moment with Mike." attr="Jax Headshots" attr_link="https://www.jaxheadshots.co/" >}}
+{{< figure src="/media/photos/2025-A-Moon-for-the-Misbegotten-09.webp" alt="Josie leans playfully toward Mike outside the farmhouse in 'A Moon for the Misbegotten' at ABET." caption="Jessica Racaniello balances Josie’s wit and warmth in a brief, disarming moment with Mike." attr="Jax Headshots" attr_link="https://www.jaxheadshots.co/" size="full" >}}
 
 [[person:Scott Broughton]]’s James Tyrone Jr. is a man trying to charm his way out of despair, and Broughton captures that tension with remarkable nuance. His Tyrone moves easily between wit and weariness, the brightness in his eyes dimming as the night wears on. His emotional range gives the production its pulse — by turns jovial, broken and raw. His descent into drunkenness, a moment that can so easily slip into caricature, is rendered with remarkable subtlety, allowing Tyrone’s weariness to surface gradually and truthfully. Broughton lets the character’s exhaustion creep in until Tyrone’s bravado gives way to something raw and unguarded, capturing the subtle, heartbreaking blur between melancholy and self-destruction.
 
@@ -37,7 +40,7 @@ In Eugene O’Neill’s [[production:2025 A Moon for the Misbegotten]], the past
 
 [[person:Anthony Hodge]] brings grit and humor to Phil Hogan. He gives the old farmer a wiry intelligence and an edge of mischief that keeps every exchange alive. Hodge’s sense of rhythm and timing makes his banter with Josie sparkle, though his accent often slips from its intended shape. Still, the performance feels honest and textured. Phil’s shrewdness and affection play against each other in a way that feels deeply recognizable. You sense both the schemer and the father, each vying for control in every line he speaks.
 
-{{< figure src="/media/photos/2025-A-Moon-for-the-Misbegotten-05.webp" alt="Josie cradles Tyrone’s head in her lap as Phil sits nearby on the farmhouse steps in 'A Moon for the Misbegotten' at ABET." caption="An intimate moment between Josie, Tyrone and Phil highlights the production’s emotional honesty and the closeness of the space." attr="Jax Headshots" attr_link="https://www.jaxheadshots.co/" >}}
+{{< figure src="/media/photos/2025-A-Moon-for-the-Misbegotten-05.webp" alt="Josie cradles Tyrone’s head in her lap as Phil sits nearby on the farmhouse steps in 'A Moon for the Misbegotten' at ABET." caption="An intimate moment between Josie, Tyrone and Phil highlights the production’s emotional honesty and the closeness of the space." attr="Jax Headshots" attr_link="https://www.jaxheadshots.co/" size="full" >}}
 
 [[person:Troy Rossi]] as Mike Hogan and [[person:Scott Campbell]] as T. Stedman Harder lend essential texture, grounding the early moments of the play with levity before the story plunges into deeper waters.
 

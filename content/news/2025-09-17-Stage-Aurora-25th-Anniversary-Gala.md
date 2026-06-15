@@ -1,10 +1,8 @@
 ---
 title: Stage Aurora Marks 25 Years With Gala Celebration at WJCT Studios
 date: 2025-09-17T15:01:31-04:00
-featured_image: /media/photos/2025-Stage-Aurora-25th-Anniversary-Gala-01.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2025-Stage-Aurora-25th-Anniversary-Gala-01.webp
 authors: 
 - JaxPlays
 show_reading_time: true

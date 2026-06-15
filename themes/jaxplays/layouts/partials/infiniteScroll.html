@@ -1,4 +1,4 @@
-<nav class="post-navigation relative flex-l flex-wrap justify-between mw8 center ph3">
+<nav class="post-navigation article-single-nav relative flex-l flex-wrap justify-between center ph3">
   {{ with .PrevInSection }}
   <h3>Previous {{ title .Section }}:<br /> <a id="prev-post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
   {{ end }}
@@ -15,6 +15,12 @@
 document.addEventListener("DOMContentLoaded", function() {
   let loading = false;
   let prevUrl = document.getElementById('prev-post-link')?.href || "";
+  const initialPost = document.querySelector('.main-content');
+
+  if (initialPost) {
+    initialPost.dataset.canonicalUrl = document.querySelector('link[rel="canonical"]')?.href || window.location.href;
+    initialPost.dataset.documentTitle = document.title;
+  }
 
   const updateActiveArticleHistory = function() {
     const articles = Array.from(document.querySelectorAll('.main-content'));
@@ -36,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (!bestArticle) return;
 
-    const targetUrl = bestArticle.dataset.canonicalUrl;
-    const targetTitle = bestArticle.dataset.documentTitle;
+    const targetUrl = bestArticle.dataset.canonicalUrl || bestArticle.dataset.url;
+    const targetTitle = bestArticle.dataset.documentTitle || bestArticle.dataset.title;
     if (targetUrl && window.location.href !== targetUrl) {
       history.replaceState({}, '', targetUrl);
     }
@@ -55,32 +61,36 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const scrollHeight = document.documentElement.scrollHeight || document.body.offsetHeight;
     const distanceToBottom = scrollHeight - (window.innerHeight + window.scrollY);
-    const triggerDistance = Math.max(window.innerHeight * 2.5, 1800);
+    // Preload the next article/billboard well before it enters view. The
+    // history URL still changes in updateActiveArticleHistory when the
+    // appended article becomes the centered article.
+    const preloadDistance = Math.max(window.innerHeight * 5, 3200);
 
-    if (distanceToBottom <= triggerDistance) {
+    if (distanceToBottom <= preloadDistance) {
       loading = true;
       fetch(prevUrl)
         .then(response => response.text())
         .then(html => {
           const parser = new DOMParser();
           const doc = parser.parseFromString(html, 'text/html');
-          const prevHeader = doc.querySelector('header');
           const prevPost = doc.querySelector('.main-content');
           const prevNav = doc.querySelector('.post-navigation');
+          const prevBillboard = doc.querySelector('body > .billboard-1');
 
           if (prevPost) {
             prevPost.id = '';
-            if (prevHeader) {
-              document.querySelector('.main-content').parentNode.appendChild(prevHeader);
+            const scrollContainer = document.querySelector('.main-content').parentNode;
+            if (prevBillboard) {
+              scrollContainer.appendChild(prevBillboard);
             }
-            document.querySelector('.main-content').parentNode.appendChild(prevPost);
+            scrollContainer.appendChild(prevPost);
             if (prevNav) {
-              document.querySelector('.main-content').parentNode.appendChild(prevNav);
+              scrollContainer.appendChild(prevNav);
             }
 
             if (window.jaxplaysAds && typeof window.jaxplaysAds.registerSlots === 'function') {
-              if (prevHeader) {
-                window.jaxplaysAds.registerSlots(prevHeader);
+              if (prevBillboard) {
+                window.jaxplaysAds.registerSlots(prevBillboard);
               }
               window.jaxplaysAds.registerSlots(prevPost);
               if (prevNav) {

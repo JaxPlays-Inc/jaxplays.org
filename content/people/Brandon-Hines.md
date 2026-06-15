@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Costume Designer
+  - Costuming
 socials:
   facebook: 
   twitter: 

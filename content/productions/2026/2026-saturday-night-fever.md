@@ -1,7 +1,7 @@
 ---
 title: Saturday Night Fever
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: null
 date: '2026-01-12T21:32:43-05:00'
 opening_date: '2026-08-20'
@@ -60,7 +60,7 @@ website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1511&code=JAXPLAYS
 show_details:
-- '''Based on': 1977 film [[w:Saturday Night Fever]]'
+- 'Based on': 1977 film *[[w:Saturday Night Fever]]*
 cast: null
 crew: null
 orchestra: null

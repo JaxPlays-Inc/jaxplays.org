@@ -1,11 +1,11 @@
 ---
 title: St. Augustine Amphitheatre
-date: 2024-12-18T12:21:32-05:00
+date: 2026-06-09T23:36:16-04:00
 active: true
-featured_image: 
+featured_image: St-Augustine-Amphitheatre.webp
 featured_image_attr: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image_alt: St. Augustine Amphitheatre logo
+featured_image_caption: St. Augustine Amphitheatre logo
 founded: 
 capacity: 4709
 address: |

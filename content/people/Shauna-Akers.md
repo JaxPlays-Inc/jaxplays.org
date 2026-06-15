@@ -9,6 +9,7 @@ featured_image_attr:
 featured_image_attr_link: 
 roles:
   - Actor
+  - Stage Manager
 socials:
   facebook: 
   twitter: 

@@ -1,38 +1,43 @@
 ---
 title: "'Damn Yankees' at Alhambra Theatre & Dining Is a Wickedly Fun, Nostalgia-Fueled Home Run"
 date: 2026-03-17T17:50:00-04:00
-featured_image: /media/photos/2026-Damn-Yankees-01.webp
-featured_image_attr: Ray Hollister
-featured_image_attr_link:
-featured_image_caption: "The cast of Alhambra Theatre & Dining’s *Damn Yankees* gathers after the performance beneath the show’s lobby backdrop."
-featured_image_alt: "Cast members of Damn Yankees at Alhambra Theatre & Dining pose together for a group photo in the theatre lobby."
+featured_image:
+  src: /media/photos/2026-Damn-Yankees-01.webp
+  alt: "Cast members of Damn Yankees at Alhambra Theatre & Dining pose together for a group photo in the theatre lobby."
+  caption: "The cast of Alhambra Theatre & Dining’s *Damn Yankees* gathers after the performance beneath the show’s lobby backdrop."
+  credit:
+    name: Ray Hollister
 authors:
 - Ray Hollister
 production: 2026 Damn Yankees
 theatre: Alhambra Theatre & Dining
-cast:
-- Allan Baker
-- Charity Walton
-- Bob O'Hara
-- Lisa Valdini Booth
-- Thaddeus Walker
-- Natalie Drake
-- Alec Hadden
-- Patti Eyler
-- Maureen McCluskey
-- Kailey Anderson
-- James Michael Roddy
-- Sebastian Miller
-- Izee Haynes
-- Christopher Michael Milligan
-- Elijah Simms
-- Ryan Lemmon
-- Calvin Bernardo
-- Landon Amburgey
+featuring:
+  - Allan Baker
+  - Charity Walton
+  - Bob O'Hara
+  - Lisa Valdini Booth
+  - Thaddeus Walker
+  - Natalie Drake
+  - Alec Hadden
+  - Patti Eyler
+  - Maureen McCluskey
+  - Kailey Anderson
+  - James Michael Roddy
+  - Sebastian Miller
+  - Izee Haynes
+  - Christopher Michael Milligan
+  - Elijah Simms
+  - Ryan Lemmon
+  - Calvin Bernardo
+  - Landon Amburgey
+  - Tod Booth
+  - Cathy Murphy Giddens
+  - Johnny Pettegrew
 description: "Alhambra Theatre & Dining’s *Damn Yankees* delivers sharp choreography, standout performances and 1950s charm in a nostalgic musical comedy that proves irresistible fun."
 show_reading_time: true
 ---
-[[theatre:Alhambra Theatre & Dining]]’s [[production:2026 Damn Yankees]] is pure old-school musical-comedy fun — nostalgic, high-energy and packed with standout performances that know exactly what show they’re in. Under [[person:Tod Booth]]’s direction, this revival leans into its midcentury charm without feeling dusty, delivering a production that is both lovingly retro and sharply alive in the moment.
+
+[[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]]’s [[production:2026 Damn Yankees]] is pure old-school musical-comedy fun — nostalgic, high-energy and packed with standout performances that know exactly what show they’re in. Under [[person:Tod Booth]]’s direction, this revival leans into its midcentury charm without feeling dusty, delivering a production that is both lovingly retro and sharply alive in the moment.
 
 <!--more-->
 

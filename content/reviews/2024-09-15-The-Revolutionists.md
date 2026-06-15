@@ -1,22 +1,25 @@
 ---
 title: "'The Revolutionists' Is a Fierce and Funny Journey Through the French Revolution"
 date: 2024-09-15T23:09:57-04:00
-featured_image: /media/photos/2024-The-Revolutionists-12.webp
-featured_image_attr: Mike Kitaif
-featured_image_caption: "In a heartwarming scene from 'The Revolutionists' at Players by the Sea, Ayviana Singh's Marianne Angelle bursts into laughter, while Catie Casey's Marie Antoinette beams with delight."
-featured_image_alt: "Ayviana Singh as Marianne Angelle and Catie Casey as Marie Antoinette share a moment of joviality in 'The Revolutionists' at Players by the Sea, with Marianne laughing heartily and Marie Antoinette smiling broadly, both seated on a vintage red sofa."
+featured_image:
+  src: /media/photos/2024-The-Revolutionists-12.webp
+  alt: "Ayviana Singh as Marianne Angelle and Catie Casey as Marie Antoinette share a moment of joviality in 'The Revolutionists' at Players by the Sea, with Marianne laughing heartily and Marie Antoinette smiling broadly, both seated on a vintage red sofa."
+  caption: "In a heartwarming scene from 'The Revolutionists' at Players by the Sea, Ayviana Singh's Marianne Angelle bursts into laughter, while Catie Casey's Marie Antoinette beams with delight."
+  credit:
+    name: Mike Kitaif
 authors:
 - Ray Hollister
 production: 2024 The Revolutionists
 theatre: Players by the Sea
-cast: 
-- Jennifer Lilly
-- Ayviana Singh
-- Morgan Williams
-- Catie Casey
-- Jillianne Tamillo
+featuring:
+  - Jennifer Lilly
+  - Ayviana Singh
+  - Morgan Williams
+  - Catie Casey
+  - Jillianne Tamillo
 description: "*The Revolutionists* at Players by the Sea captivates with wit and power, bringing revolutionary women to life in a brilliant, meta-theatrical performance."
 ---
+
 Lauren Gunderson’s [[production: 2024 The Revolutionists]] unfolds at [[theatre:Players by the Sea]] as a vibrant, audacious exploration of sisterhood, revolution and the power of storytelling. Set during the upheaval of the French Revolution, this play brings together four dynamic characters: playwright Olympe de Gouges, assassin Charlotte Corday, the infamous Marie Antoinette and Marianne Angelle. Marianne is a fictional embodiment of the free Black women who were vital to the revolutionary movements in Saint-Domingue, modern-day Haiti. Though their paths never crossed in reality, Gunderson brings them together in this bold, meta-theatrical drama, filled with modern language and self-referential wit. The production delves into themes of female empowerment and artistic expression, offering a fresh lens through which to view history.
 <!--more-->
 

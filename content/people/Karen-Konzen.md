@@ -17,6 +17,7 @@ headshot_gallery:
     attr_link: https://karmathartic.com/
 roles:
   - Actor
+  - Playwright
 socials:
   facebook: 
   twitter: 

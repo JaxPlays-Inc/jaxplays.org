@@ -7,6 +7,8 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Director
+  - Choreographer
+  - Costume Designer
 socials: 
   facebook: cjwilliams82
   linkedin: curtis-williams-1a844413

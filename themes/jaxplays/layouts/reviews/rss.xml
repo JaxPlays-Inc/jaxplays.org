@@ -65,7 +65,8 @@
         {{- $html := printf "%s%s%s" $body $details ($reviewText | safeHTML) -}}
         <content:encoded>{{ $html | transform.XMLEscape | safeHTML }}</content:encoded>
 
-        {{- with .Params.featured_image -}}
+        {{- $imageMeta := partial "func/GetFeaturedImageMeta.html" . -}}
+        {{- with $imageMeta.src -}}
           <enclosure url="{{ . | absURL }}" type="image/jpeg" />
         {{- end -}}
       </item>

@@ -1,16 +1,18 @@
 ---
 title: Alhambra Theatre & Dining Named Best Dinner Theater in the Nation
 date: 2025-04-23T18:32:42-04:00
-featured_image: /media/photos/2023-Legally-Blonde-01.webp
-featured_image_attr: Ray Hollister
-featured_image_alt: "The cast of 'Legally Blonde' at Alhambra Theatre & Dining takes their curtain call, framed by vibrant purple and orange light panels as the audience cheers from cabaret-style tables."
-featured_image_caption: "Cast members of *Legally Blonde* at the Alhambra Theatre & Dining celebrate their final bow in a colorful, high-energy curtain call."
+featured_image:
+  src: /media/photos/2023-Legally-Blonde-01.webp
+  alt: "The cast of 'Legally Blonde' at Alhambra Theatre & Dining takes their curtain call, framed by vibrant purple and orange light panels as the audience cheers from cabaret-style tables."
+  caption: "Cast members of *Legally Blonde* at the Alhambra Theatre & Dining celebrate their final bow in a colorful, high-energy curtain call."
+  credit:
+    name: Ray Hollister
 authors: 
 - JaxPlays
 show_reading_time: true
 description: "Jacksonville’s beloved dinner theater tops USA TODAY’s 10Best Readers’ Choice Awards"
 ---
-The [[theatre:Alhambra Theatre & Dining]] has been voted the [No. 1 dinner theater in the United States](https://10best.usatoday.com/awards/best-dinner-theater/) by readers of *USA TODAY*, topping the publication’s annual 10Best Readers’ Choice Awards.<!--more-->
+The [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] has been voted the [No. 1 dinner theater in the United States](https://10best.usatoday.com/awards/best-dinner-theater/) by readers of *USA TODAY*, topping the publication’s annual 10Best Readers’ Choice Awards.<!--more-->
 
 The national recognition marks a major milestone for the Jacksonville institution, which first opened its doors in 1967. Known for its unique blend of Broadway-style productions and three-course meals served in an intimate setting, the Alhambra holds the distinction of being the longest continuously operating professional dinner theater in the country.
 

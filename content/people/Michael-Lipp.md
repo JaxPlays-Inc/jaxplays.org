@@ -12,6 +12,9 @@ birth_info:
 roles:
   - Actor
   - Director
+  - Choreographer
+  - Sound Designer
+  - Stage Manager
 socials:
   website: https://www.mrlipp.com
 date: 2023-09-08T00:00:00-04:00

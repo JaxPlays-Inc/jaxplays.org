@@ -8,6 +8,7 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Scenic Designer
 socials:
   facebook: 
   twitter: 

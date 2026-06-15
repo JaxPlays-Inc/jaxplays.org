@@ -8,6 +8,12 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Director
+  - Choreographer
+  - Scenic Designer
+  - Costume Designer
+  - Property Master
+  - Carpenter
 socials:
   facebook: 
   twitter: 

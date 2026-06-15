@@ -8,6 +8,10 @@ roles:
   - Actor
   - Director
   - Musical Director
+  - Choreographer
+  - Costume Designer
+  - Stage Manager
+  - Painter
 socials:
   facebook: 
   twitter: 

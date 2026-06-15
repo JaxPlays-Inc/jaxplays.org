@@ -1,16 +1,18 @@
 ---
 title: "'Desperate Measures' Puts a Rootin’-Tootin’ Spin on Shakespeare at Theatre Jacksonville"
 date: 2025-06-07T09:58:34-04:00
-featured_image: /media/photos/2025-Desperate-Measures-01.webp
-featured_image_attr: Theatre Jacksonville
-featured_image_caption: "The cast of *Desperate Measures* at Theatre Jacksonville brings sharp timing and playful energy to this fast-paced Western musical take on Shakespeare's *Measure by Measure*."
-featured_image_alt: "Cast members of Desperate Measures at Theatre Jacksonville strike a comically alarmed pose during a scene in the Western musical comedy."
-authors: 
+featured_image:
+  src: /media/photos/2025-Desperate-Measures-01.webp
+  alt: "Cast members of Desperate Measures at Theatre Jacksonville strike a comically alarmed pose during a scene in the Western musical comedy."
+  caption: "The cast of *Desperate Measures* at Theatre Jacksonville brings sharp timing and playful energy to this fast-paced Western musical take on Shakespeare's *Measure by Measure*."
+  credit:
+    name: Theatre Jacksonville
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Desperate Measures
 theatre: Theatre Jacksonville
-cast: 
+featuring:
   - Brennan Moritz
   - Neal Thorburn
   - Chris Robertson
@@ -21,6 +23,7 @@ cast:
   - Erin Barnes
 description: "Theatre Jacksonville’s *Desperate Measures* brings wild western charm to Shakespeare’s Measure for Measure, with standout performances and sharp musical wit."
 ---
+
 [[production:2025 Desperate Measures]] is a sly and spirited musical adaptation of *[[w:Measure for Measure]]*, Shakespeare’s morally knotty comedy about justice, mercy and the abuse of power. Rather than Elizabethan Vienna, the action here unfolds in the Arizona Territory during the late 1800s, where saloons and six-shooters replace dukes and friars.<!--more-->
 
 Peter Kellogg’s book and lyrics, paired with David Friedman’s bouncy, melodic score, cleverly transpose the Bard’s exploration of virtue and vice into a fast-paced, rhyming romp. While Shakespeare’s play broods on the gray areas of governance and religion, Desperate Measures embraces a brighter, broader tone. Its characters, though facing similar moral dilemmas, lean more into caricature and comic energy. Yet beneath the musical’s farcical surface, the central questions of justice and human frailty resonate clearly, making it an adaptation that honors its source while forging its own delightful identity.

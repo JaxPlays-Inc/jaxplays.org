@@ -5,6 +5,13 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Scenic Designer
+  - Lighting Designer
+  - Lighting Technician
+  - Technical Director
+  - Carpenter
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

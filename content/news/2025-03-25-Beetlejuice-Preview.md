@@ -1,10 +1,10 @@
 ---
 title: "From the Netherworld to Northeast Florida: 'Beetlejuice' Haunts the Stage in 2026"
 date: 2025-03-25T14:03:00-04:00
-featured_image: /media/photos/2026-Beetlejuice-01.webp
-featured_image_attr: 
-featured_image_caption: "Dare to say his name three times? *Beetlejuice* brings the darkly delightful world of the ghost-with-the-most to electrifying life on stage!"
-featured_image_alt: "Promotional image for Beetlejuice The Musical, featuring bold striped letters that spell out 'BEETLEJUICE' with a quirky green beetle perched on the letter 'U.'"
+featured_image:
+  src: /media/photos/2026-Beetlejuice-01.webp
+  alt: "Promotional image for Beetlejuice The Musical, featuring bold striped letters that spell out 'BEETLEJUICE' with a quirky green beetle perched on the letter 'U.'"
+  caption: "Dare to say his name three times? *Beetlejuice* brings the darkly delightful world of the ghost-with-the-most to electrifying life on stage!"
 show_reading_time: true
 authors: 
 - JaxPlays

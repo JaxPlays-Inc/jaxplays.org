@@ -1,7 +1,7 @@
 ---
 title: "A Christmas Story: The Musical"
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2016
 date: 2024-07-12T14:50:44-04:00
 opening_date: 2016-11-25
@@ -60,16 +60,24 @@ website:
 tickets: https://sales.alhambrajax.com/100/index.html
 show_details: 
   - Ralph/Cowboy/Tree Lot Owner/Delivery Man/Voice Of Neighbor: Ethan Paulini
-  - Old Man/Santa Claus: Robert Herrle 
-  - Mother: Jazmine Gorsline
-  - Miss Shields: Alexia Adcock-Standford
   - Ralphie: Oliver Carson
+  - Mrs. Parker: Jazmin Gorsline
+  - The Old Man/Santa Claus: Robert Herrle
+  - Miss Shields: Alexia Adcock-Stanford
   - Randy: Harrison Davey
-  - Esther: Sophia Feagins
+  - Flick: Johnny Warren
+  - Schwartz: Vincent Scaramuzzi
   - Helen: Dakota Burton
-  - Flick/Desperado One: Johnny Warren
-  - Schwartz/Desperado Two: Vincent Scaramuzzi
-  - Scut Farkus/Black Bart: Kaden Quiles
+  - Esther: Sophia Feagins
+  - Scut Farkus: Kaden Quilers
+  - Cowboy: Ethan Paulini
+  - Tree Lot Owner: Ethan Paulini
+  - Delivery Man: Ethan Paulini
+  - Voice Of Neighbor: Ethan Paulini
+  - Santa Claus: Robert Herrle
+  - Desperado One: Johnny Warren
+  - Desperado Two: Vincent Scaramuzzi
+  - Black Bart: Kaden Quilers
 understudies:
   - Ralphie/Randy: Oliver Akridge 
   - Flick/Scut: Jacob Otzel
@@ -93,6 +101,11 @@ crew:
 orchestra:
 genres: 
 description: Ralphie Parker schemes his way toward getting an official Red Ryder Air Rifle. A leg lamp, pink bunny pajamas, and a freezing flagpole are a few of the distractions that come up.
-reviews: 
-  - "A Christmas Story at The Alhambra | EU Jacksonville / Folio Weekly": https://folioweekly.com/2016/11/27/a-christmas-story/
+reviews:
+- title: A Christmas Story at The Alhambra
+  uri: https://web.archive.org/web/20250327173405/https://folioweekly.com/2016/11/27/a-christmas-story/
+  outlet: EU Jacksonville / Folio Weekly
+  description: ''
+  featured_image: ''
+
 ---

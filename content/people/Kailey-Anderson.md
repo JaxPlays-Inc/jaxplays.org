@@ -21,7 +21,7 @@ socials:
 ---
 A graduate of NYU Tisch Drama, Kailey studied at the Lee Strasberg Theatre & Film Institute and Stonestreet Studios.
 
-She is starring opposite Tony Award winner Cady Huffman in [[production:2025 A Funny Thing Happened on the Way to the Forum|A Funny Thing Happened on the Way to the Forum: In Concert]] at the historic [[venue:Florida Theatre]]. Earlier this spring, she appeared in [[production:2025 My Fair Lady]] at the [[theatre:Alhambra Theatre & Dining]] as a Flower Girl.
+She is starring opposite Tony Award winner Cady Huffman in [[production:2025 A Funny Thing Happened on the Way to the Forum|A Funny Thing Happened on the Way to the Forum: In Concert]] at the historic [[venue:Florida Theatre]]. Earlier this spring, she appeared in [[production:2025 My Fair Lady]] at the [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] as a Flower Girl.
 
 Kailey received three BroadwayWorld Jacksonville Award nominations for her performances as Carole King in [[production:2024 Beautiful: The Carole King Musical]], Dusty in [[production:2024 POTUS]], and Germaine in *Picasso at the Lapin Agile*.
 

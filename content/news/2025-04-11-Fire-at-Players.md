@@ -1,11 +1,13 @@
 ---
 title: Fire at Players by the Sea Causes Widespread Damage, Cancels Performances
 date: 2025-04-11T13:45:48-04:00
-featured_image: /media/photos/Players-by-the-Sea-01.webp
-featured_image_attr: Visit Jacksonville
-featured_image_attr_link: https://www.visitjacksonville.com/directory/players-by-the-sea/
-featured_image_caption: Stock photo of Players by the Sea
-featured_image_alt: "The exterior of Players by the Sea Theatre, framed by palm trees and tropical landscaping, with its red-and-white marquee standing out against the overcast sky."
+featured_image:
+  src: /media/photos/Players-by-the-Sea-01.webp
+  alt: "The exterior of Players by the Sea Theatre, framed by palm trees and tropical landscaping, with its red-and-white marquee standing out against the overcast sky."
+  caption: Stock photo of Players by the Sea
+  credit:
+    name: Visit Jacksonville
+    url: https://www.visitjacksonville.com/directory/players-by-the-sea/
 authors: 
 - Ray Hollister
 description: "A fire at Players by the Sea caused significant water damage and has suspended all operations at the Jacksonville Beach theater. "

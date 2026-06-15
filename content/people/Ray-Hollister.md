@@ -1,9 +1,5 @@
 ---
 title: Ray Hollister
-aliases: 
-  - /people/rayburn-hollister
-other_names: 
- - Rayburn Hollister
 layout: people
 featured_image: Ray_Hollister.jpg
 featured_image_attr: Ray Hollister
@@ -16,10 +12,13 @@ birth_info:
 roles:
   - Actor
   - Director
+  - Sound Designer
+  - Audio Technician
+  - Lighting Technician
 socials:
   threads: rayhollister
   facebook: rayhollister
-  twitter: rayhollister
+  bluesky: rayhollister.com
   instagram: rayhollister
   linkedin: rayhollister
   website: https://rayhollister.com 

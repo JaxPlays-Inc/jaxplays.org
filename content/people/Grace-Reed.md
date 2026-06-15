@@ -8,6 +8,9 @@ featured_image_alt:
 featured_image_caption:
 roles:
   - Director
+  - Scenic Designer
+  - Costume Designer
+  - Property Master
 socials:
   facebook:
   twitter:

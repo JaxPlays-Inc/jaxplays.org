@@ -1,6 +1,7 @@
 <!-- layouts/partials/figure.html -->
 {{ $attr := .attr }}
-<figure class="{{ with .tachyons }}{{ . }}{{ else }}db mw8 center{{ end }}  {{ with .class }}{{ . }}{{ end }} ">
+{{ $size := .size | default "content" | urlize }}
+<figure class="{{ with .tachyons }}{{ . }}{{ else }}db mw8 center{{ end }} article-figure article-figure--{{ $size }} {{ with .class }}{{ . }}{{ end }} ">
   <a href="{{ .src }}" data-lightbox="gallery" data-alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}"
     data-title="{{ with .caption }}{{ . }}{{ end }}{{ if .attr }}{{ with .attr_link }} | (📷 <a href='{{ . }}' target='_blank'>{{ $attr }}</a>){{ else }} | (📷 {{ .attr }}){{ end }}{{ end }}">
     <img src="{{ .src }}" {{ if or .alt .caption }}alt="{{ with .alt }}{{ . }}{{ else }}{{ .caption }}{{ end }}" {{ end
@@ -11,7 +12,7 @@
     {{ if or .caption .attr }}
     {{ .caption }}
     {{ if .attr }}
-    {{ with .attr_link }} | (📷 <a href="{{ . }}"  target='_blank' >{{ $attr }}</a>){{ else }} | (📷 {{ $attr }}){{ end }}
+    {{ with .attr_link }} | 📷 <a href="{{ . }}"  target='_blank' >{{ $attr }}</a>{{ else }} | 📷 {{ $attr }}{{ end }}
     {{ end }}
     {{ end }}
   </figcaption>

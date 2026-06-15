@@ -9,6 +9,10 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Choreographer
+  - Scenic Designer
+  - Stage Manager
+  - Assistant Stage Manager
 socials:
   facebook: 
   twitter: 

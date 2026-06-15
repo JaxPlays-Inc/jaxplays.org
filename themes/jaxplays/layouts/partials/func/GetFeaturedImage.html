@@ -17,8 +17,9 @@
 
 {{- $link := "" -}}
 {{- $matches := "feature,cover" -}}
+{{- $meta := partial "func/GetFeaturedImageMeta.html" . -}}
 
-{{- with .Params.featured_image -}}
+{{- with $meta.src -}}
   {{- $val := . -}}
 
   {{- /* Prefer a page resource if it matches exactly */ -}}
@@ -28,6 +29,8 @@
     {{- /* If a full URL, use as-is */ -}}
     {{- if or (hasPrefix $val "http://") (hasPrefix $val "https://") (hasPrefix $val "//") -}}
       {{- $link = $val -}}
+    {{- else if and (not (hasPrefix $val "/")) (eq $.Section "authors") -}}
+      {{- $link = printf "/media/headshots/%s" $val | relURL -}}
     {{- else -}}
       {{- /* Ensure a leading slash so it’s site-root relative, then let relURL handle baseURL */ -}}
       {{- if not (hasPrefix $val "/") -}}

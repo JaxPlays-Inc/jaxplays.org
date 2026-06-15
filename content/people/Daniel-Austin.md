@@ -11,6 +11,7 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Assistant Director
 socials:
   facebook: 
   twitter: 

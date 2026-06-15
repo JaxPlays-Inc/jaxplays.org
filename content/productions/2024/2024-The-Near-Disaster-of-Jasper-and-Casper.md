@@ -41,11 +41,28 @@ genres:
   - Family
   - Solo Performance
 description: "Dive into a fantastical realm where Jasper embarks on a quest filled with magic, mystery, and a whirlwind of characters—all portrayed by the mesmerizing Jason Woods."
-reviews: 
-- "The Near Disaster of Jasper & Casper | TheaterScene.net": http://www.theaterscene.net/plays/solo-plays/the-near-disaster-of-jasper-and-casper/christopher-caz/
-- "Off-Broadway Review: THE NEAR DISASTER OF JASPER & CASPER (Theatre Row) | Stage and Cinema": https://stageandcinema.com/2022/09/08/near-disaster-of-jasper-casper/
-- "The Near Disaster of Jasper & Casper | Off Off Online": https://www.offoffonline.com/offoffonline/2022/8/26/the-near-disaster-of-jasper-amp-casper
-- "The Near Disaster of Jasper & Casper | Show-Score": https://www.show-score.com/off-broadway-shows/the-near-disaster-of-jasper-casper
+reviews:
+- title: The Near Disaster of Jasper & Casper
+  uri: http://www.theaterscene.net/plays/solo-plays/the-near-disaster-of-jasper-and-casper/christopher-caz/
+  outlet: TheaterScene.net
+  description: ''
+  featured_image: ''
+- title: 'Off-Broadway Review: THE NEAR DISASTER OF JASPER & CASPER (Theatre Row)'
+  uri: https://stageandcinema.com/2022/09/08/near-disaster-of-jasper-casper/
+  outlet: Stage and Cinema
+  description: ''
+  featured_image: ''
+- title: The Near Disaster of Jasper & Casper
+  uri: https://www.offoffonline.com/offoffonline/2022/8/26/the-near-disaster-of-jasper-amp-casper
+  outlet: Off Off Online
+  description: ''
+  featured_image: ''
+- title: The Near Disaster of Jasper & Casper
+  uri: https://www.show-score.com/off-broadway-shows/the-near-disaster-of-jasper-casper
+  outlet: Show-Score
+  description: ''
+  featured_image: ''
+
 ---
 In the whimsical village of Bellalore, Jasper's search for family leads to encounters with a blunt witch, a scholarly dragon, and unforeseen adventures that challenge his views on destiny and courage. As the tale unfolds, Jasper navigates sibling rivalry, royal plots, and his own fears, all brought to life through Woods' breathtaking solo performance. Critics praise the "delightful whimsy" and Woods' "rapidfire dexterity," making it a "thoroughly enjoyable, quirky fairy tale."
 

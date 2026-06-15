@@ -3,7 +3,7 @@
 <style>
   .left-rail {
     margin: 2rem 0;
-    width: 300px;
+    width: 100%;
     max-width: 100%;
     text-align: center;
   }
@@ -13,11 +13,12 @@
     min-height: 250px;
   }
 
-  @media (min-width: 1624px) {
+  @media (min-width: 1949px) {
     .left-rail {
       position: absolute;
       top: 0;
       left: max(-345px, calc(512px - 50vw));
+      width: 300px;
       margin: {{ .margin }};
     }
   }

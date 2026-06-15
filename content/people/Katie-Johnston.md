@@ -11,6 +11,7 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Lighting Designer
 socials:
   facebook: kathleen.johnston.58
   twitter: 

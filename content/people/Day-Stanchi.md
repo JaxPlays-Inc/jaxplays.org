@@ -6,6 +6,10 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Audio Technician
+  - Stage Manager
+  - Assistant Stage Manager
 socials:
   facebook: 
   twitter: 

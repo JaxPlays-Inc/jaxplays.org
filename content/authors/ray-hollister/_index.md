@@ -1,5 +1,9 @@
 ---
 title: Ray Hollister
+featured_image: Ray_Hollister.jpg
+featured_image_attr: Ray Hollister
+featured_image_alt: Ray Hollister in 2018 standing in front of the Town Square Theater in the Magic Kingdom at Walt Disney World.
+featured_image_caption: Ray Hollister in 2018 standing in front of the Town Square Theater in the Magic Kingdom at Walt Disney World.
 description: "Ray Hollister is a theatre critic based in Jacksonville, Florida and executive director of JaxPlays."
 date: 2024-09-26T21:00:12-04:00
 ---

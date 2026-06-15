@@ -13,6 +13,10 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Costume Designer
+  - Hair and Wig Designer
+  - Make-up Artist
+  - Costuming
 socials:
   facebook: 
   twitter: 

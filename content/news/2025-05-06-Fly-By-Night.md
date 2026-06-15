@@ -1,10 +1,12 @@
 ---
 title: "Why 'Fly By Night' Might Be the Most Magical Musical You’ve Never Seen"
 date: 2025-05-06T21:06:27-04:00
-featured_image: /media/photos/2025-Fly-By-Night-01.webp
-featured_image_attr: Daniel Starling
-featured_image_alt: "Promotional graphic for Limelight Theatre’s production of 'Fly By Night' featuring elegant script over a starry night sky background."
-featured_image_caption: "A celestial backdrop sets the tone for Limelight Theatre’s production of *Fly By Night*, running May 9–25 in St. Augustine."
+featured_image:
+  src: /media/photos/2025-Fly-By-Night-01.webp
+  alt: "Promotional graphic for Limelight Theatre’s production of 'Fly By Night' featuring elegant script over a starry night sky background."
+  caption: "A celestial backdrop sets the tone for Limelight Theatre’s production of *Fly By Night*, running May 9–25 in St. Augustine."
+  credit:
+    name: Daniel Starling
 authors: 
 - JaxPlays
 show_reading_time: true

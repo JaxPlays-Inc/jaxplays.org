@@ -9,6 +9,10 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Assistant Director
+  - Audio Technician
+  - Stage Manager
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

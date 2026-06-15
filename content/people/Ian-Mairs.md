@@ -8,7 +8,9 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Playwright
   - Director
+  - Carpenter
 socials:
   facebook: ian.mairs
   twitter: 

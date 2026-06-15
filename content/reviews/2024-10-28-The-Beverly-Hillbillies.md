@@ -1,15 +1,17 @@
 ---
 title: "Artist Connection Theatre Brings Back Sitcom Nostalgia with 'The Beverly Hillbillies'"
 date: 2024-10-28T19:41:46-04:00
-featured_image: /media/photos/2024-The-Beverly-Hillbillies-01.webp
-featured_image_attr: Sherry Spearman
-featured_image_caption: "The Clampetts react to the life-changing news of their newfound oil fortune, setting the stage for their Beverly Hills adventure."
-featured_image_alt: "The Clampett family and Cousin Pearl stand together on stage in a rustic cabin set, reacting to the discovery that their land contains valuable oil. The characters wear period-accurate rural attire, with Pearl in a bonnet and apron, Jed in a worn suit and hat, and Elly May in a flannel shirt and jeans, smiling with excitement."
-authors: 
+featured_image:
+  src: /media/photos/2024-The-Beverly-Hillbillies-01.webp
+  alt: "The Clampett family and Cousin Pearl stand together on stage in a rustic cabin set, reacting to the discovery that their land contains valuable oil. The characters wear period-accurate rural attire, with Pearl in a bonnet and apron, Jed in a worn suit and hat, and Elly May in a flannel shirt and jeans, smiling with excitement."
+  caption: "The Clampetts react to the life-changing news of their newfound oil fortune, setting the stage for their Beverly Hills adventure."
+  credit:
+    name: Sherry Spearman
+authors:
 - Ray Hollister
 production: 2024 The Beverly Hillbillies
 theatre: Artist Connection Theatre
-cast: 
+featuring:
   - Shelby Ellis
   - Josh Rutgers
   - Camille Blaydes
@@ -21,6 +23,7 @@ cast:
   - Hayley Sims
 description: "Artist Connection Theatre’s *The Beverly Hillbillies* brings sitcom nostalgia to life with charming performances and a heaping pile of country flair."
 ---
+
 When Jed Clampett unexpectedly strikes oil on his land in the Ozarks, he and his family — Granny, Elly May, and Jethro — find themselves millionaires and head to Beverly Hills to start a new life. The Clampetts’ simple, rural lifestyle collides hilariously with the world of 1960s high society, creating a series of comedic misadventures as they navigate wealth, snobbish neighbors and cultural clashes.<!--more-->
 
 [[theatre:Artist Connection Theatre]]'s [[production:2024 The Beverly Hillbillies]] offers a nostalgic and humor-filled journey through the adventures of the Clampett family, capturing the essence of the beloved television sitcom with both wit and warmth. From clever characterization, to energetic ensemble work, the production revives the comedic contrasts between the rustic roots of the Clampetts and the upscale absurdity of Beverly Hills’ elite.
@@ -29,7 +32,7 @@ The show kicks off on a high note with a live guitarist singing the original the
 
 [[person:Shelby Ellis]] shines as Granny, bringing solid comedic timing and a mischievous spark to her lines. [[person:Josh Rutgers]] presents Jed Clampett, the family patriarch, with a grounded sincerity, capturing both his simple wisdom and wide-eyed wonder at the strangeness of his new surroundings. [[person:Camille Blaydes]] brings boundless energy as Elly May embodying the blend of charm and feistiness required for the role, creating plenty of laughs, while also endearing herself to the audience. [[person:Benjamin Moore]]’s Jethro is as loveable as he is dim-witted; he leans fully into the character’s “big lug” persona, embodying Jethro’s sweet simplicity with endearing earnestness.
 
-The high-society figures are also strong in their portrayals: [[person:Lisa Ciardulli]]’s Mrs. Drysdale is a highlight, her snobbish disdain played with just the right level of exaggerated exasperation. [[person:Ja'uan Hay]]’s Mr. Drysdale is charmingly two-faced, his attempts to ingratiate himself with the Clampetts leading to some of the show’s best comic moments. Ciardulli and Hay both lean heavily into almost cartoonish, character voices that add layers to the humor of their performances. [[person:Lacey English]] as Miss Hathaway is another highlight, balancing sophistication with just a hint of the absurd, perfectly conveying her character's uptight yet caring personality, bringing authenticity to her character's quirks. 
+The high-society figures are also strong in their portrayals: [[person:Lisa Ciardulli]]’s Mrs. Drysdale is a highlight, her snobbish disdain played with just the right level of exaggerated exasperation. [[person:Ja'uan Hay]]’s Mr. Drysdale is charmingly two-faced, his attempts to ingratiate himself with the Clampetts leading to some of the show’s best comic moments. Ciardulli and Hay both lean heavily into almost cartoonish, character voices that add layers to the humor of their performances. [[person:Lacey English]] as Miss Hathaway is another highlight, balancing sophistication with just a hint of the absurd, perfectly conveying her character's uptight yet caring personality, bringing authenticity to her character's quirks.
 
 [[person:Hayley Sims]] brings a delightful mix of country charm and subtle mischief to Emaline Fetty, the daughter of the Fetty family from back home who arrives to visit the Clampetts. [[person:David Voss]]’s portrayal of Colonel Foxhall, complete with a deep Southern accent and a delightfully exaggerated villainous streak, feels like he stepped out of a Saturday morning cartoon, injecting the role with an amusing theatrical flair that is the perfect foil for Jed's simplicity and Mr. Drysdale's duplicity.
 

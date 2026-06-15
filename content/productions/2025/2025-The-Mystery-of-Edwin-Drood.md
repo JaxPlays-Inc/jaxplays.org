@@ -1,7 +1,7 @@
 ---
 title: The Mystery of Edwin Drood
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2025
 date: 2025-03-19T14:04:13-04:00
 opening_date: 2025-10-09

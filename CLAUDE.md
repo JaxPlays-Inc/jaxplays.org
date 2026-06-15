@@ -9,14 +9,20 @@ JaxPlays is a Hugo static site for Jacksonville, Florida's theatre community. It
 ## Build Commands
 
 ```bash
+# Rebuild generated people, credit, production directory, theatre, and venue production indexes after content edits
+python3 scripts/build_people_credit_index.py
+
 # Local development server
 hugo server
 
-# Production build
-HUGO_ENV=production hugo --minify
+# Production build; regenerates data/generated before Hugo runs
+HUGO_ENV=production scripts/build_site.sh --minify
 
 # Production build with specific base URL (used in CI)
-HUGO_ENV=production hugo --minify --baseURL "https://jaxplays.org/"
+HUGO_ENV=production scripts/build_site.sh --minify --baseURL "https://jaxplays.org/"
+
+# Verify committed generated data is current
+scripts/check_generated_data.sh
 ```
 
 ## Content Structure
@@ -30,6 +36,15 @@ HUGO_ENV=production hugo --minify --baseURL "https://jaxplays.org/"
 - **people/** - Individual profiles for actors, directors, crew members
 - **reviews/** - Production reviews with author attribution, linked to productions
 - **news/** - Theatre news articles
+
+### Generated Data
+
+People profile credit lists render from `data/generated/people_credits.json`.
+Production credit name links render from `data/generated/people_lookup.json`.
+Production directory cards and search data render from `data/generated/production_cards.json`.
+Theatre profile production lists render from `data/generated/theatre_productions.json`.
+Venue profile production lists render from `data/generated/venue_productions.json`.
+Production builds run `scripts/build_site.sh`, which regenerates this data before Hugo runs. For review safety, run `scripts/check_generated_data.sh` after editing production credits, production metadata, theatre or venue names/aliases, people names, aliases, reviews, or show poster fallbacks; it fails if the committed `data/generated` files are stale.
 
 ### Front Matter Conventions
 

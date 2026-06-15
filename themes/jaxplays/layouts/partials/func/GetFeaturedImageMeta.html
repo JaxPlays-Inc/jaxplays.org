@@ -1,0 +1,40 @@
+{{- $featured := .Params.featured_image -}}
+{{- $src := "" -}}
+{{- $alt := "" -}}
+{{- $caption := "" -}}
+{{- $attr := "" -}}
+{{- $attrLink := "" -}}
+{{- $size := "" -}}
+
+{{- with $featured -}}
+  {{- if reflect.IsMap . -}}
+    {{- with index . "src" }}{{ $src = . }}{{ end -}}
+    {{- with index . "alt" }}{{ $alt = . }}{{ end -}}
+    {{- with index . "caption" }}{{ $caption = . }}{{ end -}}
+    {{- with index . "size" }}{{ $size = . }}{{ end -}}
+    {{- with index . "credit" -}}
+      {{- if reflect.IsMap . -}}
+        {{- with index . "name" }}{{ $attr = . }}{{ end -}}
+        {{- with index . "url" }}{{ $attrLink = . }}{{ end -}}
+      {{- else -}}
+        {{- $attr = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $src = . -}}
+    {{- with $.Params.featured_image_alt }}{{ $alt = . }}{{ end -}}
+    {{- with $.Params.featured_image_caption }}{{ $caption = . }}{{ end -}}
+    {{- with $.Params.featured_image_attr }}{{ $attr = . }}{{ end -}}
+    {{- with $.Params.featured_image_attr_link }}{{ $attrLink = . }}{{ end -}}
+    {{- with $.Params.featured_image_size }}{{ $size = . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict
+  "src" $src
+  "alt" $alt
+  "caption" $caption
+  "attr" $attr
+  "attr_link" $attrLink
+  "size" $size
+) -}}

@@ -9,6 +9,8 @@ featured_image_caption:
 roles:
   - Actor
   - Musical Director
+  - Audio Technician
+  - Technical Director
 socials:
   facebook: 
   twitter: 

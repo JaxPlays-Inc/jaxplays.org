@@ -20,7 +20,7 @@ In Duval County and its neighbors, the financial support from the state has trad
 
 The repercussions for the theater community extend beyond financial distress. The cuts represent a blow to cultural access and development in a region that prides itself on a rich theatrical tradition. Local theaters not only entertain but educate and engage communities in cultural dialogue, playing a vital role in the cultural fabric of Northeast Florida.
 
-For instance, [[theatre:The 5 & Dime]] Theatre in Jacksonville, known for its innovative and community-driven productions, is now faced with tough budgetary decisions that could affect its upcoming season. Bethany Paolini, managing artistic director, expressed concerns about how these cuts could limit their ability to purchase costumes and set pieces on a recent interview on [*First Coast Connect* on WJCT News 89.9](https://news.wjct.org/show/first-coast-connect/2024-06-25/first-coast-connect-arts-funding).
+For instance, [[theatre:The 5 and Dime|The 5 & Dime]] Theatre in Jacksonville, known for its innovative and community-driven productions, is now faced with tough budgetary decisions that could affect its upcoming season. Bethany Paolini, managing artistic director, expressed concerns about how these cuts could limit their ability to purchase costumes and set pieces on a recent interview on [*First Coast Connect* on WJCT News 89.9](https://news.wjct.org/show/first-coast-connect/2024-06-25/first-coast-connect-arts-funding).
 
 {{< youtube FCq_AFDeP08 >}}
 

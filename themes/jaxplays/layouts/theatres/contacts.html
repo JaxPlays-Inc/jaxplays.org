@@ -15,7 +15,7 @@
       </tr>
     </thead>
     <tbody>
-      {{ $pages := sort (where (where site.RegularPages "Params.active" true) "Section" "theatres") "Title" }}
+      {{ $pages := sort (where (where site.Pages "Params.active" true) "Type" "theatres") "Title" }}
       {{ range $i, $p := $pages }}
         <tr>
           <td class="b tc">{{ add $i 1 }}.</td>

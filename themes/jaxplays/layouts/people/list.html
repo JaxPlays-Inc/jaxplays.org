@@ -1,89 +1,341 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-    <section class="cf f4 tc-l center lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-      {{ .Content }}
-    </section>
-    {{ partial "secondSearchBar.html" (dict "section" "People") }}
-    <aside class="people-list-grid ph2 ph0-ns">
-      {{ $allPages := .Pages.ByParam "featured_image" }}
-      {{ $paginator := .Paginate $allPages 28 }}
-      
-      {{ range $paginator.Pages }}
-        {{ $headshot := "/media/default/people_headshot.webp" }}
-        {{ with .Params.featured_image }}
-          {{ $headshot = printf "/media/headshots/%s" . }}
-        {{ end }}
-        {{ $roles := .Params.roles | default slice }}
-        {{ if eq (printf "%T" $roles) "string" }}
-          {{ $roles = slice $roles }}
-        {{ end }}
+{{ $peopleWithHeadshots := slice }}
+{{ $peopleWithoutHeadshots := slice }}
+{{ $actorCount := 0 }}
+{{ $crewCount := 0 }}
 
-        <a href="{{ .RelPermalink }}" class="people-list-person link color-inherit">
-          <span class="people-list-headshot br-100 cover" role="img" aria-label="Photo of {{ .Title }}" style="background-image: url('{{ $headshot | relURL }}');"></span>
-          <span class="people-list-name">{{ .Title }}</span>
-          {{ with $roles }}
-            <span class="people-list-role">{{ delimit . " • " }}</span>
-          {{ end }}
-        </a>
+{{ range .Pages.ByTitle }}
+  {{ $person := . }}
+  {{ if ne $person.Params.directory false }}
+    {{ with $person.Params.featured_image }}
+      {{ $peopleWithHeadshots = $peopleWithHeadshots | append $person }}
+    {{ else }}
+      {{ $peopleWithoutHeadshots = $peopleWithoutHeadshots | append $person }}
+    {{ end }}
+    {{ $roles := $person.Params.roles | default slice }}
+    {{ if eq (printf "%T" $roles) "string" }}
+      {{ $roles = slice $roles }}
+    {{ end }}
+    {{ if in $roles "Actor" }}
+      {{ $actorCount = add $actorCount 1 }}
+    {{ end }}
+    {{ $hasCrewRole := false }}
+    {{ range $roles }}
+      {{ if ne . "Actor" }}
+        {{ $hasCrewRole = true }}
       {{ end }}
-    </aside>
-    <style>
-      .people-list-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-        gap: 2rem 1.25rem;
-        justify-items: center;
-        margin: 2rem auto 3rem;
-        /* max-width: 72rem; */
-      }
+    {{ end }}
+    {{ if $hasCrewRole }}
+      {{ $crewCount = add $crewCount 1 }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $people := $peopleWithHeadshots | append $peopleWithoutHeadshots }}
+{{ $paginator := .Paginate $people 50 }}
+{{ $pagePeople := $paginator.Pages }}
+{{ $peopleIndex := slice }}
+{{ $roleOptions := slice "Actor" "Director" "Musical Director" "Choreographer" "Assistant Director" "Dramaturg" "Intimacy Director" "Fight Choreographer" "Scenic Designer" "Costume Designer" "Hair and Wig Designer" "Make-up Artist" "Lighting Designer" "Sound Designer" "Technical Director" "Stage Manager" "Assistant Stage Manager" "Casting Director" "Property Master" "Audio Technician" "Lighting Technician" "Carpenter" "Painter" "Costuming" "Dance Captain" "Musician" "Stage Crew" "Playwright" }}
+{{ range $people }}
+  {{ $headshot := "/media/default/people_headshot.webp" }}
+  {{ with .Params.featured_image }}
+    {{ $headshot = printf "/media/headshots/%s" . }}
+  {{ end }}
+  {{ $roles := .Params.roles | default slice }}
+  {{ if eq (printf "%T" $roles) "string" }}
+    {{ $roles = slice $roles }}
+  {{ end }}
+  {{ $otherNames := .Params.other_names | default slice }}
+  {{ if eq (printf "%T" $otherNames) "string" }}
+    {{ $otherNames = slice $otherNames }}
+  {{ end }}
+  {{ $searchParts := slice .Title (delimit $roles " ") (delimit $otherNames " ") (.Summary | plainify | htmlUnescape) }}
+  {{ $searchText := delimit $searchParts " " }}
+  {{ $peopleIndex = $peopleIndex | append (dict "title" .Title "url" .RelPermalink "headshot" ($headshot | relURL) "roles" $roles "search" $searchText) }}
+{{ end }}
 
-      .people-list-person {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        max-width: 12rem;
-        min-width: 0;
-        text-align: center;
-        width: 100%;
-      }
+<article class="theatres-directory people-directory">
+  <div class="theatres-directory-shell">
+    <header class="theatres-directory-hero">
+      <div>
+        <p class="theatres-directory-kicker">Northeast Florida & Southeast Georgia</p>
+        <h1 class="theatres-directory-title">People</h1>
+        <p class="theatres-directory-subtitle">A living directory of performers, directors, designers, musicians, technicians, and community members connected to the region's live theatre history.</p>
+      </div>
+      <div class="theatres-directory-panel">
+        <div class="theatres-directory-stats">
+          <span>
+            <strong>{{ $actorCount }}</strong>
+            <span>Actors</span>
+          </span>
+          <span>
+            <strong>{{ $crewCount }}</strong>
+            <span>Crew</span>
+          </span>
+          <span>
+            <strong>{{ len $people }}</strong>
+            <span>Total</span>
+          </span>
+        </div>
+      </div>
+    </header>
 
-      .people-list-headshot {
-        background-position: top center;
-        display: block;
-        height: 11rem;
-        margin-bottom: .75rem;
-        width: 11rem;
-      }
+    <div class="theatres-directory-search people-directory-search">
+      <div class="people-directory-filter-field people-directory-filter-field--search">
+        <label class="theatres-directory-search-label" for="people-directory-filter">Filter all people</label>
+        <input id="people-directory-filter" class="theatres-directory-filter" type="search" autocomplete="off" placeholder="Search by name, role, alias, or biography">
+      </div>
+      <div class="people-directory-filter-field people-directory-filter-field--role">
+        <span class="theatres-directory-search-label" id="people-directory-role-label">Roles</span>
+        <div class="people-directory-role-picker" data-role-picker>
+          <div class="theatres-directory-filter people-directory-role-combobox" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="people-directory-role-label" data-role-combobox>
+            <div class="people-directory-role-values" data-role-values></div>
+            <label class="screen-reader-text" for="people-directory-role-search">Search roles</label>
+            <input id="people-directory-role-search" class="people-directory-role-search" type="search" autocomplete="off" placeholder="All roles" data-role-search>
+          </div>
+          <div class="people-directory-role-panel" role="listbox" data-role-panel hidden>
+            {{ range $roleOptions }}
+              {{ $roleId := printf "people-role-%s" (anchorize .) }}
+              <button id="{{ $roleId }}" class="people-directory-role-option" type="button" role="option" aria-selected="false" data-role-option data-role-value="{{ . }}">{{ . }}</button>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <p class="theatres-directory-filter-status" aria-live="polite" data-people-filter-status>{{ len $pagePeople }} people shown on this page</p>
+    </div>
 
-      .people-list-name {
-        display: block;
-        font-size: 1rem;
-        font-weight: 700;
-        line-height: 1.25;
-        overflow-wrap: anywhere;
-        width: 100%;
-      }
+    <section class="theatres-directory-section" aria-labelledby="people-directory-list" data-people-section>
+      <div class="theatres-directory-section-head sectionline">
+        <div class="theatres-directory-section-title">
+          <p class="theatres-directory-section-eyebrow">Artists, Crew, and Makers</p>
+          <h2 id="people-directory-list">People Directory</h2>
+        </div>
+        <span class="theatres-directory-count" data-people-section-count>{{ len $pagePeople }} shown</span>
+      </div>
+      <div class="people-list-grid" data-people-grid>
+        {{ range $pagePeople }}
+          {{ $headshot := "/media/default/people_headshot.webp" }}
+          {{ with .Params.featured_image }}
+            {{ $headshot = printf "/media/headshots/%s" . }}
+          {{ end }}
+          {{ $roles := .Params.roles | default slice }}
+          {{ if eq (printf "%T" $roles) "string" }}
+            {{ $roles = slice $roles }}
+          {{ end }}
+          {{ $otherNames := .Params.other_names | default slice }}
+          {{ if eq (printf "%T" $otherNames) "string" }}
+            {{ $otherNames = slice $otherNames }}
+          {{ end }}
+          {{ $searchParts := slice .Title (delimit $roles " ") (delimit $otherNames " ") (.Summary | plainify | htmlUnescape) }}
+          {{ $searchText := delimit $searchParts " " }}
 
-      .people-list-role {
-        color: #555;
-        display: block;
-        font-size: .875rem;
-        line-height: 1.25;
-        margin-top: .25rem;
-        width: 100%;
-      }
+          <a href="{{ .RelPermalink }}" class="people-list-person color-inherit slow-grow" data-person-card data-person-search="{{ $searchText }}">
+            <span class="people-list-headshot" role="img" aria-label="Photo of {{ .Title }}" style="background-image: url('{{ $headshot | relURL }}');"></span>
+            <span class="people-list-name">{{ .Title }}</span>
+            {{ with $roles }}
+              <span class="people-list-role">{{ delimit . " • " }}</span>
+            {{ end }}
+          </a>
+        {{ end }}
+      </div>
+    </section>
+    <p class="theatres-directory-empty" data-people-filter-empty hidden>No people match that search.</p>
 
-      @media (max-width: 700px) {
-        .people-list-grid {
-          gap: 1.5rem .75rem;
-        }
-
-        .people-list-name {
-          font-size: .95rem;
-        }
-      }
-    </style>
-    {{ template "_internal/pagination.html" . }} 
+    <div data-people-pagination>
+      {{ template "_internal/pagination.html" . }}
+    </div>
     {{ partial "cta_submit_profile.html" }}
-  </article>
+  </div>
+</article>
+
+<script type="application/json" id="people-directory-data">{{ $peopleIndex | jsonify }}</script>
+<script>
+  (() => {
+    const root = document.querySelector('.people-directory');
+    const input = document.querySelector('#people-directory-filter');
+    if (!root || !input) return;
+
+    const rolePicker = root.querySelector('[data-role-picker]');
+    const roleCombobox = root.querySelector('[data-role-combobox]');
+    const rolePanel = root.querySelector('[data-role-panel]');
+    const roleValues = root.querySelector('[data-role-values]');
+    const roleSearch = root.querySelector('[data-role-search]');
+    const roleOptions = [...root.querySelectorAll('[data-role-option]')];
+    if (!rolePicker || !roleCombobox || !rolePanel || !roleValues || !roleSearch || !roleOptions.length) return;
+
+    const data = document.querySelector('#people-directory-data');
+    let people = [];
+    if (data) {
+      people = JSON.parse(data.textContent || '[]');
+      if (typeof people === 'string') people = JSON.parse(people);
+    }
+    const grid = root.querySelector('[data-people-grid]');
+    const pagination = root.querySelector('[data-people-pagination]');
+    const section = root.querySelector('[data-people-section]');
+    const sectionCount = root.querySelector('[data-people-section-count]');
+    const status = root.querySelector('[data-people-filter-status]');
+    const empty = root.querySelector('[data-people-filter-empty]');
+    const normalize = (value) => value.trim().toLowerCase();
+    const initialGrid = grid ? grid.innerHTML : '';
+    const initialCount = grid ? grid.querySelectorAll('[data-person-card]').length : 0;
+    const pageText = (count) => `${count} ${count === 1 ? 'person' : 'people'} shown on this page`;
+    const resultText = (count) => `${count} ${count === 1 ? 'person' : 'people'} found`;
+    const selectedRoleSet = new Set();
+    const roleLabelByValue = new Map(roleOptions.map((option) => [normalize(option.dataset.roleValue || option.textContent || ''), option.dataset.roleValue || option.textContent || '']));
+    const selectedRoles = () => [...selectedRoleSet];
+    const personHasRole = (person, roles) => !roles.length || (person.roles || []).some((personRole) => roles.includes(normalize(personRole)));
+
+    const openRolePanel = () => {
+      rolePanel.hidden = false;
+      roleCombobox.setAttribute('aria-expanded', 'true');
+    };
+    const closeRolePanel = () => {
+      rolePanel.hidden = true;
+      roleCombobox.setAttribute('aria-expanded', 'false');
+    };
+    const renderRoleTokens = () => {
+      roleValues.replaceChildren();
+      selectedRoles().forEach((role) => {
+        const token = document.createElement('button');
+        token.type = 'button';
+        token.className = 'people-directory-role-token';
+        token.dataset.roleRemove = role;
+        token.setAttribute('aria-label', `Remove ${roleLabelByValue.get(role) || role}`);
+
+        const label = document.createElement('span');
+        label.textContent = roleLabelByValue.get(role) || role;
+
+        const remove = document.createElement('span');
+        remove.setAttribute('aria-hidden', 'true');
+        remove.textContent = '×';
+
+        token.append(label, remove);
+        roleValues.append(token);
+      });
+      roleSearch.placeholder = selectedRoleSet.size ? '' : 'All roles';
+      roleOptions.forEach((option) => {
+        const value = normalize(option.dataset.roleValue || option.textContent || '');
+        const selected = selectedRoleSet.has(value);
+        option.classList.toggle('is-selected', selected);
+        option.setAttribute('aria-selected', selected ? 'true' : 'false');
+      });
+    };
+    const filterRoleOptions = () => {
+      const query = normalize(roleSearch.value);
+      roleOptions.forEach((option) => {
+        option.hidden = Boolean(query && !normalize(option.textContent || '').includes(query));
+      });
+    };
+    const toggleRole = (role) => {
+      const value = normalize(role);
+      if (!value) return;
+      if (selectedRoleSet.has(value)) selectedRoleSet.delete(value);
+      else selectedRoleSet.add(value);
+      roleSearch.value = '';
+      renderRoleTokens();
+      filterRoleOptions();
+      applyFilter();
+    };
+
+    const createPersonCard = (person) => {
+      const card = document.createElement('a');
+      card.href = person.url;
+      card.className = 'people-list-person color-inherit slow-grow';
+      card.dataset.personCard = '';
+      card.dataset.personSearch = person.search || '';
+
+      const headshot = document.createElement('span');
+      headshot.className = 'people-list-headshot';
+      headshot.setAttribute('role', 'img');
+      headshot.setAttribute('aria-label', `Photo of ${person.title}`);
+      headshot.style.backgroundImage = `url('${person.headshot}')`;
+
+      const name = document.createElement('span');
+      name.className = 'people-list-name';
+      name.textContent = person.title;
+
+      card.append(headshot, name);
+
+      if (person.roles && person.roles.length) {
+        const role = document.createElement('span');
+        role.className = 'people-list-role';
+        role.textContent = person.roles.join(' • ');
+        card.append(role);
+      }
+
+      return card;
+    };
+
+    const applyFilter = () => {
+      const query = normalize(input.value);
+      const roles = selectedRoles();
+      if (!grid) return;
+
+      if (!query && !roles.length) {
+        grid.innerHTML = initialGrid;
+        if (section) section.hidden = false;
+        if (pagination) pagination.hidden = false;
+        if (sectionCount) sectionCount.textContent = `${initialCount} shown`;
+        if (status) status.textContent = pageText(initialCount);
+        if (empty) empty.hidden = true;
+        return;
+      }
+
+      const matches = people.filter((person) => {
+        const matchesSearch = !query || normalize(person.search || '').includes(query);
+        return matchesSearch && personHasRole(person, roles);
+      });
+      grid.replaceChildren(...matches.map(createPersonCard));
+
+      if (section) section.hidden = matches.length === 0;
+      if (pagination) pagination.hidden = true;
+      if (sectionCount) sectionCount.textContent = `${matches.length} found`;
+      if (status) status.textContent = resultText(matches.length);
+      if (empty) empty.hidden = matches.length !== 0;
+    };
+
+    input.addEventListener('input', applyFilter);
+    roleCombobox.addEventListener('click', () => {
+      openRolePanel();
+      roleSearch.focus();
+    });
+    roleSearch.addEventListener('focus', openRolePanel);
+    roleSearch.addEventListener('input', () => {
+      openRolePanel();
+      filterRoleOptions();
+    });
+    roleSearch.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeRolePanel();
+        roleSearch.blur();
+      }
+      if (event.key === 'Backspace' && !roleSearch.value && selectedRoleSet.size) {
+        event.preventDefault();
+        const lastRole = selectedRoles().at(-1);
+        selectedRoleSet.delete(lastRole);
+        renderRoleTokens();
+        applyFilter();
+      }
+    });
+    roleOptions.forEach((option) => {
+      option.addEventListener('click', () => {
+        toggleRole(option.dataset.roleValue || option.textContent || '');
+        openRolePanel();
+        roleSearch.focus();
+      });
+    });
+    roleValues.addEventListener('click', (event) => {
+      const remove = event.target.closest('[data-role-remove]');
+      if (!remove) return;
+      event.stopPropagation();
+      selectedRoleSet.delete(remove.dataset.roleRemove);
+      renderRoleTokens();
+      applyFilter();
+      roleSearch.focus();
+    });
+    document.addEventListener('click', (event) => {
+      if (!rolePicker.contains(event.target)) closeRolePanel();
+    });
+    renderRoleTokens();
+  })();
+</script>
 {{ end }}

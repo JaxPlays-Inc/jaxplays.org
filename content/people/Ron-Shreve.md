@@ -9,6 +9,8 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Stage Manager
+  - Carpenter
 socials:
   facebook: 
   twitter: 

@@ -1,7 +1,7 @@
 ---
 title: Gypsy
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: 2024-08-16T13:09:40-04:00
 opening_date: 2024-08-22
 closing_date: 2024-09-29

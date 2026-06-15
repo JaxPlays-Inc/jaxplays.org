@@ -13,6 +13,7 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Stage Manager
 socials:
   facebook: jillianne.tamillo
   twitter: 

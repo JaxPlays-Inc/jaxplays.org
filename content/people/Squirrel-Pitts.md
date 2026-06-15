@@ -10,6 +10,10 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Audio Technician
+  - Lighting Technician
+  - Stage Manager
+  - Stage Crew
 socials:
   facebook: profile.php?id=100080059608582
   twitter: 

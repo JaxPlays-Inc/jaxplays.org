@@ -1,26 +1,28 @@
 ---
 title: "'The Pillowman' at Lumen Rep Delivers Powerful Questions and a Punishing Runtime"
 date: 2026-04-24T22:35:01-04:00
-featured_image: /media/photos/2026-The-Pillowman-01.webp
-featured_image_attr: Josh Andrews
-featured_image_attr_link: 
-featured_image_caption: "Trevor Kluckman, Kate McManus and Daniel Austin face off in the interrogation room in Lumen Rep’s *The Pillowman*, a stark image of power, fear and stories under pressure."
-featured_image_alt: "Trevor Kluckman sits at an interrogation table between Kate McManus and Daniel Austin in a scene from The Pillowman at Lumen Repertory Theatre."
+featured_image:
+  src: /media/photos/2026-The-Pillowman-01.webp
+  alt: "Trevor Kluckman sits at an interrogation table between Kate McManus and Daniel Austin in a scene from The Pillowman at Lumen Repertory Theatre."
+  caption: "Trevor Kluckman, Kate McManus and Daniel Austin face off in the interrogation room in Lumen Rep’s *The Pillowman*, a stark image of power, fear and stories under pressure."
+  credit:
+    name: Josh Andrews
 authors:
 - Ray Hollister
 show_reading_time: true
 production: 2026 The Pillowman
 theatre: Lumen Repertory Theatre
-cast:
-- Trevor Kluckman
-- Kate McManus
-- Daniel Austin
-- Katie Johnston
-- Joshua Britton Andrews
-- James Tucker
-- Laurén Paragallo
+featuring:
+  - Trevor Kluckman
+  - Kate McManus
+  - Daniel Austin
+  - Katie Johnston
+  - Joshua Britton Andrews
+  - James Tucker
+  - Laurén Paragallo
 description: "Lumen Rep’s *The Pillowman* delivers mesmerizing performances and stunning technical design, even as Martin McDonagh’s overlong script tests the audience’s endurance."
 ---
+
 [[theatre:Lumen Repertory Theatre]]’s [[production:2026 The Pillowman]] is a gripping, gorgeously executed production elevated by mesmerizing performances, stunning technical design and confident direction that navigates the play’s tonal minefields with precision. [[w:Martin McDonagh]]’s dark psychological thriller asks important questions about storytelling, cruelty, state power and the moral responsibility of art, and Lumen Rep meets those questions with seriousness, precision and theatrical force. Those questions matter. They deserve to be asked. Unfortunately though, important stories are not always the same thing as entertaining theater. Where the evening falters, it's not from a lack of craft in the production, but from a script that too often mistakes endurance for profundity.
 
 <!--more-->

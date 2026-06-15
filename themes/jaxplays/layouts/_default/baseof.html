@@ -58,6 +58,9 @@
       <!-- End Google Tag Manager (noscript) -->
     {{ end }}
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    {{ if not (eq .Params.ads false) }}
+      {{- partial "GAM-billboard-1.html" . -}}
+    {{ end }}
     {{/*  {{ partial "givebutter_campaign.html" . }}  */}}
     <main class="pb4" role="main">
       {{ block "main" . }}{{ end }}

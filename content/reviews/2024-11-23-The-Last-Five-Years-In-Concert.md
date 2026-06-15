@@ -1,22 +1,25 @@
 ---
 title: "Musical Brilliance and Emotional Depth Shine in Limelight Theatre’s 'The Last Five Years - In Concert'"
 date: 2024-11-23T11:21:34-05:00
-featured_image: /media/photos/2024-The-Last-Five-Years-In-Concert-01.webp
-featured_image_attr: Nikki Layt
-featured_image_alt: "Kimberly Zielinski on violin, Chad Boyd as Jamie, Emily Layt as Cathy, and pianist Keith Teepen in a scene from 'The Last Five Years - In Concert' at Limelight Theatre" 
-featured_image_caption: "Emily Layt and Chad Boyd deliver a poignant moment in *The Last Five Years - In Concert* during the emotionally charged \"Goodbye Until Tomorrow / I Could Never Rescue You\", beautifully accompanied by Kimberly Zielinski on violin and Keith Teepen on piano at Limelight Theatre."
-authors: 
+featured_image:
+  src: /media/photos/2024-The-Last-Five-Years-In-Concert-01.webp
+  alt: "Kimberly Zielinski on violin, Chad Boyd as Jamie, Emily Layt as Cathy, and pianist Keith Teepen in a scene from 'The Last Five Years - In Concert' at Limelight Theatre"
+  caption: "Emily Layt and Chad Boyd deliver a poignant moment in *The Last Five Years - In Concert* during the emotionally charged \"Goodbye Until Tomorrow / I Could Never Rescue You\", beautifully accompanied by Kimberly Zielinski on violin and Keith Teepen on piano at Limelight Theatre."
+  credit:
+    name: Nikki Layt
+authors:
 - Amber Hollister
 production: "2024 The Last Five Years In Concert"
 theatre: Limelight Theatre
-cast: 
-- Emily Layt
-- Chad Boyd
-- Keith Teepen
-- Kimberly Zielinski
-- Aubrey Barker
+featuring:
+  - Emily Layt
+  - Chad Boyd
+  - Keith Teepen
+  - Kimberly Zielinski
+  - Aubrey Barker
 description: "Don’t miss *The Last Five Years - In Concert* at Limelight Theatre! A moving love story with powerful music and unforgettable performances. Final shows tonight & tomorrow!"
 ---
+
 In a dazzling display of musical storytelling, [[production:2024 The Last Five Years - In Concert]] at the [[theatre:Limelight Theatre]] is utterly spellbinding, drawing the audience into the heart of Cathy and Jamie’s poignant love story. [[person:Emily Layt]] and [[person:Chad Boyd]]  breathe life into their characters, embodying every triumph and heartbreak with electrifying authenticity. The musical’s unconventional narrative structure — one character moving forward in time while the other rewinds — is brought to life through the magnetic chemistry between Layt and Boyd. Their performances are deeply compelling, weaving a raw and bittersweet tapestry that captures the blossoming and eventual unraveling of a complex relationship. From start to finish, the audience is entranced by the emotional depth and musical brilliance on display.
 
 Emily Layt’s portrayal of Cathy is a mesmerizing study in nuance and emotional depth. Her opening number, “Still Hurting,” delivered with heartrending vulnerability, sets a somber yet powerful tone that echoes through the venue, leaving the audience spellbound. With each note, Layt bares the raw fragility of Cathy’s heartbreak, forging an immediate emotional connection. As the story unfolds in its poignant reverse chronology, Layt seamlessly navigates Cathy’s journey of love and loss, crafting a vivid tapestry of introspection and resilience.
@@ -35,10 +38,10 @@ In the poignant juxtaposition of “Goodbye Until Tomorrow” and “I Could Nev
 
 While the minimalist set of the concert version might initially surprise those anticipating a more grandiose production, its simplicity proves to be a profound artistic choice for this concert-style rendition. Stripped of elaborate scenery, the staging mirrors the fragmented emotional worlds of Cathy and Jamie, emphasizing their parallel yet disconnected lives. This subtle yet powerful approach draws the audience into the intimate core of the story, where the focus remains firmly on the characters’ inner turmoil and raw emotional arcs.
 
-The spotlights play a pivotal role, isolating each character within their own narrative and underscoring the poignant truth of their relationship: though they share physical space, their emotional worlds are worlds apart. Aubrey Barker's lighting design becomes a storytelling device in itself, amplifying the themes of isolation and introspection. By embracing minimalism, the production allows Emily Layt and Chad Boyd’s performances to take center stage, transforming the barebones set into a canvas for vividly painted emotions. This stripped-down aesthetic not only heightens the impact of their storytelling but also reinforces the universality of the themes, turning simplicity into a deeply resonant strength.
+The spotlights play a pivotal role, isolating each character within their own narrative and underscoring the poignant truth of their relationship: though they share physical space, their emotional worlds are worlds apart. [[person:Aubrey Barker]]'s lighting design becomes a storytelling device in itself, amplifying the themes of isolation and introspection. By embracing minimalism, the production allows Emily Layt and Chad Boyd’s performances to take center stage, transforming the barebones set into a canvas for vividly painted emotions. This stripped-down aesthetic not only heightens the impact of their storytelling but also reinforces the universality of the themes, turning simplicity into a deeply resonant strength.
 
 The musicianship in The Last Five Years - In Concert is a strong highlight, enhancing the emotional resonance of the production. Violinist [[person:Kimberly Zielinski]] delivers beautifully rendered melodies that add a layer of poignancy to each scene. Her sensitive playing weaves subtle emotional textures into the story, drawing the audience further into the characters’ inner worlds with each bow stroke.
 
-At the heart of the musical experience, however, is musical director and pianist Keith Teepen, whose masterful performance becomes a centerpiece of the evening. Teepen’s passionate and precise playing brings the score to life, imbuing it with a richness that feels almost tangible. His artistry transforms the music from mere accompaniment into a dynamic storytelling element, amplifying the narrative’s emotional peaks and valleys. Together, Zielinski and Teepen create an extraordinary musical synergy, turning the score into a character in its own right — one that powerfully underscores the joys, sorrows and tensions of Cathy and Jamie’s journey. This collaboration is a true highlight, leaving an indelible mark on the evening.
+At the heart of the musical experience, however, is musical director and pianist [[person:Keith Teepen]], whose masterful performance becomes a centerpiece of the evening. Teepen’s passionate and precise playing brings the score to life, imbuing it with a richness that feels almost tangible. His artistry transforms the music from mere accompaniment into a dynamic storytelling element, amplifying the narrative’s emotional peaks and valleys. Together, Zielinski and Teepen create an extraordinary musical synergy, turning the score into a character in its own right — one that powerfully underscores the joys, sorrows and tensions of Cathy and Jamie’s journey. This collaboration is a true highlight, leaving an indelible mark on the evening.
 
 Tonight and tomorrow are your last chances to see The Last Five Years - In Concert — a production that perfectly balances raw emotion and musical artistry. This is an unmissable celebration of storytelling and musical artistry, showcasing the remarkable talents of Emily Layt and Chad Boyd in a truly unforgettable way. By attending, you’ll be directly supporting a fundraiser critical to sustaining local theater in light of recent, statewide arts funding cuts. Don’t wait! Grab your tickets and experience a performance that will captivate, inspire and remind you of why the arts matter so deeply.

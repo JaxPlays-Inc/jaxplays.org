@@ -8,6 +8,11 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Director
+  - Stage Manager
+  - Costuming
+  - Carpenter
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

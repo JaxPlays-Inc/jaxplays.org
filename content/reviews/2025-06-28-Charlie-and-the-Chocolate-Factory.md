@@ -1,16 +1,19 @@
 ---
 title: "Alhambra’s 'Charlie and the Chocolate Factory' Reimagines Wonder, Whimsy and Wackiness in a Candy-Coated Spectacle"
 date: 2025-06-28T17:45:01-04:00
-featured_image: /media/photos/2025-Charlie-and-the-Chocolate-Factory.webp
-featured_image_alt: "The cast of 'Charlie and the Chocolate Factory' gathers around Willy Wonka under bright candy-colored lights at Alhambra Theatre & Dining."
-featured_image_caption: "Willy Wonka welcomes his golden ticket winners — and their wildly varied guardians — into a world of pure imagination in *Charlie and the Chocolate Factory* at Alhambra Theatre & Dining."
-featured_image_attr: "Alhambra Theatre & Dining" 
-authors: 
+featured_image:
+  src: /media/photos/2025-Charlie-and-the-Chocolate-Factory.webp
+  alt: "The cast of 'Charlie and the Chocolate Factory' gathers around Willy Wonka under bright candy-colored lights at Alhambra Theatre & Dining."
+  caption: "Willy Wonka welcomes his golden ticket winners — and their wildly varied guardians — into a world of pure imagination in *Charlie and the Chocolate Factory* at Alhambra Theatre & Dining."
+  credit:
+    name: "Alhambra Theatre & Dining"
+  size: content
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 Charlie and the Chocolate Factory
 theatre: Alhambra Theatre & Dining
-cast:
+featuring:
   - Jonathan Van Dyke
   - Jake Ayres
   - Bob O'Hara
@@ -38,7 +41,8 @@ cast:
   - Johnny Pettegrew
 description: "Alhambra Theatre & Dining's *Charlie and the Chocolate Factory* is a whimsical, heartfelt reimagining of Roald Dahl's classic, blending humor, charm and a fresh take on Willy Wonka."
 ---
-If you think you know Willy Wonka, think again. At [[theatre:Alhambra Theatre & Dining]], [[production:2025 Charlie and the Chocolate Factory]] is a wild, whimsical ride that delivers the spectacle and charm you’d expect from Roald Dahl’s classic, but with its own fresh spin. Director [[person:Shain Stroff]]’s artistry shines in his leadership, guiding a team of creative minds that transforms Roald Dahl’s classic into a full-blown theatrical treat that is heartfelt, hilarious and delightfully off-kilter.
+
+If you think you know Willy Wonka, think again. At [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]], [[production:2025 Charlie and the Chocolate Factory]] is a wild, whimsical ride that delivers the spectacle and charm you’d expect from Roald Dahl’s classic, but with its own fresh spin. Director [[person:Shain Stroff]]’s artistry shines in his leadership, guiding a team of creative minds that transforms Roald Dahl’s classic into a full-blown theatrical treat that is heartfelt, hilarious and delightfully off-kilter.
 
 Just like in the films, Wonka offers the chance for a handful of lucky winners to peek behind the scenes of his chocolate empire, swinging open the factory gates to a world of candied dreams and cautionary tales. But in a clever twist, this Wonka opens a candy store near Charlie’s home to find out what people think about him, simultaneously giving him the opportunity to gain a deeper understanding of Charlie’s character and imagination. The change adds warmth and familiarity, making Wonka less a distant, enigmatic figure and more a quirky neighbor with a flair for the bizarre.
 
@@ -66,4 +70,4 @@ Visually, the production is a confection. [[person:David Dionne]] delivers sever
 
 If the show occasionally dips into sensory overload, it’s by design — this is a world where the rules of logic dissolve in a chocolate river. But beneath the technicolor spectacle, Alhambra’s production keeps its heart front and center. By the time Charlie’s decency wins out, the moral is clear but never cloying.
 
-For families, Dahl devotees or anyone with a sweet tooth for spectacle, [[theatre:Alhambra Theatre & Dining]]'s [[production:2025 Charlie and the Chocolate Factory]] is a winning ticket.
+For families, Dahl devotees or anyone with a sweet tooth for spectacle, [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]]'s [[production:2025 Charlie and the Chocolate Factory]] is a winning ticket.

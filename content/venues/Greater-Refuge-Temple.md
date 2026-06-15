@@ -1,7 +1,7 @@
 ---
 title: Greater Refuge Temple 
-date: 2024-11-19T20:18:43-05:00
-active: true
+date: 2026-06-09T23:36:16-04:00
+active: false
 featured_image: 
 featured_image_attr: 
 featured_image_alt: 

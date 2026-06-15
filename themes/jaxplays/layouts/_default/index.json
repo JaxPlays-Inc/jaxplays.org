@@ -1,23 +1,37 @@
 {{- $.Scratch.Add "index" slice -}}
-{{- $allowedSections := slice "people" "productions" "theatres" "venues" "news" "reviews" -}}
+{{- $allowedSections := slice "people" "productions" "venues" "news" "reviews" -}}
 {{- range where .Site.RegularPages "Section" "in" $allowedSections -}}
-    {{- $openingDate := "" -}}  
+    {{- $openingDate := "" -}}
     {{- $theatreName := "" -}}
-    {{- if and (eq .Section "productions") (.Params.opening_date) -}}  
-        {{- $openingDate = .Params.opening_date -}}  
-        {{- if .Params.theatre -}} 
-            {{- $theatreName = .Params.theatre -}} 
+    {{- $summary := .Params.description | default .Plain -}}
+    {{- if and (eq .Section "productions") (.Params.opening_date) -}}
+        {{- $openingDate = .Params.opening_date -}}
+        {{- if .Params.theatre -}}
+            {{- $theatreName = .Params.theatre -}}
         {{- end -}}
     {{- end -}}
-    {{- $.Scratch.Add "index" (dict 
-        "title" .Title 
-        "permalink" .RelPermalink 
-        "section" (.Section | title) 
-        "tags" .Params.tags 
-        "categories" .Params.categories 
-        "summary" (.Summary | markdownify | htmlUnescape | plainify) 
-        "date" .Date 
+    {{- $.Scratch.Add "index" (dict
+        "title" .Title
+        "permalink" .RelPermalink
+        "section" (.Section | title)
+        "tags" .Params.tags
+        "categories" .Params.categories
+        "summary" ($summary | htmlUnescape | plainify | truncate 280)
+        "date" .Date
         "opening_date" $openingDate
         "theatre_name" $theatreName) -}}
+{{- end -}}
+{{- range where (where .Site.Pages "Type" "theatres") "Params.active" "ne" nil -}}
+    {{- $summary := .Params.description | default .Plain -}}
+    {{- $.Scratch.Add "index" (dict
+        "title" .Title
+        "permalink" .RelPermalink
+        "section" (.Section | title)
+        "tags" .Params.tags
+        "categories" .Params.categories
+        "summary" ($summary | htmlUnescape | plainify | truncate 280)
+        "date" .Date
+        "opening_date" ""
+        "theatre_name" "") -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

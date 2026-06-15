@@ -7,6 +7,14 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Scenic Designer
+  - Make-up Artist
+  - Assistant Stage Manager
+  - Costuming
+  - Property Master
+  - Carpenter
+  - Stage Crew
+  - Painter
 socials:
   facebook: 
   twitter: 

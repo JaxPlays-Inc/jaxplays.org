@@ -1,4 +1,17 @@
 ---
 title: Andrew J. Way
-date: 2023-09-08T00:00:00-04:00
+aliases:
+  - /people/andrew-way
+  - /people/andrew-jway
+other_names:
+  - Andrew Way
+  - Andrew JWay
+date: 2026-06-10T10:55:40-04:00
+roles:
+  - Scenic Designer
+  - Lighting Designer
+  - Sound Designer
+  - Lighting Technician
+  - Technical Director
+  - Carpenter
 ---

@@ -1,9 +1,10 @@
 ---
 title: Tony winner Cady Huffman to star in 'A Funny Thing Happened on the Way to the Forum' in concert at the Florida Theatre
 date: 2025-04-06T12:05:12-04:00
-featured_image: /media/posters/2025-A-Funny-Thing-Happened-on-the-Way-to-the-Forum.webp
-featured_image_alt: "Promotional art for 'A Funny Thing Happened on the Way to the Forum' featuring a whimsical cartoon illustration of a Roman setting with Cady Huffman highlighted."
-featured_image_caption: "The classic Broadway musical 'A Funny Thing Happened on the Way to the Forum' returns in concert form, starring Tony Award® winner Cady Huffman, with a vibrant and comedic portrayal of ancient Roman antics."
+featured_image:
+  src: /media/posters/2025-A-Funny-Thing-Happened-on-the-Way-to-the-Forum.webp
+  alt: "Promotional art for 'A Funny Thing Happened on the Way to the Forum' featuring a whimsical cartoon illustration of a Roman setting with Cady Huffman highlighted."
+  caption: "The classic Broadway musical 'A Funny Thing Happened on the Way to the Forum' returns in concert form, starring Tony Award® winner Cady Huffman, with a vibrant and comedic portrayal of ancient Roman antics."
 authors: 
 - JaxPlays
 production: 2025 A Funny Thing Happened on the Way to the Forum

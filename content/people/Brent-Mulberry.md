@@ -17,6 +17,9 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Sound Designer
+  - Audio Technician
+  - Lighting Technician
 socials:
   facebook: brentallenlive
   twitter: brentallenlive

@@ -9,7 +9,7 @@ featured_image_caption: Graphic of Disney's Beauty and the Beast at the Alhambra
 featured_image_attr: Alhambra Theatre & Dining
 program:
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1427&code=jaxplays
 showtimes:
 - 2023-06-08 17:30:00
@@ -140,6 +140,11 @@ crew:
   - Sarah Brace
   - Kolby James
 orchestra:
-reviews: 
-- "Review: BEAUTY AND THEY BEAST at Alhambra Theatre And Dining": https://www.broadwayworld.com/jacksonville/article/Review-BEAUTY-AND-THEY-BEAST-at-Alhambra-Theatre-And-Dining-20230618
+reviews:
+- title: 'Review: BEAUTY AND THEY BEAST at Alhambra Theatre And Dining'
+  uri: https://www.broadwayworld.com/jacksonville/article/Review-BEAUTY-AND-THEY-BEAST-at-Alhambra-Theatre-And-Dining-20230618
+  outlet: 'BroadwayWorld'
+  description: ''
+  featured_image: ''
+
 ---

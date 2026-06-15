@@ -10,7 +10,7 @@ show_details:
 - Book: 
   - Mel Brooks
   - "[[w:Thomas_Meehan_(writer)|Thomas Meehan]]"
-- Basis: "*[[w:Young Frankenstein]]* by [[w:Gene Wilder]] and Mel Brooks"
+- Basis: "The 1974 film *[[w:Young Frankenstein]]* by [[w:Gene Wilder]] and Mel Brooks"
 genres:
   - Musical
   - Comedy

@@ -1,15 +1,5 @@
 {{ define "header" }}{{ partialCached "production-header.html" . }}{{ end }}
 {{ define "main" }}
-{{ $personName := .Title }} <!-- Assuming the page title is the person's name -->
-{{ $otherNames := .Params.other_names | default slice }} <!-- Getting other names from the front matter -->
-{{ $personNames := slice $personName | append $otherNames }} <!-- Combining the title and other names into a slice -->
-{{ $personNameKeys := slice }}
-{{ range $name := $personNames }}
-  {{ $nameKey := replace $name "’" "'" }}
-  {{ $nameKey = replace $nameKey "‘" "'" }}
-  {{ $nameKey = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $nameKey }}
-  {{ $personNameKeys = $personNameKeys | append ($nameKey | urlize) }}
-{{ end }}
 
 <div class="flex-l mt0 w-100 mw8 center">
   <article class="center cf pv4 ph3 ph4-ns w-100 mw8">
@@ -38,7 +28,7 @@
       {{ end }}
     {{ end }}
 
-    <div class="flex flex-column flex-row-ns">
+    <div class="people-single-profile flex flex-column flex-row-ns">
       <!-- Featured Image Section -->
       {{/* Always set an image path: use headshot if present, else default headshot */}}
       {{ $imagePath := "" }}
@@ -49,11 +39,11 @@
       {{ end }}
 
       {{ $headshotLightbox := printf "headshots-%s" (.File.BaseFileName | urlize) }}
-      <div class="w-75 w-40-m w-25-l flex-column center">
+      <div class="people-single-headshot-column w-75 w-40-m w-25-l flex-column">
         {{ if $featuredImage }}
           <a href="{{ $imagePath }}" data-lightbox="{{ $headshotLightbox }}"
             data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-            <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
+            <img src="{{ $imagePath }}" class="people-single-headshot w5-ns w-100" alt="{{ $featuredImageAlt }}" />
           </a>
           {{ range .Params.headshot_gallery }}
             {{ $galleryImage := . }}
@@ -86,10 +76,10 @@
             {{ end }}
           {{ end }}
         {{ else }}
-          <img src="{{ $imagePath }}" class="w5-ns w-100" alt="{{ $featuredImageAlt }}" />
+          <img src="{{ $imagePath }}" class="people-single-headshot w5-ns w-100" alt="{{ $featuredImageAlt }}" />
         {{ end }}
         {{ if .Params.socials }}
-        {{ partial "social-media-links.html" . }}
+        {{ partial "profile-social-links.html" . }}
         {{ end }}
       </div>
 
@@ -116,175 +106,71 @@
       {{ end }}
     </div>
 
-    {{ $global := . }} <!-- Capture the global context to use inside range blocks -->
-
-    <!-- Credits Section: Loop through different credit types and sort productions by opening_date -->
+    <!-- Credits Section: Read precomputed credits from data/generated/people_credits.json -->
+    {{ $generatedData := index site.Data "generated" | default dict }}
+    {{ $peopleCreditIndex := index $generatedData "people_credits" | default dict }}
+    {{ $personKey := .File.BaseFileName | urlize }}
+    {{ $personCredits := index $peopleCreditIndex $personKey | default dict }}
     {{ $creditTypes := slice "cast" "understudies" "crew" "orchestra" }}
     {{ range $creditType := $creditTypes }}
-      {{ $productionsWithPerson := slice }}
-      {{ range where $global.Site.Pages "Type" "productions" }} <!-- Use $global to access .Site.Pages -->
-        {{ $production := . }}
-        {{ with index .Params $creditType }}
-          {{ $credits := slice }}
-          {{ range . }}
-            {{ range $character, $actor := . }}
-              {{ $actorSlice := slice }}
-              {{ if eq (printf "%T" $actor) "string" }}
-                {{ $actorSlice = slice $actor }}
-              {{ else }}
-                {{ $actorSlice = $actor }}
-              {{ end }}
-              {{ range $actorName := $actorSlice }}
-                {{ if eq (printf "%T" $actorName) "string" }}
-                  {{ $actorNameKey := replace $actorName "’" "'" }}
-                  {{ $actorNameKey = replace $actorNameKey "‘" "'" }}
-                  {{ $actorNameKey = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $actorNameKey }}
-                  {{ $actorNameKey = $actorNameKey | urlize }}
-                  {{ if in $personNameKeys $actorNameKey }}
-                    {{ $credits = $credits | append $character }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-          {{ if $credits }}
-            {{ $productionsWithPerson = $productionsWithPerson | append (dict "production" $production "credits" $credits) }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ $sortedProductions := sort $productionsWithPerson "production.Params.opening_date" "desc" }}
+      {{ $sortedProductions := index $personCredits $creditType | default slice }}
 
-      <!-- Display the productions with the person's name in the credits -->
       {{ if $sortedProductions }}
-        <div class="credits nested-copy-line-height lh-copy f4 mt5 {{ $.Param "text_color" | default "dark-gray" }}">
-          <h3 class="f3 mt4 mb3 sectionline">{{ humanize $creditType }} Credits</h3>
+        <section class="productions-directory-section people-single-credits" aria-labelledby="{{ $creditType }}-credits" data-production-section>
+          <div class="productions-directory-section-head sectionline">
+            <div class="productions-directory-section-title">
+              <p class="productions-directory-section-eyebrow">People Credits</p>
+              <h2 id="{{ $creditType }}-credits">{{ humanize $creditType }} Credits</h2>
+            </div>
+            <span class="productions-directory-count" data-production-section-count>{{ len $sortedProductions }} listed</span>
+          </div>
+          <div class="productions-directory-grid">
           {{ range $details := $sortedProductions }}
-            <div class="flex bb bw1 b--silver f5 f4-ns">
-              <div class="pa3-ns pa2 w-100 flex items-center"> <!-- Added items-center -->
-          <!-- Left Section -->
-          <div class="w-25 w-10-l">
-            {{ $featuredImage := $details.production.Params.featured_image }}
-            {{ if not $featuredImage }}
-            {{ with (site.GetPage "page" (printf "/shows/%s" ($details.production.Title | urlize))) }}
-            {{ $featuredImage = .Params.featured_image }}
+            {{ $poster := "/media/default/production_poster.webp" }}
+            {{ with $details.featured_image }}
+              {{ $poster = printf "/media/posters/%s" . }}
             {{ end }}
-            {{ end }}
-            {{ $imagePath := "/media/default/production_poster.webp" }} <!-- Default image path -->
-            {{ if $featuredImage }}
-            {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
-            <!-- Concatenate path if featured image exists -->
-            {{ end }}
-            <a href="{{ $details.production.RelPermalink }}">
-              <img src="{{ $imagePath }}" alt="{{ $details.production.Title }}" class="w-100" />
-            </a>
-          </div>
-          <!-- Right Section -->
-          <div class="w-75 w-90-l pl3 flex flex-column flex-row-l">
-            <!-- Left Section of Right Section -->
-            <div class="b w-100 w-50-l">
-              <a href="{{ $details.production.RelPermalink }}">{{ $details.production.Title }}</a><br>
-              {{ range $index, $credit := $details.credits }}
-              {{ $credit }}{{ if ne (add $index 1) (len $details.credits) }}, {{ end }}
+            {{ $openingLabel := "Unknown Date" }}
+            {{ with $details.opening_date }}
+              {{ $parsedDate := time . }}
+              {{ if eq $details.approx_date "year" }}
+                {{ $openingLabel = $parsedDate.Format "2006" }}
+              {{ else if eq $details.approx_date "month" }}
+                {{ $openingLabel = $parsedDate.Format "January 2006" }}
+              {{ else }}
+                {{ $openingLabel = $parsedDate.Format "January 2006" }}
               {{ end }}
-            </div>
-            <!-- Right Section of Right Section -->
-            <div class="w-100 w-50-l tr-l">
-              <!-- Added flex flex-column justify-center -->
-              <div>
-                {{ with $details.production.Params.opening_date }}
-                {{ $formattedDate := "" }}
-                {{ if eq $details.production.Params.approx_date "year" }}
-                {{/* If the date is only a year, use it directly */}}
-                {{ $parsedDate := time . }}
-                {{ $formattedDate = $parsedDate.Format "2006" }}
-                {{ else if eq $details.production.Params.approx_date "month" }}
-                {{/* If the date includes a month, attempt to format it accordingly */}}
-                {{ $parsedDate := time . }}
-                {{ $formattedDate = $parsedDate.Format "January 2006" }}
-                {{ else }}
-                {{/* For a full date, format it to include the month and year only */}}
-                {{ $parsedDate := time . }}
-                {{ $formattedDate = $parsedDate.Format "January 2006" }}
-                {{ end }}
-                {{ $formattedDate }}
-                {{ else }}
-                {{/* Fallback if opening_date isn't specified */}}
-                Unknown Date
-                {{ end }}
-              </div>
-
-              <div class="overflow-hidden nowrap">{{ $details.production.Params.theatre }}</div>
-              <div>
-                <!-- Venues -->
-                {{ $venues := $details.production.Params.venue }} <!-- Get the venue(s) -->
-                {{ if eq (printf "%T" $venues) "string" }} <!-- Check if it's a string -->
-                {{ $venues = slice $venues }} <!-- Convert to an array if it's a single string -->
-                {{ end }}
-                {{ range $index, $venue := $venues }} <!-- Loop through the venue values with an index -->
-                {{ if gt (len $venues) 1 }} <!-- Check if there's more than one venue -->
-                {{ $venue }}<br />
-                {{ else }}
-                {{ $venue }}
-                {{ end }}
-                {{ end }}
-              </div>
-            </div>
+            {{ end }}
+            {{ $venues := $details.venue }}
+            {{ if eq (printf "%T" $venues) "string" }}
+              {{ $venues = slice $venues }}
+            {{ end }}
+            {{ $creditSummary := delimit $details.credits ", " }}
+            {{ $production := dict
+              "url" $details.permalink
+              "title" $details.title
+              "poster" $poster
+              "posterAlt" $details.title
+              "theatre" $details.theatre
+              "venues" $venues
+              "openingLabel" $openingLabel
+              "summary" $creditSummary
+              "searchBase" (delimit (slice $details.title $creditSummary $details.theatre (delimit $venues " ") $openingLabel) " ")
+              "genres" slice
+            }}
+            {{ partial "production-summary-card.html" (dict "production" $production "status" "Past Production") }}
+          {{ end }}
           </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
+        </section>
     {{ end }}
     {{ end }}
     <!-- END Credits Section -->
 
     <!-- Reviews -->
-    {{ $relatedReviews := slice }}
-    {{ range where site.RegularPages "Type" "reviews" }}
-    {{ $review := . }} <!-- Store the current review in a variable -->
-    {{ range $name := $personNames }} <!-- Looping through all the person's names -->
-    {{ if in $review.Params.cast $name }}
-    {{ $relatedReviews = $relatedReviews | append $review }}
-    <!-- Appending the entire review object if a name is found in cast list -->
-    {{ break }} <!-- Break the inner loop if a match is found, to avoid duplicate appending -->
-    {{ end }}
-    {{ end }}
-    {{ end }}
+    {{ $personReviewIndex := index $generatedData "person_reviews" | default dict }}
+    {{ $relatedReviews := index $personReviewIndex $personKey | default slice }}
 
-    {{ if or $relatedReviews .Params.reviews }}
-    <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
-      <h3 class="f3 mt4 mb3 sectionline">Reviews featuring {{ .Title }}</h3>
-      {{ range $relatedReviews }}
-      <h4><a href="{{ .RelPermalink }}">{{ .Title }} | JaxPlays Reviews</a></h4>
-      {{ $description := .Params.description }}
-      {{ $summary := .Summary }}
-      {{ $summaryLength := len $summary }}
-      {{ if not $description }}
-      {{ if gt $summaryLength 0 }}
-      {{ if gt $summaryLength 300 }}
-      {{ $description = printf "%s..." (substr $summary 0 300) }}
-      {{ else }}
-      {{ $description = substr $summary 0 $summaryLength }}
-      {{ end }}
-      {{ end }}
-      {{ else }}
-      {{ end }}
-      <span class="db">
-        {{- partial "content-wikilinks" $description | safeHTML -}}
-      </span>
-
-      <a href="{{ .RelPermalink }}"
-        class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-      {{ end }}
-      {{ if .Params.reviews }}
-      {{ range .Params.reviews }} <!-- Iterate over the reviews array -->
-      {{ range $reviewTitle, $reviewURL := . }} <!-- Iterate over key-value pairs -->
-      <h4><a href="{{ $reviewURL }}" target="_blank" alt="{{ $reviewTitle }}">{{ $reviewTitle }}</a></h4>
-      {{ end }}
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
+    {{ partial "review-card-grid.html" (dict "page" . "relatedReviews" $relatedReviews "heading" (printf "Reviews featuring %s" .Title)) }}
 
     <!-- Press -->
     {{ if .Params.press }}

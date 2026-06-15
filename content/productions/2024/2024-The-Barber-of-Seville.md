@@ -35,7 +35,12 @@ crew:
 - Sets & Costumes: Giorgio Lalov
 - Conductor: Jason Tramm
 - Chorus Director: Jo Anne Herrero
-reviews: 
-- All Reviews - Rossini's IL BARBIERE DI SIVIGLIA - Jenny Kelly Productions: https://jennykellyproductions.com/all-reviews-barber
+reviews:
+- title: All Reviews - Rossini's IL BARBIERE DI SIVIGLIA - Jenny Kelly Productions
+  uri: https://jennykellyproductions.com/all-reviews-barber
+  outlet: ''
+  description: ''
+  featured_image: ''
+
 ---
 Figaro, the resourceful barber of Seville, is caught in a comedy of errors as he helps Count Almaviva woo the beautiful Rosina. Mistaken identities and close shaves ensue in this lathered-up opera that proves love can be a hairy situation.

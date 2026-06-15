@@ -1,7 +1,7 @@
 ---
 title: Meet Me In St. Louis
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: null
 date: '2026-01-12T21:55:24-05:00'
 opening_date: '2026-10-01'

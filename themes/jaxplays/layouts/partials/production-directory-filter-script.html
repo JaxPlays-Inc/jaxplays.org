@@ -1,0 +1,162 @@
+{{ $rootSelector := .root | default ".productions-directory" }}
+{{ $inputSelector := .input | default "#productions-directory-filter" }}
+{{ $searchEyebrow := .searchEyebrow | default "Matching productions" }}
+{{ $searchTitle := .searchTitle | default "Search Results" }}
+
+<script>
+  (() => {
+    const root = document.querySelector('{{ $rootSelector }}');
+    const input = document.querySelector('{{ $inputSelector }}');
+    if (!root || !input) return;
+
+    const cards = Array.from(root.querySelectorAll('[data-production-card]'));
+    const sections = Array.from(root.querySelectorAll('[data-production-section]'));
+    const grid = root.querySelector('.productions-directory-grid');
+    const primarySection = sections[0];
+    const primaryEyebrow = primarySection ? primarySection.querySelector('.productions-directory-section-eyebrow') : null;
+    const primaryTitle = primarySection ? primarySection.querySelector('h2') : null;
+    const pagination = root.querySelector('[data-production-pagination]');
+    const data = document.querySelector('#production-directory-data');
+    const status = root.querySelector('[data-production-filter-status]');
+    const empty = root.querySelector('[data-production-filter-empty]');
+    const normalize = (value) => value.trim().toLowerCase();
+    const listedText = (count) => `${count} ${count === 1 ? 'production' : 'productions'} listed`;
+    const foundText = (count) => `${count} ${count === 1 ? 'production' : 'productions'} found`;
+    const initialGrid = grid ? grid.innerHTML : '';
+    const initialStatus = status ? status.textContent : '';
+    const initialPrimaryEyebrow = primaryEyebrow ? primaryEyebrow.textContent : '';
+    const initialPrimaryTitle = primaryTitle ? primaryTitle.textContent : '';
+    const initialCounts = sections.map((section) => section.querySelector('[data-production-section-count]')?.textContent || '');
+    let indexedProductions = [];
+
+    if (data) {
+      indexedProductions = JSON.parse(data.textContent || '[]');
+      if (typeof indexedProductions === 'string') indexedProductions = JSON.parse(indexedProductions);
+    }
+
+    const createElement = (tag, className, text) => {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text) element.textContent = text;
+      return element;
+    };
+
+    const createBadge = (production) => {
+      if (production.status === 'Coming Soon') {
+        return createElement('span', 'home-dashboard-badge red', `Opens ${production.openingLabel}`);
+      }
+      if (production.status === 'Past Production') {
+        return null;
+      }
+      return createElement('span', 'productions-directory-badge', production.status);
+    };
+
+      const createProductionCard = (production) => {
+      const card = createElement('article', 'productions-directory-card slow-grow');
+      card.dataset.productionCard = '';
+      card.dataset.productionSearch = production.search || '';
+
+      const hitarea = createElement('a', 'productions-directory-card-hitarea');
+      hitarea.href = production.url;
+      hitarea.setAttribute('aria-label', `View ${production.title}`);
+
+      const posterLink = createElement('a', 'productions-directory-poster-link');
+      posterLink.href = production.url;
+      const poster = createElement('img', 'productions-directory-poster');
+      poster.src = production.poster;
+      poster.alt = production.posterAlt || `${production.title} poster`;
+      posterLink.append(poster);
+
+      const badges = createElement('div', 'productions-directory-badges');
+      const statusBadge = createBadge(production);
+      if (statusBadge) badges.append(statusBadge);
+      (production.genres || []).slice(0, 3).forEach((genre) => {
+        const badge = createElement('a', 'productions-directory-badge productions-directory-badge--genre', genre);
+        badge.href = `/genres/${genre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
+        badges.append(badge);
+      });
+      if (!badges.childElementCount) card.classList.add('productions-directory-card--no-badges');
+
+      const body = createElement('div', 'productions-directory-card-body');
+      const titleLink = createElement('a', 'productions-directory-card-link');
+      titleLink.href = production.url;
+      titleLink.append(createElement('strong', 'productions-directory-card-title', production.title));
+
+      const meta = createElement('div', 'productions-directory-meta');
+      if (production.theatre) meta.append(createElement('span', 'productions-directory-theatre db', production.theatre));
+      if (production.venues && production.venues.length) meta.append(createElement('span', 'productions-directory-venue db', production.venues.join(' / ')));
+
+      const dates = createElement('div', 'productions-directory-dates');
+      dates.textContent = `${production.openingLabel || ''}${production.closingLabel ? ` - ${production.closingLabel}` : ''}`.trim();
+
+      body.append(titleLink, meta);
+      if (dates.textContent) body.append(dates);
+      if (production.summary) body.append(createElement('div', 'productions-directory-summary', production.summary));
+
+      card.append(hitarea);
+      if (badges.childElementCount) card.append(badges);
+      card.append(posterLink, body);
+      return card;
+    };
+
+    const restoreInitialView = () => {
+      if (grid && initialGrid) grid.innerHTML = initialGrid;
+      if (primaryEyebrow) primaryEyebrow.textContent = initialPrimaryEyebrow;
+      if (primaryTitle) primaryTitle.textContent = initialPrimaryTitle;
+      sections.forEach((section, index) => {
+        section.hidden = false;
+        const count = section.querySelector('[data-production-section-count]');
+        if (count) count.textContent = initialCounts[index] || count.textContent;
+      });
+      if (status) status.textContent = initialStatus;
+      if (empty) empty.hidden = true;
+      if (pagination) pagination.hidden = false;
+    };
+
+    const applyIndexedFilter = (query) => {
+      const matches = indexedProductions.filter((production) => normalize(production.search || '').includes(query));
+      if (grid) grid.replaceChildren(...matches.map(createProductionCard));
+      if (primaryEyebrow) primaryEyebrow.textContent = '{{ $searchEyebrow }}';
+      if (primaryTitle) primaryTitle.textContent = '{{ $searchTitle }}';
+      sections.forEach((section, index) => {
+        section.hidden = index > 0 || matches.length === 0;
+        const count = section.querySelector('[data-production-section-count]');
+        if (count) count.textContent = `${matches.length} found`;
+      });
+      if (status) status.textContent = foundText(matches.length);
+      if (empty) empty.hidden = matches.length !== 0;
+      if (pagination) pagination.hidden = true;
+    };
+
+    const applyFilter = () => {
+      const query = normalize(input.value);
+      if (!query && indexedProductions.length) {
+        restoreInitialView();
+        return;
+      }
+      if (query && indexedProductions.length) {
+        applyIndexedFilter(query);
+        return;
+      }
+      let visibleTotal = 0;
+
+      cards.forEach((card) => {
+        const isMatch = !query || normalize(card.dataset.productionSearch || '').includes(query);
+        card.hidden = !isMatch;
+        if (isMatch) visibleTotal += 1;
+      });
+
+      sections.forEach((section) => {
+        const visibleCards = Array.from(section.querySelectorAll('[data-production-card]')).filter((card) => !card.hidden);
+        section.hidden = visibleCards.length === 0;
+        const count = section.querySelector('[data-production-section-count]');
+        if (count) count.textContent = `${visibleCards.length} listed`;
+      });
+
+      if (status) status.textContent = listedText(visibleTotal);
+      if (empty) empty.hidden = visibleTotal !== 0;
+    };
+
+    input.addEventListener('input', applyFilter);
+  })();
+</script>

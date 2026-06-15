@@ -10,6 +10,7 @@ featured_image_attr:
 featured_image_attr_link: 
 roles:
   - Actor
+  - Costuming
 socials:
   facebook: allie.kangas
   twitter: 

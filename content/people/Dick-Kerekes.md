@@ -13,6 +13,7 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Carpenter
 socials:
   facebook: Dick Kerekes | dick.kerekes
 press:

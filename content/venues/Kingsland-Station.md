@@ -1,7 +1,7 @@
 ---
 title: Kingsland Station
-date: 2024-06-18T00:44:58-04:00
-active: true
+date: 2026-06-09T23:36:16-04:00
+active: false
 featured_image: Florida-Georgia-Railway-Heritage-Museum.webp
 featured_image_alt: "Logo of the Florida-Georgia Railway Heritage Museum featuring a classic steam locomotive centered within a red and blue circular emblem, surrounded by stars and the text ‘A Nonprofit Society’."
 featured_image_caption: "Iconic emblem of the Florida-Georgia Railway Heritage Museum, showcasing a vintage steam locomotive in a vibrant red and blue design."

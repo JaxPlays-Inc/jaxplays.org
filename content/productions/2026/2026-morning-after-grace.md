@@ -1,7 +1,7 @@
 ---
 title: Morning After Grace
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: '2026'
 date: '2026-01-11T16:20:08-05:00'
 opening_date: '2026-04-09'

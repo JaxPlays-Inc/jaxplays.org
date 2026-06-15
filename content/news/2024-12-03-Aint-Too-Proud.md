@@ -1,10 +1,11 @@
 ---
 title: "'Ain't Too Proud': A Rhythmic Journey Through the Soul of The Temptations Hits Jacksonville"
 date: 2024-12-03T11:40:22-05:00
-featured_image: /media/photos/2024-Aint-Too-Proud-01.webp
-featured_image_attr: Joan Marcus
-featured_image_caption: "(Left to right) Jamenson Clanton, Josiah Travis, Kent Rogers, Lowes Moore, Rudy Foster and Bryce Valle from the National Touring Company of 'Ain’t Too Proud'"
-featured_image_alt: 
+featured_image:
+  src: /media/photos/2024-Aint-Too-Proud-01.webp
+  caption: "(Left to right) Jamenson Clanton, Josiah Travis, Kent Rogers, Lowes Moore, Rudy Foster and Bryce Valle from the National Touring Company of 'Ain’t Too Proud'"
+  credit:
+    name: Joan Marcus
 authors: 
 - JaxPlays
 description: "Experience the inspiring journey of The Temptations in the Broadway musical 'Ain't Too Proud – The Life and Times of The Temptations'. Follow their rise from Detroit to global stardom, exploring themes of brotherhood, loyalty and resilience set to their legendary hits."

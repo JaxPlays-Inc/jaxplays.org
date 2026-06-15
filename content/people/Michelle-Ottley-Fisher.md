@@ -16,6 +16,7 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Choreographer
 socials:
   linkedin: michelle-ottley-fisher-19ab9632
   instagram: mama.o

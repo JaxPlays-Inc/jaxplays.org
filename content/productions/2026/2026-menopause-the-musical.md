@@ -1,7 +1,7 @@
 ---
 title: Menopause The Musical
 Theatre: Alhambra Theatre & Dining
-Venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 date: '2026-01-11T14:39:40-04:00'
 opening_date: '2026-01-08'
 closing_date: '2026-02-15'

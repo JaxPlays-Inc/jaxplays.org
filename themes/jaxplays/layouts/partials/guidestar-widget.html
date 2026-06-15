@@ -1,0 +1,7 @@
+{{- $classes := slice "guidestar-widget" -}}
+{{- with .class -}}
+  {{- $classes = $classes | append . -}}
+{{- end -}}
+<a href="https://app.candid.org/profile/15145870" target="_blank" rel="noopener" class="{{ delimit $classes " " }}">
+  <img src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/15145870/svg" alt="Candid GuideStar transparency seal for JaxPlays" loading="lazy">
+</a>

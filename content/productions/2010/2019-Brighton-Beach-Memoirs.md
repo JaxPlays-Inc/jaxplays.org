@@ -1,7 +1,7 @@
 ---
 title: Brighton Beach Memoirs
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 
 date: 2024-07-19T17:58:48-04:00
 opening_date: 2019-09-20
@@ -80,9 +80,17 @@ crew:
 orchestra:
 genres: 
 description: 
-reviews: 
-  - "Brighton Beach Memoirs: Tod Booth brings another sparkling Neil Simon production to Alhambra | Folo Weekly / EU Jacksonville": https://folioweekly.com/2019/09/25/brighton-beach-memoirs-tod-booth-neil-simon-alhambra/
-  - "Review: BRIGHTON BEACH MEMOIRS at Alhambra Theatre And Dining | BroadwayWorld": https://www.broadwayworld.com/jacksonville/article/BWW-Review-BRIGHTON-BEACH-MEMOIRS-at-Alhambra-Theatre-And-Dining-20191001
+reviews:
+- title: 'Brighton Beach Memoirs: Tod Booth brings another sparkling Neil Simon production to Alhambra'
+  uri: https://folioweekly.com/2019/09/25/brighton-beach-memoirs-tod-booth-neil-simon-alhambra/
+  outlet: Folo Weekly / EU Jacksonville
+  description: ''
+  featured_image: ''
+- title: 'Review: BRIGHTON BEACH MEMOIRS at Alhambra Theatre And Dining'
+  uri: https://www.broadwayworld.com/jacksonville/article/BWW-Review-BRIGHTON-BEACH-MEMOIRS-at-Alhambra-Theatre-And-Dining-20191001
+  outlet: BroadwayWorld
+  description: ''
+  featured_image: ''
 press:
   - "Alhambra Presents Brighton Beach Memoirs (FCL Oct. 4) | First Coast Living - First Coast News": https://www.firstcoastnews.com/article/news/local/first-coast-living/alhambrabrighton/77-9a51d36e-4e02-443e-b3a0-022350433ed8
 ---

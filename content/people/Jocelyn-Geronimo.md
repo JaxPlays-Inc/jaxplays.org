@@ -6,6 +6,10 @@ featured_image_attr:
 featured_image_attr_link: 
 roles:
   - Actor
+  - Director
+  - Choreographer
+  - Scenic Designer
+  - Lighting Designer
 socials:
   facebook: setstudiosjax
   twitter: 

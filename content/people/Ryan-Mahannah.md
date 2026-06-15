@@ -8,6 +8,8 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Director
+  - Intimacy Director
+  - Fight Choreographer
 socials:
   facebook: 
   twitter: 

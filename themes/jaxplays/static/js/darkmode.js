@@ -13,15 +13,17 @@ function applyDarkMode() {
 // Call applyDarkMode on page load
 applyDarkMode();
 
-// Event listener for the dark mode toggle button
-document.getElementById('dark-mode-toggle').addEventListener('click', function () {
-  var darkModeEnabled = !document.body.classList.contains('dark-mode');
-  
-  if (darkModeEnabled) {
-    document.body.classList.add('dark-mode');
-    localStorage.setItem('darkMode', 'enabled');
-  } else {
-    document.body.classList.remove('dark-mode');
-    localStorage.setItem('darkMode', 'disabled');
-  }
+// Event listener for dark mode toggle buttons
+document.querySelectorAll('.dark-mode-toggle').forEach(function (button) {
+  button.addEventListener('click', function () {
+    var darkModeEnabled = !document.body.classList.contains('dark-mode');
+
+    if (darkModeEnabled) {
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
 });

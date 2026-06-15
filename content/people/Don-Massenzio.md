@@ -9,6 +9,7 @@ featured_image_attr:
 featured_image_attr_link: 
 roles:
   - Actor
+  - Assistant Director
   - Musical Director
 socials:
   facebook: dmassenzio

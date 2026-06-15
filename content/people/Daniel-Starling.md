@@ -11,6 +11,12 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Assistant Director
+  - Scenic Designer
+  - Technical Director
+  - Musician
+  - Carpenter
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

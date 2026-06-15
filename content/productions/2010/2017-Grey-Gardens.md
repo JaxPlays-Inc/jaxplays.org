@@ -68,7 +68,12 @@ genres:
   - Drama
 description: "Discover the haunting and poignant world of *Grey Gardens*, where glamour and squalor coexist in the lives of Edith Bouvier Beale and her daughter, 'Little Edie.'"
 reviews:
-- "Brighten Your Day With “GREY GARDENS” at Theatre Jacksonville | EU Jacksonville / Folio Weekly": https://folioweekly.com/staging/2017/11/08/grey-gardens/
+- title: Brighten Your Day With “GREY GARDENS” at Theatre Jacksonville
+  uri: https://folioweekly.com/staging/2017/11/08/grey-gardens/
+  outlet: EU Jacksonville / Folio Weekly
+  description: ''
+  featured_image: ''
+
 ---
 *Grey Gardens* delves into the eccentric and reclusive lives of Edith Bouvier Beale and her daughter, Edie, once aristocrats of East Hampton society, now living in a dilapidated mansion. Spanning from the 1940s to the 1970s, the musical contrasts their past grandeur with their later years of isolation and decay. Through captivating songs and emotionally charged performances, the narrative explores themes of dependency, social decline and the complex dynamics of mother-daughter relationships.
 

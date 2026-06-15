@@ -1,10 +1,8 @@
 ---
 title: WJCT to Screen National Theatre's Acclaimed Hit 'The Motive and the Cue'
 date: 2025-03-13T14:48:36-04:00
-featured_image: /media/photos/film_at_wjct_studios-the_motive_and_the_cue-event_image_960x480-1.webp
-featured_image_attr: 
-featured_image_caption: 
-featured_image_alt: 
+featured_image:
+  src: /media/photos/film_at_wjct_studios-the_motive_and_the_cue-event_image_960x480-1.webp
 authors: 
 - JaxPlays
 description:

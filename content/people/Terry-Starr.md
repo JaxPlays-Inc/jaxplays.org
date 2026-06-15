@@ -14,6 +14,7 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Choreographer
 socials:
   facebook: terry.starr.239834
   twitter: 

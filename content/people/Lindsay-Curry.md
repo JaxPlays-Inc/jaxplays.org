@@ -8,6 +8,9 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Costume Designer
+  - Costuming
+  - Property Master
 socials:
   facebook: 
   twitter: 

@@ -6,6 +6,12 @@ featured_image_attr:
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+roles:
+  - Audio Technician
+  - Lighting Technician
+  - Carpenter
+  - Stage Crew
+  - Painter
 socials:
   facebook: 
   twitter: 

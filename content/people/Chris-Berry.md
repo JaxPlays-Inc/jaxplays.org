@@ -15,4 +15,4 @@ socials:
   imdb:
   website:
 ---
-A biomedical engineer by trade, Chris has performed professionally in Greenville, SC during his studies at Clemson University. In Jacksonville, you may have seen him in (much less acrobatic) shows like [[production:2023 Murder Ballad|Murder Ballad]], [[production:2022 Bonnie & Clyde|Bonnie & Clyde]], The Toxic Avenger, Violet, and The Wild Party. Much love to his incredible wife Joanna and baby Emerson. Thank you for letting Dad play and be silly with others.
+A biomedical engineer by trade, Chris has performed professionally in Greenville, SC during his studies at Clemson University. In Jacksonville, you may have seen him in (much less acrobatic) shows like [[production:2023 Murder Ballad|Murder Ballad]], [[production:2022 Bonnie and Clyde|Bonnie & Clyde]], The Toxic Avenger, Violet, and The Wild Party. Much love to his incredible wife Joanna and baby Emerson. Thank you for letting Dad play and be silly with others.

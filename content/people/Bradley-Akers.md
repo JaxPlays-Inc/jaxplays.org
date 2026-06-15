@@ -8,6 +8,8 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Scenic Designer
+  - Lighting Designer
 socials:
   facebook: 
   twitter: 

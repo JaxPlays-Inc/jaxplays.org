@@ -1,0 +1,28 @@
+name: Check generated data
+
+on:
+  pull_request:
+    paths:
+      - "content/**"
+      - "data/generated/**"
+      - "scripts/build_people_credit_index.py"
+      - ".github/workflows/generated-data.yml"
+      - "scripts/check_generated_data.sh"
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python dependencies
+        run: python3 -m pip install --user PyYAML
+
+      - name: Check generated data
+        run: scripts/check_generated_data.sh

@@ -1,40 +1,43 @@
 ---
 title: "A Whimsical Whodunit: 'The Mystery of Edwin Drood' Delights at the Alhambra"
 date: 2025-10-11T13:46:57-04:00
-featured_image: /media/photos/2025-The-Mystery-of-Edwin-Drood-01.webp
-featured_image_attr: Alhambra Theatre & Dining
-featured_image_caption: "The cast and orchestra of 'The Mystery of Edwin Drood'."
-featured_image_alt: 
-authors: 
+featured_image:
+  src: /media/photos/2025-The-Mystery-of-Edwin-Drood-01.webp
+  caption: "The cast and orchestra of 'The Mystery of Edwin Drood'."
+  credit:
+    name: Alhambra Theatre & Dining
+  size: content
+authors:
 - Ray Hollister
 show_reading_time: true
 production: 2025 The Mystery of Edwin Drood
 theatre: Alhambra Theatre & Dining
-cast:
-- Alec Hadden
-- Justin Murphy
-- Torie D’Alessandro
-- Ellen Shaw
-- Patti Eyler
-- Megan Soledad
-- Anthony Llerandi
-- David Diehl
-- Noah Ruis
-- Pete Clapsis
-- Landon Amburgey
-- Jen Brooks
-- Samantha Pohly
-- Kathy Sanders
-- Shain Stroff
-- Cathy Murphy Giddens
-- Dave Dionne
-- Michael Roddy
-- Camala Pitts
-- Dorinda Quiles
-- GoldenStage Productions
+featuring:
+  - Alec Hadden
+  - Justin Murphy
+  - Torie D’Alessandro
+  - Ellen Shaw
+  - Patti Eyler
+  - Megan Soledad
+  - Anthony Llerandi
+  - David Diehl
+  - Noah Ruis
+  - Pete Clapsis
+  - Landon Amburgey
+  - Jen Brooks
+  - Samantha Pohly
+  - Kathy Sanders
+  - Shain Stroff
+  - Cathy Murphy Giddens
+  - Dave Dionne
+  - Michael Roddy
+  - Camala Pitts
+  - Dorinda Quiles
+  - GoldenStage Productions
 description: "The Alhambra Theatre’s The Mystery of Edwin Drood delivers a riotous, interactive night of music, laughter and mystery as audiences help decide the ending in this clever, metatheatrical romp."
 ---
-The [[theatre:Alhambra Theatre & Dining]]’s production of [[production:2025 The Mystery of Edwin Drood]] begins not with a curtain rise but with a delightful invasion of the audience’s reality. Performers spill into the aisles, chatting, jesting and instructing patrons on how the evening’s intrigue will unfold. It’s instantly clear that this isn’t a typical musical but a metatheatrical romp that knows it’s a show within a show. The conceit is that we’re watching a Victorian music hall troupe perform the unfinished Dickens tale, and the fourth wall is more suggestion than structure.<!--more-->
+
+The [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]]’s production of [[production:2025 The Mystery of Edwin Drood]] begins not with a curtain rise but with a delightful invasion of the audience’s reality. Performers spill into the aisles, chatting, jesting and instructing patrons on how the evening’s intrigue will unfold. It’s instantly clear that this isn’t a typical musical but a metatheatrical romp that knows it’s a show within a show. The conceit is that we’re watching a Victorian music hall troupe perform the unfinished Dickens tale, and the fourth wall is more suggestion than structure.<!--more-->
 
 At the helm of this merry chaos is [[person:Alec Hadden]], whose performance as the Chairman (and Mayor Thomas Sapsea) is nothing short of sensational. Hadden commands the room with boisterous charm and razor-sharp comedic timing, embodying both the showman’s swagger and the exasperated emcee keeping his motley company in line. His improvised banter and effortless rapport with the audience keep the laughter rolling and the pacing crisp throughout the night.
 

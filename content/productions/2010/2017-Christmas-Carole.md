@@ -1,7 +1,7 @@
 ---
 title: Christmas Carole
 theatre: Alhambra Theatre & Dining
-venue: Alhambra Theatre
+venue: Alhambra Theatre & Dining
 season: 2017
 date: 2024-08-05T16:54:50-04:00
 opening_date: 2017-11-22

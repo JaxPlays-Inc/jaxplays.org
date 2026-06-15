@@ -107,7 +107,12 @@ understudies:
 crew:
 orchestra:
 reviews:
-- "A Super MAMMA MIA! Troupe Downtown | Folio Weekly": https://folioweekly.com/2025/01/08/a-super-mamma-mia-troupe-downtown/
+- title: A Super MAMMA MIA! Troupe Downtown
+  uri: https://folioweekly.com/2025/01/08/a-super-mamma-mia-troupe-downtown/
+  outlet: Folio Weekly
+  description: ''
+  featured_image: ''
+
 ---
 
 {{< youtube 0N6_52JXA2o >}}

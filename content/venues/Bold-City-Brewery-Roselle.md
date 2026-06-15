@@ -1,7 +1,7 @@
 ---
 title: Bold City Brewery - Roselle
-date: 2024-06-12T18:46:30-04:00
-active: true
+date: 2026-06-09T23:36:16-04:00
+active: false
 featured_image: Bold-City-Brewery.webp
 featured_image_attr: 
 featured_image_alt: 

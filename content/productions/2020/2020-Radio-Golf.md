@@ -69,7 +69,11 @@ crew:
   - Karen Lahey
   - Jodi Moore
 reviews:
-- "Radio Golf at ABET | The Buzz": https://iwantabuzz.com/community/radio-golf-at-abet-2/
+- title: Radio Golf at ABET
+  uri: https://iwantabuzz.com/community/radio-golf-at-abet-2/
+  outlet: The Buzz
+  description: ''
+  featured_image: ''
 press:
 - "Photo Flash: ABET Presents August Wilson's RADIO GOLF | Broadway World": https://www.broadwayworld.com/jacksonville/article/Photo-Flash-ABET-Presents-August-Wilsons-RADIO-GOLF-20200128
 ---

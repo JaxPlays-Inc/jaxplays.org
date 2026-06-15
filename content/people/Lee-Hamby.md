@@ -12,6 +12,12 @@ headshot_gallery:
 roles:
   - Actor
   - Director
+  - Hair and Wig Designer
+  - Make-up Artist
+  - Audio Technician
+  - Costuming
+  - Property Master
+  - Stage Crew
 socials: 
   twitter: leehamby
   instagram: leehambyproductions

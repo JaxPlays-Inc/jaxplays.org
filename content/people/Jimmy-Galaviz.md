@@ -9,6 +9,7 @@ featured_image_caption:
 roles:
   - Actor
   - Director
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

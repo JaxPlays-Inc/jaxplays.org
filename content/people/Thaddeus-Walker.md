@@ -10,6 +10,9 @@ featured_image_attr:
 featured_image_attr_link: 
 roles:
   - Actor
+  - Fight Choreographer
+  - Assistant Stage Manager
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

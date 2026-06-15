@@ -2,23 +2,26 @@
 title: "'Dracula: A Comedy of Terrors' Slays the Stage with Laughs and Bites at Theatre Jacksonville"
 subtitle: Grab a Torch, we’re going vampire hunting!
 date: 2025-04-19T16:42:56-04:00
-featured_image: /media/photos/2025-Dracula-A-Comedy-of-Terrors-01.webp
-featured_image_attr: Theatre Jacksonville
-featured_image_alt: "Rachel Johns as Mina sprawled upside down off a chaise lounge, her red curls cascading to the floor in a dramatic moment from 'Dracula: A Comedy of Terrors.'"
-featured_image_caption: "Rachel Johns as Mina lounges upside down with theatrical flair in Theatre Jacksonville's production of *Dracula: A Comedy of Terrors*."
-authors: 
+featured_image:
+  src: /media/photos/2025-Dracula-A-Comedy-of-Terrors-01.webp
+  alt: "Rachel Johns as Mina sprawled upside down off a chaise lounge, her red curls cascading to the floor in a dramatic moment from 'Dracula: A Comedy of Terrors.'"
+  caption: "Rachel Johns as Mina lounges upside down with theatrical flair in Theatre Jacksonville's production of *Dracula: A Comedy of Terrors*."
+  credit:
+    name: Theatre Jacksonville
+authors:
 - Jo El Snyder
 production: "2025 Dracula A Comedy of Terrors"
 theatre: Theatre Jacksonville
-cast: 
-- Christopher Watson
-- Emily Johns
-- Katie Johnston
-- Rachel Johns
-- Jordan Born
+featuring:
+  - Christopher Watson
+  - Emily Johns
+  - Katie Johnston
+  - Rachel Johns
+  - Jordan Born
 description: "Expect puppets, puns and perfectly timed scares in this giddy, gothic thrill ride packed with sharp wit, bold performances and a bite of romance."
 show_reading_time: true
 ---
+
 I was spellbound the moment I heard that [[theatre:Theatre Jacksonville]] was performing [[production:2025 Dracula: A Comedy of Terrors]], and was drawn to opening night in a slow, hypnotic trance.<!--more-->
 
 As a passionate fan of *[[w:What We Do in the Shadows (TV series)|What We Do in the Shadows]]* and *[[w:Renfield_(film)|Renfield]]*, I find that Theatre Jacksonville does not disappoint with its laugh-a-minute, “loosely based on the novel Dracula” production. I shouldn’t be surprised — Theatre Jacksonville has long maintained an excellent reputation for its comedic Shakespearean plays. *Dracula: A Comedy of Terrors* is the latest feather in its cap… or wooden stake in its belt.

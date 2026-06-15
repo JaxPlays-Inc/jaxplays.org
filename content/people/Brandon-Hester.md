@@ -8,6 +8,10 @@ featured_image_alt:
 featured_image_caption: 
 roles:
   - Actor
+  - Technical Director
+  - Musician
+  - Carpenter
+  - Stage Crew
 socials:
   facebook: 
   twitter: 

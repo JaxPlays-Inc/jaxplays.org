@@ -1,7 +1,7 @@
 ---
 title: The Foundation Academy Theater
-date: 2025-08-04T22:05:24-04:00
-active: true
+date: 2026-06-09T23:36:16-04:00
+active: false
 featured_image: 
 featured_image_attr: 
 featured_image_alt: 

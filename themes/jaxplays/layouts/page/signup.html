@@ -1,11 +1,186 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw8">
-      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-        {{ .Content }} 
-        {{- partial "newsletter.html" . -}}
-      </div>
-    </article>
+  <style>
+    .signup-page {
+      --jp-ink: #171717;
+      --jp-muted: #5f6670;
+      --jp-line: #d7d2c8;
+      --jp-paper: #f4f4f4;
+      --jp-cream: #f6f0e3;
+      --jp-gold: #ffd600;
+      --jp-red: #b7332f;
+      --jp-teal: #18736b;
+      --jp-blue: #28466f;
+      background: var(--jp-paper);
+      color: var(--jp-ink);
+    }
+
+    .signup-page-shell {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 1rem;
+    }
+
+    .signup-page-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, .82fr);
+      gap: 1.25rem;
+      align-items: start;
+      border-bottom: 1px solid var(--jp-line);
+      padding-bottom: 1.5rem;
+    }
+
+    .signup-page-copy > p:first-child {
+      color: var(--jp-red);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin: 0 0 .5rem;
+      text-transform: uppercase;
+    }
+
+    .signup-page-copy h1 {
+      font-size: clamp(2.25rem, 7vw, 5.25rem);
+      line-height: 1;
+      margin: 0;
+    }
+
+    .signup-page-copy h1 + p {
+      color: var(--jp-muted);
+      font-size: 1.05rem;
+      line-height: 1.5;
+      max-width: 42rem;
+      margin: 1rem 0 1.35rem;
+    }
+
+    .signup-page-copy ul {
+      display: grid;
+      gap: .65rem;
+      margin: 1.5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .signup-page-copy li {
+      border-top: 1px solid var(--jp-line);
+      color: var(--jp-muted);
+      line-height: 1.4;
+      padding-top: .65rem;
+    }
+
+    .signup-page .home-dashboard-newsletter {
+      background: white;
+      border: 1px solid var(--jp-line);
+      border-radius: 0;
+      padding: 1rem;
+    }
+
+    .signup-page .home-dashboard-panel-title {
+      margin: 0 0 .75rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+
+    .signup-page .home-dashboard-meta {
+      color: var(--jp-muted);
+      display: block;
+      font-size: .9rem;
+      line-height: 1.4;
+      margin: .25rem 0 0;
+    }
+
+    .signup-page .home-dashboard-newsletter form {
+      display: grid;
+      gap: .75rem;
+      margin-top: .75rem;
+    }
+
+    .signup-page .home-dashboard-newsletter-fields {
+      display: flex;
+    }
+
+    .signup-page .home-dashboard-newsletter input[type="email"] {
+      border: 1px solid var(--jp-line);
+      border-radius: 0;
+      flex: 1;
+      min-width: 0;
+      padding: .75rem;
+    }
+
+    .signup-page .home-dashboard-newsletter button {
+      background: var(--jp-gold);
+      border: 1px solid var(--jp-ink);
+      border-left: 1px solid var(--jp-ink);
+      border-radius: 0;
+      cursor: pointer;
+      font-weight: 900;
+      padding: .75rem .9rem;
+    }
+
+    .signup-page .home-dashboard-newsletter button:disabled {
+      cursor: wait;
+      opacity: .68;
+    }
+
+    .signup-page .home-dashboard-newsletter-honeypot {
+      position: absolute;
+      left: -9999px;
+    }
+
+    .signup-page .home-dashboard-newsletter-status {
+      font-size: .9rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin: 0;
+      min-height: 1.25rem;
+    }
+
+    .signup-page .home-dashboard-newsletter-status[data-state="success"] {
+      color: var(--jp-teal);
+    }
+
+    .signup-page .home-dashboard-newsletter-status[data-state="error"] {
+      color: var(--jp-red);
+    }
+
+    @media screen and (max-width: 760px) {
+      .signup-page-shell {
+        padding: 1.25rem 1rem 3rem;
+      }
+
+      .signup-page-hero {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media screen and (max-width: 520px) {
+      .signup-page .home-dashboard-newsletter-fields {
+        display: grid;
+        gap: .5rem;
+      }
+
+      .signup-page .home-dashboard-newsletter input[type="email"],
+      .signup-page .home-dashboard-newsletter button {
+        border: 1px solid var(--jp-ink);
+        border-radius: 0;
+        width: 100%;
+      }
+    }
+  </style>
+
+  <div class="signup-page">
+    <div class="signup-page-shell">
+      <section class="signup-page-hero" aria-label="JaxPlays Spotlight signup">
+        <div class="signup-page-copy">
+          {{ .Content }}
+        </div>
+
+        <div class="home-dashboard-newsletter">
+          <h2 class="home-dashboard-panel-title">Sign Up for JaxPlays Spotlight</h2>
+          <p class="home-dashboard-meta">One email a week. No curtain speech.</p>
+          {{ partial "newsletter-signup-form.html" (dict "tags" "Sign Up Page") }}
+        </div>
+      </section>
+    </div>
   </div>
 {{ end }}

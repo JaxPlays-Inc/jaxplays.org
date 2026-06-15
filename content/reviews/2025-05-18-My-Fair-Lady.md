@@ -1,28 +1,31 @@
 ---
 title: "'My Fair Lady' at Alhambra Theatre Dazzles with Charm and Impeccable Talent"
 date: 2025-05-18T14:43:38-04:00
-featured_image: /media/photos/2025-My-Fair-Lady-01.webp
-featured_image_attr: "Mary Roesler"
-featured_image_alt: "A group of women in Edwardian street clothes leap with arms raised in front of the Royal Opera House set during a lively ensemble number in 'My Fair Lady.'"
-featured_image_caption: "The ensemble lights up the stage with high-energy choreography and vibrant Edwardian costumes in *My Fair Lady* at Alhambra Theatre & Dining."
-authors: 
+featured_image:
+  src: /media/photos/2025-My-Fair-Lady-01.webp
+  alt: "A group of women in Edwardian street clothes leap with arms raised in front of the Royal Opera House set during a lively ensemble number in 'My Fair Lady.'"
+  caption: "The ensemble lights up the stage with high-energy choreography and vibrant Edwardian costumes in *My Fair Lady* at Alhambra Theatre & Dining."
+  credit:
+    name: "Mary Roesler"
+authors:
 - Sara Orr
 show_reading_time: true
 production: 2025 My Fair Lady
 theatre: Alhambra Theatre & Dining
-cast: 
-- Sofia Smith
-- Gary Lee Webber
-- Andy Moritz
-- Alexander Blanco
-- Pete Clapsis
-- Tod Booth
-- Erick Ariel Sureda
-- Camala Pitts
-- Dorinda Quiles
+featuring:
+  - Sofia Smith
+  - Gary Lee Webber
+  - Andy Moritz
+  - Alexander Blanco
+  - Pete Clapsis
+  - Tod Booth
+  - Erick Ariel Sureda
+  - Camala Pitts
+  - Dorinda Quiles
 description: "Jacksonville’s Alhambra Theatre delivers a dazzling 'My Fair Lady' production with top-notch vocals, elegant costumes and unforgettable musical theater magic."
 ---
-[[production: 2025 My Fair Lady]], a beloved staple of golden age musical theater, tells the story of Eliza Doolittle, a Cockney flower girl who meets a pompous phonetics professor and undergoes a dramatic transformation under his hand. Professor Higgins makes a bet that, after his schooling, he could pass her off as a proper lady at a high-society event by simply teaching her to speak proper English. However, during his tenure as her teacher, those involved with the bet are forced to question their ideas of class, identity and societal expectations. The [[theatre:Alhambra Theatre & Dining]]’s *My Fair Lady* does complete justice to this classic, with an immensely talented cast, great costume design, energetic choreography, impeccable dialect work and gorgeous vocals.
+
+[[production: 2025 My Fair Lady]], a beloved staple of golden age musical theater, tells the story of Eliza Doolittle, a Cockney flower girl who meets a pompous phonetics professor and undergoes a dramatic transformation under his hand. Professor Higgins makes a bet that, after his schooling, he could pass her off as a proper lady at a high-society event by simply teaching her to speak proper English. However, during his tenure as her teacher, those involved with the bet are forced to question their ideas of class, identity and societal expectations. The [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]]’s *My Fair Lady* does complete justice to this classic, with an immensely talented cast, great costume design, energetic choreography, impeccable dialect work and gorgeous vocals.
 
 In the role of Eliza Doolittle, [[person:Sofia Smith]] delivers a triumph of a performance. With a crystal-clear voice and a soaring musical theatre mix, her Eliza is a ball of energy. Some of her standout songs include “The Rain in Spain,” “Just You Wait” and “I Could Have Danced All Night.” With a role like Eliza, where dialect is such an integral and complicated part of her character — Smith performs it with ease. Her animated inflections command the stage and keep the energy soaring through the entire show.
 
