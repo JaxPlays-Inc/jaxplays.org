@@ -15,11 +15,14 @@ python3 scripts/build_people_credit_index.py
 # Local development server
 hugo server
 
-# Production build
-HUGO_ENV=production hugo --minify
+# Production build; regenerates data/generated before Hugo runs
+HUGO_ENV=production scripts/build_site.sh --minify
 
 # Production build with specific base URL (used in CI)
-HUGO_ENV=production hugo --minify --baseURL "https://jaxplays.org/"
+HUGO_ENV=production scripts/build_site.sh --minify --baseURL "https://jaxplays.org/"
+
+# Verify committed generated data is current
+scripts/check_generated_data.sh
 ```
 
 ## Content Structure
@@ -41,8 +44,7 @@ Production credit name links render from `data/generated/people_lookup.json`.
 Production directory cards and search data render from `data/generated/production_cards.json`.
 Theatre profile production lists render from `data/generated/theatre_productions.json`.
 Venue profile production lists render from `data/generated/venue_productions.json`.
-Regenerate it with `python3 scripts/build_people_credit_index.py` after editing
-production credits, production metadata, theatre or venue names/aliases, people names, aliases, or show poster fallbacks.
+Production builds run `scripts/build_site.sh`, which regenerates this data before Hugo runs. For review safety, run `scripts/check_generated_data.sh` after editing production credits, production metadata, theatre or venue names/aliases, people names, aliases, reviews, or show poster fallbacks; it fails if the committed `data/generated` files are stale.
 
 ### Front Matter Conventions
 
