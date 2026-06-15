@@ -9,6 +9,7 @@ roles:
   - Director
   - Musical Director
   - Choreographer
+  - Costume Designer
   - Stage Manager
   - Painter
 socials:

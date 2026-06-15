@@ -10,7 +10,9 @@ headshot_gallery:
   - image: Emily-Layt.webp
 roles:
   - Actor
+  - Assistant Director
   - Dramaturg
+  - Intimacy Director
 socials:
   facebook: emily.l.layt
   twitter: 

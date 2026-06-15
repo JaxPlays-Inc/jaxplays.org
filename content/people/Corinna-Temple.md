@@ -8,6 +8,7 @@ featured_image_alt: Headshot of Corinna Temple
 featured_image_caption: Corinna Temple in the cast announcement for *Dear Evan Hansen* at Orange Park Community Theatre.
 roles:
   - Actor
+  - Property Master
 socials:
   facebook:
   twitter:

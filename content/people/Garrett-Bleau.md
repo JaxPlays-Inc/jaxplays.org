@@ -8,6 +8,8 @@ featured_image_alt: Headshot of Garrett Bleau
 featured_image_caption: Garrett Bleau in the cast announcement for *Dear Evan Hansen* at Orange Park Community Theatre.
 roles:
   - Actor
+  - Musical Director
+  - Technical Director
 socials:
   facebook:
   twitter:

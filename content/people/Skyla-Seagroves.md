@@ -8,6 +8,8 @@ featured_image_alt: Headshot of Skyla Seagroves
 featured_image_caption: Skyla Seagroves in the cast announcement for *Dear Evan Hansen* at Orange Park Community Theatre.
 roles:
   - Actor
+  - Director
+  - Musical Director
 socials:
   facebook:
   twitter:

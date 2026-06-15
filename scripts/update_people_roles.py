@@ -51,6 +51,7 @@ ROLE_CREDIT_MAP = {
     "assistant-choreographer": ("Choreographer",),
     "assistant-costume-designer": ("Costume Designer",),
     "assistant-director": ("Assistant Director",),
+    "assistant-director-intimacy-director": ("Assistant Director", "Intimacy Director"),
     "assistant-director-stage-manager": ("Assistant Director", "Stage Manager"),
     "assistant-lighting-design": ("Lighting Designer",),
     "assistant-lighting-designer": ("Lighting Designer",),
@@ -104,6 +105,7 @@ ROLE_CREDIT_MAP = {
     "fight-choreography": ("Fight Choreographer",),
     "fight-coordinator": ("Fight Choreographer",),
     "fight-director": ("Fight Choreographer",),
+    "fight-director-bed-intimacy-choreography": ("Fight Choreographer", "Intimacy Director"),
     "fly-crew": ("Stage Crew",),
     "follow-spot": ("Lighting Technician",),
     "follow-spot-operator": ("Lighting Technician",),
@@ -272,6 +274,7 @@ ROLE_CREDIT_MAP = {
     "wardrobe-supervisor": ("Costuming",),
     "wig-design": ("Hair and Wig Designer",),
     "wig-stylist": ("Hair and Wig Designer",),
+    "violence-and-intimacy-designer": ("Fight Choreographer", "Intimacy Director"),
     "writer": ("Playwright",),
     "written-by": ("Playwright",),
 }
