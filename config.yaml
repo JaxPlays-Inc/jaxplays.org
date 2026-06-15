@@ -56,10 +56,10 @@ menu:
     parent: Home
     pageRef: /about
     weight: 11
-  - name: Jobs
-    parent: Home
-    pageRef: /about/jobs
-    weight: 12
+  # - name: Jobs
+  #   parent: Home
+  #   pageRef: /about/jobs
+  #   weight: 12
   - name: Financial Support
     parent: Home
     pageRef: /about/financial-support
@@ -68,9 +68,25 @@ menu:
     parent: Home
     pageRef: /about/brand-guidelines
     weight: 14
-  - name: Calendar
-    pageRef: /calendar
+  - name: Read
+    pageRef: /news
     weight: 20
+  - name: News
+    parent: Read
+    pageRef: /news
+    weight: 21
+  - name: Reviews
+    parent: Read
+    pageRef: /reviews
+    weight: 22
+  - name: Auditions
+    parent: Read
+    pageRef: /auditions
+    weight: 23
+  - name: Calendar
+    parent: Shows
+    pageRef: /calendar
+    weight: 30
   - name: Shows
     pageRef: /productions
     weight: 30
@@ -86,39 +102,43 @@ menu:
     parent: Shows
     pageRef: /productions/past/
     weight: 33
-  - name: Look Up
+  - name: Explore
     pageRef: /lookup
     weight: 40
   - name: People
-    parent: Look Up
+    parent: Explore
     pageRef: /people
     weight: 41
   - name: Theatres
-    parent: Look Up
+    parent: Explore
     pageRef: /theatres
     weight: 42
   - name: Venues
-    parent: Look Up
+    parent: Explore
     pageRef: /venues
     weight: 43
   - name: Subscribe
     pageRef: /signup
     weight: 50
-  - name: Submit
+  - name: Apply
     pageRef: /submit
     weight: 60
-  - name: Submit your Profile
-    parent: Submit
+  - name: Artist Profile
+    parent: Apply
     pageRef: /submit/profile
     weight: 61
-  - name: Submit your Production
-    parent: Submit
+  - name: Production Listing
+    parent: Apply
     pageRef: /submit/production
     weight: 62
-  - name: Submit your Theatre
-    parent: Submit
+  - name: Theatre Listing
+    parent: Apply
     pageRef: /submit/theatre
     weight: 63
+  - name: Audition Announcement
+    parent: Apply
+    pageRef: /submit/audition
+    weight: 64
   - name: Donate
     pageRef: /support
     weight: 70
