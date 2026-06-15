@@ -205,7 +205,7 @@
             {{ end }}
             {{ $showtime := time $showtimeDateTime }}
             {{ $daysSinceMonday := index $weekdayOffsets ($showtime.Format "Monday") }}
-            {{ $weekStart := $showtime.AddDate 0 0 (mul -1 $daysSinceMonday) }}
+            {{ $weekStart := $showtime.AddDate 0 0 (int (mul -1 $daysSinceMonday)) }}
             {{ $weekKey := $weekStart.Format "2006-01-02" }}
             {{ if ne $weekKey $currentWeek }}
             {{ if $currentWeek }}
