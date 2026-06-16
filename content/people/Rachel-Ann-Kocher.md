@@ -1,6 +1,10 @@
 ---
 title: Rachel Ann Kocher
-date: 2025-04-06T17:38:21-04:00
+aliases:
+  - /people/Rachel-Kocher/
+other_names:
+  - Rachel Kocher
+date: 2026-06-15T21:10:36-04:00
 featured_image: Rachel-Ann-Kocher.webp
 featured_image_attr: 
 featured_image_attr_link: 
