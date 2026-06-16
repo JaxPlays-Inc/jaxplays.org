@@ -1,12 +1,12 @@
 ---
 title: "Terms of Service for Corporate Underwriting on JaxPlays"
 description: Support JaxPlays - Your guide to live theatre in Jacksonville, Florida, Northeast Florida and Southeast Georgia.
-date: 2025-05-05T12:56:34-04:00
+date: 2026-06-12T12:46:15-04:00
 
 ---
-Effective Date: September 8, 2023
+Effective Date: June 12, 2026
 
-By purchasing corporate underwriting placements on JaxPlays.org, you (“Underwriter”) agree to the following terms and conditions (“Terms of Service”). These Terms govern your participation in underwriting opportunities on our website and email newsletter.
+By purchasing corporate underwriting placements from JaxPlays, Inc, you (“Underwriter”) agree to the following terms and conditions (“Terms of Service”). These Terms govern your participation in underwriting opportunities on our website and email newsletter.
 
 ### 1. **Available Inventory & Rates**
 
@@ -15,21 +15,25 @@ By purchasing corporate underwriting placements on JaxPlays.org, you (“Underwr
     -   Desktop: 970px x 250px image or GIF
     -   Mobile: 300px x 250px image or GIF
     -   Positioned at the top of every page
-    -   **Rate:** $100/month
+    -   **Rate:** $200/month
         
 -   **Sidebar Banners**
     -   Two ad units: 300x x 250x image or GIF
     -   Positioned on left and right sides of desktop, embedded on mobile
-    -   **Rate:** $75 each/month
+    -   **Rate:** $125 each/month
 
 -   **Full Website Takeover**
     -   Includes Leaderboard + both Sidebar Banners    
-    -   **Rate:** $225/month ($25 discount)
+    -   **Rate:** $700/month
         
 -   **Newsletter Sponsorship**
     -   Image up to 550px x 300px, up to 600 characters of text, call-to-action button
-    -   **Rate:** $50/issue or $180/month (based on 4 issues)
-        
+    -   **Rate:** $100/issue or $350/month (based on 4 issues)
+
+-   **Advertorial**
+    -   One sponsored advertorial article on JaxPlays promoting the Underwriter's organization, production, event or campaign, written or published as sponsored content and hosted indefinitely on jaxplays.org.
+    -   Includes homepage feature placement for one month from publication and inclusion of agreed links, context and promotional information supplied by the Underwriter.
+    -   **Rate:** $600/article
 
 All placements are billed in advance of publication. Discounts, if applicable, are reflected at the time of invoice.
 
@@ -39,6 +43,7 @@ All placements are billed in advance of publication. Discounts, if applicable, a
 -   Static images (JPG, PNG) or animated GIFs accepted.
 -   Ads must be visually clear, professional in tone and non-disruptive.
 -   All copy and creative are subject to approval. JaxPlays reserves the right to reject any underwriting content that is misleading, offensive or misaligned with our mission.
+-   Advertorial content is subject to JaxPlays review and editorial approval. JaxPlays reserves the right to edit or refuse sponsored content, with any requested edits made in communication with the Underwriter. If mutually acceptable content cannot be agreed upon, the fee for the advertorial will be refunded.
 
 ### 3. **Submission Deadlines**
 
@@ -58,6 +63,8 @@ Underwriters are responsible for the accuracy of all submitted materials. JaxPla
 ### 6. **Non-Endorsement Clause**
 
 Placement of underwriting content does not constitute an endorsement by JaxPlays. All content is clearly labeled as underwriting to distinguish it from editorial material.
+
+Payment for an advertorial covers sponsored content only and does not affect JaxPlays' independent editorial coverage.
 
 ### 7. **Cancellation Policy**
 

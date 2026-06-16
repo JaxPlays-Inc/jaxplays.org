@@ -1,11 +1,17 @@
 ---
 title: Chad Boyd
-date: 2024-09-09T21:19:52-04:00
-featured_image: Chad-Boyd.webp
+date: 2026-06-15T22:31:01-04:00
+featured_image: Chad-Boyd-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Chad-Boyd.webp
+    image_attr: 
+    image_attr_link: 
+    image_alt: 
+    image_caption: 
 roles:
   - Actor
   - Property Master
@@ -19,4 +25,4 @@ socials:
   imdb:
   website:
 ---
-Chad Boyd's past productions include Man #1 in *First Date*, Nick Cristano in *Over The River And Through The Woods*, Will Bloom in *Big Fish* and Frankie Epps in *Parade*. He is a proud graduate of the Florida School of the Arts, where he earned his Associate Degree in Musical Theatre. Chad would like to thank his friends, family and the community for their continued guidance, love and support! You can follow his future endeavors on Instagram [@chad__boyd](https://instagram.com/chad__boyd).
+Chad Boyd is a graduate of the Florida School of the Arts, where he earned his Associate Degree in Musical Theatre. He has worked frequently in Northeast Florida as an established actor, winning Best Performance for his role as Jamie Wellerstein in [[production:2024 The Last Five Years - In Concert|The Last Five Years]]. Some of his memorable past roles include Evan Hansen in [[production:2026 Dear Evan Hansen|Dear Evan Hansen]] at Players by the Sea, Billy Cane in [[production:2024 Bright Star|Bright Star]], Lamar in [[production:2026 Godspell|Godspell]] and Frankie Epps in [[production:2022 Parade|Parade]] at Limelight Theatre. Outside of theatre, Chad enjoys spending time with friends, writing music and creating art for his community. You can follow his future endeavors on Instagram [@chad__boyd](https://instagram.com/chad__boyd).
