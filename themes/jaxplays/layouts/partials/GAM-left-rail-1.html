@@ -17,7 +17,7 @@
     .left-rail {
       position: absolute;
       top: 0;
-      left: max(-345px, calc(512px - 50vw));
+      left: max({{ .left | default "-345px" }}, calc(512px - 50vw));
       width: 300px;
       margin: {{ .margin }};
     }
