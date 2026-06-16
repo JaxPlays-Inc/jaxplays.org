@@ -95,7 +95,7 @@ cast:
 - Wolf / Captain of the Guard: Jeremiah Burch
 - Witch: Isabel Ramos
 - "Pig #1 / Blind Mouse": Lisa Kidder Sandiford
-- Elf / Blind Mouse: Udan Bar
+- Elf / Blind Mouse: Idan Bar
 - Ugly Duckling / Teen Fiona / Blind Mouse: Kayleigh Johnson
 - Fairy Godmother: Lexi Hall
 - Mad Hatter / Papa Ogre / Bishop: Nick Cooper
@@ -139,9 +139,6 @@ crew:
   - Kaela Quiles
   - Theresa Harrell
   - Karen Grogan
-- Special Thanks:
-  - Colton Spurlock
-  - Episcopal School of Jacksonville
 orchestra: null
 understudies:
 - "Youth / Pig #2": Ivy Ayres
