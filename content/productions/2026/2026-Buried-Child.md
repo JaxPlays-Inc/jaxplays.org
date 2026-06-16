@@ -19,8 +19,6 @@ website: https://www.shepardfest.org/
 tickets: https://lightworks.ludus.com/index.php
 show_details:
   - Playwright: "[[w:Sam Shepard]]"
-  - Format: Full production
-  - Presented by: ShepardFest
 cast:
   - Dodge: Britt Corry
   - Halie: Andrea McCook
@@ -36,10 +34,10 @@ orchestra:
 genres:
   - Play
   - Drama
-description: ShepardFest presents Sam Shepard's Pulitzer Prize-winning Buried Child as a full production at The Waterworks in St. Augustine.
+description: A Pulitzer Prize-winning American classic, Sam Shepard’s *Buried Child* digs into the rot beneath the myth of the perfect family. 
 source: ShepardFest website and supplied poster
 source_url: https://www.shepardfest.org/
 ---
-ShepardFest presents Sam Shepard's Pulitzer Prize-winning *Buried Child* as a full production at The Waterworks in St. Augustine.
+In a decaying Illinois farmhouse, three generations collide over old wounds, buried truths, and the desperate need to deny what everyone already knows. Darkly funny, brutal, and haunting, Shepard’s masterpiece turns the American dream inside out and asks what happens when a family’s secrets refuse to stay underground.
 
-Performances are Friday, July 31 and Saturday, August 1, 2026, at 7 p.m., with a Sunday matinee on August 2 at 2 p.m. The production is directed by Mary Claire Branton.
+When Vince returns to his grandparents’ farmhouse with his girlfriend Shelly, he expects a homecoming. Instead, he finds a family fractured beyond recognition: an alcoholic grandfather, a fiercely guarded grandmother, two damaged uncles, and a house choking on silence. As Shelly pushes against the family’s strange evasions, long-buried truths begin to surface, exposing a legacy of violence, betrayal, and denial. Buried Child is a gripping, surreal family drama about inheritance, identity, and the devastating cost of refusing to face the past.
