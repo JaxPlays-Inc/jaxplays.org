@@ -39,11 +39,11 @@ cast:
   - The Baker's Wife: Chloe Coleman
   - The Witch: Angelica Parisen
   - Cinderella: Jo Fletcher
-  - Jack: Greg Schuknecht
+  - Jack: Caden Christel
   - Jack's Mother: Jeanne Wölti
   - Little Red: Emma Petrov
   - Cinderella's Prince / Wolf: E. Noah Perez
-  - Rapunzel's Prince: Caden Christel
+  - Rapunzel's Prince: Noah Cummings
   - Rapunzel: Helena Peterson
   - Children's Ensemble:
       - Bijou Aiuppy
