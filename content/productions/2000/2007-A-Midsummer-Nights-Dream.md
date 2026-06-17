@@ -1,8 +1,8 @@
 ---
 title: A Midsummer Night's Dream
-date: 2023-09-08T00:00:00
-opening_date: 2007-09-14
-closing_date: 2007-10-06
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2007-09-14'
+closing_date: '2007-10-06'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -41,7 +41,9 @@ crew:
   - Jeffery L. Wagoner
 - Assistant Technical Director: Daniel Owen Dungan
 - Lighting Board Operator: Jeffery L. Wagoner
-- Sound Board Operator: Tim Driscoll
+- Sound Board Operator:
+  - Tim Driscoll
+  - Tim
 - Graphic Design: Scott Taylor
 orchestra:
 ---

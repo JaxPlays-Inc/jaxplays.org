@@ -1,7 +1,7 @@
 ---
 title: The Intimate Strangers
-date: 2023-09-08T00:00:00
-opening_date: 1925-01-27
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1925-01-27'
 closing_date:
 layout: productions
 program:
@@ -25,6 +25,7 @@ crew:
   - Lawrence Perkins
   - Dick Grether
 - Props: Helen Mullikin
+- Staging and lighting: Dick Grether
 understudies:
 orchestra:
 ---

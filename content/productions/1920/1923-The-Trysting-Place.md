@@ -1,19 +1,19 @@
 ---
 title: The Trysting Place
-date: 2023-09-08T00:00:00
-opening_date: 1923-01-30
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1923-01-30'
 closing_date:
 layout: productions
 program:
 theatre: Theatre Jacksonville
 cast:
-- Bertha Snyder: Jessie Briggs
-- Charles W. Crooke, Jr.: Rupert Smith
-- Frank Stringfellow: Launcelot Briggs
-- Fred L. Mulliken: Mysterious Voice
-- Helen Mullikin: Mrs. Curtis
-- Mrs. C.A. Bisbee: Mrs. Briggs
-- Ted Silber: Mr. Ingoldsby
+- Jessie Briggs: Bertha Snyder
+- Rupert Smith: Charles W. Crooke, Jr.
+- Launcelot Briggs: Frank Stringfellow
+- Mysterious Voice: Fred L. Mulliken
+- Mrs. Curtis: Helen Mullikin
+- Mrs. Briggs: Mrs. C.A. Bisbee
+- Mr. Ingoldsby: Ted Silber
 crew:
 - Stage Decoration/Props:
   - Marion Adams
