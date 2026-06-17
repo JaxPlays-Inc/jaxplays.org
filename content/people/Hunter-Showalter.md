@@ -1,11 +1,13 @@
 ---
 title: Hunter Showalter
-date: 2026-06-02T00:31:02-04:00
+date: 2026-06-17T09:34:47-04:00
 featured_image: Hunter-Showalter.webp
 featured_image_attr:
 featured_image_attr_link:
 featured_image_alt:
 featured_image_caption:
+other_names:
+  - Hunter M. Showalter
 roles:
   - Actor
 socials:
@@ -18,4 +20,3 @@ socials:
   website:
   BackStage: hunter-mcdonald-showalter
 ---
-

@@ -1,19 +1,23 @@
 ---
 title: Zonnetta Marie
-date: 2024-10-19T20:04:00-04:00
-featured_image: Zonnetta-Marie.webp
-featured_image_attr: Jax Headshots
-featured_image_attr_link: https://www.jaxheadshots.co/ 
-featured_image_alt: 
-featured_image_caption: 
+date: 2026-06-17T09:36:30-04:00
+featured_image: Zonnetta-Marie-01.webp
+featured_image_attr:
+featured_image_attr_link:
+featured_image_alt:
+featured_image_caption:
+headshot_gallery:
+  - image: Zonnetta-Marie.webp
+    attr: Jax Headshots
+    attr_link: https://www.jaxheadshots.co/
 roles:
   - Actor
 socials:
-  facebook: 
-  twitter: 
-  instagram: 
-  linkedin: 
-  ibdb: 
+  facebook:
+  twitter:
+  instagram:
+  linkedin:
+  ibdb:
   imdb:
   website:
 ---
