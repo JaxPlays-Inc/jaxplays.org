@@ -45,37 +45,37 @@
 
 {{- $summary := $description | markdownify | plainify | truncate 220 -}}
 
-<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border:1px solid #d8d0bf;background:#ffffff;margin:0 0 18px 0;">
-  <tr>
-    <td width="128" valign="top" style="border-right:1px solid #d8d0bf;background:#ffffff;padding:0;">
-      <a href="{{ $page.Permalink }}" style="display:block;text-decoration:none;">
+<a href="{{ $page.Permalink }}" style="display:block;text-decoration:none;color:#171717;">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border:1px solid #d8d0bf;background:#ffffff;margin:0 0 18px 0;">
+    <tr>
+      <td width="128" valign="top" style="border-right:1px solid #d8d0bf;background:#ffffff;padding:0;">
         <img src="{{ $posterPath }}" width="128" alt="{{ $featuredImageAlt | plainify }}" style="display:block;width:128px;max-width:128px;height:auto;border:0;outline:none;text-decoration:none;">
-      </a>
-    </td>
-    <td valign="top" style="padding:14px 16px 15px 16px;font-family:Arial,Helvetica,sans-serif;color:#171717;">
-      <div style="margin:0 0 10px 0;">
-        {{- with $statusText -}}
-          <span style="display:inline-block;background:{{ $statusBackground }};color:#ffffff;font-size:11px;font-weight:bold;line-height:1;text-transform:uppercase;letter-spacing:0;padding:6px 8px;border-radius:999px;margin:0 6px 6px 0;">{{ . }}</span>
+      </td>
+      <td valign="top" style="padding:14px 16px 15px 16px;font-family:Arial,Helvetica,sans-serif;color:#171717;">
+        <div style="margin:0 0 10px 0;">
+          {{- with $statusText -}}
+            <span style="display:inline-block;background:{{ $statusBackground }};color:#ffffff;font-size:11px;font-weight:bold;line-height:1;text-transform:uppercase;letter-spacing:0;padding:6px 8px;border-radius:999px;margin:0 6px 6px 0;">{{ . }}</span>
+          {{- end -}}
+          {{- range first 3 $genres -}}
+            <span style="display:inline-block;background:#ffd600;color:#171717;font-size:11px;font-weight:bold;line-height:1;text-transform:uppercase;letter-spacing:0;text-decoration:none;padding:6px 8px;border-radius:999px;margin:0 6px 6px 0;">{{ . }}</span>
+          {{- end -}}
+        </div>
+        <h3 style="font-family:Arial,Helvetica,sans-serif;font-size:23px;line-height:1.08;margin:0 0 8px 0;color:#171717;">
+          {{ $page.Title }}
+        </h3>
+        {{- with $page.Params.theatre -}}
+          <div style="font-size:15px;line-height:1.35;font-weight:bold;color:#171717;margin:0;">{{ . }}</div>
         {{- end -}}
-        {{- range first 3 $genres -}}
-          <a href="{{ absURL (printf "/genres/%s" (. | urlize)) }}" style="display:inline-block;background:#ffd600;color:#171717;font-size:11px;font-weight:bold;line-height:1;text-transform:uppercase;letter-spacing:0;text-decoration:none;padding:6px 8px;border-radius:999px;margin:0 6px 6px 0;">{{ . }}</a>
+        {{- with $displayVenues -}}
+          <div style="font-size:14px;line-height:1.35;color:#5f5a51;margin:1px 0 0 0;">{{ delimit . " / " }}</div>
         {{- end -}}
-      </div>
-      <h3 style="font-family:Arial,Helvetica,sans-serif;font-size:23px;line-height:1.08;margin:0 0 8px 0;color:#171717;">
-        <a href="{{ $page.Permalink }}" style="color:#171717;text-decoration:none;">{{ $page.Title }}</a>
-      </h3>
-      {{- with $page.Params.theatre -}}
-        <div style="font-size:15px;line-height:1.35;font-weight:bold;color:#171717;margin:0;">{{ . }}</div>
-      {{- end -}}
-      {{- with $displayVenues -}}
-        <div style="font-size:14px;line-height:1.35;color:#5f5a51;margin:1px 0 0 0;">{{ delimit . " / " }}</div>
-      {{- end -}}
-      <div style="font-size:13px;line-height:1.35;color:#5f5a51;font-weight:bold;text-transform:uppercase;margin:9px 0 0 0;">
-        {{ dateFormat "Jan 2, 2006" $openingDate }}{{ with $closingDate }} - {{ dateFormat "Jan 2, 2006" . }}{{ end }}
-      </div>
-      {{- with $summary -}}
-        <p style="font-size:14px;line-height:1.45;color:#3f3a34;margin:10px 0 0 0;">{{ . }}</p>
-      {{- end -}}
-    </td>
-  </tr>
-</table>
+        <div style="font-size:13px;line-height:1.35;color:#5f5a51;font-weight:bold;text-transform:uppercase;margin:9px 0 0 0;">
+          {{ dateFormat "Jan 2, 2006" $openingDate }}{{ with $closingDate }} - {{ dateFormat "Jan 2, 2006" . }}{{ end }}
+        </div>
+        {{- with $summary -}}
+          <p style="font-size:14px;line-height:1.45;color:#3f3a34;margin:10px 0 0 0;">{{ . }}</p>
+        {{- end -}}
+      </td>
+    </tr>
+  </table>
+</a>
