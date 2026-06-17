@@ -26,4 +26,4 @@ Caroline Yazdiya is a vocalist based in Jacksonville, Florida. She splits her ti
 
 She has performed a handful of notable roles in community theatre, including Sophie in *Mamma Mia!* (2020), Mrs. Potts in [[production:2024 Beauty and the Beast]] (2024), and Fiona in *Shrek the Musical* (2026). She has performed the National Anthem at the Federal Courthouse for many Naturalization ceremonies for new U.S. citizens, and had the honor of singing at the investiture of Federal District Judge Marcia Morales Howard in 2007.
 
-She holds a Bachelor of Fine Arts in Musical Theatre from Jacksonville University. She also has experience with choreography and stage managing, and enjoys her backstage roles just as much as her on-stage ones.
+She holds a Bachelor of Fine Arts in Musical Theatre from Jacksonville University. She also has experience with choreography and stage managing, and enjoys her backstage roles just as much as her on-stage ones. 

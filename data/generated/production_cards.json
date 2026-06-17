@@ -28709,6 +28709,33 @@
     "searchBase": "body awareness apr 10, 2026 apr 18, 2026 the 5 & dime the florida ballet play comedy through the lens, the truth has nowhere to hide."
   },
   {
+    "title": "Buried Child",
+    "url": "/productions/2026-buried-child/",
+    "contentPath": "productions/2026/2026-Buried-Child",
+    "poster": "/media/posters/2026-Buried-Child.webp",
+    "posterAlt": "Buried Child poster",
+    "openingDate": "2026-07-31",
+    "closingDate": "2026-08-02",
+    "openingLabel": "Jul 31, 2026",
+    "openingMonthLabel": "July 2026",
+    "openingBadgeLabel": "Jul 31, 2026",
+    "closingLabel": "Aug 2, 2026",
+    "theatre": "ShepardFest",
+    "venues": [
+      "The Waterworks"
+    ],
+    "allVenues": [
+      "The Waterworks"
+    ],
+    "genres": [
+      "Play",
+      "Drama"
+    ],
+    "summary": "A Pulitzer Prize-winning American classic, Sam Shepard’s Buried Child digs into the rot beneath the myth of the perfect family.",
+    "tickets": "https://lightworks.ludus.com/index.php",
+    "searchBase": "buried child jul 31, 2026 aug 2, 2026 shepardfest the waterworks play drama a pulitzer prize-winning american classic, sam shepard’s buried child digs into the rot beneath the myth of the perfect family."
+  },
+  {
     "title": "Butterflies Are Free",
     "url": "/productions/2026-butterflies-are-free/",
     "contentPath": "productions/2026/2026-Butterflies-Are-Free",
@@ -29649,6 +29676,33 @@
     "searchBase": "junie b. jones apr 17, 2026 apr 26, 2026 the island theater the island theater musical comedy family the irrepressible junie b. jones bounds from page to stage in a family musical about school, friendship, and big feelings."
   },
   {
+    "title": "Kicking a Dead Horse",
+    "url": "/productions/2026-kicking-a-dead-horse/",
+    "contentPath": "productions/2026/2026-Kicking-a-Dead-Horse",
+    "poster": "/media/default/production_poster.webp",
+    "posterAlt": "Kicking a Dead Horse poster",
+    "openingDate": "2026-08-01",
+    "closingDate": "2026-08-01",
+    "openingLabel": "Aug 1, 2026",
+    "openingMonthLabel": "August 2026",
+    "openingBadgeLabel": "Aug 1, 2026",
+    "closingLabel": "Aug 1, 2026",
+    "theatre": "ShepardFest",
+    "venues": [
+      "The Waterworks"
+    ],
+    "allVenues": [
+      "The Waterworks"
+    ],
+    "genres": [
+      "Staged Reading",
+      "Drama"
+    ],
+    "summary": "A lean, biting and darkly funny modern Western about a man stranded between the life he bought, the truth he chased and the myth he can no longer outrun.",
+    "tickets": "https://lightworks.ludus.com/index.php",
+    "searchBase": "kicking a dead horse aug 1, 2026 aug 1, 2026 shepardfest the waterworks staged reading drama a lean, biting and darkly funny modern western about a man stranded between the life he bought, the truth he chased and the myth he can no longer outrun."
+  },
+  {
     "title": "Let's Make Music Together",
     "url": "/productions/2026-lets-make-music-together/",
     "contentPath": "productions/2026/2026-Lets-Make-Music-Together",
@@ -30297,6 +30351,32 @@
     "summary": "A readers theater presentation brings the beloved Southern comedy-drama to life through expressive voices rather than full staging.",
     "tickets": "https://rivercityplayers.ludus.com/200533977",
     "searchBase": "steel magnolias jun 19, 2026 jun 20, 2026 river city players larimer arts center play drama comedy staged reading a readers theater presentation brings the beloved southern comedy-drama to life through expressive voices rather than full staging."
+  },
+  {
+    "title": "Summer Sensation 2026",
+    "url": "/productions/2026-summer-sensation-2026/",
+    "contentPath": "productions/2026/2026-Summer-Sensation-2026",
+    "poster": "/media/posters/2026-Summer-Sensation-2026.webp",
+    "posterAlt": "Summer Sensation 2026 poster",
+    "openingDate": "2026-06-20",
+    "closingDate": "2026-06-21",
+    "openingLabel": "Jun 20, 2026",
+    "openingMonthLabel": "June 2026",
+    "openingBadgeLabel": "Jun 20, 2026",
+    "closingLabel": "Jun 21, 2026",
+    "theatre": "Amelia Musical Playhouse",
+    "venues": [],
+    "allVenues": [
+      "Amelia Musical Playhouse"
+    ],
+    "genres": [
+      "Comedy",
+      "One-Acts",
+      "Music"
+    ],
+    "summary": "The Senior Theater Project and Amelia Musical Playhouse present a family-friendly summer program of three short comedies, musical performances and comedy interludes.",
+    "tickets": "",
+    "searchBase": "summer sensation 2026 jun 20, 2026 jun 21, 2026 amelia musical playhouse amelia musical playhouse comedy one-acts music the senior theater project and amelia musical playhouse present a family-friendly summer program of three short comedies, musical performances and comedy interludes."
   },
   {
     "title": "Sweeney Todd",
