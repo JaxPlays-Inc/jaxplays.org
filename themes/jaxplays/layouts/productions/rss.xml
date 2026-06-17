@@ -38,7 +38,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
 
-    {{- $currentDate := now }}
+    {{- $currentDate := now.Format "2006-01-02" | time }}
     {{- $w := int $currentDate.Weekday }} {{/* Sunday=0 ... Saturday=6 */}}
 
     {{- $daysToAdd := 0 }}
@@ -75,6 +75,13 @@
       {{- $description := .Params.description | default $matchingShow.Params.description }}
       {{- $content := .Content | default $matchingShow.Content }}
       {{- $featuredImage := .Params.featured_image | default $matchingShow.Params.featured_image }}
+      {{- $featuredImageAlt := .Params.featured_image_alt | default $matchingShow.Params.featured_image_alt | default (printf "%s poster" .Title) }}
+      {{- $genres := .Params.genres | default $matchingShow.Params.genres | default slice }}
+      {{- $productionStatus := "Coming Soon" }}
+      {{- if and (le $opening_date $currentDate) (ge $closing_date $currentDate) }}
+        {{- $productionStatus = "Now Playing" }}
+      {{- end }}
+      {{- $card := partial "production-rss-card.html" (dict "page" . "status" $productionStatus "description" $description "featuredImage" $featuredImage "featuredImageAlt" $featuredImageAlt "genres" $genres "openingDate" $opening_date "closingDate" $closing_date) }}
 
       <item>
         <title>{{ .Title }}</title>
@@ -85,9 +92,8 @@
         {{- end }}
         <guid>{{ .Permalink }}</guid>
         <description>
-          {{- with .Params.theatre }}{{ "<h3 style='text-align:left;'>" | transform.XMLEscape | safeHTML }}{{ . }}{{ "</h3>" | transform.XMLEscape | safeHTML }}{{ end }}
-          {{ "<h4 style='text-align:left; line-height: 2;'>" | transform.XMLEscape | safeHTML }}{{ dateFormat "Monday, January 2" $opening_date }} — {{ dateFormat "Monday, January 2" $closing_date }}{{ "</h4>" | transform.XMLEscape | safeHTML }}
-        {{ $description | html }}</description>
+          {{- $card | transform.XMLEscape | safeHTML -}}
+        </description>
         <content>
           {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
         </content>
