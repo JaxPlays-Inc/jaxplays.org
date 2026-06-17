@@ -1,13 +1,13 @@
 ---
 title: The Torch Bearers
-date: 2023-09-08T00:00:00
-opening_date: 1927-04-19
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1927-04-19'
 closing_date:
 layout: productions
 program:
 theatre: Theatre Jacksonville
 show_details:
-- Playwright: "[[w:George_Kelly_(playwright)|George Kelly]]"
+- Playwright: '[[w:George_Kelly_(playwright)|George Kelly]]'
 - Premiere: 1922
 cast:
 - Mr. Huxley Hossefrosse: Bart Nason
@@ -21,7 +21,7 @@ cast:
 - Mrs. Nelly Fell: Edith Bond Waas
 - Mr. Ralph Twiller: Zay Smith
 - Mr. Spindler: E.S. Beauchamp-Nobbs
-- Stage Manager: Howard Humphries
+- Mr. Stage Manager: Howard Humphries
 crew:
 - Director: Tracy L'Engle
 - Set Design and construction: Zay Smith
