@@ -1,11 +1,13 @@
 ---
 title: Eugene Lindsey
-date: 2024-08-26T12:26:20-04:00
-featured_image: Eugene-Lindsey.webp
+date: 2026-06-17T09:53:15-04:00
+featured_image: Eugene-Lindsey-01.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Eugene-Lindsey.webp
 roles:
   - Actor
 socials:
