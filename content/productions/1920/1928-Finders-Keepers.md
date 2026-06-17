@@ -1,7 +1,7 @@
 ---
 title: Finders Keepers
-date: 2023-09-08T00:00:00
-opening_date: 1928-01-20
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1928-01-20'
 closing_date:
 layout: productions
 program:
@@ -25,8 +25,7 @@ crew:
   - Leo Finney
   - Morris Diamond
   - Mrs. Calvin Wells
-- Props:
-  - Mrs. O.Z. Tyler
-  - Mrs. Thomas L. Snowden
+- Props: Mrs. O.Z. Tyler
+- Prop Assistant: Mrs. Thomas L. Snowden
 orchestra:
 ---

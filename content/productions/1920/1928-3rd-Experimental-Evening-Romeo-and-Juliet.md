@@ -1,16 +1,16 @@
 ---
 title: 3rd Experimental Evening - Romeo and Juliet
-date: 2023-09-08T00:00:00
-opening_date: 1928-02-07
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1928-02-07'
 closing_date:
 layout: productions
 program:
 theatre: Theatre Jacksonville
-crew:
-- Director: Mrs. Carl Johnson
 cast:
 - Romeo: John Lucy
 - Juliet: Olive Rosenquist
+crew:
+- Director: Mrs. Carl Johnson
 orchestra:
 - Mandolins:
   - Benetta Johnson
@@ -21,4 +21,5 @@ orchestra:
 - Cello: Marguerite Johnson
 - Violin: Vivian Edwards Meyers
 - Saxophone: Mrs. G.P. Boutwell
+- Guitar: Fred Toomer
 ---

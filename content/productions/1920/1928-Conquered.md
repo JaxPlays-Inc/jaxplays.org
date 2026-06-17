@@ -1,8 +1,8 @@
 ---
 title: Conquered
-date: 2023-09-08T00:00:00
-opening_date: 1928-01-20
-closing_date: 1928-01-28
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1928-01-20'
+closing_date: '1928-01-28'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -24,6 +24,7 @@ crew:
   - Birsa Shepard
   - Stage Assistant
   - Charles W. Crooke
+  - Cecil Batchelder
 - Props: Mrs. O.Z. Tyler
 - Prop Assistant: Mrs. Thomas L. Snowden
 orchestra:
