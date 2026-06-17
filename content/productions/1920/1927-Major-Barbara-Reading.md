@@ -1,11 +1,13 @@
 ---
 title: Major Barbara (Reading)
-date: 2023-09-08T00:00:00
-opening_date: 1927-12-31
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1927-12-31'
 approx_date: year
 closing_date:
 layout: productions
 program:
+theatre: Theatre Jacksonville
+cast:
 - Bill Walker:
   - Burton Barrs
 - Charles Lomax: Charles Murchison

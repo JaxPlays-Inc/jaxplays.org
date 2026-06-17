@@ -1,10 +1,11 @@
 ---
 title: The Triumph of Medicine
-date: 2023-09-08T00:00:00
-opening_date: 1926-04-13
-closing_date: 1926-04-14
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1926-04-13'
+closing_date: '1926-04-14'
 layout: productions
 program:
+theatre: Theatre Jacksonville
 cast:
 - Mariette: Aline Chase
 - Dr. Knock: E.S. Beauchamp-Nobbs

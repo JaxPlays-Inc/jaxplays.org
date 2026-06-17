@@ -1,19 +1,19 @@
 ---
 title: The Bracelet
-date: 2023-09-08T00:00:00
-opening_date: 1925-02-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1925-02-24'
 closing_date:
 layout: productions
 program:
 theatre: Theatre Jacksonville
 cast:
-- Charles Tharp: Martin Fisher
-- Elizabeth Ripple: Smithers
-- Harold Schiff: Judge Banket
-- Katherine Ferrandou: Mrs. Weston
-- Martha Brotherton: Miss Farren
-- Merrydelle Hoyt: Mrs. Banket
-- Philip Devlin: Harvey Weston
+- Martin Fisher: Charles Tharp
+- Smithers: Elizabeth Ripple
+- Judge Banket: Harold Schiff
+- Mrs. Weston: Katherine Ferrandou
+- Miss Farren: Martha Brotherton
+- Mrs. Banket: Merrydelle Hoyt
+- Harvey Weston: Philip Devlin
 crew:
 - Director: Elaine I. Minick
 - Stage Manager: Birsa Shepard
