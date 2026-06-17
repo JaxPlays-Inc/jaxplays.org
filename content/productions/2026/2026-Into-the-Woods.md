@@ -43,7 +43,7 @@ cast:
   - Jack's Mother: Jeanne Wölti
   - Little Red: Emma Petrov
   - Cinderella's Prince / Wolf: E. Noah Perez
-  - Rapunzel's Prince: Greg Schuknecht
+  - Rapunzel's Prince: Noah Cummings
   - Rapunzel: Helena Peterson
   - Children's Ensemble:
       - Bijou Aiuppy
