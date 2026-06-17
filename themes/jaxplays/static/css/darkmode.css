@@ -37,6 +37,14 @@
 }
 
 .dark-mode .home-dashboard {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
 	background-color: #101214;
 	color: #f5f1e8 !important;
 }
