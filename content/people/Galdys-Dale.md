@@ -6,5 +6,6 @@ roles:
   - Scenic Designer
   - Property Master
   - Carpenter
+  - Stage Crew
   - Painter
 ---
