@@ -1,0 +1,7 @@
+{{/* AP style numbers: spell out one through nine, use numerals for 10+; leave 0 as 0 so caller can decide context */}}
+{{- $n := . -}}
+{{- if lt $n 10 -}}
+  {{- index (slice "0" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine") $n -}}
+{{- else -}}
+  {{- $n -}}
+{{- end -}}

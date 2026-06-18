@@ -1,0 +1,118 @@
+{{ define "main" }}
+{{ $activeTheatres := slice }}
+{{ $inactiveTheatres := slice }}
+
+{{ range .Pages.ByTitle }}
+  {{ $theatre := . }}
+  {{ if ne $theatre.Params.directory false }}
+    {{ if eq $theatre.Params.active true }}
+      {{ $activeTheatres = $activeTheatres | append $theatre }}
+    {{ else }}
+      {{ $inactiveTheatres = $inactiveTheatres | append $theatre }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<article class="theatres-directory">
+  <div class="theatres-directory-shell">
+    <header class="theatres-directory-hero">
+      <div>
+        <p class="theatres-directory-kicker">Northeast Florida & Southeast Georgia</p>
+        <h1 class="theatres-directory-title">Theatre companies</h1>
+        <p class="theatres-directory-subtitle">A working directory of local companies, from active stages and touring presenters to archived organizations that helped shape the region.</p>
+      </div>
+      <div class="theatres-directory-panel">
+        <div class="theatres-directory-stats">
+          <span>
+            <strong>{{ add (len $activeTheatres) (len $inactiveTheatres) }}</strong>
+            <span>Total</span>
+          </span>
+          <span>
+            <strong>{{ len $activeTheatres }}</strong>
+            <span>Active</span>
+          </span>
+          <span>
+            <strong>{{ len $inactiveTheatres }}</strong>
+            <span>Archive</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="theatres-directory-search">
+      <label class="theatres-directory-search-label" for="theatre-directory-filter">Filter theatre companies</label>
+      <input id="theatre-directory-filter" class="theatres-directory-filter" type="search" autocomplete="off" placeholder="Search by name, type, status, or description">
+      <p class="theatres-directory-filter-status" aria-live="polite" data-theatre-filter-status>{{ add (len $activeTheatres) (len $inactiveTheatres) }} theatre companies listed</p>
+    </div>
+
+    <section class="theatres-directory-section" aria-labelledby="active-theatre-companies" data-theatre-section>
+      <div class="theatres-directory-section-head sectionline">
+        <div class="theatres-directory-section-title">
+          <p class="theatres-directory-section-eyebrow">Currently Active</p>
+          <h2 id="active-theatre-companies">Active Theatre Companies</h2>
+        </div>
+        <span class="theatres-directory-count" data-theatre-section-count>{{ len $activeTheatres }} listed</span>
+      </div>
+      <div class="theatres-directory-grid">
+        {{ range $activeTheatres }}
+          {{ partial "theatre-directory-card.html" (dict "page" . "status" "Active") }}
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="theatres-directory-section" aria-labelledby="inactive-theatre-companies" data-theatre-section>
+      <div class="theatres-directory-section-head sectionline">
+        <div class="theatres-directory-section-title">
+          <p class="theatres-directory-section-eyebrow">Archive</p>
+          <h2 id="inactive-theatre-companies">Inactive Theatre Companies</h2>
+        </div>
+        <span class="theatres-directory-count" data-theatre-section-count>{{ len $inactiveTheatres }} listed</span>
+      </div>
+      <div class="theatres-directory-grid theatres-directory-grid--archive">
+        {{ range $inactiveTheatres }}
+          {{ partial "theatre-directory-card.html" (dict "page" . "status" "Archive") }}
+        {{ end }}
+      </div>
+    </section>
+    <p class="theatres-directory-empty" data-theatre-filter-empty hidden>No theatre companies match that search.</p>
+  </div>
+</article>
+
+<script>
+  (() => {
+    const root = document.querySelector('.theatres-directory');
+    const input = document.querySelector('#theatre-directory-filter');
+    if (!root || !input) return;
+
+    const cards = Array.from(root.querySelectorAll('[data-theatre-card]'));
+    const sections = Array.from(root.querySelectorAll('[data-theatre-section]'));
+    const status = root.querySelector('[data-theatre-filter-status]');
+    const empty = root.querySelector('[data-theatre-filter-empty]');
+    const normalize = (value) => value.trim().toLowerCase();
+    const listedText = (count) => `${count} ${count === 1 ? 'theatre company' : 'theatre companies'} listed`;
+
+    const applyFilter = () => {
+      const query = normalize(input.value);
+      let visibleTotal = 0;
+
+      cards.forEach((card) => {
+        const isMatch = !query || normalize(card.dataset.theatreSearch || '').includes(query);
+        card.hidden = !isMatch;
+        if (isMatch) visibleTotal += 1;
+      });
+
+      sections.forEach((section) => {
+        const visibleCards = Array.from(section.querySelectorAll('[data-theatre-card]')).filter((card) => !card.hidden);
+        section.hidden = visibleCards.length === 0;
+        const count = section.querySelector('[data-theatre-section-count]');
+        if (count) count.textContent = `${visibleCards.length} listed`;
+      });
+
+      if (status) status.textContent = listedText(visibleTotal);
+      if (empty) empty.hidden = visibleTotal !== 0;
+    };
+
+    input.addEventListener('input', applyFilter);
+  })();
+</script>
+{{ end }}

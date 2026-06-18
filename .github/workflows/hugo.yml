@@ -66,7 +66,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./sites/jaxplays/public
 
   # Deployment job
   deploy:
@@ -128,7 +128,7 @@ jobs:
 
           NEW_FILES=$(git diff --name-status "${{ github.event.before }}" "${{ github.sha }}" \
             | awk '$1=="A"{print $2}' \
-            | grep -E '^content/(reviews|news)/' || true)
+            | grep -E '^sites/jaxplays/content/(reviews|news)/' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new review or news files added. Skipping Mailchimp."
@@ -154,10 +154,10 @@ jobs:
             echo "Processing file: $FILE"
 
             # Decide template and label based on section
-            if [[ "$FILE" == content/reviews/* ]]; then
+            if [[ "$FILE" == sites/jaxplays/content/reviews/* ]]; then
               TEMPLATE_ID=10623509
               KIND="Review"
-            elif [[ "$FILE" == content/news/* ]]; then
+            elif [[ "$FILE" == sites/jaxplays/content/news/* ]]; then
               TEMPLATE_ID=10623325
               KIND="News"
             else

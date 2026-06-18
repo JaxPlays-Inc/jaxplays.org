@@ -1,0 +1,21 @@
+---
+title: Cole Marshall
+date: 2024-08-11T14:39:40-04:00
+featured_image: Cole-Marshall.webp
+featured_image_attr: 
+featured_image_attr_link: 
+featured_image_alt: 
+featured_image_caption: 
+roles:
+  - Actor
+  - Director
+  - Scenic Designer
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website:
+---

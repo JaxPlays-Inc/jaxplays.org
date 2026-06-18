@@ -4,9 +4,11 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
-python3 scripts/build_people_credit_index.py
+SITE_ROOT="${SITE_ROOT:-sites/jaxplays}"
 
-if ! git diff --exit-code -- data/generated; then
-  echo "::error::Generated data is stale. Run python3 scripts/build_people_credit_index.py and commit the updated data/generated files."
+python3 scripts/build_people_credit_index.py --root "$SITE_ROOT"
+
+if ! git diff --exit-code -- "$SITE_ROOT/data/generated"; then
+  echo "::error::Generated data is stale. Run SITE_ROOT=$SITE_ROOT python3 scripts/build_people_credit_index.py --root $SITE_ROOT and commit the updated data/generated files."
   exit 1
 fi

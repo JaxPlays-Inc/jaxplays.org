@@ -10,12 +10,12 @@ JaxPlays is a Hugo static site for Jacksonville, Florida's theatre community. It
 
 ```bash
 # Rebuild generated people, credit, production directory, theatre, and venue production indexes after content edits
-python3 scripts/build_people_credit_index.py
+python3 scripts/build_people_credit_index.py --root sites/jaxplays
 
 # Local development server
-hugo server
+hugo server --source sites/jaxplays
 
-# Production build; regenerates data/generated before Hugo runs
+# Production build; regenerates sites/jaxplays/data/generated before Hugo runs
 HUGO_ENV=production scripts/build_site.sh --minify
 
 # Production build with specific base URL (used in CI)
@@ -39,12 +39,12 @@ scripts/check_generated_data.sh
 
 ### Generated Data
 
-People profile credit lists render from `data/generated/people_credits.json`.
-Production credit name links render from `data/generated/people_lookup.json`.
-Production directory cards and search data render from `data/generated/production_cards.json`.
-Theatre profile production lists render from `data/generated/theatre_productions.json`.
-Venue profile production lists render from `data/generated/venue_productions.json`.
-Production builds run `scripts/build_site.sh`, which regenerates this data before Hugo runs. For review safety, run `scripts/check_generated_data.sh` after editing production credits, production metadata, theatre or venue names/aliases, people names, aliases, reviews, or show poster fallbacks; it fails if the committed `data/generated` files are stale.
+People profile credit lists render from `sites/jaxplays/data/generated/people_credits.json`.
+Production credit name links render from `sites/jaxplays/data/generated/people_lookup.json`.
+Production directory cards and search data render from `sites/jaxplays/data/generated/production_cards.json`.
+Theatre profile production lists render from `sites/jaxplays/data/generated/theatre_productions.json`.
+Venue profile production lists render from `sites/jaxplays/data/generated/venue_productions.json`.
+Production builds run `scripts/build_site.sh`, which regenerates this data before Hugo runs. For review safety, run `scripts/check_generated_data.sh` after editing production credits, production metadata, theatre or venue names/aliases, people names, aliases, reviews, or show poster fallbacks; it fails if the committed `sites/jaxplays/data/generated` files are stale.
 
 ### Front Matter Conventions
 
@@ -86,7 +86,7 @@ socials:
 
 ### Wikilink Syntax
 
-Content supports internal wikilinks that are processed by `themes/jaxplays/layouts/partials/content-wikilinks.html`:
+Content supports internal wikilinks that are processed by `themes/local-theatres/layouts/partials/content-wikilinks.html`:
 
 ```markdown
 [[person:John Smith]]           → links to /people/john-smith/
@@ -99,14 +99,14 @@ Content supports internal wikilinks that are processed by `themes/jaxplays/layou
 
 ## Theme Architecture
 
-The theme is at `themes/jaxplays/` and includes:
+The theme is at `themes/local-theatres/` and includes:
 - Custom layouts for each content type in `layouts/{content-type}/`
 - Shortcodes: `columns`, `figure`, `video`, `button`, `embed-pdf`, `leaflet` (maps), `seatmap`
 - Tachyons CSS utility classes for styling
 
 ## Media Organization
 
-Static assets in `static/media/`:
+Static assets in `sites/jaxplays/static/media/`:
 - `headshots/` - People profile images
 - `photos/` - Production/event photos
 - `posters/` - Show posters

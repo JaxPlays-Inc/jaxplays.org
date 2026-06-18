@@ -1,0 +1,83 @@
+---
+title: Nunsense
+theatre: Limelight Theatre
+venue: Inez McDonald Mainstage
+season: 34
+date: '2025-12-07T16:45:45-05:00'
+opening_date: '2025-09-12'
+closing_date: '2025-10-05'
+showtimes:
+- 2025-09-11 19:30:00
+- 2025-09-12 19:30:00
+- 2025-09-13 19:30:00
+- 2025-09-14 14:00:00
+- 2025-09-18 19:30:00
+- 2025-09-19 19:30:00
+- 2025-09-20 19:30:00
+- 2025-09-21 14:00:00
+- 2025-09-25 19:30:00
+- 2025-09-26 19:30:00
+- 2025-09-27 19:30:00
+- 2025-09-28 14:00:00
+- 2025-09-30 19:30:00
+- 2025-10-02 19:30:00
+- 2025-10-03 19:30:00
+- 2025-10-04 19:30:00
+- 2025-10-05 14:00:00
+featured_image: 2025-Nunsense.webp
+featured_image_alt: null
+featured_image_caption: null
+featured_image_attr: null
+featured_image_attr_link: null
+program: 2025-Nunsense.pdf
+website: https://www.limelight-theatre.org/calendar/on-stage/bright-star-kwkhl
+tickets: https://limelight.ludus.com/index.php?show_id=
+cast:
+- Reverend Mother: JoAnn Nance
+- Sister Mary Hubert: Grace Lewis
+- Sister Mary Amnesia: Kaylee Byers
+- Sister Robert Ann: Facia Lee
+- Sister Mary Leo: Charity Walton
+crew:
+- Co-Directors:
+  - Daniel Starling
+  - Heather Starling
+- Stage Manager: Soph Willis
+- Music Director: Keith Teepen
+- Scenic Design: Ashley Taylor
+- Light Design: Aubrey Barker
+- Costume Design: Jenn Michael
+- Seamstress: Janice Bickel
+- Light Board Operator: Natasha Hartstone
+- Sound Board Operator: Day Stanchi
+- Properties Master: Lois Dent
+- Production Manager: Ashley Taylor
+- Set Builders: RJ and the Maritime Creative Team
+- Trailer: Charity Walton
+- Photographers:
+  - Daniel Starling
+  - Heather Starling
+orchestra:
+- Piano/Conductor:
+  - Keith Teepen
+  - Mark Dougherty
+- Flute: Angela Muller
+- Drums/Percussion:
+  - Ella Finley
+  - Joanne Maffia
+show_details:
+- Music: '[[w:Dan Goggin (composer)|Dan Goggin]]'
+- Lyrics: Dan Goggin
+- Book: Dan Goggin
+genres:
+- Musical
+- Comedy
+description: A delightfully irreverent musical comedy that follows five quirky nuns
+  as they stage a fundraiser to cover burial costs after an unfortunate convent cooking
+  accident.
+source_urls:
+- https://limelight-theatre.org/productions/nunsense/
+- https://www.limelight-theatre.org/calendar/on-stage/bright-star-kwkhl
+---
+
+*Nunsense* begins when the Little Sisters of Hoboken discover that their cook, Sister Julia, Child of God, has accidentally poisoned most of the convent with her cooking. Left with the task of burying their deceased sisters, the surviving nuns decide to stage a variety show to raise the necessary funds. Led by the no-nonsense Reverend Mother, each nun brings her own hilarious quirks to the stage—ranging from Sister Mary Amnesia, who can’t remember her past, to Sister Mary Leo, who dreams of becoming a ballerina. Packed with witty songs, outrageous antics and zany characters, the musical is a comedic celebration of resilience and sisterhood.

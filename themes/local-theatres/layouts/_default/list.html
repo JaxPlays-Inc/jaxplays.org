@@ -1,0 +1,397 @@
+{{ define "main" }}
+{{ if or (eq .RelPermalink "/genres/") (eq .Title "Genres") }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $genreMap := dict }}
+{{ $showGenreMap := dict }}
+
+{{ range where .Site.Pages "Type" "shows" }}
+  {{ $show := . }}
+  {{ with $show.Params.genres }}
+    {{ $showGenreMap = merge $showGenreMap (dict $show.Title .) }}
+  {{ end }}
+{{ end }}
+
+{{ range where .Site.RegularPages "Section" "productions" }}
+  {{ $production := . }}
+  {{ $genres := $production.Params.genres | default slice }}
+  {{ if not $genres }}
+    {{ $genres = index $showGenreMap $production.Title | default slice }}
+  {{ end }}
+  {{ if eq (printf "%T" $genres) "string" }}
+    {{ $genres = slice $genres }}
+  {{ end }}
+
+  {{ $openingDate := "" }}
+  {{ $closingDate := "" }}
+  {{ with $production.Params.opening_date }}
+    {{ $openingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ with $production.Params.closing_date }}
+    {{ $closingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ if and $openingDate (not $closingDate) }}
+    {{ $closingDate = $openingDate }}
+  {{ end }}
+
+  {{ $bucket := "past" }}
+  {{ if and $openingDate $closingDate (le $openingDate $currentDate) (ge $closingDate $currentDate) }}
+    {{ $bucket = "current" }}
+  {{ else if and $openingDate (gt $openingDate $currentDate) }}
+    {{ $bucket = "upcoming" }}
+  {{ end }}
+
+  {{ range $genres }}
+    {{ $key := . | urlize }}
+    {{ $existing := index $genreMap $key | default (dict "title" . "current" 0 "upcoming" 0 "past" 0 "total" 0) }}
+    {{ $currentCount := index $existing "current" }}
+    {{ $upcomingCount := index $existing "upcoming" }}
+    {{ $pastCount := index $existing "past" }}
+    {{ if eq $bucket "current" }}
+      {{ $currentCount = add $currentCount 1 }}
+    {{ else if eq $bucket "upcoming" }}
+      {{ $upcomingCount = add $upcomingCount 1 }}
+    {{ else }}
+      {{ $pastCount = add $pastCount 1 }}
+    {{ end }}
+    {{ $genreMap = merge $genreMap (dict $key (dict "title" . "url" (printf "/genres/%s/" $key) "current" $currentCount "upcoming" $upcomingCount "past" $pastCount "total" (add (add $currentCount $upcomingCount) $pastCount))) }}
+  {{ end }}
+{{ end }}
+
+{{ $activeGenres := slice }}
+{{ $pastGenres := slice }}
+{{ range $genreMap }}
+  {{ if gt (add .current .upcoming) 0 }}
+    {{ $activeGenres = $activeGenres | append . }}
+  {{ else if gt .past 0 }}
+    {{ $pastGenres = $pastGenres | append . }}
+  {{ end }}
+{{ end }}
+{{ $activeGenres = sort $activeGenres "title" "asc" }}
+{{ $pastGenres = sort $pastGenres "title" "asc" }}
+{{ $totalGenres := add (len $activeGenres) (len $pastGenres) }}
+
+<article class="productions-directory genre-directory">
+  <div class="productions-directory-shell">
+    <header class="productions-directory-hero">
+      <div>
+        <p class="productions-directory-kicker">Production Genres</p>
+        <h1 class="productions-directory-title">Genres</h1>
+        <p class="productions-directory-subtitle">Browse JaxPlays productions by genre, with current and upcoming work separated from the archive.</p>
+      </div>
+      <div class="productions-directory-panel">
+        <div class="productions-directory-stats">
+          <span>
+            <strong>{{ len $activeGenres }}</strong>
+            <span>Active Genres</span>
+          </span>
+          <span>
+            <strong>{{ len $pastGenres }}</strong>
+            <span>Archive Genres</span>
+          </span>
+          <span>
+            <strong>{{ $totalGenres }}</strong>
+            <span>Total Genres</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="productions-directory-search">
+      <label class="productions-directory-search-label" for="genre-directory-filter">Filter genres</label>
+      <input id="genre-directory-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search by genre">
+      <p class="productions-directory-filter-status" aria-live="polite" data-genre-filter-status>{{ $totalGenres }} genres listed</p>
+    </div>
+
+    <section class="productions-directory-section" aria-labelledby="active-genres" data-genre-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">On Stage and Coming Soon</p>
+          <h2 id="active-genres">Current Production Genres</h2>
+        </div>
+        <span class="productions-directory-count" data-genre-section-count>{{ len $activeGenres }} listed</span>
+      </div>
+      <div class="genre-directory-grid">
+        {{ range $activeGenres }}
+          <a class="genre-directory-card slow-grow" href="{{ .url }}" data-genre-card data-genre-search="{{ .title | lower | htmlEscape }}">
+            <span class="productions-directory-badge productions-directory-badge--genre">Genre</span>
+            <strong class="genre-directory-card-title">{{ .title }}</strong>
+            <span class="genre-directory-card-meta">{{ add .current .upcoming }} current or upcoming · {{ .past }} past</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="productions-directory-section" aria-labelledby="archive-genres" data-genre-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">Past Productions</p>
+          <h2 id="archive-genres">Archive Genres</h2>
+        </div>
+        <span class="productions-directory-count" data-genre-section-count>{{ len $pastGenres }} listed</span>
+      </div>
+      <div class="genre-directory-grid">
+        {{ range $pastGenres }}
+          <a class="genre-directory-card slow-grow" href="{{ .url }}" data-genre-card data-genre-search="{{ .title | lower | htmlEscape }}">
+            <span class="productions-directory-badge">Archive</span>
+            <strong class="genre-directory-card-title">{{ .title }}</strong>
+            <span class="genre-directory-card-meta">{{ .past }} past productions</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+    <p class="productions-directory-empty" data-genre-filter-empty hidden>No genres match that search.</p>
+  </div>
+</article>
+
+<script>
+  (() => {
+    const root = document.querySelector('.genre-directory');
+    const input = document.querySelector('#genre-directory-filter');
+    if (!root || !input) return;
+
+    const sections = Array.from(root.querySelectorAll('[data-genre-section]'));
+    const status = root.querySelector('[data-genre-filter-status]');
+    const empty = root.querySelector('[data-genre-filter-empty]');
+    const normalize = (value) => value.trim().toLowerCase();
+
+    const applyFilter = () => {
+      const query = normalize(input.value);
+      let visibleTotal = 0;
+
+      sections.forEach((section) => {
+        const cards = Array.from(section.querySelectorAll('[data-genre-card]'));
+        let visibleSectionTotal = 0;
+
+        cards.forEach((card) => {
+          const isMatch = !query || normalize(card.dataset.genreSearch || '').includes(query);
+          card.hidden = !isMatch;
+          if (isMatch) {
+            visibleSectionTotal += 1;
+            visibleTotal += 1;
+          }
+        });
+
+        section.hidden = visibleSectionTotal === 0;
+        const count = section.querySelector('[data-genre-section-count]');
+        if (count) count.textContent = `${visibleSectionTotal} listed`;
+      });
+
+      if (status) status.textContent = `${visibleTotal} ${visibleTotal === 1 ? 'genre' : 'genres'} listed`;
+      if (empty) empty.hidden = visibleTotal !== 0;
+    };
+
+    input.addEventListener('input', applyFilter);
+  })();
+</script>
+{{ else }}
+  {{ $allPages := sort .Pages "Date" "desc" }}
+  {{ $paginator := .Paginate $allPages 24 }}
+  {{ $sectionTitle := .Title | default (.Section | humanize | title) }}
+  {{ $sectionLabel := .Params.eyebrow | default $sectionTitle }}
+  {{ $sectionDescription := .Params.description }}
+  {{ $articleIndex := slice }}
+  {{ range $allPages }}
+    {{ $image := partial "func/GetFeaturedImage.html" . }}
+    {{ $imageMeta := partial "func/GetFeaturedImageMeta.html" . }}
+    {{ $summarySource := .Params.description | default .Summary }}
+    {{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " "<a class=\"article-directory-summary-link\" " | safeHTML }}
+    {{ $authorLabel := "" }}
+    {{ with .Params.authors }}
+      {{ if reflect.IsSlice . }}
+        {{ $authorLabel = delimit . ", " }}
+      {{ else }}
+        {{ $authorLabel = . }}
+      {{ end }}
+    {{ else }}
+      {{ with .Params.author }}{{ $authorLabel = . }}{{ else }}{{ $authorLabel = $.Site.Params.author }}{{ end }}
+    {{ end }}
+    {{ $dateLabel := "" }}
+    {{ $datetime := "" }}
+    {{ if not .Date.IsZero }}
+      {{ $dateLabel = .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
+      {{ $datetime = .Date.Format "2006-01-02T15:04:05Z07:00" }}
+    {{ end }}
+    {{ $searchParts := slice .Title .Section $dateLabel ($summary | plainify) $authorLabel }}
+    {{ $articleIndex = $articleIndex | append (dict
+      "title" .Title
+      "url" .RelPermalink
+      "section" (.CurrentSection.Title | default (.Section | humanize))
+      "isReview" (eq .Section "reviews")
+      "image" $image
+      "imageAlt" ($imageMeta.alt | default .Title)
+      "dateLabel" $dateLabel
+      "datetime" $datetime
+      "author" $authorLabel
+      "summary" (printf "%s" $summary)
+      "search" (delimit $searchParts " " | lower)
+    ) }}
+  {{ end }}
+  <article class="article-directory">
+    <div class="article-directory-shell">
+      <header class="article-directory-hero">
+        <div>
+          <p class="article-directory-kicker">{{ $sectionLabel }}</p>
+          <h1 class="article-directory-title">{{ $sectionTitle }}</h1>
+          {{ if .Content }}
+            <div class="article-directory-subtitle nested-copy-line-height">
+              {{- .Content -}}
+            </div>
+          {{ else if $sectionDescription }}
+            <p class="article-directory-subtitle">{{ $sectionDescription }}</p>
+          {{ else }}
+            <p class="article-directory-subtitle">Browse the latest articles in this section.</p>
+          {{ end }}
+        </div>
+      </header>
+
+      <div class="article-directory-search">
+        <label class="article-directory-search-label" for="article-directory-filter">Filter {{ $sectionTitle | lower }}</label>
+        <input id="article-directory-filter" class="article-directory-filter" type="search" autocomplete="off" placeholder="Search by title, author, date, or summary">
+        <p class="article-directory-filter-status" aria-live="polite" data-article-filter-status>{{ len $paginator.Pages }} shown on this page</p>
+      </div>
+
+      <section class="article-directory-section" aria-labelledby="article-directory-list" data-article-section>
+        <div class="article-directory-section-head sectionline">
+          <div class="article-directory-section-title">
+            <p class="article-directory-section-eyebrow">{{ $sectionLabel }}</p>
+            <h2 id="article-directory-list">Latest {{ $sectionTitle }}</h2>
+          </div>
+          <span class="article-directory-count" data-article-section-count>{{ len $paginator.Pages }} shown</span>
+        </div>
+
+        <div class="article-directory-grid">
+          {{ range $paginator.Pages }}
+            {{ $summarySource := .Params.description | default .Summary }}
+            {{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " "<a class=\"article-directory-summary-link\" " | safeHTML }}
+            {{ $searchParts := slice .Title .Section (.Date.Format "January 2, 2006") ($summary | plainify) }}
+            {{ with .Params.authors }}
+              {{ if reflect.IsSlice . }}
+                {{ $searchParts = $searchParts | append (delimit . " ") }}
+              {{ else }}
+                {{ $searchParts = $searchParts | append . }}
+              {{ end }}
+            {{ else }}
+              {{ with .Params.author }}{{ $searchParts = $searchParts | append . }}{{ end }}
+            {{ end }}
+            {{ $searchText := delimit $searchParts " " | lower }}
+            {{ partial "article-card.html" (dict "page" . "variant" "directory" "searchText" $searchText) }}
+          {{ end }}
+        </div>
+      </section>
+      <p class="article-directory-empty" data-article-filter-empty hidden>No articles on this page match that search.</p>
+      <div data-article-pagination>
+        {{- template "_internal/pagination.html" . -}}
+      </div>
+    </div>
+  </article>
+
+  <script type="application/json" id="article-directory-data">{{ $articleIndex | jsonify | safeJS }}</script>
+
+  <script>
+    (() => {
+      const root = document.querySelector('.article-directory');
+      const input = document.querySelector('#article-directory-filter');
+      if (!root || !input) return;
+
+      const grid = root.querySelector('.article-directory-grid');
+      const section = root.querySelector('[data-article-section]');
+      const pagination = root.querySelector('[data-article-pagination]');
+      const data = document.querySelector('#article-directory-data');
+      const count = root.querySelector('[data-article-section-count]');
+      const status = root.querySelector('[data-article-filter-status]');
+      const empty = root.querySelector('[data-article-filter-empty]');
+      const normalize = (value) => value.trim().toLowerCase();
+      const initialGrid = grid ? grid.innerHTML : '';
+      const initialStatus = status ? status.textContent : '';
+      const initialCount = count ? count.textContent : '';
+      let indexedArticles = [];
+
+      if (data) {
+        indexedArticles = JSON.parse(data.textContent || '[]');
+        if (typeof indexedArticles === 'string') indexedArticles = JSON.parse(indexedArticles);
+      }
+
+      const createElement = (tag, className, text) => {
+        const element = document.createElement(tag);
+        if (className) element.className = className;
+        if (text) element.textContent = text;
+        return element;
+      };
+
+      const createArticleCard = (article) => {
+        const card = createElement('article', 'article-card article-card--directory article-directory-card slow-grow');
+        card.dataset.articleCard = '';
+        card.dataset.articleSearch = article.search || '';
+
+        const hitarea = createElement('a', 'article-card-hitarea article-directory-card-hitarea');
+        hitarea.href = article.url;
+        hitarea.setAttribute('aria-label', `Read ${article.title}`);
+        card.append(hitarea);
+
+        if (article.image) {
+          const imageLink = createElement('a', 'article-card-image-link article-directory-image-link');
+          imageLink.href = article.url;
+          const image = createElement('img', 'article-card-image article-directory-image');
+          image.src = article.image;
+          image.alt = article.imageAlt || article.title;
+          imageLink.append(image);
+          card.append(imageLink);
+        }
+
+        const body = createElement('div', 'article-card-body article-directory-card-body');
+        const badges = createElement('div', 'article-card-badges article-directory-badges');
+        badges.append(createElement('span', `article-card-badge article-directory-badge${article.isReview ? ' article-directory-badge--review' : ''}`, article.section));
+
+        const titleLink = createElement('a', 'article-card-link article-directory-card-link');
+        titleLink.href = article.url;
+        titleLink.append(createElement('strong', 'article-card-title article-directory-card-title', article.title));
+
+        const meta = createElement('div', 'article-card-meta article-directory-meta');
+        if (article.dateLabel) {
+          const time = createElement('time', '', article.dateLabel);
+          if (article.datetime) time.dateTime = article.datetime;
+          meta.append(time);
+        }
+        if (article.author) meta.append(createElement('span', '', article.author));
+
+        body.append(badges, titleLink, meta);
+        if (article.summary) {
+          const summary = createElement('div', 'article-card-summary article-directory-summary');
+          summary.innerHTML = article.summary;
+          body.append(summary);
+        }
+        card.append(body);
+
+        return card;
+      };
+
+      const restoreInitialView = () => {
+        if (grid) grid.innerHTML = initialGrid;
+        if (section) section.hidden = false;
+        if (count) count.textContent = initialCount;
+        if (status) status.textContent = initialStatus;
+        if (empty) empty.hidden = true;
+        if (pagination) pagination.hidden = false;
+      };
+
+      const applyFilter = () => {
+        const query = normalize(input.value);
+        if (!query) {
+          restoreInitialView();
+          return;
+        }
+
+        const matches = indexedArticles.filter((article) => normalize(article.search || '').includes(query));
+        if (grid) grid.replaceChildren(...matches.map(createArticleCard));
+        if (section) section.hidden = matches.length === 0;
+        if (count) count.textContent = `${matches.length} found`;
+        if (status) status.textContent = `${matches.length} ${matches.length === 1 ? 'article' : 'articles'} found`;
+        if (empty) empty.hidden = matches.length !== 0;
+        if (pagination) pagination.hidden = true;
+      };
+
+      input.addEventListener('input', applyFilter);
+    })();
+  </script>
+{{ end }}
+{{ end }}

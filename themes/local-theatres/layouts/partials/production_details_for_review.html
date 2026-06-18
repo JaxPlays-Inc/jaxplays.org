@@ -1,0 +1,64 @@
+<!-- Auto-generated production details section for review pages -->
+<!-- Called by single.html if the page is in the "review" section -->
+
+{{ $productionName := .Params.production | replaceRE " " "-" | lower }}
+{{ $productionPages := where .Site.RegularPages "Section" "eq" "productions" }}
+{{ $matchingProduction := slice }}
+{{ range $productionPages }}
+  {{ if eq (.File.BaseFileName | lower) $productionName }}
+    {{ $matchingProduction = slice . }}
+  {{ end }}
+{{ end }}
+
+{{ $override_dates := .Params.override_dates }}
+
+{{ with index $matchingProduction 0 }}
+  {{ $title := .Title }}
+  {{ $url := .RelPermalink }}
+  {{ $venue := .Params.venue }}
+  {{ $opening_date := dateFormat "Monday, January 2" .Params.opening_date }}
+  {{ $closing_date := dateFormat "Monday, January 2" .Params.closing_date }}
+
+  <!-- Build the formatted venue list with building names -->
+  {{ $formattedVenues := slice }}
+
+  {{ if reflect.IsSlice $venue }}
+    {{ range $v := $venue }}
+      {{ $venuePage := site.GetPage (printf "venues/%s" $v | urlize) }}
+      {{ if and $venuePage $venuePage.Params.building }}
+        {{ $formattedVenues = $formattedVenues | append (printf "%s's %s" $venuePage.Params.building $v) }}
+      {{ else }}
+        {{ $formattedVenues = $formattedVenues | append $v }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $venuePage := site.GetPage (printf "venues/%s" $venue | urlize) }}
+    {{ if and $venuePage $venuePage.Params.building }}
+      {{ $formattedVenues = slice (printf "%s's %s" $venuePage.Params.building $venue) }}
+    {{ else }}
+      {{ $formattedVenues = slice $venue }}
+    {{ end }}
+  {{ end }}
+
+  <!-- Format list with AP Style (Oxford comma excluded) -->
+  {{ $venueCount := len $formattedVenues }}
+  {{ $venueList := "" }}
+  {{ if eq $venueCount 1 }}
+    {{ $venueList = index $formattedVenues 0 }}
+  {{ else if eq $venueCount 2 }}
+    {{ $venueList = printf "%s and %s" (index $formattedVenues 0) (index $formattedVenues 1) }}
+  {{ else }}
+    {{ $firstParts := delimit (first (sub $venueCount 1) $formattedVenues) ", " }}
+    {{ $lastPart := index $formattedVenues (sub $venueCount 1) }}
+    {{ $venueList = printf "%s and %s" $firstParts $lastPart }}
+  {{ end }}
+
+  <!-- Output the date and venue string -->
+  {{ if $override_dates }}
+    <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $override_dates | markdownify }} at {{ $venueList }}.</p>
+  {{ else }}
+    <p><a class="i" href="{{ $url }}">{{ $title }}</a> runs {{ $opening_date }} through {{ $closing_date }} at the {{ $venueList }}.</p>
+  {{ end }}
+
+  <p>For more information, full cast and crew credits and links to tickets, visit the <a style="font-style: italic;" href="{{ $url }}">{{ $title }}</a> page here on JaxPlays.</p>
+{{ end }}

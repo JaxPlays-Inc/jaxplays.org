@@ -1,0 +1,69 @@
+---
+title: Puffs
+subtitle: or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
+aliases:
+- /productions/2023-puffs-or-seven-increasingly-eventful-years-at-a-certain-school-of-magic-and-magic/
+theatre: The Island Theater
+venue: The Island Theater
+date: 2023-09-08T00:00:00
+opening_date: 2023-08-11
+closing_date: 2023-08-20
+showtimes:
+- 2023-08-11 19:30:00
+- 2023-08-12 14:00:00
+- 2023-08-12 16:00:00
+- 2023-08-13 19:30:00
+- 2023-08-15 19:30:00
+- 2023-08-17 19:30:00
+- 2023-08-18 19:30:00
+- 2023-08-19 14:00:00
+# - 2023-08-19 19:30:00
+- 2023-08-20 14:00:00
+- 2023-08-20 18:00:00
+featured_image: 2023-Puffs-or-Seven-Increasingly-Eventful-Years-at-a-Certain-School-of-Magic-and-Magic.webp
+featured_image_alt: Poster for Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
+featured_image_caption: "Poster for 'Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic'"
+featured_image_attr: The Island Theater
+featured_image_attr_link: 
+program:
+website: https://www.theislandtheater.com/puffs
+tickets: 
+cast:
+- Wayne Hopkins: 
+  - Branson Anderson
+  - Leland Locke
+- Oliver Rivers: 
+  - Nick Williams
+  - Greg Schneckty
+- Megan Jones: 
+  - Malia Hernandez
+  - Leah Rabenold
+- Narrator: 
+  - Addy Thennes
+  - Chris Thompson
+- Ernie Mac: 
+  - Colby Sad
+  - Abdul Tarsha
+- Hannah: 
+  - Jazlyn Fuentes
+  - Lauren Wygonik
+- J. Finch Finchley: 
+  - Jay Alvarez
+  - Matthew Duck
+- Leanne: 
+  - Aidan Mello
+  - Taylor Thompson
+- Sally Perks: 
+  - Jocie Shrader
+  - Kathryne Allen
+- Susie Bones: 
+  - Maria Routel Ferguson
+  - Audrey Hall
+- Cedric and Mr. Voldy: 
+  - Cash Belcher
+  - Atilla Cosar
+crew:
+- Director: Tricia Williams
+- Stage Manager: Christie Routel
+orchestra:
+---

@@ -1,0 +1,36 @@
+---
+title: Kaylee Byers
+date: 2026-06-15T22:49:41-04:00
+featured_image: Kaylee-Byers-04.webp
+featured_image_attr: 
+featured_image_attr_link: 
+featured_image_alt: 
+featured_image_caption: 
+headshot_gallery:
+  - image: Kaylee-Byers-02.webp
+  - image: Kaylee-Byers.webp
+  - image: Kaylee-Byers-03.webp
+    image_attr: 
+    image_attr_link: 
+    image_alt: 
+    image_caption: 
+roles:
+  - Actor
+socials:
+  youtube: "@zube_showz"
+  instagram: zube.showz
+  website: https://kayleebyersactor.carrd.co/
+  backstage: kaylee-byers
+photos:
+- photo: ../../../../../media/photos/Kaylee-Byers-01.webp
+  photo_attr: 
+  photo_alt: 
+  photo_caption: 
+- photo: ../../../../../media/photos/Kaylee-Byers-02.webp
+  photo_attr: 
+  photo_alt: 
+  photo_caption:
+---
+Kaylee Byers is a Jacksonville-based actor and performer with over three years of professional experience on stage and on screen throughout Northeast Florida. She has collaborated with several local theatre companies and independent filmmakers, building a diverse portfolio that spans drama, horror, comedy, and musical theatre.
+Some of Kaylee’s favorite roles include Sister Mary Amnesia ([[production:2025 Nunsense]]), Annabella/Pamela/Margaret ([[production:2023 The 39 Steps]]), and Inga ([[production:2024 Young Frankenstein]]). She is passionate about storytelling, character work, and connecting with audiences through heartfelt and dynamic performances.
+Follow Kaylee’s upcoming projects and performances on Instagram: [@zube.showz](https://www.instagram.com/zube.showz).

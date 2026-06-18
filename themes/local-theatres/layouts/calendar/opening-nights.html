@@ -1,0 +1,431 @@
+{{ define "main" }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
+{{ $openingSoonCount := 0 }}
+{{ $futureOpeningCount := 0 }}
+{{ $openingTheatres := dict }}
+
+{{ range where .Site.RegularPages "Section" "productions" }}
+  {{ $production := . }}
+  {{ $openingDate := "" }}
+  {{ with $production.Params.opening_date }}
+    {{ $openingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ if and $openingDate (ge $openingDate $currentDate) }}
+    {{ $futureOpeningCount = add $futureOpeningCount 1 }}
+    {{ if le $openingDate $futureDate }}
+      {{ $openingSoonCount = add $openingSoonCount 1 }}
+    {{ end }}
+    {{ with $production.Params.theatre }}
+      {{ $openingTheatres = merge $openingTheatres (dict . true) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<script src='/fullcalendar/index.global.min.js'></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var whichView = function() {
+      return 'customListMonth';
+    };
+
+    var calendarEl = document.getElementById('calendar');
+    var visibleCount = document.querySelector('[data-opening-visible-count]');
+    var initialViewSetting = whichView(window.innerWidth);
+
+    var fetchOpeningNights = function() {
+      return fetch('/opening_nights.json').then(function(response) {
+        return response.json();
+      });
+    };
+
+    var selectedTheatres = function() {
+      var checkboxes = document.querySelectorAll('input[name="theatre"]:checked');
+      return Array.from(checkboxes).map(function(checkbox) {
+        return checkbox.value;
+      });
+    };
+
+    var filterEventsByTheatre = function(events) {
+      var selected = selectedTheatres();
+      var allTheatresSelected = selected.includes('all_theatres') || !selected.length;
+      return allTheatresSelected ? events : events.filter(function(event) {
+        return selected.includes(event.theatre);
+      });
+    };
+
+    var updateVisibleCount = function(dateInfo) {
+      if (!visibleCount) return;
+      fetchOpeningNights().then(function(events) {
+        var visibleEvents = filterEventsByTheatre(events);
+        var rangeStart = dateInfo && (dateInfo.start || dateInfo.activeStart);
+        var rangeEnd = dateInfo && (dateInfo.end || dateInfo.activeEnd);
+        if (rangeStart && rangeEnd) {
+          visibleEvents = visibleEvents.filter(function(event) {
+            var eventStart = new Date(event.start);
+            return eventStart >= rangeStart && eventStart <= rangeEnd;
+          });
+        }
+        visibleCount.textContent = visibleEvents.length;
+      });
+    };
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      height: 'auto',
+      firstDay: 1,
+      initialView: initialViewSetting,
+      multiMonthMaxColumns: 1,
+      events: function(fetchInfo, successCallback, failureCallback) {
+        fetchOpeningNights()
+          .then(function(events) {
+            successCallback(filterEventsByTheatre(events));
+          })
+          .catch(failureCallback);
+      },
+      slotMaxTime: '22:00:00',
+      slotMinTime: '11:00:00',
+      nowIndicator: true,
+      expandRows: true,
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'customListYear,multiMonthYear,dayGridMonth,customListMonth,timeGridWeek,customListWeek,customListDay'
+      },
+      views: {
+        customListYear: {
+          type: 'listYear',
+          buttonText: 'year list'
+        },
+        customListMonth: {
+          type: 'listMonth',
+          buttonText: 'month list'
+        },
+        customListWeek: {
+          type: 'listWeek',
+          buttonText: 'week list'
+        },
+        customListDay: {
+          type: 'listDay',
+          buttonText: 'day list'
+        }
+      },
+      datesSet: function(dateInfo) {
+        updateVisibleCount(dateInfo);
+      }
+    });
+
+    var resize = function() {
+      var fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+      var emThreshold = 60 * fontSize;
+      var newView = whichView(window.innerWidth);
+
+      if (newView !== calendar.view.type) {
+        calendar.changeView(newView);
+      }
+
+      if (window.innerWidth < emThreshold) {
+        calendar.setOption('headerToolbar', {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'customListYear,customListMonth,customListWeek'
+        });
+        calendar.setOption('navLinks', false);
+      } else {
+        calendar.setOption('headerToolbar', {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'customListYear,multiMonthYear,dayGridMonth,customListMonth,timeGridWeek,customListWeek,customListDay'
+        });
+        calendar.setOption('navLinks', true);
+      }
+    };
+
+    calendar.render();
+    resize();
+    window.addEventListener('resize', resize);
+
+    var saveState = function() {
+      var checkboxes = document.querySelectorAll('input[name="theatre"]');
+      var state = {};
+      checkboxes.forEach(function(checkbox) {
+        state[checkbox.id] = checkbox.checked;
+      });
+      localStorage.setItem('openingNightTheatreState', JSON.stringify(state));
+    };
+
+    var theatrePicker = document.querySelector('[data-theatre-picker]');
+    var theatreCombobox = document.querySelector('[data-theatre-combobox]');
+    var theatrePanel = document.querySelector('[data-theatre-panel]');
+    var theatreValues = document.querySelector('[data-theatre-values]');
+    var theatreSearch = document.querySelector('[data-theatre-search]');
+    var theatreOptions = Array.from(document.querySelectorAll('[data-theatre-option]'));
+    var theatreCheckboxes = Array.from(document.querySelectorAll('input[name="theatre"]')).filter(function(checkbox) {
+      return checkbox.id !== 'all_theatres';
+    });
+    var allTheatresCheckbox = document.getElementById('all_theatres');
+
+    var normalize = function(value) {
+      return value.trim().toLowerCase();
+    };
+
+    var openTheatrePanel = function() {
+      theatrePanel.hidden = false;
+      theatreCombobox.setAttribute('aria-expanded', 'true');
+    };
+
+    var closeTheatrePanel = function() {
+      theatrePanel.hidden = true;
+      theatreCombobox.setAttribute('aria-expanded', 'false');
+    };
+
+    var checkedTheatreValues = function() {
+      return theatreCheckboxes
+        .filter(function(checkbox) { return checkbox.checked; })
+        .map(function(checkbox) { return checkbox.value; });
+    };
+
+    var allTheatresSelected = function() {
+      return allTheatresCheckbox.checked && theatreCheckboxes.every(function(checkbox) {
+        return checkbox.checked;
+      });
+    };
+
+    var selectedTheatreValues = function() {
+      return allTheatresSelected() ? [] : checkedTheatreValues();
+    };
+
+    var syncAllTheatresState = function() {
+      allTheatresCheckbox.checked = theatreCheckboxes.every(function(checkbox) {
+        return checkbox.checked;
+      });
+    };
+
+    var renderTheatreTokens = function() {
+      theatreValues.replaceChildren();
+      syncAllTheatresState();
+
+      selectedTheatreValues().forEach(function(theatre) {
+        var token = document.createElement('button');
+        token.type = 'button';
+        token.className = 'calendar-directory-theatre-token';
+        token.dataset.theatreRemove = theatre;
+        token.setAttribute('aria-label', 'Remove ' + theatre);
+
+        var label = document.createElement('span');
+        label.textContent = theatre;
+
+        var remove = document.createElement('span');
+        remove.setAttribute('aria-hidden', 'true');
+        remove.textContent = '×';
+
+        token.append(label, remove);
+        theatreValues.append(token);
+      });
+
+      theatreSearch.placeholder = selectedTheatreValues().length ? '' : 'All theatres';
+      theatreOptions.forEach(function(option) {
+        if (option.dataset.theatreReset === 'true') {
+          option.classList.toggle('is-selected', allTheatresSelected());
+          option.setAttribute('aria-selected', allTheatresSelected() ? 'true' : 'false');
+          return;
+        }
+        var checkbox = document.getElementById(option.dataset.theatreTarget);
+        var selected = Boolean(!allTheatresSelected() && checkbox && checkbox.checked);
+        option.classList.toggle('is-selected', selected);
+        option.setAttribute('aria-selected', selected ? 'true' : 'false');
+      });
+    };
+
+    var filterTheatreOptions = function() {
+      var query = normalize(theatreSearch.value);
+      theatreOptions.forEach(function(option) {
+        if (option.dataset.theatreReset === 'true') {
+          option.hidden = false;
+          return;
+        }
+        option.hidden = Boolean(query && !normalize(option.textContent || '').includes(query));
+      });
+    };
+
+    var setAllTheatres = function(checked) {
+      allTheatresCheckbox.checked = checked;
+      theatreCheckboxes.forEach(function(checkbox) {
+        checkbox.checked = checked;
+      });
+      theatreSearch.value = '';
+      renderTheatreTokens();
+      filterTheatreOptions();
+      calendar.refetchEvents();
+      updateVisibleCount(calendar.view);
+      saveState();
+    };
+
+    var toggleTheatre = function(targetId) {
+      var checkbox = document.getElementById(targetId);
+      if (!checkbox) return;
+      if (allTheatresSelected()) {
+        allTheatresCheckbox.checked = false;
+        theatreCheckboxes.forEach(function(item) {
+          item.checked = false;
+        });
+        checkbox.checked = true;
+      } else {
+        checkbox.checked = !checkbox.checked;
+        if (!checkedTheatreValues().length) {
+          setAllTheatres(true);
+          return;
+        }
+      }
+      theatreSearch.value = '';
+      renderTheatreTokens();
+      filterTheatreOptions();
+      calendar.refetchEvents();
+      updateVisibleCount(calendar.view);
+      saveState();
+    };
+
+    var loadState = function() {
+      var state = JSON.parse(localStorage.getItem('openingNightTheatreState')) || {};
+      for (var id in state) {
+        var checkbox = document.getElementById(id);
+        if (checkbox) {
+          checkbox.checked = state[id];
+        }
+      }
+      if (!allTheatresCheckbox.checked && !checkedTheatreValues().length) {
+        setAllTheatres(true);
+      }
+    };
+
+    loadState();
+    renderTheatreTokens();
+
+    theatreCombobox.addEventListener('click', function() {
+      openTheatrePanel();
+      theatreSearch.focus();
+    });
+
+    theatreSearch.addEventListener('focus', openTheatrePanel);
+    theatreSearch.addEventListener('input', function() {
+      openTheatrePanel();
+      filterTheatreOptions();
+    });
+
+    theatreSearch.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeTheatrePanel();
+        theatreSearch.blur();
+      }
+      if (event.key === 'Backspace' && !theatreSearch.value && selectedTheatreValues().length) {
+        event.preventDefault();
+        var lastTheatre = selectedTheatreValues().at(-1);
+        var checkbox = theatreCheckboxes.find(function(item) { return item.value === lastTheatre; });
+        if (checkbox) checkbox.checked = false;
+        if (!checkedTheatreValues().length) setAllTheatres(true);
+        renderTheatreTokens();
+        calendar.refetchEvents();
+        updateVisibleCount(calendar.view);
+        saveState();
+      }
+    });
+
+    theatreOptions.forEach(function(option) {
+      option.addEventListener('click', function() {
+        if (option.dataset.theatreReset === 'true') {
+          setAllTheatres(true);
+        } else {
+          toggleTheatre(option.dataset.theatreTarget);
+        }
+        openTheatrePanel();
+        theatreSearch.focus();
+      });
+    });
+
+    theatreValues.addEventListener('click', function(event) {
+      var remove = event.target.closest('[data-theatre-remove]');
+      if (!remove) return;
+      event.stopPropagation();
+      var checkbox = theatreCheckboxes.find(function(item) { return item.value === remove.dataset.theatreRemove; });
+      if (checkbox) checkbox.checked = false;
+      if (!checkedTheatreValues().length) setAllTheatres(true);
+      renderTheatreTokens();
+      calendar.refetchEvents();
+      updateVisibleCount(calendar.view);
+      saveState();
+      theatreSearch.focus();
+    });
+
+    document.addEventListener('click', function(event) {
+      if (!theatrePicker.contains(event.target)) closeTheatrePanel();
+    });
+  });
+</script>
+
+<article class="calendar-directory calendar-directory--opening-nights">
+  <div class="calendar-directory-shell">
+    <header class="calendar-directory-hero">
+      <div>
+        <p class="calendar-directory-kicker">Opening Nights Calendar</p>
+        <h1 class="calendar-directory-title">Opening Nights</h1>
+        <div class="calendar-directory-subtitle nested-copy-line-height nested-links">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="calendar-directory-panel">
+        <div class="calendar-directory-stats">
+          <span>
+            <strong data-opening-visible-count>{{ $openingSoonCount }}</strong>
+            <span>Visible</span>
+          </span>
+          <span>
+            <strong>{{ $openingSoonCount }}</strong>
+            <span>Next 30 Days</span>
+          </span>
+          <span>
+            <strong>{{ $futureOpeningCount }}</strong>
+            <span>Upcoming</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <section class="calendar-directory-section" aria-labelledby="opening-nights-calendar">
+      <div class="calendar-directory-section-head sectionline">
+        <div class="calendar-directory-theatre-filter">
+          <span class="calendar-directory-filter-label" id="opening-night-theatre-filter-label">Theatres</span>
+          <div class="calendar-directory-theatre-picker" data-theatre-picker>
+            <div class="calendar-directory-filter calendar-directory-theatre-combobox" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="opening-night-theatre-filter-label" data-theatre-combobox>
+              <div class="calendar-directory-theatre-values" data-theatre-values></div>
+              <label class="screen-reader-text" for="opening-night-theatre-search">Search theatres</label>
+              <input id="opening-night-theatre-search" class="calendar-directory-theatre-search" type="search" autocomplete="off" placeholder="All theatres" data-theatre-search>
+            </div>
+            <div class="calendar-directory-theatre-panel" role="listbox" data-theatre-panel hidden>
+              <button id="opening-night-theatre-option-all" class="calendar-directory-theatre-option" type="button" role="option" aria-selected="true" data-theatre-option data-theatre-reset="true">All theatres</button>
+              {{ range sort (where .Site.Pages "Type" "theatres") ".Title" }}
+                {{ if eq .Params.active true }}
+                  {{ $theatreId := printf "opening-night-theatre-%s" (anchorize .Title) }}
+                  <button id="opening-night-theatre-option-{{ anchorize .Title }}" class="calendar-directory-theatre-option" type="button" role="option" aria-selected="true" data-theatre-option data-theatre-target="{{ $theatreId }}" data-theatre-value="{{ .Title }}">{{ .Title }}</button>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calendar-directory-frame">
+        <div id='calendar'></div>
+      </div>
+    </section>
+
+    <div class="calendar-directory-hidden-theatres" aria-hidden="true">
+      <input type="checkbox" id="all_theatres" name="theatre" value="all_theatres" checked="checked" tabindex="-1">
+      {{ range sort (where .Site.Pages "Type" "theatres") ".Title" }}
+        {{ if eq .Params.active true }}
+          {{ $theatreId := printf "opening-night-theatre-%s" (anchorize .Title) }}
+          <input type="checkbox" id="{{ $theatreId }}" name="theatre" value="{{ .Title }}" checked="checked" tabindex="-1">
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</article>
+
+{{ end }}

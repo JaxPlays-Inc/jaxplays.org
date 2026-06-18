@@ -1,0 +1,80 @@
+{{ define "main" }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
+{{ $productionCards := site.Data.generated.production_cards | default slice }}
+{{ $nearFutureProductions := slice }}
+{{ $futureProductions := slice }}
+
+{{ range $productionCards }}
+  {{ $production := . }}
+  {{ $startDate := $production.openingDate }}
+  {{ if $startDate }}
+    {{ if and (gt $startDate $currentDate) (le $startDate $futureDate) }}
+      {{ $nearFutureProductions = $nearFutureProductions | append $production }}
+    {{ else if gt $startDate $futureDate }}
+      {{ $futureProductions = $futureProductions | append $production }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $futureProductions = sort $futureProductions "openingDate" "asc" }}
+{{ $nearFutureProductions = sort $nearFutureProductions "openingDate" "asc" }}
+{{ $totalUpcoming := add (len $nearFutureProductions) (len $futureProductions) }}
+{{ $productionIndex := slice }}
+{{ range $futureProductions }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Coming Soon" "search" (printf "%s %s" (.searchBase | default "") "Coming Soon"))) }}
+{{ end }}
+
+<article class="productions-directory productions-directory--future">
+  <div class="productions-directory-shell">
+    <header class="productions-directory-hero">
+      <div>
+        <p class="productions-directory-kicker">Beyond the next 30 days</p>
+        <h1 class="productions-directory-title">Future Productions</h1>
+        <p class="productions-directory-subtitle">A forward-looking directory of announced productions opening after the current Coming Soon window.</p>
+      </div>
+      <div class="productions-directory-panel">
+        <div class="productions-directory-stats">
+          <span>
+            <strong>{{ len $nearFutureProductions }}</strong>
+            <span>Next 30 Days</span>
+          </span>
+          <span>
+            <strong>{{ len $futureProductions }}</strong>
+            <span>Beyond 30 Days</span>
+          </span>
+          <span>
+            <strong>{{ $totalUpcoming }}</strong>
+            <span>Future Total</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="productions-directory-search">
+      <label class="productions-directory-search-label" for="future-productions-filter">Filter future productions</label>
+      <input id="future-productions-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search by title, theatre, venue, genre, or description">
+      <p class="productions-directory-filter-status" aria-live="polite" data-production-filter-status>{{ len $futureProductions }} productions listed</p>
+    </div>
+
+    <section class="productions-directory-section" aria-labelledby="future-productions" data-production-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">Opening after the next 30 days</p>
+          <h2 id="future-productions">Future Productions</h2>
+        </div>
+        <span class="productions-directory-count" data-production-section-count>{{ len $futureProductions }} listed</span>
+      </div>
+      <div class="productions-directory-grid">
+        {{ range $futureProductions }}
+          {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
+        {{ end }}
+      </div>
+    </section>
+    <p class="productions-directory-empty" data-production-filter-empty hidden>No future productions match that search.</p>
+  </div>
+</article>
+
+<script type="application/json" id="production-directory-data">{{ $productionIndex | jsonify }}</script>
+{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#future-productions-filter" "searchEyebrow" "Future productions" "searchTitle" "Search Results") }}
+{{ end }}

@@ -1,0 +1,32 @@
+{{- $events := slice -}}
+{{- range where .Site.Pages "Type" "productions" -}}
+  {{- $title := .Title -}}
+  {{- $theatre := .Params.theatre -}}
+  {{- $title := print $title " - " $theatre -}}
+  {{- $featured_image := .Params.featured_image -}}
+  {{- $url := .RelPermalink -}}
+  
+  {{- /* Initialize default color */ -}}
+  {{- $color := "#000" -}}
+  
+  {{- /* Try to fetch the theatre's color */ -}}
+  {{- $theatreURL := $theatre | replaceRE "&" "and" | urlize | replaceRE "\\." "" -}}
+  {{- with $.Site.GetPage "page" (printf "/theatres/%s" $theatreURL) -}}
+    {{- $color = .Params.color | default "#000" -}}
+  {{- end -}}
+
+  {{- range .Params.showtimes -}}
+    {{- $showtimeDateTime := . -}}
+    {{- $showtimeVenue := "" -}}
+    {{- if in (printf "%T" .) "map" -}}
+      {{- $showtimeDateTime = index . "datetime" -}}
+      {{- $showtimeVenue = index . "venue" | default "" -}}
+    {{- end -}}
+    {{- $event := dict "title" $title "start" $showtimeDateTime "theatre" $theatre "url" $url "color" $color "featured_image" $featured_image -}}
+    {{- with $showtimeVenue -}}
+      {{- $event = merge $event (dict "venue" .) -}}
+    {{- end -}}
+    {{- $events = $events | append $event -}}
+  {{- end -}}
+{{- end -}}
+{{- $events | jsonify -}}

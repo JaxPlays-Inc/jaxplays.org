@@ -3,6 +3,9 @@ frontmatter.json
 .vscode/settings.json
 .frontmatter/database/taxonomyDb.json
 /public/*
+sites/*/public/
+sites/*/resources/
+sites/*/.hugo_build.lock
 .hugo_cache/
 .wrangler/
 **/.wrangler/

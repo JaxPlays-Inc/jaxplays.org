@@ -1,0 +1,52 @@
+{{/* 
+	GetFeaturedImage
+
+	This partial gets the url for featured image for a given page.
+
+	If a featured_image was set in the page's front matter, then that will be used.
+
+	If not set, this will search page resources to find an image that contains the word
+	"cover", and if found, returns the path to that resource.
+
+	If no featured_image was set, and there's no "cover" image in page resources, then
+	this partial returns an empty string (which evaluates to false).
+
+	@return RelPermalink to featured image, or an empty string if not found.
+
+*/}}
+
+{{- $link := "" -}}
+{{- $matches := "feature,cover" -}}
+{{- $meta := partial "func/GetFeaturedImageMeta.html" . -}}
+
+{{- with $meta.src -}}
+  {{- $val := . -}}
+
+  {{- /* Prefer a page resource if it matches exactly */ -}}
+  {{- with $.Resources.GetMatch $val -}}
+    {{- $link = .RelPermalink -}}
+  {{- else -}}
+    {{- /* If a full URL, use as-is */ -}}
+    {{- if or (hasPrefix $val "http://") (hasPrefix $val "https://") (hasPrefix $val "//") -}}
+      {{- $link = $val -}}
+    {{- else if and (not (hasPrefix $val "/")) (eq $.Section "authors") -}}
+      {{- $link = printf "/media/headshots/%s" $val | relURL -}}
+    {{- else -}}
+      {{- /* Ensure a leading slash so it’s site-root relative, then let relURL handle baseURL */ -}}
+      {{- if not (hasPrefix $val "/") -}}
+        {{- $val = printf "/%s" $val -}}
+      {{- end -}}
+      {{- $link = $val | relURL -}}
+    {{- end -}}
+  {{- end -}}
+
+{{- else -}}
+  {{- /* Fallback: first image with feature/cover in name from bundle */ -}}
+  {{- with .Resources.ByType "image" -}}
+    {{- with .GetMatch (printf "**{%s}*" $matches) -}}
+      {{- $link = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $link -}}

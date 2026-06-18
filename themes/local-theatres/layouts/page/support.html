@@ -1,0 +1,269 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "head" }}
+  {{ partial "head-additions.html" . }}
+  <script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=XzfDvChDHYVKLsXs"></script>
+{{ end }}
+{{ define "main" }}
+  <style>
+    .support-page {
+      --jp-ink: #171717;
+      --jp-muted: #5f6670;
+      --jp-line: #d7d2c8;
+      --jp-paper: #f4f4f4;
+      --jp-cream: #f6f0e3;
+      --jp-gold: #ffd600;
+      --jp-red: #b7332f;
+      --jp-teal: #18736b;
+      --jp-blue: #28466f;
+      background: var(--jp-paper);
+      color: var(--jp-ink);
+    }
+
+    .support-page-shell {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 4rem 1rem;
+      position: relative;
+    }
+
+    .support-page-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, .72fr);
+      gap: 1.25rem;
+      align-items: stretch;
+      border-bottom: 1px solid var(--jp-line);
+      padding-bottom: 1.5rem;
+    }
+
+    .support-page-kicker,
+    .support-page-section-eyebrow {
+      color: var(--jp-red);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1.1;
+      margin: 0 0 .4rem;
+      text-transform: uppercase;
+    }
+
+    .support-page-title {
+      font-size: clamp(2.25rem, 7vw, 5.5rem);
+      line-height: 1;
+      margin: 0;
+    }
+
+    .support-page-summary {
+      color: var(--jp-muted);
+      font-size: 1.05rem;
+      line-height: 1.5;
+      max-width: 42rem;
+      margin: 1rem 0 0;
+    }
+
+    .support-page-panel,
+    .support-page-impact-item,
+    .support-page-donation {
+      background: white;
+      border: 1px solid var(--jp-line);
+      border-radius: 0;
+    }
+
+    .support-page-panel {
+      align-self: start;
+      border-top: 5px solid var(--jp-gold);
+      padding: 1rem;
+    }
+
+    .support-page-panel strong {
+      display: block;
+      font-size: clamp(2rem, 6vw, 3.25rem);
+      line-height: 1;
+      margin-bottom: .35rem;
+    }
+
+    .support-page-panel span,
+    .support-page-meta {
+      color: var(--jp-muted);
+      display: block;
+      font-size: .9rem;
+      line-height: 1.4;
+    }
+
+    .support-page-panel .guidestar-widget {
+      display: block;
+      margin-top: 1rem;
+      max-width: 190px;
+    }
+
+    .support-page-panel .guidestar-widget img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+    }
+
+    .support-page-main {
+      display: grid;
+      grid-template-columns: minmax(0, .82fr) minmax(320px, 1fr);
+      gap: 1.25rem;
+      margin-top: 3rem;
+      align-items: start;
+    }
+
+    .support-page-section-head {
+      margin-bottom: .9rem;
+    }
+
+    .support-page-section-head.sectionline:after {
+      margin: .75rem 0 0;
+    }
+
+    .support-page-section-head h2 {
+      font-size: clamp(1.5rem, 4vw, 2.35rem);
+      margin: 0;
+    }
+
+    .support-page-copy {
+      color: var(--jp-muted);
+      font-size: 1.05rem;
+      line-height: 1.55;
+    }
+
+    .support-page-copy p {
+      margin: 0 0 1rem;
+    }
+
+    .support-page-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .support-page-impact {
+      display: grid;
+      gap: .75rem;
+      margin-top: 1.25rem;
+    }
+
+    .support-page-impact-item {
+      border-left: 5px solid var(--jp-blue);
+      padding: 1rem;
+    }
+
+    .support-page-impact-item:nth-child(2) {
+      border-left-color: var(--jp-red);
+    }
+
+    .support-page-impact-item:nth-child(3) {
+      border-left-color: var(--jp-teal);
+    }
+
+    .support-page-impact-item strong {
+      display: block;
+      line-height: 1.2;
+      margin-bottom: .35rem;
+    }
+
+    .support-page-donation {
+      padding: 1rem;
+    }
+
+    .support-page-donation-header {
+      border-bottom: 1px solid var(--jp-line);
+      margin-bottom: 1rem;
+      padding-bottom: .9rem;
+    }
+
+    .support-page-donation-header h2 {
+      font-size: 1.15rem;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .support-page givebutter-widget {
+      display: block;
+      margin: 0 auto;
+      max-width: 520px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 820px) {
+      .support-page-hero,
+      .support-page-main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media screen and (max-width: 520px) {
+      .support-page-shell {
+        padding: 1.25rem 1rem 3rem;
+      }
+    }
+
+    .dark-mode .support-page {
+      --jp-ink: #f7f3ea;
+      --jp-muted: #d8d0c2;
+      --jp-line: rgba(255, 255, 255, .18);
+      --jp-paper: #15130f;
+      --jp-cream: #211f1a;
+      background: var(--jp-paper);
+      color: var(--jp-ink);
+    }
+
+    .dark-mode .support-page-panel,
+    .dark-mode .support-page-impact-item,
+    .dark-mode .support-page-donation {
+      background: var(--jp-cream);
+    }
+  </style>
+
+  <article class="support-page">
+    <div class="support-page-shell">
+      <header class="support-page-hero">
+        <div>
+          <p class="support-page-kicker">Support Theater in Northeast Florida</p>
+          <h1 class="support-page-title">{{ .Title }}</h1>
+          <p class="support-page-summary">Help JaxPlays preserve the past, promote the present and propel the future of live theatre across Jacksonville, Northeast Florida and Southeast Georgia.</p>
+        </div>
+        <aside class="support-page-panel" aria-label="Support summary">
+          <strong>501(c)(3)</strong>
+          <span>JaxPlays is a nonprofit arts organization. Contributions help keep the regional theatre archive, calendar and coverage available to the community.</span>
+          {{ partial "guidestar-widget.html" (dict "class" "") }}
+        </aside>
+      </header>
+
+      <div class="support-page-main">
+        <section aria-labelledby="support-page-why">
+          <div class="support-page-section-head sectionline">
+            <p class="support-page-section-eyebrow">Why It Matters</p>
+            <h2 id="support-page-why">Your gift keeps the work visible</h2>
+          </div>
+          <div class="support-page-copy">
+            {{ partial "content-wikilinks" .Content }}
+          </div>
+          <div class="support-page-impact" aria-label="What donations support">
+            <div class="support-page-impact-item">
+              <strong>Preserve the Past</strong>
+              <span class="support-page-meta">Maintain production records, artist profiles, venues, theatres and the growing regional archive.</span>
+            </div>
+            <div class="support-page-impact-item">
+              <strong>Promote the Present</strong>
+              <span class="support-page-meta">Keep current productions, calendars, opening nights and reviews easy for audiences to find.</span>
+            </div>
+            <div class="support-page-impact-item">
+              <strong>Propel the Future</strong>
+              <span class="support-page-meta">Build tools that make local theatre more connected, discoverable and durable.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="support-page-donation" aria-labelledby="support-page-donate">
+          <div class="support-page-donation-header">
+            <p class="support-page-section-eyebrow">Donate</p>
+            <h2 id="support-page-donate">Make a contribution</h2>
+            <span class="support-page-meta">One-time and recurring gifts both help keep the lights up.</span>
+          </div>
+          <givebutter-widget id="j9la4p"></givebutter-widget>
+          {{/*  2025 Giving Tuesday Campaign  */}}
+        </section>
+      </div>
+    </div>
+  </article>
+{{ end }}

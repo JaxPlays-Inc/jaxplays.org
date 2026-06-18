@@ -1,0 +1,172 @@
+{{/* {{ define "header" }}{{ partial "page-header.html" . }}{{ end }} */}}
+{{ define "main" }}
+<div class="flex-l mt2 mw8 center">
+  <article class="center cf pv5 ph3 ph4-ns mw8 w-100">
+    <div class="nested-copy-line-height lh-copy f5 f4-ns">
+      {{ .Content }}
+      <div id="fb-render"></div> <!-- Container for form render -->
+      <textarea id="fb-template" style="display:none;">
+        [
+            {
+              "type": "text",
+              "label": "Email",
+              "description": "Your email address",
+              "placeholder": "johndoe@example.com",
+              "className": "form-control",
+              "name": "cc2c00cc-330b-41ac-a06e-feb2fa1c2789",
+              "required": true
+            },
+            {
+              "type": "text",
+              "label": "Your Name",
+              "description": "Who are you?",
+              "placeholder": "John Doe",
+              "className": "form-control",
+              "name": "3872b5d6-d245-4392-ab36-d67e178bd6fb",
+              "required": true
+            },
+            {
+              "type": "text",
+              "label": "Title",
+              "description": "Enter the title of the production",
+              "className": "form-control",
+              "name": "76b29c91-4ae5-4149-bd1a-365bd30d851a",
+              "required": true
+            },
+            {
+              "type": "select",
+              "label": "Theatre",
+              "description": "Which theatre company is doing this production?",
+              "className": "form-control",
+              "name": "50de04ec-c8ed-4ad4-84b3-ef0fa5efe8e5",
+              "required": true
+            },
+            {
+              "type": "select",
+              "label": "Venue",
+              "description": "Which venue is the production being staged at?",
+              "className": "form-control",
+              "name": "71e75cb2-87fd-41e2-981c-50d1728dbccf",
+              "required": true
+            },
+            {
+              "type": "textarea",
+              "label": "Showtimes",
+              "description": "When's the show?",
+              "className": "form-control",
+              "name": "49f41f07-2ace-4f9b-9ada-b6a59a89c2f0",
+              "required": true
+            },
+            {
+              "type": "text",
+              "label": "Ticket Link",
+              "description": "Provide the link to your ticket platform for this production.",
+              "className": "form-control",
+              "name": "866c9502-cbae-4e90-a833-e70d3e4a1e9a"
+            },
+            {
+              "type": "text",
+              "label": "Web page",
+              "description": "Do you have a page on your website specifically for this production? Provide the link here.",
+              "className": "form-control",
+              "name": "206055ce-a56a-45e9-bf0b-52387fb9f0f8"
+            },
+            {
+              "type": "select",
+              "label": "Genres",
+              "description": "Please select all the genres that apply to this production from the dropdown menu.",
+              "className": "form-control",
+              "name": "2129af3e-9c5c-4585-b03b-29ac4b7e3fbe",
+              "required": true
+            },
+            {
+              "type": "file",
+              "label": "Poster",
+              "description": "Please upload the poster of the production.",
+              "className": "form-control",
+              "name": "da9d4ad9-addb-4f93-8e35-d36689563fde",
+              "required": true
+            },
+            {
+              "type": "text",
+              "label": "Poster Credit",
+              "description": "Please provide any attribution necessary for the poster.",
+              "className": "form-control",
+              "name": "e992c7e8-4219-47d2-9aa4-0ee2bb604211"
+            },
+            {
+              "type": "textarea",
+              "label": "Description",
+              "description": "Provide a short description of the show being produced.",
+              "className": "form-control",
+              "name": "b44704cf-4364-40bd-91a2-b19907cb30c7",
+              "placeholder": "Tell us a bit about yourself!",
+              "maxlength": "200"
+            },
+            {
+              "type": "textarea",
+              "label": "Synopsis / Production Notes",
+              "description": "If you have a synopsis and/or production notes, please provide them here.",
+              "className": "form-control",
+              "name": "720225c1-e31b-4ac4-80ab-f3416c282d46"
+            },
+            {
+              "type": "textarea",
+              "label": "Cast List",
+              "description": "Please provide a cast list if you have cast the show.",
+              "className": "form-control",
+              "name": "5052b0e3-692d-4463-8847-dd99f1dda1a3"
+            },
+            {
+              "type": "textarea",
+              "label": "Understudies",
+              "description": "If you have understudy, standby or swing actors, please provide their credits here.",
+              "className": "form-control",
+              "name": "e702cb9f-f102-40c5-b5de-d4e747144299"
+            },
+            {
+              "type": "textarea",
+              "label": "Crew List",
+              "description": "Please provide a crew list if you have it set.",
+              "className": "form-control",
+              "name": "020b94a8-2382-4375-b8d3-ed6caa9c268a"
+            },
+            {
+              "type": "textarea",
+              "label": "Orchestra List",
+              "description": "Please provide an orchestra list if you have it set.",
+              "className": "form-control",
+              "name": "d6526318-56e6-48f1-985e-5eee5e1a1490"
+            },
+            {
+              "type": "file",
+              "label": "Playbill / Bulletin / Program",
+              "description": "We would love to have a copy of your handout to share with our readers. Upload it here.",
+              "className": "form-control",
+              "name": "b912be1d-88d0-46bd-8895-fd726ec63785"
+            },
+            {
+              "type": "textarea",
+              "label": "Notes",
+              "description": "Anything else you need to let us know? This won't be published on the page, it's just for notes.",
+              "className": "form-control",
+              "name": "00e8893a-38aa-4897-9b3e-6956fd2b799a"
+            }
+          ]
+        
+      </textarea>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+      <script src="https://formbuilder.online/assets/js/form-render.min.js"></script>
+      <script>
+        jQuery(function($) {
+          var formData = JSON.parse($('#fb-template').val());
+          $('#fb-render').formRender({
+            formData: formData
+          });
+        });
+      </script>
+    </div>
+  </article>
+</div>
+{{ end }}

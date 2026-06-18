@@ -1,0 +1,24 @@
+---
+title: Katie Johnston
+date: 2026-05-31T16:34:00-04:00
+featured_image: Katie-Johnston-1.webp
+featured_image_attr: Jax Headshots
+featured_image_attr_link: https://www.jaxheadshots.co/
+featured_image_alt: 
+featured_image_caption: Katie Johnston
+headshot_gallery:
+  - Katie-Johnston.webp
+roles:
+  - Actor
+  - Director
+  - Lighting Designer
+socials:
+  facebook: kathleen.johnston.58
+  twitter: 
+  instagram: katiejohnstonwellness
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://www.katiejohnstonwellness.com/
+---
+Katie is an active member of the Jacksonville film and theatre community. She has been seen recently on stage as Scarlet in *[[production: 2022 Clue| Clue]]*, Amanda in *[[production:2022 Private Lives|Private Lives]]*, and The Queen of Hearts in Alice in a *Christmas Wonderland*. Katie was voted “Best Actress” by Folio’s Best of The Beaches 2020 and “Best Comedian” by Folio’s Best of Jax 2019. Outside of rehearsals, Katie keeps busy by teaching yoga and running her own life coaching business.

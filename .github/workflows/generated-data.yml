@@ -3,8 +3,8 @@ name: Check generated data
 on:
   pull_request:
     paths:
-      - "content/**"
-      - "data/generated/**"
+      - "sites/jaxplays/content/**"
+      - "sites/jaxplays/data/generated/**"
       - "scripts/build_people_credit_index.py"
       - ".github/workflows/generated-data.yml"
       - "scripts/check_generated_data.sh"

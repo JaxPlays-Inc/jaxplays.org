@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" width="300px" height="300px" version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <title>Backstage.com Logo</title>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Backstage.com Logo</dc:title>
+        <cc:license rdf:resource=""/>
+        <dc:date>04/16/2021</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Addie GS</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title/>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>Backstage.com Brand Resources - Secondary Logo Mark</dc:source>
+        <dc:description>SVG Reproduction of the Backstage.com Secondary Mark "Isolated Triangle Mark", by Caitlin Watkins, to be used according to Backstage Identity Guilelines.</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title/>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:relation>https://www.notion.so/Logos-e9e14e5ab0aa400db9a6d9b5251f6d4c</dc:relation>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title/>
+          </cc:Agent>
+        </dc:rights>
+        <dc:language/>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>branding</rdf:li>
+            <rdf:li>logos</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path d="m125 0v1.332a75.16 74.471 0 0 1 64.754 73.754 75.16 74.471 0 0 1-64.754 73.752v1.7793a75.16 74.471 0 0 1 64.754 73.754 75.16 74.471 0 0 1-64.754 73.754v1.875h175v-300h-175z" stroke-width=".8165" style="mix-blend-mode:normal"/>
+  <rect width="115" height="300"/>
+</svg>

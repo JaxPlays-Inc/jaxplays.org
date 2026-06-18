@@ -1,0 +1,54 @@
+{{/* {{ define "header" }}{{ partial "page-header.html" . }}{{ end }} */}}
+{{ define "main" }}
+<style>
+  body{
+    background: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  #fb-rendered-form {
+    clear:both;
+    display:none;
+    button{
+      float:right;
+    }
+  }
+</style>
+<div class="flex-l mt2 mw8 center">
+  <article class="center cf pv5 ph3 ph4-ns mw8 w-100">
+    <div class="nested-copy-line-height lh-copy f5 f4-ns">
+      {{ .Content }}
+      <div id="fb-editor"></div>
+      <div id="fb-rendered-form">
+        <form action="#"></form>
+        <button class="btn btn-default edit-form">Edit</button>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+      <script src="https://formbuilder.online/assets/js/form-builder.min.js"></script>
+      <script src="https://formbuilder.online/assets/js/form-render.min.js"></script>
+      <script>
+        jQuery(function($) {
+          var $fbEditor = $(document.getElementById('fb-editor')),
+            $formContainer = $(document.getElementById('fb-rendered-form')),
+            fbOptions = {
+              onSave: function() {
+                $fbEditor.toggle();
+                $formContainer.toggle();
+                $('form', $formContainer).formRender({
+                  formData: formBuilder.formData
+                });
+              }
+            },
+            formBuilder = $fbEditor.formBuilder(fbOptions);
+        
+          $('.edit-form', $formContainer).click(function() {
+            $fbEditor.toggle();
+            $formContainer.toggle();
+          });
+        });
+      </script>
+    </div>
+  </article>
+</div>
+{{ end }}
