@@ -1,15 +1,10 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Build and deploy JaxPlays
 
 on:
-  # Runs on pushes targeting the default branch
+  pull_request:
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    
-  # Runs automatically at 6 a.m. UTC every day
   schedule:
     - cron: '0 6 * * *'
 
@@ -31,7 +26,6 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env:
@@ -48,28 +42,41 @@ jobs:
         with:
           submodules: recursive
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install Python dependencies
         run: python3 -m pip install --user PyYAML
+      - name: Check generated data
+        run: scripts/check_generated_data.sh
+      - name: Test newsletter worker
+        run: npm test
+        working-directory: workers/newsletter
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_URL="https://jaxplays.org/"
+          else
+            BASE_URL="${{ steps.pages.outputs.base_url }}/"
+          fi
+
           scripts/build_site.sh \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "$BASE_URL"
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./sites/jaxplays/public
 
-  # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: https://jaxplays.org
