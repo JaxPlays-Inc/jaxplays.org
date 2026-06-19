@@ -46,7 +46,7 @@
 
 {{ $theatreName := .Title }}
 {{ $theatreKey := $theatreName | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
-{{ $theatreProductionIndex := site.Data.generated.theatre_productions | default dict }}
+{{ $theatreProductionIndex := hugo.Data.generated.theatre_productions | default dict }}
 {{ $theatreProductions := index $theatreProductionIndex $theatreKey | default slice }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $currentlyOnStage := slice }}

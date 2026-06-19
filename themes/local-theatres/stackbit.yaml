@@ -22,8 +22,8 @@ models:
         description: Hostname (and path) to the root
         hidden: false
       - type: string
-        name: languageCode
-        label: Language Code
+        name: locale
+        label: Locale
         hidden: true
       - type: string
         name: MetaDataFormat

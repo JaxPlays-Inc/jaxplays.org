@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $currentDate := now.Format "2006-01-02" }}
-{{ $productionCards := site.Data.generated.production_cards | default slice }}
+{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
 {{ $productionCardByURL := dict }}
 {{ range $productionCards }}
   {{ $productionCardByURL = merge $productionCardByURL (dict .url .) }}

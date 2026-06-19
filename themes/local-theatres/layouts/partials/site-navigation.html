@@ -65,10 +65,10 @@
       <div class="items-center dn flex-xl">
         {{ partial "i18nlist.html" . }}
         {{ if .Site.Menus.main }}
-          <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ma0" "pl0 ma0" }}">
+          <ul class="{{ cond (eq $.Site.Language.Direction "rtl") "pr0 ma0" "pl0 ma0" }}">
             {{ range .Site.Menus.main }}
               {{ if .HasChildren }}
-                <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                <li class="list f5 f4-ns fw4 dib dropdown {{ cond (eq $.Site.Language.Direction "rtl") "pl3" "pr3" }}">
                   <a class="hover-white no-underline white-90 dropdown-toggle {{ if eq .Name "Donate" }} bg-jp-gold black ph3 pv2 jaxplays-donate-button {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                     {{ .Name }}
                   </a>
@@ -79,7 +79,7 @@
                   </ul>
                 </li>
               {{ else }}
-                <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.Direction "rtl") "pl3" "pr3" }}">
                   <a class="hover-white no-underline white-90 {{ if eq .Name "Donate" }} bg-jp-gold black ph3 pv2 jaxplays-donate-button {{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                     {{ .Name }}
                   </a>
@@ -107,7 +107,7 @@
      <div class="nav-links dn dn-m dn-l w-100-m flex-column" style="display: none;">
       {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-          <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown  {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
+          <div class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns dropdown  {{ cond (eq $.Site.Language.Direction "rtl") "pl3" "pr3" }}" onclick="toggleDropdown(this)">
             {{ .Name }}
             <div class="dropdown-menu mt2">
               {{ range .Children }}
@@ -116,7 +116,7 @@
             </div>
           </div>
         {{ else }}
-          <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} {{ if eq .Name "Donate" }}bg-yellow mv2{{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+          <a class="link b lh-title hover-white white-90 no-underline f5 pa3 f4-ns {{ cond (eq $.Site.Language.Direction "rtl") "pl3" "pr3" }} {{ if eq .Name "Donate" }}bg-yellow mv2{{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
             {{ .Name }}
           </a>
         {{ end }}

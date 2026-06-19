@@ -1,6 +1,6 @@
 {{- $page := .page -}}
 {{- $formKey := .form | default $page.Params.form_type | default $page.Layout -}}
-{{- $forms := index $page.Site.Data "submit" "forms" | default dict -}}
+{{- $forms := index hugo.Data "submit" "forms" | default dict -}}
 {{- $form := index $forms $formKey -}}
 {{- if not $form -}}
   {{- errorf "No submit form configured for %q" $formKey -}}

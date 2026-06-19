@@ -1,5 +1,5 @@
 {{ $urlName := .urlName | replaceRE "\\." "" | urlize }}
-{{ $generatedData := index site.Data "generated" | default dict }}
+{{ $generatedData := index hugo.Data "generated" | default dict }}
 {{ $peopleLookup := index $generatedData "people_lookup" | default dict }}
 {{ $foundPerson := index $peopleLookup $urlName }}
 {{ $defaultImage := "/media/default/people_headshot.webp" }}

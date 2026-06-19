@@ -107,7 +107,7 @@
     </div>
 
     <!-- Credits Section: Read precomputed credits from data/generated/people_credits.json -->
-    {{ $generatedData := index site.Data "generated" | default dict }}
+    {{ $generatedData := index hugo.Data "generated" | default dict }}
     {{ $peopleCreditIndex := index $generatedData "people_credits" | default dict }}
     {{ $personKey := .File.BaseFileName | urlize }}
     {{ $personCredits := index $peopleCreditIndex $personKey | default dict }}

@@ -44,7 +44,7 @@
 
 {{ $venueName := .Title }}
 {{ $venueKey := $venueName | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" }}
-{{ $venueProductionIndex := site.Data.generated.venue_productions | default dict }}
+{{ $venueProductionIndex := hugo.Data.generated.venue_productions | default dict }}
 {{ $venueProductions := index $venueProductionIndex $venueKey | default slice }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $currentlyOnStage := slice }}

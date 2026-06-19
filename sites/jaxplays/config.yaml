@@ -1,5 +1,5 @@
 baseURL: 'https://jaxplays.org'
-languageCode: 'en-us'
+locale: 'en-US'
 title: 'JaxPlays'
 theme: 'local-theatres'
 themesDir: '../../themes'

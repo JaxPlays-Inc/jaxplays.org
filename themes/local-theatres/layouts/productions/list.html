@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $currentDate := now.Format "2006-01-02" }}
 {{ $futureDate := now.AddDate 0 0 30 | time.Format "2006-01-02" }}
-{{ $productionCards := site.Data.generated.production_cards | default slice }}
+{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
 {{ $currentProductions := slice }}
 {{ $upcomingProductions := slice }}
 {{ $currentSearchProductions := slice }}

@@ -31,7 +31,7 @@ Also includes examples of Hugo Features or Functions:
 - `first`
 - `after`
 - `sort`
-- Site LanguageCode
+- Site Locale
 - `where`
 - Content Views
 - Partials
