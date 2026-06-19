@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "org.jaxplays.twa",
+        "sha256_cert_fingerprints": ["55:40:DA:1C:60:21:52:A5:45:6D:57:1F:AC:7A:42:92:E7:B8:8B:26:F9:FF:FD:F9:C0:B6:8D:2D:CE:62:DA:F9"]
+      }
+    }]

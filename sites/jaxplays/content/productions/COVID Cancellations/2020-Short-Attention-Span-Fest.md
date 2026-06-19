@@ -1,0 +1,17 @@
+---
+draft: true
+cancelled: COVID-19
+layout: productions
+title: Short Attention Span Fest
+date: 2023-09-08T00:00:00
+opening_date: 2020-07-10
+genres: 
+- Play
+theatre: The 5 & Dime
+website: https://www.the5anddime.org/short-attention-span-2020/
+showtimes:
+- 2020-07-10 20:00:00
+- 2020-07-11 20:00:00
+- 2020-07-12 14:00:00
+---
+"Join ''The 5 & Dime'' for a whole weekend of "one-act plays, monologues, storytelling, and other works too brief to showcase individually. — [SHORT ATTENTION SPAN FEST 2020 - The 5 & Dime](https://www.the5anddime.org/short-attention-span-2020/)

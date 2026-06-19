@@ -1,0 +1,60 @@
+<h1 class="f4 f3-m f2-l sectionline black">Sign up for the JaxPlays Spotlight Newsletter!</h1>
+<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+  <p>Every Wednesday, find out what which shows are currently on stage and where, which shows are opening this week, and
+    read trustworthy reviews so you know which shows you can't miss!</p>
+
+  <form class="newsletter-form" action="https://forms.jaxplays.org/newsletter.php" method="POST" novalidate>
+    <input type="email" name="email" placeholder="Your email address" required>
+
+
+    <!-- Honeypot -->
+    <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;">
+
+
+    <!-- Cloudflare Turnstile -->
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAAB1zTVGwJ9VBnPuO"></div>
+
+
+    <button type="submit">Subscribe</button>
+  </form>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+
+  <style>
+    /* layout */
+    form.newsletter-form {
+      display: flex;
+      max-width: 100%;
+      margin: 1rem 0
+    }
+
+    form.newsletter-form input[type=email] {
+      flex: 1;
+      padding: 12px 14px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px 0 0 4px;
+      outline: none
+    }
+
+    form.newsletter-form input[type=email]::placeholder {
+      color: #999
+    }
+
+    form.newsletter-form button {
+      background: #FFD600;
+      border: none;
+      font-weight: 700;
+      padding: 0 20px;
+      font-size: 16px;
+      border-radius: 0;
+      cursor: pointer;
+      transition: background .2s
+    }
+
+    form.newsletter-form button:hover {
+      background: #e6c200
+    }
+  </style>
+
+</div>

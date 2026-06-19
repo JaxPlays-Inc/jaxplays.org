@@ -1,0 +1,113 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+    <h1>All Cast, Crew, Understudies, and Orchestra</h1>
+
+    <!-- Cast and Crew Section -->
+    <section class="nested-copy-line-height lh-copy f4">
+      <h2>Cast and Crew</h2>
+      {{ $.Scratch.Set "allMap" (dict) }}
+
+      {{/* Initialize a map to store canonical names */}}
+      {{ $nameMap := dict }}
+      {{ range where site.Pages "Type" "people" }}
+        {{ $canonicalName := .Title }}
+        {{ range .Params.other_names }}
+          {{ $nameMap = merge $nameMap (dict . $canonicalName) }}
+        {{ end }}
+      {{ end }}
+
+      {{ range where site.Pages "Type" "productions" }}
+        {{/* Process cast */}}
+        {{ range .Params.cast }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{/* Process crew */}}
+        {{ range .Params.crew }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{/* Process understudies */}}
+        {{ range .Params.understudies }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{/* Process orchestra */}}
+        {{ range .Params.orchestra }}
+          {{ range $role, $names := . }}
+            {{ if eq (printf "%T" $names) "string" }}
+              {{ $canonicalName := index $nameMap $names | default $names }}
+              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+            {{ else }}
+              {{ range $names }}
+                {{ $canonicalName := index $nameMap . | default . }}
+                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
+                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
+      {{ $allMap := $.Scratch.Get "allMap" }}
+      {{ $creditArray := slice }}
+      {{ range $key, $val := $allMap }}
+        {{ $entry := dict "name" $key "count" $val }}
+        {{ $creditArray = $creditArray | append $entry }}
+      {{ end }}
+      {{ $sortedArray := sort $creditArray "count" "desc" }}
+      {{ $lineCount := 0 }}
+      {{ range $entry := $sortedArray }}
+        {{ $lineCount = add $lineCount 1 }}
+        <div>
+          {{ $count := index $entry "count" }}
+          {{ $name := index $entry "name" }}
+          {{ $urlName := $name | urlize }}
+          {{ with site.GetPage (print "/people/" $urlName) }}
+            {{ $lineCount }}. <a href="{{ .RelPermalink }}" target="_blank">{{ $name }} - {{ $count }}</a>
+          {{ else }}
+            {{ $lineCount }}. {{ $name }} - {{ $count }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </section>
+  </article>
+{{ end }}

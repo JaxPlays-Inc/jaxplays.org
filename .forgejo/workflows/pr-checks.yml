@@ -1,0 +1,43 @@
+name: PR checks
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  jaxplays:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.163.3
+      HUGO_ENVIRONMENT: production
+      HUGO_ENV: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O "${{ runner.temp }}/hugo.deb" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Install Python dependencies
+        run: python3 -m pip install --user PyYAML
+
+      - name: Check generated data
+        run: scripts/check_generated_data.sh
+
+      - name: Test newsletter worker
+        run: npm test
+        working-directory: workers/newsletter
+
+      - name: Build JaxPlays
+        run: scripts/build_site.sh --minify --baseURL "https://jaxplays.org/"

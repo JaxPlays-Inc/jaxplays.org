@@ -1,0 +1,582 @@
+.dark-mode,
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
+	background-color: #000;
+}
+
+.dark-mode,
+.dark-mode .blindlink,
+.dark-mode .blindlink:hover,
+.dark-mode .blindlink:active,
+.dark-mode .blindlink:visited,
+.dark-mode .om-text,
+.dark-mode .black:not(.dark-mode .black.bg-yellow),
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
+{
+	color: #fff !important;
+}
+
+.dark-mode a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: var(--jaxplays-gold);
+}
+
+.dark-mode a.bg-light-gray {
+	background-color: #333;
+}
+
+.dark-mode a.bg-light-gray:hover {
+	background-color: #444;
+}
+
+.dark-mode div.bg-white {
+	background-color: #333;
+}
+
+.dark-mode .home-dashboard,
+.dark-mode .home-dashboard * {
+	background-color: transparent;
+}
+
+.dark-mode .home-dashboard {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
+	background-color: #101214;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .home-dashboard .home-dashboard-hero {
+	border-bottom-color: #3a3428;
+}
+
+.dark-mode .home-dashboard .home-dashboard-kicker,
+.dark-mode .home-dashboard .home-dashboard-section-eyebrow,
+.dark-mode .home-dashboard .jp-section-more,
+.dark-mode .home-dashboard .home-dashboard-section-more,
+.dark-mode .home-dashboard .home-dashboard-summary-link {
+	color: #ffd600 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-subtitle,
+.dark-mode .home-dashboard .home-dashboard-meta,
+.dark-mode .home-dashboard .home-dashboard-story-summary {
+	color: #c8c3b7 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-panel,
+.dark-mode .home-dashboard .productions-directory-card,
+.dark-mode .home-dashboard .home-dashboard-story,
+.dark-mode .home-dashboard .home-dashboard-archive-link,
+.dark-mode .home-dashboard .home-dashboard-newsletter {
+	background-color: #1b1d21;
+	border-color: #3a3428;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard .productions-directory-poster-link {
+	background-color: #000;
+	border-color: #3a3428;
+}
+
+.dark-mode .home-dashboard .home-dashboard-hotitem {
+	border-top-color: rgba(245, 241, 232, .16);
+}
+
+.dark-mode .home-dashboard .home-dashboard-button,
+.dark-mode .home-dashboard .home-dashboard-newsletter button {
+	background-color: #24272d;
+	border-color: #d8c65d;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-button.primary,
+.dark-mode .home-dashboard .home-dashboard-newsletter button {
+	background-color: #ffd600;
+	border-color: #ffd600;
+	color: #171717 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-newsletter input[type="email"] {
+	background-color: #101214;
+	border-color: #5a5242;
+	color: #f5f1e8 !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-newsletter input[type="email"]::placeholder {
+	color: #9f9788;
+	opacity: 1;
+}
+
+.dark-mode .home-dashboard-badge {
+	background-color: #1f8c82 !important;
+	color: #fff !important;
+}
+
+.dark-mode .home-dashboard-badge.red {
+	background-color: #d04a43 !important;
+	color: #fff !important;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link {
+	border-top-color: #6f8cc1;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(2) {
+	border-top-color: #d04a43;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(3) {
+	border-top-color: #1f8c82;
+}
+
+.dark-mode .home-dashboard .home-dashboard-archive-link:nth-child(4) {
+	border-top-color: #ffd600;
+}
+
+.dark-mode .article-directory,
+.dark-mode .article-directory * {
+	background-color: transparent;
+}
+
+.dark-mode .article-directory {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
+	background-color: var(--jp-paper);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .article-directory a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .article-directory-hero {
+	border-bottom-color: rgba(246, 240, 227, .2);
+}
+
+.dark-mode .article-directory-kicker,
+.dark-mode .article-directory-section-eyebrow {
+	color: var(--jp-red);
+}
+
+.dark-mode .article-directory-subtitle,
+.dark-mode .article-directory-filter-status,
+.dark-mode .article-directory-empty,
+.dark-mode .article-directory-count,
+.dark-mode .article-directory-meta,
+.dark-mode .article-directory-summary {
+	color: var(--jp-muted);
+}
+
+.dark-mode .article-directory-card,
+.dark-mode .article-directory-empty {
+	background-color: var(--jp-cream);
+	border-color: var(--jp-line);
+}
+
+.dark-mode .article-directory-filter {
+	background-color: #111419;
+	border-color: var(--jp-line);
+	color: var(--jp-ink);
+}
+
+.dark-mode .article-directory-filter::placeholder {
+	color: #9f9788;
+}
+
+.dark-mode .article-directory-badge {
+	background-color: var(--jp-teal);
+	color: #fff !important;
+}
+
+.dark-mode .article-directory-badge--review {
+	background-color: var(--jp-red);
+	color: #fff !important;
+}
+
+.dark-mode .theatres-directory,
+.dark-mode .theatres-directory * {
+	background-color: transparent;
+}
+
+.dark-mode .theatres-directory {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
+	background-color: var(--jp-paper);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .theatres-directory a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .theatres-directory-hero {
+	border-bottom-color: var(--jp-line);
+}
+
+.dark-mode .theatres-directory-kicker,
+.dark-mode .theatres-directory-section-eyebrow,
+.dark-mode .theatres-directory-summary-link {
+	color: var(--jp-gold) !important;
+}
+
+.dark-mode .theatres-directory-subtitle,
+.dark-mode .theatres-directory-stats span span,
+.dark-mode .theatres-directory-filter-status,
+.dark-mode .theatres-directory-empty,
+.dark-mode .theatres-directory-count,
+.dark-mode .theatres-directory-meta {
+	color: var(--jp-muted) !important;
+}
+
+.dark-mode .theatres-directory-panel,
+.dark-mode .theatres-directory-stats > span,
+.dark-mode .theatres-directory-card,
+.dark-mode .theatres-directory-empty {
+	background-color: var(--jp-cream);
+	border-color: var(--jp-line);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .theatres-directory-filter,
+.dark-mode .theatres-directory-action,
+.dark-mode .people-directory-role-combobox,
+.dark-mode .people-directory-role-panel,
+.dark-mode .people-directory-role-search {
+	background-color: #24272d;
+	border-color: #d8c65d;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .people-directory-role-token {
+	background-color: #30343b;
+	border-color: #d8c65d;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .people-directory-role-token:hover,
+.dark-mode .people-directory-role-token:focus {
+	background-color: var(--jp-gold);
+	color: #171717 !important;
+}
+
+.dark-mode .people-directory-role-option {
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .people-directory-role-option:hover,
+.dark-mode .people-directory-role-option:focus,
+.dark-mode .people-directory-role-option.is-selected {
+	background-color: #30343b;
+}
+
+.dark-mode .theatres-directory-action--donate {
+	background-color: var(--jp-gold);
+	border-color: var(--jp-gold);
+	color: #171717 !important;
+}
+
+.dark-mode .theatres-directory-filter::placeholder {
+	color: #9f9788;
+	opacity: 1;
+}
+
+.dark-mode .theatres-directory-logo-link {
+	background-color: #000;
+	border-right-color: var(--jp-line);
+}
+
+.dark-mode .theatres-directory-logo--fallback {
+	background-color: #24272d;
+	color: var(--jp-blue) !important;
+}
+
+.dark-mode .theatres-directory-grid--archive .theatres-directory-card::after {
+	background: rgba(255, 255, 255, .08);
+}
+
+.dark-mode .theatres-directory-badge {
+	background-color: var(--jp-teal);
+	color: #fff !important;
+}
+
+.dark-mode .theatres-directory-badge--archive {
+	background-color: #6f7783;
+}
+
+.dark-mode .theatres-directory-badge--type {
+	background-color: var(--jp-blue);
+}
+
+.dark-mode .theatres-directory-badge--founded {
+	background-color: var(--jp-red);
+}
+
+.dark-mode .theatres-directory-badge--closed {
+	background-color: #000;
+	border: 1px solid #6f7783;
+}
+
+.dark-mode .productions-directory,
+.dark-mode .productions-directory * {
+	background-color: transparent;
+}
+
+.dark-mode .productions-directory {
+	--jp-ink: #f5f1e8;
+	--jp-muted: #c8c3b7;
+	--jp-line: #3a3428;
+	--jp-paper: #101214;
+	--jp-cream: #1b1d21;
+	--jp-red: #d04a43;
+	--jp-teal: #1f8c82;
+	--jp-blue: #6f8cc1;
+	background-color: var(--jp-paper);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .productions-directory a:not(.jaxplayslogo):not(.blindlink):not(.link):not(.pagination a):not(footer a):not(.bg-yellow) {
+	color: inherit;
+}
+
+.dark-mode .productions-directory-hero {
+	border-bottom-color: var(--jp-line);
+}
+
+.dark-mode .productions-directory-kicker,
+.dark-mode .productions-directory-section-eyebrow {
+	color: var(--jp-gold) !important;
+}
+
+.dark-mode .productions-directory-subtitle,
+.dark-mode .productions-directory-stats span span,
+.dark-mode .productions-directory-filter-status,
+.dark-mode .productions-directory-empty,
+.dark-mode .productions-directory-count,
+.dark-mode .productions-directory-meta,
+.dark-mode .productions-directory-summary {
+	color: var(--jp-muted) !important;
+}
+
+.dark-mode .productions-directory-theatre {
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory {
+	--jp-ink: #f5f0e8;
+	--jp-muted: #c8c1b7;
+	--jp-line: #5a5148;
+	--jp-paper: #1f2326;
+	--jp-cream: #302d28;
+	background-color: var(--jp-paper) !important;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory-kicker,
+.dark-mode .calendar-directory-section-eyebrow {
+	color: var(--jp-gold) !important;
+}
+
+.dark-mode .calendar-directory-subtitle,
+.dark-mode .calendar-directory-stats span span {
+	color: var(--jp-muted) !important;
+}
+
+.dark-mode .calendar-directory-panel,
+.dark-mode .calendar-directory-stats > span,
+.dark-mode .calendar-directory-frame,
+.dark-mode .calendar-directory-theatre-combobox,
+.dark-mode .calendar-directory-theatre-panel,
+.dark-mode .calendar-directory-theatre-search {
+	background-color: var(--jp-cream) !important;
+	border-color: var(--jp-line) !important;
+}
+
+.dark-mode .calendar-directory-theatre-token {
+	background: #282d31 !important;
+	border-color: var(--jp-line) !important;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory-theatre-token:hover,
+.dark-mode .calendar-directory-theatre-token:focus {
+	background: var(--jp-gold) !important;
+	border-color: var(--jp-gold) !important;
+	color: #171717 !important;
+}
+
+.dark-mode .calendar-directory-theatre-option {
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory-theatre-option:hover,
+.dark-mode .calendar-directory-theatre-option:focus,
+.dark-mode .calendar-directory-theatre-option.is-selected,
+.dark-mode .calendar-directory .fc .fc-col-header-cell,
+.dark-mode .calendar-directory .fc .fc-list-day-cushion {
+	background-color: #282d31 !important;
+}
+
+.dark-mode .calendar-directory .fc,
+.dark-mode .calendar-directory .fc .fc-toolbar-title,
+.dark-mode .calendar-directory .fc .fc-col-header-cell-cushion,
+.dark-mode .calendar-directory .fc .fc-daygrid-day-number,
+.dark-mode .calendar-directory .fc .fc-list-day-text,
+.dark-mode .calendar-directory .fc .fc-list-day-side-text {
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory .fc .fc-button-primary {
+	background-color: #282d31 !important;
+	border-color: var(--jp-line) !important;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .calendar-directory .fc .fc-button-primary:hover,
+.dark-mode .calendar-directory .fc .fc-button-primary:focus,
+.dark-mode .calendar-directory .fc .fc-button-primary:not(:disabled).fc-button-active,
+.dark-mode .calendar-directory .fc .fc-button-primary:not(:disabled):active {
+	background-color: var(--jp-gold) !important;
+	border-color: var(--jp-gold) !important;
+	color: #171717 !important;
+}
+
+.dark-mode .calendar-directory .fc-theme-standard td,
+.dark-mode .calendar-directory .fc-theme-standard th,
+.dark-mode .calendar-directory .fc-theme-standard .fc-scrollgrid {
+	border-color: var(--jp-line) !important;
+}
+
+.dark-mode .productions-directory-panel,
+.dark-mode .productions-directory-stats > span,
+.dark-mode .productions-directory-card,
+.dark-mode .genre-directory-card,
+.dark-mode .productions-directory-empty {
+	background-color: var(--jp-cream);
+	border-color: var(--jp-line);
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .productions-directory-filter {
+	background-color: #24272d;
+	border-color: #d8c65d;
+	color: var(--jp-ink) !important;
+}
+
+.dark-mode .productions-directory-filter::placeholder {
+	color: #9f9788;
+	opacity: 1;
+}
+
+.dark-mode .productions-directory-poster-link {
+	background-color: #000;
+	border-right-color: var(--jp-line);
+}
+
+.dark-mode .productions-directory-badge {
+	background-color: var(--jp-teal);
+	color: #fff !important;
+}
+
+.dark-mode .productions-directory-badge--genre {
+	background-color: var(--jp-gold);
+	color: #171717 !important;
+}
+
+.dark-mode-toggle {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.dark-mode-icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url("/css/moon-icon.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: invert(1);
+}
+
+body.dark-mode .dark-mode-icon {
+	background-image: url("/css/sun-icon.svg");
+	filter: invert(1);
+}
+
+.dark-mode .pagination li a span {
+	background-color: #fff;
+	color: #000;
+}
+
+/* Dark mode for the seating charts */
+
+/* Restore base seat chart visuals in dark mode */
+.dark-mode .seatCharts-container,
+.dark-mode .seatCharts-row,
+.dark-mode .seatCharts-cell {
+  background-color: transparent !important;
+  color: inherit;
+}
+
+/* Standard seats */
+.dark-mode .seatCharts-seat.available {
+  background-color: #666 !important;
+}
+
+/* Selected seats */
+.dark-mode .seatCharts-seat.selected {
+  background-color: var(--jaxplays-red) !important;
+  color: #000 !important;
+}
+
+/* Focused seats */
+.dark-mode .seatCharts-seat.focused {
+  background-color: var(--jaxplays-gold) !important;
+}
+
+/* Unavailable seats */
+.dark-mode .seatCharts-seat.unavailable {
+  background-color: #222 !important;
+  color: #999 !important;
+  cursor: not-allowed;
+}
+
+/* ADA seat in dark mode */
+.dark-mode .seatCharts-seat.ada-seat {
+  background-color: #2196f3 !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM120.5 247.2c12.4-4.7 18.7-18.5 14-30.9s-18.5-18.7-30.9-14C43.1 225.1 0 283.5 0 352c0 88.4 71.6 160 160 160c61.2 0 114.3-34.3 141.2-84.7c6.2-11.7 1.8-26.2-9.9-32.5s-26.2-1.8-32.5 9.9C240 440 202.8 464 160 464C98.1 464 48 413.9 48 352c0-47.9 30.1-88.8 72.5-104.8zM259.8 176l-1.9-9.7c-4.5-22.3-24-38.3-46.8-38.3c-30.1 0-52.7 27.5-46.8 57l23.1 115.5c6 29.9 32.2 51.4 62.8 51.4l5.1 0c.4 0 .8 0 1.3 0l94.1 0c6.7 0 12.6 4.1 15 10.4L402 459.2c6 16.1 23.8 24.6 40.1 19.1l48-16c16.8-5.6 25.8-23.7 20.2-40.5s-23.7-25.8-40.5-20.2l-18.7 6.2-25.5-68c-11.7-31.2-41.6-51.9-74.9-51.9l-68.5 0-9.6-48 63.4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-76.2 0z' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px 14px;
+}
+
+/* Selected ADA seat */
+.dark-mode .seatCharts-seat.ada-seat.selected {
+  background-color: #42a5f5 !important;
+}
+.dark-mode div.seatCharts-seat.ada-seat.focused {
+	background-color: var(--jaxplays-gold) !important;
+}
+.dark-mode div.seatCharts-seat.ada-seat.selected {
+	background-color: var(--jaxplays-red) !important;
+}

@@ -1,0 +1,117 @@
+{{ define "main" }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
+{{ $productionCardByURL := dict }}
+{{ range $productionCards }}
+  {{ $productionCardByURL = merge $productionCardByURL (dict .url .) }}
+{{ end }}
+{{ $pastProductions := slice }}
+{{ $pastProductionCards := slice }}
+
+{{ range where .Site.RegularPages "Section" "productions" }}
+  {{ $production := . }}
+  {{ $openingDate := "" }}
+  {{ $endDate := "" }}
+  {{ with $production.Params.opening_date }}
+    {{ $openingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ with $production.Params.closing_date }}
+    {{ $endDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ if and $openingDate (not $endDate) }}
+    {{ $endDate = $openingDate }}
+  {{ end }}
+  {{ if and $openingDate $endDate }}
+    {{ if and (lt $openingDate $currentDate) (lt $endDate $currentDate) }}
+      {{ $pastProductions = $pastProductions | append $production }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ range $productionCards }}
+  {{ $openingDate := .openingDate }}
+  {{ $endDate := .closingDate | default $openingDate }}
+  {{ if and $openingDate $endDate }}
+    {{ if and (lt $openingDate $currentDate) (lt $endDate $currentDate) }}
+      {{ $pastProductionCards = $pastProductionCards | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedPages := sort $pastProductions "Params.closing_date" "desc" }}
+{{ $paginator := .Paginate $sortedPages 24 }}
+{{ $productionIndex := slice }}
+{{ $playCount := 0 }}
+{{ $musicalCount := 0 }}
+{{ range $pastProductionCards }}
+  {{ $productionIndex = $productionIndex | append (merge . (dict "status" "Past Production" "showTickets" false "search" (printf "%s %s" (.searchBase | default "") "Past Production"))) }}
+  {{ if in .genres "Play" }}
+    {{ $playCount = add $playCount 1 }}
+  {{ end }}
+  {{ if in .genres "Musical" }}
+    {{ $musicalCount = add $musicalCount 1 }}
+  {{ end }}
+{{ end }}
+
+<article class="productions-directory productions-directory--past">
+  <div class="productions-directory-shell">
+    <header class="productions-directory-hero">
+      <div>
+        <p class="productions-directory-kicker">Production Archive</p>
+        <h1 class="productions-directory-title">Past Productions</h1>
+        <p class="productions-directory-subtitle">A paginated archive of closed productions, sorted by most recent closing date.</p>
+      </div>
+      <div class="productions-directory-panel">
+        <div class="productions-directory-stats">
+          <span>
+            <strong>{{ $playCount }}</strong>
+            <span>Plays</span>
+          </span>
+          <span>
+            <strong>{{ $musicalCount }}</strong>
+            <span>Musicals</span>
+          </span>
+          <span>
+            <strong>{{ len $sortedPages }}</strong>
+            <span>Past Total</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="productions-directory-search">
+      <label class="productions-directory-search-label" for="past-productions-filter">Filter all past productions</label>
+      <input id="past-productions-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search the full archive by title, theatre, venue, genre, or description">
+      <p class="productions-directory-filter-status" aria-live="polite" data-production-filter-status>{{ len $paginator.Pages }} productions shown on this page</p>
+    </div>
+
+    <section class="productions-directory-section" aria-labelledby="past-productions" data-production-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">Closed Productions</p>
+          <h2 id="past-productions">Past Productions</h2>
+        </div>
+        <span class="productions-directory-count" data-production-section-count>{{ len $paginator.Pages }} shown</span>
+      </div>
+      <div class="productions-directory-grid">
+        {{ range $paginator.Pages }}
+          {{ $card := index $productionCardByURL .RelPermalink }}
+          {{ if $card }}
+            {{ partial "production-summary-card.html" (dict "production" $card "status" "Past Production" "showTickets" false) }}
+          {{ else }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    <p class="productions-directory-empty" data-production-filter-empty hidden>No past productions match that search.</p>
+
+    <div data-production-pagination>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
+</article>
+
+<script type="application/json" id="production-directory-data">{{ $productionIndex | jsonify }}</script>
+{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#past-productions-filter" "searchEyebrow" "Past productions" "searchTitle" "Search Results") }}
+{{ end }}

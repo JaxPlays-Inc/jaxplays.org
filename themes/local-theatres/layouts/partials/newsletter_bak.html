@@ -1,0 +1,81 @@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const lastClosed = localStorage.getItem('lastClosed');
+    const lastSignedUp = localStorage.getItem('lastSignedUp');
+    const currentDate = new Date();
+
+    // Check if popup should appear based on dates and intervals
+    if ((!lastSignedUp || currentDate - new Date(lastSignedUp) > 31536000000) && 
+        (!lastClosed || currentDate - new Date(lastClosed) > 604800000)) {
+      Swal.fire({
+        title: "Always have a front-row seat with the JaxPlays Spotlight!",
+        html: `
+        <div style="text-align:left;">
+          <p>Love theater? So do we!</p>
+          <p>Subscribe to JaxPlays Spotlight, and become an insider in Jacksonville's lively theater scene! Here's what to expect:</p>
+          <p><strong>Upcoming Shows:</strong> Be the first to know about must-see productions.</p>
+          <p><strong>Reviews:</strong> Trustworthy reviews that get straight to the point—what's worth your time and why.</p>
+          <p><strong>Date Night Ideas:</strong> Pairings of local dining spots and plays for a perfect night out.</p>
+          <iframe style="border:0; width: 100%;" src="https://forms.jaxplays.org/newsletter-signup-form/"></iframe>
+        </div>
+        `,
+        showClass: {
+          popup: 'animate__animated animate__fadeInUp animate__faster'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutDown animate__faster'
+        },
+        showConfirmButton: false,
+        showCloseButton: true,
+        closeButtonHtml: '<strong>X</strong>',
+        customClass: {
+          closeButton: 'swal2-close-button-custom'
+        },
+        willClose: () => {
+          // Set the last closed date to now when closing without signing up
+          localStorage.setItem('lastClosed', new Date().toISOString());
+        }
+      });
+    }
+
+    window.addEventListener('message', function (event) {
+      console.log("Received message:", event.data); // Logs every message for debugging
+      
+      if (event.origin === "https://forms.jaxplays.org" && event.data === 'formSubmitted') {
+        console.log("Form submission confirmed, closing modal in 3 seconds.");
+        localStorage.setItem('lastSignedUp', new Date().toISOString());
+        setTimeout(() => {
+          Swal.close();
+        }, 3000);
+      }
+    });
+    
+  });
+</script>
+<style>
+  .swal2-close-button-custom {
+    position: absolute;
+    top: .5rem;
+    right: 0;
+    font-size: 2rem;
+    color: black;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .swal2-close-button-custom:hover {
+    color: var(--jaxplays-gold);
+  }
+
+  .swal2-title {
+    margin-top: 1rem;
+  }
+
+  div:where(.swal2-container) button:where(.swal2-close):focus {
+    outline: none;
+    box-shadow: none;
+  }
+</style>

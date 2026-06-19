@@ -1,8 +1,0 @@
-{{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
-{{ if eq .Type "productions" }}
-  {{ with .Title }}{{ . }} | {{ end }}
-  {{ with .Params.theatre }}{{ . }} | {{ end }}
-  {{ .Site.Title }}: {{ .Site.Params.tagline }}
-{{ else }}
-    {{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}: {{ .Site.Params.tagline }}
-{{ end }}

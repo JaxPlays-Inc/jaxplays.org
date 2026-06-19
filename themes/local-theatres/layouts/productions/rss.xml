@@ -1,0 +1,106 @@
+{{- $authorName := .Params.author }}
+{{- $authorEmail := "" }}
+{{- with .Site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
+{{- $pages := slice }}
+{{- if or $.IsHome $.IsSection }}
+  {{- $pages = $pctx.RegularPages }}
+{{- else }}
+  {{- $pages = $pctx.Pages }}
+{{- end }}
+{{- $filteredPages := where $pages "Params.opening_date" "ne" nil }}
+{{- $sortedPages := sort $filteredPages "Params.opening_date" "asc" }}
+
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Productions on stage and opening this week {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo</generator>
+    <language>{{ .Site.Language.Locale }}</language>
+    {{ with $authorEmail }}
+    <managingEditor>{{ . }}{{ with .Site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>
+    <webMaster>{{ . }}{{ with .Site.Params.author.name }} ({{ . }}){{ end }}</webMaster>
+    {{ end }}
+    {{ if not .Date.IsZero }}
+    <lastBuildDate>{{ (index $sortedPages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ end }}
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+
+    {{- $currentDate := now.Format "2006-01-02" | time }}
+    {{- $w := int $currentDate.Weekday }} {{/* Sunday=0 ... Saturday=6 */}}
+
+    {{- $daysToAdd := 0 }}
+    {{- if or (le $w 1) (ge $w 5) }}
+        {{- /* Sunday(0), Monday(1), Friday(5), Saturday(6) → Tuesday after next */}}
+        {{- $daysToAdd = int (add (mod (add (sub 2 $w) 7) 7) 7) }}
+    {{- else }}
+        {{- /* Tuesday(2), Wednesday(3), Thursday(4) → next Tuesday */}}
+        {{- $daysToAdd = int (mod (add (sub 2 $w) 7) 7) }}
+    {{- end }}
+
+    {{- $nextTuesday := $currentDate.AddDate 0 0 $daysToAdd }}
+
+    {{- $includedPages := slice }}
+    {{- range $sortedPages }}
+      {{- if and .Params.opening_date .Params.closing_date }}
+        {{- $opening_date := time .Params.opening_date }}
+        {{- $closing_date := time .Params.closing_date }}
+        {{- if and (le $opening_date $nextTuesday) (ge $closing_date $currentDate) }}
+          {{- $includedPages = $includedPages | append . }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+
+    {{- $limit := .Site.Config.Services.RSS.Limit }}
+    {{- if ge $limit 1 }}
+      {{- $includedPages = first $limit $includedPages }}
+    {{- end }}
+
+    {{- range $includedPages }}
+      {{- $opening_date := time .Params.opening_date }}
+      {{- $closing_date := time .Params.closing_date }}
+      {{- $matchingShow := index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0 }}
+      {{- $description := .Params.description | default $matchingShow.Params.description }}
+      {{- $content := .Content | default $matchingShow.Content }}
+      {{- $featuredImage := .Params.featured_image | default $matchingShow.Params.featured_image }}
+      {{- $featuredImageAlt := .Params.featured_image_alt | default $matchingShow.Params.featured_image_alt | default (printf "%s poster" .Title) }}
+      {{- $genres := .Params.genres | default $matchingShow.Params.genres | default slice }}
+      {{- $productionStatus := "Coming Soon" }}
+      {{- if and (le $opening_date $currentDate) (ge $closing_date $currentDate) }}
+        {{- $productionStatus = "Now Playing" }}
+      {{- end }}
+      {{- $card := partial "production-rss-card.html" (dict "page" . "status" $productionStatus "description" $description "featuredImage" $featuredImage "featuredImageAlt" $featuredImageAlt "genres" $genres "openingDate" $opening_date "closingDate" $closing_date) }}
+
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{- if or $authorEmail $authorName }}
+        <author>{{ if $authorEmail }}{{ $authorEmail }}{{ if $authorName }} ({{ $authorName }}){{ end }}{{ else if $authorName }}{{ $authorName }}{{ end }}</author>
+        {{- end }}
+        <guid>{{ .Permalink }}</guid>
+        <description>
+          {{- $card | transform.XMLEscape | safeHTML -}}
+        </description>
+        <content>
+          {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
+        </content>
+        {{ if $featuredImage }}
+        <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
+        {{ end }}
+      </item>
+    {{- end }}
+  </channel>
+</rss>

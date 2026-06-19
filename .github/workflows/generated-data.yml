@@ -3,8 +3,8 @@ name: Check generated data
 on:
   pull_request:
     paths:
-      - "content/**"
-      - "data/generated/**"
+      - "sites/jaxplays/content/**"
+      - "sites/jaxplays/data/generated/**"
       - "scripts/build_people_credit_index.py"
       - ".github/workflows/generated-data.yml"
       - "scripts/check_generated_data.sh"
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install Python dependencies
         run: python3 -m pip install --user PyYAML

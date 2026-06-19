@@ -1,0 +1,11 @@
+User-agent: *
+{{/* Check if we are in production mode */}}
+{{ if or (eq (getenv "HUGO_ENV") "production") (eq .Site.Params.env "production") }}
+Disallow: /genres/
+Disallow: /shows/
+Allow: /
+Sitemap: {{ "/sitemap.xml" | absURL }}
+{{ else }}
+{{/* If not in production, disallow all crawling */}}
+Disallow: /
+{{ end }}

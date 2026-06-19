@@ -1,0 +1,45 @@
+{{ $urlName := .urlName | replaceRE "\\." "" | urlize }}
+{{ $generatedData := index hugo.Data "generated" | default dict }}
+{{ $peopleLookup := index $generatedData "people_lookup" | default dict }}
+{{ $foundPerson := index $peopleLookup $urlName }}
+{{ $defaultImage := "/media/default/people_headshot.webp" }}
+{{ if and .showImage }}
+  {{ $imageToUse := $defaultImage }}
+  {{ $personName := .urlName }}
+  {{ $creditLabel := .creditLabel }}
+  {{ if $foundPerson }}
+    {{ $personName = $foundPerson.title }}
+    {{ if $foundPerson.featured_image }}
+      {{ $imageToUse = (print "/media/headshots/" $foundPerson.featured_image) }}
+    {{ end }}
+    <a href="{{ $foundPerson.permalink }}" class="flex flex-column items-center{{ if $creditLabel }} production-credit-person{{ end }} slow-grow" >
+      <div class="br-100 cover mb1 w4 h4{{ if $creditLabel }} production-credit-image{{ end }}" style="background-position: top center; background-image: url('{{ $imageToUse | relURL }}');"></div>
+      {{ if $creditLabel }}
+        <span class="production-credit-copy">
+          <span class="tc f5 w4 production-credit-name" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
+          <span class="tc f6 w4 production-credit-role" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $creditLabel }}</span>
+        </span>
+      {{ else }}
+        <span class="tc f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $personName }}</span>
+      {{ end }}
+    </a>
+  {{ else }}
+    <span class="flex flex-column items-center{{ if $creditLabel }} production-credit-person{{ end }}"{{ if not $creditLabel }} style="width: 150px;"{{ end }}>
+      <div class="br-100 cover mb1 w4 h4{{ if $creditLabel }} production-credit-image{{ end }}" style="background-position: top center; background-image: url('{{ $defaultImage | relURL }}');"></div>
+      {{ if $creditLabel }}
+        <span class="production-credit-copy">
+          <span class="tc w-100 f5 w4 production-credit-name" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ .urlName }}</span>
+          <span class="tc w-100 f6 w4 production-credit-role" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ $creditLabel }}</span>
+        </span>
+      {{ else }}
+        <span class="tc w-100 f5 w4" style="display: block; white-space: normal; overflow-wrap: break-word;">{{ .urlName }}</span>
+      {{ end }}
+    </span>
+  {{ end }}
+{{ else }}
+  {{ if $foundPerson }}
+    <a href="{{ $foundPerson.permalink }}" class="ml1">{{ $foundPerson.title }}</a>
+  {{ else }}
+    <span class="ml1">{{ .urlName }}</span>
+  {{ end }}
+{{ end }}

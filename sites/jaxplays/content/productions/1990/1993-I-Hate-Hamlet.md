@@ -1,0 +1,55 @@
+---
+title: I Hate Hamlet
+date: 2023-09-08T00:00:00
+opening_date: 1993-11-05
+closing_date: 1993-11-20
+layout: productions
+program:
+theatre: Theatre Jacksonville
+venue: Little Theatre
+cast:
+- Felicia Dantene: Simone Aden
+- Andrew Rally: Bill Ratliff
+- Deirdre McDavey: Kathy Biddle
+- Lillian Troy: Bacot Wright
+- John Barrymore: Gregory Leute
+- Gary Peter Lefkowicz: Darren Frazier
+crew:
+- Artistic Director: Robert Arleigh White
+- Scene Design and Technical Direction:
+  - Shawn Meharg
+  - Craig Van Zandt
+- Assistant Director: Sallyn Shilling
+- Stage Manager: Valerie Howard
+- Stunt Choreographer: Darren Frazier
+- Costume Coordinator: Kristina Bushman
+- Costume Assistant: Judy Herrin
+- Lighting Design: Pam Jackson
+- Lighting Crew:
+  - Gloria Pepe
+  - Darren Frazier
+  - Valerie Howard
+  - Jimmy Aquino
+  - Robert Arleigh White
+- Sound Design:
+  - Robert Arleigh White
+  - Charlie Chase
+- Properties Mistress: Ronda Lynch
+- Properties Crew:
+  - Carmen Chronister
+  - Bruce Musser
+  - Jeff Frank
+  - Beth Harvey
+- Chaise Lounge: Bruce Musser
+- Set Crew:
+  - Valerie Howard
+  - Darren Frazier
+  - Jimmy Aquino
+- Stage Crew:
+  - Ronda Lynch
+  - Carmen Chronister
+- Hair and Make-up: Bruce Musser
+- Playbill Cover Art: Gerald Charm
+orchestra:
+---
+

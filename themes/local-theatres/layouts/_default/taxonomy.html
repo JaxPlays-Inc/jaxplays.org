@@ -1,0 +1,337 @@
+{{ define "main" }}
+{{ if eq .Title "Genres" }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $genreMap := dict }}
+{{ $showGenreMap := dict }}
+
+{{ range where .Site.Pages "Type" "shows" }}
+  {{ $show := . }}
+  {{ with $show.Params.genres }}
+    {{ $showGenreMap = merge $showGenreMap (dict $show.Title .) }}
+  {{ end }}
+{{ end }}
+
+{{ range where .Site.RegularPages "Section" "productions" }}
+  {{ $production := . }}
+  {{ $genres := $production.Params.genres | default slice }}
+  {{ if not $genres }}
+    {{ $genres = index $showGenreMap $production.Title | default slice }}
+  {{ end }}
+  {{ if eq (printf "%T" $genres) "string" }}
+    {{ $genres = slice $genres }}
+  {{ end }}
+
+  {{ $openingDate := "" }}
+  {{ $closingDate := "" }}
+  {{ with $production.Params.opening_date }}
+    {{ $openingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ with $production.Params.closing_date }}
+    {{ $closingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ if and $openingDate (not $closingDate) }}
+    {{ $closingDate = $openingDate }}
+  {{ end }}
+
+  {{ $bucket := "past" }}
+  {{ if and $openingDate $closingDate (le $openingDate $currentDate) (ge $closingDate $currentDate) }}
+    {{ $bucket = "current" }}
+  {{ else if and $openingDate (gt $openingDate $currentDate) }}
+    {{ $bucket = "upcoming" }}
+  {{ end }}
+
+  {{ range $genres }}
+    {{ $key := . | urlize }}
+    {{ $existing := index $genreMap $key | default (dict "title" . "current" 0 "upcoming" 0 "past" 0 "total" 0) }}
+    {{ $currentCount := index $existing "current" }}
+    {{ $upcomingCount := index $existing "upcoming" }}
+    {{ $pastCount := index $existing "past" }}
+    {{ if eq $bucket "current" }}
+      {{ $currentCount = add $currentCount 1 }}
+    {{ else if eq $bucket "upcoming" }}
+      {{ $upcomingCount = add $upcomingCount 1 }}
+    {{ else }}
+      {{ $pastCount = add $pastCount 1 }}
+    {{ end }}
+    {{ $genreMap = merge $genreMap (dict $key (dict "title" . "url" (printf "/genres/%s/" $key) "current" $currentCount "upcoming" $upcomingCount "past" $pastCount "total" (add (add $currentCount $upcomingCount) $pastCount))) }}
+  {{ end }}
+{{ end }}
+
+{{ $activeGenres := slice }}
+{{ $pastGenres := slice }}
+{{ range $genreMap }}
+  {{ if gt (add .current .upcoming) 0 }}
+    {{ $activeGenres = $activeGenres | append . }}
+  {{ else if gt .past 0 }}
+    {{ $pastGenres = $pastGenres | append . }}
+  {{ end }}
+{{ end }}
+{{ $activeGenres = sort $activeGenres "title" "asc" }}
+{{ $pastGenres = sort $pastGenres "title" "asc" }}
+{{ $totalGenres := add (len $activeGenres) (len $pastGenres) }}
+
+<article class="productions-directory genre-directory">
+  <div class="productions-directory-shell">
+    <header class="productions-directory-hero">
+      <div>
+        <p class="productions-directory-kicker">Production Genres</p>
+        <h1 class="productions-directory-title">Genres</h1>
+        <p class="productions-directory-subtitle">Browse JaxPlays productions by genre, with current and upcoming work separated from the archive.</p>
+      </div>
+      <div class="productions-directory-panel">
+        <div class="productions-directory-stats">
+          <span>
+            <strong>{{ len $activeGenres }}</strong>
+            <span>Active Genres</span>
+          </span>
+          <span>
+            <strong>{{ len $pastGenres }}</strong>
+            <span>Archive Genres</span>
+          </span>
+          <span>
+            <strong>{{ $totalGenres }}</strong>
+            <span>Total Genres</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="productions-directory-search">
+      <label class="productions-directory-search-label" for="genre-directory-filter">Filter genres</label>
+      <input id="genre-directory-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search by genre">
+      <p class="productions-directory-filter-status" aria-live="polite" data-genre-filter-status>{{ $totalGenres }} genres listed</p>
+    </div>
+
+    <section class="productions-directory-section" aria-labelledby="active-genres" data-genre-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">On Stage and Coming Soon</p>
+          <h2 id="active-genres">Current Production Genres</h2>
+        </div>
+        <span class="productions-directory-count" data-genre-section-count>{{ len $activeGenres }} listed</span>
+      </div>
+      <div class="genre-directory-grid">
+        {{ range $activeGenres }}
+          <a class="genre-directory-card slow-grow" href="{{ .url }}" data-genre-card data-genre-search="{{ .title | lower | htmlEscape }}">
+            <span class="productions-directory-badge productions-directory-badge--genre">Genre</span>
+            <strong class="genre-directory-card-title">{{ .title }}</strong>
+            <span class="genre-directory-card-meta">{{ add .current .upcoming }} current or upcoming · {{ .past }} past</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="productions-directory-section" aria-labelledby="archive-genres" data-genre-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">Past Productions</p>
+          <h2 id="archive-genres">Archive Genres</h2>
+        </div>
+        <span class="productions-directory-count" data-genre-section-count>{{ len $pastGenres }} listed</span>
+      </div>
+      <div class="genre-directory-grid">
+        {{ range $pastGenres }}
+          <a class="genre-directory-card slow-grow" href="{{ .url }}" data-genre-card data-genre-search="{{ .title | lower | htmlEscape }}">
+            <span class="productions-directory-badge">Archive</span>
+            <strong class="genre-directory-card-title">{{ .title }}</strong>
+            <span class="genre-directory-card-meta">{{ .past }} past productions</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+    <p class="productions-directory-empty" data-genre-filter-empty hidden>No genres match that search.</p>
+  </div>
+</article>
+
+<script>
+  (() => {
+    const root = document.querySelector('.genre-directory');
+    const input = document.querySelector('#genre-directory-filter');
+    if (!root || !input) return;
+
+    const sections = Array.from(root.querySelectorAll('[data-genre-section]'));
+    const status = root.querySelector('[data-genre-filter-status]');
+    const empty = root.querySelector('[data-genre-filter-empty]');
+    const normalize = (value) => value.trim().toLowerCase();
+
+    const applyFilter = () => {
+      const query = normalize(input.value);
+      let visibleTotal = 0;
+
+      sections.forEach((section) => {
+        const cards = Array.from(section.querySelectorAll('[data-genre-card]'));
+        let visibleSectionTotal = 0;
+
+        cards.forEach((card) => {
+          const isMatch = !query || normalize(card.dataset.genreSearch || '').includes(query);
+          card.hidden = !isMatch;
+          if (isMatch) {
+            visibleSectionTotal += 1;
+            visibleTotal += 1;
+          }
+        });
+
+        section.hidden = visibleSectionTotal === 0;
+        const count = section.querySelector('[data-genre-section-count]');
+        if (count) count.textContent = `${visibleSectionTotal} listed`;
+      });
+
+      if (status) status.textContent = `${visibleTotal} ${visibleTotal === 1 ? 'genre' : 'genres'} listed`;
+      if (empty) empty.hidden = visibleTotal !== 0;
+    };
+
+    input.addEventListener('input', applyFilter);
+  })();
+</script>
+{{ else if eq .Data.Singular "genre" }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $genreTitle := .Title }}
+{{ $genrePlural := $genreTitle | pluralize }}
+{{ $currentProductions := slice }}
+{{ $upcomingProductions := slice }}
+{{ $pastProductions := slice }}
+
+{{ range where .Pages "Section" "productions" }}
+  {{ $production := . }}
+  {{ $openingDate := "" }}
+  {{ $closingDate := "" }}
+  {{ with $production.Params.opening_date }}
+    {{ $openingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ with $production.Params.closing_date }}
+    {{ $closingDate = time . | time.Format "2006-01-02" }}
+  {{ end }}
+  {{ if and $openingDate (not $closingDate) }}
+    {{ $closingDate = $openingDate }}
+  {{ end }}
+
+  {{ if and $openingDate $closingDate (le $openingDate $currentDate) (ge $closingDate $currentDate) }}
+    {{ $currentProductions = $currentProductions | append $production }}
+  {{ else if and $openingDate (gt $openingDate $currentDate) }}
+    {{ $upcomingProductions = $upcomingProductions | append $production }}
+  {{ else }}
+    {{ $pastProductions = $pastProductions | append (dict "page" $production "sort_date" ($closingDate | default $openingDate)) }}
+  {{ end }}
+{{ end }}
+
+{{ $currentProductions = sort $currentProductions "Params.closing_date" "asc" }}
+{{ $upcomingProductions = sort $upcomingProductions "Params.opening_date" "asc" }}
+{{ $sortedPastProductions := sort $pastProductions "sort_date" "desc" }}
+{{ $pastPages := slice }}
+{{ range $sortedPastProductions }}
+  {{ $pastPages = $pastPages | append .page }}
+{{ end }}
+{{ $paginator := .Paginate $pastPages 24 }}
+{{ $activeProductions := $currentProductions | append $upcomingProductions }}
+{{ $totalProductions := add (len $activeProductions) (len $pastPages) }}
+
+<article class="productions-directory genre-directory genre-directory--single">
+  <div class="productions-directory-shell">
+    <header class="productions-directory-hero">
+      <div>
+        <p class="productions-directory-kicker">Genre</p>
+        <h1 class="productions-directory-title">{{ $genrePlural }}</h1>
+        <p class="productions-directory-subtitle">{{ $genrePlural }} grouped by what is playing now, what is coming next, and what has already closed.</p>
+      </div>
+      <div class="productions-directory-panel">
+        <div class="productions-directory-stats">
+          <span>
+            <strong>{{ len $currentProductions }}</strong>
+            <span>On Stage</span>
+          </span>
+          <span>
+            <strong>{{ len $upcomingProductions }}</strong>
+            <span>Coming Soon</span>
+          </span>
+          <span>
+            <strong>{{ len $pastPages }}</strong>
+            <span>Past</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="productions-directory-search">
+      <label class="productions-directory-search-label" for="genre-productions-filter">Filter {{ $genrePlural }}</label>
+      <input id="genre-productions-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search by title, theatre, venue, genre, or description">
+      <p class="productions-directory-filter-status" aria-live="polite" data-production-filter-status>{{ $totalProductions }} productions listed</p>
+    </div>
+
+    <section class="productions-directory-section" aria-labelledby="genre-active-productions" data-production-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">On Stage and Coming Soon</p>
+          <h2 id="genre-active-productions">Current and Upcoming {{ $genrePlural }}</h2>
+        </div>
+        <span class="productions-directory-count" data-production-section-count>{{ len $activeProductions }} listed</span>
+      </div>
+      <div class="productions-directory-grid">
+        {{ range $currentProductions }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
+        {{ end }}
+        {{ range $upcomingProductions }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="productions-directory-section" aria-labelledby="genre-past-productions" data-production-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow">Past Productions</p>
+          <h2 id="genre-past-productions">Past {{ $genrePlural }}</h2>
+        </div>
+        <span class="productions-directory-count" data-production-section-count>{{ len $pastPages }} listed</span>
+      </div>
+      <div class="productions-directory-grid">
+        {{ range $paginator.Pages }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
+        {{ end }}
+      </div>
+    </section>
+    <p class="productions-directory-empty" data-production-filter-empty hidden>No {{ $genrePlural | lower }} match that search.</p>
+
+    <div data-production-pagination>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
+</article>
+
+{{ partial "production-directory-filter-script.html" (dict "root" ".productions-directory" "input" "#genre-productions-filter" "searchEyebrow" "Genre productions" "searchTitle" "Search Results") }}
+{{ else }}
+<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
+  <h3 class="ph3 ph0-ns f2 mt0 mb2 sectionline">{{ i18n "taxonomyPageList" . }}</h3>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Pages }}
+      <div class="fl w-100 w-45-l pa2 mb4 bg-white">
+        {{ .Render "summary" }}
+      </div>
+    {{ end }}
+  </aside>
+
+  {{ template "_internal/pagination.html" . }}
+
+  <script>
+    document.addEventListener("keydown", function (event) {
+      if (event.metaKey) {
+        let nextUrlElement = document.querySelector('a[aria-label="Next"]');
+        let prevUrlElement = document.querySelector('a[aria-label="Previous"]');
+        
+        let nextUrl = nextUrlElement ? nextUrlElement.getAttribute("href") : null;
+        let prevUrl = prevUrlElement ? prevUrlElement.getAttribute("href") : null;
+        
+        console.log("Event code:", event.code);  // Debugging line
+        switch (event.code) {
+          case "ArrowRight":
+            if (nextUrl) { window.location.href = nextUrl; }
+            break;
+          case "ArrowLeft":
+            if (prevUrl) { window.location.href = prevUrl; }
+            break;
+        }
+      }
+    });       
+  </script>
+</article>
+{{ end }}
+{{ end }}

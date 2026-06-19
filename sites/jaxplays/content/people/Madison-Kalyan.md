@@ -1,0 +1,21 @@
+---
+title: Madison Kalyan
+date: 2024-11-28T20:47:35-05:00
+featured_image: Madison-Kalyan.webp
+featured_image_attr: 
+featured_image_attr_link: 
+featured_image_alt: 
+featured_image_caption: 
+roles:
+  - Actor
+socials:
+  facebook: 
+  twitter: 
+  instagram: 
+  linkedin: 
+  ibdb: 
+  imdb:
+  website: https://gallery.activemotionmedia.com/madisonkalyan/
+  youtube: "@Madison_elaine_k"
+---
+Madison is 12 years old and lives in Tampa, Florida. She has dreams of Broadway and loves to sing, dance, and perform. Roles include Mary Beth in [[production:2024 A Christmas Story: the Musical]], Lumiere in Beauty and the Beast Jr. and Little Anna in Frozen Jr.

@@ -1,0 +1,728 @@
+{{/*  {{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}  */}}
+{{ define "main" }}
+{{ $now := now }}
+{{ $soon := $now.AddDate 0 0 30 }}
+{{ $closingWindow := $now.AddDate 0 0 10 }}
+{{ $newsWindow := $now.AddDate 0 0 -28 }}
+{{ $productions := where .Site.RegularPages "Section" "productions" }}
+{{ $reviews := where .Site.RegularPages "Section" "reviews" }}
+{{ $news := where .Site.RegularPages "Section" "news" }}
+{{ $auditions := where .Site.RegularPages "Section" "auditions" }}
+{{ $nowPlaying := slice }}
+{{ $openingSoon := slice }}
+{{ $closingSoon := slice }}
+{{ $recentNews := slice }}
+{{ $recentAuditions := slice }}
+{{ range $productions }}
+  {{ $production := . }}
+  {{ with $production.Params.opening_date }}
+    {{ $opening := time . }}
+    {{ $closing := $opening }}
+    {{ with $production.Params.closing_date }}{{ $closing = time . }}{{ end }}
+    {{ if and (le $opening.Unix $now.Unix) (ge $closing.Unix $now.Unix) }}
+      {{ $nowPlaying = $nowPlaying | append $production }}
+      {{ if le $closing.Unix $closingWindow.Unix }}
+        {{ $closingSoon = $closingSoon | append $production }}
+      {{ end }}
+    {{ else if and (gt $opening.Unix $now.Unix) (le $opening.Unix $soon.Unix) }}
+      {{ $openingSoon = $openingSoon | append $production }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $nowPlaying = sort $nowPlaying "Params.closing_date" "asc" }}
+{{ $openingSoon = sort $openingSoon "Params.opening_date" "asc" }}
+{{ $closingSoon = sort $closingSoon "Params.closing_date" "asc" }}
+{{ $sortedNews := sort $news "Date" "desc" }}
+{{ range $news }}
+  {{ if and (not .Date.IsZero) (ge .Date.Unix $newsWindow.Unix) (le .Date.Unix $now.Unix) }}
+    {{ $recentNews = $recentNews | append . }}
+  {{ end }}
+{{ end }}
+{{ range $auditions }}
+  {{ if and (not .Date.IsZero) (ge .Date.Unix $newsWindow.Unix) (le .Date.Unix $now.Unix) }}
+    {{ $recentAuditions = $recentAuditions | append . }}
+  {{ end }}
+{{ end }}
+{{ $latestReviews := first 6 (sort $reviews "Date" "desc") }}
+{{ $latestNews := cond (gt (len $recentNews) 0) (first 6 $sortedNews) slice }}
+{{ $latestAuditions := first 6 (sort $recentAuditions "Date" "desc") }}
+
+<style>
+  .home-dashboard {
+    --jp-ink: #171717;
+    --jp-muted: #5f6670;
+    --jp-line: #d7d2c8;
+    --jp-paper: #f4f4f4;
+    --jp-cream: #f6f0e3;
+    --jp-gold: #ffd600;
+    --jp-red: #b7332f;
+    --jp-teal: #18736b;
+    --jp-blue: #28466f;
+    background: var(--jp-paper);
+    color: var(--jp-ink);
+  }
+
+  .home-dashboard a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .home-dashboard a:hover:not(.no-underline):not(.link),
+  .home-dashboard a:focus:not(.no-underline):not(.link) {
+    text-decoration: none;
+  }
+
+  .home-dashboard-shell {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    position: relative;
+  }
+
+  .home-dashboard-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+    gap: 1.25rem;
+    align-items: stretch;
+    border-bottom: 1px solid var(--jp-line);
+    padding-bottom: 1.5rem;
+  }
+
+  .home-dashboard-kicker {
+    color: var(--jp-red);
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0 0 .5rem;
+    text-transform: uppercase;
+  }
+
+  .home-dashboard-title {
+    font-size: clamp(2.1rem, 7vw, 5.6rem);
+    line-height: 1;
+    margin: 0;
+  }
+
+  .home-dashboard-subtitle {
+    color: var(--jp-muted);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    max-width: 42rem;
+    margin: 1rem 0 1.35rem;
+  }
+
+  .home-dashboard-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .home-dashboard-panel {
+    background: var(--jp-cream);
+    border: 1px solid var(--jp-line);
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .home-dashboard-panel-title {
+    margin: 0 0 .75rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .home-dashboard-hotlist {
+    display: grid;
+    gap: .75rem;
+  }
+
+  .home-dashboard-hotitem {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: .75rem;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    padding-top: .75rem;
+    text-decoration: none;
+  }
+
+  .home-dashboard-hotitem:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .home-dashboard-thumb {
+    aspect-ratio: 2 / 3;
+    background: #ddd;
+    border-radius: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .home-dashboard-hotitem strong,
+  .home-dashboard-story strong {
+    display: block;
+    line-height: 1.2;
+  }
+
+  .home-dashboard-meta {
+    color: var(--jp-muted);
+    display: block;
+    font-size: .85rem;
+    line-height: 1.35;
+    margin-top: .25rem;
+  }
+
+  .home-dashboard-section {
+    margin-top: 3rem;
+  }
+
+  .home-dashboard-production-section {
+    margin-top: 3rem;
+  }
+
+  .home-dashboard-ad-anchor {
+    position: relative;
+  }
+
+  @media screen and (max-width: 1919px) {
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail,
+    .home-dashboard .home-dashboard-ad-anchor > .right-rail {
+      margin: 2rem auto;
+      max-width: 100%;
+      position: static;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    .home-dashboard .home-dashboard-ad-anchor {
+      column-gap: 29px;
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1180px) 300px;
+      margin-left: calc((100% - min(1838px, calc(100vw - 82px))) / 2);
+      max-width: 1838px;
+      width: min(1838px, calc(100vw - 82px));
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .home-dashboard-ad-content {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail,
+    .home-dashboard .home-dashboard-ad-anchor > .right-rail {
+      align-self: start;
+      left: auto !important;
+      margin: 3.8rem 0;
+      max-width: 300px;
+      position: sticky !important;
+      grid-row: 1;
+      right: auto !important;
+      top: calc(5rem + 30px) !important;
+      width: 300px;
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .left-rail {
+      grid-column: 1;
+    }
+
+    .home-dashboard .home-dashboard-ad-anchor > .right-rail {
+      grid-column: 3;
+    }
+  }
+
+  .home-dashboard-section-head {
+    align-items: end;
+    display: grid;
+    gap: 0 1rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+    margin-bottom: .9rem;
+  }
+
+  .home-dashboard-section-head.sectionline:after {
+    grid-column: 1 / -1;
+  }
+
+  .home-dashboard-section-heading {
+    min-width: 0;
+  }
+
+  .home-dashboard-section-head h2 {
+    font-size: clamp(1.5rem, 4vw, 2.35rem);
+    margin: 0;
+  }
+
+  .home-dashboard-section-eyebrow {
+    color: var(--jp-red);
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 .25rem;
+    text-transform: uppercase;
+  }
+
+  .home-dashboard-section-title-link {
+    font-weight: 700;
+  }
+
+  .home-dashboard-section-title-link {
+    display: inline-block;
+  }
+
+  .home-dashboard-rail {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-dashboard-production-rail {
+    gap: 1.35rem;
+  }
+
+  .home-dashboard-story,
+  .home-dashboard-archive-link,
+  .home-dashboard-newsletter {
+    background: white;
+    border: 1px solid var(--jp-line);
+    border-radius: 0;
+  }
+
+  .home-dashboard-production-rail .productions-directory-summary {
+    display: none;
+  }
+
+  @media screen and (min-width: 521px) {
+    .home-dashboard-production-rail .productions-directory-card {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto auto 1fr;
+    }
+
+    .home-dashboard-production-rail .productions-directory-poster-link {
+      border-bottom: 1px solid var(--jp-line);
+      border-right: 0;
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .home-dashboard-production-rail .productions-directory-badges {
+      grid-column: 1;
+      grid-row: 2;
+      padding: .9rem .9rem 0;
+    }
+
+    .home-dashboard-production-rail .productions-directory-card-body {
+      grid-column: 1;
+      grid-row: 3;
+      padding: .4rem .9rem .9rem;
+    }
+  }
+
+  .home-dashboard-editorial {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-dashboard-story {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+  }
+
+  .article-card {
+    position: relative;
+  }
+
+  .article-card-hitarea {
+    inset: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .article-card-image-link,
+  .article-card-link {
+    position: relative;
+    z-index: 2;
+  }
+
+  .home-dashboard-story-body,
+  .home-dashboard-story-summary {
+    display: block;
+  }
+
+  .home-dashboard-story-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .home-dashboard-story-link:hover,
+  .home-dashboard-story-link:focus,
+  .home-dashboard-story-summary a:hover,
+  .home-dashboard-story-summary a:focus {
+    text-decoration: none;
+  }
+
+  .home-dashboard-story-title {
+    display: block;
+  }
+
+  .home-dashboard-story-summary {
+    display: -webkit-box;
+    margin-top: .65rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
+  .home-dashboard-story-summary p {
+    margin: 0;
+  }
+
+  .home-dashboard-summary-link {
+    display: inline-block;
+  }
+
+  .home-dashboard-story-body {
+    padding: .9rem;
+  }
+
+  .home-dashboard-story-image {
+    aspect-ratio: 16 / 9;
+    background: #ddd;
+    border-radius: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .home-dashboard-archive {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-dashboard-archive-link {
+    border-top: 5px solid var(--jp-blue);
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .home-dashboard-archive-link:nth-child(2) {
+    border-top-color: var(--jp-red);
+  }
+
+  .home-dashboard-archive-link:nth-child(3) {
+    border-top-color: var(--jp-teal);
+  }
+
+  .home-dashboard-archive-link:nth-child(4) {
+    border-top-color: var(--jp-gold);
+  }
+
+  .home-dashboard-count {
+    display: block;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: .4rem;
+  }
+
+  .home-dashboard-bottom {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .home-dashboard-newsletter {
+    padding: 1rem;
+  }
+
+  .home-dashboard-newsletter form {
+    display: grid;
+    gap: .75rem;
+    margin-top: .75rem;
+  }
+
+  .home-dashboard-newsletter-fields {
+    display: flex;
+  }
+
+  .home-dashboard-newsletter input[type="email"] {
+    border: 1px solid var(--jp-line);
+    border-radius: 0;
+    flex: 1;
+    min-width: 0;
+    padding: .75rem;
+  }
+
+  .home-dashboard-newsletter button {
+    background: var(--jp-gold);
+    border: 1px solid var(--jp-ink);
+    border-left: 1px solid var(--jp-ink);
+    border-radius: 0;
+    cursor: pointer;
+    font-weight: 900;
+    padding: .75rem .9rem;
+  }
+
+  .home-dashboard-newsletter button:disabled {
+    cursor: wait;
+    opacity: .68;
+  }
+
+  .home-dashboard-newsletter-honeypot {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .home-dashboard-newsletter-status {
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0;
+    min-height: 1.25rem;
+  }
+
+  .home-dashboard-newsletter-status[data-state="success"] {
+    color: var(--jp-teal);
+  }
+
+  .home-dashboard-newsletter-status[data-state="error"] {
+    color: var(--jp-red);
+  }
+
+  .home-dashboard-submit {
+    display: grid;
+    gap: .65rem;
+  }
+
+  @media screen and (max-width: 820px) {
+    .home-dashboard-hero,
+    .home-dashboard-editorial,
+    .home-dashboard-bottom {
+      grid-template-columns: 1fr;
+    }
+
+    .home-dashboard-editorial {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-dashboard-rail,
+    .home-dashboard-archive {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-dashboard-story {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .home-dashboard-shell {
+        padding: 1.1rem 1rem 3rem;
+    }
+
+    .home-dashboard-rail,
+    .home-dashboard-archive,
+    .home-dashboard-editorial {
+      grid-template-columns: 1fr;
+    }
+
+    .home-dashboard-section-head {
+      align-items: start;
+      grid-template-columns: 1fr;
+    }
+
+    .home-dashboard-production-rail {
+      gap: .75rem;
+    }
+
+    .home-dashboard-newsletter-fields {
+      display: grid;
+      gap: .5rem;
+    }
+
+    .home-dashboard-newsletter input[type="email"],
+    .home-dashboard-newsletter button {
+      border: 1px solid var(--jp-ink);
+      border-radius: 0;
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="home-dashboard">
+  <div class="home-dashboard-shell">
+    <section class="home-dashboard-hero" aria-labelledby="home-dashboard-title">
+      <div>
+        <p class="home-dashboard-kicker">Northeast Florida & Southeast Georgia Theatre</p>
+        <h1 id="home-dashboard-title" class="home-dashboard-title">Jacksonville theatre, tonight and beyond.</h1>
+        <p class="home-dashboard-subtitle">Find your next night at the theatre. See what's playing now, what's opening soon, what's about to close and what JaxPlays critics have reviewed.</p>
+        <div class="home-dashboard-actions">
+          <a class="home-dashboard-button primary home-dashboard-grow" href="/calendar/">View Calendar</a>
+          <a class="home-dashboard-button home-dashboard-grow" href="/productions/">Browse Shows</a>
+          <a class="home-dashboard-button home-dashboard-grow" href="/reviews/">Read Reviews</a>
+        </div>
+      </div>
+      <aside class="home-dashboard-panel" aria-labelledby="home-dashboard-closing">
+        <h2 id="home-dashboard-closing" class="home-dashboard-panel-title">Closing Soon</h2>
+        <div class="home-dashboard-hotlist">
+          {{ range first 4 $closingSoon }}
+            {{ $poster := .Params.featured_image }}
+            {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
+            <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
+              {{ if $poster }}
+                <img class="home-dashboard-thumb" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
+              {{ else }}
+                <img class="home-dashboard-thumb" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+              {{ end }}
+              <span>
+                <strong>{{ .Title }}</strong>
+                <span class="home-dashboard-meta">{{ .Params.theatre }}<br>Closes {{ time.Format "Jan 2" (time $closingDate) }}</span>
+              </span>
+            </a>
+          {{ else }}
+            <p class="home-dashboard-meta">No productions are currently inside the closing-soon window.</p>
+          {{ end }}
+        </div>
+      </aside>
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-production-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-now-playing">
+      {{- partial "GAM-left-rail-1.html" (dict "margin" "3.8rem 0") -}}
+      <div class="home-dashboard-ad-content">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">Currently on Stage</p>
+            <h2 id="home-dashboard-now-playing"><a class="home-dashboard-section-title-link" href="/productions/">On Stage Now</a></h2>
+          </div>
+        </div>
+        <div class="home-dashboard-rail home-dashboard-production-rail">
+          {{ range $nowPlaying }}
+            {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
+          {{ else }}
+            <p class="home-dashboard-meta">No current productions found.</p>
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/productions/">All productions</a>
+      </div>
+      {{- partial "GAM-right-rail-1.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-production-section" aria-labelledby="home-dashboard-opening">
+      <div class="home-dashboard-section-head sectionline">
+        <div class="home-dashboard-section-heading">
+          <p class="home-dashboard-section-eyebrow">Opening in the next 30 days</p>
+          <h2 id="home-dashboard-opening"><a class="home-dashboard-section-title-link" href="/calendar/opening-nights/">Opening Soon</a></h2>
+        </div>
+      </div>
+      <div class="home-dashboard-rail home-dashboard-production-rail">
+        {{ range first 8 $openingSoon }}
+          {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
+        {{ else }}
+          <p class="home-dashboard-meta">No upcoming productions found.</p>
+        {{ end }}
+      </div>
+      <a class="jp-section-more" href="/calendar/opening-nights/">Opening nights</a>
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-reviews">
+      {{- partial "GAM-left-rail-2.html" (dict "margin" "3.8rem 0") -}}
+      <div class="home-dashboard-ad-content">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">Criticism and Coverage</p>
+            <h2 id="home-dashboard-reviews"><a class="home-dashboard-section-title-link" href="/reviews/">Latest Reviews</a></h2>
+          </div>
+        </div>
+        <div class="home-dashboard-editorial">
+          {{ range $latestReviews }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/reviews/">More reviews</a>
+      </div>
+      {{- partial "GAM-right-rail-2.html" (dict "margin" "3.8rem 0" "right" "-345px") -}}
+    </section>
+
+    {{ if gt (len $latestNews) 0 }}
+      <section class="home-dashboard-section" aria-labelledby="home-dashboard-news">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">News and Updates</p>
+            <h2 id="home-dashboard-news"><a class="home-dashboard-section-title-link" href="/news/">Latest News</a></h2>
+          </div>
+        </div>
+        <div class="home-dashboard-editorial">
+          {{ range $latestNews }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/news/">More news</a>
+      </section>
+    {{ end }}
+
+    {{ if gt (len $latestAuditions) 0 }}
+      <section class="home-dashboard-section" aria-labelledby="home-dashboard-auditions">
+        <div class="home-dashboard-section-head sectionline">
+          <div class="home-dashboard-section-heading">
+            <p class="home-dashboard-section-eyebrow">Casting Opportunities</p>
+            <h2 id="home-dashboard-auditions"><a class="home-dashboard-section-title-link" href="/auditions/">Audition Announcements</a></h2>
+          </div>
+        </div>
+        <div class="home-dashboard-editorial">
+          {{ range $latestAuditions }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+          {{ end }}
+        </div>
+        <a class="jp-section-more" href="/auditions/">More auditions</a>
+      </section>
+    {{ end }}
+
+    <section class="home-dashboard-section" aria-labelledby="home-dashboard-archive">
+      <div class="home-dashboard-section-head sectionline">
+        <div class="home-dashboard-section-heading">
+          <p class="home-dashboard-section-eyebrow">Directory</p>
+          <h2 id="home-dashboard-archive" class="home-dashboard-section-title-link">Explore the Archive</h2>
+        </div>
+      </div>
+      <div class="home-dashboard-archive">
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/productions/">
+          <span class="home-dashboard-count">{{ len $productions }}</span>
+          <strong>Productions</strong>
+          <span class="home-dashboard-meta">Current, future and historical listings.</span>
+        </a>
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/people/">
+          <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "people") }}</span>
+          <strong>People</strong>
+          <span class="home-dashboard-meta">Artists, crew, musicians and theatre makers.</span>
+        </a>
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/theatres/">
+          <span class="home-dashboard-count">{{ len (where (where .Site.Pages "Type" "theatres") "Params.active" "ne" nil) }}</span>
+          <strong>Theatres</strong>
+          <span class="home-dashboard-meta">Companies across Northeast Florida and Southeast Georgia.</span>
+        </a>
+        <a class="home-dashboard-archive-link home-dashboard-grow" href="/venues/">
+          <span class="home-dashboard-count">{{ len (where .Site.RegularPages "Section" "venues") }}</span>
+          <strong>Venues</strong>
+          <span class="home-dashboard-meta">Stages, rooms and performance spaces.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="home-dashboard-section home-dashboard-bottom" aria-labelledby="home-dashboard-connect">
+      <div class="home-dashboard-newsletter">
+        <h2 id="home-dashboard-connect" class="home-dashboard-panel-title">JaxPlays Spotlight Newsletter</h2>
+        <p class="home-dashboard-meta">Weekly openings, closings, reviews and theatre news every Wednesday.</p>
+        {{ partial "newsletter-signup-form.html" (dict "tags" "Homepage Signup Form") }}
+      </div>
+      <div class="home-dashboard-submit">
+        <a class="home-dashboard-button home-dashboard-grow" href="/apply/production/">Apply for Production Listing</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/apply/profile/">Apply for Artist Profile</a>
+        <a class="home-dashboard-button home-dashboard-grow" href="/support/">Support JaxPlays</a>
+      </div>
+    </section>
+  </div>
+</div>
+{{ end }}

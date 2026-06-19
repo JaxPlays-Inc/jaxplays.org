@@ -1,7 +1,0 @@
----
-title: Vince Pellegrino
-date: 2023-09-08T00:00:00-04:00
-roles:
-  - Property Master
-  - Carpenter
----

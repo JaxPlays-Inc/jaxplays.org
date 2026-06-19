@@ -1,15 +1,10 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Build and deploy JaxPlays
 
 on:
-  # Runs on pushes targeting the default branch
+  pull_request:
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    
-  # Runs automatically at 6 a.m. UTC every day
   schedule:
     - cron: '0 6 * * *'
 
@@ -31,11 +26,10 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.8
+      HUGO_VERSION: 0.163.3
     steps:
       - name: Install Hugo CLI
         run: |
@@ -44,32 +38,45 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install Python dependencies
         run: python3 -m pip install --user PyYAML
+      - name: Check generated data
+        run: scripts/check_generated_data.sh
+      - name: Test newsletter worker
+        run: npm test
+        working-directory: workers/newsletter
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_URL="https://jaxplays.org/"
+          else
+            BASE_URL="${{ steps.pages.outputs.base_url }}/"
+          fi
+
           scripts/build_site.sh \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "$BASE_URL"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: ./public
+          path: ./sites/jaxplays/public
 
-  # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: https://jaxplays.org
@@ -78,7 +85,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       - name: Send Pushover Success Notification
         if: success()  # This ensures the step only runs if the previous steps were successful
@@ -117,7 +124,7 @@ jobs:
       MAILCHIMP_REPLY_TO: ${{ secrets.MAILCHIMP_REPLY_TO }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Find newly added reviews and news
         id: find_posts
@@ -128,7 +135,7 @@ jobs:
 
           NEW_FILES=$(git diff --name-status "${{ github.event.before }}" "${{ github.sha }}" \
             | awk '$1=="A"{print $2}' \
-            | grep -E '^content/(reviews|news)/' || true)
+            | grep -E '^sites/jaxplays/content/(reviews|news)/' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new review or news files added. Skipping Mailchimp."
@@ -154,10 +161,10 @@ jobs:
             echo "Processing file: $FILE"
 
             # Decide template and label based on section
-            if [[ "$FILE" == content/reviews/* ]]; then
+            if [[ "$FILE" == sites/jaxplays/content/reviews/* ]]; then
               TEMPLATE_ID=10623509
               KIND="Review"
-            elif [[ "$FILE" == content/news/* ]]; then
+            elif [[ "$FILE" == sites/jaxplays/content/news/* ]]; then
               TEMPLATE_ID=10623325
               KIND="News"
             else

@@ -1,0 +1,188 @@
+baseURL: 'https://jaxplays.org'
+locale: 'en-US'
+title: 'JaxPlays'
+theme: 'local-theatres'
+themesDir: '../../themes'
+timezone: 'America/New_York'
+permalinks:
+  news: "/:section/:year/:month/:day/:slug/"
+  reviews: "/:section/:year/:month/:day/:slug/"
+  editorials: "/:section/:year/:month/:day/:slug/"
+  people: "/:section/:contentbasename/"
+  productions: "/:section/:contentbasename/"
+  shows: "/:section/:contentbasename/"
+  theatres: "/:section/:contentbasename/"
+  venues: "/:section/:contentbasename/"
+  productions/current: "/productions/current/:contentbasename/"
+  productions/future: "/productions/future/:contentbasename/"
+  productions/past: "/productions/past/:contentbasename/"
+
+params:
+  description: Your go-to source for all live theatre, plays and musicals in Jacksonville, Florida and all of Northeast Florida and Southeast Georgia.
+  tagline: Live Theatre in Northeast FL & Southeast GA
+  recent_posts_number: 6
+  recent_copy: Latest Reviews & Theatre News
+  mainSections: 
+    - "reviews"
+    - "news"
+    - "editorials"
+    - "podcast"
+  background_color_class: "bg-black"
+  light_text_color_class: "gray"
+  social:
+  - name: facebook
+    url: https://www.facebook.com/jaxplaysorg
+    label: Facebook
+  - name: bluesky
+    label: Bluesky
+    url: https://bsky.app/profile/jaxplays.org
+    follow: true
+  - name: instagram
+    label: Instagram
+    url: https://instagram.com/jaxplaysorg
+    follow: true
+  - name: linkedin
+    label: LinkedIn
+    url: https://www.linkedin.com/company/jaxplaysorg
+    follow: true
+  - name: twitter
+    label: Twitter/X
+    follow: false
+menu:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: About
+    parent: Home
+    pageRef: /about
+    weight: 11
+  # - name: Jobs
+  #   parent: Home
+  #   pageRef: /about/jobs
+  #   weight: 12
+  - name: Financial Support
+    parent: Home
+    pageRef: /about/financial-support
+    weight: 13
+  - name: Brand Guidelines
+    parent: Home
+    pageRef: /about/brand-guidelines
+    weight: 14
+  - name: Read
+    pageRef: /news
+    weight: 20
+  - name: News
+    parent: Read
+    pageRef: /news
+    weight: 21
+  - name: Reviews
+    parent: Read
+    pageRef: /reviews
+    weight: 22
+  - name: Auditions
+    parent: Read
+    pageRef: /auditions
+    weight: 23
+  - name: Calendar
+    parent: Shows
+    pageRef: /calendar
+    weight: 30
+  - name: Shows
+    pageRef: /productions
+    weight: 30
+  - name: On Stage & Coming Soon
+    parent: Shows
+    pageRef: /productions/
+    weight: 31
+  - name: Future Productions
+    parent: Shows
+    pageRef: /productions/future/
+    weight: 32
+  - name: Past Productions
+    parent: Shows
+    pageRef: /productions/past/
+    weight: 33
+  - name: Explore
+    pageRef: /lookup
+    weight: 40
+  - name: People
+    parent: Explore
+    pageRef: /people
+    weight: 41
+  - name: Theatres
+    parent: Explore
+    pageRef: /theatres
+    weight: 42
+  - name: Venues
+    parent: Explore
+    pageRef: /venues
+    weight: 43
+  - name: Subscribe
+    pageRef: /signup
+    weight: 50
+  - name: Apply
+    pageRef: /apply
+    weight: 60
+  - name: Artist Profile
+    parent: Apply
+    pageRef: /apply/profile
+    weight: 61
+  - name: Production Listing
+    parent: Apply
+    pageRef: /apply/production
+    weight: 62
+  - name: Theatre Listing
+    parent: Apply
+    pageRef: /apply/theatre
+    weight: 63
+  - name: Audition Announcement
+    parent: Apply
+    pageRef: /apply/audition
+    weight: 64
+  - name: Donate
+    pageRef: /support
+    weight: 70
+
+taxonomies:
+  category: categories
+  tag: tags
+  genre: genres
+  author: authors
+
+outputFormats:
+  Calendar:
+    mediaType: application/json
+    baseName: calendar
+    isPlainText: true
+    notAlternative: true
+  Opening_Nights:
+    mediaType: application/json
+    baseName: opening_nights
+    isPlainText: true
+    notAlternative: true
+  Opening_Nights_Calendar:
+    mediaType: text/calendar
+    baseName: opening_nights_calendar
+    isPlainText: true
+    notAlternative: true
+    noUgly: true
+outputs:
+  home: 
+    - HTML
+    - RSS
+    - JSON
+    - Calendar
+    - Opening_Nights
+    - Opening_Nights_Calendar
+  section:
+    - HTML
+    - RSS
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2

@@ -1,0 +1,464 @@
+/* Custom style for the FullCalendar js plugin */
+
+.calendar-directory {
+  --jp-ink: #171717;
+  --jp-muted: #5f6670;
+  --jp-line: #d7d2c8;
+  --jp-paper: #f4f4f4;
+  --jp-cream: #f6f0e3;
+  --jp-gold: #ffd600;
+  --jp-red: #b7332f;
+  --jp-teal: #18736b;
+  --jp-blue: #28466f;
+  background: var(--jp-paper);
+  color: var(--jp-ink);
+}
+
+.calendar-directory a {
+  color: inherit;
+}
+
+.calendar-directory-shell {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 4rem 1rem;
+}
+
+.calendar-directory-hero {
+  align-items: stretch;
+  border-bottom: 1px solid var(--jp-line);
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+  padding-bottom: 1.5rem;
+}
+
+.calendar-directory-kicker {
+  color: var(--jp-red);
+  font-size: .75rem;
+  font-weight: 700;
+  margin: 0 0 .5rem;
+  text-transform: uppercase;
+}
+
+.calendar-directory-title {
+  font-size: clamp(2.1rem, 7vw, 5.6rem);
+  line-height: 1;
+  margin: 0;
+}
+
+.calendar-directory-subtitle {
+  color: var(--jp-muted);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 1rem 0 0;
+  max-width: 46rem;
+}
+
+.calendar-directory-subtitle h2 {
+  color: var(--jp-ink);
+  font-size: 1.15rem;
+  margin: 0 0 .5rem;
+}
+
+.calendar-directory-subtitle p {
+  margin: 0 0 .75rem;
+}
+
+.calendar-directory-panel {
+  align-content: center;
+  background: var(--jp-cream);
+  border: 1px solid var(--jp-line);
+  display: grid;
+  padding: 1rem;
+}
+
+.calendar-directory-stats {
+  display: grid;
+  gap: .75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.calendar-directory-stats span {
+  display: block;
+}
+
+.calendar-directory-stats > span {
+  background: #fff;
+  border-left: 5px solid var(--jp-blue);
+  padding: .9rem;
+}
+
+.calendar-directory-stats > span:nth-child(2) {
+  border-left-color: var(--jp-teal);
+}
+
+.calendar-directory-stats > span:nth-child(3) {
+  border-left-color: var(--jp-red);
+}
+
+.calendar-directory-stats strong {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.calendar-directory-stats span span {
+  color: var(--jp-muted);
+  font-size: .85rem;
+  font-weight: 700;
+  margin-top: .3rem;
+  text-transform: uppercase;
+}
+
+.calendar-directory-section {
+  margin-top: 3rem;
+}
+
+.calendar-directory-section-head {
+  align-items: end;
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin-bottom: .9rem;
+}
+
+.calendar-directory-section-head.sectionline:after {
+  grid-column: 1 / -1;
+}
+
+.calendar-directory-section-title {
+  min-width: 0;
+}
+
+.calendar-directory-section-head h2 {
+  font-size: clamp(1.5rem, 4vw, 2.35rem);
+  margin: 0;
+}
+
+.calendar-directory-section-eyebrow {
+  color: var(--jp-red);
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 .25rem;
+  text-transform: uppercase;
+}
+
+.calendar-directory-frame {
+  background: #fff;
+  border: 1px solid var(--jp-line);
+  padding: 1rem;
+}
+
+.calendar-directory-frame {
+  overflow-x: auto;
+}
+
+.calendar-directory-theatre-filter {
+  align-self: end;
+  max-width: 32rem;
+  min-width: 0;
+  position: relative;
+  width: 42vw;
+  z-index: 20;
+}
+
+.calendar-directory-filter-label {
+  display: block;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 .35rem;
+  text-transform: uppercase;
+}
+
+.calendar-directory-theatre-picker {
+  position: relative;
+}
+
+.calendar-directory-filter {
+  background: #fff;
+  border: 1px solid var(--jp-ink);
+  box-sizing: border-box;
+  color: var(--jp-ink);
+  display: block;
+  min-height: 3rem;
+  width: 100%;
+}
+
+.calendar-directory-theatre-combobox {
+  align-items: center;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 1.05rem), calc(100% - .75rem);
+  background-repeat: no-repeat;
+  background-size: .32rem .32rem, .32rem .32rem;
+  cursor: text;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  min-width: 0;
+  padding: .4rem 2rem .4rem .55rem;
+}
+
+.calendar-directory-theatre-combobox:focus-within {
+  outline: 3px solid var(--jp-gold);
+  outline-offset: 0;
+}
+
+.calendar-directory-theatre-values {
+  display: contents;
+}
+
+.calendar-directory-theatre-token {
+  align-items: center;
+  background: var(--jp-cream);
+  border: 1px solid var(--jp-line);
+  color: var(--jp-ink);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: .82rem;
+  font-weight: 700;
+  gap: .35rem;
+  line-height: 1;
+  min-height: 1.85rem;
+  padding: .28rem .45rem;
+}
+
+.calendar-directory-theatre-token--all {
+  cursor: default;
+}
+
+.calendar-directory-theatre-token:hover,
+.calendar-directory-theatre-token:focus {
+  background: var(--jp-gold);
+  border-color: var(--jp-ink);
+  outline: none;
+}
+
+.calendar-directory-theatre-panel {
+  background: #fff;
+  border: 1px solid var(--jp-ink);
+  left: 0;
+  margin-top: .35rem;
+  max-height: 18rem;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 30;
+}
+
+.calendar-directory-theatre-search {
+  background: transparent;
+  border: 0;
+  color: var(--jp-ink);
+  flex: 1 1 8rem;
+  font-size: .95rem;
+  min-height: 2rem;
+  min-width: 8rem;
+  padding: .25rem 0;
+}
+
+.calendar-directory-theatre-search:focus {
+  outline: none;
+}
+
+.calendar-directory-theatre-option {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: var(--jp-ink);
+  cursor: pointer;
+  display: flex;
+  gap: .5rem;
+  font-size: .9rem;
+  justify-content: space-between;
+  line-height: 1.2;
+  min-width: 0;
+  padding: .55rem .65rem;
+  text-align: left;
+  width: 100%;
+}
+
+.calendar-directory-theatre-option:hover,
+.calendar-directory-theatre-option:focus,
+.calendar-directory-theatre-option.is-selected {
+  background: var(--jp-cream);
+}
+
+.calendar-directory-theatre-option:focus {
+  outline: 3px solid var(--jp-gold);
+  outline-offset: -3px;
+}
+
+.calendar-directory-theatre-option.is-selected::after {
+  content: "✓";
+  font-weight: 700;
+}
+
+.calendar-directory-hidden-theatres {
+  display: none;
+}
+
+.calendar-directory .fc {
+  color: var(--jp-ink);
+  min-width: 0;
+}
+
+.calendar-directory .fc .fc-toolbar {
+  align-items: end;
+  gap: .75rem;
+}
+
+.calendar-directory .fc .fc-toolbar-title {
+  color: var(--jp-ink);
+  font-size: clamp(1.35rem, 3vw, 2.1rem);
+  line-height: 1;
+}
+
+.calendar-directory .fc .fc-button {
+  border-radius: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.calendar-directory .fc .fc-button-primary {
+  background-color: #fff;
+  border-color: var(--jp-ink);
+  color: var(--jp-ink);
+}
+
+.calendar-directory .fc .fc-button-primary:hover,
+.calendar-directory .fc .fc-button-primary:focus,
+.calendar-directory .fc .fc-button-primary:not(:disabled).fc-button-active,
+.calendar-directory .fc .fc-button-primary:not(:disabled):active {
+  background-color: var(--jp-gold);
+  border-color: var(--jp-ink);
+  color: var(--jp-ink);
+}
+
+.calendar-directory .fc-theme-standard td,
+.calendar-directory .fc-theme-standard th,
+.calendar-directory .fc-theme-standard .fc-scrollgrid {
+  border-color: var(--jp-line);
+}
+
+.calendar-directory .fc .fc-col-header-cell,
+.calendar-directory .fc .fc-list-day-cushion {
+  background: var(--jp-cream);
+}
+
+.calendar-directory .fc .fc-daygrid-day.fc-day-today,
+.calendar-directory .fc .fc-timegrid-col.fc-day-today {
+  background: rgba(255, 214, 0, .18);
+}
+
+.calendar-directory .fc .fc-daygrid-event,
+.calendar-directory .fc .fc-timegrid-event,
+.calendar-directory .fc .fc-list-event {
+  font-size: .85rem;
+}
+
+#calendar .fc-event-title {
+  font-weight: 400;
+}
+
+h2.fc-toolbar-title {
+  color: #000;
+}
+
+.fc .fc-button-primary:focus,
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus,
+.fc .fc-button-primary:not(:disabled):active:focus {
+  box-shadow: none;
+}
+
+/* Make the events wrap on the calendar instead of run off */
+.fc-daygrid-event {
+  text-wrap: wrap;
+  display:flex;
+  align-items: flex-start;
+  padding-right: 2px;
+}
+
+/* Fix the dot so that it's lined up with the time */
+.fc-daygrid-event-dot {
+  margin-top:.2rem;
+}
+
+a.fc-event {
+  color: #333;
+}
+#calendar a.fc-event:hover {
+  text-decoration: none;
+}
+
+.fc-daygrid-event-dot, .fc .fc-list-event-dot {
+  border-width:8px;
+}
+
+@media screen and (max-width:30em) {
+  .calendar-directory-shell {
+    padding: 2.5rem 1rem;
+  }
+
+  .calendar-directory-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-directory-panel,
+  .calendar-directory-frame {
+    padding: .6rem;
+  }
+
+  .calendar-directory-stats {
+    gap: .35rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .calendar-directory-stats > span {
+    border-left-width: 3px;
+    padding: .55rem .35rem;
+  }
+
+  .calendar-directory-stats strong {
+    font-size: 1.25rem;
+  }
+
+  .calendar-directory-stats span span {
+    font-size: .65rem;
+    margin-top: .2rem;
+  }
+
+  .calendar-directory-section-head {
+    align-items: start;
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-directory-theatre-filter {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .fc .fc-toolbar {
+    flex-direction: column-reverse;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .fc-toolbar-chunk {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fc .fc-toolbar-chunk:last-of-type .fc-button-group {
+    margin: 0 auto 1rem;
+   }
+}

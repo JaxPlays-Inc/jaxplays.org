@@ -1,3 +1,0 @@
-{{ $mapRaw := printf "%s" .Inner }}
-{{ $stageWidth := .Get "stagewidth" | default "60%" }}
-{{ partial "seatmap.html" (dict "mapRaw" $mapRaw "stageWidth" $stageWidth) }}
