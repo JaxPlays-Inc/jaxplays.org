@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.8
+      HUGO_VERSION: 0.163.3
     steps:
       - name: Install Hugo CLI
         run: |
@@ -38,13 +38,13 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
       - name: Setup Pages
         if: github.event_name != 'pull_request'
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install Python dependencies
@@ -71,7 +71,7 @@ jobs:
             --baseURL "$BASE_URL"
       - name: Upload artifact
         if: github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./sites/jaxplays/public
 
@@ -85,7 +85,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       - name: Send Pushover Success Notification
         if: success()  # This ensures the step only runs if the previous steps were successful
@@ -124,7 +124,7 @@ jobs:
       MAILCHIMP_REPLY_TO: ${{ secrets.MAILCHIMP_REPLY_TO }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Find newly added reviews and news
         id: find_posts

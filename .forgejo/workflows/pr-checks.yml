@@ -12,12 +12,12 @@ jobs:
   jaxplays:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.8
+      HUGO_VERSION: 0.163.3
       HUGO_ENVIRONMENT: production
       HUGO_ENV: production
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
 
