@@ -50,6 +50,7 @@ jobs:
       - name: Install Python dependencies
         run: python3 -m pip install --user PyYAML
       - name: Check generated data
+        if: github.event_name == 'pull_request'
         run: scripts/check_generated_data.sh
       - name: Test newsletter worker
         run: npm test
