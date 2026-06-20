@@ -3,7 +3,7 @@ title: The Play That Goes Wrong
 theatre: Players by the Sea
 venue: John McManus Mainstage Theatre
 season: 61
-date: 2026-06-01T17:35:00-04:00
+date: 2026-06-20T00:53:06-04:00
 opening_date: 2026-07-24
 closing_date: 2026-08-09
 showtimes: null
@@ -21,8 +21,20 @@ show_details:
       - Jonathan Sayer
       - Henry Shields
 cast:
+  - Chris: Neal Thorburn
+  - Robert: Anvar Gashimov
+  - Sandra: Ashlyn Brown
+  - Max: Chris Watson
+  - Dennis: Jay Bilderback
+  - Jonathan: Jan Buksar
+  - Annie: Miles Genaovargas
+  - Trevor: Frankie Rady
+understudies:
+  - Phil: Harper Reed
 crew:
 orchestra:
+photos:
+  - photo: 2026-The-Play-That-Goes-Wrong-01.webp
 genres:
   - Play
   - Comedy
@@ -32,6 +44,6 @@ source: Players by the Sea Season 61 page
 source_date: 2026-06-01
 source_url: https://playersbythesea.org/season-61
 ---
-*The Play That Goes Wrong* follows a local theatre troupe attempting to stage a 1920s murder mystery while everything possible goes spectacularly wrong. Props vanish, lines disappear, scenery collapses, and the production becomes a celebration of live theatre's most chaotic possibilities.
+*The Play That Goes Wrong* follows a local theatre troupe attempting to stage a 1920s murder mystery while everything possible goes spectacularly wrong. Props vanish, lines disappear, scenery collapses and the production becomes a celebration of live theatre's most chaotic possibilities.
 
 PBTS lists information and tickets as available soon.

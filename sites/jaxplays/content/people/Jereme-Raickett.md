@@ -20,3 +20,4 @@ socials:
   imdb:
   website:
 ---
+Jereme Rackett is a multidisciplinary artist, director and cultural curator with over 20 years in performance and community engagement. His work bridges cultures, celebrates diversity and fosters connection through arts education.
