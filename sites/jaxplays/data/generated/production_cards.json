@@ -17305,6 +17305,32 @@
     "searchBase": "christmas carole nov 19, 2021 dec 24, 2021 alhambra theatre & dining alhambra theatre & dining musical holiday family experience the magic of the holiday season in this musical rendition of the classic tale, infused with joyous songs and heartfelt moments."
   },
   {
+    "title": "Jekyll & Hyde",
+    "url": "/productions/2021-jekyll-and-hyde/",
+    "contentPath": "productions/2021/2021-Jekyll-and-Hyde",
+    "poster": "/media/default/production_poster.webp",
+    "posterAlt": "Jekyll & Hyde poster",
+    "openingDate": "2021-06-17",
+    "closingDate": "2021-06-27",
+    "openingLabel": "Jun 17, 2021",
+    "openingMonthLabel": "June 2021",
+    "openingBadgeLabel": "Jun 17, 2021",
+    "closingLabel": "Jun 27, 2021",
+    "theatre": "Amelia Musical Playhouse",
+    "venues": [],
+    "allVenues": [
+      "Amelia Musical Playhouse"
+    ],
+    "genres": [
+      "Musical",
+      "Drama",
+      "Thriller"
+    ],
+    "summary": "Amelia Musical Playhouse presented Frank Wildhorn and Leslie Bricusse's musical Jekyll & Hyde in June 2021.",
+    "tickets": "",
+    "searchBase": "jekyll & hyde jun 17, 2021 jun 27, 2021 amelia musical playhouse amelia musical playhouse musical drama thriller amelia musical playhouse presented frank wildhorn and leslie bricusse's musical jekyll & hyde in june 2021."
+  },
+  {
     "title": "42nd Street",
     "url": "/productions/2022-42nd-street-musical/",
     "contentPath": "productions/2022/2022-42nd-Street-(musical)",
