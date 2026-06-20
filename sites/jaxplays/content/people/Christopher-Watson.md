@@ -1,5 +1,9 @@
 ---
 title: Christopher Watson
+aliases:
+  - /people/chris-watson/
+other_names:
+  - Chris Watson
 date: 2024-06-18T23:55:59-04:00
 featured_image: Christopher-Watson.webp
 featured_image_attr: Jax Headshots

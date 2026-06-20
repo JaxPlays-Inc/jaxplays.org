@@ -24618,6 +24618,35 @@
   ],
   "wharf-main-stage": [
     {
+      "title": "The Little Toy Shoppe",
+      "url": "/productions/2026-the-little-toy-shoppe/",
+      "contentPath": "productions/2026/2026-The-Little-Toy-Shoppe",
+      "poster": "/media/posters/2025-The-Little-Toy-Shoppe-02.webp",
+      "posterAlt": "The Little Toy Shoppe poster",
+      "openingDate": "2026-12-11",
+      "closingDate": "2026-12-13",
+      "openingLabel": "Dec 11, 2026",
+      "openingMonthLabel": "December 2026",
+      "openingBadgeLabel": "Dec 11, 2026",
+      "closingLabel": "Dec 13, 2026",
+      "theatre": "Jason Woods Productions",
+      "venues": [
+        "Wharf Main Stage"
+      ],
+      "allVenues": [
+        "Wharf Main Stage"
+      ],
+      "genres": [
+        "Play",
+        "Family",
+        "Holiday",
+        "Fantasy"
+      ],
+      "summary": "In an abandoned, broken-down toy shoppe, four leftover toys hope to be chosen by children and have the thing they want most of all: a family. As the days, weeks and months go by, they wonder if they’ll ever be accepte...",
+      "tickets": "",
+      "searchBase": "the little toy shoppe dec 11, 2026 dec 13, 2026 jason woods productions wharf main stage play family holiday fantasy in an abandoned, broken-down toy shoppe, four leftover toys hope to be chosen by children and have the thing they want most of all: a family. as the days, weeks and months go by, they wonder if they’ll ever be accepte..."
+    },
+    {
       "title": "Alice in a Christmas Wonderland",
       "url": "/productions/2025-alice-in-a-christmas-wonderland/",
       "contentPath": "productions/2025/2025-Alice-in-a-Christmas-Wonderland",
