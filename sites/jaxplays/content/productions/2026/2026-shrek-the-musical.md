@@ -94,12 +94,22 @@ cast:
 - Peter Pan: Zachary Swartz
 - Wolf / Captain of the Guard: Jeremiah Burch
 - Witch: Isabel Ramos
-- "Pig #1 / Blind Mouse": Lisa Kidder Sandiford
-- Elf / Blind Mouse: Idan Bar
-- Ugly Duckling / Teen Fiona / Blind Mouse: Kayleigh Johnson
+- "Pig #1": Lisa Kidder Sandiford
+- Elf: Idan Bar
+- Ugly Duckling / Teen Fiona: Kayleigh Johnson
 - Fairy Godmother: Lexi Hall
 - Mad Hatter / Papa Ogre / Bishop: Nick Cooper
 - Young Shrek / Young Fiona / Baby Bear / Grumpy: Kennedy Swartz
+- Guard: 
+  - Melvin Nash
+  - Kordel Clark
+  - Mickey Titus
+- Citizen of Duloc:
+  - Idan Bar
+- Blind Mouse:
+  - Idan Bar
+  - Kayleigh Johnson
+  - Lisa Kidder Sandiford
 crew:
 - Director: Jessie Booth
 - Music Director: Cathy Giddens
@@ -141,7 +151,11 @@ crew:
   - Karen Grogan
 orchestra: null
 understudies:
-- "Youth / Pig #2": Ivy Ayres
+- "Youth Shrek / Little Fiona / Little Bear / Dwarf / Pig #2": Ivy Ayres
+- Fiona: Natalie Drake
+- Shrek: Melvin Nash
+- Donkey: Kordell Clark
+- Lord Farquaad: Jeremiah Burch
 photos:
 - photo: 2026-Shrek-the-Musical-01.webp
   photo_attr: null
