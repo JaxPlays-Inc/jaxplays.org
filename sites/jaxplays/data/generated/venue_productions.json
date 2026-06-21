@@ -15673,9 +15673,9 @@
         "Drama",
         "Romance"
       ],
-      "summary": "It's more than a turf war—it's an iconic retelling of Shakespeare's Romeo and Juliet, but with dance-offs and jazz hands.",
+      "summary": "Players by the Sea presents West Side Story River City Live {{ }}",
       "tickets": "https://web.ovationtix.com/trs/cal/34877/1688184000000",
-      "searchBase": "west side story jul 14, 2023 aug 6, 2023 players by the sea john mcmanus mainstage theatre musical drama romance it's more than a turf war—it's an iconic retelling of shakespeare's romeo and juliet, but with dance-offs and jazz hands."
+      "searchBase": "west side story jul 14, 2023 aug 6, 2023 players by the sea john mcmanus mainstage theatre musical drama romance players by the sea presents west side story river city live {{ }}"
     },
     {
       "title": "Choir Boy",
@@ -17138,6 +17138,32 @@
     }
   ],
   "amelia-musical-playhouse": [
+    {
+      "title": "Monty Python's Edukational Show",
+      "url": "/productions/2026-monty-pythons-edukational-show/",
+      "contentPath": "productions/2026/2026-Monty-Pythons-Edukational-Show",
+      "poster": "/media/default/production_poster.webp",
+      "posterAlt": "Monty Python's Edukational Show poster",
+      "openingDate": "2026-07-02",
+      "closingDate": "2026-07-11",
+      "openingLabel": "Jul 2, 2026",
+      "openingMonthLabel": "July 2026",
+      "openingBadgeLabel": "Jul 2, 2026",
+      "closingLabel": "Jul 11, 2026",
+      "theatre": "Amelia Musical Playhouse",
+      "venues": [],
+      "allVenues": [
+        "Amelia Musical Playhouse"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy",
+        "Revue"
+      ],
+      "summary": "A fast-paced musical revue celebrating the legendary comedy of Monty Python with sketches, songs, absurd characters and plenty of silliness.",
+      "tickets": "https://904tix.com/",
+      "searchBase": "monty python's edukational show jul 2, 2026 jul 11, 2026 amelia musical playhouse amelia musical playhouse musical comedy revue a fast-paced musical revue celebrating the legendary comedy of monty python with sketches, songs, absurd characters and plenty of silliness."
+    },
     {
       "title": "Summer Sensation 2026",
       "url": "/productions/2026-summer-sensation-2026/",
@@ -19952,6 +19978,30 @@
       "summary": "An eccentric spelling bee becomes a tender, offbeat musical about pressure, awkwardness, and growing up.",
       "tickets": "https://www.theislandtheater.com/event-details/25th-putnam-county-spelling-bee-2026-08-07-19-30",
       "searchBase": "the 25th annual putnam county spelling bee aug 7, 2026 aug 16, 2026 the island theater the island theater musical comedy an eccentric spelling bee becomes a tender, offbeat musical about pressure, awkwardness, and growing up."
+    },
+    {
+      "title": "Frozen the Broadway Musical",
+      "url": "/productions/2026-frozen-the-broadway-musical/",
+      "contentPath": "productions/2026/2026-Frozen-the-Broadway-Musical",
+      "poster": "/media/posters/Frozen-the-Broadway-Musical.webp",
+      "posterAlt": "Poster for Frozen the Broadway Musical",
+      "openingDate": "2026-07-17",
+      "closingDate": "2026-07-26",
+      "openingLabel": "Jul 17, 2026",
+      "openingMonthLabel": "July 2026",
+      "openingBadgeLabel": "Jul 17, 2026",
+      "closingLabel": "Jul 26, 2026",
+      "theatre": "The Island Theater",
+      "venues": [],
+      "allVenues": [
+        "The Island Theater"
+      ],
+      "genres": [
+        "Musical"
+      ],
+      "summary": "A spectacular Broadway adaptation of Disney's Frozen, featuring beloved songs, stunning visuals and a powerful story of love, family and self-discovery.",
+      "tickets": "https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30/ticket-form",
+      "searchBase": "frozen the broadway musical jul 17, 2026 jul 26, 2026 the island theater the island theater musical a spectacular broadway adaptation of disney's frozen, featuring beloved songs, stunning visuals and a powerful story of love, family and self-discovery."
     },
     {
       "title": "Disney's Frozen",

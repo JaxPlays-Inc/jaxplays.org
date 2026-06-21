@@ -1,6 +1,6 @@
 ---
 title: West Side Story
-date: 2023-09-08T00:00:00
+date: 2026-06-21T13:13:40-04:00
 opening_date: 2023-07-14
 closing_date: 2023-08-06
 featured_image: 2023-West-Side-Story.webp
@@ -63,3 +63,7 @@ orchestra:
 press:
 - "Players by the Sea Presents: West Side Story | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2023/07/21/players-by-the-sea-presents-west-side-story/
 ---
+
+### Players by the Sea presents West Side Story | River City Live
+
+{{< youtube wKL6OfXvIFo >}}
