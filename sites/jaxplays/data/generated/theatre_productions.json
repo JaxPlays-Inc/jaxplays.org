@@ -23980,6 +23980,32 @@
   ],
   "amelia-musical-playhouse": [
     {
+      "title": "Monty Python's Edukational Show",
+      "url": "/productions/2026-monty-pythons-edukational-show/",
+      "contentPath": "productions/2026/2026-Monty-Pythons-Edukational-Show",
+      "poster": "/media/posters/2026-Monty-Pythons-Edukational-Show.webp",
+      "posterAlt": "Monty Python's Edukational Show poster",
+      "openingDate": "2026-07-02",
+      "closingDate": "2026-07-11",
+      "openingLabel": "Jul 2, 2026",
+      "openingMonthLabel": "July 2026",
+      "openingBadgeLabel": "Jul 2, 2026",
+      "closingLabel": "Jul 11, 2026",
+      "theatre": "Amelia Musical Playhouse",
+      "venues": [],
+      "allVenues": [
+        "Amelia Musical Playhouse"
+      ],
+      "genres": [
+        "Musical",
+        "Revue",
+        "Comedy"
+      ],
+      "summary": "Amelia Musical Playhouse presents a fast-paced musical revue celebrating Monty Python's sketches, songs, absurd characters, and comic silliness.",
+      "tickets": "https://904tix.com/organizations/amelia-musical-playhouse",
+      "searchBase": "monty python's edukational show jul 2, 2026 jul 11, 2026 amelia musical playhouse amelia musical playhouse musical revue comedy amelia musical playhouse presents a fast-paced musical revue celebrating monty python's sketches, songs, absurd characters, and comic silliness."
+    },
+    {
       "title": "Summer Sensation 2026",
       "url": "/productions/2026-summer-sensation-2026/",
       "contentPath": "productions/2026/2026-Summer-Sensation-2026",
