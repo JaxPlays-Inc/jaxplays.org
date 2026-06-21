@@ -1726,7 +1726,9 @@ h1 a.jaxplayslogo {
 	background: white;
 	border: 1px solid var(--jp-line);
 	margin: 0;
+	position: relative;
 	width: 100%;
+	z-index: 1001;
 }
 
 .article-single-media--narrow {
@@ -1874,6 +1876,8 @@ h1 a.jaxplayslogo {
 
 .article-single-content .article-figure {
 	margin: 2rem auto;
+	position: relative;
+	z-index: 1001;
 }
 
 .article-single-content .article-figure > a {

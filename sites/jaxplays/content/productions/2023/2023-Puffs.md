@@ -20,7 +20,7 @@ showtimes:
 # - 2023-08-19 19:30:00
 - 2023-08-20 14:00:00
 - 2023-08-20 18:00:00
-featured_image: 2023-Puffs-or-Seven-Increasingly-Eventful-Years-at-a-Certain-School-of-Magic-and-Magic.webp
+featured_image: 2023-Puffs.webp
 featured_image_alt: Poster for Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
 featured_image_caption: "Poster for 'Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic'"
 featured_image_attr: The Island Theater
