@@ -3,7 +3,7 @@ title: Into the Woods
 theatre: River City Theatre
 venue: Betsy Lovett Hall
 season: 2026
-date: 2026-06-20T19:31:38-04:00
+date: 2026-06-20T21:37:59-04:00
 opening_date: 2026-06-18
 closing_date: 2026-06-28
 showtimes:
@@ -33,7 +33,7 @@ cast:
   - Cinderella's Prince / Wolf: E. Noah Perez
   - Rapunzel's Prince: Noah Cummings
   - Narrator / Mysterious Man: Ryan Blaumueller
-  - Jack's Mother: Jeanne Wälti
+  - Jack's Mother: Jeanne Walti
   - Cinderella's Stepmother: Kate Medill
   - Lucinda: Katie Hicks
   - Florinda: Lexi Brown
@@ -41,7 +41,7 @@ cast:
   - Steward: Benjamin Williams
   - Cinderella's Father: Jason C. Taylor
   - Cinderella's Mother: Bonita Bunt
-  - Granny: Aalíah D. Salazar
+  - Granny: Aaliah D. Salazar
   - Milky White: Luke DeWolf
   - Snow White: Alexis Brockway
   - Sleeping Beauty: Calista Marino
