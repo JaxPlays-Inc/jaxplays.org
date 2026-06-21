@@ -28575,6 +28575,30 @@
     "searchBase": "anne of green gables apr 24, 2026 may 10, 2026 artist connection theatre artist connection theatre play family drama a spirited orphan transforms green gables and the lives around her in this warm stage adaptation of the classic novel."
   },
   {
+    "title": "Annie",
+    "url": "/productions/2026-annie/",
+    "contentPath": "productions/2026/2026-Annie",
+    "poster": "/media/posters/2026-Annie.webp",
+    "posterAlt": "Classic red background poster for 'Annie - A New Musical.' The simple yet bold design features the musical's title with Annie leaning on the letter 'A', encapsulating the essence of this beloved production.",
+    "openingDate": "2026-08-14",
+    "closingDate": "2026-08-29",
+    "openingLabel": "Aug 14, 2026",
+    "openingMonthLabel": "August 2026",
+    "openingBadgeLabel": "Aug 14, 2026",
+    "closingLabel": "Aug 29, 2026",
+    "theatre": "Amelia Musical Playhouse",
+    "venues": [],
+    "allVenues": [
+      "Amelia Musical Playhouse"
+    ],
+    "genres": [
+      "Musical"
+    ],
+    "summary": "Annie and her orphans bring a hard knock life to Amelia Musical Playhouse for three weekends in August 2026.",
+    "tickets": "https://904tix.com/organizations/amelia-musical-playhouse",
+    "searchBase": "annie aug 14, 2026 aug 29, 2026 amelia musical playhouse amelia musical playhouse musical annie and her orphans bring a hard knock life to amelia musical playhouse for three weekends in august 2026."
+  },
+  {
     "title": "Antigone (Unmasked)",
     "url": "/productions/2026-antigone-unmasked/",
     "contentPath": "productions/2026/2026-Antigone-Unmasked",
@@ -29286,11 +29310,16 @@
       "The Island Theater"
     ],
     "genres": [
-      "Musical"
+      "Musical",
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "Comedy",
+      "Family"
     ],
-    "summary": "A spectacular Broadway adaptation of Disney's Frozen, featuring beloved songs, stunning visuals and a powerful story of love, family and self-discovery.",
-    "tickets": "https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30/ticket-form",
-    "searchBase": "disney's frozen jul 17, 2026 jul 26, 2026 the island theater the island theater musical a spectacular broadway adaptation of disney's frozen, featuring beloved songs, stunning visuals and a powerful story of love, family and self-discovery."
+    "summary": "Adapted from the blockbuster Disney film, the musical unfolds the tale of two royal sisters, Elsa and Anna. Elsa's magical powers trap their kingdom in eternal winter, and it's up to the determined Anna, with the help...",
+    "tickets": "https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30#tickets-picker",
+    "searchBase": "disney's frozen jul 17, 2026 jul 26, 2026 the island theater the island theater musical drama fantasy romance comedy family adapted from the blockbuster disney film, the musical unfolds the tale of two royal sisters, elsa and anna. elsa's magical powers trap their kingdom in eternal winter, and it's up to the determined anna, with the help..."
   },
   {
     "title": "God of Carnage",
@@ -29850,9 +29879,9 @@
       "Revue",
       "Comedy"
     ],
-    "summary": "Amelia Musical Playhouse presents a fast-paced musical revue celebrating Monty Python's sketches, songs, absurd characters, and comic silliness.",
+    "summary": "Amelia Musical Playhouse presents a fast-paced musical revue celebrating Monty Python's sketches, songs, absurd characters and comic silliness.",
     "tickets": "https://904tix.com/organizations/amelia-musical-playhouse",
-    "searchBase": "monty python's edukational show jul 2, 2026 jul 11, 2026 amelia musical playhouse amelia musical playhouse musical revue comedy amelia musical playhouse presents a fast-paced musical revue celebrating monty python's sketches, songs, absurd characters, and comic silliness."
+    "searchBase": "monty python's edukational show jul 2, 2026 jul 11, 2026 amelia musical playhouse amelia musical playhouse musical revue comedy amelia musical playhouse presents a fast-paced musical revue celebrating monty python's sketches, songs, absurd characters and comic silliness."
   },
   {
     "title": "Moulin Rouge! The Musical",
