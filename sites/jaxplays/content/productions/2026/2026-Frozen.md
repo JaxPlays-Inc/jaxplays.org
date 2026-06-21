@@ -3,7 +3,7 @@ title: "Disney's Frozen"
 theatre: The Island Theater
 venue: The Island Theater
 season: 2026
-date: 2026-06-07T20:22:26-04:00
+date: 2026-06-21T19:39:11-04:00
 opening_date: 2026-07-17
 closing_date: 2026-07-26
 showtimes:
@@ -26,7 +26,7 @@ featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30
-tickets: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30
+tickets: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30#tickets-picker
 cast:
   - Elsa:
       - Sarah Mosier
@@ -39,6 +39,7 @@ cast:
       - Michael Flynn
   - Hans:
       - Adam Thompson
+      - Allyn Bessee
       - Elijah Simms
   - Olaf:
       - Caleb Wheeler
@@ -72,6 +73,7 @@ cast:
       - Brie Deniz
   - Sven:
       - Keylan Miller
+      - Nikki French
       - Warren Barkus
   - Ensemble:
       - Ben Hesser
@@ -93,9 +95,14 @@ cast:
       - Madalyn Cassidy
       - Bryanna Hammond
 crew:
+  - Director: Tricia Williams
+  - Choreographer: Sarah Mosier
+  - Music Director: Caleb Wheeler
+  - Stage Manager: Leah Flynn
+  - Lighting: Olivia Williams
 understudies:
 orchestra:
-source: The Island Theater event pages, event sitemap, and casting graphic
-source_date: 2026-06-07
+source: The Island Theater event pages, event sitemap, casting graphic, and JAX-5710 production form submission
+source_date: 2026-06-19
 source_url: https://www.theislandtheater.com/event-details/frozen-2026-07-17-19-30
 ---
