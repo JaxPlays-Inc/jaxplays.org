@@ -1,12 +1,17 @@
 ---
 title: Caden Christel
-date: 2026-06-16T20:22:10-04:00
-featured_image: Caden-Christel-01.webp
-featured_image_attr:
-featured_image_attr_link:
-featured_image_alt: Headshot of Caden Christel
-featured_image_caption: Headshot of Caden Christel
+date: 2026-06-20T21:26:46-04:00
+featured_image: Caden-Christel-02.webp
+featured_image_attr: Keeli Faith Photography
+featured_image_attr_link: https://www.keelifaith.com/
+featured_image_alt:
+featured_image_caption:
 headshot_gallery:
+  - image: Caden-Christel-01.webp
+    image_attr:
+    image_attr_link:
+    image_alt: Headshot of Caden Christel
+    image_caption: Headshot of Caden Christel
   - image: Caden-Christel.webp
     image_attr:
     image_attr_link:
