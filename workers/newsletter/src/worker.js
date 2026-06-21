@@ -7,7 +7,7 @@ const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const LOCAL_DEV_HOSTS = new Set(["localhost", "127.0.0.1", "local.jaxplays.org"]);
 const LOCAL_DEV_MIN_PORT = 1313;
 const LOCAL_DEV_MAX_PORT = 1319;
-const SUBMISSION_TYPES = new Set(["profile", "production", "theatre", "audition"]);
+const SUBMISSION_TYPES = new Set(["profile", "production", "theatre", "audition", "corporate_sponsor"]);
 const LINEAR_API_URL = "https://api.linear.app/graphql";
 const RESEND_API_URL = "https://api.resend.com/emails";
 const PUSHOVER_API_URL = "https://api.pushover.net/1/messages.json";
@@ -16,6 +16,7 @@ const SUBMISSION_REQUIRED_FIELDS = {
   production: ["email", "submitter_name", "theatre", "venue", "genres", "title", "showtimes"],
   theatre: ["email", "submitter_name", "theatre_name", "logo"],
   audition: ["email", "submitter_name", "theatre", "production_title"],
+  corporate_sponsor: ["email", "submitter_name", "organization", "message"],
 };
 
 export default {
@@ -672,6 +673,7 @@ function submissionTitle(payload) {
 function titleForType(formType) {
   return {
     audition: "audition",
+    corporate_sponsor: "corporate sponsor",
     production: "production",
     profile: "profile",
     theatre: "theatre",
@@ -684,6 +686,7 @@ function primarySubmissionName(payload) {
     fields.production_title ||
     fields.title ||
     fields.theatre_name ||
+    fields.organization ||
     fields.submitter_name ||
     "Untitled"
   ).trim();

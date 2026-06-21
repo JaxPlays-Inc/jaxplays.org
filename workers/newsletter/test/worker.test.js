@@ -241,6 +241,7 @@ test("rejects honeypot submissions before external calls", async () => {
 test("normalizes submission form types", () => {
   assert.equal(normalizeSubmissionType(" Production "), "production");
   assert.equal(normalizeSubmissionType("audition"), "audition");
+  assert.equal(normalizeSubmissionType(" corporate_sponsor "), "corporate_sponsor");
   assert.equal(normalizeSubmissionType("spam"), "");
 });
 
@@ -259,6 +260,64 @@ test("detects missing required submission fields", () => {
   form.set("showtimes", "June 12 at 8 p.m.");
 
   assert.deepEqual(missingSubmissionFields("production", form), []);
+});
+
+test("accepts corporate sponsor submissions", async () => {
+  const calls = [];
+  const form = new FormData();
+  form.set("form_type", "corporate_sponsor");
+  form.set("email", "partner@example.com");
+  form.set("submitter_name", "Potential Sponsor");
+  form.set("organization", "Example Company");
+  form.set("message", "We would like to discuss sponsorship opportunities.");
+  form.set("turnstileToken", "token");
+
+  const request = new Request("https://api.jaxplays.org/submissions", {
+    method: "POST",
+    headers: {
+      "Origin": "https://jaxplays.org",
+    },
+    body: form,
+  });
+
+  const response = await handleRequest(request, env, {
+    fetch: async (url, options = {}) => {
+      calls.push({ url: String(url), options });
+
+      if (String(url).includes("siteverify")) {
+        return Response.json({ success: true });
+      }
+
+      if (String(url) === "https://api.linear.app/graphql") {
+        return Response.json({
+          data: {
+            issueCreate: {
+              success: true,
+              issue: {
+                id: "issue-id",
+                identifier: "JP-2",
+                url: "https://linear.app/jaxplays/issue/JP-2",
+              },
+            },
+          },
+        });
+      }
+
+      if (String(url).includes("pushover.net")) {
+        return Response.json({ ok: true });
+      }
+
+      throw new Error(`Unexpected fetch: ${url}`);
+    },
+  });
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { ok: true });
+
+  const issueBody = JSON.parse(calls[1].options.body);
+  assert.match(issueBody.variables.input.title, /corporate sponsor submission: Example Company/);
+  assert.match(issueBody.variables.input.description, /Example Company/);
+  assert.equal(calls[2].url, "https://api.pushover.net/1/messages.json");
 });
 
 test("builds a submission payload with repeated fields and file metadata", () => {

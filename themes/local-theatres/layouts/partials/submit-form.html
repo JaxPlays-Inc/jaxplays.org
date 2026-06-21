@@ -135,10 +135,12 @@
       </div>
     {{- end }}
 
-    <div class="jp-submit-rights">
-      <p>By applying, you affirm that you are the rightful owner or possess all necessary rights to the content provided, and grant JaxPlays, Inc. a perpetual, nontransferable, royalty-free license to publish, display, reproduce and distribute the provided content on jaxplays.org, by email and on social media.</p>
-      <p>Application does not guarantee publication on jaxplays.org. All applications are reviewed before approval.</p>
-    </div>
+    {{- if ne $form.show_rights false }}
+      <div class="jp-submit-rights">
+        <p>By applying, you affirm that you are the rightful owner or possess all necessary rights to the content provided, and grant JaxPlays, Inc. a perpetual, nontransferable, royalty-free license to publish, display, reproduce and distribute the provided content on jaxplays.org, by email and on social media.</p>
+        <p>Application does not guarantee publication on jaxplays.org. All applications are reviewed before approval.</p>
+      </div>
+    {{- end }}
 
     <div
       class="cf-turnstile"

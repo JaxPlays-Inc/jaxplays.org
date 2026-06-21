@@ -419,3 +419,49 @@ audition:
       label: Notes
       type: textarea
       description: Anything else you need to let us know? This will not be published.
+
+corporate_sponsor:
+  type: corporate_sponsor
+  submit_label: Send Sponsorship Inquiry
+  success: Thank you. Your sponsorship inquiry has been sent to JaxPlays.
+  show_rights: false
+  fields:
+    - name: email
+      label: Email
+      type: email
+      required: true
+      description: Your email address.
+    - name: submitter_name
+      label: Your Name
+      type: text
+      required: true
+    - name: organization
+      label: Company or Organization
+      type: text
+      required: true
+    - name: phone
+      label: Phone
+      type: tel
+      placeholder: (904) 555-1212
+      phone_format: true
+    - name: website
+      label: Website
+      type: url
+      value: https://
+    - name: sponsorship_interest
+      label: Sponsorship Interest
+      type: checkbox
+      options:
+        - Website Advertising
+        - Newsletter Sponsorship
+        - Sponsored Content
+        - General Partnership
+        - Not Sure Yet
+    - name: message
+      label: How would you like to partner with JaxPlays?
+      type: textarea
+      required: true
+    - name: notes
+      label: Notes
+      type: textarea
+      description: Anything else you need to let us know?
