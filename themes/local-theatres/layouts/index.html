@@ -4,6 +4,9 @@
 {{ $soon := $now.AddDate 0 0 30 }}
 {{ $closingWindow := $now.AddDate 0 0 10 }}
 {{ $newsWindow := $now.AddDate 0 0 -28 }}
+{{ $currentDate := $now.Format "2006-01-02" }}
+{{ $soonDate := $soon.Format "2006-01-02" }}
+{{ $closingWindowDate := $closingWindow.Format "2006-01-02" }}
 {{ $productions := where .Site.RegularPages "Section" "productions" }}
 {{ $reviews := where .Site.RegularPages "Section" "reviews" }}
 {{ $news := where .Site.RegularPages "Section" "news" }}
@@ -17,14 +20,15 @@
   {{ $production := . }}
   {{ with $production.Params.opening_date }}
     {{ $opening := time . }}
-    {{ $closing := $opening }}
-    {{ with $production.Params.closing_date }}{{ $closing = time . }}{{ end }}
-    {{ if and (le $opening.Unix $now.Unix) (ge $closing.Unix $now.Unix) }}
+    {{ $openingDate := $opening.Format "2006-01-02" }}
+    {{ $closingDate := $openingDate }}
+    {{ with $production.Params.closing_date }}{{ $closingDate = (time .).Format "2006-01-02" }}{{ end }}
+    {{ if and (le $openingDate $currentDate) (ge $closingDate $currentDate) }}
       {{ $nowPlaying = $nowPlaying | append $production }}
-      {{ if le $closing.Unix $closingWindow.Unix }}
+      {{ if le $closingDate $closingWindowDate }}
         {{ $closingSoon = $closingSoon | append $production }}
       {{ end }}
-    {{ else if and (gt $opening.Unix $now.Unix) (le $opening.Unix $soon.Unix) }}
+    {{ else if and (gt $openingDate $currentDate) (le $openingDate $soonDate) }}
       {{ $openingSoon = $openingSoon | append $production }}
     {{ end }}
   {{ end }}
