@@ -460,7 +460,6 @@ corporate_sponsor:
     - name: message
       label: How would you like to partner with JaxPlays?
       type: textarea
-      required: true
     - name: notes
       label: Notes
       type: textarea

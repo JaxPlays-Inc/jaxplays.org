@@ -269,7 +269,6 @@ test("accepts corporate sponsor submissions", async () => {
   form.set("email", "partner@example.com");
   form.set("submitter_name", "Potential Sponsor");
   form.set("organization", "Example Company");
-  form.set("message", "We would like to discuss sponsorship opportunities.");
   form.set("turnstileToken", "token");
 
   const request = new Request("https://api.jaxplays.org/submissions", {

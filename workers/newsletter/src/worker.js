@@ -16,7 +16,7 @@ const SUBMISSION_REQUIRED_FIELDS = {
   production: ["email", "submitter_name", "theatre", "venue", "genres", "title", "showtimes"],
   theatre: ["email", "submitter_name", "theatre_name", "logo"],
   audition: ["email", "submitter_name", "theatre", "production_title"],
-  corporate_sponsor: ["email", "submitter_name", "organization", "message"],
+  corporate_sponsor: ["email", "submitter_name", "organization"],
 };
 
 export default {
