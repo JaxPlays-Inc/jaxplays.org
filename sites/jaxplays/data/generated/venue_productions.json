@@ -17156,11 +17156,13 @@
         "Amelia Musical Playhouse"
       ],
       "genres": [
-        "Musical"
+        "Musical",
+        "Family",
+        "Comedy"
       ],
-      "summary": "Annie and her orphans bring a hard knock life to Amelia Musical Playhouse for three weekends in August 2026.",
+      "summary": "Experience the heartwarming tale of Annie, a plucky orphan who wins everyone's hearts despite a hard-knock life in 1930s New York City.",
       "tickets": "https://904tix.com/organizations/amelia-musical-playhouse",
-      "searchBase": "annie aug 14, 2026 aug 29, 2026 amelia musical playhouse amelia musical playhouse musical annie and her orphans bring a hard knock life to amelia musical playhouse for three weekends in august 2026."
+      "searchBase": "annie aug 14, 2026 aug 29, 2026 amelia musical playhouse amelia musical playhouse musical family comedy experience the heartwarming tale of annie, a plucky orphan who wins everyone's hearts despite a hard-knock life in 1930s new york city."
     },
     {
       "title": "Monty Python's Edukational Show",
@@ -20007,7 +20009,7 @@
       "title": "Disney's Frozen",
       "url": "/productions/2026-frozen/",
       "contentPath": "productions/2026/2026-Frozen",
-      "poster": "/media/posters/2026-Frozen.webp",
+      "poster": "/media/posters/2026-Frozen.webp?v=200213",
       "posterAlt": "Disney's Frozen poster",
       "openingDate": "2026-07-17",
       "closingDate": "2026-07-26",
