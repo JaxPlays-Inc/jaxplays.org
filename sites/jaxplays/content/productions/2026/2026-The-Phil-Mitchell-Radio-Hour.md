@@ -44,6 +44,10 @@ source_urls:
 
 After debuting in Columbus, Ohio, the show has mounted performances in Georgia, North Carolina, and New York City. It was named a 2025 ArtsATL Critic's Pick during the Atlanta Fringe Festival and played a sold-out run at the 2026 Asheville Fringe Festival. Its Jacksonville run marks the show's Florida debut and its first site-specific performance inside the historic San Marco Church.
 
+### First Coast Connect: The Phil Mitchel Radio ----------
+
+{{< youtube id="Cr5Bnrl3hP0" >}}
+
 ### OG Sessions Podcast
 
 {{< youtube id="_Cuq8lsjIis" start=2004 >}}
