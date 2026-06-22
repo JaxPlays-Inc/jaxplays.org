@@ -10,3 +10,12 @@
 {{- if and .IsPage (eq .Section "venues") -}}
   {{- partial "schema/venue.html" . -}}
 {{- end -}}
+{{- if and .IsPage (eq .Section "reviews") -}}
+  {{- partial "schema/review.html" . -}}
+{{- else if and .IsPage (eq .Section "news") -}}
+  {{- partial "schema/article.html" (dict "page" . "schemaType" "NewsArticle") -}}
+{{- else if and .IsPage (eq .Section "editorials") -}}
+  {{- partial "schema/article.html" (dict "page" . "schemaType" "OpinionNewsArticle") -}}
+{{- else if and .IsPage (eq .Section "guides") -}}
+  {{- partial "schema/article.html" (dict "page" . "schemaType" "Article") -}}
+{{- end -}}

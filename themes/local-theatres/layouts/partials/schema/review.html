@@ -1,0 +1,55 @@
+{{- $review := dict
+  "@context" "https://schema.org"
+  "@type" "Review"
+  "@id" (printf "%s#review" .Permalink)
+  "name" .Title
+  "headline" .Title
+  "url" .Permalink
+  "mainEntityOfPage" .Permalink
+  "publisher" (partial "schema/publisher.html" .)
+-}}
+
+{{- if not .Date.IsZero -}}
+  {{- $review = merge $review (dict "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+{{- if not .Lastmod.IsZero -}}
+  {{- $review = merge $review (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+
+{{- with .Params.description -}}
+  {{- $review = merge $review (dict "description" (. | plainify | htmlUnescape)) -}}
+{{- else -}}
+  {{- with .Summary -}}
+    {{- $review = merge $review (dict "description" (. | plainify | htmlUnescape)) -}}
+  {{- end -}}
+{{- end -}}
+{{- with partial "func/GetFeaturedImage.html" . -}}
+  {{- $review = merge $review (dict "image" (. | absURL)) -}}
+{{- end -}}
+{{- with partial "schema/article-authors.html" . -}}
+  {{- if gt (len .) 0 -}}
+    {{- $review = merge $review (dict "author" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with .Params.production -}}
+  {{- $productionTitle := printf "%v" . -}}
+  {{- $itemReviewed := dict "@type" "TheaterEvent" "name" $productionTitle -}}
+  {{- $productionSlug := $productionTitle | urlize -}}
+  {{- $productionPage := false -}}
+  {{- range where site.RegularPages "Section" "productions" -}}
+    {{- if eq (.File.BaseFileName | urlize) $productionSlug -}}
+      {{- $productionPage = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $productionPage -}}
+    {{- $itemReviewed = merge $itemReviewed (dict
+      "@id" (printf "%s#event" .Permalink)
+      "url" .Permalink
+      "name" .Title
+    ) -}}
+  {{- end -}}
+  {{- $review = merge $review (dict "itemReviewed" $itemReviewed) -}}
+{{- end -}}
+
+{{- partial "schema/jsonld.html" $review -}}

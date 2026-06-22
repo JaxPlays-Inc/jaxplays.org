@@ -1,0 +1,24 @@
+{{- $authors := slice -}}
+{{- $rawAuthors := .Params.authors | default .Params.author -}}
+{{- with $rawAuthors -}}
+  {{- if eq (printf "%T" .) "string" -}}
+    {{- $authors = $authors | append . -}}
+  {{- else -}}
+    {{- range . -}}
+      {{- $authors = $authors | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $authorObjects := slice -}}
+{{- range $authors -}}
+  {{- $name := printf "%v" . -}}
+  {{- if $name -}}
+    {{- $authorObjects = $authorObjects | append (dict
+      "@type" "Person"
+      "name" $name
+      "url" (printf "/authors/%s/" ($name | urlize) | absURL)
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $authorObjects -}}
