@@ -1,0 +1,47 @@
+{{- $items := .items -}}
+{{- $rolePattern := .rolePattern | default "" -}}
+{{- $valueRolePattern := .valueRolePattern | default "" -}}
+{{- $names := slice -}}
+
+{{- with $items -}}
+  {{- range . -}}
+    {{- if reflect.IsMap . -}}
+      {{- range $role, $value := . -}}
+        {{- $includeRole := true -}}
+        {{- if $rolePattern -}}
+          {{- $includeRole = false -}}
+          {{- if findRE $rolePattern (lower (printf "%v" $role)) -}}
+            {{- $includeRole = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $includeRole -}}
+          {{- if eq (printf "%T" $value) "string" -}}
+            {{- $name := $value -}}
+            {{- if and $valueRolePattern (findRE $valueRolePattern (lower (printf "%v" $value))) -}}
+              {{- $name = printf "%v" $role -}}
+            {{- end -}}
+            {{- $names = $names | append $name -}}
+          {{- else -}}
+            {{- with $value -}}
+              {{- range . -}}
+                {{- $names = $names | append (printf "%v" .) -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else if not $rolePattern -}}
+      {{- $names = $names | append (printf "%v" .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $people := slice -}}
+{{- range (uniq $names) -}}
+  {{- $name := printf "%v" . | strings.TrimSpace -}}
+  {{- if and $name (ne $name "<nil>") -}}
+    {{- $people = $people | append (dict "@type" "Person" "name" $name) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $people -}}

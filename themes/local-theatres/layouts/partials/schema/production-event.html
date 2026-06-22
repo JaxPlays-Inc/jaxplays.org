@@ -1,0 +1,171 @@
+{{- $startDate := "" -}}
+{{- with .Params.opening_date -}}
+  {{- $candidate := printf "%v" . -}}
+  {{- if findRE `^\d{4}-\d{2}-\d{2}` $candidate -}}
+    {{- $startDate = $candidate -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $startDate -}}
+  {{- $eventID := printf "%s#production-event" .Permalink -}}
+  {{- $event := dict
+    "@context" "https://schema.org"
+    "@type" "TheaterEvent"
+    "@id" $eventID
+    "name" .Title
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "startDate" $startDate
+    "eventStatus" "https://schema.org/EventScheduled"
+    "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+  -}}
+
+  {{- with .Params.closing_date -}}
+    {{- $candidate := printf "%v" . -}}
+    {{- if findRE `^\d{4}-\d{2}-\d{2}` $candidate -}}
+      {{- $event = merge $event (dict "endDate" $candidate) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $description := "" -}}
+  {{- with .Description -}}
+    {{- $description = . | plainify | htmlUnescape -}}
+  {{- else -}}
+    {{- with .Summary -}}
+      {{- $description = . | plainify | htmlUnescape -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $description -}}
+    {{- $event = merge $event (dict "description" .) -}}
+  {{- end -}}
+
+  {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/posters/") -}}
+    {{- $event = merge $event (dict "image" .) -}}
+  {{- end -}}
+
+  {{- $workPerformed := dict "@type" "CreativeWork" "name" .Title -}}
+  {{- $event = merge $event (dict "workPerformed" $workPerformed) -}}
+
+  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.cast) -}}
+    {{- if gt (len .) 0 -}}
+      {{- $event = merge $event (dict "actor" .) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.crew "rolePattern" `^(director|music director|musical director|director and .*)$`) -}}
+    {{- if gt (len .) 0 -}}
+      {{- $event = merge $event (dict "director" .) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.orchestra "valueRolePattern" `^(accordion|accompanist|banjo|bass|cello|clarinet|conductor|drums?|flute|guitar|horn|keyboard|keyboards|music director|oboe|percussion|piano|reed|saxophone|trombone|trumpet|viola|violin|woodwinds?)$`) -}}
+    {{- if gt (len .) 0 -}}
+      {{- $event = merge $event (dict "performer" .) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $locations := slice -}}
+  {{- $rawVenues := .Params.venue -}}
+  {{- with $rawVenues -}}
+    {{- if eq (printf "%T" .) "string" -}}
+      {{- $rawVenues = slice . -}}
+    {{- end -}}
+    {{- range $rawVenues -}}
+      {{- $venueName := printf "%v" . -}}
+      {{- $venuePage := false -}}
+      {{- range where site.RegularPages "Section" "venues" -}}
+        {{- if or (eq .Title $venueName) (in (.Params.venue_aliases | default slice) $venueName) -}}
+          {{- $venuePage = . -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if $venuePage -}}
+        {{- $locations = $locations | append (dict
+          "@type" "PerformingArtsTheater"
+          "@id" (printf "%s#venue" $venuePage.Permalink)
+          "name" $venuePage.Title
+          "url" $venuePage.Permalink
+        ) -}}
+      {{- else if $venueName -}}
+        {{- $locations = $locations | append (dict "@type" "Place" "name" $venueName) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if eq (len $locations) 1 -}}
+    {{- $event = merge $event (dict "location" (index $locations 0)) -}}
+  {{- else if gt (len $locations) 1 -}}
+    {{- $event = merge $event (dict "location" $locations) -}}
+  {{- end -}}
+
+  {{- with .Params.theatre -}}
+    {{- $theatreName := printf "%v" . -}}
+    {{- $theatrePage := false -}}
+    {{- range where site.Pages "Section" "theatres" -}}
+      {{- if or (eq .Title $theatreName) (in (.Params.theatre_aliases | default slice) $theatreName) -}}
+        {{- $theatrePage = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $theatrePage -}}
+      {{- $event = merge $event (dict "organizer" (dict
+        "@type" "TheaterGroup"
+        "@id" (printf "%s#organization" $theatrePage.Permalink)
+        "name" $theatrePage.Title
+        "url" $theatrePage.Permalink
+      )) -}}
+    {{- else -}}
+      {{- $event = merge $event (dict "organizer" (dict "@type" "Organization" "name" $theatreName)) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with .Params.tickets -}}
+    {{- $event = merge $event (dict "offers" (dict
+      "@type" "Offer"
+      "url" (printf "%v" .)
+    )) -}}
+  {{- end -}}
+
+  {{- $subEvents := slice -}}
+  {{- with .Params.showtimes -}}
+    {{- range $index, $showtimeValue := . -}}
+      {{- $showtimeDateTime := $showtimeValue -}}
+      {{- $showtimeVenue := "" -}}
+      {{- if reflect.IsMap $showtimeValue -}}
+        {{- $showtimeDateTime = index $showtimeValue "datetime" -}}
+        {{- $showtimeVenue = index $showtimeValue "venue" | default "" -}}
+      {{- end -}}
+      {{- with $showtimeDateTime -}}
+        {{- $showtimeString := printf "%v" . -}}
+        {{- if findRE `^\d{4}-\d{2}-\d{2}` $showtimeString -}}
+          {{- $performance := dict
+            "@type" "TheaterEvent"
+            "@id" (printf "%s#performance-%d" $.Permalink (add $index 1))
+            "name" (printf "%s performance" $.Title)
+            "url" $.Permalink
+            "startDate" ((time $showtimeString).Format "2006-01-02T15:04:05-07:00")
+            "eventStatus" "https://schema.org/EventScheduled"
+            "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+            "workPerformed" $workPerformed
+          -}}
+          {{- if $showtimeVenue -}}
+            {{- $performance = merge $performance (dict "location" (dict "@type" "Place" "name" $showtimeVenue)) -}}
+          {{- else -}}
+            {{- with $event.location -}}
+              {{- $performance = merge $performance (dict "location" .) -}}
+            {{- end -}}
+          {{- end -}}
+          {{- with $event.organizer -}}
+            {{- $performance = merge $performance (dict "organizer" .) -}}
+          {{- end -}}
+          {{- with $event.offers -}}
+            {{- $performance = merge $performance (dict "offers" .) -}}
+          {{- end -}}
+          {{- $subEvents = $subEvents | append $performance -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $subEvents) 0 -}}
+    {{- $event = merge $event (dict "subEvent" $subEvents) -}}
+  {{- end -}}
+
+  {{- partial "schema/jsonld.html" $event -}}
+{{- end -}}
