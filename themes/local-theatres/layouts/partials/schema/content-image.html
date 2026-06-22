@@ -1,0 +1,18 @@
+{{- $page := .page -}}
+{{- $basePath := .basePath | default "/media/" -}}
+{{- $url := "" -}}
+{{- with $page.Params.featured_image -}}
+  {{- $image := . -}}
+  {{- if reflect.IsMap . -}}
+    {{- $image = .src -}}
+  {{- end -}}
+  {{- with $image -}}
+    {{- $imageURL := printf "%s" . -}}
+    {{- if or (hasPrefix $imageURL "http://") (hasPrefix $imageURL "https://") (hasPrefix $imageURL "/") -}}
+      {{- $url = $imageURL | absURL -}}
+    {{- else if not (in $imageURL "/") -}}
+      {{- $url = printf "%s%s" $basePath $imageURL | absURL -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

@@ -1,0 +1,8 @@
+{{- $value := "" -}}
+{{- with . -}}
+  {{- $candidate := printf "%v" . -}}
+  {{- if or (findRE `^\d{4}$` $candidate) (findRE `^\d{4}-\d{2}-\d{2}$` $candidate) -}}
+    {{- $value = $candidate -}}
+  {{- end -}}
+{{- end -}}
+{{- return $value -}}
