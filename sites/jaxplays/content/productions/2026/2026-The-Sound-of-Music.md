@@ -3,7 +3,7 @@ title: The Sound of Music
 theatre: Limelight Theatre
 venue: Inez McDonald Mainstage
 season: 34
-date: 2026-06-01T20:44:00-04:00
+date: 2026-06-22T15:49:38-04:00
 opening_date: 2026-07-16
 closing_date: 2026-08-09
 showtimes:
@@ -32,7 +32,20 @@ featured_image_attr_link: null
 program: null
 website: https://www.limelight-theatre.org/calendar/on-stage/the-sound-of-music
 tickets: https://limelight.ludus.com/200477928
-cast: []
+cast:
+  - Maria Rainer: Livi De Maio
+  - Captain Georg von Trapp: Franklin Ritch
+  - Liesl von Trapp: Elizabeth Liss
+  - Rolf Gruber: Peter Fisk
+  - Max Detweiler: Clay Mitchell
+  - Elsa Schraeder: Angela Olsen
+  - Mother Abbess: Amy Gwilliam
+  - Friedrich von Trapp: Mason White
+  - Louisa von Trapp: Jameson Bennet
+  - Kurt von Trapp: Francis Ryan
+  - Brigitta von Trapp: Augustine Christian
+  - Marta von Trapp: Sadie Hall
+  - Gretl von Trapp: Bailey Butler
 crew:
 - Co-Director: 
   - Isabel Dondero
@@ -43,6 +56,9 @@ show_details: []
 genres:
   - Musical
   - Family
+description: Limelight Theatre closes its 34th season with Rodgers & Hammerstein's classic musical about Maria Rainer, the von Trapp family and the enduring power of music, courage and hope.
+source: Beth Strautz press release email
+source_date: 2026-06-22
 source_urls:
   - https://www.limelight-theatre.org/calendar/on-stage
   - https://www.limelight-theatre.org/calendar/on-stage/the-sound-of-music
