@@ -1,4 +1,8 @@
 {{ define "header" }}{{ partialCached "production-header.html" . }}{{ end }}
+{{ define "head" }}
+  {{ partial "head-additions.html" . }}
+  {{ partial "schema/person-profile.html" . }}
+{{ end }}
 {{ define "main" }}
 
 <div class="flex-l mt0 w-100 mw8 center">
