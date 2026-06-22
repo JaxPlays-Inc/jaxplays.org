@@ -4,3 +4,9 @@
 {{- if and .IsPage (eq .Section "people") -}}
   {{- partial "schema/person-profile.html" . -}}
 {{- end -}}
+{{- if and (eq .Section "theatres") (eq .Layout "profile") -}}
+  {{- partial "schema/theatre-profile.html" . -}}
+{{- end -}}
+{{- if and .IsPage (eq .Section "venues") -}}
+  {{- partial "schema/venue.html" . -}}
+{{- end -}}

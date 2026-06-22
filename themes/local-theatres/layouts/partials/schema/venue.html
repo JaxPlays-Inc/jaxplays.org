@@ -1,0 +1,46 @@
+{{- $venue := dict
+  "@context" "https://schema.org"
+  "@type" "PerformingArtsTheater"
+  "@id" (printf "%s#venue" .Permalink)
+  "name" .Title
+  "url" .Permalink
+  "mainEntityOfPage" .Permalink
+-}}
+
+{{- with .Description -}}
+  {{- $venue = merge $venue (dict "description" (. | plainify | htmlUnescape)) -}}
+{{- else -}}
+  {{- with .Summary -}}
+    {{- $venue = merge $venue (dict "description" (. | plainify | htmlUnescape)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/logos/") -}}
+  {{- $venue = merge $venue (dict "image" .) -}}
+{{- end -}}
+{{- with partial "schema/valid-date.html" .Params.founded -}}
+  {{- $venue = merge $venue (dict "foundingDate" .) -}}
+{{- end -}}
+{{- with .Params.phone -}}
+  {{- $venue = merge $venue (dict "telephone" (printf "%v" .)) -}}
+{{- end -}}
+{{- with .Params.address -}}
+  {{- $venue = merge $venue (dict "address" (. | plainify | htmlUnescape)) -}}
+{{- end -}}
+{{- if and .Params.latitude .Params.longitude -}}
+  {{- $venue = merge $venue (dict "geo" (dict
+    "@type" "GeoCoordinates"
+    "latitude" .Params.latitude
+    "longitude" .Params.longitude
+  )) -}}
+{{- end -}}
+{{- with .Params.capacity -}}
+  {{- $venue = merge $venue (dict "maximumAttendeeCapacity" .) -}}
+{{- end -}}
+{{- with partial "schema/social-urls.html" .Params.socials -}}
+  {{- if gt (len .) 0 -}}
+    {{- $venue = merge $venue (dict "sameAs" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- partial "schema/jsonld.html" $venue -}}

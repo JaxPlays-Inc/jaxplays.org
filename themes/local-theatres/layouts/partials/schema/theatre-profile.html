@@ -1,0 +1,68 @@
+{{- $organizationID := printf "%s#organization" .Permalink -}}
+{{- $profileID := printf "%s#profilepage" .Permalink -}}
+{{- $theatre := dict
+  "@type" "TheaterGroup"
+  "@id" $organizationID
+  "name" .Title
+  "url" .Permalink
+-}}
+
+{{- with .Description -}}
+  {{- $theatre = merge $theatre (dict "description" (. | plainify | htmlUnescape)) -}}
+{{- else -}}
+  {{- with .Summary -}}
+    {{- $theatre = merge $theatre (dict "description" (. | plainify | htmlUnescape)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/logos/") -}}
+  {{- $theatre = merge $theatre (dict "image" . "logo" (dict "@type" "ImageObject" "url" .)) -}}
+{{- end -}}
+
+{{- with partial "schema/valid-date.html" .Params.founded -}}
+  {{- $theatre = merge $theatre (dict "foundingDate" .) -}}
+{{- end -}}
+{{- with .Params.phone -}}
+  {{- $theatre = merge $theatre (dict "telephone" (printf "%v" .)) -}}
+{{- end -}}
+{{- with .Params.address -}}
+  {{- $theatre = merge $theatre (dict "address" (. | plainify | htmlUnescape)) -}}
+{{- end -}}
+{{- if and .Params.latitude .Params.longitude -}}
+  {{- $theatre = merge $theatre (dict "geo" (dict
+    "@type" "GeoCoordinates"
+    "latitude" .Params.latitude
+    "longitude" .Params.longitude
+  )) -}}
+{{- end -}}
+
+{{- $alternateNames := slice -}}
+{{- with .Params.theatre_aliases -}}
+  {{- if eq (printf "%T" .) "string" -}}
+    {{- $alternateNames = $alternateNames | append . -}}
+  {{- else -}}
+    {{- range . -}}
+      {{- $alternateNames = $alternateNames | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $alternateNames) 0 -}}
+  {{- $theatre = merge $theatre (dict "alternateName" (uniq $alternateNames)) -}}
+{{- end -}}
+
+{{- with partial "schema/social-urls.html" .Params.socials -}}
+  {{- if gt (len .) 0 -}}
+    {{- $theatre = merge $theatre (dict "sameAs" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "ProfilePage"
+  "@id" $profileID
+  "url" .Permalink
+  "name" (printf "%s - JaxPlays Theatre Profile" .Title)
+  "mainEntity" $theatre
+-}}
+
+{{- partial "schema/jsonld.html" $schema -}}

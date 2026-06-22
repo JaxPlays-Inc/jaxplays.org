@@ -61,63 +61,10 @@
   {{- $person = merge $person (dict "knowsAbout" (uniq $roles)) -}}
 {{- end -}}
 
-{{- $sameAs := slice -}}
-{{- with .Params.socials -}}
-  {{- range $name, $handle := . -}}
-    {{- with $handle -}}
-      {{- $service := lower $name -}}
-      {{- $handleString := printf "%s" . -}}
-      {{- $isAbsoluteURL := or (hasPrefix $handleString "http://") (hasPrefix $handleString "https://") -}}
-      {{- $url := "" -}}
-      {{- if eq $service "facebook" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.facebook.com/%s" $handleString) -}}
-      {{- else if eq $service "instagram" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.instagram.com/%s" $handleString) -}}
-      {{- else if eq $service "threads" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.threads.net/@%s" $handleString) -}}
-      {{- else if eq $service "youtube" -}}
-        {{- if $isAbsoluteURL -}}
-          {{- $url = $handleString -}}
-        {{- else if hasPrefix $handleString "@" -}}
-          {{- $url = printf "https://www.youtube.com/%s" $handleString -}}
-        {{- else -}}
-          {{- $url = printf "https://www.youtube.com/user/%s" $handleString -}}
-        {{- end -}}
-      {{- else if eq $service "linkedin" -}}
-        {{- if $isAbsoluteURL -}}
-          {{- $url = $handleString -}}
-        {{- else if hasPrefix $handleString "company/" -}}
-          {{- $url = printf "https://www.linkedin.com/%s" $handleString -}}
-        {{- else -}}
-          {{- $url = printf "https://www.linkedin.com/in/%s" $handleString -}}
-        {{- end -}}
-      {{- else if eq $service "tiktok" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.tiktok.com/@%s" $handleString) -}}
-      {{- else if eq $service "twitter" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://twitter.com/%s" $handleString) -}}
-      {{- else if eq $service "medium" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://medium.com/@%s" $handleString) -}}
-      {{- else if eq $service "imdb" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.imdb.com/name/%s" $handleString) -}}
-      {{- else if eq $service "ibdb" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.ibdb.com/broadway-cast-staff/%s" $handleString) -}}
-      {{- else if eq $service "backstage" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.backstage.com/u/%s" $handleString) -}}
-      {{- else if eq $service "wikipedia" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://en.wikipedia.org/wiki/%s" $handleString) -}}
-      {{- else if and (eq $service "website") $isAbsoluteURL -}}
-        {{- $url = $handleString -}}
-      {{- else if $isAbsoluteURL -}}
-        {{- $url = $handleString -}}
-      {{- end -}}
-      {{- with $url -}}
-        {{- $sameAs = $sameAs | append . -}}
-      {{- end -}}
-    {{- end -}}
+{{- with partial "schema/social-urls.html" .Params.socials -}}
+  {{- if gt (len .) 0 -}}
+    {{- $person = merge $person (dict "sameAs" .) -}}
   {{- end -}}
-{{- end -}}
-{{- if gt (len $sameAs) 0 -}}
-  {{- $person = merge $person (dict "sameAs" (uniq $sameAs)) -}}
 {{- end -}}
 
 {{- $schema := dict
