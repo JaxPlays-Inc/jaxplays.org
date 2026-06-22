@@ -1,0 +1,37 @@
+{{- $schemaType := .schemaType | default "Article" -}}
+{{- $page := .page -}}
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" $schemaType
+  "@id" (printf "%s#article" $page.Permalink)
+  "headline" $page.Title
+  "url" $page.Permalink
+  "mainEntityOfPage" $page.Permalink
+  "publisher" (partial "schema/publisher.html" $page)
+-}}
+
+{{- if not $page.Date.IsZero -}}
+  {{- $schema = merge $schema (dict "datePublished" ($page.Date.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+{{- if not $page.Lastmod.IsZero -}}
+  {{- $schema = merge $schema (dict "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+
+{{- with $page.Params.description -}}
+  {{- $schema = merge $schema (dict "description" (. | plainify | htmlUnescape)) -}}
+{{- else -}}
+  {{- with $page.Summary -}}
+    {{- $schema = merge $schema (dict "description" (. | plainify | htmlUnescape)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with partial "func/GetFeaturedImage.html" $page -}}
+  {{- $schema = merge $schema (dict "image" (. | absURL)) -}}
+{{- end -}}
+{{- with partial "schema/article-authors.html" $page -}}
+  {{- if gt (len .) 0 -}}
+    {{- $schema = merge $schema (dict "author" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- partial "schema/jsonld.html" $schema -}}
