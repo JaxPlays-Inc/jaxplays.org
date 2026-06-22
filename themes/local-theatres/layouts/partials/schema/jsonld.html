@@ -1,0 +1,3 @@
+{{- with . -}}
+<script type="application/ld+json">{{ . | jsonify | safeJS }}</script>
+{{- end -}}

@@ -129,4 +129,4 @@
   "mainEntity" $person
 -}}
 
-<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{- partial "schema/jsonld.html" $schema -}}

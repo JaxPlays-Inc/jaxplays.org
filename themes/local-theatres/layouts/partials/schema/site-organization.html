@@ -1,0 +1,32 @@
+{{- $siteURL := site.Home.Permalink -}}
+{{- $organization := dict
+  "@context" "https://schema.org"
+  "@type" "NewsMediaOrganization"
+  "@id" (printf "%s#organization" $siteURL)
+  "name" site.Title
+  "url" $siteURL
+-}}
+
+{{- with site.Params.description -}}
+  {{- $organization = merge $organization (dict "description" (. | plainify | htmlUnescape)) -}}
+{{- end -}}
+
+{{- $logoURL := "/JaxPlaysLogo.svg" | absURL -}}
+{{- $organization = merge $organization (dict "logo" (dict
+  "@type" "ImageObject"
+  "url" $logoURL
+)) -}}
+
+{{- $sameAs := slice -}}
+{{- with site.Params.social -}}
+  {{- range . -}}
+    {{- with .url -}}
+      {{- $sameAs = $sameAs | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $sameAs) 0 -}}
+  {{- $organization = merge $organization (dict "sameAs" (uniq $sameAs)) -}}
+{{- end -}}
+
+{{- partial "schema/jsonld.html" $organization -}}

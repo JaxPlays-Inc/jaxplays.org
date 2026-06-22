@@ -1,0 +1,38 @@
+{{- if not .IsHome -}}
+  {{- $items := slice (dict
+    "@type" "ListItem"
+    "position" 1
+    "name" "Home"
+    "item" site.Home.Permalink
+  ) -}}
+  {{- $position := 2 -}}
+
+  {{- with .Section -}}
+    {{- with site.GetPage "section" . -}}
+      {{- if ne .Permalink $.Permalink -}}
+        {{- $items = $items | append (dict
+          "@type" "ListItem"
+          "position" $position
+          "name" .Title
+          "item" .Permalink
+        ) -}}
+        {{- $position = add $position 1 -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $items = $items | append (dict
+    "@type" "ListItem"
+    "position" $position
+    "name" .Title
+    "item" .Permalink
+  ) -}}
+
+  {{- $schema := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "@id" (printf "%s#breadcrumb" .Permalink)
+    "itemListElement" $items
+  -}}
+  {{- partial "schema/jsonld.html" $schema -}}
+{{- end -}}
