@@ -11,7 +11,9 @@ import {
   normalizeSubmissionType,
   normalizeSubmittedTags,
   missingSubmissionFields,
+  submissionEmailOptIn,
   submissionFiles,
+  submissionMailchimpTags,
   submissionPayload,
   sourceInterests,
   sourceMergeFields,
@@ -65,6 +67,14 @@ test("uses configured and submitted source tags", () => {
     NEWSLETTER_SOURCE_TAGS: "Cloudflare worker",
   }), ["Cloudflare worker", "Homepage Signup Form"]);
   assert.deepEqual(sourceTags([], {}), []);
+});
+
+test("uses submission Mailchimp tags", () => {
+  assert.deepEqual(submissionMailchimpTags("profile"), ["Cloudflare Worker", "Artist Profile Form"]);
+  assert.deepEqual(submissionMailchimpTags("production"), ["Cloudflare Worker", "Production Listing Form"]);
+  assert.deepEqual(submissionMailchimpTags("theatre"), ["Cloudflare Worker", "Theatre Listing Form"]);
+  assert.deepEqual(submissionMailchimpTags("audition"), ["Cloudflare Worker", "Audition Form"]);
+  assert.deepEqual(submissionMailchimpTags("corporate_sponsor"), ["Cloudflare Worker", "Corporate Sponsor Form"]);
 });
 
 test("uses configured Mailchimp interest IDs", () => {
@@ -262,6 +272,18 @@ test("detects missing required submission fields", () => {
   assert.deepEqual(missingSubmissionFields("production", form), []);
 });
 
+test("detects submission email communication opt-ins", () => {
+  const form = new FormData();
+
+  assert.equal(submissionEmailOptIn(form), false);
+
+  form.set("email_communications_opt_in", "yes");
+  assert.equal(submissionEmailOptIn(form), true);
+
+  form.set("email_communications_opt_in", "off");
+  assert.equal(submissionEmailOptIn(form), false);
+});
+
 test("accepts corporate sponsor submissions", async () => {
   const calls = [];
   const form = new FormData();
@@ -317,6 +339,140 @@ test("accepts corporate sponsor submissions", async () => {
   assert.match(issueBody.variables.input.title, /corporate sponsor submission: Example Company/);
   assert.match(issueBody.variables.input.description, /Example Company/);
   assert.equal(calls[2].url, "https://api.pushover.net/1/messages.json");
+});
+
+test("subscribes opted-in form submitters to Mailchimp with submission tags", async () => {
+  const calls = [];
+  const form = new FormData();
+  form.set("form_type", "production");
+  form.set("email", "Producer@Example.com");
+  form.set("submitter_name", "Producer Person");
+  form.set("theatre", "Example Theatre");
+  form.set("venue", "Example Venue");
+  form.append("genres", "Musical");
+  form.set("title", "Example Musical");
+  form.set("showtimes", "June 12 at 8 p.m.");
+  form.set("source_url", "https://jaxplays.org/submit/production/");
+  form.set("email_communications_opt_in", "yes");
+  form.set("turnstileToken", "token");
+
+  const request = new Request("https://api.jaxplays.org/submissions", {
+    method: "POST",
+    headers: {
+      "Origin": "https://jaxplays.org",
+    },
+    body: form,
+  });
+
+  const response = await handleRequest(request, env, {
+    fetch: async (url, options = {}) => {
+      calls.push({ url: String(url), options });
+
+      if (String(url).includes("siteverify")) {
+        return Response.json({ success: true });
+      }
+
+      if (String(url) === "https://api.linear.app/graphql") {
+        return Response.json({
+          data: {
+            issueCreate: {
+              success: true,
+              issue: {
+                id: "issue-id",
+                identifier: "JP-3",
+                url: "https://linear.app/jaxplays/issue/JP-3",
+              },
+            },
+          },
+        });
+      }
+
+      if (String(url).includes("pushover.net")) {
+        return Response.json({ ok: true });
+      }
+
+      if (String(url).includes("api.mailchimp.com")) {
+        return Response.json({ id: "member-id" });
+      }
+
+      throw new Error(`Unexpected fetch: ${url}`);
+    },
+  });
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { ok: true });
+
+  const mailchimpCall = calls.find((call) => call.url.includes("api.mailchimp.com"));
+  assert.ok(mailchimpCall);
+  assert.match(mailchimpCall.url, /lists\/audience-id\/members\/eef147ac95b8dc5ca1a010454aa8f8c9$/);
+  assert.deepEqual(JSON.parse(mailchimpCall.options.body), {
+    email_address: "producer@example.com",
+    interests: {
+      "interest-id": true,
+    },
+    merge_fields: {
+      URLFILL: "https://jaxplays.org/submit/production/",
+    },
+    status_if_new: "subscribed",
+    tags: ["Cloudflare Worker", "Production Listing Form"],
+  });
+});
+
+test("does not subscribe form submitters when email communications opt-in is unchecked", async () => {
+  const calls = [];
+  const form = new FormData();
+  form.set("form_type", "profile");
+  form.set("email", "person@example.com");
+  form.set("submitter_name", "Person");
+  form.set("email_communications_opt_in", "no");
+  form.set("turnstileToken", "token");
+
+  const request = new Request("https://api.jaxplays.org/submissions", {
+    method: "POST",
+    headers: {
+      "Origin": "https://jaxplays.org",
+    },
+    body: form,
+  });
+
+  const response = await handleRequest(request, env, {
+    fetch: async (url, options = {}) => {
+      calls.push({ url: String(url), options });
+
+      if (String(url).includes("siteverify")) {
+        return Response.json({ success: true });
+      }
+
+      if (String(url) === "https://api.linear.app/graphql") {
+        return Response.json({
+          data: {
+            issueCreate: {
+              success: true,
+              issue: {
+                id: "issue-id",
+                identifier: "JP-4",
+                url: "https://linear.app/jaxplays/issue/JP-4",
+              },
+            },
+          },
+        });
+      }
+
+      if (String(url).includes("pushover.net")) {
+        return Response.json({ ok: true });
+      }
+
+      if (String(url).includes("api.mailchimp.com")) {
+        throw new Error("Mailchimp should not be called");
+      }
+
+      throw new Error(`Unexpected fetch: ${url}`);
+    },
+  });
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { ok: true });
+  assert.equal(calls.some((call) => call.url.includes("api.mailchimp.com")), false);
 });
 
 test("builds a submission payload with repeated fields and file metadata", () => {

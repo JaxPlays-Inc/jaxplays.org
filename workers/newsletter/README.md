@@ -33,6 +33,8 @@ Configured behavior:
 - sends the submitting page URL to the configured `MAILCHIMP_CAMPAIGN_FILL_URL_FIELD` merge field
 - accepts native JaxPlays submit forms for `profile`, `production`, `theatre`, and `audition`
 - verifies Cloudflare Turnstile before delivering submissions
+- subscribes submitters to Mailchimp when the native submit form email communications checkbox is checked
+- tags opted-in native submit form subscribers with `Cloudflare Worker` and the submitted form name
 - creates Linear issues when `LINEAR_API_KEY` and `LINEAR_TEAM_ID` are configured
 - uploads submitted files to Linear through the server-side signed upload flow and links them in the issue description
 - sends fallback email to `SUBMISSION_EMAIL_TO` through Resend when Linear is not configured or unavailable

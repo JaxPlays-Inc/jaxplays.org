@@ -142,6 +142,13 @@
       </div>
     {{- end }}
 
+    <div class="jp-submit-field jp-submit-field--email-opt-in">
+      <label class="jp-submit-choice" for="jp-submit-{{ $form.type | urlize }}-email-communications-opt-in">
+        <input id="jp-submit-{{ $form.type | urlize }}-email-communications-opt-in" type="checkbox" name="email_communications_opt_in" value="yes" checked>
+        <span>Send me email communications from JaxPlays.</span>
+      </label>
+    </div>
+
     <div
       class="cf-turnstile"
       data-sitekey="{{ $turnstileSiteKey }}"></div>

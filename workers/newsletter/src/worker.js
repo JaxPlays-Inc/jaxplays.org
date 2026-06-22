@@ -11,6 +11,7 @@ const SUBMISSION_TYPES = new Set(["profile", "production", "theatre", "audition"
 const LINEAR_API_URL = "https://api.linear.app/graphql";
 const RESEND_API_URL = "https://api.resend.com/emails";
 const PUSHOVER_API_URL = "https://api.pushover.net/1/messages.json";
+const SUBMISSION_EMAIL_OPT_IN_FIELD = "email_communications_opt_in";
 const SUBMISSION_REQUIRED_FIELDS = {
   profile: ["email", "submitter_name"],
   production: ["email", "submitter_name", "theatre", "venue", "genres", "title", "showtimes"],
@@ -140,6 +141,10 @@ async function handleSubmission(request, env, cors, services = {}) {
     return json({ ok: false, error: forwarded.error, detail: forwarded.detail }, forwarded.status || 502, cors);
   }
 
+  if (submissionEmailOptIn(formData)) {
+    await subscribeSubmissionToMailchimp(payload, env, services.fetch || fetch);
+  }
+
   return json({ ok: true }, 200, cors);
 }
 
@@ -188,6 +193,10 @@ export function missingSubmissionFields(formType, formData) {
     const values = formData.getAll(field);
     return !values.some(hasSubmissionValue);
   });
+}
+
+export function submissionEmailOptIn(formData) {
+  return formData.getAll(SUBMISSION_EMAIL_OPT_IN_FIELD).some(isTruthyFormValue);
 }
 
 export function submissionPayload(formType, formData) {
@@ -560,6 +569,26 @@ async function subscribeToMailchimp(email, submittedTags, campaignFillUrl, env, 
   return { ok: false, status: 502, error: "mailchimp-unavailable" };
 }
 
+async function subscribeSubmissionToMailchimp(payload, env, fetchImpl) {
+  const fields = payload.fields || {};
+  const email = normalizeEmail(fields.email);
+
+  if (!email || !EMAIL_PATTERN.test(email)) {
+    return { ok: false, status: 400, error: "invalid-email" };
+  }
+
+  return subscribeToMailchimp(
+    email,
+    submissionMailchimpTags(payload.formType),
+    normalizeCampaignFillUrl(fields.source_url),
+    {
+      ...env,
+      NEWSLETTER_SOURCE_TAGS: "",
+    },
+    fetchImpl
+  );
+}
+
 async function mailchimpErrorDetail(response) {
   const fallback = `Mailchimp returned ${response.status}`;
 
@@ -576,6 +605,10 @@ export function sourceTags(submittedTags = [], env = {}) {
   const tags = configuredTags.concat(normalizeSubmittedTags(submittedTags));
 
   return Array.from(new Set(tags.filter(Boolean)));
+}
+
+export function submissionMailchimpTags(formType) {
+  return ["Cloudflare Worker", submissionFormTag(formType)];
 }
 
 export function sourceInterests(env = {}) {
@@ -643,6 +676,10 @@ function hasSubmissionValue(value) {
   return String(value || "").trim().length > 0;
 }
 
+function isTruthyFormValue(value) {
+  return ["1", "true", "yes", "on"].includes(String(value || "").trim().toLowerCase());
+}
+
 function isFileLike(value) {
   return (
     value &&
@@ -678,6 +715,16 @@ function titleForType(formType) {
     profile: "profile",
     theatre: "theatre",
   }[formType] || "content";
+}
+
+function submissionFormTag(formType) {
+  return {
+    audition: "Audition Form",
+    corporate_sponsor: "Corporate Sponsor Form",
+    production: "Production Listing Form",
+    profile: "Artist Profile Form",
+    theatre: "Theatre Listing Form",
+  }[formType] || "Submission Form";
 }
 
 function primarySubmissionName(payload) {
