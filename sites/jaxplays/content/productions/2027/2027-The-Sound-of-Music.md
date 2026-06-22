@@ -16,7 +16,7 @@ showtimes:
   - 2027-01-30 19:30:00
   - 2027-01-31 13:00:00
   - 2027-01-31 18:30:00
-featured_image: 2027-The-Sound-of-Music.webp
+featured_image: 2027-The-Sound-of-Music.webp?v=053332
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

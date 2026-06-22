@@ -16,7 +16,7 @@ showtimes:
   - 2027-02-20 19:30:00
   - 2027-02-21 13:00:00
   - 2027-02-21 18:30:00
-featured_image: 2027-The-Wiz.webp
+featured_image: 2027-The-Wiz.webp?v=053327
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
