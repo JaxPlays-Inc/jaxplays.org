@@ -16,7 +16,7 @@ showtimes:
   - 2027-05-22 19:30:00
   - 2027-05-23 13:00:00
   - 2027-05-23 18:30:00
-featured_image: 2027-The-Outsiders.webp
+featured_image: 2027-The-Outsiders.webp?v=053336
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

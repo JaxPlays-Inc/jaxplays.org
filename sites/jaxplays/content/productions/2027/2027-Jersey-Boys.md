@@ -13,7 +13,7 @@ showtimes:
   - 2027-04-10 19:30:00
   - 2027-04-11 13:00:00
   - 2027-04-11 18:30:00
-featured_image: 2027-Jersey-Boys.webp
+featured_image: 2027-Jersey-Boys.webp?v=053340
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
