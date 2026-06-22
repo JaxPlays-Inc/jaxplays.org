@@ -1,0 +1,6 @@
+{{- partial "schema/site-organization.html" . -}}
+{{- partial "schema/breadcrumbs.html" . -}}
+
+{{- if and .IsPage (eq .Section "people") -}}
+  {{- partial "schema/person-profile.html" . -}}
+{{- end -}}
