@@ -1,0 +1,37 @@
+{{- $name := printf "%v" (.name | default "") | strings.TrimSpace -}}
+{{- $location := dict -}}
+
+{{- if $name -}}
+  {{- $venuePage := false -}}
+  {{- range where site.RegularPages "Section" "venues" -}}
+    {{- if or (eq .Title $name) (in (.Params.venue_aliases | default slice) $name) -}}
+      {{- $venuePage = . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $venuePage -}}
+    {{- $location = dict
+      "@type" "PerformingArtsTheater"
+      "@id" (printf "%s#venue" $venuePage.Permalink)
+      "name" $venuePage.Title
+      "url" $venuePage.Permalink
+    -}}
+    {{- with $venuePage.Params.address -}}
+      {{- $address := . | plainify | htmlUnescape | strings.TrimSpace -}}
+      {{- if $address -}}
+        {{- $location = merge $location (dict "address" $address) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and $venuePage.Params.latitude $venuePage.Params.longitude -}}
+      {{- $location = merge $location (dict "geo" (dict
+        "@type" "GeoCoordinates"
+        "latitude" $venuePage.Params.latitude
+        "longitude" $venuePage.Params.longitude
+      )) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $location = dict "@type" "Place" "name" $name -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $location -}}

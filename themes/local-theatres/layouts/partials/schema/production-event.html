@@ -46,10 +46,9 @@
   {{- $workPerformed := dict "@type" "CreativeWork" "name" .Title -}}
   {{- $event = merge $event (dict "workPerformed" $workPerformed) -}}
 
-  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.cast) -}}
-    {{- if gt (len .) 0 -}}
-      {{- $event = merge $event (dict "actor" .) -}}
-    {{- end -}}
+  {{- $actors := partial "schema/people-from-credit-list.html" (dict "items" .Params.cast) -}}
+  {{- if gt (len $actors) 0 -}}
+    {{- $event = merge $event (dict "actor" $actors) -}}
   {{- end -}}
 
   {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.crew "rolePattern" `^(director|music director|musical director|director and .*)$`) -}}
@@ -58,10 +57,10 @@
     {{- end -}}
   {{- end -}}
 
-  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.orchestra "valueRolePattern" `^(accordion|accompanist|banjo|bass|cello|clarinet|conductor|drums?|flute|guitar|horn|keyboard|keyboards|music director|oboe|percussion|piano|reed|saxophone|trombone|trumpet|viola|violin|woodwinds?)$`) -}}
-    {{- if gt (len .) 0 -}}
-      {{- $event = merge $event (dict "performer" .) -}}
-    {{- end -}}
+  {{- $orchestraPerformers := partial "schema/people-from-credit-list.html" (dict "items" .Params.orchestra "valueRolePattern" `^(accordion|accompanist|banjo|bass|cello|clarinet|conductor|drums?|flute|guitar|horn|keyboard|keyboards|music director|oboe|percussion|piano|reed|saxophone|trombone|trumpet|viola|violin|woodwinds?)$`) -}}
+  {{- $performers := $actors | append $orchestraPerformers -}}
+  {{- if gt (len $performers) 0 -}}
+    {{- $event = merge $event (dict "performer" $performers) -}}
   {{- end -}}
 
   {{- $locations := slice -}}
@@ -72,21 +71,8 @@
     {{- end -}}
     {{- range $rawVenues -}}
       {{- $venueName := printf "%v" . -}}
-      {{- $venuePage := false -}}
-      {{- range where site.RegularPages "Section" "venues" -}}
-        {{- if or (eq .Title $venueName) (in (.Params.venue_aliases | default slice) $venueName) -}}
-          {{- $venuePage = . -}}
-        {{- end -}}
-      {{- end -}}
-      {{- if $venuePage -}}
-        {{- $locations = $locations | append (dict
-          "@type" "PerformingArtsTheater"
-          "@id" (printf "%s#venue" $venuePage.Permalink)
-          "name" $venuePage.Title
-          "url" $venuePage.Permalink
-        ) -}}
-      {{- else if $venueName -}}
-        {{- $locations = $locations | append (dict "@type" "Place" "name" $venueName) -}}
+      {{- with partial "schema/venue-reference.html" (dict "name" $venueName) -}}
+        {{- $locations = $locations | append . -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -146,7 +132,9 @@
             "workPerformed" $workPerformed
           -}}
           {{- if $showtimeVenue -}}
-            {{- $performance = merge $performance (dict "location" (dict "@type" "Place" "name" $showtimeVenue)) -}}
+            {{- with partial "schema/venue-reference.html" (dict "name" $showtimeVenue) -}}
+              {{- $performance = merge $performance (dict "location" .) -}}
+            {{- end -}}
           {{- else -}}
             {{- with $event.location -}}
               {{- $performance = merge $performance (dict "location" .) -}}
@@ -157,6 +145,21 @@
           {{- end -}}
           {{- with $event.offers -}}
             {{- $performance = merge $performance (dict "offers" .) -}}
+          {{- end -}}
+          {{- with $event.description -}}
+            {{- $performance = merge $performance (dict "description" .) -}}
+          {{- end -}}
+          {{- with $event.image -}}
+            {{- $performance = merge $performance (dict "image" .) -}}
+          {{- end -}}
+          {{- with $event.actor -}}
+            {{- $performance = merge $performance (dict "actor" .) -}}
+          {{- end -}}
+          {{- with $event.director -}}
+            {{- $performance = merge $performance (dict "director" .) -}}
+          {{- end -}}
+          {{- with $event.performer -}}
+            {{- $performance = merge $performance (dict "performer" .) -}}
           {{- end -}}
           {{- $subEvents = $subEvents | append $performance -}}
         {{- end -}}
