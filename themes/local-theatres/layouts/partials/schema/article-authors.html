@@ -14,10 +14,12 @@
 {{- range $authors -}}
   {{- $name := printf "%v" . -}}
   {{- if $name -}}
+    {{- $authorURL := printf "/authors/%s/" ($name | urlize) | absURL -}}
     {{- $authorObjects = $authorObjects | append (dict
       "@type" "Person"
+      "@id" (printf "%s#person" $authorURL)
       "name" $name
-      "url" (printf "/authors/%s/" ($name | urlize) | absURL)
+      "url" $authorURL
     ) -}}
   {{- end -}}
 {{- end -}}

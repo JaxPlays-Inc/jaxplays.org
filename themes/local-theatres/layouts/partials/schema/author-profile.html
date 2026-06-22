@@ -1,0 +1,41 @@
+{{- $personID := printf "%s#person" .Permalink -}}
+{{- $profileID := printf "%s#profilepage" .Permalink -}}
+{{- $person := dict
+  "@type" "Person"
+  "@id" $personID
+  "name" .Title
+  "url" .Permalink
+-}}
+
+{{- $description := "" -}}
+{{- with .Description -}}
+  {{- $description = . | plainify | htmlUnescape -}}
+{{- else -}}
+  {{- with .Summary -}}
+    {{- $description = . | plainify | htmlUnescape -}}
+  {{- end -}}
+{{- end -}}
+{{- with $description -}}
+  {{- $person = merge $person (dict "description" .) -}}
+{{- end -}}
+
+{{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/headshots/") -}}
+  {{- $person = merge $person (dict "image" .) -}}
+{{- end -}}
+
+{{- with partial "schema/social-urls.html" .Params.socials -}}
+  {{- if gt (len .) 0 -}}
+    {{- $person = merge $person (dict "sameAs" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "ProfilePage"
+  "@id" $profileID
+  "url" .Permalink
+  "name" (printf "%s - JaxPlays Author Profile" .Title)
+  "mainEntity" $person
+-}}
+
+{{- partial "schema/jsonld.html" $schema -}}
