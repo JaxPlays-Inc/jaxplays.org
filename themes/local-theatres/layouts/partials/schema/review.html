@@ -44,10 +44,63 @@
   {{- end -}}
   {{- with $productionPage -}}
     {{- $itemReviewed = merge $itemReviewed (dict
-      "@id" (printf "%s#event" .Permalink)
+      "@id" (printf "%s#production-event" .Permalink)
       "url" .Permalink
       "name" .Title
     ) -}}
+    {{- with .Params.opening_date -}}
+      {{- $candidate := printf "%v" . -}}
+      {{- if findRE `^\d{4}-\d{2}-\d{2}` $candidate -}}
+        {{- $itemReviewed = merge $itemReviewed (dict "startDate" $candidate) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- with .Params.closing_date -}}
+      {{- $candidate := printf "%v" . -}}
+      {{- if findRE `^\d{4}-\d{2}-\d{2}` $candidate -}}
+        {{- $itemReviewed = merge $itemReviewed (dict "endDate" $candidate) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $productionDescription := "" -}}
+    {{- with .Description -}}
+      {{- $productionDescription = . | plainify | htmlUnescape -}}
+    {{- else -}}
+      {{- with .Summary -}}
+        {{- $productionDescription = . | plainify | htmlUnescape -}}
+      {{- end -}}
+    {{- end -}}
+    {{- with $productionDescription -}}
+      {{- $itemReviewed = merge $itemReviewed (dict "description" .) -}}
+    {{- end -}}
+    {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/posters/") -}}
+      {{- $itemReviewed = merge $itemReviewed (dict "image" .) -}}
+    {{- end -}}
+    {{- $locations := slice -}}
+    {{- $rawVenues := .Params.venue -}}
+    {{- with $rawVenues -}}
+      {{- if eq (printf "%T" .) "string" -}}
+        {{- $rawVenues = slice . -}}
+      {{- end -}}
+      {{- range $rawVenues -}}
+        {{- with partial "schema/venue-reference.html" (dict "name" .) -}}
+          {{- $locations = $locations | append . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if eq (len $locations) 1 -}}
+      {{- $itemReviewed = merge $itemReviewed (dict "location" (index $locations 0)) -}}
+    {{- else if gt (len $locations) 1 -}}
+      {{- $itemReviewed = merge $itemReviewed (dict "location" $locations) -}}
+    {{- end -}}
+    {{- $actors := partial "schema/people-from-credit-list.html" (dict "items" .Params.cast) -}}
+    {{- $orchestraPerformers := partial "schema/people-from-credit-list.html" (dict "items" .Params.orchestra "valueRolePattern" `^(accordion|accompanist|banjo|bass|cello|clarinet|conductor|drums?|flute|guitar|horn|keyboard|keyboards|music director|oboe|percussion|piano|reed|saxophone|trombone|trumpet|viola|violin|woodwinds?)$`) -}}
+    {{- $performers := $actors | append $orchestraPerformers -}}
+    {{- if gt (len $actors) 0 -}}
+      {{- $itemReviewed = merge $itemReviewed (dict "actor" $actors) -}}
+    {{- end -}}
+    {{- if gt (len $performers) 0 -}}
+      {{- $itemReviewed = merge $itemReviewed (dict "performer" $performers) -}}
+    {{- end -}}
+    {{- $itemReviewed = merge $itemReviewed (dict "workPerformed" (dict "@type" "CreativeWork" "name" .Title)) -}}
   {{- end -}}
   {{- $review = merge $review (dict "itemReviewed" $itemReviewed) -}}
 {{- end -}}

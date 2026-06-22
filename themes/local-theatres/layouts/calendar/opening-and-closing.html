@@ -166,18 +166,60 @@
 						{{- $scratch.Set .RelPermalink true }}
 						{{- $opening := time .Params.opening_date }}
 						{{- $closing := time .Params.closing_date }}
-						{{- $tname := .Params.theatre }}
-						{{- $tpage := cond (and $tname (gt (len $tname) 0)) (index (where (where site.Pages "Type" "theatres") "Title" $tname) 0) nil }}
-						{{- $image := .Params.featured_image }}
+						{{- $description := "" -}}
+						{{- with .Description -}}
+							{{- $description = . | plainify | htmlUnescape -}}
+						{{- else -}}
+							{{- with .Summary -}}
+								{{- $description = . | plainify | htmlUnescape -}}
+							{{- end -}}
+						{{- end -}}
+						{{- $locations := slice -}}
+						{{- $rawVenues := .Params.venue -}}
+						{{- with $rawVenues -}}
+							{{- if eq (printf "%T" .) "string" -}}
+								{{- $rawVenues = slice . -}}
+							{{- end -}}
+							{{- range $rawVenues -}}
+								{{- with partial "schema/venue-reference.html" (dict "name" .) -}}
+									{{- $locations = $locations | append . -}}
+								{{- end -}}
+							{{- end -}}
+						{{- end -}}
+						{{- $actors := partial "schema/people-from-credit-list.html" (dict "items" .Params.cast) -}}
+						{{- $orchestraPerformers := partial "schema/people-from-credit-list.html" (dict "items" .Params.orchestra "valueRolePattern" `^(accordion|accompanist|banjo|bass|cello|clarinet|conductor|drums?|flute|guitar|horn|keyboard|keyboards|music director|oboe|percussion|piano|reed|saxophone|trombone|trumpet|viola|violin|woodwinds?)$`) -}}
+						{{- $performers := $actors | append $orchestraPerformers -}}
 						{{- $event := dict 
 							"@type" "TheaterEvent" 
+							"@id" (printf "%s#production-event" .Permalink)
 							"name" .Title 
 							"url" .Permalink
 							"startDate" ($opening.Format "2006-01-02") 
 							"endDate" ($closing.Format "2006-01-02") 
-							"location" (cond $tname (dict "@type" "Place" "name" $tname "url" (cond $tpage $tpage.Permalink nil)) nil)
-							"image" (cond $image (slice (printf "%smedia/posters/%s" (absURL "/") $image)) nil) 
 							"eventStatus" "https://schema.org/EventScheduled" }}
+						{{- with $description -}}
+							{{- $event = merge $event (dict "description" .) -}}
+						{{- end -}}
+						{{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/posters/") -}}
+							{{- $event = merge $event (dict "image" (slice .)) -}}
+						{{- end -}}
+						{{- if eq (len $locations) 1 -}}
+							{{- $event = merge $event (dict "location" (index $locations 0)) -}}
+						{{- else if gt (len $locations) 1 -}}
+							{{- $event = merge $event (dict "location" $locations) -}}
+						{{- end -}}
+						{{- if gt (len $actors) 0 -}}
+							{{- $event = merge $event (dict "actor" $actors) -}}
+						{{- end -}}
+						{{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.crew "rolePattern" `^(director|music director|musical director|director and .*)$`) -}}
+							{{- if gt (len .) 0 -}}
+								{{- $event = merge $event (dict "director" .) -}}
+							{{- end -}}
+						{{- end -}}
+						{{- if gt (len $performers) 0 -}}
+							{{- $event = merge $event (dict "performer" $performers) -}}
+						{{- end -}}
+						{{- $event = merge $event (dict "workPerformed" (dict "@type" "CreativeWork" "name" .Title)) -}}
 						{{- $events = $events | append $event }}
 					{{- end }}
 				{{- end }}
