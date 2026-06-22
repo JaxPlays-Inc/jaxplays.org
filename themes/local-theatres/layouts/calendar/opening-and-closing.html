@@ -172,10 +172,10 @@
 						{{- $event := dict 
 							"@type" "TheaterEvent" 
 							"name" .Title 
-							"url" .RelPermalink 
+							"url" .Permalink
 							"startDate" ($opening.Format "2006-01-02") 
 							"endDate" ($closing.Format "2006-01-02") 
-							"location" (cond $tname (dict "@type" "Place" "name" $tname "url" (cond $tpage $tpage.RelPermalink nil)) nil) 
+							"location" (cond $tname (dict "@type" "Place" "name" $tname "url" (cond $tpage $tpage.Permalink nil)) nil)
 							"image" (cond $image (slice (printf "%smedia/posters/%s" (absURL "/") $image)) nil) 
 							"eventStatus" "https://schema.org/EventScheduled" }}
 						{{- $events = $events | append $event }}
