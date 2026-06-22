@@ -22,4 +22,4 @@ socials:
 phone:
 color: "#0A7E98"
 ---
-Musical Theatre Ponte Vedra was created by husband-and-wife team Jason and Katie Nettle to provide children of all ages a way to explore their creativity and foster a love for the arts.
+Musical Theatre Ponte Vedra was created by husband-and-wife team [[person:Jason Nettle|Jason]] and [[person:Katie Nettle]] to provide children of all ages a way to explore their creativity and foster a love for the arts.

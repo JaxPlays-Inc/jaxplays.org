@@ -29295,6 +29295,34 @@
     "searchBase": "finding neverland sep 18, 2026 sep 27, 2026 saltwater performing arts musical drama family a playwright, a family and a leap of imagination come together in the musical about the inspiration behind peter pan."
   },
   {
+    "title": "Footloose",
+    "url": "/productions/2026-footloose/",
+    "contentPath": "productions/2026/2026-Footloose",
+    "poster": "/media/posters/2026-Footloose.webp",
+    "posterAlt": "Footloose poster",
+    "openingDate": "2026-06-23",
+    "closingDate": "2026-06-25",
+    "openingLabel": "Jun 23, 2026",
+    "openingMonthLabel": "June 2026",
+    "openingBadgeLabel": "Jun 23, 2026",
+    "closingLabel": "Jun 25, 2026",
+    "theatre": "Musical Theatre Ponte Vedra",
+    "venues": [
+      "Ponte Vedra High School Auditorium"
+    ],
+    "allVenues": [
+      "Ponte Vedra High School Auditorium"
+    ],
+    "genres": [
+      "Musical",
+      "Drama",
+      "Romance"
+    ],
+    "summary": "Rebellious dancing meets small-town politics in this musical about defiance, discovery and finding your own rhythm.",
+    "tickets": "https://www.mtpv.org/ticketsregistration/p/footlooseticket",
+    "searchBase": "footloose jun 23, 2026 jun 25, 2026 musical theatre ponte vedra ponte vedra high school auditorium musical drama romance rebellious dancing meets small-town politics in this musical about defiance, discovery and finding your own rhythm."
+  },
+  {
     "title": "Disney's Frozen",
     "url": "/productions/2026-frozen/",
     "contentPath": "productions/2026/2026-Frozen",

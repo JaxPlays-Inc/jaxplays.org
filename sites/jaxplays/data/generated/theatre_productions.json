@@ -31960,6 +31960,36 @@
       "searchBase": "scotland road jan 28, 2026 feb 8, 2026 river city players larimer arts center play mystery drama a woman claiming to be a titanic survivor appears decades later, forcing a skeptical expert to test the truth of her impossible story."
     }
   ],
+  "musical-theatre-ponte-vedra": [
+    {
+      "title": "Footloose",
+      "url": "/productions/2026-footloose/",
+      "contentPath": "productions/2026/2026-Footloose",
+      "poster": "/media/posters/2026-Footloose.webp",
+      "posterAlt": "Footloose poster",
+      "openingDate": "2026-06-23",
+      "closingDate": "2026-06-25",
+      "openingLabel": "Jun 23, 2026",
+      "openingMonthLabel": "June 2026",
+      "openingBadgeLabel": "Jun 23, 2026",
+      "closingLabel": "Jun 25, 2026",
+      "theatre": "Musical Theatre Ponte Vedra",
+      "venues": [
+        "Ponte Vedra High School Auditorium"
+      ],
+      "allVenues": [
+        "Ponte Vedra High School Auditorium"
+      ],
+      "genres": [
+        "Musical",
+        "Drama",
+        "Romance"
+      ],
+      "summary": "Rebellious dancing meets small-town politics in this musical about defiance, discovery and finding your own rhythm.",
+      "tickets": "https://www.mtpv.org/ticketsregistration/p/footlooseticket",
+      "searchBase": "footloose jun 23, 2026 jun 25, 2026 musical theatre ponte vedra ponte vedra high school auditorium musical drama romance rebellious dancing meets small-town politics in this musical about defiance, discovery and finding your own rhythm."
+    }
+  ],
   "all-the-devils-shakespeare": [
     {
       "title": "Much Ado About Nothing",
