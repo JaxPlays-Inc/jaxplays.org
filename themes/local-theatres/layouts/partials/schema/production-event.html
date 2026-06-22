@@ -43,6 +43,27 @@
     {{- $event = merge $event (dict "image" .) -}}
   {{- end -}}
 
+  {{- $workPerformed := dict "@type" "CreativeWork" "name" .Title -}}
+  {{- $event = merge $event (dict "workPerformed" $workPerformed) -}}
+
+  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.cast) -}}
+    {{- if gt (len .) 0 -}}
+      {{- $event = merge $event (dict "actor" .) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.crew "rolePattern" `^(director|music director|musical director|director and .*)$`) -}}
+    {{- if gt (len .) 0 -}}
+      {{- $event = merge $event (dict "director" .) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with partial "schema/people-from-credit-list.html" (dict "items" .Params.orchestra "valueRolePattern" `^(accordion|accompanist|banjo|bass|cello|clarinet|conductor|drums?|flute|guitar|horn|keyboard|keyboards|music director|oboe|percussion|piano|reed|saxophone|trombone|trumpet|viola|violin|woodwinds?)$`) -}}
+    {{- if gt (len .) 0 -}}
+      {{- $event = merge $event (dict "performer" .) -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- $locations := slice -}}
   {{- $rawVenues := .Params.venue -}}
   {{- with $rawVenues -}}
@@ -122,6 +143,7 @@
             "startDate" ((time $showtimeString).Format "2006-01-02T15:04:05-07:00")
             "eventStatus" "https://schema.org/EventScheduled"
             "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+            "workPerformed" $workPerformed
           -}}
           {{- if $showtimeVenue -}}
             {{- $performance = merge $performance (dict "location" (dict "@type" "Place" "name" $showtimeVenue)) -}}
