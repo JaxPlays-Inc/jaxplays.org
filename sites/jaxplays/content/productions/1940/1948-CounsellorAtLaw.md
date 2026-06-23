@@ -1,8 +1,8 @@
 ---
 title: Counsellor-At-Law
-date: 2023-09-08T00:00:00
-opening_date: 1948-02-27
-closing_date: 1948-03-05
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1948-02-27'
+closing_date: '1948-03-05'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -37,7 +37,6 @@ cast:
 - Richard Dwight, Jr.: Jimmy Martin
 - Roy Darwin: Al St. John, Jr.
 - Sarah Becker: Charlotte Ecker
-- Scene Shifting: Randy Chalker
 - Zedora Chapman: Eula Mae Snow
 crew:
 - Assistant Stage Manager: Doris Leonard
@@ -87,6 +86,7 @@ crew:
   - Vivienne Salter
   - Vonnie Patton
 - Scene Shifting:
+  - Randy Chalker
   - Bob Harrell
   - C. Eugene Sayre
   - Eugene Patton
@@ -98,4 +98,3 @@ crew:
 - Set and Lighting Design: Duke LeBrun
 - Stage Manager: Vincent Bisno
 ---
-

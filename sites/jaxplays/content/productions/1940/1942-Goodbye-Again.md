@@ -1,8 +1,8 @@
 ---
 title: Goodbye Again
-date: 2023-09-08T00:00:00
-opening_date: 1942-05-26
-closing_date: 1942-05-29
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1942-05-26'
+closing_date: '1942-05-29'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -25,10 +25,6 @@ crew:
 - Box Office: Elizabeth Hulett
 - Make-up:
   - Elmo Lehman
-  - Irma Stockwell
-  - Malanie Bisbee
-  - Mrs. Fred Cobb
-  - Shirley Chardkoff
 - Props: Elsie Behner
 - Stage Crew:
   - Ginny Spence
@@ -43,4 +39,9 @@ crew:
   - W.J. Fouraker, Jr.
   - William Schosser
 - Stage Manager: Bishop McCauley
+- Make-up Assistant:
+  - Irma Stockwell
+  - Malanie Bisbee
+  - Mrs. Fred Cobb
+  - Shirley Chardkoff
 ---

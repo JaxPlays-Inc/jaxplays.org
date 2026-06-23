@@ -1,7 +1,7 @@
 ---
 title: Personal Appearance
-date: 2023-09-08T00:00:00
-opening_date: 1943-10-01
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1943-10-01'
 approx_date: month
 closing_date:
 layout: productions
@@ -10,9 +10,6 @@ theatre: Theatre Jacksonville
 venue: Little Theatre
 cast:
 - Aunt Kate Barnaby: Eve Sayles
-- Carole Arden:
-  - Ruth Mathews
-  - Carole Arden in person
 - Chester Norton: Jack Cummins
 - Clyde Pelton: Edward Glenn
 - Gene Tuttle: William Schosser
@@ -21,7 +18,7 @@ cast:
 - Joyce Struthers: Anne Katherine Ferm
 - Mrs. Struthers: Jewett Ashley
 - Johnson: Lewis Hester
-orchestra:
+- Carole Arden in person: Ruth Mathews
 crew:
 - Director: Marcella Cisney
 - Stage Manager: Rose Marie Schosser
@@ -60,4 +57,5 @@ crew:
   - Van Norman
 - Master of Ceremonies: William Schosser
 - Program Advertising: William Schosser
+orchestra:
 ---

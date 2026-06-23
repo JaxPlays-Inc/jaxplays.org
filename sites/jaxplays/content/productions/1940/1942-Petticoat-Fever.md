@@ -1,8 +1,8 @@
 ---
 title: Petticoat Fever
-date: 2023-09-08T00:00:00
-opening_date: 1942-02-24
-closing_date: 1942-02-27
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1942-02-24'
+closing_date: '1942-02-27'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -30,11 +30,6 @@ crew:
 - Lighting Design: Bob Carter
 - Make-up:
   - Elmo Lehman
-  - Kareen Taylor
-  - Mary Kethley
-  - Mrs. Fred Cobb
-  - Mrs. P.Q. Harris
-  - Rose Marie Schosser
 - Props: Mrs. L.D. Behner
 - Stage Crew:
   - Bishop McCauley
@@ -46,5 +41,11 @@ crew:
   - Rose Marie Schosser
   - William Schosser
 - Stage Manager: Bob Carter
+- Make-up Assistant:
+  - Kareen Taylor
+  - Mary Kethley
+  - Mrs. Fred Cobb
+  - Mrs. P.Q. Harris
+  - Rose Marie Schosser
 orchestra:
 ---

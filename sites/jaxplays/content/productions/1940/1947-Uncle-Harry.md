@@ -1,8 +1,8 @@
 ---
 title: Uncle Harry
-date: 2023-09-08T00:00:00
-opening_date: 1947-02-28
-closing_date: 1947-03-07
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1947-02-28'
+closing_date: '1947-03-07'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -62,6 +62,7 @@ crew:
   - V.R. Elmore
   - Velma Henning
   - Vivienne Salter
+  - Vonnie Patton
 - Scene Shifting:
   - David Salter
   - Hal Kriebs

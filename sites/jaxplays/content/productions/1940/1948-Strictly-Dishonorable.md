@@ -1,8 +1,8 @@
 ---
 title: Strictly Dishonorable
-date: 2023-09-08T00:00:00
-opening_date: 1948-01-16
-closing_date: 1948-01-23
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1948-01-16'
+closing_date: '1948-01-23'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -49,6 +49,7 @@ crew:
   - Suzanne Kahr
   - Vivienne Salter
   - Vonnie Patton
+  - Mary Alice Gresham
 - Scene Shifting:
   - Charles Berry
   - David Salter

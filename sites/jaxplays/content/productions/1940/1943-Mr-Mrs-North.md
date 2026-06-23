@@ -1,7 +1,7 @@
 ---
 title: Mr. and Mrs. North
-date: 2023-09-08T00:00:00
-opening_date: 1943-04-01
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1943-04-01'
 approx_date: month
 closing_date:
 layout: productions
@@ -28,6 +28,7 @@ cast:
 - Police Photographer: Billy Ivey
 - Louis Berex: Elmo Lehman
 - Assistant Medical Examiner: Max Friedlander
+- Irma Stockwell: Irma Stockwell
 crew:
 - Director: Marcella Cisney
 - Technical Director: Arlene Beach
@@ -55,4 +56,3 @@ crew:
   - Van Norman
 orchestra:
 ---
-
