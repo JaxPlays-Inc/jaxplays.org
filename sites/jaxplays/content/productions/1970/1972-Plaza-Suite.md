@@ -1,8 +1,8 @@
 ---
 title: Plaza Suite
-date: 2023-09-08T00:00:00
-opening_date: 1972-11-24
-closing_date: 1972-12-09
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1972-11-24'
+closing_date: '1972-12-09'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -35,7 +35,7 @@ crew:
   - Bob Ladd
   - Jean Mortensen
   - Sharon O'Connel
-  - Kathleen O'Connor
+  - Kathleen O'Conner
 - Costumes:
   - Gert Berman
   - Mary Coyle

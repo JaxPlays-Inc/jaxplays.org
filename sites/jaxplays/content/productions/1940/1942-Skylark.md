@@ -1,8 +1,8 @@
 ---
 title: Skylark
-date: 2023-09-08T00:00:00
-opening_date: 1942-03-24
-closing_date: 1942-03-27
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1942-03-24'
+closing_date: '1942-03-27'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -24,11 +24,6 @@ crew:
 - Lighting: Al Seitner
 - Make-up:
   - Elmo Lehman
-  - Melanie Bisbee
-  - Mrs. Fred Cobb
-  - Rose Marie Schosser
-  - Shirley Chardkoff
-  - William Schosser
 - Props: Robert Blackburn
 - Stage Crew:
   - Betty Kennedy
@@ -38,6 +33,11 @@ crew:
   - Mary Garcia
   - Roberta Arrowsmith
 - Stage Manager: Al Seitner
+- Make-up Assistant:
+  - Melanie Bisbee
+  - Mrs. Fred Cobb
+  - Rose Marie Schosser
+  - Shirley Chardkoff
+  - William Schosser
 orchestra:
 ---
-

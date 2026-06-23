@@ -1,25 +1,24 @@
 ---
 title: Third Best Sport
-date: 2023-09-08T00:00:00
-opening_date: 1960-02-26
-closing_date: 1960-03-05
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1960-02-26'
+closing_date: '1960-03-05'
 layout: productions
 program:
 theatre: Theatre Jacksonville
 venue: Little Theatre
 cast:
-- Third Best Sport:
-  - Ernie Evans
-  - Judith Jett
-  - Phil Meunier
-  - Sand Gordon
-  - Paul Galloway
-  - Pat Hayward
-  - Laurene Prescott
-  - Frank Ridge
-  - Jack Evans
-  - Bunni Thornhill
-  - Bernard Ettlinger
+- Bellboy: Ernie Evans
+- Helen Sayre: Judith Jett
+- Douglas Sayre: Phil Meunier
+- Chuck Robbins: Sand Gordon
+- Arthur Underhill: Paul Galloway
+- Amy Underhill: Pat Hayward
+- Marge Robbins: Laurene Prescott
+- John Wagner: Frank Ridge
+- Dr. Jonas Lockwood: Jack Evans
+- Myra McHenry: Bunni Thornhill
+- Spencer McHenry: Bernard Ettlinger
 crew:
 - Designer and Director: Maurice Geoffrey
 - Stage Manager: Marshall Grauer

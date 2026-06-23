@@ -1,8 +1,8 @@
 ---
 title: What a Life
-date: 2023-09-08T00:00:00
-opening_date: 1940-11-05
-closing_date: 1940-11-08
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1940-11-05'
+closing_date: '1940-11-08'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -29,7 +29,9 @@ cast:
 - Miss Shea:
   - Frances Carden
   - Martha Conner
-- Miss Wheeler: Bernice Klepper
+- Miss Wheeler:
+  - Bernice Klepper
+  - Elsie Behner
 - Mr. Bradley: R.A. Hollahan
 - Mr. Ferguson: Charlie Tutewiler
 - Mr. Nelson: Louis Larmoyeux

@@ -1,8 +1,8 @@
 ---
 title: Gypsy
-date: 2023-09-08T00:00:00
-opening_date: 1963-11-15
-closing_date: 1963-11-23
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1963-11-15'
+closing_date: '1963-11-23'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -120,10 +120,6 @@ crew:
   - Ruth Coleman
   - Jean Goodman
   - Liz Collins
-- Stage Crew:
-  - Ray Collins
-  - Bob Schuh
-  - Buddy Marshall
 - Painting:
   - Dixie Cohen
   - Dixon Turner
@@ -146,6 +142,10 @@ crew:
   - Sid Backer
   - Dixon Turner
   - Phil Meunier
+- 'Stage Crew: Construction':
+  - Ray Collins
+  - Bob Schuh
+  - Buddy Marshall
 understudies:
 orchestra:
 ---

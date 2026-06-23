@@ -1,7 +1,7 @@
 ---
 title: Meet the Wife
-date: 2023-09-08T00:00:00
-opening_date: 1930-12-09
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1930-12-09'
 closing_date:
 layout: productions
 program:
@@ -17,10 +17,9 @@ cast:
 - Gertrude Lennox: Winifred Snowden
 crew:
 - Director: Frank F. Kells
-- Staging:
-  - Dick Grether
-  - Milton Bacon, Jr.
+- Staging: Dick Grether
 - Costumes: Will Louis
+- Staging Assistant: Milton Bacon, Jr.
 understudies:
 orchestra:
 ---

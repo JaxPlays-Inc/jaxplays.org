@@ -1,8 +1,8 @@
 ---
 title: South Pacific
-date: 2023-09-08T00:00:00
-opening_date: 1965-01-01
-closing_date: 1965-12-31
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1965-01-01'
+closing_date: '1965-12-31'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -43,9 +43,6 @@ cast:
 crew:
 - Director and Designer: Larry Riddle
 - Musical Director: Rosalind MacEnulty
-- Costume Designer:
-  - Walter Sargent
-  - Ruth Coleman
 - Choreographer: Mary Grace Ezell
 - Lighting Designer:
   - Peggy Miller
@@ -69,6 +66,7 @@ crew:
 - Costumes:
   - Judy Klemnt
   - Walter Sargent
+  - Ruth Coleman
 - Lights:
   - Peggy Miller
   - Joanna Coburn

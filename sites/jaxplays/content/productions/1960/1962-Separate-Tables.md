@@ -1,8 +1,8 @@
 ---
 title: Separate Tables
-date: 2023-09-08T00:00:00
-opening_date: 1962-04-06
-closing_date: 1962-04-14
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1962-04-06'
+closing_date: '1962-04-14'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -58,6 +58,7 @@ crew:
   - Jane Porter
   - Beverly Fink
   - Peggy Gift
+  - Elizabeth Reed
 - Construction and Painting:
   - Thea Harrell
   - Peggy Miller
@@ -68,8 +69,8 @@ crew:
   - Chuck Wells
   - Joanne House
   - Pete House
-- Others:
-  - Jean Wilfrid (Properties)
+  - Jean Wilfrid
+
 understudies:
 orchestra:
 ---

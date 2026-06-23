@@ -1,8 +1,8 @@
 ---
 title: Ladies in Retirement
-date: 2023-09-08T00:00:00
-opening_date: 1954-04-21
-closing_date: 1954-05-01
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1954-04-21'
+closing_date: '1954-05-01'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -25,7 +25,6 @@ crew:
   - Budd Porter
   - Jim Ashworth
   - Mary Wallis
-  - Barbara Ehrman
   - Melvin Barnert
   - Elaine Barnert
   - Carol Vogel
@@ -52,6 +51,7 @@ crew:
   - George Sanchez
   - Bob Green
   - Nina Branch
+  - Barbara Erhman
 - Curtain:
   - Larry Maher
   - Fred Chapman
@@ -72,4 +72,3 @@ crew:
 - Wardrobe Mistress: Evelyn Bell
 orchestra:
 ---
-

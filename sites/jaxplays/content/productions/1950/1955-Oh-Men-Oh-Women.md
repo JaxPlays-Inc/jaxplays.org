@@ -1,8 +1,8 @@
 ---
 title: Oh, Men! Oh, Women!
-date: 2023-09-08T00:00:00
-opening_date: 1955-09-14
-closing_date: 1955-09-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1955-09-14'
+closing_date: '1955-09-24'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -83,6 +83,7 @@ crew:
   - Ann Rogers
   - Martha Packard
   - Laurina Ford
+  - Jimmie Boyer
 - Properties Assistant:
   - Ada Lee Bramer
   - Mervyn Rickard
@@ -109,4 +110,3 @@ crew:
 - Wardrobe Chairman: Margaret Burt
 orchestra:
 ---
-

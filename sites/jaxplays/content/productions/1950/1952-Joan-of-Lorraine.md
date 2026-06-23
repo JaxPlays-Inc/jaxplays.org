@@ -1,8 +1,8 @@
 ---
 title: Joan of Lorraine
-date: 2023-09-08T00:00:00
-opening_date: 1952-04-18
-closing_date: 1952-04-26
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1952-04-18'
+closing_date: '1952-04-26'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -42,8 +42,6 @@ crew:
   - Su Hawkins
   - Walter Quattlebaum
   - Eileen Quattlebaum
-  - Howard Clarke
-  - Charles Tyler
 - Direction Supervisor: Jewett Ashley
 - Director: Paul E. Geisenhof
 - Lighting: Walter Quattlebaum
@@ -70,5 +68,8 @@ crew:
   - Vivian Stein
   - Margaret Fairweather
 - Wardrobe Chairman: Eula Mae Snow
+- Crew:
+  - Howard Clarke
+  - Charles Tyler
 orchestra:
 ---

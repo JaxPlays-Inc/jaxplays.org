@@ -228,7 +228,27 @@ production:
     - name: cast
       label: Cast List
       type: textarea
-      description: Provide a cast list if the show has been cast.
+      description: |
+        Provide a cast list if the show has been cast.
+
+        Here's the best format to put the cast list in:
+
+        ```text
+        Romeo: Brad Pitt
+        Juliet: Scarlett Johansson
+        Mercutio: Tom Holland
+        Tybalt: Margot Robbie
+
+        Townspeople:
+        - George Clooney
+        - Nicole Kidman
+        - Tom Hanks
+
+        Party Guests:
+        - Johnny Depp
+        - Angelina Jolie
+        ```
+
     - name: understudies
       label: Understudies List
       type: textarea
@@ -236,7 +256,24 @@ production:
     - name: crew
       label: Crew List
       type: textarea
-      description: Provide a crew list if available.
+      description: |
+        Provide a crew list if available.
+
+        Here's the best format to put the crew list in:
+
+        ```text
+        Director: Steven Spielberg
+        Set Designer: Christopher Nolan
+        Costume Designer: Cate Blanchett
+        Lighting Designer: Quentin Tarantino
+        Sound Designer: George Lucas
+        Stage Manager: Natalie Portman
+        
+        Makeup and Hair:
+        - Lisa Brown
+        - Sarah Turner
+        - John Mitchell
+        ```
     - name: orchestra
       label: Orchestra List
       type: textarea

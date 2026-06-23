@@ -1,8 +1,8 @@
 ---
 title: First Lady
-date: 2023-09-08T00:00:00
-opening_date: 1952-10-01
-closing_date: 1952-10-11
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1952-10-01'
+closing_date: '1952-10-11'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -42,6 +42,7 @@ crew:
   - L.J. Gift
   - Pat Milam
   - Dick Webb
+  - Walter Quattlebaum
 - Light Controls: Su Hawkins
 - Make-up Assistant:
   - Bill Gibbs

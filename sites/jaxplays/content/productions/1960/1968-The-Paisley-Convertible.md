@@ -1,8 +1,8 @@
 ---
 title: The Paisley Convertible
-date: 2023-09-08T00:00:00
-opening_date: 1968-09-20
-closing_date: 1968-09-28
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1968-09-20'
+closing_date: '1968-09-28'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -24,7 +24,7 @@ crew:
   - Bill Bacon
   - Joseph Curry Allison II
   - Lois Navarre
-  - Ray Navarre
+  - Ray Navorre
 - Sound: Fernando Velandia
 - Properties:
   - Katie Raven

@@ -1,8 +1,8 @@
 ---
 title: The Women
-date: 2023-09-08T00:00:00
-opening_date: 1940-02-13
-closing_date: 1940-02-16
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1940-02-13'
+closing_date: '1940-02-16'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -47,7 +47,7 @@ cast:
 - Second Cutie: Janis Frazier
 - Second Saleswoman: Kathryn Smith
 - Second Woman: Goldie Alexander
-- SecondSalesgirl: Julia Penn
+- Second Salesgirl: Julia Penn
 - Sylvia: Jewett Ashley
 crew:
 - Assistant to Director: Irma Stockwell
@@ -66,10 +66,6 @@ crew:
 - Electrician: Roy Hill
 - Make-up:
   - Emma Sue Zink
-  - Aletha Masters
-  - Jean Runyon
-  - Marie Kilbride
-  - Matilda Shane
 - Props:
   - Eleonor Edwards
   - Flonnie Anders
@@ -78,5 +74,10 @@ crew:
   - Stanley Morell
 - Second Hairdresser: Alice Robertson
 - Technical Director: Margaret Pumpelly
+- Make-up Assistant:
+  - Aletha Masters
+  - Jean Runyon
+  - Marie kilbride
+  - Matilda Shane
 orchestra:
 ---

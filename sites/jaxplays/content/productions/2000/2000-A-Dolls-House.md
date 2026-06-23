@@ -1,8 +1,8 @@
 ---
 title: A Doll's House
-date: 2023-09-08T00:00:00
-opening_date: 2000-01-14
-closing_date: 2000-01-29
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2000-01-14'
+closing_date: '2000-01-29'
 layout: productions
 program:
 theatre: Theatre Jacksonville

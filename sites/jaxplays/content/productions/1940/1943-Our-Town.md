@@ -1,7 +1,7 @@
 ---
 title: Our Town
-date: 2024-06-17T22:07:55-04:00
-opening_date: 1943-03-01
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1943-03-01'
 approx_date: month
 closing_date:
 layout: productions
@@ -44,9 +44,6 @@ cast:
   - Laura Saunders
   - Mary Poyntz
   - Pierce Poyntz
-- Crew:
-  - Elmo Lehman
-  - Irma Stockwell
 crew:
 - Director: Marcella Cisney
 - Stage Manager: Laura Saunders

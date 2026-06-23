@@ -1,8 +1,8 @@
 ---
 title: The Man Who Came To Dinner
-date: 2023-09-08T00:00:00
-opening_date: 1941-10-14
-closing_date: 1941-10-17
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1941-10-14'
+closing_date: '1941-10-17'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -39,7 +39,7 @@ cast:
 - Sandy: John Fankhauser
 - Sarah: Ruth Carruthers
 - Sheridan Whiteside: Lt. Commander P.C. Poyntz
-- Westcott: Dr. Louis Larmoyeux, jr.
+- Westcott: Dr. Louis Larmoyeux, Jr.
 - Young Boy:
   - Charlie Travis
   - Gay Anderson
