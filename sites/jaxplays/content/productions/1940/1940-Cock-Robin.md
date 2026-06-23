@@ -1,8 +1,8 @@
 ---
 title: Cock Robin
-date: 2023-09-08T00:00:00
-opening_date: 1940-01-23
-closing_date: 1940-01-26
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1940-01-23'
+closing_date: '1940-01-26'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -40,5 +40,7 @@ crew:
 - Assistant Director: Eleanor MaccLinchey
 - Director: Marian Hendry
 - Electrician: Walter Edwards
+- Electrician Assistant: Edre Ferguson
+- Make-up: Jean Runyon
 orchestra:
 ---
