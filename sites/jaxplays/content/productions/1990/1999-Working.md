@@ -1,14 +1,14 @@
 ---
 title: Working
-date: 2023-09-08T00:00:00
-opening_date: 1999-11-05
-closing_date: 1999-11-20
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1999-11-05'
+closing_date: '1999-11-20'
 layout: productions
 program:
 theatre: Theatre Jacksonville
 venue: Little Theatre
 cast:
-- Ensemble: 
+- Cast:
   - Simone Aden-Reid
   - Amber Amerson
   - Ben Bennett
@@ -42,8 +42,10 @@ crew:
   - Claudia Wright
   - Mary Swanson
 - Graphic and Artistic Support: Melissa Russell
+- Assistant Director: Christie Kennedy Clark
 orchestra:
-- Piano & Band Leader: Laura Peden
+- Band Leader: Laura Peden
 - Percussionist: Phil Marino
 - Guitar: Stephen Flakus
+- Piano: Laura Peden
 ---

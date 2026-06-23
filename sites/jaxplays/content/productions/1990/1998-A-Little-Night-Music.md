@@ -1,8 +1,8 @@
 ---
 title: A Little Night Music
-date: 2023-09-08T00:00:00
-opening_date: 1998-06-05
-closing_date: 1998-06-20
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1998-06-05'
+closing_date: '1998-06-20'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -28,62 +28,68 @@ cast:
 - Osa: Jennifer C. Platte
 - Bjorn: Luke Willis
 crew:
-Artistic Director: Robert Arleigh White
-Musical Director: Laura Peden
-Scenic and Lighting Design: Andrew J. Way
-Production Coordinator: Bruce Barrett Musser
-choreographer: Michelle Ottley
-Technical Director: Andrew J. Way
-Stage Manager: Shelly Higgins Hughes
-Special Features: Diane Reese
-Scenic Painting: Jasmin Pahlivanovic
-costumes:
-- Nitza Cochran
-- Chuck Chapman
-dresser:
-- Marian Bornovalova
-- Sara Franklin
-- Dawn Runyan
-- Cathy Duncan
-Hair and Make-up: Bruce Barrett Musser
-properties:
-- Jon Bennett
-- T.J. Pietro
-- Jennifer Criswell
-- Ciane Batzka
-- Cathy Wood
-- Karen Murphree
-- Marie C. Cook
-Set Construction:
-- Manuel Bello
-- James Newman
-- Gloria Pepe
-- Karen Murphree
-- Marina Bornovalova
-- Ashira Brooke
-- Diana Batcka
-- Sean Reed
-- Mark K. Swanson
-- Jennifer Criswell
-- Cathy Wood
-- Karen Jones
-- Bill McNeal
-- Jenny McCombes
-- Jon Bennett
-- Jamie Wright
-- Diane Batzka
-- Andrea Chaknis
-- Marie C. Cook
-- Sara Franklin
-Set Dressings: Bruce Barrett Musser
-Light Technician: Gloria Pepe
-Follow Spot Operator: Andrea Chaknis
-grip:
-- Mary Swanson
-- Ashira Brooke
-- Karen Jones
-- Bill McNeal
-- Brian Wood
+- Scenic and Lighting Design: Andrew J. Way
+- Production Coordinator: Bruce Barrett Musser
+- Artistic Director: Robert Arleigh White
+- Musical Director: Laura Peden
+- Choreographer: Michelle Ottley
+- Technical Direcor: Andrew J. Way
+- Stage Manager: Shelly Higgins Hughes
+- Special Features: Diane Reese
+- Scenic Painting: Jasmin Pahlivanovic
+- Costumes:
+  - Nitza Cochran
+  - Chuck Chapman
+- Dresser:
+  - Marian Bornovalova
+  - Sara Franklin
+  - Dawn Runyan
+  - Cathy Duncan
+- Hair and Make-up: Bruce Barrett Musser
+- Properties:
+  - Jon Bennett
+  - T.J. Pietro
+  - Jennifer Criswell
+  - Ciane Batzka
+  - Cathy Wood
+  - Karen Murphree
+  - Marie C. Cook
+- Set Construction:
+  - Manuel Bello
+  - James Newman
+  - Gloria Pepe
+  - Karen Murphree
+  - Marina Bornovalova
+  - Ashira Brooke
+  - Diana Batcka
+  - Sean Reed
+  - Mark K. Swanson
+  - Jennifer Criswell
+  - Cathy Wood
+  - Karen Jones
+  - Bill McNeal
+  - Jenny McCombes
+  - Jon Bennett
+  - Jamie Wright
+  - Diane Batzka
+  - Andrea Chaknis
+  - Marie C. Cook
+  - Sara Franklin
+- Set Dressings: Bruce Barrett Musser
+- Light Technician: Gloria Pepe
+- Follow Spot Operator: Andrea Chaknis
+- Grip:
+  - Mary Swanson
+  - Ashira Brooke
+  - Karen Jones
+  - Bill McNeal
+  - Brian Wood
+- Fly Rail:
+  - Deon Young
+  - Sean Reed
+- Graphic Support:
+  - Alan Abraham
+  - Kim Counts
 orchestra:
 - Oboe: Nancy Marencin
 - Cello: Beth Pope

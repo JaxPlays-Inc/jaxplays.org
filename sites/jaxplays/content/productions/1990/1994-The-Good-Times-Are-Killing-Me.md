@@ -1,8 +1,8 @@
 ---
 title: The Good Times Are Killing Me
-date: 2023-09-08T00:00:00
-opening_date: 1994-03-18
-closing_date: 1994-04-02
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1994-03-18'
+closing_date: '1994-04-02'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -42,5 +42,8 @@ crew:
 - Costumes: Barbara Davis
 - Properties Mistress: Barbara Davis
 - Properties Crew: John Quering
+- Crew:
+  - Pamela Jackson
+  - Shawn Meharg
+  - Craig Van Zandt
 ---
-

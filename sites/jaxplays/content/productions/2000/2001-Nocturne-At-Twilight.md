@@ -1,8 +1,8 @@
 ---
 title: Nocturne At Twilight
-date: 2023-09-08T00:00:00
-opening_date: 2001-04-01
-closing_date: 2001-05-31
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2001-04-01'
+closing_date: '2001-05-31'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -14,10 +14,6 @@ cast:
 - Virginia: Robyn Neal
 - Mary: Erin Maas
 - The Stranger: Matt Hemphill
-understudies:
-- Ernest: Tyler Patton
-- Nettie: Erin Maas
-- Sweet Ruth: Malane CoBourne
 crew:
 - Artistic Director: Ian Mairs
 - Set Design: Timothy Kline
@@ -40,5 +36,9 @@ crew:
   - Claudia Wright
   - Deon Young
   - Sarah Overton
+understudies:
+- Ernest: Tyler Patton
+- Nettie: Erin Maas
+- Sweet Ruth: Malane CoBourne
 orchestra:
 ---

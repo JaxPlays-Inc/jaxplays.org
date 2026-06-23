@@ -1,8 +1,8 @@
 ---
 title: The Mystery of Edwin Drood
-date: 2023-09-08T00:00:00
-opening_date: 1997-06-06
-closing_date: 1997-06-22
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1997-06-06'
+closing_date: '1997-06-22'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -23,16 +23,24 @@ cast:
 - Waiter, Bazzard: Andrew Adams
 - Maid: Joy Conklin
 - Horace: Christopher Farrell
+- Succubus:
+  - Amy Tickel
+  - Cassia Brunner
+  - Christine Dumars
+  - Brook Ratti
 - Townsperson:
   - Carey Malloy
   - Paddy Heusinger
   - Eric Kevin Platon
-  - Christine DuMars
+  - Christine Dumars
   - Brook Ratti
   - Joy Conklin
   - Christopher Farrell
   - Jonathan Rand
   - Frank M. Cobb
+  - Amy Tickel
+  - Cassia Brunner
+- Chairman: Noble Lee Lester
 crew:
 - Artistic Director: Robert Arleigh White
 - Musical Director: Ellen Milligan

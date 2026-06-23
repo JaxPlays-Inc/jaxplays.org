@@ -1,8 +1,8 @@
 ---
 title: All In the Timing
-date: 2023-09-08T00:00:00
-opening_date: 1996-04-19
-closing_date: 1996-05-05
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1996-04-19'
+closing_date: '1996-05-05'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -32,14 +32,14 @@ crew:
 - Lighting Designer: Andrew Way
 - Scenic Designer: Andrew J. Way
 - Sound Designer:
-- Costume Designer: Elaine Gantz
-- Hair and Makeup Designer: Bruce Musser
+- Costumer: Elaine Gantz
+- Hair and Make-up: Bruce Musser
 - Stage Manager: Carmen Chronister
 - Assistant Stage Manager:
 - Master Electrician: Jamie Wright
 - Lighting Technician: Gloria Pepe
 - Sound Technician: Gloria Pepe
-- Light Board Operator: Carmen Chronister
+- Light Board Technician: Carmen Chronister
 - Sound Board Operator:
 - Prop Master:
 - Set Construction:
@@ -57,6 +57,7 @@ crew:
   - Cherri Stratton
   - Christina Roberts
 - Poster and Program Art: Gerald Charm
+- Program Cover Art and Graphics Support: Gerald Charm
 - Volunteer Coordinator: Lovelle MacLean
 orchestra:
 ---

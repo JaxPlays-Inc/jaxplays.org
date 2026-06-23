@@ -4722,9 +4722,9 @@
         "Comedy",
         "Drama"
       ],
-      "summary": "",
+      "summary": "Pippin is a musical odyssey about a young prince's quest for greatness, guided by a charming but manipulative Leading Player. Amidst war, romance, and intricate dances, Pippin discovers that happiness lies not in extr...",
       "tickets": "",
-      "searchBase": "pippin may 10, 1985 may 25, 1985 theatre jacksonville little theatre musical comedy drama"
+      "searchBase": "pippin may 10, 1985 may 25, 1985 theatre jacksonville little theatre musical comedy drama pippin is a musical odyssey about a young prince's quest for greatness, guided by a charming but manipulative leading player. amidst war, romance, and intricate dances, pippin discovers that happiness lies not in extr..."
     },
     {
       "title": "Crimes of the Heart",
@@ -5772,9 +5772,9 @@
         "Comedy",
         "Drama"
       ],
-      "summary": "",
+      "summary": "Explore the complexities of modern relationships through the eyes of Bobby, a single man unable to commit fully to a steady relationship, let alone marriage.",
       "tickets": "",
-      "searchBase": "company oct 7, 1977 oct 22, 1977 theatre jacksonville little theatre musical comedy drama"
+      "searchBase": "company oct 7, 1977 oct 22, 1977 theatre jacksonville little theatre musical comedy drama explore the complexities of modern relationships through the eyes of bobby, a single man unable to commit fully to a steady relationship, let alone marriage."
     },
     {
       "title": "Wake Up, Darling",
@@ -12479,6 +12479,26 @@
       "searchBase": "the mayor and the manicure dec 10, 1935 theatre jacksonville"
     },
     {
+      "title": "Anthony and Anna",
+      "url": "/productions/1935-anthony-and-anna/",
+      "contentPath": "productions/1930/1935-Anthony-and-Anna",
+      "poster": "/media/default/production_poster.webp",
+      "posterAlt": "Anthony and Anna poster",
+      "openingDate": "1935-11-26",
+      "closingDate": "1935-11-26",
+      "openingLabel": "Nov 26, 1935",
+      "openingMonthLabel": "November 1935",
+      "openingBadgeLabel": "Nov 26, 1935",
+      "closingLabel": "",
+      "theatre": "Theatre Jacksonville",
+      "venues": [],
+      "allVenues": [],
+      "genres": [],
+      "summary": "",
+      "tickets": "",
+      "searchBase": "anthony and anna nov 26, 1935 theatre jacksonville"
+    },
+    {
       "title": "The Late Christopher Bean",
       "url": "/productions/1935-the-late-christopher-bean/",
       "contentPath": "productions/1930/1935-The-Late-Christopher-Bean",
@@ -13673,10 +13693,14 @@
       "theatre": "Theatre Jacksonville",
       "venues": [],
       "allVenues": [],
-      "genres": [],
+      "genres": [
+        "Play",
+        "One-Act",
+        "Satire"
+      ],
       "summary": "",
       "tickets": "",
-      "searchBase": "the opera matinee apr 15, 1930 theatre jacksonville"
+      "searchBase": "the opera matinee apr 15, 1930 theatre jacksonville play one-act satire"
     },
     {
       "title": "Seven Chances",
@@ -19610,9 +19634,9 @@
         "Musical",
         "Family"
       ],
-      "summary": "Limelight Theatre closes its 34th season with Rodgers & Hammerstein's classic musical about Maria Rainer, the von Trapp family, and the enduring power of music, courage, and hope.",
+      "summary": "Limelight Theatre closes its 34th season with Rodgers & Hammerstein's classic musical about Maria Rainer, the von Trapp family and the enduring power of music, courage and hope.",
       "tickets": "https://limelight.ludus.com/200477928",
-      "searchBase": "the sound of music jul 16, 2026 aug 9, 2026 limelight theatre inez mcdonald mainstage musical family limelight theatre closes its 34th season with rodgers & hammerstein's classic musical about maria rainer, the von trapp family, and the enduring power of music, courage, and hope."
+      "searchBase": "the sound of music jul 16, 2026 aug 9, 2026 limelight theatre inez mcdonald mainstage musical family limelight theatre closes its 34th season with rodgers & hammerstein's classic musical about maria rainer, the von trapp family and the enduring power of music, courage and hope."
     },
     {
       "title": "The Battle Of Shallowford",
@@ -27749,7 +27773,7 @@
       "title": "The Outsiders",
       "url": "/productions/2027-the-outsiders/",
       "contentPath": "productions/2027/2027-The-Outsiders",
-      "poster": "/media/posters/2027-The-Outsiders.webp",
+      "poster": "/media/posters/2027-The-Outsiders.webp?v=053336",
       "posterAlt": "The Outsiders poster",
       "openingDate": "2027-05-18",
       "closingDate": "2027-05-23",
@@ -27777,7 +27801,7 @@
       "title": "Jersey Boys",
       "url": "/productions/2027-jersey-boys/",
       "contentPath": "productions/2027/2027-Jersey-Boys",
-      "poster": "/media/posters/2027-Jersey-Boys.webp",
+      "poster": "/media/posters/2027-Jersey-Boys.webp?v=053340",
       "posterAlt": "Jersey Boys poster",
       "openingDate": "2027-04-09",
       "closingDate": "2027-04-11",
@@ -27805,7 +27829,7 @@
       "title": "The Wiz",
       "url": "/productions/2027-the-wiz/",
       "contentPath": "productions/2027/2027-The-Wiz",
-      "poster": "/media/posters/2027-The-Wiz.webp",
+      "poster": "/media/posters/2027-The-Wiz.webp?v=053327",
       "posterAlt": "The Wiz poster",
       "openingDate": "2027-02-16",
       "closingDate": "2027-02-21",
@@ -27861,7 +27885,7 @@
       "title": "The Sound of Music",
       "url": "/productions/2027-the-sound-of-music/",
       "contentPath": "productions/2027/2027-The-Sound-of-Music",
-      "poster": "/media/posters/2027-The-Sound-of-Music.webp",
+      "poster": "/media/posters/2027-The-Sound-of-Music.webp?v=053332",
       "posterAlt": "The Sound of Music poster",
       "openingDate": "2027-01-26",
       "closingDate": "2027-01-31",
@@ -27945,7 +27969,7 @@
       "title": "Hamilton",
       "url": "/productions/2026-hamilton/",
       "contentPath": "productions/2026/2026-Hamilton",
-      "poster": "/media/posters/2026-Hamilton.webp",
+      "poster": "/media/posters/2026-Hamilton.webp?v=052950",
       "posterAlt": "Hamilton poster",
       "openingDate": "2026-12-01",
       "closingDate": "2026-12-13",

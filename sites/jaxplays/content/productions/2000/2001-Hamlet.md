@@ -1,7 +1,7 @@
 ---
 title: Hamlet
-date: 2023-09-08T00:00:00
-opening_date: 2001-09-01
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2001-09-01'
 closing_date:
 layout: productions
 program:
@@ -32,8 +32,14 @@ cast:
 - Sailor: Colin Williams
 - Priest: Paul Anello
 - English Ambassador: Elroy Spatcher
-- Laertes Servant: Frankie Alfano
-- Lady: Erin Maas
+- Laertes Servant:
+  - Frankie Alfano
+  - David Eger
+- Lady:
+  - Erin Maas
+  - Caitlin Parrish
+  - Tracy Olin
+  - Amy Szkody
 - Lord:
   - Paul Anello
   - Tim Driscol

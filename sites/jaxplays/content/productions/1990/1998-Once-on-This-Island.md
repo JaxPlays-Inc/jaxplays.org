@@ -1,8 +1,8 @@
 ---
 title: Once on This Island
-date: 2023-09-08T00:00:00
-opening_date: 1998-11-06
-closing_date: 1998-11-21
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1998-11-06'
+closing_date: '1998-11-21'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -20,12 +20,12 @@ cast:
 - Erzulie: Sarah E. Sanders
 - Little Ti Moune: Chanel Clemmons
 - Gatekeeper: Orlando Rodriguez
-- Dancers:
+- Dancer:
   - Harold Abrams
   - Robin DeLeon
   - Jarra Kellom
   - Marjorie Oliver
-  - Maya Rebedda Marie Stewart
+  - Maya Rebecca Marie Stewart
 crew:
 - Artistic Director: Noble Lee Lester
 - Musical Director: Cathy Murphy
@@ -64,4 +64,3 @@ orchestra:
 - Bass: Paul Creel
 - Keyboards: Brian Meissenburg
 ---
-
