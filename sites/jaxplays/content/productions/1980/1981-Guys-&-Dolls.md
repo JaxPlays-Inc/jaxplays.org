@@ -1,8 +1,8 @@
 ---
 title: Guys & Dolls
-date: 2023-09-08T00:00:00
-opening_date: 1981-10-02
-closing_date: 1981-10-17
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1981-10-02'
+closing_date: '1981-10-17'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -67,7 +67,7 @@ crew:
 - Choral Director: Mel Wilhite
 - Choreographer: Buddy Sherwood
 - Lighting Design: John C. James Jr.
-- Stage Manager: Pam Jackson
+- Stage: Pam Jackson
 - Lighting Technician: Joyce Block
 - Spotlight: Barbara Stillson
 - Stage Crew:

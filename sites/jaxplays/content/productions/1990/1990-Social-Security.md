@@ -1,8 +1,8 @@
 ---
 title: Social Security
-date: 2023-09-08T00:00:00
-opening_date: 1990-05-25
-closing_date: 1990-06-09
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1990-05-25'
+closing_date: '1990-06-09'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -34,7 +34,7 @@ crew:
   - Valerie Anthony
   - Kelly Hitchcock
   - Gloria Pepe
-  - Leilani Tillis
+  - Lelani Tillis
 - Lighting Design: Dennis Ginder
 orchestra:
 ---

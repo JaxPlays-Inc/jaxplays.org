@@ -1,8 +1,8 @@
 ---
 title: Pippin
-date: 2023-09-08T00:00:00
-opening_date: 1985-05-10
-closing_date: 1985-05-25
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1985-05-10'
+closing_date: '1985-05-25'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -65,10 +65,9 @@ crew:
   - Norm Dulaney
 - Costume Construction:
   - Ann Bellinger
-  - Pamela Ephrem
   - Edie Hall
+  - Pam Ephrem
 - Dance Captain: Norma C. Forgue
 - Pamela Jackson: Pamela Jackson
 orchestra:
 ---
-

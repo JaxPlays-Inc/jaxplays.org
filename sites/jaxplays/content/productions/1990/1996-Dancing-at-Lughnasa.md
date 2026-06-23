@@ -2,16 +2,20 @@
 title: Dancing At Lughnasa
 redirect_from:
 - /productions/1996_Dancing_at_Lughnasa
-date: 2023-09-08T00:00:00
-opening_date: 1996-03-01
-closing_date: 1996-03-17
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1996-03-01'
+closing_date: '1996-03-17'
 layout: productions
 program:
+genres:
+- Play
+- Drama
+- Family
 theatre: Theatre Jacksonville
 venue: Little Theatre
 show_details:
-- Playwright: "[[w:Brian Friel]]"
-- Date premiered: 1990-04-24
+- Playwright: '[[w:Brian Friel]]'
+- Date premiered: '1990-04-24'
 - Place premiered: Abbey Theatre, Dublin, Ireland
 - Subject: A month in the lives of five impoverished women.
 cast:
@@ -74,11 +78,6 @@ photos:
   photo_attr:
   photo_alt:
   photo_caption: Cast of 1996 'Dancing at Lughnasa' at Theatre Jacksonville
-# Dancing at Lughnasa
-genres:
-  - Play
-  - Drama
-  - Family
-description: "Set in the summer of 1936, *Dancing at Lughnasa* weaves a poignant tale of the five Mundy sisters, whose lives are on the brink of change."
+description: Set in the summer of 1936, *Dancing at Lughnasa* weaves a poignant tale of the five Mundy sisters, whose lives are on the brink of change.
 ---
 In the small Irish village of Ballybeg, the Mundy sisters find their quiet lives disrupted by the arrival of their brother, a missionary priest from Africa, and the village's first radio. As the festival of Lughnasa approaches, the sisters confront their desires and fears, and their family bond is tested. This Tony Award-winning play captures the nostalgia and heartache of a family standing at a crossroad, with moments of joy and dance that underscore their unyielding resilience.

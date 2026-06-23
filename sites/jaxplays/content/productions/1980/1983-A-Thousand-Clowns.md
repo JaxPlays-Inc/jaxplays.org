@@ -1,8 +1,8 @@
 ---
 title: A Thousand Clowns
-date: 2023-09-08T00:00:00
-opening_date: 1983-01-21
-closing_date: 1983-02-05
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1983-01-21'
+closing_date: '1983-02-05'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -28,7 +28,7 @@ crew:
 - Sound Technician: Chris Strickland
 - Sound Design: Tom Heffernan
 - Key Grip: Dave Stillson
-- Grips:
+- Grip:
   - Randy Ball
   - Bob White
 - Construction Crew:

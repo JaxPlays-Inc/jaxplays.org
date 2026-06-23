@@ -1,8 +1,8 @@
 ---
 title: Carousel
-date: 2023-09-08T00:00:00
-opening_date: 1995-06-09
-closing_date: 1995-06-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1995-06-09'
+closing_date: '1995-06-24'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -39,6 +39,11 @@ cast:
   - DeWitt L. Cooper, III
   - Daniel M. Cochran
   - Jeff Greene
+  - James Junio
+  - Michael G. Mentzel
+  - Michelle Nugent
+  - Mary Baugher
+  - Brook Ratti
 - Snow Child:
   - Dustin Pettegrew
   - Rhonda Hodge

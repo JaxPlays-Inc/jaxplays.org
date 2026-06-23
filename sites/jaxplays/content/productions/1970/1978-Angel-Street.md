@@ -1,8 +1,8 @@
 ---
 title: Angel Street
-date: 2023-09-08T00:00:00
-opening_date: 1978-03-17
-closing_date: 1978-04-01
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1978-03-17'
+closing_date: '1978-04-01'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -19,7 +19,7 @@ crew:
 - Scene Design: Mike Murphy
 - Stage Manager: Carolyn Courreges
 - Lighting Design: Kelly Hart
-- Lighting Technician: Amelia Senhausen
+- Light Technician: Amelia Senhausen
 - Sound Technician: Pam Jackson
 - Set Construction:
   - Sarah Barto
@@ -52,4 +52,3 @@ crew:
   - Martha Wynne
 orchestra:
 ---
-

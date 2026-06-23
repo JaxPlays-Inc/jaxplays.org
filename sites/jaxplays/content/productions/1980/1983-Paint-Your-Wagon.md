@@ -1,8 +1,8 @@
 ---
 title: Paint Your Wagon
-date: 2023-09-08T00:00:00
-opening_date: 1983-03-13
-closing_date: 1983-03-28
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1983-03-13'
+closing_date: '1983-03-28'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -65,7 +65,7 @@ crew:
   - Joyce Block
   - Claudia Lewis
 - Key Grip: David Stillson
-- Grips:
+- Grip:
   - Fred Douglas
   - Dale Stillson
 - Dance Captain: Rebecca Warner
@@ -86,7 +86,7 @@ crew:
   - Renata Vondra
   - Rebecca Warner
   - Viviane Weil
-  - Grier Wells
+  - Greier Wells
   - Phil Hagarty
   - Chandra Hagarty
   - Mary Way
@@ -98,4 +98,3 @@ crew:
   - Mike Lewis
 orchestra:
 ---
-

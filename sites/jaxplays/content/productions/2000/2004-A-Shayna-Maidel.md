@@ -1,8 +1,8 @@
 ---
 title: A Shayna Maidel
-date: 2023-09-08T00:00:00
-opening_date: 2004-04-23
-closing_date: 2004-05-08
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2004-04-23'
+closing_date: '2004-05-08'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -22,8 +22,9 @@ crew:
 - Costume Design: Joy Smith
 - Sound Design: Michael Lipp
 - Set Dressings: Kelly J. Wagoner
-- Properties: Elizabeth Cardy
-- properties: Rebecca Miller
+- Properties:
+  - Elizabeth Cardy
+  - Rebecca Miller
 - Stage Manager: Mary Beth Silvestris
 - Poster and Program Art: Gerry Charm
 - Assistant Technical Director: Peter van Vliet

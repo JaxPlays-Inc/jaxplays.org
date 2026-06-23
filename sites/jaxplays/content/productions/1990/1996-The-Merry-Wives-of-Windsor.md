@@ -1,8 +1,8 @@
 ---
 title: The Merry Wives of Windsor
-date: 2023-09-08T00:00:00
-opening_date: 1996-09-13
-closing_date: 1996-09-22
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1996-09-13'
+closing_date: '1996-09-22'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -33,6 +33,7 @@ crew:
 - Assistant to the Director: Valerie Howard
 - Scenic and Lighting Design: Andrew J. Way
 - Stage Manager: Abbie Malkawitz
+- Assistant Stage Manager: Diane Delage
 - Project Founder: Dr. Lee S. Beger
 - Executive Director: Robert Arleigh White
 - Project Coordinator: Robyn L. Scott
@@ -83,5 +84,6 @@ crew:
   - Rose Sarkees
   - Sandy Meyers
   - Lisa Braren
+
 orchestra:
 ---

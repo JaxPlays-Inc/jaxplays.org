@@ -1,8 +1,8 @@
 ---
 title: Seussical
-date: 2023-09-08T00:00:00
-opening_date: 2006-06-09
-closing_date: 2006-06-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2006-06-09'
+closing_date: '2006-06-24'
 layout: productions
 program:
 genres:
@@ -27,21 +27,55 @@ cast:
   - Josh Waller
   - Julian Goldhagen
   - Jason Goodson
-- Grinch/Falsetto Fish/Lion Tamer: Russell Hainline
-- Who/Cadet/Fish: Sarah Bartley
-- Who/Hunch:
-  - Terry Cecil
-  - Kathy Surcey
-- Vlad Vladikoff/Who/Hunter/Hunch: Victor Dorfman
-- Cindy Lou Who/Cadet: Amanda Harris
-- Who/Strongman/Hunch/Judge Yertle the Turtle: Alex Hernandez
-- Lion/Who: Jody Kyler
-- Who/Cadet/Present: Cecilia Miyares
-- Zebra/Who: Rachel Organes
-- Max the Dog/Who/Cadet: Tyler Ross
-- Who/Circus Performer/Hunter/Hunch: A. Michael Wohl
+- Grinch / Falsetto Fish / Lion Tamer: Russell Hainline
+
+
+- Vlad Vladikoff: Victor Dorfman
+- Cindy Lou Who: Amanda Harris
+- Strongman / Judge Yertle the Turtle: Alex Hernandez
+- Lion: Jody Kyler
+- Present: Cecilia Miyares
+- Zebra: Rachel Organes
+- Max the Dog: Tyler Ross
+- Circus Performer: A. Michael Wohl
 - Thing 1: Mark Stater
 - Thing 2: Geoff Weeks
+- Grandpa Who: Neal Thorburn
+- Hunter:
+  - Victor Dorfman
+  - A. Michael Wohl
+- Cadet:
+  - Sarah Bartley
+  - Amanda Harris
+  - Tyler Ross
+  - Matthew Young
+  - Cecilia Miyares
+- Fish: 
+  - Sarah Bartley
+  - Matthew Young
+  - Katie Swider
+  - Neal Thorburn
+- Hunch:  
+  - Terry Cecil
+  - Victor Dorfman
+  - Alex Hernandez
+  - Kathy Surcey
+  - Katie Swider
+  - Neal Thorburn
+  - A. Michael Wohl
+- Who:
+  - Sarah Bartley
+  - Katie Swider
+  - Matthew Young
+  - Terry Cecil
+  - Kathy Surcey
+  - Victor Dorfman
+  - Alex Hernandez
+  - Jody Kyler
+  - Cecilia Miyares
+  - Rachel Organes
+  - Tyler Ross
+  - A. Michael Wohl
 crew:
 - Artistic Director: Shirley Sacks
 - Musical Director: Ellen Milligan
@@ -95,6 +129,8 @@ crew:
 - Follow Spot Operator:
   - Kaila Giovaniello
   - Andrew Hanson
+understudies:
+- Boy/Jojo: Katie Sacks
 orchestra:
 - Keyboard: Ellen Milligan
 - Reeds:

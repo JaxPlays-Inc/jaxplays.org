@@ -1,8 +1,8 @@
 ---
 title: My Three Angels
-date: 2023-09-08T00:00:00
-opening_date: 1987-12-19
-closing_date: 1987-12-28
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1987-12-19'
+closing_date: '1987-12-28'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -37,7 +37,6 @@ crew:
   - David Horne
   - Tom Hehn
   - Kirk Hinsey
-  - Louis Taylor
   - Mark Thomas
   - Michael Porter
   - Sharon Jones
@@ -45,6 +44,6 @@ crew:
   - Don Peterson
   - John Durante
   - Gloria Pepe
+  - Lou Taylor
 orchestra:
 ---
-

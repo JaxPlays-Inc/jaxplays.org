@@ -1,8 +1,8 @@
 ---
 title: Gypsy
-date: 2023-09-08T00:00:00
-opening_date: 1989-10-06
-closing_date: 1989-10-21
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1989-10-06'
+closing_date: '1989-10-21'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -19,7 +19,7 @@ cast:
 - Young Yonkers: Merrill Hagan
 - Young Angie: Ernest List
 - Young L.A.: Adam Gutkin
-- Young Tulsa: Bartley Vickers
+- Young Tulsa: Barley Vickers
 - Weber: Timothy Ingram
 - Herbie: Rob Dauer
 - Louise: Lorena Rogers
@@ -42,7 +42,7 @@ cast:
 - Cigar: Chris Sheppard
 - Renee: Diane Delage
 - Phil: Karl Rogers
-- M. Bourgeron-Cochon: Timothy Ingram
+- M. Bourgeron-Cochon: T. Ingram
 - Caroline the Cow:
   - Robert Simpson
   - Terry Ham Monson
@@ -68,6 +68,16 @@ crew:
   - Charles Nowlin
   - Bobbie Stillson
   - David Stillson
+  - Garry Bragg
+  - Dena Decker
+  - Jeff Hallberg
+  - Shyla Henderson
+  - Heather Hobson
+  - Inez Kelley
+  - Gloria Pepe
+  - Don Peterson
+  - Karl Rogers
+  - Bruce Wylie
 - Properties:
   - Dena Decker
   - Heather Hobson

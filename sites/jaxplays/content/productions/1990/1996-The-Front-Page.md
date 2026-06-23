@@ -1,8 +1,8 @@
 ---
 title: The Front Page
-date: 2023-09-08T00:00:00
-opening_date: 1996-01-12
-closing_date: 1996-01-28
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1996-01-12'
+closing_date: '1996-01-28'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -34,16 +34,15 @@ crew:
 - Lighting Designer: Andrew Way
 - Scenic Designer: Andrew Way
 - Sound Designer: Scott Hooks
-- Costume Designer: Linda Adcock
+- Costumer: Linda Adcock
 - Hair and Makeup Designer:
 - Stage Manager: Gloria Pepe
-- Assistant Stage Manager: Rea Zaret
 - Master Electrician:
 - Lighting Technician: Karen Jones
 - Sound Technician: Scott Hooks
 - Light Board Operator: Karen Jones
 - Sound Board Operator: Scott Hooks
-- Prop Master: Elaine Gantz
+- Properties Mistress: Elaine Gantz
 - Set Construction:
   - Scott Hooks
   - Bill Reidl
@@ -53,5 +52,6 @@ crew:
 - Properties and Run Crew:
 - Volunteer Coordinator: Lovelle MacLean
 - Poster and Program Art:
+- Assistant to the Director: Rea Zaret
 orchestra:
 ---

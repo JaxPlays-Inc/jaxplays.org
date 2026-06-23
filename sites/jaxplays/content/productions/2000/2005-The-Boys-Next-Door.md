@@ -1,8 +1,8 @@
 ---
 title: The Boys Next Door
-date: 2023-09-08T00:00:00
-opening_date: 2005-04-22
-closing_date: 2005-05-07
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '2005-04-22'
+closing_date: '2005-05-07'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -23,7 +23,9 @@ crew:
 - Scenic Design: Kelly J. Wagoner
 - Lighting Design: Jeffery L. Wagoner
 - Costume Design: Sally Pettegrew
-- Stage Manager: Sara Green/Brad Summerville
+- Stage Manager:
+  - Sara Green
+  - Brad Summerville
 - Assistant Technical Director: Peter van Vliet
 - Set Dressings: Kelly J. Wagoner
 - Properties: Tonya Moore

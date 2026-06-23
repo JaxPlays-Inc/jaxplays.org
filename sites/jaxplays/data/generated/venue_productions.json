@@ -4623,9 +4623,9 @@
         "Comedy",
         "Drama"
       ],
-      "summary": "",
+      "summary": "Pippin is a musical odyssey about a young prince's quest for greatness, guided by a charming but manipulative Leading Player. Amidst war, romance, and intricate dances, Pippin discovers that happiness lies not in extr...",
       "tickets": "",
-      "searchBase": "pippin may 10, 1985 may 25, 1985 theatre jacksonville little theatre musical comedy drama"
+      "searchBase": "pippin may 10, 1985 may 25, 1985 theatre jacksonville little theatre musical comedy drama pippin is a musical odyssey about a young prince's quest for greatness, guided by a charming but manipulative leading player. amidst war, romance, and intricate dances, pippin discovers that happiness lies not in extr..."
     },
     {
       "title": "Crimes of the Heart",
@@ -5673,9 +5673,9 @@
         "Comedy",
         "Drama"
       ],
-      "summary": "",
+      "summary": "Explore the complexities of modern relationships through the eyes of Bobby, a single man unable to commit fully to a steady relationship, let alone marriage.",
       "tickets": "",
-      "searchBase": "company oct 7, 1977 oct 22, 1977 theatre jacksonville little theatre musical comedy drama"
+      "searchBase": "company oct 7, 1977 oct 22, 1977 theatre jacksonville little theatre musical comedy drama explore the complexities of modern relationships through the eyes of bobby, a single man unable to commit fully to a steady relationship, let alone marriage."
     },
     {
       "title": "Wake Up, Darling",
@@ -13213,6 +13213,35 @@
   ],
   "florida-theatre": [
     {
+      "title": "Hallmark(ish)",
+      "url": "/productions/2026-hallmarkish/",
+      "contentPath": "productions/2026/2026-Hallmarkish",
+      "poster": "/media/posters/2026-Hallmarkish.webp",
+      "posterAlt": "Hallmark(ish) poster",
+      "openingDate": "2026-11-27",
+      "closingDate": "2026-11-27",
+      "openingLabel": "Nov 27, 2026",
+      "openingMonthLabel": "November 2026",
+      "openingBadgeLabel": "Nov 27, 2026",
+      "closingLabel": "Nov 27, 2026",
+      "theatre": "",
+      "venues": [
+        "Florida Theatre"
+      ],
+      "allVenues": [
+        "Florida Theatre"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy",
+        "Parody",
+        "Holiday"
+      ],
+      "summary": "A holiday musical comedy about an overworked big-city executive who returns to her quirky small hometown to save Christmas.",
+      "tickets": "https://floridatheatre.showare.com/eventperformances.asp?evt=1642",
+      "searchBase": "hallmark(ish) nov 27, 2026 nov 27, 2026 florida theatre musical comedy parody holiday a holiday musical comedy about an overworked big-city executive who returns to her quirky small hometown to save christmas."
+    },
+    {
       "title": "RENT - In Concert",
       "url": "/productions/2026-rent-in-concert/",
       "contentPath": "productions/2026/2026-RENT-In-Concert",
@@ -18111,9 +18140,9 @@
         "Musical",
         "Family"
       ],
-      "summary": "Limelight Theatre closes its 34th season with Rodgers & Hammerstein's classic musical about Maria Rainer, the von Trapp family, and the enduring power of music, courage, and hope.",
+      "summary": "Limelight Theatre closes its 34th season with Rodgers & Hammerstein's classic musical about Maria Rainer, the von Trapp family and the enduring power of music, courage and hope.",
       "tickets": "https://limelight.ludus.com/200477928",
-      "searchBase": "the sound of music jul 16, 2026 aug 9, 2026 limelight theatre inez mcdonald mainstage musical family limelight theatre closes its 34th season with rodgers & hammerstein's classic musical about maria rainer, the von trapp family, and the enduring power of music, courage, and hope."
+      "searchBase": "the sound of music jul 16, 2026 aug 9, 2026 limelight theatre inez mcdonald mainstage musical family limelight theatre closes its 34th season with rodgers & hammerstein's classic musical about maria rainer, the von trapp family and the enduring power of music, courage and hope."
     },
     {
       "title": "The Battle Of Shallowford",
@@ -21964,7 +21993,7 @@
       "title": "The Outsiders",
       "url": "/productions/2027-the-outsiders/",
       "contentPath": "productions/2027/2027-The-Outsiders",
-      "poster": "/media/posters/2027-The-Outsiders.webp",
+      "poster": "/media/posters/2027-The-Outsiders.webp?v=053336",
       "posterAlt": "The Outsiders poster",
       "openingDate": "2027-05-18",
       "closingDate": "2027-05-23",
@@ -21992,7 +22021,7 @@
       "title": "Jersey Boys",
       "url": "/productions/2027-jersey-boys/",
       "contentPath": "productions/2027/2027-Jersey-Boys",
-      "poster": "/media/posters/2027-Jersey-Boys.webp",
+      "poster": "/media/posters/2027-Jersey-Boys.webp?v=053340",
       "posterAlt": "Jersey Boys poster",
       "openingDate": "2027-04-09",
       "closingDate": "2027-04-11",
@@ -22020,7 +22049,7 @@
       "title": "The Wiz",
       "url": "/productions/2027-the-wiz/",
       "contentPath": "productions/2027/2027-The-Wiz",
-      "poster": "/media/posters/2027-The-Wiz.webp",
+      "poster": "/media/posters/2027-The-Wiz.webp?v=053327",
       "posterAlt": "The Wiz poster",
       "openingDate": "2027-02-16",
       "closingDate": "2027-02-21",
@@ -22076,7 +22105,7 @@
       "title": "The Sound of Music",
       "url": "/productions/2027-the-sound-of-music/",
       "contentPath": "productions/2027/2027-The-Sound-of-Music",
-      "poster": "/media/posters/2027-The-Sound-of-Music.webp",
+      "poster": "/media/posters/2027-The-Sound-of-Music.webp?v=053332",
       "posterAlt": "The Sound of Music poster",
       "openingDate": "2027-01-26",
       "closingDate": "2027-01-31",
@@ -22160,7 +22189,7 @@
       "title": "Hamilton",
       "url": "/productions/2026-hamilton/",
       "contentPath": "productions/2026/2026-Hamilton",
-      "poster": "/media/posters/2026-Hamilton.webp",
+      "poster": "/media/posters/2026-Hamilton.webp?v=052950",
       "posterAlt": "Hamilton poster",
       "openingDate": "2026-12-01",
       "closingDate": "2026-12-13",

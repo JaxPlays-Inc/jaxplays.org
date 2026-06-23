@@ -1,7 +1,7 @@
 ---
 title: The Glass Menagerie
-date: 2023-09-08T00:00:00
-opening_date: 1993-12-31
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1993-12-31'
 approx_date: year
 closing_date:
 layout: productions
@@ -14,7 +14,7 @@ cast:
 - Laura Wingfield: Susan Sutton
 - A Gentleman Caller: Michael King
 crew:
-- Artistic Director: Michael Emerson
+- Director: Michael Emerson
 - Stage Manager: Tracey Gallagher
 - Assistant Director: Kevin F. Roberts
 - Production Design: Michael Emerson

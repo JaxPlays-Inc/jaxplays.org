@@ -1,8 +1,8 @@
 ---
 title: Man of La Mancha
-date: 2023-09-08T00:00:00
-opening_date: 1990-06-15
-closing_date: 1990-06-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1990-06-15'
+closing_date: '1990-06-24'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -50,6 +50,6 @@ crew:
   - Linda Tuttle
   - Sherrie Bethune
 - Assistant Stage Manager: Rick Whiterford
-- Property Assistant: Jessica Mondoki
+- Property Assistant: Jessica Mandoki
 orchestra:
 ---

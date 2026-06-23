@@ -1,8 +1,8 @@
 ---
 title: The Diary of Anne Frank
-date: 2023-09-08T00:00:00
-opening_date: 1993-02-19
-closing_date: 1993-02-27
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1993-02-19'
+closing_date: '1993-02-27'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -19,7 +19,7 @@ cast:
 - Mr. Kraler: Warren M. Grymes, Sr.
 - Mr. Dussel: Leonard Alterman
 crew:
-- Artistic Director: Robert Arleigh White
+- Director: Robert Arleigh White
 - Production Manager: Norma Brizzi
 - Set/Light Designer: Andrew J.Way
 - Assistant Director/Stage Manager: Jim Dudley

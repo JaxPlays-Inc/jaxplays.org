@@ -1,8 +1,8 @@
 ---
 title: A Midsummer Night's Dream
-date: 2023-09-08T00:00:00
-opening_date: 1998-09-18
-closing_date: 1998-09-27
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1998-09-18'
+closing_date: '1998-09-27'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -95,4 +95,7 @@ crew:
 - Volunteer Coordinator: Lovelle MacLean
 - Box Office Services: Cherri Stratton
 - Project Coordinator: Robert Arleigh White
+- Assistant to the Director:
+  - Marie Cooke
+  - Heather Bladwin
 ---
