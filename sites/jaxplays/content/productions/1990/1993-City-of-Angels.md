@@ -1,7 +1,7 @@
 ---
 title: City of Angels
-date: 2023-09-08T00:00:00
-opening_date: 1993-12-31
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1993-12-31'
 approx_date: year
 closing_date:
 layout: productions
@@ -76,6 +76,7 @@ cast:
   - George Deihl, Jr.
   - Charles Nowlin
   - Robert Simpson
+- Gloria Pepe: Gloria Pepe
 crew:
 - Director: Michael Lipp
 - Choreographer: Deborah Jordan-Chaille
@@ -137,4 +138,3 @@ crew:
 - Guest Announcer: Dennis James
 orchestra:
 ---
-

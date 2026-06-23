@@ -1,8 +1,8 @@
 ---
 title: The Constant Couple
-date: 2023-09-08T00:00:00
-opening_date: 1990-03-30
-closing_date: 1990-04-14
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1990-03-30'
+closing_date: '1990-04-14'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -23,7 +23,7 @@ cast:
 crew:
 - Artistic Director: Robert Arleigh White
 - Set Design: Michael Emerson
-- Lighting Design: Pamela B. Jackson
+- Lighting Design: Pam Jackson
 - Technical Director: Michael Emerson
 - Stage Manager: Libby Maxwell
 - Lighting Operator: Gloria Pepe
@@ -67,9 +67,8 @@ crew:
 orchestra:
 reviews:
 - title: Theatre Jacksonville Presents 'The Constant Couple'
-  uri: "/media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg"
-  outlet: 'First Coast Entertainer'
-  description: "A Restoration Play About Sex In The '90s (The 1690's)"
-  featured_image: '/media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg'
-
+  uri: /media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg
+  outlet: First Coast Entertainer
+  description: A Restoration Play About Sex In The '90s (The 1690's)
+  featured_image: /media/news/1990_The_Constant_Couple_First_Coast_Entertainer.jpeg
 ---
