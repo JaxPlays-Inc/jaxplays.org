@@ -1,8 +1,8 @@
 ---
 title: Death of a Salesman
-date: 2023-09-08T00:00:00
-opening_date: 1978-01-20
-closing_date: 1978-02-04
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1978-01-20'
+closing_date: '1978-02-04'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -26,7 +26,7 @@ crew:
 - Scene Design: Mike Murphy
 - Stage Manager: Pam Jackson
 - Lighting Design: Kelly Hart
-- Lighting Technician: Doug Thomas
+- Light Technician: Doug Thomas
 - Sound Technician: Wanda Newell
 - Set Construction:
   - Scott Dunham

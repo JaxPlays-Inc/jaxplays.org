@@ -1,8 +1,8 @@
 ---
 title: It's Only a Play
-date: 2023-09-08T00:00:00
-opening_date: 1990-11-09
-closing_date: 1990-11-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1990-11-09'
+closing_date: '1990-11-24'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -13,7 +13,7 @@ cast:
 - Virginia Noyes: Marcia Morgan Senen
 - Frank Finger: Chris Sheppard
 - Julia Budder: Robyn Neal
-- Ira Drew: Leonard Alterman
+- Ira Drew: Leonard Aolterman
 - Peter Austin: Joseph Bermes
 - Emma Bovary: Claire Backmann
 crew:

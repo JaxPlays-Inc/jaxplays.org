@@ -1,8 +1,8 @@
 ---
 title: Chicago
-date: 2023-09-08T00:00:00
-opening_date: 1984-10-05
-closing_date: 1984-10-20
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1984-10-05'
+closing_date: '1984-10-20'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -51,8 +51,8 @@ crew:
 - Technical Director: Andrew Way
 - Stage Manager: Joyce Block
 - Lighting Technician:
-  - Pamela Jackson
   - Valerie Howard
+  - Pam Jackson
 - Master Electrician: Norm Dulaney
 - Key Grip: David Stillson
 - Grip:
@@ -88,4 +88,3 @@ crew:
   - J. Dean
 orchestra:
 ---
-

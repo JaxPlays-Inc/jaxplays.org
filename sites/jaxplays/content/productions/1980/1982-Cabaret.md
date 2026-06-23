@@ -1,8 +1,8 @@
 ---
 title: Cabaret
-date: 2023-09-08T00:00:00
-opening_date: 1982-10-01
-closing_date: 1982-10-16
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1982-10-01'
+closing_date: '1982-10-16'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -69,7 +69,7 @@ crew:
   - Amelia Senhausen
   - Barbara Stillson
 - Key Grip: Tom Heffernan
-- Grips:
+- Grip:
   - David Stillson
   - Steve Metheny
   - Michael Smith

@@ -1,8 +1,8 @@
 ---
 title: Who's Afraid of Virginia Woolf?
-date: 2023-09-08T00:00:00
-opening_date: 1982-11-26
-closing_date: 1982-12-11
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1982-11-26'
+closing_date: '1982-12-11'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -25,7 +25,7 @@ crew:
   - Chris Strickland
 - Lighting Technician: David Stillson
 - Sound Technician: David Stillson
-- Grips:
+- Grip:
   - Mike Lewis
   - Steve Metheny
 - Construction Crew:
@@ -39,6 +39,6 @@ crew:
   - Pam Jackson
   - David Stillson
 - Costume Coordinator: Gert Berman
+
 orchestra:
 ---
-

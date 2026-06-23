@@ -1,6 +1,10 @@
 ---
 title: Grier Wells
-date: 2023-09-08T00:00:00-04:00
+other_names:
+- Greier Wells
+aliases:
+- /people/greier-wells
+date: 2026-06-22T23:43:29-04:00
 roles:
   - Actor
   - Carpenter
