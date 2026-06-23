@@ -1,8 +1,8 @@
 ---
 title: The Litter of Flowers
-date: 2023-09-08T00:00:00
-opening_date: 1960-04-01
-closing_date: 1960-04-09
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1960-04-01'
+closing_date: '1960-04-09'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -60,4 +60,5 @@ crew:
   - Joe Sloan
   - Mary Kilpatrick
   - Chris Michel Chiasson
+  - Judy Jett
 ---
