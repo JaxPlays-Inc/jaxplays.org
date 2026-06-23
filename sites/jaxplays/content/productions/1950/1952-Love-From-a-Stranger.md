@@ -1,8 +1,8 @@
 ---
 title: Love From a Stranger
-date: 2023-09-08T00:00:00
-opening_date: 1952-01-18
-closing_date: 1952-01-26
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1952-01-18'
+closing_date: '1952-01-26'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -46,6 +46,7 @@ crew:
 - Stage Manager: Budd Porter
 - Wardrobe:
   - Eula Mae Snow
+- Wardrobe Assistant:
   - Karen O'Shaughnessy
   - Georgia Jinks
   - Helen List

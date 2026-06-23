@@ -1,18 +1,20 @@
 ---
 title: Years Ago
-date: 2023-09-08T00:00:00
-opening_date: 1953-01-14
-closing_date: 1953-01-24
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1953-01-14'
+closing_date: '1953-01-24'
 layout: productions
 program:
 theatre: Theatre Jacksonville
 venue: Little Theatre
+show_details:
+- Playwright: "[[w:Ruth Gordon]]"
 cast:
 - Anna Witham: Margaret Ann Diz
 - Annie Jones: Peggy Gift
 - Clinton Jones: Ray Winstead
 - Fred Whitmarsh: Leon Bloodworth
-- Himself (Snodgrass): Snodgrass
+- Snodgrass: Snodgrass
 - Katherine Follett: Barbara Ehrmann
 - Miss Glavin: Ann Russell
 - Mr. Bagley: Werner Markey
@@ -63,4 +65,3 @@ crew:
 - Wardrobe Chairman: Mrs. H.R. Bingham
 orchestra:
 ---
-

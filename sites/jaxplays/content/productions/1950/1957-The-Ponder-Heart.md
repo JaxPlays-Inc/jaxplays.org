@@ -1,8 +1,8 @@
 ---
 title: The Ponder Heart
-date: 2023-09-08T00:00:00
-opening_date: 1957-04-03
-closing_date: 1957-04-13
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1957-04-03'
+closing_date: '1957-04-13'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -80,7 +80,10 @@ crew:
   - Phyllis Groves
   - Catherine Groves
   - Marie Tankersley
-- Properties Chairman: Esther Barnes
+  - Phillippa Benson
+- Properties Chairman:
+  - Esther Barnes
+  - Gladys Downey
 - Properties Assistant:
   - Gladys Downey
   - Helen Keegan
@@ -125,4 +128,3 @@ crew:
   - Rozelle Cohen
 orchestra:
 ---
-
