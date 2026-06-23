@@ -1,8 +1,8 @@
 ---
 title: A Community of Two
-date: 2023-09-08T00:00:00
-opening_date: 1977-11-25
-closing_date: 1977-12-10
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1977-11-25'
+closing_date: '1977-12-10'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -22,7 +22,7 @@ crew:
 - Scene Design: Mike Murphy
 - Stage Manager: Wanda Newell
 - Lighting Design: Kelly Hart
-- Lighting Technician: Pam Jackson
+- Light Technician: Pam Jackson
 - Sound Technician: Doug Thomas
 - Set Construction:
   - Loris Bickum

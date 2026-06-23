@@ -1,8 +1,8 @@
 ---
 title: Private Lives
-date: 2023-09-08T00:00:00
-opening_date: 1976-01-23
-closing_date: 1976-02-07
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1976-01-23'
+closing_date: '1976-02-07'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -34,6 +34,7 @@ crew:
   - Betty Worsley
   - Jamie Worsley
   - Martha Worsley
+  - Tom Hefferman
 - Stage Crew:
   - Jack Dillon
   - Scott Dunham

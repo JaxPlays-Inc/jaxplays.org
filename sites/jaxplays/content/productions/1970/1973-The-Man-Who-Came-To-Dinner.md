@@ -1,8 +1,8 @@
 ---
 title: The Man Who Came To Dinner
-date: 2023-09-08T00:00:00
-opening_date: 1973-11-30
-closing_date: 1973-12-15
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1973-11-30'
+closing_date: '1973-12-15'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -73,7 +73,6 @@ crew:
 - Scene Design: Hal Henderson
 - Stage Manager:
   - Tom Young
-  - Steve Winemiller
 - Lighting Technician: David West
 - Costumes: Gert Berman
 - Properties:
@@ -101,5 +100,6 @@ crew:
   - Mrs. William Dubow
   - Gert Berman
   - Pat Somers
+- Assistant Stage Manager: Steve Winemiller
 orchestra:
 ---

@@ -216,6 +216,16 @@
 	margin: 0 0 .55rem;
 }
 
+.jp-submit-field pre {
+	margin: .45rem 0 0;
+}
+
+.jp-submit-field pre code {
+	font-size: .75rem;
+	line-height: 1.45;
+	padding: .75rem;
+}
+
 .jp-submit-choice-grid {
 	display: grid;
 	gap: .45rem .9rem;
