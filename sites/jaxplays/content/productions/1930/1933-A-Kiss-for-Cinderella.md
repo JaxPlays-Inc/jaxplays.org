@@ -1,7 +1,7 @@
 ---
 title: A Kiss for Cinderella
-date: 2023-09-08T00:00:00
-opening_date: 1933-05-03
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1933-05-03'
 closing_date:
 layout: productions
 program:
@@ -19,7 +19,7 @@ cast:
 - Marion: Dorothy Tracy
 - Mr. Jennings: Drummond Paul, Jr.
 - Censor: Drummond Paul, Jr.
-- Lord Mayor: Eugene Leamon
+- Lord Mayor: Eugene LeaMond
 - Maid: Betty Leamond
 - Mrs. Maloney: Julia C. Tyler
 - Delphine: Martha Joy Swisher

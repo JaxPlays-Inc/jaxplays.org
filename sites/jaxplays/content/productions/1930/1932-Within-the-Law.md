@@ -1,7 +1,7 @@
 ---
 title: Within the Law
-date: 2023-09-08T00:00:00
-opening_date: 1932-04-29
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1932-04-29'
 closing_date:
 layout: productions
 program:
@@ -13,7 +13,6 @@ cast:
 - Helen Morris: Dorothy Black
 - William Irwin: Edward Goodman
 - Williams: Eugene LeaMond
-- Chicago Red: Harry Lewis
 - Edward Gilder: Isaac Peiser
 - Dan: J.W. Randolph
 - Mary Turner: Justine Rehnborg
@@ -27,6 +26,7 @@ cast:
 - Thomas: Sidney Clark
 - Smithson: Stokes Perry
 - Police Inspector Burke: F.W. Armbuster
+- Chicage Red: Harry Lewis
 crew:
 - Director: F.W. Armbuster
 understudies:

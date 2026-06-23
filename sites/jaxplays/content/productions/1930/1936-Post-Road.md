@@ -1,7 +1,7 @@
 ---
 title: Post Road
-date: 2023-09-08T00:00:00
-opening_date: 1936-11-17
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1936-11-17'
 closing_date:
 layout: productions
 program:
@@ -31,8 +31,7 @@ crew:
   - Mrs. J.H. Reineking
 - Staging:
   - Mrs. R.H.H. Blackwell
-  - Stokes Perry
 - Electrical Effects: Rudy Baacke
+- Staging Assistant: Stokes Perry
 orchestra:
 ---
-

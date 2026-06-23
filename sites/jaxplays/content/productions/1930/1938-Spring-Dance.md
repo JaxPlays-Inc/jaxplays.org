@@ -1,8 +1,8 @@
 ---
 title: Spring Dance
-date: 2023-09-08T00:00:00
-opening_date: 1938-04-26
-closing_date: 1938-04-28
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1938-04-26'
+closing_date: '1938-04-28'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -23,7 +23,9 @@ cast:
 crew:
 - Director: Iris K. Weeks
 - Lighting: Herbert Swisher
-- Lighting Assistant: Bob Wolfe
+- Lighting Assistant:
+  - Bob Wolfe
+  - Roy Hill
 - Make-up: William Pierce
 - Prop Assistant: Mrs. Wayne Perrine
 - Props: Maxine Swisher
@@ -32,6 +34,5 @@ crew:
   - Alec Pillsbury
   - Evelyn Haines
   - P.G. Camp
-  - Roy Hill
   - Roy Miezner
 ---

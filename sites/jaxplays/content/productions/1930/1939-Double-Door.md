@@ -1,8 +1,8 @@
 ---
 title: Double Door
-date: 2023-09-08T00:00:00
-opening_date: 1939-04-11
-closing_date: 1939-04-14
+date: '2026-06-16T01:15:05-04:00'
+opening_date: '1939-04-11'
+closing_date: '1939-04-14'
 layout: productions
 program:
 theatre: Theatre Jacksonville
@@ -27,6 +27,7 @@ crew:
 - Props: Mrs. Herbert Swisher
 - Staging:
   - P.G. Camp
+- Staging Assistant:
   - Forney Stafford
   - Joseph Azar
   - Paul Kruse
