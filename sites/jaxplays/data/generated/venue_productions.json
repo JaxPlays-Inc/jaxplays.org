@@ -19985,6 +19985,32 @@
   ],
   "the-island-theater": [
     {
+      "title": "Blithe Spirit",
+      "url": "/productions/2026-blithe-spirit/",
+      "contentPath": "productions/2026/2026-Blithe-Spirit",
+      "poster": "/media/posters/2026-Blithe-Spirit.webp",
+      "posterAlt": "Blithe Spirit poster",
+      "openingDate": "2026-09-18",
+      "closingDate": "2026-09-27",
+      "openingLabel": "Sep 18, 2026",
+      "openingMonthLabel": "September 2026",
+      "openingBadgeLabel": "Sep 18, 2026",
+      "closingLabel": "Sep 27, 2026",
+      "theatre": "The Island Theater",
+      "venues": [],
+      "allVenues": [
+        "The Island Theater"
+      ],
+      "genres": [
+        "Play",
+        "Comedy",
+        "Farce"
+      ],
+      "summary": "A seance accidentally summons Charles Condomine's mischievous first wife's ghost, creating chaos between the living and the dead.",
+      "tickets": "https://www.theislandtheater.com/event-details/blithe-spirit-2026-09-18-19-30",
+      "searchBase": "blithe spirit sep 18, 2026 sep 27, 2026 the island theater the island theater play comedy farce a seance accidentally summons charles condomine's mischievous first wife's ghost, creating chaos between the living and the dead."
+    },
+    {
       "title": "Anything Goes",
       "url": "/productions/2026-anything-goes/",
       "contentPath": "productions/2026/2026-Anything-Goes",
@@ -20005,9 +20031,9 @@
         "Musical",
         "Comedy"
       ],
-      "summary": "Cole Porter's shipboard musical comedy sends romance, mistaken identity, and tap-happy chaos onto the high seas.",
+      "summary": "Billy Crocker stows away on an ocean liner to win back Hope Harcourt, sparking a whirlwind of disguises, romance, mistaken identities, and laughs.",
       "tickets": "https://www.theislandtheater.com/event-details/anything-goes-2026-08-21-19-30",
-      "searchBase": "anything goes aug 21, 2026 aug 30, 2026 the island theater the island theater musical comedy cole porter's shipboard musical comedy sends romance, mistaken identity, and tap-happy chaos onto the high seas."
+      "searchBase": "anything goes aug 21, 2026 aug 30, 2026 the island theater the island theater musical comedy billy crocker stows away on an ocean liner to win back hope harcourt, sparking a whirlwind of disguises, romance, mistaken identities, and laughs."
     },
     {
       "title": "The 25th Annual Putnam County Spelling Bee",
@@ -22077,7 +22103,7 @@
       "title": "The Pirates of Penzance",
       "url": "/productions/2027-the-pirates-of-penzance/",
       "contentPath": "productions/2027/2027-The-Pirates-of-Penzance",
-      "poster": "/media/posters/2027-The-Pirates-of-Penzance.webp",
+      "poster": "/media/posters/2027-The-Pirates-of-Penzance.webp?v=114800",
       "posterAlt": "The Pirates of Penzance poster",
       "openingDate": "2027-02-03",
       "closingDate": "2027-02-03",
@@ -22133,7 +22159,7 @@
       "title": "Don Giovanni",
       "url": "/productions/2027-don-giovanni/",
       "contentPath": "productions/2027/2027-Don-Giovanni",
-      "poster": "/media/posters/2027-Don-Giovanni.webp",
+      "poster": "/media/posters/2027-Don-Giovanni.webp?v=114744",
       "posterAlt": "Don Giovanni poster",
       "openingDate": "2027-01-17",
       "closingDate": "2027-01-17",
@@ -22161,7 +22187,7 @@
       "title": "Menopause The Musical",
       "url": "/productions/2027-menopause-the-musical-25th-anniversary-tour/",
       "contentPath": "productions/2027/2027-Menopause-The-Musical-25th-Anniversary-Tour",
-      "poster": "/media/posters/2027-Menopause-The-Musical-25th-Anniversary-Tour.webp",
+      "poster": "/media/posters/2027-Menopause-The-Musical-25th-Anniversary-Tour.webp?v=114753",
       "posterAlt": "Menopause The Musical poster",
       "openingDate": "2027-01-14",
       "closingDate": "2027-01-14",
