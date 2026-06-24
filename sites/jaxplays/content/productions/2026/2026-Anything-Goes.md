@@ -3,7 +3,7 @@ title: "Anything Goes"
 theatre: The Island Theater
 venue: The Island Theater
 season: 2026
-date: 2026-06-07T20:22:26-04:00
+date: 2026-06-23T22:16:59-04:00
 opening_date: 2026-08-21
 closing_date: 2026-08-30
 showtimes:
@@ -49,15 +49,24 @@ cast:
       - Catherine Pakes
       - Emily Schneider
       - Erin Ruszkowski
+      - Grace Hamilton
+      - Lucien Sargent
 crew:
+  - Director: Trisha Williams
+  - Stage Manager: Marie Dvorak
+  - Choreographer: Allyson Norton
+  - Music Director: Karla Green
 understudies:
 orchestra:
 genres:
   - Musical
   - Comedy
-description: "Cole Porter's shipboard musical comedy sends romance, mistaken identity, and tap-happy chaos onto the high seas."
-source: The Island Theater event pages, event sitemap, and casting graphic
-source_date: 2026-06-07
-source_url: https://www.theislandtheater.com/event-details/anything-goes-2026-08-21-19-30
+description: "Billy Crocker stows away on an ocean liner to win back Hope Harcourt, sparking a whirlwind of disguises, romance, mistaken identities, and laughs."
+source: The Island Theater event pages, event sitemap, casting graphic, and JAX-5723 production form submission
+source_date: 2026-06-23
+source_url: https://linear.app/jaxplays/issue/JAX-5723/jaxplays-production-submission-anything-goes
 ---
-The Island Theater describes *Anything Goes* as Cole Porter's iconic musical on the high seas.
+Billy Crocker secretly boards an ocean liner to chase after Hope Harcourt, even though she is
+engaged to the wealthy Lord Evelyn Oakleigh. With help from nightclub singer Reno Sweeney and
+gangster Moonface Martin, the voyage turns into a fast-paced comedy of mistaken identities,
+disguises, tap-dancing sailors, and romantic confusion.
