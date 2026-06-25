@@ -3,7 +3,7 @@ title: The Phil Mitchell Radio Hour
 theatre: Noah Bennett
 venue: San Marco Church
 season: 2026
-date: 2026-06-04T15:20:00-04:00
+date: 2026-06-24T19:20:01-04:00
 opening_date: 2026-06-25
 closing_date: 2026-06-27
 showtimes:
@@ -16,7 +16,7 @@ featured_image_alt:
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
-program:
+program: 2026-The-Phil-Mitchell-Radio-Hour.pdf
 website: https://officialnoahbennett.com/the-phil-mitchell-radio-hour
 tickets: https://freshsqueezedmedia.ludus.com/show_page.php?show_id=200528577
 show_details:
@@ -44,7 +44,7 @@ source_urls:
 
 After debuting in Columbus, Ohio, the show has mounted performances in Georgia, North Carolina, and New York City. It was named a 2025 ArtsATL Critic's Pick during the Atlanta Fringe Festival and played a sold-out run at the 2026 Asheville Fringe Festival. Its Jacksonville run marks the show's Florida debut and its first site-specific performance inside the historic San Marco Church.
 
-### First Coast Connect: The Phil Mitchel Radio ----------
+### First Coast Connect: The Phil Mitchel Radio
 
 {{< youtube id="Cr5Bnrl3hP0" >}}
 
