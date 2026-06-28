@@ -3,7 +3,7 @@ title: And Then There Were None
 theatre: Amelia Community Theatre
 venue: ACT Main Stage
 season: 45
-date: 2026-06-03T23:18:00-04:00
+date: 2026-06-26T15:02:06-04:00
 opening_date: 2026-08-14
 closing_date: 2026-08-29
 showtimes:
@@ -28,16 +28,28 @@ tickets: https://app.arts-people.com/index.php?show=289045
 show_details:
   - Playwright: "[[w:Agatha Christie]]"
 cast:
+  - Mr. Rogers: Ron Price
+  - Mrs. Rogers: Mikenzie Paisley
+  - Vera Claythorne: Melissa Coon
+  - Philip Lombard: Patrick Van De Watering
+  - William Henry Blore: Anthony Pierce
+  - General MacKenzie: Bruce Gruber
+  - Emily Brent: Jennifer McCarthy
+  - Sir Lawrence Wargrave: Frank O'Donnell
+  - Dr. Edward Armstrong: Carlos Semidei
+  - Fred Narracott/Anthony Marston: Anthony Rodriguez
 crew:
 orchestra:
+photos:
+  - photo: 2026-And-Then-There-Were-None-01.webp
 genres:
   - Play
   - Mystery
   - Thriller
 description: Ten strangers are lured to a remote island, where murder and suspicion tighten around them in Agatha Christie's classic mystery.
-source: Amelia Community Theatre website and Arts People ticketing page
-source_date: 2026-06-03
-source_url: https://app.arts-people.com/index.php?show=289045
+source: Amelia Community Theatre website, Arts People ticketing page, and Facebook cast announcement
+source_date: 2026-06-26
+source_url: https://www.facebook.com/ameliacommunitytheatre/posts/1610404547760419/
 ---
 Ten strangers, each carrying a hidden past, arrive on a remote island at the invitation of an unseen host. One by one, they are killed according to a chilling nursery rhyme.
 
