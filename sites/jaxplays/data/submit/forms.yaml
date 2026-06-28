@@ -443,7 +443,7 @@ audition:
       type: text
       required: true
     - name: announcement_graphic
-      description: Featured image for announcement **([2:1 ratio, 1200×600px recommended](/social-media-aspect-ratios.webp))**
+      description: Featured image for announcement **([16:9 ratio, 1200×670px recommended](/social-media-aspect-ratios.webp))**
       label: Announcement Graphic
       type: file
       accept: image/png,image/jpeg,image/webp,application/pdf
