@@ -1,6 +1,6 @@
 ---
 title: "Artist Connection Theatre Announces 'The Addams Family' Auditions"
-date: 2026-06-23T22:29:38-04:00
+date: 2026-06-28T11:03:55-04:00
 authors:
 - JaxPlays
 show_reading_time: true
@@ -37,6 +37,16 @@ Auditioners will also cold read scenes from the script.
 *The Addams Family* is a comical feast that embraces the wackiness in every family. Wednesday Addams has grown up and fallen in love with a sweet, smart young man from a respectable family, a man her parents have never met. Wednesday confides in her father and begs him not to tell her mother, forcing Gomez Addams to keep a secret from Morticia. Everything changes on the night they host a dinner for Wednesday's "normal" boyfriend and his parents.
 
 ### Roles
+
+**Gomez Addams**
+Stage age: 35-55. Vocal range: Bb2-G4. A suave man of Spanish descent and an accent to match who adores his wife and children and takes immense pride in being an Addams. Gomez finds himself trapped between his daughter and his wife, being forced to hide Wednesday's big secret from Morticia. Strong singer with great comedic timing. Tango skills are a plus.
+
+Recommended songs: "Trapped," Gomez's "What If," or "Not Today."
+
+**Morticia Addams**
+Stage age: 35-55. Vocal range: G3-Bb5. The beautiful and mysterious head of the Addams family who believes strongly in family tradition. Morticia is unnerved thinking that Gomez is hiding something from her. She is a strong mover with multiple showstopping numbers. Tango skills are a plus.
+
+Recommended songs: "Secrets" or "Death Is Just Around the Corner."
 
 **Wednesday Addams**  
 Stage age: 18-22. Vocal range: A3-E5. The elder Addams child who falls in love with a "normal" boy. Wednesday is balancing her relationship with her strange family and her new love's normal family. She is compassionate, stubborn and strong-willed. Strong belter.
@@ -76,3 +86,6 @@ Recommended songs: Lucas's solo in "One Normal Night" or "Crazier Than You."
 
 **The Ancestors**  
 Stage age: 16+. All vocal ranges. The Addams ancestors from various eras serve as the chorus for the show and help bring the story to life. They will be featured singing and dancing throughout the show after being released from the family crypt. The production is seeking diverse actors with strong vocals and dancing abilities.
+
+
+**Editor's note: This audition notice has been updated to include the characters Gomez and Morticia. 
