@@ -1,8 +1,8 @@
 ---
 title: "Catalyst Theatre Launches in St. Augustine With 'The Great American Trailer Park Musical'"
-date: 2026-07-01T13:00:00-04:00
+date: 2026-07-01T12:00:00-04:00
 featured_image:
-  src: /media/photos/2026-Catalyst-Theatre-Launch-01.webp
+  src: /media/photos/2026-Catalyst-Theatre-Launch-01.webp?v=123644
 authors:
 - JaxPlays
 show_reading_time: true
