@@ -1,15 +1,21 @@
 ---
-title: Sara Beth Sohn
+title: Sara Sohn
 aliases: 
   - /people/sara-sohn
 other_names: 
- - Sara Sohn
-date: 2024-09-19T13:45:59-04:00
+ - Sara Beth Sohn
+date: 2026-07-09T22:37:23-04:00
 featured_image: Sara-Beth-Sohn.webp
-featured_image_attr: 
+featured_image_attr: Elizabeth Lennox
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
+headshot_gallery:
+  - image: Sara-Beth-Sohn-01.webp
+    image_attr:
+    image_attr_link:
+    image_alt:
+    image_caption:
 roles:
   - Actor
 socials:
@@ -19,10 +25,10 @@ socials:
   linkedin: 
   ibdb: 
   imdb:
-  website:
+  website: https://www.drsarasohn.com
 ---
-Her name is Sara Beth Sohn. Not Elizabeth—Beth. Sohn, after her father. She was so christened. She is innocent, and she will leave it to the audience to speak for her.
+Hi there! I love stories, whether they’re true, wildly fabricated, sung, spoken or lived. They’re how we make sense of ourselves, connect with one another and build community.
 
-She is passionate about performing and loves exploring the complexities of humanity through storytelling. Previously, she has been seen in [[production:2022 Ruthless]] as Eve at Players By The Sea, in the ensemble of *Sweeney Todd*, and as a millworker in *Working* at ABET.
+When I’m not on stage, I’m the owner of [Confident Pelvic Rehab](https://www.confidentpelvicrehab.com/), where I help people navigate some of life’s most personal experiences. Both my work and my love of theatre remind me that the stories we share are often what connect us most.
 
-Sara is also actively involved in local community organizations. Stay connected with her on Instagram: [@drsarasohn](https://www.instagram.com/drsarasohn)
+I’m grateful to call Jacksonville home. ❤️
