@@ -3,7 +3,7 @@ title: "The 25th Annual Putnam County Spelling Bee"
 theatre: The Island Theater
 venue: The Island Theater
 season: 2026
-date: 2026-06-07T20:22:26-04:00
+date: 2026-07-09T20:13:58-04:00
 opening_date: 2026-08-07
 closing_date: 2026-08-16
 showtimes:
@@ -17,7 +17,7 @@ showtimes:
   - 2026-08-15 14:00:00
   - 2026-08-15 19:30:00
   - 2026-08-16 14:00:00
-featured_image: 2026-The-25th-Annual-Putnam-County-Spelling-Bee.webp
+featured_image: 2026-The-25th-Annual-Putnam-County-Spelling-Bee.webp?v=201358
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
@@ -29,6 +29,7 @@ show_details:
   - Music and Lyrics: "[[w:William Finn]]"
   - Book: Rachel Sheinkin
   - Conceived by: Rebecca Feldman
+  - Production note: S.E.E. production; student-led with adult guidance
 cast:
   - Rona:
       - Kennedy Reeves
@@ -54,17 +55,31 @@ cast:
       - Alexander Ferrera
       - Logan Trevino
   - Marcy:
-      - Zoe Le
+      - Zoey Le
       - Leila Lyons
 crew:
+  - Director: Tricia Williams
+  - Student Director: Olivia Williams
+  - Music Director: Cash Belcher
+  - Student Stage Manager: Vannessa Sparow
+  - Assistant Student Stage Manager: AJ Magda
+  - Costume Mentor: Holly Husovic
+  - Student Costumes: Ansley Williams
+  - Prop Mentor: Missy Prosser
+  - Student Choreographers:
+      - Paul Ligon
+      - Samantha Antunez
+  - Student Publicity: Darla Hartzell
 understudies:
 orchestra:
 genres:
   - Musical
   - Comedy
 description: "An eccentric spelling bee becomes a tender, offbeat musical about pressure, awkwardness, and growing up."
-source: The Island Theater event pages, event sitemap, and casting graphics
-source_date: 2026-06-07
-source_url: https://www.theislandtheater.com/event-details/25th-putnam-county-spelling-bee-2026-08-07-19-30
+source: The Island Theater event pages, event sitemap, casting graphics, and JaxPlays production submission
+source_date: 2026-07-09
+source_urls:
+  - https://www.theislandtheater.com/event-details/25th-putnam-county-spelling-bee-2026-08-07-19-30
+  - https://linear.app/jaxplays/issue/JAX-5729/jaxplays-production-submission-the-25th-annual-putnam-county-spelling
 ---
 *The 25th Annual Putnam County Spelling Bee* turns a school competition into a sweetly chaotic musical comedy.

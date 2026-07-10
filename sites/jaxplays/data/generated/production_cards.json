@@ -30273,7 +30273,7 @@
     "title": "Puffs",
     "url": "/productions/2026-puffs/",
     "contentPath": "productions/2026/2026-Puffs",
-    "poster": "/media/posters/2026-Puffs.webp",
+    "poster": "/media/posters/2026-Puffs.webp?v=022755",
     "posterAlt": "Puffs poster",
     "openingDate": "2026-07-17",
     "closingDate": "2026-07-26",
@@ -30646,9 +30646,36 @@
   },
   {
     "title": "The 25th Annual Putnam County Spelling Bee",
+    "url": "/productions/2026-the-25th-annual-putnam-county-spelling-bee-1/",
+    "contentPath": "productions/2026/2026-The-25th-Annual-Putnam-County-Spelling-Bee-1",
+    "poster": "/media/posters/2026-The-25th-Annual-Putnam-County-Spelling-Bee-1.webp",
+    "posterAlt": "The 25th Annual Putnam County Spelling Bee poster",
+    "openingDate": "2026-07-07",
+    "closingDate": "2026-07-09",
+    "openingLabel": "Jul 7, 2026",
+    "openingMonthLabel": "July 2026",
+    "openingBadgeLabel": "Jul 7, 2026",
+    "closingLabel": "Jul 9, 2026",
+    "theatre": "Musical Theatre Ponte Vedra",
+    "venues": [
+      "Ponte Vedra High School Auditorium"
+    ],
+    "allVenues": [
+      "Ponte Vedra High School Auditorium"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy"
+    ],
+    "summary": "An eccentric spelling bee becomes a tender, offbeat musical about pressure, awkwardness and growing up.",
+    "tickets": "https://www.mtpv.org/ticketsregistration",
+    "searchBase": "the 25th annual putnam county spelling bee jul 7, 2026 jul 9, 2026 musical theatre ponte vedra ponte vedra high school auditorium musical comedy an eccentric spelling bee becomes a tender, offbeat musical about pressure, awkwardness and growing up."
+  },
+  {
+    "title": "The 25th Annual Putnam County Spelling Bee",
     "url": "/productions/2026-the-25th-annual-putnam-county-spelling-bee/",
     "contentPath": "productions/2026/2026-The-25th-Annual-Putnam-County-Spelling-Bee",
-    "poster": "/media/posters/2026-The-25th-Annual-Putnam-County-Spelling-Bee.webp",
+    "poster": "/media/posters/2026-The-25th-Annual-Putnam-County-Spelling-Bee.webp?v=201358",
     "posterAlt": "The 25th Annual Putnam County Spelling Bee poster",
     "openingDate": "2026-08-07",
     "closingDate": "2026-08-16",
