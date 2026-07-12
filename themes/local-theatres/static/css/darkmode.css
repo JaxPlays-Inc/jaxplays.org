@@ -513,9 +513,37 @@ body.dark-mode .dark-mode-icon {
 	/* filter: invert(1); */
 }
 
+.dark-mode .pagination {
+	background-color: transparent !important;
+}
+
+.dark-mode .pagination li a,
+.dark-mode .pagination li a:link,
+.dark-mode .pagination li a:active,
+.dark-mode .pagination li a:visited {
+	background-color: #000 !important;
+	border-color: #fff !important;
+	color: #fff !important;
+}
+
+.dark-mode .pagination li a:hover,
+.dark-mode .pagination li a:focus {
+	background-color: #222 !important;
+	color: #fff !important;
+}
+
+.dark-mode .pagination li.active a,
+.dark-mode .pagination li.active a:link,
+.dark-mode .pagination li.active a:active,
+.dark-mode .pagination li.active a:visited {
+	background-color: #fff !important;
+	border-color: #fff !important;
+	color: #000 !important;
+}
+
 .dark-mode .pagination li a span {
-	background-color: #fff;
-	color: #000;
+	background-color: transparent !important;
+	color: inherit !important;
 }
 
 /* Dark mode for the seating charts */
