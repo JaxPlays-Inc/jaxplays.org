@@ -2909,6 +2909,11 @@
     "permalink": "/people/darren-frazier/",
     "featured_image": ""
   },
+  "darvin-nelson": {
+    "title": "Darvin Nelson",
+    "permalink": "/people/darvin-nelson/",
+    "featured_image": "Darvin-Nelson-01.webp"
+  },
   "dave-adams": {
     "title": "Dave Adams",
     "permalink": "/people/dave-adams/",
@@ -10087,7 +10092,7 @@
   "phedre-delinois": {
     "title": "Phedre Delinois",
     "permalink": "/people/phedre-delinois/",
-    "featured_image": "Phedre-Delinois-02.webp"
+    "featured_image": "Phedre-Delinois-01.webp"
   },
   "phil-fitzpatrick": {
     "title": "Phil Fitzpatrick",
@@ -11577,7 +11582,7 @@
   "susan-roche": {
     "title": "Susan Roche",
     "permalink": "/people/susan-roche/",
-    "featured_image": "Susan-Roche-01.webp"
+    "featured_image": "Susan-Roche.webp"
   },
   "susie-mcrae": {
     "title": "Susie McRae",
@@ -12433,6 +12438,11 @@
     "title": "Zachary Jones",
     "permalink": "/people/zachary-jones/",
     "featured_image": "Zachary-Jones.webp"
+  },
+  "zachary-love": {
+    "title": "Zachary Love",
+    "permalink": "/people/zachary-love/",
+    "featured_image": "Zachary-Love.webp"
   },
   "zachary-pickett": {
     "title": "Zachary Pickett",

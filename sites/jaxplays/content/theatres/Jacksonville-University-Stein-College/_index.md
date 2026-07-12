@@ -7,8 +7,8 @@ featured_image: JU-Linda-Berry-Stein-College-of-Fine-Arts-Humanities.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-founded: 
-disbanded: 2025
+founded: 1961
+closed: 2025
 address: |
   2800 University Blvd N
   Jacksonville, FL 32211
