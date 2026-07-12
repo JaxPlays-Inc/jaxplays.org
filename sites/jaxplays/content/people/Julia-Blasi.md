@@ -1,20 +1,30 @@
 ---
 title: Julia Blasi
-date: 2024-08-11T14:17:08-04:00
-featured_image: Julia-Blasi.webp
-featured_image_attr: 
-featured_image_attr_link: 
-featured_image_alt: 
-featured_image_caption: 
+date: '2026-07-11T09:13:33-04:00'
+featured_image: Julia-Blasi-01.webp
+featured_image_attr: null
+featured_image_attr_link: null
+featured_image_alt: null
+featured_image_caption: null
+headshot_gallery:
+- image: Julia-Blasi.webp
+  image_attr: null
+  image_attr_link: null
+  image_alt: null
+  image_caption: null
 roles:
-  - Actor
+- Actor
 socials:
-  facebook: 
-  twitter: 
-  instagram: 
-  linkedin: 
-  ibdb: 
-  imdb:
-  website:
+  facebook: julia.blasi
+  twitter: null
+  instagram: Juliaguliabernanke
+  linkedin: null
+  ibdb: null
+  imdb: null
+  website: null
+source: Marquee Digital program
+source_date: '2026-07-11'
+source_urls:
+- https://www.marquee.digital/md/e-reccjc1esiqgcphxl
 ---
-Julia is a lifelong theatre lover, singer and actress. You may have recently seen Julia as Rosie in Traces in the Wind (Theatre Jacksonville), or as Cinderella in [[production:2024 Disenchanted|Disenchanted]] (ABET). Some of her other local credits include Sara in [[production:2023 Murder Ballad|Murder Ballad]] (ABET), Lucy in The Little Toy Shoppe (Jason Woods Productions), ensemble in [[production:2023 Pippin|Pippen]] (Theatre Jacksonville) and Alice Murphy in Bright Star (ABET). She would like to thank her friends, family, and her husband, Matt, for all of their love and support.
+Julia Blasi is a Northeast Florida actor and lifelong lover of the performing arts. Her favorite roles include Fanny Brice in [[production:2025 Funny Girl]], Beatrice in *Much Ado About Nothing*, Emma in [[production:2024: Jekyll & Hyde]], Alice Murphy in *Bright Star* and Cinderella in [[production:2024 Disenchanted]].
