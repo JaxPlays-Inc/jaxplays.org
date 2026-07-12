@@ -92,6 +92,10 @@
     padding-bottom: 1.5rem;
   }
 
+  .home-dashboard-hero.is-single-column {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .home-dashboard-kicker {
     color: var(--jp-red);
     font-size: .75rem;
@@ -558,7 +562,7 @@
 
 <div class="home-dashboard">
   <div class="home-dashboard-shell">
-    <section class="home-dashboard-hero" aria-labelledby="home-dashboard-title">
+    <section class="home-dashboard-hero{{ if eq (len $closingSoon) 0 }} is-single-column{{ end }}" aria-labelledby="home-dashboard-title">
       <div>
         <p class="home-dashboard-kicker">Northeast Florida & Southeast Georgia Theatre</p>
         <h1 id="home-dashboard-title" class="home-dashboard-title">Jacksonville theatre, tonight and beyond.</h1>
@@ -569,28 +573,28 @@
           <a class="home-dashboard-button home-dashboard-grow" href="/reviews/">Read Reviews</a>
         </div>
       </div>
-      <aside class="home-dashboard-panel" aria-labelledby="home-dashboard-closing">
-        <h2 id="home-dashboard-closing" class="home-dashboard-panel-title">Closing Soon</h2>
-        <div class="home-dashboard-hotlist">
-          {{ range first 4 $closingSoon }}
-            {{ $poster := .Params.featured_image }}
-            {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
-            <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
-              {{ if $poster }}
-                <img class="home-dashboard-thumb" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
-              {{ else }}
-                <img class="home-dashboard-thumb" src="/media/default/production_poster.webp" alt="{{ .Title }}">
-              {{ end }}
-              <span>
-                <strong>{{ .Title }}</strong>
-                <span class="home-dashboard-meta">{{ .Params.theatre }}<br>Closes {{ time.Format "Jan 2" (time $closingDate) }}</span>
-              </span>
-            </a>
-          {{ else }}
-            <p class="home-dashboard-meta">No productions are currently inside the closing-soon window.</p>
-          {{ end }}
-        </div>
-      </aside>
+      {{ if gt (len $closingSoon) 0 }}
+        <aside class="home-dashboard-panel" aria-labelledby="home-dashboard-closing">
+          <h2 id="home-dashboard-closing" class="home-dashboard-panel-title">Closing Soon</h2>
+          <div class="home-dashboard-hotlist">
+            {{ range first 4 $closingSoon }}
+              {{ $poster := .Params.featured_image }}
+              {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
+              <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
+                {{ if $poster }}
+                  <img class="home-dashboard-thumb" src="/media/posters/{{ $poster }}" alt="{{ .Title }}">
+                {{ else }}
+                  <img class="home-dashboard-thumb" src="/media/default/production_poster.webp" alt="{{ .Title }}">
+                {{ end }}
+                <span>
+                  <strong>{{ .Title }}</strong>
+                  <span class="home-dashboard-meta">{{ .Params.theatre }}<br>Closes {{ time.Format "Jan 2" (time $closingDate) }}</span>
+                </span>
+              </a>
+            {{ end }}
+          </div>
+        </aside>
+      {{ end }}
     </section>
 
     <section class="home-dashboard-section home-dashboard-production-section home-dashboard-ad-anchor" aria-labelledby="home-dashboard-now-playing">
