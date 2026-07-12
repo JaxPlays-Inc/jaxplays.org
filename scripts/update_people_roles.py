@@ -353,7 +353,15 @@ def as_string_list(value: Any) -> list[str]:
     if isinstance(value, str):
         return [value] if value.strip() else []
     if isinstance(value, list):
-        return [item for item in value if isinstance(item, str) and item.strip()]
+        items: list[str] = []
+        for item in value:
+            items.extend(as_string_list(item))
+        return items
+    if isinstance(value, dict):
+        items: list[str] = []
+        for item in value.values():
+            items.extend(as_string_list(item))
+        return items
     return []
 
 

@@ -3,13 +3,13 @@ title: "Something's Brewing: Coffee Cantata & Rita"
 theatre: First Coast Opera
 venue: Celebration Hall at St. Anastasia Catholic Church
 season: 2026
-date: 2026-07-12T17:35:07-04:00
+date: 2026-07-12T17:46:07-04:00
 opening_date: 2026-09-10
 closing_date: 2026-09-12
 showtimes:
   - 2026-09-10 18:00:00
   - 2026-09-12 14:00:00
-featured_image: Something-s-Brewing-Coffee-Cantata-and-Rita.jpg
+featured_image: 2026-Something-s-Brewing-Coffee-Cantata-and-Rita.webp
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
@@ -21,12 +21,14 @@ show_details:
   - Music: "[[w:Johann Sebastian Bach]] and [[w:Gaetano Donizetti]]"
   - Featured works: "*[[w:Schweigt stille, plaudert nicht|Coffee Cantata]]* and *[[w:Rita (opera)|Rita]]*"
 cast:
-  - Lieschen (Lisa) in Coffee Cantata: Cristina Bakhoum Sanchez
-  - Schlendrian in Coffee Cantata: Sean Christopher Stork
-  - Narrator in Coffee Cantata: Juan Carlos Tello
-  - Rita in Rita: Cristina Bakhoum Sanchez
-  - Beppe in Rita: Juan Carlos Tello
-  - Gasparo in Rita: Sean Christopher Stork
+  - Coffee Cantata:
+    - Lieschen (Lisa): Cristina Bakhoum Sanchez
+    - Schlendrian: Sean Christopher Stork
+    - Narrator: Juan Carlos Tello
+  - Rita:
+    - Rita: Cristina Bakhoum Sanchez
+    - Beppe: Juan Carlos Tello
+    - Gasparo: Sean Christopher Stork
 understudies:
 crew:
   - Director & Conductor: Curtis Tucker

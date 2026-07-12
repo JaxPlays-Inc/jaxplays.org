@@ -19,72 +19,16 @@
 
       {{ range where site.Pages "Type" "productions" }}
         {{/* Process cast */}}
-        {{ range .Params.cast }}
-          {{ range $role, $names := . }}
-            {{ if eq (printf "%T" $names) "string" }}
-              {{ $canonicalName := index $nameMap $names | default $names }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-            {{ else }}
-              {{ range $names }}
-                {{ $canonicalName := index $nameMap . | default . }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
+        {{ partial "allcredits-count-credit-items.html" (dict "items" .Params.cast "nameMap" $nameMap "scratch" $.Scratch) }}
 
         {{/* Process crew */}}
-        {{ range .Params.crew }}
-          {{ range $role, $names := . }}
-            {{ if eq (printf "%T" $names) "string" }}
-              {{ $canonicalName := index $nameMap $names | default $names }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-            {{ else }}
-              {{ range $names }}
-                {{ $canonicalName := index $nameMap . | default . }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
+        {{ partial "allcredits-count-credit-items.html" (dict "items" .Params.crew "nameMap" $nameMap "scratch" $.Scratch) }}
 
         {{/* Process understudies */}}
-        {{ range .Params.understudies }}
-          {{ range $role, $names := . }}
-            {{ if eq (printf "%T" $names) "string" }}
-              {{ $canonicalName := index $nameMap $names | default $names }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-            {{ else }}
-              {{ range $names }}
-                {{ $canonicalName := index $nameMap . | default . }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
+        {{ partial "allcredits-count-credit-items.html" (dict "items" .Params.understudies "nameMap" $nameMap "scratch" $.Scratch) }}
 
         {{/* Process orchestra */}}
-        {{ range .Params.orchestra }}
-          {{ range $role, $names := . }}
-            {{ if eq (printf "%T" $names) "string" }}
-              {{ $canonicalName := index $nameMap $names | default $names }}
-              {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-              {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-            {{ else }}
-              {{ range $names }}
-                {{ $canonicalName := index $nameMap . | default . }}
-                {{ $currentCount := index ($.Scratch.Get "allMap") $canonicalName | default 0 }}
-                {{ $.Scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
+        {{ partial "allcredits-count-credit-items.html" (dict "items" .Params.orchestra "nameMap" $nameMap "scratch" $.Scratch) }}
       {{ end }}
       
       {{ $allMap := $.Scratch.Get "allMap" }}
