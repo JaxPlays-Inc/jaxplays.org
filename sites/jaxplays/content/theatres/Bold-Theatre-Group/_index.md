@@ -8,7 +8,7 @@ featured_image_attr:
 featured_image_alt:
 featured_image_caption:
 founded: 2015
-disbanded: 2018
+closed: 2018
 socials:
   twitter: boldtheatre
   website: https://web.archive.org/web/20180312040411/http://boldtheatre.com/
