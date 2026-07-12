@@ -9,6 +9,18 @@
     {{ partial "func/GetDescription.html" . }}
     <meta name="description" content="{{ .Scratch.Get "finalDescription" }}">
     {{ hugo.Generator }}
+    <script>
+      (function () {
+        try {
+          var storedDarkMode = localStorage.getItem('darkMode');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+          if (storedDarkMode === 'enabled' || (prefersDark && storedDarkMode !== 'disabled')) {
+            document.documentElement.classList.add('dark-mode');
+          }
+        } catch (error) {}
+      })();
+    </script>
     {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
     {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
     {{ $public := not .Params.private }}
@@ -25,6 +37,7 @@
     {{ end -}}
 
     {{ partial "site-style.html" . }}
+    <link rel="stylesheet" href="/css/darkmode.css?v=141021">
     {{ partial "site-scripts.html" . }}
     
     {{ block "favicon" . }}
@@ -72,7 +85,6 @@
     <link rel="stylesheet" href="/lightbox2/src/css/lightbox.css">
 
     <script type="text/javascript" src="/js/darkmode.js"></script>
-    <link rel="stylesheet" href="/css/darkmode.css?v=020645">
     <script src="/js/fuse.js"></script> <!-- download and copy over fuse.js file from fusejs.io -->
     <script src="/js/fastsearch.js?v=032300"></script>
     <!-- Splide links --> 
