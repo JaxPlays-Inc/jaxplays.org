@@ -37,8 +37,8 @@
 .dark-mode .theatre-social-link,
 .dark-mode .theatre-social-link:hover,
 .dark-mode .theatre-social-link:focus {
-	background-color: #000 !important;
-	border-color: #000;
+	background-color: transparent !important;
+	border: 0;
 	color: #fff !important;
 }
 
