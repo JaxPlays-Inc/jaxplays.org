@@ -1,22 +1,29 @@
 ---
 title: Josh Waller
-date: 2024-06-17T14:04:19-04:00
-featured_image: Josh-Waller.webp
-featured_image_attr: 
-featured_image_attr_link: 
-featured_image_alt: 
-featured_image_caption: 
+date: '2026-07-11T09:13:33-04:00'
+featured_image: Josh-Waller-01.webp
+featured_image_attr: null
+featured_image_attr_link: null
+featured_image_alt: null
+featured_image_caption: null
+headshot_gallery:
+- image: Josh-Waller.webp
+  image_attr: null
+  image_attr_link: null
+  image_alt: null
+  image_caption: null
 roles:
-  - Actor
-  - Assistant Director
+- Actor
+- Assistant Director
+- Pianist
 socials:
   facebook: dramajosh.waller
-  twitter: 
-  instagram: 
-  linkedin: 
-  ibdb: 
+  twitter: null
+  instagram: dramajosh
+  linkedin: null
+  ibdb: null
   imdb: nm10761206
-  website: 
+  website: null
 press:
 - "Josh Waller: Interview with A Leading Male. | MetroJacksonville": https://web.archive.org/web/20091016013655/http://www.metrojacksonville.com/article/2009-oct-josh-waller-interview-with-a-leading-male
 ---

@@ -724,6 +724,11 @@
     "permalink": "/people/arden-milam/",
     "featured_image": ""
   },
+  "arielle-bryant": {
+    "title": "Arielle Bryant",
+    "permalink": "/people/arielle-bryant/",
+    "featured_image": "Arielle-Bryant.webp"
+  },
   "arlene-beach": {
     "title": "Arlene Beach",
     "permalink": "/people/arlene-beach/",
@@ -1337,6 +1342,11 @@
   "billy-ivey": {
     "title": "Billy Ivey",
     "permalink": "/people/billy-ivey/",
+    "featured_image": ""
+  },
+  "billy-lister": {
+    "title": "Billy Lister",
+    "permalink": "/people/billy-lister/",
     "featured_image": ""
   },
   "birsa-shepard": {
@@ -3244,6 +3254,11 @@
     "permalink": "/people/dineen-liriano/",
     "featured_image": "Dineen-Liriano.webp"
   },
+  "dirk-niedballa": {
+    "title": "Dirk Niedballa",
+    "permalink": "/people/dirk-niedballa/",
+    "featured_image": "Dirk-Niedballa.webp"
+  },
   "dixie-cohen": {
     "title": "Dixie Cohen",
     "permalink": "/people/dixie-cohen/",
@@ -4182,7 +4197,7 @@
   "evan-gould": {
     "title": "Evan Gould",
     "permalink": "/people/evan-gould/",
-    "featured_image": "Evan-Gould.webp"
+    "featured_image": "Evan-Gould-01.webp"
   },
   "eve-legrand": {
     "title": "Eve LeGrand",
@@ -4478,6 +4493,11 @@
     "title": "Garry Safford",
     "permalink": "/people/garry-safford/",
     "featured_image": ""
+  },
+  "gary-baker": {
+    "title": "Gary Baker",
+    "permalink": "/people/gary-baker/",
+    "featured_image": "Gary-Baker.webp"
   },
   "gary-lee-webber": {
     "title": "Gary Lee Webber",
@@ -5069,6 +5089,11 @@
     "permalink": "/people/heather-andrews/",
     "featured_image": ""
   },
+  "heather-goliber": {
+    "title": "Heather Goliber",
+    "permalink": "/people/heather-goliber/",
+    "featured_image": "Heather-Goliber.webp"
+  },
   "heather-mutchie": {
     "title": "Heather Mutchie",
     "permalink": "/people/heather-mutchie/",
@@ -5499,6 +5524,11 @@
     "permalink": "/people/jacob-pence/",
     "featured_image": "Jacob-Pence.webp"
   },
+  "jacob-pickering": {
+    "title": "Jacob Pickering",
+    "permalink": "/people/jacob-pickering/",
+    "featured_image": "Jacob-Pickering.webp"
+  },
   "jad-jordan": {
     "title": "Jad Jordan",
     "permalink": "/people/jad-jordan/",
@@ -5748,6 +5778,11 @@
     "title": "Jasmine Bruce",
     "permalink": "/people/jasmine-bruce/",
     "featured_image": ""
+  },
+  "jasmine-day-montgomery": {
+    "title": "Jasmine Day Montgomery",
+    "permalink": "/people/jasmine-day-montgomery/",
+    "featured_image": "Jasmine-Day-Montgomery.webp"
   },
   "jason-c-taylor": {
     "title": "Jason C. Taylor",
@@ -6002,12 +6037,12 @@
   "jennifer-obrien": {
     "title": "Jennifer O'Brien",
     "permalink": "/people/jennifer-obrien/",
-    "featured_image": "Jennifer-OBrien.webp"
+    "featured_image": "Jennifer-OBrien-01.webp"
   },
   "jennifer-o-brien": {
     "title": "Jennifer O'Brien",
     "permalink": "/people/jennifer-obrien/",
-    "featured_image": "Jennifer-OBrien.webp"
+    "featured_image": "Jennifer-OBrien-01.webp"
   },
   "jennifer-weitzel-berry": {
     "title": "Jennifer Weitzel Berry",
@@ -6529,6 +6564,11 @@
     "permalink": "/people/jonathan-kwock/",
     "featured_image": ""
   },
+  "jonathan-leonard": {
+    "title": "Jonathan Leonard",
+    "permalink": "/people/jonathan-leonard/",
+    "featured_image": "Jonathan-Leonard.webp"
+  },
   "jonathan-van-dyke": {
     "title": "Jonathan Van Dyke",
     "permalink": "/people/jonathan-van-dyke/",
@@ -6622,27 +6662,32 @@
   "josh-waller": {
     "title": "Josh Waller",
     "permalink": "/people/josh-waller/",
-    "featured_image": "Josh-Waller.webp"
+    "featured_image": "Josh-Waller-01.webp"
   },
   "joshua-abbott": {
     "title": "Joshua Abbott",
     "permalink": "/people/joshua-abbott/",
     "featured_image": ""
   },
+  "joshua-bond": {
+    "title": "Joshua Bond",
+    "permalink": "/people/joshua-bond/",
+    "featured_image": "Joshua-Bond.webp"
+  },
   "joshua-britton-andrews": {
     "title": "Joshua Britton Andrews",
     "permalink": "/people/joshua-britton-andrews/",
-    "featured_image": "Josh-Andrews-03.webp"
+    "featured_image": "Joshua-Britton-Andrews-01.webp"
   },
   "joshua-andrews": {
     "title": "Joshua Britton Andrews",
     "permalink": "/people/joshua-britton-andrews/",
-    "featured_image": "Josh-Andrews-03.webp"
+    "featured_image": "Joshua-Britton-Andrews-01.webp"
   },
   "josh-andrews": {
     "title": "Joshua Britton Andrews",
     "permalink": "/people/joshua-britton-andrews/",
-    "featured_image": "Josh-Andrews-03.webp"
+    "featured_image": "Joshua-Britton-Andrews-01.webp"
   },
   "joshua-kreis-mctiernan": {
     "title": "Joshua Kreis McTiernan",
@@ -6777,7 +6822,7 @@
   "julia-blasi": {
     "title": "Julia Blasi",
     "permalink": "/people/julia-blasi/",
-    "featured_image": "Julia-Blasi.webp"
+    "featured_image": "Julia-Blasi-01.webp"
   },
   "julia-c-tyler": {
     "title": "Julia C. Tyler",
@@ -8782,17 +8827,17 @@
   "mccall-camp": {
     "title": "McCall Camp",
     "permalink": "/people/mccall-camp/",
-    "featured_image": "McCall-Camp.webp"
+    "featured_image": "McCall-Camp-01.webp"
   },
   "mccall-shipley": {
     "title": "McCall Camp",
     "permalink": "/people/mccall-camp/",
-    "featured_image": "McCall-Camp.webp"
+    "featured_image": "McCall-Camp-01.webp"
   },
   "mccall-collard": {
     "title": "McCall Camp",
     "permalink": "/people/mccall-camp/",
-    "featured_image": "McCall-Camp.webp"
+    "featured_image": "McCall-Camp-01.webp"
   },
   "mckenna-slack": {
     "title": "McKenna Slack",
@@ -9532,7 +9577,7 @@
   "niki-stokes": {
     "title": "Niki Stokes",
     "permalink": "/people/niki-stokes/",
-    "featured_image": ""
+    "featured_image": "Niki-Stokes-01.webp"
   },
   "nikki-blue": {
     "title": "Nikki Blue",
@@ -10042,7 +10087,7 @@
   "phedre-delinois": {
     "title": "Phedre Delinois",
     "permalink": "/people/phedre-delinois/",
-    "featured_image": "Phedre-Delinois-01.webp"
+    "featured_image": "Phedre-Delinois-02.webp"
   },
   "phil-fitzpatrick": {
     "title": "Phil Fitzpatrick",
@@ -10248,6 +10293,11 @@
     "title": "Raquel Clory",
     "permalink": "/people/raquel-clory/",
     "featured_image": "Raquel-Clory.webp"
+  },
+  "rashawnda-campbell": {
+    "title": "Rashawnda Campbell",
+    "permalink": "/people/rashawnda-campbell/",
+    "featured_image": "Rashawnda-Campbell.webp"
   },
   "ray-halle": {
     "title": "Ray Halle",
@@ -11527,7 +11577,7 @@
   "susan-roche": {
     "title": "Susan Roche",
     "permalink": "/people/susan-roche/",
-    "featured_image": "Susan-Roche.webp"
+    "featured_image": "Susan-Roche-01.webp"
   },
   "susie-mcrae": {
     "title": "Susie McRae",
@@ -11614,6 +11664,11 @@
     "permalink": "/people/tad-wiggins/",
     "featured_image": ""
   },
+  "tai-mcclendon": {
+    "title": "Tai McClendon",
+    "permalink": "/people/tai-mcclendon/",
+    "featured_image": "Tai-McClendon.webp"
+  },
   "tamar-radandt-larsen": {
     "title": "Tamar Radandt Larsen",
     "permalink": "/people/tamar-radandt-larsen/",
@@ -11673,6 +11728,21 @@
     "title": "Teresa Harris",
     "permalink": "/people/teresa-harris/",
     "featured_image": "Teresa-Harris.webp"
+  },
+  "teri-tee-anthony": {
+    "title": "Teri (Tee) Anthony",
+    "permalink": "/people/teri-tee-anthony/",
+    "featured_image": "Teri-Tee-Anthony.webp"
+  },
+  "teri-anthony": {
+    "title": "Teri (Tee) Anthony",
+    "permalink": "/people/teri-tee-anthony/",
+    "featured_image": "Teri-Tee-Anthony.webp"
+  },
+  "tee-anthony": {
+    "title": "Teri (Tee) Anthony",
+    "permalink": "/people/teri-tee-anthony/",
+    "featured_image": "Teri-Tee-Anthony.webp"
   },
   "terri-castelli": {
     "title": "Terri Castelli",
