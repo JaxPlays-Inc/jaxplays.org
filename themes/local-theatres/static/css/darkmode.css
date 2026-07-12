@@ -1,5 +1,5 @@
 .dark-mode,
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(.dark-mode-icon):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(a):not(#searchInput):not(.nested-links):not(.pagination span):not(#lightbox):not(:is(input.om-inputs, div.om-button, div.bg-white, div.om-dtr-content, div.om-dtr-content *, div.bg-white *, #lightbox *)) {
 	background-color: #000;
 }
 
@@ -10,7 +10,7 @@
 .dark-mode .blindlink:visited,
 .dark-mode .om-text,
 .dark-mode .black:not(.dark-mode .black.bg-yellow),
-.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(#dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
+.dark-mode *:not(.home-dashboard):not(.home-dashboard *):not(.article-directory):not(.article-directory *):not(.theatres-directory):not(.theatres-directory *):not(.productions-directory):not(.productions-directory *):not(.calendar-directory):not(.calendar-directory *):not(.dark-mode-icon):not(a):not(.nested-links):not(.pagination span):not(#fastSearch *):not(#secondSearch *):not(.bg-yellow *):not(#secondSearchInput):not(input.om-inputs):not(div.om-dtr-content)
 {
 	color: #fff !important;
 }
@@ -520,7 +520,8 @@
 
 body.dark-mode .dark-mode-icon {
 	background-image: url("/css/sun-icon.svg");
-	filter: invert(1);
+	/* background-color: #000 !important; */
+	/* filter: invert(1); */
 }
 
 .dark-mode .pagination li a span {
