@@ -31,6 +31,17 @@
 	background-color: #333;
 }
 
+.dark-mode .profile-social-link,
+.dark-mode .profile-social-link:hover,
+.dark-mode .profile-social-link:focus,
+.dark-mode .theatre-social-link,
+.dark-mode .theatre-social-link:hover,
+.dark-mode .theatre-social-link:focus {
+	background-color: #000 !important;
+	border-color: #000;
+	color: #fff !important;
+}
+
 .dark-mode .home-dashboard,
 .dark-mode .home-dashboard * {
 	background-color: transparent;
