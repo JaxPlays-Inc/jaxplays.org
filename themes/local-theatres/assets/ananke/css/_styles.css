@@ -767,7 +767,7 @@ h1 a.jaxplayslogo {
 .theatre-social-links {
 	--theatre-single-action-size: 2.5rem;
 	--theatre-single-action-gap: calc(var(--theatre-single-action-size) * .25);
-	--theatre-single-action-icon-size: calc(var(--theatre-single-action-size) * .6);
+	--theatre-single-action-icon-size: var(--theatre-single-action-size);
 	align-items: center;
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -777,8 +777,8 @@ h1 a.jaxplayslogo {
 .profile-social-link,
 .theatre-social-link {
 	align-items: center;
-	background: #fff;
-	border: 1px solid rgba(0, 0, 0, .28);
+	background: transparent;
+	border: 0;
 	box-shadow: none;
 	color: #181818;
 	display: inline-flex;
@@ -794,9 +794,8 @@ h1 a.jaxplayslogo {
 .profile-social-link:focus,
 .theatre-social-link:hover,
 .theatre-social-link:focus {
-	background: #181818;
-	border-color: #181818;
-	color: #fff;
+	background: transparent;
+	color: #181818;
 	fill: currentColor;
 }
 
