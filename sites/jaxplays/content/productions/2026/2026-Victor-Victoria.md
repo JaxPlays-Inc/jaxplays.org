@@ -87,7 +87,7 @@ crew:
   - Emma Henderson
 - Sound Editing: Susan Roche
 - Performance Tracks: David Cohen
-- Lighting Design: Golden Stage Productions
+- Lighting Design: GoldenStage Productions
 - Light Board & Projections Operator: Katie Cress
 - Sound Board Operator: Susan Roche
 - Graphic Designer & Production Photography: Josh Andrews
@@ -130,3 +130,15 @@ Based on Blake Edwards' beloved film, *Victor/Victoria* is a stylish musical com
 * "Chicago, Illinois" – Norma & The Girls
 * "Living in the Shadows" – Victoria
 * "Victor/Victoria" – Victoria, Toddy & Company
+
+### Arts Collective Theatre Opens with 'Victor/Victoria' | River City Live - News4Jax
+
+{{< youtube 2EZKuMDT5B4 >}}
+
+### Arts Collective Theatre presents 'Victor/Victoria' | First Coast Connect - WJCT News 89.9
+
+{{< youtube CMvFROh8CX8 >}}
+
+### Arts Collective Theatre Opens with the Musical 'Victor/Victoria' | First Coast Living - First Coast News
+
+{{< youtube ltBzzRhIVlI >}}
