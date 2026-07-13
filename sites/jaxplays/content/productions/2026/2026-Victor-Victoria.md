@@ -74,7 +74,7 @@ crew:
 - Musical Director: Ben Beck
 - Costume Designer: Dirk Niedballa
 - Dance Captain: Arielle Bryant
-- Backdrop Designers:
+- Digital Scenic Design:
   - Franklin Ritch
   - Britt McTammany
 - Props:
@@ -87,6 +87,7 @@ crew:
   - Emma Henderson
 - Sound Editing: Susan Roche
 - Performance Tracks: David Cohen
+- Lighting Design: Golden Stage Productions
 - Light Board & Projections Operator: Katie Cress
 - Sound Board Operator: Susan Roche
 - Graphic Designer & Production Photography: Josh Andrews
