@@ -408,30 +408,30 @@
 (dict "title" "Understudies" "items" .Params.understudies)
 (dict "title" "Orchestra" "items" .Params.orchestra)
 }}
-{{ $paramsArray := $creditSection.items }}
-{{ if $paramsArray }}
-<div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
-  <h3 class="f3 mt4 mb4 sectionline">{{ $creditSection.title }}</h3>
-  <div class="cast-array-wrapper production-credit-wrapper">
-    <div class="scroll-cast production-credit-strip">
-      {{ range $paramsArray }}
-      {{ range $roleOrCharOrInst, $person := . }}
-      {{ if (eq (printf "%T" $person) "[]interface {}") }}
-      {{ range $idx, $p := $person }}
-                    {{ $output := partial "findPerson.html" (dict "urlName" $p "site" $site "showImage" "true" "isArray" true "creditLabel" $roleOrCharOrInst) }}
-      {{ $output := chomp $output }}
-      {{ $output | safeHTML }}
-      {{ end }}
-      {{ else }}
-                  {{ $output := partial "findPerson.html" (dict "urlName" $person "site" $site "showImage" "true" "isArray" false "creditLabel" $roleOrCharOrInst) }}
-      {{ $output := chomp $output }}
-      {{ $output | safeHTML }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</div>
+	{{ $paramsArray := $creditSection.items }}
+	{{ if $paramsArray }}
+	{{ $hasCreditGroups := false }}
+	{{ range $paramsArray }}
+	{{ if reflect.IsMap . }}
+	{{ range $value := . }}
+	{{ if eq (printf "%T" $value) "[]interface {}" }}
+	{{ range $entry := $value }}
+	{{ if reflect.IsMap $entry }}
+	{{ $hasCreditGroups = true }}
+	{{ end }}
+	{{ end }}
+	{{ end }}
+	{{ end }}
+	{{ end }}
+	{{ end }}
+	<div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
+	  <h3 class="f3 mt4 mb4 sectionline">{{ $creditSection.title }}</h3>
+	  <div class="cast-array-wrapper production-credit-wrapper">
+	    <div class="scroll-cast production-credit-strip{{ if $hasCreditGroups }} production-credit-group-list{{ end }}">
+	      {{ partial "production-credit-items.html" (dict "items" $paramsArray "site" $site) }}
+	    </div>
+	  </div>
+	</div>
 {{ end }}
 {{ end }}
 
@@ -448,6 +448,24 @@
 
   .production-credit-strip {
     align-items: center;
+  }
+
+  .production-credit-group-list {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .production-credit-group {
+    width: 100%;
+  }
+
+  .production-credit-group-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 1.25rem;
+    text-align: left;
   }
 
   .production-credit-person {

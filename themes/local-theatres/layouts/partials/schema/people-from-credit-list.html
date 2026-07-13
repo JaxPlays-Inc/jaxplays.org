@@ -24,7 +24,21 @@
           {{- else -}}
             {{- with $value -}}
               {{- range . -}}
-                {{- $names = $names | append (printf "%v" .) -}}
+                {{- if reflect.IsMap . -}}
+                  {{- range $nestedRole, $nestedValue := . -}}
+                    {{- if eq (printf "%T" $nestedValue) "string" -}}
+                      {{- $names = $names | append $nestedValue -}}
+                    {{- else -}}
+                      {{- with $nestedValue -}}
+                        {{- range . -}}
+                          {{- $names = $names | append (printf "%v" .) -}}
+                        {{- end -}}
+                      {{- end -}}
+                    {{- end -}}
+                  {{- end -}}
+                {{- else -}}
+                  {{- $names = $names | append (printf "%v" .) -}}
+                {{- end -}}
               {{- end -}}
             {{- end -}}
           {{- end -}}

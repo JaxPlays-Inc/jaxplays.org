@@ -1,0 +1,31 @@
+{{- $scratch := .scratch -}}
+{{- $nameMap := .nameMap -}}
+{{- range .items -}}
+  {{- if reflect.IsMap . -}}
+    {{- range $names := . -}}
+      {{- if eq (printf "%T" $names) "string" -}}
+        {{- $canonicalName := index $nameMap $names | default $names -}}
+        {{- $currentCount := index ($scratch.Get "allMap") $canonicalName | default 0 -}}
+        {{- $scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) -}}
+      {{- else if reflect.IsMap $names -}}
+        {{- partial "allcredits-count-credit-items.html" (dict "items" (slice $names) "nameMap" $nameMap "scratch" $scratch) -}}
+      {{- else -}}
+        {{- range $names -}}
+          {{- if reflect.IsMap . -}}
+            {{- partial "allcredits-count-credit-items.html" (dict "items" (slice .) "nameMap" $nameMap "scratch" $scratch) -}}
+          {{- else -}}
+            {{- $name := printf "%v" . -}}
+            {{- $canonicalName := index $nameMap $name | default $name -}}
+            {{- $currentCount := index ($scratch.Get "allMap") $canonicalName | default 0 -}}
+            {{- $scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $name := printf "%v" . -}}
+    {{- $canonicalName := index $nameMap $name | default $name -}}
+    {{- $currentCount := index ($scratch.Get "allMap") $canonicalName | default 0 -}}
+    {{- $scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) -}}
+  {{- end -}}
+{{- end -}}

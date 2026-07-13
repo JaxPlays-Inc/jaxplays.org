@@ -154,7 +154,15 @@ def as_string_list(value: Any) -> list[str]:
     if isinstance(value, str):
         return [value] if value.strip() else []
     if isinstance(value, list):
-        return [item for item in value if isinstance(item, str) and item.strip()]
+        items: list[str] = []
+        for item in value:
+            items.extend(as_string_list(item))
+        return items
+    if isinstance(value, dict):
+        items: list[str] = []
+        for item in value.values():
+            items.extend(as_string_list(item))
+        return items
     return []
 
 
@@ -655,6 +663,28 @@ def add_credit(
     entries.append({**production, "credits": [credit]})
 
 
+def iter_credit_people(credits: Any) -> list[tuple[str, str]]:
+    people_credits: list[tuple[str, str]] = []
+    if not isinstance(credits, list):
+        return people_credits
+
+    for credit_item in credits:
+        if not isinstance(credit_item, dict):
+            continue
+        for credit, people in credit_item.items():
+            has_nested_credits = isinstance(people, dict) or (
+                isinstance(people, list) and any(isinstance(item, dict) for item in people)
+            )
+            if has_nested_credits:
+                nested = people if isinstance(people, list) else [people]
+                people_credits.extend(iter_credit_people(nested))
+                continue
+            for person in as_string_list(people):
+                people_credits.append((str(credit), person))
+
+    return people_credits
+
+
 def collect_credits(
     productions_dir: Path,
     name_lookup: dict[str, str],
@@ -676,25 +706,19 @@ def collect_credits(
             continue
         for credit_type in CREDIT_TYPES:
             credits = data.get(credit_type) or []
-            if not isinstance(credits, list):
-                continue
-            for credit_item in credits:
-                if not isinstance(credit_item, dict):
+            for credit, person in iter_credit_people(credits):
+                canonical = name_lookup.get(normalize_name(person))
+                if not canonical:
+                    unmatched += 1
                     continue
-                for credit, people in credit_item.items():
-                    for person in as_string_list(people):
-                        canonical = name_lookup.get(normalize_name(person))
-                        if not canonical:
-                            unmatched += 1
-                            continue
-                        add_credit(
-                            people_credits,
-                            canonical,
-                            credit_type,
-                            production,
-                            str(credit),
-                        )
-                        matched += 1
+                add_credit(
+                    people_credits,
+                    canonical,
+                    credit_type,
+                    production,
+                    credit,
+                )
+                matched += 1
 
     return matched, unmatched
 

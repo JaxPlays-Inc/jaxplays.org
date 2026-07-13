@@ -1,0 +1,51 @@
+{{- $site := .site -}}
+{{- range .items -}}
+  {{- if reflect.IsMap . -}}
+    {{- range $creditLabel, $value := . -}}
+      {{- $valueType := printf "%T" $value -}}
+      {{- if eq $valueType "[]interface {}" -}}
+        {{- $hasNestedCredits := false -}}
+        {{- range $entry := $value -}}
+          {{- if reflect.IsMap $entry -}}
+            {{- $hasNestedCredits = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $hasNestedCredits -}}
+          <div class="production-credit-group">
+            <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
+            <div class="scroll-cast production-credit-strip">
+              {{- partial "production-credit-items.html" (dict "items" $value "site" $site) -}}
+            </div>
+          </div>
+        {{- else -}}
+          {{- range $p := $value -}}
+            {{- $personName := printf "%v" $p | strings.TrimSpace -}}
+            {{- if and $personName (ne $personName "<nil>") -}}
+              {{- $output := partial "findPerson.html" (dict "urlName" $personName "site" $site "showImage" "true" "isArray" true "creditLabel" $creditLabel) -}}
+              {{- chomp $output | safeHTML -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- else if reflect.IsMap $value -}}
+        <div class="production-credit-group">
+          <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
+          <div class="scroll-cast production-credit-strip">
+            {{- partial "production-credit-items.html" (dict "items" (slice $value) "site" $site) -}}
+          </div>
+        </div>
+      {{- else -}}
+        {{- $personName := printf "%v" $value | strings.TrimSpace -}}
+        {{- if and $personName (ne $personName "<nil>") -}}
+          {{- $output := partial "findPerson.html" (dict "urlName" $personName "site" $site "showImage" "true" "isArray" false "creditLabel" $creditLabel) -}}
+          {{- chomp $output | safeHTML -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $personName := printf "%v" . | strings.TrimSpace -}}
+    {{- if and $personName (ne $personName "<nil>") -}}
+      {{- $output := partial "findPerson.html" (dict "urlName" $personName "site" $site "showImage" "true" "isArray" false) -}}
+      {{- chomp $output | safeHTML -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
