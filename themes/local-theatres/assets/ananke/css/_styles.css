@@ -644,6 +644,11 @@ h1 a.jaxplayslogo {
 	object-fit: contain;
 }
 
+.theatre-single-logo[src*="Celebration-Hall-at-St-Anastasia.webp"],
+.theatres-directory-logo[src*="Celebration-Hall-at-St-Anastasia.webp"] {
+	filter: brightness(0);
+}
+
 .theatre-single-intro {
 	align-items: center;
 	align-self: stretch;
