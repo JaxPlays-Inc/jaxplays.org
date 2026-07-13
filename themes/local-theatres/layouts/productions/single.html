@@ -611,6 +611,39 @@
           </span>
           {{ end }}
         </a>
+      {{ else if and $isRemoteProgram (or (in $program "www.marquee.digital") (in $program "marquee.digital")) }}
+        {{ $programImage := "" }}
+        {{ with try (resources.GetRemote $program) }}
+          {{ with .Err }}
+            {{ warnf "Unable to fetch Marquee program metadata for %s: %s" $program . }}
+          {{ else with .Value }}
+            {{ $matches := findRESubmatch `(?is)<div[^>]*class=["'][^"']*\bposter-div\b[^"']*["'][^>]*>.*?<img[^>]+src=["']([^"']+)["']` .Content 1 }}
+            {{ with index $matches 0 }}
+              {{ $programImage = index . 1 }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if $programImage }}
+          {{ if hasPrefix $programImage "//" }}
+            {{ $programImage = printf "https:%s" $programImage }}
+          {{ else if hasPrefix $programImage "/" }}
+            {{ $programOrigin := replaceRE `^(https?://[^/]+).*$` "$1" $program }}
+            {{ $programImage = printf "%s%s" $programOrigin $programImage }}
+          {{ else if not (or (hasPrefix $programImage "http://") (hasPrefix $programImage "https://")) }}
+            {{ $programBase := replaceRE `[?#].*$` "" $program }}
+            {{ $programDir := replaceRE `/[^/]*$` "/" $programBase }}
+            {{ $programImage = printf "%s%s" $programDir $programImage }}
+          {{ end }}
+        {{ end }}
+        <a href="{{ $program }}" target="_blank" rel="noopener" class="program-preview-link link color-inherit">
+          {{ if $programImage }}
+          <img class="program-preview-image" src="{{ $programImage }}" alt="{{ .Title }} program cover">
+          {{ else }}
+          <span class="program-preview-fallback ba b--black-10 bg-white db pa3 tc">
+            View Program
+          </span>
+          {{ end }}
+        </a>
       {{ else }}
         <p class="mt3">
           {{/* <a href="/media/programs/{{ .Params.program }}" target="_blank" class="link underline-hover">
