@@ -1,6 +1,6 @@
 ---
 title: Victor/Victoria
-date: '2026-07-11T15:10:15-04:00'
+date: '2026-07-12T20:24:37-04:00'
 featured_image: 2026-Victor-Victoria.webp
 featured_image_attr:
 featured_image_attr_link:
@@ -74,7 +74,7 @@ crew:
 - Musical Director: Ben Beck
 - Costume Designer: Dirk Niedballa
 - Dance Captain: Arielle Bryant
-- Backdrop Designers:
+- Digital Scenic Design:
   - Franklin Ritch
   - Britt McTammany
 - Props:
@@ -87,6 +87,7 @@ crew:
   - Emma Henderson
 - Sound Editing: Susan Roche
 - Performance Tracks: David Cohen
+- Lighting Design: GoldenStage Productions
 - Light Board & Projections Operator: Katie Cress
 - Sound Board Operator: Susan Roche
 - Graphic Designer & Production Photography: Josh Andrews
@@ -105,3 +106,39 @@ description: Arts Collective Theatre brings Victor/Victoria to the stage, a spar
 In 1930s Paris, a struggling soprano named Victoria Grant finds an outrageous route to stardom: with the help of a cabaret performer, she reinvents herself as Count Victor Grazinski, a man performing as a woman. The act is a sensation, but the masquerade grows deliciously complicated when romance, fame and suspicion all collide under the nightclub lights.
 
 Based on Blake Edwards' beloved film, *Victor/Victoria* is a stylish musical comedy about identity, ambition and the courage to become exactly who you are. With a score by Henry Mancini and Leslie Bricusse, the show blends backstage glamour, farce and heart into a fizzy theatrical celebration of reinvention.
+
+### Musical Numbers
+
+#### Act I
+
+* "Paris by Night" – Toddy & Les Boys
+* "If I Were a Man" – Victoria
+* "Trust Me" – Toddy & Victoria
+* "[[w:Le Jazz Hot!]]" – Victor and Ensemble
+* "The Tango" – Victor & Norma
+* "Paris Makes Me Horny" – Norma
+* "Crazy World" – Victoria
+
+#### Act II
+
+* "Louis Says" – Victor & Ensemble
+* "King's Dilemma" – King
+* "Apache" – Les Boys
+* "You & Me" – Toddy and Victor
+* "Paris by Night (Reprise)" – Street Singer
+* "Almost a Love Song" – King and Victoria
+* "Chicago, Illinois" – Norma & The Girls
+* "Living in the Shadows" – Victoria
+* "Victor/Victoria" – Victoria, Toddy & Company
+
+### Arts Collective Theatre Opens with 'Victor/Victoria' | River City Live - News4Jax
+
+{{< youtube 2EZKuMDT5B4 >}}
+
+### Arts Collective Theatre presents 'Victor/Victoria' | First Coast Connect - WJCT News 89.9
+
+{{< youtube CMvFROh8CX8 >}}
+
+### Arts Collective Theatre Opens with the Musical 'Victor/Victoria' | First Coast Living - First Coast News
+
+{{< youtube ltBzzRhIVlI >}}
