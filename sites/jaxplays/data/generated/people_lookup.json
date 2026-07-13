@@ -1679,6 +1679,16 @@
     "permalink": "/people/britt-corry/",
     "featured_image": "Britt-Corry.webp"
   },
+  "britt-mctammany": {
+    "title": "Britt McTammany",
+    "permalink": "/people/britt-mctammany/",
+    "featured_image": "Britt-McTammany.webp"
+  },
+  "britt-thomas-mctammany": {
+    "title": "Britt McTammany",
+    "permalink": "/people/britt-mctammany/",
+    "featured_image": "Britt-McTammany.webp"
+  },
   "bronston-cass": {
     "title": "Bronston Cass",
     "permalink": "/people/bronston-cass/",
@@ -2757,7 +2767,7 @@
   "curtis-tucker": {
     "title": "Curtis Tucker",
     "permalink": "/people/curtis-tucker/",
-    "featured_image": "Curtis-Tucker-01.webp"
+    "featured_image": "Curtis-Tucker.webp"
   },
   "cy-barnert": {
     "title": "Cy Barnert",
