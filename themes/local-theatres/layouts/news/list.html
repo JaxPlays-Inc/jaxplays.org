@@ -40,6 +40,7 @@
       "url" .RelPermalink
       "section" (.CurrentSection.Title | default (.Section | humanize))
       "isReview" (eq .Section "reviews")
+      "isAdvertisement" (or (eq .Params.advertisement true) (eq .Params.sponsored true))
       "image" $image
       "imageAlt" ($imageMeta.alt | default .Title)
       "dateLabel" $dateLabel
@@ -165,6 +166,9 @@
         const body = createElement('div', 'article-card-body article-directory-card-body');
         const badges = createElement('div', 'article-card-badges article-directory-badges');
         badges.append(createElement('span', `article-card-badge article-directory-badge${article.isReview ? ' article-directory-badge--review' : ''}`, article.section));
+        if (article.isAdvertisement) {
+          badges.append(createElement('span', 'article-card-badge article-directory-badge article-directory-badge--advertisement', 'Advertisement'));
+        }
 
         const titleLink = createElement('a', 'article-card-link article-directory-card-link');
         titleLink.href = article.url;

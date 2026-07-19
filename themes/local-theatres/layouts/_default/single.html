@@ -10,6 +10,7 @@
   {{- $featuredImageSize := $featuredImageMeta.size | default "full" | urlize -}}
   {{- $description := .Params.description -}}
   {{- $showReadingStats := or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) -}}
+  {{- $isAdvertisement := or (eq .Params.advertisement true) (eq .Params.sponsored true) -}}
 
   <div class="infinite-scroll-post-block article-single">
     <article class="main-content article-single-article" data-url="{{ .RelPermalink }}" data-title="{{ .Title }}">
@@ -17,7 +18,12 @@
         <header class="article-single-hero{{ if $showFeaturedImage }} article-single-hero--media{{ end }}">
           <div class="article-single-hero-copy">
             {{ with .CurrentSection }}
-              <a href="{{ .RelPermalink }}" class="article-single-kicker">{{ .Title }}</a>
+              <div class="article-single-kickers">
+                <a href="{{ .RelPermalink }}" class="article-single-kicker">{{ .Title }}</a>
+                {{ if $isAdvertisement }}
+                  <span class="article-single-advertisement-pill">Advertisement</span>
+                {{ end }}
+              </div>
             {{ end }}
 
             <h1 class="article-single-title">{{- .Title -}}</h1>

@@ -1558,6 +1558,14 @@ h1 a.jaxplayslogo {
 	background: var(--jp-red);
 }
 
+.article-directory-badge--advertisement,
+.article-card-badge--advertisement,
+.article-single-advertisement-pill {
+	background: #f2c94c;
+	border: 1px solid rgba(0, 0, 0, .12);
+	color: #201600;
+}
+
 .article-directory-card-link {
 	display: inline-block;
 	position: relative;
@@ -1639,14 +1647,32 @@ h1 a.jaxplayslogo {
 	width: 100%;
 }
 
+.article-single-kickers {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	margin-bottom: .75rem;
+}
+
 .article-single-kicker {
 	color: var(--jp-red);
 	display: inline-block;
 	font-size: .75rem;
 	font-weight: 700;
 	line-height: 1;
-	margin-bottom: .75rem;
 	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.article-single-advertisement-pill {
+	border-radius: 999px;
+	display: inline-block;
+	font-size: .72rem;
+	font-weight: 700;
+	letter-spacing: .04em;
+	line-height: 1;
+	padding: .35rem .5rem;
 	text-transform: uppercase;
 }
 
