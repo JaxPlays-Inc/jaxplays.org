@@ -21,6 +21,9 @@
     </a>
     <div class="article-card-body home-dashboard-story-body">
       <span class="article-card-badge home-dashboard-badge">{{ humanize $page.Section }}</span>
+      {{ if or (eq $page.Params.advertisement true) (eq $page.Params.sponsored true) }}
+        <span class="article-card-badge article-card-badge--advertisement home-dashboard-badge">Advertisement</span>
+      {{ end }}
       <a class="article-card-link home-dashboard-story-link" href="{{ $page.RelPermalink }}">
         <strong class="article-card-title home-dashboard-story-title">{{ $page.Title }}</strong>
       </a>
@@ -54,6 +57,9 @@
     <div class="article-card-body article-directory-card-body">
       <div class="article-card-badges article-directory-badges">
         <span class="article-card-badge article-directory-badge{{ if eq $page.Section "reviews" }} article-directory-badge--review{{ end }}">{{ $page.CurrentSection.Title | default ($page.Section | humanize) }}</span>
+        {{ if or (eq $page.Params.advertisement true) (eq $page.Params.sponsored true) }}
+          <span class="article-card-badge article-directory-badge article-directory-badge--advertisement">Advertisement</span>
+        {{ end }}
       </div>
       <a class="article-card-link article-directory-card-link" href="{{ $page.RelPermalink }}">
         <strong class="article-card-title article-directory-card-title">{{ $page.Title }}</strong>
