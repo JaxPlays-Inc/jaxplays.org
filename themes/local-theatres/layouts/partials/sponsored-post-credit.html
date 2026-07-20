@@ -1,0 +1,12 @@
+{{- $isSponsoredPost := or (eq .Params.advertisement true) (eq .Params.sponsored true) (eq .Params.sponsored_post true) -}}
+{{- if $isSponsoredPost -}}
+  {{- $featuredImageMeta := partial "func/GetFeaturedImageMeta.html" . -}}
+  {{- $creditName := $featuredImageMeta.attr -}}
+  {{- $creditURL := $featuredImageMeta.attr_link -}}
+  {{- with $creditName -}}
+    <p class="i article-single-sponsored-post-credit">
+      Post sponsored by
+      {{- if $creditURL }} <a href="{{ $creditURL }}">{{ . }}</a>{{ else }} {{ . }}{{ end -}}.
+    </p>
+  {{- end -}}
+{{- end -}}
