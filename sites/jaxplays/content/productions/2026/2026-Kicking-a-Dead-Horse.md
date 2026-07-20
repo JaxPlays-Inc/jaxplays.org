@@ -18,7 +18,12 @@ tickets: https://lightworks.ludus.com/index.php
 show_details:
   - Playwright: "[[w:Sam Shepard]]"
 cast:
+  - Hobart Struther: Raines Carr
+  - Stage Direction: Brooke Carr
 crew:
+- Co-Director: 
+  - Raines Carr
+  - Brooke Carr
 understudies:
 orchestra:
 genres:
