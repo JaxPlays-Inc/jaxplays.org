@@ -19612,6 +19612,33 @@
       "searchBase": "catch me if you can sep 10, 2026 sep 27, 2026 limelight theatre inez mcdonald mainstage musical a musical based on the film and true-crime story of frank abagnale jr., whose elaborate identities draw the pursuit of an fbi agent."
     },
     {
+      "title": "Next to Normal",
+      "url": "/productions/2026-next-to-normal/",
+      "contentPath": "productions/2026/2026-Next-To-Normal",
+      "poster": "/media/posters/2026-Next-To-Normal.webp",
+      "posterAlt": "Next to Normal poster art for Limelight Theatre's 2026 special event production.",
+      "openingDate": "2026-08-13",
+      "closingDate": "2026-08-30",
+      "openingLabel": "Aug 13, 2026",
+      "openingMonthLabel": "August 2026",
+      "openingBadgeLabel": "Aug 13, 2026",
+      "closingLabel": "Aug 30, 2026",
+      "theatre": "Limelight Theatre",
+      "venues": [
+        "Matuza Blackbox"
+      ],
+      "allVenues": [
+        "Matuza Blackbox"
+      ],
+      "genres": [
+        "Musical",
+        "Rock Musical"
+      ],
+      "summary": "A Pulitzer Prize-winning rock musical about Diana Goodman, her family, and the cost of trying to care for one another through mental illness, grief and hope.",
+      "tickets": "https://limelight.ludus.com/show_page.php?show_id=200538981",
+      "searchBase": "next to normal aug 13, 2026 aug 30, 2026 limelight theatre matuza blackbox musical rock musical a pulitzer prize-winning rock musical about diana goodman, her family, and the cost of trying to care for one another through mental illness, grief and hope."
+    },
+    {
       "title": "The Sound of Music",
       "url": "/productions/2026-the-sound-of-music/",
       "contentPath": "productions/2026/2026-The-Sound-of-Music",
@@ -31844,7 +31871,7 @@
       "title": "Kicking a Dead Horse",
       "url": "/productions/2026-kicking-a-dead-horse/",
       "contentPath": "productions/2026/2026-Kicking-a-Dead-Horse",
-      "poster": "/media/default/production_poster.webp",
+      "poster": "/media/posters/2026-Kicking-a-Dead-Horse.webp",
       "posterAlt": "Kicking a Dead Horse poster",
       "openingDate": "2026-08-01",
       "closingDate": "2026-08-01",
