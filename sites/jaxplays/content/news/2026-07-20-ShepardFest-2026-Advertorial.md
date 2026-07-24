@@ -36,7 +36,7 @@ The weekend expands beyond performance with lectures on historic set design, She
 
 Carr describes Dowling as "an authority on Shepard" and says having a scholar in the room expands the festival beyond performance alone.
 
-Film is part of the conversation as well. Monday screenings of *[[w:Thunderheart]]* and *[[w:Days of Heaven]]* highlight Shepard's enduring presence on screen and connect the festival's live events to the landscapes, images and contradictions that run through his wider career.
+Film is part of the conversation as well. Monday screenings of *[[w:Thunderheart]]* and *[[w:Days of Heaven]]*, presented by the St. Augustine Film Festival, highlight Shepard's enduring presence on screen and connect the festival's live events to the landscapes, images and contradictions that run through his wider career.
 
 Carr says that breadth matters because audiences often meet Shepard through only a small slice of his canon. "We only ever produce three of his plays and nobody ever does anything else," Carr says. "He's got tons and tons of work and books and short stories and all kinds of amazing things that just aren't shared."
 
