@@ -1558,9 +1558,9 @@ h1 a.jaxplayslogo {
 	background: var(--jp-red);
 }
 
-.article-directory-badge--advertisement,
-.article-card-badge--advertisement,
-.article-single-advertisement-pill {
+.article-directory-badge--sponsored-post,
+.article-card-badge--sponsored-post,
+.article-single-sponsored-post-pill {
 	background: #f2c94c;
 	border: 1px solid rgba(0, 0, 0, .12);
 	color: #201600;
@@ -1665,7 +1665,7 @@ h1 a.jaxplayslogo {
 	text-transform: uppercase;
 }
 
-.article-single-advertisement-pill {
+.article-single-sponsored-post-pill {
 	border-radius: 999px;
 	display: inline-block;
 	font-size: .72rem;
@@ -1728,6 +1728,20 @@ h1 a.jaxplayslogo {
 .article-single-byline a:focus,
 .article-single-media figcaption a:hover,
 .article-single-media figcaption a:focus {
+	color: var(--jp-red);
+}
+
+.article-single-sponsored-post-credit {
+	color: var(--jp-muted);
+	font-size: .85rem;
+	font-weight: 700;
+	line-height: 1.35;
+	margin: -.35rem 0 1rem;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.article-single-sponsored-post-credit a {
 	color: var(--jp-red);
 }
 

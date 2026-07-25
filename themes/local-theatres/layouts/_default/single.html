@@ -10,7 +10,7 @@
   {{- $featuredImageSize := $featuredImageMeta.size | default "full" | urlize -}}
   {{- $description := .Params.description -}}
   {{- $showReadingStats := or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) -}}
-  {{- $isAdvertisement := or (eq .Params.advertisement true) (eq .Params.sponsored true) -}}
+  {{- $isSponsoredPost := or (eq .Params.advertisement true) (eq .Params.sponsored true) (eq .Params.sponsored_post true) -}}
 
   <div class="infinite-scroll-post-block article-single">
     <article class="main-content article-single-article" data-url="{{ .RelPermalink }}" data-title="{{ .Title }}">
@@ -20,8 +20,8 @@
             {{ with .CurrentSection }}
               <div class="article-single-kickers">
                 <a href="{{ .RelPermalink }}" class="article-single-kicker">{{ .Title }}</a>
-                {{ if $isAdvertisement }}
-                  <span class="article-single-advertisement-pill">Advertisement</span>
+                {{ if $isSponsoredPost }}
+                  <span class="article-single-sponsored-post-pill">Sponsored Post</span>
                 {{ end }}
               </div>
             {{ end }}
@@ -63,6 +63,7 @@
                 <span class="article-single-reading">{{ i18n "wordCount" .WordCount }}</span>
               {{ end }}
             </div>
+            {{ partial "sponsored-post-credit.html" . }}
 
             {{ partial "social-share.html" . }}
           </div>
