@@ -32,6 +32,25 @@ cast:
 understudies:
   - Phil: Harper Reed
 crew:
+  - Director: Tracy Anne Olin
+  - Stage Managers:
+      - Lora Christl
+      - Jillian Cote
+  - Production Manager: Jennifer Lilly
+  - Scenic Designer & Master Carpenter: Tom Cassaro
+  - Lighting & Sound Design: GoldenStage Productions
+  - Costume Designer: Tracy Anne Olin
+  - Props Designers:
+      - Heather Goliber
+      - Katarina Goliber
+  - Master Electrician: Ben Sparenberg
+  - Scenic Charge Artist: Faith Cauthon
+  - Fight Choreographer: Cole Marshall
+  - Stunt Coordinator: Josh Rutgers
+  - Deck Crew:
+      - Aster Robinson
+      - Avrie Desjardins
+  - Light & Sound Board Operator: Sadie Sims
 orchestra:
 photos:
   - photo: 2026-The-Play-That-Goes-Wrong-01.webp
