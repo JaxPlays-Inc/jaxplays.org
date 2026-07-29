@@ -15116,7 +15116,7 @@
         "Farce"
       ],
       "summary": "A 1920s murder mystery collapses into missed cues, broken props, falling scenery, and escalating theatrical chaos.",
-      "tickets": "",
+      "tickets": "https://ci.ovationtix.com/34877/production/1258977",
       "searchBase": "the play that goes wrong jul 24, 2026 aug 9, 2026 players by the sea john mcmanus mainstage theatre play comedy farce a 1920s murder mystery collapses into missed cues, broken props, falling scenery, and escalating theatrical chaos."
     },
     {
@@ -27406,6 +27406,59 @@
       "searchBase": "much ado about nothing may 17, 2026 may 24, 2026 all the devils shakespeare larimer arts center the waterworks howard gilman waterfront park play comedy romance witty lovers, jealous schemes, and comic chaos collide as shakespeare’s sparkling battle of the sexes spirals toward confession and celebration."
     }
   ],
+  "arts-collective-theatre": [
+    {
+      "title": "Once Upon a One More Time",
+      "url": "/productions/2026-once-upon-a-one-more-time/",
+      "contentPath": "productions/2026/2026-Once-Upon-a-One-More-Time",
+      "poster": "/media/posters/2026-Once-Upon-a-One-More-Time.webp",
+      "posterAlt": "Poster graphic for Arts Collective Theatre's production of Once Upon a One More Time",
+      "openingDate": "2026-10-09",
+      "closingDate": "2026-10-25",
+      "openingLabel": "Oct 9, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 9, 2026",
+      "closingLabel": "Oct 25, 2026",
+      "theatre": "Arts Collective Theatre",
+      "venues": [],
+      "allVenues": [
+        "Arts Collective Theatre"
+      ],
+      "genres": [
+        "Musical",
+        "Jukebox Musical",
+        "Comedy"
+      ],
+      "summary": "Arts Collective Theatre presents Once Upon a One More Time, a pop-fueled fairy tale remix built around the music of Britney Spears.",
+      "tickets": "https://artscollectivetheatre.com/events",
+      "searchBase": "once upon a one more time oct 9, 2026 oct 25, 2026 arts collective theatre arts collective theatre musical jukebox musical comedy arts collective theatre presents once upon a one more time, a pop-fueled fairy tale remix built around the music of britney spears."
+    },
+    {
+      "title": "Victor/Victoria",
+      "url": "/productions/2026-victor-victoria/",
+      "contentPath": "productions/2026/2026-Victor-Victoria",
+      "poster": "/media/posters/2026-Victor-Victoria.webp",
+      "posterAlt": "Victor/Victoria poster",
+      "openingDate": "2026-07-10",
+      "closingDate": "2026-07-26",
+      "openingLabel": "Jul 10, 2026",
+      "openingMonthLabel": "July 2026",
+      "openingBadgeLabel": "Jul 10, 2026",
+      "closingLabel": "Jul 26, 2026",
+      "theatre": "Arts Collective Theatre",
+      "venues": [],
+      "allVenues": [
+        "Arts Collective Theatre"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy"
+      ],
+      "summary": "Arts Collective Theatre brings Victor/Victoria to the stage, a sparkling musical comedy of mistaken identity, romance and showbiz reinvention.",
+      "tickets": "https://artscollectivetheatre.com/events",
+      "searchBase": "victor/victoria jul 10, 2026 jul 26, 2026 arts collective theatre arts collective theatre musical comedy arts collective theatre brings victor/victoria to the stage, a sparkling musical comedy of mistaken identity, romance and showbiz reinvention."
+    }
+  ],
   "celebration-hall-at-st-anastasia": [
     {
       "title": "Something's Brewing: Coffee Cantata & Rita",
@@ -27433,33 +27486,6 @@
       "summary": "Choose a dinner or matinee for this double bill pairing Bach's Coffee Cantata with Donizetti's Rita.",
       "tickets": "https://app.arts-people.com/index.php?ticketing=fcop",
       "searchBase": "something's brewing: coffee cantata & rita sep 10, 2026 sep 12, 2026 first coast opera celebration hall at st. anastasia opera comedy choose a dinner or matinee for this double bill pairing bach's coffee cantata with donizetti's rita."
-    }
-  ],
-  "arts-collective-theatre": [
-    {
-      "title": "Victor/Victoria",
-      "url": "/productions/2026-victor-victoria/",
-      "contentPath": "productions/2026/2026-Victor-Victoria",
-      "poster": "/media/posters/2026-Victor-Victoria.webp",
-      "posterAlt": "Victor/Victoria poster",
-      "openingDate": "2026-07-10",
-      "closingDate": "2026-07-26",
-      "openingLabel": "Jul 10, 2026",
-      "openingMonthLabel": "July 2026",
-      "openingBadgeLabel": "Jul 10, 2026",
-      "closingLabel": "Jul 26, 2026",
-      "theatre": "Arts Collective Theatre",
-      "venues": [],
-      "allVenues": [
-        "Arts Collective Theatre"
-      ],
-      "genres": [
-        "Musical",
-        "Comedy"
-      ],
-      "summary": "Arts Collective Theatre brings Victor/Victoria to the stage, a sparkling musical comedy of mistaken identity, romance and showbiz reinvention.",
-      "tickets": "https://artscollectivetheatre.com/events",
-      "searchBase": "victor/victoria jul 10, 2026 jul 26, 2026 arts collective theatre arts collective theatre musical comedy arts collective theatre brings victor/victoria to the stage, a sparkling musical comedy of mistaken identity, romance and showbiz reinvention."
     }
   ]
 }

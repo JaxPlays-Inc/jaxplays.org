@@ -1,10 +1,10 @@
 ---
-title: Tracy Olin
+title: Tracy Anne Olin
 aliases: 
-  - /people/tracy-anne-olin
+  - /people/tracy-olin
 other_names: 
- - Tracy Anne Olin
-date: 2024-07-14T21:54:11-04:00
+ - Tracy Olin
+date: 2026-07-28T22:48:59-04:00
 featured_image: 
 featured_image_attr: 
 featured_image_attr_link: 

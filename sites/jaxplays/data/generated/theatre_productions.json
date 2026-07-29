@@ -15818,7 +15818,7 @@
         "Farce"
       ],
       "summary": "A 1920s murder mystery collapses into missed cues, broken props, falling scenery, and escalating theatrical chaos.",
-      "tickets": "",
+      "tickets": "https://ci.ovationtix.com/34877/production/1258977",
       "searchBase": "the play that goes wrong jul 24, 2026 aug 9, 2026 players by the sea john mcmanus mainstage theatre play comedy farce a 1920s murder mystery collapses into missed cues, broken props, falling scenery, and escalating theatrical chaos."
     },
     {
@@ -30905,6 +30905,32 @@
     }
   ],
   "arts-collective-theatre": [
+    {
+      "title": "Once Upon a One More Time",
+      "url": "/productions/2026-once-upon-a-one-more-time/",
+      "contentPath": "productions/2026/2026-Once-Upon-a-One-More-Time",
+      "poster": "/media/posters/2026-Once-Upon-a-One-More-Time.webp",
+      "posterAlt": "Poster graphic for Arts Collective Theatre's production of Once Upon a One More Time",
+      "openingDate": "2026-10-09",
+      "closingDate": "2026-10-25",
+      "openingLabel": "Oct 9, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 9, 2026",
+      "closingLabel": "Oct 25, 2026",
+      "theatre": "Arts Collective Theatre",
+      "venues": [],
+      "allVenues": [
+        "Arts Collective Theatre"
+      ],
+      "genres": [
+        "Musical",
+        "Jukebox Musical",
+        "Comedy"
+      ],
+      "summary": "Arts Collective Theatre presents Once Upon a One More Time, a pop-fueled fairy tale remix built around the music of Britney Spears.",
+      "tickets": "https://artscollectivetheatre.com/events",
+      "searchBase": "once upon a one more time oct 9, 2026 oct 25, 2026 arts collective theatre arts collective theatre musical jukebox musical comedy arts collective theatre presents once upon a one more time, a pop-fueled fairy tale remix built around the music of britney spears."
+    },
     {
       "title": "Victor/Victoria",
       "url": "/productions/2026-victor-victoria/",
