@@ -29,8 +29,7 @@ cast:
   - Jonathan: Jan Buksar
   - Annie: Miles Genaovargas
   - Trevor: Frankie Rady
-understudies:
-  - Phil: Harper Reed
+  - Phil/Understudy: Harper Reed
 crew:
   - Director: Tracy Anne Olin
   - Stage Managers:

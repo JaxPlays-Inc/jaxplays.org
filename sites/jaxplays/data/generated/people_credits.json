@@ -43654,6 +43654,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Fight Choreographer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-5-dime-songbook/",
         "title": "The 5 & Dime Songbook",
         "opening_date": "2026-05-10",
@@ -89448,6 +89460,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Lighting & Sound Design"
+        ]
+      },
+      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -96272,6 +96296,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Props Designers"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
@@ -105987,6 +106023,25 @@
     ],
     "orchestra": []
   },
+  "jan-buksar": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Jonathan"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "jan-davis": {
     "cast": [
       {
@@ -111694,6 +111749,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Production Manager"
+        ]
+      },
+      {
         "permalink": "/productions/2026-violet/",
         "title": "Violet",
         "opening_date": "2026-06-12",
@@ -114061,6 +114128,109 @@
         "featured_image": "",
         "credits": [
           "Costumes"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "jillian-cote": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Stage Managers"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-disaster/",
+        "title": "Disaster!",
+        "opening_date": "2026-05-01",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-Disaster!.webp",
+        "credits": [
+          "Assistant Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-body-awareness/",
+        "title": "Body Awareness",
+        "opening_date": "2026-04-10",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2026-Body-Awareness.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-alice-by-heart/",
+        "title": "Alice by Heart",
+        "opening_date": "2026-02-06",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2026-Alice-by-Heart.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-ripcord/",
+        "title": "Ripcord",
+        "opening_date": "2025-10-10",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "SET Studios",
+        "featured_image": "2025-Ripcord.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-the-baltimore-waltz/",
+        "title": "The Baltimore Waltz",
+        "opening_date": "2025-06-13",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2025-The-Baltimore-Waltz.webp",
+        "credits": [
+          "Stagehands"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-chicago/",
+        "title": "Chicago",
+        "opening_date": "2025-05-23",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Riverside Church at Park and King",
+        "featured_image": "2025-Chicago.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-ride-the-cyclone/",
+        "title": "Ride the Cyclone",
+        "opening_date": "2025-03-07",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2025-Ride-The-Cyclone.webp",
+        "credits": [
+          "Stage Manager"
         ]
       }
     ],
@@ -121836,7 +122006,20 @@
       }
     ],
     "understudies": [],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Stunt Coordinator"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "josh-sudduth": {
@@ -128468,6 +128651,61 @@
     ],
     "understudies": [],
     "crew": [],
+    "orchestra": []
+  },
+  "katarina-goliber": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Props Designers"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-rent/",
+        "title": "Rent",
+        "opening_date": "2025-12-05",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2025-Rent-01.webp",
+        "credits": [
+          "Deck Crew"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-waitress/",
+        "title": "Waitress",
+        "opening_date": "2025-05-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Ritz Theatre",
+        "featured_image": "2025-Waitress.webp",
+        "credits": [
+          "Deck Assistant"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-funny-girl/",
+        "title": "Funny Girl",
+        "opening_date": "2025-02-21",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2025-Funny-Girl.webp",
+        "credits": [
+          "Deck Assistant"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "kate-busselle": {
@@ -143809,6 +144047,51 @@
         "credits": [
           "Properties",
           "Set Construction"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "lora-christl": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Stage Managers"
+        ]
+      },
+      {
+        "permalink": "/productions/2016-peter-pan/",
+        "title": "Peter Pan",
+        "opening_date": "2016-04-13",
+        "approx_date": "",
+        "theatre": "Jason Woods Productions",
+        "venue": "Christ Church Ponte Vedra Beach",
+        "featured_image": "2016-Peter-Pan.webp",
+        "credits": [
+          "Stage Manager",
+          "Stage Team",
+          "Set Painting/Embellishments"
+        ]
+      },
+      {
+        "permalink": "/productions/2015-st-george-and-the-dragon/",
+        "title": "St. George and the Dragon",
+        "opening_date": "2015-12-17",
+        "approx_date": "",
+        "theatre": "Jason Woods Productions",
+        "venue": "WJCT Studios",
+        "featured_image": "2015-St-George-and-the-Dragon.webp",
+        "credits": [
+          "Stage Manager"
         ]
       }
     ],
@@ -201583,6 +201866,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Light & Sound Board Operator"
+        ]
+      },
+      {
         "permalink": "/productions/2026-violet/",
         "title": "Violet",
         "opening_date": "2026-06-12",
@@ -220318,6 +220613,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Scenic Designer & Master Carpenter"
+        ]
+      },
+      {
         "permalink": "/productions/2026-disaster/",
         "title": "Disaster!",
         "opening_date": "2026-05-01",
@@ -222302,257 +222609,7 @@
     ],
     "orchestra": []
   },
-  "tracy-lengle": {
-    "cast": [
-      {
-        "permalink": "/productions/1926-suppressed-desires/",
-        "title": "Suppressed Desires",
-        "opening_date": "1926-02-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Henrietta"
-        ]
-      }
-    ],
-    "understudies": [],
-    "crew": [
-      {
-        "permalink": "/productions/1935-the-late-christopher-bean/",
-        "title": "The Late Christopher Bean",
-        "opening_date": "1935-11-11",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1927-the-torch-bearers/",
-        "title": "The Torch Bearers",
-        "opening_date": "1927-04-19",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director",
-          "Set painting"
-        ]
-      },
-      {
-        "permalink": "/productions/1927-the-servant-in-the-house/",
-        "title": "The Servant In the House",
-        "opening_date": "1927-03-15",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1927-saved/",
-        "title": "Saved",
-        "opening_date": "1927-02-08",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1927-the-princess-marries-the-page/",
-        "title": "The Princess Marries the Page",
-        "opening_date": "1927-02-08",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1927-meet-the-missus/",
-        "title": "Meet the Missus",
-        "opening_date": "1927-01-18",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1927-the-lords-will/",
-        "title": "The Lord's Will",
-        "opening_date": "1927-01-18",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-the-dover-road/",
-        "title": "The Dover Road",
-        "opening_date": "1926-12-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-how-he-lied-to-her-husband/",
-        "title": "How He Lied To Her Husband",
-        "opening_date": "1926-11-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-slender-strings/",
-        "title": "Slender Strings",
-        "opening_date": "1926-11-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-the-triumph-of-medicine-/",
-        "title": "The Triumph of Medicine",
-        "opening_date": "1926-04-13",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-minick/",
-        "title": "Minick",
-        "opening_date": "1926-03-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-aria-da-capo/",
-        "title": "Aria Da Capo",
-        "opening_date": "1926-02-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1926-suppressed-desires/",
-        "title": "Suppressed Desires",
-        "opening_date": "1926-02-16",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1925-the-ship/",
-        "title": "The Ship",
-        "opening_date": "1925-12-15",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1925-no-smoking/",
-        "title": "No Smoking",
-        "opening_date": "1925-11-17",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1925-the-locked-chest/",
-        "title": "The Locked Chest",
-        "opening_date": "1925-11-17",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director",
-          "Costume construction"
-        ]
-      },
-      {
-        "permalink": "/productions/1921-innocent-annabell/",
-        "title": "Innocent & Annabell",
-        "opening_date": "1921-11-08",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/1921-overtones/",
-        "title": "Overtones",
-        "opening_date": "1921-11-08",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "",
-        "featured_image": "",
-        "credits": [
-          "Director"
-        ]
-      }
-    ],
-    "orchestra": []
-  },
-  "tracy-olin": {
+  "tracy-anne-olin": {
     "cast": [
       {
         "permalink": "/productions/2013-as-you-like-it/",
@@ -222677,6 +222734,19 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Director",
+          "Costume Designer"
+        ]
+      },
       {
         "permalink": "/productions/2024-tarzan/",
         "title": "Disney's Tarzan",
@@ -223026,6 +223096,256 @@
         "featured_image": "",
         "credits": [
           "Hair and Make-up Design"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "tracy-lengle": {
+    "cast": [
+      {
+        "permalink": "/productions/1926-suppressed-desires/",
+        "title": "Suppressed Desires",
+        "opening_date": "1926-02-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Henrietta"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/1935-the-late-christopher-bean/",
+        "title": "The Late Christopher Bean",
+        "opening_date": "1935-11-11",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1927-the-torch-bearers/",
+        "title": "The Torch Bearers",
+        "opening_date": "1927-04-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director",
+          "Set painting"
+        ]
+      },
+      {
+        "permalink": "/productions/1927-the-servant-in-the-house/",
+        "title": "The Servant In the House",
+        "opening_date": "1927-03-15",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1927-saved/",
+        "title": "Saved",
+        "opening_date": "1927-02-08",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1927-the-princess-marries-the-page/",
+        "title": "The Princess Marries the Page",
+        "opening_date": "1927-02-08",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1927-meet-the-missus/",
+        "title": "Meet the Missus",
+        "opening_date": "1927-01-18",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1927-the-lords-will/",
+        "title": "The Lord's Will",
+        "opening_date": "1927-01-18",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-the-dover-road/",
+        "title": "The Dover Road",
+        "opening_date": "1926-12-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-how-he-lied-to-her-husband/",
+        "title": "How He Lied To Her Husband",
+        "opening_date": "1926-11-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-slender-strings/",
+        "title": "Slender Strings",
+        "opening_date": "1926-11-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-the-triumph-of-medicine-/",
+        "title": "The Triumph of Medicine",
+        "opening_date": "1926-04-13",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-minick/",
+        "title": "Minick",
+        "opening_date": "1926-03-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-aria-da-capo/",
+        "title": "Aria Da Capo",
+        "opening_date": "1926-02-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1926-suppressed-desires/",
+        "title": "Suppressed Desires",
+        "opening_date": "1926-02-16",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1925-the-ship/",
+        "title": "The Ship",
+        "opening_date": "1925-12-15",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1925-no-smoking/",
+        "title": "No Smoking",
+        "opening_date": "1925-11-17",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1925-the-locked-chest/",
+        "title": "The Locked Chest",
+        "opening_date": "1925-11-17",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director",
+          "Costume construction"
+        ]
+      },
+      {
+        "permalink": "/productions/1921-innocent-annabell/",
+        "title": "Innocent & Annabell",
+        "opening_date": "1921-11-08",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/1921-overtones/",
+        "title": "Overtones",
+        "opening_date": "1921-11-08",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Director"
         ]
       }
     ],
