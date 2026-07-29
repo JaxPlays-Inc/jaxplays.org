@@ -43,3 +43,7 @@ source_url: https://www.facebook.com/The5andDime/posts/1640880458040347/
 One night. One family. One broken system. A searing drama where personal anguish and systemic injustice collide when a Black teenager goes missing.
 
 “High tension on every level.” — The New York Times
+
+### First Coast Connect: 5 & Dime Presents American Son
+
+{{< youtube id="W1x8Abez7T8" >}}
