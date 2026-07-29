@@ -14,7 +14,7 @@ featured_image_attr: Players by the Sea
 featured_image_attr_link: 
 program:
 website: https://playersbythesea.org/season-61
-tickets:
+tickets: https://ci.ovationtix.com/34877/production/1258977
 show_details:
   - Written by:
       - Henry Lewis
@@ -45,5 +45,3 @@ source_date: 2026-06-01
 source_url: https://playersbythesea.org/season-61
 ---
 *The Play That Goes Wrong* follows a local theatre troupe attempting to stage a 1920s murder mystery while everything possible goes spectacularly wrong. Props vanish, lines disappear, scenery collapses and the production becomes a celebration of live theatre's most chaotic possibilities.
-
-PBTS lists information and tickets as available soon.
