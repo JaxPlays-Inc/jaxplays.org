@@ -16,7 +16,7 @@ featured_image_alt: Poster for Act II Players' production of How to Succeed in B
 featured_image_caption: Poster for How to Succeed in Business Without Really Trying
 featured_image_attr:
 featured_image_attr_link:
-program:
+program: 2026-How-to-Succeed-in-Business-Without-Really-Trying.pdf
 website: https://actiiplayers.org/
 tickets: https://our.show/m782ddmmp7
 show_details:
