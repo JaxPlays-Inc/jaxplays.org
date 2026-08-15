@@ -29,7 +29,36 @@
 
       <div class="article-directory-grid">
         {{ range $authors }}
-          {{ $authorPages := .Pages }}
+          {{ $authorNames := slice .Title }}
+          {{ with .Params.other_names }}
+            {{ if eq (printf "%T" .) "string" }}
+              {{ $authorNames = $authorNames | append . }}
+            {{ else }}
+              {{ range . }}
+                {{ $authorNames = $authorNames | append . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ $authorPages := slice }}
+          {{ range .Site.RegularPages }}
+            {{ $rawAuthors := .Params.authors | default .Params.author }}
+            {{ $pageAuthors := slice }}
+            {{ with $rawAuthors }}
+              {{ if eq (printf "%T" .) "string" }}
+                {{ $pageAuthors = $pageAuthors | append . }}
+              {{ else }}
+                {{ range . }}
+                  {{ $pageAuthors = $pageAuthors | append . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ if intersect $pageAuthors $authorNames }}
+              {{ $authorPages = $authorPages | append . }}
+            {{ end }}
+          {{ end }}
+          {{ if eq (len $authorPages) 0 }}
+            {{ $authorPages = .Pages }}
+          {{ end }}
           {{ $reviews := where $authorPages "Section" "reviews" }}
           {{ $news := where $authorPages "Section" "news" }}
           {{ $latest := index (first 1 (sort $authorPages "Date" "desc")) 0 }}
@@ -40,7 +69,7 @@
             {{ end }}
           {{ end }}
           {{ $description := .Params.description | default (.Summary | plainify) }}
-          {{ $searchText := delimit (slice .Title $description (printf "%d" (len $authorPages)) (printf "%d" (len $reviews)) (printf "%d" (len $news))) " " | lower }}
+          {{ $searchText := delimit (slice .Title (delimit $authorNames " ") $description (printf "%d" (len $authorPages)) (printf "%d" (len $reviews)) (printf "%d" (len $news))) " " | lower }}
           <article class="article-card article-card--directory article-directory-card slow-grow" data-author-card data-author-search="{{ $searchText | htmlEscape }}">
             <a class="article-card-hitarea article-directory-card-hitarea" href="{{ .RelPermalink }}" aria-label="View articles by {{ .Title }}"></a>
             <div class="article-card-body article-directory-card-body">

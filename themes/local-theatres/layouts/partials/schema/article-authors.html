@@ -14,7 +14,8 @@
 {{- range $authors -}}
   {{- $name := printf "%v" . -}}
   {{- if $name -}}
-    {{- $authorURL := printf "/authors/%s/" ($name | urlize) | absURL -}}
+    {{- $authorTerm := partial "func/FindAuthorTerm.html" (dict "site" $.Site "name" $name) -}}
+    {{- $authorURL := $authorTerm.permalink -}}
     {{- $authorObjects = $authorObjects | append (dict
       "@type" "Person"
       "@id" (printf "%s#person" $authorURL)

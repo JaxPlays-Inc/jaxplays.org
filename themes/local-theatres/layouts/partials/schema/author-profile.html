@@ -19,6 +19,20 @@
   {{- $person = merge $person (dict "description" .) -}}
 {{- end -}}
 
+{{- $alternateNames := slice -}}
+{{- with .Params.other_names -}}
+  {{- if eq (printf "%T" .) "string" -}}
+    {{- $alternateNames = $alternateNames | append . -}}
+  {{- else -}}
+    {{- range . -}}
+      {{- $alternateNames = $alternateNames | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $alternateNames) 0 -}}
+  {{- $person = merge $person (dict "alternateName" (uniq $alternateNames)) -}}
+{{- end -}}
+
 {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/headshots/") -}}
   {{- $person = merge $person (dict "image" .) -}}
 {{- end -}}

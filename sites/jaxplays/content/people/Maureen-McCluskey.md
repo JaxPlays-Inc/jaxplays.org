@@ -17,3 +17,6 @@ socials:
   imdb:
   website:
 ---
+Maureen E. McCluskey, Ed.D., is a theatre advocate, educator and creative professional. She holds degrees from Vanderbilt University and the University of Central Florida and spent nearly a decade in New York City working across Broadway, film, television and brand campaigns for Sony, L'Oreal and Canon.
+
+At the University of North Florida, she connects higher education with the community, including directing UNF's first fully ASL-interpreted Shakespeare productions and collaborating on *Water Stories*. Her regional work includes playing Diane in [[production:2025 Come From Away]] at Alhambra Theatre & Dining, performing with Mayo Clinic and volunteering with Broadway Hearts.

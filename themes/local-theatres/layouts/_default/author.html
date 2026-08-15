@@ -1,6 +1,36 @@
 {{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}
 {{ define "main" }}
-  {{ $allPages := sort .Pages "Date" "desc" }}
+  {{ $authorNames := slice .Title }}
+  {{ with .Params.other_names }}
+    {{ if eq (printf "%T" .) "string" }}
+      {{ $authorNames = $authorNames | append . }}
+    {{ else }}
+      {{ range . }}
+        {{ $authorNames = $authorNames | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $allPages := slice }}
+  {{ range .Site.RegularPages }}
+    {{ $rawAuthors := .Params.authors | default .Params.author }}
+    {{ $pageAuthors := slice }}
+    {{ with $rawAuthors }}
+      {{ if eq (printf "%T" .) "string" }}
+        {{ $pageAuthors = $pageAuthors | append . }}
+      {{ else }}
+        {{ range . }}
+          {{ $pageAuthors = $pageAuthors | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if intersect $pageAuthors $authorNames }}
+      {{ $allPages = $allPages | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if eq (len $allPages) 0 }}
+    {{ $allPages = .Pages }}
+  {{ end }}
+  {{ $allPages = sort $allPages "Date" "desc" }}
   {{ $paginator := .Paginate $allPages 24 }}
   {{ $author := .Title }}
   {{ $reviews := where $allPages "Section" "reviews" }}

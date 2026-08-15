@@ -1,0 +1,40 @@
+{{- $site := .site -}}
+{{- $name := printf "%v" .name -}}
+{{- $termPage := $site.GetPage (printf "/authors/%s" ($name | urlize)) -}}
+
+{{- if not $termPage -}}
+  {{- with $site.GetPage "/authors" -}}
+    {{- range .Pages -}}
+      {{- $names := slice .Title -}}
+      {{- with .Params.other_names -}}
+        {{- if eq (printf "%T" .) "string" -}}
+          {{- $names = $names | append . -}}
+        {{- else -}}
+          {{- range . -}}
+            {{- $names = $names | append . -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if in $names $name -}}
+        {{- $termPage = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $url := printf "/authors/%s/" ($name | urlize) -}}
+{{- $permalink := $url | absURL -}}
+{{- $displayName := $name -}}
+
+{{- with $termPage -}}
+  {{- $url = .RelPermalink -}}
+  {{- $permalink = .Permalink -}}
+  {{- $displayName = .Title | default $name -}}
+{{- end -}}
+
+{{- return (dict
+  "name" $displayName
+  "url" $url
+  "permalink" $permalink
+  "page" $termPage
+) -}}
