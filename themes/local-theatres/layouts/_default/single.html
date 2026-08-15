@@ -41,13 +41,15 @@
                   {{ if reflect.IsSlice . -}}
                     {{- $len := len . -}}
                     {{- range $index, $author := . -}}
+                      {{- $authorTerm := partial "func/FindAuthorTerm.html" (dict "site" $.Site "name" $author) -}}
                       {{- if gt $index 0 -}}
                         {{- if ne $index (sub $len 1) -}}, {{- else -}} and {{- end -}}
                       {{- end -}}
-                      <a href="/authors/{{ $author | urlize }}">{{- $author -}}</a>
+                      <a href="{{ $authorTerm.url }}">{{- $author -}}</a>
                     {{- end -}}
                   {{ else }}
-                    <a href="/authors/{{ . | urlize }}">{{ . }}</a>
+                    {{- $authorTerm := partial "func/FindAuthorTerm.html" (dict "site" $.Site "name" .) -}}
+                    <a href="{{ $authorTerm.url }}">{{ . }}</a>
                   {{- end }}
                 </p>
               {{ end }}
