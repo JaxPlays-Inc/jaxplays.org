@@ -24035,13 +24035,13 @@
       "url": "/productions/2026-annie/",
       "contentPath": "productions/2026/2026-Annie",
       "poster": "/media/posters/2026-Annie.webp",
-      "posterAlt": "Classic red background poster for 'Annie - A New Musical.' The simple yet bold design features the musical's title with Annie leaning on the letter 'A', encapsulating the essence of this beloved production.",
-      "openingDate": "2026-08-14",
-      "closingDate": "2026-08-29",
-      "openingLabel": "Aug 14, 2026",
-      "openingMonthLabel": "August 2026",
-      "openingBadgeLabel": "Aug 14, 2026",
-      "closingLabel": "Aug 29, 2026",
+      "posterAlt": "Poster for Annie",
+      "openingDate": "2026-07-31",
+      "closingDate": "2026-08-16",
+      "openingLabel": "Jul 31, 2026",
+      "openingMonthLabel": "July 2026",
+      "openingBadgeLabel": "Jul 31, 2026",
+      "closingLabel": "Aug 16, 2026",
       "theatre": "Amelia Musical Playhouse",
       "venues": [],
       "allVenues": [
@@ -24049,12 +24049,12 @@
       ],
       "genres": [
         "Musical",
-        "Family",
-        "Comedy"
+        "Comedy",
+        "Other"
       ],
-      "summary": "Experience the heartwarming tale of Annie, a plucky orphan who wins everyone's hearts despite a hard-knock life in 1930s New York City.",
+      "summary": "Annie follows a hopeful orphan whose life changes when she is welcomed by Oliver Warbucks, proving love, family and optimism can triumph over hardship.",
       "tickets": "https://904tix.com/organizations/amelia-musical-playhouse",
-      "searchBase": "annie aug 14, 2026 aug 29, 2026 amelia musical playhouse amelia musical playhouse musical family comedy experience the heartwarming tale of annie, a plucky orphan who wins everyone's hearts despite a hard-knock life in 1930s new york city."
+      "searchBase": "annie jul 31, 2026 aug 16, 2026 amelia musical playhouse amelia musical playhouse musical comedy other annie follows a hopeful orphan whose life changes when she is welcomed by oliver warbucks, proving love, family and optimism can triumph over hardship."
     },
     {
       "title": "Monty Python's Edukational Show",

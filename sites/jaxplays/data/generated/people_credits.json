@@ -4872,6 +4872,18 @@
   "allie-basile": {
     "cast": [
       {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Annie"
+        ]
+      },
+      {
         "permalink": "/productions/2025-scrooge-the-musical/",
         "title": "Scrooge: The Musical",
         "opening_date": "2025-12-05",
@@ -4962,7 +4974,21 @@
       }
     ],
     "understudies": [],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Lights",
+          "Set design and construction"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "allie-kangas": {
@@ -5956,6 +5982,18 @@
   },
   "amelia-underwood": {
     "cast": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Grace Farrell"
+        ]
+      },
       {
         "permalink": "/productions/2025-little-women-3/",
         "title": "Little Women (musical)",
@@ -20171,6 +20209,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Publicity and Social Media"
+        ]
+      },
+      {
         "permalink": "/productions/2026-once-upon-a-mattress/",
         "title": "Once Upon a Mattress",
         "opening_date": "2026-06-04",
@@ -24303,6 +24353,18 @@
   },
   "bob-ohara": {
     "cast": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Oliver Warbucks"
+        ]
+      },
       {
         "permalink": "/productions/2026-once-upon-a-mattress/",
         "title": "Once Upon a Mattress",
@@ -47624,6 +47686,18 @@
   },
   "danielle-gamble": {
     "cast": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Star to Be/Boylan Sister"
+        ]
+      },
       {
         "permalink": "/productions/2025-the-rocky-horror-show/",
         "title": "The Rocky Horror Show",
@@ -91894,9 +91968,35 @@
     "orchestra": []
   },
   "gregg-dillingham": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Lt. Ward"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Set design and construction",
+          "Stage Crew"
+        ]
+      },
       {
         "permalink": "/productions/2026-monty-pythons-edukational-show/",
         "title": "Monty Python's Edukational Show",
@@ -114710,6 +114810,19 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Props",
+          "Director"
+        ]
+      },
+      {
         "permalink": "/productions/2026-monty-pythons-edukational-show/",
         "title": "Monty Python's Edukational Show",
         "opening_date": "2026-07-02",
@@ -116355,6 +116468,18 @@
   "jimmy-galaviz": {
     "cast": [
       {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Rooster/Bundles/Radio Announcer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-once-upon-a-mattress/",
         "title": "Once Upon a Mattress",
         "opening_date": "2026-06-04",
@@ -116619,7 +116744,20 @@
         ]
       }
     ],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Percussion"
+        ]
+      }
+    ]
   },
   "jimtom-richardson": {
     "cast": [
@@ -217711,6 +217849,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-annie/",
+        "title": "Annie",
+        "opening_date": "2026-07-31",
+        "approx_date": "",
+        "theatre": "Amelia Musical Playhouse",
+        "venue": "Amelia Musical Playhouse",
+        "featured_image": "2026-Annie.webp",
+        "credits": [
+          "Charlie McCarthy"
+        ]
+      },
       {
         "permalink": "/productions/2026-once-upon-a-mattress/",
         "title": "Once Upon a Mattress",
