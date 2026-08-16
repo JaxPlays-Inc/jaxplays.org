@@ -68,6 +68,8 @@ source_urls:
   - https://www.facebook.com/limelight.theatre/posts/limelight-theatre-is-proud-to-announce-a-special-event-addition-to-our-musical-l/1436918711787543/
   - https://www.limelight-theatre.org/calendar/on-stage/next-to-normal
   - https://www.nexttonormalstaug.com/
+press:
+  - "Limelight's 'Next to Normal' Aims Beyond the Stage With Mental Health Partnership | JaxPlays": /news/2026/08/11/limelights-next-to-normal-aims-beyond-the-stage-with-mental-health-partnership/
 ---
 
 *Next to Normal* follows Diana Goodman, a suburban mother living with bipolar disorder and delusional episodes, as her family tries to hold together through grief, trauma, treatment and love.
