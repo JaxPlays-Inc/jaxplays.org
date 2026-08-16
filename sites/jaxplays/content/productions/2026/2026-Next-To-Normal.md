@@ -55,11 +55,6 @@ orchestra:
   - Guitar: Evan Bowen
   - Bass: Aaron Kinman
   - Percussion: Benjamin Yates
-photos:
-  - photo: 2026-Next-To-Normal-01.webp
-    photo_attr: Limelight Theatre
-    photo_alt: Next to Normal poster art for Limelight Theatre's 2026 special event production.
-    photo_caption: Limelight Theatre presents Next to Normal as a special event production in the Matuza Blackbox.
 show_details:
   - Music: "[[w:Tom Kitt]]"
   - Book and Lyrics: "[[w:Brian Yorkey]]"
