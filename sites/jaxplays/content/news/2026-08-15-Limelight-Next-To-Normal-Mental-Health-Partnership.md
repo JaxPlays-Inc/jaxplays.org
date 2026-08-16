@@ -2,9 +2,9 @@
 title: "Limelight's 'Next to Normal' Aims Beyond the Stage With Mental Health Partnership"
 date: 2026-08-11T08:57:13-04:00
 featured_image:
-  src: /media/posters/2026-Next-To-Normal.webp
-  alt: "Next to Normal poster art for Limelight Theatre's 2026 special event production."
-  caption: "Limelight Theatre's special event production of *Next to Normal* runs Aug. 13-30 in the Matuza Blackbox."
+  src: /media/photos/2026-Next-To-Normal-Mental-Health-Partnership.webp
+  alt: "Promotional artwork for Next to Normal showing a torn portrait split between black-and-white and color against lavender and gray, with the show's title in large purple letters."
+  caption: "Limelight Theatre's *Next to Normal* artwork frames a fractured portrait of self and family, echoing the musical's urgent conversation about mental health, love and survival."
   credit:
     name: Limelight Theatre
     url: https://www.limelight-theatre.org/calendar/on-stage/next-to-normal
