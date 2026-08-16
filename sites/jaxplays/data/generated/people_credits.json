@@ -379,7 +379,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
-          "Phoebus de Martin"
+          "Captain Phoebus de Martin"
         ]
       },
       {
@@ -5423,7 +5423,20 @@
     "cast": [],
     "understudies": [],
     "crew": [],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Violin 1"
+        ]
+      }
+    ]
   },
   "alyssa-billings": {
     "cast": [
@@ -26157,6 +26170,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Conductor"
+        ]
+      },
+      {
         "permalink": "/productions/2025-the-medium/",
         "title": "The Medium",
         "opening_date": "2025-10-10",
@@ -26195,6 +26220,18 @@
       }
     ],
     "orchestra": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Piano"
+        ]
+      },
       {
         "permalink": "/productions/2024-bluebeards-castle/",
         "title": "Bluebeard's Castle",
@@ -30730,6 +30767,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Roma Dancers",
           "Ensemble"
         ]
       },
@@ -33235,7 +33273,8 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
-          "Madame"
+          "Madame",
+          "Roma Dancers"
         ]
       },
       {
@@ -40245,6 +40284,18 @@
     ],
     "crew": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Director and Choreographer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-damn-yankees/",
         "title": "Damn Yankees",
         "opening_date": "2026-02-26",
@@ -46413,7 +46464,20 @@
     "orchestra": []
   },
   "dallas-raulins": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Father Dupin / King Louis XI"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -49950,7 +50014,20 @@
         ]
       }
     ],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Violin 2"
+        ]
+      }
+    ]
   },
   "david-phillips": {
     "cast": [
@@ -66280,6 +66357,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Statues and Gargoyles",
           "Ensemble"
         ]
       },
@@ -66733,6 +66811,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Statues and Gargoyles",
           "Ensemble"
         ]
       }
@@ -71416,7 +71495,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
-          "Ensemble"
+          "Roma Dancers"
         ]
       },
       {
@@ -71458,7 +71537,20 @@
         ]
       }
     ],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Additional Choreography"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "emily-swallow": {
@@ -72763,7 +72855,20 @@
     ]
   },
   "erin-flower": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -73017,7 +73122,20 @@
     "orchestra": []
   },
   "erin-wade": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -81028,7 +81146,20 @@
     "orchestra": []
   },
   "gage-corbett": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Official"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -92640,6 +92771,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      },
+      {
         "permalink": "/productions/2026-sweeney-todd/",
         "title": "Sweeney Todd",
         "opening_date": "2026-03-20",
@@ -94686,7 +94829,20 @@
     "cast": [],
     "understudies": [],
     "crew": [],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Viola"
+        ]
+      }
+    ]
   },
   "hannah-shaeffer": {
     "cast": [
@@ -97092,6 +97248,18 @@
   },
   "hecate-smith": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      },
       {
         "permalink": "/productions/2023-suor-angelica/",
         "title": "Suor Angelica",
@@ -100815,7 +100983,20 @@
     "cast": [],
     "understudies": [],
     "crew": [],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Cello"
+        ]
+      }
+    ]
   },
   "ilana-marshall": {
     "cast": [
@@ -107891,6 +108072,18 @@
   },
   "jarvis-ramil": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      },
       {
         "permalink": "/productions/2024-bluebeards-castle/",
         "title": "Bluebeard's Castle",
@@ -126081,6 +126274,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Roma Dancers",
           "Ensemble"
         ]
       },
@@ -129456,7 +129650,20 @@
     "orchestra": []
   },
   "kate-patterson": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -139169,6 +139376,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Costume Designer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
         "opening_date": "2026-06-18",
@@ -142763,18 +142982,6 @@
   "lisa-fleming": {
     "cast": [
       {
-        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
-        "title": "The Hunchback of Notre Dame",
-        "opening_date": "2026-08-14",
-        "approx_date": "",
-        "theatre": "Greenlight Theatre Company",
-        "venue": "Greenlight Theatre Company",
-        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
-        "credits": [
-          "Ensemble"
-        ]
-      },
-      {
         "permalink": "/productions/2025-chicago/",
         "title": "Chicago",
         "opening_date": "2025-05-23",
@@ -146267,7 +146474,20 @@
     "orchestra": []
   },
   "luke-hopper": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -167117,7 +167337,20 @@
     "cast": [],
     "understudies": [],
     "crew": [],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Percussion"
+        ]
+      }
+    ]
   },
   "michelle-c-lindsay": {
     "cast": [],
@@ -172126,6 +172359,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Statues and Gargoyles",
           "Ensemble"
         ]
       },
@@ -187001,7 +187235,20 @@
     "orchestra": []
   },
   "peyton-bennett": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Choir"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -191589,7 +191836,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
-          "Ensemble"
+          "ASL Signing and Performance"
         ]
       },
       {
@@ -197814,6 +198061,18 @@
     ],
     "crew": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Artistic Director"
+        ]
+      },
+      {
         "permalink": "/productions/2026-sweeney-todd/",
         "title": "Sweeney Todd",
         "opening_date": "2026-03-20",
@@ -200456,7 +200715,20 @@
     "orchestra": []
   },
   "rowan-gilmore": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Statues and Gargoyles"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -210677,6 +210949,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Statues and Gargoyles",
           "Ensemble"
         ]
       },
@@ -215361,6 +215634,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Roma Dancers",
           "Ensemble"
         ]
       },
@@ -216659,7 +216933,9 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
-          "Florika"
+          "Florika",
+          "Roma Dancers",
+          "Ensemble"
         ]
       },
       {
@@ -232519,6 +232795,7 @@
         "venue": "Greenlight Theatre Company",
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
+          "Statues and Gargoyles",
           "Ensemble"
         ]
       }

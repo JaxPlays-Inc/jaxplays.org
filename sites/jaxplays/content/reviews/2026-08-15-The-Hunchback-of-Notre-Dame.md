@@ -1,6 +1,12 @@
 ---
-title: "Greenlight Theatre Company's 'Hunchback' Soars With Grandeur and Intimacy"
+title: "Greenlight Theatre Company's 'Hunchback' Rings With Grandeur and Intimacy"
 date: 2026-08-15T16:35:22-04:00
+featured_image:
+  src: /media/photos/2026-The-Hunchback-of-Notre-Dame-review.webp
+  alt: "The cast, choir, orchestra and creative team of Greenlight Theatre Company's The Hunchback of Notre Dame gather on stage beneath red and blue lights, with bells and cathedral-inspired set pieces behind them."
+  caption: "Greenlight Theatre Company's *The Hunchback of Notre Dame* gathers cast, choir, orchestra and creative team beneath the bells, capturing the grandeur, intimacy and ringing humanity of the production."
+  credit:
+    name: Christopher Milligan
 authors:
 - Maureen E. McCluskey, Ed.D.
 show_reading_time: true
@@ -34,7 +40,7 @@ featuring:
   - Hailee Ketterer
   - Christopher Milligan
   - Rodney Holmes
-description: "Greenlight Theatre Company's *The Hunchback of Notre Dame* soars with elegant staging, a powerful ensemble and a deeply human sense of scale."
+description: "Greenlight Theatre Company's *The Hunchback of Notre Dame* finds elegance, scale and humanity in a powerful ensemble production."
 ---
 
 [[theatre:Greenlight Theatre Company]]'s [[production:2026 The Hunchback of Notre Dame|*The Hunchback of Notre Dame*]] soars with elegance, dimension and vision. The show opens with an atmospheric and enthralling rendition of "The Bells of Notre Dame," thoughtfully staged by director and choreographer [[person:Christopher Milligan]].

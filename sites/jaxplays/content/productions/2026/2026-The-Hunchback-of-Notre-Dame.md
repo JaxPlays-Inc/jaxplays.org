@@ -29,22 +29,39 @@ cast:
   - Father Dupin / King Louis XI: Dallas L. Raulins
   - Quasimodo: Terry Star
   - Clopin Trouillefou: Maddie Higdon
-  - Phoebus de Martin: Aaron Burdick
+  - Captain Phoebus de Martin: Aaron Burdick
   - Lieutenant Frederic Charlus: Jon Dixon
   - Esmeralda: Caroline Yazdiya
-  - Official: Gage Torbett
+  - Official: Gage Corbett
   - Madame: Carol Yazdiya
-  - Ensemble:
-      - Zaria Hood-Washington
-      - Emily Sullivan
-      - Blayne Fraser
-      - Quill Schade
-      - Silvana Perez-Castillo
-      - Mya Smoak
-      - Lisa Fleming
+  - Statues and Gargoyles:
       - EllaMae Turknett
-      - Arianna Valente-Johnson
-      - Reagan Stoker
+      - Zaria Hood-Washington
+      - Silvana Perez Castillo
+      - Mya Smoak
+      - Elizabeth Schurko
+      - Rowan Gilmore
+  - Roma Dancers:
+      - Emily Sullivan
+      - Caitlin Allen
+      - Summer Dees
+      - Juliana Williams
+      - Carol Yazdiya
+      - Sydney Wissinger
+  - ASL Signing and Performance: Reagan Stoker
+  - Choir:
+      - Kate Patterson
+      - Erin Wade
+      - Hecate Smith
+      - Erin Flower
+      - Peyton Bennett
+      - Luke Hopper
+      - Jarvis Ramil
+  - Ensemble:
+      - EllaMae Turknett
+      - Zaria Hood-Washington
+      - Silvana Perez Castillo
+      - Mya Smoak
       - Elizabeth Schurko
       - Carol Wilkinson
       - Juliana Williams
@@ -60,11 +77,25 @@ cast:
       - Kaia Spottswood
       - Amelia Mazumdar
       - Sawyer Allen
+      - Sydney Wissinger
 understudies:
   - Florika: Emily Sullivan
   - Esmeralda: Blayne Fraser
   - Madame: Lisa Fleming
 crew:
+  - Director and Choreographer: Christopher Milligan
+  - Artistic Director: Rodney Holmes
+  - Conductor: Brandon Smith
+  - Additional Choreography: Emily Sullivan
+  - Costume Designer: Lauren Massais
+  - Stage Manager: Hailee Ketterer
+orchestra:
+  - Piano: Brandon Smith
+  - Violin 1: Alyssa Albert
+  - Violin 2: David Paul Rowan
+  - Viola: Hannah Barrow
+  - Cello: Ian Rivera
+  - Percussion: Michael Taylor
 show_details:
   - Music: "[[w:Alan Menken]]"
   - Lyrics: "[[w:Stephen Schwartz (composer)|Stephen Schwartz]]"
@@ -73,11 +104,12 @@ show_details:
 genres:
   - Musical
 description: "Greenlight Theatre Company's The Hunchback of Notre Dame follows Quasimodo, the bell-ringer of Notre Dame, and his longing to join the outside world."
-source: Greenlight Theatre Company event pages and JAX ONSTAGE listing
+source: Greenlight Theatre Company event pages, JAX ONSTAGE listing, and JaxPlays review
 source_date: 2026-08-15
 source_urls:
   - https://www.greenlighttheatreco.com/event-details/the-hunchback-of-notre-dame-friday-aug-14
   - https://www.greenlighttheatreco.com/jaxonstage
+  - /reviews/2026/08/15/greenlight-theatre-companys-hunchback-soars-with-grandeur-and-intimacy/
 ---
 Greenlight Theatre Company presents *The Hunchback of Notre Dame*, the musical adaptation of Victor Hugo's story about Quasimodo, the bell-ringer of Notre Dame, and his desire to one day be part of the outside world.
 
