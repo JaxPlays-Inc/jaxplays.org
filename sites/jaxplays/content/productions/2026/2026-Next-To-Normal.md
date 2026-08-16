@@ -25,7 +25,7 @@ featured_image_caption:
 featured_image_attr: Limelight Theatre
 featured_image_attr_link: 
 program:
-website: https://www.limelight-theatre.org/calendar/on-stage/next-to-normal
+website: https://nexttonormalstaug.com/
 tickets: https://limelight.ludus.com/show_page.php?show_id=200538981
 cast:
   - Diana Goodman: Jessica Alexander
@@ -50,11 +50,11 @@ crew:
   - Mental Health Liaison: Rick Cirucci
 orchestra:
   - Piano: Mark Dougherty
-  - Violin: Phillip Pan
+  - Violin: Philip Pan
   - Cello: Megan Herrman
   - Guitar: Evan Bowen
   - Bass: Aaron Kinman
-  - Percussion: Benjamin Yates
+  - Drums: Craig Reagor
 show_details:
   - Music: "[[w:Tom Kitt]]"
   - Book and Lyrics: "[[w:Brian Yorkey]]"
