@@ -368,6 +368,98 @@
     "crew": [],
     "orchestra": []
   },
+  "aaron-burdick": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Phoebus de Martin"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-sense-and-sensibility/",
+        "title": "Sense and Sensibility",
+        "opening_date": "2026-05-14",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Sense-and-Sensibility.webp?v=080021",
+        "credits": [
+          "Edward Ferrars"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-the-wizard-of-oz/",
+        "title": "The Wizard of Oz",
+        "opening_date": "2025-08-08",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-The-Wizard-of-Oz.webp",
+        "credits": [
+          "Scarecrow"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-cry-baby-the-musical/",
+        "title": "Cry-Baby: The Musical",
+        "opening_date": "2025-01-17",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-Cry-Baby-The-Musical.webp",
+        "credits": [
+          "Baldwin Blandish"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-disneys-beauty-and-the-beast/",
+        "title": "Disney's Beauty and the Beast",
+        "opening_date": "2024-05-31",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "Disneys-Beauty-and-the-Beast.webp",
+        "credits": [
+          "Beast"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-its-a-wonderful-life/",
+        "title": "It's a Wonderful Life",
+        "opening_date": "2023-12-14",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2023-Its-A-Wonderful-Life.webp",
+        "credits": [
+          "Uncle Billy",
+          "Ernie"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-west-side-story/",
+        "title": "West Side Story",
+        "opening_date": "2023-07-14",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023-West-Side-Story.webp",
+        "credits": [
+          "Tony"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "aaron-decicco": {
     "cast": [
       {
@@ -5323,6 +5415,12 @@
         ]
       }
     ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "alyssa-albert": {
+    "cast": [],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -30621,6 +30719,37 @@
     "crew": [],
     "orchestra": []
   },
+  "caitlin-allen": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Patty"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "caitlin-bilbray": {
     "cast": [],
     "understudies": [],
@@ -32937,6 +33066,18 @@
   "carol-goodroe-wilkinson": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
         "permalink": "/productions/2026-a-young-ladys-guide-to-sabotage/",
         "title": "A Young Lady's Guide to Sabotage",
         "opening_date": "2026-03-05",
@@ -33081,6 +33222,85 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "carol-yazdiya": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Madame"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-young-frankenstein/",
+        "title": "Young Frankenstein",
+        "opening_date": "2026-06-05",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2026-Young-Frankenstein.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-the-wizard-of-oz/",
+        "title": "The Wizard of Oz",
+        "opening_date": "2025-08-08",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-The-Wizard-of-Oz.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-cry-baby-the-musical/",
+        "title": "Cry-Baby: The Musical",
+        "opening_date": "2025-01-17",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-Cry-Baby-The-Musical.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-annie-get-your-gun/",
+        "title": "Annie Get Your Gun",
+        "opening_date": "2024-08-16",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2024-Annie-Get-Your-Gun.webp",
+        "credits": [
+          "Dolly Tate"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-footloose/",
+        "title": "Footloose",
+        "opening_date": "2023-08-18",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2023-Footloose.webp",
+        "credits": [
+          "Betty"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "carole-ficheria": {
@@ -33426,6 +33646,18 @@
         "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
         "credits": [
           "Betany"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Esmeralda"
         ]
       },
       {
@@ -46180,6 +46412,12 @@
     ],
     "orchestra": []
   },
+  "dallas-raulins": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "dan-robillard": {
     "cast": [],
     "understudies": [],
@@ -46946,6 +47184,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "daniel-ouellette": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Saint Aphrodisius"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "daniel-starling": {
@@ -66012,6 +66269,49 @@
     ],
     "orchestra": []
   },
+  "elizabeth-schurko": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-tarzan/",
+        "title": "Tarzan",
+        "opening_date": "2026-02-27",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Tarzan.webp?v=073514",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "elizabeth-turner": {
     "cast": [
       {
@@ -66415,6 +66715,25 @@
         "featured_image": "2024-A-Dolls-House-Part-2.webp",
         "credits": [
           "Emmy"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "ellamae-turknett": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
         ]
       }
     ],
@@ -71086,6 +71405,62 @@
     ],
     "orchestra": []
   },
+  "emily-sullivan": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-the-mikado/",
+        "title": "The Mikado",
+        "opening_date": "2026-03-20",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Mikado.webp",
+        "credits": [
+          "Chorus"
+        ]
+      }
+    ],
+    "understudies": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Florika"
+        ]
+      }
+    ],
+    "crew": [],
+    "orchestra": []
+  },
   "emily-swallow": {
     "cast": [
       {
@@ -72387,6 +72762,12 @@
       }
     ]
   },
+  "erin-flower": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "erin-leigh-knowles": {
     "cast": [
       {
@@ -72633,6 +73014,12 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "erin-wade": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "ernest-goldsmith": {
@@ -80638,6 +81025,12 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "gage-corbett": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "galdys-dale": {
@@ -92242,6 +92635,50 @@
     "crew": [],
     "orchestra": []
   },
+  "hailee-ketterer": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-sweeney-todd/",
+        "title": "Sweeney Todd",
+        "opening_date": "2026-03-20",
+        "approx_date": "",
+        "theatre": "Swoop Troupe",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Sweeney-Todd.webp",
+        "credits": [
+          "Stage Manager",
+          "Backstage Crew"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-alice-by-heart/",
+        "title": "Alice by Heart",
+        "opening_date": "2026-02-06",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2026-Alice-by-Heart.webp",
+        "credits": [
+          "Assistant Director"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-oliver/",
+        "title": "Oliver!",
+        "opening_date": "2025-07-17",
+        "approx_date": "",
+        "theatre": "River City Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2025-Oliver!.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "hailey-hendrickson": {
     "cast": [
       {
@@ -94245,6 +94682,12 @@
     ],
     "orchestra": []
   },
+  "hannah-barrow": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "hannah-shaeffer": {
     "cast": [
       {
@@ -94781,6 +95224,18 @@
   "harper-reed": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-play-that-goes-wrong/",
+        "title": "The Play That Goes Wrong",
+        "opening_date": "2026-07-24",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
+        "credits": [
+          "Phil/Understudy"
+        ]
+      },
+      {
         "permalink": "/productions/2026-alice-by-heart/",
         "title": "Alice by Heart",
         "opening_date": "2026-02-06",
@@ -94793,20 +95248,7 @@
         ]
       }
     ],
-    "understudies": [
-      {
-        "permalink": "/productions/2026-the-play-that-goes-wrong/",
-        "title": "The Play That Goes Wrong",
-        "opening_date": "2026-07-24",
-        "approx_date": "",
-        "theatre": "Players by the Sea",
-        "venue": "John McManus Mainstage Theatre",
-        "featured_image": "2026-The-Play-That-Goes-Wrong.webp",
-        "credits": [
-          "Phil"
-        ]
-      }
-    ],
+    "understudies": [],
     "crew": [],
     "orchestra": []
   },
@@ -96646,6 +97088,50 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "hecate-smith": {
+    "cast": [
+      {
+        "permalink": "/productions/2023-suor-angelica/",
+        "title": "Suor Angelica",
+        "opening_date": "2023-09-22",
+        "approx_date": "",
+        "theatre": "Bold City Opera",
+        "venue": "St. John's Cathedral",
+        "featured_image": "2023-Suor-Angelica.webp",
+        "credits": [
+          "La Suora Zelatrice"
+        ]
+      },
+      {
+        "permalink": "/productions/2022-ragtime-musical/",
+        "title": "Ragtime",
+        "opening_date": "2022-06-10",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2022_Ragtime.webp",
+        "credits": [
+          "Sarah's Friend"
+        ]
+      }
+    ],
+    "understudies": [
+      {
+        "permalink": "/productions/2023-suor-angelica/",
+        "title": "Suor Angelica",
+        "opening_date": "2023-09-22",
+        "approx_date": "",
+        "theatre": "Bold City Opera",
+        "venue": "St. John's Cathedral",
+        "featured_image": "2023-Suor-Angelica.webp",
+        "credits": [
+          "La Zia Principessa"
+        ]
+      }
+    ],
+    "crew": [],
     "orchestra": []
   },
   "heidi-meyer": {
@@ -100325,6 +100811,12 @@
     "crew": [],
     "orchestra": []
   },
+  "ian-rivera": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "ilana-marshall": {
     "cast": [
       {
@@ -102883,6 +103375,18 @@
   },
   "jack-davis": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Jehan Frollo"
+        ]
+      },
       {
         "permalink": "/productions/2025-the-sound-of-music/",
         "title": "The Sound of Music",
@@ -107378,6 +107882,25 @@
         "featured_image": "",
         "credits": [
           "Bernice Niemeyer"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "jarvis-ramil": {
+    "cast": [
+      {
+        "permalink": "/productions/2024-bluebeards-castle/",
+        "title": "Bluebeard's Castle",
+        "opening_date": "2024-10-25",
+        "approx_date": "",
+        "theatre": "Bold City Opera",
+        "venue": "Riverside Church at Park and King",
+        "featured_image": "2024-Bluebeards-Castle.webp",
+        "credits": [
+          "Bard"
         ]
       }
     ],
@@ -125547,6 +126070,49 @@
     ],
     "orchestra": []
   },
+  "juliana-williams": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-how-to-succeed-in-business-without-really-trying/",
+        "title": "How to Succeed in Business Without Really Trying",
+        "opening_date": "2026-07-16",
+        "approx_date": "",
+        "theatre": "Act II Players",
+        "venue": "Mandarin United Methodist Church Theatre",
+        "featured_image": "2026-How-to-Succeed-in-Business-Without-Really-Trying.webp",
+        "credits": [
+          "Executives and Secretaries (Ensemble)"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-bright-star/",
+        "title": "Bright Star",
+        "opening_date": "2025-07-17",
+        "approx_date": "",
+        "theatre": "Act II Players",
+        "venue": "Mandarin United Methodist Church Theatre",
+        "featured_image": "2025-Bright-Star.webp",
+        "credits": [
+          "Margo"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "julie-harrington": {
     "cast": [
       {
@@ -128885,6 +129451,12 @@
         ]
       }
     ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "kate-patterson": {
+    "cast": [],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -138579,6 +139151,50 @@
     "crew": [],
     "orchestra": []
   },
+  "lauren-massais": {
+    "cast": [
+      {
+        "permalink": "/productions/2024-cabaret/",
+        "title": "Cabaret",
+        "opening_date": "2024-05-31",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2024-Cabaret.webp",
+        "credits": [
+          "Kit Kat Girls"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-shrek-the-musical/",
+        "title": "Shrek the Musical",
+        "opening_date": "2026-06-18",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Shrek.webp",
+        "credits": [
+          "Wardrobe/Makeup"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-sweeney-todd/",
+        "title": "Sweeney Todd",
+        "opening_date": "2026-03-20",
+        "approx_date": "",
+        "theatre": "Swoop Troupe",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Sweeney-Todd.webp",
+        "credits": [
+          "Costume Designer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "lauren-murray": {
     "cast": [
       {
@@ -142147,6 +142763,18 @@
   "lisa-fleming": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
         "permalink": "/productions/2025-chicago/",
         "title": "Chicago",
         "opening_date": "2025-05-23",
@@ -142196,6 +142824,18 @@
       }
     ],
     "understudies": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Madame"
+        ]
+      },
       {
         "permalink": "/productions/2023-the-prom/",
         "title": "The Prom",
@@ -145626,6 +146266,12 @@
     "crew": [],
     "orchestra": []
   },
+  "luke-hopper": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "luwam-yikuno": {
     "cast": [
       {
@@ -146127,6 +146773,73 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "maddie-higdon": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Clopin Trouillefou"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-rock-of-ages/",
+        "title": "Rock of Ages",
+        "opening_date": "2025-05-30",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-Rock-of-Ages.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-cry-baby-the-musical/",
+        "title": "Cry-Baby: The Musical",
+        "opening_date": "2025-01-17",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-Cry-Baby-The-Musical.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-be-more-chill-2/",
+        "title": "Be More Chill",
+        "opening_date": "2024-06-15",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2024-Be-More-Chill-2.webp",
+        "credits": [
+          "Jenna"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-the-little-mermaid/",
+        "title": "The Little Mermaid",
+        "opening_date": "2023-07-14",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2023-The-Little-Mermaid.webp",
+        "credits": [
+          "Adella"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "madelene-skinner": {
@@ -166400,6 +167113,12 @@
     ],
     "orchestra": []
   },
+  "michael-taylor": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "michelle-c-lindsay": {
     "cast": [],
     "understudies": [],
@@ -171389,6 +172108,49 @@
         "featured_image": "",
         "credits": [
           "Nettie Minick"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "mya-smoak": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-funny-girl/",
+        "title": "Funny Girl",
+        "opening_date": "2025-02-21",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2025-Funny-Girl.webp",
+        "credits": [
+          "Mrs. O'Malley/Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-jekyll-and-hyde/",
+        "title": "Jekyll & Hyde",
+        "opening_date": "2024-10-18",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2024-Jekyll-and-Hyde.webp",
+        "credits": [
+          "Ensemble"
         ]
       }
     ],
@@ -186238,6 +187000,12 @@
     ],
     "orchestra": []
   },
+  "peyton-bennett": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "phaedra-smith": {
     "cast": [
       {
@@ -190810,6 +191578,37 @@
     ],
     "orchestra": []
   },
+  "reagan-stoker": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "rebecca-warner": {
     "cast": [
       {
@@ -192896,6 +193695,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "ricky-fields": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Claude Frollo"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "rik-snyder": {
@@ -199633,6 +200451,12 @@
         ]
       }
     ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "rowan-gilmore": {
+    "cast": [],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -209842,6 +210666,49 @@
     "crew": [],
     "orchestra": []
   },
+  "silvana-perez-castillo": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-sweeney-todd/",
+        "title": "Sweeney Todd",
+        "opening_date": "2026-03-20",
+        "approx_date": "",
+        "theatre": "Swoop Troupe",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Sweeney-Todd.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-chicago/",
+        "title": "Chicago",
+        "opening_date": "2025-05-23",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Riverside Church at Park and King",
+        "featured_image": "2025-Chicago.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "simone-aden-reid": {
     "cast": [
       {
@@ -214483,6 +215350,49 @@
     "crew": [],
     "orchestra": []
   },
+  "summer-dees": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Cha Cha"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-disaster/",
+        "title": "Disaster!",
+        "opening_date": "2026-05-01",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-Disaster!.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "susan-carcaba": {
     "cast": [
       {
@@ -215740,6 +216650,18 @@
   },
   "sydney-wissinger": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Florika"
+        ]
+      },
       {
         "permalink": "/productions/2025-the-sound-of-music/",
         "title": "The Sound of Music",
@@ -217656,6 +218578,18 @@
   },
   "terry-starr": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Quasimodo"
+        ]
+      },
       {
         "permalink": "/productions/2026-disaster/",
         "title": "Disaster!",
@@ -231571,6 +232505,25 @@
         ]
       }
     ],
+    "crew": [],
+    "orchestra": []
+  },
+  "zaria-hood-washington": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
     "crew": [],
     "orchestra": []
   },

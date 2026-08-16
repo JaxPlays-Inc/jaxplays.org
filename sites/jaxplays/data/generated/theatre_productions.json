@@ -28702,6 +28702,30 @@
   ],
   "greenlight-theatre-company": [
     {
+      "title": "The Hunchback of Notre Dame",
+      "url": "/productions/2026-the-hunchback-of-notre-dame/",
+      "contentPath": "productions/2026/2026-The-Hunchback-of-Notre-Dame",
+      "poster": "/media/posters/2026-The-Hunchback-of-Notre-Dame.webp",
+      "posterAlt": "Quasimodo stands beneath the title treatment in Greenlight Theatre Company's The Hunchback of Notre Dame.",
+      "openingDate": "2026-08-14",
+      "closingDate": "2026-08-23",
+      "openingLabel": "Aug 14, 2026",
+      "openingMonthLabel": "August 2026",
+      "openingBadgeLabel": "Aug 14, 2026",
+      "closingLabel": "Aug 23, 2026",
+      "theatre": "Greenlight Theatre Company",
+      "venues": [],
+      "allVenues": [
+        "Greenlight Theatre Company"
+      ],
+      "genres": [
+        "Musical"
+      ],
+      "summary": "Greenlight Theatre Company's The Hunchback of Notre Dame follows Quasimodo, the bell-ringer of Notre Dame, and his longing to join the outside world.",
+      "tickets": "https://www.greenlighttheatreco.com/jaxonstage",
+      "searchBase": "the hunchback of notre dame aug 14, 2026 aug 23, 2026 greenlight theatre company greenlight theatre company musical greenlight theatre company's the hunchback of notre dame follows quasimodo, the bell-ringer of notre dame, and his longing to join the outside world."
+    },
+    {
       "title": "Let's Make Music Together",
       "url": "/productions/2026-lets-make-music-together/",
       "contentPath": "productions/2026/2026-Lets-Make-Music-Together",
