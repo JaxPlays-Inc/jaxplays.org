@@ -36,6 +36,7 @@ cast:
       - Marquia Presley
       - Reign Supreme
 crew:
+  - Playwright: Niveah Glover
   - Director: James F. Webb III
 orchestra:
 source: JAMS event page, Jacksonville Today article, and Callas poster

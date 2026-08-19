@@ -32,6 +32,7 @@ cast:
   - Zeke King: Israel Haynes
   - Cornell King: Ithiell B. Yisrael
 crew:
+  - Playwright: Niveah Glover
   - Director: Jereme Raickett
 orchestra:
 source: JAMS event page, Jacksonville Today article, and JAX-5781 Linear issue guest/cast listing
