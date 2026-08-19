@@ -25456,6 +25456,31 @@
     "searchBase": "bright star jul 17, 2025 jul 20, 2025 act ii players mandarin united methodist church theatre musical drama this production is directed by jacksonville native juliet fixel (nyc choreographer, director, and owner/artistic director of jfix productions and choreography), ava fixel (artistic director of act ii players), and ell..."
   },
   {
+    "title": "Callas",
+    "url": "/productions/2025-callas/",
+    "contentPath": "productions/2025/2025-Callas",
+    "poster": "/media/posters/2025-Callas.webp",
+    "posterAlt": "Poster for Callas, with yellow title text over a red background and an illustration of calla lilies.",
+    "openingDate": "2025-08-01",
+    "closingDate": "2025-08-03",
+    "openingLabel": "Aug 1, 2025",
+    "openingMonthLabel": "August 2025",
+    "openingBadgeLabel": "Aug 1, 2025",
+    "closingLabel": "Aug 3, 2025",
+    "theatre": "JAMS Black Box Theatre",
+    "venues": [],
+    "allVenues": [
+      "JAMS Black Box Theatre"
+    ],
+    "genres": [
+      "Play",
+      "Drama"
+    ],
+    "summary": "Callas is a feature-length drama about three sisters navigating grief, family and their uncertain futures on the morning of their mother's viewing.",
+    "tickets": "https://jamslife.networkforgood.com/events/88854-callas-the-play",
+    "searchBase": "callas aug 1, 2025 aug 3, 2025 jams black box theatre jams black box theatre play drama callas is a feature-length drama about three sisters navigating grief, family and their uncertain futures on the morning of their mother's viewing."
+  },
+  {
     "title": "Carmen",
     "url": "/productions/2025-carmen/",
     "contentPath": "productions/2025/2025-Carmen",
@@ -31482,6 +31507,31 @@
     "summary": "A scarred young woman crosses the 1960s American South in search of healing and discovers a more complicated kind of grace.",
     "tickets": "https://ci.ovationtix.com/34877/production/1258981",
     "searchBase": "violet jun 12, 2026 jun 28, 2026 players by the sea john mcmanus mainstage theatre musical drama a scarred young woman crosses the 1960s american south in search of healing and discovers a more complicated kind of grace."
+  },
+  {
+    "title": "When Kingdom Comes",
+    "url": "/productions/2026-when-kingdom-comes/",
+    "contentPath": "productions/2026/2026-When-Kingdom-Comes",
+    "poster": "/media/posters/2026-When-Kingdom-Comes.webp",
+    "posterAlt": "Poster for When Kingdom Comes, with gold gothic lettering over a dark purple background, shadowed figures and a house framed by orange trees.",
+    "openingDate": "2026-08-20",
+    "closingDate": "2026-08-23",
+    "openingLabel": "Aug 20, 2026",
+    "openingMonthLabel": "August 2026",
+    "openingBadgeLabel": "Aug 20, 2026",
+    "closingLabel": "Aug 23, 2026",
+    "theatre": "JAMS Black Box Theatre",
+    "venues": [],
+    "allVenues": [
+      "JAMS Black Box Theatre"
+    ],
+    "genres": [
+      "Play",
+      "Drama"
+    ],
+    "summary": "When Kingdom Comes is a modern tragedy about five estranged siblings who reunite to read their father's will after the death of legendary blues musician Cornell \"Titan\" King.",
+    "tickets": "https://jamslife.networkforgood.com/events/102628-when-kingdom-comes?utm_source=jaxplays&utm_medium=web&utm_content=ticket_link",
+    "searchBase": "when kingdom comes aug 20, 2026 aug 23, 2026 jams black box theatre jams black box theatre play drama when kingdom comes is a modern tragedy about five estranged siblings who reunite to read their father's will after the death of legendary blues musician cornell \"titan\" king."
   },
   {
     "title": "Young Frankenstein",

@@ -11,10 +11,13 @@ roles:
 socials:
   facebook: 
   twitter: 
-  instagram: 
+  instagram: skylargougeoffical
   linkedin: 
   ibdb: 
   imdb:
   website:
+  bluesky:
+  backstage:
+  threads:
 ---
-Skylar (She/Her) is a sophomore at St. Augustine High School and is a member of St. Johns County Center for the Arts in the musical theater, theater and dance programs. Skylar has many years of acting under her belt and was nominated for a Applause Award in 2024 for her role as Quince in her school’s production of the Dream on Royal Street.
+Skylar Gouge is a senior at St. Augustine High School and a member of the St. Johns County Center for the Arts theater, musical theater and dance programs. She has many years of acting experience and was nominated for a 2024 Applause Award for Best Supporting Actor for her role as Quince in her school's production of *The Dream on Royal Street*.

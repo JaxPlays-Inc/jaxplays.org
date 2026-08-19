@@ -6753,6 +6753,25 @@
     "crew": [],
     "orchestra": []
   },
+  "andrea-mauldin": {
+    "cast": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "andrea-mccook": {
     "cast": [
       {
@@ -45512,7 +45531,20 @@
     "cast": [],
     "understudies": [],
     "crew": [],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Drums"
+        ]
+      }
+    ]
   },
   "craig-sherman": {
     "cast": [
@@ -103139,6 +103171,18 @@
   "israel-haynes": {
     "cast": [
       {
+        "permalink": "/productions/2026-when-kingdom-comes/",
+        "title": "When Kingdom Comes",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2026-When-Kingdom-Comes.webp",
+        "credits": [
+          "Zeke King"
+        ]
+      },
+      {
         "permalink": "/productions/2026-once-on-this-island/",
         "title": "Once On This Island",
         "opening_date": "2026-05-07",
@@ -103177,6 +103221,25 @@
         ]
       }
     ],
+    "crew": [],
+    "orchestra": []
+  },
+  "ithiell-b-yisrael": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-when-kingdom-comes/",
+        "title": "When Kingdom Comes",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2026-When-Kingdom-Comes.webp",
+        "credits": [
+          "Cornell King"
+        ]
+      }
+    ],
+    "understudies": [],
     "crew": [],
     "orchestra": []
   },
@@ -105550,6 +105613,25 @@
     ],
     "orchestra": []
   },
+  "jahquez-fudge": {
+    "cast": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "jake-ayres": {
     "cast": [
       {
@@ -106177,7 +106259,20 @@
       }
     ],
     "understudies": [],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Director"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "james-hicken": {
@@ -113657,6 +113752,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-when-kingdom-comes/",
+        "title": "When Kingdom Comes",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2026-When-Kingdom-Comes.webp",
+        "credits": [
+          "Director"
+        ]
+      },
       {
         "permalink": "/productions/2025-waitress/",
         "title": "Waitress",
@@ -128381,6 +128488,49 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "kanesha-mitchell": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Belinda"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-sister-act/",
+        "title": "Sister Act",
+        "opening_date": "2025-11-01",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2025-Sister-Act.webp",
+        "credits": [
+          "Deloris Van Cartier"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "kareen-taylor": {
@@ -155719,6 +155869,73 @@
     ],
     "orchestra": []
   },
+  "marquia-presley": {
+    "cast": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-the-ripple-the-wave-that-carried-me-home/",
+        "title": "The Ripple, The Wave That Carried Me Home",
+        "opening_date": "2024-08-16",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2024-the-ripple-the-wave-that-carried-me-home.webp",
+        "credits": [
+          "Helen"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-the-color-purple/",
+        "title": "The Color Purple",
+        "opening_date": "2024-04-06",
+        "approx_date": "",
+        "theatre": "Stage Aurora Theatrical Company",
+        "venue": "FSCJ Kent Campus Auditorium",
+        "featured_image": "2024-The-Color-Purple.webp",
+        "credits": [
+          "Church Lady"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2023-11-10",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023-Escape-to-Margaritaville-01.webp",
+        "credits": [
+          "Marley"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-clydes/",
+        "title": "Clyde's",
+        "opening_date": "2023-06-09",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2023_Clydes.png",
+        "credits": [
+          "Clyde"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "marsha-fink": {
     "cast": [],
     "understudies": [],
@@ -169791,6 +170008,25 @@
     ],
     "orchestra": []
   },
+  "milan-falls": {
+    "cast": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "mildred-carswell": {
     "cast": [
       {
@@ -177394,6 +177630,37 @@
         "featured_image": "",
         "credits": [
           "Costume Crew"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "niveah-glover": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-when-kingdom-comes/",
+        "title": "When Kingdom Comes",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2026-When-Kingdom-Comes.webp",
+        "credits": [
+          "Playwright"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Playwright"
         ]
       }
     ],
@@ -188786,7 +189053,20 @@
     "cast": [],
     "understudies": [],
     "crew": [],
-    "orchestra": []
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Violin"
+        ]
+      }
+    ]
   },
   "philip-s-may": {
     "cast": [
@@ -192643,6 +192923,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "reign-supreme": {
+    "cast": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "rem-farr": {
@@ -233365,6 +233664,25 @@
         ]
       }
     ],
+    "crew": [],
+    "orchestra": []
+  },
+  "zahara-mauldin": {
+    "cast": [
+      {
+        "permalink": "/productions/2025-callas/",
+        "title": "Callas",
+        "opening_date": "2025-08-01",
+        "approx_date": "",
+        "theatre": "JAMS Black Box Theatre",
+        "venue": "JAMS Black Box Theatre",
+        "featured_image": "2025-Callas.webp",
+        "credits": [
+          "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
     "crew": [],
     "orchestra": []
   },
