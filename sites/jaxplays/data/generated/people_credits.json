@@ -519,6 +519,37 @@
     ],
     "orchestra": []
   },
+  "aaron-kinman": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Bass"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-my-fair-lady/",
+        "title": "My Fair Lady",
+        "opening_date": "2026-06-05",
+        "approx_date": "",
+        "theatre": "Artist Connection Theatre",
+        "venue": "Artist Connection Theatre",
+        "featured_image": "2026-My-Fair-Lady.webp",
+        "credits": [
+          "Double Bass"
+        ]
+      }
+    ]
+  },
   "aaron-mccaskill": {
     "cast": [
       {
@@ -12591,6 +12622,25 @@
     "crew": [],
     "orchestra": []
   },
+  "asa-currington": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Set Construction"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "ashia-collins": {
     "cast": [
       {
@@ -13959,6 +14009,25 @@
         "featured_image": "2024-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp",
         "credits": [
           "Dan"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "austin-bailly": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Gabe Goodman"
         ]
       }
     ],
@@ -29365,6 +29434,137 @@
         "featured_image": "",
         "credits": [
           "Building and Painting Crew"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "bryce-cofield": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Dr. Fine / Dr. Madden"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Technical Director"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-shrek-the-musical/",
+        "title": "Shrek the Musical",
+        "opening_date": "2026-06-18",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Shrek.webp",
+        "credits": [
+          "Set Construction",
+          "Puppetry/Special Effects Design"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-bing/",
+        "title": "Bing!",
+        "opening_date": "2024-10-29",
+        "approx_date": "",
+        "theatre": "All Beaches Experimental Theatre",
+        "venue": "Adele Grage Cultural Center",
+        "featured_image": "2024-Bing!.webp",
+        "credits": [
+          "Lighting Technician",
+          "Sound Technician"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-the-near-disaster-of-jasper-and-casper/",
+        "title": "The Near Disaster of Jasper and Casper",
+        "opening_date": "2024-04-25",
+        "approx_date": "",
+        "theatre": "Jason Woods Productions",
+        "venue": "Adele Grage Cultural Center",
+        "featured_image": "2024-The-Near-Disaster-of-Jasper-&-Casper.webp",
+        "credits": [
+          "Lighting Technician",
+          "Sound Technician"
+        ]
+      },
+      {
+        "permalink": "/productions/2020-how-to-succeed-in-business-without-really-trying/",
+        "title": "How to Succeed in Business Without Really Trying",
+        "opening_date": "2020-02-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2020_How_to_Succeed_in_Business_Without_Really_Trying_(musical).png",
+        "credits": [
+          "Assistant Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2020-love-letters/",
+        "title": "Love Letters",
+        "opening_date": "2020-01-09",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "",
+        "featured_image": "",
+        "credits": [
+          "Assistant Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2019-elf/",
+        "title": "Elf",
+        "opening_date": "2019-11-27",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2018-Elf.webp",
+        "credits": [
+          "Assistant Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2019-brighton-beach-memoirs/",
+        "title": "Brighton Beach Memoirs",
+        "opening_date": "2019-09-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2019-Brighton-Beach-Memoirs.webp",
+        "credits": [
+          "Assistance Stage Manager"
+        ]
+      },
+      {
+        "permalink": "/productions/2018-wait-until-dark/",
+        "title": "Wait Until Dark",
+        "opening_date": "2018-10-26",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "Adele Grage Cultural Center",
+        "featured_image": "Wait-Until-Dark-1966-Playbill.webp",
+        "credits": [
+          "Special thanks"
         ]
       }
     ],
@@ -45308,6 +45508,12 @@
     ],
     "orchestra": []
   },
+  "craig-reagor": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "craig-sherman": {
     "cast": [
       {
@@ -46231,6 +46437,25 @@
         "featured_image": "",
         "credits": [
           "Babe Botrelle"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "dj-wardlow": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Henry"
         ]
       }
     ],
@@ -47427,6 +47652,25 @@
     "crew": [],
     "orchestra": []
   },
+  "daniel-partenie": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "3D Motion Designer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "daniel-starling": {
     "cast": [
       {
@@ -47695,7 +47939,7 @@
         "venue": "Amelia Musical Playhouse",
         "featured_image": "2026-Annie.webp",
         "credits": [
-          "Star to Be/Boylan Sister"
+          "Star to Be / Boylan Sister"
         ]
       },
       {
@@ -76294,6 +76538,75 @@
       }
     ],
     "orchestra": []
+  },
+  "evan-bowen": {
+    "cast": [
+      {
+        "permalink": "/productions/2023-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2023-11-10",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023-Escape-to-Margaritaville-01.webp",
+        "credits": [
+          "Tully"
+        ]
+      },
+      {
+        "permalink": "/productions/2022-ragtime-musical/",
+        "title": "Ragtime",
+        "opening_date": "2022-06-10",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2022_Ragtime.webp",
+        "credits": [
+          "Harry K. Thaw",
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Guitar"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-godspell/",
+        "title": "Godspell",
+        "opening_date": "2026-03-26",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Godspell.webp",
+        "credits": [
+          "Guitar"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-first-date/",
+        "title": "First Date",
+        "opening_date": "2024-04-18",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2024-First-Date.webp",
+        "credits": [
+          "Guitar"
+        ]
+      }
+    ]
   },
   "evan-gould": {
     "cast": [
@@ -116476,7 +116789,7 @@
         "venue": "Amelia Musical Playhouse",
         "featured_image": "2026-Annie.webp",
         "credits": [
-          "Rooster/Bundles/Radio Announcer"
+          "Rooster / Bundles / Radio Announcer"
         ]
       },
       {
@@ -164288,6 +164601,25 @@
     ],
     "orchestra": []
   },
+  "megan-herrman": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": [
+      {
+        "permalink": "/productions/2026-next-to-normal/",
+        "title": "Next to Normal",
+        "opening_date": "2026-08-13",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Blackbox",
+        "featured_image": "2026-Next-To-Normal.webp",
+        "credits": [
+          "Cello"
+        ]
+      }
+    ]
+  },
   "megan-rodriguez": {
     "cast": [
       {
@@ -188448,6 +188780,12 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "philip-pan": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "philip-s-may": {

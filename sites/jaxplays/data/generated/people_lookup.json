@@ -49,6 +49,11 @@
     "permalink": "/people/aaron-decicco/",
     "featured_image": "Aaron-DeCicco.webp"
   },
+  "aaron-kinman": {
+    "title": "Aaron Kinman",
+    "permalink": "/people/aaron-kinman/",
+    "featured_image": "Aaron-Kinman.webp"
+  },
   "aaron-mccaskill": {
     "title": "Aaron McCaskill",
     "permalink": "/people/aaron-mccaskill/",
@@ -774,6 +779,11 @@
     "permalink": "/people/arthur-gutman/",
     "featured_image": ""
   },
+  "asa-currington": {
+    "title": "Asa Currington",
+    "permalink": "/people/asa-currington/",
+    "featured_image": "Asa-Currington.webp"
+  },
   "ashia-collins": {
     "title": "Ashia Collins",
     "permalink": "/people/ashia-collins/",
@@ -883,6 +893,11 @@
     "title": "Augustino Pulliam",
     "permalink": "/people/augustino-pulliam/",
     "featured_image": "Augustino-Pulliam.webp"
+  },
+  "austin-bailly": {
+    "title": "Austin Bailly",
+    "permalink": "/people/austin-bailly/",
+    "featured_image": "Austin-Bailly.webp"
   },
   "austin-burney": {
     "title": "Austin Burney",
@@ -1387,12 +1402,12 @@
   "blake-michael-osner": {
     "title": "Blake Michael Osner",
     "permalink": "/people/blake-michael-osner/",
-    "featured_image": "Blake-Michael-Osner.webp"
+    "featured_image": "Blake-Michael-Osner-01.webp"
   },
   "blake-osner": {
     "title": "Blake Michael Osner",
     "permalink": "/people/blake-michael-osner/",
-    "featured_image": "Blake-Michael-Osner.webp"
+    "featured_image": "Blake-Michael-Osner-01.webp"
   },
   "bo-strange": {
     "title": "Bo Strange",
@@ -1788,6 +1803,11 @@
     "title": "Bryant Simms",
     "permalink": "/people/bryant-simms/",
     "featured_image": ""
+  },
+  "bryce-cofield": {
+    "title": "Bryce Cofield",
+    "permalink": "/people/bryce-cofield/",
+    "featured_image": "Bryce-Cofield.webp"
   },
   "bryce-esposito": {
     "title": "Bryce Esposito",
@@ -2749,6 +2769,11 @@
     "permalink": "/people/craig-kassen/",
     "featured_image": ""
   },
+  "craig-reagor": {
+    "title": "Craig Reagor",
+    "permalink": "/people/craig-reagor/",
+    "featured_image": "Craig-Reagor.webp"
+  },
   "craig-sherman": {
     "title": "Craig Sherman",
     "permalink": "/people/craig-sherman/",
@@ -2813,6 +2838,11 @@
     "title": "Cynthia Wooden Kimball",
     "permalink": "/people/cynthia-wooden-kimball/",
     "featured_image": ""
+  },
+  "dj-wardlow": {
+    "title": "DJ Wardlow",
+    "permalink": "/people/dj-wardlow/",
+    "featured_image": "DJ-Wardlow.webp"
   },
   "daisy-bowden-stephens": {
     "title": "Daisy Bowden Stephens",
@@ -2893,6 +2923,11 @@
     "title": "Daniel Ouellette",
     "permalink": "/people/daniel-ouellette/",
     "featured_image": ""
+  },
+  "daniel-partenie": {
+    "title": "Daniel Partenie",
+    "permalink": "/people/daniel-partenie/",
+    "featured_image": "Daniel-Partenie.webp"
   },
   "daniel-starling": {
     "title": "Daniel Starling",
@@ -3907,12 +3942,12 @@
   "ella-escamilla": {
     "title": "Ella Escamilla",
     "permalink": "/people/ella-escamilla/",
-    "featured_image": "Ella-Escamilla.webp"
+    "featured_image": "Ella-Escamilla-01.webp"
   },
   "ella-escamillia": {
     "title": "Ella Escamilla",
     "permalink": "/people/ella-escamilla/",
-    "featured_image": "Ella-Escamilla.webp"
+    "featured_image": "Ella-Escamilla-01.webp"
   },
   "ella-macklin": {
     "title": "Ella Macklin",
@@ -4283,6 +4318,11 @@
     "title": "Eusebia Logue",
     "permalink": "/people/eusebia-logue/",
     "featured_image": ""
+  },
+  "evan-bowen": {
+    "title": "Evan Bowen",
+    "permalink": "/people/evan-bowen/",
+    "featured_image": "Evan-Bowen.webp"
   },
   "evan-gould": {
     "title": "Evan Gould",
@@ -6242,7 +6282,7 @@
   "jessica-alexander": {
     "title": "Jessica Alexander",
     "permalink": "/people/jessica-alexander/",
-    "featured_image": "Jessica-Alexander-01.webp"
+    "featured_image": "Jessica-Alexander-02.webp"
   },
   "jessica-harris": {
     "title": "Jessica Harris",
@@ -6387,7 +6427,7 @@
   "jimmy-alexander": {
     "title": "Jimmy Alexander",
     "permalink": "/people/jimmy-alexander/",
-    "featured_image": "Jimmy-Alexander.webp"
+    "featured_image": "Jimmy-Alexander-01.webp"
   },
   "jimmy-aquino": {
     "title": "Jimmy Aquino",
@@ -7377,7 +7417,7 @@
   "keith-teepen": {
     "title": "Keith Teepen",
     "permalink": "/people/keith-teepen/",
-    "featured_image": "Keith-Teepen_1.webp"
+    "featured_image": "Keith-Teepen-02.webp"
   },
   "kelly-hart": {
     "title": "Kelly Hart",
@@ -8587,7 +8627,7 @@
   "mark-dougherty": {
     "title": "Mark Dougherty",
     "permalink": "/people/mark-dougherty/",
-    "featured_image": "Mark-Dougherty.webp"
+    "featured_image": "Mark-Dougherty-01.webp"
   },
   "mark-freiman": {
     "title": "Mark Freiman",
@@ -8887,7 +8927,7 @@
   "matt-morgan": {
     "title": "Matt Morgan",
     "permalink": "/people/matt-morgan/",
-    "featured_image": "Matt-Morgan.webp"
+    "featured_image": "Matt-Morgan-01.webp"
   },
   "matt-urban": {
     "title": "Matt Urban",
@@ -9023,6 +9063,11 @@
     "title": "Megan Elsila",
     "permalink": "/people/megan-elsila/",
     "featured_image": ""
+  },
+  "megan-herrman": {
+    "title": "Megan Herrman",
+    "permalink": "/people/megan-herrman/",
+    "featured_image": "Megan-Herrman.webp"
   },
   "megan-rodriguez": {
     "title": "Megan Rodriguez",
@@ -10272,7 +10317,7 @@
   "phedre-delinois": {
     "title": "Phedre Delinois",
     "permalink": "/people/phedre-delinois/",
-    "featured_image": "Phedre-Delinois-01.webp"
+    "featured_image": "Phedre-Delinois-03.webp"
   },
   "phil-fitzpatrick": {
     "title": "Phil Fitzpatrick",
@@ -10298,6 +10343,11 @@
     "title": "Philip Meunier",
     "permalink": "/people/philip-meunier/",
     "featured_image": ""
+  },
+  "philip-pan": {
+    "title": "Philip Pan",
+    "permalink": "/people/philip-pan/",
+    "featured_image": "Philip-Pan.webp"
   },
   "philip-s-may": {
     "title": "Philip S. May",
@@ -10647,7 +10697,7 @@
   "rick-cirucci": {
     "title": "Rick Cirucci",
     "permalink": "/people/rick-cirucci/",
-    "featured_image": "Rick-Cirucci.webp"
+    "featured_image": "Rick-Cirucci-01.webp"
   },
   "rick-despain": {
     "title": "Rick DeSpain",
@@ -12312,7 +12362,7 @@
   "tyler-hammond": {
     "title": "Tyler Hammond",
     "permalink": "/people/tyler-hammond/",
-    "featured_image": "Tyler-Hammond-01.webp"
+    "featured_image": "Tyler-Hammond-02.webp"
   },
   "tyler-lewis-wardle": {
     "title": "Tyler Lewis Wardle",

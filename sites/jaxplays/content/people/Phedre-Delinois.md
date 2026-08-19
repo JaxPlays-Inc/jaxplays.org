@@ -1,11 +1,13 @@
 ---
 title: Phedre Delinois
 date: '2026-07-11T09:13:33-04:00'
-featured_image: Phedre-Delinois-01.webp
+featured_image: Phedre-Delinois-03.webp
 featured_image_attr: null
 featured_image_attr_link: null
 featured_image_alt: null
 featured_image_caption: null
+headshot_gallery:
+- image: Phedre-Delinois-01.webp
 roles:
 - Actor
 - Costume Designer

@@ -1,9 +1,13 @@
 ---
 title: Rick Cirucci
 date: 2024-07-02T12:05:15-04:00
-featured_image: Rick-Cirucci.webp
-featured_image_attr: Tori Stauffer Photography
-featured_image_attr_link:  https://toristauffer.com/
+featured_image: Rick-Cirucci-01.webp
+featured_image_attr:
+featured_image_attr_link:
+headshot_gallery:
+  - image: Rick-Cirucci.webp
+    attr: Tori Stauffer Photography
+    attr_link: https://toristauffer.com/
 roles:
   - Actor
   - Director

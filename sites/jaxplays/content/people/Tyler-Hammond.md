@@ -1,12 +1,13 @@
 ---
 title: Tyler Hammond
 date: 2026-06-15T22:39:50-04:00
-featured_image: Tyler-Hammond-01.webp
+featured_image: Tyler-Hammond-02.webp
 featured_image_attr: 
 featured_image_attr_link: 
 featured_image_alt: 
 featured_image_caption: 
 headshot_gallery:
+  - image: Tyler-Hammond-01.webp
   - image: Tyler-Hammond.webp
     image_attr: 
     image_attr_link: 
@@ -19,6 +20,7 @@ roles:
   - Lighting Designer
   - Sound Designer
   - Technical Director
+  - Assistant Technical Director
   - Carpenter
 socials:
   facebook: 
