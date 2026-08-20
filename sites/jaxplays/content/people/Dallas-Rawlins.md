@@ -1,10 +1,10 @@
 ---
-title: Dallas Raulins
+title: Dallas Rawlins
 date: 2026-08-15T20:40:00-04:00
 other_names:
-  - Dallas L. Raulins
+  - Dallas L. Rawlins
 alias:
- - /people/dallas-l-raulins
+ - /people/dallas-l-rawlins
 roles:
   - Actor
 ---

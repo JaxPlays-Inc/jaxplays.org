@@ -34,7 +34,7 @@ featuring:
   - Reagan Stoker
   - Gage Corbett
   - Daniel Ouellette
-  - Dallas Raulins
+  - Dallas Rawlins
   - Brandon Smith
   - Lauren Massais
   - Hailee Ketterer
@@ -57,7 +57,7 @@ In the present-day narrative, set in 1482, a grown Quasimodo, partially deafened
 
 From Quasimodo's longing in "Out There," the action moves to the bustling streets of Paris, anchored by a trio of standout performances. [[person:Maddie Higdon]] commands the stage as Clopin, leading the ensemble with captivating flair, vibrant charisma and sharp theatrical energy. [[person:Aaron Burdick]] brings a commanding presence and vocal strength to Captain Phoebus, striking a compelling balance between military authority and grounded charm. Meanwhile, [[person:Caroline Yazdiya]] delivers a fierce performance as Esmeralda, anchored by a powerful, clear voice full of emotional resonance. They are backed by a dynamic group of Roma dancers: Sullivan, [[person:Caitlin Allen]], [[person:Summer Dees]], [[person:Juliana Williams]], [[person:Carol Yazdiya]] and [[person:Sydney Wissinger]], along with incredible ASL signing and performance from [[person:Reagan Stoker]].
 
-The production's rich tapestry is further strengthened by an ensemble of sharp featured turns, including [[person:Gage Corbett]] as the official, [[person:Daniel Ouellette]] as Saint Aphrodisius, Wissinger as Florika and [[person:Dallas Raulins]] as Father Dupin. All add depth and texture to the world of 15th-century Paris.
+The production's rich tapestry is further strengthened by an ensemble of sharp featured turns, including [[person:Gage Corbett]] as the official, [[person:Daniel Ouellette]] as Saint Aphrodisius, Wissinger as Florika and [[person:Dallas Rawlins]] as Father Dupin. All add depth and texture to the world of 15th-century Paris.
 
 Without giving away the full scope of the plot, the production delivers unforgettable peak moments. The soaring, heartfelt staging of "God Help the Outcasts," the charming connection in "Top of the World," the visceral intensity of "Hellfire" and the poignant beauty of "Someday" stand out as true high points of the evening.
 

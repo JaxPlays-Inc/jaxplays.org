@@ -26,7 +26,7 @@ cast:
   - Jehan Frollo: Jack Davis
   - Saint Aphrodisius: Daniel Ouellette
   - Florika: Sydney Wissinger
-  - Father Dupin / King Louis XI: Dallas L. Raulins
+  - Father Dupin / King Louis XI: Dallas L. Rawlins
   - Quasimodo: Terry Star
   - Clopin Trouillefou: Maddie Higdon
   - Captain Phoebus de Martin: Aaron Burdick

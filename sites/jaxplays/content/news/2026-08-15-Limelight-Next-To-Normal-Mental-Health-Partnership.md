@@ -69,7 +69,7 @@ He said that Dan's story may reach men who do not arrive expecting to see themse
 
 The production's mental-health component began, Cirucci said, with a grassroots conversation. After hearing Jessica and Jimmy discuss the project, he approached Jimmy about connecting the show to local mental-health partners.
 
-"I had always been a fan of the the musical and had always thought either next to normal or Dear Evan Hansen would be really interesting to try to build it into something bigger with the community," Cirucci said.
+"I had always been a fan of the the musical and had always thought either *Next to Normal* or *Dear Evan Hansen* would be really interesting to try to build it into something bigger with the community," Cirucci said.
 
 He proposed reaching out to organizations that could help audiences move from emotional response to practical next steps.
 
@@ -79,7 +79,7 @@ A key piece will be the Aug. 23 community conversation matinee, which Cirucci de
 
 Cirucci said the idea is to start with a familiar theatre talkback but make it more purposeful, using the Aug. 23 event to "break down that fourth wall" and ask audience members more than just "Do you have questions?" but "Did something come up that you'd you'd like like to know more about?" Community partners will be available in the atrium before the show, during intermission and afterward for individual conversations that could carry the discussion further.
 
-The production also plans to survey audience interest in future QPR suicide prevention training.
+The production is also [surveying audience interest in future QPR suicide prevention training](https://docs.google.com/forms/d/e/1FAIpQLSdvFInoap6VeTPQVD5rJSDG837I6_8QG9BhDpjV29j8xTNz-w/viewform?pli=1).
 
 "It's trying to see if we can change the dialogue and see if those that do attend would be interested of even taking that next step of doing a two-hour suicide prevention training," Cirucci said. "That's not written in stone. It's more of another kind of thought bubble that Jimmy and I had."
 
