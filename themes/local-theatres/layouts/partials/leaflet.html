@@ -20,21 +20,22 @@
 <!-- Initialize Map -->
 <div id="map{{ .id }}" class="w-90 w-100-ns vh-40-ns vh-25 justify-center"></div>
 <script>
-    // Receive parameters
-    var lat = {{ .Latitude }};
-    var lng = {{ .Longitude }};
-    var title = "{{ .Title }}";
-    var address = "{{ .Address | replaceRE "\\n" "<br>" | safeHTML }}";
-    var minZoom = {{ with .minZoom }}{{ . }}{{ else }}4{{ end }};
-    var maxZoom = {{ with .maxZoom }}{{ . }}{{ else }}20{{ end }};
-    var setZoom = {{ with .setZoom }}{{ . }}{{ else }}15{{ end }};
-    var radius = {{ with .radius }}{{ . }}{{ else }}""{{ end }};
+  (function () {
+    const lat = {{ .Latitude }};
+    const lng = {{ .Longitude }};
+    const title = {{ .Title | default "" | jsonify | safeJS }};
+    const address = {{ .Address | default "" | jsonify | safeJS }};
+    const formattedAddress = address.replace(/\n/g, "<br>");
+    const minZoom = {{ with .minZoom }}{{ . }}{{ else }}4{{ end }};
+    const maxZoom = {{ with .maxZoom }}{{ . }}{{ else }}20{{ end }};
+    const setZoom = {{ with .setZoom }}{{ . }}{{ else }}15{{ end }};
+    const radius = {{ with .radius }}{{ . }}{{ else }}""{{ end }};
 
     // Initialize map with fullscreen control and disabled default zoom control
-    var mapId = 'map' + {{ .id }};
-    var mymap = L.map(mapId, {
-        minZoom: minZoom,
-        maxZoom: maxZoom,
+    const mapId = 'map{{ .id }}';
+    const mymap = L.map(mapId, {
+        minZoom,
+        maxZoom,
         zoomControl: false,
         fullscreenControl: true,
         fullscreenControlOptions: {
@@ -46,15 +47,15 @@
     var zoomHome = L.Control.zoomHome();
     zoomHome.addTo(mymap);
 
-    var openFreeMapStyles = {
+    const openFreeMapStyles = {
         light: 'https://tiles.openfreemap.org/styles/positron',
         dark: 'https://tiles.openfreemap.org/styles/dark'
     };
-    var openFreeMapLayer;
-    var activeOpenFreeMapStyle;
+    let openFreeMapLayer;
+    let activeOpenFreeMapStyle;
 
     function isDarkModeEnabled() {
-        var storedDarkMode = localStorage.getItem('darkMode');
+        const storedDarkMode = localStorage.getItem('darkMode');
         return storedDarkMode === 'enabled' ||
             (window.matchMedia &&
                 window.matchMedia('(prefers-color-scheme: dark)').matches &&
@@ -62,7 +63,7 @@
     }
 
     function setOpenFreeMapStyle() {
-        var nextStyle = isDarkModeEnabled() ? openFreeMapStyles.dark : openFreeMapStyles.light;
+        const nextStyle = isDarkModeEnabled() ? openFreeMapStyles.dark : openFreeMapStyles.light;
 
         if (activeOpenFreeMapStyle === nextStyle) {
             return;
@@ -86,7 +87,7 @@
     });
 
     if (window.matchMedia) {
-        var darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
         if (darkModeQuery.addEventListener) {
             darkModeQuery.addEventListener('change', setOpenFreeMapStyle);
         } else if (darkModeQuery.addListener) {
@@ -94,7 +95,7 @@
         }
     }
 
-    var jaxplaysMarker = L.ExtraMarkers.icon({
+    const jaxplaysMarker = L.ExtraMarkers.icon({
       icon: 'fa-theater-masks',
       markerColor: 'yellow',
       shape: 'circle',
@@ -102,7 +103,7 @@
     });
 
     if (radius) {
-      var circle = L.circle([lat, lng], {
+      L.circle([lat, lng], {
         color: '#ffd316',
         fillColor: '#ffd316',
         fillOpacity: 0.5,
@@ -111,9 +112,10 @@
     }
 
     // Conditionally add a marker and bind popup if title or address exists
-    if (title || address) {
-        var popupContent = "<b>" + title + "</b></br>" + address;
-        var marker = L.marker([lat, lng], {icon: jaxplaysMarker}).bindPopup(popupContent).addTo(mymap);
+    if (title || formattedAddress) {
+        const popupContent = "<b>" + title + "</b></br>" + formattedAddress;
+        const marker = L.marker([lat, lng], {icon: jaxplaysMarker}).bindPopup(popupContent).addTo(mymap);
         marker.openPopup();
     }
+  }());
 </script>
