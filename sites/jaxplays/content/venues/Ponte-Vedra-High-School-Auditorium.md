@@ -8,8 +8,8 @@ featured_image_alt:
 featured_image_caption:
 founded:
 address: |
-    460 Davis Park Rd
-    Ponte Vedra, FL 32081
+  460 Davis Park Rd
+  Ponte Vedra, FL 32081
 latitude: 30.114885
 longitude: -81.394863
 socials:

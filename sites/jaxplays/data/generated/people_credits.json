@@ -2826,6 +2826,18 @@
   "alberto-carlos-peart": {
     "cast": [
       {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Agent Cod"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-battle-of-shallowford/",
         "title": "The Battle Of Shallowford",
         "opening_date": "2026-06-04",
@@ -11168,6 +11180,18 @@
   "anthony-romero": {
     "cast": [
       {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
         "permalink": "/productions/2026-once-on-this-island/",
         "title": "Once On This Island",
         "opening_date": "2026-05-07",
@@ -13137,6 +13161,18 @@
   },
   "ashlynn-amburgey": {
     "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-battle-of-shallowford/",
         "title": "The Battle Of Shallowford",
@@ -29592,6 +29628,18 @@
   "bryce-esposito": {
     "cast": [
       {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Agent Dollar"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-battle-of-shallowford/",
         "title": "The Battle Of Shallowford",
         "opening_date": "2026-06-04",
@@ -36723,6 +36771,18 @@
   },
   "chad-boyd": {
     "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Frank Abagnale Jr."
+        ]
+      },
       {
         "permalink": "/productions/2026-buried-child/",
         "title": "Buried Child",
@@ -46878,7 +46938,7 @@
     ],
     "orchestra": []
   },
-  "dallas-raulins": {
+  "dallas-rawlins": {
     "cast": [
       {
         "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
@@ -46890,6 +46950,42 @@
         "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
         "credits": [
           "Father Dupin / King Louis XI"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-1776/",
+        "title": "1776",
+        "opening_date": "2026-05-14",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-1776.webp",
+        "credits": [
+          "Col. Thomas McKean"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-rock-of-ages/",
+        "title": "Rock of Ages",
+        "opening_date": "2025-05-30",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2025-Rock-of-Ages.webp",
+        "credits": [
+          "Ja'Keith Gill"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-annie-get-your-gun/",
+        "title": "Annie Get Your Gun",
+        "opening_date": "2024-08-16",
+        "approx_date": "",
+        "theatre": "Orange Park Community Theatre",
+        "venue": "Orange Park Community Theatre",
+        "featured_image": "2024-Annie-Get-Your-Gun.webp",
+        "credits": [
+          "Buffalo Bill Cody"
         ]
       }
     ],
@@ -51848,6 +51944,18 @@
         "theatre": "A Classic Theatre",
         "venue": "The Waterworks",
         "featured_image": "2027-Dead-Mans-Cell-Phone.webp",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
         "credits": [
           "Director"
         ]
@@ -109214,6 +109322,21 @@
   "jason-nettle": {
     "cast": [
       {
+        "permalink": "/productions/2026-we-will-never-forget/",
+        "title": "9/11: We Will Never Forget",
+        "opening_date": "2026-09-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": [
+          "Arts Collective Theatre",
+          "Ponte Vedra High School Auditorium"
+        ],
+        "featured_image": "2026-We-Will-Never-Forget-01.webp",
+        "credits": [
+          "Performer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-25th-annual-putnam-county-spelling-bee-1/",
         "title": "The 25th Annual Putnam County Spelling Bee",
         "opening_date": "2026-07-07",
@@ -109252,6 +109375,22 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-we-will-never-forget/",
+        "title": "9/11: We Will Never Forget",
+        "opening_date": "2026-09-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": [
+          "Arts Collective Theatre",
+          "Ponte Vedra High School Auditorium"
+        ],
+        "featured_image": "2026-We-Will-Never-Forget-01.webp",
+        "credits": [
+          "Writer",
+          "Director"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-25th-annual-putnam-county-spelling-bee-1/",
         "title": "The 25th Annual Putnam County Spelling Bee",
@@ -111770,6 +111909,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Music Director"
+        ]
+      },
       {
         "permalink": "/productions/2024-bright-star/",
         "title": "Bright Star",
@@ -121923,6 +122074,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Choreographer"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
         "title": "The Great American Trailer Park Musical",
@@ -163016,6 +163179,18 @@
   "matthew-turnage": {
     "cast": [
       {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Agent Branton"
+        ]
+      },
+      {
         "permalink": "/productions/2026-she-loves-me/",
         "title": "She Loves Me",
         "opening_date": "2026-02-13",
@@ -164304,6 +164479,18 @@
   },
   "max-haddock": {
     "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
       {
         "permalink": "/productions/2025-hairspray/",
         "title": "Hairspray",
@@ -194577,6 +194764,18 @@
   },
   "rick-cirucci": {
     "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Roger Strong"
+        ]
+      },
       {
         "permalink": "/productions/2025-miracle-on-34th-street-a-live-radio-play/",
         "title": "Miracle on 34th Street: A Live Radio Play",
@@ -227892,6 +228091,18 @@
   },
   "via-grendzinski": {
     "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
       {
         "permalink": "/productions/2025-she-loves-me-2/",
         "title": "She Loves Me",
