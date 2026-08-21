@@ -28,8 +28,30 @@ featured_image_attr_link: null
 program: null
 website: https://www.limelight-theatre.org/calendar/on-stage/catch-me-if-you-can
 tickets: https://limelight.ludus.com/200529896
-cast: []
-crew: []
+cast:
+  - Frank Abagnale Jr.: Chad Boyd
+  - Carl Hanratty: David Abraham
+  - Frank Abagnale Sr.: Johnny Jay
+  - Paula Abagnale: Jessica Hardwick
+  - Brenda Strong: Malia Jaffe
+  - Carol Strong: Lindsay Kozlowski
+  - Roger Strong: Rick Cirucci
+  - Agent Cod: Alberto Carlos Peart
+  - Agent Branton: Matthew Turnage
+  - Agent Dollar: Bryce Esposito
+  - Ensemble:
+      - Rose Roberts
+      - Ava Marshall
+      - Ashlynn Amburgey
+      - Jayna Giese
+      - Via Grendzinski
+      - Bridgid Mullen
+      - Max Haddock
+      - Anthony Romero
+crew:
+  - Director: Dawn Knipe
+  - Music Director: Jeff Dodd
+  - Choreographer: Jonathan Chapman
 orchestra: []
 show_details:
   - Book: "[[w:Terrence McNally]]"
