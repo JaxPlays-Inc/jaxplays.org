@@ -21,3 +21,4 @@ socials:
   imdb:
   website:
 ---
+Grace Lewis is a Northeast Florida actor whose recent credits include Robin in *Godspell*, Sister Mary Hubert in *Nunsense*, Marmee in *Little Women* and Detective Debree and others in *The Laramie Project*.

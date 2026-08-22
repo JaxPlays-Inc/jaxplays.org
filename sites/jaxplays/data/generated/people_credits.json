@@ -97727,6 +97727,25 @@
     "crew": [],
     "orchestra": []
   },
+  "heather-quinn": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Pippi"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "heather-starling": {
     "cast": [
       {
@@ -135172,6 +135191,37 @@
         "featured_image": "",
         "credits": [
           "Dr. Jeremiah 'Jerry' Mears"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "keri-green": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Lin"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-home-im-darling/",
+        "title": "Home, I'm Darling",
+        "opening_date": "2025-10-03",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2025-Home-Im-Darling.webp",
+        "credits": [
+          "Judy"
         ]
       }
     ],
@@ -193218,6 +193268,50 @@
     ],
     "orchestra": []
   },
+  "renee-riso": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Betty"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-hands-on-a-hard-body/",
+        "title": "Hands on a Hard Body",
+        "opening_date": "2023-08-11",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2023_Hands_on_a_Hard_Body.webp",
+        "credits": [
+          "Norma Valverde"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2022-big-fish/",
+        "title": "Big Fish",
+        "opening_date": "2022-10-06",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2022_Big_Fish.jpeg",
+        "credits": [
+          "Costume Crew"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "renee-wendt-oka": {
     "cast": [
       {
@@ -233408,6 +233502,37 @@
         "credits": [
           "Lee Harvey Oswald",
           "The Balladeer/Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "xavier-torres": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Duke"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-avenue-q/",
+        "title": "Avenue Q",
+        "opening_date": "2025-09-19",
+        "approx_date": "",
+        "theatre": "City Repertory Theatre",
+        "venue": "City Repertory Theatre",
+        "featured_image": "2025-Avenue-Q.webp",
+        "credits": [
+          "Princeton"
         ]
       }
     ],
