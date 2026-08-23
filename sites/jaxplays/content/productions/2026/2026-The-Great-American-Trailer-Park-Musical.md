@@ -26,6 +26,23 @@ tickets: https://catalysttheatre.com/buy-tickets/
 show_details:
 - Book: Betsy Kelso
 - Music & Lyrics: David Nehls
+musical_numbers: |
+  {{col-begin}}
+  * This Side of the Tracks
+  * One Step Closer
+  * The Buck Stops Here
+  * It Doesn't Take A Genius
+  * Owner of My Heart
+  * The Great American TV Show
+  * Flushed Down the Pipes
+  * Storm's A-Brewin'
+  * Road Kill
+  * But He's Mine / It's Never Easy
+  * That's Why I Love My Man
+  * Panic
+  * Finale
+  * This Side of the Tracks (Reprise)
+  {{col-end}}
 cast:
 - Betty: Renee Riso
 - Lin: Keri Green
