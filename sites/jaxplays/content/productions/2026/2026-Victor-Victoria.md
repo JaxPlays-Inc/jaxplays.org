@@ -102,34 +102,33 @@ genres:
 - Musical
 - Comedy
 description: Arts Collective Theatre brings Victor/Victoria to the stage, a sparkling musical comedy of mistaken identity, romance and showbiz reinvention.
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  * "Paris by Night" – Toddy & Les Boys
+  * "If I Were a Man" – Victoria
+  * "Trust Me" – Toddy & Victoria
+  * "[[w:Le Jazz Hot!]]" – Victor and Ensemble
+  * "The Tango" – Victor & Norma
+  * "Paris Makes Me Horny" – Norma
+  * "Crazy World" – Victoria
+
+  {{col-break}}
+  ;Act II
+  * "Louis Says" – Victor & Ensemble
+  * "King's Dilemma" – King
+  * "Apache" – Les Boys
+  * "You & Me" – Toddy and Victor
+  * "Paris by Night (Reprise)" – Street Singer
+  * "Almost a Love Song" – King and Victoria
+  * "Chicago, Illinois" – Norma & The Girls
+  * "Living in the Shadows" – Victoria
+  * "Victor/Victoria" – Victoria, Toddy & Company
+  {{col-end}}
 ---
 In 1930s Paris, a struggling soprano named Victoria Grant finds an outrageous route to stardom: with the help of a cabaret performer, she reinvents herself as Count Victor Grazinski, a man performing as a woman. The act is a sensation, but the masquerade grows deliciously complicated when romance, fame and suspicion all collide under the nightclub lights.
 
 Based on Blake Edwards' beloved film, *Victor/Victoria* is a stylish musical comedy about identity, ambition and the courage to become exactly who you are. With a score by Henry Mancini and Leslie Bricusse, the show blends backstage glamour, farce and heart into a fizzy theatrical celebration of reinvention.
-
-### Musical Numbers
-
-#### Act I
-
-* "Paris by Night" – Toddy & Les Boys
-* "If I Were a Man" – Victoria
-* "Trust Me" – Toddy & Victoria
-* "[[w:Le Jazz Hot!]]" – Victor and Ensemble
-* "The Tango" – Victor & Norma
-* "Paris Makes Me Horny" – Norma
-* "Crazy World" – Victoria
-
-#### Act II
-
-* "Louis Says" – Victor & Ensemble
-* "King's Dilemma" – King
-* "Apache" – Les Boys
-* "You & Me" – Toddy and Victor
-* "Paris by Night (Reprise)" – Street Singer
-* "Almost a Love Song" – King and Victoria
-* "Chicago, Illinois" – Norma & The Girls
-* "Living in the Shadows" – Victoria
-* "Victor/Victoria" – Victoria, Toddy & Company
 
 ### Arts Collective Theatre Opens with 'Victor/Victoria' | River City Live - News4Jax
 

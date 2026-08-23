@@ -1,0 +1,7 @@
+{{- $page := .page -}}
+{{- with .musical_numbers -}}
+<div id="musical-numbers" class="nested-copy-line-height lh-copy f5 f4-ns mt4 {{ $page.Param " text_color" | default "dark-gray" }}">
+  <h3 class="f3 mt4 mb3 sectionline">Musical Numbers</h3>
+  {{ partial "content-wikilinks" (partial "columns.html" (dict "page" $page "inner" .)) }}
+</div>
+{{- end -}}

@@ -118,34 +118,33 @@ genres:
   - Mystery
   - Comedy
 description: "Dive into the interactive world of 'The Mystery of Edwin Drood,' where the audience decides the ending of this playful adaptation of Charles Dickens’ unfinished novel."
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  * "There You Are" – Full Company
+  * "A Man Could Go Quite Mad" – John Jasper
+  * "Two Kinsmen" – John Jasper and Edwin Drood
+  * "Moonfall" – Rosa Bud
+  * "Moonfall Quartet" – Rosa Bud, Helena Landless, Wendy and Beatrice
+  * "The Wages of Sin" – Princess Puffer
+  * "Ceylon" – Neville, Helena and Company
+  * "A British Subject" – Neville, Helena, Drood, Rosa, Crisparkle and Company
+  * "Both Sides of the Coin" – Mayor Sapsea and John Jasper
+  * "Perfect Strangers" – Rosa Bud and Edwin Drood
+  * "No Good Can Come from Bad" – Neville, Jasper, Rosa, Drood, Helena, Crisparkle and Waiter
+  * "Never the Luck" – Bax / Bazzard and Company
+  * "Off To The Races - The Chariman, Sir Durdles, Deputy and Company
+  {{col-break}}
+  ;Act II
+  * "An English Music Hall" – Chairman and Company
+  * "Settling Up the Score" – Princess Puffer, Dick Datchery and Company
+  * "Don't Quit While You're Ahead" – Puffer, Datchery and Company
+  * "Murderer's Confession" - Audience Choice
+  * "Perfect Strangers" - Audience Choice
+  * "The Writing on the Wall" – Drood and Company
+  {{col-end}}
 ---
 The Mystery of Edwin Drood is a unique theatrical experience that allows the audience to influence the outcome of the story. Set in the small English town of Cloisterham, the musical begins with the mysterious disappearance of young Edwin Drood. What makes this production distinct is its presentation as a play within a play, performed by the raucous and charismatic members of the Music Hall Royale. The intrigue deepens as the actors portraying townsfolk become suspects in Edwin’s disappearance. With each performance, the audience votes on the identity of the murderer, potentially altering the story’s conclusion. This engaging approach, combined with Rupert Holmes' witty dialogue and catchy tunes, ensures a fresh and thrilling theatrical experience every night.
-
-### Musical numbers
-{{< columns >}} 
-#### Act I
-* "There You Are" – Full Company
-* "A Man Could Go Quite Mad" – John Jasper
-* "Two Kinsmen" – John Jasper and Edwin Drood
-* "Moonfall" – Rosa Bud
-* "Moonfall Quartet" – Rosa Bud, Helena Landless, Wendy and Beatrice
-* "The Wages of Sin" – Princess Puffer
-* "Ceylon" – Neville, Helena and Company
-* "A British Subject" – Neville, Helena, Drood, Rosa, Crisparkle and Company
-* "Both Sides of the Coin" – Mayor Sapsea and John Jasper
-* "Perfect Strangers" – Rosa Bud and Edwin Drood
-* "No Good Can Come from Bad" – Neville, Jasper, Rosa, Drood, Helena, Crisparkle and Waiter
-* "Never the Luck" – Bax / Bazzard and Company
-* "Off To The Races - The Chariman, Sir Durdles, Deputy and Company
-<--->
-#### Act II
-* "An English Music Hall" – Chairman and Company
-* "Settling Up the Score" – Princess Puffer, Dick Datchery and Company
-* "Don't Quit While You're Ahead" – Puffer, Datchery and Company
-* "Murderer's Confession" - Audience Choice
-* "Perfect Strangers" - Audience Choice
-* "The Writing on the Wall" – Drood and Company
-{{< /columns >}}
  Not included in the original cast recording
 
 ''†'' Reinstated for the 2012 Broadway revival

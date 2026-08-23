@@ -38,37 +38,36 @@ genres:
   - Biography
   - Drama
 description: "A musical journey through the life of Neil Diamond, showcasing his rise to fame, personal struggles, and timeless hits."
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - "Opening Montage" – The Noise
+  - "A Beautiful Noise" – Neil and The Noise
+  - "Neil Pitches Song: [[w:I'll Come Running (Neil Diamond song)|I'll Come Runnin' (Oh No, No)]]" – Neil, Ellie
+  - "[[w:I'm a Believer]]" – Ellie and The Noise
+  - "Demo Medley: [[w:The Boat that I Row]] / [[w:Red Red Wine]] / [[w:Kentucky Woman]]" – "The Boat that I Row" Soloist and The Noise
+  - "Kentucky Woman" – Neil, Ellie and The Noise
+  - "Into The Bitter End" – Neil, Bitter End Trio Singers and The Noise
+  - "[[w:Solitary Man (song)|Solitary Man]]" – Neil and The Noise
+  - "[[w:Cracklin' Rosie]]" – Neil and The Noise
+  - "[[w:Song Sung Blue]]" – Neil, Doctor, Marcia, Fred and The Noise
+  - "[[w:Cherry, Cherry]] / September Morn' Medley" – Neil, Jaye and The Noise
+  - "[[w:Love on the Rocks (Neil Diamond song)|Love on the Rocks]]" – Neil, Doctor and Jaye
+  - "[[w:Hello Again (Neil Diamond song)|Hello Again]]" – Neil, Marcia, Ellie and Jaye
+  - "A Heavenly Progression" – Neil and The Noise
+  - "[[w:Sweet Caroline]]" – Neil and The Noise
+  {{col-break}}
+  ;Act II
+  - "Entr'acte" – Company
+  - "[[w:Brother Love's Traveling Salvation Show (song)|Brother Love's Traveling Salvation Show]]" – Neil and The Noise
+  - "[[w:Play Me]]" – Neil, Marcia and The Noise
+  - "[[w:Forever in Blue Jeans]]" – Marcia, Ellie, Jaye and The Noise
+  - "Stadium Medley: Soolaimón / [[w:Thank the Lord for the Night Time]] / [[w:Crunchy Granola Suite]]" – Neil, Marcia and The Noise
+  - "[[w:You Don't Bring Me Flowers]]" – Neil and Marcia
+  - "Brooklyn Roads / [[w:America (Neil Diamond song)|America]] Medley" – Neil, Doctor, Ellie, Bert and The Noise
+  - "[[w:Shilo (song)|Shilo]]" – "Shilo" Soloist, Marcia, Rose, Jaye, Tommy and Kieve
+  - "[[w:I_Am..._I_Said|I Am... I Said]]" – Neil and The Noise
+  - "[[w:Holly Holy]]" – Neil, Marcia, Rose, Jaye, Kieve, Tommy and The Noise
+  {{col-end}}
 ---
 *A Beautiful Noise* delves into the compelling life story of Neil Diamond, one of America’s most enduring singer-songwriters. The musical follows Diamond from his humble beginnings in Brooklyn to becoming a global superstar. The story reveals his challenges with personal demons and the sacrifices he made for his career, punctuated by performances of his iconic songs like "Sweet Caroline," "America," and "Solitary Man." This biographical musical not only pays tribute to his musical legacy but also explores the man behind the music, offering audiences an intimate look at his triumphs and tribulations.
-
-### Musical numbers
-{{< columns >}} 
-#### Act I
-- "Opening Montage" – The Noise
-- "A Beautiful Noise" – Neil and The Noise
-- "Neil Pitches Song: [[w:I'll Come Running (Neil Diamond song)|I'll Come Runnin' (Oh No, No)]]" – Neil, Ellie
-- "[[w:I'm a Believer]]" – Ellie and The Noise
-- "Demo Medley: [[w:The Boat that I Row]] / [[w:Red Red Wine]] / [[w:Kentucky Woman]]" – "The Boat that I Row" Soloist and The Noise
-- "Kentucky Woman" – Neil, Ellie and The Noise
-- "Into The Bitter End" – Neil, Bitter End Trio Singers and The Noise
-- "[[w:Solitary Man (song)|Solitary Man]]" – Neil and The Noise
-- "[[w:Cracklin' Rosie]]" – Neil and The Noise
-- "[[w:Song Sung Blue]]" – Neil, Doctor, Marcia, Fred and The Noise
-- "[[w:Cherry, Cherry]] / September Morn' Medley" – Neil, Jaye and The Noise
-- "[[w:Love on the Rocks (Neil Diamond song)|Love on the Rocks]]" – Neil, Doctor and Jaye
-- "[[w:Hello Again (Neil Diamond song)|Hello Again]]" – Neil, Marcia, Ellie and Jaye
-- "A Heavenly Progression" – Neil and The Noise
-- "[[w:Sweet Caroline]]" – Neil and The Noise
-<--->
-#### Act II
-- "Entr'acte" – Company
-- "[[w:Brother Love's Traveling Salvation Show (song)|Brother Love's Traveling Salvation Show]]" – Neil and The Noise
-- "[[w:Play Me]]" – Neil, Marcia and The Noise
-- "[[w:Forever in Blue Jeans]]" – Marcia, Ellie, Jaye and The Noise
-- "Stadium Medley: Soolaimón / [[w:Thank the Lord for the Night Time]] / [[w:Crunchy Granola Suite]]" – Neil, Marcia and The Noise
-- "[[w:You Don't Bring Me Flowers]]" – Neil and Marcia
-- "Brooklyn Roads / [[w:America (Neil Diamond song)|America]] Medley" – Neil, Doctor, Ellie, Bert and The Noise
-- "[[w:Shilo (song)|Shilo]]" – "Shilo" Soloist, Marcia, Rose, Jaye, Tommy and Kieve
-- "[[w:I_Am..._I_Said|I Am... I Said]]" – Neil and The Noise
-- "[[w:Holly Holy]]" – Neil, Marcia, Rose, Jaye, Kieve, Tommy and The Noise
-{{< /columns >}}

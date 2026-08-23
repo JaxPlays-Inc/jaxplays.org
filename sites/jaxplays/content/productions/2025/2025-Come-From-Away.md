@@ -112,33 +112,32 @@ genres:
   - Drama
   - Historical
 description: "Witness the remarkable true story of a small Newfoundland town that welcomed the world on 9/11, as stranded passengers and locals come together in a display of humanity."
+musical_numbers: |
+  {{col-begin}}
+  - "Welcome to the Rock" – Claude, Company
+  - "38 Planes" – Company
+  - "Blankets and Bedding" – Company
+  - "28 Hours/Wherever We Are" – Company
+  - "Darkness and Trees" – Company
+  - "On the Bus" [^1] – Company
+  - "Darkness and Trees (Reprise)" [^1] – Company
+  - "Lead Us Out of the Night" [^1] – Company
+  - "Phoning Home" [^1] – Company
+  - "Costume Party" – Diane, Kevin T, Beverley, Hannah, Kevin J, Nick, Bob
+  - "I Am Here" – Hannah
+  - "Prayer" – Kevin T, Company
+  - "On the Edge" – Company
+  - "In the Bar/Heave Away" [^1] – Company
+  - "Screech In" – Claude, Company
+  - "[[w:Me and the Sky (Come from Away)|Me and the Sky]]" – Beverley, Female Ensemble
+  - "The Dover Fault" [^1] – Nick, Diane
+  - "Stop the World" – Nick, Diane, Company
+  - "38 Planes (Reprise)/Somewhere in the Middle of Nowhere" – Beverley, Company
+  - "Something's Missing" – Company
+  - "Finale" – Claude, Company
+  - "Screech Out" [^1] – Band
+
+  [^1]: Not listed on the show's program
+  {{col-end}}
 ---
 *Come From Away* is set in the week following the September 11 attacks and tells the true story of what transpired when 38 planes were ordered to land unexpectedly in the small town of Gander, Newfoundland and Labrador. As the world grappled with uncertainty, the town's residents opened their homes and hearts to 7,000 stranded travelers. The musical explores the varied experiences of the passengers and locals, including moments of fear, generosity, and a plethora of unexpected bonds that transcend life’s most challenging moments. Through engaging songs and a compelling narrative, *Come From Away* beautifully captures the capacity for human kindness in the face of adversity, leaving audiences uplifted and inspired.
-
-
-### Musical numbers
-
-- "Welcome to the Rock" – Claude, Company
-- "38 Planes" – Company
-- "Blankets and Bedding" – Company
-- "28 Hours/Wherever We Are" – Company
-- "Darkness and Trees" – Company
-- "On the Bus" [^1] – Company
-- "Darkness and Trees (Reprise)" [^1] – Company
-- "Lead Us Out of the Night" [^1] – Company
-- "Phoning Home" [^1] – Company
-- "Costume Party" – Diane, Kevin T, Beverley, Hannah, Kevin J, Nick, Bob
-- "I Am Here" – Hannah
-- "Prayer" – Kevin T, Company
-- "On the Edge" – Company
-- "In the Bar/Heave Away" [^1] – Company
-- "Screech In" – Claude, Company
-- "[[w:Me and the Sky (Come from Away)|Me and the Sky]]" – Beverley, Female Ensemble
-- "The Dover Fault" [^1] – Nick, Diane
-- "Stop the World" – Nick, Diane, Company
-- "38 Planes (Reprise)/Somewhere in the Middle of Nowhere" – Beverley, Company
-- "Something's Missing" – Company
-- "Finale" – Claude, Company
-- "Screech Out" [^1] – Band
-
-[^1]: Not listed on the show's program

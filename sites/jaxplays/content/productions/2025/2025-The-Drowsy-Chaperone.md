@@ -91,26 +91,25 @@ genres:
   - Musical
   - Comedy
 description: "Step into a dazzling parody of 1920s musical comedy where a die-hard theatre fan plays his favorite cast album, bringing the madcap show to life in his living room."
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - "Overture" – Orchestra
+  - "Fancy Dress" – Tottendale, Underling, Company
+  - "Cold Feets" – Robert, George
+  - "Show Off" – Janet, Company
+  - "As We Stumble Along" – Drowsy Chaperone, Ensemble
+  - "I Am Aldolpho" – Aldolpho, Drowsy Chaperone
+  - "Accident Waiting To Happen" – Robert, Janet
+  - "Toledo Surprise" – Gangsters, Feldzieg, Kitty, Mrs. Tottendale, and Company
+  - "Act I Finale" – Company
+  {{col-break}}
+  ;Act II
+  - "Message From A Nightingale" – Kitty, Gangsters, Aldolpho, Drowsy Chaperone
+  - "Bride's Lament" – Janet, Company
+  - "Love Is Always Lovely in the End" – Mrs. Tottendale, Underling
+  - "I Do, I Do in the Sky" – Trix, Company
+  - "As We Stumble Along (Reprise)" – Company
+  {{col-end}}
 ---
 *The Drowsy Chaperone* begins as a modern-day musical theatre aficionado, known simply as 'Man in Chair,' seeks solace from his blues by listening to a recording of his favorite 1928 musical comedy. As he shares his insights and historical tidbits, the characters of the show magically appear in his drab apartment, enacting the uproarious tale of a Broadway starlet’s chaotic wedding day. Full of slapstick, mistaken identities, and satirical takes on musical theatre tropes, the musical is both a heartfelt homage and a clever critique of the golden age of Broadway.
-
-### Musical Numbers
-{{< columns >}} 
-#### Act I
-- "Overture" – Orchestra
-- "Fancy Dress" – Tottendale, Underling, Company
-- "Cold Feets" – Robert, George
-- "Show Off" – Janet, Company
-- "As We Stumble Along" – Drowsy Chaperone, Ensemble
-- "I Am Aldolpho" – Aldolpho, Drowsy Chaperone
-- "Accident Waiting To Happen" – Robert, Janet
-- "Toledo Surprise" – Gangsters, Feldzieg, Kitty, Mrs. Tottendale, and Company
-- "Act I Finale" – Company
-<--->
-#### Act II
-- "Message From A Nightingale" – Kitty, Gangsters, Aldolpho, Drowsy Chaperone
-- "Bride's Lament" – Janet, Company
-- "Love Is Always Lovely in the End" – Mrs. Tottendale, Underling
-- "I Do, I Do in the Sky" – Trix, Company
-- "As We Stumble Along (Reprise)" – Company
-{{< /columns >}}

@@ -128,36 +128,34 @@ description: "Experience the vivacious spirit of *Mame* in a special concert pro
 press:
 - "Linda Purl Will Star in Florida Mame Concerts | Playbill": https://playbill.com/article/linda-purl-will-star-in-florida-mame-concerts
 - "Florida Theatre & Theatre Jacksonville Present MAME: THE BROADWAY MUSICAL IN CONCERT Starring Linda Purl | Broadway World": https://www.broadwayworld.com/jacksonville/article/Florida-Theatre-Theatre-Jacksonville-Present-MAME-THE-BROADWAY-MUSICAL-IN-CONCERT-Starring-Linda-Purl-20240318
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - Overture − Orchestra
+  - "St. Bridget" − Young Patrick and Agnes
+  - "It's Today" − Mame, Vera, and Company
+  - "Open a New Window" − Mame, Young Patrick, and Company
+  - "The Moon Song" (The Man in the Moon) − Vera, Mame, and Company
+  - "My Best Girl" − Young Patrick and Mame
+  - "[[We Need a Little Christmas]]" − Mame, Young Patrick, Agnes, Ito and Beauregard
+  - "The Fox Hunt" − Uncle Jeff, Young Patrick, Cousin Fan, and Mother Burnside
+  - "Mame" − Beauregard and Company
+  - Finale Act I ("My Best Girl" and "Mame") − Young Patrick and Company
+  {{col-break}}
+  ;Act II
+  - Entr'acte − Orchestra
+  - "Opening Act Two" (The Letter) − Young Patrick and Older Patrick
+  - "My Best Girl (reprise)" − Older Patrick
+  - "Bosom Buddies" − Mame and Vera
+  - "Gooch's Song" − Agnes Gooch
+  - "That's How Young I Feel" − Mame, Junior, and Company
+  - "If He Walked Into My Life" − Mame
+  - "It's Today" (reprise) − Mame and Company
+  - "My Best Girl" (reprise) − Older Patrick
+  - Finale Act II ("Open A New Window") − All
+  - Curtain Calls ("It's Today", "We Need a Little Christmas" and "Mame") − All
+  {{col-end}}
 ---
-
-### Musical numbers
-{{< columns >}} 
-#### Act I
-- Overture − Orchestra
-- "St. Bridget" − Young Patrick and Agnes
-- "It's Today" − Mame, Vera, and Company
-- "Open a New Window" − Mame, Young Patrick, and Company
-- "The Moon Song" (The Man in the Moon) − Vera, Mame, and Company
-- "My Best Girl" − Young Patrick and Mame
-- "[[w:We Need a Little Christmas]]" − Mame, Young Patrick, Agnes, Ito and Beauregard
-- "The Fox Hunt" − Uncle Jeff, Young Patrick, Cousin Fan, and Mother Burnside
-- "Mame" − Beauregard and Company
-- Finale Act I ("My Best Girl" and "Mame") − Young Patrick and Company
-<--->
-#### Act II
-- Entr'acte − Orchestra
-- "Opening Act Two" (The Letter) − Young Patrick and Older Patrick
-- "My Best Girl (reprise)" − Older Patrick
-- "Bosom Buddies" − Mame and Vera
-- "Gooch's Song" − Agnes Gooch
-- "That's How Young I Feel" − Mame, Junior, and Company
-- "If He Walked Into My Life" − Mame
-- "It's Today" (reprise) − Mame and Company
-- "My Best Girl" (reprise) − Older Patrick
-- Finale Act II ("Open A New Window") − All
-- Curtain Calls ("It's Today", "We Need a Little Christmas" and "Mame") − All
-{{< /columns >}}
-
 *Mame In Concert* brings the beloved musical to life in a unique format, focusing on its iconic score and the larger-than-life character of Mame Dennis. Set against the backdrop of the Roaring Twenties and the Great Depression, Mame's adventurous spirit never wanes as she faces life's ups and downs with zest and zeal. This concert production highlights the musical's most memorable moments and songs like "Bosom Buddies" and "If He Walked into My Life," performed by a dynamic cast accompanied by a live orchestra. 
 
 Florida Theatre and Theatre Jacksonville present an "in concert" production of the musical *Mame*. Set in mid-20th century New York City, Mame Dennis is an eccentric bohemian with wealthy friends whose fabulous life is interrupted by the arrival of the young son of her late brother. The plot covers their adventures from the beginning of the Depression through WWII. With a book by Jerome Lawrence and Robert Edwin Lee, the music and lyrics by Jerry Herman include "We Need a Little Christmas," "Bosom Buddies," "If He Walked Into My Life," and one of the best-known title songs of the American Musical Theatre, "Mame."

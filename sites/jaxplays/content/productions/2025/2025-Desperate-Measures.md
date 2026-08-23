@@ -56,34 +56,33 @@ genres:
   - Comedy
   - Western
 description: "Get ready for *Desperate Measures*, a rollicking Wild West musical inspired by Shakespeare's 'Measure for Measure.'"
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - "The Ballad of Johnny Blood" — All
+  - "The Ballad of Johnny Blood (Reprise)" — Johnny
+  - "That's Just How It Is" — Sheriff
+  - "Some Day They Will Thank Me" — Governor
+  - "Look in Your Heart" — Susanna
+  - "It's Good to Be Alive" — Johnny
+  - "It Doesn't Hurt to Try" — Sheriff, Johnny, Susanna, Priest
+  - "It's Getting Hot in Here" — Bella
+  - "The Way That You Feel" — Susanna, Sheriff, Bella
+  - "Stop There" — Sheriff
+  - "In the Dark" — All
+  -   "Song Title" - Character, Ensemble
+  {{col-break}}
+  ;Act II
+  - "What a Night!" — Governor
+  - "About Last Night" — Governor and Susanna
+  - "Stop There (Reprise)" — Sheriff
+  - "Just for You" — Bella and Johnny
+  - "Just For You (Reprise)" — Bella and Johnny
+  - "What is This Feeling?" — Susanna
+  - "Life Takes You by Surprise" — All
+  - "It's Good to Be Alive" (Reprise) — Johnny
+  - "It's a Beautiful Day" — Susanna and Bella
+  - "Finale" — All
+  {{col-end}}
 ---
 Set in the late 1800s, this musical spins a tale of Johnny Blood, a charming outlaw whose life is on the line. When a lawman offers him a chance for freedom in exchange for his sister's hand in marriage to the governor, a series of wild mishaps and moral dilemmas ensue. Featuring a lively score, sharp wit, and plenty of humor, *Desperate Measures* cleverly blends classical themes with a frontier setting, resulting in a foot-stomping, feel-good musical romp.
-
-### Musical numbers
-{{< columns >}} 
-#### Act I
-- "The Ballad of Johnny Blood" — All
-- "The Ballad of Johnny Blood (Reprise)" — Johnny
-- "That's Just How It Is" — Sheriff
-- "Some Day They Will Thank Me" — Governor
-- "Look in Your Heart" — Susanna
-- "It's Good to Be Alive" — Johnny
-- "It Doesn't Hurt to Try" — Sheriff, Johnny, Susanna, Priest
-- "It's Getting Hot in Here" — Bella
-- "The Way That You Feel" — Susanna, Sheriff, Bella
-- "Stop There" — Sheriff
-- "In the Dark" — All
--   "Song Title" - Character, Ensemble
-<--->
-#### Act II
-- "What a Night!" — Governor
-- "About Last Night" — Governor and Susanna
-- "Stop There (Reprise)" — Sheriff
-- "Just for You" — Bella and Johnny
-- "Just For You (Reprise)" — Bella and Johnny
-- "What is This Feeling?" — Susanna
-- "Life Takes You by Surprise" — All
-- "It's Good to Be Alive" (Reprise) — Johnny
-- "It's a Beautiful Day" — Susanna and Bella
-- "Finale" — All
-{{< /columns >}}

@@ -33,27 +33,27 @@ genres:
   - Comedy
   - Coming-of-Age
 description: "Navigate the tricky waters of adolescence in *13*, a lively musical about a young boy's quest to fit in and make his bar mitzvah unforgettable."
+musical_numbers: |
+  {{col-begin}}
+  -   "13/Becoming a Man" – Evan and Company
+  -   "The Lamest Place in the World" – Patrice
+  -   "Hey Kendra" – Brett, Malcolm, Eddie, Lucy, and Kendra
+  -   "Get Me What I Need" – Archie and Company
+  -   "Opportunity" – Lucy and Cheerleaders
+  -   "What It Means to Be a Friend" – Patrice
+  -   "All Hail the Brain" – Evan
+  -   “Here I Come” — Evan
+  -   "Terminal Illness" – Evan, Archie, and Company
+  -   "Getting Ready" – Archie, Evan, Lucy, Kendra, Brett, and Company
+  -   "Any Minute" – Brett, Kendra, Patrice, and Archie
+  -   "Good Enough" – Patrice
+  -   "Being a Geek" – Evan, Rabbi, and Rabbis
+  -   "Bad News" – Eddie, Malcolm, Simon, and Richie
+  -   "Tell Her" – Evan and Patrice
+  -   "It Can't Be True" – Lucy, Molly, Cassie, Charlotte, and Company
+  -   "If That's What It Is" – Archie, Patrice, and Evan
+  -   "A Little More Homework" – Evan and Company
+  -   "Brand New You" – Cassie, Charlotte, Molly, and Company
+  {{col-end}}
 ---
 *13* centers on Evan Goldman, a New York City teen who faces the daunting challenge of moving to a small town in Indiana after his parents' divorce. As his 13th birthday approaches, Evan dreams of hosting the perfect bar mitzvah, but first, he must navigate the complex social circles of his new school. The musical blends humor with heartfelt moments, as Evan learns about friendship, acceptance, and the value of being true to oneself through a catchy, contemporary score.
-
-### Musical Numbers
-
--   "13/Becoming a Man" – Evan and Company
--   "The Lamest Place in the World" – Patrice
--   "Hey Kendra" – Brett, Malcolm, Eddie, Lucy, and Kendra
--   "Get Me What I Need" – Archie and Company
--   "Opportunity" – Lucy and Cheerleaders
--   "What It Means to Be a Friend" – Patrice
--   "All Hail the Brain" – Evan
--   “Here I Come” — Evan
--   "Terminal Illness" – Evan, Archie, and Company
--   "Getting Ready" – Archie, Evan, Lucy, Kendra, Brett, and Company
--   "Any Minute" – Brett, Kendra, Patrice, and Archie
--   "Good Enough" – Patrice
--   "Being a Geek" – Evan, Rabbi, and Rabbis
--   "Bad News" – Eddie, Malcolm, Simon, and Richie
--   "Tell Her" – Evan and Patrice
--   "It Can't Be True" – Lucy, Molly, Cassie, Charlotte, and Company
--   "If That's What It Is" – Archie, Patrice, and Evan
--   "A Little More Homework" – Evan and Company
--   "Brand New You" – Cassie, Charlotte, Molly, and Company

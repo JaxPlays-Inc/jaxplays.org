@@ -58,37 +58,36 @@ genres:
   - Historical
   - Horror
 description: "\"A gothic rock ritual with a riotgirl attitude\" - The New York Times"
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - "Forty Whacks (Prologue)" - Lizzie, Alice, Emma, Bridget
+  - "The House of Borden" - Bridget, Lizzie, Emma, Alice
+  - "This Is Not Love" - Lizzie
+  - "Gotta Get Out of Here" - Lizzie
+  - "If You Knew" - Alice
+  - "The Soul of the White Bird" - Lizzie, Bridget, Alice, Emma
+  - "Maybe Someday" - Alice
+  - "Sweet Little Sister" - Emma, Lizzie
+  - "Shattercane and Velvet Grass- Bridget, Lizzie
+  - "Will You Stay?" - Lizzie, Alice
+  - "Why Are All These Heads Off?" - Bridget, Lizzie, Alice
+  - "Mercury Rising" - Bridget, Lizzie, Emma, Alice
+  - "Somebody Will Do Something" - Bridget, Lizzie
+  {{col-break}}
+  ;Act II
+  - "The Fall of the House of Borden/”The Alibi”" - Bridget
+  - "What the F#%k Now, Lizzie?" - Emma, Lizzie
+  - "Burn the Old Thing Up" - Emma, Lizzie
+  - "Questions, Questions" - Alice, Lizzie, Emma, Bridget
+  - "Will You Lie" - Alice, Lizzie
+  - "Watchmen for the Morning" - Lizzie, Emma
+  - "Maybe Someday (Reprise 1)" - Lizzie
+  - "Thirteen Days in Taunton" - Lizzie, Emma, Alice
+  - "Maybe Someday (Reprise 2)" - Emma, Lizzie
+  - "Into Your Wildest Dreams (Epilogue)" - Lizzie, Emma, Bridget, Alice
+  {{col-end}}
 ---
 In the heat of late summer 1892, Andrew Borden and his wife were found murdered in their house. The main suspect in the murders was Andrew’s youngest daughter from a previous marriage, Lizzie Borden. Using a searing rock score, and based on the historical record, *Lizzie* explores the heady and heated days leading up to the murder and Lizzie’s controversial acquittal of all charges and the creation of a new American myth.
 
 **Trigger Warnings:** *Lizzie* contains themes of childhood sexual abuse and violence and may not be appropriate for all audiences. Discretion is advised. Strobe and fog special fx are used during the performance.
-
-### Musical numbers
-{{< columns >}} 
-#### Act I
-- "Forty Whacks (Prologue)" - Lizzie, Alice, Emma, Bridget
-- "The House of Borden" - Bridget, Lizzie, Emma, Alice
-- "This Is Not Love" - Lizzie
-- "Gotta Get Out of Here" - Lizzie
-- "If You Knew" - Alice
-- "The Soul of the White Bird" - Lizzie, Bridget, Alice, Emma
-- "Maybe Someday" - Alice
-- "Sweet Little Sister" - Emma, Lizzie
-- "Shattercane and Velvet Grass- Bridget, Lizzie
-- "Will You Stay?" - Lizzie, Alice
-- "Why Are All These Heads Off?" - Bridget, Lizzie, Alice
-- "Mercury Rising" - Bridget, Lizzie, Emma, Alice
-- "Somebody Will Do Something" - Bridget, Lizzie
-<--->
-#### Act II
-- "The Fall of the House of Borden/”The Alibi”" - Bridget
-- "What the F#%k Now, Lizzie?" - Emma, Lizzie
-- "Burn the Old Thing Up" - Emma, Lizzie
-- "Questions, Questions" - Alice, Lizzie, Emma, Bridget
-- "Will You Lie" - Alice, Lizzie
-- "Watchmen for the Morning" - Lizzie, Emma
-- "Maybe Someday (Reprise 1)" - Lizzie
-- "Thirteen Days in Taunton" - Lizzie, Emma, Alice
-- "Maybe Someday (Reprise 2)" - Emma, Lizzie
-- "Into Your Wildest Dreams (Epilogue)" - Lizzie, Emma, Bridget, Alice
-{{< /columns >}}

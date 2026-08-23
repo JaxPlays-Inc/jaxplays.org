@@ -407,10 +407,7 @@
 {{ end }}
 
 {{ with $musicalNumbers }}
-<div id="musical-numbers" class="nested-copy-line-height lh-copy f5 f4-ns mt4 {{ $.Param " text_color" | default "dark-gray" }}">
-  <h3 class="f3 mt4 mb3 sectionline">Musical Numbers</h3>
-  {{ partial "content-wikilinks" (partial "columns.html" (dict "page" $ "inner" .)) }}
-</div>
+{{ partial "production-musical-numbers.html" (dict "page" $ "musical_numbers" .) }}
 {{ end }}
 
 {{- partial "GAM-left-rail-1.html" (dict "margin" "1rem 0" "left" "-315px") -}}

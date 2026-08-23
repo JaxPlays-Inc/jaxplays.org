@@ -166,36 +166,34 @@ genres:
   - Family
   - Fantasy
 description: "Step into the whimsical world of Willy Wonka’s chocolate factory in this musical adaptation, where young Charlie Bucket embarks on a magical adventure."
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  * "Overture" - Orchestra
+  * "[[w:The Candy Man]]" † - Willy Wonka and Ensemble
+  * "Willy Wonka! Willy Wonka!" - Charlie Bucket and Ensemble
+  * "The Candy Man" (Reprise) † - Charlie Bucket
+  * "Charlie, You and I" - Grandpa Joe
+  * "A Letter from Charlie Bucket" - Charlie Bucket, Mrs. Bucket, and Grandparents
+  * "More of Him to Love" - Mrs. Gloop, Augustus Gloop, and Ensemble
+  * "When Veruca Says" - Mr. Salt and Veruca Salt
+  * "The Queen of Pop" - Mr. Beauregarde, Violet Beauregarde, and Ensemble
+  * "What Could Possibly Go Wrong?" - Mrs. Teavee, Mike Teavee, and Ensemble
+  * "If Your Father Were Here" - Mrs. Bucket
+  * "I've Got a Golden Ticket" † / "Grandpa Joe" - Charlie Bucket, Grandpa Joe, Grandparents, and Mrs. Bucket
+  * "It Must Be Believed to Be Seen" - Willy Wonka and Company
+  -   "Song Title" - Character, Ensemble
+  {{col-break}}
+  ;Act II
+  * "Strike That! Reverse It!" - Willy Wonka and Company
+  * "[[w:Pure Imagination]]" † / "Grandpa Joe" (Reprise) - Willy Wonka, Charlie Bucket, Grandpa Joe, and the Golden Ticket Winners
+  * "The Oompa Loompa Song" † - Oompa Loompas
+  * "Auf Wiedersehen Augustus Gloop" - Willy Wonka and the Oompa Loompas
+  * "When Willy Met Oompa" - Willy Wonka and the Oompa-Loompas
+  * "Veruca's Nutcracker Sweet" – The Squirrels
+  * "Vidiots" – Willy Wonka, Mrs. Teavee and the Oompa-Loompas
+  * "The View From Here" - Willy Wonka and Charlie
+  {{col-end}}
 ---
 *Charlie and the Chocolate Factory* brings Roald Dahl's beloved story to the stage with vibrant musical numbers and fantastical set designs. The tale follows Charlie Bucket, a poor boy who wins a golden ticket to tour the mysterious chocolate factory owned by the eccentric Willy Wonka. Alongside other ticket winners, Charlie navigates a maze of magical rooms and peculiar challenges. Unlike his greedy counterparts, Charlie's kind heart and humble nature catch Wonka's eye, leading to an unexpected and life-changing offer. This musical combines humor, heart, and a dash of darkness to explore themes of greed, innocence, and imagination. Audiences of all ages will delight in the whimsical world of *Charlie and the Chocolate Factory*.
-
-#### Musical numbers
-{{< columns >}} 
-#### Act I
-* "Overture" - Orchestra
-* "[[w:The Candy Man]]" † - Willy Wonka and Ensemble
-* "Willy Wonka! Willy Wonka!" - Charlie Bucket and Ensemble
-* "The Candy Man" (Reprise) † - Charlie Bucket
-* "Charlie, You and I" - Grandpa Joe
-* "A Letter from Charlie Bucket" - Charlie Bucket, Mrs. Bucket, and Grandparents
-* "More of Him to Love" - Mrs. Gloop, Augustus Gloop, and Ensemble
-* "When Veruca Says" - Mr. Salt and Veruca Salt
-* "The Queen of Pop" - Mr. Beauregarde, Violet Beauregarde, and Ensemble
-* "What Could Possibly Go Wrong?" - Mrs. Teavee, Mike Teavee, and Ensemble
-* "If Your Father Were Here" - Mrs. Bucket
-* "I've Got a Golden Ticket" † / "Grandpa Joe" - Charlie Bucket, Grandpa Joe, Grandparents, and Mrs. Bucket
-* "It Must Be Believed to Be Seen" - Willy Wonka and Company
--   "Song Title" - Character, Ensemble
-<--->
-#### Act II
-* "Strike That! Reverse It!" - Willy Wonka and Company
-* "[[w:Pure Imagination]]" † / "Grandpa Joe" (Reprise) - Willy Wonka, Charlie Bucket, Grandpa Joe, and the Golden Ticket Winners
-* "The Oompa Loompa Song" † - Oompa Loompas
-* "Auf Wiedersehen Augustus Gloop" - Willy Wonka and the Oompa Loompas
-* "When Willy Met Oompa" - Willy Wonka and the Oompa-Loompas
-* "Veruca's Nutcracker Sweet" – The Squirrels
-* "Vidiots" – Willy Wonka, Mrs. Teavee and the Oompa-Loompas
-* "The View From Here" - Willy Wonka and Charlie
-{{< /columns >}}
-
 † Lyrics by [[w:Leslie Bricusse]], Music by [[w:Anthony Newley]] for the 1971 film ''[[w:Willy Wonka & the Chocolate Factory]]''.

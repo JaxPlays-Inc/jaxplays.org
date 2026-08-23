@@ -71,37 +71,36 @@ genres:
   - Romance
   - Drama
 description: "Daddy Long Legs is a charming, romantic musical with music and lyrics by Paul Gordon; book by John Caird, based on Jean Webster's 1912 novel about an orphan sent to college by an anonymous benefactor."
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - "The Oldest Orphan in the John Grier Home" - Jerusha
+  - "Who Is This Man?" - Jerusha
+  - "Mr. Girl Hater" - Jerusha, Jervis
+  - "She Thinks I'm Old" - Jervis
+  - "Like Other Girls" - Jerusha, Jervis
+  - "Freshman Year Studies" - Jerusha, Jervis
+  - "Things I Didn't Know" - Jerusha, Jervis
+  - "What Does She Mean By Love?" - Jervis
+  - "I'm a Beast" - Jerusha
+  - "When Shall We Meet?" - Jervis
+  - "The Color of Your Eyes" - Jerusha, Jervis
+  - "The Secret of Happiness" - Jerusha, Jervis
+  - "The Color of Your Eyes" (Reprise) - Jerusha, Jervis
+  {{col-break}}
+  ;Act II
+  - "Sophomore Year Studies"* - Jerusha, Jervis
+  - "My Manhattan"# - Jervis
+  - "I Couldn't Know Someone Less" - Jerusha
+  - "The Man I'll Never Be" - Jervis
+  - "The Secret of Happiness (Reprise)" - Jervis, Jerusha
+  - "Humble Pie" - Jervis
+  - "Graduation Day"# - Jerusha, Jervis
+  - "Charity" - Jervis
+  - "I Have Torn You From My Heart" - Jerusha
+  - "My Manhattan (Reprise)"* - Jervis
+  - "I'm A Beast (Reprise)" - Jervis
+  - "All This Time" - Jerusha, Jervis
+  {{col-end}}
 ---
 *Daddy Long Legs* is set in the early 1900s and follows Jerusha Abbott, a bright and articulate young woman who has grown up in an orphanage. Her life takes an unexpected turn when a wealthy but anonymous benefactor, whom she whimsically calls "Daddy Long Legs," agrees to fund her college education on the condition that she write him a letter once a month. Through her letters, which she never expects to be answered, Jerusha shares her experiences and growth. Unbeknownst to her, her benefactor, Jervis Pendleton, becomes increasingly enamored with her intelligence and wit, sparking a tender and unconventional romance.
-
-### Musical numbers
-{{< columns >}} 
-#### Act I
-- "The Oldest Orphan in the John Grier Home" - Jerusha
-- "Who Is This Man?" - Jerusha
-- "Mr. Girl Hater" - Jerusha, Jervis
-- "She Thinks I'm Old" - Jervis
-- "Like Other Girls" - Jerusha, Jervis
-- "Freshman Year Studies" - Jerusha, Jervis
-- "Things I Didn't Know" - Jerusha, Jervis
-- "What Does She Mean By Love?" - Jervis
-- "I'm a Beast" - Jerusha
-- "When Shall We Meet?" - Jervis
-- "The Color of Your Eyes" - Jerusha, Jervis
-- "The Secret of Happiness" - Jerusha, Jervis
-- "The Color of Your Eyes" (Reprise) - Jerusha, Jervis
-<--->
-#### Act II
-- "Sophomore Year Studies"* - Jerusha, Jervis
-- "My Manhattan"# - Jervis
-- "I Couldn't Know Someone Less" - Jerusha
-- "The Man I'll Never Be" - Jervis
-- "The Secret of Happiness (Reprise)" - Jervis, Jerusha
-- "Humble Pie" - Jervis
-- "Graduation Day"# - Jerusha, Jervis
-- "Charity" - Jervis
-- "I Have Torn You From My Heart" - Jerusha
-- "My Manhattan (Reprise)"* - Jervis
-- "I'm A Beast (Reprise)" - Jervis
-- "All This Time" - Jerusha, Jervis
-{{< /columns >}}
