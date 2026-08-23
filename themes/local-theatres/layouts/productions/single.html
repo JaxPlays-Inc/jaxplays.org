@@ -570,31 +570,6 @@
   }
 </style>
 
-<!-- Reviews -->
-{{ $filename := .File.BaseFileName | replaceRE "-" " " | lower }}
-{{ $relatedReviews := slice }}
-{{ range where site.RegularPages "Type" "reviews" }}
-{{ $reviewProduction := .Params.production | default "" | lower }}
-{{ if eq $reviewProduction $filename }}
-{{ $relatedReviews = $relatedReviews | append . }}
-{{ end }}
-{{ end }}
-
-{{ partial "review-card-grid.html" (dict "page" . "relatedReviews" $relatedReviews "heading" "Reviews") }}
-
-  <!-- Press -->
-  {{ if .Params.press }}
-  <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
-    <h3 class="f3 mt4 mb3 sectionline">Press</h3>
-
-    {{ range .Params.press }} <!-- Iterate over the crew array -->
-    {{ range $pressTitle, $pressURL := . }} <!-- Iterate over key-value pairs -->
-    <h4><a href="{{ $pressURL  }}" target="_blank" alt="{{ $pressTitle }}">{{ $pressTitle }}</a></h4>
-    {{ end }}
-    {{ end }}
-  </div>
-  {{ end }}
-
   <!-- Program -->
   {{ if .Params.program }}
   <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
@@ -668,6 +643,154 @@
       {{ end }}
     </div>
   </div>
+  {{ end }}
+
+<!-- Reviews -->
+{{ $filename := .File.BaseFileName | replaceRE "-" " " | lower }}
+{{ $relatedReviews := slice }}
+{{ range where site.RegularPages "Type" "reviews" }}
+{{ $reviewProduction := .Params.production | default "" | lower }}
+{{ if eq $reviewProduction $filename }}
+{{ $relatedReviews = $relatedReviews | append . }}
+{{ end }}
+{{ end }}
+
+{{ partial "review-card-grid.html" (dict "page" . "relatedReviews" $relatedReviews "heading" "Reviews") }}
+
+  <!-- Press -->
+  {{ if .Params.press }}
+  {{ $hasPressVideo := false }}
+  {{ range .Params.press }}
+    {{ with index . "youtube_id" }}{{ $hasPressVideo = true }}{{ end }}
+  {{ end }}
+  <div class="production-reviews production-press nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}">
+    <h3 class="f3 mt4 mb3 sectionline">Press</h3>
+
+    <div class="production-review-grid">
+    {{ range .Params.press }}
+      {{ $pressItem := . }}
+      {{ $pressTitle := index $pressItem "title" | default "" }}
+      {{ $pressURL := index $pressItem "url" | default "" }}
+      {{ $pressSource := index $pressItem "source" | default "" }}
+      {{ $youtubeID := index $pressItem "youtube_id" | default "" }}
+      {{ if $youtubeID }}
+        {{ $pressURL = $pressURL | default (printf "https://www.youtube.com/watch?v=%s" $youtubeID) }}
+        {{ $youtubeParams := slice }}
+        {{ with index $pressItem "start" }}{{ $youtubeParams = $youtubeParams | append (printf "start=%v" .) }}{{ end }}
+        {{ with index $pressItem "end" }}{{ $youtubeParams = $youtubeParams | append (printf "end=%v" .) }}{{ end }}
+        {{ $youtubeEmbedURL := printf "https://www.youtube.com/embed/%s" $youtubeID }}
+        {{ if gt (len $youtubeParams) 0 }}{{ $youtubeEmbedURL = printf "%s?%s" $youtubeEmbedURL (delimit $youtubeParams "&") }}{{ end }}
+        <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
+          <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea production-press-video-trigger" href="{{ $pressURL }}" data-press-video-trigger data-youtube-id="{{ $youtubeID }}" {{ with index $pressItem "start" }}data-youtube-start="{{ . }}"{{ end }} {{ with index $pressItem "end" }}data-youtube-end="{{ . }}"{{ end }} aria-label="Watch {{ $pressTitle | plainify }}"></a>
+          <div class="production-press-video-thumb">
+            <img class="production-review-image" src="https://i.ytimg.com/vi/{{ $youtubeID }}/hqdefault.jpg" alt="{{ $pressTitle | plainify }}">
+            <span class="production-press-play" aria-hidden="true"></span>
+          </div>
+          <div class="production-review-body">
+            <div class="production-review-badges">
+              <span class="production-review-badge">Press</span>
+              <span class="production-review-badge production-review-badge--outlet">Video</span>
+              {{ with $pressSource }}<span class="production-review-badge production-review-badge--outlet">{{ . }}</span>{{ end }}
+            </div>
+            <strong class="production-review-title">{{ $pressTitle | markdownify }}</strong>
+          </div>
+        </article>
+      {{ else if and $pressTitle $pressURL }}
+        <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
+          <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ $pressURL }}" target="_blank" rel="noopener" aria-label="Read {{ $pressTitle | plainify }}"></a>
+          {{ if $featuredImage }}
+          <img class="production-review-image" src="/media/posters/{{ $featuredImage }}" alt="{{ $pressTitle | plainify }}">
+          {{ else }}
+          <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $pressTitle | plainify }}">
+          {{ end }}
+          <div class="production-review-body">
+            <div class="production-review-badges">
+              <span class="production-review-badge">Press</span>
+              {{ with $pressSource }}<span class="production-review-badge production-review-badge--outlet">{{ . }}</span>{{ end }}
+            </div>
+            <strong class="production-review-title">{{ $pressTitle | markdownify }}</strong>
+          </div>
+        </article>
+      {{ else }}
+        {{ range $legacyPressTitle, $legacyPressURL := $pressItem }}
+          <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
+            <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ $legacyPressURL }}" target="_blank" rel="noopener" aria-label="Read {{ $legacyPressTitle | plainify }}"></a>
+            {{ if $featuredImage }}
+            <img class="production-review-image" src="/media/posters/{{ $featuredImage }}" alt="{{ $legacyPressTitle | plainify }}">
+            {{ else }}
+            <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $legacyPressTitle | plainify }}">
+            {{ end }}
+            <div class="production-review-body">
+              <div class="production-review-badges">
+                <span class="production-review-badge">Press</span>
+              </div>
+              <strong class="production-review-title">{{ $legacyPressTitle | markdownify }}</strong>
+            </div>
+          </article>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    </div>
+  </div>
+  {{ if $hasPressVideo }}
+  <div class="production-press-lightbox" data-press-video-lightbox hidden>
+    <button type="button" class="production-press-lightbox-close" data-press-video-close aria-label="Close video">&times;</button>
+    <div class="production-press-lightbox-frame">
+      <iframe data-press-video-frame title="Press video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var lightbox = document.querySelector('[data-press-video-lightbox]');
+      var frame = document.querySelector('[data-press-video-frame]');
+      var close = document.querySelector('[data-press-video-close]');
+      var triggers = document.querySelectorAll('[data-press-video-trigger]');
+
+      if (!lightbox || !frame || !close || !triggers.length) {
+        return;
+      }
+
+      function closeVideo() {
+        frame.setAttribute('src', '');
+        lightbox.setAttribute('hidden', '');
+      }
+
+      triggers.forEach(function (trigger) {
+        trigger.addEventListener('click', function (event) {
+          event.preventDefault();
+
+          var videoID = trigger.getAttribute('data-youtube-id');
+          var videoParams = ['autoplay=1', 'showinfo=0', 'rel=0'];
+          var start = trigger.getAttribute('data-youtube-start');
+          var end = trigger.getAttribute('data-youtube-end');
+
+          if (start) {
+            videoParams.push('start=' + encodeURIComponent(start));
+          }
+          if (end) {
+            videoParams.push('end=' + encodeURIComponent(end));
+          }
+
+          frame.setAttribute('src', 'https://www.youtube.com/embed/' + videoID + '?' + videoParams.join('&'));
+          lightbox.removeAttribute('hidden');
+          close.focus();
+        });
+      });
+
+      close.addEventListener('click', closeVideo);
+      lightbox.addEventListener('click', function (event) {
+        if (event.target === lightbox) {
+          closeVideo();
+        }
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && !lightbox.hasAttribute('hidden')) {
+          closeVideo();
+        }
+      });
+    });
+  </script>
+  {{ end }}
   {{ end }}
 
   <!-- Photos -->

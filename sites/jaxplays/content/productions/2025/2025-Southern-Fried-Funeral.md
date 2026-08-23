@@ -100,16 +100,14 @@ reviews:
 - title: Experience Southern charm, laughs with Alhambra’s latest show
   uri: https://pontevedrarecorder.com/stories/experience-southern-charm-laughs-with-alhambras-latest-show,111948
   outlet: Ponte Vedra Recorder
-  description: ''
-  featured_image: ''
+  featured_image: 'https://delta.creativecirclecdn.com/pvr/original/20250115-162411-ddf-php119Hbu.jpg'
 - title: SOUTHERN FRIED FUNERAL Antics at the Alhambra
   uri: https://folioweekly.com/2025/01/12/southern-fried-funeral-antics-at-the-alhambra/
   outlet: Folio Weekly
-  description: ''
-  featured_image: ''
-
+press:
+- title: "First Coast Living - The Alhambra Theatre Presents *Southern Fried Funeral*"
+  url: "https://www.youtube.com/watch?v=IJGbS-eGLKs"
+  youtube_id: "IJGbS-eGLKs"
+  source: "First Coast News"
 ---
 *Southern Fried Funeral* unfolds in the heart of Mississippi, where the Frye family gathers to mourn the passing of their beloved husband and father, Dewey Frye. As the relatives converge, old rivalries and new suspicions bring comedic twists to the solemn occasion. The widow, Dorothy, must contend with a barrage of problematic relatives, including a snake-in-the-grass brother in law, and a couple of scheming daughters, all while planning a funeral worthy of the man they all loved. Amid the laughs and family drama, the play offers touching moments that celebrate life and the enduring bonds of family.
-
-## First Coast Living - The Alhambra Theatre Presents *Southern Fried Funeral*
-{{< youtube IJGbS-eGLKs >}}

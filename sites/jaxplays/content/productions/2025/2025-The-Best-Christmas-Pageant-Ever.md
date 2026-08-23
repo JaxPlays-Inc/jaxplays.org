@@ -76,9 +76,10 @@ genres:
   - Comedy
   - Holiday
 description: "A small-town Christmas pageant is turned upside down when the notoriously unruly Herdman kids take over the Nativity, revealing unexpected grace and sincerity."
+press:
+- title: "River City Theatre Presents 'The Best Christmas Pageant Ever' | First Coast Living"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=OrOerh5fc8s"
+  youtube_id: "OrOerh5fc8s"
 ---
 *The Best Christmas Pageant Ever* centers on a church Christmas pageant thrown into chaos when the Herdman siblings — known as the “worst kids in the history of the world” — are cast in all the major roles. As their wild behavior shocks the community, the familiar Nativity story is seen through fresh, unsentimental eyes. What begins as disaster slowly becomes something heartfelt and honest, reminding the town why the story matters in the first place.
-
-### River City Theatre Presents 'The Best Christmas Pageant Ever' | First Coast Living
-
-{{< youtube id=OrOerh5fc8s >}}

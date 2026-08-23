@@ -1,76 +1,388 @@
 {{ define "main" }}
-<article class="pa3 pa4-ns nested-copy-line-height mw9 center">
-  <h1 class="f3 f2-l f1-m mb0">Shows in the Jacksonville area</h1>
-  {{ $allProductions := where .Site.Pages "Type" "productions" }}
-  {{ $allShows := where .Site.Pages "Type" "shows" }}
-  {{ $showCountMap := dict }}
+{{ $shows := sort (where .Site.RegularPages "Section" "shows") "Title" "asc" }}
+{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
+{{ $listedShowProductions := 0 }}
+{{ $genreMap := dict }}
+{{ $showTitleMap := dict }}
+{{ $missingShowMap := dict }}
+{{ $missingMultiShows := slice }}
 
-  {{ range $allProductions }}
-    {{ $showTitle := .Title }}
-    {{ $count := index $showCountMap $showTitle }}
-    {{ if $count }}
-      {{ $showCountMap = merge $showCountMap (dict $showTitle (add $count 1)) }}
-    {{ else }}
-      {{ $showCountMap = merge $showCountMap (dict $showTitle 1) }}
+{{ range $shows }}
+  {{ $show := . }}
+  {{ $showTitleMap = merge $showTitleMap (dict $show.Title true) }}
+  {{ $productionCount := 0 }}
+  {{ range $productionCards }}
+    {{ if eq .title $show.Title }}
+      {{ $productionCount = add $productionCount 1 }}
     {{ end }}
   {{ end }}
-
-  {{ $showCountSlice := slice }}
-  {{ range $key, $value := $showCountMap }}
-    {{ $showCountSlice = $showCountSlice | append (dict "title" $key "count" $value) }}
+  {{ if gt $productionCount 0 }}
+    {{ $listedShowProductions = add $listedShowProductions $productionCount }}
   {{ end }}
-
-  {{ $sortedShows := sort $showCountSlice "title" "asc" }}
-  {{ $sortedShows = sort $sortedShows "count" "desc" }}
-
-  {{ $currentCount := 0 }}
-  {{ range $entry := $sortedShows }}
-    {{ $count := index $entry "count" }}
-    {{ if ne $count $currentCount }}
-      {{ $currentCount = $count }}
-      <h3>{{ $currentCount }} {{ if eq $currentCount 1 }}Production{{ else }}Productions{{ end }}</h3>
+  {{ with $show.Params.genres }}
+    {{ range . }}
+      {{ $genreMap = merge $genreMap (dict . true) }}
     {{ end }}
-    <p>
-      {{ $showTitle := index $entry "title" }}
-      {{ $showExists := false }}
-      {{ $showLink := "" }}
-      {{ range $allShows }}
-        {{ if eq .Title $showTitle }}
-          {{ $showExists = true }}
-          {{ $showLink = .RelPermalink }}
-        {{ end }}
-      {{ end }}
-      {{ if $showExists }}
-        <a class="fw7" href="{{ $showLink }}">{{ $showTitle }}</a>
-      {{ else }}
-        {{ $showTitle }} {{ if gt $count 1 }}- NO SHOW{{ end }}
-      {{ end }}
-      {{ if gt $count 1 }}
-      <ul>
-        {{ range $allProductions }}
-          {{ if eq .Title $showTitle }}
-            {{ if isset .Params "opening_date" }}
-              {{ $openingDate := time .Params.opening_date }}
-              <li><a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.theatre }}</a></li>
-            {{ else }}
-              <li>{{ .Title }} - Date not available</li>
+  {{ end }}
+{{ end }}
+
+{{ range $productionCards }}
+  {{ $title := .title | default "" }}
+  {{ if and $title (not (index $showTitleMap $title)) }}
+    {{ $productions := index $missingShowMap $title | default slice }}
+    {{ $missingShowMap = merge $missingShowMap (dict $title ($productions | append .)) }}
+  {{ end }}
+{{ end }}
+
+{{ range $title, $productions := $missingShowMap }}
+  {{ if gt (len $productions) 1 }}
+    {{ $missingMultiShows = $missingMultiShows | append (dict "title" $title "count" (len $productions) "productions" (sort $productions "openingDate" "desc")) }}
+  {{ end }}
+{{ end }}
+{{ $missingMultiShows = sort $missingMultiShows "title" "asc" }}
+{{ $missingMultiShows = sort $missingMultiShows "count" "desc" }}
+
+<article class="productions-directory shows-directory">
+  <div class="productions-directory-shell">
+    <header class="productions-directory-hero">
+      <div>
+        <p class="productions-directory-kicker">Show Archive</p>
+        <h1 class="productions-directory-title">Shows</h1>
+        <p class="productions-directory-subtitle">A working index of plays, musicals and other titles in the JaxPlays archive, connected to every listed local production.</p>
+      </div>
+      <div class="productions-directory-panel">
+        <div class="productions-directory-stats">
+          <span>
+            <strong>{{ len $shows }}</strong>
+            <span>Shows</span>
+          </span>
+          <span>
+            <strong>{{ $listedShowProductions }}</strong>
+            <span>Productions</span>
+          </span>
+          <span>
+            <strong>{{ len $genreMap }}</strong>
+            <span>Genres</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="productions-directory-search shows-directory-search">
+      <label class="productions-directory-search-label" for="shows-directory-filter">Filter shows</label>
+      <div class="shows-directory-search-row">
+        <input id="shows-directory-filter" class="productions-directory-filter" type="search" autocomplete="off" placeholder="Search by title, genre, description, or production count">
+        <div class="shows-directory-sort" aria-label="Sort shows">
+          <button type="button" class="jp-button primary jp-grow" data-show-sort="alpha" aria-pressed="true">A-Z</button>
+          <button type="button" class="jp-button jp-grow" data-show-sort="productions" aria-pressed="false">Most Produced</button>
+        </div>
+      </div>
+      <div class="shows-directory-filter-status">
+        <p class="productions-directory-filter-status" aria-live="polite" data-show-filter-status>{{ len $shows }} shows listed</p>
+      </div>
+    </div>
+
+    <section class="productions-directory-section" aria-labelledby="all-shows" data-show-section>
+      <div class="productions-directory-section-head sectionline">
+        <div class="productions-directory-section-title">
+          <p class="productions-directory-section-eyebrow" data-show-sort-label>All Titles</p>
+          <h2 id="all-shows">Shows</h2>
+        </div>
+        <span class="productions-directory-count" data-show-section-count>{{ len $shows }} listed</span>
+      </div>
+      <div class="productions-directory-grid" data-show-grid>
+        {{ range $shows }}
+          {{ $show := . }}
+          {{ $productionCount := 0 }}
+          {{ range $productionCards }}
+            {{ if eq .title $show.Title }}
+              {{ $productionCount = add $productionCount 1 }}
             {{ end }}
           {{ end }}
-        {{ end }}
-      </ul>
-      {{ else }}
-      {{ range $allProductions }}
-          {{ if eq .Title $showTitle }}
-             {{ if isset .Params "opening_date" }}
-                {{ $openingDate := time .Params.opening_date }}
-                - <a href="{{ .RelPermalink }}">{{ $openingDate.Format "2006" }} - {{ .Params.theatre }}</a>
-             {{ else }}
-                - Date not available
-             {{ end }}
+          {{ $genres := $show.Params.genres | default slice }}
+          {{ if eq (printf "%T" $genres) "string" }}
+            {{ $genres = slice $genres }}
           {{ end }}
+          {{ $poster := $show.Params.featured_image }}
+          {{ $posterAlt := $show.Params.featured_image_alt | default (printf "%s artwork" $show.Title) }}
+          {{ $posterPath := "/media/default/production_poster.webp" }}
+          {{ if $poster }}
+            {{ if or (hasPrefix $poster "http://") (hasPrefix $poster "https://") (hasPrefix $poster "//") (hasPrefix $poster "/") }}
+              {{ $posterPath = $poster }}
+            {{ else }}
+              {{ $posterPath = printf "/media/posters/%s" $poster }}
+            {{ end }}
+          {{ end }}
+          {{ $summary := $show.Params.description | default $show.Summary }}
+          {{ $searchParts := slice $show.Title (printf "%d productions" $productionCount) }}
+          {{ with $genres }}{{ $searchParts = $searchParts | append (delimit . " ") }}{{ end }}
+          {{ with $summary }}{{ $searchParts = $searchParts | append (. | plainify) }}{{ end }}
+          {{ $searchText := delimit $searchParts " " | lower }}
+
+          <article class="productions-directory-card slow-grow" data-show-card data-show-title="{{ $show.Title | lower | htmlEscape }}" data-show-production-count="{{ $productionCount }}" data-show-search="{{ $searchText | htmlEscape }}">
+            <a class="productions-directory-card-hitarea" href="{{ $show.RelPermalink }}" aria-label="View {{ $show.Title }}"></a>
+            <div class="production-badges productions-directory-badges">
+              <span class="productions-directory-badge">{{ $productionCount }} {{ if eq $productionCount 1 }}production{{ else }}productions{{ end }}</span>
+              {{ range first 3 $genres }}
+                <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
+              {{ end }}
+            </div>
+            <a class="productions-directory-poster-link" href="{{ $show.RelPermalink }}">
+              <img class="productions-directory-poster" src="{{ $posterPath }}" alt="{{ $posterAlt }}">
+            </a>
+            <div class="productions-directory-card-body">
+              <a class="productions-directory-card-link" href="{{ $show.RelPermalink }}">
+                <strong class="productions-directory-card-title">{{ $show.Title }}</strong>
+              </a>
+              {{ with $genres }}
+                <div class="productions-directory-meta">{{ delimit . " / " }}</div>
+              {{ end }}
+              {{ with $summary }}
+                <div class="productions-directory-summary">{{ . | markdownify | plainify | truncate 220 }}</div>
+              {{ end }}
+            </div>
+          </article>
         {{ end }}
-      {{ end }}
-    </p>
-  {{ end }}
+      </div>
+    </section>
+
+    {{ if $missingMultiShows }}
+      <section class="productions-directory-section shows-directory-missing-section" aria-labelledby="missing-show-pages">
+        <button type="button" class="productions-directory-section-eyebrow shows-directory-missing-toggle" aria-expanded="false" aria-controls="missing-show-pages-list" data-missing-shows-toggle>Needs Show Pages</button>
+        <div id="missing-show-pages-list" class="shows-directory-missing" hidden>
+          <div class="productions-directory-section-head sectionline">
+            <div class="productions-directory-section-title">
+              <h2 id="missing-show-pages">Repeated Shows Without Show Pages</h2>
+            </div>
+            <span class="productions-directory-count">{{ len $missingMultiShows }} listed</span>
+          </div>
+          {{ range $missingMultiShows }}
+            <article class="shows-directory-missing-item">
+              <header class="shows-directory-missing-item-head">
+                <h3>{{ .title }}</h3>
+                <span>{{ .count }} productions</span>
+              </header>
+              <ul class="shows-directory-missing-productions">
+                {{ range .productions }}
+                  <li>
+                    <a href="{{ .url }}">
+                      <span>{{ .openingLabel | default .openingDate }}</span>
+                      {{ with .theatre }}<strong>{{ . }}</strong>{{ end }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    <p class="productions-directory-empty" data-show-filter-empty hidden>No shows match that search.</p>
+  </div>
 </article>
+
+<style>
+  .shows-directory-search-row {
+    align-items: stretch;
+    display: flex;
+    gap: .75rem;
+  }
+
+  .shows-directory-search-row .productions-directory-filter {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .shows-directory-sort {
+    align-items: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: .5rem;
+  }
+
+  .shows-directory-sort .jp-button {
+    min-height: 3rem;
+    white-space: nowrap;
+  }
+
+  .shows-directory-missing-toggle {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+  }
+
+  .shows-directory-missing {
+    display: grid;
+    gap: .75rem;
+  }
+
+  .shows-directory-missing-item {
+    background: #fff;
+    border: 1px solid var(--jp-line);
+    padding: .85rem 1rem;
+  }
+
+  .shows-directory-missing-item-head {
+    align-items: start;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .shows-directory-missing-item-head h3 {
+    font-size: 1.05rem;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .shows-directory-missing-item-head span {
+    color: var(--jp-red);
+    flex: 0 0 auto;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .shows-directory-missing-productions {
+    border-top: 1px solid var(--jp-line);
+    display: grid;
+    gap: .4rem;
+    list-style: none;
+    margin: .7rem 0 0;
+    padding: .7rem 0 0;
+  }
+
+  .shows-directory-missing-productions a {
+    align-items: baseline;
+    display: flex;
+    gap: .6rem;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+  .shows-directory-missing-productions a:hover,
+  .shows-directory-missing-productions a:focus {
+    text-decoration: underline;
+  }
+
+  .shows-directory-missing-productions span {
+    color: #555;
+    font-size: .85rem;
+  }
+
+  .shows-directory-missing-productions strong {
+    color: var(--jp-ink);
+    font-size: .95rem;
+    text-align: right;
+  }
+
+  @media screen and (max-width: 767px) {
+    .shows-directory-search-row {
+      flex-direction: column;
+    }
+
+    .shows-directory-sort {
+      flex-wrap: wrap;
+    }
+
+    .shows-directory-missing-item-head,
+    .shows-directory-missing-productions a {
+      display: block;
+    }
+
+    .shows-directory-missing-item-head span,
+    .shows-directory-missing-productions strong {
+      display: block;
+      margin-top: .2rem;
+      text-align: left;
+    }
+  }
+</style>
+
+<script>
+(() => {
+  const root = document.querySelector('.shows-directory');
+  if (!root) return;
+
+  const input = root.querySelector('#shows-directory-filter');
+  const grid = root.querySelector('[data-show-grid]');
+  const cards = Array.from(root.querySelectorAll('[data-show-card]'));
+  const sortButtons = Array.from(root.querySelectorAll('[data-show-sort]'));
+  const sortLabel = root.querySelector('[data-show-sort-label]');
+  const status = root.querySelector('[data-show-filter-status]');
+  const count = root.querySelector('[data-show-section-count]');
+  const empty = root.querySelector('[data-show-filter-empty]');
+  const missingToggle = root.querySelector('[data-missing-shows-toggle]');
+  const missingList = root.querySelector('#missing-show-pages-list');
+  let sortMode = 'alpha';
+
+  const listedText = (value) => `${value} ${value === 1 ? 'show' : 'shows'} listed`;
+  const foundText = (value) => `${value} ${value === 1 ? 'show' : 'shows'} found`;
+
+  const sortCards = () => {
+    if (!grid) return;
+
+    const sortedCards = [...cards].sort((a, b) => {
+      const titleA = a.dataset.showTitle || '';
+      const titleB = b.dataset.showTitle || '';
+
+      if (sortMode === 'productions') {
+        const countA = Number(a.dataset.showProductionCount || 0);
+        const countB = Number(b.dataset.showProductionCount || 0);
+        if (countA !== countB) return countB - countA;
+      }
+
+      return titleA.localeCompare(titleB);
+    });
+
+    sortedCards.forEach((card) => grid.append(card));
+    if (sortLabel) sortLabel.textContent = sortMode === 'productions' ? 'Most Produced' : 'All Titles';
+    sortButtons.forEach((button) => {
+      const isActive = button.dataset.showSort === sortMode;
+      button.setAttribute('aria-pressed', String(isActive));
+      button.classList.toggle('primary', isActive);
+    });
+  };
+
+  const update = () => {
+    const query = input.value.trim().toLowerCase();
+    let visible = 0;
+
+    cards.forEach((card) => {
+      const matches = !query || (card.dataset.showSearch || '').includes(query);
+      card.hidden = !matches;
+      if (matches) visible += 1;
+    });
+
+    if (status) status.textContent = query ? foundText(visible) : listedText(visible);
+    if (count) count.textContent = `${visible} ${query ? 'found' : 'listed'}`;
+    if (empty) empty.hidden = visible !== 0;
+  };
+
+  sortButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      sortMode = button.dataset.showSort || 'alpha';
+      sortCards();
+      update();
+    });
+  });
+
+  if (missingToggle && missingList) {
+    missingToggle.addEventListener('click', () => {
+      const isExpanded = missingToggle.getAttribute('aria-expanded') === 'true';
+      missingToggle.setAttribute('aria-expanded', String(!isExpanded));
+      missingList.hidden = isExpanded;
+    });
+  }
+
+  input.addEventListener('input', update);
+  sortCards();
+})();
+</script>
 {{ end }}

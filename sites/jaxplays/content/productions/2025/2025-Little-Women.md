@@ -82,7 +82,9 @@ genres:
 - Historical
 description: "This original adaptation is based on the 1868 novel by Louisa May Alcott. The story follows four sisters growing up during the Civil War."
 press:
-- "Theatre Troupe 1776 to stage “Little Women” | Florida NewsLine": https://www.floridanewsline.com/mandarin/theatre-troupe-1776-to-stage-little-women/
+- title: "Theatre Troupe 1776 to stage “Little Women”"
+  url: "https://www.floridanewsline.com/mandarin/theatre-troupe-1776-to-stage-little-women/"
+  source: "Florida Newsline"
 - title: "Theatre Troupe 1776 presents Little Women | First Coast News"
   source: "First Coast News"
   url: "https://www.youtube.com/watch?v=i6vp26ce6ys"

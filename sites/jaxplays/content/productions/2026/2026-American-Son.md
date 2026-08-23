@@ -39,11 +39,12 @@ description: "There’s been an incident."
 source: The 5 & Dime production page and Facebook casting announcement
 source_date: 2026-06-17
 source_url: https://www.facebook.com/The5andDime/posts/1640880458040347/
+press:
+- title: "First Coast Connect: 5 & Dime Presents American Son"
+  url: "https://www.youtube.com/watch?v=W1x8Abez7T8"
+  youtube_id: "W1x8Abez7T8"
+  source: "WJCT 89.9 News"
 ---
 One night. One family. One broken system. A searing drama where personal anguish and systemic injustice collide when a Black teenager goes missing.
 
 “High tension on every level.” — The New York Times
-
-### First Coast Connect: 5 & Dime Presents American Son
-
-{{< youtube id="W1x8Abez7T8" >}}

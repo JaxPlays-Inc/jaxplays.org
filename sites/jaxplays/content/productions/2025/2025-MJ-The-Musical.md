@@ -115,14 +115,18 @@ genres:
   - Biography
   - Drama
 description: "Step into the dazzling world of the King of Pop with *MJ The Musical*, a high-energy show that chronicles the life and career of Michael Jackson through his iconic songs and unforgettable performances."
+press:
+- title: "MJ The Musical | Official Trailer"
+  source: "FSCJ Artist Series"
+  url: "https://www.youtube.com/watch?v=FwtzlaFKbK8"
+  youtube_id: "FwtzlaFKbK8"
+- title: "FSCJ Artist Series Presents MJ the Musical | First Coast News"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=V2n8IW9kKPQ"
+  youtube_id: "V2n8IW9kKPQ"
+
 ---
 *MJ The Musical* offers an electrifying look at the creative mind and unparalleled artistry of Michael Jackson. Focusing on his rise to fame and the defining moments of his career, the musical features hits like 'Billie Jean,' 'Thriller' and 'Beat It.' As it delves into his groundbreaking music and innovative dance moves, the show also explores the challenges he faced and the legacy he left behind. 
-
-{{< youtube FwtzlaFKbK8 >}}
-
-
-### FSCJ Artist Series Presents MJ the Musical | First Coast News
-{{< youtube V2n8IW9kKPQ >}}
 
 #### Act I
 - 'Beat It' – MJ, Company, and Orchestra

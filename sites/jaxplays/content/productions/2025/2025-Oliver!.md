@@ -100,11 +100,12 @@ crew:
   - Backdrop Designer: Eric Luchen
   - Set Construction: Alex Salas
 description: "Step into the gritty world of Victorian London in this musical adaptation of Charles Dickens' 'Oliver Twist,' where a young orphan navigates the perils of the city's underworld."
+press:
+- title: "River City Theatre Presents Lionel Bart’s *Oliver* | First Coast Living"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=VgwRggkfy4Q"
+  youtube_id: "VgwRggkfy4Q"
 ---
 This Tony and Olivier Award-winning musical follows a young orphan boy, Oliver, who escapes to London and finds acceptance amongst a group of petty thieves and pickpockets led by the elderly Fagin. When Oliver is captured for a theft that he did not commit, the benevolent victim, Mr. Brownlow, takes him in. Fearing the safety of his hideout, Fagin employs the sinister Bill Sikes and the sympathetic Nancy to kidnap him back, threatening Oliver’s chances of discovering the true love of a family.
 
 Consider yourself "at home" and join us for this beloved theatrical masterpiece!
-
-### River City Theatre Presents Lionel Bart’s *Oliver* | First Coast Living
-
-{{< youtube VgwRggkfy4Q >}} 

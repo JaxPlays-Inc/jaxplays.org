@@ -1225,6 +1225,83 @@ h1 a.jaxplayslogo {
 	margin: 0;
 }
 
+.production-press .production-press-video-thumb {
+	background: #111;
+	display: block;
+	position: relative;
+}
+
+.production-press .production-press-video-thumb .production-review-image {
+	display: block;
+}
+
+.production-press .production-press-play {
+	background: rgba(0, 0, 0, .72);
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 3.6rem;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 3.6rem;
+}
+
+.production-press .production-press-play::after {
+	border-bottom: .75rem solid transparent;
+	border-left: 1.1rem solid #fff;
+	border-top: .75rem solid transparent;
+	content: "";
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-38%, -50%);
+}
+
+.production-press-lightbox {
+	align-items: center;
+	background: rgba(0, 0, 0, .86);
+	display: flex;
+	inset: 0;
+	justify-content: center;
+	padding: 2rem;
+	position: fixed;
+	z-index: 9999999;
+}
+
+.production-press-lightbox[hidden] {
+	display: none;
+}
+
+.production-press-lightbox-frame {
+	aspect-ratio: 16 / 9;
+	background: #000;
+	max-width: 72rem;
+	position: relative;
+	width: 100%;
+}
+
+.production-press-lightbox-frame iframe {
+	height: 100%;
+	inset: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.production-press-lightbox-close {
+	background: transparent;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 3rem;
+	line-height: 1;
+	padding: .5rem 1rem;
+	position: fixed;
+	right: 1rem;
+	top: .5rem;
+	z-index: 1;
+}
+
 .production-single .program-preview-link {
 	display: block;
 	max-width: 300px;

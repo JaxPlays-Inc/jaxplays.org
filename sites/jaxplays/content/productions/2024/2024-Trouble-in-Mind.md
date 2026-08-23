@@ -53,11 +53,14 @@ genres:
   - Comedy
   - Satire
 description: "A searing satire of racism in the theater world, *Trouble in Mind* follows a talented African American actress through the rehearsals of a major Broadway production that exposes harsh truths both onstage and off."
+press:
+- title: "*Trouble in Mind* on First Coast Connect"
+  url: "https://www.youtube.com/watch?v=6fyoTlodQJ8"
+  youtube_id: "6fyoTlodQJ8"
+  source: "WJCT News 89.9"
+- title: "*Trouble in Mind* on First Coast Living"
+  url: "https://www.youtube.com/watch?v=r1uRjKGCg4M"
+  youtube_id: "r1uRjKGCg4M"
+  source: "First Coast News"
 ---
 Set during the rehearsals of a Broadway show, *Trouble in Mind* centers on Wiletta Mayer, an experienced African American actress grappling with the stereotypical role she's been given. As the rehearsal process unfolds, Wiletta confronts the white director's problematic vision and the industry's deep-seated racial biases. This incisive drama by Alice Childress offers a critical look at the dynamics of race, power, and art, challenging the status quo and pushing the boundaries of what theater can and should represent.
-
-### *Trouble in Mind* on First Coast Connect
-{{< youtube 6fyoTlodQJ8 >}}
-
-### *Trouble in Mind* on First Coast Living
-{{< youtube r1uRjKGCg4M >}}

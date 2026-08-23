@@ -47,8 +47,10 @@ crew:
 orchestra:
 genres: 
 description: 
+press:
+- title: "Act II Players Presents Bright Star the Musical | First Coast Living"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=bEUnRRXjdY0"
+  youtube_id: "bEUnRRXjdY0"
 ---
 This production is directed by Jacksonville native Juliet Fixel (NYC Choreographer, Director, and Owner/Artistic Director of JFix Productions and Choreography), Ava Fixel (Artistic Director of Act II Players), and Ellen Milligan (Musical Director), and it is choreographed by Juliet Fixel. Joining our local cast are three performers from the New York area on summer hiatus. Together, they bring a dynamic vision to the stage, uniting singers, dancers, musicians, and artists, one that will leave audiences humming long after the final curtain falls.
-
-### Act II Players Presents Bright Star the Musical | First Coast Living  
-{{< youtube bEUnRRXjdY0 >}}

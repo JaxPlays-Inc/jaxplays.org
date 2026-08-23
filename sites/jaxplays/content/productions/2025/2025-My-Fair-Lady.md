@@ -83,8 +83,10 @@ genres:
   - Drama
   - Romance
 description: "Step into Edwardian London with 'My Fair Lady,' a timeless musical about the transformation of Eliza Doolittle, a cockney flower girl, under the tutelage of the demanding Professor Henry Higgins."
+press:
+- title: "First Coast Connect:My Fair Lady at Alhambra Theatre | WJCT News 89.9"
+  source: "WJCT News 89.9"
+  url: "https://www.youtube.com/watch?v=fmLRWrMv9Yo"
+  youtube_id: "fmLRWrMv9Yo"
 ---
 My Fair Lady explores the dynamic relationship between Eliza Doolittle, a spirited and intelligent flower girl, and Professor Henry Higgins, a phonetics professor who wagers that he can transform her into a refined lady of society. The story navigates themes of class distinction, social mobility, and romance, underscored by iconic songs like 'I Could Have Danced All Night,' 'The Rain in Spain,' and 'Wouldn’t It Be Loverly.' As Eliza and Higgins' relationship evolves, the musical questions the true nature of transformation and the societal roles we are expected to play.
-
-### First Coast Connect:My Fair Lady at Alhambra Theatre | WJCT News 89.9
-{{< youtube fmLRWrMv9Yo >}}

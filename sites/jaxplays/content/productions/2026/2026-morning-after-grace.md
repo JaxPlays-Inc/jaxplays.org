@@ -87,17 +87,19 @@ genres:
 - Comedy
 description: >-
   This heartfelt Baby Boomer adult comedy explores love, loss, aging and medical marijuana. The story follows Angus and Abigail, whose chance encounter sparks the possibility of new love.
+press:
+- title: "Alhambra Theatre discusses *Morning After Grace* on WJCT News 89.9's *First Coast Connect*"
+  url: "https://www.youtube.com/watch?v=pHtPDWSrV68"
+  youtube_id: "pHtPDWSrV68"
+  source: "WJCT 89.9 News"
+- title: "*Morning After Grace* premieres at the Alhambra Theatre on *River City Live*"
+  url: "https://www.youtube.com/watch?v=a7fiISY9EIg"
+  youtube_id: "a7fiISY9EIg"
+  source: "News4Jax"
+- title: "Alhambra opens *Morning After Grace* on *First Coast News*"
+  url: "https://www.youtube.com/watch?v=oVbFIbpFfaI"
+  youtube_id: "oVbFIbpFfaI"
+  source: "First Coast News"
 ---
 
 The morning after a one-night stand, Angus and Abigail wake up in a Florida retirement community apartment with foggy memories, sharp wit, and no clear plan for what comes next. When their neighbor Ollie enters the picture, what begins as an awkward comedy of errors grows into a warm, funny, and unexpectedly moving story about aging, grief, second chances, and the courage it takes to keep living — and loving — fully.
-
-### Alhambra Theatre discusses *Morning After Grace* on WJCT News 89.9's *First Coast Connect*
-{{< youtube pHtPDWSrV68 >}}
-
-
-### *Morning After Grace* premieres at the Alhambra Theatre on *River City Live*
-{{< youtube a7fiISY9EIg >}}
-
-
-### Alhambra opens *Morning After Grace* on *First Coast News*
-{{< youtube oVbFIbpFfaI >}}

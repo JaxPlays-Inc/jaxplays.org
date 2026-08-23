@@ -125,19 +125,20 @@ musical_numbers: |
   * "Living in the Shadows" – Victoria
   * "Victor/Victoria" – Victoria, Toddy & Company
   {{col-end}}
+press:
+- title: "Arts Collective Theatre Opens with 'Victor/Victoria' | River City Live"
+  source: "News4Jax"
+  url: "https://www.youtube.com/watch?v=2EZKuMDT5B4"
+  youtube_id: "2EZKuMDT5B4"
+- title: "Arts Collective Theatre presents 'Victor/Victoria' | First Coast Connect"
+  source: "WJCT News 89.9"
+  url: "https://www.youtube.com/watch?v=CMvFROh8CX8"
+  youtube_id: "CMvFROh8CX8"
+- title: "Arts Collective Theatre Opens with the Musical 'Victor/Victoria' | First Coast Living"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=ltBzzRhIVlI"
+  youtube_id: "ltBzzRhIVlI"
 ---
 In 1930s Paris, a struggling soprano named Victoria Grant finds an outrageous route to stardom: with the help of a cabaret performer, she reinvents herself as Count Victor Grazinski, a man performing as a woman. The act is a sensation, but the masquerade grows deliciously complicated when romance, fame and suspicion all collide under the nightclub lights.
 
 Based on Blake Edwards' beloved film, *Victor/Victoria* is a stylish musical comedy about identity, ambition and the courage to become exactly who you are. With a score by Henry Mancini and Leslie Bricusse, the show blends backstage glamour, farce and heart into a fizzy theatrical celebration of reinvention.
-
-### Arts Collective Theatre Opens with 'Victor/Victoria' | River City Live - News4Jax
-
-{{< youtube 2EZKuMDT5B4 >}}
-
-### Arts Collective Theatre presents 'Victor/Victoria' | First Coast Connect - WJCT News 89.9
-
-{{< youtube CMvFROh8CX8 >}}
-
-### Arts Collective Theatre Opens with the Musical 'Victor/Victoria' | First Coast Living - First Coast News
-
-{{< youtube ltBzzRhIVlI >}}

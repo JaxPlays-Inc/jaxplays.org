@@ -1,0 +1,195 @@
+{{ define "header" }}{{ partialCached "site-navigation.html" . }}{{ end }}
+{{ define "main" }}
+
+{{ $show := . }}
+{{ $currentDate := now.Format "2006-01-02" }}
+{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
+{{ $showProductions := slice }}
+{{ $currentlyOnStage := slice }}
+{{ $comingSoon := slice }}
+{{ $pastProductions := slice }}
+
+{{ range $productionCards }}
+  {{ if eq .title $show.Title }}
+    {{ $production := . }}
+    {{ $showProductions = $showProductions | append $production }}
+    {{ $openingDate := $production.openingDate }}
+    {{ $endDate := $production.closingDate | default $openingDate }}
+    {{ if $openingDate }}
+      {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
+        {{ $currentlyOnStage = $currentlyOnStage | append $production }}
+      {{ else if gt $openingDate $currentDate }}
+        {{ $comingSoon = $comingSoon | append $production }}
+      {{ else }}
+        {{ $pastProductions = $pastProductions | append $production }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $currentlyOnStage = sort $currentlyOnStage "openingDate" "asc" }}
+{{ $comingSoon = sort $comingSoon "openingDate" "asc" }}
+{{ $pastProductions = sort $pastProductions "openingDate" "desc" }}
+{{ $genres := $show.Params.genres | default slice }}
+{{ if eq (printf "%T" $genres) "string" }}
+  {{ $genres = slice $genres }}
+{{ end }}
+{{ $description := $show.Params.description }}
+{{ if not $description }}
+  {{ $description = $show.Summary }}
+{{ end }}
+{{ $poster := $show.Params.featured_image }}
+{{ $posterAlt := $show.Params.featured_image_alt | default (printf "%s artwork" $show.Title) }}
+{{ $posterPath := "/media/default/production_poster.webp" }}
+{{ if $poster }}
+  {{ if or (hasPrefix $poster "http://") (hasPrefix $poster "https://") (hasPrefix $poster "//") (hasPrefix $poster "/") }}
+    {{ $posterPath = $poster }}
+  {{ else }}
+    {{ $posterPath = printf "/media/posters/%s" $poster }}
+  {{ end }}
+{{ end }}
+{{ $eyebrowParts := slice "Show" }}
+{{ with $genres }}{{ $eyebrowParts = $eyebrowParts | append (delimit . " / ") }}{{ end }}
+{{ $eyebrowParts = $eyebrowParts | append (printf "%d %s" (len $showProductions) (cond (eq (len $showProductions) 1) "production" "productions")) }}
+{{ $eyebrow := delimit $eyebrowParts " / " }}
+
+<div class="flex-l mt0 mw8 center">
+  <article class="production-single show-single relative center cf pv3 ph3 ph4-ns mw8 w-100">
+    <div class="production-hero-grid{{ if not $poster }} production-hero-grid--text{{ end }} mb4">
+      {{ if $poster }}
+        <div class="production-hero-poster">
+          <a href="{{ $posterPath }}" data-lightbox="gallery">
+            <img src="{{ $posterPath }}" alt="{{ $posterAlt }}" />
+          </a>
+        </div>
+      {{ end }}
+
+      <div class="production-hero-main">
+        <header class="relative bb b--black-10 pb2">
+          <h1 id="show-profile-title" class="f3 f2-ns f1-l lh-title mv0">{{ $show.Title }}</h1>
+          <div class="production-hero-meta fw6 f6 f5-ns ttu mt2">{{ $eyebrow }}</div>
+        </header>
+
+        <div class="production-badges production-hero-badges">
+          <span class="productions-directory-badge">{{ len $showProductions }} {{ if eq (len $showProductions) 1 }}production{{ else }}productions{{ end }}</span>
+          {{ range first 3 $genres }}
+            <a class="productions-directory-badge productions-directory-badge--genre" href="/genres/{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+        </div>
+
+        {{ with $description }}
+          <div class="production-hero-description description nested-copy-line-height lh-copy f5 f4-l mt2 {{ $.Param "text_color" | default "dark-gray" }}">
+            {{ partial "content-wikilinks" . }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="production-details nested-copy-line-height lh-copy f5 mb4 {{ $.Param "text_color" | default "dark-gray" }}">
+      <div class="production-details-grid">
+        <div class="production-details-main">
+          {{ if $show.Content }}
+            <div id="about">
+              <h3 class="f3 mt0 mb3 sectionline">About {{ $show.Title }}</h3>
+              {{ partial "content-wikilinks" $show.Content }}
+            </div>
+          {{ end }}
+        </div>
+
+        <div class="production-details-side">
+          <div class="production-detail-card production-detail-card--show bg-white ba b--black-10 pa3">
+
+            {{ with $genres }}
+              <div class="production-show-detail-row">
+                <div class="production-detail-label">Genres</div>
+                <div class="production-detail-value">
+                  {{ range $index, $genre := . }}{{ if $index }}, {{ end }}<a href="/genres/{{ $genre | urlize }}">{{ $genre }}</a>{{ end }}
+                </div>
+              </div>
+            {{ end }}
+
+            {{ with $show.Params.show_details }}
+              {{ range . }}
+                {{ range $label, $value := . }}
+                  {{ if $value }}
+                    <div class="production-show-detail-row">
+                      <div class="production-detail-label">{{ $label }}</div>
+                      <div class="production-detail-value">
+                        {{ if reflect.IsSlice $value }}
+                          {{ range $index, $item := $value }}{{ if $index }}, {{ end }}{{ partial "content-wikilinks" (printf "%v" $item) }}{{ end }}
+                        {{ else if findRE `^\d{4}-\d{2}-\d{2}$` (printf "%v" $value) }}
+                          {{ $value | dateFormat "January 2, 2006" }}
+                        {{ else }}
+                          {{ partial "content-wikilinks" (printf "%v" $value) }}
+                        {{ end }}
+                      </div>
+                    </div>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="productions">
+      {{ if $currentlyOnStage }}
+        <section class="productions-directory-section" aria-labelledby="currently-on-stage" data-production-section>
+          <div class="productions-directory-section-head sectionline">
+            <div class="productions-directory-section-title">
+              <p class="productions-directory-section-eyebrow">Currently on Stage</p>
+              <h2 id="currently-on-stage">Now Playing</h2>
+            </div>
+            <span class="productions-directory-count" data-production-section-count>{{ len $currentlyOnStage }} listed</span>
+          </div>
+          <div class="productions-directory-grid">
+            {{ range $currentlyOnStage }}
+              {{ partial "production-summary-card.html" (dict "production" . "status" "Now Playing") }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      {{ if $comingSoon }}
+        <section class="productions-directory-section" aria-labelledby="future-productions" data-production-section>
+          <div class="productions-directory-section-head sectionline">
+            <div class="productions-directory-section-title">
+              <p class="productions-directory-section-eyebrow">Announced Upcoming Shows</p>
+              <h2 id="future-productions">Future Productions</h2>
+            </div>
+            <span class="productions-directory-count" data-production-section-count>{{ len $comingSoon }} listed</span>
+          </div>
+          <div class="productions-directory-grid">
+            {{ range $comingSoon }}
+              {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      {{ if $pastProductions }}
+        <section class="productions-directory-section" aria-labelledby="past-productions" data-production-section>
+          <div class="productions-directory-section-head sectionline">
+            <div class="productions-directory-section-title">
+              <p class="productions-directory-section-eyebrow">Closed Productions</p>
+              <h2 id="past-productions">Past Productions</h2>
+            </div>
+            <span class="productions-directory-count" data-production-section-count>{{ len $pastProductions }} listed</span>
+          </div>
+          <div class="productions-directory-grid">
+            {{ range $pastProductions }}
+              {{ partial "production-summary-card.html" (dict "production" . "status" "Past Production" "showTickets" false) }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      {{ if not $showProductions }}
+        <p class="productions-directory-empty">No productions are listed for {{ $show.Title }} yet.</p>
+      {{ end }}
+    </div>
+
+  </article>
+</div>
+{{ end }}

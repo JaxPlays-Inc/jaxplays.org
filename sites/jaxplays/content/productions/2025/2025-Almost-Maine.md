@@ -37,8 +37,10 @@ crew:
 orchestra:
 genres: 
 description: "A tender and whimsical romantic comedy made up of interwoven vignettes, exploring love in all its forms on one magical night in a small Maine town."
+press:
+- title: "Blue Fire Theatre Presents *Almost, Maine* | First Coast Living"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=7I42eZLe2SY"
+  youtube_id: "7I42eZLe2SY"
 ---
 On a cold and enchanted winter night, the people of the town of Almost experience the life-altering power of the human heart. Relationships end, begin or change as strangers become friends, friends become lovers and lovers turn into strangers. Propelled by the mystical energy of the aurora borealis and populated with characters who are humorous, plain-spoken, thoughtful and sincere, John Cariani’s *Almost, Maine* is a series of loosely connected tales about love and longing, each with a compelling couple, and each with its own touch of magic.
-
-### Blue Fire Theatre Presents *Almost, Maine* | First Coast Living - First Coast News
-{{< youtube 7I42eZLe2SY >}}

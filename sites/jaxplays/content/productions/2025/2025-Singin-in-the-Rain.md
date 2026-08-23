@@ -103,11 +103,15 @@ orchestra:
 genres: 
 description: 
 press:
-- "Amelia Community Theatre presents “Singing in the Rain” | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2025/04/07/amelia-community-theatre-presents-singing-in-the-rain/
+- title: "Amelia Community Theatre presents “Singing in the Rain” | River City Live"
+  url: "https://www.news4jax.com/river-city-live/2025/04/07/amelia-community-theatre-presents-singing-in-the-rain/"
+  source: "News4Jax"
+- title: "Amelia Community Theatre presents “Singing in the Rain” | River City Live"
+  source: "News4Jax"
+  url: "https://www.youtube.com/watch?v=eTi2BkRAZ0c"
+  youtube_id: "eTi2BkRAZ0c"
+- title: "River City Plus: Amelia Community Theatre presents “Singing in the Rain”"
+  url: "https://www.youtube.com/watch?v=H70XGWYsXPM"
+  youtube_id: "H70XGWYsXPM"
+  source: "News4Jax"
 ---
-
-### Amelia Community Theatre presents “Singing in the Rain” | River City Plus - News4Jax
-{{< youtube eTi2BkRAZ0c >}}
-
-### River City Plus: Amelia Community Theatre presents “Singing in the Rain”
-{{< youtube H70XGWYsXPM >}}

@@ -39,19 +39,21 @@ source_url: https://officialnoahbennett.com/the-phil-mitchell-radio-hour
 source_urls:
   - https://officialnoahbennett.com/the-phil-mitchell-radio-hour
   - https://freshsqueezedmedia.ludus.com/show_page.php?show_id=200528577
+press:
+- title: "First Coast Connect: The Phil Mitchel Radio"
+  url: "https://www.youtube.com/watch?v=Cr5Bnrl3hP0"
+  youtube_id: "Cr5Bnrl3hP0"
+  source: "WJCT 89.9 News"
+- title: "Ep. 148 - Noah Bennett Speaks on The Phil Mitchell Radio Hour, Touring NY & Fake Blood Through TSA"
+  url: "https://www.youtube.com/watch?v=_Cuq8lsjIis"
+  youtube_id: "_Cuq8lsjIis"
+  start: 2004
+  source: "OG Sessions"
+- title: "The Florida Debut of The Phil Mitchell Radio Hour"
+  url: "https://www.youtube.com/watch?v=6JUMxmZ1EgQ"
+  youtube_id: "6JUMxmZ1EgQ"
+  source: "First Coast News"
 ---
 *The Phil Mitchell Radio Hour* is a one-man show about an evangelical radio host broadcasting as the rapture unfolds. The work examines the tension between organized religion and faith through a live, media-driven theatrical frame.
 
 After debuting in Columbus, Ohio, the show has mounted performances in Georgia, North Carolina, and New York City. It was named a 2025 ArtsATL Critic's Pick during the Atlanta Fringe Festival and played a sold-out run at the 2026 Asheville Fringe Festival. Its Jacksonville run marks the show's Florida debut and its first site-specific performance inside the historic San Marco Church.
-
-### First Coast Connect: The Phil Mitchel Radio
-
-{{< youtube id="Cr5Bnrl3hP0" >}}
-
-### OG Sessions Podcast
-
-{{< youtube id="_Cuq8lsjIis" start=2004 >}}
-
-### First Coast News
-
-{{< youtube 6JUMxmZ1EgQ >}}
