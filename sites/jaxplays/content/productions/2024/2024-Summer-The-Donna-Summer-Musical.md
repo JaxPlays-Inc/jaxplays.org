@@ -70,14 +70,15 @@ genres:
   - Biography
   - Drama
 description: "Celebrate the life and legacy of the Queen of Disco with *Summer: The Donna Summer Musical*, a dazzling tribute to Donna Summer's rise to stardom and her enduring impact on music."
+press:
+- title: "*Summer: The Donna Summer Musical* on First Coast Connect on WJCT News 89.9"
+  url: "https://www.youtube.com/watch?v=Wyhx6JVG6og"
+  youtube_id: "Wyhx6JVG6og"
+  start: 3074
+  source: "WJCT News 89.9"
+- title: "*Summer: The Donna Summer Musical* on First Coast Living on First Coast News"
+  url: "https://www.youtube.com/watch?v=zZEPa0ErCXE"
+  youtube_id: "zZEPa0ErCXE"
+  source: "First Coast News"
 ---
 *Summer* takes the audience through the remarkable journey of Donna Summer, from her modest beginnings to her meteoric rise as a global music icon. Told through the voices of three different actresses portraying Donna at various stages of her life, the musical features hits like "Hot Stuff," "Bad Girls" and "Last Dance." This vibrant and energetic show highlights the challenges Donna faced and the triumphs sh
-
-### *Summer: The Donna Summer Musical* on First Coast Connect on WJCT News 89.9
-
-{{< youtube id=Wyhx6JVG6og start=3074 >}}
-
-
-### *Summer: The Donna Summer Musical* on First Coast Living on First Coast News 
-
-{{< youtube zZEPa0ErCXE >}}

@@ -126,8 +126,21 @@ genres:
   - Family Drama
 description: "Experience the vivacious spirit of *Mame* in a special concert production, celebrating the musical's timeless songs and the irrepressible charm of its titular character."
 press:
-- "Linda Purl Will Star in Florida Mame Concerts | Playbill": https://playbill.com/article/linda-purl-will-star-in-florida-mame-concerts
-- "Florida Theatre & Theatre Jacksonville Present MAME: THE BROADWAY MUSICAL IN CONCERT Starring Linda Purl | Broadway World": https://www.broadwayworld.com/jacksonville/article/Florida-Theatre-Theatre-Jacksonville-Present-MAME-THE-BROADWAY-MUSICAL-IN-CONCERT-Starring-Linda-Purl-20240318
+- title: "Linda Purl Will Star in Florida Mame Concerts"
+  url: https://playbill.com/article/linda-purl-will-star-in-florida-mame-concerts
+  source: "Playbill"
+- title: "Florida Theatre & Theatre Jacksonville Present MAME: THE BROADWAY MUSICAL IN CONCERT Starring Linda Purl"
+  url: https://www.broadwayworld.com/jacksonville/article/Florida-Theatre-Theatre-Jacksonville-Present-MAME-THE-BROADWAY-MUSICAL-IN-CONCERT-Starring-Linda-Purl-20240318
+  source: "Broadway World"
+- title: "First Coast Connect: *MAME* at the Florida Theatre"
+  url: "https://www.youtube.com/watch?v=v1G9yuRMaMs"
+  youtube_id: "v1G9yuRMaMs"
+  source: "WJCT News 89.9"
+# - title: "An inside look into *Mame In Concert*, presented by Florida Theatre and Theatre Jax."
+#   url: "https://www.youtube.com/watch?v=qrAfIOs0YgQ"
+#   youtube_id: "qrAfIOs0YgQ"
+#   source: "The Florida Theatre"
+## The video was made private as of 08/23/2026
 musical_numbers: |
   {{col-begin}}
   ;Act I
@@ -167,11 +180,3 @@ Linda Purl stars as Mame. Her Broadway credits include The *Adventures of Tom Sa
 Dorothy Bishop co-stars as Mame’s best friend Vera Charles. A Jacksonville native, she appeared in the first Broadway national tour of Terrence McNally’s *Master Class* opposite Faye Dunaway and is best known in NYC for her long-running cabaret hit, *The Dozen Divas Show*.
 
 The production is directed by Jean Tait, whose Off-Broadway credits include *The Pearly Gates*, *Hijab at First Sight*, *The Proceedings*, and *It Gets Better*.
-
-### First Coast Connect: *MAME* at the Florida Theatre
-
-{{< youtube v1G9yuRMaMs >}}
-
-### "An inside look into *Mame In Concert*, presented by Florida Theatre and Theatre Jax."
-
-{{< youtube qrAfIOs0YgQ >}}

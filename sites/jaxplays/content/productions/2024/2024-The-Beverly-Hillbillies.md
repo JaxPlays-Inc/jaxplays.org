@@ -66,8 +66,10 @@ genres:
   - Comedy
   - Family
 description: "Join the Clampetts in this uproarious stage adaptation as they strike oil and bring their backwoods charm to the posh hills of Beverly."
+press:
+- title: "River City Live \"Hillbilly Hilarity: The Beverly Hillbillies Live on Stage!\""
+  url: "https://www.youtube.com/watch?v=avwvZUTmoUU"
+  youtube_id: "avwvZUTmoUU"
+  source: "News4Jax"
 ---
 When the Clampett family unexpectedly strikes oil on their land, they become instant millionaires and decide to move from their humble rural home to the lavish world of Beverly Hills. As they navigate their new high-society surroundings, their simple, country ways clash with the sophisticated lifestyle of their wealthy neighbors, leading to a series of hilarious misunderstandings and comedic antics. This stage adaptation of the beloved TV show captures all the humor and heart of the original, bringing the classic fish-out-of-water story to life with unforgettable characters and laugh-out-loud moments.
-
-### River City Live "Hillbilly Hilarity: The Beverly Hillbillies Live on Stage!" 
-{{< youtube avwvZUTmoUU >}}

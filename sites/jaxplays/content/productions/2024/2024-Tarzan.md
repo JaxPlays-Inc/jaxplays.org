@@ -64,10 +64,13 @@ crew:
   - Stagehand: Alyssa Green
   - Gallery Decoration & Experience Design: Darrell Allen Morton
 orchestra:
+press:
+- title: "Tarzan visits *First Coast Connect*"
+  url: "https://www.youtube.com/watch?v=dLYxWroz2vc"
+  youtube_id: "dLYxWroz2vc"
+  source: "WJCT News 89.9"
+- title: "Tarzan visits *First Coast Living*"
+  url: "https://www.youtube.com/watch?v=_ycxjQdot20"
+  youtube_id: "_ycxjQdot20"
+  source: "First Coast News"
 ---
-
-### Tarzan visits *First Coast Connect*
-{{< youtube dLYxWroz2vc >}}
-
-### Tarzan visits *First Coast Living*
-{{< youtube _ycxjQdot20 >}}

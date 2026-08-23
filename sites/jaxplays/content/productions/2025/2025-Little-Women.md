@@ -83,11 +83,11 @@ genres:
 description: "This original adaptation is based on the 1868 novel by Louisa May Alcott. The story follows four sisters growing up during the Civil War."
 press:
 - "Theatre Troupe 1776 to stage “Little Women” | Florida NewsLine": https://www.floridanewsline.com/mandarin/theatre-troupe-1776-to-stage-little-women/
+- title: "Theatre Troupe 1776 presents Little Women | First Coast News"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=i6vp26ce6ys"
+  youtube_id: "i6vp26ce6ys"
 ---
-
-### Theatre Troupe 1776 presents Little Women | First Coast News
-
-{{< youtube i6vp26ce6ys >}}
 
 {{< figure src="/media/photos/2025-Little-Women-01.webp" alt="Cast of 'Little Women' posing cheerfully on a vintage porch, dressed in period costumes. From left: Audrey Everett as Meg, Russell Calascione as Laurie, Louise Everett as Jo, Anna Molzer as Amy, and Madelyn Wolfram as Beth." caption="From left to right: Audrey Everett as the caring Meg March, Russell Calascione as the charming Laurie, Louise Everett as the fiery Jo March, Anna Molzer as the ambitious Amy March, and Madelyn Wolfram as the sweet Beth March gather in a heartwarming portrayal of 'Little Women', bringing the cherished narratives of Alcott's novel to vibrant life." attr="John Reed" attr_link="">}}
 

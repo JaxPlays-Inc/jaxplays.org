@@ -22,16 +22,20 @@ cast:
 crew:
 orchestra:
 press:
-  - "One of Us: Jason Woods performs one-man version of 'A Christmas Carol' each December": https://www.jacksonville.com/story/news/2016/12/05/one-us-jason-woods-performs-one-man-version-christmas-carol-each-december/15734700007/
+- title: "One of Us: Jason Woods performs one-man version of 'A Christmas Carol' each December"
+  url: https://www.jacksonville.com/story/news/2016/12/05/one-us-jason-woods-performs-one-man-version-christmas-carol-each-december/15734700007/
+  source: "Jacksonville.com"
+- title: "Jason Woods A Christmas Carol Trailer"
+  url: "https://www.youtube.com/watch?v=d2lrgEmQFX4"
+  youtube_id: "d2lrgEmQFX4"
+- title: "GMJ talks with Jason Woods about his one man 'A Christmas Carol'"
+  url: "https://www.youtube.com/watch?v=S_9GNrk4CA4"
+  youtube_id: "S_9GNrk4CA4"
+  source: First Coast News
+- title: "News4Jax talks with Jason Woods about his one-man show"
+  url: "https://www.youtube.com/watch?v=NJFKSaXYPVo"
+  youtube_id: "NJFKSaXYPVo"
+  source: "News4Jax"
 ---
-## Admission and Parking
+#### Admission and Parking
 Admission is free and open to the public as part of the Dickens on Centre festivities. Plan to arrive early because parking is limited and you may have to take the complimentary trolley from the [Nassau County School Board lot on Atlantic Avenue across from Central Park](https://maps.app.goo.gl/hxXKgKmH32gnr92E8). For more information, visit [Dickens on Centre Festival](https://www.ameliaisland.com/dickens-on-centre/)
-
-### Jason Woods A Christmas Carol Trailer
-{{< youtube d2lrgEmQFX4 >}}
-
-### GMJ talks with Jason Woods about his one man 'A Christmas Carol'
-{{< youtube S_9GNrk4CA4 >}}
-
-### News4Jax talks with Jason Woods about his one-man show
-{{< youtube NJFKSaXYPVo >}}

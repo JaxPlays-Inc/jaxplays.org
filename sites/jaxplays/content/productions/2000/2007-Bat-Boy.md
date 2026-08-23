@@ -1,7 +1,7 @@
 ---
 layout: productions
-title: Bat Boy
-date: 2024-08-11T13:45:12-04:00
+title: "Bat Boy: The Musical"
+date: 2026-08-23T16:40:00-04:00
 opening_date: 2007-12-31
 approx_date: year
 featured_image:

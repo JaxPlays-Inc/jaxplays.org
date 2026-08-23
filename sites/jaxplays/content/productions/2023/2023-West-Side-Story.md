@@ -62,8 +62,8 @@ crew:
 orchestra:
 press:
 - "Players by the Sea Presents: West Side Story | River City Live - News4Jax": https://www.news4jax.com/river-city-live/2023/07/21/players-by-the-sea-presents-west-side-story/
+- title: "Players by the Sea presents West Side Story | River City Live"
+  source: "River City Live"
+  url: "https://www.youtube.com/watch?v=wKL6OfXvIFo"
+  youtube_id: "wKL6OfXvIFo"
 ---
-
-### Players by the Sea presents West Side Story | River City Live
-
-{{< youtube wKL6OfXvIFo >}}

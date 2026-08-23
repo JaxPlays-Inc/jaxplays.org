@@ -62,9 +62,11 @@ crew:
 - Production Assistant: Phedre Delinois
 orchestra:
 press: 
-- "Beautiful: The Carole King Musical | First Coast Living - First Coast News": https://www.firstcoastnews.com/video/entertainment/television/first-coast-living/beautiful-the-carole-king-musical/77-298a1449-76eb-421e-a80c-23caefb73b01
+- title: "Beautiful: The Carole King Musical | First Coast Living - First Coast News"
+  url: https://www.firstcoastnews.com/video/entertainment/television/first-coast-living/beautiful-the-carole-king-musical/77-298a1449-76eb-421e-a80c-23caefb73b01
+  source: "First Coast News"
+- title: "Beautiful: The Carol King Musical on First Coast Living"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=6pbJmWQ8Gbk"
+  youtube_id: "6pbJmWQ8Gbk"
 ---
-
-### "Beautiful: The Carol King Musica on First Coast Living | First Coast News"
-
-{{< youtube 6pbJmWQ8Gbk >}}

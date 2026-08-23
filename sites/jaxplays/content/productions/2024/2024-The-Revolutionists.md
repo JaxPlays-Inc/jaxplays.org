@@ -115,13 +115,16 @@ photos:
   photo_attr: Mike Kitaif
   photo_alt: 
   photo_caption:
+press:
+- title: "First Coast Connect: The cast of *The Revolutionists*"
+  url: "https://www.youtube.com/watch?v=ludktWECz0Y"
+  youtube_id: "ludktWECz0Y"
+  start: 3172
+  end: 3496
+  source: "WJCT News 89.9"
+- title: "First Coast Living Interviews *The Revolutionists*"
+  url: "https://www.youtube.com/watch?v=ZUl9LMPC2NE"
+  youtube_id: "ZUl9LMPC2NE"
+  source: "First Coast News"
 ---
 Set during the Reign of Terror, 'The Revolutionists' follows playwright Olympe de Gouges, assassin Charlotte Corday, former queen Marie Antoinette and Haitian rebel Marianne Angelle as they navigate the upheaval of revolutionary France. With sharp humor and poignant moments, this play explores themes of activism, art, and the power of female solidarity in the face of tyranny. Lauren Gunderson's dynamic storytelling brings to life the struggles and triumphs of these remarkable women."
-
-### First Coast Connect: The cast of *The Revolutionists*
-
-{{< youtube id=ludktWECz0Y start=3172 end=3496 >}}
-
-### First Coast Living Interviews *The Revolutionists*
-
-{{< youtube ZUl9LMPC2NE >}}

@@ -45,18 +45,28 @@ genres:
 - Contemporary
 description: As illness dims her senses, Emily's grasp on life and relationships transforms, revealing unexpected strength.
 press: 
-- "Lumen Repertory Theatre to present compelling drama | Ponte Vedra Recorder": https://pontevedrarecorder.com/stories/lumen-repertory-theatre-to-present-compelling-drama,79466
-- "Mortgage escrow hikes | WJCT News 89.9": https://news.wjct.org/show/first-coast-connect/2024-02-05/first-coast-connect-mortgage-escrow-hikes
-- "Top 5 things to do this weekend in Jacksonville: Car show, Rod Stewart, vampires, Keb' Mo' | Florida Times-Union": https://www.jacksonville.com/story/entertainment/events/2024/02/14/5-fun-things-to-do-this-weekend-in-jacksonville-fla/72573211007/
-- "ARTS PICKS | Feb. 16-18 | Jacksonville Today": https://jaxtoday.org/2024/02/13/arts-picks-feb-16-18/
+- title: "Lumen Repertory Theatre to present compelling drama | Ponte Vedra Recorder"
+  url: https://pontevedrarecorder.com/stories/lumen-repertory-theatre-to-present-compelling-drama,79466
+  source: "Ponte Vedra Recorder"
+- title: "Mortgage escrow hikes | WJCT News 89.9"
+  url: https://news.wjct.org/show/first-coast-connect/2024-02-05/first-coast-connect-mortgage-escrow-hikes
+  source: "WJCT News 89.9"
+- title: "Top 5 things to do this weekend in Jacksonville: Car show, Rod Stewart, vampires, Keb' Mo' | Florida Times-Union"
+  url: https://www.jacksonville.com/story/entertainment/events/2024/02/14/5-fun-things-to-do-this-weekend-in-jacksonville-fla/72573211007/
+  source: "Florida Times-Union"
+- title: "ARTS PICKS | Feb. 16-18 | Jacksonville Today"
+  url: https://jaxtoday.org/2024/02/13/arts-picks-feb-16-18/
+  source: "Jacksonville Today"
+- title: "Director Brian Niece and Brooks Anne Meierdierks discuss *A Small Fire* on WJCT News 89.9's *First Coast Connect*"
+  url: "https://www.youtube.com/watch?v=kU58Vua2Zo4"
+  youtube_id: "kU58Vua2Zo4"
+  source: "WJCT News 89.9"
+- title: "Director Brian Niece and Brooks Anne Meierdierks discuss *A Small Fire* on the Lumen Rep Podcast"
+  url: "https://www.youtube.com/watch?v=5CEz0fULZns"
+  youtube_id: "5CEz0fULZns"
+- title: "Brian Niece sits down with First Coast Living’s David Benfield."
+  url: "https://www.youtube.com/watch?v=btihlIDiXIY"
+  youtube_id: "btihlIDiXIY"
+  source: "First Coast Living"
 ---
 Emily Bridges, a tough and successful construction company owner, finds her no-nonsense approach to life, work, and family put to the test when a mysterious illness begins to strip away her senses one by one. As she grapples with her diminishing independence, the relationships with her husband John, daughter Jenny, and longtime employee Billy come into sharper focus. *A Small Fire* navigates the unpredictable changes life can bring, and the ways in which adversity can redefine love, reveal strength, and transform perspectives.
-
-### Director Brian Niece and Brooks Anne Meierdierks discuss *A Small Fire* on WJCT News 89.9's *First Coast Connect*
-{{< youtube kU58Vua2Zo4 >}}
-
-### Director Brian Niece and Brooks Anne Meierdierks discuss *A Small Fire* on the Lumen Rep Podcast
-{{< youtube 5CEz0fULZns >}}
-
-### Brian Niece sits down with First Coast Living’s David Benfield. 
-{{< youtube btihlIDiXIY >}}
