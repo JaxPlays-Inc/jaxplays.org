@@ -120,7 +120,11 @@ reviews:
   description: ''
   featured_image: ''
 press:
-- "OKLAHOMA! to be Presented at Alhambra Theatre & Dining This Month | BroadwayWorld": https://web.archive.org/web/20240216222150/https://www.broadwayworld.com/jacksonville/article/OKLAHOMA-to-be-Presented-at-Alhambra-Theatre-Dining-This-Month-20240216
+  - title: "OKLAHOMA! to be Presented at Alhambra Theatre & Dining This Month"
+    url: https://web.archive.org/web/20240216222150/https://www.broadwayworld.com/jacksonville/article/OKLAHOMA-to-be-Presented-at-Alhambra-Theatre-Dining-This-Month-20240216
+    source: BroadwayWorld
+  - title: "Cooking with Chef DeJuan from the Alhambra Theatre & Dining"
+    url: https://www.youtube.com/watch?v=kuIe5MKoG2g
+    source: First Coast News
+    youtube_id: kuIe5MKoG2g
 ---
-
-{{< youtube kuIe5MKoG2g >}}

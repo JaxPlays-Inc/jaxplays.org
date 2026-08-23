@@ -13,25 +13,25 @@ genres:
   - Romance
   - Fantasy
 description: "A poetic and timeless tale of young love tested by illusion, growing pains and the bittersweet truths of the real world."
+musical_numbers: |
+  {{col-begin}}
+  ;Act I
+  - Overture
+  - "[[w:Try to Remember]]" – El Gallo, Luisa, Matt, Hucklebee, Bellomy
+  - "Much More" – Luisa
+  - "Metaphor" – Matt, Luisa
+  - "Never Say No" – Hucklebee, Bellomy
+  - "It Depends On What You Pay" – El Gallo, Hucklebee, Bellomy
+  - "[[w:Soon It's Gonna Rain]]" – Matt, Luisa
+  - "Abduction Ballet" – Company
+  - "Happy Ending" – Company
+  {{col-break}}
+  ;Act I
+  - "This Plum Is Too Ripe" – Matt, Luisa, Hucklebee, Bellomy
+  - "I Can See It" – Matt, El Gallo
+  - "Plant a Radish" – Bellomy, Hucklebee
+  - "Round and Round" – El Gallo, Luisa, Company
+  - "They Were You" – Matt, Luisa
+  - "Try to Remember" (reprise) – El Gallo
+  {{col-end}}
 ---
-### Musical numbers
-{{< columns >}} 
-#### Act I
-- Overture
-- "[[w:Try to Remember]]" – El Gallo, Luisa, Matt, Hucklebee, Bellomy
-- "Much More" – Luisa
-- "Metaphor" – Matt, Luisa
-- "Never Say No" – Hucklebee, Bellomy
-- "It Depends On What You Pay" – El Gallo, Hucklebee, Bellomy
-- "[[w:Soon It's Gonna Rain]]" – Matt, Luisa
-- "Abduction Ballet" – Company
-- "Happy Ending" – Company
-<--->
-#### Act I
-- "This Plum Is Too Ripe" – Matt, Luisa, Hucklebee, Bellomy
-- "I Can See It" – Matt, El Gallo
-- "Plant a Radish" – Bellomy, Hucklebee
-- "Round and Round" – El Gallo, Luisa, Company
-- "They Were You" – Matt, Luisa
-- "Try to Remember" (reprise) – El Gallo
-{{< /columns >}}

@@ -3,18 +3,21 @@
 
 {{ $show := . }}
 {{ $currentDate := now.Format "2006-01-02" }}
-{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
+{{ $productionPages := where .Site.RegularPages "Section" "productions" }}
 {{ $showProductions := slice }}
 {{ $currentlyOnStage := slice }}
 {{ $comingSoon := slice }}
 {{ $pastProductions := slice }}
 
-{{ range $productionCards }}
-  {{ if eq .title $show.Title }}
+{{ range $productionPages }}
+  {{ if eq .Title $show.Title }}
     {{ $production := . }}
     {{ $showProductions = $showProductions | append $production }}
-    {{ $openingDate := $production.openingDate }}
-    {{ $endDate := $production.closingDate | default $openingDate }}
+    {{ $openingDate := "" }}
+    {{ $endDate := "" }}
+    {{ with $production.Params.opening_date }}{{ $openingDate = time . | time.Format "2006-01-02" }}{{ end }}
+    {{ with $production.Params.closing_date }}{{ $endDate = time . | time.Format "2006-01-02" }}{{ end }}
+    {{ if and $openingDate (not $endDate) }}{{ $endDate = $openingDate }}{{ end }}
     {{ if $openingDate }}
       {{ if and $endDate (le $openingDate $currentDate) (ge $endDate $currentDate) }}
         {{ $currentlyOnStage = $currentlyOnStage | append $production }}
@@ -27,9 +30,9 @@
   {{ end }}
 {{ end }}
 
-{{ $currentlyOnStage = sort $currentlyOnStage "openingDate" "asc" }}
-{{ $comingSoon = sort $comingSoon "openingDate" "asc" }}
-{{ $pastProductions = sort $pastProductions "openingDate" "desc" }}
+{{ $currentlyOnStage = sort $currentlyOnStage "Params.opening_date" "asc" }}
+{{ $comingSoon = sort $comingSoon "Params.opening_date" "asc" }}
+{{ $pastProductions = sort $pastProductions "Params.opening_date" "desc" }}
 {{ $genres := $show.Params.genres | default slice }}
 {{ if eq (printf "%T" $genres) "string" }}
   {{ $genres = slice $genres }}
@@ -48,11 +51,6 @@
     {{ $posterPath = printf "/media/posters/%s" $poster }}
   {{ end }}
 {{ end }}
-{{ $eyebrowParts := slice "Show" }}
-{{ with $genres }}{{ $eyebrowParts = $eyebrowParts | append (delimit . " / ") }}{{ end }}
-{{ $eyebrowParts = $eyebrowParts | append (printf "%d %s" (len $showProductions) (cond (eq (len $showProductions) 1) "production" "productions")) }}
-{{ $eyebrow := delimit $eyebrowParts " / " }}
-
 <div class="flex-l mt0 mw8 center">
   <article class="production-single show-single relative center cf pv3 ph3 ph4-ns mw8 w-100">
     <div class="production-hero-grid{{ if not $poster }} production-hero-grid--text{{ end }} mb4">
@@ -67,7 +65,6 @@
       <div class="production-hero-main">
         <header class="relative bb b--black-10 pb2">
           <h1 id="show-profile-title" class="f3 f2-ns f1-l lh-title mv0">{{ $show.Title }}</h1>
-          <div class="production-hero-meta fw6 f6 f5-ns ttu mt2">{{ $eyebrow }}</div>
         </header>
 
         <div class="production-badges production-hero-badges">
@@ -145,7 +142,7 @@
           </div>
           <div class="productions-directory-grid">
             {{ range $currentlyOnStage }}
-              {{ partial "production-summary-card.html" (dict "production" . "status" "Now Playing") }}
+              {{ partial "production-summary-card.html" (dict "page" . "status" "Now Playing") }}
             {{ end }}
           </div>
         </section>
@@ -162,7 +159,7 @@
           </div>
           <div class="productions-directory-grid">
             {{ range $comingSoon }}
-              {{ partial "production-summary-card.html" (dict "production" . "status" "Coming Soon") }}
+              {{ partial "production-summary-card.html" (dict "page" . "status" "Coming Soon") }}
             {{ end }}
           </div>
         </section>
@@ -179,7 +176,7 @@
           </div>
           <div class="productions-directory-grid">
             {{ range $pastProductions }}
-              {{ partial "production-summary-card.html" (dict "production" . "status" "Past Production" "showTickets" false) }}
+              {{ partial "production-summary-card.html" (dict "page" . "status" "Past Production" "showTickets" false) }}
             {{ end }}
           </div>
         </section>

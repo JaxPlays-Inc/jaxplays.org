@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $shows := sort (where .Site.RegularPages "Section" "shows") "Title" "asc" }}
-{{ $productionCards := hugo.Data.generated.production_cards | default slice }}
+{{ $productionPages := where .Site.RegularPages "Section" "productions" }}
 {{ $listedShowProductions := 0 }}
 {{ $genreMap := dict }}
 {{ $showTitleMap := dict }}
@@ -11,8 +11,8 @@
   {{ $show := . }}
   {{ $showTitleMap = merge $showTitleMap (dict $show.Title true) }}
   {{ $productionCount := 0 }}
-  {{ range $productionCards }}
-    {{ if eq .title $show.Title }}
+  {{ range $productionPages }}
+    {{ if eq .Title $show.Title }}
       {{ $productionCount = add $productionCount 1 }}
     {{ end }}
   {{ end }}
@@ -26,8 +26,8 @@
   {{ end }}
 {{ end }}
 
-{{ range $productionCards }}
-  {{ $title := .title | default "" }}
+{{ range $productionPages }}
+  {{ $title := .Title | default "" }}
   {{ if and $title (not (index $showTitleMap $title)) }}
     {{ $productions := index $missingShowMap $title | default slice }}
     {{ $missingShowMap = merge $missingShowMap (dict $title ($productions | append .)) }}
@@ -36,7 +36,7 @@
 
 {{ range $title, $productions := $missingShowMap }}
   {{ if gt (len $productions) 1 }}
-    {{ $missingMultiShows = $missingMultiShows | append (dict "title" $title "count" (len $productions) "productions" (sort $productions "openingDate" "desc")) }}
+    {{ $missingMultiShows = $missingMultiShows | append (dict "title" $title "count" (len $productions) "productions" (sort $productions "Params.opening_date" "desc")) }}
   {{ end }}
 {{ end }}
 {{ $missingMultiShows = sort $missingMultiShows "title" "asc" }}
@@ -94,8 +94,8 @@
         {{ range $shows }}
           {{ $show := . }}
           {{ $productionCount := 0 }}
-          {{ range $productionCards }}
-            {{ if eq .title $show.Title }}
+          {{ range $productionPages }}
+            {{ if eq .Title $show.Title }}
               {{ $productionCount = add $productionCount 1 }}
             {{ end }}
           {{ end }}
@@ -165,9 +165,15 @@
               <ul class="shows-directory-missing-productions">
                 {{ range .productions }}
                   <li>
-                    <a href="{{ .url }}">
-                      <span>{{ .openingLabel | default .openingDate }}</span>
-                      {{ with .theatre }}<strong>{{ . }}</strong>{{ end }}
+                    <a href="{{ .RelPermalink }}">
+                      <span>
+                        {{ with .Params.opening_date }}
+                          {{ (time .).Format "Jan 2, 2006" }}
+                        {{ else }}
+                          Date TBD
+                        {{ end }}
+                      </span>
+                      {{ with .Params.theatre }}<strong>{{ . }}</strong>{{ end }}
                     </a>
                   </li>
                 {{ end }}

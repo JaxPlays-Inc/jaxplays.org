@@ -28,11 +28,13 @@ reviews:
   outlet: EU Jacksonville
   description: ''
   featured_image: ''
-
+press:
+- title: "Jekyll & Hyde Preview"
+  uri: https://www.youtube.com/watch?v=MwvUFSg8ALc
+  source: Alhambra Theatre
+  youtube_id: MwvUFSg8ALc
+- title: "Jekyll & Hyde Trailer"
+  uri: https://www.youtube.com/watch?v=NNYzF1CJcbQ
+  source: Alhambra Theatre
+  youtube_id: NNYzF1CJcbQ
 ---
-
-Jekyll & Hyde Preview
-{{< youtube MwvUFSg8ALc >}}
-
-Jekyll & Hyde
-{{< youtube NNYzF1CJcbQ >}}

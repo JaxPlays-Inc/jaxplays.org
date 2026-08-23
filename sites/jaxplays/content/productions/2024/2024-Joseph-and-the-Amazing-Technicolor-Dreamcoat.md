@@ -157,8 +157,11 @@ crew:
   - Erica Moya
 orchestra:
 press: 
-  - "Alhambra’s latest show is fun mix of color, sound | The Ponte Vedra Recorder": https://www.pontevedrarecorder.com/stories/alhambras-latest-show-is-fun-mix-of-color-sound,92635
+  - title: "Markus Mann and Aaron DeCicco on First Coast Connect"
+    url: https://www.youtube.com/watch?v=FxmYTLWbOe8
+    youtube_id: FxmYTLWbOe8
+    source: "WJCT News 89.9"
+  - title: Alhambra's latest show is fun mix of color, sound | The Ponte Vedra Recorder"
+    url: https://www.pontevedrarecorder.com/stories/alhambras-latest-show-is-fun-mix-of-color-sound,92635
+    source: "The Ponte Vedra Recorder"
 ---
-
-#### Markus Mann and Aaron DeCicco on First Coast Connect
-{{< youtube FxmYTLWbOe8 >}}
