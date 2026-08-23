@@ -1,14 +1,2 @@
 <!-- layouts/shortcodes/columns.html -->
-<div class="cf">
-  {{ $inner := .Inner }}
-  {{ $inner = replaceRE "\\{\\{\\s*col-begin\\s*\\}\\}" "" $inner }}
-  {{ $inner = replaceRE "\\{\\{\\s*col-end\\s*\\}\\}" "" $inner }}
-  {{ $inner = replaceRE "\\{\\{\\s*col-break\\s*\\}\\}" "<--->" $inner }}
-  {{ $inner = replaceRE "(?m)^;\\s*(.+)$" "#### $1" $inner }}
-  {{ $columns := split $inner "<--->" }}
-  {{ range $index, $element := $columns }}
-    <div class="fl w-100 w-{{ div 100 (len $columns) }}-l ph2">
-      {{ $.Page.RenderString $element }}
-    </div>
-  {{ end }}
-</div>
+{{ partial "columns.html" (dict "page" .Page "inner" .Inner) }}

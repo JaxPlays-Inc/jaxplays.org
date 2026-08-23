@@ -1,0 +1,14 @@
+{{- $page := .page -}}
+{{- $inner := .inner -}}
+{{- $inner = replaceRE "\\{\\{\\s*col-begin\\s*\\}\\}" "" $inner -}}
+{{- $inner = replaceRE "\\{\\{\\s*col-end\\s*\\}\\}" "" $inner -}}
+{{- $inner = replaceRE "\\{\\{\\s*col-break\\s*\\}\\}" "<--->" $inner -}}
+{{- $inner = replaceRE "(?m)^;\\s*(.+)$" "#### $1" $inner -}}
+{{- $columns := split $inner "<--->" -}}
+<div class="cf">
+  {{- range $index, $element := $columns }}
+    <div class="fl w-100 w-{{ div 100 (len $columns) }}-l ph2">
+      {{ $page.RenderString $element }}
+    </div>
+  {{- end }}
+</div>
