@@ -38,7 +38,7 @@
     {{- $display = $rawTarget -}}
   {{- end -}}
 
-  {{- $routeMap := dict "person" "/people/" "production" "/productions/" "theatre" "/theatres/" "venue" "/venues/" -}}
+  {{- $routeMap := dict "person" "/people/" "people" "/people/" "production" "/productions/" "productions" "/productions/" "theatre" "/theatres/" "theatres" "/theatres/" "venue" "/venues/" "venues" "/venues/" -}}
   {{- $isKnownPrefix := false -}}
   {{- range $key, $val := $routeMap -}}
     {{- if eq $prefix $key -}}
