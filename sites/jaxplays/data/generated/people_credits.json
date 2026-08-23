@@ -27401,6 +27401,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Board Operators"
+        ]
+      },
+      {
         "permalink": "/productions/2025-funny-girl/",
         "title": "Funny Girl",
         "opening_date": "2025-02-21",
@@ -31625,6 +31637,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Costume Design"
+        ]
+      },
+      {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
         "opening_date": "2026-06-18",
@@ -35693,6 +35717,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Musical Direction"
+        ]
+      },
+      {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
         "opening_date": "2026-06-18",
@@ -37168,6 +37204,18 @@
   },
   "charity-walton": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Stephanie Mangano"
+        ]
+      },
       {
         "permalink": "/productions/2026-damn-yankees/",
         "title": "Damn Yankees",
@@ -40654,136 +40702,6 @@
     ],
     "orchestra": []
   },
-  "chris-milligan": {
-    "cast": [
-      {
-        "permalink": "/productions/2026-damn-yankees/",
-        "title": "Damn Yankees",
-        "opening_date": "2026-02-26",
-        "approx_date": "",
-        "theatre": "",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2026-Damn-Yankees.webp",
-        "credits": [
-          "Vernan/Mambo Dancer"
-        ]
-      },
-      {
-        "permalink": "/productions/2025-come-from-away/",
-        "title": "Come From Away",
-        "opening_date": "2025-08-28",
-        "approx_date": "",
-        "theatre": "Alhambra Theatre & Dining",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2025-Come-From-Away.webp",
-        "credits": [
-          "Kevin T and others"
-        ]
-      },
-      {
-        "permalink": "/productions/2024-escape-to-margaritaville/",
-        "title": "Escape to Margaritaville",
-        "opening_date": "2024-04-04",
-        "approx_date": "",
-        "theatre": "Alhambra Theatre & Dining",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2024-Escape-to-Margaritaville.webp",
-        "credits": [
-          "Ensemble"
-        ]
-      },
-      {
-        "permalink": "/productions/2023-fiddler-on-the-roof/",
-        "title": "Fiddler on the Roof",
-        "opening_date": "2023-08-03",
-        "approx_date": "",
-        "theatre": "Alhambra Theatre & Dining",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2023_Fiddler_on_the_Roof.webp",
-        "credits": [
-          "Mendel"
-        ]
-      }
-    ],
-    "understudies": [
-      {
-        "permalink": "/productions/2024-escape-to-margaritaville/",
-        "title": "Escape to Margaritaville",
-        "opening_date": "2024-04-04",
-        "approx_date": "",
-        "theatre": "Alhambra Theatre & Dining",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2024-Escape-to-Margaritaville.webp",
-        "credits": [
-          "Brick"
-        ]
-      }
-    ],
-    "crew": [
-      {
-        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
-        "title": "The Hunchback of Notre Dame",
-        "opening_date": "2026-08-14",
-        "approx_date": "",
-        "theatre": "Greenlight Theatre Company",
-        "venue": "Greenlight Theatre Company",
-        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
-        "credits": [
-          "Director and Choreographer"
-        ]
-      },
-      {
-        "permalink": "/productions/2026-damn-yankees/",
-        "title": "Damn Yankees",
-        "opening_date": "2026-02-26",
-        "approx_date": "",
-        "theatre": "",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2026-Damn-Yankees.webp",
-        "credits": [
-          "Choreographer/Dance Captain"
-        ]
-      },
-      {
-        "permalink": "/productions/2024-cabaret/",
-        "title": "Cabaret",
-        "opening_date": "2024-05-31",
-        "approx_date": "",
-        "theatre": "Greenlight Theatre Company",
-        "venue": "John McManus Mainstage Theatre",
-        "featured_image": "2024-Cabaret.webp",
-        "credits": [
-          "Director",
-          "Stage Design"
-        ]
-      },
-      {
-        "permalink": "/productions/2024-be-more-chill/",
-        "title": "Be More Chill",
-        "opening_date": "2024-04-26",
-        "approx_date": "",
-        "theatre": "Greenlight Theatre Company",
-        "venue": "Grace Darling Studio Theatre",
-        "featured_image": "2024-Be-More-Chill.webp",
-        "credits": [
-          "Director"
-        ]
-      },
-      {
-        "permalink": "/productions/2022-kinky-boots/",
-        "title": "Kinky Boots",
-        "opening_date": "2022-07-15",
-        "approx_date": "",
-        "theatre": "Players by the Sea",
-        "venue": "",
-        "featured_image": "2022_Kinky_Boots.jpeg",
-        "credits": [
-          "Choreographer"
-        ]
-      }
-    ],
-    "orchestra": []
-  },
   "chris-robertson": {
     "cast": [
       {
@@ -41135,6 +41053,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "christian-leigh": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Gus"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "christian-stocks": {
@@ -41622,6 +41559,148 @@
     ],
     "understudies": [],
     "crew": [],
+    "orchestra": []
+  },
+  "christopher-michael-milligan": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Tony Manero"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-damn-yankees/",
+        "title": "Damn Yankees",
+        "opening_date": "2026-02-26",
+        "approx_date": "",
+        "theatre": "",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Damn-Yankees.webp",
+        "credits": [
+          "Vernan/Mambo Dancer"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-come-from-away/",
+        "title": "Come From Away",
+        "opening_date": "2025-08-28",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2025-Come-From-Away.webp",
+        "credits": [
+          "Kevin T and others"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2024-04-04",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2024-Escape-to-Margaritaville.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-fiddler-on-the-roof/",
+        "title": "Fiddler on the Roof",
+        "opening_date": "2023-08-03",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2023_Fiddler_on_the_Roof.webp",
+        "credits": [
+          "Mendel"
+        ]
+      }
+    ],
+    "understudies": [
+      {
+        "permalink": "/productions/2024-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2024-04-04",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2024-Escape-to-Margaritaville.webp",
+        "credits": [
+          "Brick"
+        ]
+      }
+    ],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
+        "title": "The Hunchback of Notre Dame",
+        "opening_date": "2026-08-14",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-The-Hunchback-of-Notre-Dame.webp",
+        "credits": [
+          "Director and Choreographer"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-damn-yankees/",
+        "title": "Damn Yankees",
+        "opening_date": "2026-02-26",
+        "approx_date": "",
+        "theatre": "",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Damn-Yankees.webp",
+        "credits": [
+          "Choreographer/Dance Captain"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-cabaret/",
+        "title": "Cabaret",
+        "opening_date": "2024-05-31",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2024-Cabaret.webp",
+        "credits": [
+          "Director",
+          "Stage Design"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-be-more-chill/",
+        "title": "Be More Chill",
+        "opening_date": "2024-04-26",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2024-Be-More-Chill.webp",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
+        "permalink": "/productions/2022-kinky-boots/",
+        "title": "Kinky Boots",
+        "opening_date": "2022-07-15",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "",
+        "featured_image": "2022_Kinky_Boots.jpeg",
+        "credits": [
+          "Choreographer"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "christopher-p-farrell": {
@@ -46083,6 +46162,18 @@
   "curtis-reed": {
     "cast": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Jay"
+        ]
+      },
+      {
         "permalink": "/productions/2025-she-loves-me-2/",
         "title": "She Loves Me",
         "opening_date": "2025-11-07",
@@ -47829,6 +47920,22 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Catalyst Creative Team",
+          "Stage Manager",
+          "Set & Lighting Design",
+          "Props, Costumes & Sound",
+          "Board Operators"
+        ]
+      },
+      {
         "permalink": "/productions/2026-godspell/",
         "title": "Godspell",
         "opening_date": "2026-03-26",
@@ -48649,6 +48756,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Set Design"
+        ]
+      },
       {
         "permalink": "/productions/2025-the-mystery-of-edwin-drood/",
         "title": "The Mystery of Edwin Drood",
@@ -56920,6 +57039,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Costume Design"
+        ]
+      },
       {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
@@ -68497,6 +68628,18 @@
   },
   "elliot-miller": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Frank, Jr."
+        ]
+      },
       {
         "permalink": "/productions/2025-little-women-3/",
         "title": "Little Women (musical)",
@@ -97757,7 +97900,7 @@
         "venue": "The Waterworks",
         "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
         "credits": [
-          "Jeannie"
+          "Jeannie Garstecki"
         ]
       },
       {
@@ -97848,6 +97991,20 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Catalyst Creative Team",
+          "Marketing & Social Media",
+          "Props, Costumes & Sound"
+        ]
+      },
       {
         "permalink": "/productions/2026-i-love-you-youre-perfect-now-change/",
         "title": "I Love You, You’re Perfect, Now Change",
@@ -100917,7 +101074,7 @@
         "venue": "The Waterworks",
         "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
         "credits": [
-          "Norbert"
+          "Norbert Garstecki"
         ]
       },
       {
@@ -119120,6 +119277,25 @@
       }
     ]
   },
+  "joey-deshler": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Joey"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "john-c-james-jr": {
     "cast": [
       {
@@ -120813,10 +120989,41 @@
     "crew": [],
     "orchestra": []
   },
+  "johnny-flannagen": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Double J"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "johnny-pettegrew": {
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Lighting Design"
+        ]
+      },
       {
         "permalink": "/productions/2026-1776/",
         "title": "1776",
@@ -128580,6 +128787,25 @@
     "crew": [],
     "orchestra": []
   },
+  "kamari-samuels": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Dancer 4 / Cesar"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "kandice-mcnett": {
     "cast": [
       {
@@ -130547,6 +130773,25 @@
     "crew": [],
     "orchestra": []
   },
+  "katelyn-blair": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Pauline / Connie"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "katelyn-quick": {
     "cast": [],
     "understudies": [],
@@ -130967,6 +131212,18 @@
   },
   "kathy-sanders": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Flo Manero"
+        ]
+      },
       {
         "permalink": "/productions/2025-the-mystery-of-edwin-drood/",
         "title": "The Mystery of Edwin Drood",
@@ -137700,6 +137957,18 @@
   },
   "landon-amburgey": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Dancer 2"
+        ]
+      },
       {
         "permalink": "/productions/2026-damn-yankees/",
         "title": "Damn Yankees",
@@ -163063,6 +163332,25 @@
     ],
     "orchestra": []
   },
+  "matthew-carr": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Audio Engineer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "matthew-duck": {
     "cast": [
       {
@@ -165787,6 +166075,18 @@
   "melvin-edward-nash-ii": {
     "cast": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Monty"
+        ]
+      },
+      {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
         "opening_date": "2026-06-18",
@@ -166008,6 +166308,12 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "melvin-nash": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "meredith-brown": {
@@ -166384,6 +166690,18 @@
   },
   "mia-vazquez": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Dancer 3 / Maria"
+        ]
+      },
       {
         "permalink": "/productions/2025-rent/",
         "title": "Rent",
@@ -176793,6 +177111,18 @@
   "nicole-sheehan": {
     "cast": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Dancer 1"
+        ]
+      },
+      {
         "permalink": "/productions/2025-little-women-3/",
         "title": "Little Women (musical)",
         "opening_date": "2025-11-29",
@@ -177078,6 +177408,12 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "nikki-sheehan": {
+    "cast": [],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "nikki-spies": {
@@ -180032,6 +180368,77 @@
     ],
     "understudies": [],
     "crew": [],
+    "orchestra": []
+  },
+  "olivia-montalbano": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Linda Manero"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-play-on/",
+        "title": "Play On!",
+        "opening_date": "2026-04-17",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2026-Play-On.webp",
+        "credits": [
+          "Violet Imbry / Diana Lassiter"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2024-urinetown/",
+        "title": "Urinetown",
+        "opening_date": "2024-07-12",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2024-Urinetown.webp",
+        "credits": [
+          "Costume Designer"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-potus/",
+        "title": "POTUS: Or, Behind Every Great Dumbass Are Seven Women Trying to Keep Him Alive",
+        "opening_date": "2024-03-15",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2024-POTUS.webp",
+        "credits": [
+          "Costume Designer"
+        ]
+      },
+      {
+        "permalink": "/productions/2020-in-the-heights/",
+        "title": "In the Heights",
+        "opening_date": "2020-01-17",
+        "approx_date": "",
+        "theatre": "Jacksonville University - Stein College",
+        "venue": [
+          "Swisher Theater",
+          "Wilson Center - Main Stage Theatre"
+        ],
+        "featured_image": "2020_In_the_Heights.jpg",
+        "credits": [
+          "Production Assistants and Crew"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "olivia-rusinek": {
@@ -183377,6 +183784,18 @@
       }
     ],
     "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Property Master"
+        ]
+      },
       {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
@@ -190847,6 +191266,18 @@
   },
   "rachel-ann-kocher": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Annette"
+        ]
+      },
       {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
@@ -206290,6 +206721,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Production Manager"
+        ]
+      },
+      {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
         "opening_date": "2026-06-18",
@@ -210128,7 +210571,7 @@
         "venue": "The Waterworks",
         "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
         "credits": [
-          "Director"
+          "Director / Producing Artistic Director"
         ]
       },
       {
@@ -214712,6 +215155,18 @@
   "steven-amburgey": {
     "cast": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Fosco"
+        ]
+      },
+      {
         "permalink": "/productions/2026-1776/",
         "title": "1776",
         "opening_date": "2026-05-14",
@@ -218922,6 +219377,49 @@
     ],
     "orchestra": []
   },
+  "tanner-lane": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Choreography"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-shrek-the-musical/",
+        "title": "Shrek the Musical",
+        "opening_date": "2026-06-18",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Shrek.webp",
+        "credits": [
+          "Choreographer"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-elf/",
+        "title": "Elf",
+        "opening_date": "2025-11-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2025-Elf.webp",
+        "credits": [
+          "Choreographer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "tatiana-zappardino": {
     "cast": [
       {
@@ -220323,6 +220821,18 @@
       }
     ],
     "crew": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Fight Choreography"
+        ]
+      },
       {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
@@ -222351,6 +222861,18 @@
     ],
     "crew": [
       {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Produced and Directed by"
+        ]
+      },
+      {
         "permalink": "/productions/2026-shrek-the-musical/",
         "title": "Shrek the Musical",
         "opening_date": "2026-06-18",
@@ -222923,6 +223445,18 @@
   },
   "tom-cassaro": {
     "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Frank Manero"
+        ]
+      },
       {
         "permalink": "/productions/2025-southern-fried-funeral/",
         "title": "Southern Fried Funeral",
@@ -228378,6 +228912,89 @@
     ],
     "understudies": [],
     "crew": [],
+    "orchestra": []
+  },
+  "victoria-mapayi": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Candy / Club Singer"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-beautiful-the-carole-king-musical/",
+        "title": "Beautiful: The Carole King Musical",
+        "opening_date": "2025-04-03",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2025-Beautiful-The-Carole-King-Musical.webp",
+        "credits": [
+          "Shirley",
+          "Chorus"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2024-04-04",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2024-Escape-to-Margaritaville.webp",
+        "credits": [
+          "Marley"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-miracle-on-34th-street/",
+        "title": "Miracle on 34th Street",
+        "opening_date": "2023-11-16",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2023-Miracle-on-34th-Street.webp",
+        "credits": [
+          "Mrs. Crookshank",
+          "Female ensemble"
+        ]
+      }
+    ],
+    "understudies": [
+      {
+        "permalink": "/productions/2023-miracle-on-34th-street/",
+        "title": "Miracle on 34th Street",
+        "opening_date": "2023-11-16",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2023-Miracle-on-34th-Street.webp",
+        "credits": [
+          "Supporting Lead Female Understudy"
+        ]
+      }
+    ],
+    "crew": [
+      {
+        "permalink": "/productions/2024-cadillac-crew/",
+        "title": "Cadillac Crew",
+        "opening_date": "2024-10-18",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "San Marco Church",
+        "featured_image": "2024-Cadillac-Crew.webp",
+        "credits": [
+          "Dramaturg"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "vince-pellegrino": {
@@ -234015,6 +234632,25 @@
         "featured_image": "2025-Callas.webp",
         "credits": [
           "Cast"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "zakary-clausell-santos": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-saturday-night-fever/",
+        "title": "Saturday Night Fever",
+        "opening_date": "2026-08-20",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Saturday-Night-Fever.webp",
+        "credits": [
+          "Bobby"
         ]
       }
     ],

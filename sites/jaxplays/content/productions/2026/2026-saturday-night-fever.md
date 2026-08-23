@@ -110,26 +110,28 @@ description: >-
 *Saturday Night Fever* follows Tony Manero, a working-class Brooklyn kid whose weekday life feels small but who becomes a king on the disco floor every Saturday night. As he chases validation through dance competitions and nightlife, Tony confronts family pressure, toxic masculinity, and the limits of his own ambition. Set to iconic disco hits, the musical explores the cost of escape and the search for purpose beyond the spotlight.
 ### Musical numbers
 {{< columns >}} 
-#### Act I
-* "[[w:Stayin' Alive]]" – Tony and Company
-* "[[w:Boogie Shoes]]" <small>(Music and lyrics by Harry Casey and Richard Finch)</small> – Tony, Bobby C, Joey, Double J, and Gus
-* "[[w:Disco Inferno]]" <small>(Music and lyrics by Leroy Green and [[Ron Kersey]])</small> – Monty and Company
-* "[[w:Night Fever]]" – Tony and Company
-* "[[w:Disco Duck]]" <small>(Music and lyrics by [[w:Rick Dees]])</small> – Monty
-* "[[w:More Than a Woman (Bee Gees song)|More Than a Woman]]" – Tony and Stephanie
-* "[[w:If I Can't Have You (Bee Gees song)|If I Can't Have You]]" – Annette
-* "[[w:One (Bee Gees album)|It's My Neighborhood]]" – Company
-* "[[w:You Should Be Dancing]]" – Tony and Company
-<--->
-#### Act II
-* "[[w:Jive Talkin']]" – Tony, Annette, Bobby C, Joey, Double J, Gus, and Company
-* "First and Last/[[w:Tragedy (Bee Gees song)|Tragedy]]" – Bobby C
-* "[[w:What Kind of Fool]]" <small>(Music and lyrics by [[w:Albhy Galuten]] and [[w:Barry Gibb]])</small> – Stephanie
-* "[[w:Nights on Broadway]]" – Annette, Stephanie, and Company
+{{col-begin}}
+;Act I
+* "[[Stayin' Alive]]" – Tony and Company
+* "[[Boogie Shoes]]" <small>(Music and lyrics by Harry Casey and Richard Finch)</small> – Tony, Bobby C, Joey, Double J, and Gus
+* "[[Disco Inferno]]" <small>(Music and lyrics by Leroy Green and [[Ron Kersey]])</small> – Monty and Company
+* "[[Night Fever]]" – Tony and Company
+* "[[Disco Duck]]" <small>(Music and lyrics by [[Rick Dees]])</small> – Monty
+* "[[More Than a Woman (Bee Gees song)|More Than a Woman]]" – Tony and Stephanie
+* "[[If I Can't Have You (Bee Gees song)|If I Can't Have You]]" – Annette
+* "[[One (Bee Gees album)|It's My Neighborhood]]" – Company
+* "[[You Should Be Dancing]]" – Tony and Company
+{{col-break}}
+;Act II
+* "[[Jive Talkin']]" – Tony, Annette, Bobby C, Joey, Double J, Gus, and Company
+* "First and Last/[[Tragedy (Bee Gees song)|Tragedy]]" – Bobby C
+* "[[What Kind of Fool]] <small>(Music and lyrics by [[Albhy Galuten]] and [[Barry Gibb]])</small> – Stephanie
+* "[[Nights on Broadway]]" – Annette, Stephanie, and Company
 * "Night Fever" (Reprise) – Company
-* "Open Sesame" <small>(Music and lyrics by [[w:Ronald Bell (musician)|Ronald Bell]])</small> – Chester and Shirley
+* "Open Sesame" <small>(Music and lyrics by [[Ronald Bell (musician)|Ronald Bell]])</small> – Chester and Shirley
 * "More Than a Woman" (Reprise) – Tony and Stephanie
-* "Salsation" <small>(Music and lyrics by [[w:David Shire]])</small> – Cesar and Maria
-* "[[w:Immortality (Celine Dion song)|Immortality]]" – Tony
-* "[[w:How Deep Is Your Love (Bee Gees song)|How Deep Is Your Love]]" – Tony and Stephanie
-{{< /columns >}}
+* "Salsation" <small>(Music and lyrics by [[David Shire]])</small> – Cesar and Maria
+* "[[Immortality (Celine Dion song)|Immortality]]" – Tony
+* "[[How Deep Is Your Love (Bee Gees song)|How Deep Is Your Love]]" – Tony and Stephanie
+{{col-end}}
+{{< / columns >}}

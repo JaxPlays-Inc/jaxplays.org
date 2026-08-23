@@ -25,6 +25,11 @@
   {{- $rawTarget := delimit (after 1 $rawColonParts) ":" -}}
   {{- $rawTarget = trim $rawTarget " " -}}
   {{- $rawTarget = replaceRE "^([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+|([\"“”]|&quot;|&#34;|&ldquo;|&rdquo;)+$" "" $rawTarget -}}
+  {{- if eq (len $colonParts) 1 -}}
+    {{- $prefix = "" -}}
+    {{- $target = $mainPart -}}
+    {{- $rawTarget = $rawMainPart -}}
+  {{- end -}}
   {{- $route := "" -}}
 
   {{- if eq (len $parts) 2 -}}
@@ -71,7 +76,10 @@
 
     {{- $link := printf "<a%s href=\"%s\">%s</a>" $style $url $display -}}
     {{- $content = replace $content $originalLink $link -}}
-  {{- else if eq $prefix "w" -}}
+  {{- else -}}
+    {{- if ne $prefix "w" -}}
+      {{- $target = $mainPart -}}
+    {{- end -}}
     {{- $wikiName := $target -}}
     {{- $wikiName = replace $wikiName " " "_" -}}
     {{- $wikiName = replace $wikiName "'" "%27" -}}
