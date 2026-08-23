@@ -27,17 +27,33 @@ show_details:
 - Book: Betsy Kelso
 - Music & Lyrics: David Nehls
 cast:
-- Pippi: Heather Quinn
-- Norbert: Hunter Showalter
-- Jeannie: Heather Starling
 - Betty: Renee Riso
 - Lin: Keri Green
-- Pickles: Grace Lewis
+- Pickles: Grace Lyndsey
+- Jeannie Garstecki: Heather Starling
+- Norbert Garstecki: Hunter Showalter
+- Pippi: Heather Quinn
 - Duke: Xavier Torres
 crew:
-- Director: Sherrie Provence
+- Director / Producing Artistic Director: Sherrie Provence
+- Catalyst Creative Team:
+  - Daniel Starling
+  - Heather Starling
+- Marketing & Social Media: Heather Starling
 - Music Director: Keith Teepen
 - Choreographer: Jonathan Chapman
+- Stage Manager: Daniel Starling
+- Set & Lighting Design: Daniel Starling
+- Props, Costumes & Sound:
+  - Daniel Starling
+  - Heather Starling
+  - Ryan Provence
+- Board Operators:
+  - Daniel Starling
+  - Ryan Provence
+  - Brian Johnson
+  - David Diebold
+  - Glenn Murphy
 orchestra:
 genres:
 - Musical

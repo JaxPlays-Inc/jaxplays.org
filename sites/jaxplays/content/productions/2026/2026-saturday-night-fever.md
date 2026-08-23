@@ -60,9 +60,44 @@ website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1511&code=JAXPLAYS
 show_details:
-- 'Based on': 1977 film *[[w:Saturday Night Fever]]*
-cast: null
-crew: null
+- 'Based on': The Paramount/RSO film and story by Nik Cohn
+- Adapted for the stage: Robert Stigwood in collaboration with Bill Oakes
+- Edited by: Bryan McBryde
+- Featuring songs by: "[[w:The Bee Gees]]"
+cast:
+- Tony Manero: Christopher Michael Milligan
+- Bobby: Zakary Clausell-Santos
+- Gus: Christian Leigh
+- Double J: Johnny Flannagen
+- Joey: Joey Deshler
+- Monty: Melvin Nash
+- Frank Manero: Tom Cassaro
+- Flo Manero: Kathy Sanders
+- Frank, Jr.: Elliot Miller
+- Linda Manero: Olivia Montalbano
+- Stephanie Mangano: Charity Walton
+- Pauline / Connie: Katelyn Blair
+- Annette: Rachel Ann Kocher
+- Candy / Club Singer: Victoria Mapayi
+- Jay: Curtis Reed
+- Fosco: Steven Amburgey
+- Dancer 1: Nikki Sheehan
+- Dancer 2: Landon Amburgey
+- Dancer 3 / Maria: Mia Vazquez
+- Dancer 4 / Cesar: Kamari Samuels
+crew:
+- Produced and Directed by: Tod Booth
+- Musical Direction: Cathy Murphy Giddens
+- Choreography: Tanner Lane
+- Lighting Design: Johnny Pettegrew
+- Costume Design:
+  - Camala Pitts
+  - Dorinda Quiles
+- Set Design: Dave Dionne
+- Property Master: Patti Eyler
+- Production Manager: Sarah Brace
+- Audio Engineer: Matthew Carr
+- Fight Choreography: Thad Walker
 orchestra: null
 genres:
 - Musical
@@ -73,3 +108,28 @@ description: >-
 ---
 
 *Saturday Night Fever* follows Tony Manero, a working-class Brooklyn kid whose weekday life feels small but who becomes a king on the disco floor every Saturday night. As he chases validation through dance competitions and nightlife, Tony confronts family pressure, toxic masculinity, and the limits of his own ambition. Set to iconic disco hits, the musical explores the cost of escape and the search for purpose beyond the spotlight.
+### Musical numbers
+{{< columns >}} 
+#### Act I
+* "[[w:Stayin' Alive]]" – Tony and Company
+* "[[w:Boogie Shoes]]" <small>(Music and lyrics by Harry Casey and Richard Finch)</small> – Tony, Bobby C, Joey, Double J, and Gus
+* "[[w:Disco Inferno]]" <small>(Music and lyrics by Leroy Green and [[Ron Kersey]])</small> – Monty and Company
+* "[[w:Night Fever]]" – Tony and Company
+* "[[w:Disco Duck]]" <small>(Music and lyrics by [[w:Rick Dees]])</small> – Monty
+* "[[w:More Than a Woman (Bee Gees song)|More Than a Woman]]" – Tony and Stephanie
+* "[[w:If I Can't Have You (Bee Gees song)|If I Can't Have You]]" – Annette
+* "[[w:One (Bee Gees album)|It's My Neighborhood]]" – Company
+* "[[w:You Should Be Dancing]]" – Tony and Company
+<--->
+#### Act II
+* "[[w:Jive Talkin']]" – Tony, Annette, Bobby C, Joey, Double J, Gus, and Company
+* "First and Last/[[w:Tragedy (Bee Gees song)|Tragedy]]" – Bobby C
+* "[[w:What Kind of Fool]]" <small>(Music and lyrics by [[w:Albhy Galuten]] and [[w:Barry Gibb]])</small> – Stephanie
+* "[[w:Nights on Broadway]]" – Annette, Stephanie, and Company
+* "Night Fever" (Reprise) – Company
+* "Open Sesame" <small>(Music and lyrics by [[w:Ronald Bell (musician)|Ronald Bell]])</small> – Chester and Shirley
+* "More Than a Woman" (Reprise) – Tony and Stephanie
+* "Salsation" <small>(Music and lyrics by [[w:David Shire]])</small> – Cesar and Maria
+* "[[w:Immortality (Celine Dion song)|Immortality]]" – Tony
+* "[[w:How Deep Is Your Love (Bee Gees song)|How Deep Is Your Love]]" – Tony and Stephanie
+{{< /columns >}}
