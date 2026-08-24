@@ -142,13 +142,17 @@ jobs:
           echo "  Include updated posts: ${MAILCHIMP_DRAFT_INCLUDE_UPDATED_POSTS}"
 
           if [ "${MAILCHIMP_DRAFT_INCLUDE_UPDATED_POSTS}" = "true" ]; then
-            DIFF_STATUSES='A|M'
+            INCLUDE_UPDATES='true'
           else
-            DIFF_STATUSES='A'
+            INCLUDE_UPDATES='false'
           fi
 
           NEW_FILES=$(git diff --name-status "${{ github.event.before }}" "${{ github.sha }}" \
-            | awk -v statuses="$DIFF_STATUSES" '$1 ~ "^(" statuses ")$"{print $2}' \
+            | awk -v include_updates="$INCLUDE_UPDATES" '
+                $1 == "A" { print $2 }
+                include_updates == "true" && $1 == "M" { print $2 }
+                include_updates == "true" && $1 ~ /^R/ { print $3 }
+              ' \
             | grep -E '^sites/jaxplays/content/(reviews|news)/' || true)
 
           if [ -z "$NEW_FILES" ]; then
