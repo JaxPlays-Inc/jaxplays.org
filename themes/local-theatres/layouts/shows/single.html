@@ -56,7 +56,8 @@
     <div class="production-hero-grid{{ if not $poster }} production-hero-grid--text{{ end }} mb4">
       {{ if $poster }}
         <div class="production-hero-poster">
-          <a href="{{ $posterPath }}" data-lightbox="gallery">
+          <a href="{{ $posterPath }}" data-lightbox="gallery"
+            data-title="{{ with $show.Params.featured_image_caption }}{{ . | markdownify }}{{ end }}{{ if $show.Params.featured_image_attr }}{{ with $show.Params.featured_image_attr_link }} | (📷 <a href='{{ . }}' target='_blank'>{{ $show.Params.featured_image_attr }}</a>){{ else }} | (📷 {{ $show.Params.featured_image_attr }}){{ end }}{{ end }}">
             <img src="{{ $posterPath }}" alt="{{ $posterAlt }}" />
           </a>
         </div>

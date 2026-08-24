@@ -2,9 +2,9 @@
 title: Annie
 date: 2024-06-14T16:44:50-04:00
 featured_image: Annie.webp
-featured_image_alt: "Classic red background poster for 'Annie - A New Musical.' The simple yet bold design features the musical's title with Annie leaning on the letter 'A', encapsulating the essence of this beloved production."
-featured_image_caption: "Experience the heartwarming story of 'Annie - A New Musical.' A fresh take on the classic tale, perfect for theater lovers of all ages."
-featured_image_attr: Masterworks Broadway
+featured_image_alt: "Original Broadway production poster for Annie, with the show's red title lettering on a white background and Annie leaning against the letter A."
+featured_image_caption: "Original Broadway production poster for *Annie*."
+featured_image_attr: 'By Mike Nichols productions, <a href="https://en.wikipedia.org/wiki/File:Annie_Musical_Poster.jpg" title="Fair use of copyrighted material in the context of Annie">fair use via Wikipedia</a>'
 show_details: 
 - Music: "[[w:Charles Strouse]]"
 - Lyrics: "[[w:Martin Charnin]]"
