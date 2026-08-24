@@ -1,9 +1,10 @@
 ---
 title: 42nd Street
 date: 2024-06-17T11:53:44-04:00
-featured_image:
-featured_image_caption: 
-featured_image_attr:
+featured_image: 42nd-Street.webp
+featured_image_alt: "Original Broadway poster for 42nd Street, featuring a red background, a dancer in a hoop, and large white show title lettering."
+featured_image_caption: "Original Broadway poster for *42nd Street*."
+featured_image_attr: Fair use
 show_details:
 - Music: "[[w:Harry Warren]]"
 - Lyrics: 
