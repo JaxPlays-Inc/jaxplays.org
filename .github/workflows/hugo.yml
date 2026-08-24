@@ -123,30 +123,41 @@ jobs:
       MAILCHIMP_FROM_EMAIL: ${{ secrets.MAILCHIMP_FROM_EMAIL }}
       MAILCHIMP_FROM_NAME: ${{ secrets.MAILCHIMP_FROM_NAME }}
       MAILCHIMP_REPLY_TO: ${{ secrets.MAILCHIMP_REPLY_TO }}
+      MAILCHIMP_DRAFT_INCLUDE_UPDATED_POSTS: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Find newly added reviews and news
+      - name: Install Python dependencies
+        run: python3 -m pip install --user PyYAML Markdown
+
+      - name: Find review and news draft candidates
         id: find_posts
         run: |
-          echo "Checking for newly added review and news content files between:"
+          echo "Checking for review and news content files between:"
           echo "  Before: ${{ github.event.before }}"
           echo "  After:  ${{ github.sha }}"
+          echo "  Include updated posts: ${MAILCHIMP_DRAFT_INCLUDE_UPDATED_POSTS}"
+
+          if [ "${MAILCHIMP_DRAFT_INCLUDE_UPDATED_POSTS}" = "true" ]; then
+            DIFF_STATUSES='A|M'
+          else
+            DIFF_STATUSES='A'
+          fi
 
           NEW_FILES=$(git diff --name-status "${{ github.event.before }}" "${{ github.sha }}" \
-            | awk '$1=="A"{print $2}' \
+            | awk -v statuses="$DIFF_STATUSES" '$1 ~ "^(" statuses ")$"{print $2}' \
             | grep -E '^sites/jaxplays/content/(reviews|news)/' || true)
 
           if [ -z "$NEW_FILES" ]; then
-            echo "No new review or news files added. Skipping Mailchimp."
+            echo "No review or news draft candidates found. Skipping Mailchimp."
             echo "has_new=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          echo "Newly added content files:"
+          echo "Mailchimp draft candidate content files:"
           printf "%s\n" "$NEW_FILES"
           printf "%s\n" "$NEW_FILES" > new_files.txt
 
@@ -155,54 +166,9 @@ jobs:
       - name: Create Mailchimp draft campaigns
         if: steps.find_posts.outputs.has_new == 'true'
         run: |
-          while IFS= read -r FILE; do
-            # Skip empty lines
-            if [ -z "$FILE" ]; then
-              continue
-            fi
-
-            echo "Processing file: $FILE"
-
-            # Decide template and label based on section
-            if [[ "$FILE" == sites/jaxplays/content/reviews/* ]]; then
-              TEMPLATE_ID=10623509
-              KIND="Review"
-            elif [[ "$FILE" == sites/jaxplays/content/news/* ]]; then
-              TEMPLATE_ID=10623325
-              KIND="News"
-            else
-              echo "Skipping $FILE (not in reviews or news)"
-              continue
-            fi
-
-            BASENAME=$(basename "$FILE")
-            SUBJECT="$KIND published on JaxPlays"
-            TITLE="Draft for $BASENAME"
-
-            echo "Creating Mailchimp draft campaign with template_id=$TEMPLATE_ID"
-            echo "  Subject: $SUBJECT"
-            echo "  Title:   $TITLE"
-
-            curl -sS -X POST "https://${MAILCHIMP_SERVER_PREFIX}.api.mailchimp.com/3.0/campaigns" \
-              -u "anystring:${MAILCHIMP_API_KEY}" \
-              -H "Content-Type: application/json" \
-              -d '{
-                "type": "regular",
-                "recipients": {
-                  "list_id": "'"${MAILCHIMP_LIST_ID}"'"
-                },
-                "settings": {
-                  "subject_line": "'"${SUBJECT}"'",
-                  "title": "'"${TITLE}"'",
-                  "from_name": "'"${MAILCHIMP_FROM_NAME}"'",
-                  "reply_to": "'"${MAILCHIMP_REPLY_TO}"'",
-                  "template_id": '"${TEMPLATE_ID}"'
-                },
-                "status": "save"
-              }'
-
-            echo
-          done < new_files.txt
+          python3 scripts/create_mailchimp_drafts.py \
+            --files new_files.txt \
+            --site-root sites/jaxplays
 
   webpushr_notifications:
     name: Send Webpushr notifications
