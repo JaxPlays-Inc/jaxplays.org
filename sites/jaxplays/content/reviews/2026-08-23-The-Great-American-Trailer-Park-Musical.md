@@ -23,7 +23,7 @@ featuring:
   - Sherrie Provence
   - Keith Teepen
   - Jonathan Chapman
-description: "Catalyst Theatre makes a promising first impression with a lively, funny 'Great American Trailer Park Musical' that finds more humanity than the script always offers."
+description: "Catalyst Theatre makes a promising first impression with a lively, funny *Great American Trailer Park Musical* that finds more humanity than the script always offers."
 ---
 
 For its first production, [[theatre:Catalyst Theatre]] chose a show that does not tiptoe into the room. [[production:2026 The Great American Trailer Park Musical|*The Great American Trailer Park Musical*]] is loud, broad, shamelessly silly and built for an audience willing to laugh before it asks too many questions. Catalyst meets it on those terms, and the result is a fun, good-hearted debut with enough comic snap and musical confidence to make the evening land.<!--more-->

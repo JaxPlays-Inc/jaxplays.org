@@ -19,7 +19,7 @@ featuring:
   - Rachel Wise
   - Ken Johnson
   - Erik Nesteruk
-description: "Saltwater Performing Arts' Come From Away uses an intimate stage, strong ensemble work and clear storytelling to honor the generosity of Gander, Newfoundland."
+description: "Saltwater Performing Arts' *Come From Away* uses an intimate stage, strong ensemble work and clear storytelling to honor the generosity of Gander, Newfoundland."
 ---
 
 [[production:2026 Come From Away 2|Come From Away]] is one of the few shows I passionately believe every human being should see at least once. Its title derives from a Newfoundland expression: A "come from away" is anyone considered an outsider. And on Sept. 11, 2001, there was quite an influx of come-from-aways to that small Canadian island.<!--more-->
