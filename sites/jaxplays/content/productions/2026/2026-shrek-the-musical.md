@@ -71,7 +71,7 @@ featured_image_alt: null
 featured_image_caption: null
 featured_image_attr: null
 featured_image_attr_link: null
-program: null
+program: 2026-Shrek-the-Musical.pdf
 website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1510&code=JAXPLAYS
@@ -85,27 +85,29 @@ cast:
 - Fiona: Rachel Kocher
 - Donkey: Jereme Raickett
 - Lord Farquaad: Shain Stroff
-- Dragon / Mama Bear / Mama Ogre: Ashia Collins
+- Dragon / Mama Bear / Mother Ogre: Ashia Collins
 - Pinocchio: Rodney Holmes
-- Gingy / Sugarplum Fairy: Natalie Drake
+- Gingy / Sugar Plum Fairy: Natalie Drake
 - Papa Bear / Thelonious: Melvin Edward Nash II
+- "Pig #1": Lisa Kidder Sandiford
 - "Pig #2 / Pied Piper": Kordell Clark
 - "Pig #3": Mickey Titus
 - Peter Pan: Zachary Swartz
-- Wolf / Captain of the Guard: Jeremiah Burch
+- Captain of the Guard / Wolf: Jeremiah Burch
 - Witch: Isabel Ramos
-- "Pig #1": Lisa Kidder Sandiford
 - Elf: Idan Bar
 - Ugly Duckling / Teen Fiona: Kayleigh Johnson
 - Fairy Godmother: Lexi Hall
-- Mad Hatter / Papa Ogre / Bishop: Nick Cooper
-- Young Shrek / Young Fiona / Baby Bear / Grumpy: Kennedy Swartz
+- Papa Ogre / Mad Hatter / Bishop: Nick Cooper
 - Guard: 
   - Melvin Nash
-  - Kordel Clark
+  - Kordell Clark
   - Mickey Titus
 - Citizen of Duloc:
   - Idan Bar
+  - Lisa Kidder Sandiford
+  - Kordell Clark
+  - Mickey Titus
 - Blind Mouse:
   - Idan Bar
   - Kayleigh Johnson
@@ -118,9 +120,9 @@ crew:
 - Vice President of Production: Shain Stroff
 - Lighting Design: Chad Conley
 - Costume & Wig Design:
-  - Camala Pitts
   - Dorinda Quiles
-- Company Manager: Lisa Valdaini Booth
+  - Camala Pitts
+- Company Manager: Lisa Valdini Booth
 - Set Designer/Technical Director: David Dionne
 - Set Construction:
   - Ethan Walker
@@ -128,16 +130,18 @@ crew:
 - Puppetry/Special Effects Design: Bryce Cofield
 - Audio Design/Engineers: Carly Meyer
 - Audio Engineer Subs:
-  - Vana Marie Roncevic
+  - Ivana Marie Roncevic
   - Andrew Laguerre
-  - Kenneth Haggans
+  - Kenneth Hagans
 - Property Master: Patti Eyler
+- House Design/Projections: Shain Stroff
 - Wig Department:
   - Dana Ferger
   - Audrey Dunham
   - Kaela Quiles
 - Production Manager: Sarah Brace
 - Stage Manager: Thaddeus Walker
+- Assistant Stage Manager: Casey MacLeod
 - Production Crew:
   - Vincent Llamado
   - Al Davis
@@ -151,11 +155,11 @@ crew:
   - Karen Grogan
 orchestra: null
 understudies:
-- "Youth Shrek / Little Fiona / Little Bear / Dwarf / Pig #2": Ivy Ayres
+- Donkey: Kordell Clark
 - Fiona: Natalie Drake
 - Shrek: Melvin Nash
-- Donkey: Kordell Clark
 - Lord Farquaad: Jeremiah Burch
+- "Little Fiona / Young Shrek / Little Bear / Dwarf / Pig #2": Ivy Ayres
 photos:
 - photo: 2026-Shrek-the-Musical-01.webp
   photo_attr: null

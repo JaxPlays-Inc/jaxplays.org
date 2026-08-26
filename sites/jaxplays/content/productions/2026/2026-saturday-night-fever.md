@@ -55,7 +55,7 @@ featured_image_alt: null
 featured_image_caption: null
 featured_image_attr: Alhambra Theatre & Dining
 featured_image_attr_link: null
-program: null
+program: 2026-Saturday-Night-Fever.pdf
 website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1511&code=JAXPLAYS
@@ -93,7 +93,7 @@ cast:
 - Tony Manero: Christopher Michael Milligan
 - Bobby: Zakary Clausell-Santos
 - Gus: Christian Leigh
-- Double J: Johnny Flannagen
+- Double J: Johnny Flannagan
 - Joey: Joey Deshler
 - Monty: Melvin Nash
 - Frank Manero: Tom Cassaro
@@ -110,19 +110,35 @@ cast:
 - Dancer 2: Landon Amburgey
 - Dancer 3 / Maria: Mia Vazquez
 - Dancer 4 / Cesar: Kamari Samuels
+understudies:
+- Candy / Club Singer: Natalie Drake
 crew:
-- Produced and Directed by: Tod Booth
+- Executive Producer / Director: Tod Booth
+- Vice President of Production: Shain Stroff
+- Production Manager: Sarah Brace
 - Musical Direction: Cathy Murphy Giddens
 - Choreography: Tanner Lane
 - Lighting Design: Johnny Pettegrew
 - Costume Design:
-  - Camala Pitts
   - Dorinda Quiles
-- Set Design: Dave Dionne
+  - Camala Pitts
+- Set Design / Technical Direction: David Dionne
 - Property Master: Patti Eyler
-- Production Manager: Sarah Brace
 - Audio Engineer: Matthew Carr
-- Fight Choreography: Thad Walker
+- Wig Stylist: Dana Ferger
+- Company Manager: Lisa Valdini Booth
+- Stage Manager / Fight Director: Thaddeus Walker
+- Set Construction:
+  - Ethan Walker
+  - David Dionne
+- Stage Crew:
+  - Thaddeus Walker
+  - Vincent Llamado
+- Wardrobe Running Crew:
+  - Kauren Massais
+  - Sydney Thompson
+  - Brandalyn Marks
+  - Kayla Quiles
 orchestra: null
 genres:
 - Musical
