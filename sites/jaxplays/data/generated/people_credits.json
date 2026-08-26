@@ -147752,6 +147752,25 @@
     ],
     "orchestra": []
   },
+  "lovlee-carroll": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
+        "title": "I Love You, You're Perfect... Now Sign Here",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
+        "credits": [
+          "Taylor"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "lucy-bressler": {
     "cast": [
       {
@@ -155430,6 +155449,62 @@
         "featured_image": "",
         "credits": [
           "Assistant"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "mark-hayes": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
+        "title": "I Love You, You're Perfect... Now Sign Here",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
+        "credits": [
+          "Abe"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-1776/",
+        "title": "1776",
+        "opening_date": "2026-05-14",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-1776.webp",
+        "credits": [
+          "Dr. Lyman Hall"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-barefoot-in-the-park/",
+        "title": "Barefoot in the Park",
+        "opening_date": "2025-11-07",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2025-Barefoot-in-the-Park.webp",
+        "credits": [
+          "Delivery Man"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2025-barefoot-in-the-park/",
+        "title": "Barefoot in the Park",
+        "opening_date": "2025-11-07",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2025-Barefoot-in-the-Park.webp",
+        "credits": [
+          "Assistant Stage Manager"
         ]
       }
     ],
