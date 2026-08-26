@@ -1,5 +1,5 @@
 ---
-title: To Kill A Mockingbird
+title: To Kill a Mockingbird
 theatre: Limelight Theatre
 venue: Inez McDonald Mainstage
 season: 35
