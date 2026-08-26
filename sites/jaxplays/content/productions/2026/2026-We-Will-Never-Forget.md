@@ -13,7 +13,7 @@ showtimes:
     venue: Arts Collective Theatre
   - datetime: 2026-09-10 19:00:00
     venue: Ponte Vedra High School Auditorium
-featured_image: 2026-We-Will-Never-Forget-01.webp
+featured_image: 2026-We-Will-Never-Forget.webp
 featured_image_alt: "Poster for 9/11: We Will Never Forget with Jason Nettle, the New York skyline, twin beams of light and a memorial rose."
 featured_image_caption: "Jason Nettle writes and performs *9/11: We Will Never Forget*, a solo performance presented at Arts Collective Theatre and Ponte Vedra High School Auditorium."
 featured_image_attr: Arts Collective Theatre

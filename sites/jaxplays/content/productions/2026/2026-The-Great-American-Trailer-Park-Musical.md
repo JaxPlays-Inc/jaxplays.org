@@ -20,7 +20,7 @@ featured_image_attr:
 featured_image_attr_link:
 photos:
 - photo: 2026-catalyst-trailer-park-cast-announcement.webp
-program:
+program: 2026-The-Great-American-Trailer-Park-Musical.pdf
 website: https://catalysttheatre.com/trailerparkcast
 tickets: https://catalysttheatre.com/buy-tickets/
 show_details:
