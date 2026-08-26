@@ -11066,6 +11066,18 @@
         "credits": [
           "Phil Hogan"
         ]
+      },
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Bob Ewell"
+        ]
       }
     ],
     "understudies": [],
@@ -21290,7 +21302,7 @@
       },
       {
         "permalink": "/productions/2007-bat-boy/",
-        "title": "Bat Boy",
+        "title": "Bat Boy: The Musical",
         "opening_date": "2007-12-31",
         "approx_date": "year",
         "theatre": "Players by the Sea",
@@ -31362,6 +31374,44 @@
     ],
     "orchestra": []
   },
+  "caitlyn-fennell": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Scout"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "caleb-fennell": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Jem"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "caleb-vosburg": {
     "cast": [
       {
@@ -38808,6 +38858,25 @@
     ],
     "orchestra": []
   },
+  "charles-walker": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Tom Robinson"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "charleston-kennedy": {
     "cast": [
       {
@@ -39939,6 +40008,25 @@
     ],
     "orchestra": []
   },
+  "chelsea-baxley": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Jean Louise"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "chelsea-lucas": {
     "cast": [
       {
@@ -41053,6 +41141,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "christian-douglas": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Dill"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "christian-leigh": {
@@ -50500,6 +50607,18 @@
   "david-horne": {
     "cast": [
       {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Walter Cunningham"
+        ]
+      },
+      {
         "permalink": "/productions/2015-its-a-wonderful-life/",
         "title": "It's a Wonderful Life",
         "opening_date": "2015-12-24",
@@ -50512,6 +50631,30 @@
         ]
       },
       {
+        "permalink": "/productions/1993-the-diary-of-anne-frank/",
+        "title": "The Diary of Anne Frank",
+        "opening_date": "1993-02-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Mr. Frank"
+        ]
+      },
+      {
+        "permalink": "/productions/1987-my-three-angels/",
+        "title": "My Three Angels",
+        "opening_date": "1987-12-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Jules"
+        ]
+      },
+      {
         "permalink": "/productions/1985-dracula/",
         "title": "Dracula",
         "opening_date": "1985-11-29",
@@ -50521,6 +50664,18 @@
         "featured_image": "",
         "credits": [
           "Abraham Van Helsing"
+        ]
+      },
+      {
+        "permalink": "/productions/1983-the-runner-stumbles/",
+        "title": "The Runner Stumbles",
+        "opening_date": "1983-12-02",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Father Rivard"
         ]
       },
       {
@@ -82521,6 +82676,18 @@
         ]
       },
       {
+        "permalink": "/productions/2021-the-sound-of-music/",
+        "title": "The Sound of Music",
+        "opening_date": "2021-08-12",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "",
+        "credits": [
+          "Captain Georg von Trapp"
+        ]
+      },
+      {
         "permalink": "/productions/2018-arsenic-and-old-lace/",
         "title": "Arsenic and Old Lace",
         "opening_date": "2018-09-14",
@@ -82530,6 +82697,18 @@
         "featured_image": "2018_Arsenic_and_Old_Lace.jpeg",
         "credits": [
           "Dr. Rev. Harper"
+        ]
+      },
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Atticus Finch"
         ]
       },
       {
@@ -82572,6 +82751,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "gary-moore": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Mr. Gilmer"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "gavin-alexander": {
@@ -97680,6 +97878,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "heather-eggleston": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Stephanie Crawford"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "heather-goliber": {
@@ -118772,6 +118989,18 @@
         "credits": [
           "Director"
         ]
+      },
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Director"
+        ]
       }
     ],
     "orchestra": []
@@ -122740,6 +122969,18 @@
         "credits": [
           "Mr. Green"
         ]
+      },
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Heck Tate"
+        ]
       }
     ],
     "understudies": [],
@@ -123950,7 +124191,7 @@
       },
       {
         "permalink": "/productions/2007-bat-boy/",
-        "title": "Bat Boy",
+        "title": "Bat Boy: The Musical",
         "opening_date": "2007-12-31",
         "approx_date": "year",
         "theatre": "Players by the Sea",
@@ -155942,6 +156183,30 @@
         ]
       },
       {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Judge Taylor"
+        ]
+      },
+      {
+        "permalink": "/productions/2007-guys-and-dolls/",
+        "title": "Guys and Dolls",
+        "opening_date": "2007-06-08",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "",
+        "credits": [
+          "Lt. Brannigan"
+        ]
+      },
+      {
         "permalink": "/productions/2005-over-the-river-and-through-the-woods/",
         "title": "Over the River and Through the Woods",
         "opening_date": "2005-03-04",
@@ -167390,7 +167655,7 @@
       },
       {
         "permalink": "/productions/2007-bat-boy/",
-        "title": "Bat Boy",
+        "title": "Bat Boy: The Musical",
         "opening_date": "2007-12-31",
         "approx_date": "year",
         "theatre": "Players by the Sea",
@@ -180918,6 +181183,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "pj-baker": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Boo Radley"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "pam-cashmere": {
@@ -200748,6 +201032,25 @@
     "crew": [],
     "orchestra": []
   },
+  "ronald-k-haynes": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Reverend Sykes"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "ronald-kennard": {
     "cast": [],
     "understudies": [],
@@ -203145,6 +203448,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "ruth-charlene-davis": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Calpurnia"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "ruth-coleman": {
@@ -205870,6 +206192,37 @@
         "featured_image": "2024-The-Sound-of-Music.webp",
         "credits": [
           "Sister Sophia"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "sandy-spurney": {
+    "cast": [
+      {
+        "permalink": "/productions/2022-the-sweet-delilah-swim-club/",
+        "title": "The Sweet Delilah Swim Club",
+        "opening_date": "2022-04-22",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2022_The_Sweet_Delilah_Swim_Club.jpg",
+        "credits": [
+          "Sheree"
+        ]
+      },
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Mrs. Dubose"
         ]
       }
     ],
@@ -209216,6 +209569,25 @@
     ],
     "orchestra": []
   },
+  "shannon-shaw": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Maudie Atkinson"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "sharon-brown": {
     "cast": [
       {
@@ -211716,7 +212088,7 @@
       },
       {
         "permalink": "/productions/2007-bat-boy/",
-        "title": "Bat Boy",
+        "title": "Bat Boy: The Musical",
         "opening_date": "2007-12-31",
         "approx_date": "year",
         "theatre": "Players by the Sea",
@@ -213227,6 +213599,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "sofia-ferraro": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Mayella Ewell"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "sofia-lourdes": {
@@ -222095,6 +222486,25 @@
         ]
       }
     ],
+    "crew": [],
+    "orchestra": []
+  },
+  "tiffany-herndon": {
+    "cast": [
+      {
+        "permalink": "/productions/2017-to-kill-a-mockingbird/",
+        "title": "To Kill a Mockingbird",
+        "opening_date": "2017-09-21",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "To-Kill-a-Mockingbird.webp",
+        "credits": [
+          "Helen Robinson"
+        ]
+      }
+    ],
+    "understudies": [],
     "crew": [],
     "orchestra": []
   },

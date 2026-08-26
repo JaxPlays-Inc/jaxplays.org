@@ -1,13 +1,19 @@
 ---
-title: Mark Wright
-other_names:
-  - Mark S. Wright
-date: 2023-09-08T00:00:00-04:00
-featured_image: Mark-Wright.webp
+title: PJ Baker
+date: 2026-08-25T21:11:00-04:00
+featured_image: PJ-Baker.webp
 featured_image_attr: Theatre Jacksonville
 featured_image_attr_link: https://www.theatrejax.com/to-kill-a-mockingbird
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+socials:
+  facebook:
+  twitter:
+  instagram:
+  linkedin:
+  ibdb:
+  imdb:
+  website:
 ---

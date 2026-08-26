@@ -14855,11 +14855,11 @@
     "searchBase": "a midsummer night's dream sep 14, 2007 oct 6, 2007 theatre jacksonville harold k. smith playhouse play comedy fantasy shakespeare's enchanting comedy weaves together tales of love, magic, and mischief in a moonlit athenian forest."
   },
   {
-    "title": "Bat Boy",
+    "title": "Bat Boy: The Musical",
     "url": "/productions/2007-bat-boy/",
     "contentPath": "productions/2000/2007-Bat-Boy",
     "poster": "/media/default/production_poster.webp",
-    "posterAlt": "Bat Boy poster",
+    "posterAlt": "Bat Boy: The Musical poster",
     "openingDate": "2007-12-31",
     "closingDate": "2007-12-31",
     "openingLabel": "2007",
@@ -14869,10 +14869,14 @@
     "theatre": "Players by the Sea",
     "venues": [],
     "allVenues": [],
-    "genres": [],
-    "summary": "",
+    "genres": [
+      "Musical",
+      "Comedy",
+      "Horror"
+    ],
+    "summary": "Fangs, fun and family dysfunction—Bat Boy is a musical like no other.",
     "tickets": "",
-    "searchBase": "bat boy 2007 players by the sea"
+    "searchBase": "bat boy: the musical 2007 players by the sea musical comedy horror fangs, fun and family dysfunction—bat boy is a musical like no other."
   },
   {
     "title": "Company",
@@ -16157,6 +16161,32 @@
     "searchBase": "the god game 2017 theatre jacksonville harold k. smith playhouse"
   },
   {
+    "title": "To Kill a Mockingbird",
+    "url": "/productions/2017-to-kill-a-mockingbird/",
+    "contentPath": "productions/2010/2017-To-Kill-a-Mockingbird",
+    "poster": "/media/posters/To-Kill-a-Mockingbird.webp",
+    "posterAlt": "Cover artwork for To Kill a Mockingbird, showing a tree with a tire swing against a dark blue background.",
+    "openingDate": "2017-09-21",
+    "closingDate": "2017-10-01",
+    "openingLabel": "Sep 21, 2017",
+    "openingMonthLabel": "September 2017",
+    "openingBadgeLabel": "Sep 21, 2017",
+    "closingLabel": "Oct 1, 2017",
+    "theatre": "Theatre Jacksonville",
+    "venues": [
+      "Harold K. Smith Playhouse"
+    ],
+    "allVenues": [
+      "Harold K. Smith Playhouse"
+    ],
+    "genres": [
+      "Play"
+    ],
+    "summary": "Christopher Sergel's stage adaptation of Harper Lee's novel follows Scout Finch as her father, Atticus, defends Tom Robinson in 1930s Alabama.",
+    "tickets": "",
+    "searchBase": "to kill a mockingbird sep 21, 2017 oct 1, 2017 theatre jacksonville harold k. smith playhouse play christopher sergel's stage adaptation of harper lee's novel follows scout finch as her father, atticus, defends tom robinson in 1930s alabama."
+  },
+  {
     "title": "Arsenic and Old Lace",
     "url": "/productions/2018-arsenic-and-old-lace/",
     "contentPath": "productions/2010/2018-Arsenic-and-Old-Lace",
@@ -16443,9 +16473,9 @@
       "Drama",
       "Thriller"
     ],
-    "summary": "Jekyll & Hyde Preview {{ }} Jekyll & Hyde {{ }}",
+    "summary": "Experience the haunting duality of Jekyll & Hyde, a gripping musical that delves into the battle between good and evil within one man.",
     "tickets": "",
-    "searchBase": "jekyll & hyde oct 23, 2019 nov 24, 2019 alhambra theatre & dining alhambra theatre & dining musical drama thriller jekyll & hyde preview {{ }} jekyll & hyde {{ }}"
+    "searchBase": "jekyll & hyde oct 23, 2019 nov 24, 2019 alhambra theatre & dining alhambra theatre & dining musical drama thriller experience the haunting duality of jekyll & hyde, a gripping musical that delves into the battle between good and evil within one man."
   },
   {
     "title": "Love! Valour! Compassion!",
@@ -17355,11 +17385,35 @@
     "searchBase": "jekyll & hyde jun 17, 2021 jun 27, 2021 amelia musical playhouse amelia musical playhouse musical drama thriller experience the haunting duality of jekyll & hyde, a gripping musical that delves into the battle between good and evil within one man."
   },
   {
+    "title": "The Sound of Music",
+    "url": "/productions/2021-the-sound-of-music/",
+    "contentPath": "productions/2021/2021-The-Sound-of-Music",
+    "poster": "/media/default/production_poster.webp",
+    "posterAlt": "The Sound of Music poster",
+    "openingDate": "2021-08-12",
+    "closingDate": "2021-09-26",
+    "openingLabel": "Aug 12, 2021",
+    "openingMonthLabel": "August 2021",
+    "openingBadgeLabel": "Aug 12, 2021",
+    "closingLabel": "Sep 26, 2021",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical"
+    ],
+    "summary": "Journey to the hills of Austria in this beloved musical, where Maria brings music and joy to the von Trapp family as they face the looming threat of World War II.",
+    "tickets": "",
+    "searchBase": "the sound of music aug 12, 2021 sep 26, 2021 alhambra theatre & dining alhambra theatre & dining musical journey to the hills of austria in this beloved musical, where maria brings music and joy to the von trapp family as they face the looming threat of world war ii."
+  },
+  {
     "title": "42nd Street",
     "url": "/productions/2022-42nd-street-musical/",
     "contentPath": "productions/2022/2022-42nd-Street-(musical)",
     "poster": "/media/posters/2022_42nd_Street.jpg",
-    "posterAlt": "42nd Street poster",
+    "posterAlt": "Original Broadway poster for 42nd Street, featuring a red background, a dancer in a hoop, and large white show title lettering.",
     "openingDate": "2022-05-12",
     "closingDate": "2022-06-12",
     "openingLabel": "May 12, 2022",
@@ -20313,9 +20367,9 @@
       "Drama",
       "Romance"
     ],
-    "summary": "Players by the Sea presents West Side Story River City Live {{ }}",
+    "summary": "It's more than a turf war—it's an iconic retelling of Shakespeare's Romeo and Juliet, but with dance-offs and jazz hands.",
     "tickets": "https://web.ovationtix.com/trs/cal/34877/1688184000000",
-    "searchBase": "west side story jul 14, 2023 aug 6, 2023 players by the sea john mcmanus mainstage theatre musical drama romance players by the sea presents west side story river city live {{ }}"
+    "searchBase": "west side story jul 14, 2023 aug 6, 2023 players by the sea john mcmanus mainstage theatre musical drama romance it's more than a turf war—it's an iconic retelling of shakespeare's romeo and juliet, but with dance-offs and jazz hands."
   },
   {
     "title": "Willy Wonka",
@@ -21074,9 +21128,9 @@
       "Biography",
       "Drama"
     ],
-    "summary": "\"Beautiful: The Carol King Musica on First Coast Living First Coast News\" {{ }}",
+    "summary": "Journey through the tapestry of Carole King's extraordinary rise to stardom, from talented teenager to celebrated songwriter and performer. 'Beautiful' tells the inspiring true story of King's remarkable journey, unde...",
     "tickets": "https://ci.ovationtix.com/34877/production/1187099",
-    "searchBase": "beautiful: the carole king musical jan 19, 2024 feb 4, 2024 players by the sea john mcmanus mainstage theatre musical biography drama \"beautiful: the carol king musica on first coast living first coast news\" {{ }}"
+    "searchBase": "beautiful: the carole king musical jan 19, 2024 feb 4, 2024 players by the sea john mcmanus mainstage theatre musical biography drama journey through the tapestry of carole king's extraordinary rise to stardom, from talented teenager to celebrated songwriter and performer. 'beautiful' tells the inspiring true story of king's remarkable journey, unde..."
   },
   {
     "title": "Disney's Beauty and the Beast",
@@ -22496,9 +22550,9 @@
       "Drama",
       "Sung-Through"
     ],
-    "summary": "Markus Mann and Aaron DeCicco on First Coast Connect {{ }}",
+    "summary": "A tapestry of vibrant colors, mesmerizing music, and timeless tales, this musical brings to life the story of Joseph, his eleven brothers and the coat of many colors.",
     "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1458&code=WWW&qty_target=0",
-    "searchBase": "joseph and the amazing technicolor dreamcoat jun 20, 2024 aug 11, 2024 alhambra theatre & dining alhambra theatre & dining musical family drama sung-through markus mann and aaron decicco on first coast connect {{ }}"
+    "searchBase": "joseph and the amazing technicolor dreamcoat jun 20, 2024 aug 11, 2024 alhambra theatre & dining alhambra theatre & dining musical family drama sung-through a tapestry of vibrant colors, mesmerizing music, and timeless tales, this musical brings to life the story of joseph, his eleven brothers and the coat of many colors."
   },
   {
     "title": "Legally Blonde",
@@ -22875,9 +22929,9 @@
       "Romance",
       "Drama"
     ],
-    "summary": "{{ }}",
+    "summary": "Beneath the wide Oklahoma sky, a spirited tale of love, rivalry, and dreams unfolds. Oklahoma captures the heart of a new America with its mesmerizing music and vibrant characters.",
     "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1455&code=WWW&qty_target=0",
-    "searchBase": "oklahoma! feb 22, 2024 mar 31, 2024 alhambra theatre & dining alhambra theatre & dining musical romance drama {{ }}"
+    "searchBase": "oklahoma! feb 22, 2024 mar 31, 2024 alhambra theatre & dining alhambra theatre & dining musical romance drama beneath the wide oklahoma sky, a spirited tale of love, rivalry, and dreams unfolds. oklahoma captures the heart of a new america with its mesmerizing music and vibrant characters."
   },
   {
     "title": "On the Market",
@@ -23779,9 +23833,9 @@
       "Adventure",
       "Family"
     ],
-    "summary": "Tarzan visits First Coast Connect {{ }} Tarzan visits First Coast Living {{ }}",
+    "summary": "Swing into adventure with Tarzan, a thrilling musical that brings the beloved Disney animated film to life with heart-pounding music and breathtaking visuals.",
     "tickets": "https://ci.ovationtix.com/34877/production/1187114",
-    "searchBase": "disney's tarzan jul 12, 2024 jul 28, 2024 players by the sea john mcmanus mainstage theatre musical adventure family tarzan visits first coast connect {{ }} tarzan visits first coast living {{ }}"
+    "searchBase": "disney's tarzan jul 12, 2024 jul 28, 2024 players by the sea john mcmanus mainstage theatre musical adventure family swing into adventure with tarzan, a thrilling musical that brings the beloved disney animated film to life with heart-pounding music and breathtaking visuals."
   },
   {
     "title": "The Barber of Seville",
@@ -25241,7 +25295,7 @@
     "url": "/productions/2025-annie/",
     "contentPath": "productions/2025/2025-Annie",
     "poster": "/media/posters/2025-Annie.webp",
-    "posterAlt": "Classic red background poster for 'Annie - A New Musical.' The simple yet bold design features the musical's title with Annie leaning on the letter 'A', encapsulating the essence of this beloved production.",
+    "posterAlt": "Original Broadway production poster for Annie, with the show's red title lettering on a white background and Annie leaning against the letter A.",
     "openingDate": "2025-12-04",
     "closingDate": "2025-12-21",
     "openingLabel": "Dec 4, 2025",
@@ -27270,9 +27324,9 @@
       "Comedy",
       "Romance"
     ],
-    "summary": "Amelia Community Theatre presents “Singing in the Rain” River City Plus - News4Jax {{ }} River City Plus: Amelia Community Theatre presents “Singing in the Rain” {{ }}",
+    "summary": "Step into the golden age of Hollywood in this splashy musical, where a film star duo navigates the bumpy transition from silent films to talkies.",
     "tickets": "https://app.arts-people.com/index.php?actions=16&p=1",
-    "searchBase": "singin' in the rain apr 10, 2025 apr 27, 2025 amelia community theatre main stage musical comedy romance amelia community theatre presents “singing in the rain” river city plus - news4jax {{ }} river city plus: amelia community theatre presents “singing in the rain” {{ }}"
+    "searchBase": "singin' in the rain apr 10, 2025 apr 27, 2025 amelia community theatre main stage musical comedy romance step into the golden age of hollywood in this splashy musical, where a film star duo navigates the bumpy transition from silent films to talkies."
   },
   {
     "title": "Sister Act",
@@ -31351,7 +31405,7 @@
     "url": "/productions/2026-to-kill-a-mockingbird/",
     "contentPath": "productions/2026/2026-To-Kill-A-Mockingbird",
     "poster": "/media/posters/2026-To-Kill-A-Mockingbird.webp",
-    "posterAlt": "To Kill A Mockingbird poster",
+    "posterAlt": "Cover artwork for To Kill a Mockingbird, showing a tree with a tire swing against a dark blue background.",
     "openingDate": "2026-10-15",
     "closingDate": "2026-11-01",
     "openingLabel": "Oct 15, 2026",
