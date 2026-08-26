@@ -7,6 +7,13 @@ date: 2026-06-04T00:55:00-04:00
 opening_date: 2026-08-14
 closing_date: 2026-09-11
 showtimes:
+- 2026-08-14 19:00:00
+- 2026-08-15 19:00:00
+- 2026-08-16 14:00:00
+- 2026-08-21 19:00:00
+- 2026-08-22 19:00:00
+- 2026-08-23 14:00:00
+- 2026-09-11 19:00:00
 featured_image: 2026-Come-From-Away-2.webp
 featured_image_alt:
 featured_image_caption:
