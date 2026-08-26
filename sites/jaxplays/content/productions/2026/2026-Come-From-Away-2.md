@@ -23,7 +23,23 @@ program:
 website: https://www.saltwaterpac.org/cast
 tickets: https://saltwaterpac.ludus.com/index.php?sections=events
 cast:
+  - Beverly Bass: Rachel Kelsey
+  - Hannah O'Rourke: Ebony Hoggard
+  - Diane Gray: Rachel Wise
+  - Beulah Davis: Renee LaCroix
+  - Janice Mosher: Katie Bullock
+  - Claude Elliott: Erik Nesteruk
+  - Oz Fudge: Steven Jones
+  - Bob: Johnny Mandtb
+  - Bonnie Harris: Auryanna Dunlap
+  - Nick Marson: Ken Johnson
+  - Kevin T.: Chance Davis
+  - Kevin J. (Aug. 21-23): Damien Vallejos
+understudies:
+  - Beverly (Aug. 21 and Sept. 11): Chrissy Stone
+  - Kevin Jung (swing, Aug. 13-16): Louis Vallejos
 crew:
+  - Assistant Director: Ann Walsh
 orchestra:
 show_details:
   - Book, Music, and Lyrics: "[[w:Irene Sankoff]] and [[w:David Hein]]"

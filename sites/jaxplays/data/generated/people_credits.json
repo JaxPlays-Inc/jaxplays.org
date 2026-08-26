@@ -109736,7 +109736,7 @@
           "Arts Collective Theatre",
           "Ponte Vedra High School Auditorium"
         ],
-        "featured_image": "2026-We-Will-Never-Forget-01.webp",
+        "featured_image": "2026-We-Will-Never-Forget.webp",
         "credits": [
           "Performer"
         ]
@@ -109790,7 +109790,7 @@
           "Arts Collective Theatre",
           "Ponte Vedra High School Auditorium"
         ],
-        "featured_image": "2026-We-Will-Never-Forget-01.webp",
+        "featured_image": "2026-We-Will-Never-Forget.webp",
         "credits": [
           "Writer",
           "Director"
@@ -193995,107 +193995,7 @@
     ],
     "orchestra": []
   },
-  "renee-riso": {
-    "cast": [
-      {
-        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
-        "title": "The Great American Trailer Park Musical",
-        "opening_date": "2026-08-21",
-        "approx_date": "",
-        "theatre": "Catalyst Theatre",
-        "venue": "The Waterworks",
-        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
-        "credits": [
-          "Betty"
-        ]
-      },
-      {
-        "permalink": "/productions/2023-hands-on-a-hard-body/",
-        "title": "Hands on a Hard Body",
-        "opening_date": "2023-08-11",
-        "approx_date": "",
-        "theatre": "Limelight Theatre",
-        "venue": "Matuza Mainstage",
-        "featured_image": "2023_Hands_on_a_Hard_Body.webp",
-        "credits": [
-          "Norma Valverde"
-        ]
-      }
-    ],
-    "understudies": [],
-    "crew": [
-      {
-        "permalink": "/productions/2022-big-fish/",
-        "title": "Big Fish",
-        "opening_date": "2022-10-06",
-        "approx_date": "",
-        "theatre": "Limelight Theatre",
-        "venue": "Matuza Mainstage",
-        "featured_image": "2022_Big_Fish.jpeg",
-        "credits": [
-          "Costume Crew"
-        ]
-      }
-    ],
-    "orchestra": []
-  },
-  "renee-wendt-oka": {
-    "cast": [
-      {
-        "permalink": "/productions/1990-the-constant-couple/",
-        "title": "The Constant Couple",
-        "opening_date": "1990-03-30",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "Little Theatre",
-        "featured_image": "",
-        "credits": [
-          "Parly"
-        ]
-      },
-      {
-        "permalink": "/productions/1989-veronicas-room/",
-        "title": "Veronica's Room",
-        "opening_date": "1989-03-24",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "Little Theatre",
-        "featured_image": "",
-        "credits": [
-          "The Woman"
-        ]
-      },
-      {
-        "permalink": "/productions/1988-look-homeward-angel/",
-        "title": "Look Homeward Angel",
-        "opening_date": "1988-09-02",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "Little Theatre",
-        "featured_image": "",
-        "credits": [
-          "Miss Brown"
-        ]
-      }
-    ],
-    "understudies": [],
-    "crew": [
-      {
-        "permalink": "/productions/1989-the-house-of-blue-leaves/",
-        "title": "The House of Blue Leaves",
-        "opening_date": "1989-01-03",
-        "approx_date": "",
-        "theatre": "Theatre Jacksonville",
-        "venue": "Little Theatre",
-        "featured_image": "",
-        "credits": [
-          "Properties"
-        ]
-      }
-    ],
-    "orchestra": []
-  },
-  "rene-e-lacroix": {
+  "renee-lacroix": {
     "cast": [
       {
         "permalink": "/productions/2025-little-women-3/",
@@ -194220,6 +194120,106 @@
         "credits": [
           "Wardrobe",
           "Light Crew"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "renee-riso": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
+        "title": "The Great American Trailer Park Musical",
+        "opening_date": "2026-08-21",
+        "approx_date": "",
+        "theatre": "Catalyst Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-The-Great-American-Trailer-Park-Musical.png",
+        "credits": [
+          "Betty"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-hands-on-a-hard-body/",
+        "title": "Hands on a Hard Body",
+        "opening_date": "2023-08-11",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2023_Hands_on_a_Hard_Body.webp",
+        "credits": [
+          "Norma Valverde"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2022-big-fish/",
+        "title": "Big Fish",
+        "opening_date": "2022-10-06",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2022_Big_Fish.jpeg",
+        "credits": [
+          "Costume Crew"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "renee-wendt-oka": {
+    "cast": [
+      {
+        "permalink": "/productions/1990-the-constant-couple/",
+        "title": "The Constant Couple",
+        "opening_date": "1990-03-30",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Parly"
+        ]
+      },
+      {
+        "permalink": "/productions/1989-veronicas-room/",
+        "title": "Veronica's Room",
+        "opening_date": "1989-03-24",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "The Woman"
+        ]
+      },
+      {
+        "permalink": "/productions/1988-look-homeward-angel/",
+        "title": "Look Homeward Angel",
+        "opening_date": "1988-09-02",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Miss Brown"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/1989-the-house-of-blue-leaves/",
+        "title": "The House of Blue Leaves",
+        "opening_date": "1989-01-03",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Properties"
         ]
       }
     ],

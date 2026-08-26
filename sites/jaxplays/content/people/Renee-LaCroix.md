@@ -3,6 +3,7 @@ title: Renée LaCroix
 date: 2024-08-17T19:20:33-04:00
 aliases: 
   - /people/renee-lacroix
+  - /people/renée-lacroix/
 other_names: 
  - Renee LaCroix
 featured_image: Renee-LaCroix.webp
