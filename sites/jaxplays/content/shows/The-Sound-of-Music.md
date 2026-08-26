@@ -1,9 +1,10 @@
 ---
 title: The Sound of Music
 date: 2024-09-01T18:31:59-04:00
-featured_image:
-featured_image_caption: 
-featured_image_attr:
+featured_image: The-Sound-of-Music.webp
+featured_image_alt: "Original Broadway poster-style artwork for The Sound of Music, with red title lettering and illustrated instruments around the cast and creative credits."
+featured_image_caption: "Original Broadway poster-style artwork for *The Sound of Music*."
+featured_image_attr: '<a href="https://static.greatbigcanvas.com/images/print_rolled_posterpaper/movie-goods/sound-of-music-the-broadway-1959%2Cmg0083162.jpg" title="Fair use of copyrighted material in the context of The Sound of Music">Fair use via Great Big Canvas image media</a>'
 show_details: 
 - Music: "[[w:Richard Rodgers]]"
 - Lyrics: "[[w:Oscar Hammerstein II]]"
