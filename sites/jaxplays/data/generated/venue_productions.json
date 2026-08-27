@@ -17246,6 +17246,32 @@
   ],
   "amelia-musical-playhouse": [
     {
+      "title": "Come From Away",
+      "url": "/productions/2026-come-from-away-3/",
+      "contentPath": "productions/2026/2026-Come-From-Away-3",
+      "poster": "/media/posters/2026-Come-From-Away-3.webp",
+      "posterAlt": "Poster for Come From Away at Amelia Musical Playhouse, with September 2-6 and 9-13, 2026 dates.",
+      "openingDate": "2026-09-02",
+      "closingDate": "2026-09-13",
+      "openingLabel": "Sep 2, 2026",
+      "openingMonthLabel": "September 2026",
+      "openingBadgeLabel": "Sep 2, 2026",
+      "closingLabel": "Sep 13, 2026",
+      "theatre": "Amelia Musical Playhouse",
+      "venues": [],
+      "allVenues": [
+        "Amelia Musical Playhouse"
+      ],
+      "genres": [
+        "Musical",
+        "Drama",
+        "Historical"
+      ],
+      "summary": "A live-pit staging of the musical about 38 planes diverted to Gander, Newfoundland after U.S. airspace closed on September 11, 2001.",
+      "tickets": "https://904tix.com/events/come-from-away-9-2-2026",
+      "searchBase": "come from away sep 2, 2026 sep 13, 2026 amelia musical playhouse amelia musical playhouse musical drama historical a live-pit staging of the musical about 38 planes diverted to gander, newfoundland after u.s. airspace closed on september 11, 2001."
+    },
+    {
       "title": "Annie",
       "url": "/productions/2026-annie/",
       "contentPath": "productions/2026/2026-Annie",

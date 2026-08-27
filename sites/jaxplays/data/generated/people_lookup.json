@@ -284,6 +284,11 @@
     "permalink": "/people/alexis-brockway/",
     "featured_image": "Alexis-Brockway.webp"
   },
+  "alexis-hopper": {
+    "title": "Alexis Hopper",
+    "permalink": "/people/alexis-hopper/",
+    "featured_image": "Alexis-Hopper.webp"
+  },
   "alexis-robbins": {
     "title": "Alexis Robbins",
     "permalink": "/people/alexis-robbins/",
@@ -2134,6 +2139,11 @@
     "permalink": "/people/cassandra-freeman/",
     "featured_image": "Cassandra-Freeman.webp"
   },
+  "cassidy-monticello": {
+    "title": "Cassidy Monticello",
+    "permalink": "/people/cassidy-monticello/",
+    "featured_image": "Cassidy-Monticello.webp"
+  },
   "cat-sutton": {
     "title": "Cat Sutton",
     "permalink": "/people/cat-sutton/",
@@ -2514,6 +2524,11 @@
     "permalink": "/people/chris-strickland/",
     "featured_image": ""
   },
+  "chris-thiele": {
+    "title": "Chris Thiele",
+    "permalink": "/people/chris-thiele/",
+    "featured_image": "Chris-Thiele.webp"
+  },
   "christian-douglas": {
     "title": "Christian Douglas",
     "permalink": "/people/christian-douglas/",
@@ -2743,6 +2758,11 @@
     "title": "Colin J. Williams",
     "permalink": "/people/colin-j-williams/",
     "featured_image": ""
+  },
+  "colleen-perry": {
+    "title": "Colleen Perry",
+    "permalink": "/people/colleen-perry/",
+    "featured_image": "Colleen-Perry.webp"
   },
   "colleen-sharp": {
     "title": "Colleen Sharp",
@@ -6379,6 +6399,11 @@
     "permalink": "/people/jessica-racaniello/",
     "featured_image": "Jessica-Racaniello.webp"
   },
+  "jessica-thiele": {
+    "title": "Jessica Thiele",
+    "permalink": "/people/jessica-thiele/",
+    "featured_image": "Jessica-Thiele.webp"
+  },
   "jessie-booth": {
     "title": "Jessie Booth",
     "permalink": "/people/jessie-booth/",
@@ -6522,7 +6547,7 @@
   "jimmy-galaviz": {
     "title": "Jimmy Galaviz",
     "permalink": "/people/jimmy-galaviz/",
-    "featured_image": ""
+    "featured_image": "Jimmy-Galaviz.webp"
   },
   "jimmy-kalista": {
     "title": "Jimmy Kalista",
@@ -8068,6 +8093,11 @@
     "title": "Lexi Brown",
     "permalink": "/people/lexi-brown/",
     "featured_image": "Lexi-Brown.webp"
+  },
+  "liam-carroll": {
+    "title": "Liam Carroll",
+    "permalink": "/people/liam-carroll/",
+    "featured_image": "Liam-Carroll.webp"
   },
   "liam-lavery": {
     "title": "Liam Lavery",
@@ -11009,6 +11039,11 @@
     "permalink": "/people/robert-oleary/",
     "featured_image": ""
   },
+  "robert-palen": {
+    "title": "Robert Palen",
+    "permalink": "/people/robert-palen/",
+    "featured_image": "Robert-Palen.webp"
+  },
   "robert-pelaia": {
     "title": "Robert Pelaia",
     "permalink": "/people/robert-pelaia/",
@@ -11338,6 +11373,11 @@
     "title": "Sam Willis",
     "permalink": "/people/sam-willis/",
     "featured_image": ""
+  },
+  "samantha-griffith": {
+    "title": "Samantha Griffith",
+    "permalink": "/people/samantha-griffith/",
+    "featured_image": "Samantha-Griffith.webp"
   },
   "samantha-pohly": {
     "title": "Samantha Pohly",
@@ -12173,6 +12213,11 @@
     "title": "Taylor Jackson",
     "permalink": "/people/taylor-jackson/",
     "featured_image": ""
+  },
+  "taylor-royals": {
+    "title": "Taylor Royals",
+    "permalink": "/people/taylor-royals/",
+    "featured_image": "Taylor-Royals.webp"
   },
   "taylor-smith": {
     "title": "Taylor Smith",
