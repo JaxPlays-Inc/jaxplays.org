@@ -4,7 +4,7 @@
 
 <link href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" rel="stylesheet" />
 <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
-<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.4/dist/leaflet-maplibre-gl.js"></script>
 
 <link rel="stylesheet" href="/leaflet/extramarkers/css/leaflet.extra-markers.min.css">
 <script src="/leaflet/extramarkers/js/leaflet.extra-markers.min.js"></script>
@@ -36,6 +36,8 @@
     const mymap = L.map(mapId, {
         minZoom,
         maxZoom,
+        maxBounds: [[-85.051129, -Infinity], [85.051129, Infinity]],
+        maxBoundsViscosity: 1,
         zoomControl: false,
         fullscreenControl: true,
         fullscreenControlOptions: {
@@ -79,22 +81,6 @@
         activeOpenFreeMapStyle = nextStyle;
     }
 
-    setOpenFreeMapStyle();
-
-    new MutationObserver(setOpenFreeMapStyle).observe(document.body, {
-        attributes: true,
-        attributeFilter: ['class']
-    });
-
-    if (window.matchMedia) {
-        const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        if (darkModeQuery.addEventListener) {
-            darkModeQuery.addEventListener('change', setOpenFreeMapStyle);
-        } else if (darkModeQuery.addListener) {
-            darkModeQuery.addListener(setOpenFreeMapStyle);
-        }
-    }
-
     const jaxplaysMarker = L.ExtraMarkers.icon({
       icon: 'fa-theater-masks',
       markerColor: 'yellow',
@@ -116,6 +102,22 @@
         const popupContent = "<b>" + title + "</b></br>" + formattedAddress;
         const marker = L.marker([lat, lng], {icon: jaxplaysMarker}).bindPopup(popupContent).addTo(mymap);
         marker.openPopup();
+    }
+
+    setOpenFreeMapStyle();
+
+    new MutationObserver(setOpenFreeMapStyle).observe(document.body, {
+        attributes: true,
+        attributeFilter: ['class']
+    });
+
+    if (window.matchMedia) {
+        const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        if (darkModeQuery.addEventListener) {
+            darkModeQuery.addEventListener('change', setOpenFreeMapStyle);
+        } else if (darkModeQuery.addListener) {
+            darkModeQuery.addListener(setOpenFreeMapStyle);
+        }
     }
   }());
 </script>

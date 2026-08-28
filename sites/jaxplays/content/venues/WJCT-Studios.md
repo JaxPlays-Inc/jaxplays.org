@@ -11,6 +11,7 @@ address: |
   100 Festival Park Ave
   Jacksonville, FL 32202
   United States
+seating: 400
 latitude: 30.320191022172494
 longitude: -81.63690753403208 
 socials: 

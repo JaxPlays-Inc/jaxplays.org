@@ -2193,6 +2193,67 @@ h1 a.jaxplayslogo {
 	text-transform: uppercase;
 }
 
+.venues-directory-map-section {
+	margin-top: 2rem;
+}
+
+.venues-directory-map {
+	aspect-ratio: 16 / 7;
+	border: 1px solid var(--jp-line);
+	width: 100%;
+}
+
+.venues-directory-map .leaflet-container,
+.venues-directory-map.leaflet-container {
+	height: 100%;
+	min-height: 0;
+	width: 100%;
+}
+
+.venues-directory-map-popup {
+	color: #171717;
+	display: grid;
+	gap: .35rem;
+	min-width: 12rem;
+}
+
+.venues-directory-map-popup strong,
+.venues-directory-map-popup span,
+.venues-directory-map-popup address,
+.venues-directory-map-popup a {
+	display: block;
+}
+
+.venues-directory-map-popup strong {
+	font-size: .95rem;
+	line-height: 1.2;
+}
+
+.venues-directory-map-popup span {
+	color: #5f6670;
+	font-size: .75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.venues-directory-map-popup .venues-directory-map-popup-seat-count {
+	color: #171717;
+	font-size: .85rem;
+	text-transform: none;
+}
+
+.venues-directory-map-popup address {
+	color: #333;
+	font-style: normal;
+	line-height: 1.35;
+}
+
+.venues-directory-map-popup a {
+	color: #28466f;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
 .theatres-directory-search {
 	margin-top: 1.5rem;
 }
@@ -3350,6 +3411,10 @@ a.production-credit-person.slow-grow:focus,
 
 	.theatres-directory-section-head {
 		grid-template-columns: 1fr;
+	}
+
+	.venues-directory-map {
+		aspect-ratio: 4 / 3;
 	}
 
 	.article-directory-section-head,

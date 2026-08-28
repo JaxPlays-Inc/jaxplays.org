@@ -39,6 +39,8 @@
       </div>
     </header>
 
+    {{ partial "venues-map.html" (dict "venues" (append $activeVenues $inactiveVenues) "id" "venues-directory-map" "latitude" 30.324 "longitude" -81.659 "setZoom" 8) }}
+
     <div class="theatres-directory-search">
       <label class="theatres-directory-search-label" for="venue-directory-filter">Filter venues</label>
       <input id="venue-directory-filter" class="theatres-directory-filter" type="search" autocomplete="off" placeholder="Search by name, status, address, or description">
