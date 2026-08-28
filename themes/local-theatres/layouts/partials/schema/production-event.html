@@ -82,12 +82,15 @@
     {{- $event = merge $event (dict "location" $locations) -}}
   {{- end -}}
 
+  {{- $isTouring := .Params.touring | default false -}}
   {{- with .Params.theatre -}}
     {{- $theatreName := printf "%v" . -}}
     {{- $theatrePage := false -}}
-    {{- range where site.Pages "Section" "theatres" -}}
-      {{- if or (eq .Title $theatreName) (in (.Params.theatre_aliases | default slice) $theatreName) -}}
-        {{- $theatrePage = . -}}
+    {{- if not $isTouring -}}
+      {{- range where site.Pages "Section" "theatres" -}}
+        {{- if or (eq .Title $theatreName) (in (.Params.theatre_aliases | default slice) $theatreName) -}}
+          {{- $theatrePage = . -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
     {{- if $theatrePage -}}

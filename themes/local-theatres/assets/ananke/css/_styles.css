@@ -1006,6 +1006,7 @@ h1 a.jaxplayslogo {
 }
 
 .production-single .production-detail-value a,
+.production-single .production-theatre-name,
 .production-single .production-venue-name {
 	font-weight: 700;
 }

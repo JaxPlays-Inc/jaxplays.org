@@ -155,8 +155,12 @@
             {{ with .Params.theatre }}
             <div class="production-show-detail-row">
               <div class="production-detail-label">{{ if $.Params.presenter }}Presenter{{ else }}Theatre{{ end }}</div>
-              <div class="production-detail-value">
+              <div class="production-detail-value production-theatre-name">
+                {{ if $.Params.touring }}
+                {{ . }}
+                {{ else }}
                 <a href="/theatres/{{ . | replaceRE " \\." "" | replaceRE "&" "and" | urlize }}">{{ . }}</a>
+                {{ end }}
               </div>
             </div>
             {{ end }}
