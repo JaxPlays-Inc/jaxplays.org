@@ -55,6 +55,11 @@ source_date: 2026-08-10
 source_urls:
   - https://playersbythesea.org/season-61/now-sign-here
   - https://jaxplays.org/auditions/2026-06-25-players-by-the-sea-i-love-you-you-re-perfect-now-sign-here-auditions/
+press:
+  - title: "Q&A: David Sacks on 'I Love You, You're Perfect... Now Sign Here'"
+    source: JaxPlays 
+    date: 2026-08-29
+    url: /news/2026/08/29/qa-david-sacks-on-i-love-you-youre-perfect...-now-sign-here/
 ---
 *I Love You, You're Perfect... Now Sign Here* is a world-premiere romantic comedy by Jacksonville playwright [[person:David Sacks]].
 
