@@ -1,5 +1,8 @@
 ---
 title: "Jason Nettle's '9/11: We Will Never Forget' Brings Remembrance to Two Local Stages"
+slug: Jason-Nettle-9-11-We-Will-Never-Forget-Brings-Remembrance-to-Two-Local-Stages
+aliases:
+  - /news/2026/08/25/jason-nettles-9/11-we-will-never-forget-brings-remembrance-to-two-local-stages/
 date: 2026-08-25T22:00:00-04:00
 featured_image:
   src: /media/photos/2026-08-25-Jason-Nettle-We-Will-Never-Forget.webp

@@ -1,5 +1,6 @@
 ---
 title: "Q&A: David Sacks on 'I Love You, You're Perfect... Now Sign Here'"
+slug: David-Sacks-I-Love-You-Youre-Perfect-Now-Sign-Here-QA
 date: 2026-08-29T18:10:00-04:00
 featured_image:
   src: /media/photos/2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp
@@ -13,7 +14,7 @@ authors:
 show_reading_time: true
 description: "Jacksonville playwright David Sacks discusses the spark, family conflicts and romantic-comedy stakes behind his world-premiere play."
 ---
-Jacksonville playwright [[person:David Sacks]] brings a new romantic comedy to [[theatre:Players by the Sea]] this fall with *[[production:2026 I Love You, You're Perfect... Now Sign Here|I Love You, You're Perfect... Now Sign Here]]*, a world-premiere play about love, family expectations and the paperwork that can complicate both.<!--more-->
+Jacksonville playwright [[person:David Sacks]] brings a new romantic comedy to [[theatre:Players by the Sea]] this fall with [[production:2026 I Love You, Youre Perfect Now Sign Here|I Love You, You're Perfect... Now Sign Here]], a world-premiere play about love, family expectations and the paperwork that can complicate both.<!--more-->
 
 The play follows Hannah, who comes from a wealthy, conservative Jewish family in Greenwich, Connecticut, and Michael, who comes from a blue-collar, third-generation Irish family from Brooklyn, as wedding plans force both families into the same room.
 
