@@ -2197,6 +2197,32 @@ h1 a.jaxplayslogo {
 	margin-top: 2rem;
 }
 
+.venues-directory-map-actions {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	justify-content: flex-end;
+}
+
+.venues-directory-map-marker-toggle {
+	background: #171717;
+	border: 1px solid #171717;
+	color: #fff;
+	cursor: pointer;
+	font-size: .75rem;
+	font-weight: 800;
+	letter-spacing: 0;
+	line-height: 1;
+	padding: .55rem .7rem;
+	text-transform: uppercase;
+}
+
+.venues-directory-map-marker-toggle[aria-pressed="true"] {
+	background: #ffd316;
+	color: #171717;
+}
+
 .venues-directory-map {
 	aspect-ratio: 16 / 7;
 	border: 1px solid var(--jp-line);

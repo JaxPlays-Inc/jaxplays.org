@@ -49,7 +49,10 @@
         <p class="theatres-directory-section-eyebrow">Map</p>
         <h2 id="venues-map-heading">Venues Around the Region</h2>
       </div>
-      <span class="theatres-directory-count">{{ len $markers }} mapped</span>
+      <div class="venues-directory-map-actions">
+        <button type="button" class="venues-directory-map-marker-toggle" data-venue-marker-toggle="{{ $id }}" aria-pressed="false">Tiny dots</button>
+        <span class="theatres-directory-count">{{ len $markers }} mapped</span>
+      </div>
     </div>
     <div id="{{ $id }}" class="venues-directory-map" data-venues-map></div>
   </section>
@@ -59,6 +62,7 @@
       const markers = {{ $markers | jsonify | safeJS }};
       const mapId = {{ $id | jsonify | safeJS }};
       const mapElement = document.getElementById(mapId);
+      const markerToggle = document.querySelector(`[data-venue-marker-toggle="${mapId}"]`);
       if (!mapElement || !markers.length) return;
 
       const map = L.map(mapId, {
@@ -93,6 +97,9 @@
       function setOpenFreeMapStyle() {
         const nextStyle = isDarkModeEnabled() ? openFreeMapStyles.dark : openFreeMapStyles.light;
         if (activeOpenFreeMapStyle === nextStyle) return;
+        if (!window.maplibregl || /HeadlessChrome/.test(window.navigator.userAgent) || (maplibregl.supported && !maplibregl.supported({ failIfMajorPerformanceCaveat: true }))) {
+          return;
+        }
         if (openFreeMapLayer) {
           map.removeLayer(openFreeMapLayer);
         }
@@ -112,12 +119,10 @@
       const archiveVenueLayer = L.layerGroup();
       const activeBounds = [];
       const archiveBounds = [];
+      const venueMarkerData = [];
+      let markerMode = 'markers';
 
-      markers.forEach((venue) => {
-        const lat = Number.parseFloat(venue.lat);
-        const lng = Number.parseFloat(venue.lng);
-        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
-
+      function createVenuePopup(venue) {
         const popup = document.createElement('div');
         popup.className = 'venues-directory-map-popup';
 
@@ -153,11 +158,42 @@
           popup.appendChild(link);
         }
 
+        return popup;
+      }
+
+      function addVenueMarker(venue, lat, lng) {
         const targetLayer = venue.status === 'Archive' ? archiveVenueLayer : activeVenueLayer;
-        L.marker([lat, lng], {
-          icon: venueIcon,
-          title: venue.title || 'Venue'
-        }).bindPopup(popup).addTo(targetLayer);
+        const marker = markerMode === 'dots'
+          ? L.circleMarker([lat, lng], {
+              radius: 2,
+              color: '#171717',
+              fillColor: '#171717',
+              fillOpacity: 0.95,
+              opacity: 1,
+              stroke: false,
+              weight: 0
+            })
+          : L.marker([lat, lng], {
+              icon: venueIcon,
+              title: venue.title || 'Venue'
+            });
+
+        marker.bindPopup(createVenuePopup(venue)).addTo(targetLayer);
+      }
+
+      function renderVenueMarkers() {
+        activeVenueLayer.clearLayers();
+        archiveVenueLayer.clearLayers();
+        venueMarkerData.forEach((venue) => {
+          addVenueMarker(venue, venue.lat, venue.lng);
+        });
+      }
+
+      markers.forEach((venue) => {
+        const lat = Number.parseFloat(venue.lat);
+        const lng = Number.parseFloat(venue.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+        venueMarkerData.push(Object.assign({}, venue, { lat, lng }));
 
         if (venue.status === 'Archive') {
           archiveBounds.push([lat, lng]);
@@ -165,6 +201,7 @@
           activeBounds.push([lat, lng]);
         }
       });
+      renderVenueMarkers();
 
       L.control.layers(null, {
         'Active venues': activeVenueLayer,
@@ -176,6 +213,15 @@
       const initialBounds = activeBounds.length ? activeBounds : archiveBounds;
       if (initialBounds.length > 1) {
         map.fitBounds(initialBounds, { padding: [28, 28] });
+      }
+
+      if (markerToggle) {
+        markerToggle.addEventListener('click', function () {
+          markerMode = markerMode === 'markers' ? 'dots' : 'markers';
+          markerToggle.setAttribute('aria-pressed', String(markerMode === 'dots'));
+          markerToggle.textContent = markerMode === 'dots' ? 'Big markers' : 'Tiny dots';
+          renderVenueMarkers();
+        });
       }
 
       setOpenFreeMapStyle();

@@ -71,6 +71,10 @@
             return;
         }
 
+        if (!window.maplibregl || /HeadlessChrome/.test(window.navigator.userAgent) || (maplibregl.supported && !maplibregl.supported({ failIfMajorPerformanceCaveat: true }))) {
+            return;
+        }
+
         if (openFreeMapLayer) {
             mymap.removeLayer(openFreeMapLayer);
         }
