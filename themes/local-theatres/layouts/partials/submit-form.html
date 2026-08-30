@@ -35,7 +35,7 @@
           <fieldset>
             <legend id="{{ $fieldID }}-label">{{ $field.label }}{{ if $field.required }} <span aria-hidden="true">*</span>{{ end }}</legend>
             {{- with $field.description }}<p class="jp-submit-help" id="{{ $fieldID }}-help">{{ . | markdownify | replaceRE "<a href=" "<a target=\"_blank\" rel=\"noopener\" href=" | safeHTML }}</p>{{ end }}
-            <div class="people-directory-role-picker jp-submit-token-picker" data-jp-submit-token-picker data-jp-submit-token-name="{{ $field.name }}"{{ if $field.required }} data-jp-submit-token-required="true"{{ end }}>
+            <div class="people-directory-role-picker jp-submit-token-picker" data-jp-submit-token-picker data-jp-submit-token-name="{{ $field.name }}"{{ if $field.required }} data-jp-submit-token-required="true"{{ end }}{{ if $field.allow_custom }} data-jp-submit-token-allow-custom="true"{{ end }}>
               <div class="theatres-directory-filter people-directory-role-combobox jp-submit-token-combobox" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="{{ $fieldID }}-label"{{ with $field.description }} aria-describedby="{{ $fieldID }}-help"{{ end }} data-jp-submit-token-combobox>
                 <div class="people-directory-role-values" data-jp-submit-token-values></div>
                 <label class="screen-reader-text" for="{{ $fieldID }}-search">Search {{ $field.label }}</label>
@@ -217,6 +217,7 @@
       form.querySelectorAll("[data-jp-submit-token-picker]").forEach((picker) => {
         const name = picker.dataset.jpSubmitTokenName;
         const required = picker.dataset.jpSubmitTokenRequired === "true";
+        const allowCustom = picker.dataset.jpSubmitTokenAllowCustom === "true";
         const combobox = picker.querySelector("[data-jp-submit-token-combobox]");
         const panel = picker.querySelector("[data-jp-submit-token-panel]");
         const values = picker.querySelector("[data-jp-submit-token-values]");
@@ -280,19 +281,29 @@
           });
         };
         const toggleValue = (rawValue) => {
-          const value = normalize(rawValue);
+          const label = String(rawValue || "").trim();
+          const value = normalize(label);
           if (!value) return;
+          if (allowCustom && !labelByValue.has(value)) labelByValue.set(value, label);
           if (selected.has(value)) selected.delete(value);
           else selected.add(value);
           search.value = "";
           renderTokens();
           filterOptions();
         };
+        const addSearchValue = () => {
+          if (!allowCustom || !search.value.trim()) return false;
+          toggleValue(search.value);
+          return true;
+        };
         picker.addEventListener("jp-submit:set-token-values", (event) => {
           selected.clear();
           (event.detail?.values || []).forEach((rawValue) => {
-            const value = normalize(String(rawValue || ""));
-            if (value && labelByValue.has(value)) selected.add(value);
+            const label = String(rawValue || "").trim();
+            const value = normalize(label);
+            if (!value) return;
+            if (allowCustom && !labelByValue.has(value)) labelByValue.set(value, label);
+            if (labelByValue.has(value)) selected.add(value);
           });
           renderTokens();
           filterOptions();
@@ -308,6 +319,11 @@
           filterOptions();
         });
         search.addEventListener("keydown", (event) => {
+          if (allowCustom && (event.key === "Enter" || event.key === ",")) {
+            event.preventDefault();
+            addSearchValue();
+            return;
+          }
           if (event.key === "Escape") {
             closePanel();
             search.blur();
@@ -318,6 +334,11 @@
             renderTokens();
           }
         });
+        search.addEventListener("blur", (event) => {
+          if (event.relatedTarget && picker.contains(event.relatedTarget)) return;
+          addSearchValue();
+        });
+        form.addEventListener("submit", addSearchValue);
         options.forEach((option) => {
           option.addEventListener("click", () => {
             toggleValue(option.dataset.jpSubmitTokenValue || option.textContent || "");
@@ -534,14 +555,21 @@
         });
         return Object.keys(payload).length ? payload : null;
       };
-      const formatEditValue = (value, indent = "") => {
+      const formatEditValue = (value, indent = "", asList = false) => {
         if (value == null) return "";
         if (Array.isArray(value)) {
-          return value.map((item) => formatEditValue(item, indent)).filter(Boolean).join("\n");
+          return value.map((item) => {
+            const formatted = formatEditValue(item, asList ? "" : indent, false);
+            if (!formatted) return "";
+            if (!asList) return formatted;
+            return formatted.includes("\n")
+              ? `${indent}- ${formatted.replaceAll("\n", `\n${indent}  `)}`
+              : `${indent}- ${formatted}`;
+          }).filter(Boolean).join("\n");
         }
         if (typeof value === "object") {
           return Object.entries(value).map(([key, nestedValue]) => {
-            const formatted = formatEditValue(nestedValue, `${indent}  `);
+            const formatted = formatEditValue(nestedValue, `${indent} `, Array.isArray(nestedValue));
             if (Array.isArray(nestedValue)) return `${indent}${key}:\n${formatted}`;
             return `${indent}${key}: ${formatted}`;
           }).filter(Boolean).join("\n");
@@ -579,6 +607,17 @@
       };
 
       hydrateEditPayload();
+      form.querySelectorAll("textarea").forEach((textarea) => {
+        const grow = () => {
+          textarea.style.height = "auto";
+          textarea.style.height = `${textarea.scrollHeight}px`;
+        };
+        textarea.style.overflowY = "hidden";
+        textarea.addEventListener("input", grow);
+        window.addEventListener("resize", grow);
+        form.addEventListener("reset", () => window.setTimeout(grow));
+        grow();
+      });
       form.querySelectorAll("[data-jp-submit-file-upload]").forEach((upload) => {
         const input = upload.querySelector("[data-jp-submit-file-input]");
         const dropzone = upload.querySelector("[data-jp-submit-file-dropzone]");

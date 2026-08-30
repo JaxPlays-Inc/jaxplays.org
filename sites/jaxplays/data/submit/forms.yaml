@@ -163,7 +163,8 @@ production:
       label: Genres
       type: token_picker
       required: true
-      description: Select all genres that apply. JaxPlays only accepts scripted theatrical productions.
+      allow_custom: true
+      description: Choose all that apply. To add another genre, type it and press Enter or comma. JaxPlays accepts scripted theatrical productions only.
       placeholder: Select genres
       options:
         - Play
@@ -180,14 +181,6 @@ production:
         - Mystery
         - Political
         - Tragedy
-        - Other
-    - name: other_genres
-      label: Other Genres
-      type: textarea
-      description: Add any genres not listed above, preferably one per line.
-      show_if:
-        field: genres
-        value: Other
     - name: showtimes
       label: Showtimes
       type: textarea
