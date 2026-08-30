@@ -288,6 +288,15 @@
           renderTokens();
           filterOptions();
         };
+        picker.addEventListener("jp-submit:set-token-values", (event) => {
+          selected.clear();
+          (event.detail?.values || []).forEach((rawValue) => {
+            const value = normalize(String(rawValue || ""));
+            if (value && labelByValue.has(value)) selected.add(value);
+          });
+          renderTokens();
+          filterOptions();
+        });
 
         combobox.addEventListener("click", () => {
           openPanel();
@@ -508,6 +517,68 @@
         updateCounter();
       });
 
+      const getEditPayload = () => {
+        const params = new URLSearchParams(window.location.search);
+        const editKey = params.get("edit_production");
+        if (!editKey) return null;
+        const storageKey = `jp-production-edit:${editKey}`;
+        try {
+          const rawPayload = window.localStorage?.getItem(storageKey);
+          if (rawPayload) return JSON.parse(rawPayload);
+        } catch (error) {
+          return null;
+        }
+        const payload = {};
+        params.forEach((value, key) => {
+          if (key !== "edit_production") payload[key] = value;
+        });
+        return Object.keys(payload).length ? payload : null;
+      };
+      const formatEditValue = (value, indent = "") => {
+        if (value == null) return "";
+        if (Array.isArray(value)) {
+          return value.map((item) => formatEditValue(item, indent)).filter(Boolean).join("\n");
+        }
+        if (typeof value === "object") {
+          return Object.entries(value).map(([key, nestedValue]) => {
+            const formatted = formatEditValue(nestedValue, `${indent}  `);
+            if (Array.isArray(nestedValue)) return `${indent}${key}:\n${formatted}`;
+            return `${indent}${key}: ${formatted}`;
+          }).filter(Boolean).join("\n");
+        }
+        return `${indent}${String(value)}`;
+      };
+      const hydrateEditPayload = () => {
+        const payload = getEditPayload();
+        if (!payload) return;
+
+        Object.entries(payload).forEach(([name, value]) => {
+          if (name === "genres") {
+            const picker = form.querySelector(`[data-jp-submit-token-picker][data-jp-submit-token-name="${CSS.escape(name)}"]`);
+            const values = Array.isArray(value) ? value : [value];
+            picker?.dispatchEvent(new CustomEvent("jp-submit:set-token-values", { detail: { values } }));
+            return;
+          }
+
+          const fields = [...form.querySelectorAll(`[name="${CSS.escape(name)}"]`)];
+          if (!fields.length) return;
+          const formattedValue = formatEditValue(value);
+
+          fields.forEach((field) => {
+            if (field.type === "file") return;
+            if (field.type === "checkbox" || field.type === "radio") {
+              const selectedValues = Array.isArray(value) ? value.map((item) => normalize(String(item))) : [normalize(String(value))];
+              field.checked = selectedValues.includes(normalize(field.value || ""));
+            } else {
+              field.value = formattedValue;
+            }
+            field.dispatchEvent(new Event("input", { bubbles: true }));
+            field.dispatchEvent(new Event("change", { bubbles: true }));
+          });
+        });
+      };
+
+      hydrateEditPayload();
       form.querySelectorAll("[data-jp-submit-file-upload]").forEach((upload) => {
         const input = upload.querySelector("[data-jp-submit-file-input]");
         const dropzone = upload.querySelector("[data-jp-submit-file-dropzone]");

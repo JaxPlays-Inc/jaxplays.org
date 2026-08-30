@@ -840,12 +840,59 @@
   {{ end }}
 
   <!-- Edit this page -->
+  {{ $editShowtimes := slice }}
+  {{ range .Params.showtimes }}
+  {{ if in (printf "%T" .) "map" }}
+  {{ $showtimeDateTime := index . "datetime" }}
+  {{ $showtimeVenue := index . "venue" | default "" }}
+  {{ if $showtimeVenue }}
+  {{ $editShowtimes = $editShowtimes | append (printf "%s | %s" $showtimeDateTime $showtimeVenue) }}
+  {{ else }}
+  {{ $editShowtimes = $editShowtimes | append (printf "%s" $showtimeDateTime) }}
+  {{ end }}
+  {{ else }}
+  {{ $editShowtimes = $editShowtimes | append (printf "%s" .) }}
+  {{ end }}
+  {{ end }}
+  {{ $editPayload := dict
+    "source_url" .Permalink
+    "title" .Title
+    "theatre" (.Params.theatre | default "")
+    "venue" (.Params.venue | default "")
+    "genres" (.Params.genres | default slice)
+    "showtimes" $editShowtimes
+    "ticket_link" (.Params.tickets | default "")
+    "web_page" (.Params.website | default "")
+    "poster_credit" (.Params.featured_image_attr | default "")
+    "description" (.Params.description | default "")
+    "synopsis" (.RawContent | default "")
+    "cast" (.Params.cast | default slice)
+    "understudies" (.Params.understudies | default slice)
+    "crew" (.Params.crew | default slice)
+    "orchestra" (.Params.orchestra | default slice)
+  }}
   <div class="nested-copy-line-height lh-copy f4 mt4 {{ $.Param " text_color" | default "dark-gray" }}"></div>
   <h3 class="f3 mt4 mb3 sectionline">Edit your production</h3>
   <p>Share corrections or missing content for JaxPlays review.</p>
-  <a href="/apply/production/" target="_blank"
+  <a href="/apply/production/?edit_production={{ .RelPermalink | urlquery }}" target="_blank" data-jp-production-edit-link data-jp-production-edit='{{ $editPayload | jsonify }}'
       class="inline-flex flex-row items-center link b dim br4 ph4 pv2 mv2 mh1 h2 black bg-yellow"><img src="/images/pencil-solid.svg"
       class="h1 ph2"></img>Edit your production</a>
+  <script>
+    (() => {
+      const link = document.currentScript.previousElementSibling;
+      if (!link?.matches("[data-jp-production-edit-link]")) return;
+      link.addEventListener("click", () => {
+        const editKey = new URL(link.href).searchParams.get("edit_production");
+        if (!editKey) return;
+        try {
+          window.localStorage?.setItem(`jp-production-edit:${editKey}`, link.dataset.jpProductionEdit || "{}");
+        } catch (error) {
+          const fallbackParams = new URLSearchParams(JSON.parse(link.dataset.jpProductionEdit || "{}"));
+          link.href = `/apply/production/?edit_production=${encodeURIComponent(editKey)}&${fallbackParams.toString()}`;
+        }
+      });
+    })();
+  </script>
   {{- partial "GAM-right-rail-1.html" (dict "margin" "1rem 0" "right" "-315px") -}}
 </div>
 
