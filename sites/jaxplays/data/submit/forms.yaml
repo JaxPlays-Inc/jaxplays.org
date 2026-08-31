@@ -21,7 +21,7 @@ profile:
       label: Headshot
       type: file
       accept: image/png,image/jpeg,image/webp
-      description: Upload your most recent professional headshot. [**(4:5 ratio, 8" x 10" recommended)**](/social-media-aspect-ratios.webp)
+      description: Upload your most recent professional headshot. [**(4:5 ratio, 8" x 10" recommended)**](/social-media-aspect-ratios.webp) If you are editing an existing profile, a new upload will replace your current featured headshot and move the current headshot into your gallery. To request that a headshot be removed instead, note that at the bottom of the form and tell us why.
     - name: headshot_credit
       label: Headshot Credit
       type: text

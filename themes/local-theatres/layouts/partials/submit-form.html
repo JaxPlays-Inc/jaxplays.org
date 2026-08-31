@@ -605,8 +605,9 @@
         }
         return `${indent}${String(value)}`;
       };
+      const editPayload = getEditPayload();
       const hydrateEditPayload = () => {
-        const payload = getEditPayload();
+        const payload = editPayload;
         if (!payload) return;
 
         Object.entries(payload).forEach(([name, value]) => {
@@ -658,6 +659,8 @@
         const headshotBio = upload.querySelector("[data-jp-submit-headshot-bio]");
         const nameInput = form.querySelector("[name='submitter_name']");
         const bioInput = form.querySelector("[name='biography']");
+        const currentHeadshot = typeof editPayload?.current_headshot === "string" ? editPayload.current_headshot.trim() : "";
+        const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
         let headshotObjectURL = "";
         if (!input || !dropzone || !status) return;
 
@@ -678,6 +681,11 @@
           updateHeadshotPreviewName();
           updateHeadshotPreviewBio();
         };
+        const setHeadshotPreviewImage = (src) => {
+          if (!headshotProfileImage || !headshotListImage) return;
+          headshotProfileImage.src = src;
+          headshotListImage.style.backgroundImage = `url("${src.replaceAll('"', '\\"')}")`;
+        };
         const clearHeadshotPreview = () => {
           if (headshotObjectURL) {
             URL.revokeObjectURL(headshotObjectURL);
@@ -687,6 +695,20 @@
           if (headshotListImage) headshotListImage.style.backgroundImage = "";
           if (headshotPreview) headshotPreview.hidden = true;
         };
+        const renderCurrentHeadshotPreview = () => {
+          if (!headshotPreview || !headshotProfileImage || !headshotListImage || !currentHeadshot) {
+            clearHeadshotPreview();
+            return;
+          }
+          if (headshotObjectURL) {
+            URL.revokeObjectURL(headshotObjectURL);
+            headshotObjectURL = "";
+          }
+          setHeadshotPreviewImage(currentHeadshot);
+          updateHeadshotPreviewText();
+          if (currentHeadshotAlt) headshotProfileImage.alt = currentHeadshotAlt;
+          headshotPreview.hidden = false;
+        };
         const renderHeadshotPreview = (file) => {
           if (!headshotPreview || !headshotProfileImage || !headshotListImage) return;
           if (!file || !file.type.startsWith("image/")) {
@@ -695,8 +717,7 @@
           }
           if (headshotObjectURL) URL.revokeObjectURL(headshotObjectURL);
           headshotObjectURL = URL.createObjectURL(file);
-          headshotProfileImage.src = headshotObjectURL;
-          headshotListImage.style.backgroundImage = `url("${headshotObjectURL}")`;
+          setHeadshotPreviewImage(headshotObjectURL);
           updateHeadshotPreviewText();
           headshotPreview.hidden = false;
         };
@@ -704,7 +725,7 @@
           const files = [...input.files];
           if (!files.length) {
             status.textContent = "No file selected.";
-            clearHeadshotPreview();
+            renderCurrentHeadshotPreview();
             return;
           }
           status.textContent = files.length === 1 ? files[0].name : `${files.length} files selected: ${files.map((file) => file.name).join(", ")}`;

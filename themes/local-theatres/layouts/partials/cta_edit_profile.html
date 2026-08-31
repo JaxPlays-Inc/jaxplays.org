@@ -1,11 +1,22 @@
 <!-- Edit your profile -->
 {{ $editOtherNames := .Params.other_names | default .Params.aliases | default slice }}
 {{ $editSocialLinks := slice }}
+{{ $editHeadshot := "" }}
+{{ with .Params.featured_image }}
+  {{ $headshot := printf "%s" . }}
+  {{ if or (hasPrefix $headshot "http://") (hasPrefix $headshot "https://") (hasPrefix $headshot "/") }}
+    {{ $editHeadshot = $headshot }}
+  {{ else }}
+    {{ $editHeadshot = printf "/media/headshots/%s" $headshot | relURL }}
+  {{ end }}
+{{ end }}
 {{ $editPayload := dict
   "source_url" .Permalink
   "submitter_name" .Title
   "other_names" $editOtherNames
   "headshot_credit" (.Params.featured_image_attr | default "")
+  "current_headshot" $editHeadshot
+  "current_headshot_alt" (.Params.featured_image_alt | default (printf "Headshot of %s" .Title))
   "biography" (.RawContent | default "")
 }}
 {{ with .Params.socials }}
