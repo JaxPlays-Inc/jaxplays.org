@@ -217,7 +217,7 @@
       {{ if and (not $featuredImage) (not .Content) }}
       {{ partial "cta_submit_profile.html" }}
       {{ else }}
-      {{ partial "cta_edit_profile.html" }}
+      {{ partial "cta_edit_profile.html" . }}
       {{ end }}
 
   </article>
