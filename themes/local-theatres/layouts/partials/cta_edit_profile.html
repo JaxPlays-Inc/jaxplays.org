@@ -1,10 +1,85 @@
 <!-- Edit your profile -->
+{{ $editOtherNames := .Params.other_names | default .Params.aliases | default slice }}
+{{ $editSocialLinks := slice }}
+{{ $editPayload := dict
+  "source_url" .Permalink
+  "submitter_name" .Title
+  "other_names" $editOtherNames
+  "headshot_credit" (.Params.featured_image_attr | default "")
+  "biography" (.RawContent | default "")
+}}
+{{ with .Params.socials }}
+  {{ range $name, $handle := . }}
+    {{ if $handle }}
+      {{ $field := lower $name }}
+      {{ $label := humanize $field }}
+      {{ $handleString := printf "%s" $handle }}
+      {{ $isAbsoluteURL := or (hasPrefix $handleString "http://") (hasPrefix $handleString "https://") }}
+      {{ $url := $handleString }}
+      {{ if eq $field "facebook" }}
+        {{ $label = "Facebook" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.facebook.com/%s" $handleString) }}
+      {{ else if eq $field "instagram" }}
+        {{ $label = "Instagram" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.instagram.com/%s" $handleString) }}
+      {{ else if eq $field "threads" }}
+        {{ $label = "Threads" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.threads.net/@%s" $handleString) }}
+      {{ else if eq $field "linkedin" }}
+        {{ $label = "LinkedIn" }}
+        {{ if $isAbsoluteURL }}
+          {{ $url = $handleString }}
+        {{ else if hasPrefix $handleString "company/" }}
+          {{ $url = printf "https://www.linkedin.com/%s" $handleString }}
+        {{ else }}
+          {{ $url = printf "https://www.linkedin.com/in/%s" $handleString }}
+        {{ end }}
+      {{ else if eq $field "bluesky" }}
+        {{ $label = "Bluesky" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://bsky.app/profile/%s" $handleString) }}
+      {{ else if eq $field "twitter" }}
+        {{ $label = "X / Twitter" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://x.com/%s" $handleString) }}
+      {{ else if eq $field "imdb" }}
+        {{ $label = "IMDB" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.imdb.com/name/%s" $handleString) }}
+      {{ else if eq $field "ibdb" }}
+        {{ $label = "IBDB" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.ibdb.com/broadway-cast-staff/%s" $handleString) }}
+      {{ else if eq $field "backstage" }}
+        {{ $label = "Backstage" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.backstage.com/u/%s" $handleString) }}
+      {{ end }}
+      {{ if in (slice "website" "facebook" "instagram" "threads" "linkedin" "bluesky" "twitter" "imdb" "ibdb" "backstage") $field }}
+        {{ $editSocialLinks = $editSocialLinks | append $label }}
+        {{ $editPayload = merge $editPayload (dict $field $url) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $editPayload = merge $editPayload (dict "social_links" $editSocialLinks) }}
 <div class="nested-copy-line-height lh-copy f4 mt5 {{ $.Param " text_color" | default "dark-gray" }}"></div>
 <h3 class="f3 mt4 mb3 sectionline">Edit your bio and headshot</h3>
 <p>Have a new headshot, or want to spruce up your bio? </p>
-<a href="/apply/profile/"
-  target="_blank" class="inline-flex flex-row link b dim br4 ph3 pv2 mv2 mh1 h2 black bg-yellow"><img
+<a href="/apply/profile/?edit_profile={{ .RelPermalink | urlquery }}"
+  target="_blank" data-jp-profile-edit-link data-jp-profile-edit='{{ $editPayload | jsonify }}' class="inline-flex flex-row link b dim br4 ph3 pv2 mv2 mh1 h2 black bg-yellow"><img
     src="/images/pencil-solid.svg" class="h1 ph2"></img>Edit your Profile</a>
+<script>
+  (() => {
+    const link = document.currentScript.previousElementSibling;
+    if (!link?.matches("[data-jp-profile-edit-link]")) return;
+    link.addEventListener("click", () => {
+      const editKey = new URL(link.href).searchParams.get("edit_profile");
+      if (!editKey) return;
+      try {
+        window.localStorage?.setItem(`jp-profile-edit:${editKey}`, link.dataset.jpProfileEdit || "{}");
+      } catch (error) {
+        const fallbackParams = new URLSearchParams(JSON.parse(link.dataset.jpProfileEdit || "{}"));
+        link.href = `/apply/profile/?edit_profile=${encodeURIComponent(editKey)}&${fallbackParams.toString()}`;
+      }
+    });
+  })();
+</script>
 
 <p>Credits appear automatically when a production is added to JaxPlays. Want to add a production you were in? </p>
   <a href="/apply/production/" target="_blank" class="inline-flex flex-row link b dim br4 ph3 pv2 mv2 mh1 h2 black bg-yellow"><img

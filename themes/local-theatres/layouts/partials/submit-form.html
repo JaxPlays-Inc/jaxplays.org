@@ -540,9 +540,13 @@
 
       const getEditPayload = () => {
         const params = new URLSearchParams(window.location.search);
-        const editKey = params.get("edit_production");
+        const editTypes = ["production", "profile"];
+        const editType = editTypes.find((type) => params.has(`edit_${type}`));
+        if (!editType) return null;
+        const editParam = `edit_${editType}`;
+        const editKey = params.get(editParam);
         if (!editKey) return null;
-        const storageKey = `jp-production-edit:${editKey}`;
+        const storageKey = `jp-${editType}-edit:${editKey}`;
         try {
           const rawPayload = window.localStorage?.getItem(storageKey);
           if (rawPayload) return JSON.parse(rawPayload);
@@ -551,7 +555,7 @@
         }
         const payload = {};
         params.forEach((value, key) => {
-          if (key !== "edit_production") payload[key] = value;
+          if (key !== editParam) payload[key] = value;
         });
         return Object.keys(payload).length ? payload : null;
       };
