@@ -101,6 +101,31 @@
                 <span class="jp-submit-file-line">Drag &amp; Drop Files, <span class="jp-submit-file-link">Choose File to Upload</span></span>
                 <span class="jp-submit-file-note" id="{{ $fieldID }}-file-status" data-jp-submit-file-status>No file selected.</span>
               </label>
+              {{- if and (eq $form.type "profile") (eq $field.name "headshot") }}
+                <div class="jp-submit-headshot-preview" data-jp-submit-headshot-preview hidden>
+                  <div class="jp-submit-headshot-preview-section">
+                    <p class="jp-submit-headshot-preview-label">Profile page preview</p>
+                    <div class="people-single-profile jp-submit-headshot-profile-preview flex flex-column flex-row-ns">
+                      <div class="people-single-headshot-column w-100 w5-ns">
+                        <img class="people-single-headshot w5-ns w-100" src="" alt="" data-jp-submit-headshot-profile-image>
+                      </div>
+                      <div class="jp-submit-headshot-profile-copy">
+                        <p class="jp-submit-headshot-profile-name" data-jp-submit-headshot-name>Artist Name</p>
+                        <p class="jp-submit-headshot-profile-bio" data-jp-submit-headshot-bio></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="jp-submit-headshot-preview-section">
+                    <p class="jp-submit-headshot-preview-label">People list preview</p>
+                    <div class="people-list-grid jp-submit-headshot-list-grid">
+                      <span class="people-list-person jp-submit-headshot-list-person">
+                        <span class="people-list-headshot" role="img" aria-label="" data-jp-submit-headshot-list-image></span>
+                        <span class="people-list-name" data-jp-submit-headshot-list-name>Artist Name</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              {{- end }}
             </div>
           {{- else if $field.color_picker }}
             <div class="jp-submit-color-control" data-jp-submit-color-control>
@@ -626,15 +651,64 @@
         const input = upload.querySelector("[data-jp-submit-file-input]");
         const dropzone = upload.querySelector("[data-jp-submit-file-dropzone]");
         const status = upload.querySelector("[data-jp-submit-file-status]");
+        const headshotPreview = upload.querySelector("[data-jp-submit-headshot-preview]");
+        const headshotProfileImage = upload.querySelector("[data-jp-submit-headshot-profile-image]");
+        const headshotListImage = upload.querySelector("[data-jp-submit-headshot-list-image]");
+        const headshotNameTargets = [...upload.querySelectorAll("[data-jp-submit-headshot-name], [data-jp-submit-headshot-list-name]")];
+        const headshotBio = upload.querySelector("[data-jp-submit-headshot-bio]");
+        const nameInput = form.querySelector("[name='submitter_name']");
+        const bioInput = form.querySelector("[name='biography']");
+        let headshotObjectURL = "";
         if (!input || !dropzone || !status) return;
 
+        const previewName = () => (nameInput?.value || "").trim() || "Artist Name";
+        const previewBio = () => (bioInput?.value || "").trim() || "Your biography will appear here on the published profile.";
+        const updateHeadshotPreviewName = () => {
+          const name = previewName();
+          headshotNameTargets.forEach((target) => {
+            target.textContent = name;
+          });
+          if (headshotProfileImage) headshotProfileImage.alt = `Profile preview headshot for ${name}`;
+          if (headshotListImage) headshotListImage.setAttribute("aria-label", `People list preview headshot for ${name}`);
+        };
+        const updateHeadshotPreviewBio = () => {
+          if (headshotBio) headshotBio.textContent = previewBio();
+        };
+        const updateHeadshotPreviewText = () => {
+          updateHeadshotPreviewName();
+          updateHeadshotPreviewBio();
+        };
+        const clearHeadshotPreview = () => {
+          if (headshotObjectURL) {
+            URL.revokeObjectURL(headshotObjectURL);
+            headshotObjectURL = "";
+          }
+          if (headshotProfileImage) headshotProfileImage.removeAttribute("src");
+          if (headshotListImage) headshotListImage.style.backgroundImage = "";
+          if (headshotPreview) headshotPreview.hidden = true;
+        };
+        const renderHeadshotPreview = (file) => {
+          if (!headshotPreview || !headshotProfileImage || !headshotListImage) return;
+          if (!file || !file.type.startsWith("image/")) {
+            clearHeadshotPreview();
+            return;
+          }
+          if (headshotObjectURL) URL.revokeObjectURL(headshotObjectURL);
+          headshotObjectURL = URL.createObjectURL(file);
+          headshotProfileImage.src = headshotObjectURL;
+          headshotListImage.style.backgroundImage = `url("${headshotObjectURL}")`;
+          updateHeadshotPreviewText();
+          headshotPreview.hidden = false;
+        };
         const renderSelectedFiles = () => {
           const files = [...input.files];
           if (!files.length) {
             status.textContent = "No file selected.";
+            clearHeadshotPreview();
             return;
           }
           status.textContent = files.length === 1 ? files[0].name : `${files.length} files selected: ${files.map((file) => file.name).join(", ")}`;
+          renderHeadshotPreview(files[0]);
         };
         const setFiles = (files) => {
           const selectedFiles = [...files];
@@ -648,6 +722,8 @@
         };
 
         input.addEventListener("change", renderSelectedFiles);
+        nameInput?.addEventListener("input", updateHeadshotPreviewName);
+        bioInput?.addEventListener("input", updateHeadshotPreviewBio);
         ["dragenter", "dragover"].forEach((eventName) => {
           dropzone.addEventListener(eventName, (event) => {
             event.preventDefault();
