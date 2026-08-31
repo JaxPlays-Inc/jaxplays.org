@@ -163,7 +163,7 @@ HUGO_ENV=production scripts/build_site.sh --minify --baseURL "https://jaxplays.o
 
 ## Deployment
 
-The GitHub Pages workflow builds and deploys from `master`. It installs Hugo, Node dependencies, Dart Sass and PyYAML, then runs:
+The GitHub Pages workflow builds and deploys from `main`. It installs Hugo, Node dependencies, Dart Sass and PyYAML, then runs:
 
 ```bash
 scripts/build_site.sh --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
