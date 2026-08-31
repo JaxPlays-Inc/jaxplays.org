@@ -3,7 +3,7 @@ name: Build and deploy JaxPlays
 on:
   pull_request:
   push:
-    branches: ["master"]
+    branches: ["main"]
   workflow_dispatch:
   schedule:
     - cron: '0 6 * * *'

@@ -117,7 +117,7 @@ Featured images for content are typically named to match the content file (e.g.,
 
 ## Deployment
 
-- Deploys via GitHub Actions on push to `master`
+- Deploys via GitHub Actions on push to `main`
 - Runs daily at 6 AM UTC (automatic rebuild for date-based content)
 - Hugo version: 0.147.8 (extended)
 - Creates Mailchimp draft campaigns for new reviews/news articles
