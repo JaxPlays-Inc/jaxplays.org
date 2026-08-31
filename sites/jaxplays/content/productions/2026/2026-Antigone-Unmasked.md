@@ -39,6 +39,7 @@ cast:
   - Creon: Eugene Lindsey
   - "Masked citizens, journalists, aides, and guards": Lumen Rep NEXTGEN Apprentice Company
 crew:
+  - Playwright: Brian Niece
   - Director: Brian Niece
   - "Developed by": Lumen Rep Team
 orchestra:
