@@ -199,6 +199,80 @@
 	line-height: 1.35;
 }
 
+.jp-submit-headshot-preview {
+	border-top: 1px solid rgba(23, 23, 23, .12);
+	display: grid;
+	gap: 1.25rem;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+.jp-submit-headshot-preview[hidden] {
+	display: none;
+}
+
+.jp-submit-headshot-preview-section {
+	min-width: 0;
+}
+
+.jp-submit-headshot-preview-label {
+	color: var(--jp-muted);
+	font-size: .78rem;
+	font-weight: 700;
+	letter-spacing: .08em;
+	line-height: 1.25;
+	margin: 0 0 .65rem;
+	text-transform: uppercase;
+}
+
+.jp-submit-headshot-profile-preview {
+	background: #fff;
+	border: 1px solid var(--jp-line);
+	padding: 1rem;
+}
+
+.jp-submit-headshot-profile-copy {
+	color: var(--jp-ink);
+	font-size: .95rem;
+	line-height: 1.45;
+	min-width: 0;
+	padding-top: 1rem;
+}
+
+.jp-submit-headshot-profile-name {
+	font-size: 1.35rem;
+	font-weight: 700;
+	line-height: 1.15;
+	margin: 0 0 .45rem;
+	overflow-wrap: anywhere;
+}
+
+.jp-submit-headshot-profile-bio {
+	color: var(--jp-muted);
+	margin: 0;
+}
+
+.jp-submit-headshot-list-grid {
+	background: #fff;
+	border: 1px solid var(--jp-line);
+	display: inline-grid;
+	padding: 1rem;
+}
+
+.jp-submit-headshot-list-person {
+	color: var(--jp-ink);
+}
+
+@media screen and (min-width: 30em) {
+	.jp-submit-headshot-preview {
+		grid-template-columns: minmax(0, 1fr) minmax(12rem, 16rem);
+	}
+
+	.jp-submit-headshot-profile-copy {
+		padding-top: 0;
+	}
+}
+
 .jp-submit-field[hidden] {
 	display: none;
 }
