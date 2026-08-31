@@ -102,6 +102,7 @@
                 <span class="jp-submit-file-note" id="{{ $fieldID }}-file-status" data-jp-submit-file-status>No file selected.</span>
               </label>
               {{- if and (eq $form.type "profile") (eq $field.name "headshot") }}
+                <p class="jp-submit-help" data-jp-submit-edit-headshot-help hidden>New uploads become your featured headshot. Your current featured headshot will move to your gallery. To request removal instead, use the notes field below and tell us why.</p>
                 <div class="jp-submit-headshot-preview" data-jp-submit-headshot-preview hidden>
                   <div class="jp-submit-headshot-preview-section">
                     <p class="jp-submit-headshot-preview-label">Profile page preview</p>
@@ -574,7 +575,10 @@
         const storageKey = `jp-${editType}-edit:${editKey}`;
         try {
           const rawPayload = window.localStorage?.getItem(storageKey);
-          if (rawPayload) return JSON.parse(rawPayload);
+          if (rawPayload) {
+            const payload = JSON.parse(rawPayload);
+            return payload && typeof payload === "object" ? { ...payload, _edit_type: editType } : payload;
+          }
         } catch (error) {
           return null;
         }
@@ -582,6 +586,7 @@
         params.forEach((value, key) => {
           if (key !== editParam) payload[key] = value;
         });
+        payload._edit_type = editType;
         return Object.keys(payload).length ? payload : null;
       };
       const formatEditValue = (value, indent = "", asList = false) => {
@@ -605,8 +610,9 @@
         }
         return `${indent}${String(value)}`;
       };
+      const editPayload = getEditPayload();
       const hydrateEditPayload = () => {
-        const payload = getEditPayload();
+        const payload = editPayload;
         if (!payload) return;
 
         Object.entries(payload).forEach(([name, value]) => {
@@ -656,10 +662,15 @@
         const headshotListImage = upload.querySelector("[data-jp-submit-headshot-list-image]");
         const headshotNameTargets = [...upload.querySelectorAll("[data-jp-submit-headshot-name], [data-jp-submit-headshot-list-name]")];
         const headshotBio = upload.querySelector("[data-jp-submit-headshot-bio]");
+        const editHeadshotHelp = upload.querySelector("[data-jp-submit-edit-headshot-help]");
         const nameInput = form.querySelector("[name='submitter_name']");
         const bioInput = form.querySelector("[name='biography']");
+        const isProfileEdit = editPayload?._edit_type === "profile";
+        const currentHeadshot = typeof editPayload?.current_headshot === "string" ? editPayload.current_headshot.trim() : "";
+        const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
         let headshotObjectURL = "";
         if (!input || !dropzone || !status) return;
+        if (editHeadshotHelp) editHeadshotHelp.hidden = !isProfileEdit;
 
         const previewName = () => (nameInput?.value || "").trim() || "Artist Name";
         const previewBio = () => (bioInput?.value || "").trim() || "Your biography will appear here on the published profile.";
@@ -678,6 +689,11 @@
           updateHeadshotPreviewName();
           updateHeadshotPreviewBio();
         };
+        const setHeadshotPreviewImage = (src) => {
+          if (!headshotProfileImage || !headshotListImage) return;
+          headshotProfileImage.src = src;
+          headshotListImage.style.backgroundImage = `url("${src.replaceAll('"', '\\"')}")`;
+        };
         const clearHeadshotPreview = () => {
           if (headshotObjectURL) {
             URL.revokeObjectURL(headshotObjectURL);
@@ -687,6 +703,20 @@
           if (headshotListImage) headshotListImage.style.backgroundImage = "";
           if (headshotPreview) headshotPreview.hidden = true;
         };
+        const renderCurrentHeadshotPreview = () => {
+          if (!headshotPreview || !headshotProfileImage || !headshotListImage || !currentHeadshot) {
+            clearHeadshotPreview();
+            return;
+          }
+          if (headshotObjectURL) {
+            URL.revokeObjectURL(headshotObjectURL);
+            headshotObjectURL = "";
+          }
+          setHeadshotPreviewImage(currentHeadshot);
+          updateHeadshotPreviewText();
+          if (currentHeadshotAlt) headshotProfileImage.alt = currentHeadshotAlt;
+          headshotPreview.hidden = false;
+        };
         const renderHeadshotPreview = (file) => {
           if (!headshotPreview || !headshotProfileImage || !headshotListImage) return;
           if (!file || !file.type.startsWith("image/")) {
@@ -695,8 +725,7 @@
           }
           if (headshotObjectURL) URL.revokeObjectURL(headshotObjectURL);
           headshotObjectURL = URL.createObjectURL(file);
-          headshotProfileImage.src = headshotObjectURL;
-          headshotListImage.style.backgroundImage = `url("${headshotObjectURL}")`;
+          setHeadshotPreviewImage(headshotObjectURL);
           updateHeadshotPreviewText();
           headshotPreview.hidden = false;
         };
@@ -704,7 +733,7 @@
           const files = [...input.files];
           if (!files.length) {
             status.textContent = "No file selected.";
-            clearHeadshotPreview();
+            renderCurrentHeadshotPreview();
             return;
           }
           status.textContent = files.length === 1 ? files[0].name : `${files.length} files selected: ${files.map((file) => file.name).join(", ")}`;
