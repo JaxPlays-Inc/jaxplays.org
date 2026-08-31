@@ -1,12 +1,13 @@
 ---
-title: Antigone (Unmasked)
+title: "Antigone: Unmasked"
 theatre: Lumen Repertory Theatre
 venue: Betsy Lovett Hall
 season: '2026'
-date: 2026-06-06T16:18:56-04:00
+date: 2026-08-31
 opening_date: 2026-10-09
 closing_date: 2026-10-24
 showtimes:
+  - 2026-10-08 19:30:00
   - 2026-10-09 19:30:00
   - 2026-10-10 19:30:00
   - 2026-10-15 19:30:00
@@ -17,25 +18,49 @@ showtimes:
   - 2026-10-23 19:30:00
   - 2026-10-24 19:30:00
 featured_image: 2026-Antigone-Unmasked.webp
-featured_image_alt:
-featured_image_caption:
-featured_image_attr:
+featured_image_alt: "Poster for Lumen Repertory Theatre's world premiere production of Antigone: Unmasked."
+featured_image_caption: "Lumen Repertory Theatre presents the world premiere of *Antigone: Unmasked*, a contemporary adaptation written and directed by Brian Niece."
+featured_image_attr: Lumen Repertory Theatre
 featured_image_attr_link:
 program:
 website: https://www.lumenrep.org/season-2026
 tickets: https://www.lumenrep.org/tickets
 show_details:
+  - Playwright: Brian Niece
   - Basis: "[[w:Antigone_(Sophocles_play)|*Antigone*]] by [[w:Sophocles]]"
+  - World Premiere: true
+  - Season: "Challenging"
+  - Preview: "October 8, 2026 at 7:30 PM; pay-what-you-can donations accepted at the door"
+  - Opening Night: "October 9, 2026 at 7:30 PM; Blue Carpet Premiere with post-show Afterglow and champagne toast"
+  - Talkback: "October 18, 2026 matinee; The Weight of the Law: A Conversation on Truth and Complicity"
+  - NEXTGEN Night: "October 22, 2026, with a post-show student talkback"
 cast:
+  - Chorus: Zonnetta Marie
+  - Antigone: Maggie Cox
+  - Ismene: Kate McManus
+  - Haemon: Noah Bennett
+  - Creon: Eugene Lindsey
+  - "Ensemble (masked citizens, journalists, aides, and guards)": Lumen Rep NEXTGEN Apprentice Company
 crew:
-- Director: Brian Niece
+  - Playwright: Brian Niece
+  - Director: Brian Niece
+  - Producing Artistic Director: Brian Niece
+  - "Developed by": Lumen Rep Team
 orchestra:
 genres:
 - Play
 - Drama
 - Adaptation
 - World Premiere
-description: Lumen Rep reimagines Sophocles' classic tragedy for a fractured contemporary world where silence becomes complicity.
+description: Lumen Rep presents the world premiere of Brian Niece's contemporary adaptation of Sophocles' classic tragedy, set in an unnamed country recovering from civil war.
+photos:
+  - photo: 2026-Antigone-Unmasked-Principal-Cast.webp
+    photo_attr: Lumen Repertory Theatre
+    photo_alt: "Principal cast graphic for Lumen Repertory Theatre's Antigone: Unmasked, featuring Zonnetta Marie, Maggie Cox, Kate McManus, Noah Bennett, and Eugene Lindsey."
+    photo_caption: "Lumen Repertory Theatre's principal cast announcement graphic for *Antigone: Unmasked*."
 ---
-Lumen Rep's original contemporary adaptation of Sophocles' tragedy reframes Antigone as a fierce story of conscience, truth, and public defiance. In a fractured world where silence becomes complicity, one woman's refusal to submit becomes a rallying cry for what must still be spoken aloud.
+In Lumen Repertory Theatre's world premiere adaptation, Sophocles' tragedy moves into an unnamed country close enough to recognize: a place recovering from civil war, governed by a leader who has mistaken order for justice, and watched by a chorus of citizens who never quite look away.
 
+Written and directed by [[person:Brian Niece]] and developed by the Lumen Rep Team, *Antigone: Unmasked* follows a woman who defies the law of the state to bury her brother and asks what a culture owes to its truth tellers. The production stages the story across three distinct playing spaces: an elevated platform of official power, a threshold ramp of negotiation and witness, and a circle of truth and human consequence.
+
+The production also launches Lumen Rep's inaugural NEXTGEN Apprentice Company, placing five emerging artists in ensemble roles alongside the company's professional cast.
