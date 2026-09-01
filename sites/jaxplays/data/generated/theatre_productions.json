@@ -27239,7 +27239,7 @@
       "url": "/productions/2026-grand-horizons/",
       "contentPath": "productions/2026/2026-Grand-Horizons",
       "poster": "/media/posters/2026-Grand-Horizons.webp",
-      "posterAlt": "Grand Horizons poster",
+      "posterAlt": "Poster for Grand Horizons",
       "openingDate": "2026-09-11",
       "closingDate": "2026-09-20",
       "openingLabel": "Sep 11, 2026",
@@ -29272,11 +29272,11 @@
   ],
   "lumen-repertory-theatre": [
     {
-      "title": "Antigone (Unmasked)",
+      "title": "Antigone: Unmasked",
       "url": "/productions/2026-antigone-unmasked/",
       "contentPath": "productions/2026/2026-Antigone-Unmasked",
       "poster": "/media/posters/2026-Antigone-Unmasked.webp",
-      "posterAlt": "Antigone (Unmasked) poster",
+      "posterAlt": "Poster for Lumen Repertory Theatre's world premiere production of Antigone: Unmasked.",
       "openingDate": "2026-10-09",
       "closingDate": "2026-10-24",
       "openingLabel": "Oct 9, 2026",
@@ -29296,9 +29296,9 @@
         "Adaptation",
         "World Premiere"
       ],
-      "summary": "Lumen Rep reimagines Sophocles' classic tragedy for a fractured contemporary world where silence becomes complicity.",
+      "summary": "Lumen Rep presents the world premiere of Brian Niece's contemporary adaptation of Sophocles' classic tragedy, set in an unnamed country recovering from civil war.",
       "tickets": "https://www.lumenrep.org/tickets",
-      "searchBase": "antigone (unmasked) oct 9, 2026 oct 24, 2026 lumen repertory theatre betsy lovett hall play drama adaptation world premiere lumen rep reimagines sophocles' classic tragedy for a fractured contemporary world where silence becomes complicity."
+      "searchBase": "antigone: unmasked oct 9, 2026 oct 24, 2026 lumen repertory theatre betsy lovett hall play drama adaptation world premiere lumen rep presents the world premiere of brian niece's contemporary adaptation of sophocles' classic tragedy, set in an unnamed country recovering from civil war."
     },
     {
       "title": "The Pillowman",
@@ -30058,6 +30058,34 @@
     }
   ],
   "act-ii-players": [
+    {
+      "title": "Dracula",
+      "url": "/productions/2026-dracula/",
+      "contentPath": "productions/2026/2026-Dracula",
+      "poster": "/media/posters/2026-Dracula.webp",
+      "posterAlt": "Poster for Act II Players' production of Dracula, featuring a castle silhouette, bats, and a full moon against a red background.",
+      "openingDate": "2026-10-09",
+      "closingDate": "2026-10-11",
+      "openingLabel": "Oct 9, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 9, 2026",
+      "closingLabel": "Oct 11, 2026",
+      "theatre": "Act II Players",
+      "venues": [
+        "Act II Players Black Box Theatre"
+      ],
+      "allVenues": [
+        "Act II Players Black Box Theatre"
+      ],
+      "genres": [
+        "Play",
+        "Comedy",
+        "Horror"
+      ],
+      "summary": "Act II Players presents John Mattera's stage adaptation of Dracula, blending spooky chills, comedy, and gothic melodrama.",
+      "tickets": "https://our.show/3rken4mp4z",
+      "searchBase": "dracula oct 9, 2026 oct 11, 2026 act ii players act ii players black box theatre play comedy horror act ii players presents john mattera's stage adaptation of dracula, blending spooky chills, comedy, and gothic melodrama."
+    },
     {
       "title": "How to Succeed in Business Without Really Trying",
       "url": "/productions/2026-how-to-succeed-in-business-without-really-trying/",
@@ -32301,6 +32329,38 @@
       "summary": "A woman claiming to be a Titanic survivor appears decades later, forcing a skeptical expert to test the truth of her impossible story.",
       "tickets": "https://rivercityplayers.ludus.com/200503329",
       "searchBase": "scotland road jan 28, 2026 feb 8, 2026 river city players larimer arts center play mystery drama a woman claiming to be a titanic survivor appears decades later, forcing a skeptical expert to test the truth of her impossible story."
+    }
+  ],
+  "midnight-creative": [
+    {
+      "title": "Edgar Allan Poe: The Musical",
+      "url": "/productions/2026-edgar-allan-poe-the-musical/",
+      "contentPath": "productions/2026/2026-Edgar-Allan-Poe-The-Musical",
+      "poster": "/media/posters/2026-Edgar-Allan-Poe-The-Musical.webp",
+      "posterAlt": "Poster artwork for Edgar Allan Poe: The Musical.",
+      "openingDate": "2026-08-27",
+      "closingDate": "2026-08-29",
+      "openingLabel": "Aug 27, 2026",
+      "openingMonthLabel": "August 2026",
+      "openingBadgeLabel": "Aug 27, 2026",
+      "closingLabel": "Aug 29, 2026",
+      "theatre": "Midnight Creative",
+      "venues": [
+        "Friday Musicale"
+      ],
+      "allVenues": [
+        "Friday Musicale"
+      ],
+      "genres": [
+        "Musical",
+        "Immersive Theatre",
+        "Horror",
+        "Literary",
+        "Cocktail Event"
+      ],
+      "summary": "A 90-minute immersive musical experience where Edgar Allan Poe's stories come alive through gothic storytelling, live music and themed cocktails.",
+      "tickets": "https://feverup.com/m/634656?utm_source=JAXPLAYS&utm_medium=website&utm_campaign=JAXPLAYS&utm_content=poethemusical",
+      "searchBase": "edgar allan poe: the musical aug 27, 2026 aug 29, 2026 midnight creative friday musicale musical immersive theatre horror literary cocktail event a 90-minute immersive musical experience where edgar allan poe's stories come alive through gothic storytelling, live music and themed cocktails."
     }
   ],
   "musical-theatre-ponte-vedra": [
