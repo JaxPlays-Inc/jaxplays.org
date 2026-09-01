@@ -26,26 +26,17 @@ program:
 website: https://www.lumenrep.org/season-2026
 tickets: https://www.lumenrep.org/tickets
 show_details:
-  - Playwright: Brian Niece
+  - Playwright: "[[person:Brian Niece]]"
   - Basis: "[[w:Antigone_(Sophocles_play)|*Antigone*]] by [[w:Sophocles]]"
-  - World Premiere: true
-  - Season: "Challenging"
-  - Preview: "October 8, 2026 at 7:30 PM; pay-what-you-can donations accepted at the door"
-  - Opening Night: "October 9, 2026 at 7:30 PM; Blue Carpet Premiere with post-show Afterglow and champagne toast"
-  - Talkback: "October 18, 2026 matinee; The Weight of the Law: A Conversation on Truth and Complicity"
-  - NEXTGEN Night: "October 22, 2026, with a post-show student talkback"
 cast:
   - Chorus: Zonnetta Marie
   - Antigone: Maggie Cox
   - Ismene: Kate McManus
   - Haemon: Noah Bennett
   - Creon: Eugene Lindsey
-  - "Ensemble (masked citizens, journalists, aides, and guards)": Lumen Rep NEXTGEN Apprentice Company
 crew:
   - Playwright: Brian Niece
   - Director: Brian Niece
-  - Producing Artistic Director: Brian Niece
-  - "Developed by": Lumen Rep Team
 orchestra:
 genres:
 - Play
@@ -56,7 +47,7 @@ description: Lumen Rep presents the world premiere of Brian Niece's contemporary
 photos:
   - photo: 2026-Antigone-Unmasked-Principal-Cast.webp
     photo_attr: Lumen Repertory Theatre
-    photo_alt: "Principal cast graphic for Lumen Repertory Theatre's Antigone: Unmasked, featuring Zonnetta Marie, Maggie Cox, Kate McManus, Noah Bennett, and Eugene Lindsey."
+    photo_alt: "Principal cast graphic for Lumen Repertory Theatre's Antigone: Unmasked, featuring Zonnetta Marie, Maggie Cox, Kate McManus, Noah Bennett and Eugene Lindsey."
     photo_caption: "Lumen Repertory Theatre's principal cast announcement graphic for *Antigone: Unmasked*."
 ---
 In Lumen Repertory Theatre's world premiere adaptation, Sophocles' tragedy moves into an unnamed country close enough to recognize: a place recovering from civil war, governed by a leader who has mistaken order for justice, and watched by a chorus of citizens who never quite look away.
