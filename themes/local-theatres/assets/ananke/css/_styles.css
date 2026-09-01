@@ -203,6 +203,7 @@
 	border-top: 1px solid rgba(23, 23, 23, .12);
 	display: grid;
 	gap: 1.25rem;
+	align-items: start;
 	margin-top: 1rem;
 	padding-top: 1rem;
 }
@@ -228,27 +229,46 @@
 .jp-submit-headshot-profile-preview {
 	background: #fff;
 	border: 1px solid var(--jp-line);
+	box-sizing: border-box;
 	padding: 1rem;
+}
+
+.jp-submit-headshot-profile-preview .people-single-headshot {
+	display: block;
+	width: 100%;
 }
 
 .jp-submit-headshot-list-grid {
 	background: #fff;
 	border: 1px solid var(--jp-line);
-	display: inline-grid;
-	padding: 1rem;
+	display: grid;
+	justify-items: center;
+	padding: 2rem 1rem;
+	width: 100%;
 }
 
 .jp-submit-headshot-list-person {
 	color: var(--jp-ink);
+	max-width: 18rem;
 }
 
-@media screen and (min-width: 30em) {
+.jp-submit-headshot-list-person .people-list-headshot {
+	height: 14rem;
+	width: 14rem;
+}
+
+.jp-submit-headshot-list-person .people-list-name {
+	font-size: 1.25rem;
+}
+
+@media screen and (min-width: 42em) {
 	.jp-submit-headshot-preview {
-		grid-template-columns: minmax(0, 1fr) minmax(12rem, 16rem);
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 	}
 
-	.jp-submit-headshot-profile-preview .people-single-headshot-column {
-		flex: 0 0 16rem;
+	.jp-submit-headshot-list-person .people-list-headshot {
+		height: 18rem;
+		width: 18rem;
 	}
 }
 
