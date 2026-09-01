@@ -22,7 +22,9 @@ program:
 website: https://www.aclassictheatre.org/2026-2027-season
 source: Submitted through JaxPlays production form
 source_date: 2026-08-31
-source_url: https://jaxplays.org/productions/2026-grand-horizons/
+source_url: 
+- https://www.aclassictheatre.org/2026-2027-season
+- https://jaxplays.org/productions/2026-grand-horizons/
 tickets: https://aclassictheatre.ludus.com/show_page.php?show_id=200533265
 show_details:
 - Playwright: '[[w:Bess Wohl]]'
