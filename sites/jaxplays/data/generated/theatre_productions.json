@@ -31343,13 +31343,13 @@
       "url": "/productions/2026-company/",
       "contentPath": "productions/2026/2026-Company",
       "poster": "/media/posters/2026-Company.webp",
-      "posterAlt": "Company poster",
+      "posterAlt": "City Repertory Theatre ticket graphic for Company, featuring the title over a stylized city skyline and colorful geometric shapes.",
       "openingDate": "2026-09-18",
-      "closingDate": "2026-10-03",
+      "closingDate": "2026-10-04",
       "openingLabel": "Sep 18, 2026",
       "openingMonthLabel": "September 2026",
       "openingBadgeLabel": "Sep 18, 2026",
-      "closingLabel": "Oct 3, 2026",
+      "closingLabel": "Oct 4, 2026",
       "theatre": "City Repertory Theatre",
       "venues": [],
       "allVenues": [
@@ -31360,9 +31360,9 @@
         "Comedy",
         "Drama"
       ],
-      "summary": "Explore the complexities of modern relationships through the eyes of Bobby, a single man unable to commit fully to a steady relationship, let alone marriage.",
-      "tickets": "https://www.tix.com/ticket-sales/crtpalmcoast/7555/event/1470617",
-      "searchBase": "company sep 18, 2026 oct 3, 2026 city repertory theatre city repertory theatre musical comedy drama explore the complexities of modern relationships through the eyes of bobby, a single man unable to commit fully to a steady relationship, let alone marriage."
+      "summary": "Bobby has everything except a meaningful relationship in Stephen Sondheim and George Furth's landmark musical about friendship, marriage and being alive.",
+      "tickets": "https://www.tix.com/ticket-sales/crtpalmcoast/7555",
+      "searchBase": "company sep 18, 2026 oct 4, 2026 city repertory theatre city repertory theatre musical comedy drama bobby has everything except a meaningful relationship in stephen sondheim and george furth's landmark musical about friendship, marriage and being alive."
     },
     {
       "title": "Puffs",

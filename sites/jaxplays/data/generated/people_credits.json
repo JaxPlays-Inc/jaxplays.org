@@ -16692,6 +16692,18 @@
         ]
       },
       {
+        "permalink": "/productions/2026-company/",
+        "title": "Company",
+        "opening_date": "2026-09-18",
+        "approx_date": "",
+        "theatre": "City Repertory Theatre",
+        "venue": "City Repertory Theatre",
+        "featured_image": "2026-Company.webp",
+        "credits": [
+          "Music Director"
+        ]
+      },
+      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -77493,6 +77505,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "evan-martinez": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-company/",
+        "title": "Company",
+        "opening_date": "2026-09-18",
+        "approx_date": "",
+        "theatre": "City Repertory Theatre",
+        "venue": "City Repertory Theatre",
+        "featured_image": "2026-Company.webp",
+        "credits": [
+          "Bobby"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "eve-legrand": {
