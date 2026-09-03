@@ -106,14 +106,8 @@
                 <div class="jp-submit-headshot-preview" data-jp-submit-headshot-preview hidden>
                   <div class="jp-submit-headshot-preview-section">
                     <p class="jp-submit-headshot-preview-label">Profile page preview</p>
-                    <div class="people-single-profile jp-submit-headshot-profile-preview flex flex-column flex-row-ns">
-                      <div class="people-single-headshot-column w-100 w5-ns">
-                        <img class="people-single-headshot w5-ns w-100" src="" alt="" data-jp-submit-headshot-profile-image>
-                      </div>
-                      <div class="jp-submit-headshot-profile-copy">
-                        <p class="jp-submit-headshot-profile-name" data-jp-submit-headshot-name>Artist Name</p>
-                        <p class="jp-submit-headshot-profile-bio" data-jp-submit-headshot-bio></p>
-                      </div>
+                    <div class="jp-submit-headshot-profile-preview">
+                      <img class="people-single-headshot" src="" alt="" data-jp-submit-headshot-profile-image>
                     </div>
                   </div>
                   <div class="jp-submit-headshot-preview-section">
@@ -660,11 +654,9 @@
         const headshotPreview = upload.querySelector("[data-jp-submit-headshot-preview]");
         const headshotProfileImage = upload.querySelector("[data-jp-submit-headshot-profile-image]");
         const headshotListImage = upload.querySelector("[data-jp-submit-headshot-list-image]");
-        const headshotNameTargets = [...upload.querySelectorAll("[data-jp-submit-headshot-name], [data-jp-submit-headshot-list-name]")];
-        const headshotBio = upload.querySelector("[data-jp-submit-headshot-bio]");
+        const headshotNameTargets = [...upload.querySelectorAll("[data-jp-submit-headshot-list-name]")];
         const editHeadshotHelp = upload.querySelector("[data-jp-submit-edit-headshot-help]");
         const nameInput = form.querySelector("[name='submitter_name']");
-        const bioInput = form.querySelector("[name='biography']");
         const isProfileEdit = editPayload?._edit_type === "profile";
         const currentHeadshot = typeof editPayload?.current_headshot === "string" ? editPayload.current_headshot.trim() : "";
         const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
@@ -673,7 +665,6 @@
         if (editHeadshotHelp) editHeadshotHelp.hidden = !isProfileEdit;
 
         const previewName = () => (nameInput?.value || "").trim() || "Artist Name";
-        const previewBio = () => (bioInput?.value || "").trim() || "Your biography will appear here on the published profile.";
         const updateHeadshotPreviewName = () => {
           const name = previewName();
           headshotNameTargets.forEach((target) => {
@@ -681,13 +672,6 @@
           });
           if (headshotProfileImage) headshotProfileImage.alt = `Profile preview headshot for ${name}`;
           if (headshotListImage) headshotListImage.setAttribute("aria-label", `People list preview headshot for ${name}`);
-        };
-        const updateHeadshotPreviewBio = () => {
-          if (headshotBio) headshotBio.textContent = previewBio();
-        };
-        const updateHeadshotPreviewText = () => {
-          updateHeadshotPreviewName();
-          updateHeadshotPreviewBio();
         };
         const setHeadshotPreviewImage = (src) => {
           if (!headshotProfileImage || !headshotListImage) return;
@@ -713,7 +697,7 @@
             headshotObjectURL = "";
           }
           setHeadshotPreviewImage(currentHeadshot);
-          updateHeadshotPreviewText();
+          updateHeadshotPreviewName();
           if (currentHeadshotAlt) headshotProfileImage.alt = currentHeadshotAlt;
           headshotPreview.hidden = false;
         };
@@ -726,7 +710,7 @@
           if (headshotObjectURL) URL.revokeObjectURL(headshotObjectURL);
           headshotObjectURL = URL.createObjectURL(file);
           setHeadshotPreviewImage(headshotObjectURL);
-          updateHeadshotPreviewText();
+          updateHeadshotPreviewName();
           headshotPreview.hidden = false;
         };
         const renderSelectedFiles = () => {
@@ -752,7 +736,6 @@
 
         input.addEventListener("change", renderSelectedFiles);
         nameInput?.addEventListener("input", updateHeadshotPreviewName);
-        bioInput?.addEventListener("input", updateHeadshotPreviewBio);
         ["dragenter", "dragover"].forEach((eventName) => {
           dropzone.addEventListener(eventName, (event) => {
             event.preventDefault();
