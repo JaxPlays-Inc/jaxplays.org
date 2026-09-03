@@ -53,4 +53,4 @@ description: "Bobby has everything except a meaningful relationship in Stephen S
 ---
 City Repertory Theatre opens its 16th season with *Company*, Stephen Sondheim and George Furth's Tony Award-winning musical about Bobby, a successful young man surrounded by five married couples and still searching for someone to share his life.
 
-Helmed by Artistic Director [[person:John Sbordone]] and Music Director [[person:Ben Beck]], CRT's production features newcomer [[person:Evan Martinez]] as Bobby alongside company favorites Michele O'Neil, Laniece Fagundes, Everett Clark, Joanna Gil, Seth Kirk and more.
+Helmed by Artistic Director John Sbordone and Music Director [[person:Ben Beck]], CRT's production features newcomer [[person:Evan Martinez]] as Bobby alongside company favorites Michele O'Neil, Laniece Fagundes, Everett Clark, Joanna Gil, Seth Kirk and more.
