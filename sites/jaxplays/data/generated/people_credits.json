@@ -27714,13 +27714,14 @@
     "crew": [
       {
         "permalink": "/productions/2026-antigone-unmasked/",
-        "title": "Antigone (Unmasked)",
+        "title": "Antigone: Unmasked",
         "opening_date": "2026-10-09",
         "approx_date": "",
         "theatre": "Lumen Repertory Theatre",
         "venue": "Betsy Lovett Hall",
         "featured_image": "2026-Antigone-Unmasked.webp",
         "credits": [
+          "Playwright",
           "Director"
         ]
       },
@@ -39081,6 +39082,18 @@
   "charlie-mack": {
     "cast": [
       {
+        "permalink": "/productions/2026-grand-horizons/",
+        "title": "Grand Horizons",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-Grand-Horizons.webp",
+        "credits": [
+          "Tommy"
+        ]
+      },
+      {
         "permalink": "/productions/2026-once-on-this-island/",
         "title": "Once On This Island",
         "opening_date": "2026-05-07",
@@ -43892,6 +43905,18 @@
   },
   "clay-mitchell": {
     "cast": [
+      {
+        "permalink": "/productions/2026-grand-horizons/",
+        "title": "Grand Horizons",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-Grand-Horizons.webp",
+        "credits": [
+          "Brian French"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-sound-of-music/",
         "title": "The Sound of Music",
@@ -76423,6 +76448,18 @@
   },
   "eugene-lindsey": {
     "cast": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Creon"
+        ]
+      },
       {
         "permalink": "/productions/2026-american-son/",
         "title": "American Son",
@@ -131271,6 +131308,18 @@
   "kate-mcmanus": {
     "cast": [
       {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Ismene"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-pillowman/",
         "title": "The Pillowman",
         "opening_date": "2026-04-23",
@@ -144613,6 +144662,18 @@
   "linda-hall": {
     "cast": [
       {
+        "permalink": "/productions/2026-grand-horizons/",
+        "title": "Grand Horizons",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-Grand-Horizons.webp",
+        "credits": [
+          "Carla"
+        ]
+      },
+      {
         "permalink": "/productions/2025-sense-and-sensibility/",
         "title": "Sense & Sensibility",
         "opening_date": "2025-04-03",
@@ -149529,6 +149590,18 @@
   },
   "maggie-cox": {
     "cast": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Antigone"
+        ]
+      },
       {
         "permalink": "/productions/2025-agnes-of-god/",
         "title": "Agnes of God",
@@ -179071,6 +179144,18 @@
   },
   "noah-bennett": {
     "cast": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Haemon"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-phil-mitchell-radio-hour/",
         "title": "The Phil Mitchell Radio Hour",
@@ -236035,6 +236120,18 @@
   },
   "zonnetta-marie": {
     "cast": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Chorus"
+        ]
+      },
       {
         "permalink": "/productions/2026-american-son/",
         "title": "American Son",

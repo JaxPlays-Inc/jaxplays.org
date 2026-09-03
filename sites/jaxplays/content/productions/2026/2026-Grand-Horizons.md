@@ -14,18 +14,28 @@ showtimes:
 - 2026-09-19 16:00:00
 - 2026-09-20 14:00:00
 featured_image: 2026-Grand-Horizons.webp
-featured_image_alt:
-featured_image_caption:
+featured_image_alt: Poster for Grand Horizons
+featured_image_caption: Poster for Grand Horizons
 featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://www.aclassictheatre.org/2026-2027-season
-source: Official theatre website
-source_url: https://www.aclassictheatre.org/2026-2027-season
+source: Submitted through JaxPlays production form
+source_date: 2026-08-31
+source_url: 
+- https://www.aclassictheatre.org/2026-2027-season
+- https://jaxplays.org/productions/2026-grand-horizons/
 tickets: https://aclassictheatre.ludus.com/show_page.php?show_id=200533265
 show_details:
 - Playwright: '[[w:Bess Wohl]]'
 cast:
+- Nancy French: Nancy Grote
+- Bill French: Nick Miscusi
+- Brian French: Clay Mitchell
+- Ben French: Danno Waddell
+- Jess French: April Whaley
+- Tommy: Charlie Mack
+- Carla: Linda Hall
 crew:
 - Director: David Buchman
 understudies:
