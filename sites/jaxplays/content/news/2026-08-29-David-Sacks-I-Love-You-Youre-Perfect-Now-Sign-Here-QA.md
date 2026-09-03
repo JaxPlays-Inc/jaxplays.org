@@ -1,6 +1,8 @@
 ---
 title: "Q&A: David Sacks on 'I Love You, You're Perfect... Now Sign Here'"
 slug: David-Sacks-I-Love-You-Youre-Perfect-Now-Sign-Here-QA
+aliases:
+  - /news/2026/08/29/qa-david-sacks-on-i-love-you-youre-perfect...-now-sign-here/
 date: 2026-08-29T18:10:00-04:00
 featured_image:
   src: /media/photos/2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp
