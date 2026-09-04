@@ -25,13 +25,22 @@ program:
 website: https://crtpalmcoast.com/
 tickets: https://www.tix.com/ticket-sales/crtpalmcoast/7555
 cast:
-  - Bobby: Evan Martinez
-  - Company:
-      - Michele O'Neil
-      - Laniece Fagundes
-      - Everett Clark
-      - Joanna Gil
-      - Seth Kirk
+  - Robert: Evan Martinez
+  - Sarah: Terri Williams
+  - Harry: Jack Rose
+  - Susan: Andrea Oliveras
+  - Peter: Seth Kirk
+  - Jenny: Khloe Perez-Mathis
+  - David: Beau Wade
+  - Amy: Laniece Fagundes
+  - Paul: Tyler Pate
+  - Joanne: Michele O'Neil
+  - Larry: Everett Clark
+  - Marta: Carly Cramer
+  - Kathy: Elizabeth Post
+  - April: Joanna Gill
+  - Kathy Understudy: Kalina Pickard
+  - Peter Understudy: James Garcia
 crew:
   - Director: John Sbordone
   - Music Director: Ben Beck
@@ -53,4 +62,4 @@ description: "Bobby has everything except a meaningful relationship in Stephen S
 ---
 City Repertory Theatre opens its 16th season with *Company*, Stephen Sondheim and George Furth's Tony Award-winning musical about Bobby, a successful young man surrounded by five married couples and still searching for someone to share his life.
 
-Helmed by Artistic Director John Sbordone and Music Director [[person:Ben Beck]], CRT's production features newcomer [[person:Evan Martinez]] as Bobby alongside company favorites Michele O'Neil, Laniece Fagundes, Everett Clark, Joanna Gil, Seth Kirk and more.
+Helmed by Artistic Director John Sbordone and Music Director [[person:Ben Beck]], CRT's production features newcomer [[person:Evan Martinez]] as Robert alongside a cast that includes Terri Williams, [[person:Jack Rose]], Andrea Oliveras, Seth Kirk, Khloe Perez-Mathis, [[person:Beau Wade]], Laniece Fagundes, Tyler Pate, Michele O'Neil, Everett Clark, Carly Cramer, Elizabeth Post and Joanna Gill.
