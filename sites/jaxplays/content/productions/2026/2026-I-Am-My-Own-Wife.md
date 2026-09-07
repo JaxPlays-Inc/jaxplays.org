@@ -46,4 +46,6 @@ source_url: https://the5anddime.org/s2026/i-am-my-own-wife/
 ---
 The true story of Charlotte von Mahlsdorf, an East German transgender woman who lived through both the Nazi and Communist regimes. An unforgettable portrait of identity and resilience, truth and transformation.
 
+Join The 5 & Dime for a community conversation on Sunday, September 20. Moderated by Patrick Murphree after the matinee performance, the conversation invites audience members to ask questions and reflect on the play's themes.
+
 “It is both a bold and delicate flower of a play: a work of theater that quietly teaches us how to see, and listen, anew.” — The New York Times
