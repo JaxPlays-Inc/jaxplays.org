@@ -214,8 +214,7 @@
 	display: none;
 }
 
-.jp-submit-headshot-preview-section,
-.jp-submit-poster-preview-section {
+.jp-submit-headshot-preview-section {
 	min-width: 0;
 }
 
@@ -262,6 +261,11 @@
 
 .jp-submit-headshot-list-person .people-list-name {
 	font-size: 1.25rem;
+}
+
+.jp-submit-poster-preview-label {
+	grid-column: 1 / -1;
+	margin-bottom: -.6rem;
 }
 
 .jp-submit-poster-home-preview,
@@ -319,22 +323,17 @@
 	padding: 0;
 }
 
+.jp-submit-poster-production-preview .jp-submit-poster-production-grid {
+	display: block;
+}
+
+.jp-submit-poster-production-preview .production-hero-poster {
+	width: 100%;
+}
+
 .jp-submit-poster-production-preview .production-hero-poster img,
 .jp-submit-poster-home-preview .productions-directory-poster {
 	background: var(--jp-paper);
-}
-
-.jp-submit-poster-production-preview h2 {
-	font-size: clamp(1.35rem, 4vw, 2rem);
-	line-height: 1.05;
-	margin: 0;
-}
-
-.jp-submit-poster-production-preview .production-hero-description p {
-	color: var(--jp-muted);
-	font-size: .9rem;
-	line-height: 1.4;
-	margin: 0;
 }
 
 @media screen and (min-width: 42em) {

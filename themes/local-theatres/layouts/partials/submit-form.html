@@ -123,39 +123,25 @@
               {{- end }}
               {{- if and (eq $form.type "production") (eq $field.name "poster") }}
                 <div class="jp-submit-poster-preview" data-jp-submit-poster-preview hidden>
-                  <div class="jp-submit-poster-preview-section">
-                    <p class="jp-submit-headshot-preview-label">Homepage preview</p>
-                    <div class="jp-submit-poster-home-preview">
-                      <article class="productions-directory-card productions-directory-card--no-badges">
-                        <span class="productions-directory-poster-link">
-                          <img class="productions-directory-poster" src="" alt="" data-jp-submit-poster-home-image>
-                        </span>
-                        <div class="productions-directory-card-body">
-                          <strong class="productions-directory-card-title" data-jp-submit-poster-title>Production Title</strong>
-                          <div class="productions-directory-meta">
-                            <span class="productions-directory-theatre db" data-jp-submit-poster-theatre>Theatre Name</span>
-                          </div>
-                          <div class="productions-directory-dates">Opening Date - Closing Date</div>
+                  <p class="jp-submit-headshot-preview-label jp-submit-poster-preview-label">Homepage and Production Page Poster Preview</p>
+                  <div class="jp-submit-poster-home-preview">
+                    <article class="productions-directory-card productions-directory-card--no-badges">
+                      <span class="productions-directory-poster-link">
+                        <img class="productions-directory-poster" src="" alt="" data-jp-submit-poster-home-image>
+                      </span>
+                      <div class="productions-directory-card-body">
+                        <strong class="productions-directory-card-title" data-jp-submit-poster-title>Production Title</strong>
+                        <div class="productions-directory-meta">
+                          <span class="productions-directory-theatre db" data-jp-submit-poster-theatre>Theatre Name</span>
                         </div>
-                      </article>
-                    </div>
+                        <div class="productions-directory-dates">Opening Date - Closing Date</div>
+                      </div>
+                    </article>
                   </div>
-                  <div class="jp-submit-poster-preview-section">
-                    <p class="jp-submit-headshot-preview-label">Production page preview</p>
-                    <div class="production-single jp-submit-poster-production-preview">
-                      <div class="production-hero-grid">
-                        <div class="production-hero-poster">
-                          <img src="" alt="" data-jp-submit-poster-production-image>
-                        </div>
-                        <div class="production-hero-main">
-                          <header>
-                            <h2 data-jp-submit-poster-title>Production Title</h2>
-                            <p class="production-hero-meta" data-jp-submit-poster-theatre>Theatre Name</p>
-                          </header>
-                          <div class="production-hero-description">
-                            <p data-jp-submit-poster-description>Short production description.</p>
-                          </div>
-                        </div>
+                  <div class="production-single jp-submit-poster-production-preview">
+                    <div class="production-hero-grid jp-submit-poster-production-grid">
+                      <div class="production-hero-poster">
+                        <img src="" alt="" data-jp-submit-poster-production-image>
                       </div>
                     </div>
                   </div>
@@ -700,11 +686,9 @@
         const posterImages = [...upload.querySelectorAll("[data-jp-submit-poster-home-image], [data-jp-submit-poster-production-image]")];
         const posterTitleTargets = [...upload.querySelectorAll("[data-jp-submit-poster-title]")];
         const posterTheatreTargets = [...upload.querySelectorAll("[data-jp-submit-poster-theatre]")];
-        const posterDescriptionTargets = [...upload.querySelectorAll("[data-jp-submit-poster-description]")];
         const nameInput = form.querySelector("[name='submitter_name']");
         const titleInput = form.querySelector("[name='title']");
         const theatreInput = form.querySelector("[name='theatre']");
-        const descriptionInput = form.querySelector("[name='description']");
         const isProfileEdit = editPayload?._edit_type === "profile";
         const currentHeadshot = typeof editPayload?.current_headshot === "string" ? editPayload.current_headshot.trim() : "";
         const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
@@ -744,9 +728,6 @@
           });
           posterTheatreTargets.forEach((target) => {
             target.textContent = theatre;
-          });
-          posterDescriptionTargets.forEach((target) => {
-            target.textContent = (descriptionInput?.value || "").trim() || "Short production description.";
           });
           posterImages.forEach((image) => {
             image.alt = `${title} poster preview`;
@@ -827,7 +808,6 @@
         nameInput?.addEventListener("input", updateHeadshotPreviewName);
         titleInput?.addEventListener("input", updatePosterPreviewText);
         theatreInput?.addEventListener("input", updatePosterPreviewText);
-        descriptionInput?.addEventListener("input", updatePosterPreviewText);
         ["dragenter", "dragover"].forEach((eventName) => {
           dropzone.addEventListener(eventName, (event) => {
             event.preventDefault();
