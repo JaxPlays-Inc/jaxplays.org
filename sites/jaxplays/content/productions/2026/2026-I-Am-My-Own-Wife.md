@@ -26,8 +26,9 @@ show_details:
   - Playwright: "[[w:Doug Wright]]"
 cast:
   - Charlotte von Mahlsdorf: Trevor Kluckman
+  - Doug / Alfred: Jack Permenter
+  - John: Benjamin Sandlin
   - Ensemble: 
-    - Jack Permenter
     - Benjamin Sandlin
     - Nathan Dasher
 crew:
