@@ -106,12 +106,14 @@
                 <div class="jp-submit-headshot-preview" data-jp-submit-headshot-preview hidden>
                   <div class="jp-submit-headshot-preview-section">
                     <p class="jp-submit-headshot-preview-label">Profile page preview</p>
+                    <p class="jp-submit-help jp-submit-preview-crop-help">Click or tap the preview to adjust the crop before submitting.</p>
                     <div class="jp-submit-headshot-profile-preview">
                       <img class="people-single-headshot" src="" alt="" data-jp-submit-headshot-profile-image>
                     </div>
                   </div>
                   <div class="jp-submit-headshot-preview-section">
                     <p class="jp-submit-headshot-preview-label">People list preview</p>
+                    <p class="jp-submit-help jp-submit-preview-crop-help">Click or tap the preview to adjust the crop before submitting.</p>
                     <div class="people-list-grid jp-submit-headshot-list-grid">
                       <span class="people-list-person jp-submit-headshot-list-person">
                         <span class="people-list-headshot" role="img" aria-label="" data-jp-submit-headshot-list-image></span>
@@ -124,6 +126,7 @@
               {{- if and (eq $form.type "production") (eq $field.name "poster") }}
                 <div class="jp-submit-poster-preview" data-jp-submit-poster-preview hidden>
                   <p class="jp-submit-headshot-preview-label jp-submit-poster-preview-label">Homepage and Production Page Poster Preview</p>
+                  <p class="jp-submit-help jp-submit-preview-crop-help">Click or tap the preview to adjust the crop before submitting.</p>
                   <div class="production-single jp-submit-poster-production-preview">
                     <div class="production-hero-poster">
                       <img src="" alt="" data-jp-submit-poster-production-image>
@@ -134,6 +137,7 @@
               {{- if and (eq $form.type "production") (eq $field.name "featured_image") }}
                 <div class="jp-submit-featured-image-preview" data-jp-submit-featured-image-preview hidden>
                   <p class="jp-submit-headshot-preview-label jp-submit-featured-image-preview-label">Featured Image Preview</p>
+                  <p class="jp-submit-help jp-submit-preview-crop-help">Click or tap the preview to adjust the crop before submitting.</p>
                   <div class="jp-submit-featured-image-preview-frame">
                     <img src="" alt="" data-jp-submit-featured-image-preview-image>
                   </div>
@@ -195,6 +199,55 @@
     <button class="home-dashboard-button primary jp-submit-button" type="submit">{{ $form.submit_label }}</button>
   </form>
 
+  <div class="jp-submit-cropper-lightbox" data-jp-submit-cropper-lightbox role="dialog" aria-modal="true" aria-labelledby="jp-submit-cropper-title" hidden>
+    <div class="jp-submit-cropper-panel">
+      <div class="jp-submit-cropper-header">
+        <h2 id="jp-submit-cropper-title" data-jp-submit-cropper-title>Crop image</h2>
+        <button class="jp-submit-cropper-icon-button" type="button" aria-label="Close cropper" data-jp-submit-cropper-close>&times;</button>
+      </div>
+      <div class="jp-submit-cropper-toolbar">
+        <label>
+          <span>Overlay</span>
+          <select data-jp-submit-cropper-overlay-select>
+            <option value="none">None</option>
+            <option value="thirds">Rule of Thirds</option>
+            <option value="golden">Golden Ratio</option>
+          </select>
+        </label>
+        <label class="jp-submit-cropper-toggle">
+          <input type="checkbox" data-jp-submit-cropper-invert>
+          <span>Invert overlay</span>
+        </label>
+        <button class="home-dashboard-button" type="button" data-jp-submit-cropper-center>Center</button>
+      </div>
+      <div class="jp-submit-cropper-stage-shell">
+        <div class="jp-submit-cropper-stage" tabindex="0" data-jp-submit-cropper-stage>
+          <img src="" alt="" data-jp-submit-cropper-image>
+          <span class="jp-submit-cropper-shade" data-jp-submit-cropper-shade="top"></span>
+          <span class="jp-submit-cropper-shade" data-jp-submit-cropper-shade="right"></span>
+          <span class="jp-submit-cropper-shade" data-jp-submit-cropper-shade="bottom"></span>
+          <span class="jp-submit-cropper-shade" data-jp-submit-cropper-shade="left"></span>
+          <span class="jp-submit-cropper-box" data-jp-submit-cropper-box>
+            <span class="jp-submit-cropper-overlay" data-jp-submit-cropper-overlay></span>
+            <span class="jp-submit-cropper-handle nw" data-handle="nw"></span>
+            <span class="jp-submit-cropper-handle n" data-handle="n"></span>
+            <span class="jp-submit-cropper-handle ne" data-handle="ne"></span>
+            <span class="jp-submit-cropper-handle e" data-handle="e"></span>
+            <span class="jp-submit-cropper-handle se" data-handle="se"></span>
+            <span class="jp-submit-cropper-handle s" data-handle="s"></span>
+            <span class="jp-submit-cropper-handle sw" data-handle="sw"></span>
+            <span class="jp-submit-cropper-handle w" data-handle="w"></span>
+          </span>
+        </div>
+      </div>
+      <p class="jp-submit-cropper-status" data-jp-submit-cropper-status aria-live="polite"></p>
+      <div class="jp-submit-cropper-actions">
+        <button class="home-dashboard-button" type="button" data-jp-submit-cropper-cancel>Cancel</button>
+        <button class="home-dashboard-button primary" type="button" data-jp-submit-cropper-apply>Apply Crop</button>
+      </div>
+    </div>
+  </div>
+
   {{- if $hasDatetimeHelper -}}
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   {{- end }}
@@ -230,6 +283,59 @@
       const setStatus = (message, state = "") => {
         status.textContent = message;
         status.dataset.state = state;
+      };
+      const filenameBase = (value, fallback) => {
+        const base = String(value || "").trim() || fallback;
+        return base
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/&/g, " and ")
+          .replace(/[^a-z0-9]+/gi, "-")
+          .replace(/^-+|-+$/g, "")
+          .replace(/-{2,}/g, "-") || fallback;
+      };
+      const extensionForFile = (file) => {
+        const extensionByType = {
+          "application/pdf": "pdf",
+          "image/jpeg": "jpg",
+          "image/png": "png",
+          "image/webp": "webp",
+        };
+        const extension = (file.name.split(".").pop() || "").toLowerCase();
+        return extensionByType[file.type] || (extension && extension !== file.name.toLowerCase() ? extension : "bin");
+      };
+      const fileWithName = (file, name) => (
+        file.name === name ? file : new File([file], name, {
+          type: file.type,
+          lastModified: file.lastModified,
+        })
+      );
+      const replaceFileInput = (input, files) => {
+        const transfer = new DataTransfer();
+        files.forEach((file) => transfer.items.add(file));
+        input.files = transfer.files;
+      };
+      const productionYear = () => {
+        const showtimes = form.querySelector("[name='showtimes']")?.value || "";
+        return showtimes.match(/\b(?:19|20)\d{2}\b/)?.[0] || String(new Date().getFullYear());
+      };
+      const prepareSubmissionFilenames = () => {
+        const title = filenameBase(form.querySelector("[name='title']")?.value, "Production");
+        const submitterName = filenameBase(form.querySelector("[name='submitter_name']")?.value, "Artist");
+        const renameRules = {
+          poster: (file) => `${productionYear()}-${title}-Poster.${extensionForFile(file)}`,
+          featured_image: (file) => `${productionYear()}-${title}-Featured.${extensionForFile(file)}`,
+          headshot: (file) => `${submitterName}.${extensionForFile(file)}`,
+        };
+
+        Object.entries(renameRules).forEach(([name, createName]) => {
+          const input = form.querySelector(`input[type="file"][name="${name}"]`);
+          const files = [...(input?.files || [])];
+          if (!input || !files.length) return;
+          replaceFileInput(input, files.map((file, index) => (
+            index === 0 ? fileWithName(file, createName(file)) : file
+          )));
+        });
       };
 
       const updateConditionalFields = () => {
@@ -665,6 +771,308 @@
         form.addEventListener("reset", () => window.setTimeout(grow));
         grow();
       });
+
+      const createSubmitCropper = () => {
+        const lightbox = container.querySelector("[data-jp-submit-cropper-lightbox]");
+        const title = lightbox?.querySelector("[data-jp-submit-cropper-title]");
+        const closeButton = lightbox?.querySelector("[data-jp-submit-cropper-close]");
+        const cancelButton = lightbox?.querySelector("[data-jp-submit-cropper-cancel]");
+        const applyButton = lightbox?.querySelector("[data-jp-submit-cropper-apply]");
+        const centerButton = lightbox?.querySelector("[data-jp-submit-cropper-center]");
+        const overlaySelect = lightbox?.querySelector("[data-jp-submit-cropper-overlay-select]");
+        const invertToggle = lightbox?.querySelector("[data-jp-submit-cropper-invert]");
+        const status = lightbox?.querySelector("[data-jp-submit-cropper-status]");
+        const stage = lightbox?.querySelector("[data-jp-submit-cropper-stage]");
+        const image = lightbox?.querySelector("[data-jp-submit-cropper-image]");
+        const cropBox = lightbox?.querySelector("[data-jp-submit-cropper-box]");
+        const overlay = lightbox?.querySelector("[data-jp-submit-cropper-overlay]");
+        const shades = {
+          top: lightbox?.querySelector("[data-jp-submit-cropper-shade='top']"),
+          right: lightbox?.querySelector("[data-jp-submit-cropper-shade='right']"),
+          bottom: lightbox?.querySelector("[data-jp-submit-cropper-shade='bottom']"),
+          left: lightbox?.querySelector("[data-jp-submit-cropper-shade='left']"),
+        };
+        if (!lightbox || !title || !closeButton || !cancelButton || !applyButton || !centerButton || !overlaySelect || !invertToggle || !status || !stage || !image || !cropBox || !overlay || Object.values(shades).some((shade) => !shade)) return null;
+
+        const state = {
+          activeUpload: null,
+          crop: { x: 0, y: 0, width: 100, height: 100 },
+          drag: null,
+          ratio: 1,
+          lastFocus: null,
+        };
+
+        const minimumCropSize = 24;
+        const normalizeRect = (left, top, right, bottom) => ({
+          x: Math.min(left, right),
+          y: Math.min(top, bottom),
+          width: Math.abs(right - left),
+          height: Math.abs(bottom - top),
+        });
+        const clampCrop = (crop) => {
+          const width = Math.min(Math.max(crop.width, minimumCropSize), image.naturalWidth);
+          const height = Math.min(Math.max(crop.height, minimumCropSize), image.naturalHeight);
+          const x = Math.min(Math.max(crop.x, 0), image.naturalWidth - width);
+          const y = Math.min(Math.max(crop.y, 0), image.naturalHeight - height);
+          return { x, y, width, height };
+        };
+        const fitAspectRatioWithinBounds = (width, height, ratio, fill = 1) => {
+          const imageRatio = width / height;
+          let cropWidth;
+          let cropHeight;
+          if (imageRatio > ratio) {
+            cropHeight = height * fill;
+            cropWidth = cropHeight * ratio;
+          } else {
+            cropWidth = width * fill;
+            cropHeight = cropWidth / ratio;
+          }
+          return {
+            x: Math.round((width - cropWidth) / 2),
+            y: Math.round((height - cropHeight) / 2),
+            width: Math.round(cropWidth),
+            height: Math.round(cropHeight),
+          };
+        };
+        const constrainAspectCropToImageBounds = (crop, imageWidth, imageHeight, aspectRatio, anchor) => {
+          const growsRight = crop.x >= anchor.anchorX;
+          const growsDown = crop.y >= anchor.anchorY;
+          const maxWidth = anchor.centerX === undefined
+            ? (growsRight ? imageWidth - anchor.anchorX : anchor.anchorX)
+            : Math.min(anchor.centerX * 2, (imageWidth - anchor.centerX) * 2);
+          const maxHeight = growsDown ? imageHeight - anchor.anchorY : anchor.anchorY;
+          const requestedWidth = Math.max(minimumCropSize, crop.width);
+          const requestedHeight = Math.max(minimumCropSize, crop.height);
+          const widthLimitedByHeight = Math.min(requestedWidth, requestedHeight * aspectRatio);
+          const width = Math.min(widthLimitedByHeight, maxWidth, maxHeight * aspectRatio);
+          const height = width / aspectRatio;
+          const roundedWidth = Math.round(width);
+          const roundedHeight = Math.round(height);
+          const x = anchor.centerX === undefined
+            ? (growsRight ? anchor.anchorX : anchor.anchorX - roundedWidth)
+            : anchor.centerX - roundedWidth / 2;
+          return {
+            x: Math.round(Math.min(Math.max(x, 0), imageWidth - roundedWidth)),
+            y: Math.round(growsDown ? anchor.anchorY : anchor.anchorY - roundedHeight),
+            width: roundedWidth,
+            height: roundedHeight,
+          };
+        };
+        const resizeCrop = (start, handle, dx, dy, ratio) => {
+          let left = start.x;
+          let top = start.y;
+          let right = start.x + start.width;
+          let bottom = start.y + start.height;
+
+          if (handle.includes("w")) left += dx;
+          if (handle.includes("e")) right += dx;
+          if (handle.includes("n")) top += dy;
+          if (handle.includes("s")) bottom += dy;
+
+          const raw = normalizeRect(left, top, right, bottom);
+          const anchorX = handle.includes("w") ? start.x + start.width : start.x;
+          const anchorY = handle.includes("n") ? start.y + start.height : start.y;
+          let next = raw;
+
+          if (handle === "n" || handle === "s") {
+            next.height = Math.max(minimumCropSize, raw.height);
+            next.width = next.height * ratio;
+            next.x = start.x + (start.width - next.width) / 2;
+            next.y = handle === "n" ? anchorY - next.height : anchorY;
+          } else {
+            next.width = Math.max(minimumCropSize, raw.width);
+            next.height = next.width / ratio;
+            next.x = handle.includes("w") ? anchorX - next.width : anchorX;
+            next.y = handle.includes("n") ? anchorY - next.height : anchorY;
+          }
+          return constrainAspectCropToImageBounds(next, image.naturalWidth, image.naturalHeight, ratio, {
+            anchorX,
+            anchorY,
+            centerX: (handle === "n" || handle === "s") ? start.x + start.width / 2 : undefined,
+          });
+        };
+        const getImageDisplayRect = () => ({
+          width: image.clientWidth,
+          height: image.clientHeight,
+        });
+        const render = () => {
+          if (!image.naturalWidth || lightbox.hidden) return;
+          const box = getImageDisplayRect();
+          const scaleX = box.width / image.naturalWidth;
+          const scaleY = box.height / image.naturalHeight;
+          const left = state.crop.x * scaleX;
+          const top = state.crop.y * scaleY;
+          const width = state.crop.width * scaleX;
+          const height = state.crop.height * scaleY;
+
+          cropBox.style.left = `${left}px`;
+          cropBox.style.top = `${top}px`;
+          cropBox.style.width = `${width}px`;
+          cropBox.style.height = `${height}px`;
+
+          Object.assign(shades.top.style, { left: "0px", top: "0px", width: `${box.width}px`, height: `${top}px` });
+          Object.assign(shades.left.style, { left: "0px", top: `${top}px`, width: `${left}px`, height: `${height}px` });
+          Object.assign(shades.right.style, { left: `${left + width}px`, top: `${top}px`, width: `${box.width - left - width}px`, height: `${height}px` });
+          Object.assign(shades.bottom.style, { left: "0px", top: `${top + height}px`, width: `${box.width}px`, height: `${box.height - top - height}px` });
+          status.textContent = `${Math.round(state.crop.width)} x ${Math.round(state.crop.height)}px`;
+        };
+        const centerCrop = () => {
+          if (!image.naturalWidth) return;
+          state.crop = fitAspectRatioWithinBounds(image.naturalWidth, image.naturalHeight, state.ratio, .9);
+          render();
+        };
+        const setOverlay = () => {
+          overlay.className = "jp-submit-cropper-overlay";
+          if (overlaySelect.value !== "none") overlay.classList.add(`is-${overlaySelect.value}`);
+          lightbox.classList.toggle("is-overlay-inverted", invertToggle.checked);
+        };
+        const close = () => {
+          lightbox.hidden = true;
+          image.removeAttribute("src");
+          state.activeUpload = null;
+          state.drag = null;
+          state.lastFocus?.focus?.();
+        };
+        const imageTypeForExport = (file) => (
+          ["image/jpeg", "image/png", "image/webp"].includes(file?.type) ? file.type : "image/png"
+        );
+        const cropToFile = () => new Promise((resolve, reject) => {
+          const activeUpload = state.activeUpload;
+          if (!activeUpload?.originalFile || !image.naturalWidth) {
+            reject(new Error("No image is ready to crop."));
+            return;
+          }
+          const crop = {
+            x: Math.round(state.crop.x),
+            y: Math.round(state.crop.y),
+            width: Math.round(state.crop.width),
+            height: Math.round(state.crop.height),
+          };
+          const canvas = document.createElement("canvas");
+          canvas.width = crop.width;
+          canvas.height = crop.height;
+          const context = canvas.getContext("2d");
+          if (!context) {
+            reject(new Error("This browser could not prepare the cropped image."));
+            return;
+          }
+          context.drawImage(image, crop.x, crop.y, crop.width, crop.height, 0, 0, crop.width, crop.height);
+          const mime = imageTypeForExport(activeUpload.originalFile);
+          canvas.toBlob((blob) => {
+            if (!blob) {
+              reject(new Error("This browser could not export the cropped image."));
+              return;
+            }
+            resolve({
+              crop,
+              file: new File([blob], activeUpload.originalFile.name, {
+                type: blob.type || mime,
+                lastModified: Date.now(),
+              }),
+            });
+          }, mime, mime === "image/jpeg" || mime === "image/webp" ? .94 : undefined);
+        });
+
+        cropBox.addEventListener("pointerdown", (event) => {
+          event.preventDefault();
+          stage.focus();
+          const handle = event.target.dataset.handle || "move";
+          state.drag = {
+            handle,
+            pointerId: event.pointerId,
+            startX: event.clientX,
+            startY: event.clientY,
+            startCrop: { ...state.crop },
+          };
+          cropBox.setPointerCapture(event.pointerId);
+        });
+        cropBox.addEventListener("pointermove", (event) => {
+          if (!state.drag) return;
+          event.preventDefault();
+          const box = getImageDisplayRect();
+          const dx = (event.clientX - state.drag.startX) * (image.naturalWidth / box.width);
+          const dy = (event.clientY - state.drag.startY) * (image.naturalHeight / box.height);
+          if (state.drag.handle === "move") {
+            state.crop = clampCrop({
+              ...state.drag.startCrop,
+              x: state.drag.startCrop.x + dx,
+              y: state.drag.startCrop.y + dy,
+            });
+          } else {
+            state.crop = resizeCrop(state.drag.startCrop, state.drag.handle, dx, dy, state.ratio);
+          }
+          render();
+        });
+        ["pointerup", "pointercancel"].forEach((eventName) => {
+          cropBox.addEventListener(eventName, (event) => {
+            if (state.drag?.pointerId === event.pointerId) state.drag = null;
+          });
+        });
+        stage.addEventListener("keydown", (event) => {
+          if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(event.key)) return;
+          event.preventDefault();
+          const delta = {
+            ArrowLeft: [-1, 0],
+            ArrowRight: [1, 0],
+            ArrowUp: [0, -1],
+            ArrowDown: [0, 1],
+          }[event.key];
+          state.crop = clampCrop({ ...state.crop, x: state.crop.x + delta[0], y: state.crop.y + delta[1] });
+          render();
+        });
+        image.addEventListener("load", () => {
+          state.crop = state.activeUpload?.crop
+            ? clampCrop({ ...state.activeUpload.crop })
+            : fitAspectRatioWithinBounds(image.naturalWidth, image.naturalHeight, state.ratio, .9);
+          render();
+          stage.focus();
+        });
+        image.addEventListener("error", () => {
+          status.textContent = "This image could not be opened in the cropper.";
+        });
+        overlaySelect.addEventListener("change", setOverlay);
+        invertToggle.addEventListener("change", setOverlay);
+        centerButton.addEventListener("click", centerCrop);
+        closeButton.addEventListener("click", close);
+        cancelButton.addEventListener("click", close);
+        lightbox.addEventListener("click", (event) => {
+          if (event.target === lightbox) close();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !lightbox.hidden) close();
+        });
+        window.addEventListener("resize", render);
+        applyButton.addEventListener("click", async () => {
+          applyButton.disabled = true;
+          status.textContent = "Applying crop...";
+          try {
+            const result = await cropToFile();
+            state.activeUpload.applyCrop(result.file, result.crop);
+            close();
+          } catch (error) {
+            status.textContent = error instanceof Error ? error.message : "The crop could not be applied.";
+          } finally {
+            applyButton.disabled = false;
+          }
+        });
+        setOverlay();
+
+        return {
+          open(uploadState, trigger) {
+            if (!uploadState.originalObjectURL || !uploadState.originalFile?.type?.startsWith("image/")) return;
+            state.activeUpload = uploadState;
+            state.ratio = uploadState.ratio;
+            state.lastFocus = trigger || document.activeElement;
+            title.textContent = uploadState.title;
+            status.textContent = "";
+            lightbox.hidden = false;
+            image.removeAttribute("src");
+            image.src = uploadState.originalObjectURL;
+          },
+        };
+      };
+      const submitCropper = createSubmitCropper();
+
       form.querySelectorAll("[data-jp-submit-file-upload]").forEach((upload) => {
         const input = upload.querySelector("[data-jp-submit-file-input]");
         const dropzone = upload.querySelector("[data-jp-submit-file-dropzone]");
@@ -688,6 +1096,81 @@
         let featuredImageObjectURL = "";
         if (!input || !dropzone || !status) return;
         if (editHeadshotHelp) editHeadshotHelp.hidden = !isProfileEdit;
+        const cropRatio = headshotPreview ? 4 / 5 : posterPreview ? 2 / 3 : featuredImagePreview ? 1.91 : null;
+        const cropTitle = headshotPreview ? "Crop Headshot" : posterPreview ? "Crop Poster" : "Crop Featured Image";
+        let isApplyingCrop = false;
+        let croppedImageFile = null;
+        const cropState = {
+          crop: null,
+          originalFile: null,
+          originalObjectURL: "",
+          ratio: cropRatio,
+          title: cropTitle,
+          applyCrop(file, crop) {
+            isApplyingCrop = true;
+            croppedImageFile = file;
+            cropState.crop = crop;
+            setFiles([file]);
+            isApplyingCrop = false;
+          },
+        };
+        const clearCropSource = () => {
+          if (cropState.originalObjectURL) {
+            URL.revokeObjectURL(cropState.originalObjectURL);
+            cropState.originalObjectURL = "";
+          }
+          cropState.originalFile = null;
+          cropState.crop = null;
+          croppedImageFile = null;
+        };
+        const updateCropSource = (file) => {
+          if (!cropRatio || !file?.type?.startsWith("image/")) {
+            clearCropSource();
+            return;
+          }
+          if (isApplyingCrop || file === croppedImageFile) return;
+          clearCropSource();
+          cropState.originalFile = file;
+          cropState.originalObjectURL = URL.createObjectURL(file);
+        };
+        const openCropper = (event) => {
+          if (!submitCropper || !cropState.originalFile || input.disabled) return;
+          event.preventDefault();
+          submitCropper.open(cropState, event.currentTarget);
+        };
+        const cropTargets = [
+          headshotProfileImage,
+          headshotListImage,
+          ...posterImages,
+          featuredImagePreviewImage,
+        ].filter(Boolean);
+        const setCropTargetsEnabled = (enabled) => {
+          if (!cropRatio || !submitCropper) return;
+          cropTargets.forEach((target) => {
+            target.classList.toggle("jp-submit-crop-target", enabled);
+            if (enabled) {
+              target.tabIndex = 0;
+              target.setAttribute("role", "button");
+              target.setAttribute("aria-label", `${cropTitle}. Opens image cropper.`);
+            } else {
+              target.removeAttribute("tabindex");
+              target.removeAttribute("role");
+              target.removeAttribute("aria-label");
+            }
+          });
+        };
+        const registerCropTargets = () => {
+          if (!cropRatio || !submitCropper) return;
+          cropTargets.forEach((target) => {
+            target.addEventListener("click", openCropper);
+            target.addEventListener("keydown", (event) => {
+              if (event.key !== "Enter" && event.key !== " ") return;
+              openCropper(event);
+            });
+          });
+          setCropTargetsEnabled(false);
+        };
+        registerCropTargets();
 
         const previewName = () => (nameInput?.value || "").trim() || "Artist Name";
         const updateHeadshotPreviewName = () => {
@@ -795,11 +1278,15 @@
           const files = [...input.files];
           if (!files.length) {
             status.textContent = "No file selected.";
+            clearCropSource();
+            setCropTargetsEnabled(false);
             renderCurrentHeadshotPreview();
             clearPosterPreview();
             clearFeaturedImagePreview();
             return;
           }
+          updateCropSource(files[0]);
+          setCropTargetsEnabled(Boolean(cropState.originalFile));
           status.textContent = files.length === 1 ? files[0].name : `${files.length} files selected: ${files.map((file) => file.name).join(", ")}`;
           renderHeadshotPreview(files[0]);
           renderPosterPreview(files[0]);
@@ -857,6 +1344,7 @@
           return;
         }
 
+        prepareSubmissionFilenames();
         const payload = new FormData(form);
         payload.set("turnstileToken", turnstileToken);
         button.disabled = true;
