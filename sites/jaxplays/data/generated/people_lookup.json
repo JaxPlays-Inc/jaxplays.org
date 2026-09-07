@@ -1144,6 +1144,11 @@
     "permalink": "/people/benjamin-moore/",
     "featured_image": "Benjamin-Moore.webp"
   },
+  "benjamin-sandlin": {
+    "title": "Benjamin Sandlin",
+    "permalink": "/people/benjamin-sandlin/",
+    "featured_image": "Benjamin-Sandlin.webp"
+  },
   "benjamin-williams": {
     "title": "Benjamin Williams",
     "permalink": "/people/benjamin-williams/",
@@ -5729,6 +5734,11 @@
     "permalink": "/people/jack-masters/",
     "featured_image": ""
   },
+  "jack-permenter": {
+    "title": "Jack Permenter",
+    "permalink": "/people/jack-permenter/",
+    "featured_image": "Jack-Permenter.webp"
+  },
   "jack-richards": {
     "title": "Jack Richards",
     "permalink": "/people/jack-richards/",
@@ -7752,7 +7762,7 @@
   "kristen-walsh": {
     "title": "Kristen Walsh",
     "permalink": "/people/kristen-walsh/",
-    "featured_image": "Kristen-Walsh.webp"
+    "featured_image": "Kristen-Walsh-01.webp"
   },
   "kristin-luke": {
     "title": "Kristin Luke",
@@ -9883,6 +9893,11 @@
     "title": "Natasha Hartshorne",
     "permalink": "/people/natasha-hartshorne/",
     "featured_image": "Natasha-Hartshorne.webp"
+  },
+  "nathan-dasher": {
+    "title": "Nathan Dasher",
+    "permalink": "/people/nathan-dasher/",
+    "featured_image": "Nathan-Dasher.webp"
   },
   "nathan-roberts": {
     "title": "Nathan Roberts",
