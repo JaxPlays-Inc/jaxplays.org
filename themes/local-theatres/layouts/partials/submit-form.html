@@ -284,6 +284,59 @@
         status.textContent = message;
         status.dataset.state = state;
       };
+      const filenameBase = (value, fallback) => {
+        const base = String(value || "").trim() || fallback;
+        return base
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/&/g, " and ")
+          .replace(/[^a-z0-9]+/gi, "-")
+          .replace(/^-+|-+$/g, "")
+          .replace(/-{2,}/g, "-") || fallback;
+      };
+      const extensionForFile = (file) => {
+        const extensionByType = {
+          "application/pdf": "pdf",
+          "image/jpeg": "jpg",
+          "image/png": "png",
+          "image/webp": "webp",
+        };
+        const extension = (file.name.split(".").pop() || "").toLowerCase();
+        return extensionByType[file.type] || (extension && extension !== file.name.toLowerCase() ? extension : "bin");
+      };
+      const fileWithName = (file, name) => (
+        file.name === name ? file : new File([file], name, {
+          type: file.type,
+          lastModified: file.lastModified,
+        })
+      );
+      const replaceFileInput = (input, files) => {
+        const transfer = new DataTransfer();
+        files.forEach((file) => transfer.items.add(file));
+        input.files = transfer.files;
+      };
+      const productionYear = () => {
+        const showtimes = form.querySelector("[name='showtimes']")?.value || "";
+        return showtimes.match(/\b(?:19|20)\d{2}\b/)?.[0] || String(new Date().getFullYear());
+      };
+      const prepareSubmissionFilenames = () => {
+        const title = filenameBase(form.querySelector("[name='title']")?.value, "Production");
+        const submitterName = filenameBase(form.querySelector("[name='submitter_name']")?.value, "Artist");
+        const renameRules = {
+          poster: (file) => `${productionYear()}-${title}-Poster.${extensionForFile(file)}`,
+          featured_image: (file) => `${productionYear()}-${title}-Featured.${extensionForFile(file)}`,
+          headshot: (file) => `${submitterName}.${extensionForFile(file)}`,
+        };
+
+        Object.entries(renameRules).forEach(([name, createName]) => {
+          const input = form.querySelector(`input[type="file"][name="${name}"]`);
+          const files = [...(input?.files || [])];
+          if (!input || !files.length) return;
+          replaceFileInput(input, files.map((file, index) => (
+            index === 0 ? fileWithName(file, createName(file)) : file
+          )));
+        });
+      };
 
       const updateConditionalFields = () => {
         form.querySelectorAll("[data-jp-submit-show-if]").forEach((field) => {
@@ -1291,6 +1344,7 @@
           return;
         }
 
+        prepareSubmissionFilenames();
         const payload = new FormData(form);
         payload.set("turnstileToken", turnstileToken);
         button.disabled = true;
