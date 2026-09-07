@@ -271,6 +271,11 @@
 	margin-bottom: -.6rem;
 }
 
+.jp-submit-preview-crop-help {
+	grid-column: 1 / -1;
+	margin: -.35rem 0 -.15rem;
+}
+
 .jp-submit-featured-image-preview {
 	grid-template-columns: minmax(0, 1fr);
 }
