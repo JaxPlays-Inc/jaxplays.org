@@ -1039,7 +1039,7 @@
         let featuredImageObjectURL = "";
         if (!input || !dropzone || !status) return;
         if (editHeadshotHelp) editHeadshotHelp.hidden = !isProfileEdit;
-        const cropRatio = headshotPreview ? 1 : posterPreview ? 2 / 3 : featuredImagePreview ? 1.91 : null;
+        const cropRatio = headshotPreview ? 4 / 5 : posterPreview ? 2 / 3 : featuredImagePreview ? 1.91 : null;
         const cropTitle = headshotPreview ? "Crop Headshot" : posterPreview ? "Crop Poster" : "Crop Featured Image";
         let isApplyingCrop = false;
         let croppedImageFile = null;
