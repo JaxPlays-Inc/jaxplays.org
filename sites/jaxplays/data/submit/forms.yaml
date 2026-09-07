@@ -199,7 +199,7 @@ production:
       label: Poster
       type: file
       accept: image/png,image/jpeg,image/webp,application/pdf
-      description: Upload the poster for the production. [**(2:3 aspect (24" x 36") recommended**](/social-media-aspect-ratios.webp).
+      description: Upload the poster for the production. [**2:3 aspect (24" x 36") recommended**](/social-media-aspect-ratios.webp).
     - name: poster_credit
       label: Poster Credit
       type: text
@@ -208,7 +208,7 @@ production:
       label: Featured Image for Social Media Link Previews
       type: file
       accept: image/png,image/jpeg,image/webp
-      description: Upload the image that will appear when this production is shared on social media. 1.91:1 aspect ratio recommended.
+      description: Upload the image that will appear when this production is shared on social media. [**1.91:1 aspect (1200px x 630px) recommended**](/social-media-aspect-ratios.webp).
     - name: featured_image_credit
       label: Featured Image Credit
       type: text
