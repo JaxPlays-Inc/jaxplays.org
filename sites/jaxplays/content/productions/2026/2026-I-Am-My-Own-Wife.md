@@ -25,10 +25,11 @@ tickets: https://www.eventbrite.com/e/i-am-my-own-wife-tickets-1977185869159
 show_details:
   - Playwright: "[[w:Doug Wright]]"
 cast:
-  - Starring: Trevor Kluckman
-  - Starring: Jack Permenter
-  - Starring: Benjamin Sandlin
-  - Starring: Nathan Dasher
+  - Charlotte von Mahlsdorf: Trevor Kluckman
+  - Ensemble: 
+    - Jack Permenter
+    - Benjamin Sandlin
+    - Nathan Dasher
 crew:
   - Director: Kristen Walsh
   - Technical Director: Ryan Walker
