@@ -25,6 +25,10 @@ tickets: https://www.eventbrite.com/e/i-am-my-own-wife-tickets-1977185869159
 show_details:
   - Playwright: "[[w:Doug Wright]]"
 cast:
+  - Starring: Trevor Kluckman
+  - Starring: Jack Permenter
+  - Starring: Benjamin Sandlin
+  - Starring: Nathan Dasher
 crew:
   - Director: Kristen Walsh
   - Technical Director: Ryan Walker
@@ -37,7 +41,7 @@ genres:
   - Biography
 description: "Her survival was an act of resistance."
 source: The 5 & Dime production page
-source_date: 2026-06-01
+source_date: 2026-09-06
 source_url: https://the5anddime.org/s2026/i-am-my-own-wife/
 ---
 The true story of Charlotte von Mahlsdorf, an East German transgender woman who lived through both the Nazi and Communist regimes. An unforgettable portrait of identity and resilience, truth and transformation.
