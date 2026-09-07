@@ -200,7 +200,8 @@
 }
 
 .jp-submit-headshot-preview,
-.jp-submit-poster-preview {
+.jp-submit-poster-preview,
+.jp-submit-featured-image-preview {
 	border-top: 1px solid rgba(23, 23, 23, .12);
 	display: grid;
 	gap: 1.25rem;
@@ -210,7 +211,8 @@
 }
 
 .jp-submit-headshot-preview[hidden],
-.jp-submit-poster-preview[hidden] {
+.jp-submit-poster-preview[hidden],
+.jp-submit-featured-image-preview[hidden] {
 	display: none;
 }
 
@@ -263,9 +265,14 @@
 	font-size: 1.25rem;
 }
 
-.jp-submit-poster-preview-label {
+.jp-submit-poster-preview-label,
+.jp-submit-featured-image-preview-label {
 	grid-column: 1 / -1;
 	margin-bottom: -.6rem;
+}
+
+.jp-submit-featured-image-preview {
+	grid-template-columns: minmax(0, 1fr);
 }
 
 .jp-submit-poster-production-preview {
@@ -288,6 +295,24 @@
 
 .jp-submit-poster-production-preview .production-hero-poster img {
 	background: var(--jp-paper);
+}
+
+.jp-submit-featured-image-preview-frame {
+	background: #fff;
+	border: 1px solid var(--jp-line);
+	box-sizing: border-box;
+	max-width: 680px;
+	overflow: hidden;
+	padding: .75rem;
+	width: 100%;
+}
+
+.jp-submit-featured-image-preview-frame img {
+	aspect-ratio: 1.91 / 1;
+	background: var(--jp-paper);
+	display: block;
+	object-fit: cover;
+	width: 100%;
 }
 
 @media screen and (min-width: 42em) {

@@ -131,6 +131,14 @@
                   </div>
                 </div>
               {{- end }}
+              {{- if and (eq $form.type "production") (eq $field.name "featured_image") }}
+                <div class="jp-submit-featured-image-preview" data-jp-submit-featured-image-preview hidden>
+                  <p class="jp-submit-headshot-preview-label jp-submit-featured-image-preview-label">Featured Image Preview</p>
+                  <div class="jp-submit-featured-image-preview-frame">
+                    <img src="" alt="" data-jp-submit-featured-image-preview-image>
+                  </div>
+                </div>
+              {{- end }}
             </div>
           {{- else if $field.color_picker }}
             <div class="jp-submit-color-control" data-jp-submit-color-control>
@@ -668,6 +676,8 @@
         const editHeadshotHelp = upload.querySelector("[data-jp-submit-edit-headshot-help]");
         const posterPreview = upload.querySelector("[data-jp-submit-poster-preview]");
         const posterImages = [...upload.querySelectorAll("[data-jp-submit-poster-production-image]")];
+        const featuredImagePreview = upload.querySelector("[data-jp-submit-featured-image-preview]");
+        const featuredImagePreviewImage = upload.querySelector("[data-jp-submit-featured-image-preview-image]");
         const nameInput = form.querySelector("[name='submitter_name']");
         const titleInput = form.querySelector("[name='title']");
         const isProfileEdit = editPayload?._edit_type === "profile";
@@ -675,6 +685,7 @@
         const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
         let headshotObjectURL = "";
         let posterObjectURL = "";
+        let featuredImageObjectURL = "";
         if (!input || !dropzone || !status) return;
         if (editHeadshotHelp) editHeadshotHelp.hidden = !isProfileEdit;
 
@@ -707,6 +718,11 @@
             image.alt = `${title} poster preview`;
           });
         };
+        const updateFeaturedImagePreviewAlt = () => {
+          if (!featuredImagePreviewImage) return;
+          const title = (titleInput?.value || "").trim() || "Production Title";
+          featuredImagePreviewImage.alt = `${title} featured image preview`;
+        };
         const clearPosterPreview = () => {
           if (posterObjectURL) {
             URL.revokeObjectURL(posterObjectURL);
@@ -714,6 +730,14 @@
           }
           posterImages.forEach((image) => image.removeAttribute("src"));
           if (posterPreview) posterPreview.hidden = true;
+        };
+        const clearFeaturedImagePreview = () => {
+          if (featuredImageObjectURL) {
+            URL.revokeObjectURL(featuredImageObjectURL);
+            featuredImageObjectURL = "";
+          }
+          if (featuredImagePreviewImage) featuredImagePreviewImage.removeAttribute("src");
+          if (featuredImagePreview) featuredImagePreview.hidden = true;
         };
         const renderCurrentHeadshotPreview = () => {
           if (!headshotPreview || !headshotProfileImage || !headshotListImage || !currentHeadshot) {
@@ -755,17 +779,31 @@
           updatePosterPreviewAlt();
           posterPreview.hidden = false;
         };
+        const renderFeaturedImagePreview = (file) => {
+          if (!featuredImagePreview || !featuredImagePreviewImage) return;
+          if (!file || !file.type.startsWith("image/")) {
+            clearFeaturedImagePreview();
+            return;
+          }
+          if (featuredImageObjectURL) URL.revokeObjectURL(featuredImageObjectURL);
+          featuredImageObjectURL = URL.createObjectURL(file);
+          featuredImagePreviewImage.src = featuredImageObjectURL;
+          updateFeaturedImagePreviewAlt();
+          featuredImagePreview.hidden = false;
+        };
         const renderSelectedFiles = () => {
           const files = [...input.files];
           if (!files.length) {
             status.textContent = "No file selected.";
             renderCurrentHeadshotPreview();
             clearPosterPreview();
+            clearFeaturedImagePreview();
             return;
           }
           status.textContent = files.length === 1 ? files[0].name : `${files.length} files selected: ${files.map((file) => file.name).join(", ")}`;
           renderHeadshotPreview(files[0]);
           renderPosterPreview(files[0]);
+          renderFeaturedImagePreview(files[0]);
         };
         const setFiles = (files) => {
           const selectedFiles = [...files];
@@ -780,7 +818,10 @@
 
         input.addEventListener("change", renderSelectedFiles);
         nameInput?.addEventListener("input", updateHeadshotPreviewName);
-        titleInput?.addEventListener("input", updatePosterPreviewAlt);
+        titleInput?.addEventListener("input", () => {
+          updatePosterPreviewAlt();
+          updateFeaturedImagePreviewAlt();
+        });
         ["dragenter", "dragover"].forEach((eventName) => {
           dropzone.addEventListener(eventName, (event) => {
             event.preventDefault();
