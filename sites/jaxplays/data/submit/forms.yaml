@@ -204,6 +204,15 @@ production:
       label: Poster Credit
       type: text
       description: Please provide any attribution necessary for the poster graphics, design or photography.
+    - name: featured_image
+      label: Featured Image for Social Media Link Previews
+      type: file
+      accept: image/png,image/jpeg,image/webp
+      description: Upload the image to use when this production is shared on social media. 1.91:1 aspect ratio recommended.
+    - name: featured_image_credit
+      label: Featured Image Credit
+      type: text
+      description: Please provide any attribution necessary for the featured image graphics, design or photography.
     - name: program
       label: Playbill / Bulletin / Program
       type: file
