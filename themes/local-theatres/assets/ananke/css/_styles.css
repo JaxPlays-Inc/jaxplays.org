@@ -303,6 +303,7 @@
 	box-sizing: border-box;
 	max-width: 680px;
 	overflow: hidden;
+	padding: .75rem;
 	width: 100%;
 }
 
