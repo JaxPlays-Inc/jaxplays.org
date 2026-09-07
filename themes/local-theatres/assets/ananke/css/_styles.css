@@ -271,6 +271,10 @@
 	margin-bottom: -.6rem;
 }
 
+.jp-submit-featured-image-preview {
+	grid-template-columns: minmax(0, 1fr);
+}
+
 .jp-submit-poster-production-preview {
 	background: #fff;
 	border: 1px solid var(--jp-line);
@@ -297,7 +301,7 @@
 	background: #fff;
 	border: 1px solid var(--jp-line);
 	box-sizing: border-box;
-	max-width: 36rem;
+	max-width: 680px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -312,8 +316,7 @@
 
 @media screen and (min-width: 42em) {
 	.jp-submit-headshot-preview,
-	.jp-submit-poster-preview,
-	.jp-submit-featured-image-preview {
+	.jp-submit-poster-preview {
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 	}
 

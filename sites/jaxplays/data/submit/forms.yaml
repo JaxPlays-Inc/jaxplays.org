@@ -208,7 +208,7 @@ production:
       label: Featured Image for Social Media Link Previews
       type: file
       accept: image/png,image/jpeg,image/webp
-      description: Upload the image to use when this production is shared on social media. 1.91:1 aspect ratio recommended.
+      description: Upload the image that will appear when this production is shared on social media. 1.91:1 aspect ratio recommended.
     - name: featured_image_credit
       label: Featured Image Credit
       type: text
