@@ -268,49 +268,12 @@
 	margin-bottom: -.6rem;
 }
 
-.jp-submit-poster-home-preview,
 .jp-submit-poster-production-preview {
 	background: #fff;
 	border: 1px solid var(--jp-line);
 	box-sizing: border-box;
 	overflow: hidden;
 	width: 100%;
-}
-
-.jp-submit-poster-home-preview {
-	max-width: 24rem;
-}
-
-.jp-submit-poster-home-preview .productions-directory-card {
-	border: 0;
-	box-shadow: none;
-	grid-template-columns: minmax(0, 1fr);
-	grid-template-rows: auto auto 1fr;
-	min-height: 0;
-}
-
-.jp-submit-poster-home-preview .productions-directory-poster-link {
-	border-bottom: 1px solid var(--jp-line);
-	border-right: 0;
-	grid-column: 1;
-	grid-row: 1;
-}
-
-.jp-submit-poster-home-preview .productions-directory-card-body {
-	grid-column: 1;
-	grid-row: 2;
-	padding: .75rem .9rem .9rem;
-}
-
-.jp-submit-poster-home-preview .productions-directory-card-title {
-	font-size: 1rem;
-	line-height: 1.15;
-}
-
-.jp-submit-poster-home-preview .productions-directory-meta,
-.jp-submit-poster-home-preview .productions-directory-dates {
-	font-size: .82rem;
-	line-height: 1.3;
 }
 
 .jp-submit-poster-production-preview {
@@ -331,8 +294,7 @@
 	width: 100%;
 }
 
-.jp-submit-poster-production-preview .production-hero-poster img,
-.jp-submit-poster-home-preview .productions-directory-poster {
+.jp-submit-poster-production-preview .production-hero-poster img {
 	background: var(--jp-paper);
 }
 

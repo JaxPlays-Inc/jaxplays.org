@@ -124,20 +124,6 @@
               {{- if and (eq $form.type "production") (eq $field.name "poster") }}
                 <div class="jp-submit-poster-preview" data-jp-submit-poster-preview hidden>
                   <p class="jp-submit-headshot-preview-label jp-submit-poster-preview-label">Homepage and Production Page Poster Preview</p>
-                  <div class="jp-submit-poster-home-preview">
-                    <article class="productions-directory-card productions-directory-card--no-badges">
-                      <span class="productions-directory-poster-link">
-                        <img class="productions-directory-poster" src="" alt="" data-jp-submit-poster-home-image>
-                      </span>
-                      <div class="productions-directory-card-body">
-                        <strong class="productions-directory-card-title" data-jp-submit-poster-title>Production Title</strong>
-                        <div class="productions-directory-meta">
-                          <span class="productions-directory-theatre db" data-jp-submit-poster-theatre>Theatre Name</span>
-                        </div>
-                        <div class="productions-directory-dates">Opening Date - Closing Date</div>
-                      </div>
-                    </article>
-                  </div>
                   <div class="production-single jp-submit-poster-production-preview">
                     <div class="production-hero-grid jp-submit-poster-production-grid">
                       <div class="production-hero-poster">
@@ -683,12 +669,9 @@
         const headshotNameTargets = [...upload.querySelectorAll("[data-jp-submit-headshot-list-name]")];
         const editHeadshotHelp = upload.querySelector("[data-jp-submit-edit-headshot-help]");
         const posterPreview = upload.querySelector("[data-jp-submit-poster-preview]");
-        const posterImages = [...upload.querySelectorAll("[data-jp-submit-poster-home-image], [data-jp-submit-poster-production-image]")];
-        const posterTitleTargets = [...upload.querySelectorAll("[data-jp-submit-poster-title]")];
-        const posterTheatreTargets = [...upload.querySelectorAll("[data-jp-submit-poster-theatre]")];
+        const posterImages = [...upload.querySelectorAll("[data-jp-submit-poster-production-image]")];
         const nameInput = form.querySelector("[name='submitter_name']");
         const titleInput = form.querySelector("[name='title']");
-        const theatreInput = form.querySelector("[name='theatre']");
         const isProfileEdit = editPayload?._edit_type === "profile";
         const currentHeadshot = typeof editPayload?.current_headshot === "string" ? editPayload.current_headshot.trim() : "";
         const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
@@ -720,15 +703,8 @@
           if (headshotListImage) headshotListImage.style.backgroundImage = "";
           if (headshotPreview) headshotPreview.hidden = true;
         };
-        const updatePosterPreviewText = () => {
+        const updatePosterPreviewAlt = () => {
           const title = (titleInput?.value || "").trim() || "Production Title";
-          const theatre = (theatreInput?.value || "").trim() || "Theatre Name";
-          posterTitleTargets.forEach((target) => {
-            target.textContent = title;
-          });
-          posterTheatreTargets.forEach((target) => {
-            target.textContent = theatre;
-          });
           posterImages.forEach((image) => {
             image.alt = `${title} poster preview`;
           });
@@ -778,7 +754,7 @@
           posterImages.forEach((image) => {
             image.src = posterObjectURL;
           });
-          updatePosterPreviewText();
+          updatePosterPreviewAlt();
           posterPreview.hidden = false;
         };
         const renderSelectedFiles = () => {
@@ -806,8 +782,7 @@
 
         input.addEventListener("change", renderSelectedFiles);
         nameInput?.addEventListener("input", updateHeadshotPreviewName);
-        titleInput?.addEventListener("input", updatePosterPreviewText);
-        theatreInput?.addEventListener("input", updatePosterPreviewText);
+        titleInput?.addEventListener("input", updatePosterPreviewAlt);
         ["dragenter", "dragover"].forEach((eventName) => {
           dropzone.addEventListener(eventName, (event) => {
             event.preventDefault();
