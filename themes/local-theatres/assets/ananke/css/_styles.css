@@ -277,7 +277,8 @@
 }
 
 .jp-submit-poster-production-preview {
-	max-width: 34rem;
+	--jp-submit-home-poster-width: 16.8rem;
+	max-width: calc(var(--jp-submit-home-poster-width) + 1.5rem + 2px);
 	padding: .75rem;
 }
 
