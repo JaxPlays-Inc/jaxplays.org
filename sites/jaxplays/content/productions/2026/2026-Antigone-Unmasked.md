@@ -37,6 +37,13 @@ cast:
 crew:
   - Playwright: Brian Niece
   - Director: Brian Niece
+  - Technical Director: Tyler Hammond
+  - Videography: Gregory Minton
+  - Lighting Designer: James Tucker
+  - Sound Designer: Brian Niece*
+  - Prop Design: Claire Cimino
+  - Costume Designer: Laurén Paragallo
+  - Digital Media: Joshua Britton Andrews
 orchestra:
 genres:
 - Play
