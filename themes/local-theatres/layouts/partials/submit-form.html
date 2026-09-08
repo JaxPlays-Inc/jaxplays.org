@@ -143,6 +143,15 @@
                   </div>
                 </div>
               {{- end }}
+              {{- if and (eq $form.type "audition") (eq $field.name "announcement_graphic") }}
+                <div class="jp-submit-featured-image-preview" data-jp-submit-featured-image-preview hidden>
+                  <p class="jp-submit-headshot-preview-label jp-submit-featured-image-preview-label">Announcement Graphic Preview</p>
+                  <p class="jp-submit-help jp-submit-preview-crop-help">Click or tap the preview to adjust the crop before submitting.</p>
+                  <div class="jp-submit-featured-image-preview-frame">
+                    <img src="" alt="" data-jp-submit-featured-image-preview-image>
+                  </div>
+                </div>
+              {{- end }}
             </div>
           {{- else if $field.color_picker }}
             <div class="jp-submit-color-control" data-jp-submit-color-control>
@@ -1087,7 +1096,7 @@
         const featuredImagePreview = upload.querySelector("[data-jp-submit-featured-image-preview]");
         const featuredImagePreviewImage = upload.querySelector("[data-jp-submit-featured-image-preview-image]");
         const nameInput = form.querySelector("[name='submitter_name']");
-        const titleInput = form.querySelector("[name='title']");
+        const titleInput = form.querySelector("[name='title']") || form.querySelector("[name='production_title']");
         const isProfileEdit = editPayload?._edit_type === "profile";
         const currentHeadshot = typeof editPayload?.current_headshot === "string" ? editPayload.current_headshot.trim() : "";
         const currentHeadshotAlt = typeof editPayload?.current_headshot_alt === "string" ? editPayload.current_headshot_alt.trim() : "";
@@ -1097,7 +1106,7 @@
         if (!input || !dropzone || !status) return;
         if (editHeadshotHelp) editHeadshotHelp.hidden = !isProfileEdit;
         const cropRatio = headshotPreview ? 4 / 5 : posterPreview ? 2 / 3 : featuredImagePreview ? 1.91 : null;
-        const cropTitle = headshotPreview ? "Crop Headshot" : posterPreview ? "Crop Poster" : "Crop Featured Image";
+        const cropTitle = headshotPreview ? "Crop Headshot" : posterPreview ? "Crop Poster" : input.name === "announcement_graphic" ? "Crop Announcement Graphic" : "Crop Featured Image";
         let isApplyingCrop = false;
         let croppedImageFile = null;
         const cropState = {
@@ -1204,7 +1213,7 @@
         const updateFeaturedImagePreviewAlt = () => {
           if (!featuredImagePreviewImage) return;
           const title = (titleInput?.value || "").trim() || "Production Title";
-          featuredImagePreviewImage.alt = `${title} featured image preview`;
+          featuredImagePreviewImage.alt = input.name === "announcement_graphic" ? `${title} announcement graphic preview` : `${title} featured image preview`;
         };
         const clearPosterPreview = () => {
           if (posterObjectURL) {
