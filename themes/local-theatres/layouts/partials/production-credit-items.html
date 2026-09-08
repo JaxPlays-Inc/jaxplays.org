@@ -1,51 +1,118 @@
 {{- $site := .site -}}
+{{- $section := .section | default "" -}}
+{{- $hasNestedCredits := false -}}
 {{- range .items -}}
   {{- if reflect.IsMap . -}}
-    {{- range $creditLabel, $value := . -}}
-      {{- $valueType := printf "%T" $value -}}
-      {{- if eq $valueType "[]interface {}" -}}
-        {{- $hasNestedCredits := false -}}
+    {{- range $value := . -}}
+      {{- if eq (printf "%T" $value) "[]interface {}" -}}
         {{- range $entry := $value -}}
           {{- if reflect.IsMap $entry -}}
             {{- $hasNestedCredits = true -}}
           {{- end -}}
         {{- end -}}
-        {{- if $hasNestedCredits -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $hasNestedCredits -}}
+  {{- range .items -}}
+    {{- if reflect.IsMap . -}}
+      {{- range $creditLabel, $value := . -}}
+        {{- $valueType := printf "%T" $value -}}
+        {{- if eq $valueType "[]interface {}" -}}
+          {{- $hasNestedEntries := false -}}
+          {{- range $entry := $value -}}
+            {{- if reflect.IsMap $entry -}}
+              {{- $hasNestedEntries = true -}}
+            {{- end -}}
+          {{- end -}}
+          {{- if $hasNestedEntries -}}
+            <div class="production-credit-group">
+              <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
+              <div class="scroll-cast production-credit-strip">
+                {{- partial "production-credit-items.html" (dict "items" $value "site" $site "section" $section) -}}
+              </div>
+            </div>
+          {{- else -}}
+            {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section) -}}
+          {{- end -}}
+        {{- else if reflect.IsMap $value -}}
           <div class="production-credit-group">
             <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
             <div class="scroll-cast production-credit-strip">
-              {{- partial "production-credit-items.html" (dict "items" $value "site" $site) -}}
+              {{- partial "production-credit-items.html" (dict "items" (slice $value) "site" $site "section" $section) -}}
             </div>
           </div>
         {{- else -}}
-          {{- range $p := $value -}}
-            {{- $personName := printf "%v" $p | strings.TrimSpace -}}
+          {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section) -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $credits := dict -}}
+  {{- $creditOrder := slice -}}
+  {{- range .items -}}
+    {{- if reflect.IsMap . -}}
+      {{- range $creditLabel, $value := . -}}
+        {{- $role := printf "%v" $creditLabel | strings.TrimSpace -}}
+        {{- if eq (printf "%T" $value) "[]interface {}" -}}
+          {{- range $person := $value -}}
+            {{- $personName := printf "%v" $person | strings.TrimSpace | replaceRE "\\s*[*†‡]+$" "" | strings.TrimSpace -}}
             {{- if and $personName (ne $personName "<nil>") -}}
-              {{- $output := partial "findPerson.html" (dict "urlName" $personName "site" $site "showImage" "true" "isArray" true "creditLabel" $creditLabel) -}}
-              {{- chomp $output | safeHTML -}}
+              {{- $creditKey := $personName | replaceRE "\\." "" | urlize -}}
+              {{- $credit := index $credits $creditKey | default dict -}}
+              {{- if not $credit -}}
+                {{- $creditOrder = $creditOrder | append $creditKey -}}
+              {{- end -}}
+              {{- $roles := index $credit "roles" | default slice -}}
+              {{- if and $role (not (in $roles $role)) -}}
+                {{- $roles = $roles | append $role -}}
+              {{- end -}}
+              {{- $credits = merge $credits (dict $creditKey (dict "name" $personName "roles" $roles)) -}}
             {{- end -}}
           {{- end -}}
+        {{- else -}}
+          {{- $personName := printf "%v" $value | strings.TrimSpace | replaceRE "\\s*[*†‡]+$" "" | strings.TrimSpace -}}
+          {{- if and $personName (ne $personName "<nil>") -}}
+            {{- $creditKey := $personName | replaceRE "\\." "" | urlize -}}
+            {{- $credit := index $credits $creditKey | default dict -}}
+            {{- if not $credit -}}
+              {{- $creditOrder = $creditOrder | append $creditKey -}}
+            {{- end -}}
+            {{- $roles := index $credit "roles" | default slice -}}
+            {{- if and $role (not (in $roles $role)) -}}
+              {{- $roles = $roles | append $role -}}
+            {{- end -}}
+            {{- $credits = merge $credits (dict $creditKey (dict "name" $personName "roles" $roles)) -}}
+          {{- end -}}
         {{- end -}}
-      {{- else if reflect.IsMap $value -}}
-        <div class="production-credit-group">
-          <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
-          <div class="scroll-cast production-credit-strip">
-            {{- partial "production-credit-items.html" (dict "items" (slice $value) "site" $site) -}}
-          </div>
-        </div>
-      {{- else -}}
-        {{- $personName := printf "%v" $value | strings.TrimSpace -}}
-        {{- if and $personName (ne $personName "<nil>") -}}
-          {{- $output := partial "findPerson.html" (dict "urlName" $personName "site" $site "showImage" "true" "isArray" false "creditLabel" $creditLabel) -}}
-          {{- chomp $output | safeHTML -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $personName := printf "%v" . | strings.TrimSpace | replaceRE "\\s*[*†‡]+$" "" | strings.TrimSpace -}}
+      {{- if and $personName (ne $personName "<nil>") -}}
+        {{- $creditKey := $personName | replaceRE "\\." "" | urlize -}}
+        {{- if not (index $credits $creditKey) -}}
+          {{- $creditOrder = $creditOrder | append $creditKey -}}
+          {{- $credits = merge $credits (dict $creditKey (dict "name" $personName "roles" slice)) -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
-  {{- else -}}
-    {{- $personName := printf "%v" . | strings.TrimSpace -}}
-    {{- if and $personName (ne $personName "<nil>") -}}
-      {{- $output := partial "findPerson.html" (dict "urlName" $personName "site" $site "showImage" "true" "isArray" false) -}}
-      {{- chomp $output | safeHTML -}}
+  {{- end -}}
+
+  {{- range $creditKey := $creditOrder -}}
+    {{- $credit := index $credits $creditKey -}}
+    {{- $roles := index $credit "roles" | default slice -}}
+    {{- $creditLabel := "" -}}
+    {{- if or (eq $section "Crew") (eq $section "Orchestra") -}}
+      {{- $creditLabel = delimit $roles ", " " and " -}}
+    {{- else -}}
+      {{- $creditLabel = delimit $roles " / " -}}
     {{- end -}}
+    {{- $output := partial "findPerson.html" (dict "urlName" (index $credit "name") "site" $site "showImage" "true" "isArray" (gt (len $roles) 0) "creditLabel" $creditLabel) -}}
+    {{- chomp $output | safeHTML -}}
   {{- end -}}
 {{- end -}}
