@@ -21,10 +21,8 @@ featured_image_attr_link:
 program:
 website: https://www.aclassictheatre.org/2026-2027-season
 source: Submitted through JaxPlays production form
-source_date: 2026-08-31
-source_url: 
-- https://www.aclassictheatre.org/2026-2027-season
-- https://jaxplays.org/productions/2026-grand-horizons/
+source_date: 2026-08-30
+source_url: https://jaxplays.org/apply/production/
 tickets: https://aclassictheatre.ludus.com/show_page.php?show_id=200533265
 show_details:
 - Playwright: '[[w:Bess Wohl]]'
@@ -38,13 +36,28 @@ cast:
 - Carla: Linda Hall
 crew:
 - Director: David Buchman
+- Producer: Cindy Alexander
+- Stage Manager: Day Stanchi
+- Lighting & Sound Design: Ron Hunsicker
+- Set Design: Cindy Alexander
+- Lighting Tech: Day Stanchi
+- Sound Tech: David Nails
+- Backstage Manager: Dave Niedosik
+- Stagehand: Linda Chandler
+- Marketing & Design: Glo MacDonald
 understudies:
 orchestra:
 genres:
 - Play
 - Comedy
-description: A long-married couple's plan to divorce turns their retirement community into a family reckoning in Bess Wohl's sharp comedy.
+- Drama
+description: After 50 years, Bill and Nancy announce their divorce. With secrets unearthed and emotions unleashed, this sharp comedy turns into a chaotic family reckoning.
 ---
-After 50 years of marriage, Bill and Nancy calmly announce their divorce at the Grand Horizons retirement community, stunning their adult sons Brian and Ben. As the family descends into chaos, Ben's pregnant wife Jess and Brian's hookup Tommy are swept into the fray.
+By Bess Wohl
 
-With secrets unearthed and emotions unleashed, Bess Wohl's comedy turns a quiet retirement into a full-blown family reckoning.
+After fifty years of marriage, Bill and Nancy calmly announce their divorce at the Grand Horizons retirement community, stunning their adult sons, Brian and Ben. As the family descends into chaos, Ben's pregnant wife Jess and Brian's hookup Tommy are swept into the fray. With secrets unearthed and emotions unleashed, this sharp comedy turns a quiet retirement into a full-blown family reckoning.
+
+Nominated for the 2020 Tony Award for Best Play.
+
+"A clever truth bomb of a play... a terrific comedy."
+- The New York Times
