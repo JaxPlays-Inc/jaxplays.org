@@ -29,13 +29,51 @@ cast:
   - Oliver Rivers: Richie Rosado
   - Megan Jones: Mya Williams
   - Narrator: Anna Vera
-  - "Ernie Mac, A Very Tall Man, Seamus, A Certain Potions Teacher, Professor Turban, Ghost History Teacher, Professor Locky, Mr. Nick, Sal, Second Headmaster, Real Mr. Moody": Katie Swider
-  - "Hannah, First Headmaster, Professor McG, Professor Sprouty, Xavia Jones, Professor Lanny, Runes Teacher, Ms. Babble": Erin Barnes
-  - "J. Finch Fletchley, Uncle Dave, Goyle, A Fat Friar, Clumsy Longbottom, Hermeoone #3, Viktor, Mr. Bagman, Zach Smith": Levi Reeves
-  - "Leanne, Ginny, Helga, Frenchy": Cynthia Riegler
-  - "Sally Perks, Hermeoone, Blondo Malfoy, Rowena, Rita Scooter, Bippy": Adrianna Williams
-  - "Susie Bones, Harry, Colin, Hermeoone #2, Rig Gryff, Myrtle": Rachel Johns
-  - "Cedric, Mr. Voldy": Chris Berry
+  - Ernie Mac: Katie Swider
+  - A Very Tall Man: Katie Swider
+  - Seamus: Katie Swider
+  - A Certain Potions Teacher: Katie Swider
+  - Professor Turban: Katie Swider
+  - Ghost History Teacher: Katie Swider
+  - Professor Locky: Katie Swider
+  - Mr. Nick: Katie Swider
+  - Sal: Katie Swider
+  - Second Headmaster: Katie Swider
+  - Real Mr. Moody: Katie Swider
+  - Hannah: Erin Barnes
+  - First Headmaster: Erin Barnes
+  - Professor McG: Erin Barnes
+  - Professor Sprouty: Erin Barnes
+  - Xavia Jones: Erin Barnes
+  - Professor Lanny: Erin Barnes
+  - Runes Teacher: Erin Barnes
+  - Ms. Babble: Erin Barnes
+  - Uncle Dave: Levi Reeves
+  - Goyle: Levi Reeves
+  - A Fat Friar: Levi Reeves
+  - Clumsy Longbottom: Levi Reeves
+  - "Hermeoone #3": Levi Reeves
+  - Viktor: Levi Reeves
+  - Mr. Bagman: Levi Reeves
+  - Zach Smith: Levi Reeves
+  - Leanne: Cynthia Riegler
+  - Ginny: Cynthia Riegler
+  - Helga: Cynthia Riegler
+  - Frenchy: Cynthia Riegler
+  - Sally Perks: Adrianna Williams
+  - Hermeoone: Adrianna Williams
+  - Blondo Malfoy: Adrianna Williams
+  - Rowena: Adrianna Williams
+  - Rita Scooter: Adrianna Williams
+  - Bippy: Adrianna Williams
+  - Susie Bones: Rachel Johns
+  - Harry: Rachel Johns
+  - Colin: Rachel Johns
+  - "Hermeoone #2": Rachel Johns
+  - Rig Gryff: Rachel Johns
+  - Myrtle: Rachel Johns
+  - Cedric: Chris Berry
+  - Mr. Voldy: Chris Berry
 crew:
  - Director: 
     - Daniel Austin

@@ -35,9 +35,11 @@ crew:
 - Stage Manager: Faith Rautter
 - Dramaturg: Victoria Mapayi
 - Production Manager: Katie Swider
-- Set & Props Designer: Claire Cimino
+- Set Designer: Claire Cimino
+- Props Designer: Claire Cimino
 - Lighting Designer: Mike Livingston
-- Sound & Video Designer: Brian Niece
+- Sound Designer: Brian Niece
+- Video Designer: Brian Niece
 - Costume Designer: Katie Swider
 - Technical Director: Mike Livingston
 genres:
