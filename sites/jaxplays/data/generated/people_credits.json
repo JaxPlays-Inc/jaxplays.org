@@ -16210,6 +16210,18 @@
   "beau-wade": {
     "cast": [
       {
+        "permalink": "/productions/2026-company/",
+        "title": "Company",
+        "opening_date": "2026-09-18",
+        "approx_date": "",
+        "theatre": "City Repertory Theatre",
+        "venue": "City Repertory Theatre",
+        "featured_image": "2026-Company.webp",
+        "credits": [
+          "David"
+        ]
+      },
+      {
         "permalink": "/productions/2025-avenue-q/",
         "title": "Avenue Q",
         "opening_date": "2025-09-19",
@@ -17346,7 +17358,8 @@
         "venue": "BABS' LAB",
         "featured_image": "2026-I-Am-My-Own-Wife.webp",
         "credits": [
-          "Starring"
+          "John",
+          "Ensemble"
         ]
       }
     ],
@@ -27753,7 +27766,8 @@
         "featured_image": "2026-Antigone-Unmasked.webp",
         "credits": [
           "Playwright",
-          "Director"
+          "Director",
+          "Sound Designer"
         ]
       },
       {
@@ -42884,6 +42898,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Prop Design"
+        ]
+      },
+      {
         "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
         "title": "I Love You, You're Perfect... Now Sign Here",
         "opening_date": "2026-09-11",
@@ -52843,6 +52869,19 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-grand-horizons/",
+        "title": "Grand Horizons",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2026-Grand-Horizons.webp",
+        "credits": [
+          "Stage Manager",
+          "Lighting Tech"
+        ]
+      },
       {
         "permalink": "/productions/2025-annie/",
         "title": "Annie",
@@ -77537,7 +77576,7 @@
         "venue": "City Repertory Theatre",
         "featured_image": "2026-Company.webp",
         "credits": [
-          "Bobby"
+          "Robert"
         ]
       }
     ],
@@ -105766,7 +105805,7 @@
         "venue": "BABS' LAB",
         "featured_image": "2026-I-Am-My-Own-Wife.webp",
         "credits": [
-          "Starring"
+          "Doug / Alfred"
         ]
       }
     ],
@@ -105831,6 +105870,18 @@
   },
   "jack-rose": {
     "cast": [
+      {
+        "permalink": "/productions/2026-company/",
+        "title": "Company",
+        "opening_date": "2026-09-18",
+        "approx_date": "",
+        "theatre": "City Repertory Theatre",
+        "venue": "City Repertory Theatre",
+        "featured_image": "2026-Company.webp",
+        "credits": [
+          "Harry"
+        ]
+      },
       {
         "permalink": "/productions/2024-the-country-girl/",
         "title": "The Country Girl",
@@ -107661,6 +107712,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Lighting Designer"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-pillowman/",
         "title": "The Pillowman",
@@ -125142,6 +125205,19 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Production Manager",
+          "Digital Media"
+        ]
+      },
+      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -141495,6 +141571,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Costume Designer"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-pillowman/",
         "title": "The Pillowman",
@@ -176776,7 +176864,7 @@
         "venue": "BABS' LAB",
         "featured_image": "2026-I-Am-My-Own-Wife.webp",
         "credits": [
-          "Starring"
+          "Ensemble"
         ]
       }
     ],
@@ -227638,7 +227726,7 @@
         "venue": "BABS' LAB",
         "featured_image": "2026-I-Am-My-Own-Wife.webp",
         "credits": [
-          "Starring"
+          "Charlotte von Mahlsdorf"
         ]
       },
       {
@@ -228309,6 +228397,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-antigone-unmasked/",
+        "title": "Antigone: Unmasked",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Lumen Repertory Theatre",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Antigone-Unmasked.webp",
+        "credits": [
+          "Technical Director"
+        ]
+      },
       {
         "permalink": "/productions/2026-next-to-normal/",
         "title": "Next to Normal",
