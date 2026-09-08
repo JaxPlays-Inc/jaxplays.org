@@ -49,7 +49,10 @@ crew:
   - Production Manager: Katie Swider
   - Assistant Stage Manager: Hayley Smith
 orchestra:
-# Slow Burn: Edward Albee’s One Acts: The American Dream & Zoo Story
+equity_billing:
+  people:
+    - Brian Niece
+    - David Alford
 genres:
   - Play
   - Drama

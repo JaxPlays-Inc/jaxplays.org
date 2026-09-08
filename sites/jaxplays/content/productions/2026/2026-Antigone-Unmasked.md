@@ -32,10 +32,6 @@ show_details:
   - Friday, October 9 – 7:30 p.m.: "Opening Night – Our Blue Carpet Premiere, with post-show Afterglow and champagne toast"
   - Sunday, October 18 – 2:00 p.m.: "Matinee, with post-show Talkback “The Weight of the Law: A Conversation on Truth and Complicity”"
   - Thursday, October 22 – 7:30 p.m.: "NEXTGEN Night, with a post-show talkback for students focused on professional theatre-making and careers in the field"
-equity_billing:
-  people:
-    - Brian Niece
-    - Maggie Cox
   # note: "The Actor or Stage Manager appears through the courtesy of Actors' Equity Association, the Union of Professional Actors and Stage Managers in the United States."
 cast:
   - Chorus: Zonnetta Marie
@@ -66,6 +62,10 @@ crew:
   - Costume Designer: Laurén Paragallo
   - Digital Media: Joshua Britton Andrews
 orchestra:
+equity_billing:
+  people:
+    - Brian Niece
+    - Maggie Cox
 genres:
 - Play
 - Drama
