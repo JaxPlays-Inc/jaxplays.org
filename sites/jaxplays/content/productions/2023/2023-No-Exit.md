@@ -43,6 +43,10 @@ crew:
 - Production Design: Claire Cimino
 - Sound Design: Brian Niece
 - Master Carpenter: Tyler Hammond
+equity_billing:
+  people:
+    - Brian Niece
+    - Jeff Drushal
 photos:
 - photo: 2023_No_Exit_1.webp
   photo_attr: Ray Hollister

@@ -37,9 +37,14 @@ crew:
 - Technical Director: Mike Livingston
 - Lighting Designer: Carl Liberatore
 - Sound Designer: Brian Niece
-- Scenic & Prop Design: Claire Cimino
+- Scenic Design: Claire Cimino
+- Prop Design: Claire Cimino
 - Costume Designer: Camala Pitts
 orchestra:
+equity_billing:
+  people:
+    - Brian Niece
+    - David Alford
 genres:
   - Play
   - Drama

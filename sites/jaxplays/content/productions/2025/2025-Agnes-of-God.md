@@ -39,6 +39,9 @@ crew:
 - Costume Designer: Camala Pitts
 - Sound Designer: Brian Niece
 orchestra:
+equity_billing:
+  people:
+    - Brian Niece
 genres:
   - Play
   - Drama

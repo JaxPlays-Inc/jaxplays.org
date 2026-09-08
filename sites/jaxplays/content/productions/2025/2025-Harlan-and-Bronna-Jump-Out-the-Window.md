@@ -47,6 +47,10 @@ crew:
   - Sound Designer: Brian Niece
   - Scenic & Prop Design: Claire Cimino
   - Costume Designer: Lauren Paragallo
+equity_billing:
+  people:
+    - Brian Niece
+    - Jeff Drushal
 genres:
   - Play
   - Comedy

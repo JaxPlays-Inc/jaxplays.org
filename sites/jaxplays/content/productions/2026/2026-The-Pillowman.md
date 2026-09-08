@@ -51,6 +51,9 @@ crew:
 - Sound Designer: Joshua Britton Andrews
 - Costume Designer: Laurén Paragallo
 - Digital Media: Joshua Britton Andrews
+equity_billing:
+  people:
+    - Brian Niece
 orchestra:
 genres:
 - Play

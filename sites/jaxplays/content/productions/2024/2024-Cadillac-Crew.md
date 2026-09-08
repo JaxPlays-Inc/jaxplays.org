@@ -42,6 +42,9 @@ crew:
 - Video Designer: Brian Niece
 - Costume Designer: Katie Swider
 - Technical Director: Mike Livingston
+equity_billing:
+  people:
+    - Brian Niece
 genres:
   - Play
   - Drama
