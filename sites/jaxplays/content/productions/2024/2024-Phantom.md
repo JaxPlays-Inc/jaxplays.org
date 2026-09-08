@@ -93,6 +93,9 @@ crew:
 - Chandelier Supervisor: Gabe Monzon
 - Chandelier Rigging: Baron Tetzlaff
 orchestra:
+equity_billing:
+  people:
+    - Jeff Drushal
 genres:
 - Musical
 - Drama
