@@ -445,7 +445,7 @@
 	  <h3 class="f3 mt4 mb4 sectionline">{{ $creditSection.title }}</h3>
 	  <div class="cast-array-wrapper production-credit-wrapper">
 	    <div class="scroll-cast production-credit-strip{{ if $hasCreditGroups }} production-credit-group-list{{ end }}">
-	      {{ partial "production-credit-items.html" (dict "items" $paramsArray "site" $site) }}
+	      {{ partial "production-credit-items.html" (dict "items" $paramsArray "site" $site "section" $creditSection.title) }}
 	    </div>
 	  </div>
 	</div>

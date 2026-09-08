@@ -52,7 +52,7 @@ crew:
   - Assistant Stage Managers:
     - Kylie Kall
     - Julie Nolasco
-  - Production Manager: Josh Andrews
+  - Production Manager: Joshua Britton Andrews
   - Technical Director: Tyler Hammond
   - Videography: Gregory Minton
   - Lighting Designer: James Tucker

@@ -103,17 +103,22 @@ cast:
 - Stephanie Mangano: Charity Walton
 - Pauline / Connie: Katelyn Blair
 - Annette: Rachel Ann Kocher
-- Candy / Club Singer: Victoria Mapayi
+- Candy: Victoria Mapayi
+- Club Singer: Victoria Mapayi
 - Jay: Curtis Reed
 - Fosco: Steven Amburgey
+- Maria: Mia Vazquez
+- Cesar: Kamari Samuels
 - Dancer 1: Nikki Sheehan
 - Dancer 2: Landon Amburgey
-- Dancer 3 / Maria: Mia Vazquez
-- Dancer 4 / Cesar: Kamari Samuels
+- Dancer 3: Mia Vazquez
+- Dancer 4: Kamari Samuels
 understudies:
-- Candy / Club Singer: Natalie Drake
+- Candy: Natalie Drake
+- Club Singer: Natalie Drake
 crew:
-- Executive Producer / Director: Tod Booth
+- Executive Producer: Tod Booth
+- Director: Tod Booth
 - Vice President of Production: Shain Stroff
 - Production Manager: Sarah Brace
 - Musical Direction: Cathy Murphy Giddens
@@ -122,12 +127,14 @@ crew:
 - Costume Design:
   - Dorinda Quiles
   - Camala Pitts
-- Set Design / Technical Direction: David Dionne
+- Set Design: David Dionne
+- Technical Direction: David Dionne
 - Property Master: Patti Eyler
 - Audio Engineer: Matthew Carr
 - Wig Stylist: Dana Ferger
 - Company Manager: Lisa Valdini Booth
-- Stage Manager / Fight Director: Thaddeus Walker
+- Stage Manager: Thaddeus Walker
+- Fight Director: Thaddeus Walker
 - Set Construction:
   - Ethan Walker
   - David Dionne
