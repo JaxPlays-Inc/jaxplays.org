@@ -3,7 +3,7 @@
 {{ $peopleLookup := index $generatedData "people_lookup" | default dict }}
 {{ $foundPerson := index $peopleLookup $urlName }}
 {{ $defaultImage := "/media/default/people_headshot.webp" }}
-{{ $nameSuffix := .nameSuffix | default "" }}
+{{ $nameSuffix := .nameSuffix | default "" | safeHTML }}
 {{ if and .showImage }}
   {{ $imageToUse := $defaultImage }}
   {{ $personName := .urlName }}

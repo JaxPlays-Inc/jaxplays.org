@@ -36,6 +36,7 @@ equity_billing:
   people:
     - Brian Niece
     - Maggie Cox
+  # note: "The Actor or Stage Manager appears through the courtesy of Actors' Equity Association, the Union of Professional Actors and Stage Managers in the United States."
 cast:
   - Chorus: Zonnetta Marie
   - Antigone: Maggie Cox

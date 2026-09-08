@@ -427,7 +427,7 @@
 {{ end }}
 {{ end }}
 {{ $equityNote := $equityBilling.note | default "The Actor or Stage Manager appears through the courtesy of Actors' Equity Association, the Union of Professional Actors and Stage Managers in the United States." }}
-
+{{/*  If this required note changes in the future, it can be overridden in the page front matter using the note value under the equity_billing key */}}
 {{ range $creditSection := slice
 (dict "title" "Cast" "items" .Params.cast)
 (dict "title" "Crew" "items" .Params.crew)
@@ -463,7 +463,7 @@
 
 {{ if gt (len $equityPeople) 0 }}
 <div class="nested-copy-line-height lh-copy f5 mt3 {{ $.Param " text_color" | default "dark-gray" }}">
-  <p class="production-equity-billing-note"><span aria-hidden="true">*</span> {{ $equityNote }}</p>
+  <p class="production-equity-billing-note"><sup class="production-equity-billing-marker production-equity-billing-note-marker">*</sup>{{ $equityNote }}</p>
 </div>
 {{ end }}
 
@@ -536,6 +536,20 @@
     color: #555;
     line-height: 1.25;
     margin-top: .2rem;
+  }
+
+  .production-equity-billing-marker {
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 0;
+    margin-left: .08em;
+    position: relative;
+    top: -.35em;
+    vertical-align: baseline;
+  }
+
+  .production-equity-billing-note-marker {
+    margin-left: 0;
   }
 
   .production-equity-billing-note {

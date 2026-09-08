@@ -113,7 +113,7 @@
     {{- else -}}
       {{- $creditLabel = delimit $roles " / " -}}
     {{- end -}}
-    {{- $nameSuffix := cond (in $equityPeople $creditKey) "*" "" -}}
+    {{- $nameSuffix := cond (in $equityPeople $creditKey) "<sup class=\"production-equity-billing-marker\">*</sup>" "" -}}
     {{- $output := partial "findPerson.html" (dict "urlName" (index $credit "name") "site" $site "showImage" "true" "isArray" (gt (len $roles) 0) "creditLabel" $creditLabel "nameSuffix" $nameSuffix) -}}
     {{- chomp $output | safeHTML -}}
   {{- end -}}
