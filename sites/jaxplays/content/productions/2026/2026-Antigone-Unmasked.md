@@ -34,9 +34,21 @@ cast:
   - Ismene: Kate McManus
   - Haemon: Noah Bennett
   - Creon: Eugene Lindsey
+  - Apprentice Company:
+    - Dev Acharya
+    - Jessica Coleman
+    - Logan Everson
+    - Kirstyn Lewis
+    - Valeria Santiago
 crew:
   - Playwright: Brian Niece
   - Director: Brian Niece
+  - NEXTGEN Student Asst. Director: Jocelyn Smith
+  - Stage Manager: Faith Rautter
+  - Assistant Stage Managers:
+    - Kylie Kall
+    - Julie Nolasco
+  - Production Manager: Josh Andrews
   - Technical Director: Tyler Hammond
   - Videography: Gregory Minton
   - Lighting Designer: James Tucker
