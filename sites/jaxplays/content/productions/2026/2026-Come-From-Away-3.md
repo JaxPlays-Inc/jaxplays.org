@@ -46,7 +46,8 @@ crew:
   - Director: Bill Ivins
   - Music Director: Jill Dillingham
 orchestra:
-  - Flute / Tin Whistles: Caryl Smith
+  - Flute: Caryl Smith
+  - Tin Whistles: Caryl Smith
   - Percussion:
       - Honey Deacon
       - Rick Mauer
@@ -55,7 +56,7 @@ orchestra:
   - Guitar: Tom Cooper
   - Mandolin: Chad Miller
   - Keyboard: Pam Cooper
-  - Piano / Music Director: Jill Dillingham
+  - Piano: Jill Dillingham
 genres:
   - Musical
   - Drama
