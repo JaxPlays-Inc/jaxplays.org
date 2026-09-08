@@ -330,10 +330,12 @@
       };
       const prepareSubmissionFilenames = () => {
         const title = filenameBase(form.querySelector("[name='title']")?.value, "Production");
+        const auditionTitle = filenameBase(form.querySelector("[name='production_title']")?.value, "Production");
         const submitterName = filenameBase(form.querySelector("[name='submitter_name']")?.value, "Artist");
         const renameRules = {
           poster: (file) => `${productionYear()}-${title}-Poster.${extensionForFile(file)}`,
           featured_image: (file) => `${productionYear()}-${title}-Featured.${extensionForFile(file)}`,
+          announcement_graphic: (file) => `${auditionTitle}-Auditions.${extensionForFile(file)}`,
           headshot: (file) => `${submitterName}.${extensionForFile(file)}`,
         };
 
