@@ -462,8 +462,8 @@
 {{ end }}
 
 {{ if gt (len $equityPeople) 0 }}
-<div class="nested-copy-line-height lh-copy f5 mt3 {{ $.Param " text_color" | default "dark-gray" }}">
-  <p class="production-equity-billing-note"><sup class="production-equity-billing-marker production-equity-billing-note-marker">*</sup>{{ $equityNote }}</p>
+<div class="nested-copy-line-height lh-copy f5 mt5 {{ $.Param " text_color" | default "dark-gray" }}">
+  <p class="production-equity-billing-note"><sup class="production-equity-billing-marker production-equity-billing-note-marker">*</sup> {{ $equityNote }}</p>
 </div>
 {{ end }}
 
@@ -539,7 +539,7 @@
   }
 
   .production-equity-billing-marker {
-    font-size: .75em;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 0;
     margin-left: .08em;
