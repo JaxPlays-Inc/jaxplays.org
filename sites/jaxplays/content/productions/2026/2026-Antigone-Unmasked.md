@@ -28,6 +28,10 @@ tickets: https://www.lumenrep.org/tickets
 show_details:
   - Playwright: "[[person:Brian Niece]]"
   - Basis: "[[w:Antigone_(Sophocles_play)|*Antigone*]] by [[w:Sophocles]]"
+  - Thursday, October 8 – 7:30 p.m.: "Pay-What-You-Can Preview (donations accepted at the door)"
+  - Friday, October 9 – 7:30 p.m.: "Opening Night – Our Blue Carpet Premiere, with post-show Afterglow and champagne toast"
+  - Sunday, October 18 – 2:00 p.m.: "Matinee, with post-show Talkback “The Weight of the Law: A Conversation on Truth and Complicity”"
+  - Thursday, October 22 – 7:30 p.m.: "NEXTGEN Night, with a post-show talkback for students focused on professional theatre-making and careers in the field"
 cast:
   - Chorus: Zonnetta Marie
   - Antigone: Maggie Cox
