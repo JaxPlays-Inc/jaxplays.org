@@ -1,5 +1,6 @@
 {{- $site := .site -}}
 {{- $section := .section | default "" -}}
+{{- $equityPeople := .equityPeople | default slice -}}
 {{- $hasNestedCredits := false -}}
 {{- range .items -}}
   {{- if reflect.IsMap . -}}
@@ -31,25 +32,25 @@
             <div class="production-credit-group">
               <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
               <div class="scroll-cast production-credit-strip">
-                {{- partial "production-credit-items.html" (dict "items" $value "site" $site "section" $section) -}}
+                {{- partial "production-credit-items.html" (dict "items" $value "site" $site "section" $section "equityPeople" $equityPeople) -}}
               </div>
             </div>
           {{- else -}}
-            {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section) -}}
+            {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section "equityPeople" $equityPeople) -}}
           {{- end -}}
         {{- else if reflect.IsMap $value -}}
           <div class="production-credit-group">
             <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
             <div class="scroll-cast production-credit-strip">
-              {{- partial "production-credit-items.html" (dict "items" (slice $value) "site" $site "section" $section) -}}
+              {{- partial "production-credit-items.html" (dict "items" (slice $value) "site" $site "section" $section "equityPeople" $equityPeople) -}}
             </div>
           </div>
         {{- else -}}
-          {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section) -}}
+          {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section "equityPeople" $equityPeople) -}}
         {{- end -}}
       {{- end -}}
     {{- else -}}
-      {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section) -}}
+      {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section "equityPeople" $equityPeople) -}}
     {{- end -}}
   {{- end -}}
 {{- else -}}
@@ -112,7 +113,8 @@
     {{- else -}}
       {{- $creditLabel = delimit $roles " / " -}}
     {{- end -}}
-    {{- $output := partial "findPerson.html" (dict "urlName" (index $credit "name") "site" $site "showImage" "true" "isArray" (gt (len $roles) 0) "creditLabel" $creditLabel) -}}
+    {{- $nameSuffix := cond (in $equityPeople $creditKey) "*" "" -}}
+    {{- $output := partial "findPerson.html" (dict "urlName" (index $credit "name") "site" $site "showImage" "true" "isArray" (gt (len $roles) 0) "creditLabel" $creditLabel "nameSuffix" $nameSuffix) -}}
     {{- chomp $output | safeHTML -}}
   {{- end -}}
 {{- end -}}
