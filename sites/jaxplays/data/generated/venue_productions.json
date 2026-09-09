@@ -27786,5 +27786,35 @@
       "tickets": "https://app.arts-people.com/index.php?ticketing=fcop",
       "searchBase": "something's brewing: coffee cantata & rita sep 10, 2026 sep 12, 2026 first coast opera celebration hall at st. anastasia opera comedy choose a dinner or matinee for this double bill pairing bach's coffee cantata with donizetti's rita."
     }
+  ],
+  "the-venue-hastings": [
+    {
+      "title": "The Gilded Cage: An Immersive Mystery Dinner",
+      "url": "/productions/2026-the-gilded-cage-an-immersive-mystery-dinner/",
+      "contentPath": "productions/2026/2026-The-Gilded-Cage-An-Immersive-Mystery-Dinner",
+      "poster": "/media/posters/2026-The-Gilded-Cage.webp",
+      "posterAlt": "Poster art for Catalyst Theatre's The Gilded Cage, an immersive mystery dinner at The Venue-Hastings.",
+      "openingDate": "2026-10-02",
+      "closingDate": "2026-10-30",
+      "openingLabel": "Oct 2, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 2, 2026",
+      "closingLabel": "Oct 30, 2026",
+      "theatre": "Catalyst Theatre",
+      "venues": [
+        "The Venue-Hastings"
+      ],
+      "allVenues": [
+        "The Venue-Hastings"
+      ],
+      "genres": [
+        "Immersive",
+        "Mystery",
+        "Dinner Theatre"
+      ],
+      "summary": "Catalyst Theatre partners with The Venue-Hastings for a 1928 supper club mystery dinner with fine dining, live theatre and interactive clues.",
+      "tickets": "https://www.zeffy.com/en-US/ticketing/the-gilded-cage-an-immersive-mystery-dinner",
+      "searchBase": "the gilded cage: an immersive mystery dinner oct 2, 2026 oct 30, 2026 catalyst theatre the venue-hastings immersive mystery dinner theatre catalyst theatre partners with the venue-hastings for a 1928 supper club mystery dinner with fine dining, live theatre and interactive clues."
+    }
   ]
 }
