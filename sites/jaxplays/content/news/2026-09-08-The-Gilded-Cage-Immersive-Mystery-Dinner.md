@@ -1,5 +1,12 @@
 ---
 title: "Catalyst Theatre Brings Immersive Mystery Dinner to Hastings With 'The Gilded Cage'"
+featured_image:
+  src: /media/photos/2026-The-Gilded-Cage-Featured-Image.webp
+  alt: "Promotional poster for Catalyst Theatre's The Gilded Cage, an immersive mystery dinner at The Venue-Hastings."
+  caption: "Catalyst Theatre presents *The Gilded Cage: An Immersive Mystery Dinner* in Hastings, Fla., Oct. 2-3 and Oct. 30, 2026."
+  credit:
+    name: Catalyst Theatre
+    url: https://catalysttheatre.com/
 slug: The-Gilded-Cage-Immersive-Mystery-Dinner
 # date: 2026-09-08T23:55:00-04:00
 date: 2026-09-08T23:52:42-04:00

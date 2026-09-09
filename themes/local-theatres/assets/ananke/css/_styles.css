@@ -1490,7 +1490,7 @@ h1 a.jaxplayslogo {
 }
 
 .production-reviews .production-review-image {
-	aspect-ratio: 16 / 9;
+	aspect-ratio: 1.91 / 1;
 	background: #ddd;
 	display: block;
 	object-fit: cover;
@@ -1925,7 +1925,7 @@ h1 a.jaxplayslogo {
 }
 
 .article-directory-image {
-	aspect-ratio: 16 / 9;
+	aspect-ratio: 1.91 / 1;
 	background: #ddd;
 	border-radius: 0;
 	display: block;
@@ -2221,7 +2221,7 @@ h1 a.jaxplayslogo {
 }
 
 .article-single-media img {
-	aspect-ratio: 16 / 9;
+	aspect-ratio: 1.91 / 1;
 	display: block;
 	object-fit: cover;
 	width: 100%;
