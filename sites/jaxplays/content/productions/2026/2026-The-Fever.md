@@ -46,7 +46,9 @@ crew:
 - Production Design: Tyler Hammond
 - Costume Designer: Laurén Paragallo
 - Digital Media: Joshua Andrews
-orchestra:
+equity_billing:
+  people:
+    - Brian Niece
 genres:
 - Play
 - Drama
