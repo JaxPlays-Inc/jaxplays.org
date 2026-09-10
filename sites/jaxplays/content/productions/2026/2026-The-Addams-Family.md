@@ -27,24 +27,51 @@ website:
 tickets: https://www.theislandtheater.com/event-details/addams-family-2026-10-16-19-30
 show_details:
 cast:
-  - Gomez Addams: John McHone / Angelo Goderre
-  - Morticia Addams: Rachel Campbell / Charish DeLee
-  - Wednesday Addams: Audrey Paul / Luci DeLee
-  - Pugsley Addams: Paola Cruz / Keylan Miller
-  - Grandma Addams: Tricia Williams / Iana Harris
-  - Fester Addams: Jake Askey / Slava Melnyk
-  - Lurch: Luke Jacobson / Aaron Odegard
-  - Malcolm Beineke: Chris Thompson / Adam Thompson
-  - Alice Beineke: Peyton Lescher / Nikki Stephens
-  - Lucas Beineke: Vee Roberts / Xander Ferrera
+- Gomez Addams:
+    - John McHone
+    - Angelo Goderre
+  - Morticia Addams:
+      - Rachel Campbell
+      - Charish DeLee
+  - Wednesday Addams:
+      - Audrey Paul
+      - Luci DeLee
+  - Pugsley Addams:
+      - Paola Cruz
+      - Keylan Miller
+  - Grandma Addams:
+      - Tricia Williams
+      - Iana Harris
+  - Fester Addams:
+      - Jake Askey
+      - Slava Melnyk
+  - Lurch:
+      - Luke Jacobson
+      - Aaron Odegard
+  - Malcolm Beineke:
+      - Chris Thompson
+      - Adam Thompson
+  - Alice Beineke:
+      - Peyton Lescher
+      - Nikki Stephens
+  - Lucas Beineke:
+      - Vee Roberts
+      - Xander Ferrera
   - Ancestors:
-      - Allyson Norton (Saloon Girl)
-      - Carley Zell (Cowgirl)
-      - Victoria Moore (Bride)
-      - Kairi Dixon (Groom)
-      - Olivia Williams (Flapper)
-      - Emily Belmontes (Hippie Ancestor)
-      - Danny Rohman (Flight Attendant Ancestor)
+      - Saloon Girl:
+          - Allyson Norton
+      - Cowgirl:
+          - Carley Zell
+      - Bride:
+          - Victoria Moore
+      - Groom:
+          - Kairi Dixon
+      - Flapper:
+          - Olivia Williams
+      - Hippie Ancestor:
+          - Emily Belmontes
+      - Flight Attendant Ancestor:
+          - Danny Rohman
 understudies:
 crew:
   - Director:
