@@ -30,49 +30,41 @@ cast:
 - Gomez Addams:
     - John McHone
     - Angelo Goderre
-  - Morticia Addams:
-      - Rachel Campbell
-      - Charish DeLee
-  - Wednesday Addams:
-      - Audrey Paul
-      - Luci DeLee
-  - Pugsley Addams:
-      - Paola Cruz
-      - Keylan Miller
-  - Grandma Addams:
-      - Tricia Williams
-      - Iana Harris
-  - Fester Addams:
-      - Jake Askey
-      - Slava Melnyk
-  - Lurch:
-      - Luke Jacobson
-      - Aaron Odegard
-  - Malcolm Beineke:
-      - Chris Thompson
-      - Adam Thompson
-  - Alice Beineke:
-      - Peyton Lescher
-      - Nikki Stephens
-  - Lucas Beineke:
-      - Vee Roberts
-      - Xander Ferrera
-  - Ancestors:
-      - Saloon Girl:
-          - Allyson Norton
-      - Cowgirl:
-          - Carley Zell
-      - Bride:
-          - Victoria Moore
-      - Groom:
-          - Kairi Dixon
-      - Flapper:
-          - Olivia Williams
-      - Hippie Ancestor:
-          - Emily Belmontes
-      - Flight Attendant Ancestor:
-          - Danny Rohman
-understudies:
+- Morticia Addams:
+    - Rachel Campbell
+    - Charish DeLee
+- Wednesday Addams:
+    - Audrey Paul
+    - Luci DeLee
+- Pugsley Addams:
+    - Paola Cruz
+    - Keylan Miller
+- Grandma Addams:
+    - Tricia Williams
+    - Iana Harris
+- Fester Addams:
+    - Jake Askey
+    - Slava Melnyk
+- Lurch:
+    - Luke Jacobson
+    - Aaron Odegard
+- Malcolm Beineke:
+    - Chris Thompson
+    - Adam Thompson
+- Alice Beineke:
+    - Peyton Lescher
+    - Nikki Stephens
+- Lucas Beineke:
+    - Vee Roberts
+    - Xander Ferrera
+- Ancestors:
+    - Saloon Girl: Allyson Norton
+    - Cowgirl: Carley Zell
+    - Bride: Victoria Moore
+    - Groom: Kairi Dixon
+    - Flapper: Olivia Williams
+    - Hippie Ancestor: Emily Belmontes
+    - Flight Attendant Ancestor: Danny Rohman
 crew:
   - Director:
       - Chandler Spivey

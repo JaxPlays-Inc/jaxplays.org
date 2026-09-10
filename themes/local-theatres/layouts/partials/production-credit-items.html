@@ -5,9 +5,9 @@
 {{- range .items -}}
   {{- if reflect.IsMap . -}}
     {{- range $value := . -}}
-      {{- if eq (printf "%T" $value) "[]interface {}" -}}
+      {{- if or (reflect.IsSlice $value) (findRE "^\\[\\]" (printf "%T" $value)) -}}
         {{- range $entry := $value -}}
-          {{- if reflect.IsMap $entry -}}
+          {{- if or (reflect.IsMap $entry) (findRE "^\\s*[^:]+:\\s*[^:]+\\s*$" (printf "%v" $entry)) -}}
             {{- $hasNestedCredits = true -}}
           {{- end -}}
         {{- end -}}
@@ -20,23 +20,37 @@
   {{- range .items -}}
     {{- if reflect.IsMap . -}}
       {{- range $creditLabel, $value := . -}}
-        {{- $valueType := printf "%T" $value -}}
-        {{- if eq $valueType "[]interface {}" -}}
+        {{- if or (reflect.IsSlice $value) (findRE "^\\[\\]" (printf "%T" $value)) -}}
           {{- $hasNestedEntries := false -}}
           {{- range $entry := $value -}}
-            {{- if reflect.IsMap $entry -}}
+            {{- if or (reflect.IsMap $entry) (findRE "^\\s*[^:]+:\\s*[^:]+\\s*$" (printf "%v" $entry)) -}}
               {{- $hasNestedEntries = true -}}
             {{- end -}}
           {{- end -}}
           {{- if $hasNestedEntries -}}
+            {{- $groupItems := slice -}}
+            {{- range $entry := $value -}}
+              {{- if reflect.IsMap $entry -}}
+                {{- $groupItems = $groupItems | append $entry -}}
+              {{- else -}}
+                {{- $entryString := printf "%v" $entry | strings.TrimSpace -}}
+                {{- if findRE "^\\s*[^:]+:\\s*[^:]+\\s*$" $entryString -}}
+                  {{- $entryRole := replaceRE "^\\s*([^:]+):.*$" "$1" $entryString | strings.TrimSpace -}}
+                  {{- $entryName := replaceRE "^\\s*[^:]+:\\s*" "" $entryString | strings.TrimSpace -}}
+                  {{- $groupItems = $groupItems | append (dict $entryRole $entryName) -}}
+                {{- else -}}
+                  {{- $groupItems = $groupItems | append $entry -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
             <div class="production-credit-group">
               <h4 class="production-credit-group-title sectionline">{{ $creditLabel }}</h4>
               <div class="scroll-cast production-credit-strip">
-                {{- partial "production-credit-items.html" (dict "items" $value "site" $site "section" $section "equityPeople" $equityPeople) -}}
+                {{- partial "production-credit-items.html" (dict "items" $groupItems "site" $site "section" $section "equityPeople" $equityPeople) -}}
               </div>
             </div>
           {{- else -}}
-            {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section "equityPeople" $equityPeople) -}}
+            {{- partial "production-credit-items.html" (dict "items" (slice (dict $creditLabel $value)) "site" $site "section" $section "equityPeople" $equityPeople) -}}
           {{- end -}}
         {{- else if reflect.IsMap $value -}}
           <div class="production-credit-group">
@@ -46,7 +60,7 @@
             </div>
           </div>
         {{- else -}}
-          {{- partial "production-credit-items.html" (dict "items" (slice .) "site" $site "section" $section "equityPeople" $equityPeople) -}}
+          {{- partial "production-credit-items.html" (dict "items" (slice (dict $creditLabel $value)) "site" $site "section" $section "equityPeople" $equityPeople) -}}
         {{- end -}}
       {{- end -}}
     {{- else -}}
@@ -60,7 +74,7 @@
     {{- if reflect.IsMap . -}}
       {{- range $creditLabel, $value := . -}}
         {{- $role := printf "%v" $creditLabel | strings.TrimSpace -}}
-        {{- if eq (printf "%T" $value) "[]interface {}" -}}
+        {{- if or (reflect.IsSlice $value) (findRE "^\\[\\]" (printf "%T" $value)) -}}
           {{- range $person := $value -}}
             {{- $personName := printf "%v" $person | strings.TrimSpace | replaceRE "\\s*[*†‡]+$" "" | strings.TrimSpace -}}
             {{- if and $personName (ne $personName "<nil>") -}}

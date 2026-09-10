@@ -14,7 +14,10 @@
           {{- if reflect.IsMap . -}}
             {{- partial "allcredits-count-credit-items.html" (dict "items" (slice .) "nameMap" $nameMap "scratch" $scratch) -}}
           {{- else -}}
-            {{- $name := printf "%v" . -}}
+            {{- $name := printf "%v" . | strings.TrimSpace -}}
+            {{- if findRE "^\\s*[^:]+:\\s*[^:]+\\s*$" $name -}}
+              {{- $name = replaceRE "^\\s*[^:]+:\\s*" "" $name | strings.TrimSpace -}}
+            {{- end -}}
             {{- $canonicalName := index $nameMap $name | default $name -}}
             {{- $currentCount := index ($scratch.Get "allMap") $canonicalName | default 0 -}}
             {{- $scratch.SetInMap "allMap" $canonicalName (add $currentCount 1) -}}

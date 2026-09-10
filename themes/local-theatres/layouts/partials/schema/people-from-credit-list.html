@@ -37,7 +37,11 @@
                     {{- end -}}
                   {{- end -}}
                 {{- else -}}
-                  {{- $names = $names | append (printf "%v" .) -}}
+                  {{- $name := printf "%v" . | strings.TrimSpace -}}
+                  {{- if findRE "^\\s*[^:]+:\\s*[^:]+\\s*$" $name -}}
+                    {{- $name = replaceRE "^\\s*[^:]+:\\s*" "" $name | strings.TrimSpace -}}
+                  {{- end -}}
+                  {{- $names = $names | append $name -}}
                 {{- end -}}
               {{- end -}}
             {{- end -}}
