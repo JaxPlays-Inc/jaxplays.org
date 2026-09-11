@@ -2,6 +2,12 @@
 title: "A Classic Theatre Opens Its 2026-2027 Season With Bess Wohl's 'Grand Horizons'"
 slug: A-Classic-Theatre-Grand-Horizons
 date: 2026-09-09T22:43:40-04:00
+featured_image:
+  src: /media/photos/2026-09-09-A-Classic-Theatre-Grand-Horizons.webp
+  alt: "Graphic for A Classic Theatre's 2026-2027 season opener featuring Grand Horizons and other season title art."
+  caption: "A Classic Theatre opens its 2026-2027 season with Bess Wohl's *Grand Horizons* at The Waterworks in St. Augustine."
+  credit:
+    name: "Logos: A Classic Theatre, Collage: Ray Hollister"
 authors:
 - Maureen E. McCluskey, Ed.D.
 show_reading_time: true
@@ -13,7 +19,7 @@ The company's momentum comes backed by deep local roots. Established in 2007 by 
 
 ### Unbeatable Access
 
-This year's marquee lineup showcases heavyweight talent, featuring works by Tony Award and Pulitzer Prize winners Bess Wohl (*Grand Horizons*), Christopher Durang (*Vanya and Sonia and Masha and Spike*), Sarah Ruhl (*Dead Man's Cell Phone*) and Steven Dietz (*Becky's New Car*).
+This year's marquee lineup showcases heavyweight talent: Tony Award and Pulitzer Prize winner [[Bess Wohl]] ([[production:2026 Grand Horizons]]), Tony Award winner [[Christopher Durang]] ([[production:2026 Vanya and Sonia and Masha and Spike]]), MacArthur Fellow and two-time Pulitzer Prize finalist [[Sarah Ruhl]] ([[production:2027 Dead Mans Cell Phone|Dead Man's Cell Phone]]) and PEN Center USA and Edgar Award winner [[Steven Dietz]] ([[production:2027 Beckys New Car|Becky's New Car]]).
 
 Adding incredible prestige to the lineup, ACT brings work from celebrated playwright Bess Wohl — fresh off her historic 2026 Tony Award win for Best Play (and 2026 Pulitzer Prize for Drama) for her masterpiece *Liberation*. ACT is thrilled to present her hit, multigenerational comedy [[production:2026 Grand Horizons|Grand Horizons]] as a featured highlight of the new season. Directed by David Buchman, *Grand Horizons* — which earned a 2020 Tony Award nomination for Best Play — dives headfirst into family mechanics.
 
