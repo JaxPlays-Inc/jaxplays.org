@@ -16,7 +16,7 @@ showtimes:
   - 2026-10-02 19:30:00
   - 2026-10-03 19:30:00
   - 2026-10-04 15:00:00
-featured_image: 2026-Company.webp
+featured_image: 2026-Company.webp?v=081047
 featured_image_alt: "City Repertory Theatre ticket graphic for Company, featuring the title over a stylized city skyline and colorful geometric shapes."
 featured_image_caption: "City Repertory Theatre opens its 16th season with Stephen Sondheim and George Furth's Company."
 featured_image_attr: City Repertory Theatre
