@@ -2,9 +2,9 @@
 title: "A Night at the Sock-Hopera"
 subtitle: "Menotti's Old Maid and the Thief paired with 1950s songs"
 theatre: Amelia Island Opera
-venue: Amelia Community Theatre
+venue: Main Stage
 season:
-date: 2026-09-12T13:10:00-04:00
+date: 2026-09-12T17:49:51-04:00
 opening_date: 2026-11-06
 closing_date: 2026-11-07
 showtimes:

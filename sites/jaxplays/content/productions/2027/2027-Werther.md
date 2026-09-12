@@ -1,9 +1,9 @@
 ---
 title: "Werther"
 theatre: Amelia Island Opera
-venue: Amelia Community Theatre
+venue: Main Stage
 season:
-date: 2026-09-12T13:10:00-04:00
+date: 2026-09-12T17:49:55-04:00
 opening_date: 2027-05-14
 closing_date: 2027-05-16
 showtimes:

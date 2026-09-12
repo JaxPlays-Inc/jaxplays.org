@@ -1656,7 +1656,12 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "Sally Perks, Hermeoone, Blondo Malfoy, Rowena, Rita Scooter, Bippy"
+          "Sally Perks",
+          "Hermeoone",
+          "Blondo Malfoy",
+          "Rowena",
+          "Rita Scooter",
+          "Bippy"
         ]
       },
       {
@@ -16216,7 +16221,7 @@
         "approx_date": "",
         "theatre": "City Repertory Theatre",
         "venue": "City Repertory Theatre",
-        "featured_image": "2026-Company.webp",
+        "featured_image": "2026-Company.webp?v=081047",
         "credits": [
           "David"
         ]
@@ -16710,7 +16715,7 @@
         "approx_date": "",
         "theatre": "City Repertory Theatre",
         "venue": "City Repertory Theatre",
-        "featured_image": "2026-Company.webp",
+        "featured_image": "2026-Company.webp?v=081047",
         "credits": [
           "Music Director"
         ]
@@ -27845,7 +27850,8 @@
         "featured_image": "2024-Cadillac-Crew.webp",
         "credits": [
           "Director",
-          "Sound & Video Designer"
+          "Sound Designer",
+          "Video Designer"
         ]
       },
       {
@@ -35175,6 +35181,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-addams-family/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-The-Addams-Family-Poster.webp",
+        "credits": [
+          "Music Director"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-25th-annual-putnam-county-spelling-bee/",
         "title": "The 25th Annual Putnam County Spelling Bee",
         "opening_date": "2026-08-07",
@@ -40751,7 +40769,8 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "Cedric, Mr. Voldy"
+          "Cedric",
+          "Mr. Voldy"
         ]
       },
       {
@@ -42942,7 +42961,8 @@
         "venue": "WJCT Studio B",
         "featured_image": "2025-American-Buffalo.webp",
         "credits": [
-          "Scenic & Prop Design"
+          "Scenic Design",
+          "Prop Design"
         ]
       },
       {
@@ -42980,7 +43000,8 @@
         "venue": "San Marco Church",
         "featured_image": "2024-Cadillac-Crew.webp",
         "credits": [
-          "Set & Props Designer"
+          "Set Designer",
+          "Props Designer"
         ]
       },
       {
@@ -46915,7 +46936,10 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "Leanne, Ginny, Helga, Frenchy"
+          "Leanne",
+          "Ginny",
+          "Helga",
+          "Frenchy"
         ]
       },
       {
@@ -50348,7 +50372,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Set Design / Technical Direction",
+          "Set Design",
+          "Technical Direction",
           "Set Construction"
         ]
       },
@@ -73859,7 +73884,14 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "Hannah, First Headmaster, Professor McG, Professor Sprouty, Xavia Jones, Professor Lanny, Runes Teacher, Ms. Babble"
+          "Hannah",
+          "First Headmaster",
+          "Professor McG",
+          "Professor Sprouty",
+          "Xavia Jones",
+          "Professor Lanny",
+          "Runes Teacher",
+          "Ms. Babble"
         ]
       },
       {
@@ -77574,7 +77606,7 @@
         "approx_date": "",
         "theatre": "City Repertory Theatre",
         "venue": "City Repertory Theatre",
-        "featured_image": "2026-Company.webp",
+        "featured_image": "2026-Company.webp?v=081047",
         "credits": [
           "Robert"
         ]
@@ -105877,7 +105909,7 @@
         "approx_date": "",
         "theatre": "City Repertory Theatre",
         "venue": "City Repertory Theatre",
-        "featured_image": "2026-Company.webp",
+        "featured_image": "2026-Company.webp?v=081047",
         "credits": [
           "Harry"
         ]
@@ -116438,7 +116470,7 @@
         "venue": "Amelia Musical Playhouse",
         "featured_image": "2026-Come-From-Away-3.webp",
         "credits": [
-          "Piano / Music Director"
+          "Piano"
         ]
       },
       {
@@ -121371,6 +121403,18 @@
   },
   "john-tibbetts": {
     "cast": [
+      {
+        "permalink": "/productions/2026-a-night-at-the-sock-hopera/",
+        "title": "A Night at the Sock-Hopera",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2026-A-Night-at-the-Sock-Hopera.webp",
+        "credits": [
+          "Featured Soloist"
+        ]
+      },
       {
         "permalink": "/productions/2026-trouble-in-tahiti-il-signor-bruschino/",
         "title": "Trouble in Tahiti & Il Signor Bruschino",
@@ -129631,7 +129675,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Dancer 4 / Cesar"
+          "Cesar",
+          "Dancer 4"
         ]
       }
     ],
@@ -133181,7 +133226,17 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "Ernie Mac, A Very Tall Man, Seamus, A Certain Potions Teacher, Professor Turban, Ghost History Teacher, Professor Locky, Mr. Nick, Sal, Second Headmaster, Real Mr. Moody"
+          "Ernie Mac",
+          "A Very Tall Man",
+          "Seamus",
+          "A Certain Potions Teacher",
+          "Professor Turban",
+          "Ghost History Teacher",
+          "Professor Locky",
+          "Mr. Nick",
+          "Sal",
+          "Second Headmaster",
+          "Real Mr. Moody"
         ]
       },
       {
@@ -133910,6 +133965,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2027-werther/",
+        "title": "Werther",
+        "opening_date": "2027-05-14",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2027-Werther.webp",
+        "credits": [
+          "Conductor"
+        ]
+      },
       {
         "permalink": "/productions/2026-trouble-in-tahiti-il-signor-bruschino/",
         "title": "Trouble in Tahiti & Il Signor Bruschino",
@@ -144284,7 +144351,14 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "J. Finch Fletchley, Uncle Dave, Goyle, A Fat Friar, Clumsy Longbottom, Hermeoone #3, Viktor, Mr. Bagman, Zach Smith"
+          "Uncle Dave",
+          "Goyle",
+          "A Fat Friar",
+          "Clumsy Longbottom",
+          "Hermeoone #3",
+          "Viktor",
+          "Mr. Bagman",
+          "Zach Smith"
         ]
       }
     ],
@@ -166197,6 +166271,18 @@
   "mckenna-slack": {
     "cast": [
       {
+        "permalink": "/productions/2026-a-night-at-the-sock-hopera/",
+        "title": "A Night at the Sock-Hopera",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2026-A-Night-at-the-Sock-Hopera.webp",
+        "credits": [
+          "Laetitia"
+        ]
+      },
+      {
         "permalink": "/productions/2025-carmen/",
         "title": "Carmen",
         "opening_date": "2025-12-31",
@@ -167734,7 +167820,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Dancer 3 / Maria"
+          "Maria",
+          "Dancer 3"
         ]
       },
       {
@@ -176730,7 +176817,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Candy / Club Singer"
+          "Candy",
+          "Club Singer"
         ]
       },
       {
@@ -182901,6 +182989,18 @@
   },
   "paola-cruz": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-The-Addams-Family-Poster.webp",
+        "credits": [
+          "Pugsley Addams"
+        ]
+      },
       {
         "permalink": "/productions/2026-once-on-this-island/",
         "title": "Once On This Island",
@@ -192548,7 +192648,12 @@
         "venue": "The Florida Ballet",
         "featured_image": "2025-Puffs.webp",
         "credits": [
-          "Susie Bones, Harry, Colin, Hermeoone #2, Rig Gryff, Myrtle"
+          "Susie Bones",
+          "Harry",
+          "Colin",
+          "Hermeoone #2",
+          "Rig Gryff",
+          "Myrtle"
         ]
       },
       {
@@ -200540,7 +200645,20 @@
     "orchestra": []
   },
   "robyn-marie-lamp": {
-    "cast": [],
+    "cast": [
+      {
+        "permalink": "/productions/2026-a-night-at-the-sock-hopera/",
+        "title": "A Night at the Sock-Hopera",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2026-A-Night-at-the-Sock-Hopera.webp",
+        "credits": [
+          "Miss Pinkerton"
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -209689,6 +209807,18 @@
   },
   "sebastian-miller": {
     "cast": [
+      {
+        "permalink": "/productions/2027-werther/",
+        "title": "Werther",
+        "opening_date": "2027-05-14",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2027-Werther.webp",
+        "credits": [
+          "Bruhlmann"
+        ]
+      },
       {
         "permalink": "/productions/2026-1776/",
         "title": "1776",
@@ -222242,7 +222372,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Stage Manager / Fight Director",
+          "Stage Manager",
+          "Fight Director",
           "Stage Crew"
         ]
       },
@@ -224301,7 +224432,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Executive Producer / Director"
+          "Executive Producer",
+          "Director"
         ]
       },
       {
@@ -227828,6 +227960,18 @@
   "tricia-williams": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-addams-family/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-The-Addams-Family-Poster.webp",
+        "credits": [
+          "Grandma Addams"
+        ]
+      },
+      {
         "permalink": "/productions/2024-fiddler-on-the-roof/",
         "title": "Fiddler on the Roof",
         "opening_date": "2024-11-08",
@@ -230342,6 +230486,30 @@
   "victoria-isernia": {
     "cast": [
       {
+        "permalink": "/productions/2027-werther/",
+        "title": "Werther",
+        "opening_date": "2027-05-14",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2027-Werther.webp",
+        "credits": [
+          "Charlotte"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-a-night-at-the-sock-hopera/",
+        "title": "A Night at the Sock-Hopera",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Amelia Island Opera",
+        "venue": "Main Stage",
+        "featured_image": "2026-A-Night-at-the-Sock-Hopera.webp",
+        "credits": [
+          "Featured Soloist"
+        ]
+      },
+      {
         "permalink": "/productions/2026-trouble-in-tahiti-il-signor-bruschino/",
         "title": "Trouble in Tahiti & Il Signor Bruschino",
         "opening_date": "2026-05-22",
@@ -230393,7 +230561,8 @@
         "venue": "Alhambra Theatre & Dining",
         "featured_image": "2026-Saturday-Night-Fever.webp",
         "credits": [
-          "Candy / Club Singer"
+          "Candy",
+          "Club Singer"
         ]
       },
       {

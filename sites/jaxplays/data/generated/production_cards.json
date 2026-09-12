@@ -28439,6 +28439,34 @@
     "searchBase": "a midsummer night's dream jun 19, 2026 jun 28, 2026 the island theater the island theater play comedy shakespeare shakespeare's comedy sends lovers, fairies, and amateur actors into a moonlit tangle of mistaken affections."
   },
   {
+    "title": "A Night at the Sock-Hopera",
+    "url": "/productions/2026-a-night-at-the-sock-hopera/",
+    "contentPath": "productions/2026/2026-A-Night-at-the-Sock-Hopera",
+    "poster": "/media/posters/2026-A-Night-at-the-Sock-Hopera.webp",
+    "posterAlt": "Amelia Island Opera presents A Night at the Sock-Hopera, featuring Menotti's Old Maid and the Thief paired with 1950s songs.",
+    "openingDate": "2026-11-06",
+    "closingDate": "2026-11-07",
+    "openingLabel": "Nov 6, 2026",
+    "openingMonthLabel": "November 2026",
+    "openingBadgeLabel": "Nov 6, 2026",
+    "closingLabel": "Nov 7, 2026",
+    "theatre": "Amelia Island Opera",
+    "venues": [
+      "Main Stage"
+    ],
+    "allVenues": [
+      "Main Stage"
+    ],
+    "genres": [
+      "Opera",
+      "Concert",
+      "1950s"
+    ],
+    "summary": "A 1950s-themed Amelia Island Opera event pairing Menotti's Old Maid and the Thief with songs from the era.",
+    "tickets": "",
+    "searchBase": "a night at the sock-hopera nov 6, 2026 nov 7, 2026 amelia island opera main stage opera concert 1950s a 1950s-themed amelia island opera event pairing menotti's old maid and the thief with songs from the era."
+  },
+  {
     "title": "A Young Lady's Guide to Sabotage",
     "url": "/productions/2026-a-young-ladys-guide-to-sabotage/",
     "contentPath": "productions/2026/2026-A-Young-Ladys-Guide-to-Sabotage",
@@ -29183,7 +29211,7 @@
     "title": "Company",
     "url": "/productions/2026-company/",
     "contentPath": "productions/2026/2026-Company",
-    "poster": "/media/posters/2026-Company.webp",
+    "poster": "/media/posters/2026-Company.webp?v=081047",
     "posterAlt": "City Repertory Theatre ticket graphic for Company, featuring the title over a stylized city skyline and colorful geometric shapes.",
     "openingDate": "2026-09-18",
     "closingDate": "2026-10-04",
@@ -29365,9 +29393,9 @@
       "Comedy",
       "Horror"
     ],
-    "summary": "Act II Players presents John Mattera's stage adaptation of Dracula, blending spooky chills, comedy, and gothic melodrama.",
+    "summary": "John Mattera's Dracula blends spooky chills and laugh-out-loud comedy as the vampire moves next to an asylum. A fast-paced, twisty October theatrical outing!",
     "tickets": "https://our.show/3rken4mp4z",
-    "searchBase": "dracula oct 9, 2026 oct 11, 2026 act ii players act ii players black box theatre play comedy horror act ii players presents john mattera's stage adaptation of dracula, blending spooky chills, comedy, and gothic melodrama."
+    "searchBase": "dracula oct 9, 2026 oct 11, 2026 act ii players act ii players black box theatre play comedy horror john mattera's dracula blends spooky chills and laugh-out-loud comedy as the vampire moves next to an asylum. a fast-paced, twisty october theatrical outing!"
   },
   {
     "title": "Edgar Allan Poe: The Musical",
@@ -30995,6 +31023,32 @@
     "summary": "A one-night cabaret fundraiser celebrating The 5 & Dime's first 15 years with songs, stories and anniversary festivities.",
     "tickets": "https://www.eventbrite.com/e/the-5-dime-songbook-tickets-1984311021682",
     "searchBase": "the 5 & dime songbook may 10, 2026 may 10, 2026 the 5 & dime the florida ballet cabaret fundraiser concert a one-night cabaret fundraiser celebrating the 5 & dime's first 15 years with songs, stories and anniversary festivities."
+  },
+  {
+    "title": "The Addams Family",
+    "url": "/productions/2026-the-addams-family/",
+    "contentPath": "productions/2026/2026-The-Addams-Family",
+    "poster": "/media/posters/2026-The-Addams-Family-Poster.webp",
+    "posterAlt": "Poster for The Addams Family",
+    "openingDate": "2026-10-16",
+    "closingDate": "2026-11-01",
+    "openingLabel": "Oct 16, 2026",
+    "openingMonthLabel": "October 2026",
+    "openingBadgeLabel": "Oct 16, 2026",
+    "closingLabel": "Nov 1, 2026",
+    "theatre": "The Island Theater",
+    "venues": [],
+    "allVenues": [
+      "The Island Theater"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy",
+      "Drama"
+    ],
+    "summary": "The Addams Family comes to life in this hilarious musical comedy where Wednesday falls in love and family secrets turn dinner into chaos.",
+    "tickets": "https://www.theislandtheater.com/event-details/addams-family-2026-10-16-19-30",
+    "searchBase": "the addams family oct 16, 2026 nov 1, 2026 the island theater the island theater musical comedy drama the addams family comes to life in this hilarious musical comedy where wednesday falls in love and family secrets turn dinner into chaos."
   },
   {
     "title": "The Battle Of Shallowford",
@@ -32658,5 +32712,33 @@
     "summary": "Paul Slade Smith's romantic comedy brings writers, actors and one adored leading lady together for a theatrical weekend in Newport.",
     "tickets": "https://ci.ovationtix.com/34919/production/1268932",
     "searchBase": "theatre people, or the angel next door apr 17, 2027 may 2, 2027 theatre jacksonville harold k. smith playhouse play comedy romance paul slade smith's romantic comedy brings writers, actors and one adored leading lady together for a theatrical weekend in newport."
+  },
+  {
+    "title": "Werther",
+    "url": "/productions/2027-werther/",
+    "contentPath": "productions/2027/2027-Werther",
+    "poster": "/media/posters/2027-Werther.webp",
+    "posterAlt": "Amelia Island Opera presents Massenet's Werther at Amelia Community Theatre.",
+    "openingDate": "2027-05-14",
+    "closingDate": "2027-05-16",
+    "openingLabel": "May 14, 2027",
+    "openingMonthLabel": "May 2027",
+    "openingBadgeLabel": "May 14, 2027",
+    "closingLabel": "May 16, 2027",
+    "theatre": "Amelia Island Opera",
+    "venues": [
+      "Main Stage"
+    ],
+    "allVenues": [
+      "Main Stage"
+    ],
+    "genres": [
+      "Opera",
+      "Drama",
+      "Romance"
+    ],
+    "summary": "Amelia Island Opera presents Massenet's romantic opera Werther at Amelia Community Theatre.",
+    "tickets": "",
+    "searchBase": "werther may 14, 2027 may 16, 2027 amelia island opera main stage opera drama romance amelia island opera presents massenet's romantic opera werther at amelia community theatre."
   }
 ]
