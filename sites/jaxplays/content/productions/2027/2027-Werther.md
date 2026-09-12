@@ -8,8 +8,8 @@ opening_date: 2027-05-14
 closing_date: 2027-05-16
 showtimes:
 featured_image: 2027-Werther.webp
-featured_image_alt: "Amelia Island Opera presents Massenet's Werther at Amelia Community Theatre."
-featured_image_caption: "Werther at Amelia Community Theatre"
+featured_image_alt: "Amelia Island Opera presents Massenet's Werther at Amelia Community Theatre's Main Stage."
+featured_image_caption: "Werther at Amelia Community Theatre's Main Stage"
 featured_image_attr: Amelia Island Opera
 featured_image_attr_link: https://www.ameliaislandopera.org/
 program:
@@ -40,6 +40,6 @@ crew:
 orchestra:
 source: Amelia Island Opera email to JaxPlays, Sept. 12, 2026
 ---
-Amelia Island Opera presents Jules Massenet's *Werther* at Amelia Community Theatre in May 2027.
+Amelia Island Opera presents Jules Massenet's *Werther* at Amelia Community Theatre's Main Stage in May 2027.
 
 The cast features Isaac Hurtado as Werther, Victoria Isernia as Charlotte, Brooklyn Snow as Sophie and Jake Stamatis as Albert, with Anthony Offerle, Andre Chiang, Dylan Elza, Alexis Elza and Sebastian Miller. Keith Chambers conducts.
