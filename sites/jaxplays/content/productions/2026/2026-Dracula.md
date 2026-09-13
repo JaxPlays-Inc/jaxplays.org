@@ -23,15 +23,28 @@ show_details:
   - Basis: "*[[w:Dracula]]* by [[w:Bram Stoker]]"
   - Licensing: Dramatic Publishing
 cast:
+  - Jonathan Harker / Arthur Holmwood: Derreck Koch
+  - Count Dracula: Billy Lister
+  - Mrs. Martha Westenra / Vampire / Servant: Lisa Hunt
+  - Mr. Henry Westenra: Jim Warren
+  - Charles (the Butler): Dennis Stouse
+  - Miss Lucy Westenra: Chloe Dresback
+  - Miss Mina Murray: Rachel Galvin
+  - Dr. Peter Seward: Tom Mackin
+  - Professor Van Helsing: Marilyn Painter
+  - Renfield / Vampire: Morgan White
 crew:
+  - Director: Ava Fixel
+  - Producer: Jamie Glavich
+  - Stage Manager: Trish Mackin
 orchestra:
 genres:
   - Play
   - Comedy
   - Horror
 description: "John Mattera's Dracula blends spooky chills and laugh-out-loud comedy as the vampire moves next to an asylum. A fast-paced, twisty October theatrical outing!"
-source: Submitted through JaxPlays production form
-source_date: 2026-08-28
-source_url: https://jaxplays.org/apply/production/
+source: Linear submission JAX-5853
+source_date: 2026-09-11
+source_url: https://linear.app/jaxplays/issue/JAX-5853/congratulations-to-our-cast-for-dracula-performances-october-9-10-and
 ---
 Act II Players is thrilled to present John Mattera's stage adaptation of *Dracula*, a thrilling blend of spooky chills and laugh-out-loud comedy. Equal parts scary and funny, this fast-paced show follows the famous vampire as he sets up shop next door to an insane asylum. Packed with eccentric characters, theatrical melodrama, and an unexpected twist on Bram Stoker's classic story that will keep you guessing, it's the perfect October outing for all those who enjoy spooky-yet-funny theatre.
