@@ -12,7 +12,7 @@ showtimes:
   - 2026-10-02 19:00:00
   - 2026-10-03 19:00:00
   - 2026-10-04 14:00:00
-featured_image: The-Children-s-Hour.webp
+featured_image: 2026-The-Childrens-Hour.webp
 featured_image_alt: "Poster for The Children's Hour"
 featured_image_caption: "Poster for The Children's Hour"
 featured_image_attr:
@@ -21,8 +21,7 @@ program:
 website:
 tickets: "https://flaglercollegetheatre.ludus.com/index.php"
 show_details:
-  - Playwright: Lillian Hellman
-  - Licensing: Concord Theatricals
+  - Playwright: "[[Lillian Hellman]]"
 cast:
 understudies:
 crew:
