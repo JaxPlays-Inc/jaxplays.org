@@ -20,6 +20,9 @@ featured_image_attr_link:
 program:
 website:
 tickets: "https://flaglercollegetheatre.ludus.com/index.php"
+show_details:
+  - Playwright: Lillian Hellman
+  - Licensing: Concord Theatricals
 cast:
 understudies:
 crew:
