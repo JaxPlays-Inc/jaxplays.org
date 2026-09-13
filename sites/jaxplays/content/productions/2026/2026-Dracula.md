@@ -23,16 +23,21 @@ show_details:
   - Basis: "*[[w:Dracula]]* by [[w:Bram Stoker]]"
   - Licensing: Dramatic Publishing
 cast:
-  - Jonathan Harker / Arthur Holmwood: Derreck Koch
+  - Jonathan Harker: Derreck Koch
+  - Arthur Holmwood: Derreck Koch
   - Count Dracula: Billy Lister
-  - Mrs. Martha Westenra / Vampire / Servant: Lisa Hunt
+  - Mrs. Martha Westenra: Lisa Hunt
+  - Servant: Lisa Hunt
   - Mr. Henry Westenra: Jim Warren
   - Charles (the Butler): Dennis Stouse
   - Miss Lucy Westenra: Chloe Dresback
   - Miss Mina Murray: Rachel Galvin
   - Dr. Peter Seward: Tom Mackin
   - Professor Van Helsing: Marilyn Painter
-  - Renfield / Vampire: Morgan White
+  - Renfield: Morgan White
+  - Vampire: 
+    - Morgan White
+    - Lisa Hunt
 crew:
   - Director: Ava Fixel
   - Producer: Jamie Glavich
