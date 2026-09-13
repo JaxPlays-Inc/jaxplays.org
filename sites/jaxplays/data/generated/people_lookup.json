@@ -284,6 +284,11 @@
     "permalink": "/people/alexis-brockway/",
     "featured_image": "Alexis-Brockway.webp"
   },
+  "alexis-elza": {
+    "title": "Alexis Elza",
+    "permalink": "/people/alexis-elza/",
+    "featured_image": "Alexis-Elza.webp"
+  },
   "alexis-hopper": {
     "title": "Alexis Hopper",
     "permalink": "/people/alexis-hopper/",
@@ -443,6 +448,11 @@
     "title": "Andra Smith",
     "permalink": "/people/andra-smith/",
     "featured_image": ""
+  },
+  "andre-chiang": {
+    "title": "Andre Chiang",
+    "permalink": "/people/andre-chiang/",
+    "featured_image": "Andre-Chiang.webp"
   },
   "andre-dimapilis": {
     "title": "Andre Dimapilis",
@@ -708,6 +718,11 @@
     "title": "Anthony Mincey",
     "permalink": "/people/anthony-mincey/",
     "featured_image": ""
+  },
+  "anthony-offerle": {
+    "title": "Anthony Offerle",
+    "permalink": "/people/anthony-offerle/",
+    "featured_image": "Anthony-Offerle.webp"
   },
   "anthony-rodriguez": {
     "title": "Anthony Rodriguez",
@@ -1203,6 +1218,11 @@
     "title": "Beth Wade",
     "permalink": "/people/beth-wade/",
     "featured_image": ""
+  },
+  "bethany-griffin": {
+    "title": "Bethany Griffin",
+    "permalink": "/people/bethany-griffin/",
+    "featured_image": "Bethany-Griffin.webp"
   },
   "bethany-paolini": {
     "title": "Bethany Paolini",
@@ -1758,6 +1778,11 @@
     "title": "Brooklyn Klekamp",
     "permalink": "/people/brooklyn-klekamp/",
     "featured_image": "Brooklyn-Klekamp.webp"
+  },
+  "brooklyn-snow": {
+    "title": "Brooklyn Snow",
+    "permalink": "/people/brooklyn-snow/",
+    "featured_image": "Brooklyn-Snow.webp"
   },
   "brooks-anne-meierdierks": {
     "title": "Brooks Anne Meierdierks",
@@ -3709,6 +3734,11 @@
     "permalink": "/people/dwight-stillson/",
     "featured_image": ""
   },
+  "dylan-elza": {
+    "title": "Dylan Elza",
+    "permalink": "/people/dylan-elza/",
+    "featured_image": "Dylan-Elza.webp"
+  },
   "e-noah-perez": {
     "title": "E. Noah Perez",
     "permalink": "/people/e-noah-perez/",
@@ -4158,6 +4188,11 @@
     "title": "Emily Cordell",
     "permalink": "/people/emily-cordell/",
     "featured_image": ""
+  },
+  "emily-geller": {
+    "title": "Emily Geller",
+    "permalink": "/people/emily-geller/",
+    "featured_image": "Emily-Geller.webp"
   },
   "emily-johns": {
     "title": "Emily Johns",
@@ -5609,6 +5644,11 @@
     "permalink": "/people/irma-stockwell/",
     "featured_image": ""
   },
+  "isaac-hurtado": {
+    "title": "Isaac Hurtado",
+    "permalink": "/people/isaac-hurtado/",
+    "featured_image": "Isaac-Hurtado.webp"
+  },
   "isaac-peiser": {
     "title": "Isaac Peiser",
     "permalink": "/people/isaac-peiser/",
@@ -5838,6 +5878,11 @@
     "title": "Jake Pearce",
     "permalink": "/people/jake-pearce/",
     "featured_image": "Jake-Pearce.webp"
+  },
+  "jake-stamatis": {
+    "title": "Jake Stamatis",
+    "permalink": "/people/jake-stamatis/",
+    "featured_image": "Jake-Stamatis.webp"
   },
   "jalen-hardy": {
     "title": "Jalen Hardy",
@@ -6389,6 +6434,11 @@
     "permalink": "/people/jesse-hoagland/",
     "featured_image": ""
   },
+  "jesse-malgieri": {
+    "title": "Jesse Malgieri",
+    "permalink": "/people/jesse-malgieri/",
+    "featured_image": "Jesse-Malgieri.webp"
+  },
   "jesse-moreno": {
     "title": "Jesse Moreno",
     "permalink": "/people/jesse-moreno/",
@@ -6765,11 +6815,6 @@
     "featured_image": ""
   },
   "john-tibbetts": {
-    "title": "John Tibbetts",
-    "permalink": "/people/john-tibbetts/",
-    "featured_image": "John-Tibbetts.webp"
-  },
-  "john-tibbetts-ii": {
     "title": "John Tibbetts",
     "permalink": "/people/john-tibbetts/",
     "featured_image": "John-Tibbetts.webp"
@@ -11612,7 +11657,7 @@
   "sebastian-miller": {
     "title": "Sebastian Miller",
     "permalink": "/people/sebastian-miller/",
-    "featured_image": ""
+    "featured_image": "Sebastian-Miller.webp"
   },
   "seth-langner": {
     "title": "Seth Langner",

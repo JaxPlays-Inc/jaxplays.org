@@ -4,20 +4,27 @@ date: 2025-03-25T14:12:03-04:00
 featured_image: Robyn-Marie-Lamp.webp
 featured_image_attr: 
 featured_image_attr_link: 
-featured_image_alt: 
-featured_image_caption: 
+featured_image_alt:
+featured_image_caption:
+roles:
+  - Actor
+  - Soprano
 socials:
   facebook: robynmarielamp
-  twitter: 
+  twitter:
   instagram: robynmarielamp
-  linkedin: 
-  ibdb: 
+  linkedin:
+  ibdb:
   imdb:
   youtube: "@robynmarielamp"
+  stagetime: robyn-lamp
   website: https://www.robynmarielamp.com/
+source: Amelia Island Opera cast bio, 2026
 ---
-Robyn Marie Lamp is a powerful Florida-based soprano whose operatic and concert career is flourishing. “Soprano star quality,” “radiant pianissimos,” and “silvery soprano timbre,” are just some of the ways critics describe her. Her 2023-24 season will include the role of Donna Anna in Mozart's *Don Giovanni* with both Opera Tampa and Winter Opera St. Louis, as well as soloist in *Considering Matthew Shepard* with Master Chorale of South Florida. Highlights of 2022-23 included the role of Mimì in Puccini’s *La bohème* with Opera in Williamsburg, Julia Child in Hoiby’s *Bon Appétit!* with First Coast Opera, and soprano soloist in Verdi’s *Requiem* with the Masterworks Chorus at Carnegie Hall. She also was the soprano soloist in Handel’s *Messiah* with Palm Beach Symphony, an ensemble member of the Grammy-nominated vocal ensemble Seraphic Fire, and a featured soloist in galas for Opera Orlando, Opera Tampa and Gulfshore Opera. 
+Soprano Robyn Marie Lamp is a multifaceted artist and arts leader whose work spans performance, administration and community engagement. She is the co-founder of [[theatre:Amelia Island Opera]], Executive Director of the Amelia Island Chamber Music Festival and, from 2015 to 2019, served as Company Manager for Ft. Lauderdale's Opera Fusion. She is also a selected participant in the 2025-26 Leadership Nassau program through the Nassau County Chamber of Commerce.
 
-Coming out of the COVID pandemic shutdown, 2021-22 highlights included the title role in Puccini’s *Tosca* with Gulfshore Opera, soprano soloist in Beethoven’s *Egmont Op. 84* with Orchestra Miami and soprano soloist in Mozart’s *Requiem* with both Palm Beach Symphony and Master Chorale of South Florida. She also won first place in the D’Angelo Young Artist Vocal Competition at Opera Tampa that season. 
+Acclaimed for her "radiant pianissimos," "silvery soprano timbre" and "soprano star quality," Lamp has sung leading roles including Donna Anna in *Don Giovanni*, Mimi in *La boheme*, Tosca in *Tosca*, Clotilde in *Norma*, Julia Child in *Bon Appetit!*, Lucrezia in *Lucrezia Borgia*, Suor Angelica in *Suor Angelica* and Adele in *Il pirata*.
 
-Lamp co-founded [[theatre:Amelia Island Opera]] in 2021, a company she formed to serve her arts-hungry North Florida community; she is also company manager for IlluminArts, a Miami-based nonprofit that presents world-class performances of classical music to Miami’s vibrant arts audiences.
+Her concert work includes Verdi's *Requiem* at Carnegie Hall, Vaughan Williams' *Dona Nobis Pacem*, Beethoven's Ninth Symphony, *Egmont* and *Sechs Lieder von Gellert*, Handel's *Messiah*, Mozart's *Requiem* and Barber's *Knoxville: Summer of 1915*. She has appeared with Boston Lyric Opera, Florida Grand Opera, Opera Tampa, Winter Opera St. Louis, Sarasota Opera, Opera in Williamsburg, Gulfshore Opera, Palm Beach Symphony, South Florida Symphony, Seraphic Fire and Orchestra Miami.
+
+Lamp has earned first place in the D'Angelo Young Artist Vocal Competition and the Lois Alba Aria Competition, as well as recognition in the Metropolitan Opera Eric and Dominique Laffont Competition, the Gerda Lissner International Vocal Competition, Opera Tampa's competition and the Soma International Foundation.

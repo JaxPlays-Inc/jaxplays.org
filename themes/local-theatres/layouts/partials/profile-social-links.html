@@ -1,11 +1,28 @@
 {{ with .Params.socials }}
-  <div class="profile-social-links" aria-label="Social links">
+  {{ $socialItems := slice }}
+  {{ $websiteItems := slice }}
     {{ range $name, $handle := . }}
       {{ if $handle }}
+        {{ $item := dict "name" $name "handle" $handle }}
+        {{ if eq (lower $name) "website" }}
+          {{ $websiteItems = $websiteItems | append $item }}
+        {{ else }}
+          {{ $socialItems = $socialItems | append $item }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ range $websiteItems }}
+    {{ $socialItems = $socialItems | append . }}
+  {{ end }}
+
+  <div class="profile-social-links" aria-label="Social links">
+    {{ range $socialItems }}
+        {{ $name := .name }}
+        {{ $handle := .handle }}
         {{ $url := "" }}
         {{ $label := humanize $name }}
         {{ $lowerName := lower $name }}
-        {{ $assetIconServices := slice "backstage" "ibdb" "imdb" "wikipedia" }}
+        {{ $assetIconServices := slice "backstage" "ibdb" "imdb" "stagetime" "tiktok" "wikipedia" }}
         {{ $handleString := printf "%s" $handle }}
         {{ $isAbsoluteURL := or (hasPrefix $handleString "http://") (hasPrefix $handleString "https://") }}
         {{ if eq $lowerName "facebook" }}
@@ -31,7 +48,7 @@
             {{ $url = printf "https://www.linkedin.com/in/%s" $handleString }}
           {{ end }}
         {{ else if eq $lowerName "tiktok" }}
-          {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.tiktok.com/@%s" $handleString) }}
+          {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.tiktok.com/@%s" ($handleString | replaceRE "^@" "")) }}
         {{ else if eq $lowerName "twitter" }}
           {{ $url = cond $isAbsoluteURL $handleString (printf "https://twitter.com/%s" $handleString) }}
           {{ $label = "X" }}
@@ -43,6 +60,8 @@
           {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.ibdb.com/broadway-cast-staff/%s" $handleString) }}
         {{ else if eq $lowerName "backstage" }}
           {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.backstage.com/u/%s" $handleString) }}
+        {{ else if eq $lowerName "stagetime" }}
+          {{ $url = cond $isAbsoluteURL $handleString (printf "https://app.stagetime.com/artists/%s" $handleString) }}
         {{ else if eq $lowerName "wikipedia" }}
           {{ $url = cond $isAbsoluteURL $handleString (printf "https://en.wikipedia.org/wiki/%s" $handleString) }}
         {{ else }}
@@ -68,7 +87,6 @@
             <span aria-hidden="true">{{ substr $label 0 1 }}</span>
           {{ end }}
         </a>
-      {{ end }}
     {{ end }}
   </div>
 {{ end }}
