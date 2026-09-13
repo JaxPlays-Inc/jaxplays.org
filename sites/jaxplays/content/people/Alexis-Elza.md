@@ -2,20 +2,22 @@
 title: Alexis Elza
 date: 2026-09-12T13:30:00-04:00
 featured_image: Alexis-Elza.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+  - Mezzo-soprano
 socials:
   facebook:
   twitter:
-  instagram:
+  instagram: alexiskatinaelza
   linkedin:
   ibdb:
   imdb:
-  website:
+  website: https://www.alexiselza.com/
+  youtube: "@AlexisElza"
 source: Amelia Island Opera cast bio, 2026
 ---
 Alexis Elza "was Carmen down to her fingernails: seductive and inconstant, with a sultry voice to match" (Cleveland Classical, 2016). She began her operatic career with Kentucky Opera during the 2011-2012 season, appearing in *Carmen* and *The Merry Widow*. Since then, she has performed nationally and internationally, including her solo debut at opening ceremonies at the Peace Palace in The Hague and leading roles such as Helene in *La belle Helene*, Carmen in *Tragedie de Carmen* and Elle in *La voix humaine*.

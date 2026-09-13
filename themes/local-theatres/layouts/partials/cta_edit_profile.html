@@ -36,6 +36,9 @@
       {{ else if eq $field "threads" }}
         {{ $label = "Threads" }}
         {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.threads.net/@%s" $handleString) }}
+      {{ else if eq $field "tiktok" }}
+        {{ $label = "TikTok" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.tiktok.com/@%s" ($handleString | replaceRE "^@" "")) }}
       {{ else if eq $field "linkedin" }}
         {{ $label = "LinkedIn" }}
         {{ if $isAbsoluteURL }}
@@ -60,8 +63,11 @@
       {{ else if eq $field "backstage" }}
         {{ $label = "Backstage" }}
         {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.backstage.com/u/%s" $handleString) }}
+      {{ else if eq $field "stagetime" }}
+        {{ $label = "Stagetime" }}
+        {{ $url = cond $isAbsoluteURL $handleString (printf "https://app.stagetime.com/artists/%s" $handleString) }}
       {{ end }}
-      {{ if in (slice "website" "facebook" "instagram" "threads" "linkedin" "bluesky" "twitter" "imdb" "ibdb" "backstage") $field }}
+      {{ if in (slice "website" "facebook" "instagram" "threads" "tiktok" "linkedin" "bluesky" "twitter" "imdb" "ibdb" "backstage" "stagetime") $field }}
         {{ $editSocialLinks = $editSocialLinks | append $label }}
         {{ $editPayload = merge $editPayload (dict $field $url) }}
       {{ end }}

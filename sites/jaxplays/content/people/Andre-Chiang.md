@@ -2,19 +2,21 @@
 title: Andre Chiang
 date: 2026-09-12T13:30:00-04:00
 featured_image: Andre-Chiang.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+  - Baritone
 socials:
-  facebook:
+  facebook: DreChiangBaritone
   twitter:
-  instagram:
+  instagram: drechiang
   linkedin:
   ibdb:
   imdb:
+  youtube: "@AndreChiangBaritone"
   website: https://www.andrechiangbaritone.com/
 source: Amelia Island Opera cast bio, 2026
 ---

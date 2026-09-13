@@ -2,20 +2,23 @@
 title: John Tibbetts
 date: 2025-03-25T14:12:03-04:00
 featured_image: John-Tibbetts.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+  - Baritone
 socials:
-  facebook:
+  facebook: operaninja
   twitter:
-  instagram:
+  instagram: operajohn
   linkedin:
   ibdb:
   imdb:
-  website:
+  stagetime: john-tibbetts
+  youtube: "@JohnTibbettsBaritone"
+  website: https://www.operajohn.co/
 source: Amelia Island Opera cast bio, 2026
 ---
 Operatic baritone John Tibbetts, praised for his "unexpectedly rich voice" and "reverberating tones" (Palm Beach Post), is building a national performing career spanning companies from Southern California to Western New York while remaining rooted in Northeast Florida as Co-Founder and Artistic Director of [[theatre:Amelia Island Opera]].

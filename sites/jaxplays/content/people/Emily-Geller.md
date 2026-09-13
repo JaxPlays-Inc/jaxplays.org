@@ -2,21 +2,24 @@
 title: Emily Geller
 date: 2026-09-12T13:30:00-04:00
 featured_image: Emily-Geller.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+  - Contralto
 socials:
-  facebook: "Emily Geller, contralto"
+  facebook: emilygellercontralto
   twitter:
-  instagram: EmilyGeller
+  instagram: emilygeller
   linkedin:
   ibdb:
   imdb:
   website: https://www.emilygeller.com/
-  tiktok: EmilyGellerContralto
+  tiktok: emilygellercontralto
+  youtube: "@emilygeller"
+  stagetime: emily-geller
 source: Amelia Island Opera cast bio, 2026
 ---
 NYC-based contralto Emily Geller has been praised for her "lower extension that has to be heard to be believed" (Seen and Heard International) and for being "hilariously over the top" (Opera Magazine). In 2026, she made her Opera Modesto debut, reprising Jezibaba in *Rusalka*, and returns to Salt Marsh Opera in the same role.

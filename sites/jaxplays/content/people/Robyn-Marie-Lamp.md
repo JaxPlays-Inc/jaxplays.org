@@ -2,12 +2,13 @@
 title: Robyn Marie Lamp
 date: 2025-03-25T14:12:03-04:00
 featured_image: Robyn-Marie-Lamp.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+  - Soprano
 socials:
   facebook: robynmarielamp
   twitter:
@@ -16,6 +17,7 @@ socials:
   ibdb:
   imdb:
   youtube: "@robynmarielamp"
+  stagetime: robyn-lamp
   website: https://www.robynmarielamp.com/
 source: Amelia Island Opera cast bio, 2026
 ---

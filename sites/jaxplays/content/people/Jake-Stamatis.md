@@ -2,19 +2,21 @@
 title: Jake Stamatis
 date: 2026-09-12T13:30:00-04:00
 featured_image: Jake-Stamatis.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:
   - Actor
+  - Baritone
 socials:
   facebook:
   twitter:
-  instagram:
+  instagram: jstamat
   linkedin:
   ibdb:
   imdb:
+  stagetime: jake-stamatis
   website:
 source: Amelia Island Opera cast bio, 2026
 ---

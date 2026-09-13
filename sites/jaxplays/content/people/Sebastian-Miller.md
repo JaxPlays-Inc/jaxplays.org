@@ -2,8 +2,8 @@
 title: Sebastian Miller
 date: 2025-04-21T22:58:11-04:00
 featured_image: Sebastian-Miller.webp
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr: 
+featured_image_attr_link: 
 featured_image_alt:
 featured_image_caption:
 roles:

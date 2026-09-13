@@ -29,7 +29,7 @@
           {{- $url = printf "https://www.linkedin.com/in/%s" $handleString -}}
         {{- end -}}
       {{- else if eq $service "tiktok" -}}
-        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.tiktok.com/@%s" $handleString) -}}
+        {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.tiktok.com/@%s" ($handleString | replaceRE "^@" "")) -}}
       {{- else if eq $service "twitter" -}}
         {{- $url = cond $isAbsoluteURL $handleString (printf "https://twitter.com/%s" $handleString) -}}
       {{- else if eq $service "medium" -}}
@@ -40,6 +40,8 @@
         {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.ibdb.com/broadway-cast-staff/%s" $handleString) -}}
       {{- else if eq $service "backstage" -}}
         {{- $url = cond $isAbsoluteURL $handleString (printf "https://www.backstage.com/u/%s" $handleString) -}}
+      {{- else if eq $service "stagetime" -}}
+        {{- $url = cond $isAbsoluteURL $handleString (printf "https://app.stagetime.com/artists/%s" $handleString) -}}
       {{- else if eq $service "wikipedia" -}}
         {{- $url = cond $isAbsoluteURL $handleString (printf "https://en.wikipedia.org/wiki/%s" $handleString) -}}
       {{- else if and (eq $service "website") $isAbsoluteURL -}}
