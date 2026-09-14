@@ -24,7 +24,7 @@ tickets: https://ci.ovationtix.com/34877/production/1285221
 cast:
   - Hannah: Sara Sohn
   - Michael: Alec Hadden
-  - Taylor: Lovlee Carroll
+  - Taylor: Alyssa Billings
   - Rick: Mitchell Wohl
   - Ruth: Amy Allen Farmer
   - Abe: Mark Hayes
@@ -32,13 +32,17 @@ cast:
   - Sean: Jason Collins
   - Rabbi: Evan Gould
 crew:
-  - Director & Writer: David Sacks
-  - Stage Manager & Props Designer: Heather Goliber
+  - Writer: David Sacks
+  - Director: David Sacks
+  - Stage Manager: Heather Goliber
+  - Props Designer: 
+    - Heather Goliber
+    - Katarina Goliber
   - Scenic Designer: Claire Cimino
   - Lighting Designer: Ben Sparenberg
   - Costume Designer: Phedre Delinois
   - Master Carpenter: Tom Cassaro
-  - Props Assistant: Katarina Goliber
+  - Scenic Charge Artist: Keyla Longa
 orchestra:
 photos:
   - photo: 2026-I-Love-You-Youre-Perfect-Now-Sign-Here-01.webp
