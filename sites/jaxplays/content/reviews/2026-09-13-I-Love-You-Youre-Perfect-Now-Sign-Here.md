@@ -23,6 +23,7 @@ featuring:
   - Claire Cimino
   - Jason Collins
   - Mark Hayes
+  - Ben Sparenberg
 description: "David Sacks writes and directs a Jacksonville world premiere where wedding chaos becomes a smart comedy about trust, class and commitment."
 ---
 
@@ -46,7 +47,7 @@ The thread between Taylor and Rick earns its place, with [[person:Alyssa Billing
 
 [[person:Claire Cimino]] and [[person:Jason Collins]] are almost too adorable as Fiona and Sean, Michael's parents. They feel like two peas in the same pod, united by affection, bluntness and the faint disbelief of people who have wandered into a much more expensive argument than the one they expected. Collins finds especially nice moments when Sean's union background rubs against Abe's business-world assumptions, while Cimino's Fiona holds her own when Ruth steps over the line. They round out the family collision without turning it into a simple rich-versus-working-class joke.
 
-What Sacks understands as a playwright is that a prenup is only funny for so long as an object. The comedy comes from what it exposes. Money becomes a proxy for trust. Wedding planning becomes a proxy for parental control. A rehearsal dinner becomes a referendum on class, geography and family identity. Even the play's dream logic, with imagined conversations spinning out before reality catches up, captures the way engaged couples can rehearse disaster before anyone has actually said the wrong thing.
+What Sacks understands as a playwright is that a prenup is only funny for so long as an object. The comedy comes from what it exposes. Money becomes a proxy for trust. Wedding planning becomes a proxy for parental control. A rehearsal dinner becomes a referendum on class, geography and family identity. Even the play's dream logic — imagined conversations spinning out before reality catches up, marked by [[person:Ben Sparenberg]]'s clever, atmospheric lighting cues — captures the way engaged couples can rehearse disaster before anyone has actually said the wrong thing.
 
 That structure gives the production its buoyancy. The play is light on its feet, but it is not weightless. Beneath the jokes about invitations, delis, lottery winnings and Jewish mothers is a sincere question: How do two people begin a marriage when everyone around them wants a signature, a concession or a guarantee? The answer, wisely, is not that love makes everything simple. The answer is that love gives people a reason to keep choosing each other after the room gets loud.
 
