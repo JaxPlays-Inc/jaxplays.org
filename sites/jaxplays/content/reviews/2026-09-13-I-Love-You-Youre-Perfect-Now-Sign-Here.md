@@ -39,7 +39,7 @@ Hadden threads a tricky needle as Michael. He is driven and intelligent, a futur
 
 As Ruth, [[person:Amy Allen Farmer]] is glorious in full overbearing-mother mode. Ruth is written as the kind of parent who can turn every announcement into a referendum on her own life, and Farmer knows exactly how far to push her. The performance is big, sharp and frequently hilarious, but it is not empty volume. Farmer gives Ruth enough conviction that her panic makes emotional sense, even when her behavior is spectacularly unreasonable.
 
-[[person:Mark Hayes]] has the less showy but essential task of playing Abe, Ruth's long-suffering husband. He is the classic subservient spouse to an overbearing partner, and Hayes uses that position well. Abe's attempts to smooth over the room rarely solve anything, but they add a comic rhythm of their own: a man trying to keep the peace while knowing the peace has already left the building.
+[[person:Mark Hayes]] has the less showy but essential task of playing Abe, Ruth's long-suffering husband. He is the classic subservient spouse to an overbearing partner, and Hayes uses that position well. It is Abe who breaks the news to Hannah that they want Michael to sign a prenup, but it soon becomes clear the demand is Ruth's, with Abe merely the reluctant messenger sent to deliver it.
 
 [[person:Evan Gould]] provides one of the evening's most reliable comic interruptions as the Rabbi. His scenes cut through the escalating wedding stress with a wandering, gently chaotic energy, as though spiritual counsel and personal digression have become indistinguishable. Gould makes those detours feel playful rather than merely tangential.
 
