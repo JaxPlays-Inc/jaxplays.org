@@ -3,6 +3,13 @@ title: "The Terms of Endearment: 'Now Sign Here' at Players by the Sea"
 date: 2026-09-13T16:36:53-04:00
 authors:
 - Ray Hollister
+featured_image:
+  src: /media/photos/2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp
+  alt: "Graphic for I Love You, You're Perfect... Now Sign Here at Players by the Sea, with the show title and Sept. 11-20, 2026 dates."
+  caption: "Players by the Sea will present the world premiere of David Sacks' *I Love You, You're Perfect... Now Sign Here* Sept. 11-20."
+  credit:
+    name: Players by the Sea
+    url: https://playersbythesea.org/season-61/now-sign-here
 show_reading_time: true
 production: 2026 I Love You Youre Perfect Now Sign Here
 theatre: Players by the Sea
