@@ -23699,6 +23699,33 @@
   ],
   "lewis-auditorium": [
     {
+      "title": "The Children's Hour",
+      "url": "/productions/2026-the-children-s-hour/",
+      "contentPath": "productions/2026/2026-The-Children-s-Hour",
+      "poster": "/media/posters/2026-The-Childrens-Hour.webp",
+      "posterAlt": "Poster for The Children's Hour",
+      "openingDate": "2026-09-30",
+      "closingDate": "2026-10-04",
+      "openingLabel": "Sep 30, 2026",
+      "openingMonthLabel": "September 2026",
+      "openingBadgeLabel": "Sep 30, 2026",
+      "closingLabel": "Oct 4, 2026",
+      "theatre": "Flagler College Department of Theater Arts",
+      "venues": [
+        "Lewis Auditorium"
+      ],
+      "allVenues": [
+        "Lewis Auditorium"
+      ],
+      "genres": [
+        "Play",
+        "Drama"
+      ],
+      "summary": "\"A malicious student falsely accuses the two headmistresses of a boarding school of having a lesbian affair, destroying their careers\" - Concord Theatricals",
+      "tickets": "https://flaglercollegetheatre.ludus.com/index.php",
+      "searchBase": "the children's hour sep 30, 2026 oct 4, 2026 flagler college department of theater arts lewis auditorium play drama \"a malicious student falsely accuses the two headmistresses of a boarding school of having a lesbian affair, destroying their careers\" - concord theatricals"
+    },
+    {
       "title": "James and the Giant Peach",
       "url": "/productions/2026-james-and-the-giant-peach/",
       "contentPath": "productions/2026/2026-James-and-the-Giant-Peach",
@@ -26894,6 +26921,35 @@
     }
   ],
   "betsy-lovett-hall": [
+    {
+      "title": "Rusalka",
+      "url": "/productions/2026-rusalka/",
+      "contentPath": "productions/2026/2026-Rusalka",
+      "poster": "/media/posters/2026-Rusalka.webp",
+      "posterAlt": "Poster for Bold City Opera’s production of Antonín Dvořák’s \"Rusalka\"",
+      "openingDate": "2026-11-06",
+      "closingDate": "2026-11-08",
+      "openingLabel": "Nov 6, 2026",
+      "openingMonthLabel": "November 2026",
+      "openingBadgeLabel": "Nov 6, 2026",
+      "closingLabel": "Nov 8, 2026",
+      "theatre": "Bold City Opera",
+      "venues": [
+        "Betsy Lovett Hall"
+      ],
+      "allVenues": [
+        "Betsy Lovett Hall"
+      ],
+      "genres": [
+        "Opera",
+        "Drama",
+        "Fairytale",
+        "English language"
+      ],
+      "summary": "Bold City Opera presents Dvořák's dark fairytale about a water nymph who sacrifices her voice and immortality after falling in love with a human prince.",
+      "tickets": "https://www.boldcityopera.org/tickets",
+      "searchBase": "rusalka nov 6, 2026 nov 8, 2026 bold city opera betsy lovett hall opera drama fairytale english language bold city opera presents dvořák's dark fairytale about a water nymph who sacrifices her voice and immortality after falling in love with a human prince."
+    },
     {
       "title": "Antigone: Unmasked",
       "url": "/productions/2026-antigone-unmasked/",
