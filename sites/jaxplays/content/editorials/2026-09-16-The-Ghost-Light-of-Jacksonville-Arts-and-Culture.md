@@ -3,6 +3,12 @@ title: "The Ghost Light of Jacksonville Arts and Culture"
 date: 2026-09-16T21:10:00-04:00
 authors:
 - "Diana Donovan, Cultural Council of Greater Jacksonville"
+featured_image: 
+  src: "/media/photos/Florida-Theatre-Ghost-Light-bw.webp"
+  alt: "The Ghost Light at Florida Theatre"
+  credit: "Numa C. Saisselin | Florida Theatre"
+  caption: "A single ghost light burns on the empty stage of the Florida Theatre — a nightly ritual of preparation, kept lit because someone is always coming back."
+
 description: "Diana Donovan, executive director and CEO of the Cultural Council of Greater Jacksonville, writes that Jacksonville's creative sector must prepare now for funding uncertainty and long-term resilience."
 ---
 Walk into almost any theater after everyone has gone home and you may find it dark except for one thing.
@@ -63,7 +69,7 @@ But regranting is only part of that work.
 
 We connect artists with opportunities. Build relationships between the cultural and business communities. Champion for Jacksonville's creative economy. Create visibility for the people shaping our cultural identity. And help bring public art into the places Jacksonville residents experience every day.
 
-Increasingly, that work is about future-proofing Jacksonville's cultural economy.
+Increasingly, that work is about **future-proofing Jacksonville's cultural economy.**
 
 Future-proofing does not mean predicting every funding decision or economic shift ahead.
 
@@ -83,7 +89,7 @@ The house opens. The audience arrives. Someone steps onto the stage.
 
 The light was never there because everyone expected the theater to stay empty.
 
-It was there because someone had prepared for what came next.
+**It was there because someone had prepared for what came next.**
 
 The creative sector should, too.
 
