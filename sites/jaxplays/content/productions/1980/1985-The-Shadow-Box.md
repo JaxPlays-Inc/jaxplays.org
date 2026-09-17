@@ -43,5 +43,9 @@ crew:
   - Claudia Lewis
   - Joe Ryan
 orchestra:
+photos:
+- photo: 1985-The-Shadow-Box-Theatre-Jacksonville.webp
+  photo_attr: Theatre Jacksonville
+  photo_alt: Black-and-white Theatre Jacksonville image for The Shadow Box showing Redgie Gutshall as Brian seated in glasses and a cardigan, gesturing beneath the production title.
+  photo_caption: Redgie Gutshall's Brian reaches outward with wit, urgency and vulnerability in Theatre Jacksonville's 1985 production of The Shadow Box.
 ---
-
