@@ -3,6 +3,10 @@ title: "Audra McDonald Headlines Amelia Island Chamber Music Festival's 26th Sea
 date: 2026-09-14T17:18:00-04:00
 authors:
 - JaxPlays
+featured_image:
+  src: /media/photos/Audra-McDonald-Headlines-Amelia-Island-Chamber-Music-Festival-26th-Season.webp
+  alt: "Audra McDonald smiles and looks over her shoulder, wearing a navy sequined jacket against a deep blue backdrop."
+  caption: "Six-time Tony Award winner Audra McDonald headlines the Amelia Island Chamber Music Festival's 26th season, performing \"An Evening with Audra McDonald\" on Feb. 23, 2027, at Amelia River Club."
 show_reading_time: true
 description: "The Amelia Island Chamber Music Festival's 2026-2027 season brings Audra McDonald, Joshua Bell, Dover Quartet, Balsam Range and more to intimate venues across Amelia Island."
 ---
