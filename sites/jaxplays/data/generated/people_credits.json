@@ -5673,6 +5673,18 @@
   "alyssa-billings": {
     "cast": [
       {
+        "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
+        "title": "I Love You, You're Perfect... Now Sign Here",
+        "opening_date": "2026-09-11",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
+        "credits": [
+          "Taylor"
+        ]
+      },
+      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -14419,6 +14431,25 @@
     "crew": [],
     "orchestra": []
   },
+  "ava-marshall": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "ava-swearingen": {
     "cast": [
       {
@@ -22298,6 +22329,18 @@
   "billy-lister": {
     "cast": [
       {
+        "permalink": "/productions/2026-dracula/",
+        "title": "Dracula",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Act II Players",
+        "venue": "Act II Players Black Box Theatre",
+        "featured_image": "2026-Dracula.webp",
+        "credits": [
+          "Count Dracula"
+        ]
+      },
+      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -28089,6 +28132,38 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "bridgid-mullen": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-9-to-5-the-musical/",
+        "title": "9 to 5: The Musical",
+        "opening_date": "2024-07-18",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2024-9-to-5-The-Musical.webp",
+        "credits": [
+          "Margaret",
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "brilla-snead": {
@@ -45724,6 +45799,25 @@
     ],
     "orchestra": []
   },
+  "connor-beck": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2025-hairspray/",
+        "title": "Hairspray",
+        "opening_date": "2025-07-17",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2025-Hairspray.webp",
+        "credits": [
+          "Assistant Stage Managers"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "conrad-peterson": {
     "cast": [
       {
@@ -50101,6 +50195,49 @@
     ],
     "orchestra": []
   },
+  "david-abraham": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Carl Hanratty"
+        ]
+      },
+      {
+        "permalink": "/productions/2001-pippin/",
+        "title": "Pippin",
+        "opening_date": "2001-06-01",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "",
+        "credits": [
+          "Lewis"
+        ]
+      },
+      {
+        "permalink": "/productions/1998-once-on-this-island/",
+        "title": "Once on This Island",
+        "opening_date": "1998-11-06",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Little Theatre",
+        "featured_image": "",
+        "credits": [
+          "Armand Beauxhommes"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "david-alford": {
     "cast": [
       {
@@ -51629,7 +51766,8 @@
         "venue": "John McManus Mainstage Theatre",
         "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
         "credits": [
-          "Director & Writer"
+          "Writer",
+          "Director"
         ]
       },
       {
@@ -98596,7 +98734,8 @@
         "venue": "John McManus Mainstage Theatre",
         "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
         "credits": [
-          "Stage Manager & Props Designer"
+          "Stage Manager",
+          "Props Designer"
         ]
       },
       {
@@ -98986,6 +99125,18 @@
   },
   "hecate-smith": {
     "cast": [
+      {
+        "permalink": "/productions/2026-rusalka/",
+        "title": "Rusalka",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Bold City Opera",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Rusalka.webp",
+        "credits": [
+          "Nymphs"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
         "title": "The Hunchback of Notre Dame",
@@ -111705,6 +111856,25 @@
     ],
     "orchestra": []
   },
+  "jayna-giese": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "jayne-jeney": {
     "cast": [],
     "understudies": [],
@@ -115990,6 +116160,25 @@
     ],
     "orchestra": []
   },
+  "jessica-hardwick": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Paula Abagnale"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "jessica-harris": {
     "cast": [
       {
@@ -117781,6 +117970,18 @@
   },
   "jim-warren": {
     "cast": [
+      {
+        "permalink": "/productions/2026-dracula/",
+        "title": "Dracula",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Act II Players",
+        "venue": "Act II Players Black Box Theatre",
+        "featured_image": "2026-Dracula.webp",
+        "credits": [
+          "Mr. Henry Westenra"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-battle-of-shallowford/",
         "title": "The Battle Of Shallowford",
@@ -122107,6 +122308,25 @@
   },
   "johnny-flannagen": {
     "cast": [],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "johnny-jay": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Frank Abagnale Sr."
+        ]
+      }
+    ],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -131660,7 +131880,7 @@
         "venue": "John McManus Mainstage Theatre",
         "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
         "credits": [
-          "Props Assistant"
+          "Props Designer"
         ]
       },
       {
@@ -145339,6 +145559,37 @@
     ],
     "orchestra": []
   },
+  "lindsay-kozlowski": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Carol Strong"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-home-im-darling/",
+        "title": "Home, I'm Darling",
+        "opening_date": "2025-10-03",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Waterworks",
+        "featured_image": "2025-Home-Im-Darling.webp",
+        "credits": [
+          "Alex"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "lisa-ciardulli": {
     "cast": [
       {
@@ -148628,20 +148879,7 @@
     "orchestra": []
   },
   "lovlee-carroll": {
-    "cast": [
-      {
-        "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
-        "title": "I Love You, You're Perfect... Now Sign Here",
-        "opening_date": "2026-09-11",
-        "approx_date": "",
-        "theatre": "Players by the Sea",
-        "venue": "John McManus Mainstage Theatre",
-        "featured_image": "2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp",
-        "credits": [
-          "Taylor"
-        ]
-      }
-    ],
+    "cast": [],
     "understudies": [],
     "crew": [],
     "orchestra": []
@@ -150515,6 +150753,37 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "malia-jaffe": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Brenda Strong"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-little-miss-sunshine/",
+        "title": "Little Miss Sunshine",
+        "opening_date": "2023-05-12",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Matuza Mainstage",
+        "featured_image": "2023_Little_Miss_Sunshine.jpeg",
+        "credits": [
+          "Linda/Miss California"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "mallory-earley": {
@@ -155332,6 +155601,18 @@
   "marilyn-painter": {
     "cast": [
       {
+        "permalink": "/productions/2026-dracula/",
+        "title": "Dracula",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Act II Players",
+        "venue": "Act II Players Black Box Theatre",
+        "featured_image": "2026-Dracula.webp",
+        "credits": [
+          "Professor Van Helsing"
+        ]
+      },
+      {
         "permalink": "/productions/2026-how-to-succeed-in-business-without-really-trying/",
         "title": "How to Succeed in Business Without Really Trying",
         "opening_date": "2026-07-16",
@@ -155413,6 +155694,18 @@
   },
   "marilyn-sharp": {
     "cast": [
+      {
+        "permalink": "/productions/2026-rusalka/",
+        "title": "Rusalka",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Bold City Opera",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Rusalka.webp",
+        "credits": [
+          "Nymphs"
+        ]
+      },
       {
         "permalink": "/productions/2025-another-sunrise-and-for-a-look-or-a-touch/",
         "title": "Another Sunrise & For a Look or a Touch",
@@ -203731,6 +204024,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "rose-roberts": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-catch-me-if-you-can/",
+        "title": "Catch Me If You Can",
+        "opening_date": "2026-09-10",
+        "approx_date": "",
+        "theatre": "Limelight Theatre",
+        "venue": "Inez McDonald Mainstage",
+        "featured_image": "2026-Catch-Me-If-You-Can.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "roselle-cohen": {

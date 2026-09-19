@@ -3589,6 +3589,24 @@ a.production-credit-person.slow-grow:focus,
 	transform: scale(.98);
 }
 
+.production-musical-number-footnotes {
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	clear: both;
+	color: #555;
+	font-size: .875rem;
+	margin-top: 1rem;
+	padding-top: .75rem;
+}
+
+.production-musical-number-footnotes p {
+	margin: 0 0 .35rem;
+}
+
+.production-musical-number-footnotes ul {
+	margin: .35rem 0 0;
+	padding-left: 1.25rem;
+}
+
 
 /* Splide style overrides */
 .splide__arrow svg,

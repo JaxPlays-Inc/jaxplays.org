@@ -1,7 +1,24 @@
 {{- $page := .page -}}
 {{- with .musical_numbers -}}
+{{- $rawNumbers := . -}}
+{{- $columnNumbers := $rawNumbers -}}
+{{- $footnotes := "" -}}
+{{- $colEndMarker := "<!--JP_COL_END-->" -}}
+{{- $markedNumbers := replaceRE "\\{\\{\\s*col-end\\s*\\}\\}" $colEndMarker $rawNumbers -}}
+{{- $numberParts := split $markedNumbers $colEndMarker -}}
+{{- if gt (len $numberParts) 1 -}}
+  {{- $columnNumbers = printf "%s\n{{col-end}}" (index $numberParts 0) -}}
+  {{- $footnotes = delimit (after 1 $numberParts) $colEndMarker | strings.TrimSpace -}}
+{{- end -}}
 <div id="musical-numbers" class="nested-copy-line-height lh-copy f5 f4-ns mt4 {{ $page.Param " text_color" | default "dark-gray" }}">
   <h3 class="f3 mt4 mb3 sectionline">Musical Numbers</h3>
-  {{ partial "content-wikilinks" (partial "columns.html" (dict "page" $page "inner" .)) }}
+  {{ partial "content-wikilinks" (partial "columns.html" (dict "page" $page "inner" $columnNumbers)) }}
+  {{- with $footnotes }}
+    {{- $footnoteMarkdown := replaceRE "([^\\n])\\n([^\\n])" "$1  \n$2" . -}}
+    {{- $footnoteMarkdown = replaceRE "([^\\n])\\n([^\\n])" "$1  \n$2" $footnoteMarkdown -}}
+    <div class="production-musical-number-footnotes">
+      {{ partial "content-wikilinks" ($page.RenderString $footnoteMarkdown) }}
+    </div>
+  {{- end }}
 </div>
 {{- end -}}
