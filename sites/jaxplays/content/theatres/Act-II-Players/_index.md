@@ -16,6 +16,12 @@ socials:
   facebook: ActIIPlayersJax
   instagram: actiiplayers
   website: https://actiiplayers.org/
+social_annotations:
+  facebook:
+    content: "102902006036631"
+    text: "Act II Players"
+    url: https://www.facebook.com/102902006036631
+
 color: "#058be5"
 date: 2024-07-02T18:04:17-04:00
 donate: https://www.gofundme.com/f/act-ii-players-community-theatre-equipment-needs?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

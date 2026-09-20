@@ -22,6 +22,12 @@ socials:
   twitter: ABETtheatre
   instagram: abettheatre
   website: https://www.abettheatre.com
+social_annotations:
+  facebook:
+    content: "100149204973"
+    text: "ABET - All Beaches Experimental Theatre"
+    url: https://www.facebook.com/100149204973
+
 phone: 19042497177
 color: "#447395"
 press:

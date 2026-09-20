@@ -19,6 +19,12 @@ socials:
   threads:
   youtube: jaxsymphony
   website: https://www.jaxsymphony.org/
+social_annotations:
+  facebook:
+    content: "21238199148"
+    text: "Jacksonville Symphony"
+    url: https://www.facebook.com/21238199148
+
 phone:  
 color: "#511b7b"
 donate: https://jaxsymphony.networkforgood.com/projects/93823-membership?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

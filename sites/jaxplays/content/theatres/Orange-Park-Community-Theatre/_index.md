@@ -16,6 +16,12 @@ socials:
   twitter: OPCT
   instagram: Opctheatre
   website: https://www.opct.info
+social_annotations:
+  facebook:
+    content: "94126303410"
+    text: "Orange Park Community Theatre"
+    url: https://www.facebook.com/94126303410
+
 phone: 19042762599
 color: "#FFA500"
 date: 2024-07-02T18:02:43-04:00

@@ -14,6 +14,12 @@ socials:
   instagram: fscjofficial
   linkedin: florida-state-college-at-jacksonville
   website: https://fscj.digital.flvc.org/islandora/object/fscj:dramaWORKS
+social_annotations:
+  facebook:
+    content: "64437993209"
+    text: "FSCJ DramaWorks"
+    url: https://www.facebook.com/64437993209
+
 phone: 19046462222
 color: "#043c5b"
 press:

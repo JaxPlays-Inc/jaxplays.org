@@ -19,6 +19,12 @@ socials:
   twitter: alhambrajax
   instagram: alhambrajax
   website: https://www.alhambrajax.com
+social_annotations:
+  facebook:
+    content: "126256408807"
+    text: "Alhambra Theatre & Dining"
+    url: https://www.facebook.com/126256408807
+
 phone: 19046411212
 color: "#CF9F45"
 press:

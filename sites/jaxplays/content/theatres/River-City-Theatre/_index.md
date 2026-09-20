@@ -20,6 +20,16 @@ socials:
   linkedin: rivercitytheatre
   threads:
   website: https://www.rivercitytheatre.com/
+social_annotations:
+  facebook:
+    content: "61569925598790"
+    text: "River City Theatre"
+    url: https://www.facebook.com/profile.php?id=61569925598790
+  linkedin:
+    content: "106029056"
+    text: "River City Theatre"
+    url: https://www.linkedin.com/company/rivercitytheatre/
+
 phone:  19048008810 
 color: "#171c47"
 ---

@@ -14,6 +14,12 @@ socials:
   facebook: share/14aKmcEAm7B/
   instagram: catalysttheatreinc
   website: https://catalysttheatre.com/
+social_annotations:
+  facebook:
+    content: "1261722840351055"
+    text: "Catalyst Theatre"
+    url: https://www.facebook.com/1261722840351055
+
 email: info@catalysttheatre.com
 color: "#061525"
 date: 2026-07-01T11:10:00-04:00

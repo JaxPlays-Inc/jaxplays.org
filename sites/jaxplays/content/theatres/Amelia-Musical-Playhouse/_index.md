@@ -16,6 +16,12 @@ socials:
   twitter: amplayhouse
   instagram: ameliamusicalplayhouse
   website: https://ameliamusicalplayhouse.com/
+social_annotations:
+  facebook:
+    content: "489217447821830"
+    text: "Amelia Musical Playhouse"
+    url: https://www.facebook.com/489217447821830
+
 phone:  
 color: "#325684"
 date: 2023-09-08T00:00:00-04:00

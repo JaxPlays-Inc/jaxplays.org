@@ -17,6 +17,12 @@ socials:
   facebook: profile.php?id=100075552802465
   instagram: greenlighttheatreco_jax
   website: https://www.greenlighttheatreco.com
+social_annotations:
+  facebook:
+    content: "100075552802465"
+    text: "Greenlight Theatre Company"
+    url: https://www.facebook.com/profile.php?id=100075552802465
+
 phone: 19855022253
 color: "#32CD32"
 date: 2024-07-02T18:03:17-04:00

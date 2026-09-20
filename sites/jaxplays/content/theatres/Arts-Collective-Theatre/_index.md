@@ -18,6 +18,12 @@ socials:
   instagram: artscollectivetheatre
   threads:
   website: https://artscollectivetheatre.com/
+social_annotations:
+  facebook:
+    content: "61566609597488"
+    text: "Arts Collective Theatre"
+    url: https://www.facebook.com/profile.php?id=61566609597488
+
 phone:  
 color: "#fa18be"
 description: "Arts Collective Theatre, led by Lee Hamby & Julie Harrington, redefines the arts scene by embracing diversity & innovation in storytelling."

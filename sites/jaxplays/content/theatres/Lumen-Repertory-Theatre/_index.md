@@ -14,6 +14,12 @@ socials:
   facebook: lumenrep
   instagram: lumenrep
   website: https://www.lumenrep.org
+social_annotations:
+  facebook:
+    content: "108882145280843"
+    text: "Lumen Repertory Theatre"
+    url: https://www.facebook.com/108882145280843
+
 phone:
 color: "#1102eb"
 date: 2024-07-02T18:02:49-04:00

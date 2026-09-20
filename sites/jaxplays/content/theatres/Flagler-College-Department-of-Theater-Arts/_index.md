@@ -17,6 +17,12 @@ socials:
   instagram: fctheatrearts
   threads:
   website: https://www.flagler.edu/academics/degrees-programs/performing-arts/theatre-arts
+social_annotations:
+  facebook:
+    content: "195172543987358"
+    text: "Flagler College Department of Theater Arts"
+    url: https://www.facebook.com/195172543987358
+
 phone:  
 color: "#DC143C"
 date: 2024-07-02T18:03:33-04:00

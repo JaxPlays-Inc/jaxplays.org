@@ -16,6 +16,12 @@ socials:
   twitter: ACTAmelia
   instagram: ameliacommunitytheatre
   website: https://www.ameliacommunitytheatre.org
+social_annotations:
+  facebook:
+    content: "104050049650802"
+    text: "Amelia Community Theatre"
+    url: https://www.facebook.com/104050049650802
+
 phone: 19042616749
 color: "#ac8c33"
 date: 2024-07-02T18:04:08-04:00

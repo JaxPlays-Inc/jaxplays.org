@@ -16,6 +16,12 @@ socials:
   facebook: boldcityopera
   instagram: boldcityopera
   website: https://www.boldcityopera.org/
+social_annotations:
+  facebook:
+    content: "107543695076192"
+    text: "Bold City Opera"
+    url: https://www.facebook.com/107543695076192
+
 color: "#00FFF3"
 press:
 - "Bold City Opera holds its first production | Morning Show - News4Jax": https://www.news4jax.com/video/morning-show/2023/09/21/bold-city-opera-holds-its-first-production/

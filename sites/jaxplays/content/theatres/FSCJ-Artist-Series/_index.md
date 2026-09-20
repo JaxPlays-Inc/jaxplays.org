@@ -15,6 +15,12 @@ socials:
   instagram: fscjartistseries
   youtube: ArtistSeriesJax
   website: https://www.fscjartistseries.org
+social_annotations:
+  facebook:
+    content: "124280384319690"
+    text: "FSCJ Artist Series"
+    url: https://www.facebook.com/124280384319690
+
 phone: 
 color: "#005f7f"
 press:

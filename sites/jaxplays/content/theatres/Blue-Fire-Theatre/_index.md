@@ -15,6 +15,12 @@ socials:
   instagram: blue_fire_theatre
   threads:
   website: https://www.bluefiretheatre.org/
+social_annotations:
+  facebook:
+    content: "2332183703695119"
+    text: "Blue Fire Theatre"
+    url: https://www.facebook.com/2332183703695119
+
 phone: 19044687706
 color: "#65cae8"
 donate: https://www.bluefiretheatre.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

@@ -18,6 +18,16 @@ socials:
   website: https://www.firstcoastopera.com/
   linkedin: company/first-coast-opera/
   youtube: "@firstcoastopera1"
+social_annotations:
+  facebook:
+    content: "121132214291"
+    text: "First Coast Opera"
+    url: https://www.facebook.com/121132214291
+  linkedin:
+    content: "107241129"
+    text: "First Coast Opera"
+    url: https://www.linkedin.com/company/first-coast-opera/
+
 color: "#b30b24"
 date: 2024-07-02T18:03:40-04:00
 donate: https://app.arts-people.com/index.php?donation=fcop&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

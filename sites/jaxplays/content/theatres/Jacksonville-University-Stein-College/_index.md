@@ -15,6 +15,12 @@ address: |
 socials:
   facebook: justeincollege
   website: https://ju.edu/steincollege
+social_annotations:
+  facebook:
+    content: "269003429799164"
+    text: "Jacksonville University - Stein College"
+    url: https://www.facebook.com/269003429799164
+
 color: "#0d4f45"
 date: 2024-07-02T18:03:05-04:00
 donate: 

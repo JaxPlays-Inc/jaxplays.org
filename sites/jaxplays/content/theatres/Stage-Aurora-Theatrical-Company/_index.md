@@ -20,6 +20,16 @@ socials:
   instagram: aurorastage
   linkedin: stage-aurora-theatrical-co
   website: https://www.stageaurora.org
+social_annotations:
+  facebook:
+    content: "43174869701"
+    text: "Stage Aurora Theatrical Company"
+    url: https://www.facebook.com/43174869701
+  linkedin:
+    content: "4024204"
+    text: "Stage Aurora Theatrical Company"
+    url: https://www.linkedin.com/company/stage-aurora-theatrical-co/
+
 date: 2024-07-02T18:02:28-04:00
 donate: https://www.stageaurora.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

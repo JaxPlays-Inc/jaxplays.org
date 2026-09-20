@@ -19,6 +19,12 @@ socials:
   instagram:
   threads:
   website: https://www.rcppalatka.org/
+social_annotations:
+  facebook:
+    content: "167502066763835"
+    text: "River City Players"
+    url: https://www.facebook.com/167502066763835
+
 phone:
 color: "#"
 ---

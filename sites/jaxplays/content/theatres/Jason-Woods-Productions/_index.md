@@ -20,6 +20,12 @@ socials:
   threads:
   youtube: jasonwoodsproductions
   website: https://www.jasonwoodsproductions.com/
+social_annotations:
+  facebook:
+    content: "126598284721202"
+    text: "Jason Woods Productions"
+    url: https://www.facebook.com/126598284721202
+
 phone:
 color: "#3F7ED1"
 ---

@@ -17,6 +17,12 @@ socials:
   facebook: StMarysLittleTheatre
   youtube: UCaSfmCnHH3rUiEnI6GbV7Sg
   website: https://www.stmaryslittletheatre.com
+social_annotations:
+  facebook:
+    content: "219577181421101"
+    text: "St. Marys Little Theatre"
+    url: https://www.facebook.com/219577181421101
+
 phone: 19542909873
 color: "#122851"
 date: 2024-07-02T18:02:34-04:00

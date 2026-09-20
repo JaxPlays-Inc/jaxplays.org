@@ -17,6 +17,12 @@ socials:
   facebook: AClassicTheatre
   instagram:  aclassictheatre
   website: https://www.aclassictheatre.org
+social_annotations:
+  facebook:
+    content: "90049908948"
+    text: "A Classic Theatre"
+    url: https://www.facebook.com/90049908948
+
 color: "#008db6"
 date: 2024-07-02T18:04:27-04:00
 donate: https://www.aclassictheatre.org/donate

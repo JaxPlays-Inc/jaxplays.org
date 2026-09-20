@@ -18,6 +18,12 @@ socials:
   instagram: 
   threads:
   website: https://reachingupproductions.org/
+social_annotations:
+  facebook:
+    content: "108490808955398"
+    text: "Reaching Up Productions"
+    url: https://www.facebook.com/108490808955398
+
 phone: 19043273274
 color: "#FFD700"
 ---

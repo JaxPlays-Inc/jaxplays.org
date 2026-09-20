@@ -15,6 +15,12 @@ socials:
   facebook: theislandtheater
   instagram: theislandtheater
   website: https://www.theislandtheater.com
+social_annotations:
+  facebook:
+    content: "1722861178019877"
+    text: "The Island Theater"
+    url: https://www.facebook.com/1722861178019877
+
 phone: 19042541455
 color: "#4fb6ff"
 date: 2024-07-02T18:02:16-04:00
