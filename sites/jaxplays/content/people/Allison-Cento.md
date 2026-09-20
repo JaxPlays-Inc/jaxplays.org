@@ -1,7 +1,7 @@
 ---
 title: Allison Cento
 aliases:
-  - /people/a-c
+  - /a-c
 other_names:
   - A.C
 date: 2026-09-18T16:48:11.962Z
@@ -15,7 +15,7 @@ roles:
 socials:
   facebook: 
   twitter: 
-  instagram: https://www.instagram.com/p/C9iPKX_pQ0X/
+  instagram: allisoncento
   linkedin: 
   ibdb: 
   imdb:
