@@ -23,6 +23,7 @@ Managing Artistic Director: Bradley Akers
 socials:
   facebook: The5andDime
   instagram: the5anddime
+  linkedin: the5anddime
   youtube: MakingChangeInJax
   website: https://www.the5anddime.org
 social_annotations:
@@ -30,11 +31,15 @@ social_annotations:
     content: "223267767691827"
     text: "The 5 & Dime"
     url: https://www.facebook.com/223267767691827
+  linkedin:
+    content: "71265185"
+    text: "The 5 & Dime"
+    url: https://www.linkedin.com/company/the5anddime/
 
 press:
 - Staging Change at The 5 & Dime Theatre | Void Magazine: https://web.archive.org/web/20201024211109/https://voidlive.com/staging-change-5-dime-theatre/
 - Jacksonville's 5 & Dime theater group names director, ponders where and when next shows will be | Florida Times-Union: https://www.jacksonville.com/story/entertainment/theater/2021/02/02/jacksonvilles-5-dime-theater-group-names-director-ponders-shows/4337544001/
-date: 2024-07-02T18:02:23-04:00
+date: 2026-09-19T21:09:12-04:00
 donate: https://www.the5anddime.org/donate?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 In 2011, a group of artists and friends in Jacksonville, Florida came together with a bold vision: to make a difference in the city's cultural arts community. With that goal in mind, they founded The 5 & Dime, a theatre company that would offer opportunities for artists of all disciplines to showcase their talents in a supportive environment. The founding members, including [[person:Caryl Butterley]], [[person:Evan Gould]], Judy Gould, [[person:Staci Cobb Grant]], [[person:Lee Hamby]], Craig Leavitt, Zeina Salame, Josh Taylor, and [[person:Josh Waller]], started with a simple question: "Why not us?"

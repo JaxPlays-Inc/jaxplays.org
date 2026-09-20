@@ -16,15 +16,20 @@ address: |
 socials: 
   facebook: AClassicTheatre
   instagram:  aclassictheatre
+  linkedin: a-classic-theatre
   website: https://www.aclassictheatre.org
 social_annotations:
   facebook:
     content: "90049908948"
     text: "A Classic Theatre"
     url: https://www.facebook.com/90049908948
+  linkedin:
+    content: "104765782"
+    text: "A Classic Theatre"
+    url: https://www.linkedin.com/company/a-classic-theatre/
 
 color: "#008db6"
-date: 2024-07-02T18:04:27-04:00
+date: 2026-09-19T21:09:12-04:00
 donate: https://www.aclassictheatre.org/donate
 ---
 A Classic Theatre strives to produce plays that are relevant, timely and thought provoking.

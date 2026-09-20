@@ -15,16 +15,21 @@ socials:
   facebook: AmeliaMusicalPlayhouse
   twitter: amplayhouse
   instagram: ameliamusicalplayhouse
+  linkedin: amelia-musical-playhouse
   website: https://ameliamusicalplayhouse.com/
 social_annotations:
   facebook:
     content: "489217447821830"
     text: "Amelia Musical Playhouse"
     url: https://www.facebook.com/489217447821830
+  linkedin:
+    content: "7599175"
+    text: "Amelia Musical Playhouse"
+    url: https://www.linkedin.com/company/amelia-musical-playhouse/
 
 phone:  
 color: "#325684"
-date: 2023-09-08T00:00:00-04:00
+date: 2026-09-19T21:09:12-04:00
 donate: https://ameliamusicalplayhouse.com/amp/?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 Founded by Jill and Gregg Dillingham, the Amelia Musical Playhouse (AMP) is a 501(c)(3) nonprofit theater located on Amelia Island, Florida. Originating from casual glee nights, AMP has transformed into a lively, volunteer-run hub for performing arts. Offering shows Thursday through Sunday, the playhouse boasts a wide range of musicals, plays, and revues, all accompanied by live music.
