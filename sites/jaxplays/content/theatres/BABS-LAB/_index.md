@@ -17,6 +17,12 @@ socials:
   linkedin: barbaracolaciello
   youtube: interactbw
   website: https://www.barbaracolaciello.com/babslabtheatercork
+social_annotations:
+  facebook:
+    content: "1612946442335648"
+    text: "BABS' LAB"
+    url: https://www.facebook.com/1612946442335648
+
 color: "#e02982"
 donate: https://www.barbaracolaciello.com/checkout/donate?donatePageId=5f4c6eba511e4f509fa928ba&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---

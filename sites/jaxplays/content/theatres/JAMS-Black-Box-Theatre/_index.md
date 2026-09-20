@@ -26,6 +26,12 @@ socials:
   threads:
   website: https://www.jamsblackboxtheatre.org
   youtube: "@jacksonvilleartsandmusicsc5065"
+social_annotations:
+  facebook:
+    content: "550749381718886"
+    text: "JAMS Black Box Theatre"
+    url: https://www.facebook.com/550749381718886
+
 phone: 19043294279
 color: "#000000"
 ---

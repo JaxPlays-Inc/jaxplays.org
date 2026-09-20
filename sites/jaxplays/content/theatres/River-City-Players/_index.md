@@ -1,7 +1,7 @@
 ---
 title: River City Players
 layout: profile
-date: 2025-07-04T14:12:24-04:00
+date: 2026-09-19T21:09:12-04:00
 active: true
 company_type: Community
 featured_image: River-City-Players.webp
@@ -17,8 +17,19 @@ socials:
   facebook: RCPtheater
   twitter:
   instagram:
+  linkedin: river-city-players
   threads:
   website: https://www.rcppalatka.org/
+social_annotations:
+  facebook:
+    content: "167502066763835"
+    text: "River City Players"
+    url: https://www.facebook.com/167502066763835
+  linkedin:
+    content: "56852304"
+    text: "River City Players"
+    url: https://www.linkedin.com/company/river-city-players/
+
 phone:
 color: "#"
 ---

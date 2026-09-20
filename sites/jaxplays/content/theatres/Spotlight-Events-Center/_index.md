@@ -19,6 +19,12 @@ socials:
     facebook: SpotlightCenterFL
     instagram: spotlightcenterfl
     website: https://www.spotlighteventscenter.com/
+social_annotations:
+  facebook:
+    content: "103062999236214"
+    text: "Spotlight Events Center"
+    url: https://www.facebook.com/103062999236214
+
 phone: 19043759547
 color: "#C70039"
 date: 2026-06-07T16:34:17-04:00

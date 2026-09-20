@@ -1,7 +1,7 @@
 ---
 title: Jacksonville Symphony
 layout: profile
-date: 2024-07-02T18:03:12-04:00
+date: 2026-09-19T21:09:12-04:00
 active: false
 featured_image: Jacksonville-Symphony.webp
 featured_image_attr: 
@@ -17,8 +17,19 @@ socials:
   twitter: jaxsymphony
   instagram: jaxsymphony
   threads:
+  linkedin: jaxsymphony
   youtube: jaxsymphony
   website: https://www.jaxsymphony.org/
+social_annotations:
+  facebook:
+    content: "21238199148"
+    text: "Jacksonville Symphony"
+    url: https://www.facebook.com/21238199148
+  linkedin:
+    content: "10883129"
+    text: "Jacksonville Symphony"
+    url: https://www.linkedin.com/company/jaxsymphony/
+
 phone:  
 color: "#511b7b"
 donate: https://jaxsymphony.networkforgood.com/projects/93823-membership?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

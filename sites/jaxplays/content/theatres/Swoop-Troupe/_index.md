@@ -19,6 +19,12 @@ socials:
   instagram: swooptroupe
   threads:
   website: https://swooptroupe.wixsite.com/swooptroupe
+social_annotations:
+  facebook:
+    content: "736656569846998"
+    text: "Swoop Troupe"
+    url: https://www.facebook.com/736656569846998
+
 phone:  
 color: "#3A1751"
 donate: https://www.swooptroupe.com/donate

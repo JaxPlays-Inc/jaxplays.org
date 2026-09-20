@@ -20,6 +20,12 @@ socials:
   threads:
   website: https://twusa.org/
   youtube: theatreworksusa
+social_annotations:
+  facebook:
+    content: "101402648081"
+    text: "TheaterWorksUSA"
+    url: https://www.facebook.com/101402648081
+
 phone:  
 color: "#"
 ---

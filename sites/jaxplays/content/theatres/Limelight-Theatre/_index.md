@@ -15,7 +15,19 @@ socials:
   facebook: limelight.theatre
   twitter: limelightstaug
   instagram: limelightstaug
+  linkedin: limelighttheatre
   website: https://limelight-theatre.org
+  
+social_annotations:
+  facebook:
+    content: "120647455662"
+    text: "Limelight Theatre"
+    url: https://www.facebook.com/120647455662
+  linkedin:
+    content: "16222389"
+    text: "Limelight Theatre"
+    url: https://www.linkedin.com/company/limelighttheatre/
+
 phone: 19048251164
 color: "#bbda55"
 date: 2024-07-02T18:02:56-04:00

@@ -24,10 +24,15 @@ socials:
   instagram: saltwaterperformingarts
   threads:
   website: https://www.saltwaterpac.org/
+social_annotations:
+  facebook:
+    content: "159064327775929"
+    text: "Saltwater Performing Arts"
+    url: https://www.facebook.com/159064327775929
+
 phone: 19125109700
 color: "#3b8999"
 ---
-
 Saltwater Performing Arts, formerly known as St. Marys Children's Theatre, is a dynamic arts organization dedicated to enriching the cultural fabric of coastal communities in southeast Georgia and northeast Florida. Since its inception in 2014, Saltwater has expanded its programming significantly, offering a diverse range of productions, workshops, and camps that cater to participants aged 5 to 95. The organization emphasizes multi-generational involvement, fostering a sense of community engagement that extends beyond the stage.
 
 Believing that every child has the potential to be a leader, Saltwater Performing Arts aims to empower youth through performing arts education, cultivating self-confidence and creativity. The organization champions diversity and inclusiveness, providing opportunities for all families and children to explore their potential. With a mission to inspire and enhance the cultural life of the region, Saltwater Performing Arts creates a supportive environment where individuals can develop their skills and express themselves.

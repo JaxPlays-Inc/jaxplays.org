@@ -50,7 +50,7 @@
   {{- $theatre = merge $theatre (dict "alternateName" (uniq $alternateNames)) -}}
 {{- end -}}
 
-{{- with partial "schema/social-urls.html" .Params.socials -}}
+{{- with partial "schema/social-urls.html" (dict "socials" .Params.socials "useCompanyLinkedIn" true) -}}
   {{- if gt (len .) 0 -}}
     {{- $theatre = merge $theatre (dict "sameAs" .) -}}
   {{- end -}}

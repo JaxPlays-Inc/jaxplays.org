@@ -21,6 +21,16 @@ socials:
   linkedin: clamour-theatre
   youtube: "@ClamourTheatre"
   website: https://clamourtheatre.org/
+social_annotations:
+  facebook:
+    content: "1313941555347517"
+    text: "Clamour Theatre"
+    url: https://www.facebook.com/1313941555347517
+  linkedin:
+    content: "16161570"
+    text: "Clamour Theatre"
+    url: https://www.linkedin.com/company/clamour-theatre/
+
 phone:  
 email: info@clamourtheatre.org
 color: "#FF0000"

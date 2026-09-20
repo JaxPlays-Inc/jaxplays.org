@@ -20,6 +20,12 @@ socials:
   instagram: artistconnectionthejax
   threads:
   linkedin:
+social_annotations:
+  facebook:
+    content: "337786729982345"
+    text: "Artist Connection Theatre"
+    url: https://www.facebook.com/337786729982345
+
 phone: 19047105054
 color: "#993300"
 donate: https://ci.ovationtix.com/34989/store/donations?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

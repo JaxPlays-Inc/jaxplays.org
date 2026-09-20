@@ -15,6 +15,12 @@ socials:
   facebook: shepardfest
   instagram: shepardfest
   website: https://www.shepardfest.org
+social_annotations:
+  facebook:
+    content: "2290929427848560"
+    text: "ShepardFest"
+    url: https://www.facebook.com/2290929427848560
+
 email: info@shepardfest.org
 color:
 date: 2026-06-15T21:49:30-04:00

@@ -22,9 +22,10 @@
         {{ $url := "" }}
         {{ $label := humanize $name }}
         {{ $lowerName := lower $name }}
-        {{ $assetIconServices := slice "backstage" "ibdb" "imdb" "stagetime" "tiktok" "wikipedia" }}
+        {{ $assetIconServices := slice "backstage" "ibdb" "imdb" "linkedin" "stagetime" "tiktok" "wikipedia" }}
         {{ $handleString := printf "%s" $handle }}
         {{ $isAbsoluteURL := or (hasPrefix $handleString "http://") (hasPrefix $handleString "https://") }}
+        {{ $useCompanyLinkedIn := and (eq $lowerName "linkedin") (in (slice "theatres" "venues") $.Section) }}
         {{ if eq $lowerName "facebook" }}
           {{ $url = cond $isAbsoluteURL $handleString (printf "https://www.facebook.com/%s" $handleString) }}
         {{ else if eq $lowerName "instagram" }}
@@ -44,6 +45,8 @@
             {{ $url = $handleString }}
           {{ else if eq (substr $handleString 0 8) "company/" }}
             {{ $url = printf "https://www.linkedin.com/%s" $handleString }}
+          {{ else if $useCompanyLinkedIn }}
+            {{ $url = printf "https://www.linkedin.com/company/%s" $handleString }}
           {{ else }}
             {{ $url = printf "https://www.linkedin.com/in/%s" $handleString }}
           {{ end }}

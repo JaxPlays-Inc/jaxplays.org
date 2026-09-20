@@ -1137,6 +1137,12 @@ h1 a.jaxplayslogo {
 	width: var(--theatre-single-action-icon-size);
 }
 
+.profile-social-link--linkedin svg,
+.theatre-social-link--linkedin svg {
+	height: calc(var(--theatre-single-action-icon-size) * .81);
+	width: calc(var(--theatre-single-action-icon-size) * .81);
+}
+
 .profile-social-link--instagram svg,
 .profile-social-link--youtube svg,
 .profile-social-link--website svg,

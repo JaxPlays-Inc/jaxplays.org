@@ -21,6 +21,12 @@ socials:
   youtube: ChristChurch1951
   threads:
   website: https://ccpvb.org/connect/community/creative-academy/
+social_annotations:
+  facebook:
+    content: "61554136377742"
+    text: "Christ Church Creative Academy"
+    url: https://www.facebook.com/profile.php?id=61554136377742
+
 phone:  
 color: "#87a09e"
 ---

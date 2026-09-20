@@ -18,12 +18,23 @@ socials:
   facebook: alhambratheatreanddining
   twitter: alhambrajax
   instagram: alhambrajax
+  linkedin: alhambra-theatre-&-dining
   website: https://www.alhambrajax.com
+social_annotations:
+  facebook:
+    content: "126256408807"
+    text: "Alhambra Theatre & Dining"
+    url: https://www.facebook.com/126256408807
+  linkedin:
+    content: "1696539"
+    text: "Alhambra Theatre & Dining"
+    url: https://www.linkedin.com/company/alhambra-theatre-&-dining/
+
 phone: 19046411212
 color: "#CF9F45"
 press:
 - "Dinner and a Show: The History of Alhambra Theatre": https://web.archive.org/web/20230430215950/https://thecoastal.com/culture/history-alhambra-theatre-dining/amp/
-date: 2023-09-08T00:00:00-04:00
+date: 2026-09-19T21:09:12-04:00
 ---
 The Alhambra Theatre & Dining is a dinner theater located in Jacksonville, Florida. Founders Ted Johnson and George Ballis recruited businessman Leon Simon as their primary investor. It was established in 1967 and has been providing live theater performances, accompanied by fine dining, to the local community for over five decades. The theater has a seating capacity of 408 and features a main stage, private lounge area, and a full-service kitchen.
 

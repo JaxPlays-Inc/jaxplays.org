@@ -15,6 +15,12 @@ socials:
   instagram: ameliaislandopera
   threads: ameliaislandopera
   website: https://www.ameliaislandopera.org/
+social_annotations:
+  facebook:
+    content: "109523858033942"
+    text: "Amelia Island Opera"
+    url: https://www.facebook.com/109523858033942
+
 phone: 19045567342​
 color: "#8889ba"
 ---

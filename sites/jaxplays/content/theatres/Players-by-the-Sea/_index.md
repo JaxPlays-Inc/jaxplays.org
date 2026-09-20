@@ -17,6 +17,16 @@ socials:
   instagram: playersbythesea
   linkedin: company/players-by-the-sea-theater
   website: https://playersbythesea.org
+social_annotations:
+  facebook:
+    content: "116545955061602"
+    text: "Players by the Sea"
+    url: https://www.facebook.com/116545955061602
+  linkedin:
+    content: "2154245"
+    text: "Players by the Sea"
+    url: https://www.linkedin.com/company/players-by-the-sea-theater/
+
 color: "#91508e"
 date: 2024-07-02T18:02:39-04:00
 donate: https://ci.ovationtix.com/34877/store/donations/48702?utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn

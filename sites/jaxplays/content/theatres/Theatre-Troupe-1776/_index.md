@@ -19,6 +19,12 @@ socials:
   instagram: theatretroupe1776
   threads:
   website: 
+social_annotations:
+  facebook:
+    content: "262714183584286"
+    text: "Theatre Troupe 1776"
+    url: https://www.facebook.com/262714183584286
+
 phone:  
 color: "#571518"
 ---

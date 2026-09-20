@@ -19,6 +19,12 @@ socials:
   instagram: dmabinc
   threads:
   website: https://www.dontmissabeat.org
+social_annotations:
+  facebook:
+    content: "100063620799569"
+    text: "Don't Miss A Beat"
+    url: https://www.facebook.com/profile.php?id=100063620799569
+
 phone:  
 color: "#f48847"
 ---

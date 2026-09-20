@@ -20,6 +20,12 @@ socials:
   instagram: 
   threads:
   website: https://crtpalmcoast.com/
+social_annotations:
+  facebook:
+    content: "235820776438440"
+    text: "City Repertory Theatre"
+    url: https://www.facebook.com/235820776438440
+
 phone: 13865859415
 color: "#9e0505"
 ---

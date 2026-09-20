@@ -16,10 +16,20 @@ socials:
   facebook: firstcoastopera
   instagram: first_coast_opera
   website: https://www.firstcoastopera.com/
-  linkedin: company/first-coast-opera/
+  linkedin: first-coast-opera
   youtube: "@firstcoastopera1"
+social_annotations:
+  facebook:
+    content: "121132214291"
+    text: "First Coast Opera"
+    url: https://www.facebook.com/121132214291
+  linkedin:
+    content: "107241129"
+    text: "First Coast Opera"
+    url: https://www.linkedin.com/company/first-coast-opera/
+
 color: "#b30b24"
-date: 2024-07-02T18:03:40-04:00
+date: 2026-09-19T21:09:12-04:00
 donate: https://app.arts-people.com/index.php?donation=fcop&utm_source=web&utm_medium=jaxplays&utm_campaign=donate_btn
 ---
 For 25 years, First Coast Opera has been bringing the power and beauty of live opera to Northeast Florida. As the region's first opera company, we are dedicated to presenting fully-staged productions, offering audiences the full theatrical experience with the grandeur of orchestra, chorus, sets and costumes. Rounding out each season we offer dinner concerts and free community programs that open the world of opera to all and showcase its remarkable versatility.

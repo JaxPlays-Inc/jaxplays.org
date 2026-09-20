@@ -15,6 +15,12 @@ socials:
   twitter: apextheatrejax
   instagram: apextheatrejax
   website: http://www.apextheatrejax.com
+social_annotations:
+  facebook:
+    content: "298280976991663"
+    text: "Apex Theatre Studio"
+    url: https://www.facebook.com/298280976991663
+
 phone: 
 color: "#ea4748"
 date: 2024-07-02T18:04:02-04:00
