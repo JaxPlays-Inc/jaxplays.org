@@ -26,6 +26,11 @@
 	color: #0077B5;
 }
 
+.ananke-socials a.linkedin .icon svg {
+  height: 2.45rem;
+  width: 2.45rem;
+}
+
 .ananke-socials a.twitter {
 	color: #1da1f2;
 }
@@ -69,6 +74,12 @@ footer .ananke-socials a {
 header .ananke-socials a .icon svg, footer .ananke-socials a .icon svg{
   width: 2.2rem;
   height: 2.2rem;
+}
+
+header .ananke-socials a.linkedin .icon svg,
+footer .ananke-socials a.linkedin .icon svg {
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
 .new-window {
