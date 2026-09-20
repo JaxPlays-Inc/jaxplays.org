@@ -15,7 +15,9 @@ socials:
   facebook: limelight.theatre
   twitter: limelightstaug
   instagram: limelightstaug
+  linkedin: limelighttheatre
   website: https://limelight-theatre.org
+  
 social_annotations:
   facebook:
     content: "120647455662"
