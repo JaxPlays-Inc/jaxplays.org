@@ -37,7 +37,7 @@
 {{- with .Params.capacity -}}
   {{- $venue = merge $venue (dict "maximumAttendeeCapacity" .) -}}
 {{- end -}}
-{{- with partial "schema/social-urls.html" .Params.socials -}}
+{{- with partial "schema/social-urls.html" (dict "socials" .Params.socials "useCompanyLinkedIn" true) -}}
   {{- if gt (len .) 0 -}}
     {{- $venue = merge $venue (dict "sameAs" .) -}}
   {{- end -}}

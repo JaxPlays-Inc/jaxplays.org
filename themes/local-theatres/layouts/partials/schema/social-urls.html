@@ -1,5 +1,15 @@
 {{- $sameAs := slice -}}
-{{- with . -}}
+{{- $socials := . -}}
+{{- $useCompanyLinkedIn := false -}}
+{{- if reflect.IsMap . -}}
+  {{- with .socials -}}
+    {{- $socials = . -}}
+  {{- end -}}
+  {{- with .useCompanyLinkedIn -}}
+    {{- $useCompanyLinkedIn = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $socials -}}
   {{- range $name, $handle := . -}}
     {{- with $handle -}}
       {{- $service := lower $name -}}
@@ -25,6 +35,8 @@
           {{- $url = $handleString -}}
         {{- else if hasPrefix $handleString "company/" -}}
           {{- $url = printf "https://www.linkedin.com/%s" $handleString -}}
+        {{- else if $useCompanyLinkedIn -}}
+          {{- $url = printf "https://www.linkedin.com/company/%s" $handleString -}}
         {{- else -}}
           {{- $url = printf "https://www.linkedin.com/in/%s" $handleString -}}
         {{- end -}}
