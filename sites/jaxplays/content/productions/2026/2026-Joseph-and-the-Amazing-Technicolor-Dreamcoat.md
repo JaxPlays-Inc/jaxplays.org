@@ -1,8 +1,8 @@
 ---
 title: Joseph and the Amazing Technicolor Dreamcoat
 theatre: Artist Connection Theatre
-venue: Jacksonville Scottish Rite Theater
-date: 2026-06-04T00:12:00-04:00
+venue: Artist Connection Theatre
+date: 2026-09-24T17:46:33.394Z
 opening_date: 2026-10-08
 closing_date: 2026-10-11
 showtimes:
@@ -11,16 +11,13 @@ showtimes:
   - 2026-10-10 19:00:00
   - 2026-10-11 15:00:00
 featured_image: 2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
-featured_image_alt:
-featured_image_caption:
+featured_image_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat
+featured_image_caption: Poster for Joseph and the Amazing Technicolor Dreamcoat
 featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://artistconnectiontheatre.org/productions/
-tickets:
-show_details:
-  - Music: "[[w:Andrew Lloyd Webber]]"
-  - Lyrics: "[[w:Tim Rice]]"
+tickets: https://ci.ovationtix.com/34989/production/1292376
 cast:
 crew:
 orchestra:
@@ -28,7 +25,7 @@ genres:
   - Musical
   - Family
 description: A radiant coat, prophetic dreams, and a family full of rivalry drive Andrew Lloyd Webber and Tim Rice's exuberant musical retelling.
-source: Artist Connection Theatre productions page
-source_date: 2026-05-28
-source_url: https://artistconnectiontheatre.org/productions/
+source: Submitted through JaxPlays production form (JAX-5873)
+source_date: 2026-09-24
+source_url: https://linear.app/jaxplays/issue/JAX-5873/jaxplays-production-submission-joseph-and-the-amazing-technicolor
 ---

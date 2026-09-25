@@ -24382,6 +24382,31 @@
   ],
   "artist-connection-theatre": [
     {
+      "title": "Joseph and the Amazing Technicolor Dreamcoat",
+      "url": "/productions/2026-joseph-and-the-amazing-technicolor-dreamcoat/",
+      "contentPath": "productions/2026/2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat",
+      "poster": "/media/posters/2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp",
+      "posterAlt": "Poster for Joseph and the Amazing Technicolor Dreamcoat",
+      "openingDate": "2026-10-08",
+      "closingDate": "2026-10-11",
+      "openingLabel": "Oct 8, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 8, 2026",
+      "closingLabel": "Oct 11, 2026",
+      "theatre": "Artist Connection Theatre",
+      "venues": [],
+      "allVenues": [
+        "Artist Connection Theatre"
+      ],
+      "genres": [
+        "Musical",
+        "Family"
+      ],
+      "summary": "A radiant coat, prophetic dreams, and a family full of rivalry drive Andrew Lloyd Webber and Tim Rice's exuberant musical retelling.",
+      "tickets": "https://ci.ovationtix.com/34989/production/1292376",
+      "searchBase": "joseph and the amazing technicolor dreamcoat oct 8, 2026 oct 11, 2026 artist connection theatre artist connection theatre musical family a radiant coat, prophetic dreams, and a family full of rivalry drive andrew lloyd webber and tim rice's exuberant musical retelling."
+    },
+    {
       "title": "Arsenic and Old Lace",
       "url": "/productions/2026-arsenic-and-old-lace/",
       "contentPath": "productions/2026/2026-Arsenic-and-Old-Lace",
@@ -27719,35 +27744,6 @@
       "summary": "Swoop Troupe collaborates with Greenlight Theatre on Sondheim's murderous musical about revenge, grief and London lives ground down to a razor's edge.",
       "tickets": "https://www.greenlighttheatreco.com/jaxonstage",
       "searchBase": "sweeney todd mar 20, 2026 mar 29, 2026 swoop troupe greenlight theatre company musical thriller swoop troupe collaborates with greenlight theatre on sondheim's murderous musical about revenge, grief and london lives ground down to a razor's edge."
-    }
-  ],
-  "jacksonville-scottish-rite-theater": [
-    {
-      "title": "Joseph and the Amazing Technicolor Dreamcoat",
-      "url": "/productions/2026-joseph-and-the-amazing-technicolor-dreamcoat/",
-      "contentPath": "productions/2026/2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat",
-      "poster": "/media/posters/2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp",
-      "posterAlt": "Poster for Joseph and the Amazing Technicolor Dreamcoat",
-      "openingDate": "2026-10-08",
-      "closingDate": "2026-10-11",
-      "openingLabel": "Oct 8, 2026",
-      "openingMonthLabel": "October 2026",
-      "openingBadgeLabel": "Oct 8, 2026",
-      "closingLabel": "Oct 11, 2026",
-      "theatre": "Artist Connection Theatre",
-      "venues": [
-        "Jacksonville Scottish Rite Theater"
-      ],
-      "allVenues": [
-        "Jacksonville Scottish Rite Theater"
-      ],
-      "genres": [
-        "Musical",
-        "Family"
-      ],
-      "summary": "A radiant coat, prophetic dreams, and a family full of rivalry drive Andrew Lloyd Webber and Tim Rice's exuberant musical retelling.",
-      "tickets": "",
-      "searchBase": "joseph and the amazing technicolor dreamcoat oct 8, 2026 oct 11, 2026 artist connection theatre jacksonville scottish rite theater musical family a radiant coat, prophetic dreams, and a family full of rivalry drive andrew lloyd webber and tim rice's exuberant musical retelling."
     }
   ],
   "treaty-park": [
