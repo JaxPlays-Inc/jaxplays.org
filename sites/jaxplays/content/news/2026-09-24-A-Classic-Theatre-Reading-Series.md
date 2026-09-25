@@ -1,6 +1,12 @@
 ---
 title: "Voices in the Spotlight: A Classic Theatre's Reading Series Nurtures New Plays and Local Audiences"
 date: 2026-09-24T17:45:00-04:00
+featured_image:
+  src: /media/photos/2026-09-24-A-Classic-Theatre-Reading-Series.webp
+  alt: "Graphic for A Classic Theatre's 2026-2027 staged reading series, featuring the titles Light and Noise and Bees and Boys, After, Analysis Pyralysis, and Roommates and Other Strangers."
+  caption: "A Classic Theatre's 2026-2027 staged reading series invites audiences into four intimate evenings of new and contemporary work, from *After* to *Roommates and Other Strangers*."
+  credit:
+    name: "Graphics: A Classic Theatre, Layout: Ray Hollister"
 authors:
 - Maureen E. McCluskey, Ed.D.
 show_reading_time: true
