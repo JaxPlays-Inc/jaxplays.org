@@ -22,6 +22,25 @@ show_details:
   - Chef, October 2-3: Matthew Brown
   - Chef, October 30: Ellie Shultze
 cast:
+  - Billie Meyerson:
+      - Alexis Brockway
+      - Grace Lindsey
+  - Sera-Faye Fenix: Melissa Cooley
+  - Eliza Nightingale:
+      - Angelica Parisen
+      - Kaylee Byers
+  - Lorenzo DeLuca: Joseph Stearman
+  - Tony DeLuca:
+      - Matthew Turnage
+      - Max Haddock
+  - Beatrice DeLuca: Keri Green
+  - Jules Moreau:
+      - Shelly Owen
+      - Frank Riccardo
+  - 'Thomas "Tollbooth" Booth': Allyn Dennis
+  - Maureen Watkins: Farah Nesargi
+  - Martin Pennyfeather: Daniel Starling
+  - Female Swing: Maureen McCluskey
 crew:
 understudies:
 orchestra:
