@@ -38,9 +38,9 @@ In addition to all that, as if that weren't enough, I had already written two pl
 
 **DS:** "Now sign here" is a reference to prenuptial agreements. The play begins where Hannah's father wants her to get her fiance, Michael, to sign a prenup because Hannah's family is very wealthy. As it turns out, Michael's parents wind up asking him to get Hannah to sign a prenup to protect the fortune they just won in the lottery. The rest of the story is not directly related to the reference, "now sign here."
 
-**Hannah and Michael come from sharply different family traditions: a wealthy, conservative Jewish family in Greenwich and a blue-collar, third-generation Irish family from Brooklyn. What interested you about bringing those two worlds together?**
+**JP: Hannah and Michael come from sharply different family traditions: a wealthy, conservative Jewish family in Greenwich and a blue-collar, third-generation Irish family from Brooklyn. What interested you about bringing those two worlds together?**
 
-I wanted to tell a story about differing cultures and how they might coexist; what the pitfalls might be in trying to bring such differing lifestyles together; and since I was so familiar with these particular groups, having grown up in New York and gone to school in New England, I felt qualified to do so. I've always been taught: Write what you know.
+**DS:** I wanted to tell a story about differing cultures and how they might coexist; what the pitfalls might be in trying to bring such differing lifestyles together; and since I was so familiar with these particular groups, having grown up in New York and gone to school in New England, I felt qualified to do so. I've always been taught: Write what you know.
 
 **JP: Stories about clashing families can easily rely on broad stereotypes. How did you work to make these families culturally recognizable while still allowing each character to feel specific, complicated and human?**
 
@@ -58,7 +58,7 @@ Also, then there are the questions of where, who and how, which, when it comes t
 
 **DS:** The challenge for Michael and Hannah comes from their parents. They don't need or want the prenups. Hannah is far more practical about it, however, especially when she learns that Michael's parents want her to sign one too. Michael is the one who finds it insulting and wholly unnecessary. He's more altruistic than Hannah and wants everyone to live in peace and love. He's the "Kumbaya" partner.
 
-**The parents appear to create many of the obstacles facing the couple, but parents often interfere because they sincerely believe they are protecting their children. How did you approach writing them with enough empathy that they are more than simple antagonists?**
+**JP: The parents appear to create many of the obstacles facing the couple, but parents often interfere because they sincerely believe they are protecting their children. How did you approach writing them with enough empathy that they are more than simple antagonists?**
 
 **DS:** I suppose you can say that, as for Hannah's parents, Abe comes out as a decent guy, but Ruth is the problem. The script provides evidence, sometimes lightly, sometimes in your face, that this is a complicated mother-daughter relationship that goes back years.
 
@@ -74,11 +74,7 @@ Michael's parents, on the other hand, especially Michael's father, are salt of t
 
 **DS:** How attracted Michael and Hannah are to each other.
 
-<!-- **JP: The play combines serious pressures involving family, religion, money and pregnancy with romantic comedy. How do you find the line between allowing the situations to be funny and honoring the genuine emotional stakes underneath them?**
-
-See Answer No. 4. -->
-
-**How much of the play comes from experiences you have personally lived, witnessed or heard about? Are there any characters or conflicts that people close to you may recognize a little too easily?**
+**JP: How much of the play comes from experiences you have personally lived, witnessed or heard about? Are there any characters or conflicts that people close to you may recognize a little too easily?**
 
 **DS:** No! That question always comes up, so I'm probably a bit sensitive about it. For once, however, I can honestly say that none of the characters are modeled after anyone close to me.
 
@@ -93,7 +89,7 @@ I've been on the sidelines of two mother-daughter relationships in my life -- my
 **DS:** My primary hope is that whoever sees this play will be talking about how much they laughed during the performance. Aside from that, maybe discussing which character they most identified with.
 
 **Event details**
-- **What:** *I Love You, You're Perfect... Now Sign Here*
+- **What:** [[production:2026 I Love You, Youre Perfect Now Sign Here|I Love You, You're Perfect... Now Sign Here]]
 - **When:** Sept. 11-20, 2026
 - **Where:** [[theatre:Players by the Sea|Players by the Sea, 106 Sixth St. N., Jacksonville Beach, FL 32250]]
 - **Tickets:** Available through [Players by the Sea](https://ci.ovationtix.com/34877/production/1285221).
