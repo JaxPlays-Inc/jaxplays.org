@@ -8,13 +8,13 @@ featured_image:
 authors:
 - JaxPlays
 show_reading_time: true
-description: "WJCT Studios will screen National Theatre Live's *The Misanthrope*, starring Sandra Oh in Martin Crimp's new version of Moliere's dark comedy, on Wednesday, Oct. 7."
+description: "WJCT Studios will screen National Theatre Live's *The Misanthrope*, starring Sandra Oh in Martin Crimp's new version of Molière's dark comedy, on Wednesday, Oct. 7."
 ---
-Jacksonville audiences can see Sandra Oh take on Moliere by way of National Theatre Live when WJCT Studios screens *[The Misanthrope](https://wjct.org/events/film/the-misanthrope/)* on Wednesday, Oct. 7.<!--more-->
+Jacksonville audiences can see Sandra Oh take on Molière by way of National Theatre Live when WJCT Studios screens *[The Misanthrope](https://wjct.org/events/film/the-misanthrope/)* on Wednesday, Oct. 7.<!--more-->
 
 The production stars Oh, known to television audiences for *Killing Eve* and *Grey's Anatomy*, as Alice, a celebrated novelist whose refusal to indulge polite fictions makes her both magnetic and increasingly isolated. As Alice challenges the social scripts around her, professional backlash and personal fractures force the question at the center of the comedy: what does honesty cost when everyone else is performing civility?
 
-Martin Crimp's new version of Moliere's 17th-century satire reimagines the famously misanthropic Alceste as Alice and moves the story into the contemporary world. National Theatre Director Indhu Rubasingham directs the production, which was filmed live on stage at London's National Theatre after running in the Lyttelton Theatre from June 16 through Aug. 1, 2026.
+Martin Crimp's new version of [[Molière]]'s 17th-century satire reimagines the famously misanthropic Alceste as Alice and moves the story into the contemporary world. National Theatre Director Indhu Rubasingham directs the production, which was filmed live on stage at London's National Theatre after running in the Lyttelton Theatre from June 16 through Aug. 1, 2026.
 
 The National Theatre's cast also includes Paul Chahidi, Abigail Cruttenden, Imogen Elliott, Rina Fatania, Freddie MacBruce, Tom Mison and Jemima Rooper. The creative team includes set and costume designer Robert Jones, lighting designer Tim Lutkin, composer Anna Meredith, sound designer Alexander Caplen and movement director Lucy Hind.
 
