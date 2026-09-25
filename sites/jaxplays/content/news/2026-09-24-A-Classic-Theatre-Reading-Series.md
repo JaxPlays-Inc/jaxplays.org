@@ -10,49 +10,49 @@ There is an electric intimacy in a staged reading. Strip away the set pieces, th
 
 At [[theatre:A Classic Theatre]], known affectionately as ACT, the Reading Series continues to flourish as an incubator for storytelling and dynamic theatrical experiences. Artistic Director Cindy Alexander recently shared insight into the magic of new works, the power of live audience feedback and the art of bringing a playwright's vision into the light.
 
-**MAUREEN McCLUSKEY:** What inspired ACT to create or champion this reading series, and what does it mean to you?
+**JaxPlays: What inspired ACT to create or champion this reading series, and what does it mean to you?**
 
-**CINDY ALEXANDER:** Several years ago we decided to institute a series of readings of plays in addition to our fully produced Main Stage Series. Initially I thought we would find plays that would be difficult to stage or that were seldom produced. However, it eventually morphed to being plays that the directors brought to us that they wanted to see done. As it happened, we did do a few "never before produced" plays and they seemed to generate a great interest for the audience. Also, I felt it is increasingly important to nurture new plays and playwrights. All plays were once "new" and why not have their start at A Classic Theatre?
+**Cindy Alexander:** Several years ago we decided to institute a series of readings of plays in addition to our fully produced Main Stage Series. Initially I thought we would find plays that would be difficult to stage or that were seldom produced. However, it eventually morphed to being plays that the directors brought to us that they wanted to see done. As it happened, we did do a few "never before produced" plays and they seemed to generate a great interest for the audience. Also, I felt it is increasingly important to nurture new plays and playwrights. All plays were once "new" and why not have their start at A Classic Theatre?
 
-**McCLUSKEY:** When you're considering a new play or playwright, what makes you lean in and think, I want to hear this story?
+**JP: When you're considering a new play or playwright, what makes you lean in and think, I want to hear this story?**
 
-**ALEXANDER:** Interesting and believable characters. Quick, witty dialogue.
+**CA:** Interesting and believable characters. Quick, witty dialogue.
 
-**McCLUSKEY:** What excites you most about giving a new work its first life in front of an audience?
+**JP: What excites you most about giving a new work its first life in front of an audience?**
 
-**ALEXANDER:** While it's not always possible to have the playwright travel to St. Augustine to see the reading, the interaction that we have with them is wonderful. We are actually able to talk to and get feedback from the author!
+**CA:** While it's not always possible to have the playwright travel to St. Augustine to see the reading, the interaction that we have with them is wonderful. We are actually able to talk to and get feedback from the author!
 
-**McCLUSKEY:** There's something special about a reading -- the words, actors and audience are all discovering the piece together. What do you love about that experience?
+**JP: There's something special about a reading -- the words, actors and audience are all discovering the piece together. What do you love about that experience?**
 
-**ALEXANDER:** Sharing a new work with our audience.
+**CA:** Sharing a new work with our audience.
 
-**McCLUSKEY:** How do you see the reading series fitting into the larger artistic vision of your theatre?
+**JP: How do you see the reading series fitting into the larger artistic vision of your theatre?**
 
-**ALEXANDER:** One of our stated missions is to present contemporary theatre. Doing brand new plays is a wonderful way to not only give a play its first presentation, but it fulfills our mission of giving our audience a play about issues relevant to today's world.
+**CA:** One of our stated missions is to present contemporary theatre. Doing brand new plays is a wonderful way to not only give a play its first presentation, but it fulfills our mission of giving our audience a play about issues relevant to today's world.
 
-**McCLUSKEY:** What are you hoping playwrights take away from being part of the series -- not just on the night, but as they continue developing their work?
+**JP: What are you hoping playwrights take away from being part of the series -- not just on the night, but as they continue developing their work?**
 
-**ALEXANDER:** By having a post-performance discussion led by a facilitator, we can ask pertinent questions of the audience that can help the playwright gauge if their message is getting through.
+**CA:** By having a post-performance discussion led by a facilitator, we can ask pertinent questions of the audience that can help the playwright gauge if their message is getting through.
 
-**McCLUSKEY:** How do you balance supporting a playwright's vision while also bringing your own artistic perspective to the process?
+**JP: How do you balance supporting a playwright's vision while also bringing your own artistic perspective to the process?**
 
-**ALEXANDER:** It is essential that the playwright's vision is honored. The director can use various devices such as casting choices, sound and light effects and movement to bring their own creative ideas to the play, although these are somewhat limited in a reading.
+**CA:** It is essential that the playwright's vision is honored. The director can use various devices such as casting choices, sound and light effects and movement to bring their own creative ideas to the play, although these are somewhat limited in a reading.
 
-**McCLUSKEY:** What does a successful reading look or feel like to you? Is it about discovering what works, uncovering what needs more exploration, or simply getting the play into the room?
+**JP: What does a successful reading look or feel like to you? Is it about discovering what works, uncovering what needs more exploration, or simply getting the play into the room?**
 
-**ALEXANDER:** Is the audience engaged? Are the actors inhabiting the roles rather than just "reading" the script? Are there questions afterwards?
+**CA:** Is the audience engaged? Are the actors inhabiting the roles rather than just "reading" the script? Are there questions afterwards?
 
-**McCLUSKEY:** What have you learned from working with new plays and emerging voices that has influenced you as an artistic director?
+**JP: What have you learned from working with new plays and emerging voices that has influenced you as an artistic director?**
 
-**ALEXANDER:** New plays are always searching for ways to make sense of the challenging issues we are facing today. For most contemporary playwrights, difficult issues are presented with a dose of humor. As an artistic director, I am always looking for plays that have those two elements -- contemporary social issues and humor.
+**CA:** New plays are always searching for ways to make sense of the challenging issues we are facing today. For most contemporary playwrights, difficult issues are presented with a dose of humor. As an artistic director, I am always looking for plays that have those two elements -- contemporary social issues and humor.
 
-**McCLUSKEY:** Is there something you're particularly proud of about the artists or stories this series has brought into the room?
+**JP: Is there something you're particularly proud of about the artists or stories this series has brought into the room?**
 
-**ALEXANDER:** I'm always pleasantly surprised at how an audience can respond to the words of a playwright without a big "production." These readings are very intimate and the audience has the opportunity to be up close and part of the production.
+**CA:** I'm always pleasantly surprised at how an audience can respond to the words of a playwright without a big "production." These readings are very intimate and the audience has the opportunity to be up close and part of the production.
 
-**McCLUSKEY:** What do you hope audiences experience when they come to a reading -- especially when they may be encountering a playwright or story for the very first time?
+**JP: What do you hope audiences experience when they come to a reading -- especially when they may be encountering a playwright or story for the very first time?**
 
-**ALEXANDER:** Excitement of seeing something new and untried. The opportunity to give their feedback on their experience.
+**CA:** Excitement of seeing something new and untried. The opportunity to give their feedback on their experience.
 
 Through this series, A Classic Theatre continues to provide the local community with a front-row seat to the creative process. Beyond the scripts and stage lights, the readings build a living bridge between writers, actors and theatregoers, ensuring that the audience remains an essential partner in shaping new stories.
 
