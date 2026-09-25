@@ -8,7 +8,7 @@ description: "A Classic Theatre's staged reading series gives new plays an intim
 ---
 There is an electric intimacy in a staged reading. Strip away the set pieces, the costumes and the lighting rigs, and what remains is the beating heart of theatre: the script, the actor's voice and an audience leaning in to listen.<!--more-->
 
-At [[theatre:A Classic Theatre]], known affectionately as ACT, the Reading Series continues to flourish as an incubator for storytelling and dynamic theatrical experiences. Artistic Director Cindy Alexander recently shared insight into the magic of new works, the power of live audience feedback and the art of bringing a playwright's vision into the light.
+At [[theatre:A Classic Theatre]], known as ACT, the Reading Series develops new plays alongside the company's Main Stage productions. Artistic Director Cindy Alexander talked with JaxPlays about choosing new work, the role of live audience feedback and how a reading serves a playwright's script.
 
 **JaxPlays: What inspired ACT to create or champion this reading series, and what does it mean to you?**
 
@@ -53,8 +53,6 @@ At [[theatre:A Classic Theatre]], known affectionately as ACT, the Reading Serie
 **JP: What do you hope audiences experience when they come to a reading -- especially when they may be encountering a playwright or story for the very first time?**
 
 **CA:** Excitement of seeing something new and untried. The opportunity to give their feedback on their experience.
-
-Through this series, A Classic Theatre continues to provide the local community with a front-row seat to the creative process. Beyond the scripts and stage lights, the readings build a living bridge between writers, actors and theatregoers, ensuring that the audience remains an essential partner in shaping new stories.
 
 ### Upcoming Staged Reading and Tickets
 
