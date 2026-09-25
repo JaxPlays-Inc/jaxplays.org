@@ -17,10 +17,7 @@ featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://artistconnectiontheatre.org/productions/
-tickets: https://artistconnectiontheatre.org/productions/
-show_details:
-  - Music: "[[w:Andrew Lloyd Webber]]"
-  - Lyrics: "[[w:Tim Rice]]"
+tickets: https://ci.ovationtix.com/34989/production/1292376
 cast:
 crew:
 orchestra:
