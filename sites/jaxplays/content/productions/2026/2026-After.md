@@ -13,7 +13,7 @@ poster_alt: Poster for After
 poster_caption: Poster for After
 poster_attr: "@A Classic Theatre"
 poster_attr_link:
-featured_image: /media/photos/2026-After-Featured.webp
+featured_image: 2026-After-Featured.webp
 featured_image_alt: Featured image for A Classic Theatre's staged reading of After
 featured_image_caption: Featured image for After
 featured_image_attr: "@A Classic Theatre"
