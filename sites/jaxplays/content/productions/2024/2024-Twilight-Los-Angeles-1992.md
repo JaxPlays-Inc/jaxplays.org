@@ -11,8 +11,10 @@ showtimes:
   - 2024-06-07 19:30:00
   - 2024-06-08 19:30:00
   - 2024-06-09 19:30:00
-featured_image: 2024-Twilight-Los-Angeles-1992.webp
-featured_image_alt: "Graphic for 'Twilight: Los Angeles, 1992'"
+poster: 2024-Twilight-Los-Angeles-1992.webp
+featured_image:
+poster_alt: "Graphic for 'Twilight: Los Angeles, 1992'"
+featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 

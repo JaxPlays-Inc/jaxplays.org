@@ -9,9 +9,12 @@ closing_date: 2024-08-03
 showtimes:
 - 2024-08-02 19:30:00
 - 2024-08-03 19:30:00
-featured_image: 2024-Love-and-Information.webp
-featured_image_alt: "Promotional image for 'Love and Information' by Caryl Churchill, directed by Barbara Colaciello. The design features swirling light trails in vibrant blues and oranges against a dark background, suggesting the play’s dynamic exploration of how people process and react to information."
-featured_image_caption: "Artistic rendering for 'Love and Information' captures the play's themes of connectivity and the flow of data in modern life."
+poster: 2024-Love-and-Information.webp
+featured_image:
+poster_alt: "Promotional image for 'Love and Information' by Caryl Churchill, directed by Barbara Colaciello. The design features swirling light trails in vibrant blues and oranges against a dark background, suggesting the play’s dynamic exploration of how people process and react to information."
+featured_image_alt:
+poster_caption: "Artistic rendering for 'Love and Information' captures the play's themes of connectivity and the flow of data in modern life."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

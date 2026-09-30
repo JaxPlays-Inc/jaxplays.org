@@ -7,10 +7,14 @@ venue: Grace Darling Studio Theatre
 date: 2024-04-19
 opening_date: 2024-04-19
 closing_date: 2024-04-21
-featured_image: 2024-04-Unmasked.webp
-featured_image_alt: Poster for 'Unmasked'
-featured_image_caption: Poster for 'Unmasked'
-featured_image_attr: Greenlight Theatre Company
+poster: 2024-04-Unmasked.webp
+featured_image:
+poster_alt: Poster for 'Unmasked'
+featured_image_alt:
+poster_caption: Poster for 'Unmasked'
+featured_image_caption:
+poster_attr: Greenlight Theatre Company
+featured_image_attr:
 featured_image_attr_link: 
 showtimes:
 - 2024-04-19 19:00:00

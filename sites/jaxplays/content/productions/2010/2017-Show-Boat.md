@@ -50,7 +50,8 @@ showtimes:
   - 2017-03-31 19:50:00
   - 2017-04-01 13:50:00
   - 2017-04-02 19:50:00
-featured_image: 2017-Show-Boat.webp
+poster: 2017-Show-Boat.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

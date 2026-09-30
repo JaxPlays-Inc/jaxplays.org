@@ -14,7 +14,8 @@ showtimes:
   - 2024-10-25 20:00:00
   - 2024-10-26 20:00:00
   - 2024-10-27 14:00:00
-featured_image: 2024-If-the-Shoe-Fits.webp
+poster: 2024-If-the-Shoe-Fits.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

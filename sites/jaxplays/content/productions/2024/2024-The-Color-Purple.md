@@ -8,7 +8,8 @@ closing_date: 2024-04-06
 showtimes:
 - 2024-04-06 14:00:00
 - 2024-04-06 19:00:00
-featured_image: 2024-The-Color-Purple.webp
+poster: 2024-The-Color-Purple.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -7,9 +7,12 @@ opening_date: 2025-02-07
 closing_date: 2025-02-07
 showtimes:
   - 2025-02-07 19:30:00
-featured_image: 2025-Who-Am-I-This-Time.webp
-featured_image_alt: "Poster for the staged reading of 'Who Am I This Time & Other Conundrums of Love' by Aaron Posner, adapted from stories by Kurt Vonnegut. The design features a large red question mark with the title text inside it, set against a creamy background. This exploration of love's complexities is scheduled for February 7, 2025, at A Classic Theatre."
-featured_image_caption: "Explore the complexities of love with 'Who Am I This Time & Other Conundrums of Love' at A Classic Theatre on February 7, 2025. This unique staged reading is adapted from Kurt Vonnegut's stories."
+poster: 2025-Who-Am-I-This-Time.webp
+featured_image:
+poster_alt: "Poster for the staged reading of 'Who Am I This Time & Other Conundrums of Love' by Aaron Posner, adapted from stories by Kurt Vonnegut. The design features a large red question mark with the title text inside it, set against a creamy background. This exploration of love's complexities is scheduled for February 7, 2025, at A Classic Theatre."
+featured_image_alt:
+poster_caption: "Explore the complexities of love with 'Who Am I This Time & Other Conundrums of Love' at A Classic Theatre on February 7, 2025. This unique staged reading is adapted from Kurt Vonnegut's stories."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

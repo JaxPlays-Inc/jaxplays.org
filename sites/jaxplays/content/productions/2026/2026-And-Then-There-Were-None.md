@@ -17,7 +17,8 @@ showtimes:
   - 2026-08-27 19:30:00
   - 2026-08-28 19:30:00
   - 2026-08-29 19:30:00
-featured_image: 2026-And-Then-There-Were-None.webp
+poster: 2026-And-Then-There-Were-None.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

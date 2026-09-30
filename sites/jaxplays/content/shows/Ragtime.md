@@ -1,8 +1,10 @@
 ---
 title: Ragtime 
 layout: shows
-featured_image: Ragtime.webp
-featured_image_caption: Cover art for the album Ragtime
+poster: Ragtime.webp
+featured_image:
+poster_caption: Cover art for the album Ragtime
+featured_image_caption:
 featured_image_attr:
 genres:
 - Musical

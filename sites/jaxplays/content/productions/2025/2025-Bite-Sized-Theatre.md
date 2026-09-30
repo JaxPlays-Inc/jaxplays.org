@@ -7,9 +7,12 @@ opening_date: 2025-04-25
 closing_date: 2025-04-25
 showtimes:
 - 2025-04-25 19:30:00
-featured_image: 2025-Bite-Sized-Theatre.webp
-featured_image_alt: "Promotional poster for 'Bite-Sized Theatre' at A Classic Theatre, featuring the play's title in blue against a simple white background with a clock graphic. This evening of 10-minute plays covers a variety of topics, scheduled for April 25, 2025."
-featured_image_caption: "Enjoy a variety of short narratives with 'Bite-Sized Theatre,' an evening of 10-minute plays at A Classic Theatre on April 25, 2025."
+poster: 2025-Bite-Sized-Theatre.webp
+featured_image:
+poster_alt: "Promotional poster for 'Bite-Sized Theatre' at A Classic Theatre, featuring the play's title in blue against a simple white background with a clock graphic. This evening of 10-minute plays covers a variety of topics, scheduled for April 25, 2025."
+featured_image_alt:
+poster_caption: "Enjoy a variety of short narratives with 'Bite-Sized Theatre,' an evening of 10-minute plays at A Classic Theatre on April 25, 2025."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

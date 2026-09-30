@@ -12,11 +12,15 @@ showtimes:
   - 2025-12-12 19:30:00
   - 2025-12-13 14:30:00
   - 2025-12-14 14:30:00
-featured_image: 2025-Scrooge-the-Musical.webp
+poster: 2025-Scrooge-the-Musical.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for Scrooge: The Musical"
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/program-covers
+poster_caption: "Graphic for Scrooge: The Musical"
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/program-covers
+featured_image_attr_link:
 program:
 website: https://ameliamusicalplayhouse.com/news/scrooge2025/
 tickets: https://904tix.com/organizations/amelia-musical-playhouse

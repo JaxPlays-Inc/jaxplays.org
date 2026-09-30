@@ -13,9 +13,12 @@ showtimes:
   - 2024-07-19 19:30:00
   - 2024-07-20 19:30:00
   - 2024-07-21 14:00:00
-featured_image: 2024-Peter-Pan.webp
-featured_image_alt: "Promotional poster for 'Peter Pan' featuring a whimsical ship soaring among clouds and palm trees with event dates."
-featured_image_caption: "Embark on a whimsical journey with 'Peter Pan' as it sails through The Island Theater this July, capturing the timeless charm of Neverland."
+poster: 2024-Peter-Pan.webp
+featured_image:
+poster_alt: "Promotional poster for 'Peter Pan' featuring a whimsical ship soaring among clouds and palm trees with event dates."
+featured_image_alt:
+poster_caption: "Embark on a whimsical journey with 'Peter Pan' as it sails through The Island Theater this July, capturing the timeless charm of Neverland."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

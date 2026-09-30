@@ -52,7 +52,8 @@ showtimes:
   - 2025-06-21 18:00:00
   - 2025-06-22 12:00:00
   - 2025-06-22 18:00:00
-featured_image: 2025-My-Fair-Lady.webp
+poster: 2025-My-Fair-Lady.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

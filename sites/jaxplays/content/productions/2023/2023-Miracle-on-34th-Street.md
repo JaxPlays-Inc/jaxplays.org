@@ -53,10 +53,13 @@ showtimes:
 - 2023-12-23 18:00:00
 - 2023-12-24 12:00:00
 - 2023-12-24 18:00:00
-featured_image: 2023-Miracle-on-34th-Street.webp
+poster: 2023-Miracle-on-34th-Street.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for Miracle on 34th Street
-featured_image_attr: Alhambra Theatre & Dining
+poster_caption: Graphic for Miracle on 34th Street
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

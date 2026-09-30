@@ -1,7 +1,8 @@
 ---
 title: Callas
 date: 2026-08-18T23:29:47-04:00
-featured_image: 2025-Callas.webp
+poster: 2025-Callas.webp
+featured_image:
 featured_image_caption:
 featured_image_attr:
 show_details:

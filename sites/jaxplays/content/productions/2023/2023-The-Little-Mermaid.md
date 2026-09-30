@@ -3,10 +3,14 @@ title: The Little Mermaid
 date: 2023-09-08T00:00:00
 opening_date: 2023-07-14
 closing_date: 2023-07-23
-featured_image: 2023-The-Little-Mermaid.webp
-featured_image_alt: Poster for The Little Mermaid
-featured_image_caption: Poster for The Little Mermaid
-featured_image_attr: Disney & The Island Theater
+poster: 2023-The-Little-Mermaid.webp
+featured_image:
+poster_alt: Poster for The Little Mermaid
+featured_image_alt:
+poster_caption: Poster for The Little Mermaid
+featured_image_caption:
+poster_attr: Disney & The Island Theater
+featured_image_attr:
 featured_image_attr_link: 
 program:
 theatre: The Island Theater

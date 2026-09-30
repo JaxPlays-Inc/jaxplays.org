@@ -15,10 +15,13 @@ showtimes:
   - 2024-11-22 19:30:00
   - 2024-11-23 19:30:00
   - 2024-11-24 14:00:00
-featured_image: 2024-Four-Old-Broads-2.webp
+poster: 2024-Four-Old-Broads-2.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Four Old Broads'
-featured_image_attr: Poster by Josh Andrews
+poster_caption: Poster for 'Four Old Broads'
+featured_image_caption:
+poster_attr: Poster by Josh Andrews
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

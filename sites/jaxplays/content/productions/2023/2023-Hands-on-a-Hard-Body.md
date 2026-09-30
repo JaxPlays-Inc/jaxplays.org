@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-09-03
 layout: productions
-featured_image: 2023_Hands_on_a_Hard_Body.webp
-featured_image_caption: Poster for Hands on a Hard Body
-featured_image_attr: Limelight Theatre
+poster: 2023_Hands_on_a_Hard_Body.webp
+featured_image:
+poster_caption: Poster for Hands on a Hard Body
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 program:
 genres:
 - Musical

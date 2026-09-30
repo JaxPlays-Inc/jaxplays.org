@@ -19,7 +19,8 @@ showtimes:
   - 2025-03-07 19:00:00
   - 2025-03-08 14:00:00
   - 2025-03-08 19:00:00
-featured_image: 2025-Cinderella.webp
+poster: 2025-Cinderella.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

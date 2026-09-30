@@ -1,10 +1,14 @@
 ---
 title: To Kill a Mockingbird
 date: 2026-08-25T21:25:00-04:00
-featured_image: To-Kill-a-Mockingbird.webp
-featured_image_alt: "Cover artwork for To Kill a Mockingbird, showing a tree with a tire swing against a dark blue background."
-featured_image_caption: "Cover artwork for *To Kill a Mockingbird*."
-featured_image_attr: '<a href="https://m.media-amazon.com/images/I/81r81MTfTuL._AC_UF1000,1000_QL80_.jpg" title="Fair use of copyrighted material in the context of To Kill a Mockingbird">Fair use via Amazon image media</a>'
+poster: To-Kill-a-Mockingbird.webp
+featured_image:
+poster_alt: "Cover artwork for To Kill a Mockingbird, showing a tree with a tire swing against a dark blue background."
+featured_image_alt:
+poster_caption: "Cover artwork for *To Kill a Mockingbird*."
+featured_image_caption:
+poster_attr: '<a href="https://m.media-amazon.com/images/I/81r81MTfTuL._AC_UF1000,1000_QL80_.jpg" title="Fair use of copyrighted material in the context of To Kill a Mockingbird">Fair use via Amazon image media</a>'
+featured_image_attr:
 show_details:
   - Dramatization: Christopher Sergel
   - Basis: "*[[w:To Kill a Mockingbird]]* by [[w:Harper Lee]]"

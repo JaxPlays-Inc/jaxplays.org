@@ -15,9 +15,11 @@ showtimes:
   - 2025-04-26 20:00:00
   - 2025-04-27 13:00:00
   - 2025-04-27 18:30:00
-featured_image: 2025-MJ-The-Musical.webp
+poster: 2025-MJ-The-Musical.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Poster for 'MJ The Musical'"
+poster_caption: "Poster for 'MJ The Musical'"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
@@ -124,7 +126,6 @@ press:
   source: "First Coast News"
   url: "https://www.youtube.com/watch?v=V2n8IW9kKPQ"
   youtube_id: "V2n8IW9kKPQ"
-
 ---
 *MJ The Musical* offers an electrifying look at the creative mind and unparalleled artistry of Michael Jackson. Focusing on his rise to fame and the defining moments of his career, the musical features hits like 'Billie Jean,' 'Thriller' and 'Beat It.' As it delves into his groundbreaking music and innovative dance moves, the show also explores the challenges he faced and the legacy he left behind. 
 

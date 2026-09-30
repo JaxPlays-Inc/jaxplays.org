@@ -11,7 +11,8 @@ showtimes:
 - 2024-12-06 19:30:00
 - 2024-12-07 19:30:00
 - 2024-12-08 15:00:00
-featured_image: 2024-The-Country-Girl.webp
+poster: 2024-The-Country-Girl.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -8,9 +8,12 @@ closing_date: 2026-03-21
 showtimes:
   - 2026-03-20 19:30:00
   - 2026-03-21 16:00:00
-featured_image: 2026-The-Mikado.webp
-featured_image_alt: Poster for The Mikado
-featured_image_caption: Poster for The Mikado
+poster: 2026-The-Mikado.webp
+featured_image:
+poster_alt: Poster for The Mikado
+featured_image_alt:
+poster_caption: Poster for The Mikado
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

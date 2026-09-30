@@ -17,7 +17,8 @@ showtimes:
   - 2025-03-30 15:00:00
   - 2025-04-06 15:00:00
   - 2025-04-13 15:00:00
-featured_image: 2025-Oklahoma!.webp
+poster: 2025-Oklahoma!.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

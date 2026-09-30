@@ -12,7 +12,8 @@ showtimes:
   - 2026-03-27 19:30:00
   - 2026-03-28 19:30:00
   - 2026-03-29 14:00:00
-featured_image: 2026-Sherlock-Holmes-and-the-Spinsters-of-Blackmead.webp?v=075408
+poster: 2026-Sherlock-Holmes-and-the-Spinsters-of-Blackmead.webp?v=075408
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

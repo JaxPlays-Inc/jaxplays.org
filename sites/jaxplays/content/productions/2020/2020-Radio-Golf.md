@@ -15,9 +15,11 @@ showtimes:
 - 2020-02-14 20:00:00
 - 2020-02-15 20:00:00
 - 2020-02-16 14:00:00
-featured_image: 2020-Radio-Golf.webp
+poster: 2020-Radio-Golf.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Radio Golf'
+poster_caption: Poster for 'Radio Golf'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 category: drama

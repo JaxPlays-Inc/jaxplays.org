@@ -17,7 +17,8 @@ showtimes:
   - 2026-01-30 19:30:00
   - 2026-01-31 14:00:00
   - 2026-02-01 14:00:00
-featured_image: 2026-Packing-Up-Polly.webp
+poster: 2026-Packing-Up-Polly.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

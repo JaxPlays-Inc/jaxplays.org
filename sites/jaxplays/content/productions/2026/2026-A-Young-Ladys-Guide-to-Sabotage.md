@@ -16,10 +16,14 @@ showtimes:
   - 2026-03-14 14:00:00
   - 2026-03-14 19:30:00
   - 2026-03-15 15:00:00
-featured_image: 2026-A-Young-Ladys-Guide-to-Sabotage.webp
-featured_image_alt: Poster for A Young Lady's Guide to Sabotage
-featured_image_caption: Poster for A Young Lady's Guide to Sabotage
-featured_image_attr: Louise Everett
+poster: 2026-A-Young-Ladys-Guide-to-Sabotage.webp
+featured_image:
+poster_alt: Poster for A Young Lady's Guide to Sabotage
+featured_image_alt:
+poster_caption: Poster for A Young Lady's Guide to Sabotage
+featured_image_caption:
+poster_attr: Louise Everett
+featured_image_attr:
 featured_image_attr_link:
 program: 2026-A-Young-Ladys-Guide-to-Sabotage.pdf
 website:

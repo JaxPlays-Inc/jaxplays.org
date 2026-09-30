@@ -16,7 +16,8 @@ showtimes:
   - 2019-11-01 20:00:00
   - 2019-11-02 20:00:00
   - 2019-11-03 14:00:00
-featured_image: 2019-The-Vandal.webp
+poster: 2019-The-Vandal.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

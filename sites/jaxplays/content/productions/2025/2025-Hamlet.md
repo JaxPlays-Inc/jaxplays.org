@@ -15,7 +15,8 @@ showtimes:
 - 2025-05-30 19:30:00
 - 2025-05-31 19:30:00
 - 2025-06-01 14:00:00
-featured_image: 2025-Hamlet.webp
+poster: 2025-Hamlet.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

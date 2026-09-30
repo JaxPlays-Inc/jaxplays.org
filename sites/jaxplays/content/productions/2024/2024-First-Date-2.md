@@ -16,9 +16,12 @@ showtimes:
 - 2024-06-20 19:30:00
 - 2024-06-21 19:30:00
 - 2024-06-22 19:30:00
-featured_image: 2024-First-Date-2.webp
-featured_image_alt: Poster for First Date
-featured_image_caption: Poster for First Date
+poster: 2024-First-Date-2.webp
+featured_image:
+poster_alt: Poster for First Date
+featured_image_alt:
+poster_caption: Poster for First Date
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-First-Date-2.pdf

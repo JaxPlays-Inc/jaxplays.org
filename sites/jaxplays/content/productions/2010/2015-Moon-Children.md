@@ -3,9 +3,11 @@ title: Moon Children
 date: 2023-09-08T00:00:00
 opening_date: 2015-04-09
 closing_date: 2015-04-12
-featured_image: 2015-Moon-Children.webp
+poster: 2015-Moon-Children.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Playbill cover for Moon Children
+poster_caption: Playbill cover for Moon Children
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: http://fscj.digital.flvc.org/islandora/object/fscj%3A68188#page/1/mode/2up

@@ -6,7 +6,8 @@ title: One by Tenn Plus Eight
 date: 2023-09-08T00:00:00
 opening_date: 2019-06-28
 closing_date: 2019-07-07
-featured_image: 2019_OneBy_Tenn_Plus_Eight.webp
+poster: 2019_OneBy_Tenn_Plus_Eight.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

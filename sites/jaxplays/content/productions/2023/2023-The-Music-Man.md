@@ -3,10 +3,13 @@ title: The Music Man
 date: 2023-09-29
 opening_date: 2023-09-29
 closing_date: 2023-10-22
-featured_image: 2023_The_Music_Man.webp
+poster: 2023_The_Music_Man.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for The Music Man
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for The Music Man
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 genres:

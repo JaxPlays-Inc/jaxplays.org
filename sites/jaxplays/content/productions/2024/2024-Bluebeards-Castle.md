@@ -9,7 +9,8 @@ closing_date: 2024-10-26
 showtimes:
 - 2024-10-25 19:00:00
 - 2024-10-26 13:00:00
-featured_image: 2024-Bluebeards-Castle.webp
+poster: 2024-Bluebeards-Castle.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

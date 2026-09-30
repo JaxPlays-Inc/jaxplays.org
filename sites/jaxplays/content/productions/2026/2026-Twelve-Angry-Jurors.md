@@ -12,7 +12,8 @@ showtimes:
   - 2026-02-27 19:30:00
   - 2026-02-28 19:30:00
   - 2026-03-01 14:00:00
-featured_image: 2026-Twelve-Angry-Jurors.webp
+poster: 2026-Twelve-Angry-Jurors.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

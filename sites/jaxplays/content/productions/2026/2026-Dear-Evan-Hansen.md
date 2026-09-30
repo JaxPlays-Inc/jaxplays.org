@@ -16,11 +16,16 @@ showtimes:
   - 2026-02-13 20:00:00
   - 2026-02-14 20:00:00
   - 2026-02-15 15:00:00
-featured_image: 2026-Dear-Evan-Hansen.webp
-featured_image_alt: Poster for Players by the Sea's Season 61 production of Dear Evan Hansen
-featured_image_caption: Poster for Dear Evan Hansen
-featured_image_attr: Players by the Sea
-featured_image_attr_link: https://playersbythesea.org/wp-content/uploads/2025/11/PBTS-DEH-Web.png
+poster: 2026-Dear-Evan-Hansen.webp
+featured_image:
+poster_alt: Poster for Players by the Sea's Season 61 production of Dear Evan Hansen
+featured_image_alt:
+poster_caption: Poster for Dear Evan Hansen
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
+poster_attr_link: https://playersbythesea.org/wp-content/uploads/2025/11/PBTS-DEH-Web.png
+featured_image_attr_link:
 program: 2026-Dear-Evan-Hansen.pdf
 website: https://playersbythesea.org/season-61/dear-evan-hansen
 tickets: https://ci.ovationtix.com/34877/production/1258975

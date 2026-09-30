@@ -16,10 +16,13 @@ showtimes:
   # - 2025-04-25 19:30:00
   # - 2025-04-26 19:30:00
   # - 2025-04-27 14:00:00
-featured_image: 2025-Misery.webp
+poster: 2025-Misery.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Misery'
-featured_image_attr: Poster by Josh Andrews
+poster_caption: Poster for 'Misery'
+featured_image_caption:
+poster_attr: Poster by Josh Andrews
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

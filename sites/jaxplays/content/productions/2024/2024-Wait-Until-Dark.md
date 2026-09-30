@@ -18,10 +18,13 @@ showtimes:
 - 2024-03-28 19:30:00
 - 2024-03-29 19:30:00
 - 2024-03-30 19:30:00
-featured_image: 2024-Wait-Until-Dark.webp
+poster: 2024-Wait-Until-Dark.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Wait Until Dark
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for Wait Until Dark
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/season-32-shows-1/wait-until-dark

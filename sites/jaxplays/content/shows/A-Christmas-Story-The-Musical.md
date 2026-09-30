@@ -1,9 +1,12 @@
 ---
 title: "A Christmas Story: The Musical"
 date: 2024-07-12T14:55:00-04:00
-featured_image: 2024-A-Christmas-Story-The-Musical.webp
-featured_image_alt: "Promotional image for 'A Christmas Story: The Musical,' featuring the famous leg lamp with a fringed lampshade, set against a red and white logo with playful, festive lettering. The image captures the whimsical and nostalgic essence of the musical based on the classic holiday film."
-featured_image_caption: "Step into the holiday spirit with 'A Christmas Story: The Musical' at the Alhambra Theatre & Dining. Relive the iconic, heartwarming tale this festive season!"
+poster: 2024-A-Christmas-Story-The-Musical.webp
+featured_image:
+poster_alt: "Promotional image for 'A Christmas Story: The Musical,' featuring the famous leg lamp with a fringed lampshade, set against a red and white logo with playful, festive lettering. The image captures the whimsical and nostalgic essence of the musical based on the classic holiday film."
+featured_image_alt:
+poster_caption: "Step into the holiday spirit with 'A Christmas Story: The Musical' at the Alhambra Theatre & Dining. Relive the iconic, heartwarming tale this festive season!"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 show_details: 

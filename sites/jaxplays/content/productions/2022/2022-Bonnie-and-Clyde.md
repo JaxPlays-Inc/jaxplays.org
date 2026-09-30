@@ -6,9 +6,12 @@ aliases:
 date: 2023-09-08T00:00:00
 opening_date: 2022-03-18
 closing_date: 2022-04-03
-featured_image: 2022_Bonnie_Clyde_Musical.jpeg
-featured_image_attr: ABET
-featured_image_caption: Poster of 2022 production of Bonnie & Clyde
+poster: 2022_Bonnie_Clyde_Musical.jpeg
+featured_image:
+poster_attr: ABET
+featured_image_attr:
+poster_caption: Poster of 2022 production of Bonnie & Clyde
+featured_image_caption:
 category: musical
 theatre: ABET - All Beaches Experimental Theatre
 show_details:
@@ -60,6 +63,5 @@ reviews:
   outlet: The Beaches Leader
   description: ''
   featured_image: ''
-
 ---
 "America's most notorious lovers and bank robbers take the country by storm in this sexy and compelling adventure. At the height of the Great Depression, Bonnie Parker and Clyde Barrow went from two small-town nobodies in West Texas to America's most renowned folk heroes and Texas law enforcement's worst nightmares. Fearless, shameless and alluring, Bonnie & Clyde, is the electrifying story of love, adventure and crime that captured the attention of an entire country." — [Bonnie & Clyde the musical - Eventbrite](https://www.eventbrite.com/e/bonnie-clyde-the-musical-tickets-168951437297)

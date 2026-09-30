@@ -9,7 +9,8 @@ showtimes:
   - 2026-06-23 19:00:00
   - 2026-06-24 19:00:00
   - 2026-06-25 19:00:00
-featured_image: 2026-Footloose.webp
+poster: 2026-Footloose.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

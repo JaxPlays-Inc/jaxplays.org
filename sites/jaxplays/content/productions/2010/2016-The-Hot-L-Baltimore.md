@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2016-12-09
 closing_date: 2016-12-10
 layout: productions
-featured_image: 2016_The_Hot_L_Baltimore.webp
-featured_image_caption: Poster for the 2016 production of The Hot L Baltimore
-featured_image_attr: Phase Eight Theater Company
+poster: 2016_The_Hot_L_Baltimore.webp
+featured_image:
+poster_caption: Poster for the 2016 production of The Hot L Baltimore
+featured_image_caption:
+poster_attr: Phase Eight Theater Company
+featured_image_attr:
 program:
 theatre: Phase Eight Theater Company
 show_details:

@@ -7,11 +7,16 @@ date: '2025-12-07T16:23:14-05:00'
 opening_date: '2025-12-04'
 closing_date: '2025-12-21'
 showtimes: []
-featured_image: 2025-Annie.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: null
-featured_image_attr_link: null
+poster: 2025-Annie.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: null
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: https://limelight-theatre.org/productions/annie/
 tickets: https://limelight.ludus.com/index.php?show_id=200477920

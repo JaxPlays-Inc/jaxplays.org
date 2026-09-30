@@ -3,11 +3,15 @@ title: "Elvis: A Musical Revolution"
 date: 2023-09-14
 opening_date: 2023-09-14
 closing_date: 2023-09-24
-featured_image: 2023-Elvis-A-Musical-Revolution.webp
+poster: 2023-Elvis-A-Musical-Revolution.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Poster for Elvis: A Musical Revolution"
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/program-covers
+poster_caption: "Poster for Elvis: A Musical Revolution"
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/program-covers
+featured_image_attr_link:
 program:
 genres: 
 - Musical

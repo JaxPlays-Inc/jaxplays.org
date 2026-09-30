@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-08-03
 closing_date: 2023-09-17
 layout: productions
-featured_image: 2023_Fiddler_on_the_Roof.webp
-featured_image_caption: Graphic of Fiddler on the Roof at the Alhambra
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2023_Fiddler_on_the_Roof.webp
+featured_image:
+poster_caption: Graphic of Fiddler on the Roof at the Alhambra
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 program:
 theatre: Alhambra Theatre & Dining
 venue: Alhambra Theatre & Dining

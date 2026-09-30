@@ -20,11 +20,16 @@ showtimes:
 - '2026-02-13 19:30:00'
 - '2026-02-14 19:30:00'
 - '2026-02-15 14:00:00'
-featured_image: 2026-I-Love-You-Youre-Perfect-Now-Change.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: null
-featured_image_attr_link: null
+poster: 2026-I-Love-You-Youre-Perfect-Now-Change.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: null
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: https://limelight-theatre.org/productions/i-love-you-youre-perfect-now-change/
 tickets: https://limelight.ludus.com/index.php?show_id=200487534

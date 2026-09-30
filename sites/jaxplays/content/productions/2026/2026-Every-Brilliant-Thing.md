@@ -25,7 +25,8 @@ showtimes:
   - 2026-04-11 15:00:00
   - 2026-04-11 20:00:00
   - 2026-04-12 15:00:00
-featured_image: 2026-Every-Brilliant-Thing.webp
+poster: 2026-Every-Brilliant-Thing.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

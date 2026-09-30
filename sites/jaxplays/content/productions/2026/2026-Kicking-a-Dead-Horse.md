@@ -7,11 +7,15 @@ opening_date: 2026-08-01
 closing_date: 2026-08-01
 showtimes:
   - 2026-08-01 14:00:00
-featured_image: 2026-Kicking-a-Dead-Horse.webp
-featured_image_alt: Kicking a Dead Horse poster
+poster: 2026-Kicking-a-Dead-Horse.webp
+featured_image:
+poster_alt: Kicking a Dead Horse poster
+featured_image_alt:
 featured_image_caption:
-featured_image_attr: ShepardFest
-featured_image_attr_link: https://www.instagram.com/p/DZ8afgwOMJl/
+poster_attr: ShepardFest
+featured_image_attr:
+poster_attr_link: https://www.instagram.com/p/DZ8afgwOMJl/
+featured_image_attr_link:
 program:
 website: https://www.shepardfest.org/
 tickets: https://lightworks.ludus.com/index.php

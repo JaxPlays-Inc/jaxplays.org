@@ -10,11 +10,16 @@ showtimes:
   - 2026-10-09 19:30:00
   - 2026-10-10 19:30:00
   - 2026-10-11 14:00:00
-featured_image: 2026-Dracula.webp
-featured_image_alt: "Poster for Act II Players' production of Dracula, featuring a castle silhouette, bats, and a full moon against a red background."
-featured_image_caption: "Poster for Act II Players' production of Dracula."
-featured_image_attr: Act II Players
-featured_image_attr_link: https://actiiplayers.org/
+poster: 2026-Dracula.webp
+featured_image:
+poster_alt: "Poster for Act II Players' production of Dracula, featuring a castle silhouette, bats, and a full moon against a red background."
+featured_image_alt:
+poster_caption: "Poster for Act II Players' production of Dracula."
+featured_image_caption:
+poster_attr: Act II Players
+featured_image_attr:
+poster_attr_link: https://actiiplayers.org/
+featured_image_attr_link:
 program:
 website: https://actiiplayers.org/
 tickets: https://our.show/3rken4mp4z

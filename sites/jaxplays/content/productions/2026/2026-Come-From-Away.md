@@ -17,7 +17,8 @@ showtimes:
   - 2026-11-20 19:30:00
   - 2026-11-21 14:00:00
   - 2026-11-22 14:00:00
-featured_image: 2026-Come-From-Away.webp
+poster: 2026-Come-From-Away.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

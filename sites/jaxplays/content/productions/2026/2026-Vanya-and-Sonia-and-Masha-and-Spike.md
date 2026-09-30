@@ -13,7 +13,8 @@ showtimes:
 - 2026-11-13 19:30:00
 - 2026-11-14 16:00:00
 - 2026-11-15 14:00:00
-featured_image: 2026-Vanya-and-Sonia-and-Masha-and-Spike.webp
+poster: 2026-Vanya-and-Sonia-and-Masha-and-Spike.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

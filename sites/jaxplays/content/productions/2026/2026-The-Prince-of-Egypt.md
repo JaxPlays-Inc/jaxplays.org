@@ -15,7 +15,8 @@ showtimes:
   - 2026-06-12 19:30:00
   - 2026-06-13 19:30:00
   - 2026-06-14 14:00:00
-featured_image: 2026-The-Prince-of-Egypt.webp?v=123723
+poster: 2026-The-Prince-of-Egypt.webp?v=123723
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -1,21 +1,11 @@
-{{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
-{{ $featuredImageAlt := .Params.featured_image_alt }}
+{{ $posterMeta := partial "func/GetPosterImageMeta.html" . }}
+{{ $featuredImage := partial "func/GetPosterImage.html" . }}
+{{ $featuredImageAlt := $posterMeta.alt | default (printf "%s poster" .Title) }}
 {{ $genres := .Params.genres }}
 
 {{ if not $featuredImage }}
 {{ $defaultImage := "/media/default/production_poster.webp" }} <!-- Set default image path -->
 {{ $featuredImage = $defaultImage }} <!-- Use default image as the initial value -->
-{{ $featuredImageAlt := "Default production poster image" }}
-{{ range where .Site.Pages "Type" "shows" }}
-{{ if eq .Title $.Title }}
-{{ if .Params.featured_image }}
-{{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
-{{ $featuredImageAlt := .Params.featured_image_alt }}
-{{ end }}
-{{ end }}
-{{ end }}
-{{ else }}
-{{ $featuredImage = printf "/media/posters/%s" $featuredImage }}
 {{ end }}
 
 {{ $contentLength := len .Content }}

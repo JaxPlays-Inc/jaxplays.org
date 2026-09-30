@@ -9,7 +9,8 @@ closing_date: 2024-09-21
 showtimes:
 - 2024-09-07 19:30:00
 - 2024-09-21 19:30:00
-featured_image: 2024-ShakesBeer.webp
+poster: 2024-ShakesBeer.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

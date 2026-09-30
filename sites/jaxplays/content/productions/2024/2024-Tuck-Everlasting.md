@@ -23,10 +23,13 @@ showtimes:
 - 2024-03-01 19:30:00
 - 2024-03-02 19:30:00
 - 2024-03-03 14:00:00
-featured_image: 2024-Tuck-Everlasting.webp
+poster: 2024-Tuck-Everlasting.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Tuck Everlasting
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for Tuck Everlasting
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/season-32-shows-1/tuck-everlasting

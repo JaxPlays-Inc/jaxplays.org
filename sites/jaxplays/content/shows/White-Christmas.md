@@ -1,10 +1,14 @@
 ---
 title: White Christmas
 date: 2024-06-17T11:17:50-04:00
-featured_image: White-Christmas.webp
-featured_image_alt: "Promotional image for 'Irving Berlin's White Christmas The Musical,' featuring the show's title in festive green and white lettering adorned with holly berries, set against a luxurious red velvet background."
-featured_image_caption: "The title of 'Irving Berlin's White Christmas The Musical' is elegantly presented with festive decorations on a rich red velvet backdrop."
-featured_image_attr: 'By White Christmas (musical) - <a rel="nofollow" class="external free" href="http://news.vanderbilt.edu/2012/10/tpac-discounts-christmas/">http://news.vanderbilt.edu/2012/10/tpac-discounts-christmas/</a>, <a href="//en.wikipedia.org/wiki/File:White_Christmas_(musical).jpg" title="Fair use of copyrighted material in the context of White Christmas (musical)">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=39862979">Link</a>'
+poster: White-Christmas.webp
+featured_image:
+poster_alt: "Promotional image for 'Irving Berlin's White Christmas The Musical,' featuring the show's title in festive green and white lettering adorned with holly berries, set against a luxurious red velvet background."
+featured_image_alt:
+poster_caption: "The title of 'Irving Berlin's White Christmas The Musical' is elegantly presented with festive decorations on a rich red velvet backdrop."
+featured_image_caption:
+poster_attr: 'By White Christmas (musical) - <a rel="nofollow" class="external free" href="http://news.vanderbilt.edu/2012/10/tpac-discounts-christmas/">http://news.vanderbilt.edu/2012/10/tpac-discounts-christmas/</a>, <a href="//en.wikipedia.org/wiki/File:White_Christmas_(musical).jpg" title="Fair use of copyrighted material in the context of White Christmas (musical)">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=39862979">Link</a>'
+featured_image_attr:
 show_details:
 - Music: "[[w:Irving Berlin]]"
 - Lyrics: Irving Berlin

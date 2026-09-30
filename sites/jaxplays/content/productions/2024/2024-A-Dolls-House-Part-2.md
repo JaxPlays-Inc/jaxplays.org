@@ -19,10 +19,13 @@ showtimes:
 - 2024-05-31 19:30:00
 - 2024-06-01 19:30:00
 - 2024-06-02 14:00:00
-featured_image: 2024-A-Dolls-House-Part-2.webp
+poster: 2024-A-Dolls-House-Part-2.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for A Doll's House Part 2
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for A Doll's House Part 2
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/season-32-shows-1/a-doll's-house-part-2

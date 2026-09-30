@@ -17,10 +17,12 @@ showtimes:
   - 2025-08-22 19:30:00
   - 2025-08-23 19:30:00
   - 2025-08-24 14:00:00
-featured_image: 2025-Hadestown-Teen-Edition.webp
+poster: 2025-Hadestown-Teen-Edition.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
-featured_image_attr: Art @ by Spotco
+poster_attr: Art @ by Spotco
+featured_image_attr:
 featured_image_attr_link: 
 playbill: 
 website: https://www.theislandtheater.com/event-details/hadestown-teen-edition-2025-08-21-19-30

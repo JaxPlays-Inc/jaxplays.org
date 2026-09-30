@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-06-08
 closing_date: 2023-07-30
 layout: productions
-featured_image: 2023_Beauty_and_the_Beast.jpeg
-featured_image_caption: Graphic of Disney's Beauty and the Beast at the Alhambra
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2023_Beauty_and_the_Beast.jpeg
+featured_image:
+poster_caption: Graphic of Disney's Beauty and the Beast at the Alhambra
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 program:
 theatre: Alhambra Theatre & Dining
 venue: Alhambra Theatre & Dining
@@ -146,5 +149,4 @@ reviews:
   outlet: 'BroadwayWorld'
   description: ''
   featured_image: ''
-
 ---

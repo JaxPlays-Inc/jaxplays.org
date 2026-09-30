@@ -16,11 +16,16 @@ showtimes:
   - 2026-10-02 19:30:00
   - 2026-10-03 19:30:00
   - 2026-10-04 15:00:00
-featured_image: 2026-Company.webp?v=081047
-featured_image_alt: "City Repertory Theatre ticket graphic for Company, featuring the title over a stylized city skyline and colorful geometric shapes."
-featured_image_caption: "City Repertory Theatre opens its 16th season with Stephen Sondheim and George Furth's Company."
-featured_image_attr: City Repertory Theatre
-featured_image_attr_link: https://crtpalmcoast.com/
+poster: 2026-Company.webp?v=081047
+featured_image:
+poster_alt: "City Repertory Theatre ticket graphic for Company, featuring the title over a stylized city skyline and colorful geometric shapes."
+featured_image_alt:
+poster_caption: "City Repertory Theatre opens its 16th season with Stephen Sondheim and George Furth's Company."
+featured_image_caption:
+poster_attr: City Repertory Theatre
+featured_image_attr:
+poster_attr_link: https://crtpalmcoast.com/
+featured_image_attr_link:
 program:
 website: https://crtpalmcoast.com/
 tickets: https://www.tix.com/ticket-sales/crtpalmcoast/7555

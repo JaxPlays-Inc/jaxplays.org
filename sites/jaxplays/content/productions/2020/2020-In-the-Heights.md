@@ -19,7 +19,8 @@ showtimes:
   venue: Wilson Center - Main Stage Theatre
 - datetime: 2020-01-25 19:30:00
   venue: Wilson Center - Main Stage Theatre
-featured_image: 2020_In_the_Heights.jpg
+poster: 2020_In_the_Heights.jpg
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

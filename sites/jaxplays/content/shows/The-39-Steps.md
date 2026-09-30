@@ -1,10 +1,14 @@
 ---
 title: The 39 Steps
 date: 2024-06-17T22:14:59-04:00
-featured_image: The-39-Steps.webp
-featured_image_alt: "Dynamic poster for 'The 39 Steps,' featuring a vivid illustration of a man hanging from a train with a worried expression, while a large, looming train steams forward in the background. The intense colors and action-packed scene capture the thrilling essence of the play."
-featured_image_caption: "The poster for 'The 39 Steps'."
-featured_image_attr: Fair use, <a href="https://en.wikipedia.org/w/index.php?curid=17040237">Link</a>
+poster: The-39-Steps.webp
+featured_image:
+poster_alt: "Dynamic poster for 'The 39 Steps,' featuring a vivid illustration of a man hanging from a train with a worried expression, while a large, looming train steams forward in the background. The intense colors and action-packed scene capture the thrilling essence of the play."
+featured_image_alt:
+poster_caption: "The poster for 'The 39 Steps'."
+featured_image_caption:
+poster_attr: Fair use, <a href="https://en.wikipedia.org/w/index.php?curid=17040237">Link</a>
+featured_image_attr:
 show_details: 
 - Playwright: "[[w:Patrick Barlow]]"
 - Basis: "*[[w:The Thirty-Nine Steps]]* by [[w:John Buchan]], *[[w:The 39 Steps (1935 film)|The 39 Steps]]* by [[w:Alfred Hitchcock]]"

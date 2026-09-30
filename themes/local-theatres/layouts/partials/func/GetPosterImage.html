@@ -1,0 +1,19 @@
+{{- $link := "" -}}
+{{- $meta := partial "func/GetPosterImageMeta.html" . -}}
+
+{{- with $meta.src -}}
+  {{- $val := printf "%s" . -}}
+  {{- with $.Resources.GetMatch $val -}}
+    {{- $link = .RelPermalink -}}
+  {{- else -}}
+    {{- if or (hasPrefix $val "http://") (hasPrefix $val "https://") (hasPrefix $val "//") -}}
+      {{- $link = $val -}}
+    {{- else if hasPrefix $val "/" -}}
+      {{- $link = $val | relURL -}}
+    {{- else -}}
+      {{- $link = printf "/media/posters/%s" $val | relURL -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $link -}}

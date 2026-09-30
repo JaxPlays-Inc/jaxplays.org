@@ -30,6 +30,16 @@
   {{- end -}}
 {{- end -}}
 
+{{- if and (not $src) (or (eq .Type "productions") (eq .Type "shows")) -}}
+  {{- $posterMeta := partial "func/GetPosterImageMeta.html" . -}}
+  {{- with $posterMeta.src }}{{ $src = . }}{{ end -}}
+  {{- with $posterMeta.alt }}{{ $alt = . }}{{ end -}}
+  {{- with $posterMeta.caption }}{{ $caption = . }}{{ end -}}
+  {{- with $posterMeta.attr }}{{ $attr = . }}{{ end -}}
+  {{- with $posterMeta.attr_link }}{{ $attrLink = . }}{{ end -}}
+  {{- with $posterMeta.size }}{{ $size = . }}{{ end -}}
+{{- end -}}
+
 {{- return (dict
   "src" $src
   "alt" $alt

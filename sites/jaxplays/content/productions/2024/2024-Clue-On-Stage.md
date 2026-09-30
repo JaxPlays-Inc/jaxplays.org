@@ -18,9 +18,12 @@ showtimes:
 - 2024-04-19 19:00:00
 - 2024-04-20 12:00:00
 - 2024-04-20 19:00:00
-featured_image: 2024-Clue-On-Stage.webp
-featured_image_alt: "Silhouettes of six characters with iconic weapons against a colorful backdrop, representing the game pieces from 'Clue'."
-featured_image_caption: "Dive into the mystery and suspense of 'Clue On Stage', where every character is a suspect and every clue counts."
+poster: 2024-Clue-On-Stage.webp
+featured_image:
+poster_alt: "Silhouettes of six characters with iconic weapons against a colorful backdrop, representing the game pieces from 'Clue'."
+featured_image_alt:
+poster_caption: "Dive into the mystery and suspense of 'Clue On Stage', where every character is a suspect and every clue counts."
+featured_image_caption:
 program:
 website: 
 tickets: 

@@ -9,10 +9,14 @@ showtimes:
 - 2024-04-12 19:30:00
 - 2024-04-13 19:30:00
 - 2024-04-14 14:00:00
-featured_image: 2024-Independence.webp
-featured_image_alt: Poster for Independence at Limelight Theatre
-featured_image_caption: "Poster for 'Independence'"
-featured_image_attr: Limelight Theatre
+poster: 2024-Independence.webp
+featured_image:
+poster_alt: Poster for Independence at Limelight Theatre
+featured_image_alt:
+poster_caption: "Poster for 'Independence'"
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/special-events

@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-07-28
 closing_date: 2023-08-12
 layout: productions
-featured_image: 2023_No_Exit.gif
-featured_image_caption: Poster for 'No Exit'
-featured_image_attr: Brunet-Garcia Advertising
+poster: 2023_No_Exit.gif
+featured_image:
+poster_caption: Poster for 'No Exit'
+featured_image_caption:
+poster_attr: Brunet-Garcia Advertising
+featured_image_attr:
 program:
 genres:
 - Play

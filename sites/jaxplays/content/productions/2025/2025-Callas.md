@@ -11,9 +11,12 @@ showtimes:
   - 2025-08-02T15:00:00-04:00
   - 2025-08-02T19:00:00-04:00
   - 2025-08-03T19:00:00-04:00
-featured_image: 2025-Callas.webp
-featured_image_alt: "Poster for Callas, with yellow title text over a red background and an illustration of calla lilies."
-featured_image_caption: "*Callas* at JAMS Black Box Theatre."
+poster: 2025-Callas.webp
+featured_image:
+poster_alt: "Poster for Callas, with yellow title text over a red background and an illustration of calla lilies."
+featured_image_alt:
+poster_caption: "*Callas* at JAMS Black Box Theatre."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

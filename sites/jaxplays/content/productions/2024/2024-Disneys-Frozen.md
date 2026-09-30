@@ -3,9 +3,12 @@ title: Disney's Frozen
 date: 2024-04-27
 opening_date: 2024-04-27
 closing_date: 2024-05-04
-featured_image: 2023-Disneys-Frozen.webp
-featured_image_caption: Poster for Disney's 'Frozen'
-featured_image_attr: Disney Theatrical Productions
+poster: 2023-Disneys-Frozen.webp
+featured_image:
+poster_caption: Poster for Disney's 'Frozen'
+featured_image_caption:
+poster_attr: Disney Theatrical Productions
+featured_image_attr:
 featured_image_attr_link: 
 program:
 theatre: FSCJ Artist Series

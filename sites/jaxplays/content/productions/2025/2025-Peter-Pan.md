@@ -15,9 +15,11 @@ showtimes:
   - 2025-02-22 20:00:00
   - 2025-02-23 13:00:00
   - 2025-02-23 18:30:00
-featured_image: 2025-Peter-Pan.webp
+poster: 2025-Peter-Pan.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for 'Peter Pan'"
+poster_caption: "Graphic for 'Peter Pan'"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

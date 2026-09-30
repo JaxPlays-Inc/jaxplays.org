@@ -53,10 +53,14 @@ showtimes:
   - 2024-05-11 18:00:00
   - 2024-05-12 12:00:00
   - 2024-05-12 18:00:00
-featured_image: 2024-Escape-to-Margaritaville.webp
-featured_image_alt: Poster for Escape to Margaritaville
-featured_image_caption: Poster for 'Escape to Margaritaville'
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2024-Escape-to-Margaritaville.webp
+featured_image:
+poster_alt: Poster for Escape to Margaritaville
+featured_image_alt:
+poster_caption: Poster for 'Escape to Margaritaville'
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

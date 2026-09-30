@@ -9,9 +9,11 @@ closing_date: 2024-06-20
 showtimes:
 - 2024-06-19 18:00:00
 - 2024-06-20 18:00:00
-featured_image: 2024-Blueys-Big-Play.webp
+poster: 2024-Blueys-Big-Play.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Bluey's Big Play'
+poster_caption: Poster for 'Bluey's Big Play'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

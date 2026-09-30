@@ -16,7 +16,8 @@
     {{- $venue := .Params.venue -}}
     {{- $title := print $title " - " $theatre -}}
     {{- $url := .RelPermalink -}}
-    {{- $featuredImage := .Params.featured_image -}}
+    {{- $featuredImage := partial "func/GetPosterImageMeta.html" . -}}
+    {{- $featuredImage = $featuredImage.src -}}
     {{- $createdDate := .Date -}}
     {{- $createdDate := time.Format "20060102T150405Z" $createdDate -}}
 

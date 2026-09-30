@@ -14,9 +14,12 @@ showtimes:
   - 2024-06-21 19:30:00
   - 2024-06-22 19:30:00
   - 2024-06-23 14:00:00
-featured_image: 2024-Be-More-Chill-2.webp
-featured_image_alt: "Promotional poster for 'Be More Chill' at The Island Theater, featuring a vibrant cyber-themed background in pink and purple hues with digital circuit patterns. The play's title is boldly displayed in a modern typeface, emphasizing the futuristic and tech-driven theme of the musical."
-featured_image_caption: "Dive into the digital frenzy of 'Be More Chill' at The Island Theater, running from June 14-23. Don't miss this electrifying journey into adolescence and technology."
+poster: 2024-Be-More-Chill-2.webp
+featured_image:
+poster_alt: "Promotional poster for 'Be More Chill' at The Island Theater, featuring a vibrant cyber-themed background in pink and purple hues with digital circuit patterns. The play's title is boldly displayed in a modern typeface, emphasizing the futuristic and tech-driven theme of the musical."
+featured_image_alt:
+poster_caption: "Dive into the digital frenzy of 'Be More Chill' at The Island Theater, running from June 14-23. Don't miss this electrifying journey into adolescence and technology."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

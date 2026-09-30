@@ -12,7 +12,8 @@ showtimes:
   - 2024-12-20 19:00:00
   - 2024-12-21 19:00:00
   - 2024-12-22 13:30:00
-featured_image: 2024-Its-A-Wonderful-Life-Live-Radio-Play.webp
+poster: 2024-Its-A-Wonderful-Life-Live-Radio-Play.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

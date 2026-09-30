@@ -14,7 +14,8 @@ showtimes:
   - 2026-06-26 19:30:00
   - 2026-06-27 19:30:00
   - 2026-06-28 14:00:00
-featured_image: 2026-A-Midsummer-Nights-Dream.webp?v=200007
+poster: 2026-A-Midsummer-Nights-Dream.webp?v=200007
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

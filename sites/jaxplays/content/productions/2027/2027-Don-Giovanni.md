@@ -10,7 +10,8 @@ opening_date: 2027-01-17
 closing_date: 2027-01-17
 showtimes:
   - 2027-01-17 15:00:00
-featured_image: 2027-Don-Giovanni.webp?v=114744
+poster: 2027-Don-Giovanni.webp?v=114744
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

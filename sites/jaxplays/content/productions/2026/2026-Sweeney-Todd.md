@@ -8,7 +8,8 @@ date: 2026-06-07T19:00:43-04:00
 opening_date: 2026-03-20
 closing_date: 2026-03-29
 showtimes:
-featured_image: 2026-Sweeney-Todd.webp
+poster: 2026-Sweeney-Todd.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -1,16 +1,10 @@
 {{ $featuredImage := partial "func/GetFeaturedImage.html" . }}
 {{ $contentLength := len .Summary }}
-{{ $isProductionOrShow := or (eq .Type "productions") (eq .Type "shows") }}  <!-- Check if the type is productions or shows -->
 
 <div class="relative w-100 bg-white nested-copy-line-height">
   <div class="bg-white pa4 gray overflow-hidden">
 
     {{ if $featuredImage }}
-    {{ if $isProductionOrShow }}
-      {{ $featuredImage = printf "/media/posters/%s" $featuredImage }}  <!-- Prepend path for productions or shows -->
-    {{ else }}
-      {{/*  {{ $featuredImage = printf "/%s" $featuredImage }}  */}}
-    {{ end }}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
     <a href="{{ .RelPermalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
     {{ end }}

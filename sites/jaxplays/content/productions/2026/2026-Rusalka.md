@@ -10,11 +10,16 @@ showtimes:
   - 2026-11-06T19:00:00-05:00
   - 2026-11-07T19:00:00-05:00
   - 2026-11-08T13:00:00-05:00
-featured_image: 2026-Rusalka.webp
-featured_image_alt: 'Poster for Bold City Opera’s production of Antonín Dvořák’s "Rusalka"'
-featured_image_caption: 'Bold City Opera presents Dvořák’s dark fairytale "Rusalka" Nov. 6-8 at Betsy Lovett Hall.'
-featured_image_attr: Bold City Opera
-featured_image_attr_link: https://www.instagram.com/p/DdB59ICth8k/
+poster: 2026-Rusalka.webp
+featured_image:
+poster_alt: 'Poster for Bold City Opera’s production of Antonín Dvořák’s "Rusalka"'
+featured_image_alt:
+poster_caption: 'Bold City Opera presents Dvořák’s dark fairytale "Rusalka" Nov. 6-8 at Betsy Lovett Hall.'
+featured_image_caption:
+poster_attr: Bold City Opera
+featured_image_attr:
+poster_attr_link: https://www.instagram.com/p/DdB59ICth8k/
+featured_image_attr_link:
 program:
 website: https://www.boldcityopera.org/rusalka
 tickets: https://www.boldcityopera.org/tickets

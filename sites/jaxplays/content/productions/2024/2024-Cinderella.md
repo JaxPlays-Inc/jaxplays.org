@@ -18,9 +18,11 @@ showtimes:
 - 2024-06-21 20:00:00
 - 2024-06-22 20:00:00
 - 2024-06-23 14:00:00
-featured_image: 2024-Cinderella.webp
+poster: 2024-Cinderella.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Cinderella'
+poster_caption: Poster for 'Cinderella'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

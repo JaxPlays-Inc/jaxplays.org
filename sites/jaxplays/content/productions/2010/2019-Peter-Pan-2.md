@@ -13,10 +13,12 @@ showtimes:
 - 2019-07-20 19:30:00
 - 2019-07-21 14:00:00
 - 2019-07-21 19:30:00
-featured_image: 2019-Peter-Pan-2.webp
+poster: 2019-Peter-Pan-2.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photos by Jonathan Scherf
+poster_attr: Photos by Jonathan Scherf
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 
@@ -78,7 +80,6 @@ reviews:
   outlet: Folio Weekly
   description: ''
   featured_image: ''
-
 ---
 A NEW adaptation of Peter Pan with original music and songs, written and directed by Jason Woods.
 

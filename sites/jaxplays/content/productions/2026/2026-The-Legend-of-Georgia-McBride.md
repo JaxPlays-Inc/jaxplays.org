@@ -17,9 +17,12 @@ showtimes:
   - 2026-06-08 20:00:00
   - 2026-06-12 20:00:00
   - 2026-06-13 20:00:00
-featured_image: 2026-The-Legend-of-Georgia-McBride.webp
-featured_image_alt: Poster for The Legend of Georgia McBride
-featured_image_caption: Poster for The Legend of Georgia McBride
+poster: 2026-The-Legend-of-Georgia-McBride.webp
+featured_image:
+poster_alt: Poster for The Legend of Georgia McBride
+featured_image_alt:
+poster_caption: Poster for The Legend of Georgia McBride
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2026-The-Legend-of-Georgia-McBride.pdf

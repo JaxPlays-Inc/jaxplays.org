@@ -36,9 +36,11 @@ showtimes:
   - 2019-10-12 19:50:00
   - 2019-10-13 13:50:00
   - 2019-10-13 19:50:00
-featured_image: 2019-Brighton-Beach-Memoirs.webp
+poster: 2019-Brighton-Beach-Memoirs.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for the Alhambra Theatre & Dining production of 'Brighton Beach Memoirs'
+poster_caption: Poster for the Alhambra Theatre & Dining production of 'Brighton Beach Memoirs'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

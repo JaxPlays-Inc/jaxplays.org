@@ -15,11 +15,16 @@ showtimes:
   - 2024-05-17 19:30:00
   - 2024-05-18 19:30:00
   - 2024-05-19 14:30:00
-featured_image: 2024-The-Odd-Couple.webp
-featured_image_alt: "Promotional poster for Neil Simon's 'The Odd Couple' at Amelia Musical Playhouse. The design features cartoonish hands, one holding a cigar and the other a broom, over a silhouette of a cityscape, highlighting the comedic clash of lifestyles between the main characters."
-featured_image_caption: "'The Odd Couple,' Neil Simon's classic comedy of mismatched roommates, takes the stage at Amelia Musical Playhouse, promising laughs and memorable moments."
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/program-covers
+poster: 2024-The-Odd-Couple.webp
+featured_image:
+poster_alt: "Promotional poster for Neil Simon's 'The Odd Couple' at Amelia Musical Playhouse. The design features cartoonish hands, one holding a cigar and the other a broom, over a silhouette of a cityscape, highlighting the comedic clash of lifestyles between the main characters."
+featured_image_alt:
+poster_caption: "'The Odd Couple,' Neil Simon's classic comedy of mismatched roommates, takes the stage at Amelia Musical Playhouse, promising laughs and memorable moments."
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/program-covers
+featured_image_attr_link:
 program:
 website: https://ameliamusicalplayhouse.com/pastperformances/the-odd-couple/
 tickets: 

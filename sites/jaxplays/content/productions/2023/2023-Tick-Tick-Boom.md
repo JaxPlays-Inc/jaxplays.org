@@ -4,8 +4,10 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-08-19
 layout: productions
-featured_image: 2023_Tik_Tik_Boom.webp
-featured_image_caption: Poster for 'Tick, Tick... Boom!'
+poster: 2023_Tik_Tik_Boom.webp
+featured_image:
+poster_caption: Poster for 'Tick, Tick... Boom!'
+featured_image_caption:
 feaured_image_attr: The 5 & Dime
 program:
 genres: 
