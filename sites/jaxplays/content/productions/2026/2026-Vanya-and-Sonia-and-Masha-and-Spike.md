@@ -13,9 +13,14 @@ showtimes:
 - 2026-11-13 19:30:00
 - 2026-11-14 16:00:00
 - 2026-11-15 14:00:00
-featured_image: 2026-Vanya-and-Sonia-and-Masha-and-Spike.webp
-featured_image_alt: Poster for Vanya and Sonia and Masha and Spike
-featured_image_caption: Poster for Vanya and Sonia and Masha and Spike
+poster: 2026-Vanya-and-Sonia-and-Masha-and-Spike-Poster.webp
+poster_alt: Poster for Vanya and Sonia and Masha and Spike
+poster_caption: Poster for Vanya and Sonia and Masha and Spike
+poster_attr: © A Classic Theatre
+poster_attr_link:
+featured_image: 2026-Vanya-and-Sonia-and-Masha-and-Spike-Featured.webp
+featured_image_alt: Social preview image for Vanya and Sonia and Masha and Spike
+featured_image_caption: Social preview image for Vanya and Sonia and Masha and Spike
 featured_image_attr: © A Classic Theatre
 featured_image_attr_link:
 program:
