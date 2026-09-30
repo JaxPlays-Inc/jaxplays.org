@@ -8,8 +8,40 @@ closing_date: 2026-11-15
 tickets: https://www.showtixnow.com/public/venue/theatre-troupe-1776-26/all
 show_details:
   - Playwright: Louise Everett
+cast:
+  - Nathaniel Carver: Drew Keck
+  - George Westcott: Thomas Marconi
+  - Roger Westcott: Joe Byer
+  - Mary Westcott: Bella Confiado
+  - William Carver: Russell Calascione
+  - Martha Flint Carver: Jayne Byer
+  - Eliza Carver: Kaley Lennox
+  - Abigail Carver: Louise Everett
+  - Magnolia Carver:
+      - Dahlia Corrales
+      - Madelyn Heilig
+  - Young Magnolia Carver:
+      - Giovanna LaDuca
+      - Scarlett Heilig
+  - Betsy Carver: Danielle Annal
+  - Augusta Westcott: Tracie Boudreau
+  - George Washington: Chase Hartman
+  - Carter Flint: Felix Strang
+  - Philip Powell: Jacob Shields
+  - Lionel Powell: Ethan Leavitt
+  - Colonel Andrew Madison: Liam Sheets
+  - Townsperson / Nurse:
+      - Trinity Strang
+      - Julianna Byer
+  - Townsperson / Nurse / Understudy: Amy Corrales
 crew:
   - Director: Patty Everett
+photos:
+  - photo: 2026-The-Price-of-Liberty-Cast-Announcement-01.webp
+    photo_alt: "Cast announcement graphic for Theatre Troupe 1776's The Price of Liberty, listing the 2026 cast over an American flag background."
+    photo_caption: "Theatre Troupe 1776 announces the cast of Louise Everett's The Price of Liberty."
+    photo_attr: Theatre Troupe 1776
+    photo_attr_link: https://www.instagram.com/p/DcwPQREJZgb/
 genres:
   - Play
   - Historical
