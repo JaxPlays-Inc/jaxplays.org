@@ -127,7 +127,8 @@ pages. */}}
 
         // Loop through the filtered and sorted events to create an image element for each unique poster
         upcomingEvents.forEach(event => {
-          if (event.featured_image && !uniquePosters[event.featured_image]) {
+          const posterImage = event.poster_image || (event.featured_image ? `/media/posters/${event.featured_image}` : '');
+          if (posterImage && !uniquePosters[posterImage]) {
             const listItem = document.createElement('li');
             listItem.classList.add('splide__slide');
 
@@ -136,7 +137,7 @@ pages. */}}
             // anchor.target = "_blank";
 
             const img = document.createElement('img');
-            img.src = `/media/posters/${event.featured_image}`;
+            img.src = posterImage;
             img.alt = event.title;
             img.title = event.title;
             img.classList.add('featured-image');
@@ -145,7 +146,7 @@ pages. */}}
             listItem.appendChild(anchor);
             posterContainer.appendChild(listItem);
 
-            uniquePosters[event.featured_image] = true;
+            uniquePosters[posterImage] = true;
           }
         });
 
