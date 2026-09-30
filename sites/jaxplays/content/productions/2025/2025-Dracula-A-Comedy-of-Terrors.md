@@ -16,9 +16,12 @@ showtimes:
   - 2025-05-02 19:30:00
   - 2025-05-03 19:30:00
   - 2025-05-04 14:00:00
-featured_image: 2025-Dracula-A-Comedy-of-Terrors.webp
-featured_image_alt: "Vibrant poster for 'Dracula: A Comedy of Terrors' at Theatre Jacksonville. It features bold, colorful text over a dynamic background, announcing the play's run from April 18 to May 4, 2025."
-featured_image_caption: "Don't miss 'Dracula: A Comedy of Terrors' at Theatre Jacksonville. This hilarious take on the classic tale promises a delightful mix of horror and humor, from April 18 to May 4, 2025."
+poster: 2025-Dracula-A-Comedy-of-Terrors.webp
+featured_image:
+poster_alt: "Vibrant poster for 'Dracula: A Comedy of Terrors' at Theatre Jacksonville. It features bold, colorful text over a dynamic background, announcing the play's run from April 18 to May 4, 2025."
+featured_image_alt:
+poster_caption: "Don't miss 'Dracula: A Comedy of Terrors' at Theatre Jacksonville. This hilarious take on the classic tale promises a delightful mix of horror and humor, from April 18 to May 4, 2025."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

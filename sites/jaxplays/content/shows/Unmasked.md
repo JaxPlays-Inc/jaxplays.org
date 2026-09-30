@@ -1,11 +1,16 @@
 ---
 title: Unmasked
 date: 2024-04-17T21:42:51-04:00
-featured_image: 2023-Unmasked.webp
-featured_image_alt: Poster for Unmasked
-featured_image_caption: Poster for Unmasked
-featured_image_attr: McKenna Rowell
-featured_image_attr_link: https://www.instagram.com/unmaskedtheplay
+poster: 2023-Unmasked.webp
+featured_image:
+poster_alt: Poster for Unmasked
+featured_image_alt:
+poster_caption: Poster for Unmasked
+featured_image_caption:
+poster_attr: McKenna Rowell
+featured_image_attr:
+poster_attr_link: https://www.instagram.com/unmaskedtheplay
+featured_image_attr_link:
 show_details: 
 - Playwright: McKenna Rowell
 genres:

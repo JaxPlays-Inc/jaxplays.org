@@ -17,7 +17,8 @@ showtimes:
   - 2027-04-30 19:30:00
   - 2027-05-01 14:00:00
   - 2027-05-02 14:00:00
-featured_image: 2027-Theatre-People-or-the-Angel-Next-Door.webp
+poster: 2027-Theatre-People-or-the-Angel-Next-Door.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

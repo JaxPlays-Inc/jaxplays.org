@@ -16,9 +16,12 @@ showtimes:
   - 2025-10-31T17:30:00-04:00
   - 2025-11-01T11:00:00-04:00
   - 2025-11-01T17:30:00-04:00
-featured_image: 2025-Little-Shop-of-Horrors.webp
-featured_image_alt: 'Spotlight Events Center presents the cult favorite musical "Little Shop of Horrors"'
-featured_image_caption: '"Little Shop of Horrors" presented by Spotlight Events Center'
+poster: 2025-Little-Shop-of-Horrors.webp
+featured_image:
+poster_alt: 'Spotlight Events Center presents the cult favorite musical "Little Shop of Horrors"'
+featured_image_alt:
+poster_caption: '"Little Shop of Horrors" presented by Spotlight Events Center'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

@@ -14,9 +14,11 @@ showtimes:
   - 2024-04-20 14:00:00
   - 2024-04-20 19:00:00
   - 2024-04-21 15:00:00
-featured_image: 2024-Beware-the-House-on-Haunted-Hill.webp
+poster: 2024-Beware-the-House-on-Haunted-Hill.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Beware the House on Haunted Hill!'
+poster_caption: Poster for 'Beware the House on Haunted Hill!'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

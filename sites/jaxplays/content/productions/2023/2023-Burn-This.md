@@ -4,8 +4,10 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-06-16
 closing_date: 2023-06-25
 layout: productions
-featured_image: 2023_Burn_This.jpeg
-featured_image_caption: Josh Andrews, graphic design Jon Scherf
+poster: 2023_Burn_This.jpeg
+featured_image:
+poster_caption: Josh Andrews, graphic design Jon Scherf
+featured_image_caption:
 featured_image_attr:
 program:
 genres:

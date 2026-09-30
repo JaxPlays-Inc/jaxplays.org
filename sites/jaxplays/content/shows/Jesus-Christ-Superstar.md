@@ -1,8 +1,10 @@
 ---
 title: Jesus Christ Superstar
 layout: shows
-featured_image: Jesus_Christ_Superstar.png
-featured_image_caption: Cover art for the album Jesus Christ Superstar
+poster: Jesus_Christ_Superstar.png
+featured_image:
+poster_caption: Cover art for the album Jesus Christ Superstar
+featured_image_caption:
 featured_image_attr:
 category: musicals
 show_details: 

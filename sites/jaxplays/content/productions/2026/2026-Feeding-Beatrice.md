@@ -7,7 +7,8 @@ date: 2026-06-01T17:35:00-04:00
 opening_date: 2026-10-16
 closing_date: 2026-10-31
 showtimes: null
-featured_image: 2026-Feeding-Beatrice.webp
+poster: 2026-Feeding-Beatrice.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

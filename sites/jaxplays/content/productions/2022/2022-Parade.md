@@ -7,10 +7,13 @@ aliases:
 date: 2023-09-08T00:00:00
 opening_date: 2022-08-04
 closing_date: 2022-09-04
-featured_image: 2022_Parade.jpeg
-featured_image_attr: Limelight Theatre
+poster: 2022_Parade.jpeg
+featured_image:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_alt:
-featured_image_caption: Poster of 2022 production of Parade
+poster_caption: Poster of 2022 production of Parade
+featured_image_caption:
 category: musical
 theatre: Limelight Theatre
 venue: Matuza Mainstage

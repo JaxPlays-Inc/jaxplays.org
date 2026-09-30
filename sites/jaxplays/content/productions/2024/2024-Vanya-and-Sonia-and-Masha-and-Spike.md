@@ -16,9 +16,11 @@ showtimes:
 - 2024-04-25 19:30:00
 - 2024-04-26 19:30:00
 - 2024-04-27 19:30:00
-featured_image: 2024-Vanya-and-Sonia-and-Masha-and-Spike.webp
+poster: 2024-Vanya-and-Sonia-and-Masha-and-Spike.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Vanya and Sonia and Masha and Spike
+poster_caption: Poster for Vanya and Sonia and Masha and Spike
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-Vanya-and-Sonia-and-Masha-and-Spike.pdf

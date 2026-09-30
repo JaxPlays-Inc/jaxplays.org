@@ -15,9 +15,12 @@ showtimes:
   - 2026-02-27 19:30:00
   - 2026-02-28 19:30:00
   - 2026-03-01 14:00:00
-featured_image: 2026-She-Loves-Me.webp
-featured_image_alt: Poster for She Loves Me
-featured_image_caption: Poster for She Loves Me
+poster: 2026-She-Loves-Me.webp
+featured_image:
+poster_alt: Poster for She Loves Me
+featured_image_alt:
+poster_caption: Poster for She Loves Me
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

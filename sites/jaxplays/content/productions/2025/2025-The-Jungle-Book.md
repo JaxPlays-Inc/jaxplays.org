@@ -16,10 +16,13 @@ showtimes:
 - 2025-02-21 19:30:00
 - 2025-02-22 19:30:00
 - 2025-02-23 15:00:00
-featured_image: 2025-The-Jungle-Book.webp
+poster: 2025-The-Jungle-Book.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for *The Jungle Book*
-featured_image_attr: Artist Connection Theatre
+poster_caption: Graphic for *The Jungle Book*
+featured_image_caption:
+poster_attr: Artist Connection Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://artistconnectiontheatre.org/season-2024-2025/

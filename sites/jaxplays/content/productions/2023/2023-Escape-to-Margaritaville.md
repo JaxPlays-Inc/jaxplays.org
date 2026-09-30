@@ -15,10 +15,14 @@ showtimes:
 - 2023-11-24 19:30:00
 - 2023-11-25 19:30:00
 - 2023-11-26 14:00:00
-featured_image: 2023-Escape-to-Margaritaville-01.webp
-featured_image_alt: Poster for Escape to Margaritaville
-featured_image_caption: Poster for Escape to Margaritaville
-featured_image_attr: Graphic Design by Jon Scherf
+poster: 2023-Escape-to-Margaritaville-01.webp
+featured_image:
+poster_alt: Poster for Escape to Margaritaville
+featured_image_alt:
+poster_caption: Poster for Escape to Margaritaville
+featured_image_caption:
+poster_attr: Graphic Design by Jon Scherf
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

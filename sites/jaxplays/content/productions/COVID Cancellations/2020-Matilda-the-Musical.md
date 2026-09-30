@@ -6,7 +6,8 @@ title: Matilda the Musical
 date: 2023-09-08T00:00:00
 opening_date: 2020-06-05
 closing_date: 2020-06-21
-featured_image: 2020_Matilda_the_Musical.png
+poster: 2020_Matilda_the_Musical.png
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

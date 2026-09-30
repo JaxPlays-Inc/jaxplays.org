@@ -16,9 +16,12 @@ showtimes:
   - 2025-03-21 19:30:00
   - 2025-03-22 19:30:00
   - 2025-03-23 14:00:00
-featured_image: 2025-The-Boys-Next-Door.webp
-featured_image_alt: "Poster for 'The Boys Next Door' by Tom Griffin at Theatre Jacksonville, featuring colorful, cartoonish illustrations of a vacuum cleaner, books, a coffee pot, and a doughnut. The play is scheduled for March 7-23, 2025."
-featured_image_caption: "Join Theatre Jacksonville for 'The Boys Next Door,' a heartfelt comedy that explores life, love and friendship. Catch it live from March 7-23, 2025!"
+poster: 2025-The-Boys-Next-Door.webp
+featured_image:
+poster_alt: "Poster for 'The Boys Next Door' by Tom Griffin at Theatre Jacksonville, featuring colorful, cartoonish illustrations of a vacuum cleaner, books, a coffee pot, and a doughnut. The play is scheduled for March 7-23, 2025."
+featured_image_alt:
+poster_caption: "Join Theatre Jacksonville for 'The Boys Next Door,' a heartfelt comedy that explores life, love and friendship. Catch it live from March 7-23, 2025!"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Boys-Next-Door.pdf

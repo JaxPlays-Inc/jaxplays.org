@@ -6,7 +6,8 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2022-05-12
 closing_date: 2022-06-12
-featured_image: 2022_42nd_Street.jpg
+poster: 2022_42nd_Street.jpg
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

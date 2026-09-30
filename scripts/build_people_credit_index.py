@@ -28,6 +28,8 @@ PRODUCTION_KEYS = frozenset(
         "venue",
         "genres",
         "category",
+        "poster",
+        "poster_alt",
         "featured_image",
         "featured_image_alt",
         "tickets",
@@ -36,7 +38,17 @@ PRODUCTION_KEYS = frozenset(
         *CREDIT_TYPES,
     )
 )
-SHOW_KEYS = frozenset(("title", "description", "genres", "featured_image", "featured_image_alt"))
+SHOW_KEYS = frozenset(
+    (
+        "title",
+        "description",
+        "genres",
+        "poster",
+        "poster_alt",
+        "featured_image",
+        "featured_image_alt",
+    )
+)
 THEATRE_KEYS = frozenset(("title", "theatre_aliases", "directory"))
 VENUE_KEYS = frozenset(("title", "venue_aliases", "directory"))
 REVIEW_KEYS = frozenset(
@@ -206,6 +218,48 @@ def poster_path(value: Any) -> str:
     return f"/media/posters/{poster}"
 
 
+def poster_src(data: dict[str, Any], default: str = "") -> str:
+    poster = data.get("poster")
+    if isinstance(poster, dict):
+        src = poster.get("src")
+        if isinstance(src, str) and src.strip():
+            return src.strip()
+    if isinstance(poster, str) and poster.strip():
+        return poster.strip()
+
+    featured_image = data.get("featured_image")
+    if isinstance(featured_image, dict):
+        src = featured_image.get("src")
+        if isinstance(src, str) and src.strip():
+            return src.strip()
+    if isinstance(featured_image, str) and featured_image.strip():
+        return featured_image.strip()
+
+    return default
+
+
+def poster_alt(data: dict[str, Any], default: str = "") -> str:
+    poster = data.get("poster")
+    if isinstance(poster, dict):
+        alt = poster.get("alt")
+        if isinstance(alt, str) and alt.strip():
+            return alt.strip()
+    alt = data.get("poster_alt")
+    if isinstance(alt, str) and alt.strip():
+        return alt.strip()
+
+    featured_image = data.get("featured_image")
+    if isinstance(featured_image, dict):
+        alt = featured_image.get("alt")
+        if isinstance(alt, str) and alt.strip():
+            return alt.strip()
+    alt = data.get("featured_image_alt")
+    if isinstance(alt, str) and alt.strip():
+        return alt.strip()
+
+    return default
+
+
 def content_permalink(section: str, path: Path, data: dict[str, Any]) -> str:
     url = data.get("url")
     if isinstance(url, str) and url.strip():
@@ -305,8 +359,8 @@ def person_lookup(people_dir: Path) -> tuple[dict[str, str], dict[str, Any], dic
     return credit_lookup, people_credits, public_lookup
 
 
-def show_featured_images(shows_dir: Path) -> dict[str, str]:
-    images: dict[str, str] = {}
+def show_posters(shows_dir: Path) -> dict[str, dict[str, str]]:
+    images: dict[str, dict[str, str]] = {}
 
     for path in sorted(shows_dir.glob("*.md")):
         try:
@@ -315,10 +369,13 @@ def show_featured_images(shows_dir: Path) -> dict[str, str]:
             print(f"Warning: skipping {path}: {error}", file=sys.stderr)
             continue
 
-        featured_image = data.get("featured_image")
-        if isinstance(featured_image, str) and featured_image.strip():
+        poster = poster_src(data)
+        if poster:
             title = str(data.get("title") or path.stem)
-            images[normalize_name(title)] = featured_image.strip()
+            images[normalize_name(title)] = {
+                "poster": poster,
+                "poster_alt": poster_alt(data, f"{title} poster"),
+            }
 
     return images
 
@@ -334,24 +391,25 @@ def show_card_data(shows_dir: Path) -> dict[str, dict[str, Any]]:
             continue
 
         title = str(data.get("title") or path.stem)
+        poster = poster_src(data)
         shows[normalize_name(title)] = {
             "description": data.get("description") or "",
             "summary": truncate_text(plain_text(data.get("description") or body)),
             "genres": normalize_list(data.get("genres")),
-            "featured_image": data.get("featured_image") or "",
-            "featured_image_alt": data.get("featured_image_alt") or "",
+            "poster": poster,
+            "poster_alt": poster_alt(data, f"{title} poster") if poster else "",
         }
 
     return shows
 
 
 def production_entry(
-    path: Path, data: dict[str, Any], show_images: dict[str, str]
+    path: Path, data: dict[str, Any], show_images: dict[str, dict[str, str]]
 ) -> dict[str, Any]:
     title = str(data.get("title") or path.stem)
-    featured_image = data.get("featured_image")
-    if not isinstance(featured_image, str) or not featured_image.strip():
-        featured_image = show_images.get(normalize_name(title), "")
+    featured_image = poster_src(data)
+    if not featured_image:
+        featured_image = show_images.get(normalize_name(title), {}).get("poster", "")
 
     return {
         "permalink": content_permalink("productions", path, data),
@@ -408,12 +466,14 @@ def production_card_entry(
     show = shows.get(normalize_name(title), {})
     opening_date = json_safe(data.get("opening_date")) or ""
     closing_date = json_safe(data.get("closing_date")) or opening_date
-    featured_image = data.get("featured_image") or show.get("featured_image") or ""
-    poster_alt = (
-        data.get("featured_image_alt")
-        or show.get("featured_image_alt")
-        or f"{title} poster"
-    )
+    featured_image = poster_src(data)
+    poster_alt_text = poster_alt(data)
+    if not poster_alt_text:
+        poster_alt_text = show.get("poster_alt") or ""
+    if not featured_image:
+        featured_image = show.get("poster") or ""
+    if not poster_alt_text:
+        poster_alt_text = f"{title} poster"
     venues = normalize_list(data.get("venue"))
     theatre = str(data.get("theatre") or "")
     normalized_theatre = plain_text(theatre).lower().strip()
@@ -443,7 +503,7 @@ def production_card_entry(
         "url": content_permalink("productions", path, data),
         "contentPath": content_page_path(path),
         "poster": poster_path(featured_image),
-        "posterAlt": str(poster_alt),
+        "posterAlt": str(poster_alt_text),
         "openingDate": opening_date,
         "closingDate": closing_date,
         "openingLabel": opening_label,
@@ -689,7 +749,7 @@ def collect_credits(
     productions_dir: Path,
     name_lookup: dict[str, str],
     people_credits: dict[str, Any],
-    show_images: dict[str, str],
+    show_images: dict[str, dict[str, str]],
 ) -> tuple[int, int]:
     matched = 0
     unmatched = 0
@@ -807,7 +867,7 @@ def main() -> int:
     )
 
     name_lookup, people_credits, people_lookup = person_lookup(root / "content" / "people")
-    show_images = show_featured_images(root / "content" / "shows")
+    show_images = show_posters(root / "content" / "shows")
     shows = show_card_data(root / "content" / "shows")
     matched, unmatched = collect_credits(
         root / "content" / "productions",

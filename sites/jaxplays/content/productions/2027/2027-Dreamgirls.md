@@ -24,11 +24,16 @@ showtimes:
   - 2027-07-30 19:30:00
   - 2027-07-31 19:30:00
   - 2027-08-01 14:00:00
-featured_image: 2027-Dreamgirls.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: null
-featured_image_attr_link: null
+poster: 2027-Dreamgirls.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: null
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: https://www.limelight-theatre.org/calendar/on-stage/dreamgirls
 tickets: https://limelight.ludus.com/200529900

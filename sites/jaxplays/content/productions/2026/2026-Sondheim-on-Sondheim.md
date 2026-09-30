@@ -17,11 +17,16 @@ showtimes:
   - 2026-06-19 19:30:00
   - 2026-06-20 14:00:00
   - 2026-06-21 14:00:00
-featured_image: 2026-Sondheim-on-Sondheim.webp
-featured_image_alt: Theatre Jacksonville artwork for Sondheim on Sondheim
-featured_image_caption: Theatre Jacksonville presents Sondheim on Sondheim as the finale of Season 106.
-featured_image_attr: Theatre Jacksonville
-featured_image_attr_link: https://www.theatrejax.com/season-106
+poster: 2026-Sondheim-on-Sondheim.webp
+featured_image:
+poster_alt: Theatre Jacksonville artwork for Sondheim on Sondheim
+featured_image_alt:
+poster_caption: Theatre Jacksonville presents Sondheim on Sondheim as the finale of Season 106.
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
+poster_attr_link: https://www.theatrejax.com/season-106
+featured_image_attr_link:
 program:
 website: https://www.theatrejax.com/season-106
 tickets: https://ci.ovationtix.com/34919/production/1235987

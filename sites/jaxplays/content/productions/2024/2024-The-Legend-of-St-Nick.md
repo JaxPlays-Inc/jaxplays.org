@@ -12,10 +12,12 @@ showtimes:
   - 2024-12-14 15:00:00
   - 2024-12-14 19:30:00
   - 2024-12-15 13:00:00
-featured_image: 2024-The-Legend-of-St-Nick.webp
+poster: 2024-The-Legend-of-St-Nick.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

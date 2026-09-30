@@ -4,7 +4,8 @@ title: Dinner with Booker T.
 date: 2023-09-08T00:00:00
 opening_date: 2020-02-08
 closing_date: 2020-02-08
-featured_image: 2020_Dinner_with_Booker_T.webp
+poster: 2020_Dinner_with_Booker_T.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

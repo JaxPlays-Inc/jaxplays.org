@@ -75,8 +75,10 @@
       {{- $matchingShow := index (where (where .Site.Pages "Type" "shows") "Title" .Title) 0 }}
       {{- $description := .Params.description | default $matchingShow.Params.description }}
       {{- $content := .Content | default $matchingShow.Content }}
-      {{- $featuredImage := .Params.featured_image | default $matchingShow.Params.featured_image }}
-      {{- $featuredImageAlt := .Params.featured_image_alt | default $matchingShow.Params.featured_image_alt | default (printf "%s poster" .Title) }}
+      {{- $posterMeta := partial "func/GetPosterImageMeta.html" . }}
+      {{- $featuredImage := $posterMeta.src }}
+      {{- $featuredImageAlt := $posterMeta.alt | default (printf "%s poster" .Title) }}
+      {{- $featuredImageURL := partial "func/GetPosterImage.html" . }}
       {{- $genres := .Params.genres | default $matchingShow.Params.genres | default slice }}
       {{- $productionStatus := "Coming Soon" }}
       {{- if and (le $opening_date $currentDate) (ge $closing_date $currentDate) }}
@@ -98,8 +100,8 @@
         <content>
           {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
         </content>
-        {{ if $featuredImage }}
-        <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
+        {{ if $featuredImageURL }}
+        <enclosure url="{{ $featuredImageURL | absURL }}" type="image/jpeg"/>
         {{ end }}
       </item>
     {{- end }}

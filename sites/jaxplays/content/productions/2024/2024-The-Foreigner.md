@@ -16,9 +16,12 @@ showtimes:
   - 2024-11-22 19:30:00
   - 2024-11-23 19:30:00
   - 2024-11-24 14:00:00
-featured_image: 2024-The-Foreigner.webp
-featured_image_alt: "Promotional poster for Theatre Jacksonville's production of 'The Foreigner' by Larry Shue, featuring a playful illustration with a cartoon face sporting a monocle and mustache, set against a background of a house and foliage. The imagery is whimsical and inviting, setting the stage for a comedy full of surprises, running from November 8-24, 2024."
-featured_image_caption: "Dive into the comedic twists of 'The Foreigner' at Theatre Jacksonville, showing from November 8-24, 2024."
+poster: 2024-The-Foreigner.webp
+featured_image:
+poster_alt: "Promotional poster for Theatre Jacksonville's production of 'The Foreigner' by Larry Shue, featuring a playful illustration with a cartoon face sporting a monocle and mustache, set against a background of a house and foliage. The imagery is whimsical and inviting, setting the stage for a comedy full of surprises, running from November 8-24, 2024."
+featured_image_alt:
+poster_caption: "Dive into the comedic twists of 'The Foreigner' at Theatre Jacksonville, showing from November 8-24, 2024."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-The-Foreigner.pdf

@@ -13,7 +13,8 @@ showtimes:
   - 2026-12-11 19:30:00
   - 2026-12-12 19:30:00
   - 2026-12-13 14:00:00
-featured_image: 2026-Christmas-Radio-Hour-Live-from-the-North-Pole.webp
+poster: 2026-Christmas-Radio-Hour-Live-from-the-North-Pole.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

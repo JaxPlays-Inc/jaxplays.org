@@ -15,9 +15,12 @@ showtimes:
   - 2024-04-19 19:30:00
   - 2024-04-20 19:30:00
   - 2024-04-21 14:30:00
-featured_image: 2024-The-Bardy-Bunch.webp
-featured_image_alt: "Vibrant poster for 'The Bardy Bunch,' written by Stephen Garvey and featuring orchestrations and vocal arrangements by Logan Medland. The design mimics a 1970s style with bold, overlapping red, blue, and white letters, along with a peaceful dove symbol, setting the tone for this theatrical mashup of the Partridge and Brady families."
-featured_image_caption: "Experience the quirky clash in 'The Bardy Bunch' at Amelia Musical Playhouse, where the iconic families of Partridge and Brady meet in a hilarious showdown."
+poster: 2024-The-Bardy-Bunch.webp
+featured_image:
+poster_alt: "Vibrant poster for 'The Bardy Bunch,' written by Stephen Garvey and featuring orchestrations and vocal arrangements by Logan Medland. The design mimics a 1970s style with bold, overlapping red, blue, and white letters, along with a peaceful dove symbol, setting the tone for this theatrical mashup of the Partridge and Brady families."
+featured_image_alt:
+poster_caption: "Experience the quirky clash in 'The Bardy Bunch' at Amelia Musical Playhouse, where the iconic families of Partridge and Brady meet in a hilarious showdown."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

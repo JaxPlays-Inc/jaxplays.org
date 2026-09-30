@@ -1,9 +1,12 @@
 ---
 title: Christmas Carole
 date: 2024-07-12T13:17:04-04:00
-featured_image: Bruce-Allen-Scudder-Christmas-Carole.webp
-featured_image_alt: "Poster for Bruce Allen Scudder's 'Christmas Carol' featuring a festive red background with a wreath-adorned logo."
-featured_image_caption: "Poster for Bruce Allen Scudder's 'Christmas Carol' featuring a festive red background with a wreath-adorned logo."
+poster: Bruce-Allen-Scudder-Christmas-Carole.webp
+featured_image:
+poster_alt: "Poster for Bruce Allen Scudder's 'Christmas Carol' featuring a festive red background with a wreath-adorned logo."
+featured_image_alt:
+poster_caption: "Poster for Bruce Allen Scudder's 'Christmas Carol' featuring a festive red background with a wreath-adorned logo."
+featured_image_caption:
 show_details: 
 - Music: Bruce Allen Scudder
 - Lyrics: Bruce Allen Scudder

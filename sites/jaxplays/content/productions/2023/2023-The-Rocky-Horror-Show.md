@@ -12,9 +12,11 @@ showtimes:
 - 2023-10-21 23:00:00
 - 2023-10-27 23:00:00
 - 2023-10-28 23:00:00
-featured_image: 2023-Rocky-Horror.webp
+poster: 2023-Rocky-Horror.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for The Rocky Horror Show
+poster_caption: Graphic for The Rocky Horror Show
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

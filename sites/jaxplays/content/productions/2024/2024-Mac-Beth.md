@@ -10,7 +10,8 @@ showtimes:
 - 2024-10-23 19:30:00
 - 2024-10-24 19:30:00
 - 2024-10-25 19:30:00
-featured_image: 2024-Mac-Beth.webp
+poster: 2024-Mac-Beth.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

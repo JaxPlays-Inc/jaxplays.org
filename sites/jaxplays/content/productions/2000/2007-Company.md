@@ -4,10 +4,13 @@ date: 2024-06-19T13:58:23-04:00
 opening_date: 2007-04-04
 closing_date: 2007-04-14
 showtimes:
-featured_image: 2007-Company.webp
+poster: 2007-Company.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Playbill cover for Company
-featured_image_attr: Shawn Steadman, Sarah Sankovich
+poster_caption: Playbill cover for Company
+featured_image_caption:
+poster_attr: Shawn Steadman, Sarah Sankovich
+featured_image_attr:
 featured_image_attr_link: 
 program:
 theatre: Jacksonville University - Stein College

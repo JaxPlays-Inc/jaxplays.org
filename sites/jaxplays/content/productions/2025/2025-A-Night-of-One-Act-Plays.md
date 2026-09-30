@@ -9,10 +9,12 @@ closing_date: 2025-08-08
 showtimes:
   - 2025-08-07 19:00:00
   - 2025-08-08 19:00:00
-featured_image: 2025-The-Queer-Onstage-Project-Presents-A-Night-of-One-Act-Plays.webp
+poster: 2025-The-Queer-Onstage-Project-Presents-A-Night-of-One-Act-Plays.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: "*Hunger* poster art by Ananya Dutta, @_inspiraa_ ; *I Have 20 Questions and 19 Are About the Weather* poster art by @br4in_s0up; Several graphical elements by Orso Design Co."
+poster_attr: "*Hunger* poster art by Ananya Dutta, @_inspiraa_ ; *I Have 20 Questions and 19 Are About the Weather* poster art by @br4in_s0up; Several graphical elements by Orso Design Co."
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

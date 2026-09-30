@@ -8,7 +8,8 @@ opening_date: 2024-12-13
 closing_date: 2024-12-13
 showtimes:
 - 2024-12-13 19:30:00
-featured_image: 2024-Jason-Woods-A-Christmas-Carol.webp
+poster: 2024-Jason-Woods-A-Christmas-Carol.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

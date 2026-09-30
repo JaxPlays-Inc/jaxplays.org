@@ -17,11 +17,16 @@ showtimes:
   - 2026-03-13 19:30:00
   - 2026-03-14 14:00:00
   - 2026-03-15 14:00:00
-featured_image: 2026-Dear-Jack-Dear-Louise.webp
-featured_image_alt: Poster for Theatre Jacksonville's production of Dear Jack, Dear Louise
-featured_image_caption: Theatre Jacksonville presents Ken Ludwig's Dear Jack, Dear Louise as part of Season 106.
-featured_image_attr: Theatre Jacksonville
-featured_image_attr_link: https://www.theatrejax.com/season-106
+poster: 2026-Dear-Jack-Dear-Louise.webp
+featured_image:
+poster_alt: Poster for Theatre Jacksonville's production of Dear Jack, Dear Louise
+featured_image_alt:
+poster_caption: Theatre Jacksonville presents Ken Ludwig's Dear Jack, Dear Louise as part of Season 106.
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
+poster_attr_link: https://www.theatrejax.com/season-106
+featured_image_attr_link:
 program: 2026-Dear-Jack-Dear-Louise.pdf
 website: https://www.theatrejax.com/season-106
 tickets: https://www.theatrejax.com/purchase

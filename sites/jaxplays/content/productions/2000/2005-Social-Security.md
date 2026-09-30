@@ -6,10 +6,13 @@ date: 2023-09-08T00:00:00
 opening_date: 2005-01-07
 closing_date: 2005-01-22
 showtimes:
-featured_image: 2005-Social-Security.webp
+poster: 2005-Social-Security.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Program artwork for 'Social Security'
-featured_image_attr: George Maida
+poster_caption: Program artwork for 'Social Security'
+featured_image_caption:
+poster_attr: George Maida
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

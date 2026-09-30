@@ -13,9 +13,12 @@ showtimes:
 - 2026-09-18 19:30:00
 - 2026-09-19 16:00:00
 - 2026-09-20 14:00:00
-featured_image: 2026-Grand-Horizons.webp
-featured_image_alt: Poster for Grand Horizons
-featured_image_caption: Poster for Grand Horizons
+poster: 2026-Grand-Horizons.webp
+featured_image:
+poster_alt: Poster for Grand Horizons
+featured_image_alt:
+poster_caption: Poster for Grand Horizons
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

@@ -7,11 +7,16 @@ opening_date: 2024-05-23
 closing_date: 2024-05-23
 showtimes:
 - 2024-05-23 19:30:00
-featured_image: 2024-Hunger.webp
-featured_image_alt: "Promotional poster for 'Hunger,' a one-act play by The Hunger Onstage Project, showing a silhouette of a fairy and a mermaid dancing against a deep blue background, intertwined with flowing music notes. The title 'Hunger' is illuminated in cursive script. Event details for May 23rd at 7:30 PM, ticket pricing, venue address, and production credits are listed, along with a QR code for ticket purchases."
-featured_image_caption: Poster for 'Hunger'
-featured_image_attr: "Poster Art by @giogiove_"
-featured_image_attr_link: https://www.instagram.com/giogiove_/
+poster: 2024-Hunger.webp
+featured_image:
+poster_alt: "Promotional poster for 'Hunger,' a one-act play by The Hunger Onstage Project, showing a silhouette of a fairy and a mermaid dancing against a deep blue background, intertwined with flowing music notes. The title 'Hunger' is illuminated in cursive script. Event details for May 23rd at 7:30 PM, ticket pricing, venue address, and production credits are listed, along with a QR code for ticket purchases."
+featured_image_alt:
+poster_caption: Poster for 'Hunger'
+featured_image_caption:
+poster_attr: "Poster Art by @giogiove_"
+featured_image_attr:
+poster_attr_link: https://www.instagram.com/giogiove_/
+featured_image_attr_link:
 program: 
 website: https://www.instagram.com/hunger.onstage.project?igsh=em9wZzJmczE0NjNp&utm_source=qr
 tickets: https://eventbrite.com/e/hunger-a-one-act-play-tickets-848531820517?aff=oddtdtcreator

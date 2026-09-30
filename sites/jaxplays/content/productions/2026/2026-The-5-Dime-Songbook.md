@@ -8,9 +8,12 @@ opening_date: 2026-05-10
 closing_date: 2026-05-10
 showtimes:
   - 2026-05-10 17:00:00
-featured_image: 2026-The-5-Dime-Songbook.webp
-featured_image_alt: Poster for The 5 & Dime Songbook fundraiser
-featured_image_caption: Poster for The 5 & Dime Songbook
+poster: 2026-The-5-Dime-Songbook.webp
+featured_image:
+poster_alt: Poster for The 5 & Dime Songbook fundraiser
+featured_image_alt:
+poster_caption: Poster for The 5 & Dime Songbook
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program: 2026-The-5-Dime-Songbook.pdf

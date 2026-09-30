@@ -54,11 +54,16 @@ showtimes:
 - 2026-11-07 18:00:00
 - 2026-11-08 12:00:00
 - 2026-11-08 18:00:00
-featured_image: 2026-Meet-Me-In-St-Louis.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: Alhambra Theatre
-featured_image_attr_link: null
+poster: 2026-Meet-Me-In-St-Louis.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: Alhambra Theatre
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: null
 source_url: https://www.alhambrajax.com

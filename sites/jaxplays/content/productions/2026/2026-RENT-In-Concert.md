@@ -9,7 +9,8 @@ opening_date: 2026-03-10
 closing_date: 2026-03-10
 showtimes:
 - 2026-03-10 19:30:00 
-featured_image: 2026-RENT-In-Concert.webp
+poster: 2026-RENT-In-Concert.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -10,7 +10,8 @@ showtimes:
 - 2024-12-06 19:00:00
 - 2024-12-07 14:00:00
 - 2024-12-07 19:00:00
-featured_image: 2024-Disneys-Beauty-and-the-Beast-JR.webp
+poster: 2024-Disneys-Beauty-and-the-Beast-JR.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

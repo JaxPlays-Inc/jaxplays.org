@@ -23,9 +23,12 @@ showtimes:
 - 2024-12-19 19:00:00
 - 2024-12-20 19:00:00
 - 2024-12-21 19:00:00
-featured_image: 2024-A-Christmas-Carol.webp
-featured_image_alt: "Promotional poster for 'A Christmas Carol The Musical' showing the title in golden letters against a wintery night scene."
-featured_image_caption: "Experience the magic of 'A Christmas Carol The Musical', where holiday spirits come to life in a spectacle of song and snow."
+poster: 2024-A-Christmas-Carol.webp
+featured_image:
+poster_alt: "Promotional poster for 'A Christmas Carol The Musical' showing the title in golden letters against a wintery night scene."
+featured_image_alt:
+poster_caption: "Experience the magic of 'A Christmas Carol The Musical', where holiday spirits come to life in a spectacle of song and snow."
+featured_image_caption:
 program:
 website: 
 tickets: https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=366478~4fdd59c7-9110-4ffd-b8a6-d23e78529eda&epguid=2807c832-0f5a-4130-917e-8c48755c010b&

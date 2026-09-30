@@ -24,7 +24,8 @@ showtimes:
   - 2025-03-14 19:30:00
   - 2025-03-15 19:30:00
   - 2025-03-16 14:00:00
-featured_image: 2025-The-Drowsy-Chaperone.webp
+poster: 2025-The-Drowsy-Chaperone.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

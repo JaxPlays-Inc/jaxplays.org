@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2022-09-16
 closing_date: 2022-10-02
 layout: productions
-featured_image: 2022_Private_Lives.jpeg
-featured_image_caption: Poster of Private Lives
-featured_image_attr: Theatre Jacksonville
+poster: 2022_Private_Lives.jpeg
+featured_image:
+poster_caption: Poster of Private Lives
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program: 2022_Private_Lives.pdf
 theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse

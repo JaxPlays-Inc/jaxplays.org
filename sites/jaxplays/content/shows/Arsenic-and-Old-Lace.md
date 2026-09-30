@@ -1,9 +1,12 @@
 ---
 title: Arsenic and Old Lace
 layout: shows
-featured_image: Arsenic_and_Old_Lace.jpeg
-featured_image_caption: Front cover and spine of the first edition printing of Arsenic and Old Lace
-featured_image_attr: Facsimile Dust Jackets, LLC
+poster: Arsenic_and_Old_Lace.jpeg
+featured_image:
+poster_caption: Front cover and spine of the first edition printing of Arsenic and Old Lace
+featured_image_caption:
+poster_attr: Facsimile Dust Jackets, LLC
+featured_image_attr:
 description: "A dark comedy that unveils the zany world of the Brewster family, where two sweet old aunts take to poisoning lonely bachelors."
 genres: 
 - Play

@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2018-09-14
 closing_date: 2018-09-30
 layout: productions
-featured_image: 2018_Arsenic_and_Old_Lace.jpeg
-featured_image_caption: Poster for Arsenic and Old Lace
-featured_image_attr: Theatre Jacksonville
+poster: 2018_Arsenic_and_Old_Lace.jpeg
+featured_image:
+poster_caption: Poster for Arsenic and Old Lace
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program:
 theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse

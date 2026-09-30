@@ -1,9 +1,12 @@
 ---
 title: Shrek the Musical
 date: 2024-07-03T11:15:29-04:00
-featured_image: 2024-Shrek-the-Musical.webp
-featured_image_alt: "Iconic bold green logo of 'Shrek' splashed across a rustic yellow background, invoking the lovable and cheeky charm of the story."
-featured_image_caption: "Rediscover the magic and humor of 'Shrek the Musical'. Fall in love all ogre again with this beloved tale brought to vibrant life on stage."
+poster: 2024-Shrek-the-Musical.webp
+featured_image:
+poster_alt: "Iconic bold green logo of 'Shrek' splashed across a rustic yellow background, invoking the lovable and cheeky charm of the story."
+featured_image_alt:
+poster_caption: "Rediscover the magic and humor of 'Shrek the Musical'. Fall in love all ogre again with this beloved tale brought to vibrant life on stage."
+featured_image_caption:
 show_details: 
 - Music: "[[w:Jeanine Tesori]]"
 - Lyrics: "[[w:David Lindsay-Abaire]]"

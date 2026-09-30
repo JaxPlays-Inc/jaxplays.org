@@ -15,7 +15,8 @@ showtimes:
  - 2025-10-23 19:30:00
  - 2025-10-24 19:30:00
  - 2025-10-25 19:30:00
-featured_image: 2025-Dracula.webp
+poster: 2025-Dracula.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

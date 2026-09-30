@@ -18,9 +18,12 @@ showtimes:
   - 2018-05-05 20:00:00
   - 2018-05-06 14:00:00
   - 2018-05-06 20:00:00
-featured_image: 2018-Boeing-Boeing.webp
-featured_image_alt: Cast list announcement for 'Boeing Boeing'
-featured_image_caption: Cast list announcement for 'Boeing Boeing'
+poster: 2018-Boeing-Boeing.webp
+featured_image:
+poster_alt: Cast list announcement for 'Boeing Boeing'
+featured_image_alt:
+poster_caption: Cast list announcement for 'Boeing Boeing'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

@@ -15,9 +15,11 @@ showtimes:
   - 2024-11-10 14:00:00
   - 2024-11-15 20:00:00
   - 2024-11-16 20:00:00
-featured_image: 2024-Lizzie.webp
+poster: 2024-Lizzie.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Teaser graphic for 'Lizzie'
+poster_caption: Teaser graphic for 'Lizzie'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

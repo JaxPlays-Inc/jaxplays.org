@@ -4,9 +4,12 @@ date: 2023-09-15
 opening_date: 2023-09-15
 closing_date: 2023-09-23
 layout: productions
-featured_image: 2023_For_Peter_Pan_On_Her_70th_Birthday.webp
-featured_image_caption: Poster for 'For Peter Pan On Her 70th Birthday'
-featured_image_attr: The 5 & Dime
+poster: 2023_For_Peter_Pan_On_Her_70th_Birthday.webp
+featured_image:
+poster_caption: Poster for 'For Peter Pan On Her 70th Birthday'
+featured_image_caption:
+poster_attr: The 5 & Dime
+featured_image_attr:
 program:
 genres:
 - Play

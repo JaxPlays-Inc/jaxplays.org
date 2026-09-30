@@ -16,9 +16,11 @@ showtimes:
 - 2024-06-21 19:30:00
 - 2024-06-22 19:30:00
 - 2024-06-23 19:30:00
-featured_image: 2024-Charlottes-Web.webp
+poster: 2024-Charlottes-Web.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Charlotte's Web' at Artist Connection Theatre
+poster_caption: Poster for 'Charlotte's Web' at Artist Connection Theatre
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 

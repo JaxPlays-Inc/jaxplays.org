@@ -17,7 +17,8 @@ showtimes:
   - 2025-05-17 20:00:00
   # - 2025-05-18 14:00:00
   - 2025-05-18 19:30:00
-featured_image: 2025-Waitress.webp
+poster: 2025-Waitress.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

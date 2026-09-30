@@ -12,9 +12,12 @@ showtimes:
   - 2026-10-02 19:00:00
   - 2026-10-03 19:00:00
   - 2026-10-04 14:00:00
-featured_image: 2026-The-Childrens-Hour.webp
-featured_image_alt: "Poster for The Children's Hour"
-featured_image_caption: "Poster for The Children's Hour"
+poster: 2026-The-Childrens-Hour.webp
+featured_image:
+poster_alt: "Poster for The Children's Hour"
+featured_image_alt:
+poster_caption: "Poster for The Children's Hour"
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

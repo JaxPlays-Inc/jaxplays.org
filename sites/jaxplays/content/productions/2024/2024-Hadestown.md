@@ -3,9 +3,11 @@ title: Hadestown
 date: 2024-02-06
 opening_date: 2024-02-06
 closing_date: 2024-02-11
-featured_image: 2024-Hadestown.webp
+poster: 2024-Hadestown.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Hadestown
+poster_caption: Poster for Hadestown
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
@@ -71,6 +73,5 @@ press:
   uri: https://www.youtube.com/watch?v=kdWQ12CItRs
   outlet: YouTube
   youtube_id: kdWQ12CItRs
-
 ---
 Hadestown transports audiences to a mythical world where two intertwining love stories unfold—Orpheus and Eurydice, and Hades and Persephone. This darkly poetic musical navigates love, sacrifice, and the human urge for something better on the other side. Get ready for a journey that's as ethereal as it is visceral. Don't miss the underworld's hottest ticket!

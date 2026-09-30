@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-08-27
 layout: productions
-featured_image: 2023_Murder_Ballad.webp
-featured_image_caption: Poster for 'Murder Ballad'
-featured_image_attr: Jonathan Scherf
+poster: 2023_Murder_Ballad.webp
+featured_image:
+poster_caption: Poster for 'Murder Ballad'
+featured_image_caption:
+poster_attr: Jonathan Scherf
+featured_image_attr:
 program: 2023_Murder_Ballad.pdf
 genres:
 - Musical

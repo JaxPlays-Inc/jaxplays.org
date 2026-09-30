@@ -12,7 +12,8 @@ showtimes:
   - 2023-10-27 19:30:00
   - 2023-10-28 19:30:00
   - 2023-10-29 14:00:00
-featured_image: 2023-Night-of-the-Living-Dead.webp
+poster: 2023-Night-of-the-Living-Dead.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

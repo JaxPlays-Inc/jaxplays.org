@@ -8,10 +8,12 @@ date: 2026-06-20T00:43:01-04:00
 opening_date: 2026-12-11
 closing_date: 2026-12-13
 showtimes:
-featured_image: 2025-The-Little-Toy-Shoppe-02.webp
+poster: 2025-The-Little-Toy-Shoppe-02.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

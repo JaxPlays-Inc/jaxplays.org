@@ -8,9 +8,12 @@ closing_date: 2024-08-25
 showtimes:
 - 2024-08-24 19:30:00
 - 2024-08-25 14:00:00
-featured_image: 2024-Mame-In-Concert.webp
-featured_image_alt: "Poster for 'Mame - The Broadway Musical in Concert!' featuring Linda Purl. The image shows a grand staircase with a portrait of Linda Purl centered at the top, overlaid with the blue, star-studded title 'MAME.' Details include the book by Jerome Lawrence and Robert E. Lee, music and lyrics by Jerry Herman, based on the novel by Patrick Dennis and the play 'Auntie Mame.' Directed by Jean Tait, with musical direction by Joey Chancey."
-featured_image_caption: "Don't miss Linda Purl in 'Mame - The Broadway Musical in Concert!' Experience this vibrant tale of life’s unexpected adventures, directed by Jean Tait and musically directed by Joey Chancey. Book by Jerome Lawrence and Robert E. Lee."
+poster: 2024-Mame-In-Concert.webp
+featured_image:
+poster_alt: "Poster for 'Mame - The Broadway Musical in Concert!' featuring Linda Purl. The image shows a grand staircase with a portrait of Linda Purl centered at the top, overlaid with the blue, star-studded title 'MAME.' Details include the book by Jerome Lawrence and Robert E. Lee, music and lyrics by Jerry Herman, based on the novel by Patrick Dennis and the play 'Auntie Mame.' Directed by Jean Tait, with musical direction by Joey Chancey."
+featured_image_alt:
+poster_caption: "Don't miss Linda Purl in 'Mame - The Broadway Musical in Concert!' Experience this vibrant tale of life’s unexpected adventures, directed by Jean Tait and musically directed by Joey Chancey. Book by Jerome Lawrence and Robert E. Lee."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

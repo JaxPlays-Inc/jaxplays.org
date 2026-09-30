@@ -15,9 +15,12 @@ showtimes:
 - 2024-08-01 12:00:00
 - 2024-08-03 12:00:00
 - 2024-08-03 19:00:00
-featured_image: 2024-The-SpongeBob-Musical.webp
-featured_image_alt: "Promotional poster for 'The SpongeBob Musical' with a vibrant title and pineapple under the sea motif."
-featured_image_caption: "Dive into 'The SpongeBob Musical' and discover the undersea wonders and adventures of Bikini Bottom."
+poster: 2024-The-SpongeBob-Musical.webp
+featured_image:
+poster_alt: "Promotional poster for 'The SpongeBob Musical' with a vibrant title and pineapple under the sea motif."
+featured_image_alt:
+poster_caption: "Dive into 'The SpongeBob Musical' and discover the undersea wonders and adventures of Bikini Bottom."
+featured_image_caption:
 program:
 website: 
 tickets: 

@@ -1,10 +1,14 @@
 ---
 title: Chitty Chitty Bang Bang
 date: 2024-06-28T17:36:10-04:00
-featured_image: Chitty-Chitty-Bang-Bang.webp
-featured_image_alt: "A fantastical flying car soars through the sky on a bright, cloud-filled day in the poster for 'Chitty Chitty Bang Bang'."
-featured_image_caption: "Take flight with the magical car in 'Chitty Chitty Bang Bang' and soar through a sky of adventure and whimsy in this beloved musical."
-featured_image_attr: "Music Theatre International (MTI)"
+poster: Chitty-Chitty-Bang-Bang.webp
+featured_image:
+poster_alt: "A fantastical flying car soars through the sky on a bright, cloud-filled day in the poster for 'Chitty Chitty Bang Bang'."
+featured_image_alt:
+poster_caption: "Take flight with the magical car in 'Chitty Chitty Bang Bang' and soar through a sky of adventure and whimsy in this beloved musical."
+featured_image_caption:
+poster_attr: "Music Theatre International (MTI)"
+featured_image_attr:
 show_details: 
 - Music: 
   - "[[w:Richard M. Sherman]]"

@@ -3,10 +3,13 @@ title: West Side Story
 date: 2026-06-21T13:13:40-04:00
 opening_date: 2023-07-14
 closing_date: 2023-08-06
-featured_image: 2023-West-Side-Story.webp
+poster: 2023-West-Side-Story.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for West Side Story
-featured_image_attr: Players by the Sea
+poster_caption: Poster for West Side Story
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link: 
 program:
 theatre: Players by the Sea

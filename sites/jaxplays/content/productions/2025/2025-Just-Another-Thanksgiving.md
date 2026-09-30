@@ -8,7 +8,8 @@ opening_date: 2025-12-14
 closing_date: 2025-12-14
 showtimes:
 - 2025-12-14T18:30:00-05:00
-featured_image: 2025-Just-Another-Thanksgiving.webp
+poster: 2025-Just-Another-Thanksgiving.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

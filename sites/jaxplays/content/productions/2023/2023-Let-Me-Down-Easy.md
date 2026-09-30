@@ -11,10 +11,13 @@ showtimes:
 - 2023-03-23 20:00:00
 - 2023-03-24 20:00:00
 - 2023-03-25 20:00:00
-featured_image: 2023-Let-Me-Down-Easy.webp
+poster: 2023-Let-Me-Down-Easy.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Let Me Down Easy
-featured_image_attr: Akers Design Co.
+poster_caption: Poster for Let Me Down Easy
+featured_image_caption:
+poster_attr: Akers Design Co.
+featured_image_attr:
 featured_image_attr_link: 
 program:
 genres: 

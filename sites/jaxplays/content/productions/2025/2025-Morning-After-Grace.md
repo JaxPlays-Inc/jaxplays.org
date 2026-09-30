@@ -7,9 +7,12 @@ opening_date: 2025-01-10
 closing_date: 2025-01-10
 showtimes:
   - 2025-01-10 19:30:00
-featured_image: 2025-Morning-After-Grace.webp
-featured_image_alt: "Poster for 'Morning After Grace' by Carey Crim, a staged reading at A Classic Theatre. The design is elegant with script in orange and white, detailing a story of love, loss and new possibilities. Scheduled for January 10, 2025."
-featured_image_caption: "'Morning After Grace,' an unconventional comedy about love and new beginnings, is at A Classic Theatre on January 10, 2025."
+poster: 2025-Morning-After-Grace.webp
+featured_image:
+poster_alt: "Poster for 'Morning After Grace' by Carey Crim, a staged reading at A Classic Theatre. The design is elegant with script in orange and white, detailing a story of love, loss and new possibilities. Scheduled for January 10, 2025."
+featured_image_alt:
+poster_caption: "'Morning After Grace,' an unconventional comedy about love and new beginnings, is at A Classic Theatre on January 10, 2025."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

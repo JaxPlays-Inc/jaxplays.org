@@ -14,9 +14,12 @@ showtimes:
 - 2024-10-04 19:30:00
 - 2024-10-05 19:30:00
 - 2024-10-06 15:00:00
-featured_image: 2024-Annie.webp
-featured_image_alt: "Poster for the musical 'Annie' showing a bold red logo over a silhouette of the New York City skyline, including iconic buildings and the Statue of Liberty."
-featured_image_caption: "Vibrant promotional poster for 'Annie,' featuring the musical’s title in large, red lettering set against a backdrop of the New York City skyline."
+poster: 2024-Annie.webp
+featured_image:
+poster_alt: "Poster for the musical 'Annie' showing a bold red logo over a silhouette of the New York City skyline, including iconic buildings and the Statue of Liberty."
+featured_image_alt:
+poster_caption: "Vibrant promotional poster for 'Annie,' featuring the musical’s title in large, red lettering set against a backdrop of the New York City skyline."
+featured_image_caption:
 program:
 website: 
 tickets: http://ezticketapp.com/?s=ez109021

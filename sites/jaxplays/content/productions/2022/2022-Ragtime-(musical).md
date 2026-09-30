@@ -7,10 +7,13 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2022-06-10
 closing_date: 2022-06-26
-featured_image: 2022_Ragtime.webp
-featured_image_attr: Theatre Jacksonville
+poster: 2022_Ragtime.webp
+featured_image:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 featured_image_alt:
-featured_image_caption: Graphic for Ragtime
+poster_caption: Graphic for Ragtime
+featured_image_caption:
 theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 website: https://www.theatrejax.com/season102

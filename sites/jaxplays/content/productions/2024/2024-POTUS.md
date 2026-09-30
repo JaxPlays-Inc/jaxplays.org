@@ -13,7 +13,8 @@ showtimes:
   - 2024-03-21 20:00:00
   - 2024-03-22 20:00:00
   - 2024-03-23 20:00:00
-featured_image: 2024-POTUS.webp
+poster: 2024-POTUS.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -7,7 +7,8 @@ date: 2026-06-04T02:15:00-04:00
 opening_date: 2026-03-09
 closing_date: 2026-03-09
 showtimes:
-featured_image: 2026-Pete-the-Cat.webp
+poster: 2026-Pete-the-Cat.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

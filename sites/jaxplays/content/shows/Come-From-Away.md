@@ -1,10 +1,14 @@
 ---
 title: Come From Away
 date: 2026-08-25T22:44:00-04:00
-featured_image: Come-From-Away.webp
-featured_image_alt: "Window card artwork for Come From Away, with a blue sky, clouds and a yellow road sign reading Come From Away."
-featured_image_caption: "Window card artwork for *Come From Away*."
-featured_image_attr: '<a href="https://i0.wp.com/rachelsreviews.net/wp-content/uploads/2021/09/CFA-WindowCard.png" title="Fair use of copyrighted material in the context of Come From Away">Fair use via Rachel''s Reviews image media</a>'
+poster: Come-From-Away.webp
+featured_image:
+poster_alt: "Window card artwork for Come From Away, with a blue sky, clouds and a yellow road sign reading Come From Away."
+featured_image_alt:
+poster_caption: "Window card artwork for *Come From Away*."
+featured_image_caption:
+poster_attr: '<a href="https://i0.wp.com/rachelsreviews.net/wp-content/uploads/2021/09/CFA-WindowCard.png" title="Fair use of copyrighted material in the context of Come From Away">Fair use via Rachel''s Reviews image media</a>'
+featured_image_attr:
 show_details:
   - Book, Music, and Lyrics:
       - "[[w:Irene Sankoff]]"

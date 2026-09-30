@@ -15,9 +15,12 @@ showtimes:
   - 2024-09-27 19:30:00
   - 2024-09-28 19:30:00
   - 2024-09-29 14:00:00
-featured_image: 2024-Driving-Miss-Daisy.webp
-featured_image_alt: "Promotional poster for Theatre Jacksonville's production of 'Driving Miss Daisy' by Alfred Uhry, featuring a vintage black car parked under a sunlit, tree-lined road. The title is elegantly scripted across the top. The image sets a serene and classic tone for the play, reflecting its historical and emotional depth, running from September 13-29, 2024."
-featured_image_caption: "Experience the timeless charm of 'Driving Miss Daisy' at Theatre Jacksonville, running from September 13-29, 2024. Don’t miss this poignant story brought to life on stage!"
+poster: 2024-Driving-Miss-Daisy.webp
+featured_image:
+poster_alt: "Promotional poster for Theatre Jacksonville's production of 'Driving Miss Daisy' by Alfred Uhry, featuring a vintage black car parked under a sunlit, tree-lined road. The title is elegantly scripted across the top. The image sets a serene and classic tone for the play, reflecting its historical and emotional depth, running from September 13-29, 2024."
+featured_image_alt:
+poster_caption: "Experience the timeless charm of 'Driving Miss Daisy' at Theatre Jacksonville, running from September 13-29, 2024. Don’t miss this poignant story brought to life on stage!"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-Driving-Miss-Daisy.pdf

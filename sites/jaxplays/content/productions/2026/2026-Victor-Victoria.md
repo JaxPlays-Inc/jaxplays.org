@@ -1,7 +1,8 @@
 ---
 title: Victor/Victoria
 date: '2026-07-12T20:24:37-04:00'
-featured_image: 2026-Victor-Victoria.webp
+poster: 2026-Victor-Victoria.webp
+featured_image:
 featured_image_attr:
 featured_image_attr_link:
 featured_image_alt:

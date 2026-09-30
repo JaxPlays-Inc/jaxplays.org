@@ -18,9 +18,11 @@ showtimes:
 - 2024-07-27 14:00:00
 - 2024-07-27 20:00:00
 - 2024-07-28 14:00:00
-featured_image: 2024-Tarzan.webp
+poster: 2024-Tarzan.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Tarzan'
+poster_caption: Poster for 'Tarzan'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

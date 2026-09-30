@@ -20,11 +20,15 @@ showtimes:
     venue: The Waterworks
   - datetime: 2026-05-24 14:00:00
     venue: Howard Gilman Waterfront Park
-featured_image: 2026-Much-Ado-About-Nothing.webp
-featured_image_alt: Promotional artwork for All the Devils Shakespeare's 2026 production of Much Ado About Nothing.
+poster: 2026-Much-Ado-About-Nothing.webp
+featured_image:
+poster_alt: Promotional artwork for All the Devils Shakespeare's 2026 production of Much Ado About Nothing.
+featured_image_alt:
 featured_image_caption:
-featured_image_attr: All the Devils Shakespeare
-featured_image_attr_link: https://www.zeffy.com/en-US/ticketing/much-ado-about-nothing--2026
+poster_attr: All the Devils Shakespeare
+featured_image_attr:
+poster_attr_link: https://www.zeffy.com/en-US/ticketing/much-ado-about-nothing--2026
+featured_image_attr_link:
 program:
 website: https://devilsshakes.com
 tickets: https://www.zeffy.com/en-US/ticketing/much-ado-about-nothing--2026

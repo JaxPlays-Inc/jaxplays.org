@@ -24,9 +24,11 @@ showtimes:
 - 2023-12-21 11:00:00
 - 2023-12-21 17:30:00
 - 2023-12-22 17:30:00
-featured_image: 2023-Holiday-Inn.webp
+poster: 2023-Holiday-Inn.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for Holiday Inn
+poster_caption: Graphic for Holiday Inn
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

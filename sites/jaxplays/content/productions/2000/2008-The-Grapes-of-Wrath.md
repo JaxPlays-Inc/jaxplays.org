@@ -11,9 +11,12 @@ showtimes:
 - 2008-02-22 19:30:00
 - 2008-02-23 19:30:00
 - 2008-02-24 14:30:00
-featured_image: 2008-The-Grapes-of-Wrath.webp
-featured_image_alt: Poster for The Grapes of Wrath
-featured_image_caption: Poster for The Grapes of Wrath
+poster: 2008-The-Grapes-of-Wrath.webp
+featured_image:
+poster_alt: Poster for The Grapes of Wrath
+featured_image_alt:
+poster_caption: Poster for The Grapes of Wrath
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

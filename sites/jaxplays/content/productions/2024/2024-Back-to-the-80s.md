@@ -17,9 +17,11 @@ showtimes:
 - 2024-02-15 19:30:00
 - 2024-02-16 19:30:00
 - 2024-02-17 19:30:00
-featured_image: 2024-Back-to-the-80s.webp
+poster: 2024-Back-to-the-80s.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Back to the 80s
+poster_caption: Poster for Back to the 80s
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

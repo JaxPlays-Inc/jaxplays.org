@@ -51,10 +51,13 @@ showtimes:
 - 2023-11-04 17:30:00
 - 2023-11-05 12:00:00
 - 2023-11-05 17:30:00
-featured_image: 2023-Legally-Blonde.webp
+poster: 2023-Legally-Blonde.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for Legally Blonde
-featured_image_attr: Alhambra Theatre & Dining
+poster_caption: Graphic for Legally Blonde
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

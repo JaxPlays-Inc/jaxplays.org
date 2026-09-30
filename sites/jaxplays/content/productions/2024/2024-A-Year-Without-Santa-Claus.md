@@ -15,9 +15,12 @@ showtimes:
 - 2024-12-21 12:00:00
 - 2024-12-23 12:00:00
 - 2024-12-24 12:00:00
-featured_image: 2024-A-Year-Without-Santa-Claus.webp
-featured_image_alt: "Promotional poster for 'The Year Without a Santa Claus' featuring Santa Claus and a reindeer in a whimsical sleigh ride across a snowy backdrop."
-featured_image_caption: "Rediscover the charm of 'The Year Without a Santa Claus', a delightful journey that wonders what Christmas would be like if Santa took a holiday."
+poster: 2024-A-Year-Without-Santa-Claus.webp
+featured_image:
+poster_alt: "Promotional poster for 'The Year Without a Santa Claus' featuring Santa Claus and a reindeer in a whimsical sleigh ride across a snowy backdrop."
+featured_image_alt:
+poster_caption: "Rediscover the charm of 'The Year Without a Santa Claus', a delightful journey that wonders what Christmas would be like if Santa took a holiday."
+featured_image_caption:
 program:
 website: 
 tickets: 
