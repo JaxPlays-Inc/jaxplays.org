@@ -41,15 +41,15 @@
 {{ if not $description }}
   {{ $description = $show.Summary }}
 {{ end }}
-{{ $poster := $show.Params.featured_image }}
-{{ $posterAlt := $show.Params.featured_image_alt | default (printf "%s artwork" $show.Title) }}
+{{ $poster := partial "func/GetPosterImage.html" $show }}
+{{ $posterMeta := partial "func/GetPosterImageMeta.html" $show }}
+{{ $posterAlt := $posterMeta.alt | default (printf "%s artwork" $show.Title) }}
+{{ $posterCaption := $posterMeta.caption }}
+{{ $posterAttr := $posterMeta.attr }}
+{{ $posterAttrLink := $posterMeta.attr_link }}
 {{ $posterPath := "/media/default/production_poster.webp" }}
 {{ if $poster }}
-  {{ if or (hasPrefix $poster "http://") (hasPrefix $poster "https://") (hasPrefix $poster "//") (hasPrefix $poster "/") }}
-    {{ $posterPath = $poster }}
-  {{ else }}
-    {{ $posterPath = printf "/media/posters/%s" $poster }}
-  {{ end }}
+  {{ $posterPath = $poster }}
 {{ end }}
 <div class="flex-l mt0 mw8 center">
   <article class="production-single show-single relative center cf pv3 ph3 ph4-ns mw8 w-100">
@@ -57,7 +57,7 @@
       {{ if $poster }}
         <div class="production-hero-poster">
           <a href="{{ $posterPath }}" data-lightbox="gallery"
-            data-title="{{ with $show.Params.featured_image_caption }}{{ . | markdownify }}{{ end }}{{ if $show.Params.featured_image_attr }}{{ with $show.Params.featured_image_attr_link }} | (📷 <a href='{{ . }}' target='_blank'>{{ $show.Params.featured_image_attr }}</a>){{ else }} | (📷 {{ $show.Params.featured_image_attr }}){{ end }}{{ end }}">
+            data-title="{{ with $posterCaption }}{{ . | markdownify }}{{ end }}{{ if $posterAttr }}{{ with $posterAttrLink }} | (📷 <a href='{{ . }}' target='_blank'>{{ $posterAttr }}</a>){{ else }} | (📷 {{ $posterAttr }}){{ end }}{{ end }}">
             <img src="{{ $posterPath }}" alt="{{ $posterAlt }}" />
           </a>
         </div>

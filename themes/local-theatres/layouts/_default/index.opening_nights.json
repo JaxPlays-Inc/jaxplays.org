@@ -4,6 +4,7 @@
   {{- $theatre := .Params.theatre -}}
   {{- $title := print $theatre " - " $title -}}
   {{- $featuredImage := .Params.featured_image -}}
+  {{- $posterImage := partial "func/GetPosterImage.html" . -}}
   {{- $url := .RelPermalink -}}
   
   {{- /* Initialize default color */ -}}
@@ -25,7 +26,7 @@
         {{- $firstShowtimeDateTime = index $firstShowtime "datetime" -}}
         {{- $firstShowtimeVenue = index $firstShowtime "venue" | default "" -}}
       {{- end -}}
-      {{- $event := dict "title" $title "start" $firstShowtimeDateTime "theatre" $theatre "url" $url "color" $color "featured_image" $featuredImage -}}
+      {{- $event := dict "title" $title "start" $firstShowtimeDateTime "theatre" $theatre "url" $url "color" $color "featured_image" $featuredImage "poster_image" $posterImage -}}
       {{- with $firstShowtimeVenue -}}
         {{- $event = merge $event (dict "venue" .) -}}
       {{- end -}}

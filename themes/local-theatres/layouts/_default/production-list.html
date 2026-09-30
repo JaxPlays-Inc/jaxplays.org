@@ -9,13 +9,13 @@
 {{ range where .Site.Pages "Type" "shows" }}
 {{ if eq .Title $.Title }}
 {{ if .Params.featured_image }}
-{{ $featuredImage = printf "/media/posters/%s" .Params.featured_image }}
+{{ $featuredImage = partial "func/GetFeaturedImage.html" . }}
 {{ $featuredImageAlt := .Params.featured_image_alt }}
 {{ end }}
 {{ end }}
 {{ end }}
 {{ else }}
-{{ $featuredImage = printf "/media/posters/%s" $featuredImage }}
+{{/* GetFeaturedImage already returns the correct media path. */}}
 {{ end }}
 
 {{ $contentLength := len .Content }}

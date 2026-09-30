@@ -36,16 +36,9 @@
           {{ else }}
           <!-- Left Section -->
           <div class="w-25 w-10-l">
-            {{ $featuredImage := $production.Params.featured_image }}
-            {{ if not $featuredImage }}
-              {{ $title := replace $production.Title "è" "e" }}
-              {{ with (site.GetPage "page" (printf "/shows/%s" ($title | urlize))) }}
-                {{ $featuredImage = .Params.featured_image }}
-              {{ end }}
-            {{ end }}
             {{ $imagePath := "/media/default/production_poster.webp" }}
-            {{ if $featuredImage }}
-              {{ $imagePath = printf "/media/posters/%s" $featuredImage }}
+            {{ with partial "func/GetPosterImage.html" $production }}
+              {{ $imagePath = . }}
             {{ end }}
             <a href="{{ $production.RelPermalink }}">
               <img src="{{ $imagePath }}" alt="{{ $production.Title }}" class="w-100" />

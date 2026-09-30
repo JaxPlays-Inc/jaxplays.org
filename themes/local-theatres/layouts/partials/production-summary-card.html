@@ -46,24 +46,11 @@
 {{ else }}
 {{ $page := .page }}
 {{ $status := .status }}
-{{ $poster := $page.Params.featured_image }}
-{{ $posterAlt := $page.Params.featured_image_alt | default (printf "%s poster" $page.Title) }}
-
-{{ if not $poster }}
-  {{ $title := replace $page.Title "è" "e" }}
-  {{ with (site.GetPage "page" (printf "/shows/%s" ($title | urlize))) }}
-    {{ $poster = .Params.featured_image }}
-    {{ with .Params.featured_image_alt }}{{ $posterAlt = . }}{{ end }}
-  {{ end }}
-{{ end }}
-
+{{ $posterMeta := partial "func/GetPosterImageMeta.html" $page }}
+{{ $posterAlt := $posterMeta.alt | default (printf "%s poster" $page.Title) }}
 {{ $posterPath := "/media/default/production_poster.webp" }}
-{{ if $poster }}
-  {{ if or (hasPrefix $poster "http://") (hasPrefix $poster "https://") (hasPrefix $poster "//") (hasPrefix $poster "/") }}
-    {{ $posterPath = $poster }}
-  {{ else }}
-    {{ $posterPath = printf "/media/posters/%s" $poster }}
-  {{ end }}
+{{ with partial "func/GetPosterImage.html" $page }}
+  {{ $posterPath = . }}
 {{ end }}
 
 {{ $venues := $page.Params.venue }}

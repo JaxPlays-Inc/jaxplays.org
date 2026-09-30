@@ -103,15 +103,12 @@
           {{ if eq (printf "%T" $genres) "string" }}
             {{ $genres = slice $genres }}
           {{ end }}
-          {{ $poster := $show.Params.featured_image }}
-          {{ $posterAlt := $show.Params.featured_image_alt | default (printf "%s artwork" $show.Title) }}
+          {{ $poster := partial "func/GetPosterImage.html" $show }}
+          {{ $posterMeta := partial "func/GetPosterImageMeta.html" $show }}
+          {{ $posterAlt := $posterMeta.alt | default (printf "%s artwork" $show.Title) }}
           {{ $posterPath := "/media/default/production_poster.webp" }}
           {{ if $poster }}
-            {{ if or (hasPrefix $poster "http://") (hasPrefix $poster "https://") (hasPrefix $poster "//") (hasPrefix $poster "/") }}
-              {{ $posterPath = $poster }}
-            {{ else }}
-              {{ $posterPath = printf "/media/posters/%s" $poster }}
-            {{ end }}
+            {{ $posterPath = $poster }}
           {{ end }}
           {{ $summary := $show.Params.description | default $show.Summary }}
           {{ $searchParts := slice $show.Title (printf "%d productions" $productionCount) }}

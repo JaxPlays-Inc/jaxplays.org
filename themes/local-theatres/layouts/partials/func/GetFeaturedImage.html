@@ -30,7 +30,7 @@
     {{- if or (hasPrefix $val "http://") (hasPrefix $val "https://") (hasPrefix $val "//") -}}
       {{- $link = $val -}}
     {{- else if and (not (hasPrefix $val "/")) (or (eq $.Type "productions") (eq $.Type "shows") (eq $.Section "productions") (eq $.Section "shows")) -}}
-      {{- $link = printf "/media/posters/%s" $val | relURL -}}
+      {{- $link = printf "/media/featured_images/%s" $val | relURL -}}
     {{- else if and (not (hasPrefix $val "/")) (or (eq $.Section "authors") (eq $.Section "people")) -}}
       {{- $link = printf "/media/headshots/%s" $val | relURL -}}
     {{- else -}}

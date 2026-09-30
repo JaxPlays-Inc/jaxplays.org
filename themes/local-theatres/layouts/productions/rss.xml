@@ -99,7 +99,7 @@
           {{- partial "content-wikilinks" $content | transform.XMLEscape | safeHTML -}}
         </content>
         {{ if $featuredImage }}
-        <enclosure url="{{ absURL "/media/posters/" }}{{ $featuredImage }}" type="image/jpeg"/>
+        <enclosure url="{{ absURL "/media/featured_images/" }}{{ $featuredImage }}" type="image/jpeg"/>
         {{ end }}
       </item>
     {{- end }}

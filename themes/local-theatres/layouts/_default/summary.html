@@ -6,11 +6,7 @@
   <div class="bg-white pa4 gray overflow-hidden">
 
     {{ if $featuredImage }}
-    {{ if $isProductionOrShow }}
-      {{ $featuredImage = printf "/media/posters/%s" $featuredImage }}  <!-- Prepend path for productions or shows -->
-    {{ else }}
-      {{/*  {{ $featuredImage = printf "/%s" $featuredImage }}  */}}
-    {{ end }}
+    {{/* GetFeaturedImage already returns the correct media path. */}}
     {{ $featuredImageAlt := .Params.featured_image_alt }}
     <a href="{{ .RelPermalink }}"><img src="{{ $featuredImage }}" alt="{{ .Title }} logo"></a>
     {{ end }}
