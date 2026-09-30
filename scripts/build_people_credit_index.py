@@ -350,8 +350,10 @@ def show_card_data(shows_dir: Path) -> dict[str, dict[str, Any]]:
             "description": data.get("description") or "",
             "summary": truncate_text(plain_text(data.get("description") or body)),
             "genres": normalize_list(data.get("genres")),
-            "featured_image": data.get("poster") or data.get("featured_image") or "",
-            "featured_image_alt": data.get("poster_alt") or data.get("featured_image_alt") or "",
+            "poster": data.get("poster") or "",
+            "poster_alt": data.get("poster_alt") or "",
+            "featured_image": data.get("featured_image") or "",
+            "featured_image_alt": data.get("featured_image_alt") or "",
         }
 
     return shows
@@ -420,15 +422,20 @@ def production_card_entry(
     show = shows.get(normalize_name(title), {})
     opening_date = json_safe(data.get("opening_date")) or ""
     closing_date = json_safe(data.get("closing_date")) or opening_date
-    featured_image = (
-        data.get("poster") or data.get("featured_image") or show.get("featured_image") or ""
-    )
+    explicit_poster = data.get("poster") or show.get("poster") or ""
+    explicit_featured_image = data.get("featured_image") or show.get("featured_image") or ""
+    poster_image = explicit_poster or explicit_featured_image
+    featured_image = ""
+    if explicit_poster and explicit_featured_image and explicit_featured_image != explicit_poster:
+        featured_image = explicit_featured_image
     poster_alt = (
         data.get("poster_alt")
+        or show.get("poster_alt")
         or data.get("featured_image_alt")
         or show.get("featured_image_alt")
         or f"{title} poster"
     )
+    featured_image_alt = data.get("featured_image_alt") or show.get("featured_image_alt") or ""
     venues = normalize_list(data.get("venue"))
     theatre = str(data.get("theatre") or "")
     normalized_theatre = plain_text(theatre).lower().strip()
@@ -453,11 +460,11 @@ def production_card_entry(
         summary,
     ]
 
-    return {
+    card = {
         "title": title,
         "url": content_permalink("productions", path, data),
         "contentPath": content_page_path(path),
-        "poster": poster_path(featured_image),
+        "poster": poster_path(poster_image),
         "posterAlt": str(poster_alt),
         "openingDate": opening_date,
         "closingDate": closing_date,
@@ -473,6 +480,11 @@ def production_card_entry(
         "tickets": data.get("tickets") or "",
         "searchBase": " ".join(part for part in search_parts if part).lower(),
     }
+    if featured_image:
+        card["featuredImage"] = poster_path(featured_image)
+        card["featuredImageAlt"] = str(featured_image_alt)
+
+    return card
 
 
 def production_cards(productions_dir: Path, shows: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
