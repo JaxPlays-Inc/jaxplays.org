@@ -43,12 +43,13 @@
   {{- end -}}
 
 {{- else -}}
-  {{- if or (eq .Type "productions") (eq .Type "shows") (eq .Section "productions") (eq .Section "shows") -}}
+  {{- $isProductionOrShow := or (eq .Type "productions") (eq .Type "shows") (eq .Section "productions") (eq .Section "shows") -}}
+  {{- if $isProductionOrShow -}}
     {{- with partial "func/GetPosterImage.html" . -}}
       {{- $link = . -}}
     {{- end -}}
   {{- end -}}
-  {{- if not $link -}}
+  {{- if and (not $link) (not $isProductionOrShow) -}}
     {{- /* Fallback: first image with feature/cover in name from bundle */ -}}
     {{- with .Resources.ByType "image" -}}
       {{- with .GetMatch (printf "**{%s}*" $matches) -}}
