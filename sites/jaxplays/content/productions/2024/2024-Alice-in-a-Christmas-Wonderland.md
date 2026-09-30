@@ -12,10 +12,12 @@ showtimes:
   - 2024-12-14 14:00:00
   - 2024-12-14 18:30:00
   - 2024-12-15 12:00:00
-featured_image: 2024-Alice-in-a-Christmas-Wonderland.webp
+poster: 2024-Alice-in-a-Christmas-Wonderland.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.ameliaisland.com/dickens-on-centre/

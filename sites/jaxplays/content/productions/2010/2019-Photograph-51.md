@@ -6,7 +6,8 @@ opening_date: 2019-01-25
 closing_date: 2019-01-26
 genres: 
 - Play
-featured_image: 2019-Photograph-51.webp
+poster: 2019-Photograph-51.webp
+featured_image:
 program:
 theatre: Actors Collective
 venue: Museum of Science & History

@@ -12,9 +12,12 @@ showtimes:
   - 2025-03-14 19:30:00
   - 2025-03-15 16:00:00
   - 2025-03-16 14:00:00
-featured_image: 2025-Good-People.webp
-featured_image_alt: "Poster for 'Good People' by David Lindsay-Abaire, directed by Cindy Alexander. It features the title in purple and green with arrows pointing up and down, set against a white background. This powerful and funny play about the struggles of just getting by runs from March 7-16, 2025, at A Classic Theatre."
-featured_image_caption: "'Good People,' a powerful and humorously sharp look at the struggles of everyday life, is showing from March 7-16, 2025 at A Classic Theatre."
+poster: 2025-Good-People.webp
+featured_image:
+poster_alt: "Poster for 'Good People' by David Lindsay-Abaire, directed by Cindy Alexander. It features the title in purple and green with arrows pointing up and down, set against a white background. This powerful and funny play about the struggles of just getting by runs from March 7-16, 2025, at A Classic Theatre."
+featured_image_alt:
+poster_caption: "'Good People,' a powerful and humorously sharp look at the struggles of everyday life, is showing from March 7-16, 2025 at A Classic Theatre."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

@@ -3,9 +3,11 @@ title: Into the Woods
 date: 2023-09-08T00:00:00
 opening_date: 2018-11-01
 closing_date: 2018-11-04
-featured_image: 2018-Into-the-Woods.webp
+poster: 2018-Into-the-Woods.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Playbill cover for Into the Woods
+poster_caption: Playbill cover for Into the Woods
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: https://www.playbillder.com/show/vip/Jacksonville_University/2018/Into_the_Woods_50896

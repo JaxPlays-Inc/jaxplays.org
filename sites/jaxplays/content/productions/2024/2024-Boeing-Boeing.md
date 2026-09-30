@@ -36,10 +36,14 @@ showtimes:
   - 2024-06-15 18:00:00
   - 2024-06-16 12:00:00
   - 2024-06-16 18:00:00
-featured_image: 2024-Boeing-Boeing.webp
-featured_image_alt: Poster for Boeing Boeing
-featured_image_caption: Poster for 'Boeing Boeing'
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2024-Boeing-Boeing.webp
+featured_image:
+poster_alt: Poster for Boeing Boeing
+featured_image_alt:
+poster_caption: Poster for 'Boeing Boeing'
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

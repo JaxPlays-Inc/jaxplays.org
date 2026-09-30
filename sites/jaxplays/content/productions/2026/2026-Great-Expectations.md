@@ -13,7 +13,8 @@ showtimes:
   - 2026-02-13 19:30:00
   - 2026-02-14 19:30:00
   - 2026-02-15 14:00:00
-featured_image: 2026-Great-Expectations.webp?v=072823
+poster: 2026-Great-Expectations.webp?v=072823
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

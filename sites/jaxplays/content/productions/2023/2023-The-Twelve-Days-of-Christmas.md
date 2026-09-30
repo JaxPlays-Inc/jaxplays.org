@@ -9,10 +9,14 @@ showtimes:
   - 2023-12-02 14:00:00
   - 2023-12-02 19:00:00
   - 2023-12-03 15:00:00
-featured_image: 2023-The-Twelve-Days-of-Christmas.webp
-featured_image_alt: The Twelve Days of Christmas poster
-featured_image_caption: Poster for "The Twelve Days of Christmas"
-featured_image_attr: The Dramatic Publishing Company
+poster: 2023-The-Twelve-Days-of-Christmas.webp
+featured_image:
+poster_alt: The Twelve Days of Christmas poster
+featured_image_alt:
+poster_caption: Poster for "The Twelve Days of Christmas"
+featured_image_caption:
+poster_attr: The Dramatic Publishing Company
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://actiiplayers.org/12-days-of-christmas

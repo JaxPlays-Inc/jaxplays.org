@@ -4,9 +4,12 @@ date: 2024-01-12
 opening_date: 2024-01-12
 closing_date: 2024-01-28
 layout: productions
-featured_image: 2024_On_the_Market.webp
-featured_image_caption: Poster for On the Market
-featured_image_attr: Theatre Jacksonville
+poster: 2024_On_the_Market.webp
+featured_image:
+poster_caption: Poster for On the Market
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program:
 genres:
 - Play
@@ -38,6 +41,5 @@ reviews:
   outlet: Folio Weekly
   description: ''
   featured_image: ''
-
 ---
 *On the Market* captivates its audience with the story of Charlotte, a middle-aged singer-turned-realtor navigating the turbulent waters of modern dating after the loss of her husband. When a mysterious note from her late husband urges her to move on, she finds herself torn between her past and the uncertainty of a new beginning. Brimming with authentic emotion, unexpected humor, and an ensemble that morphs into multiple characters, this one-act play by Jason Odell Williams is an evocative portrayal of love, loss, and the unquenchable human spirit. 

@@ -9,10 +9,14 @@ showtimes:
 - 2015-12-04 19:00:00
 - 2015-12-05 14:00:00
 - 2015-12-06 14:00:00
-featured_image: 2015_Circle_Mirror_Transformation.webp
-featured_image_alt: Photograph of the cast of 'Circle Mirror Transformation' with Chul Hyun Ahn's 'Tunnel' (left to right) Katherine Herndon, David Gile, Katie McCloskey, Jason Collins, Barbara Colaciello
-featured_image_caption: Photograph of the cast of 'Circle Mirror Transformation' with Chul Hyun Ahn's 'Tunnel' (left to right) Katherine Herndon, David Gile, Katie McCloskey, Jason Collins, Barbara Colaciello
-featured_image_attr: Thomas Hager
+poster: 2015_Circle_Mirror_Transformation.webp
+featured_image:
+poster_alt: Photograph of the cast of 'Circle Mirror Transformation' with Chul Hyun Ahn's 'Tunnel' (left to right) Katherine Herndon, David Gile, Katie McCloskey, Jason Collins, Barbara Colaciello
+featured_image_alt:
+poster_caption: Photograph of the cast of 'Circle Mirror Transformation' with Chul Hyun Ahn's 'Tunnel' (left to right) Katherine Herndon, David Gile, Katie McCloskey, Jason Collins, Barbara Colaciello
+featured_image_caption:
+poster_attr: Thomas Hager
+featured_image_attr:
 featured_image_attr_link: 
 description: "*Circle Mirror Transformation* is a riveting ensemble drama set in a Vermont community class. Using theater games as a lens, it uncovers the raw, complex layers of human emotion and connection, blending humor and heartbreak in a compelling narrative."
 program:

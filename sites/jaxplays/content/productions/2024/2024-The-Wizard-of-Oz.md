@@ -10,9 +10,12 @@ showtimes:
 - 2024-08-09 19:00:00
 - 2024-08-10 13:00:00
 - 2024-08-10 19:00:00
-featured_image: 2024-The-Wizard-of-Oz.webp
-featured_image_alt: "Colorful poster for 'The Wizard of Oz' by Greenlight Theatre Company, featuring a bright and cheerful illustration of the Yellow Brick Road and Emerald City. The design includes whimsical elements like flowers and clouds, evoking the magical journey from the classic novel by L. Frank Baum."
-featured_image_caption: "Step into the magical world of 'The Wizard of Oz' with performances by Greenlight Theatre Company at NFSSE from August 9-10, 2024. Join us for a journey down the Yellow Brick Road in this timeless tale."
+poster: 2024-The-Wizard-of-Oz.webp
+featured_image:
+poster_alt: "Colorful poster for 'The Wizard of Oz' by Greenlight Theatre Company, featuring a bright and cheerful illustration of the Yellow Brick Road and Emerald City. The design includes whimsical elements like flowers and clouds, evoking the magical journey from the classic novel by L. Frank Baum."
+featured_image_alt:
+poster_caption: "Step into the magical world of 'The Wizard of Oz' with performances by Greenlight Theatre Company at NFSSE from August 9-10, 2024. Join us for a journey down the Yellow Brick Road in this timeless tale."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

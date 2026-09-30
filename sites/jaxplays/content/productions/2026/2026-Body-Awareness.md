@@ -14,9 +14,12 @@ showtimes:
   - 2026-04-16 20:00:00
   - 2026-04-17 20:00:00
   - 2026-04-18 20:00:00
-featured_image: 2026-Body-Awareness.webp
-featured_image_alt: Poster for The 5 & Dime's production of Body Awareness
-featured_image_caption: Poster for Body Awareness
+poster: 2026-Body-Awareness.webp
+featured_image:
+poster_alt: Poster for The 5 & Dime's production of Body Awareness
+featured_image_alt:
+poster_caption: Poster for Body Awareness
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2026-Body-Awareness.pdf

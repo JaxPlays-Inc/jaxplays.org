@@ -13,9 +13,11 @@ showtimes:
   - 2024-12-07 20:00:00
   - 2024-12-08 13:00:00
   - 2024-12-08 18:30:00
-featured_image: 2024-Aint-Too-Proud.webp
+poster: 2024-Aint-Too-Proud.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for 'Ain't Too Proud'"
+poster_caption: "Graphic for 'Ain't Too Proud'"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

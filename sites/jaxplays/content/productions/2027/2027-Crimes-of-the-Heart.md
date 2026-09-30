@@ -17,7 +17,8 @@ showtimes:
   - 2027-03-12 19:30:00
   - 2027-03-13 14:00:00
   - 2027-03-14 14:00:00
-featured_image: 2027-Crimes-of-the-Heart.webp
+poster: 2027-Crimes-of-the-Heart.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -11,10 +11,14 @@ showtimes:
 - 2026-06-26 19:00:00
 - 2026-06-27 19:00:00
 - 2026-06-28 14:00:00
-featured_image: 2026-Always-a-Bridesmaid.webp
-featured_image_alt: "Pink St. Marys Little Theatre poster for Always a Bridesmaid, featuring a white line-art wedding gown with floral details and the June 25-28, 2026 performance dates."
-featured_image_caption: "St. Marys Little Theatre invites audiences down the aisle for Always a Bridesmaid, a Southern comedy about friendship, weddings and the vows that last longer than the bouquet toss."
-featured_image_attr: St. Marys Little Theatre
+poster: 2026-Always-a-Bridesmaid.webp
+featured_image:
+poster_alt: "Pink St. Marys Little Theatre poster for Always a Bridesmaid, featuring a white line-art wedding gown with floral details and the June 25-28, 2026 performance dates."
+featured_image_alt:
+poster_caption: "St. Marys Little Theatre invites audiences down the aisle for Always a Bridesmaid, a Southern comedy about friendship, weddings and the vows that last longer than the bouquet toss."
+featured_image_caption:
+poster_attr: St. Marys Little Theatre
+featured_image_attr:
 featured_image_attr_link:
 photos:
 - photo: 2026-Always-a-Bridesmaid-01.webp

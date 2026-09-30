@@ -10,11 +10,14 @@ showtimes:
 - 2015-12-17 19:30:00
 - 2015-12-18 19:30:00
 - 2015-12-19 19:30:00
-featured_image: 2015-St-George-and-the-Dragon.webp
+poster: 2015-St-George-and-the-Dragon.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Caryl Butterley
-featured_image_attr_link: /people/Caryl-Butterley/
+poster_attr: Caryl Butterley
+featured_image_attr:
+poster_attr_link: /people/Caryl-Butterley/
+featured_image_attr_link:
 program:
 website: https://web.archive.org/web/20160110000923/http://www.comefaceyourdragons.com/
 tickets: 

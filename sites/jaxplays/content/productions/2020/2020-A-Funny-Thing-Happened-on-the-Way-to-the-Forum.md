@@ -7,7 +7,8 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2020-01-24
 closing_date: 2020-02-15
-featured_image: 2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum.webp
+poster: 2020_A_Funny_Thing_Happened_on_the_Way_to_the_Forum.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
@@ -76,7 +77,6 @@ reviews:
   outlet: IwantaBuzz
   description: ''
   featured_image: ''
-
 ---
 "Broadway’s greatest musical farce takes us back to Ancient Rome for a unique and unforgettable production. Pseudolus, a devious slave, makes a deal to win his freedom by playing matchmaker for his lovesick master, Hero. Rife with pompous generals, domineering parents, and wiley courtesans, this hilarious Tony-winning musical is a non-stop laugh-fest with “something for everyone!" — [A FUNNY THING HAPPENED ON THE WAY TO THE FORUM - Players by the Sea](https://www.playersbythesea.org/forum)
 

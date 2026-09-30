@@ -12,7 +12,8 @@ showtimes:
   - 2026-05-01 19:30:00
   - 2026-05-02 19:30:00
   - 2026-05-03 15:00:00
-featured_image: 2026-Line-All-in-the-Timing.webp
+poster: 2026-Line-All-in-the-Timing.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

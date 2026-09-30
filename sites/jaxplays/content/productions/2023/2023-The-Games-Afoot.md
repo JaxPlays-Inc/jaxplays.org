@@ -12,9 +12,12 @@ showtimes:
 - 2023-10-21 19:30:00
 - 2023-10-22 14:00:00
 - 2023-10-22 19:30:00
-featured_image: 2023-The-Games-Afoot.webp
-featured_image_alt: Phoster of The Game's Afoot
-featured_image_caption: Poster for The Game's Afoot
+poster: 2023-The-Games-Afoot.webp
+featured_image:
+poster_alt: Phoster of The Game's Afoot
+featured_image_alt:
+poster_caption: Poster for The Game's Afoot
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

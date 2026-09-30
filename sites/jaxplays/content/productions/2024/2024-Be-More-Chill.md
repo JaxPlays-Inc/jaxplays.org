@@ -11,9 +11,12 @@ showtimes:
 - 2024-04-27 19:00:00
 - 2024-04-28 13:00:00
 - 2024-04-28 19:00:00
-featured_image: 2024-Be-More-Chill.webp
-featured_image_alt: "Poster for 'Be More Chill' by Greenlight Theatre Company, showcasing a visually striking digital glitch art background with vibrant, neon colors forming the title. This modern aesthetic fits the theme of the musical, which intertwines technology and personal discovery."
-featured_image_caption: "Catch 'Be More Chill' at Greenlight Theatre Company from April 26-28, 2024. Experience a unique blend of technology, emotion and music in this popular musical."
+poster: 2024-Be-More-Chill.webp
+featured_image:
+poster_alt: "Poster for 'Be More Chill' by Greenlight Theatre Company, showcasing a visually striking digital glitch art background with vibrant, neon colors forming the title. This modern aesthetic fits the theme of the musical, which intertwines technology and personal discovery."
+featured_image_alt:
+poster_caption: "Catch 'Be More Chill' at Greenlight Theatre Company from April 26-28, 2024. Experience a unique blend of technology, emotion and music in this popular musical."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

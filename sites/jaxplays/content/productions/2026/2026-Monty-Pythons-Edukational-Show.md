@@ -12,7 +12,8 @@ showtimes:
   - 2026-07-09 19:30:00
   - 2026-07-10 19:30:00
   - 2026-07-11 19:30:00
-featured_image: 2026-Monty-Pythons-Edukational-Show.webp
+poster: 2026-Monty-Pythons-Edukational-Show.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

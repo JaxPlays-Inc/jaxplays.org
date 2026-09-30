@@ -10,11 +10,15 @@ showtimes:
   - 2026-10-02 18:00:00
   - 2026-10-03 18:00:00
   - 2026-10-30 18:00:00
-featured_image: 2026-The-Gilded-Cage.webp
-featured_image_alt: Poster art for Catalyst Theatre's The Gilded Cage, an immersive mystery dinner at The Venue-Hastings.
+poster: 2026-The-Gilded-Cage.webp
+featured_image:
+poster_alt: Poster art for Catalyst Theatre's The Gilded Cage, an immersive mystery dinner at The Venue-Hastings.
+featured_image_alt:
 featured_image_caption:
-featured_image_attr: Catalyst Theatre
-featured_image_attr_link: https://catalysttheatre.com/wp-content/uploads/2026/08/CMM-Flyerv2.png
+poster_attr: Catalyst Theatre
+featured_image_attr:
+poster_attr_link: https://catalysttheatre.com/wp-content/uploads/2026/08/CMM-Flyerv2.png
+featured_image_attr_link:
 program:
 website: https://catalysttheatre.com/
 tickets: https://www.zeffy.com/en-US/ticketing/the-gilded-cage-an-immersive-mystery-dinner

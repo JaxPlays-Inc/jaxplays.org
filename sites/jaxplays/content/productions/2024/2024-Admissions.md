@@ -7,9 +7,12 @@ opening_date: 2024-11-01
 closing_date: 2024-11-01
 showtimes:
   - 2024-11-01 19:30:00
-featured_image: 2024-Admissions.webp
-featured_image_alt: "Poster for 'Admissions' by Joshua Harmon, a staged reading at A Classic Theatre. The design features a minimalist aesthetic with a large yellow plus sign and the title in bold blue letters. This provocative play about college admissions, privilege and hypocrisy is on November 1, 2024."
-featured_image_caption: "'Admissions' at A Classic Theatre explores themes of privilege and hypocrisy in college admissions on November 1, 2024."
+poster: 2024-Admissions.webp
+featured_image:
+poster_alt: "Poster for 'Admissions' by Joshua Harmon, a staged reading at A Classic Theatre. The design features a minimalist aesthetic with a large yellow plus sign and the title in bold blue letters. This provocative play about college admissions, privilege and hypocrisy is on November 1, 2024."
+featured_image_alt:
+poster_caption: "'Admissions' at A Classic Theatre explores themes of privilege and hypocrisy in college admissions on November 1, 2024."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

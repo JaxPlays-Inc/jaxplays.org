@@ -14,10 +14,12 @@ showtimes:
 - 2024-12-13 19:30:00
 - 2024-12-14 19:30:00
 - 2024-12-15 13:30:00
-featured_image: 2024-Scrooge-The-Musical.webp
+poster: 2024-Scrooge-The-Musical.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Bill Ivins
+poster_attr: Bill Ivins
+featured_image_attr:
 featured_image_attr_link: 
 program: 
 website: https://ameliamusicalplayhouse.com/performances/scrooge2024/

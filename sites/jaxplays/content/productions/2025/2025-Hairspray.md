@@ -23,7 +23,8 @@ showtimes:
   - 2025-08-08 19:30:00
   - 2025-08-09 19:30:00
   - 2025-08-10 14:00:00
-featured_image: 2025-Hairspray.webp
+poster: 2025-Hairspray.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -50,11 +50,16 @@ showtimes:
 - '2026-09-26 18:00:00'
 - '2026-09-27 12:00:00'
 - '2026-09-27 18:00:00'
-featured_image: 2026-Saturday-Night-Fever.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: Alhambra Theatre & Dining
-featured_image_attr_link: null
+poster: 2026-Saturday-Night-Fever.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: 2026-Saturday-Night-Fever.pdf
 website: null
 source_url: https://www.alhambrajax.com

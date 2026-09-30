@@ -16,10 +16,12 @@ showtimes:
   - 2026-06-26 20:00:00
   - 2026-06-27 20:00:00
   - 2026-06-28 15:00:00
-featured_image: 2026-Violet.webp
+poster: 2026-Violet.webp
+featured_image:
 featured_image_alt:
 featured_image_caption: 
-featured_image_attr: Players by the Sea
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://playersbythesea.org/season-61/violet

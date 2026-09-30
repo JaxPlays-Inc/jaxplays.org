@@ -16,7 +16,8 @@ showtimes:
   - 2027-03-05 19:30:00
   - 2027-03-06 19:30:00
   - 2027-03-07 14:00:00
-featured_image: 2027-Something-Rotten.webp
+poster: 2027-Something-Rotten.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

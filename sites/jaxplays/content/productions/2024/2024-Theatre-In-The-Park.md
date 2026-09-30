@@ -8,9 +8,11 @@ closing_date: 2024-04-13
 showtimes:
 - 2024-04-12 18:30:00
 - 2024-04-13 18:30:00
-featured_image: 2024-Theatre-In-The-Park.webp
+poster: 2024-Theatre-In-The-Park.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Theatre In The Park'
+poster_caption: Poster for 'Theatre In The Park'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

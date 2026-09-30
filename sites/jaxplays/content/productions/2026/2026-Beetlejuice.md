@@ -17,7 +17,8 @@ showtimes:
   - 2026-05-16 19:30:00
   - 2026-05-17 13:00:00
   - 2026-05-17 18:30:00
-featured_image: 2026-Beetlejuice.webp
+poster: 2026-Beetlejuice.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

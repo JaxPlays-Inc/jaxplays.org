@@ -13,9 +13,11 @@ showtimes:
   - 2024-08-22 20:00:00
   - 2024-08-23 20:00:00
   - 2024-08-24 20:00:00
-featured_image: 2024-the-ripple-the-wave-that-carried-me-home.webp
+poster: 2024-the-ripple-the-wave-that-carried-me-home.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Teaser graphic for 'The Ripple, The Wave That Carried Me Home'
+poster_caption: Teaser graphic for 'The Ripple, The Wave That Carried Me Home'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

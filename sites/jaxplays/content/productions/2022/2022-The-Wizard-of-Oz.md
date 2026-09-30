@@ -4,7 +4,8 @@ title: The Wizard of Oz
 date: 2023-09-08T00:00:00
 opening_date: 2022-06-16
 closing_date: 2022-07-24
-featured_image: 2022_The_Wizard_of_Oz.jpg
+poster: 2022_The_Wizard_of_Oz.jpg
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

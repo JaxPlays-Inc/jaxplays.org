@@ -12,9 +12,12 @@ showtimes:
   - 2024-10-11 19:30:00
   - 2024-10-12 16:00:00
   - 2024-10-13 14:00:00
-featured_image: 2024-Bakersfield-Mist.webp
-featured_image_alt: "Poster for 'Bakersfield Mist' by Stephen Sachs, directed by Dawn Knipe. The poster features the play's title in stylish blue script splashed with a vibrant paint splotch, set against a backdrop of an abstract art piece. This dramedy, assessing art and people's value, runs from October 4-13, 2024, at A Classic Theatre."
-featured_image_caption: "Catch 'Bakersfield Mist' at A Classic Theatre, a compelling dramedy that questions the value of art and people, running from October 4-13, 2024."
+poster: 2024-Bakersfield-Mist.webp
+featured_image:
+poster_alt: "Poster for 'Bakersfield Mist' by Stephen Sachs, directed by Dawn Knipe. The poster features the play's title in stylish blue script splashed with a vibrant paint splotch, set against a backdrop of an abstract art piece. This dramedy, assessing art and people's value, runs from October 4-13, 2024, at A Classic Theatre."
+featured_image_alt:
+poster_caption: "Catch 'Bakersfield Mist' at A Classic Theatre, a compelling dramedy that questions the value of art and people, running from October 4-13, 2024."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

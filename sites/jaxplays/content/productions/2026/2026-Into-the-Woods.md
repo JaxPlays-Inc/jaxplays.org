@@ -15,7 +15,8 @@ showtimes:
   - 2026-06-26T19:00:00-04:00
   - 2026-06-27T19:00:00-04:00
   - 2026-06-28T19:00:00-04:00
-featured_image: 2026-Into-the-Woods.webp
+poster: 2026-Into-the-Woods.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -13,7 +13,8 @@ showtimes:
 - 2026-05-08 19:30:00
 - 2026-05-09 16:00:00
 - 2026-05-10 14:00:00
-featured_image: 2026-Rounding-Third.webp
+poster: 2026-Rounding-Third.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

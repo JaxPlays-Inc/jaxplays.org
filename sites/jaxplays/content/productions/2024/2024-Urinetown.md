@@ -16,9 +16,11 @@ showtimes:
   - 2024-07-25 20:00:00
   - 2024-07-26 20:00:00
   - 2024-07-27 20:00:00
-featured_image: 2024-Urinetown.webp
+poster: 2024-Urinetown.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Teaser graphic for 'Urinetown' at The 5 & Dime
+poster_caption: Teaser graphic for 'Urinetown' at The 5 & Dime
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

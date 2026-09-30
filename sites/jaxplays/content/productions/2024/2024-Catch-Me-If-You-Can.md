@@ -15,9 +15,12 @@ showtimes:
   - 2024-02-09 19:30:00
   - 2024-02-10 19:30:00
   - 2024-02-11 19:30:00
-featured_image: 2024-Catch-Me-If-You-Can.webp
-featured_image_alt: Graphic for 'Catch Me If You Can'
-featured_image_caption: Graphic for 'Catch Me If You Can'
+poster: 2024-Catch-Me-If-You-Can.webp
+featured_image:
+poster_alt: Graphic for 'Catch Me If You Can'
+featured_image_alt:
+poster_caption: Graphic for 'Catch Me If You Can'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 

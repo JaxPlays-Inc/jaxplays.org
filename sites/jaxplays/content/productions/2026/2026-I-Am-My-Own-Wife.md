@@ -14,9 +14,12 @@ showtimes:
   - 2026-09-24 20:00:00
   - 2026-09-25 20:00:00
   - 2026-09-26 20:00:00
-featured_image: 2026-I-Am-My-Own-Wife.webp
-featured_image_alt: Poster for The 5 & Dime's production of I Am My Own Wife
-featured_image_caption: Poster for I Am My Own Wife
+poster: 2026-I-Am-My-Own-Wife.webp
+featured_image:
+poster_alt: Poster for The 5 & Dime's production of I Am My Own Wife
+featured_image_alt:
+poster_caption: Poster for I Am My Own Wife
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2026-I-Am-My-Own-Wife.pdf

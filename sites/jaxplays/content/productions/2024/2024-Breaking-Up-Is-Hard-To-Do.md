@@ -19,10 +19,14 @@ showtimes:
 - 2024-03-01 17:30:00
 - 2024-03-02 11:00:00
 - 2024-03-02 17:30:00
-featured_image: 2024-Breaking-Up-Is-Hard-To-Do.webp
-featured_image_alt: "Graphic for 'Breaking Up Is Hard To Do'"
-featured_image_caption: "Graphic for 'Breaking Up Is Hard To Do'"
-featured_image_attr: Spotlight Events Center
+poster: 2024-Breaking-Up-Is-Hard-To-Do.webp
+featured_image:
+poster_alt: "Graphic for 'Breaking Up Is Hard To Do'"
+featured_image_alt:
+poster_caption: "Graphic for 'Breaking Up Is Hard To Do'"
+featured_image_caption:
+poster_attr: Spotlight Events Center
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.spotlighteventscenter.com/spotlight-events-center-events/live-performances

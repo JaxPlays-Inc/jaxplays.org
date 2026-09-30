@@ -1,10 +1,14 @@
 ---
 title: Annie
 date: 2024-06-14T16:44:50-04:00
-featured_image: Annie.webp
-featured_image_alt: "Original Broadway production poster for Annie, with the show's red title lettering on a white background and Annie leaning against the letter A."
-featured_image_caption: "Original Broadway production poster for *Annie*."
-featured_image_attr: 'By Mike Nichols productions, <a href="https://en.wikipedia.org/wiki/File:Annie_Musical_Poster.jpg" title="Fair use of copyrighted material in the context of Annie">fair use via Wikipedia</a>'
+poster: Annie.webp
+featured_image:
+poster_alt: "Original Broadway production poster for Annie, with the show's red title lettering on a white background and Annie leaning against the letter A."
+featured_image_alt:
+poster_caption: "Original Broadway production poster for *Annie*."
+featured_image_caption:
+poster_attr: 'By Mike Nichols productions, <a href="https://en.wikipedia.org/wiki/File:Annie_Musical_Poster.jpg" title="Fair use of copyrighted material in the context of Annie">fair use via Wikipedia</a>'
+featured_image_attr:
 show_details: 
 - Music: "[[w:Charles Strouse]]"
 - Lyrics: "[[w:Martin Charnin]]"

@@ -17,10 +17,14 @@ showtimes:
   - 2023-06-23 19:00:00
   - 2023-06-24 19:00:00
   - 2023-06-25 14:00:00
-featured_image: 2023-Mean-Girls-High-School-Version.webp
-featured_image_alt: Poster for Mean Girls High School Version
-featured_image_caption: Poster for Mean Girls High School Version
-featured_image_attr: Music Theatre International, The Island Theater
+poster: 2023-Mean-Girls-High-School-Version.webp
+featured_image:
+poster_alt: Poster for Mean Girls High School Version
+featured_image_alt:
+poster_caption: Poster for Mean Girls High School Version
+featured_image_caption:
+poster_attr: Music Theatre International, The Island Theater
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.theislandtheater.com/mean-girls-hs

@@ -17,10 +17,13 @@ showtimes:
   - 2024-12-20 19:30:00
   - 2024-12-21 19:30:00
   - 2024-12-22 15:00:00
-featured_image: 2024-A-Dickens-Carol.webp
+poster: 2024-A-Dickens-Carol.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for 'A Dickens Carol'
-featured_image_attr: Artist Connection Theatre
+poster_caption: Graphic for 'A Dickens Carol'
+featured_image_caption:
+poster_attr: Artist Connection Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://artistconnectiontheatre.org/season-2024-2025/

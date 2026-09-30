@@ -4,7 +4,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-06-09
 closing_date: 2023-06-17
 layout: productions
-featured_image: 2023_Clydes.png
+poster: 2023_Clydes.png
+featured_image:
 featured_image_caption:
 featured_image_attr:
 program:

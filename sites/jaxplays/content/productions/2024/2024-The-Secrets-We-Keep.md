@@ -7,9 +7,11 @@ opening_date: 2024-04-07
 closing_date: 2024-04-07
 showtimes:
 - 2024-04-07 14:00:00
-featured_image: 2024-The-Secrets-We-Keep.webp
+poster: 2024-The-Secrets-We-Keep.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'The Secrets We Keep'
+poster_caption: Poster for 'The Secrets We Keep'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

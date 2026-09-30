@@ -12,7 +12,8 @@ showtimes:
   - 2025-07-19 14:00:00
   - 2025-07-19 19:30:00
   - 2025-07-20 15:00:00
-featured_image: 2025-Bright-Star.webp
+poster: 2025-Bright-Star.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

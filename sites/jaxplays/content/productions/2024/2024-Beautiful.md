@@ -17,10 +17,14 @@ showtimes:
   - 2024-02-03 20:00:00
   - 2024-02-04 14:00:00
   - 2024-02-04 19:30:00
-featured_image: 2024-Beautiful.webp
-featured_image_alt: "Poster for 'Beautiful: The Carole King Musical'"
-featured_image_caption: "Poster for 'Beautiful: The Carole King Musical'"
-featured_image_attr: Players by the Sea
+poster: 2024-Beautiful.webp
+featured_image:
+poster_alt: "Poster for 'Beautiful: The Carole King Musical'"
+featured_image_alt:
+poster_caption: "Poster for 'Beautiful: The Carole King Musical'"
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://playersbythesea.org/beautiful

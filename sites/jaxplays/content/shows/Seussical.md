@@ -1,9 +1,12 @@
 ---
 title: Seussical
 date: 2024-06-15T22:30:02-04:00
-featured_image: Suessical.webp
-featured_image_alt: "Logo for 'Seussical The Musical' featuring a whimsically styled title in vibrant yellow and blue, complemented by the iconic red and white striped hat from Dr. Seuss's creations. The playful and imaginative design reflects the fun and creative spirit of the musical."
-featured_image_caption: "Experience the whimsy and wonder of 'Seussical The Musical,' where the imaginative world of Dr. Seuss comes alive on stage."
+poster: Suessical.webp
+featured_image:
+poster_alt: "Logo for 'Seussical The Musical' featuring a whimsically styled title in vibrant yellow and blue, complemented by the iconic red and white striped hat from Dr. Seuss's creations. The playful and imaginative design reflects the fun and creative spirit of the musical."
+featured_image_alt:
+poster_caption: "Experience the whimsy and wonder of 'Seussical The Musical,' where the imaginative world of Dr. Seuss comes alive on stage."
+featured_image_caption:
 featured_image_attr:
 show_details: 
 - Music: "[[w:Stephen Flaherty]]"

@@ -51,10 +51,14 @@ showtimes:
   - 2024-11-09 18:00:00
   - 2024-11-10 12:00:00
   - 2024-11-10 18:00:00
-featured_image: 2024-The-Wedding-Singer.webp
-featured_image_alt: Poster for The Wedding Singer
-featured_image_caption: Poster for 'The Wedding Singer'
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2024-The-Wedding-Singer.webp
+featured_image:
+poster_alt: Poster for The Wedding Singer
+featured_image_alt:
+poster_caption: Poster for 'The Wedding Singer'
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

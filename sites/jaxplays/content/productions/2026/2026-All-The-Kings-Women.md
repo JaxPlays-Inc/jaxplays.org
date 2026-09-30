@@ -12,7 +12,8 @@ showtimes:
   - 2026-04-17 19:30:00
   - 2026-04-18 19:30:00
   - 2026-04-19 14:30:00
-featured_image: 2026-All-The-Kings-Women.webp
+poster: 2026-All-The-Kings-Women.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -1,8 +1,10 @@
 ---
 title: Godspell
 layout: shows
-featured_image: Godspell.jpeg
-featured_image_caption: Cover art for the album Godspell (1971 Off-Broadway Cast)
+poster: Godspell.jpeg
+featured_image:
+poster_caption: Cover art for the album Godspell (1971 Off-Broadway Cast)
+featured_image_caption:
 featured_image_attr:
 show_details: 
 - Music: "[[w:Stephen Schwartz]]"

@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-04-21
 closing_date: 2023-05-07
 layout: productions
-featured_image: 2023_Four_Weddings_and_an_Elvis.jpeg
-featured_image_caption: Poster of 2023 production of Four Weddings and an Elvis
-featured_image_attr: Theatre Jacksonville
+poster: 2023_Four_Weddings_and_an_Elvis.jpeg
+featured_image:
+poster_caption: Poster of 2023 production of Four Weddings and an Elvis
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program: 2023_Four_Weddings_and_an_Elvis.pdf
 genres:
 - Play

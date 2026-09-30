@@ -1,8 +1,11 @@
 ---
 title: How to Succeed in Business Without Really Trying
-featured_image: How_to_Succeed_in_Business_Without_Really_Trying.webp
-featured_image_caption: Album cover of the 1961 original Broadway cast recording of the musical How to Succeed in Business Without Really Trying
-featured_image_attr: By unknown - Amazon.com, Fair use
+poster: How_to_Succeed_in_Business_Without_Really_Trying.webp
+featured_image:
+poster_caption: Album cover of the 1961 original Broadway cast recording of the musical How to Succeed in Business Without Really Trying
+featured_image_caption:
+poster_attr: By unknown - Amazon.com, Fair use
+featured_image_attr:
 featured_image_attrlink: https://en.wikipedia.org/w/index.php?curid=35570057
 genres:
 - Musical

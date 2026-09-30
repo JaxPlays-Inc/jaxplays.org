@@ -21,11 +21,18 @@
   {{ $imageFolder = "" }}
 {{- end -}}
 
+{{- $isProductionOrShow := or (eq .Type "productions") (eq .Type "shows") (eq .Section "productions") (eq .Section "shows") -}}
+
 {{- with partial "func/GetFeaturedImage.html" . -}}
     <meta property="og:image" content="{{ . | absURL }}" />
     <meta property="og:image:width" content="1200" /> <!-- Add your actual image width here -->
     <meta property="og:image:height" content="630" /> <!-- Add your actual image height here -->
 {{- else -}}
+  {{- if $isProductionOrShow -}}
+            <meta property="og:image" content="{{ "/media/default/JaxPlays_Facebook_Default_Preview.webp" | absURL }}"/>
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+  {{- else -}}
     {{- $images := $.Resources.ByType "image" -}}
     {{- $featured := $images.GetMatch "*feature*" -}}
     {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
@@ -45,6 +52,7 @@
             <meta property="og:image:height" content="630" />
         {{ end }}
     {{- end -}}
+  {{- end -}}
 {{- end -}}
 
 {{- if .IsPage }}

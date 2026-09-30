@@ -3,11 +3,16 @@ title: The Barber of Seville
 date: 2024-02-04
 opening_date: 2024-02-04
 closing_date: 2024-02-04
-featured_image: 2024-The-Barber-of-Seville.webp
-featured_image_alt: Poster of The Barber of Seville
-featured_image_caption: Poster of The Barber of Seville
-featured_image_attr: Jenny Kelly Productions
-featured_image_attr_link: https://jennykellyproductions.com/photo-gallery-barber
+poster: 2024-The-Barber-of-Seville.webp
+featured_image:
+poster_alt: Poster of The Barber of Seville
+featured_image_alt:
+poster_caption: Poster of The Barber of Seville
+featured_image_caption:
+poster_attr: Jenny Kelly Productions
+featured_image_attr:
+poster_attr_link: https://jennykellyproductions.com/photo-gallery-barber
+featured_image_attr_link:
 program:
 genres: 
 - Opera
@@ -41,6 +46,5 @@ reviews:
   outlet: ''
   description: ''
   featured_image: ''
-
 ---
 Figaro, the resourceful barber of Seville, is caught in a comedy of errors as he helps Count Almaviva woo the beautiful Rosina. Mistaken identities and close shaves ensue in this lathered-up opera that proves love can be a hairy situation.

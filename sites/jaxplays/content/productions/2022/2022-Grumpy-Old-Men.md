@@ -4,7 +4,8 @@ title: Grumpy Old Men
 date: 2023-09-08T00:00:00
 opening_date: 2022-08-11
 closing_date: 2022-09-18
-featured_image: 2022_Grumpy_Old_Men.jpg
+poster: 2022_Grumpy_Old_Men.jpg
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

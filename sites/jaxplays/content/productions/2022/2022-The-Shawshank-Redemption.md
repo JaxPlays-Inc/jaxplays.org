@@ -6,10 +6,13 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2022-05-20
 closing_date: 2022-06-05
-featured_image: 2022_The_Shawshank_Redemption.jpeg
-featured_image_attr: ABET
+poster: 2022_The_Shawshank_Redemption.jpeg
+featured_image:
+poster_attr: ABET
+featured_image_attr:
 featured_image_alt:
-featured_image_caption: Poster of 2022 production of The Shawshank Redemption
+poster_caption: Poster of 2022 production of The Shawshank Redemption
+featured_image_caption:
 theatre: ABET - All Beaches Experimental Theatre
 genres: 
 - Play

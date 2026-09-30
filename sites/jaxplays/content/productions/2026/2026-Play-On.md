@@ -17,11 +17,13 @@ showtimes:
   - 2026-05-01 19:30:00
   - 2026-05-02 14:00:00
   - 2026-05-03 14:00:00
-featured_image: 2026-Play-On.webp
+poster: 2026-Play-On.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
-featured_image_attr_link: https://www.theatrejax.com/season-106
+poster_attr_link: https://www.theatrejax.com/season-106
+featured_image_attr_link:
 program: 2026-Play-On.pdf
 website: https://www.theatrejax.com/season-106
 tickets: https://www.theatrejax.com/purchase

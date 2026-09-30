@@ -9,10 +9,13 @@ showtimes:
 - 2024-04-25 19:30:00
 - 2024-05-23 19:30:00
 - 2024-06-06 19:30:00
-featured_image: 2024-The-Near-Disaster-of-Jasper-&-Casper.webp
+poster: 2024-The-Near-Disaster-of-Jasper-&-Casper.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'The Near Disaster of Jasper and Casper'
-featured_image_attr: Jason Woods
+poster_caption: Poster for 'The Near Disaster of Jasper and Casper'
+featured_image_caption:
+poster_attr: Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program: https://playbill.com/production/the-near-disaster-of-jasper-casper-off-broadway-theatre-five-theatre-row-2022
 website: https://www.jasonwoodsproductions.com/jasperandcasper
@@ -62,7 +65,6 @@ reviews:
   outlet: Show-Score
   description: ''
   featured_image: ''
-
 ---
 In the whimsical village of Bellalore, Jasper's search for family leads to encounters with a blunt witch, a scholarly dragon, and unforeseen adventures that challenge his views on destiny and courage. As the tale unfolds, Jasper navigates sibling rivalry, royal plots, and his own fears, all brought to life through Woods' breathtaking solo performance. Critics praise the "delightful whimsy" and Woods' "rapidfire dexterity," making it a "thoroughly enjoyable, quirky fairy tale."
 

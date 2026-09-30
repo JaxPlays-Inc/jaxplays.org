@@ -16,7 +16,8 @@ showtimes:
   - 2026-03-13 19:30:00
   - 2026-03-14 19:30:00
   - 2026-03-15 14:00:00
-featured_image: 2026-Tarzan.webp?v=073514
+poster: 2026-Tarzan.webp?v=073514
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

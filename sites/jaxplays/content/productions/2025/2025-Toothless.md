@@ -10,9 +10,12 @@ showtimes:
   - 2025-10-24T19:00:00-04:00
   - 2025-10-25T14:00:00-04:00
   - 2025-10-30T19:00:00-04:00
-featured_image: 2025-Toothless-01.webp
-featured_image_alt: 'Apex Theatre Studio presents the original horror comedy "Toothless: A Halloween Treat"'
-featured_image_caption: '"Toothless: A Halloween Treat" presented by Apex Theatre Studio in St. Augustine'
+poster: 2025-Toothless-01.webp
+featured_image:
+poster_alt: 'Apex Theatre Studio presents the original horror comedy "Toothless: A Halloween Treat"'
+featured_image_alt:
+poster_caption: '"Toothless: A Halloween Treat" presented by Apex Theatre Studio in St. Augustine'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

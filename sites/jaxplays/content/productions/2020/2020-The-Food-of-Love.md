@@ -6,7 +6,8 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2020-02-13
 closing_date: 2020-02-14
-featured_image: 2020_The_Food_of_Love.png
+poster: 2020_The_Food_of_Love.png
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

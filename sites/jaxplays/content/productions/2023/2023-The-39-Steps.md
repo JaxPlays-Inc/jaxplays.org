@@ -14,9 +14,11 @@ showtimes:
   - 2023-09-22 17:30:00
   - 2023-09-23 11:00:00
   - 2023-09-23 17:30:00
-featured_image: 2023-The-39-Steps.webp
+poster: 2023-The-39-Steps.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for The 39 Steps
+poster_caption: Graphic for The 39 Steps
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

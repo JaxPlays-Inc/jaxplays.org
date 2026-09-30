@@ -18,9 +18,11 @@ showtimes:
 - 2023-09-08 20:00:00
 - 2023-09-09 20:00:00
 - 2023-09-10 14:00:00
-featured_image: 2023-Footloose.webp
+poster: 2023-Footloose.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Footloose at Orange Park Community Theatre
+poster_caption: Poster for Footloose at Orange Park Community Theatre
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

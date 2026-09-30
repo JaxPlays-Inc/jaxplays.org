@@ -17,7 +17,8 @@ showtimes:
   - 2026-08-07T19:00:00
   - 2026-08-08T19:00:00
   - 2026-08-09T14:00:00
-featured_image: 2026-Little-Shop-of-Horrors.webp
+poster: 2026-Little-Shop-of-Horrors.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

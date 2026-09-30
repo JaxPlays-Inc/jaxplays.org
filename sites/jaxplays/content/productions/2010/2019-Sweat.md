@@ -4,7 +4,8 @@ title: Sweat
 date: 2023-09-08T00:00:00
 opening_date: 2019-08-02
 closing_date: 2019-08-18
-featured_image: 2019_Sweat.webp
+poster: 2019_Sweat.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

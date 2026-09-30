@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2022-10-06
 closing_date: 2022-10-30
 layout: productions
-featured_image: 2022_Big_Fish.jpeg
-featured_image_caption: Poster of 2022 production of Big Fish
-featured_image_attr: Limelight Theatre
+poster: 2022_Big_Fish.jpeg
+featured_image:
+poster_caption: Poster of 2022 production of Big Fish
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 program:
 theatre: Limelight Theatre
 venue: Matuza Mainstage

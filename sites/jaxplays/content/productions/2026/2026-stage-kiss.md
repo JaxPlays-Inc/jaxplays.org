@@ -8,11 +8,16 @@ opening_date: '2026-05-01'
 closing_date: '2026-05-01'
 approx_date: month
 showtimes: null
-featured_image: 2026-stage-kiss.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: ABET - All Beaches Experimental Theatre
-featured_image_attr_link: null
+poster: 2026-stage-kiss.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: ABET - All Beaches Experimental Theatre
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: https://www.abetjax.com/stage-kiss
 source_url: https://www.abetjax.com/stage-kiss

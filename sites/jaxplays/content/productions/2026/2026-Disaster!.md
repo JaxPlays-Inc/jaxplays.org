@@ -18,10 +18,12 @@ showtimes:
 - '2026-05-15 20:00:00'
 - '2026-05-16 20:00:00'
 - '2026-05-17 15:00:00'
-featured_image: 2026-Disaster!.webp
+poster: 2026-Disaster!.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Players by the Sea
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link:
 program: null
 website: https://playersbythesea.org/season-61/disaster

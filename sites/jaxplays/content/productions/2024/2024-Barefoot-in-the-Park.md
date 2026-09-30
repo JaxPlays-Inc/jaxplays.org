@@ -11,7 +11,8 @@ showtimes:
   - 2024-09-21 19:30:00
   - 2024-09-27 19:30:00
   - 2024-09-28 19:30:00
-featured_image: 2024-Barefoot-in-the-Park.webp
+poster: 2024-Barefoot-in-the-Park.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

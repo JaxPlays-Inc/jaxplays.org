@@ -12,10 +12,12 @@ showtimes:
   - 2024-12-14 17:45:00
   - 2024-12-15 10:00:00
   - 2024-12-15 11:00:00
-featured_image: 2024-The-Little-Toy-Shoppe.webp
+poster: 2024-The-Little-Toy-Shoppe.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

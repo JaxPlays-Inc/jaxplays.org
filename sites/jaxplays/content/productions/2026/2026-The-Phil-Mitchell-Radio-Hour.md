@@ -11,7 +11,8 @@ showtimes:
 - 2026-06-25T19:30:00-04:00
 - 2026-06-26T19:30:00-04:00
 - 2026-06-27T19:30:00-04:00
-featured_image: 2026-The-Phil-Mitchell-Radio-Hour.webp
+poster: 2026-The-Phil-Mitchell-Radio-Hour.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

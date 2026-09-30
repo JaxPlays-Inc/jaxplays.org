@@ -16,10 +16,13 @@ showtimes:
 - 2025-05-23 19:30:00
 - 2025-05-24 19:30:00
 - 2025-05-25 15:00:00
-featured_image: 2025-One-Stoplight-Town.webp
+poster: 2025-One-Stoplight-Town.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for *One Stoplight Town*
-featured_image_attr: Artist Connection Theatre
+poster_caption: Graphic for *One Stoplight Town*
+featured_image_caption:
+poster_attr: Artist Connection Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://artistconnectiontheatre.org/season-2024-2025/

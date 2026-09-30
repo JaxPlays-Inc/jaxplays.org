@@ -95,6 +95,8 @@ The core content types are:
 
 Front matter field names should be lowercase, including nested keys.
 
+For `productions` and `shows`, use `poster` for 2:3 poster/window-card art shown on home, list and detail pages. Use `featured_image` only for the 1.91:1 social/featured image; if it is blank, the site falls back to `poster` for social metadata.
+
 ## Generated Data
 
 Several expensive site relationships are precomputed into `sites/jaxplays/data/generated/` so Hugo can build the site quickly:
@@ -197,10 +199,11 @@ Common media locations:
 - `sites/jaxplays/static/media/headshots/` for people profile images.
 - `sites/jaxplays/static/media/photos/` for production, event and article photos.
 - `sites/jaxplays/static/media/posters/` for show posters.
+- `sites/jaxplays/static/media/featured_images/` for 1.91:1 production/show social preview images referenced by `featured_image`.
 - `sites/jaxplays/static/media/logos/` for theatre and organization logos.
 - `sites/jaxplays/static/media/programs/` for digital programs.
 
-Featured images should use descriptive alt text in front matter whenever possible.
+Production and show `featured_image` values should be bare filenames stored under `media/featured_images`; poster art belongs in `media/posters` and should use `poster` front matter. Featured images should use descriptive alt text in front matter whenever possible.
 
 ## Theme
 

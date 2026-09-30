@@ -16,9 +16,12 @@ showtimes:
 - 2023-11-17 19:30:00
 - 2023-11-18 19:30:00
 - 2023-11-19 14:00:00
-featured_image: 2023_Just_Desserts_A_Musical_Bake_Off.webp
-featured_image_caption: "Poster for Just Desserts: A Musical Bake-Off"
-featured_image_attr: Theatre Jacksonville
+poster: 2023_Just_Desserts_A_Musical_Bake_Off.webp
+featured_image:
+poster_caption: "Poster for Just Desserts: A Musical Bake-Off"
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program: 2023_Just_Desserts.pdf
 website: https://www.theatrejax.com/onstage
 show_details: 

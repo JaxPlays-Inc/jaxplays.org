@@ -14,7 +14,8 @@ showtimes:
 - 2025-12-13T19:00:00-05:00
 - 2025-12-14T15:00:00-05:00
 - 2025-12-14T19:00:00-05:00
-featured_image: 2025-The-Best-Christmas-Pageant-Ever.webp
+poster: 2025-The-Best-Christmas-Pageant-Ever.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

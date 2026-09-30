@@ -17,7 +17,8 @@ showtimes:
   - 2025-03-07 20:00:00
   - 2025-03-08 20:00:00
   - 2025-03-09 14:00:00
-featured_image: 2025-Funny-Girl.webp
+poster: 2025-Funny-Girl.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

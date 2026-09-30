@@ -4,9 +4,12 @@ date: 2024-03-08
 opening_date: 2024-03-08
 closing_date: 2024-03-24
 layout: productions
-featured_image: 2024_Alabama_Story.webp
-featured_image_caption: Poster for Alabama Story
-featured_image_attr: Theatre Jacksonville
+poster: 2024_Alabama_Story.webp
+featured_image:
+poster_caption: Poster for Alabama Story
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program:
 genres:
 - Play

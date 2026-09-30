@@ -1,9 +1,12 @@
 ---
 title: Disney's Frozen
 date: 2024-04-28T01:32:13-04:00
-featured_image: 2023-Disneys-Frozen.webp
-featured_image_caption: Poster for Disney's 'Frozen'
-featured_image_attr: Disney Theatrical Productions
+poster: 2023-Disneys-Frozen.webp
+featured_image:
+poster_caption: Poster for Disney's 'Frozen'
+featured_image_caption:
+poster_attr: Disney Theatrical Productions
+featured_image_attr:
 show_details: 
 - Music and Lyrics: 
   - "[[w:Kristen Anderson-Lopez]]"

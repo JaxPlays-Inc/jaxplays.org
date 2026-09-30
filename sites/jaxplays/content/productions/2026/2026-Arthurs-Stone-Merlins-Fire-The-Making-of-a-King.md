@@ -16,9 +16,12 @@ showtimes:
   - 2026-01-30 19:30:00
   - 2026-01-31 19:30:00
   - 2026-02-01 15:00:00
-featured_image: 2026-Arthurs-Stone-Merlins-Fire-The-Making-of-a-King.webp
-featured_image_alt: "Poster for Arthur's Stone, Merlin's Fire: The Making of a King"
-featured_image_caption: "Poster for Arthur's Stone, Merlin's Fire: The Making of a King"
+poster: 2026-Arthurs-Stone-Merlins-Fire-The-Making-of-a-King.webp
+featured_image:
+poster_alt: "Poster for Arthur's Stone, Merlin's Fire: The Making of a King"
+featured_image_alt:
+poster_caption: "Poster for Arthur's Stone, Merlin's Fire: The Making of a King"
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

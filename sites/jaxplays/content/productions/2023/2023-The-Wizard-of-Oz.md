@@ -3,11 +3,16 @@ title: The Wizard of Oz
 date: 2023-10-12
 opening_date: 2023-10-12
 closing_date: 2023-10-22
-featured_image: 2023_The_Wizard_of_Oz.webp
-featured_image_alt: Poster for The Wizard of Oz
-featured_image_caption: Poster for The Wizard of Oz
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/program-covers
+poster: 2023_The_Wizard_of_Oz.webp
+featured_image:
+poster_alt: Poster for The Wizard of Oz
+featured_image_alt:
+poster_caption: Poster for The Wizard of Oz
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/program-covers
+featured_image_attr_link:
 program:
 theatre: Amelia Musical Playhouse
 venue: Amelia Musical Playhouse

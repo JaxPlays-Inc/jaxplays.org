@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-05-12
 closing_date: 2023-06-04
 layout: productions
-featured_image: 2023_Choir_Boy.png
-featured_image_caption: Poster for Choir Boy at Players by the Sea
-featured_image_attr: Players by the Sea
+poster: 2023_Choir_Boy.png
+featured_image:
+poster_caption: Poster for Choir Boy at Players by the Sea
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
 program:
 genres:
 - Musical

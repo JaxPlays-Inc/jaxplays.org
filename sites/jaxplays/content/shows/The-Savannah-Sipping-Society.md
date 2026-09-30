@@ -1,8 +1,11 @@
 ---
 title: The Savannah Sipping Society
-featured_image: The_Savannah_Sipping_Society.png
-featured_image_caption: Logo for the The Savannah Sipping Society
-featured_image_attr: Jones Hope Wooten
+poster: The_Savannah_Sipping_Society.png
+featured_image:
+poster_caption: Logo for the The Savannah Sipping Society
+featured_image_caption:
+poster_attr: Jones Hope Wooten
+featured_image_attr:
 genres: 
 - Play
 - Comedy

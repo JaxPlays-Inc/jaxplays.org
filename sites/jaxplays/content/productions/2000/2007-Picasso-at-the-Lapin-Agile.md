@@ -3,9 +3,11 @@ title: Picasso at the Lapin Agile
 date: 2023-09-08T00:00:00
 opening_date: 2007-10-24
 closing_date: 2007-10-24
-featured_image: 2023-Picasso-at-the-Lapin-Agile.webp
+poster: 2023-Picasso-at-the-Lapin-Agile.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Playbill cover for Picasso at the Lapin Agile
+poster_caption: Playbill cover for Picasso at the Lapin Agile
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
