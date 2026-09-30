@@ -13,10 +13,14 @@ showtimes:
   - 2024-02-10 14:00:00
   - 2024-02-10 19:00:00
   - 2024-02-11 15:00:00
-featured_image: 2024-Southern-Fried-Nuptials.webp
-featured_image_alt: Poster for Southern Fried Nuptials
-featured_image_caption: Poster for Southern Fried Nuptials
-featured_image_attr: Act II Players
+poster: 2024-Southern-Fried-Nuptials.webp
+featured_image:
+poster_alt: Poster for Southern Fried Nuptials
+featured_image_alt:
+poster_caption: Poster for Southern Fried Nuptials
+featured_image_caption:
+poster_attr: Act II Players
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://actiiplayers.org/southern-fried-nuptials

@@ -15,7 +15,8 @@ showtimes:
   - 2025-08-29 19:00:00
   - 2025-08-30 19:00:00
   - 2025-08-31 14:00:00
-featured_image: 2025-Four-Old-Broads-on-the-High-Seas.webp
+poster: 2025-Four-Old-Broads-on-the-High-Seas.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

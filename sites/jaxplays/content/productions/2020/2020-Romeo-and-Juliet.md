@@ -4,10 +4,14 @@ title: Romeo & Juliet
 date: 2023-09-08T00:00:00
 opening_date: 2020-02-20
 closing_date: 2020-02-23
-featured_image: 2020_Romeo+Juliet.jpeg
-featured_image_attr: Players by the Sea
-featured_image_alt: Poster for 2020 production of Romeo + Juliet
-featured_image_caption: Poster for 2020 production of Romeo + Juliet
+poster: 2020_Romeo+Juliet.jpeg
+featured_image:
+poster_attr: Players by the Sea
+featured_image_attr:
+poster_alt: Poster for 2020 production of Romeo + Juliet
+featured_image_alt:
+poster_caption: Poster for 2020 production of Romeo + Juliet
+featured_image_caption:
 genres: 
 - Play
 - Tragedy

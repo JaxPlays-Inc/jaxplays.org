@@ -20,11 +20,16 @@ showtimes:
   - 2026-08-29 18:00:00
   - 2026-08-29 20:00:00
   - 2026-08-29 22:00:00
-featured_image: 2026-Edgar-Allan-Poe-The-Musical.webp
-featured_image_alt: "Poster artwork for Edgar Allan Poe: The Musical."
-featured_image_caption: "Poster for Edgar Allan Poe: The Musical."
-featured_image_attr: Midnight Creative
-featured_image_attr_link: https://www.edgarallanpoemusical.com/
+poster: 2026-Edgar-Allan-Poe-The-Musical.webp
+featured_image:
+poster_alt: "Poster artwork for Edgar Allan Poe: The Musical."
+featured_image_alt:
+poster_caption: "Poster for Edgar Allan Poe: The Musical."
+featured_image_caption:
+poster_attr: Midnight Creative
+featured_image_attr:
+poster_attr_link: https://www.edgarallanpoemusical.com/
+featured_image_attr_link:
 program:
 website: https://www.edgarallanpoemusical.com/
 tickets: https://feverup.com/m/634656?utm_source=JAXPLAYS&utm_medium=website&utm_campaign=JAXPLAYS&utm_content=poethemusical

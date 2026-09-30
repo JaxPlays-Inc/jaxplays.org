@@ -54,7 +54,8 @@ showtimes:
   - 2025-11-15 18:00:00
   - 2025-11-16 12:00:00
   - 2025-11-16 18:00:00
-featured_image: 2025-The-Mystery-of-Edwin-Drood.webp
+poster: 2025-The-Mystery-of-Edwin-Drood.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

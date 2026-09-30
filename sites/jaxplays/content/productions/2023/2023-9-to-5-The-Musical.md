@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-08-11
 closing_date: 2023-08-26
 layout: productions
-featured_image: 2023_9_to_5_The_Musical.webp
-featured_image_caption: Poster for 9 to 5 The Musical
-featured_image_attr: Amelia Community Theatre
+poster: 2023_9_to_5_The_Musical.webp
+featured_image:
+poster_caption: Poster for 9 to 5 The Musical
+featured_image_caption:
+poster_attr: Amelia Community Theatre
+featured_image_attr:
 program: 2023_9_to_5_The_Musical.pdf
 theatre: Amelia Community Theatre
 venue: ACT Main Stage

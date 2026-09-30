@@ -15,7 +15,8 @@ showtimes:
   - 2023-12-22 19:30:00
   - 2023-12-23 14:00:00
   - 2023-12-23 19:30:00
-featured_image: 2023-Its-A-Wonderful-Life.webp
+poster: 2023-Its-A-Wonderful-Life.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

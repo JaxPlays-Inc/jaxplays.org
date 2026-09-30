@@ -8,7 +8,8 @@ closing_date: 2026-06-21
 showtimes:
   - 2026-06-20 14:30:00
   - 2026-06-21 14:30:00
-featured_image: 2026-Summer-Sensation-2026.webp
+poster: 2026-Summer-Sensation-2026.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

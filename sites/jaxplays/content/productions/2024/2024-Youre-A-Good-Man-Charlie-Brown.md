@@ -15,9 +15,12 @@ showtimes:
   - 2024-06-14 19:30:00
   - 2024-06-15 19:30:00
   - 2024-06-16 14:30:00
-featured_image: 2024-Youre-A-Good-Man-Charlie-Brown.webp
-featured_image_alt: "Promotional poster for 'You're a Good Man, Charlie Brown' featuring a silhouette of Charlie Brown and Snoopy against a bright blue background. The title is in bold yellow letters above. Details about tickets and show dates are provided at the bottom of the poster."
-featured_image_caption: "Catch the timeless charm of 'You're a Good Man, Charlie Brown' at Amelia Musical Playhouse!"
+poster: 2024-Youre-A-Good-Man-Charlie-Brown.webp
+featured_image:
+poster_alt: "Promotional poster for 'You're a Good Man, Charlie Brown' featuring a silhouette of Charlie Brown and Snoopy against a bright blue background. The title is in bold yellow letters above. Details about tickets and show dates are provided at the bottom of the poster."
+featured_image_alt:
+poster_caption: "Catch the timeless charm of 'You're a Good Man, Charlie Brown' at Amelia Musical Playhouse!"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

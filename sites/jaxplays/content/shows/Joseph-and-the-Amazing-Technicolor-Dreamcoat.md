@@ -1,10 +1,14 @@
 ---
 title: Joseph and the Amazing Technicolor Dreamcoat
 date: 2024-06-22T09:54:05-04:00
-featured_image: Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
-featured_image_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat
-featured_image_caption: Poster for 'Joseph and the Amazing Technicolor Dreamcoat' 1991 Revival
-featured_image_attr: <a href="//en.wikipedia.org/wiki/File:Joseph_and_the_Amazing_Technicolor_Dreamcoat.jpg" title="Fair use of copyrighted material in the context of Joseph and the Amazing Technicolor Dreamcoat">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=5133305">Link</a>
+poster: Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
+featured_image:
+poster_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat
+featured_image_alt:
+poster_caption: Poster for 'Joseph and the Amazing Technicolor Dreamcoat' 1991 Revival
+featured_image_caption:
+poster_attr: <a href="//en.wikipedia.org/wiki/File:Joseph_and_the_Amazing_Technicolor_Dreamcoat.jpg" title="Fair use of copyrighted material in the context of Joseph and the Amazing Technicolor Dreamcoat">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=5133305">Link</a>
+featured_image_attr:
 show_details: 
 - Music: "[[w:Andrew Lloyd Webber]]"
 - Lyrics: "[[w:Tim Rice]]"

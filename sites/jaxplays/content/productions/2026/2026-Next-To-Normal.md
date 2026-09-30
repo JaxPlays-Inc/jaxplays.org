@@ -19,10 +19,13 @@ showtimes:
   - 2026-08-28 19:30:00
   - 2026-08-29 19:30:00
   - 2026-08-30 14:00:00
-featured_image: 2026-Next-To-Normal.webp
-featured_image_alt: Next to Normal poster art for Limelight Theatre's 2026 special event production.
+poster: 2026-Next-To-Normal.webp
+featured_image:
+poster_alt: Next to Normal poster art for Limelight Theatre's 2026 special event production.
+featured_image_alt:
 featured_image_caption:
-featured_image_attr: Limelight Theatre
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://nexttonormalstaug.com/

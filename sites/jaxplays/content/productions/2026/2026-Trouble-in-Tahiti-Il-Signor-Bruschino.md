@@ -8,9 +8,12 @@ opening_date: 2026-05-22
 closing_date: 2026-05-22
 showtimes:
   - 2026-05-22T19:00:00-05:00
-featured_image: 2026-Trouble-in-Tahiti-Il-Signor-Bruschino.webp
-featured_image_alt: "Amelia Island Opera presents the double bill 'Trouble in Tahiti & Il Signor Bruschino'"
-featured_image_caption: "'Trouble in Tahiti & Il Signor Bruschino' at Amelia Plantation Chapel"
+poster: 2026-Trouble-in-Tahiti-Il-Signor-Bruschino.webp
+featured_image:
+poster_alt: "Amelia Island Opera presents the double bill 'Trouble in Tahiti & Il Signor Bruschino'"
+featured_image_alt:
+poster_caption: "'Trouble in Tahiti & Il Signor Bruschino' at Amelia Plantation Chapel"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

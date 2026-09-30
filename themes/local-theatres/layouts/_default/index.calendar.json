@@ -3,7 +3,8 @@
   {{- $title := .Title -}}
   {{- $theatre := .Params.theatre -}}
   {{- $title := print $title " - " $theatre -}}
-  {{- $featured_image := .Params.featured_image -}}
+  {{- $featured_image := partial "func/GetPosterImageMeta.html" . -}}
+  {{- $featured_image = $featured_image.src -}}
   {{- $url := .RelPermalink -}}
   
   {{- /* Initialize default color */ -}}

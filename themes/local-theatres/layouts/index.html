@@ -579,14 +579,11 @@
           <h2 id="home-dashboard-closing" class="home-dashboard-panel-title">Closing Soon</h2>
           <div class="home-dashboard-hotlist">
             {{ range first 4 $closingSoon }}
-              {{ $poster := partial "func/GetPosterImage.html" . }}
+              {{ $posterPath := "/media/default/production_poster.webp" }}
+              {{ with partial "func/GetPosterImage.html" . }}{{ $posterPath = . }}{{ end }}
               {{ $closingDate := .Params.closing_date | default .Params.opening_date }}
               <a class="home-dashboard-hotitem home-dashboard-grow" href="{{ .RelPermalink }}">
-                {{ if $poster }}
-                  <img class="home-dashboard-thumb" src="{{ $poster }}" alt="{{ .Title }}">
-                {{ else }}
-                  <img class="home-dashboard-thumb" src="/media/default/production_poster.webp" alt="{{ .Title }}">
-                {{ end }}
+                <img class="home-dashboard-thumb" src="{{ $posterPath }}" alt="{{ .Title }}">
                 <span>
                   <strong>{{ .Title }}</strong>
                   <span class="home-dashboard-meta">{{ .Params.theatre }}<br>Closes {{ time.Format "Jan 2" (time $closingDate) }}</span>

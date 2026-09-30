@@ -1,11 +1,16 @@
 ---
 title: Once Upon a One More Time
 date: 2026-07-22T14:50:00-04:00
-featured_image: 2026-Once-Upon-a-One-More-Time.webp
-featured_image_alt: Poster graphic for Arts Collective Theatre's production of Once Upon a One More Time
-featured_image_caption: Poster graphic for *Once Upon a One More Time* at Arts Collective Theatre.
-featured_image_attr: Arts Collective Theatre
-featured_image_attr_link: https://artscollectivetheatre.com/
+poster: 2026-Once-Upon-a-One-More-Time.webp
+featured_image:
+poster_alt: Poster graphic for Arts Collective Theatre's production of Once Upon a One More Time
+featured_image_alt:
+poster_caption: Poster graphic for *Once Upon a One More Time* at Arts Collective Theatre.
+featured_image_caption:
+poster_attr: Arts Collective Theatre
+featured_image_attr:
+poster_attr_link: https://artscollectivetheatre.com/
+featured_image_attr_link:
 source: Arts Collective Theatre events page and Facebook cast announcement posts
 source_date: 2026-07-22
 source_urls:

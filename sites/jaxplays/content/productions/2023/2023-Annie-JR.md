@@ -10,10 +10,14 @@ showtimes:
   - 2023-12-16 11:00:00
   - 2023-12-16 17:00:00
   - 2023-12-17 14:00:00
-featured_image: 2023-Annie-JR.webp
-featured_image_alt: Poster art for Annie JR.
-featured_image_caption: Poster for Annie JR.
-featured_image_attr: Tribuen Content Agency, LLC., Apex Theatre Studio
+poster: 2023-Annie-JR.webp
+featured_image:
+poster_alt: Poster art for Annie JR.
+featured_image_alt:
+poster_caption: Poster for Annie JR.
+featured_image_caption:
+poster_attr: Tribuen Content Agency, LLC., Apex Theatre Studio
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

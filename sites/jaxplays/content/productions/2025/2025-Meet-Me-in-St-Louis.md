@@ -17,7 +17,8 @@ showtimes:
   - 2025-12-19 19:30:30
   - 2025-12-20 19:30:30
   - 2025-12-21 15:00:00
-featured_image: 2025-Meet-Me-in-St-Louis.webp
+poster: 2025-Meet-Me-in-St-Louis.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -43,10 +43,12 @@ showtimes:
 - '2026-03-28 18:00:00'
 - '2026-03-29 12:00:00'
 - '2026-03-29 18:00:00'
-featured_image: 2026-Damn-Yankees.webp
+poster: 2026-Damn-Yankees.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Alhambra Theatre and Dining
+poster_attr: Alhambra Theatre and Dining
+featured_image_attr:
 featured_image_attr_link: 
 Tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1507&code=JAXPLAYS
 source_url: https://www.alhambrajax.com

@@ -3,10 +3,13 @@ title: Romeo and Juliet
 date: 2023-11-10
 opening_date: 2023-11-10
 closing_date: 2023-11-19
-featured_image: 2023_Romeo_and_Juliet.webp
+poster: 2023_Romeo_and_Juliet.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Romeo and Juliet
-featured_image_attr: The Island Theater
+poster_caption: Poster for Romeo and Juliet
+featured_image_caption:
+poster_attr: The Island Theater
+featured_image_attr:
 featured_image_attr_link: 
 program:
 genres:

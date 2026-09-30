@@ -12,9 +12,12 @@ showtimes:
   - 2025-05-09 19:30:00
   - 2025-05-10 16:00:00
   - 2025-05-11 14:00:00
-featured_image: 2025-The-Foreigner.webp
-featured_image_alt: "Poster for 'The Foreigner' by Larry Shue, directed by Harolyn Sharpe, featuring a cowboy hat and title in large brown letters. This laugh-out-loud comedy full of misunderstandings runs from May 2-11, 2025, at A Classic Theatre."
-featured_image_caption: "'The Foreigner,' a comedy of misunderstandings and misrepresentations, is at A Classic Theatre from May 2-11, 2025."
+poster: 2025-The-Foreigner.webp
+featured_image:
+poster_alt: "Poster for 'The Foreigner' by Larry Shue, directed by Harolyn Sharpe, featuring a cowboy hat and title in large brown letters. This laugh-out-loud comedy full of misunderstandings runs from May 2-11, 2025, at A Classic Theatre."
+featured_image_alt:
+poster_caption: "'The Foreigner,' a comedy of misunderstandings and misrepresentations, is at A Classic Theatre from May 2-11, 2025."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

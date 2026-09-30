@@ -8,7 +8,8 @@ closing_date: 2026-06-25
 showtimes:
   - 2026-06-24 19:30:00
   - 2026-06-25 19:30:00
-featured_image: 2026-Complete-Works-of-William-Shakespeare-Abridged.webp
+poster: 2026-Complete-Works-of-William-Shakespeare-Abridged.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

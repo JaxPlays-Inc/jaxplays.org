@@ -17,9 +17,12 @@ showtimes:
   - 2026-06-19 19:30:00
   - 2026-06-20 19:30:00
   - 2026-06-21 15:00:00
-featured_image: 2026-My-Fair-Lady.webp
-featured_image_alt: Poster for Artist Connection Theatre's production of My Fair Lady
-featured_image_caption: Poster for My Fair Lady
+poster: 2026-My-Fair-Lady.webp
+featured_image:
+poster_alt: Poster for Artist Connection Theatre's production of My Fair Lady
+featured_image_alt:
+poster_caption: Poster for My Fair Lady
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

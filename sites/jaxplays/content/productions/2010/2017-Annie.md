@@ -23,9 +23,12 @@ showtimes:
   - 2017-07-12 17:30:00
   - 2017-07-13 17:30:00
   - 2017-07-14 17:30:00
-featured_image: 2017-Annie.webp
-featured_image_alt: "Promotional poster for 'Annie The Musical' showcasing a playful and eye-catching design. It features the iconic logo in white and red, set against a reflective black background with a cartoon illustration of Annie. The tagline 'Bet your bottom dollar you'll love it!' adds a charming touch, inviting audiences for musical fun from June 28 to August 13."
-featured_image_caption: "Join the fun with 'Annie The Musical' from June 28 to August 13! It's a delightful show for all ages, promising great entertainment and the timeless charm of everyone's favorite redhead."
+poster: 2017-Annie.webp
+featured_image:
+poster_alt: "Promotional poster for 'Annie The Musical' showcasing a playful and eye-catching design. It features the iconic logo in white and red, set against a reflective black background with a cartoon illustration of Annie. The tagline 'Bet your bottom dollar you'll love it!' adds a charming touch, inviting audiences for musical fun from June 28 to August 13."
+featured_image_alt:
+poster_caption: "Join the fun with 'Annie The Musical' from June 28 to August 13! It's a delightful show for all ages, promising great entertainment and the timeless charm of everyone's favorite redhead."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 

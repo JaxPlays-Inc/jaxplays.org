@@ -103,13 +103,10 @@
           {{ if eq (printf "%T" $genres) "string" }}
             {{ $genres = slice $genres }}
           {{ end }}
-          {{ $poster := partial "func/GetPosterImage.html" $show }}
           {{ $posterMeta := partial "func/GetPosterImageMeta.html" $show }}
-          {{ $posterAlt := $posterMeta.alt | default (printf "%s artwork" $show.Title) }}
           {{ $posterPath := "/media/default/production_poster.webp" }}
-          {{ if $poster }}
-            {{ $posterPath = $poster }}
-          {{ end }}
+          {{ with partial "func/GetPosterImage.html" $show }}{{ $posterPath = . }}{{ end }}
+          {{ $posterAlt := $posterMeta.alt | default (printf "%s artwork" $show.Title) }}
           {{ $summary := $show.Params.description | default $show.Summary }}
           {{ $searchParts := slice $show.Title (printf "%d productions" $productionCount) }}
           {{ with $genres }}{{ $searchParts = $searchParts | append (delimit . " ") }}{{ end }}

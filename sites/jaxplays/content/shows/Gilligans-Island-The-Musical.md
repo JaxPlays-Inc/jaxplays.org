@@ -1,9 +1,12 @@
 ---
 title: "Gilligan's Island: The Musical"
 date: 2024-06-18T14:42:06-04:00
-featured_image: Gilligans-Island-The-Musical.webp
-featured_image_alt: "Promotional image for 'Gilligan's Island The Musical' showing Gilligan with binoculars against a tropical backdrop."
-featured_image_caption: "Set sail for adventure with 'Gilligan's Island The Musical', where laughter and catchy tunes await on every shore."
+poster: Gilligans-Island-The-Musical.webp
+featured_image:
+poster_alt: "Promotional image for 'Gilligan's Island The Musical' showing Gilligan with binoculars against a tropical backdrop."
+featured_image_alt:
+poster_caption: "Set sail for adventure with 'Gilligan's Island The Musical', where laughter and catchy tunes await on every shore."
+featured_image_caption:
 show_details: 
 - Book:
   - "[[w:Sherwood Schwartz]]"

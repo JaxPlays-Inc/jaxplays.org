@@ -16,10 +16,13 @@ showtimes:
 - 2025-08-22 19:30:00
 - 2025-08-23 19:30:00
 - 2025-08-24 15:00:00
-featured_image: 2025-The-Somewhat-True-Tale-of-Robin-Hood.webp
+poster: 2025-The-Somewhat-True-Tale-of-Robin-Hood.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for *The Somewhat True Tale of Robin Hood*
-featured_image_attr: Artist Connection Theatre
+poster_caption: Graphic for *The Somewhat True Tale of Robin Hood*
+featured_image_caption:
+poster_attr: Artist Connection Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://artistconnectiontheatre.org/season-2024-2025/

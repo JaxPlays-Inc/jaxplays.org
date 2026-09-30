@@ -16,9 +16,12 @@ showtimes:
   - 2025-06-20 19:30:00
   - 2025-06-21 19:30:00
   - 2025-06-22 14:00:00
-featured_image: 2025-Desperate-Measures.webp
-featured_image_alt: "Poster for Theatre Jacksonville's 'Desperate Measures' showing a Western-style two-story building illustration, with the play's title in large, ornate red letters in the foreground. The play runs from June 6-22, 2025."
-featured_image_caption: "Get ready for a wild ride with 'Desperate Measures' at Theatre Jacksonville! This witty musical adaptation, full of twists and turns, runs from June 6-22, 2025."
+poster: 2025-Desperate-Measures.webp
+featured_image:
+poster_alt: "Poster for Theatre Jacksonville's 'Desperate Measures' showing a Western-style two-story building illustration, with the play's title in large, ornate red letters in the foreground. The play runs from June 6-22, 2025."
+featured_image_alt:
+poster_caption: "Get ready for a wild ride with 'Desperate Measures' at Theatre Jacksonville! This witty musical adaptation, full of twists and turns, runs from June 6-22, 2025."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

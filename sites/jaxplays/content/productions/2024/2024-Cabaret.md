@@ -11,10 +11,14 @@ showtimes:
 - 2024-06-01 19:00:00
 - 2024-06-02 13:00:00
 - 2024-06-02 19:00:00
-featured_image: 2024-Cabaret.webp
-featured_image_alt: Poster for 'Cabaret'
-featured_image_caption: Poster for 'Cabaret'
-featured_image_attr: Greenlight Theatre Company
+poster: 2024-Cabaret.webp
+featured_image:
+poster_alt: Poster for 'Cabaret'
+featured_image_alt:
+poster_caption: Poster for 'Cabaret'
+featured_image_caption:
+poster_attr: Greenlight Theatre Company
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

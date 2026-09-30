@@ -12,10 +12,12 @@ showtimes:
   - 2025-12-13 13:15:00
   - 2025-12-13 17:45:00
   - 2025-12-14 10:00:00
-featured_image: 2025-The-Little-Toy-Shoppe-02.webp
+poster: 2025-The-Little-Toy-Shoppe-02.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

@@ -3,9 +3,11 @@ title: Shirley Valentine
 date: 2024-03-03
 opening_date: 2024-03-03
 closing_date: 2024-03-12
-featured_image: 2024-Shirley-Valentine.webp
+poster: 2024-Shirley-Valentine.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for Shirley Valentine
+poster_caption: Graphic for Shirley Valentine
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

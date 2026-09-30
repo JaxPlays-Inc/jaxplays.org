@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-06-09
 closing_date: 2023-06-18
 layout: productions
-featured_image: 2023_The_Prom.jpg
-featured_image_caption: Poster for The Prom (2023)
-featured_image_attr: Greenlight Theatre Company
+poster: 2023_The_Prom.jpg
+featured_image:
+poster_caption: Poster for The Prom (2023)
+featured_image_caption:
+poster_attr: Greenlight Theatre Company
+featured_image_attr:
 program:
 genres:
 - Musical

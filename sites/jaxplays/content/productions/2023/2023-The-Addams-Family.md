@@ -3,10 +3,14 @@ title: The Addams Family
 date: 2023-10-20
 opening_date: 2023-10-20
 closing_date: 2023-11-05
-featured_image: 2023-The-Addams-Family.webp
-featured_image_alt: Poster for The Addams Family
-featured_image_caption: Poster for The Addams Family
-featured_image_attr: Players by the Sea
+poster: 2023-The-Addams-Family.webp
+featured_image:
+poster_alt: Poster for The Addams Family
+featured_image_alt:
+poster_caption: Poster for The Addams Family
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link: 
 program:
 genres:

@@ -19,10 +19,14 @@ showtimes:
   - 2024-04-20 19:30:00
   - 2024-04-21 14:00:00
   - 2024-04-21 19:30:00
-featured_image: 2024-Spamalot.webp
-featured_image_alt: Poster for Spamalot
-featured_image_caption: Poster for Spamalot
-featured_image_attr: Monty Python
+poster: 2024-Spamalot.webp
+featured_image:
+poster_alt: Poster for Spamalot
+featured_image_alt:
+poster_caption: Poster for Spamalot
+featured_image_caption:
+poster_attr: Monty Python
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

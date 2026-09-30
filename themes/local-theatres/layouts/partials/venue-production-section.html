@@ -37,9 +37,7 @@
           <!-- Left Section -->
           <div class="w-25 w-10-l">
             {{ $imagePath := "/media/default/production_poster.webp" }}
-            {{ with partial "func/GetPosterImage.html" $production }}
-              {{ $imagePath = . }}
-            {{ end }}
+            {{ with partial "func/GetPosterImage.html" $production }}{{ $imagePath = . }}{{ end }}
             <a href="{{ $production.RelPermalink }}">
               <img src="{{ $imagePath }}" alt="{{ $production.Title }}" class="w-100" />
             </a>

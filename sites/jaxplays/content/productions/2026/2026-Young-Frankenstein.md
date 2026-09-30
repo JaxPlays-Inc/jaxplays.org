@@ -16,7 +16,8 @@ showtimes:
   - 2026-06-19 19:30:00
   - 2026-06-20 19:30:00
   - 2026-06-21 14:00:00
-featured_image: 2026-Young-Frankenstein.webp
+poster: 2026-Young-Frankenstein.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

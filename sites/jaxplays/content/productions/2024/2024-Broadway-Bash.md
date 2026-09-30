@@ -15,10 +15,13 @@ showtimes:
   - 2024-09-27 19:30:00
   - 2024-09-28 19:30:00
   - 2024-09-29 14:00:00
-featured_image: 2024-Broadway-Bash.webp
+poster: 2024-Broadway-Bash.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Broadway Bash'
-featured_image_attr: Poster by Josh Andrews
+poster_caption: Poster for 'Broadway Bash'
+featured_image_caption:
+poster_attr: Poster by Josh Andrews
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

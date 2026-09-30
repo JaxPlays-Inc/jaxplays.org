@@ -4,7 +4,8 @@ title: How to Succeed in Business Without Really Trying
 date: 2023-09-08T00:00:00
 opening_date: 2020-02-20
 closing_date: 2020-03-22
-featured_image: 2020_How_to_Succeed_in_Business_Without_Really_Trying_(musical).png
+poster: 2020_How_to_Succeed_in_Business_Without_Really_Trying_(musical).png
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

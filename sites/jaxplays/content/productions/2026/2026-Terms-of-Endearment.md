@@ -17,7 +17,8 @@ showtimes:
   - 2026-11-06T19:00:00
   - 2026-11-07T19:00:00
   - 2026-11-08T14:00:00
-featured_image: 2026-Terms-of-Endearment.webp
+poster: 2026-Terms-of-Endearment.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

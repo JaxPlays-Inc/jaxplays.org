@@ -24,11 +24,16 @@ showtimes:
   - 2026-08-07 19:30:00
   - 2026-08-08 19:30:00
   - 2026-08-09 14:00:00
-featured_image: 2026-The-Sound-of-Music.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: null
-featured_image_attr_link: null
+poster: 2026-The-Sound-of-Music.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: null
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: https://www.limelight-theatre.org/calendar/on-stage/the-sound-of-music
 tickets: https://limelight.ludus.com/200477928

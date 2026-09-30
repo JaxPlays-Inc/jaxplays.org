@@ -10,7 +10,8 @@ showtimes:
 - 2024-06-05 19:30:00
 - 2024-06-20 19:30:00
 - 2024-09-12 19:30:00
-featured_image: 2024-ShakesBeer.webp
+poster: 2024-ShakesBeer.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

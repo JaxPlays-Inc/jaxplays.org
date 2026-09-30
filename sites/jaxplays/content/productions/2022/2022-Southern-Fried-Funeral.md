@@ -6,7 +6,8 @@ redirect_from:
 date: 2024-06-12T23:43:49-04:00
 opening_date: 2022-05-13
 closing_date: 2022-05-22
-featured_image: 2022_Southern_Fried_Funeral.jpeg
+poster: 2022_Southern_Fried_Funeral.jpeg
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

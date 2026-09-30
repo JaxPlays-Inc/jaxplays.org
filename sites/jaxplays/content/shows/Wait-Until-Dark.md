@@ -1,15 +1,18 @@
 ---
 title: Wait Until Dark
 date: 2024-07-30T17:16:24-04:00
-featured_image: Wait-Until-Dark-1966-Playbill.webp
-featured_image_caption: Playbill cover for the premiere production of 'Wait Until Dark' at the Ethel Barrymore Theatre
-featured_image_attr: Playbill 
-show_details: 
+poster: Wait-Until-Dark-1966-Playbill.webp
+featured_image:
+poster_caption: Playbill cover for the premiere production of 'Wait Until Dark' at the Ethel Barrymore Theatre
+featured_image_caption:
+poster_attr: Playbill
+featured_image_attr:
+show_details:
 - Playwright: Frederick Knott
-- Premiere: 
-- Theatre: 
-- Basis: 
-- Website: 
+- Premiere:
+- Theatre:
+- Basis:
+- Website:
 genres:
 - Play
 - Thriller

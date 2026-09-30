@@ -47,11 +47,9 @@
 {{ $page := .page }}
 {{ $status := .status }}
 {{ $posterMeta := partial "func/GetPosterImageMeta.html" $page }}
-{{ $posterAlt := $posterMeta.alt | default (printf "%s poster" $page.Title) }}
 {{ $posterPath := "/media/default/production_poster.webp" }}
-{{ with partial "func/GetPosterImage.html" $page }}
-  {{ $posterPath = . }}
-{{ end }}
+{{ with partial "func/GetPosterImage.html" $page }}{{ $posterPath = . }}{{ end }}
+{{ $posterAlt := $posterMeta.alt | default (printf "%s poster" $page.Title) }}
 
 {{ $venues := $page.Params.venue }}
 {{ if eq (printf "%T" $venues) "string" }}

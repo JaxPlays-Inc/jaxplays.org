@@ -15,7 +15,8 @@ showtimes:
 - 2024-12-20T20:00:00-04:00
 - 2024-12-21T20:00:00-04:00
 - 2024-12-22T20:00:00-04:00
-featured_image: 2024-Summer.webp
+poster: 2024-Summer.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

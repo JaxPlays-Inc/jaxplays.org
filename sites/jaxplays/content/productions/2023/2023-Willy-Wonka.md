@@ -15,9 +15,11 @@ showtimes:
 - 2023-12-16 11:00:00
 - 2023-12-22 11:00:00
 - 2023-12-23 11:00:00
-featured_image: 2023-Willy-Wonka.webp
+poster: 2023-Willy-Wonka.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for Willy Wonka
+poster_caption: Graphic for Willy Wonka
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

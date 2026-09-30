@@ -15,9 +15,12 @@ showtimes:
 - 2024-06-22 19:00:00
 - 2024-06-27 19:00:00
 - 2024-06-29 12:00:00
-featured_image: 2024-A-Closer-Walk-With-Patsy-Cline.webp
-featured_image_alt: "Promotional poster for 'A Closer Walk With Patsy Cline' showcasing a stylized image of Patsy Cline."
-featured_image_caption: "Step back in time with 'A Closer Walk With Patsy Cline' and relive the music and legacy of a country legend."
+poster: 2024-A-Closer-Walk-With-Patsy-Cline.webp
+featured_image:
+poster_alt: "Promotional poster for 'A Closer Walk With Patsy Cline' showcasing a stylized image of Patsy Cline."
+featured_image_alt:
+poster_caption: "Step back in time with 'A Closer Walk With Patsy Cline' and relive the music and legacy of a country legend."
+featured_image_caption:
 program:
 website: 
 tickets: 

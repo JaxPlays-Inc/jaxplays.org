@@ -3,10 +3,13 @@ title: Alabama Story
 date: 2023-09-29
 opening_date: 2023-09-29
 closing_date: 2023-10-15
-featured_image: 2023_Alabama_Story.webp
+poster: 2023_Alabama_Story.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Alabama Story
-featured_image_attr: Photography and graphic design by Jon Scherf
+poster_caption: Poster for Alabama Story
+featured_image_caption:
+poster_attr: Photography and graphic design by Jon Scherf
+featured_image_attr:
 featured_image_attr_link: 
 program:
 genres:

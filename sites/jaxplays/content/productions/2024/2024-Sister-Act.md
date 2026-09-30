@@ -22,9 +22,12 @@ showtimes:
 - 2024-08-16 19:00:00
 - 2024-08-17 12:00:00
 - 2024-08-17 19:00:00
-featured_image: 2024-Sister-Act.webp
-featured_image_alt: "Promotional poster for 'Sister Act The Musical' featuring the show's title in radiant red letters over a glowing blue background."
-featured_image_caption: "Feel the divine comedy of 'Sister Act The Musical', where disco divinity meets the convent in a joyful noise."
+poster: 2024-Sister-Act.webp
+featured_image:
+poster_alt: "Promotional poster for 'Sister Act The Musical' featuring the show's title in radiant red letters over a glowing blue background."
+featured_image_alt:
+poster_caption: "Feel the divine comedy of 'Sister Act The Musical', where disco divinity meets the convent in a joyful noise."
+featured_image_caption:
 program:
 website: 
 tickets: 

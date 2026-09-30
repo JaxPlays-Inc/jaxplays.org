@@ -1,9 +1,13 @@
 ---
 title: La Bohème
-featured_image: La_Boheme.webp
-featured_image_caption: Original 1896 poster by Adolfo Hohenstein
-featured_image_attr: Adolfo Hohenstein
-featured_image_attr_link: https://commons.wikimedia.org/wiki/File:La_Boheme_poster_by_Hohenstein.PNG
+poster: La_Boheme.webp
+featured_image:
+poster_caption: Original 1896 poster by Adolfo Hohenstein
+featured_image_caption:
+poster_attr: Adolfo Hohenstein
+featured_image_attr:
+poster_attr_link: https://commons.wikimedia.org/wiki/File:La_Boheme_poster_by_Hohenstein.PNG
+featured_image_attr_link:
 details: 
 - Librettist: 
   - Luigi Illica

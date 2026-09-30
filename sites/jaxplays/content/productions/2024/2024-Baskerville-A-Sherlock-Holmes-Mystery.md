@@ -12,9 +12,12 @@ showtimes:
 - 2024-07-14 14:00:00
 - 2024-07-26 19:30:00
 - 2024-07-27 19:30:00
-featured_image: Baskerville-A-Sherlock-Holmes-Mystery.webp
-featured_image_alt: "Promotional image for 'Ken Ludwig’s Baskerville: A Sherlock Holmes Mystery' presented by Apex Theatre Studio. The silhouette of Sherlock Holmes, clad in his iconic deerstalker hat and holding a pipe and magnifying glass, is set against a stark white background, emphasizing his detective persona."
-featured_image_caption: "Silhouette of Sherlock Holmes in 'Ken Ludwig’s Baskerville,' capturing the enigmatic and analytical nature of literature's most famed detective."
+poster: Baskerville-A-Sherlock-Holmes-Mystery.webp
+featured_image:
+poster_alt: "Promotional image for 'Ken Ludwig’s Baskerville: A Sherlock Holmes Mystery' presented by Apex Theatre Studio. The silhouette of Sherlock Holmes, clad in his iconic deerstalker hat and holding a pipe and magnifying glass, is set against a stark white background, emphasizing his detective persona."
+featured_image_alt:
+poster_caption: "Silhouette of Sherlock Holmes in 'Ken Ludwig’s Baskerville,' capturing the enigmatic and analytical nature of literature's most famed detective."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

@@ -16,7 +16,8 @@ showtimes:
   - 2024-10-05 20:00:00
   - 2024-10-06 13:00:00
   - 2024-10-06 18:30:00
-featured_image: 2024-Golden-Girls.webp
+poster: 2024-Golden-Girls.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

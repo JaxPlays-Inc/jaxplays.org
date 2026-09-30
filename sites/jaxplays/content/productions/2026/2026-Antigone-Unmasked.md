@@ -17,10 +17,14 @@ showtimes:
   - 2026-10-22 19:30:00
   - 2026-10-23 19:30:00
   - 2026-10-24 19:30:00
-featured_image: 2026-Antigone-Unmasked.webp
-featured_image_alt: "Poster for Lumen Repertory Theatre's world premiere production of Antigone: Unmasked."
-featured_image_caption: "Lumen Repertory Theatre presents the world premiere of *Antigone: Unmasked*, a contemporary adaptation written and directed by Brian Niece."
-featured_image_attr: Lumen Repertory Theatre
+poster: 2026-Antigone-Unmasked.webp
+featured_image:
+poster_alt: "Poster for Lumen Repertory Theatre's world premiere production of Antigone: Unmasked."
+featured_image_alt:
+poster_caption: "Lumen Repertory Theatre presents the world premiere of *Antigone: Unmasked*, a contemporary adaptation written and directed by Brian Niece."
+featured_image_caption:
+poster_attr: Lumen Repertory Theatre
+featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://www.lumenrep.org/season-2026

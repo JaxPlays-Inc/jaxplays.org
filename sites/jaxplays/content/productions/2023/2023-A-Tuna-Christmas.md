@@ -12,9 +12,11 @@ showtimes:
   - 2023-12-29 17:30:00
   - 2023-12-30 11:00:00
   - 2023-12-30 17:30:00
-featured_image: 2023-A-Tuna-Christmas.webp
+poster: 2023-A-Tuna-Christmas.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for A Tuna Christmas
+poster_caption: Graphic for A Tuna Christmas
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

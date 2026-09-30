@@ -16,7 +16,8 @@ showtimes:
   - 2026-08-21 19:30:00
   - 2026-08-22 19:30:00
   - 2026-08-23 15:00:00
-featured_image: 2026-Arsenic-and-Old-Lace.webp
+poster: 2026-Arsenic-and-Old-Lace.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

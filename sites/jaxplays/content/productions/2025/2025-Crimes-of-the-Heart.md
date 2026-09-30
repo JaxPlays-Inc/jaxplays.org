@@ -20,7 +20,8 @@ showtimes:
   - 2025-01-31 19:30:00
   - 2025-02-01 19:30:00
   - 2025-02-02 14:00:00
-featured_image: 2025-Crimes-of-the-Heart.webp
+poster: 2025-Crimes-of-the-Heart.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -17,9 +17,12 @@ showtimes:
   - 2026-10-30 19:30:00
   - 2026-10-31 14:00:00
   - 2026-11-01 14:00:00
-featured_image: 2026-The-Addams-Family-Poster.webp
-featured_image_alt: Poster for The Addams Family
-featured_image_caption: Poster for The Addams Family
+poster: 2026-The-Addams-Family-Poster.webp
+featured_image:
+poster_alt: Poster for The Addams Family
+featured_image_alt:
+poster_caption: Poster for The Addams Family
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program: 2026-The-Addams-Family-program.pdf

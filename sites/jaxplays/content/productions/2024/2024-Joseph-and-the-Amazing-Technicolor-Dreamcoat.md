@@ -67,9 +67,12 @@ showtimes:
   - 2024-08-10 17:30:00
   - 2024-08-11 12:00:00
   - 2024-08-11 17:30:00
-featured_image: 2024-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
-featured_image_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat at Alhambra Theatre & Dining
-featured_image_caption: Poster for 'Joseph and the Amazing Technicolor Dreamcoat' at Alhambra Theatre & Dining
+poster: 2024-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
+featured_image:
+poster_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat at Alhambra Theatre & Dining
+featured_image_alt:
+poster_caption: Poster for 'Joseph and the Amazing Technicolor Dreamcoat' at Alhambra Theatre & Dining
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

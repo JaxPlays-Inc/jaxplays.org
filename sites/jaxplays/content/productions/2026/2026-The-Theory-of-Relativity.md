@@ -13,7 +13,8 @@ showtimes:
   - 2026-01-23 19:30:00
   - 2026-01-24 19:30:00
   - 2026-01-25 14:00:00
-featured_image: 2026-The-Theory-of-Relativity.webp
+poster: 2026-The-Theory-of-Relativity.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

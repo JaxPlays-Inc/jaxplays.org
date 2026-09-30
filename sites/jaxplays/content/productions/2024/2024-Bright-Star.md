@@ -23,7 +23,8 @@ showtimes:
   - 2024-10-18 19:30:00
   - 2024-10-19 19:30:00
   - 2024-10-20 14:00:00
-featured_image: 2024-Bright-Star.webp
+poster: 2024-Bright-Star.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -13,10 +13,13 @@ showtimes:
   - 2026-09-18 20:00:00
   - 2026-09-19 20:00:00
   - 2026-09-20 15:00:00
-featured_image: 2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp
-featured_image_alt: Graphic for I Love You, You're Perfect... Now Sign Here at Players by the Sea, with the show title and Sept. 11-20, 2026 dates.
+poster: 2026-I-Love-You-Youre-Perfect-Now-Sign-Here.webp
+featured_image:
+poster_alt: Graphic for I Love You, You're Perfect... Now Sign Here at Players by the Sea, with the show title and Sept. 11-20, 2026 dates.
+featured_image_alt:
 featured_image_caption:
-featured_image_attr: Players by the Sea
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://playersbythesea.org/season-61/now-sign-here

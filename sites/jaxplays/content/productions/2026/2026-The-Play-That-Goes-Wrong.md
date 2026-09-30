@@ -7,10 +7,12 @@ date: 2026-06-20T00:53:06-04:00
 opening_date: 2026-07-24
 closing_date: 2026-08-09
 showtimes: null
-featured_image: 2026-The-Play-That-Goes-Wrong.webp
+poster: 2026-The-Play-That-Goes-Wrong.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Players by the Sea
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://playersbythesea.org/season-61

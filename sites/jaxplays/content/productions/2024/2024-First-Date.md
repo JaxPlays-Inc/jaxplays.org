@@ -23,10 +23,14 @@ showtimes:
 - 2024-05-10 19:30:00
 - 2024-05-11 19:30:00
 - 2024-05-12 14:00:00
-featured_image: 2024-First-Date.webp
-featured_image_alt: Poster for First Date
-featured_image_caption: Poster for First Date
-featured_image_attr: Limelight Theatre
+poster: 2024-First-Date.webp
+featured_image:
+poster_alt: Poster for First Date
+featured_image_alt:
+poster_caption: Poster for First Date
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/season-32-shows-1/storefront-church

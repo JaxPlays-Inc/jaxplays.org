@@ -9,11 +9,14 @@ closing_date: 2025-04-06
 showtimes: 
 - 2025-04-04 19:30:00
 - 2025-04-06 16:00:00
-featured_image: 2025-Madama-Butterfly-In-Concert.webp
+poster: 2025-Madama-Butterfly-In-Concert.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/
+featured_image_attr_link:
 program:
 website: https://www.ameliaislandopera.org/madamabutterfly
 tickets: https://app.showslinger.com/e/Madama-Butterfly

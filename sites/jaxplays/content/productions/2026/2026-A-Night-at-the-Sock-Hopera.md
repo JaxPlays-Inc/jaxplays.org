@@ -8,11 +8,16 @@ date: 2026-09-12T17:49:51-04:00
 opening_date: 2026-11-06
 closing_date: 2026-11-07
 showtimes:
-featured_image: 2026-A-Night-at-the-Sock-Hopera.webp
-featured_image_alt: "Amelia Island Opera presents A Night at the Sock-Hopera, featuring Menotti's Old Maid and the Thief paired with 1950s songs."
-featured_image_caption: "A Night at the Sock-Hopera at Amelia Community Theatre's Main Stage"
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+poster: 2026-A-Night-at-the-Sock-Hopera.webp
+featured_image:
+poster_alt: "Amelia Island Opera presents A Night at the Sock-Hopera, featuring Menotti's Old Maid and the Thief paired with 1950s songs."
+featured_image_alt:
+poster_caption: "A Night at the Sock-Hopera at Amelia Community Theatre's Main Stage"
+featured_image_caption:
+poster_attr: Amelia Island Opera
+featured_image_attr:
+poster_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr_link:
 program:
 website: https://www.ameliaislandopera.org/
 tickets:

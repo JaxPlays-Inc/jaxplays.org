@@ -8,11 +8,15 @@ closing_date: 2023-09-23
 showtimes:
   - 2023-09-22 19:00:00
   - 2023-09-23 13:00:00
-featured_image: 2023-Suor-Angelica.webp
-featured_image_alt: Poster for Suor Angelica
-featured_image_caption: Poster for Suor Angelica
+poster: 2023-Suor-Angelica.webp
+featured_image:
+poster_alt: Poster for Suor Angelica
+featured_image_alt:
+poster_caption: Poster for Suor Angelica
+featured_image_caption:
 featured_image_attr: 
-featured_image_attr_link: Bold City Opera
+poster_attr_link: Bold City Opera
+featured_image_attr_link:
 program:
 website: https://www.boldcityopera.org/suor-angelica
 tickets: https://secure.givelively.org/event/bold-city-opera-inc/suor-angelica

@@ -16,21 +16,24 @@ showtimes:
 - 2024-04-26 19:30:00
 - 2024-04-27 19:30:00
 - 2024-04-28 15:00:00
-featured_image: 2024-Pollyanna.webp
-featured_image_alt: "Promotional image for 'Pollyanna' by Artist Connection Theatre, with pastel floral patterns in the background. Title text and play details in elegant fonts announce the play, its author, the novel it's based on, and show dates from April 12 to April 28, 2024. Presented by Concord Theatricals on behalf of Samuel French, Inc."
-featured_image_caption: Poster for 'Pollyanna' at Artist Connection Theatre 
-featured_image_attr: 
-featured_image_attr_link: 
-program: 
+poster: 2024-Pollyanna.webp
+featured_image:
+poster_alt: "Promotional image for 'Pollyanna' by Artist Connection Theatre, with pastel floral patterns in the background. Title text and play details in elegant fonts announce the play, its author, the novel it's based on, and show dates from April 12 to April 28, 2024. Presented by Concord Theatricals on behalf of Samuel French, Inc."
+featured_image_alt:
+poster_caption: Poster for 'Pollyanna' at Artist Connection Theatre
+featured_image_caption:
+featured_image_attr:
+featured_image_attr_link:
+program:
 website: https://artistconnectiontheatre.org/current-show/
 tickets: https://artistconnectiontheatre.org/tickets
-show_details: 
+show_details:
 cast:
 - Pollyanna Whittier: Cynthia Trespalacios
-- Young Pollyanna Whittier: 
+- Young Pollyanna Whittier:
   - Cynthia Trespalacios
   - Evangeline Tracht
-- Polly Harrington: 
+- Polly Harrington:
   - Wendy Niemeyer
   - Niki Rodela
 - John Pendleton: Keith Snow
@@ -38,7 +41,7 @@ cast:
 - Jimmy Bean Sr: Landen Emerson
 - Nancy: Shelby Ellis
 - Bleeker: Sam Swartz
-- Miss Caroll: 
+- Miss Caroll:
   - Amie Mann
   - Meghan Wagoner
 - Mrs. Carmody: Cissy Reagan

@@ -73,6 +73,7 @@
     {{ end }}
 
     <div class="production-hero-grid{{ if not $poster }} production-hero-grid--text{{ end }} mb4">
+      <!-- Featured Image Section -->
       {{ if $poster }}
       <div class="production-hero-poster">
         <a href="{{ $posterPath }}" data-lightbox="gallery"
@@ -729,7 +730,7 @@
       {{ else if and $pressTitle $pressURL }}
         <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
           <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ $pressURL }}" target="_blank" rel="noopener" aria-label="Read {{ $pressTitle | plainify }}"></a>
-          {{ if $posterPath }}
+        {{ if $posterPath }}
           <img class="production-review-image" src="{{ $posterPath }}" alt="{{ $pressTitle | plainify }}">
           {{ else }}
           <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $pressTitle | plainify }}">
@@ -746,7 +747,7 @@
         {{ range $legacyPressTitle, $legacyPressURL := $pressItem }}
           <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
             <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ $legacyPressURL }}" target="_blank" rel="noopener" aria-label="Read {{ $legacyPressTitle | plainify }}"></a>
-            {{ if $posterPath }}
+        {{ if $posterPath }}
             <img class="production-review-image" src="{{ $posterPath }}" alt="{{ $legacyPressTitle | plainify }}">
             {{ else }}
             <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $legacyPressTitle | plainify }}">
@@ -890,7 +891,7 @@
     "showtimes" $editShowtimes
     "ticket_link" (.Params.tickets | default "")
     "web_page" (.Params.website | default "")
-    "poster_credit" (.Params.featured_image_attr | default "")
+    "poster_credit" ($posterAttr | default "")
     "description" (.Params.description | default "")
     "synopsis" (.RawContent | default "")
     "cast" (.Params.cast | default slice)

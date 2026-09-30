@@ -2,11 +2,14 @@
 title: Puffs
 subtitle: or Seven Increasingly Eventful Years at a Certain School of Magic and Magic
 date: 2026-06-07T15:58:29-04:00
-featured_image: Puffs.webp
+poster: Puffs.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Playbill.com, Fair use
-featured_image_attr_link: https://en.wikipedia.org/w/index.php?curid=63698519
+poster_attr: Playbill.com, Fair use
+featured_image_attr:
+poster_attr_link: https://en.wikipedia.org/w/index.php?curid=63698519
+featured_image_attr_link:
 program:
 website: https://www.puffstheplay.com/
 tickets: 

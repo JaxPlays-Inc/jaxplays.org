@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-01-13
 closing_date: 2023-01-29
 layout: productions
-featured_image: 2023_Oleana.jpeg
-featured_image_caption: Poster of 2023 production of Oleanna
-featured_image_attr: Limelight Theatre
+poster: 2023_Oleana.jpeg
+featured_image:
+poster_caption: Poster of 2023 production of Oleanna
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 program:
 genres:
 - Play

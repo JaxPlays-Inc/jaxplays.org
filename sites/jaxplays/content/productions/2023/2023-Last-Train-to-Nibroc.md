@@ -4,9 +4,12 @@ date: 2023-09-08T00:00:00
 opening_date: 2023-01-13
 closing_date: 2023-01-29
 layout: productions
-featured_image: 2023_Last_Train_to_Nibroc.jpeg
-featured_image_caption: Poster of Last Train to Nibroc
-featured_image_attr: Theatre Jacksonville/Green Onion Creative LLC
+poster: 2023_Last_Train_to_Nibroc.jpeg
+featured_image:
+poster_caption: Poster of Last Train to Nibroc
+featured_image_caption:
+poster_attr: Theatre Jacksonville/Green Onion Creative LLC
+featured_image_attr:
 program: 2023_Last_Train_to_Nibroc.pdf
 genres:
 - Play

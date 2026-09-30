@@ -13,9 +13,11 @@ showtimes:
   - 2024-10-26 19:30:00
   - 2024-11-01 19:30:00
   - 2024-11-02 19:30:00
-featured_image: 2024-Cadillac-Crew.webp
+poster: 2024-Cadillac-Crew.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for 'Cadillac Crew'
+poster_caption: Graphic for 'Cadillac Crew'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

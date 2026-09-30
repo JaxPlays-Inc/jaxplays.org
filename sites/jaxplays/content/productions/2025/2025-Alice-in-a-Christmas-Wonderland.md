@@ -13,10 +13,12 @@ showtimes:
   - 2025-12-13 16:15:00
   - 2025-12-14 11:30:00
   - 2025-12-14 13:00:00
-featured_image: 2025-Alice-in-a-Christmas-Wonderland.webp
+poster: 2025-Alice-in-a-Christmas-Wonderland.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.ameliaisland.com/dickens-on-centre/

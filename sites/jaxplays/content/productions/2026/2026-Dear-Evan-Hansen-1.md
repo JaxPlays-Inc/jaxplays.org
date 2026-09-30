@@ -19,10 +19,14 @@ showtimes:
   - 2026-09-11 19:30:00
   - 2026-09-12 19:30:00
   - 2026-09-13 14:00:00
-featured_image: 2026-Dear-Evan-Hansen-1.webp
-featured_image_alt: Cast announcement poster for Orange Park Community Theatre's production of Dear Evan Hansen
-featured_image_caption: Cast announcement poster for *Dear Evan Hansen* at Orange Park Community Theatre.
-featured_image_attr: Orange Park Community Theatre
+poster: 2026-Dear-Evan-Hansen-1.webp
+featured_image:
+poster_alt: Cast announcement poster for Orange Park Community Theatre's production of Dear Evan Hansen
+featured_image_alt:
+poster_caption: Cast announcement poster for *Dear Evan Hansen* at Orange Park Community Theatre.
+featured_image_caption:
+poster_attr: Orange Park Community Theatre
+featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://opct.booktix.com/dept/main/e/evanhans

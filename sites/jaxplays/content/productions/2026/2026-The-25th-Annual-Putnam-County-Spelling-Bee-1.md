@@ -10,7 +10,8 @@ showtimes:
   - 2026-07-07 19:00:00
   - 2026-07-08 19:00:00
   - 2026-07-09 19:00:00
-featured_image: 2026-The-25th-Annual-Putnam-County-Spelling-Bee-1.webp
+poster: 2026-The-25th-Annual-Putnam-County-Spelling-Bee-1.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

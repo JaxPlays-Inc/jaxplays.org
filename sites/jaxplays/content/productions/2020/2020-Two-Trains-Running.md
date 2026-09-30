@@ -6,10 +6,14 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2020-03-13
 closing_date: 2020-03-29
-featured_image: 2020-Two-Trains-Running.webp
-featured_image_alt: "Poster for the play 'Two Trains Running' by August Wilson, presented by Players by the Sea. The image features a black and white photo of actors seated at a diner table, portraying a scene from the play, which captures the mood and setting of the story."
-featured_image_caption: "The poster of 'Two Trains Running' captures a poignant moment from the play, with actors immersed in their roles at a diner, reflecting the intense and dynamic storytelling of August Wilson."
-featured_image_attr: "Photography: Josh Andrews, Design: Bradley Akers"
+poster: 2020-Two-Trains-Running.webp
+featured_image:
+poster_alt: "Poster for the play 'Two Trains Running' by August Wilson, presented by Players by the Sea. The image features a black and white photo of actors seated at a diner table, portraying a scene from the play, which captures the mood and setting of the story."
+featured_image_alt:
+poster_caption: "The poster of 'Two Trains Running' captures a poignant moment from the play, with actors immersed in their roles at a diner, reflecting the intense and dynamic storytelling of August Wilson."
+featured_image_caption:
+poster_attr: "Photography: Josh Andrews, Design: Bradley Akers"
+featured_image_attr:
 theatre: Players by the Sea
 website: https://www.playersbythesea.org/two-trains-running
 showtimes:
@@ -69,7 +73,6 @@ photos:
   photo_caption: "A promotional photo from 'Two Trains Running' captures actors in an engaging moment within the meticulously designed diner set, reflecting the play's setting in the 1960s."
   photo_attr: "Josh Andrews"
   photo_attr_link: https://www.facebook.com/photo?fbid=2758471050866990&set=a.253502688030518
-
 ---
 
 \* This show was unfortunately cut short by the COVID-19 pandemic. The last production day was March 15, 2020.

@@ -9,10 +9,14 @@ showtimes:
   - 2023-06-18 19:00:00
   - 2023-06-20 19:00:00
   - 2023-06-22 19:00:00
-featured_image: 2023-Mean-Girls-Jr.webp
-featured_image_alt: Poster for Mean Girls Jr.
-featured_image_caption: Poster for Mean Girls Jr.
-featured_image_attr: The Island Theater
+poster: 2023-Mean-Girls-Jr.webp
+featured_image:
+poster_alt: Poster for Mean Girls Jr.
+featured_image_alt:
+poster_caption: Poster for Mean Girls Jr.
+featured_image_caption:
+poster_attr: The Island Theater
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.theislandtheater.com/mean-girls-junior

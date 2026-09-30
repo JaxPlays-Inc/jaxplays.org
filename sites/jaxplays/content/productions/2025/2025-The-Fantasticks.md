@@ -16,7 +16,8 @@ showtimes:
 - 2025-06-15 14:00:00
 - 2025-06-21 13:00:00
 - 2025-06-22 13:00:00
-featured_image: 2025-The-Fantasticks.webp
+poster: 2025-The-Fantasticks.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

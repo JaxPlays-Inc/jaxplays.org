@@ -52,7 +52,8 @@ showtimes:
   - 2025-05-10 18:00:00
   - 2025-05-11 12:00:00
   - 2025-05-11 18:00:00
-featured_image: 2025-Beautiful-The-Carole-King-Musical.webp
+poster: 2025-Beautiful-The-Carole-King-Musical.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

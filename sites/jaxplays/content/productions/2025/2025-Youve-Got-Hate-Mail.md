@@ -8,9 +8,12 @@ opening_date: 2025-10-15
 closing_date: 2025-10-15
 showtimes:
   - 2025-10-15T14:30:00-04:00
-featured_image: 2025-Youve-Got-Hate-Mail.webp
-featured_image_alt: 'Amelia Musical Playhouse presents the adult comedy "You’ve Got Hate Mail"'
-featured_image_caption: '"You’ve Got Hate Mail" presented by Amelia Musical Playhouse'
+poster: 2025-Youve-Got-Hate-Mail.webp
+featured_image:
+poster_alt: 'Amelia Musical Playhouse presents the adult comedy "You’ve Got Hate Mail"'
+featured_image_alt:
+poster_caption: '"You’ve Got Hate Mail" presented by Amelia Musical Playhouse'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

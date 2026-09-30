@@ -16,9 +16,11 @@ showtimes:
 - 2025-11-21 19:00:00
 - 2025-11-22 12:00:00
 - 2025-11-22 19:00:00
-featured_image: 2025-She-Loves-Me-2.webp
+poster: 2025-She-Loves-Me-2.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Curtis Lemoine
+poster_caption: Curtis Lemoine
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-She-Loves-Me-2.pdf

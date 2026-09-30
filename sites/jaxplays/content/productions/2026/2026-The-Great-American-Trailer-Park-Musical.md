@@ -13,7 +13,8 @@ showtimes:
 - 2026-08-28 19:30:00
 - 2026-08-29 19:30:00
 - 2026-08-30 19:30:00
-featured_image: 2026-The-Great-American-Trailer-Park-Musical.png
+poster: 2026-The-Great-American-Trailer-Park-Musical.png
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

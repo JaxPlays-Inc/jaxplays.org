@@ -10,10 +10,12 @@ showtimes:
   - 2024-11-22 19:30:00
   - 2024-11-23 14:00:00
   - 2024-11-24 19:30:00
-featured_image: 2024-The-Last-Five-Years.webp
+poster: 2024-The-Last-Five-Years.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Collin James
+poster_attr: Collin James
+featured_image_attr:
 featured_image_attr_link: 
 program: 2024-The-Last-Five-Years-In-Concert.pdf
 website: 

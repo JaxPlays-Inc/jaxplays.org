@@ -3,10 +3,13 @@ title: The Cake
 date: 2023-09-08T00:00:00
 opening_date: 2023-03-17
 closing_date: 2023-03-26
-featured_image: 2023-The-Cake.webp
+poster: 2023-The-Cake.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for The Cake
-featured_image_attr: Players by the Sea
+poster_caption: Poster for The Cake
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link: 
 program:
 genres:

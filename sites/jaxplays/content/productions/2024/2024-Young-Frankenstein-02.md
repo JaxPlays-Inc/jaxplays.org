@@ -11,9 +11,12 @@ showtimes:
   - 2024-11-01 19:30:00
   - 2024-11-02 19:30:00
   - 2024-11-03 14:00:00
-featured_image: 2024-Young-Frankenstein-02.webp
-featured_image_alt: "Promotional poster for 'Young Frankenstein' with the title in electrified letters against a spooky blue background."
-featured_image_caption: "Join the hilarity in 'Young Frankenstein', a monstrous comedy that electrifies with laughter and mischief."
+poster: 2024-Young-Frankenstein-02.webp
+featured_image:
+poster_alt: "Promotional poster for 'Young Frankenstein' with the title in electrified letters against a spooky blue background."
+featured_image_alt:
+poster_caption: "Join the hilarity in 'Young Frankenstein', a monstrous comedy that electrifies with laughter and mischief."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 

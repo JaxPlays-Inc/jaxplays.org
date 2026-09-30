@@ -16,10 +16,13 @@ showtimes:
 - 2023-12-14 19:30:00
 - 2023-12-15 19:30:00
 - 2023-12-16 19:30:00
-featured_image: 2023-Miracle-on-34th-Street-2.webp
+poster: 2023-Miracle-on-34th-Street-2.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Miracle on 34th Street
-featured_image_attr: Amelia Community Theatre
+poster_caption: Poster for Miracle on 34th Street
+featured_image_caption:
+poster_attr: Amelia Community Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

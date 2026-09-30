@@ -11,10 +11,12 @@ showtimes:
   - 2025-12-13 12:30:00
   - 2025-12-13 15:30:00
   - 2025-12-13 18:30:00
-featured_image: 2025-The-Legend-of-St-Nick.webp
+poster: 2025-The-Legend-of-St-Nick.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Photography by Eriden Images, Design by Jason Woods
+poster_attr: Photography by Eriden Images, Design by Jason Woods
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

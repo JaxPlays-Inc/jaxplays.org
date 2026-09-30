@@ -3,9 +3,11 @@ title: Assassins
 date: 2023-12-08
 opening_date: 2023-12-08
 closing_date: 2023-12-16
-featured_image: 2023-Assassins.webp
+poster: 2023-Assassins.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Assassins
+poster_caption: Poster for Assassins
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

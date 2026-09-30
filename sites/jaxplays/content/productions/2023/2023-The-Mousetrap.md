@@ -15,7 +15,8 @@ showtimes:
 - 2023-10-20 20:00:00
 - 2023-10-21 20:00:00
 - 2023-10-22 14:00:00
-featured_image: 2023-The-Mousetrap.webp
+poster: 2023-The-Mousetrap.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

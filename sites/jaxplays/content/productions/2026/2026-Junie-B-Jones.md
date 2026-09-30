@@ -15,7 +15,8 @@ showtimes:
   - 2026-04-24 19:30:00
   - 2026-04-25 19:30:00
   - 2026-04-26 14:00:00
-featured_image: 2026-Junie-B-Jones.webp?v=074810
+poster: 2026-Junie-B-Jones.webp?v=074810
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

@@ -15,7 +15,8 @@ showtimes:
   - 2026-05-21 19:30:00
   - 2026-05-23 19:30:00
   - 2026-05-24 14:00:00
-featured_image: 2026-Sense-and-Sensibility.webp?v=080021
+poster: 2026-Sense-and-Sensibility.webp?v=080021
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

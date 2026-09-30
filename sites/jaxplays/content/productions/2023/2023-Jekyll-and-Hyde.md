@@ -6,9 +6,12 @@ date: 2024-06-12T23:44:08-04:00
 opening_date: 2023-10-13
 closing_date: 2023-10-22
 layout: productions
-featured_image: 2023_Jekyll_Hyde_The_Musical.webp
-featured_image_caption: "Poster for Jekyll & Hyde: The Musical by St. Marys Little Theatre"
-featured_image_attr: "St. Marys Little Theatre"
+poster: 2023_Jekyll_Hyde_The_Musical.webp
+featured_image:
+poster_caption: "Poster for Jekyll & Hyde: The Musical by St. Marys Little Theatre"
+featured_image_caption:
+poster_attr: "St. Marys Little Theatre"
+featured_image_attr:
 description: "*Jekyll & Hyde: The Musical* reveals a haunting tale of love, madness, and duality. An unforgettable, thrilling experience."
 program:
 theatre: St. Marys Little Theatre

@@ -16,10 +16,13 @@ showtimes:
 - 2024-11-08 19:30:00
 - 2024-11-09 19:30:00
 - 2024-11-10 15:00:00
-featured_image: 2024-The-Beverly-Hillbillies.webp
+poster: 2024-The-Beverly-Hillbillies.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for 'The Beverly Hillbillies'
-featured_image_attr: Artist Connection Theatre
+poster_caption: Graphic for 'The Beverly Hillbillies'
+featured_image_caption:
+poster_attr: Artist Connection Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://artistconnectiontheatre.org/season-2024-2025/
