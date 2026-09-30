@@ -21897,6 +21897,36 @@
   ],
   "the-center-for-spiritual-living": [
     {
+      "title": "After",
+      "url": "/productions/2026-after/",
+      "contentPath": "productions/2026/2026-After",
+      "poster": "/media/posters/2026-After.webp",
+      "posterAlt": "Poster for After",
+      "openingDate": "2026-10-16",
+      "closingDate": "2026-10-16",
+      "openingLabel": "Oct 16, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 16, 2026",
+      "closingLabel": "Oct 16, 2026",
+      "theatre": "A Classic Theatre",
+      "venues": [
+        "The Center for Spiritual Living"
+      ],
+      "allVenues": [
+        "The Center for Spiritual Living"
+      ],
+      "genres": [
+        "Staged Reading",
+        "Comedy",
+        "Fantasy"
+      ],
+      "summary": "A quirky comedy about what could happen when we go to the Afterlife.",
+      "tickets": "https://aclassictheatre.ludus.com/200543744",
+      "searchBase": "after oct 16, 2026 oct 16, 2026 a classic theatre the center for spiritual living staged reading comedy fantasy a quirky comedy about what could happen when we go to the afterlife.",
+      "featuredImage": "/media/featured_images/2026-After-Featured.webp",
+      "featuredImageAlt": "Featured image for A Classic Theatre's staged reading of After"
+    },
+    {
       "title": "Kimberly Akimbo",
       "url": "/productions/2026-kimberly-akimbo/",
       "contentPath": "productions/2026/2026-kimberly-akimbo",
@@ -23132,7 +23162,9 @@
       ],
       "summary": "Christopher Durang's Tony-winning comedy sends movie-star Masha and her young boyfriend Spike crashing into the quiet lives of siblings Vanya and Sonia.",
       "tickets": "https://aclassictheatre.ludus.com/show_page.php?show_id=200533267",
-      "searchBase": "vanya and sonia and masha and spike nov 6, 2026 nov 15, 2026 a classic theatre the waterworks play comedy christopher durang's tony-winning comedy sends movie-star masha and her young boyfriend spike crashing into the quiet lives of siblings vanya and sonia."
+      "searchBase": "vanya and sonia and masha and spike nov 6, 2026 nov 15, 2026 a classic theatre the waterworks play comedy christopher durang's tony-winning comedy sends movie-star masha and her young boyfriend spike crashing into the quiet lives of siblings vanya and sonia.",
+      "featuredImage": "/media/featured_images/2026-Vanya-and-Sonia-and-Masha-and-Spike-Featured.webp",
+      "featuredImageAlt": "Social preview image for Vanya and Sonia and Masha and Spike"
     },
     {
       "title": "Grand Horizons",

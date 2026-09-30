@@ -218,46 +218,48 @@ def poster_path(value: Any) -> str:
     return f"/media/posters/{poster}"
 
 
-def poster_src(data: dict[str, Any], default: str = "") -> str:
-    poster = data.get("poster")
-    if isinstance(poster, dict):
-        src = poster.get("src")
+def featured_image_path(value: Any) -> str:
+    image = str(value or "").strip()
+    if not image:
+        return ""
+    if image.startswith(("http://", "https://", "//", "/")):
+        return image
+    return f"/media/featured_images/{image}"
+
+
+def image_src(data: dict[str, Any], key: str, default: str = "") -> str:
+    image = data.get(key)
+    if isinstance(image, dict):
+        src = image.get("src")
         if isinstance(src, str) and src.strip():
             return src.strip()
-    if isinstance(poster, str) and poster.strip():
-        return poster.strip()
-
-    featured_image = data.get("featured_image")
-    if isinstance(featured_image, dict):
-        src = featured_image.get("src")
-        if isinstance(src, str) and src.strip():
-            return src.strip()
-    if isinstance(featured_image, str) and featured_image.strip():
-        return featured_image.strip()
-
+    if isinstance(image, str) and image.strip():
+        return image.strip()
     return default
+
+
+def image_alt(data: dict[str, Any], image_key: str, alt_key: str, default: str = "") -> str:
+    image = data.get(image_key)
+    if isinstance(image, dict):
+        alt = image.get("alt")
+        if isinstance(alt, str) and alt.strip():
+            return alt.strip()
+    alt = data.get(alt_key)
+    if isinstance(alt, str) and alt.strip():
+        return alt.strip()
+    return default
+
+
+def poster_src(data: dict[str, Any], default: str = "") -> str:
+    return image_src(data, "poster") or image_src(data, "featured_image") or default
 
 
 def poster_alt(data: dict[str, Any], default: str = "") -> str:
-    poster = data.get("poster")
-    if isinstance(poster, dict):
-        alt = poster.get("alt")
-        if isinstance(alt, str) and alt.strip():
-            return alt.strip()
-    alt = data.get("poster_alt")
-    if isinstance(alt, str) and alt.strip():
-        return alt.strip()
-
-    featured_image = data.get("featured_image")
-    if isinstance(featured_image, dict):
-        alt = featured_image.get("alt")
-        if isinstance(alt, str) and alt.strip():
-            return alt.strip()
-    alt = data.get("featured_image_alt")
-    if isinstance(alt, str) and alt.strip():
-        return alt.strip()
-
-    return default
+    return (
+        image_alt(data, "poster", "poster_alt")
+        or image_alt(data, "featured_image", "featured_image_alt")
+        or default
+    )
 
 
 def content_permalink(section: str, path: Path, data: dict[str, Any]) -> str:
@@ -398,6 +400,8 @@ def show_card_data(shows_dir: Path) -> dict[str, dict[str, Any]]:
             "genres": normalize_list(data.get("genres")),
             "poster": poster,
             "poster_alt": poster_alt(data, f"{title} poster") if poster else "",
+            "featured_image": image_src(data, "featured_image"),
+            "featured_image_alt": image_alt(data, "featured_image", "featured_image_alt"),
         }
 
     return shows
@@ -466,14 +470,24 @@ def production_card_entry(
     show = shows.get(normalize_name(title), {})
     opening_date = json_safe(data.get("opening_date")) or ""
     closing_date = json_safe(data.get("closing_date")) or opening_date
-    featured_image = poster_src(data)
-    poster_alt_text = poster_alt(data)
-    if not poster_alt_text:
-        poster_alt_text = show.get("poster_alt") or ""
-    if not featured_image:
-        featured_image = show.get("poster") or ""
-    if not poster_alt_text:
-        poster_alt_text = f"{title} poster"
+    explicit_poster = image_src(data, "poster") or show.get("poster") or ""
+    explicit_featured_image = image_src(data, "featured_image") or show.get("featured_image") or ""
+    poster_image = explicit_poster or explicit_featured_image
+    featured_image = ""
+    if explicit_poster and explicit_featured_image and explicit_featured_image != explicit_poster:
+        featured_image = explicit_featured_image
+    poster_alt = (
+        image_alt(data, "poster", "poster_alt")
+        or show.get("poster_alt")
+        or image_alt(data, "featured_image", "featured_image_alt")
+        or show.get("featured_image_alt")
+        or f"{title} poster"
+    )
+    featured_image_alt = (
+        image_alt(data, "featured_image", "featured_image_alt")
+        or show.get("featured_image_alt")
+        or ""
+    )
     venues = normalize_list(data.get("venue"))
     theatre = str(data.get("theatre") or "")
     normalized_theatre = plain_text(theatre).lower().strip()
@@ -498,12 +512,12 @@ def production_card_entry(
         summary,
     ]
 
-    return {
+    card = {
         "title": title,
         "url": content_permalink("productions", path, data),
         "contentPath": content_page_path(path),
-        "poster": poster_path(featured_image),
-        "posterAlt": str(poster_alt_text),
+        "poster": poster_path(poster_image),
+        "posterAlt": str(poster_alt),
         "openingDate": opening_date,
         "closingDate": closing_date,
         "openingLabel": opening_label,
@@ -518,6 +532,11 @@ def production_card_entry(
         "tickets": data.get("tickets") or "",
         "searchBase": " ".join(part for part in search_parts if part).lower(),
     }
+    if featured_image:
+        card["featuredImage"] = featured_image_path(featured_image)
+        card["featuredImageAlt"] = str(featured_image_alt)
+
+    return card
 
 
 def production_cards(productions_dir: Path, shows: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
