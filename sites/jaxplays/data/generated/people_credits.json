@@ -97192,6 +97192,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-after/",
+        "title": "After",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Center for Spiritual Living",
+        "featured_image": "2026-After.webp",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
         "permalink": "/productions/2026-rounding-third/",
         "title": "Rounding Third",
         "opening_date": "2026-05-01",
@@ -114230,6 +114242,18 @@
   },
   "jen-farrow": {
     "cast": [
+      {
+        "permalink": "/productions/2026-after/",
+        "title": "After",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Center for Spiritual Living",
+        "featured_image": "2026-After.webp",
+        "credits": [
+          "Daisy"
+        ]
+      },
       {
         "permalink": "/productions/2025-sense-and-sensibility/",
         "title": "Sense & Sensibility",
