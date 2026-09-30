@@ -12,7 +12,8 @@ showtimes:
   - 2024-09-20 20:00:00
   - 2024-09-21 20:00:00
   - 2024-09-22 14:00:00
-featured_image: 2024-The-Revolutionists.webp
+poster: 2024-The-Revolutionists.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -10,9 +10,11 @@ showtimes:
 - 2023-11-04 11:00:00
 - 2023-11-04 17:00:00
 - 2023-11-05 14:00:00
-featured_image: 2023-Godspell.webp
+poster: 2023-Godspell.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for Godspell
+poster_caption: Graphic for Godspell
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

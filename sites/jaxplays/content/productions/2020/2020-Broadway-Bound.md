@@ -6,9 +6,11 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2020-01-24
 closing_date: 2020-01-26
-featured_image: 2020_Broadway_Bound.png
+poster: 2020_Broadway_Bound.png
+featured_image:
 featured_image_attr:
-featured_image_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
+poster_alt: 'The 5 & Dime Live! Cabaret Series: Broadway Bound!'
+featured_image_alt:
 featured_image_caption:
 theatre: The 5 & Dime
 website: https://www.the5anddime.org/broadway-bound

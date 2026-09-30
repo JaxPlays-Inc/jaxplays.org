@@ -13,11 +13,15 @@ showtimes:
 - 2023-12-08 19:30:00
 - 2023-12-09 19:30:00
 - 2023-12-10 14:30:00
-featured_image: 2023-Scrooge-the-Musical.webp
+poster: 2023-Scrooge-the-Musical.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for Scrooge: The Musical"
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/program-covers
+poster_caption: "Graphic for Scrooge: The Musical"
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/program-covers
+featured_image_attr_link:
 program:
 website: https://ameliamusicalplayhouse.com/performances/scrooge2023/
 tickets: https://ameliamusicalplayhouse.com/tickets/

@@ -17,7 +17,8 @@ showtimes:
 - 2026-03-05 19:30:00
 - 2026-03-06 19:30:00
 - 2026-03-07 19:30:00
-featured_image: 2026-The-Fever.webp
+poster: 2026-The-Fever.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

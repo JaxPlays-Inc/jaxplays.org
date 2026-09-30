@@ -17,7 +17,8 @@ showtimes:
 - 2026-05-07 19:30:00
 - 2026-05-08 19:30:00
 - 2026-05-09 19:30:00
-featured_image: 2026-The-Pillowman.webp
+poster: 2026-The-Pillowman.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

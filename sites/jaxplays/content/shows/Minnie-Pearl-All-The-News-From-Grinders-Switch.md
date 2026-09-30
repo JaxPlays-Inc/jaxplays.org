@@ -1,9 +1,12 @@
 ---
 title: "Minnie Pearl: All The News From Grinder's Switch"
 date: 2024-06-18T15:03:15-04:00
-featured_image: 2024-Minnie-Pearl-All-The-News-From-Grinders-Switch.webp
-featured_image_alt: "Promotional poster for 'Minnie Pearl All The News From Grinders Switch' featuring a stage scene with characters in mid-performance."
-featured_image_caption: "Laugh along with 'Minnie Pearl All The News From Grinders Switch', a charming musical that brings classic country humor to the stage."
+poster: 2024-Minnie-Pearl-All-The-News-From-Grinders-Switch.webp
+featured_image:
+poster_alt: "Promotional poster for 'Minnie Pearl All The News From Grinders Switch' featuring a stage scene with characters in mid-performance."
+featured_image_alt:
+poster_caption: "Laugh along with 'Minnie Pearl All The News From Grinders Switch', a charming musical that brings classic country humor to the stage."
+featured_image_caption:
 show_details: 
 - Music, Lyrics and Book: Don Cusic
 - Musical Arrangements: 

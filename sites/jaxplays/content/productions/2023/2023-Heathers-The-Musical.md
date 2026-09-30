@@ -10,9 +10,11 @@ showtimes:
 - 2023-11-03 19:00:00
 - 2023-11-04 19:00:00
 - 2023-11-05 13:00:00
-featured_image: 2023-Heathers-The-Musical.webp
+poster: 2023-Heathers-The-Musical.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for Heathers: The Musical"
+poster_caption: "Graphic for Heathers: The Musical"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

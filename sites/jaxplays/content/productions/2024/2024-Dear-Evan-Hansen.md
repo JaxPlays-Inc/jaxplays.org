@@ -9,8 +9,10 @@ opening_date: 2024-11-03
 closing_date: 2024-11-03
 showtimes:
 - 2024-11-03 19:00:00
-featured_image: Dear-Evan-Hansen.webp
-featured_image_alt: Poster of Dear Evan Hansen
+poster: Dear-Evan-Hansen.webp
+featured_image:
+poster_alt: Poster of Dear Evan Hansen
+featured_image_alt:
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 

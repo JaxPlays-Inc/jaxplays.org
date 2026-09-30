@@ -10,9 +10,12 @@ showtimes:
   - 2026-10-09 19:00:00
   - 2026-10-10 19:00:00
   - 2026-10-11 15:00:00
-featured_image: 2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
-featured_image_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat
-featured_image_caption: Poster for Joseph and the Amazing Technicolor Dreamcoat
+poster: 2026-Joseph-and-the-Amazing-Technicolor-Dreamcoat.webp
+featured_image:
+poster_alt: Poster for Joseph and the Amazing Technicolor Dreamcoat
+featured_image_alt:
+poster_caption: Poster for Joseph and the Amazing Technicolor Dreamcoat
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

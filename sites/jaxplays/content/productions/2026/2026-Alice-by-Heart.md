@@ -17,9 +17,12 @@ showtimes:
   - 2026-02-16 14:00:00
   - 2026-02-20 20:00:00
   - 2026-02-21 20:00:00
-featured_image: 2026-Alice-by-Heart.webp
-featured_image_alt: Poster for The 5 & Dime's production of Alice by Heart
-featured_image_caption: Poster for Alice by Heart
+poster: 2026-Alice-by-Heart.webp
+featured_image:
+poster_alt: Poster for The 5 & Dime's production of Alice by Heart
+featured_image_alt:
+poster_caption: Poster for Alice by Heart
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2026-Alice-by-Heart.pdf

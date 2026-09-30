@@ -17,7 +17,8 @@ showtimes:
 - 2025-09-25 20:00:00
 - 2025-09-26 20:00:00
 - 2025-09-27 20:00:00
-featured_image: 2025-Gutenberg.webp
+poster: 2025-Gutenberg.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -13,7 +13,8 @@ showtimes:
   - 2025-10-17 20:00:00
   - 2025-10-18 20:00:00
   - 2025-10-19 15:00:00
-featured_image: 2025-Ripcord.webp
+poster: 2025-Ripcord.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

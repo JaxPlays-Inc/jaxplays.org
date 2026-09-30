@@ -8,10 +8,13 @@ closing_date: 2024-04-14
 showtimes:
   - 2024-04-12 19:30:00
   - 2024-04-14 15:00:00
-featured_image: 2024-Carmen.webp
+poster: 2024-Carmen.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster of 'Carmen' at the Jacksonville Symphony
-featured_image_attr: Photo of Carmen in a red dress with drammatic lighting
+poster_caption: Poster of 'Carmen' at the Jacksonville Symphony
+featured_image_caption:
+poster_attr: Photo of Carmen in a red dress with drammatic lighting
+featured_image_attr:
 featured_image_attr_link: 
 program: 
 website: https://my.jaxsymphony.org/carmen

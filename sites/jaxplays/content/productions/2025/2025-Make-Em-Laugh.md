@@ -11,11 +11,16 @@ showtimes:
   - 2025-09-19 19:30:00
   - 2025-09-20 19:30:00
   - 2025-09-21 14:00:00
-featured_image: 2025-Make-Em-Laugh.webp
-featured_image_alt: ''
-featured_image_caption: ''
-featured_image_attr: ''
-featured_image_attr_link: ''
+poster: 2025-Make-Em-Laugh.webp
+featured_image:
+poster_alt: ''
+featured_image_alt:
+poster_caption: ''
+featured_image_caption:
+poster_attr: ''
+featured_image_attr:
+poster_attr_link: ''
+featured_image_attr_link:
 playbill: ''
 website: https://www.theislandtheater.com/event-details/make-em-laugh-tickets-2025-09-20-19-30
 tickets: https://www.theislandtheater.com/event-details/make-em-laugh-tickets-2025-09-13-19-30

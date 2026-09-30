@@ -20,11 +20,16 @@ showtimes:
   - 2026-05-22 19:30:00
   - 2026-05-23 19:30:00
   - 2026-05-24 14:00:00
-featured_image: 2026-Once-On-This-Island.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: null
-featured_image_attr_link: null
+poster: 2026-Once-On-This-Island.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: null
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: null
 website: https://www.limelight-theatre.org/calendar/on-stage/once-on-this-island-1
 tickets: https://limelight.ludus.com/index.php?show_id=200487540

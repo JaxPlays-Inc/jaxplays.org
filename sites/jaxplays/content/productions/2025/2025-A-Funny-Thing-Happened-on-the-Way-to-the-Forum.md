@@ -10,7 +10,8 @@ closing_date: 2025-08-24
 showtimes:
   - 2025-08-23 19:30:00
   - 2025-08-24 14:00:00
-featured_image: 2025-A-Funny-Thing-Happened-on-the-Way-to-the-Forum.webp
+poster: 2025-A-Funny-Thing-Happened-on-the-Way-to-the-Forum.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

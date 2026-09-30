@@ -13,7 +13,8 @@ showtimes:
 - 2024-09-27 19:30:00
 - 2024-09-28 19:30:00
 - 2024-09-29 14:00:00
-featured_image: 2024-Mary-Poppins.webp
+poster: 2024-Mary-Poppins.webp
+featured_image:
 featured_image_alt: 
 program:
 website: 

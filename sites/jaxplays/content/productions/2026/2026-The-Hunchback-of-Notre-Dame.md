@@ -13,11 +13,16 @@ showtimes:
   - 2026-08-21 19:00:00
   - 2026-08-22 19:00:00
   - 2026-08-23 13:00:00
-featured_image: 2026-The-Hunchback-of-Notre-Dame.webp
-featured_image_alt: "Quasimodo stands beneath the title treatment in Greenlight Theatre Company's The Hunchback of Notre Dame."
-featured_image_caption: "Greenlight Theatre Company's The Hunchback of Notre Dame."
-featured_image_attr: Greenlight Theatre Company
-featured_image_attr_link: https://www.greenlighttheatreco.com/event-details/the-hunchback-of-notre-dame-friday-aug-14
+poster: 2026-The-Hunchback-of-Notre-Dame.webp
+featured_image:
+poster_alt: "Quasimodo stands beneath the title treatment in Greenlight Theatre Company's The Hunchback of Notre Dame."
+featured_image_alt:
+poster_caption: "Greenlight Theatre Company's The Hunchback of Notre Dame."
+featured_image_caption:
+poster_attr: Greenlight Theatre Company
+featured_image_attr:
+poster_attr_link: https://www.greenlighttheatreco.com/event-details/the-hunchback-of-notre-dame-friday-aug-14
+featured_image_attr_link:
 program:
 website: https://www.greenlighttheatreco.com/event-details/the-hunchback-of-notre-dame-friday-aug-14
 tickets: https://www.greenlighttheatreco.com/jaxonstage

@@ -2,9 +2,12 @@
 title: Fiddler on the Roof
 date: 2024-06-17T17:16:55-04:00
 layout: shows
-featured_image: Fiddler_on_the_Roof.jpg
-featured_image_caption: Playbill from the original Broadway production of Fiddler on the Roof
-featured_image_attr: Playbill
+poster: Fiddler_on_the_Roof.jpg
+featured_image:
+poster_caption: Playbill from the original Broadway production of Fiddler on the Roof
+featured_image_caption:
+poster_attr: Playbill
+featured_image_attr:
 genres:
 - Musical
 - Drama

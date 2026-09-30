@@ -12,9 +12,12 @@ showtimes:
   - 2026-11-12 19:30:00
   - 2026-11-13 19:30:00
   - 2026-11-14 19:30:00
-featured_image: 2026-Always-Patsy-Cline.webp
-featured_image_alt: Poster for Blue Fire Theatre's production of Always... Patsy Cline
-featured_image_caption: Poster for Always... Patsy Cline
+poster: 2026-Always-Patsy-Cline.webp
+featured_image:
+poster_alt: Poster for Blue Fire Theatre's production of Always... Patsy Cline
+featured_image_alt:
+poster_caption: Poster for Always... Patsy Cline
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

@@ -46,10 +46,14 @@ showtimes:
   - 2024-09-28 18:00:00
   - 2024-09-29 12:00:00
   - 2024-09-29 18:00:00
-featured_image: 2024-Gypsy.webp
-featured_image_alt: Poster for Gypsy
-featured_image_caption: Poster for 'Gypsy'
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2024-Gypsy.webp
+featured_image:
+poster_alt: Poster for Gypsy
+featured_image_alt:
+poster_caption: Poster for 'Gypsy'
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

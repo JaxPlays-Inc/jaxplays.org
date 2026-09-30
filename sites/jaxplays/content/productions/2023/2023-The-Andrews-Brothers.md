@@ -19,9 +19,11 @@ showtimes:
   - 2023-11-17 17:30:00
   - 2023-11-18 11:00:00
   - 2023-11-18 17:30:00
-featured_image: 2023-The-Andrews-Brothers.webp
+poster: 2023-The-Andrews-Brothers.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for The Andrews Brothers
+poster_caption: Graphic for The Andrews Brothers
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

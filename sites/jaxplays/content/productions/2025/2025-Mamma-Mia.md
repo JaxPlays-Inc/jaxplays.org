@@ -15,9 +15,11 @@ showtimes:
   - 2025-01-11 20:00:00
   - 2025-01-12 13:00:00
   - 2025-01-12 18:30:00
-featured_image: 2025-Mamma-Mia.webp
+poster: 2025-Mamma-Mia.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for 'Mamma Mia!'"
+poster_caption: "Graphic for 'Mamma Mia!'"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:
@@ -112,7 +114,6 @@ reviews:
   outlet: Folio Weekly
   description: ''
   featured_image: ''
-
 ---
 
 {{< youtube 0N6_52JXA2o >}}

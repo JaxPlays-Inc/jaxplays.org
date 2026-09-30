@@ -15,9 +15,11 @@ showtimes:
 - 2024-05-03 20:00:00
 - 2024-05-04 20:00:00
 - 2024-05-05 14:00:00
-featured_image: 2024-God-of-Carnage.webp
+poster: 2024-God-of-Carnage.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'God of Carnage' at Orange Park Community Theatre
+poster_caption: Poster for 'God of Carnage' at Orange Park Community Theatre
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

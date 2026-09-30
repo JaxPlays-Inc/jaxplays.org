@@ -10,7 +10,8 @@ showtimes:
 - 2019-02-09 14:00:00
 - 2019-02-09 19:30:00
 - 2019-02-10 14:00:00
-featured_image: 2019-Peter-Pan.webp
+poster: 2019-Peter-Pan.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

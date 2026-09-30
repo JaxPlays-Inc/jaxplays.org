@@ -9,7 +9,8 @@ closing_date: 2025-04-14
 showtimes:
 - 2025-04-13 17:00:00
 - 2025-04-14 10:30:00
-featured_image: 2025-Dog-Man-The-Musical.webp
+poster: 2025-Dog-Man-The-Musical.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

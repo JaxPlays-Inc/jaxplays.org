@@ -17,7 +17,8 @@ showtimes:
   - 2025-12-10 19:30:00
   - 2025-12-11 19:30:00
   - 2025-12-14 19:00:00
-featured_image: 2025-Little-Women-3.webp
+poster: 2025-Little-Women-3.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -16,10 +16,13 @@ showtimes:
   - 2026-09-11 19:30:00
   - 2026-09-12 19:30:00
   - 2026-09-13 14:30:00
-featured_image: 2026-Come-From-Away-3.webp
-featured_image_alt: Poster for Come From Away at Amelia Musical Playhouse, with September 2-6 and 9-13, 2026 dates.
+poster: 2026-Come-From-Away-3.webp
+featured_image:
+poster_alt: Poster for Come From Away at Amelia Musical Playhouse, with September 2-6 and 9-13, 2026 dates.
+featured_image_alt:
 featured_image_caption:
-featured_image_attr: Bill Ivins
+poster_attr: Bill Ivins
+featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://ameliamusicalplayhouse.com/performances/come-from-away/

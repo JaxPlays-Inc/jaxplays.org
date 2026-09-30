@@ -15,7 +15,8 @@ showtimes:
   - 2025-07-25 19:00:00
   - 2025-07-26 19:00:00
   - 2025-07-27 19:00:00
-featured_image: 2025-Oliver!.webp
+poster: 2025-Oliver!.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

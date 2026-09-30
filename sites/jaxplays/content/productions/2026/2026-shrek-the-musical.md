@@ -66,11 +66,16 @@ showtimes:
 - '2026-08-08 17:30:00'
 - '2026-08-09 12:00:00'
 - '2026-08-09 17:30:00'
-featured_image: 2026-Shrek.webp
-featured_image_alt: null
-featured_image_caption: null
-featured_image_attr: null
-featured_image_attr_link: null
+poster: 2026-Shrek.webp
+featured_image:
+poster_alt: null
+featured_image_alt:
+poster_caption: null
+featured_image_caption:
+poster_attr: null
+featured_image_attr:
+poster_attr_link: null
+featured_image_attr_link:
 program: 2026-Shrek-the-Musical.pdf
 website: null
 source_url: https://www.alhambrajax.com

@@ -19,10 +19,13 @@ showtimes:
 - 2024-01-26 19:30:00
 - 2024-01-27 19:30:00
 - 2024-01-28 14:00:00
-featured_image: 2024-The-Kitchen-Witches.webp
+poster: 2024-The-Kitchen-Witches.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Kitchen Witches
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for Kitchen Witches
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

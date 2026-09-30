@@ -6,10 +6,13 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2022-07-22
 closing_date: 2022-07-31
-featured_image: 2022_Snoopy_the_Musical.jpg
-featured_image_attr: ABET
+poster: 2022_Snoopy_the_Musical.jpg
+featured_image:
+poster_attr: ABET
+featured_image_attr:
 featured_image_alt:
-featured_image_caption: Poster of 2022 production of Snoopy! The Musical
+poster_caption: Poster of 2022 production of Snoopy! The Musical
+featured_image_caption:
 category: musical
 theatre: ABET - All Beaches Experimental Theatre
 tickets: https://www.eventbrite.com/e/snoopy-the-musical-directed-by-cathy-dooley-tickets-169204024793

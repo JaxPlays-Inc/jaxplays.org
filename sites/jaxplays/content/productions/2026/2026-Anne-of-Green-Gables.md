@@ -16,9 +16,12 @@ showtimes:
   - 2026-05-08 19:30:00
   - 2026-05-09 19:30:00
   - 2026-05-10 15:00:00
-featured_image: 2026-Anne-of-Green-Gables.webp
-featured_image_alt: Poster for Artist Connection Theatre's production of Anne of Green Gables
-featured_image_caption: Poster for Anne of Green Gables
+poster: 2026-Anne-of-Green-Gables.webp
+featured_image:
+poster_alt: Poster for Artist Connection Theatre's production of Anne of Green Gables
+featured_image_alt:
+poster_caption: Poster for Anne of Green Gables
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:

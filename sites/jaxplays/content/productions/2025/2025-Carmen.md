@@ -10,9 +10,12 @@ showtimes:
   - 2025-12-31T19:30:00-05:00
   - 2026-01-02T14:00:00-05:00
   - 2026-01-04T14:00:00-05:00
-featured_image: 2025-Carmen.webp
-featured_image_alt: 'First Coast Opera presents Georges Bizet’s opera "Carmen" at Lewis Auditorium in St. Augustine'
-featured_image_caption: '"Carmen" presented by First Coast Opera at Lewis Auditorium in St. Augustine'
+poster: 2025-Carmen.webp
+featured_image:
+poster_alt: 'First Coast Opera presents Georges Bizet’s opera "Carmen" at Lewis Auditorium in St. Augustine'
+featured_image_alt:
+poster_caption: '"Carmen" presented by First Coast Opera at Lewis Auditorium in St. Augustine'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

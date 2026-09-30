@@ -12,11 +12,16 @@ showtimes:
   - 2026-08-22T14:00:00-04:00
   - 2026-08-22T20:00:00-04:00
   - 2026-08-23T14:00:00-04:00
-featured_image: 2026-When-Kingdom-Comes.webp
-featured_image_alt: "Poster for When Kingdom Comes, with gold gothic lettering over a dark purple background, shadowed figures and a house framed by orange trees."
-featured_image_caption: "*When Kingdom Comes* at JAMS Black Box Theatre."
-featured_image_attr: JAMS Black Box Theatre
-featured_image_attr_link: https://www.jamsblackboxtheatre.org
+poster: 2026-When-Kingdom-Comes.webp
+featured_image:
+poster_alt: "Poster for When Kingdom Comes, with gold gothic lettering over a dark purple background, shadowed figures and a house framed by orange trees."
+featured_image_alt:
+poster_caption: "*When Kingdom Comes* at JAMS Black Box Theatre."
+featured_image_caption:
+poster_attr: JAMS Black Box Theatre
+featured_image_attr:
+poster_attr_link: https://www.jamsblackboxtheatre.org
+featured_image_attr_link:
 program:
 website: https://jamslife.networkforgood.com/events/102628-when-kingdom-comes
 tickets: https://jamslife.networkforgood.com/events/102628-when-kingdom-comes?utm_source=jaxplays&utm_medium=web&utm_content=ticket_link

@@ -15,9 +15,11 @@ showtimes:
   - 2025-04-05 20:00:00
   - 2025-04-06 13:00:00
   - 2025-04-06 18:30:00
-featured_image: 2025-Les-Miserables.webp
+poster: 2025-Les-Miserables.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: "Graphic for 'Les Misérables'"
+poster_caption: "Graphic for 'Les Misérables'"
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

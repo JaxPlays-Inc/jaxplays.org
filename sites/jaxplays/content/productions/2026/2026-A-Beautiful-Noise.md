@@ -17,7 +17,8 @@ showtimes:
   - 2026-04-18 19:30:00
   - 2026-04-19 13:00:00
   - 2026-04-19 18:30:00
-featured_image: 2026-A-Beautiful-Noise.webp
+poster: 2026-A-Beautiful-Noise.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

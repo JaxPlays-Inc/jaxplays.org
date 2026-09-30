@@ -1,9 +1,12 @@
 ---
 title: Grease
 date: 2024-04-22T12:50:34-04:00
-featured_image: Grease.webp
-featured_image_caption: Poster from the original Broadway production of 'Grease'
-featured_image_attr: By unknown - Amazon.com, Fair use
+poster: Grease.webp
+featured_image:
+poster_caption: Poster from the original Broadway production of 'Grease'
+featured_image_caption:
+poster_attr: By unknown - Amazon.com, Fair use
+featured_image_attr:
 featured_image_attrlink: https://www.amazon.com/Grease-Broadway-POSTER-Movie-Inches/dp/B00KK6LDZA
 show_details: 
 - Music:

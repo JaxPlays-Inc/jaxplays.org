@@ -5,7 +5,8 @@ date: 2023-09-08T00:00:00
 opening_date: 2022-04-14
 closing_date: 2022-05-01
 category: musical
-featured_image: 2022_Matilda_(musical).png
+poster: 2022_Matilda_(musical).png
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

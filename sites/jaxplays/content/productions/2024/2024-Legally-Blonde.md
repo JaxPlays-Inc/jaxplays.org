@@ -17,11 +17,16 @@ showtimes:
   - 2024-07-19 19:30:00
   - 2024-07-20 19:30:00
   - 2024-07-21 14:30:00
-featured_image: 2024-Legally-Blonde-The-Musical.webp
-featured_image_alt: "Poster for *Legally Blonde* showcasing a vibrant pink design with a graduation cap and a high-heeled shoe, reflecting the theme of the musical. The text highlights music and lyrics by Laurence O'Keefe and Nell Benjamin, based on the novel by Amanda Brown and the MGM motion picture."
-featured_image_caption: "*Legally Blonde* dazzles with its bright pink charm and witty story, capturing the journey of Elle Woods as she tackles stereotypes and scandal in pursuit of her dreams."
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/program-covers
+poster: 2024-Legally-Blonde-The-Musical.webp
+featured_image:
+poster_alt: "Poster for *Legally Blonde* showcasing a vibrant pink design with a graduation cap and a high-heeled shoe, reflecting the theme of the musical. The text highlights music and lyrics by Laurence O'Keefe and Nell Benjamin, based on the novel by Amanda Brown and the MGM motion picture."
+featured_image_alt:
+poster_caption: "*Legally Blonde* dazzles with its bright pink charm and witty story, capturing the journey of Elle Woods as she tackles stereotypes and scandal in pursuit of her dreams."
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/program-covers
+featured_image_attr_link:
 program:
 website: https://ameliamusicalplayhouse.com/performances/legally-blonde/
 tickets: https://904tix.com/organizations/amelia-musical-playhouse

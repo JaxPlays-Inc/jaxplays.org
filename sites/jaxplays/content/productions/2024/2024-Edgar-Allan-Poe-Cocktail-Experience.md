@@ -16,9 +16,12 @@ showtimes:
   - 2024-01-06 18:00:00
   - 2024-01-06 20:00:00
   - 2024-01-06 22:00:00
-featured_image: 2024-Edgar-Allan-Poe.webp
-featured_image_alt: Poster for Edgar Allan Poe Cocktail Experience
-featured_image_caption: Poster for Edgar Allan Poe Cocktail Experience
+poster: 2024-Edgar-Allan-Poe.webp
+featured_image:
+poster_alt: Poster for Edgar Allan Poe Cocktail Experience
+featured_image_alt:
+poster_caption: Poster for Edgar Allan Poe Cocktail Experience
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

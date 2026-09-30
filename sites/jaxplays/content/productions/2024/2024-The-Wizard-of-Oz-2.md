@@ -18,10 +18,12 @@ showtimes:
   - 2024-11-15 19:30:00
   - 2024-11-16 19:30:00
   - 2024-11-17 14:30:00
-featured_image: 2024-The-Wizard-of-Oz-2.webp
+poster: 2024-The-Wizard-of-Oz-2.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Bill Ivins
+poster_attr: Bill Ivins
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://ameliamusicalplayhouse.com/performances/oz2024/

@@ -4,7 +4,8 @@ title: Shadowlands
 redirect_from:
 - /productions/2020_Shadowlands
 date: 2025-10-05T19:22:30-04:00
-featured_image: 2020-Shadowlands.webp
+poster: 2020-Shadowlands.webp
+featured_image:
 opening_date: 2020-01-10
 closing_date: 2020-01-26
 theatre: Theatre Jacksonville

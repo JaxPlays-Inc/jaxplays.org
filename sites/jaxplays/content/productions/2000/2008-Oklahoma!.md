@@ -3,9 +3,12 @@ title: Oklahoma!
 date: 2023-09-08T00:00:00
 opening_date: 2008-04-04
 closing_date: 2008-04-12
-featured_image: 2008-Oklahoma!.webp
-featured_image_alt: Playbill cover for Oklahoma!
-featured_image_caption: Playbill cover for Oklahoma!
+poster: 2008-Oklahoma!.webp
+featured_image:
+poster_alt: Playbill cover for Oklahoma!
+featured_image_alt:
+poster_caption: Playbill cover for Oklahoma!
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

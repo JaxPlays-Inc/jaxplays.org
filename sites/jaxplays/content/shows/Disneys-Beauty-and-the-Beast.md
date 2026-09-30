@@ -1,9 +1,12 @@
 ---
 title: Disney's Beauty and the Beast
 date: 2024-05-31T17:01:20-04:00
-featured_image: Disneys-Beauty-and-the-Beast.webp
-featured_image_caption: Poster for Disney's Beauty and the Beast
-featured_image_attr: Disney Theatrical Productions
+poster: Disneys-Beauty-and-the-Beast.webp
+featured_image:
+poster_caption: Poster for Disney's Beauty and the Beast
+featured_image_caption:
+poster_attr: Disney Theatrical Productions
+featured_image_attr:
 show_details:
 - Music: "[[w:Alan Menken]]"
 - Book: "[[w:Linda Woolverton]]"

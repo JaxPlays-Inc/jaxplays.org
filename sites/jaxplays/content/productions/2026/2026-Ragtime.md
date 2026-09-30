@@ -7,7 +7,8 @@ date: 2026-06-01T17:35:00-04:00
 opening_date: 2026-11-20
 closing_date: 2026-12-13
 showtimes: null
-featured_image: 2026-Ragtime.webp
+poster: 2026-Ragtime.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

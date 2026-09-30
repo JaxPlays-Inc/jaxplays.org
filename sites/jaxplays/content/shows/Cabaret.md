@@ -1,11 +1,16 @@
 ---
 title: Cabaret
 date: 2024-04-17T22:58:39-04:00
-featured_image: Cabaret.webp
-featured_image_alt: Poster for 'Cabaret'
-featured_image_caption: Poster for 'Cabaret'
-featured_image_attr: By Tom Morrow (illustrator) - Filmes, filmes, filmes! (e outras cositas mais), Fair use
-featured_image_attr_link: https://en.wikipedia.org/w/index.php?curid=66590342
+poster: Cabaret.webp
+featured_image:
+poster_alt: Poster for 'Cabaret'
+featured_image_alt:
+poster_caption: Poster for 'Cabaret'
+featured_image_caption:
+poster_attr: By Tom Morrow (illustrator) - Filmes, filmes, filmes! (e outras cositas mais), Fair use
+featured_image_attr:
+poster_attr_link: https://en.wikipedia.org/w/index.php?curid=66590342
+featured_image_attr_link:
 show_details: 
 - Music: "[[w:John Kander]]"
 - Lyrics: "[[w:Fred Ebb]]"

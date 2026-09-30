@@ -6,7 +6,8 @@ redirect_from:
 date: 2026-07-12T17:28:14-04:00
 opening_date: 2019-09-20
 closing_date: 2019-10-05
-featured_image: 2019_Silence_The_Musical.webp
+poster: 2019_Silence_The_Musical.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

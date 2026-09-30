@@ -69,7 +69,8 @@ showtimes:
   - 2025-08-16 17:30:00
   - 2025-08-17 12:00:00
   - 2025-08-17 17:30:00
-featured_image: 2025-Charlie-and-the-Chocolate-Factory.webp
+poster: 2025-Charlie-and-the-Chocolate-Factory.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

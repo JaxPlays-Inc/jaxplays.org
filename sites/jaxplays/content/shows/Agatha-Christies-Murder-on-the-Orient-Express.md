@@ -1,9 +1,11 @@
 ---
 title: "Agatha Christie's Murder on the Orient Express"
 date: 2024-09-09T23:29:39-04:00
-featured_image: Agatha-Christies-Murder-on-the-Orient-Express.webp
+poster: Agatha-Christies-Murder-on-the-Orient-Express.webp
+featured_image:
 featured_image_caption: 
-featured_image_attr: Concord Theatricals
+poster_attr: Concord Theatricals
+featured_image_attr:
 show_details: 
 - Playwright: "[[w:Agatha Christie]]"
 - Basis: "*[[w:Murder on the Orient Express]]* by Agatha Christie"

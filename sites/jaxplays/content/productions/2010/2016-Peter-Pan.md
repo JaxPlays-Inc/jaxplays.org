@@ -16,7 +16,8 @@ showtimes:
 - 2016-04-22 19:30:00
 - 2016-04-23 19:30:00
 - 2016-04-24 15:00:00
-featured_image: 2016-Peter-Pan.webp
+poster: 2016-Peter-Pan.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr:

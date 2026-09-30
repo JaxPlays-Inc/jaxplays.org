@@ -22,10 +22,13 @@ showtimes:
 - 2024-07-05 19:30:00
 - 2024-07-06 19:30:00
 - 2024-07-07 14:00:00
-featured_image: 2024-Always-a-Bridesmaid.webp
+poster: 2024-Always-a-Bridesmaid.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for Always A Bridesmaid
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for Always A Bridesmaid
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/season-32-shows-1/always-a-bridesmaid

@@ -15,11 +15,14 @@ showtimes:
 - 2024-03-29 19:30:00
 - 2024-03-30 19:30:00
 - 2024-03-31 19:30:00
-featured_image: 2024-Phantom.webp
+poster: 2024-Phantom.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Poster for 'Phantom'
-featured_image_attr_link: ABET - All Beaches Experimental Theatre
+poster_attr: Poster for 'Phantom'
+featured_image_attr:
+poster_attr_link: ABET - All Beaches Experimental Theatre
+featured_image_attr_link:
 program:
 website: 
 tickets: https://www.eventbrite.com/e/phantom-the-musical-tickets-679811242727

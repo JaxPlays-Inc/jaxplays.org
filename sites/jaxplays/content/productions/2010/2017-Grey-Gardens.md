@@ -19,10 +19,12 @@ showtimes:
   - 2017-11-19 14:00:00
 theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
-featured_image: 2017-Grey-Gardens.webp
+poster: 2017-Grey-Gardens.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Theatre Jacksonville
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 featured_image_attr_link: 
 show_details: 
 - Music: "[[w:Scott Frankel]]"
@@ -73,7 +75,6 @@ reviews:
   outlet: EU Jacksonville / Folio Weekly
   description: ''
   featured_image: ''
-
 ---
 *Grey Gardens* delves into the eccentric and reclusive lives of Edith Bouvier Beale and her daughter, Edie, once aristocrats of East Hampton society, now living in a dilapidated mansion. Spanning from the 1940s to the 1970s, the musical contrasts their past grandeur with their later years of isolation and decay. Through captivating songs and emotionally charged performances, the narrative explores themes of dependency, social decline and the complex dynamics of mother-daughter relationships.
 

@@ -4,9 +4,12 @@ date: 2024-05-10T17:42:58
 opening_date: 2024-06-07
 closing_date: 2024-06-23
 layout: productions
-featured_image: 2024_Shout_The_Mod_Musical.webp
-featured_image_caption: "Poster for SHOUT! The Mod Musical"
-featured_image_attr: Theatre Jacksonville
+poster: 2024_Shout_The_Mod_Musical.webp
+featured_image:
+poster_caption: "Poster for SHOUT! The Mod Musical"
+featured_image_caption:
+poster_attr: Theatre Jacksonville
+featured_image_attr:
 program:
 genres:
 - Musical

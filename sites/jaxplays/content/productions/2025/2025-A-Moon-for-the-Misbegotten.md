@@ -13,9 +13,12 @@ showtimes:
   - 2025-10-17T19:30:00-04:00
   - 2025-10-18T19:30:00-04:00
   - 2025-10-19T14:00:00-04:00
-featured_image: 2025-A-Moon-For-The-Misbegotten.webp
-featured_image_alt: 'ABET presents Eugene O’Neill’s play "A Moon for the Misbegotten" at WJCT Studio B'
-featured_image_caption: '"A Moon for the Misbegotten" presented by ABET at WJCT Studio B'
+poster: 2025-A-Moon-For-The-Misbegotten.webp
+featured_image:
+poster_alt: 'ABET presents Eugene O’Neill’s play "A Moon for the Misbegotten" at WJCT Studio B'
+featured_image_alt:
+poster_caption: '"A Moon for the Misbegotten" presented by ABET at WJCT Studio B'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-A-Moon-for-the-Misbegotten.pdf

@@ -3,9 +3,11 @@ title: On Your Feet!
 date: 2023-12-09
 opening_date: 2023-12-09
 closing_date: 2023-12-09
-featured_image: 2023-On-Your-Feet.webp
+poster: 2023-On-Your-Feet.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for On Your Feet!
+poster_caption: Poster for On Your Feet!
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

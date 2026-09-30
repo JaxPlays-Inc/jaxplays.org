@@ -4,9 +4,12 @@ redirect_from: /1999_Jesus_Christ_Superstar
 date: 2023-09-08T00:00:00
 opening_date: 1999-08-19
 layout: productions
-featured_image: 1999_Jesus_Christ_Superstar.jpg
-featured_image_caption: Photo of the playbill
-featured_image_attr: Kimberly Whitfield
+poster: 1999_Jesus_Christ_Superstar.jpg
+featured_image:
+poster_caption: Photo of the playbill
+featured_image_caption:
+poster_attr: Kimberly Whitfield
+featured_image_attr:
 program: 1999_Jesus_Christ_Superstar.pdf
 theatre: Omega Theatre Productions
 venue: Florida Theatre

@@ -14,7 +14,8 @@ showtimes:
 - 2024-11-01 20:00:00
 - 2024-11-02 20:00:00
 - 2024-11-03 14:00:00
-featured_image: 2024-Jekyll-and-Hyde.webp
+poster: 2024-Jekyll-and-Hyde.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

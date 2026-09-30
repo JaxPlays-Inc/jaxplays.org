@@ -1,8 +1,8 @@
 {{- $page := .page -}}
 {{- $status := .status | default "" -}}
 {{- $description := .description | default "" -}}
-{{- $featuredImage := .featuredImage | default "" -}}
-{{- $featuredImageAlt := .featuredImageAlt | default (printf "%s poster" $page.Title) -}}
+{{- $posterMeta := partial "func/GetPosterImageMeta.html" $page -}}
+{{- $posterAlt := $posterMeta.alt | default (printf "%s poster" $page.Title) -}}
 {{- $openingDate := .openingDate -}}
 {{- $closingDate := .closingDate -}}
 
@@ -28,12 +28,8 @@
 {{- end -}}
 
 {{- $posterPath := absURL "/media/default/production_poster.webp" -}}
-{{- with $featuredImage -}}
-  {{- if or (hasPrefix . "http://") (hasPrefix . "https://") (hasPrefix . "//") (hasPrefix . "/") -}}
-    {{- $posterPath = absURL . -}}
-  {{- else -}}
-    {{- $posterPath = absURL (printf "/media/posters/%s" .) -}}
-  {{- end -}}
+{{- with partial "func/GetPosterImage.html" $page -}}
+  {{- $posterPath = . | absURL -}}
 {{- end -}}
 
 {{- $statusText := $status -}}
@@ -49,7 +45,7 @@
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border:1px solid #d8d0bf;background:#ffffff;margin:0 0 18px 0;">
     <tr>
       <td width="128" valign="top" style="border-right:1px solid #d8d0bf;background:#ffffff;padding:0;">
-        <img src="{{ $posterPath }}" width="128" alt="{{ $featuredImageAlt | plainify }}" style="display:block;width:128px;max-width:128px;height:auto;border:0;outline:none;text-decoration:none;">
+        <img src="{{ $posterPath }}" width="128" alt="{{ $posterAlt | plainify }}" style="display:block;width:128px;max-width:128px;height:auto;border:0;outline:none;text-decoration:none;">
       </td>
       <td valign="top" style="padding:14px 16px 15px 16px;font-family:Arial,Helvetica,sans-serif;color:#171717;">
         <div style="margin:0 0 10px 0;">

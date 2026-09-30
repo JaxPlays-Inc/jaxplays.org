@@ -9,11 +9,16 @@ closing_date: 2026-02-08
 showtimes:
   - 2026-02-07T17:00:00-05:00
   - 2026-02-08T15:00:00-05:00
-featured_image: 2026-The-Telephone-Craigslistlieder.webp
-featured_image_alt: 'Amelia Island Opera presents *The Telephone & Craigslistlieder*'
-featured_image_caption: '"The Telephone & Craigslistlieder" at Story & Song'
-featured_image_attr: Bill Ivins
-featured_image_attr_link: https://www.ivinsink.com/
+poster: 2026-The-Telephone-Craigslistlieder.webp
+featured_image:
+poster_alt: 'Amelia Island Opera presents *The Telephone & Craigslistlieder*'
+featured_image_alt:
+poster_caption: '"The Telephone & Craigslistlieder" at Story & Song'
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: https://www.ivinsink.com/
+featured_image_attr_link:
 program:
 website: https://www.ameliaislandopera.org/thetelephonecraigslistlieder
 tickets: https://app.arts-people.com/?show=291382

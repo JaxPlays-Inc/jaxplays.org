@@ -39,7 +39,7 @@
     {{- $event = merge $event (dict "description" .) -}}
   {{- end -}}
 
-  {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/posters/") -}}
+  {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/featured_images/") -}}
     {{- $event = merge $event (dict "image" .) -}}
   {{- end -}}
 

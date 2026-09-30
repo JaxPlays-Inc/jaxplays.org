@@ -71,7 +71,7 @@
     {{- with $productionDescription -}}
       {{- $itemReviewed = merge $itemReviewed (dict "description" .) -}}
     {{- end -}}
-    {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/posters/") -}}
+    {{- with partial "schema/content-image.html" (dict "page" . "basePath" "/media/featured_images/") -}}
       {{- $itemReviewed = merge $itemReviewed (dict "image" .) -}}
     {{- end -}}
     {{- $locations := slice -}}

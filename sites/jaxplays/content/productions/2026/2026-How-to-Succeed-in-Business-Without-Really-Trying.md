@@ -11,9 +11,12 @@ showtimes:
   - 2026-07-18 14:00:00
   - 2026-07-18 19:30:00
   - 2026-07-19 15:00:00
-featured_image: 2026-How-to-Succeed-in-Business-Without-Really-Trying.webp
-featured_image_alt: Poster for Act II Players' production of How to Succeed in Business Without Really Trying
-featured_image_caption: Poster for How to Succeed in Business Without Really Trying
+poster: 2026-How-to-Succeed-in-Business-Without-Really-Trying.webp
+featured_image:
+poster_alt: Poster for Act II Players' production of How to Succeed in Business Without Really Trying
+featured_image_alt:
+poster_caption: Poster for How to Succeed in Business Without Really Trying
+featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program: 2026-How-to-Succeed-in-Business-Without-Really-Trying.pdf

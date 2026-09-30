@@ -12,10 +12,12 @@ showtimes:
 - 2024-05-24 19:00:00
 - 2024-05-25 19:00:00
 - 2024-05-26 14:00:00
-featured_image: 2024-Southern-Fried-Nuptials-2.webp
+poster: 2024-Southern-Fried-Nuptials-2.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Designed by Vicki Wyttenbach
+poster_attr: Designed by Vicki Wyttenbach
+featured_image_attr:
 featured_image_attr_link: 
 program: 
 website: http://www.stmaryslittletheatre.com

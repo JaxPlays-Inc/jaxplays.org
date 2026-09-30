@@ -15,10 +15,13 @@ showtimes:
   - 2013-02-14 20:00:00
   - 2013-02-15 20:00:00
   - 2013-02-16 20:00:00
-featured_image: 2013-Conversations-After-A-Burial-Teaser-Poster-02.webp
+poster: 2013-Conversations-After-A-Burial-Teaser-Poster-02.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'Conversations After a Burial' at Players by the Sea
-featured_image_attr: Players by the Sea
+poster_caption: Poster for 'Conversations After a Burial' at Players by the Sea
+featured_image_caption:
+poster_attr: Players by the Sea
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

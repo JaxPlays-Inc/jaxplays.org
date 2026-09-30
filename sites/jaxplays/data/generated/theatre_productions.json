@@ -2734,7 +2734,7 @@
       "url": "/productions/1999-how-to-succeed-in-business-without-really-trying/",
       "contentPath": "productions/1990/1999-How-to-Succeed-in-Business-Without-Really-Trying",
       "poster": "/media/posters/How_to_Succeed_in_Business_Without_Really_Trying.webp",
-      "posterAlt": "How To Succeed In Business Without Really Trying poster",
+      "posterAlt": "How to Succeed in Business Without Really Trying poster",
       "openingDate": "1999-06-11",
       "closingDate": "1999-06-26",
       "openingLabel": "Jun 11, 1999",
@@ -7177,7 +7177,7 @@
       "url": "/productions/1967-how-to-succeed-in-business-without-really-trying/",
       "contentPath": "productions/1960/1967-How-To-Succeed-In-Business-Without-Really-Trying",
       "poster": "/media/posters/How_to_Succeed_in_Business_Without_Really_Trying.webp",
-      "posterAlt": "How To Succeed In Business Without Really Trying poster",
+      "posterAlt": "How to Succeed in Business Without Really Trying poster",
       "openingDate": "1967-07-20",
       "closingDate": "1967-07-29",
       "openingLabel": "Jul 20, 1967",
@@ -27237,8 +27237,8 @@
       "title": "Vanya and Sonia and Masha and Spike",
       "url": "/productions/2026-vanya-and-sonia-and-masha-and-spike/",
       "contentPath": "productions/2026/2026-Vanya-and-Sonia-and-Masha-and-Spike",
-      "poster": "/media/posters/2026-Vanya-and-Sonia-and-Masha-and-Spike.webp",
-      "posterAlt": "Vanya and Sonia and Masha and Spike poster",
+      "poster": "/media/posters/2026-Vanya-and-Sonia-and-Masha-and-Spike-Poster.webp",
+      "posterAlt": "Poster for Vanya and Sonia and Masha and Spike",
       "openingDate": "2026-11-06",
       "closingDate": "2026-11-15",
       "openingLabel": "Nov 6, 2026",
@@ -27258,7 +27258,9 @@
       ],
       "summary": "Christopher Durang's Tony-winning comedy sends movie-star Masha and her young boyfriend Spike crashing into the quiet lives of siblings Vanya and Sonia.",
       "tickets": "https://aclassictheatre.ludus.com/show_page.php?show_id=200533267",
-      "searchBase": "vanya and sonia and masha and spike nov 6, 2026 nov 15, 2026 a classic theatre the waterworks play comedy christopher durang's tony-winning comedy sends movie-star masha and her young boyfriend spike crashing into the quiet lives of siblings vanya and sonia."
+      "searchBase": "vanya and sonia and masha and spike nov 6, 2026 nov 15, 2026 a classic theatre the waterworks play comedy christopher durang's tony-winning comedy sends movie-star masha and her young boyfriend spike crashing into the quiet lives of siblings vanya and sonia.",
+      "featuredImage": "/media/featured_images/2026-Vanya-and-Sonia-and-Masha-and-Spike-Featured.webp",
+      "featuredImageAlt": "Social preview image for Vanya and Sonia and Masha and Spike"
     },
     {
       "title": "After",
@@ -27287,7 +27289,7 @@
       "summary": "A quirky comedy about what could happen when we go to the Afterlife.",
       "tickets": "https://aclassictheatre.ludus.com/200543744",
       "searchBase": "after oct 16, 2026 oct 16, 2026 a classic theatre the center for spiritual living staged reading comedy fantasy a quirky comedy about what could happen when we go to the afterlife.",
-      "featuredImage": "/media/photos/2026-After-Featured.webp",
+      "featuredImage": "/media/featured_images/2026-After-Featured.webp",
       "featuredImageAlt": "Featured image for A Classic Theatre's staged reading of After"
     },
     {

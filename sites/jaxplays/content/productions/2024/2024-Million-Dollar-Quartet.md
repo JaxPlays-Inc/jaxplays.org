@@ -49,10 +49,14 @@ showtimes:
   - 2024-02-17 18:00:00
   - 2024-02-18 12:00:00
   - 2024-02-18 18:00:00
-featured_image: 2024-Million-Dollar-Quartet.webp
-featured_image_alt: Poster for Million Dollar Quartet
-featured_image_caption: Poster for 'Million Dollar Quartet'
-featured_image_attr: Alhambra Theatre & Dining
+poster: 2024-Million-Dollar-Quartet.webp
+featured_image:
+poster_alt: Poster for Million Dollar Quartet
+featured_image_alt:
+poster_caption: Poster for 'Million Dollar Quartet'
+featured_image_caption:
+poster_attr: Alhambra Theatre & Dining
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: 

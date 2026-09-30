@@ -12,7 +12,8 @@ showtimes:
 - 2024-05-04 18:00:00
 - 2024-05-05 12:00:00
 - 2024-05-05 18:00:00
-featured_image: 2024-Matilda-JR.webp
+poster: 2024-Matilda-JR.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

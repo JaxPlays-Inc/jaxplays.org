@@ -20,10 +20,14 @@ showtimes:
 - 2024-03-08 19:30:00
 - 2024-03-09 19:30:00
 - 2024-03-10 14:00:00
-featured_image: 2024-Disenchanted.webp
-featured_image_alt: Cast Poster for Disenchanted!
-featured_image_caption: Cast Poster for Disenchanted!
-featured_image_attr: Graphic design by Jon Scherf
+poster: 2024-Disenchanted.webp
+featured_image:
+poster_alt: Cast Poster for Disenchanted!
+featured_image_alt:
+poster_caption: Cast Poster for Disenchanted!
+featured_image_caption:
+poster_attr: Graphic design by Jon Scherf
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.abetjax.com/copy-of-2022-23-season

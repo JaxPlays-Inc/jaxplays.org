@@ -3,10 +3,13 @@ title: True West
 date: 2023-09-08T00:00:00
 opening_date: 2019-03-15
 closing_date: 2019-03-31
-featured_image: 2019-True-West.webp
+poster: 2019-True-West.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for True West
-featured_image_attr: Players By The Sea
+poster_caption: Poster for True West
+featured_image_caption:
+poster_attr: Players By The Sea
+featured_image_attr:
 featured_image_attr_link:
 program:
 genres:

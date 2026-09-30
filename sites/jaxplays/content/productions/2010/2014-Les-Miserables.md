@@ -4,10 +4,12 @@ title: Les Misérables
 date: 2023-09-08T00:00:00
 opening_date: 2014-06-06
 closing_date: 2014-06-21
-featured_image: 2014_Les_Miserables.webp
+poster: 2014_Les_Miserables.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
-featured_image_caption: "Poster for 'Les Misérables' at Theatre Jacksonville"
+poster_caption: "Poster for 'Les Misérables' at Theatre Jacksonville"
+featured_image_caption:
 theatre: Theatre Jacksonville
 venue: Harold K. Smith Playhouse
 cast:
@@ -73,5 +75,4 @@ reviews:
   outlet: The Wave Magazine
   description: ''
   featured_image: ''
-
 ---

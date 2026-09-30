@@ -7,7 +7,8 @@ date: 2026-06-04T00:55:00-04:00
 opening_date: 2026-09-18
 closing_date: 2026-09-27
 showtimes:
-featured_image: 2026-Finding-Neverland-Saltwater.webp
+poster: 2026-Finding-Neverland-Saltwater.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

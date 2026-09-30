@@ -20,7 +20,8 @@ showtimes:
   - 2025-06-13 19:30:00
   - 2025-06-14 19:30:00
   - 2025-06-15 14:00:00
-featured_image: 2025-Rhinoceros.webp
+poster: 2025-Rhinoceros.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

@@ -14,11 +14,16 @@ showtimes:
   - 2026-06-12 19:30:00
   - 2026-06-13 19:30:00
   - 2026-06-14 14:30:00
-featured_image: 2026-Once-Upon-a-Mattress.webp
-featured_image_alt: Poster for Amelia Musical Playhouse's production of Once Upon a Mattress
-featured_image_caption: Poster for Once Upon a Mattress
-featured_image_attr: Bill Ivins
-featured_image_attr_link: http://www.ivinink.com/
+poster: 2026-Once-Upon-a-Mattress.webp
+featured_image:
+poster_alt: Poster for Amelia Musical Playhouse's production of Once Upon a Mattress
+featured_image_alt:
+poster_caption: Poster for Once Upon a Mattress
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
+poster_attr_link: http://www.ivinink.com/
+featured_image_attr_link:
 program:
 website: https://ameliamusicalplayhouse.com/
 tickets: https://www.904tix.com

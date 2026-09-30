@@ -10,7 +10,8 @@ opening_date: 2027-02-03
 closing_date: 2027-02-03
 showtimes:
   - 2027-02-03 19:30:00
-featured_image: 2027-The-Pirates-of-Penzance.webp?v=114800
+poster: 2027-The-Pirates-of-Penzance.webp?v=114800
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

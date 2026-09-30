@@ -17,10 +17,14 @@ showtimes:
   - 2026-08-14 19:30:00
   - 2026-08-15 19:30:00
   - 2026-08-16 14:30:00
-featured_image: 2026-Annie.webp
-featured_image_alt: Poster for Annie
-featured_image_caption: Poster for Annie
-featured_image_attr: Bill Ivins
+poster: 2026-Annie.webp
+featured_image:
+poster_alt: Poster for Annie
+featured_image_alt:
+poster_caption: Poster for Annie
+featured_image_caption:
+poster_attr: Bill Ivins
+featured_image_attr:
 featured_image_attr_link:
 program: 2026-Annie.pdf
 website: https://ameliamusicalplayhouse.com/performances/annie/

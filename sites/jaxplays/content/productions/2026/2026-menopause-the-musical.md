@@ -41,10 +41,12 @@ showtimes:
 - '2026-02-10 18:00:00'
 - '2026-02-11 18:00:00'
 - '2026-02-12 18:00:00'
-featured_image: 2026-Menopause-the-Musical.webp
+poster: 2026-Menopause-the-Musical.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
-featured_image_attr: Alhambra Theatre and Dining
+poster_attr: Alhambra Theatre and Dining
+featured_image_attr:
 featured_image_attr_link: 
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1506&code=JAXPLAYS
 source_url: https://www.alhambrajax.com

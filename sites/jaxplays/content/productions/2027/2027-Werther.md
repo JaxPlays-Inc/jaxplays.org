@@ -7,11 +7,16 @@ date: 2026-09-12T17:49:55-04:00
 opening_date: 2027-05-14
 closing_date: 2027-05-16
 showtimes:
-featured_image: 2027-Werther.webp
-featured_image_alt: "Amelia Island Opera presents Massenet's Werther at Amelia Community Theatre's Main Stage."
-featured_image_caption: "Werther at Amelia Community Theatre's Main Stage"
-featured_image_attr: Amelia Island Opera
-featured_image_attr_link: https://www.ameliaislandopera.org/
+poster: 2027-Werther.webp
+featured_image:
+poster_alt: "Amelia Island Opera presents Massenet's Werther at Amelia Community Theatre's Main Stage."
+featured_image_alt:
+poster_caption: "Werther at Amelia Community Theatre's Main Stage"
+featured_image_caption:
+poster_attr: Amelia Island Opera
+featured_image_attr:
+poster_attr_link: https://www.ameliaislandopera.org/
+featured_image_attr_link:
 program:
 website: https://www.ameliaislandopera.org/
 tickets:

@@ -8,9 +8,11 @@ closing_date: 2024-04-13
 showtimes:
 - 2024-04-12 19:00:00
 - 2024-04-13 14:00:00
-featured_image: 2024-A-Raisin-in-the-Sun.webp
+poster: 2024-A-Raisin-in-the-Sun.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 'A Raisin in the Sun'
+poster_caption: Poster for 'A Raisin in the Sun'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2024-A-Raisin-in-the-Sun.pdf

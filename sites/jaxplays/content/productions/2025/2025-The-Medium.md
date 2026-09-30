@@ -10,9 +10,12 @@ showtimes:
   - 2025-10-10T19:30:00-04:00
   - 2025-10-11T19:30:00-04:00
   - 2025-10-12T13:00:00-04:00
-featured_image: 2025-The-Medium.webp
-featured_image_alt: 'Bold City Opera presents Gian Carlo Menotti’s opera "The Medium"'
-featured_image_caption: 'Bold City Opera brings Gian Carlo Menotti’s haunting opera "The Medium" to Jacksonville'
+poster: 2025-The-Medium.webp
+featured_image:
+poster_alt: 'Bold City Opera presents Gian Carlo Menotti’s opera "The Medium"'
+featured_image_alt:
+poster_caption: 'Bold City Opera brings Gian Carlo Menotti’s haunting opera "The Medium" to Jacksonville'
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program:

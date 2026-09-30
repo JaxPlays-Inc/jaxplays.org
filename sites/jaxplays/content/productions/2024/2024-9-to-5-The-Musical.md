@@ -24,10 +24,13 @@ showtimes:
 - 2024-08-09 19:30:00
 - 2024-08-10 19:30:00
 - 2024-08-11 14:00:00
-featured_image: 2024-9-to-5-The-Musical.webp
+poster: 2024-9-to-5-The-Musical.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Poster for 9 To 5 The Musical
-featured_image_attr: Limelight Theatre
+poster_caption: Poster for 9 To 5 The Musical
+featured_image_caption:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://www.limelight-theatre.org/season-32-shows-1/9-to-5-the-musical

@@ -10,7 +10,8 @@ showtimes:
 - 2019-01-31 20:00:00
 - 2019-02-01 20:00:00
 - 2019-02-02 14:00:00
-featured_image: 2019_The_Revolutionists.webp
+poster: 2019_The_Revolutionists.webp
+featured_image:
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 

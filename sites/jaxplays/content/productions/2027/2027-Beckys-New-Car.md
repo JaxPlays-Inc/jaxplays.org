@@ -13,7 +13,8 @@ showtimes:
 - 2027-05-07 19:30:00
 - 2027-05-08 16:00:00
 - 2027-05-09 14:00:00
-featured_image: 2027-Beckys-New-Car.webp
+poster: 2027-Beckys-New-Car.webp
+featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:

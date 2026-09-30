@@ -4,10 +4,13 @@ title: Dial M For Murder
 date: 2023-09-08T00:00:00
 opening_date: 2022-06-23
 closing_date: 2022-07-17
-featured_image: 2022_Dial_M_For_Murder.jpeg
-featured_image_attr: Limelight Theatre
+poster: 2022_Dial_M_For_Murder.jpeg
+featured_image:
+poster_attr: Limelight Theatre
+featured_image_attr:
 featured_image_alt:
-featured_image_caption: Poster for 2022 production of Dial M For Murder
+poster_caption: Poster for 2022 production of Dial M For Murder
+featured_image_caption:
 theatre: Limelight Theatre
 venue: Koger-Gamache Studio Theatre
 genres: 

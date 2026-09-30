@@ -6,7 +6,8 @@ redirect_from:
 date: 2023-09-08T00:00:00
 opening_date: 2019-04-19
 closing_date: 2019-05-05
-featured_image: 2019_Small_Mouth_Sounds.webp
+poster: 2019_Small_Mouth_Sounds.webp
+featured_image:
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:

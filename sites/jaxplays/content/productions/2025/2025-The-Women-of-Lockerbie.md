@@ -16,9 +16,12 @@ showtimes:
   - 2025-01-31 19:30:00
   - 2025-02-01 19:30:00
   - 2025-02-02 14:00:00
-featured_image: 2025-The-Women-of-Lockerbie.webp
-featured_image_alt: "Theatre Jacksonville presents 'The Women of Lockerbie,' depicted in the poster as a serene landscape with clothes hanging on a line, symbolizing peace and recovery. The play runs from January 17 to February 2, 2025."
-featured_image_caption: "Experience the moving story of 'The Women of Lockerbie' at Theatre Jacksonville, a powerful drama about love overcoming tragedy, from January 17 to February 2, 2025."
+poster: 2025-The-Women-of-Lockerbie.webp
+featured_image:
+poster_alt: "Theatre Jacksonville presents 'The Women of Lockerbie,' depicted in the poster as a serene landscape with clothes hanging on a line, symbolizing peace and recovery. The play runs from January 17 to February 2, 2025."
+featured_image_alt:
+poster_caption: "Experience the moving story of 'The Women of Lockerbie' at Theatre Jacksonville, a powerful drama about love overcoming tragedy, from January 17 to February 2, 2025."
+featured_image_caption:
 featured_image_attr: 
 featured_image_attr_link: 
 program: 2025-The-Women-of-Lockerbie.pdf

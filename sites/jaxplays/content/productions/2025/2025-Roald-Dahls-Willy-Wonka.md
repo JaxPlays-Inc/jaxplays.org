@@ -16,10 +16,13 @@ showtimes:
 - 2025-06-15 15:00:00
 - 2025-06-22 15:00:00
 - 2025-06-29 15:00:00
-featured_image: 2025-Road-Dahls-Willy-Wonka.webp
+poster: 2025-Road-Dahls-Willy-Wonka.webp
+featured_image:
 featured_image_alt: 
-featured_image_caption: Graphic for *Roald Dahl's Willy Wonka*
-featured_image_attr: Artist Connection Theatre
+poster_caption: Graphic for *Roald Dahl's Willy Wonka*
+featured_image_caption:
+poster_attr: Artist Connection Theatre
+featured_image_attr:
 featured_image_attr_link: 
 program:
 website: https://artistconnectiontheatre.org/season-2024-2025/
