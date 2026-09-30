@@ -33,24 +33,15 @@
 {{ end }}
 <div class="flex-l mt0 mw8 center">
   <article class="production-single relative center cf pv3 ph3 ph4-ns mw8 w-100">
-    {{ $featuredImage := .Params.featured_image }}
-    {{ $featuredImageAlt := .Params.featured_image_alt }}
-    {{ $featuredImageCaption := .Params.featured_image_caption }}
-    {{ $featuredImageAttr := .Params.featured_image_attr }}
-    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
+    {{ $posterMeta := partial "func/GetPosterImageMeta.html" . }}
+    {{ $poster := $posterMeta.src }}
+    {{ $posterAlt := $posterMeta.alt | default (printf "%s poster" .Title) }}
+    {{ $posterCaption := $posterMeta.caption }}
+    {{ $posterAttr := $posterMeta.attr }}
+    {{ $posterAttrLink := $posterMeta.attr_link }}
+    {{ $posterPath := "" }}
+    {{ with partial "func/GetPosterImage.html" . }}{{ $posterPath = . }}{{ end }}
     {{ $genres := .Params.genres }}
-
-    {{ if not $featuredImage }}
-    {{ range where .Site.Pages "Type" "shows" }}
-    {{ if eq .Title $.Title }}
-    {{ $featuredImage = .Params.featured_image }}
-    {{ $featuredImageAlt := .Params.featured_image_alt }}
-    {{ $featuredImageCaption = .Params.featured_image_caption }}
-    {{ $featuredImageAttr = .Params.featured_image_attr }}
-    {{ $featuredImageAttrLink := .Params.featured_image_attr_link }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
 
     {{ if not $genres }}
     {{ range where .Site.Pages "Type" "shows" }}
@@ -81,13 +72,12 @@
       {{ end }}
     {{ end }}
 
-    <div class="production-hero-grid{{ if not $featuredImage }} production-hero-grid--text{{ end }} mb4">
-      <!-- Featured Image Section -->
-      {{ if $featuredImage }}
+    <div class="production-hero-grid{{ if not $poster }} production-hero-grid--text{{ end }} mb4">
+      {{ if $poster }}
       <div class="production-hero-poster">
-        <a href="/media/posters/{{ $featuredImage }}" data-lightbox="gallery"
-          data-title="{{ with $featuredImageCaption }}{{ . }}{{ end }}{{ if $featuredImageAttr }}{{ with $featuredImageAttrLink }}<a href='{{ . }}''> | (📷 {{ $featuredImageAttr }})</a>{{ else }} | (📷 {{ $featuredImageAttr }}){{ end }}{{ end }}">
-          <img src="/media/posters/{{ $featuredImage }}" alt="{{ $featuredImageAlt }}" /></a>
+        <a href="{{ $posterPath }}" data-lightbox="gallery"
+          data-title="{{ with $posterCaption }}{{ . }}{{ end }}{{ if $posterAttr }}{{ with $posterAttrLink }}<a href='{{ . }}''> | (📷 {{ $posterAttr }})</a>{{ else }} | (📷 {{ $posterAttr }}){{ end }}{{ end }}">
+          <img src="{{ $posterPath }}" alt="{{ $posterAlt }}" /></a>
       </div>
       {{ end }}
 
@@ -739,8 +729,8 @@
       {{ else if and $pressTitle $pressURL }}
         <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
           <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ $pressURL }}" target="_blank" rel="noopener" aria-label="Read {{ $pressTitle | plainify }}"></a>
-          {{ if $featuredImage }}
-          <img class="production-review-image" src="/media/posters/{{ $featuredImage }}" alt="{{ $pressTitle | plainify }}">
+          {{ if $posterPath }}
+          <img class="production-review-image" src="{{ $posterPath }}" alt="{{ $pressTitle | plainify }}">
           {{ else }}
           <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $pressTitle | plainify }}">
           {{ end }}
@@ -756,8 +746,8 @@
         {{ range $legacyPressTitle, $legacyPressURL := $pressItem }}
           <article class="article-card article-card--home home-dashboard-story home-dashboard-grow production-review-card production-press-card">
             <a class="article-card-hitarea home-dashboard-story-hitarea production-review-card-hitarea" href="{{ $legacyPressURL }}" target="_blank" rel="noopener" aria-label="Read {{ $legacyPressTitle | plainify }}"></a>
-            {{ if $featuredImage }}
-            <img class="production-review-image" src="/media/posters/{{ $featuredImage }}" alt="{{ $legacyPressTitle | plainify }}">
+            {{ if $posterPath }}
+            <img class="production-review-image" src="{{ $posterPath }}" alt="{{ $legacyPressTitle | plainify }}">
             {{ else }}
             <img class="production-review-image" src="/media/default/production_poster.webp" alt="{{ $legacyPressTitle | plainify }}">
             {{ end }}

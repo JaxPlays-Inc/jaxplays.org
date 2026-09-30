@@ -29,7 +29,9 @@
     {{- /* If a full URL, use as-is */ -}}
     {{- if or (hasPrefix $val "http://") (hasPrefix $val "https://") (hasPrefix $val "//") -}}
       {{- $link = $val -}}
-    {{- else if and (not (hasPrefix $val "/")) (eq $.Section "authors") -}}
+    {{- else if and (not (hasPrefix $val "/")) (or (eq $.Type "productions") (eq $.Type "shows") (eq $.Section "productions") (eq $.Section "shows")) -}}
+      {{- $link = printf "/media/posters/%s" $val | relURL -}}
+    {{- else if and (not (hasPrefix $val "/")) (or (eq $.Section "authors") (eq $.Section "people")) -}}
       {{- $link = printf "/media/headshots/%s" $val | relURL -}}
     {{- else -}}
       {{- /* Ensure a leading slash so it’s site-root relative, then let relURL handle baseURL */ -}}
@@ -41,10 +43,17 @@
   {{- end -}}
 
 {{- else -}}
-  {{- /* Fallback: first image with feature/cover in name from bundle */ -}}
-  {{- with .Resources.ByType "image" -}}
-    {{- with .GetMatch (printf "**{%s}*" $matches) -}}
-      {{- $link = .RelPermalink -}}
+  {{- if or (eq .Type "productions") (eq .Type "shows") (eq .Section "productions") (eq .Section "shows") -}}
+    {{- with partial "func/GetPosterImage.html" . -}}
+      {{- $link = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $link -}}
+    {{- /* Fallback: first image with feature/cover in name from bundle */ -}}
+    {{- with .Resources.ByType "image" -}}
+      {{- with .GetMatch (printf "**{%s}*" $matches) -}}
+        {{- $link = .RelPermalink -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
