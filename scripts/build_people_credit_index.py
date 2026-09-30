@@ -28,6 +28,8 @@ PRODUCTION_KEYS = frozenset(
         "venue",
         "genres",
         "category",
+        "poster",
+        "poster_alt",
         "featured_image",
         "featured_image_alt",
         "tickets",
@@ -36,7 +38,17 @@ PRODUCTION_KEYS = frozenset(
         *CREDIT_TYPES,
     )
 )
-SHOW_KEYS = frozenset(("title", "description", "genres", "featured_image", "featured_image_alt"))
+SHOW_KEYS = frozenset(
+    (
+        "title",
+        "description",
+        "genres",
+        "poster",
+        "poster_alt",
+        "featured_image",
+        "featured_image_alt",
+    )
+)
 THEATRE_KEYS = frozenset(("title", "theatre_aliases", "directory"))
 VENUE_KEYS = frozenset(("title", "venue_aliases", "directory"))
 REVIEW_KEYS = frozenset(
@@ -315,7 +327,7 @@ def show_featured_images(shows_dir: Path) -> dict[str, str]:
             print(f"Warning: skipping {path}: {error}", file=sys.stderr)
             continue
 
-        featured_image = data.get("featured_image")
+        featured_image = data.get("poster") or data.get("featured_image")
         if isinstance(featured_image, str) and featured_image.strip():
             title = str(data.get("title") or path.stem)
             images[normalize_name(title)] = featured_image.strip()
@@ -338,8 +350,8 @@ def show_card_data(shows_dir: Path) -> dict[str, dict[str, Any]]:
             "description": data.get("description") or "",
             "summary": truncate_text(plain_text(data.get("description") or body)),
             "genres": normalize_list(data.get("genres")),
-            "featured_image": data.get("featured_image") or "",
-            "featured_image_alt": data.get("featured_image_alt") or "",
+            "featured_image": data.get("poster") or data.get("featured_image") or "",
+            "featured_image_alt": data.get("poster_alt") or data.get("featured_image_alt") or "",
         }
 
     return shows
@@ -349,7 +361,7 @@ def production_entry(
     path: Path, data: dict[str, Any], show_images: dict[str, str]
 ) -> dict[str, Any]:
     title = str(data.get("title") or path.stem)
-    featured_image = data.get("featured_image")
+    featured_image = data.get("poster") or data.get("featured_image")
     if not isinstance(featured_image, str) or not featured_image.strip():
         featured_image = show_images.get(normalize_name(title), "")
 
@@ -408,9 +420,12 @@ def production_card_entry(
     show = shows.get(normalize_name(title), {})
     opening_date = json_safe(data.get("opening_date")) or ""
     closing_date = json_safe(data.get("closing_date")) or opening_date
-    featured_image = data.get("featured_image") or show.get("featured_image") or ""
+    featured_image = (
+        data.get("poster") or data.get("featured_image") or show.get("featured_image") or ""
+    )
     poster_alt = (
-        data.get("featured_image_alt")
+        data.get("poster_alt")
+        or data.get("featured_image_alt")
         or show.get("featured_image_alt")
         or f"{title} poster"
     )

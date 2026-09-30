@@ -8,10 +8,15 @@ opening_date: 2026-10-16
 closing_date: 2026-10-16
 showtimes:
 - 2026-10-16 19:30:00
-featured_image: 2026-After.webp
-featured_image_alt: Poster for After
-featured_image_caption: Poster for After
-featured_image_attr: "@A Classic Theatre"
+poster: 2026-After.webp
+poster_alt: Poster for After
+poster_caption: Poster for After
+poster_attr: "@A Classic Theatre"
+poster_attr_link:
+featured_image:
+featured_image_alt:
+featured_image_caption:
+featured_image_attr:
 featured_image_attr_link:
 program:
 website: https://www.aclassictheatre.org/2026-2027-season#after
