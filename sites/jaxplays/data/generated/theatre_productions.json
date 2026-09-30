@@ -31984,6 +31984,33 @@
   ],
   "theatre-troupe-1776": [
     {
+      "title": "The Price of Liberty",
+      "url": "/productions/2026-the-price-of-liberty/",
+      "contentPath": "productions/2026/2026-The-Price-of-Liberty",
+      "poster": "/media/default/production_poster.webp",
+      "posterAlt": "The Price of Liberty poster",
+      "openingDate": "2026-11-06",
+      "closingDate": "2026-11-15",
+      "openingLabel": "Nov 6, 2026",
+      "openingMonthLabel": "November 2026",
+      "openingBadgeLabel": "Nov 6, 2026",
+      "closingLabel": "Nov 15, 2026",
+      "theatre": "Theatre Troupe 1776",
+      "venues": [
+        "Mandarin Community Club"
+      ],
+      "allVenues": [
+        "Mandarin Community Club"
+      ],
+      "genres": [
+        "Play",
+        "Historical"
+      ],
+      "summary": "Theatre Troupe 1776's The Price of Liberty follows patriot and loyalist families through the American Revolution as the company marks America's 250th anniversary.",
+      "tickets": "https://www.showtixnow.com/public/venue/theatre-troupe-1776-26/all",
+      "searchBase": "the price of liberty nov 6, 2026 nov 15, 2026 theatre troupe 1776 mandarin community club play historical theatre troupe 1776's the price of liberty follows patriot and loyalist families through the american revolution as the company marks america's 250th anniversary."
+    },
+    {
       "title": "A Young Lady's Guide to Sabotage",
       "url": "/productions/2026-a-young-ladys-guide-to-sabotage/",
       "contentPath": "productions/2026/2026-A-Young-Ladys-Guide-to-Sabotage",
