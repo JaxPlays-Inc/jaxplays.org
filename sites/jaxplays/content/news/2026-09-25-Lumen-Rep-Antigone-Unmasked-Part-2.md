@@ -1,7 +1,7 @@
 ---
 title: "Beyond the Page: Lumen Rep Builds Original Work for Jacksonville and Beyond"
 slug: Lumen-Rep-Antigone-Unmasked-Part-2
-date: 2026-09-25T08:50:00-04:00
+date: 2026-09-29T22:39:47-04:00
 featured_image:
   src: /media/posters/2026-Antigone-Unmasked.webp
   alt: "Poster for Lumen Repertory Theatre's world premiere production of Antigone: Unmasked."
