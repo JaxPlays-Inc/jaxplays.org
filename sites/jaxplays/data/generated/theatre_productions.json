@@ -28871,6 +28871,32 @@
   ],
   "greenlight-theatre-company": [
     {
+      "title": "Avenue Q",
+      "url": "/productions/2026-avenue-q/",
+      "contentPath": "productions/2026/2026-Avenue-Q",
+      "poster": "/media/posters/2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310",
+      "posterAlt": "Poster for Greenlight Theatre Company's Avenue Q, with the musical title above an orange furry Q.",
+      "openingDate": "2026-10-02",
+      "closingDate": "2026-10-11",
+      "openingLabel": "Oct 2, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 2, 2026",
+      "closingLabel": "Oct 11, 2026",
+      "theatre": "Greenlight Theatre Company",
+      "venues": [],
+      "allVenues": [
+        "Greenlight Theatre Company"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy",
+        "Satire"
+      ],
+      "summary": "Greenlight Theatre Company presents the puppet-filled musical comedy Avenue Q, a satirical look at adulthood, purpose and the messy work of growing up.",
+      "tickets": "https://www.greenlighttheatreco.com/jaxonstage",
+      "searchBase": "avenue q oct 2, 2026 oct 11, 2026 greenlight theatre company greenlight theatre company musical comedy satire greenlight theatre company presents the puppet-filled musical comedy avenue q, a satirical look at adulthood, purpose and the messy work of growing up."
+    },
+    {
       "title": "The Hunchback of Notre Dame",
       "url": "/productions/2026-the-hunchback-of-notre-dame/",
       "contentPath": "productions/2026/2026-The-Hunchback-of-Notre-Dame",
