@@ -27,6 +27,21 @@ program:
 website: https://www.greenlighttheatreco.com/jaxonstage
 tickets: https://www.greenlighttheatreco.com/jaxonstage
 cast:
+  - Princeton: James Lopez
+  - Kate Monster: Blayne Fraser
+  - Brian: Michael Flynn
+  - Christmas Eve: Rhona Bentz
+  - "Rod/Newcomer": Aaron Burdick
+  - Nicky: Trent Kay
+  - Gary Coleman: Ria-Hood Washington
+  - Lucy: Kelsey Morgan
+  - Trekkie Monster: Matt King
+  - Mrs. T.: Lisa Ciardulli
+  - Bad Idea Bear:
+      - Martin Ortiz
+      - Carlee Varnado
+  - "Nicky Second & Others": Katheryne Ehlermann
+  - "Critters & Others": Ariel David
 crew:
   - Director: Rodney Holmes
 orchestra:
@@ -49,6 +64,12 @@ press:
   source: "First Coast News"
   url: "https://www.youtube.com/watch?v=d3WpCtAnDzU"
   youtube_id: "d3WpCtAnDzU"
+photos:
+- photo: 2026-Avenue-Q-Greenlight-Theatre-Company-Cast-Announcement-01.webp
+  photo_alt: "Cast announcement graphic for Greenlight Theatre Company's Avenue Q, with headshots and roles for Princeton, Kate Monster, Brian, Christmas Eve, Rod, Nicky, Gary Coleman, Lucy, Trekkie Monster, Mrs. T., Bad Idea Bears and ensemble."
+  photo_caption: "Greenlight Theatre Company announces the cast of *Avenue Q*, running Oct. 2-11, 2026."
+  photo_attr: Greenlight Theatre Company
+  photo_attr_link: https://www.greenlighttheatreco.com/jaxonstage
 ---
 Greenlight Theatre Company presents *Avenue Q*, the Tony Award-winning musical comedy about young adults, big questions and puppet-fueled chaos in a quirky New York neighborhood.
 

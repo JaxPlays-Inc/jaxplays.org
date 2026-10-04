@@ -371,6 +371,18 @@
   "aaron-burdick": {
     "cast": [
       {
+        "permalink": "/productions/2026-avenue-q/",
+        "title": "Avenue Q",
+        "opening_date": "2026-10-02",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310",
+        "credits": [
+          "Rod/Newcomer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
         "title": "The Hunchback of Notre Dame",
         "opening_date": "2026-08-14",
@@ -145749,6 +145761,18 @@
   "lisa-ciardulli": {
     "cast": [
       {
+        "permalink": "/productions/2026-avenue-q/",
+        "title": "Avenue Q",
+        "opening_date": "2026-10-02",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310",
+        "credits": [
+          "Mrs. T."
+        ]
+      },
+      {
         "permalink": "/productions/2024-the-beverly-hillbillies/",
         "title": "The Beverly Hillbillies",
         "opening_date": "2024-10-25",
@@ -164802,6 +164826,18 @@
   "matt-king": {
     "cast": [
       {
+        "permalink": "/productions/2026-avenue-q/",
+        "title": "Avenue Q",
+        "opening_date": "2026-10-02",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310",
+        "credits": [
+          "Trekkie Monster"
+        ]
+      },
+      {
         "permalink": "/productions/2025-sister-act/",
         "title": "Sister Act",
         "opening_date": "2025-11-01",
@@ -168941,6 +168977,18 @@
   },
   "michael-flynn": {
     "cast": [
+      {
+        "permalink": "/productions/2026-avenue-q/",
+        "title": "Avenue Q",
+        "opening_date": "2026-10-02",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310",
+        "credits": [
+          "Brian"
+        ]
+      },
       {
         "permalink": "/productions/2026-frozen/",
         "title": "Disney's Frozen",
@@ -201706,7 +201754,7 @@
         "approx_date": "",
         "theatre": "Greenlight Theatre Company",
         "venue": "Greenlight Theatre Company",
-        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp",
+        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310",
         "credits": [
           "Director"
         ]
