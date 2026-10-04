@@ -113,9 +113,6 @@ lyricist: Ralph Blane
 book_writer: Sally Benson
 original_source: >-
   Stories by Sally Benson originally published in The New Yorker, adapted from the 1944 MGM film
-reviews:
-- title: "Alhambra's 'Meet Me in St. Louis' Finds Home in Memory and Community"
-  uri: /reviews/2026/10/03/alhambras-meet-me-in-st-louis-finds-home-in-memory-and-community/
 ---
 
 Follow the Smith family from the summer of 1903 to the fall of 1904 as they eagerly await the coming of the World's Fair. This heartwarming view of early American family life includes songs The Boy Next Door, The Trolly Song and Have Yourself A Merry Little Christmas.
