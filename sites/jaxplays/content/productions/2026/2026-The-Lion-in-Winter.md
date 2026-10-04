@@ -46,7 +46,7 @@ crew:
   - Fight Coordinator: Ron Shreve
   - Lighting Design: Johnny Pettegrew
   - Sound Design: Brent Mulberry
-  - Costume Design: Joy Smith/Classic Costumes
+  - Costume Design: Classic Costumes
   - Stage Manager: Katie Cress
   - Assistant Stage Manager: Margie Ricke
   - Light Board Operator: Mark Rubens
