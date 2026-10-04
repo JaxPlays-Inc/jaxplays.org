@@ -1980,6 +1980,25 @@
     "crew": [],
     "orchestra": []
   },
+  "aidan-wood": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-lion-in-winter/",
+        "title": "The Lion in Winter",
+        "opening_date": "2026-09-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "The-Lion-in-Winter.webp",
+        "credits": [
+          "King Philip II"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "aileen-clark": {
     "cast": [
       {
@@ -61878,6 +61897,25 @@
     "crew": [],
     "orchestra": []
   },
+  "dustin-ponder": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-lion-in-winter/",
+        "title": "The Lion in Winter",
+        "opening_date": "2026-09-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "The-Lion-in-Winter.webp",
+        "credits": [
+          "Prince Richard"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "dwight-stillson": {
     "cast": [
       {
@@ -67072,6 +67110,76 @@
         "credits": [
           "Crew Assistant",
           "Props"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
+  "eli-bruce-durham": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-lion-in-winter/",
+        "title": "The Lion in Winter",
+        "opening_date": "2026-09-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "The-Lion-in-Winter.webp",
+        "credits": [
+          "Prince Geoffrey"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-barefoot-in-the-park/",
+        "title": "Barefoot in the Park",
+        "opening_date": "2025-11-07",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2025-Barefoot-in-the-Park.webp",
+        "credits": [
+          "Movers"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-the-boys-next-door/",
+        "title": "The Boys Next Door",
+        "opening_date": "2025-03-07",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2025-The-Boys-Next-Door.webp",
+        "credits": [
+          "Lucien P. Smith"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2025-barefoot-in-the-park/",
+        "title": "Barefoot in the Park",
+        "opening_date": "2025-11-07",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2025-Barefoot-in-the-Park.webp",
+        "credits": [
+          "Sound Board Operator",
+          "Set Construction / Running Crew"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-dracula-a-comedy-of-terrors/",
+        "title": "Dracula:  A Comedy of Terrors",
+        "opening_date": "2025-04-18",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2025-Dracula-A-Comedy-of-Terrors.webp",
+        "credits": [
+          "Stage Management",
+          "Running Crew"
         ]
       }
     ],
@@ -196088,6 +196196,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "rebeque-destro": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-lion-in-winter/",
+        "title": "The Lion in Winter",
+        "opening_date": "2026-09-19",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "The-Lion-in-Winter.webp",
+        "credits": [
+          "Queen Eleanor"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "redgie-gutshall": {

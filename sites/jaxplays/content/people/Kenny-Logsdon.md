@@ -11,3 +11,4 @@ roles:
 socials:
   resume: /media/resumes/Kenny-Logsdon-2026-05.pdf
 ---
+Kenny Logsdon is an actor whose Theatre Jacksonville credits include King Henry II in *The Lion in Winter* and Henry Benish/Lord Dudley in *Play On!*. His JaxPlays-indexed credits also include Dr. Jeremiah "Jerry" Mears in *God's Man in Texas*, Junior Turpin in *Dearly Departed*, Bernard in *Boeing Boeing* and John in *Four Weddings and an Elvis*.

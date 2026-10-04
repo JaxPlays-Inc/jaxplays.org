@@ -17,4 +17,4 @@ socials:
   imdb:
   website:
 ---
-Sydney Wissinger is dedicated to empowering youth through theatre and choral education. Passionate about performance, she is grateful for the support from her friends and family, the leadership among her dance captains, and the joy brought by talented young performers in her current production.
+Sydney Wissinger is an actor, middle school theatre director and choir director who invests in Northeast Florida's performing arts community. Her credits include Alais Capet in *The Lion in Winter*, Florika in [[production:2026 The Hunchback of Notre Dame]], Maria in *The Sound of Music*, Miss Andrew in *Mary Poppins*, Margaret in *Much Ado About Nothing* and the Northeast Florida premiere of *Waitress*. As an educator, she focuses on helping students discover their voices and become their most authentic selves.
