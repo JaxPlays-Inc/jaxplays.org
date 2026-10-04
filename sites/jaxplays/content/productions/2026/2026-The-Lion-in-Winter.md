@@ -27,7 +27,7 @@ poster_attr: Theatre Jacksonville
 featured_image_attr:
 poster_attr_link: https://www.theatrejax.com/season-107
 featured_image_attr_link:
-program:
+program: 2026-The-Lion-in-Winter.pdf
 website: https://www.theatrejax.com/season-107
 tickets: https://ci.ovationtix.com/34919/production/1268913
 show_details:
