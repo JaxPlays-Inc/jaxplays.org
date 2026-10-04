@@ -3,9 +3,9 @@ title: "Alhambra's 'Meet Me in St. Louis' Finds Home in Memory and Community"
 slug: alhambras-meet-me-in-st-louis-finds-home-in-memory-and-community
 date: 2026-10-03T20:05:00-04:00
 featured_image:
-  src: /media/posters/2026-Meet-Me-In-St-Louis.webp
-  alt: "Poster artwork for Alhambra Theatre & Dining's Meet Me in St. Louis."
-  caption: "Alhambra Theatre & Dining presents *Meet Me in St. Louis* Oct. 1-Nov. 8, 2026."
+  src: /media/photos/2026-Meet-Me-In-St-Louis-01.webp
+  alt: "Cast members from Alhambra Theatre & Dining's Meet Me in St. Louis pose in white period costumes on the Smith family porch set."
+  caption: "The company of Alhambra Theatre & Dining's *Meet Me in St. Louis* gathers on the Smith family porch, framing the musical's warm vision of home and community."
   credit:
     name: Alhambra Theatre & Dining
 authors:
