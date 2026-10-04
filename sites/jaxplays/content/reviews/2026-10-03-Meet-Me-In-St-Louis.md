@@ -9,7 +9,7 @@ featured_image:
   credit:
     name: Alhambra Theatre & Dining
 authors:
-- Ray Hollister
+- Maureen E. McCluskey, Ed.D.
 show_reading_time: true
 production: 2026 meet me in st louis
 theatre: Alhambra Theatre & Dining
