@@ -17,11 +17,15 @@ showtimes:
   - 2026-10-02 19:30:00
   - 2026-10-03 14:00:00
   - 2026-10-04 14:00:00
-poster: 2026-The-Lion-in-Winter.webp
+poster: The-Lion-in-Winter.webp
 featured_image:
+poster_alt: Poster for Theatre Jacksonville's production of The Lion in Winter
 featured_image_alt:
+poster_caption: Theatre Jacksonville presents The Lion in Winter as The Classic in San Marco for Season 107.
 featured_image_caption:
+poster_attr: Theatre Jacksonville
 featured_image_attr:
+poster_attr_link: https://www.theatrejax.com/season-107
 featured_image_attr_link:
 program:
 website: https://www.theatrejax.com/season-107
@@ -29,7 +33,25 @@ tickets: https://ci.ovationtix.com/34919/production/1268913
 show_details:
   - Playwright: "[[w:James Goldman]]"
 cast:
+  - Queen Eleanor: Rebeque Destro
+  - King Henry II: Kenny Logsdon
+  - Prince John: Collin Galvin
+  - Prince Geoffrey: Eli Bruce Durham
+  - Prince Richard: Dustin Ponder
+  - Alais Capet: Sydney Wissinger
+  - King Philip II: Aidan Wood
 crew:
+  - Director: Jeff Grove
+  - Production Manager: Michelle Leigh
+  - Fight Coordinator: Ron Shreve
+  - Lighting Design: Johnny Pettegrew
+  - Sound Design: Brent Mulberry
+  - Costume Design: Joy Smith/Classic Costumes
+  - Stage Manager: Katie Cress
+  - Assistant Stage Manager: Margie Ricke
+  - Light Board Operator: Mark Rubens
+  - Sound Board Operator: Aspen Krill
+  - Wardrobe/Running Crew: Lourdes Acosta
 understudies:
 orchestra:
 genres:
@@ -38,8 +60,9 @@ genres:
   - Drama
   - Historical
 description: James Goldman's modern classic turns royal succession into a viciously funny family battle among Henry II, Eleanor of Aquitaine and their sons.
-source: Theatre Jacksonville Season 107 page and AudienceView ticketing page
-source_url: https://www.theatrejax.com/season-107
+source: Submitted through JaxPlays production form
+source_date: 2026-09-30
+source_url: https://jaxplays.org/productions/2026-the-lion-in-winter/
 ---
 Sibling rivalry, adultery and dungeons collide in *The Lion in Winter*, James Goldman's modern classic about the Plantagenet family.
 
