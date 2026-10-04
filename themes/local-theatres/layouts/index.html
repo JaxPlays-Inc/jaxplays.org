@@ -644,7 +644,7 @@
         </div>
         <div class="home-dashboard-editorial">
           {{ range $latestReviews }}
-            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home" "showByline" true) }}
           {{ end }}
         </div>
         <a class="jp-section-more" href="/reviews/">More reviews</a>
@@ -662,7 +662,7 @@
         </div>
         <div class="home-dashboard-editorial">
           {{ range $latestNews }}
-            {{ partial "article-card.html" (dict "page" . "variant" "home") }}
+            {{ partial "article-card.html" (dict "page" . "variant" "home" "showByline" true) }}
           {{ end }}
         </div>
         <a class="jp-section-more" href="/news/">More news</a>

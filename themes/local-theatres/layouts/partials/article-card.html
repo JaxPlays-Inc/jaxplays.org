@@ -1,5 +1,6 @@
 {{ $page := .page }}
 {{ $variant := .variant | default "directory" }}
+{{ $showByline := .showByline | default false }}
 {{ $image := partial "func/GetFeaturedImage.html" $page }}
 {{ $imageMeta := partial "func/GetFeaturedImageMeta.html" $page }}
 {{ $summarySource := $page.Summary }}
@@ -8,6 +9,16 @@
 {{ end }}
 {{ $summaryClass := cond (eq $variant "home") "home-dashboard-summary-link" "article-directory-summary-link" }}
 {{ $summary := partial "content-wikilinks" $summarySource | replaceRE "<a " (printf "<a class=\"%s\" " $summaryClass) | safeHTML }}
+{{ $authorLabel := "" }}
+{{ with $page.Params.authors }}
+  {{ if reflect.IsSlice . }}
+    {{ $authorLabel = delimit . ", " }}
+  {{ else }}
+    {{ $authorLabel = . }}
+  {{ end }}
+{{ else }}
+  {{ with $page.Params.author }}{{ $authorLabel = . }}{{ else }}{{ $authorLabel = $page.Site.Params.author }}{{ end }}
+{{ end }}
 
 {{ if eq $variant "home" }}
   <article class="article-card article-card--home home-dashboard-story home-dashboard-grow">
@@ -27,8 +38,16 @@
       <a class="article-card-link home-dashboard-story-link" href="{{ $page.RelPermalink }}">
         <strong class="article-card-title home-dashboard-story-title">{{ $page.Title }}</strong>
       </a>
-      {{ if not $page.Date.IsZero }}
-        <span class="article-card-meta home-dashboard-meta">{{ $page.Date.Format "Jan 2, 2006" }}</span>
+      {{ if or (not $page.Date.IsZero) (and $showByline $authorLabel) }}
+        <span class="article-card-meta home-dashboard-meta">
+          {{- if not $page.Date.IsZero -}}
+            <time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $page.Date.Format "Jan 2, 2006" }}</time>
+          {{- end -}}
+          {{- if and $showByline $authorLabel -}}
+            {{- if not $page.Date.IsZero }} · {{ end -}}
+            By {{ $authorLabel }}
+          {{- end -}}
+        </span>
       {{ end }}
       {{ with $summary }}
         <div class="article-card-summary home-dashboard-meta home-dashboard-story-summary">{{ . }}</div>
@@ -36,16 +55,6 @@
     </div>
   </article>
 {{ else }}
-  {{ $authorLabel := "" }}
-  {{ with $page.Params.authors }}
-    {{ if reflect.IsSlice . }}
-      {{ $authorLabel = delimit . ", " }}
-    {{ else }}
-      {{ $authorLabel = . }}
-    {{ end }}
-  {{ else }}
-    {{ with $page.Params.author }}{{ $authorLabel = . }}{{ else }}{{ $authorLabel = $page.Site.Params.author }}{{ end }}
-  {{ end }}
   {{ $searchText := .searchText | default "" }}
   <article class="article-card article-card--directory article-directory-card slow-grow" data-article-card data-article-search="{{ $searchText | htmlEscape }}">
     <a class="article-card-hitarea article-directory-card-hitarea" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }}"></a>
