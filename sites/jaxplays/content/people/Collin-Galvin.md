@@ -24,4 +24,4 @@ photos:
   photo_caption: Collin Galvin
   photo_attr: Anthony Paderewski - Anthony Shoots
 ---
-Collin Galvin is an actor and musician whose credits include Prince John in *The Lion in Winter*, Augustus Gloop in [[production:2025 Charlie and the Chocolate Factory]], Posh Boy Kevin in [[production:2024 Billy Elliot: The Musical|Billy Elliott]], the Mock Turtle in *Alice in Wonderland*, and roles in *Scrooge*, *Mean Girls* and *Shrek*. He plays flute, piccolo and piano, and performs with the Jacksonville Symphony Youth Orchestra.
+Collin Galvin is an actor and musician whose credits include Prince John in *The Lion in Winter*, Augustus Gloop in [[production:2025 Charlie and the Chocolate Factory]], Posh Boy Kevin in [[production:2024 Billy Elliot: The Musical|Billy Elliott]], the Mock Turtle in *Alice in Wonderland*, and roles in *Scrooge*, *Mean Girls* and *Shrek*. He plays flute, piccolo and piano, and performs with the Jacksonville Symphony Youth Orchestra. He has been acting since first grade and loves being on stage.
