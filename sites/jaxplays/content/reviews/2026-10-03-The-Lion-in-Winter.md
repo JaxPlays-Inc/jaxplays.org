@@ -1,6 +1,6 @@
 ---
 title: "A Masterclass in Intrigue: 'The Lion in Winter' at Theatre Jacksonville"
-date: 2026-10-02T06:58:59-04:00
+date: 2026-10-03T15:44:48-04:00
 authors:
 - Ray Hollister
 featured_image:
