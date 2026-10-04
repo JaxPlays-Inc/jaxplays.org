@@ -69,9 +69,40 @@ website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1512&code=JAXPLAYS
 show_details: null
-cast: null
-crew: null
-orchestra: null
+cast:
+- Esther Smith: Sofia Lourdes Smith
+- Rose Smith: Kelly Wolfe
+- Katie: Patti Eyler
+- John Truitt: Johnny Flannagan
+- Tootie: Ivy Ayres
+- Agnes: Lily Davidson
+- Alonzo Smith: Clay Smith
+- Anna Smith: Martha Wingfield
+- Lon: Elliot Miller
+- Frank Prophater: Dan Embree
+- Warren Sheffield: Korey Kristensen
+- Lucille Ballard: Sarah Dickey
+crew:
+- Director: Shain Stroff
+- Musical Director: Cathy Murphy Giddens
+- Choreographer: Curtis Reed
+- Scenic Designer: Dave Dionne
+- Projection Designer: Bryce Cofield
+- Costume Design:
+  - Camala Pitts
+  - Dorinda Quiles
+- Wig Design:
+  - Camala Pitts
+  - Dorinda Quiles
+- Lighting Design: Johnny Pettegrew
+- Audio Engineer: Matthew Carr
+- Property Master: Patti Eyler
+orchestra:
+- Conductor: Cathy Murphy Giddens
+- Piano: Stephen Mark Fennell
+- Drums: Tim Pickering
+- Bass Guitar: Dan Rubel
+- Guitar/Banjo: Ken Calhoun
 genres:
 - Musical
 - Historical
@@ -82,6 +113,9 @@ lyricist: Ralph Blane
 book_writer: Sally Benson
 original_source: >-
   Stories by Sally Benson originally published in The New Yorker, adapted from the 1944 MGM film
+reviews:
+- title: "Alhambra's 'Meet Me in St. Louis' Finds Home in Memory and Community"
+  uri: /reviews/2026/10/03/alhambras-meet-me-in-st-louis-finds-home-in-memory-and-community/
 ---
 
 Follow the Smith family from the summer of 1903 to the fall of 1904 as they eagerly await the coming of the World's Fair. This heartwarming view of early American family life includes songs The Boy Next Door, The Trolly Song and Have Yourself A Merry Little Christmas.
