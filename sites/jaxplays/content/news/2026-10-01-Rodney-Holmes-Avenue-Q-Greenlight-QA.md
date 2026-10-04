@@ -3,9 +3,9 @@ title: "Grown-Up Strings Attached: Rodney Holmes Brings Heart, Humor and Puppet 
 slug: Rodney-Holmes-Avenue-Q-Greenlight-QA
 date: 2026-10-01T16:00:00-04:00
 featured_image:
-  src: /media/posters/2026-Avenue-Q-Greenlight-Theatre-Company.webp
-  alt: "Poster for Greenlight Theatre Company's Avenue Q, with the musical title above an orange furry Q."
-  caption: "Greenlight Theatre Company presents *Avenue Q* Oct. 2-11, 2026."
+  src: /media/photos/2026-Avenue-Q-Greenlight-Theatre-Company-Featured.webp
+  alt: "The cast of Greenlight Theatre Company's Avenue Q poses onstage with the show's puppets."
+  caption: "The cast of Greenlight Theatre Company's *Avenue Q* poses with the show's puppets on the Avenue Q set."
   credit:
     name: Greenlight Theatre Company
     url: https://www.greenlighttheatreco.com/jaxonstage

@@ -44,6 +44,11 @@ source_date: 2026-10-01
 source_urls:
   - https://www.greenlighttheatreco.com/jaxonstage
   - https://linear.app/jaxplays/issue/JAX-5890/director-rodney-holmes-brings-heart-humor-and-puppet-bootcamp-to
+press:
+- title: "GreenLight Theatre: Avenue Q the Musical"
+  source: "First Coast News"
+  url: "https://www.youtube.com/watch?v=d3WpCtAnDzU"
+  youtube_id: "d3WpCtAnDzU"
 ---
 Greenlight Theatre Company presents *Avenue Q*, the Tony Award-winning musical comedy about young adults, big questions and puppet-fueled chaos in a quirky New York neighborhood.
 
