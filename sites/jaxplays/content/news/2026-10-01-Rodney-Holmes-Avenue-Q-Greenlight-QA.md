@@ -1,5 +1,5 @@
 ---
-title: "Grown-Up Strings Attached: Rodney Holmes Brings Heart, Humor and Puppet Bootcamp to Greenlight Theatre Company's Avenue Q"
+title: "Grown-Up Strings Attached: Rodney Holmes Brings Heart, Humor and Puppet Bootcamp to Greenlight Theatre Company's 'Avenue Q'"
 slug: Rodney-Holmes-Avenue-Q-Greenlight-QA
 date: 2026-10-01T16:00:00-04:00
 featured_image:
@@ -16,7 +16,7 @@ production: "2026 Avenue Q"
 theatre: Greenlight Theatre Company
 cast:
 - Rodney Holmes
-description: "Director Rodney Holmes discusses puppet bootcamp, collaborative community theatre and the heart beneath Greenlight Theatre Company's Avenue Q."
+description: "Director Rodney Holmes discusses puppet bootcamp, collaborative community theatre and the heart beneath Greenlight Theatre Company's 'Avenue Q.'"
 ---
 [Greenlight Theatre Company](/theatres/greenlight-theatre-company/) opens its production of the Tony Award-winning musical [*Avenue Q*](/productions/2026-avenue-q/) Friday, Oct. 2. Directed by [Rodney Holmes](/people/rodney-holmes/), the show features a cast of 14 actors performing alongside puppets to tell a story about navigating young adulthood, employment and relationships.<!--more-->
 
@@ -58,7 +58,7 @@ Then, when we understand the mechanics of the language, I let the actors write t
 
 **JaxPlays: What are some of your favorite facets of the show, whether it's a particular character, musical number, relationship, theme or theatrical device?**
 
-**Holmes:** Not to be cliche, but the final number of the show always brings the biggest smile to my face. The idea of all of the hardships in life being only "For Now" truly sums up the heart of the story. It's also the only time in the show that the entire cast is onstage at the same time. There's something wonderful about seeing a group of performers that you've grown to know and respect unified for a beautiful button to a show.
+**Holmes:** Not to be cliché, but the final number of the show always brings the biggest smile to my face. The idea of all of the hardships in life being only "For Now" truly sums up the heart of the story. It's also the only time in the show that the entire cast is onstage at the same time. There's something wonderful about seeing a group of performers that you've grown to know and respect unified for a beautiful button to a show.
 
 **JaxPlays: There's a lot of humor in *Avenue Q*, but underneath that humor are some pretty universal questions about growing up, finding your place, relationships, work and figuring out adulthood. What do you hope audiences take away from the show beyond the laughs?**
 
