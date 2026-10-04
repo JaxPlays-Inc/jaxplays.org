@@ -2,7 +2,7 @@
 title: "Jude Markland"
 aliases: []
 other_names: []
-date: "2026-09-26T22:49:46.271Z"
+date: "2026-09-30T16:20:33.931Z"
 featured_image: "Jude-Markland.webp"
 featured_image_attr:
 featured_image_attr_link:
@@ -21,3 +21,5 @@ socials:
   backstage:
   threads:
 ---
+
+Markland is a young actor based in Jacksonville, Florida. In high school, he performed in productions including *Little Shop of Horrors* (Seymour), *Beetlejuice JR* (Beetlejuice), and *Little Women* (Laurie). He made his community theatre debut in The Island Theatre's production of *The 25th Annual Putnam County Spelling Bee* (Barfee).
