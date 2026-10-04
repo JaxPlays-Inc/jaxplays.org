@@ -2,9 +2,9 @@
 title: "A Masterclass in Intrigue: 'The Lion in Winter' at Theatre Jacksonville"
 date: 2026-10-03T15:44:48-04:00
 authors:
-- Ray Hollister
+- Maureen E. McCluskey, Ed.D.
 featured_image:
-  src: /media/photos/2026-The-Lion-in-Winter.webp
+  src: /media/featured_images/2026-The-Lion-in-Winter.webp
   alt: "Promotional graphic for Theatre Jacksonville's The Lion in Winter, featuring a heraldic lion and title treatment."
   caption: "Theatre Jacksonville presents James Goldman's *The Lion in Winter*, directed by Jeff Grove."
   credit:

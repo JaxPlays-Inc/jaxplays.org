@@ -2,8 +2,10 @@
 title: Sofia Lourdes
 aliases:
  - /people/sofia-smith
+ - /people/sofia-lourdes-smith
 other_names:
  - Sofia Smith
+ - Sofia Lourdes Smith
 featured_image: Sofia-Lourdes.webp
 featured_image_attr: Jax Headshots (Josh Andrews)
 featured_image_attr_link: 

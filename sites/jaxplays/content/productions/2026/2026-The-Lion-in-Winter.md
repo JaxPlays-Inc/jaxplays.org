@@ -18,7 +18,7 @@ showtimes:
   - 2026-10-03 14:00:00
   - 2026-10-04 14:00:00
 poster: The-Lion-in-Winter.webp
-featured_image:
+featured_image: 2026-The-Lion-in-Winter.webp
 poster_alt: Poster for Theatre Jacksonville's production of The Lion in Winter
 featured_image_alt:
 poster_caption: Theatre Jacksonville presents The Lion in Winter as The Classic in San Marco for Season 107.

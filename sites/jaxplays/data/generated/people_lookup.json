@@ -2739,6 +2739,11 @@
     "permalink": "/people/clay-mitchell/",
     "featured_image": "Clay-Mitchell.webp"
   },
+  "clay-smith": {
+    "title": "Clay Smith",
+    "permalink": "/people/clay-smith/",
+    "featured_image": ""
+  },
   "clayton-riddley": {
     "title": "Clayton Riddley",
     "permalink": "/people/clayton-riddley/",
@@ -2979,9 +2984,19 @@
     "permalink": "/people/dallas-rawlins/",
     "featured_image": ""
   },
+  "dan-embree": {
+    "title": "Dan Embree",
+    "permalink": "/people/dan-embree/",
+    "featured_image": ""
+  },
   "dan-robillard": {
     "title": "Dan Robillard",
     "permalink": "/people/dan-robillard/",
+    "featured_image": ""
+  },
+  "dan-rubel": {
+    "title": "Dan Rubel",
+    "permalink": "/people/dan-rubel/",
     "featured_image": ""
   },
   "dani-miller": {
@@ -5719,6 +5734,11 @@
     "permalink": "/people/ithiell-b-yisrael/",
     "featured_image": ""
   },
+  "ivy-ayres": {
+    "title": "Ivy Ayres",
+    "permalink": "/people/ivy-ayres/",
+    "featured_image": ""
+  },
   "izzy-hague": {
     "title": "Izzy Hague",
     "permalink": "/people/izzy-hague/",
@@ -7684,9 +7704,19 @@
     "permalink": "/people/kelly-weaver/",
     "featured_image": ""
   },
+  "kelly-wolfe": {
+    "title": "Kelly Wolfe",
+    "permalink": "/people/kelly-wolfe/",
+    "featured_image": ""
+  },
   "ken-burton": {
     "title": "Ken Burton",
     "permalink": "/people/ken-burton/",
+    "featured_image": ""
+  },
+  "ken-calhoun": {
+    "title": "Ken Calhoun",
+    "permalink": "/people/ken-calhoun/",
     "featured_image": ""
   },
   "ken-johnson": {
@@ -7853,6 +7883,11 @@
     "title": "Kole Mitchell McKinley",
     "permalink": "/people/kole-mitchell-mckinley/",
     "featured_image": "Kole-Mitchell-McKinley.webp"
+  },
+  "korey-kristensen": {
+    "title": "Korey Kristensen",
+    "permalink": "/people/korey-kristensen/",
+    "featured_image": ""
   },
   "kristen-pacheco": {
     "title": "Kristen Pacheco",
@@ -8253,6 +8288,11 @@
     "title": "Lilly Dubnansky",
     "permalink": "/people/lilly-dubnansky/",
     "featured_image": "Lilly-Dubnansky.webp"
+  },
+  "lily-davidson": {
+    "title": "Lily Davidson",
+    "permalink": "/people/lily-davidson/",
+    "featured_image": ""
   },
   "lily-zawatsky": {
     "title": "Lily Zawatsky",
@@ -9022,6 +9062,11 @@
   "martha-race": {
     "title": "Martha Race",
     "permalink": "/people/martha-race/",
+    "featured_image": ""
+  },
+  "martha-wingfield": {
+    "title": "Martha Wingfield",
+    "permalink": "/people/martha-wingfield/",
     "featured_image": ""
   },
   "martha-worsley": {
@@ -11614,6 +11659,11 @@
     "permalink": "/people/sarah-brace/",
     "featured_image": ""
   },
+  "sarah-dickey": {
+    "title": "Sarah Dickey",
+    "permalink": "/people/sarah-dickey/",
+    "featured_image": ""
+  },
   "sarah-kate-braddy": {
     "title": "Sarah Kate Braddy",
     "permalink": "/people/sarah-kate-braddy/",
@@ -11984,6 +12034,11 @@
     "permalink": "/people/sofia-lourdes/",
     "featured_image": "Sofia-Lourdes.webp"
   },
+  "sofia-lourdes-smith": {
+    "title": "Sofia Lourdes",
+    "permalink": "/people/sofia-lourdes/",
+    "featured_image": "Sofia-Lourdes.webp"
+  },
   "sommer-farhat": {
     "title": "Sommer Farhat",
     "permalink": "/people/sommer-farhat/",
@@ -12072,6 +12127,11 @@
   "stephen-fennell": {
     "title": "Stephen Fennell",
     "permalink": "/people/stephen-fennell/",
+    "featured_image": ""
+  },
+  "stephen-mark-fennell": {
+    "title": "Stephen Mark Fennell",
+    "permalink": "/people/stephen-mark-fennell/",
     "featured_image": ""
   },
   "steve-conrad": {
@@ -12517,6 +12577,11 @@
   "tim-mcmanus": {
     "title": "Tim McManus",
     "permalink": "/people/tim-mcmanus/",
+    "featured_image": ""
+  },
+  "tim-pickering": {
+    "title": "Tim Pickering",
+    "permalink": "/people/tim-pickering/",
     "featured_image": ""
   },
   "tim-tyndall": {

@@ -69,9 +69,71 @@ website: null
 source_url: https://www.alhambrajax.com
 tickets: https://sales.alhambrajax.com/100/tickets.shows.html?playID=1512&code=JAXPLAYS
 show_details: null
-cast: null
-crew: null
-orchestra: null
+cast:
+- Esther Smith: Sofia Lourdes Smith
+- Rose Smith: Kelly Wolfe
+- Katie: Patti Eyler
+- John Truitt: Johnny Flannagan
+- Tootie: Ivy Ayres
+- Agnes: Lily Davidson
+- Alonzo Smith: Clay Smith
+- Anna Smith: Martha Wingfield
+- Lon: Elliot Miller
+- Frank Prophater: Dan Embree
+- Warren Sheffield: Korey Kristensen
+- Lucille Ballard: Sarah Dickey
+crew:
+- Director: Shain Stroff
+- Musical Director: Cathy Murphy Giddens
+- Choreographer: Curtis Reed
+- Scenic Designer: Dave Dionne
+- Projection Designer: Bryce Cofield
+- Costume Design:
+  - Camala Pitts
+  - Dorinda Quiles
+- Wig Design:
+  - Camala Pitts
+  - Dorinda Quiles
+- Lighting Design: Johnny Pettegrew
+- Audio Engineer: Matthew Carr
+- Property Master: Patti Eyler
+orchestra:
+- Conductor: Cathy Murphy Giddens
+- Piano: Stephen Mark Fennell
+- Drums: Tim Pickering
+- Bass Guitar: Dan Rubel
+- Guitar/Banjo: Ken Calhoun
+photos:
+- photo: 2026-Meet-Me-In-St-Louis-01.webp
+  photo_alt: "Cast members from Alhambra Theatre & Dining's Meet Me in St. Louis pose in white period costumes on the Smith family porch set."
+  photo_caption: "The company of Meet Me in St. Louis gathers on the Smith family porch, capturing the production's nostalgic portrait of family and community."
+  photo_attr: Alhambra Theatre & Dining
+  photo_attr_link:
+- photo: 2026-Meet-Me-In-St-Louis-02.webp
+  photo_alt: "Performers sing inside the Smith family parlor, with Tootie and Esther at left, Katie at the piano, and the family joining in across the room."
+  photo_caption: "A parlor song fills the Smith home with bustling warmth as the family gathers around music, ritual and the comforts of everyday life."
+  photo_attr: Alhambra Theatre & Dining
+  photo_attr_link:
+- photo: 2026-Meet-Me-In-St-Louis-03.webp
+  photo_alt: "The Smith family stands in their parlor as Esther gestures during a lively family conversation."
+  photo_caption: "Inside the Smith parlor, the family's hopes, worries and comic sparks collide in one of the musical's intimate household moments."
+  photo_attr: Alhambra Theatre & Dining
+  photo_attr_link:
+- photo: 2026-Meet-Me-In-St-Louis-04.webp
+  photo_alt: "Esther and John ride a bright yellow trolley with cast members singing around them during The Trolley Song."
+  photo_caption: "The Trolley Song bursts to life as Esther and John ride through a jubilant St. Louis moment, surrounded by the production's energetic ensemble."
+  photo_attr: Alhambra Theatre & Dining
+  photo_attr_link:
+- photo: 2026-Meet-Me-In-St-Louis-05.webp
+  photo_alt: "The Smith family reacts to a stern conversation in the parlor, with Esther, her parents, sisters and household members gathered across the stage."
+  photo_caption: "A family debate gathers momentum in the Smith home, where affection and change press against the traditions holding everyone together."
+  photo_attr: Alhambra Theatre & Dining
+  photo_attr_link:
+- photo: 2026-Meet-Me-In-St-Louis-06.webp
+  photo_alt: "The Smith family and household members stand together under blue stage lighting during a tense parlor scene."
+  photo_caption: "The Smith household pauses in a charged parlor scene, the blue wash of light underscoring the musical's push and pull between comfort and change."
+  photo_attr: Alhambra Theatre & Dining
+  photo_attr_link:
 genres:
 - Musical
 - Historical
