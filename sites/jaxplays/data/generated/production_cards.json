@@ -32255,6 +32255,31 @@
     "searchBase": "the cocktail hour jan 23, 2026 jan 23, 2026 a classic theatre the center for spiritual living staged reading drama a poignant exploration of family relationships and social expectations among the privileged class."
   },
   {
+    "title": "9 to 5: The Musical",
+    "url": "/productions/2027-9-to-5-the-musical/",
+    "contentPath": "productions/2027/2027-9-to-5-The-Musical",
+    "poster": "/media/posters/2027-9-to-5-The-Musical.webp",
+    "posterAlt": "9 to 5: The Musical poster",
+    "openingDate": "2027-02-18",
+    "closingDate": "2027-03-28",
+    "openingLabel": "Feb 18, 2027",
+    "openingMonthLabel": "February 2027",
+    "openingBadgeLabel": "Feb 18, 2027",
+    "closingLabel": "Mar 28, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy"
+    ],
+    "summary": "Inspired by the hit movie and featuring Dolly Parton's score, three fed-up coworkers turn the tables on their sexist boss.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "9 to 5: the musical feb 18, 2027 mar 28, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy inspired by the hit movie and featuring dolly parton's score, three fed-up coworkers turn the tables on their sexist boss."
+  },
+  {
     "title": "Ah, Wilderness!",
     "url": "/productions/2027-ah-wilderness/",
     "contentPath": "productions/2027/2027-Ah-Wilderness",
@@ -32391,6 +32416,33 @@
     "searchBase": "dead man's cell phone mar 5, 2027 mar 14, 2027 a classic theatre the waterworks play comedy sarah ruhl's imaginative comedy follows a woman whose decision to answer a dead man's ringing phone pulls her into his strange and tangled life."
   },
   {
+    "title": "Disney's Frozen",
+    "url": "/productions/2027-disneys-frozen/",
+    "contentPath": "productions/2027/2027-Disneys-Frozen",
+    "poster": "/media/posters/2027-Disneys-Frozen.webp",
+    "posterAlt": "Disney's Frozen poster",
+    "openingDate": "2027-06-10",
+    "closingDate": "2027-08-08",
+    "openingLabel": "Jun 10, 2027",
+    "openingMonthLabel": "June 2027",
+    "openingBadgeLabel": "Jun 10, 2027",
+    "closingLabel": "Aug 8, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Drama",
+      "Fantasy",
+      "Family"
+    ],
+    "summary": "Anna and Elsa's story comes to life on stage in a family musical filled with humor, heart and icy magic.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "disney's frozen jun 10, 2027 aug 8, 2027 alhambra theatre & dining alhambra theatre & dining musical drama fantasy family anna and elsa's story comes to life on stage in a family musical filled with humor, heart and icy magic."
+  },
+  {
     "title": "Don Giovanni",
     "url": "/productions/2027-don-giovanni/",
     "contentPath": "productions/2027/2027-Don-Giovanni",
@@ -32443,6 +32495,32 @@
     "summary": "A Motown- and R&B-inspired musical about an all-girl trio navigating ambition, fame, conflict and heartbreak.",
     "tickets": "https://limelight.ludus.com/200529900",
     "searchBase": "dreamgirls jul 8, 2027 aug 1, 2027 limelight theatre inez mcdonald mainstage musical a motown- and r&b-inspired musical about an all-girl trio navigating ambition, fame, conflict and heartbreak."
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "url": "/productions/2027-its-a-wonderful-life/",
+    "contentPath": "productions/2027/2027-Its-a-Wonderful-Life",
+    "poster": "/media/posters/2027-Its-a-Wonderful-Life.webp",
+    "posterAlt": "It's a Wonderful Life poster",
+    "openingDate": "2027-11-18",
+    "closingDate": "2027-12-24",
+    "openingLabel": "Nov 18, 2027",
+    "openingMonthLabel": "November 2027",
+    "openingBadgeLabel": "Nov 18, 2027",
+    "closingLabel": "Dec 24, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Drama",
+      "Christmas"
+    ],
+    "summary": "George Bailey's timeless story of family, friendship and discovering what truly matters comes to life on stage.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "it's a wonderful life nov 18, 2027 dec 24, 2027 alhambra theatre & dining alhambra theatre & dining musical drama christmas george bailey's timeless story of family, friendship and discovering what truly matters comes to life on stage."
   },
   {
     "title": "Jersey Boys",
@@ -32556,6 +32634,32 @@
     "searchBase": "nunsense jun 12, 2027 jun 27, 2027 theatre jacksonville harold k. smith playhouse musical comedy revue dan goggin's habit-forming musical comedy follows the little sisters of hoboken as they stage a fundraiser after a convent cooking disaster."
   },
   {
+    "title": "SHOUT! The Mod Musical",
+    "url": "/productions/2027-shout-the-mod-musical/",
+    "contentPath": "productions/2027/2027-Shout-The-Mod-Musical",
+    "poster": "/media/posters/2027-Shout-The-Mod-Musical.webp",
+    "posterAlt": "SHOUT! The Mod Musical poster",
+    "openingDate": "2027-01-07",
+    "closingDate": "2027-02-07",
+    "openingLabel": "Jan 7, 2027",
+    "openingMonthLabel": "January 2027",
+    "openingBadgeLabel": "Jan 7, 2027",
+    "closingLabel": "Feb 7, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy",
+      "Nostalgia"
+    ],
+    "summary": "Swing into the '60s with this colorful, high-energy celebration of the women, music and style that defined a generation.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "shout! the mod musical jan 7, 2027 feb 7, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy nostalgia swing into the '60s with this colorful, high-energy celebration of the women, music and style that defined a generation."
+  },
+  {
     "title": "Something Rotten!",
     "url": "/productions/2027-something-rotten/",
     "contentPath": "productions/2027/2027-Something-Rotten",
@@ -32607,6 +32711,33 @@
     "searchBase": "songs for a new world may 13, 2027 may 16, 2027 limelight theatre matuza blackbox musical jason robert brown's song cycle explores turning points, choices, love, and change."
   },
   {
+    "title": "South Pacific",
+    "url": "/productions/2027-south-pacific/",
+    "contentPath": "productions/2027/2027-South-Pacific",
+    "poster": "/media/posters/2027-South-Pacific.webp",
+    "posterAlt": "South Pacific poster",
+    "openingDate": "2027-04-29",
+    "closingDate": "2027-06-06",
+    "openingLabel": "Apr 29, 2027",
+    "openingMonthLabel": "April 2027",
+    "openingBadgeLabel": "Apr 29, 2027",
+    "closingLabel": "Jun 6, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Drama",
+      "Romance",
+      "Historical"
+    ],
+    "summary": "Rodgers and Hammerstein's beloved classic pairs sweeping romance with one of Broadway's great scores against a World War II backdrop.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "south pacific apr 29, 2027 jun 6, 2027 alhambra theatre & dining alhambra theatre & dining musical drama romance historical rodgers and hammerstein's beloved classic pairs sweeping romance with one of broadway's great scores against a world war ii backdrop."
+  },
+  {
     "title": "The 39 Steps",
     "url": "/productions/2027-the-39-steps/",
     "contentPath": "productions/2027/2027-The-39-Steps",
@@ -32633,6 +32764,56 @@
     "summary": "A bored man, a murdered stranger and a mysterious spy ring launch Patrick Barlow's fast-moving comic adaptation of The 39 Steps.",
     "tickets": "https://ci.ovationtix.com/34919/production/1268926",
     "searchBase": "the 39 steps jan 16, 2027 jan 31, 2027 theatre jacksonville harold k. smith playhouse play comedy mystery a bored man, a murdered stranger and a mysterious spy ring launch patrick barlow's fast-moving comic adaptation of the 39 steps."
+  },
+  {
+    "title": "The Addams Family",
+    "url": "/productions/2027-the-addams-family/",
+    "contentPath": "productions/2027/2027-The-Addams-Family",
+    "poster": "/media/posters/2027-The-Addams-Family.webp",
+    "posterAlt": "The Addams Family poster",
+    "openingDate": "2027-09-30",
+    "closingDate": "2027-11-14",
+    "openingLabel": "Sep 30, 2027",
+    "openingMonthLabel": "September 2027",
+    "openingBadgeLabel": "Sep 30, 2027",
+    "closingLabel": "Nov 14, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy"
+    ],
+    "summary": "Wednesday Addams has fallen in love, and one dinner with the Beinekes sends both families into a night of secrets and surprises.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "the addams family sep 30, 2027 nov 14, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy wednesday addams has fallen in love, and one dinner with the beinekes sends both families into a night of secrets and surprises."
+  },
+  {
+    "title": "The Hallelujah Girls",
+    "url": "/productions/2027-the-hallelujah-girls/",
+    "contentPath": "productions/2027/2027-The-Hallelujah-Girls",
+    "poster": "/media/posters/2027-The-Hallelujah-Girls.webp",
+    "posterAlt": "The Hallelujah Girls poster",
+    "openingDate": "2027-04-01",
+    "closingDate": "2027-04-25",
+    "openingLabel": "Apr 1, 2027",
+    "openingMonthLabel": "April 2027",
+    "openingBadgeLabel": "Apr 1, 2027",
+    "closingLabel": "Apr 25, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Play",
+      "Comedy"
+    ],
+    "summary": "A group of spirited Southern women turns an abandoned church into a day spa, bringing friendship, romance and small-town chaos.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "the hallelujah girls apr 1, 2027 apr 25, 2027 alhambra theatre & dining alhambra theatre & dining play comedy a group of spirited southern women turns an abandoned church into a day spa, bringing friendship, romance and small-town chaos."
   },
   {
     "title": "The Miss Firecracker Contest",
@@ -32825,6 +33006,31 @@
     "summary": "Paul Slade Smith's romantic comedy brings writers, actors and one adored leading lady together for a theatrical weekend in Newport.",
     "tickets": "https://ci.ovationtix.com/34919/production/1268932",
     "searchBase": "theatre people, or the angel next door apr 17, 2027 may 2, 2027 theatre jacksonville harold k. smith playhouse play comedy romance paul slade smith's romantic comedy brings writers, actors and one adored leading lady together for a theatrical weekend in newport."
+  },
+  {
+    "title": "Tootsie",
+    "url": "/productions/2027-tootsie/",
+    "contentPath": "productions/2027/2027-Tootsie",
+    "poster": "/media/posters/2027-Tootsie.webp",
+    "posterAlt": "Tootsie poster",
+    "openingDate": "2027-08-19",
+    "closingDate": "2027-09-26",
+    "openingLabel": "Aug 19, 2027",
+    "openingMonthLabel": "August 2027",
+    "openingBadgeLabel": "Aug 19, 2027",
+    "closingLabel": "Sep 26, 2027",
+    "theatre": "Alhambra Theatre & Dining",
+    "venues": [],
+    "allVenues": [
+      "Alhambra Theatre & Dining"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy"
+    ],
+    "summary": "A struggling actor creates a role for himself by becoming Dorothy Michaels, then finds Broadway success and comic complications.",
+    "tickets": "https://www.alhambrajax.com",
+    "searchBase": "tootsie aug 19, 2027 sep 26, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy a struggling actor creates a role for himself by becoming dorothy michaels, then finds broadway success and comic complications."
   },
   {
     "title": "Werther",

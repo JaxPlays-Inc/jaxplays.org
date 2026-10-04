@@ -18060,6 +18060,212 @@
   ],
   "alhambra-theatre-dining": [
     {
+      "title": "It's a Wonderful Life",
+      "url": "/productions/2027-its-a-wonderful-life/",
+      "contentPath": "productions/2027/2027-Its-a-Wonderful-Life",
+      "poster": "/media/posters/2027-Its-a-Wonderful-Life.webp",
+      "posterAlt": "It's a Wonderful Life poster",
+      "openingDate": "2027-11-18",
+      "closingDate": "2027-12-24",
+      "openingLabel": "Nov 18, 2027",
+      "openingMonthLabel": "November 2027",
+      "openingBadgeLabel": "Nov 18, 2027",
+      "closingLabel": "Dec 24, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Drama",
+        "Christmas"
+      ],
+      "summary": "George Bailey's timeless story of family, friendship and discovering what truly matters comes to life on stage.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "it's a wonderful life nov 18, 2027 dec 24, 2027 alhambra theatre & dining alhambra theatre & dining musical drama christmas george bailey's timeless story of family, friendship and discovering what truly matters comes to life on stage."
+    },
+    {
+      "title": "The Addams Family",
+      "url": "/productions/2027-the-addams-family/",
+      "contentPath": "productions/2027/2027-The-Addams-Family",
+      "poster": "/media/posters/2027-The-Addams-Family.webp",
+      "posterAlt": "The Addams Family poster",
+      "openingDate": "2027-09-30",
+      "closingDate": "2027-11-14",
+      "openingLabel": "Sep 30, 2027",
+      "openingMonthLabel": "September 2027",
+      "openingBadgeLabel": "Sep 30, 2027",
+      "closingLabel": "Nov 14, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy"
+      ],
+      "summary": "Wednesday Addams has fallen in love, and one dinner with the Beinekes sends both families into a night of secrets and surprises.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "the addams family sep 30, 2027 nov 14, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy wednesday addams has fallen in love, and one dinner with the beinekes sends both families into a night of secrets and surprises."
+    },
+    {
+      "title": "Tootsie",
+      "url": "/productions/2027-tootsie/",
+      "contentPath": "productions/2027/2027-Tootsie",
+      "poster": "/media/posters/2027-Tootsie.webp",
+      "posterAlt": "Tootsie poster",
+      "openingDate": "2027-08-19",
+      "closingDate": "2027-09-26",
+      "openingLabel": "Aug 19, 2027",
+      "openingMonthLabel": "August 2027",
+      "openingBadgeLabel": "Aug 19, 2027",
+      "closingLabel": "Sep 26, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy"
+      ],
+      "summary": "A struggling actor creates a role for himself by becoming Dorothy Michaels, then finds Broadway success and comic complications.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "tootsie aug 19, 2027 sep 26, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy a struggling actor creates a role for himself by becoming dorothy michaels, then finds broadway success and comic complications."
+    },
+    {
+      "title": "Disney's Frozen",
+      "url": "/productions/2027-disneys-frozen/",
+      "contentPath": "productions/2027/2027-Disneys-Frozen",
+      "poster": "/media/posters/2027-Disneys-Frozen.webp",
+      "posterAlt": "Disney's Frozen poster",
+      "openingDate": "2027-06-10",
+      "closingDate": "2027-08-08",
+      "openingLabel": "Jun 10, 2027",
+      "openingMonthLabel": "June 2027",
+      "openingBadgeLabel": "Jun 10, 2027",
+      "closingLabel": "Aug 8, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Drama",
+        "Fantasy",
+        "Family"
+      ],
+      "summary": "Anna and Elsa's story comes to life on stage in a family musical filled with humor, heart and icy magic.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "disney's frozen jun 10, 2027 aug 8, 2027 alhambra theatre & dining alhambra theatre & dining musical drama fantasy family anna and elsa's story comes to life on stage in a family musical filled with humor, heart and icy magic."
+    },
+    {
+      "title": "South Pacific",
+      "url": "/productions/2027-south-pacific/",
+      "contentPath": "productions/2027/2027-South-Pacific",
+      "poster": "/media/posters/2027-South-Pacific.webp",
+      "posterAlt": "South Pacific poster",
+      "openingDate": "2027-04-29",
+      "closingDate": "2027-06-06",
+      "openingLabel": "Apr 29, 2027",
+      "openingMonthLabel": "April 2027",
+      "openingBadgeLabel": "Apr 29, 2027",
+      "closingLabel": "Jun 6, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Drama",
+        "Romance",
+        "Historical"
+      ],
+      "summary": "Rodgers and Hammerstein's beloved classic pairs sweeping romance with one of Broadway's great scores against a World War II backdrop.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "south pacific apr 29, 2027 jun 6, 2027 alhambra theatre & dining alhambra theatre & dining musical drama romance historical rodgers and hammerstein's beloved classic pairs sweeping romance with one of broadway's great scores against a world war ii backdrop."
+    },
+    {
+      "title": "The Hallelujah Girls",
+      "url": "/productions/2027-the-hallelujah-girls/",
+      "contentPath": "productions/2027/2027-The-Hallelujah-Girls",
+      "poster": "/media/posters/2027-The-Hallelujah-Girls.webp",
+      "posterAlt": "The Hallelujah Girls poster",
+      "openingDate": "2027-04-01",
+      "closingDate": "2027-04-25",
+      "openingLabel": "Apr 1, 2027",
+      "openingMonthLabel": "April 2027",
+      "openingBadgeLabel": "Apr 1, 2027",
+      "closingLabel": "Apr 25, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Play",
+        "Comedy"
+      ],
+      "summary": "A group of spirited Southern women turns an abandoned church into a day spa, bringing friendship, romance and small-town chaos.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "the hallelujah girls apr 1, 2027 apr 25, 2027 alhambra theatre & dining alhambra theatre & dining play comedy a group of spirited southern women turns an abandoned church into a day spa, bringing friendship, romance and small-town chaos."
+    },
+    {
+      "title": "9 to 5: The Musical",
+      "url": "/productions/2027-9-to-5-the-musical/",
+      "contentPath": "productions/2027/2027-9-to-5-The-Musical",
+      "poster": "/media/posters/2027-9-to-5-The-Musical.webp",
+      "posterAlt": "9 to 5: The Musical poster",
+      "openingDate": "2027-02-18",
+      "closingDate": "2027-03-28",
+      "openingLabel": "Feb 18, 2027",
+      "openingMonthLabel": "February 2027",
+      "openingBadgeLabel": "Feb 18, 2027",
+      "closingLabel": "Mar 28, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy"
+      ],
+      "summary": "Inspired by the hit movie and featuring Dolly Parton's score, three fed-up coworkers turn the tables on their sexist boss.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "9 to 5: the musical feb 18, 2027 mar 28, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy inspired by the hit movie and featuring dolly parton's score, three fed-up coworkers turn the tables on their sexist boss."
+    },
+    {
+      "title": "SHOUT! The Mod Musical",
+      "url": "/productions/2027-shout-the-mod-musical/",
+      "contentPath": "productions/2027/2027-Shout-The-Mod-Musical",
+      "poster": "/media/posters/2027-Shout-The-Mod-Musical.webp",
+      "posterAlt": "SHOUT! The Mod Musical poster",
+      "openingDate": "2027-01-07",
+      "closingDate": "2027-02-07",
+      "openingLabel": "Jan 7, 2027",
+      "openingMonthLabel": "January 2027",
+      "openingBadgeLabel": "Jan 7, 2027",
+      "closingLabel": "Feb 7, 2027",
+      "theatre": "Alhambra Theatre & Dining",
+      "venues": [],
+      "allVenues": [
+        "Alhambra Theatre & Dining"
+      ],
+      "genres": [
+        "Musical",
+        "Comedy",
+        "Nostalgia"
+      ],
+      "summary": "Swing into the '60s with this colorful, high-energy celebration of the women, music and style that defined a generation.",
+      "tickets": "https://www.alhambrajax.com",
+      "searchBase": "shout! the mod musical jan 7, 2027 feb 7, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy nostalgia swing into the '60s with this colorful, high-energy celebration of the women, music and style that defined a generation."
+    },
+    {
       "title": "Christmas Carole",
       "url": "/productions/2026-christmas-carole/",
       "contentPath": "productions/2026/2026-christmas-carole",
