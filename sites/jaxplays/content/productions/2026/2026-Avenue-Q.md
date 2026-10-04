@@ -47,4 +47,4 @@ source_urls:
 ---
 Greenlight Theatre Company presents *Avenue Q*, the Tony Award-winning musical comedy about young adults, big questions and puppet-fueled chaos in a quirky New York neighborhood.
 
-The production runs Oct. 2-11, 2026, at Greenlight Theatre Company's Jacksonville location on Philips Highway. The show is recommended for ages 18 and up due to adult language and themes.
+The show is recommended for ages 18 and up due to adult language and themes.
