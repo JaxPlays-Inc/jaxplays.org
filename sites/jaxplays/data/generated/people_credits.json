@@ -201700,6 +201700,18 @@
     ],
     "crew": [
       {
+        "permalink": "/productions/2026-avenue-q/",
+        "title": "Avenue Q",
+        "opening_date": "2026-10-02",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Avenue-Q-Greenlight-Theatre-Company.webp",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
         "title": "The Hunchback of Notre Dame",
         "opening_date": "2026-08-14",

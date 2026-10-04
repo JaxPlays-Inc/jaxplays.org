@@ -13,7 +13,7 @@ showtimes:
   - 2026-10-09 19:00:00
   - 2026-10-10 19:00:00
   - 2026-10-11 13:00:00
-poster: 2026-Avenue-Q-Greenlight-Theatre-Company.webp
+poster: 2026-Avenue-Q-Greenlight-Theatre-Company.webp?v=065310
 featured_image:
 poster_alt: "Poster for Greenlight Theatre Company's Avenue Q, with the musical title above an orange furry Q."
 featured_image_alt:
