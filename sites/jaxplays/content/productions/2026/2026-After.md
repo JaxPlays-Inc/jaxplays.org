@@ -3,7 +3,7 @@ title: After
 theatre: A Classic Theatre
 venue: The Center for Spiritual Living
 season: 2026-2027
-date: 2026-09-28T15:44:24Z
+date: 2026-09-30T15:05:22.025Z
 opening_date: 2026-10-16
 closing_date: 2026-10-16
 showtimes:
@@ -21,13 +21,13 @@ featured_image_attr_link:
 program:
 website: https://www.aclassictheatre.org/2026-2027-season#after
 source: Submitted through JaxPlays production form
-source_date: 2026-09-28
-source_url: https://jaxplays.org/apply/production/
+source_date: 2026-09-30
+source_url: https://jaxplays.org/productions/2026-after/
 tickets: https://aclassictheatre.ludus.com/200543744
 cast:
-- Hank: Dexter McDaniel
+- Hank: Justin Vetter
 - Daisy: Jen Farrow
-- Administrator: Justin Vetter
+- Administrator: Dexter McDaniel
 crew:
 - Director: Harolyn Sharpe
 - Sound Designer: Ron Hunsicker
