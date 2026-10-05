@@ -11107,6 +11107,34 @@
     "searchBase": "the importance of being earnest oct 10, 1985 oct 25, 1985 theatre jacksonville little theatre"
   },
   {
+    "title": "The Rocky Horror Show",
+    "url": "/productions/1985-the-rocky-horror-show-river-city-playhouse/",
+    "contentPath": "productions/1980/1985-The-Rocky-Horror-Show-River-City-Playhouse",
+    "poster": "/media/posters/1985-The-Rocky-Horror-Show-River-City-Playhouse-Poster-01.webp",
+    "posterAlt": "Vintage poster for River City Playhouse's production of The Rocky Horror Show",
+    "openingDate": "1985-06-20",
+    "closingDate": "1985-07-27",
+    "openingLabel": "Jun 20, 1985",
+    "openingMonthLabel": "June 1985",
+    "openingBadgeLabel": "Jun 20, 1985",
+    "closingLabel": "Jul 27, 1985",
+    "theatre": "River City Playhouse",
+    "venues": [
+      "Five Points Theatre"
+    ],
+    "allVenues": [
+      "Five Points Theatre"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy",
+      "Horror"
+    ],
+    "summary": "River City Playhouse presented the original live stage production of The Rocky Horror Show at 1028 Park St. in Jacksonville.",
+    "tickets": "",
+    "searchBase": "the rocky horror show jun 20, 1985 jul 27, 1985 river city playhouse five points theatre musical comedy horror river city playhouse presented the original live stage production of the rocky horror show at 1028 park st. in jacksonville."
+  },
+  {
     "title": "The Shadow Box",
     "url": "/productions/1985-the-shadow-box/",
     "contentPath": "productions/1980/1985-The-Shadow-Box",
