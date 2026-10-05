@@ -34,6 +34,20 @@ show_details:
   - Book: "[[w:Lawrence D. Cohen]]"
   - Basis: "Based on the novel [[w:Carrie_(novel)|*Carrie*]] by [[w:Stephen King]]"
 cast:
+  - Carrie: Sadie Sims
+  - Margaret White: Regina Torres
+  - Sue: Mackenzie Sinclair
+  - Tommy: Caden Christel
+  - Chris: Jo Lynn Fletcher
+  - Billy: Noah Stevens
+  - Miss Gardner: Rachel Johns
+  - Mr. Stevens / Rev. Bliss: Mitchell Wohl
+  - Frieda: Anecia Francis
+  - Stokes: Benjamin Sandlin
+  - Norma: Natalie Recker
+  - Helen: Cianna Desideri
+  - Interrogator 1: Patrick Murphree
+  - Interrogator 2: Toni Philips
 crew:
   - Director: Caryl Butterley
   - Music Director: Erin Barnes
@@ -44,7 +58,7 @@ genres:
   - Horror
 description: A rock-driven musical about teen isolation, religious control and a mother-daughter bond that turns terrifying.
 source: The 5 & Dime production page
-source_date: 2026-06-01
+source_date: 2026-10-05
 source_url: https://the5anddime.org/s2026/carrie/
 ---
 *Carrie: The Musical* adapts Stephen King's story of a bullied teenager whose telekinetic power collides with cruelty, repression and a deeply unstable home life.
