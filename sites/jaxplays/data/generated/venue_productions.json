@@ -20174,6 +20174,31 @@
   ],
   "the-island-theater": [
     {
+      "title": "12 Angry Jurors",
+      "url": "/productions/2026-12-angry-jurors/",
+      "contentPath": "productions/2026/2026-12-Angry-Jurors",
+      "poster": "/media/posters/12-Angry-Jurors.webp",
+      "posterAlt": "Poster for 12 Angry Jurors",
+      "openingDate": "2026-11-13",
+      "closingDate": "2026-11-22",
+      "openingLabel": "Nov 13, 2026",
+      "openingMonthLabel": "November 2026",
+      "openingBadgeLabel": "Nov 13, 2026",
+      "closingLabel": "Nov 22, 2026",
+      "theatre": "The Island Theater",
+      "venues": [],
+      "allVenues": [
+        "The Island Theater"
+      ],
+      "genres": [
+        "Play",
+        "Drama"
+      ],
+      "summary": "Eleven of them think he's guilty. One of them thinks there's more to this case than it seems.",
+      "tickets": "https://www.theislandtheater.com/event-details/12-angry-jurors-2026-11-13-19-30",
+      "searchBase": "12 angry jurors nov 13, 2026 nov 22, 2026 the island theater the island theater play drama eleven of them think he's guilty. one of them thinks there's more to this case than it seems."
+    },
+    {
       "title": "The Addams Family",
       "url": "/productions/2026-the-addams-family/",
       "contentPath": "productions/2026/2026-The-Addams-Family",
