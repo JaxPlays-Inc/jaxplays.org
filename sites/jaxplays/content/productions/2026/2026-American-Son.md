@@ -33,14 +33,29 @@ cast:
   - Lieutenant John Stokes: Eugene Lindsey
 crew:
   - Director: Rhodie Jackson
+  - Stage Manager: Rhonda Fisher
+  - Scenic Design / Master Carpenter: Logan Forbess
+  - Costume Design: Phedre Delinois
+  - Prop Master: Heather Goliber
+  - Technical Director: Ryan Walker
+  - Asst. Technical Director: Maya Williams
+  - Lighting Design: Kaitlyn Gemmell
+  - Sound Design: Jillian Cote
+  - Fight Choreography: Cole Marshall
+  - Box Office Manager: Krysten Bennett
+  - House & Bar Manager: Amanda Fraser
+  - Production Photographer: Jon Scherf
+  - Promotional Photography / Graphic Design / Webmaster: Caryl Butterley
 orchestra:
 genres:
   - Play
   - Drama
 description: "There’s been an incident."
-source: The 5 & Dime production page and Facebook casting announcement
-source_date: 2026-06-17
-source_url: https://www.facebook.com/The5andDime/posts/1640880458040347/
+source: The 5 & Dime production page, production history page, and Facebook casting announcement
+source_date: 2026-08-10
+source_urls: 
+- https://the5anddime.org/s2026/american-son/
+- https://www.facebook.com/The5andDime/posts/1640880458040347/
 press:
 - title: "First Coast Connect: 5 & Dime Presents American Son"
   url: "https://www.youtube.com/watch?v=W1x8Abez7T8"
@@ -48,5 +63,7 @@ press:
   source: "WJCT 89.9 News"
 ---
 One night. One family. One broken system. A searing drama where personal anguish and systemic injustice collide when a Black teenager goes missing.
+
+Join The 5 & Dime for a community conversation on Sunday, August 2. Moderated by Patrick Murphree after the matinee performance, the conversation features Ky'Eisha W. Black and Melissa Coll, with audience members invited to ask questions and reflect on the play's themes.
 
 “High tension on every level.” — The New York Times
