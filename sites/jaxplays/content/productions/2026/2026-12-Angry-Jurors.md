@@ -28,26 +28,26 @@ website: https://www.theislandtheater.com/event-details/12-angry-jurors-2026-11-
 tickets: https://www.theislandtheater.com/event-details/12-angry-jurors-2026-11-13-19-30
 show_details:
 cast:
-  - "Madam Foreman (Juror #1): Susan West"
-  - "Juror #2: Grace Hamilton"
-  - "Juror #3: Matt Rotino"
-  - "Juror #4: Mark Hayes"
-  - "Juror #5: Luke Jacobson"
-  - "Juror #6: Chris Burns"
-  - "Juror #7: Tiffany Hugger"
-  - "Juror #8: Brayden Maye"
-  - "Juror #9: Christopher Doody"
-  - "Juror #10: Josh Katzman"
-  - "Juror #11: Anna Rafalski"
-  - "Juror #12: Eva Vargas"
-  - "Guard: Anthony Murphy"
-  - "Clerk (Voice Only): Rachel Campbell"
-  - "Judge (Voice Only): Jake Askey"
+  - "Madam Foreman (Juror #1)": Susan West
+  - "Juror #2": Grace Hamilton
+  - "Juror #3": Matt Rotino
+  - "Juror #4": Mark Hayes
+  - "Juror #5": Luke Jacobson
+  - "Juror #6": Chris Burns
+  - "Juror #7": Tiffany Hugger
+  - "Juror #8": Brayden Maye
+  - "Juror #9": Christopher Doody
+  - "Juror #10": Josh Katzman
+  - "Juror #11": Anna Rafalski
+  - "Juror #12": Eva Vargas
+  - Guard: Anthony Murphy
+  - "Clerk (Voice Only)": Rachel Campbell
+  - "Judge (Voice Only)": Jake Askey
 crew:
-  - "Director: Nathan Turoff"
-  - "Stage Manager: Allyson Norton"
-  - "Lighting: Tyler Norton"
-  - "Costumer: Maiah Rovegeno"
+  - Director: Nathan Turoff
+  - Stage Manager: Allyson Norton
+  - Lighting: Tyler Norton
+  - Costumer: Maiah Rovegeno
 understudies:
 orchestra:
 genres:
