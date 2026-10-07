@@ -17367,20 +17367,18 @@
       "openingBadgeLabel": "Jun 20, 1985",
       "closingLabel": "Jul 27, 1985",
       "theatre": "River City Playhouse",
-      "venues": [
-        "Five Points Theatre"
-      ],
+      "venues": [],
       "allVenues": [
-        "Five Points Theatre"
+        "River City Playhouse"
       ],
       "genres": [
         "Musical",
         "Comedy",
         "Horror"
       ],
-      "summary": "River City Playhouse presented the original live stage production of The Rocky Horror Show at 1028 Park St. in Jacksonville.",
+      "summary": "River City Playhouse presented the original live stage production of The Rocky Horror Show at 1028 Park St. in Jacksonville. The poster lists June 20, 21, 22, 28 and 29 at 8 p.m.; June 23 at 2 p.m.; and July 5, 6, 12,...",
       "tickets": "",
-      "searchBase": "the rocky horror show jun 20, 1985 jul 27, 1985 river city playhouse five points theatre musical comedy horror river city playhouse presented the original live stage production of the rocky horror show at 1028 park st. in jacksonville."
+      "searchBase": "the rocky horror show jun 20, 1985 jul 27, 1985 river city playhouse river city playhouse musical comedy horror river city playhouse presented the original live stage production of the rocky horror show at 1028 park st. in jacksonville. the poster lists june 20, 21, 22, 28 and 29 at 8 p.m.; june 23 at 2 p.m.; and july 5, 6, 12,..."
     }
   ],
   "jacksonville-actors-theatre": [
@@ -25177,6 +25175,31 @@
       "searchBase": "annie dec 11, 2026 dec 20, 2026 the island theater the island theater musical the island theater presents the beloved musical about a hopeful orphan whose optimism changes life for oliver warbucks and everyone around her.",
       "featuredImage": "/media/featured_images/2026-Annie-The-Island-Theater-Featured.webp",
       "featuredImageAlt": "Featured image for Annie"
+    },
+    {
+      "title": "12 Angry Jurors",
+      "url": "/productions/2026-12-angry-jurors/",
+      "contentPath": "productions/2026/2026-12-Angry-Jurors",
+      "poster": "/media/posters/12-Angry-Jurors.webp",
+      "posterAlt": "Poster for 12 Angry Jurors",
+      "openingDate": "2026-11-13",
+      "closingDate": "2026-11-22",
+      "openingLabel": "Nov 13, 2026",
+      "openingMonthLabel": "November 2026",
+      "openingBadgeLabel": "Nov 13, 2026",
+      "closingLabel": "Nov 22, 2026",
+      "theatre": "The Island Theater",
+      "venues": [],
+      "allVenues": [
+        "The Island Theater"
+      ],
+      "genres": [
+        "Play",
+        "Drama"
+      ],
+      "summary": "Eleven of them think he's guilty. One of them thinks there's more to this case than it seems.",
+      "tickets": "https://www.theislandtheater.com/event-details/12-angry-jurors-2026-11-13-19-30",
+      "searchBase": "12 angry jurors nov 13, 2026 nov 22, 2026 the island theater the island theater play drama eleven of them think he's guilty. one of them thinks there's more to this case than it seems."
     },
     {
       "title": "The Addams Family",
