@@ -47,6 +47,6 @@ source_url: https://linear.app/jaxplays/issue/JAX-5995/fall-at-blue-fire-theatre
 ---
 Blue Fire Theatre presents *Always... Patsy Cline*, a musical play created by and originally directed by Ted Swindley and based on the true story of Patsy Cline's friendship with Houston fan Louise Seger.
 
-Jennifer Paulk portrays Patsy Cline, capturing the voice, spirit and charm of one of country music's most beloved stars. Denise Oravec plays Louise Seger, Patsy's number-one fan, sharing the humor, warmth and heartfelt storytelling behind their remarkable friendship.
+Set around the unlikely bond that began after Seger met Cline in a Texas honky-tonk in 1961, the show blends storytelling, country humor, a live band and audience participation with 28 songs, including "Crazy," "I Fall to Pieces," "Sweet Dreams" and "Walking After Midnight."
 
-Performances are scheduled at the Yulee Lions Club, with evening shows at 7:30 p.m. and a Saturday matinee at 2:30 p.m. Tickets are $25 for general admission and $15 for students.
+Jennifer Paulk portrays Patsy Cline, capturing the voice, spirit and charm of one of country music's most beloved stars. Denise Oravec plays Louise Seger, Patsy's number-one fan, sharing the humor, warmth and heartfelt storytelling behind their remarkable friendship.
