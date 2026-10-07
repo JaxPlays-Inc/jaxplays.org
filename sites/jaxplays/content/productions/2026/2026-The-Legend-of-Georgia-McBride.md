@@ -63,9 +63,10 @@ genres:
   - Comedy
   - LGBTQ+
 description: A broke Elvis impersonator discovers drag, identity, and unexpected confidence under the wing of a seasoned queen.
-source: The 5 & Dime production page and program
+source: The 5 & Dime production page, production history page, and program
 source_date: 2026-05-29
 source_url: https://the5anddime.org/s2026/the-legend-of-georgia-mcbride/
+source_history_url: https://the5anddime.org/production-history/
 ---
 *The Legend of Georgia McBride* follows Casey, a struggling Elvis impersonator in Panama City, Florida, whose life changes when a seasoned drag queen helps him trade jumpsuits for sequins.
 
