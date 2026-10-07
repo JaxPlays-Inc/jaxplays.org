@@ -14,9 +14,9 @@ showtimes:
   - 2026-11-14 19:30:00
 poster: 2026-Always-Patsy-Cline.webp
 featured_image:
-poster_alt: Poster for Blue Fire Theatre's production of Always... Patsy Cline
+poster_alt: "Blue Fire Theatre poster for Always... Patsy Cline, featuring a stylized portrait of Patsy Cline, a vintage microphone, the November 6-14 dates at Yulee Lions Club, and sponsor logos."
 featured_image_alt:
-poster_caption: Poster for Always... Patsy Cline
+poster_caption: "Blue Fire Theatre presents Always... Patsy Cline at Yulee Lions Club, November 6-14."
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
