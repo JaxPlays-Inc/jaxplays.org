@@ -25,6 +25,14 @@ opening_date: 2026-10-09
 closing_date: 2026-10-25
 showtimes:
 - 2026-10-09 19:30:00
+- 2026-10-10 19:30:00
+- 2026-10-11 14:00:00
+- 2026-10-15 19:30:00
+- 2026-10-16 19:30:00
+- 2026-10-17 19:30:00
+- 2026-10-23 19:30:00
+- 2026-10-24 19:30:00
+- 2026-10-25 14:00:00
 photos:
 - photo: 2026-Once-Upon-a-One-More-Time-cast-announcement.webp
 - photo: 2026-Once-Upon-a-One-More-Time-cast-roster.webp
