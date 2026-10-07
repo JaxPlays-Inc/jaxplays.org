@@ -52,15 +52,27 @@ crew:
   - Director: Caryl Butterley
   - Music Director: Erin Barnes
   - Choreographer: Terry Star
+  - Technical Director: Ryan Walker
+  - Costume Design & Prop Master: Jenny Tammera
+  - Box Office Manager: Krysten Bennett
+  - House & Bar Manager: Cynthia Riegler
 orchestra:
+  - Conductor / 1st Keyboard: Erin Barnes
+  - 2nd Keyboard: Lacey Malone
+  - Bass: Chris Gunton
+  - Guitar: Geoff DuChemin
+  - Drums: Jay Brown
+  - Cello: Ian Rivera
 genres:
   - Musical
   - Horror
 description: A rock-driven musical about teen isolation, religious control and a mother-daughter bond that turns terrifying.
 source: The 5 & Dime production page
-source_date: 2026-10-05
+source_date: 2026-10-06
 source_url: https://the5anddime.org/s2026/carrie/
 ---
 *Carrie: The Musical* adapts Stephen King's story of a bullied teenager whose telekinetic power collides with cruelty, repression and a deeply unstable home life.
 
-The 5 & Dime's season finale is directed by Caryl Butterley, with music direction by Erin Barnes and choreography by Terry Star. A Pay What You Please performance is scheduled for Monday, Nov. 2 at 8 p.m.
+The 5 & Dime's season finale is directed by Caryl Butterley, with music direction by Erin Barnes and choreography by Terry Star. The production features a live band conducted by Erin Barnes.
+
+A community conversation is scheduled after the Sunday, Nov. 1 matinee. A Pay What You Please performance is scheduled for Monday, Nov. 2 at 8 p.m., with no reservation required.
