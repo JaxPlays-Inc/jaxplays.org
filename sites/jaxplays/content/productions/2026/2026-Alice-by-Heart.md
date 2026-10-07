@@ -83,10 +83,10 @@ genres:
   - Fantasy
 description: "It’s just a dream, but dreams can free your mind."
 source: The 5 & Dime production page and program
-source_date: 2026-06-01
+source_date: 2026-08-10
 source_url: https://the5anddime.org/s2026/alice-by-heart/
 ---
-**NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and [[theatre:Swoop Troupe]] Theater Club at UNF.
+**NOTE:** This production is a collaboration between [[theatre:The 5 and Dime]] and [[theatre:Swoop Troupe]] Theater Club at UNF, presented with support by David and Cecilia Cristol.
 
 From the creators of Spring Awakening, *Alice by Heart* is a bold reimagining of Alice in Wonderland, set in an air raid shelter during the London Blitz and pulsing with indie-rock energy, aching nostalgia, and wild theatricality. A testament to the power of imagination during the darkest of times.
 
