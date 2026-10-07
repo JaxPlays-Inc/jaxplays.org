@@ -1,7 +1,7 @@
 ---
 title: The Rocky Horror Show
 theatre: River City Playhouse
-venue: Five Points Theatre
+venue: River City Playhouse
 date: 2026-10-05T10:30:00-04:00
 opening_date: 1985-06-20
 closing_date: 1985-07-27
