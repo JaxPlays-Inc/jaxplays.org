@@ -63,10 +63,13 @@ genres:
   - Comedy
   - LGBTQ+
 description: A broke Elvis impersonator discovers drag, identity, and unexpected confidence under the wing of a seasoned queen.
-source: The 5 & Dime production page and program
+source: The 5 & Dime production page, production history page, and program
 source_date: 2026-05-29
 source_url: https://the5anddime.org/s2026/the-legend-of-georgia-mcbride/
+source_history_url: https://the5anddime.org/production-history/
 ---
 *The Legend of Georgia McBride* follows Casey, a struggling Elvis impersonator in Panama City, Florida, whose life changes when a seasoned drag queen helps him trade jumpsuits for sequins.
 
 Matthew Lopez's comedy pairs showbiz sparkle with a warm story about identity, reinvention, and the nerve it takes to step fully into the spotlight.
+
+The 5 & Dime source page also noted a community conversation panel moderated by Patrick Murphree, with Cindy Nobles of PFLAG Jacksonville, Timothy Jefferson of JASMYN, the directors, and cast members.
