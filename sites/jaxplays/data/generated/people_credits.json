@@ -208619,6 +208619,37 @@
     ],
     "orchestra": []
   },
+  "samantha-wicklund": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-5-dime-songbook/",
+        "title": "The 5 & Dime Songbook",
+        "opening_date": "2026-05-10",
+        "approx_date": "",
+        "theatre": "The 5 & Dime",
+        "venue": "The Florida Ballet",
+        "featured_image": "2026-The-5-Dime-Songbook.webp",
+        "credits": [
+          "Performer"
+        ]
+      },
+      {
+        "permalink": "/productions/2014-les-miserables/",
+        "title": "Les Misérables",
+        "opening_date": "2014-06-06",
+        "approx_date": "",
+        "theatre": "Theatre Jacksonville",
+        "venue": "Harold K. Smith Playhouse",
+        "featured_image": "2014_Les_Miserables.webp",
+        "credits": [
+          "Women's Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "samuel-smid": {
     "cast": [
       {
