@@ -167,6 +167,11 @@ outputFormats:
     isPlainText: true
     notAlternative: true
     noUgly: true
+  Newsletter_Context:
+    mediaType: application/json
+    baseName: newsletter-context
+    isPlainText: true
+    notAlternative: true
 outputs:
   home: 
     - HTML
@@ -175,6 +180,7 @@ outputs:
     - Calendar
     - Opening_Nights
     - Opening_Nights_Calendar
+    - Newsletter_Context
   section:
     - HTML
     - RSS

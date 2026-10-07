@@ -1,0 +1,178 @@
+{{- $now := now -}}
+{{- $currentDate := $now.Format "2006-01-02" -}}
+{{- $openingWindow := $now.AddDate 0 0 7 -}}
+{{- $openingWindowDate := $openingWindow.Format "2006-01-02" -}}
+{{- $soonWindow := $now.AddDate 0 0 30 -}}
+{{- $soonWindowDate := $soonWindow.Format "2006-01-02" -}}
+{{- $closingWindow := $now.AddDate 0 0 10 -}}
+{{- $closingWindowDate := $closingWindow.Format "2006-01-02" -}}
+{{- $weekdayOffsets := dict "Sunday" 4 "Monday" 5 "Tuesday" 6 "Wednesday" 7 "Thursday" 1 "Friday" 2 "Saturday" 3 -}}
+{{- $previousWednesdayOffset := index $weekdayOffsets ($now.Format "Monday") | default 7 -}}
+{{- $previousWednesday := $now.AddDate 0 0 (mul -1 $previousWednesdayOffset) -}}
+{{- $previousWednesdayDate := $previousWednesday.Format "2006-01-02" -}}
+
+{{- $productions := where .Site.RegularPages "Section" "productions" -}}
+{{- $articleSections := slice "news" "reviews" "editorials" -}}
+{{- $articles := where .Site.RegularPages "Section" "in" $articleSections -}}
+
+{{- $nowPlaying := slice -}}
+{{- $openingThisWeek := slice -}}
+{{- $openingSoon := slice -}}
+{{- $closingSoon := slice -}}
+{{- range $productions -}}
+  {{- $production := . -}}
+  {{- with $production.Params.opening_date -}}
+    {{- $openingDate := (time .).Format "2006-01-02" -}}
+    {{- $closingDate := $openingDate -}}
+    {{- with $production.Params.closing_date }}{{ $closingDate = (time .).Format "2006-01-02" }}{{ end -}}
+    {{- if and (le $openingDate $currentDate) (ge $closingDate $currentDate) -}}
+      {{- $nowPlaying = $nowPlaying | append $production -}}
+      {{- if le $closingDate $closingWindowDate -}}
+        {{- $closingSoon = $closingSoon | append $production -}}
+      {{- end -}}
+    {{- else if gt $openingDate $currentDate -}}
+      {{- if le $openingDate $openingWindowDate -}}
+        {{- $openingThisWeek = $openingThisWeek | append $production -}}
+      {{- end -}}
+      {{- if le $openingDate $soonWindowDate -}}
+        {{- $openingSoon = $openingSoon | append $production -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $nowPlaying = sort $nowPlaying "Params.closing_date" "asc" -}}
+{{- $openingThisWeek = sort $openingThisWeek "Params.opening_date" "asc" -}}
+{{- $openingSoon = sort $openingSoon "Params.opening_date" "asc" -}}
+{{- $closingSoon = sort $closingSoon "Params.closing_date" "asc" -}}
+
+{{- $recentArticles := slice -}}
+{{- range $articles -}}
+  {{- if not .Date.IsZero -}}
+    {{- $articleDate := .Date.Format "2006-01-02" -}}
+    {{- if and (ge $articleDate $previousWednesdayDate) (le $articleDate $currentDate) -}}
+      {{- $recentArticles = $recentArticles | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $recentArticles = sort $recentArticles "Date" "desc" -}}
+
+{{- $productionItems := slice -}}
+{{- range $productions -}}
+  {{- $venues := .Params.venue | default slice -}}
+  {{- if eq (printf "%T" $venues) "string" }}{{ $venues = slice $venues }}{{ end -}}
+  {{- $genres := .Params.genres | default slice -}}
+  {{- if eq (printf "%T" $genres) "string" }}{{ $genres = slice $genres }}{{ end -}}
+  {{- $posterMeta := partial "func/GetPosterImageMeta.html" . -}}
+  {{- $poster := partial "func/GetPosterImage.html" . | default "" -}}
+  {{- $summary := .Params.description | default .Summary | plainify | htmlUnescape -}}
+  {{- $productionItems = $productionItems | append (dict
+    "title" .Title
+    "url" .RelPermalink
+    "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "opening_date" (.Params.opening_date | default "")
+    "closing_date" (.Params.closing_date | default "")
+    "theatre" (.Params.theatre | default "")
+    "venues" $venues
+    "genres" $genres
+    "summary" $summary
+    "tickets" (.Params.tickets | default "")
+    "website" (.Params.website | default "")
+    "poster" $poster
+    "poster_alt" ($posterMeta.alt | default "")
+    "showtimes" (.Params.showtimes | default slice)
+  ) -}}
+{{- end -}}
+
+{{- $byPermalink := dict -}}
+{{- range $productionItems -}}
+  {{- $byPermalink = merge $byPermalink (dict .url .) -}}
+{{- end -}}
+
+{{- $nowPlayingItems := slice -}}
+{{- range $nowPlaying -}}
+  {{- with index $byPermalink .RelPermalink -}}
+    {{- $nowPlayingItems = $nowPlayingItems | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $openingThisWeekItems := slice -}}
+{{- range $openingThisWeek -}}
+  {{- with index $byPermalink .RelPermalink -}}
+    {{- $openingThisWeekItems = $openingThisWeekItems | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $openingSoonItems := slice -}}
+{{- range $openingSoon -}}
+  {{- with index $byPermalink .RelPermalink -}}
+    {{- $openingSoonItems = $openingSoonItems | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $closingSoonItems := slice -}}
+{{- range $closingSoon -}}
+  {{- with index $byPermalink .RelPermalink -}}
+    {{- $closingSoonItems = $closingSoonItems | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $articleItems := slice -}}
+{{- range $recentArticles -}}
+  {{- $authorLabel := "" -}}
+  {{- with .Params.authors -}}
+    {{- if reflect.IsSlice . -}}
+      {{- $authorLabel = delimit . ", " -}}
+    {{- else -}}
+      {{- $authorLabel = . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- with .Params.author }}{{ $authorLabel = . }}{{ end -}}
+  {{- end -}}
+  {{- $imageMeta := partial "func/GetFeaturedImageMeta.html" . -}}
+  {{- $image := partial "func/GetFeaturedImage.html" . | default "" -}}
+  {{- $summary := .Params.description | default .Summary | plainify | htmlUnescape -}}
+  {{- $body := .Plain | htmlUnescape | plainify | truncate 2200 -}}
+  {{- $articleItems = $articleItems | append (dict
+    "title" .Title
+    "section" .Section
+    "url" .RelPermalink
+    "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "author" $authorLabel
+    "production" (.Params.production | default "")
+    "theatre" (.Params.theatre | default "")
+    "summary" $summary
+    "body_excerpt" $body
+    "featured_image" $image
+    "featured_image_alt" ($imageMeta.alt | default "")
+    "is_sponsored" (or (eq .Params.advertisement true) (eq .Params.sponsored true) (eq .Params.sponsored_post true))
+  ) -}}
+{{- end -}}
+
+{{- $payload := dict
+  "generated_at" ($now.Format "2006-01-02T15:04:05Z07:00")
+  "site" (dict
+    "name" .Site.Title
+    "base_url" .Site.BaseURL
+    "tagline" (.Site.Params.tagline | default "")
+  )
+  "newsletter" (dict
+    "name" "JaxPlays Spotlight"
+    "cadence" "Weekly on Wednesday"
+    "article_window" (dict
+      "label" "since last Wednesday"
+      "start_date" $previousWednesdayDate
+      "end_date" $currentDate
+    )
+    "production_windows" (dict
+      "current_date" $currentDate
+      "opening_next_7_days_end_date" $openingWindowDate
+      "opening_next_30_days_end_date" $soonWindowDate
+      "closing_next_10_days_end_date" $closingWindowDate
+    )
+  )
+  "productions" (dict
+    "now_playing" $nowPlayingItems
+    "opening_next_7_days" $openingThisWeekItems
+    "opening_next_30_days" $openingSoonItems
+    "closing_next_10_days" $closingSoonItems
+  )
+  "recent_articles" $articleItems
+-}}
+{{- $payload | jsonify -}}
