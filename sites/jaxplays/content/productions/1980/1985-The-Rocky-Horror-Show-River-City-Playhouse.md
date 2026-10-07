@@ -23,7 +23,7 @@ showtimes:
 poster: 1985-The-Rocky-Horror-Show-River-City-Playhouse-Poster-01.webp
 poster_alt: Vintage poster for River City Playhouse's production of The Rocky Horror Show
 poster_caption: Poster for River City Playhouse's 1985 production of The Rocky Horror Show
-poster_attr: Supplied by Ray Hollister from a Facebook post
+poster_attr: Supplied by Jason Wittkopp from a Facebook post
 poster_attr_link: https://www.facebook.com/share/p/1C1F18fkSK/?mibextid=wwXIfr
 featured_image:
 featured_image_alt:
@@ -33,20 +33,21 @@ featured_image_attr_link:
 program:
 website:
 tickets:
-show_details: "The poster lists June 20, 21, 22, 28 and 29 at 8 p.m.; June 23 at 2 p.m.; and July 5, 6, 12, 13, 19, 20, 26 and 27 at midnight. The 1985 year is inferred from that calendar pattern during River City Playhouse's 1984-1991 tenancy at 1028 Park St."
+show_details: 
 cast:
   - Starring:
       - Rick Stewart
-      - Heidi Bjorn
+      - Heidi Biorn
       - Karl Rogers
       - Shawn Black
       - Joey Roper
       - Paul Kelly
       - Bob Furman
       - Henry Brewster
+      - Joyce Churhran
 crew:
   - Director: Andrew Arnold
-  - Costumes: Cookie
+  - Costumes: Cooke
 orchestra:
 genres:
   - Musical
@@ -60,3 +61,5 @@ source_urls:
   - https://5pointsjax.com/?page_id=130
 ---
 River City Playhouse presented the original live stage production of *The Rocky Horror Show* at 1028 Park St. in Jacksonville.
+
+The poster lists June 20, 21, 22, 28 and 29 at 8 p.m.; June 23 at 2 p.m.; and July 5, 6, 12, 13, 19, 20, 26 and 27 at midnight. The 1985 year is inferred from that calendar pattern during River City Playhouse's 1984-1991 tenancy at 1028 Park St.
