@@ -27,9 +27,10 @@ show_details:
   - Created by: Ted Swindley
   - Original Director: Ted Swindley
   - Basis: Based on a true story
+  - Tickets: $25 general admission; $15 students
 cast:
-- Patsy Cline: Jennifer Paulk
-- Louise Seger: Denise Oravec
+  - Patsy Cline: Jennifer Paulk
+  - Louise Seger: Denise Oravec
 crew:
   - Director: Toni D'Amico
   - Musical Director: Ben Beck
@@ -39,13 +40,13 @@ genres:
   - Musical
   - Biography
   - Tribute
-description: A country-music tribute musical follows the real friendship between Patsy Cline and devoted fan Louise Seger, pairing down-home humor with Cline's best-loved songs.
-source: Blue Fire Theatre production page and Zeffy ticketing page
-source_date: 2026-06-01
-source_url: https://www.bluefiretheatre.org/alwayspatsycline
+description: Blue Fire Theatre's country-music tribute musical follows the real friendship between Patsy Cline and devoted fan Louise Seger, pairing humor, storytelling and Cline's best-loved songs.
+source: Blue Fire Theatre production page, Zeffy ticketing page, and Linear submission JAX-5995
+source_date: 2026-10-06
+source_url: https://linear.app/jaxplays/issue/JAX-5995/fall-at-blue-fire-theatre-always-patsy-cline-paint-and-sip-jr
 ---
 Blue Fire Theatre presents *Always... Patsy Cline*, a musical play created by and originally directed by Ted Swindley and based on the true story of Patsy Cline's friendship with Houston fan Louise Seger.
 
-Set around the unlikely bond that began after Seger met Cline in a Texas honky-tonk in 1961, the show blends storytelling, country humor, a live band and audience participation with 28 songs, including "Crazy," "I Fall to Pieces," "Sweet Dreams" and "Walking After Midnight."
+Jennifer Paulk portrays Patsy Cline, capturing the voice, spirit and charm of one of country music's most beloved stars. Denise Oravec plays Louise Seger, Patsy's number-one fan, sharing the humor, warmth and heartfelt storytelling behind their remarkable friendship.
 
-Performances are scheduled at the Yulee Lions Club, with evening shows at 7:30 p.m. and a matinee at 2:30 p.m.
+Performances are scheduled at the Yulee Lions Club, with evening shows at 7:30 p.m. and a Saturday matinee at 2:30 p.m. Tickets are $25 for general admission and $15 for students.
