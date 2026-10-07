@@ -20198,6 +20198,32 @@
       "searchBase": "little women jan 8, 2027 jan 17, 2027 the island theater the island theater play a classic story of growing from girlhood into little women and the trials of life that come with the journey."
     },
     {
+      "title": "Annie",
+      "url": "/productions/2026-annie-the-island-theater/",
+      "contentPath": "productions/2026/2026-Annie-The-Island-Theater",
+      "poster": "/media/posters/2026-Annie-The-Island-Theater.webp",
+      "posterAlt": "Poster for Annie",
+      "openingDate": "2026-12-11",
+      "closingDate": "2026-12-20",
+      "openingLabel": "Dec 11, 2026",
+      "openingMonthLabel": "December 2026",
+      "openingBadgeLabel": "Dec 11, 2026",
+      "closingLabel": "Dec 20, 2026",
+      "theatre": "The Island Theater",
+      "venues": [],
+      "allVenues": [
+        "The Island Theater"
+      ],
+      "genres": [
+        "Musical"
+      ],
+      "summary": "The Island Theater presents the beloved musical about a hopeful orphan whose optimism changes life for Oliver Warbucks and everyone around her.",
+      "tickets": "https://www.theislandtheater.com/event-details/annie-2026-12-11-19-30",
+      "searchBase": "annie dec 11, 2026 dec 20, 2026 the island theater the island theater musical the island theater presents the beloved musical about a hopeful orphan whose optimism changes life for oliver warbucks and everyone around her.",
+      "featuredImage": "/media/featured_images/2026-Annie-The-Island-Theater-Featured.webp",
+      "featuredImageAlt": "Featured image for Annie"
+    },
+    {
       "title": "The Addams Family",
       "url": "/productions/2026-the-addams-family/",
       "contentPath": "productions/2026/2026-The-Addams-Family",
