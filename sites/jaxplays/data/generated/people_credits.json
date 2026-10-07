@@ -222187,6 +222187,19 @@
   "tba": {
     "cast": [
       {
+        "permalink": "/productions/2027-little-women/",
+        "title": "Little Women",
+        "opening_date": "2027-01-08",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2027-Little-Women.webp",
+        "credits": [
+          "Ted (Laurie)",
+          "Professor"
+        ]
+      },
+      {
         "permalink": "/productions/2026-frozen/",
         "title": "Disney's Frozen",
         "opening_date": "2026-07-17",
@@ -229949,6 +229962,18 @@
   },
   "tricia-williams": {
     "cast": [
+      {
+        "permalink": "/productions/2027-little-women/",
+        "title": "Little Women",
+        "opening_date": "2027-01-08",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2027-Little-Women.webp",
+        "credits": [
+          "Aunt March"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-addams-family/",
         "title": "The Addams Family",

@@ -25099,6 +25099,30 @@
   ],
   "the-island-theater": [
     {
+      "title": "Little Women",
+      "url": "/productions/2027-little-women/",
+      "contentPath": "productions/2027/2027-Little-Women",
+      "poster": "/media/posters/2027-Little-Women.webp",
+      "posterAlt": "Poster for Little Women",
+      "openingDate": "2027-01-08",
+      "closingDate": "2027-01-17",
+      "openingLabel": "Jan 8, 2027",
+      "openingMonthLabel": "January 2027",
+      "openingBadgeLabel": "Jan 8, 2027",
+      "closingLabel": "Jan 17, 2027",
+      "theatre": "The Island Theater",
+      "venues": [],
+      "allVenues": [
+        "The Island Theater"
+      ],
+      "genres": [
+        "Play"
+      ],
+      "summary": "A classic story of growing from girlhood into little women and the trials of life that come with the journey.",
+      "tickets": "https://www.theislandtheater.com/event-details/little-women-2027-01-08-19-30",
+      "searchBase": "little women jan 8, 2027 jan 17, 2027 the island theater the island theater play a classic story of growing from girlhood into little women and the trials of life that come with the journey."
+    },
+    {
       "title": "The Addams Family",
       "url": "/productions/2026-the-addams-family/",
       "contentPath": "productions/2026/2026-The-Addams-Family",
