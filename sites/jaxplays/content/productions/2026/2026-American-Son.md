@@ -53,7 +53,9 @@ genres:
 description: "There’s been an incident."
 source: The 5 & Dime production page, production history page, and Facebook casting announcement
 source_date: 2026-08-10
-source_url: https://the5anddime.org/s2026/american-son/
+source_urls: 
+- https://the5anddime.org/s2026/american-son/
+- https://www.facebook.com/The5andDime/posts/1640880458040347/
 press:
 - title: "First Coast Connect: 5 & Dime Presents American Son"
   url: "https://www.youtube.com/watch?v=W1x8Abez7T8"
