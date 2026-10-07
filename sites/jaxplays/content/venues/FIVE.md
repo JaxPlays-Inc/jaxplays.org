@@ -1,14 +1,20 @@
 ---
-title: Five Points Theatre
+title: FIVE
 redirect_from:
   - /venues/five-points-theater/
+  - /venues/five-points-theatre/
+  - /venues/5-points-theater/
+  - /venues/5-points-theatre/
+  - /venues/riverside-theatre/
+  - /venues/sun-ray-cinema/
+  - /venues/river-city-playhouse/
 venue_aliases:
   - Five Points Theater
   - 5 Points Theatre
   - 5 Points Theater
   - Riverside Theatre
   - Sun-Ray Cinema
-  - FIVE
+  - River City Playhouse
 date: 2026-10-05T10:30:00-04:00
 active: false
 featured_image:
@@ -23,11 +29,13 @@ address: |
 latitude: 30.314939
 longitude: -81.681253
 socials:
-  facebook:
+  facebook: 5jacksonville
   twitter:
-  instagram:
-  threads:
-  website:
+  instagram: 5jacksonville
+  threads: 5jacksonville
+  website: https://fivejax.com/
+  tiktok: 5jacksonville
+  wikipedia: https://en.wikipedia.org/wiki/FIVE_(music_venue)
 phone:
 seating:
 source: Supplied poster image and Five Points Theatre historical references
