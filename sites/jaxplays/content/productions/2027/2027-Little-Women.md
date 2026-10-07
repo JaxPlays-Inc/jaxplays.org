@@ -65,7 +65,11 @@ cast:
   - Professor:
       - TBA
       - Jeffrey Bohlscheid
-  - Ensemble: Gail Squires, Summer Dunn, Ange Agent, Emma Sinclitico
+  - Ensemble: 
+    - Gail Squires
+    - Summer Dunn
+    - Ange Agent
+    - Emma Sinclitico
 crew:
   - Director: Deanna Kirkeby
   - Assistant Director: Calleigh Kirkeby
