@@ -18,9 +18,9 @@ poster_alt: Poster for 12 Angry Jurors
 poster_caption: Poster for 12 Angry Jurors
 poster_attr:
 poster_attr_link:
-featured_image:
-featured_image_alt:
-featured_image_caption:
+featured_image: 12-Angry-Jurors.webp
+featured_image_alt: Featured image for 12 Angry Jurors
+featured_image_caption: Featured image for 12 Angry Jurors
 featured_image_attr:
 featured_image_attr_link:
 program:
