@@ -10,7 +10,7 @@ featured_image:
 authors:
 - JaxPlays
 show_reading_time: true
-description: "Alhambra Theatre & Dining's 2027 season includes Shout! The Mod Musical, 9 to 5, South Pacific, Disney's Frozen, Tootsie, The Addams Family and It's a Wonderful Life."
+description: "Alhambra Theatre & Dining's 2027 season includes *Shout! The Mod Musical*, *9 to 5*, *South Pacific*, *Disney's Frozen*, *Tootsie*, *The Addams Family* and *It's a Wonderful Life*."
 ---
 [[theatre:Alhambra Theatre and Dining|Alhambra Theatre & Dining]] will mark its 60th season in 2027 with an eight-show lineup that includes Broadway favorites, classic musicals, comedies and family titles.<!--more-->
 
@@ -38,14 +38,14 @@ Several Alhambra team members have worked with the theater for more than three d
 
 ### 2027 Season
 
-- *Shout! The Mod Musical*, Jan. 7-Feb. 7
-- Dolly Parton's *9 to 5 The Musical*, Feb. 18-March 28
-- *The Hallelujah Girls*, April 1-25
-- Rodgers & Hammerstein's *South Pacific*, April 29-June 6
-- Disney's *Frozen*, June 10-Aug. 8
-- *Tootsie*, Aug. 19-Sept. 26
-- *The Addams Family*, Sept. 30-Nov. 14
-- *It's a Wonderful Life*, Nov. 18-Dec. 24
+- [[production:2027 Shout The Mod Musical|Shout! The Mod Musical]], Jan. 7-Feb. 7
+- Dolly Parton's [[production:2027 9 to 5 The Musical]], Feb. 18-March 28
+- [[production:2027 The Hallelujah Girls]], April 1-25
+- Rodgers & Hammerstein's [[production:2027 South Pacific]], April 29-June 6
+- Disney's [[production:2027 Disneys Frozen|Frozen]], June 10-Aug. 8
+- [[production:2027 Tootsie]], Aug. 19-Sept. 26
+- [[production:2027 The Addams Family]], Sept. 30-Nov. 14
+- [[production:2027 Its a Wonderful Life|It's a Wonderful Life]], Nov. 18-Dec. 24
 
 **Season details**
 - **What:** Alhambra Theatre & Dining's 2027 60th anniversary season
