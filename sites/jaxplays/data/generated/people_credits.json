@@ -9695,7 +9695,20 @@
         ]
       }
     ],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Assistant Stage Managers"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "anne-bagshaw": {
@@ -11226,6 +11239,18 @@
   "anthony-green": {
     "cast": [
       {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Leroy"
+        ]
+      },
+      {
         "permalink": "/productions/2026-once-on-this-island/",
         "title": "Once On This Island",
         "opening_date": "2026-05-07",
@@ -11707,6 +11732,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Assistant Director / Stage Manager"
+        ]
+      },
       {
         "permalink": "/productions/2026-violet/",
         "title": "Violet",
@@ -26085,6 +26122,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Scenic Designer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-violet/",
         "title": "Violet",
         "opening_date": "2026-06-12",
@@ -28457,6 +28506,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "brittany-myrick": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "June"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "bronston-cass": {
@@ -35733,6 +35801,18 @@
   },
   "cate-frostman": {
     "cast": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Beatrice"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-legend-of-georgia-mcbride/",
         "title": "The Legend of Georgia McBride",
@@ -45273,6 +45353,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Fight Choreographer"
+        ]
+      },
+      {
         "permalink": "/productions/2026-american-son/",
         "title": "American Son",
         "opening_date": "2026-07-31",
@@ -49686,6 +49778,18 @@
   },
   "darvin-nelson": {
     "cast": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Lurie"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
@@ -92273,6 +92377,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Sound Design & Audio Engineering"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-play-that-goes-wrong/",
         "title": "The Play That Goes Wrong",
         "opening_date": "2026-07-24",
@@ -115214,6 +115330,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Production Manager"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-play-that-goes-wrong/",
         "title": "The Play That Goes Wrong",
@@ -146524,6 +146652,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Costume Designer"
+        ]
+      },
+      {
         "permalink": "/productions/2025-rent/",
         "title": "Rent",
         "opening_date": "2025-12-05",
@@ -147960,6 +148100,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Master Carpenter"
+        ]
+      },
       {
         "permalink": "/productions/2026-american-son/",
         "title": "American Son",
@@ -207943,6 +208095,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-feeding-beatrice/",
+        "title": "Feeding Beatrice",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2026-Feeding-Beatrice.webp",
+        "credits": [
+          "Assistant Stage Managers"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-play-that-goes-wrong/",
         "title": "The Play That Goes Wrong",
