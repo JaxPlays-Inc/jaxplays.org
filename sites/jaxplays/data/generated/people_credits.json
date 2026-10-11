@@ -5474,6 +5474,38 @@
     "crew": [],
     "orchestra": []
   },
+  "allyson-mecca": {
+    "cast": [
+      {
+        "permalink": "/productions/2023-the-prom/",
+        "title": "The Prom",
+        "opening_date": "2023-06-09",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2023_The_Prom.jpg",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Choreographer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "alma-jones": {
     "cast": [
       {
@@ -6227,6 +6259,18 @@
   },
   "amy-allen-farmer": {
     "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "OFG"
+        ]
+      },
       {
         "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
         "title": "I Love You, You're Perfect... Now Sign Here",
@@ -8148,6 +8192,49 @@
         "featured_image": "2025-Sense-and-Sensibility.webp",
         "credits": [
           "Elinor Dashwood"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "angelee-ramos": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Betany"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-godspell-1/",
+        "title": "Godspell",
+        "opening_date": "2026-02-19",
+        "approx_date": "",
+        "theatre": "Christ Church Creative Academy",
+        "venue": "Christ Church Ponte Vedra Beach",
+        "featured_image": "2026-Godspell-1.webp",
+        "credits": [
+          "Cast"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-funny-girl/",
+        "title": "Funny Girl",
+        "opening_date": "2025-02-21",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2025-Funny-Girl.webp",
+        "credits": [
+          "Emma/Ensemble"
         ]
       }
     ],
@@ -12078,18 +12165,6 @@
   "arielle-bryant": {
     "cast": [
       {
-        "permalink": "/productions/2026-once-upon-a-one-more-time/",
-        "title": "Once Upon a One More Time",
-        "opening_date": "2026-10-09",
-        "approx_date": "",
-        "theatre": "Arts Collective Theatre",
-        "venue": "Arts Collective Theatre",
-        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
-        "credits": [
-          "Goldilocks"
-        ]
-      },
-      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -12155,6 +12230,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Dance Captain"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
@@ -13134,6 +13221,44 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "ashley-gibson": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Gretel"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "ashley-humphrey": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Esmerelda"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "ashley-taylor": {
@@ -18469,6 +18594,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Stage Manager"
+        ]
+      },
       {
         "permalink": "/productions/2024-tarzan/",
         "title": "Disney's Tarzan",
@@ -28860,18 +28997,6 @@
   "brooks-anne-meierdierks": {
     "cast": [
       {
-        "permalink": "/productions/2026-once-upon-a-one-more-time/",
-        "title": "Once Upon a One More Time",
-        "opening_date": "2026-10-09",
-        "approx_date": "",
-        "theatre": "Arts Collective Theatre",
-        "venue": "Arts Collective Theatre",
-        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
-        "credits": [
-          "Original Fairy Godmother"
-        ]
-      },
-      {
         "permalink": "/productions/2025-alice-in-a-christmas-wonderland/",
         "title": "Alice in a Christmas Wonderland",
         "opening_date": "2025-12-13",
@@ -34720,18 +34845,6 @@
   "caroline-yazdiya": {
     "cast": [
       {
-        "permalink": "/productions/2026-once-upon-a-one-more-time/",
-        "title": "Once Upon a One More Time",
-        "opening_date": "2026-10-09",
-        "approx_date": "",
-        "theatre": "Arts Collective Theatre",
-        "venue": "Arts Collective Theatre",
-        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
-        "credits": [
-          "Betany"
-        ]
-      },
-      {
         "permalink": "/productions/2026-the-hunchback-of-notre-dame/",
         "title": "The Hunchback of Notre Dame",
         "opening_date": "2026-08-14",
@@ -36840,6 +36953,18 @@
   },
   "cathy-obrien": {
     "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Notorious OFG"
+        ]
+      },
       {
         "permalink": "/productions/2026-god-of-carnage/",
         "title": "God of Carnage",
@@ -41454,18 +41579,6 @@
   "chris-robertson": {
     "cast": [
       {
-        "permalink": "/productions/2026-once-upon-a-one-more-time/",
-        "title": "Once Upon a One More Time",
-        "opening_date": "2026-10-09",
-        "approx_date": "",
-        "theatre": "Arts Collective Theatre",
-        "venue": "Arts Collective Theatre",
-        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
-        "credits": [
-          "Prince Charming"
-        ]
-      },
-      {
         "permalink": "/productions/2026-the-5-dime-songbook/",
         "title": "The 5 & Dime Songbook",
         "opening_date": "2026-05-10",
@@ -41859,6 +41972,50 @@
     ],
     "understudies": [],
     "crew": [],
+    "orchestra": []
+  },
+  "christian-nyman": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Roger / Teen Angel"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Musical Director"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2023-11-10",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023-Escape-to-Margaritaville-01.webp",
+        "credits": [
+          "Musical Director"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "christian-stocks": {
@@ -44607,7 +44764,7 @@
         "venue": "Arts Collective Theatre",
         "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
         "credits": [
-          "Prince Gregarious"
+          "Prince Brawny"
         ]
       },
       {
@@ -49776,6 +49933,50 @@
     ],
     "orchestra": []
   },
+  "darryl-j-beamon": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Prince Erudite"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-choir-boy/",
+        "title": "Choir Boy",
+        "opening_date": "2023-05-12",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023_Choir_Boy.png",
+        "credits": [
+          "David Heard"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2022-ruthless/",
+        "title": "Ruthless!",
+        "opening_date": "2022-04-22",
+        "approx_date": "",
+        "theatre": "Players by the Sea",
+        "venue": "",
+        "featured_image": "2022_Ruthless.jpeg",
+        "credits": [
+          "Stage Manager"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "darvin-nelson": {
     "cast": [
       {
@@ -54459,6 +54660,25 @@
     ],
     "orchestra": []
   },
+  "dennsen-manacup": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Production Photographer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "deon-young": {
     "cast": [
       {
@@ -56121,6 +56341,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Wardrobe Supervisor"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
@@ -77122,7 +77354,7 @@
         "venue": "Arts Collective Theatre",
         "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
         "credits": [
-          "Prince Erudite"
+          "Prince Charming"
         ]
       },
       {
@@ -92389,6 +92621,18 @@
         ]
       },
       {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Lighting Design"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-play-that-goes-wrong/",
         "title": "The Play That Goes Wrong",
         "opening_date": "2026-07-24",
@@ -103034,6 +103278,37 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "iaan-quintanilla": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Prince Affable"
+        ]
+      },
+      {
+        "permalink": "/productions/2016-peter-pan/",
+        "title": "Peter Pan",
+        "opening_date": "2016-04-13",
+        "approx_date": "",
+        "theatre": "Jason Woods Productions",
+        "venue": "Christ Church Ponte Vedra Beach",
+        "featured_image": "2016-Peter-Pan.webp",
+        "credits": [
+          "Indian Tribe"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "ian-black": {
@@ -115550,6 +115825,18 @@
   "jennifer-obrien": {
     "cast": [
       {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Princess and the Pea"
+        ]
+      },
+      {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
         "opening_date": "2026-07-10",
@@ -120048,6 +120335,37 @@
     ],
     "orchestra": []
   },
+  "joanna-berry": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Little Mermaid"
+        ]
+      },
+      {
+        "permalink": "/productions/2022-bonnie-and-clyde/",
+        "title": "Bonnie & Clyde",
+        "opening_date": "2022-03-18",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "",
+        "featured_image": "2022_Bonnie_Clyde_Musical.jpeg",
+        "credits": [
+          "Bonnie"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "joanna-coburn": {
     "cast": [],
     "understudies": [],
@@ -120613,6 +120931,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Co-Director"
+        ]
+      },
       {
         "permalink": "/productions/2026-disaster/",
         "title": "Disaster!",
@@ -129672,7 +130002,20 @@
       }
     ],
     "understudies": [],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Props"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "julius-harris": {
@@ -143068,6 +143411,37 @@
     "crew": [],
     "orchestra": []
   },
+  "lauren-manacup": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Belle"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Sandy"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "lauren-massais": {
     "cast": [
       {
@@ -144702,6 +145076,20 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Director",
+          "Costume Designer",
+          "Props"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
@@ -209002,6 +209390,18 @@
   "samantha-wicklund": {
     "cast": [
       {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Stepmother"
+        ]
+      },
+      {
         "permalink": "/productions/2026-the-5-dime-songbook/",
         "title": "The 5 & Dime Songbook",
         "opening_date": "2026-05-10",
@@ -221687,6 +222087,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Sound"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
