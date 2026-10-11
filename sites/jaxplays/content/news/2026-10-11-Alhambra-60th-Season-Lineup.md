@@ -1,5 +1,7 @@
 ---
 title: "Alhambra Theatre & Dining Announces 60th Season Lineup"
+aliases:
+  - /news/2026/10/04/alhambra-announces-2027-lineup-for-its-60th-season/
 date: 2026-10-11T18:30:00-04:00
 featured_image:
   src: /media/photos/2023-Legally-Blonde-01.webp
