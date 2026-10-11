@@ -5474,6 +5474,38 @@
     "crew": [],
     "orchestra": []
   },
+  "allyson-mecca": {
+    "cast": [
+      {
+        "permalink": "/productions/2023-the-prom/",
+        "title": "The Prom",
+        "opening_date": "2023-06-09",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2023_The_Prom.jpg",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Choreographer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "alma-jones": {
     "cast": [
       {
@@ -41942,6 +41974,50 @@
     "crew": [],
     "orchestra": []
   },
+  "christian-nyman": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-grease-1/",
+        "title": "Grease",
+        "opening_date": "2026-05-22",
+        "approx_date": "",
+        "theatre": "Greenlight Theatre Company",
+        "venue": "Greenlight Theatre Company",
+        "featured_image": "2026-Grease-1.webp",
+        "credits": [
+          "Roger / Teen Angel"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Musical Director"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2023-11-10",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023-Escape-to-Margaritaville-01.webp",
+        "credits": [
+          "Musical Director"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "christian-stocks": {
     "cast": [
       {
@@ -54584,6 +54660,25 @@
     ],
     "orchestra": []
   },
+  "dennsen-manacup": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Production Photographer"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "deon-young": {
     "cast": [
       {
@@ -56246,6 +56341,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Wardrobe Supervisor"
+        ]
+      },
       {
         "permalink": "/productions/2026-victor-victoria/",
         "title": "Victor/Victoria",
@@ -129895,7 +130002,20 @@
       }
     ],
     "understudies": [],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-once-upon-a-one-more-time/",
+        "title": "Once Upon a One More Time",
+        "opening_date": "2026-10-09",
+        "approx_date": "",
+        "theatre": "Arts Collective Theatre",
+        "venue": "Arts Collective Theatre",
+        "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
+        "credits": [
+          "Props"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "julius-harris": {
@@ -144966,7 +145086,8 @@
         "featured_image": "2026-Once-Upon-a-One-More-Time.webp",
         "credits": [
           "Director",
-          "Costume Designer"
+          "Costume Designer",
+          "Props"
         ]
       },
       {
