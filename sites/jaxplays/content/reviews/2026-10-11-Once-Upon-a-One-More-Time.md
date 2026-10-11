@@ -3,9 +3,9 @@ title: "Fairy Tales, Friedan and Britney Spears: 'Once Upon a One More Time' Del
 slug: fairy-tales-friedan-and-britney-spears-once-upon-a-one-more-time-review
 date: 2026-10-11T08:22:00-04:00
 featured_image:
-  src: /media/photos/2026-Once-Upon-a-One-More-Time-cast-roster.webp
-  alt: "Cast roster graphic for Arts Collective Theatre's production of Once Upon a One More Time."
-  caption: "Arts Collective Theatre presents *Once Upon a One More Time*, a Britney Spears-fueled fairy tale remix."
+  src: /media/photos/2026-Once-Upon-a-One-More-Time-review-featured.webp
+  alt: "The cast of Arts Collective Theatre's Once Upon a One More Time raises their fists during a colorful ensemble number."
+  caption: "Arts Collective Theatre's *Once Upon a One More Time* turns fairy-tale rebellion into a full-throttle pop spectacle."
   credit:
     name: Arts Collective Theatre
 authors:
