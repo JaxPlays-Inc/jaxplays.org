@@ -1,11 +1,11 @@
 ---
 title: Brittany Myrick
 date: 2026-10-10T16:45:00-04:00
-featured_image:
-featured_image_attr:
-featured_image_attr_link:
-featured_image_alt:
-featured_image_caption:
+featured_image: Brittany-Myrick-01.webp?v=093059
+featured_image_attr: 
+featured_image_attr_link: 
+featured_image_alt: 
+featured_image_caption: 
 roles:
   - Actor
 socials:
