@@ -23,13 +23,25 @@ tickets: https://www.fscjartistseries.org/tickets/dramaworks-presents-peterwendy
 show_details: 
 - Playwright: Jeremy Bloom
 cast:
+- Wendy: Belyam Lopez
+- Peter: Noa Simon
+- Tinker Belle: Cynthia Trespalacios
+- The Tiger Lily: Paola Guzman-Vidal
+- Lost Boy/Mermaid: Troy Leatherman
+- Lost Boy: Cailyn Dorsey
+- Mr. Darling: Christopher Burns
+- Smee: Sunil Samaroo
+- Mrs. Darling/Hook: Sydney Smith
 crew:
+- Director: Fulton Burns
 orchestra:
-# Peter/Wendy
 genres:
   - Play
   - Drama
   - Fantasy
 description: "Dive into a minimalist and haunting adaptation of J.M. Barrie’s classic tales, where the whimsical and the poignant intertwine in Neverland."
+source: Submitted through JaxPlays production form
+source_date: 2026-10-07
+source_url: https://jaxplays.org/productions/2023-peter-wendy/
 ---
 *Peter/Wendy* strips J.M. Barrie's beloved stories of Peter Pan and Wendy to their emotional core, presenting a deeply atmospheric and introspective take on the adventures in Neverland. The play focuses on the themes of innocence, loss and the reluctant journey into adulthood. Jeremy Bloom's adaptation distills the narrative into a series of poignant and visually evocative scenes, using a minimalist set and innovative theatrical techniques to enhance the ethereal quality of the story. This interpretation invites the audience to rediscover the darker, more introspective aspects of Barrie’s world through the eyes of Peter, Wendy and the timeless figures that inhabit their fantastical world.
