@@ -24,6 +24,4 @@ socials:
   backstage:
   threads:
 ---
-Christopher Burns is an actor based in Northeast Florida who began his acting journey in 2021. He has performed in high school, community, and college theatre, including work with Island Theater, Greenlight Theatre, and FSCJ DramaWorks.
-
-Follow him on Instagram [@burnsactor_](https://instagram.com/burnsactor_).
+Began his journey in 2021, Christopher Burns is an actor based in Northeast Florida. He has done high school, community and college theatre all together. Check out on his socials to see what he is up to. [@burnsactor_](https://instagram.com/burnsactor_).
