@@ -15,10 +15,15 @@ roles:
 socials:
   facebook: 
   twitter: 
-  instagram: 
+  instagram: burnsactor_
   linkedin: 
   ibdb: 
   imdb:
   website:
+  bluesky:
+  backstage:
+  threads:
 ---
-Starting his acting journey in 2022, Christopher discovered passion for theatre and all of its fields. He's done high school, community and college theatre all together. He has performed at the Island Theater, Greenlight Theatre, and is currently a student at FSCJ and participates at FSCJ DramaWorks under the direction of T. Fulton Burns.
+Christopher Burns is an actor based in Northeast Florida who began his acting journey in 2021. He has performed in high school, community, and college theatre, including work with Island Theater, Greenlight Theatre, and FSCJ DramaWorks.
+
+Follow him on Instagram [@burnsactor_](https://instagram.com/burnsactor_).
