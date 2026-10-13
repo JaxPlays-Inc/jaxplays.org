@@ -31,7 +31,7 @@ cast:
     - Nick Williams
     - Greg Schuknecht
   - Squip:
-    - Alvyn Bessee
+    - Cash Belcher
     - Caden Christel
   - Chloe:
     - Aidan Mello
@@ -54,7 +54,7 @@ cast:
   - Jenna:
     - Maddie Higdon
     - Riley Rendelman
-  - Scary Stock Boy/Mr. Reves:
+  - Mr. Reyes:
     - Chris Burns
     - Ryan Blaumueller
   - Mr. Heere:
@@ -69,6 +69,12 @@ ensemble:
   - Maya Soriano
 crew:
 orchestra:
-genres: 
+genres:
+  - Musical
+  - Sci-Fi
+  - Teen Drama
+source: Submitted through JaxPlays production form
+source_date: 2026-10-07
+source_url: https://jaxplays.org/productions/2024-be-more-chill-2/
 description: 
 ---
