@@ -6,12 +6,12 @@ featured_image: Saltwater-Performing-Arts.webp
 featured_image_attr:
 featured_image_alt:
 featured_image_caption:
-founded:
+founded: 2026
 address: |
-    204 Arnow Drive
-    St. Marys, Georgia 31558
-latitude:
-longitude:
+    117 City Smitty Dr
+    St. Marys, GA
+latitude: 30.749779763211542
+longitude: -81.57478644222051
 socials:
     facebook: stmaryschildrenstheatre
     instagram: saltwaterperformingarts
