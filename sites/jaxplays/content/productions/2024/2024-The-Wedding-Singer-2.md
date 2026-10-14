@@ -15,12 +15,17 @@ showtimes:
   - 2024-08-16 19:30:00
   - 2024-08-17 19:30:00
   - 2024-08-18 14:00:00
-featured_image: 
+featured_image: 2024-2-The-Wedding-Singer.webp
 featured_image_alt: 
 featured_image_caption: 
 featured_image_attr: 
 featured_image_attr_link: 
-program: The-Wedding-Singer-program.jpeg
+poster: 2024-The-Wedding-Singer-2.webp
+poster_alt: 
+poster_caption: 
+poster_attr: 
+poster_attr_link:
+program: 
 website: 
 tickets: 
 show_details: 
@@ -55,9 +60,6 @@ understudies:
   - Linda: Lindsay Moss
 crew:
 orchestra:
-genres:
-  - Musical
-  - Comedy
 description: 
 source: Submitted through JaxPlays production form
 source_date: 2026-10-07
