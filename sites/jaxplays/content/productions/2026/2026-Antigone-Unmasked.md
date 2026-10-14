@@ -77,6 +77,66 @@ genres:
 - World Premiere
 description: Lumen Rep presents the world premiere of Brian Niece's contemporary adaptation of Sophocles' classic tragedy, set in an unnamed country recovering from civil war.
 photos:
+  - photo: 2026-Antigone-Unmasked-01.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Zonnetta Marie as the Chorus stands center stage in a white gown and gold cape, arms open and palms raised in warm amber light, flanked by masked ensemble members in Antigone: Unmasked."
+    photo_caption: "Zonnetta Marie's Chorus — reconceived as an angelic watcher who never quite looks away — presides over the world of *Antigone: Unmasked*."
+  - photo: 2026-Antigone-Unmasked-02.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Kate McManus as Ismene stands alone in blue light wearing an ornate silver mask and a blue-gray wrap, her arms folded across her body."
+    photo_caption: "Kate McManus' Ismene holds herself behind the mask, measuring survival against the cost of her sister's defiance."
+  - photo: 2026-Antigone-Unmasked-03.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Maggie Cox as Antigone sits on the floor looking up at Kate McManus as the masked Ismene, with Zonnetta Marie's Chorus watching from the platform behind them."
+    photo_caption: "Antigone (Maggie Cox) and Ismene (Kate McManus) argue over defiance and survival under the steady gaze of the Chorus (Zonnetta Marie)."
+  - photo: 2026-Antigone-Unmasked-04.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Noah Bennett as the masked Haemon sits in a shimmering blue shirt and extends an open hand toward Maggie Cox as Antigone, seen from behind."
+    photo_caption: "Haemon (Noah Bennett) reaches toward Antigone (Maggie Cox), caught between the mask he inherited and the truth he is beginning to claim."
+  - photo: 2026-Antigone-Unmasked-05.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Zonnetta Marie as the Chorus watches intently from between two blurred performers under deep blue and violet stage light."
+    photo_caption: "The Chorus (Zonnetta Marie) watches from between the action, making witness feel like both duty and judgment."
+  - photo: 2026-Antigone-Unmasked-06.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Eugene Lindsey as Creon faces forward in a sharply tailored black suit, silver sash and sculpted silver mask against a red curtain."
+    photo_caption: "Eugene Lindsey's Creon wears power as carefully as his silver mask, every tailored line reinforcing the authority he cannot afford to question."
+  - photo: 2026-Antigone-Unmasked-07.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Maggie Cox as Antigone clasps both hands of Kate McManus as the masked Ismene during an emotional exchange."
+    photo_caption: "Antigone (Maggie Cox) reaches for the masked Ismene (Kate McManus), turning the sisters' divide over courage, survival and consequence into the production's most intimate argument."
+  - photo: 2026-Antigone-Unmasked-08.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Zonnetta Marie as the Chorus stands at the left of the raised stage, Eugene Lindsey as the masked Creon stands at center and Noah Bennett as Haemon faces them from the foot of a broad ramp."
+    photo_caption: "The production's three-level geography places Creon (Eugene Lindsey) above Haemon (Noah Bennett) while the Chorus (Zonnetta Marie) measures the distance between authority and consequence."
+  - photo: 2026-Antigone-Unmasked-09.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Eugene Lindsey as the masked Creon stands over Maggie Cox as Antigone, who sits on a low block, while Zonnetta Marie's Chorus watches from the ramp behind them."
+    photo_caption: "Creon (Eugene Lindsey) tries to turn defiance into paperwork, offering Antigone (Maggie Cox) a path that demands her silence as the Chorus (Zonnetta Marie) watches from the threshold."
+  - photo: 2026-Antigone-Unmasked-10.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "A masked ensemble member wearing black and a silver sash faces Maggie Cox as Antigone beneath violet stage light."
+    photo_caption: "A masked figure confronts Antigone, making the state's anonymous machinery suddenly and physically personal."
+  - photo: 2026-Antigone-Unmasked-11.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Eugene Lindsey as the masked Creon stands rigid at center as five masked ensemble members close around him and Zonnetta Marie's Chorus watches from behind."
+    photo_caption: "The state's masked machinery closes around Creon (Eugene Lindsey) as Lumen Rep's NEXTGEN apprentices become the consequence of the order he has imposed."
+  - photo: 2026-Antigone-Unmasked-12.webp
+    photo_attr: Jax Headshots
+    photo_attr_link: https://www.jaxheadshots.co/
+    photo_alt: "Seen from behind, Zonnetta Marie as the Chorus spreads a pleated metallic gold cape like wings while another performer stands on the raised stage ahead."
+    photo_caption: "Zonnetta Marie's Chorus opens her metallic cape into a radiant pair of wings, turning Laurén Paragallo's costume into an image of watchfulness made flesh."
   - photo: 2026-Antigone-Unmasked-Principal-Cast.webp
     photo_attr: Lumen Repertory Theatre
     photo_alt: "Principal cast graphic for Lumen Repertory Theatre's Antigone: Unmasked, featuring Zonnetta Marie, Maggie Cox, Kate McManus, Noah Bennett and Eugene Lindsey."
