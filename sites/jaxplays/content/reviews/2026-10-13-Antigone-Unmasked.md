@@ -4,11 +4,12 @@ date: 2026-10-13T20:00:00-04:00
 authors:
 - Ray Hollister
 featured_image:
-  src: /media/photos/2026-Antigone-Unmasked-Principal-Cast.webp
-  alt: "Principal cast graphic for Lumen Repertory Theatre's Antigone: Unmasked, featuring Zonnetta Marie, Maggie Cox, Kate McManus, Noah Bennett and Eugene Lindsey."
-  caption: "Lumen Repertory Theatre presents the world premiere of *Antigone: Unmasked*, written and directed by Brian Niece."
+  src: /media/photos/2026-Antigone-Unmasked-01.webp
+  alt: "Zonnetta Marie as the Chorus stands center stage in a white gown and gold cape, arms open and palms raised in warm amber light, flanked by masked ensemble members in Lumen Repertory Theatre's Antigone: Unmasked."
+  caption: "Zonnetta Marie's Chorus — reconceived as an angelic watcher who never quite looks away — presides over Lumen Repertory Theatre's world premiere of *Antigone: Unmasked*, written and directed by Brian Niece."
   credit:
-    name: Lumen Repertory Theatre
+    name: Jax Headshots
+    url: https://www.jaxheadshots.co/
 show_reading_time: true
 production: 2026 Antigone Unmasked
 theatre: Lumen Repertory Theatre
