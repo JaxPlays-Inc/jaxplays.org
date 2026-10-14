@@ -26,7 +26,7 @@ featured_image_attr_link:
 program:
 website: https://www.aclassictheatre.org/2026-2027-season
 source: Submitted through JaxPlays production form
-source_date: 2026-09-28
+source_date: 2026-10-14
 source_url: https://jaxplays.org/productions/2026-vanya-and-sonia-and-masha-and-spike/
 tickets: https://aclassictheatre.ludus.com/show_page.php?show_id=200533267
 show_details:
@@ -45,8 +45,8 @@ orchestra:
 genres:
 - Play
 - Comedy
-description: Christopher Durang's Tony-winning comedy sends movie-star Masha and her young boyfriend Spike crashing into the quiet lives of siblings Vanya and Sonia.
+description: Sharp, irreverent, and surprisingly touching, this award-winning comedy delivers big laughs with a heartfelt reminder it’s never too late to reclaim your dreams
 ---
-Get ready for a hilarious, heartfelt, and gloriously dysfunctional family reunion in *Vanya and Sonia and Masha and Spike*! Vanya and Sonia are siblings who have spent years quietly living together in their childhood home, until their glamorous movie-star sister Masha arrives with her ridiculously handsome, wildly self-absorbed young boyfriend, Spike. Add a sharp-tongued, clairvoyant housekeeper, a delightfully star struck young actress, and a whole lot of jealousy, nostalgia, and bad decisions, and you have a comedy full of outrageous personalities and laugh-out-loud moments. As old resentments collide with new romantic tension, this unforgettable group of characters proves that sometimes the funniest family dramas are the ones that hit closest to home.
+Get ready for a hilarious, heartfelt, and gloriously maladjusted family reunion in *Vanya and Sonia and Masha and Spike*! Vanya and Sonia are siblings who have spent years quietly living together in their childhood home, until their glamorous movie-star sister Masha arrives with her ridiculously handsome, wildly self-absorbed young boyfriend, Spike. Add a sharp-tongued, clairvoyant housekeeper, a delightfully star struck young actress, and a whole lot of jealousy, nostalgia, and bad decisions, and you have a comedy full of outrageous personalities and laugh-out-loud moments. As old resentments collide with new romantic tension, this unforgettable group of characters proves that sometimes the funniest family dramas are the ones that hit closest to home.
 
-Christopher Durang's Chekhov-inflected comedy turns sibling tension, longing and regret into a madcap family collision.
+Christopher Durang's Chekhov-inflected Tony Award winning comedy turns sibling tension, longing and regret into a madcap family collision.
