@@ -1,14 +1,10 @@
 ---
-title: "Allyn Cole"
+title: Allyn Cole
 url: /people/allyn-cole/
 aliases:
   - /people/allyn-bessee/
-  - /people/allyn-bessee-2019-2026
-  - /people/allyn-cole-2027-present
 other_names:
   - "Allyn Bessee"
-  - "Allyn Bessee (2019-2026)"
-  - "Allyn Cole (2027-present)"
 date: "2026-10-11T00:19:44.179Z"
 featured_image: Allyn-Cole.webp
 featured_image_attr:
