@@ -19,7 +19,7 @@ showtimes:
   - 2026-10-29 19:30:00
   - 2026-10-30 19:30:00
   - 2026-10-31 14:00:00
-poster: /Volumes/TerraNVMe1-2TB/dev/sites/jaxplays.org/sites/jaxplays/content/productions/2026/2026-The-Addams-Family-Musical.md
+poster: 2026-The-Addams-Family-Musical.webp
 featured_image:
 poster_alt: Poster for The Addams Family
 featured_image_alt:
