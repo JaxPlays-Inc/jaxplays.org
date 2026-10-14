@@ -35,7 +35,7 @@ orchestra:
 genres:
   - Opera
   - Comedy
-description: "Can a love potion turn a hopeless crush into true romance? Find out in THE ELIXIR OF LOVE, a charming opera filled with love, laughter, and beautiful music."
+description: "Can a love potion turn a hopeless crush into true romance? Find out in 'The Elixir of Love', a charming opera filled with love, laughter and beautiful music."
 source: Linear submission (JAX-6105)
 source_date: 2026-10-14
 source_urls:
