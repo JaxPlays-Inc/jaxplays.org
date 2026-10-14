@@ -24,7 +24,7 @@ website: https://www.firstcoastopera.org/elixir-of-love
 tickets: https://www.firstcoastopera.org/tickets
 cast:
   - Nemorino: Pedro Valdez
-  - Adina: Elena Galván
+  - Adina: Elena Galvan
   - Belcore: Jake Stamatis
   - Dr. Dulcamera: Mark Covey
   - Gianetta: Christen May Mayer
