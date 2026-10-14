@@ -2,7 +2,7 @@
 title: "Directing History, Passion and Performance in 'The Lion in Winter'"
 date: 2026-09-02T22:00:00-04:00
 featured_image:
-  src: /media/photos/2026-The-Lion-in-Winter.webp
+  src: /media/featured_images/2026-The-Lion-in-Winter.webp
   alt: "Promotional poster for The Lion in Winter by James Goldman at Theatre Jacksonville."
   caption: "Theatre Jacksonville presents James Goldman's *The Lion in Winter* Sept. 19-Oct. 4."
   credit:
