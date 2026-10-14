@@ -468,7 +468,20 @@
         ]
       }
     ],
-    "understudies": [],
+    "understudies": [
+      {
+        "permalink": "/productions/2024-the-wedding-singer-2/",
+        "title": "The Wedding Singer",
+        "opening_date": "2024-08-09",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "",
+        "credits": [
+          "Sammy"
+        ]
+      }
+    ],
     "crew": [],
     "orchestra": []
   },
@@ -5419,6 +5432,18 @@
         "featured_image": "2024-Young-Frankenstein.webp",
         "credits": [
           "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-the-wedding-singer-2/",
+        "title": "The Wedding Singer",
+        "opening_date": "2024-08-09",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "",
+        "credits": [
+          "Robbie"
         ]
       },
       {
@@ -42407,6 +42432,18 @@
         "theatre": "Greenlight Theatre Company",
         "venue": "Riverside Church at Park and King",
         "featured_image": "2025-Chicago.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-the-wedding-singer-2/",
+        "title": "The Wedding Singer",
+        "opening_date": "2024-08-09",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "",
         "credits": [
           "Ensemble"
         ]
@@ -151366,6 +151403,18 @@
         ]
       },
       {
+        "permalink": "/productions/2024-the-wedding-singer-2/",
+        "title": "The Wedding Singer",
+        "opening_date": "2024-08-09",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "",
+        "credits": [
+          "Linda"
+        ]
+      },
+      {
         "permalink": "/productions/2024-be-more-chill-2/",
         "title": "Be More Chill",
         "opening_date": "2024-06-15",
@@ -170533,6 +170582,18 @@
         "featured_image": "2025-The-Shark-is-Broken-2.webp",
         "credits": [
           "Richard Dreyfuss"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-the-wedding-singer-2/",
+        "title": "The Wedding Singer",
+        "opening_date": "2024-08-09",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "",
+        "credits": [
+          "Sammy"
         ]
       },
       {
