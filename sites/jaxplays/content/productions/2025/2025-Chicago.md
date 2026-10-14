@@ -58,7 +58,6 @@ cast:
       - Kennedy Fulk
       - Silvana Perez-Castillo
       - Chandler Miller
-      - Christopher Burns
 understudies:
   - Mary Sunshine: Alexis Penn
   - Roxie: Ally Mecca
@@ -82,7 +81,11 @@ crew:
       - Charlie Dohm
       - Hugh Miner
 genres:
+  - Musical
 description: "*Chicago*, a raucous and iconic Broadway musical, tells the story of Roxie Hart, a housewife and nightclub dancer, and Velma Kelly, a vaudeville star, both accused of murder in 1920s Chicago, and their pursuit of fame and celebrity! "
+source: Submitted through JaxPlays production form
+source_date: 2026-10-07
+source_url: https://jaxplays.org/productions/2025-chicago/
 musical_numbers: |
   {{col-begin}}
   ;Act I
