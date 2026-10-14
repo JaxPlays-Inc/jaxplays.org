@@ -24421,7 +24421,7 @@
     "title": "The Wedding Singer",
     "url": "/productions/2024-the-wedding-singer-2/",
     "contentPath": "productions/2024/2024-The-Wedding-Singer-2",
-    "poster": "/media/default/production_poster.webp",
+    "poster": "/media/posters/2024-The-Wedding-Singer-2.webp",
     "posterAlt": "The Wedding Singer poster",
     "openingDate": "2024-08-09",
     "closingDate": "2024-08-18",
@@ -24436,11 +24436,14 @@
     ],
     "genres": [
       "Musical",
-      "Comedy"
+      "Comedy",
+      "Romance"
     ],
     "summary": "Step back into the neon-soaked '80s with The Wedding Singer, where love songs, heartbreak, and hairdos collide in this upbeat musical comedy.",
     "tickets": "",
-    "searchBase": "the wedding singer aug 9, 2024 aug 18, 2024 the island theater the island theater musical comedy step back into the neon-soaked '80s with the wedding singer, where love songs, heartbreak, and hairdos collide in this upbeat musical comedy."
+    "searchBase": "the wedding singer aug 9, 2024 aug 18, 2024 the island theater the island theater musical comedy romance step back into the neon-soaked '80s with the wedding singer, where love songs, heartbreak, and hairdos collide in this upbeat musical comedy.",
+    "featuredImage": "/media/featured_images/2024-2-The-Wedding-Singer.webp",
+    "featuredImageAlt": ""
   },
   {
     "title": "The Wedding Singer",
@@ -25632,10 +25635,12 @@
     "allVenues": [
       "Riverside Church at Park and King"
     ],
-    "genres": [],
+    "genres": [
+      "Musical"
+    ],
     "summary": "Chicago, a raucous and iconic Broadway musical, tells the story of Roxie Hart, a housewife and nightclub dancer, and Velma Kelly, a vaudeville star, both accused of murder in 1920s Chicago, and their pursuit of fame a...",
     "tickets": "https://www.greenlighttheatreco.com/jaxonstage",
-    "searchBase": "chicago may 23, 2025 jun 1, 2025 greenlight theatre company riverside church at park and king chicago, a raucous and iconic broadway musical, tells the story of roxie hart, a housewife and nightclub dancer, and velma kelly, a vaudeville star, both accused of murder in 1920s chicago, and their pursuit of fame a..."
+    "searchBase": "chicago may 23, 2025 jun 1, 2025 greenlight theatre company riverside church at park and king musical chicago, a raucous and iconic broadway musical, tells the story of roxie hart, a housewife and nightclub dancer, and velma kelly, a vaudeville star, both accused of murder in 1920s chicago, and their pursuit of fame a..."
   },
   {
     "title": "Clue",
@@ -31185,6 +31190,33 @@
   },
   {
     "title": "The Addams Family",
+    "url": "/productions/2026-the-addams-family-musical/",
+    "contentPath": "productions/2026/2026-The-Addams-Family-Musical",
+    "poster": "/media/posters/2026-The-Addams-Family-Musical.webp",
+    "posterAlt": "Poster for The Addams Family",
+    "openingDate": "2026-10-15",
+    "closingDate": "2026-10-31",
+    "openingLabel": "Oct 15, 2026",
+    "openingMonthLabel": "October 2026",
+    "openingBadgeLabel": "Oct 15, 2026",
+    "closingLabel": "Oct 31, 2026",
+    "theatre": "Amelia Community Theatre",
+    "venues": [
+      "ACT Main Stage"
+    ],
+    "allVenues": [
+      "ACT Main Stage"
+    ],
+    "genres": [
+      "Musical",
+      "Comedy"
+    ],
+    "summary": "A delightfully dark comedy where Wednesday's romance brings two very different families together in a hilarious celebration of love, individuality, and family.",
+    "tickets": "https://ameliacommunitytheatre.ludus.com/index.php?sections=events",
+    "searchBase": "the addams family oct 15, 2026 oct 31, 2026 amelia community theatre act main stage musical comedy a delightfully dark comedy where wednesday's romance brings two very different families together in a hilarious celebration of love, individuality, and family."
+  },
+  {
+    "title": "The Addams Family",
     "url": "/productions/2026-the-addams-family/",
     "contentPath": "productions/2026/2026-The-Addams-Family",
     "poster": "/media/posters/2026-The-Addams-Family-Poster.webp",
@@ -31290,6 +31322,35 @@
     "summary": "Three performers race through Shakespeare's comedies, histories, and tragedies in a fast, irreverent comic sprint through the canon.",
     "tickets": "https://www.theamp.com/events/detail/apex-presents-complete-works",
     "searchBase": "the complete works of william shakespeare abridged (revised-again!) jun 24, 2026 jun 25, 2026 apex theatre studio st. augustine amphitheatre backyard stage play comedy shakespeare three performers race through shakespeare's comedies, histories, and tragedies in a fast, irreverent comic sprint through the canon."
+  },
+  {
+    "title": "The Elixir of Love",
+    "url": "/productions/2026-the-elixir-of-love/",
+    "contentPath": "productions/2026/2026-The-Elixir-of-Love",
+    "poster": "/media/posters/2026-The-Elixir-of-Love.webp",
+    "posterAlt": "Poster for The Elixir of Love",
+    "openingDate": "2026-12-31",
+    "closingDate": "2027-01-02",
+    "openingLabel": "Dec 31, 2026",
+    "openingMonthLabel": "December 2026",
+    "openingBadgeLabel": "Dec 31, 2026",
+    "closingLabel": "Jan 2, 2027",
+    "theatre": "First Coast Opera",
+    "venues": [
+      "Lewis Auditorium"
+    ],
+    "allVenues": [
+      "Lewis Auditorium"
+    ],
+    "genres": [
+      "Opera",
+      "Comedy"
+    ],
+    "summary": "Can a love potion turn a hopeless crush into true romance? Find out in 'The Elixir of Love', a charming opera filled with love, laughter and beautiful music.",
+    "tickets": "https://www.firstcoastopera.org/tickets",
+    "searchBase": "the elixir of love dec 31, 2026 jan 2, 2027 first coast opera lewis auditorium opera comedy can a love potion turn a hopeless crush into true romance? find out in 'the elixir of love', a charming opera filled with love, laughter and beautiful music.",
+    "featuredImage": "/media/featured_images/2026-The-Elixir-of-Love-Featured.webp",
+    "featuredImageAlt": "Featured image for The Elixir of Love"
   },
   {
     "title": "The Fever",

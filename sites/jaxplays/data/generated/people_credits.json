@@ -476,7 +476,7 @@
         "approx_date": "",
         "theatre": "The Island Theater",
         "venue": "The Island Theater",
-        "featured_image": "",
+        "featured_image": "2024-The-Wedding-Singer-2.webp",
         "credits": [
           "Sammy"
         ]
@@ -1614,6 +1614,18 @@
   },
   "adeline-bishop": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Ancestors"
+        ]
+      },
       {
         "permalink": "/productions/2024-back-to-the-80s/",
         "title": "Back to the 80s",
@@ -5372,8 +5384,20 @@
     "crew": [],
     "orchestra": []
   },
-  "allyn-bessee": {
+  "allyn-cole": {
     "cast": [
+      {
+        "permalink": "/productions/2026-annie-the-island-theater/",
+        "title": "Annie",
+        "opening_date": "2026-12-11",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Annie-The-Island-Theater.webp",
+        "credits": [
+          "Rooster"
+        ]
+      },
       {
         "permalink": "/productions/2026-anything-goes/",
         "title": "Anything Goes",
@@ -5441,7 +5465,7 @@
         "approx_date": "",
         "theatre": "The Island Theater",
         "venue": "The Island Theater",
-        "featured_image": "",
+        "featured_image": "2024-The-Wedding-Singer-2.webp",
         "credits": [
           "Robbie"
         ]
@@ -11505,6 +11529,18 @@
   },
   "anthony-rodriguez": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Lucas"
+        ]
+      },
       {
         "permalink": "/productions/2026-and-then-there-were-none/",
         "title": "And Then There Were None",
@@ -25052,6 +25088,18 @@
   },
   "bob-ohara": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Lurch"
+        ]
+      },
       {
         "permalink": "/productions/2026-come-from-away-3/",
         "title": "Come From Away",
@@ -42018,6 +42066,37 @@
     "crew": [],
     "orchestra": []
   },
+  "christen-may-mayer": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-elixir-of-love/",
+        "title": "The Elixir of Love",
+        "opening_date": "2026-12-31",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Elixir-of-Love.webp",
+        "credits": [
+          "Gianetta"
+        ]
+      },
+      {
+        "permalink": "/productions/2026-rusalka/",
+        "title": "Rusalka",
+        "opening_date": "2026-11-06",
+        "approx_date": "",
+        "theatre": "Bold City Opera",
+        "venue": "Betsy Lovett Hall",
+        "featured_image": "2026-Rusalka.webp",
+        "credits": [
+          "Foreign Princess"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
   "christian-douglas": {
     "cast": [
       {
@@ -42434,6 +42513,18 @@
   "christopher-burns": {
     "cast": [
       {
+        "permalink": "/productions/2026-annie-the-island-theater/",
+        "title": "Annie",
+        "opening_date": "2026-12-11",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Annie-The-Island-Theater.webp",
+        "credits": [
+          "Drake"
+        ]
+      },
+      {
         "permalink": "/productions/2026-12-angry-jurors/",
         "title": "12 Angry Jurors",
         "opening_date": "2026-11-13",
@@ -42470,15 +42561,15 @@
         ]
       },
       {
-        "permalink": "/productions/2025-chicago/",
-        "title": "Chicago",
-        "opening_date": "2025-05-23",
+        "permalink": "/productions/2023-peter-wendy/",
+        "title": "Peter/Wendy",
+        "opening_date": "2024-10-17",
         "approx_date": "",
-        "theatre": "Greenlight Theatre Company",
-        "venue": "Riverside Church at Park and King",
-        "featured_image": "2025-Chicago.webp",
+        "theatre": "FSCJ DramaWorks",
+        "venue": "Wilson Center - Studio Theatre",
+        "featured_image": "2024-Peter-Wendy.webp",
         "credits": [
-          "Ensemble"
+          "Mr. Darling"
         ]
       },
       {
@@ -42488,7 +42579,7 @@
         "approx_date": "",
         "theatre": "The Island Theater",
         "venue": "The Island Theater",
-        "featured_image": "",
+        "featured_image": "2024-The-Wedding-Singer-2.webp",
         "credits": [
           "Ensemble"
         ]
@@ -51008,7 +51099,20 @@
       }
     ],
     "understudies": [],
-    "crew": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-after/",
+        "title": "After",
+        "opening_date": "2026-10-16",
+        "approx_date": "",
+        "theatre": "A Classic Theatre",
+        "venue": "The Center for Spiritual Living",
+        "featured_image": "2026-After.webp",
+        "credits": [
+          "Lighting Tech"
+        ]
+      }
+    ],
     "orchestra": []
   },
   "david-alford": {
@@ -60676,6 +60780,18 @@
   "doug-gluntz": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Ancestors"
+        ]
+      },
+      {
         "permalink": "/productions/2025-singin-in-the-rain/",
         "title": "Singin' in the Rain",
         "opening_date": "2025-04-10",
@@ -67395,6 +67511,18 @@
   },
   "elena-galvan": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-elixir-of-love/",
+        "title": "The Elixir of Love",
+        "opening_date": "2026-12-31",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Elixir-of-Love.webp",
+        "credits": [
+          "Adina"
+        ]
+      },
       {
         "permalink": "/productions/2025-carmen/",
         "title": "Carmen",
@@ -83804,6 +83932,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2023-peter-wendy/",
+        "title": "Peter/Wendy",
+        "opening_date": "2024-10-17",
+        "approx_date": "",
+        "theatre": "FSCJ DramaWorks",
+        "venue": "Wilson Center - Studio Theatre",
+        "featured_image": "2024-Peter-Wendy.webp",
+        "credits": [
+          "Director"
+        ]
+      },
+      {
         "permalink": "/productions/2024-slow-burn/",
         "title": "Slow Burn: Edward Albee’s One Acts: The American Dream & Zoo Story",
         "opening_date": "2024-07-12",
@@ -84108,6 +84248,18 @@
   },
   "garland-trey-stafford": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Ancestors"
+        ]
+      },
       {
         "permalink": "/productions/2025-singin-in-the-rain/",
         "title": "Singin' in the Rain",
@@ -85712,6 +85864,18 @@
   },
   "geoffrey-moss": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Fester"
+        ]
+      },
       {
         "permalink": "/productions/2024-first-date-2/",
         "title": "First Date",
@@ -97108,6 +97272,18 @@
   "haley-vonnoh": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Morticia"
+        ]
+      },
+      {
         "permalink": "/productions/2026-come-from-away-3/",
         "title": "Come From Away",
         "opening_date": "2026-09-02",
@@ -100081,6 +100257,18 @@
     ],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Director"
+        ]
+      },
       {
         "permalink": "/productions/2026-the-great-american-trailer-park-musical/",
         "title": "The Great American Trailer Park Musical",
@@ -108311,6 +108499,18 @@
         "credits": [
           "Albert"
         ]
+      },
+      {
+        "permalink": "/productions/2026-the-elixir-of-love/",
+        "title": "The Elixir of Love",
+        "opening_date": "2026-12-31",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Elixir-of-Love.webp",
+        "credits": [
+          "Belcore"
+        ]
       }
     ],
     "understudies": [],
@@ -112928,6 +113128,18 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Artistic Director"
+        ]
+      },
+      {
         "permalink": "/productions/2025-little-women-3/",
         "title": "Little Women (musical)",
         "opening_date": "2025-11-29",
@@ -115634,6 +115846,18 @@
   },
   "jennifer-jaress": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Ancestors"
+        ]
+      },
       {
         "permalink": "/productions/2025-the-sweet-delilah-swim-club/",
         "title": "The Sweet Delilah Swim Club",
@@ -121649,6 +121873,18 @@
   "joe-zaccaro": {
     "cast": [
       {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Gomez"
+        ]
+      },
+      {
         "permalink": "/productions/2025-little-women-3/",
         "title": "Little Women (musical)",
         "opening_date": "2025-11-29",
@@ -126298,6 +126534,18 @@
   "josh-katzman": {
     "cast": [
       {
+        "permalink": "/productions/2026-annie-the-island-theater/",
+        "title": "Annie",
+        "opening_date": "2026-12-11",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Annie-The-Island-Theater.webp",
+        "credits": [
+          "Bert Healy"
+        ]
+      },
+      {
         "permalink": "/productions/2026-12-angry-jurors/",
         "title": "12 Angry Jurors",
         "opening_date": "2026-11-13",
@@ -129437,6 +129685,18 @@
   },
   "judy-tipton": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Grandma"
+        ]
+      },
       {
         "permalink": "/productions/2025-singin-in-the-rain/",
         "title": "Singin' in the Rain",
@@ -151514,7 +151774,7 @@
         "approx_date": "",
         "theatre": "The Island Theater",
         "venue": "The Island Theater",
-        "featured_image": "",
+        "featured_image": "2024-The-Wedding-Singer-2.webp",
         "credits": [
           "Linda"
         ]
@@ -158252,6 +158512,25 @@
         ]
       }
     ],
+    "orchestra": []
+  },
+  "mark-covey": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-elixir-of-love/",
+        "title": "The Elixir of Love",
+        "opening_date": "2026-12-31",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Elixir-of-Love.webp",
+        "credits": [
+          "Dr. Dulcamera"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
     "orchestra": []
   },
   "mark-dougherty": {
@@ -170654,6 +170933,18 @@
   "michael-flynn": {
     "cast": [
       {
+        "permalink": "/productions/2026-annie-the-island-theater/",
+        "title": "Annie",
+        "opening_date": "2026-12-11",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Annie-The-Island-Theater.webp",
+        "credits": [
+          "Bert Healy"
+        ]
+      },
+      {
         "permalink": "/productions/2026-avenue-q/",
         "title": "Avenue Q",
         "opening_date": "2026-10-02",
@@ -170696,7 +170987,7 @@
         "approx_date": "",
         "theatre": "The Island Theater",
         "venue": "The Island Theater",
-        "featured_image": "",
+        "featured_image": "2024-The-Wedding-Singer-2.webp",
         "credits": [
           "Sammy"
         ]
@@ -189391,6 +189682,25 @@
     ],
     "orchestra": []
   },
+  "paul-houghtaling": {
+    "cast": [],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-the-elixir-of-love/",
+        "title": "The Elixir of Love",
+        "opening_date": "2026-12-31",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Elixir-of-Love.webp",
+        "credits": [
+          "Stage Director"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "paul-kirill": {
     "cast": [],
     "understudies": [],
@@ -190125,6 +190435,25 @@
         "featured_image": "",
         "credits": [
           "Barbara Fawcett"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [],
+    "orchestra": []
+  },
+  "pedro-valdez": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-the-elixir-of-love/",
+        "title": "The Elixir of Love",
+        "opening_date": "2026-12-31",
+        "approx_date": "",
+        "theatre": "First Coast Opera",
+        "venue": "Lewis Auditorium",
+        "featured_image": "2026-The-Elixir-of-Love.webp",
+        "credits": [
+          "Nemorino"
         ]
       }
     ],
@@ -195429,6 +195758,18 @@
   },
   "rae-colley": {
     "cast": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Ancestors"
+        ]
+      },
       {
         "permalink": "/productions/2026-summer-sensation-2026/",
         "title": "Summer Sensation 2026",
@@ -211328,25 +211669,6 @@
     ],
     "orchestra": []
   },
-  "sarah-dickey": {
-    "cast": [
-      {
-        "permalink": "/productions/2026-meet-me-in-st-louis/",
-        "title": "Meet Me In St. Louis",
-        "opening_date": "2026-10-01",
-        "approx_date": "",
-        "theatre": "Alhambra Theatre & Dining",
-        "venue": "Alhambra Theatre & Dining",
-        "featured_image": "2026-Meet-Me-In-St-Louis.webp",
-        "credits": [
-          "Lucille Ballard"
-        ]
-      }
-    ],
-    "understudies": [],
-    "crew": [],
-    "orchestra": []
-  },
   "sarah-kate-braddy": {
     "cast": [],
     "understudies": [],
@@ -211801,6 +212123,18 @@
   },
   "sarah-riley-dickey": {
     "cast": [
+      {
+        "permalink": "/productions/2026-meet-me-in-st-louis/",
+        "title": "Meet Me In St. Louis",
+        "opening_date": "2026-10-01",
+        "approx_date": "",
+        "theatre": "Alhambra Theatre & Dining",
+        "venue": "Alhambra Theatre & Dining",
+        "featured_image": "2026-Meet-Me-In-St-Louis.webp",
+        "credits": [
+          "Lucille Ballard"
+        ]
+      },
       {
         "permalink": "/productions/2025-charlie-and-the-chocolate-factory/",
         "title": "Charlie and the Chocolate Factory",
@@ -214366,6 +214700,18 @@
     "cast": [],
     "understudies": [],
     "crew": [
+      {
+        "permalink": "/productions/2026-the-addams-family-musical/",
+        "title": "The Addams Family",
+        "opening_date": "2026-10-15",
+        "approx_date": "",
+        "theatre": "Amelia Community Theatre",
+        "venue": "ACT Main Stage",
+        "featured_image": "2026-The-Addams-Family-Musical.webp",
+        "credits": [
+          "Director/Music Director"
+        ]
+      },
       {
         "permalink": "/productions/2025-little-women-3/",
         "title": "Little Women (musical)",
@@ -218942,6 +219288,18 @@
   },
   "steve-conrad": {
     "cast": [
+      {
+        "permalink": "/productions/2026-annie-the-island-theater/",
+        "title": "Annie",
+        "opening_date": "2026-12-11",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Annie-The-Island-Theater.webp",
+        "credits": [
+          "FDR"
+        ]
+      },
       {
         "permalink": "/productions/2026-anything-goes/",
         "title": "Anything Goes",
