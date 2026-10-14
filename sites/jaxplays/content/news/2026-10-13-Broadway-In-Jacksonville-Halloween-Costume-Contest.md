@@ -4,13 +4,13 @@ date: 2026-10-13T20:52:00-04:00
 authors:
 - JaxPlays
 featured_image:
-  src: /media/news/2026-10-13-broadway-in-jacksonville-2026-27-season.webp
-  alt: "A Broadway in Jacksonville season graphic showing The Outsiders, Hamilton, The Sound of Music, The Wiz and Jersey Boys."
-  caption: "Broadway in Jacksonville's Halloween costume contest invites fans to create looks inspired by the 2026-2027 season."
+  src: /media/news/2026-10-13-FSCJ-Artist-Series-Halloween-Costume-Contest.webp
+  alt: "Broadway in Jacksonville is inviting fans to submit Halloween costumes inspired by the 2026-2027 season lineup for a chance to win prizes."
+  caption: "Broadway in Jacksonville is inviting fans to submit Halloween costumes inspired by the 2026-2027 season lineup for a chance to win prizes."
   credit:
     name: FSCJ Artist Series
 show_reading_time: true
-description: "FSCJ Artist Series is inviting Broadway fans to submit Halloween costumes inspired by Hamilton, The Sound of Music, The Wiz, Jersey Boys and The Outsiders for a chance to win season subscriptions, a backstage tour and more."
+description: "FSCJ Artist Series is inviting Broadway fans to submit Halloween costumes inspired by *Hamilton*, *The Sound of Music*, *The Wiz*, *Jersey Boys* and *The Outsiders* for a chance to win season subscriptions, a backstage tour and more."
 ---
 [[theatre:FSCJ Artist Series]] is inviting Broadway fans across Northeast Florida to turn Halloween into a Broadway spotlight moment with a costume contest tied to the 2026-2027 Broadway in Jacksonville season.<!--more-->
 
