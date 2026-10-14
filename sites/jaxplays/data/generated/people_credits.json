@@ -179330,6 +179330,98 @@
     ],
     "orchestra": []
   },
+  "nathan-turoff": {
+    "cast": [
+      {
+        "permalink": "/productions/2026-sense-and-sensibility/",
+        "title": "Sense and Sensibility",
+        "opening_date": "2026-05-14",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2026-Sense-and-Sensibility.webp?v=080021",
+        "credits": [
+          "Edward Ferrars"
+        ]
+      },
+      {
+        "permalink": "/productions/2025-hamlet/",
+        "title": "Hamlet",
+        "opening_date": "2025-05-22",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2025-Hamlet.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-disneys-beauty-and-the-beast/",
+        "title": "Disney's Beauty and the Beast",
+        "opening_date": "2024-05-31",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "Disneys-Beauty-and-the-Beast.webp",
+        "credits": [
+          "Cogsworth"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-spamalot/",
+        "title": "Spamalot",
+        "opening_date": "2024-04-12",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "2024-Spamalot.webp",
+        "credits": [
+          "Bedevere"
+        ]
+      },
+      {
+        "permalink": "/productions/2024-phantom/",
+        "title": "Phantom",
+        "opening_date": "2024-03-15",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "Grace Darling Studio Theatre",
+        "featured_image": "2024-Phantom.webp",
+        "credits": [
+          "Inspector Ledoux"
+        ]
+      },
+      {
+        "permalink": "/productions/2023-escape-to-margaritaville/",
+        "title": "Escape to Margaritaville",
+        "opening_date": "2023-11-10",
+        "approx_date": "",
+        "theatre": "ABET - All Beaches Experimental Theatre",
+        "venue": "John McManus Mainstage Theatre",
+        "featured_image": "2023-Escape-to-Margaritaville-01.webp",
+        "credits": [
+          "Ensemble"
+        ]
+      }
+    ],
+    "understudies": [],
+    "crew": [
+      {
+        "permalink": "/productions/2026-12-angry-jurors/",
+        "title": "12 Angry Jurors",
+        "opening_date": "2026-11-13",
+        "approx_date": "",
+        "theatre": "The Island Theater",
+        "venue": "The Island Theater",
+        "featured_image": "12-Angry-Jurors.webp",
+        "credits": [
+          "Director"
+        ]
+      }
+    ],
+    "orchestra": []
+  },
   "nayda-marie-baez": {
     "cast": [
       {
