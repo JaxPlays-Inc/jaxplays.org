@@ -32954,6 +32954,37 @@
   ],
   "all-the-devils-shakespeare": [
     {
+      "title": "The War of the Worlds: Live Radio Play",
+      "url": "/productions/2026-the-war-of-the-worlds-live-radio-play/",
+      "contentPath": "productions/2026/2026-The-War-of-the-Worlds-Live-Radio-Play",
+      "poster": "/media/posters/2026-The-War-of-the-Worlds-Live-Radio-Play.webp",
+      "posterAlt": "Poster for The War of the Worlds: Live Radio Play",
+      "openingDate": "2026-10-16",
+      "closingDate": "2026-10-25",
+      "openingLabel": "Oct 16, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 16, 2026",
+      "closingLabel": "Oct 25, 2026",
+      "theatre": "All the Devils Shakespeare",
+      "venues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "allVenues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "genres": [
+        "Play",
+        "Staged Reading",
+        "Drama",
+        "Horror"
+      ],
+      "summary": "Broadcast from New York's Mercury Theatre in 1938, this infamous radio play, based on the novel by H. G. Wells, had many terrified listeners.",
+      "tickets": "https://www.zeffy.com/en-US/ticketing/war-of-the-worlds-2",
+      "searchBase": "the war of the worlds: live radio play oct 16, 2026 oct 25, 2026 all the devils shakespeare the waterworks saltwater performing arts play staged reading drama horror broadcast from new york's mercury theatre in 1938, this infamous radio play, based on the novel by h. g. wells, had many terrified listeners."
+    },
+    {
       "title": "Much Ado About Nothing",
       "url": "/productions/2026-much-ado-about-nothing/",
       "contentPath": "productions/2026/2026-Much-Ado-About-Nothing",

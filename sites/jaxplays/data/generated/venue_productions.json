@@ -23477,6 +23477,37 @@
       "featuredImageAlt": "Social preview image for Vanya and Sonia and Masha and Spike"
     },
     {
+      "title": "The War of the Worlds: Live Radio Play",
+      "url": "/productions/2026-the-war-of-the-worlds-live-radio-play/",
+      "contentPath": "productions/2026/2026-The-War-of-the-Worlds-Live-Radio-Play",
+      "poster": "/media/posters/2026-The-War-of-the-Worlds-Live-Radio-Play.webp",
+      "posterAlt": "Poster for The War of the Worlds: Live Radio Play",
+      "openingDate": "2026-10-16",
+      "closingDate": "2026-10-25",
+      "openingLabel": "Oct 16, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 16, 2026",
+      "closingLabel": "Oct 25, 2026",
+      "theatre": "All the Devils Shakespeare",
+      "venues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "allVenues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "genres": [
+        "Play",
+        "Staged Reading",
+        "Drama",
+        "Horror"
+      ],
+      "summary": "Broadcast from New York's Mercury Theatre in 1938, this infamous radio play, based on the novel by H. G. Wells, had many terrified listeners.",
+      "tickets": "https://www.zeffy.com/en-US/ticketing/war-of-the-worlds-2",
+      "searchBase": "the war of the worlds: live radio play oct 16, 2026 oct 25, 2026 all the devils shakespeare the waterworks saltwater performing arts play staged reading drama horror broadcast from new york's mercury theatre in 1938, this infamous radio play, based on the novel by h. g. wells, had many terrified listeners."
+    },
+    {
       "title": "Grand Horizons",
       "url": "/productions/2026-grand-horizons/",
       "contentPath": "productions/2026/2026-Grand-Horizons",
@@ -28344,6 +28375,39 @@
       "summary": "Catalyst Theatre partners with The Venue-Hastings for a 1928 supper club mystery dinner with fine dining, live theatre and interactive clues.",
       "tickets": "https://www.zeffy.com/en-US/ticketing/the-gilded-cage-an-immersive-mystery-dinner",
       "searchBase": "the gilded cage: an immersive mystery dinner oct 2, 2026 oct 30, 2026 catalyst theatre the venue-hastings immersive mystery dinner theatre catalyst theatre partners with the venue-hastings for a 1928 supper club mystery dinner with fine dining, live theatre and interactive clues."
+    }
+  ],
+  "saltwater-performing-arts": [
+    {
+      "title": "The War of the Worlds: Live Radio Play",
+      "url": "/productions/2026-the-war-of-the-worlds-live-radio-play/",
+      "contentPath": "productions/2026/2026-The-War-of-the-Worlds-Live-Radio-Play",
+      "poster": "/media/posters/2026-The-War-of-the-Worlds-Live-Radio-Play.webp",
+      "posterAlt": "Poster for The War of the Worlds: Live Radio Play",
+      "openingDate": "2026-10-16",
+      "closingDate": "2026-10-25",
+      "openingLabel": "Oct 16, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 16, 2026",
+      "closingLabel": "Oct 25, 2026",
+      "theatre": "All the Devils Shakespeare",
+      "venues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "allVenues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "genres": [
+        "Play",
+        "Staged Reading",
+        "Drama",
+        "Horror"
+      ],
+      "summary": "Broadcast from New York's Mercury Theatre in 1938, this infamous radio play, based on the novel by H. G. Wells, had many terrified listeners.",
+      "tickets": "https://www.zeffy.com/en-US/ticketing/war-of-the-worlds-2",
+      "searchBase": "the war of the worlds: live radio play oct 16, 2026 oct 25, 2026 all the devils shakespeare the waterworks saltwater performing arts play staged reading drama horror broadcast from new york's mercury theatre in 1938, this infamous radio play, based on the novel by h. g. wells, had many terrified listeners."
     }
   ]
 }
