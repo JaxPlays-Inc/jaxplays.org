@@ -380,9 +380,24 @@
     "featured_image": "Ally-Ingraham.webp"
   },
   "allyn-bessee": {
-    "title": "Allyn Bessee",
-    "permalink": "/people/allyn-bessee/",
-    "featured_image": "Allyn-Bessee.webp"
+    "title": "Allyn Cole",
+    "permalink": "/people/allyn-cole/",
+    "featured_image": "Allyn-Cole.webp"
+  },
+  "allyn-cole": {
+    "title": "Allyn Cole",
+    "permalink": "/people/allyn-cole/",
+    "featured_image": "Allyn-Cole.webp"
+  },
+  "allyn-bessee-2019-2026": {
+    "title": "Allyn Cole",
+    "permalink": "/people/allyn-cole/",
+    "featured_image": "Allyn-Cole.webp"
+  },
+  "allyn-cole-2027-present": {
+    "title": "Allyn Cole",
+    "permalink": "/people/allyn-cole/",
+    "featured_image": "Allyn-Cole.webp"
   },
   "allyson-mecca": {
     "title": "Allyson Mecca",
@@ -10159,6 +10174,11 @@
     "permalink": "/people/nathan-roberts/",
     "featured_image": "Nathan-Roberts.webp"
   },
+  "nathan-turoff": {
+    "title": "Nathan Turoff",
+    "permalink": "/people/nathan-turoff/",
+    "featured_image": "Nathan-Turoff.webp"
+  },
   "nayda-marie-baez": {
     "title": "Nayda Marie Baez",
     "permalink": "/people/nayda-marie-baez/",
@@ -12392,7 +12412,7 @@
   "susan-roche": {
     "title": "Susan Roche",
     "permalink": "/people/susan-roche/",
-    "featured_image": "Susan-Roche-01.webp"
+    "featured_image": "Susan-Roche.webp"
   },
   "susie-mcrae": {
     "title": "Susie McRae",

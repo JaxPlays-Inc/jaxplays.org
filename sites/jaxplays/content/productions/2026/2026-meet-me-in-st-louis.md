@@ -81,7 +81,7 @@ cast:
 - Lon: Elliot Miller
 - Frank Prophater: Dan Embree
 - Warren Sheffield: Korey Kristensen
-- Lucille Ballard: Sarah Dickey
+- Lucille Ballard: Sarah Riley Dickey
 crew:
 - Director: Shain Stroff
 - Musical Director: Cathy Murphy Giddens

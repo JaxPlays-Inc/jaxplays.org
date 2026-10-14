@@ -27,6 +27,8 @@ program:
 website: https://www.theislandtheater.com/event-details/12-angry-jurors-2026-11-13-19-30
 tickets: https://www.theislandtheater.com/event-details/12-angry-jurors-2026-11-13-19-30
 show_details:
+- Playwright: Sherman L. Sergel
+- Basis: Reginald Rose's *[[w:Twelve_Angry_Men_(Studio_One)|Twelve Angry Men]]*
 cast:
   - "Madam Foreman (Juror #1)": Susan West
   - "Juror #2": Grace Hamilton

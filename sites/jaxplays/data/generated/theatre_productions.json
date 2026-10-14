@@ -18137,7 +18137,7 @@
         "Comedy"
       ],
       "summary": "Wednesday Addams has fallen in love, and one dinner with the Beinekes sends both families into a night of secrets and surprises.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1547&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "the addams family sep 30, 2027 nov 14, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy wednesday addams has fallen in love, and one dinner with the beinekes sends both families into a night of secrets and surprises."
     },
     {
@@ -18162,7 +18162,7 @@
         "Comedy"
       ],
       "summary": "A struggling actor creates a role for himself by becoming Dorothy Michaels, then finds Broadway success and comic complications.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1546&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "tootsie aug 19, 2027 sep 26, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy a struggling actor creates a role for himself by becoming dorothy michaels, then finds broadway success and comic complications."
     },
     {
@@ -18189,7 +18189,7 @@
         "Family"
       ],
       "summary": "Anna and Elsa's story comes to life on stage in a family musical filled with humor, heart and icy magic.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1544&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "disney's frozen jun 10, 2027 aug 8, 2027 alhambra theatre & dining alhambra theatre & dining musical drama fantasy family anna and elsa's story comes to life on stage in a family musical filled with humor, heart and icy magic."
     },
     {
@@ -18216,7 +18216,7 @@
         "Historical"
       ],
       "summary": "Rodgers and Hammerstein's beloved classic pairs sweeping romance with one of Broadway's great scores against a World War II backdrop.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1543&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "south pacific apr 29, 2027 jun 6, 2027 alhambra theatre & dining alhambra theatre & dining musical drama romance historical rodgers and hammerstein's beloved classic pairs sweeping romance with one of broadway's great scores against a world war ii backdrop."
     },
     {
@@ -18241,7 +18241,7 @@
         "Comedy"
       ],
       "summary": "A group of spirited Southern women turns an abandoned church into a day spa, bringing friendship, romance and small-town chaos.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1542&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "the hallelujah girls apr 1, 2027 apr 25, 2027 alhambra theatre & dining alhambra theatre & dining play comedy a group of spirited southern women turns an abandoned church into a day spa, bringing friendship, romance and small-town chaos."
     },
     {
@@ -18266,7 +18266,7 @@
         "Comedy"
       ],
       "summary": "Inspired by the hit movie and featuring Dolly Parton's score, three fed-up coworkers turn the tables on their sexist boss.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1540&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "9 to 5: the musical feb 18, 2027 mar 28, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy inspired by the hit movie and featuring dolly parton's score, three fed-up coworkers turn the tables on their sexist boss."
     },
     {
@@ -18292,7 +18292,7 @@
         "Nostalgia"
       ],
       "summary": "Swing into the '60s with this colorful, high-energy celebration of the women, music and style that defined a generation.",
-      "tickets": "https://www.alhambrajax.com",
+      "tickets": "https://sales.alhambrajax.com/100/tickets.shows.html?playID=1539&code=JAXPLAYS&_s=1&qty_target=0",
       "searchBase": "shout! the mod musical jan 7, 2027 feb 7, 2027 alhambra theatre & dining alhambra theatre & dining musical comedy nostalgia swing into the '60s with this colorful, high-energy celebration of the women, music and style that defined a generation."
     },
     {
@@ -25995,12 +25995,11 @@
       ],
       "genres": [
         "Musical",
-        "Comedy",
-        "Romance"
+        "Comedy"
       ],
       "summary": "Step back into the neon-soaked '80s with The Wedding Singer, where love songs, heartbreak, and hairdos collide in this upbeat musical comedy.",
       "tickets": "",
-      "searchBase": "the wedding singer aug 9, 2024 aug 18, 2024 the island theater the island theater musical comedy romance step back into the neon-soaked '80s with the wedding singer, where love songs, heartbreak, and hairdos collide in this upbeat musical comedy."
+      "searchBase": "the wedding singer aug 9, 2024 aug 18, 2024 the island theater the island theater musical comedy step back into the neon-soaked '80s with the wedding singer, where love songs, heartbreak, and hairdos collide in this upbeat musical comedy."
     },
     {
       "title": "The Lightning Thief",
@@ -32954,6 +32953,37 @@
     }
   ],
   "all-the-devils-shakespeare": [
+    {
+      "title": "The War of the Worlds: Live Radio Play",
+      "url": "/productions/2026-the-war-of-the-worlds-live-radio-play/",
+      "contentPath": "productions/2026/2026-The-War-of-the-Worlds-Live-Radio-Play",
+      "poster": "/media/posters/2026-The-War-of-the-Worlds-Live-Radio-Play.webp",
+      "posterAlt": "Poster for The War of the Worlds: Live Radio Play",
+      "openingDate": "2026-10-16",
+      "closingDate": "2026-10-25",
+      "openingLabel": "Oct 16, 2026",
+      "openingMonthLabel": "October 2026",
+      "openingBadgeLabel": "Oct 16, 2026",
+      "closingLabel": "Oct 25, 2026",
+      "theatre": "All the Devils Shakespeare",
+      "venues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "allVenues": [
+        "The Waterworks",
+        "Saltwater Performing Arts"
+      ],
+      "genres": [
+        "Play",
+        "Staged Reading",
+        "Drama",
+        "Horror"
+      ],
+      "summary": "Broadcast from New York's Mercury Theatre in 1938, this infamous radio play, based on the novel by H. G. Wells, had many terrified listeners.",
+      "tickets": "https://www.zeffy.com/en-US/ticketing/war-of-the-worlds-2",
+      "searchBase": "the war of the worlds: live radio play oct 16, 2026 oct 25, 2026 all the devils shakespeare the waterworks saltwater performing arts play staged reading drama horror broadcast from new york's mercury theatre in 1938, this infamous radio play, based on the novel by h. g. wells, had many terrified listeners."
+    },
     {
       "title": "Much Ado About Nothing",
       "url": "/productions/2026-much-ado-about-nothing/",
