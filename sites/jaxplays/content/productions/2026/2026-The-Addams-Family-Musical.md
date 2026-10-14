@@ -1,5 +1,5 @@
 ---
-title: The Addams Family Musical
+title: The Addams Family
 theatre: Amelia Community Theatre
 venue: ACT Main Stage
 season: 45
@@ -19,11 +19,11 @@ showtimes:
   - 2026-10-29 19:30:00
   - 2026-10-30 19:30:00
   - 2026-10-31 14:00:00
-poster: 2026-The-Addams-Family-Musical.webp
+poster: /Volumes/TerraNVMe1-2TB/dev/sites/jaxplays.org/sites/jaxplays/content/productions/2026/2026-The-Addams-Family-Musical.md
 featured_image:
-poster_alt: Poster for The Addams Family Musical
+poster_alt: Poster for The Addams Family
 featured_image_alt:
-poster_caption: Poster for The Addams Family Musical
+poster_caption: Poster for The Addams Family
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
