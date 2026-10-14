@@ -379,22 +379,12 @@
     "permalink": "/people/ally-ingraham/",
     "featured_image": "Ally-Ingraham.webp"
   },
-  "allyn-bessee": {
-    "title": "Allyn Cole",
-    "permalink": "/people/allyn-cole/",
-    "featured_image": "Allyn-Cole.webp"
-  },
   "allyn-cole": {
     "title": "Allyn Cole",
     "permalink": "/people/allyn-cole/",
     "featured_image": "Allyn-Cole.webp"
   },
-  "allyn-bessee-2019-2026": {
-    "title": "Allyn Cole",
-    "permalink": "/people/allyn-cole/",
-    "featured_image": "Allyn-Cole.webp"
-  },
-  "allyn-cole-2027-present": {
+  "allyn-bessee": {
     "title": "Allyn Cole",
     "permalink": "/people/allyn-cole/",
     "featured_image": "Allyn-Cole.webp"
@@ -2623,6 +2613,11 @@
     "title": "Chris Thiele",
     "permalink": "/people/chris-thiele/",
     "featured_image": "Chris-Thiele.webp"
+  },
+  "christen-may-mayer": {
+    "title": "Christen May Mayer",
+    "permalink": "/people/christen-may-mayer/",
+    "featured_image": "Christen-May-Mayer.webp"
   },
   "christian-douglas": {
     "title": "Christian Douglas",
@@ -9044,6 +9039,11 @@
     "permalink": "/people/marjorie-norris/",
     "featured_image": ""
   },
+  "mark-covey": {
+    "title": "Mark Covey",
+    "permalink": "/people/mark-covey/",
+    "featured_image": "Mark-Covey.webp"
+  },
   "mark-dougherty": {
     "title": "Mark Dougherty",
     "permalink": "/people/mark-dougherty/",
@@ -10669,6 +10669,11 @@
     "permalink": "/people/paul-harris/",
     "featured_image": ""
   },
+  "paul-houghtaling": {
+    "title": "Paul Houghtaling",
+    "permalink": "/people/paul-houghtaling/",
+    "featured_image": "Paul-Houghtaling.webp"
+  },
   "paul-kirill": {
     "title": "Paul Kirill",
     "permalink": "/people/paul-kirill/",
@@ -10713,6 +10718,11 @@
     "title": "Pearl DeMent",
     "permalink": "/people/pearl-dement/",
     "featured_image": ""
+  },
+  "pedro-valdez": {
+    "title": "Pedro Valdez",
+    "permalink": "/people/pedro-valdez/",
+    "featured_image": "Pedro-Valdez.webp"
   },
   "peg-pachal": {
     "title": "Peg Pachal",
@@ -11799,11 +11809,6 @@
     "permalink": "/people/sarah-brace/",
     "featured_image": ""
   },
-  "sarah-dickey": {
-    "title": "Sarah Dickey",
-    "permalink": "/people/sarah-dickey/",
-    "featured_image": ""
-  },
   "sarah-kate-braddy": {
     "title": "Sarah Kate Braddy",
     "permalink": "/people/sarah-kate-braddy/",
@@ -11842,7 +11847,17 @@
   "sarah-riley-dickey": {
     "title": "Sarah Riley Dickey",
     "permalink": "/people/sarah-riley-dickey/",
-    "featured_image": ""
+    "featured_image": "Sarah-Riley-Dickey.webp"
+  },
+  "sarah-riley": {
+    "title": "Sarah Riley Dickey",
+    "permalink": "/people/sarah-riley-dickey/",
+    "featured_image": "Sarah-Riley-Dickey.webp"
+  },
+  "sarah-dickey": {
+    "title": "Sarah Riley Dickey",
+    "permalink": "/people/sarah-riley-dickey/",
+    "featured_image": "Sarah-Riley-Dickey.webp"
   },
   "sarah-sasser": {
     "title": "Sarah Sasser",
