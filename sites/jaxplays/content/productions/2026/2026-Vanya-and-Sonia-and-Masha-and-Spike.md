@@ -49,4 +49,4 @@ description: Sharp, irreverent, and surprisingly touching, this award-winning co
 ---
 Get ready for a hilarious, heartfelt, and gloriously maladjusted family reunion in *Vanya and Sonia and Masha and Spike*! Vanya and Sonia are siblings who have spent years quietly living together in their childhood home, until their glamorous movie-star sister Masha arrives with her ridiculously handsome, wildly self-absorbed young boyfriend, Spike. Add a sharp-tongued, clairvoyant housekeeper, a delightfully star struck young actress, and a whole lot of jealousy, nostalgia, and bad decisions, and you have a comedy full of outrageous personalities and laugh-out-loud moments. As old resentments collide with new romantic tension, this unforgettable group of characters proves that sometimes the funniest family dramas are the ones that hit closest to home.
 
-Christopher Durang's Chekhov-inflected Tony Award winning comedy turns sibling tension, longing and regret into a madcap family collision.
+Christopher Durang's Chekhov-inflected Tony Award-winning comedy turns sibling tension, longing and regret into a madcap family collision.
