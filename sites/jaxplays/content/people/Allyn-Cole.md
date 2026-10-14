@@ -13,6 +13,8 @@ featured_image_alt: "Headshot of Allyn Cole"
 featured_image_caption: "Headshot of Allyn Cole"
 roles:
   - Actor
+headshot_gallery:
+  - image: Allyn-Bessee.webp
 socials:
   facebook: 
   twitter: 
@@ -27,7 +29,7 @@ socials:
   backstage:
 ---
 
-Allyn Cole is a Semi-Retired regional theatre actor, having worked for 7 years since his stage debut in 2019. He resides in Fleming Island, with roommate and fellow actor Aaron Burdick.
+Allyn Cole is a semi-retired regional theatre actor, having worked for 7 years since his stage debut in 2019. He resides in Fleming Island, with roommate and fellow actor Aaron Burdick.
 
 Notable local credits include: Roger Davis (RENT, PBTS), Drew Boley (Rock of Ages, OPCT), Riff Raff (Rocky Horror, GTC), Frank Abagnale Jr. (Catch Me if You Can, Island Theater), Hans (Frozen, Island Theater)
 
