@@ -70,6 +70,11 @@ description: A rock-driven musical about teen isolation, religious control and a
 source: The 5 & Dime production page
 source_date: 2026-10-06
 source_url: https://the5anddime.org/s2026/carrie/
+press:
+  - title: "Step Into the Shadow and Spark: Choreographer Terry Star on 'Carrie: The Musical'"
+    source: JaxPlays
+    date: 2026-10-21
+    url: /news/2026/10/21/terry-star-carrie-musical-qa/
 ---
 *Carrie: The Musical* adapts Stephen King's story of a bullied teenager whose telekinetic power collides with cruelty, repression and a deeply unstable home life.
 
