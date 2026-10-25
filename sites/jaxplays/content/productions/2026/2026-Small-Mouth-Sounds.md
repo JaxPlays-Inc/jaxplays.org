@@ -29,8 +29,21 @@ tickets: https://tickets.judolphins.com/
 show_details:
 - Playwright: "[[w:Bess Wohl]]"
 cast:
+- Alicia: Vivianna Coppa
+- Joan: Sammie Coleman
+- Judy: Fiona Rushton
+- Ned: Nathan "Cookie" Cook
+- Rodney: Alexander "Al" Davis
+- Jan: Cooper Von Balson
+- Voice of the Teacher: Alec Hadden
 crew:
 - Director: Thaddeus Walker
+- Sound Designer: Jelopi Sedeu Nishevikj
+- Lighting Designer: Haleigh Canaday
+- Props: Abigail Marks
+- Stage Manager: Abigail Marks
+- Costume Designer: Theo Austell
+- Program Designer: Theo Austell
 understudies:
 orchestra:
 genres:
