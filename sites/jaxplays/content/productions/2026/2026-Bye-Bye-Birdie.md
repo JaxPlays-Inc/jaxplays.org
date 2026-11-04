@@ -18,15 +18,15 @@ showtimes:
   - 2026-04-23 19:30:00
   - 2026-04-24 19:30:00
   - 2026-04-25 19:30:00
-poster:
+poster: 2026-Bye-Bye-Birdie.webp
 featured_image:
-poster_alt:
+poster_alt: "Poster for Amelia Community Theatre's Bye Bye Birdie, featuring a vintage microphone between a kissing couple and the production dates April 9-25, 2026."
 featured_image_alt:
-poster_caption:
+poster_caption: "Rock-and-roll fever takes over Sweet Apple when Amelia Community Theatre presents *Bye Bye Birdie* April 9-25, 2026."
 featured_image_caption:
-poster_attr:
+poster_attr: Amelia Community Theatre
 featured_image_attr:
-poster_attr_link:
+poster_attr_link: https://www.facebook.com/ameliacommunitytheatre/
 featured_image_attr_link:
 photos:
   - photo: 2026-Bye-Bye-Birdie-01.webp
