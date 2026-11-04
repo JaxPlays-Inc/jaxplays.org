@@ -347,7 +347,7 @@
   "allie-basile": {
     "title": "Allie Basile",
     "permalink": "/people/allie-basile/",
-    "featured_image": "Allie-Basile.webp"
+    "featured_image": "Allie-Basile-01.webp"
   },
   "allie-kangas": {
     "title": "Allie Kangas",
@@ -757,7 +757,7 @@
   "anthony-rodriguez": {
     "title": "Anthony Rodriguez",
     "permalink": "/people/anthony-rodriguez/",
-    "featured_image": ""
+    "featured_image": "Anthony-Rodriguez.webp"
   },
   "anthony-romero": {
     "title": "Anthony Romero",
@@ -898,6 +898,11 @@
     "title": "Ashlyn Colwell",
     "permalink": "/people/ashlyn-colwell/",
     "featured_image": ""
+  },
+  "ashlyn-scott": {
+    "title": "Ashlyn Scott",
+    "permalink": "/people/ashlyn-scott/",
+    "featured_image": "Ashlyn-Scott.webp"
   },
   "ashlynn-amburgey": {
     "title": "Ashlynn Amburgey",
@@ -1565,16 +1570,6 @@
     "featured_image": "Bob-OHara.webp"
   },
   "bob-o-hara": {
-    "title": "Bob O'Hara",
-    "permalink": "/people/bob-ohara/",
-    "featured_image": "Bob-OHara.webp"
-  },
-  "robert-o-hara": {
-    "title": "Bob O'Hara",
-    "permalink": "/people/bob-ohara/",
-    "featured_image": "Bob-OHara.webp"
-  },
-  "robert-ohara": {
     "title": "Bob O'Hara",
     "permalink": "/people/bob-ohara/",
     "featured_image": "Bob-OHara.webp"
@@ -8792,7 +8787,7 @@
   "malia-jaffe": {
     "title": "Malia Jaffe",
     "permalink": "/people/malia-jaffe/",
-    "featured_image": ""
+    "featured_image": "Malia-Jaffe.webp"
   },
   "mallory-earley": {
     "title": "Mallory Earley",
@@ -12213,6 +12208,11 @@
     "title": "Soph Willis",
     "permalink": "/people/soph-willis/",
     "featured_image": "Soph-Willis.webp"
+  },
+  "sophia-rose-loveday": {
+    "title": "Sophia Rose Loveday",
+    "permalink": "/people/sophia-rose-loveday/",
+    "featured_image": "Sophia-Rose-Loveday.webp"
   },
   "sophie-zedler": {
     "title": "Sophie Zedler",

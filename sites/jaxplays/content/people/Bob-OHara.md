@@ -1,9 +1,5 @@
 ---
 title: Bob O'Hara
-aliases:
- - /people/robert-ohara
-other_names:
- - Robert O'Hara
 date: 2026-06-14T18:29:56-04:00
 featured_image: Bob-OHara.webp
 featured_image_attr: Kailin Lake
