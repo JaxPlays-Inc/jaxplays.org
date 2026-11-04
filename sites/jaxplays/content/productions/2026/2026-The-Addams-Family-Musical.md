@@ -3,7 +3,7 @@ title: The Addams Family
 theatre: Amelia Community Theatre
 venue: ACT Main Stage
 season: 45
-date: 2026-10-11T03:53:24Z
+date: 2026-10-19T23:33:18.528Z
 opening_date: 2026-10-15
 closing_date: 2026-10-31
 showtimes:
@@ -27,7 +27,7 @@ poster_caption: Poster for The Addams Family
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
-program:
+program: The-Addams-Family-Musical-program.pdf
 website: https://www.ameliacommunitytheatre.org/
 tickets: https://ameliacommunitytheatre.ludus.com/index.php?sections=events
 show_details:
@@ -57,19 +57,62 @@ cast:
       - Trey Stafford
 understudies:
 crew:
-  - Director: Heather Starling
-  - Director/Music Director: Shea Zaccaro
-  - Choreographer: Sophia Rose Loveday
-  - Stage Manager: Lindsay Coon
-  - Artistic Director: Jayme Taylor
+  - Directors:
+      - Heather Starling
+      - Shea Zaccaro
+  - Stage Manager: Lindsay Marie
+  - Music Director: Shea Zaccaro
+  - Choreographers:
+      - Sophia Rose Loveday
+      - Heather Starling
+  - Technical Director: Thomas Muhn
+  - Costume Leads:
+      - Vicki Gibson
+      - Heather Starling
+  - Costume Crew:
+      - Barbara Farnsworth
+      - Vicki Gibson
+      - Missy Tremblay
+      - Jennifer Webber
+      - Terri Witkosky
+      - Cheryl Witt
+  - Props Mistress: Peggy Strickland
+  - Light and Sound Board Operators:
+      - Anne Foos
+      - AJ Shimpeno
+  - Props / Stage Crew:
+      - Lizzie Moffett
+      - River Plungis
+  - Scenic Painting: Arthur Herman
+  - Set Construction:
+      - Bill Bowler
+      - Paul Braeger
+      - Gary Brunt
+      - Burton Combs
+      - Matt Hemphill
+      - Bob Knapp
+      - Dean Koepp
+      - Jamie Morrill
+      - Steve Powers
+      - John Riordan
+      - Ed Spang
+      - Wayne Tamme
+      - Elizabeth Wilson
+  - Set Painting:
+      - Anne Foos
+      - Clare Hemphill
+      - Jessica Hemphill
+      - Jayne Jeney
+      - Peggy Strickland
+      - Missy Tremblay
 orchestra:
 genres:
   - Musical
   - Comedy
 description: A delightfully dark comedy where Wednesday's romance brings two very different families together in a hilarious celebration of love, individuality, and family.
 source: Submitted through JaxPlays production form
-source_date: 2026-10-11
-source_url: https://jaxplays.org/apply/production/
+source_date: 2026-10-19
+source_url: https://jaxplays.org/productions/2026-the-addams-family-musical/
 ---
 They're creepy, they're kooky, and they're coming to ACT! The Addams Family brings everyone's favorite delightfully macabre family to the stage in a musical comedy packed with humor, heart, and unforgettable songs. When Wednesday Addams falls in love with a sweet, respectable young man from a very different family, secrets are revealed, dinner goes hilariously off the rails, and both families discover what it truly means to accept one another.
 

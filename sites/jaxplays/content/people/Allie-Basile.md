@@ -3,11 +3,17 @@ title: Allie Basile
 aliases: []
 other_names: []
 date: 2026-08-29T00:35:04.612Z
-featured_image: Allie-Basile.webp
-featured_image_attr: "Amelia Musical playhouse Facebook page"
+featured_image: Allie-Basile-01.webp
+featured_image_attr: ""
 featured_image_attr_link:
 featured_image_alt: "Headshot of Allie Basile"
 featured_image_caption: "Headshot of Allie Basile"
+headshot_gallery:
+  - image: Allie-Basile.webp
+    image_attr: "Amelia Musical playhouse Facebook page"
+    image_attr_link:
+    image_alt: "Headshot of Allie Basile"
+    image_caption: "Headshot of Allie Basile"
 roles:
   - Actor
 socials:
