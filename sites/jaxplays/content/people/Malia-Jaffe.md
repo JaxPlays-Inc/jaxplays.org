@@ -1,6 +1,11 @@
 ---
 title: Malia Jaffe
 date: 2026-09-19T15:07:09-04:00
+featured_image: Malia-Jaffe.webp
+featured_image_attr:
+featured_image_attr_link:
+featured_image_alt: "Headshot of Malia Jaffe"
+featured_image_caption: "Headshot of Malia Jaffe"
 roles:
   - Actor
 socials:
