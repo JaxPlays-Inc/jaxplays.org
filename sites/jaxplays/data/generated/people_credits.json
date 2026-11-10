@@ -1236,6 +1236,19 @@
     "understudies": [],
     "crew": [
       {
+        "permalink": "/productions/2026-small-mouth-sounds/",
+        "title": "Small Mouth Sounds",
+        "opening_date": "2026-10-22",
+        "approx_date": "",
+        "theatre": "Jacksonville University - Stein College",
+        "venue": "Swisher Theater",
+        "featured_image": "2026-Small-Mouth-Sounds-Jacksonville-University.webp",
+        "credits": [
+          "Props",
+          "Stage Manager"
+        ]
+      },
+      {
         "permalink": "/productions/2026-into-the-woods/",
         "title": "Into the Woods",
         "opening_date": "2026-06-18",
@@ -2953,6 +2966,18 @@
   },
   "alec-hadden": {
     "cast": [
+      {
+        "permalink": "/productions/2026-small-mouth-sounds/",
+        "title": "Small Mouth Sounds",
+        "opening_date": "2026-10-22",
+        "approx_date": "",
+        "theatre": "Jacksonville University - Stein College",
+        "venue": "Swisher Theater",
+        "featured_image": "2026-Small-Mouth-Sounds-Jacksonville-University.webp",
+        "credits": [
+          "Voice of the Teacher"
+        ]
+      },
       {
         "permalink": "/productions/2026-i-love-you-youre-perfect-now-sign-here/",
         "title": "I Love You, You're Perfect... Now Sign Here",
