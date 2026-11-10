@@ -11,16 +11,21 @@ showtimes:
 - 2026-10-23 19:30:00
 - 2026-10-24 14:00:00
 - 2026-10-24 19:30:00
+poster: 2026-Small-Mouth-Sounds-Jacksonville-University.webp
+poster_alt: Poster for Jacksonville University's production of Small Mouth Sounds
+poster_caption: Poster for Jacksonville University's production of Small Mouth Sounds
+poster_attr: Jacksonville University
+poster_attr_link: https://www.ju.edu/cfa/events.php
 featured_image:
 featured_image_alt:
 featured_image_caption:
 featured_image_attr:
 featured_image_attr_link:
 program:
-website:
-source: Submitted news draft from Maureen E. McCluskey, Ed.D.
-source_date: 2026-09-18
-source_url:
+website: https://www.ju.edu/cfa/events.php
+source: Jacksonville University; submitted news draft from Maureen E. McCluskey, Ed.D.
+source_date: 2026-10-20
+source_url: https://www.ju.edu/cfa/events.php
 tickets: https://tickets.judolphins.com
 show_details:
 - Playwright: "[[w:Bess Wohl]]"
