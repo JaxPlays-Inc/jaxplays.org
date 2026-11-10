@@ -5,6 +5,10 @@ venue: Mandarin Community Club
 date: 2026-09-29T09:00:00-04:00
 opening_date: 2026-11-06
 closing_date: 2026-11-15
+poster: 2026-The-Price-of-Liberty.webp
+poster_alt: "Poster for The Price of Liberty featuring figures in Revolutionary War-era clothing against the Declaration of Independence and a colonial building."
+poster_caption: "Theatre Troupe 1776 presents The Price of Liberty, November 6–15, 2026."
+poster_attr: Theatre Troupe 1776
 tickets: https://www.showtixnow.com/public/venue/theatre-troupe-1776-26/all
 show_details:
   - Playwright: Louise Everett
