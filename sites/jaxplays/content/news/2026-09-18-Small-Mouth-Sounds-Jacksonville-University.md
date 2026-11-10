@@ -4,6 +4,7 @@ date: 2026-09-18T20:10:00-04:00
 authors:
 - Maureen E. McCluskey, Ed.D.
 show_reading_time: true
+featured_image: /media/posters/2026-Small-Mouth-Sounds-Jacksonville-University.webp
 description: "Jacksonville University's production of Bess Wohl's Small Mouth Sounds, directed by Thaddeus Walker, asks audiences to consider silence, wellness culture and human connection in an era of constant online noise."
 ---
 JACKSONVILLE, Fla. - Silence is often treated as an absence, a void waiting to be filled by notifications, curated feeds and chatter. But in [[theatre:Jacksonville University - Stein College|Jacksonville University]]'s upcoming production of *[[production:2026 Small Mouth Sounds|Small Mouth Sounds]]*, taking place at [[venue:Swisher Theater]], silence serves as the main stage.<!--more-->
