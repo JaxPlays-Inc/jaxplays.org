@@ -1,6 +1,7 @@
 const DEFAULT_ALLOWED_ORIGINS = [
   "https://jaxplays.org",
   "https://www.jaxplays.org",
+  "https://live.jaxplays.org",
 ];
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
