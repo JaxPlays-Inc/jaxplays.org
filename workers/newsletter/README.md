@@ -25,7 +25,8 @@ Configured behavior:
 
 - verifies Cloudflare Turnstile before Mailchimp is called
 - rejects filled honeypot fields
-- allows configured production origins plus local Hugo dev origins on ports `1313-1319`
+- allows configured production origins, the noindex `live.jaxplays.org` acceptance-testing origin,
+  plus local Hugo dev origins on ports `1313-1319`
 - uses Mailchimp single opt-in with `status_if_new: subscribed`
 - adds configured Worker-level Mailchimp tags with `NEWSLETTER_SOURCE_TAGS`
 - adds page-submitted Mailchimp tags from the JSON `tags` field

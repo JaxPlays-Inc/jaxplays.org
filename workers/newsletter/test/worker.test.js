@@ -21,7 +21,7 @@ import {
 } from "../src/worker.js";
 
 const env = {
-  ALLOWED_ORIGINS: "https://jaxplays.org",
+  ALLOWED_ORIGINS: "https://jaxplays.org,https://live.jaxplays.org",
   MAILCHIMP_API_KEY: "test-key",
   MAILCHIMP_AUDIENCE_ID: "audience-id",
   MAILCHIMP_CAMPAIGN_FILL_URL_FIELD: "URLFILL",
@@ -95,6 +95,17 @@ test("uses configured Mailchimp merge field for campaign fill URL", () => {
 test("rejects disallowed origins", () => {
   assert.equal(corsHeaders("https://example.com", env), null);
   assert.equal(corsHeaders("https://jaxplays.org", env)["Access-Control-Allow-Origin"], "https://jaxplays.org");
+  assert.equal(
+    corsHeaders("https://live.jaxplays.org", env)["Access-Control-Allow-Origin"],
+    "https://live.jaxplays.org"
+  );
+});
+
+test("allows the live preview origin by default for pre-cutover form testing", () => {
+  assert.equal(
+    corsHeaders("https://live.jaxplays.org")["Access-Control-Allow-Origin"],
+    "https://live.jaxplays.org"
+  );
 });
 
 test("allows only local Hugo dev ports for known local hosts", () => {
