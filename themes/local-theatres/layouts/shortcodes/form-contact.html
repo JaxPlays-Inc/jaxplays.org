@@ -1,3 +1,6 @@
+{{- if site.Params.archiveMode -}}
+  {{- partial "archive-form-notice.html" .Page -}}
+{{- else -}}
 {{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
 {{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
 
@@ -18,3 +21,4 @@
     <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-black bg-animate bg-black" type="submit" value="{{ i18n "send" }}" />
 
 </form>
+{{- end -}}

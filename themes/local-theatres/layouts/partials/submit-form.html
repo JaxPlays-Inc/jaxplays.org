@@ -1,4 +1,7 @@
 {{- $page := .page -}}
+{{- if $page.Site.Params.archiveMode -}}
+  {{- partial "archive-form-notice.html" $page -}}
+{{- else -}}
 {{- $formKey := .form | default $page.Params.form_type | default $page.Layout -}}
 {{- $forms := index hugo.Data "submit" "forms" | default dict -}}
 {{- $form := index $forms $formKey -}}
@@ -1388,3 +1391,4 @@
   </script>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </div>
+{{- end -}}

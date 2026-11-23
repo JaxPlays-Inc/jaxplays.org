@@ -1,3 +1,6 @@
+{{- if site.Params.archiveMode -}}
+  {{- partial "archive-form-notice.html" site.Home -}}
+{{- else -}}
 {{- $tags := .tags | default "Homepage Signup Form" -}}
 <div data-newsletter-signup>
   <form action="https://api.jaxplays.org/newsletter" method="POST" data-newsletter-form data-tags="{{ $tags }}" novalidate>
@@ -123,3 +126,4 @@
   </script>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </div>
+{{- end -}}

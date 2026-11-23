@@ -1,5 +1,6 @@
 {{/* For Users's overwrite */}}
-{{ if eq .Site.BaseURL "https://jaxplays.org/" }}
+{{ $archive := site.Params.archiveMode | default false }}
+{{ if and (not $archive) (eq .Site.BaseURL "https://jaxplays.org/") }}
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -9,6 +10,7 @@
   <!-- End Google Tag Manager -->
 {{ end }}
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+{{ if not $archive }}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114187912197731" crossorigin="anonymous"></script>
 {{/*  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/04eb8788678f5bd18b03e5d80/2eedab88261cbcae6f44a6957.js");</script>  */}}
 <script>
@@ -24,3 +26,4 @@
   }
 </script>
 <script async src="https://js.sparkloop.app/team_885570b764fc.js" data-sparkloop></script>
+{{ end }}
