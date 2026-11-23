@@ -4,11 +4,14 @@ frontmatter.json
 .frontmatter/database/taxonomyDb.json
 /public/*
 sites/*/public/
+sites/*/public-archive/
 sites/*/resources/
 sites/*/.hugo_build.lock
 .hugo_cache/
 .wrangler/
 **/.wrangler/
+workers/hugo-archive/.large-assets/
+workers/*/node_modules/
 .claude/settings.local.json
 .DS_Store
 .stignore

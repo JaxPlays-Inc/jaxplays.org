@@ -70,14 +70,18 @@ jobs:
           scripts/build_site.sh \
             --minify \
             --baseURL "$BASE_URL"
+      - name: Build and verify frozen archive
+        run: |
+          scripts/build_hugo_archive.sh --minify
+          scripts/check_hugo_archive.sh
       - name: Upload artifact
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && vars.HUGO_FROZEN != 'true'
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./sites/jaxplays/public
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && vars.HUGO_FROZEN != 'true'
     environment:
       name: github-pages
       url: https://jaxplays.org
@@ -115,7 +119,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     # Only run this job on push events, not on schedule or manual dispatch
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && vars.HUGO_FROZEN != 'true'
     env:
       MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
       MAILCHIMP_SERVER_PREFIX: ${{ secrets.MAILCHIMP_SERVER_PREFIX }}
@@ -179,7 +183,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     # Only run this job on push events after the site has deployed successfully.
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && vars.HUGO_FROZEN != 'true'
     env:
       HUGO_VERSION: 0.163.3
       WEBPUSHR_API_KEY: ${{ secrets.WEBPUSHR_API_KEY }}

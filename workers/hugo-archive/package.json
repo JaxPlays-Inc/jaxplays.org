@@ -1,0 +1,15 @@
+{
+  "name": "jaxplays-hugo-archive",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "../../scripts/build_hugo_archive.sh --minify && ../../scripts/check_hugo_archive.sh",
+    "check": "npm test && npm run build && wrangler deploy --dry-run",
+    "deploy": "npm run check && ../../scripts/upload_hugo_archive_large_assets.sh && wrangler deploy",
+    "r2:create": "wrangler r2 bucket create jaxplays-hugo-archive-large-assets",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.159.0"
+  }
+}

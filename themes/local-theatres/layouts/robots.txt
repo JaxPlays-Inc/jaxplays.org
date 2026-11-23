@@ -1,6 +1,8 @@
 User-agent: *
 {{/* Check if we are in production mode */}}
-{{ if or (eq (getenv "HUGO_ENV") "production") (eq .Site.Params.env "production") }}
+{{ if .Site.Params.archiveMode }}
+Disallow: /
+{{ else if or (eq (getenv "HUGO_ENV") "production") (eq .Site.Params.env "production") }}
 Disallow: /genres/
 Disallow: /shows/
 Allow: /

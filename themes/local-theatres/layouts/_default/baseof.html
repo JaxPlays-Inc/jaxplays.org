@@ -22,18 +22,23 @@
       })();
     </script>
     {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
+    {{ $archive := site.Params.archiveMode | default false }}
     {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
     {{ $public := not .Params.private }}
-    {{ if and $production $public }}
+    {{ if and $production $public (not $archive) }}
       <meta name="robots" content="index, follow">
     {{ else }}
       <meta name="robots" content="noindex, nofollow">
     {{ end }}
 
-    {{ with .Params.relcanonical }}
-      <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
-    {{ else -}}
-      <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    {{ if $archive }}
+      <link rel="canonical" href="{{ site.Params.canonicalOrigin }}{{ .RelPermalink }}" itemprop="url" />
+    {{ else }}
+      {{ with .Params.relcanonical }}
+        <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+      {{ else -}}
+        <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+      {{ end -}}
     {{ end -}}
 
     {{ partial "site-style.html" . }}
@@ -58,21 +63,27 @@
     {{- partial "schema/page.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
 
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+    {{ if and (not $archive) (eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")) }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
 	{{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-    {{ if eq .Site.BaseURL "https://jaxplays.org/" }}
+    {{ if and (not $archive) (eq .Site.BaseURL "https://jaxplays.org/") }}
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP9LXK2T"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- End Google Tag Manager (noscript) -->
     {{ end }}
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    {{ if not (eq .Params.ads false) }}
+    {{ if $archive }}
+      <aside class="ba b--gold bw1 bg-gold black center measure-wide mv3 pa3" role="status" data-hugo-archive-banner>
+        <p class="b ma0 mb2">Frozen JaxPlays archive</p>
+        <p class="ma0">This site is preserved for reference and rollback only. Visit <a class="b black" href="https://jaxplays.org{{ .RelPermalink }}">the current JaxPlays page</a> for active information and forms.</p>
+      </aside>
+    {{ end }}
+    {{ if and (not $archive) (not (eq .Params.ads false)) }}
       {{- partial "GAM-billboard-1.html" . -}}
     {{ end }}
     {{/*  {{ partial "givebutter_campaign.html" . }}  */}}

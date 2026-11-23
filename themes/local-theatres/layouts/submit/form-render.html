@@ -1,5 +1,12 @@
 {{/* {{ define "header" }}{{ partial "page-header.html" . }}{{ end }} */}}
 {{ define "main" }}
+{{ if site.Params.archiveMode }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw8 w-100">
+      {{ partial "archive-form-notice.html" . }}
+    </article>
+  </div>
+{{ else }}
 <div class="flex-l mt2 mw8 center">
   <article class="center cf pv5 ph3 ph4-ns mw8 w-100">
     <div class="nested-copy-line-height lh-copy f5 f4-ns">
@@ -169,4 +176,5 @@
     </div>
   </article>
 </div>
+{{ end }}
 {{ end }}
